@@ -141,6 +141,13 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
 - Atelier : chaque variante est un vrai design différent (pas un seul paramètre qui change), auditée visuellement avant envoi
   (rien qui chevauche, rien qui dépasse, bien centré) ; ne jamais représenter le même changement deux fois pour un même type de slide.
 
+### Créativité dans les ateliers (Pierre, 11 Nov 2026)
+- Quand Pierre demande d'être créatif, il faut CHANGER LA MISE EN PAGE, pas un détail : ne pas garder la structure existante (ex. flèche + 3 bulles)
+  en ne variant que la couleur ou une barre. Chaque variante = une autre façon de représenter l'information (règle graduée, tableau,
+  menu, pyramide, compteur, plans SaaS, quadrillage…). Mieux vaut une idée osée qu'une 30e retouche du même dessin.
+- Quand il demande N variations, en montrer vraiment N, toutes différentes, auditées visuellement (texte complet, rien qui dépasse).
+- Choix retenu : prix (slide 13) = quadrillage de fond (gammes posées sur une grille prix, items5 ZB).
+
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
    that LLM does the research AND returns the final JSON/CSV in the same answer (never research first, then a second "go").
