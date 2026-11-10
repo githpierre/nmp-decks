@@ -49,7 +49,7 @@ def run(deck, only=()):
     d = pathlib.Path(deck).resolve()
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': 960, 'height': 672})
-        pg.goto((d / 'deck.html').as_uri()); pg.wait_for_load_state('load'); pg.evaluate('document.fonts.ready'); pg.wait_for_function('window.__rawfit === true', timeout=60000)
+        pg.goto((d / 'deck.html').as_uri()); pg.wait_for_load_state('load'); pg.evaluate('document.fonts.ready'); pg.wait_for_function('window.__rawfit === true && window.__decided !== false', timeout=60000)
         r = pg.evaluate(JS, list(only)); b.close()
     (d / 'audit_groups.json').write_text(json.dumps(r, ensure_ascii=False, indent=1))
     return r

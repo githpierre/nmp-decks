@@ -6,7 +6,7 @@ from PIL import Image
 
 HERE = pathlib.Path(__file__).parent
 deck = pathlib.Path(sys.argv[1]).resolve(); out = pathlib.Path(sys.argv[2]); (out / 'img').mkdir(parents=True, exist_ok=True)
-spec = importlib.util.spec_from_file_location('items', HERE / 'items.py'); M = importlib.util.module_from_spec(spec); spec.loader.exec_module(M)
+spec = importlib.util.spec_from_file_location('items', HERE / (__import__('os').environ.get('ITEMS','items') + '.py')); M = importlib.util.module_from_spec(spec); spec.loader.exec_module(M)
 items = M.ITEMS
 only = set(sys.argv[3:])
 if only: items = [i for i in items if str(i['id']) in only]
@@ -14,7 +14,7 @@ ICONS = (HERE / 'icons.json').read_text(); LIB = (HERE / 'lib.js').read_text()
 
 with sync_playwright() as p:
     b = p.chromium.launch(); pg = b.new_page(viewport={'width': 960, 'height': 672}, device_scale_factor=2)
-    pg.goto(deck.joinpath('deck.html').as_uri()); pg.wait_for_function('window.__rawfit === true', timeout=120000)
+    pg.goto(deck.joinpath('deck.html').as_uri()); pg.wait_for_function('window.__rawfit === true && window.__decided !== false', timeout=120000)
     pg.add_style_tag(content='.slide{margin:0!important}body{background:#062A3C}')
     pg.evaluate('ic => { window.ICONS = JSON.parse(ic); }', ICONS); pg.add_script_tag(content=LIB)
     pg.evaluate("""() => { window.__pristine = {}; document.querySelectorAll('.slide').forEach(s => window.__pristine[s.dataset.n] = s.cloneNode(true)); }""")

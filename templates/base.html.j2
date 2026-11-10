@@ -31,4 +31,5 @@
   document.querySelectorAll('.foot-label').forEach(f => { let ls = 0.42; while (f.scrollWidth > f.clientWidth + 1 && ls > 0.1) { ls -= 0.02; f.style.letterSpacing = ls + 'em'; } });
   m.remove(); })();</script>
 <script>{% include 'rawfit.js' %}</script>
+{% for f in deck.scripts or [] %}<script src="{{ f }}"></script>{% endfor %}
 </body></html>

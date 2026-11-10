@@ -28,6 +28,6 @@ for i, sl in enumerate(prs.slides, 1):
         r = pptx2html.convert(sl, theme, media, 'media/raw'); s['section'] = r['section'] or 'EdTech market'
     s['src'] = i
     slides.append(s)
-deck = dict(proto); deck.update(slug='edtech-full', slides=slides)
+deck = dict(proto); deck.update(slug='edtech-full', slides=slides, scripts=['decisions.js'])
 (out / 'deck.yaml').write_text(yaml.dump(deck, allow_unicode=True, sort_keys=False, width=1000))
 print(len(slides), 'slides,', sum(1 for s in slides if s['type'] == 'raw'), 'converted as-is')

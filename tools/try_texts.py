@@ -20,7 +20,7 @@ JS = r"""(C) => C.map(c => {
 d = pathlib.Path(sys.argv[1]).resolve(); C = json.load(open(sys.argv[2]))
 with sync_playwright() as p:
     b = p.chromium.launch(); pg = b.new_page(viewport={'width': 960, 'height': 672})
-    pg.goto((d / 'deck.html').as_uri()); pg.wait_for_function('window.__rawfit === true', timeout=90000)
+    pg.goto((d / 'deck.html').as_uri()); pg.wait_for_function('window.__rawfit === true && window.__decided !== false', timeout=90000)
     R = pg.evaluate(JS, C); b.close()
 for c, r in zip(C, R):
     print(f"== {c['n']} k{c['k']}")

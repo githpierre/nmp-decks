@@ -65,15 +65,15 @@
   11: {text: "They lead testing and qualifications worldwide, with £3.6B of sales in 2025"}
   21: {text: "They lead online K-12 schools in the US, with $2.52B of revenue in a year"}
 
-22:  # 5 lines each
-  6: {text: "Proven learning gains, because schools and districts now ask for clear results before they buy", lines: 5}
-  7: {text: "Student data safety, because one breach at PowerSchool exposed the records of 62M students", lines: 5}
-  8: {text: "Teacher time saved, because teachers spend many hours each week planning lessons and grading", lines: 5}
-  9: {text: "Speaking practice, because most language apps still teach reading and writing more than talking", lines: 5}
-  10: {text: "Skills tied to jobs, because most adults learn to get hired, to get promoted, or to earn more", lines: 5}
-  11: {text: "Curriculum fit, because schools only buy tools that match what their teachers already teach", lines: 5}
-  12: {text: "Human support, because many online learners still quit when nobody checks on their progress", lines: 5}
-  13: {text: "Low prices, because families and schools in most countries have small budgets for learning tools", lines: 5}
+22:  # 4 lines each (Pierre, 10 Nov 23h)
+  6: {lines: 4}
+  7: {lines: 4}
+  8: {lines: 4}
+  9: {lines: 4}
+  10: {lines: 4}
+  11: {lines: 4}
+  12: {lines: 4}
+  13: {lines: 4}
 
 23:  # right texts: 2-3 more words, balanced; red crosses at 80 %
   6: {join: true}

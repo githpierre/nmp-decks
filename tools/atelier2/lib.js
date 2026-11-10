@@ -28,7 +28,7 @@ window.A = (() => {
       return `<span style="display:inline-flex;align-items:center;justify-content:center;width:${size + 2 * pad}px;height:${size + 2 * pad}px;border-radius:${o.ring.radius || '50%'};background:${o.ring.bg || 'transparent'};border:${o.ring.border || 'none'};box-sizing:border-box">${ic}</span>`;
     });
     if (parts.some(x => !x)) return;
-    sp.innerHTML = parts.join(''); sp.style.display = 'inline-flex'; sp.style.gap = (o.gap || Math.round(size * .25)) + 'px'; sp.style.verticalAlign = 'middle';
+    sp.innerHTML = parts.join(''); sp.classList.add('aic'); sp.style.display = 'inline-flex'; sp.style.gap = (o.gap || Math.round(size * .25)) + 'px'; sp.style.verticalAlign = 'middle';
     const p = sp.closest('p'); if (p) { p.style.lineHeight = '1'; p.style.display = 'flex'; p.style.justifyContent = p.style.textAlign === 'left' ? 'flex-start' : 'center'; }
   });
   const add = (sl, html) => { const d = document.createElement('div'); d.innerHTML = html; const r = sl.querySelector('.raw') || sl; [...d.children].forEach(c => r.appendChild(c)); return r.lastChild; };
@@ -38,5 +38,35 @@ window.A = (() => {
   const unfilter = arr => arr.forEach(o => o.el.style.filter = 'none');
   const color = (el, c) => (el.el || el).querySelectorAll('span').forEach(s => s.style.color = c);
   const near = (a, b, d = 6) => Math.abs(a - b) <= d;
-  return {C, S, box, shapes, texts, imgs, emojis, swap, svg, add, div, hide, restroke, unfilter, color, near, isEmoji};
+  // cards = drawn boxes (not lines, not tiny marks)
+  const cards = sl => shapes(sl).filter(s => s.p && s.stroke && s.stroke !== 'none' && !s.line && s.w > 90 && s.h > 40 && s.w < 700);
+  const inside = (b, c, m = 2) => b.cx > c.x - m && b.cx < c.x + c.w + m && b.cy > c.y - m && b.cy < c.y + c.h + m;
+  const contentRect = el => { const r = document.createRange(); r.selectNodeContents(el); const q = r.getBoundingClientRect(); return q; };
+  // centre the content of each card (icon + text together) vertically; off = extra px down
+  const centerCards = (sl, off = 0, list) => { const R = sl.getBoundingClientRect();
+    (list || cards(sl)).forEach(c => { const ts = texts(sl).filter(t => inside(t, c) && t.el.style.visibility !== 'hidden' && !/^\d{1,2}$/.test(t.text) && t.w > 40); if (!ts.length) return;
+      let y0 = 1e9, y1 = -1e9; ts.forEach(t => { const q = contentRect(t.el); if (!q.height) return; y0 = Math.min(y0, q.top - R.top); y1 = Math.max(y1, q.bottom - R.top); });
+      if (y1 < 0) return; const d = (c.y + c.h / 2) - (y0 + y1) / 2 + off; ts.forEach(t => t.el.style.top = (parseFloat(t.el.style.top) + d) + 'px'); }); };
+  // put every swapped icon (class aic) exactly on the nearest card corner
+  const toCorner = sl => { const R = sl.getBoundingClientRect(), cs = cards(sl);
+    sl.querySelectorAll('.aic').forEach(sp => { const q = sp.getBoundingClientRect(), x = q.left - R.left + q.width / 2, y = q.top - R.top + q.height / 2;
+      let best = null; cs.forEach(c => [[c.x, c.y], [c.x + c.w, c.y], [c.x, c.y + c.h], [c.x + c.w, c.y + c.h]].forEach(([px, py]) => { const d = Math.hypot(px - x, py - y); if (!best || d < best.d) best = {d, px, py}; }));
+      if (!best || best.d > 60) return; const t = sp.closest('.rx-t'); if (!t) return;
+      t.style.left = (parseFloat(t.style.left) + best.px - x) + 'px'; t.style.top = (parseFloat(t.style.top) + best.py - y) + 'px'; t.style.zIndex = 3; }); };
+  // emoji -> icon in a pastille, repositioned with the card text. mode: 'flow' (above the text, block centred), 'top' (on the top edge), 'corner' (on the top-left corner)
+  const cardPill = (sl, mode, o = {}) => { const R = sl.getBoundingClientRect(), cs = cards(sl), D = o.d || 32, ic = o.ic || 16;
+    emojis(sl).forEach(sp => { const t = sp.closest('.rx-t'); if (!t) return; const tb = box(t, sl);
+      const c = cs.filter(c => inside(tb, c, 4)).sort((a, b) => a.w * a.h - b.w * b.h)[0]; if (!c) return;
+      const e = sp.textContent.trim(), svgs = split(e).map(x => svg(x, 'line', ic, o.color || C.cream, o.sw || 1.8)).join(''); if (!svgs) return;
+      const p = sp.closest('p'), others = [...t.querySelectorAll('p')].filter(q => q !== p && q.textContent.trim());
+      if (others.length) p.style.display = 'none'; else t.style.visibility = 'hidden';
+      const pill = div(sl, 0, 0, D, D, `border-radius:${o.radius || '50%'};background:${o.bg || '#0E3A50'};border:${o.border || '1px solid rgba(231,205,168,.28)'};box-sizing:border-box;display:flex;align-items:center;justify-content:center;z-index:3;box-shadow:${o.shadow || 'none'}`, svgs);
+      const ts = texts(sl).filter(x => inside(x, c, 2) && x.el.style.visibility !== 'hidden' && !isEmoji(x.text) && !/^\d{1,2}$/.test(x.text) && x.w > 40);
+      let y0 = 1e9, y1 = -1e9; ts.forEach(x => { const q = contentRect(x.el); if (!q.height) return; y0 = Math.min(y0, q.top - R.top); y1 = Math.max(y1, q.bottom - R.top); });
+      const gap = o.gap || 10; let dy = 0, px, py;
+      if (mode === 'flow') { const tot = D + gap + (y1 - y0), st = c.y + (c.h - tot) / 2; px = c.cx - D / 2; py = st; dy = st + D + gap - y0; }
+      else { const off = mode === 'top' ? D / 4 : 0; dy = c.y + c.h / 2 - (y0 + y1) / 2 + off; if (mode === 'top') { px = c.cx - D / 2; py = c.y - D / 2; } else { px = c.x - D / 2 + 2; py = c.y - D / 2 + 2; } }
+      pill.style.left = px + 'px'; pill.style.top = py + 'px';
+      ts.forEach(x => x.el.style.top = (parseFloat(x.el.style.top) + dy) + 'px'); }); };
+  return {cardPill, cards, inside, centerCards, toCorner, contentRect, C, S, box, shapes, texts, imgs, emojis, swap, svg, add, div, hide, restroke, unfilter, color, near, isEmoji};
 })();

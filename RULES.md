@@ -129,6 +129,18 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
 - Bug corrigé au passage : les libellés espacés à la main (« W H Y    I T ») deviennent un texte normal + letter-spacing,
   sinon le navigateur colle les mots (« WHYITMATTERS »).
 
+### Retours de Pierre sur l'atelier 100 (10 Nov 2026, 23h)
+- Jamais de texte ou de trait rose FIN sur le bleu marine (flèche fine rose, libellé rose fin, « WHY IT MATTERS » en rose) : c'est moche.
+  Le rose se met en aplat (pastille pleine, barre, étiquette) ou en gras épais.
+- Les emojis colorés ne sont pas à remplacer par réflexe : sur beaucoup de grilles de cartes ils restent (plus colorés que des icônes au trait).
+  Quand on met une icône dans une pastille, le contenu de la carte (pastille + texte) se recentre verticalement ensemble ;
+  une pastille d'angle se pose pile à cheval sur le coin de la carte.
+- Slide 22 (« ce qui est rare ») : 4 lignes par carte, pas 5.
+- Une décision vaut pour tous les decks, même si le PowerPoint d'origine est différent : on l'applique au gabarit / au convertisseur,
+  pas à une slide.
+- Atelier : chaque variante est un vrai design différent (pas un seul paramètre qui change), auditée visuellement avant envoi
+  (rien qui chevauche, rien qui dépasse, bien centré) ; ne jamais représenter le même changement deux fois pour un même type de slide.
+
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
    that LLM does the research AND returns the final JSON/CSV in the same answer (never research first, then a second "go").
