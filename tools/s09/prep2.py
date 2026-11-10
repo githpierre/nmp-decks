@@ -11,9 +11,12 @@ from PIL import Image
 B = G.Base()
 TODAY = datetime.date.today(); START = (TODAY.replace(year=TODAY.year - 1)).isoformat()
 EXCL_TYPES = {'IPO', 'Post-IPO', 'Secondary', 'Debt', 'Grant'}
-SKIP = {('ai-powered-market-research', 'strella')}          # merged identity, to split (inbox/2026-11-11-s09-a-separer.csv)
+SKIP = {('ai-powered-market-research', 'strella'),          # merged identity, to split (inbox/2026-11-11-s09-a-separer.csv)
+        # slide-only (11 Nov 2026): a company-wide round of a giant whose core is another market is not a bet on this market
+        ('agentic-commerce', 'openai'), ('robot-foundation-models', 'openai'), ('agentic-commerce', 'ramp'),
+        ('maritime-autonomy', 'anduril-industries'), ('maritime-autonomy', 'helsing')}
 SHORT = json.load(open('/home/claude/s09/short_cats.json'))
-LOGOS = ['/home/claude/nmp-decks/assets/logos', '/home/claude/s09/lib', '/home/claude/s09/logos_g', '/home/claude/nmp-product-pages/w/logos_all',
+LOGOS = ['/home/claude/nmp-decks/assets/logos', '/home/claude/s09/lib', '/home/claude/s09/logos_g', '/home/claude/s09/logos_h', '/home/claude/nmp-product-pages/w/logos_all',
          '/home/claude/nmp-product-pages/w/s9/logos']
 
 def in_window(d):
@@ -26,7 +29,9 @@ def short_name(n):
     n = re.sub(r'\s+(Technologies|Technology|Industries|Inc\.?|Ltd\.?|Limited|Corp\.?|Pharmaceuticals|Therapeutics|Oncology|Holdings)$', '', n)
     return n.strip()
 
+BLOCK = set(json.load(open('/home/claude/s09/logo_block.json')))   # logos rejected at review (blurry, blank, another brand's mark)
 def logo(cid, name, web):
+    if cid in BLOCK: return None
     cands = [cid, re.sub(r'[^a-z0-9]', '', (name or '').lower()), re.sub(r'[^a-z0-9]', '', re.sub(r'\(.*?\)', '', name or '').lower())]
     if web:
         dom = re.sub(r'^https?://(www\.)?', '', web).split('/')[0]; cands.append(re.sub(r'[^a-z0-9]', '', dom.split('.')[0]))

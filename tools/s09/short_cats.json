@@ -221,5 +221,620 @@
   "Biochar and durable biomass storage": "Biochar",
   "Land and ecosystem removal": "Land-based removal",
   "Enhanced weathering and mineralization": "Rock weathering"
+ },
+ "low-carbon-cement": {
+  "SCMs and clinker substitution": "Clinker substitutes",
+  "Cement recycling and reactivation": "Cement recycling",
+  "Carbonated cement and mineralised binders": "CO2-cured cement",
+  "Electrified cement manufacturing": "Electric cement plants"
+ },
+ "metal-additive-manufacturing": {
+  "Metal printing production services": "Printing services",
+  "Powder-bed fusion systems": "Powder-bed printers",
+  "Metal powders and AM feedstocks": "Metal powders",
+  "Metal-AM software and process control": "Printing software"
+ },
+ "dental-ai": {
+  "Orthodontic monitoring and planning": "Orthodontic AI",
+  "Patient engagement and front-office agents": "Front-office AI agents",
+  "Practice intelligence and case acceptance": "Practice analytics",
+  "Radiographic and CBCT diagnosis": "X-ray diagnosis",
+  "Dental CAD/CAM and prosthetic design": "Crowns and dentures"
+ },
+ "digital-pathology": {
+  "Computational biomarkers": "AI biomarkers",
+  "Digital cytology and hematology": "Digital cytology"
+ },
+ "ai-in-oncology": {
+  "Oncology drug discovery and biomarker AI": "Cancer drug discovery",
+  "Cancer risk and oncology decision AI": "Treatment decision AI",
+  "Cancer detection and screening imaging AI": "Cancer screening AI",
+  "Multiomics and precision oncology AI": "Precision oncology AI",
+  "AI cancer pathology and tissue diagnostics": "AI cancer pathology"
+ },
+ "bispecific-antibody": {
+  "Immune-cell engagers and costimulation": "Immune-cell engagers",
+  "Non-oncology bispecific therapeutics": "Non-cancer bispecifics",
+  "Inflammatory and autoimmune bispecifics": "Autoimmune bispecifics",
+  "Bispecific antibody-drug conjugates": "Bispecific ADCs",
+  "Targeted degradation and next-generation formats": "Next-gen formats",
+  "Dual-checkpoint and tumour-signalling bispecifics": "Checkpoint bispecifics"
+ },
+ "targeted-protein-degradation": {
+  "Extracellular and membrane degraders": "Membrane degraders",
+  "Molecular glue degraders": "Molecular glues",
+  "Computational degrader discovery": "AI degrader discovery",
+  "Autophagy and lysosomal degraders": "Lysosomal degraders",
+  "PROTAC and bifunctional degraders": "PROTAC degraders",
+  "Chaperone and alternative degraders": "Other degraders"
+ },
+ "rna-therapeutics": {
+  "RNA interference and silencing": "RNA silencing (siRNA)",
+  "mRNA and self-amplifying RNA": "mRNA medicines",
+  "Antisense and splice modulation": "Antisense drugs",
+  "RNA delivery and conjugates": "RNA delivery",
+  "RNA-targeting small molecules": "RNA-targeting pills"
+ },
+ "car-t-cell-therapy": {
+  "In vivo CAR-T engineering": "In vivo CAR-T",
+  "Next-generation CAR-T engineering platforms": "Next-gen CAR-T",
+  "Autologous CAR-T for solid tumors": "Solid tumor CAR-T",
+  "Autologous CAR-T for hematologic cancers": "Blood cancer CAR-T",
+  "Allogeneic and stem-cell-derived CAR-T": "Off-the-shelf CAR-T"
+ },
+ "neuropsychiatric-therapeutics": {
+  "Mood and anxiety medicines": "Depression and anxiety",
+  "Psychedelic and neuroplastogenic medicines": "Psychedelic medicines",
+  "Precision psychiatry and biomarkers": "Precision psychiatry",
+  "Psychosis and schizophrenia medicines": "Schizophrenia drugs",
+  "Device-based psychiatric therapeutics": "Brain stimulation"
+ },
+ "ibd-therapeutics": {
+  "Fibrosis and tissue repair": "Fibrosis and repair",
+  "Precision-guided therapeutics": "Precision therapies",
+  "Gut-selective small molecules": "Gut-selective pills",
+  "Immune-pathway small molecules": "Immune-pathway pills"
+ },
+ "immuno-oncology": {
+  "Engineered immune cells and TCR/TIL": "Engineered T cells",
+  "Immune checkpoints and costimulation": "Checkpoint drugs",
+  "Cancer vaccines and neoantigens": "Cancer vaccines",
+  "Oncolytic viruses and local immune activation": "Oncolytic viruses",
+  "Immune engagers and multispecifics": "Immune engagers",
+  "Innate and myeloid immunotherapies": "Innate immunity drugs"
+ },
+ "generative-engine-optimization": {
+  "Enterprise GEO orchestration": "Enterprise GEO suites",
+  "AI answer visibility monitoring": "AI visibility tracking",
+  "Commerce and product GEO": "Product GEO",
+  "AI-readable content and entity infrastructure": "AI-readable content",
+  "GEO services and managed optimization": "GEO agencies",
+  "AI search attribution and conversion": "AI search attribution"
+ },
+ "private-markets-software": {
+  "Private-market diligence and AI": "AI deal diligence",
+  "Fund operations and accounting": "Fund accounting",
+  "Private-market access infrastructure": "Private market access",
+  "Portfolio monitoring and valuation": "Portfolio monitoring",
+  "Private-market data and LP analytics": "Private market data",
+  "Investor onboarding and LP relations": "Investor relations"
+ },
+ "order-to-cash-automation": {
+  "Billing and quote-to-cash": "Billing",
+  "Disputes, deductions and cash application": "Cash application",
+  "Collections and receivables intelligence": "Collections"
+ },
+ "aml-software": {
+  "Sanctions and risk screening": "Sanctions screening",
+  "Crypto AML and blockchain intelligence": "Crypto AML",
+  "Investigations and reporting": "AML investigations",
+  "Integrated AML platforms": "All-in-one AML"
+ },
+ "deepfake-detection": {
+  "Voice and call deepfake detection": "Voice deepfakes",
+  "Identity and onboarding deepfake defense": "Onboarding deepfakes",
+  "Multimodal forensic detection": "Forensic detection",
+  "Disinformation and impersonation investigation": "Disinformation",
+  "Live communications and impersonation defense": "Live call protection"
+ },
+ "digital-identity-verification": {
+  "Data-led identity proofing": "Data-based ID checks",
+  "Business identity and KYB": "Business verification",
+  "KYC and verification orchestration": "KYC orchestration",
+  "Document and biometric IDV": "ID document checks",
+  "Biometric identity assurance": "Biometric checks",
+  "Reusable identity and credentials": "Reusable digital IDs"
+ },
+ "payment-processing": {
+  "Cross-border and local-method merchant acquiring": "Cross-border acquiring",
+  "In-person merchant acceptance and acquiring": "In-store payments",
+  "Payment orchestration and optimization": "Payment orchestration",
+  "Embedded payment processing infrastructure": "Embedded payments",
+  "Full-stack payment service providers": "Full-stack processors",
+  "Bank-pay and account-to-account merchant payments": "Pay by bank"
+ },
+ "embedded-finance": {
+  "Embedded payments and money movement": "Embedded payments",
+  "Card issuing and embedded credit": "Card issuing",
+  "Embedded investing and wealth": "Embedded investing",
+  "Embedded lending and financing": "Embedded lending"
+ },
+ "managing-general-agent": {
+  "Commercial and specialty": "Commercial MGAs",
+  "Property and catastrophe": "Property MGAs"
+ },
+ "ai-in-retail": {
+  "Shelf & store intelligence": "Store shelf AI",
+  "Retail operations copilots & analytics": "Retail ops copilots",
+  "Demand forecasting & replenishment": "Demand forecasting"
+ },
+ "sales-tech": {
+  "Sales data & intelligence": "Sales data",
+  "CRM & sales workflow": "CRM",
+  "GTM operations & routing": "GTM operations",
+  "Deal execution & buyer collaboration": "Deal execution",
+  "Sales engagement & prospecting": "Prospecting",
+  "Sales performance & compensation": "Sales compensation"
+ },
+ "sales-intelligence": {
+  "Prospect scoring and prioritization": "Lead scoring",
+  "Contact and company databases": "Contact databases",
+  "Intent and buying signals": "Buying signals",
+  "Account research and technographics": "Account research"
+ },
+ "machine-vision": {
+  "3D machine vision and robotic guidance": "3D robot vision",
+  "AI visual inspection and quality control": "AI visual inspection",
+  "Industrial vision cameras and sensors": "Industrial cameras",
+  "Vision software and development platforms": "Vision software",
+  "Specialized material and product inspection": "Specialty inspection"
+ },
+ "predictive-maintenance": {
+  "Industrial machine-health sensing": "Machine sensors",
+  "Specialist asset diagnostics": "Asset diagnostics",
+  "Maintenance intelligence and workflow": "Maintenance software",
+  "Energy and renewables reliability": "Energy asset health"
+ },
+ "remote-patient-monitoring": {
+  "Condition-specific remote monitoring": "Condition-specific RPM",
+  "Chronic-disease RPM platforms": "Chronic disease RPM",
+  "Continuous vital-sign sensing": "Vital-sign wearables",
+  "Cardiac and implantable monitoring": "Cardiac monitoring",
+  "Neurological and mental-health monitoring": "Brain monitoring",
+  "RPM infrastructure and analytics": "RPM infrastructure"
+ },
+ "focused-ultrasound": {
+  "Transcranial focused-ultrasound neuromodulation": "Brain neuromodulation",
+  "Blood-brain barrier opening and drug delivery": "Brain drug delivery",
+  "Thermal ablation and image-guided HIFU": "Tumor ablation (HIFU)"
+ },
+ "life-science-research-tools": {
+  "Genomics and sequencing": "Genomics",
+  "Single-cell and spatial omics": "Single-cell omics",
+  "Proteomics and protein analysis": "Proteomics",
+  "Bioprocess and cell culture tools": "Cell culture tools",
+  "Sample preparation and reagents": "Sample prep",
+  "Cell analysis and imaging": "Cell imaging"
+ },
+ "digital-dentistry": {
+  "Dental AI diagnostics & monitoring": "Dental AI diagnostics",
+  "Dental additive manufacturing & materials": "Dental 3D printing",
+  "Digital orthodontics & aligners": "Aligners",
+  "Guided dental robotics & navigation": "Dental robots",
+  "Dental CAD/CAM & treatment planning": "Dental CAD/CAM"
+ },
+ "indie-beauty": {
+  "Color cosmetics and nails": "Makeup and nails",
+  "Prestige and niche skincare": "Niche skincare",
+  "Sun care and hybrid SPF": "Sun care",
+  "Inclusive and culturally rooted beauty": "Inclusive beauty"
+ },
+ "functional-beverages": {
+  "Vitamin, immune and botanical wellness drinks": "Wellness drinks",
+  "Energy and metabolic-performance drinks": "Energy drinks",
+  "Sports, electrolyte and hydration beverages": "Hydration drinks",
+  "Mood, sleep and nootropic drinks": "Mood and sleep drinks",
+  "Gut-health sodas and fermented drinks": "Gut-health sodas"
+ },
+ "better-for-you-snacks": {
+  "Functional and fortified snacks": "Functional snacks",
+  "Better-for-you savory snacks": "Savory snacks",
+  "Protein and nutrition bars": "Protein bars",
+  "Fruit, vegetable and nut snacks": "Fruit and nut snacks",
+  "High-protein meat and dairy snacks": "Meat and dairy snacks",
+  "Better-for-you bakery and cookies": "Healthier cookies"
+ },
+ "dietary-supplements": {
+  "Women and life-stage health": "Women's health",
+  "Vitamins and general wellness": "Vitamins",
+  "Sports and performance nutrition": "Sports nutrition",
+  "Personalized and precision supplementation": "Personalized vitamins",
+  "Botanicals and traditional nutraceuticals": "Botanicals",
+  "Gut health and microbiome": "Gut health"
+ },
+ "skincare": {
+  "Prestige and luxury skincare": "Luxury skincare",
+  "Acne and dermatologist-led skincare": "Acne skincare",
+  "Clinical and biotech-led skincare": "Biotech skincare",
+  "Inclusive, regional and targeted skincare": "Inclusive skincare",
+  "Mass-accessible and youth skincare": "Mass-market skincare"
+ },
+ "hair-care": {
+  "Textured and inclusive haircare": "Textured hair care",
+  "Personalized haircare and diagnostics": "Personalized hair care",
+  "Professional and salon haircare": "Salon hair care",
+  "Bond repair and science-led care": "Bond repair"
+ },
+ "hr-tech": {
+  "HRIS, HCM and HR automation": "HR software (HRIS)",
+  "Talent acquisition and screening": "Recruiting",
+  "Employee benefits and wellbeing": "Benefits and wellbeing",
+  "Payroll and global employment": "Payroll and EOR",
+  "Employee experience and recognition": "Employee experience",
+  "Learning, skills and internal mobility": "Learning and skills"
+ },
+ "workforce-management-software": {
+  "SMB scheduling and shift operations": "SMB shift scheduling",
+  "Enterprise frontline WFM suites": "Enterprise WFM suites",
+  "Healthcare rostering and workforce allocation": "Healthcare rostering",
+  "AI labor forecasting and optimization": "AI labor forecasting",
+  "Hospitality and retail labor management": "Hospitality and retail"
+ },
+ "employee-benefits-platform": {
+  "Insurance-led employer benefits": "Health plans",
+  "Specialist benefits programs": "Specialty benefits",
+  "Flexible benefits & wallets": "Benefit wallets",
+  "Navigation & decision support": "Benefits navigation",
+  "Global benefits intelligence": "Global benefits",
+  "Administration & enrollment": "Benefits admin"
+ },
+ "restaurant-technology": {
+  "Ordering, digital commerce and payments": "Ordering and payments",
+  "AI voice ordering and guest agents": "AI voice ordering",
+  "Kitchen robotics and automation": "Kitchen robots",
+  "Guest engagement, loyalty and reservations": "Loyalty and bookings",
+  "Restaurant operations and intelligence": "Restaurant operations",
+  "Workforce, training and labor": "Staff scheduling"
+ },
+ "property-management-software": {
+  "AI leasing and property operations automation": "AI leasing agents",
+  "Commercial property and asset operations": "Commercial property",
+  "Vacation and short-term rental PMS": "Short-term rentals",
+  "Maintenance and field-service orchestration": "Maintenance tools",
+  "Residential and multifamily operating systems": "Multifamily software"
+ },
+ "patient-engagement-software": {
+  "Patient access and navigation": "Patient navigation",
+  "AI patient engagement agents": "AI patient agents",
+  "Patient communications and outreach": "Patient outreach",
+  "Care pathways and follow-up": "Follow-up care",
+  "Scheduling and digital intake": "Scheduling and intake",
+  "Patient portals and self-service": "Patient portals"
+ },
+ "influencer-marketing-platform": {
+  "Creator ad buying and attribution": "Creator ads",
+  "Affiliate creator commerce": "Affiliate creators",
+  "AI-powered creator marketing": "AI creator marketing",
+  "UGC and product seeding": "UGC and seeding",
+  "Enterprise campaign platforms": "Campaign platforms",
+  "Discovery and intelligence": "Creator discovery"
+ },
+ "sales-enablement-software": {
+  "Sales assets, proposals and value selling": "Proposals and content",
+  "AI role-play and sales coaching": "AI sales coaching",
+  "Digital sales rooms and buyer enablement": "Digital sales rooms",
+  "Interactive demos and product storytelling": "Interactive demos",
+  "Unified enablement platforms": "Enablement suites"
+ },
+ "sports-analytics": {
+  "Player tracking and motion data": "Player tracking",
+  "Sports data and predictive models": "Sports data models",
+  "Video and tactical intelligence": "Video analysis",
+  "Athlete performance and readiness": "Athlete performance"
+ },
+ "natural-hydrogen": {
+  "Exploration intelligence": "Hydrogen exploration",
+  "Stimulated geologic hydrogen": "Stimulated hydrogen"
+ },
+ "evtol": {
+  "Regional passenger eVTOL": "Regional air taxis",
+  "Cargo and logistics eVTOL": "Cargo eVTOL"
+ },
+ "battery-recycling": {
+  "Integrated recycling and refining": "Recycling and refining",
+  "Battery repair remanufacturing and second life": "Second-life batteries",
+  "Hydrometallurgical and electrochemical recovery": "Chemical recovery",
+  "Automated disassembly and specialist processing": "Automated disassembly",
+  "Direct regeneration and cathode materials": "Cathode regeneration"
+ },
+ "ev-charging-infrastructure": {
+  "Battery swapping infrastructure": "Battery swapping",
+  "Public fast-charge networks": "Fast-charge networks",
+  "Charging equipment and power systems": "Charging hardware",
+  "Fleet and heavy-duty charging": "Fleet charging",
+  "Charging software and interoperability": "Charging software",
+  "Wireless and automated charging": "Wireless charging"
+ },
+ "off-grid-solar": {
+  "Solar home systems and PAYGo": "Solar home systems",
+  "PAYGo software and off-grid enablement": "Pay-as-you-go software"
+ },
+ "electric-two-wheeler": {
+  "Urban electric scooters": "Electric scooters",
+  "Battery-integrated two-wheeler platforms": "Battery-swap bikes",
+  "Performance electric motorcycles": "Sport e-motorcycles",
+  "Electric commuter motorcycles": "Commuter e-motorcycles"
+ },
+ "agricultural-biologicals": {
+  "Microbial nutrition and biostimulation": "Microbial fertilizers",
+  "Biochemical and RNA crop biocontrol": "RNA crop protection",
+  "Semiochemicals and pheromones": "Pheromones",
+  "Biochemical crop biostimulants": "Biostimulants",
+  "Microbial crop biocontrol": "Microbial pest control"
+ },
+ "maritime-decarbonization": {
+  "Electric and hybrid marine propulsion": "Electric boats",
+  "Wind-assisted and alternative vessel propulsion": "Wind-assisted ships",
+  "Low-carbon marine fuels and fuel systems": "Low-carbon fuels",
+  "Onboard carbon capture and exhaust abatement": "Onboard carbon capture"
+ },
+ "sustainable-aviation-fuel": {
+  "Alcohol-to-jet and fermentation": "Alcohol-to-jet",
+  "Electrofuels and power-to-liquid": "E-fuels",
+  "Methanol-to-jet and catalytic conversion": "Methanol-to-jet",
+  "Biogenic feedstocks and intermediates": "Feedstocks"
+ },
+ "sustainable-packaging": {
+  "Compostable biopolymers and films": "Compostable films",
+  "Coatings and barrier technologies": "Barrier coatings",
+  "Seaweed and marine biomaterials": "Seaweed packaging"
+ },
+ "physical-security": {
+  "Robotic and remote guarding": "Security robots",
+  "Integrated physical security platforms": "Security platforms",
+  "Perimeter, intrusion & screening": "Perimeter security",
+  "Video surveillance & analytics": "Video surveillance",
+  "Access control & physical identity": "Access control",
+  "Security operations & monitoring": "Security operations"
+ },
+ "auto-finance": {
+  "Integrated vehicle commerce and finance": "Car buying and finance",
+  "Driver and fleet asset finance": "Driver and fleet loans",
+  "Dealer point-of-sale finance": "Dealer financing"
+ },
+ "smb-lending": {
+  "Digital term loans and credit lines": "Online business loans",
+  "Embedded SME lending specialists": "Embedded SME lending",
+  "Revenue-based and merchant cash advances": "Revenue-based finance",
+  "Trade, inventory and supply-chain finance": "Supply chain finance"
+ },
+ "buy-now-pay-later": {
+  "White-label BNPL infrastructure": "White-label BNPL"
+ },
+ "mortgage-technology": {
+  "Servicing and homeowner finance": "Loan servicing",
+  "Distribution and mortgage brokerage": "Mortgage brokers",
+  "Valuation and collateral": "Home valuation",
+  "Underwriting and verification": "Underwriting"
+ },
+ "pos-software": {
+  "Restaurant and hospitality POS": "Restaurant POS",
+  "SMB retail and cross-vertical POS": "Retail POS",
+  "Appointment-based service POS": "Appointment POS"
+ },
+ "last-mile-delivery": {
+  "Drone delivery networks": "Delivery drones",
+  "Autonomous road delivery": "Autonomous vans",
+  "Hyperlocal and rapid delivery": "Rapid delivery",
+  "Parcel delivery networks": "Parcel networks",
+  "Delivery orchestration and routing software": "Routing software",
+  "Crowdsourced and on-demand courier networks": "On-demand couriers"
+ },
+ "pc-and-console-gaming": {
+  "PC and console gaming hardware": "Gaming hardware",
+  "Premium and indie game studios": "Game studios",
+  "Multiplayer and live-service studios": "Multiplayer studios",
+  "PC and console publishing": "Game publishing",
+  "Game development infrastructure": "Game dev tools"
+ },
+ "crypto-wallet": {
+  "Institutional, multisignature & MPC wallets": "Institutional wallets",
+  "Privacy-first & emerging-market wallets": "Privacy wallets",
+  "Consumer software & multichain wallets": "Consumer wallets",
+  "Embedded wallets & developer SDKs": "Embedded wallets"
+ },
+ "decentralized-exchange": {
+  "Perpetual and derivatives DEXs": "Perpetual futures DEXs",
+  "Aggregators and intents": "DEX aggregators"
+ },
+ "web3-infrastructure": {
+  "Base-layer networks & execution": "Base-layer blockchains",
+  "Interoperability & cross-chain messaging": "Cross-chain bridges",
+  "Developer tooling & on-chain data": "Developer tools",
+  "Cryptography, verification & security": "Crypto security"
+ },
+ "carbon-credit": {
+  "Standards registries and issuance": "Registries",
+  "Credit project development": "Credit projects",
+  "Credit insurance and finance": "Credit insurance"
+ },
+ "gene-therapy": {
+  "Neurologic and neuromuscular gene therapy": "Neuro gene therapy",
+  "Ocular and sensory gene therapy": "Eye and ear therapy",
+  "Systemic and rare-disease gene replacement": "Rare disease therapy",
+  "Epigenetic gene regulation": "Epigenetic editing",
+  "Nonviral gene delivery and writing": "Non-viral delivery"
+ },
+ "psychedelic-therapeutics": {
+  "Discovery and neuroplastogens": "Neuroplastogens",
+  "Ibogaine and addiction therapeutics": "Ibogaine and addiction"
+ },
+ "ai-inference": {
+  "Inference-specialist compute and silicon services": "Inference chips",
+  "Enterprise model serving and deployment": "Enterprise serving",
+  "Managed model inference APIs": "Inference APIs",
+  "Multimodal and media inference services": "Media inference",
+  "Inference orchestration, scheduling and routing": "Inference routing",
+  "Inference engines, compilers and optimization": "Inference engines"
+ },
+ "quantum-sensing": {
+  "Quantum metrology and enabling instruments": "Quantum instruments",
+  "Quantum magnetometry and diamond sensing": "Quantum magnetometers",
+  "Atomic clocks and timing": "Atomic clocks",
+  "Biomedical quantum sensing and imaging": "Medical sensing",
+  "Quantum optical and photon-counting sensing": "Photon sensors"
+ },
+ "robot-foundation-models": {
+  "Embodied world-action foundation models": "World models",
+  "Cross-embodiment robot foundation models": "General robot brains",
+  "Industrial and manipulation foundation models": "Industrial robot AI",
+  "Integrated humanoid robot foundation models": "Humanoid robot AI",
+  "Force-aware manipulation foundation models": "Touch and force AI",
+  "Field autonomy foundation models": "Field robot AI"
+ },
+ "optical-interconnect": {
+  "Chip-to-chip optical I/O and photonic fabrics": "Optical chip links",
+  "Optical circuit and packet switching": "Optical switches",
+  "Optical-link DSPs and signal conditioning": "Optical DSPs",
+  "Modulators and active optical link components": "Modulators",
+  "Lasers and wavelength sources for interconnects": "Lasers",
+  "Optical engines and transceiver modules": "Transceivers"
+ },
+ "ai-medical-scribe": {
+  "Voice-first clinical assistants": "Voice assistants",
+  "Multilingual and regional scribes": "Multilingual scribes",
+  "Independent clinician scribes": "Scribes for clinicians",
+  "Nursing and home-care scribes": "Nursing scribes"
+ },
+ "advanced-geothermal": {
+  "Enhanced geothermal systems": "Enhanced geothermal",
+  "Superhot rock geothermal": "Superhot rock",
+  "Geothermal exploration and intelligence": "Exploration",
+  "Deep geothermal power and heat": "Deep geothermal",
+  "Advanced geothermal drilling": "Drilling"
+ },
+ "maritime-autonomy": {
+  "Defense surface autonomy": "Defense drone boats",
+  "Defense underwater autonomy": "Underwater drones",
+  "Ocean data and survey fleets": "Ocean survey fleets",
+  "Subsea inspection and intervention autonomy": "Subsea inspection",
+  "Uncrewed workboats and logistics": "Uncrewed workboats"
+ },
+ "ai-agent-infrastructure": {
+  "Agent runtimes and execution": "Agent runtimes",
+  "Agent security and identity": "Agent security",
+  "Agent tool access and web": "Agent web access",
+  "Agent gateways and communications": "Agent gateways",
+  "Agent frameworks and builders": "Agent builders",
+  "Agent observability and evaluation": "Agent monitoring"
+ },
+ "data-center-on-site-power": {
+  "Gas-engine and turbine power": "Gas turbines",
+  "Novel dispatchable generators": "New generators",
+  "Hybrid renewable power islands": "Hybrid power islands",
+  "Dedicated power-campus development": "Power campuses",
+  "Modular geothermal and heat recovery": "Modular geothermal",
+  "Microgrids and power-as-a-service": "Microgrids"
+ },
+ "agentic-commerce": {
+  "Agent-native payments and spending controls": "Agent payments",
+  "Merchant agent enablement": "Merchant agent tools",
+  "Delegated shopping agents": "Shopping agents",
+  "Agent identity, trust and authorization": "Agent identity",
+  "Agent-readable product and merchant data": "Product data feeds"
+ },
+ "prediction-markets": {
+  "Regulated event exchanges": "Regulated exchanges",
+  "Onchain event exchanges": "Crypto exchanges",
+  "Exchange and settlement infrastructure": "Market infrastructure",
+  "Trading and brokerage tools": "Trading tools",
+  "Social and forecasting markets": "Social forecasting"
+ },
+ "autonomous-trucking": {
+  "Highway freight autonomy": "Highway trucking",
+  "Electric and cabless autonomous freight": "Cabless trucks",
+  "Middle-mile and regional freight": "Middle-mile freight",
+  "Port and terminal trucking": "Port trucks"
+ },
+ "post-quantum-cryptography": {
+  "Quantum-safe communications and gateways": "Quantum-safe networks",
+  "Post-quantum identity, PKI and signatures": "Quantum-safe PKI",
+  "Crypto-discovery and migration orchestration": "Migration tools"
+ },
+ "ai-note-taker": {
+  "Vertical meeting intelligence": "Industry note-takers",
+  "Bot-free and local-first": "Bot-free note-takers",
+  "Dedicated AI recording hardware": "Recording devices"
+ },
+ "edge-ai-chips": {
+  "Industrial and robotics edge accelerators": "Robotics accelerators",
+  "Compute-in-memory and analog edge AI": "In-memory compute",
+  "Embedded vision and imaging NPUs": "Vision NPUs",
+  "On-device generative AI processors": "On-device GenAI chips",
+  "Programmable edge NPU IP and SoCs": "NPU chip designs",
+  "Neuromorphic and event-driven silicon": "Neuromorphic chips"
+ },
+ "virtual-power-plant": {
+  "Residential and retail-led VPP": "Home batteries VPP",
+  "Commercial and industrial aggregation": "Commercial VPPs",
+  "Battery and renewable aggregation": "Battery aggregation",
+  "Multi-asset VPP operators": "Multi-asset VPPs"
+ },
+ "non-human-identity-security": {
+  "NHI discovery and governance": "NHI governance",
+  "AI-agent identity and delegated authorization": "AI agent identities",
+  "Privileged nonhuman access": "Machine access control",
+  "Secrets exposure and remediation": "Secrets exposure",
+  "Secrets and credential lifecycle": "Secrets management"
+ },
+ "rl-environments": {
+  "Human-data-led RL environments": "Human-data RL",
+  "Enterprise & professional workflows": "Enterprise workflows",
+  "Coding & software engineering": "Coding environments",
+  "Computer & browser use": "Computer-use tasks",
+  "Science, mathematics & engineering": "Science and math",
+  "RL environment platforms": "RL platforms"
+ },
+ "earned-wage-access": {
+  "Employer-integrated on-demand pay": "Employer-led EWA",
+  "Direct-to-consumer earned pay": "Consumer EWA apps"
+ },
+ "data-security-posture-management": {
+  "Discovery and classification": "Data discovery"
+ },
+ "sodium-ion-battery": {
+  "Sodium-ion storage systems": "Storage systems",
+  "Sodium-ion cell developers": "Cell makers"
+ },
+ "ai-agent-observability": {
+  "Evaluation and regression testing": "Evals and testing",
+  "Production monitoring and incident detection": "Live monitoring",
+  "Conversation and voice-agent QA": "Voice agent QA",
+  "LLM/agent telemetry and cost analytics": "Telemetry and costs",
+  "Agent-run tracing and replay": "Tracing and replay"
+ },
+ "lab-automation": {
+  "Autonomous experimentation": "Self-driving labs",
+  "Cloud and remote laboratories": "Cloud labs",
+  "Automated synthesis and chemistry": "Automated chemistry",
+  "Robotic liquid handling": "Liquid handling",
+  "Integrated lab robotics": "Lab robots",
+  "Specialized workflow automation": "Specialty workflows"
+ },
+ "ai-tutoring": {
+  "Exam preparation tutors": "Exam prep tutors",
+  "Language & pronunciation tutors": "Language tutors",
+  "General academic AI tutors": "Homework tutors",
+  "Institutional tutoring agents": "School tutoring agents",
+  "Literacy & early learning": "Early learning",
+  "Adaptive K-12 & mathematics": "K-12 math"
+ },
+ "ai-companion": {
+  "Voice & animated companions": "Voice companions",
+  "Character & roleplay platforms": "Character chat apps",
+  "Licensed-character companionship": "Licensed characters",
+  "Wearable & robotic companions": "Companion devices",
+  "Persistent one-to-one companions": "Personal companions",
+  "Story & gamified companionship": "Story companions"
  }
 }
