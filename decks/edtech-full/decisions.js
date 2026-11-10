@@ -194,9 +194,17 @@ window.F = (() => {
       svg.insertBefore(defs, svg.firstChild); c.p.setAttribute(fwd ? 'marker-end' : 'marker-start', `url(#${id})`); A.hide([h]); });
     mark('arrowheads', sl); };
 
+  // logos (Pierre, 11 Nov): the logo sits inside its white tile with a clear white margin (70 % of the tile), and the tile has a thin light contour
+  const logos = sl => { const R = sl.getBoundingClientRect(); const tiles = [...sl.querySelectorAll('.raw > svg.rx-s path')].filter(p => (p.getAttribute('fill') || '').toUpperCase() === '#FFFFFF');
+    sl.querySelectorAll('.raw > .rx-i').forEach(i => { const q = i.getBoundingClientRect(); if (q.width > 80) return;
+      const t = tiles.find(p => { const z = p.getBoundingClientRect(); return z.left <= q.left + 1 && z.top <= q.top + 1 && z.right >= q.right - 1 && z.bottom >= q.bottom - 1 && z.width < q.width * 2; }); if (!t) return;
+      const z = t.getBoundingClientRect(), s = Math.min(z.width, z.height) * .66;
+      i.style.left = (z.left - R.left + (z.width - s) / 2) + 'px'; i.style.top = (z.top - R.top + (z.height - s) / 2) + 'px'; i.style.width = s + 'px'; i.style.height = s + 'px'; i.style.borderRadius = '3px';
+      t.setAttribute('stroke', '#5E7E8E'); t.setAttribute('stroke-width', '1.5'); t.closest('svg').style.overflow = 'visible'; mark('logos', sl); }); };
+
   // generic rules, every raw slide
-  const all = sl => { if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, snapLines, trimBus, grid].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
-  return {all, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
+  const all = sl => { if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, snapLines, trimBus, grid, logos].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  return {all, logos, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
 
 __D.push([18,"","A.swap(sl,{style:'line',color:C.cream,size:15,ring:{bg:'#0E3A50',border:'1px solid rgba(231,205,168,.25)'}});A.toCorner(sl)",3]);

@@ -148,6 +148,14 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
 - Quand il demande N variations, en montrer vraiment N, toutes différentes, auditées visuellement (texte complet, rien qui dépasse).
 - Choix retenu : prix (slide 13) = quadrillage de fond (gammes posées sur une grille prix, items5 ZB).
 
+### Audit visuel (11 Nov 2026, tools/atelier2/fixlib.js + fixes.py, appliqué à tous les decks)
+- Chiffres : « $192B », « ≈5% » (pas d'espace), « ASIA-PACIFIC » ; un lien souligné ne l'est pas sur l'espace final.
+- Un trait/connecteur touche sa cible (carte, point) ; une ligne d'arbre s'arrête à sa première et dernière branche.
+- Texte d'une carte centré verticalement ; pastille + texte centrés ensemble, 8 px d'écart.
+- Cartes d'une même rangée alignées au pixel ; en-têtes de colonnes jamais dans la couleur des traits (#334D54).
+- Même type de slide = même rendu sur toutes ses pages (ex. frises datées 1/2 et 2/2, matrices de priorité).
+- Logos : posés dans une tuile blanche avec une vraie marge blanche (logo = 66 % de la tuile, coins arrondis), tuile avec un fin contour clair.
+
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
    that LLM does the research AND returns the final JSON/CSV in the same answer (never research first, then a second "go").
