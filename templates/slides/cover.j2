@@ -1,4 +1,4 @@
-<section class="slide cover{% if s.btn %} btn-{{ s.btn }}{% endif %}" data-n="1" data-type="cover">
+<section class="slide cover btn-{{ s.btn or "b" }}" data-n="1" data-type="cover">
   <img class="photo" src="{{ s.image }}">
   <div class="copy">© NEW MARKET PITCH</div>
   <div class="tblock" data-maxw="{{ s.title_maxw or 520 }}"><div class="big">{% for l in s.big.split('\n') %}<div class="ln">{{ l }}</div>{% endfor %}</div><div class="sub">NEW MARKET PITCH</div>{% if s.disc_pos != 'bottom' %}<p class="disc under">{{ s.disclaimer }}</p>{% endif %}</div>

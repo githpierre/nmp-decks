@@ -10,6 +10,17 @@
 {% for k,r in s.regions.items() %}{% set d = [r.pct * 0.89, 5] | max %}
 <div class="dot" data-k="{{ k }}" style="left:{{ P[k].dot[0] - d/2 }}px;top:{{ P[k].dot[1] - d/2 }}px;width:{{ d }}px;height:{{ d }}px"></div>
 <div class="reg" data-k="{{ k }}" data-start="{{ r.start or s.line_start or 'middle' }}" data-end="{{ r.end or s.line_end or 'auto' }}" data-bend="{{ r.bend or s.line_bend or 0.67 }}" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ s.widths[k] if s.widths and s.widths[k] else P[k].box[2] }}px"><h4>{{ r.name or P[k].name }} - {{ r.pct }}%</h4><p>{{ r.text | md }}</p></div>{% endfor %}
+<script>/* Region texts: 3 lines (Pierre, 10 Nov 2026). If the text needs more than 3 lines at its default width, the box widens
+   around its centre (up to +110 px, inside the 24-936 px margins) until it fits on 3 lines. Audit MAP_TEXT_LINES checks 3 lines. */
+(() => { const map = document.currentScript.parentElement;
+  map.querySelectorAll('.reg').forEach(reg => { const p = reg.querySelector('p'), lh = parseFloat(getComputedStyle(p).lineHeight);
+    const lines = () => Math.round(p.getBoundingClientRect().height / lh);
+    const w0 = reg.offsetWidth, c = reg.offsetLeft + w0 / 2;
+    for (let w = w0; lines() > 3 && w <= w0 + 110; w += 4) {
+      let l = Math.max(24, c - w / 2); if (l + w > 936) l = 936 - w;
+      reg.style.width = w + 'px'; reg.style.left = l + 'px'; }
+    reg.dataset.lines = lines(); }); })();
+</script>
 <script>
 /* Map leader lines (dotted). Per region (deck.yaml) or per slide (line_start / line_end / line_bend):
    start: corner = the text corner nearest the dot | middle = middle of the text edge facing the dot | side = side of the middle line

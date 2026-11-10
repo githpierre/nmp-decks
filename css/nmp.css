@@ -37,7 +37,7 @@ b,strong{font-weight:700}
 .note .nl{display:block;width:max-content}
 .note a{color:var(--muted)}
 .foot-line{position:absolute;left:3px;top:643px;width:701px;border-top:1px dashed var(--line)}
-.foot-label{position:absolute;left:704px;top:608px;width:228px;height:23px;line-height:23px;text-align:center;font-size:8pt;letter-spacing:.42em;color:var(--sand);text-transform:uppercase}
+.foot-label{position:absolute;left:704px;top:608px;width:228px;height:23px;line-height:23px;text-align:center;font-size:8pt;letter-spacing:.42em;color:var(--sand);text-transform:uppercase;white-space:nowrap}
 .foot-brand{position:absolute;left:704px;top:632px;width:228px;height:23px;border:2px solid var(--sand);text-align:center;font-size:12pt;font-weight:700;line-height:19px;letter-spacing:.04em;color:var(--sand);box-shadow:var(--shadow-soft)}
 /* content area between title and notes */
 .body{position:absolute;left:40px;right:40px;top:165px;bottom:92px;display:flex;align-items:center;justify-content:center}

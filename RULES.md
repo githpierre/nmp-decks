@@ -92,6 +92,12 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
   (script in base.html.j2; the manual \n in deck.yaml is only a hint). A market or company name is never cut
   (deck.market + `keep_together` list become non-breaking). Audit TITLE_BALANCE. Example: "How Multiverse turned training / into a unicorn"
   = 593 vs 267 px (55 %) -> "How Multiverse turned / training into a unicorn" = 429 vs 431 px (0 %).
+- Cover button NEWMARKETPITCH.COM (workshop 7, B): navy background (85 %) only when the photo under it is busy or bright
+  (p90 luminance > 90, detected by prepare_cover); otherwise unchanged. Default `btn: b`.
+- World map region texts: exactly 3 lines each (audit MAP_TEXT_LINES). Write them long enough; a box widens around its
+  centre (up to +110 px, inside the margins) when 3 lines are not enough.
+- Footer market label: always one line, never on the button (letter spacing tightens for long names; audit FOOT_LABEL).
+- KPI arrows point down automatically when the value is negative. A page marker "1/1" is never shown.
 - Funding-bar arrows: one symmetric SVG (shaft + head on the same axis), centred on the bar.
 
 ## Workflow

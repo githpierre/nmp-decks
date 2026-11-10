@@ -1,5 +1,5 @@
 <div class="body" style="top:200px"><div class="kpis">
-  <div class="rows">{% for k in s['items'] %}<div class="lab">{{ k.label }}</div><div class="val">{{ k.value }}</div><div class="arr {{ 'down' if k.down }}"></div>{% endfor %}</div>
+  <div class="rows">{% for k in s['items'] %}<div class="lab">{{ k.label }}</div><div class="val">{{ k.value }}</div><div class="arr {{ 'down' if k.down or (k.value | string)[:1] in ['-', '−'] }}"></div>{% endfor %}</div>
   <svg class="brace" viewBox="0 0 30 240" preserveAspectRatio="none"><path d="M2 2 Q16 2 16 20 V105 Q16 120 28 120 Q16 120 16 135 V220 Q16 238 2 238" stroke="#334D54" stroke-width="1.5" fill="none"/></svg>
   <div class="why">{{ s.why | md }}</div>
 </div></div>
