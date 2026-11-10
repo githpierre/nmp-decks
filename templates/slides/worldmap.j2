@@ -9,49 +9,57 @@
 <svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
 {% for k,r in s.regions.items() %}{% set d = [r.pct * 0.89, 5] | max %}
 <div class="dot" data-k="{{ k }}" style="left:{{ P[k].dot[0] - d/2 }}px;top:{{ P[k].dot[1] - d/2 }}px;width:{{ d }}px;height:{{ d }}px"></div>
-<div class="reg" data-k="{{ k }}" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ s.widths[k] if s.widths and s.widths[k] else P[k].box[2] }}px"><h4>{{ r.name or P[k].name }} - {{ r.pct }}%</h4><p>{{ r.text | md }}</p></div>{% endfor %}
+<div class="reg" data-k="{{ k }}" data-start="{{ r.start or s.line_start or 'corner' }}" data-end="{{ r.end or s.line_end or 'auto' }}" data-bend="{{ r.bend or s.line_bend or 0.67 }}" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ s.widths[k] if s.widths and s.widths[k] else P[k].box[2] }}px"><h4>{{ r.name or P[k].name }} - {{ r.pct }}%</h4><p>{{ r.text | md }}</p></div>{% endfor %}
 <script>
+/* Map leader lines (dotted). Per region (deck.yaml) or per slide (line_start / line_end / line_bend):
+   start: corner = the text corner nearest the dot | middle = middle of the text edge facing the dot | side = side of the middle line
+   end:   auto (horizontal arrival, or vertical when the line leaves from the side) | h | v | radial (aims at the dot centre)
+   bend:  0..1, length of the curve handles (0.9 = tight elbow, 0.67 = rounded elbow, 0.35 = soft curve)
+   The line starts 4 px from the text and stops 3 px from the dot. */
 (() => { const map = document.currentScript.parentElement, S = map.closest('.slide').getBoundingClientRect(), g = map.querySelector('svg.lines g');
-  const style = '{{ s.curve or "elbow" }}';
   map.querySelectorAll('.reg').forEach(reg => {
     const dot = map.querySelector('.dot[data-k="' + reg.dataset.k + '"]'); if (!dot) return;
-    const d = dot.getBoundingClientRect(), cx = d.left + d.width / 2 - S.left, cy = d.top + d.height / 2 - S.top, rad = d.width / 2;
+    const d = dot.getBoundingClientRect(), cx = d.left + d.width / 2 - S.left, cy = d.top + d.height / 2 - S.top, rad = d.width / 2, gap = rad + 3;
     const p = reg.querySelector('p'), h = reg.querySelector('h4');
     const rg = document.createRange(); rg.selectNodeContents(p);
     const lines = [...rg.getClientRects()].map(r => ({l: r.left - S.left, r: r.right - S.left, t: r.top - S.top, b: r.bottom - S.top}));
-    const hb = h.getBoundingClientRect(), top = hb.top - S.top, bot = lines[lines.length - 1].b;
-    const left = Math.min(...lines.map(x => x.l)), right = Math.max(...lines.map(x => x.r));
-    // start: almost touching the text (4 px); end: on the dot's axis, 3 px from its edge (Pierre, workshop 5)
-    let sx, sy, side = null;
-    const clampIn = (x, a, b) => Math.max(a, Math.min(b, x));
-    const pickX = (a, b) => {           // a point of [a, b] at least 45 px away from the dot horizontally, as close to it as possible
-      const c = [cx - 45, cx + 45].map(x => clampIn(x, a, b)).filter(x => Math.abs(x - cx) >= 44);
-      return c.length ? c.sort((u, v) => Math.abs(u - cx) - Math.abs(v - cx))[0] : (Math.abs(a - cx) > Math.abs(b - cx) ? a : b);
-    };
-    if (cy > bot + 20) {                // 1. dot under the text: leave just under the last line
-      const ln = lines[lines.length - 1]; sy = bot + 4; sx = pickX(ln.l + 8, ln.r - 8);
-    } else if (cy < top - 20 && cx > left - 30 && cx < right + 30) {   // 2. dot above: leave just above the title
-      sy = top - 4; sx = pickX(hb.left - S.left + 8, hb.right - S.left - 8);
-    } else {                            // 3. dot beside: leave from the side of the middle line of the text
-      const ln = lines[Math.floor((lines.length - 1) / 2)];
-      side = cx > (left + right) / 2 ? 1 : -1; sx = side > 0 ? ln.r + 4 : ln.l - 4; sy = (ln.t + ln.b) / 2;
+    const rh = document.createRange(); rh.selectNodeContents(h); const hb = rh.getBoundingClientRect();   // the title's TEXT, not its box
+    const hl = hb.left - S.left, hr = hb.right - S.left, top = hb.top - S.top, bot = lines[lines.length - 1].b;
+    const left = Math.min(...lines.map(x => x.l), hl), right = Math.max(...lines.map(x => x.r), hr);
+    const mode = reg.dataset.start, endm = reg.dataset.end, k = +reg.dataset.bend;
+    const rel = cy > bot + 20 ? 'below' : (cy < top - 20 ? 'above' : 'beside');
+    const rows = [{l: hl, r: hr, t: top, b: hb.bottom - S.top}, ...lines];          // title + text lines
+    const dir = cx > (left + right) / 2 ? 1 : -1;                                     // dot to the right (1) or left (-1)
+    const sideOf = ln => [dir > 0 ? ln.r + 4 : ln.l - 4, (ln.t + ln.b) / 2, [dir, 0]];
+    let sx, sy, t0;                                            // start point and start direction
+    if (rel === 'beside') {
+      const mid = lines[Math.floor((lines.length - 1) / 2)];
+      const near = rows.reduce((a, r) => Math.abs((r.t + r.b) / 2 - cy) < Math.abs((a.t + a.b) / 2 - cy) ? r : a);
+      if (mode === 'corner') { const c = cy < (top + bot) / 2 ? rows[0] : lines[lines.length - 1]; [sx, sy, t0] = sideOf(c); }
+      else if (mode === 'side') [sx, sy, t0] = sideOf(near);
+      else [sx, sy, t0] = sideOf(mid);
+    } else if (rel === 'below') {
+      const ln = lines[lines.length - 1];
+      if (mode === 'side') [sx, sy, t0] = sideOf(ln);
+      else { sy = bot + 4; t0 = [0, 1]; sx = mode === 'middle' ? (ln.l + ln.r) / 2 : (dir > 0 ? ln.r - 8 : ln.l + 8); }
+    } else {
+      if (mode === 'side') [sx, sy, t0] = sideOf(rows[0]);
+      else { sy = top - 4; t0 = [0, -1]; sx = mode === 'middle' ? (hl + hr) / 2 : (dir > 0 ? hr - 8 : hl + 8); }
     }
-    let path, ex, ey;
-    if (style === 's' || style === 's-dot' || style === 's-solid' || style === 'arc' || style === 'soft') {   // older shapes, kept for workshops
-      const ang = Math.atan2(cy - sy, cx - sx); ex = cx - Math.cos(ang) * (rad + 3); ey = cy - Math.sin(ang) * (rad + 3);
-      if (style === 'arc' || style === 'soft') { const mx = (sx + ex) / 2, my = (sy + ey) / 2, dx = ex - sx, dy = ey - sy, k = style === 'soft' ? 0.1 : 0.22; path = `M${sx} ${sy} Q${mx - dy * k} ${my + dx * k} ${ex} ${ey}`; }
-      else path = side ? `M${sx} ${sy} C${sx + side * 60} ${sy} ${ex} ${(sy + ey) / 2} ${ex} ${ey}` : `M${sx} ${sy} C${sx} ${(sy + ey) / 2} ${ex} ${(sy + ey) / 2} ${ex} ${ey}`;
-    } else if (side && Math.abs(cy - sy) < 24) {   // dot level with the text: short horizontal curve onto the dot's side
-      ex = cx - side * (rad + 3); ey = cy; path = `M${sx} ${sy} Q${(sx + ex) / 2} ${sy} ${ex} ${ey}`;
-    } else if (side) {                  // elbow (default): leaves horizontally, arrives vertically on the dot's axis
-      ex = cx; ey = cy + (sy < cy ? -(rad + 3) : rad + 3); path = `M${sx} ${sy} Q${cx} ${sy} ${ex} ${ey}`;
-    } else {                            // elbow (default): leaves vertically, arrives horizontally on the dot's axis
-      ex = cx + (sx < cx ? -(rad + 3) : rad + 3); ey = cy; path = `M${sx} ${sy} Q${sx} ${cy} ${ex} ${ey}`;
-    }
+    let em = endm === 'auto' ? (t0[0] ? 'v' : 'h') : endm;
+    if (em === 'h' && Math.abs(cx - sx) < gap + 12) em = 'v';      // no room to arrive from the side
+    if (em === 'v' && Math.abs(cy - sy) < gap + 12) em = 'h';
+    let ex, ey, t1;
+    if (em === 'h') { const s = Math.sign(cx - sx) || 1; ex = cx - s * gap; ey = cy; t1 = [s, 0]; }
+    else if (em === 'v') { const s = Math.sign(cy - sy) || 1; ex = cx; ey = cy - s * gap; t1 = [0, s]; }
+    else { const L = Math.hypot(cx - sx, cy - sy), u = [(cx - sx) / L, (cy - sy) / L]; ex = cx - u[0] * gap; ey = cy - u[1] * gap; t1 = u; }
+    const dx = Math.abs(ex - sx), dy = Math.abs(ey - sy), dist = Math.hypot(dx, dy);
+    const l0 = k * (t0[0] ? dx : dy), l1 = k * (em === 'radial' ? dist * .5 : (t1[0] ? dx : dy));
+    const path = `M${sx} ${sy} C${sx + t0[0] * l0} ${sy + t0[1] * l0} ${ex - t1[0] * l1} ${ey - t1[1] * l1} ${ex} ${ey}`;
     const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
-    if (style === 's-solid') { el.setAttribute('stroke-dasharray', 'none'); el.setAttribute('stroke-opacity', '.8'); }
-    if (style === 's-dot') { const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle'); c.setAttribute('cx', sx); c.setAttribute('cy', sy); c.setAttribute('r', 2.6);
-      c.setAttribute('fill', '#789096'); c.setAttribute('stroke', 'none'); g.appendChild(c); }
+    // bounding box of text + dot, used by the workshop zoom
+    const zb = [Math.min(left, cx - rad, sx) - 14, Math.min(top, cy - rad, sy) - 14, Math.max(right, cx + rad, sx) + 14, Math.max(bot, cy + rad, sy) + 14];
+    reg.dataset.zoom = zb.map(Math.round).join(',');
   });
 })();
 </script>

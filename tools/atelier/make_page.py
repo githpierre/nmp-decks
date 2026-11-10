@@ -12,14 +12,15 @@ for sec in M['sections']:
     out.append(f'<section class="at" id="s-{sid}"><h2><span class="al">{sid}</span><span class="kd {kind}">{tag}</span>{E(sec["title"])}</h2>')
     if kind == 'juge':
         legend = ''.join(f'<li><b class="lt">{L}</b>{E(n)}</li>' for L, n in sec['variants'].items())
-        out.append(f'<div class="band"><p><b>Ce qui change entre A, B et C :</b> {E(sec["change"])}</p><ul class="leg">{legend}</ul><p>{E(sec["rule"])} Mon choix change donc selon le cas : je l’explique à chaque fois.</p></div>')
+        out.append(f'<div class="band"><p><b>Ce qui change entre A, B et C :</b> {E(sec["change"])}</p><ul class="leg">{legend}</ul><p>{E(sec["rule"])} Mon choix peut donc changer selon le cas : je l’explique à chaque fois.</p></div>')
         for c, case in enumerate(sec['cases'], 1):
-            out.append(f'<div class="case wide"><h3>Cas {c} · {E(case["name"])}</h3><p class="why"><b>Je prends {case["mine"]}.</b> {E(case["why"])}</p><div class="row">')
+            cls = 'tri' if sec.get('zoom') == 'region' else 'wide'
+            out.append(f'<div class="case {cls}"><h3>Cas {c} · {E(case["name"])}</h3><p class="why"><b>Je prends {case["mine"]}.</b> {E(case["why"])}</p><div class="row">')
             for L, n in case['n'].items():
                 mine = L == case['mine']
-                out.append(f'<div class="v{" rec" if mine else ""}" data-k="{sid}{c}{L}" data-label="{E(f"{sid} · cas {c} ({case["name"]}) · {L} = {sec["variants"][L]}")}">'
+                out.append(f'<div class="v{" rec" if mine else ""}" data-s="{sid}" data-k="{sid}{c}{L}" data-label="{E(f"{sid} · cas {c} ({case["name"]}) · {L} = {sec["variants"][L]}")}">'
                            f'<div class="lab"><b class="lt">{L}</b><span>{E(sec["variants"][L])}</span>{"<em>mon choix</em>" if mine else ""}</div>'
-                           f'<div class="pics"><img class="sl" loading="lazy" src="img/s{n}.jpg" alt=""><img class="zoom" loading="lazy" src="img/s{n}z.jpg" alt="zoom"></div>{yn()}</div>')
+                           + (f'<div class="pics"><img class="zoom" loading="lazy" src="img/s{n}z.jpg" alt="zoom"><img class="sl mini" loading="lazy" src="img/s{n}.jpg" alt=""></div>{yn()}</div>' if cls == 'tri' else f'<div class="pics"><img class="sl" loading="lazy" src="img/s{n}.jpg" alt=""><img class="zoom" loading="lazy" src="img/s{n}z.jpg" alt="zoom"></div>{yn()}</div>'))
             out.append('</div></div>')
     else:
         mineL = LET[[v['key'] for v in sec['variants']].index(sec['mine'])]
@@ -29,7 +30,7 @@ for sec in M['sections']:
             pics = ''.join(f'<img class="sl" loading="lazy" src="img/s{n}.jpg" alt="">' for n in v['n'])
             if sec.get('zoom') == 'rail': pics += ''.join(f'<img class="zoom" loading="lazy" src="img/s{n}z.jpg" alt="zoom">' for n in v['n'])
             cols = 'c1' if len(v['n']) == 1 and not sec.get('zoom') else 'c2'
-            out.append(f'<div class="case var{" rec" if mine else ""} v" data-k="{sid}{L}" data-label="{E(f"{sid} · {L} = {v["name"]} ({v["desc"]})")}">'
+            out.append(f'<div class="case var{" rec" if mine else ""} v" data-s="{sid}" data-k="{sid}{L}" data-label="{E(f"{sid} · {L} = {v["name"]} ({v["desc"]})")}">'
                        f'<div class="vh"><b class="lt">{L}</b><div><div class="vn">{E(v["name"])}{" <em>mon choix</em>" if mine else ""}</div><div class="vd">{E(v["desc"])}</div></div>{yn()}</div>'
                        f'<div class="pics {cols}">{pics}</div></div>')
     out.append('</section>')

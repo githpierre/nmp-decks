@@ -17,6 +17,11 @@ with sync_playwright() as p:
     for n, z in zoom.items():
         im = Image.open(io.BytesIO(els[n - 1].screenshot())).convert('RGB')          # 1920 x 1344
         im.resize((1280, 896), Image.LANCZOS).save(OUT / f's{n}.jpg', quality=84)
+        if z == 'region':
+            hl = els[n - 1].evaluate("s => { const r = s.querySelector('.reg[data-k=\"' + (s.dataset.hl || '') + '\"]'); return r ? r.dataset.zoom : null; }")
+            if hl:
+                x0, y0, x1, y1 = [int(v) * 2 for v in hl.split(',')]
+                im.crop((max(0, x0), max(0, y0), min(1920, x1), min(1344, y1))).save(OUT / f's{n}z.jpg', quality=90)
         if z == 'note': im.crop((0, 1150, 1400, 1270)).save(OUT / f's{n}z.jpg', quality=90)
         if z == 'rail': im.crop((60, 380, 820, 900)).save(OUT / f's{n}z.jpg', quality=88)
     b.close()

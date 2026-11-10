@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../../css/nmp.css"></head><body>
 {% for s in slides %}{% set T = s.type %}
 {% if T == 'cover' %}{% include 'slides/cover.j2' %}{% else %}
-<section class="slide {{ 'has-sub' if s.subtitle or s.page }}" data-n="{{ loop.index }}" data-type="{{ T }}">
+<section class="slide {{ 'has-sub' if s.subtitle or s.page }}" data-n="{{ loop.index }}" data-type="{{ T }}"{% if s.hl %} data-hl="{{ s.hl }}"{% endif %}>
   <div class="tri"></div>
   {% if s.section %}<div class="section">{{ s.section }}</div>{% endif %}
   {% if s.title %}<h1 class="title">{{ s.title | nl }}</h1>{% endif %}

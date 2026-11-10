@@ -27,6 +27,7 @@ h3{margin:0 0 10px;font-size:16px}
 .vh .yn{width:260px;flex:none;margin:0}.vh .lt{width:34px;height:34px;font-size:17px}
 .pics.c2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.pics.c1 .sl{max-width:1280px;margin:0 auto}
 .case.var .zoom{align-self:center}
+.tri .pics{gap:6px}.tri .zoom{background:#0b2233}.tri .sl.mini{width:42%;align-self:flex-end;opacity:.9}.tri .lab{min-height:40px;align-items:flex-start}
 .lab{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600}.lab span{flex:1}
 .pics{display:flex;flex-direction:column;gap:8px}
 .sl{width:100%;aspect-ratio:960/672;border-radius:4px;cursor:zoom-in;display:block;background:#0b2233}
@@ -59,7 +60,7 @@ const K='nmp-atelier-'+document.title;let S={};try{S=JSON.parse(localStorage.get
 const V=[...document.querySelectorAll('.v')];
 function paint(){V.forEach(v=>{v.classList.toggle('yes',S[v.dataset.k]==='y');v.classList.toggle('no',S[v.dataset.k]==='n')});
  document.getElementById('cnt').textContent=Object.keys(S).length+' / '+V.length+' jugées';
- document.querySelectorAll('.pr').forEach(p=>{const a=p.dataset.at,t=V.filter(v=>v.dataset.k[0]===a);p.textContent=t.filter(v=>S[v.dataset.k]).length+'/'+t.length});
+ document.querySelectorAll('.pr').forEach(p=>{const a=p.dataset.at,t=V.filter(v=>v.dataset.s===a);p.textContent=t.filter(v=>S[v.dataset.k]).length+'/'+t.length});
  try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}}
 function set(k,x){if(S[k]===x)delete S[k];else S[k]=x;paint()}
 V.forEach(v=>{v.querySelector('.y').onclick=()=>set(v.dataset.k,'y');v.querySelector('.n').onclick=()=>set(v.dataset.k,'n')});
