@@ -180,3 +180,11 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
 - 2026-11-10: second review (rules above) + workshops A (6 covers), B (6 notes x 3), C (7 timelines), D (4 definitions), E (3 map curves).
 - 2026-11-10: first review by Pierre (rules above) + workshop A (cover disclaimer), B (two-line notes), C (timeline style).
 - 2026-11-10: prototype on EdTech (16 slide types rebuilt from the Q3 2026 PowerPoint deck).
+
+## The 12 product-page slides live in the decks too (Pierre, 11 Nov 2026)
+- The 12 illustrative slides of the product pages (S01 to S12 and their second formats) are built in HTML/CSS here, with the same
+  look as the slides already live on the first 100 product pages. No new PowerPoint builder.
+- Every deck CREATION or UPDATE must include these slides for its market (same data, same title, same alt), in the matching chapter.
+  If a slide is missing for that market, build it with the HTML templates before delivering the deck.
+- Slide types: radar (S01), frise (S01-02), trends and curve (S02), cagr and donut (S03), pains (S04), techtable (S05), valuemap (S06),
+  risks (S07), drivers (S08), invbets and topraises (S09), grid (S10), killers and survivors (S11), winner (S12).
