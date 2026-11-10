@@ -49,22 +49,26 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 - Winner contrast rows: each sentence fills 70-90% of its box (audit FILL); soft shadows.
 - Visual audit of every slide by Claude before anything is sent to Pierre.
 
-## Judge workshops (atelier du juge) — how Claude runs them
-- Any design doubt goes to a workshop before it becomes a default. One workshop = one question (e.g. where the cover disclaimer goes).
-- 6 cases x 3 variants: 6 different real-looking cases (new photo / market / content each time), the same 3 variants on each case,
-  built with the real templates and CSS (never a mockup). Claude's pick is the same variant on every case unless a case truly differs.
-- Delivered as ONE scrolling HTML page (artifact): yellow band per workshop = what changes + Claude's pick and why;
-  each variant shown in place with Oui / Non buttons; Claude's pick framed in green with "Mon choix"; click to enlarge;
-  a x2 zoom under the slide when the detail is small (notes, timeline dots). "Copier mes réponses" gives Pierre a text to paste back.
-- Tooling: `tools/make_atelier4.py` (cases -> decks/atelierN/deck.yaml + manifest.json with the workshop texts), `build.py atelierN`,
+## Two kinds of review pages (Claude decides which one fits)
+- ATELIER DU JUGE = a judgment call that will come back on every deck (how many lines for a footnote, when to add a caption...).
+  6 real cases, the same variants A/B/C on every case, ONE thing changes between them (say which in the yellow band).
+  Pick cases where Claude truly hesitates, so the right answer can change from case to case; say per case what Claude takes and why.
+  Never propose the same obvious winner six times: that is not a workshop.
+- CHOIX DE DESIGN = a design decided once (a template's look). No cases: many real variants (6-9, all different and polished),
+  one per row, large; when the detail is small (dots, lines, notes) show a x2 zoom; show it on 2 markets if text length can break it.
+- Both: one scrolling HTML page (artifact), yellow band = what changes + Claude's pick and why, variants named by letters,
+  Oui / Non on each, Claude's pick framed in green, "Copier mes réponses". Visual audit of every image before sending (wraps, overlaps, keys).
+- Tooling: `tools/make_atelier5.py` (deck + manifest.json with the texts), `build.py atelier5`,
   `tools/atelier/shoot.py <deck dir> <img dir>` (x2 renders + zooms), `tools/atelier/make_page.py <deck dir> <page dir>`.
 - Pierre's answers become the default (template / CSS) + a rule here + a history line; unused variants are removed once settled.
 
 ## Pierre's rules (10 Nov 2026, workshop 3)
 - Cover disclaimer: right UNDER the title block (it follows the title, 26 px under "NEW MARKET PITCH", 330 px wide), on every cover.
   This replaces A3 (bottom, aligned with the button). `disc_pos: bottom` keeps the old placement if ever needed.
-- Judge workshops: only ONE thing changes between the 3 variants (say which in the yellow band); variants are named A / B / C
-  and are the same on all 6 cases; the page must be easy to scan (Pierre's UX matters as much as the slides).
+- Footnotes as a list (one line per idea): lines within 12% of each other in rendered width (audit NOTE_BALANCE);
+  a note never runs into the footer label (audit NOTE_WIDTH). 2 lines is the usual case; 3 lines when the content needs it.
+- Dated lists: always exactly 6 dates per page (build refuses otherwise); page 1 and page 2 use the same template.
+  Circles are centred on the rail axis and on the date line; the rail runs from the first circle to the last.
 
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
@@ -74,6 +78,7 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 4. Every correction from Pierre becomes a line here (or a template/CSS change), never a one-off fix in a single deck.
 
 ## History
+- 2026-11-10: workshop 5 (B judge: 1/2/3-line notes; C/D/E design choices: 6 dated-list finishes, 9 definition designs, 6 map line shapes).
 - 2026-11-10: workshop 4 = B-E redone (one change only, variants A/B/C, compact page); A settled: disclaimer under the title.
 - 2026-11-10: workshop 3 (A-E, 6 cases x 3 variants each, HTML page with Oui/Non) sent to Pierre. Cover title width now computed from the photo
   (title_maxw = free dark width of the title band; the pink line shrinks with the title); disclaimer variants `disc_style` / `disc_pos: under`.

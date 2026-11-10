@@ -34,6 +34,7 @@ b,strong{font-weight:700}
 .pillrow{position:absolute;left:0;right:0;top:162px;text-align:center}
 .note{position:absolute;left:21px;bottom:40px;max-width:620px;font-size:7pt;line-height:1.35;color:var(--muted);text-wrap:balance}
 .note.lines{text-wrap:nowrap;white-space:nowrap}
+.note .nl{display:block;width:max-content}
 .note a{color:var(--muted)}
 .foot-line{position:absolute;left:3px;top:643px;width:701px;border-top:1px dashed var(--line)}
 .foot-label{position:absolute;left:704px;top:608px;width:228px;height:23px;line-height:23px;text-align:center;font-size:8pt;letter-spacing:.42em;color:var(--sand);text-transform:uppercase}
@@ -241,3 +242,47 @@ b,strong{font-weight:700}
 .def4p .e{font-size:18pt;margin-bottom:6px}
 .def4p .k{font-size:8pt;letter-spacing:.3em;color:var(--accent);font-weight:700;margin-bottom:6px}
 .def4p .v{font-size:9pt;line-height:1.5;color:#fff;text-wrap:balance}
+
+/* dated list, hollow pink circles centred on the rail axis (workshop 5: k1..k6). --ax = rail axis, --rw rail width, --cs circle size */
+.dated[class*=" k"]{--ax:-10px;--rw:8px;--cs:14px;--bw:2.5px}
+.dated[class*=" k"] .rail{left:calc(var(--ax) - var(--rw) / 2);width:var(--rw)}
+.dated[class*=" k"] .d::before{content:"";position:absolute;top:50%;left:calc(var(--ax) - var(--cs) / 2);width:var(--cs);height:var(--cs);transform:translateY(-50%);
+  border-radius:50%;box-sizing:border-box;border:var(--bw) solid var(--accent);background:var(--bg)}
+.dated.k2{--rw:4px;--bw:2px}.dated.k2 .d::before{box-shadow:0 0 0 3px var(--bg)}
+.dated.k3{--cs:18px;--bw:3px}.dated.k3 .d::before{box-shadow:0 0 0 2px var(--bg)}
+.dated.k4{--rw:2px;--cs:12px;--bw:2px}.dated.k4 .d::after{content:"";position:absolute;top:50%;left:calc(var(--ax) + 9px);width:10px;border-top:1px solid var(--muted)}
+.dated.k5{--rw:6px}.dated.k5 .rail{border-radius:3px;box-shadow:0 0 10px rgba(251,1,97,.45)}.dated.k5 .d::before{box-shadow:0 0 8px rgba(251,1,97,.6)}
+.dated.k6{--cs:16px;--bw:2px}.dated.k6 .d::before{background:#0E3A50;box-shadow:0 0 0 2px var(--bg)}
+
+/* definition, workshop 5 designs e1..e9 (sentence .ds + 3 parts WHAT / WHO PAYS / WHAT FOR) */
+.ds{text-align:center;font-size:14pt;line-height:1.6;text-wrap:balance;color:#fff}.ds b{color:var(--sand)}
+.de1,.de2,.de4,.de5,.de7{display:flex;flex-direction:column;align-items:center;gap:30px}
+.de1 .ds,.de5 .ds,.de7 .ds{width:640px}
+.de1 .row3{display:flex;gap:18px}.de1 .pt{width:214px;padding:16px 14px 18px;text-align:center;border-top:3px solid var(--accent)}
+.de1 .e,.de5 .e{font-size:18pt;margin-bottom:6px}
+.de1 .k,.de2 .k,.de3 .k,.de4 .k,.de5 .k,.de7 .k,.de8 .k{font-size:8pt;letter-spacing:.3em;color:var(--accent);font-weight:700;margin-bottom:6px}
+.de1 .v,.de2 .v,.de3 .v,.de4 .v,.de5 .v,.de7 .v,.de8 .v{font-size:9.5pt;line-height:1.5;color:#fff;text-wrap:balance}
+.de2 .ds{width:620px;font-size:12.5pt}
+.de2 .eq{display:flex;align-items:center;gap:10px}.de2 .pt{width:168px;padding:14px 12px;text-align:center;min-height:104px;display:flex;flex-direction:column;justify-content:center}
+.de2 .op{font:700 22pt/1 Lexend;color:var(--accent);width:22px;text-align:center}
+.de2 .res{width:150px;text-align:center;font-size:15pt;font-weight:700;color:var(--sand);line-height:1.25;text-wrap:balance}.de2 .res span{display:block;font-size:8pt;letter-spacing:.3em;color:var(--muted);text-transform:uppercase;margin-top:4px}
+.de3{display:flex;align-items:center;gap:44px;width:840px}
+.de3 .ds{flex:1;text-align:left;font-size:16pt;line-height:1.55}
+.de3 .stack{width:360px;display:flex;flex-direction:column;gap:12px}
+.de3 .it{display:flex;align-items:center;gap:14px;padding:12px 16px;border-left:3px solid var(--accent)}.de3 .e{font-size:18pt;flex:none;width:30px;text-align:center}.de3 .k{margin-bottom:3px}
+.de4{gap:14px}.de4 .ds{width:700px;font-size:12.5pt}
+.de4 .hubwrap{position:relative;width:760px;height:260px}.de4 svg{position:absolute;inset:0;width:100%;height:100%}
+.de4 .hub{position:absolute;left:303px;top:13px;width:154px;height:154px;border-radius:50%;border:2px solid var(--accent);background:var(--bg);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;text-align:center;font-size:12pt;font-weight:700;color:var(--sand);line-height:1.2;padding:14px;text-wrap:balance}
+.de4 .sat{position:absolute;width:210px;padding:12px 14px;text-align:center}.de4 .s1{left:0;top:46px}.de4 .s2{right:0;top:46px}.de4 .s3{left:275px;top:186px}
+.de5 .flow{display:flex;align-items:center;gap:8px}.de5 .pt{width:206px;padding:16px 14px;text-align:center}.de5 .ar{width:40px;height:16px;flex:none}
+.de6{display:flex;flex-direction:column;gap:30px;width:760px}
+.de6 .qt{border-left:5px solid var(--accent);padding:6px 0 6px 26px}.de6 .qt p{font-size:17pt;line-height:1.55;color:#fff;text-wrap:balance}.de6 .qt b{color:var(--sand)}
+.de6 .chips{display:flex;gap:12px;padding-left:31px}.de6 .chip{flex:1;display:flex;flex-direction:column;gap:3px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow-soft)}
+.de6 .chip .e{font-size:13pt}.de6 .chip .k{font-size:7.5pt;letter-spacing:.3em;color:var(--accent);font-weight:700}.de6 .chip .v{font-size:9pt;line-height:1.45;text-wrap:balance}
+.de7 .cols{display:flex;width:760px}.de7 .col{flex:1;padding:4px 26px;text-align:left}.de7 .col+.col{border-left:1px solid var(--line)}
+.de7 .n{font:700 30pt/1 Lexend;color:var(--sand);margin-bottom:10px;text-shadow:var(--tshadow)}
+.de8{width:760px;padding:30px 34px 28px}.de8 .ds{font-size:14pt}.de8 .sep{height:1px;background:var(--line);margin:22px 0}
+.de8 .cols{display:flex;gap:20px}.de8 .col{flex:1;text-align:center}.de8 .e{font-size:16pt;margin-bottom:6px}
+.de9{width:700px}.de9 .hw{font-size:24pt;font-weight:700;color:var(--sand);text-shadow:var(--tshadow);margin-bottom:12px}.de9 .hw span{font-size:11pt;font-weight:300;font-style:italic;color:var(--muted);margin-left:10px}
+.de9 .ds{text-align:left;font-size:14pt;padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:16px}.de9 .num{color:var(--accent);font-weight:700}
+.de9 .dl{display:flex;flex-direction:column;gap:8px}.de9 .dl>div{display:flex;gap:16px;align-items:baseline}.de9 .dl .k{width:96px;flex:none;font-size:7.5pt;letter-spacing:.3em;color:var(--accent);font-weight:700}.de9 .dl .v{font-size:10pt;color:#fff}

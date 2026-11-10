@@ -33,15 +33,18 @@
     if (!side && Math.abs(sx - cx) < 45) sx += sx >= cx ? 45 : -45;      // always inclined
     const ang = Math.atan2(cy - sy, cx - sx), ex = cx - Math.cos(ang) * (rad + 4), ey = cy - Math.sin(ang) * (rad + 4);
     let path;
-    if (style === 's') {             // S-curve: leaves along its natural direction, arrives softly
+    if (style === 's' || style === 's-dot' || style === 's-solid') {             // S-curve: leaves along its natural direction, arrives softly
       path = side ? `M${sx} ${sy} C${sx + side * 60} ${sy} ${ex} ${(sy + ey) / 2} ${ex} ${ey}` : `M${sx} ${sy} C${sx} ${(sy + ey) / 2} ${ex} ${(sy + ey) / 2} ${ex} ${ey}`;
-    } else if (style === 'arc') {    // gentle arc bulging outward
-      const mx = (sx + ex) / 2, my = (sy + ey) / 2, dx = ex - sx, dy = ey - sy, k = 0.22;
+    } else if (style === 'arc' || style === 'soft') {    // arc bulging outward (soft = barely curved)
+      const mx = (sx + ex) / 2, my = (sy + ey) / 2, dx = ex - sx, dy = ey - sy, k = style === 'soft' ? 0.1 : 0.22;
       path = `M${sx} ${sy} Q${mx - dy * k} ${my + dx * k} ${ex} ${ey}`;
     } else {                         // elbow: one smooth bend
       path = side ? `M${sx} ${sy} Q${ex} ${sy} ${ex} ${ey}` : `M${sx} ${sy} Q${sx} ${ey} ${ex} ${ey}`;
     }
     const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
+    if (style === 's-solid') { el.setAttribute('stroke-dasharray', 'none'); el.setAttribute('stroke-opacity', '.8'); }
+    if (style === 's-dot') { const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle'); c.setAttribute('cx', sx); c.setAttribute('cy', sy); c.setAttribute('r', 2.6);
+      c.setAttribute('fill', '#789096'); c.setAttribute('stroke', 'none'); g.appendChild(c); }
   });
 })();
 </script>

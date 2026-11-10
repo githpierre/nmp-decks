@@ -1,0 +1,291 @@
+{
+ "sections": [
+  {
+   "kind": "juge",
+   "id": "B",
+   "title": "Notes de bas de page : 1, 2 ou 3 lignes ?",
+   "short": "Notes",
+   "change": "le nombre de lignes. Le contenu reste le même, et dans chaque version les lignes ont presque la même longueur (moins de 12 % d’écart, contrôlé à chaque build).",
+   "variants": {
+    "A": "1 ligne",
+    "B": "2 lignes",
+    "C": "3 lignes"
+   },
+   "rule": "Ma règle de départ : une ligne par idée. 1 idée = 1 ligne, 2 idées = 2 lignes, 3 étapes distinctes = 3 lignes. Jamais de point final quand chaque ligne est une phrase.",
+   "cases": [
+    {
+     "name": "Maturité",
+     "mine": "B",
+     "why": "Deux idées (ce qu’est le score, et ses limites). Une seule ligne perd la limite, trois lignes coupent une idée en deux.",
+     "n": {
+      "A": 1,
+      "B": 2,
+      "C": 3
+     }
+    },
+    {
+     "name": "Ce qui a changé",
+     "mine": "B",
+     "why": "Deux idées (pas de chronologie officielle, et notre critère de choix). En une ligne on ne dit plus pour qui on a choisi.",
+     "n": {
+      "A": 4,
+      "B": 5,
+      "C": 6
+     }
+    },
+    {
+     "name": "Estimations",
+     "mine": "C",
+     "why": "Trois étapes distinctes (source, ajustement du périmètre, âge du chiffre). En 2 lignes, deux étapes se collent ; ici 3 lignes se lisent comme une méthode.",
+     "n": {
+      "A": 7,
+      "B": 8,
+      "C": 9
+     }
+    },
+    {
+     "name": "Comparaison",
+     "mine": "B",
+     "why": "La source suffit-elle (1 ligne) ? Non : « app spending » surprend le lecteur, il faut le dire. Deux lignes suffisent.",
+     "n": {
+      "A": 10,
+      "B": 11,
+      "C": 12
+     }
+    },
+    {
+     "name": "Priorités",
+     "mine": "B",
+     "why": "Trois idées possibles, mais « chaque client est différent » et « valide avec de vrais clients » vont ensemble. Deux lignes, plus fluide que trois.",
+     "n": {
+      "A": 13,
+      "B": 14,
+      "C": 15
+     }
+    },
+    {
+     "name": "Carte du monde",
+     "mine": "A",
+     "why": "Une seule idée (trois sources combinées puis ajustées). La couper en deux lignes ajoute des mots pour rien : une ligne suffit.",
+     "n": {
+      "A": 16,
+      "B": 17,
+      "C": 18
+     }
+    }
+   ],
+   "zoom": "note"
+  },
+  {
+   "kind": "variantes",
+   "id": "C",
+   "title": "Liste datée : ronds creux roses, centrés sur l’axe",
+   "short": "Liste datée",
+   "zoom": "rail",
+   "what": "Tu as gardé les ronds creux roses. Tous sont maintenant centrés sur l’axe de la barre (et à la hauteur exacte de la date). Voici 6 finitions, une par ligne. Le même gabarit sert pour les 2 pages (toujours 6 dates, c’est maintenant vérifié à chaque build).",
+   "mine": "k1",
+   "why": "Le plus net : la barre et les anneaux ont le même poids, rien ne vole la vedette aux textes. B (barre fine) est élégant, mais la barre devient un fil.",
+   "variants": [
+    {
+     "key": "k1",
+     "name": "Classique",
+     "desc": "barre 8 px, ronds creux 14 px, centrés sur l’axe",
+     "n": [
+      19
+     ]
+    },
+    {
+     "key": "k2",
+     "name": "Barre fine",
+     "desc": "barre 4 px, ronds creux 14 px détachés par un liseré",
+     "n": [
+      20
+     ]
+    },
+    {
+     "key": "k3",
+     "name": "Gros anneaux",
+     "desc": "barre 8 px, anneaux 18 px plus épais",
+     "n": [
+      21
+     ]
+    },
+    {
+     "key": "k4",
+     "name": "Fil + repère",
+     "desc": "barre 2 px, petits ronds, petit trait vers la date",
+     "n": [
+      22
+     ]
+    },
+    {
+     "key": "k5",
+     "name": "Lumineux",
+     "desc": "barre 6 px arrondie, léger halo rose",
+     "n": [
+      23
+     ]
+    },
+    {
+     "key": "k6",
+     "name": "Anneaux pleins",
+     "desc": "anneaux 16 px remplis d’un bleu un peu plus clair",
+     "n": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "variantes",
+   "id": "D",
+   "title": "« What is the X market, in simple terms? » : 9 designs",
+   "short": "Définition",
+   "what": "9 designs différents. Chacun est montré sur EdTech et sur Biotechnology (nom long), pour vérifier qu’il tient avec un autre marché.",
+   "mine": "e3",
+   "why": "La phrase est l’info principale : en grand à gauche, elle se lit d’abord ; les 3 parties à droite la résument d’un coup d’œil. Plus aéré que les cartes en ligne.",
+   "variants": [
+    {
+     "key": "e1",
+     "name": "Phrase + 3 cartes",
+     "desc": "l’actuel, avec un liseré rose en haut des cartes",
+     "n": [
+      25,
+      26
+     ]
+    },
+    {
+     "key": "e2",
+     "name": "Équation",
+     "desc": "WHAT + WHO PAYS + WHAT FOR = le marché",
+     "n": [
+      27,
+      28
+     ]
+    },
+    {
+     "key": "e3",
+     "name": "Phrase à gauche, pile à droite",
+     "desc": "la phrase en grand, les 3 parties empilées",
+     "n": [
+      29,
+      30
+     ]
+    },
+    {
+     "key": "e4",
+     "name": "Le marché au centre",
+     "desc": "un rond au centre, les 3 parties autour",
+     "n": [
+      31,
+      32
+     ]
+    },
+    {
+     "key": "e5",
+     "name": "Le parcours",
+     "desc": "qui paie → quoi → pour quoi faire, avec des flèches",
+     "n": [
+      33,
+      34
+     ]
+    },
+    {
+     "key": "e6",
+     "name": "Citation + pastilles",
+     "desc": "grande phrase avec barre rose, 3 pastilles dessous",
+     "n": [
+      35,
+      36
+     ]
+    },
+    {
+     "key": "e7",
+     "name": "3 colonnes numérotées",
+     "desc": "01 / 02 / 03, sans cadres",
+     "n": [
+      37,
+      38
+     ]
+    },
+    {
+     "key": "e8",
+     "name": "Une seule grande carte",
+     "desc": "phrase en haut, 3 parties en bas",
+     "n": [
+      39,
+      40
+     ]
+    },
+    {
+     "key": "e9",
+     "name": "Entrée de dictionnaire",
+     "desc": "« EdTech market, noun » puis la définition",
+     "n": [
+      41,
+      42
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "variantes",
+   "id": "E",
+   "title": "Carte du monde : la forme des lignes",
+   "short": "Carte",
+   "what": "6 formes de lignes, chacune sur toute la largeur pour bien voir les flèches. Points, textes et positions ne bougent pas.",
+   "mine": "s-dot",
+   "why": "La courbe en S est la plus naturelle, et le petit point dit clairement de quel texte part la ligne.",
+   "variants": [
+    {
+     "key": "s",
+     "name": "Courbe en S",
+     "desc": "part dans le sens du texte, arrive en douceur",
+     "n": [
+      43
+     ]
+    },
+    {
+     "key": "soft",
+     "name": "Arc léger",
+     "desc": "presque droite, juste un peu courbée",
+     "n": [
+      44
+     ]
+    },
+    {
+     "key": "arc",
+     "name": "Arc marqué",
+     "desc": "courbe plus prononcée",
+     "n": [
+      45
+     ]
+    },
+    {
+     "key": "elbow",
+     "name": "Coude arrondi",
+     "desc": "un seul virage",
+     "n": [
+      46
+     ]
+    },
+    {
+     "key": "s-dot",
+     "name": "S + point de départ",
+     "desc": "courbe en S avec un petit point sous le texte",
+     "n": [
+      47
+     ]
+    },
+    {
+     "key": "s-solid",
+     "name": "S en trait plein",
+     "desc": "courbe en S, trait fin continu au lieu de pointillés",
+     "n": [
+      48
+     ]
+    }
+   ]
+  }
+ ]
+}

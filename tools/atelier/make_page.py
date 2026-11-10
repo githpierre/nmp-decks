@@ -1,24 +1,37 @@
-"""Page HTML d'un atelier du juge : python3 make_page.py <deck dir> <page dir> [ligne d'en-tête en HTML]
-Lit manifest.json ({ateliers, items}) ; les images doivent être dans <page dir>/img (shoot.py)."""
+"""Page HTML d'un atelier : python3 make_page.py <deck dir> <page dir> [bandeau d'en-tête HTML]
+manifest.json = {sections: [...]} ; kind 'juge' (cas x variantes A/B/C, mon choix par cas) ou 'variantes' (un design, beaucoup de variantes, une par ligne)."""
 import json, html, sys, pathlib
 M = json.load(open(sys.argv[1] + '/manifest.json')); head = sys.argv[3] if len(sys.argv) > 3 else ''
 E = html.escape; out = []; nav = []
-for a in M['ateliers']:
-    at = a['id']; nav.append(f'<a href="#atelier-{at}">{at} · {E(a.get("short") or a["title"].split(":")[0])}<span class="pr" data-at="{at}"></span></a>')
-    legend = ''.join(f'<li class="{"mine" if L == a["mine"] else ""}"><b class="lt">{L}</b>{E(n)}{" <em>mon choix</em>" if L == a["mine"] else ""}</li>' for L, n in a['variants'].items())
-    out.append(f'<section class="at" id="atelier-{at}"><h2><span class="al">Atelier {at}</span>{E(a["title"])}</h2>'
-               f'<div class="band"><p><b>Une seule chose change entre A, B et C :</b> {E(a["change"])}</p><ul class="leg">{legend}</ul>'
-               f'<p><b>Mon choix : {a["mine"]}.</b> {E(a["why"])}</p>' + (f'<p class="small">{E(a["note"])}</p>' if a.get('note') else '') + '</div>')
-    for c, cname in enumerate(a['cases'], 1):
-        out.append(f'<div class="case{" wide" if at == "B" else ""}"><h3>Cas {c} · {E(cname)}</h3><div class="row">')
-        for L, vname in a['variants'].items():
-            k = f'{at}{c}{L}'; mine = L == a['mine']
-            z = f'<img class="zoom" loading="lazy" src="img/{k}z.jpg" alt="zoom">' if a.get('zoom') else ''
-            out.append(f'<div class="v{" rec" if mine else ""}" data-k="{k}" data-label="{E(f"{at} · cas {c} ({cname}) · {L} = {vname}")}">'
-                       f'<div class="lab"><b class="lt">{L}</b><span>{E(vname)}</span>{"<em>mon choix</em>" if mine else ""}</div>'
-                       f'<div class="pics"><img class="sl" loading="lazy" src="img/{k}.jpg" alt="">{z}</div>'
-                       f'<div class="yn"><button class="y">Oui</button><button class="n">Non</button></div></div>')
-        out.append('</div></div>')
+LET = 'ABCDEFGHIJKL'
+def yn(): return '<div class="yn"><button class="y">Oui</button><button class="n">Non</button></div>'
+for sec in M['sections']:
+    sid = sec['id']; kind = sec['kind']
+    nav.append(f'<a href="#s-{sid}">{sid} · {E(sec["short"])}<span class="pr" data-at="{sid}"></span></a>')
+    tag = 'Atelier du juge' if kind == 'juge' else 'Choix de design'
+    out.append(f'<section class="at" id="s-{sid}"><h2><span class="al">{sid}</span><span class="kd {kind}">{tag}</span>{E(sec["title"])}</h2>')
+    if kind == 'juge':
+        legend = ''.join(f'<li><b class="lt">{L}</b>{E(n)}</li>' for L, n in sec['variants'].items())
+        out.append(f'<div class="band"><p><b>Ce qui change entre A, B et C :</b> {E(sec["change"])}</p><ul class="leg">{legend}</ul><p>{E(sec["rule"])} Mon choix change donc selon le cas : je l’explique à chaque fois.</p></div>')
+        for c, case in enumerate(sec['cases'], 1):
+            out.append(f'<div class="case wide"><h3>Cas {c} · {E(case["name"])}</h3><p class="why"><b>Je prends {case["mine"]}.</b> {E(case["why"])}</p><div class="row">')
+            for L, n in case['n'].items():
+                mine = L == case['mine']
+                out.append(f'<div class="v{" rec" if mine else ""}" data-k="{sid}{c}{L}" data-label="{E(f"{sid} · cas {c} ({case["name"]}) · {L} = {sec["variants"][L]}")}">'
+                           f'<div class="lab"><b class="lt">{L}</b><span>{E(sec["variants"][L])}</span>{"<em>mon choix</em>" if mine else ""}</div>'
+                           f'<div class="pics"><img class="sl" loading="lazy" src="img/s{n}.jpg" alt=""><img class="zoom" loading="lazy" src="img/s{n}z.jpg" alt="zoom"></div>{yn()}</div>')
+            out.append('</div></div>')
+    else:
+        mineL = LET[[v['key'] for v in sec['variants']].index(sec['mine'])]
+        out.append(f'<div class="band"><p>{E(sec["what"])}</p><p><b>Mon choix : {mineL} ({E(next(v["name"] for v in sec["variants"] if v["key"] == sec["mine"]))}).</b> {E(sec["why"])}</p></div>')
+        for i, v in enumerate(sec['variants']):
+            L = LET[i]; mine = v['key'] == sec['mine']
+            pics = ''.join(f'<img class="sl" loading="lazy" src="img/s{n}.jpg" alt="">' for n in v['n'])
+            if sec.get('zoom') == 'rail': pics += ''.join(f'<img class="zoom" loading="lazy" src="img/s{n}z.jpg" alt="zoom">' for n in v['n'])
+            cols = 'c1' if len(v['n']) == 1 and not sec.get('zoom') else 'c2'
+            out.append(f'<div class="case var{" rec" if mine else ""} v" data-k="{sid}{L}" data-label="{E(f"{sid} · {L} = {v["name"]} ({v["desc"]})")}">'
+                       f'<div class="vh"><b class="lt">{L}</b><div><div class="vn">{E(v["name"])}{" <em>mon choix</em>" if mine else ""}</div><div class="vd">{E(v["desc"])}</div></div>{yn()}</div>'
+                       f'<div class="pics {cols}">{pics}</div></div>')
     out.append('</section>')
 tpl = (pathlib.Path(__file__).parent / 'page_tpl.html').read_text()
 page = tpl.replace('<!--NAV-->', ''.join(nav)).replace('<!--HEAD-->', head).replace('<!--BODY-->', '\n'.join(out))

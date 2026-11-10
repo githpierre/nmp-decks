@@ -57,6 +57,11 @@ AUDIT_JS = r"""
       const ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect(); if (Math.abs((ra.left + ra.right) / 2 - (rb.left + rb.right) / 2) > 1.5) out.push([n, 'ARROW_OFFCENTER', '', '']); });
     // titles: max 2 lines
     const t = sl.querySelector('.title'); if (t) { const lh = parseFloat(getComputedStyle(t).lineHeight); if (t.getBoundingClientRect().height > lh * 2.2) out.push([n, 'TITLE_LINES', '', t.textContent.slice(0, 50)]); }
+    // footnote must stop before the footer label (x 690)
+    { const ntb = sl.querySelector('.note'); if (ntb) { const r = Math.max(...[...ntb.querySelectorAll('.nl')].map(e => e.getBoundingClientRect().right), ntb.getBoundingClientRect().right) - sl.getBoundingClientRect().left; if (r > 690) out.push([n, 'NOTE_WIDTH', Math.round(r) + 'px', ntb.textContent.slice(0, 50)]); } }
+    // footnote lines (YAML list): widths within 12% of each other (Pierre, 10 Nov 2026)
+    const nls = [...sl.querySelectorAll('.note .nl')].map(e => e.getBoundingClientRect().width);
+    if (nls.length > 1) { const mx = Math.max(...nls), mn = Math.min(...nls); if ((mx - mn) / mx > 0.12) out.push([n, 'NOTE_BALANCE', Math.round((mx - mn) / mx * 100) + '%', sl.querySelector('.note').textContent.slice(0, 50)]); }
     const nt = sl.querySelector('.note'); if (nt) { const lh = parseFloat(getComputedStyle(nt).lineHeight); if (nt.getBoundingClientRect().height > lh * 3.2) out.push([n, 'NOTE_LINES', '', nt.textContent.slice(0, 50)]); }
   });
   return out;
@@ -120,6 +125,8 @@ def build(slug, png=False, only=None):
     for s in deck['slides']:
         if s.get('type') == 'logogrid': prepare_logogrid(s)
         if s.get('type') == 'cover': prepare_cover(s, d)
+        if s.get('type') == 'dated' and len(s.get('items', [])) != 6:
+            raise SystemExit(f"dated list must have exactly 6 dates (has {len(s.get('items', []))}): {s.get('title')}")
         if s.get('type') == 'contrast':
             for r in s['rows']:
                 if len(r) != 2: raise SystemExit(f'contrast row cut by a comma (quote it): {r}')

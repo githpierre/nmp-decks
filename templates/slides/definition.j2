@@ -1,6 +1,18 @@
 {# variants: d1 framed box with icons (default) | d2 big quote | d3 split label + sentence | d4 sentence + 3 parts (parts: [{k, v, e}]) #}
 {% set v = s.variant or 'd1' %}
-{% if v == 'd1' %}
+{% if v in ['e1','e2','e3','e4','e5','e6','e7','e8','e9'] %}{% set P = s.parts %}{% set lab = s.market_label or deck.market %}
+{% if v == 'e1' %}<div class="body"><div class="de1"><p class="ds">{{ s.text | md }}</p><div class="row3">{% for p in P %}<div class="card pt"><div class="e">{{ p.e }}</div><div class="k">{{ p.k }}</div><div class="v">{{ p.v }}</div></div>{% endfor %}</div></div></div>
+{% elif v == 'e2' %}<div class="body"><div class="de2"><p class="ds">{{ s.text | md }}</p><div class="eq">{% for p in P %}<div class="card pt"><div class="k">{{ p.k }}</div><div class="v">{{ p.v }}</div></div>{% if not loop.last %}<div class="op">+</div>{% endif %}{% endfor %}<div class="op">=</div><div class="res">{{ lab }}<span>market</span></div></div></div></div>
+{% elif v == 'e3' %}<div class="body"><div class="de3"><p class="ds">{{ s.text | md }}</p><div class="stack">{% for p in P %}<div class="card it"><div class="e">{{ p.e }}</div><div><div class="k">{{ p.k }}</div><div class="v">{{ p.v }}</div></div></div>{% endfor %}</div></div></div>
+{% elif v == 'e4' %}<div class="body"><div class="de4"><p class="ds">{{ s.text | md }}</p><div class="hubwrap"><svg viewBox="0 0 760 260"><g stroke="#789096" stroke-width="1.2" stroke-dasharray="4 4" fill="none"><path d="M303 90 C265 90 248 82 212 82"/><path d="M457 90 C495 90 512 82 548 82"/><path d="M380 167 V184"/></g></svg>
+  <div class="hub">{{ lab }}</div>{% for p in P %}<div class="card sat s{{ loop.index }}"><div class="k">{{ p.e }} {{ p.k }}</div><div class="v">{{ p.v }}</div></div>{% endfor %}</div></div></div>
+{% elif v == 'e5' %}<div class="body"><div class="de5"><p class="ds">{{ s.text | md }}</p><div class="flow">{% for i in [1, 0, 2] %}{% set p = P[i] %}<div class="card pt"><div class="e">{{ p.e }}</div><div class="k">{{ p.k }}</div><div class="v">{{ p.v }}</div></div>{% if not loop.last %}<svg class="ar" viewBox="0 0 40 16"><path d="M2 8 H34 M27 2 L35 8 L27 14" stroke="#FB0161" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>{% endif %}{% endfor %}</div></div></div>
+{% elif v == 'e6' %}<div class="body"><div class="de6"><div class="qt"><p>{{ s.text | md }}</p></div><div class="chips">{% for p in P %}<div class="chip"><span class="e">{{ p.e }}</span><span class="k">{{ p.k }}</span><span class="v">{{ p.v }}</span></div>{% endfor %}</div></div></div>
+{% elif v == 'e7' %}<div class="body"><div class="de7"><p class="ds">{{ s.text | md }}</p><div class="cols">{% for p in P %}<div class="col"><div class="n">0{{ loop.index }}</div><div class="k">{{ p.k }}</div><div class="v">{{ p.v }}</div></div>{% endfor %}</div></div></div>
+{% elif v == 'e8' %}<div class="body"><div class="card de8"><p class="ds">{{ s.text | md }}</p><div class="sep"></div><div class="cols">{% for p in P %}<div class="col"><div class="e">{{ p.e }}</div><div class="k">{{ p.k }}</div><div class="v">{{ p.v }}</div></div>{% endfor %}</div></div></div>
+{% else %}<div class="body"><div class="de9"><div class="hw">{{ lab }} market <span>noun</span></div><p class="ds"><span class="num">1.</span> {{ s.text | md }}</p><div class="dl">{% for p in P %}<div><span class="k">{{ p.k }}</span><span class="v">{{ p.v }}</span></div>{% endfor %}</div></div></div>
+{% endif %}
+{% elif v == 'd1' %}
 <div class="body">
 <svg class="dash-arrows" viewBox="0 0 880 410" style="position:absolute;inset:0;width:100%;height:100%">
   <g stroke="#334D54" stroke-width="1.5" stroke-dasharray="5 5" fill="none"><path d="M440 10 V60"/><path d="M440 400 V350"/><path d="M40 205 H100"/><path d="M840 205 H780"/></g>

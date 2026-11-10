@@ -4,3 +4,8 @@
   <div class="rail"></div>{% if s.cap %}<div class="cap"></div>{% endif %}
   {% for it in s['items'] %}<div class="d"><span>{{ it.d }}</span></div><div class="tx">{{ it.t | md }}</div>{% endfor %}
 </div></div>
+<script>(() => { // rail runs from the first circle centre to the last one (k* variants: circles centred on the axis)
+  const box = [...document.querySelectorAll('.dated')].pop(); if (!/\bk\d/.test(box.className)) return;
+  const ds = box.querySelectorAll('.d'), B = box.getBoundingClientRect(), a = ds[0].getBoundingClientRect(), z = ds[ds.length - 1].getBoundingClientRect();
+  const rail = box.querySelector('.rail'); rail.style.top = (a.top + a.height / 2 - B.top) + 'px'; rail.style.bottom = (B.bottom - (z.top + z.height / 2)) + 'px';
+})();</script>
