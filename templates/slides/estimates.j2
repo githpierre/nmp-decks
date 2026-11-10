@@ -1,0 +1,4 @@
+<div class="body"><div class="est">
+  <div class="h">Firm</div><div class="h"></div><div class="h">Market size</div><div class="h">Comments</div>
+  {% for r in s.rows %}<div class="firm">{{ r.firm | nl }}</div><div class="ar"></div><div class="v">{{ r.value }}</div><div class="cm">{{ r.comment }}</div>{% endfor %}
+</div></div>

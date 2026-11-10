@@ -1,0 +1,7 @@
+{% set mx = s.bars | map(attribute='v') | max %}
+<div class="body" style="flex-direction:column;gap:14px">
+  <p class="proj-intro" style="width:452px">{{ s.intro | nl }}</p>
+  <div class="vbars" style="gap:12px;height:250px">{% for b in s.bars %}<div class="col"><div class="v">$ {{ b.v }} B</div><div class="bar" style="width:44px;height:{{ (b.v / mx * 200) | round }}px"></div><div class="x">{{ b.x }}</div></div>{% endfor %}</div>
+  <div style="width:614px;border-top:1px dashed #789096"></div>
+  <div class="cagr">{{ s.cagr }}</div>
+</div>

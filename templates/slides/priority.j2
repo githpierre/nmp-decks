@@ -1,0 +1,5 @@
+{% set nc = s.icons|length %}
+<div class="body"><div class="prio" style="grid-template-columns:250px repeat({{ nc }},57px) 90px">
+  <div class="h">Pain point</div>{% for i in s.icons %}<div class="ic">{{ i }}</div>{% endfor %}<div class="h">Priority</div>
+  {% for r in s.rows %}<div class="pain">{{ r.pain }}</div>{% for v in r.s %}<div class="sc s{{ v }}">{{ '+' * v }}</div>{% endfor %}<div class="pr"><i></i>{{ r.p }}</div>{% endfor %}
+</div></div>

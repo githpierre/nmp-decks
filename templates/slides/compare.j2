@@ -1,0 +1,5 @@
+{% set mx = s.rows | map(attribute='v') | max %}
+<div class="body"><div class="cmp"><div class="ax"></div>
+{% for r in s.rows %}<div class="n" {% if r.hl %}style="font-size:21pt;font-weight:700;color:#fff"{% endif %}>{{ r.name }}</div>
+<div class="bw {{ 'hl' if r.hl }}"><div class="bar" style="width:{{ (r.v / mx * 390) | round }}px"></div><div class="tag">$ {{ r.v }} B</div></div>{% endfor %}
+</div></div>

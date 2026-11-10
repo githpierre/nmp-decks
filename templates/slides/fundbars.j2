@@ -1,0 +1,4 @@
+{% set mx = s.bars | map(attribute='v') | max %}
+<div class="body"><div class="vbars" style="gap:40px">{% for b in s.bars %}<div class="col" style="width:66px">
+  <div class="ann">{{ b.ann }}</div><div class="down"></div><div class="v" style="font-size:9pt">$ {{ b.v }} M</div>
+  <div class="bar" style="width:40px;height:{{ [(b.v / mx * 150) | round, 3] | max }}px"></div><div class="x">{{ b.x }}</div></div>{% endfor %}</div></div>

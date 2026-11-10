@@ -1,0 +1,8 @@
+{# rows: [{name, cells:[[logo,logo,logo] x3]}]; logos are file names in assets/logos #}
+{% set pos = [[70,12],[128,16],[114,56]] %}
+<div class="body"><div class="lgrid">
+  <div></div>{% for c in s.cols %}<div class="ch {{ 'last' if loop.last }}">{{ c }}</div>{% endfor %}
+  {% for r in s.rows %}{% if not loop.first %}<div class="sepline"></div>{% endif %}<div class="rh">{{ r.name }}</div>{% for cell in r.cells %}<div class="cell {{ 'last' if loop.last }}">
+    {% for lg in cell %}<div class="lg" style="left:{{ pos[loop.index0][0] - 20 }}px;top:{{ pos[loop.index0][1] }}px"><img src="../../assets/logos/{{ lg }}.png"></div>{% endfor %}</div>{% endfor %}{% endfor %}
+  <div></div><div class="bot"></div>
+</div></div>

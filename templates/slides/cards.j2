@@ -1,0 +1,4 @@
+{% set n = s['items']|length %}{% set cols = s.cols or (4 if n % 4 == 0 else 3) %}
+<div class="body"><div class="cards" style="grid-template-columns:repeat({{ cols }},{{ s.w or 167 }}px);grid-auto-rows:{{ s.h or 140 }}px">
+{% for it in s['items'] %}<div class="card c"><div class="e">{{ it.e }}</div><div class="tx">{{ it.t | md }}</div></div>{% endfor %}
+</div></div>

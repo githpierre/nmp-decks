@@ -1,0 +1,5 @@
+{% set tot = s.cats | sum(attribute='v') %}{% set mx = s.cats | map(attribute='v') | max %}
+<div class="body"><div class="catbars">
+{% for c in s.cats %}<div class="col"><div class="box"><div class="fill" style="height:{{ (c.v / tot * 200 * (s.scale or 1.15)) | round }}px"></div></div>
+<div class="lab">{{ c.name | nl }}</div><div class="val">$ {{ c.v }} B</div><div class="pct">(≈ {{ (c.v / tot * 100) | round | int }}%)</div></div>{% endfor %}
+</div></div>

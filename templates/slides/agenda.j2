@@ -1,0 +1,4 @@
+{# chapters come from deck.chapters; current: index (1-based) of the active chapter, 0 = none #}
+<div class="body"><div class="{{ 'agenda-frame' if s.current }}"><div class="agenda">
+{% for q in deck.chapters %}<div class="it {{ 'on' if s.current == loop.index }} {{ 'off' if s.current and s.current != loop.index }}"><div class="chev"><svg viewBox="0 0 151 22" preserveAspectRatio="none"><path d="M1 1 H136 L150 11 L136 21 H1 L13 11 Z" fill="none" stroke="#789096" stroke-width="1"/></svg></div>{{ q | nl }}</div>{% endfor %}
+</div></div></div>

@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{{ deck.market }} - {{ deck.quarter }}</title>
+<link rel="stylesheet" href="../../css/nmp.css"></head><body>
+{% for s in slides %}{% set T = s.type %}
+{% if T == 'cover' %}{% include 'slides/cover.j2' %}{% else %}
+<section class="slide {{ 'has-sub' if s.subtitle or s.page }}" data-n="{{ loop.index }}" data-type="{{ T }}">
+  <div class="tri"></div>
+  {% if s.section %}<div class="section">{{ s.section }}</div>{% endif %}
+  {% if s.title %}<h1 class="title">{{ s.title | nl }}</h1>{% endif %}
+  {% if s.subtitle or s.page %}<div class="subtitle">{{ s.subtitle or s.page }}</div>{% endif %}
+  {% if s.pill %}<div class="pillrow"><span class="pill">{{ s.pill }}</span></div>{% endif %}
+  {% include 'slides/' ~ T ~ '.j2' %}
+  {% if s.note %}<p class="note">{{ s.note | md }}</p>{% endif %}
+  <div class="foot-line"></div><div class="foot-label">{{ deck.label }}</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>{% endif %}
+{% endfor %}</body></html>

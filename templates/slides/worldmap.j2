@@ -1,0 +1,12 @@
+{# regions: na, eu, apac, mea, latam -> pct + text. Dot diameter = 0.89 px per % (min 5). Fixed layout. #}
+{% set P = {'na':{'dot':[331,367],'box':[24,177,246],'name':'NORTH AMERICA','line':'M183 242 Q200 400 315 367'},
+            'eu':{'dot':[493,359],'box':[396,177,313],'name':'EUROPE','line':'M570 294 Q560 330 505 352'},
+            'apac':{'dot':[632,403],'box':[730,272,190],'name':'ASIA-PACIFIC','line':'M731 343 Q690 390 642 403'},
+            'mea':{'dot':[529,396],'box':[379,484,300],'name':'MIDDLE EAST & AFRICA','line':'M529 481 V400'},
+            'latam':{'dot':[412,444],'box':[31,459,280],'name':'LATIN AMERICA','line':'M312 514 Q380 520 410 446'}} %}
+<div class="map"><img class="w" src="../../assets/img/world-map.svg">
+<svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none">{% for k,r in s.regions.items() %}<path d="{{ P[k].line }}"/>{% endfor %}</g></svg>
+{% for k,r in s.regions.items() %}{% set d = [r.pct * 0.89, 5] | max %}
+<div class="dot" style="left:{{ P[k].dot[0] - d/2 }}px;top:{{ P[k].dot[1] - d/2 }}px;width:{{ d }}px;height:{{ d }}px"></div>
+<div class="reg" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ P[k].box[2] }}px"><h4>{{ r.name or P[k].name }} - {{ r.pct }}%</h4><p>{{ r.text | md }}</p></div>{% endfor %}
+</div>

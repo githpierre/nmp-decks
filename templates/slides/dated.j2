@@ -1,0 +1,4 @@
+<div class="body"><div class="dated">
+  <div class="rail"></div>{% if s.seal != false %}<div class="seal"></div>{% endif %}
+  {% for it in s['items'] %}<div class="d">{{ it.d }}</div><div class="tx">{{ it.t | md }}</div>{% endfor %}
+</div></div>

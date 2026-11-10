@@ -1,0 +1,6 @@
+{% set x = 30 + (820 - 60) * s.score / 100 %}
+<div class="body"><div class="maturity">
+  <div class="score" style="left:{{ x }}px">{{ s.score }}</div><div class="of" style="left:{{ x }}px">out of 100</div>
+  <div class="txt" style="left:{{ [[x,220]|max,600]|min }}px">{{ s.text }}</div>
+  <div class="axis"></div><div class="mark" style="left:{{ x }}px"></div>
+</div></div>
