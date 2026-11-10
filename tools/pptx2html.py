@@ -145,6 +145,7 @@ FONTS = {'Montserrat': 'Montserrat', 'Arial': 'Arial'}
 
 def runs_html(p, theme, scale):
     out = []
+    runs = [r for r in p._p if r.tag.replace(A, '') in ('r', 'fld') and ''.join(x.text or '' for x in r.iter(A + 't'))]
     for r in p._p:
         t = r.tag.replace(A, '')
         if t == 'br': out.append(' '); continue
@@ -168,6 +169,9 @@ def runs_html(p, theme, scale):
                 elif tf.startswith('Arial'): st.append('font-family:Arial,sans-serif')
         if re.fullmatch(r'(?:[A-Z0-9&.\-] ){3,}[A-Z0-9&.\-]|(?:(?:[A-Z0-9&.\-] )+[A-Z0-9&.\-] {2,})+(?:[A-Z0-9&.\-] )*[A-Z0-9&.\-]', tx.strip()):
             tx = unspace(tx); st.append('letter-spacing:.42em')   # 'W H Y    I T' -> 'WHY IT' + letter spacing (spaces were the spacing)
+        if runs and r is runs[-1]: tx = tx.rstrip()   # no trailing space (an underlined link was underlined past its last word)
+        if runs and r is runs[0]: tx = tx.lstrip()
+        tx = numfix(tx)
         tx = esc(tx).replace('\x0b', ' ').replace('\n', ' ')   # manual line breaks dropped: the browser balances the lines
         out.append(f'<span style="{";".join(st)}">{tx}</span>' if st else tx)
     return ''.join(out)
@@ -281,6 +285,14 @@ def walk(shapes, tf=None):
             yield (sh, *tf(X, Y, W, H))
 
 
+def numfix(t):
+    """Typography of figures (visual audit, 11 Nov 2026): '$ 192 B' -> '$192B', '≈5 %' -> '≈5%', 'ASIA - PACIFIC' -> 'ASIA-PACIFIC'."""
+    t = re.sub(r'([$€£])\s+(?=\d)', r'\1', t)
+    t = re.sub(r'([$€£]\d[\d.,]*)\s+([KMBT])\b', r'\1\2', t)
+    t = re.sub(r'(\d)\s+%', r'\1%', t)
+    return re.sub(r'\b([A-Z]{2,}) - ([A-Z]{2,})\b', r'\1-\2', t)
+
+
 def unspace(s):
     """'P A I N    P O I N T S' -> 'PAIN POINTS' (letters split by 1 space, words by 2+)."""
     return ' '.join(w.replace(' ', '') for w in re.split(r' {2,}', s.strip()))
@@ -295,6 +307,7 @@ def convert(slide, theme, media_dir, media_url, overrides=None):
         if ov.get('dy'): y += ov['dy']
         if ov.get('dx'): x += ov['dx']
         if ov.get('scale'): s_ = ov['scale']; x, y, w, h = x + w * (1 - s_) / 2, y + h * (1 - s_) / 2, w * s_, h * s_
+        if ov.get('w'): x, w = x + (w - ov['w']) / 2, ov['w']   # new width, same centre
         txt = sh.text_frame.text.strip() if sh.has_text_frame else ''
         g = sh._element.find('.//' + A + 'prstGeom'); prst = g.get('prst') if g is not None else None
         # ---- chrome ----

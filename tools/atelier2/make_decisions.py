@@ -16,9 +16,14 @@ for mod, iid, key, sc in DEC.EXTRA:
     it = {i['id']: i for i in load(mod).ITEMS}[iid]
     for n in sc: out.append(f"__D.push([{n},'',{json.dumps(it[key]['js'])},'{iid}{key}']);")
 for n in DEC.CARDS: out.append(f"__D.push([{n},'','A.cardPillAuto(sl)','cards']);")
+FX = load('fixes'); out.insert(4, (H / 'fixlib.js').read_text())   # visual-audit fixes (11 Nov): per-type JS, then the generic rules on every raw slide
+for f in FX.FIXES:
+    if f.get('js'):
+        for n in f['slides']: out.append(f"__D.push([{n},'',{json.dumps(f['js'])},'fix{f['id']}']);")
 out.append("""(function go(){ if(window.__rawfit!==true) return setTimeout(go,50);
   __D.forEach(([n,css,js,id])=>{ const sl=document.querySelector(`.slide[data-n="${n}"]`); if(!sl) return;
     if(css){const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);}
     try{ (new Function('sl','A','C',js))(sl,window.A,window.A.C); }catch(e){ console.error('decision',id,n,e); } });
+  document.querySelectorAll('.slide').forEach(sl=>{ try{ window.F.all(sl); }catch(e){ console.error('fixall',sl.dataset.n,e); } });
   window.__decided=true; })();""")
 d = pathlib.Path(sys.argv[1]); (d / 'decisions.js').write_text('\n'.join(out)); print('decisions', len(DEC.D))

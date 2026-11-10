@@ -257,8 +257,10 @@
 160:
   8: {text: "About 46% of the capital went to North America, about 27% to Asia-Pacific, and about 22% to Europe"}
 166:
-  18: {text: "In 2024 it raised a Series B round led by Susquehanna"}
-  23: {text: "In 2024, it raised its Series C, led by Accel"}
+  8: {w: 124}
+  13: {w: 124}
+  18: {text: "In 2024 it raised a Series B round led by Susquehanna", w: 124}
+  23: {text: "In 2024, it raised its Series C, led by Accel", w: 124}
 172:
   11: {text: "Startups who issue and then verify job skill certificates"}
 178:
@@ -321,3 +323,17 @@
   4: {text: "TechCrunch is a long-standing technology outlet that relies on direct company sources"}
   8: {text: "Rest of World reports on technology outside the US, with sourced data and local reporting"}
   11: {text: "This is Coursera’s yearly Job Skills report, based on its own enrollment data"}
+
+# Visual audit, 11 Nov 2026 (tools/atelier2/fixes.py): wider notes above the bars, cleaner scenario labels
+159:
+  6: {w: 104}
+  13: {w: 104}
+  18: {w: 104}
+165:
+  8: {w: 124}
+  13: {w: 124}
+  18: {w: 124}
+  23: {w: 124}
+51:
+  15: {text: "BEST CASE ≈ 14%"}
+  16: {text: "WORST CASE ≈ 7%"}
