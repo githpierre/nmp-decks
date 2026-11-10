@@ -1,0 +1,528 @@
+{
+ "ateliers": [
+  {
+   "id": "B",
+   "title": "Notes de bas de page",
+   "short": "Notes",
+   "change": "la mise en forme de la note. Les idées et presque tous les mots restent les mêmes.",
+   "variants": {
+    "A": "2 lignes de même longueur, sans point",
+    "B": "3 lignes plus courtes, sans point",
+    "C": "un paragraphe avec des points"
+   },
+   "mine": "A",
+   "why": "C’est ta règle actuelle : 2 lignes équilibrées se lisent d’un coup d’œil. 3 lignes prennent plus de hauteur pour rien, et le paragraphe se lit moins vite.",
+   "cases": [
+    "Maturité",
+    "Ce qui a changé",
+    "Estimations",
+    "Comparaison",
+    "Priorités",
+    "Carte du monde"
+   ],
+   "zoom": true
+  },
+  {
+   "id": "C",
+   "title": "Liste datée : les ronds sur la barre rose",
+   "short": "Liste datée",
+   "change": "la forme des ronds. Barre, dates, textes et espacements sont identiques.",
+   "variants": {
+    "A": "ronds creux roses (actuel)",
+    "B": "ronds pleins roses",
+    "C": "petits ronds pleins sable"
+   },
+   "mine": "A",
+   "why": "Les ronds creux marquent chaque date sans voler la vedette au texte. Les ronds pleins font une barre très chargée, et le sable se perd sur le fond.",
+   "cases": [
+    "Page 1, 6 dates",
+    "Page 2, 6 dates",
+    "Page 1, 4 dates",
+    "Page 2, 4 dates",
+    "Page 1, 5 dates",
+    "Page 2, 5 dates"
+   ],
+   "zoom": true
+  },
+  {
+   "id": "D",
+   "title": "« What is the X market, in simple terms? »",
+   "short": "Définition",
+   "change": "la mise en page. La phrase de définition est la même dans les 3 (seuls les mots en gras disparaissent dans B, l’ancien cadre).",
+   "variants": {
+    "A": "phrase + 3 cartes WHAT / WHO PAYS / WHAT FOR",
+    "B": "phrase dans un cadre avec icônes (ancien design)",
+    "C": "nom du marché à gauche + phrase"
+   },
+   "mine": "A",
+   "why": "Les 3 cartes font comprendre le marché en 3 secondes, même sans lire la phrase. B ne met rien en valeur ; C est propre mais reste une seule phrase.",
+   "cases": [
+    "EdTech",
+    "Nuclear fusion",
+    "Biotechnology",
+    "Wearable tech",
+    "AI voice agents",
+    "Longevity"
+   ],
+   "zoom": false,
+   "note": "Définitions des 5 nouveaux marchés écrites pour l’atelier (à refaire avec la recherche dans un vrai deck)."
+  },
+  {
+   "id": "E",
+   "title": "Carte du monde : la forme des lignes pointillées",
+   "short": "Carte",
+   "change": "la forme des lignes qui relient chaque texte à son point. Points, textes et positions sont identiques.",
+   "variants": {
+    "A": "courbe en S",
+    "B": "coude (angle arrondi)",
+    "C": "arc"
+   },
+   "mine": "A",
+   "why": "La courbe en S part dans le sens du texte et arrive en douceur sur le point. Le coude fait schéma technique ; l’arc part parfois à contresens.",
+   "cases": [
+    "EdTech",
+    "Nuclear fusion",
+    "Biotechnology",
+    "Wearable tech",
+    "AI voice agents",
+    "Longevity"
+   ],
+   "zoom": false,
+   "note": "Sur les 5 nouvelles cartes, les parts et les textes sont inventés : seule la forme des lignes compte."
+  }
+ ],
+ "items": [
+  {
+   "n": 1,
+   "at": "B",
+   "case": 1,
+   "var": "A"
+  },
+  {
+   "n": 2,
+   "at": "B",
+   "case": 1,
+   "var": "B"
+  },
+  {
+   "n": 3,
+   "at": "B",
+   "case": 1,
+   "var": "C"
+  },
+  {
+   "n": 4,
+   "at": "B",
+   "case": 2,
+   "var": "A"
+  },
+  {
+   "n": 5,
+   "at": "B",
+   "case": 2,
+   "var": "B"
+  },
+  {
+   "n": 6,
+   "at": "B",
+   "case": 2,
+   "var": "C"
+  },
+  {
+   "n": 7,
+   "at": "B",
+   "case": 3,
+   "var": "A"
+  },
+  {
+   "n": 8,
+   "at": "B",
+   "case": 3,
+   "var": "B"
+  },
+  {
+   "n": 9,
+   "at": "B",
+   "case": 3,
+   "var": "C"
+  },
+  {
+   "n": 10,
+   "at": "B",
+   "case": 4,
+   "var": "A"
+  },
+  {
+   "n": 11,
+   "at": "B",
+   "case": 4,
+   "var": "B"
+  },
+  {
+   "n": 12,
+   "at": "B",
+   "case": 4,
+   "var": "C"
+  },
+  {
+   "n": 13,
+   "at": "B",
+   "case": 5,
+   "var": "A"
+  },
+  {
+   "n": 14,
+   "at": "B",
+   "case": 5,
+   "var": "B"
+  },
+  {
+   "n": 15,
+   "at": "B",
+   "case": 5,
+   "var": "C"
+  },
+  {
+   "n": 16,
+   "at": "B",
+   "case": 6,
+   "var": "A"
+  },
+  {
+   "n": 17,
+   "at": "B",
+   "case": 6,
+   "var": "B"
+  },
+  {
+   "n": 18,
+   "at": "B",
+   "case": 6,
+   "var": "C"
+  },
+  {
+   "n": 19,
+   "at": "C",
+   "case": 1,
+   "var": "A"
+  },
+  {
+   "n": 20,
+   "at": "C",
+   "case": 1,
+   "var": "B"
+  },
+  {
+   "n": 21,
+   "at": "C",
+   "case": 1,
+   "var": "C"
+  },
+  {
+   "n": 22,
+   "at": "C",
+   "case": 2,
+   "var": "A"
+  },
+  {
+   "n": 23,
+   "at": "C",
+   "case": 2,
+   "var": "B"
+  },
+  {
+   "n": 24,
+   "at": "C",
+   "case": 2,
+   "var": "C"
+  },
+  {
+   "n": 25,
+   "at": "C",
+   "case": 3,
+   "var": "A"
+  },
+  {
+   "n": 26,
+   "at": "C",
+   "case": 3,
+   "var": "B"
+  },
+  {
+   "n": 27,
+   "at": "C",
+   "case": 3,
+   "var": "C"
+  },
+  {
+   "n": 28,
+   "at": "C",
+   "case": 4,
+   "var": "A"
+  },
+  {
+   "n": 29,
+   "at": "C",
+   "case": 4,
+   "var": "B"
+  },
+  {
+   "n": 30,
+   "at": "C",
+   "case": 4,
+   "var": "C"
+  },
+  {
+   "n": 31,
+   "at": "C",
+   "case": 5,
+   "var": "A"
+  },
+  {
+   "n": 32,
+   "at": "C",
+   "case": 5,
+   "var": "B"
+  },
+  {
+   "n": 33,
+   "at": "C",
+   "case": 5,
+   "var": "C"
+  },
+  {
+   "n": 34,
+   "at": "C",
+   "case": 6,
+   "var": "A"
+  },
+  {
+   "n": 35,
+   "at": "C",
+   "case": 6,
+   "var": "B"
+  },
+  {
+   "n": 36,
+   "at": "C",
+   "case": 6,
+   "var": "C"
+  },
+  {
+   "n": 37,
+   "at": "D",
+   "case": 1,
+   "var": "A"
+  },
+  {
+   "n": 38,
+   "at": "D",
+   "case": 1,
+   "var": "B"
+  },
+  {
+   "n": 39,
+   "at": "D",
+   "case": 1,
+   "var": "C"
+  },
+  {
+   "n": 40,
+   "at": "D",
+   "case": 2,
+   "var": "A"
+  },
+  {
+   "n": 41,
+   "at": "D",
+   "case": 2,
+   "var": "B"
+  },
+  {
+   "n": 42,
+   "at": "D",
+   "case": 2,
+   "var": "C"
+  },
+  {
+   "n": 43,
+   "at": "D",
+   "case": 3,
+   "var": "A"
+  },
+  {
+   "n": 44,
+   "at": "D",
+   "case": 3,
+   "var": "B"
+  },
+  {
+   "n": 45,
+   "at": "D",
+   "case": 3,
+   "var": "C"
+  },
+  {
+   "n": 46,
+   "at": "D",
+   "case": 4,
+   "var": "A"
+  },
+  {
+   "n": 47,
+   "at": "D",
+   "case": 4,
+   "var": "B"
+  },
+  {
+   "n": 48,
+   "at": "D",
+   "case": 4,
+   "var": "C"
+  },
+  {
+   "n": 49,
+   "at": "D",
+   "case": 5,
+   "var": "A"
+  },
+  {
+   "n": 50,
+   "at": "D",
+   "case": 5,
+   "var": "B"
+  },
+  {
+   "n": 51,
+   "at": "D",
+   "case": 5,
+   "var": "C"
+  },
+  {
+   "n": 52,
+   "at": "D",
+   "case": 6,
+   "var": "A"
+  },
+  {
+   "n": 53,
+   "at": "D",
+   "case": 6,
+   "var": "B"
+  },
+  {
+   "n": 54,
+   "at": "D",
+   "case": 6,
+   "var": "C"
+  },
+  {
+   "n": 55,
+   "at": "E",
+   "case": 1,
+   "var": "A"
+  },
+  {
+   "n": 56,
+   "at": "E",
+   "case": 1,
+   "var": "B"
+  },
+  {
+   "n": 57,
+   "at": "E",
+   "case": 1,
+   "var": "C"
+  },
+  {
+   "n": 58,
+   "at": "E",
+   "case": 2,
+   "var": "A"
+  },
+  {
+   "n": 59,
+   "at": "E",
+   "case": 2,
+   "var": "B"
+  },
+  {
+   "n": 60,
+   "at": "E",
+   "case": 2,
+   "var": "C"
+  },
+  {
+   "n": 61,
+   "at": "E",
+   "case": 3,
+   "var": "A"
+  },
+  {
+   "n": 62,
+   "at": "E",
+   "case": 3,
+   "var": "B"
+  },
+  {
+   "n": 63,
+   "at": "E",
+   "case": 3,
+   "var": "C"
+  },
+  {
+   "n": 64,
+   "at": "E",
+   "case": 4,
+   "var": "A"
+  },
+  {
+   "n": 65,
+   "at": "E",
+   "case": 4,
+   "var": "B"
+  },
+  {
+   "n": 66,
+   "at": "E",
+   "case": 4,
+   "var": "C"
+  },
+  {
+   "n": 67,
+   "at": "E",
+   "case": 5,
+   "var": "A"
+  },
+  {
+   "n": 68,
+   "at": "E",
+   "case": 5,
+   "var": "B"
+  },
+  {
+   "n": 69,
+   "at": "E",
+   "case": 5,
+   "var": "C"
+  },
+  {
+   "n": 70,
+   "at": "E",
+   "case": 6,
+   "var": "A"
+  },
+  {
+   "n": 71,
+   "at": "E",
+   "case": 6,
+   "var": "B"
+  },
+  {
+   "n": 72,
+   "at": "E",
+   "case": 6,
+   "var": "C"
+  }
+ ]
+}

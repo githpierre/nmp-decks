@@ -56,9 +56,15 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 - Delivered as ONE scrolling HTML page (artifact): yellow band per workshop = what changes + Claude's pick and why;
   each variant shown in place with Oui / Non buttons; Claude's pick framed in green with "Mon choix"; click to enlarge;
   a x2 zoom under the slide when the detail is small (notes, timeline dots). "Copier mes réponses" gives Pierre a text to paste back.
-- Tooling: `tools/make_atelier3.py` (cases -> decks/atelierN/deck.yaml + manifest.json), `build.py atelierN`,
+- Tooling: `tools/make_atelier4.py` (cases -> decks/atelierN/deck.yaml + manifest.json with the workshop texts), `build.py atelierN`,
   `tools/atelier/shoot.py <deck dir> <img dir>` (x2 renders + zooms), `tools/atelier/make_page.py <deck dir> <page dir>`.
 - Pierre's answers become the default (template / CSS) + a rule here + a history line; unused variants are removed once settled.
+
+## Pierre's rules (10 Nov 2026, workshop 3)
+- Cover disclaimer: right UNDER the title block (it follows the title, 26 px under "NEW MARKET PITCH", 330 px wide), on every cover.
+  This replaces A3 (bottom, aligned with the button). `disc_pos: bottom` keeps the old placement if ever needed.
+- Judge workshops: only ONE thing changes between the 3 variants (say which in the yellow band); variants are named A / B / C
+  and are the same on all 6 cases; the page must be easy to scan (Pierre's UX matters as much as the slides).
 
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
@@ -68,6 +74,7 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 4. Every correction from Pierre becomes a line here (or a template/CSS change), never a one-off fix in a single deck.
 
 ## History
+- 2026-11-10: workshop 4 = B-E redone (one change only, variants A/B/C, compact page); A settled: disclaimer under the title.
 - 2026-11-10: workshop 3 (A-E, 6 cases x 3 variants each, HTML page with Oui/Non) sent to Pierre. Cover title width now computed from the photo
   (title_maxw = free dark width of the title band; the pink line shrinks with the title); disclaimer variants `disc_style` / `disc_pos: under`.
 - 2026-11-10: second review (rules above) + workshops A (6 covers), B (6 notes x 3), C (7 timelines), D (4 definitions), E (3 map curves).
