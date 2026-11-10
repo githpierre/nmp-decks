@@ -1,0 +1,5 @@
+{% set G = s.geo %}<svg class="pp-abs" width="960" height="672">{% for g in G.segs %}<path d="{{g.d}}" fill="{{g.col}}" stroke="#062A3C" stroke-width="2"/>{% endfor %}
+{% for g in G.segs %}{% if g.path %}<path d="{{g.path}}" fill="none" stroke="#9AA8AD" stroke-width="1"/>{% endif %}{% endfor %}</svg>
+{% if s.variant not in ['E'] %}<div class="pp-dc" style="left:{{G.cx}}px;top:{{G.cy}}px">share of the<br>market size</div>{% endif %}
+{% for g in G.segs %}{% if g.inner %}<span class="pp-din" style="left:{{g.tx}}px;top:{{g.ty}}px">{{g.p}}%</span>{% endif %}
+<div class="pp-dl {{ 'r' if g.right else 'l' }}" style="{% if g.right %}left:{{g.lx}}px{% else %}right:{{960-g.lx}}px{% endif %};top:{{g.ly-9}}px">{% if g.swatch and not s._f %}<i class="pp-sw" style="background:{{g.col}}"></i>{% endif %}{% if s._f %}<i class="pp-pbar" style="width:{{g.p*2.2}}px;background:{{g.col}}"></i>{% endif %}<b>{{g.p}}%</b> {{g.name}}<div class="pp-dlogos">{% for l in g.logos %}<span class="lt sm"><img src="{{l}}"></span>{% endfor %}</div></div>{% endfor %}

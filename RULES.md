@@ -191,3 +191,16 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
   If a slide is missing for that market, build it with the HTML templates before delivering the deck.
 - Slide types: radar (S01), frise (S01-02), trends and curve (S02), cagr and donut (S03), pains (S04), techtable (S05), valuemap (S06),
   risks (S07), drivers (S08), invbets and topraises (S09), grid (S10), killers and survivors (S11), winner (S12).
+
+## Product-page slides (pp_*): Pierre's review of 11 Nov 2026 (checked by tools/pp/audit_pp.py, run after every build)
+- Air under the title: no content closer than 30 px to the title (20 px to the pill). TITLE_GAP / PILL_GAP.
+- Nothing overlaps or touches: text boxes and logo tiles at least 4 px apart (value above a logo, pink marker before a year...). TOO_CLOSE.
+- Logos: never a tile with initials when a slide shows logos; fetch the whole chain, then ask Pierre (name + domain) in one list. LOGO_MISSING.
+- S04 pain points: always 6 pains; audience headers always on exactly 2 lines (2 or 3 words); no Mild/Strong/Strongest legend; block centered vertically.
+- S06 value map: logo tiles 34 px; a group label may run a little past its card, never much (2 lines instead).
+- S07 risks: every event on exactly 3 lines (write 110-125 characters).
+- S08 growth drivers: always 30 events, 2 columns of 15; the 3 biggest events highlighted (impact >= 2.5), like the live slides.
+- S11 killers and survivors: at least 5 rows.
+- S12 winner: 6 or 7 criteria, 5 or 6 companies.
+- S10 grid: positions mean something (biggest raiser on the left inside its stage), never random.
+- Visual audit by Claude of every slide before sending, on top of the script.

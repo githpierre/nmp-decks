@@ -2,5 +2,5 @@
 <line x1="{{G.L-14}}" y1="{{G.base}}" x2="{{G.R+14}}" y2="{{G.base}}" stroke="#5E7E8E" stroke-width="1.5"/></svg>
 {% for g in G.grid %}<span class="pp-gl" style="right:{{960-G.L+14}}px;top:{{g.y-6}}px">{{g.lab}}</span>{% endfor %}
 {% for b in G.bars %}<div class="pp-rbar {{ 'lead' if b.lead }}" style="left:{{b.cx-27}}px;top:{{G.base-b.h}}px;height:{{b.h}}px"></div>
-<span class="lt pp-c" style="left:{{b.cx}}px;top:{{G.base-b.h-30}}px"><img src="{{b.r.src}}"></span><span class="pp-rv" style="left:{{b.cx}}px;top:{{G.base-b.h-66}}px">{{b.lab}}</span>
+<span class="lt pp-c" style="left:{{b.cx}}px;top:{{G.base-b.h-30}}px"><img src="{{b.r.src}}"></span><span class="pp-rv" style="left:{{b.cx}}px;top:{{G.base-b.h-78}}px">{{b.lab}}</span>
 <span class="pp-rn" style="left:{{b.cx}}px;top:{{G.base+8}}px">{{b.r.name}}</span><span class="pp-rs2" style="left:{{b.cx}}px;top:{{G.base+27}}px">{{b.r.stage}}, {{b.r.date}}</span>{% endfor %}

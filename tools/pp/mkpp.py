@@ -85,7 +85,11 @@ def slides(h):
         note=f'We listed the biggest equity rounds raised by {nm} startups in recent years, from company announcements, investor releases and the press.' + SRC))
     # S10 grid
     d = J(f'{S10}/grid/{h}.json')
-    g = dict(base, type='pp_grid', section=lab, title=d['title'], handle=h, cols=d['cols'], rows=d['rows'], cells=d['cells'], note=d['note'])
+    import pandas as _pd
+    _r = _pd.read_csv('/home/claude/nmp-seo/data/startups/rounds.csv'); _r['amount_usd'] = _pd.to_numeric(_r.amount_usd, errors='coerce')
+    _t = _r[_r.is_equity == True].groupby('company_id').amount_usd.sum().to_dict()
+    _al = {'sublime-systems': 'sublime-systems', 'carboncure': 'carboncure-technologies', 'divergent': 'divergent-technologies', 'seurat': 'seurat-technologies', 'cura': 'cura', 'co-reactive': 'reactive'}
+    g = dict(base, type='pp_grid', weight={k: float(_t.get(_al.get(k, k), 0) or 0) for row in d['cells'] for cell in row for k in cell}, section=lab, title=d['title'], handle=h, cols=d['cols'], rows=d['rows'], cells=d['cells'], note=d['note'])
     out.append(g)
     # S11 killers
     d = J(f'{S10}/sk/{h}.json')

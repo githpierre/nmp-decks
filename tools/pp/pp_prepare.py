@@ -5,6 +5,12 @@ import math, hashlib
 def _h(s):
     return int(hashlib.md5(s.encode()).hexdigest()[:8], 16)
 
+def _two(t):
+    w = t.split()
+    if len(w) < 2: return [t, '']
+    best = min(range(1, len(w)), key=lambda i: abs(len(' '.join(w[:i])) - len(' '.join(w[i:]))))
+    return [' '.join(w[:best]), ' '.join(w[best:])]
+
 def radar(s):
     cx, cy, R = 480, 384, 150
     pos = [(0.18, 205), (0.30, 330), (0.36, 95), (0.50, 245), (0.56, 20), (0.62, 150), (0.80, 290), (0.84, 60)]
@@ -24,7 +30,7 @@ def cagr(s):
     v0, r = float(s['size']), float(s['cagr']) / 100
     vals = [v0 * (1 + r) ** i for i in range(11)]; mx = vals[-1]
     def money(v): return f'$ {v:.1f} B'.replace('.0 B', ' B') if v < 10 else f'$ {v:.0f} B'
-    X0, X1, base, H = 175, 770, 466, 184; slot = (X1 - X0) / 11; bw = slot * 0.78
+    X0, X1, base, H = 175, 770, 496, 184; slot = (X1 - X0) / 11; bw = slot * 0.78
     s['geo'] = dict(bars=[dict(x=X0 + i * slot + (slot - bw) / 2, w=bw, h=max(6, H * v / mx), lab=money(v), year=s.get('y0', 2026) + i) for i, v in enumerate(vals)],
                     base=base, X0=X0, X1=X1, lastx=X0 + 10.5 * slot, lasttop=base - H - 30)
 
@@ -55,8 +61,10 @@ def donut(s):
     s['geo'] = dict(cx=cx, cy=cy, ro=ro, ri=ri, segs=segs)
 
 def pains(s):
-    xs = [369, 465, 561, 658, 753]
-    s['geo'] = dict(xs=xs[:len(s['auds'])], rows=[dict(text=t, y=276 + i * 49, d=v) for i, (t, v) in enumerate(s['pains'])])
+    xs = [369, 465, 561, 658, 753]; n = len(s['pains']); step = 49
+    top = 218 + (590 - 218 - (48 + n * step)) / 2          # header + rows centered between title and note
+    s['geo'] = dict(xs=xs[:len(s['auds'])], head=top, rows=[dict(text=t, y=top + 48 + step / 2 + i * step, d=v) for i, (t, v) in enumerate(s['pains'])])
+    s['auds2'] = [_two(a) for a in s['auds']]
 
 def tech(s):
     C = s['companies']; F = s['features']
@@ -65,7 +73,7 @@ def tech(s):
     n = len(F); x0, x1 = 402, 748; xs = [x0 + i * (x1 - x0) / max(1, n - 1) for i in range(n)] if n > 1 else [575]
     rows = []
     for k, j in enumerate(order):
-        y = 293 if k == 0 else 358 + (k - 1) * 43
+        y = 317 if k == 0 else 382 + (k - 1) * 43
         rows.append(dict(c=C[j], y=y, v=[f['values'][j] for f in F], lead=k == 0))
     s['geo'] = dict(xs=xs, rows=rows, heads=[f['header'].split('|') for f in F])
 
@@ -81,12 +89,14 @@ def risks(s):
     s['geo'] = dict(cols=[dict(x=x, rows=[dict(e=e, y=266 + i * 71) for i, e in enumerate(es)]) for x, es in cols])
 
 def drivers(s):
-    E = s['events']; n1 = min(15, len(E)); cols = [(144, E[:n1]), (517, E[n1:])]
+    E = s['events']; cols = [(144, E[:15]), (517, E[15:30])]
+    hot = sorted(range(len(E)), key=lambda i: -E[i]['impact'])[:3]; hot = {i for i in hot if E[i]['impact'] >= 2.5}
+    for i, e in enumerate(E): e['hot'] = i in hot
     out = []
     for x, es in cols:
         rows, prev = [], None
         for i, e in enumerate(es):
-            rows.append(dict(e=e, y=251 + i * 22.3, dim=e['year'] == prev, hl=e['impact'] >= 2.5)); prev = e['year']
+            rows.append(dict(e=e, y=251 + i * 22.3, dim=e['year'] == prev, hl=e['hot'])); prev = e['year']
         out.append(dict(x=x, rows=rows))
     s['geo'] = dict(cols=out)
 
@@ -108,9 +118,9 @@ def grid(s):
     for r in range(3):
         for c in range(3):
             L = s['cells'][r][c]
-            for i, slug in enumerate(L):
-                h = _h(s['handle'] + slug)
-                fx = (i + .5) / len(L) + ((h % 21) - 10) / 100; fy = .5 + (((h >> 5) % 31) - 15) / 100
+            W = s.get('weight', {})
+            for i, slug in enumerate(sorted(L, key=lambda k: -W.get(k, 0))):
+                fx = .28 + .44 * (i / max(1, len(L) - 1)) if len(L) > 1 else .5; fy = .38 if i % 2 == 0 else .62
                 tiles.append(dict(slug=slug, src=s.get('srcs', {}).get(slug, ''), ini=slug[:2].upper(), x=XB[c] + (XB[c + 1] - XB[c]) * fx, y=YB[r] + (YB[r + 1] - YB[r]) * fy))
     s['geo'] = dict(XB=XB, YB=YB, tiles=tiles)
 
@@ -122,7 +132,8 @@ def killers(s):
         xs = [395, 498, 580, 671][:len(s['signs'])]
         for r in s['rows']:
             n = sum(1 for c in r['cells'] if c); r['risk'] = 'High risk' if n >= 3 else 'Medium risk'; r['rn'] = 3 if n >= 3 else 1
-    s['geo'] = dict(xs=xs, ys=[334 + i * 58 for i in range(len(s['rows']))])
+    n = len(s['rows']); st = 52 if n >= 5 else 58
+    s['geo'] = dict(xs=xs, ys=[318 + i * st for i in range(n)])
 
 def survivors(s):
     s['geo'] = dict(ys=[281 + i * 61 for i in range(len(s['rows']))])
@@ -132,5 +143,55 @@ def winner(s):
     s['geo'] = dict(xs=xs, ys=[305 + i * 35.8 for i in range(len(s['criteria']))],
                     score=[sum(c['ticks'][j] for c in s['criteria']) for j in range(n)])
 
-PREP = dict(radar=radar, curve=curve, cagr=cagr, donut=donut, pains=pains, tech=tech, value=value, risks=risks,
+
+def donut_var(s):
+    """layout variants of the donut labels (design choice, Pierre 11 Nov 2026)"""
+    donut(s); G = s['geo']; v = s.get('variant', 'D'); cx, cy, ro = G['cx'], G['cy'], G['ro']; segs = G['segs']
+    P = lambda a, r: (cx + r * math.cos(math.radians(a)), cy + r * math.sin(math.radians(a)))
+    for g in segs: g['path'] = ''; g['inner'] = False
+    if v in ('A', 'E', 'F'):                      # donut on the left, list on the right (or below for E)
+        G['cx'] = cx = 330 if v != 'E' else 480; G['cy'] = cy = 385 if v != 'E' else 340
+        donut_geo = dict(s); donut_geo['geo'] = None
+        tot = sum(c['p'] for c in s['cats']); a = -90.0
+        for g in segs:
+            sw = 360 * g['p'] / tot; a0, a1 = a, a + sw; a = a1; large = 1 if sw > 180 else 0
+            r_o, r_i = (ro, G['ri']) if v != 'E' else (95, 60)
+            (x0, y0), (x1, y1), (x2, y2), (x3, y3) = P(a0, r_o), P(a1, r_o), P(a1, r_i), P(a0, r_i)
+            g['d'] = f'M{x0:.1f},{y0:.1f} A{r_o},{r_o} 0 {large} 1 {x1:.1f},{y1:.1f} L{x2:.1f},{y2:.1f} A{r_i},{r_i} 0 {large} 0 {x3:.1f},{y3:.1f} Z'
+            g['mid'] = (a0 + a1) / 2; g['tx'], g['ty'] = P(g['mid'], (r_o + r_i) / 2)
+        n = len(segs)
+        for i, g in enumerate(sorted(segs, key=lambda q: -q['p'])):
+            if v == 'E': g['lx'] = 175 + (i % 3) * 215; g['ly'] = 470 + (i // 3) * 58; g['right'] = True
+            else: g['lx'] = 520; g['ly'] = 250 + i * (300 / max(1, n - 1)); g['right'] = True
+            g['swatch'] = True; g['inner'] = v == 'E' and g['p'] >= 8
+        G['ri_'] = 60 if v == 'E' else G['ri']
+        return
+    for g in segs: g['right'] = math.cos(math.radians(g['mid'])) >= 0
+    if v in ('B', 'C', 'G'):
+        for side in (True, False):                 # keep labels 58 px apart on each side
+            L = sorted([g for g in segs if g['right'] == side], key=lambda g: g.get('ly', g['ey']))
+            y = -1e9
+            for g in L:
+                g.setdefault('ly', g['ey']); g['ly'] = max(g['ly'], y + 58); y = g['ly']
+            if L and L[-1]['ly'] > 560:
+                d = L[-1]['ly'] - 560
+                for g in L: g['ly'] -= d
+            for g in L:
+                g['lx'] = cx + (ro + 46 if side else -ro - 46); x0, y0 = P(g['mid'], ro + 4); ex = g['lx'] + (-6 if side else 6)
+                if v == 'C': g['path'] = f'M{x0:.1f},{y0:.1f} L{ex:.1f},{g["ly"]:.1f}'
+            if v == 'G':
+                for g in L:
+                    x0, y0 = P(g['mid'], ro + 4); g['lx'] = cx + (ro + 46 if side else -ro - 46)
+                    ex = g['lx'] + (-6 if side else 6); c1x = x0 + (18 if side else -18)
+                    g['path'] = f'M{x0:.1f},{y0:.1f} Q{c1x:.1f},{g["ly"]:.1f} {ex:.1f},{g["ly"]:.1f}'
+    if v == 'D':                                   # horizontal leader at the slice height, elbow only when a label had to move
+        for side in (True, False):
+            L = sorted([g for g in segs if g['right'] == side], key=lambda g: g['ey']); y = -1e9
+            for g in L: g['ly'] = max(g['ey'], y + 58); y = g['ly']
+            for g in L:
+                g['lx'] = cx + (ro + 34 if side else -ro - 34); ex = g['lx'] + (-6 if side else 6)
+                if abs(g['ly'] - g['ey']) < 2: g['path'] = f'M{g["ex"]:.1f},{g["ey"]:.1f} L{ex:.1f},{g["ly"]:.1f}'
+                else: g['path'] = f'M{g["ex"]:.1f},{g["ey"]:.1f} L{g["ex"] + (10 if side else -10):.1f},{g["ly"]:.1f} L{ex:.1f},{g["ly"]:.1f}'
+
+PREP = dict(donutv=donut_var, radar=radar, curve=curve, cagr=cagr, donut=donut, pains=pains, tech=tech, value=value, risks=risks,
             drivers=drivers, raises=raises, grid=grid, killers=killers, survivors=survivors, winner=winner)

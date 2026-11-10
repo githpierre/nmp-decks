@@ -1,4 +1,3 @@
-{% set G = s.geo %}{% for a in s.auds %}<span class="pp-ph" style="left:{{G.xs[loop.index0]}}px">{{a | replace(' ', '<br>', 1) | safe}}</span>{% endfor %}
+{% set G = s.geo %}{% for a in s.auds2 %}<span class="pp-ph" style="left:{{G.xs[loop.index0]}}px;top:{{G.head}}px">{{a[0]}}<br>{{a[1]}}</span>{% endfor %}
 {% for r in G.rows %}<p class="pp-pt" style="top:{{r.y}}px">{{r.text}}</p><i class="pp-pl" style="top:{{r.y}}px;left:{{G.xs[0]}}px;width:{{G.xs[-1]-G.xs[0]}}px"></i>
 {% for d in r.d %}<i class="pp-pd d{{d}}" style="left:{{G.xs[loop.index0]}}px;top:{{r.y}}px"></i>{% endfor %}{% endfor %}
-<div class="pp-leg" style="top:{{G.rows[-1].y+40}}px"><i class="pp-pd d1"></i>Mild<i class="pp-pd d2"></i>Strong<i class="pp-pd d3"></i>Strongest</div>

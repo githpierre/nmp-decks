@@ -2,4 +2,4 @@
 <span class="pp-ax r" style="right:{{960-G.X0+12}}px;top:{{G.Y1}}px">{{s.axes[4]}}<br>{{s.axes[5]}}</span>
 <span class="pp-ax r" style="right:{{960-G.X0+12}}px;top:{{G.Y0+8}}px">{{s.axes[2]}}<br>{{s.axes[3]}}</span>
 <span class="pp-ax" style="left:{{G.X0+6}}px;top:{{G.Y0+12}}px">{{s.axes[0]}}</span><span class="pp-ax r" style="right:{{960-G.X1}}px;top:{{G.Y0+12}}px">{{s.axes[1]}}</span>
-{% for g in s.groups %}<div class="pp-vg" style="left:{{g.px}}px;top:{{g.py}}px"><p>{{g.name}}</p><div class="pp-vcard">{% for l in g.logos %}<span class="lt md"><img src="{{l.src}}"></span>{% endfor %}</div></div>{% endfor %}
+{% for g in s.groups %}<div class="pp-vg" style="left:{{g.px}}px;top:{{g.py}}px"><p style="max-width:{{ [g.logos|length * 44 + 46, 140]|max }}px">{{g.name}}</p><div class="pp-vcard">{% for l in g.logos %}<span class="lt md"><img src="{{l.src}}"></span>{% endfor %}</div></div>{% endfor %}

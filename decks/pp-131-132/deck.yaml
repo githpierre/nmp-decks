@@ -99,8 +99,8 @@ slides:
   auds:
   - Cement makers
   - Ready-mix firms
-  - Contractors
-  - Developers
+  - Building contractors
+  - Property developers
   - Public buyers
   pains:
   - - New cements cost more than ordinary Portland cement
@@ -271,7 +271,7 @@ slides:
   - text: Holcim and Heidelberg scale carbon capture cement and squeeze startups out on price
     odds: 45
     impact: 2
-  - text: A new cement fails in a real structure, and builders lose trust in the whole category
+  - text: A new cement fails in a real building or bridge, and builders lose trust in the whole category of low-carbon cements
     odds: 10
     impact: 3
   - text: Construction slows in Europe and China, and cement makers delay new low-carbon lines
@@ -284,6 +284,9 @@ slides:
   section: Growth drivers
   title: What pushed the low-carbon cement market forward, year after year?
   events:
+  - year: '1824'
+    text: Portland cement is patented in England
+    impact: 1.0
   - year: '2005'
     text: EU starts pricing cement emissions
     impact: 2.0
@@ -293,11 +296,11 @@ slides:
   - year: '2008'
     text: Solidia is founded to cure concrete with CO2
     impact: 1.0
-  - year: '2012'
-    text: CarbonCure is founded
+  - year: '2009'
+    text: IEA publishes a cement roadmap
     impact: 1.0
   - year: '2012'
-    text: Novacem closes, an early warning
+    text: CarbonCure is founded
     impact: 1.0
   - year: '2014'
     text: Calcined clay cement tests start
@@ -305,6 +308,9 @@ slides:
   - year: '2015'
     text: Paris goals put cement in the spotlight
     impact: 2.0
+  - year: '2016'
+    text: EU funds the Leilac capture project
+    impact: 1.5
   - year: '2018'
     text: Report shows cement is 8% of emissions
     impact: 1.5
@@ -314,6 +320,9 @@ slides:
   - year: '2020'
     text: Sublime Systems spins out of MIT
     impact: 1.0
+  - year: '2020'
+    text: Microsoft invests in CarbonCure
+    impact: 1.5
   - year: '2021'
     text: Cement makers commit to net zero by 2050
     impact: 2.0
@@ -323,12 +332,15 @@ slides:
   - year: '2022'
     text: First Movers Coalition adds cement
     impact: 1.5
+  - year: '2022'
+    text: Sublime raises 40 million dollars
+    impact: 1.0
   - year: '2023'
     text: EU adopts its carbon border tax
     impact: 2.5
   - year: '2024'
     text: US funds new low-carbon cement plants
-    impact: 2.5
+    impact: 2.0
   - year: '2024'
     text: Fortera opens its Redding plant
     impact: 2.0
@@ -337,16 +349,25 @@ slides:
     impact: 1.5
   - year: '2025'
     text: Microsoft signs a Sublime cement deal
-    impact: 2.5
+    impact: 2.0
   - year: '2025'
     text: Heidelberg opens its Brevik CCS plant
     impact: 2.5
   - year: '2025'
     text: Amazon reserves Brimstone cement
     impact: 2.0
+  - year: '2025'
+    text: Terra CO2 raises 124 million dollars
+    impact: 1.5
   - year: '2026'
     text: EU carbon border charges start
-    impact: 2.5
+    impact: 2.0
+  - year: '2026'
+    text: Cocoon Carbon raises a Series A
+    impact: 1.0
+  - year: '2026'
+    text: NeoCem raises 19 million dollars
+    impact: 1.0
   - year: '2026'
     text: Fortera plans a 300,000 ton plant
     impact: 2.0
@@ -394,6 +415,25 @@ slides:
     the report.
 - label: LOW-CARBON CEMENT
   type: pp_grid
+  weight:
+    brimstone: 55000000.0
+    sublime-systems: 48900000.0
+    cemvision: 11000000.0
+    queens-carbon: 10000000.0
+    lithirm: 7500000.0
+    furno: 6500000.0
+    ecocem: 0.0
+    terra-co2: 206500000.0
+    neocem: 44000000.0
+    materrup: 31100000.0
+    cocoon-carbon: 21800000.0
+    reclinker: 16100000.0
+    fortera: 85000000.0
+    carboncure: 81400000.0
+    paebbl: 33800000.0
+    carbonbuilt: 10000000.0
+    co-reactive: 39580000.0
+    cura: 10000000.0
   section: LOW-CARBON CEMENT
   title: 'Who are the top players
 
@@ -485,8 +525,18 @@ slides:
     - ''
     - ''
     - ''
-    src: ''
+    src: ../../assets/logos/pp/national-cement.png
     ini: NC
+  - name: Roanoke Cement
+    slug: roanoke-cement
+    domain: roanokecement.com
+    cells:
+    - 61.7M cut|May 2025
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/pp/roanoke-cement.png
+    ini: RC
   - name: Novacem
     slug: novacem
     domain: novacem.com
@@ -688,8 +738,8 @@ slides:
   auds:
   - Aerospace firms
   - Defense primes
-  - Medical firms
-  - Carmakers
+  - Medical device firms
+  - Auto makers
   - Service bureaus
   pains:
   - - Each new printed part takes months to qualify
@@ -807,14 +857,14 @@ slides:
     - src: ../../assets/logos/pp/nikon-slm.png
     - src: ../../assets/logos/pp/farsoon.png
   - name: Printers plus yearly service
-    x: 0.22
-    y: 0.62
+    x: 0.2
+    y: 0.58
     logos:
     - src: ../../assets/logos/pp/velo3d.png
     - src: ../../assets/logos/pp/renishaw.png
   - name: Powder and wire sold by the kilo
-    x: 0.5
-    y: 0.85
+    x: 0.45
+    y: 0.92
     logos:
     - src: ../../assets/logos/pp/equispheres.png
     - src: ../../assets/logos/pp/6k-additive.png
@@ -849,7 +899,7 @@ slides:
   - text: A printed part fails in flight, and regulators slow down approvals for new printed parts
     odds: 10
     impact: 3
-  - text: Tariffs and export rules make printers and metal powders harder and pricier to buy
+  - text: Tariffs and export rules make metal printers and powders harder to buy and pricier for US and European factories
     odds: 35
     impact: 2
   - text: Investors stay away from hardware startups, and new funding rounds dry up for two years
@@ -874,15 +924,21 @@ slides:
   - year: '1997'
     text: Arcam is founded in Sweden
     impact: 1.0
-  - year: '2002'
-    text: First electron beam printer ships
-    impact: 1.0
   - year: '2009'
     text: ASTM sets up a 3D printing committee
+    impact: 1.5
+  - year: '2010'
+    text: FDA clears a printed titanium implant
+    impact: 1.5
+  - year: '2012'
+    text: GE buys Morris Technologies
     impact: 1.5
   - year: '2012'
     text: US launches America Makes
     impact: 2.0
+  - year: '2014'
+    text: SpaceX prints a rocket engine chamber
+    impact: 1.5
   - year: '2014'
     text: Divergent is founded
     impact: 1.0
@@ -893,11 +949,20 @@ slides:
     text: GE buys Arcam and Concept Laser
     impact: 2.5
   - year: '2017'
+    text: Airbus flies a printed titanium part
+    impact: 1.5
+  - year: '2017'
     text: Binder jetting promises faster parts
+    impact: 1.5
+  - year: '2018'
+    text: HP launches its Metal Jet printer
     impact: 1.5
   - year: '2020'
     text: Pandemic shows the value of local parts
     impact: 1.5
+  - year: '2020'
+    text: GE9X engine certified with printed parts
+    impact: 2.0
   - year: '2021'
     text: Three printer makers go public
     impact: 2.0
@@ -907,17 +972,32 @@ slides:
   - year: '2023'
     text: Nikon buys SLM Solutions
     impact: 2.0
+  - year: '2023'
+    text: Relativity flies a mostly printed rocket
+    impact: 2.0
+  - year: '2023'
+    text: Divergent raises 230 million dollars
+    impact: 1.5
   - year: '2024'
     text: GE Additive becomes Colibrium
     impact: 1.0
+  - year: '2024'
+    text: Nikon SLM ships its NXG 600E
+    impact: 1.5
   - year: '2025'
     text: AM industry passes 24 billion dollars
+    impact: 2.0
+  - year: '2025'
+    text: Divergent raises 250 million dollars
     impact: 2.0
   - year: '2026'
     text: VulcanForms raises 220 million dollars
     impact: 2.0
   - year: '2026'
     text: Freeform raises 67 million dollars
+    impact: 1.5
+  - year: '2026'
+    text: Beehive orders 50 million dollars of EOS printers
     impact: 1.5
   - year: '2026'
     text: HII orders a second Nikon NXG 600E
@@ -969,6 +1049,25 @@ slides:
     the report.
 - label: METAL 3D PRINTING
   type: pp_grid
+  weight:
+    eos: 0.0
+    nikon-slm: 0.0
+    velo3d: 0.0
+    farsoon: 0.0
+    freeform: 81000000.0
+    eplus3d: 0.0
+    aml3d: 0.0
+    meltio: 0.0
+    seurat: 99000000.0
+    xjet: 25000000.0
+    fabric8labs: 50000000.0
+    incus: 0.0
+    divergent: 695740000.0
+    vulcanforms: 220000000.0
+    sintavia: 45000000.0
+    conflux: 0.0
+    alloyed: 82303000.0
+    caracol: 40000000.0
   section: METAL 3D PRINTING
   title: 'Who are the top players
 
@@ -1084,6 +1183,19 @@ slides:
     - 1
     src: ''
     ini: DA
+  - name: 3D Metalforge
+    slug: 3d-metalforge
+    domain: 3dmetalforge.com
+    start: '2016'
+    end: '2022'
+    ending: Administration
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ''
+    ini: 3M
   note: We tracked the metal 3D printing startups that shut down, went bankrupt or were sold for little, and what broke them, from court filings, company statements and the press. All the sources are included
     at the end of the report.
 - label: METAL 3D PRINTING
@@ -1123,6 +1235,14 @@ slides:
     slug: digital-alloys
     src: ''
     ini: DA
+  - lesson: Pick one industry and own it
+    explanation: Sintavia focuses on aerospace parts
+    failed_company: 3D Metalforge
+    website: https://3dmetalforge.com
+    why_it_failed: Placed in administration in 2022
+    slug: 3d-metalforge
+    src: ''
+    ini: 3M
   note: We looked at metal 3D printing companies that shut down, went bankrupt or hit a major setback, and at what the survivors do instead, from company statements, filings and the press. All the sources
     are included at the end of the report.
 - label: METAL 3D PRINTING
