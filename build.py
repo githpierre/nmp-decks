@@ -55,6 +55,8 @@ AUDIT_JS = r"""
     // decorative arrows centered on their bar
     sl.querySelectorAll('.vbars .col').forEach(c => { const a = c.querySelector('.down'), b = c.querySelector('.bar'); if (!a || !b) return;
       const ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect(); if (Math.abs((ra.left + ra.right) / 2 - (rb.left + rb.right) / 2) > 1.5) out.push([n, 'ARROW_OFFCENTER', '', '']); });
+    // titles: the 2-line split must be the most balanced one (set by the script in base.html.j2); flag if a title escaped it
+    { const tt = sl.querySelector('.title'); if (tt && tt.innerHTML.includes('<br') && tt.dataset.bal === undefined) out.push([n, 'TITLE_BALANCE', 'not balanced', tt.textContent.slice(0, 50)]); }
     // titles: max 2 lines
     const t = sl.querySelector('.title'); if (t) { const lh = parseFloat(getComputedStyle(t).lineHeight); if (t.getBoundingClientRect().height > lh * 2.2) out.push([n, 'TITLE_LINES', '', t.textContent.slice(0, 50)]); }
     // footnote must stop before the footer label (x 690)
@@ -90,6 +92,9 @@ def prepare_cover(s, d, W=960, H=672):
         px = sorted(box.getdata()); p95 = px[int(len(px) * .95)]
         if p95 < 110: break
     s.setdefault('disc_style', f'width:{w}px'); s['_disc_p95'] = p95
+    # button NEWMARKETPITCH.COM (x 704-932, y 632-655): busy or bright photo under it?  p90 luminance > 90 -> flag
+    bb = sorted(im.crop((ox + 700, oy + 628, ox + 936, oy + 659)).getdata()); s['_btn_p90'] = bb[int(len(bb) * .9)]
+    s['btn_busy'] = s['_btn_p90'] > 90
     # title: free dark width = first column (x >= 300) of the title band (rows 180-460) where the photo gets bright
     if not s.get('title_maxw'):
         band = im.crop((ox, oy + 180, ox + W, oy + 460)); free = W
@@ -138,6 +143,12 @@ def build(slug, png=False, only=None):
     env = Environment(loader=FileSystemLoader(str(ROOT / 'templates')), autoescape=True)
     env.filters['nl'] = nl; env.filters['md'] = md; env.filters['sentences'] = sentences
     import math; env.filters['cos'] = math.cos; env.filters['sin'] = math.sin
+    # names that a title must never cut (market name + deck.keep_together): their spaces become non-breaking
+    keep = sorted({deck.get('market', '')} | set(deck.get('keep_together', [])), key=len, reverse=True)
+    for s in deck['slides']:
+        if s.get('title'):
+            for k in keep:
+                if k and ' ' in k: s['title'] = _re.sub(_re.escape(k).replace('\\ ', '\\s+'), k.replace(' ', '\u00a0'), s['title'], flags=_re.I)
     html = env.get_template('base.html.j2').render(deck=deck, slides=deck['slides'])
     (d / 'deck.html').write_text(html)
     out = d / 'out'; out.mkdir(exist_ok=True)

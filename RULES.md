@@ -87,6 +87,13 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 - Map lines: rounded elbows ("coudes arrondis"). They start almost touching the text (4 px, within the text's width) and end
   on the dot's axis, 3 px from its edge (horizontal arrival when the line comes from above or below, vertical when it comes from the side).
 
+## Pierre's rules (10 Nov 2026, evening)
+- Titles on 2 lines: the build measures every possible cut and keeps the one where both lines have the closest width
+  (script in base.html.j2; the manual \n in deck.yaml is only a hint). A market or company name is never cut
+  (deck.market + `keep_together` list become non-breaking). Audit TITLE_BALANCE. Example: "How Multiverse turned training / into a unicorn"
+  = 593 vs 267 px (55 %) -> "How Multiverse turned / training into a unicorn" = 429 vs 431 px (0 %).
+- Funding-bar arrows: one symmetric SVG (shaft + head on the same axis), centred on the bar.
+
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
    that LLM does the research AND returns the final JSON/CSV in the same answer (never research first, then a second "go").

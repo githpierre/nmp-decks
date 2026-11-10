@@ -13,4 +13,18 @@
   {% if s.tag %}<div class="wtag">{{ s.tag }}</div>{% endif %}
   <div class="foot-line"></div><div class="foot-label">{{ s.label or deck.label }}</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
 </section>{% endif %}
-{% endfor %}</body></html>
+{% endfor %}<script>/* Titles on 2 lines: cut where the two lines are the most equal in width (Pierre's rule, 31 Oct + 10 Nov 2026).
+   The manual \n in deck.yaml is ignored: every split is measured and the smallest difference wins. */
+(() => { const m = document.createElement('span'); m.style.cssText = 'position:absolute;white-space:nowrap;visibility:hidden;left:-9999px'; document.body.appendChild(m);
+  const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');   // words joined by a non-breaking space stay together
+  document.querySelectorAll('.slide .title').forEach(t => {
+    const cs = getComputedStyle(t); m.style.font = cs.font; m.style.letterSpacing = cs.letterSpacing; m.style.textTransform = cs.textTransform;
+    const w = s => { m.textContent = s; return m.getBoundingClientRect().width; };
+    const words = t.innerHTML.replace(/<br\s*\/?>/g, ' ').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, '\u00a0').replace(/[ \t\n\r]+/g, ' ').trim().split(' ');
+    const max = t.clientWidth; if (words.length < 2 || w(words.join(' ')) <= max * 0.62) return;   // short titles stay on one line
+    let best = null;
+    for (let i = 1; i < words.length; i++) { const a = words.slice(0, i).join(' '), b = words.slice(i).join(' '), wa = w(a), wb = w(b);
+      if (wa > max || wb > max) continue; const d = Math.abs(wa - wb); if (!best || d < best.d) best = {a, b, d, wa, wb}; }
+    if (best) { t.innerHTML = esc(best.a) + '<br>' + esc(best.b); t.dataset.bal = Math.round(best.d / Math.max(best.wa, best.wb) * 100); }
+  }); m.remove(); })();</script>
+</body></html>

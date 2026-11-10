@@ -50,6 +50,6 @@ for img, big, mk, ico, text, regs in M:
     w['regions'] = {k: dict(pct=p, text=t) for k, (p, t) in regs.items()}
     w['note'] = ['Example layout: the shares and texts on this map are illustrative, not research results']
     slides.append(w)
-deck = dict(market='Examples', label='Layout examples', quarter='Q3 2026', year=2026, slug='examples', chapters=[], slides=slides)
+deck = dict(keep_together=['nuclear fusion', 'wearable tech', 'AI voice agents'], market='Examples', label='Layout examples', quarter='Q3 2026', year=2026, slug='examples', chapters=[], slides=slides)
 (ROOT / 'decks/examples/deck.yaml').write_text(yaml.dump(deck, allow_unicode=True, sort_keys=False, width=1000))
 print(len(slides))

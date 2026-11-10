@@ -29,6 +29,7 @@ for sec in M['sections']:
             L = LET[i]; mine = v['key'] == sec['mine']
             pics = ''.join(f'<img class="sl" loading="lazy" src="img/s{n}.jpg" alt="">' for n in v['n'])
             if sec.get('zoom') == 'rail': pics += ''.join(f'<img class="zoom" loading="lazy" src="img/s{n}z.jpg" alt="zoom">' for n in v['n'])
+            if sec.get('zoom') == 'button': pics += '<div class="zrow">' + ''.join(f'<img class="zoom" loading="lazy" src="img/s{n}z.jpg" alt="zoom">' for n in v['n']) + '</div>'
             cols = 'c1' if len(v['n']) == 1 and not sec.get('zoom') else 'c2'
             out.append(f'<div class="case var{" rec" if mine else ""} v" data-s="{sid}" data-k="{sid}{L}" data-label="{E(f"{sid} · {L} = {v["name"]} ({v["desc"]})")}">'
                        f'<div class="vh"><b class="lt">{L}</b><div><div class="vn">{E(v["name"])}{" <em>mon choix</em>" if mine else ""}</div><div class="vd">{E(v["desc"])}</div></div>{yn()}</div>'

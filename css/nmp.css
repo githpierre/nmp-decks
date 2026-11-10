@@ -58,6 +58,11 @@ b,strong{font-weight:700}
 .cover .big .ln{white-space:nowrap;width:max-content}
 .cover .sub{margin-top:10px;font-size:23pt;font-weight:700;letter-spacing:.42em;color:var(--accent);text-shadow:var(--tshadow);white-space:nowrap}
 .cover .disc.under{position:static;margin-top:26px;width:330px}
+.cover.btn-b .foot-brand.busy{background:rgba(6,42,60,.85)}          /* button variants (workshop 7) */
+.cover.btn-c .foot-brand{background:var(--bg)}
+.cover.btn-d .foot-brand{background:rgba(6,42,60,.5);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.cover.btn-e .foot-brand{background:rgba(6,42,60,.8)}
+.cover.btn-f .foot-brand{left:52px}
 .cover .disc{position:absolute;left:52px;bottom:20px;width:270px;font-size:6.5pt;line-height:1.5;color:var(--sand);text-wrap:pretty}
 
 /* agenda */
@@ -155,8 +160,7 @@ b,strong{font-weight:700}
 .vbars .bar{background:var(--accent);box-shadow:var(--shadow)}
 .vbars .x{margin-top:10px;font-size:8pt;color:var(--sand);white-space:nowrap}
 .vbars .ann{font-size:8pt;line-height:1.45;color:var(--muted);text-align:center;text-wrap:balance;width:96px;margin-bottom:6px}
-.vbars .down{width:1.5px;height:22px;background:var(--muted);position:relative;margin-bottom:12px}
-.vbars .down::after{content:"";position:absolute;left:-4px;bottom:-4px;border-top:6px solid var(--muted);border-left:4px solid transparent;border-right:4px solid transparent}
+.vbars .down{display:block;width:10px;height:30px;color:var(--muted);margin-bottom:8px}   /* one symmetric SVG: shaft + head share the same axis */
 .proj-intro{font-size:8pt;line-height:1.5;color:var(--muted);text-align:center;text-wrap:balance}
 .cagr{font-size:14pt;font-weight:700;text-align:center}
 

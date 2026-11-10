@@ -1,0 +1,83 @@
+{
+ "sections": [
+  {
+   "kind": "variantes",
+   "id": "B",
+   "title": "Couverture : le bouton NEWMARKETPITCH.COM",
+   "short": "Bouton",
+   "zoom": "button",
+   "grid": 2,
+   "what": "6 traitements du bouton, chacun sur 4 couvertures. La détection automatique trouve une photo chargée sous le bouton pour Wearable, Nuclear fusion et EdTech (la tablette rose) ; Biotechnology est propre. Sous chaque variante, un zoom ×2 sur le coin du bouton.",
+   "mine": "b",
+   "why": "Le bouton ne change que là où il en a besoin : il devient lisible sur Wearable, Nuclear fusion et EdTech, et Biotechnology reste exactement comme avant. Pas de nouvel élément sur les couvertures qui n’en ont pas besoin.",
+   "variants": [
+    {
+     "key": "a",
+     "name": "Actuel",
+     "desc": "cadre sable, sans fond",
+     "n": [
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "key": "b",
+     "name": "Fond bleu marine seulement si la photo est chargée",
+     "desc": "détecté automatiquement sous le bouton ; sinon rien ne change",
+     "n": [
+      5,
+      6,
+      7,
+      8
+     ]
+    },
+    {
+     "key": "c",
+     "name": "Fond bleu marine plein, toujours",
+     "desc": "le bouton devient une étiquette pleine sur toutes les couvertures",
+     "n": [
+      9,
+      10,
+      11,
+      12
+     ]
+    },
+    {
+     "key": "d",
+     "name": "Fond flou + bleu marine léger, toujours",
+     "desc": "la photo se devine derrière, floutée",
+     "n": [
+      13,
+      14,
+      15,
+      16
+     ]
+    },
+    {
+     "key": "e",
+     "name": "Fond bleu marine semi-opaque, toujours",
+     "desc": "80 % d’opacité, sur toutes les couvertures",
+     "n": [
+      17,
+      18,
+      19,
+      20
+     ]
+    },
+    {
+     "key": "f",
+     "name": "Bouton déplacé en bas à gauche",
+     "desc": "sous le titre, toujours sur la partie sombre ; la photo reste libre",
+     "n": [
+      21,
+      22,
+      23,
+      24
+     ]
+    }
+   ]
+  }
+ ]
+}
