@@ -1,0 +1,2445 @@
+market: ''
+quarter: S09
+label: ''
+keep_together:
+- AI marketing
+- cloud security
+- identity security
+- application security
+- cloud database
+- cloud infrastructure
+- radiopharmaceutical
+- obesity drug
+- in vivo CAR-T
+- antibody-drug conjugate
+- liquid biopsy
+- organ-on-a-chip
+- real-world asset tokenization
+- digital banking
+- B2B payment
+- cross-border B2B payment
+- procurement software
+- AEC software
+- ConTech
+- construction estimating software
+- AI market research
+- K-beauty
+- AI in insurance
+- AI in banking
+- fraud prevention
+- exposure management
+- inspection robotics
+- AI assistant
+- AI toy
+- carbon removal
+slides:
+- type: invbets
+  handle: ai-marketing
+  section: Investor bets
+  title: Where did AI marketing investors put their money this past year?
+  label: AI MARKETING
+  note: We added up every funding round we tracked in AI marketing over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the
+    report.
+  rows:
+  - name: Ad measurement
+    names:
+    - AppsFlyer
+    - Alembic
+    v: $1.2B
+    pct: 45% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/appsflyer.png
+      name: AppsFlyer
+    - src: ../../assets/logos/alembic.png
+      name: Alembic
+    - src: ../../assets/logos/electric-twin.png
+      name: Electric Twin
+  - name: AI search visibility
+    names:
+    - Profound
+    - Bluefish
+    v: $513M
+    pct: 19% of total
+    w: 43.4
+    logos:
+    - src: ../../assets/logos/profound-2.png
+      name: Profound
+    - src: ../../assets/logos/bluefish.png
+      name: Bluefish
+    - src: ../../assets/logos/brandlight.png
+      name: Brandlight
+  - name: Agentic campaigns
+    names:
+    - Hightouch
+    - Gradial
+    v: $483M
+    pct: 18% of total
+    w: 40.9
+    logos:
+    - src: ../../assets/logos/hightouch.png
+      name: Hightouch
+    - src: ../../assets/logos/gradial.png
+      name: Gradial
+    - src: ../../assets/logos/different.png
+      name: Different
+  - name: AI media buying
+    names:
+    - Fluency
+    - Gravity
+    v: $227M
+    pct: 9% of total
+    w: 19.2
+    logos:
+    - src: ../../assets/logos/fluency.png
+      name: Fluency
+    - src: ../../assets/logos/gravity.png
+      name: Gravity
+    - src: ../../assets/logos/cloudx.png
+      name: CloudX
+  - name: AI ad creative
+    names:
+    - Flam
+    - Sett
+    v: $129M
+    pct: 5% of total
+    w: 10.9
+    logos:
+    - src: ../../assets/logos/flam.png
+      name: Flam
+    - src: ../../assets/logos/sett.png
+      name: Sett
+    - src: ../../assets/logos/cuttable.png
+      name: Cuttable
+  - name: Lifecycle marketing
+    names:
+    - Queen One
+    - OuterSignal
+    v: $118M
+    pct: 4% of total
+    w: 10.0
+    logos:
+    - src: ../../assets/logos/queen-one.png
+      name: Queen One
+    - src: ../../assets/logos/outersignal.png
+      name: OuterSignal
+    - src: ../../assets/logos/justai.png
+      name: JustAI
+- type: invbets
+  handle: cloud-security
+  section: Investor bets
+  title: Where did cloud security investors put their money this past year?
+  label: CLOUD SECURITY
+  note: We added up every funding round we tracked in cloud security over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of
+    the report.
+  rows:
+  - name: Cloud data security
+    names:
+    - Cyera
+    - Sentra
+    v: $1.6B
+    pct: 47% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/cyera.png
+      name: Cyera
+    - src: ../../assets/logos/sentra.png
+      name: Sentra
+    - src: ../../assets/logos/bedrock-security.png
+      name: Bedrock Security
+  - name: Cloud threat detection
+    names:
+    - Upwind Security
+    - Copperhelm
+    v: $657M
+    pct: 19% of total
+    w: 40.4
+    logos:
+    - src: ../../assets/logos/upwind-security.png
+      name: Upwind Security
+    - src: ../../assets/logos/copperhelm.png
+      name: Copperhelm
+    - src: ../../assets/logos/sweet-security.png
+      name: Sweet Security
+  - name: Secure access (SASE)
+    names:
+    - Island
+    - YiGe Cloud
+    v: $425M
+    pct: 12% of total
+    w: 26.1
+    logos:
+    - src: ../../assets/logos/island.png
+      name: Island
+    - src: ../../assets/logos/netbird.png
+      name: NetBird
+    - src: ../../assets/logos/cato-networks.png
+      name: Cato Networks
+  - name: Cloud identity
+    names:
+    - Oasis Security
+    - Linx Security
+    v: $227M
+    pct: 7% of total
+    w: 14.0
+    logos:
+    - src: ../../assets/logos/linx-security.png
+      name: Linx Security
+    - src: ../../assets/logos/opal-security.png
+      name: Opal Security
+    - src: ../../assets/logos/teleport.png
+      name: Teleport
+  - name: SaaS security
+    names:
+    - Obsidian Security
+    - Reco
+    v: $192M
+    pct: 6% of total
+    w: 11.8
+    logos:
+    - src: ../../assets/logos/obsidian-security.png
+      name: Obsidian Security
+    - src: ../../assets/logos/reco.png
+      name: Reco
+    - src: ../../assets/logos/nudge-security.png
+      name: Nudge Security
+  - name: Workload security
+    names:
+    - Oligo Security
+    - RapidFort
+    v: $157M
+    pct: 5% of total
+    w: 9.7
+    logos:
+    - src: ../../assets/logos/oligo-security.png
+      name: Oligo Security
+    - src: ../../assets/logos/sysdig.png
+      name: Sysdig
+    - src: ../../assets/logos/chainguard.png
+      name: Chainguard
+- type: invbets
+  handle: identity-security
+  section: Investor bets
+  title: Where did identity security investors put their money this past year?
+  label: IDENTITY SECURITY
+  note: We added up every funding round we tracked in identity security over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Identity governance
+    names:
+    - Saviynt
+    - Linx Security
+    v: $774M
+    pct: 46% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/saviynt.png
+      name: Saviynt
+    - src: ../../assets/logos/linx-security.png
+      name: Linx Security
+    - src: ../../assets/logos/opal-security.png
+      name: Opal Security
+  - name: AI agent identities
+    names:
+    - Oasis Security
+    - Arcade.dev
+    v: $337M
+    pct: 20% of total
+    w: 43.5
+    logos:
+    - src: ../../assets/logos/arcade-dev.png
+      name: Arcade.dev
+    - src: ../../assets/logos/oak.png
+      name: Oak
+    - src: ../../assets/logos/hush-security.png
+      name: Hush Security
+  - name: Identity threats
+    names:
+    - Obsidian Security
+    - Reco
+    v: $284M
+    pct: 17% of total
+    w: 36.6
+    logos:
+    - src: ../../assets/logos/obsidian-security.png
+      name: Obsidian Security
+    - src: ../../assets/logos/reco.png
+      name: Reco
+    - src: ../../assets/logos/nudge-security.png
+      name: Nudge Security
+  - name: Customer login tools
+    names:
+    - WorkOS
+    v: $100M
+    pct: 6% of total
+    w: 12.9
+    logos:
+    - src: ../../assets/logos/workos.png
+      name: WorkOS
+    - src: ../../assets/logos/descope.png
+      name: Descope
+    - src: ../../assets/logos/frontegg.png
+      name: Frontegg
+  - name: Privileged access
+    names:
+    - Apono
+    - Venice Security
+    v: $95M
+    pct: 6% of total
+    w: 12.3
+    logos:
+    - src: ../../assets/logos/venice-security-2.png
+      name: Venice Security
+    - src: ../../assets/logos/teleport.png
+      name: Teleport
+    - src: ../../assets/logos/britive.png
+      name: Britive
+  - name: Secrets management
+    names:
+    - GitGuardian
+    - Infisical
+    v: $90M
+    pct: 5% of total
+    w: 11.6
+    logos:
+    - src: ../../assets/logos/gitguardian.png
+      name: GitGuardian
+    - src: ../../assets/logos/infisical.png
+      name: Infisical
+    - src: ../../assets/logos/akeyless.png
+      name: Akeyless
+- type: invbets
+  handle: application-security
+  section: Investor bets
+  title: Where did application security investors put their money this past year?
+  label: APPLICATION SECURITY
+  note: We added up every funding round we tracked in application security over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: AI pentesting
+    names:
+    - Horizon3.ai
+    - XBOW
+    v: $554M
+    pct: 41% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/horizon3-ai.png
+      name: Horizon3.ai
+    - src: ../../assets/logos/xbow.png
+      name: XBOW
+    - src: ../../assets/logos/antithesis.png
+      name: Antithesis
+  - name: Runtime protection
+    names:
+    - Zenity
+    - Blackwall
+    v: $338M
+    pct: 25% of total
+    w: 61.0
+    logos:
+    - src: ../../assets/logos/zenity.png
+      name: Zenity
+    - src: ../../assets/logos/oligo-security.png
+      name: Oligo Security
+    - src: ../../assets/logos/kodem.png
+      name: Kodem
+  - name: Code scanning
+    names:
+    - depthfirst
+    - Corridor
+    v: $210M
+    pct: 15% of total
+    w: 37.8
+    logos:
+    - src: ../../assets/logos/pi-security.png
+      name: Pi Security
+    - src: ../../assets/logos/sonar.png
+      name: Sonar
+    - src: ../../assets/logos/semgrep.png
+      name: Semgrep
+  - name: Supply chain security
+    names:
+    - GitGuardian
+    - RapidFort
+    v: $111M
+    pct: 8% of total
+    w: 20.0
+    logos:
+    - src: ../../assets/logos/gitguardian.png
+      name: GitGuardian
+    - src: ../../assets/logos/chainguard.png
+      name: Chainguard
+    - src: ../../assets/logos/aqua-security.png
+      name: Aqua Security
+  - name: AppSec risk management
+    names:
+    - Prime Security
+    - Backslash Security
+    v: $62M
+    pct: 5% of total
+    w: 11.2
+    logos:
+    - src: ../../assets/logos/prime-security.png
+      name: Prime Security
+    - src: ../../assets/logos/backslash-security.png
+      name: Backslash Security
+    - src: ../../assets/logos/armorcode.png
+      name: ArmorCode
+  - name: All-in-one AppSec
+    names:
+    - Aikido Security
+    v: $60M
+    pct: 4% of total
+    w: 10.8
+    logos:
+    - src: ../../assets/logos/aikido-security.png
+      name: Aikido Security
+    - src: ../../assets/logos/snyk.png
+      name: Snyk
+- type: invbets
+  handle: cloud-database
+  section: Investor bets
+  title: Where did cloud database investors put their money this past year?
+  label: CLOUD DATABASE
+  note: We added up every funding round we tracked in cloud database over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of
+    the report.
+  rows:
+  - name: Analytics databases
+    names:
+    - Databricks
+    - ClickHouse
+    v: $10.5B
+    pct: 91% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/databricks.png
+      name: Databricks
+    - src: ../../assets/logos/clickhouse.png
+      name: ClickHouse
+    - src: ../../assets/logos/motherduck.png
+      name: MotherDuck
+  - name: Managed Postgres
+    names:
+    - Supabase
+    v: $650M
+    pct: 6% of total
+    w: 6.2
+    logos:
+    - src: ../../assets/logos/supabase.png
+      name: Supabase
+    - src: ../../assets/logos/planetscale.png
+      name: PlanetScale
+    - src: ../../assets/logos/gel.png
+      name: Gel
+  - name: Hosted databases
+    names:
+    - Railway
+    - Render
+    v: $200M
+    pct: 2% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/railway.png
+      name: Railway
+    - src: ../../assets/logos/render.png
+      name: Render
+    - src: ../../assets/logos/aiven.png
+      name: Aiven
+  - name: Document databases
+    names:
+    - Convex
+    - SurrealDB
+    v: $117M
+    pct: 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/convex.png
+      name: Convex
+    - src: ../../assets/logos/surrealdb.png
+      name: SurrealDB
+    - src: ../../assets/logos/keewano.png
+      name: Keewano
+  - name: Vector databases
+    names:
+    - Qdrant
+    - Antfly
+    v: $52M
+    pct: under 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/qdrant.png
+      name: Qdrant
+    - src: ../../assets/logos/pinecone.png
+      name: Pinecone
+    - src: ../../assets/logos/zilliz.png
+      name: Zilliz
+  - name: Distributed SQL
+    names:
+    - SereneDB
+    v: $2M
+    pct: under 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/cockroach-labs.png
+      name: Cockroach Labs
+    - src: ../../assets/logos/pingcap.png
+      name: PingCAP
+    - src: ../../assets/logos/yugabyte.png
+      name: Yugabyte
+- type: invbets
+  handle: cloud-infrastructure
+  section: Investor bets
+  title: Where did cloud infrastructure investors put their money this past year?
+  label: CLOUD INFRASTRUCTURE
+  note: We added up every funding round we tracked in cloud infrastructure over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Compute and GPU clouds
+    names:
+    - Crusoe
+    - Fluidstack
+    v: $22.3B
+    pct: 86% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/crusoe.png
+      name: Crusoe
+    - src: ../../assets/logos/fluidstack.png
+      name: Fluidstack
+    - src: ../../assets/logos/nscale.png
+      name: Nscale
+  - name: Serverless platforms
+    names:
+    - Modal
+    - Temporal
+    v: $2.2B
+    pct: 8% of total
+    w: 9.8
+    logos:
+    - src: ../../assets/logos/modal.png
+      name: Modal
+    - src: ../../assets/logos/render.png
+      name: Render
+    - src: ../../assets/logos/railway.png
+      name: Railway
+  - name: Observability
+    names:
+    - Grafana Labs
+    - Coralogix
+    v: $705M
+    pct: 3% of total
+    w: 3.2
+    logos:
+    - src: ../../assets/logos/coralogix.png
+      name: Coralogix
+    - src: ../../assets/logos/dash0.png
+      name: Dash0
+    - src: ../../assets/logos/groundcover.png
+      name: groundcover
+  - name: Cloud storage
+    names:
+    - Eon
+    - Wasabi
+    v: $370M
+    pct: 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/eon-2.png
+      name: Eon
+    - src: ../../assets/logos/vast-data.png
+      name: VAST Data
+    - src: ../../assets/logos/qumulo.png
+      name: Qumulo
+  - name: Networking and edge
+    names:
+    - LiveKit
+    - MaiaEdge
+    v: $150M
+    pct: under 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/livekit.png
+      name: LiveKit
+    - src: ../../assets/logos/netris.png
+      name: Netris
+    - src: ../../assets/logos/aviatrix.png
+      name: Aviatrix
+  - name: Kubernetes operations
+    names:
+    - Spectro Cloud
+    - SkyPilot
+    v: $120M
+    pct: under 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/spectro-cloud.png
+      name: Spectro Cloud
+    - src: ../../assets/logos/skypilot.png
+      name: SkyPilot
+    - src: ../../assets/logos/weka.png
+      name: WEKA
+- type: invbets
+  handle: radiopharmaceuticals
+  section: Investor bets
+  title: Where did radiopharmaceutical investors put their money this past year?
+  label: RADIOPHARMACEUTICALS
+  note: We added up every funding round we tracked in radiopharmaceuticals over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Medical isotopes
+    names:
+    - SHINE
+    - New Radiomedicine
+    v: $439M
+    pct: 36% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/shine-technologies.png
+      name: SHINE
+    - src: ../../assets/logos/chengdu-new-radiomedicine-technology-nrt.png
+      name: New Radiomedicine
+    - src: ../../assets/logos/nusano.png
+      name: Nusano
+  - name: Alpha emitters
+    names:
+    - AdvanCell
+    - Full-Life
+    v: $424M
+    pct: 34% of total
+    w: 96.5
+    logos:
+    - src: ../../assets/logos/advancell.png
+      name: AdvanCell
+    - src: ../../assets/logos/full-life-technologies.png
+      name: Full-Life
+    - src: ../../assets/logos/artbio.png
+      name: ARTBIO
+  - name: Manufacturing
+    names:
+    - SpectronRx
+    - Nucleus RadioPharma
+    v: $135M
+    pct: 11% of total
+    w: 30.7
+    logos:
+    - src: ../../assets/logos/spectronrx.png
+      name: SpectronRx
+    - src: ../../assets/logos/nucleus-radiopharma.png
+      name: Nucleus RadioPharma
+    - src: ../../assets/logos/c-ray-therapeutics.png
+      name: C Ray
+  - name: Beta emitters
+    names:
+    - Bivision
+    - Juniper Biosciences
+    v: $109M
+    pct: 9% of total
+    w: 24.8
+    logos:
+    - src: ../../assets/logos/standardx.png
+      name: StandardX
+    - src: ../../assets/logos/radionetics-oncology.png
+      name: Radionetics
+    - src: ../../assets/logos/blue-earth-therapeutics.png
+      name: Blue Earth
+  - name: Radioligand discovery
+    names:
+    - Ratio
+    - Starget Pharma
+    v: $96M
+    pct: 8% of total
+    w: 21.8
+    logos:
+    - src: ../../assets/logos/ratio-therapeutics.png
+      name: Ratio
+    - src: ../../assets/logos/starget-pharma.png
+      name: Starget Pharma
+    - src: ../../assets/logos/skopos-bio.png
+      name: Skopos Bio
+  - name: Diagnostic tracers
+    names:
+    - NUCLIDIUM
+    v: $30M
+    pct: 2% of total
+    w: 6.8
+    logos:
+    - src: ../../assets/logos/nuclidium.png
+      name: NUCLIDIUM
+    - src: ../../assets/logos/sinotau-pharmaceutical-group.png
+      name: Sinotau Pharmaceutical Group
+    - src: ../../assets/logos/cytosite-bio.png
+      name: Cytosite Bio
+- type: invbets
+  handle: anti-obesity-drugs
+  section: Investor bets
+  title: Where did obesity drug investors put their money this past year?
+  label: ANTI-OBESITY DRUGS
+  note: We added up every funding round we tracked in anti-obesity drugs over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Oral obesity pills
+    names:
+    - Corxel
+    - Ambrosia Biosciences
+    v: $387M
+    pct: 46% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/ambrosia-biosciences.png
+      name: Ambrosia Biosciences
+    - src: ../../assets/logos/verdiva-bio.png
+      name: Verdiva Bio
+    - src: ../../assets/logos/syntis-bio.png
+      name: Syntis Bio
+  - name: Next-gen GLP-1 combos
+    names:
+    - Alveus
+    v: $160M
+    pct: 19% of total
+    w: 41.3
+    logos:
+    - src: ../../assets/logos/alveus-therapeutics.png
+      name: Alveus
+  - name: Long-acting injections
+    names:
+    - QL Biopharm
+    - ProLynx
+    v: $140M
+    pct: 17% of total
+    w: 36.2
+    logos:
+    - src: ../../assets/logos/prolynx.png
+      name: ProLynx
+    - src: ../../assets/logos/sciwind-biosciences.png
+      name: Sciwind Biosciences
+    - src: ../../assets/logos/shanghai-benemae-pharmaceutical.png
+      name: Shanghai Benemae Pharmaceutical
+  - name: RNA and gene therapies
+    names:
+    - Moonwalk Biosciences
+    v: $70M
+    pct: 8% of total
+    w: 18.1
+    logos:
+    - src: ../../assets/logos/moonwalk-biosciences.png
+      name: Moonwalk Biosciences
+    - src: ../../assets/logos/kriya-therapeutics.png
+      name: Kriya
+    - src: ../../assets/logos/resalis-therapeutics.png
+      name: Resalis
+  - name: Genetic obesity drugs
+    names:
+    - Superluminal Medicines
+    v: $60M
+    pct: 7% of total
+    w: 15.5
+    logos:
+    - src: ../../assets/logos/superluminal-medicines.png
+      name: Superluminal Medicines
+  - name: Amylin drugs
+    names:
+    - Amyl
+    v: $9M
+    pct: 1% of total
+    w: 2.3
+    logos: []
+- type: invbets
+  handle: in-vivo-car-t
+  section: Investor bets
+  title: Where did in vivo CAR-T investors put their money this past year?
+  label: IN VIVO CAR-T
+  note: We added up every funding round we tracked in in vivo CAR-T over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the
+    report.
+  rows:
+  - name: mRNA in vivo CAR-T
+    names:
+    - Sail Biomedicines
+    - Starna
+    v: $505M
+    pct: 69% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/sail-biomedicines.png
+      name: Sail Biomedicines
+    - src: ../../assets/logos/immorna.png
+      name: Immorna
+    - src: ../../assets/logos/magicrna.png
+      name: MagicRNA
+  - name: Beyond T cells
+    names:
+    - CREATE Medicines
+    v: $122M
+    pct: 17% of total
+    w: 24.2
+    logos:
+    - src: ../../assets/logos/create-medicines.png
+      name: CREATE Medicines
+  - name: Gene-editing CAR-T
+    names:
+    - Azalea
+    v: $65M
+    pct: 9% of total
+    w: 12.9
+    logos:
+    - src: ../../assets/logos/azalea-therapeutics.png
+      name: Azalea
+    - src: ../../assets/logos/tessera-therapeutics.png
+      name: Tessera
+  - name: Lentiviral CAR-T
+    names:
+    - Vyriad
+    - DeliNova
+    v: $39M
+    pct: 5% of total
+    w: 7.7
+    logos:
+    - src: ../../assets/logos/vyriad.png
+      name: Vyriad
+    - src: ../../assets/logos/umoja-biopharma.png
+      name: Umoja Biopharma
+    - src: ../../assets/logos/iaso-biotherapeutics.png
+      name: IASO Biotherapeutics
+  - name: Other approaches
+    names:
+    - MVRIX
+    v: $6M
+    pct: under 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/mvrix.png
+      name: MVRIX
+    - src: ../../assets/logos/ensoma.png
+      name: Ensoma
+    - src: ../../assets/logos/thunderbiotech.png
+      name: ThunderBioTech
+- type: invbets
+  handle: antibody-drug-conjugate
+  section: Investor bets
+  title: Where did antibody-drug conjugate investors put their money this past year?
+  label: ADC THERAPIES
+  note: We added up every funding round we tracked in antibody-drug conjugate over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the
+    end of the report.
+  rows:
+  - name: Cancer ADCs
+    names:
+    - Stipple Bio
+    - Ona
+    v: $419M
+    pct: 68% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/stipple-bio.png
+      name: Stipple Bio
+    - src: ../../assets/logos/ona-therapeutics.png
+      name: Ona
+    - src: ../../assets/logos/adcendo.png
+      name: Adcendo
+  - name: Bispecific ADCs
+    names:
+    - Sidewinder
+    v: $137M
+    pct: 22% of total
+    w: 32.7
+    logos:
+    - src: ../../assets/logos/callio-therapeutics.png
+      name: Callio
+    - src: ../../assets/logos/allink-biotherapeutics.png
+      name: Allink Biotherapeutics
+    - src: ../../assets/logos/synthetic-design-lab.png
+      name: Synthetic Design Lab
+  - name: New payload ADCs
+    names:
+    - Hexagon Bio
+    v: $62M
+    pct: 10% of total
+    w: 14.8
+    logos:
+    - src: ../../assets/logos/hexagon-bio.png
+      name: Hexagon Bio
+    - src: ../../assets/logos/adcytherix.png
+      name: Adcytherix
+- type: invbets
+  handle: liquid-biopsy
+  section: Investor bets
+  title: Where did liquid biopsy investors put their money this past year?
+  label: LIQUID BIOPSY
+  note: We added up every funding round we tracked in liquid biopsy over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the
+    report.
+  rows:
+  - name: Early cancer detection
+    names:
+    - ClearNote Health
+    v: $52M
+    pct: 82% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/clearnote-health.png
+      name: ClearNote Health
+    - src: ../../assets/logos/universal-dx.png
+      name: Universal DX
+    - src: ../../assets/logos/craif.png
+      name: Craif
+  - name: New blood markers
+    names:
+    - Senticell
+    - Respiro Diagnostics
+    v: $8M
+    pct: 13% of total
+    w: 16.1
+    logos:
+    - src: ../../assets/logos/senticell.png
+      name: Senticell
+    - src: ../../assets/logos/respiro-diagnostics.png
+      name: Respiro Diagnostics
+    - src: ../../assets/logos/oncohost.png
+      name: OncoHost
+  - name: Relapse monitoring
+    names:
+    - mDETECT
+    v: $3M
+    pct: 5% of total
+    w: 5.8
+    logos:
+    - src: ../../assets/logos/mdetect.png
+      name: mDETECT
+    - src: ../../assets/logos/saga-diagnostics.png
+      name: SAGA Diagnostics
+    - src: ../../assets/logos/droplet-biosciences.png
+      name: Droplet Biosciences
+- type: invbets
+  handle: organ-on-a-chip
+  section: Investor bets
+  title: Where did organ-on-a-chip investors put their money this past year?
+  label: ORGAN-ON-A-CHIP
+  note: We added up every funding round we tracked in organ-on-a-chip over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of
+    the report.
+  rows:
+  - name: AI organ-chip testing
+    names:
+    - Xellar Biosystems
+    v: $107M
+    pct: 85% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/xellar-biosystems.png
+      name: Xellar Biosystems
+    - src: ../../assets/logos/quris-ai.png
+      name: Quris-AI
+    - src: ../../assets/logos/anivance-ai.png
+      name: Anivance AI
+  - name: High-throughput chips
+    names:
+    - Beijing Daxiang
+    v: $14M
+    pct: 11% of total
+    w: 13.1
+    logos:
+    - src: ../../assets/logos/vivodyne.png
+      name: Vivodyne
+    - src: ../../assets/logos/insphero.png
+      name: InSphero
+    - src: ../../assets/logos/cherry-biotech.png
+      name: Cherry Biotech
+  - name: Multi-organ platforms
+    names:
+    - Vitroscope
+    v: $5M
+    pct: 4% of total
+    w: 4.7
+    logos:
+    - src: ../../assets/logos/emulate.png
+      name: Emulate
+    - src: ../../assets/logos/react4life.png
+      name: React4life
+    - src: ../../assets/logos/tissuse.png
+      name: TissUse
+- type: invbets
+  handle: rwa-tokenization
+  section: Investor bets
+  title: Where did real-world asset tokenization investors put their money this past year?
+  label: RWA TOKENIZATION
+  note: We added up every funding round we tracked in real-world asset (RWA) tokenization over the last twelve months, from company announcements, funding databases and the press. All the sources are included
+    at the end of the report.
+  rows:
+  - name: Tokenized Treasuries
+    names:
+    - Spiko
+    - Superstate
+    v: $222M
+    pct: 58% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/spiko.png
+      name: Spiko
+    - src: ../../assets/logos/superstate.png
+      name: Superstate
+    - src: ../../assets/logos/midas.png
+      name: Midas
+  - name: RWA networks
+    names:
+    - HIFI
+    - Tare
+    v: $61M
+    pct: 16% of total
+    w: 27.4
+    logos:
+    - src: ../../assets/logos/hifi.png
+      name: HIFI
+    - src: ../../assets/logos/nuva-digital.png
+      name: Nuva Digital
+    - src: ../../assets/logos/ownera.png
+      name: Ownera
+  - name: Tokenized commodities
+    names:
+    - Uranium Digital
+    - Paxos
+    v: $35M
+    pct: 9% of total
+    w: 15.7
+    logos:
+    - src: ../../assets/logos/uranium-digital.png
+      name: Uranium Digital
+    - src: ../../assets/logos/paxos.png
+      name: Paxos
+    - src: ../../assets/logos/beezie.png
+      name: Beezie
+  - name: Tokenization platforms
+    names:
+    - Fission
+    - Kaio
+    v: $23M
+    pct: 6% of total
+    w: 10.2
+    logos:
+    - src: ../../assets/logos/brickken.png
+      name: Brickken
+    - src: ../../assets/logos/digishares.png
+      name: DigiShares
+    - src: ../../assets/logos/vertalo.png
+      name: Vertalo
+  - name: Tokenized stocks
+    names:
+    - Ironlight
+    v: $21M
+    pct: 5% of total
+    w: 9.4
+    logos:
+    - src: ../../assets/logos/addx.png
+      name: ADDX
+    - src: ../../assets/logos/archax.png
+      name: Archax
+    - src: ../../assets/logos/dinari.png
+      name: Dinari
+  - name: Tokenized credit
+    names:
+    - Pact Labs
+    - Birch Hill
+    v: $19M
+    pct: 5% of total
+    w: 8.7
+    logos:
+    - src: ../../assets/logos/pact-labs.png
+      name: Pact Labs
+    - src: ../../assets/logos/birch-hill.png
+      name: Birch Hill
+    - src: ../../assets/logos/3f.png
+      name: 3F
+- type: invbets
+  handle: digital-banking
+  section: Investor bets
+  title: Where did digital banking investors put their money this past year?
+  label: DIGITAL BANKING
+  note: We added up every funding round we tracked in digital banking over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of
+    the report.
+  rows:
+  - name: Consumer neobanks
+    names:
+    - Plata
+    - Wealthsimple
+    v: $1.1B
+    pct: 35% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/plata.png
+      name: Plata
+    - src: ../../assets/logos/wealthsimple.png
+      name: Wealthsimple
+    - src: ../../assets/logos/uala.png
+      name: Ualá
+  - name: Business banking
+    names:
+    - Mercury
+    - Allica Bank
+    v: $808M
+    pct: 24% of total
+    w: 70.8
+    logos:
+    - src: ../../assets/logos/mercury.png
+      name: Mercury
+    - src: ../../assets/logos/allica-bank.png
+      name: Allica Bank
+    - src: ../../assets/logos/flex.png
+      name: Flex
+  - name: Niche digital banks
+    names:
+    - Erebor
+    - Mal
+    v: $690M
+    pct: 21% of total
+    w: 60.5
+    logos:
+    - src: ../../assets/logos/erebor.png
+      name: Erebor
+    - src: ../../assets/logos/kast.png
+      name: KAST
+    - src: ../../assets/logos/trade-republic.png
+      name: Trade Republic
+  - name: Banking-as-a-service
+    names:
+    - Augustus
+    - Cross River Bank
+    v: $262M
+    pct: 8% of total
+    w: 23.0
+    logos:
+    - src: ../../assets/logos/cross-river-bank.png
+      name: Cross River Bank
+    - src: ../../assets/logos/clearbank.png
+      name: ClearBank
+    - src: ../../assets/logos/unit.png
+      name: Unit
+  - name: Emerging-market banks
+    names:
+    - Fasset
+    - Carbon
+    v: $179M
+    pct: 5% of total
+    w: 15.7
+    logos:
+    - src: ../../assets/logos/carbon.png
+      name: Carbon
+    - src: ../../assets/logos/opay.png
+      name: OPay
+    - src: ../../assets/logos/fi-money.png
+      name: Fi Money
+  - name: Bank engagement tools
+    names:
+    - Lumin Digital
+    - InstaSwitch
+    v: $120M
+    pct: 4% of total
+    w: 10.5
+    logos:
+    - src: ../../assets/logos/lumin-digital.png
+      name: Lumin Digital
+    - src: ../../assets/logos/backbase.png
+      name: Backbase
+    - src: ../../assets/logos/ebankit.png
+      name: ebankIT
+- type: invbets
+  handle: b2b-payments
+  section: Investor bets
+  title: Where did B2B payment investors put their money this past year?
+  label: B2B PAYMENTS
+  note: We added up every funding round we tracked in B2B payments over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the
+    report.
+  rows:
+  - name: Corporate cards
+    names:
+    - Ramp
+    - Flex
+    v: $3.2B
+    pct: 62% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/ramp.png
+      name: Ramp
+    - src: ../../assets/logos/flex.png
+      name: Flex
+    - src: ../../assets/logos/pliant.png
+      name: Pliant
+  - name: Cross-border payments
+    names:
+    - Ebury
+    - Airwallex
+    v: $1.6B
+    pct: 31% of total
+    w: 50.7
+    logos:
+    - src: ../../assets/logos/airwallex.png
+      name: Airwallex
+    - src: ../../assets/logos/openfx.png
+      name: OpenFX
+    - src: ../../assets/logos/yellow-card.png
+      name: Yellow Card
+  - name: Payment rails and APIs
+    names:
+    - Rain
+    - Pomelo
+    v: $367M
+    pct: 7% of total
+    w: 11.4
+    logos:
+    - src: ../../assets/logos/rain.png
+      name: Rain
+    - src: ../../assets/logos/pomelo.png
+      name: Pomelo
+    - src: ../../assets/logos/diameter-pay.png
+      name: Diameter Pay
+  - name: B2B pay later
+    names:
+    - Aria
+    v: $8M
+    pct: under 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/aria.png
+      name: Aria
+    - src: ../../assets/logos/c2fo.png
+      name: C2FO
+    - src: ../../assets/logos/fundbox.png
+      name: Fundbox
+- type: invbets
+  handle: cross-border-b2b-payments
+  section: Investor bets
+  title: Where did cross-border B2B payment investors put their money this past year?
+  label: CROSS-BORDER PAYMENTS
+  note: We added up every funding round we tracked in cross-border B2B payments over the last twelve months, from company announcements, funding databases and the press. All the sources are included at
+    the end of the report.
+  rows:
+  - name: Corporate FX
+    names:
+    - Ebury
+    v: $730M
+    pct: 39% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/alt21.png
+      name: ALT21
+    - src: ../../assets/logos/sunrate.png
+      name: SUNRATE
+  - name: Business accounts
+    names:
+    - Airwallex
+    - Sokin
+    v: $700M
+    pct: 38% of total
+    w: 95.9
+    logos:
+    - src: ../../assets/logos/airwallex.png
+      name: Airwallex
+    - src: ../../assets/logos/verto.png
+      name: Verto
+    - src: ../../assets/logos/raenest.png
+      name: Raenest
+  - name: Stablecoin settlement
+    names:
+    - OpenFX
+    - HIFI
+    v: $235M
+    pct: 13% of total
+    w: 32.2
+    logos:
+    - src: ../../assets/logos/openfx.png
+      name: OpenFX
+    - src: ../../assets/logos/hifi.png
+      name: HIFI
+    - src: ../../assets/logos/velafi.png
+      name: VelaFi
+  - name: Exporter payments
+    names:
+    - PhotonPay
+    - Trace Finance
+    v: $99M
+    pct: 5% of total
+    w: 13.5
+    logos:
+    - src: ../../assets/logos/trace-finance.png
+      name: Trace Finance
+    - src: ../../assets/logos/xflow.png
+      name: XFlow
+    - src: ../../assets/logos/skydo.png
+      name: Skydo
+  - name: Emerging-market routes
+    names:
+    - Yellow Card
+    - Walapay
+    v: $47M
+    pct: 3% of total
+    w: 6.4
+    logos:
+    - src: ../../assets/logos/yellow-card.png
+      name: Yellow Card
+    - src: ../../assets/logos/walapay.png
+      name: Walapay
+    - src: ../../assets/logos/daya.png
+      name: Daya
+  - name: Payment networks
+    names:
+    - Fuse
+    - TransFi
+    v: $39M
+    pct: 2% of total
+    w: 5.4
+    logos:
+    - src: ../../assets/logos/fuse.png
+      name: Fuse
+    - src: ../../assets/logos/transfi.png
+      name: TransFi
+    - src: ../../assets/logos/rapyd.png
+      name: Rapyd
+- type: invbets
+  handle: procurement-software
+  section: Investor bets
+  title: Where did procurement software investors put their money this past year?
+  label: PROCUREMENT SOFTWARE
+  note: We added up every funding round we tracked in procurement software over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Purchase request tools
+    names:
+    - ORO Labs
+    - Didero
+    v: $201M
+    pct: 38% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/oro-labs.png
+      name: ORO Labs
+    - src: ../../assets/logos/didero.png
+      name: Didero
+    - src: ../../assets/logos/lio.png
+      name: Lio
+  - name: Spend analytics
+    names:
+    - Freehand
+    - SiFi
+    v: $101M
+    pct: 19% of total
+    w: 50.3
+    logos:
+    - src: ../../assets/logos/freehand.png
+      name: Freehand
+    - src: ../../assets/logos/spendrule.png
+      name: SpendRule
+    - src: ../../assets/logos/vertice.png
+      name: Vertice
+  - name: Services buying
+    names:
+    - Naboo
+    v: $70M
+    pct: 13% of total
+    w: 34.9
+    logos:
+    - src: ../../assets/logos/naboo.png
+      name: Naboo
+    - src: ../../assets/logos/timeflow.png
+      name: TimeFlow
+    - src: ../../assets/logos/pegbo.png
+      name: Pegbo
+  - name: Procure-to-pay
+    names:
+    - Pivot
+    - Axya
+    v: $63M
+    pct: 12% of total
+    w: 31.5
+    logos:
+    - src: ../../assets/logos/pivot.png
+      name: Pivot
+    - src: ../../assets/logos/subbase.png
+      name: SubBase
+    - src: ../../assets/logos/stampli.png
+      name: Stampli
+  - name: Strategic sourcing
+    names:
+    - ProcurePro
+    - Zinit
+    v: $42M
+    pct: 8% of total
+    w: 20.8
+    logos:
+    - src: ../../assets/logos/procurepro.png
+      name: ProcurePro
+    - src: ../../assets/logos/fairmarkit.png
+      name: Fairmarkit
+    - src: ../../assets/logos/keelvar.png
+      name: Keelvar
+  - name: B2B marketplaces
+    names:
+    - BRKZ
+    - SkySelect
+    v: $35M
+    pct: 7% of total
+    w: 17.3
+    logos:
+    - src: ../../assets/logos/brkz.png
+      name: BRKZ
+    - src: ../../assets/logos/skyselect.png
+      name: SkySelect
+    - src: ../../assets/logos/prolo.png
+      name: Prolo
+- type: invbets
+  handle: aec-software
+  section: Investor bets
+  title: Where did AEC software investors put their money this past year?
+  label: AEC SOFTWARE
+  note: We added up every funding round we tracked in AEC software over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the
+    report.
+  rows:
+  - name: Site and project tools
+    names:
+    - Buildots
+    - Fyld
+    v: $313M
+    pct: 38% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/buildots.png
+      name: Buildots
+    - src: ../../assets/logos/foresight.png
+      name: Foresight
+    - src: ../../assets/logos/lighttable.png
+      name: LightTable
+  - name: Permits and codes
+    names:
+    - Bretton AI
+    - PermitFlow
+    v: $135M
+    pct: 16% of total
+    w: 43.0
+    logos:
+    - src: ../../assets/logos/bretton-ai.png
+      name: Bretton AI
+    - src: ../../assets/logos/permitflow.png
+      name: PermitFlow
+    - src: ../../assets/logos/kestrel-labs.png
+      name: Kestrel Labs
+  - name: Architectural design
+    names:
+    - Higharc
+    - Rayon
+    v: $123M
+    pct: 15% of total
+    w: 39.2
+    logos:
+    - src: ../../assets/logos/higharc.png
+      name: Higharc
+    - src: ../../assets/logos/rayon.png
+      name: Rayon
+    - src: ../../assets/logos/wyre-ai.png
+      name: Wyre AI
+  - name: BIM and data tools
+    names:
+    - NavVis
+    - Agave
+    v: $104M
+    pct: 13% of total
+    w: 33.2
+    logos:
+    - src: ../../assets/logos/navvis.png
+      name: NavVis
+    - src: ../../assets/logos/sensat.png
+      name: Sensat
+    - src: ../../assets/logos/colab-software.png
+      name: CoLab Software
+  - name: Firm management
+    names:
+    - Miter
+    - Adaptive
+    v: $73M
+    pct: 9% of total
+    w: 23.3
+    logos:
+    - src: ../../assets/logos/miter.png
+      name: Miter
+    - src: ../../assets/logos/adaptive-2.png
+      name: Adaptive
+    - src: ../../assets/logos/monograph.png
+      name: Monograph
+  - name: Engineering design
+    names:
+    - Endra
+    v: $70M
+    pct: 9% of total
+    w: 22.4
+    logos:
+    - src: ../../assets/logos/augmenta.png
+      name: Augmenta
+    - src: ../../assets/logos/optimuse.png
+      name: Optimuse
+    - src: ../../assets/logos/looq-ai.png
+      name: Looq AI
+- type: invbets
+  handle: contech
+  section: Investor bets
+  title: Where did ConTech investors put their money this past year?
+  label: CONTECH
+  note: We added up every funding round we tracked in ConTech over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the report.
+  rows:
+  - name: Construction robots
+    names:
+    - Bedrock Robotics
+    - ICON
+    v: $1.7B
+    pct: 61% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/bedrock-robotics.png
+      name: Bedrock Robotics
+    - src: ../../assets/logos/icon.png
+      name: ICON
+    - src: ../../assets/logos/gravis-robotics.png
+      name: Gravis Robotics
+  - name: Preconstruction
+    names:
+    - Higharc
+    - PermitFlow
+    v: $323M
+    pct: 12% of total
+    w: 19.2
+    logos:
+    - src: ../../assets/logos/higharc.png
+      name: Higharc
+    - src: ../../assets/logos/permitflow.png
+      name: PermitFlow
+    - src: ../../assets/logos/bobyard.png
+      name: Bobyard
+  - name: Site monitoring
+    names:
+    - Buildots
+    - Fyld
+    v: $286M
+    pct: 10% of total
+    w: 17.0
+    logos:
+    - src: ../../assets/logos/buildots.png
+      name: Buildots
+    - src: ../../assets/logos/wint-water-intelligence.png
+      name: Wint Water Intelligence
+    - src: ../../assets/logos/cyvl.png
+      name: CYVL
+  - name: Field software
+    names:
+    - Bretton AI
+    - Miter
+    v: $244M
+    pct: 9% of total
+    w: 14.5
+    logos:
+    - src: ../../assets/logos/bretton-ai.png
+      name: Bretton AI
+    - src: ../../assets/logos/miter.png
+      name: Miter
+    - src: ../../assets/logos/adaptive-2.png
+      name: Adaptive
+  - name: Materials buying
+    names:
+    - Endra
+    - BRKZ
+    v: $99M
+    pct: 4% of total
+    w: 5.9
+    logos:
+    - src: ../../assets/logos/brkz.png
+      name: BRKZ
+    - src: ../../assets/logos/procurepro.png
+      name: ProcurePro
+    - src: ../../assets/logos/plot.png
+      name: Plot
+  - name: Modular building
+    names:
+    - Reframe Systems
+    - Planted Solar
+    v: $82M
+    pct: 3% of total
+    w: 4.9
+    logos:
+    - src: ../../assets/logos/reframe-systems.png
+      name: Reframe Systems
+    - src: ../../assets/logos/planted-solar.png
+      name: Planted Solar
+    - src: ../../assets/logos/kind-designs.png
+      name: Kind Designs
+- type: invbets
+  handle: construction-estimating-software
+  section: Investor bets
+  title: Where did construction estimating software investors put their money this past year?
+  label: CONSTRUCTION COSTING
+  note: We added up every funding round we tracked in construction estimating software over the last twelve months, from company announcements, funding databases and the press. All the sources are included
+    at the end of the report.
+  rows:
+  - name: AI takeoff
+    names:
+    - Bobyard
+    - Attentive.ai
+    v: $74M
+    pct: 58% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/bobyard.png
+      name: Bobyard
+    - src: ../../assets/logos/attentive-ai.png
+      name: Attentive.ai
+    - src: ../../assets/logos/togal-ai.png
+      name: Togal.AI
+  - name: Trade estimating
+    names:
+    - XBuild
+    - Rebar
+    v: $33M
+    pct: 26% of total
+    w: 44.3
+    logos:
+    - src: ../../assets/logos/xbuild.png
+      name: XBuild
+    - src: ../../assets/logos/rebar.png
+      name: Rebar
+    - src: ../../assets/logos/patabid.png
+      name: PataBid
+  - name: Bid pricing
+    names:
+    - Brickanta
+    - Volve
+    v: $11M
+    pct: 9% of total
+    w: 14.8
+    logos:
+    - src: ../../assets/logos/brickanta.png
+      name: Brickanta
+    - src: ../../assets/logos/volve.png
+      name: Volve
+  - name: Full estimating suites
+    names:
+    - Spotable
+    - Quotr
+    v: $9M
+    pct: 7% of total
+    w: 11.8
+    logos:
+    - src: ../../assets/logos/spotable.png
+      name: Spotable
+    - src: ../../assets/logos/quotr.png
+      name: Quotr
+    - src: ../../assets/logos/conwize.png
+      name: ConWize
+- type: invbets
+  handle: ai-powered-market-research
+  section: Investor bets
+  title: Where did AI market research investors put their money this past year?
+  label: AI MARKET RESEARCH
+  note: We added up every funding round we tracked in AI market research over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Synthetic respondents
+    names:
+    - Simile
+    - Aaru
+    v: $369M
+    pct: 65% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/simile.png
+      name: Simile
+    - src: ../../assets/logos/aaru.png
+      name: Aaru
+    - src: ../../assets/logos/electric-twin.png
+      name: Electric Twin
+  - name: AI-led interviews
+    names:
+    - Listen Labs
+    - Conveo
+    v: $167M
+    pct: 30% of total
+    w: 45.2
+    logos:
+    - src: ../../assets/logos/conveo.png
+      name: Conveo
+    - src: ../../assets/logos/outset.png
+      name: Outset
+    - src: ../../assets/logos/autentic-ai.png
+      name: Autentic AI
+  - name: Feedback analysis
+    names:
+    - Unwrap
+    v: $12M
+    pct: 2% of total
+    w: 3.3
+    logos:
+    - src: ../../assets/logos/unwrap.png
+      name: Unwrap
+    - src: ../../assets/logos/dovetail.png
+      name: Dovetail
+    - src: ../../assets/logos/voxpopme.png
+      name: Voxpopme
+  - name: AI surveys
+    names:
+    - Ideally
+    v: $10M
+    pct: 2% of total
+    w: 2.6
+    logos:
+    - src: ../../assets/logos/zappi.png
+      name: Zappi
+    - src: ../../assets/logos/suzy.png
+      name: Suzy
+    - src: ../../assets/logos/quantilope.png
+      name: quantilope
+  - name: Ad pretesting
+    names:
+    - Dragonfly AI
+    v: $6M
+    pct: 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/newton-research.png
+      name: Newton Research
+- type: invbets
+  handle: k-beauty
+  section: Investor bets
+  title: Where did K-beauty investors put their money this past year?
+  label: K-BEAUTY
+  note: We added up every funding round we tracked in K-beauty over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the report.
+  rows:
+  - name: Makeup
+    names:
+    - Jungsaemmool Beauty
+    v: $37M
+    pct: 55% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/clio.png
+      name: Clio
+    - src: ../../assets/logos/dinto.png
+      name: Dinto
+    - src: ../../assets/logos/unleashia.png
+      name: Unleashia
+  - name: Retail and brands
+    names:
+    - BiTELAB
+    - Seoul Beauty Club
+    v: $9M
+    pct: 14% of total
+    w: 25.4
+    logos:
+    - src: ../../assets/logos/bitelab.png
+      name: BiTELAB
+    - src: ../../assets/logos/memebox-mbx.png
+      name: Memebox
+    - src: ../../assets/logos/ohlolly.png
+      name: Ohlolly
+  - name: Skincare
+    names:
+    - JiYu
+    - Sixpence
+    v: $8M
+    pct: 12% of total
+    w: 21.6
+    logos:
+    - src: ../../assets/logos/anua.png
+      name: Anua
+    - src: ../../assets/logos/torriden.png
+      name: Torriden
+    - src: ../../assets/logos/glow-recipe.png
+      name: Glow Recipe
+  - name: Hair and scalp care
+    names:
+    - Bytelab
+    v: $7M
+    pct: 11% of total
+    w: 20.0
+    logos: []
+  - name: Fragrance and body
+    names:
+    - Elorea
+    v: $5M
+    pct: 7% of total
+    w: 13.5
+    logos: []
+- type: invbets
+  handle: ai-in-insurance
+  section: Investor bets
+  title: Where did AI in insurance investors put their money this past year?
+  label: AI IN INSURANCE
+  note: We added up every funding round we tracked in AI in insurance over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of
+    the report.
+  rows:
+  - name: AI-native insurers
+    names:
+    - Corgi
+    - Ledgebrook
+    v: $870M
+    pct: 48% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/corgi.png
+      name: Corgi
+    - src: ../../assets/logos/ledgebrook.png
+      name: Ledgebrook
+    - src: ../../assets/logos/stand.png
+      name: Stand
+  - name: Insurance distribution
+    names:
+    - Thatch
+    - Gyde
+    v: $309M
+    pct: 17% of total
+    w: 35.5
+    logos:
+    - src: ../../assets/logos/withcoverage.png
+      name: WithCoverage
+    - src: ../../assets/logos/waniwani.png
+      name: WaniWani
+    - src: ../../assets/logos/jerry.png
+      name: Jerry
+  - name: Insurance AI agents
+    names:
+    - Pace
+    - Outmarket AI
+    v: $265M
+    pct: 15% of total
+    w: 30.5
+    logos:
+    - src: ../../assets/logos/pace.png
+      name: Pace
+    - src: ../../assets/logos/outmarket-ai.png
+      name: Outmarket AI
+    - src: ../../assets/logos/zerodrift.png
+      name: ZeroDrift
+  - name: AI underwriting
+    names:
+    - Federato
+    - Artificial Labs
+    v: $194M
+    pct: 11% of total
+    w: 22.2
+    logos:
+    - src: ../../assets/logos/federato.png
+      name: Federato
+    - src: ../../assets/logos/artificial-labs.png
+      name: Artificial Labs
+    - src: ../../assets/logos/sixfold.png
+      name: Sixfold
+  - name: Claims automation
+    names:
+    - Reserv
+    - Alaffia Health
+    v: $184M
+    pct: 10% of total
+    w: 21.2
+    logos:
+    - src: ../../assets/logos/reserv.png
+      name: Reserv
+    - src: ../../assets/logos/alaffia-health.png
+      name: Alaffia Health
+    - src: ../../assets/logos/qumis.png
+      name: Qumis
+- type: invbets
+  handle: ai-in-banking
+  section: Investor bets
+  title: Where did AI in banking investors put their money this past year?
+  label: AI IN BANKING
+  note: We added up every funding round we tracked in AI in banking over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the
+    report.
+  rows:
+  - name: Banking data analysis
+    names:
+    - Rogo
+    - Saris AI
+    v: $318M
+    pct: 37% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/rogo.png
+      name: Rogo
+    - src: ../../assets/logos/ocrolus.png
+      name: Ocrolus
+    - src: ../../assets/logos/inscribe.png
+      name: Inscribe
+  - name: AI compliance
+    names:
+    - Norm AI
+    v: $170M
+    pct: 20% of total
+    w: 53.5
+    logos:
+    - src: ../../assets/logos/norm-ai.png
+      name: Norm AI
+    - src: ../../assets/logos/mostly-ai.png
+      name: MOSTLY AI
+  - name: Credit decisions
+    names:
+    - Taktile
+    - Prism Data
+    v: $150M
+    pct: 18% of total
+    w: 47.0
+    logos:
+    - src: ../../assets/logos/taktile.png
+      name: Taktile
+    - src: ../../assets/logos/zest-ai.png
+      name: Zest AI
+    - src: ../../assets/logos/fairplay-ai.png
+      name: FairPlay AI
+  - name: Banking AI agents
+    names:
+    - Bretton AI
+    - Encore AI
+    v: $105M
+    pct: 12% of total
+    w: 33.0
+    logos:
+    - src: ../../assets/logos/bretton-ai.png
+      name: Bretton AI
+    - src: ../../assets/logos/encore-ai.png
+      name: Encore AI
+    - src: ../../assets/logos/desible-ai.png
+      name: Desible.ai
+  - name: Loan automation
+    names:
+    - Vesta
+    - Fuse
+    v: $81M
+    pct: 9% of total
+    w: 25.4
+    logos:
+    - src: ../../assets/logos/fuse.png
+      name: Fuse
+    - src: ../../assets/logos/salient.png
+      name: Salient
+    - src: ../../assets/logos/kaaj.png
+      name: Kaaj
+  - name: AI customer service
+    names:
+    - Gradient Labs
+    - Rezolv AI
+    v: $30M
+    pct: 3% of total
+    w: 9.3
+    logos:
+    - src: ../../assets/logos/navana-ai.png
+      name: Navana.ai
+    - src: ../../assets/logos/glia.png
+      name: Glia
+    - src: ../../assets/logos/posh-ai.png
+      name: Posh AI
+- type: invbets
+  handle: fraud-prevention
+  section: Investor bets
+  title: Where did fraud prevention investors put their money this past year?
+  label: FRAUD PREVENTION
+  note: We added up every funding round we tracked in fraud prevention over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of
+    the report.
+  rows:
+  - name: Scam prevention
+    names:
+    - Doppel
+    - Allure Security
+    v: $122M
+    pct: 25% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/doppel.png
+      name: Doppel
+    - src: ../../assets/logos/allure-security.png
+      name: Allure Security
+    - src: ../../assets/logos/apate-ai.png
+      name: Apate.AI
+  - name: Fake account defense
+    names:
+    - Incode
+    - Kasada
+    v: $92M
+    pct: 19% of total
+    w: 75.7
+    logos:
+    - src: ../../assets/logos/incode.png
+      name: Incode
+    - src: ../../assets/logos/socure.png
+      name: Socure
+    - src: ../../assets/logos/veriff.png
+      name: Veriff
+  - name: Fraud decision engines
+    names:
+    - Tangos AI
+    - Overwatch Data
+    v: $60M
+    pct: 12% of total
+    w: 49.4
+    logos:
+    - src: ../../assets/logos/flagright.png
+      name: Flagright
+    - src: ../../assets/logos/marble.png
+      name: Marble
+    - src: ../../assets/logos/feedzai.png
+      name: Feedzai
+  - name: Card and chargeback
+    names:
+    - Casap
+    v: $56M
+    pct: 12% of total
+    w: 46.1
+    logos:
+    - src: ../../assets/logos/forter.png
+      name: Forter
+    - src: ../../assets/logos/signifyd.png
+      name: Signifyd
+    - src: ../../assets/logos/sift.png
+      name: Sift
+  - name: B2B payment fraud
+    names:
+    - Baselayer
+    - iPiD
+    v: $55M
+    pct: 11% of total
+    w: 45.3
+    logos:
+    - src: ../../assets/logos/baselayer.png
+      name: Baselayer
+    - src: ../../assets/logos/ipid.png
+      name: iPiD
+    - src: ../../assets/logos/indemni.png
+      name: Indemni
+  - name: Account takeover
+    names:
+    - Memcyco
+    - Cleafy
+    v: $51M
+    pct: 11% of total
+    w: 41.9
+    logos:
+    - src: ../../assets/logos/memcyco.png
+      name: Memcyco
+    - src: ../../assets/logos/cleafy.png
+      name: Cleafy
+    - src: ../../assets/logos/pindrop.png
+      name: Pindrop
+- type: invbets
+  handle: exposure-management
+  section: Investor bets
+  title: Where did exposure management investors put their money this past year?
+  label: EXPOSURE MANAGEMENT
+  note: We added up every funding round we tracked in exposure management over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Automated pentesting
+    names:
+    - Horizon3.ai
+    - Armadin
+    v: $722M
+    pct: 63% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/horizon3-ai.png
+      name: Horizon3.ai
+    - src: ../../assets/logos/xbow.png
+      name: XBOW
+    - src: ../../assets/logos/tenzai.png
+      name: Tenzai
+  - name: Exposure platforms
+    names:
+    - Zafran Security
+    - Aikido Security
+    v: $164M
+    pct: 14% of total
+    w: 22.7
+    logos:
+    - src: ../../assets/logos/zafran-security.png
+      name: Zafran Security
+    - src: ../../assets/logos/aikido-security.png
+      name: Aikido Security
+    - src: ../../assets/logos/empirical-security.png
+      name: Empirical Security
+  - name: Fix orchestration
+    names:
+    - Reach Security
+    - Cogent Security
+    v: $148M
+    pct: 13% of total
+    w: 20.5
+    logos:
+    - src: ../../assets/logos/nucleus-security.png
+      name: Nucleus Security
+    - src: ../../assets/logos/reclaim-security.png
+      name: Reclaim Security
+    - src: ../../assets/logos/armorcode.png
+      name: ArmorCode
+  - name: Attack surface
+    names:
+    - Censys
+    - Escape
+    v: $69M
+    pct: 6% of total
+    w: 9.6
+    logos:
+    - src: ../../assets/logos/censys.png
+      name: Censys
+    - src: ../../assets/logos/onit-security.png
+      name: Onit Security
+    - src: ../../assets/logos/cycognito.png
+      name: CyCognito
+  - name: Attack path analysis
+    names:
+    - Astelia
+    v: $25M
+    pct: 2% of total
+    w: 3.5
+    logos:
+    - src: ../../assets/logos/astelia.png
+      name: Astelia
+  - name: Vulnerability intel
+    names:
+    - VulnCheck
+    v: $25M
+    pct: 2% of total
+    w: 3.5
+    logos:
+    - src: ../../assets/logos/vulncheck.png
+      name: VulnCheck
+    - src: ../../assets/logos/jupiterone.png
+      name: JupiterOne
+    - src: ../../assets/logos/runzero.png
+      name: runZero
+- type: invbets
+  handle: inspection-robotics
+  section: Investor bets
+  title: Where did inspection robotics investors put their money this past year?
+  label: INSPECTION ROBOTICS
+  note: We added up every funding round we tracked in inspection robotics over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Underwater robots
+    names:
+    - Seahi Robotics
+    - BeeX
+    v: $154M
+    pct: 36% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/tethys-robotics.png
+      name: Tethys Robotics
+    - src: ../../assets/logos/deep-trekker.png
+      name: Deep Trekker
+    - src: ../../assets/logos/hydromea.png
+      name: Hydromea
+  - name: Inspection drones
+    names:
+    - Skydio
+    - Donecle
+    v: $122M
+    pct: 28% of total
+    w: 78.8
+    logos:
+    - src: ../../assets/logos/skydio.png
+      name: Skydio
+    - src: ../../assets/logos/percepto.png
+      name: Percepto
+    - src: ../../assets/logos/sunflower-labs.png
+      name: Sunflower Labs
+  - name: Warehouse drones
+    names:
+    - Gather AI
+    - Corvus Robotics
+    v: $71M
+    pct: 16% of total
+    w: 46.3
+    logos:
+    - src: ../../assets/logos/gather-ai.png
+      name: Gather AI
+    - src: ../../assets/logos/corvus-robotics.png
+      name: Corvus Robotics
+    - src: ../../assets/logos/dexory.png
+      name: Dexory
+  - name: Plant patrol robots
+    names:
+    - DEEP Robotics
+    v: $70M
+    pct: 16% of total
+    w: 45.4
+    logos:
+    - src: ../../assets/logos/deep-robotics.png
+      name: DEEP Robotics
+    - src: ../../assets/logos/anybotics.png
+      name: ANYbotics
+    - src: ../../assets/logos/energy-robotics.png
+      name: Energy Robotics
+  - name: Climbing robots
+    names:
+    - Armatrix
+    v: $10M
+    pct: 2% of total
+    w: 6.6
+    logos:
+    - src: ../../assets/logos/armatrix.png
+      name: Armatrix
+    - src: ../../assets/logos/gecko-robotics.png
+      name: Gecko Robotics
+    - src: ../../assets/logos/voliro.png
+      name: Voliro
+  - name: Pipe and sewer robots
+    names:
+    - Solinas Integrity
+    - Pipein
+    v: $7M
+    pct: 2% of total
+    w: 4.4
+    logos:
+    - src: ../../assets/logos/solinas-integrity.png
+      name: Solinas Integrity
+    - src: ../../assets/logos/pipein.png
+      name: Pipein
+    - src: ../../assets/logos/acwa-robotics.png
+      name: ACWA Robotics
+- type: invbets
+  handle: ai-personal-assistant
+  section: Investor bets
+  title: Where did AI assistant investors put their money this past year?
+  label: AI ASSISTANTS
+  note: We added up every funding round we tracked in AI personal assistant over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the
+    end of the report.
+  rows:
+  - name: General AI assistants
+    names:
+    - Moonshot AI
+    - Hark
+    v: $7.6B
+    pct: 75% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/moonshot-ai.png
+      name: Moonshot AI
+    - src: ../../assets/logos/wabi.png
+      name: Wabi
+    - src: ../../assets/logos/liner.png
+      name: Liner
+  - name: Text and voice agents
+    names:
+    - Instinct
+    - Equal
+    v: $1.4B
+    pct: 14% of total
+    w: 18.4
+    logos:
+    - src: ../../assets/logos/instinct.png
+      name: Instinct
+    - src: ../../assets/logos/zapia.png
+      name: Zapia
+    - src: ../../assets/logos/luzia.png
+      name: Luzia
+  - name: Computer-use agents
+    names:
+    - Manus
+    - Genspark
+    v: $896M
+    pct: 9% of total
+    w: 11.8
+    logos:
+    - src: ../../assets/logos/manus.png
+      name: Manus
+    - src: ../../assets/logos/genspark.png
+      name: Genspark
+    - src: ../../assets/logos/simular.png
+      name: Simular
+  - name: Work assistants
+    names:
+    - Town
+    - Pally
+    v: $168M
+    pct: 2% of total
+    w: 2.2
+    logos:
+    - src: ../../assets/logos/town.png
+      name: Town
+    - src: ../../assets/logos/pally.png
+      name: Pally
+    - src: ../../assets/logos/fyxer-ai.png
+      name: Fyxer AI
+  - name: Personal memory
+    names:
+    - Highlight AI
+    - Hello Haven
+    v: $71M
+    pct: under 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/highlight-ai.png
+      name: Highlight AI
+    - src: ../../assets/logos/hello-haven.png
+      name: Hello Haven
+    - src: ../../assets/logos/littlebird.png
+      name: Littlebird
+  - name: AI concierges
+    names:
+    - Pine
+    - Eden AI Labs
+    v: $26M
+    pct: under 1% of total
+    w: 2
+    logos:
+    - src: ../../assets/logos/pine.png
+      name: Pine
+    - src: ../../assets/logos/eden-ai-labs.png
+      name: Eden AI Labs
+    - src: ../../assets/logos/duckbill.png
+      name: Duckbill
+- type: invbets
+  handle: ai-toys
+  section: Investor bets
+  title: Where did AI toy investors put their money this past year?
+  label: AI TOYS
+  note: We added up every funding round we tracked in AI toys over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the report.
+  rows:
+  - name: Character toys
+    names:
+    - LING Universe
+    v: $28M
+    pct: 37% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/qimiao-labi.png
+      name: Qimiao Labi
+    - src: ../../assets/logos/cubyfun.png
+      name: Cubyfun
+  - name: Companion robots
+    names:
+    - Familiar Machines & Magic
+    - Ludens AI
+    v: $20M
+    pct: 27% of total
+    w: 72.1
+    logos:
+    - src: ../../assets/logos/familiar-machines-and-magic.png
+      name: Familiar Machines & Magic
+    - src: ../../assets/logos/erbai-intelligent.png
+      name: Erbai Intelligent
+    - src: ../../assets/logos/miko.png
+      name: Miko
+  - name: AI pets
+    names:
+    - Ropet
+    v: $10M
+    pct: 14% of total
+    w: 36.6
+    logos:
+    - src: ../../assets/logos/ropet.png
+      name: Ropet
+    - src: ../../assets/logos/robopoet.png
+      name: Robopoet
+    - src: ../../assets/logos/living-ai.png
+      name: Living.ai
+  - name: Talking plush toys
+    names:
+    - Plushie Planet
+    v: $10M
+    pct: 13% of total
+    w: 35.7
+    logos:
+    - src: ../../assets/logos/the-ai-toy-company.png
+      name: The AI Toy Company
+    - src: ../../assets/logos/folotoy.png
+      name: FoloToy
+    - src: ../../assets/logos/curio-interactive.png
+      name: Curio Interactive
+  - name: Comfort companions
+    names:
+    - Tombot
+    v: $7M
+    pct: 9% of total
+    w: 25.0
+    logos:
+    - src: ../../assets/logos/tombot.png
+      name: Tombot
+    - src: ../../assets/logos/yukai-engineering.png
+      name: Yukai Engineering
+    - src: ../../assets/logos/hyodol.png
+      name: Hyodol
+- type: invbets
+  handle: carbon-removal
+  section: Investor bets
+  title: Where did carbon removal investors put their money this past year?
+  label: CARBON REMOVAL
+  note: We added up every funding round we tracked in carbon removal over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of
+    the report.
+  rows:
+  - name: Bioenergy with capture
+    names:
+    - Reverion
+    - Inherit Carbon Solutions
+    v: $179M
+    pct: 51% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/reverion.png
+      name: Reverion
+    - src: ../../assets/logos/inherit-carbon-solutions.png
+      name: Inherit Carbon Solutions
+    - src: ../../assets/logos/arbor.png
+      name: Arbor
+  - name: Ocean removal
+    names:
+    - Gigablue
+    - CrewCarbon
+    v: $63M
+    pct: 18% of total
+    w: 35.0
+    logos:
+    - src: ../../assets/logos/gigablue.png
+      name: Gigablue
+    - src: ../../assets/logos/crewcarbon.png
+      name: CrewCarbon
+    - src: ../../assets/logos/captura.png
+      name: Captura
+  - name: Removal verification
+    names:
+    - Isometric
+    v: $50M
+    pct: 14% of total
+    w: 28.0
+    logos:
+    - src: ../../assets/logos/isometric.png
+      name: Isometric
+    - src: ../../assets/logos/carbonfuture.png
+      name: Carbonfuture
+  - name: Biochar
+    names:
+    - Varaha
+    - Carba
+    v: $36M
+    pct: 10% of total
+    w: 19.9
+    logos:
+    - src: ../../assets/logos/varaha.png
+      name: Varaha
+    - src: ../../assets/logos/charm-industrial.png
+      name: Charm Industrial
+    - src: ../../assets/logos/vaulted-deep.png
+      name: Vaulted Deep
+  - name: Land-based removal
+    names:
+    - Living Carbon
+    - Mafix
+    v: $18M
+    pct: 5% of total
+    w: 10.3
+    logos:
+    - src: ../../assets/logos/living-carbon.png
+      name: Living Carbon
+    - src: ../../assets/logos/mafix.png
+      name: Mafix
+    - src: ../../assets/logos/chestnut-carbon.png
+      name: Chestnut Carbon
+  - name: Rock weathering
+    names:
+    - Sequestra
+    - Forge Minerals
+    v: $5M
+    pct: 1% of total
+    w: 2.6
+    logos:
+    - src: ../../assets/logos/sequestra.png
+      name: Sequestra
+    - src: ../../assets/logos/terradot.png
+      name: Terradot
+    - src: ../../assets/logos/44-01.png
+      name: '44.01'

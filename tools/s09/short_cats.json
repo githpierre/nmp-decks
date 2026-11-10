@@ -1,0 +1,225 @@
+{
+ "ai-marketing": {
+  "Marketing Measurement & Attribution": "Ad measurement",
+  "AI Search Visibility & SEO": "AI search visibility",
+  "Campaign & Agentic Marketing Operations": "Agentic campaigns",
+  "AI Advertising & Media Buying": "AI media buying",
+  "AI Marketing Content & Creative": "AI ad creative",
+  "Lifecycle Marketing & Personalization": "Lifecycle marketing"
+ },
+ "digital-banking": {
+  "Consumer neobanks and mobile-first banks": "Consumer neobanks",
+  "SMB and business digital banking": "Business banking",
+  "Segment-specific and cross-border digital banks": "Niche digital banks",
+  "Financial inclusion and emerging-market digital banking": "Emerging-market banks",
+  "Banking-as-a-service and account infrastructure": "Banking-as-a-service",
+  "Digital banking engagement and orchestration": "Bank engagement tools",
+  "Cloud-native core banking and banking platforms": "Core banking software"
+ },
+ "radiopharmaceuticals": {
+  "Alpha-emitting radiotherapeutics": "Alpha emitters",
+  "Medical radioisotopes and generators": "Medical isotopes",
+  "Radiopharmaceutical manufacturing and distribution": "Manufacturing",
+  "Radioligand discovery platforms": "Radioligand discovery",
+  "Targeted beta and other radiotherapeutics": "Beta emitters",
+  "Diagnostic and theranostic radiopharmaceuticals": "Diagnostic tracers"
+ },
+ "cloud-security": {
+  "Cloud data & confidential computing": "Cloud data security",
+  "Cloud detection, response & remediation": "Cloud threat detection",
+  "Cloud-delivered access": "Secure access (SASE)",
+  "Cloud identity & entitlements": "Cloud identity",
+  "SaaS security posture & protection": "SaaS security",
+  "Cloud workload & Kubernetes security": "Workload security"
+ },
+ "identity-security": {
+  "Identity governance and administration": "Identity governance",
+  "Machine and agent identity security": "AI agent identities",
+  "Identity threat defense and posture": "Identity threats",
+  "Customer identity and developer IAM": "Customer login tools",
+  "Privileged access and authorization": "Privileged access",
+  "Secrets, credentials and PKI": "Secrets management"
+ },
+ "application-security": {
+  "Application testing and offensive validation": "AI pentesting",
+  "Application runtime defense": "Runtime protection",
+  "Code testing and AI remediation": "Code scanning",
+  "Software supply chain security": "Supply chain security",
+  "Application risk orchestration": "AppSec risk management",
+  "Integrated AppSec platforms": "All-in-one AppSec"
+ },
+ "cloud-database": {
+  "Real-time analytical and OLAP": "Analytics databases",
+  "Serverless and managed relational": "Managed Postgres",
+  "Database cloud operations": "Hosted databases",
+  "Document, key-value and multimodel": "Document databases",
+  "Vector and AI-native retrieval": "Vector databases",
+  "Distributed SQL and NewSQL": "Distributed SQL"
+ },
+ "cloud-infrastructure": {
+  "Compute & IaaS": "Compute and GPU clouds",
+  "Application PaaS & serverless": "Serverless platforms",
+  "Cloud observability & reliability": "Observability",
+  "Cloud storage & data infrastructure": "Cloud storage",
+  "Cloud networking & edge delivery": "Networking and edge",
+  "Kubernetes & platform operations": "Kubernetes operations"
+ },
+ "anti-obesity-drugs": {
+  "Oral obesity medicines": "Oral obesity pills",
+  "Multi-receptor incretin agonists": "Next-gen GLP-1 combos",
+  "Long-acting injectable obesity drugs": "Long-acting injections",
+  "RNA and gene-based obesity therapies": "RNA and gene therapies",
+  "Rare and genetic obesity therapeutics": "Genetic obesity drugs",
+  "Amylin and satiety hormones": "Amylin drugs"
+ },
+ "in-vivo-car-t": {
+  "Targeted LNP-mRNA CAR-T": "mRNA in vivo CAR-T",
+  "In vivo CAR-myeloid and multi-lineage": "Beyond T cells",
+  "Genome-integrating in vivo CAR-T": "Gene-editing CAR-T",
+  "Targeted lentiviral CAR-T": "Lentiviral CAR-T",
+  "Other in vivo CAR-cell engineering": "Other approaches"
+ },
+ "antibody-drug-conjugate": {
+  "Targeted oncology ADC therapeutics": "Cancer ADCs",
+  "Bispecific and multi-payload ADCs": "Bispecific ADCs",
+  "Novel payload ADCs": "New payload ADCs"
+ },
+ "liquid-biopsy": {
+  "Organ-specific early detection": "Early cancer detection",
+  "Extracellular vesicles and alternative analytes": "New blood markers",
+  "MRD and recurrence monitoring": "Relapse monitoring"
+ },
+ "organ-on-a-chip": {
+  "AI-integrated organ-chip testing": "AI organ-chip testing",
+  "High-throughput screening chips": "High-throughput chips",
+  "Multi-organ and general-purpose platforms": "Multi-organ platforms"
+ },
+ "rwa-tokenization": {
+  "Tokenized funds and Treasuries": "Tokenized Treasuries",
+  "RWA-native networks and distribution": "RWA networks",
+  "Tokenized commodities and environmental assets": "Tokenized commodities",
+  "Institutional issuance and tokenization infrastructure": "Tokenization platforms",
+  "Tokenized equities and digital securities": "Tokenized stocks",
+  "Tokenized credit and receivables": "Tokenized credit"
+ },
+ "b2b-payments": {
+  "Corporate cards and spend payments": "Corporate cards",
+  "Cross-border B2B money movement": "Cross-border payments",
+  "Business payment orchestration and rails": "Payment rails and APIs",
+  "B2B credit and pay-later settlement": "B2B pay later"
+ },
+ "cross-border-b2b-payments": {
+  "Enterprise treasury & FX": "Corporate FX",
+  "Accounts & FX": "Business accounts",
+  "Stablecoin B2B settlement": "Stablecoin settlement",
+  "Exporter & marketplace payments": "Exporter payments",
+  "Emerging-market corridors": "Emerging-market routes",
+  "B2B payment networks": "Payment networks"
+ },
+ "procurement-software": {
+  "Procurement Intake & Orchestration": "Purchase request tools",
+  "Spend Intelligence & Controls": "Spend analytics",
+  "Services Procurement": "Services buying",
+  "Procure-to-Pay": "Procure-to-pay",
+  "Strategic Sourcing": "Strategic sourcing",
+  "Procurement Marketplaces": "B2B marketplaces"
+ },
+ "aec-software": {
+  "Project delivery and site management": "Site and project tools",
+  "Permitting and building code compliance": "Permits and codes",
+  "Architectural design and visualization": "Architectural design",
+  "BIM and AEC data interoperability": "BIM and data tools",
+  "AEC practice and business management": "Firm management",
+  "Engineering design and analysis": "Engineering design"
+ },
+ "contech": {
+  "Construction robotics and site automation": "Construction robots",
+  "Planning, design and preconstruction": "Preconstruction",
+  "Site intelligence, safety and infrastructure": "Site monitoring",
+  "Project, field and workforce software": "Field software",
+  "Construction procurement and supply chain": "Materials buying",
+  "Industrialized and modular construction": "Modular building"
+ },
+ "construction-estimating-software": {
+  "AI takeoff and quantity extraction": "AI takeoff",
+  "Trade-specific estimating": "Trade estimating",
+  "Bid pricing and scope intelligence": "Bid pricing",
+  "End-to-end estimating and bid preparation": "Full estimating suites"
+ },
+ "ai-powered-market-research": {
+  "Synthetic respondents and behavioral simulation": "Synthetic respondents",
+  "AI-moderated qualitative interviews and focus groups": "AI-led interviews",
+  "AI qualitative coding, synthesis and reporting": "Feedback analysis",
+  "AI-powered survey and quantitative research": "AI surveys",
+  "AI creative, concept and advertising pretesting": "Ad pretesting"
+ },
+ "k-beauty": {
+  "Color cosmetics": "Makeup",
+  "K-beauty retail and brand platforms": "Retail and brands",
+  "Skincare and sun care": "Skincare",
+  "Hair and scalp care": "Hair and scalp care",
+  "Fragrance and body care": "Fragrance and body"
+ },
+ "ai-in-insurance": {
+  "AI-native carriers and MGAs": "AI-native insurers",
+  "Insurance distribution and policy intelligence": "Insurance distribution",
+  "Insurance AI agents and operations": "Insurance AI agents",
+  "Underwriting and pricing AI": "AI underwriting",
+  "Claims intelligence and automation": "Claims automation"
+ },
+ "ai-in-banking": {
+  "Bank document and data intelligence": "Banking data analysis",
+  "Banking AI governance and enablement": "AI compliance",
+  "Credit decisioning and underwriting": "Credit decisions",
+  "Banking AI agents and orchestration": "Banking AI agents",
+  "Loan origination and servicing automation": "Loan automation",
+  "Conversational banking and customer service": "AI customer service"
+ },
+ "fraud-prevention": {
+  "Scam, mule and social-engineering prevention": "Scam prevention",
+  "Account integrity, device and identity fraud": "Fake account defense",
+  "Enterprise fraud decisioning and orchestration": "Fraud decision engines",
+  "Commerce, card and chargeback fraud": "Card and chargeback",
+  "Business payment, supplier and logistics fraud": "B2B payment fraud",
+  "Behavioral, voice and account-takeover detection": "Account takeover"
+ },
+ "exposure-management": {
+  "Continuous offensive exposure testing": "Automated pentesting",
+  "Unified exposure assessment and prioritization": "Exposure platforms",
+  "Vulnerability remediation orchestration": "Fix orchestration",
+  "External attack surface management": "Attack surface",
+  "Attack path and reachability analysis": "Attack path analysis",
+  "Cyber asset and exposure intelligence": "Vulnerability intel"
+ },
+ "inspection-robotics": {
+  "Subsea and marine inspection": "Underwater robots",
+  "Autonomous aerial asset inspection": "Inspection drones",
+  "Warehouse and inventory inspection": "Warehouse drones",
+  "Autonomous plant patrol": "Plant patrol robots",
+  "Climbing and contact NDT": "Climbing robots",
+  "Pipe sewer and tunnel inspection": "Pipe and sewer robots"
+ },
+ "ai-personal-assistant": {
+  "General-purpose assistant platforms": "General AI assistants",
+  "Messaging and voice personal agents": "Text and voice agents",
+  "Computer-use and web-task agents": "Computer-use agents",
+  "Executive and productivity assistants": "Work assistants",
+  "Personal memory and context": "Personal memory",
+  "Concierge and delegated errands": "AI concierges"
+ },
+ "ai-toys": {
+  "Character IP and co-creative play": "Character toys",
+  "Social and robotic play companions": "Companion robots",
+  "AI virtual pets and collectible companions": "AI pets",
+  "Conversational plush and character toys": "Talking plush toys",
+  "Therapeutic and comfort play companions": "Comfort companions"
+ },
+ "carbon-removal": {
+  "Bioenergy carbon removal and storage": "Bioenergy with capture",
+  "Marine and freshwater removal": "Ocean removal",
+  "CDR measurement and enabling infrastructure": "Removal verification",
+  "Biochar and durable biomass storage": "Biochar",
+  "Land and ecosystem removal": "Land-based removal",
+  "Enhanced weathering and mineralization": "Rock weathering"
+ }
+}

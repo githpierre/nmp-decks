@@ -1,0 +1,12 @@
+{# S09 investor bets: money raised over the last twelve months by category (top 6), share of total, top startups.
+   s.rows: [{name, names, v (display), pct, logos:[{src|null, name}]}] ; bar width = v / max #}
+<div class="body"><div class="ib">
+  <div class="ib-h"></div><div class="ib-h">Category</div><div class="ib-h">Money raised</div><div class="ib-h"></div><div class="ib-h">Top startups</div>
+  {% for r in s.rows %}
+  <div class="ib-n">{{ '%02d' % loop.index }}</div>
+  <div class="ib-c"><div class="ib-cat">{{ r.name }}</div><div class="ib-co">{{ r.names | join(', ') }}</div></div>
+  <div class="ib-bar"><div class="ib-trk"></div><div class="ib-fill" style="width:{{ r.w }}%"></div><div class="ib-dot" style="left:{{ r.w }}%"></div></div>
+  <div class="ib-v"><div class="ib-amt">{{ r.v }}</div><div class="ib-pct">{{ r.pct }}</div></div>
+  <div class="ib-lg">{% for l in r.logos %}<span class="tile"><img src="{{ l.src }}" alt=""></span>{% endfor %}</div>
+  {% endfor %}
+</div></div>

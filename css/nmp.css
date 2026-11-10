@@ -228,3 +228,26 @@ b,strong{font-weight:700}
 .raw .rx-t p{line-height:1.2;overflow-wrap:break-word;white-space:pre-wrap;text-wrap:balance}
 
 .foot-line,.foot-label,.foot-brand{z-index:5}.slide:not(.cover) .foot-brand{background:var(--bg)}
+
+/* investor bets (S09 of the product pages): category, bar, amount, top startups */
+.ib{display:grid;grid-template-columns:40px auto 192px 104px 118px;column-gap:0;align-items:center}
+.ib-h{font-size:6.5pt;letter-spacing:.42em;text-transform:uppercase;color:var(--muted);padding-bottom:14px}
+.ib-h:nth-child(4){display:none}
+.ib-h:nth-child(3){grid-column:span 2}
+.ib>div:not(.ib-h){height:54px;border-top:1px solid var(--line);display:flex;align-items:center}
+.ib>div:nth-child(-n+10):not(.ib-h){border-top:none}
+.ib-n{font-size:9.5pt;font-weight:700;color:#5b7a86}
+.ib-c{flex-direction:column;align-items:flex-start!important;justify-content:center;padding-right:24px}
+.ib-cat{font-size:11pt;font-weight:700;color:#fff;white-space:nowrap;line-height:1.25}
+.ib-co{font-size:7.5pt;font-style:italic;color:var(--muted);white-space:nowrap;margin-top:3px}
+.ib-bar{position:relative}
+.ib-trk{position:absolute;left:0;right:0;height:10px;border-radius:5px;background:#12435a}
+.ib-fill{position:absolute;left:0;height:10px;border-radius:5px;background:var(--accent)}
+.ib-dot{position:absolute;width:16px;height:16px;margin-left:-8px;border-radius:50%;background:var(--accent)}
+.ib-v{flex-direction:column;align-items:flex-start!important;justify-content:center;padding-left:14px}
+.ib-amt{font-size:11pt;font-weight:700;color:#fff;line-height:1.25}
+.ib-pct{font-size:7.5pt;color:var(--muted);margin-top:3px;white-space:nowrap}
+.ib-lg{gap:8px}
+.ib-lg .tile{flex:0 0 32px;width:32px;height:32px;padding:5px;border-radius:4px;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;overflow:hidden}  /* always square, white, logo inside with a margin (Pierre, 11 Nov 2026) */
+.ib-lg .tile img{width:100%;height:100%;object-fit:contain}
+.slide[data-type=invbets] .body{top:178px;bottom:92px}

@@ -1,0 +1,279 @@
+market: ''
+quarter: S09
+label: ''
+keep_together:
+- AI marketing
+- digital banking
+- radiopharmaceuticals
+slides:
+- type: invbets
+  handle: ai-marketing
+  section: Investor bets
+  title: Where did AI marketing investors put their money this past year?
+  label: AI MARKETING
+  note: We added up every funding round we tracked in AI marketing over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the
+    report.
+  rows:
+  - name: Ad measurement
+    names:
+    - AppsFlyer
+    - Alembic
+    v: $1.2B
+    pct: 44% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/appsflyer.png
+      name: AppsFlyer
+    - src: ../../assets/logos/alembic.png
+      name: Alembic
+    - src: ../../assets/logos/electric-twin.png
+      name: Electric Twin
+  - name: AI search visibility
+    names:
+    - Profound
+    - AirOps
+    v: $567M
+    pct: 21% of total
+    w: 48.0
+    logos:
+    - src: ../../assets/logos/profound-2.png
+      name: Profound
+    - src: ../../assets/logos/airops.png
+      name: AirOps
+    - src: ../../assets/logos/bluefish.png
+      name: Bluefish
+  - name: Agentic campaigns
+    names:
+    - Hightouch
+    - Gradial
+    v: $483M
+    pct: 18% of total
+    w: 40.9
+    logos:
+    - src: ../../assets/logos/hightouch.png
+      name: Hightouch
+    - src: ../../assets/logos/gradial.png
+      name: Gradial
+    - src: ../../assets/logos/different.png
+      name: Different
+  - name: AI media buying
+    names:
+    - Fluency
+    - Gravity
+    v: $228M
+    pct: 8% of total
+    w: 19.3
+    logos:
+    - src: ../../assets/logos/fluency.png
+      name: Fluency
+    - src: ../../assets/logos/gravity.png
+      name: Gravity
+    - src: ../../assets/logos/cloudx.png
+      name: CloudX
+  - name: AI ad creative
+    names:
+    - Flam
+    - Sett
+    v: $129M
+    pct: 5% of total
+    w: 10.9
+    logos:
+    - src: ../../assets/logos/flam.png
+      name: Flam
+    - src: ../../assets/logos/sett.png
+      name: Sett
+    - src: ../../assets/logos/cuttable.png
+      name: Cuttable
+  - name: Lifecycle marketing
+    names:
+    - Queen One
+    - OuterSignal
+    v: $120M
+    pct: 4% of total
+    w: 10.1
+    logos:
+    - src: ../../assets/logos/queen-one.png
+      name: Queen One
+    - src: ../../assets/logos/outersignal.png
+      name: OuterSignal
+    - src: ../../assets/logos/justai.png
+      name: JustAI
+- type: invbets
+  handle: digital-banking
+  section: Investor bets
+  title: Where did digital banking investors put their money this past year?
+  label: DIGITAL BANKING
+  note: We added up every funding round we tracked in digital banking over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of
+    the report.
+  rows:
+  - name: Consumer neobanks
+    names:
+    - Plata
+    - Wealthsimple
+    v: $1.2B
+    pct: 34% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/plata.png
+      name: Plata
+    - src: ../../assets/logos/wealthsimple.png
+      name: Wealthsimple
+    - src: ../../assets/logos/uala.png
+      name: Ualá
+  - name: Business banking
+    names:
+    - Mercury
+    - Allica Bank
+    v: $808M
+    pct: 23% of total
+    w: 66.3
+    logos:
+    - src: ../../assets/logos/mercury.png
+      name: Mercury
+    - src: ../../assets/logos/allica-bank.png
+      name: Allica Bank
+    - src: ../../assets/logos/flex.png
+      name: Flex
+  - name: Niche digital banks
+    names:
+    - Erebor
+    - Mal
+    v: $690M
+    pct: 19% of total
+    w: 56.6
+    logos:
+    - src: ../../assets/logos/erebor.png
+      name: Erebor
+    - src: ../../assets/logos/kast.png
+      name: KAST
+    - src: ../../assets/logos/trade-republic.png
+      name: Trade Republic
+  - name: Emerging-market banks
+    names:
+    - OPay
+    - Fasset
+    v: $364M
+    pct: 10% of total
+    w: 29.9
+    logos:
+    - src: ../../assets/logos/opay.png
+      name: OPay
+    - src: ../../assets/logos/carbon.png
+      name: Carbon
+    - src: ../../assets/logos/fi-money.png
+      name: Fi Money
+  - name: Banking-as-a-service
+    names:
+    - Augustus
+    - Cross River Bank
+    v: $230M
+    pct: 6% of total
+    w: 18.9
+    logos:
+    - src: ../../assets/logos/cross-river-bank.png
+      name: Cross River Bank
+    - src: ../../assets/logos/solaris.png
+      name: Solaris
+    - src: ../../assets/logos/clearbank.png
+      name: ClearBank
+  - name: Bank engagement tools
+    names:
+    - Lumin Digital
+    v: $115M
+    pct: 3% of total
+    w: 9.4
+    logos:
+    - src: ../../assets/logos/lumin-digital.png
+      name: Lumin Digital
+    - src: ../../assets/logos/backbase.png
+      name: Backbase
+    - src: ../../assets/logos/ebankit.png
+      name: ebankIT
+- type: invbets
+  handle: radiopharmaceuticals
+  section: Investor bets
+  title: Where did radiopharmaceuticals investors put their money this past year?
+  label: RADIOPHARMACEUTICALS
+  note: We added up every funding round we tracked in radiopharmaceuticals over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end
+    of the report.
+  rows:
+  - name: Alpha emitters
+    names:
+    - Aktis
+    - AdvanCell
+    v: $789M
+    pct: 42% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/aktis-oncology.png
+      name: Aktis
+    - src: ../../assets/logos/advancell.png
+      name: AdvanCell
+    - src: ../../assets/logos/full-life-technologies.png
+      name: Full-Life
+  - name: Medical isotopes
+    names:
+    - Nusano
+    - SHINE
+    v: $699M
+    pct: 37% of total
+    w: 88.6
+    logos:
+    - src: ../../assets/logos/nusano.png
+      name: Nusano
+    - src: ../../assets/logos/shine-technologies.png
+      name: SHINE
+    - src: ../../assets/logos/chengdu-new-radiomedicine-technology-nrt.png
+      name: New Radiomedicine
+  - name: Manufacturing
+    names:
+    - SpectronRx
+    - Nucleus RadioPharma
+    v: $135M
+    pct: 7% of total
+    w: 17.1
+    logos:
+    - src: ../../assets/logos/spectronrx.png
+      name: SpectronRx
+    - src: ../../assets/logos/nucleus-radiopharma.png
+      name: Nucleus RadioPharma
+    - src: ../../assets/logos/c-ray-therapeutics.png
+      name: C Ray
+  - name: Radioligand discovery
+    names:
+    - Ratio
+    - Starget Pharma
+    v: $102M
+    pct: 5% of total
+    w: 12.9
+    logos:
+    - src: ../../assets/logos/ratio-therapeutics.png
+      name: Ratio
+    - src: ../../assets/logos/starget-pharma.png
+      name: Starget Pharma
+  - name: Beta emitters
+    names:
+    - Bivision
+    v: $56M
+    pct: 3% of total
+    w: 7.1
+    logos:
+    - src: ../../assets/logos/radionetics-oncology.png
+      name: Radionetics
+    - src: ../../assets/logos/blue-earth-therapeutics.png
+      name: Blue Earth
+    - src: ../../assets/logos/actithera.png
+      name: Actithera
+  - name: Diagnostic tracers
+    names:
+    - NUCLIDIUM
+    v: $30M
+    pct: 2% of total
+    w: 3.8
+    logos:
+    - src: ../../assets/logos/nuclidium.png
+      name: NUCLIDIUM
+    - src: ../../assets/logos/sinotau-pharmaceutical-group.png
+      name: Sinotau Pharmaceutical Group
+    - src: ../../assets/logos/imaginab.png
+      name: ImaginAb
