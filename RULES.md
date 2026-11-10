@@ -119,6 +119,16 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
   first with `tools/try_texts.py` (it reports lines, balance and fill for each candidate; keep the best).
   Audit thresholds: same line count in a group; balance <= 12 % (2 lines) / 25 % (3-4 lines); fill >= 70 %.
 
+## Atelier « 100 améliorations » (10 Nov 2026)
+- Pierre veut un atelier où chaque point moche du deck est montré : l'actuel + 3 variantes dont Claude est convaincu qu'elles sont
+  toutes plus jolies (pas de variante au hasard), Oui/Non par variante, choix de Claude encadré en vert, bandeau jaune.
+- Quand un format se répète (sommaire, intercalaires, matrices de priorité…), la variante s'applique à toutes les slides qui le
+  partagent ; la page le dit sous chaque titre.
+- Outil : tools/atelier2/ (items.py = les points et leurs variantes en CSS/JS injectés sur le vrai deck ; lib.js = helpers ;
+  icons.json = emojis -> icônes Lucide / Phosphor ; shoot.py = captures ; make_page.py = page).
+- Bug corrigé au passage : les libellés espacés à la main (« W H Y    I T ») deviennent un texte normal + letter-spacing,
+  sinon le navigateur colle les mots (« WHYITMATTERS »).
+
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
    that LLM does the research AND returns the final JSON/CSV in the same answer (never research first, then a second "go").

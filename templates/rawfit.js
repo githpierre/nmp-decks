@@ -9,12 +9,12 @@
       const tw = document.createTreeWalker(p, NodeFilter.SHOW_TEXT), nodes = []; let nd;
       while ((nd = tw.nextNode())) nodes.push(nd);
       nodes.forEach(t => { const f = document.createDocumentFragment();
-        t.textContent.replace(/(\$?£?€?[\d.,]+\+?) (billion|million|trillion|thousand|percent|hours?|years?|days?|weeks?|months?|minutes?)\b/gi, '$1\u00a0$2').split(/( +)/).forEach(s => { if (!s) return; if (/^ +$/.test(s)) f.appendChild(document.createTextNode(' '));
+        t.textContent.replace(/(\$?£?€?[\d.,]+\+?) (billion|million|trillion|thousand|percent|hours?|years?|days?|weeks?|months?|minutes?)\b/gi, '$1\u00a0$2').split(/( +)/).forEach(s => { if (!s) return; if (/^ +$/.test(s)) f.appendChild(document.createTextNode(s));
           else { const w = document.createElement('span'); w.className = 'fw'; w.textContent = s; f.appendChild(w); } });
         t.replaceWith(f); });
       const segs = []; let cur = null, sp = null;
       const walk = n => n.childNodes.forEach(c => {
-        if (c.nodeType === 3) { if (c.textContent === ' ') { sp = c; cur = null; } }
+        if (c.nodeType === 3) { if (/^ +$/.test(c.textContent)) { sp = c; cur = null; } }
         else if (c.classList && c.classList.contains('fw')) { if (!cur) { cur = {spans: [], sp}; segs.push(cur); sp = null; } cur.spans.push(c); }
         else walk(c); });
       walk(p); p._segs = segs;

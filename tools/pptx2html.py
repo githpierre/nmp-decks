@@ -166,6 +166,8 @@ def runs_html(p, theme, scale):
                 if 'SemiBold' in tf: st.append('font-weight:600')
                 if tf.startswith('Montserrat'): st.append('font-family:Montserrat')
                 elif tf.startswith('Arial'): st.append('font-family:Arial,sans-serif')
+        if re.fullmatch(r'(?:[A-Z0-9&.\-] ){3,}[A-Z0-9&.\-]|(?:(?:[A-Z0-9&.\-] )+[A-Z0-9&.\-] {2,})+(?:[A-Z0-9&.\-] )*[A-Z0-9&.\-]', tx.strip()):
+            tx = unspace(tx); st.append('letter-spacing:.42em')   # 'W H Y    I T' -> 'WHY IT' + letter spacing (spaces were the spacing)
         tx = esc(tx).replace('\x0b', ' ').replace('\n', ' ')   # manual line breaks dropped: the browser balances the lines
         out.append(f'<span style="{";".join(st)}">{tx}</span>' if st else tx)
     return ''.join(out)
