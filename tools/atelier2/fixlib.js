@@ -130,7 +130,12 @@ window.F = (() => {
 
   // labels stuck to a vertical pink bar get the same 12 px gap as slide 143 (Pierre, 11 Nov, fix 32)
   const barGap = sl => { const bars = A.shapes(sl).filter(s => vis(s.el) && s.fill && s.fill.toUpperCase() === C.pink && s.h > 150 && s.w < 30);
-    bars.forEach(b => A.texts(sl).forEach(t => { const g = t.x - (b.x + b.w); if (t.w < 100 && g >= -2 && g < 6 && t.cy > b.y && t.cy < b.y + b.h) { t.el.style.left = (b.x + b.w + 12) + 'px'; mark('barGap', sl); } })); };
+    bars.forEach(b => { const R = b.x + b.w, labs = A.texts(sl).filter(t => t.w < 100 && t.x - R >= -2 && t.x - R < 6 && t.cy > b.y && t.cy < b.y + b.h); if (!labs.length) return;
+      const lr = Math.max(...labs.map(t => t.x + t.w)), d = R + 7 - Math.min(...labs.map(t => t.x));
+      labs.forEach(t => { t.el.style.left = (t.x + d) + 'px'; });
+      A.hide(A.shapes(sl).filter(s => s.line && Math.abs(s.x - b.x) < 3 && s.w < 40 && s.h < 20));   // the little ticks would now show as dashes before the labels
+      A.texts(sl).filter(t => !labs.includes(t) && t.x >= lr - 2 && t.cy > b.y - 20 && t.cy < b.y + b.h + 20).forEach(t => { t.el.style.left = (t.x + d + 6) + 'px'; });   // the texts on the right keep (and widen) their gap
+      mark('barGap', sl); }); };
 
   // generic rules, every raw slide
   const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats, barGap].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };

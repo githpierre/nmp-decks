@@ -66,14 +66,14 @@
   21: {text: "They lead online K-12 schools in the US, with $2.52B of revenue in a year"}
 
 22:  # 4 lines each (Pierre, 10 Nov 23h)
-  6: {lines: 4}
-  7: {lines: 4}
-  8: {lines: 4}
-  9: {lines: 4}
-  10: {lines: 4}
-  11: {lines: 4}
-  12: {lines: 4}
-  13: {lines: 4}
+  6: {lines: 4, pad: 6}
+  7: {lines: 4, pad: 6}
+  8: {lines: 4, pad: 6}
+  9: {lines: 4, pad: 6}
+  10: {lines: 4, pad: 6}
+  11: {lines: 4, pad: 6}
+  12: {lines: 4, pad: 6}
+  13: {lines: 4, pad: 6}
 
 23:  # right texts: 2-3 more words, balanced; red crosses at 80 %
   6: {join: true}
@@ -337,3 +337,23 @@
 51:
   15: {text: "BEST CASE ≈ 14%"}
   16: {text: "WORST CASE ≈ 7%"}
+
+# 11 Nov (fix 30): card texts above a bottom badge: 4 lines max, centred, a little higher
+101:
+  6: {lines: 4, pad: 6}
+  8: {lines: 4, pad: 6}
+  10: {lines: 4, pad: 6}
+  12: {lines: 4, pad: 6}
+  14: {lines: 4, pad: 6}
+  16: {lines: 4, pad: 6}
+  18: {lines: 4, pad: 6}
+  20: {lines: 4, pad: 6}
+102:
+  6: {lines: 4, pad: 6}
+  8: {lines: 4, pad: 6}
+  10: {lines: 4, pad: 6}
+  12: {lines: 4, pad: 6}
+  14: {lines: 4, pad: 6}
+  16: {lines: 4, pad: 6}
+  18: {lines: 4, pad: 6}
+  20: {lines: 4, pad: 6}

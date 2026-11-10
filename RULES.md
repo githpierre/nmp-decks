@@ -204,3 +204,44 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
 - S12 winner: 6 or 7 criteria, 5 or 6 companies.
 - S10 grid: positions mean something (biggest raiser on the left inside its stage), never random.
 - Visual audit by Claude of every slide before sending, on top of the script.
+
+## Checklist d'audit visuel d'un deck (process, 11 Nov 2026 — à passer sur CHAQUE deck, tous marchés)
+Appliquée automatiquement par tools/atelier2/fixlib.js (règles générales), build.py (typographie) et tools/atelier2/fixes.py (correctifs par type). Avant de livrer un deck, repasser cette liste slide par slide.
+
+Typographie (build.py, toutes les slides, modèles ET converties)
+1. Montants collés : « $192B », « $1.3M », jamais « $ 192 B ».
+2. Pourcentages collés : « 5% », « ≈35% » (le ≈ colle aussi au chiffre).
+3. Régions avec trait d'union sans espaces : « ASIA-PACIFIC ».
+4. Lien souligné : jamais souligné sur l'espace final.
+5. Notes de bas de slide : deux phrases jamais collées sans point (« …phases. These… »).
+6. Un segment porte le même nom partout (ex. DIGITAL CREDENTIALING : intercalaire, sous-titres, tableaux, cartes).
+
+Mise en page
+7. Même type de slide = même modèle partout (matrices de priorité, frises datées 1/2 et 2/2, lignes « regular vs startup » 210-214…). Une slide convertie qui a un modèle passe sur le modèle (le convertisseur détecte les matrices +/++/+++).
+8. Cartes : arrondies, trait gris-bleu #334D54 ; pas de cadres carrés à bord clair.
+9. Texte d'une carte centré verticalement ; avec une pastille en bas de carte : 4 lignes max, centré dans l'espace au-dessus de la pastille.
+10. Pastille d'icône d'une carte : ronde, icône au trait, centrée sur le bord BAS (le haut porte le titre) ; jamais un emoji à cheval sur un coin.
+11. Pastille numérotée + texte centrés ensemble, 8 px d'écart.
+12. Titres de catégories dans les cartes : toujours sur 2 lignes (un nom d'un mot en reçoit un second).
+13. Cartes d'une même rangée alignées au pixel ; titres alignés sur leur carte.
+14. Étiquettes le long d'une barre rose verticale : ~7 px de la barre, et les textes de droite gardent leur écart (on les décale d'autant).
+15. Étiquette posée sur une ligne de grille : centrée sur la ligne, fond navy pour couper la ligne ; étiquette posée sur des points/barres : fond navy (pastille).
+16. Un texte ne déborde jamais de sa boîte et n'est jamais écrit à la verticale (« 33% ») ; « nom + valeur » : nom sur une ligne, valeur sur la suivante.
+17. Taille de texte homogène entre éléments frères (une bulle à 6 pt au milieu de bulles à 11 pt = défaut).
+18. Axes de graphique : années sous l'axe, jamais au-dessus des courbes.
+19. Points d'un graphique / radar qui représentent des sociétés : reliés à leur étiquette.
+20. Flèches : une flèche refaite relie exactement les deux éléments de l'original ; elle part d'un bord, arrive au milieu d'un bord, pointe rose identique, ne coupe jamais une bulle.
+21. Logos : tuile blanche, logo à 66 % (marge blanche), coins arrondis, fin contour clair.
+22. Rose : jamais en trait fin ni en texte fin sur navy ; en aplat ou épais (bord gauche 4 px, signe ≠ en gras, cadre 5 px).
+
+À NE PAS toucher (Pierre a tranché, ne plus proposer)
+- Espace au bout des connecteurs, ligne d'arbre qui dépasse ses branches.
+- En-têtes de colonnes des slides modèles dans la couleur des traits.
+- Emoji 🤬 grisé des slides « maximum customer value ».
+- Tête de la slide 152 derrière le pied de page.
+- ✕ roses posés sur le rebord des cases (slide 23) ; flèche ↔ au-dessus des barres (slide 164) : ils structurent.
+- Refontes des formats qu'il a dessinés (arbre « Qui paie », intercalaires, expérience client).
+
+Process de revue
+- Chaque erreur trouvée = une règle écrite ici + appliquée par script à tous les decks, pas une retouche ponctuelle.
+- Pages de revue : 2e tour et suivants, ne montrer que ce que Pierre doit revoir ; le validé disparaît.
