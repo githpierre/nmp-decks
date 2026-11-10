@@ -32,7 +32,7 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   if (T === 'pp_killers' || T === 'pp_survivors') { const c = s.querySelectorAll('.pp-kn, .pp-sl').length / (T === 'pp_survivors' ? 2 : 1); if (c < 5) add('KILLERS_ROWS', c); }
   if (T === 'pp_winner') { const c = s.querySelectorAll('.pp-wc').length, k = s.querySelectorAll('.pp-wn').length; if (c < 6 || c > 7) add('WINNER_ROWS', c); if (k < 5 || k > 6) add('WINNER_COLS', k); }
   if (T === 'pp_risks') s.querySelectorAll('.pp-rt').forEach(e => { if (lines(e) !== 3) add('RISK_LINES', lines(e) + ' ' + e.innerText.slice(0, 30)); });
-  if (T === 'pp_value') s.querySelectorAll('.pp-vg').forEach(g => { const p = g.querySelector('p'), c = g.querySelector('.pp-vcard'); const over = R(p).width - R(c).width; if (over > 40) add('VALUE_LABEL', p.innerText.slice(0, 30) + ' +' + Math.round(over)); });
+  if (T === 'pp_value') s.querySelectorAll('.pp-vg').forEach(g => { const p = g.querySelector('p'), c = g.querySelector('.pp-vcard'); const over = R(p).width - R(c).width; if (over > 75) add('VALUE_LABEL', p.innerText.slice(0, 30) + ' +' + Math.round(over)); });
   if (T === 'pp_drivers') s.querySelectorAll('.pp-dt').forEach(e => { const col = e.getBoundingClientRect(); const push = [...s.querySelectorAll('.pp-dp')].find(p => Math.abs(R(p).top - col.top) < 12 && R(p).left > col.left); if (push && R(push).left - col.right < 8) add('DRIVER_TEXT_LONG', e.innerText.slice(0, 30)); });
 });
 return out; }"""
