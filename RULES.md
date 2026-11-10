@@ -79,6 +79,8 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 - "What is the X market, in simple terms?": keep Pierre's design (framed sentence with two icons). All 12 alternatives rejected.
 - Colours, for every new design: never pink text on the navy background; always a colour hierarchy (not every piece of text in white);
   never mix white and sand/yellow inside one text; respect the side margins (no block as wide as 840 px; stay within the usual width).
+- Map lines, start (workshop 6, M1, 6/6): always from the MIDDLE of the text edge facing the dot (under the last line, above the title,
+  or the side of the middle line). Default `line_start: middle`.
 - Map lines: rounded elbows ("coudes arrondis"). They start almost touching the text (4 px, within the text's width) and end
   on the dot's axis, 3 px from its edge (horizontal arrival when the line comes from above or below, vertical when it comes from the side).
 

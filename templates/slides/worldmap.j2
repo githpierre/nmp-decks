@@ -9,7 +9,7 @@
 <svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
 {% for k,r in s.regions.items() %}{% set d = [r.pct * 0.89, 5] | max %}
 <div class="dot" data-k="{{ k }}" style="left:{{ P[k].dot[0] - d/2 }}px;top:{{ P[k].dot[1] - d/2 }}px;width:{{ d }}px;height:{{ d }}px"></div>
-<div class="reg" data-k="{{ k }}" data-start="{{ r.start or s.line_start or 'corner' }}" data-end="{{ r.end or s.line_end or 'auto' }}" data-bend="{{ r.bend or s.line_bend or 0.67 }}" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ s.widths[k] if s.widths and s.widths[k] else P[k].box[2] }}px"><h4>{{ r.name or P[k].name }} - {{ r.pct }}%</h4><p>{{ r.text | md }}</p></div>{% endfor %}
+<div class="reg" data-k="{{ k }}" data-start="{{ r.start or s.line_start or 'middle' }}" data-end="{{ r.end or s.line_end or 'auto' }}" data-bend="{{ r.bend or s.line_bend or 0.67 }}" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ s.widths[k] if s.widths and s.widths[k] else P[k].box[2] }}px"><h4>{{ r.name or P[k].name }} - {{ r.pct }}%</h4><p>{{ r.text | md }}</p></div>{% endfor %}
 <script>
 /* Map leader lines (dotted). Per region (deck.yaml) or per slide (line_start / line_end / line_bend):
    start: corner = the text corner nearest the dot | middle = middle of the text edge facing the dot | side = side of the middle line

@@ -2,21 +2,21 @@
  "sections": [
   {
    "kind": "juge",
-   "id": "M1",
-   "title": "Carte : Départ sur le texte",
-   "short": "Départ sur le texte",
-   "change": "l’endroit où la ligne quitte le texte. L’arrivée sur le point et la forme du virage restent les mêmes.",
+   "id": "M2",
+   "title": "Carte : Arrivée sur le point",
+   "short": "Arrivée sur le point",
+   "change": "la façon dont la ligne touche le point. Le départ (milieu du bord, ton choix M1) et la forme du virage restent les mêmes.",
    "variants": {
-    "A": "au coin du texte le plus proche du point",
-    "B": "au milieu du bord tourné vers le point",
-    "C": "sur le côté, à la ligne du milieu"
+    "A": "arrive à l’horizontale, sur le côté du point",
+    "B": "arrive à la verticale, par le haut ou le bas",
+    "C": "arrive tout droit vers le centre"
    },
-   "rule": "Ma règle de départ : partir du coin du texte le plus proche du point ; du milieu quand le point est en face du milieu ; du côté quand le point est à côté du texte.",
+   "rule": "Ma règle de départ : arriver à angle droit par rapport au départ (un vrai coude). La ligne part vers le bas ou le haut : elle arrive à l’horizontale. Elle part sur le côté : elle arrive à la verticale.",
    "cases": [
     {
      "name": "North America : le point est sous le texte, à droite",
      "mine": "A",
-     "why": "Le coin le plus proche donne la ligne la plus courte, elle part juste sous « based there. » et descend vers le point.",
+     "why": "La ligne descend du milieu du texte puis entre dans le point à l’horizontale : un vrai coude, élégant. Par le haut, elle fait un S.",
      "n": {
       "A": 1,
       "B": 2,
@@ -25,8 +25,8 @@
     },
     {
      "name": "Europe : le point est sous le texte, côté gauche",
-     "mine": "B",
-     "why": "Ici le point est presque sous le milieu du texte : partir du milieu donne une ligne courte et droite. Le coin gauche fait un détour.",
+     "mine": "A",
+     "why": "Elle descend puis tourne vers le point et l’attaque par le côté. Les deux autres font un S ou une diagonale.",
      "n": {
       "A": 4,
       "B": 5,
@@ -36,7 +36,7 @@
     {
      "name": "Asia-Pacific : le point est en bas à gauche du texte",
      "mine": "A",
-     "why": "Le coin gauche du texte est juste au-dessus du point : ligne courte. Partir du milieu ou du côté allonge la ligne pour rien.",
+     "why": "Elle descend un peu puis file à l’horizontale vers le point : propre. C (vers le centre) est correct mais plus mou.",
      "n": {
       "A": 7,
       "B": 8,
@@ -46,7 +46,7 @@
     {
      "name": "Latin America : le point est à droite du texte, un peu plus haut",
      "mine": "B",
-     "why": "Le point est à côté du texte : partir du côté, à la ligne du milieu, se lit naturellement. Partir du titre (A, C) fait croire que la ligne prolonge le titre.",
+     "why": "Ici la ligne part sur le côté du texte : elle doit donc arriver par le bas, à la verticale, pour faire un coude. À l’horizontale, elle ferait un S.",
      "n": {
       "A": 10,
       "B": 11,
@@ -56,7 +56,7 @@
     {
      "name": "Middle East & Africa : le point est au-dessus du titre",
      "mine": "A",
-     "why": "Le coin gauche du titre est le plus près du point : la ligne monte puis entre dans le point. Depuis le milieu, elle repart en arrière.",
+     "why": "La ligne monte du milieu du titre puis entre dans le point par le côté. Par le bas, elle ferait un S serré.",
      "n": {
       "A": 13,
       "B": 14,
@@ -66,7 +66,7 @@
     {
      "name": "North America, texte long : le point est loin sous le texte",
      "mine": "A",
-     "why": "Texte long, point loin dessous : le coin reste le plus court. Depuis le milieu, la ligne traverse la moitié de la carte.",
+     "why": "Comme le cas 1 : longue descente puis entrée horizontale dans le point.",
      "n": {
       "A": 16,
       "B": 17,
@@ -78,21 +78,21 @@
   },
   {
    "kind": "juge",
-   "id": "M2",
-   "title": "Carte : Arrivée sur le point",
-   "short": "Arrivée sur le point",
-   "change": "la façon dont la ligne touche le point. Le départ et la forme du virage restent les mêmes.",
+   "id": "M3",
+   "title": "Carte : Forme du virage",
+   "short": "Forme du virage",
+   "change": "la forme du virage. Départ (milieu du bord) et arrivée (à angle droit) restent les mêmes.",
    "variants": {
-    "A": "arrive à l’horizontale, sur le côté du point",
-    "B": "arrive à la verticale, par le haut ou le bas",
-    "C": "arrive tout droit vers le centre"
+    "A": "coude serré",
+    "B": "coude arrondi (actuel)",
+    "C": "courbe douce"
    },
-   "rule": "Ma règle de départ : arriver à l’horizontale sur le côté du point ; par le bas ou le haut quand il n’y a pas la place sur le côté.",
+   "rule": "Ma règle de départ : coude arrondi ; courbe douce quand la ligne est longue et presque horizontale.",
    "cases": [
     {
      "name": "North America : le point est sous le texte, à droite",
-     "mine": "A",
-     "why": "Arrivée à l’horizontale : un vrai coude arrondi, le point est touché sur son côté, bien dans l’axe.",
+     "mine": "B",
+     "why": "Le coude arrondi est net sans être cassant. Le serré fait presque un angle droit, le doux devient une diagonale.",
      "n": {
       "A": 19,
       "B": 20,
@@ -101,8 +101,8 @@
     },
     {
      "name": "Europe : le point est sous le texte, côté gauche",
-     "mine": "A",
-     "why": "Même logique : la ligne descend puis entre dans le point à l’horizontale. L’arrivée par le haut donne un S inutile.",
+     "mine": "B",
+     "why": "Même chose : « je descends, puis je vais au point ».",
      "n": {
       "A": 22,
       "B": 23,
@@ -111,8 +111,8 @@
     },
     {
      "name": "Asia-Pacific : le point est en bas à gauche du texte",
-     "mine": "A",
-     "why": "La ligne file à l’horizontale vers le point : propre. Les deux autres font un S ou une diagonale molle.",
+     "mine": "B",
+     "why": "Le coude arrondi suit le bas du texte puis va au point ; la courbe douce coupe en diagonale.",
      "n": {
       "A": 25,
       "B": 26,
@@ -121,8 +121,8 @@
     },
     {
      "name": "Latin America : le point est à droite du texte, un peu plus haut",
-     "mine": "A",
-     "why": "Point à droite du texte : l’arrivée à l’horizontale continue la ligne. Par le bas, elle tourne au dernier moment.",
+     "mine": "C",
+     "why": "Ici la ligne est longue et presque horizontale : la courbe douce glisse jusqu’au point, le coude fait une petite marche.",
      "n": {
       "A": 28,
       "B": 29,
@@ -132,7 +132,7 @@
     {
      "name": "Middle East & Africa : le point est au-dessus du titre",
      "mine": "B",
-     "why": "Ici j’hésite : le point est juste au-dessus du départ, il n’y a pas la place d’arriver sur le côté. La ligne monte et entre par le bas, tout simplement.",
+     "why": "Ligne courte : le coude arrondi suffit ; le serré fait un angle.",
      "n": {
       "A": 31,
       "B": 32,
@@ -141,88 +141,12 @@
     },
     {
      "name": "North America, texte long : le point est loin sous le texte",
-     "mine": "A",
-     "why": "Comme le cas 1 : longue descente puis entrée horizontale dans le point.",
+     "mine": "B",
+     "why": "Longue ligne : le coude arrondi reste lisible ; le doux part en biais trop tôt.",
      "n": {
       "A": 34,
       "B": 35,
       "C": 36
-     }
-    }
-   ],
-   "zoom": "region"
-  },
-  {
-   "kind": "juge",
-   "id": "M3",
-   "title": "Carte : Forme du virage",
-   "short": "Forme du virage",
-   "change": "la forme du virage. Départ et arrivée restent les mêmes.",
-   "variants": {
-    "A": "coude serré",
-    "B": "coude arrondi (actuel)",
-    "C": "courbe douce"
-   },
-   "rule": "Ma règle de départ : coude arrondi ; courbe douce quand la ligne est presque horizontale (ou presque verticale).",
-   "cases": [
-    {
-     "name": "North America : le point est sous le texte, à droite",
-     "mine": "B",
-     "why": "Le coude arrondi est net sans être cassant. Le coude serré fait un angle, la courbe douce devient une diagonale.",
-     "n": {
-      "A": 37,
-      "B": 38,
-      "C": 39
-     }
-    },
-    {
-     "name": "Europe : le point est sous le texte, côté gauche",
-     "mine": "B",
-     "why": "Même chose : le coude arrondi garde l’idée « je descends, puis je vais au point ».",
-     "n": {
-      "A": 40,
-      "B": 41,
-      "C": 42
-     }
-    },
-    {
-     "name": "Asia-Pacific : le point est en bas à gauche du texte",
-     "mine": "B",
-     "why": "Le coude arrondi suit le bas du texte puis va au point ; la courbe douce coupe en diagonale.",
-     "n": {
-      "A": 43,
-      "B": 44,
-      "C": 45
-     }
-    },
-    {
-     "name": "Latin America : le point est à droite du texte, un peu plus haut",
-     "mine": "C",
-     "why": "Ici la ligne est presque horizontale : un coude ferait une marche d’escalier. La courbe douce glisse jusqu’au point.",
-     "n": {
-      "A": 46,
-      "B": 47,
-      "C": 48
-     }
-    },
-    {
-     "name": "Middle East & Africa : le point est au-dessus du titre",
-     "mine": "B",
-     "why": "Ligne courte et presque verticale : le coude arrondi suffit, les trois se ressemblent beaucoup.",
-     "n": {
-      "A": 49,
-      "B": 50,
-      "C": 51
-     }
-    },
-    {
-     "name": "North America, texte long : le point est loin sous le texte",
-     "mine": "B",
-     "why": "Longue ligne : le coude arrondi reste lisible ; le serré fait un angle droit, le doux part en biais trop tôt.",
-     "n": {
-      "A": 52,
-      "B": 53,
-      "C": 54
      }
     }
    ],
