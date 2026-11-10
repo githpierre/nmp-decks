@@ -1,7 +1,13 @@
 {% set mx = s.bars | map(attribute='v') | max %}
-<div class="body" style="flex-direction:column;gap:14px">
+<div class="body" style="flex-direction:column;gap:14px"><div class="proj-wrap" style="display:flex;flex-direction:column;align-items:center;gap:14px">
   <p class="proj-intro" style="width:452px">{{ s.intro | nl }}</p>
-  <div class="vbars" style="gap:12px;height:250px">{% for b in s.bars %}<div class="col"><div class="v">$ {{ b.v }} B</div><div class="bar" style="width:44px;height:{{ (b.v / mx * 200) | round }}px"></div><div class="x">{{ b.x }}</div></div>{% endfor %}</div>
-  <div style="width:614px;border-top:1px dashed #789096"></div>
+  <div class="vbars" style="gap:12px;height:250px">{% for b in s.bars %}<div class="col {{ 'last' if loop.last }}"><div class="v">$ {{ b.v }} B</div><div class="bar" style="width:44px;height:{{ (b.v / mx * 200) | round }}px"></div><div class="x">{{ b.x }}</div></div>{% endfor %}</div>
+  <div class="axis-arrow" style="width:614px"></div>
   <div class="cagr">{{ s.cagr }}</div>
-</div>
+  <svg class="pa"></svg>
+  <script>(() => { const w = document.currentScript.parentElement, W = w.getBoundingClientRect(), svg = w.querySelector('svg.pa');
+    const p = w.querySelector('.proj-intro').getBoundingClientRect(), v = w.querySelector('.col.last .v').getBoundingClientRect();
+    const sx = p.right - W.left + 12, sy = p.top - W.top + 8, ex = v.left + v.width / 2 - W.left, ey = v.top - W.top - 6;
+    svg.innerHTML = `<path d="M${sx} ${sy} H${ex} V${ey}" stroke="#789096" stroke-width="1" fill="none"/><path d="M${ex - 4} ${ey - 7} L${ex} ${ey} L${ex + 4} ${ey - 7}" stroke="#789096" stroke-width="1" fill="none"/>`;
+  })();</script>
+</div></div>

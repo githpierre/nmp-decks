@@ -1,0 +1,49 @@
+market: Atelier
+label: EdTech market
+quarter: workshop
+year: 2026
+slug: atelier
+chapters: []
+slides:
+- {type: cover, tag: A1, image: ../edtech/media/cover.jpg, big: "EdTech\nmarket", disc_style: "width:300px;bottom:17px", disclaimer: &D "This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance."}
+- {type: cover, tag: A2, image: ../edtech/media/cover.jpg, big: "EdTech\nmarket", disc_style: "width:250px;bottom:17px", disclaimer: *D}
+- {type: cover, tag: A3, image: ../edtech/media/cover.jpg, big: "EdTech\nmarket", disc_style: "width:300px;bottom:22px;font-size:6.5pt;line-height:1.5", disclaimer: *D}
+- {type: cover, tag: A4, image: ../edtech/media/cover.jpg, big: "EdTech\nmarket", disc_style: "width:210px;bottom:17px;font-size:6.5pt", disclaimer: *D}
+- type: definition
+  tag: B1
+  section: Market definition
+  title: "What is the EdTech market,\nin simple terms?"
+  text: The EdTech market is the software, apps, and online services that schools, companies, and learners pay for to teach, learn, test, and certify new skills
+  note:
+    - We often use a conversational tone, which may sometimes sound a bit informal
+    - We do it on purpose, because it reduces cognitive load and makes slides easier
+- type: definition
+  tag: B2
+  section: Market definition
+  title: "What is the EdTech market,\nin simple terms?"
+  text: The EdTech market is the software, apps, and online services that schools, companies, and learners pay for to teach, learn, test, and certify new skills
+  note:
+    - Our tone is often conversational, so it may sometimes sound a bit informal
+    - We chose it on purpose, because it makes every slide easier to follow
+- type: definition
+  tag: B3
+  section: Market definition
+  title: "What is the EdTech market,\nin simple terms?"
+  text: The EdTech market is the software, apps, and online services that schools, companies, and learners pay for to teach, learn, test, and certify new skills
+  note: "You may notice that we often use a conversational tone, which may sometimes sound a bit informal. This is intentional: we believe it reduces cognitive load and makes the content easier to follow."
+- &T
+  type: dated
+  tag: C1
+  variant: v1
+  section: Market definition
+  title: "What has changed\n(very) recently?"
+  page: 1/2
+  items:
+    - {d: SINCE 2020, t: "COVID closed schools for 1.6 billion students. Online classes became normal, and EdTech funding hit a record the next year."}
+    - {d: SINCE 2021, t: "China banned for-profit tutoring in school subjects. Its large online tutoring industry lost most of its business."}
+    - {d: SINCE 2022, t: "ChatGPT launched in November. Students began to ask AI for help with homework instead of searching for answers."}
+    - {d: SINCE 2023, t: "Chegg lost about half its value in one day after blaming ChatGPT. Homework help became the first victim of AI."}
+    - {d: SINCE 2024, t: "2U filed for bankruptcy, and Byju’s entered insolvency. Online degrees and big tutoring bets lost the trust of investors."}
+    - {d: SINCE 2024, t: "PowerSchool went private in a $5.6 billion deal, and Instructure followed. Private equity bought school software."}
+- {<<: *T, tag: C2, variant: v2}
+- {<<: *T, tag: C3, variant: v3}

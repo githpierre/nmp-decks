@@ -1,8 +1,12 @@
-{# rows: [{name, cells:[[logo,logo,logo] x3]}]; logos are file names in assets/logos #}
-{% set pos = [[70,12],[128,16],[114,56]] %}
-<div class="body"><div class="lgrid">
-  <div></div>{% for c in s.cols %}<div class="ch {{ 'last' if loop.last }}">{{ c }}</div>{% endfor %}
-  {% for r in s.rows %}{% if not loop.first %}<div class="sepline"></div>{% endif %}<div class="rh">{{ r.name }}</div>{% for cell in r.cells %}<div class="cell {{ 'last' if loop.last }}">
-    {% for lg in cell %}<div class="lg" style="left:{{ pos[loop.index0][0] - 20 }}px;top:{{ pos[loop.index0][1] }}px"><img src="../../assets/logos/{{ lg }}.png"></div>{% endfor %}</div>{% endfor %}{% endfor %}
-  <div></div><div class="bot"></div>
+{# rows: [{name, logos: [{l: file, x: 0..3}]}]. x = stage position (0-1 early, 1-2 growth, 2-3 scale; 1.0 or 2.0 = on the border).
+   Vertical lanes are computed in build.py (prepare_logogrid) so logos never overlap. Lines: one SVG, one dash style. #}
+{% set X0 = 150 %}{% set CW = 235 %}{% set HY = 34 %}{% set RH = 112 %}{% set nr = s.rows|length %}
+<div class="body"><div class="lgrid" style="height:{{ HY + nr * RH + 8 }}px">
+  <svg class="gl" viewBox="0 0 860 {{ HY + nr * RH + 8 }}"><g stroke="#ffffff66" stroke-width="1" stroke-dasharray="2 4" fill="none">
+    {% for i in range(4) %}<path d="M{{ X0 + i * CW }} 0 V{{ HY + nr * RH + 8 }}"/>{% endfor %}
+    {% for k in range(1, nr) %}<path d="M0 {{ HY + k * RH }} H{{ X0 + 3 * CW }}"/>{% endfor %}
+  </g></svg>
+  {% for c in s.cols %}<div class="ch" style="left:{{ X0 + loop.index0 * CW }}px">{{ c }}</div>{% endfor %}
+  {% for r in s.rows %}{% set top = HY + loop.index0 * RH %}<div class="rh" style="top:{{ top + 14 }}px">{{ r.name }}</div>
+  {% for p in r._pos %}<div class="lg" style="left:{{ X0 + p.x * CW - 18 }}px;top:{{ top + p.y * RH - 18 }}px"><img src="../../assets/logos/{{ p.l }}.png"></div>{% endfor %}{% endfor %}
 </div></div>

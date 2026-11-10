@@ -1,6 +1,17 @@
+{# variants: d1 framed box with icons (default) | d2 big quote | d3 split label + sentence | d4 sentence + 3 parts (parts: [{k, v, e}]) #}
+{% set v = s.variant or 'd1' %}
+{% if v == 'd1' %}
 <div class="body">
 <svg class="dash-arrows" viewBox="0 0 880 410" style="position:absolute;inset:0;width:100%;height:100%">
   <g stroke="#334D54" stroke-width="1.5" stroke-dasharray="5 5" fill="none"><path d="M440 10 V60"/><path d="M440 400 V350"/><path d="M40 205 H100"/><path d="M840 205 H780"/></g>
 </svg>
 <div class="card defbox"><span class="ico tl">{{ s.icon_tl or '🎓' }}</span>{{ s.text }}<span class="ico br">{{ s.icon_br or '✅' }}</span></div>
 </div>
+{% elif v == 'd2' %}
+<div class="body"><div class="def2"><div class="q">“</div><p>{{ s.text | md }}</p><div class="bar"></div></div></div>
+{% elif v == 'd3' %}
+<div class="body"><div class="def3"><div class="lab">{{ deck.market }}<span>in one sentence</span></div><div class="sep"></div><p>{{ s.text | md }}</p></div></div>
+{% else %}
+<div class="body" style="flex-direction:column;gap:34px"><p class="def4">{{ s.text | md }}</p>
+  <div class="def4p">{% for p in s.parts %}<div class="card pt"><div class="e">{{ p.e }}</div><div class="k">{{ p.k }}</div><div class="v">{{ p.v }}</div></div>{% endfor %}</div></div>
+{% endif %}

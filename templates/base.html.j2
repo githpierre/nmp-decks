@@ -9,7 +9,8 @@
   {% if s.subtitle or s.page %}<div class="subtitle">{{ s.subtitle or s.page }}</div>{% endif %}
   {% if s.pill %}<div class="pillrow"><span class="pill">{{ s.pill }}</span></div>{% endif %}
   {% include 'slides/' ~ T ~ '.j2' %}
-  {% if s.note %}<p class="note">{{ s.note | md }}</p>{% endif %}
+  {% if s.note %}{% if s.note is string %}<p class="note">{{ s.note | md }}</p>{% else %}<p class="note lines">{% for l in s.note %}{{ l | md }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}{% endif %}
+  {% if s.tag %}<div class="wtag">{{ s.tag }}</div>{% endif %}
   <div class="foot-line"></div><div class="foot-label">{{ deck.label }}</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
 </section>{% endif %}
 {% endfor %}</body></html>

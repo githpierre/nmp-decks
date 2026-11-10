@@ -1,8 +1,13 @@
 <section class="slide cover" data-n="1" data-type="cover">
   <img class="photo" src="{{ s.image }}">
-  <div class="copy">© {{ deck.year }} NEW MARKET PITCH</div>
-  <div class="big">{{ s.big | nl }}</div>
-  <div class="sub">NEW MARKET PITCH</div>
-  <p class="disc">{{ s.disclaimer }}</p>
+  <div class="copy">© NEW MARKET PITCH</div>
+  <div class="tblock" data-maxw="{{ s.title_maxw or 520 }}"><div class="big">{% for l in s.big.split('\n') %}<div class="ln">{{ l }}</div>{% endfor %}</div><div class="sub">NEW MARKET PITCH</div></div>
+  <p class="disc" {% if s.disc_style %}style="{{ s.disc_style }}"{% endif %}>{{ s.disclaimer }}</p>
+  {% if s.tag %}<div class="wtag">{{ s.tag }}</div>{% endif %}
   <div class="foot-brand">NEWMARKETPITCH.COM</div>
+  <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'), big = b.querySelector('.big'), max = +b.dataset.maxw;
+    // cover title: each line on one line, shrunk only if the longest line is wider than the free dark area (title_maxw)
+    let fs = 60; big.style.fontSize = fs + 'pt';
+    while (fs > 34 && Math.max(...[...big.children].map(l => l.scrollWidth)) > max) { fs -= 2; big.style.fontSize = fs + 'pt'; }
+  })();</script>
 </section>

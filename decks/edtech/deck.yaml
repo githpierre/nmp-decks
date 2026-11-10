@@ -3,184 +3,439 @@ label: EdTech market
 quarter: Q3 2026
 year: 2026
 slug: edtech
-chapters:
-  - "What is this\nmarket about?"
-  - "Why this\nmarket now?"
-  - "How big could this\nmarket get?"
-  - "What are the pain\npoints, and for whom?"
-  - "What is the latest tech\nand infrastructure?"
-  - "How is value created\nand monetized?"
-  - "What could slow this\nmarket down?"
-  - "What are the growth\ndrivers in this market?"
-  - "What are investors\nbetting on now?"
-  - "Who are the top startups\nand companies?"
-  - "What could kill\na startup in this market?"
-  - "How do you win\nin this market?"
+chapters: ['What is this
 
+    market about?', 'Why this
+
+    market now?', 'How big could this
+
+    market get?', 'What are the pain
+
+    points, and for whom?', 'What is the latest tech
+
+    and infrastructure?', 'How is value created
+
+    and monetized?', 'What could slow this
+
+    market down?', 'What are the growth
+
+    drivers in this market?', 'What are investors
+
+    betting on now?', 'Who are the top startups
+
+    and companies?', 'What could kill
+
+    a startup in this market?', 'How do you win
+
+    in this market?']
 slides:
-- type: cover
-  image: media/cover.jpg
-  big: "EdTech\nmarket"
-  disclaimer: This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.
+- {type: cover, image: media/cover.jpg, big: 'EdTech
 
-- type: agenda
-  section: EdTech market
-  current: 0
-
+    market', disclaimer: 'This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals
+    before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.'}
+- {type: agenda, section: EdTech market, current: 0}
 - type: definition
   section: Market definition
-  title: "What is the EdTech market,\nin simple terms?"
-  text: The EdTech market is the software, apps, and online services that schools, companies, and learners pay for to teach, learn, test, and certify new skills
-  note: "You may notice that we often use a conversational tone, which may sometimes sound a bit informal. This is actually intentional: we believe it helps reduce cognitive load and makes the content easier to follow"
+  title: 'What is the EdTech market,
 
+    in simple terms?'
+  text: The EdTech market is the software, apps, and online services that schools, companies, and learners pay for to teach, learn, test, and certify new skills
+  note: ['We often use a conversational tone, which may sometimes sound a bit informal', 'We do it on purpose, because it reduces cognitive load and makes slides easier']
 - type: cards
   section: Market definition
-  title: "When and where is value\ncreated in the market?"
+  title: 'When and where is value
+
+    created in the market?'
   items:
-    - {e: 🎯, t: "When a worker learns a new skill and gets promoted for it"}
-    - {e: ⏱️, t: "When a teacher plans a full week of lessons in about one hour"}
-    - {e: 📚, t: "When a student gets a clear explanation late at night before a test"}
-    - {e: 🗣️, t: "When a learner speaks a new language without fear"}
-    - {e: 🌍, t: "When a student far from any city learns from top teachers"}
-    - {e: 📝, t: "When essays get graded in minutes, with useful feedback"}
-    - {e: 📊, t: "When a school sees which students fall behind, and why"}
-    - {e: 💸, t: "When an online degree costs a fraction of a campus program"}
+  - {e: 🎯, t: When a worker learns a new skill and gets promoted for it}
+  - {e: ⏱️, t: When a teacher plans a full week of lessons in about one hour}
+  - {e: 📚, t: When a student gets a clear explanation late at night before a test}
+  - {e: 🗣️, t: When a learner speaks a new language without fear}
+  - {e: 🌍, t: When a student far from any city learns from top teachers}
+  - {e: 📝, t: 'When essays get graded in minutes, with useful feedback'}
+  - {e: 📊, t: 'When a school sees which students fall behind, and why'}
+  - {e: 💸, t: When an online degree costs a fraction of a campus program}
+- {type: maturity, section: Market definition, title: 'How mature is EdTech
 
-- type: maturity
-  section: Market definition
-  title: "How mature is EdTech\nas a market?"
-  score: 62
-  text: The market is real because schools, companies, and learners spend about $192 billion a year, and leaders like Duolingo earn over $1 billion. The score is not higher because AI changes products every year, school budgets are tight, and many startups still struggle to sell.
-  note: We use a simple internal scoring tool to compare the maturity of markets we analyze regularly. It’s based on observed tech progress, disruptions, and year-over-year changes. The score is mainly directional, not 100% exact (but still clearer than vague labels).
-
+    as a market?', score: 62, text: 'The market is real because schools, companies, and learners spend about $192 billion a year, and leaders like Duolingo earn over $1 billion. The score is not higher because AI changes products
+    every year, school budgets are tight, and many startups still struggle to sell.', note: 'We use a simple internal scoring tool to compare the maturity of markets we analyze regularly. It’s based on observed tech progress,
+    disruptions, and year-over-year changes. The score is mainly directional, not 100% exact (but still clearer than vague labels).'}
 - type: dated
   section: Market definition
-  title: "What has changed\n(very) recently?"
+  title: 'What has changed
+
+    (very) recently?'
   page: 1/2
   items:
-    - {d: SINCE 2020, t: "COVID closed schools for 1.6 billion students. Online classes became normal, and EdTech funding hit a record the next year."}
-    - {d: SINCE 2021, t: "China banned for-profit tutoring in school subjects. Its large online tutoring industry lost most of its business."}
-    - {d: SINCE 2022, t: "ChatGPT launched in November. Students began to ask AI for help with homework instead of searching for answers."}
-    - {d: SINCE 2023, t: "Chegg lost about half its value in one day after blaming ChatGPT. Homework help became the first victim of AI."}
-    - {d: SINCE 2024, t: "2U filed for bankruptcy, and Byju’s entered insolvency. Online degrees and big tutoring bets lost the trust of investors."}
-    - {d: SINCE 2024, t: "PowerSchool went private in a $5.6 billion deal, and Instructure followed. Private equity bought school software."}
-  note: Obviously, there is no official timeline. Some may argue that other changes were more significant or happened at slightly different moments. We selected the periods that felt most relevant, especially from the perspective of investors or entrepreneurs entering the market
+  - {d: SINCE 2020, t: 'COVID closed schools for 1.6 billion students around the world, and teaching moved online almost overnight. Online classes quickly became normal, and EdTech funding hit a record the next year.'}
+  - {d: SINCE 2021, t: 'China banned for-profit tutoring in core school subjects, which was the heart of its EdTech boom. Its large online tutoring industry lost most of its business within a few months.'}
+  - {d: SINCE 2022, t: ChatGPT launched in November and spread through schools and universities faster than any tool before it. Students began to ask AI for help with homework instead of searching for answers.}
+  - {d: SINCE 2023, t: Chegg lost about half its value in a single day after blaming ChatGPT for weaker sign-ups from students. Homework help became the first clear victim of AI in the education market.}
+  - {d: SINCE 2024, t: '2U filed for bankruptcy in the US, and Byju’s, once India’s most valuable startup, entered insolvency. Online degrees and big tutoring bets lost the trust of most investors.'}
+  - {d: SINCE 2024, t: 'PowerSchool went private in a $5.6 billion deal, and Instructure, the maker of Canvas, soon followed. Private equity firms started to buy up the software that schools run on.'}
+  note: Obviously, there is no official timeline. Some may argue that other changes were more significant or happened at slightly different moments. We selected the periods that felt most relevant, especially from the perspective
+    of investors or entrepreneurs entering the market
+- type: dated
+  section: Market definition
+  title: 'What has changed
 
+    (very) recently?'
+  page: 2/2
+  items:
+  - {d: SINCE 2025, t: 'The US Department of Education cut about half of its staff in a few weeks, under a plan to shrink the agency. Schools now get less federal help to choose and fund their tools.'}
+  - {d: SINCE 2025, t: 'OpenAI and Google launched study modes inside their chatbots, which millions of students already use daily. Free AI tutors suddenly became direct rivals for paid learning apps.'}
+  - {d: SINCE 2025, t: 'PhysicsWallah, which started as a free YouTube channel, went public in India and rose 33% on its first day. Investors began to trust profitable EdTech companies again.'}
+  - {d: SINCE 2026, t: 'Coursera completed its merger with Udemy, creating a platform with about 290 million learners worldwide. Online course platforms began to merge to stay relevant against AI.'}
+  - {d: SINCE 2026, t: 'The EU delayed its AI Act rules for education, which treat many school uses of AI as high risk, to December 2027. Schools in Europe gained more time to test and adopt AI tools.'}
+  - {d: SINCE 2026, t: 'Coursera invested $100 million in LearnVector, the new AI tutoring startup of Andrew Ng, who cofounded Coursera. AI-native tutors became a serious bet for established players.'}
+  note: Obviously, there is no official timeline. Some may argue that other changes were more significant or happened at slightly different moments. We selected the periods that felt most relevant, especially from the perspective
+    of investors or entrepreneurs entering the market
 - type: kpis
   section: Market opportunity
-  title: "Duolingo’s daily users grew\n23% in a single year"
+  title: 'Duolingo’s daily users grew
+
+    23% in a single year'
   pill: SIGNAL
   items:
-    - {label: "People learned on Duolingo every day in the second quarter of 2026", value: 58.7M}
-    - {label: "Is how much daily users grew compared with mid-2025", value: +23%}
-    - {label: "Learners now pay for a Duolingo subscription, up 17% in a year", value: 12.7M}
+  - {label: People learned on Duolingo every day in the second quarter of 2026, value: 58.7M}
+  - {label: Is how much daily users grew compared with mid-2025, value: +23%}
+  - {label: 'Learners now pay for a Duolingo subscription, up 17% in a year', value: 12.7M}
   why: This is a strong signal because many feared that free AI chatbots would replace learning apps. Instead, more people use Duolingo every day.
   note: Data comes from Duolingo’s shareholder letter for the quarter ended in June 2026, published by [Duolingo](https://investors.duolingo.com)
-
 - type: estimates
   section: Market size
-  title: "What are the market size estimates\nfrom different sources online?"
-  rows:
-    - {firm: "Grand View\nResearch", value: $ 187 B, comment: "Their figure covers software, content, and some hardware for schools and companies. We use it as the base of our estimate."}
-    - {firm: "Fortune Business\nInsights", value: $ 189 B, comment: "Their scope is close to ours, across schools, colleges, and companies. We use it to confirm the base of our range."}
-    - {firm: "Markets and\nMarkets", value: $ 197 B, comment: "Their figure adds smart classroom hardware like displays and projectors. We treat it as the upper end of our core range."}
-    - {firm: "IMARC\nGroup", value: $ 280 B, comment: "Their definition is much wider, and devices and other hardware make up almost half of it. We treat it as an upper bound only."}
-  note: Market size estimates are taken directly from firms’ websites. Because their market definitions sometimes differ from ours, we document those differences and adjust our calculations accordingly. If an estimate is more than six months old, we account for that when updating our figures.
+  title: 'What are the market size estimates
 
+    from different sources online?'
+  rows:
+  - {firm: 'Grand View
+
+      Research', value: $ 187 B, comment: 'Their figure covers software, content, and some hardware for schools and companies. We use it as the base of our estimate.'}
+  - {firm: 'Fortune Business
+
+      Insights', value: $ 189 B, comment: 'Their scope is close to ours, across schools, colleges, and companies. We use it to confirm the base of our range.'}
+  - {firm: 'Markets and
+
+      Markets', value: $ 197 B, comment: Their figure adds smart classroom hardware like displays and projectors. We treat it as the upper end of our core range.}
+  - {firm: 'IMARC
+
+      Group', value: $ 280 B, comment: 'Their definition is much wider, and devices and other hardware make up almost half of it. We treat it as an upper bound only.'}
+  note: Market size estimates are taken directly from firms’ websites. Because their market definitions sometimes differ from ours, we document those differences and adjust our calculations accordingly. If an estimate is more
+    than six months old, we account for that when updating our figures.
 - type: compare
   section: Market size
-  title: "How does it compare\nto other markets?"
-  rows:
-    - {name: Toys, v: 123}
-    - {name: Chip tools, v: 135}
-    - {name: App spending, v: 167}
-    - {name: EdTech, v: 192, hl: true}
-    - {name: Security, v: 213}
-    - {name: AI servers, v: 268}
-    - {name: Cloud SaaS, v: 299}
-  note: We used the latest 2025 estimates from Circana, SEMI, Sensor Tower, and Gartner. App spending counts what consumers pay inside apps, and a small part of it goes to learning apps
+  title: 'How does it compare
 
+    to other markets?'
+  rows:
+  - {name: Toys, v: 123}
+  - {name: Chip tools, v: 135}
+  - {name: App spending, v: 167}
+  - {name: EdTech, v: 192, hl: true}
+  - {name: Security, v: 213}
+  - {name: AI servers, v: 268}
+  - {name: Cloud SaaS, v: 299}
+  note: We used the latest 2025 estimates from Circana, SEMI, Sensor Tower, and Gartner. App spending counts what consumers pay inside apps, and a small part of it goes to learning apps
 - type: catbars
   section: Market size
-  title: "What are the categories\nand how much do they generate?"
-  cats:
-    - {name: "School\nplatforms", v: 67}
-    - {name: "Workforce\nlearning", v: 42}
-    - {name: "Online\ncourses", v: 38}
-    - {name: "Digital\ntutoring", v: 27}
-    - {name: "Other\nspending", v: 18}
-  note: We split the total using the end-user shares of Grand View and Fortune Business Insights, then rounded each category so that the total stays at $192 billion
+  title: 'What are the categories
 
+    and how much do they generate?'
+  cats:
+  - {name: 'School
+
+      platforms', v: 67}
+  - {name: 'Workforce
+
+      learning', v: 42}
+  - {name: 'Online
+
+      courses', v: 38}
+  - {name: 'Digital
+
+      tutoring', v: 27}
+  - {name: 'Other
+
+      spending', v: 18}
+  note: We split the total using the end-user shares of Grand View and Fortune Business Insights, then rounded each category so that the total stays at $192 billion
 - type: worldmap
   section: Market size
-  title: "Where in the world is\nEdTech money spent?"
-  regions:
-    na: {pct: 36, text: "North America leads because US schools and employers buy the most learning software. Duolingo, Coursera, and PowerSchool are all based there."}
-    eu: {pct: 27, text: "Europe grows with Preply, Multiverse, and Knowunity, and its learning startups raised $1.85 billion in 2025. Schools buy country by country, which slows scale for most startups."}
-    apac: {pct: 22, text: "Asia-Pacific grows fastest, led by India, where PhysicsWallah went public in 2025. China shrank after its 2021 ban on for-profit tutoring."}
-    latam: {pct: 6, text: "Latin America is led by Brazil and Mexico, where startups like Teachy and Luca sell AI tools to teachers. Budgets are tight, so growth is slower."}
-    mea: {pct: 9, text: "The Middle East invests heavily, and Saudi Arabia started teaching AI to 6 million students in 2025. Africa has many young learners but small budgets."}
-  note: We combined the regional shares of Grand View for 2024 and 2025 with Fortune Business Insights and IMARC, then adjusted everything to our market definition
+  title: 'Where in the world is
 
+    EdTech money spent?'
+  regions:
+    na: {pct: 36, text: 'North America leads because US schools and employers buy the most learning software. Duolingo, Coursera, and PowerSchool are all based there.'}
+    eu: {pct: 27, text: 'Europe grows with Preply, Multiverse, and Knowunity, and its learning startups raised $1.85 billion in 2025. Schools buy country by country, which slows scale for most startups.'}
+    apac: {pct: 22, text: 'Asia-Pacific grows fastest, led by India, where PhysicsWallah went public in 2025. China shrank after its 2021 ban on for-profit tutoring.'}
+    latam: {pct: 6, text: 'Latin America is led by Brazil and Mexico, where startups like Teachy and Luca sell AI tools to teachers. Budgets are tight, so growth is slower.'}
+    mea: {pct: 9, text: 'The Middle East invests heavily, and Saudi Arabia started teaching AI to 6 million students in 2025. Africa has many young learners but small budgets.'}
+  note: We combined the regional shares of Grand View for 2024 and 2025 with Fortune Business Insights and IMARC, then adjusted everything to our market definition
 - type: projection
   section: Market size
-  title: "What is the projected growth for\nthe EdTech market?"
-  intro: "To reach this value, the market must turn AI tutors and teacher tools into paid products, while schools and companies keep budgets for learning every year.\nIt must also prove real learning gains, protect student data, and compete with free AI chatbots that already help millions of learners."
-  bars: [{x: 2026, v: 213}, {x: 2027, v: 237}, {x: 2028, v: 263}, {x: 2029, v: 291}, {x: 2030, v: 324}, {x: 2031, v: 359}, {x: 2032, v: 399}, {x: 2033, v: 442}, {x: 2034, v: 491}, {x: 2035, v: 545}, {x: 2036, v: 605}]
+  title: 'What is the projected growth for
+
+    the EdTech market?'
+  intro: 'To reach this value, the market must turn AI tutors and teacher tools into paid products, while schools and companies keep budgets for learning every year.
+
+    It must also prove real learning gains, protect student data, and compete with free AI chatbots that already help millions of learners.'
+  bars:
+  - {x: 2026, v: 213}
+  - {x: 2027, v: 237}
+  - {x: 2028, v: 263}
+  - {x: 2029, v: 291}
+  - {x: 2030, v: 324}
+  - {x: 2031, v: 359}
+  - {x: 2032, v: 399}
+  - {x: 2033, v: 442}
+  - {x: 2034, v: 491}
+  - {x: 2035, v: 545}
+  - {x: 2036, v: 605}
   cagr: 11% CAGR
   note: We compared forecasts from Grand View, Fortune Business Insights, MarketsandMarkets, and IMARC, adjusted each one to our market definition, and aligned their timelines to build a realistic range of scenarios
-
 - type: priority
   section: Pain points
-  title: "Which pains deserve\nattention first?"
+  title: 'Which pains deserve
+
+    attention first?'
   subtitle: School platforms
   icons: [🏫, 📋, 🎒, 🏛️, 🏠]
   rows:
-    - {pain: They wait months for districts to approve a purchase, s: [3,1,1,2,1], p: HIGH}
-    - {pain: They see teachers use only a few features they paid for, s: [3,2,1,2,1], p: HIGH}
-    - {pain: They must connect to dozens of other school systems, s: [3,2,1,3,2], p: MAJOR}
-    - {pain: They face strict privacy laws that differ by state, s: [3,1,2,2,3], p: MAJOR}
-    - {pain: They lose renewals as COVID relief money runs out, s: [3,2,1,1,1], p: HIGH}
-    - {pain: They struggle to prove that students learn more, s: [3,2,2,3,3], p: CRITICAL}
-    - {pain: They compete with free tools from Google and Microsoft, s: [2,3,1,2,1], p: HIGH}
-  note: Every customer is different and this table is intentionally high-level and simplified. It’s based on patterns seen across forums, reports, and feedback, and is meant to give you a starting point, not a checklist. If you’re building something, the real priorities should come from talking to actual customers and validating things in the real world before committing to a solution.
+  - pain: They wait months for districts to approve a purchase
+    s: [3, 1, 1, 2, 1]
+    p: HIGH
+  - pain: They see teachers use only a few features they paid for
+    s: [3, 2, 1, 2, 1]
+    p: HIGH
+  - pain: They must connect to dozens of other school systems
+    s: [3, 2, 1, 3, 2]
+    p: MAJOR
+  - pain: They face strict privacy laws that differ by state
+    s: [3, 1, 2, 2, 3]
+    p: MAJOR
+  - pain: They lose renewals as COVID relief money runs out
+    s: [3, 2, 1, 1, 1]
+    p: HIGH
+  - pain: They struggle to prove that students learn more
+    s: [3, 2, 2, 3, 3]
+    p: CRITICAL
+  - pain: They compete with free tools from Google and Microsoft
+    s: [2, 3, 1, 2, 1]
+    p: HIGH
+  note: Every customer is different and this table is intentionally high-level and simplified. It’s based on patterns seen across forums, reports, and feedback, and is meant to give you a starting point, not a checklist. If
+    you’re building something, the real priorities should come from talking to actual customers and validating things in the real world before committing to a solution.
+- type: priority
+  section: Pain points
+  title: 'Which pains deserve
 
+    attention first?'
+  subtitle: Online courses
+  icons: [🔄, 💼, 🏛️, 🎥, 🏢]
+  rows:
+  - pain: They see most learners quit before the end of a course
+    s: [3, 3, 2, 2, 1]
+    p: MAJOR
+  - pain: They pay more and more to find each new paying learner
+    s: [3, 2, 3, 3, 2]
+    p: CRITICAL
+  - pain: They compete with free courses on YouTube and from AI
+    s: [2, 2, 2, 3, 2]
+    p: MAJOR
+  - pain: They struggle to prove that their courses lead to jobs
+    s: [3, 2, 3, 1, 3]
+    p: MAJOR
+  - pain: They see basic courses lose value as AI teaches them
+    s: [2, 2, 1, 3, 3]
+    p: MAJOR
+  - pain: They depend on university brands that they do not own
+    s: [1, 1, 3, 1, 1]
+    p: HIGH
+  - pain: They face price pressure after the big platforms merged
+    s: [1, 1, 2, 3, 2]
+    p: HIGH
+  note: Every customer is different and this table is intentionally high-level and simplified. It’s based on patterns seen across forums, reports, and feedback, and is meant to give you a starting point, not a checklist. If
+    you’re building something, the real priorities should come from talking to actual customers and validating things in the real world before committing to a solution.
+- type: priority
+  section: Pain points
+  title: 'Which pains deserve
+
+    attention first?'
+  subtitle: Digital tutoring
+  icons: [🎒, 🗣️, 🏠, 📝, 🍎]
+  rows:
+  - pain: They lose students to free AI tutors inside chatbots
+    s: [3, 2, 3, 2, 3]
+    p: CRITICAL
+  - pain: They see learners stop as soon as their exam has passed
+    s: [2, 1, 2, 3, 2]
+    p: HIGH
+  - pain: They pay high costs to find and keep good tutors
+    s: [1, 2, 2, 1, 3]
+    p: HIGH
+  - pain: They struggle to show progress that parents can see
+    s: [2, 1, 3, 2, 2]
+    p: HIGH
+  - pain: They see AI tutors make mistakes that students miss
+    s: [3, 2, 2, 3, 1]
+    p: MAJOR
+  - pain: They face very low prices in many emerging markets
+    s: [2, 2, 2, 1, 3]
+    p: HIGH
+  - pain: They must keep learners practicing every single day
+    s: [2, 3, 1, 2, 1]
+    p: HIGH
+  note: Every customer is different and this table is intentionally high-level and simplified. It’s based on patterns seen across forums, reports, and feedback, and is meant to give you a starting point, not a checklist. If
+    you’re building something, the real priorities should come from talking to actual customers and validating things in the real world before committing to a solution.
 - type: fundbars
   section: Investor bets
-  title: "How has fundraising activity\nevolved recently?"
-  bars:
-    - {x: Q3 2025, v: 189, ann: "Honor Education raised $38M, and Wooclap raised about $29M"}
-    - {x: Q4 2025, v: 206, ann: "Yoodli raised a $40M Series B, and Edflex raised $18M"}
-    - {x: Q1 2026, v: 319, ann: "Preply raised $150M, almost half of all capital in the quarter"}
-    - {x: Q2 2026, v: 43, ann: "Gizmo’s $22M Series A made up half of a very quiet quarter"}
-    - {x: Q3 2026, v: 191, ann: "LearnVector raised $100M from Coursera, over half of the quarter"}
-  note: Data comes from our [tracker](https://newmarketpitch.com/blogs/news/edtech-list-deals) of 266 EdTech equity rounds since January 2024. Debt and grants are left out. Q2 2026 holds only 9 rounds, so this quarter may rise as late deals are added
+  title: 'How has fundraising activity
 
+    evolved recently?'
+  bars:
+  - {x: Q3 2025, v: 189, ann: 'Honor Education raised $38M, and Wooclap raised about $29M'}
+  - {x: Q4 2025, v: 206, ann: 'Yoodli raised a $40M Series B, and Edflex raised $18M'}
+  - {x: Q1 2026, v: 319, ann: 'Preply raised $150M, almost half of all capital in the quarter'}
+  - {x: Q2 2026, v: 43, ann: Gizmo’s $22M Series A made up half of a very quiet quarter}
+  - {x: Q3 2026, v: 191, ann: 'LearnVector raised $100M from Coursera, over half of the quarter'}
+  note: Data comes from our [tracker](https://newmarketpitch.com/blogs/news/edtech-list-deals) of 266 EdTech equity rounds since January 2024. Debt and grants are left out. Q2 2026 holds only 9 rounds, so this quarter may
+    rise as late deals are added
 - type: logogrid
   section: Top players
-  title: "Who are the top companies\nin the EdTech market?"
+  title: 'Who are the top companies
+
+    in the EdTech market?'
   cols: [Early stage, Growth stage, Scale stage]
   rows:
-    - {name: Schools, cells: [[brisk, flint, teachy], [magicschool, amira, schoolinks], [classdojo, newsela, ageoflearning]]}
-    - {name: Consumers, cells: [[gizmo, oboe, sigiq], [knowunity, seekho, speakx], [preply, gostudent, quizlet]]}
-    - {name: Workforce, cells: [[secondnature, fullyramped, cognota], [yoodli, stepful, 360learning], [multiverse, guild, degreed]]}
-  note: We shortlisted private pure players from funding announcements, company documents, and press coverage. We excluded big tech, listed firms like Duolingo, and buyouts like PowerSchool. Placement reflects each company’s main focus and stage.
-
+  - name: Schools
+    logos:
+    - {l: teachy, x: 0.15}
+    - {l: brisk, x: 0.4}
+    - {l: flint, x: 0.65}
+    - {l: magicschool, x: 1.35}
+    - {l: amira, x: 1.65}
+    - {l: schoolinks, x: 2.0}
+    - {l: ageoflearning, x: 2.3}
+    - {l: classdojo, x: 2.5}
+    - {l: newsela, x: 2.78}
+  - name: Consumers
+    logos:
+    - {l: sigiq, x: 0.22}
+    - {l: oboe, x: 0.45}
+    - {l: gizmo, x: 0.72}
+    - {l: speakx, x: 1.0}
+    - {l: knowunity, x: 1.32}
+    - {l: seekho, x: 1.6}
+    - {l: quizlet, x: 2.0}
+    - {l: preply, x: 2.42}
+    - {l: gostudent, x: 2.8}
+  - name: Workforce
+    logos:
+    - {l: fullyramped, x: 0.22}
+    - {l: secondnature, x: 0.55}
+    - {l: cognota, x: 1.0}
+    - {l: yoodli, x: 1.32}
+    - {l: stepful, x: 1.6}
+    - {l: 360learning, x: 2.12}
+    - {l: degreed, x: 2.42}
+    - {l: multiverse, x: 2.66}
+    - {l: guild, x: 2.88}
+  note: ['Each logo sits at its stage, from funding, revenue and reach, and a logo on a line sits between two stages', 'We excluded big tech, listed firms like Duolingo, and buyouts like PowerSchool from this map']
 - type: contrast
   section: Startup strategies
-  title: "How Preply turned tutoring\ninto a profitable unicorn"
+  title: 'How Preply turned tutoring
+
+    into a profitable unicorn'
   left: A REGULAR TUTORING SITE
   right: PREPLY
   logo: preply
   rows:
-    - [They raise big rounds before any profit, They reached positive EBITDA before raising]
-    - [They charge tutors one flat commission, They cut their commission from 33% to 18%]
-    - [They keep a few thousand tutors, "They offer 100,000+ tutors in 180 countries"]
-    - [They teach a handful of languages, They teach in more than 90 languages]
-    - [They replace tutors with AI to cut costs, They added AI tools around human tutors]
-    - [They promise results without any data, They show one learner in three gains a level]
-    - [They grow mostly by buying ads, They tripled bookable tutors in a few years]
-    - [They refund unhappy learners in cash, They offer a free replacement trial lesson]
-    - [They stay in their home market, They grew from Ukraine to a global platform]
-    - [They raise at modest valuations, They reached a $1.2B valuation in 2026]
-  note: We used Preply announcements and its help center on commissions. We treated “a regular tutoring site” as a fictional baseline, not a real company, for contrast only
+  - [They raise large rounds long before reaching any profit, They reached positive EBITDA before raising their big round]
+  - [They charge every tutor the same flat commission forever, They cut their commission on tutors from 33% down to 18%]
+  - [They keep a small pool of a few thousand vetted tutors, 'They offer more than 100,000 tutors across 180 countries']
+  - [They teach a handful of popular languages and little else, They teach more than 90 languages and many school subjects]
+  - [They replace their human tutors with AI to cut their costs, They added AI tools around tutors instead of replacing them]
+  - [They promise fast results without showing any learning data, They show that one learner in three gains a full level]
+  - [They grow mostly by buying more and more online ads, They tripled the number of bookable tutors in a few years]
+  - [They refund unhappy learners in cash and lose them for good, They offer a free replacement trial lesson to unhappy learners]
+  - [They stay in their home market and grow one city at a time, They grew from a Ukrainian startup into a global platform]
+  - [They raise money at modest valuations and stay rather small, They reached a $1.2B valuation in 2026 and became a unicorn]
+  note: [We used Preply announcements and its help center on commissions, 'We treated “a regular tutoring site” as a fictional baseline, for contrast only']
+- type: contrast
+  section: Startup strategies
+  title: 'How Gizmo made studying
+
+    feel like a game'
+  left: A REGULAR STUDY APP
+  right: GIZMO
+  logo: gizmo
+  rows:
+  - [They start with a large product team and a big budget, They reached 13M users with a team of only seven people]
+  - ['They write their own question banks by hand, one at a time', They turn each student’s own notes into quizzes in seconds]
+  - ['They feel like extra homework, so students open them rarely', 'They play like a game, with lives, streaks, and rewards']
+  - [They show the same flashcards to every student in class, They use spaced repetition tuned to each single learner]
+  - [They sell to schools through slow district procurement, 'They grow directly with students, without waiting for schools']
+  - [They launch in one country at a time with local teams, They reached learners in more than 120 countries already]
+  - [They grow only a few times over across many long years, They grew from 300K users in 2023 to 13M users since then]
+  - [They count on push reminders to bring users back each day, They use leaderboards and friends to bring students back]
+  - ['They raise large rounds very early, before any real traction', 'They raised their first big round, a $22M Series A, in 2026']
+  - [They raise only from specialized education funds and angels, 'They raised their Series A from Shine, a generalist fund']
+  note: [We used Gizmo announcements and press coverage of its Series A, 'We treated “a regular study app” as a fictional baseline, for contrast only']
+- type: contrast
+  section: Startup strategies
+  title: 'How MagicSchool won over
+
+    millions of teachers'
+  left: A REGULAR SCHOOL VENDOR
+  right: MAGICSCHOOL
+  logo: magicschool
+  rows:
+  - [They are founded by software sellers far from classrooms, They were founded by a former principal who knew teachers]
+  - [They sell to whole districts from day one through tenders, 'They let teachers start on a free plan, then win districts']
+  - ['They charge high prices per student, even for small schools', They charge teachers only $8.33 a month for the Plus plan]
+  - [They take years to reach a meaningful number of schools, They reached 6M educators in just 18 months after launch]
+  - [They treat student privacy as an add-on after the sale, 'They hold FERPA, COPPA, and SOC 2 privacy seals already']
+  - [They ship one big update a year before the school year, They ship new features for teachers every single month]
+  - [They offer the same tools to every district they serve, They let more than 600 districts build their own custom tools]
+  - [They work as a separate island next to other school tools, 'They connect to Canvas, Clever, and ClassLink out of the box']
+  - [They track logins and clicks to prove their value to schools, They say 77% of teachers now feel their work life is better]
+  - [They raise only from education funds with no strategic partner, 'They raised $45M, with Adobe Ventures joining the round']
+  note: ['We used MagicSchool announcements, its Series B release, and its privacy pages', 'We treated “a regular school vendor” as a fictional baseline, for contrast only']
+- type: contrast
+  section: Startup strategies
+  title: 'How Multiverse turned training
+
+    into a unicorn'
+  left: A REGULAR TRAINING FIRM
+  right: MULTIVERSE
+  logo: multiverse
+  rows:
+  - [They sell generic courses from a large online catalog, They run apprenticeships inside real jobs at real companies]
+  - [They depend on yearly training budgets that get cut first, They use the UK apprenticeship levy that firms already pay]
+  - [They train only a few thousand learners in a good year, 'They started 12,030 apprentices in one year across roles']
+  - [They teach generic office skills that fit any company, They teach AI and data skills tailored to each job role]
+  - [They work alone with each client without tech partners, They partner with Microsoft and Databricks on their programs]
+  - [They stay in their home country and never cross a border, They bought StackFuel to enter the German market quickly]
+  - [They add more staff every time revenue grows a little, 'They raised their revenue per employee by 37%, staying lean']
+  - [They burn cash for many years without a clear end in sight, They had a cash-positive quarter in 2026 as they grew]
+  - [They raise money only from local investors in one country, They raised from General Catalyst and Lightspeed]
+  - [They lose most of their value when the funding market turns, They grew their valuation from $1.7B to $2.1B since 2022]
+  note: ['We used Multiverse announcements, its UK filings, and press coverage of its rounds', 'We treated “a regular training firm” as a fictional baseline, for contrast only']
+- type: contrast
+  section: Startup strategies
+  title: 'How PhysicsWallah went from
+
+    YouTube to the stock market'
+  left: A REGULAR TEST PREP FIRM
+  right: PHYSICSWALLAH
+  logo: physicswallah
+  rows:
+  - [They start with a paid app and spend heavily on online ads, They started with free lessons on YouTube for every student]
+  - [They charge high fees that most Indian families cannot pay, They sell full exam courses starting from only about $4]
+  - [They teach only in English in a country of many languages, They teach in nine Indian languages to reach more students]
+  - ['They burn cash to grow fast, then hope for profits later', They were already profitable when they became a unicorn]
+  - [They reach a few million followers on their social channels, They have 98.8M subscribers across their YouTube channels]
+  - [They stay online only and never open physical centers, They opened 353 offline learning centers across India by 2026]
+  - [They focus on one single exam and one type of student, 'They cover 13 exam categories, from engineering to medicine']
+  - [They serve a few thousand paying users in a good year, 'They had 4.46M paying users in 2025, across all their courses']
+  - [They crash hard after the COVID online learning boom, They listed 33% above their IPO price on their first day]
+  - [They slow down after going public and lose momentum, They grew their revenue by 24% in a single recent quarter]
+  note: ['We used PhysicsWallah’s IPO documents, results, and press coverage', 'We treated “a regular test prep firm” as a fictional baseline, for contrast only']
