@@ -20,7 +20,7 @@ with sync_playwright() as p:
     pg.evaluate("""() => { window.__pristine = {}; document.querySelectorAll('.slide').forEach(s => window.__pristine[s.dataset.n] = s.cloneNode(true)); }""")
     for it in items:
         n = it['shot']
-        for key in ['0', 'A', 'B', 'C']:
+        for key in ['0'] + it.get('keys', ['A', 'B', 'C']):
             v = it.get(key) or {}
             css = (v.get('css') or '').replace('S ', f'.slide[data-n="{n}"] ').replace('S{', f'.slide[data-n="{n}"]{{')
             err = pg.evaluate("""([n, css, js]) => {
