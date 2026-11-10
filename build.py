@@ -162,7 +162,7 @@ def build(slug, png=False, only=None):
         b = p.chromium.launch()
         pg = b.new_page(viewport={'width': 960, 'height': 672})
         pg.goto((d / 'deck.html').as_uri()); pg.wait_for_load_state('networkidle')
-        pg.evaluate('document.fonts.ready')
+        pg.evaluate('document.fonts.ready'); pg.wait_for_function('window.__rawfit === true', timeout=60000)
         issues = pg.evaluate(AUDIT_JS)
         name = f"{deck['market']} - {deck['quarter']} - newmarketpitch.com ©.pdf"
         pg.emulate_media(media='print')

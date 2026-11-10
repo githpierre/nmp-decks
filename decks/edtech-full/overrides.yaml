@@ -1,0 +1,323 @@
+# Per-slide fixes on raw slides: {slide_no: {shape_k: {text | join | lines | pad | dx | dy | scale | hide | nofit}}}
+# text: a string (the whole box, one paragraph) or a list per non-empty paragraph ('' drops one, \n = line break)
+# lines: line count wanted for this box (the group's largest natural count otherwise)
+# Pierre's review of 10 Nov 2026 (slides 8-32) -> rules in RULES.md, section "Text boxes".
+
+8:   # all texts on 5 lines
+  7: {text: "EdTech differs from both because it builds products made for learning, with lessons, tests, and progress tracking", lines: 5}
+  10: {lines: 5}
+  11: {lines: 5}
+
+9:   # every circle label on 2 lines
+  9: {text: "LEARNING\nSOFTWARE"}
+
+10:  # padding inside the bubbles, 6 lines each
+  7: {pad: 14, lines: 6}
+  10: {pad: 14, lines: 6}
+  13: {pad: 14, lines: 6}
+  16: {pad: 14, lines: 6}
+  19: {pad: 14, lines: 6}
+
+13:  # 5 lines each
+  6: {lines: 5}
+  7: {lines: 5}
+  8: {lines: 5}
+
+15:  # answers fill their bubble (about the word count of the Gallup one)
+  7: {text: "Duolingo’s sales grew 39% in 2025, to more than $1 billion for the first time, mostly from subscriptions"}
+  10: {text: "Duolingo’s daily users still grew 23% in a year, to 58.7 million in mid-2026, even with free AI chatbots"}
+  13: {text: "Gallup found that 60% of US teachers used AI tools during the 2024-25 school year, mostly to plan lessons"}
+  16: {text: "Preply reached a $1.2B valuation in 2026, with more than 100,000 human tutors working on its platform"}
+  0: {join: true}
+  9: {join: true}
+  12: {join: true}
+  15: {join: true}
+
+16:
+  7: {text: "HolonIQ counted $2.6B raised by EdTech startups in 2025, up 11% and the first rise in four years"}
+  10: {text: "North America is only about 36% of global EdTech spending, so most of the market is elsewhere"}
+  13: {text: "Schools, colleges, and companies pay for about 67% of EdTech revenue, far more than consumers do"}
+  16: {text: "RAND found that students most often use AI to get clearer explanations of what they learn"}
+  0: {join: true}
+  9: {join: true}
+  12: {join: true}
+  15: {join: true}
+
+18:  # about 2 more words each, balanced
+  8: {text: "Companies who sell learning platforms, AI tools, and classroom apps to schools"}
+  11: {text: "Companies who sell courses, certificates, and full degrees online to adult learners"}
+  16: {text: "Companies who offer live tutors, AI tutors, and language apps to learners of all ages"}
+  19: {text: "Companies who help employers train, upskill, and reskill their staff at scale"}
+
+19:
+  8: {text: "Companies who serve young children with learning games and early reading apps"}
+  11: {text: "Companies who serve school students with lessons, homework help, and practice"}
+  16: {text: "Companies who serve university students with online courses and study tools"}
+  19: {text: "Companies who serve adults who learn for new jobs, for languages, or for fun"}
+
+20:
+  8: {text: "Companies who sell to public schools and districts that buy with yearly budgets"}
+  11: {text: "Companies who sell to universities and colleges that move their degrees online"}
+  16: {text: "Companies who sell to firms and HR teams that train and certify their staff"}
+  19: {text: "Companies who sell directly to students, parents, and adults through apps and sites"}
+
+21:  # Pearson and Stride balanced
+  11: {text: "They lead testing and qualifications worldwide, with £3.6B of sales in 2025"}
+  21: {text: "They lead online K-12 schools in the US, with $2.52B of revenue in a year"}
+
+22:  # 5 lines each
+  6: {text: "Proven learning gains, because schools and districts now ask for clear results before they buy", lines: 5}
+  7: {text: "Student data safety, because one breach at PowerSchool exposed the records of 62M students", lines: 5}
+  8: {text: "Teacher time saved, because teachers spend many hours each week planning lessons and grading", lines: 5}
+  9: {text: "Speaking practice, because most language apps still teach reading and writing more than talking", lines: 5}
+  10: {text: "Skills tied to jobs, because most adults learn to get hired, to get promoted, or to earn more", lines: 5}
+  11: {text: "Curriculum fit, because schools only buy tools that match what their teachers already teach", lines: 5}
+  12: {text: "Human support, because many online learners still quit when nobody checks on their progress", lines: 5}
+  13: {text: "Low prices, because families and schools in most countries have small budgets for learning tools", lines: 5}
+
+23:  # right texts: 2-3 more words, balanced; red crosses at 80 %
+  6: {join: true}
+  10: {join: true}
+  14: {join: true}
+  18: {join: true}
+  22: {join: true}
+  26: {join: true}
+  8: {text: "Now learners pay for professional certificates and online degrees that lead to jobs"}
+  12: {text: "Now free AI chatbots explain answers step by step, and Chegg lost half its sales"}
+  16: {text: "Now AI tools draft lessons and quizzes in minutes for millions of teachers"}
+  20: {text: "Now AI tutors let learners speak out loud and get feedback in real time"}
+  24: {text: "Now that money is gone, and school districts cut the tools their teachers rarely use"}
+  28: {text: "Now investors want profits first, and very few rounds pass $100 million"}
+  9: {scale: 0.8}
+  13: {scale: 0.8}
+  17: {scale: 0.8}
+  21: {scale: 0.8}
+  25: {scale: 0.8}
+  29: {scale: 0.8}
+
+29:  # 10 lines each
+  6: {text: "Blackboard and Moodle brought courses online at universities. Schools bought their first learning platforms. Most classroom teaching still used paper and chalk.", lines: 10}
+  8: {text: "Khan Academy put free video lessons on YouTube. Smartphones spread fast. Schools began to buy laptops, tablets, and online homework tools.", lines: 10}
+  10: {text: "Coursera, edX, and Duolingo launched in 2012. MOOCs reached millions of learners worldwide. Byju’s and other tutoring apps grew fast in India.", lines: 10}
+  12: {text: "COVID moved school online overnight. Video classes, tutoring apps, and homework tools boomed. EdTech funding reached a record $16.7 billion in 2021.", lines: 10}
+
+30:
+  6: {text: "Schools reopened, and demand for many tools fell. ChatGPT arrived and hit homework help sites like Chegg. Funding dropped by more than half, and startups cut staff.", lines: 10}
+  8: {text: "2U went bankrupt, and Byju’s entered insolvency. Private equity bought PowerSchool and Instructure. AI tools for teachers spread fast in many schools.", lines: 10}
+  10: {text: "Most US teachers tried AI, and OpenAI and Google launched study modes. PhysicsWallah went public in India. Funding rose 11% to $2.6 billion.", lines: 10}
+  12: {text: "The market is worth about $192 billion. AI tutors and teacher tools grow fast, while old models shrink. Big players merge to compete. The race is still open.", lines: 10}
+
+31:  # 3 lines each, similar length
+  7: {text: "Duolingo’s daily users still grow by over 20% every year"}
+  8: {text: "Employers pay to retrain their whole staff for AI at work"}
+  12: {lines: 3}
+
+32:  # badges higher (centred on the bubble's top edge), signals on 3 balanced lines
+  6: {dy: -12}
+  8: {dy: -12}
+  10: {dy: -12}
+  12: {dy: -12}
+  14: {dy: -12}
+  16: {dy: -12}
+  20: {dy: -12}
+  5: {text: "Duolingo’s daily users grew 23% in just one year", lines: 3}
+  9: {text: "Student use of AI for homework has now hit 62%", lines: 3}
+  11: {text: "Big buyers now pay a premium for AI learning firms", lines: 3}
+  13: {text: "AI courses on Coursera draw 14 enrollments a minute", lines: 3}
+  15: {text: "Europe’s EdTech funding doubled in a single year", lines: 3}
+  7: {lines: 3}
+  19: {lines: 3}
+
+# Slides 33+: rewrites chosen with tools/try_texts.py (same facts, a few words added or moved so the lines
+# come out balanced and the bubbles filled, 10 Nov 2026)
+48:
+  7: {text: "Corporate learning platforms, course libraries, AI role-play tools, and compliance training that employers buy"}
+55:
+  5: {text: "Schools had to host and maintain learning platforms on their own servers"}
+  8: {text: "Learners had to live near a campus to earn a recognized degree"}
+  11: {text: "Teachers had to build every quiz and worksheet by hand, one at a time"}
+  14: {text: "Language learners needed a partner or a tutor to practice speaking"}
+  17: {text: "Remote classes needed costly video conference systems in each room"}
+  20: {text: "Courses were only available in a handful of major languages"}
+61:
+  8: {text: "Companies that sell online courses, professional certificates, and degrees to adults"}
+64:
+  14: {text: "They wait months for school districts to approve a purchase"}
+  15: {text: "They see teachers use only a few features that schools paid for"}
+  17: {text: "They face strict student privacy laws that differ by state"}
+  19: {text: "They struggle to prove that students really learn more"}
+  20: {text: "They compete with free school tools from Google and Microsoft"}
+68:
+  15: {text: "They see most of their learners quit before the end of a course"}
+  17: {text: "They compete with free courses on YouTube and from AI chatbots"}
+  21: {text: "They face more price pressure after the big platforms merged"}
+72:
+  17: {text: "They pay high costs to find, train, and keep good tutors"}
+76:
+  15: {text: "They see their staff ignore courses that they did not choose"}
+  16: {text: "They cannot link their training to real business results"}
+  17: {text: "They lose budget in the very first round of cost cuts"}
+  18: {text: "They see content go out of date as AI tools keep changing"}
+  19: {text: "They struggle to train frontline staff with no desk or laptop"}
+  20: {text: "They compete with the free content on LinkedIn and YouTube"}
+  21: {text: "They face long sales cycles with large enterprise buyers"}
+80:
+  15: {text: "They cannot reliably detect essays that AI wrote for students"}
+  16: {text: "They face pushback from students when AI grading looks unfair"}
+  18: {text: "They need strict proof that tests measure every student fairly"}
+  19: {text: "They see students challenge the results of AI detection"}
+  20: {text: "They face new EU rules that treat AI in exams as high-risk"}
+84:
+  15: {text: "They see employers ignore many of the online certificates"}
+  19: {text: "They cannot clearly link a certificate to job performance"}
+88:
+  14: {text: "Cloud hosting from AWS, Google, and Microsoft that runs most learning tools"}
+94:
+  17: {text: "US districts lost their COVID relief funds and now cut the tools they rarely use"}
+  26: {text: "Most learners still quit their online courses and apps within just a few weeks"}
+95:
+  9: {text: "Many vendors hold sensitive data, while their security budgets stay small"}
+  22: {text: "Training takes time, and most schools lack the staff and budget to lead it"}
+  34: {text: "Models guess when they are unsure, and checking every answer costs a lot"}
+96:
+  30: {text: "Overload eases as the platforms merge but not earlier due to long contracts"}
+97:
+  7: {text: "It is a personal AI tutor for every child that is as good as the best human tutor"}
+  16: {text: "It is a verified record of every skill a person learns, shared with future employers"}
+  22: {text: "It is a set of classes in virtual reality, where students dissect, build, and explore"}
+  28: {text: "It is a full course on any topic, generated in seconds for one single learner only"}
+98:
+  9: {text: "They are building private schools where software teaches the core subjects"}
+  15: {text: "They are building AI role-plays where staff can rehearse hard work conversations"}
+  31: {text: "They are building holographic anatomy lessons for students in mixed reality"}
+103:
+  10: {text: "AI tools that plan, adapt, and grade lessons in line with each school’s own curriculum"}
+  15: {text: "Voice AI that lets every learner speak a language each day with instant feedback"}
+109:
+  7: {text: "They try a free trial with one student"}
+  9: {text: "A family or school compares AI tutors"}
+  10: {text: "They see grades go up over a term"}
+114:
+  6: {text: "They share the new tool with colleagues"}
+  10: {text: "They sign a contract for the whole district"}
+  13: {text: "They renew as teacher usage keeps growing"}
+118:
+  6: {text: "They set a goal for the level they want"}
+  9: {text: "Learner downloads the app on a phone"}
+  10: {text: "They watch their speaking score rise"}
+122:
+  6: {text: "They run a pilot with one team first"}
+  7: {text: "They compare a few training providers"}
+  10: {text: "Staff finish the programs on time"}
+  11: {text: "They earn certificates that HR can track"}
+  12: {text: "They sign a contract to add more teams"}
+  13: {text: "They renew for new tools and new roles"}
+126:
+  8: {text: "They check fairness and student appeals"}
+  10: {text: "Teachers grade much faster with the tool"}
+  11: {text: "They update all of their exam policies"}
+  12: {text: "They sign a license for the whole campus"}
+  13: {text: "They renew as their exams move online"}
+130:
+  6: {text: "They pass a skills test with a proctor"}
+  7: {text: "They complete their courses and projects"}
+  8: {text: "They get a verified digital badge"}
+  9: {text: "A learner picks a credential for a job"}
+  10: {text: "Recruiters verify it in a single click"}
+136:
+  7: {text: "Few tools can prove that their students actually learn more because of them"}
+  9: {text: "US districts lost COVID relief money and now cut tools that they rarely use"}
+  12: {text: "Most learners quit online courses and learning apps within a few weeks"}
+140:
+  7: {text: "Vendors want multi-year contracts that cover the whole school district"}
+  18: {text: "Parents want less screen time for their children when at home"}
+  24: {text: "Tutors want to keep most of the money that learners pay them"}
+  25: {text: "Platforms want to take a big cut of every tutoring lesson sold"}
+142:
+  7: {text: "School budgets shrink as the number of students keeps falling in many regions"}
+  9: {text: "Free AI tutors from big tech become good enough for most of the learners"}
+  10: {text: "Big platforms bundle every feature and leave no room for smaller startups"}
+151:
+  8: {text: "Profitable leaders like Duolingo and Preply that prove that EdTech can earn real money"}
+152:
+  13: {text: "More public funding for AI tutoring and for teacher training in many countries"}
+  14: {text: "Employers that accept skills credentials instead of degrees when hiring people"}
+  15: {text: "Simple and common rules for student data privacy across states and countries"}
+153:
+  6: {text: "Each new district contract makes the next district in the region easier to win"}
+  7: {text: "Each happy teacher brings colleagues to the same tool inside their school"}
+  8: {text: "Each day of a streak makes the learner more likely to come back the next day"}
+  9: {text: "Each lesson taught gives data that makes the next lesson a little more personal"}
+  11: {text: "Each certificate that employers accept makes the next one a bit more valuable"}
+  12: {text: "Each new integration makes the whole platform harder for a school to leave"}
+  13: {text: "Each new tutor on a marketplace attracts more learners, which attracts more tutors"}
+154:
+  7: {text: "More districts using a tool bring more proof, which wins even more districts"}
+  9: {text: "Better learning results bring more school budgets, which fund better products"}
+160:
+  8: {text: "About 46% of the capital went to North America, about 27% to Asia-Pacific, and about 22% to Europe"}
+166:
+  18: {text: "In 2024 it raised a Series B round led by Susquehanna"}
+  23: {text: "In 2024, it raised its Series C, led by Accel"}
+172:
+  11: {text: "Startups who issue and then verify job skill certificates"}
+178:
+  13: {text: "Duolingo leads with 58.7M daily users, well ahead of Preply and PW"}
+  19: {text: "LinkedIn Learning and Docebo lead, with Docebo at $243M of yearly sales"}
+  22: {text: "Pearson and Turnitin lead the segment, with Turnitin at 16,000+ customers"}
+  25: {text: "Credly leads with over 100M badges issued, well ahead of Coursera"}
+186:
+  13: {text: "Speak wants anyone to become fluent just by talking with its AI tutor every day"}
+200:
+  0: {text: "They fail when teachers stop using what schools bought"}
+  6: {text: "They fail when free AI tutors become good enough to use"}
+  12: {text: "They fail when a single unfair result breaks trust"}
+206:
+  7: {text: "They win by saving teachers hours of work each week"}
+  13: {text: "They win by showing proof of progress parents can see"}
+  16: {text: "They win by linking their training to business results"}
+  22: {text: "They win by getting more employers to trust badges"}
+207:
+  6: {text: "Pearson turned its exams and its textbooks into digital products for schools"}
+  7: {text: "Coursera partnered with top universities first, then merged with Udemy in 2026"}
+  8: {text: "PowerSchool became the main record system for over 55 million students"}
+  10: {text: "Stride ran online public schools for years before COVID made them normal"}
+  12: {text: "Google gave Classroom away to schools for free and passed 150M users"}
+208:
+  7: {text: "MagicSchool was built by a former school principal for overloaded teachers"}
+  9: {text: "Multiverse used UK apprenticeship funding to train office staff at scale"}
+  10: {text: "Preply kept human tutors at the center and was profitable before raising more"}
+  11: {text: "Brisk worked inside the browser tools that teachers already used every day"}
+  14: {text: "Gizmo turned the students’ own notes into games with a team of seven"}
+216:
+  11: {text: "MarketsandMarkets is a long-standing market research firm with a clearly published method"}
+  14: {text: "IMARC uses a much wider definition that also includes devices and other hardware"}
+  17: {text: "HolonIQ tracks EdTech valuations and funding rounds with detailed company-level data"}
+217:
+  4: {text: "This is HolonIQ’s yearly review of venture funding and acquisitions across all of EdTech"}
+  8: {text: "RAND is an independent research group that publishes the methods of its surveys"}
+  12: {text: "We relied on it for teacher use of AI. It also helped us correct a very common myth."}
+  14: {text: "These are the audited yearly results from the largest listed language app"}
+  15: {text: "We used them for our first signal and top companies. They also helped us check market size."}
+  17: {text: "These are the audited yearly results from the largest listed course platform"}
+218:
+  4: {text: "These are the audited yearly results from the largest education publisher and test provider"}
+  5: {text: "We used them for the assessment and content leaders. They also helped check market size."}
+  8: {text: "These are audited results from the leader in online K-12 public schools in the United States"}
+  11: {text: "These are the audited yearly results from a listed corporate learning platform"}
+  12: {text: "We used them for the growth of workforce learning. They also helped us describe leaders."}
+  14: {text: "This is Preply’s official press release, with all figures confirmed by the company"}
+  15: {text: "We relied on it for Preply’s valuation and growth. It also helped us explain its success."}
+  17: {text: "This is Speak’s official post, with usage and growth figures shared by the company itself"}
+  18: {text: "We used it for Speak’s growth. It also helped us profile Speak as a unicorn in this market."}
+219:
+  4: {text: "This is MagicSchool’s official blog post, with adoption figures shared by the company"}
+  8: {text: "Tech.eu is an established European tech news outlet that relies on company sources"}
+  11: {text: "FE Week reports on the official company accounts of firms in UK further education"}
+  14: {text: "Business Standard is an Indian outlet that reports on audited results of listed firms"}
+  17: {text: "Entrackr reports on the filings and funding rounds of Indian startups and scaleups"}
+  18: {text: "We relied on it for upGrad’s valuation. It also confirmed upGrad as a unicorn in India."}
+220:
+  4: {text: "TechCrunch is a long-standing technology outlet that relies on direct company sources"}
+  8: {text: "Rest of World reports on technology outside the US, with sourced data and local reporting"}
+  11: {text: "This is Coursera’s yearly Job Skills report, based on its own enrollment data"}

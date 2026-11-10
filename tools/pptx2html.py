@@ -147,7 +147,7 @@ def runs_html(p, theme, scale):
     out = []
     for r in p._p:
         t = r.tag.replace(A, '')
-        if t == 'br': out.append('<br>'); continue
+        if t == 'br': out.append(' '); continue
         if t not in ('r', 'fld'): continue
         rp = r.find(A + 'rPr'); tx = ''.join(x.text or '' for x in r.iter(A + 't'))
         if not tx: continue
@@ -166,12 +166,12 @@ def runs_html(p, theme, scale):
                 if 'SemiBold' in tf: st.append('font-weight:600')
                 if tf.startswith('Montserrat'): st.append('font-family:Montserrat')
                 elif tf.startswith('Arial'): st.append('font-family:Arial,sans-serif')
-        tx = esc(tx).replace('\x0b', '<br>').replace('\n', '<br>')
+        tx = esc(tx).replace('\x0b', ' ').replace('\n', ' ')   # manual line breaks dropped: the browser balances the lines
         out.append(f'<span style="{";".join(st)}">{tx}</span>' if st else tx)
     return ''.join(out)
 
 
-def text_html(sh, theme, x, y, w, h):
+def text_html(sh, theme, x, y, w, h, k=None, ov=None, boxed=False):
     tf = sh.text_frame; bp = tf._txBody.find(A + 'bodyPr')
     ins = lambda k, d: int(bp.get(k, d)) / E if bp is not None else d / E
     L, T, Rr, B = ins('lIns', 91440), ins('tIns', 45720), ins('rIns', 91440), ins('bIns', 45720)
@@ -180,7 +180,12 @@ def text_html(sh, theme, x, y, w, h):
     na = bp.find(A + 'normAutofit') if bp is not None else None
     if na is not None and na.get('fontScale'): scale = int(na.get('fontScale')) / 100000
     wrap = bp is None or bp.get('wrap', 'square') != 'none'
-    paras = []
+    paras = []; ovt = (ov or {}).get('text')
+    if (ov or {}).get('join') and not ovt: ovt = ' '.join(re.sub(r'\s+', ' ', q.text).strip() for q in tf.paragraphs if q.text.strip())   # join = one paragraph
+    if isinstance(ovt, str):      # one string = the whole text of the box (paragraphs without letters, like an emoji, are kept)
+        ne = [q.text for q in tf.paragraphs if q.text.strip()]; li = [i for i, t in enumerate(ne) if re.search(r'[A-Za-z0-9]', t)]
+        ovt = [None if i not in li else (ovt if i == li[0] else '') for i in range(len(ne))]
+    pi = -1
     for p in tf.paragraphs:
         pp = p._p.find(A + 'pPr'); st = []
         al = pp.get('algn') if pp is not None else None
@@ -196,12 +201,21 @@ def text_html(sh, theme, x, y, w, h):
         dflt = p._p.find(A + 'endParaRPr')
         fs = str(max(sizes)) if sizes else (dflt.get('sz') if dflt is not None and dflt.get('sz') else None)
         inner = runs_html(p, theme, scale)
+        if p.text.strip(): pi += 1
+        if ovt and p.text.strip() and pi < len(ovt) and ovt[pi] == '': continue      # '' in overrides = drop this paragraph
+        if ovt and p.text.strip() and pi < len(ovt) and ovt[pi] is not None:
+            r0 = p._p.find(A + 'r'); keep = runs_html(type('P', (), {'_p': [r0]})(), theme, scale) if r0 is not None else ''
+            m = re.match(r'<span style="([^"]*)">', keep)
+            inner = (f'<span style="{m.group(1)}">' if m else '') + esc(ovt[pi]).replace('\n', '<br>') + ('</span>' if m else '')
         plain = ''.join(x.text or '' for x in p._p.iter(A + 't'))
         if plain.strip() and all(ord(c) > 0x2000 or c.isspace() for c in plain): st.append('white-space:nowrap')   # emoji-only lines never wrap
         if fs: st.append(f'font-size:{int(fs) / 100 * scale:.2f}pt')
         paras.append(f'<p style="{";".join(st)}">{inner or "&nbsp;"}</p>')
     ws = '' if wrap else 'white-space:nowrap;'
-    return (f'<div class="rx-t" style="left:{x:.1f}px;top:{y:.1f}px;width:{w:.1f}px;height:{h:.1f}px;'
+    if boxed: L, Rr = max(L, 10), max(Rr, 10)        # text inside a drawn bubble never touches its border (Pierre, 10 Nov)
+    if ov and ov.get('pad') is not None: L = Rr = ov['pad']
+    da = (f' data-lines="{ov["lines"]}"' if ov and ov.get('lines') else '') + (' data-nofit="1"' if ov and ov.get('nofit') else '')
+    return (f'<div class="rx-t" data-k="{k}"{da} style="left:{x:.1f}px;top:{y:.1f}px;width:{w:.1f}px;height:{h:.1f}px;'
             f'padding:{T:.1f}px {Rr:.1f}px {B:.1f}px {L:.1f}px;justify-content:{anchor};{ws}">' + ''.join(paras) + '</div>')
 
 
@@ -270,9 +284,15 @@ def unspace(s):
     return ' '.join(w.replace(' ', '') for w in re.split(r' {2,}', s.strip()))
 
 
-def convert(slide, theme, media_dir, media_url):
+def convert(slide, theme, media_dir, media_url, overrides=None):
+    overrides = overrides or {}
     out = dict(section=None, title=None, page=None, note=None); body = []
-    for sh, x, y, w, h in walk(slide.shapes):
+    for k, (sh, x, y, w, h) in enumerate(walk(slide.shapes)):
+        ov = overrides.get(k, {})
+        if ov.get('hide'): continue
+        if ov.get('dy'): y += ov['dy']
+        if ov.get('dx'): x += ov['dx']
+        if ov.get('scale'): s_ = ov['scale']; x, y, w, h = x + w * (1 - s_) / 2, y + h * (1 - s_) / 2, w * s_, h * s_
         txt = sh.text_frame.text.strip() if sh.has_text_frame else ''
         g = sh._element.find('.//' + A + 'prstGeom'); prst = g.get('prst') if g is not None else None
         # ---- chrome ----
@@ -292,7 +312,7 @@ def convert(slide, theme, media_dir, media_url):
             body.append(f'<img class="rx-i" src="{media_url}/{name}" style="left:{x:.1f}px;top:{y:.1f}px;width:{w:.1f}px;height:{h:.1f}px">')
             continue
         kind = 'line' if sh.shape_type == MSO_SHAPE_TYPE.LINE or (prst or '').endswith('Connector1') or (prst or '').startswith('curvedConnector') or (prst or '').startswith('straightConnector') else 'shape'
-        body.append(shape_svg(sh, theme, x, y, w, h, kind))
-        if txt: body.append(text_html(sh, theme, x, y, w, h))
+        sv = shape_svg(sh, theme, x, y, w, h, kind); body.append(sv)
+        if txt: body.append(text_html(sh, theme, x, y, w, h, k, ov, boxed=bool(sv) and kind != 'line'))
     out['html'] = '\n'.join(b for b in body if b)
     return out

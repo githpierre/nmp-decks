@@ -225,6 +225,6 @@ b,strong{font-weight:700}
 .raw .rx-s{position:absolute;overflow:visible}
 .raw .rx-i{position:absolute;object-fit:contain}
 .raw .rx-t{position:absolute;display:flex;flex-direction:column;font-family:Lexend,sans-serif;color:#fff;font-size:18pt;overflow:visible}
-.raw .rx-t p{line-height:1.2;overflow-wrap:break-word;white-space:pre-wrap}
+.raw .rx-t p{line-height:1.2;overflow-wrap:break-word;white-space:pre-wrap;text-wrap:balance}
 
 .foot-line,.foot-label,.foot-brand{z-index:5}.slide:not(.cover) .foot-brand{background:var(--bg)}

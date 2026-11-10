@@ -100,6 +100,25 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 - KPI arrows point down automatically when the value is negative. A page marker "1/1" is never shown.
 - Funding-bar arrows: one symmetric SVG (shaft + head on the same axis), centred on the bar.
 
+## Text boxes (Pierre's oral review of the full EdTech deck, slides 8-32, 10 Nov 2026)
+Rules deduced from his remarks, checked by code (templates/rawfit.js at build time, tools/audit_groups.py after):
+- Parallel boxes = same width, same font size and colour, on one row or one column. They always have the SAME number
+  of lines (slide 8: 5 lines each; slide 10: 6; slide 22: 5; slides 29-30: 10; slide 31-32: 3). The build forces the
+  group's largest count; `lines: N` in overrides.yaml sets another target. A one-line label is never stretched.
+- Every multi-line text is balanced: the build picks the line breaks that make the lines as equal as possible
+  (dynamic programming on measured word widths), last line included. Never "..., and / degrees online".
+  A number stays with its unit ("$1 billion", "24 hours" never split).
+- Bubbles are well filled: the longest line uses about 80-95 % of the inner width. When a text is short, ADD 2-3 words
+  (same facts, no new figure) rather than leave 25-30 % of the bubble empty (slides 15, 16, 18-20, 23). Answers in one
+  row/column have about the same word count (reference: the longest well-filled one).
+- Text never touches its bubble: at least 10 px inside padding (14 px on narrow columns, slide 10).
+- Small elements beside text: badges sit on the bubble's top edge, never close to the text (slide 32);
+  decorative crosses/icons are not oversized (slide 23: 80 %).
+- Content block is vertically centred between the title (or subtitle) and the note.
+- How: rewrites go in decks/<slug>/overrides.yaml (`text`, `join`, `lines`, `pad`, `dy`, `scale`), candidates are measured
+  first with `tools/try_texts.py` (it reports lines, balance and fill for each candidate; keep the best).
+  Audit thresholds: same line count in a group; balance <= 12 % (2 lines) / 25 % (3-4 lines); fill >= 70 %.
+
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
    that LLM does the research AND returns the final JSON/CSV in the same answer (never research first, then a second "go").
@@ -108,6 +127,8 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 4. Every correction from Pierre becomes a line here (or a template/CSS change), never a one-off fix in a single deck.
 
 ## History
+- 2026-11-10: oral review of slides 8-32 of the full EdTech deck -> "Text boxes" rules, rawfit.js (equal line counts +
+  balanced breaks), 200+ rewrites in overrides.yaml (slides 8-32 by hand, 33-220 chosen with try_texts.py).
 - 2026-11-10: workshop 6 settled (map lines: start middle of the edge, right-angle arrival, rounded elbow).
 - 2026-11-10: workshop 5 answers applied (notes, no ageing years, k1 timeline, definition kept, colour rules, elbow map lines landing on dots); EdTech notes rewritten.
 - 2026-11-10: workshop 5 (B judge: 1/2/3-line notes; C/D/E design choices: 6 dated-list finishes, 9 definition designs, 6 map line shapes).

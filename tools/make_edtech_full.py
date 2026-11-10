@@ -14,12 +14,13 @@ TEMPLATED = {1: 0, 4: 1, 6: 2, 14: 3, 17: 4, 24: 5, 25: 6, 33: 7, 42: 8, 46: 9, 
 AGENDA = {5: 1, 26: 2, 40: 3, 53: 4, 86: 5, 100: 6, 131: 7, 146: 8, 155: 9, 170: 10, 191: 11, 203: 12}
 out = ROOT / 'decks/edtech-full'; media = out / 'media/raw'; media.mkdir(parents=True, exist_ok=True)
 (out / 'media/cover.jpg').write_bytes((ROOT / 'decks/edtech/media/cover.jpg').read_bytes())
+OV = yaml.safe_load((out / 'overrides.yaml').read_text()) if (out / 'overrides.yaml').exists() else {}
 prs = Presentation(str(SRC)); theme = pptx2html.theme_colors(prs); slides = []
 for i, sl in enumerate(prs.slides, 1):
     if i in TEMPLATED: s = dict(PS[TEMPLATED[i]])
     elif i in AGENDA: s = dict(type='agenda', section=None, current=AGENDA[i])
     else:
-        r = pptx2html.convert(sl, theme, media, 'media/raw')
+        r = pptx2html.convert(sl, theme, media, 'media/raw', {int(k): v for k, v in (OV.get(i) or {}).items()})
         s = dict(type='raw', html=r['html'])
         for k in ('section', 'title', 'page', 'note'):
             if r[k]: s[k] = r[k]

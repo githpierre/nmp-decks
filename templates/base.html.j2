@@ -30,4 +30,5 @@
   // footer label on one line inside its 228 px: tighten the letter spacing if a long market name would overflow
   document.querySelectorAll('.foot-label').forEach(f => { let ls = 0.42; while (f.scrollWidth > f.clientWidth + 1 && ls > 0.1) { ls -= 0.02; f.style.letterSpacing = ls + 'em'; } });
   m.remove(); })();</script>
+<script>{% include 'rawfit.js' %}</script>
 </body></html>
