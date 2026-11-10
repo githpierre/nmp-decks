@@ -1,3 +1,4 @@
+import re
 #!/usr/bin/env python3
 """Build a NewMarketPitch deck: decks/<slug>/deck.yaml -> deck.html -> PDF (+ PNG previews + layout audit).
 
@@ -155,6 +156,9 @@ def build(slug, png=False, only=None):
             for k in keep:
                 if k and ' ' in k: s['title'] = _re.sub(_re.escape(k).replace('\\ ', '\\s+'), k.replace(' ', '\u00a0'), s['title'], flags=_re.I)
     html = env.get_template('base.html.j2').render(deck=deck, slides=deck['slides'])
+    # figures typography in every slide, templated or converted (Pierre, 11 Nov 2026): '$ 187 B' -> '$187B', '5 %' -> '5%'
+    html = re.sub(r'([$€£])\s+(\d[\d.,]*)\s*([KMBT])(?=[\s<,.;:)]|$)', r'\1\2\3', html)
+    html = re.sub(r'(?<=[>\s≈~])(\d[\d.,]*)\s+%', r'\1%', html)
     (d / 'deck.html').write_text(html)
     out = d / 'out'; out.mkdir(exist_ok=True)
     from playwright.sync_api import sync_playwright

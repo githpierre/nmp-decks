@@ -15,15 +15,39 @@ AGENDA = {5: 1, 26: 2, 40: 3, 53: 4, 86: 5, 100: 6, 131: 7, 146: 8, 155: 9, 170:
 out = ROOT / 'decks/edtech-full'; media = out / 'media/raw'; media.mkdir(parents=True, exist_ok=True)
 (out / 'media/cover.jpg').write_bytes((ROOT / 'decks/edtech/media/cover.jpg').read_bytes())
 OV = yaml.safe_load((out / 'overrides.yaml').read_text()) if (out / 'overrides.yaml').exists() else {}
+def priority(sl, r):
+    """A converted priority matrix (+ / ++ / +++ cells) becomes the 'priority' template, like the hand-made ones (same type, same look)."""
+    T = [(sh.left, sh.top, sh.text_frame.text.strip()) for sh in sl.shapes if sh.has_text_frame and sh.text_frame.text.strip()]
+    cells = [t for t in T if t[2] in ('+', '++', '+++')]
+    if len(cells) < 15: return None
+    xs = sorted({c[0] for c in cells}); x0, x1 = xs[0], xs[-1]
+    rows = sorted({min((c[1] for c in cells), key=lambda v: abs(v - y)) for y in [c[1] for c in cells]})
+    ys = []
+    for y in sorted(c[1] for c in cells):
+        if not ys or y - ys[-1] > 12700 * 8: ys.append(y)
+    near = lambda a, b: abs(a - b) < 12700 * 8
+    pains = [t for t in T if t[0] < x0 and len(t[2]) > 12 and any(near(t[1], y) for y in ys)]
+    pr = [t for t in T if t[0] > x1 and t[2].isupper() and any(near(t[1], y) for y in ys)]
+    icons = [t[2] for t in sorted((t for t in T if x0 - 12700 * 5 <= t[0] <= x1 + 12700 * 5 and t[1] < ys[0] - 12700 * 10 and len(t[2]) <= 3 and not t[2].isalnum()), key=lambda t: t[0])]
+    sub = [t[2] for t in T if 12700 * 100 < t[1] < 12700 * 140 and t[2].isupper() and len(t[2]) > 3]
+    out = []
+    for y in ys:
+        p_ = next((t[2] for t in pains if near(t[1], y)), ''); q = next((t[2] for t in pr if near(t[1], y)), '')
+        out.append(dict(pain=' '.join(p_.split()), s=[len(c[2]) for c in sorted((c for c in cells if near(c[1], y)), key=lambda c: c[0])], p=q))
+    title = '\n'.join(l.strip() for l in (r['title'] or '').split('\n')) if r.get('title') else 'Which pains deserve\nattention first?'
+    return dict(type='priority', section=r.get('section') or 'Pain points', title=title, subtitle=(sub[0].capitalize() if sub else ''), icons=icons, rows=out, note=r.get('note'))
+
+
 prs = Presentation(str(SRC)); theme = pptx2html.theme_colors(prs); slides = []
 for i, sl in enumerate(prs.slides, 1):
     if i in TEMPLATED: s = dict(PS[TEMPLATED[i]])
     elif i in AGENDA: s = dict(type='agenda', section=None, current=AGENDA[i])
     else:
         r = pptx2html.convert(sl, theme, media, 'media/raw', {int(k): v for k, v in (OV.get(i) or {}).items()})
-        s = dict(type='raw', html=r['html'])
-        for k in ('section', 'title', 'page', 'note'):
-            if r[k]: s[k] = r[k]
+        s = priority(sl, r) or dict(type='raw', html=r['html'])
+        if s['type'] == 'raw':
+            for k in ('section', 'title', 'page', 'note'):
+                if r[k]: s[k] = r[k]
     if s['type'] == 'agenda' and not s.get('section'):
         r = pptx2html.convert(sl, theme, media, 'media/raw'); s['section'] = r['section'] or 'EdTech market'
     s['src'] = i

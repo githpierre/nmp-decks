@@ -153,6 +153,8 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
 ### Audit visuel (11 Nov 2026, tools/atelier2/fixlib.js + fixes.py, appliqué à tous les decks)
 - Chiffres : « $192B », « ≈5% » (pas d'espace), « ASIA-PACIFIC » ; un lien souligné ne l'est pas sur l'espace final.
 - Connecteurs : on garde le petit espace entre le bout d'un trait et sa cible (Pierre trouve ça joli) ; la ligne d'un arbre peut dépasser ses branches.
+- Une flèche refaite relie exactement les deux éléments que reliait l'original (vérifier chaque liaison une par une, 11 Nov : erreur sur la slide 154).
+- Un segment porte le même nom partout (intercalaire, sous-titres, tableaux, cartes) ; même règle pour les chiffres : la typographie s'applique aux slides modèles ET converties.
 - Une flèche ne coupe jamais une bulle : elle part d'un bord et arrive au milieu d'un bord, pointe rose identique partout.
 - Noms de catégories en titre de carte : toujours sur 2 lignes ; un nom d'un seul mot en reçoit un second (CREDENTIALING → DIGITAL CREDENTIALING).
 - Une étiquette posée sur une ligne de grille est centrée sur cette ligne (la ligne s'interrompt derrière elle).

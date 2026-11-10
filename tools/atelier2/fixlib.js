@@ -114,6 +114,11 @@ window.F = (() => {
       i.style.left = (z.left - R.left + (z.width - s) / 2) + 'px'; i.style.top = (z.top - R.top + (z.height - s) / 2) + 'px'; i.style.width = s + 'px'; i.style.height = s + 'px'; i.style.borderRadius = '3px';
       t.setAttribute('stroke', '#5E7E8E'); t.setAttribute('stroke-width', '1.5'); t.closest('svg').style.overflow = 'visible'; mark('logos', sl); }); };
 
+  // one name per category everywhere (Pierre, 11 Nov): CREDENTIALING -> DIGITAL CREDENTIALING (titles, subtitles, table rows)
+  const names = sl => sl.querySelectorAll('.raw > .rx-t, .subtitle').forEach(el => { const t = el.innerText.replace(/\s+/g, ' ').trim();
+    if (!/^credentialing$/i.test(t)) return; const up = t === t.toUpperCase(); const sp = [...el.querySelectorAll('span')].filter(s => s.textContent.trim()).pop() || el;
+    sp.textContent = up ? 'DIGITAL CREDENTIALING' : 'Digital credentialing'; mark('names', sl); });
+
   // category names used as card titles: all on 2 lines when some already are (Pierre, 11 Nov); a one-word name gets a second word
   const CAT2 = {CREDENTIALING: 'DIGITAL CREDENTIALING'};
   const cats = sl => { const ts = A.texts(sl).filter(t => vis(t.el) && t.w < 260 && /^([A-Z][A-Z \-&]{3,40}|.*K-12.*)$/.test(clean2(t)) && getComputedStyle(t.el.querySelector('span') || t.el).fontWeight >= 700);
@@ -124,6 +129,6 @@ window.F = (() => {
   const clean2 = t => t.el.innerText.replace(/\s+/g, ' ').trim();
 
   // generic rules, every raw slide
-  const all = sl => { if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
