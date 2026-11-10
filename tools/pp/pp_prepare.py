@@ -1,6 +1,6 @@
 """Geometry for the 12 product-page slide types (HTML version of the live PowerPoint look).
 deck.yaml only holds data (texts, numbers, logos); every position is computed here, in px on the 960 x 672 canvas."""
-import math, hashlib
+import math, hashlib, re
 
 def _h(s):
     return int(hashlib.md5(s.encode()).hexdigest()[:8], 16)
@@ -20,9 +20,9 @@ def radar(s):
 
 def curve(s):
     pts = s['points']; xl, xr, top, base = 160, 520, 300, 556
-    vals = [v for _, v in pts]; mx = max(vals) * 1.05
+    vals = [v for _, v in pts]; mx = max(vals) * 1.05; mn = 0 if s.get('zero', True) else min(vals) * 0.85
     n = len(pts) - 1; fc = s.get('forecast', 0); real = n - fc
-    P = [dict(lab=l, v=v, x=xl + i * (xr - xl) / n, y=base - v / mx * (base - top), fc=i > real, last=i == n) for i, (l, v) in enumerate(pts)]
+    P = [dict(xl_=l, v=v, x=xl + i * (xr - xl) / n, y=base - (v - mn) / (mx - mn) * (base - top), lab=(s.get('labs') or [None]*len(pts))[i], fc=i > real, last=i == n) for i, (l, v) in enumerate(pts)]
     area = f"M{P[0]['x']:.1f},{base} " + ' '.join(f"L{p['x']:.1f},{p['y']:.1f}" for p in P[:real + 1]) + f" L{P[real]['x']:.1f},{base} Z"
     s['geo'] = dict(P=P, area=area, base=base, xl=xl, xr=xr, real=real)
 
@@ -80,7 +80,21 @@ def tech(s):
 def value(s):
     X0, X1, Y0, Y1 = 208, 802, 520, 252
     for g in s['groups']:
-        g['px'] = 290 + g['x'] * 440; g['py'] = 547 - 298 * g['y']
+        g['px'] = X0 + 95 + g['x'] * (X1 - X0 - 190); g['py'] = Y0 - 55 - g['y'] * (Y0 - Y1 - 85)
+        n = len(g['logos']); g['bw'] = max(n * 44 + 16, min(max(n * 44 + 46, 125), len(g['name']) * 5.6)); g['bh'] = 34 + 52 + (14 if len(g['name']) * 5.6 > g['bw'] else 0)
+    G = s['groups']
+    for _ in range(200):
+        moved = False
+        for i in range(len(G)):
+            for j in range(i + 1, len(G)):
+                a, b = G[i], G[j]; ox = (a['bw'] + b['bw']) / 2 + 10 - abs(a['px'] - b['px']); oy = (a['bh'] + b['bh']) / 2 + 8 - abs(a['py'] - b['py'])
+                if ox > 0 and oy > 0:
+                    moved = True
+                    if ox < oy: d = ox / 2 * (1 if a['px'] >= b['px'] else -1); a['px'] += d; b['px'] -= d
+                    else: d = oy / 2 * (1 if a['py'] >= b['py'] else -1); a['py'] += d; b['py'] -= d
+        for g in G:
+            g['px'] = min(max(g['px'], X0 + g['bw'] / 2 + 12), X1 - g['bw'] / 2); g['py'] = min(max(g['py'], Y1 + g['bh'] / 2 - 10), Y0 - g['bh'] / 2 - 6)
+        if not moved: break
     s['geo'] = dict(X0=X0, X1=X1, Y0=Y0, Y1=Y1)
 
 def risks(s):
@@ -89,7 +103,9 @@ def risks(s):
     s['geo'] = dict(cols=[dict(x=x, rows=[dict(e=e, y=266 + i * 71) for i, e in enumerate(es)]) for x, es in cols])
 
 def drivers(s):
-    E = s['events']; cols = [(144, E[:15]), (517, E[15:30])]
+    E = s['events']; halves = [E[:15], E[15:30]]
+    tw = [max([len(e['text']) for e in h] + [10]) * 6.4 for h in halves]; cw = [42 + t + 14 + 22 for t in tw]; gap = 34
+    L = (960 - (sum(cw) + gap)) / 2; cols = [(L, halves[0]), (L + cw[0] + gap, halves[1])]; s['cw'] = cw
     hot = sorted(range(len(E)), key=lambda i: -E[i]['impact'])[:3]; hot = {i for i in hot if E[i]['impact'] >= 2.5}
     for i, e in enumerate(E): e['hot'] = i in hot
     out = []
@@ -97,7 +113,7 @@ def drivers(s):
         rows, prev = [], None
         for i, e in enumerate(es):
             rows.append(dict(e=e, y=251 + i * 22.3, dim=e['year'] == prev, hl=e['hot'])); prev = e['year']
-        out.append(dict(x=x, rows=rows))
+        out.append(dict(x=x, rows=rows, w=cw[len(out)]))
     s['geo'] = dict(cols=out)
 
 def raises(s):
@@ -129,7 +145,7 @@ def killers(s):
         xs = [464, 555, 651, 750][:len(s['causes'])]
         for r in s['rows']: r['years'] = int(r['end']) - int(r['start'])
     else:
-        xs = [395, 498, 580, 671][:len(s['signs'])]
+        k = len(s['signs']); xs = [395 + i * (400 / max(1, k - 1) if k > 4 else 92) for i in range(k)]
         for r in s['rows']:
             n = sum(1 for c in r['cells'] if c); r['risk'] = 'High risk' if n >= 3 else 'Medium risk'; r['rn'] = 3 if n >= 3 else 1
     n = len(s['rows']); st = 52 if n >= 5 else 58
@@ -195,3 +211,14 @@ def donut_var(s):
 
 PREP = dict(donutv=donut_var, radar=radar, curve=curve, cagr=cagr, donut=donut, pains=pains, tech=tech, value=value, risks=risks,
             drivers=drivers, raises=raises, grid=grid, killers=killers, survivors=survivors, winner=winner)
+
+def trends(s):
+    import csv as _c, statistics as st
+    rows = [r for r in _c.reader(open(s['csv'])) if len(r) == 2 and re.match(r'\d{4}-', r[0])]
+    v = [float(x[1].replace('<1', '0.5')) for x in rows]
+    pk = len(v) - 1 - max(range(len(v)), key=lambda i: (v[::-1][i], -i)) if False else max(i for i, x in enumerate(v) if x == max(v))
+    v = v[:pk + 1]; n = len(v); r = max(v) / max(st.median(v[:int(n * .75)]), 1)
+    lab = '×20+' if r >= 20 else (f'×{int(round(r / 5) * 5)}' if r >= 10 else f'×{round(r * 2) / 2:.1f}'.replace('.0', ''))
+    x0, x1, y0, y1 = 136, 824, 500, 352
+    s['geo'] = dict(stat=lab, pts=' '.join(f'{x0 + i / (n - 1) * (x1 - x0):.1f},{y0 - x / 100 * (y0 - y1):.1f}' for i, x in enumerate(v)), base=y0 + 16)
+PREP['trends'] = trends

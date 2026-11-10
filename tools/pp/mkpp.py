@@ -4,10 +4,18 @@ import json, os, re, shutil, sys, yaml
 import pandas as pd
 ROOT = '/home/claude/nmp-decks'; W = '/root/w/m131'; S10 = '/root/w/s10'
 LOGO_DIRS = [f'{W}/logos', '/root/w/s9/logos', f'{ROOT}/assets/logos']
-NAME = {'low-carbon-cement': 'low-carbon cement', 'metal-additive-manufacturing': 'metal 3D printing'}
-LABEL = {'low-carbon-cement': 'LOW-CARBON CEMENT', 'metal-additive-manufacturing': 'METAL 3D PRINTING'}
+NAME0 = {'low-carbon-cement': 'low-carbon cement', 'metal-additive-manufacturing': 'metal 3D printing'}
+LABEL0 = {'low-carbon-cement': 'LOW-CARBON CEMENT', 'metal-additive-manufacturing': 'METAL 3D PRINTING'}
 SRC = ' All the sources are included at the end of the report.'
 os.makedirs(f'{ROOT}/assets/logos/pp', exist_ok=True)
+import csv as _csv
+_MK = {r['handle']: r for r in _csv.DictReader(open('/root/w/nmp_slide_kit/markets_225.csv'))}
+def NAME(h):
+    for f in (f'{W}/data/mc_{h}.json', f'/root/w/m101/s07/mc/{h}.json', f'{S10}/gd/{h}.json'):
+        if os.path.exists(f): return json.load(open(f))['name']
+    return _MK[h]['nom_market'].replace(' market', '')
+def LABEL(h): return ' '.join(''.join(w.split()) for w in re.split(r'\s{2,}', _MK[h]['market_name_for_slide'].strip()))
+slides_old = None
 
 def logo(slug):
     """copy the logo into assets/logos/pp and return its path from the deck, or None"""
@@ -23,13 +31,14 @@ def J(p): return json.load(open(p))
 def two(t): return t if isinstance(t, str) else '\n'.join(t)
 
 def slides(h):
-    nm, lab = NAME[h], LABEL[h]; out = []
+    nm, lab = NAME(h), LABEL(h); out = []
     base = dict(label=lab)
+    NEWD = h in J(f'{W}/data/s01.json')
     # S01 radar
-    d = J(f'{W}/data/s01.json')[h]
+    d = J(f'{W}/data/s01.json').get(h) or J('/root/w/m131/data/s01.json')['low-carbon-cement']
     sl = dict(type='pp_radar', pill='MARKET MAP', label='', title=two(d['title']), caption=d['caption'], inside=[logo(x) for x in d['inside']])
     for k in ('TL', 'TR', 'BL', 'BR'): sl[k] = dict(src=logo(d[k][0]), name=d[k][1], text=d[k][2])
-    out.append(sl)
+    if NEWD: out.append(sl)
     # S02 curve (only where a series exists)
     if h == 'metal-additive-manufacturing':
         out.append(dict(base, type='pp_curve', section='Market opportunity', title='Spending on 3D printing keeps climbing, year after year',
@@ -38,20 +47,20 @@ def slides(h):
             lastlines=['spent on 3D printing', 'worldwide in 2026'], big='1.9x', unit=' in 5 years',
             paras=['Global 3D printing revenue grew from $12.8B in 2020 to $24.2B in 2025.', 'Printing services grew fastest, up 15.5% in 2025.', 'Metal printing alone reached about $6.3B in 2025.']))
     # S03 cagr
-    d = [x for x in J(f'{W}/data/s03.json') if x['handle'] == h][0]
-    out.append(dict(base, type='pp_cagr', section='Market size', title=two(d['title']), size=d['size_usd_bn'], cagr=d['cagr_pct'], lead={'room':'To fill that room, ','ten':'To get there, ','bigger':'To get that big, '}.get(d.get('family'),'To grow this fast, '), condition=d['growth_condition'],
+    d = ([x for x in J(f'{W}/data/s03.json') if x['handle'] == h] or [None])[0]
+    if d: out.append(dict(base, type='pp_cagr', section='Market size', title=two(d['title']), size=d['size_usd_bn'], cagr=d['cagr_pct'], lead={'room':'To fill that room, ','ten':'To get there, ','bigger':'To get that big, '}.get(d.get('family'),'To grow this fast, '), condition=d['growth_condition'],
         note=f"We compared forecasts from {d['sources_note']}, adjusted each one to our definition, and built a realistic range"))
     # S03 donut
-    d = J(f'{W}/data/donut.json')[h]
-    out.append(dict(base, type='pp_donut', section='Market size', title=f"How is the {nm} market split between its categories?",
+    d = J(f'{W}/data/donut.json').get(h)
+    if d: out.append(dict(base, type='pp_donut', section='Market size', title=f"How is the {nm} market split between its categories?",
         cats=[dict(name=a, p=b, logos=[x for x in (logo(s) for s in c) if x]) for a, b, c in d['cats']],
         note='We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares.' + SRC))
     # S04 pains
-    d = J(f'{W}/data/s04.json')[h]
-    out.append(dict(base, type='pp_pains', section='Pain points', title=two(d['title']), auds=d['auds'], pains=d['pains'],
+    d = J(f'{W}/data/s04.json').get(h)
+    if d: out.append(dict(base, type='pp_pains', section='Pain points', title=two(d['title']), auds=d['auds'], pains=d['pains'],
         note='We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group.' + SRC + ' Bigger dots mean that group would pay more to fix it.'))
     # S05 tech
-    d = J(f'{W}/data/s05_{h}.json')
+    d = J(f'{W}/data/s05_{h}.json') if os.path.exists(f'{W}/data/s05_{h}.json') else J(f'/root/w/m101/s05/data/{h}.json')
     out.append(dict(base, type='pp_tech', section='Tech and infra', title=two(d['title']), companies=[dict(name=c['name'], src=logo(c['slug'])) for c in d['companies']],
         features=[dict(header=f['header'], values=f['values']) for f in d['features']],
         note="We went through each company's website, filings and press releases, and checked feature by feature what it really has." + SRC + ' A pink dot means the feature is there.'))
@@ -61,7 +70,7 @@ def slides(h):
         groups=[dict(name=g['name'], x=g['x'], y=g['y'], logos=[dict(src=logo(l['slug']))for l in g['logos']]) for g in d['groups']],
         note='We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits.' + SRC))
     # S07 risks
-    d = J(f'{W}/data/mc_{h}.json')
+    d = J(f'{W}/data/mc_{h}.json') if os.path.exists(f'{W}/data/mc_{h}.json') else J(f'/root/w/m101/s07/mc/{h}.json')
     out.append(dict(base, type='pp_risks', section='Market challenges', title=f'What could go wrong for {nm}?' if h == 'low-carbon-cement' else f'What are the biggest threats to the {nm} market?', events=d['events'],
         note=f"We listed the events that could slow {nm} down, then estimated how likely each one is and how hard it would hit, from company news, regulators' decisions, funding data and analyst views. Odds are our own estimates." + SRC))
     # S08 drivers
@@ -111,6 +120,7 @@ def slides(h):
         note='We compared companies with the same business model on what matters most to customers, from company reports, contract awards and public records.' + SRC))
     # grid tiles need logos
     return out
+slides_old = slides
 
 if __name__ == '__main__':
     slug, hs = sys.argv[1], sys.argv[2:]
@@ -119,6 +129,6 @@ if __name__ == '__main__':
         if s['type'] == 'pp_grid':
             s['srcs'] = {k: logo(k) for row in s['cells'] for cell in row for k in cell}
     os.makedirs(f'{ROOT}/decks/{slug}', exist_ok=True)
-    deck = dict(market='Product page slides', quarter='prototypes', label='', keep_together=list(NAME.values()), slides=S)
+    deck = dict(market='Product page slides', quarter='prototypes', label='', keep_together=[NAME(h) for h in hs], slides=S)
     yaml.safe_dump(deck, open(f'{ROOT}/decks/{slug}/deck.yaml', 'w'), sort_keys=False, allow_unicode=True, width=200)
     print(len(S), 'slides')

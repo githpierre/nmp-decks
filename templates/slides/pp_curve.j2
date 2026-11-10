@@ -4,7 +4,7 @@
 {% for p in G.P[:-1] %}{% set q = G.P[loop.index] %}<line x1="{{p.x}}" y1="{{p.y}}" x2="{{q.x}}" y2="{{q.y}}" stroke="#FB0161" stroke-width="3" {% if q.fc %}stroke-dasharray="6 5"{% endif %}/>{% endfor %}
 {% for p in G.P %}{% if p.fc %}<circle cx="{{p.x}}" cy="{{p.y}}" r="7.5" fill="#062A3C" stroke="#FB0161" stroke-width="2"/>{% else %}<circle cx="{{p.x}}" cy="{{p.y}}" r="7" fill="{{ '#FB0161' if p.last else '#ECEFF1' }}"/>{% endif %}{% endfor %}
 </svg>
-{% for p in G.P %}{% if not p.last %}<span class="pp-vl" style="left:{{p.x}}px;top:{{p.y-26}}px">{{ s.fmt.replace('{}', '%.1f'|format(p.v)) }}</span>{% endif %}
-<span class="pp-xl" style="left:{{p.x}}px;top:{{G.base+7}}px">{{p.lab}}{% if p.fc %}<br>forecast{% endif %}</span>{% endfor %}
-{% set q = G.P[-1] %}<div class="pp-last" style="right:{{960-q.x-6}}px;top:{{q.y-92}}px"><b>{{ s.fmt.replace('{}', '%.1f'|format(q.v)) }}</b>{% for l in s.lastlines %}<span>{{l}}</span>{% endfor %}</div>
+{% for p in G.P %}{% if not p.last %}<span class="pp-vl" style="left:{{p.x}}px;top:{{p.y-26}}px">{{ p.lab or s.fmt.replace('{}', '%.1f'|format(p.v)) }}</span>{% endif %}
+<span class="pp-xl" style="left:{{p.x}}px;top:{{G.base+7}}px">{{p.xl_}}{% if p.fc %}<br>forecast{% endif %}</span>{% endfor %}
+{% set q = G.P[-1] %}<div class="pp-last" style="right:{{960-q.x-6}}px;top:{{q.y-92}}px"><b>{{ q.lab or s.fmt.replace('{}', '%.1f'|format(q.v)) }}</b>{% for l in s.lastlines %}<span>{{l}}</span>{% endfor %}</div>
 <div class="pp-side"><div class="pp-big">{{s.big}}<small>{{s.unit}}</small></div>{% for p in s.paras %}<p>{{p}}</p>{% endfor %}</div>
