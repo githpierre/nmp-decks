@@ -145,6 +145,7 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
 - Quand Pierre demande d'être créatif, il faut CHANGER LA MISE EN PAGE, pas un détail : ne pas garder la structure existante (ex. flèche + 3 bulles)
   en ne variant que la couleur ou une barre. Chaque variante = une autre façon de représenter l'information (règle graduée, tableau,
   menu, pyramide, compteur, plans SaaS, quadrillage…). Mieux vaut une idée osée qu'une 30e retouche du même dessin.
+- Pages de revue, 2e tour et suivants : ne remontrer QUE ce que Pierre doit revoir (ce qu'il a refusé ou ce qui a changé) ; ce qu'il a validé est appliqué et disparaît de la page (11 Nov).
 - Quand il demande N variations, en montrer vraiment N, toutes différentes, auditées visuellement (texte complet, rien qui dépasse).
 - 11 Nov : les 30 refontes (arbre « Qui paie », intercalaires, « Maximum customer value ») toutes refusées : Pierre garde ses mises en page d'origine. Sur un format qu'il a dessiné, proposer des corrections ciblées (alignement, lisibilité) plutôt qu'une refonte, sauf s'il la demande.
 - Choix retenu : prix (slide 13) = quadrillage de fond (gammes posées sur une grille prix, items5 ZB).

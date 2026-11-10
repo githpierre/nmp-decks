@@ -8,7 +8,9 @@ HOW = {'convertisseur': 'règle du convertisseur : tous les decks', 'règle gén
 RULE = {'snapLines': 'traits prolongés jusqu’à leur cible', 'trimBus': 'lignes d’arbre recoupées', 'centerText': 'texte centré dans sa carte',
         'headers': 'en-têtes rendus lisibles', 'grid': 'cartes réalignées au pixel', 'gauges': 'mini-jauges', 'pillText': 'pastille + texte centrés', 'rail': 'rail des frises datées', 'arrowheads': 'pointes de flèches'}
 body = []
+ONLY = {int(x) for x in sys.argv[2].split(',')} if len(sys.argv) > 2 else None
 for f in M.FIXES:
+    if ONLY and f['id'] not in ONLY: continue
     i = f['id']; sl = ', '.join(map(str, f['slides']))
     body.append(f'''<section class="it" data-k="{i}" data-label="{E(f"{i} · {f['title']}")}"><div class="hd"><span class="num">{i}</span><h3>{E(f["title"])}</h3>
 <span class="sc">{E(HOW[f["how"]])} · slide{"s" if len(f["slides"]) > 1 else ""} {E(sl)}</span></div>
