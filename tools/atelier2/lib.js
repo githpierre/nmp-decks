@@ -68,5 +68,17 @@ window.A = (() => {
       else { const off = mode === 'top' ? D / 4 : 0; dy = c.y + c.h / 2 - (y0 + y1) / 2 + off; if (mode === 'top') { px = c.cx - D / 2; py = c.y - D / 2; } else { px = c.x - D / 2 + 2; py = c.y - D / 2 + 2; } }
       pill.style.left = px + 'px'; pill.style.top = py + 'px';
       ts.forEach(x => x.el.style.top = (parseFloat(x.el.style.top) + dy) + 'px'); }); };
-  return {cardPill, cards, inside, centerCards, toCorner, contentRect, C, S, box, shapes, texts, imgs, emojis, swap, svg, add, div, hide, restroke, unfilter, color, near, isEmoji};
+  // open the gap between card rows so a pill posed on the top edge never touches the row above; keeps the block centred
+  const spaceRows = (sl, need) => { const cs = cards(sl).filter(c => c.w > 120); const rows = [];
+    cs.sort((a, b) => a.y - b.y).forEach(c => { const r = rows.find(r => Math.abs(r.y - c.y) < 8); if (r) { r.c.push(c); r.b = Math.max(r.b, c.y + c.h); } else rows.push({y: c.y, b: c.y + c.h, c: [c]}); });
+    if (rows.length < 2) return; let tot = 0; const sh = [0];
+    for (let i = 1; i < rows.length; i++) { const g = rows[i].y - rows[i - 1].b; tot += Math.max(0, need - g); sh.push(tot); }
+    if (!tot) return; const R = sl.getBoundingClientRect(), half = tot / 2;
+    [...sl.querySelectorAll('.raw > *')].forEach(e => { const b = e.getBoundingClientRect(), cy = b.top - R.top + b.height / 2; if (b.height > 400) return;
+      let k = -1; rows.forEach((r, i) => { if (cy >= r.y - 30 && cy <= r.b + 6) k = i; }); if (k < 0) return;
+      e.style.top = (parseFloat(e.style.top) + sh[k] - half) + 'px'; }); };
+  // the type rule (Pierre, 10 Nov): numbered card grids -> pill above the text in the flow; plain grids -> pill on the top edge, rows spaced
+  const cardPillAuto = sl => { const numbered = shapes(sl).some(s => s.w < 34 && s.h < 34 && s.w > 22 && s.fill === '#062A3C');
+    if (numbered) cardPill(sl, 'flow', {d: 34, ic: 18}); else { spaceRows(sl, 36); cardPill(sl, 'top', {d: 36, ic: 18, bg: '#062A3C'}); } };
+  return {cardPillAuto, spaceRows, cardPill, cards, inside, centerCards, toCorner, contentRect, C, S, box, shapes, texts, imgs, emojis, swap, svg, add, div, hide, restroke, unfilter, color, near, isEmoji};
 })();

@@ -12,6 +12,7 @@ for iid, (v, extra, css, scope) in DEC.D.items():
         if not isinstance(n, int): continue
         c = ((V.get('css') or '') + css).replace('S ', f'.slide[data-n="{n}"] ')
         out.append(f"__D.push([{n},{json.dumps(c)},{json.dumps(js + ';' + extra)},{iid}]);")
+for n in DEC.CARDS: out.append(f"__D.push([{n},'','A.cardPillAuto(sl)','cards']);")
 out.append("""(function go(){ if(window.__rawfit!==true) return setTimeout(go,50);
   __D.forEach(([n,css,js,id])=>{ const sl=document.querySelector(`.slide[data-n="${n}"]`); if(!sl) return;
     if(css){const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);}

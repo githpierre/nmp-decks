@@ -70,7 +70,19 @@ window.A = (() => {
       else { const off = mode === 'top' ? D / 4 : 0; dy = c.y + c.h / 2 - (y0 + y1) / 2 + off; if (mode === 'top') { px = c.cx - D / 2; py = c.y - D / 2; } else { px = c.x - D / 2 + 2; py = c.y - D / 2 + 2; } }
       pill.style.left = px + 'px'; pill.style.top = py + 'px';
       ts.forEach(x => x.el.style.top = (parseFloat(x.el.style.top) + dy) + 'px'); }); };
-  return {cardPill, cards, inside, centerCards, toCorner, contentRect, C, S, box, shapes, texts, imgs, emojis, swap, svg, add, div, hide, restroke, unfilter, color, near, isEmoji};
+  // open the gap between card rows so a pill posed on the top edge never touches the row above; keeps the block centred
+  const spaceRows = (sl, need) => { const cs = cards(sl).filter(c => c.w > 120); const rows = [];
+    cs.sort((a, b) => a.y - b.y).forEach(c => { const r = rows.find(r => Math.abs(r.y - c.y) < 8); if (r) { r.c.push(c); r.b = Math.max(r.b, c.y + c.h); } else rows.push({y: c.y, b: c.y + c.h, c: [c]}); });
+    if (rows.length < 2) return; let tot = 0; const sh = [0];
+    for (let i = 1; i < rows.length; i++) { const g = rows[i].y - rows[i - 1].b; tot += Math.max(0, need - g); sh.push(tot); }
+    if (!tot) return; const R = sl.getBoundingClientRect(), half = tot / 2;
+    [...sl.querySelectorAll('.raw > *')].forEach(e => { const b = e.getBoundingClientRect(), cy = b.top - R.top + b.height / 2; if (b.height > 400) return;
+      let k = -1; rows.forEach((r, i) => { if (cy >= r.y - 30 && cy <= r.b + 6) k = i; }); if (k < 0) return;
+      e.style.top = (parseFloat(e.style.top) + sh[k] - half) + 'px'; }); };
+  // the type rule (Pierre, 10 Nov): numbered card grids -> pill above the text in the flow; plain grids -> pill on the top edge, rows spaced
+  const cardPillAuto = sl => { const numbered = shapes(sl).some(s => s.w < 34 && s.h < 34 && s.w > 22 && s.fill === '#062A3C');
+    if (numbered) cardPill(sl, 'flow', {d: 34, ic: 18}); else { spaceRows(sl, 36); cardPill(sl, 'top', {d: 36, ic: 18, bg: '#062A3C'}); } };
+  return {cardPillAuto, spaceRows, cardPill, cards, inside, centerCards, toCorner, contentRect, C, S, box, shapes, texts, imgs, emojis, swap, svg, add, div, hide, restroke, unfilter, color, near, isEmoji};
 })();
 
 const __D=[];
@@ -155,6 +167,13 @@ __D.push([209,"","const col=A.shapes(sl).find(s=>s.fill==='#0C3A50');A.shapes(sl
 __D.push([201,"","A.shapes(sl).filter(s=>s.fill==='#5E7E8E'&&s.w<6).forEach(s=>{A.hide([s]);A.div(sl,s.cx-4,s.cy-.5,8,1,'background:#33525F')});",96]);
 __D.push([3,"","A.shapes(sl).filter(s=>s.dash&&s.w>400).forEach(s=>{A.hide([s]);A.div(sl,s.x,s.y+30,3,s.h-60,'background:#FB0161')});",97]);
 __D.push([12,"","A.shapes(sl).filter(s=>s.stroke==='#334D54'&&s.w>120&&s.h<45).forEach(s=>{s.p.setAttribute('stroke','none');s.p.setAttribute('fill','#0E3D55')});",99]);
+__D.push([22,'','A.cardPillAuto(sl)','cards']);
+__D.push([31,'','A.cardPillAuto(sl)','cards']);
+__D.push([136,'','A.cardPillAuto(sl)','cards']);
+__D.push([142,'','A.cardPillAuto(sl)','cards']);
+__D.push([172,'','A.cardPillAuto(sl)','cards']);
+__D.push([186,'','A.cardPillAuto(sl)','cards']);
+__D.push([207,'','A.cardPillAuto(sl)','cards']);
 (function go(){ if(window.__rawfit!==true) return setTimeout(go,50);
   __D.forEach(([n,css,js,id])=>{ const sl=document.querySelector(`.slide[data-n="${n}"]`); if(!sl) return;
     if(css){const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);}

@@ -36,5 +36,7 @@ D = {
  97: ('B', '', '', None),
  99: ('A', '', '', None),
 }
+# 2nd round (10 Nov 23h50): card grids with emojis -> pastilles; numbered grids = A (flow), plain grids = B (top edge, rows spaced)
+CARDS = [22, 31, 136, 142, 172, 186, 207]
 # item 47: smaller trophies
 SIZE = {47: ("size:14", "size:11")}
