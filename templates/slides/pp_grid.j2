@@ -1,0 +1,6 @@
+{% set G = s.geo %}<svg class="pp-abs" width="960" height="672" stroke="#4A6A75" stroke-dasharray="2 4" stroke-width="1.2">
+{% for x in G.XB %}<line x1="{{x}}" y1="{{G.YB[0]-35}}" x2="{{x}}" y2="{{G.YB[-1]+20}}" {% if not loop.first and not loop.last %}stroke-width="2"{% endif %}/>{% endfor %}
+{% for y in G.YB %}<line x1="{{G.XB[0]-90}}" y1="{{y}}" x2="{{G.XB[-1]+20}}" y2="{{y}}"/>{% endfor %}</svg>
+{% for c in s.cols %}<span class="pp-gc" style="left:{{(G.XB[loop.index0]+G.XB[loop.index])/2}}px">{{c}}</span>{% endfor %}
+{% for r in s.rows %}<span class="pp-gr" style="right:{{960-G.XB[0]+2}}px;top:{{(G.YB[loop.index0]+G.YB[loop.index])/2-8}}px">{{r}}</span>{% endfor %}
+{% for t in G.tiles %}<span class="lt lg pp-c" style="left:{{t.x}}px;top:{{t.y}}px">{% if t.src %}<img src="{{t.src}}">{% else %}<b class="nt">{{t.ini}}</b>{% endif %}</span>{% endfor %}

@@ -1,0 +1,3 @@
+{% set G = s.geo %}{% for c in G.cols %}{% if c.rows %}<span class="pp-dh" style="left:{{c.x}}px">Year</span><span class="pp-dh" style="left:{{c.x+42}}px">What happened</span><span class="pp-dh" style="left:{{c.x+300}}px">Push</span>
+{% for r in c.rows %}{% if r.hl %}<i class="pp-dhl" style="left:{{c.x-6}}px;top:{{r.y-9}}px"></i>{% endif %}<span class="pp-dy {{ 'dim' if r.dim }}" style="left:{{c.x}}px;top:{{r.y}}px">{{r.e.year}}</span>
+<span class="pp-dt {{ 'hl' if r.hl }}" style="left:{{c.x+42}}px;top:{{r.y}}px">{{r.e.text}}</span><span class="pp-dp" style="left:{{c.x+300}}px;top:{{r.y-6}}px"><i style="width:{{ (r.e.impact/3*100)|round }}%"></i></span>{% endfor %}{% endif %}{% endfor %}

@@ -1,0 +1,4 @@
+{% set G = s.geo %}<svg class="pp-abs" width="960" height="672">{% for g in G.segs %}<path d="{{g.d}}" fill="{{g.col}}" stroke="#062A3C" stroke-width="2"/>{% endfor %}
+{% for g in G.segs %}<polyline points="{{g.ex}},{{g.ey}} {{g.ex}},{{g.ly}} {{g.lx + (-6 if g.right else 6)}},{{g.ly}}" fill="none" stroke="#9AA8AD" stroke-width="1"/>{% endfor %}</svg>
+<div class="pp-dc" style="left:{{G.cx}}px;top:{{G.cy}}px">share of the<br>market size</div>
+{% for g in G.segs %}<div class="pp-dl {{ 'r' if g.right else 'l' }}" style="{% if g.right %}left:{{g.lx}}px{% else %}right:{{960-g.lx}}px{% endif %};top:{{g.ly-9}}px"><b>{{g.p}}%</b> {{g.name}}<div class="pp-dlogos">{% for l in g.logos %}<span class="lt sm"><img src="{{l}}"></span>{% endfor %}</div></div>{% endfor %}

@@ -1,0 +1,1194 @@
+market: Product page slides
+quarter: prototypes
+label: ''
+keep_together:
+- low-carbon cement
+- metal 3D printing
+slides:
+- type: pp_radar
+  pill: MARKET MAP
+  label: ''
+  title: 'Who is in low-carbon cement,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how much the product itself cuts the carbon of the cement it replaces
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/sublime-systems.png
+  - ../../assets/logos/pp/brimstone.png
+  - ../../assets/logos/pp/fortera.png
+  - ../../assets/logos/pp/terra-co2.png
+  - ../../assets/logos/pp/ecocem.png
+  - ../../assets/logos/pp/paebbl.png
+  - ../../assets/logos/pp/neocem.png
+  - ../../assets/logos/pp/materrup.png
+  TL:
+    src: ../../assets/logos/pp/holcim.png
+    name: Holcim
+    text: sells ECOPlanet low-carbon cement, but most of the tons it ships are still ordinary Portland cement
+  TR:
+    src: ../../assets/logos/pp/carboncure.png
+    name: CarbonCure
+    text: injects captured CO2 into concrete at ready-mix plants, but it does not make the cement itself
+  BL:
+    src: ../../assets/logos/pp/biomason.png
+    name: Biomason
+    text: grows biocement tiles and pavers with bacteria, a product outside the cement that goes into concrete
+  BR:
+    src: ../../assets/logos/pp/alcemy.png
+    name: alcemy
+    text: uses AI to cut clinker and energy in cement plants, but it sells software, not a lower-carbon binder
+- label: LOW-CARBON CEMENT
+  type: pp_cagr
+  section: Market size
+  title: 'How much room is left for
+
+    low-carbon cement to grow?'
+  size: 40
+  cagr: 9
+  lead: 'To fill that room, '
+  condition: building codes must accept new cements, and builders must pay a small premium for them. Producers must also secure enough clay, slag and clean power to make them at scale.
+  note: We compared forecasts from The Business Research Company, IMARC, Fortune Business Insights and DataM Intelligence, adjusted each one to our definition, and built a realistic range
+- label: LOW-CARBON CEMENT
+  type: pp_donut
+  section: Market size
+  title: How is the low-carbon cement market split between its categories?
+  cats:
+  - name: Blended cements
+    p: 60
+    logos:
+    - ../../assets/logos/pp/ecocem.png
+    - ../../assets/logos/pp/holcim.png
+    - ../../assets/logos/pp/heidelberg-materials.png
+  - name: Calcined clay cements
+    p: 15
+    logos:
+    - ../../assets/logos/pp/neocem.png
+    - ../../assets/logos/pp/materrup.png
+  - name: Carbon capture cements
+    p: 10
+    logos:
+    - ../../assets/logos/pp/heidelberg-materials.png
+    - ../../assets/logos/pp/calix.png
+  - name: Alkali-activated binders
+    p: 8
+    logos:
+    - ../../assets/logos/pp/betolar.png
+    - ../../assets/logos/pp/material-evolution.png
+    - ../../assets/logos/pp/carbicrete.png
+  - name: New clinker chemistries
+    p: 4
+    logos:
+    - ../../assets/logos/pp/brimstone.png
+    - ../../assets/logos/pp/sublime-systems.png
+    - ../../assets/logos/pp/fortera.png
+  - name: CO2-mineralized cements
+    p: 3
+    logos:
+    - ../../assets/logos/pp/paebbl.png
+    - ../../assets/logos/pp/co-reactive.png
+  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
+    sources are included at the end of the report.'
+- label: LOW-CARBON CEMENT
+  type: pp_pains
+  section: Pain points
+  title: 'Which low-carbon cement
+
+    problems are still unsolved?'
+  auds:
+  - Cement makers
+  - Ready-mix firms
+  - Contractors
+  - Developers
+  - Public buyers
+  pains:
+  - - New cements cost more than ordinary Portland cement
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 2
+  - - Building codes still favor ordinary Portland cement
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - Low-clinker concrete sets slowly in cold weather
+    - - 1
+      - 3
+      - 3
+      - 2
+      - 1
+  - - Slag and fly ash supplies keep shrinking
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 1
+  - - Carbon claims are hard to compare between suppliers
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 3
+  - - Few plants make new cements in real volumes
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 2
+  note: We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group. All the sources are included at the
+    end of the report. Bigger dots mean that group would pay more to fix it.
+- label: LOW-CARBON CEMENT
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which low-carbon cement maker
+
+    has the most complete tech today?'
+  companies:
+  - name: Fortera
+    src: ../../assets/logos/pp/fortera.png
+  - name: Brimstone
+    src: ../../assets/logos/pp/brimstone.png
+  - name: Sublime
+    src: ../../assets/logos/pp/sublime-systems.png
+  - name: Terra CO2
+    src: ../../assets/logos/pp/terra-co2.png
+  - name: Ecocem
+    src: ../../assets/logos/pp/ecocem.png
+  features:
+  - header: Running|plant
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: US|standard
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: True|Portland
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Captured|CO2
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Clinker|swap
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: No|kiln
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note: We went through each company's website, filings and press releases, and checked feature by feature what it really has. All the sources are included at the end of the report. A pink dot means the
+    feature is there.
+- label: LOW-CARBON CEMENT
+  type: pp_value
+  section: Value creation
+  title: 'How do low-carbon cement
+
+    makers actually make money?'
+  axes:
+  - Sells the cement
+  - Licenses the process
+  - Spot
+  - sales
+  - Long buyer
+  - contracts
+  groups:
+  - name: Clinker substitutes sold per ton
+    x: 0.45
+    y: 0.22
+    logos:
+    - src: ../../assets/logos/pp/terra-co2.png
+    - src: ../../assets/logos/pp/ecocem.png
+    - src: ../../assets/logos/pp/neocem.png
+  - name: Own plants, cement sold to builders
+    x: 0.17
+    y: 0.55
+    logos:
+    - src: ../../assets/logos/pp/fortera.png
+    - src: ../../assets/logos/pp/brimstone.png
+  - name: Tech buyers paying years ahead
+    x: 0.5
+    y: 0.85
+    logos:
+    - src: ../../assets/logos/pp/sublime-systems.png
+  - name: Process licensed to cement makers
+    x: 0.8
+    y: 0.3
+    logos:
+    - src: ../../assets/logos/pp/calix.png
+    - src: ../../assets/logos/pp/cemvision.png
+  - name: Tech fees plus carbon credits
+    x: 0.8
+    y: 0.8
+    logos:
+    - src: ../../assets/logos/pp/carbon-upcycling.png
+  note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
+    end of the report.
+- label: LOW-CARBON CEMENT
+  type: pp_risks
+  section: Market challenges
+  title: What could go wrong for low-carbon cement?
+  events:
+  - text: Building codes keep asking for ordinary Portland cement, and new cements stay stuck in pilot projects
+    odds: 35
+    impact: 3
+  - text: More US grants for cement plants are cancelled, after Sublime and Brimstone lost theirs in 2025
+    odds: 40
+    impact: 2
+  - text: The EU carbon border tax gets delayed or weakened, so high-carbon imported cement stays cheap
+    odds: 25
+    impact: 3
+  - text: Slag and fly ash run short as coal plants close and steel mills switch to electric furnaces
+    odds: 60
+    impact: 2
+  - text: Microsoft, Meta and Amazon cut their green building budgets and sign fewer cement deals
+    odds: 25
+    impact: 2
+  - text: Holcim and Heidelberg scale carbon capture cement and squeeze startups out on price
+    odds: 45
+    impact: 2
+  - text: A new cement fails in a real structure, and builders lose trust in the whole category
+    odds: 10
+    impact: 3
+  - text: Construction slows in Europe and China, and cement makers delay new low-carbon lines
+    odds: 35
+    impact: 1
+  note: We listed the events that could slow low-carbon cement down, then estimated how likely each one is and how hard it would hit, from company news, regulators' decisions, funding data and analyst views.
+    Odds are our own estimates. All the sources are included at the end of the report.
+- label: LOW-CARBON CEMENT
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the low-carbon cement market forward, year after year?
+  events:
+  - year: '2005'
+    text: EU starts pricing cement emissions
+    impact: 2.0
+  - year: '2007'
+    text: Calera starts making cement from CO2
+    impact: 1.0
+  - year: '2008'
+    text: Solidia is founded to cure concrete with CO2
+    impact: 1.0
+  - year: '2012'
+    text: CarbonCure is founded
+    impact: 1.0
+  - year: '2012'
+    text: Novacem closes, an early warning
+    impact: 1.0
+  - year: '2014'
+    text: Calcined clay cement tests start
+    impact: 1.5
+  - year: '2015'
+    text: Paris goals put cement in the spotlight
+    impact: 2.0
+  - year: '2018'
+    text: Report shows cement is 8% of emissions
+    impact: 1.5
+  - year: '2019'
+    text: Brimstone and Fortera are founded
+    impact: 1.5
+  - year: '2020'
+    text: Sublime Systems spins out of MIT
+    impact: 1.0
+  - year: '2021'
+    text: Cement makers commit to net zero by 2050
+    impact: 2.0
+  - year: '2022'
+    text: US law funds low-carbon materials
+    impact: 2.5
+  - year: '2022'
+    text: First Movers Coalition adds cement
+    impact: 1.5
+  - year: '2023'
+    text: EU adopts its carbon border tax
+    impact: 2.5
+  - year: '2024'
+    text: US funds new low-carbon cement plants
+    impact: 2.5
+  - year: '2024'
+    text: Fortera opens its Redding plant
+    impact: 2.0
+  - year: '2024'
+    text: Fortera raises 85 million dollars
+    impact: 1.5
+  - year: '2025'
+    text: Microsoft signs a Sublime cement deal
+    impact: 2.5
+  - year: '2025'
+    text: Heidelberg opens its Brevik CCS plant
+    impact: 2.5
+  - year: '2025'
+    text: Amazon reserves Brimstone cement
+    impact: 2.0
+  - year: '2026'
+    text: EU carbon border charges start
+    impact: 2.5
+  - year: '2026'
+    text: Fortera plans a 300,000 ton plant
+    impact: 2.0
+  - year: '2026'
+    text: Meta signs a Fortera cement deal
+    impact: 2.0
+  note: Many events shaped low-carbon cement. These are the ones we believe had the biggest impact, from company news, filings and analyst reports. All the sources are included at the end of the report.
+    Ratings are our own estimates.
+- label: LOW-CARBON CEMENT
+  type: pp_raises
+  section: Investor bets
+  title: Which low-carbon cement startups got the biggest checks lately?
+  rounds:
+  - name: Terra CO2
+    amt: 124500000.0
+    src: ../../assets/logos/pp/terra-co2.png
+    stage: Series B
+    date: Jul 2025
+  - name: Biomason
+    amt: 36672578.0
+    src: ../../assets/logos/pp/biomason.png
+    stage: Late stage
+    date: Dec 2024
+  - name: NeoCem
+    amt: 18700000.0
+    src: ../../assets/logos/pp/neocem.png
+    stage: Series B
+    date: Jul 2026
+  - name: Cocoon Carbon
+    amt: 15000000.0
+    src: ../../assets/logos/pp/cocoon-carbon.png
+    stage: Series A
+    date: Mar 2026
+  - name: Reclinker
+    amt: 13300000.0
+    src: ../../assets/logos/pp/reclinker.png
+    stage: Series A
+    date: Oct 2026
+  - name: Queens Carbon
+    amt: 10000000.0
+    src: ../../assets/logos/pp/queens-carbon.png
+    stage: Seed
+    date: Apr 2025
+  note: We listed the biggest equity rounds raised by low-carbon cement startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end of
+    the report.
+- label: LOW-CARBON CEMENT
+  type: pp_grid
+  section: LOW-CARBON CEMENT
+  title: 'Who are the top players
+
+    in low-carbon cement today?'
+  handle: low-carbon-cement
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - New clinker
+  - Clinker substitutes
+  - CO2 mineralized
+  cells:
+  - - - brimstone
+      - sublime-systems
+    - - cemvision
+      - queens-carbon
+    - - lithirm
+      - furno
+  - - - ecocem
+      - terra-co2
+    - - neocem
+      - materrup
+    - - cocoon-carbon
+      - reclinker
+  - - - fortera
+      - carboncure
+    - - paebbl
+      - carbonbuilt
+    - - co-reactive
+      - cura
+  note: We placed the main low-carbon cement companies by segment and by stage, from company websites, funding announcements and the press. All the sources are included at the end of the report.
+  srcs:
+    brimstone: ../../assets/logos/pp/brimstone.png
+    sublime-systems: ../../assets/logos/pp/sublime-systems.png
+    cemvision: ../../assets/logos/pp/cemvision.png
+    queens-carbon: ../../assets/logos/pp/queens-carbon.png
+    lithirm: ../../assets/logos/pp/lithirm.png
+    furno: ../../assets/logos/pp/furno.png
+    ecocem: ../../assets/logos/pp/ecocem.png
+    terra-co2: ../../assets/logos/pp/terra-co2.png
+    neocem: ../../assets/logos/pp/neocem.png
+    materrup: ../../assets/logos/pp/materrup.png
+    cocoon-carbon: ../../assets/logos/pp/cocoon-carbon.png
+    reclinker: ../../assets/logos/pp/reclinker.png
+    fortera: ../../assets/logos/pp/fortera.png
+    carboncure: ../../assets/logos/pp/carboncure.png
+    paebbl: ../../assets/logos/pp/paebbl.png
+    carbonbuilt: ../../assets/logos/pp/carbonbuilt.png
+    co-reactive: ../../assets/logos/pp/co-reactive.png
+    cura: ../../assets/logos/pp/cura.png
+- label: LOW-CARBON CEMENT
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which low-carbon cement companies have shown warning signs lately?
+  signs:
+  - Lost US|grant
+  - Plant|paused
+  - Big|layoffs
+  - Closed|down
+  rows:
+  - name: Sublime Systems
+    slug: sublime-systems
+    domain: sublime-systems.com
+    cells:
+    - 87M cut|May 2025
+    - Holyoke|Dec 2025
+    - Two-thirds|Mar 2026
+    - ''
+    src: ../../assets/logos/pp/sublime-systems.png
+    ini: SS
+  - name: Brimstone
+    slug: brimstone
+    domain: brimstone.com
+    cells:
+    - 189M cut|May 2025
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/pp/brimstone.png
+    ini: B
+  - name: National Cement
+    slug: national-cement
+    domain: nationalcement.com
+    cells:
+    - 500M match|May 2025
+    - ''
+    - ''
+    - ''
+    src: ''
+    ini: NC
+  - name: Novacem
+    slug: novacem
+    domain: novacem.com
+    cells:
+    - ''
+    - ''
+    - ''
+    - Liquidated|2012
+    src: ''
+    ini: N
+  note: We looked for warning signs among well-known low-carbon cement companies, from layoffs and lawsuits to falling valuations, using company filings, court records and the press. All the sources are
+    included at the end of the report.
+- label: LOW-CARBON CEMENT
+  type: pp_winner
+  section: Startup strategies
+  title: 'Why might Fortera lead
+
+    the low-carbon cement race?'
+  companies:
+  - short: Fortera
+    src: ../../assets/logos/pp/fortera.png
+  - short: Brimstone
+    src: ../../assets/logos/pp/brimstone.png
+  - short: Sublime
+    src: ../../assets/logos/pp/sublime-systems.png
+  - short: Terra CO2
+    src: ../../assets/logos/pp/terra-co2.png
+  - short: Ecocem
+    src: ../../assets/logos/pp/ecocem.png
+  criteria:
+  - name: Commercial plant running
+    why: Real tons, not lab samples
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Big tech buyer deal
+    why: Demand before new plants
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Meets a US cement standard
+    why: Builders can use it now
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Works next to existing kilns
+    why: Cheaper and faster to build
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Uses captured CO2
+    why: Lower net emissions
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Several plants planned
+    why: A path to real volume
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note: We compared companies with the same business model on what matters most to customers, from company reports, contract awards and public records. All the sources are included at the end of the report.
+- type: pp_radar
+  pill: MARKET MAP
+  label: ''
+  title: 'Which companies really belong
+
+    in metal 3D printing?'
+  caption:
+  - Distance to the center reflects how much of the company's business is printing metal parts or making what they need
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/eos.png
+  - ../../assets/logos/pp/nikon-slm.png
+  - ../../assets/logos/pp/velo3d.png
+  - ../../assets/logos/pp/farsoon.png
+  - ../../assets/logos/pp/divergent.png
+  - ../../assets/logos/pp/vulcanforms.png
+  - ../../assets/logos/pp/freeform.png
+  - ../../assets/logos/pp/equispheres.png
+  TL:
+    src: ../../assets/logos/pp/3d-systems.png
+    name: 3D Systems
+    text: sells metal printers, but most of its revenue comes from plastic printing and healthcare products
+  TR:
+    src: ../../assets/logos/pp/renishaw.png
+    name: Renishaw
+    text: builds metal laser printers, but most of its sales come from measuring probes and machine tool sensors
+  BL:
+    src: ../../assets/logos/pp/markforged.png
+    name: Markforged
+    text: sells a metal printer, but most of its machines print composite plastic parts, and Nano Dimension owns it
+  BR:
+    src: ../../assets/logos/pp/trumpf.png
+    name: Trumpf
+    text: sells metal laser printers, but most of its business comes from sheet metal machines and industrial lasers
+- label: METAL 3D PRINTING
+  type: pp_curve
+  section: Market opportunity
+  title: Spending on 3D printing keeps climbing, year after year
+  note: We used global additive manufacturing revenue from the yearly Wohlers Report. The 2026 point is our forecast at the 2025 growth rate. All the sources are included at the end of the report.
+  points:
+  - - '2020'
+    - 12.8
+  - - '2021'
+    - 15.2
+  - - '2022'
+    - 18.0
+  - - '2023'
+    - 20.0
+  - - '2024'
+    - 21.9
+  - - '2025'
+    - 24.2
+  - - '2026'
+    - 26.8
+  forecast: 1
+  fmt: ${}B
+  lastlines:
+  - spent on 3D printing
+  - worldwide in 2026
+  big: 1.9x
+  unit: ' in 5 years'
+  paras:
+  - Global 3D printing revenue grew from $12.8B in 2020 to $24.2B in 2025.
+  - Printing services grew fastest, up 15.5% in 2025.
+  - Metal printing alone reached about $6.3B in 2025.
+- label: METAL 3D PRINTING
+  type: pp_cagr
+  section: Market size
+  title: 'How much bigger can
+
+    metal 3D printing get?'
+  size: 7
+  cagr: 15
+  lead: 'To get that big, '
+  condition: printed parts must move from prototypes and small batches to qualified series production. Printers must also get faster and cheaper, so a printed part beats a cast or machined one on cost.
+  note: We compared forecasts from The Business Research Company, AM Research, Lucintel and Wohlers Associates, adjusted each one to our definition, and built a realistic range
+- label: METAL 3D PRINTING
+  type: pp_donut
+  section: Market size
+  title: How is the metal 3D printing market split between its categories?
+  cats:
+  - name: Laser powder bed printers
+    p: 35
+    logos:
+    - ../../assets/logos/pp/eos.png
+    - ../../assets/logos/pp/nikon-slm.png
+    - ../../assets/logos/pp/farsoon.png
+  - name: Printing services
+    p: 30
+    logos:
+    - ../../assets/logos/pp/sintavia.png
+    - ../../assets/logos/pp/conflux.png
+    - ../../assets/logos/pp/vulcanforms.png
+  - name: Metal powders
+    p: 15
+    logos:
+    - ../../assets/logos/pp/equispheres.png
+    - ../../assets/logos/pp/6k-additive.png
+    - ../../assets/logos/pp/continuum-powders.png
+  - name: Wire and DED
+    p: 8
+    logos:
+    - ../../assets/logos/pp/meltio.png
+    - ../../assets/logos/pp/aml3d.png
+    - ../../assets/logos/pp/caracol.png
+  - name: Other processes
+    p: 12
+    logos:
+    - ../../assets/logos/pp/wayland.png
+    - ../../assets/logos/pp/xjet.png
+    - ../../assets/logos/pp/spee3d.png
+  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
+    sources are included at the end of the report.'
+- label: METAL 3D PRINTING
+  type: pp_pains
+  section: Pain points
+  title: 'Which metal 3D printing problems
+
+    are still unsolved?'
+  auds:
+  - Aerospace firms
+  - Defense primes
+  - Medical firms
+  - Carmakers
+  - Service bureaus
+  pains:
+  - - Each new printed part takes months to qualify
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - Printed parts still cost more than cast or machined ones
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 2
+  - - Builds are slow, so printers stay busy for days
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 3
+  - - Parts warp or crack and need heavy rework
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - Metal powder is costly and hard to buy in volume
+    - - 2
+      - 2
+      - 1
+      - 2
+      - 3
+  - - Few engineers know how to design for printing
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 2
+  note: We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group. All the sources are included at the
+    end of the report. Bigger dots mean that group would pay more to fix it.
+- label: METAL 3D PRINTING
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which metal 3D printer maker
+
+    has the most complete tech today?'
+  companies:
+  - name: EOS
+    src: ../../assets/logos/pp/eos.png
+  - name: Nikon SLM
+    src: ../../assets/logos/pp/nikon-slm.png
+  - name: Renishaw
+    src: ../../assets/logos/pp/renishaw.png
+  - name: Velo3D
+    src: ../../assets/logos/pp/velo3d.png
+  - name: Farsoon
+    src: ../../assets/logos/pp/farsoon.png
+  features:
+  - header: Laser|powder bed
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Over 1 m|tall builds
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: 12-laser|printer
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Support-free|parts
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Plastic|printers too
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note: We went through each company's website, filings and press releases, and checked feature by feature what it really has. All the sources are included at the end of the report. A pink dot means the
+    feature is there.
+- label: METAL 3D PRINTING
+  type: pp_value
+  section: Value creation
+  title: 'How do metal 3D printing
+
+    firms actually make money?'
+  axes:
+  - Sells printers
+  - Sells parts
+  - One-off
+  - sales
+  - Recurring
+  - revenue
+  groups:
+  - name: Printer sales
+    x: 0.18
+    y: 0.2
+    logos:
+    - src: ../../assets/logos/pp/eos.png
+    - src: ../../assets/logos/pp/nikon-slm.png
+    - src: ../../assets/logos/pp/farsoon.png
+  - name: Printers plus yearly service
+    x: 0.22
+    y: 0.62
+    logos:
+    - src: ../../assets/logos/pp/velo3d.png
+    - src: ../../assets/logos/pp/renishaw.png
+  - name: Powder and wire sold by the kilo
+    x: 0.5
+    y: 0.85
+    logos:
+    - src: ../../assets/logos/pp/equispheres.png
+    - src: ../../assets/logos/pp/6k-additive.png
+  - name: Parts printed to order
+    x: 0.82
+    y: 0.3
+    logos:
+    - src: ../../assets/logos/pp/sintavia.png
+    - src: ../../assets/logos/pp/conflux.png
+  - name: Factories with long supply deals
+    x: 0.82
+    y: 0.75
+    logos:
+    - src: ../../assets/logos/pp/divergent.png
+    - src: ../../assets/logos/pp/vulcanforms.png
+  note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
+    end of the report.
+- label: METAL 3D PRINTING
+  type: pp_risks
+  section: Market challenges
+  title: What are the biggest threats to the metal 3D printing market?
+  events:
+  - text: Defense budgets move away from printed parts, and the order books of printer makers shrink
+    odds: 15
+    impact: 3
+  - text: Another big printer maker goes bankrupt, like Desktop Metal in 2025, and buyers hold back
+    odds: 40
+    impact: 2
+  - text: Cheaper Chinese printers from Farsoon, BLT and Eplus3D push Western makers out on price
+    odds: 50
+    impact: 2
+  - text: A printed part fails in flight, and regulators slow down approvals for new printed parts
+    odds: 10
+    impact: 3
+  - text: Tariffs and export rules make printers and metal powders harder and pricier to buy
+    odds: 35
+    impact: 2
+  - text: Investors stay away from hardware startups, and new funding rounds dry up for two years
+    odds: 35
+    impact: 2
+  - text: Casting and machining get faster with automation and close the cost gap with printing
+    odds: 20
+    impact: 1
+  - text: Titanium and nickel powder prices jump after a supply shock in a big producing country
+    odds: 25
+    impact: 1
+  note: We listed the events that could slow metal 3D printing down, then estimated how likely each one is and how hard it would hit, from company news, regulators' decisions, funding data and analyst views.
+    Odds are our own estimates. All the sources are included at the end of the report.
+- label: METAL 3D PRINTING
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the metal 3D printing market forward, year after year?
+  events:
+  - year: '1995'
+    text: EOS launches its first metal printer
+    impact: 1.5
+  - year: '1997'
+    text: Arcam is founded in Sweden
+    impact: 1.0
+  - year: '2002'
+    text: First electron beam printer ships
+    impact: 1.0
+  - year: '2009'
+    text: ASTM sets up a 3D printing committee
+    impact: 1.5
+  - year: '2012'
+    text: US launches America Makes
+    impact: 2.0
+  - year: '2014'
+    text: Divergent is founded
+    impact: 1.0
+  - year: '2015'
+    text: FAA clears a first printed jet part
+    impact: 2.5
+  - year: '2016'
+    text: GE buys Arcam and Concept Laser
+    impact: 2.5
+  - year: '2017'
+    text: Binder jetting promises faster parts
+    impact: 1.5
+  - year: '2020'
+    text: Pandemic shows the value of local parts
+    impact: 1.5
+  - year: '2021'
+    text: Three printer makers go public
+    impact: 2.0
+  - year: '2022'
+    text: US launches AM Forward
+    impact: 2.0
+  - year: '2023'
+    text: Nikon buys SLM Solutions
+    impact: 2.0
+  - year: '2024'
+    text: GE Additive becomes Colibrium
+    impact: 1.0
+  - year: '2025'
+    text: AM industry passes 24 billion dollars
+    impact: 2.0
+  - year: '2026'
+    text: VulcanForms raises 220 million dollars
+    impact: 2.0
+  - year: '2026'
+    text: Freeform raises 67 million dollars
+    impact: 1.5
+  - year: '2026'
+    text: HII orders a second Nikon NXG 600E
+    impact: 1.5
+  - year: '2026'
+    text: US Navy rules favor US metal printing
+    impact: 2.0
+  - year: '2026'
+    text: Nikon AM wins a Tomahawk contract
+    impact: 2.5
+  note: Many events shaped metal 3D printing. These are the ones we believe had the biggest impact, from company news, filings and analyst reports. All the sources are included at the end of the report.
+    Ratings are our own estimates.
+- label: METAL 3D PRINTING
+  type: pp_raises
+  section: Investor bets
+  title: Which metal 3D printing startups got the biggest checks lately?
+  rounds:
+  - name: Divergent
+    amt: 250000000.0
+    src: ../../assets/logos/pp/divergent.png
+    stage: Late stage
+    date: Sep 2025
+  - name: VulcanForms
+    amt: 220000000.0
+    src: ../../assets/logos/pp/vulcanforms.png
+    stage: Late stage
+    date: Jan 2026
+  - name: Freeform
+    amt: 67000000.0
+    src: ../../assets/logos/pp/freeform.png
+    stage: Series B
+    date: Feb 2026
+  - name: Vilory
+    amt: 43400000.0
+    src: ../../assets/logos/pp/vilory.png
+    stage: Series C
+    date: Dec 2025
+  - name: Caracol
+    amt: 40000000.0
+    src: ../../assets/logos/pp/caracol.png
+    stage: Series B
+    date: Oct 2025
+  - name: Alloyed
+    amt: 30000000.0
+    src: ../../assets/logos/pp/alloyed.png
+    stage: Round
+    date: Mar 2025
+  note: We listed the biggest equity rounds raised by metal 3D printing startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end of
+    the report.
+- label: METAL 3D PRINTING
+  type: pp_grid
+  section: METAL 3D PRINTING
+  title: 'Who are the top players
+
+    in metal 3D printing today?'
+  handle: metal-additive-manufacturing
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Laser printers
+  - Other processes
+  - Parts makers
+  cells:
+  - - - eos
+      - nikon-slm
+    - - velo3d
+      - farsoon
+    - - freeform
+      - eplus3d
+  - - - aml3d
+      - meltio
+    - - seurat
+      - xjet
+    - - fabric8labs
+      - incus
+  - - - divergent
+      - vulcanforms
+    - - sintavia
+      - conflux
+    - - alloyed
+      - caracol
+  note: We placed the main metal 3D printing companies by segment and by stage, from company websites, funding announcements and the press. All the sources are included at the end of the report.
+  srcs:
+    eos: ../../assets/logos/pp/eos.png
+    nikon-slm: ../../assets/logos/pp/nikon-slm.png
+    velo3d: ../../assets/logos/pp/velo3d.png
+    farsoon: ../../assets/logos/pp/farsoon.png
+    freeform: ../../assets/logos/pp/freeform.png
+    eplus3d: ../../assets/logos/pp/eplus3d.png
+    aml3d: ../../assets/logos/pp/aml3d.png
+    meltio: ../../assets/logos/pp/meltio.png
+    seurat: ../../assets/logos/pp/seurat.png
+    xjet: ../../assets/logos/pp/xjet.png
+    fabric8labs: ../../assets/logos/pp/fabric8labs.png
+    incus: ../../assets/logos/pp/incus.png
+    divergent: ../../assets/logos/pp/divergent.png
+    vulcanforms: ../../assets/logos/pp/vulcanforms.png
+    sintavia: ../../assets/logos/pp/sintavia.png
+    conflux: ../../assets/logos/pp/conflux.png
+    alloyed: ../../assets/logos/pp/alloyed.png
+    caracol: ../../assets/logos/pp/caracol.png
+- label: METAL 3D PRINTING
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these metal 3D printing startups, and how did they end?
+  causes:
+  - Ran out|of cash
+  - Too few|buyers
+  - Too many|takeovers
+  - No public|reason
+  rows:
+  - name: Desktop Metal
+    slug: desktop-metal
+    domain: desktopmetal.com
+    start: '2015'
+    end: '2025'
+    ending: Chapter 11
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ''
+    ini: DM
+  - name: 3DEO
+    slug: 3deo
+    domain: 3deo.co
+    start: '2016'
+    end: '2026'
+    ending: Insolvency
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp/3deo.png
+    ini: '3'
+  - name: MatterFab
+    slug: matterfab
+    domain: matterfab.com
+    start: '2013'
+    end: '2019'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ''
+    ini: M
+  - name: Digital Alloys
+    slug: digital-alloys
+    domain: digitalalloys.com
+    start: '2017'
+    end: '2021'
+    ending: Shut down
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ''
+    ini: DA
+  note: We tracked the metal 3D printing startups that shut down, went bankrupt or were sold for little, and what broke them, from court filings, company statements and the press. All the sources are included
+    at the end of the report.
+- label: METAL 3D PRINTING
+  type: pp_survivors
+  section: Startup killers
+  title: What do metal 3D printing survivors do differently?
+  rows:
+  - lesson: Sell parts, not only printers
+    explanation: VulcanForms and Divergent sell finished parts
+    failed_company: Desktop Metal
+    website: https://desktopmetal.com
+    why_it_failed: Bought 11 firms, then went bankrupt
+    slug: desktop-metal
+    src: ''
+    ini: DM
+  - lesson: Win defense and space work
+    explanation: Nikon SLM prints Tomahawk and Navy parts
+    failed_company: MatterFab
+    website: https://matterfab.com
+    why_it_failed: Found too few buyers for cheap printers
+    slug: matterfab
+    src: ''
+    ini: M
+  - lesson: Keep cash for slow sales cycles
+    explanation: Qualifying one part can take a year
+    failed_company: 3DEO
+    website: https://3deo.co
+    why_it_failed: Went insolvent in 2026
+    slug: 3deo
+    src: ../../assets/logos/pp/3deo.png
+    ini: '3'
+  - lesson: Ship to customers early
+    explanation: Freeform sells parts while it scales
+    failed_company: Digital Alloys
+    website: https://digitalalloys.com
+    why_it_failed: Closed in 2021 before shipping at scale
+    slug: digital-alloys
+    src: ''
+    ini: DA
+  note: We looked at metal 3D printing companies that shut down, went bankrupt or hit a major setback, and at what the survivors do instead, from company statements, filings and the press. All the sources
+    are included at the end of the report.
+- label: METAL 3D PRINTING
+  type: pp_winner
+  section: Startup strategies
+  title: 'What makes Nikon SLM the
+
+    large metal printer leader?'
+  companies:
+  - short: Nikon SLM
+    src: ../../assets/logos/pp/nikon-slm.png
+  - short: EOS
+    src: ../../assets/logos/pp/eos.png
+  - short: Velo3D
+    src: ../../assets/logos/pp/velo3d.png
+  - short: Farsoon
+    src: ../../assets/logos/pp/farsoon.png
+  - short: Renishaw
+    src: ../../assets/logos/pp/renishaw.png
+  criteria:
+  - name: Builds over 1 meter tall
+    why: Big rocket and ship parts
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Twelve-laser printer
+    why: Faster builds on big parts
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Backed by a big parent
+    why: Deep pockets for R&D
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: US Navy shipyard orders
+    why: Repeat defense demand
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Tomahawk missile contract
+    why: Long production runs
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Plastic printers too
+    why: Wider customer base
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  note: We compared companies with the same business model on what matters most to customers, from company reports, contract awards and public records. All the sources are included at the end of the report.

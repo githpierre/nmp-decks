@@ -133,7 +133,9 @@ def build(slug, png=False, only=None):
     d = ROOT / 'decks' / slug
     deck = yaml.safe_load((d / 'deck.yaml').read_text())
     check_yaml(deck)
+    import sys as _s; _s.path.insert(0, str(ROOT / 'tools' / 'pp')); from pp_prepare import PREP
     for s in deck['slides']:
+        if str(s.get('type', '')).startswith('pp_'): PREP[s['type'][3:]](s)
         if s.get('type') == 'logogrid': prepare_logogrid(s)
         if s.get('type') == 'cover': prepare_cover(s, d)
         if s.get('type') == 'dated' and len(s.get('items', [])) != 6:

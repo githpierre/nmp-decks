@@ -1,0 +1,13 @@
+{% set G = s.geo %}<svg class="pp-abs" width="960" height="672">
+<defs><linearGradient id="wg{{loop.index}}" x1="0" x2="1"><stop offset="0" stop-color="#9FB6BF" stop-opacity=".45"/><stop offset="1" stop-color="#9FB6BF" stop-opacity="0"/></linearGradient></defs>
+<circle cx="{{G.cx}}" cy="{{G.cy}}" r="{{G.R+6}}" fill="#0A3243" stroke="#3B5A64" stroke-width="5"/>
+{% for r in G.rings %}<circle cx="{{G.cx}}" cy="{{G.cy}}" r="{{r}}" fill="none" stroke="#2C4A55" stroke-width="2.5"/>{% endfor %}
+<path d="M{{G.cx}},{{G.cy}} L{{G.cx+G.R*0.94}},{{G.cy-G.R*0.36}} A{{G.R}},{{G.R}} 0 0 1 {{G.cx+G.R*0.86}},{{G.cy+G.R*0.5}} Z" fill="url(#wg{{loop.index}})"/>
+</svg>
+{% for l in G.inside %}<span class="lt pp-c" style="left:{{l.x}}px;top:{{l.y}}px"><img src="{{l.src}}"></span>{% endfor %}
+{% for k in ['TL','TR','BL','BR'] %}{% set e = s[k] %}{% set p = G.edge[k] %}
+<span class="lt pp-c" style="left:{{p.x}}px;top:{{p.y}}px"><img src="{{e.src}}"></span>
+<p class="pp-ann {{ 'r' if k in ['TL','BL'] else 'l' }}" style="{% if k in ['TL','BL'] %}right:{{960-p.x+46}}px{% else %}left:{{p.x+46}}px{% endif %};top:{{p.y-18}}px"><b>{{e.name}}</b> {{e.text}}</p>
+<i class="pp-arr {{ 'r' if k in ['TL','BL'] else 'l' }}" style="{% if k in ['TL','BL'] %}left:{{p.x-42}}px{% else %}left:{{p.x+22}}px{% endif %};top:{{p.y}}px"></i>
+{% endfor %}
+<p class="pp-cap">{% for c in s.caption %}<span>{{c}}</span>{% endfor %}</p>

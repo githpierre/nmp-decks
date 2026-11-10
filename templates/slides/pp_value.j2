@@ -1,0 +1,5 @@
+{% set G = s.geo %}<svg class="pp-abs" width="960" height="672"><polyline points="{{G.X0}},{{G.Y1}} {{G.X0}},{{G.Y0}} {{G.X1}},{{G.Y0}}" fill="none" stroke="#5E7E8E" stroke-width="3"/></svg>
+<span class="pp-ax r" style="right:{{960-G.X0+12}}px;top:{{G.Y1}}px">{{s.axes[4]}}<br>{{s.axes[5]}}</span>
+<span class="pp-ax r" style="right:{{960-G.X0+12}}px;top:{{G.Y0+8}}px">{{s.axes[2]}}<br>{{s.axes[3]}}</span>
+<span class="pp-ax" style="left:{{G.X0+6}}px;top:{{G.Y0+12}}px">{{s.axes[0]}}</span><span class="pp-ax r" style="right:{{960-G.X1}}px;top:{{G.Y0+12}}px">{{s.axes[1]}}</span>
+{% for g in s.groups %}<div class="pp-vg" style="left:{{g.px}}px;top:{{g.py}}px"><p>{{g.name}}</p><div class="pp-vcard">{% for l in g.logos %}<span class="lt md"><img src="{{l.src}}"></span>{% endfor %}</div></div>{% endfor %}

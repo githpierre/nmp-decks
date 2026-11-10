@@ -1,0 +1,7 @@
+{% set G = s.geo %}<p class="pp-intro">{{ s.lead }}{{ s.condition }}</p>
+<svg class="pp-abs" width="960" height="672"><defs><marker id="ah{{loop.index}}" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#9AA8AD"/></marker></defs>
+<polyline points="642,178 {{G.lastx}},178 {{G.lastx}},{{G.lasttop}}" fill="none" stroke="#9AA8AD" stroke-width="1" marker-end="url(#ah{{loop.index}})"/>
+<line x1="{{G.X0}}" y1="{{G.base+48}}" x2="{{G.X1+6}}" y2="{{G.base+48}}" stroke="#9AA8AD" stroke-dasharray="5 4" marker-end="url(#ah{{loop.index}})"/></svg>
+{% for b in G.bars %}<div class="pp-bar" style="left:{{b.x}}px;width:{{b.w}}px;top:{{G.base-b.h}}px;height:{{b.h}}px"></div>
+<span class="pp-bv" style="left:{{b.x+b.w/2}}px;top:{{G.base-b.h-22}}px">{{b.lab}}</span><span class="pp-by" style="left:{{b.x+b.w/2}}px;top:{{G.base+9}}px">{{b.year}}</span>{% endfor %}
+<div class="pp-cagr" style="top:{{G.base+60}}px">{{ s.cagr }}% CAGR</div>
