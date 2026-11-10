@@ -21,7 +21,7 @@
     const cs = getComputedStyle(t); m.style.font = cs.font; m.style.letterSpacing = cs.letterSpacing; m.style.textTransform = cs.textTransform;
     const w = s => { m.textContent = s; return m.getBoundingClientRect().width; };
     const words = t.innerHTML.replace(/<br\s*\/?>/g, ' ').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, '\u00a0').replace(/[ \t\n\r]+/g, ' ').trim().split(' ');
-    const max = t.clientWidth; if (words.length < 2 || w(words.join(' ')) <= max * 0.62) return;   // short titles stay on one line
+    const max = t.clientWidth, manual = /<br/.test(t.innerHTML); if (words.length < 2 || (!manual && w(words.join(' ')) <= max * 0.62)) return;   // short titles stay on one line unless written on two
     let best = null;
     for (let i = 1; i < words.length; i++) { const a = words.slice(0, i).join(' '), b = words.slice(i).join(' '), wa = w(a), wb = w(b);
       if (wa > max || wb > max) continue; const d = Math.abs(wa - wb); if (!best || d < best.d) best = {a, b, d, wa, wb}; }

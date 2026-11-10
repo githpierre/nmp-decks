@@ -219,3 +219,12 @@ b,strong{font-weight:700}
 .dated.k5{--rw:6px}.dated.k5 .rail{border-radius:3px;box-shadow:0 0 10px rgba(251,1,97,.45)}.dated.k5 .d::before{box-shadow:0 0 8px rgba(251,1,97,.6)}
 .dated.k6{--cs:16px;--bw:2px}.dated.k6 .d::before{background:#0E3A50;box-shadow:0 0 0 2px var(--bg)}
 
+
+/* raw slides converted from PowerPoint (tools/pptx2html.py) */
+.raw{position:absolute;inset:0}
+.raw .rx-s{position:absolute;overflow:visible}
+.raw .rx-i{position:absolute;object-fit:contain}
+.raw .rx-t{position:absolute;display:flex;flex-direction:column;font-family:Lexend,sans-serif;color:#fff;font-size:18pt;overflow:visible}
+.raw .rx-t p{line-height:1.2;overflow-wrap:break-word;white-space:pre-wrap}
+
+.foot-line,.foot-label,.foot-brand{z-index:5}.slide:not(.cover) .foot-brand{background:var(--bg)}
