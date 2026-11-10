@@ -21,25 +21,32 @@
     const lines = [...rg.getClientRects()].map(r => ({l: r.left - S.left, r: r.right - S.left, t: r.top - S.top, b: r.bottom - S.top}));
     const hb = h.getBoundingClientRect(), top = hb.top - S.top, bot = lines[lines.length - 1].b;
     const left = Math.min(...lines.map(x => x.l)), right = Math.max(...lines.map(x => x.r));
+    // start: almost touching the text (4 px); end: on the dot's axis, 3 px from its edge (Pierre, workshop 5)
     let sx, sy, side = null;
-    if (cy > bot + 20) {             // 1. dot under the text: leave just under the end (or start) of the last line
-      const ln = lines[lines.length - 1]; sy = bot + 7; sx = cx >= (ln.l + ln.r) / 2 ? ln.r - 12 : ln.l + 12;
+    const clampIn = (x, a, b) => Math.max(a, Math.min(b, x));
+    const pickX = (a, b) => {           // a point of [a, b] at least 45 px away from the dot horizontally, as close to it as possible
+      const c = [cx - 45, cx + 45].map(x => clampIn(x, a, b)).filter(x => Math.abs(x - cx) >= 44);
+      return c.length ? c.sort((u, v) => Math.abs(u - cx) - Math.abs(v - cx))[0] : (Math.abs(a - cx) > Math.abs(b - cx) ? a : b);
+    };
+    if (cy > bot + 20) {                // 1. dot under the text: leave just under the last line
+      const ln = lines[lines.length - 1]; sy = bot + 4; sx = pickX(ln.l + 8, ln.r - 8);
     } else if (cy < top - 20 && cx > left - 30 && cx < right + 30) {   // 2. dot above: leave just above the title
-      sy = top - 7; sx = cx >= (hb.left + hb.right) / 2 - S.left ? hb.right - S.left - 10 : hb.left - S.left + 10;
-    } else {                         // 3. dot beside: leave from the side of the middle line of the text
+      sy = top - 4; sx = pickX(hb.left - S.left + 8, hb.right - S.left - 8);
+    } else {                            // 3. dot beside: leave from the side of the middle line of the text
       const ln = lines[Math.floor((lines.length - 1) / 2)];
-      side = cx > (left + right) / 2 ? 1 : -1; sx = side > 0 ? ln.r + 8 : ln.l - 8; sy = (ln.t + ln.b) / 2;
+      side = cx > (left + right) / 2 ? 1 : -1; sx = side > 0 ? ln.r + 4 : ln.l - 4; sy = (ln.t + ln.b) / 2;
     }
-    if (!side && Math.abs(sx - cx) < 45) sx += sx >= cx ? 45 : -45;      // always inclined
-    const ang = Math.atan2(cy - sy, cx - sx), ex = cx - Math.cos(ang) * (rad + 4), ey = cy - Math.sin(ang) * (rad + 4);
-    let path;
-    if (style === 's' || style === 's-dot' || style === 's-solid') {             // S-curve: leaves along its natural direction, arrives softly
-      path = side ? `M${sx} ${sy} C${sx + side * 60} ${sy} ${ex} ${(sy + ey) / 2} ${ex} ${ey}` : `M${sx} ${sy} C${sx} ${(sy + ey) / 2} ${ex} ${(sy + ey) / 2} ${ex} ${ey}`;
-    } else if (style === 'arc' || style === 'soft') {    // arc bulging outward (soft = barely curved)
-      const mx = (sx + ex) / 2, my = (sy + ey) / 2, dx = ex - sx, dy = ey - sy, k = style === 'soft' ? 0.1 : 0.22;
-      path = `M${sx} ${sy} Q${mx - dy * k} ${my + dx * k} ${ex} ${ey}`;
-    } else {                         // elbow: one smooth bend
-      path = side ? `M${sx} ${sy} Q${ex} ${sy} ${ex} ${ey}` : `M${sx} ${sy} Q${sx} ${ey} ${ex} ${ey}`;
+    let path, ex, ey;
+    if (style === 's' || style === 's-dot' || style === 's-solid' || style === 'arc' || style === 'soft') {   // older shapes, kept for workshops
+      const ang = Math.atan2(cy - sy, cx - sx); ex = cx - Math.cos(ang) * (rad + 3); ey = cy - Math.sin(ang) * (rad + 3);
+      if (style === 'arc' || style === 'soft') { const mx = (sx + ex) / 2, my = (sy + ey) / 2, dx = ex - sx, dy = ey - sy, k = style === 'soft' ? 0.1 : 0.22; path = `M${sx} ${sy} Q${mx - dy * k} ${my + dx * k} ${ex} ${ey}`; }
+      else path = side ? `M${sx} ${sy} C${sx + side * 60} ${sy} ${ex} ${(sy + ey) / 2} ${ex} ${ey}` : `M${sx} ${sy} C${sx} ${(sy + ey) / 2} ${ex} ${(sy + ey) / 2} ${ex} ${ey}`;
+    } else if (side && Math.abs(cy - sy) < 24) {   // dot level with the text: short horizontal curve onto the dot's side
+      ex = cx - side * (rad + 3); ey = cy; path = `M${sx} ${sy} Q${(sx + ex) / 2} ${sy} ${ex} ${ey}`;
+    } else if (side) {                  // elbow (default): leaves horizontally, arrives vertically on the dot's axis
+      ex = cx; ey = cy + (sy < cy ? -(rad + 3) : rad + 3); path = `M${sx} ${sy} Q${cx} ${sy} ${ex} ${ey}`;
+    } else {                            // elbow (default): leaves vertically, arrives horizontally on the dot's axis
+      ex = cx + (sx < cx ? -(rad + 3) : rad + 3); ey = cy; path = `M${sx} ${sy} Q${sx} ${cy} ${ex} ${ey}`;
     }
     const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
     if (style === 's-solid') { el.setAttribute('stroke-dasharray', 'none'); el.setAttribute('stroke-opacity', '.8'); }

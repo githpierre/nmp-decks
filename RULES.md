@@ -58,7 +58,7 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
   one per row, large; when the detail is small (dots, lines, notes) show a x2 zoom; show it on 2 markets if text length can break it.
 - Both: one scrolling HTML page (artifact), yellow band = what changes + Claude's pick and why, variants named by letters,
   Oui / Non on each, Claude's pick framed in green, "Copier mes réponses". Visual audit of every image before sending (wraps, overlaps, keys).
-- Tooling: `tools/make_atelier5.py` (deck + manifest.json with the texts), `build.py atelier5`,
+- Tooling: write `tools/make_atelierN.py` (deck + manifest.json with the texts; see git history for workshop 5), `build.py atelierN`,
   `tools/atelier/shoot.py <deck dir> <img dir>` (x2 renders + zooms), `tools/atelier/make_page.py <deck dir> <page dir>`.
 - Pierre's answers become the default (template / CSS) + a rule here + a history line; unused variants are removed once settled.
 
@@ -70,6 +70,18 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 - Dated lists: always exactly 6 dates per page (build refuses otherwise); page 1 and page 2 use the same template.
   Circles are centred on the rail axis and on the date line; the rail runs from the first circle to the last.
 
+## Pierre's rules (10 Nov 2026, workshop 5)
+- Footnotes: 2 lines by default (it reads as a clearer explanation). 1 line when one idea fits on it (e.g. the map).
+  3 lines only for 3 really important things, and then 3 long lines. Lines within 12% (NOTE_BALANCE).
+- Never date a source with a past year that will look old ("latest 2025 estimates"): write "the latest estimates",
+  or find a more recent figure (audit NOTE_YEAR).
+- Dated list: hollow pink circles "classique" (k1: rail 8 px, circles 14 px centred on the rail axis), rail from first to last circle.
+- "What is the X market, in simple terms?": keep Pierre's design (framed sentence with two icons). All 12 alternatives rejected.
+- Colours, for every new design: never pink text on the navy background; always a colour hierarchy (not every piece of text in white);
+  never mix white and sand/yellow inside one text; respect the side margins (no block as wide as 840 px; stay within the usual width).
+- Map lines: rounded elbows ("coudes arrondis"). They start almost touching the text (4 px, within the text's width) and end
+  on the dot's axis, 3 px from its edge (horizontal arrival when the line comes from above or below, vertical when it comes from the side).
+
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
    that LLM does the research AND returns the final JSON/CSV in the same answer (never research first, then a second "go").
@@ -78,6 +90,7 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 4. Every correction from Pierre becomes a line here (or a template/CSS change), never a one-off fix in a single deck.
 
 ## History
+- 2026-11-10: workshop 5 answers applied (notes, no ageing years, k1 timeline, definition kept, colour rules, elbow map lines landing on dots); EdTech notes rewritten.
 - 2026-11-10: workshop 5 (B judge: 1/2/3-line notes; C/D/E design choices: 6 dated-list finishes, 9 definition designs, 6 map line shapes).
 - 2026-11-10: workshop 4 = B-E redone (one change only, variants A/B/C, compact page); A settled: disclaimer under the title.
 - 2026-11-10: workshop 3 (A-E, 6 cases x 3 variants each, HTML page with Oui/Non) sent to Pierre. Cover title width now computed from the photo

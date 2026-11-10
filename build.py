@@ -130,6 +130,11 @@ def build(slug, png=False, only=None):
         if s.get('type') == 'contrast':
             for r in s['rows']:
                 if len(r) != 2: raise SystemExit(f'contrast row cut by a comma (quote it): {r}')
+    import re as _re
+    py_issues = []
+    for i, s in enumerate(deck['slides'], 1):          # an exact past year in a note ages fast ("latest 2025 estimates"): say "latest" instead
+        nt = ' '.join(s['note']) if isinstance(s.get('note'), list) else str(s.get('note') or '')
+        if _re.search(r'\b(latest|recent|newest)\s+(19|20)\d\d\b', nt, _re.I): py_issues.append([i, 'NOTE_YEAR', '', nt[:50]])
     env = Environment(loader=FileSystemLoader(str(ROOT / 'templates')), autoescape=True)
     env.filters['nl'] = nl; env.filters['md'] = md; env.filters['sentences'] = sentences
     import math; env.filters['cos'] = math.cos; env.filters['sin'] = math.sin
@@ -154,6 +159,7 @@ def build(slug, png=False, only=None):
                 if only and i not in only: continue
                 el.screenshot(path=str(out / 'png' / f'{i:03d}.png'))
         b.close()
+    issues = py_issues + issues
     for x in issues: print(*x, sep=' | ')
     print(f'{len(deck["slides"])} slides, {len(issues)} issues ->', out / name)
     return issues

@@ -1,5 +1,5 @@
-{# variant: c1 (default: pink rail + hollow pink circles) ... c7, see css. No star. #}
-{% set v = s.variant or 'c1' %}
+{# hollow pink circles centred on the rail axis (workshop 5: k1 'classique' chosen). No star. #}
+{% set v = s.variant or 'k1' %}
 <div class="body"><div class="dated {{ v }}">
   <div class="rail"></div>{% if s.cap %}<div class="cap"></div>{% endif %}
   {% for it in s['items'] %}<div class="d"><span>{{ it.d }}</span></div><div class="tx">{{ it.t | md }}</div>{% endfor %}
