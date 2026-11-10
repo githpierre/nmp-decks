@@ -146,11 +146,15 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
   en ne variant que la couleur ou une barre. Chaque variante = une autre façon de représenter l'information (règle graduée, tableau,
   menu, pyramide, compteur, plans SaaS, quadrillage…). Mieux vaut une idée osée qu'une 30e retouche du même dessin.
 - Quand il demande N variations, en montrer vraiment N, toutes différentes, auditées visuellement (texte complet, rien qui dépasse).
+- 11 Nov : les 30 refontes (arbre « Qui paie », intercalaires, « Maximum customer value ») toutes refusées : Pierre garde ses mises en page d'origine. Sur un format qu'il a dessiné, proposer des corrections ciblées (alignement, lisibilité) plutôt qu'une refonte, sauf s'il la demande.
 - Choix retenu : prix (slide 13) = quadrillage de fond (gammes posées sur une grille prix, items5 ZB).
 
 ### Audit visuel (11 Nov 2026, tools/atelier2/fixlib.js + fixes.py, appliqué à tous les decks)
 - Chiffres : « $192B », « ≈5% » (pas d'espace), « ASIA-PACIFIC » ; un lien souligné ne l'est pas sur l'espace final.
-- Un trait/connecteur touche sa cible (carte, point) ; une ligne d'arbre s'arrête à sa première et dernière branche.
+- Connecteurs : on garde le petit espace entre le bout d'un trait et sa cible (Pierre trouve ça joli) ; la ligne d'un arbre peut dépasser ses branches.
+- Une flèche ne coupe jamais une bulle : elle part d'un bord et arrive au milieu d'un bord, pointe rose identique partout.
+- Noms de catégories en titre de carte : toujours sur 2 lignes ; un nom d'un seul mot en reçoit un second (CREDENTIALING → DIGITAL CREDENTIALING).
+- Une étiquette posée sur une ligne de grille est centrée sur cette ligne (la ligne s'interrompt derrière elle).
 - Texte d'une carte centré verticalement ; pastille + texte centrés ensemble, 8 px d'écart.
 - Cartes d'une même rangée alignées au pixel ; en-têtes de colonnes jamais dans la couleur des traits (#334D54).
 - Même type de slide = même rendu sur toutes ses pages (ex. frises datées 1/2 et 2/2, matrices de priorité).

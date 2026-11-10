@@ -114,7 +114,16 @@ window.F = (() => {
       i.style.left = (z.left - R.left + (z.width - s) / 2) + 'px'; i.style.top = (z.top - R.top + (z.height - s) / 2) + 'px'; i.style.width = s + 'px'; i.style.height = s + 'px'; i.style.borderRadius = '3px';
       t.setAttribute('stroke', '#5E7E8E'); t.setAttribute('stroke-width', '1.5'); t.closest('svg').style.overflow = 'visible'; mark('logos', sl); }); };
 
+  // category names used as card titles: all on 2 lines when some already are (Pierre, 11 Nov); a one-word name gets a second word
+  const CAT2 = {CREDENTIALING: 'DIGITAL CREDENTIALING'};
+  const cats = sl => { const ts = A.texts(sl).filter(t => vis(t.el) && t.w < 260 && /^([A-Z][A-Z \-&]{3,40}|.*K-12.*)$/.test(clean2(t)) && getComputedStyle(t.el.querySelector('span') || t.el).fontWeight >= 700);
+    const nl = t => t.el.querySelectorAll('p').length > 1 || !!t.el.querySelector('br') || (t.el.querySelector('p').getClientRects()[0] || {}).height > 26; const two = ts.filter(nl); if (two.length < 2) return;
+    ts.forEach(t => { const p = t.el.querySelector('p'); let s = clean2(t); if (CAT2[s]) s = CAT2[s]; const w = s.split(' '); if (w.length < 2 || nl(t)) return;
+      const sp = p.querySelector('span'); const st = sp ? sp.getAttribute('style') : ''; const cut = Math.ceil(w.length / 2);
+      p.innerHTML = `<span style="${st}">${w.slice(0, cut).join(' ')}</span><br><span style="${st}">${w.slice(cut).join(' ')}</span>`; mark('cats', sl); }); };
+  const clean2 = t => t.el.innerText.replace(/\s+/g, ' ').trim();
+
   // generic rules, every raw slide
-  const all = sl => { if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, snapLines, trimBus, grid, logos].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
-  return {all, logos, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
+  const all = sl => { if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
