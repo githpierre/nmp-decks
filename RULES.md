@@ -152,6 +152,7 @@ Rules deduced from his remarks, checked by code (templates/rawfit.js at build ti
 
 ### Audit visuel (11 Nov 2026, tools/atelier2/fixlib.js + fixes.py, appliqué à tous les decks)
 - Chiffres : « $192B », « ≈5% » (pas d'espace), « ASIA-PACIFIC » ; un lien souligné ne l'est pas sur l'espace final.
+- NE PLUS PROPOSER (Pierre a déjà dit non) : en-têtes de colonnes des slides modèles (FIRM / MARKET SIZE / COMMENTS, PAIN POINT / PRIORITY) restent dans la couleur des traits ; emoji 🤬 grisé des slides « maximum customer value » ; tête de la slide 152 qui passe derrière le pied de page (voulu) ; espace au bout des connecteurs ; refontes des formats qu'il a dessinés.
 - Connecteurs : on garde le petit espace entre le bout d'un trait et sa cible (Pierre trouve ça joli) ; la ligne d'un arbre peut dépasser ses branches.
 - Une flèche refaite relie exactement les deux éléments que reliait l'original (vérifier chaque liaison une par une, 11 Nov : erreur sur la slide 154).
 - Un segment porte le même nom partout (intercalaire, sous-titres, tableaux, cartes) ; même règle pour les chiffres : la typographie s'applique aux slides modèles ET converties.

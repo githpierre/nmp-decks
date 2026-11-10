@@ -128,7 +128,11 @@ window.F = (() => {
       p.innerHTML = `<span style="${st}">${w.slice(0, cut).join(' ')}</span><br><span style="${st}">${w.slice(cut).join(' ')}</span>`; mark('cats', sl); }); };
   const clean2 = t => t.el.innerText.replace(/\s+/g, ' ').trim();
 
+  // labels stuck to a vertical pink bar get the same 12 px gap as slide 143 (Pierre, 11 Nov, fix 32)
+  const barGap = sl => { const bars = A.shapes(sl).filter(s => vis(s.el) && s.fill && s.fill.toUpperCase() === C.pink && s.h > 150 && s.w < 30);
+    bars.forEach(b => A.texts(sl).forEach(t => { const g = t.x - (b.x + b.w); if (t.w < 100 && g >= -2 && g < 6 && t.cy > b.y && t.cy < b.y + b.h) { t.el.style.left = (b.x + b.w + 12) + 'px'; mark('barGap', sl); } })); };
+
   // generic rules, every raw slide
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats, barGap].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
