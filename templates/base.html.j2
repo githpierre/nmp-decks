@@ -11,6 +11,6 @@
   {% include 'slides/' ~ T ~ '.j2' %}
   {% if s.note %}{% if s.note is string %}<p class="note">{{ s.note | md }}</p>{% else %}<p class="note lines">{% for l in s.note %}<span class="nl">{{ l | md }}</span>{% endfor %}</p>{% endif %}{% endif %}
   {% if s.tag %}<div class="wtag">{{ s.tag }}</div>{% endif %}
-  <div class="foot-line"></div><div class="foot-label">{{ deck.label }}</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+  <div class="foot-line"></div><div class="foot-label">{{ s.label or deck.label }}</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
 </section>{% endif %}
 {% endfor %}</body></html>

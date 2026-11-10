@@ -81,6 +81,9 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
   never mix white and sand/yellow inside one text; respect the side margins (no block as wide as 840 px; stay within the usual width).
 - Map lines, start (workshop 6, M1, 6/6): always from the MIDDLE of the text edge facing the dot (under the last line, above the title,
   or the side of the middle line). Default `line_start: middle`.
+- Map lines, arrival (M2): at a right angle to the start, so the line makes a real elbow (leaves down/up -> arrives on the dot's side;
+  leaves from the side -> arrives from below/above). Default `line_end: auto`.
+- Map lines, bend (M3, 6/6): rounded elbow everywhere (`line_bend: 0.67`).
 - Map lines: rounded elbows ("coudes arrondis"). They start almost touching the text (4 px, within the text's width) and end
   on the dot's axis, 3 px from its edge (horizontal arrival when the line comes from above or below, vertical when it comes from the side).
 
@@ -92,6 +95,7 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 4. Every correction from Pierre becomes a line here (or a template/CSS change), never a one-off fix in a single deck.
 
 ## History
+- 2026-11-10: workshop 6 settled (map lines: start middle of the edge, right-angle arrival, rounded elbow).
 - 2026-11-10: workshop 5 answers applied (notes, no ageing years, k1 timeline, definition kept, colour rules, elbow map lines landing on dots); EdTech notes rewritten.
 - 2026-11-10: workshop 5 (B judge: 1/2/3-line notes; C/D/E design choices: 6 dated-list finishes, 9 definition designs, 6 map line shapes).
 - 2026-11-10: workshop 4 = B-E redone (one change only, variants A/B/C, compact page); A settled: disclaimer under the title.
