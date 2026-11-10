@@ -56,6 +56,7 @@ b,strong{font-weight:700}
 .cover .big{font-size:60pt;font-weight:700;line-height:1.3;letter-spacing:.42em;color:var(--sand);text-shadow:var(--tshadow);text-transform:uppercase}
 .cover .big .ln{white-space:nowrap;width:max-content}
 .cover .sub{margin-top:10px;font-size:23pt;font-weight:700;letter-spacing:.42em;color:var(--accent);text-shadow:var(--tshadow);white-space:nowrap}
+.cover .disc.under{position:static;margin-top:26px;width:330px}
 .cover .disc{position:absolute;left:52px;bottom:20px;width:270px;font-size:6.5pt;line-height:1.5;color:var(--sand);text-wrap:pretty}
 
 /* agenda */

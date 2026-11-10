@@ -49,6 +49,17 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 - Winner contrast rows: each sentence fills 70-90% of its box (audit FILL); soft shadows.
 - Visual audit of every slide by Claude before anything is sent to Pierre.
 
+## Judge workshops (atelier du juge) — how Claude runs them
+- Any design doubt goes to a workshop before it becomes a default. One workshop = one question (e.g. where the cover disclaimer goes).
+- 6 cases x 3 variants: 6 different real-looking cases (new photo / market / content each time), the same 3 variants on each case,
+  built with the real templates and CSS (never a mockup). Claude's pick is the same variant on every case unless a case truly differs.
+- Delivered as ONE scrolling HTML page (artifact): yellow band per workshop = what changes + Claude's pick and why;
+  each variant shown in place with Oui / Non buttons; Claude's pick framed in green with "Mon choix"; click to enlarge;
+  a x2 zoom under the slide when the detail is small (notes, timeline dots). "Copier mes réponses" gives Pierre a text to paste back.
+- Tooling: `tools/make_atelier3.py` (cases -> decks/atelierN/deck.yaml + manifest.json), `build.py atelierN`,
+  `tools/atelier/shoot.py <deck dir> <img dir>` (x2 renders + zooms), `tools/atelier/make_page.py <deck dir> <page dir>`.
+- Pierre's answers become the default (template / CSS) + a rule here + a history line; unused variants are removed once settled.
+
 ## Workflow
 1. Research: Claude writes ONE prompt file (.md) per research block; Pierre drops it in another LLM and says "go";
    that LLM does the research AND returns the final JSON/CSV in the same answer (never research first, then a second "go").
@@ -57,6 +68,8 @@ Big Tech never as startups, market size / categories / CAGR consistency, etc. Be
 4. Every correction from Pierre becomes a line here (or a template/CSS change), never a one-off fix in a single deck.
 
 ## History
+- 2026-11-10: workshop 3 (A-E, 6 cases x 3 variants each, HTML page with Oui/Non) sent to Pierre. Cover title width now computed from the photo
+  (title_maxw = free dark width of the title band; the pink line shrinks with the title); disclaimer variants `disc_style` / `disc_pos: under`.
 - 2026-11-10: second review (rules above) + workshops A (6 covers), B (6 notes x 3), C (7 timelines), D (4 definitions), E (3 map curves).
 - 2026-11-10: first review by Pierre (rules above) + workshop A (cover disclaimer), B (two-line notes), C (timeline style).
 - 2026-11-10: prototype on EdTech (16 slide types rebuilt from the Q3 2026 PowerPoint deck).

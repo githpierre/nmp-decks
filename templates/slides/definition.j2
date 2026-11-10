@@ -10,7 +10,7 @@
 {% elif v == 'd2' %}
 <div class="body"><div class="def2"><div class="q">“</div><p>{{ s.text | md }}</p><div class="bar"></div></div></div>
 {% elif v == 'd3' %}
-<div class="body"><div class="def3"><div class="lab">{{ deck.market }}<span>in one sentence</span></div><div class="sep"></div><p>{{ s.text | md }}</p></div></div>
+<div class="body"><div class="def3"><div class="lab">{{ s.market_label or deck.market }}<span>in one sentence</span></div><div class="sep"></div><p>{{ s.text | md }}</p></div></div>
 {% else %}
 <div class="body" style="flex-direction:column;gap:34px"><p class="def4">{{ s.text | md }}</p>
   <div class="def4p">{% for p in s.parts %}<div class="card pt"><div class="e">{{ p.e }}</div><div class="k">{{ p.k }}</div><div class="v">{{ p.v }}</div></div>{% endfor %}</div></div>

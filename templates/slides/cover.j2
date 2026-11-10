@@ -1,13 +1,16 @@
 <section class="slide cover" data-n="1" data-type="cover">
   <img class="photo" src="{{ s.image }}">
   <div class="copy">© NEW MARKET PITCH</div>
-  <div class="tblock" data-maxw="{{ s.title_maxw or 520 }}"><div class="big">{% for l in s.big.split('\n') %}<div class="ln">{{ l }}</div>{% endfor %}</div><div class="sub">NEW MARKET PITCH</div></div>
-  <p class="disc" {% if s.disc_style %}style="{{ s.disc_style }}"{% endif %}>{{ s.disclaimer }}</p>
+  <div class="tblock" data-maxw="{{ s.title_maxw or 520 }}"><div class="big">{% for l in s.big.split('\n') %}<div class="ln">{{ l }}</div>{% endfor %}</div><div class="sub">NEW MARKET PITCH</div>{% if s.disc_pos == 'under' %}<p class="disc under">{{ s.disclaimer }}</p>{% endif %}</div>
+  {% if s.disc_pos != 'under' %}<p class="disc" {% if s.disc_style %}style="{{ s.disc_style }}"{% endif %}>{{ s.disclaimer }}</p>{% endif %}
   {% if s.tag %}<div class="wtag">{{ s.tag }}</div>{% endif %}
   <div class="foot-brand">NEWMARKETPITCH.COM</div>
   <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'), big = b.querySelector('.big'), max = +b.dataset.maxw;
     // cover title: each line on one line, shrunk only if the longest line is wider than the free dark area (title_maxw)
-    let fs = 60; big.style.fontSize = fs + 'pt';
-    while (fs > 34 && Math.max(...[...big.children].map(l => l.scrollWidth)) > max) { fs -= 2; big.style.fontSize = fs + 'pt'; }
+    // the pink "NEW MARKET PITCH" line shrinks with it (23/60 of the title size) and is measured too
+    const sub = b.querySelector('.sub'); let fs = 60;
+    const fit = () => { big.style.fontSize = fs + 'pt'; sub.style.fontSize = Math.max(14, Math.min(23, fs * 23 / 60 * 1.15)) + 'pt'; };
+    fit();
+    while (fs > 24 && Math.max(sub.scrollWidth, ...[...big.children].map(l => l.scrollWidth)) > max) { fs -= 2; fit(); }
   })();</script>
 </section>

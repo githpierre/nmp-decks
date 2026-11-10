@@ -84,7 +84,14 @@ def prepare_cover(s, d, W=960, H=672):
         box = im.crop((ox + 50, oy + H - 20 - h - 2, ox + 52 + w + 4, oy + H - 18))
         px = sorted(box.getdata()); p95 = px[int(len(px) * .95)]
         if p95 < 110: break
-    s['disc_style'] = f'width:{w}px'; s['_disc_p95'] = p95
+    s.setdefault('disc_style', f'width:{w}px'); s['_disc_p95'] = p95
+    # title: free dark width = first column (x >= 300) of the title band (rows 180-460) where the photo gets bright
+    if not s.get('title_maxw'):
+        band = im.crop((ox, oy + 180, ox + W, oy + 460)); free = W
+        for x in range(300, W, 4):
+            col = sorted(band.crop((x, 0, x + 4, band.height)).getdata())
+            if col[int(len(col) * .97)] > 110: free = x; break
+        s['title_maxw'] = max(300, min(560, free - 52 - 28))
 
 def hash_int(s):
     import hashlib
@@ -112,7 +119,7 @@ def build(slug, png=False, only=None):
     check_yaml(deck)
     for s in deck['slides']:
         if s.get('type') == 'logogrid': prepare_logogrid(s)
-        if s.get('type') == 'cover' and not s.get('disc_style'): prepare_cover(s, d)
+        if s.get('type') == 'cover': prepare_cover(s, d)
         if s.get('type') == 'contrast':
             for r in s['rows']:
                 if len(r) != 2: raise SystemExit(f'contrast row cut by a comma (quote it): {r}')

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>nmp-decks · ateliers du juge A-E</title>
+<style>
+:root{--navy:#062A3C;--ink:#14212b;--green:#1fa463;--yellow:#FFE45C}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;background:#eef1f3;color:var(--ink);padding-bottom:90px}
+header{background:var(--navy);color:#fff;padding:28px 24px}header h1{margin:0 0 6px;font-size:22px}header p{margin:0;opacity:.85;max-width:900px}
+nav{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid #d5dbe0;padding:8px 24px;display:flex;gap:14px;flex-wrap:wrap}
+nav a{color:var(--navy);text-decoration:none;font-weight:600;font-size:14px}
+.at{padding:10px 24px 30px;max-width:1500px;margin:0 auto}
+h2{font-size:21px;margin:30px 0 12px}.al{background:var(--navy);color:#fff;border-radius:4px;padding:2px 9px;margin-right:10px;font-size:15px}
+.band{background:var(--yellow);border-radius:8px;padding:12px 16px;margin-bottom:18px}.band p{margin:4px 0}
+.case{background:#fff;border-radius:10px;padding:14px 16px 16px;margin:14px 0;box-shadow:0 1px 3px #0001}
+h3{margin:0 0 10px;font-size:16px}
+.row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:900px){.row{grid-template-columns:1fr}}
+.v{border:3px solid transparent;border-radius:8px;padding:8px;background:#f6f8f9;display:flex;flex-direction:column;gap:8px}
+.v.rec{border-color:var(--green);background:#eefaf3}
+.lab{font-size:13.5px;font-weight:600;min-height:38px}
+.mine{display:inline-block;background:var(--green);color:#fff;font-size:11.5px;border-radius:3px;padding:1px 7px;margin-right:6px;vertical-align:1px}
+.sl{width:100%;aspect-ratio:960/672;border-radius:4px;cursor:zoom-in;display:block;background:#0b2233}
+.pics{display:flex;flex-direction:column;gap:8px}
+.wide .row{grid-template-columns:1fr}.wide .pics{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);align-items:center;gap:12px}
+.wide .lab{min-height:0}.wide .yn{max-width:420px}
+@media (max-width:900px){.wide .pics{grid-template-columns:1fr}}
+.zoom{width:100%;border-radius:4px;display:block;cursor:zoom-in}
+.yn{display:flex;gap:8px;margin-top:auto}
+.yn button{flex:1;border:1.5px solid #b8c2c9;background:#fff;border-radius:6px;padding:7px 0;font-weight:700;font-size:14px;cursor:pointer}
+.v.yes .y{background:var(--green);border-color:var(--green);color:#fff}.v.no .n{background:#d7263d;border-color:#d7263d;color:#fff}
+.v.no{opacity:.55}
+#bar{position:fixed;left:0;right:0;bottom:0;background:var(--navy);color:#fff;display:flex;align-items:center;gap:10px;padding:10px 16px;font-size:14px;z-index:6;flex-wrap:wrap}
+#bar button{background:var(--yellow);border:0;border-radius:6px;padding:9px 16px;font-weight:700;cursor:pointer}
+#bar .ghost{background:transparent;color:#fff;border:1px solid #fff6}
+#out{display:none;position:fixed;inset:10% 8%;background:#fff;z-index:8;border-radius:10px;padding:16px;box-shadow:0 10px 40px #0006;flex-direction:column;gap:10px}
+#out textarea{flex:1;width:100%;font:13px/1.4 ui-monospace,monospace}
+#lb{display:none;position:fixed;inset:0;background:#000d;z-index:9;align-items:center;justify-content:center;cursor:zoom-out}#lb img{max-width:96vw;max-height:94vh}
+</style></head><body>
+<header><h1>Ateliers du juge · decks HTML (A à E)</h1>
+<p>5 ateliers × 6 cas × 3 variantes, rendus avec le vrai code des decks. Clique Oui ou Non sous chaque variante, puis « Copier mes réponses » en bas et colle-moi le texte. Ma recommandation est encadrée en vert. Clique sur une image pour l’agrandir.</p></header>
+<nav><a href="#atelier-A">A · Couverture</a><a href="#atelier-B">B · Notes</a><a href="#atelier-C">C · Liste datée</a><a href="#atelier-D">D · Définition</a><a href="#atelier-E">E · Carte</a></nav>
+<!--BODY-->
+<div id="bar"><span id="cnt"></span><button id="copy">Copier mes réponses</button><button class="ghost" id="acc">Tout ce qui est en vert = Oui</button></div>
+<div id="out"><b>Tes réponses (copie et colle-les-moi)</b><textarea id="txt" readonly></textarea><div><button id="cp2">Copier</button> <button id="cl">Fermer</button></div></div>
+<div id="lb"><img alt=""></div>
+<script>
+const K='nmp-atelier3';let S={};try{S=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}
+const V=[...document.querySelectorAll('.v')];
+function paint(){V.forEach(v=>{v.classList.toggle('yes',S[v.dataset.k]==='y');v.classList.toggle('no',S[v.dataset.k]==='n')});
+ document.getElementById('cnt').textContent=Object.keys(S).length+' / '+V.length+' variantes jugées';try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}}
+V.forEach(v=>{v.querySelector('.y').onclick=()=>{S[v.dataset.k]=S[v.dataset.k]==='y'?undefined:'y';if(!S[v.dataset.k])delete S[v.dataset.k];paint()};
+ v.querySelector('.n').onclick=()=>{S[v.dataset.k]=S[v.dataset.k]==='n'?undefined:'n';if(!S[v.dataset.k])delete S[v.dataset.k];paint()}});
+document.getElementById('acc').onclick=()=>{V.forEach(v=>{if(v.classList.contains('rec')&&!S[v.dataset.k])S[v.dataset.k]='y'});paint()};
+function text(){const L=['Ateliers du juge A-E (nmp-decks)'];V.forEach(v=>{const a=S[v.dataset.k];L.push((a==='y'?'OUI  ':a==='n'?'NON  ':'—    ')+(v.classList.contains('rec')?'[mon choix] ':'')+v.dataset.label)});return L.join('\n')}
+document.getElementById('copy').onclick=async()=>{const t=text();document.getElementById('txt').value=t;try{await navigator.clipboard.writeText(t);document.getElementById('copy').textContent='Copié ✓'}catch(e){document.getElementById('out').style.display='flex'}};
+document.getElementById('cp2').onclick=async()=>{const ta=document.getElementById('txt');ta.select();try{await navigator.clipboard.writeText(ta.value)}catch(e){}};
+document.getElementById('cl').onclick=()=>document.getElementById('out').style.display='none';
+const lb=document.getElementById('lb');document.querySelectorAll('.sl,.zoom').forEach(i=>i.onclick=()=>{lb.querySelector('img').src=i.src;lb.style.display='flex'});lb.onclick=()=>lb.style.display='none';
+paint();
+</script></body></html>
