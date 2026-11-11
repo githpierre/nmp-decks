@@ -1,0 +1,615 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- label: HAIR CARE
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which hair care companies have shown warning signs lately?
+  signs:
+  - Value|fell
+  - Lost|independence
+  - Missed|deadlines
+  - Big|layoffs
+  rows:
+  - name: Vegamour
+    slug: vegamour
+    domain: vegamour.com
+    cells:
+    - Leadership churn and heavy|funding preceded turnaround
+    - Belle Brands acquired it|after reported foreclosure
+    - ''
+    - ''
+    src: ../../assets/logos/pp/vegamour.png
+    ini: V
+  - name: JVN Hair
+    slug: jvn-hair
+    domain: jvnhair.com
+    cells:
+    - Parent bankruptcy forced a|distressed ownership change
+    - Sold out of Amyris|bankruptcy to Windsong Global
+    - ''
+    - ''
+    src: ../../assets/logos/pp/jvn-hair.png
+    ini: JH
+  - name: Function
+    slug: function
+    domain: functionofbeauty.com
+    cells:
+    - Customization adds manufacturing|and inventory complexity
+    - ''
+    - ''
+    - Personalized beauty peers cut|costs after DTC growth slowed
+    src: ../../assets/logos/pp/function.png
+    ini: F
+  - name: Prose
+    slug: prose
+    domain: prose.com
+    cells:
+    - Personalized DTC economics depend|on retention and repeat use
+    - ''
+    - Retail expansion is slower|than standard off-shelf brands
+    - ''
+    src: ../../assets/logos/pp/prose.png
+    ini: P
+  - name: Crown Affair
+    slug: crown-affair
+    domain: crownaffair.com
+    cells:
+    - Prestige expansion requires|high Sephora productivity
+    - ''
+    - Series C followed years of|deliberate slower scaling
+    - ''
+    src: ../../assets/logos/pp/crown-affair.png
+    ini: CA
+  note:
+  - We looked for warning signs among well-known hair care companies, from layoffs to lawsuits
+  - We used company filings and the press, and all our sources are listed at the end of the report
+- label: INDIE BEAUTY
+  type: pp_donutv
+  section: Market size
+  title: How is the indie beauty market split between its categories?
+  cats:
+  - name: Skincare
+    p: 34
+    logos:
+    - ../../assets/logos/pp/glossier.png
+    - ../../assets/logos/pp/youth-to-the-people.png
+  - name: Makeup
+    p: 27
+    logos:
+    - ../../assets/logos/pp/rare-beauty.png
+    - ../../assets/logos/pp/_ini_saie.png
+  - name: Fragrance
+    p: 14
+    logos:
+    - ../../assets/logos/pp/_ini_phlur.png
+    - ../../assets/logos/pp/dedcool.png
+  - name: Haircare
+    p: 13
+    logos:
+    - ../../assets/logos/pp/odele.png
+    - ../../assets/logos/pp/crown-affair.png
+  - name: Body and nails
+    p: 12
+    logos:
+    - ../../assets/logos/pp/n-cessaire.png
+    - ../../assets/logos/pp/olive-and-june.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: INDIE BEAUTY
+  type: pp_grid
+  weight:
+    merit: 0.0
+    saie: 0.0
+    tower-28: 1200000.0
+    dieux: 0.0
+    prequel: 0.0
+    4am: 4000000.0
+    crown-affair: 24800000.0
+    odele: 2900000.0
+    ceremonia: 12000000.0
+    saltair: 0.0
+    cecred: 0.0
+    aiza: 0.0
+    phlur: 17300000.0
+    snif: 27360000.0
+    dedcool: 1800000.0
+    dossier: 0.0
+    noyz: 0.0
+    future-society: 0.0
+  section: INDIE BEAUTY
+  title: 'Who are the top players
+
+    in indie beauty today?'
+  handle: indie-beauty
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Skin & makeup
+  - Hair & body
+  - Fragrance
+  cells:
+  - - - merit
+      - saie
+    - - tower-28
+    - - prequel
+  - - - crown-affair
+      - odele
+    - - ceremonia
+      - saltair
+    - - cecred
+      - aiza
+  - - - phlur
+      - snif
+    - - dossier
+    - - noyz
+      - future-society
+  note:
+  - We placed private pure players by main product and stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents, and all our sources are listed at the end of the report
+  srcs:
+    merit: ../../assets/logos/pp/merit.png
+    saie: ''
+    tower-28: ../../assets/logos/pp/tower-28.png
+    dieux: ''
+    prequel: ../../assets/logos/pp/prequel.png
+    4am: ''
+    crown-affair: ../../assets/logos/pp/crown-affair.png
+    odele: ../../assets/logos/pp/odele.png
+    ceremonia: ../../assets/logos/pp/ceremonia.png
+    saltair: ../../assets/logos/pp/saltair.png
+    cecred: ../../assets/logos/pp/cecred.png
+    aiza: ../../assets/logos/pp/aiza.png
+    phlur: ''
+    snif: ../../assets/logos/pp/snif.png
+    dedcool: ../../assets/logos/pp/dedcool.png
+    dossier: ../../assets/logos/pp/dossier.png
+    noyz: ../../assets/logos/pp/noyz.png
+    future-society: ../../assets/logos/pp/future-society.png
+- label: OFF-GRID SOLAR
+  type: pp_grid
+  weight:
+    sun-king: 447000000.0
+    d-light: 102400000.0
+    bboxx: 120900000.0
+    lumos: 120000.0
+    oolu: 11700000.0
+    solar-panda: 0.0
+    husk-power-systems: 43000000.0
+    powergen-renewable-energy: 7000000.0
+    nuru: 43800000.0
+    okra-solar: 0.0
+    koolboks: 13000000.0
+    a2ei: 0.0
+    zola-electric: 158000000.0
+    m-kopa: 130000000.0
+    ared: 0.0
+    daystar-power: 0.0
+    mpower-ventures: 1900000.0
+    ampersand-solar: 0.0
+  section: OFF-GRID SOLAR
+  title: 'Which companies lead
+
+    off-grid solar right now?'
+  handle: off-grid-solar
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Solar homes
+  - Mini-grids
+  - Hybrid power
+  cells:
+  - - - sun-king
+      - d-light
+    - - bboxx
+      - lumos
+    - - solar-panda
+  - - - husk-power-systems
+      - powergen-renewable-energy
+    - - nuru
+      - okra-solar
+    - - koolboks
+  - - - zola-electric
+      - m-kopa
+    - - ared
+      - daystar-power
+    - - mpower-ventures
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like ENGIE, Schneider Electric, with all the sources at the end of the report
+  srcs:
+    sun-king: ../../assets/logos/pp/sun-king.png
+    d-light: ../../assets/logos/pp/d-light.png
+    bboxx: ../../assets/logos/pp/bboxx.png
+    lumos: ../../assets/logos/pp/lumos.png
+    oolu: ../../assets/logos/pp/oolu.png
+    solar-panda: ../../assets/logos/pp/solar-panda.png
+    husk-power-systems: ../../assets/logos/pp/husk-power-systems.png
+    powergen-renewable-energy: ../../assets/logos/pp/powergen-renewable-energy.png
+    nuru: ../../assets/logos/pp/nuru.png
+    okra-solar: ../../assets/logos/pp/okra-solar.png
+    koolboks: ../../assets/logos/pp/koolboks.png
+    a2ei: ''
+    zola-electric: ../../assets/logos/pp/zola-electric.png
+    m-kopa: ../../assets/logos/pp/m-kopa.png
+    ared: ../../assets/logos/pp/ared.png
+    daystar-power: ../../assets/logos/pp/daystar-power.png
+    mpower-ventures: ../../assets/logos/pp/mpower-ventures.png
+    ampersand-solar: ''
+- label: OFF-GRID SOLAR
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which off-grid solar companies have shown warning signs lately?
+  signs:
+  - Lost|independence
+  - Lawsuit or|court case
+  rows:
+  - name: Mobisol
+    slug: mobisol
+    domain: mobisol.com
+    cells:
+    - Its business was later|acquired by Engie.
+    - Entered insolvency proceedings|in Germany in 2019.
+    src: ../../assets/logos/pp/mobisol.png
+    ini: M
+  - name: Azuri
+    slug: azuri
+    domain: azuri-technologies.com
+    cells:
+    - Administration ended its|independent growth path.
+    - Entered administration|after funding pressure.
+    src: ../../assets/logos/pp/azuri.png
+    ini: A
+  - name: PEG Africa
+    slug: peg-africa
+    domain: pegafrica.com
+    cells:
+    - Bboxx acquired PEG|Africa in September 2022.
+    - ''
+    src: ../../assets/logos/pp/peg-africa.png
+    ini: PA
+  - name: Oolu
+    slug: oolu
+    domain: oolusolar.com
+    cells:
+    - Ignite Power acquired|Oolu in 2024.
+    - ''
+    src: ../../assets/logos/pp/oolu.png
+    ini: O
+  - name: Pawame
+    slug: pawame
+    domain: pawame.com
+    cells:
+    - Ignite Power acquired|Pawame in 2023.
+    - ''
+    src: ../../assets/logos/pp/pawame.png
+    ini: P
+  note:
+  - We looked for warning signs among well-known off-grid solar companies, from layoffs to lawsuits
+  - We used company filings and the press, and all the sources are included at the end of the report
+- label: PC & CONSOLE GAMING
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these PC and console gaming startups, and how did they end?
+  causes:
+  - Other|reason
+  - Too few|buyers
+  - Product|fell short
+  - Ran out|of cash
+  rows:
+  - name: Firewalk
+    slug: firewalk
+    domain: firewalkstudios.com
+    start: '2018'
+    end: '2024'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/firewalk.png
+    ini: F
+  - name: Pieces
+    slug: pieces
+    domain: piecesinteractive.se
+    start: '2007'
+    end: '2024'
+    ending: Shut down
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/pieces.png
+    ini: P
+  - name: Mimimi
+    slug: mimimi
+    domain: mimimi.games
+    start: '2008'
+    end: '2023'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp/mimimi.png
+    ini: M
+  - name: Volition
+    slug: volition
+    domain: volitiongames.com
+    start: '1993'
+    end: '2023'
+    ending: Shut down
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ''
+    ini: V
+  - name: Roll7
+    slug: roll7
+    domain: roll7.co.uk
+    start: '2008'
+    end: '2024'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp/roll7.png
+    ini: R
+  note:
+  - We tracked the PC and console gaming startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and you will find all the sources we used at the end of the report
+- label: PC & CONSOLE GAMING
+  type: pp_survivors
+  section: Startup killers
+  title: What do PC and console gaming survivors do differently?
+  rows:
+  - lesson: Test demand before AAA spend
+    explanation: Larian validates with early access
+    failed_company: Firewalk
+    website: https://www.firewalkstudios.com
+    why_it_failed: Concord demand missed targets
+    slug: firewalk
+    src: ../../assets/logos/pp/firewalk.png
+    ini: F
+  - lesson: Control production scope
+    explanation: Supergiant ships focused games
+    failed_company: Volition
+    website: https://www.volitiongames.com
+    why_it_failed: Big reboot missed expectations
+    slug: volition
+    src: ''
+    ini: V
+  - lesson: Own the IP and audience
+    explanation: Larian keeps core IP close
+    failed_company: Pieces
+    website: https://www.piecesinteractive.se
+    why_it_failed: Work-for-hire scale was fragile
+    slug: pieces
+    src: ../../assets/logos/pp/pieces.png
+    ini: P
+  - lesson: Avoid endless live-service bets
+    explanation: Valve has diversified franchises
+    failed_company: Roll7
+    website: https://www.roll7.co.uk
+    why_it_failed: Portfolio owner shut studio
+    slug: roll7
+    src: ../../assets/logos/pp/roll7.png
+    ini: R
+  - lesson: Protect team sustainability
+    explanation: Supergiant uses measured cycles
+    failed_company: Mimimi
+    website: https://www.mimimi.games
+    why_it_failed: Long cycles caused burnout
+    slug: mimimi
+    src: ../../assets/logos/pp/mimimi.png
+    ini: M
+  note:
+  - We compared PC and console gaming companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and you will find all the sources we used at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these predictions industry startups, and how did they end?
+  causes:
+  - Too few|buyers
+  - Rivals|caught up
+  rows:
+  - name: Veil
+    slug: veil
+    domain: veil.co
+    start: '2018'
+    end: '2019'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    src: ''
+    ini: V
+  - name: Forecast
+    slug: forecast
+    domain: facebook.com
+    start: '2020'
+    end: '2021'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    src: ../../assets/logos/pp/forecast.png
+    ini: F
+  - name: Trepa
+    slug: trepa
+    domain: trepa.xyz
+    start: '2025'
+    end: '2026'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    src: ../../assets/logos/pp/trepa.png
+    ini: T
+  - name: Fireplace
+    slug: fireplace
+    domain: fireplace.gg
+    start: '2025'
+    end: '2026'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    src: ../../assets/logos/pp/fireplace.png
+    ini: F
+  - name: Replication
+    slug: replication
+    domain: replicationmarkets.com
+    start: '2018'
+    end: '2020'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    src: ../../assets/logos/pp/replication.png
+    ini: R
+  note:
+  - We tracked the predictions industry startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources we used are listed at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_survivors
+  section: Startup killers
+  title: What do predictions industry survivors do differently?
+  rows:
+  - lesson: Make onboarding simple
+    explanation: Kalshi uses familiar cash accounts
+    failed_company: Veil
+    website: https://veil.co
+    why_it_failed: Onboarding was explicitly weak
+    slug: veil
+    src: ''
+    ini: V
+  - lesson: Secure legal access
+    explanation: Kalshi operates as a regulated DCM
+    failed_company: Forecast
+    website: https://www.facebook.com
+    why_it_failed: Experiment was easy to sunset
+    slug: forecast
+    src: ../../assets/logos/pp/forecast.png
+    ini: F
+  - lesson: Build deep liquidity
+    explanation: Polymarket compounds trader depth
+    failed_company: Trepa
+    website: https://trepa.xyz
+    why_it_failed: Usage did not sustain
+    slug: trepa
+    src: ../../assets/logos/pp/trepa.png
+    ini: T
+  - lesson: Own distribution
+    explanation: Robinhood distributes event contracts
+    failed_company: Fireplace
+    website: https://fireplace.gg
+    why_it_failed: Overlay had little moat
+    slug: fireplace
+    src: ../../assets/logos/pp/fireplace.png
+    ini: F
+  - lesson: Cover many topics
+    explanation: Kalshi spans macro, sports and more
+    failed_company: Replication
+    website: https://replicationmarkets.com
+    why_it_failed: Program ended with funding
+    slug: replication
+    src: ../../assets/logos/pp/replication.png
+    ini: R
+  note:
+  - We compared predictions industry companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all the sources we used are listed at the end of the report
+- label: SODIUM-ION BATTERY
+  type: pp_donutv
+  section: Market size
+  title: How is the sodium-ion battery market split between its categories?
+  cats:
+  - name: Sodium-ion cells
+    p: 42
+    logos:
+    - ../../assets/logos/pp/catl.png
+    - ../../assets/logos/pp/hina-battery.png
+  - name: Stationary systems
+    p: 20
+    logos:
+    - ../../assets/logos/pp/peak-energy.png
+    - ../../assets/logos/pp/great-power.png
+  - name: Mobility cells
+    p: 16
+    logos:
+    - ../../assets/logos/pp/tiamat.png
+    - ../../assets/logos/pp/catl.png
+  - name: Cathode materials
+    p: 12
+    logos:
+    - ../../assets/logos/pp/altris.png
+    - ../../assets/logos/pp/_ini_ronbay.png
+  - name: Hard carbon anodes
+    p: 10
+    logos:
+    - ../../assets/logos/pp/btr-new-material.png
+    - ../../assets/logos/pp/shanshan.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: SODIUM-ION BATTERY
+  type: pp_value
+  section: Value creation
+  title: 'How does money really
+
+    flow in sodium-ion battery?'
+  axes:
+  - Sells materials
+  - Sells finished systems
+  - Per
+  - kWh
+  - Per
+  - license
+  groups:
+  - name: Cell sales
+    x: 0.55
+    y: 0.25
+    logos:
+    - src: ../../assets/logos/pp/catl.png
+    - src: ../../assets/logos/pp/hina-battery.png
+  - name: Storage system sales
+    x: 0.85
+    y: 0.35
+    logos:
+    - src: ../../assets/logos/pp/peak-energy.png
+    - src: ../../assets/logos/pp/great-power.png
+  - name: Material supply
+    x: 0.2
+    y: 0.3
+    logos:
+    - src: ../../assets/logos/pp/altris.png
+    - src: ../../assets/logos/pp/btr-new-material.png
+  - name: Technology licensing
+    x: 0.3
+    y: 0.8
+    logos:
+    - src: ../../assets/logos/pp/altris.png
+    - src: ../../assets/logos/pp/tiamat.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report

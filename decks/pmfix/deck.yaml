@@ -1,0 +1,605 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- type: pp_radar
+  pill: MARKET MAP
+  label: PREDICTION MARKETS
+  title: 'Who is in prediction markets,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to prediction markets
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/kalshi.png
+  - ../../assets/logos/pp/polymarket.png
+  - ../../assets/logos/pp/predictit.png
+  - ../../assets/logos/pp/limitless.png
+  - ../../assets/logos/pp/opinion.png
+  - ../../assets/logos/pp/myriad.png
+  - ../../assets/logos/pp/novig.png
+  - ../../assets/logos/pp/manifold.png
+  TL:
+    src: ../../assets/logos/pp/draftkings.png
+    name: DraftKings
+    text: draftKings is a sportsbook with house priced bets, not a general event contract market where users trade contracts
+  TR:
+    src: ../../assets/logos/pp/morning-consult.png
+    name: Morning Consult
+    text: morning Consult measures opinions through polling and surveys, not through tradable contracts tied to future outcomes
+  BL:
+    src: ../../assets/logos/pp/crypto-com.png
+    name: Crypto.com
+    text: crypto.com offers event contracts in some markets, while most of its business remains crypto trading and payments
+  BR:
+    src: ../../assets/logos/pp/robinhood.png
+    name: Robinhood
+    text: robinhood distributes event contracts inside a broad brokerage, so prediction markets are only one product line
+- label: PREDICTION MARKETS
+  type: pp_cagr
+  section: Market size
+  title: 'How much bigger can
+
+    prediction markets get?'
+  size: 240.0
+  cagr: 43
+  lead: 'To get that big, '
+  condition: growth requires durable legal access, liquid markets, trustworthy settlement rules and enough recurring non-election trading to retain users year round.
+  note:
+  - We compared forecasts from Intel Market Research and Bernstein
+  - We adjusted each one to our definition, with all the sources at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_donutv
+  section: Market size
+  title: How is the prediction markets industry split between its categories?
+  cats:
+  - name: Political Markets
+    p: 28
+    logos:
+    - ../../assets/logos/pp/kalshi.png
+    - ../../assets/logos/pp/polymarket.png
+  - name: Sports Markets
+    p: 26
+    logos:
+    - ../../assets/logos/pp/kalshi.png
+    - ../../assets/logos/pp/crypto-com.png
+  - name: Economic Markets
+    p: 18
+    logos:
+    - ../../assets/logos/pp/kalshi.png
+    - ../../assets/logos/pp/forecastex.png
+  - name: Crypto Markets
+    p: 16
+    logos:
+    - ../../assets/logos/pp/polymarket.png
+    - ../../assets/logos/pp/coinbase.png
+  - name: Culture and Tech
+    p: 12
+    logos:
+    - ../../assets/logos/pp/polymarket.png
+    - ../../assets/logos/pp/kalshi.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: PREDICTION MARKETS
+  type: pp_pains
+  section: Pain points
+  title: 'Which prediction markets
+
+    problems are still unsolved?'
+  auds:
+  - Retail traders
+  - Pro traders
+  - Market makers
+  - Online brokerages
+  - Media firms
+  pains:
+  - - Thin markets can produce volatile misleading prices
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - Rules can leave event resolution open to disputes
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - Regulatory access changes across states and venues
+    - - 2
+      - 1
+      - 3
+      - 2
+      - 1
+  - - Liquidity fragments when similar markets compete
+    - - 1
+      - 2
+      - 2
+      - 3
+      - 2
+  - - Long dated events lock capital for too much time
+    - - 2
+      - 2
+      - 1
+      - 2
+      - 3
+  - - New users confuse contracts with ordinary betting
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which prediction markets players
+
+    can already do the most today?'
+  companies:
+  - name: Kalshi
+    src: ../../assets/logos/pp/kalshi.png
+  - name: Polymarket
+    src: ../../assets/logos/pp/polymarket.png
+  - name: Robinhood
+    src: ../../assets/logos/pp/robinhood.png
+  - name: Coinbase
+    src: ../../assets/logos/pp/coinbase.png
+  - name: ForecastEx
+    src: ../../assets/logos/pp/forecastex.png
+  features:
+  - header: Politics|markets
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Sports|markets
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Macro|markets
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Crypto|markets
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Trading|API
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Limit|orders
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: 24x7|access
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_value
+  section: Value creation
+  title: 'What business models work
+
+    in prediction markets?'
+  axes:
+  - Runs the exchange
+  - Brings the traders
+  - Per
+  - contract
+  - Per
+  - spread
+  groups:
+  - name: Trading fees
+    x: 0.2
+    y: 0.25
+    logos:
+    - src: ../../assets/logos/pp/kalshi.png
+    - src: ../../assets/logos/pp/robinhood.png
+  - name: Exchange fee share
+    x: 0.45
+    y: 0.45
+    logos:
+    - src: ../../assets/logos/pp/forecastex.png
+    - src: ../../assets/logos/pp/crypto-com.png
+  - name: Market maker spread
+    x: 0.3
+    y: 0.82
+    logos:
+    - src: ../../assets/logos/pp/susquehanna.png
+  - name: Distribution economics
+    x: 0.82
+    y: 0.3
+    logos:
+    - src: ../../assets/logos/pp/robinhood.png
+    - src: ../../assets/logos/pp/coinbase.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_risks
+  section: Market challenges
+  title: What are the biggest threats to the prediction markets industry?
+  events:
+  - text: More US states win court orders treating sports event contracts as gambling, forcing Kalshi and Polymarket to geofence
+    odds: 50
+    impact: 3
+  - text: The Supreme Court limits federal preemption for prediction markets, exposing national platforms to many state gaming rules
+    odds: 35
+    impact: 3
+  - text: The CFTC adopts tighter event contract rules that restrict sports or election markets, cutting the largest volume categories
+    odds: 35
+    impact: 3
+  - text: A manipulation scandal in a thin political market triggers congressional scrutiny and tighter surveillance requirements
+    odds: 30
+    impact: 2
+  - text: Sports leagues secure stronger rights over event data and trademarks, raising costs for exchanges listing game contracts
+    odds: 35
+    impact: 2
+  - text: A large payout dispute or platform outage during a major event weakens retail trust in Kalshi or Polymarket settlement
+    odds: 25
+    impact: 2
+  - text: Traditional sportsbooks copy exchange style contracts and promotions, pulling casual sports traders from prediction markets
+    odds: 45
+    impact: 1
+  - text: Election interest falls after 2026 and sports rules tighten, leaving platforms dependent on smaller economic niche contracts
+    odds: 40
+    impact: 2
+  note:
+  - We listed the events that could slow prediction markets down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the prediction markets industry forward, year after year?
+  events:
+  - year: '1988'
+    text: Iowa market proves crowd forecasting
+    impact: 3.0
+  - year: '1992'
+    text: CFTC relief legitimizes Iowa experiments
+    impact: 1.5
+  - year: '2004'
+    text: HedgeStreet wins federal exchange approval
+    impact: 2.0
+  - year: '2010'
+    text: Dodd Frank defines event contract limits
+    impact: 1.5
+  - year: '2012'
+    text: Intrade crackdown exposes regulatory stakes
+    impact: 1.0
+  - year: '2014'
+    text: PredictIt gets academic market relief
+    impact: 1.5
+  - year: '2016'
+    text: Brexit highlights forecasting demand
+    impact: 1.5
+  - year: '2016'
+    text: US election boosts political market interest
+    impact: 1.5
+  - year: '2018'
+    text: Kalshi pursues regulated event exchange
+    impact: 1.5
+  - year: '2020'
+    text: Kalshi wins designated market status
+    impact: 2.5
+  - year: '2020'
+    text: Polymarket brings crypto settlement
+    impact: 2.0
+  - year: '2021'
+    text: Kalshi opens regulated retail trading
+    impact: 2.0
+  - year: '2022'
+    text: Polymarket settlement clarifies US boundary
+    impact: 1.0
+  - year: '2022'
+    text: PredictIt winddown fight mobilizes users
+    impact: 1.0
+  - year: '2023'
+    text: Court relief keeps PredictIt operating
+    impact: 1.5
+  - year: '2023'
+    text: Election cycle revives contract demand
+    impact: 1.5
+  - year: '2024'
+    text: Court victory unlocks election contracts
+    impact: 3.0
+  - year: '2024'
+    text: Presidential markets reach billions
+    impact: 2.0
+  - year: '2024'
+    text: Media embeds prediction market odds
+    impact: 1.5
+  - year: '2025'
+    text: Sports contracts drive mainstream volume
+    impact: 2.0
+  - year: '2025'
+    text: March Madness draws huge contract volume
+    impact: 2.0
+  - year: '2025'
+    text: Robinhood broadens event market distribution
+    impact: 2.0
+  - year: '2025'
+    text: Polymarket prepares regulated US return
+    impact: 1.5
+  - year: '2025'
+    text: Media deals normalize market probabilities
+    impact: 1.5
+  - year: '2026'
+    text: CFTC backs federal prediction jurisdiction
+    impact: 2.0
+  - year: '2026'
+    text: State lawsuits test sports market limits
+    impact: 1.5
+  - year: '2026'
+    text: Midterm markets generate heavy trading
+    impact: 2.0
+  - year: '2026'
+    text: Federal courts split on preemption
+    impact: 1.5
+  - year: '2026'
+    text: CFTC proposes new event contract rules
+    impact: 2.0
+  - year: '2026'
+    text: Sports become core prediction market volume
+    impact: 2.0
+  note:
+  - We kept the events we believe pushed prediction markets forward the most
+  - Ratings are our own estimates, and all our sources are at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_raises
+  section: Investor bets
+  title: 'Who are investors backing most
+
+    in prediction markets right now?'
+  rounds:
+  - name: Kalshi
+    amt: 1000000000.0
+    src: ../../assets/logos/pp/kalshi.png
+    stage: Late stage
+    date: Nov 2025
+  - name: Polymarket
+    amt: 1000000000.0
+    src: ../../assets/logos/pp/polymarket.png
+    stage: Strategic
+    date: Oct 2025
+  - name: Novig
+    amt: 75000000.0
+    src: ../../assets/logos/pp/novig.png
+    stage: Series B
+    date: Feb 2026
+  - name: ProphetX
+    amt: 35000000.0
+    src: ../../assets/logos/pp/prophetx.png
+    stage: Round
+    date: Jul 2026
+  - name: ORNN Compute
+    amt: 33000000.0
+    src: ../../assets/logos/pp/ornn-compute.png
+    stage: Seed
+    date: Jun 2026
+  - name: Onyx Odds
+    amt: 20000000.0
+    src: ../../assets/logos/pp/onyx-odds.png
+    stage: Series A
+    date: Jun 2026
+  note:
+  - We listed the biggest equity rounds raised by prediction market startups over the last few years
+  - We used company announcements and the press, and all our sources are at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_grid
+  weight:
+    kalshi: 3843250000.0
+    novig: 103455000.0
+    predictit: 0.0
+    forecastex: 0.0
+    railbird: 500000.0
+    pascal: 15000000.0
+    polymarket: 2104000000.0
+    limitless: 44000000.0
+    opinion: 0.0
+    myriad: 0.0
+    probable: 0.0
+    predict-fun: 0.0
+    manifold: 0.0
+    metaculus: 0.0
+    azuro: 7500000.0
+    zeitgeist: 1500000.0
+    furnace: 3500000.0
+    bayes-market: 0.0
+  section: PREDICTION MARKETS
+  title: 'Who are the top companies
+
+    in prediction markets?'
+  handle: prediction-markets
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Regulated US
+  - Crypto PM
+  - Social PM
+  cells:
+  - - - kalshi
+      - novig
+    - - predictit
+      - forecastex
+    - - railbird
+  - - - polymarket
+      - limitless
+    - - opinion
+      - myriad
+    - - probable
+      - predict-fun
+  - - - manifold
+      - metaculus
+    - - azuro
+      - zeitgeist
+    - - bayes-market
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Robinhood, DraftKings, with all the sources at the end of the report
+  srcs:
+    kalshi: ../../assets/logos/pp/kalshi.png
+    novig: ../../assets/logos/pp/novig.png
+    predictit: ../../assets/logos/pp/predictit.png
+    forecastex: ../../assets/logos/pp/forecastex.png
+    railbird: ../../assets/logos/pp/railbird.png
+    pascal: ''
+    polymarket: ../../assets/logos/pp/polymarket.png
+    limitless: ../../assets/logos/pp/limitless.png
+    opinion: ../../assets/logos/pp/opinion.png
+    myriad: ../../assets/logos/pp/myriad.png
+    probable: ../../assets/logos/pp/probable.png
+    predict-fun: ../../assets/logos/pp/predict-fun.png
+    manifold: ../../assets/logos/pp/manifold.png
+    metaculus: ../../assets/logos/pp/metaculus.png
+    azuro: ../../assets/logos/pp/azuro.png
+    zeitgeist: ../../assets/logos/pp/zeitgeist.png
+    furnace: ''
+    bayes-market: ../../assets/logos/pp/bayes-market.png
+- label: PREDICTION MARKETS
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these prediction market startups, and how did they end?
+  causes:
+  - Too few|buyers
+  - Rivals|caught up
+  rows:
+  - name: Veil
+    slug: veil
+    domain: veil.co
+    start: '2018'
+    end: '2019'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    src: ''
+    ini: V
+  - name: Forecast
+    slug: forecast
+    domain: facebook.com
+    start: '2020'
+    end: '2021'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    src: ../../assets/logos/pp/forecast.png
+    ini: F
+  - name: Trepa
+    slug: trepa
+    domain: trepa.xyz
+    start: '2025'
+    end: '2026'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    src: ../../assets/logos/pp/trepa.png
+    ini: T
+  - name: Fireplace
+    slug: fireplace
+    domain: fireplace.gg
+    start: '2025'
+    end: '2026'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    src: ../../assets/logos/pp/fireplace.png
+    ini: F
+  - name: Replication
+    slug: replication
+    domain: replicationmarkets.com
+    start: '2018'
+    end: '2020'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    src: ../../assets/logos/pp/replication.png
+    ini: R
+  note:
+  - We tracked the prediction market startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources we used are listed at the end of the report
+- label: PREDICTION MARKETS
+  type: pp_survivors
+  section: Startup killers
+  title: What do prediction market survivors do differently?
+  rows:
+  - lesson: Make onboarding simple
+    explanation: Kalshi uses familiar cash accounts
+    failed_company: Veil
+    website: https://veil.co
+    why_it_failed: Onboarding was explicitly weak
+    slug: veil
+    src: ''
+    ini: V
+  - lesson: Secure legal access
+    explanation: Kalshi operates as a regulated DCM
+    failed_company: Forecast
+    website: https://www.facebook.com
+    why_it_failed: Experiment was easy to sunset
+    slug: forecast
+    src: ../../assets/logos/pp/forecast.png
+    ini: F
+  - lesson: Build deep liquidity
+    explanation: Polymarket compounds trader depth
+    failed_company: Trepa
+    website: https://trepa.xyz
+    why_it_failed: Usage did not sustain
+    slug: trepa
+    src: ../../assets/logos/pp/trepa.png
+    ini: T
+  - lesson: Own distribution
+    explanation: Robinhood distributes event contracts
+    failed_company: Fireplace
+    website: https://fireplace.gg
+    why_it_failed: Overlay had little moat
+    slug: fireplace
+    src: ../../assets/logos/pp/fireplace.png
+    ini: F
+  - lesson: Cover many topics
+    explanation: Kalshi spans macro, sports and more
+    failed_company: Replication
+    website: https://replicationmarkets.com
+    why_it_failed: Program ended with funding
+    slug: replication
+    src: ../../assets/logos/pp/replication.png
+    ini: R
+  note:
+  - We compared prediction market companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all the sources we used are listed at the end of the report
