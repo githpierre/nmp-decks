@@ -1,4 +1,4 @@
 {% set G = s.geo %}<div class="pp-stat">{{G.stat}}<span>more searches at the peak<br>than in a typical week before</span></div>
 <p class="pp-expl"><b>{{s.date}}</b> {{s.expl}}</p>
 <svg class="pp-abs" width="960" height="672"><polyline points="{{G.pts}}" fill="none" stroke="#FB0161" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><line x1="134" y1="{{G.base}}" x2="826" y2="{{G.base}}" stroke="#5E7E8E"/></svg>
-<span class="pp-tcap" style="top:{{G.base+14}}px">Worldwide Google searches for ‘{{s.term}}’, last five years</span>
+<span class="pp-tcap" style="top:{{G.base+14}}px">Worldwide Google searches for ‘{{s.term}}’, {{ 'last twelve months' if s.window == '1y' else 'last five years' }}</span>

@@ -1,0 +1,145 @@
+market: Product page slides
+quarter: trends 5y vs 1y
+label: ''
+keep_together:
+- AI marketing
+- cross-border payments
+- low-carbon cement
+- metal 3D printing
+- radiopharmaceuticals
+slides:
+- label: AI MARKETING
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'More marketers are googling AI
+
+    to write and run their campaigns'
+  csv: /root/w/m101/s02/csv/101-ai-marketing.csv
+  term: ai marketing
+  expl: Generative AI went from writing a few lines of copy to producing images, videos and whole campaigns. Marketing teams started searching for tools that create and test ads faster, and big ad platforms
+    built AI into their own products.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+- label: AI MARKETING
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'More marketers are googling AI
+
+    to write and run their campaigns'
+  csv: /root/w/m101/s02/csv/101-ai-marketing.csv
+  term: ai marketing
+  expl: Generative AI went from writing a few lines of copy to producing images, videos and whole campaigns. Marketing teams started searching for tools that create and test ads faster, and big ad platforms
+    built AI into their own products.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last twelve months
+  window: 1y
+- label: RADIOPHARMACEUTICALS
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Radioligand therapy searches surge
+
+    as big pharma bets billions on it'
+  csv: /root/w/m101/s02/csv/107-radiopharmaceuticals.csv
+  term: radioligand therapy
+  expl: Novartis showed with Pluvicto that radioactive drugs can find and kill cancer cells. Big pharma then bought radiopharma startups for billions, and patients and investors went looking for how radioligand
+    therapy works.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+- label: RADIOPHARMACEUTICALS
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Radioligand therapy searches surge
+
+    as big pharma bets billions on it'
+  csv: /root/w/m101/s02/csv/107-radiopharmaceuticals.csv
+  term: radioligand therapy
+  expl: Novartis showed with Pluvicto that radioactive drugs can find and kill cancer cells. Big pharma then bought radiopharma startups for billions, and patients and investors went looking for how radioligand
+    therapy works.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last twelve months
+  window: 1y
+- label: CROSS-BORDER PAYMENTS
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Cross-border payment searches climb
+
+    as stablecoins promise faster transfers'
+  csv: /root/w/m101/s02/csv/116-cross-border-b2b-payments.csv
+  term: cross border payments
+  expl: Sending money between countries is still slow and costly for many businesses. Stablecoins and new payment networks promised near instant transfers, the US passed its first stablecoin law, and companies
+    went looking for cheaper ways to pay abroad.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+- label: CROSS-BORDER PAYMENTS
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Cross-border payment searches climb
+
+    as stablecoins promise faster transfers'
+  csv: /root/w/m101/s02/csv/116-cross-border-b2b-payments.csv
+  term: cross border payments
+  expl: Sending money between countries is still slow and costly for many businesses. Stablecoins and new payment networks promised near instant transfers, the US passed its first stablecoin law, and companies
+    went looking for cheaper ways to pay abroad.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last twelve months
+  window: 1y
+- label: FRAUD PREVENTION
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Deepfake scam searches exploded as
+
+    fake voices and videos fool people'
+  csv: /root/w/m101/s02/csv/125-fraud-prevention.csv
+  term: deepfake scam
+  expl: Cheap AI tools made it easy to clone a voice or a face. Scammers used fake videos of celebrities and fake calls from bosses, one of them cost engineering firm Arup $25M, and people went searching
+    how to spot a deepfake scam.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+- label: FRAUD PREVENTION
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Deepfake scam searches exploded as
+
+    fake voices and videos fool people'
+  csv: /root/w/m101/s02/csv/125-fraud-prevention.csv
+  term: deepfake scam
+  expl: Cheap AI tools made it easy to clone a voice or a face. Scammers used fake videos of celebrities and fake calls from bosses, one of them cost engineering firm Arup $25M, and people went searching
+    how to spot a deepfake scam.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last twelve months
+  window: 1y
+- label: CARBON REMOVAL
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Searches for carbon removal climb
+
+    as big tech buys it by the ton'
+  csv: /root/w/m101/s02/csv/130-carbon-removal.csv
+  term: carbon removal
+  expl: Cutting emissions is no longer enough to hit climate goals, so companies started paying to pull CO2 back out of the air. Microsoft signed record carbon removal deals, and searches for carbon removal
+    kept growing.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+- label: CARBON REMOVAL
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Searches for carbon removal climb
+
+    as big tech buys it by the ton'
+  csv: /root/w/m101/s02/csv/130-carbon-removal.csv
+  term: carbon removal
+  expl: Cutting emissions is no longer enough to hit climate goals, so companies started paying to pull CO2 back out of the air. Microsoft signed record carbon removal deals, and searches for carbon removal
+    kept growing.
+  date: Lately.
+  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last twelve months
+  window: 1y

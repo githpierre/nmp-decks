@@ -26,6 +26,23 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   }
   // 3. logos: no initials tile
   const nt = s.querySelectorAll('.nt').length; if (nt) add('LOGO_MISSING', nt + ' name tile(s)');
+
+  // 5. tables centered vertically between title and note, horizontal lines reach the last column
+  if (['pp_killers', 'pp_survivors', 'pp_winner', 'pp_pains', 'pp_tech'].includes(T)) {
+    const items = [...s.querySelectorAll('[class^="pp-"], .lt')].filter(e => e.offsetParent && R(e).height > 0); let a = 1e9, b = -1e9;
+    items.forEach(e => { const r = R(e); a = Math.min(a, r.top - S.top); b = Math.max(b, r.bottom - S.top); });
+    const note = s.querySelector('.note'); const nt = note ? R(note).top - S.top : 600; const mid = (tb + nt) / 2, c = (a + b) / 2;
+    if (Math.abs(c - mid) > 22) add('NOT_VCENTERED', `block center ${Math.round(c)} vs ${Math.round(mid)}`);
+    const lines = [...s.querySelectorAll('.pp-kl')]; if (lines.length) {
+      const L = Math.max(...lines.map(l => R(l).right)); const C = Math.max(...[...s.querySelectorAll('.pp-kc, .pp-kz, .pp-td, .pp-wk, .pp-kh')].map(e => R(e).right));
+      if (C > L + 2) add('LINES_SHORT', `content ends ${Math.round(C - S.left)}, lines end ${Math.round(L - S.left)}`); }
+  }
+  // 6. donut: every category shows at least 2 logos
+  if (T.startsWith('pp_donut')) s.querySelectorAll('.pp-dl').forEach(d => { const k = d.querySelectorAll('.lt').length; if (k < 2) add('DONUT_LOGOS', `${k} logo(s): ${d.innerText.split('\n')[0]}`); });
+  // 7. ticks and crosses: the mark is drawn, never a font glyph
+  s.querySelectorAll('.pp-ok, .pp-no, .pp-wk').forEach(e => { if (getComputedStyle(e, '::after').content !== 'none') add('MARK_GLYPH', e.className); });
+  if (T === 'pp_trends') { const pl = s.querySelector('polyline'), ex = s.querySelector('.pp-expl'); if (pl && ex && R(pl).top < R(ex).bottom + 10) add('CURVE_HITS_TEXT', Math.round(R(ex).bottom - R(pl).top)); }
+  s.querySelectorAll('.pp-big, .pp-stat, .pp-cagr, .pp-rv, .pp-bv').forEach(e => { if (lines(e) > 1 && e.className !== 'pp-stat') add('ONE_LINE', e.innerText.slice(0, 20)); });
   // 4. per series rules
   if (T === 'pp_pains') { const r = s.querySelectorAll('.pp-pt').length; if (r !== 6) add('PAINS_ROWS', r); s.querySelectorAll('.pp-ph').forEach(h => { if (lines(h) !== 2) add('AUD_LINES', h.innerText); }); }
   if (T === 'pp_drivers') { const c = [...s.querySelectorAll('.pp-dy')].length; if (c !== 30) add('DRIVERS_ROWS', c); }

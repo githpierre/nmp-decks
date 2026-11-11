@@ -28,7 +28,7 @@
     if (best) { t.innerHTML = esc(best.a) + '<br>' + esc(best.b); t.dataset.bal = Math.round(best.d / Math.max(best.wa, best.wb) * 100); }
   });
   // footer label on one line inside its 228 px: tighten the letter spacing if a long market name would overflow
-  document.querySelectorAll('.foot-label').forEach(f => { let ls = 0.42; while (f.scrollWidth > f.clientWidth + 1 && ls > 0.1) { ls -= 0.02; f.style.letterSpacing = ls + 'em'; } });
+  document.querySelectorAll('.foot-label').forEach(f => { let ls = 0.42; while (f.scrollWidth > f.clientWidth + 1 && ls > 0.1) { ls -= 0.02; f.style.letterSpacing = ls + 'em'; } let fs = 8; while (f.scrollWidth > f.clientWidth + 1 && fs > 6.5) { fs -= 0.25; f.style.fontSize = fs + 'pt'; } });
   m.remove(); })();</script>
 <script>{% include 'rawfit.js' %}</script>
 {% for f in deck.scripts or [] %}<script src="{{ f }}"></script>{% endfor %}

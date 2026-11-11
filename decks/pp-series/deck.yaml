@@ -243,135 +243,118 @@ slides:
     kept growing.
   date: Lately.
   note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
-- label: EDTECH MARKET
+- label: PREDICTION MARKETS
   type: pp_curve
   section: Market opportunity
-  title: More and more people now learn on Duolingo every day
-  note: We used Duolingo daily active users in the second quarter of each year, as reported in its shareholder letters filed with the SEC. All the sources are included at the end of the report.
+  title: Kalshi trades nine times more than it did in February
+  note: We used the monthly notional trading volume of Kalshi, the largest US prediction market, as tracked by DeFi Rate and pm.wiki. All the sources are included at the end of the report.
   points:
-  - - Q2 2022
-    - 13.2
-  - - Q2 2023
-    - 21.4
-  - - Q2 2024
-    - 34.1
-  - - Q2 2025
-    - 47.7
-  - - Q2 2026
-    - 58.7
+  - - Feb
+    - 10.4
+  - - Mar
+    - 12.4
+  - - Apr
+    - 14.8
+  - - May
+    - 17.9
+  - - Sep
+    - 60.9
+  - - Oct
+    - 98.2
   labs:
-  - 13.2M
-  - 21.4M
-  - 34.1M
-  - 47.7M
-  - 58.7M
+  - $10.4B
+  - $12.4B
+  - $14.8B
+  - $17.9B
+  - $60.9B
+  - $98.2B
   forecast: 0
   zero: true
+  xs:
+  - 0.1111111111111111
+  - 0.2222222222222222
+  - 0.3333333333333333
+  - 0.4444444444444444
+  - 0.8888888888888888
+  - 1.0
   lastlines:
-  - people learn on
-  - Duolingo every day
-  big: 4.4x
+  - traded on Kalshi
+  - in October 2026
+  big: 9.4x
+  unit: ' in 8 months'
+  paras:
+  - Kalshi traded $98.2B in October 2026, up 61% in a single month.
+  - Combo bets made up at least $66.9B of it.
+  - All US prediction markets together reached $120.7B in October.
+- label: BUY NOW PAY LATER
+  type: pp_curve
+  section: Market opportunity
+  title: Shoppers keep paying more with Affirm, year after year
+  note: We used the yearly gross merchandise volume Affirm reports for its fiscal years ending in June. The 2027 point is the company's own outlook. All the sources are included at the end of the report.
+  points:
+  - - FY2022
+    - 15.5
+  - - FY2023
+    - 20.2
+  - - FY2024
+    - 26.6
+  - - FY2025
+    - 36.7
+  - - FY2026
+    - 50.2
+  - - FY2027
+    - 64.0
+  labs:
+  - $15.5B
+  - $20.2B
+  - $26.6B
+  - $36.7B
+  - $50.2B
+  - $64.0B
+  forecast: 1
+  zero: true
+  lastlines:
+  - paid with Affirm
+  - in fiscal 2027
+  big: 3.2x
   unit: ' in 4 years'
   paras:
-  - Duolingo went from 13.2M daily users to 58.7M in four years.
-  - Growth picked up again to 23% a year in the latest quarter.
-  - Paid subscribers reached 12.7M, up 17% in a year.
-- label: RESALE MARKET
+  - Affirm handled $50.2B of purchases in its fiscal year 2026.
+  - Its volume grew 30% or more for 11 quarters in a row.
+  - It expects at least $64B in fiscal 2027.
+- label: ELECTRIC TWO-WHEELER
   type: pp_curve
   section: Market opportunity
-  title: More and more people now buy secondhand on ThredUp
-  note: We used ThredUp active buyers at the end of each quarter, as reported in its earnings releases filed with the SEC. All the sources are included at the end of the report.
+  title: More Indians ride electric scooters every year
+  note: We used yearly electric two-wheeler registrations in India from the Vahan portal, for fiscal years ending in March. All the sources are included at the end of the report.
   points:
-  - - Q2 2025
-    - 1.47
-  - - Q3 2025
-    - 1.57
-  - - Q4 2025
-    - 1.65
-  - - Q1 2026
-    - 1.71
-  - - Q2 2026
-    - 1.77
+  - - FY2022
+    - 0.25
+  - - FY2023
+    - 0.73
+  - - FY2024
+    - 0.95
+  - - FY2025
+    - 1.15
+  - - FY2026
+    - 1.4
   labs:
-  - 1.47M
-  - 1.57M
-  - 1.65M
-  - 1.71M
-  - 1.77M
-  forecast: 0
-  zero: false
-  lastlines:
-  - active buyers,
-  - a record for ThredUp
-  big: +20%
-  unit: ' in 1 year'
-  paras:
-  - ThredUp gained buyers every quarter, from 1.47M to 1.77M.
-  - Orders rose 22% in a year and quarterly revenue reached $90.8M, up 17%.
-- label: DEFENSE TECH MARKET
-  type: pp_curve
-  section: Market opportunity
-  title: Washington nearly doubled its spend on Palantir in 1 year
-  note: We used Palantir US government revenue for each quarter, as stated in its earnings releases filed with the SEC. All the sources are included at the end of the report.
-  points:
-  - - Q2 2025
-    - 426.0
-  - - Q3 2025
-    - 486.0
-  - - Q4 2025
-    - 570.0
-  - - Q1 2026
-    - 687.0
-  - - Q2 2026
-    - 809.0
-  labs:
-  - $426M
-  - $486M
-  - $570M
-  - $687M
-  - $809M
-  forecast: 0
-  zero: false
-  lastlines:
-  - of US government sales
-  - in a single quarter
-  big: 1.9x
-  unit: ' in 1 year'
-  paras:
-  - Palantir US government revenue rose from $426M to $809M a quarter.
-  - Growth sped up every quarter, from 52% a year to 90%.
-- label: AI CHIP MARKET
-  type: pp_curve
-  section: Market opportunity
-  title: Nvidia’s AI chip sales more than doubled in 4 quarters
-  note: We used Nvidia Data Center segment revenue for each fiscal quarter, from its earnings releases and CFO commentary. All the sources are included at the end of the report.
-  points:
-  - - Q2 FY26
-    - 41.1
-  - - Q3 FY26
-    - 51.2
-  - - Q4 FY26
-    - 62.3
-  - - Q1 FY27
-    - 75.2
-  - - Q2 FY27
-    - 89.0
-  labs:
-  - $41.1B
-  - $51.2B
-  - $62.3B
-  - $75.2B
-  - $89.0B
+  - 0.25M
+  - 0.73M
+  - 0.95M
+  - 1.15M
+  - 1.40M
   forecast: 0
   zero: true
   lastlines:
-  - of data center sales
-  - in a single quarter
-  big: 2.2x
-  unit: ' in 1 year'
+  - electric two-wheelers
+  - sold in India in FY2026
+  big: 5.6x
+  unit: ' in 4 years'
   paras:
-  - Nvidia data center revenue rose from $41.1B to $89.0B a quarter, up 117%.
-  - Each quarter added more than the one before, from +$10B to +$14B.
+  - India sold 1.40 million electric two-wheelers in fiscal 2026, up 22%.
+  - They now make up 6.5% of all two-wheeler sales.
+  - TVS took the lead from Ola Electric.
 - label: METAL 3D PRINTING
   type: pp_curve
   section: Market opportunity
@@ -468,100 +451,97 @@ slides:
   lead: 'To get that big, '
   condition: printed parts must move from prototypes and small batches to qualified series production. Printers must also get faster and cheaper, so a printed part beats a cast or machined one on cost.
   note: We compared forecasts from The Business Research Company, AM Research, Lucintel and Wohlers Associates, adjusted each one to our definition, and built a realistic range
-- label: ADVANCED NUCLEAR
+- label: BUY NOW PAY LATER
   type: pp_donutv
   variant: B
   section: Market size
-  title: How is the advanced nuclear market split between its categories?
+  title: How is the buy now, pay later market split between its categories?
   cats:
-  - name: Light-water SMRs
-    p: 36
+  - name: Pay in 4 at checkout
+    p: 45
     logos:
-    - ../../assets/logos/pp/rollsroycesmr.png
-  - name: Gen iv reactors
-    p: 28
+    - ../../assets/logos/pp/klarna.png
+    - ../../assets/logos/pp/afterpay.png
+    - ../../assets/logos/pp/sezzle.png
+  - name: Monthly installment loans
+    p: 30
     logos:
-    - ../../assets/logos/pp/terrapower.png
-  - name: Micro reactors
-    p: 20
-    logos: []
-  - name: Nuclear fuel
-    p: 10
-    logos: []
-  - name: Other spending
-    p: 6
-    logos: []
-  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
-    sources are included at the end of the report.'
-- label: AI ACCOUNTING
-  type: pp_donutv
-  variant: B
-  section: Market size
-  title: How is the AI accounting market split between its categories?
-  cats:
-  - name: Tax automation
-    p: 33
-    logos:
-    - ../../assets/logos/pp/avalara.png
-    - ../../assets/logos/pp/vertex.png
-    - ../../assets/logos/pp/numeral.png
-  - name: Ar/ap automation
-    p: 24
-    logos:
-    - ../../assets/logos/pp/bill.png
-    - ../../assets/logos/pp/tipalti.png
-    - ../../assets/logos/pp/highradius.png
-  - name: AI bookkeeping
-    p: 16
-    logos:
-    - ../../assets/logos/pp/intuit.png
-    - ../../assets/logos/pp/xero.png
-    - ../../assets/logos/pp/pennylane.png
-  - name: Financial close
+    - ../../assets/logos/pp/affirm.png
+    - ../../assets/logos/pp/zip.png
+  - name: BNPL in cards and wallets
     p: 15
     logos:
-    - ../../assets/logos/pp/blackline.png
-    - ../../assets/logos/pp/floqast.png
-    - ../../assets/logos/pp/numeric.png
-  - name: Firm copilots
-    p: 7
+    - ../../assets/logos/pp/paypal.png
+    - ../../assets/logos/pp/affirm.png
+  - name: B2B buy now, pay later
+    p: 10
     logos:
-    - ../../assets/logos/pp/thomsonreuters.png
-    - ../../assets/logos/pp/safesend.png
-    - ../../assets/logos/pp/wolterskluwer.png
-  - name: Audit AI
-    p: 5
-    logos:
-    - ../../assets/logos/pp/datasnipper.png
-    - ../../assets/logos/pp/fieldguide.png
-    - ../../assets/logos/pp/andera.png
+    - ../../assets/logos/pp/two-inc.png
+    - ../../assets/logos/pp/mondu.png
+    - ../../assets/logos/pp/billie.png
   note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
     sources are included at the end of the report.'
-- label: AGRITECH
+- label: PREDICTION MARKETS
   type: pp_donutv
   variant: B
   section: Market size
-  title: How is the agritech market split between its categories?
+  title: What are prediction markets really made of?
   cats:
-  - name: Precision tools
-    p: 40
-    logos: []
-  - name: Farm automation
-    p: 26
-    logos: []
-  - name: Farm software
-    p: 14
-    logos: []
-  - name: Farm sensing
-    p: 11
-    logos: []
-  - name: Other tech
-    p: 9
-    logos: []
+  - name: CFTC-regulated exchanges
+    p: 75
+    logos:
+    - ../../assets/logos/pp/kalshi.png
+    - ../../assets/logos/pp/crypto-com.png
+  - name: Crypto-native markets
+    p: 15
+    logos:
+    - ../../assets/logos/pp/polymarket.png
+    - ../../assets/logos/pp/limitless.png
+    - ../../assets/logos/pp/myriad.png
+  - name: Sportsbook-run markets
+    p: 7
+    logos:
+    - ../../assets/logos/pp/draftkings.png
+    - ../../assets/logos/pp/fanduel.png
+  - name: Peer-to-peer exchanges
+    p: 3
+    logos:
+    - ../../assets/logos/pp/novig.png
+    - ../../assets/logos/pp/prophetx.png
+  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
+    sources are included at the end of the report.'
+- label: ELECTRIC TWO-WHEELER
+  type: pp_donutv
+  variant: B
+  section: Market size
+  title: How is the electric two-wheeler market split between its categories?
+  cats:
+  - name: Electric scooters
+    p: 55
+    logos:
+    - ../../assets/logos/pp/tvs.png
+    - ../../assets/logos/pp/ola-electric.png
+    - ../../assets/logos/pp/niu.png
+  - name: Electric mopeds and bikes
+    p: 20
+    logos:
+    - ../../assets/logos/pp/yadea.png
+    - ../../assets/logos/pp/niu.png
+  - name: Electric motorcycles
+    p: 15
+    logos:
+    - ../../assets/logos/pp/ultraviolette.png
+    - ../../assets/logos/pp/zero-motorcycles.png
+  - name: Battery swapping
+    p: 10
+    logos:
+    - ../../assets/logos/pp/gogoro.png
+    - ../../assets/logos/pp/battery-smart.png
   note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
     sources are included at the end of the report.'
 - label: LOW-CARBON CEMENT
   type: pp_donutv
+  variant: B
   section: Market size
   title: How is the low-carbon cement market split between its categories?
   cats:
@@ -600,9 +580,9 @@ slides:
     - ../../assets/logos/pp/co-reactive.png
   note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
     sources are included at the end of the report.'
-  variant: B
 - label: METAL 3D PRINTING
   type: pp_donutv
+  variant: B
   section: Market size
   title: How is the metal 3D printing market split between its categories?
   cats:
@@ -638,7 +618,6 @@ slides:
     - ../../assets/logos/pp/spee3d.png
   note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
     sources are included at the end of the report.'
-  variant: B
 - label: AI MARKETING
   type: pp_pains
   section: Pain points
@@ -897,7 +876,7 @@ slides:
 - label: AI MARKETING
   type: pp_tech
   section: Tech and infra
-  title: 'Which AI marketing player has
+  title: 'Which AI marketing company has
 
     the most complete tech today?'
   companies:
@@ -959,9 +938,9 @@ slides:
 - label: RADIOPHARMACEUTICALS
   type: pp_tech
   section: Tech and infra
-  title: 'Which radiopharmaceutical company
+  title: 'Which radiopharmaceuticals players
 
-    has the most complete tech today?'
+    can already do the most today?'
   companies:
   - name: Novartis
     src: ../../assets/logos/pp/novartis.png
@@ -1028,9 +1007,9 @@ slides:
 - label: CROSS-BORDER PAYMENTS
   type: pp_tech
   section: Tech and infra
-  title: 'Which cross-border payments tools
+  title: 'Which cross-border payments company
 
-    can already do the most today?'
+    has the most complete tech today?'
   companies:
   - name: Airwallex
     src: ../../assets/logos/pp/airwallex.png
@@ -1090,9 +1069,9 @@ slides:
 - label: LOW-CARBON CEMENT
   type: pp_tech
   section: Tech and infra
-  title: 'Which low-carbon cement maker
+  title: 'Which low-carbon cement players
 
-    has the most complete tech today?'
+    can already do the most today?'
   companies:
   - name: Fortera
     src: ../../assets/logos/pp/fortera.png
@@ -1152,7 +1131,7 @@ slides:
 - label: METAL 3D PRINTING
   type: pp_tech
   section: Tech and infra
-  title: 'Which metal 3D printer maker
+  title: 'Which metal 3D printing company
 
     has the most complete tech today?'
   companies:
@@ -2079,7 +2058,9 @@ slides:
 - label: AI MARKETING
   type: pp_raises
   section: Investor bets
-  title: Which AI marketing startups got the biggest checks lately?
+  title: 'Which AI marketing startups
+
+    have received the most funding?'
   rounds:
   - name: AppsFlyer
     amt: 1000000000.0
@@ -2115,7 +2096,9 @@ slides:
 - label: RADIOPHARMACEUTICALS
   type: pp_raises
   section: Investor bets
-  title: Which radiopharmaceuticals startups got the biggest checks lately?
+  title: 'Who are investors backing most
+
+    in radiopharmaceuticals right now?'
   rounds:
   - name: AdvanCell
     amt: 315000000.0
@@ -2152,7 +2135,9 @@ slides:
 - label: CROSS-BORDER PAYMENTS
   type: pp_raises
   section: Investor bets
-  title: Which cross-border payments startups got the biggest checks lately?
+  title: 'Who are investors backing most
+
+    in cross-border payments right now?'
   rounds:
   - name: Ebury
     amt: 730000000.0
@@ -2189,7 +2174,9 @@ slides:
 - label: LOW-CARBON CEMENT
   type: pp_raises
   section: Investor bets
-  title: Which low-carbon cement startups got the biggest checks lately?
+  title: 'Who are investors backing most
+
+    in low-carbon cement right now?'
   rounds:
   - name: Terra CO2
     amt: 124500000.0
@@ -2226,7 +2213,9 @@ slides:
 - label: METAL 3D PRINTING
   type: pp_raises
   section: Investor bets
-  title: Which metal 3D printing startups got the biggest checks lately?
+  title: 'Which metal 3D printing startups
+
+    have received the most funding?'
   rounds:
   - name: Divergent
     amt: 250000000.0
@@ -2430,9 +2419,9 @@ slides:
     latitude: 41400000.0
     levl: 7000000.0
   section: CROSS-BORDER PAYMENTS
-  title: 'Who are the leading companies
+  title: 'Who are the top companies
 
-    in cross-border B2B payments?'
+    in cross-border payments?'
   handle: cross-border-b2b-payments
   cols:
   - Leaders

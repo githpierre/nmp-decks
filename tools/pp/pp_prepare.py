@@ -22,7 +22,7 @@ def curve(s):
     pts = s['points']; xl, xr, top, base = 160, 520, 300, 556
     vals = [v for _, v in pts]; mx = max(vals) * 1.05; mn = 0 if s.get('zero', True) else min(vals) * 0.85
     n = len(pts) - 1; fc = s.get('forecast', 0); real = n - fc
-    P = [dict(xl_=l, v=v, x=xl + i * (xr - xl) / n, y=base - (v - mn) / (mx - mn) * (base - top), lab=(s.get('labs') or [None]*len(pts))[i], fc=i > real, last=i == n) for i, (l, v) in enumerate(pts)]
+    XS = s.get('xs'); P = [dict(xl_=l, v=v, x=xl + (XS[i] if XS else i / n) * (xr - xl), y=base - (v - mn) / (mx - mn) * (base - top), lab=(s.get('labs') or [None]*len(pts))[i], fc=i > real, last=i == n) for i, (l, v) in enumerate(pts)]
     area = f"M{P[0]['x']:.1f},{base} " + ' '.join(f"L{p['x']:.1f},{p['y']:.1f}" for p in P[:real + 1]) + f" L{P[real]['x']:.1f},{base} Z"
     s['geo'] = dict(P=P, area=area, base=base, xl=xl, xr=xr, real=real)
 
@@ -141,15 +141,20 @@ def grid(s):
     s['geo'] = dict(XB=XB, YB=YB, tiles=tiles)
 
 def killers(s):
+    """table centered vertically between title and note, lines span the whole table (Pierre, 11 Nov)"""
+    n = len(s['rows']); st = 52 if n >= 5 else 58; head = 40
     if s['mode'] == 'dead':
-        xs = [464, 555, 651, 750][:len(s['causes'])]
+        k = len(s['causes']); xs = [464 + i * min(96, 330 / max(1, k - 1)) for i in range(k)]
         for r in s['rows']: r['years'] = int(r['end']) - int(r['start'])
+        lx0 = 158
     else:
-        k = len(s['signs']); xs = [395 + i * (400 / max(1, k - 1) if k > 4 else 92) for i in range(k)]
+        k = len(s['signs']); xs = [395 + i * min(100, 400 / max(1, k - 1)) for i in range(k)]
         for r in s['rows']:
-            n = sum(1 for c in r['cells'] if c); r['risk'] = 'High risk' if n >= 3 else 'Medium risk'; r['rn'] = 3 if n >= 3 else 1
-    n = len(s['rows']); st = 52 if n >= 5 else 58
-    s['geo'] = dict(xs=xs, ys=[318 + i * st for i in range(n)])
+            m = sum(1 for c in r['cells'] if c); r['risk'] = 'High risk' if m >= 3 else 'Medium risk'; r['rn'] = 3 if m >= 3 else 1
+        lx0 = 205
+    lx1 = xs[-1] + (45 if s['mode'] == 'dead' else 92)
+    H = head + n * st; top = 392 - H / 2
+    s['geo'] = dict(xs=xs, ys=[top + head + st / 2 + i * st for i in range(n)], hy=top, lx0=lx0, lx1=lx1, st=st)
 
 def survivors(s):
     s['geo'] = dict(ys=[281 + i * 61 for i in range(len(s['rows']))])
@@ -212,13 +217,25 @@ def donut_var(s):
 PREP = dict(donutv=donut_var, radar=radar, curve=curve, cagr=cagr, donut=donut, pains=pains, tech=tech, value=value, risks=risks,
             drivers=drivers, raises=raises, grid=grid, killers=killers, survivors=survivors, winner=winner)
 
+def trends_window(csv_path):
+    """5 years by default; 1 year only when the last 12 months alone show a strong surge (x3 or more), Pierre 11 Nov 2026"""
+    import csv as _c, statistics as st
+    v = [float(r[1].replace('<1', '0.5')) for r in _c.reader(open(csv_path)) if len(r) == 2 and re.match(r'\d{4}-', r[0])][-52:]
+    m = max(v); pk = max(i for i, x in enumerate(v) if x == m); base = st.median(v[:max(1, int(pk * .75))]) if pk > 4 else m
+    r1 = m / max(base, 1)
+    w = [float(r[1].replace('<1', '0.5')) for r in _c.reader(open(csv_path)) if len(r) == 2 and re.match(r'\d{4}-', r[0])]
+    k = max(i for i, x in enumerate(w) if x == max(w)); w = w[:k + 1]; r5 = max(w) / max(st.median(w[:max(1, int(len(w) * .75))]), 1)
+    return '1y' if r1 >= 3 and r1 > r5 and pk > 26 else '5y'
+
 def trends(s):
+    if not s.get('window'): s['window'] = trends_window(s['csv'])
     import csv as _c, statistics as st
     rows = [r for r in _c.reader(open(s['csv'])) if len(r) == 2 and re.match(r'\d{4}-', r[0])]
     v = [float(x[1].replace('<1', '0.5')) for x in rows]
+    if s.get('window') == '1y': v = v[-52:]; m = max(v); v = [x * 100 / m for x in v]
     pk = len(v) - 1 - max(range(len(v)), key=lambda i: (v[::-1][i], -i)) if False else max(i for i, x in enumerate(v) if x == max(v))
-    v = v[:pk + 1]; n = len(v); r = max(v) / max(st.median(v[:int(n * .75)]), 1)
+    v = v[:pk + 1] if s.get('window') != '1y' else v; n = len(v); r = max(v) / max(st.median(v[:max(1, int(n * .75))]), 1)
     lab = '×20+' if r >= 20 else (f'×{int(round(r / 5) * 5)}' if r >= 10 else f'×{round(r * 2) / 2:.1f}'.replace('.0', ''))
-    x0, x1, y0, y1 = 136, 824, 500, 352
-    s['geo'] = dict(stat=lab, pts=' '.join(f'{x0 + i / (n - 1) * (x1 - x0):.1f},{y0 - x / 100 * (y0 - y1):.1f}' for i, x in enumerate(v)), base=y0 + 16)
+    x0, x1, y0, y1 = 136, 824, 500, 410
+    s['geo'] = dict(ratio=r, stat=lab, pts=' '.join(f'{x0 + i / (n - 1) * (x1 - x0):.1f},{y0 - x / 100 * (y0 - y1):.1f}' for i, x in enumerate(v)), base=y0 + 16)
 PREP['trends'] = trends

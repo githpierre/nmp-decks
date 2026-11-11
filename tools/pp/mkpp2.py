@@ -15,7 +15,7 @@ def nm(h):
 NEW = ('low-carbon-cement', 'metal-additive-manufacturing')
 OLD = ['ai-marketing', 'radiopharmaceuticals', 'cross-border-b2b-payments']
 out = []
-def B(h, **k): d = dict(label=label(h)); d.update(k); out.append(d)
+def B(h, **k): d = dict(label=label(h), _h=h); d.update({a: b for a, b in k.items() if b is not None}); out.append(d)
 
 # S01 radar
 S1 = {m['handle']: m for m in J(f'{W1}/s01/spec.json')['markets']}; N1 = J(f'{W}/data/s01.json')
@@ -32,13 +32,22 @@ for g in [x for x in J(f'{W1}/s02/spec.json') if any(x['csv'].endswith(f'-{h}.cs
     h = re.sub(r'^\d+-', '', os.path.basename(g['csv'])[:-4])
     B(h, type='pp_trends', section='Market opportunity', pill='SIGNAL', title=two(g['title']), csv=g['csv'], term=g['term'], expl=g['expl'], date=g['date'],
       note='With the help of Google Trends, we tracked how often people around the world googled this term over the last five years')
-# S02 curve
-src = open('/root/w/s11/s2prod/build.py').read().split('if __name__')[0]; G = {}; exec(src, G)
-for a, k in G['M']:
-    if a[0] in ('edtech', 'resale', 'defense-tech', 'ai-chip'):
-        H, title, note, D, fmt, ll, big, unit, paras = a
-        B(H, type='pp_curve', section='Market opportunity', title=title, note=note + SRC, points=[[l, float(v)] for l, v in D], labs=[fmt(v) for _, v in D],
-          forecast=k.get('fc', 0), zero=k.get('zero', True), lastlines=ll, big=big, unit=unit, paras=paras)
+# S02 curve (markets 131-225 with a strong public series)
+CUR = [
+ ('prediction-markets', 'Kalshi trades nine times more than it did in February', 'We used the monthly notional trading volume of Kalshi, the largest US prediction market, as tracked by DeFi Rate and pm.wiki.',
+  [['Feb', 10.4], ['Mar', 12.4], ['Apr', 14.8], ['May', 17.9], ['Sep', 60.9], ['Oct', 98.2]], [1, 2, 3, 4, 8, 9], '$%.1fB', ['traded on Kalshi', 'in October 2026'], '9.4x', ' in 8 months',
+  ['Kalshi traded $98.2B in October 2026, up 61% in a single month.', 'Combo bets made up at least $66.9B of it.', 'All US prediction markets together reached $120.7B in October.']),
+ ('buy-now-pay-later', 'Shoppers keep paying more with Affirm, year after year', 'We used the yearly gross merchandise volume Affirm reports for its fiscal years ending in June. The 2027 point is the company\'s own outlook.',
+  [['FY2022', 15.5], ['FY2023', 20.2], ['FY2024', 26.6], ['FY2025', 36.7], ['FY2026', 50.2], ['FY2027', 64.0]], None, '$%.1fB', ['paid with Affirm', 'in fiscal 2027'], '3.2x', ' in 4 years',
+  ['Affirm handled $50.2B of purchases in its fiscal year 2026.', 'Its volume grew 30% or more for 11 quarters in a row.', 'It expects at least $64B in fiscal 2027.']),
+ ('electric-two-wheeler', 'More Indians ride electric scooters every year', 'We used yearly electric two-wheeler registrations in India from the Vahan portal, for fiscal years ending in March.',
+  [['FY2022', 0.25], ['FY2023', 0.73], ['FY2024', 0.95], ['FY2025', 1.15], ['FY2026', 1.40]], None, '%.2fM', ['electric two-wheelers', 'sold in India in FY2026'], '5.6x', ' in 4 years',
+  ['India sold 1.40 million electric two-wheelers in fiscal 2026, up 22%.', 'They now make up 6.5% of all two-wheeler sales.', 'TVS took the lead from Ola Electric.']),
+]
+for h, title, note, pts, xs, fmt, ll, big, unit, paras in CUR:
+    fc = 1 if pts[-1][0] == 'FY2027' else 0
+    B(h, type='pp_curve', section='Market opportunity', title=title, note=note + SRC, points=pts, labs=[fmt % v for _, v in pts], forecast=fc, zero=True,
+      xs=[x / xs[-1] for x in xs] if xs else None, lastlines=ll, big=big, unit=unit, paras=paras)
 d = [s for s in mkpp.slides('metal-additive-manufacturing') if s['type'] == 'pp_curve'][0]; d['labs'] = [f'${v:.1f}B' for _, v in d['points']]; out.append(d)
 # S03 cagr
 FAM = {'can': 'Yes, but ', 'fast': 'To grow this fast, ', 'room': 'To fill that room, ', 'ten': 'To get there, ', 'far': 'To go that far, ', 'still': 'Yes, but ',
@@ -47,16 +56,14 @@ D3 = {x['handle']: x for x in J(f'{W1}/s03/data.json') + J(f'{W}/data/s03.json')
 for h in OLD + list(NEW):
     d = D3[h]; B(h, type='pp_cagr', section='Market size', title=two(d['title']), size=d['size_usd_bn'], cagr=d['cagr_pct'], lead=FAM.get(d.get('family'), 'To grow this fast, '),
                  condition=d['growth_condition'], note=f"We compared forecasts from {d['sources_note']}, adjusted each one to our definition, and built a realistic range")
-# S03 donut (layout A, Pierre to confirm)
-COV = J('/root/w/s11/s3prod/cover.json')
-def cname(s):
-    s = s.lower().replace(' & ', ' and '); s = re.sub(r'\b(ai|smrs?|haleu|triso|ev|evs|us|r&d|gpu|gpus)\b', lambda m: m.group(0).upper().replace('SMRS', 'SMRs'), s); return s[0].upper() + s[1:]
-for h in ('advanced-nuclear', 'ai-accounting', 'agritech'):  # varied shapes
-    cats = [dict(name=cname(c['name']), p=round(c['p']), logos=[x for x in (logo(s) for s in c['logos']) if x][:3]) for c in COV[h]]
-    m = nm(h); B(h, type='pp_donutv', variant='B', section='Market size', title=f'How is the {m} market split between its categories?', cats=cats,
-                 note='We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares.' + SRC)
-for h in NEW:
-    d = [s for s in mkpp.slides(h) if s['type'] == 'pp_donut'][0]; d['type'] = 'pp_donutv'; d['variant'] = 'B'; out.append(d)
+# S03 donut, layout B (Pierre, 11 Nov), markets 131-225 only
+DN = J(f'{W}/data/donut.json')
+for h in ('buy-now-pay-later', 'prediction-markets', 'electric-two-wheeler', 'low-carbon-cement', 'metal-additive-manufacturing'):
+    d = DN[h]; miss = [x for c in d['cats'] for x in c[2] if not logo(x)]
+    if miss: print('MISSING LOGOS', h, miss)
+    B(h, type='pp_donutv', variant='B', section='Market size', title=d.get('t') or f"How is the {d['m']} market split between its categories?",
+      cats=[dict(name=a, p=b, logos=[logo(x) for x in c if logo(x)]) for a, b, c in d['cats']],
+      note='We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares.' + SRC)
 # S04 pains
 P4 = J(f'{W1}/s04/spec.json'); P4.update(J(f'{W}/data/s04.json'))
 for h in OLD + list(NEW):
@@ -65,8 +72,9 @@ for h in OLD + list(NEW):
                  note='We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group.' + SRC + ' Bigger dots mean that group would pay more to fix it.')
 # S05 tech, S06 value, S07 risks, S08 drivers, S10 grid, S11 killers, S12 winner: same builders as mkpp, other data folders
 def from_mkpp(h, T):
-    if h in NEW: return [s for s in mkpp.slides(h) if s['type'] == T]
-    return [s for s in mkpp.slides_old(h) if s['type'] == T]
+    L = [s for s in mkpp.slides(h) if s['type'] == T]
+    for s in L: s['_h'] = h
+    return L
 for T in ('pp_tech', 'pp_value', 'pp_risks', 'pp_drivers', 'pp_raises', 'pp_grid', 'pp_killers'):
     for h in OLD + list(NEW): out += from_mkpp(h, T)
 # S11 survivors
@@ -79,7 +87,9 @@ for h in ('ai-accounting', 'ai-recruiting', 'vibe-coding', 'ai-governance'):
 out += from_mkpp('metal-additive-manufacturing', 'pp_survivors')
 for h in OLD + list(NEW): out += from_mkpp(h, 'pp_winner')
 RISKFIX = {'Novartis, Lilly, AstraZeneca and Bristol Myers Squibb dominate radioligand therapy and buy the best startups cheaply': 'Novartis, Lilly, AstraZeneca and BMS dominate radioligand therapy and buy the best startups cheaply'}
+import titles; titles.vary(out, nm)
 for s in out:
+    s.pop('_h', None)
     if s['type'] == 'pp_risks':
         for e in s['events']: e['text'] = RISKFIX.get(e['text'], e['text'])
     if s['type'] == 'pp_grid': s['srcs'] = {k: logo(k) for row in s['cells'] for cell in row for k in cell}

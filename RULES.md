@@ -245,3 +245,13 @@ Mise en page
 Process de revue
 - Chaque erreur trouvée = une règle écrite ici + appliquée par script à tous les decks, pas une retouche ponctuelle.
 - Pages de revue : 2e tour et suivants, ne montrer que ce que Pierre doit revoir ; le validé disparaît.
+- S02: a strong public series (company volume, official statistics) reaching the current year beats Google Trends. Otherwise Google Trends,
+  CSV asked to Pierre. Window: 5 years by default, 12 months only when the last year alone rises x3 or more and beats the 5-year ratio
+  (tools/pp/pp_prepare.py trends_window). The curve never touches the text above it (CURVE_HITS_TEXT).
+- S03 donut: layout B (labels beside their slice, no line). Every category shows at least 2 logos (1 only if no company in it raised money).
+  A missing logo is never dropped silently: mkpp2 prints MISSING LOGOS, the audit flags DONUT_LOGOS.
+- Titles rotate between families market by market (tools/pp/titles.py) for S05, S09-02, S10; never cut the market name.
+- Tables (killers, survivors, winner, pains, tech) centered vertically between title and note; separator lines reach the last column.
+- Ticks and crosses are drawn with lines (SVG), never a font glyph, centered in their circle or square.
+- S12 score bars: 90% of the column width.
+- Prototypes and new slides work only on markets 131-225 (101-130 are done).
