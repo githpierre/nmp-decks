@@ -171,3 +171,39 @@ slides:
   - 0.5294117647058824
   - 0.7058823529411765
   - 1.0
+- label: GREEN SHIPPING
+  type: pp_curve
+  section: Market opportunity
+  title: Ships running on LNG have more than doubled since 2022
+  note: We used the number of LNG-fuelled ships in operation, LNG carriers excluded, tracked by the Alternative Fuels Insight platform of the classification society DNV. All the sources are included at
+    the end of the report.
+  points:
+  - - Dec 22
+    - 355
+  - - Dec 23
+    - 469
+  - - Dec 24
+    - 641
+  - - Jun 26
+    - 914
+  labs:
+  - '355'
+  - '469'
+  - '641'
+  - '914'
+  forecast: 0
+  zero: true
+  lastlines:
+  - ships running on LNG
+  - in June 2026
+  big: 2.6x
+  unit: ' since 2022'
+  paras:
+  - 914 ships ran on LNG in June 2026, against 355 at the end of 2022.
+  - 61 more joined the fleet in the first half of 2026.
+  - Another 654 LNG-fuelled ships are on order.
+  xs:
+  - 0.0
+  - 0.2857142857142857
+  - 0.5714285714285714
+  - 1.0

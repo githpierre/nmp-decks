@@ -252,6 +252,7 @@ Process de revue
   CSV asked to Pierre. Window: 5 years by default, 12 months only when the last year alone rises x3 or more and beats the 5-year ratio
   (tools/pp/pp_prepare.py trends_window). The curve never touches the text above it (CURVE_HITS_TEXT).
 - S02 (11 Nov): raw Google Trends are distorted since August 2025 (every low-volume term jumps x5 to x10, then drops in Oct 2026). Never read a raw rise as a signal: correct with the cross-term control index (/root/w/m131/gt/corr.py) and look for public series first (prompt s02-signals). Trends only when nothing passes, and only if the corrected curve rises.
+- S02 curve: x-axis labels never overlap (audit XLABEL_OVERLAP). When two dates are too close, drop the intermediate point rather than shrink the labels.
 - S03 donut: layout B (labels beside their slice, no line). Every category shows at least 2 logos (1 only if no company in it raised money).
   A missing logo is never dropped silently: mkpp2 prints MISSING LOGOS, the audit flags DONUT_LOGOS.
 - Titles rotate between families market by market (tools/pp/titles.py) for S05, S09-02, S10; never cut the market name.

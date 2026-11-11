@@ -26,6 +26,11 @@ CUR = [
   [['Apr 25', 0], ['Oct 25', 100], ['Jan 26', 250], ['Apr 26', 370], ['Sep 26', 500]], [0, 6, 9, 12, 17], '%dK',
   ['driverless miles', 'by Sep 2026'], '5x', ' in a year',
   ['Aurora passed 500,000 driverless miles in September 2026, with no crash caused by its system.', 'Its driverless customers rose from 7 to 10 during 2026.', 'It now plans 200 driverless trucks by February 2027.'], 0),
+ ('maritime-decarbonization', "Ships running on LNG have more than doubled since 2022",
+  "We used the number of LNG-fuelled ships in operation, LNG carriers excluded, tracked by the Alternative Fuels Insight platform of the classification society DNV.",
+  [['Dec 22', 355], ['Dec 23', 469], ['Dec 24', 641], ['Jun 26', 914]], [0, 12, 24, 42], '%d',
+  ['ships running on LNG', 'in June 2026'], '2.6x', ' since 2022',
+  ['914 ships ran on LNG in June 2026, against 355 at the end of 2022.', '61 more joined the fleet in the first half of 2026.', 'Another 654 LNG-fuelled ships are on order.'], 0),
 ]
 LABS = {'sustainable-aviation-fuel': ['0.08Mt', '0.25Mt', '0.5Mt', '1.0Mt', '1.9Mt', '2.4Mt'], 'autonomous-trucking': ['0', '100K', '250K', '370K', '500K']}
 out = []
