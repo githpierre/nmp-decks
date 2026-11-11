@@ -1,0 +1,1684 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- label: AUTONOMOUS TRUCKING
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these autonomous trucking startups, and how did they end?
+  causes:
+  - Ran out|of cash
+  - Rivals|caught up
+  - Too few|buyers
+  - Other|reason
+  rows:
+  - name: Embark
+    slug: embark
+    domain: embarktrucks.com
+    start: '2016'
+    end: '2023'
+    ending: Sold for $71M
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/embark.png
+    ini: E
+  - name: Locomation
+    slug: locomation
+    domain: locomation.ai
+    start: '2018'
+    end: '2023'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/locomation.png
+    ini: L
+  - name: Starsky
+    slug: starsky
+    domain: starsky.io
+    start: '2016'
+    end: '2020'
+    ending: Shut down
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/starsky.png
+    ini: S
+  - name: Peloton Tech
+    slug: peloton-tech
+    domain: peloton-tech.com
+    start: '2011'
+    end: '2021'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/peloton-tech.png
+    ini: PT
+  - name: Ike
+    slug: ike
+    domain: ike.com
+    start: '2018'
+    end: '2020'
+    ending: Sold to Nuro
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ''
+    ini: I
+  note:
+  - We tracked the autonomous trucking startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources we used are listed at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_survivors
+  section: Startup killers
+  title: What do autonomous trucking survivors do differently?
+  rows:
+  - lesson: Launch paid freight first
+    explanation: Aurora runs commercial driverless freight
+    failed_company: Embark
+    website: https://embarktrucks.com
+    why_it_failed: Commercial launch came too late
+    slug: embark
+    src: ../../assets/logos/pp/embark.png
+    ini: E
+  - lesson: Use OEM truck partners
+    explanation: Aurora integrates with Volvo and PACCAR
+    failed_company: Locomation
+    website: https://locomation.ai
+    why_it_failed: Convoy model lacked OEM scale
+    slug: locomation
+    src: ../../assets/logos/pp/locomation.png
+    ini: L
+  - lesson: Prove safety at scale
+    explanation: Aurora logged 500k driverless miles
+    failed_company: Starsky
+    website: https://starsky.io
+    why_it_failed: Funding ended before scale proof
+    slug: starsky
+    src: ../../assets/logos/pp/starsky.png
+    ini: S
+  - lesson: Sell to major carriers
+    explanation: Aurora has DSV McLane and Charger
+    failed_company: Peloton Tech
+    website: https://peloton-tech.com
+    why_it_failed: Platooning demand stayed limited
+    slug: peloton-tech
+    src: ../../assets/logos/pp/peloton-tech.png
+    ini: PT
+  - lesson: Expand lane by lane
+    explanation: Aurora validated a 10-route network
+    failed_company: Ike
+    website: https://www.ike.com
+    why_it_failed: Independent trucking strategy ended
+    slug: ike
+    src: ''
+    ini: I
+  note:
+  - We compared autonomous trucking companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and you will find all the sources we used at the end of the report
+- label: DIETARY SUPPLEMENTS
+  type: pp_donutv
+  section: Market size
+  title: How is the dietary supplements market split between its categories?
+  cats:
+  - name: Vitamins minerals
+    p: 31
+    logos:
+    - ../../assets/logos/pp/nature-made.png
+    - ../../assets/logos/pp/now-foods.png
+  - name: Sports nutrition
+    p: 22
+    logos:
+    - ../../assets/logos/pp/optimum-nutrition.png
+    - ../../assets/logos/pp/momentous.png
+  - name: Condition specific
+    p: 18
+    logos:
+    - ../../assets/logos/pp/ritual.png
+    - ../../assets/logos/pp/thorne.png
+  - name: Probiotics
+    p: 15
+    logos:
+    - ../../assets/logos/pp/seed.png
+    - ../../assets/logos/pp/culturelle.png
+  - name: Herbal botanicals
+    p: 14
+    logos:
+    - ../../assets/logos/pp/gaia-herbs.png
+    - ../../assets/logos/pp/himalaya.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: DIETARY SUPPLEMENTS
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which dietary supplements company
+
+    has the most complete tech today?'
+  companies:
+  - name: Thorne
+    src: ../../assets/logos/pp/thorne.png
+  - name: Ritual
+    src: ../../assets/logos/pp/ritual.png
+  - name: AG1
+    src: ../../assets/logos/pp/ag1.png
+  - name: Seed
+    src: ../../assets/logos/pp/seed.png
+  - name: NOWFoods
+    src: ../../assets/logos/pp/nowfoods.png
+  features:
+  - header: Third|party test
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Own|lab
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Personal|quiz
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Subscriptio|support
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Traceabilit|support
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Clinical|trials
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Mobile|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: DIETARY SUPPLEMENTS
+  type: pp_value
+  section: Value creation
+  title: 'How does money really flow
+
+    in dietary supplements?'
+  axes:
+  - Sold in stores
+  - Sold online
+  - One-off
+  - purchase
+  - Repeat
+  - orders
+  groups:
+  - name: In stores via retailers
+    x: 0.2
+    y: 0.35
+    logos:
+    - src: ../../assets/logos/pp/nature-made.png
+    - src: ../../assets/logos/pp/now-foods.png
+  - name: Direct online
+    x: 0.78
+    y: 0.3
+    logos:
+    - src: ../../assets/logos/pp/thorne.png
+    - src: ../../assets/logos/pp/momentous.png
+  - name: Subscription
+    x: 0.72
+    y: 0.82
+    logos:
+    - src: ../../assets/logos/pp/ritual.png
+    - src: ../../assets/logos/pp/seed.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: DIETARY SUPPLEMENTS
+  type: pp_grid
+  weight:
+    ritual: 66430000.0
+    ag1: 0.0
+    create: 8500000.0
+    hum: 0.0
+    gruns: 42800000.0
+    primerry: 0.0
+    perelel: 37700000.0
+    needed: 19800000.0
+    birdandbe: 0.0
+    binto: 0.0
+    lemme: 0.0
+    cycles: 0.0
+    seed: 0.0
+    thesis: 0.0
+    arrae: 0.0
+    cymbiotika: 25000000.0
+    supermush: 5559072.0
+    the-stack: 3240000.0
+  section: DIETARY SUPPLEMENTS
+  title: 'Who are the top companies
+
+    in dietary supplements?'
+  handle: dietary-supplements
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Daily health
+  - Women health
+  - Specialty
+  cells:
+  - - - ritual
+      - ag1
+    - - hum
+    - - gruns
+      - primerry
+  - - - perelel
+      - needed
+    - - birdandbe
+      - binto
+    - - lemme
+      - cycles
+  - - - seed
+      - thesis
+    - - arrae
+      - cymbiotika
+    - - supermush
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Bayer, Haleon, and all our sources are at the end of the report
+  srcs:
+    ritual: ../../assets/logos/pp/ritual.png
+    ag1: ../../assets/logos/pp/ag1.png
+    create: ''
+    hum: ../../assets/logos/pp/hum.png
+    gruns: ../../assets/logos/pp/gruns.png
+    primerry: ../../assets/logos/pp/primerry.png
+    perelel: ../../assets/logos/pp/perelel.png
+    needed: ../../assets/logos/pp/needed.png
+    birdandbe: ../../assets/logos/pp/birdandbe.png
+    binto: ../../assets/logos/pp/binto.png
+    lemme: ../../assets/logos/pp/lemme.png
+    cycles: ../../assets/logos/pp/cycles.png
+    seed: ../../assets/logos/pp/seed.png
+    thesis: ../../assets/logos/pp/thesis.png
+    arrae: ../../assets/logos/pp/arrae.png
+    cymbiotika: ../../assets/logos/pp/cymbiotika.png
+    supermush: ../../assets/logos/pp/supermush.png
+    the-stack: ''
+- label: DIETARY SUPPLEMENTS
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which dietary supplements companies have shown warning signs lately?
+  signs:
+  - Value|fell
+  - Lost|independence
+  - Lawsuit or|court case
+  rows:
+  - name: Care/of
+    slug: care-of
+    domain: takecareof.com
+    cells:
+    - Bayer recorded about €55M|of related impairments
+    - Bayer wound down the|personalized vitamin business
+    - ''
+    src: ../../assets/logos/pp/care-of.png
+    ini: CO
+  - name: Persona
+    slug: persona
+    domain: personanutrition.com
+    cells:
+    - Personalized packs face high|retention and acquisition costs
+    - Nestle acquired the|personalized vitamin company
+    - ''
+    src: ../../assets/logos/pp/persona.png
+    ini: P
+  - name: Thorne
+    slug: thorne
+    domain: thorne.com
+    cells:
+    - Public-market path ended|in a private buyout
+    - L Catterton acquired Thorne|in a take-private deal
+    - ''
+    src: ../../assets/logos/pp/thorne.png
+    ini: T
+  - name: Ritual
+    slug: ritual
+    domain: ritual.com
+    cells:
+    - Category requires costly|clinical proof to sustain trust
+    - ''
+    - Supplement claims face|recurring regulatory scrutiny
+    src: ../../assets/logos/pp/ritual.png
+    ini: R
+  - name: AG1
+    slug: ag1
+    domain: drinkag1.com
+    cells:
+    - Premium daily subscription|pricing increases churn risk
+    - ''
+    - Greens brands face growing|scrutiny over health claims
+    src: ../../assets/logos/pp/ag1.png
+    ini: A
+  note:
+  - We looked for warning signs among well-known dietary supplements companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
+- label: DIETARY SUPPLEMENTS
+  type: pp_winner
+  section: Startup strategies
+  title: 'Why might Ritual be winning
+
+    the daily subscriptions market?'
+  companies:
+  - short: Ritual
+    src: ../../assets/logos/pp/ritual.png
+  - short: AG1
+    src: ../../assets/logos/pp/ag1.png
+  - short: Perelel
+    src: ../../assets/logos/pp/perelel.png
+  - short: Seed
+    src: ../../assets/logos/pp/seed.png
+  - short: HUM
+    src: ../../assets/logos/pp/hum.png
+  criteria:
+  - name: Clinical proof
+    why: Builds trust
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Single routine
+    why: Reduces decision friction
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Strong DTC brand
+    why: Supports premium pricing
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Retail presence
+    why: Adds acquisition channels
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Life-stage fit
+    why: Improves relevance
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Subscription habit
+    why: Raises lifetime value
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- label: DIGITAL PATHOLOGY
+  type: pp_donutv
+  section: Market size
+  title: How is the digital pathology market split between its categories?
+  cats:
+  - name: Whole-Slide Scanners
+    p: 26
+    logos:
+    - ../../assets/logos/pp/hamamatsu-photonics.png
+    - ../../assets/logos/pp/3dhistech.png
+  - name: Diagnostic Pathology AI
+    p: 24
+    logos:
+    - ../../assets/logos/pp/ibex-medical-analytics.png
+    - ../../assets/logos/pp/mindpeak.png
+  - name: Image Management
+    p: 18
+    logos:
+    - ../../assets/logos/pp/proscia.png
+    - ../../assets/logos/pp/sectra.png
+  - name: Research Platforms
+    p: 18
+    logos:
+    - ../../assets/logos/pp/aiforia.png
+    - ../../assets/logos/pp/indica-labs.png
+  - name: Biomarker Quant AI
+    p: 14
+    logos:
+    - ../../assets/logos/pp/visiopharm.png
+    - ../../assets/logos/pp/indica-labs.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: DIGITAL PATHOLOGY
+  type: pp_value
+  section: Value creation
+  title: 'How does money really
+
+    flow in digital pathology?'
+  axes:
+  - Sells the scanner
+  - Sells the insight
+  - One-off
+  - sales
+  - Recurring
+  - licenses
+  groups:
+  - name: Scanner sale plus service
+    x: 0.18
+    y: 0.25
+    logos:
+    - src: ../../assets/logos/pp/hamamatsu-photonics.png
+    - src: ../../assets/logos/pp/3dhistech.png
+  - name: Enterprise software license
+    x: 0.45
+    y: 0.78
+    logos:
+    - src: ../../assets/logos/pp/proscia.png
+    - src: ../../assets/logos/pp/sectra.png
+  - name: AI analysis license
+    x: 0.8
+    y: 0.72
+    logos:
+    - src: ../../assets/logos/pp/ibex-medical-analytics.png
+    - src: ../../assets/logos/pp/mindpeak.png
+  - name: Research platform license
+    x: 0.7
+    y: 0.4
+    logos:
+    - src: ../../assets/logos/pp/aiforia.png
+    - src: ../../assets/logos/pp/indica-labs.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: DIGITAL PATHOLOGY
+  type: pp_winner
+  section: Startup strategies
+  title: 'Why might Leica Biosystems lead
+
+    the whole-slide scanners market?'
+  companies:
+  - short: Leica
+    src: ../../assets/logos/pp/leica-biosystems.png
+  - short: Philips
+    src: ../../assets/logos/pp/philips.png
+  - short: Roche
+    src: ../../assets/logos/pp/roche-diagnostics.png
+  - short: Hamamatsu
+    src: ../../assets/logos/pp/hamamatsu-photonics.png
+  - short: 3DHISTECH
+    src: ../../assets/logos/pp/3dhistech.png
+  criteria:
+  - name: US primary diagnosis clearance before 2020
+    why: Early clinical trust
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Own automated IHC stainer line
+    why: Locks in lab workflow
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Scanner holds 400 or more slides
+    why: High volume labs
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Scans 80 plus slides hourly
+    why: Faster case turnaround
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: New FDA scanner clearance since 2025
+    why: Fresh regulatory momentum
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: First FDA cleared whole-slide system
+    why: First mover credibility
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- label: ELECTRIC TWO-WHEELER
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these electric two-wheeler startups, and how did they end?
+  causes:
+  - Ran out|of cash
+  - Other|reason
+  - Too few|buyers
+  - Product|fell short
+  rows:
+  - name: CAKE
+    slug: cake
+    domain: ridecake.com
+    start: '2016'
+    end: '2024'
+    ending: Went bankrupt
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp/cake.png
+    ini: C
+  - name: Arc Vehicle
+    slug: arc-vehicle
+    domain: arcvehicle.com
+    start: '2017'
+    end: '2024'
+    ending: Liquidated
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/arc-vehicle.png
+    ini: AV
+  - name: FUELL
+    slug: fuell
+    domain: fuell.com
+    start: '2019'
+    end: '2024'
+    ending: Chapter 7
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/fuell.png
+    ini: F
+  - name: Energica
+    slug: energica
+    domain: energicamotor.com
+    start: '2014'
+    end: '2024'
+    ending: Liquidated
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/energica.png
+    ini: E
+  - name: Alta Motors
+    slug: alta-motors
+    domain: altamotors.co
+    start: '2010'
+    end: '2018'
+    ending: Shut down
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/alta-motors.png
+    ini: AM
+  - name: Sondors
+    slug: sondors
+    domain: sondors.com
+    start: '2015'
+    end: '2023'
+    ending: Receivership
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ''
+    ini: S
+  note:
+  - We tracked the electric two-wheeler startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources we used are listed at the end of the report
+- label: ELECTRIC TWO-WHEELER
+  type: pp_survivors
+  section: Startup killers
+  title: What do electric two-wheeler survivors do differently?
+  rows:
+  - lesson: Price for mass adoption
+    explanation: Yadea sells at global mass-market scale
+    failed_company: Arc Vehicle
+    website: https://www.arcvehicle.com/
+    why_it_failed: A $128k bike limited demand to a niche
+    slug: arc-vehicle
+    src: ../../assets/logos/pp/arc-vehicle.png
+    ini: AV
+  - lesson: Build manufacturing depth
+    explanation: Yadea runs eight manufacturing bases
+    failed_company: CAKE
+    website: https://ridecake.com/
+    why_it_failed: Scale-up funding failed before volume
+    slug: cake
+    src: ../../assets/logos/pp/cake.png
+    ini: C
+  - lesson: Keep products serviceable
+    explanation: Ather built service and retail networks
+    failed_company: FUELL
+    website: https://fuell.com/
+    why_it_failed: Could not fund assembly and deliveries
+    slug: fuell
+    src: ../../assets/logos/pp/fuell.png
+    ini: F
+  - lesson: Target broad daily use
+    explanation: NIU sells commuter scooters globally
+    failed_company: Energica
+    website: https://www.energicamotor.com/
+    why_it_failed: Premium motorcycles sold too slowly
+    slug: energica
+    src: ../../assets/logos/pp/energica.png
+    ini: E
+  - lesson: Avoid dependence on one backer
+    explanation: Yadea funds scale from operations
+    failed_company: Alta Motors
+    website: https://www.altamotors.co/
+    why_it_failed: Funding dried after Harley pulled out
+    slug: alta-motors
+    src: ../../assets/logos/pp/alta-motors.png
+    ini: AM
+  note:
+  - We compared electric two-wheeler companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all the sources we used are listed at the end of the report
+- label: FOCUSED ULTRASOUND
+  type: pp_donutv
+  section: Market size
+  title: How is the focused ultrasound market split between its categories?
+  cats:
+  - name: Tumor & Prostate HIFU
+    p: 28
+    logos:
+    - ../../assets/logos/pp/edap-tms.png
+    - ../../assets/logos/pp/profound-medical.png
+  - name: Histotripsy
+    p: 20
+    logos:
+    - ../../assets/logos/pp/histosonics.png
+  - name: Neuro Lesioning
+    p: 20
+    logos:
+    - ../../assets/logos/pp/insightec.png
+    - ../../assets/logos/pp/brainsonix.png
+  - name: BBB & Drug Delivery
+    p: 20
+    logos:
+    - ../../assets/logos/pp/navifus.png
+    - ../../assets/logos/pp/carthera.png
+  - name: Neuromodulation
+    p: 12
+    logos:
+    - ../../assets/logos/pp/brainsonix.png
+    - ../../assets/logos/pp/navifus.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: FOCUSED ULTRASOUND
+  type: pp_value
+  section: Value creation
+  title: 'How does money really
+
+    flow in focused ultrasound?'
+  axes:
+  - Paid by hospitals
+  - Paid by research
+  - Per
+  - system
+  - Per
+  - treatment
+  groups:
+  - name: Capital equipment sale
+    x: 0.2
+    y: 0.2
+    logos:
+    - src: ../../assets/logos/pp/insightec.png
+    - src: ../../assets/logos/pp/edap-tms.png
+  - name: Procedure disposables
+    x: 0.3
+    y: 0.8
+    logos:
+    - src: ../../assets/logos/pp/profound-medical.png
+    - src: ../../assets/logos/pp/histosonics.png
+  - name: Service contracts
+    x: 0.45
+    y: 0.5
+    logos:
+    - src: ../../assets/logos/pp/edap-tms.png
+    - src: ../../assets/logos/pp/profound-medical.png
+  - name: Research partnerships
+    x: 0.82
+    y: 0.35
+    logos:
+    - src: ../../assets/logos/pp/navifus.png
+    - src: ../../assets/logos/pp/brainsonix.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: FOCUSED ULTRASOUND
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which focused ultrasound companies have shown warning signs lately?
+  signs:
+  - Missed|deadlines
+  - Value|fell
+  - Big|layoffs
+  rows:
+  - name: Insightec
+    slug: insightec
+    domain: insightec.com
+    cells:
+    - ''
+    - 2024 financing valued|it at $375M versus $1B
+    - Laid off about 100|employees or 20%
+    src: ../../assets/logos/pp/insightec.png
+    ini: I
+  - name: Theraclion
+    slug: theraclion
+    domain: theraclion.com
+    cells:
+    - Stopped renewing Echopulse|CE marking under MDR
+    - 2024 system sales fell|33% with one system sold
+    - ''
+    src: ../../assets/logos/pp/theraclion.png
+    ini: T
+  - name: Profound Med
+    slug: profound-med
+    domain: profoundmedical.com
+    cells:
+    - Adoption depends on capital|equipment placements
+    - Public company remained loss|making while commercializing
+    - ''
+    src: ../../assets/logos/pp/profound-med.png
+    ini: PM
+  - name: EDAP TMS
+    slug: edap-tms
+    domain: edap-tms.com
+    cells:
+    - US HIFU expansion has required|a long regulatory path
+    - Public shares have remained|volatile around HIFU rollout
+    - ''
+    src: ../../assets/logos/pp/edap-tms.png
+    ini: ET
+  - name: NaviFUS
+    slug: navifus
+    domain: navifus.com
+    cells:
+    - Platform remains centered|on clinical development
+    - ''
+    - ''
+    src: ../../assets/logos/pp/navifus.png
+    ini: N
+  note:
+  - We looked for warning signs among well-known focused ultrasound companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
+- label: FOCUSED ULTRASOUND
+  type: pp_winner
+  section: Startup strategies
+  title: 'How did Insightec take the lead
+
+    in image-guided focused ultrasound?'
+  companies:
+  - short: Insightec
+    src: ../../assets/logos/pp/insightec.png
+  - short: Profound
+    src: ../../assets/logos/pp/profound-medical.png
+  - short: EDAP TMS
+    src: ../../assets/logos/pp/edap-tms.png
+  - short: HistoSonics
+    src: ../../assets/logos/pp/histosonics.png
+  - short: Theraclion
+    src: ../../assets/logos/pp/theraclion.png
+  criteria:
+  - name: FDA approval for tremor
+    why: Brain treatments
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: MRI-guided systems
+    why: Precise targeting
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Prostate indication
+    why: Large patient pool
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Liver tumor histotripsy
+    why: New non-thermal method
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Listed company
+    why: Opens public capital
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- label: INDIE BEAUTY
+  type: pp_donutv
+  section: Market size
+  title: How is the indie beauty market split between its categories?
+  cats:
+  - name: Skincare
+    p: 34
+    logos:
+    - ../../assets/logos/pp/glossier.png
+    - ../../assets/logos/pp/youth-to-the-people.png
+  - name: Makeup
+    p: 27
+    logos:
+    - ../../assets/logos/pp/rare-beauty.png
+    - ../../assets/logos/pp/saie.png
+  - name: Fragrance
+    p: 14
+    logos:
+    - ../../assets/logos/pp/_ini_phlur.png
+    - ../../assets/logos/pp/dedcool.png
+  - name: Haircare
+    p: 13
+    logos:
+    - ../../assets/logos/pp/odele.png
+    - ../../assets/logos/pp/crown-affair.png
+  - name: Body and nails
+    p: 12
+    logos:
+    - ../../assets/logos/pp/n-cessaire.png
+    - ../../assets/logos/pp/olive-and-june.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: INDIE BEAUTY
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which indie beauty company has
+
+    the most complete tech today?'
+  companies:
+  - name: Glossier
+    src: ../../assets/logos/pp/glossier.png
+  - name: RareBeauty
+    src: ../../assets/logos/pp/rarebeauty.png
+  - name: Saie
+    src: ../../assets/logos/pp/saie.png
+  - name: MERIT
+    src: ../../assets/logos/pp/merit.png
+  - name: Tower28
+    src: ../../assets/logos/pp/tower28.png
+  features:
+  - header: Skin|quiz
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Mobile|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: AR|try on
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Refill|system
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Clinical|tests
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Own|community
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Retail|API
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: INDIE BEAUTY
+  type: pp_grid
+  weight:
+    merit: 0.0
+    saie: 0.0
+    tower-28: 1200000.0
+    dieux: 0.0
+    prequel: 0.0
+    4am: 4000000.0
+    crown-affair: 24800000.0
+    odele: 2900000.0
+    ceremonia: 12000000.0
+    saltair: 0.0
+    cecred: 0.0
+    aiza: 0.0
+    phlur: 17300000.0
+    snif: 27360000.0
+    dedcool: 1800000.0
+    dossier: 0.0
+    noyz: 0.0
+    future-society: 0.0
+  section: INDIE BEAUTY
+  title: 'Who are the top players
+
+    in indie beauty today?'
+  handle: indie-beauty
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Skin & makeup
+  - Hair & body
+  - Fragrance
+  cells:
+  - - - merit
+      - saie
+    - - tower-28
+    - - prequel
+  - - - crown-affair
+      - odele
+    - - ceremonia
+      - saltair
+    - - cecred
+      - aiza
+  - - - phlur
+      - snif
+    - - dossier
+    - - noyz
+      - future-society
+  note:
+  - We placed private pure players by main product and stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents, and all our sources are listed at the end of the report
+  srcs:
+    merit: ../../assets/logos/pp/merit.png
+    saie: ../../assets/logos/pp/saie.png
+    tower-28: ../../assets/logos/pp/tower-28.png
+    dieux: ''
+    prequel: ../../assets/logos/pp/prequel.png
+    4am: ''
+    crown-affair: ../../assets/logos/pp/crown-affair.png
+    odele: ../../assets/logos/pp/odele.png
+    ceremonia: ../../assets/logos/pp/ceremonia.png
+    saltair: ../../assets/logos/pp/saltair.png
+    cecred: ../../assets/logos/pp/cecred.png
+    aiza: ../../assets/logos/pp/aiza.png
+    phlur: ''
+    snif: ../../assets/logos/pp/snif.png
+    dedcool: ../../assets/logos/pp/dedcool.png
+    dossier: ../../assets/logos/pp/dossier.png
+    noyz: ../../assets/logos/pp/noyz.png
+    future-society: ../../assets/logos/pp/future-society.png
+- label: GREEN SHIPPING
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which maritime decarbonization
+
+    players can already do the most today?'
+  companies:
+  - name: Wartsila
+    src: ../../assets/logos/pp/wartsila.png
+  - name: ABB
+    src: ../../assets/logos/pp/abb.png
+  - name: Kongsberg
+    src: ../../assets/logos/pp/kongsberg.png
+  - name: MAN ES
+    src: ../../assets/logos/pp/man-es.png
+  - name: Yara Marine
+    src: ../../assets/logos/pp/yara-marine.png
+  features:
+  - header: Hybrid|electric
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Methanol|engine
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Ammonia|engine
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Fuel|cells
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Voyage|software
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Wind|assist
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Onboard|CCS
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: MACHINE HEALTH
+  title: 'Which companies really belong
+
+    in predictive maintenance?'
+  caption:
+  - Distance to the center reflects how central each company is to predictive maintenance
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/augury.png
+  - ../../assets/logos/pp/tractian.png
+  - ../../assets/logos/pp/assetwatch.png
+  - ../../assets/logos/pp/samotics.png
+  - ../../assets/logos/pp/nanoprecise.png
+  - ../../assets/logos/pp/kcf-technologies.png
+  - ../../assets/logos/pp/waites.png
+  - ../../assets/logos/pp/sensemore.png
+  TL:
+    src: ../../assets/logos/pp/maintainx.png
+    name: MaintainX
+    text: maintainX manages maintenance work and schedules, but predictive failure sensing is not the core of its product
+  TR:
+    src: ../../assets/logos/pp/servicenow.png
+    name: ServiceNow
+    text: serviceNow manages enterprise workflows and assets, but it does not primarily assess machine condition or failure risk
+  BL:
+    src: ../../assets/logos/pp/abb.png
+    name: ABB
+    text: ABB offers predictive maintenance tools, but most revenue comes from broader electrification and automation
+  BR:
+    src: ../../assets/logos/pp/siemens.png
+    name: Siemens
+    text: siemens sells predictive maintenance tools, but they are one part of a much broader automation and software portfolio
+- label: MACHINE HEALTH
+  type: pp_donutv
+  section: Market size
+  title: How is the predictive maintenance market split between its categories?
+  cats:
+  - name: Vibration Monitoring
+    p: 27
+    logos:
+    - ../../assets/logos/pp/skf.png
+    - ../../assets/logos/pp/augury.png
+  - name: Predictive Analytics
+    p: 22
+    logos:
+    - ../../assets/logos/pp/c3-ai.png
+    - ../../assets/logos/pp/ibm.png
+  - name: Multi Sensor IoT
+    p: 21
+    logos:
+    - ../../assets/logos/pp/honeywell.png
+    - ../../assets/logos/pp/emerson.png
+  - name: Electrical and Thermal
+    p: 18
+    logos:
+    - ../../assets/logos/pp/abb.png
+    - ../../assets/logos/pp/siemens.png
+  - name: Acoustic Monitoring
+    p: 12
+    logos:
+    - ../../assets/logos/pp/fluke.png
+    - ../../assets/logos/pp/_ini_ue-systems.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: MACHINE HEALTH
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which predictive maintenance company
+
+    has the most complete tech today?'
+  companies:
+  - name: Augury
+    src: ../../assets/logos/pp/augury.png
+  - name: Siemens
+    src: ../../assets/logos/pp/siemens.png
+  - name: SKF
+    src: ../../assets/logos/pp/skf.png
+  - name: Emerson
+    src: ../../assets/logos/pp/emerson.png
+  - name: ABB
+    src: ../../assets/logos/pp/abb.png
+  features:
+  - header: Own|sensors
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Vibe|data
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Ultra|sound
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Temp|data
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: AI|diagnosis
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Prescribe|fix
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: CMMS|link
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: PROTEIN DEGRADATION
+  type: pp_donutv
+  section: Market size
+  title: How is the protein degradation market split between its categories?
+  cats:
+  - name: PROTACs
+    p: 42
+    logos:
+    - ../../assets/logos/pp/arvinas.png
+    - ../../assets/logos/pp/c4-therapeutics.png
+  - name: Molecular glues
+    p: 30
+    logos:
+    - ../../assets/logos/pp/monte-rosa.png
+    - ../../assets/logos/pp/nurix.png
+  - name: Other degrader tech
+    p: 18
+    logos:
+    - ../../assets/logos/pp/kymera.png
+    - ../../assets/logos/pp/nurix.png
+  - name: Lysosome degraders
+    p: 10
+    logos:
+    - ../../assets/logos/pp/c4-therapeutics.png
+    - ../../assets/logos/pp/kymera.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: PROTEIN DEGRADATION
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which protein degradation company
+
+    has the most complete tech today?'
+  companies:
+  - name: Arvinas
+    src: ../../assets/logos/pp/arvinas.png
+  - name: C4 Therapeut
+    src: ../../assets/logos/pp/c4-therapeut.png
+  - name: Nurix
+    src: ../../assets/logos/pp/nurix.png
+  - name: Kymera
+    src: ../../assets/logos/pp/kymera.png
+  - name: Monte Rosa
+    src: ../../assets/logos/pp/monte-rosa.png
+  features:
+  - header: Own|platform
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: PROTAC|programs
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Mol glue|programs
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Clinical|assets
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Oral|degraders
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Non-onc|pipeline
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Partnered|assets
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: PROTEIN DEGRADATION
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which protein degradation companies have shown warning signs lately?
+  signs:
+  - Missed|deadlines
+  - Value|fell
+  - Big|layoffs
+  - Lost|independence
+  rows:
+  - name: C4 Therapeutics
+    slug: c4-therapeutics
+    domain: c4therapeutics.com
+    cells:
+    - BRD9 degrader CFT8634|development was stopped
+    - ''
+    - Restructuring reduced|headcount after program changes
+    - ''
+    src: ../../assets/logos/pp/c4-therapeutics.png
+    ini: CT
+  - name: Foghorn
+    slug: foghorn
+    domain: foghorntherapeutics.com
+    cells:
+    - FHD-609 trial was halted|after a cardiac event
+    - Clinical setbacks pushed|value far below prior highs
+    - ''
+    - ''
+    src: ../../assets/logos/pp/foghorn.png
+    ini: F
+  - name: Arvinas
+    slug: arvinas
+    domain: arvinas.com
+    cells:
+    - ''
+    - ''
+    - Cost reductions followed|portfolio reprioritization
+    - Lead breast cancer degrader|was partnered with Pfizer
+    src: ../../assets/logos/pp/arvinas.png
+    ini: A
+  - name: Monte Rosa
+    slug: monte-rosa
+    domain: monterosatx.com
+    cells:
+    - Early programs were reprioritized|as the pipeline shifted
+    - Shares have traded well|below their post IPO peak
+    - ''
+    - ''
+    src: ../../assets/logos/pp/monte-rosa.png
+    ini: MR
+  - name: Nurix
+    slug: nurix
+    domain: nurixtx.com
+    cells:
+    - Pipeline timelines depend on|long oncology development cycles
+    - Shares have been volatile|despite strong BTK data
+    - ''
+    - ''
+    src: ../../assets/logos/pp/nurix.png
+    ini: N
+  note:
+  - We looked for warning signs among well-known protein degradation companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
+- label: PROTEIN DEGRADATION
+  type: pp_winner
+  section: Startup strategies
+  title: 'How did Arvinas take the lead
+
+    in protein degrader biotechs?'
+  companies:
+  - short: Arvinas
+    src: ../../assets/logos/pp/arvinas.png
+  - short: Nurix
+    src: ../../assets/logos/pp/nurix-therapeutics.png
+  - short: Kymera
+    src: ../../assets/logos/pp/kymera-therapeutics.png
+  - short: C4
+    src: ../../assets/logos/pp/c4-therapeutics.png
+  - short: Monte Rosa
+    src: ../../assets/logos/pp/monte-rosa-therapeutics.png
+  criteria:
+  - name: FDA approved degrader drug
+    why: Proven path to market
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Degrader in Phase 3 trial
+    why: Late stage validation
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Pfizer collaboration signed
+    why: Big pharma backing
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Degrader licensed to Novartis
+    why: Partner cash and validation
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Sanofi degrader partnership
+    why: Immunology pharma backing
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Molecular glue in the clinic
+    why: Second degrader modality
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- label: WEB3 INFRASTRUCTURE
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these Web3 infrastructure startups, and how did they end?
+  causes:
+  - Ran out|of cash
+  - Too few|buyers
+  - Product|fell short
+  rows:
+  - name: Syndicate
+    slug: syndicate
+    domain: syndicate.io
+    start: '2021'
+    end: '2026'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/syndicate.png
+    ini: S
+  - name: OpenRank
+    slug: openrank
+    domain: openrank.com
+    start: '2022'
+    end: '2026'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/openrank.png
+    ini: O
+  - name: Powerloom
+    slug: powerloom
+    domain: powerloom.io
+    start: '2021'
+    end: '2026'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/powerloom.png
+    ini: P
+  - name: Soundness
+    slug: soundness
+    domain: soundness.xyz
+    start: '2023'
+    end: '2026'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    - 0
+    src: ''
+    ini: S
+  - name: Entropy
+    slug: entropy
+    domain: entropy.xyz
+    start: '2021'
+    end: '2026'
+    ending: Pivoted
+    causes:
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp/entropy.png
+    ini: E
+  note:
+  - We tracked the Web3 infrastructure startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources we used are listed at the end of the report
+- label: WEB3 INFRASTRUCTURE
+  type: pp_survivors
+  section: Startup killers
+  title: What do Web3 infrastructure survivors do differently?
+  rows:
+  - lesson: Sell reliability
+    explanation: Alchemy sells uptime and scale
+    failed_company: Syndicate
+    website: https://syndicate.io
+    why_it_failed: Demand did not sustain company
+    slug: syndicate
+    src: ../../assets/logos/pp/syndicate.png
+    ini: S
+  - lesson: Offer managed tooling
+    explanation: QuickNode bundles APIs and nodes
+    failed_company: Powerloom
+    website: https://powerloom.io
+    why_it_failed: Network shut after weak use
+    slug: powerloom
+    src: ../../assets/logos/pp/powerloom.png
+    ini: P
+  - lesson: Own developer workflow
+    explanation: Tenderly sits in debugging loop
+    failed_company: OpenRank
+    website: https://openrank.com
+    why_it_failed: Could not find enough buyers
+    slug: openrank
+    src: ../../assets/logos/pp/openrank.png
+    ini: O
+  - lesson: Serve many chains
+    explanation: Blockdaemon spans many networks
+    failed_company: Soundness
+    website: https://soundness.xyz
+    why_it_failed: Small niche ran out of runway
+    slug: soundness
+    src: ''
+    ini: S
+  - lesson: Move up the stack
+    explanation: Conduit sells complete rollup stacks
+    failed_company: Entropy
+    website: https://entropy.xyz
+    why_it_failed: Original custody thesis pivoted
+    slug: entropy
+    src: ../../assets/logos/pp/entropy.png
+    ini: E
+  note:
+  - We compared Web3 infrastructure companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all the sources we used are listed at the end of the report
