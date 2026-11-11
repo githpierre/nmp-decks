@@ -102,7 +102,7 @@ def slides(h):
     out.append(g)
     # S11 killers
     d = J(f'{S10}/sk/{h}.json')
-    for row in d['rows']: row['src'] = logo(row['slug']) if row['slug'] not in ('desktop-metal',) else ''; row['ini'] = ini(row['name'])
+    for row in d['rows']: row['src'] = logo(row['slug']); row['ini'] = ini(row['name'])
     if d['mode'] == 'dead':
         out.append(dict(base, type='pp_killers', mode='dead', section='Startup killers', title=f'What broke these {nm} startups, and how did they end?', causes=d['causes'], rows=d['rows'],
             note=f'We tracked the {nm} startups that shut down, went bankrupt or were sold for little, and what broke them, from court filings, company statements and the press.' + SRC))
@@ -111,7 +111,7 @@ def slides(h):
             note=f'We looked for warning signs among well-known {nm} companies, from layoffs and lawsuits to falling valuations, using company filings, court records and the press.' + SRC))
     sv = J(f'{W}/data/surv.json').get(h)
     if sv:
-        for row in sv: row['src'] = logo(row['slug']) if row['slug'] not in ('desktop-metal',) else ''; row['ini'] = ini(row['failed_company'])
+        for row in sv: row['src'] = logo(row['slug']); row['ini'] = ini(row['failed_company'])
         out.append(dict(base, type='pp_survivors', section='Startup killers', title=f'What do {nm} survivors do differently?', rows=sv,
             note=f'We looked at {nm} companies that shut down, went bankrupt or hit a major setback, and at what the survivors do instead, from company statements, filings and the press.' + SRC))
     # S12 winner

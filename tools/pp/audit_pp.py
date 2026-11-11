@@ -18,12 +18,16 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   if (pill) { if (top - pb < 20) add('PILL_GAP', Math.round(top - pb)); }
   else if (top - tb < 30) add('TITLE_GAP', Math.round(top - tb));
   // 2. nothing overlaps or touches: text boxes and logo tiles at least 4 px apart
-  const els = [...s.querySelectorAll('.lt, [class^="pp-"]')].filter(e => !e.closest('.pp-abs') && e.offsetParent && !['pp-abs', 'pp-lead', 'pp-wcol', 'pp-rl', 'pp-kl', 'pp-pl', 'pp-dhl', 'pp-sdiv', 'pp-rs', 'pp-bar', 'pp-rbar', 'pp-rb', 'pp-vcard', 'pp-dlogos', 'pp-risk', 'pp-big', 'pp-rtr'].some(c => e.classList.contains(c)));
+  const els = [...s.querySelectorAll('.lt, [class^="pp-"]')].filter(e => !e.closest('.pp-abs') && e.offsetParent && !['pp-abs', 'pp-lead', 'pp-wcol', 'pp-rl', 'pp-kl', 'pp-pl', 'pp-dhl', 'pp-rs', 'pp-bar', 'pp-rbar', 'pp-rb', 'pp-vcard', 'pp-dlogos', 'pp-risk', 'pp-big', 'pp-rtr'].some(c => e.classList.contains(c)));
   for (let a = 0; a < els.length; a++) for (let b = a + 1; b < els.length; b++) {
     const A = els[a], B = els[b]; if (A.contains(B) || B.contains(A)) continue;
     const ra = R(A), rb = R(B); const gx = Math.max(ra.left, rb.left) - Math.min(ra.right, rb.right), gy = Math.max(ra.top, rb.top) - Math.min(ra.bottom, rb.bottom);
     if (gx < 0 && gy < 4) add('TOO_CLOSE', `${A.className.split(' ')[0]}|${(A.innerText||'logo').slice(0,18)} / ${B.className.split(' ')[0]}|${(B.innerText||'logo').slice(0,18)} gap ${Math.round(gy)}`);
   }
+  // 2b. nothing leaves the slide band, no text clipped in its box
+  s.querySelectorAll('[class^="pp-"], .lt').forEach(e => { if (e.closest('.pp-abs')) return; const r = R(e); if (!r.width) return;
+    if (r.left - S.left < 12 || S.right - r.right < 12) add('OFF_SLIDE', (e.innerText || e.className).slice(0, 24));
+    if (e.scrollWidth > e.clientWidth + 2 && getComputedStyle(e).overflow !== 'visible' ) add('CLIPPED', (e.innerText || '').slice(0, 24)); });
   // 3. logos: no initials tile
   const nt = s.querySelectorAll('.nt').length; if (nt) add('LOGO_MISSING', nt + ' name tile(s)');
 

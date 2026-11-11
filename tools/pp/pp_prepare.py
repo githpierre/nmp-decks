@@ -157,7 +157,8 @@ def killers(s):
     s['geo'] = dict(xs=xs, ys=[top + head + st / 2 + i * st for i in range(n)], hy=top, lx0=lx0, lx1=lx1, st=st)
 
 def survivors(s):
-    s['geo'] = dict(ys=[281 + i * 61 for i in range(len(s['rows']))])
+    n = len(s['rows']); st = 66; H = 30 + n * st; top = 392 - H / 2
+    s['geo'] = dict(hy=top, ys=[top + 30 + st / 2 + i * st for i in range(n)])
 
 def winner(s):
     n = len(s['companies']); xs = [433 + i * 77 for i in range(n)]

@@ -1,6 +1,6 @@
-{% set G = s.geo %}<span class="pp-sh" style="left:208px">What survivors do</span><span class="pp-sh" style="left:523px">Who missed it</span>
-<i class="pp-sdiv" style="top:{{G.ys[0]-26}}px;height:{{G.ys[-1]-G.ys[0]+52}}px"></i>
-{% for r in s.rows %}{% set y = G.ys[loop.index0] %}{% if not loop.first %}<i class="pp-kl" style="top:{{y-30}}px;left:172px;width:600px"></i>{% endif %}
-<i class="pp-ok" style="left:178px;top:{{y}}px"></i><span class="pp-sl" style="left:208px;top:{{y-14}}px">{{r.lesson}}<em>{{r.explanation}}</em></span>
+{% set G = s.geo %}<span class="pp-sh" style="top:{{G.hy}}px;left:208px">What survivors do</span><span class="pp-sh" style="top:{{G.hy}}px;left:523px">Who missed it</span>
+<i class="pp-sdiv" style="top:{{G.ys[0]-30}}px;height:{{G.ys[-1]-G.ys[0]+60}}px"></i>
+{% for r in s.rows %}{% set y = G.ys[loop.index0] %}{% if not loop.first %}<i class="pp-kl" style="top:{{y-33}}px;left:172px;width:600px"></i>{% endif %}
+<i class="pp-ok" style="left:178px;top:{{y}}px"></i><span class="pp-sl" style="width:250px;left:208px;top:{{y}}px;transform:translateY(-50%)">{{r.lesson}}<em>{{r.explanation}}</em></span>
 <i class="pp-no" style="left:523px;top:{{y}}px"></i><span class="lt pp-c" style="left:570px;top:{{y}}px">{% if r.src %}<img src="{{r.src}}">{% else %}<b class="nt">{{r.ini}}</b>{% endif %}</span>
-<span class="pp-sl" style="left:594px;top:{{y-14}}px">{{r.failed_company}}<em>{{r.why_it_failed}}</em></span>{% endfor %}
+<span class="pp-sl" style="width:200px;left:594px;top:{{y}}px;transform:translateY(-50%)">{{r.failed_company}}<em>{{r.why_it_failed}}</em></span>{% endfor %}
