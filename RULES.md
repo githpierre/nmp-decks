@@ -245,6 +245,9 @@ Mise en page
 - ✕ roses posés sur le rebord des cases (slide 23) ; flèche ↔ au-dessus des barres (slide 164) : ils structurent.
 - Refontes des formats qu'il a dessinés (arbre « Qui paie », intercalaires, expérience client).
 
+- Slide « bold bets » : modèle deux colonnes « Next 5 years / 5 to 10 years », icône à gauche de chaque pari (choix 11 Nov).
+- Slides de contraste « How X turned… » : logo centré entre les deux blocs, sans flèche (choix 11 Nov, CSS du modèle).
+
 Séries (1/2, 2/3…)
 25. Les pages d'une même série (même titre) ont EXACTEMENT le même design et les mêmes décisions (icônes, pastilles, rails…). Automatique : make_decisions.py recopie toute décision d'une page aux autres pages de la série ; l'audit final compare les pages d'une série côte à côte. (Raté le 11/11 : 208 avait gardé ses emojis alors que 207 avait les icônes, parce que la décision avait été listée par numéro de slide et pas par série.)
 

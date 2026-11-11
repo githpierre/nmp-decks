@@ -28,8 +28,8 @@ const col=(b,i,up)=>{const x=120+i*190;return box(x,up?190:420,170,up?160:150,`b
 +box(x+84,up?350:384,2,up?22:36,`background:${up?PK:LN}`)};
 NEAR.forEach((b,i)=>h+=col(b,i,1));FAR.forEach((b,i)=>h+=col(b,i,0));stage(h)''')
 X['B'] = V('Deux colonnes « bientôt / plus tard »', 'Deux colonnes titrées « Next 5 years » et « 5 to 10 years », 4 paris chacune, icône à gauche : on lit comme une liste.', BETS + r'''
-let h='';[[NEAR,'NEXT 5 YEARS',110,1],[FAR,'5 TO 10 YEARS',500,0]].forEach(([L,t,x,hot])=>{h+=box(x,180,350,26,`font:700 13px Lexend;letter-spacing:.14em;color:${hot?'#fff':GR};border-bottom:${hot?4:2}px solid ${hot?PK:LN};padding-bottom:6px`,t);
-L.forEach((b,i)=>{const y=224+i*86;h+=box(x,y,46,46,`${flexc};border-radius:12px;background:${hot?N3:'transparent'};border:${hot?0:1.5}px solid ${LN}`,icn(b,22,hot?CR:GR))
+let h='';[[NEAR,'NEXT 5 YEARS',110,1],[FAR,'5 TO 10 YEARS',500,0]].forEach(([L,t,x,hot])=>{h+=box(x,205,350,26,`font:700 13px Lexend;letter-spacing:.14em;color:${hot?'#fff':GR};border-bottom:${hot?4:2}px solid ${hot?PK:LN};padding-bottom:6px`,t);
+L.forEach((b,i)=>{const y=250+i*86;h+=box(x,y,46,46,`${flexc};border-radius:12px;background:${hot?N3:'transparent'};border:${hot?0:1.5}px solid ${LN}`,icn(b,22,hot?CR:GR))
 +box(x+60,y,290,80,'',`<div style="font:700 11.5px Lexend;color:${hot?'#fff':CR};letter-spacing:.05em">${b.n}</div><div style="font:400 11px/1.45 Lexend;color:${hot?CR:GR};margin-top:4px">${b.d}</div>`)})});stage(h)''')
 X['C'] = V('Perspective : le proche devant, le lointain derrière', 'Les 4 paris proches en grandes cartes au premier plan, les 4 lointains en petites cartes plus pâles au fond, comme vus de loin.', BETS + r'''
 let h=box(170,178,620,16,`text-align:center;font:700 9px Lexend;letter-spacing:.16em;color:${GR}`,'FURTHER AWAY · 5 TO 10 YEARS');

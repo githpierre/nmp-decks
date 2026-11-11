@@ -39,6 +39,6 @@ D = {
 # 2nd round (10 Nov 23h50): card grids with emojis -> pastilles; numbered grids = A (flow), plain grids = B (top edge, rows spaced)
 CARDS = [22, 31, 136, 142, 172, 186, 207]
 # variants from other atelier rounds: (module, item id, variant key, slides)
-EXTRA = [('items5', 'Q', 'ZB', [13])]   # prix : quadrillage de fond (11 Nov 00h08)
+EXTRA = [('items5', 'Q', 'ZB', [13]), ('items7', 'B', 'B', [97])]   # prix : quadrillage de fond (11 Nov 00h08)
 # item 47: smaller trophies
 SIZE = {47: ("size:14", "size:11")}

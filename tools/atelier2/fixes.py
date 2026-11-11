@@ -103,9 +103,6 @@ FIXES += [
 
 # ---- 6th round (11 Nov, 10h)
 FIXES += [
-    dict(id=48, title='« NEAR-TERM HORIZON » sur l’accolade', why='Les étiquettes d’horizon débordaient sur l’accolade. Elles passent sur 3 lignes, calées à gauche, avec un vrai espace.',
-         how='slide', slides=[97], clip=(97, 0, 170, 360, 420),
-         js="A.texts(sl).filter(t=>/HORIZON/.test(t.text)).forEach(t=>{t.el.style.left='14px';t.el.style.width='96px';t.el.querySelectorAll('span').forEach(s=>s.style.whiteSpace='normal')})"),
     dict(id=49, title='Flèches de droite qui n’entrent pas dans les bulles', why='À gauche, les flèches ↔ entrent dans les deux bulles ; à droite elles s’arrêtaient avant la bulle de droite. Elles ont maintenant la même longueur relative, et la croix est recentrée.',
          how='slide', slides=[140], clip=(140, 480, 200, 400, 360),
          js="const sh=A.shapes(sl),cs=A.cards(sl),R=sl.getBoundingClientRect();sh.filter(s=>(s.fill||'').toUpperCase()==='#789096'&&s.h<25&&s.x>480).forEach(a=>{const L=cs.find(c=>c.x<a.x&&c.x+c.w>a.x-5&&Math.abs(c.cy-a.cy)<40),Rt=cs.find(c=>c.x>a.x&&Math.abs(c.cy-a.cy)<40);if(!L||!Rt)return;const x0=L.x+L.w-15,x1=Rt.x+14;a.el.setAttribute('preserveAspectRatio','none');a.el.style.left=x0+'px';a.el.style.width=(x1-x0)+'px';const xs=sh.find(s=>s.fill&&s.fill.toUpperCase()===C.pink&&Math.abs(s.cy-a.cy)<20&&s.x>480);if(xs)xs.el.style.left=(parseFloat(xs.el.style.left)+((x0+x1)/2-xs.cx))+'px'})"),
