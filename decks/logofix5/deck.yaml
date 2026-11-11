@@ -1,0 +1,610 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- label: AI NOTE-TAKERS
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which AI note-taker companies have shown warning signs lately?
+  signs:
+  - Missed|deadlines
+  - Lost|independence
+  rows:
+  - name: Traw
+    slug: traw
+    domain: traw.ai
+    cells:
+    - Independent roadmap narrowed after|ownership or strategic control changed
+    - Acquired by Goodnotes and the|Traw service shut in February 2024
+    src: ''
+    ini: T
+  - name: Airgram
+    slug: airgram
+    domain: airgram.io
+    cells:
+    - Commercial adoption lagged the pace|implied by the category hype cycle
+    - Exited a crowded meeting assistant|category dominated by larger brands
+    src: ../../assets/logos/pp/airgram.png
+    ini: A
+  - name: Rewind
+    slug: rewind
+    domain: rewind.ai
+    cells:
+    - Shifted product focus as general AI|assistants absorbed memory features
+    - ''
+    src: ../../assets/logos/pp/rewind.png
+    ini: R
+  - name: Grain
+    slug: grain
+    domain: grain.com
+    cells:
+    - Competes in a crowded meeting intelligence|market with larger funded rivals
+    - ''
+    src: ../../assets/logos/pp/grain.png
+    ini: G
+  - name: Mem
+    slug: mem
+    domain: mem.ai
+    cells:
+    - Faced intense competition from broad|productivity suites adding AI notes
+    - ''
+    src: ../../assets/logos/pp/mem.png
+    ini: M
+  note:
+  - We looked for warning signs among well-known AI note-taker companies, from layoffs to lawsuits
+  - We used company filings and the press, and all the sources are included at the end of the report
+- label: BETTER-FOR-YOU SNACKS
+  type: pp_grid
+  weight:
+    chomps: 80000000.0
+    magic-spoon: 0.0
+    mid-day-squares: 14000000.0
+    iqbar: 4200000.0
+    david: 335000000.0
+    hallpass: 0.0
+    lesserevil: 33400000.0
+    siete: 0.0
+    simply-7: 0.0
+    jacksons: 0.0
+    masa: 0.0
+    buffs: 0.0
+    skinnydipped: 30970000.0
+    unreal: 14000000.0
+    belliwelli: 0.0
+    thats-it: 0.0
+    rivalz: 0.0
+    chubby-snacks: 0.0
+  section: BETTER-FOR-YOU SNACKS
+  title: 'Who are the top companies
+
+    in better-for-you snacks?'
+  handle: better-for-you-snacks
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Protein bars
+  - Salty snacks
+  - Sweet snacks
+  cells:
+  - - - chomps
+      - magic-spoon
+    - - iqbar
+    - - david
+      - hallpass
+  - - - lesserevil
+      - siete
+    - - simply-7
+      - jacksons
+    - - masa
+  - - - skinnydipped
+      - unreal
+    - - belliwelli
+      - thats-it
+    - - rivalz
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Mondelez, Mars, and all our sources are at the end of the report
+  srcs:
+    chomps: ../../assets/logos/pp/chomps.png
+    magic-spoon: ../../assets/logos/pp/magic-spoon.png
+    mid-day-squares: ../../assets/logos/pp/mid-day-squares.png
+    iqbar: ../../assets/logos/pp/iqbar.png
+    david: ../../assets/logos/pp/david.png
+    hallpass: ../../assets/logos/pp/hallpass.png
+    lesserevil: ../../assets/logos/pp/lesserevil.png
+    siete: ../../assets/logos/pp/siete.png
+    simply-7: ../../assets/logos/pp/simply-7.png
+    jacksons: ../../assets/logos/pp/jacksons.png
+    masa: ../../assets/logos/pp/masa.png
+    buffs: ''
+    skinnydipped: ../../assets/logos/pp/skinnydipped.png
+    unreal: ../../assets/logos/pp/unreal.png
+    belliwelli: ../../assets/logos/pp/belliwelli.png
+    thats-it: ../../assets/logos/pp/thats-it.png
+    rivalz: ../../assets/logos/pp/rivalz.png
+    chubby-snacks: ''
+- label: BETTER-FOR-YOU SNACKS
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which better-for-you snacks companies have shown warning signs lately?
+  signs:
+  - Value|fell
+  - Lost|independence
+  - Big|layoffs
+  - Missed|deadlines
+  rows:
+  - name: Siete
+    slug: siete
+    domain: sietefoods.com
+    cells:
+    - Independent growth ended as|the brand entered PepsiCo
+    - PepsiCo completed a $1.2B|acquisition in January 2025
+    - ''
+    - ''
+    src: ../../assets/logos/pp/siete.png
+    ini: S
+  - name: Perfect Snacks
+    slug: perfect-snacks
+    domain: perfectsnacks.com
+    cells:
+    - Scale now depends on a large|incumbent portfolio strategy
+    - Mondelez acquired the|refrigerated bar maker in 2019
+    - ''
+    - ''
+    src: ../../assets/logos/pp/perfect-snacks.png
+    ini: PS
+  - name: LesserEvil
+    slug: lesserevil
+    domain: lesserevil.com
+    cells:
+    - Category expansion increases|reliance on mass retail velocity
+    - Hershey took a controlling|stake in the brand in 2025
+    - ''
+    - ''
+    src: ../../assets/logos/pp/lesserevil.png
+    ini: L
+  - name: Catalina
+    slug: catalina
+    domain: catalinacrunch.com
+    cells:
+    - Leadership changes followed a|tougher low-carb cereal market
+    - ''
+    - Management turnover signaled|pressure to improve economics
+    - ''
+    src: ../../assets/logos/pp/catalina.png
+    ini: C
+  - name: Mid-Day Sq.
+    slug: mid-day-sq
+    domain: middaysquares.com
+    cells:
+    - Factory expansion increases|fixed-cost and volume risk
+    - ''
+    - ''
+    - Needed debt financing to expand|self-manufacturing capacity
+    src: ../../assets/logos/pp/mid-day-sq.png
+    ini: MD
+  note:
+  - We looked for warning signs among well-known better-for-you snacks companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
+- label: BETTER-FOR-YOU SNACKS
+  type: pp_winner
+  section: Startup strategies
+  title: 'Why is Chomps winning
+
+    the protein snacks market?'
+  companies:
+  - short: Chomps
+    src: ../../assets/logos/pp/chomps.png
+  - short: Magic Spoon
+    src: ../../assets/logos/pp/magic-spoon.png
+  - short: Mid-Day
+    src: ../../assets/logos/pp/mid-day-sq.png
+  - short: IQBAR
+    src: ../../assets/logos/pp/iqbar.png
+  - short: David
+    src: ../../assets/logos/pp/david.png
+  criteria:
+  - name: Mass retail
+    why: Creates habitual access
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Strong repeat
+    why: Supports efficient growth
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Simple message
+    why: Cuts shelf confusion
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Format ownership
+    why: Builds category memory
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Capacity scale
+    why: Avoids stockouts
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: High protein
+    why: Matches core demand
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- label: LIFE SCIENCE TOOLS
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which life science research tools companies have shown warning signs lately?
+  signs:
+  - Lost|independence
+  - Big|layoffs
+  rows:
+  - name: NanoString
+    slug: nanostring
+    domain: nanostring.com
+    cells:
+    - Filed Chapter 11|in February 2024
+    - ''
+    src: ../../assets/logos/pp/nanostring.png
+    ini: N
+  - name: PhenomeX
+    slug: phenomex
+    domain: phenomex.com
+    cells:
+    - Berkeley Lights and IsoPlexis|combined as PhenomeX
+    - ''
+    src: ../../assets/logos/pp/phenomex.png
+    ini: P
+  - name: Singular Gen
+    slug: singular-gen
+    domain: singulargenomics.com
+    cells:
+    - Deerfield acquired the|company in February 2025
+    - Cut about 20% of|staff in March 2024
+    src: ../../assets/logos/pp/singular-gen.png
+    ini: SG
+  - name: SomaLogic
+    slug: somalogic
+    domain: somalogic.com
+    cells:
+    - Merged into Standard|BioTools in January 2024
+    - ''
+    src: ../../assets/logos/pp/somalogic.png
+    ini: S
+  - name: Std BioTools
+    slug: std-biotools
+    domain: standardbio.com
+    cells:
+    - Sold the SomaLogic business|to Illumina in 2026
+    - Cut about 10% of workforce|after SomaLogic merger
+    src: ../../assets/logos/pp/std-biotools.png
+    ini: SB
+  note:
+  - We looked for warning signs among well-known life science research tools companies
+  - We used company filings and the press, and all our sources are at the end of the report
+- label: GREEN SHIPPING
+  type: pp_donutv
+  section: Market size
+  title: How is the maritime decarbonization market split between its categories?
+  cats:
+  - name: Alternative fuels
+    p: 24
+    logos:
+    - ../../assets/logos/pp/wartsila.png
+    - ../../assets/logos/pp/man-energy-solutions.png
+  - name: Battery and hybrid
+    p: 23
+    logos:
+    - ../../assets/logos/pp/wartsila.png
+    - ../../assets/logos/pp/corvus-energy.png
+  - name: Efficiency hardware
+    p: 21
+    logos:
+    - ../../assets/logos/pp/silverstream-technologies.png
+    - ../../assets/logos/pp/alfa-laval.png
+  - name: Voyage software
+    p: 14
+    logos:
+    - ../../assets/logos/pp/zeronorth.png
+    - ../../assets/logos/pp/napa.png
+  - name: Wind assist
+    p: 10
+    logos:
+    - ../../assets/logos/pp/norsepower.png
+    - ../../assets/logos/pp/bound4blue.png
+  - name: Onboard carbon capture
+    p: 8
+    logos:
+    - ../../assets/logos/pp/seabound.png
+    - ../../assets/logos/pp/value-maritime.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: GREEN SHIPPING
+  type: pp_value
+  section: Value creation
+  title: 'What business models work
+
+    in maritime decarbonization?'
+  axes:
+  - Sells the hardware
+  - Sells the savings
+  - One-off
+  - projects
+  - Recurring
+  - revenue
+  groups:
+  - name: Equipment sale
+    x: 0.18
+    y: 0.22
+    logos:
+    - src: ../../assets/logos/pp/norsepower.png
+    - src: ../../assets/logos/pp/corvus-energy.png
+  - name: Retrofit project
+    x: 0.4
+    y: 0.35
+    logos:
+    - src: ../../assets/logos/pp/bound4blue.png
+    - src: ../../assets/logos/pp/silverstream-technologies.png
+  - name: Software subscription
+    x: 0.8
+    y: 0.8
+    logos:
+    - src: ../../assets/logos/pp/zeronorth.png
+    - src: ../../assets/logos/pp/napa.png
+  - name: Service contract
+    x: 0.6
+    y: 0.65
+    logos:
+    - src: ../../assets/logos/pp/wartsila.png
+    - src: ../../assets/logos/pp/alfa-laval.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: GREEN SHIPPING
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which maritime decarbonization companies have shown warning signs lately?
+  signs:
+  - Missed|deadlines
+  - Lost|independence
+  rows:
+  - name: Econowind
+    slug: econowind
+    domain: econowind.nl
+    cells:
+    - ''
+    - Econowind joined the|Damen Shipyards Group.
+    src: ../../assets/logos/pp/econowind.png
+    ini: E
+  - name: Oceanbird
+    slug: oceanbird
+    domain: oceanbird.com
+    cells:
+    - Commercial wing-sail rollout remains|in development rather than fleet scale.
+    - ''
+    src: ../../assets/logos/pp/oceanbird.png
+    ini: O
+  - name: Silverstream
+    slug: silverstream
+    domain: silverstream-tech.com
+    cells:
+    - Adoption still depends on|vessel-by-vessel retrofit cycles.
+    - ''
+    src: ../../assets/logos/pp/silverstream.png
+    ini: S
+  - name: Fleetzero
+    slug: fleetzero
+    domain: fleetzero.com
+    cells:
+    - Battery-electric container|shipping remains pre-scale.
+    - ''
+    src: ../../assets/logos/pp/fleetzero.png
+    ini: F
+  - name: bound4blue
+    slug: bound4blue
+    domain: bound4blue.com
+    cells:
+    - Wind propulsion still requires|case-by-case regulatory validation.
+    - ''
+    src: ../../assets/logos/pp/bound4blue.png
+    ini: B
+  note:
+  - We looked for warning signs among well-known maritime decarbonization companies
+  - We used company filings and the press, and all our sources are at the end of the report
+- label: GREEN SHIPPING
+  type: pp_winner
+  section: Startup strategies
+  title: 'How did Norsepower take the lead
+
+    in wind-assisted propulsion?'
+  companies:
+  - short: Norsepower
+    src: ../../assets/logos/pp/norsepower.png
+  - short: bound4blue
+    src: ../../assets/logos/pp/bound4blue.png
+  - short: Econowind
+    src: ../../assets/logos/pp/econowind.png
+  - short: Oceanbird
+    src: ../../assets/logos/pp/oceanbird.png
+  - short: Anemoi
+    src: ../../assets/logos/pp/anemoi.png
+  criteria:
+  - name: Rotor sails
+    why: Most installed design
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Suction sails
+    why: Compact retrofit
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Wing sails
+    why: Biggest thrust per unit
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: First installs before 2016
+    why: Longest track record
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Deals with Maersk Tankers or Vale
+    why: Blue-chip proof
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- label: GREEN AVIATION FUEL
+  type: pp_donutv
+  section: Market size
+  title: How is the sustainable aviation fuel market split between its categories?
+  cats:
+  - name: HEFA
+    p: 78
+    logos:
+    - ../../assets/logos/pp/neste.png
+    - ../../assets/logos/pp/moeve.png
+  - name: Alcohol to jet
+    p: 8
+    logos:
+    - ../../assets/logos/pp/lanzajet.png
+    - ../../assets/logos/pp/gevo.png
+  - name: Power to liquid
+    p: 6
+    logos:
+    - ../../assets/logos/pp/twelve.png
+    - ../../assets/logos/pp/infinium.png
+  - name: FT biomass SAF
+    p: 4
+    logos:
+    - ../../assets/logos/pp/velocys.png
+    - ../../assets/logos/pp/fulcrum-bioenergy.png
+  - name: Co-processed SAF
+    p: 4
+    logos:
+    - ../../assets/logos/pp/phillips-66.png
+    - ../../assets/logos/pp/repsol.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: GREEN AVIATION FUEL
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which sustainable aviation fuel companies have shown warning signs lately?
+  signs:
+  - Missed|deadlines
+  - Lawsuit or|court case
+  - Ran out|of cash
+  - Lost|independence
+  - Value|fell
+  rows:
+  - name: Fulcrum
+    slug: fulcrum
+    domain: fulcrum-bioenergy.com
+    cells:
+    - ''
+    - Filed Chapter 11|in September 2024.
+    - Owed nearly $456M to|creditors at filing.
+    - ''
+    - ''
+    src: ../../assets/logos/pp/fulcrum.png
+    ini: F
+  - name: Velocys
+    slug: velocys
+    domain: velocys.com
+    cells:
+    - ''
+    - ''
+    - ''
+    - Completed a take-private|in January 2024.
+    - Needed $40M of fresh growth|capital with the take-private.
+    src: ../../assets/logos/pp/velocys.png
+    ini: V
+  - name: Oceania Bio
+    slug: oceania-bio
+    domain: oceaniabiofuels.com
+    cells:
+    - Withdrew its Queensland|SAF project application.
+    - ''
+    - ''
+    - ''
+    - ''
+    src: ''
+    ini: OB
+  - name: DG Fuels
+    slug: dg-fuels
+    domain: dgfuels.com
+    cells:
+    - Louisiana project timing has repeatedly|moved while financing is assembled.
+    - ''
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/pp/dg-fuels.png
+    ini: DF
+  - name: Gevo
+    slug: gevo
+    domain: gevo.com
+    cells:
+    - Net-Zero 1 has faced|financing and timing slippage.
+    - ''
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/pp/gevo.png
+    ini: G
+  note:
+  - We looked for warning signs among well-known sustainable aviation fuel companies
+  - We used company filings and the press, with all the sources at the end of the report
