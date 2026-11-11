@@ -1,0 +1,137 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- label: MORTGAGE TECHNOLOGY
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which mortgage technology companies have shown warning signs lately?
+  signs:
+  - Value|fell
+  - Big|layoffs
+  - Lost|independence
+  - Missed|deadlines
+  rows:
+  - name: Better
+    slug: better
+    domain: ''
+    cells:
+    - Business swung from profit to|more than $300M loss in 2021
+    - Executed repeated mass|layoffs beginning in late 2021
+    - ''
+    - ''
+    src: ../../assets/logos/pp/better.png
+    ini: B
+  - name: Blend
+    slug: blend
+    domain: blend.com
+    cells:
+    - Shares fell sharply|from the post-IPO peak
+    - Cut staff repeatedly during|the mortgage volume collapse
+    - ''
+    - ''
+    src: ../../assets/logos/pp/blend.png
+    ini: B
+  - name: Roostify
+    slug: roostify
+    domain: ''
+    cells:
+    - Independent mortgage POS business|ended in strategic acquisition
+    - ''
+    - CoreLogic acquired|Roostify in 2023
+    - ''
+    src: ../../assets/logos/pp/roostify.png
+    ini: R
+  - name: Sprout
+    slug: sprout
+    domain: sproutmortgage.com
+    cells:
+    - Rate volatility and loan-sale|stress broke the model
+    - ''
+    - ''
+    - Abruptly shut in July 2022 with|more than 300 workers affected
+    src: ''
+    ini: S
+  - name: Dark Matter
+    slug: dark-matter
+    domain: dmatter.com
+    cells:
+    - Customer migration pressure|increased after ICE integration
+    - Large layoffs hit the mortgage|software unit in May 2025
+    - ''
+    - ''
+    src: ../../assets/logos/pp/dark-matter.png
+    ini: DM
+  note:
+  - We looked for warning signs among well-known mortgage technology companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
+- label: SMB LENDING
+  type: pp_winner
+  section: Startup strategies
+  title: 'Why might Bluevine be winning
+
+    the SMB credit line market?'
+  companies:
+  - short: Bluevine
+    src: ../../assets/logos/pp/bluevine.png
+  - short: Fundbox
+    src: ../../assets/logos/pp/fundbox.png
+  - short: iwoca
+    src: ../../assets/logos/pp/iwoca.png
+  - short: Fora
+    src: ../../assets/logos/pp/fora.png
+  - short: Credibly
+    src: ../../assets/logos/pp/credibly.png
+  criteria:
+  - name: Revolving line
+    why: Fits working-capital cycles
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Banking bundle
+    why: Raises retention and deposits
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Data underwriting
+    why: Supports automated risk
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Large funding
+    why: Keeps lending through cycles
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: SMB brand
+    why: Improves direct acquisition
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Fast decision
+    why: SMBs value speed
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
