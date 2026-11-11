@@ -1,0 +1,1028 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- type: pp_radar
+  pill: MARKET MAP
+  label: INFLUENCER MARKETING
+  title: 'Which companies really belong
+
+    in influencer marketing?'
+  caption:
+  - Distance to the center reflects how central each company is to influencer marketing
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/creatoriq.png
+  - ../../assets/logos/pp/grin.png
+  - ../../assets/logos/pp/captiv8.png
+  - ../../assets/logos/pp/traackr.png
+  - ../../assets/logos/pp/upfluence.png
+  - ../../assets/logos/pp/aspire.png
+  - ../../assets/logos/pp/modash.png
+  - ../../assets/logos/pp/kolsquare.png
+  TL:
+    src: ../../assets/logos/pp/hootsuite.png
+    name: Hootsuite
+    text: social media management covers publishing and analytics, not end to end influencer relationship workflows
+  TR:
+    src: ../../assets/logos/pp/meta.png
+    name: Meta
+    text: owns social networks where creators operate, but it is not primarily a brand influencer campaign platform
+  BL:
+    src: ../../assets/logos/pp/ltk.png
+    name: LTK
+    text: runs creator commerce and brand campaigns, while a large part of the business is consumer shopping and creator monetization
+  BR:
+    src: ../../assets/logos/pp/impact-com.png
+    name: impact.com
+    text: creator partnerships sit inside a broader partnership and affiliate management suite with other revenue lines
+- label: INFLUENCER MARKETING
+  type: pp_cagr
+  section: Market size
+  title: 'How much bigger can
+
+    influencer marketing get?'
+  size: 31.0
+  cagr: 18
+  lead: 'To get that big, '
+  condition: platforms must improve attribution, creator data quality and fraud detection as brands shift more budget to creator-led campaigns.
+  note:
+  - We compared forecasts from Grand View Research, Mordor Intelligence and The Business Research Company
+  - We adjusted each one to our definition of the market, and all the sources are included at the end of the report
+- label: INFLUENCER MARKETING
+  type: pp_donutv
+  section: Market size
+  title: How is the influencer marketing market split between its categories?
+  cats:
+  - name: Creator discovery
+    p: 25
+    logos:
+    - ../../assets/logos/pp/creatoriq.png
+    - ../../assets/logos/pp/traackr.png
+  - name: Campaign management
+    p: 24
+    logos:
+    - ../../assets/logos/pp/grin.png
+    - ../../assets/logos/pp/aspire.png
+  - name: Influencer CRM
+    p: 18
+    logos:
+    - ../../assets/logos/pp/upfluence.png
+    - ../../assets/logos/pp/creatoriq.png
+  - name: Commerce affiliate
+    p: 18
+    logos:
+    - ../../assets/logos/pp/later-influence.png
+    - ../../assets/logos/pp/impact-com.png
+  - name: Measurement payments
+    p: 15
+    logos:
+    - ../../assets/logos/pp/traackr.png
+    - ../../assets/logos/pp/captiv8.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: INFLUENCER MARKETING
+  type: pp_pains
+  section: Pain points
+  title: 'Which influencer marketing
+
+    problems are still unsolved?'
+  auds:
+  - Brand marketers
+  - Influencer agencies
+  - Ecommerce marketers
+  - Creator managers
+  - Performance marketers
+  pains:
+  - - Creator audience data can be inaccurate or outdated
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - Attribution across social platforms remains incomplete
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 1
+  - - Fake followers and engagement distort creator selection
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 2
+  - - Campaign approvals create long manual coordination loops
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - Creator pricing varies widely without standard benchmarks
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 1
+  - - Payment and tax workflows become complex at scale
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+- label: INFLUENCER MARKETING
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which influencer marketing company
+
+    has the most complete tech today?'
+  companies:
+  - name: CreatorIQ
+    src: ../../assets/logos/pp/creatoriq.png
+  - name: GRIN
+    src: ../../assets/logos/pp/grin.png
+  - name: Upfluence
+    src: ../../assets/logos/pp/upfluence.png
+  - name: Aspire
+    src: ../../assets/logos/pp/aspire.png
+  - name: Traackr
+    src: ../../assets/logos/pp/traackr.png
+  features:
+  - header: Creator|search
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Audience|data
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Campaign|CRM
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Affiliate|links
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Payments|support
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Fraud|checks
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: API|access
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: INFLUENCER MARKETING
+  type: pp_risks
+  section: Market challenges
+  title: What are the biggest threats to the influencer marketing market?
+  events:
+  - text: The FTC tightens influencer disclosure enforcement, raising compliance costs and making some brands reduce creator campaigns
+    odds: 50
+    impact: 3
+  - text: Meta and TikTok expand native creator marketplaces, displacing independent influencer platforms with first-party campaign too
+    odds: 60
+    impact: 3
+  - text: TikTok faces new US restrictions or a forced restructuring, disrupting creator discovery and campaign measurement for brands
+    odds: 35
+    impact: 2
+  - text: Creator fraud and fake engagement rise faster than detection, reducing advertiser trust in influencer performance metrics
+    odds: 45
+    impact: 2
+  - text: Brands shift budgets toward retail media and paid social automation, leaving less spend for managed influencer software seats
+    odds: 40
+    impact: 2
+  - text: Privacy changes limit cross-platform attribution, making influencer ROI harder to prove and weakening software renewal rates
+    odds: 45
+    impact: 2
+  - text: Large creators move to direct brand deals and agencies, reducing platform transaction volume and creator marketplace liquidit
+    odds: 35
+    impact: 1
+  - text: AI-generated influencers trigger disclosure rules and consumer backlash, delaying brand adoption of synthetic creator workflo
+    odds: 30
+    impact: 2
+  note:
+  - We listed the events that could slow influencer marketing down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+- label: INFLUENCER MARKETING
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the influencer marketing market forward, year after year?
+  events:
+  - year: '2005'
+    text: YouTube scales independent creator audiences
+    impact: 2.0
+  - year: '2007'
+    text: Facebook pages organize brand communities
+    impact: 1.5
+  - year: '2009'
+    text: FTC formalizes social endorsement disclosure
+    impact: 2.5
+  - year: '2010'
+    text: Instagram makes visual creators discoverable
+    impact: 2.0
+  - year: '2012'
+    text: Brands scale sponsored social posts
+    impact: 1.5
+  - year: '2013'
+    text: Agencies professionalize influencer campaigns
+    impact: 1.5
+  - year: '2014'
+    text: Instagram analytics improve measurement
+    impact: 1.5
+  - year: '2015'
+    text: Ad blockers push native creator ads
+    impact: 2.0
+  - year: '2016'
+    text: Stories increase sponsored content frequency
+    impact: 1.5
+  - year: '2017'
+    text: FTC warns influencers on disclosures
+    impact: 2.0
+  - year: '2018'
+    text: Micro-influencers widen creator supply
+    impact: 1.5
+  - year: '2019'
+    text: FTC issues influencer disclosure guide
+    impact: 2.0
+  - year: '2019'
+    text: TikTok accelerates short-video creator growth
+    impact: 2.0
+  - year: '2020'
+    text: Covid shifts brand spend online
+    impact: 2.5
+  - year: '2020'
+    text: Livestream commerce links creators to sales
+    impact: 2.0
+  - year: '2021'
+    text: Creator funds legitimize full-time influence
+    impact: 1.5
+  - year: '2021'
+    text: Affiliate tools connect content to purchases
+    impact: 2.0
+  - year: '2022'
+    text: Instagram launches creator marketplace tests
+    impact: 2.0
+  - year: '2022'
+    text: Brands adopt always-on creator programs
+    impact: 1.5
+  - year: '2023'
+    text: FTC updates endorsement guides
+    impact: 3.0
+  - year: '2023'
+    text: TikTok Shop expands creator affiliates
+    impact: 2.0
+  - year: '2024'
+    text: Instagram expands creator marketplace
+    impact: 2.0
+  - year: '2024'
+    text: Meta tests creator matching with ML
+    impact: 1.5
+  - year: '2024'
+    text: Partnership ads scale creator amplification
+    impact: 1.5
+  - year: '2025'
+    text: Creator commerce becomes budget line
+    impact: 1.5
+  - year: '2025'
+    text: AI improves creator discovery workflows
+    impact: 1.5
+  - year: '2026'
+    text: TikTok lowers some creator entry barriers
+    impact: 1.5
+  - year: '2026'
+    text: TikTok standardizes creator eligibility
+    impact: 1.5
+  - year: '2026'
+    text: Creator Center unifies affiliate workflows
+    impact: 2.0
+  - year: '2026'
+    text: Creator marketplaces deepen commerce
+    impact: 2.0
+  note:
+  - We kept the events we believe pushed influencer marketing forward the most
+  - Ratings are our estimates, and all our sources are listed at the end of the report
+- label: INFLUENCER MARKETING
+  type: pp_raises
+  section: Investor bets
+  title: 'Who are investors backing most
+
+    in influencer marketing right now?'
+  rounds:
+  - name: ShopMy
+    amt: 77500000.0
+    src: ../../assets/logos/pp/shopmy.png
+    stage: Series B
+    date: Jan 2025
+  - name: Agentio
+    amt: 40000000.0
+    src: ../../assets/logos/pp/agentio.png
+    stage: Series B
+    date: Nov 2025
+  - name: Levanta
+    amt: 22000000.0
+    src: ../../assets/logos/pp/levanta.png
+    stage: Series B
+    date: Aug 2026
+  - name: Statusphere
+    amt: 18000000.0
+    src: ../../assets/logos/pp/statusphere.png
+    stage: Series A
+    date: Jan 2026
+  - name: Wishlink
+    amt: 17500000.0
+    src: ../../assets/logos/pp/wishlink.png
+    stage: Series B
+    date: Feb 2026
+  - name: Duel
+    amt: 16000000.0
+    src: ''
+    stage: Series A
+    date: Sep 2025
+  note:
+  - We listed the biggest equity rounds raised by influencer marketing startups in recent years
+  - We used company announcements and the press, with all the sources at the end of the report
+- label: INFLUENCER MARKETING
+  type: pp_grid
+  weight:
+    creatoriq: 79500000.0
+    grin: 145260000.0
+    captiv8: 0.0
+    traackr: 11500000.0
+    upfluence: 3600000.0
+    aspire: 209300000.0
+    impact-com: 0.0
+    ltk: 323020000.0
+    modash: 12000000.0
+    hypeauditor: 0.0
+    kolsquare: 0.0
+    storyclash: 2420000.0
+    influencity: 0.0
+    insense: 5212000.0
+    mavrck: 0.0
+    fohr: 0.0
+    saral: 0.0
+    archive: 45000000.0
+  section: INFLUENCER MARKETING
+  title: 'Who are the top companies
+
+    in influencer marketing?'
+  handle: influencer-marketing-platform
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Enterprise
+  - Commerce
+  - Analytics
+  cells:
+  - - - creatoriq
+      - grin
+    - - captiv8
+      - traackr
+    - - upfluence
+      - aspire
+  - - - impact-com
+      - ltk
+    - - modash
+      - hypeauditor
+    - - kolsquare
+      - storyclash
+  - - - influencity
+      - insense
+    - - mavrck
+      - fohr
+    - - saral
+      - archive
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Meta, TikTok, and all our sources are at the end of the report
+  srcs:
+    creatoriq: ../../assets/logos/pp/creatoriq.png
+    grin: ../../assets/logos/pp/grin.png
+    captiv8: ../../assets/logos/pp/captiv8.png
+    traackr: ../../assets/logos/pp/traackr.png
+    upfluence: ../../assets/logos/pp/upfluence.png
+    aspire: ../../assets/logos/pp/aspire.png
+    impact-com: ../../assets/logos/pp/impact-com.png
+    ltk: ../../assets/logos/pp/ltk.png
+    modash: ../../assets/logos/pp/modash.png
+    hypeauditor: ../../assets/logos/pp/hypeauditor.png
+    kolsquare: ../../assets/logos/pp/kolsquare.png
+    storyclash: ../../assets/logos/pp/storyclash.png
+    influencity: ../../assets/logos/pp/influencity.png
+    insense: ../../assets/logos/pp/insense.png
+    mavrck: ../../assets/logos/pp/mavrck.png
+    fohr: ../../assets/logos/pp/fohr.png
+    saral: ../../assets/logos/pp/saral.png
+    archive: ../../assets/logos/pp/archive.png
+- label: INFLUENCER MARKETING
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which influencer marketing companies have shown warning signs lately?
+  signs:
+  - Value|fell
+  - Missed|deadlines
+  - Lost|independence
+  - Lawsuit or|court case
+  - Big|layoffs
+  rows:
+  - name: Mavrck
+    slug: mavrck
+    domain: mavrck.co
+    cells:
+    - Category pressure forced consolidation,|retrenchment or slower expansion
+    - ''
+    - Merged with Later|under one platform
+    - ''
+    - ''
+    src: ../../assets/logos/pp/mavrck.png
+    ini: M
+  - name: Captiv8
+    slug: captiv8
+    domain: captiv8.io
+    cells:
+    - Category pressure forced consolidation,|retrenchment or slower expansion
+    - ''
+    - ''
+    - Creator platforms face|measurement and contract disputes
+    - ''
+    src: ../../assets/logos/pp/captiv8.png
+    ini: C
+  - name: GRIN
+    slug: grin
+    domain: grin.co
+    cells:
+    - Category pressure forced consolidation,|retrenchment or slower expansion
+    - ''
+    - ''
+    - ''
+    - Creator tech reset pushed|vendors toward efficiency
+    src: ../../assets/logos/pp/grin.png
+    ini: G
+  - name: LTK
+    slug: ltk
+    domain: company.shopltk.com
+    cells:
+    - Creator commerce growth|normalized after pandemic surge
+    - Category pressure forced consolidation,|retrenchment or slower expansion
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/pp/ltk.png
+    ini: L
+  - name: Upfluence
+    slug: upfluence
+    domain: upfluence.com
+    cells:
+    - Crowded market pressures|pricing and differentiation
+    - Category pressure forced consolidation,|retrenchment or slower expansion
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/pp/upfluence.png
+    ini: U
+  note:
+  - We looked for warning signs among well-known influencer marketing companies
+  - We used company filings and the press, with all the sources at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: PRIVATE MARKETS TECH
+  title: 'Who is in private markets software,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to private markets software
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/juniper-square.png
+  - ../../assets/logos/pp/allvue.png
+  - ../../assets/logos/pp/dynamo.png
+  - ../../assets/logos/pp/affinity.png
+  - ../../assets/logos/pp/carta.png
+  - ../../assets/logos/pp/chronograph.png
+  - ../../assets/logos/pp/passthrough.png
+  - ../../assets/logos/pp/standard-metrics.png
+  TL:
+    src: ../../assets/logos/pp/pitchbook.png
+    name: PitchBook
+    text: private-market data supports investors, but it is market intelligence rather than fund operations software
+  TR:
+    src: ../../assets/logos/pp/blackrock.png
+    name: BlackRock
+    text: blackRock invests in private markets, but the asset manager itself is not a private-markets software vendor
+  BL:
+    src: ../../assets/logos/pp/efront.png
+    name: eFront
+    text: eFront serves private capital workflows, but it sits inside BlackRock and a broader institutional technology stack
+  BR:
+    src: ../../assets/logos/pp/dealcloud.png
+    name: DealCloud
+    text: dealCloud is core deal CRM for private capital, while Intapp also sells software to legal and advisory firms
+- label: PRIVATE MARKETS TECH
+  type: pp_cagr
+  section: Market size
+  title: 'How much bigger can
+
+    private markets software get?'
+  size: 6.8
+  cagr: 11
+  lead: 'To get that big, '
+  condition: fund managers must keep digitizing workflows and LP reporting while vendors prove secure integrations and reliable fund data.
+  note:
+  - We compared forecasts from 6Wresearch, The Business Research Company and Grand View Research
+  - We adjusted each one to our own definition of the market, with all the sources at the end of the report
+- label: PRIVATE MARKETS TECH
+  type: pp_donutv
+  section: Market size
+  title: How is the private markets software market split between its categories?
+  cats:
+  - name: Fund Admin
+    p: 24
+    logos:
+    - ../../assets/logos/pp/carta.png
+    - ../../assets/logos/pp/juniper-square.png
+  - name: Deal Flow
+    p: 22
+    logos:
+    - ../../assets/logos/pp/affinity.png
+    - ../../assets/logos/pp/dealcloud.png
+  - name: Portfolio Monitor
+    p: 18
+    logos:
+    - ../../assets/logos/pp/allvue.png
+    - ../../assets/logos/pp/chronograph.png
+  - name: Investor Relations
+    p: 18
+    logos:
+    - ../../assets/logos/pp/juniper-square.png
+    - ../../assets/logos/pp/dynamo.png
+  - name: Data & Valuation
+    p: 18
+    logos:
+    - ../../assets/logos/pp/preqin.png
+    - ../../assets/logos/pp/pitchbook.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: PRIVATE MARKETS TECH
+  type: pp_pains
+  section: Pain points
+  title: 'Which private markets software
+
+    problems are still unsolved?'
+  auds:
+  - Private equity GPs
+  - Venture fund GPs
+  - Private credit GPs
+  - Fund administrators
+  - Investor relations
+  pains:
+  - - Fund data still lives across disconnected systems
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - LP reporting still needs heavy manual reconciliation
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - Complex fund structures slow accounting close cycles
+    - - 3
+      - 1
+      - 3
+      - 2
+      - 1
+  - - Investor onboarding still creates document bottlenecks
+    - - 1
+      - 2
+      - 2
+      - 3
+      - 2
+  - - Private credit workflows need better covenant tracking
+    - - 2
+      - 2
+      - 1
+      - 2
+      - 3
+  - - Integrations with legacy systems remain expensive
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+- label: PRIVATE MARKETS TECH
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which private markets software company
+
+    has the most complete tech today?'
+  companies:
+  - name: Carta
+    src: ../../assets/logos/pp/carta.png
+  - name: Juniper Squa
+    src: ../../assets/logos/pp/juniper-squa.png
+  - name: Allvue
+    src: ../../assets/logos/pp/allvue.png
+  - name: Dynamo
+    src: ../../assets/logos/pp/dynamo.png
+  - name: Affinity
+    src: ../../assets/logos/pp/affinity.png
+  features:
+  - header: Fund|accounting
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: LP|portal
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: CRM|deal flow
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Private|credit
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: API|access
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: AI|features
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Data|warehouse
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: PRIVATE MARKETS TECH
+  type: pp_risks
+  section: Market challenges
+  title: What are the biggest threats to the private markets software market?
+  events:
+  - text: SEC further delays Form PF changes, reducing urgency for private-fund managers to replace reporting and data systems
+    odds: 45
+    impact: 2
+  - text: BlackRock expands Aladdin and eFront, letting a giant incumbent bundle private-market software into core contracts
+    odds: 40
+    impact: 3
+  - text: Carta and other fund administrators automate more workflows with AI, pressuring standalone private-market tools on price
+    odds: 50
+    impact: 2
+  - text: Private-equity fundraising stays weak, causing smaller GPs to postpone software upgrades and new analytics projects
+    odds: 45
+    impact: 3
+  - text: Cyber incidents at fund administrators expose LP data, pushing firms to freeze migrations and tighten vendor-security reviews
+    odds: 35
+    impact: 2
+  - text: Large LPs consolidate around BlackRock, Nasdaq and iCapital, squeezing specialist software with narrow single-point tools
+    odds: 40
+    impact: 2
+  - text: Courts keep striking down SEC private-fund rules, removing compliance deadlines that would otherwise force software spending
+    odds: 35
+    impact: 2
+  - text: AI agents built into general finance suites handle reporting and reconciliation, making some private-market modules redundant
+    odds: 45
+    impact: 3
+  note:
+  - We listed the events that could slow private markets software down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+- label: PRIVATE MARKETS TECH
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the private markets software market forward, year after year?
+  events:
+  - year: '1999'
+    text: eFront brings alternatives workflows online
+    impact: 2.0
+  - year: '2002'
+    text: eFront launches venture-capital software
+    impact: 1.5
+  - year: '2003'
+    text: eFront specializes in alternatives
+    impact: 1.0
+  - year: '2010'
+    text: Dodd-Frank expands private-fund oversight
+    impact: 2.5
+  - year: '2011'
+    text: SEC finalizes adviser registration rules
+    impact: 2.0
+  - year: '2012'
+    text: Private advisers migrate to registered status
+    impact: 1.5
+  - year: '2015'
+    text: eFront adds data intelligence tools
+    impact: 1.5
+  - year: '2017'
+    text: eFront launches portfolio risk analytics
+    impact: 1.0
+  - year: '2017'
+    text: iCapital broadens accredited-investor access
+    impact: 1.5
+  - year: '2018'
+    text: eFront digitizes GP-LP data exchange
+    impact: 1.5
+  - year: '2018'
+    text: Blackstone backs iCapital platform
+    impact: 2.0
+  - year: '2019'
+    text: BlackRock buys eFront for $1.3B
+    impact: 3.0
+  - year: '2019'
+    text: iCapital absorbs bank feeder operations
+    impact: 1.5
+  - year: '2020'
+    text: Nasdaq buys Solovis analytics
+    impact: 2.0
+  - year: '2020'
+    text: BlackRock increases iCapital stake
+    impact: 1.5
+  - year: '2020'
+    text: iCapital acquires Artivest platform
+    impact: 1.0
+  - year: '2020'
+    text: iCapital adds factorE risk analytics
+    impact: 1.0
+  - year: '2021'
+    text: Private markets fundraising surges
+    impact: 2.0
+  - year: '2022'
+    text: Private credit expands rapidly
+    impact: 2.0
+  - year: '2023'
+    text: SEC adopts private-fund adviser rules
+    impact: 2.0
+  - year: '2023'
+    text: AI reaches fund operations workflows
+    impact: 1.0
+  - year: '2024'
+    text: Court vacates SEC private-fund rules
+    impact: 1.0
+  - year: '2024'
+    text: Form PF reporting expands
+    impact: 2.0
+  - year: '2024'
+    text: Private credit demands better monitoring
+    impact: 1.5
+  - year: '2025'
+    text: Form PF deadlines keep moving
+    impact: 1.0
+  - year: '2025'
+    text: Carta embeds AI in fund admin
+    impact: 2.0
+  - year: '2025'
+    text: Alternative platforms consolidate services
+    impact: 1.5
+  - year: '2026'
+    text: SEC extends Form PF to 2027
+    impact: 1.5
+  - year: '2026'
+    text: Carta deploys autonomous fund agents
+    impact: 2.5
+  - year: '2026'
+    text: Private software becomes whole-portfolio tech
+    impact: 2.0
+  note:
+  - We kept the events we believe pushed private markets software forward the most
+  - Ratings are our estimates, and all our sources are at the end of the report
+- label: PRIVATE MARKETS TECH
+  type: pp_raises
+  section: Investor bets
+  title: 'Which private markets software startups
+
+    have received the most funding?'
+  rounds:
+  - name: iCapital
+    amt: 820000000.0
+    src: ''
+    stage: Growth Equity
+    date: Jul 2025
+  - name: K1x
+    amt: 175000000.0
+    src: ../../assets/logos/pp/k1x.png
+    stage: Growth Equity
+    date: Apr 2026
+  - name: CAIS
+    amt: 170000000.0
+    src: ../../assets/logos/pp/cais.png
+    stage: Late stage
+    date: Jul 2026
+  - name: Rogo
+    amt: 160000000.0
+    src: ../../assets/logos/pp/rogo.png
+    stage: Late stage
+    date: Apr 2026
+  - name: Chronograph
+    amt: 140000000.0
+    src: ../../assets/logos/pp/chronograph.png
+    stage: Growth Equity
+    date: Jun 2026
+  - name: Juniper Square
+    amt: 130000000.0
+    src: ../../assets/logos/pp/juniper-square.png
+    stage: Late stage
+    date: Jun 2025
+  note:
+  - We listed the biggest equity rounds raised by private markets software startups over the last few years
+  - We used company announcements and the press, and all our sources are at the end of the report
+- label: PRIVATE MARKETS TECH
+  type: pp_grid
+  weight:
+    juniper-square: 372936000.0
+    carta: 1128000000.0
+    passthrough: 15000000.0
+    fundwave: 0.0
+    fundcraft: 25900000.0
+    lemonedge: 27500000.0
+    affinity: 122555000.0
+    dynamo: 0.0
+    4degrees: 1100000.0
+    sourcescrub: 0.0
+    deckmatch: 0.0
+    folk: 0.0
+    chronograph: 160000000.0
+    standard-metrics: 0.0
+    visible: 2515000.0
+    cobalt: 36500000.0
+    dili: 15000000.0
+    blueflame-ai: 5000000.0
+  section: PRIVATE MARKETS TECH
+  title: 'Who are the top players
+
+    in private markets software today?'
+  handle: private-markets-software
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Fund admin
+  - Deal CRM
+  - Portfolio
+  cells:
+  - - - juniper-square
+      - carta
+    - - passthrough
+      - fundwave
+    - - fundcraft
+      - lemonedge
+  - - - affinity
+      - dynamo
+    - - 4degrees
+      - sourcescrub
+    - - deckmatch
+      - folk
+  - - - chronograph
+      - standard-metrics
+    - - visible
+      - cobalt
+    - - dili
+      - blueflame-ai
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like BlackRock, Front, and all our sources are at the end of the report
+  srcs:
+    juniper-square: ../../assets/logos/pp/juniper-square.png
+    carta: ../../assets/logos/pp/carta.png
+    passthrough: ../../assets/logos/pp/passthrough.png
+    fundwave: ../../assets/logos/pp/fundwave.png
+    fundcraft: ../../assets/logos/pp/fundcraft.png
+    lemonedge: ../../assets/logos/pp/lemonedge.png
+    affinity: ../../assets/logos/pp/affinity.png
+    dynamo: ../../assets/logos/pp/dynamo.png
+    4degrees: ../../assets/logos/pp/4degrees.png
+    sourcescrub: ../../assets/logos/pp/sourcescrub.png
+    deckmatch: ../../assets/logos/pp/deckmatch.png
+    folk: ../../assets/logos/pp/folk.png
+    chronograph: ../../assets/logos/pp/chronograph.png
+    standard-metrics: ../../assets/logos/pp/standard-metrics.png
+    visible: ../../assets/logos/pp/visible.png
+    cobalt: ../../assets/logos/pp/cobalt.png
+    dili: ../../assets/logos/pp/dili.png
+    blueflame-ai: ../../assets/logos/pp/blueflame-ai.png
+- label: PRIVATE MARKETS TECH
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which private markets software companies have shown warning signs lately?
+  signs:
+  - Big|layoffs
+  - Lost|independence
+  - Value|fell
+  rows:
+  - name: Carta
+    slug: carta
+    domain: carta.com
+    cells:
+    - Multiple restructuring rounds cut|staff after the 2021 market peak
+    - Broader product pullbacks narrowed|some non-core private-market bets
+    - ''
+    src: ../../assets/logos/pp/carta.png
+    ini: C
+  - name: Affinity
+    slug: affinity
+    domain: affinity.co
+    cells:
+    - Private SaaS peers cut|headcount as fundraising slowed
+    - ''
+    - Growth software valuations reset|sharply from 2021 private-market peaks
+    src: ../../assets/logos/pp/affinity.png
+    ini: A
+  - name: Dynamo
+    slug: dynamo
+    domain: dynamosoftware.com
+    cells:
+    - ''
+    - Ownership has shifted through|private-equity investment
+    - Private-capital software|multiples compressed after 2021
+    src: ../../assets/logos/pp/dynamo.png
+    ini: D
+  - name: Allvue
+    slug: allvue
+    domain: allvuesystems.com
+    cells:
+    - Private capital software firms faced|efficiency pressure in 2023 to 2025
+    - The business has operated|under private-equity ownership
+    - ''
+    src: ../../assets/logos/pp/allvue.png
+    ini: A
+  - name: Juniper Square
+    slug: juniper-square
+    domain: junipersquare.com
+    cells:
+    - Fundraising slowdown increased efficiency|pressure across private markets
+    - ''
+    - Private-market software|valuations reset from 2021 highs
+    src: ../../assets/logos/pp/juniper-square.png
+    ini: JS
+  note:
+  - We looked for warning signs among well-known private markets software companies, from layoffs to lawsuits
+  - We used company filings and the press, and all the sources we used are listed at the end of the report

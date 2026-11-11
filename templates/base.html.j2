@@ -24,7 +24,8 @@
     const max = t.clientWidth, manual = /<br/.test(t.innerHTML); if (words.length < 2 || (!manual && w(words.join(' ')) <= max * 0.62)) return;   // short titles stay on one line unless written on two
     let best = null;
     for (let i = 1; i < words.length; i++) { const a = words.slice(0, i).join(' '), b = words.slice(i).join(' '), wa = w(a), wb = w(b);
-      if (wa > max || wb > max) continue; const d = Math.abs(wa - wb); if (!best || d < best.d) best = {a, b, d, wa, wb}; }
+      if (wa > max || wb > max) continue; if (/^(a|an|the|its|their|of|to|for|in|with|by|on|at|and|or|every)$/i.test(words[i - 1])) continue;   // 11 Nov: a line never ends on a small word
+      const d = Math.abs(wa - wb); if (!best || d < best.d) best = {a, b, d, wa, wb}; }
     if (best) { t.innerHTML = esc(best.a) + '<br>' + esc(best.b); t.dataset.bal = Math.round(best.d / Math.max(best.wa, best.wb) * 100); }
   });
   // footer label on one line inside its 228 px: tighten the letter spacing if a long market name would overflow

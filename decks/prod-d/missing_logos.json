@@ -1,0 +1,668 @@
+{
+"vicarious": [
+[
+"robot-foundation-models",
+"pp_killers"
+]
+],
+"robust-ai": [
+[
+"robot-foundation-models",
+"pp_killers"
+]
+],
+"celero-communications": [
+[
+"optical-interconnect",
+"pp_raises"
+]
+],
+"newphotonics": [
+[
+"optical-interconnect",
+"pp_grid"
+]
+],
+"eoptolink": [
+[
+"optical-interconnect",
+"pp_winner"
+]
+],
+"robin-healthcare": [
+[
+"ai-medical-scribe",
+"pp_grid"
+]
+],
+"augnito": [
+[
+"ai-medical-scribe",
+"pp_grid"
+]
+],
+"augmedix": [
+[
+"ai-medical-scribe",
+"pp_killers"
+]
+],
+"nuance": [
+[
+"ai-medical-scribe",
+"pp_killers"
+]
+],
+"augmedix-go": [
+[
+"ai-medical-scribe",
+"pp_killers"
+]
+],
+"nabors": [
+[
+"advanced-geothermal",
+"pp_donutv"
+],
+[
+"advanced-geothermal",
+"pp_value"
+]
+],
+"hephae-energy": [
+[
+"advanced-geothermal",
+"pp_grid"
+]
+],
+"earthbridge": [
+[
+"advanced-geothermal",
+"pp_grid"
+]
+],
+"sea-kit-international": [
+[
+"maritime-autonomy",
+"pp_grid"
+],
+[
+"maritime-autonomy",
+"pp_radar"
+]
+],
+"anduril-industries": [
+[
+"maritime-autonomy",
+"pp_raises"
+]
+],
+"panthalassa": [
+[
+"maritime-autonomy",
+"pp_raises"
+]
+],
+"kraken-technology-group": [
+[
+"maritime-autonomy",
+"pp_grid"
+],
+[
+"maritime-autonomy",
+"pp_raises"
+]
+],
+"seahi-robotics": [
+[
+"maritime-autonomy",
+"pp_raises"
+]
+],
+"jaia-robotics": [
+[
+"maritime-autonomy",
+"pp_grid"
+]
+],
+"sagar-defence-engineering": [
+[
+"maritime-autonomy",
+"pp_grid"
+]
+],
+"acua-ocean": [
+[
+"maritime-autonomy",
+"pp_grid"
+]
+],
+"n8n": [
+[
+"ai-agent-infrastructure",
+"pp_raises"
+]
+],
+"lutra-ai": [
+[
+"ai-agent-infrastructure",
+"pp_killers"
+]
+],
+"bloom": [
+[
+"data-center-on-site-power",
+"pp_tech"
+]
+],
+"cardinal-data-power": [
+[
+"data-center-on-site-power",
+"pp_raises"
+]
+],
+"swap-commerce": [
+[
+"agentic-commerce",
+"pp_raises"
+]
+],
+"nate": [
+[
+"agentic-commerce",
+"pp_killers"
+]
+],
+"pascal": [
+[
+"prediction-markets",
+"pp_grid"
+]
+],
+"furnace": [
+[
+"prediction-markets",
+"pp_grid"
+]
+],
+"veil": [
+[
+"prediction-markets",
+"pp_killers"
+],
+[
+"prediction-markets",
+"pp_survivors"
+]
+],
+"trepa": [
+[
+"prediction-markets",
+"pp_killers"
+],
+[
+"prediction-markets",
+"pp_survivors"
+]
+],
+"fireplace": [
+[
+"prediction-markets",
+"pp_killers"
+],
+[
+"prediction-markets",
+"pp_survivors"
+]
+],
+"replication": [
+[
+"prediction-markets",
+"pp_killers"
+],
+[
+"prediction-markets",
+"pp_survivors"
+]
+],
+"humble-robotics": [
+[
+"autonomous-trucking",
+"pp_grid"
+],
+[
+"autonomous-trucking",
+"pp_radar"
+]
+],
+"kargobot": [
+[
+"autonomous-trucking",
+"pp_grid"
+]
+],
+"solo-avt": [
+[
+"autonomous-trucking",
+"pp_grid"
+]
+],
+"qomolo": [
+[
+"autonomous-trucking",
+"pp_grid"
+]
+],
+"embark": [
+[
+"autonomous-trucking",
+"pp_killers"
+],
+[
+"autonomous-trucking",
+"pp_survivors"
+]
+],
+"ike": [
+[
+"autonomous-trucking",
+"pp_killers"
+],
+[
+"autonomous-trucking",
+"pp_survivors"
+]
+],
+"pqsecure": [
+[
+"post-quantum-cryptography",
+"pp_grid"
+]
+],
+"jump": [
+[
+"ai-note-taker",
+"pp_raises"
+]
+],
+"pocket": [
+[
+"ai-note-taker",
+"pp_raises"
+]
+],
+"nyota": [
+[
+"ai-note-taker",
+"pp_grid"
+]
+],
+"bluedot": [
+[
+"ai-note-taker",
+"pp_grid"
+]
+],
+"traw": [
+[
+"ai-note-taker",
+"pp_killers"
+]
+],
+"airgram": [
+[
+"ai-note-taker",
+"pp_killers"
+]
+],
+"kneron": [
+[
+"edge-ai-chips",
+"pp_grid"
+],
+[
+"edge-ai-chips",
+"pp_killers"
+],
+[
+"edge-ai-chips",
+"pp_radar"
+]
+],
+"tsingmicro": [
+[
+"edge-ai-chips",
+"pp_raises"
+]
+],
+"polyn-technology": [
+[
+"edge-ai-chips",
+"pp_grid"
+]
+],
+"nextera-energy": [
+[
+"virtual-power-plant",
+"pp_radar"
+]
+],
+"torus": [
+[
+"virtual-power-plant",
+"pp_raises"
+]
+],
+"enpal": [
+[
+"virtual-power-plant",
+"pp_raises"
+]
+],
+"sunverge": [
+[
+"virtual-power-plant",
+"pp_grid"
+]
+],
+"swell-energy": [
+[
+"virtual-power-plant",
+"pp_killers"
+]
+],
+"conjur": [
+[
+"non-human-identity-security",
+"pp_killers"
+]
+],
+"venafi": [
+[
+"non-human-identity-security",
+"pp_killers"
+]
+],
+"tinker": [
+[
+"rl-environments",
+"pp_grid"
+],
+[
+"rl-environments",
+"pp_radar"
+],
+[
+"rl-environments",
+"pp_winner"
+]
+],
+"invisible-technologies": [
+[
+"rl-environments",
+"pp_raises"
+]
+],
+"primerl": [
+[
+"rl-environments",
+"pp_grid"
+]
+],
+"payday-com": [
+[
+"earned-wage-access",
+"pp_radar"
+]
+],
+"rain-2": [
+[
+"earned-wage-access",
+"pp_raises"
+]
+],
+"minu": [
+[
+"earned-wage-access",
+"pp_raises"
+]
+],
+"immediate": [
+[
+"earned-wage-access",
+"pp_grid"
+]
+],
+"level": [
+[
+"earned-wage-access",
+"pp_grid"
+]
+],
+"symmetry-systems": [
+[
+"data-security-posture-management",
+"pp_grid"
+],
+[
+"data-security-posture-management",
+"pp_radar"
+]
+],
+"cyberhaven": [
+[
+"data-security-posture-management",
+"pp_raises"
+]
+],
+"dig-security": [
+[
+"data-security-posture-management",
+"pp_grid"
+],
+[
+"data-security-posture-management",
+"pp_killers"
+]
+],
+"symmetry-sys": [
+[
+"data-security-posture-management",
+"pp_winner"
+]
+],
+"hina-battery": [
+[
+"sodium-ion-battery",
+"pp_donutv"
+],
+[
+"sodium-ion-battery",
+"pp_grid"
+],
+[
+"sodium-ion-battery",
+"pp_radar"
+],
+[
+"sodium-ion-battery",
+"pp_value"
+]
+],
+"biwatt": [
+[
+"sodium-ion-battery",
+"pp_grid"
+],
+[
+"sodium-ion-battery",
+"pp_radar"
+]
+],
+"reliance": [
+[
+"sodium-ion-battery",
+"pp_radar"
+]
+],
+"great-power": [
+[
+"sodium-ion-battery",
+"pp_donutv"
+],
+[
+"sodium-ion-battery",
+"pp_value"
+]
+],
+"ronbay": [
+[
+"sodium-ion-battery",
+"pp_donutv"
+]
+],
+"hina": [
+[
+"sodium-ion-battery",
+"pp_tech"
+]
+],
+"qingna-technology": [
+[
+"sodium-ion-battery",
+"pp_raises"
+]
+],
+"bedrock-materials": [
+[
+"sodium-ion-battery",
+"pp_grid"
+]
+],
+"nanode": [
+[
+"sodium-ion-battery",
+"pp_grid"
+]
+],
+"naiad-power": [
+[
+"sodium-ion-battery",
+"pp_grid"
+]
+],
+"sodium-cycles": [
+[
+"sodium-ion-battery",
+"pp_grid"
+]
+],
+"natron": [
+[
+"sodium-ion-battery",
+"pp_killers"
+]
+],
+"arize-ai": [
+[
+"ai-agent-observability",
+"pp_raises"
+]
+],
+"revvity": [
+[
+"lab-automation",
+"pp_donutv"
+]
+],
+"radical-ai": [
+[
+"lab-automation",
+"pp_raises"
+]
+],
+"meso-scale-automation": [
+[
+"lab-automation",
+"pp_grid"
+]
+],
+"scintillation-nanotechnologies": [
+[
+"lab-automation",
+"pp_grid"
+]
+],
+"magma-math": [
+[
+"ai-tutoring",
+"pp_raises"
+]
+],
+"mathpresso": [
+[
+"ai-tutoring",
+"pp_raises"
+]
+],
+"cardinal-sq": [
+[
+"ai-tutoring",
+"pp_grid"
+]
+],
+"born": [
+[
+"ai-companion",
+"pp_grid"
+],
+[
+"ai-companion",
+"pp_radar"
+]
+],
+"paradot": [
+[
+"ai-companion",
+"pp_donutv"
+],
+[
+"ai-companion",
+"pp_grid"
+]
+],
+"anima": [
+[
+"ai-companion",
+"pp_donutv"
+],
+[
+"ai-companion",
+"pp_grid"
+]
+],
+"nature-select": [
+[
+"ai-companion",
+"pp_raises"
+]
+],
+"status": [
+[
+"ai-companion",
+"pp_grid"
+]
+],
+"arya": [
+[
+"ai-companion",
+"pp_grid"
+]
+],
+"first-voyage": [
+[
+"ai-companion",
+"pp_grid"
+]
+]
+}

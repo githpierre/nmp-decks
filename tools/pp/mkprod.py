@@ -13,7 +13,8 @@ SHORT = {'workforce-management-software': 'workforce management', 'targeted-prot
          'patient-engagement-software': 'patient engagement', 'non-human-identity-security': 'non-human identity', 'neuropsychiatric-therapeutics': 'neuropsychiatric drug',
          'metal-additive-manufacturing': 'metal 3D printing', 'managing-general-agent': 'MGA', 'generative-engine-optimization': 'GEO', 'employee-benefits-platform': 'employee benefits',
          'digital-identity-verification': 'identity verification', 'data-security-posture-management': 'DSPM', 'property-management-software': 'property management',
-         'decentralized-exchange': 'DEX'}
+         'decentralized-exchange': 'DEX',
+         'prediction-markets': 'prediction markets', 'private-markets-software': 'private markets software', 'influencer-marketing-platform': 'influencer marketing'}  # 11 Nov: NAME() broke names containing 'market'
 _N0 = mkpp.NAME
 def _name(h):
     n = SHORT.get(h) or _N0(h).strip()

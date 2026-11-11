@@ -57,6 +57,13 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   if (T.startsWith('pp_donut')) s.querySelectorAll('.pp-dl').forEach(d => { const k = d.querySelectorAll('.lt').length; if (k < 2) add('DONUT_LOGOS', `${k} logo(s): ${d.innerText.split('\n')[0]}`); });
   // 7. ticks and crosses: the mark is drawn, never a font glyph
   s.querySelectorAll('.pp-ok, .pp-no, .pp-wk').forEach(e => { if (getComputedStyle(e, '::after').content !== 'none') add('MARK_GLYPH', e.className); });
+  // 9. title: exactly 2 rendered lines, first line never ends on a small word (11 Nov: 'threats to the / private markets...')
+  if (t) { const rg = document.createRange(), ws = []; const tw = document.createTreeWalker(t, NodeFilter.SHOW_TEXT); let nd;
+    while ((nd = tw.nextNode())) { const re = /\S+/g; let m; while ((m = re.exec(nd.data))) { rg.setStart(nd, m.index); rg.setEnd(nd, m.index + m[0].length); const rr = rg.getClientRects()[0]; if (rr) ws.push([m[0], Math.round(rr.top)]); } }
+    const tops = [...new Set(ws.map(w => w[1]))].sort((x, y) => x - y);
+    if (tops.length !== 2) add('TITLE_LINES', tops.length);
+    else { const l1 = ws.filter(w => w[1] === tops[0]); const last = l1[l1.length - 1][0].toLowerCase().replace(/[^a-z]/g, '');
+      if (['a','an','the','its','their','of','to','for','in','with','by','on','at','and','or','every'].includes(last)) add('TITLE_BREAK', last); } }
   // 8. no raw data code (snake_case) in visible text (11 Nov: 'ran_out_of_cash' shown as a header)
   { const m = s.innerText.match(/\b[a-z]+_[a-z_]+\b/); if (m) add('RAW_CODE', m[0]); }
   if (/\bExcluded\b/.test(s.innerText)) add('PLACEHOLDER', 'Excluded');

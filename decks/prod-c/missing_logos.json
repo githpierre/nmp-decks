@@ -1,0 +1,950 @@
+{
+"freewire": [
+[
+"ev-charging-infrastructure",
+"pp_killers"
+],
+[
+"ev-charging-infrastructure",
+"pp_survivors"
+]
+],
+"oolu": [
+[
+"off-grid-solar",
+"pp_grid"
+],
+[
+"off-grid-solar",
+"pp_killers"
+],
+[
+"off-grid-solar",
+"pp_radar"
+]
+],
+"first-solar": [
+[
+"off-grid-solar",
+"pp_radar"
+]
+],
+"solarsaver": [
+[
+"off-grid-solar",
+"pp_raises"
+]
+],
+"arnergy": [
+[
+"off-grid-solar",
+"pp_raises"
+]
+],
+"a2ei": [
+[
+"off-grid-solar",
+"pp_grid"
+]
+],
+"ampersand-solar": [
+[
+"off-grid-solar",
+"pp_grid"
+]
+],
+"mobisol": [
+[
+"off-grid-solar",
+"pp_killers"
+]
+],
+"peg-africa": [
+[
+"off-grid-solar",
+"pp_killers"
+]
+],
+"pawame": [
+[
+"off-grid-solar",
+"pp_killers"
+]
+],
+"ignite-energy-access": [
+[
+"off-grid-solar",
+"pp_winner"
+]
+],
+"verge-motorcycles": [
+[
+"electric-two-wheeler",
+"pp_grid"
+],
+[
+"electric-two-wheeler",
+"pp_radar"
+]
+],
+"oben-electric": [
+[
+"electric-two-wheeler",
+"pp_grid"
+],
+[
+"electric-two-wheeler",
+"pp_radar"
+]
+],
+"silence": [
+[
+"electric-two-wheeler",
+"pp_donutv"
+],
+[
+"electric-two-wheeler",
+"pp_grid"
+],
+[
+"electric-two-wheeler",
+"pp_radar"
+]
+],
+"ather": [
+[
+"electric-two-wheeler",
+"pp_tech"
+],
+[
+"electric-two-wheeler",
+"pp_winner"
+]
+],
+"simple-energy": [
+[
+"electric-two-wheeler",
+"pp_raises"
+]
+],
+"vammo": [
+[
+"electric-two-wheeler",
+"pp_raises"
+]
+],
+"surron": [
+[
+"electric-two-wheeler",
+"pp_raises"
+]
+],
+"dust-moto": [
+[
+"electric-two-wheeler",
+"pp_grid"
+]
+],
+"spiro": [
+[
+"electric-two-wheeler",
+"pp_grid"
+]
+],
+"fuell": [
+[
+"electric-two-wheeler",
+"pp_killers"
+],
+[
+"electric-two-wheeler",
+"pp_survivors"
+]
+],
+"sondors": [
+[
+"electric-two-wheeler",
+"pp_killers"
+]
+],
+"vestaron": [
+[
+"agricultural-biologicals",
+"pp_grid"
+],
+[
+"agricultural-biologicals",
+"pp_radar"
+]
+],
+"deere-and-company": [
+[
+"agricultural-biologicals",
+"pp_radar"
+]
+],
+"greenlight-biosciences": [
+[
+"agricultural-biologicals",
+"pp_raises"
+]
+],
+"myland": [
+[
+"agricultural-biologicals",
+"pp_raises"
+]
+],
+"indigo-ag": [
+[
+"agricultural-biologicals",
+"pp_grid"
+],
+[
+"agricultural-biologicals",
+"pp_killers"
+]
+],
+"lilac-agriculture": [
+[
+"agricultural-biologicals",
+"pp_grid"
+]
+],
+"agbiome": [
+[
+"agricultural-biologicals",
+"pp_killers"
+]
+],
+"valagro": [
+[
+"agricultural-biologicals",
+"pp_killers"
+]
+],
+"silverstream-technologies": [
+[
+"maritime-decarbonization",
+"pp_donutv"
+],
+[
+"maritime-decarbonization",
+"pp_value"
+]
+],
+"abb": [
+[
+"maritime-decarbonization",
+"pp_tech"
+]
+],
+"yara-marine": [
+[
+"maritime-decarbonization",
+"pp_tech"
+]
+],
+"oceanbird": [
+[
+"maritime-decarbonization",
+"pp_killers"
+],
+[
+"maritime-decarbonization",
+"pp_winner"
+]
+],
+"silverstream": [
+[
+"maritime-decarbonization",
+"pp_killers"
+]
+],
+"fulcrum-bioenergy": [
+[
+"sustainable-aviation-fuel",
+"pp_donutv"
+]
+],
+"honeywell-uop": [
+[
+"sustainable-aviation-fuel",
+"pp_value"
+]
+],
+"elyse-energy": [
+[
+"sustainable-aviation-fuel",
+"pp_raises"
+]
+],
+"lydian-labs": [
+[
+"sustainable-aviation-fuel",
+"pp_raises"
+]
+],
+"hy2gen": [
+[
+"sustainable-aviation-fuel",
+"pp_raises"
+]
+],
+"synhelion": [
+[
+"sustainable-aviation-fuel",
+"pp_grid"
+]
+],
+"general-galactic": [
+[
+"sustainable-aviation-fuel",
+"pp_grid"
+]
+],
+"fulcrum": [
+[
+"sustainable-aviation-fuel",
+"pp_killers"
+]
+],
+"oceania-bio": [
+[
+"sustainable-aviation-fuel",
+"pp_killers"
+]
+],
+"dg-fuels": [
+[
+"sustainable-aviation-fuel",
+"pp_killers"
+]
+],
+"diamond-green-diesel": [
+[
+"sustainable-aviation-fuel",
+"pp_winner"
+]
+],
+"repack": [
+[
+"sustainable-packaging",
+"pp_grid"
+],
+[
+"sustainable-packaging",
+"pp_radar"
+]
+],
+"berry": [
+[
+"sustainable-packaging",
+"pp_tech"
+]
+],
+"elopak": [
+[
+"sustainable-packaging",
+"pp_winner"
+]
+],
+"uflex-asepto": [
+[
+"sustainable-packaging",
+"pp_winner"
+]
+],
+"2n": [
+[
+"physical-security",
+"pp_donutv"
+]
+],
+"rapidsos": [
+[
+"physical-security",
+"pp_raises"
+]
+],
+"amount": [
+[
+"auto-finance",
+"pp_grid"
+],
+[
+"auto-finance",
+"pp_radar"
+]
+],
+"origence": [
+[
+"auto-finance",
+"pp_grid"
+],
+[
+"auto-finance",
+"pp_radar"
+]
+],
+"cardekho": [
+[
+"auto-finance",
+"pp_raises"
+]
+],
+"fuse-autotech": [
+[
+"auto-finance",
+"pp_grid"
+]
+],
+"lendingkart": [
+[
+"smb-lending",
+"pp_raises"
+]
+],
+"sellersfi": [
+[
+"smb-lending",
+"pp_raises"
+]
+],
+"validus": [
+[
+"smb-lending",
+"pp_raises"
+]
+],
+"fora": [
+[
+"smb-lending",
+"pp_winner"
+]
+],
+"snapmint": [
+[
+"buy-now-pay-later",
+"pp_raises"
+]
+],
+"cashea": [
+[
+"buy-now-pay-later",
+"pp_raises"
+]
+],
+"extendcredit": [
+[
+"buy-now-pay-later",
+"pp_grid"
+]
+],
+"postpay": [
+[
+"buy-now-pay-later",
+"pp_winner"
+]
+],
+"huspy": [
+[
+"mortgage-technology",
+"pp_raises"
+]
+],
+"certifid": [
+[
+"mortgage-technology",
+"pp_raises"
+]
+],
+"closinglock": [
+[
+"mortgage-technology",
+"pp_raises"
+]
+],
+"sela-ai": [
+[
+"mortgage-technology",
+"pp_grid"
+]
+],
+"loancare": [
+[
+"mortgage-technology",
+"pp_grid"
+]
+],
+"better": [
+[
+"mortgage-technology",
+"pp_killers"
+]
+],
+"roostify": [
+[
+"mortgage-technology",
+"pp_killers"
+]
+],
+"sprout": [
+[
+"mortgage-technology",
+"pp_killers"
+]
+],
+"teamwork-commerce": [
+[
+"pos-software",
+"pp_raises"
+]
+],
+"rewaa": [
+[
+"pos-software",
+"pp_raises"
+]
+],
+"zepto": [
+[
+"last-mile-delivery",
+"pp_raises"
+]
+],
+"ninja": [
+[
+"last-mile-delivery",
+"pp_raises"
+]
+],
+"bhanzu": [
+[
+"online-tutoring",
+"pp_raises"
+]
+],
+"myedspace": [
+[
+"online-tutoring",
+"pp_raises"
+]
+],
+"coding-giants": [
+[
+"online-tutoring",
+"pp_raises"
+]
+],
+"sparkl-edventure": [
+[
+"online-tutoring",
+"pp_raises"
+]
+],
+"epic-games": [
+[
+"pc-and-console-gaming",
+"pp_grid"
+],
+[
+"pc-and-console-gaming",
+"pp_radar"
+],
+[
+"pc-and-console-gaming",
+"pp_value"
+],
+[
+"pc-and-console-gaming",
+"pp_winner"
+]
+],
+"valve": [
+[
+"pc-and-console-gaming",
+"pp_radar"
+],
+[
+"pc-and-console-gaming",
+"pp_winner"
+]
+],
+"tencent": [
+[
+"pc-and-console-gaming",
+"pp_radar"
+]
+],
+"ubisoft": [
+[
+"pc-and-console-gaming",
+"pp_donutv"
+],
+[
+"pc-and-console-gaming",
+"pp_tech"
+]
+],
+"electronic-arts": [
+[
+"pc-and-console-gaming",
+"pp_donutv"
+]
+],
+"ea": [
+[
+"pc-and-console-gaming",
+"pp_tech"
+]
+],
+"modretro": [
+[
+"pc-and-console-gaming",
+"pp_raises"
+]
+],
+"bonfire-studios": [
+[
+"pc-and-console-gaming",
+"pp_raises"
+]
+],
+"distinct-possibility-studios": [
+[
+"pc-and-console-gaming",
+"pp_raises"
+]
+],
+"ruckus-games": [
+[
+"pc-and-console-gaming",
+"pp_raises"
+]
+],
+"moon-rover": [
+[
+"pc-and-console-gaming",
+"pp_grid"
+]
+],
+"volition": [
+[
+"pc-and-console-gaming",
+"pp_killers"
+],
+[
+"pc-and-console-gaming",
+"pp_survivors"
+]
+],
+"roll7": [
+[
+"pc-and-console-gaming",
+"pp_killers"
+],
+[
+"pc-and-console-gaming",
+"pp_survivors"
+]
+],
+"deblock": [
+[
+"crypto-wallet",
+"pp_raises"
+]
+],
+"zcash-open-development-lab": [
+[
+"crypto-wallet",
+"pp_raises"
+]
+],
+"leap-wallet": [
+[
+"crypto-wallet",
+"pp_killers"
+],
+[
+"crypto-wallet",
+"pp_survivors"
+]
+],
+"slingshot": [
+[
+"crypto-wallet",
+"pp_killers"
+],
+[
+"crypto-wallet",
+"pp_survivors"
+]
+],
+"variational": [
+[
+"decentralized-exchange",
+"pp_raises"
+]
+],
+"grvt": [
+[
+"decentralized-exchange",
+"pp_raises"
+]
+],
+"pingu": [
+[
+"decentralized-exchange",
+"pp_killers"
+],
+[
+"decentralized-exchange",
+"pp_survivors"
+]
+],
+"satori": [
+[
+"decentralized-exchange",
+"pp_killers"
+],
+[
+"decentralized-exchange",
+"pp_survivors"
+]
+],
+"auradine": [
+[
+"web3-infrastructure",
+"pp_raises"
+]
+],
+"blockaid": [
+[
+"web3-infrastructure",
+"pp_raises"
+]
+],
+"airstack": [
+[
+"web3-infrastructure",
+"pp_grid"
+]
+],
+"altlayer": [
+[
+"web3-infrastructure",
+"pp_grid"
+]
+],
+"soundness": [
+[
+"web3-infrastructure",
+"pp_killers"
+],
+[
+"web3-infrastructure",
+"pp_survivors"
+]
+],
+"entropy": [
+[
+"web3-infrastructure",
+"pp_killers"
+],
+[
+"web3-infrastructure",
+"pp_survivors"
+]
+],
+"verra": [
+[
+"carbon-credit",
+"pp_donutv"
+],
+[
+"carbon-credit",
+"pp_value"
+]
+],
+"gold-standard": [
+[
+"carbon-credit",
+"pp_donutv"
+],
+[
+"carbon-credit",
+"pp_value"
+]
+],
+"molecule": [
+[
+"carbon-credit",
+"pp_grid"
+]
+],
+"koko": [
+[
+"carbon-credit",
+"pp_killers"
+],
+[
+"carbon-credit",
+"pp_survivors"
+]
+],
+"biomarin": [
+[
+"gene-therapy",
+"pp_radar"
+],
+[
+"gene-therapy",
+"pp_winner"
+]
+],
+"aavantgarde-bio": [
+[
+"gene-therapy",
+"pp_raises"
+]
+],
+"ring-tx": [
+[
+"gene-therapy",
+"pp_grid"
+]
+],
+"serif-bio": [
+[
+"gene-therapy",
+"pp_grid"
+]
+],
+"avrobio": [
+[
+"gene-therapy",
+"pp_killers"
+],
+[
+"gene-therapy",
+"pp_survivors"
+]
+],
+"sio-gene": [
+[
+"gene-therapy",
+"pp_killers"
+],
+[
+"gene-therapy",
+"pp_survivors"
+]
+],
+"lykos": [
+[
+"psychedelic-therapeutics",
+"pp_radar"
+]
+],
+"resilient-pharmaceuticals": [
+[
+"psychedelic-therapeutics",
+"pp_raises"
+]
+],
+"kasvu-therapeutics": [
+[
+"psychedelic-therapeutics",
+"pp_raises"
+]
+],
+"reunion-neuroscience": [
+[
+"psychedelic-therapeutics",
+"pp_raises"
+]
+],
+"resilient": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"reunion-neuro": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"alvarius": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"ceruvia": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"2a-biosci": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"rivo-bio": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"freedom-bio": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"journey-colab": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"asri": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"xylo-bio": [
+[
+"psychedelic-therapeutics",
+"pp_grid"
+]
+],
+"delic": [
+[
+"psychedelic-therapeutics",
+"pp_killers"
+],
+[
+"psychedelic-therapeutics",
+"pp_survivors"
+]
+],
+"cerebras-systems": [
+[
+"ai-inference",
+"pp_raises"
+]
+],
+"qlm-technology": [
+[
+"quantum-sensing",
+"pp_grid"
+]
+]
+}
