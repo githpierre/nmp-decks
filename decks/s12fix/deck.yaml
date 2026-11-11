@@ -153,59 +153,59 @@ slides:
     src: ../../assets/logos/pp/huda-beauty.png
   - short: Glossier
     src: ../../assets/logos/pp/glossier.png
-  - short: Kosas
-    src: ../../assets/logos/pp/kosas.png
-  - short: Tower 28
-    src: ../../assets/logos/pp/tower-28.png
+  - short: Makeup Mario
+    src: ../../assets/logos/pp/makeup-by-mario.png
+  - short: Merit
+    src: ../../assets/logos/pp/merit.png
   criteria:
-  - name: Net sales above $400M a year
+  - name: Net sales above $400M
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
     why: Scale of demand
-    ticks:
-    - 1
-    - 0
-    - 0
-    - 0
-    - 0
   - name: Estimated value above $2B
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
     why: Investor confidence
-    ticks:
-    - 1
-    - 0
-    - 0
-    - 0
-    - 0
   - name: Sold at Sephora and Ulta
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
     why: Widest US shelf reach
-    ticks:
-    - 1
-    - 0
-    - 0
-    - 0
-    - 0
-  - name: Mental health fund from sales
-    why: Mission led loyalty
-    ticks:
-    - 1
-    - 0
-    - 0
-    - 0
-    - 0
-  - name: Founder bought back full ownership
-    why: Full independent control
+  - name: Founder is a makeup artist
     ticks:
     - 0
     - 1
     - 0
+    - 1
     - 0
-    - 0
+    why: Pro credibility with fans
   - name: Runs own branded stores
-    why: Owned retail experience
     ticks:
     - 0
     - 0
     - 1
     - 0
     - 0
+    why: Owned retail experience
+  - name: Confirmed as profitable
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    why: Growth without cash burn
   note:
   - We compared companies with the same business model on what matters most to customers
   - We used company reports and public records, and all our sources are at the end of the report
