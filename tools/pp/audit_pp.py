@@ -33,13 +33,13 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   for (let i = 1; i < xl.length; i++) if (xl[i][0] - xl[i - 1][1] < 6) add('XLABEL_OVERLAP', xl[i - 1][2].split('\n')[0] + ' / ' + xl[i][2].split('\n')[0]);
   // 2d. dotted foot line under the note on every slide (Pierre 11 Nov: missing on the 100 live radars)
   const fl = s.querySelector('.foot-line'); if (!fl || !fl.getBoundingClientRect().width) add('FOOT_LINE', 'missing');
-  // 2e. footnote = notes workshop (Pierre 10-11 Nov): a list of 1 to 3 lines, one idea per line, no dot inside or at the end, starts with We
+  // 2e. footnote = notes workshop (Pierre 10-11 Nov): a list of 1 to 3 lines, one idea per line, no dot inside or at the end. Starting with We is allowed but on at most half of the notes of a batch (Pierre 11 Nov 16:09: otherwise it sounds robotic), checked by we_ratio() below
   const ntt = s.querySelector('.note');
   if (ntt) { const ls = [...ntt.querySelectorAll('.nl')].map(e => e.innerText.trim());
     if (!ls.length) add('NOTE_FORMAT', 'paragraph, not lines');
     else { if (ls.length > 3) add('NOTE_FORMAT', ls.length + ' lines');
       ls.forEach(l => { if (/\.$/.test(l) || /\. [A-Z]/.test(l)) add('NOTE_FORMAT', 'dot: ' + l.slice(0, 40)); });
-      if (T !== 'pp_radar' && !/^We /.test(ls[0])) add('NOTE_FORMAT', 'not We: ' + ls[0].slice(0, 30)); } }
+    } }
   // 3. logos: no initials tile
   const nt = s.querySelectorAll('.nt').length; if (nt) add('LOGO_MISSING', nt + ' name tile(s)');
 
@@ -78,3 +78,9 @@ def run(slug):
     for x in r: print(*x, sep=' | ')
     print(len(r), 'issues'); return r
 if __name__ == '__main__': run(sys.argv[1])
+
+
+def we_ratio(notes):
+    """Batch rule (Pierre 11 Nov 2026): at most 50% of the notes start with 'We'. notes = list of first lines."""
+    n = sum(1 for l in notes if l.startswith('We '))
+    return n, len(notes), n <= len(notes) / 2
