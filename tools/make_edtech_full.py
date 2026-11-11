@@ -52,6 +52,11 @@ for i, sl in enumerate(prs.slides, 1):
         r = pptx2html.convert(sl, theme, media, 'media/raw'); s['section'] = r['section'] or 'EdTech market'
     s['src'] = i
     slides.append(s)
-deck = dict(proto); deck.update(slug='edtech-full', slides=slides, scripts=['decisions.js'])
+deck = dict(proto)
+# a section kicker that is just the market name ('EDTECH MARKET') is a converter slip: the slide keeps its chapter (11 Nov)
+for i, sl_ in enumerate(slides):
+    if i and sl_['type'] == 'raw' and str(sl_.get('section') or '').lower().endswith(' market') and slides[i - 1].get('section'):
+        sl_['section'] = slides[i - 1]['section']
+deck.update(slug='edtech-full', slides=slides, scripts=['decisions.js'])
 (out / 'deck.yaml').write_text(yaml.dump(deck, allow_unicode=True, sort_keys=False, width=1000))
 print(len(slides), 'slides,', sum(1 for s in slides if s['type'] == 'raw'), 'converted as-is')

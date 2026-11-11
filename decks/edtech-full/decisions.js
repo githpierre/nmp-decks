@@ -225,8 +225,19 @@ window.F = (() => {
       A.texts(sl).filter(t => !labs.includes(t) && t.x >= lr - 2 && t.cy > b.y - 20 && t.cy < b.y + b.h + 20).forEach(t => { t.el.style.left = (t.x + d + 6) + 'px'; });   // the texts on the right keep (and widen) their gap
       mark('barGap', sl); }); };
 
+  // a one-line bold title sitting right above its card is set down on the card (8 px gap), not floating in the middle of its box (Pierre, 11 Nov)
+  const titleDown = sl => { const cs = A.cards(sl);
+    A.texts(sl).forEach(t => { if (!vis(t.el) || t.h > 70) return; const c = cs.find(c => Math.abs(c.y - (t.y + t.h)) < 5 && Math.abs(c.cx - t.cx) < 6); if (!c) return;
+      const sp = t.el.querySelector('span'); if (!sp || +getComputedStyle(sp).fontWeight < 700) return; const k = ink(t.el, sl); if (!k || k.h > 26) return;
+      const gap = (t.y + t.h) - k.b; if (gap < 12) return; t.el.style.justifyContent = 'flex-end'; t.el.style.paddingBottom = '8px'; mark('titleDown', sl); }); };
+
+  // pink frames are never a thin line on navy (rule 22): any pink-stroked frame thinner than 3 px gets 4 px (11 Nov)
+  const pinkStroke = sl => A.shapes(sl).forEach(s => { if (!vis(s.el) || !s.p || s.line || s.w < 50 || s.h < 30 || !/z/i.test(s.d || '')) return;
+    if ((s.stroke || '').toUpperCase() !== C.pink || (s.fill && s.fill !== 'none' && s.fill.toUpperCase() !== '#062A3C')) return;
+    const M = s.p.getScreenCTM(), k = M ? Math.hypot(M.a, M.b) : 1; if (!(s.sw * k < 3)) return; s.p.setAttribute('stroke-width', String(4 / k)); s.el.style.overflow = 'visible'; mark('pinkStroke', sl); });
+
   // generic rules, every raw slide
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats, barGap].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats, barGap, titleDown, pinkStroke].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
 

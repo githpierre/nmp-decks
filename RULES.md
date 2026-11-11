@@ -222,6 +222,7 @@ Mise en page
 9. Texte d'une carte centré verticalement ; avec une pastille en bas de carte : 4 lignes max, centré dans l'espace au-dessus de la pastille.
 10. Pastille d'icône d'une carte : ronde, icône au trait, centrée sur le bord BAS (le haut porte le titre) ; jamais un emoji à cheval sur un coin.
 11. Pastille numérotée + texte centrés ensemble, 8 px d'écart.
+12a. Titre d'une ligne posé au-dessus de sa carte : calé en bas de sa boîte, 8 px au-dessus de la carte (pas flottant au milieu).
 12. Titres de catégories dans les cartes : toujours sur 2 lignes (un nom d'un mot en reçoit un second).
 13. Cartes d'une même rangée alignées au pixel ; titres alignés sur leur carte.
 14. Étiquettes le long d'une barre rose verticale : ~7 px de la barre, et les textes de droite gardent leur écart (on les décale d'autant).
@@ -232,6 +233,8 @@ Mise en page
 19. Points d'un graphique / radar qui représentent des sociétés : reliés à leur étiquette.
 20. Flèches : une flèche refaite relie exactement les deux éléments de l'original ; elle part d'un bord, arrive au milieu d'un bord, pointe rose identique, ne coupe jamais une bulle.
 21. Logos : tuile blanche, logo à 66 % (marge blanche), coins arrondis, fin contour clair.
+23. Cadre rose (TODAY d'une frise, classement, AFTER) : trait de 4 px minimum, jamais 2 px (fixlib pinkStroke).
+24. Le surtitre de chapitre d'une slide n'est jamais le nom du marché (« EDTECH MARKET ») : la slide garde son chapitre.
 22. Rose : jamais en trait fin ni en texte fin sur navy ; en aplat ou épais (bord gauche 4 px, signe ≠ en gras, cadre 5 px).
 
 À NE PAS toucher (Pierre a tranché, ne plus proposer)

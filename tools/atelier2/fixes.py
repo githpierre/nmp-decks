@@ -92,3 +92,15 @@ FIXES += [
          how='slide', slides=[197], clip=(197, 200, 210, 360, 380),
          js="const V=A.shapes(sl).filter(s=>s.line&&s.h>200&&s.w<30);const yb=Math.max(...V.map(s=>s.y+s.h));A.texts(sl).filter(t=>/^20\\d\\d$/.test(t.text)&&t.y<300).forEach(t=>{t.el.style.top=(yb+4)+'px'})"),
 ]
+
+# ---- 5th round (11 Nov, 8h40): final audit before showing the whole deck
+FIXES += [
+    dict(id=44, title='Titres trop loin de leur carte', why='Quand le titre tient sur une ligne, il flottait au milieu de sa boîte, loin de la carte. Il est maintenant posé 8 px au-dessus (règle générale).',
+         how='règle générale', slides=[101, 102], clip=(101, 150, 175, 660, 200)),
+    dict(id=45, title='Cadres « TODAY » en rose fin', why='Les cadres roses des frises (TODAY, SEP 2026) et du classement des couches étaient en trait de 2 px sur navy, contre la règle « jamais de rose fin ». Passés à 4 px partout.',
+         how='règle générale', slides=[38, 54, 89, 91, 133, 138, 147, 174], clip=(54, 540, 255, 360, 250)),
+    dict(id=46, title='Même règle sur le classement des couches', why='Les 3 premières couches (AI MODELS, PLATFORMS, DATA) étaient encadrées de rose fin.',
+         how='règle générale', slides=[89], clip=(89, 50, 215, 420, 150)),
+    dict(id=47, title='Mauvais chapitre en haut de la slide', why='La slide Eruditus / Pearson affichait « EDTECH MARKET » au lieu de son chapitre « TOP PLAYERS ». Corrigé dans le convertisseur pour tous les decks.',
+         how='convertisseur', slides=[187], clip=(187, 280, 0, 400, 80)),
+]
