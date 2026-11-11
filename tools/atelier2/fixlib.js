@@ -149,6 +149,6 @@ window.F = (() => {
     const M = s.p.getScreenCTM(), k = M ? Math.hypot(M.a, M.b) : 1; if (!(s.sw * k < 3)) return; s.p.setAttribute('stroke-width', String(4 / k)); s.el.style.overflow = 'visible'; mark('pinkStroke', sl); });
 
   // generic rules, every raw slide
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats, barGap, titleDown, pinkStroke].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();

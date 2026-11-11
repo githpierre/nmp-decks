@@ -37,6 +37,12 @@ with sync_playwright() as p:
     pg.goto((d / 'deck.html').as_uri()); pg.wait_for_function('window.__rawfit === true && window.__decided !== false', timeout=120000)
     pg.add_style_tag(content='.slide{margin:0!important}')
     r = pg.evaluate(JS); b.close()
+# chapter kicker that is just the market name (11 Nov: frequent converter slip, slide 187)
+import yaml as _y
+_Y = _y.safe_load((d / 'deck.yaml').read_text())
+for _i, _s in enumerate(_Y['slides'], 1):
+    if _s.get('type') != 'agenda' and _i > 4 and str(_s.get('section') or '').lower().endswith(' market'):
+        r.append(dict(kind='KICKER_IS_MARKET', n=_i, t=_s.get('section')))
 (d / 'visual_audit.json').write_text(json.dumps(r, ensure_ascii=False, indent=0))
 from collections import Counter
 print(Counter(x['kind'] for x in r)); print(len({x['n'] for x in r}), 'slides')

@@ -233,14 +233,14 @@ Mise en page
 19. Points d'un graphique / radar qui représentent des sociétés : reliés à leur étiquette.
 20. Flèches : une flèche refaite relie exactement les deux éléments de l'original ; elle part d'un bord, arrive au milieu d'un bord, pointe rose identique, ne coupe jamais une bulle.
 21. Logos : tuile blanche, logo à 66 % (marge blanche), coins arrondis, fin contour clair.
-23. Cadre rose (TODAY d'une frise, classement, AFTER) : trait de 4 px minimum, jamais 2 px (fixlib pinkStroke).
-24. Le surtitre de chapitre d'une slide n'est jamais le nom du marché (« EDTECH MARKET ») : la slide garde son chapitre.
-22. Rose : jamais en trait fin ni en texte fin sur navy ; en aplat ou épais (bord gauche 4 px, signe ≠ en gras, cadre 5 px).
+24. Le surtitre de chapitre d'une slide n'est jamais le nom du marché (« EDTECH MARKET ») : la slide garde son chapitre. Fréquent : contrôlé automatiquement par tools/visual_audit.py (KICKER_IS_MARKET) à chaque audit final, et corrigé par le convertisseur.
+22. Rose : interdit en TEXTE fin et en petites icônes / petits signes fins sur navy (mettre en gras ou en aplat). Un cadre rose de 2 px autour d'une carte (TODAY, classement) est OK, ne pas l'épaissir.
 
 À NE PAS toucher (Pierre a tranché, ne plus proposer)
 - Espace au bout des connecteurs, ligne d'arbre qui dépasse ses branches.
 - En-têtes de colonnes des slides modèles dans la couleur des traits.
 - Emoji 🤬 grisé des slides « maximum customer value ».
+- Épaissir les cadres roses de 2 px (TODAY des frises, classement de la slide 89).
 - Tête de la slide 152 derrière le pied de page.
 - ✕ roses posés sur le rebord des cases (slide 23) ; flèche ↔ au-dessus des barres (slide 164) : ils structurent.
 - Refontes des formats qu'il a dessinés (arbre « Qui paie », intercalaires, expérience client).
