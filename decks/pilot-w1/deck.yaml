@@ -1,0 +1,2507 @@
+market: Product page slides
+quarter: prototypes
+label: ''
+keep_together:
+- dental AI
+- EV charging infrastructure
+- optical interconnect
+- autonomous trucking
+slides:
+- type: pp_radar
+  pill: MARKET MAP
+  label: DENTAL AI
+  title: 'Which companies really
+
+    belong in dental AI?'
+  caption:
+  - Distance to the center reflects how central each company is to dental AI
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/overjet.png
+  - ../../assets/logos/pp/pearl.png
+  - ../../assets/logos/pp/videahealth.png
+  - ../../assets/logos/pp/diagnocat.png
+  - ../../assets/logos/pp/denti-ai.png
+  - ../../assets/logos/pp/dentalmonitoring.png
+  - ../../assets/logos/pp/archy.png
+  - ../../assets/logos/pp/kiroku.png
+  TL:
+    src: ../../assets/logos/pp/3shape.png
+    name: 3Shape
+    text: digital scanning and CAD lead its business while AI diagnosis is an added module rather than the company core
+  TR:
+    src: ../../assets/logos/pp/colgate-palmolive.png
+    name: Colgate-Palmolive
+    text: it sells oral care products worldwide and may use AI in R&D, but it does not sell dental AI software to clinics
+  BL:
+    src: ../../assets/logos/pp/relu.png
+    name: Relu
+    text: its AI converts dental CBCT into anatomy and planning data, sitting between dental AI and broader digital planning
+  BR:
+    src: ../../assets/logos/pp/dandy.png
+    name: Dandy
+    text: its digital lab workflow now includes AI scan review, but most revenue still comes from lab services and prosthetics
+- label: DENTAL AI
+  type: pp_cagr
+  section: Market size
+  title: 'How much bigger
+
+    can dental AI get?'
+  size: 0.7
+  cagr: 23
+  lead: 'To get that big, '
+  condition: dental practices and DSOs must keep adopting validated AI inside routine imaging and workflow systems, with reimbursement and regulation supporting use.
+  note:
+  - We compared forecasts from Grand View Research, Meticulous Research and Digital Dentistry Schoology
+  - We adjusted each forecast to our definition and built a realistic range, with all the sources at the end of the report
+- label: DENTAL AI
+  type: pp_donut
+  section: Market size
+  title: How is the dental AI market split between its categories?
+  cats:
+  - name: Diagnostic Imaging AI
+    p: 35
+    logos:
+    - ../../assets/logos/pp/pearl.png
+    - ../../assets/logos/pp/overjet.png
+  - name: Treatment Planning AI
+    p: 20
+    logos:
+    - ../../assets/logos/pp/diagnocat.png
+    - ../../assets/logos/pp/3shape.png
+  - name: Patient Monitoring AI
+    p: 15
+    logos:
+    - ../../assets/logos/pp/dentalmonitoring.png
+    - ../../assets/logos/pp/align-technology.png
+  - name: Practice Automation
+    p: 15
+    logos:
+    - ../../assets/logos/pp/archy.png
+    - ../../assets/logos/pp/planet-dds.png
+  - name: Claims & Revenue AI
+    p: 15
+    logos:
+    - ../../assets/logos/pp/overjet.png
+    - ../../assets/logos/pp/zentist.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+- label: DENTAL AI
+  type: pp_pains
+  section: Pain points
+  title: 'What are the unsolved
+
+    pain points in dental AI?'
+  auds:
+  - General dentists
+  - Dental groups
+  - Dental insurers
+  - Dental clinics
+  - Dental specialists
+  pains:
+  - - False positives still require dentist review
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 3
+  - - AI findings do not cover every dental condition
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 3
+  - - Workflow integration can still disrupt busy teams
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 2
+  - - Staff need training to use AI outputs safely
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 3
+  - - AI software adds another recurring practice cost
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - Patients may question AI supported diagnoses
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+- label: DENTAL AI
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which dental AI company has
+
+    the most complete tech today?'
+  companies:
+  - name: Pearl
+    src: ../../assets/logos/pp/pearl.png
+  - name: Overjet
+    src: ../../assets/logos/pp/overjet.png
+  - name: Videa
+    src: ../../assets/logos/pp/videa.png
+  - name: Diagnocat
+    src: ../../assets/logos/pp/diagnocat.png
+  - name: Denti.AI
+    src: ../../assets/logos/pp/denti-ai.png
+  features:
+  - header: 2D Xray|AI
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: CBCT 3D|AI
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: PMS|integrates
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Claims|tools
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Voice|scribe
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Practice|analytics
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Patient|reports
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: DENTAL AI
+  type: pp_value
+  section: Value creation
+  title: 'What business models
+
+    work in dental AI?'
+  axes:
+  - Small customers
+  - Large customers
+  - One-off
+  - sales
+  - Recurring
+  - revenue
+  groups:
+  - name: SaaS subscription
+    x: 0.78
+    y: 0.75
+    logos:
+    - src: ../../assets/logos/pp/pearl.png
+    - src: ../../assets/logos/pp/overjet.png
+  - name: Enterprise site license
+    x: 0.63
+    y: 0.53
+    logos:
+    - src: ../../assets/logos/pp/pearl.png
+    - src: ../../assets/logos/pp/archy.png
+  - name: Per-case monitoring fee
+    x: 0.22
+    y: 0.75
+    logos:
+    - src: ../../assets/logos/pp/dentalmonitoring.png
+    - src: ../../assets/logos/pp/align-technology.png
+  - name: RCM software fees
+    x: 0.37
+    y: 0.53
+    logos:
+    - src: ../../assets/logos/pp/overjet.png
+    - src: ../../assets/logos/pp/zentist.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: DENTAL AI
+  type: pp_risks
+  section: Market challenges
+  title: What are the biggest threats to the dental AI market?
+  events:
+  - text: New UK liability rules make dentists wary of clinical AI tools from Pearl, Overjet and VideaHealth
+    odds: 45
+    impact: 3
+  - text: The FDA asks for new prospective trials for dental imaging AI, slowing clearances for Overjet, Pearl and Videa
+    odds: 35
+    impact: 3
+  - text: Large dental groups delay AI rollouts after pilots show small gains in treatment acceptance for the added cost
+    odds: 40
+    impact: 2
+  - text: Insurers turn down more AI-supported dental claims, weakening the revenue case for automated charting tools
+    odds: 30
+    impact: 2
+  - text: A major dental AI misdiagnosis lawsuit raises malpractice premiums and makes independent practices postpone adoption
+    odds: 25
+    impact: 3
+  - text: Dental staffing gets easier, which cuts demand for AI notes, automated front desks and insurance workflow tools
+    odds: 20
+    impact: 1
+  - text: Dentrix and Eaglesoft bundle cheap AI features, squeezing standalone vendors and slowing independent product sales
+    odds: 45
+    impact: 2
+  - text: Regulators restrict reuse of dental images for model training, raising data costs for Pearl, Overjet and smaller competitors
+    odds: 35
+    impact: 2
+  note:
+  - We listed the events that could slow dental AI down, from company news, regulators and analysts
+  - Odds and impact are our estimates, and all the sources we used are listed at the end of the report
+- label: DENTAL AI
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the dental AI market forward, year after year?
+  events:
+  - year: '2015'
+    text: Deep learning boosts dental image reading
+    impact: 1.0
+  - year: '2016'
+    text: Cloud imaging makes dental AI deployable
+    impact: 1.0
+  - year: '2017'
+    text: DSO scale rewards standardized diagnosis
+    impact: 1.0
+  - year: '2018'
+    text: Insurers digitize more dental claims
+    impact: 1.0
+  - year: '2019'
+    text: AI pilots move into dental practices
+    impact: 1.0
+  - year: '2020'
+    text: Covid accelerates contactless workflows
+    impact: 1.5
+  - year: '2021'
+    text: FDA clears Overjet Dental Assist
+    impact: 3.0
+  - year: '2021'
+    text: Dental groups test AI at scale
+    impact: 1.5
+  - year: '2022'
+    text: FDA clears Pearl Second Opinion
+    impact: 2.5
+  - year: '2022'
+    text: Overjet expands into caries detection
+    impact: 2.0
+  - year: '2022'
+    text: Denti.AI automates dental charting
+    impact: 1.5
+  - year: '2023'
+    text: Videa expands AI into periodontics
+    impact: 1.5
+  - year: '2023'
+    text: Overjet adds periapical detection
+    impact: 1.5
+  - year: '2023'
+    text: Videa combines multiple dental findings
+    impact: 2.0
+  - year: '2024'
+    text: FDA clears pediatric caries AI
+    impact: 2.0
+  - year: '2024'
+    text: FDA clears automated dental monitoring
+    impact: 2.0
+  - year: '2024'
+    text: AI charting gains broader clearances
+    impact: 1.5
+  - year: '2024'
+    text: CBCT AI enters regulated workflows
+    impact: 1.5
+  - year: '2025'
+    text: Pearl expands pediatric AI coverage
+    impact: 1.5
+  - year: '2025'
+    text: Videa wins broader FDA clearance
+    impact: 2.0
+  - year: '2025'
+    text: Overjet brings AI into CBCT
+    impact: 2.0
+  - year: '2025'
+    text: Legal debate raises AI standards
+    impact: 1.0
+  - year: '2026'
+    text: ADA finds 43% dentist AI use
+    impact: 2.5
+  - year: '2026'
+    text: Overjet clears multi-image caries AI
+    impact: 2.0
+  - year: '2026'
+    text: Pearl launches Second Opinion 3D
+    impact: 2.0
+  - year: '2026'
+    text: Pearl reaches major DSO rollouts
+    impact: 1.5
+  - year: '2026'
+    text: Dental AI expands into revenue cycle
+    impact: 1.5
+  - year: '2026'
+    text: Ambient voice enters dental practices
+    impact: 1.0
+  - year: '2026'
+    text: Regulators publish dental AI guidance
+    impact: 1.0
+  - year: '2026'
+    text: FDA dental AI clearances multiply
+    impact: 2.0
+  note:
+  - We kept the events we believe pushed dental AI forward the most, from company news and filings
+  - Ratings are our own estimates, and you will find all the sources we used at the end of the report
+- label: DENTAL AI
+  type: pp_raises
+  section: Investor bets
+  title: Which dental AI startups got the biggest checks lately?
+  rounds:
+  - name: DentalMonitoring
+    amt: 100000000.0
+    src: ../../assets/logos/pp/dentalmonitoring.png
+    stage: Growth Equity
+    date: Feb 2026
+  - name: Archy
+    amt: 50000000.0
+    src: ../../assets/logos/pp/archy.png
+    stage: Series C
+    date: Sep 2026
+  - name: Videa
+    amt: 40000000.0
+    src: ../../assets/logos/pp/videa.png
+    stage: Series B
+    date: Jan 2025
+  - name: Lassie
+    amt: 35000000.0
+    src: ../../assets/logos/pp/lassie.png
+    stage: Series A
+    date: Jun 2026
+  - name: Overjet
+    amt: 24562699.0
+    src: ../../assets/logos/pp/overjet.png
+    stage: Series C
+    date: Dec 2025
+  - name: Vocca
+    amt: 20000000.0
+    src: ../../assets/logos/pp/vocca.png
+    stage: Series A
+    date: Oct 2026
+  note:
+  - We listed the biggest equity rounds raised by dental AI startups over the last few years
+  - We used company announcements and the press, with all the sources at the end of the report
+- label: DENTAL AI
+  type: pp_grid
+  weight:
+    overjet: 164512694.0
+    pearl: 69000000.0
+    videahealth: 0.0
+    diagnocat: 2000000.0
+    better-diagnostics: 0.0
+    bench7: 0.0
+    dentalmonitoring: 305000000.0
+    ulab-systems: 83400000.0
+    relu: 3850000.0
+    orca-dental-ai: 675000.0
+    chohotech: 0.0
+    audax: 0.0
+    archy: 95000000.0
+    retrace: 0.0
+    kiroku: 3585120.0
+    denti-ai: 2000000.0
+    superdial: 4160000.0
+    boomcloud-360: 0.0
+  section: DENTAL AI
+  title: 'Which companies lead
+
+    dental AI right now?'
+  handle: dental-ai
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Imaging AI
+  - Ortho AI
+  - Workflow AI
+  cells:
+  - - - overjet
+      - pearl
+    - - videahealth
+      - diagnocat
+    - - better-diagnostics
+      - bench7
+  - - - dentalmonitoring
+      - ulab-systems
+    - - relu
+      - orca-dental-ai
+    - - chohotech
+      - audax
+  - - - archy
+      - retrace
+    - - kiroku
+      - denti-ai
+    - - superdial
+      - boomcloud-360
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Excluded, Dentsply Sirona, Align Technology, with all the sources at the end of the report
+  srcs:
+    overjet: ../../assets/logos/pp/overjet.png
+    pearl: ../../assets/logos/pp/pearl.png
+    videahealth: ../../assets/logos/pp/videahealth.png
+    diagnocat: ../../assets/logos/pp/diagnocat.png
+    better-diagnostics: ../../assets/logos/pp/better-diagnostics.png
+    bench7: ''
+    dentalmonitoring: ../../assets/logos/pp/dentalmonitoring.png
+    ulab-systems: ../../assets/logos/pp/ulab-systems.png
+    relu: ../../assets/logos/pp/relu.png
+    orca-dental-ai: ../../assets/logos/pp/orca-dental-ai.png
+    chohotech: ../../assets/logos/pp/chohotech.png
+    audax: ../../assets/logos/pp/audax.png
+    archy: ../../assets/logos/pp/archy.png
+    retrace: ../../assets/logos/pp/retrace.png
+    kiroku: ../../assets/logos/pp/kiroku.png
+    denti-ai: ../../assets/logos/pp/denti-ai.png
+    superdial: ../../assets/logos/pp/superdial.png
+    boomcloud-360: ../../assets/logos/pp/boomcloud-360.png
+- label: DENTAL AI
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which dental AI companies have shown warning signs lately?
+  signs:
+  - Lawsuit or|court case
+  rows:
+  - name: Overjet
+    slug: overjet
+    domain: overjet.com
+    cells:
+    - Filed IP and advertising|case against VideaHealth
+    src: ../../assets/logos/pp/overjet.png
+    ini: O
+  - name: VideaHealth
+    slug: videahealth
+    domain: videa.ai
+    cells:
+    - Named defendant in|Overjet federal IP case
+    src: ../../assets/logos/pp/videahealth.png
+    ini: V
+  - name: DentalMonitor
+    slug: dentalmonitor
+    domain: dentalmonitoring.com
+    cells:
+    - Patent dispute with Align|reached Federal Circuit
+    src: ../../assets/logos/pp/dentalmonitor.png
+    ini: D
+  - name: Align Tech
+    slug: align-tech
+    domain: aligntech.com
+    cells:
+    - Defended multiple Dental|Monitoring patent appeals
+    src: ../../assets/logos/pp/align-tech.png
+    ini: AT
+  - name: Dental Intel
+    slug: dental-intel
+    domain: dentalintel.com
+    cells:
+    - Faced privacy class action|over LocalMed portal data
+    src: ../../assets/logos/pp/dental-intel.png
+    ini: DI
+  note:
+  - We looked for warning signs among well-known dental AI companies, from layoffs to lawsuits
+  - We used company filings and the press, and all our sources are listed at the end of the report
+- label: DENTAL AI
+  type: pp_winner
+  section: Startup strategies
+  title: 'How did Overjet take the lead
+
+    in diagnostic imaging AI?'
+  companies:
+  - short: Overjet
+    src: ../../assets/logos/pp/overjet.png
+  - short: Pearl
+    src: ../../assets/logos/pp/pearl.png
+  - short: VideaHealth
+    src: ../../assets/logos/pp/videahealth.png
+  - short: Diagnocat
+    src: ../../assets/logos/pp/diagnocat.png
+  - short: Denti.AI
+    src: ../../assets/logos/pp/denti-ai.png
+  criteria:
+  - name: Major PMS integrations
+    why: Fits existing dental workflow
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: DSO distribution
+    why: Large groups accelerate volume
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: 2D disease detection
+    why: Core diagnostic use case
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: CBCT capability
+    why: Expands clinical scope
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Claims workflow
+    why: Adds payer side ROI
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: FDA clearance depth
+    why: Regulatory breadth speeds sale
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: EV CHARGING NETWORKS
+  title: 'Which companies really belong
+
+    in EV charging infrastructure?'
+  caption:
+  - Distance to the center reflects how central each company is to EV charging infrastructure
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/electra.png
+  - ''
+  - ../../assets/logos/pp/terawatt-infrastructure.png
+  - ../../assets/logos/pp/char-gy.png
+  - ../../assets/logos/pp/monta.png
+  - ../../assets/logos/pp/ampeco.png
+  - ../../assets/logos/pp/jolt.png
+  - ../../assets/logos/pp/myenergi.png
+  TL:
+    src: ../../assets/logos/pp/gogoro.png
+    name: Gogoro
+    text: runs battery swapping for electric scooters, which supplies mobility energy but is not plug-in EV charging infrastructur
+  TR:
+    src: ../../assets/logos/pp/rivian.png
+    name: Rivian
+    text: makes electric vehicles and owns some chargers, but vehicle manufacturing is its primary business rather than charging
+  BL:
+    src: ../../assets/logos/pp/shell.png
+    name: Shell
+    text: owns and operates EV charging assets through a broad energy business still dominated by fuels and convenience retail
+  BR:
+    src: ../../assets/logos/pp/tesla.png
+    name: Tesla
+    text: operates a major fast-charging network, while most company revenue comes from vehicles, storage and related products
+- label: EV CHARGING NETWORKS
+  type: pp_cagr
+  section: Market size
+  title: 'Where could EV charging
+
+    infrastructure be in ten years?'
+  size: 50.6
+  cagr: 22
+  lead: 'To get there, '
+  condition: EV adoption and grid connections must keep expanding, while utilization rises enough to support charging-network economics.
+  note:
+  - We compared forecasts from Grand View Research, IG Transformation Partners and MarketLine via Research and Markets
+  - We adjusted each forecast to our own definition and built a realistic range, and all our sources are at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_donut
+  section: Market size
+  title: How is the EV charging infrastructure market split between its categories?
+  cats:
+  - name: Home and workplace
+    p: 28
+    logos:
+    - ../../assets/logos/pp/wallbox.png
+    - ../../assets/logos/pp/chargepoint.png
+  - name: DC fast charging
+    p: 27
+    logos:
+    - ../../assets/logos/pp/kempower.png
+    - ../../assets/logos/pp/abb-e-mobility.png
+  - name: Charging networks
+    p: 20
+    logos:
+    - ../../assets/logos/pp/evgo.png
+    - ../../assets/logos/pp/chargepoint.png
+  - name: Public AC charging
+    p: 15
+    logos:
+    - ../../assets/logos/pp/chargepoint.png
+    - ../../assets/logos/pp/blink-charging.png
+  - name: CPMS software
+    p: 10
+    logos:
+    - ../../assets/logos/pp/driivz.png
+    - ../../assets/logos/pp/ampeco.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_pains
+  section: Pain points
+  title: 'What are the unsolved pain points
+
+    in EV charging infrastructure?'
+  auds:
+  - EV drivers
+  - Fleet operators
+  - Site hosts
+  - Charge networks
+  - Utilities teams
+  pains:
+  - - Grid connections can delay fast charger sites for years
+    - - 1
+      - 3
+      - 3
+      - 3
+      - 3
+  - - Public chargers still fail too often when drivers arrive
+    - - 3
+      - 3
+      - 3
+      - 3
+      - 1
+  - - Fast charging prices frustrate many public charger users
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - Permitting rules vary widely across local jurisdictions
+    - - 1
+      - 2
+      - 3
+      - 3
+      - 2
+  - - Payment and app friction still disrupt charging sessions
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 1
+  - - Peak demand charges hurt high power station economics
+    - - 1
+      - 3
+      - 3
+      - 3
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which EV charging infrastructure
+
+    players can already do the most today?'
+  companies:
+  - name: ChargePoint
+    src: ../../assets/logos/pp/chargepoint.png
+  - name: EVgo
+    src: ../../assets/logos/pp/evgo.png
+  - name: Electrify
+    src: ../../assets/logos/pp/electrify.png
+  - name: Tesla
+    src: ../../assets/logos/pp/tesla.png
+  - name: Blink
+    src: ../../assets/logos/pp/blink.png
+  features:
+  - header: Level 2|AC
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: DC fast|charge
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: NACS|support
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: CCS|support
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Fleet|depot
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Driver|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Roaming|links
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_value
+  section: Value creation
+  title: 'How does money really flow
+
+    in EV charging infrastructure?'
+  axes:
+  - Small customers
+  - Large customers
+  - One-off
+  - sales
+  - Recurring
+  - revenue
+  groups:
+  - name: Charger hardware sale
+    x: 0.78
+    y: 0.25
+    logos:
+    - src: ../../assets/logos/pp/wallbox.png
+    - src: ../../assets/logos/pp/kempower.png
+  - name: Network subscription
+    x: 0.78
+    y: 0.75
+    logos:
+    - src: ../../assets/logos/pp/chargepoint.png
+    - src: ../../assets/logos/pp/ampeco.png
+  - name: Charging session revenue
+    x: 0.63
+    y: 0.53
+    logos:
+    - src: ../../assets/logos/pp/evgo.png
+    - src: ../../assets/logos/pp/chargepoint.png
+  - name: Install and service
+    x: 0.48
+    y: 0.69
+    logos:
+    - src: ../../assets/logos/pp/abb-e-mobility.png
+    - src: ../../assets/logos/pp/blink-charging.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_risks
+  section: Market challenges
+  title: What are the biggest threats to the EV charging infrastructure market?
+  events:
+  - text: US states slow NEVI contracting again, delaying highway fast-charger sites and weakening private matching investment
+    odds: 40
+    impact: 3
+  - text: Grid-connection queues lengthen in Europe and the US, leaving high-power charging sites built but unable to energize
+    odds: 55
+    impact: 3
+  - text: EV sales stall after subsidy cuts, reducing charger utilization and making new public charging sites harder to finance
+    odds: 40
+    impact: 3
+  - text: Mixed connector standards during the NACS switch raise retrofit costs for charging networks serving older fleets
+    odds: 30
+    impact: 2
+  - text: Utilities raise demand charges on fast chargers, hurting the economics of quiet highway and rural charging sites
+    odds: 45
+    impact: 2
+  - text: A major charging-network operator exits markets, making landlords more cautious about long-term site contracts
+    odds: 35
+    impact: 2
+  - text: New cybersecurity rules force costly charger and payment upgrades, slowing small charge point operators
+    odds: 35
+    impact: 2
+  - text: Local permits and transformer shortages delay fleet depots, so truck operators keep their diesel assets for longer
+    odds: 50
+    impact: 2
+  note:
+  - We listed the events that could slow EV charging infrastructure down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the EV charging infrastructure market forward, year after year?
+  events:
+  - year: '2012'
+    text: Tesla proves fast charging can scale
+    impact: 1.5
+  - year: '2014'
+    text: EU mandates alternative-fuel infrastructure
+    impact: 1.5
+  - year: '2017'
+    text: European fast-charging networks accelerate
+    impact: 1.5
+  - year: '2019'
+    text: Public charging becomes core EV policy
+    impact: 1.0
+  - year: '2020'
+    text: EV growth lifts charger utilization
+    impact: 1.5
+  - year: '2021'
+    text: US allocates $7.5B for charging
+    impact: 3.0
+  - year: '2021'
+    text: Joint Office coordinates federal rollout
+    impact: 1.5
+  - year: '2022'
+    text: NEVI guidance standardizes highway buildout
+    impact: 2.0
+  - year: '2022'
+    text: All states submit charging plans
+    impact: 1.5
+  - year: '2022'
+    text: All state NEVI plans approved
+    impact: 2.0
+  - year: '2023'
+    text: Federal charger standards improve reliability
+    impact: 2.0
+  - year: '2023'
+    text: NACS adoption simplifies US connectors
+    impact: 2.0
+  - year: '2023'
+    text: AFIR locks in EU corridor targets
+    impact: 2.5
+  - year: '2024'
+    text: First NEVI stations open
+    impact: 2.0
+  - year: '2024'
+    text: CFI awards fund community charging
+    impact: 2.0
+  - year: '2024'
+    text: Reliability funding upgrades broken chargers
+    impact: 1.5
+  - year: '2024'
+    text: US public charging network doubles
+    impact: 2.0
+  - year: '2024'
+    text: J3400 becomes recommended practice
+    impact: 1.5
+  - year: '2025'
+    text: Global public chargers pass seven million
+    impact: 2.0
+  - year: '2025'
+    text: US adds record public charging points
+    impact: 1.5
+  - year: '2025'
+    text: Europe accelerates ultra-fast deployment
+    impact: 2.0
+  - year: '2025'
+    text: China expands fast charging sharply
+    impact: 2.0
+  - year: '2025'
+    text: NEVI guidance gives states flexibility
+    impact: 1.5
+  - year: '2025'
+    text: Truck charging wins major EU funding
+    impact: 2.0
+  - year: '2026'
+    text: NEVI obligations resume
+    impact: 2.0
+  - year: '2026'
+    text: Forty-two states win plan approval
+    impact: 2.0
+  - year: '2026'
+    text: BYD unveils megawatt car charging
+    impact: 2.0
+  - year: '2026'
+    text: Indonesia opens first ultra-fast site
+    impact: 1.0
+  - year: '2026'
+    text: EU truck charging network takes shape
+    impact: 2.0
+  - year: '2026'
+    text: IEA forecasts massive charger buildout
+    impact: 3.0
+  note:
+  - We kept the events we believe pushed EV charging infrastructure forward the most
+  - Ratings are our estimates, and all the sources are included at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_raises
+  section: Investor bets
+  title: Which EV charging infrastructure startups got the biggest checks lately?
+  rounds:
+  - name: Spironet
+    amt: 215000000.0
+    src: ../../assets/logos/pp/spironet.png
+    stage: Growth Equity
+    date: Jun 2026
+  - name: GRIDSERVE
+    amt: 128000000.0
+    src: ../../assets/logos/pp/gridserve.png
+    stage: Growth Equity
+    date: Jul 2025
+  - name: WAAT
+    amt: 117000000.0
+    src: ../../assets/logos/pp/waat.png
+    stage: Growth Equity
+    date: Sep 2025
+  - name: Connected Kerb
+    amt: 83200000.0
+    src: ''
+    stage: Growth Equity
+    date: Jan 2025
+  - name: Qwello
+    amt: 63800000.0
+    src: ../../assets/logos/pp/qwello.png
+    stage: Growth Equity
+    date: Oct 2026
+  - name: AMPECO
+    amt: 26000000.0
+    src: ../../assets/logos/pp/ampeco.png
+    stage: Series B
+    date: Nov 2024
+  note:
+  - We listed the biggest equity rounds raised by EV charging infrastructure startups in recent years
+  - We used company announcements and the press, and all our sources are at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_grid
+  weight:
+    electra: 523500000.0
+    instavolt: 0.0
+    jolt: 23000000.0
+    zunder: 138187500.0
+    atlante: 0.0
+    ekoenergetyka: 0.0
+    connected-kerb: 83200000.0
+    char-gy: 128000000.0
+    myenergi: 38400000.0
+    ohme: 0.0
+    kerbo-charge: 680960.0
+    rightcharge: 2688000.0
+    terawatt-infrastructure: 1100000000.0
+    monta: 142967000.0
+    ampeco: 42000000.0
+    ev-energy: 41800000.0
+    volteras: 0.0
+    stable-auto: 0.0
+  section: EV CHARGING NETWORKS
+  title: 'Who are the leading companies
+
+    in EV charging infrastructure?'
+  handle: ev-charging-infrastructure
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Fast charge
+  - Street & home
+  - Fleet & SW
+  cells:
+  - - - electra
+      - instavolt
+    - - jolt
+      - zunder
+    - - atlante
+      - ekoenergetyka
+  - - - connected-kerb
+      - char-gy
+    - - myenergi
+      - ohme
+    - - kerbo-charge
+      - rightcharge
+  - - - terawatt-infrastructure
+      - monta
+    - - ampeco
+      - ev-energy
+    - - volteras
+      - stable-auto
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Excluded, ChargePoint, EVgo, with all the sources at the end of the report
+  srcs:
+    electra: ../../assets/logos/pp/electra.png
+    instavolt: ../../assets/logos/pp/instavolt.png
+    jolt: ../../assets/logos/pp/jolt.png
+    zunder: ../../assets/logos/pp/zunder.png
+    atlante: ../../assets/logos/pp/atlante.png
+    ekoenergetyka: ../../assets/logos/pp/ekoenergetyka.png
+    connected-kerb: ''
+    char-gy: ../../assets/logos/pp/char-gy.png
+    myenergi: ../../assets/logos/pp/myenergi.png
+    ohme: ../../assets/logos/pp/ohme.png
+    kerbo-charge: ../../assets/logos/pp/kerbo-charge.png
+    rightcharge: ../../assets/logos/pp/rightcharge.png
+    terawatt-infrastructure: ../../assets/logos/pp/terawatt-infrastructure.png
+    monta: ../../assets/logos/pp/monta.png
+    ampeco: ../../assets/logos/pp/ampeco.png
+    ev-energy: ../../assets/logos/pp/ev-energy.png
+    volteras: ../../assets/logos/pp/volteras.png
+    stable-auto: ../../assets/logos/pp/stable-auto.png
+- label: EV CHARGING NETWORKS
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these EV charging infrastructure startups, and how did they end?
+  causes:
+  - Ran out|of cash
+  - Too few|buyers
+  - Other|reason
+  - Rivals|caught up
+  rows:
+  - name: FreeWire
+    slug: freewire
+    domain: freewiretech.com
+    start: '2014'
+    end: '2024'
+    ending: Shut down
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ''
+    ini: F
+  - name: Tritium
+    slug: tritium
+    domain: tritiumcharging.com
+    start: '2001'
+    end: '2024'
+    ending: Sold for $32M
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp/tritium.png
+    ini: T
+  - name: Volta
+    slug: volta
+    domain: voltacharging.com
+    start: '2010'
+    end: '2023'
+    ending: Sold for $169M
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/volta.png
+    ini: V
+  - name: Enel X Way NA
+    slug: enel-x-way-na
+    domain: enelxway.com
+    start: '2017'
+    end: '2024'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/enel-x-way-na.png
+    ini: EX
+  - name: Charge Ent.
+    slug: charge-ent
+    domain: charge.enterprises
+    start: '2019'
+    end: '2024'
+    ending: Went bankrupt
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/charge-ent.png
+    ini: CE
+  note:
+  - We tracked the EV charging infrastructure startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and you will find all the sources we used at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_survivors
+  section: Startup killers
+  title: What do EV charging infrastructure survivors do differently?
+  rows:
+  - lesson: Own a dense driver network
+    explanation: Tesla has the largest fast-charge network
+    failed_company: Volta
+    website: https://voltacharging.com/
+    why_it_failed: Ad-led destination charging lacked cash
+    slug: volta
+    src: ../../assets/logos/pp/volta.png
+    ini: V
+  - lesson: Standardize hardware and plug
+    explanation: NACS adoption widens Tesla utilization
+    failed_company: Tritium
+    website: https://tritiumcharging.com/
+    why_it_failed: Hardware scale could not cover stress
+    slug: tritium
+    src: ../../assets/logos/pp/tritium.png
+    ini: T
+  - lesson: Monetize charging directly
+    explanation: EVgo charges users for energy and service
+    failed_company: Enel X Way NA
+    website: https://www.enelxway.com/us/en/
+    why_it_failed: Software exit stranded smart features
+    slug: enel-x-way-na
+    src: ../../assets/logos/pp/enel-x-way-na.png
+    ini: EX
+  - lesson: Keep capex per site controlled
+    explanation: IONNA uses standardized fast-charge hubs
+    failed_company: FreeWire
+    website: https://freewiretech.com/
+    why_it_failed: Capital-heavy hardware burned cash
+    slug: freewire
+    src: ''
+    ini: F
+  - lesson: Pair scale with a strong parent
+    explanation: Electrify America has VW backing
+    failed_company: Charge Ent.
+    website: https://charge.enterprises/
+    why_it_failed: Debt-heavy roll-up hit bankruptcy
+    slug: charge-ent
+    src: ../../assets/logos/pp/charge-ent.png
+    ini: CE
+  note:
+  - We compared EV charging infrastructure companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and you will find all the sources we used at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_winner
+  section: Startup strategies
+  title: 'How did Tesla take the lead
+
+    in DC fast networks?'
+  companies:
+  - short: Tesla
+    src: ../../assets/logos/pp/tesla.png
+  - short: EVgo
+    src: ../../assets/logos/pp/evgo.png
+  - short: ChargePoint
+    src: ../../assets/logos/pp/chargepoint.png
+  - short: ElectrifyAm
+    src: ../../assets/logos/pp/electrifyam.png
+  - short: IONNA
+    src: ../../assets/logos/pp/ionna.png
+  criteria:
+  - name: OEM access
+    why: Expands addressable drivers
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: NACS control
+    why: Sets the connector standard
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Network scale
+    why: More routes are covered
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: OPTICAL INTERCONNECT
+  title: 'Who is in optical interconnect,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to optical interconnect
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/ayar-labs.png
+  - ../../assets/logos/pp/lightmatter.png
+  - ../../assets/logos/pp/ranovus.png
+  - ../../assets/logos/pp/xscape-photonics.png
+  - ../../assets/logos/pp/scintil-photonics.png
+  - ../../assets/logos/pp/salience-labs.png
+  - ../../assets/logos/pp/avicena.png
+  - ../../assets/logos/pp/hyperlight.png
+  TL:
+    src: ../../assets/logos/pp/broadcom.png
+    name: Broadcom
+    text: broadcom sells networking and optical components, but its business extends beyond dedicated optical interconnects
+  TR:
+    src: ../../assets/logos/pp/dell-technologies.png
+    name: Dell Technologies
+    text: dell builds systems that use optical links, but it does not primarily develop optical interconnect technology
+  BL:
+    src: ../../assets/logos/pp/intel.png
+    name: Intel
+    text: intel develops silicon photonics and optical I/O, but most of its business remains general computing chips
+  BR:
+    src: ../../assets/logos/pp/lumentum.png
+    name: Lumentum
+    text: lumentum supplies lasers and optical components for interconnects, but also serves telecom and industrial laser markets
+- label: OPTICAL INTERCONNECT
+  type: pp_cagr
+  section: Market size
+  title: 'How much bigger can
+
+    optical interconnect get?'
+  size: 18.8
+  cagr: 12
+  lead: 'To get that big, '
+  condition: AI clusters must keep raising bandwidth density faster than copper can support, while photonics packaging reaches acceptable yield and cost.
+  note:
+  - We compared forecasts from Grand View Research, Fortune Business Insights and Mordor Intelligence
+  - We adjusted each forecast to our definition and built a realistic range, with all the sources at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_donut
+  section: Market size
+  title: How is the optical interconnect market split between its categories?
+  cats:
+  - name: Optical Transceivers
+    p: 36
+    logos:
+    - ../../assets/logos/pp/coherent.png
+    - ../../assets/logos/pp/innolight.png
+  - name: Cables and Components
+    p: 23
+    logos:
+    - ../../assets/logos/pp/amphenol.png
+    - ../../assets/logos/pp/molex.png
+  - name: CPO and Optical Engines
+    p: 19
+    logos:
+    - ../../assets/logos/pp/broadcom.png
+    - ../../assets/logos/pp/marvell.png
+  - name: Optical IO Chiplets
+    p: 12
+    logos:
+    - ../../assets/logos/pp/ayar-labs.png
+    - ../../assets/logos/pp/lightmatter.png
+  - name: Optical Switches
+    p: 10
+    logos:
+    - ../../assets/logos/pp/google.png
+    - ../../assets/logos/pp/polatis.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_pains
+  section: Pain points
+  title: 'Which optical interconnect
+
+    problems are still unsolved?'
+  auds:
+  - AI labs
+  - Cloud operators
+  - Switch makers
+  - Chip designers
+  - System builders
+  pains:
+  - - Thermal load makes dense optical packaging hard
+    - - 3
+      - 3
+      - 3
+      - 3
+      - 3
+  - - Optical alignment is still hard to automate
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 3
+  - - High volume photonic testing remains expensive
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 3
+  - - Connector standards are still moving targets
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 3
+  - - Laser integration adds reliability constraints
+    - - 3
+      - 3
+      - 3
+      - 3
+      - 3
+  - - Manufacturing yield limits cost at large scale
+    - - 3
+      - 3
+      - 3
+      - 3
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which optical interconnect company
+
+    has the most complete tech today?'
+  companies:
+  - name: Broadcom
+    src: ../../assets/logos/pp/broadcom.png
+  - name: NVIDIA
+    src: ../../assets/logos/pp/nvidia.png
+  - name: Marvell
+    src: ../../assets/logos/pp/marvell.png
+  - name: Intel
+    src: ../../assets/logos/pp/intel.png
+  - name: Ayar Labs
+    src: ../../assets/logos/pp/ayar-labs.png
+  features:
+  - header: CPO|system
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Silicon|photo
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Pluggable|optics
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Linear|optics
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Optical|I O
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Own|switch
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: External|laser
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_value
+  section: Value creation
+  title: 'What business models work
+
+    in optical interconnect?'
+  axes:
+  - Small customers
+  - Large customers
+  - One-off
+  - sales
+  - Recurring
+  - revenue
+  groups:
+  - name: Component sale
+    x: 0.78
+    y: 0.25
+    logos:
+    - src: ../../assets/logos/pp/coherent.png
+    - src: ../../assets/logos/pp/amphenol.png
+  - name: Chip and engine sale
+    x: 0.22
+    y: 0.25
+    logos:
+    - src: ../../assets/logos/pp/broadcom.png
+    - src: ../../assets/logos/pp/marvell.png
+  - name: IP licensing
+    x: 0.22
+    y: 0.75
+    logos:
+    - src: ../../assets/logos/pp/ayar-labs.png
+    - src: ../../assets/logos/pp/lightmatter.png
+  - name: Custom design contracts
+    x: 0.63
+    y: 0.47
+    logos:
+    - src: ../../assets/logos/pp/molex.png
+    - src: ../../assets/logos/pp/coherent.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_risks
+  section: Market challenges
+  title: What are the biggest threats to the optical interconnect market?
+  events:
+  - text: AI hyperscalers delay CPO rollouts after reliability failures in integrated lasers and fiber attach raise service costs
+    odds: 35
+    impact: 3
+  - text: Nvidia and Broadcom keep improving pluggable optics, which delays the switch to co-packaged optics in data centers
+    odds: 45
+    impact: 3
+  - text: A shortage of advanced packaging capacity at TSMC and partners pushes photonic chiplet lead times sharply higher
+    odds: 40
+    impact: 2
+  - text: Rival optical I/O standards split the market, forcing Ayar Labs, Marvell and system makers to support several links
+    odds: 30
+    impact: 2
+  - text: Hyperscalers cut AI infrastructure spending, reducing orders for 800G, 1.6T and new optical scale-up interconnects
+    odds: 25
+    impact: 2
+  - text: Chinese export controls or US restrictions disrupt lasers, photonics packaging and optical component supply chains
+    odds: 35
+    impact: 2
+  - text: Copper links reach farther than expected with better cables, which weakens the near-term case for optical I/O
+    odds: 40
+    impact: 2
+  - text: Failures in co-packaged switches push operators back to pluggable modules, which are simpler and cheaper to repair
+    odds: 30
+    impact: 2
+  note:
+  - We listed the events that could slow optical interconnect down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the optical interconnect market forward, year after year?
+  events:
+  - year: '2010'
+    text: Silicon photonics reaches CMOS fabs
+    impact: 1.0
+  - year: '2012'
+    text: Cloud traffic strains electrical links
+    impact: 1.0
+  - year: '2013'
+    text: 100G Ethernet drives optical demand
+    impact: 1.0
+  - year: '2014'
+    text: Hyperscale networks need lower power
+    impact: 1.0
+  - year: '2015'
+    text: Optical engines move closer to chips
+    impact: 1.0
+  - year: '2016'
+    text: Silicon photonics enters volume products
+    impact: 1.5
+  - year: '2017'
+    text: Intel ships 100G silicon photonics
+    impact: 2.0
+  - year: '2018'
+    text: AI clusters increase east-west traffic
+    impact: 1.0
+  - year: '2019'
+    text: 400G adoption raises optical density
+    impact: 1.5
+  - year: '2020'
+    text: Co-packaged optics gains industry backing
+    impact: 1.5
+  - year: '2021'
+    text: Ayar demonstrates 1T optical link
+    impact: 2.0
+  - year: '2021'
+    text: AI models magnify data movement costs
+    impact: 1.0
+  - year: '2022'
+    text: Ayar begins volume shipments
+    impact: 2.0
+  - year: '2022'
+    text: Google proves optical circuit switching
+    impact: 2.5
+  - year: '2022'
+    text: 800G roadmaps raise power pressure
+    impact: 1.5
+  - year: '2023'
+    text: Ayar shows 4T optical solution
+    impact: 2.0
+  - year: '2023'
+    text: Google details Apollo OCS deployment
+    impact: 2.0
+  - year: '2023'
+    text: Generative AI accelerates GPU clusters
+    impact: 2.5
+  - year: '2024'
+    text: Broadcom ships 51.2T CPO switch
+    impact: 2.5
+  - year: '2024'
+    text: AI chipmakers fund Ayar Labs
+    impact: 2.0
+  - year: '2024'
+    text: Ayar valuation passes one billion
+    impact: 1.0
+  - year: '2025'
+    text: NVIDIA unveils photonic switches
+    impact: 2.0
+  - year: '2025'
+    text: NVIDIA builds photonics supply chain
+    impact: 2.0
+  - year: '2025'
+    text: Ayar unveils 8T UCIe chiplet
+    impact: 1.5
+  - year: '2025'
+    text: Marvell agrees Celestial AI deal
+    impact: 2.0
+  - year: '2026'
+    text: Marvell completes Celestial AI buy
+    impact: 2.0
+  - year: '2026'
+    text: Ayar raises $500M for production
+    impact: 2.0
+  - year: '2026'
+    text: GlobalFoundries launches OCI CPO platform
+    impact: 1.5
+  - year: '2026'
+    text: Ayar joins NVLink Fusion
+    impact: 2.0
+  - year: '2026'
+    text: CPO planning shifts toward 2028
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed optical interconnect forward the most
+  - Ratings are our own estimates, and all our sources are at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_raises
+  section: Investor bets
+  title: Which optical interconnect startups got the biggest checks lately?
+  rounds:
+  - name: Lumilens
+    amt: 700000000.0
+    src: ../../assets/logos/pp/lumilens.png
+    stage: Series C
+    date: Aug 2026
+  - name: Ayar Labs
+    amt: 500000000.0
+    src: ../../assets/logos/pp/ayar-labs.png
+    stage: Late stage
+    date: Mar 2026
+  - name: Celero Communications
+    amt: 275000000.0
+    src: ''
+    stage: Series C
+    date: Sep 2026
+  - name: Celestial AI
+    amt: 250000000.0
+    src: ../../assets/logos/pp/celestial-ai.png
+    stage: Series C
+    date: Mar 2025
+  - name: Lightelligence
+    amt: 210000000.0
+    src: ../../assets/logos/pp/lightelligence.png
+    stage: Series C
+    date: Sep 2025
+  - name: CScale
+    amt: 145000000.0
+    src: ../../assets/logos/pp/cscale.png
+    stage: Series C
+    date: Sep 2026
+  note:
+  - We listed the biggest equity rounds raised by optical interconnect startups over the last few years
+  - We used company announcements and the press, and all our sources are at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_grid
+  weight:
+    ayar-labs: 1021500000.0
+    lightmatter: 822000000.0
+    xscape-photonics: 91000000.0
+    avicena: 106500000.0
+    newphotonics: 35700000.0
+    lumilens: 903680000.0
+    ranovus: 36500000.0
+    scintil-photonics: 81650000.0
+    hyperlight: 135400000.0
+    quintessent: 64170000.0
+    nlm-photonics: 15075000.0
+    openlight: 34000000.0
+    salience-labs: 180419000.0
+    ipronics: 149800000.0
+    neye-systems: 152500000.0
+    lessengers: 17060000.0
+    lightspeed-photonics: 6600000.0
+    terasignal: 0.0
+  section: OPTICAL INTERCONNECT
+  title: 'Who are the top companies
+
+    in optical interconnect?'
+  handle: optical-interconnect
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Optical I/O
+  - Photonics
+  - Optical switch
+  cells:
+  - - - ayar-labs
+      - lightmatter
+    - - xscape-photonics
+      - avicena
+    - - newphotonics
+      - lumilens
+  - - - ranovus
+      - scintil-photonics
+    - - hyperlight
+      - quintessent
+    - - nlm-photonics
+      - openlight
+  - - - salience-labs
+      - ipronics
+    - - neye-systems
+      - lessengers
+    - - lightspeed-photonics
+      - terasignal
+  note:
+  - We placed private pure players by main product and stage, from funding news and the press
+  - We left out listed companies and incumbents, and all our sources are at the end of the report
+  srcs:
+    ayar-labs: ../../assets/logos/pp/ayar-labs.png
+    lightmatter: ../../assets/logos/pp/lightmatter.png
+    xscape-photonics: ../../assets/logos/pp/xscape-photonics.png
+    avicena: ../../assets/logos/pp/avicena.png
+    newphotonics: ''
+    lumilens: ../../assets/logos/pp/lumilens.png
+    ranovus: ../../assets/logos/pp/ranovus.png
+    scintil-photonics: ../../assets/logos/pp/scintil-photonics.png
+    hyperlight: ../../assets/logos/pp/hyperlight.png
+    quintessent: ../../assets/logos/pp/quintessent.png
+    nlm-photonics: ../../assets/logos/pp/nlm-photonics.png
+    openlight: ../../assets/logos/pp/openlight.png
+    salience-labs: ../../assets/logos/pp/salience-labs.png
+    ipronics: ../../assets/logos/pp/ipronics.png
+    neye-systems: ../../assets/logos/pp/neye-systems.png
+    lessengers: ../../assets/logos/pp/lessengers.png
+    lightspeed-photonics: ../../assets/logos/pp/lightspeed-photonics.png
+    terasignal: ../../assets/logos/pp/terasignal.png
+- label: OPTICAL INTERCONNECT
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which optical interconnect companies have shown warning signs lately?
+  signs:
+  - Missed|deadlines
+  - Value|fell
+  - Lost|independence
+  rows:
+  - name: Celestial AI
+    slug: celestial-ai
+    domain: celestial.ai
+    cells:
+    - ''
+    - ''
+    - Bought by|Marvell 2026
+    src: ../../assets/logos/pp/celestial-ai.png
+    ini: CA
+  - name: Ayar Labs
+    slug: ayar-labs
+    domain: ayarlabs.com
+    cells:
+    - Volume ramp|still ahead
+    - Needs more|capital
+    - ''
+    src: ../../assets/logos/pp/ayar-labs.png
+    ini: AL
+  - name: Lightmatter
+    slug: lightmatter
+    domain: lightmatter.co
+    cells:
+    - Still sampling|in 2026
+    - ''
+    - ''
+    src: ../../assets/logos/pp/lightmatter.png
+    ini: L
+  - name: Ranovus
+    slug: ranovus
+    domain: ranovus.com
+    cells:
+    - Ramp hangs|on Jabil
+    - ''
+    - ''
+    src: ../../assets/logos/pp/ranovus.png
+    ini: R
+  - name: POET
+    slug: poet
+    domain: poet-technologies.com
+    cells:
+    - Ramp hangs|on partners
+    - Small next to|incumbents
+    - ''
+    src: ../../assets/logos/pp/poet.png
+    ini: P
+  note:
+  - We looked for warning signs among well-known optical interconnect companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
+- label: OPTICAL INTERCONNECT
+  type: pp_winner
+  section: Startup strategies
+  title: 'Why might Ayar Labs be winning
+
+    the co-packaged optics market?'
+  companies:
+  - short: Ayar Labs
+    src: ../../assets/logos/pp/ayar-labs.png
+  - short: Lightmatter
+    src: ../../assets/logos/pp/lightmatter.png
+  - short: Ranovus
+    src: ../../assets/logos/pp/ranovus.png
+  - short: POET
+    src: ../../assets/logos/pp/poet.png
+  - short: Marvell
+    src: ../../assets/logos/pp/marvell.png
+  criteria:
+  - name: External light source
+    why: Improves system design
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Production readiness
+    why: Customers need volume
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: AUTONOMOUS TRUCKING
+  title: 'Which companies really belong
+
+    in autonomous trucking?'
+  caption:
+  - Distance to the center reflects how central each company is to autonomous trucking
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/gatik.png
+  - ../../assets/logos/pp/waabi.png
+  - ../../assets/logos/pp/aurora.png
+  - ../../assets/logos/pp/inceptio-technology.png
+  - ../../assets/logos/pp/plusai.png
+  - ../../assets/logos/pp/kodiak-ai.png
+  - ../../assets/logos/pp/bot-auto.png
+  - ''
+  TL:
+    src: ../../assets/logos/pp/waymo.png
+    name: Waymo
+    text: waymo is centered on robotaxis and passenger autonomy, with no current trucking product as its primary commercial focus
+  TR:
+    src: ../../assets/logos/pp/uber-freight.png
+    name: Uber Freight
+    text: uber Freight is a digital freight marketplace and logistics platform, not a developer of self-driving truck systems
+  BL:
+    src: ../../assets/logos/pp/outrider.png
+    name: Outrider
+    text: outrider automates yard trucks inside logistics sites, sitting on the border of road-going autonomous trucking
+  BR:
+    src: ../../assets/logos/pp/torc-robotics.png
+    name: Torc Robotics
+    text: torc builds autonomous trucks, but it is an independent Daimler Truck subsidiary tied to one major incumbent OEM
+- label: AUTONOMOUS TRUCKING
+  type: pp_cagr
+  section: Market size
+  title: 'How much bigger can
+
+    autonomous trucking get?'
+  size: 46.6
+  cagr: 15
+  lead: 'To get that big, '
+  condition: level 4 systems must prove safer economics on repeatable freight lanes and regulators must allow scaled driverless commercial operations.
+  note:
+  - We compared forecasts from Grand View Research, Fortune Business Insights and Global Market Insights
+  - We adjusted each forecast to our definition and built a realistic range, with all the sources at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_donut
+  section: Market size
+  title: How is the autonomous trucking market split between its categories?
+  cats:
+  - name: Full Stack Developers
+    p: 42
+    logos:
+    - ../../assets/logos/pp/aurora.png
+    - ../../assets/logos/pp/torc-robotics.png
+  - name: Autonomous Freight
+    p: 24
+    logos:
+    - ../../assets/logos/pp/kodiak-robotics.png
+    - ../../assets/logos/pp/einride.png
+  - name: Autonomy Systems
+    p: 18
+    logos:
+    - ../../assets/logos/pp/plus.png
+    - ../../assets/logos/pp/waabi.png
+  - name: Remote Operations
+    p: 8
+    logos:
+    - ../../assets/logos/pp/einride.png
+    - ../../assets/logos/pp/fernride.png
+  - name: Hub and Yard Autonomy
+    p: 8
+    logos:
+    - ../../assets/logos/pp/outrider.png
+    - ../../assets/logos/pp/isee.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_pains
+  section: Pain points
+  title: 'Which autonomous trucking
+
+    problems are still unsolved?'
+  auds:
+  - Truck fleets
+  - Freight shippers
+  - Freight brokers
+  - Truck OEMs
+  - Depot operators
+  pains:
+  - - State rules still fragment driverless routes
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - Rare road edge cases are hard to validate
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - Autonomous trucks need new maintenance skills
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 3
+  - - Roadside inspections still assume a human driver
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 3
+  - - High system costs slow fleet scale up decisions
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - Public trust can fall quickly after a crash
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which autonomous trucking company
+
+    has the most complete tech today?'
+  companies:
+  - name: Aurora
+    src: ../../assets/logos/pp/aurora.png
+  - name: Kodiak
+    src: ../../assets/logos/pp/kodiak.png
+  - name: Torc
+    src: ../../assets/logos/pp/torc.png
+  - name: Waabi
+    src: ../../assets/logos/pp/waabi.png
+  - name: Gatik
+    src: ../../assets/logos/pp/gatik.png
+  features:
+  - header: Driverless|road
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Paid|freight
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Own|lidar
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Radar|stack
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Sim|platform
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Remote|assist
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: OEM|partner
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_value
+  section: Value creation
+  title: 'How does money really flow
+
+    in autonomous trucking?'
+  axes:
+  - Small customers
+  - Large customers
+  - One-off
+  - sales
+  - Recurring
+  - revenue
+  groups:
+  - name: Autonomy system sale
+    x: 0.78
+    y: 0.25
+    logos:
+    - src: ../../assets/logos/pp/plus.png
+    - src: ../../assets/logos/pp/waabi.png
+  - name: Freight per mile
+    x: 0.63
+    y: 0.47
+    logos:
+    - src: ../../assets/logos/pp/kodiak-robotics.png
+    - src: ../../assets/logos/pp/einride.png
+  - name: Driver as a Service
+    x: 0.48
+    y: 0.69
+    logos:
+    - src: ../../assets/logos/pp/aurora.png
+    - src: ../../assets/logos/pp/torc-robotics.png
+  - name: Remote ops subscription
+    x: 0.78
+    y: 0.75
+    logos:
+    - src: ../../assets/logos/pp/einride.png
+    - src: ../../assets/logos/pp/fernride.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_risks
+  section: Market challenges
+  title: What are the biggest threats to the autonomous trucking market?
+  events:
+  - text: A fatal driverless truck crash triggers federal restrictions that suspend Aurora, Kodiak or PlusAI commercial routes
+    odds: 25
+    impact: 3
+  - text: Texas narrows autonomous truck permits after safety complaints, slowing the main US deployment hub for the sector
+    odds: 35
+    impact: 3
+  - text: Insurers raise premiums for driverless fleets, wiping out the labor savings on early autonomous freight lanes
+    odds: 40
+    impact: 2
+  - text: Truck makers delay factory integration of autonomous hardware, keeping retrofit costs too high for large fleet rollouts
+    odds: 35
+    impact: 2
+  - text: States tighten remote assistance rules, so driverless fleets need more human staff and lose part of their cost edge
+    odds: 30
+    impact: 2
+  - text: Freight recession and low spot rates make carriers postpone expensive autonomous truck purchases and route conversions
+    odds: 40
+    impact: 2
+  - text: Sensor or compute supply shortages limit production of autonomy-ready Class 8 trucks from Volvo, Daimler and partners
+    odds: 30
+    impact: 2
+  - text: Labor groups win state limits requiring safety drivers in heavy trucks, blocking fully driverless interstate expansion
+    odds: 30
+    impact: 2
+  note:
+  - We listed the events that could slow autonomous trucking down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the autonomous trucking market forward, year after year?
+  events:
+  - year: '2004'
+    text: DARPA challenge seeds autonomy talent
+    impact: 1.5
+  - year: '2005'
+    text: DARPA teams finish desert course
+    impact: 2.5
+  - year: '2007'
+    text: Urban Challenge tackles traffic rules
+    impact: 1.5
+  - year: '2010'
+    text: Cheaper lidar improves vehicle sensing
+    impact: 1.0
+  - year: '2012'
+    text: Deep learning improves perception
+    impact: 1.0
+  - year: '2015'
+    text: Trucking labor shortages intensify
+    impact: 1.5
+  - year: '2016'
+    text: Otto demonstrates autonomous freight
+    impact: 2.0
+  - year: '2017'
+    text: Texas legalizes driverless vehicles
+    impact: 2.0
+  - year: '2018'
+    text: Hub-to-hub model gains traction
+    impact: 1.5
+  - year: '2019'
+    text: OEM partnerships deepen integration
+    impact: 1.5
+  - year: '2020'
+    text: E-commerce raises freight pressure
+    impact: 1.0
+  - year: '2021'
+    text: Driver-out tests reach public roads
+    impact: 2.0
+  - year: '2021'
+    text: SPAC capital funds autonomy fleets
+    impact: 1.0
+  - year: '2022'
+    text: Safety cases become deployment gate
+    impact: 1.5
+  - year: '2022'
+    text: Carriers test autonomous middle mile
+    impact: 1.5
+  - year: '2023'
+    text: OEM-ready platforms replace retrofits
+    impact: 2.0
+  - year: '2023'
+    text: Texas corridors concentrate testing
+    impact: 1.5
+  - year: '2024'
+    text: Aurora closes commercial safety case
+    impact: 2.0
+  - year: '2024'
+    text: Remote assistance matures operations
+    impact: 1.0
+  - year: '2025'
+    text: Aurora launches driverless freight
+    impact: 3.0
+  - year: '2025'
+    text: Texas creates AV authorization regime
+    impact: 2.0
+  - year: '2025'
+    text: OEMs commit to autonomy-ready trucks
+    impact: 1.5
+  - year: '2025'
+    text: Autonomous freight expands route plans
+    impact: 1.5
+  - year: '2026'
+    text: Texas begins commercial AV enforcement
+    impact: 2.0
+  - year: '2026'
+    text: FMCSA grants warning-device exemption
+    impact: 2.5
+  - year: '2026'
+    text: PlusAI expands European trucking trials
+    impact: 1.5
+  - year: '2026'
+    text: PlusAI pursues public listing
+    impact: 1.0
+  - year: '2026'
+    text: Driverless rules gain federal precedent
+    impact: 2.0
+  - year: '2026'
+    text: Commercial routes generate real data
+    impact: 1.5
+  - year: '2026'
+    text: State oversight becomes more standardized
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed autonomous trucking forward the most
+  - Ratings are our own estimates, and all our sources are at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_raises
+  section: Investor bets
+  title: Which autonomous trucking startups got the biggest checks lately?
+  rounds:
+  - name: Waabi
+    amt: 750000000.0
+    src: ../../assets/logos/pp/waabi.png
+    stage: Series C
+    date: Jan 2026
+  - name: CargoX
+    amt: 250000000.0
+    src: ../../assets/logos/pp/cargox.png
+    stage: Series A
+    date: Jun 2026
+  - name: Zeron
+    amt: 200000000.0
+    src: ../../assets/logos/pp/zeron.png
+    stage: Series B
+    date: May 2026
+  - name: Gatik
+    amt: 200000000.0
+    src: ../../assets/logos/pp/gatik.png
+    stage: Late stage
+    date: Aug 2026
+  - name: Forterra
+    amt: 188000000.0
+    src: ../../assets/logos/pp/forterra.png
+    stage: Series C
+    date: Nov 2025
+  - name: DeepWay
+    amt: 167000000.0
+    src: ../../assets/logos/pp/deepway.png
+    stage: Growth Equity
+    date: Jan 2026
+  note:
+  - We listed the biggest equity rounds raised by autonomous trucking startups in recent years
+  - We used company announcements and the press, with all the sources at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_grid
+  weight:
+    waabi: 1033500000.0
+    plusai: 897000000.0
+    inceptio-technology: 678000000.0
+    stack-av: 1000000000.0
+    bot-auto: 20000000.0
+    humble-robotics: 0.0
+    gatik: 508000000.0
+    deepway: 472200000.0
+    kargobot: 247000000.0
+    mars-auto: 12421000.0
+    flux-auto: 0.0
+    solo-avt: 0.0
+    outrider: 297900000.0
+    fernride: 85860000.0
+    westwell: 14560000.0
+    embotech: 38525000.0
+    qomolo: 0.0
+    autonomous-solutions: 0.0
+  section: AUTONOMOUS TRUCKING
+  title: 'Who are the top companies
+
+    in autonomous trucking?'
+  handle: autonomous-trucking
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Long haul
+  - Regional
+  - Yard & hub
+  cells:
+  - - - waabi
+      - plusai
+    - - inceptio-technology
+      - stack-av
+    - - bot-auto
+      - humble-robotics
+  - - - gatik
+      - deepway
+    - - kargobot
+      - mars-auto
+    - - flux-auto
+      - solo-avt
+  - - - outrider
+      - fernride
+    - - westwell
+      - embotech
+    - - qomolo
+      - autonomous-solutions
+  note:
+  - We placed private pure players by main product and stage, from funding news and the press
+  - We left out listed companies and incumbents, and all our sources are at the end of the report
+  srcs:
+    waabi: ../../assets/logos/pp/waabi.png
+    plusai: ../../assets/logos/pp/plusai.png
+    inceptio-technology: ../../assets/logos/pp/inceptio-technology.png
+    stack-av: ../../assets/logos/pp/stack-av.png
+    bot-auto: ../../assets/logos/pp/bot-auto.png
+    humble-robotics: ''
+    gatik: ../../assets/logos/pp/gatik.png
+    deepway: ../../assets/logos/pp/deepway.png
+    kargobot: ''
+    mars-auto: ../../assets/logos/pp/mars-auto.png
+    flux-auto: ../../assets/logos/pp/flux-auto.png
+    solo-avt: ''
+    outrider: ../../assets/logos/pp/outrider.png
+    fernride: ../../assets/logos/pp/fernride.png
+    westwell: ../../assets/logos/pp/westwell.png
+    embotech: ../../assets/logos/pp/embotech.png
+    qomolo: ''
+    autonomous-solutions: ../../assets/logos/pp/autonomous-solutions.png
+- label: AUTONOMOUS TRUCKING
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these autonomous trucking startups, and how did they end?
+  causes:
+  - Ran out|of cash
+  - Rivals|caught up
+  - Too few|buyers
+  - Other|reason
+  rows:
+  - name: Embark
+    slug: embark
+    domain: embarktrucks.com
+    start: '2016'
+    end: '2023'
+    ending: Sold for $71M
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ''
+    ini: E
+  - name: Locomation
+    slug: locomation
+    domain: locomation.ai
+    start: '2018'
+    end: '2023'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ''
+    ini: L
+  - name: Starsky
+    slug: starsky
+    domain: starsky.io
+    start: '2016'
+    end: '2020'
+    ending: Shut down
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/starsky.png
+    ini: S
+  - name: Peloton Tech
+    slug: peloton-tech
+    domain: peloton-tech.com
+    start: '2011'
+    end: '2021'
+    ending: Shut down
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/peloton-tech.png
+    ini: PT
+  - name: Ike
+    slug: ike
+    domain: ike.com
+    start: '2018'
+    end: '2020'
+    ending: Sold to Nuro
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ''
+    ini: I
+  note:
+  - We tracked the autonomous trucking startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources we used are listed at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_survivors
+  section: Startup killers
+  title: What do autonomous trucking survivors do differently?
+  rows:
+  - lesson: Launch paid freight first
+    explanation: Aurora runs commercial driverless freight
+    failed_company: Embark
+    website: https://embarktrucks.com
+    why_it_failed: Commercial launch came too late
+    slug: embark
+    src: ''
+    ini: E
+  - lesson: Use OEM truck partners
+    explanation: Aurora integrates with Volvo and PACCAR
+    failed_company: Locomation
+    website: https://locomation.ai
+    why_it_failed: Convoy model lacked OEM scale
+    slug: locomation
+    src: ''
+    ini: L
+  - lesson: Prove safety at scale
+    explanation: Aurora logged 500k driverless miles
+    failed_company: Starsky
+    website: https://starsky.io
+    why_it_failed: Funding ended before scale proof
+    slug: starsky
+    src: ../../assets/logos/pp/starsky.png
+    ini: S
+  - lesson: Sell to major carriers
+    explanation: Aurora has DSV McLane and Charger
+    failed_company: Peloton Tech
+    website: https://peloton-tech.com
+    why_it_failed: Platooning demand stayed limited
+    slug: peloton-tech
+    src: ../../assets/logos/pp/peloton-tech.png
+    ini: PT
+  - lesson: Expand lane by lane
+    explanation: Aurora validated a 10-route network
+    failed_company: Ike
+    website: https://www.ike.com
+    why_it_failed: Independent trucking strategy ended
+    slug: ike
+    src: ''
+    ini: I
+  note:
+  - We compared autonomous trucking companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and you will find all the sources we used at the end of the report
+- label: AUTONOMOUS TRUCKING
+  type: pp_winner
+  section: Startup strategies
+  title: 'How did Aurora take the lead
+
+    in full-stack autonomous trucks?'
+  companies:
+  - short: Aurora
+    src: ../../assets/logos/pp/aurora.png
+  - short: Kodiak
+    src: ../../assets/logos/pp/kodiak.png
+  - short: Gatik
+    src: ../../assets/logos/pp/gatik.png
+  - short: Torc
+    src: ../../assets/logos/pp/torc.png
+  - short: Waabi
+    src: ../../assets/logos/pp/waabi.png
+  criteria:
+  - name: Driverless revenue
+    why: Proves commercial demand
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Class 8 highway ops
+    why: Targets biggest lanes
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: OEM integration
+    why: Enables fleet scale
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
