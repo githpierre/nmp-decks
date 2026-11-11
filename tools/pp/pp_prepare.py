@@ -70,12 +70,16 @@ def tech(s):
     C = s['companies']; F = s['features']
     sc = [sum(f['values'][j] for f in F) for j in range(len(C))]
     order = sorted(range(len(C)), key=lambda j: -sc[j])
-    n = len(F); x0, x1 = 402, 748; xs = [x0 + i * (x1 - x0) / max(1, n - 1) for i in range(n)] if n > 1 else [575]
+    n = len(F); x0, x1 = 402, 748
+    if n > 1:   # headers never touch: the pitch follows the widest header line (11 Nov, 'ApprovedExtrahepatic')
+        need = max(_tw(l, 10.7) for f in F for l in f['header'].split('|')) + 12
+        x1 = max(x1, min(845, x0 + need * (n - 1)))
+    xs = [x0 + i * (x1 - x0) / max(1, n - 1) for i in range(n)] if n > 1 else [575]
     rows = []
     for k, j in enumerate(order):
         y = 317 if k == 0 else 382 + (k - 1) * 43
         rows.append(dict(c=C[j], y=y, v=[f['values'][j] for f in F], lead=k == 0))
-    s['geo'] = dict(xs=xs, rows=rows, heads=[f['header'].split('|') for f in F])
+    s['geo'] = dict(xs=xs, rows=rows, heads=[f['header'].split('|') for f in F], wl=xs[-1] + 49 - 167)
 
 def value(s):
     X0, X1, Y0, Y1 = 208, 802, 520, 252
@@ -99,7 +103,7 @@ def value(s):
 
 def risks(s):
     E = sorted(s['events'], key=lambda e: -e['odds'])
-    cols = [(90, E[:4]), (503, E[4:8])]
+    cols = [(64, E[:4]), (508, E[4:8])]   # wider text column so long events stay on 3 lines (11 Nov, markets 131-225)
     s['geo'] = dict(cols=[dict(x=x, rows=[dict(e=e, y=266 + i * 71) for i, e in enumerate(es)]) for x, es in cols])
 
 def drivers(s):
@@ -143,26 +147,30 @@ def grid(s):
 def killers(s):
     """table centered vertically between title and note, lines span the whole table (Pierre, 11 Nov)"""
     n = len(s['rows']); st = 52 if n >= 5 else 58; head = 40
+    if s['mode'] != 'dead':
+        xs, ws, lx0, nx = _warn_cols(s)
+        ml = max([c.count('|') + 1 for r in s['rows'] for c in r['cells'] if c] + [1]); st = max(st, 13.5 * ml + 14)
     if s['mode'] == 'dead':
         k = len(s['causes']); xs = [464 + i * min(96, 330 / max(1, k - 1)) for i in range(k)]
         for r in s['rows']: r['years'] = int(r['end']) - int(r['start'])
         lx0 = 158
     else:
-        k = len(s['signs']); xs = [395 + i * min(100, 400 / max(1, k - 1)) for i in range(k)]
         for r in s['rows']:
             m = sum(1 for c in r['cells'] if c); r['risk'] = 'High risk' if m >= 3 else 'Medium risk'; r['rn'] = 3 if m >= 3 else 1
-        lx0 = 205
-    lx1 = xs[-1] + (45 if s['mode'] == 'dead' else 92)
+    lx1 = xs[-1] + (45 if s['mode'] == 'dead' else ws[-1] + 8)
     H = head + n * st; top = 392 - H / 2
     s['geo'] = dict(xs=xs, ys=[top + head + st / 2 + i * st for i in range(n)], hy=top, lx0=lx0, lx1=lx1, st=st)
+    if s['mode'] != 'dead': s['geo'].update(ws=ws, cx=lx0 + 16, nx=lx0 + 44)
 
 def survivors(s):
     n = len(s['rows']); st = 66; H = 30 + n * st; top = 392 - H / 2
     s['geo'] = dict(hy=top, ys=[top + 30 + st / 2 + i * st for i in range(n)])
 
 def winner(s):
-    n = len(s['companies']); xs = [433 + i * 77 for i in range(n)]
-    s['geo'] = dict(xs=xs, ys=[305 + i * 35.8 for i in range(len(s['criteria']))],
+    n = len(s['companies']); cw = max(_tw(c['name'], 12, True) for c in s['criteria'])
+    x0 = max(433, 181 + cw + 46); p = min(77, (835 - x0) / max(1, n - 1)); xs = [x0 + i * p for i in range(n)]   # long criteria push the columns right (11 Nov)
+    m = len(s['criteria']); y0 = 305 + (6 - m) * 35.8 / 2   # fewer than 6 rows: block stays centered (11 Nov)
+    s['geo'] = dict(xs=xs, dy=y0 - 305, ys=[y0 + i * 35.8 for i in range(m)],
                     score=[sum(c['ticks'][j] for c in s['criteria']) for j in range(n)])
 
 
@@ -240,3 +248,42 @@ def trends(s):
     x0, x1, y0, y1 = 136, 824, 500, 410
     s['geo'] = dict(ratio=r, stat=lab, pts=' '.join(f'{x0 + i / (n - 1) * (x1 - x0):.1f},{y0 - x / 100 * (y0 - y1):.1f}' for i, x in enumerate(v)), base=y0 + 16)
 PREP['trends'] = trends
+
+
+_KF = {}
+def _tw(t, size, bold=False):
+    """text width in px on the 960 canvas (Lexend)"""
+    from PIL import ImageFont
+    k = (size, bold)
+    if k not in _KF: _KF[k] = ImageFont.truetype('/home/claude/nmp-decks/assets/fonts/' + ('Lexend-SemiBold.ttf' if bold else 'Lexend-Regular.ttf'), size * 4)
+    return _KF[k].getlength(t) / 4
+def _wrap(text, W, size):
+    w = text.replace('|', ' ').split(); L = ['']
+    for x in w:
+        t = (L[-1] + ' ' + x).strip()
+        if _tw(t, size) <= W or not L[-1]: L[-1] = t
+        else: L.append(x)
+    return L
+def _warn_cols(s):
+    """warning-mode killers: column widths follow the texts, table centered, cells rewrapped (up to 3 lines) when the table would be too wide (11 Nov: texts overlapped)"""
+    K = len(s['signs']); F = 10; HF = 12
+    name_w = max(_tw(r['name'], 12.7, True) for r in s['rows']); name_w = max(name_w, 122) + 52   # logo 32 + gap, name or risk dots
+    head_w = [max(_tw(p, HF, True) for p in h.split('|')) for h in s['signs']]
+    best = None
+    for maxl in (3, 4):
+        for W in (175, 160, 145, 130, 118, 106, 96, 88):
+            cols = []
+            for i in range(K):
+                L = [_wrap(r['cells'][i], W, F) for r in s['rows'] if r['cells'][i]]
+                if any(len(x) > maxl for x in L): break
+                cols.append(max([head_w[i]] + [_tw(l, F) for x in L for l in x]) + 8)
+            else:
+                total = name_w + sum(c + 20 for c in cols); best = (W, cols, total)
+                if total <= 890: break
+        if best and best[2] <= 890: break
+    W, cols, total = best
+    for r in s['rows']:
+        r['cells'] = ['|'.join(_wrap(c, W, F)) if c else '' for c in r['cells']]
+    lx0 = max(50, (960 - total) / 2); xs = []; x = lx0 + name_w
+    for c in cols: xs.append(x); x += c + 20
+    return xs, cols, lx0, lx0 + 44

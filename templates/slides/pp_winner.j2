@@ -1,6 +1,6 @@
-{% set G = s.geo %}<div class="pp-wcol" style="left:{{G.xs[0]-33}}px;height:{{G.ys[-1]-194+60}}px"></div>
-{% for c in s.companies %}<span class="lt pp-c" style="left:{{G.xs[loop.index0]}}px;top:227px"><img src="{{c.src}}"></span><span class="pp-wn {{ 'lead' if loop.first }}" style="left:{{G.xs[loop.index0]}}px">{{c.short}}</span>{% endfor %}
-{% for cr in s.criteria %}{% set y = G.ys[loop.index0] %}{% if not loop.first %}<i class="pp-kl" style="top:{{y-17}}px;left:181px;width:600px"></i>{% endif %}
+{% set G = s.geo %}<div class="pp-wcol" style="left:{{G.xs[0]-33}}px;top:{{194+G.dy}}px;height:{{G.ys[-1]-194-G.dy+60}}px"></div>
+{% for c in s.companies %}<span class="lt pp-c" style="left:{{G.xs[loop.index0]}}px;top:{{227+G.dy}}px"><img src="{{c.src}}"></span><span class="pp-wn {{ 'lead' if loop.first }}" style="left:{{G.xs[loop.index0]}}px;top:{{255+G.dy}}px">{{c.short}}</span>{% endfor %}
+{% for cr in s.criteria %}{% set y = G.ys[loop.index0] %}{% if not loop.first %}<i class="pp-kl" style="top:{{y-17}}px;left:181px;width:{{G.xs[-1]+40-181}}px"></i>{% endif %}
 <span class="pp-wc" style="top:{{y-12}}px">{{cr.name}}<em>{{cr.why}}</em></span>
 {% for t in cr.ticks %}{% if t %}<i class="pp-wk" style="left:{{G.xs[loop.index0]}}px;top:{{y}}px"></i>{% else %}<i class="pp-td" style="left:{{G.xs[loop.index0]}}px;top:{{y}}px"></i>{% endif %}{% endfor %}{% endfor %}
 {% for sc in G.score %}<span class="pp-ws" style="left:{{G.xs[loop.index0]}}px;top:{{G.ys[-1]+31}}px">{% for k in range(s.criteria|length) %}<i class="{{ 'on' if k < sc }}"></i>{% endfor %}</span>{% endfor %}

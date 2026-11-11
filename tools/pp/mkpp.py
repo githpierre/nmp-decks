@@ -106,8 +106,8 @@ def slides(h):
         features=[dict(header=f['header'], values=f['values']) for f in d['features']],
         note=["We checked each company's website, filings and press releases, feature by feature", 'A pink mark means the feature is there, and all the sources are included at the end of the report']))
     # S06 value
-    d = J(f'{S10}/vc/{h}.json')
-    out.append(dict(base, type='pp_value', section='Value creation', title=two(d['title']), axes=d['axes'],
+    d = J(f'{S10}/vc/{h}.json') if os.path.exists(f'{S10}/vc/{h}.json') else None
+    if d: out.append(dict(base, type='pp_value', section='Value creation', title=two(d['title']), axes=d['axes'],
         groups=[dict(name=g['name'], x=g['x'], y=g['y'], logos=[dict(src=logo(l['slug']))for l in g['logos']]) for g in d['groups']],
         note=['We placed each company by how its business model works, from pricing pages and filings', 'Positions are our own reading, and all the sources are included at the end of the report']))
     # S07 risks
@@ -156,8 +156,8 @@ def slides(h):
         out.append(dict(base, type='pp_survivors', section='Startup killers', title=f'What do {nm} survivors do differently?', rows=sv,
             note=[f'We compared {nm} companies that failed or hit a major setback with the ones that survived', 'We used company statements and the press, and all the sources are included at the end of the report']))
     # S12 winner
-    d = J(f'{S10}/ss/{h}.json')
-    out.append(dict(base, type='pp_winner', section='Startup strategies', title=two(d['title']), companies=[dict(short=x['short'], src=logo(x['slug'])) for x in d['companies']], criteria=d['criteria'],
+    d = J(f'{S10}/ss/{h}.json') if os.path.exists(f'{S10}/ss/{h}.json') else None
+    if d: out.append(dict(base, type='pp_winner', section='Startup strategies', title=two(d['title']), companies=[dict(short=x['short'], src=logo(x['slug'])) for x in d['companies']], criteria=d['criteria'],
         note=['We compared companies with the same business model on what matters most to customers', 'We used company reports and public records, and all the sources are included at the end of the report']))
     # grid tiles need logos
     for _s in out:

@@ -1,5 +1,5 @@
 {% set G = s.geo %}{% for h in G.heads %}<span class="pp-th" style="top:227px;left:{{G.xs[loop.index0]}}px">{{h|join('<br>')|safe}}</span>{% endfor %}
-<div class="pp-lead" style="top:{{G.rows[0].y-29}}px"></div>
-{% for r in G.rows %}{% if not loop.first and not loop.last %}<i class="pp-rl" style="top:{{r.y+21}}px"></i>{% endif %}
+<div class="pp-lead" style="top:{{G.rows[0].y-29}}px;width:{{G.wl}}px"></div>
+{% for r in G.rows %}{% if not loop.first and not loop.last %}<i class="pp-rl" style="top:{{r.y+21}}px;width:{{G.wl-30}}px"></i>{% endif %}
 <span class="lt pp-c" style="left:199px;top:{{r.y}}px"><img src="{{r.c.src}}"></span><span class="pp-tn" style="top:{{r.y}}px">{{r.c.name}}</span>
 {% for v in r.v %}<i class="pp-td {{ 'on' if v else '' }}" style="left:{{G.xs[loop.index0]}}px;top:{{r.y}}px"></i>{% endfor %}{% endfor %}
