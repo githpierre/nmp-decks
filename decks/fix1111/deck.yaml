@@ -1,0 +1,75 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- label: PREDICTION MARKETS
+  type: pp_cagr
+  section: Market size
+  title: 'How much bigger can
+
+    prediction markets get?'
+  size: 2.5
+  cagr: 44
+  lead: 'To get that big, '
+  condition: growth requires durable legal access, liquid markets, trustworthy settlement rules and enough recurring non-election trading to retain users year round.
+  note:
+  - We compared revenue forecasts from Bernstein and Citizens, not trading volume
+  - We adjusted each one to our definition, with all the sources at the end of the report
+- label: MORTGAGE TECHNOLOGY
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which mortgage technology companies have shown warning signs lately?
+  signs:
+  - Value|fell
+  - Big|layoffs
+  - Lost|independence
+  rows:
+  - name: Better
+    slug: better
+    domain: ''
+    cells:
+    - Business swung from profit to|more than $300M loss in 2021
+    - Executed repeated mass|layoffs beginning in late 2021
+    - ''
+    src: ../../assets/logos/pp/better.png
+    ini: B
+  - name: Blend
+    slug: blend
+    domain: blend.com
+    cells:
+    - Shares fell sharply|from the post-IPO peak
+    - Cut staff repeatedly during|the mortgage volume collapse
+    - ''
+    src: ../../assets/logos/pp/blend.png
+    ini: B
+  - name: Roostify
+    slug: roostify
+    domain: ''
+    cells:
+    - ''
+    - ''
+    - CoreLogic acquired|Roostify in 2023
+    src: ../../assets/logos/pp/roostify.png
+    ini: R
+  - name: Sprout
+    slug: sprout
+    domain: sproutmortgage.com
+    cells:
+    - ''
+    - Abruptly shut in July 2022 with|more than 300 workers affected
+    - ''
+    src: ''
+    ini: S
+  - name: Dark Matter
+    slug: dark-matter
+    domain: dmatter.com
+    cells:
+    - ''
+    - Large layoffs hit the mortgage|software unit in May 2025
+    - ''
+    src: ../../assets/logos/pp/dark-matter.png
+    ini: DM
+  note:
+  - We looked for warning signs among well-known mortgage technology companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
