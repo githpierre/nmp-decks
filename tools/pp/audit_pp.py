@@ -31,6 +31,8 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   // 2c. axis labels never overlap (Pierre 11 Nov: 'Dec 23 Apr 24' collided, labels sit inside pp-abs so 2. skipped them)
   const xl = [...s.querySelectorAll('.pp-xl')].map(e => { const r = e.getBoundingClientRect(); return [r.left, r.right, e.innerText]; }).sort((a, b) => a[0] - b[0]);
   for (let i = 1; i < xl.length; i++) if (xl[i][0] - xl[i - 1][1] < 6) add('XLABEL_OVERLAP', xl[i - 1][2].split('\n')[0] + ' / ' + xl[i][2].split('\n')[0]);
+  // 2d. dotted foot line under the note on every slide (Pierre 11 Nov: missing on the 100 live radars)
+  const fl = s.querySelector('.foot-line'); if (!fl || !fl.getBoundingClientRect().width) add('FOOT_LINE', 'missing');
   // 3. logos: no initials tile
   const nt = s.querySelectorAll('.nt').length; if (nt) add('LOGO_MISSING', nt + ' name tile(s)');
 

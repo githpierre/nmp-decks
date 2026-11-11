@@ -259,6 +259,8 @@ Process de revue
   (tools/pp/pp_prepare.py trends_window). The curve never touches the text above it (CURVE_HITS_TEXT).
 - S02 (11 Nov): raw Google Trends are distorted since August 2025 (every low-volume term jumps x5 to x10, then drops in Oct 2026). Never read a raw rise as a signal: correct with the cross-term control index (/root/w/m131/gt/corr.py) and look for public series first (prompt s02-signals). Trends only when nothing passes, and only if the corrected curve rises.
 - S02 curve: x-axis labels never overlap (audit XLABEL_OVERLAP). When two dates are too close, drop the intermediate point rather than shrink the labels.
+- S02 formats (Pierre, 11 Nov): 1) public curve, 2) leader results card (growth in light blue #7FA9C9, company line at the bottom), 3) milestones staircase (80% width), 4) share bars, 5) rules staircase (mandates), 6) demand vs supply bars only when nothing else, 7) Google Trends last. Rejected: before/now big numbers, pictograms, customer wall, funding from our base (overlaps S09), valuation step-up.
+- Every slide has the dotted foot line under the note (base template, audit FOOT_LINE). The 100 live radars S01 of markets 1-100 (PPTX era) miss it.
 - S03 donut: layout B (labels beside their slice, no line). Every category shows at least 2 logos (1 only if no company in it raised money).
   A missing logo is never dropped silently: mkpp2 prints MISSING LOGOS, the audit flags DONUT_LOGOS.
 - Titles rotate between families market by market (tools/pp/titles.py) for S05, S09-02, S10; never cut the market name.
