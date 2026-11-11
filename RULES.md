@@ -245,6 +245,9 @@ Mise en page
 - ✕ roses posés sur le rebord des cases (slide 23) ; flèche ↔ au-dessus des barres (slide 164) : ils structurent.
 - Refontes des formats qu'il a dessinés (arbre « Qui paie », intercalaires, expérience client).
 
+Séries (1/2, 2/3…)
+25. Les pages d'une même série (même titre) ont EXACTEMENT le même design et les mêmes décisions (icônes, pastilles, rails…). Automatique : make_decisions.py recopie toute décision d'une page aux autres pages de la série ; l'audit final compare les pages d'une série côte à côte. (Raté le 11/11 : 208 avait gardé ses emojis alors que 207 avait les icônes, parce que la décision avait été listée par numéro de slide et pas par série.)
+
 Process de revue
 - Chaque erreur trouvée = une règle écrite ici + appliquée par script à tous les decks, pas une retouche ponctuelle.
 - Pages de revue : 2e tour et suivants, ne montrer que ce que Pierre doit revoir ; le validé disparaît.
@@ -260,3 +263,10 @@ Process de revue
 - Ticks and crosses are drawn with lines (SVG), never a font glyph, centered in their circle or square.
 - S12 score bars: 90% of the column width.
 - Prototypes and new slides work only on markets 131-225 (101-130 are done).
+
+
+## Slides « signal » (data points) : comment les penser (Pierre, 11 Nov 2026)
+Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapore teachers use AI tools 5x more often than French ones », « Only 3% of people who start a free online course finish it », « Byju's IPO was always within the next year », « Coursera still loses 10.2¢ per $1 », « Online course star Coursera lost 91% of its value », « Tutoring firm Nerdy has lost 79% », « Since ChatGPT launched, Chegg lost almost all its value », « One university pays almost 90% of Grand Canyon Education's revenue ».
+- Ce ne sont PAS des emplacements fixes (« après And more recently, il faut une slide à barres »). Ce sont des TEMPLATES qui montrent un signal, positif ou négatif.
+- Process : 1) un prompt de recherche bien construit ramène beaucoup de signaux récents et variés sur l'état du marché (adoption, régulation, chute d'un acteur, concentration, comparaison entre pays, unit economics…) ; 2) on fait une slide par signal fort, avec le template qui va le mieux à la forme de la donnée (barres, courbe de cours, nuage, waffle, chiffre géant…) ; 3) on place chaque slide dans le chapitre où elle sert le propos, n'importe où dans le deck.
+- Le nombre et l'emplacement de ces slides varient d'un marché à l'autre ; ne jamais copier la position EdTech.
