@@ -1,0 +1,1876 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- type: pp_radar
+  pill: MARKET MAP
+  label: AI COMPANION
+  title: 'Who is in AI companion,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to AI companion
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/replika.png
+  - ../../assets/logos/pp/nomi.png
+  - ../../assets/logos/pp/kindroid.png
+  - ../../assets/logos/pp/chai.png
+  - ../../assets/logos/pp/tolan.png
+  - ../../assets/logos/pp/sesame.png
+  - ../../assets/logos/pp/kin.png
+  - ../../assets/logos/pp/talkie.png
+  TL:
+    src: ../../assets/logos/pp/openai.png
+    name: OpenAI
+    text: chatGPT supports open conversation, but its primary role is a general assistant for information and task completion
+  TR:
+    src: ../../assets/logos/pp/slack.png
+    name: Slack
+    text: connects human coworkers and teams, so social interaction comes from people rather than dedicated AI companions
+  BL:
+    src: ../../assets/logos/pp/snap.png
+    name: Snap
+    text: offers My AI inside a social network, so AI companionship is only one feature among human messaging and media
+  BR:
+    src: ../../assets/logos/pp/grok.png
+    name: Grok
+    text: includes companion characters, but most of the product is a general AI assistant integrated with the X ecosystem
+- type: pp_radar
+  pill: MARKET MAP
+  label: AI TUTORING
+  title: 'What is actually included
+
+    in the AI tutoring market?'
+  caption:
+  - Distance to the center reflects how central each company is to AI tutoring
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/khan-academy.png
+  - ../../assets/logos/pp/medly-ai.png
+  - ../../assets/logos/pp/aristotle.png
+  - ../../assets/logos/pp/synthesis.png
+  - ../../assets/logos/pp/solvely.png
+  - ../../assets/logos/pp/loora.png
+  - ../../assets/logos/pp/gizmo.png
+  - ../../assets/logos/pp/knowt.png
+  TL:
+    src: ../../assets/logos/pp/openai.png
+    name: OpenAI
+    text: chatGPT can explain schoolwork, but OpenAI is a general AI platform rather than a dedicated tutoring company
+  TR:
+    src: ../../assets/logos/pp/instructure.png
+    name: Instructure
+    text: manages courses and schools, but it does not primarily provide direct AI tutoring to learners
+  BL:
+    src: ../../assets/logos/pp/quizlet.png
+    name: Quizlet
+    text: includes AI learning help, but flashcards, practice tests and study tools remain a large part of the product
+  BR:
+    src: ../../assets/logos/pp/duolingo.png
+    name: Duolingo
+    text: uses AI tutoring and conversation inside a broader language-learning product with many self-study modes
+- type: pp_radar
+  pill: MARKET MAP
+  label: AML SOFTWARE
+  title: 'Which companies really
+
+    belong in AML software?'
+  caption:
+  - Distance to the center reflects how central each company is to AML software
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/complyadvantage.png
+  - ../../assets/logos/pp/hawk.png
+  - ../../assets/logos/pp/unit21.png
+  - ../../assets/logos/pp/feedzai.png
+  - ../../assets/logos/pp/thetaray.png
+  - ../../assets/logos/pp/lucinity.png
+  - ../../assets/logos/pp/chainalysis.png
+  - ../../assets/logos/pp/trm-labs.png
+  TL:
+    src: ../../assets/logos/pp/sift.png
+    name: Sift
+    text: focuses on digital fraud decisions, not AML compliance workflows or suspicious activity reporting
+  TR:
+    src: ../../assets/logos/pp/okta.png
+    name: Okta
+    text: manages authentication and access, not money laundering detection, sanctions screening, or AML reporting
+  BL:
+    src: ../../assets/logos/pp/socure.png
+    name: Socure
+    text: is mainly identity verification and fraud risk, with compliance products that touch AML onboarding
+  BR:
+    src: ../../assets/logos/pp/sardine.png
+    name: Sardine
+    text: combines fraud prevention, KYC and AML monitoring for fintech and crypto customers while most revenue sits in ad
+- type: pp_radar
+  pill: MARKET MAP
+  label: AUTO FINANCE
+  title: 'Which companies really
+
+    belong in auto finance?'
+  caption:
+  - Distance to the center reflects how central each company is to auto finance
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/caribou.png
+  - ../../assets/logos/pp/carputty.png
+  - ../../assets/logos/pp/tenet.png
+  - ../../assets/logos/pp/autofi.png
+  - ../../assets/logos/pp/westlake.png
+  - ../../assets/logos/pp/upstart-auto.png
+  - ../../assets/logos/pp/gravity-lending.png
+  - ../../assets/logos/pp/origence.png
+  TL:
+    src: ../../assets/logos/pp/carvana.png
+    name: Carvana
+    text: sells vehicles and offers financing, but vehicle retail is the primary business rather than auto finance
+  TR:
+    src: ../../assets/logos/pp/autotrader.png
+    name: AutoTrader
+    text: is a vehicle marketplace and lead generator, not a lender or dedicated auto-finance technology provider
+  BL:
+    src: ../../assets/logos/pp/ally.png
+    name: Ally
+    text: is deeply exposed to auto finance, while it also operates banking, investing and broader consumer finance businesses
+  BR:
+    src: ../../assets/logos/pp/capital-one.png
+    name: Capital One
+    text: is a major auto lender, while most of its business spans credit cards, deposits and other banking products
+- type: pp_radar
+  pill: MARKET MAP
+  label: AUTONOMOUS TRUCKING
+  title: 'Which companies really belong
+
+    in autonomous trucking?'
+  caption:
+  - Distance to the center reflects how central each company is to autonomous trucking
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/gatik.png
+  - ../../assets/logos/pp/waabi.png
+  - ../../assets/logos/pp/aurora.png
+  - ../../assets/logos/pp/inceptio-technology.png
+  - ../../assets/logos/pp/plusai.png
+  - ../../assets/logos/pp/kodiak-ai.png
+  - ../../assets/logos/pp/bot-auto.png
+  - ../../assets/logos/pp/stack-av.png
+  TL:
+    src: ../../assets/logos/pp/waymo.png
+    name: Waymo
+    text: is centered on robotaxis and passenger autonomy, with no current trucking product as its primary commercial focus
+  TR:
+    src: ../../assets/logos/pp/uber-freight.png
+    name: Uber Freight
+    text: is a digital freight marketplace and logistics platform, not a developer of self-driving truck systems
+  BL:
+    src: ../../assets/logos/pp/outrider.png
+    name: Outrider
+    text: automates yard trucks inside logistics sites, sitting on the border of road-going autonomous trucking
+  BR:
+    src: ../../assets/logos/pp/torc-robotics.png
+    name: Torc Robotics
+    text: builds autonomous trucks, but it is an independent Daimler Truck subsidiary tied to one major incumbent OEM
+- type: pp_radar
+  pill: MARKET MAP
+  label: BETTER-FOR-YOU SNACKS
+  title: 'Which companies really belong
+
+    in better-for-you snacks?'
+  caption:
+  - Distance to the center reflects how central each company is to better-for-you snacks
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/chomps.png
+  - ../../assets/logos/pp/lesserevil.png
+  - ../../assets/logos/pp/magic-spoon.png
+  - ../../assets/logos/pp/david.png
+  - ../../assets/logos/pp/catalina.png
+  - ../../assets/logos/pp/iqbar.png
+  - ../../assets/logos/pp/thats-it.png
+  - ../../assets/logos/pp/skinnydipped.png
+  TL:
+    src: ../../assets/logos/pp/huel.png
+    name: Huel
+    text: targets nutrition and convenience, but most products replace meals rather than serve as packaged snack alternatives
+  TR:
+    src: ../../assets/logos/pp/coca-cola.png
+    name: Coca-Cola
+    text: is a beverage company, so its products do not belong in the packaged better-for-you snack category
+  BL:
+    src: ../../assets/logos/pp/_ini_chobani.png
+    name: Chobani
+    text: sells snackable yogurt and protein items, but its core business remains refrigerated dairy rather than packaged
+  BR:
+    src: ../../assets/logos/pp/kind.png
+    name: KIND
+    text: is strongly associated with healthier snack bars, but its parent Mars also spans mainstream confectionery and foods
+- label: BETTER-FOR-YOU SNACKS
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which better-for-you snacks players
+
+    can already do the most today?'
+  companies:
+  - name: Quest
+    src: ../../assets/logos/pp/quest.png
+  - name: Siete
+    src: ../../assets/logos/pp/siete.png
+  - name: LesserEvil
+    src: ../../assets/logos/pp/lesserevil.png
+  - name: Chomps
+    src: ../../assets/logos/pp/chomps.png
+  - name: SimpleMills
+    src: ../../assets/logos/pp/simplemills.png
+  features:
+  - header: High|protein
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Low|sugar
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Gluten|free
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Plant|based
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: DTC|store
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Subscription|support
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Traceability|support
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: BUY NOW PAY LATER
+  title: 'Which companies really belong
+
+    in buy now pay later (BNPL)?'
+  caption:
+  - Distance to the center reflects how central each company is to buy now pay later (BNPL)
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/klarna.png
+  - ../../assets/logos/pp/affirm.png
+  - ../../assets/logos/pp/afterpay.png
+  - ../../assets/logos/pp/tabby.png
+  - ../../assets/logos/pp/tamara.png
+  - ../../assets/logos/pp/zilch.png
+  - ../../assets/logos/pp/scalapay.png
+  - ../../assets/logos/pp/sunbit.png
+  TL:
+    src: ../../assets/logos/pp/visa.png
+    name: Visa
+    text: enables installment products for issuers, but it is a card network rather than a consumer BNPL provider
+  TR:
+    src: ../../assets/logos/pp/fico.png
+    name: FICO
+    text: provides credit decisioning and scores, but it does not offer consumer BNPL financing at checkout
+  BL:
+    src: ../../assets/logos/pp/block.png
+    name: Block
+    text: owns Afterpay, but the parent also runs Square merchant services, Cash App and other financial products
+  BR:
+    src: ../../assets/logos/pp/paypal.png
+    name: PayPal
+    text: offers Pay in 4 and monthly installments, while its main business includes wallets and payment processing
+- type: pp_radar
+  pill: MARKET MAP
+  label: CARBON CREDIT
+  title: 'Which companies really
+
+    belong in carbon credit?'
+  caption:
+  - Distance to the center reflects how central each company is to carbon credit
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/south-pole.png
+  - ../../assets/logos/pp/climate-impact-partners.png
+  - ../../assets/logos/pp/xpansiv.png
+  - ../../assets/logos/pp/sylvera.png
+  - ../../assets/logos/pp/bezero.png
+  - ../../assets/logos/pp/patch.png
+  - ../../assets/logos/pp/isometric.png
+  - ../../assets/logos/pp/carbonplace.png
+  TL:
+    src: ../../assets/logos/pp/watershed.png
+    name: Watershed
+    text: is mainly emissions accounting and decarbonization software, not a carbon credit creation or trading platform
+  TR:
+    src: ../../assets/logos/pp/tesla.png
+    name: Tesla
+    text: sells electric vehicles and energy products, not carbon credit project development, verification or marketplaces
+  BL:
+    src: ../../assets/logos/pp/pachama.png
+    name: Pachama
+    text: combines forest carbon projects, monitoring and credit sales, spanning development, MRV and marketplace roles
+  BR:
+    src: ../../assets/logos/pp/climeworks.png
+    name: Climeworks
+    text: removes carbon and sells removal credits, but its core business is operating direct air capture plants
+- type: pp_radar
+  pill: MARKET MAP
+  label: CRYPTO WALLET
+  title: 'Which companies really
+
+    belong in crypto wallet?'
+  caption:
+  - Distance to the center reflects how central each company is to crypto wallet
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/metamask.png
+  - ../../assets/logos/pp/phantom.png
+  - ../../assets/logos/pp/ledger.png
+  - ../../assets/logos/pp/safe.png
+  - ../../assets/logos/pp/fireblocks.png
+  - ../../assets/logos/pp/privy.png
+  - ../../assets/logos/pp/magic.png
+  - ../../assets/logos/pp/trezor.png
+  TL:
+    src: ../../assets/logos/pp/coinbase.png
+    name: Coinbase
+    text: is mainly a centralized exchange, although it also offers a distinct self custody wallet product
+  TR:
+    src: ../../assets/logos/pp/chainalysis.png
+    name: Chainalysis
+    text: analyzes blockchain activity and risk, but it does not provide users with asset access or wallet custody
+  BL:
+    src: ../../assets/logos/pp/crypto-com.png
+    name: Crypto.com
+    text: offers wallet products, but its core business also includes exchange, payments, cards and brokerage
+  BR:
+    src: ../../assets/logos/pp/robinhood.png
+    name: Robinhood
+    text: offers a crypto wallet alongside a much larger brokerage and trading business across other assets
+- type: pp_radar
+  pill: MARKET MAP
+  label: DEFI EXCHANGES
+  title: 'Which companies really belong
+
+    in decentralized exchange (DEX)?'
+  caption:
+  - Distance to the center reflects how central each company is to decentralized exchange (DEX)
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/uniswap.png
+  - ../../assets/logos/pp/hyperliquid.png
+  - ../../assets/logos/pp/jupiter.png
+  - ../../assets/logos/pp/1inch.png
+  - ../../assets/logos/pp/cow-swap.png
+  - ../../assets/logos/pp/dydx.png
+  - ../../assets/logos/pp/aerodrome.png
+  - ../../assets/logos/pp/orca.png
+  TL:
+    src: ../../assets/logos/pp/aave.png
+    name: Aave
+    text: is a decentralized lending protocol, not a venue whose core function is trading one cryptoasset for another
+  TR:
+    src: ../../assets/logos/pp/binance.png
+    name: Binance
+    text: is primarily a centralized exchange with custodial order books rather than a blockchain based DEX protocol
+  BL:
+    src: ../../assets/logos/pp/crypto-com.png
+    name: Crypto.com
+    text: is mainly centralized trading and payments, although its ecosystem also touches decentralized exchange use
+  BR:
+    src: ../../assets/logos/pp/okx.png
+    name: OKX
+    text: operates a centralized exchange and wallet plus an onchain DEX aggregator, so only one product line fits
+- type: pp_radar
+  pill: MARKET MAP
+  label: DEEPFAKE DETECTION
+  title: 'Who is in deepfake detection,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to deepfake detection
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/reality-defender.png
+  - ../../assets/logos/pp/getreal.png
+  - ../../assets/logos/pp/sensity.png
+  - ../../assets/logos/pp/pindrop.png
+  - ../../assets/logos/pp/hive.png
+  - ../../assets/logos/pp/resemble-ai.png
+  - ../../assets/logos/pp/truepic.png
+  - ../../assets/logos/pp/duckduckgoose.png
+  TL:
+    src: ../../assets/logos/pp/persona.png
+    name: Persona
+    text: verifies identity and liveness, but deepfake detection is a supporting control rather than the core product
+  TR:
+    src: ../../assets/logos/pp/canva.png
+    name: Canva
+    text: creates and edits media, including AI content, but does not sell a deepfake detection or authenticity platform
+  BL:
+    src: ../../assets/logos/pp/adobe.png
+    name: Adobe
+    text: provides Content Credentials and provenance across creative tools, but detection is not its main business
+  BR:
+    src: ../../assets/logos/pp/iproov.png
+    name: iProov
+    text: sells biometric liveness and face verification with deepfake defenses embedded in identity checks
+- type: pp_radar
+  pill: MARKET MAP
+  label: DIETARY SUPPLEMENTS
+  title: 'Which companies really belong
+
+    in dietary supplements?'
+  caption:
+  - Distance to the center reflects how central each company is to dietary supplements
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/gruns.png
+  - ../../assets/logos/pp/primerry.png
+  - ../../assets/logos/pp/perelel.png
+  - ../../assets/logos/pp/ag1.png
+  - ../../assets/logos/pp/birdandbe.png
+  - ../../assets/logos/pp/hum.png
+  - ../../assets/logos/pp/needed.png
+  - ../../assets/logos/pp/binto.png
+  TL:
+    src: ../../assets/logos/pp/huel.png
+    name: Huel
+    text: provides added nutrients, but it is sold mainly as food and meal replacement rather than dietary supplements
+  TR:
+    src: ../../assets/logos/pp/pfizer.png
+    name: Pfizer
+    text: primarily develops prescription medicines and vaccines, which fall outside consumer dietary supplements
+  BL:
+    src: ../../assets/logos/pp/sakara.png
+    name: Sakara
+    text: sells supplements alongside prepared meals and wellness programs, so supplements are only one part of the model
+  BR:
+    src: ../../assets/logos/pp/_ini_bloom.png
+    name: Bloom
+    text: sells supplement powders and functional drinks, so part of its business sits in supplements and part in beverages
+- label: DIETARY SUPPLEMENTS
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which dietary supplements company
+
+    has the most complete tech today?'
+  companies:
+  - name: Thorne
+    src: ../../assets/logos/pp/thorne.png
+  - name: Ritual
+    src: ../../assets/logos/pp/ritual.png
+  - name: AG1
+    src: ../../assets/logos/pp/ag1.png
+  - name: Seed
+    src: ../../assets/logos/pp/seed.png
+  - name: NOWFoods
+    src: ../../assets/logos/pp/nowfoods.png
+  features:
+  - header: Third|party test
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Own|lab
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Personal|quiz
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Subscription|support
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Traceability|support
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Clinical|trials
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Mobile|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: IDENTITY VERIFICATION
+  title: 'Which companies really belong
+
+    in digital identity verification?'
+  caption:
+  - Distance to the center reflects how central each company is to digital identity verification
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/persona.png
+  - ../../assets/logos/pp/veriff.png
+  - ../../assets/logos/pp/incode.png
+  - ../../assets/logos/pp/sumsub.png
+  - ../../assets/logos/pp/socure.png
+  - ../../assets/logos/pp/id-me.png
+  - ../../assets/logos/pp/jumio.png
+  - ../../assets/logos/pp/trulioo.png
+  TL:
+    src: ../../assets/logos/pp/okta.png
+    name: Okta
+    text: authenticates known users after onboarding, while identity verification proves who a new user is first
+  TR:
+    src: ../../assets/logos/pp/cloudflare.png
+    name: Cloudflare
+    text: protects networks and applications, but it does not verify government identity documents or biometrics
+  BL:
+    src: ../../assets/logos/pp/mitek.png
+    name: Mitek
+    text: sells identity verification and mobile deposit products, so only part of revenue belongs to digital identity
+  BR:
+    src: ../../assets/logos/pp/entrust.png
+    name: Entrust
+    text: owns Onfido identity verification, while most of the group also sells broader security and credential products
+- type: pp_radar
+  pill: MARKET MAP
+  label: EARNED WAGE ACCESS
+  title: 'Who is in earned wage access,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to earned wage access
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/dailypay.png
+  - ../../assets/logos/pp/payactiv.png
+  - ../../assets/logos/pp/zayzoon.png
+  - ../../assets/logos/pp/rain.png
+  - ../../assets/logos/pp/tapcheck.png
+  - ../../assets/logos/pp/clair.png
+  - ../../assets/logos/pp/branch.png
+  - ../../assets/logos/pp/wagestream.png
+  TL:
+    src: ../../assets/logos/pp/chime.png
+    name: Chime
+    text: offers early direct deposit and workplace pay access, but consumer banking is the broader core business
+  TR:
+    src: ../../assets/logos/pp/_ini_payday-com.png
+    name: Payday.com
+    text: traditional payday lending advances unearned credit and falls outside earned wage access by definition
+  BL:
+    src: ../../assets/logos/pp/gusto.png
+    name: Gusto
+    text: Cashout gives workers early access to pay, while payroll and HR software remain the main business
+  BR:
+    src: ../../assets/logos/pp/dayforce.png
+    name: Dayforce
+    text: Wallet provides on-demand pay, while the company primarily sells enterprise payroll and HCM software
+- type: pp_radar
+  pill: MARKET MAP
+  label: EDGE AI CHIPS
+  title: 'Which companies really
+
+    belong in edge AI chips?'
+  caption:
+  - Distance to the center reflects how central each company is to edge AI chips
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/hailo.png
+  - ../../assets/logos/pp/sima-ai.png
+  - ../../assets/logos/pp/axelera-ai.png
+  - ../../assets/logos/pp/recogni.png
+  - ../../assets/logos/pp/deepx.png
+  - ../../assets/logos/pp/memryx.png
+  - ../../assets/logos/pp/expedera.png
+  - ../../assets/logos/pp/edgecortix.png
+  TL:
+    src: ../../assets/logos/pp/arm.png
+    name: Arm
+    text: supplies processor IP used in edge AI chips, but it usually licenses designs rather than selling edge AI processors
+  TR:
+    src: ../../assets/logos/pp/openai.png
+    name: OpenAI
+    text: develops AI models and software services, not processors designed for local edge inference in devices or vehicles
+  BL:
+    src: ../../assets/logos/pp/nxp-semiconductors.png
+    name: NXP Semiconductors
+    text: sells edge AI capable processors, but most of its business covers broader automotive and embedded semiconductors
+  BR:
+    src: ../../assets/logos/pp/qualcomm.png
+    name: Qualcomm
+    text: ships edge AI processors, but its portfolio also spans connectivity, mobile and other chip markets
+- type: pp_radar
+  pill: MARKET MAP
+  label: EMBEDDED FINANCE
+  title: 'Who is in embedded finance,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to embedded finance
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/unit.png
+  - ../../assets/logos/pp/synctera.png
+  - ../../assets/logos/pp/treasury-prime.png
+  - ../../assets/logos/pp/highnote.png
+  - ../../assets/logos/pp/lithic.png
+  - ../../assets/logos/pp/increase.png
+  - ../../assets/logos/pp/bond.png
+  - ../../assets/logos/pp/column.png
+  TL:
+    src: ../../assets/logos/pp/plaid.png
+    name: Plaid
+    text: connects financial data and accounts, but generally does not itself deliver the embedded financial service
+  TR:
+    src: ../../assets/logos/pp/salesforce.png
+    name: Salesforce
+    text: can host fintech workflows, but it is enterprise CRM software rather than embedded finance infrastructure
+  BL:
+    src: ../../assets/logos/pp/marqeta.png
+    name: Marqeta
+    text: enables embedded cards and credit, while its core identity remains card issuing and processing infrastructure
+  BR:
+    src: ../../assets/logos/pp/stripe.png
+    name: Stripe
+    text: powers embedded payments and finance features, while most revenue also comes from standalone payment services
+- type: pp_radar
+  pill: MARKET MAP
+  label: EVTOL
+  title: 'What is actually included
+
+    in the eVTOL market?'
+  caption:
+  - Distance to the center reflects how central each company is to eVTOL
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/joby-aviation.png
+  - ../../assets/logos/pp/archer-aviation.png
+  - ../../assets/logos/pp/autoflight.png
+  - ../../assets/logos/pp/skydrive.png
+  - ../../assets/logos/pp/vertical-aerospace.png
+  - ../../assets/logos/pp/ehang.png
+  - ../../assets/logos/pp/ascendance-flight-technologies.png
+  - ../../assets/logos/pp/dufour-aerospace.png
+  TL:
+    src: ../../assets/logos/pp/electra.png
+    name: Electra
+    text: builds short takeoff aircraft, not vertical takeoff aircraft, despite serving similar mobility routes
+  TR:
+    src: ../../assets/logos/pp/delta-air-lines.png
+    name: Delta Air Lines
+    text: may partner with air taxi developers, but it is an airline operator and does not build electric VTOL aircraft
+  BL:
+    src: ../../assets/logos/pp/honeywell-aerospace.png
+    name: Honeywell Aerospace
+    text: supplies eVTOL avionics and propulsion components, but it does not primarily develop complete eVTOL aircraft
+  BR:
+    src: ../../assets/logos/pp/wisk-aero.png
+    name: Wisk Aero
+    text: develops autonomous passenger eVTOL aircraft, but it now operates as a wholly owned Boeing company
+- type: pp_radar
+  pill: MARKET MAP
+  label: FUNCTIONAL BEVERAGES
+  title: 'Which companies really belong
+
+    in functional beverages?'
+  caption:
+  - Distance to the center reflects how central each company is to functional beverages
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/olipop.png
+  - ../../assets/logos/pp/culture-pop.png
+  - ../../assets/logos/pp/health-ade.png
+  - ../../assets/logos/pp/recess.png
+  - ../../assets/logos/pp/kin-euphorics.png
+  - ../../assets/logos/pp/hiyo.png
+  - ../../assets/logos/pp/athletic.png
+  - ../../assets/logos/pp/odyssey.png
+  TL:
+    src: ../../assets/logos/pp/liquid-i-v.png
+    name: Liquid I.V.
+    text: is mainly sold as hydration powder, so it supports beverage occasions without being a ready-to-drink company
+  TR:
+    src: ../../assets/logos/pp/coca-cola.png
+    name: Coca-Cola
+    text: mainly sells conventional soft drinks, so most revenue lacks a specific health or performance benefit claim
+  BL:
+    src: ../../assets/logos/pp/huel.png
+    name: Huel
+    text: sells ready-to-drink nutrition products, but much of its range is powders and meals rather than functional beverage
+  BR:
+    src: ../../assets/logos/pp/_ini_chobani.png
+    name: Chobani
+    text: sells probiotic and protein drinks, but most of its business is yogurt and other conventional refrigerated foods
+- type: pp_radar
+  pill: MARKET MAP
+  label: HAIR CARE
+  title: 'What is actually included
+
+    in the hair care market?'
+  caption:
+  - Distance to the center reflects how central each company is to hair care
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/olaplex.png
+  - ../../assets/logos/pp/prose.png
+  - ../../assets/logos/pp/function.png
+  - ../../assets/logos/pp/crown-affair.png
+  - ../../assets/logos/pp/ceremonia.png
+  - ../../assets/logos/pp/crown-affair.png
+  - ../../assets/logos/pp/act-acre.png
+  - ../../assets/logos/pp/dae.png
+  TL:
+    src: ../../assets/logos/pp/dyson.png
+    name: Dyson
+    text: sells hair dryers and styling tools, but its core business is hardware rather than haircare formulations
+  TR:
+    src: ../../assets/logos/pp/maybelline.png
+    name: Maybelline
+    text: is a color cosmetics brand, so it does not compete in shampoos, conditioners or scalp care products
+  BL:
+    src: ../../assets/logos/pp/pandg.png
+    name: P&G
+    text: owns large shampoo brands, but haircare is one segment inside a diversified consumer-products company
+  BR:
+    src: ../../assets/logos/pp/_ini_l-oreal.png
+    name: L Oreal
+    text: owns major haircare brands, but hair is only one part of a much larger beauty portfolio spanning many categories
+- label: HAIR CARE
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which hair care players can
+
+    already do the most today?'
+  companies:
+  - name: Olaplex
+    src: ../../assets/logos/pp/olaplex.png
+  - name: K18
+    src: ../../assets/logos/pp/k18.png
+  - name: Briogeo
+    src: ../../assets/logos/pp/briogeo.png
+  - name: Vegamour
+    src: ../../assets/logos/pp/vegamour.png
+  - name: LivingProof
+    src: ../../assets/logos/pp/livingproof.png
+  features:
+  - header: Hair|quiz
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Bond|repair
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Scalp|test
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Subscription|support
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Refill|system
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Clinical|data
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Mobile|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: INDIE BEAUTY
+  title: 'Who is in indie beauty,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to indie beauty
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/glossier.png
+  - ../../assets/logos/pp/merit.png
+  - ../../assets/logos/pp/prequel.png
+  - ../../assets/logos/pp/tower-28.png
+  - ../../assets/logos/pp/kosas.png
+  - ../../assets/logos/pp/crown-affair.png
+  - ../../assets/logos/pp/crown-affair.png
+  - ../../assets/logos/pp/odele.png
+  TL:
+    src: ../../assets/logos/pp/sephora.png
+    name: Sephora
+    text: sells many indie brands, but retailing other companies products is its core business rather than brand ownership
+  TR:
+    src: ../../assets/logos/pp/estee-lauder.png
+    name: Estee Lauder
+    text: owns a global beauty conglomerate, so its portfolio is the opposite of independently controlled indie brand
+  BL:
+    src: ../../assets/logos/pp/honest.png
+    name: Honest
+    text: the Honest Company sells skincare and body care, but a large share of its range is baby, household and personal care
+  BR:
+    src: ../../assets/logos/pp/_ini_goop.png
+    name: Goop
+    text: sells its own beauty products, but much of the company is media, wellness commerce and products outside beauty
+- type: pp_radar
+  pill: MARKET MAP
+  label: LAST-MILE DELIVERY
+  title: 'Who is in last-mile delivery,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to last-mile delivery
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/veho.png
+  - ../../assets/logos/pp/uniuni.png
+  - ../../assets/logos/pp/gobolt.png
+  - ../../assets/logos/pp/packfleet.png
+  - ../../assets/logos/pp/relay.png
+  - ../../assets/logos/pp/stuart.png
+  - ../../assets/logos/pp/better-trucks.png
+  - ../../assets/logos/pp/jitsu.png
+  TL:
+    src: ../../assets/logos/pp/onfleet.png
+    name: Onfleet
+    text: routing and dispatch software coordinates fleets but does not itself execute deliveries with a business model that rema
+  TR:
+    src: ../../assets/logos/pp/flexport.png
+    name: Flexport
+    text: global freight forwarding focuses on long haul logistics rather than final mile delivery with a business model that rem
+  BL:
+    src: ../../assets/logos/pp/uber.png
+    name: Uber
+    text: 'Direct handles last mile delivery, while ride hailing remains a major business with a business model that remains '
+  BR:
+    src: ../../assets/logos/pp/doordash.png
+    name: DoorDash
+    text: 'executes local delivery at scale, but marketplace demand generation is also central with a business model that remains '
+- type: pp_radar
+  pill: MARKET MAP
+  label: MACHINE VISION
+  title: 'Which companies really
+
+    belong in machine vision?'
+  caption:
+  - Distance to the center reflects how central each company is to machine vision
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/cognex.png
+  - ../../assets/logos/pp/keyence.png
+  - ../../assets/logos/pp/basler.png
+  - ../../assets/logos/pp/teledyne-dalsa.png
+  - ../../assets/logos/pp/sick.png
+  - ../../assets/logos/pp/zebra-technologies.png
+  - ../../assets/logos/pp/zivid.png
+  - ../../assets/logos/pp/overview-ai.png
+  TL:
+    src: ../../assets/logos/pp/axis-communications.png
+    name: Axis Communications
+    text: builds industrial-grade cameras, but its core use is video surveillance rather than automated factory decisions
+  TR:
+    src: ../../assets/logos/pp/adobe.png
+    name: Adobe
+    text: develops imaging software for creative workflows, not industrial inspection, robot guidance or factory control
+  BL:
+    src: ../../assets/logos/pp/landing-ai.png
+    name: Landing AI
+    text: supports industrial visual inspection, but its computer vision platform also serves broader use cases
+  BR:
+    src: ../../assets/logos/pp/instrumental.png
+    name: Instrumental
+    text: uses visual AI for factory inspection, but also sells broader manufacturing data and analytics software
+- type: pp_radar
+  pill: MARKET MAP
+  label: MGA
+  title: 'Which companies really belong
+
+    in managing general agent (MGA)?'
+  caption:
+  - Distance to the center reflects how central each company is to managing general agent (MGA)
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/coalition.png
+  - ../../assets/logos/pp/at-bay.png
+  - ../../assets/logos/pp/coterie.png
+  - ../../assets/logos/pp/vouch.png
+  - ../../assets/logos/pp/counterpart.png
+  - ../../assets/logos/pp/ledgebrook.png
+  - ../../assets/logos/pp/floodflash.png
+  - ../../assets/logos/pp/resilience.png
+  TL:
+    src: ../../assets/logos/pp/policygenius.png
+    name: Policygenius
+    text: distributes insurance to consumers, but it is a broker marketplace without delegated underwriting authority
+  TR:
+    src: ../../assets/logos/pp/state-farm.png
+    name: State Farm
+    text: is a carrier taking insurance risk on its own balance sheet, not a delegated-authority MGA
+  BL:
+    src: ../../assets/logos/pp/tint.png
+    name: Tint
+    text: structures embedded insurance programs, while its platform also acts as infrastructure for distribution partners
+  BR:
+    src: ../../assets/logos/pp/boost.png
+    name: Boost
+    text: supplies embedded insurance infrastructure and programs, with MGA functions alongside broader insurance technology
+- type: pp_radar
+  pill: MARKET MAP
+  label: MARITIME AUTONOMY
+  title: 'Who is in maritime autonomy,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to maritime autonomy
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/saildrone.png
+  - ../../assets/logos/pp/saronic.png
+  - ../../assets/logos/pp/ocean-infinity.png
+  - ../../assets/logos/pp/sea-machines-robotics.png
+  - ../../assets/logos/pp/orca-ai.png
+  - ../../assets/logos/pp/havocai.png
+  - ../../assets/logos/pp/greensea-iq.png
+  - ../../assets/logos/pp/maritime-robotics.png
+  TL:
+    src: ../../assets/logos/pp/anduril.png
+    name: Anduril
+    text: builds autonomous maritime systems, but its business also spans air, land and other defense domains
+  TR:
+    src: ../../assets/logos/pp/maersk.png
+    name: Maersk
+    text: operates global shipping and logistics services, but it is not primarily a developer of autonomous vessel systems
+  BL:
+    src: ../../assets/logos/pp/exail.png
+    name: Exail
+    text: builds autonomous maritime robots, but it also sells navigation, aerospace and photonics systems outside maritime
+  BR:
+    src: ../../assets/logos/pp/avikus.png
+    name: Avikus
+    text: develops vessel autonomy and navigation, but it is a technology unit inside the broader HD Hyundai group
+- type: pp_radar
+  pill: MARKET MAP
+  label: METAL 3D PRINTING
+  title: 'Which companies really belong
+
+    in metal additive manufacturing?'
+  caption:
+  - Distance to the center reflects how central each company is to metal additive manufacturing
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/eos.png
+  - ../../assets/logos/pp/nikon-slm-solutions.png
+  - ../../assets/logos/pp/colibrium-additive.png
+  - ../../assets/logos/pp/renishaw.png
+  - ../../assets/logos/pp/additive-industries.png
+  - ../../assets/logos/pp/velo3d.png
+  - ../../assets/logos/pp/meltio.png
+  - ../../assets/logos/pp/spee3d.png
+  TL:
+    src: ../../assets/logos/pp/carbon.png
+    name: Carbon
+    text: is a major additive manufacturer, but its platform centers on polymer printing rather than metal parts
+  TR:
+    src: ../../assets/logos/pp/autodesk.png
+    name: Autodesk
+    text: supports additive workflows with design software, but it does not build metal printers or feedstocks
+  BL:
+    src: ../../assets/logos/pp/materialise.png
+    name: Materialise
+    text: serves metal additive production, but much of its business is software and broader 3D printing services
+  BR:
+    src: ../../assets/logos/pp/3d-systems.png
+    name: 3D Systems
+    text: sells metal additive systems, but a large share of its portfolio remains polymer printing and services
+- type: pp_radar
+  pill: MARKET MAP
+  label: MORTGAGE TECHNOLOGY
+  title: 'Which companies really belong
+
+    in mortgage technology?'
+  caption:
+  - Distance to the center reflects how central each company is to mortgage technology
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/vesta.png
+  - ../../assets/logos/pp/maxwell.png
+  - ../../assets/logos/pp/valon.png
+  - ../../assets/logos/pp/stavvy.png
+  - ../../assets/logos/pp/ocrolus.png
+  - ../../assets/logos/pp/candor.png
+  - ../../assets/logos/pp/snapdocs.png
+  - ../../assets/logos/pp/polly.png
+  TL:
+    src: ../../assets/logos/pp/zillow.png
+    name: Zillow
+    text: supports home shopping and mortgage leads, but property search remains outside mortgage technology infrastructure
+  TR:
+    src: ../../assets/logos/pp/redfin.png
+    name: Redfin
+    text: is primarily a real estate brokerage and listings platform rather than mortgage lending technology software
+  BL:
+    src: ../../assets/logos/pp/ice-mortgage.png
+    name: ICE Mortgage
+    text: has leading mortgage software, but it sits inside a large public exchange and financial-data company
+  BR:
+    src: ../../assets/logos/pp/blend.png
+    name: Blend
+    text: digitizes mortgage origination, while the platform also serves consumer banking and other lending products
+- type: pp_radar
+  pill: MARKET MAP
+  label: ONLINE TUTORING
+  title: 'Who is in online tutoring,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to online tutoring
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/preply.png
+  - ../../assets/logos/pp/gostudent.png
+  - ../../assets/logos/pp/wyzant.png
+  - ../../assets/logos/pp/outschool.png
+  - ../../assets/logos/pp/cambly.png
+  - ../../assets/logos/pp/superprof.png
+  - ../../assets/logos/pp/brighterly.png
+  - ../../assets/logos/pp/tutor-com.png
+  TL:
+    src: ../../assets/logos/pp/coursera.png
+    name: Coursera
+    text: offers online courses and coaching tools, but most learning is course-based rather than personalized tutoring
+  TR:
+    src: ../../assets/logos/pp/instructure.png
+    name: Instructure
+    text: provides learning-management software, not direct personalized instruction between tutors and learners
+  BL:
+    src: ../../assets/logos/pp/duolingo.png
+    name: Duolingo
+    text: adds AI conversation and tutoring features, but most usage remains self-study language learning
+  BR:
+    src: ../../assets/logos/pp/varsity-tutors.png
+    name: Varsity Tutors
+    text: offers direct tutoring plus broader classes and school programs, so only part is pure one-to-one tutoring
+- type: pp_radar
+  pill: MARKET MAP
+  label: OPTICAL INTERCONNECT
+  title: 'Who is in optical interconnect,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to optical interconnect
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/ayar-labs.png
+  - ../../assets/logos/pp/lightmatter.png
+  - ../../assets/logos/pp/ranovus.png
+  - ../../assets/logos/pp/xscape-photonics.png
+  - ../../assets/logos/pp/scintil-photonics.png
+  - ../../assets/logos/pp/salience-labs.png
+  - ../../assets/logos/pp/avicena.png
+  - ../../assets/logos/pp/hyperlight.png
+  TL:
+    src: ../../assets/logos/pp/broadcom.png
+    name: Broadcom
+    text: sells networking and optical components, but its business extends beyond dedicated optical interconnects
+  TR:
+    src: ../../assets/logos/pp/dell-technologies.png
+    name: Dell Technologies
+    text: builds systems that use optical links, but it does not primarily develop optical interconnect technology
+  BL:
+    src: ../../assets/logos/pp/intel.png
+    name: Intel
+    text: develops silicon photonics and optical I/O, but most of its business remains general computing chips
+  BR:
+    src: ../../assets/logos/pp/lumentum.png
+    name: Lumentum
+    text: supplies lasers and optical components for interconnects, but also serves telecom and industrial laser markets
+- type: pp_radar
+  pill: MARKET MAP
+  label: ORDER-TO-CASH
+  title: 'Which companies really belong
+
+    in order-to-cash automation?'
+  caption:
+  - Distance to the center reflects how central each company is to order-to-cash automation
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/highradius.png
+  - ../../assets/logos/pp/billtrust.png
+  - ../../assets/logos/pp/versapay.png
+  - ../../assets/logos/pp/tesorio.png
+  - ../../assets/logos/pp/upflow.png
+  - ../../assets/logos/pp/kolleno.png
+  - ../../assets/logos/pp/growfin.png
+  - ../../assets/logos/pp/gaviti.png
+  TL:
+    src: ../../assets/logos/pp/tipalti.png
+    name: Tipalti
+    text: automates payables and supplier workflows, adjacent to O2C but focused on money going out
+  TR:
+    src: ../../assets/logos/pp/adp.png
+    name: ADP
+    text: runs payroll and HCM workflows, touching finance operations but not the customer order-to-cash process
+  BL:
+    src: ../../assets/logos/pp/blackline.png
+    name: BlackLine
+    text: includes AR automation, while much of its platform is record-to-report and financial close software
+  BR:
+    src: ../../assets/logos/pp/esker.png
+    name: Esker
+    text: has a full receivables suite, but also sells source-to-pay automation outside the O2C boundary
+- type: pp_radar
+  pill: MARKET MAP
+  label: PAYMENT PROCESSING
+  title: 'Who is in payment processing,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to payment processing
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/stripe.png
+  - ../../assets/logos/pp/checkout-com.png
+  - ../../assets/logos/pp/adyen.png
+  - ../../assets/logos/pp/airwallex.png
+  - ../../assets/logos/pp/mollie.png
+  - ../../assets/logos/pp/razorpay.png
+  - ../../assets/logos/pp/primer.png
+  - ../../assets/logos/pp/payrails.png
+  TL:
+    src: ../../assets/logos/pp/wise.png
+    name: Wise
+    text: moves money cross-border for consumers and businesses, but merchant payment processing is not its core
+  TR:
+    src: ../../assets/logos/pp/quickbooks.png
+    name: QuickBooks
+    text: records accounting activity and can accept payments, but accounting software is outside processing
+  BL:
+    src: ../../assets/logos/pp/paypal.png
+    name: PayPal
+    text: processes merchant payments, while a large share of the business is a consumer wallet and checkout brand
+  BR:
+    src: ../../assets/logos/pp/block.png
+    name: Block
+    text: square processes merchant payments, while Block also owns Cash App and other consumer financial products
+- type: pp_radar
+  pill: MARKET MAP
+  label: PC & CONSOLE GAMING
+  title: 'Which companies really belong
+
+    in PC and console gaming?'
+  caption:
+  - Distance to the center reflects how central each company is to PC and console gaming
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/epic-games.png
+  - ../../assets/logos/pp/larian.png
+  - ../../assets/logos/pp/valve.png
+  - ../../assets/logos/pp/ioi.png
+  - ../../assets/logos/pp/remedy.png
+  - ../../assets/logos/pp/cd-projekt.png
+  - ../../assets/logos/pp/supergiant.png
+  - ../../assets/logos/pp/frost-giant.png
+  TL:
+    src: ../../assets/logos/pp/unity.png
+    name: Unity
+    text: supplies game-development software, but it does not primarily develop or publish PC and console game titles
+  TR:
+    src: ../../assets/logos/pp/nvidia.png
+    name: NVIDIA
+    text: sells computing hardware and platforms, so game development and publishing are not its core business
+  BL:
+    src: ../../assets/logos/pp/_ini_tencent.png
+    name: Tencent
+    text: owns and invests in game companies, but its broader business includes social platforms, fintech and cloud servic
+  BR:
+    src: ../../assets/logos/pp/microsoft.png
+    name: Microsoft
+    text: publishes major games, but it also operates hardware, cloud and software businesses far beyond gaming
+- label: PC & CONSOLE GAMING
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which PC and console gaming company
+
+    has the most complete tech today?'
+  companies:
+  - name: EA
+    src: ../../assets/logos/pp/ea.png
+  - name: Ubisoft
+    src: ../../assets/logos/pp/ubisoft.png
+  - name: TakeTwo
+    src: ../../assets/logos/pp/taketwo.png
+  - name: CDProjekt
+    src: ../../assets/logos/pp/cdprojekt.png
+  - name: Capcom
+    src: ../../assets/logos/pp/capcom.png
+  features:
+  - header: PC|launcher
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Cross|play
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Cloud|saves
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Mod|support
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Subscription|support
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Own|engine
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Anti|cheat
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: PHYSICAL SECURITY
+  title: 'Which companies really
+
+    belong in physical security?'
+  caption:
+  - Distance to the center reflects how central each company is to physical security
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/genetec.png
+  - ../../assets/logos/pp/verkada.png
+  - ../../assets/logos/pp/avigilon.png
+  - ../../assets/logos/pp/axis-communications.png
+  - ../../assets/logos/pp/hid.png
+  - ../../assets/logos/pp/brivo.png
+  - ../../assets/logos/pp/rhombus.png
+  - ../../assets/logos/pp/coram-ai.png
+  TL:
+    src: ../../assets/logos/pp/okta.png
+    name: Okta
+    text: manages digital identity and application access, not doors, cameras, intrusion sensors or physical sites
+  TR:
+    src: ../../assets/logos/pp/palo-alto-networks.png
+    name: Palo Alto Networks
+    text: protects digital networks and cloud systems, not buildings, doors, cameras or physical assets
+  BL:
+    src: ../../assets/logos/pp/johnson-controls.png
+    name: Johnson Controls
+    text: sells building security systems, but security is only one part of its much larger building portfolio
+  BR:
+    src: ../../assets/logos/pp/flock-safety.png
+    name: Flock Safety
+    text: sells cameras and license plate recognition, but much of its business targets public safety and law enforcement
+- label: POS SOFTWARE
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the POS software market forward, year after year?
+  events:
+  - year: '1973'
+    text: Electronic registers digitize transaction dat
+    impact: 1.5
+  - year: '1986'
+    text: Barcode scanning speeds retail checkout
+    impact: 1.0
+  - year: '1995'
+    text: Online ordering expands digital commerce
+    impact: 1.0
+  - year: '1996'
+    text: OPOS standardizes retail device software
+    impact: 3.0
+  - year: '1997'
+    text: Contactless payment reduces checkout friction
+    impact: 1.0
+  - year: '2001'
+    text: JavaPOS improves device interoperability
+    impact: 1.0
+  - year: '2002'
+    text: NFC standard enables tap payments
+    impact: 1.5
+  - year: '2003'
+    text: UnifiedPOS simplifies multi-vendor integration
+    impact: 1.0
+  - year: '2008'
+    text: Restaurants adopt contactless payments
+    impact: 1.0
+  - year: '2009'
+    text: Square makes cloud POS accessible
+    impact: 1.5
+  - year: '2010'
+    text: iPad lowers POS hardware costs
+    impact: 2.0
+  - year: '2011'
+    text: Mobile chip readers expand acceptance
+    impact: 1.0
+  - year: '2012'
+    text: Cloud POS reaches small merchants
+    impact: 1.5
+  - year: '2013'
+    text: Omnichannel inventory links stores online
+    impact: 1.0
+  - year: '2014'
+    text: Apple Pay accelerates tap checkout
+    impact: 1.0
+  - year: '2014'
+    text: Smart terminals combine apps and payments
+    impact: 2.0
+  - year: '2015'
+    text: EMV migration modernizes US terminals
+    impact: 1.0
+  - year: '2016'
+    text: Integrated payments fund cheaper software
+    impact: 1.0
+  - year: '2017'
+    text: Cloud APIs connect merchant apps
+    impact: 1.5
+  - year: '2018'
+    text: Mobile POS spreads across service businesses
+    impact: 3.0
+  - year: '2019'
+    text: Analytics turns POS into operating software
+    impact: 1.0
+  - year: '2020'
+    text: Covid accelerates contactless checkout
+    impact: 1.5
+  - year: '2021'
+    text: Buy-online-pickup-in-store reshapes POS
+    impact: 2.0
+  - year: '2022'
+    text: Labor shortages boost self-checkout demand
+    impact: 1.0
+  - year: '2023'
+    text: Unified commerce becomes core requirement
+    impact: 1.5
+  - year: '2024'
+    text: AI enters merchant reporting workflows
+    impact: 2.0
+  - year: '2025'
+    text: POS platforms bundle more financial tools
+    impact: 1.0
+  - year: '2026'
+    text: Toast reaches larger merchant footprint
+    impact: 3.0
+  - year: '2026'
+    text: FTC scrutiny targets POS contracting
+    impact: 1.0
+  - year: '2026'
+    text: AI assistants enter POS platforms
+    impact: 1.0
+  note:
+  - We kept the events we believe pushed POS software forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: PREDICTION MARKETS
+  title: 'Who is in prediction markets,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to prediction markets
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/kalshi.png
+  - ../../assets/logos/pp/polymarket.png
+  - ../../assets/logos/pp/predictit.png
+  - ../../assets/logos/pp/limitless.png
+  - ../../assets/logos/pp/opinion.png
+  - ../../assets/logos/pp/myriad.png
+  - ../../assets/logos/pp/novig.png
+  - ../../assets/logos/pp/manifold.png
+  TL:
+    src: ../../assets/logos/pp/draftkings.png
+    name: DraftKings
+    text: is a sportsbook with house priced bets, not a general event contract market where users trade contracts
+  TR:
+    src: ../../assets/logos/pp/morning-consult.png
+    name: Morning Consult
+    text: measures opinions through polling and surveys, not through tradable contracts tied to future outcomes
+  BL:
+    src: ../../assets/logos/pp/crypto-com.png
+    name: Crypto.com
+    text: offers event contracts in some markets, while most of its business remains crypto trading and payments
+  BR:
+    src: ../../assets/logos/pp/robinhood.png
+    name: Robinhood
+    text: distributes event contracts inside a broad brokerage, so prediction markets are only one product line
+- type: pp_radar
+  pill: MARKET MAP
+  label: MACHINE HEALTH
+  title: 'Which companies really belong
+
+    in predictive maintenance?'
+  caption:
+  - Distance to the center reflects how central each company is to predictive maintenance
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/augury.png
+  - ../../assets/logos/pp/tractian.png
+  - ../../assets/logos/pp/assetwatch.png
+  - ../../assets/logos/pp/samotics.png
+  - ../../assets/logos/pp/nanoprecise.png
+  - ../../assets/logos/pp/kcf-technologies.png
+  - ../../assets/logos/pp/waites.png
+  - ../../assets/logos/pp/sensemore.png
+  TL:
+    src: ../../assets/logos/pp/maintainx.png
+    name: MaintainX
+    text: manages maintenance work and schedules, but predictive failure sensing is not the core of its product
+  TR:
+    src: ../../assets/logos/pp/servicenow.png
+    name: ServiceNow
+    text: manages enterprise workflows and assets, but it does not primarily assess machine condition or failure risk
+  BL:
+    src: ../../assets/logos/pp/abb.png
+    name: ABB
+    text: offers predictive maintenance tools, but most revenue comes from broader electrification and automation
+  BR:
+    src: ../../assets/logos/pp/siemens.png
+    name: Siemens
+    text: sells predictive maintenance tools, but they are one part of a much broader automation and software portfolio
+- type: pp_radar
+  pill: MARKET MAP
+  label: PRIVATE MARKETS TECH
+  title: 'Who is in private markets software,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to private markets software
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/juniper-square.png
+  - ../../assets/logos/pp/allvue.png
+  - ../../assets/logos/pp/dynamo.png
+  - ../../assets/logos/pp/affinity.png
+  - ../../assets/logos/pp/carta.png
+  - ../../assets/logos/pp/chronograph.png
+  - ../../assets/logos/pp/passthrough.png
+  - ../../assets/logos/pp/standard-metrics.png
+  TL:
+    src: ../../assets/logos/pp/pitchbook.png
+    name: PitchBook
+    text: private-market data supports investors, but it is market intelligence rather than fund operations software
+  TR:
+    src: ../../assets/logos/pp/blackrock.png
+    name: BlackRock
+    text: invests in private markets, but the asset manager itself is not a private-markets software vendor
+  BL:
+    src: ../../assets/logos/pp/efront.png
+    name: eFront
+    text: serves private capital workflows, but it sits inside BlackRock and a broader institutional technology stack
+  BR:
+    src: ../../assets/logos/pp/dealcloud.png
+    name: DealCloud
+    text: is core deal CRM for private capital, while Intapp also sells software to legal and advisory firms
+- type: pp_radar
+  pill: MARKET MAP
+  label: QUANTUM SENSING
+  title: 'Who is in quantum sensing,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to quantum sensing
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/q-ctrl.png
+  - ../../assets/logos/pp/aosense.png
+  - ../../assets/logos/pp/exail.png
+  - ../../assets/logos/pp/sandboxaq.png
+  - ../../assets/logos/pp/sbquantum.png
+  - ../../assets/logos/pp/qnami.png
+  - ../../assets/logos/pp/atomionics.png
+  - ../../assets/logos/pp/quantumdiamonds.png
+  TL:
+    src: ../../assets/logos/pp/ionq.png
+    name: IonQ
+    text: is primarily a quantum computing company, even though acquisitions give it exposure to quantum sensing technology
+  TR:
+    src: ../../assets/logos/pp/ibm.png
+    name: IBM
+    text: is a major quantum computing vendor, but it does not primarily sell quantum sensors for field measurements
+  BL:
+    src: ../../assets/logos/pp/q-ant.png
+    name: Q.ANT
+    text: develops quantum sensing technology, but it also builds photonic computing products outside the sensing market
+  BR:
+    src: ../../assets/logos/pp/advanced-navigation.png
+    name: Advanced Navigation
+    text: develops quantum-enhanced navigation, but it also sells many classical inertial navigation products
+- label: RESTAURANT TECHNOLOGY
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the restaurant technology market forward, year after year?
+  events:
+  - year: '1973'
+    text: Electronic POS speeds restaurant checkout
+    impact: 1.5
+  - year: '1980'
+    text: Touchscreens simplify restaurant order entry
+    impact: 1.0
+  - year: '1984'
+    text: Kitchen displays replace paper tickets
+    impact: 1.0
+  - year: '1995'
+    text: Online ordering creates digital demand
+    impact: 3.0
+  - year: '1998'
+    text: Cloud software reaches restaurant operators
+    impact: 1.0
+  - year: '2000'
+    text: Broadband links multi-site restaurant systems
+    impact: 1.0
+  - year: '2004'
+    text: Web reservations normalize digital booking
+    impact: 1.5
+  - year: '2007'
+    text: Smartphones move ordering onto mobile
+    impact: 1.0
+  - year: '2009'
+    text: Cloud POS lowers restaurant IT burden
+    impact: 1.0
+  - year: '2010'
+    text: iPad makes tablet POS practical
+    impact: 1.5
+  - year: '2011'
+    text: Mobile payments reduce checkout friction
+    impact: 2.0
+  - year: '2012'
+    text: Delivery APIs connect restaurant systems
+    impact: 1.0
+  - year: '2013'
+    text: Loyalty apps capture first-party diners
+    impact: 1.5
+  - year: '2014'
+    text: Apple Pay expands contactless checkout
+    impact: 1.0
+  - year: '2015'
+    text: Delivery marketplaces force POS integrations
+    impact: 1.0
+  - year: '2016'
+    text: Cloud kitchens increase software dependence
+    impact: 2.0
+  - year: '2017'
+    text: KDS adoption digitizes back-of-house
+    impact: 1.0
+  - year: '2018'
+    text: Labor shortages boost scheduling automation
+    impact: 1.0
+  - year: '2019'
+    text: Restaurant SaaS consolidates more workflows
+    impact: 1.5
+  - year: '2020'
+    text: Covid makes digital ordering essential
+    impact: 3.0
+  - year: '2021'
+    text: QR menus normalize contactless service
+    impact: 1.0
+  - year: '2022'
+    text: Inflation boosts inventory automation demand
+    impact: 1.5
+  - year: '2023'
+    text: AI voice ordering reaches drive-throughs
+    impact: 2.0
+  - year: '2024'
+    text: Unified commerce reduces channel fragmentation
+    impact: 1.0
+  - year: '2024'
+    text: Restaurant data platforms deepen personalizat
+    impact: 1.5
+  - year: '2025'
+    text: DoorDash integration standards reward reliabi
+    impact: 2.0
+  - year: '2025'
+    text: AI assistants enter restaurant operations
+    impact: 1.0
+  - year: '2026'
+    text: AI discovery shifts restaurant marketing
+    impact: 3.0
+  - year: '2026'
+    text: Connected systems become profit priority
+    impact: 1.0
+  - year: '2026'
+    text: DoorDash raises integration quality bars
+    impact: 1.0
+  note:
+  - We kept the events we believe pushed restaurant technology forward the most
+  - Ratings are our own estimates, and all our sources are at the end of the report
+- label: SALES INTELLIGENCE
+  type: pp_tech
+  section: Tech and infra
+  title: 'Who has the most complete
+
+    sales intelligence tech today?'
+  companies:
+  - name: ZoomInfo
+    src: ../../assets/logos/pp/zoominfo.png
+  - name: Apollo
+    src: ../../assets/logos/pp/apollo.png
+  - name: Cognism
+    src: ../../assets/logos/pp/cognism.png
+  - name: 6sense
+    src: ../../assets/logos/pp/6sense.png
+  - name: Clay
+    src: ../../assets/logos/pp/clay.png
+  features:
+  - header: Contact|data
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Mobile|data
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Intent|data
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Technographic|support
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: API|access
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: CRM|sync
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: AI|research
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+- type: pp_radar
+  pill: MARKET MAP
+  label: SKINCARE
+  title: 'What is actually included
+
+    in the skincare market?'
+  caption:
+  - Distance to the center reflects how central each company is to skincare
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/cerave.png
+  - ../../assets/logos/pp/the-ordinary.png
+  - ../../assets/logos/pp/la-roche-posay.png
+  - ../../assets/logos/pp/bubble.png
+  - ../../assets/logos/pp/rhode.png
+  - ../../assets/logos/pp/skinfix.png
+  - ../../assets/logos/pp/oneskin.png
+  - ../../assets/logos/pp/experiment.png
+  TL:
+    src: ../../assets/logos/pp/sephora.png
+    name: Sephora
+    text: distributes skincare from many brands, but its main business is beauty retail rather than manufacturing skincare
+  TR:
+    src: ../../assets/logos/pp/maybelline.png
+    name: Maybelline
+    text: is primarily a makeup brand, so its core products sit outside cleansers, moisturizers and topical skincare
+  BL:
+    src: ../../assets/logos/pp/honest.png
+    name: Honest
+    text: the Honest Company sells skincare, but much of its catalog is baby, household and personal care outside skincare
+  BR:
+    src: ../../assets/logos/pp/glossier.png
+    name: Glossier
+    text: sells meaningful skincare, but makeup remains a major part of its assortment and brand identity
+- type: pp_radar
+  pill: MARKET MAP
+  label: SMB LENDING
+  title: 'What is actually included
+
+    in the SMB lending market?'
+  caption:
+  - Distance to the center reflects how central each company is to SMB lending
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/bluevine.png
+  - ../../assets/logos/pp/fundbox.png
+  - ../../assets/logos/pp/iwoca.png
+  - ../../assets/logos/pp/liberis.png
+  - ../../assets/logos/pp/wayflyer.png
+  - ../../assets/logos/pp/capchase.png
+  - ../../assets/logos/pp/fora-financial.png
+  - ../../assets/logos/pp/credibly.png
+  TL:
+    src: ../../assets/logos/pp/brex.png
+    name: Brex
+    text: offers business cards and spend tools, with lending features but not a primary SMB lending business
+  TR:
+    src: ../../assets/logos/pp/shopify.png
+    name: Shopify
+    text: offers merchant financing, but ecommerce software and payments remain the core business
+  BL:
+    src: ../../assets/logos/pp/block.png
+    name: Block
+    text: square Loans finances sellers inside Square, while Block also operates payments, Cash App and other businesses
+  BR:
+    src: ../../assets/logos/pp/paypal.png
+    name: PayPal
+    text: provides merchant working-capital loans, while payments and wallets make up the broader company
+- type: pp_radar
+  pill: MARKET MAP
+  label: WEB3 INFRASTRUCTURE
+  title: 'Who is in Web3 infrastructure,
+
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how central each company is to Web3 infrastructure
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp/alchemy.png
+  - ../../assets/logos/pp/quicknode.png
+  - ../../assets/logos/pp/blockdaemon.png
+  - ../../assets/logos/pp/tenderly.png
+  - ../../assets/logos/pp/goldsky.png
+  - ../../assets/logos/pp/conduit.png
+  - ../../assets/logos/pp/caldera.png
+  - ../../assets/logos/pp/gelato.png
+  TL:
+    src: ../../assets/logos/pp/metamask.png
+    name: MetaMask
+    text: is a consumer wallet and dapp gateway, not primarily infrastructure sold to teams building blockchain apps
+  TR:
+    src: ../../assets/logos/pp/opensea.png
+    name: OpenSea
+    text: is a consumer NFT marketplace, not developer infrastructure for operating nodes, APIs or blockchains
+  BL:
+    src: ../../assets/logos/pp/consensys.png
+    name: Consensys
+    text: owns infrastructure products such as Infura, while also operating wallets and broader Web3 software
+  BR:
+    src: ../../assets/logos/pp/chainlink.png
+    name: Chainlink
+    text: provides oracle infrastructure to developers, but its decentralized networks also function as token protocols

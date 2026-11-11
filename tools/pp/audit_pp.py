@@ -85,8 +85,32 @@ def run(slug):
         pg.goto(f'file:///home/claude/nmp-decks/decks/{slug}/deck.html'); pg.evaluate('document.fonts.ready'); pg.wait_for_timeout(2500)
         pg.add_style_tag(content='.slide{margin:0!important}')
         r = pg.evaluate(JS); b.close()
+    r = list(r) + data_checks(slug)
     for x in r: print(*x, sep=' | ')
     print(len(r), 'issues'); return r
+def data_checks(slug):
+    """Audit of 12 Nov 2026 (Pierre: holistic audit). Rules found in the live slides:
+    RADAR_DUPNAME: a radar side note never starts with the company name again (bold name + 'persona verifies...').
+    TRUNC_WORD: research tools cut words at 11 letters (Subscriptio, Traceabilit, Technograph, fragmentatio)."""
+    import yaml, re
+    out = []; Y = yaml.safe_load(open(f'/home/claude/nmp-decks/decks/{slug}/deck.yaml'))
+    def walk(o, n, T):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k not in ('src', 'srcs', 'slug', 'domain', 'href', 'inside', 'edge', 'outside'): walk(v, n, T)
+        elif isinstance(o, list):
+            for v in o: walk(v, n, T)
+        elif isinstance(o, str) and not o.startswith('../'):
+            m = re.search(r'\b\w{6,}(tio|ilit|ograph)\b', o.replace('|', ' '))
+            if m: out.append([n, T, 'TRUNC_WORD', m.group(0)])
+    for i, s in enumerate(Y['slides'], 1):
+        T = s.get('type', '')
+        if T == 'pp_radar':
+            for k in ('TL', 'TR', 'BL', 'BR'):
+                c = s.get(k)
+                if c and c.get('text') and c['text'].split()[0].lower().strip(',') == c['name'].split()[0].lower(): out.append([i, T, 'RADAR_DUPNAME', c['name']])
+        walk(s, i, T)
+    return out
 if __name__ == '__main__': run(sys.argv[1])
 
 
