@@ -48,8 +48,8 @@ def balance_note(note):
         if l2.endswith(sf): core = l2[:-len(sf)]
     if core is None: return note
     W = _F.getlength
-    l1s = [x.rstrip(' ,') for x in [l1] + ([l1.split(', from ')[0]] if ', from ' in l1 else []) + ([l1.split(' from ')[0]] if ' from ' in l1 and len(l1.split(' from ')[0]) > 40 else [])]
-    cores = {core, core.replace(' of the market', ''), core.replace(' our own ', ' our '), core.replace(' our own ', ' our ').replace(' of the market', '')}
+    l1s = [x.rstrip(' ,') for x in [l1, l1.replace(' in recent years', ' over the last few years')] + ([l1.split(', from ')[0]] if ', from ' in l1 else []) + ([l1.split(' from ')[0]] if ' from ' in l1 and len(l1.split(' from ')[0]) > 40 else [])]
+    cores = {core, re.sub(r', [^,]+ and ', ' and ', core), core.replace(' of the market', ''), core.replace(' our own ', ' our '), core.replace(' our own ', ' our ').replace(' of the market', '')}
     best = min(((abs(W(a) - W(c + sf)) / max(W(a), W(c + sf)), a, c + sf) for a in l1s for c in cores for sf in SUFS), key=lambda t: t[0])
     return [best[1], best[2]]
 
