@@ -33,6 +33,13 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   for (let i = 1; i < xl.length; i++) if (xl[i][0] - xl[i - 1][1] < 6) add('XLABEL_OVERLAP', xl[i - 1][2].split('\n')[0] + ' / ' + xl[i][2].split('\n')[0]);
   // 2d. dotted foot line under the note on every slide (Pierre 11 Nov: missing on the 100 live radars)
   const fl = s.querySelector('.foot-line'); if (!fl || !fl.getBoundingClientRect().width) add('FOOT_LINE', 'missing');
+  // 2e. footnote = notes workshop (Pierre 10-11 Nov): a list of 1 to 3 lines, one idea per line, no dot inside or at the end, starts with We
+  const ntt = s.querySelector('.note');
+  if (ntt) { const ls = [...ntt.querySelectorAll('.nl')].map(e => e.innerText.trim());
+    if (!ls.length) add('NOTE_FORMAT', 'paragraph, not lines');
+    else { if (ls.length > 3) add('NOTE_FORMAT', ls.length + ' lines');
+      ls.forEach(l => { if (/\.$/.test(l) || /\. [A-Z]/.test(l)) add('NOTE_FORMAT', 'dot: ' + l.slice(0, 40)); });
+      if (T !== 'pp_radar' && !/^We /.test(ls[0])) add('NOTE_FORMAT', 'not We: ' + ls[0].slice(0, 30)); } }
   // 3. logos: no initials tile
   const nt = s.querySelectorAll('.nt').length; if (nt) add('LOGO_MISSING', nt + ' name tile(s)');
 

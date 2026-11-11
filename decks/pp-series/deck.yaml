@@ -190,7 +190,9 @@ slides:
   expl: Generative AI went from writing a few lines of copy to producing images, videos and whole campaigns. Marketing teams started searching for tools that create and test ads faster, and big ad platforms
     built AI into their own products.
   date: Lately.
-  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+  note:
+  - We tracked how often people around the world googled this term on Google Trends
+  - We used the last five years of searches, with all the sources at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_trends
   section: Market opportunity
@@ -203,7 +205,9 @@ slides:
   expl: Novartis showed with Pluvicto that radioactive drugs can find and kill cancer cells. Big pharma then bought radiopharma startups for billions, and patients and investors went looking for how radioligand
     therapy works.
   date: Lately.
-  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+  note:
+  - We tracked how often people around the world googled this term on Google Trends
+  - We used the last five years of searches, with all the sources at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_trends
   section: Market opportunity
@@ -216,7 +220,9 @@ slides:
   expl: Sending money between countries is still slow and costly for many businesses. Stablecoins and new payment networks promised near instant transfers, the US passed its first stablecoin law, and companies
     went looking for cheaper ways to pay abroad.
   date: Lately.
-  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+  note:
+  - We tracked how often people around the world googled this term on Google Trends
+  - We used the last five years of searches, with all the sources at the end of the report
 - label: FRAUD PREVENTION
   type: pp_trends
   section: Market opportunity
@@ -229,7 +235,9 @@ slides:
   expl: Cheap AI tools made it easy to clone a voice or a face. Scammers used fake videos of celebrities and fake calls from bosses, one of them cost engineering firm Arup $25M, and people went searching
     how to spot a deepfake scam.
   date: Lately.
-  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+  note:
+  - We tracked how often people around the world googled this term on Google Trends
+  - We used the last five years of searches, with all the sources at the end of the report
 - label: CARBON REMOVAL
   type: pp_trends
   section: Market opportunity
@@ -242,12 +250,16 @@ slides:
   expl: Cutting emissions is no longer enough to hit climate goals, so companies started paying to pull CO2 back out of the air. Microsoft signed record carbon removal deals, and searches for carbon removal
     kept growing.
   date: Lately.
-  note: With the help of Google Trends, we tracked how often people around the world googled this term over the last five years
+  note:
+  - We tracked how often people around the world googled this term on Google Trends
+  - We used the last five years of searches, with all the sources at the end of the report
 - label: PREDICTION MARKETS
   type: pp_curve
   section: Market opportunity
   title: Kalshi trades nine times more than it did in February
-  note: We used the monthly notional trading volume of Kalshi, the largest US prediction market, as tracked by DeFi Rate and pm.wiki. All the sources are included at the end of the report.
+  note:
+  - We used the monthly trading volume of Kalshi, the largest US prediction market
+  - We took it from DeFi Rate and pm.wiki, with all the sources at the end of the report
   points:
   - - Feb
     - 10.4
@@ -290,7 +302,9 @@ slides:
   type: pp_curve
   section: Market opportunity
   title: Shoppers keep paying more with Affirm, year after year
-  note: We used the yearly gross merchandise volume Affirm reports for its fiscal years ending in June. The 2027 point is the company's own outlook. All the sources are included at the end of the report.
+  note:
+  - We used the yearly gross merchandise volume Affirm reports for its fiscal years ending in June
+  - The 2027 point is the company's own outlook, and all our sources are at the end of the report
   points:
   - - FY2022
     - 15.5
@@ -326,7 +340,9 @@ slides:
   type: pp_curve
   section: Market opportunity
   title: More Indians ride electric scooters every year
-  note: We used yearly electric two-wheeler registrations in India from the Vahan portal, for fiscal years ending in March. All the sources are included at the end of the report.
+  note:
+  - We used yearly electric two-wheeler registrations in India from the Vahan portal
+  - Fiscal years end in March, and all our sources are listed at the end of the report
   points:
   - - FY2022
     - 0.25
@@ -359,7 +375,9 @@ slides:
   type: pp_curve
   section: Market opportunity
   title: Spending on 3D printing keeps climbing, year after year
-  note: We used global additive manufacturing revenue from the yearly Wohlers Report. The 2026 point is our forecast at the 2025 growth rate. All the sources are included at the end of the report.
+  note:
+  - We used the global additive manufacturing revenue of the yearly Wohlers Report
+  - The 2026 point is our own forecast, and all our sources are at the end of the report
   points:
   - - '2020'
     - 12.8
@@ -404,7 +422,9 @@ slides:
   cagr: 20
   lead: 'To be worth that much, '
   condition: the market must move from writing copy to running whole campaigns that marketers trust with budgets. It must also prove lower cost per sale than human teams, not just more content.
-  note: We compared forecasts from Grand View Research, The Business Research Company, Ken Research, and MarketsandMarkets, adjusted each one to our definition, and built a realistic range
+  note:
+  - We compared forecasts from Grand View Research, The Business Research Company, Ken Research, and MarketsandMarkets
+  - We adjusted each forecast to our definition and built a realistic range, and all the sources are included at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_cagr
   section: Market size
@@ -416,7 +436,9 @@ slides:
   lead: 'To get that big, '
   condition: the market must secure enough isotopes like lutetium and actinium to treat patients at scale. It must also build the hospital teams and delivery networks to give these short-lived drugs on
     time.
-  note: We compared forecasts from MarketsandMarkets, Polaris Market Research, IMARC Group, and Market.us, adjusted each one to our definition, and built a realistic range
+  note:
+  - We compared forecasts from MarketsandMarkets, Polaris Market Research, IMARC Group, and Market.us
+  - We adjusted each forecast to our definition and built a realistic range, with all the sources at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_cagr
   section: Market size
@@ -427,8 +449,9 @@ slides:
   cagr: 7
   lead: 'Yes, but '
   condition: the market must move business payments from slow correspondent banking to instant rails and stablecoin settlement, and still earn a margin as FX spreads keep shrinking for every corporate client.
-  note: We compared forecasts from Fortune Business Insights, Polaris Market Research, Allied Market Research, and Market Research (HHeuristics), adjusted each one to our definition, and built a realistic
-    range
+  note:
+  - We compared forecasts from Fortune Business Insights, Polaris Market Research, Allied Market Research, and Market Research (HHeuristics)
+  - We adjusted each forecast to our definition of the market and built a realistic range, and all the sources are included at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_cagr
   section: Market size
@@ -439,7 +462,9 @@ slides:
   cagr: 9
   lead: 'To fill that room, '
   condition: building codes must accept new cements, and builders must pay a small premium for them. Producers must also secure enough clay, slag and clean power to make them at scale.
-  note: We compared forecasts from The Business Research Company, IMARC, Fortune Business Insights and DataM Intelligence, adjusted each one to our definition, and built a realistic range
+  note:
+  - We compared forecasts from The Business Research Company, IMARC, Fortune Business Insights and DataM Intelligence
+  - We adjusted each forecast to our own definition and built a realistic range, and all our sources are at the end of the report
 - label: METAL 3D PRINTING
   type: pp_cagr
   section: Market size
@@ -450,7 +475,9 @@ slides:
   cagr: 15
   lead: 'To get that big, '
   condition: printed parts must move from prototypes and small batches to qualified series production. Printers must also get faster and cheaper, so a printed part beats a cast or machined one on cost.
-  note: We compared forecasts from The Business Research Company, AM Research, Lucintel and Wohlers Associates, adjusted each one to our definition, and built a realistic range
+  note:
+  - We compared forecasts from The Business Research Company, AM Research, Lucintel and Wohlers Associates
+  - We adjusted each forecast to our definition and built a realistic range, with all the sources at the end of the report
 - label: BUY NOW PAY LATER
   type: pp_donutv
   variant: B
@@ -479,8 +506,9 @@ slides:
     - ../../assets/logos/pp/two-inc.png
     - ../../assets/logos/pp/mondu.png
     - ../../assets/logos/pp/billie.png
-  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
-    sources are included at the end of the report.'
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
 - label: PREDICTION MARKETS
   type: pp_donutv
   variant: B
@@ -508,8 +536,9 @@ slides:
     logos:
     - ../../assets/logos/pp/novig.png
     - ../../assets/logos/pp/prophetx.png
-  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
-    sources are included at the end of the report.'
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
 - label: ELECTRIC TWO-WHEELER
   type: pp_donutv
   variant: B
@@ -537,8 +566,9 @@ slides:
     logos:
     - ../../assets/logos/pp/gogoro.png
     - ../../assets/logos/pp/battery-smart.png
-  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
-    sources are included at the end of the report.'
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_donutv
   variant: B
@@ -578,8 +608,9 @@ slides:
     logos:
     - ../../assets/logos/pp/paebbl.png
     - ../../assets/logos/pp/co-reactive.png
-  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
-    sources are included at the end of the report.'
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
 - label: METAL 3D PRINTING
   type: pp_donutv
   variant: B
@@ -616,8 +647,9 @@ slides:
     - ../../assets/logos/pp/wayland.png
     - ../../assets/logos/pp/xjet.png
     - ../../assets/logos/pp/spee3d.png
-  note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
-    sources are included at the end of the report.'
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
 - label: AI MARKETING
   type: pp_pains
   section: Pain points
@@ -667,8 +699,9 @@ slides:
       - 2
       - 3
       - 2
-  note: We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group. All the sources are included at the
-    end of the report. Bigger dots mean that group would pay more to fix it.
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_pains
   section: Pain points
@@ -718,8 +751,9 @@ slides:
       - 1
       - 2
       - 3
-  note: We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group. All the sources are included at the
-    end of the report. Bigger dots mean that group would pay more to fix it.
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_pains
   section: Pain points
@@ -769,8 +803,9 @@ slides:
       - 3
       - 2
       - 2
-  note: We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group. All the sources are included at the
-    end of the report. Bigger dots mean that group would pay more to fix it.
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_pains
   section: Pain points
@@ -820,8 +855,9 @@ slides:
       - 3
       - 3
       - 2
-  note: We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group. All the sources are included at the
-    end of the report. Bigger dots mean that group would pay more to fix it.
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
 - label: METAL 3D PRINTING
   type: pp_pains
   section: Pain points
@@ -871,8 +907,9 @@ slides:
       - 2
       - 3
       - 2
-  note: We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group. All the sources are included at the
-    end of the report. Bigger dots mean that group would pay more to fix it.
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
 - label: AI MARKETING
   type: pp_tech
   section: Tech and infra
@@ -933,8 +970,9 @@ slides:
     - 1
     - 1
     - 1
-  note: We went through each company's website, filings and press releases, and checked feature by feature what it really has. All the sources are included at the end of the report. A pink dot means the
-    feature is there.
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_tech
   section: Tech and infra
@@ -1002,8 +1040,9 @@ slides:
     - 0
     - 0
     - 0
-  note: We went through each company's website, filings and press releases, and checked feature by feature what it really has. All the sources are included at the end of the report. A pink dot means the
-    feature is there.
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_tech
   section: Tech and infra
@@ -1064,8 +1103,9 @@ slides:
     - 0
     - 0
     - 1
-  note: We went through each company's website, filings and press releases, and checked feature by feature what it really has. All the sources are included at the end of the report. A pink dot means the
-    feature is there.
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_tech
   section: Tech and infra
@@ -1126,8 +1166,9 @@ slides:
     - 1
     - 0
     - 0
-  note: We went through each company's website, filings and press releases, and checked feature by feature what it really has. All the sources are included at the end of the report. A pink dot means the
-    feature is there.
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
 - label: METAL 3D PRINTING
   type: pp_tech
   section: Tech and infra
@@ -1181,8 +1222,9 @@ slides:
     - 0
     - 0
     - 1
-  note: We went through each company's website, filings and press releases, and checked feature by feature what it really has. All the sources are included at the end of the report. A pink dot means the
-    feature is there.
+  note:
+  - We checked each company's website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
 - label: AI MARKETING
   type: pp_value
   section: Value creation
@@ -1228,8 +1270,9 @@ slides:
     logos:
     - src: ../../assets/logos/pp/smartly.png
     - src: ../../assets/logos/pp/madgicx.png
-  note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
-    end of the report.
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_value
   section: Value creation
@@ -1275,8 +1318,9 @@ slides:
     logos:
     - src: ../../assets/logos/pp/northstarmedicalradioisotopes.png
     - src: ../../assets/logos/pp/nusano.png
-  note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
-    end of the report.
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_value
   section: Value creation
@@ -1321,8 +1365,9 @@ slides:
     logos:
     - src: ../../assets/logos/pp/bvnk.png
     - src: ../../assets/logos/pp/conduit.png
-  note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
-    end of the report.
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_value
   section: Value creation
@@ -1366,8 +1411,9 @@ slides:
     y: 0.8
     logos:
     - src: ../../assets/logos/pp/carbon-upcycling.png
-  note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
-    end of the report.
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
 - label: METAL 3D PRINTING
   type: pp_value
   section: Value creation
@@ -1413,8 +1459,9 @@ slides:
     logos:
     - src: ../../assets/logos/pp/divergent.png
     - src: ../../assets/logos/pp/vulcanforms.png
-  note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
-    end of the report.
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
 - label: AI MARKETING
   type: pp_risks
   section: Market challenges
@@ -1444,8 +1491,9 @@ slides:
   - text: Courts rule against AI firms in copyright cases, so generated images and copy carry new legal risk
     odds: 12
     impact: 2
-  note: We listed the events that could slow AI marketing down, then estimated how likely each one is and how hard it would hit, from company news, regulators' decisions, funding data and analyst views.
-    Odds are our own estimates. All the sources are included at the end of the report.
+  note:
+  - We listed the events that could slow AI marketing down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_risks
   section: Market challenges
@@ -1475,8 +1523,9 @@ slides:
   - text: Biotech funding falls, and radiopharma startups cannot finance costly isotope plants and late stage trials
     odds: 18
     impact: 2
-  note: We listed the events that could slow radiopharmaceuticals down, then estimated how likely each one is and how hard it would hit, from company news, regulators' decisions, funding data and analyst
-    views. Odds are our own estimates. All the sources are included at the end of the report.
+  note:
+  - We listed the events that could slow radiopharmaceuticals down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_risks
   section: Market challenges
@@ -1506,8 +1555,9 @@ slides:
   - text: Hackers drain a payment provider's settlement accounts, and corporate clients return to their big banks
     odds: 6
     impact: 1
-  note: We listed the events that could slow cross-border payments down, then estimated how likely each one is and how hard it would hit, from company news, regulators' decisions, funding data and analyst
-    views. Odds are our own estimates. All the sources are included at the end of the report.
+  note:
+  - We listed the events that could slow cross-border payments down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_risks
   section: Market challenges
@@ -1537,8 +1587,9 @@ slides:
   - text: Construction slows in Europe and China, and cement makers delay new low-carbon lines
     odds: 35
     impact: 1
-  note: We listed the events that could slow low-carbon cement down, then estimated how likely each one is and how hard it would hit, from company news, regulators' decisions, funding data and analyst views.
-    Odds are our own estimates. All the sources are included at the end of the report.
+  note:
+  - We listed the events that could slow low-carbon cement down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
 - label: METAL 3D PRINTING
   type: pp_risks
   section: Market challenges
@@ -1568,8 +1619,9 @@ slides:
   - text: Titanium and nickel powder prices jump after a supply shock in a big producing country
     odds: 25
     impact: 1
-  note: We listed the events that could slow metal 3D printing down, then estimated how likely each one is and how hard it would hit, from company news, regulators' decisions, funding data and analyst views.
-    Odds are our own estimates. All the sources are included at the end of the report.
+  note:
+  - We listed the events that could slow metal 3D printing down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
 - label: AI MARKETING
   type: pp_drivers
   section: Growth drivers
@@ -1665,8 +1717,9 @@ slides:
   - year: '2026'
     text: AI Brief simplifies campaign instructions
     impact: 1.5
-  note: Many events shaped AI marketing. These are the ones we believe had the biggest impact, from company news, filings and analyst reports. All the sources are included at the end of the report. Ratings
-    are our own estimates.
+  note:
+  - We kept the events we believe pushed AI marketing forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_drivers
   section: Growth drivers
@@ -1762,8 +1815,9 @@ slides:
   - year: '2026'
     text: Pixclara advances glioma PET differentiation
     impact: 1.5
-  note: Many events shaped radiopharmaceuticals. These are the ones we believe had the biggest impact, from company news, filings and analyst reports. All the sources are included at the end of the report.
-    Ratings are our own estimates.
+  note:
+  - We kept the events we believe pushed radiopharmaceuticals forward the most
+  - Ratings are our own estimates, and all our sources are at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_drivers
   section: Growth drivers
@@ -1859,8 +1913,9 @@ slides:
   - year: '2026'
     text: Visa deploys cross-border stablecoin funding
     impact: 2.0
-  note: Many events shaped cross-border payments. These are the ones we believe had the biggest impact, from company news, filings and analyst reports. All the sources are included at the end of the report.
-    Ratings are our own estimates.
+  note:
+  - We kept the events we believe pushed cross-border payments forward the most
+  - Ratings are our estimates, and all our sources are listed at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_drivers
   section: Growth drivers
@@ -1956,8 +2011,9 @@ slides:
   - year: '2026'
     text: Meta signs a Fortera cement deal
     impact: 2.0
-  note: Many events shaped low-carbon cement. These are the ones we believe had the biggest impact, from company news, filings and analyst reports. All the sources are included at the end of the report.
-    Ratings are our own estimates.
+  note:
+  - We kept the events we believe pushed low-carbon cement forward the most
+  - Ratings are our own estimates, with all the sources at the end of the report
 - label: METAL 3D PRINTING
   type: pp_drivers
   section: Growth drivers
@@ -2053,8 +2109,9 @@ slides:
   - year: '2026'
     text: Nikon AM wins a Tomahawk contract
     impact: 2.5
-  note: Many events shaped metal 3D printing. These are the ones we believe had the biggest impact, from company news, filings and analyst reports. All the sources are included at the end of the report.
-    Ratings are our own estimates.
+  note:
+  - We kept the events we believe pushed metal 3D printing forward the most
+  - Ratings are our estimates, and all our sources are at the end of the report
 - label: AI MARKETING
   type: pp_raises
   section: Investor bets
@@ -2092,7 +2149,9 @@ slides:
     src: ../../assets/logos/pp/gradial.png
     stage: Series C
     date: Jun 2026
-  note: We listed the biggest equity rounds raised by AI marketing startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end of the report.
+  note:
+  - We listed the biggest equity rounds raised by AI marketing startups in recent years
+  - We used company announcements and the press, with all the sources at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_raises
   section: Investor bets
@@ -2130,8 +2189,9 @@ slides:
     src: ../../assets/logos/pp/full-life-technologies.png
     stage: Late stage
     date: May 2026
-  note: We listed the biggest equity rounds raised by radiopharmaceuticals startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end
-    of the report.
+  note:
+  - We listed the biggest equity rounds raised by radiopharmaceuticals startups in recent years
+  - We used company announcements and the press, with all the sources at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_raises
   section: Investor bets
@@ -2169,8 +2229,9 @@ slides:
     src: ''
     stage: Series B
     date: Dec 2025
-  note: We listed the biggest equity rounds raised by cross-border payments startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end
-    of the report.
+  note:
+  - We listed the biggest equity rounds raised by cross-border payments startups in recent years
+  - We used company announcements and the press, with all the sources at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_raises
   section: Investor bets
@@ -2208,8 +2269,9 @@ slides:
     src: ../../assets/logos/pp/queens-carbon.png
     stage: Seed
     date: Apr 2025
-  note: We listed the biggest equity rounds raised by low-carbon cement startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end of
-    the report.
+  note:
+  - We listed the biggest equity rounds raised by low-carbon cement startups in recent years
+  - We used company announcements and the press, with all the sources at the end of the report
 - label: METAL 3D PRINTING
   type: pp_raises
   section: Investor bets
@@ -2247,8 +2309,9 @@ slides:
     src: ../../assets/logos/pp/alloyed.png
     stage: Round
     date: Mar 2025
-  note: We listed the biggest equity rounds raised by metal 3D printing startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end of
-    the report.
+  note:
+  - We listed the biggest equity rounds raised by metal 3D printing startups in recent years
+  - We used company announcements and the press, with all the sources at the end of the report
 - label: AI MARKETING
   type: pp_grid
   weight:
@@ -2302,8 +2365,9 @@ slides:
       - peecai
     - - promptwatch
       - athenahq
-  note: We selected private pure players from funding news, company websites, and the press. We left out listed companies and incumbents like Adobe, Salesforce, and Google. Each one is placed by its main
-    product and stage.
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Adobe, Salesforce, and Google, with all the sources at the end of the report
   srcs:
     jasper: ../../assets/logos/pp/jasper.png
     typeface: ../../assets/logos/pp/typeface.png
@@ -2376,8 +2440,9 @@ slides:
       - atomvieglobalradiopharma
     - - nucleusradiopharma
       - standardx
-  note: We selected private pure players from funding news, company websites, and the press. We left out listed companies and incumbents like Novartis, Lantheus, and Aktis Oncology. Each one is placed by
-    its main product and stage.
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Novartis, Lantheus, and Aktis Oncology, with all the sources at the end of the report
   srcs:
     advancell: ../../assets/logos/pp/advancell.png
     alpha9oncology: ../../assets/logos/pp/alpha9oncology.png
@@ -2450,8 +2515,9 @@ slides:
       - due
     - - latitude
       - levl
-  note: We selected private pure players from funding news, company websites, and the press. We left out listed companies and incumbents like Wise, PayPal, and Western Union. Each one is placed by its main
-    product and stage.
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Wise, PayPal, and Western Union, with all the sources at the end of the report
   srcs:
     airwallex: ../../assets/logos/pp/airwallex.png
     nium: ../../assets/logos/pp/nium.png
@@ -2524,7 +2590,9 @@ slides:
       - carbonbuilt
     - - co-reactive
       - cura
-  note: We placed the main low-carbon cement companies by segment and by stage, from company websites, funding announcements and the press. All the sources are included at the end of the report.
+  note:
+  - We placed private pure players by main product and stage, from funding news and the press
+  - We left out listed companies and incumbents, and all our sources are at the end of the report
   srcs:
     brimstone: ../../assets/logos/pp/brimstone.png
     sublime-systems: ../../assets/logos/pp/sublime-systems.png
@@ -2597,7 +2665,9 @@ slides:
       - conflux
     - - alloyed
       - caracol
-  note: We placed the main metal 3D printing companies by segment and by stage, from company websites, funding announcements and the press. All the sources are included at the end of the report.
+  note:
+  - We placed private pure players by main product and stage, from funding news and the press
+  - We left out listed companies and incumbents, and all our sources are at the end of the report
   srcs:
     eos: ../../assets/logos/pp/eos.png
     nikon-slm: ../../assets/logos/pp/nikon-slm.png
@@ -2693,8 +2763,9 @@ slides:
     - 0
     src: ../../assets/logos/pp/wordsworth-ai.png
     ini: WA
-  note: We tracked the AI marketing startups that shut down, went bankrupt or were sold for little, and what broke them, from court filings, company statements and the press. All the sources are included
-    at the end of the report.
+  note:
+  - We tracked the AI marketing startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all our sources are listed at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_killers
   mode: warning
@@ -2762,8 +2833,9 @@ slides:
     - ''
     src: ../../assets/logos/pp/y-mabs.png
     ini: YM
-  note: We looked for warning signs among well-known radiopharmaceuticals companies, from layoffs and lawsuits to falling valuations, using company filings, court records and the press. All the sources
-    are included at the end of the report.
+  note:
+  - We looked for warning signs among well-known radiopharmaceuticals companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_killers
   mode: dead
@@ -2840,8 +2912,9 @@ slides:
     - 1
     src: ../../assets/logos/pp/gigbanc.png
     ini: G
-  note: We tracked the cross-border payments startups that shut down, went bankrupt or were sold for little, and what broke them, from court filings, company statements and the press. All the sources are
-    included at the end of the report.
+  note:
+  - We tracked the cross-border payments startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and you will find all the sources we used at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_killers
   mode: warning
@@ -2903,8 +2976,9 @@ slides:
     - Liquidated|2012
     src: ../../assets/logos/pp/novacem.png
     ini: N
-  note: We looked for warning signs among well-known low-carbon cement companies, from layoffs and lawsuits to falling valuations, using company filings, court records and the press. All the sources are
-    included at the end of the report.
+  note:
+  - We looked for warning signs among well-known low-carbon cement companies, from layoffs to lawsuits
+  - We used company filings and the press, and you will find all the sources we used at the end of the report
 - label: METAL 3D PRINTING
   type: pp_killers
   mode: dead
@@ -2981,8 +3055,9 @@ slides:
     - 1
     src: ../../assets/logos/pp/3d-metalforge.png
     ini: 3M
-  note: We tracked the metal 3D printing startups that shut down, went bankrupt or were sold for little, and what broke them, from court filings, company statements and the press. All the sources are included
-    at the end of the report.
+  note:
+  - We tracked the metal 3D printing startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
 - label: AI ACCOUNTING
   type: pp_survivors
   section: Startup killers
@@ -3018,8 +3093,9 @@ slides:
     why_it_failed: Shut down days before tax season
     src: ../../assets/logos/pp/bench.png
     ini: B
-  note: We looked at AI accounting companies that shut down, went bankrupt or hit a major setback, and at what the survivors do instead, from company statements, filings and the press. All the sources are
-    included at the end of the report.
+  note:
+  - We compared AI accounting companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all the sources are included at the end of the report
 - label: AI RECRUITING
   type: pp_survivors
   section: Startup killers
@@ -3055,8 +3131,9 @@ slides:
     why_it_failed: Dropped facial analysis after criticism
     src: ../../assets/logos/pp/hirevue.png
     ini: H
-  note: We looked at AI recruiting companies that shut down, went bankrupt or hit a major setback, and at what the survivors do instead, from company statements, filings and the press. All the sources are
-    included at the end of the report.
+  note:
+  - We compared AI recruiting companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all the sources are included at the end of the report
 - label: VIBE CODING
   type: pp_survivors
   section: Startup killers
@@ -3092,8 +3169,9 @@ slides:
     why_it_failed: Apple removed its builder app twice
     src: ../../assets/logos/pp/anything.png
     ini: A
-  note: We looked at vibe coding companies that shut down, went bankrupt or hit a major setback, and at what the survivors do instead, from company statements, filings and the press. All the sources are
-    included at the end of the report.
+  note:
+  - We compared vibe coding companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all our sources are listed at the end of the report
 - label: AI GOVERNANCE MARKET
   type: pp_survivors
   section: Startup killers
@@ -3129,8 +3207,9 @@ slides:
     why_it_failed: Lost customers and its accelerator relationship
     src: ../../assets/logos/pp/delve.png
     ini: D
-  note: We looked at AI governance companies that shut down, went bankrupt or hit a major setback, and at what the survivors do instead, from company statements, filings and the press. All the sources are
-    included at the end of the report.
+  note:
+  - We compared AI governance companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all the sources are included at the end of the report
 - label: METAL 3D PRINTING
   type: pp_survivors
   section: Startup killers
@@ -3176,8 +3255,9 @@ slides:
     slug: 3d-metalforge
     src: ../../assets/logos/pp/3d-metalforge.png
     ini: 3M
-  note: We looked at metal 3D printing companies that shut down, went bankrupt or hit a major setback, and at what the survivors do instead, from company statements, filings and the press. All the sources
-    are included at the end of the report.
+  note:
+  - We compared metal 3D printing companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and all the sources we used are listed at the end of the report
 - label: AI MARKETING
   type: pp_winner
   section: Startup strategies
@@ -3252,7 +3332,9 @@ slides:
     - 0
     - 0
     - 0
-  note: We compared companies with the same business model on what matters most to customers, from company reports, contract awards and public records. All the sources are included at the end of the report.
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
 - label: RADIOPHARMACEUTICALS
   type: pp_winner
   section: Startup strategies
@@ -3327,7 +3409,9 @@ slides:
     - 1
     - 1
     - 1
-  note: We compared companies with the same business model on what matters most to customers, from company reports, contract awards and public records. All the sources are included at the end of the report.
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
 - label: CROSS-BORDER PAYMENTS
   type: pp_winner
   section: Startup strategies
@@ -3394,7 +3478,9 @@ slides:
     - 0
     - 0
     - 0
-  note: We compared companies with the same business model on what matters most to customers, from company reports, contract awards and public records. All the sources are included at the end of the report.
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
 - label: LOW-CARBON CEMENT
   type: pp_winner
   section: Startup strategies
@@ -3461,7 +3547,9 @@ slides:
     - 0
     - 0
     - 1
-  note: We compared companies with the same business model on what matters most to customers, from company reports, contract awards and public records. All the sources are included at the end of the report.
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
 - label: METAL 3D PRINTING
   type: pp_winner
   section: Startup strategies
@@ -3528,4 +3616,6 @@ slides:
     - 0
     - 1
     - 0
-  note: We compared companies with the same business model on what matters most to customers, from company reports, contract awards and public records. All the sources are included at the end of the report.
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report

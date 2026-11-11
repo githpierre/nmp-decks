@@ -163,7 +163,8 @@ def build(slug, png=False, only=None):
     html = re.sub(r'(?<=[>\s≈~])(\d[\d.,]*)\s+%', r'\1%', html)
     html = re.sub(r'≈\s+(?=\d)', '≈', html)
     # two sentences glued in a note ('...phases These phases...', 11 Nov): add the missing period
-    html = re.sub(r'([a-z]{3,})((?:\s|<br[^>]*>|</span><span[^>]*>)+)(These|This|We|It|Our|Although|However) ', r'\1.\2\3 ', html)
+    #   but never between two lines of a list note (.nl): each line is its own idea, without dots (notes workshop, 11 Nov)
+    html = re.sub(r'([a-z]{3,})((?:\s|<br[^>]*>|</span><span(?! class="nl")[^>]*>)+)(These|This|We|It|Our|Although|However) ', r'\1.\2\3 ', html)
     (d / 'deck.html').write_text(html)
     out = d / 'out'; out.mkdir(exist_ok=True)
     from playwright.sync_api import sync_playwright
