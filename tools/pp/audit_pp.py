@@ -57,6 +57,8 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   if (T.startsWith('pp_donut')) s.querySelectorAll('.pp-dl').forEach(d => { const k = d.querySelectorAll('.lt').length; if (k < 2) add('DONUT_LOGOS', `${k} logo(s): ${d.innerText.split('\n')[0]}`); });
   // 7. ticks and crosses: the mark is drawn, never a font glyph
   s.querySelectorAll('.pp-ok, .pp-no, .pp-wk').forEach(e => { if (getComputedStyle(e, '::after').content !== 'none') add('MARK_GLYPH', e.className); });
+  // 8. no raw data code (snake_case) in visible text (11 Nov: 'ran_out_of_cash' shown as a header)
+  { const m = s.innerText.match(/\b[a-z]+_[a-z_]+\b/); if (m) add('RAW_CODE', m[0]); }
   if (T === 'pp_trends') { const pl = s.querySelector('polyline'), ex = s.querySelector('.pp-expl'); if (pl && ex && R(pl).top < R(ex).bottom + 10) add('CURVE_HITS_TEXT', Math.round(R(ex).bottom - R(pl).top)); }
   s.querySelectorAll('.pp-big, .pp-stat, .pp-cagr, .pp-rv, .pp-bv').forEach(e => { if (lines(e) > 1 && e.className !== 'pp-stat') add('ONE_LINE', e.innerText.slice(0, 20)); });
   // 4. per series rules

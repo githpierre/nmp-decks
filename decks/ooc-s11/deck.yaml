@@ -1,0 +1,21 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- label: ORGAN-ON-A-CHIP
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these organ-on-a-chip startups, and how did they end?
+  causes:
+  - Too few|buyers
+  - Ran out|of cash
+  - Owner pulled|support
+  note:
+  - We tracked the organ-on-a-chip startups that shut down or were sold for little
+  - We used company filings and the press, and all the sources are included at the end of the report
+  rows:
+  - {name: Bi/ond, slug: bi-ond, domain: gobiond.com, start: '2017', end: '2025', ending: Shut down, ini: B, src: '', causes: [1, 0, 0]}
+  - {name: Systemic Bio, slug: systemic-bio, domain: systemicbio.com, start: '2022', end: '2025', ending: Shut down, ini: S, src: '', causes: [0, 0, 1]}
+  - {name: Kirkstall, slug: kirkstall, domain: kirkstall.com, start: '2000', end: '2025', ending: Sold for £170K, ini: K, src: '', causes: [0, 1, 1]}
+  - {name: Nortis, slug: nortis, domain: nortisbio.com, start: '2011', end: '2024', ending: Assets sold, ini: N, src: ../../assets/logos/pp/nortis.png, causes: [0, 1, 0]}
