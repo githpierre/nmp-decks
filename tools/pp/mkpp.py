@@ -17,11 +17,19 @@ def NAME(h):
 def LABEL(h): return ' '.join(''.join(w.split()) for w in re.split(r'\s{2,}', _MK[h]['market_name_for_slide'].strip()))
 slides_old = None
 
+_BL = {}
+def blank(f):
+    """a logo that is almost one flat colour (white on white, empty canvas) counts as missing (11 Nov: blank tiles on the pilot)"""
+    if f not in _BL:
+        from PIL import Image, ImageStat
+        im = Image.open(f).convert('RGBA'); bg = Image.new('RGBA', im.size, (255, 255, 255, 255)); bg.alpha_composite(im)
+        _BL[f] = max(ImageStat.Stat(bg.convert('L')).stddev[0], 0) < 6
+    return _BL[f]
 def logo(slug):
     """copy the logo into assets/logos/pp and return its path from the deck, or None"""
     for d in LOGO_DIRS:
         f = f'{d}/{slug}.png'
-        if os.path.exists(f):
+        if os.path.exists(f) and not blank(f):
             dst = f'{ROOT}/assets/logos/pp/{slug}.png'
             if not os.path.exists(dst): shutil.copy(f, dst)
             return f'../../assets/logos/pp/{slug}.png'
@@ -69,7 +77,7 @@ def slides(h):
     NEWD = h in J(f'{W}/data/s01.json')
     # S01 radar
     d = J(f'{W}/data/s01.json').get(h) or J('/root/w/m131/data/s01.json')['low-carbon-cement']
-    sl = dict(type='pp_radar', pill='MARKET MAP', label='', title=two(d['title']), caption=d['caption'], inside=[logo(x) for x in d['inside']])
+    sl = dict(type='pp_radar', pill='MARKET MAP', label=lab, title=two(d['title']), caption=d['caption'], inside=[logo(x) for x in d['inside']])
     for k in ('TL', 'TR', 'BL', 'BR'): sl[k] = dict(src=logo(d[k][0]), name=d[k][1], text=d[k][2])
     if NEWD: out.append(sl)
     # S02 curve (only where a series exists)
@@ -124,7 +132,7 @@ def slides(h):
         R.append(dict(name={'Divergent Technologies': 'Divergent'}.get(n, n), amt=float(y.amount_usd), src=logo(alias.get(y.company_id, y.company_id)) or logo(re.sub('[^a-z0-9]', '', n.lower())),
             stage={'Series D+': 'Late stage', 'Other': 'Round', 'Unknown': 'Round'}.get(y.round_type, y.round_type), date=y.d.strftime('%b %Y')))
     out.append(dict(base, type='pp_raises', section='Investor bets', title=f'Which {nm} startups got the biggest checks lately?', rounds=R,
-        note=[f'We listed the biggest equity rounds raised by {nm} startups in recent years', 'We used company announcements and the press, and all the sources are included at the end of the report']))
+        note=[f'We listed the biggest equity rounds raised by {nm} startups in recent years', 'We used company announcements, investor releases and the press, and all the sources are included at the end of the report']))
     # S10 grid
     d = J(f'{S10}/grid/{h}.json')
     import pandas as _pd

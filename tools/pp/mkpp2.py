@@ -27,10 +27,10 @@ def B(h, **k): d = dict(label=label(h), _h=h); d.update({a: b for a, b in k.item
 S1 = {m['handle']: m for m in J(f'{W1}/s01/spec.json')['markets']}; N1 = J(f'{W}/data/s01.json')
 for h in OLD + list(NEW):
     if h in N1:
-        d = N1[h]; s = dict(type='pp_radar', pill='MARKET MAP', label='', title=two(d['title']), caption=d['caption'], inside=[logo(x) for x in d['inside']])
+        d = N1[h]; s = dict(type='pp_radar', pill='MARKET MAP', label=label(h), title=two(d['title']), caption=d['caption'], inside=[logo(x) for x in d['inside']])
         for k in ('TL', 'TR', 'BL', 'BR'): s[k] = dict(src=logo(d[k][0]), name=d[k][1], text=d[k][2])
     else:
-        d = S1[h]; s = dict(type='pp_radar', pill='MARKET MAP', label='', title=two(d['title']), caption=d['caption'], inside=[logo(x) for x in d['inside']])
+        d = S1[h]; s = dict(type='pp_radar', pill='MARKET MAP', label=label(h), title=two(d['title']), caption=d['caption'], inside=[logo(x) for x in d['inside']])
         for k in ('TL', 'TR', 'BL', 'BR'): s[k] = dict(src=logo(d[k]['logo']), name=d[k]['name'], text=d[k]['text'])
     out.append(s)
 # S02 Google Trends

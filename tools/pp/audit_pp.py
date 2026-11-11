@@ -72,7 +72,7 @@ return out; }"""
 def run(slug):
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': 960, 'height': 672})
-        pg.goto(f'file:///home/claude/nmp-decks/decks/{slug}/deck.html'); pg.wait_for_timeout(1500)
+        pg.goto(f'file:///home/claude/nmp-decks/decks/{slug}/deck.html'); pg.evaluate('document.fonts.ready'); pg.wait_for_timeout(2500)
         pg.add_style_tag(content='.slide{margin:0!important}')
         r = pg.evaluate(JS); b.close()
     for x in r: print(*x, sep=' | ')
