@@ -1,0 +1,541 @@
+market: Product page slides
+quarter: production
+label: ''
+slides:
+- label: CROP BIOLOGICALS
+  type: pp_grid
+  weight:
+    pivot-bio: 616750000.0
+    indigo-ag: 0.0
+    aphea-bio: 131384000.0
+    bioconsortia: 101000000.0
+    switch-bioworks: 17000000.0
+    lilac-agriculture: 2300000.0
+    koppert: 150400000.0
+    biobest: 82000000.0
+    vestaron: 212950000.0
+    agriodor: 20920000.0
+    solasta-bio: 19120000.0
+    biocentis: 13000000.0
+    elicit-plant: 65600000.0
+    kula-bio: 87633411.0
+    azotic-technologies: 0.0
+    andes: 36050000.0
+    hoofprint-biome: 15000000.0
+    terrana-biosciences: 0.0
+  section: CROP BIOLOGICALS
+  title: 'Who are the top companies
+
+    in agricultural biologicals?'
+  handle: agricultural-biologicals
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Microbials
+  - Biocontrol
+  - Biostim & fert
+  cells:
+  - - - pivot-bio
+      - indigo-ag
+    - - aphea-bio
+      - bioconsortia
+    - - switch-bioworks
+  - - - koppert
+      - biobest
+    - - agriodor
+    - - solasta-bio
+      - biocentis
+  - - - elicit-plant
+      - kula-bio
+    - - azotic-technologies
+      - andes
+    - - hoofprint-biome
+      - terrana-biosciences
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Bayer, Syngenta, and all our sources are at the end of the report
+  srcs:
+    pivot-bio: ../../assets/logos/pp/pivot-bio.png
+    indigo-ag: ../../assets/logos/pp/indigo-ag.png
+    aphea-bio: ../../assets/logos/pp/aphea-bio.png
+    bioconsortia: ../../assets/logos/pp/bioconsortia.png
+    switch-bioworks: ../../assets/logos/pp/switch-bioworks.png
+    lilac-agriculture: ''
+    koppert: ../../assets/logos/pp/koppert.png
+    biobest: ../../assets/logos/pp/biobest.png
+    vestaron: ''
+    agriodor: ../../assets/logos/pp/agriodor.png
+    solasta-bio: ../../assets/logos/pp/solasta-bio.png
+    biocentis: ../../assets/logos/pp/biocentis.png
+    elicit-plant: ../../assets/logos/pp/elicit-plant.png
+    kula-bio: ../../assets/logos/pp/kula-bio.png
+    azotic-technologies: ../../assets/logos/pp/azotic-technologies.png
+    andes: ../../assets/logos/pp/andes.png
+    hoofprint-biome: ../../assets/logos/pp/hoofprint-biome.png
+    terrana-biosciences: ../../assets/logos/pp/terrana-biosciences.png
+- label: CROP BIOLOGICALS
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which agricultural biologicals companies have shown warning signs lately?
+  signs:
+  - Lost|independence
+  - Big|layoffs
+  - Missed|deadlines
+  rows:
+  - name: AgBiome
+    slug: agbiome
+    domain: agbiome.com
+    cells:
+    - Sold products to Certis and|platform assets to Ginkgo.
+    - A WARN notice covered|123 permanent layoffs.
+    - ''
+    src: ../../assets/logos/pp/agbiome.png
+    ini: A
+  - name: Indigo Ag
+    slug: indigo-ag
+    domain: indigoag.com
+    cells:
+    - ''
+    - Headcount fell from about 2,900|in 2021 to about 1,318 in 2026.
+    - Exited non-core businesses in|a 2024 profitability reset.
+    src: ../../assets/logos/pp/indigo-ag.png
+    ini: IA
+  - name: Marrone Bio
+    slug: marrone-bio
+    domain: marronebio.com
+    cells:
+    - Merged into Bioceres in a deal|valued near $207M at close.
+    - ''
+    - ''
+    src: ../../assets/logos/pp/marrone-bio.png
+    ini: MB
+  - name: NewLeaf Bio
+    slug: newleaf-bio
+    domain: newleafsym.com
+    cells:
+    - Became part of Joyn Bio through|Bayer and Ginkgo consolidation.
+    - ''
+    - ''
+    src: ../../assets/logos/pp/newleaf-bio.png
+    ini: NB
+  - name: Valagro
+    slug: valagro
+    domain: valagro.com
+    cells:
+    - Syngenta Group acquired|Valagro in 2020.
+    - ''
+    - ''
+    src: ../../assets/logos/pp/valagro.png
+    ini: V
+  note:
+  - We looked for warning signs among well-known agricultural biologicals companies
+  - We used company filings and the press, with all the sources at the end of the report
+- label: EDGE AI CHIPS
+  type: pp_grid
+  weight:
+    hailo: 440500000.0
+    kneron: 226000000.0
+    deepx: 210480000.0
+    recogni: 0.0
+    mobilint: 73630000.0
+    memryx: 52000000.0
+    sima-ai: 535000000.0
+    axelera-ai: 380000000.0
+    edgecortix: 62600000.0
+    quadric: 84300000.0
+    expedera: 47000000.0
+    aspinity: 13890000.0
+    syntiant: 200100000.0
+    alif-semiconductor: 342450000.0
+    mythic: 290150000.0
+    innatera: 27200000.0
+    synsense: 46400000.0
+    polyn-technology: 4745000.0
+  section: EDGE AI CHIPS
+  title: 'Which companies lead
+
+    edge AI chips right now?'
+  handle: edge-ai-chips
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Vision chips
+  - Industrial
+  - Low power
+  cells:
+  - - - hailo
+      - kneron
+    - - deepx
+      - recogni
+    - - mobilint
+      - memryx
+  - - - sima-ai
+      - axelera-ai
+    - - edgecortix
+      - quadric
+    - - expedera
+      - aspinity
+  - - - syntiant
+      - alif-semiconductor
+    - - mythic
+      - innatera
+    - - synsense
+  note:
+  - We placed private pure players by main product and stage, from funding news and the press
+  - We left out listed companies and incumbents, and all our sources are at the end of the report
+  srcs:
+    hailo: ../../assets/logos/pp/hailo.png
+    kneron: ../../assets/logos/pp/kneron.png
+    deepx: ../../assets/logos/pp/deepx.png
+    recogni: ../../assets/logos/pp/recogni.png
+    mobilint: ../../assets/logos/pp/mobilint.png
+    memryx: ../../assets/logos/pp/memryx.png
+    sima-ai: ../../assets/logos/pp/sima-ai.png
+    axelera-ai: ../../assets/logos/pp/axelera-ai.png
+    edgecortix: ../../assets/logos/pp/edgecortix.png
+    quadric: ../../assets/logos/pp/quadric.png
+    expedera: ../../assets/logos/pp/expedera.png
+    aspinity: ../../assets/logos/pp/aspinity.png
+    syntiant: ../../assets/logos/pp/syntiant.png
+    alif-semiconductor: ../../assets/logos/pp/alif-semiconductor.png
+    mythic: ../../assets/logos/pp/mythic.png
+    innatera: ../../assets/logos/pp/innatera.png
+    synsense: ../../assets/logos/pp/synsense.png
+    polyn-technology: ''
+- label: EDGE AI CHIPS
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which edge AI chips companies have shown warning signs lately?
+  signs:
+  - Missed|deadlines
+  - Value|fell
+  - Lost|independence
+  - Big|layoffs
+  rows:
+  - name: Hailo
+    slug: hailo
+    domain: hailo.ai
+    cells:
+    - Standalone scale path|ended at acquisition.
+    - ''
+    - Microchip acquired|Hailo in Sep 2026.
+    - ''
+    src: ../../assets/logos/pp/hailo.png
+    ini: H
+  - name: Mythic
+    slug: mythic
+    domain: mythic.ai
+    cells:
+    - ''
+    - Operations paused|before recapitalization.
+    - ''
+    - Funding crunch forced|a major 2022 reset.
+    src: ../../assets/logos/pp/mythic.png
+    ini: M
+  - name: Kneron
+    slug: kneron
+    domain: kneron.com
+    cells:
+    - Broad automotive scale|remains rollout-dependent.
+    - Private revenue scale|remains undisclosed.
+    - ''
+    - ''
+    src: ../../assets/logos/pp/kneron.png
+    ini: K
+  - name: SiMa.ai
+    slug: sima-ai
+    domain: sima.ai
+    cells:
+    - Volume adoption depends|on OEM design cycles.
+    - Private revenue scale|remains undisclosed.
+    - ''
+    - ''
+    src: ../../assets/logos/pp/sima-ai.png
+    ini: SA
+  - name: Axelera AI
+    slug: axelera-ai
+    domain: axelera.ai
+    cells:
+    - Large-volume customer|ramps remain ahead.
+    - Private revenue scale|remains undisclosed.
+    - ''
+    - ''
+    src: ../../assets/logos/pp/axelera-ai.png
+    ini: AA
+  note:
+  - We looked for warning signs among well-known edge AI chips companies, from layoffs to lawsuits
+  - We used company filings and the press, and all the sources are included at the end of the report
+- label: ELECTRIC TWO-WHEELER
+  type: pp_donutv
+  section: Market size
+  title: How is the electric two-wheeler market split between its categories?
+  cats:
+  - name: Urban scooters
+    p: 62
+    logos:
+    - ../../assets/logos/pp/yadea.png
+    - ../../assets/logos/pp/niu.png
+  - name: E-mopeds
+    p: 14
+    logos:
+    - ../../assets/logos/pp/vmoto.png
+    - ../../assets/logos/pp/silence.png
+  - name: E-motorcycles
+    p: 12
+    logos:
+    - ../../assets/logos/pp/zero-motorcycles.png
+    - ../../assets/logos/pp/maeving.png
+  - name: Delivery fleets
+    p: 7
+    logos:
+    - ../../assets/logos/pp/zypp-electric.png
+    - ../../assets/logos/pp/yulu.png
+  - name: Battery swap platforms
+    p: 5
+    logos:
+    - ../../assets/logos/pp/gogoro.png
+    - ../../assets/logos/pp/oyika.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
+- label: ELECTRIC TWO-WHEELER
+  type: pp_grid
+  weight:
+    river: 0.0
+    silence: 0.0
+    oben-electric: 37360000.0
+    maeving: 10240000.0
+    velca: 0.0
+    motovolt: 0.0
+    ultraviolette: 204512000.0
+    verge-motorcycles: 0.0
+    ryvid: 0.0
+    savic-motorcycles: 0.0
+    land-moto: 3000000.0
+    dust-moto: 0.0
+    spiro: 0.0
+    roam: 14000000.0
+    zembo: 7095000.0
+    ampersand: 19700000.0
+    arc-ride: 5000000.0
+    ewaka: 0.0
+  section: ELECTRIC TWO-WHEELER
+  title: 'Who are the top companies
+
+    in electric two-wheeler?'
+  handle: electric-two-wheeler
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Urban scooter
+  - Performance
+  - Fleet & swap
+  cells:
+  - - - river
+      - silence
+    - - maeving
+    - - velca
+      - motovolt
+  - - - ultraviolette
+      - verge-motorcycles
+    - - ryvid
+      - savic-motorcycles
+    - - land-moto
+  - - - spiro
+      - roam
+    - - zembo
+      - ampersand
+    - - arc-ride
+      - ewaka
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like Ola Electric, Ather Energy, with all the sources at the end of the report
+  srcs:
+    river: ../../assets/logos/pp/river.png
+    silence: ../../assets/logos/pp/silence.png
+    oben-electric: ''
+    maeving: ../../assets/logos/pp/maeving.png
+    velca: ../../assets/logos/pp/velca.png
+    motovolt: ../../assets/logos/pp/motovolt.png
+    ultraviolette: ../../assets/logos/pp/ultraviolette.png
+    verge-motorcycles: ''
+    ryvid: ../../assets/logos/pp/ryvid.png
+    savic-motorcycles: ../../assets/logos/pp/savic-motorcycles.png
+    land-moto: ../../assets/logos/pp/land-moto.png
+    dust-moto: ''
+    spiro: ../../assets/logos/pp/spiro.png
+    roam: ../../assets/logos/pp/roam.png
+    zembo: ../../assets/logos/pp/zembo.png
+    ampersand: ../../assets/logos/pp/ampersand.png
+    arc-ride: ../../assets/logos/pp/arc-ride.png
+    ewaka: ../../assets/logos/pp/ewaka.png
+- label: EV CHARGING NETWORKS
+  type: pp_killers
+  mode: dead
+  section: Startup killers
+  title: What broke these EV charging infrastructure startups, and how did they end?
+  causes:
+  - Ran out|of cash
+  - Too few|buyers
+  - Other|reason
+  - Rivals|caught up
+  rows:
+  - name: FreeWire
+    slug: freewire
+    domain: freewiretech.com
+    start: '2014'
+    end: '2024'
+    ending: Shut down
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/freewire.png
+    ini: F
+  - name: Tritium
+    slug: tritium
+    domain: tritiumcharging.com
+    start: '2001'
+    end: '2024'
+    ending: Sold for $32M
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp/tritium.png
+    ini: T
+  - name: Volta
+    slug: volta
+    domain: voltacharging.com
+    start: '2010'
+    end: '2023'
+    ending: Sold for $169M
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/volta.png
+    ini: V
+  - name: Enel X Way NA
+    slug: enel-x-way-na
+    domain: enelxway.com
+    start: '2017'
+    end: '2024'
+    ending: Shut down
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp/enel-x-way-na.png
+    ini: EX
+  - name: Charge Ent.
+    slug: charge-ent
+    domain: charge.enterprises
+    start: '2019'
+    end: '2024'
+    ending: Went bankrupt
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp/charge-ent.png
+    ini: CE
+  note:
+  - We tracked the EV charging infrastructure startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and you will find all the sources we used at the end of the report
+- label: EV CHARGING NETWORKS
+  type: pp_survivors
+  section: Startup killers
+  title: What do EV charging infrastructure survivors do differently?
+  rows:
+  - lesson: Own a dense driver network
+    explanation: Tesla has the largest fast-charge network
+    failed_company: Volta
+    website: https://voltacharging.com/
+    why_it_failed: Ad-led destination charging lacked cash
+    slug: volta
+    src: ../../assets/logos/pp/volta.png
+    ini: V
+  - lesson: Standardize hardware and plug
+    explanation: NACS adoption widens Tesla utilization
+    failed_company: Tritium
+    website: https://tritiumcharging.com/
+    why_it_failed: Hardware scale could not cover stress
+    slug: tritium
+    src: ../../assets/logos/pp/tritium.png
+    ini: T
+  - lesson: Monetize charging directly
+    explanation: EVgo charges users for energy and service
+    failed_company: Enel X Way NA
+    website: https://www.enelxway.com/us/en/
+    why_it_failed: Software exit stranded smart features
+    slug: enel-x-way-na
+    src: ../../assets/logos/pp/enel-x-way-na.png
+    ini: EX
+  - lesson: Keep capex per site controlled
+    explanation: IONNA uses standardized fast-charge hubs
+    failed_company: FreeWire
+    website: https://freewiretech.com/
+    why_it_failed: Capital-heavy hardware burned cash
+    slug: freewire
+    src: ../../assets/logos/pp/freewire.png
+    ini: F
+  - lesson: Pair scale with a strong parent
+    explanation: Electrify America has VW backing
+    failed_company: Charge Ent.
+    website: https://charge.enterprises/
+    why_it_failed: Debt-heavy roll-up hit bankruptcy
+    slug: charge-ent
+    src: ../../assets/logos/pp/charge-ent.png
+    ini: CE
+  note:
+  - We compared EV charging infrastructure companies that failed or hit a major setback with the ones that survived
+  - We used company statements and the press, and you will find all the sources we used at the end of the report
+- label: PC & CONSOLE GAMING
+  type: pp_donutv
+  section: Market size
+  title: How is the PC and console gaming market split between its categories?
+  cats:
+  - name: Action adventure
+    p: 24
+    logos:
+    - ../../assets/logos/pp/ubisoft.png
+    - ../../assets/logos/pp/capcom.png
+  - name: Shooters live
+    p: 22
+    logos:
+    - ../../assets/logos/pp/electronic-arts.png
+    - ../../assets/logos/pp/activision.png
+  - name: RPG
+    p: 20
+    logos:
+    - ../../assets/logos/pp/cd-projekt.png
+    - ../../assets/logos/pp/square-enix.png
+  - name: Strategy indie
+    p: 18
+    logos:
+    - ../../assets/logos/pp/paradox.png
+    - ../../assets/logos/pp/devolver.png
+  - name: Sports racing
+    p: 16
+    logos:
+    - ../../assets/logos/pp/electronic-arts.png
+    - ../../assets/logos/pp/2k.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+  variant: B
