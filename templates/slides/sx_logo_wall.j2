@@ -1,0 +1,4 @@
+<div class="body"><div class="sx"><div class="chart" style="flex-direction:row;gap:22px;justify-content:flex-start;align-items:flex-start">
+{% for col in s.cols %}<div style="flex:1"><div style="font-size:8pt;letter-spacing:.3em;font-weight:600;padding-bottom:8px;border-bottom:{{ '2px solid #FB0161' if col.hl else '1.5px solid #334D54' }}">{{ col.name }}</div>
+ <div class="sub" style="margin:6px 0 10px">{{ col.sub }}</div>{% for c in col['items'] %}<div style="display:flex;align-items:center;gap:10px;margin-bottom:7px"><span class="tile">{% if c.src %}<img src="{{ c.src }}">{% endif %}</span><span class="lab">{{ c.name }}</span><span class="sub" style="margin-left:auto">{{ c.v }}</span></div>{% endfor %}</div>{% endfor %}
+</div>{% include 'slides/sx_side.j2' %}</div></div>

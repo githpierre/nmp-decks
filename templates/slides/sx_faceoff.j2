@@ -1,0 +1,5 @@
+<div class="body"><div class="sx" style="flex-direction:column;align-items:center">
+<div style="display:flex;gap:22px;align-items:stretch">{% for c in s.cards %}<div style="width:250px;border:{{ '2px solid #FB0161' if c.hl else '1.5px solid #334D54' }};border-radius:10px;padding:22px 24px">
+ <div style="font-size:9pt;letter-spacing:.3em;font-weight:600">{{ c.name }}</div>{% for st in c.stats %}<div style="margin-top:16px"><div style="font-size:24pt;font-weight:700;line-height:1">{{ st.v }}</div><div class="sub" style="margin-top:4px">{{ st.l }}</div></div>{% endfor %}</div>
+ {% if loop.first %}<div style="align-self:center;font-size:11pt;color:#789096;font-weight:600">vs</div>{% endif %}{% endfor %}</div>
+<p style="width:600px;text-align:center;font-size:9pt;line-height:1.5;color:#A9B8BE;margin:22px 0 0">{{ s.story }}</p></div></div>

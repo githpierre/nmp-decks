@@ -1,0 +1,688 @@
+market: In Vivo CAR-T
+label: In vivo CAR-T market
+quarter: Q3 2026
+year: 2026
+slug: extra-invivo-cn
+chapters:
+- 'What is this
+
+  market about?'
+- 'Why this
+
+  market now?'
+- 'How big could this
+
+  market get?'
+- 'What are the pain
+
+  points, and for whom?'
+- 'What is the latest tech
+
+  and infrastructure?'
+- 'How is value created
+
+  and monetized?'
+- 'What could slow this
+
+  market down?'
+- 'What are the growth
+
+  drivers in this market?'
+- 'What are investors
+
+  betting on now?'
+- 'Who are the top startups
+
+  and companies?'
+- 'What could kill
+
+  a startup in this market?'
+- 'How do you win
+
+  in this market?'
+scripts:
+- decisions.js
+keep_together:
+- in vivo CAR-T
+- CAR-T
+slides:
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 59% vs 11%
+  story: 'China now closes most in vivo CAR-T rounds: 19 of the 32 since 2024, for MagicRNA, Starna, Vivacta and others.
+
+    But US rounds are far bigger, so US startups still take 89% of the money. Sail alone took $465M from J&J.'
+  groups:
+  - name: China
+    col: '#FB0161'
+  - name: US
+    col: '#FFFFFF'
+  - name: Rest of the world
+    col: '#789096'
+  rows:
+  - name: Share of the rounds
+    total: 32 rounds since 2024
+    v:
+    - 59
+    - 38
+    - 3
+  - name: Share of the money raised
+    total: $1.41B since 2024
+    v:
+    - 11
+    - 89
+    - 0
+  id: C01
+  type: sx_split_compare
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 59%
+  story: Chinese startups raise more often but in small rounds, often with local funds. US startups raise less often, but their rounds are ten times bigger and often include big pharma.
+  cards:
+  - name: CHINA
+    hl: true
+    stats:
+    - v: '19'
+      l: equity rounds since 2024
+    - v: $154M
+      l: raised in rounds with a public amount
+    - v: $8M
+      l: median disclosed round
+  - name: UNITED STATES
+    stats:
+    - v: '12'
+      l: equity rounds since 2024
+    - v: $1.25B
+      l: raised in rounds with a public amount
+    - v: $84M
+      l: median disclosed round
+  id: C02
+  type: sx_faceoff
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 59%
+  story: 'Chinese startups such as MagicRNA, Starna and Vivacta now close most in vivo CAR-T rounds, mostly with local funds.
+
+    US startups still take 89% of the money, because their rounds are far bigger: Sail alone took $465M from J&J.'
+  cols:
+  - name: CHINA
+    hl: true
+    sub: 19 rounds, $154M
+    items:
+    - name: MagicRNA
+      v: 3 rounds
+      src: ../../assets/logos/magicrna.png
+    - name: Starna
+      v: $82M
+      src: ../../assets/logos/starna-therapeutics.png
+    - name: IASO
+      v: $30M
+      src: ../../assets/logos/iaso-biotherapeutics.png
+    - name: Vivacta Bio
+      v: $14M+
+      src: ../../assets/logos/vivacta-bio.png
+    - name: DeliNova
+      v: $14M
+      src: ../../assets/logos/delinova-therapeutics.png
+    - name: Genocury
+      v: 3 rounds
+      src: ../../assets/logos/shenzhen-genocury-biotech.png
+  - name: UNITED STATES
+    sub: 12 rounds, $1.25B
+    items:
+    - name: Sail
+      v: $465M
+      src: ../../assets/logos/sail-biomedicines.png
+    - name: Capstan
+      v: $175M
+      src: ../../assets/logos/capstan.png
+    - name: Strand
+      v: $153M
+      src: ../../assets/logos/strand-therapeutics.png
+    - name: CREATE
+      v: $122M
+      src: ../../assets/logos/create-medicines.png
+    - name: Umoja
+      v: $100M
+      src: ../../assets/logos/umoja-biopharma.png
+    - name: Azalea
+      v: $65M
+      src: ../../assets/logos/azalea-therapeutics.png
+  id: C03
+  type: sx_logo_wall
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 59%
+  story: Each circle is one equity round since 2024. Pink circles, Chinese startups, are now the most frequent, but they stay small. The few big circles are all American, led by Sail’s $465M from J&J in July 2026.
+  t0: 2024.0
+  t1: 2027.0
+  amax: 465.0
+  ticks:
+  - t: 2024.0
+    l: '2024'
+  - t: 2025.0
+    l: '2025'
+  - t: 2026.0
+    l: '2026'
+  - t: 2026.87
+    l: Today
+  pts:
+  - t: 2026.542
+    a: 465.0
+    col: '#FFFFFF'
+    lab: Sail $465M
+    lane: 0
+    cy: 112.0
+  - t: 2024.208
+    a: 175.0
+    col: '#FFFFFF'
+    lab: Capstan
+    lane: 0
+    cy: 125.1
+  - t: 2025.625
+    a: 153.0
+    col: '#FFFFFF'
+    lab: Strand
+    lane: 0
+    cy: 126.5
+  - t: 2026.375
+    a: 122.0
+    col: '#FFFFFF'
+    lab: CREATE
+    lane: 0
+    cy: 64.6
+  - t: 2025.042
+    a: 100.0
+    col: '#FFFFFF'
+    lab: Umoja
+    lane: 0
+    cy: 130.2
+  - t: 2025.875
+    a: 65.0
+    col: '#FFFFFF'
+    lab: ''
+    lane: 0
+    cy: 133.3
+  - t: 2025.708
+    a: 53.0
+    col: '#FFFFFF'
+    lab: ''
+    lane: 0
+    cy: 90.5
+  - t: 2024.458
+    a: 51.4
+    col: '#FFFFFF'
+    lab: ''
+    lane: 0
+    cy: 134.7
+  - t: 2025.375
+    a: 45.0
+    col: '#FFFFFF'
+    lab: ''
+    lane: 0
+    cy: 135.4
+  - t: 2025.792
+    a: 42.0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 65.8
+  - t: 2026.375
+    a: 40.0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 26.0
+  - t: 2025.708
+    a: 30.0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 45.4
+  - t: 2025.958
+    a: 25.0
+    col: '#FFFFFF'
+    lab: ''
+    lane: 0
+    cy: 110.1
+  - t: 2025.875
+    a: 14.0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 96.1
+  - t: 2026.792
+    a: 14.0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 140.1
+  - t: 2025.625
+    a: 13.9
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 72.1
+  - t: 2026.708
+    a: 5.9
+    col: '#789096'
+    lab: ''
+    lane: 0
+    cy: 142.2
+  - t: 2024.042
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 146
+  - t: 2024.042
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 136
+  - t: 2024.125
+    a: 0
+    col: '#FFFFFF'
+    lab: ''
+    lane: 0
+    cy: 102
+  - t: 2024.375
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 146
+  - t: 2024.375
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 128
+  - t: 2025.042
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 104
+  - t: 2025.458
+    a: 0
+    col: '#FFFFFF'
+    lab: ''
+    lane: 0
+    cy: 146
+  - t: 2025.708
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 68
+  - t: 2025.792
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 146
+  - t: 2025.792
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 122
+  - t: 2025.875
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 80
+  - t: 2026.292
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 146
+  - t: 2026.375
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 146
+  - t: 2026.458
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 46
+  - t: 2026.625
+    a: 0
+    col: '#FB0161'
+    lab: ''
+    lane: 0
+    cy: 72
+  groups:
+  - name: Chinese startup
+    col: '#FB0161'
+  - name: US startup
+    col: '#FFFFFF'
+  - name: Other
+    col: '#789096'
+  id: C04
+  type: sx_round_timeline
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 6 vs 2
+  story: 'In 2026 so far, Chinese startups closed 6 in vivo CAR-T rounds, US startups only 2.
+
+    The gap opened as MagicRNA, Starna and Vivacta came back for more money, while US startups raised fewer but bigger rounds.'
+  left: China
+  right: United States
+  max: 9
+  unit: Number of equity rounds per year
+  rows:
+  - x: '2024'
+    l: 4
+    r: 3
+  - x: '2025'
+    l: 9
+    r: 7
+  - x: '2026'
+    l: 6
+    r: 2
+  id: C05
+  type: sx_butterfly
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 59%
+  story: MagicRNA, Starna, Vivacta and DeliNova raise often, from local funds. Sail, CREATE and Strand raise rarely, but each of their rounds is worth more than a year of Chinese rounds.
+  headline: Chinese startups now close most in vivo CAR-T rounds, but they raise much smaller amounts than their US rivals
+  stats:
+  - v: 59%
+    l: 'of the rounds since 2024
+
+      went to Chinese startups'
+  - v: 11%
+    l: 'of the money raised
+
+      went to Chinese startups'
+  - v: 10x
+    l: 'bigger median round
+
+      in the US than in China'
+  id: C06
+  type: sx_stat_strip
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 11%
+  story: 'Each block is one startup, sized by the money it raised in disclosed equity rounds since 2024.
+
+    Chinese startups close most rounds, but their blocks stay small next to Sail, Capstan, Strand and CREATE.'
+  groups:
+  - name: Chinese startup
+    col: '#FB0161'
+  - name: US startup
+    col: '#C5CDD2'
+  - name: Other
+    col: '#789096'
+  rects:
+  - name: Sail
+    v: $465M
+    x: 0
+    y: 0
+    w: 144.7
+    h: 250.0
+    col: '#C5CDD2'
+  - name: Capstan
+    v: $175M
+    x: 144.7
+    y: 0
+    w: 102.1
+    h: 133.4
+    col: '#C5CDD2'
+  - name: Strand
+    v: $153M
+    x: 144.7
+    y: 133.4
+    w: 102.1
+    h: 116.6
+    col: '#C5CDD2'
+  - name: CREATE
+    v: $122M
+    x: 246.7
+    y: 0
+    w: 106.2
+    h: 89.3
+    col: '#C5CDD2'
+  - name: Umoja
+    v: $100M
+    x: 352.9
+    y: 0
+    w: 87.1
+    h: 89.3
+    col: '#C5CDD2'
+  - name: Starna
+    v: $82M
+    x: 246.7
+    y: 89.3
+    w: 71.2
+    h: 89.6
+    col: '#FB0161'
+  - name: Azalea
+    v: $65M
+    x: 246.7
+    y: 179.0
+    w: 71.2
+    h: 71.0
+    col: '#C5CDD2'
+  - name: Ensoma
+    v: $53M
+    x: 317.9
+    y: 89.3
+    w: 62.0
+    h: 66.5
+    col: '#C5CDD2'
+  - name: Interius
+    v: $51M
+    x: 379.9
+    y: 89.3
+    w: 60.1
+    h: 66.5
+    col: '#C5CDD2'
+  - name: Stylus
+    v: $45M
+    x: 317.9
+    y: 155.8
+    w: 62.0
+    h: 56.5
+    col: '#C5CDD2'
+  - name: IASO
+    v: $30M
+    x: 317.9
+    y: 212.3
+    w: 62.0
+    h: 37.7
+    col: '#FB0161'
+  - name: Vyriad
+    v: $25M
+    x: 379.9
+    y: 155.8
+    w: 60.1
+    h: 32.3
+    col: '#C5CDD2'
+  - name: Vivacta
+    v: $14M
+    x: 379.9
+    y: 188.2
+    w: 30.1
+    h: 36.2
+    col: '#FB0161'
+  - name: DeliNova
+    v: $14M
+    x: 409.9
+    y: 188.2
+    w: 30.1
+    h: 36.2
+    col: '#FB0161'
+  - name: MagicRNA
+    v: $14M
+    x: 379.9
+    y: 224.4
+    w: 42.2
+    h: 25.6
+    col: '#FB0161'
+  - name: MVRIX
+    v: $6M
+    x: 422.1
+    y: 224.4
+    w: 17.9
+    h: 25.6
+    col: '#789096'
+  id: C07
+  type: sx_treemap
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 6 of 9
+  story: 'Chinese startups such as MagicRNA, Starna and Vivacta now close most in vivo CAR-T rounds, mostly with local funds.
+
+    US startups still take 89% of the money, because their rounds are far bigger: Sail alone took $465M from J&J.'
+  groups:
+  - name: China
+    col: '#FB0161'
+  - name: United States
+    col: '#FFFFFF'
+  - name: Rest of the world
+    col: '#789096'
+  max: 16
+  cols:
+  - x: '2024'
+    sub: 7 rounds
+    v:
+    - 4
+    - 3
+    - 0
+  - x: '2025'
+    sub: 16 rounds
+    v:
+    - 9
+    - 7
+    - 0
+  - x: '2026'
+    sub: 9 rounds so far
+    v:
+    - 6
+    - 2
+    - 1
+  id: C08
+  type: sx_stacked_cols
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 19 rounds
+  story: 'Five Chinese startups closed 12 of the 19 Chinese in vivo CAR-T rounds since 2024.
+
+    They raise again and again in small steps, mostly from local funds, while US rivals raise rarely but big.'
+  rows:
+  - name: MagicRNA
+    what: LNP-mRNA CD19 CAR-T
+    n: 3
+    v: $14M+
+    src: ../../assets/logos/magicrna.png
+  - name: Starna Therapeutics
+    what: In vivo CAR programs STR-P004/5
+    n: 2
+    v: $82M
+    src: ../../assets/logos/starna-therapeutics.png
+  - name: Shenzhen Genocury
+    what: Lentiviral CD19 and BCMA CAR-T
+    n: 3
+    v: n/a
+    src: ../../assets/logos/shenzhen-genocury-biotech.png
+  - name: Vivacta Bio
+    what: GT801 CD19 in vivo CAR-T
+    n: 2
+    v: $14M+
+    src: ../../assets/logos/vivacta-bio.png
+  - name: DeliNova Therapeutics
+    what: Lentiviral in vivo CAR-T
+    n: 2
+    v: $14M
+    src: ../../assets/logos/delinova-therapeutics.png
+  id: C09
+  type: sx_league
+- section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  note:
+  - We sorted every equity round raised by in vivo CAR-T startups in our own database
+  - by the country of the startup’s headquarters, from January 2024 to November 2026
+  big: 6 of 9
+  story: MagicRNA raised twice this year, and Starna, Vivacta, Zhenyu and DeliNova came back too. In the US, only CREATE and Sail raised, but together they took $587M.
+  n: 9
+  k: 6
+  marks:
+  - CN
+  - CN
+  - CN
+  - CN
+  - CN
+  - CN
+  - US
+  - US
+  - KR
+  names:
+  - Vivacta
+  - Starna
+  - Zhenyu
+  - MagicRNA
+  - MagicRNA
+  - DeliNova
+  - CREATE
+  - Sail
+  - MVRIX
+  what: in vivo CAR-T rounds of 2026 went to Chinese startups
+  id: C10
+  type: sx_pictogram

@@ -1,0 +1,4 @@
+<div class="body"><div class="sx"><div class="chart">
+<div class="lg">{% for g in s.groups %}<span><i style="background:{{ g.col }}"></i>{{ g.name }}</span>{% endfor %}<span>area = amount raised</span></div>
+<div style="position:relative;width:440px;height:250px">{% for r in s.rects %}<div style="position:absolute;left:{{ r.x }}px;top:{{ r.y }}px;width:{{ r.w - 3 }}px;height:{{ r.h - 3 }}px;background:{{ r.col }};border-radius:3px;padding:5px 6px;box-sizing:border-box;overflow:hidden;font-size:{{ 9 if r.w > 70 and r.h > 34 else 6.5 }}pt;line-height:1.25;color:{{ '#062A3C' if r.col == '#FFFFFF' or r.col == '#C5CDD2' else '#fff' }}">{% if r.w > 62 and r.h > 22 %}<b>{{ r.name }}</b>{% if r.h > 34 %}<br>{{ r.v }}{% endif %}{% endif %}</div>{% endfor %}</div>
+</div>{% include 'slides/sx_side.j2' %}</div></div>

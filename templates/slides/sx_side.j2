@@ -1,0 +1,1 @@
+<div class="side"><div class="big">{{ s.big }}</div><div class="k">{{ s.kicker | default('THE STORY BEHIND IT') }}</div>{% for p in s.story.split('\n') if p.strip() %}<p>{{ p }}</p>{% endfor %}</div>

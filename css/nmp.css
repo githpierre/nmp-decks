@@ -364,3 +364,12 @@ b,strong{font-weight:700}
 .sh .side p{font-size:8.6pt;line-height:1.45;color:#A9B8BE;margin:0 0 9px}
 .sh .lg{font-size:7.5pt;color:#A9B8BE;display:flex;gap:16px;align-items:center}.sh .lg i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:-1px}
 .sh .pk{color:#FB0161}.sh .yr{font-size:9pt;font-weight:600;color:#fff}.sh .pc{font-size:20pt;font-weight:700}.sh .sub{font-size:7.5pt;color:#A9B8BE}
+/* sx_* templates (12 Nov 2026): flex row, the dashed divider is exactly as tall as the chart block */
+.sx{position:relative;width:760px;display:flex;align-items:stretch;font-family:Lexend,sans-serif;color:#fff}
+.sx .chart{width:470px;padding-right:26px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center}
+.sx .side{flex:1;border-left:1.5px dashed #334D54;padding-left:26px;display:flex;flex-direction:column;justify-content:center}
+.sx .side .big{font-size:30pt;font-weight:700;line-height:1}.sx .side .k{font-size:8pt;letter-spacing:.32em;margin:12px 0 10px}
+.sx .side p{font-size:8.6pt;line-height:1.45;color:#A9B8BE;margin:0 0 8px}.sx .side p:last-child{margin-bottom:0}
+.sx .lg{font-size:7.5pt;color:#A9B8BE;display:flex;gap:16px;align-items:center;margin-bottom:12px}.sx .lg i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.sx .sub{font-size:7.5pt;color:#A9B8BE}.sx .lab{font-size:8.5pt;color:#fff}
+.sx .tile{width:30px;height:30px;border-radius:6px;background:#fff;display:flex;align-items:center;justify-content:center;border:1px solid #C9D3D6}.sx .tile img{width:66%;height:66%;object-fit:contain}

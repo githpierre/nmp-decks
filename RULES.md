@@ -331,3 +331,5 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 ## Visual audit before showing anything (Pierre, 12 Nov 2026, again)
 - New templates keep the side margins: every element of the body between x 90 and 870 (content block 760 px wide, centered). `python3 tools/audit_layout.py <slug>` checks MARGIN, TEXT_OVERLAP and PINK_TEXT; it must say 0 before a review page is published, together with build issues at 0 and a look at every slide on contact sheets.
 - No big pink numbers on navy (white instead); notes always 2 balanced lines.
+- The dashed divider between a chart and its text panel is exactly as tall as the chart block (from the top of the legend to the bottom of the last label), never shorter: templates use the flex row `.sx` (css/nmp.css), where both columns stretch to the same height.
+- New extra-slide designs: not only "three years in a row" charts (bars, rings, gauges). Show the fact in really different ways: rounds vs money, face-off cards, logo wall, round timeline, butterfly, stat strip, treemap, stacked columns, league table, pictogram (`templates/slides/sx_*.j2`, examples in `decks/extra-invivo-cn`).
