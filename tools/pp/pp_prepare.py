@@ -169,8 +169,9 @@ def survivors(s):
 def winner(s):
     n = len(s['companies']); cw = max(_tw(c['name'], 12, True) for c in s['criteria'])
     x0 = max(433, 181 + cw + 46); p = min(77, (835 - x0) / max(1, n - 1)); xs = [x0 + i * p for i in range(n)]   # long criteria push the columns right (11 Nov)
-    m = len(s['criteria']); y0 = 305 + (6 - m) * 35.8 / 2   # fewer than 6 rows: block stays centered (11 Nov)
-    s['geo'] = dict(xs=xs, dy=y0 - 305, ys=[y0 + i * 35.8 for i in range(m)],
+    m = len(s['criteria']); y0 = 305 + max(0, 6 - m) * 35.8 / 2   # fewer than 6 rows: block stays centered (11 Nov)
+    pitch = 35.8 if m <= 6 else 35.8 * 6 / m                       # more than 6 rows: tighter rows, the block never climbs into the title (12 Nov)
+    s['geo'] = dict(xs=xs, dy=y0 - 305, pitch=pitch, ys=[y0 + i * pitch for i in range(m)],
                     score=[sum(c['ticks'][j] for c in s['criteria']) for j in range(n)])
 
 

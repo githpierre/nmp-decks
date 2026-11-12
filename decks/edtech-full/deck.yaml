@@ -98,33 +98,41 @@ slides:
   - We often use a conversational tone, which may sometimes sound a bit informal
   - We do it on purpose, because it reduces cognitive load and makes slides easier
   src: 6
-- id: ed007
-  type: x/market_out
+- id: ed007p
+  type: pp_radar
   section: Market definition
-  title: 'What is in the EdTech market,
+  pill: MARKET MAP
+  title: 'Who is in EdTech,
 
-    and what is out?'
-  note: Distance to the center reflects how directly a product is built to teach, assess or certify, not just used by learners The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
-  src: 7
-  t:
-    13: MARKET MAP
-    38: MasterClass{1| sells celebrity video lessons by subscription, which feels like learning but works more like a streaming service}
-    40: Zoom{1| hosted millions of classes during the pandemic, but it remains generic video software built for business meetings}
-    42: OpenAI{1| added a study mode for students and sells ChatGPT Edu to universities, yet ChatGPT remains a general assistant}
-    44: Pearson{1| is seen as a textbook publisher, yet testing and online schools bring in about 60% of its sales, so it sits on the line}
-  img:
+    and who stays outside?'
+  caption:
+  - Distance to the center reflects how directly a product is built to teach, assess or certify, not just used by learners
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
   - media/raw/8738717e586a.png
-  - media/raw/2c0170a34c83.png
   - media/raw/27d0aaec1319.png
-  - media/raw/2010980f56b1.png
+  - media/raw/2c0170a34c83.png
   - media/raw/9b5d0692664d.png
+  - media/raw/2010980f56b1.png
   - media/raw/aded70e5d0bc.png
   - media/raw/42a3e9032be5.png
   - media/raw/4b576af154b9.png
-  - media/raw/ffbc37cf666b.png
-  - media/raw/d90aa2c4902a.png
-  - media/raw/3bf56f6c3c22.png
-  - media/raw/36d491c1e744.png
+  TL:
+    src: media/raw/3bf56f6c3c22.png
+    name: MasterClass
+    text: sells celebrity video lessons by subscription, which feels like learning but works more like a streaming service
+  TR:
+    src: media/raw/36d491c1e744.png
+    name: Zoom
+    text: hosted millions of classes during the pandemic, but it remains generic video software built for business meetings
+  BL:
+    src: media/raw/ffbc37cf666b.png
+    name: Pearson
+    text: is seen as a textbook publisher, yet testing and online schools bring in about 60% of its sales, so it sits on the line
+  BR:
+    src: media/raw/d90aa2c4902a.png
+    name: OpenAI
+    text: added a study mode for students and sells ChatGPT Edu to universities, yet ChatGPT remains a general assistant
 - id: ed008
   type: x/markets_often_confused
   section: Market definition
@@ -1006,37 +1014,40 @@ slides:
   - We used the latest estimates from Circana, SEMI, Sensor Tower, and Gartner for each market
   - App spending is what people pay inside apps, and only a small part of it goes to learning
   src: 46
-- id: ed047
-  type: catbars
+- id: ed047p
+  type: pp_donutv
+  variant: B
   section: Market size
-  title: 'What are the categories
-
-    and how much do they generate?'
+  title: How is the EdTech market split between its categories?
   cats:
-  - name: 'School
-
-      platforms'
-    v: 67
-  - name: 'Workforce
-
-      learning'
-    v: 42
-  - name: 'Online
-
-      courses'
-    v: 38
-  - name: 'Digital
-
-      tutoring'
-    v: 27
-  - name: 'Other
-
-      spending'
-    v: 18
+  - name: School platforms
+    p: 35
+    logos:
+    - ../../assets/logos/magicschool.png
+    - ../../assets/logos/pp/instructure.png
+  - name: Workforce learning
+    p: 22
+    logos:
+    - ../../assets/logos/multiverse.png
+    - ../../assets/logos/degreed.png
+  - name: Online courses
+    p: 20
+    logos:
+    - ../../assets/logos/pp/coursera.png
+    - media/raw/f4e850957ea1.png
+  - name: Digital tutoring
+    p: 14
+    logos:
+    - ../../assets/logos/preply.png
+    - ../../assets/logos/pp/duolingo.png
+  - name: Other spending
+    p: 9
+    logos:
+    - media/raw/4e4e7e8797f0.png
+    - media/raw/279d84b5c70e.png
   note:
   - We split the total using the end-user shares of Grand View and Fortune Business Insights
   - We then rounded every category so that all of them still add up to the same $192 billion
-  src: 47
 - id: ed048
   type: x/behind_these_categories
   section: Market size
@@ -1140,43 +1151,20 @@ slides:
 
       (through 2036)'
     19: AI tutors, teacher tools, and workforce training grow fast, but school budgets are tight and free chatbots push prices down. We land at about 11% a year, close to the average of the four research firms.
-- id: ed052
-  type: projection
+- id: ed052p
+  type: pp_cagr
   section: Market size
-  title: 'What is the projected growth for
+  title: 'How much bigger can
 
-    the EdTech market?'
-  intro: 'To reach this value, the market must turn AI tutors and teacher tools into paid products, while schools and companies keep budgets for learning every year.
-
-    It must also prove real learning gains, protect student data, and compete with free AI chatbots that already help millions of learners.'
-  bars:
-  - x: 2026
-    v: 213
-  - x: 2027
-    v: 237
-  - x: 2028
-    v: 263
-  - x: 2029
-    v: 291
-  - x: 2030
-    v: 324
-  - x: 2031
-    v: 359
-  - x: 2032
-    v: 399
-  - x: 2033
-    v: 442
-  - x: 2034
-    v: 491
-  - x: 2035
-    v: 545
-  - x: 2036
-    v: 605
-  cagr: 11% CAGR
+    EdTech get?'
+  size: 213
+  cagr: 11
+  y0: 2026
+  lead: 'To get that big, '
+  condition: the market must turn AI tutors and teacher tools into paid products, while schools and companies keep budgets for learning every year.
   note:
   - We compared the forecasts of Grand View, Fortune Business Insights, MarketsandMarkets, and IMARC
   - We adjusted each one to our definition and aligned their timelines to build a realistic range
-  src: 52
 - id: ed053
   type: agenda
   section: Pain points
@@ -2739,49 +2727,85 @@ slides:
     35: 🚀
     36: 🚀
     37: 🚀
-- id: ed099
-  type: x/platform_has_most_complete_tech
+- id: ed099p
+  type: pp_tech
   section: Tech and infra
-  title: 'Which EdTech platform has
+  title: 'Which EdTech players
 
-    the most complete tech today?'
-  note: We went through each company’s website, filings and press releases, and checked feature by feature what it really has. All the sources are included at the end of the report. A pink dot means the feature is there.
-  src: 99
-  t:
-    7: 'AI
-
-      tutor'
-    8: 'Online
-
-      degrees'
-    9: 'Speech
-
-      scoring'
-    10: 'K-12
-
-      teachers'
-    11: 'Open
-
-      marketplace'
-    12: 'Kids
-
-      app'
-    13: 'In-house
-
-      courses'
-    17: Duolingo
-    27: Khan Academy
-    38: Babbel
-    49: Coursera
-    60: Udemy
-    71: edX
-  img:
-  - media/raw/51c1cabaf08f.png
-  - media/raw/56255c1e7486.png
-  - media/raw/d071da06f0b4.png
-  - media/raw/d109e24b0a60.png
-  - media/raw/4214f8c69939.png
-  - media/raw/f4e850957ea1.png
+    can already do the most today?'
+  companies:
+  - name: Duolingo
+    src: media/raw/51c1cabaf08f.png
+  - name: Khan Academy
+    src: media/raw/56255c1e7486.png
+  - name: Babbel
+    src: media/raw/d071da06f0b4.png
+  - name: Coursera
+    src: media/raw/d109e24b0a60.png
+  - name: Udemy
+    src: media/raw/4214f8c69939.png
+  - name: edX
+    src: media/raw/f4e850957ea1.png
+  features:
+  - header: AI|tutor
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Online|degrees
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Speech|scoring
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: K-12|teachers
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Open|marketplace
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Kids|app
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: In-house|courses
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We went through each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
 - id: ed100
   type: agenda
   section: Value creation
@@ -2903,38 +2927,45 @@ slides:
 
       CREDENTIALS'
     18: 💎
-- id: ed105
-  type: x/companies_actually_make_money
+- id: ed105p
+  type: pp_value
   section: Value creation
-  title: 'How do EdTech companies
+  title: 'How does money really
 
-    actually make money?'
-  note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the end of the report.
-  src: 105
-  t:
-    9: Pays once
-    10: Pays every month
-    11: 'Paid by
-
-      institutions'
-    12: 'Paid by
-
-      learners'
-    18: Monthly subscription
-    22: 'Paid tutoring
-
-      lessons'
-    28: Degrees and certificates
-    32: 'Paid by school
-
-      districts'
-  img:
-  - media/raw/51c1cabaf08f.png
-  - media/raw/d071da06f0b4.png
-  - media/raw/73ab3e7b5fa4.png
-  - media/raw/d109e24b0a60.png
-  - media/raw/f4e850957ea1.png
-  - media/raw/56255c1e7486.png
+    flow in EdTech?'
+  axes:
+  - Pays once
+  - Pays every month
+  - Paid by
+  - learners
+  - Paid by
+  - institutions
+  groups:
+  - name: Degrees and certificates
+    x: 0.23
+    y: 0.69
+    logos:
+    - src: media/raw/d109e24b0a60.png
+    - src: media/raw/f4e850957ea1.png
+  - name: Paid by school districts
+    x: 0.77
+    y: 0.9
+    logos:
+    - src: media/raw/56255c1e7486.png
+  - name: Paid tutoring lessons
+    x: 0.46
+    y: 0.35
+    logos:
+    - src: media/raw/73ab3e7b5fa4.png
+  - name: Monthly subscription
+    x: 0.77
+    y: 0.32
+    logos:
+    - src: media/raw/51c1cabaf08f.png
+    - src: media/raw/d071da06f0b4.png
+  note:
+  - We placed each company by how its business model works, from pricing pages, company reports and filings
+  - Positions are our own reading of each model, and all the sources are included at the end of the report
 - id: ed106
   type: x/divider_3
   src: 106
@@ -3788,39 +3819,38 @@ slides:
       most of a company''s revenue'
     28: 🔒
     29: 🔒
-- id: ed142
-  type: x/main_downside_doom_scenarios
+- id: ed142p
+  type: pp_risks
   section: Market challenges
-  title: 'What are the main downside
-
-    (“doom”) scenarios?'
-  note: We focused on outcomes that combine both meaningful likelihood and high impact. These scenarios were extracted from recurring patterns across the materials reviewed, including historical failures, stalled technologies, regulatory reversals, and structural market shocks. We excluded edge cases with low probability or limited impact to keep the analysis grounded and relevant.
-  src: 142
-  t:
-    6: '🔓
-
-      A major breach of student data leads to bans on many learning tools'
-    7: '💸
-
-      School budgets shrink as the number of students keeps falling in many regions'
-    8: '⚖️
-
-      Strict AI rules for schools make it too costly for startups to sell'
-    9: '🤖
-
-      Free AI tutors from big tech become good enough for most of the learners'
-    10: '🧩
-
-      Big platforms bundle every feature and leave no room for smaller startups'
-    11: '🏢
-
-      Employers cut training budgets sharply during a long recession'
-    12: '📵
-
-      Governments limit screens in schools, cutting the use of digital tools'
-    13: '📉
-
-      Studies show that AI tutors do not improve learning, and trust collapses'
+  title: What could go wrong for EdTech?
+  events:
+  - text: Free study modes from OpenAI and Google get good enough for most learners, pulling customers away from paid apps and homework help
+    odds: 25
+    impact: 3
+  - text: School budgets shrink as COVID relief ends and enrollment keeps falling, so K-12 vendors face deep cuts at renewal time
+    odds: 20
+    impact: 2
+  - text: A long recession pushes employers to cut training first, as in 2009 and 2020, shrinking workforce learning for a year or two
+    odds: 15
+    impact: 2
+  - text: Google, Microsoft and Coursera bundle every feature into their platforms, leaving little room for point tools from smaller startups
+    odds: 15
+    impact: 2
+  - text: Studies show that AI tutors do not improve learning, so schools pull their budgets and parents lose trust in AI learning for years
+    odds: 12
+    impact: 3
+  - text: Strict AI rules for schools, like the EU high-risk rules due in December 2027, make it too costly for small startups to sell
+    odds: 10
+    impact: 2
+  - text: More governments limit screens in schools, beyond the 35 US states that limit phones, so K-12 apps lose their class time
+    odds: 8
+    impact: 2
+  - text: A major breach of student data leads to bans on many learning tools at once, hurting every vendor that sells to schools
+    odds: 5
+    impact: 3
+  note:
+  - We listed the events that could slow EdTech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
 - id: ed143
   type: x/likely_each_risk
   section: Market challenges
@@ -3973,81 +4003,104 @@ slides:
 
 
       COVID moved all teaching online for months. Funding hit $16.7 billion in 2021. Tutoring and language apps boomed worldwide.'
-- id: ed148
-  type: x/pushed_forward_year_after_year
+- id: ed148p
+  type: pp_drivers
   section: Growth drivers
-  title: 'What pushed EdTech
-
-    forward, year after year?'
-  note: Many events shaped EdTech. These are the ones we believe had the biggest impact, from company news, filings and analyst reports. All the sources are included at the end of the report. Ratings are our own estimates.
-  src: 148
-  t:
-    7: YEAR
-    8: WHAT HAPPENED
-    9: PUSH
-    11: '1997'
-    12: Blackboard moves college courses online
-    16: '2001'
-    17: MIT puts its course materials online free
-    21: '2002'
-    22: No Child Left Behind fuels testing software
-    26: '2006'
-    27: Free Google Apps pulls schools online
-    31: '2008'
-    32: Khan Academy shows video lessons can scale
-    37: '2010'
-    38: iPad puts touch tablets in classrooms
-    42: '2010'
-    43: Common Core forces schools to buy content
-    47: '2011'
-    48: Stanford AI class draws 160,000 online
-    53: '2012'
-    54: Coursera and edX spark the MOOC boom
-    59: '2012'
-    60: Duolingo makes language lessons a free app
-    64: '2014'
-    65: Free Google Classroom gets teachers online
-    70: '2014'
-    71: FCC E-Rate overhaul brings Wi-Fi to schools
-    75: '2015'
-    76: LinkedIn pays $1.5B for Lynda courses
-    80: '2016'
-    81: Jio's cheap data brings India online
-    85: '2017'
-    86: Chromebooks win most US school laptops
-    90: YEAR
-    91: WHAT HAPPENED
-    92: PUSH
-    94: '2019'
-    95: Pearson goes digital first for textbooks
-    100: '2020'
-    102: Covid shuts schools for 1.6 billion kids
-    107: '2020'
-    108: Zoom becomes the default classroom
-    113: '2020'
-    114: Google certificates rival college degrees
-    119: '2021'
-    121: US relief funds give schools $190B
-    126: '2021'
-    127: Coursera and Duolingo IPOs prove EdTech pays
-    132: '2022'
-    134: ChatGPT gives every student an AI tutor
-    139: '2023'
-    140: Khanmigo brings GPT-4 tutoring to schools
-    144: '2023'
-    145: Chegg crash shows AI beats homework sites
-    149: '2025'
-    150: White House order pushes AI into schools
-    154: '2025'
-    155: Beijing makes AI classes required in schools
-    159: '2025'
-    160: OpenAI and Google give students free AI
-    165: '2025'
-    166: Microsoft pledges $4B for AI education
-    170: '2025'
-    171: ChatGPT study mode turns chat into tutoring
-    175: '2026'
-    176: India adds AI classes from grade 3
+  title: What pushed the EdTech market forward, year after year?
+  events:
+  - year: '1997'
+    text: Blackboard moves college courses online
+    impact: 1.5
+  - year: '2001'
+    text: MIT puts its course materials online free
+    impact: 1.5
+  - year: '2002'
+    text: No Child Left Behind fuels testing software
+    impact: 1.5
+  - year: '2006'
+    text: Free Google Apps pulls schools online
+    impact: 1.5
+  - year: '2008'
+    text: Khan Academy shows video lessons can scale
+    impact: 2.0
+  - year: '2010'
+    text: iPad puts touch tablets in classrooms
+    impact: 1.5
+  - year: '2010'
+    text: Common Core forces schools to buy content
+    impact: 1.5
+  - year: '2011'
+    text: Stanford AI class draws 160,000 online
+    impact: 2.0
+  - year: '2012'
+    text: Coursera and edX spark the MOOC boom
+    impact: 2.0
+  - year: '2012'
+    text: Duolingo makes language lessons a free app
+    impact: 1.0
+  - year: '2014'
+    text: Free Google Classroom gets teachers online
+    impact: 2.0
+  - year: '2014'
+    text: FCC E-Rate overhaul brings Wi-Fi to schools
+    impact: 1.5
+  - year: '2015'
+    text: LinkedIn pays $1.5B for Lynda courses
+    impact: 1.5
+  - year: '2016'
+    text: Jio's cheap data brings India online
+    impact: 1.5
+  - year: '2017'
+    text: Chromebooks win most US school laptops
+    impact: 1.5
+  - year: '2019'
+    text: Pearson goes digital first for textbooks
+    impact: 1.0
+  - year: '2020'
+    text: Covid shuts schools for 1.6 billion kids
+    impact: 3.0
+  - year: '2020'
+    text: Zoom becomes the default classroom
+    impact: 2.0
+  - year: '2020'
+    text: Google certificates rival college degrees
+    impact: 1.0
+  - year: '2021'
+    text: US relief funds give schools $190B
+    impact: 2.5
+  - year: '2021'
+    text: Coursera and Duolingo IPOs prove EdTech pays
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT gives every student an AI tutor
+    impact: 3.0
+  - year: '2023'
+    text: Khanmigo brings GPT-4 tutoring to schools
+    impact: 1.5
+  - year: '2023'
+    text: Chegg crash shows AI beats homework sites
+    impact: 1.0
+  - year: '2025'
+    text: White House order pushes AI into schools
+    impact: 1.5
+  - year: '2025'
+    text: Beijing makes AI classes required in schools
+    impact: 1.5
+  - year: '2025'
+    text: OpenAI and Google give students free AI
+    impact: 2.0
+  - year: '2025'
+    text: Microsoft pledges $4B for AI education
+    impact: 1.5
+  - year: '2025'
+    text: ChatGPT study mode turns chat into tutoring
+    impact: 1.0
+  - year: '2026'
+    text: India adds AI classes from grade 3
+    impact: 1.5
+  note:
+  - Many events shaped EdTech, and these are the ones we believe had the biggest impact on the market
+  - Ratings are our own, from company news, filings and analyst reports, with all the sources at the end
 - id: ed149
   type: x/growth_engines_have_run_out
   section: Growth drivers
@@ -4414,27 +4467,36 @@ slides:
       (65 deals)'
     16: 2026 (YTD)
     18: '% of total capital captured by the biggest deal of the year'
-- id: ed165
-  type: x/have_been_biggest_fundraising_deals
+- id: ed165p
+  type: pp_raises
   section: Investor bets
-  title: 'What have been the biggest
+  title: 'Who are investors backing most
 
-    fundraising deals recently?'
-  note: Data comes from our tracker of 266 EdTech equity rounds announced since January 2024, worth about $2.43 billion. Debt, grants, and secondary share sales are left out
-  src: 165
-  t:
-    6: PREPLY
-    8: In Q1 2026 it raised a Series D led by WestCap
-    10: $150M
-    11: LEARNVECTOR
-    13: In Q3 2026 it raised a Series A, all from Coursera
-    15: $100M
-    16: YOODLI
-    18: In Q4 2025 it raised a Series B led by WestBridge
-    20: $40M
-    21: EMVERSITY
-    23: In Q1 2026 it raised a Series A led by Premji Invest
-    25: $30M
+    in EdTech right now?'
+  rounds:
+  - name: Preply
+    amt: 150000000.0
+    src: ../../assets/logos/preply.png
+    stage: Series D
+    date: Q1 2026
+  - name: LearnVector
+    amt: 100000000.0
+    src: ''
+    stage: Series A
+    date: Q3 2026
+  - name: Yoodli
+    amt: 40000000.0
+    src: ../../assets/logos/yoodli.png
+    stage: Series B
+    date: Q4 2025
+  - name: Emversity
+    amt: 30000000.0
+    src: ''
+    stage: Series A
+    date: Q1 2026
+  note:
+  - We listed the biggest equity rounds raised by EdTech startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
 - id: ed166
   type: x/over_years
   section: Investor bets
@@ -4489,64 +4551,75 @@ slides:
     19: LearnVector, Yoodli, Honor, Stepful
     20: PhysicsWallah, Eruditus, upGrad, Campus
     24: SINCE 2024
-- id: ed168
-  type: x/where_did_investors_put_their
+- id: ed168p
+  type: invbets
+  handle: edtech
   section: Investor bets
-  title: 'Where did EdTech investors put
-
-    their money this past year?'
+  title: Where did EdTech investors put their money this past year?
   note: We added up every funding round we tracked in EdTech over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the report.
-  src: 168
-  t:
-    7: CATEGORY
-    8: MONEY RAISED
-    9: TOP STARTUPS
-    10: '01'
-    11: Workforce learning
-    12: LearnVector, Yoodli
-    16: $278M
-    17: 37% of total
-    25: '02'
-    26: Digital tutoring
-    27: Preply, SpeakX
-    31: $243M
-    32: 32% of total
-    40: '03'
-    41: School platforms
-    42: Subject, Gizmo
-    46: $164M
-    47: 22% of total
-    55: '04'
-    56: Online courses
-    57: Oboe, Skillwill
-    61: $39M
-    62: 5% of total
-    70: '05'
-    71: Assessment tech
-    72: Ed.ai, DeweyLearn
-    76: $21M
-    77: 3% of total
-    83: '06'
-    84: Credentialing
-    85: BRUM Patenti, AICertified
-    89: $7M
-    90: under 1% of total
-    92: BP
-  img:
-  - media/raw/b81e7571199d.png
-  - media/raw/10993771e380.png
-  - media/raw/94a7653b4fcb.png
-  - media/raw/7cafbc9cc760.png
-  - media/raw/4ad795efb07f.png
-  - media/raw/5e02a6af6299.png
-  - media/raw/1148d4f52089.png
-  - media/raw/e736cd32b99c.png
-  - media/raw/c275461b9469.png
-  - media/raw/ce15e9734a1a.png
-  - media/raw/c2eb9c18268c.png
-  - media/raw/5f00df523e76.png
-  - media/raw/4e4e7e8797f0.png
-  - media/raw/279d84b5c70e.png
+  rows:
+  - name: Workforce learning
+    names:
+    - LearnVector
+    - Yoodli
+    v: $278M
+    pct: 37% of total
+    w: 100.0
+    logos:
+    - src: media/raw/b81e7571199d.png
+    - src: media/raw/10993771e380.png
+    - src: media/raw/94a7653b4fcb.png
+  - name: Digital tutoring
+    names:
+    - Preply
+    - SpeakX
+    v: $243M
+    pct: 32% of total
+    w: 87.4
+    logos:
+    - src: media/raw/7cafbc9cc760.png
+    - src: media/raw/4ad795efb07f.png
+    - src: media/raw/5e02a6af6299.png
+  - name: School platforms
+    names:
+    - Subject
+    - Gizmo
+    v: $164M
+    pct: 22% of total
+    w: 59.0
+    logos:
+    - src: media/raw/1148d4f52089.png
+    - src: media/raw/e736cd32b99c.png
+    - src: media/raw/c275461b9469.png
+  - name: Online courses
+    names:
+    - Oboe
+    - Skillwill
+    v: $39M
+    pct: 5% of total
+    w: 14.0
+    logos:
+    - src: media/raw/ce15e9734a1a.png
+    - src: media/raw/c2eb9c18268c.png
+    - src: media/raw/5f00df523e76.png
+  - name: Assessment tech
+    names:
+    - Ed.ai
+    - DeweyLearn
+    v: $21M
+    pct: 3% of total
+    w: 7.6
+    logos:
+    - src: media/raw/4e4e7e8797f0.png
+    - src: media/raw/279d84b5c70e.png
+  - name: Digital credentialing
+    names:
+    - BRUM Patenti
+    - AICertified
+    v: $7M
+    pct: under 1% of total
+    w: 2.5
+    logos: []
 - id: ed169
   type: x/most_active_investors
   section: Investor bets
@@ -4585,81 +4658,63 @@ slides:
   section: Top players
   current: 10
   src: 170
-- id: ed171
-  type: logogrid
+- id: ed171p
+  type: pp_grid
   section: Top players
-  title: 'Who are the top companies
+  title: 'Who are the top players
 
-    in the EdTech market?'
+    in EdTech today?'
+  handle: edtech
   cols:
-  - Early stage
-  - Growth stage
-  - Scale stage
+  - Leaders
+  - Challengers
+  - Newcomers
   rows:
-  - name: Schools
-    logos:
-    - l: teachy
-      x: 0.15
-    - l: brisk
-      x: 0.4
-    - l: flint
-      x: 0.65
-    - l: magicschool
-      x: 1.35
-    - l: amira
-      x: 1.65
-    - l: schoolinks
-      x: 2.0
-    - l: ageoflearning
-      x: 2.3
-    - l: classdojo
-      x: 2.5
-    - l: newsela
-      x: 2.78
-  - name: Consumers
-    logos:
-    - l: sigiq
-      x: 0.22
-    - l: oboe
-      x: 0.45
-    - l: gizmo
-      x: 0.72
-    - l: speakx
-      x: 1.0
-    - l: knowunity
-      x: 1.32
-    - l: seekho
-      x: 1.6
-    - l: quizlet
-      x: 2.0
-    - l: preply
-      x: 2.42
-    - l: gostudent
-      x: 2.8
-  - name: Workforce
-    logos:
-    - l: fullyramped
-      x: 0.22
-    - l: secondnature
-      x: 0.55
-    - l: cognota
-      x: 1.0
-    - l: yoodli
-      x: 1.32
-    - l: stepful
-      x: 1.6
-    - l: 360learning
-      x: 2.12
-    - l: degreed
-      x: 2.42
-    - l: multiverse
-      x: 2.66
-    - l: guild
-      x: 2.88
+  - Schools
+  - Consumers
+  - Workforce
+  cells:
+  - - - classdojo
+      - newsela
+    - - magicschool
+      - amira
+    - - teachy
+      - brisk
+  - - - preply
+      - gostudent
+    - - knowunity
+      - speakx
+    - - sigiq
+      - oboe
+  - - - multiverse
+      - guild
+    - - yoodli
+      - stepful
+    - - fullyramped
+      - secondnature
   note:
-  - Each logo sits at its stage, from funding, revenue and reach, and a logo on a line sits between two stages
-  - We excluded big tech, listed firms like Duolingo, and buyouts like PowerSchool from this map
-  src: 171
+  - We placed private players by their main customer and their stage, from funding news, revenue and reach
+  - We left out big tech, listed firms like Duolingo and buyouts like PowerSchool, with sources at the end of the report
+  srcs:
+    classdojo: ../../assets/logos/classdojo.png
+    newsela: ../../assets/logos/newsela.png
+    magicschool: ../../assets/logos/magicschool.png
+    amira: ../../assets/logos/amira.png
+    teachy: ../../assets/logos/teachy.png
+    brisk: ../../assets/logos/brisk.png
+    preply: ../../assets/logos/preply.png
+    gostudent: ../../assets/logos/gostudent.png
+    knowunity: ../../assets/logos/knowunity.png
+    speakx: ../../assets/logos/speakx.png
+    sigiq: ../../assets/logos/sigiq.png
+    oboe: ../../assets/logos/oboe.png
+    multiverse: ../../assets/logos/multiverse.png
+    guild: ../../assets/logos/guild.png
+    yoodli: ../../assets/logos/yoodli.png
+    stepful: ../../assets/logos/stepful.png
+    fullyramped: ../../assets/logos/fullyramped.png
+    secondnature: ../../assets/logos/secondnature.png
+  weight: {}
 - id: ed172
   type: x/different_types_startup
   section: Top players
@@ -5358,97 +5413,87 @@ slides:
     37: 2023 · Aakash IPO by mid-2024
     39: Day of the promise
     41: Date promised
-- id: ed199
-  type: x/warning_signs_have_companies_shown
+- id: ed199p
+  type: pp_killers
+  mode: warning
   section: Startup killers
-  title: 'What warning signs have
-
-    EdTech companies shown?'
-  note: We looked for warning signs among well-known EdTech companies, from layoffs and lawsuits to falling valuations, using company filings, court records and the press. All the sources are included at the end of the report.
-  src: 199
-  t:
-    7: 'Big
-
-      layoffs'
-    8: 'Lost
-
-      independence'
-    9: 'Lawsuit or
-
-      court case'
-    10: 'Value
-
-      fell'
-    11: 'Missed
-
-      deadlines'
-    14: Chegg
-    20: High risk
-    22: '45% of
-
-      staff 2025'
-    25: 'Sued Google
-
-      in 2025'
-    27: 'Down 99%
-
-      from peak'
-    32: Byju's
-    38: High risk
-    41: 'Creditors
-
-      in control'
-    43: 'US lender
-
-      suits 2023'
-    45: 'Down from
-
-      $22B peak'
-    47: 'Results
-
-      filed late'
-    51: Unacademy
-    57: Medium risk
-    60: 'Sold to
-
-      upGrad 2026'
-    63: '94% below
-
-      peak value'
-    68: Udemy
-    74: Medium risk
-    77: 'Merged into
-
-      Coursera'
-    80: 'Down 46%
-
-      in 2024'
-    85: Coursera
-    91: Medium risk
-    93: 'Job cuts
-
-      after merger'
-    97: 'Down 91%
-
-      from peak'
-    102: 2U
-    108: High risk
-    111: 'Lenders
-
-      took over'
-    113: 'Chapter 11
-
-      in 2024'
-    115: 'Shares
-
-      wiped out'
-  img:
-  - media/raw/3b6d140a6efd.png
-  - media/raw/a911bdf4d9e4.png
-  - media/raw/7bd86be72c5b.png
-  - media/raw/4214f8c69939.png
-  - media/raw/d109e24b0a60.png
-  - media/raw/f91ee0de9538.png
+  title: Which EdTech companies have shown warning signs lately?
+  signs:
+  - Big|layoffs
+  - Lost|independence
+  - Lawsuit or|court case
+  - Value|fell
+  - Missed|deadlines
+  rows:
+  - name: Chegg
+    slug: chegg
+    domain: chegg.com
+    src: media/raw/3b6d140a6efd.png
+    ini: C
+    cells:
+    - 45% of|staff 2025
+    - ''
+    - Sued Google|in 2025
+    - Down 99%|from peak
+    - ''
+  - name: Byju's
+    slug: byjus
+    domain: byjus.com
+    src: media/raw/a911bdf4d9e4.png
+    ini: B
+    cells:
+    - ''
+    - Creditors|in control
+    - US lender|suits 2023
+    - Down from|$22B peak
+    - Results|filed late
+  - name: Unacademy
+    slug: unacademy
+    domain: unacademy.com
+    src: media/raw/7bd86be72c5b.png
+    ini: U
+    cells:
+    - ''
+    - Sold to|upGrad 2026
+    - ''
+    - 94% below|peak value
+    - ''
+  - name: Udemy
+    slug: udemy
+    domain: udemy.com
+    src: media/raw/4214f8c69939.png
+    ini: U
+    cells:
+    - ''
+    - Merged into|Coursera
+    - ''
+    - Down 46%|in 2024
+    - ''
+  - name: Coursera
+    slug: coursera
+    domain: coursera.org
+    src: media/raw/d109e24b0a60.png
+    ini: C
+    cells:
+    - Job cuts|after merger
+    - ''
+    - ''
+    - Down 91%|from peak
+    - ''
+  - name: 2U
+    slug: 2u
+    domain: 2u.com
+    src: media/raw/f91ee0de9538.png
+    ini: 2U
+    cells:
+    - ''
+    - Lenders|took over
+    - Chapter 11|in 2024
+    - Shares|wiped out
+    - ''
+  note:
+  - We looked for warning signs among well-known EdTech companies, from layoffs and lawsuits to falling valuations
+  - We used company filings, court records and the press, and all the sources are included at the end of the report
 - id: ed200
   type: x/why_startups_fail
   section: Startup killers
@@ -5704,51 +5749,83 @@ slides:
     14: '🎮
 
       Gizmo turned the students’ own notes into games with a team of seven'
-- id: ed209
-  type: x/why_duolingo_winning_language_app
+- id: ed209p
+  type: pp_winner
   section: Startup strategies
-  title: 'Why is Duolingo winning
+  title: 'Why might Duolingo be winning
 
     the language app market?'
-  note: We compared companies with the same business model on what matters most to customers, from company reports, websites and the press. All the sources are included at the end of the report.
-  src: 209
-  t:
-    11: Duolingo
-    14: Babbel
-    17: Rosetta
-    20: Speak
-    23: Praktika
-    24: 140M+ monthly learners
-    25: Biggest free learner funnel
-    27: ✓
-    33: 12.7M paid subscribers
-    34: Strong paid conversion
-    36: ✓
-    42: AI speaking practice
-    43: Talk anytime, no tutor
-    45: ✓
-    47: ✓
-    50: ✓
-    52: ✓
-    54: Own English test
-    55: Revenue beyond app plans
-    57: ✓
-    63: Math, music and chess
-    64: More reasons to open the app
-    66: ✓
-    72: Profitable and listed
-    73: Cash to keep investing
-    75: ✓
-    81: Live tutor classes
-    82: Human help when needed
-    85: ✓
-    87: ✓
-  img:
-  - media/raw/4b885a55a1c9.png
-  - media/raw/fbee78021f4a.png
-  - media/raw/ce5308d60b8f.png
-  - media/raw/2e37338a94bb.png
-  - media/raw/7abc89820d89.png
+  companies:
+  - short: Duolingo
+    src: media/raw/4b885a55a1c9.png
+  - short: Babbel
+    src: media/raw/fbee78021f4a.png
+  - short: Rosetta
+    src: media/raw/ce5308d60b8f.png
+  - short: Speak
+    src: media/raw/2e37338a94bb.png
+  - short: Praktika
+    src: media/raw/7abc89820d89.png
+  criteria:
+  - name: 140M+ monthly learners
+    why: Biggest free learner funnel
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 12.7M paid subscribers
+    why: Strong paid conversion
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: AI speaking practice
+    why: Talk anytime, no tutor
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Own English test
+    why: Revenue beyond app plans
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Math, music and chess
+    why: More reasons to open the app
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Profitable and listed
+    why: Cash to keep investing
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Live tutor classes
+    why: Human help when needed
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports, websites and the press, with all the sources at the end of the report
 - id: ed210
   type: contrast
   section: Startup strategies
