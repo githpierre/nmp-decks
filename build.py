@@ -13,6 +13,22 @@ from markupsafe import Markup, escape
 
 ROOT = pathlib.Path(__file__).resolve().parent
 
+def rt(text, pst, rst, pmap, mmap):
+    """Text box of a raw-derived template (tools/templatize.py): one line per paragraph, {n|text} = run in run style n."""
+    from markupsafe import Markup, escape
+    e = lambda t: str(escape(t)).replace('\u00a0', '&nbsp;').replace('&lt;br&gt;', '<br>')
+    out = []
+    for i, line in enumerate(str(text if text is not None else '').split('\n')):
+        ps = pst[pmap[min(i, len(pmap) - 1)]]; m = mmap[min(i, len(mmap) - 1)]
+        if line == '': out.append(f'<p style="{ps}">&nbsp;</p>'); continue
+        if m < 0: m = 0
+        runs = ''
+        for a, b, plain in re.findall(r'\{(\d+)\|([^}]*)\}|([^{]+)', line):
+            st, t = (rst[int(a)], b) if a else (rst[m], plain)
+            runs += f'<span style="{st}">{e(t)}</span>'
+        out.append(f'<p style="{ps}">{runs}</p>')
+    return Markup(''.join(out))
+
 def nl(t):
     return Markup('<br>'.join(escape(x.strip()) for x in str(t).split('\n')))
 
@@ -149,7 +165,7 @@ def build(slug, png=False, only=None):
         nt = ' '.join(s['note']) if isinstance(s.get('note'), list) else str(s.get('note') or '')
         if _re.search(r'\b(latest|recent|newest)\s+(19|20)\d\d\b', nt, _re.I): py_issues.append([i, 'NOTE_YEAR', '', nt[:50]])
     env = Environment(loader=FileSystemLoader(str(ROOT / 'templates')), autoescape=True)
-    env.filters['nl'] = nl; env.filters['md'] = md; env.filters['sentences'] = sentences
+    env.globals['rt'] = rt; env.filters['nl'] = nl; env.filters['md'] = md; env.filters['sentences'] = sentences
     import math; env.filters['cos'] = math.cos; env.filters['sin'] = math.sin
     # names that a title must never cut (market name + deck.keep_together): their spaces become non-breaking
     keep = sorted({deck.get('market', '')} | set(deck.get('keep_together', [])), key=len, reverse=True)
