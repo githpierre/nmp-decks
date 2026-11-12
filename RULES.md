@@ -327,3 +327,7 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 ## Extra slides: one complete review, not many rounds (Pierre, 12 Nov 2026)
 - Claude goes through ALL the TEMP series templates (decks/signals, sig_*) and the EdTech signal templates against the research and our startups database, builds every slide that has solid data, and shows them all in ONE review page, in deck order, each with its proposed place. The page also lists the templates not used and why. Never 2 or 3 slides per round.
 - Drawings follow the data, for every template: `vbars` (vertical bars), `hbars` (+ `hpink`), `split` (two-part bar), `dots` (one dot = one round, counts per group and color), `curves` (series, markers hidden). Set in deck.yaml, applied by fixlib.js. A data attribute that is absent never triggers its rule.
+
+## Visual audit before showing anything (Pierre, 12 Nov 2026, again)
+- New templates keep the side margins: every element of the body between x 90 and 870 (content block 760 px wide, centered). `python3 tools/audit_layout.py <slug>` checks MARGIN, TEXT_OVERLAP and PINK_TEXT; it must say 0 before a review page is published, together with build issues at 0 and a look at every slide on contact sheets.
+- No big pink numbers on navy (white instead); notes always 2 balanced lines.

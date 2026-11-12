@@ -1,6 +1,6 @@
 <div class="body" style="display:block"><div class="sh">
-<div class="lg" style="position:absolute;left:20px;top:0"><span><i style="background:#FB0161"></i>{{ s.on }}</span><span><i style="background:#1C4A60"></i>{{ s.off }}</span><span>one square = 1%</span></div>
-{% for y in s.years %}<div style="position:absolute;left:{{ 20 + loop.index0 * 190 }}px;top:40px;width:160px;text-align:center">
- <div style="display:grid;grid-template-columns:repeat(10,13px);gap:3px;width:157px;margin:0 auto">{% for i in range(100) %}{% set row = 9 - (i // 10) %}{% set idx = row * 10 + (i % 10) %}<div style="width:13px;height:13px;border-radius:2px;background:{{ '#FB0161' if idx < y.p else '#1C4A60' }}"></div>{% endfor %}</div>
+<div class="lg" style="position:absolute;left:0;top:0"><span><i style="background:#FB0161"></i>{{ s.on }}</span><span><i style="background:#1C4A60"></i>{{ s.off }}</span><span>one square = 1%</span></div>
+{% for y in s.years %}<div style="position:absolute;left:{{ loop.index0 * 152 }}px;top:40px;width:137px;text-align:center">
+ <div style="display:grid;grid-template-columns:repeat(10,11px);gap:3px;width:137px;margin:0 auto">{% for i in range(100) %}{% set row = 9 - (i // 10) %}{% set idx = row * 10 + (i % 10) %}<div style="width:11px;height:11px;border-radius:2px;background:{{ '#FB0161' if idx < y.p else '#1C4A60' }}"></div>{% endfor %}</div>
  <div class="pc" style="margin-top:14px">{{ y.p }}%</div><div class="yr">{{ y.x }}</div><div class="sub">{{ y.k }} of {{ y.n }} rounds</div></div>{% endfor %}
 {% include 'slides/share_side.j2' %}</div></div>

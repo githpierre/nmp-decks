@@ -70,7 +70,9 @@ slides:
   story: 'MagicRNA, Starna, Vivacta, DeliNova and Genocury all raised in 2025 and 2026, mostly from Chinese funds.
 
     US startups still take 89% of the money since 2024, because their rounds are far bigger: Sail alone took $465M from J&J.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
+  note: &id002
+  - We sorted every round raised by in vivo CAR-T startups in our own funding database
+  - by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
   id: N1-A
   type: share_bars100
   section: Investor bets
@@ -86,7 +88,7 @@ slides:
   story: 'MagicRNA, Starna, Vivacta, DeliNova and Genocury all raised in 2025 and 2026, mostly from Chinese funds.
 
     US startups still take 89% of the money since 2024, because their rounds are far bigger: Sail alone took $465M from J&J.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
+  note: *id002
   id: N1-B
   type: share_rings
   section: Investor bets
@@ -102,7 +104,7 @@ slides:
   story: 'MagicRNA, Starna, Vivacta, DeliNova and Genocury all raised in 2025 and 2026, mostly from Chinese funds.
 
     US startups still take 89% of the money since 2024, because their rounds are far bigger: Sail alone took $465M from J&J.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
+  note: *id002
   id: N1-C
   type: share_slope
   section: Investor bets
@@ -118,7 +120,7 @@ slides:
   story: 'MagicRNA, Starna, Vivacta, DeliNova and Genocury all raised in 2025 and 2026, mostly from Chinese funds.
 
     US startups still take 89% of the money since 2024, because their rounds are far bigger: Sail alone took $465M from J&J.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
+  note: *id002
   id: N1-D
   type: share_waffle
   section: Investor bets
@@ -134,7 +136,7 @@ slides:
   story: 'MagicRNA, Starna, Vivacta, DeliNova and Genocury all raised in 2025 and 2026, mostly from Chinese funds.
 
     US startups still take 89% of the money since 2024, because their rounds are far bigger: Sail alone took $465M from J&J.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
+  note: *id002
   id: N1-E
   type: share_hero
   section: Investor bets
@@ -150,7 +152,7 @@ slides:
   story: 'MagicRNA, Starna, Vivacta, DeliNova and Genocury all raised in 2025 and 2026, mostly from Chinese funds.
 
     US startups still take 89% of the money since 2024, because their rounds are far bigger: Sail alone took $465M from J&J.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
+  note: *id002
   id: N1-F
   type: share_gauges
   section: Investor bets
@@ -166,14 +168,14 @@ slides:
   story: 'MagicRNA, Starna, Vivacta, DeliNova and Genocury all raised in 2025 and 2026, mostly from Chinese funds.
 
     US startups still take 89% of the money since 2024, because their rounds are far bigger: Sail alone took $465M from J&J.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
+  note: *id002
   id: N1-G
   type: share_bubbles
   section: Investor bets
 - title: 'LNP-mRNA startups now take
 
     56% of in vivo CAR-T rounds'
-  years: &id002
+  years: &id003
   - x: '2024'
     k: 2
     n: 7
@@ -194,14 +196,16 @@ slides:
   story: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
 
     After AbbVie paid up to $2.1B for Capstan, an LNP-mRNA pioneer, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by delivery technology, for 2024, 2025 and 2026 so far
+  note: &id004
+  - We sorted every round raised by in vivo CAR-T startups in our own funding database
+  - by delivery technology, for 2024, 2025 and 2026 so far, LNP-mRNA against the rest
   id: N2-A
   type: share_bars100
   section: Investor bets
 - title: 'LNP-mRNA startups now take
 
     56% of in vivo CAR-T rounds'
-  years: *id002
+  years: *id003
   'on': LNP-mRNA CAR-T
   'off': Other approaches
   what: of in vivo CAR-T funding rounds went to LNP-mRNA startups in 2026
@@ -210,14 +214,14 @@ slides:
   story: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
 
     After AbbVie paid up to $2.1B for Capstan, an LNP-mRNA pioneer, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by delivery technology, for 2024, 2025 and 2026 so far
+  note: *id004
   id: N2-B
   type: share_rings
   section: Investor bets
 - title: 'LNP-mRNA startups now take
 
     56% of in vivo CAR-T rounds'
-  years: *id002
+  years: *id003
   'on': LNP-mRNA CAR-T
   'off': Other approaches
   what: of in vivo CAR-T funding rounds went to LNP-mRNA startups in 2026
@@ -226,14 +230,14 @@ slides:
   story: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
 
     After AbbVie paid up to $2.1B for Capstan, an LNP-mRNA pioneer, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by delivery technology, for 2024, 2025 and 2026 so far
+  note: *id004
   id: N2-C
   type: share_slope
   section: Investor bets
 - title: 'LNP-mRNA startups now take
 
     56% of in vivo CAR-T rounds'
-  years: *id002
+  years: *id003
   'on': LNP-mRNA CAR-T
   'off': Other approaches
   what: of in vivo CAR-T funding rounds went to LNP-mRNA startups in 2026
@@ -242,14 +246,14 @@ slides:
   story: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
 
     After AbbVie paid up to $2.1B for Capstan, an LNP-mRNA pioneer, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by delivery technology, for 2024, 2025 and 2026 so far
+  note: *id004
   id: N2-D
   type: share_waffle
   section: Investor bets
 - title: 'LNP-mRNA startups now take
 
     56% of in vivo CAR-T rounds'
-  years: *id002
+  years: *id003
   'on': LNP-mRNA CAR-T
   'off': Other approaches
   what: of in vivo CAR-T funding rounds went to LNP-mRNA startups in 2026
@@ -258,14 +262,14 @@ slides:
   story: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
 
     After AbbVie paid up to $2.1B for Capstan, an LNP-mRNA pioneer, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by delivery technology, for 2024, 2025 and 2026 so far
+  note: *id004
   id: N2-E
   type: share_hero
   section: Investor bets
 - title: 'LNP-mRNA startups now take
 
     56% of in vivo CAR-T rounds'
-  years: *id002
+  years: *id003
   'on': LNP-mRNA CAR-T
   'off': Other approaches
   what: of in vivo CAR-T funding rounds went to LNP-mRNA startups in 2026
@@ -274,14 +278,14 @@ slides:
   story: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
 
     After AbbVie paid up to $2.1B for Capstan, an LNP-mRNA pioneer, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by delivery technology, for 2024, 2025 and 2026 so far
+  note: *id004
   id: N2-F
   type: share_gauges
   section: Investor bets
 - title: 'LNP-mRNA startups now take
 
     56% of in vivo CAR-T rounds'
-  years: *id002
+  years: *id003
   'on': LNP-mRNA CAR-T
   'off': Other approaches
   what: of in vivo CAR-T funding rounds went to LNP-mRNA startups in 2026
@@ -290,14 +294,14 @@ slides:
   story: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
 
     After AbbVie paid up to $2.1B for Capstan, an LNP-mRNA pioneer, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
-  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by delivery technology, for 2024, 2025 and 2026 so far
+  note: *id004
   id: N2-G
   type: share_bubbles
   section: Investor bets
 - title: 'Big pharma now backs 44% of
 
     in vivo CAR-T funding rounds'
-  years: &id003
+  years: &id005
   - x: '2024'
     k: 1
     n: 7
@@ -319,14 +323,16 @@ slides:
   story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups such as Sail, Strand, Stylus and Ensoma.
 
     A stake gives them a front-row seat before a buyout: six in vivo CAR-T makers have already been bought by big pharma.'
-  note: We looked at the investors of every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note: &id006
+  - We looked at the investors of every round raised by in vivo CAR-T startups in our database
+  - and counted the rounds where a large drugmaker invested, for 2024, 2025 and 2026 so far
   id: N3-A
   type: share_bars100
   section: Investor bets
 - title: 'Big pharma now backs 44% of
 
     in vivo CAR-T funding rounds'
-  years: *id003
+  years: *id005
   'on': A large company invested
   'off': Other rounds
   what: of in vivo CAR-T funding rounds had a large drugmaker as an investor in 2026
@@ -336,14 +342,14 @@ slides:
   story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups such as Sail, Strand, Stylus and Ensoma.
 
     A stake gives them a front-row seat before a buyout: six in vivo CAR-T makers have already been bought by big pharma.'
-  note: We looked at the investors of every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note: *id006
   id: N3-B
   type: share_rings
   section: Investor bets
 - title: 'Big pharma now backs 44% of
 
     in vivo CAR-T funding rounds'
-  years: *id003
+  years: *id005
   'on': A large company invested
   'off': Other rounds
   what: of in vivo CAR-T funding rounds had a large drugmaker as an investor in 2026
@@ -353,14 +359,14 @@ slides:
   story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups such as Sail, Strand, Stylus and Ensoma.
 
     A stake gives them a front-row seat before a buyout: six in vivo CAR-T makers have already been bought by big pharma.'
-  note: We looked at the investors of every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note: *id006
   id: N3-C
   type: share_slope
   section: Investor bets
 - title: 'Big pharma now backs 44% of
 
     in vivo CAR-T funding rounds'
-  years: *id003
+  years: *id005
   'on': A large company invested
   'off': Other rounds
   what: of in vivo CAR-T funding rounds had a large drugmaker as an investor in 2026
@@ -370,14 +376,14 @@ slides:
   story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups such as Sail, Strand, Stylus and Ensoma.
 
     A stake gives them a front-row seat before a buyout: six in vivo CAR-T makers have already been bought by big pharma.'
-  note: We looked at the investors of every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note: *id006
   id: N3-D
   type: share_waffle
   section: Investor bets
 - title: 'Big pharma now backs 44% of
 
     in vivo CAR-T funding rounds'
-  years: *id003
+  years: *id005
   'on': A large company invested
   'off': Other rounds
   what: of in vivo CAR-T funding rounds had a large drugmaker as an investor in 2026
@@ -387,14 +393,14 @@ slides:
   story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups such as Sail, Strand, Stylus and Ensoma.
 
     A stake gives them a front-row seat before a buyout: six in vivo CAR-T makers have already been bought by big pharma.'
-  note: We looked at the investors of every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note: *id006
   id: N3-E
   type: share_hero
   section: Investor bets
 - title: 'Big pharma now backs 44% of
 
     in vivo CAR-T funding rounds'
-  years: *id003
+  years: *id005
   'on': A large company invested
   'off': Other rounds
   what: of in vivo CAR-T funding rounds had a large drugmaker as an investor in 2026
@@ -404,14 +410,14 @@ slides:
   story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups such as Sail, Strand, Stylus and Ensoma.
 
     A stake gives them a front-row seat before a buyout: six in vivo CAR-T makers have already been bought by big pharma.'
-  note: We looked at the investors of every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note: *id006
   id: N3-F
   type: share_gauges
   section: Investor bets
 - title: 'Big pharma now backs 44% of
 
     in vivo CAR-T funding rounds'
-  years: *id003
+  years: *id005
   'on': A large company invested
   'off': Other rounds
   what: of in vivo CAR-T funding rounds had a large drugmaker as an investor in 2026
@@ -421,14 +427,14 @@ slides:
   story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups such as Sail, Strand, Stylus and Ensoma.
 
     A stake gives them a front-row seat before a buyout: six in vivo CAR-T makers have already been bought by big pharma.'
-  note: We looked at the investors of every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note: *id006
   id: N3-G
   type: share_bubbles
   section: Investor bets
 - title: 'One in five in vivo CAR-T rounds
 
     reached $100M or more in 2026'
-  years: &id004
+  years: &id007
   - x: '2024'
     k: 1
     n: 7
@@ -450,14 +456,16 @@ slides:
   story: 'Big checks are back for the startups with data: CREATE raised $122M in May 2026 and Sail took $465M from J&J in July.
 
     Only five rounds reached $100M since 2024, but together they make up 72% of all the money raised.'
-  note: We took every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and counted the rounds of $100M or more
+  note: &id008
+  - We took every round raised by in vivo CAR-T startups in our own funding database
+  - and counted the rounds of $100M or more, for 2024, 2025 and 2026 so far
   id: N5-A
   type: share_bars100
   section: Investor bets
 - title: 'One in five in vivo CAR-T rounds
 
     reached $100M or more in 2026'
-  years: *id004
+  years: *id007
   'on': $100M or more
   'off': Smaller rounds
   what: of in vivo CAR-T funding rounds were $100M or more in 2026
@@ -467,14 +475,14 @@ slides:
   story: 'Big checks are back for the startups with data: CREATE raised $122M in May 2026 and Sail took $465M from J&J in July.
 
     Only five rounds reached $100M since 2024, but together they make up 72% of all the money raised.'
-  note: We took every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and counted the rounds of $100M or more
+  note: *id008
   id: N5-B
   type: share_rings
   section: Investor bets
 - title: 'One in five in vivo CAR-T rounds
 
     reached $100M or more in 2026'
-  years: *id004
+  years: *id007
   'on': $100M or more
   'off': Smaller rounds
   what: of in vivo CAR-T funding rounds were $100M or more in 2026
@@ -484,14 +492,14 @@ slides:
   story: 'Big checks are back for the startups with data: CREATE raised $122M in May 2026 and Sail took $465M from J&J in July.
 
     Only five rounds reached $100M since 2024, but together they make up 72% of all the money raised.'
-  note: We took every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and counted the rounds of $100M or more
+  note: *id008
   id: N5-C
   type: share_slope
   section: Investor bets
 - title: 'One in five in vivo CAR-T rounds
 
     reached $100M or more in 2026'
-  years: *id004
+  years: *id007
   'on': $100M or more
   'off': Smaller rounds
   what: of in vivo CAR-T funding rounds were $100M or more in 2026
@@ -501,14 +509,14 @@ slides:
   story: 'Big checks are back for the startups with data: CREATE raised $122M in May 2026 and Sail took $465M from J&J in July.
 
     Only five rounds reached $100M since 2024, but together they make up 72% of all the money raised.'
-  note: We took every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and counted the rounds of $100M or more
+  note: *id008
   id: N5-D
   type: share_waffle
   section: Investor bets
 - title: 'One in five in vivo CAR-T rounds
 
     reached $100M or more in 2026'
-  years: *id004
+  years: *id007
   'on': $100M or more
   'off': Smaller rounds
   what: of in vivo CAR-T funding rounds were $100M or more in 2026
@@ -518,14 +526,14 @@ slides:
   story: 'Big checks are back for the startups with data: CREATE raised $122M in May 2026 and Sail took $465M from J&J in July.
 
     Only five rounds reached $100M since 2024, but together they make up 72% of all the money raised.'
-  note: We took every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and counted the rounds of $100M or more
+  note: *id008
   id: N5-E
   type: share_hero
   section: Investor bets
 - title: 'One in five in vivo CAR-T rounds
 
     reached $100M or more in 2026'
-  years: *id004
+  years: *id007
   'on': $100M or more
   'off': Smaller rounds
   what: of in vivo CAR-T funding rounds were $100M or more in 2026
@@ -535,14 +543,14 @@ slides:
   story: 'Big checks are back for the startups with data: CREATE raised $122M in May 2026 and Sail took $465M from J&J in July.
 
     Only five rounds reached $100M since 2024, but together they make up 72% of all the money raised.'
-  note: We took every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and counted the rounds of $100M or more
+  note: *id008
   id: N5-F
   type: share_gauges
   section: Investor bets
 - title: 'One in five in vivo CAR-T rounds
 
     reached $100M or more in 2026'
-  years: *id004
+  years: *id007
   'on': $100M or more
   'off': Smaller rounds
   what: of in vivo CAR-T funding rounds were $100M or more in 2026
@@ -552,14 +560,14 @@ slides:
   story: 'Big checks are back for the startups with data: CREATE raised $122M in May 2026 and Sail took $465M from J&J in July.
 
     Only five rounds reached $100M since 2024, but together they make up 72% of all the money raised.'
-  note: We took every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and counted the rounds of $100M or more
+  note: *id008
   id: N5-G
   type: share_bubbles
   section: Investor bets
 - title: 'Only 11% of in vivo CAR-T rounds
 
     were seed rounds in 2026'
-  years: &id005
+  years: &id009
   - x: '2024'
     k: 2
     n: 7
@@ -581,14 +589,16 @@ slides:
   story: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
 
     New entrants such as DeliNova still raise seed rounds, but they are getting rarer.'
-  note: We sorted every round with a known stage raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note:
+  - We sorted every round with a known stage raised by in vivo CAR-T
+  - startups in our own funding database, for 2024, 2025 and 2026 so far
   id: N6-A
   type: share_bars100
   section: Investor bets
 - title: 'Only 11% of in vivo CAR-T rounds
 
     were seed rounds in 2026'
-  years: *id005
+  years: *id009
   'on': Seed rounds
   'off': Later rounds
   what: of in vivo CAR-T funding rounds were seed rounds in 2026, down from 29% in 2024
@@ -598,14 +608,16 @@ slides:
   story: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
 
     New entrants such as DeliNova still raise seed rounds, but they are getting rarer.'
-  note: We sorted every round with a known stage raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note:
+  - We sorted every round with a known stage raised by in vivo CAR-T
+  - startups in our own funding database, for 2024, 2025 and 2026 so far
   id: N6-B
   type: share_rings
   section: Investor bets
 - title: 'Only 11% of in vivo CAR-T rounds
 
     were seed rounds in 2026'
-  years: *id005
+  years: *id009
   'on': Seed rounds
   'off': Later rounds
   what: of in vivo CAR-T funding rounds were seed rounds in 2026, down from 29% in 2024
@@ -615,14 +627,16 @@ slides:
   story: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
 
     New entrants such as DeliNova still raise seed rounds, but they are getting rarer.'
-  note: We sorted every round with a known stage raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note:
+  - We sorted every round with a known stage raised by in vivo CAR-T
+  - startups in our own funding database, for 2024, 2025 and 2026 so far
   id: N6-C
   type: share_slope
   section: Investor bets
 - title: 'Only 11% of in vivo CAR-T rounds
 
     were seed rounds in 2026'
-  years: *id005
+  years: *id009
   'on': Seed rounds
   'off': Later rounds
   what: of in vivo CAR-T funding rounds were seed rounds in 2026, down from 29% in 2024
@@ -632,14 +646,16 @@ slides:
   story: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
 
     New entrants such as DeliNova still raise seed rounds, but they are getting rarer.'
-  note: We sorted every round with a known stage raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note:
+  - We sorted every round with a known stage raised by in vivo CAR-T
+  - startups in our own funding database, for 2024, 2025 and 2026 so far
   id: N6-D
   type: share_waffle
   section: Investor bets
 - title: 'Only 11% of in vivo CAR-T rounds
 
     were seed rounds in 2026'
-  years: *id005
+  years: *id009
   'on': Seed rounds
   'off': Later rounds
   what: of in vivo CAR-T funding rounds were seed rounds in 2026, down from 29% in 2024
@@ -649,14 +665,16 @@ slides:
   story: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
 
     New entrants such as DeliNova still raise seed rounds, but they are getting rarer.'
-  note: We sorted every round with a known stage raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note:
+  - We sorted every round with a known stage raised by in vivo CAR-T
+  - startups in our own funding database, for 2024, 2025 and 2026 so far
   id: N6-E
   type: share_hero
   section: Investor bets
 - title: 'Only 11% of in vivo CAR-T rounds
 
     were seed rounds in 2026'
-  years: *id005
+  years: *id009
   'on': Seed rounds
   'off': Later rounds
   what: of in vivo CAR-T funding rounds were seed rounds in 2026, down from 29% in 2024
@@ -666,14 +684,16 @@ slides:
   story: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
 
     New entrants such as DeliNova still raise seed rounds, but they are getting rarer.'
-  note: We sorted every round with a known stage raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note:
+  - We sorted every round with a known stage raised by in vivo CAR-T
+  - startups in our own funding database, for 2024, 2025 and 2026 so far
   id: N6-F
   type: share_gauges
   section: Investor bets
 - title: 'Only 11% of in vivo CAR-T rounds
 
     were seed rounds in 2026'
-  years: *id005
+  years: *id009
   'on': Seed rounds
   'off': Later rounds
   what: of in vivo CAR-T funding rounds were seed rounds in 2026, down from 29% in 2024
@@ -683,7 +703,9 @@ slides:
   story: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
 
     New entrants such as DeliNova still raise seed rounds, but they are getting rarer.'
-  note: We sorted every round with a known stage raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  note:
+  - We sorted every round with a known stage raised by in vivo CAR-T
+  - startups in our own funding database, for 2024, 2025 and 2026 so far
   id: N6-G
   type: share_bubbles
   section: Investor bets

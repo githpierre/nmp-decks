@@ -1,6 +1,6 @@
 <div class="body" style="display:block"><div class="sh">
-<div class="lg" style="position:absolute;left:30px;top:6px"><span><i style="background:#FB0161"></i>{{ s.on }}</span><span><i style="background:#334D54"></i>{{ s.off }}</span></div>
-{% for y in s.years %}<div style="position:absolute;left:30px;top:{{ 60 + loop.index0 * 100 }}px;width:530px">
+<div class="lg" style="position:absolute;left:0;top:6px"><span><i style="background:#FB0161"></i>{{ s.on }}</span><span><i style="background:#334D54"></i>{{ s.off }}</span></div>
+{% for y in s.years %}<div style="position:absolute;left:0;top:{{ 52 + loop.index0 * 92 }}px;width:420px">
  <div style="display:flex;justify-content:space-between;align-items:baseline"><span class="yr">{{ y.x }}</span><span class="sub">{{ y.k }} of {{ y.n }} rounds</span></div>
  <div style="display:flex;height:34px;margin-top:8px;border-radius:4px;overflow:hidden"><div style="width:{{ y.p }}%;background:#FB0161;display:flex;align-items:center;padding-left:10px;font-weight:700;font-size:13pt">{{ y.p }}%</div><div style="flex:1;background:#334D54"></div></div></div>{% endfor %}
 {% include 'slides/share_side.j2' %}</div></div>

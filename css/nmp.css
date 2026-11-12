@@ -358,8 +358,8 @@ b,strong{font-weight:700}
 .pp-sl{white-space:normal!important;line-height:1.25}
 .pp-sl em{margin-top:3px}
 /* share_* templates (12 Nov 2026): one share per year, data-driven, for extra slides */
-.sh{position:absolute;left:0;right:0;top:48px;bottom:0;font-family:Lexend,sans-serif;color:#fff}
-.sh .side{position:absolute;left:600px;top:0;width:280px;border-left:1.5px dashed #334D54;padding-left:28px}
+.sh{position:absolute;left:60px;width:760px;top:48px;bottom:0;font-family:Lexend,sans-serif;color:#fff}
+.sh .side{position:absolute;left:478px;top:0;width:254px;border-left:1.5px dashed #334D54;padding-left:26px}
 .sh .side .big{font-size:30pt;font-weight:700;line-height:1}.sh .side .k{font-size:8pt;letter-spacing:.32em;margin:14px 0 12px;color:#fff}
 .sh .side p{font-size:8.6pt;line-height:1.45;color:#A9B8BE;margin:0 0 9px}
 .sh .lg{font-size:7.5pt;color:#A9B8BE;display:flex;gap:16px;align-items:center}.sh .lg i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:-1px}
