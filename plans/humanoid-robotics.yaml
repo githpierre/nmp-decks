@@ -1,0 +1,44 @@
+# Spec of the research prompts for the Humanoid Robotics deck (tools/make_market_prompts.py). Plan: plans/humanoid-robotics.md
+name: humanoid robotics
+handle: humanoid-robotics
+uuid: 42
+date: '2026-11-12'
+today: 12 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, patients, FDA, trials, therapy, cancer, pharma, vectors, lentivirus, LNP
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases, earnings calls and SEC or exchange filings, customer announcements (carmakers, logistics groups), IFR and standards bodies (ISO, A3), government plans (China MIIT), and reputable press (Reuters, Bloomberg, Financial Times, The Information, IEEE Spectrum, The Robot Report, TechCrunch, Caixin, South China Morning Post).
+pain_segments: [Car and electronics factories, Warehouses and logistics, Homes and elder care, Retail and services]
+value_segments: [Bipedal general-purpose humanoids, Wheeled and hybrid-base humanoids, Low-cost and open developer platforms, Social and expressive humanoids, Heavy-duty industrial superhumanoids]
+# the reference market had no data for these; humanoids may (prices, valuations, failures, success cases)
+reask: [ed012, ed013, ed190, ed201, ed207, ed208]
+# removed by Pierre on purpose in the reference deck
+pierre_dropped: [ed046, ed105p, ed220]
+# given by the live product page https://newmarketpitch.com/pages/humanoid-robotics (same slide type as the deck twin)
+live_twins: [ed039p, ed047p, ed058, ed099p, ed142p, ed148p, ed168p, ed171p, ed209p, pp_s06]
+retarget:
+  iv_pipeline:
+    title: Where are humanoid robots actually at work today?
+    brief: 8 rows = 8 real deployments or paid pilots at a named customer (robot, customer, task, stage such as PILOT / PAID / FLEET). Rows read "task at customer" + "MAKER · ROBOT" + stage. Only what a customer or the maker reported as running on site, not a demo video.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between humanoid makers and large companies (orders, paid pilots, strategic investments, joint ventures, buyouts), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to put a humanoid on a factory floor?
+    brief: 5 steps from prototype to a robot working next to people (for example lab tests, safety assessment against ISO 10218 or the humanoid standard ISO 25785-1 in preparation, fenced pilot, paid pilot, fleet without fences). Each step in plain words with who decides.
+  iv_safety:
+    title: How fast is the price of a humanoid falling?
+    brief: Yesterday vs today on cost. 5 items, each "LABEL" + one sentence comparing the cost of a part or of the whole robot a few years ago and now (whole robot, actuators, hands, batteries, compute), with real figures from makers or analysts.
+extra:
+  ed061: 'For humanoid robotics: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of robot): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of robot".'
+  ed019: 'Here the second categorization is by place of use, with the pain-point segments: {pains}.'
+signal_angles: deployments vs demos, robot prices and their fall, China vs US (makers, shipments, state support), orders and customer commitments, production targets vs actual output, hands and dexterity records, battery life and uptime, teleoperation behind demos, safety standards, valuations vs revenue, layoffs or shutdowns.
+killers_brief: |
+  This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: layoffs, restructurings, customers or partners that walked away, cancelled orders, delayed launches, recalls or safety incidents, valuations that fell, shutdowns, fire sales. Scope is wider than strict pure players: any company that builds humanoid robots counts, startups first.
+  - ed192 and ed195: 12 dated events in all, 2024 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY (MON).
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, lost a customer, launch delayed, value fell, shut down or sold). Each cell is two short lines separated by | or empty. Give the website domain of each company.
+  - ed200 and ed201: why humanoid startups fail, and named cases with the main cause and the outcome.
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.

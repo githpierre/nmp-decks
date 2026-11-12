@@ -428,3 +428,7 @@ Au lancement d'un marché, Claude propose toujours ce plan étape par étape, en
 - La couverture est la slide du marché dans le Google Slides « nmp - cover deck (1-225) », numéro de slide = uuid du marché (Humanoid Robotics : 42). On la récupère en image de 2000 px, dans `assets/covers/<handle>.jpg`.
 - Google Trends : Pierre donne plusieurs CSV. On garde le terme générique dont la courbe monte le plus nettement. Un terme à 0 presque partout (« … when ») ou ambigu (« optimus », qui couvre aussi Optimus Prime) est écarté.
 - Début octobre 2026, Google a divisé ses comptes par environ 3 pour tous les termes, y compris « online learning ». C'est une baisse de comptage, pas une chute d'intérêt. La règle « la courbe s'arrête à son dernier pic » la cache déjà.
+
+## Prompts de recherche d'un nouveau marché (12/11/2026, Humanoid Robotics)
+- `tools/make_market_prompts.py --spec plans/<handle>.yaml` : le modèle de chaque slide est le deck de référence (In Vivo CAR-T), plus EdTech. Le spec liste les slides à redemander (pas de données dans le marché de référence), les slides retirées par Pierre, les jumelles de la page produit en ligne (non demandées), les slides propres au marché de référence à reciblier (`retarget`) et les consignes par slide.
+- 12 fichiers : 10 chapitres, les signaux (11) et les startups en difficulté (12, revers et pas seulement faillites). Jamais de prompt sur les levées : la base suffit.
