@@ -3983,6 +3983,131 @@ slides:
   section: Startup killers
   current: 11
   src: 191
+- id: ed192
+  type: x/startups_stumbled_lately
+  section: Startup killers
+  title: Which in vivo CAR-T startups stumbled lately?
+  page: 1/2
+  note: 'We included setbacks across in vivo CAR cells and the cell-targeted delivery platforms behind them
+
+    We kept only events we could verify directly in filings, company releases or specialist biotech press'
+  src: 192
+  t:
+    12: 2024 (MAR)
+    13: Carisma Therapeutics cut 37% of staff and stopped CT-0508 as it narrowed spending and priorities {1|SEC}
+    14: 2024 (JUN)
+    15: Mustang Bio terminated its Mayo Clinic license and sponsored research for a preclinical in vivo CAR-T program {1|SEC}
+    16: 2024 (NOV)
+    17: Orna Therapeutics cut jobs for the second time in a year while refocusing resources on its panCAR programs {1|STAT}
+    18: 2024 (DEC)
+    19: Carisma Therapeutics cut another 34% of staff and discontinued CT-0525 while prioritizing its in vivo platform {1|Carisma}
+    20: 2025 (JAN)
+    21: Generation Bio announced a 20% workforce cut as it refocused its ctLNP platform on T-cell-directed siRNA {1|SEC}
+    22: 2025 (MAR)
+    23: Carisma Therapeutics cut 84% of staff, paused all R&D and began preparing for a possible wind-down {1|SEC}
+- id: ed195
+  type: x/startups_stumbled_lately_2
+  section: Startup killers
+  title: Which in vivo CAR-T startups stumbled lately?
+  page: 2/2
+  note: 'We treated restructurings and delayed or abandoned work as setbacks even when the core platform survived
+
+    We excluded rumors and positive-only transactions, and left out warning signs that could not be substantiated'
+  src: 195
+  t:
+    13: 2025 (JUL)
+    14: Sail Biomedicines cut about 36 jobs in its second 2025 layoff while concentrating resources on in vivo CAR-T {1|Fierce}
+    15: 2025 (AUG)
+    16: Generation Bio cut about 90% of staff and explored strategic alternatives after saying clinic funding was unlikely {1|Fierce}
+    17: 2025 (SEP)
+    18: Arsenal Biosciences cut about 50% of staff, leaving 127 employees as it shifted from research toward clinical work {1|Fierce}
+    19: 2025 (NOV)
+    20: Ensoma cut 37 employees, about half its workforce, as it shifted resources from platform research toward the clinic {1|Fierce}
+    21: 2026 (AUG)
+    22: Ensoma made another round of layoffs and paused non-lead preclinical programs while seeking additional financing {1|Fierce}
+    23: 2026 (SEP)
+    24: Arsenal Biosciences cut 99 jobs, halted ex vivo clinical assets and pivoted the remaining core team to in vivo CAR-T {1|Fierce}
+- id: ed199p
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which in vivo CAR-T companies have shown warning signs lately?
+  signs:
+  - Big|layoffs
+  - Repeated|cuts
+  - Program|dropped
+  - R&D|paused
+  - Strategic|review
+  rows:
+  - name: Carisma Therapeutics
+    slug: carisma-therapeutics
+    domain: carismatx.com
+    ini: C
+    cells:
+    - 84% of|staff 2025
+    - 3 rounds|2024-25
+    - CT-0525|stopped
+    - All R&D|paused
+    - Wind-down|prepared
+    src: media/ini/carisma-therapeutics.png
+  - name: Generation Bio
+    slug: generation-bio
+    domain: generationbio.com
+    ini: G
+    cells:
+    - 90% of|staff 2025
+    - 20%, then|90% cuts
+    - R&D ops|ended
+    - R&D|discontinued
+    - Alternatives|review
+    src: media/ini/generation-bio.png
+  - name: Sail Biomedicines
+    slug: sail-biomedicines
+    domain: sail.bio
+    ini: S
+    cells:
+    - 36 jobs|cut 2025
+    - Two cuts|in 2025
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/sail-biomedicines.png
+  - name: Arsenal Biosciences
+    slug: arsenal-biosciences
+    domain: arsenalbio.com
+    ini: A
+    cells:
+    - 99 jobs|cut 2026
+    - 50%, then|99 jobs
+    - Ex vivo|assets stopped
+    - ''
+    - Asset options|sought
+    src: ../../assets/logos/arsenal-biosciences.png
+  - name: Ensoma
+    slug: ensoma
+    domain: ensoma.com
+    ini: E
+    cells:
+    - 50% cut|in 2025
+    - Two rounds|2025-26
+    - Programs|paused
+    - Preclinical|work paused
+    - ''
+    src: ../../assets/logos/ensoma.png
+  - name: Orna Therapeutics
+    slug: orna-therapeutics
+    domain: ornatx.com
+    ini: O
+    cells:
+    - Jobs cut|in 2024
+    - Second cut|in a year
+    - Pipeline|refocused
+    - ''
+    - ''
+    src: ../../assets/logos/orna.png
+  note:
+  - We looked for concrete warning signs across companies building in vivo CAR cells or the delivery systems behind them
+  - We used filings, company statements and specialist biotech press, leaving cells blank when a signal was not verified
 - id: ed200
   type: x/why_startups_fail
   section: Startup killers

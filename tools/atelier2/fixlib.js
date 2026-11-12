@@ -153,7 +153,7 @@ window.F = (() => {
   const emptyCards = sl => { const R = sl.getBoundingClientRect(); const box = e => { const r = e.getBoundingClientRect(); return {x: r.left - R.left, y: r.top - R.top, r: r.right - R.left, b: r.bottom - R.top}; };
     const T = [...sl.querySelectorAll('.raw > .rx-t')].map(e => ({e, ...box(e), empty: !e.textContent.trim()}));
     let hid = 0;
-    sl.querySelectorAll('.raw > svg.rx-s').forEach(sv => { const b = box(sv); if (b.r - b.x < 60 || b.b - b.y < 40) return;
+    sl.querySelectorAll('.raw > svg.rx-s').forEach(sv => { const b = box(sv); if (b.r - b.x < 60 || b.b - b.y < 20) return;
       const ins = T.filter(t => t.x >= b.x - 2 && t.r <= b.r + 2 && t.y >= b.y - 2 && t.b <= b.b + 2);
       if (ins.length && ins.every(t => t.empty)) { sv.style.display = 'none'; hid++; } });
     if (!hid) return;

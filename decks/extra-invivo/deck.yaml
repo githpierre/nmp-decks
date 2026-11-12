@@ -46,7 +46,7 @@ keep_together:
 - in vivo CAR-T
 - CAR-T
 slides:
-- id: x1
+- id: 1A
   type: x/five_learning_scaleups_now_worth
   section: Investor bets
   title: 'Five in vivo CAR-T deals were
@@ -59,7 +59,7 @@ slides:
   - 2.1
   - 1.5
   t:
-    6: KEY FACT
+    6: ''
     7: $7B
     8: 'Kelonia, whose lentiviral particles make CAR-T
 
@@ -81,7 +81,40 @@ slides:
 
       platform, was bought by BMS in cash'
   note: Values are the maximum announced in each deal, milestones included, from 2025 to 2026. Data comes from the buyers’ press releases
-- id: x2
+- id: 1B
+  type: x/big_buyers_now_pay_up
+  section: Market opportunity
+  title: 'Big pharma bought six in vivo
+
+    CAR-T platforms in 13 months'
+  t:
+    6: SIGNAL
+    14: 'AstraZeneca agrees to buy
+
+      EsoBiotec for up to $1B'
+    16: MAR 2025
+    22: 'AbbVie agrees to buy
+
+      Capstan for up to $2.1B'
+    23: JUN 2025
+    24: 'Kite agrees to buy
+
+      Interius for $350M'
+    25: AUG 2025
+    26: 'BMS agrees to buy
+
+      Orbital for $1.5B'
+    27: OCT 2025
+    28: 'Lilly agrees to buy
+
+      Orna for up to $2.4B'
+    29: FEB 2026
+    30: 'Lilly agrees to buy
+
+      Kelonia for up to $7B'
+    31: APR 2026
+  note: Data comes from the buyers’ announcements, with the maximum value of each deal, milestones included
+- id: 1C
   type: x/student_use_ai_homework_jumped
   section: Market opportunity
   title: 'The biggest in vivo CAR-T deal
@@ -91,49 +124,100 @@ slides:
   - 1.44
   - 7
   t:
-    8: KEY FACT
+    8: SIGNAL
     12: $7B
     13: $1.44B
     11: In January 2024, AbbVie’s deal with Umoja was worth up to $1.44 billion, the most anyone had put on an in vivo CAR-T platform. In April 2026, Lilly agreed to pay up to $7 billion for Kelonia, almost five times more. In between, AbbVie paid up to $2.1 billion for Capstan. Pharma now pays platform prices before late-stage data, so a startup with early human results can sell for billions.
   note: Values are the maximum announced in each deal, milestones included. Data comes from AbbVie and Lilly press releases
-- id: x3
-  type: x/genai_courses_now_draw_14
+- id: 2A
+  type: kpis
   section: Market opportunity
-  title: 'KLN-1010 produced responses
+  title: 'Kelonia’s one-time infusion worked
 
-    in all 18 treated patients'
-  t:
-    8: KEY FACT
-    7: '✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅
-
-      ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅'
-    6: At ASCO 2026, Kelonia reported that all 18 myeloma patients treated with KLN-1010 had an objective response, with no cancer found in their bone marrow a month later. The therapy is one infusion that makes CAR-T cells inside the body, with no cell harvest and no custom manufacturing. Results are early and follow-up is short, but no other in vivo program has shown such a clean first readout.
-  note: Data comes from Kelonia’s ASCO 2026 interim results (data cutoff April 21, 2026), reported by Fierce Biotech
-- id: x4
-  type: x/genai_courses_now_draw_14
+    in all 18 myeloma patients treated'
+  items:
+  - label: Myeloma patients treated with KLN-1010, one infusion each, with no cell harvest
+    value: '18'
+  - label: Of them responded, with no cancer found in their bone marrow a month later
+    value: 100%
+  - label: Of the 6 patients followed 4 months or more reached a stringent complete response
+    value: 67%
+  why: This is a strong signal because it is the cleanest first readout of any in vivo CAR-T so far, and it came weeks before Lilly agreed to buy Kelonia for up to $7 billion.
+  note:
+  - Data comes from Kelonia’s ASCO 2026 interim results (cutoff April 21, 2026), reported by Fierce Biotech and pharmaphorum
+  pill: SIGNAL
+- id: 2B
+  type: x/student_use_ai_homework_jumped
   section: Growth drivers
-  title: 'All 16 patients with nerve autoimmune
+  title: 'Kelonia’s trial grew from 4
 
-    disease lost their harmful B cells'
+    to 18 treated patients in 5 months'
+  vbars:
+  - 4
+  - 18
   t:
-    8: KEY FACT
-    7: '✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅
+    8: ''
+    12: '18'
+    13: '4'
+    11: Kelonia first showed KLN-1010 data on 4 myeloma patients at ASH in December 2025. By the ASCO 2026 data cutoff in April, 18 patients had been treated, and all of them had responded. A larger cohort with the same result makes it much less likely that the first signal was luck, and it gives buyers and doctors a dataset they can start to trust.
+  note: Data comes from Kelonia’s ASH 2025 and ASCO 2026 presentations, reported by Fierce Biotech
+- id: 3A
+  type: kpis
+  section: Growth drivers
+  title: 'In vivo CAR-T cleared harmful B cells
 
-      ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅'
-    6: A report in the New England Journal of Medicine in September 2026 described 16 patients with refractory neurologic autoimmune diseases treated with in vivo CAR-T. All 16 reached complete B-cell depletion, the effect behind the immune reset seen with ex vivo CAR-T in lupus. It is the first neurologic cohort, and it widens the market from blood cancers to a far larger group of chronic diseases.
-  note: Data comes from a report of 16 patients with refractory neurologic autoimmune disorders, published in the New England Journal of Medicine
-- id: x5
+    in all 16 patients with nerve diseases'
+  items:
+  - label: Patients with refractory neurologic autoimmune diseases, such as myasthenia gravis
+    value: '16'
+  - label: Of them reached complete B-cell depletion, the effect behind the immune reset
+    value: 100%
+  why: 'It matters because it is the first neurologic cohort: in vivo CAR-T now reaches beyond blood cancers to chronic autoimmune diseases with far more patients.'
+  note:
+  - Data comes from a report of 16 patients published in the New England Journal of Medicine in September 2026
+- id: 4A
   type: x/student_use_ai_homework_jumped
   section: Market challenges
-  title: 'ESO-T01: all 4 patients responded,
+  title: 'Only 1 of 4 ESO-T01 patients was
 
-    but only 1 stayed in remission'
+    still in remission after 15 months'
   vbars:
   - 4
   - 1
   t:
-    8: KEY FACT
+    8: ''
     12: 1 of 4
     13: 4 of 4
-    11: In the follow-up published in Nature Medicine in October 2026, all four myeloma patients treated with ESO-T01 first responded to a single infusion. After 15 months, only one was still in stringent complete response. CAR-T cells made in the body did not persist long enough in most patients, which makes durability the main technical question for the whole field, beyond this one program.
+    11: All four myeloma patients treated with ESO-T01 first responded to a single infusion. In the follow-up published in Nature Medicine in October 2026, only one was still in stringent complete response 15 months later. The CAR-T cells made in the body did not last long enough in most patients, which makes durability the main question for the whole field, beyond this one program.
   note: Data comes from the extended follow-up of the four ESO-T01 patients, published in Nature Medicine in October 2026
+- id: 4B
+  type: kpis
+  section: Market challenges
+  title: 'ESO-T01 worked fast, but its effect
+
+    faded in 3 of 4 patients'
+  items:
+  - label: Myeloma patients treated with one infusion of ESO-T01 in the first study
+    value: '4'
+  - label: Of them responded at first, with no cell harvest and no chemotherapy
+    value: 100%
+  - label: Patient was still in stringent complete response after 15 months
+    value: 1 of 4
+    down: true
+  why: 'It matters because quick responses are not enough: CAR-T cells made in the body must last, and persistence is now the main technical risk of the field.'
+  note:
+  - Data comes from the extended follow-up published in Nature Medicine in October 2026
+- id: 5A
+  type: kpis
+  section: Tech and infra
+  title: 'ESO-T01 kept CAR genes out of other
+
+    cells: under 1% went off target'
+  items:
+  - label: Of non-T immune cells carried the CAR at most, and most samples showed none
+    value: <1%
+  - label: Myeloma patients in the study, followed for up to 15 months
+    value: '4'
+  why: It matters because delivery to the right cells is the core technical bottleneck of in vivo CAR-T, and this is early human proof that it can be engineered.
+  note:
+  - Data comes from the ESO-T01 Phase 1 data published in Nature Medicine in 2026

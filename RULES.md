@@ -317,3 +317,9 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - The Startup killers chapter always keeps "Which startups stumbled lately?" (1/2 and 2/2), the warning-signs grid and "Why do startups fail?": at least 4 slides. A chapter with one slide is an anomaly. Setbacks count, not only failures (layoffs, lost partners, dropped programs, delayed readouts).
 - Investor bets slides are built from our startups database (nmp-seo data/startups), never asked to the other LLM: `decks/<slug>/db.yaml`, applied by import_research.py before the edits. Equity rounds only (no IPO, debt, grants); rounds with no public amount count as zero, and the note says so.
 - Converted bar charts with fixed bar heights get `vbars: [values]` (fixlib.js `vbars`): bars and their value labels follow the data. A year chart whose bars cannot follow the data uses the `fundbars` template (`unit: pct` for shares).
+
+## The pink pill on extra slides (Pierre, 12 Nov 2026)
+- The pink pill under the title exists only on the extra slides of the Market opportunity chapter, where it says SIGNAL (the "hot right now" signals). Everywhere else in a deck: no pill.
+- An icon grid is for a rate over a large population; a small count (18 of 18 patients) goes in a kpi-trio or a key-trend, never 2 lines of emojis.
+- Extra-slide titles state the fact in plain words, with who, what and how much ("Only 1 of 4 ESO-T01 patients was still in remission after 15 months").
+- A review round shows every usable candidate of the research, each with 2-3 designs when several formats fit, and says why any candidate is left out.

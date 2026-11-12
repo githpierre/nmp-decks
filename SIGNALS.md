@@ -30,7 +30,7 @@ Growth drivers, Investor bets… The kicker on top is set from the chapter where
 - The cell-therapy examples of the library are not reused for in vivo CAR-T: its own research finds its own signals.
 
 ## Pill on extra slides
-The pink pill under the title says KEY FACT (not SIGNAL), until Pierre picks another word.
+Only in the Market opportunity chapter, and it says SIGNAL. No pill anywhere else (Pierre, 12 Nov).
 
 ## Validated templates
 (none yet)
