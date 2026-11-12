@@ -290,3 +290,8 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - "Who are the current market leaders?": the star sits on the top-left corner of its card.
 - The product-page tech table ("Which players can already do the most today?") is centered on the page whatever the number of columns.
 - "And over the years?" follows the template of the slide before it (pp_raises, with logos), with a 2-line title.
+
+## Research prompts for a new market deck (12 Nov 2026)
+- `tools/make_research_prompts.py` writes one TXT per chapter + one signals TXT, zipped, no README. Each slide shows its EdTech model as YAML (same keys, target lengths ±15%) and the other LLM answers the same YAML with sources (claim, url, date, quote), or `status: no_data` instead of inventing.
+- Slides built from our startups database (funding, investors, grids by stage) are never asked to the other LLM.
+- File names: <uuid>-<handle>-deck-<NN>-<chapter>-results-research-<date>.md.

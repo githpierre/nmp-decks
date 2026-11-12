@@ -188,7 +188,7 @@ def main():
             if s['t'][ks[1]].strip().upper() != 'PAIN POINTS': s['t'][ks[1]] = sub
     # the cell-therapy signals of the library (real, researched data) go at the end of their chapter
     SG = yaml.safe_load((ROOT / 'decks/signals/deck.yaml').read_text())['slides']
-    for g in [x for x in SG if x.get('market') == 'cell therapy']:
+    for g in [x for x in SG if x.get('market') == 'cell therapy' and False]:   # Pierre, 12 Nov: not reused, the in vivo research finds its own signals
         g = copy.deepcopy(g); g['id'] = 'sig_' + g['src'].replace('#', '_'); g['tag'] = 'REAL DATA · CELL THERAPY'
         last = max((i for i, x in enumerate(out) if x.get('section') == g.get('section')), default=None)
         if last is None: continue

@@ -16,6 +16,22 @@ Growth drivers, Investor bets… The kicker on top is set from the chapter where
   no date words in titles of trends, every number of the title visible on the chart, one measure per chart,
   the pink bar is the one the title talks about, notes start with "We".
 
+## Process notes (Pierre, 12 Nov 2026)
+- The library is evolving. None of these designs is final: the converted series slides are legacy and will be retouched.
+  When a signal slide is made for a real deck (in vivo CAR-T first), Pierre reviews its design; once validated, the template
+  is marked validated here and the new example replaces the old one in `decks/signals`.
+- Integrated in a deck, a signal slide shows the deck's market name bottom right (never "Signals library") and the kicker of
+  the chapter where it is placed.
+- 5 to 15 signal slides per deck, never 60. Claude proposes the placement of each one (chapter and position), Pierre validates.
+- Sources of signals: the deck research (prompt 11, all formats screened), our startups database (nmp-seo, data/startups:
+  funding, valuations, metrics, employees), and complementary research when a figure needs it.
+- The cell-therapy examples of the library are not reused for in vivo CAR-T: its own research finds its own signals.
+
+## Validated templates
+(none yet)
+
+## Formats
+
 | format | what it shows | data needed | usual chapters | keep only if |
 |---|---|---|---|---|
 | key-trend | one measure, before vs after (2-5 bars) | a sourced measure at 2+ comparable dates | Market opportunity, Market challenges | the change is big (≥ 1.5x or a clear break) |

@@ -17,3 +17,13 @@
 - Cover: Pierre's Google Slides cover "I N  V I V O".
 - Signal slides (12 Nov): out of the base deck. The research first screens the 33+ formats of SIGNALS.md and keeps only strong, sourced signals;
   each kept signal becomes a slide in the chapter where it makes sense. The 16 cell-therapy signals already researched (decks/signals) are in the demo.
+
+## Research (12 Nov 2026)
+- Prompts: `python3 tools/make_research_prompts.py decks/invivo-demo --uuid 109 --handle in-vivo-car-t ...` -> 11 TXT in one zip:
+  10 chapters (each slide shows its EdTech model, same keys and lengths, answer as YAML blocks with sources) + 1 signals screening (31 formats).
+- Not asked (filled by Claude from the startups database, nmp-seo data/startups: 52 companies, 126 rounds, coverage full since 2024):
+  rounds announced, fundraising evolution, raised each year, what stands out, what changed, top deal weight, biggest rounds (pp_raises x2),
+  where capital went, where investors put money (invbets), most active investors, top players grid (pp_grid), "scored big recently".
+- Google Trends: CSVs downloaded by Pierre (worldwide, 5 years).
+- Next: Pierre runs the 11 prompts, returns the 11 .md files; Claude imports them into deck.yaml, builds, audits, proposes 5-15 signal slides with their placement.
+- The cell-therapy signals of the library are not reused (Pierre).
