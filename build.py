@@ -100,6 +100,19 @@ AUDIT_JS = r"""
 }
 """
 
+def flatten(pdf, shots):
+    """Put the screen render of each slide over its PDF page (see build): same look in every PDF viewer."""
+    import io, img2pdf
+    from pypdf import PdfReader, PdfWriter
+    R = PdfReader(str(pdf)); W = PdfWriter()
+    if len(R.pages) != len(shots): raise SystemExit(f'flatten: {len(R.pages)} pages but {len(shots)} slides')
+    vec = sum(1 for _ in [])  # noqa
+    lay = img2pdf.get_layout_fun((img2pdf.in_to_pt(10), img2pdf.in_to_pt(7)), fit=img2pdf.FitMode.exact)
+    for page, jpg in zip(R.pages, shots):
+        top = PdfReader(io.BytesIO(img2pdf.convert(jpg, layout_fun=lay))).pages[0]
+        page.merge_page(top); W.add_page(page)
+    W.compress_identical_objects(); W.write(str(pdf))
+
 def check_yaml(node, path='deck'):
     """YAML trap: an unquoted comma inside {k: v, ...} silently cuts a sentence into an empty key. Refuse it."""
     if isinstance(node, dict):
@@ -205,7 +218,22 @@ def build(slug, png=False, only=None):
         issues = pg.evaluate(AUDIT_JS)
         name = f"{deck['market']} - {deck['quarter']} - newmarketpitch.com ©.pdf"
         pg.emulate_media(media='print')
+        if not only:   # under-layer only carries text and links (the screen render goes on top): no images, no shadows -> small file
+            pg.add_style_tag(content='img,image{visibility:hidden!important}*{text-shadow:none!important;box-shadow:none!important;filter:none!important;background-image:none!important}')
         pg.pdf(path=str(out / name), width='10in', height='7in', print_background=True, prefer_css_page_size=True)
+        # 12 Nov 2026: blurred shadows (titles, tiles, cards) print as dark boxes in Preview/Acrobat, and print layout can differ from screen.
+        # Each PDF page gets the exact screen render on top (2x JPEG); the vector page stays below, so text stays selectable and links clickable.
+        if not only:
+            pg2 = b.new_page(viewport={'width': 960, 'height': 672}, device_scale_factor=2)
+            pg2.goto((d / 'deck.html').as_uri()); pg2.wait_for_load_state('load')
+            pg2.evaluate('document.fonts.ready'); pg2.wait_for_function('window.__rawfit === true && window.__decided !== false', timeout=60000)
+            pg2.add_style_tag(content='.slide{margin:0!important}body{background:#062A3C}')
+            from PIL import Image; import io as _io
+            def _jpg(el):
+                b_ = _io.BytesIO(); Image.open(_io.BytesIO(el.screenshot())).convert('RGB').save(b_, 'JPEG', quality=78, optimize=True, progressive=True, subsampling=2); return b_.getvalue()
+            shots = [_jpg(el) for el in pg2.query_selector_all('.slide')]
+            pg2.close()
+            flatten(out / name, shots)
         if png or only:
             pg.emulate_media(media='screen')
             (out / 'png').mkdir(exist_ok=True)
