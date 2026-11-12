@@ -1,4 +1,4 @@
 {% set mx = s.bars | map(attribute='v') | max %}
 <div class="body"><div class="vbars" style="gap:40px">{% for b in s.bars %}<div class="col" style="width:66px">
-  <div class="ann">{{ b.ann }}</div><svg class="down" viewBox="0 0 10 30"><path d="M5 0V22" stroke="currentColor" stroke-width="1.6"/><path d="M1 21.5L5 29L9 21.5Z" fill="currentColor"/></svg><div class="v" style="font-size:9pt">$ {{ b.v }} M</div>
+  <div class="ann">{{ b.ann }}</div><svg class="down" viewBox="0 0 10 30"><path d="M5 0V22" stroke="currentColor" stroke-width="1.6"/><path d="M1 21.5L5 29L9 21.5Z" fill="currentColor"/></svg><div class="v" style="font-size:9pt">{% if s.unit == 'pct' %}≈ {{ b.v }}%{% else %}$ {{ b.v }} M{% endif %}</div>
   <div class="bar" style="width:40px;height:{{ [(b.v / mx * 150) | round, 3] | max }}px"></div><div class="x">{{ b.x }}</div></div>{% endfor %}</div></div>

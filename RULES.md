@@ -312,3 +312,8 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - Market sizes under $1B are written in millions on the CAGR bars ($285M, not $285B).
 - A literal "\n" written by the other LLM is a line break in every field, not only in slide texts.
 - Emoji icons of converted slides are chosen for the market (no graduation caps in a biotech deck).
+
+## Startup killers chapter and database slides (Pierre, 12 Nov 2026)
+- The Startup killers chapter always keeps "Which startups stumbled lately?" (1/2 and 2/2), the warning-signs grid and "Why do startups fail?": at least 4 slides. A chapter with one slide is an anomaly. Setbacks count, not only failures (layoffs, lost partners, dropped programs, delayed readouts).
+- Investor bets slides are built from our startups database (nmp-seo data/startups), never asked to the other LLM: `decks/<slug>/db.yaml`, applied by import_research.py before the edits. Equity rounds only (no IPO, debt, grants); rounds with no public amount count as zero, and the note says so.
+- Converted bar charts with fixed bar heights get `vbars: [values]` (fixlib.js `vbars`): bars and their value labels follow the data. A year chart whose bars cannot follow the data uses the `fundbars` template (`unit: pct` for shares).

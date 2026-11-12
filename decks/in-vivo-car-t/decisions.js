@@ -249,8 +249,24 @@ window.F = (() => {
     if (!body.length) return; const top = Math.min(...body.map(o => o.y)), bot = Math.max(...body.map(o => o.b)), dy = Math.round((150 + 590) / 2 - (top + bot) / 2);
     if (Math.abs(dy) > 4) body.forEach(o => mv(o.e, 0, dy)); mark('emptyCards', sl); };
 
+  // converted bar charts with fixed bar heights (key-trend…): `vbars: [a, b, …]` in deck.yaml sets the heights of the tall pink bars,
+  // left to right, in proportion (the tallest keeps its height, bottoms stay put), and the value label above each bar follows it (12 Nov)
+  const vbars = sl => { const V = (sl.dataset.vbars || '').split(',').map(Number).filter(v => !isNaN(v)); if (!V.length) return;
+    const R = sl.getBoundingClientRect();
+    const bars = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(sv => { const p = sv.querySelector('path'); return p && /FB0161/i.test(p.getAttribute('fill') || '') && sv.getBoundingClientRect().height > 60 && sv.getBoundingClientRect().width < 90; })
+      .sort((a, b) => a.getBoundingClientRect().left - b.getBoundingClientRect().left);
+    if (bars.length !== V.length) return;
+    const hs = bars.map(b => parseFloat(b.querySelector('path').getAttribute('d').match(/V([\d.]+)/)[1])), H = Math.max(...hs), mx = Math.max(...V);
+    const T = [...sl.querySelectorAll('.raw > .rx-t')];
+    bars.forEach((b, i) => { const p = b.querySelector('path'), h0 = hs[i], h = Math.max(4, H * V[i] / mx), d = h0 - h, br = b.getBoundingClientRect();
+      p.setAttribute('d', p.getAttribute('d').replace(/V[\d.]+/, 'V' + h.toFixed(2)));
+      const top0 = parseFloat(b.style.top); b.style.top = (top0 + d) + 'px'; b.style.height = (parseFloat(b.style.height) - d) + 'px'; b.setAttribute('viewBox', b.getAttribute('viewBox').replace(/([\d.]+)$/, (parseFloat(b.style.height)).toFixed(1)));
+      const lab = T.find(t => { const r = t.getBoundingClientRect(); return Math.abs((r.left + r.right) / 2 - (br.left + br.right) / 2) < 40 && r.bottom <= br.top + 6 && br.top - r.bottom < 40; });
+      if (lab) mv(lab, 0, d); });
+    mark('vbars', sl); };
+
   // generic rules, every raw slide
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [vbars, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
 

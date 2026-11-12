@@ -209,8 +209,13 @@ def main():
         sources[sid] = ans.get('sources') or []
         S.append(x)
     ed = out / 'edits.yaml'                      # Claude's fit rewrites (texts too long for their box), kept across re-imports
-    if ed.exists():
-        E = yaml.safe_load(ed.read_text()) or {}
+    dbf = out / 'db.yaml'                        # slides built from our startups database (nmp-seo), applied first, then the edits
+    E = {}
+    for f in (dbf, ed):
+        if f.exists():
+            for k, v in (yaml.safe_load(f.read_text()) or {}).items(): E.setdefault(k, {}).update(v)
+    DB_DONE = set(yaml.safe_load(dbf.read_text()) or {}) if dbf.exists() else set()
+    if E:
         for x in S:
             for k, v in (E.get(x['id']) or {}).items():
                 if v is None: x.pop(k, None); continue   # null in edits.yaml removes the field (a demo tag…)
@@ -241,8 +246,17 @@ def main():
     for x in S:                                  # what the yellow tag says now
         b = re.sub(r'-s\d$', '', x['id'])
         if x['type'] in ('agenda', 'cover') or b in ('ed002', 'ed003', 'ed221'): x.pop('tag', None)
-        elif b in DB_IDS: x['tag'] = 'FROM OUR DATABASE: TO BUILD'
+        elif b in DB_IDS and x['id'] not in DB_DONE: x['tag'] = 'FROM OUR DATABASE: TO BUILD'
+        elif x['id'] in DB_DONE: x.pop('tag', None)
         elif b in {f'ed{n}' for n in range(215, 221)}: x['tag'] = 'SOURCES: TO BUILD'
+    for x in S:                                  # pp_grid cells written as company names: slugs + logo paths
+        if x.get('type') == 'pp_grid' and any(' ' in n or n[:1].isupper() for row in x['cells'] for cell in row for n in cell):
+            srcs = {}
+            x['cells'] = [[[slugify(n) for n in cell] for cell in row] for row in x['cells']]
+            for row, rown in zip(x['cells'], (yaml.safe_load(dbf.read_text()) or {}).get(x['id'], {}).get('cells', [])):
+                for cell, celln in zip(row, rown):
+                    for sl, n in zip(cell, celln): srcs[sl] = logo(n)
+            x['srcs'] = srcs
     D = {k: v for k, v in demo.items() if k != 'slides'}; D['slug'] = Path(a.out).name; D['slides'] = S
     (out / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
     (out / 'sources.yaml').write_text(yaml.dump(sources, allow_unicode=True, sort_keys=False, width=1000))

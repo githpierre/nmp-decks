@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../../css/nmp.css"></head><body>
 {% for s in slides %}{% set T = s.type %}
 {% if T == 'cover' %}{% include 'slides/cover.j2' %}{% else %}
-<section class="slide {{ 'has-sub' if s.subtitle or (s.page and s.page != '1/1') }}" data-n="{{ loop.index }}"{% if s.id %} data-id="{{ s.id }}"{% endif %} data-type="{{ 'raw' if T.startswith('x/') else T }}"{% if T.startswith('x/') %} data-tpl="{{ T[2:] }}"{% endif %}{% if s.hl %} data-hl="{{ s.hl }}"{% endif %}>
+<section class="slide {{ 'has-sub' if s.subtitle or (s.page and s.page != '1/1') }}" data-n="{{ loop.index }}"{% if s.id %} data-id="{{ s.id }}"{% endif %} data-type="{{ 'raw' if T.startswith('x/') else T }}"{% if T.startswith('x/') %} data-tpl="{{ T[2:] }}"{% endif %}{% if s.hl %} data-hl="{{ s.hl }}"{% endif %}{% if s.vbars %} data-vbars="{{ s.vbars | join(',') }}"{% endif %}>
   <div class="tri"></div>
   {% if s.section %}<div class="section">{{ s.section }}</div>{% endif %}
   {% if s.title %}<h1 class="title">{{ s.title | nl }}</h1>{% endif %}

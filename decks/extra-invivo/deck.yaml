@@ -1,0 +1,139 @@
+market: In Vivo CAR-T
+label: In vivo CAR-T market
+quarter: Q3 2026
+year: 2026
+slug: extra-invivo
+chapters:
+- 'What is this
+
+  market about?'
+- 'Why this
+
+  market now?'
+- 'How big could this
+
+  market get?'
+- 'What are the pain
+
+  points, and for whom?'
+- 'What is the latest tech
+
+  and infrastructure?'
+- 'How is value created
+
+  and monetized?'
+- 'What could slow this
+
+  market down?'
+- 'What are the growth
+
+  drivers in this market?'
+- 'What are investors
+
+  betting on now?'
+- 'Who are the top startups
+
+  and companies?'
+- 'What could kill
+
+  a startup in this market?'
+- 'How do you win
+
+  in this market?'
+scripts:
+- decisions.js
+keep_together:
+- in vivo CAR-T
+- CAR-T
+slides:
+- id: x1
+  type: x/five_learning_scaleups_now_worth
+  section: Investor bets
+  title: 'Five in vivo CAR-T deals were
+
+    worth $1.5B or more'
+  vbars:
+  - 7
+  - 3.4
+  - 2.4
+  - 2.1
+  - 1.5
+  t:
+    6: KEY FACT
+    7: $7B
+    8: 'Kelonia, whose lentiviral particles make CAR-T
+
+      cells in the body, agreed to a Lilly buyout'
+    9: $3.4B
+    10: 'Sail, which makes in vivo CAR-T with circular
+
+      RNA, signed a J&J deal with an option to buy it'
+    11: $2.4B
+    12: 'Orna, a circular-RNA in vivo CAR-T developer,
+
+      agreed to be bought by Lilly in 2026'
+    13: $2.1B
+    14: 'Capstan, which targets T cells with LNP-mRNA,
+
+      was bought by AbbVie in 2025'
+    15: $1.5B
+    16: 'Orbital, which built a circular-RNA CAR-T
+
+      platform, was bought by BMS in cash'
+  note: Values are the maximum announced in each deal, milestones included, from 2025 to 2026. Data comes from the buyers’ press releases
+- id: x2
+  type: x/student_use_ai_homework_jumped
+  section: Market opportunity
+  title: 'The biggest in vivo CAR-T deal
+
+    jumped from $1.44B to $7B'
+  vbars:
+  - 1.44
+  - 7
+  t:
+    8: KEY FACT
+    12: $7B
+    13: $1.44B
+    11: In January 2024, AbbVie’s deal with Umoja was worth up to $1.44 billion, the most anyone had put on an in vivo CAR-T platform. In April 2026, Lilly agreed to pay up to $7 billion for Kelonia, almost five times more. In between, AbbVie paid up to $2.1 billion for Capstan. Pharma now pays platform prices before late-stage data, so a startup with early human results can sell for billions.
+  note: Values are the maximum announced in each deal, milestones included. Data comes from AbbVie and Lilly press releases
+- id: x3
+  type: x/genai_courses_now_draw_14
+  section: Market opportunity
+  title: 'KLN-1010 produced responses
+
+    in all 18 treated patients'
+  t:
+    8: KEY FACT
+    7: '✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅
+
+      ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅'
+    6: At ASCO 2026, Kelonia reported that all 18 myeloma patients treated with KLN-1010 had an objective response, with no cancer found in their bone marrow a month later. The therapy is one infusion that makes CAR-T cells inside the body, with no cell harvest and no custom manufacturing. Results are early and follow-up is short, but no other in vivo program has shown such a clean first readout.
+  note: Data comes from Kelonia’s ASCO 2026 interim results (data cutoff April 21, 2026), reported by Fierce Biotech
+- id: x4
+  type: x/genai_courses_now_draw_14
+  section: Growth drivers
+  title: 'All 16 patients with nerve autoimmune
+
+    disease lost their harmful B cells'
+  t:
+    8: KEY FACT
+    7: '✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅
+
+      ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅'
+    6: A report in the New England Journal of Medicine in September 2026 described 16 patients with refractory neurologic autoimmune diseases treated with in vivo CAR-T. All 16 reached complete B-cell depletion, the effect behind the immune reset seen with ex vivo CAR-T in lupus. It is the first neurologic cohort, and it widens the market from blood cancers to a far larger group of chronic diseases.
+  note: Data comes from a report of 16 patients with refractory neurologic autoimmune disorders, published in the New England Journal of Medicine
+- id: x5
+  type: x/student_use_ai_homework_jumped
+  section: Market challenges
+  title: 'ESO-T01: all 4 patients responded,
+
+    but only 1 stayed in remission'
+  vbars:
+  - 4
+  - 1
+  t:
+    8: KEY FACT
+    12: 1 of 4
+    13: 4 of 4
+    11: In the follow-up published in Nature Medicine in October 2026, all four myeloma patients treated with ESO-T01 first responded to a single infusion. After 15 months, only one was still in stringent complete response. CAR-T cells made in the body did not persist long enough in most patients, which makes durability the main technical question for the whole field, beyond this one program.
+  note: Data comes from the extended follow-up of the four ESO-T01 patients, published in Nature Medicine in October 2026

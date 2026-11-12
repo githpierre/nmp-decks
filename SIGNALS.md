@@ -29,6 +29,9 @@ Growth drivers, Investor bets… The kicker on top is set from the chapter where
   funding, valuations, metrics, employees), and complementary research when a figure needs it.
 - The cell-therapy examples of the library are not reused for in vivo CAR-T: its own research finds its own signals.
 
+## Pill on extra slides
+The pink pill under the title says KEY FACT (not SIGNAL), until Pierre picks another word.
+
 ## Validated templates
 (none yet)
 
