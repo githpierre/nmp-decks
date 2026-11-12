@@ -4487,27 +4487,36 @@ slides:
   note:
   - We listed the biggest equity rounds raised by EdTech startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
-- id: ed166
-  type: x/over_years
+- id: ed166p
+  type: pp_raises
   section: Investor bets
-  title: 'And over
+  title: 'Who did investors back the most
 
-    the years?'
-  note: Data comes from our tracker of 266 EdTech equity rounds announced since January 2024, worth about $2.43 billion. Debt, grants, and secondary share sales are left out
-  src: 166
-  t:
-    6: PHYSICSWALLAH
-    8: In 2024 it raised a Series B led by Hornbill Capital
-    10: $175M
-    11: ERUDITUS
-    13: In 2024 it raised a round led by TPG’s Rise Fund
-    15: $150M
-    16: SCHOOLINKS
-    18: In 2024 it raised a Series B round led by Susquehanna
-    20: $80M
-    21: SPEAK
-    23: In 2024, it raised its Series C, led by Accel
-    25: $78M
+    in EdTech in earlier years?'
+  rounds:
+  - name: PhysicsWallah
+    amt: 175000000.0
+    src: ../../assets/logos/physicswallah.png
+    stage: Series B
+    date: '2024'
+  - name: Eruditus
+    amt: 150000000.0
+    src: media/raw/baf25b69d147.png
+    stage: Late stage
+    date: '2024'
+  - name: SchooLinks
+    amt: 80000000.0
+    src: ../../assets/logos/schoolinks.png
+    stage: Series B
+    date: '2024'
+  - name: Speak
+    amt: 78000000.0
+    src: ../../assets/logos/pp/speak.png
+    stage: Series C
+    date: '2024'
+  note:
+  - We listed the biggest equity rounds raised by EdTech startups in the years before, from our tracker of rounds
+  - We used company announcements and the press, and all our sources are at the end of the report
 - id: ed167
   type: x/where_did_most_capital_go
   section: Investor bets

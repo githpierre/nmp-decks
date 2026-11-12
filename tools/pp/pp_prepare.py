@@ -79,7 +79,8 @@ def tech(s):
     for k, j in enumerate(order):
         y = 317 if k == 0 else 382 + (k - 1) * 43
         rows.append(dict(c=C[j], y=y, v=[f['values'][j] for f in F], lead=k == 0))
-    s['geo'] = dict(xs=xs, rows=rows, heads=[f['header'].split('|') for f in F], wl=xs[-1] + 49 - 167)
+    wl = xs[-1] + 49 - 167; dx = round(480 - (167 + wl / 2))     # the whole table is centered on the page (Pierre, 12 Nov 2026)
+    s['geo'] = dict(xs=[x + dx for x in xs], rows=rows, heads=[f['header'].split('|') for f in F], wl=wl, dx=dx)
 
 def value(s):
     X0, X1, Y0, Y1 = 208, 802, 520, 252

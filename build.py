@@ -84,6 +84,14 @@ AUDIT_JS = r"""
     // footnote must stop before the footer label (x 690)
     { const ntb = sl.querySelector('.note'); if (ntb) { const r = Math.max(...[...ntb.querySelectorAll('.nl')].map(e => e.getBoundingClientRect().right), ntb.getBoundingClientRect().right) - sl.getBoundingClientRect().left; if (r > 690) out.push([n, 'NOTE_WIDTH', Math.round(r) + 'px', ntb.textContent.slice(0, 50)]); } }
     // footnote lines (YAML list): widths within 12% of each other (Pierre, 10 Nov 2026)
+    // fixed line counts (data-lines) must be met, and the labels of one grid all on one line or all on two (Pierre, 12 Nov 2026)
+    if (window.__fitapi) { const F = window.__fitapi;
+      sl.querySelectorAll('.raw .rx-t[data-lines]').forEach(el => { const p = F.main(el); if (!p) return; const r = F.rows(p); if (r > +el.dataset.lines) out.push([n, 'LINES_OVER', r + '>' + el.dataset.lines, p.textContent.trim().slice(0, 50)]); });
+      const LB = [...sl.querySelectorAll('.raw .rx-t')].map(el => { const ps = [...el.querySelectorAll('p')].filter(p => /[a-z]/i.test(p.textContent)); if (ps.length !== 1) return null;
+        const p = ps[0], t = p.innerText.replace(/\s+/g, ' ').trim(); if (t.length > 32 || t !== t.toUpperCase() || t.split(/\s+/).length > 4) return null;
+        return {w: Math.round(el.getBoundingClientRect().width), fs: getComputedStyle(p).fontSize, n: F.rows(p), t}; }).filter(Boolean);
+      const G = {}; LB.forEach(b => (G[b.w + '|' + b.fs] = G[b.w + '|' + b.fs] || []).push(b));
+      Object.values(G).forEach(g => { if (g.length >= 3 && !g.some(b => !b.n) && new Set(g.map(b => b.n)).size > 1) out.push([n, 'LABEL_LINES_MIXED', g.map(b => b.n).join(','), g.map(b => b.t).join(' / ').slice(0, 60)]); }); }
     const nls = [...sl.querySelectorAll('.note .nl')].map(e => e.getBoundingClientRect().width);
     if (nls.length > 1) { const mx = Math.max(...nls), mn = Math.min(...nls); if ((mx - mn) / mx > 0.12) out.push([n, 'NOTE_BALANCE', Math.round((mx - mn) / mx * 100) + '%', sl.querySelector('.note').textContent.slice(0, 50)]); }
     const nt = sl.querySelector('.note'); if (nt) { const lh = parseFloat(getComputedStyle(nt).lineHeight); if (nt.getBoundingClientRect().height > lh * 3.2) out.push([n, 'NOTE_LINES', '', nt.textContent.slice(0, 50)]); }
@@ -172,7 +180,7 @@ def build(slug, png=False, only=None):
     for s in deck['slides']:
         if s.get('title'):
             for k in keep:
-                if k and ' ' in k: s['title'] = _re.sub(_re.escape(k).replace('\\ ', '\\s+'), k.replace(' ', '\u00a0'), s['title'], flags=_re.I)
+                if k and ' ' in k: s['title'] = _re.sub(_re.escape(k).replace('\\ ', '\\s+'), lambda m: _re.sub(r'\s+', '\u00a0', m.group(0)), s['title'], flags=_re.I)   # the title keeps its own case
     html = env.get_template('base.html.j2').render(deck=deck, slides=deck['slides'])
     # figures typography in every slide, templated or converted (Pierre, 11 Nov 2026): '$ 187 B' -> '$187B', '5 %' -> '5%'
     html = re.sub(r'([$€£])\s+(\d[\d.,]*)\s*([KMBT])(?=[\s<,.;:)]|$)', r'\1\2\3', html)

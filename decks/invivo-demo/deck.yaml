@@ -44,7 +44,6 @@ scripts:
 - decisions.js
 keep_together:
 - in vivo CAR-T
-- In vivo CAR-T
 - CAR-T
 slides:
 - id: ed001
@@ -601,7 +600,7 @@ slides:
   - d: SINCE 2026
     t: The EU delayed its AI Act rules for healthcare, which treat many hospital uses of AI as high risk, to December 2027. Hospitals in Europe gained more time to test and adopt AI tools.
   - d: SINCE 2026
-    t: Interius invested $100 million in Sail Biomedicines, the new AI cell therapy startup of Andrew Ng, who cofounded Interius. AI-native therapies became a serious bet for established players.
+    t: Interius invested $100 million in Sail Bio, the new AI cell therapy startup of Andrew Ng, who cofounded Interius. AI-native therapies became a serious bet for established players.
   note:
   - There is no official timeline, and some may pick other changes or slightly different dates
   - We kept the moments that mattered most for investors and founders entering the market
@@ -803,7 +802,7 @@ slides:
     29: JUN 2026
     30: 'Interius invests $100M in
 
-      Andrew Ng’s Sail Biomedicines'
+      Andrew Ng’s Sail Bio'
     31: JUL 2026
   tag: DEMO DATA
 - id: ed036
@@ -1382,9 +1381,9 @@ slides:
 - id: ed058
   type: x/has_already_been_fixed_left
   section: Pain points
-  title: 'What has already been fixed
+  title: 'What has already been fixed,
 
-    in the in vivo CAR-T space, and what is left to solve?'
+    and what is left to solve?'
   note: We gathered customer complaints from reviews, forums and analyst reports, then checked how often and how strongly each problem comes up for each customer group. All the sources are included at the end of the report. Bigger dots mean that group would pay more to fix it.
   src: 58
   t:
@@ -2335,7 +2334,7 @@ slides:
   src: 98
   t:
     6: They are building AI-native therapies that stay with each patient until mastery
-    8: SAIL BIOMEDICINES
+    8: SAIL BIO
     9: They are building private hospitals where software teaches the core subjects
     11: VIVO BIO
     12: They are building AI that turns any treatment goal into a full therapy in seconds
@@ -3890,7 +3889,7 @@ slides:
     16: 2026 (AUG)
     17: Codio raised $5M from Armada Investment Group to grow its coding labs and AI literacy therapies for colleges {1|PR Newswire}
     18: 2026 (JUL)
-    19: Sail Biomedicines, founded by Andrew Ng, raised a $100M Series A from Interius to build AI-native therapies {1|Interius}
+    19: Sail Bio, founded by Andrew Ng, raised a $100M Series A from Interius to build AI-native therapies {1|Interius}
     20: 2026 (JUL)
     21: imagi raised a $4.5M seed round led by Brighteye and DayOne to teach coding and AI literacy in hospitals {1|imagi}
     22: 2026 (JUL)
@@ -3908,17 +3907,17 @@ slides:
   src: 156
   t:
     13: 2025 (OCT)
-    14: Bristol Myers Squibb bought Orbital Therapeutics for $1.5B to add circular RNA in vivo CAR-T {1|Company news}
+    14: Bristol Myers Squibb bought Orbital Therapeutics for $1.5B to add its circular RNA in vivo CAR-T {1|Company news}
     15: 2025 (AUG)
-    16: Gilead and Kite bought Interius for $350M in cash to own its in vivo platform {1|Company news}
+    16: Gilead and Kite bought Interius for $350M in cash to own its lentiviral in vivo CAR-T platform {1|Company news}
     17: 2025 (JUN)
-    18: AbbVie bought Capstan for up to $2.1B, its first big bet on in vivo CAR-T {1|Company news}
+    18: AbbVie bought Capstan for up to $2.1B, its first big bet on mRNA in vivo CAR-T for autoimmunity {1|Company news}
     19: 2025 (MAR)
-    20: AstraZeneca bought EsoBiotec for up to $1B to add lentiviral in vivo cell therapy {1|Company news}
+    20: AstraZeneca bought EsoBiotec for up to $1B to add its lentiviral in vivo cell therapy platform {1|Company news}
     21: 2025 (JAN)
-    22: A big pharma signed a demo licensing deal worth $40M upfront for an mRNA CAR {1|Demo source}
+    22: A top-10 pharma licensed a demo mRNA CAR program for $40M upfront and up to $600M in milestones {1|Demo source}
     23: 2024 (DEC)
-    24: A demo biotech licensed its LNP to a top-10 pharma for $25M upfront {1|Demo source}
+    24: A demo biotech licensed its T-cell targeted LNP to a big pharma for $25M upfront and royalties {1|Demo source}
   tag: DEMO DATA
 - id: ed158
   type: fundbars
@@ -3941,7 +3940,7 @@ slides:
     ann: MVRIX’s $22M Series A made up half of a very quiet quarter
   - x: Q3 2026
     v: 191
-    ann: Sail Biomedicines raised $100M from Interius, over half of the quarter
+    ann: Sail Bio raised $100M from Interius, over half of the quarter
   note:
   - Data comes from our [tracker](https://newmarketpitch.com/blogs/news/in vivo CAR-T-list-deals) of 266 in vivo CAR-T equity rounds since January 2024
   - Debt and grants are left out, and Q2 2026 holds only 9 rounds, so it may still rise
@@ -3963,7 +3962,7 @@ slides:
     13: Campus, Tessera, and Create Medicines raised about $131M together
     15: $747M
     16: 2026 (YTD)
-    18: Ensoma and Sail Biomedicines took $250M, about 45% of the year
+    18: Ensoma and Sail Bio took $250M, about 45% of the year
     20: $553M
   tag: DEMO DATA
 - id: ed160
@@ -4026,7 +4025,7 @@ slides:
     7: 'AFTER
 
 
-      Now, most rounds are small seed checks for AI tools, like Stylus, MVRIX, and Mote Bio. Investors ask for profits first. Only Ensoma and Sail Biomedicines raised $100M or more in 2026, out of 65 tracked rounds.'
+      Now, most rounds are small seed checks for AI tools, like Stylus, MVRIX, and Mote Bio. Investors ask for profits first. Only Ensoma and Sail Bio raised $100M or more in 2026, out of 65 tracked rounds.'
   tag: DEMO DATA
 - id: ed163
   type: x/seed_round_now_1_5x
@@ -4089,7 +4088,7 @@ slides:
     src: ../../assets/logos/pp/novartis.png
     stage: Series D
     date: Q1 2026
-  - name: Sail Biomedicines
+  - name: Sail Bio
     amt: 100000000.0
     src: ../../assets/logos/pp/lilly.png
     stage: Series A
@@ -4108,27 +4107,36 @@ slides:
   - We listed the biggest equity rounds raised by in vivo CAR-T startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
   tag: DEMO DATA
-- id: ed166
-  type: x/over_years
+- id: ed166p
+  type: pp_raises
   section: Investor bets
-  title: 'And over
+  title: 'Who did investors back the most
 
-    the years?'
-  note: Data comes from our tracker of 266 in vivo CAR-T equity rounds announced since January 2024, worth about $2.43 billion. Debt, grants, and secondary share sales are left out
-  src: 166
-  t:
-    6: IASO BIO
-    8: In 2024 it raised a Series B led by Hornbill Capital
-    10: $175M
-    11: LEGEND BIOTECH
-    13: In 2024 it raised a round led by TPG’s Rise Fund
-    15: $150M
-    16: SCHOOLINKS
-    18: In 2024 it raised a Series B round led by Susquehanna
-    20: $80M
-    21: ORNA
-    23: In 2024, it raised its Series C, led by Accel
-    25: $78M
+    in the in vivo CAR-T space in earlier years?'
+  rounds:
+  - name: IASO Bio
+    amt: 175000000.0
+    src: ../../assets/logos/sail-biomedicines.png
+    stage: Series B
+    date: '2024'
+  - name: Legend Biotech
+    amt: 150000000.0
+    src: ../../assets/logos/immorna.png
+    stage: Late stage
+    date: '2024'
+  - name: SchooLinks
+    amt: 80000000.0
+    src: ../../assets/logos/magicrna.png
+    stage: Series B
+    date: '2024'
+  - name: Orna
+    amt: 78000000.0
+    src: ../../assets/logos/create-medicines.png
+    stage: Series C
+    date: '2024'
+  note:
+  - We listed the biggest equity rounds raised by in vivo CAR-T startups in the years before, from our tracker of rounds
+  - We used company announcements and the press, and all our sources are at the end of the report
   tag: DEMO DATA
 - id: ed167
   type: x/where_did_most_capital_go
@@ -4154,7 +4162,7 @@ slides:
     16: $602M
     17: SchooLinks, Tessera, DeliNova, Wooclap
     18: EXAMPLES OF STARTUPS
-    19: Sail Biomedicines, Create Medicines, Honor, Arcellx
+    19: Sail Bio, Create Medicines, Honor, Arcellx
     20: IASO Bio, Legend Biotech, Lilly, Campus
     24: SINCE 2024
   tag: DEMO DATA
@@ -4167,15 +4175,15 @@ slides:
   rows:
   - name: Beyond T cells
     names:
-    - Sail Biomedicines
+    - Sail Bio
     - Create Medicines
     v: $278M
     pct: 37% of total
     w: 100.0
     logos:
-    - src: ../../assets/logos/sail-biomedicines.png
-    - src: ../../assets/logos/immorna.png
-    - src: ../../assets/logos/magicrna.png
+    - src: ../../assets/logos/azalea-therapeutics.png
+    - src: ../../assets/logos/tessera-therapeutics.png
+    - src: ../../assets/logos/vyriad.png
   - name: Gene-editing CAR-T
     names:
     - Ensoma
@@ -4184,9 +4192,9 @@ slides:
     pct: 32% of total
     w: 87.4
     logos:
-    - src: ../../assets/logos/create-medicines.png
-    - src: ../../assets/logos/azalea-therapeutics.png
-    - src: ../../assets/logos/tessera-therapeutics.png
+    - src: ../../assets/logos/umoja-biopharma.png
+    - src: ../../assets/logos/iaso-biotherapeutics.png
+    - src: ../../assets/logos/mvrix.png
   - name: mRNA-LNP CAR-T
     names:
     - Subject
@@ -4195,9 +4203,9 @@ slides:
     pct: 22% of total
     w: 59.0
     logos:
-    - src: ../../assets/logos/vyriad.png
-    - src: ../../assets/logos/umoja-biopharma.png
-    - src: ../../assets/logos/iaso-biotherapeutics.png
+    - src: ../../assets/logos/ensoma.png
+    - src: ../../assets/logos/thunderbiotech.png
+    - src: ../../assets/logos/pp/interius.png
   - name: Lentiviral CAR-T
     names:
     - Ocugen
@@ -4206,9 +4214,9 @@ slides:
     pct: 5% of total
     w: 14.0
     logos:
-    - src: ../../assets/logos/mvrix.png
-    - src: ../../assets/logos/ensoma.png
-    - src: ../../assets/logos/thunderbiotech.png
+    - src: ../../assets/logos/pp/sana.png
+    - src: ../../assets/logos/pp/abbvie.png
+    - src: ../../assets/logos/pp/astrazeneca.png
   - name: Other approaches
     names:
     - Ed.ai
@@ -4306,24 +4314,24 @@ slides:
   - We placed private players by their main customer and their stage, from funding news, revenue and reach
   - We left out big tech, listed firms like Capstan and buyouts like Bristol Myers Squibb, with sources at the end of the report
   srcs:
-    classdojo: ../../assets/logos/pp/interius.png
-    newsela: ../../assets/logos/pp/sana.png
+    classdojo: ../../assets/logos/pp/gilead-kite.png
+    newsela: ../../assets/logos/pp/bristol-myers-squibb.png
     magicschool: ../../assets/logos/pp/interius.png
-    amira: ../../assets/logos/pp/abbvie.png
-    teachy: ../../assets/logos/pp/astrazeneca.png
-    brisk: ../../assets/logos/pp/gilead-kite.png
+    amira: ../../assets/logos/pp/novartis.png
+    teachy: ../../assets/logos/pp/kite.png
+    brisk: ../../assets/logos/pp/legend-biotech.png
     preply: ../../assets/logos/pp/novartis.png
-    gostudent: ../../assets/logos/pp/bristol-myers-squibb.png
-    knowunity: ../../assets/logos/pp/novartis.png
-    speakx: ../../assets/logos/pp/kite.png
-    sigiq: ../../assets/logos/pp/legend-biotech.png
-    oboe: ../../assets/logos/pp/autolus.png
+    gostudent: ../../assets/logos/pp/autolus.png
+    knowunity: ../../assets/logos/pp/arcellx.png
+    speakx: ../../assets/logos/pp/allogene.png
+    sigiq: ../../assets/logos/pp/cellectis.png
+    oboe: ../../assets/logos/pp/crispr-therapeutics.png
     multiverse: ../../assets/logos/pp/abbvie.png
-    guild: ../../assets/logos/pp/arcellx.png
+    guild: ../../assets/logos/pp/beam.png
     yoodli: ../../assets/logos/pp/regeneron.png
-    stepful: ../../assets/logos/pp/allogene.png
-    fullyramped: ../../assets/logos/pp/cellectis.png
-    secondnature: ../../assets/logos/pp/crispr-therapeutics.png
+    stepful: ../../assets/logos/pp/moderna.png
+    fullyramped: ../../assets/logos/pp/biontech.png
+    secondnature: ../../assets/logos/pp/lilly.png
   weight: {}
   tag: DEMO DATA
 - id: ed172
@@ -4741,7 +4749,7 @@ slides:
       Campus bought Sizzle AI to build an AI-native online college for Gen Z'
     10: '🧠
 
-      Sail Biomedicines raised $100M before launch to build therapies that teach to mastery'
+      Sail Bio raised $100M before launch to build therapies that teach to mastery'
     11: '🧪
 
       AlensiaXR teaches human anatomy with holograms in mixed reality'
@@ -4786,8 +4794,8 @@ slides:
     31: NOVARTIS {1|market cap $9B}
     35: LEGEND BIOTECH {1|valuation $3B}
   img:
-  - ../../assets/logos/pp/beam.png
-  - ../../assets/logos/pp/moderna.png
+  - ../../assets/logos/pp/regeneron.png
+  - ../../assets/logos/immorna.png
   tag: DEMO DATA
 - id: ed188
   type: x/startups_passed_1b
@@ -5056,7 +5064,7 @@ slides:
   - name: Exuma
     slug: chegg
     domain: chegg.com
-    src: ../../assets/logos/pp/biontech.png
+    src: ../../assets/logos/pp/pfizer.png
     ini: C
     cells:
     - 45% of|staff 2025
@@ -5067,7 +5075,7 @@ slides:
   - name: Carisma
     slug: byjus
     domain: byjus.com
-    src: ../../assets/logos/pp/lilly.png
+    src: ../../assets/logos/sail-biomedicines.png
     ini: B
     cells:
     - ''
@@ -5078,7 +5086,7 @@ slides:
   - name: Myeloid
     slug: unacademy
     domain: unacademy.com
-    src: ../../assets/logos/pp/regeneron.png
+    src: ../../assets/logos/immorna.png
     ini: U
     cells:
     - ''
@@ -5111,7 +5119,7 @@ slides:
   - name: Abintus
     slug: 2u
     domain: 2u.com
-    src: ../../assets/logos/pp/pfizer.png
+    src: ../../assets/logos/magicrna.png
     ini: Abintus
     cells:
     - ''
@@ -5189,12 +5197,12 @@ slides:
     78: India
     84: Big layoffs
   img:
-  - ../../assets/logos/sail-biomedicines.png
-  - ../../assets/logos/immorna.png
-  - ../../assets/logos/magicrna.png
   - ../../assets/logos/create-medicines.png
   - ../../assets/logos/azalea-therapeutics.png
   - ../../assets/logos/tessera-therapeutics.png
+  - ../../assets/logos/vyriad.png
+  - ../../assets/logos/umoja-biopharma.png
+  - ../../assets/logos/iaso-biotherapeutics.png
   tag: DEMO DATA
 - id: ed202
   type: x/one_university_pays_almost_90
@@ -5375,15 +5383,15 @@ slides:
     the language platform market?'
   companies:
   - short: Capstan
-    src: ../../assets/logos/vyriad.png
-  - short: EsoBiotec
-    src: ../../assets/logos/umoja-biopharma.png
-  - short: Azalea
-    src: ../../assets/logos/iaso-biotherapeutics.png
-  - short: Orna
     src: ../../assets/logos/mvrix.png
-  - short: Vyriad
+  - short: EsoBiotec
     src: ../../assets/logos/ensoma.png
+  - short: Azalea
+    src: ../../assets/logos/thunderbiotech.png
+  - short: Orna
+    src: ../../assets/logos/pp/interius.png
+  - short: Vyriad
+    src: ../../assets/logos/pp/sana.png
   criteria:
   - name: 140M+ monthly patients
     why: Biggest free patient funnel

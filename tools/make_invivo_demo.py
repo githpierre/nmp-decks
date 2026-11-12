@@ -17,7 +17,7 @@ COMPANIES = [  # EdTech name -> In Vivo name (demo pairing, no meaning)
     ('Babbel', 'EsoBiotec'), ('Rosetta', 'Azalea'), ('Praktika', 'Vyriad'), ('Chegg', 'Exuma'), ('Byju’s', 'Carisma'), ("Byju's", 'Carisma'),
     ('Unacademy', 'Myeloid'), ('2U', 'Abintus'), ('Pearson', 'Novartis'), ('MasterClass', 'Moderna'), ('Zoom', 'Lonza'),
     ('OpenAI', 'BioNTech'), ('ChatGPT Edu', 'Kymriah'), ('ChatGPT', 'Kymriah'), ('Microsoft', 'AbbVie'), ('Google Classroom', 'Yescarta'),
-    ('Google', 'Gilead'), ('Preply', 'Ensoma'), ('SpeakX', 'Genocury'), ('Speak', 'Orna'), ('LearnVector', 'Sail Biomedicines'), ('Yoodli', 'Create Medicines'),
+    ('Google', 'Gilead'), ('Preply', 'Ensoma'), ('SpeakX', 'Genocury'), ('Speak', 'Orna'), ('LearnVector', 'Sail Bio'), ('Yoodli', 'Create Medicines'),
     ('Emversity', 'Immorna'), ('MagicSchool', 'Tessera'), ('Multiverse', 'MagicRNA'), ('PhysicsWallah', 'IASO Bio'), ('Gizmo', 'MVRIX'),
     ('Eruditus', 'Legend Biotech'), ('Emeritus', 'Legend Biotech'), ('Nerdy', 'Cellectis'), ('Instructure', 'Kite'), ('Canvas', 'Kite'),
     ('PowerSchool', 'Bristol Myers Squibb'), ('Blackboard', 'Juno'), ('Quizlet', 'ThunderBio'), ('GoStudent', 'Starna'),
@@ -59,6 +59,7 @@ def swap(t):
         if a.upper() != a and len(a) > 3: t = re.sub(r'(?<![\w-])' + re.escape(a.upper()).replace('\\ ', r'\s+') + r'(?![\w])', b.upper(), t)
     for a, b in WORDS:
         t = re.sub(r'(?<![\w-])(' + re.escape(a) + r')(?![\w])', lambda m: _case(m.group(1), b), t, flags=re.I)
+    t = re.sub(r'What has already been fixed\s+in in vivo CAR-T, and what is left to solve\?', 'What has already been fixed,\nand what is left to solve?', t)
     t = re.sub(r'\bin in vivo CAR-T market\b', 'in the in vivo CAR-T market', t)
     t = re.sub(r'\bin in vivo CAR-T\b', 'in the in vivo CAR-T space', t)
     t = re.sub(r'(^|[.!?]\s+)in vivo', lambda m: m.group(1) + 'In vivo', t)      # sentence start only
@@ -108,12 +109,12 @@ def biotech(E):
         pipe['t'][kl] = l; pipe['t'][kv] = v; pipe['t'][kd] = d
     pipe['note'] = 'DEMO DATA. We will list every in vivo CAR-T program with a public trial, from trial registries and company news.'
     deals = copy.deepcopy(E[156 - 1]); deals['id'] = 'iv_deals'; deals['title'] = 'Which pharma deals\nshaped the market?'
-    D = [('2025 (OCT)', 'Bristol Myers Squibb bought Orbital Therapeutics for $1.5B to add circular RNA in vivo CAR-T', 'Company news'),
-         ('2025 (AUG)', 'Gilead and Kite bought Interius for $350M in cash to own its in vivo platform', 'Company news'),
-         ('2025 (JUN)', 'AbbVie bought Capstan for up to $2.1B, its first big bet on in vivo CAR-T', 'Company news'),
-         ('2025 (MAR)', 'AstraZeneca bought EsoBiotec for up to $1B to add lentiviral in vivo cell therapy', 'Company news'),
-         ('2025 (JAN)', 'A big pharma signed a demo licensing deal worth $40M upfront for an mRNA CAR', 'Demo source'),
-         ('2024 (DEC)', 'A demo biotech licensed its LNP to a top-10 pharma for $25M upfront', 'Demo source')]
+    D = [('2025 (OCT)', 'Bristol Myers Squibb bought Orbital Therapeutics for $1.5B to add its circular RNA in vivo CAR-T', 'Company news'),
+         ('2025 (AUG)', 'Gilead and Kite bought Interius for $350M in cash to own its lentiviral in vivo CAR-T platform', 'Company news'),
+         ('2025 (JUN)', 'AbbVie bought Capstan for up to $2.1B, its first big bet on mRNA in vivo CAR-T for autoimmunity', 'Company news'),
+         ('2025 (MAR)', 'AstraZeneca bought EsoBiotec for up to $1B to add its lentiviral in vivo cell therapy platform', 'Company news'),
+         ('2025 (JAN)', 'A top-10 pharma licensed a demo mRNA CAR program for $40M upfront and up to $600M in milestones', 'Demo source'),
+         ('2024 (DEC)', 'A demo biotech licensed its T-cell targeted LNP to a big pharma for $25M upfront and royalties', 'Demo source')]
     for (kd, kt), (d, t, src) in zip([(13, 14), (15, 16), (17, 18), (19, 20), (21, 22), (23, 24)], D):
         deals['t'][kd] = d; deals['t'][kt] = t + ' {1|' + src + '}'
     deals.pop('page', None); deals.pop('subtitle', None)
@@ -185,7 +186,7 @@ def main():
             s['t'][ks[0]] = name
             if s['t'][ks[1]].strip().upper() != 'PAIN POINTS': s['t'][ks[1]] = sub
     D = {k: v for k, v in E.items() if k != 'slides'}
-    D.update(market='In Vivo CAR-T', label='In vivo CAR-T market', slug='invivo-demo', keep_together=['in vivo CAR-T', 'In vivo CAR-T', 'CAR-T'])
+    D.update(market='In Vivo CAR-T', label='In vivo CAR-T market', slug='invivo-demo', keep_together=['in vivo CAR-T', 'CAR-T'])
     out[0]['big'] = 'In vivo\nCAR-T'
     D['slides'] = out
     OUT.mkdir(parents=True, exist_ok=True)

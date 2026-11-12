@@ -282,3 +282,11 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - The curve always stops at its last peak: the fall at the end (weeks Google has not finished counting) is never shown. The goal is to show a rising trend.
 - CSVs live with the deck (`decks/<slug>/media/trends/<term>.csv`), worldwide, 5 years, weekly. The term shown is the one in the CSV header.
 - Precision is not the goal (Pierre, 12 Nov 2026): the slide shows the movement of the real curve. The August 2025 correction is a fixed /2 (no control terms needed), and a light 3-week median smooths one-week spikes and dips.
+
+## Grids and timelines (Pierre, 12 Nov 2026)
+- Labels of one grid (short upper-case headers, company names): all on one line or all on two lines, never mixed. If every label has 2+ words, all go on 2 lines; otherwise the group shrinks (down to 80%) until all fit on one line (`rawfit.js`). Checked by LABEL_LINES_MIXED (build).
+- Card grids with an icon on top ("Which drivers compound…", "What slows adoption…"): every card text on exactly 4 lines, so the icons line up. Set with data-lines="4" in the template; a text that does not fit shrinks slightly (down to 85%). Checked by LINES_OVER.
+- Timelines of rounds or deals ("Which rounds were announced last?", pharma deals): every entry on 2 lines, of about the same length (data-lines="2").
+- "Who are the current market leaders?": the star sits on the top-left corner of its card.
+- The product-page tech table ("Which players can already do the most today?") is centered on the page whatever the number of columns.
+- "And over the years?" follows the template of the slide before it (pp_raises, with logos), with a 2-line title.
