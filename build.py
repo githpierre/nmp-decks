@@ -53,8 +53,9 @@ AUDIT_JS = r"""
       if (cs.display === 'none' || !el.textContent.trim() && el.children.length === 0 && !el.matches('img,.bar,.fill,.dot')) return;
       const r = el.getBoundingClientRect();
       if (r.width === 0 || r.height === 0) return;
-      if (r.left < R.left - 1 || r.right > R.right + 1 || r.top < R.top - 1 || r.bottom > R.bottom + 1)
-        out.push([n, 'OUTSIDE', el.className || el.tagName, el.textContent.trim().slice(0, 50)]);
+      /* a connector drawn past the slide edge continues on the next page (timelines, layers): by design, clipped by the slide. Text and images outside are errors. */
+      if ((r.left < R.left - 1 || r.right > R.right + 1 || r.top < R.top - 1 || r.bottom > R.bottom + 1) && !(el instanceof SVGElement && !el.textContent.trim()))
+        out.push([n, 'OUTSIDE', typeof el.className === 'string' && el.className || el.tagName, el.textContent.trim().slice(0, 50)]);
       if ((el.scrollWidth > el.clientWidth + 2 && cs.overflow !== 'visible') || el.scrollHeight > el.clientHeight + 2 && cs.overflow === 'hidden')
         if (!el.classList.contains('slide')) out.push([n, 'OVERFLOW', el.className || el.tagName, el.textContent.trim().slice(0, 50)]);
     });

@@ -382,3 +382,7 @@ b,strong{font-weight:700}
 .srcl{position:absolute;left:66px;right:66px;top:62px;bottom:96px;display:flex;gap:40px}.srcl .c{flex:1;display:flex;flex-direction:column;gap:7.2px}
 .srcl p{margin:0;font-size:7.4pt;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.srcl a{color:#E5EAEC;text-decoration:underline;text-decoration-color:#5E7E8E}
 .srcl span{display:block;font-size:6.6pt;color:#789096}
+
+/* contrast, variants shown to Pierre on 12 Nov 2026 (8 rows): B more air between rows, C bigger text and boxes */
+.slide[data-var="B"] .contrast{row-gap:15px}
+.slide[data-var="C"] .contrast{row-gap:11px}.slide[data-var="C"] .contrast .a,.slide[data-var="C"] .contrast .b{font-size:8pt;padding:8.5px 8px}

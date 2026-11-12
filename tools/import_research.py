@@ -428,7 +428,7 @@ def main():
         S = [dbf(x) for x in S]
     for x in S:                                  # contrast slides: 8 rows (Pierre, 12 Nov 2026: 10 rows took too much room). `rows_drop: [i, j]` in edits.yaml removes the two weakest
         if x.get('type') == 'contrast':
-            if x.get('rows_drop'): x['rows'] = [r for i, r in enumerate(x['rows']) if i not in x.pop('rows_drop')]
+            drop = x.pop('rows_drop', None) or []; x['rows'] = [r for i, r in enumerate(x.get('rows') or []) if i not in drop]
             if len(x.get('rows') or []) != 8: print('CONTRAST ROWS', x['id'], len(x.get('rows') or []), '(8 expected)')
     for x in S:                                  # contrast slides: the logo of the company on the right, found like every other logo (12 Nov 2026)
         if x.get('type') == 'contrast' and x.get('right'):

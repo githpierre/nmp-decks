@@ -1,0 +1,275 @@
+market: Humanoid Robotics
+label: Humanoid robotics
+quarter: Q4 2026
+year: 2026
+slug: humanoid-robotics
+chapters:
+- 'What is this
+
+  market about?'
+- 'Why this
+
+  market now?'
+- 'How big could this
+
+  market get?'
+- 'What are the pain
+
+  points, and for whom?'
+- 'What is the latest tech
+
+  and infrastructure?'
+- 'How is value created
+
+  and monetized?'
+- 'What could slow this
+
+  market down?'
+- 'What are the growth
+
+  drivers in this market?'
+- 'What are investors
+
+  betting on now?'
+- 'Who are the top startups
+
+  and companies?'
+- 'What could kill
+
+  a startup in this market?'
+- 'How do you win
+
+  in this market?'
+scripts:
+- decisions.js
+keep_together:
+- humanoid robotics
+- humanoid robots
+slides:
+- id: ed062-s4_A
+  type: x/divider_3
+  src: 62
+  t:
+    3: RETAIL AND SERVICES
+    5: Humanoids for greeting and shopping help, where interaction quality, public safety and easy operation matter
+    6: PAIN POINTS
+  var: A
+- id: ed106-s1_A
+  type: x/divider_3
+  src: 106
+  t:
+    3: BIPEDAL GENERAL-PURPOSE HUMANOIDS
+    5: Two-legged robots built for varied jobs in human-designed workplaces
+    6: VALUE CREATION
+  var: A
+- id: ed106-s3_A
+  type: x/divider_3
+  src: 106
+  t:
+    3: LOW-COST AND OPEN DEVELOPER PLATFORMS
+    5: Affordable programmable humanoids for research, education and AI development
+    6: VALUE CREATION
+  var: A
+- id: ed062-s4_B
+  type: x/divider_3
+  src: 62
+  t:
+    3: RETAIL AND SERVICES
+    5: Humanoids for greeting and shopping help, where interaction quality, public safety and easy operation matter
+    6: PAIN POINTS
+  var: B
+- id: ed106-s1_B
+  type: x/divider_3
+  src: 106
+  t:
+    3: BIPEDAL GENERAL-PURPOSE HUMANOIDS
+    5: Two-legged robots built for varied jobs in human-designed workplaces
+    6: VALUE CREATION
+  var: B
+- id: ed106-s3_B
+  type: x/divider_3
+  src: 106
+  t:
+    3: LOW-COST AND OPEN DEVELOPER PLATFORMS
+    5: Affordable programmable humanoids for research, education and AI development
+    6: VALUE CREATION
+  var: B
+- id: ed062-s4_C
+  type: x/divider_3
+  src: 62
+  t:
+    3: RETAIL AND SERVICES
+    5: Humanoids for greeting and shopping help, where interaction quality, public safety and easy operation matter
+    6: PAIN POINTS
+  var: C
+- id: ed106-s1_C
+  type: x/divider_3
+  src: 106
+  t:
+    3: BIPEDAL GENERAL-PURPOSE HUMANOIDS
+    5: Two-legged robots built for varied jobs in human-designed workplaces
+    6: VALUE CREATION
+  var: C
+- id: ed106-s3_C
+  type: x/divider_3
+  src: 106
+  t:
+    3: LOW-COST AND OPEN DEVELOPER PLATFORMS
+    5: Affordable programmable humanoids for research, education and AI development
+    6: VALUE CREATION
+  var: C
+- id: ed210_A
+  left: A REGULAR HUMANOID STARTUP
+  logo: figure
+  note:
+  - We used Figure's BMW deployment, Helix 02, manufacturing and financing disclosures
+  - We treated “a regular humanoid startup” as a fictional baseline, shown here only for the contrast
+  right: FIGURE
+  rows:
+  - - They stay in lab demos while customers keep waiting
+    - Figure 02 worked daily on an active BMW assembly line
+  - - They show short tasks with resets between each step
+    - Helix 02 ran a four-minute kitchen task with no reset
+  - - They collect little evidence from real production lines
+    - Figure 02 logged more than 1,250 working hours at BMW
+  - - They build their prototypes by hand, one unit at a time
+    - BotQ took Figure 03 output from one a day to one an hour
+  - - They wait years before manufacturing at volume
+    - Figure delivered over 350 Figure 03 robots by April 2026
+  - - They depend on one narrow, repeated factory movement
+    - Figure 03 moved from sheet loading to parts sequencing
+  - - They train only on carefully staged robot lab data
+    - Figure added human video and multimodal data collection
+  - - They stay valued like an early robotics experiment
+    - Figure raised over $1 billion at a $39 billion valuation
+  section: Startup strategies
+  src: 210
+  title: How Figure turned factory proof into a $39B valuation
+  type: contrast
+  logo_src: ../../assets/logos/lib/figure-ai.png
+  var: A
+- id: ed210_B
+  left: A REGULAR HUMANOID STARTUP
+  logo: figure
+  note:
+  - We used Figure's BMW deployment, Helix 02, manufacturing and financing disclosures
+  - We treated “a regular humanoid startup” as a fictional baseline, shown here only for the contrast
+  right: FIGURE
+  rows:
+  - - They stay in lab demos while customers keep waiting
+    - Figure 02 worked daily on an active BMW assembly line
+  - - They show short tasks with resets between each step
+    - Helix 02 ran a four-minute kitchen task with no reset
+  - - They collect little evidence from real production lines
+    - Figure 02 logged more than 1,250 working hours at BMW
+  - - They build their prototypes by hand, one unit at a time
+    - BotQ took Figure 03 output from one a day to one an hour
+  - - They wait years before manufacturing at volume
+    - Figure delivered over 350 Figure 03 robots by April 2026
+  - - They depend on one narrow, repeated factory movement
+    - Figure 03 moved from sheet loading to parts sequencing
+  - - They train only on carefully staged robot lab data
+    - Figure added human video and multimodal data collection
+  - - They stay valued like an early robotics experiment
+    - Figure raised over $1 billion at a $39 billion valuation
+  section: Startup strategies
+  src: 210
+  title: How Figure turned factory proof into a $39B valuation
+  type: contrast
+  logo_src: ../../assets/logos/lib/figure-ai.png
+  var: B
+- id: ed210_C
+  left: A REGULAR HUMANOID STARTUP
+  logo: figure
+  note:
+  - We used Figure's BMW deployment, Helix 02, manufacturing and financing disclosures
+  - We treated “a regular humanoid startup” as a fictional baseline, shown here only for the contrast
+  right: FIGURE
+  rows:
+  - - They stay in lab demos while customers keep waiting
+    - Figure 02 worked daily on an active BMW assembly line
+  - - They show short tasks with resets between each step
+    - Helix 02 ran a four-minute kitchen task with no reset
+  - - They collect little evidence from real production lines
+    - Figure 02 logged more than 1,250 working hours at BMW
+  - - They build their prototypes by hand, one unit at a time
+    - BotQ took Figure 03 output from one a day to one an hour
+  - - They wait years before manufacturing at volume
+    - Figure delivered over 350 Figure 03 robots by April 2026
+  - - They depend on one narrow, repeated factory movement
+    - Figure 03 moved from sheet loading to parts sequencing
+  - - They train only on carefully staged robot lab data
+    - Figure added human video and multimodal data collection
+  - - They stay valued like an early robotics experiment
+    - Figure raised over $1 billion at a $39 billion valuation
+  section: Startup strategies
+  src: 210
+  title: How Figure turned factory proof into a $39B valuation
+  type: contrast
+  logo_src: ../../assets/logos/lib/figure-ai.png
+  var: C
+- id: xh_unitree_A
+  type: x/sig_key_trend
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Unitree should sell about 12,000 humanoids
+
+    in 2026, more than double its 2025 sales'
+  t:
+    9: 5,215
+    10: '2025'
+    12: 12,000
+    13: 2026 (EST.)
+    15: ×2.3
+    16: WHY IT IS HOT
+    17: 'Unitree shipped about 5,900 humanoids in the first half of 2026 alone, more than in all of 2025. At this pace it should sell about 12,000 this year.
+
+      Its revenue grew 56% in the first nine months of 2026, and Morgan Stanley expects 14,000 units for the year.'
+  vbars:
+  - 5215
+  - 12000
+  note: &id002
+  - We doubled the 5,900 humanoids that Smart Analytics Global estimates Unitree shipped in the first half of 2026
+  - We took the 5,215 sold in 2025 from its prospectus, and Morgan Stanley forecasts 14,000 units for 2026
+  fresh: &id001
+    period: year
+    end: 2026-12
+- id: xh_unitree_B
+  type: fundbars
+  unit: n
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Unitree should sell about 12,000 humanoids
+
+    in 2026, more than double its 2025 sales'
+  fresh: *id001
+  bars:
+  - x: '2024'
+    v: 412
+    ann: 412 humanoids sold, its first full year
+  - x: '2025'
+    v: 5215
+    ann: 5,215 sold, audited in its IPO prospectus
+  - x: 2026 (EST.)
+    v: 12000
+    lab: ≈12,000
+    ann: 5,900 shipped in the first half alone
+  note: *id002
+- id: xh_unitree_C
+  type: sx_stat_strip
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Unitree should sell about 12,000 humanoids
+
+    in 2026, more than double its 2025 sales'
+  fresh: *id001
+  headline: Unitree’s humanoid sales, from its filings and from shipment trackers
+  stats:
+  - v: 5,215
+    l: Humanoids sold in all of 2025, from its IPO prospectus
+  - v: 5,900
+    l: Shipped in the first half of 2026 alone, more than in all of 2025
+  - v: ≈12,000
+    l: What it should sell in 2026 at this pace, 2.3 times its 2025 sales
+  story: 'This is a sign of a hot market: the best-selling maker is still doubling. Its revenue grew 56% in the first nine months of 2026, and Morgan Stanley expects 14,000 units.'
+  note: *id002

@@ -1,6 +1,6 @@
 # Research import report
 
-157 answers parsed, 0 YAML errors, 25 slides with remarks.
+157 answers parsed, 0 YAML errors, 30 slides with remarks.
 
 - **ed010**: length 16: 106 vs 79; length 19: 108 vs 86
 - **ed011**: length 8: 18 vs 25
@@ -27,3 +27,8 @@
 - **ed182**: length 20: 110 vs 80
 - **ed186**: length 7: 89 vs 68; length 9: 92 vs 69; length 11: 88 vs 60
 - **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3
+- **ed210**: rows: 10 items vs 8
+- **ed211**: rows: 10 items vs 8
+- **ed212**: rows: 10 items vs 8
+- **ed213**: rows: 10 items vs 8
+- **ed214**: rows: 10 items vs 8

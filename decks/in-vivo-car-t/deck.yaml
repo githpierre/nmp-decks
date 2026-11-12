@@ -669,6 +669,9 @@ slides:
   note:
   - Data comes from Kelonia’s ASCO 2026 interim results (cutoff April 21, 2026), reported by Fierce Biotech and pharmaphorum
   pill: SIGNAL
+  fresh:
+    period: total
+    end: 2026-04
 - id: xs_1b
   type: x/big_buyers_now_pay_up
   section: Market opportunity
@@ -736,6 +739,9 @@ slides:
   note:
   - Data comes from the Johnson & Johnson press release of July 2026
   - and from its quarterly report for the third quarter of the year 2026
+  fresh:
+    period: total
+    end: 2026-07
 - section: Market opportunity
   title: 'Five rounds of $100M or more made up
 
@@ -918,6 +924,9 @@ slides:
   type: sx_round_timeline
   legend: false
   pill: SIGNAL
+  fresh:
+    period: year
+    end: 2026-12
 - id: xs_n3
   type: sx_faceoff
   section: Market opportunity
@@ -943,6 +952,9 @@ slides:
   - We looked at the investors of every equity round raised by in vivo CAR-T startups
   - in our own funding database, and counted the rounds where a large drugmaker invested
   pill: SIGNAL
+  fresh:
+    period: year
+    end: 2026-12
 - id: ed039p
   type: pp_trends
   section: Market opportunity
@@ -2176,7 +2188,7 @@ slides:
   type: x/when_realistically_expect_solve_them
   section: Tech and infra
   title: When can we realistically expect to solve them?
-  note: We base these estimates on the field's current Phase 1 status and known safety follow-up needs; they are directional rather than consensus forecasts.
+  note: We base these estimates on the field's current Phase 1 status and known safety follow-up needs. They are directional rather than consensus forecasts.
   src: 96
   t:
     5: Human biodistribution can refine targeting, but broad specificity proof needs trials
@@ -2286,7 +2298,7 @@ slides:
   type: x/likely_each_risk
   section: Tech and infra
   title: Where are in vivo CAR-T programs in the clinic?
-  note: We list eight representative Phase 1 programs because the slide has eight fixed rows; additional registered programs exist outside this layout.
+  note: We list eight representative Phase 1 programs because the slide has eight fixed rows. Additional registered programs exist outside this layout.
   src: 143
   t:
     0: CD19 CAR mRNA in targeted LNPs for rheumatoid arthritis and lupus
@@ -4426,7 +4438,7 @@ slides:
     15: SCALE-UP
     16: Orna and Orbital lead circular-RNA payload design, both acquired after building in vivo CAR-T programs around programmable RNA
     17: Kelonia and Umoja lead targeted lentiviral delivery, while MagicRNA and Capstan advanced targeted LNP delivery into human testing
-    18: Kelonia targets T cells with engineered lentiviral particles; MagicRNA uses engineered cell-targeted LNPs to deliver mRNA
+    18: Kelonia targets T cells with engineered lentiviral particles. MagicRNA uses engineered cell-targeted LNPs to deliver mRNA
     19: Umoja, Kelonia, MagicRNA, and CREATE have all moved in vivo immune-cell programs into or toward active human studies
     20: AbbVie, Lilly, BMS, Gilead and AstraZeneca now own or back the leading platforms
 - id: ed183
@@ -4865,20 +4877,17 @@ slides:
     - They opened a first-in-human trial in multiple myeloma
   - - They rely on early markers without deep responses
     - Their first four patients all reached MRD-negative
-  - - They need very high doses to prove the platform can work
-    - A low-dose fourth patient was MRD-negative at one month
   - - They make CAR cells that fade after the first weeks
     - They found memory CAR-T cells three months later
   - - They build around one isolated asset with little platform value
     - Their iGPS platform targets T cells with a lentivirus
-  - - They stay independent after early clinical proof of concept
-    - Lilly agreed to acquire Kelonia after the first clinical data
   - - They sell at a modest price before the platform is validated
     - The Lilly deal carries potential payments of up to $7 billion
   section: Startup strategies
   src: 210
   title: How Kelonia turned one infusion into a $7B deal
   type: contrast
+  logo_src: ../../assets/logos/kelonia.png
 - id: ed211
   left: A REGULAR CAR-T STARTUP
   logo: capstan
@@ -4891,16 +4900,12 @@ slides:
     - They deliver CAR mRNA straight to CD8 T cells in the body
   - - They use viral integration to keep the CAR gene permanently
     - They use non-integrating mRNA for transient CAR expression
-  - - They target immune cells with a broad untargeted formulation
-    - They use antibody-guided particles aimed at CD8
   - - They focus first on cancer where CAR-T already has approvals
     - They made autoimmunity the lead use of CPTX2309
   - - They require chemotherapy to deplete immune cells first
     - They designed the program to avoid chemo before dosing
   - - They rely only on mouse efficacy before entering development
     - They showed deep B-cell depletion in non-human primates
-  - - They test only healthy donor cells before moving to patients
-    - They engineered T cells from autoimmune patients
   - - They keep the lead program in preclinical testing for years
     - They moved CPTX2309 into a phase 1 trial in 2025
   - - They build a single drug without a reusable delivery engine
@@ -4911,6 +4916,7 @@ slides:
   src: 211
   title: How Capstan made CAR-T into an RNA medicine
   type: contrast
+  logo_src: ../../assets/logos/capstan.png
 - id: ed212
   left: A REGULAR CAR-T STARTUP
   logo: interius
@@ -4929,10 +4935,6 @@ slides:
     - They designed INT2104 to skip conditioning chemo
   - - They need repeated administrations to build enough CAR cells
     - Their platform is built around one intravenous dose
-  - - They chase an unproven target with no track record
-    - INT2104 targets the CD20 marker on cancerous B cells
-  - - They wait for US expansion before testing in other regions
-    - Their Phase 1 trial expanded from Australia into Germany
   - - They remain preclinical while refining the vector platform
     - They dosed the first INVISE Phase 1 participant in 2024
   - - They use a system whose CAR effect fades quickly
@@ -4943,6 +4945,7 @@ slides:
   src: 212
   title: How Interius took in vivo CAR into human testing
   type: contrast
+  logo_src: ../../assets/logos/interius.png
 - id: ed213
   left: A REGULAR CAR-T STARTUP
   logo: esobiotec
@@ -4953,8 +4956,6 @@ slides:
   rows:
   - - They manufacture patient cells for weeks before treatment
     - They give the therapy as one IV infusion in minutes
-  - - They use leukapheresis before any CAR-T treatment can begin
-    - ESO-T01 needed no cell collection or factory step
   - - They use chemo to make room for the infused cells
     - ESO-T01 was given with no conditioning chemo first
   - - They wait for late trials before showing human feasibility
@@ -4967,14 +4968,13 @@ slides:
     - ESO-T01 used a single IV dose in the published Phase 1 study
   - - They build a viral vector without shielding it from immunity
     - ESO-T01 uses an immune-shielded lentiviral vector
-  - - They stay independent after first-in-human validation
-    - AstraZeneca closed its EsoBiotec deal in May 2025
   - - They exit before attracting a strategic premium from pharma
     - The AstraZeneca deal was worth up to $1 billion in all
   section: Startup strategies
   src: 213
   title: How EsoBiotec proved in vivo CAR-T could work in people
   type: contrast
+  logo_src: ../../assets/logos/esobiotec.png
 - id: ed214
   left: A REGULAR CAR-T STARTUP
   logo: orbital
@@ -4995,10 +4995,6 @@ slides:
     - They cleared B cells in blood, spleen and lymph nodes
   - - They treat the lead drug as separate from the core platform
     - They built one platform for circular and linear RNA
-  - - They hand-design RNA with no optimization engine
-    - Their platform pairs RNA engineering with AI design
-  - - They stay independent through all of their pre-trial work
-    - BMS agreed to acquire Orbital while OTX-201 was preclinical
   - - They sell only the lead asset and leave the platform behind
     - BMS agreed to acquire OTX-201 plus Orbital's RNA platform
   - - They need clinical revenue before creating strategic value
@@ -5007,6 +5003,7 @@ slides:
   src: 214
   title: How Orbital sold a preclinical in vivo CAR-T platform
   type: contrast
+  logo_src: ../../assets/logos/orbital.png
 - id: ed215
   type: x/divider_9
   src: 215

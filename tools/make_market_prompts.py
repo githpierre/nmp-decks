@@ -75,7 +75,7 @@ sources:
     quote: <the exact sentence that supports it, under 25 words>
 ```
 
-Before delivering, check yourself, slide by slide: same number of items as the model, every number has a source with a quote, every text within its maximum length, no {ref} words left ({spec['model_words']}), nothing outside the market definition, the same category names everywhere. Fix what fails, then deliver the file. Do not ask questions; take the most reasonable reading and say it in a `comment:` line when needed.
+Before delivering, check yourself, slide by slide: same number of items as the model, every number has a source with a quote, every text between 80% and 100% of its length, no semicolon (two sentences instead), contrast slides ("How X…") with exactly 8 rows, no {ref} words left ({spec['model_words']}), nothing outside the market definition, the same category names everywhere. Fix what fails, then deliver the file. Do not ask questions; take the most reasonable reading and say it in a `comment:` line when needed.
 
 CHAPTER: {chapter}
 
@@ -85,7 +85,7 @@ CHAPTER: {chapter}
 def block(sid, model, src, extra=''):
     e = base.example(model); L = base.ylen(e)
     t = f"### {sid}\n{src} model (structure only):\n```yaml\n{yaml.dump(e, allow_unicode=True, sort_keys=False, width=200)}```\n"
-    if L: t += 'Maximum length in characters per key: ' + ', '.join(f'{k}: {v}' for k, v in L.items()) + '\n'
+    if L: t += 'Length in characters per key, between 80% and 100% of: ' + ', '.join(f'{k}: {v}' for k, v in L.items()) + ' (a text much shorter leaves its box half empty: add one concrete fact rather than filler words)\n'
     if extra: t += extra.strip() + '\n'
     return t + '\n'
 
@@ -167,6 +167,11 @@ YOUR TASK
 2. Keep only the candidates that pass the "keep only if" condition of their format. Never force a format: no candidate is better than a weak one. A format can give 0, 1 or 2 candidates.
 3. For each kept candidate, research it fully in the same pass (all the data points the chart needs, each with its source), so that we can build the slide without any other research.
 4. Score each candidate from 1 to 5 on: surprise (would an informed investor learn something?), importance for the market, clarity in 3 seconds, durability (still true in 6 months). Rank them by total score. Aim for 12 to 20 candidates; we keep 6 to 15. Market opportunity needs 6 to 8 of them that show why the market is hot right now.
+5. Freshness of the "hot right now" candidates (today is {spec['date']}). A figure that shows momentum must be recent: a monthly figure at most 6 months old, a quarterly figure at most 3 quarters old, a half-year figure at most 12 months old, a yearly figure for the current year only (last year is accepted until April).
+   Bad: "Maker X sold 5,215 robots in 2025" written in November 2026 (a year old, the reader wonders what happened since).
+   Good: "Maker X sold 921 robots in the first half of 2026, against 45 a year earlier" (latest published period, same period a year before).
+   Good: "Maker X should sell about 12,000 robots in 2026, against 5,215 in 2025" with the method in the note (first-half shipments doubled, analyst forecast as a cross-check). When only last year's figure exists as a total, look for the latest quarterly or half-year filing and derive the current-year estimate yourself; say "should" and give the arithmetic.
+   Add to each candidate `fresh: {{period: month|quarter|half|year|total, end: YYYY-MM}}` (total = a cumulative proof at a date, at most 12 months old).
 
 THE FORMATS
 """ + '\n'.join(fmts) + f"""

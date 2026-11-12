@@ -369,9 +369,16 @@ window.F = (() => {
     try { pillCentre(sl); } catch (e) { console.error('pillCentre', sl.dataset.n, e); } };   // last: on the final geometry
   // segment dividers: ONE title size for the whole deck, the largest at which the longest name stays clear of the side arrows
   // (Pierre, 12 Nov 2026: the arrows ran over « BIPEDAL GENERAL-PURPOSE HUMANOIDS »). CHECK TEXT_ON_LINE
-  const deck = () => { const D = [...document.querySelectorAll('.slide[data-tpl="divider_3"]')].map(sl => ({sl, el: sl.querySelector('.rx-t[data-k="3"]')})).filter(o => o.el && o.el.textContent.trim());
-    if (!D.length) return; let k = 1; D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.whiteSpace = 'nowrap'; }); const i = ink(o.el, o.sl); if (i) k = Math.min(k, 640 / i.w); });
-    if (k < 1) D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = (parseFloat(getComputedStyle(x).fontSize) * k) + 'px'; }); mark('dividerSize', o.sl); }); };
+  const deck = () => { const ALL = [...document.querySelectorAll('.slide[data-tpl="divider_3"]')].map(sl => ({sl, el: sl.querySelector('.rx-t[data-k="3"]'), v: sl.dataset.var || 'A'})).filter(o => o.el && o.el.textContent.trim());
+    ['A', 'B', 'C'].forEach(v => { const D = ALL.filter(o => o.v === v); if (!D.length) return;
+      const side = sl => [...sl.querySelectorAll('.raw > svg.rx-s')].filter(x => { const r = x.getBoundingClientRect(); return r.width > r.height; });
+      if (v === 'C') D.forEach(o => side(o.sl).forEach(x => { x.style.display = 'none'; }));          /* variant C: no side arrows, so a larger size fits */
+      const MAXW = v === 'C' ? 820 : 640;
+      if (v === 'B') { D.forEach(o => { const i = ink(o.el, o.sl); if (!i || i.w <= MAXW) { o.el.querySelectorAll('span').forEach(x => { x.style.whiteSpace = 'nowrap'; }); return; }   /* variant B: full size, long names on two balanced lines */
+          const p = o.el.querySelector('p'); p.style.maxWidth = '600px'; p.style.margin = '0 auto'; p.style.textWrap = 'balance'; p.style.lineHeight = '1.2'; o.el.style.overflow = 'visible';
+          const k6 = o.sl.querySelector('.rx-t[data-k="6"]'), k5 = o.sl.querySelector('.rx-t[data-k="5"]'); if (k6) mv(k6, 0, -18); if (k5) mv(k5, 0, 18); }); return; }
+      let k = 1; D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.whiteSpace = 'nowrap'; }); const i = ink(o.el, o.sl); if (i) k = Math.min(k, MAXW / i.w); });
+      if (k < 1) D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = (parseFloat(getComputedStyle(x).fontSize) * k) + 'px'; }); mark('dividerSize', o.sl); }); }); };
   return {deck, all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
 
