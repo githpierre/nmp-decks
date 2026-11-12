@@ -582,6 +582,27 @@ ed211:
     They made autoimmune disease the lead use case for CPTX2309: They made autoimmunity the lead use of CPTX2309
     They moved CPTX2309 into Phase 1 in 2025: They moved CPTX2309 into a phase 1 trial in 2025
     They use antibody-targeted lipid nanoparticles aimed at CD8 cells: They use antibody-guided particles aimed at CD8
+  rows:
+  - - They manufacture CAR-T cells outside the patient's body
+    - They deliver CAR mRNA straight to CD8 T cells in the body
+  - - They use viral integration to keep the CAR gene permanently
+    - They use non-integrating mRNA for transient CAR expression
+  - - They target immune cells with a broad untargeted formulation
+    - They use antibody-guided particles aimed at CD8
+  - - They focus first on cancer where CAR-T already has approvals
+    - They made autoimmunity the lead use of CPTX2309
+  - - They require chemotherapy to deplete immune cells first
+    - They designed the program to avoid chemo before dosing
+  - - They rely only on mouse efficacy before entering development
+    - They showed deep B-cell depletion in non-human primates
+  - - They test only healthy donor cells before moving to patients
+    - They engineered T cells from autoimmune patients
+  - - They keep the lead program in preclinical testing for years
+    - They moved CPTX2309 into a phase 1 trial in 2025
+  - - They build a single drug without a reusable delivery engine
+    - They built the CellSeeker targeted LNP-mRNA platform
+  - - They stay private while financing each clinical step separately
+    - AbbVie acquired Capstan for up to $2.1 billion in cash
 ed212:
   __replace__:
     INT2104 targets CD20-positive malignant B cells: INT2104 targets the CD20 marker on cancerous B cells
@@ -596,6 +617,27 @@ ed212:
   note:
   - We used the clinical releases of Interius, its peer-reviewed platform paper and Gilead's acquisition release
   - We treated “a regular CAR-T startup” as a fictional baseline, shown here only to make the contrast clear
+  rows:
+  - - They collect and engineer T cells in an external factory
+    - They deliver a CAR gene to immune cells in the body
+  - - They engineer only T cells and ignore other immune effectors
+    - INT2104 is designed to make both CAR-T and CAR-NK cells
+  - - They use a broad viral vector without an immune-cell address
+    - They target CD7 T and NK cells with an engineered fusogen
+  - - They need conditioning chemo before the CAR-T infusion
+    - They designed INT2104 to skip conditioning chemo
+  - - They need repeated administrations to build enough CAR cells
+    - Their platform is built around one intravenous dose
+  - - They chase an unproven target with no track record
+    - INT2104 targets the CD20 marker on cancerous B cells
+  - - They wait for US expansion before testing in other regions
+    - Their Phase 1 trial expanded from Australia into Germany
+  - - They remain preclinical while refining the vector platform
+    - They dosed the first INVISE Phase 1 participant in 2024
+  - - They use a system whose CAR effect fades quickly
+    - Their lentivirus writes the CAR gene into the genome
+  - - They stay independent after entering first-in-human testing
+    - Kite agreed to acquire Interius for $350 million in 2025
 ed213:
   __replace__:
     AstraZeneca completed its acquisition of EsoBiotec in May 2025: AstraZeneca closed its EsoBiotec deal in May 2025
@@ -824,5 +866,3 @@ ed039p:
   expl: Interest in CAR-T grew slowly for years as approved cell therapies spread. Then the first in-body data and big pharma buyouts of 2025 and 2026 brought a new wave of attention from patients, doctors and investors.
 ed006:
   icon_tl: 🧬
-iv_safety:
-  10: "GENE CONTROL\n\n\n    Precise cell targeting is the promise, but regulators still need biodistribution data and proof that responses last"

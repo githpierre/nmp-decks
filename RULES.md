@@ -352,3 +352,7 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 
 ## Audit de fraîcheur (à mettre en place à la prochaine mise à jour d'un deck)
 - Toute mention relative au temps (« 2026 so far », « this year », « so far », « today ») est revue à chaque mise à jour : on recalcule le chiffre ou on réécrit la mention, pour qu'un lecteur de l'année suivante ne lise rien de faux.
+
+## Chiffres tirés de notre base (12/11/2026)
+- Une slide qui compte des tours (par pays, par stade, par technologie, « X of N ») se recalcule après toute correction de la base nmp-seo ; un doublon retiré change souvent plusieurs slides à la fois (MagicRNA, 12/11 : 32 → 30 tours, 7 slides corrigées).
+- Une ligne de « répétition » (startup qui relève vite) se vérifie à la source avant d'entrer dans une slide : un tour tiré de la frise d'un site sans montant ni investisseur est souvent un doublon (nmp-seo RULES 39).

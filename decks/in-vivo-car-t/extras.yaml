@@ -138,7 +138,7 @@
         One deal now sets the price of the whole field, and every startup with human data is measured against it.'
     note: 'Maximum announced values, milestones included: Kelonia $7B (Lilly), Orna $2.4B (Lilly), Capstan $2.1B (AbbVie), Orbital $1.5B (BMS), EsoBiotec $1B (AstraZeneca), Interius $350M (Kite). Sources: buyers’ press releases'
   link: 'investor-bets chapter: Kelonia buyout vs the other five'
-- after: iv_safety
+- after: ed132
   slide:
     id: xs_4c
     type: x/sig_announced_vs_built
@@ -165,7 +165,7 @@
 
         All four myeloma patients of the first study responded. In the follow-up published in Nature Medicine, only one was still in stringent complete response after 15 months.'
     note: Data comes from the extended follow-up of the four ESO-T01 patients, published in Nature Medicine in October 2026
-  link: 'iv_safety, GENE CONTROL card: regulators still need proof that responses last'
+  link: 'ed132 card: « Early human data look good, but cohorts are too small to show durability or rare risks »'
 - after: ed099p
   slide:
     id: xs_5a
@@ -189,7 +189,7 @@
     id: xs_n4
     type: sx_league
     section: Investor bets
-    title: '44% of 2026 in vivo CAR-T rounds went
+    title: 'Half of the 2026 in vivo CAR-T rounds went
 
       to startups that raised within a year'
     h1: ROUNDS
@@ -197,8 +197,8 @@
     rows:
     - name: MagicRNA
       what: LNP-mRNA CD19 CAR-T, Series A then B
-      n: 4
-      v: 13 months
+      n: 2
+      v: 12 months
       src: ../../assets/logos/magicrna.png
     - name: Vivacta Bio
       what: GT801 CD19 CAR-T, seed then Series A
@@ -206,18 +206,18 @@
       v: 5 months
       src: ../../assets/logos/vivacta-bio.png
     - name: Starna Therapeutics
-      what: In vivo CAR programs, two Series B
+      what: In vivo CAR programs, Series B then B+
       n: 2
       v: 7 months
       src: ../../assets/logos/starna-therapeutics.png
-    - name: Shenzhen Genocury
-      what: Lentiviral CAR-T, Series A then more
+    - name: DeliNova Therapeutics
+      what: Lentiviral CAR-T, two seed rounds
       n: 2
-      v: 2 months
-      src: ../../assets/logos/shenzhen-genocury-biotech.png
-    big: 44%
+      v: 12 months
+      src: ../../assets/logos/delinova-therapeutics.png
+    big: 4 of 8
     kicker: WHY IT HAPPENED
-    story: 'MagicRNA raised four times in 13 months, and Starna and Vivacta came back within months.
+    story: 'Vivacta came back after 5 months and Starna after 7, and MagicRNA and DeliNova raised again within a year.
 
       Startups with first human data now raise again quickly, in smaller steps, while investors are keen on the field.'
     note:
@@ -227,14 +227,14 @@
 - after: ed160
   slide:
     section: Investor bets
-    title: 'Two in three in vivo CAR-T rounds
+    title: 'Chinese startups now raise more
 
-      now go to Chinese startups'
+      than half of in vivo CAR-T rounds'
     note:
     - We sorted every equity round raised by in vivo CAR-T startups in our own database
     - by the country of the startup’s headquarters, from January 2024 to November 2026
-    big: 59% vs 11%
-    story: 'China now closes most in vivo CAR-T rounds: 19 of the 32 since 2024, for MagicRNA, Starna, Vivacta and others.
+    big: 57% vs 11%
+    story: 'China now closes most in vivo CAR-T rounds: 17 of the 30 since 2024, for MagicRNA, Starna, Vivacta and others.
 
       But US rounds are far bigger, so US startups still take 89% of the money. Sail alone took $465M from J&J.'
     groups:
@@ -246,10 +246,10 @@
       col: '#789096'
     rows:
     - name: Share of the rounds
-      total: 32 rounds since 2024
+      total: 30 rounds since 2024
       v:
-      - 59
-      - 38
+      - 57
+      - 40
       - 3
     - name: Share of the money raised
       total: $1.41B since 2024
@@ -266,7 +266,7 @@
     id: xs_n3
     type: sx_faceoff
     section: Investor bets
-    title: 'Big pharma now backs 44% of
+    title: 'Big pharma now backs half of
 
       in vivo CAR-T funding rounds'
     cards:
@@ -279,9 +279,9 @@
     - name: 2026 SO FAR
       hl: true
       stats:
-      - v: 44%
+      - v: 50%
         l: of rounds had a large drugmaker as an investor
-      - v: 4 of 9
+      - v: 4 of 8
         l: equity rounds
     story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into in vivo CAR-T startups. A stake gives them a front-row seat before a buyout: six makers have already been bought by big pharma.'
     note:
@@ -293,7 +293,7 @@
     id: xs_n2
     type: sx_butterfly
     section: Investor bets
-    title: 'LNP-mRNA startups took 5 of the 9
+    title: 'LNP-mRNA startups took 4 of the 8
 
       in vivo CAR-T rounds of 2026'
     left: LNP-mRNA CAR-T
@@ -305,12 +305,12 @@
       l: 2
       r: 5
     - x: '2025'
-      l: 5
+      l: 4
       r: 11
     - x: '2026'
-      l: 5
+      l: 4
       r: 4
-    big: 5 of 9
+    big: 4 of 8
     story: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
 
       After AbbVie paid up to $2.1B for Capstan, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
@@ -327,7 +327,6 @@
     note:
     - We placed every equity round raised by in vivo CAR-T startups in our own database
     - on a timeline, sized by its disclosed amount, from January 2024 to November 2026
-    big: 59%
     story: 'Each circle is one equity round since 2024, sized by the amount raised. The five pink circles, Capstan, Umoja, Strand, CREATE and Sail, are the rounds of $100M or more: together they make up 72% of all the money.'
     t0: 2024.0
     t1: 2027.0
@@ -472,11 +471,6 @@
       col: '#C5CDD2'
       lab: ''
       cy: 146
-    - t: 2025.792
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 122
     - t: 2025.875
       a: 0
       col: '#C5CDD2'
@@ -492,11 +486,6 @@
       col: '#C5CDD2'
       lab: ''
       cy: 146
-    - t: 2026.458
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 46
     - t: 2026.625
       a: 0
       col: '#C5CDD2'
@@ -518,7 +507,7 @@
     id: xs_n6
     type: sx_stacked_cols
     section: Investor bets
-    title: 'Only 1 of the 9 in vivo CAR-T rounds
+    title: 'Only 1 of the 8 in vivo CAR-T rounds
 
       of 2026 was a seed round'
     max: 16
@@ -537,18 +526,18 @@
       - 1
       - 4
     - x: '2025'
-      sub: 16 rounds
+      sub: 15 rounds
       v:
       - 3
-      - 7
+      - 6
       - 6
     - x: '2026'
-      sub: 9 rounds so far
+      sub: 8 rounds so far
       v:
       - 1
       - 3
-      - 5
-    big: 1 of 9
+      - 4
+    big: 1 of 8
     kicker: BEHIND THE NUMBERS
     story: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
 

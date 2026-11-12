@@ -1,5 +1,5 @@
 # Slides built from our startups database (nmp-seo data/startups, market in-vivo-car-t, 52 companies), 12 Nov 2026.
-# Equity rounds only (no IPO, debt, grants); 32 rounds since January 2024, 17 with a disclosed amount, $1.41B in all.
+# Equity rounds only (no IPO, debt, grants); 30 rounds since January 2024, 17 with a disclosed amount, $1.41B in all.
 ed156:
   13: 2026 (OCT)
   14: DeliNova raised a $14M seed round led by Proxima Ventures for its lentiviral in vivo CAR-T therapies {1|The Capital}
@@ -75,12 +75,12 @@ ed159:
   - IPOs, debt and grants are left out, and any round with no public amount is counted as zero
 ed160:
   6: LNP-mRNA CAR-T took about 64% of the capital raised since 2024, far more than any other category
-  7: Only 17 of the 32 rounds since 2024 disclosed an amount, and the median disclosed round was $45M
-  8: US startups took about 89% of the capital, even though Chinese startups closed more rounds, 19 against 12
+  7: Only 17 of the 30 rounds since 2024 disclosed an amount, and the median disclosed round was $45M
+  8: US startups took about 89% of the capital, even though Chinese startups closed more rounds, 17 against 12
   9: Five rounds of $100M or more made up about 72% of all the capital raised in the market since 2024
   10: Sail’s $465M from Johnson & Johnson alone is about a third of all the capital raised since 2024
-  11: Series B was the most common round, with 12 of the 32 rounds, ahead of Series A and seed with 6 each
-  note: Insights come from our tracker of 32 in vivo CAR-T equity rounds announced since January 2024, worth about $1.41 billion
+  11: Series B was the most common round, with 11 of the 30 rounds, ahead of seed with 6 and Series A with 5
+  note: Insights come from our tracker of 30 in vivo CAR-T equity rounds announced since January 2024, worth about $1.41 billion
 ed162:
   6: 'BEFORE
 
@@ -101,10 +101,10 @@ ed164:
     ann: Capstan’s $175M Series B, out of 7 rounds
   - x: '2025'
     v: 28
-    ann: Strand’s $153M Series B, out of 16 rounds
+    ann: Strand’s $153M Series B, out of 15 rounds
   - x: 2026 (YTD)
     v: 72
-    ann: Sail’s $465M from J&J, out of 9 rounds
+    ann: Sail’s $465M from J&J, out of 8 rounds
   note:
   - For each year, we divide the largest round by all the disclosed capital in our tracker
   - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
@@ -154,7 +154,7 @@ ed167:
   6: LNP-MRNA CAR-T
   7: LENTIVIRAL CAR-T
   8: OTHER ROUTES
-  9: '12'
+  9: '10'
   11: '10'
   12: '10'
   13: $903M
@@ -163,7 +163,7 @@ ed167:
   17: Sail, Capstan, Strand, Starna
   19: Umoja, Interius, IASO, Vyriad
   20: CREATE, Azalea, Ensoma, Stylus
-  note: Data comes from our tracker of 32 in vivo CAR-T equity rounds announced since January 2024, worth about $1.41 billion. IPOs, debt and grants are left out
+  note: Data comes from our tracker of 30 in vivo CAR-T equity rounds announced since January 2024, worth about $1.41 billion. IPOs, debt and grants are left out
 ed168p:
   rows:
   - name: LNP-mRNA CAR-T
@@ -205,7 +205,7 @@ ed168p:
     logos:
     - MVRIX
     - Zhenyu Biopharma
-  note: We added up the 10 equity rounds we tracked in the in vivo CAR-T space over the last twelve months, $672M in all, from company announcements and the press. All the sources are included at the end of the report.
+  note: We added up the 9 equity rounds we tracked in the in vivo CAR-T space over the last twelve months, $672M in all, from company announcements and the press. All the sources are included at the end of the report.
 ed169:
   7: RA CAPITAL
   8: LILLY ASIA VENTURES
@@ -227,7 +227,7 @@ ed169:
   31: $122M
   32: Genocury, Jiyin
   33: CREATE Medicines
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 32 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 30 rounds
 ed171p:
   rows:
   - Lentiviral
