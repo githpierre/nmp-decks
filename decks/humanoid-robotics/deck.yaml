@@ -3974,69 +3974,85 @@ slides:
 
     put their money this past year?'
   rows:
-  - name: General humanoids
+  - name: General-purpose bipedal
     names:
-    - TARS
+    - XPENG Robotics
     - Galbot
-    v: $3.7B
-    pct: 57% of total
+    v: $4.8B
+    pct: 48% of total
     w: 100.0
     logos:
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-00.png
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-01.png
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-02.png
-  - name: Humanoid AI models
+    - src: ../../assets/logos/lib/xpeng.png
+    - src: ../../assets/logos/galbot.png
+    - src: ../../assets/logos/lib/robotera.png
+  - name: Developer and research platforms
     names:
-    - X Square Robot
     - Spirit AI
-    v: $943M
-    pct: 15% of total
-    w: 25.5
+    - GigaAI
+    v: $2.4B
+    pct: 24% of total
+    w: 50.5
     logos:
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-03.png
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-04.png
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-05.png
-  - name: Industrial humanoids
+    - src: ../../assets/logos/lib/spirit-ai.png
+    - src: ../../assets/logos/lib/gigaai.png
+    - src: ../../assets/logos/rhoda-ai.png
+  - name: Industrial and factory
     names:
     - Apptronik
-    - Holiday Robotics
-    v: $784M
-    pct: 12% of total
-    w: 21.2
+    - Agile Robots
+    v: $1.9B
+    pct: 19% of total
+    w: 39.5
     logos:
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-06.png
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-07.png
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-08.png
-  - name: Actuators and hands
+    - src: ../../assets/logos/lib/apptronik.png
+    - src: ../../assets/logos/lib/agile-robots.png
+    - src: ../../assets/logos/walden-robotics.png
+  - name: Domestic and eldercare
     names:
-    - Linkerbot
-    - AGILINK
-    v: $632M
-    pct: 10% of total
-    w: 17.1
+    - Sunday Robotics
+    - Knowin AI
+    v: $382M
+    pct: 4% of total
+    w: 7.9
     logos:
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-09.png
-  - name: Home robots
+    - src: ../../assets/logos/lib/sunday-robotics.png
+    - src: ../../assets/logos/lib/knowin.png
+    - src: ../../assets/logos/lib/futuring-robot.png
+  - name: Service and social
     names:
-    - Sunday
-    - Noetix
-    v: $416M
-    pct: 6% of total
-    w: 11.2
+    - Pudu Robotics
+    - UniX AI
+    v: $221M
+    pct: 2% of total
+    w: 4.6
     logos:
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-10.png
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-11.png
-  - name: Logistics robots
+    - src: ../../assets/logos/lib/pudu.png
+    - src: ../../assets/logos/lib/unix.png
+  - name: Wheeled and hybrid bases
     names:
+    - AI² Robotics
+    - Dexmate
+    v: $195M
+    pct: 2% of total
+    w: 4.0
+    logos:
+    - src: ../../assets/logos/lib/ai2.png
+    - src: ../../assets/logos/dexmate.png
+    - src: ../../assets/logos/lib/simple-ai.png
+  - name: Warehouse and logistics
+    names:
+    - Dexterity
     - Avatar Robotics
-    v: $6M
-    pct: under 1% of total
-    w: 0.2
+    v: $116M
+    pct: 1% of total
+    w: 2.4
     logos:
-    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-12.png
+    - src: ../../assets/logos/lib/dexterity.png
+    - src: ../../assets/logos/avatar-robotics.png
+    - src: ../../assets/logos/lib/agility-robotics.png
   note:
-  - We added up every funding round we tracked in humanoid robots over the last twelve months
-  - We used company announcements and the press, with all the sources at the end of the report
+  - We added up every equity round of humanoid startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
 - id: ed169
   type: x/most_active_investors
   section: Investor bets

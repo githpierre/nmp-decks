@@ -129,6 +129,23 @@ LIBS = [Path('/home/claude/nmp-pages/nmp-funding/logos'), Path('/home/claude/nmp
 MARKET = ''
 
 
+_SITES = None
+
+
+def base_site(name):
+    """website of a company in the nmp-seo startups base, when the research gave no domain"""
+    global _SITES
+    if _SITES is None:
+        _SITES = {}
+        try:
+            import sys; sys.path.insert(0, '/home/claude/nmp-seo/outils/startups'); import gen_lib as g
+            for c in g.Base().companies.values():
+                w = (c.get('website') or '').lower()
+                if w: _SITES[c['name'].lower()] = re.sub(r'^https?://(www\.)?', '', w).split('/')[0]
+        except Exception as e: print('base_site:', e)
+    return _SITES.get(name.lower(), '')
+
+
 def lib_logo(cands):
     """Pierre's logo libraries (repos nmp-pages and nmp-product-pages): square tiles first, wide wordmarks refused"""
     import shutil
@@ -138,7 +155,7 @@ def lib_logo(cands):
         keys = [c, c.replace('-', '')]
         for lib in LIBS:
             if not lib.exists(): continue
-            pats = [f'*/tile/{k}.png' for k in keys] + [f'*/fav/{k}.png' for k in keys] if 'funding' in str(lib) else [f'{MARKET}__{k}.png' for k in keys] + [f'{k}.png' for k in keys]
+            pats = [f'*/tile/{k}.png' for k in keys] + [f'*/fav/{k}.png' for k in keys] if 'funding' in str(lib) else [f'{MARKET}__{k}.png' for k in keys] + [f'{k}.png' for k in keys] + [f'*__{k}.png' for k in keys]
             for pat in pats:
                 for f in sorted(lib.glob(pat)):
                     w, h = Image.open(f).size
@@ -157,8 +174,8 @@ def logo(name, deck_rel=True):
     domain = ''
     if isinstance(name, dict): domain = name.get('domain') or ''; name = name.get('name') or next(iter(name.values()), '')
     name = re.split(r'\s+[—-]\s+https?://', str(name))[0].split(' / ')[-1].strip()
-    domain = domain or DOMAINS.get(name.lower(), '')
-    base = slugify(name); cands = [base]
+    domain = domain or DOMAINS.get(name.lower(), '') or base_site(name)
+    base = slugify(name.replace('²', '2').replace('³', '3')); cands = [base]
     short = re.sub(r'-(therapeutics|biotherapeutics|biopharma|biotechnology|biotech|medicines|bio|inc|sciences|pharmaceuticals?|robotics|robot|ai|labs|technologies|technology|dynamics)$', '', base)
     cands += [short, short + '-therapeutics', short + '-bio', short + '-biopharma', short + '-robotics', short + '-ai']
     for c in cands:
