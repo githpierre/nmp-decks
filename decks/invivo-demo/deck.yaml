@@ -741,18 +741,18 @@ slides:
   type: pp_trends
   section: Market opportunity
   pill: SIGNAL
-  title: 'In vivo therapy searches
+  title: 'CAR-T searches have
 
-    have suddenly taken off'
-  csv: decks/edtech-full/media/trends/online-learning.csv
-  term: In vivo therapy
+    more than quadrupled'
+  csv: decks/invivo-demo/media/trends/car-t.csv
+  term: CAR-T
   date: Lately.
   expl: After the Covid rush, interest in in vivo therapy slowly faded for years. Then free AI therapies got good enough for everyday dosing help, and millions of caregivers and patients went looking for new ways to learn online.
   note:
   - We tracked how often people around the world googled this term over the last five years
-  - We also corrected the curve for a jump in Gilead's counts that happened in August 2025
+  - We also corrected the curve for a jump in Google's counts that happened in August 2025
   signal: google-trends
-  tag: DEMO DATA
+  tag: REAL CURVE · TEXT DEMO
 - id: ed040
   type: agenda
   section: Market size

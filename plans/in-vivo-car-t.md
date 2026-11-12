@@ -27,3 +27,5 @@
 - Google Trends: CSVs downloaded by Pierre (worldwide, 5 years).
 - Next: Pierre runs the 11 prompts, returns the 11 .md files; Claude imports them into deck.yaml, builds, audits, proposes 5-15 signal slides with their placement.
 - The cell-therapy signals of the library are not reused (Pierre).
+- Google Trends (12 Nov): Pierre's 3 CSVs in assets/trends/in-vivo-car-t/. Kept 'CAR-T' (x4.5 after the August 2025 correction).
+  'car t cell therapy' only x2.5; 'in vivo car t' dropped: its base before 2025 is near zero (x20+ means nothing).

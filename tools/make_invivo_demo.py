@@ -196,10 +196,15 @@ def main():
     D = {k: v for k, v in E.items() if k != 'slides'}
     D.update(market='In Vivo CAR-T', label='In vivo CAR-T market', slug='invivo-demo', keep_together=['in vivo CAR-T', 'CAR-T'])
     out[0]['big'] = 'In vivo\nCAR-T'
+    for x in out:      # Google Trends: Pierre's CSVs (12 Nov). 'in vivo car t' has a near-zero base before 2025 (x20+ means nothing): 'CAR-T' is kept
+        if x['id'] == 'ed039p':
+            x.update(csv='decks/invivo-demo/media/trends/car-t.csv', term='CAR-T', title='CAR-T searches have\nmore than quadrupled', tag='REAL CURVE · TEXT DEMO',
+                     note=["We tracked how often people around the world googled this term over the last five years", "We also corrected the curve for a jump in Google's counts that happened in August 2025"])
     D['slides'] = out
     OUT.mkdir(parents=True, exist_ok=True)
     if (OUT / 'media').exists(): shutil.rmtree(OUT / 'media')
     shutil.copytree(SRC / 'media', OUT / 'media')
+    shutil.copytree(ROOT / 'assets/trends/in-vivo-car-t', OUT / 'media/trends', dirs_exist_ok=True)
     for f in (ROOT / 'decks/signals/media/raw').glob('*'): shutil.copy(f, OUT / 'media/raw' / f.name)
     shutil.copy(ROOT / 'assets/covers/in-vivo-car-t.jpg', OUT / 'media/cover.jpg')     # Pierre's cover (Google Slides, slide nmpcov109)
     (OUT / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
