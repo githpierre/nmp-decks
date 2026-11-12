@@ -129,6 +129,7 @@ LIBS = [Path('/home/claude/nmp-pages/nmp-funding/logos'), Path('/home/claude/nmp
 MARKET = ''
 
 
+GENERIC_ICONS = set('🤥 🟢 💰 📈 🤝 🏦 📉 💎 🔒 ⛔ 💀 🏆 🚀 ✅ ❌ ⚖️ 😤 😖 ☠️ ⚠️ 💥 🎯 🔀 ♾️ ⏳ 🛡️ 🤩 🔍 📊 💡 🧩 🔁 🔄'.split())
 _SITES = None
 
 
@@ -312,6 +313,10 @@ def main():
         S.append(x)
     ed = out / 'edits.yaml'                      # Claude's fit rewrites (texts too long for their box), kept across re-imports
     dbf = out / 'db.yaml'                        # slides built from our startups database (nmp-seo), applied first, then the edits
+    for f in (out / 'edits.yaml', out / 'live.yaml', out / 'db_text.yaml'):      # a key written twice silently drops the first block (12 Nov 2026: ed018 lost its categories)
+        if f.exists():
+            ks = re.findall(r'(?m)^([A-Za-z0-9_-]+):', f.read_text()); d = {k for k in ks if ks.count(k) > 1}
+            if d: raise SystemExit(f'DUPLICATE KEY in {f.name}: {sorted(d)}')
     E = {}
     for f in (dbf, ed):
         if f.exists():
@@ -386,6 +391,31 @@ def main():
             if not e.get('link'):                  # RULES.md « liant » : the slide before must announce the extra slide
                 print('extra slide: no link written for', e['slide'].get('id'), '(say which phrase of', e['after'], 'leads to it)')
             S.insert(i + 1, e['slide'])
+    ff = out / 'db_facts.yaml'                   # {db.key} in any text = a figure from the latest startups base (make_db_slides.py), never typed by hand
+    if ff.exists():
+        F = yaml.safe_load(ff.read_text()) or {}
+        def dbf(v):
+            if isinstance(v, str):
+                m = re.fullmatch(r'\{db\.(\w+)\}', v.strip())
+                if m and m.group(1) in F: return F[m.group(1)]          # a lone figure keeps its type (bar values)
+                return re.sub(r'\{db\.(\w+)\}', lambda m: str(F.get(m.group(1), m.group(0))), v)
+            if isinstance(v, dict): return {k: dbf(x) for k, x in v.items()}
+            if isinstance(v, list): return [dbf(x) for x in v]
+            return v
+        S = [dbf(x) for x in S]
+    for x in S:                                  # contrast slides: the logo of the company on the right, found like every other logo (12 Nov 2026)
+        if x.get('type') == 'contrast' and x.get('right'):
+            nm = {'FIGURE': 'Figure AI', 'AGILITY ROBOTICS': 'Agility Robotics', 'UNITREE': 'Unitree Robotics', '1X': '1X Technologies'}.get(x['right'].upper(), x['right'].title())
+            x['logo_src'] = logo(nm)
+    if a.model:                  # icons copied from the reference market and still identical: a leftover when they belong to its domain (12 Nov 2026: 🧬 🦠 💉 in Humanoid Robotics)
+        _M = {y.get('id'): y for y in yaml.safe_load((ROOT / a.model / 'deck.yaml').read_text())['slides']}
+        for x in S:
+            m = _M.get(re.sub(r'-s\d$', '', x.get('id') or ''))
+            if not m: continue
+            pairs = [(k, v) for k, v in (x.get('t') or {}).items() if isinstance(v, str) and len(v) <= 3 and v == (m.get('t') or {}).get(k)]
+            pairs += [(k, x[k]) for k in ('icon_tl', 'icon') if x.get(k) and x.get(k) == m.get(k)]
+            for k, v in pairs:
+                if re.search('[\U0001F300-\U0001FAFF\u2600-\u27BF]', v) and v.strip() not in GENERIC_ICONS: print('MODEL ICON LEFT', x['id'], k, v)
     if a.model_name:             # the reference market's name left in slides nobody rewrote (agenda kicker, sources divider…) becomes the new name
         mn, nn = a.model_name, a.name
         def sw(v):

@@ -99,7 +99,7 @@ slides:
   text: Humanoid robotics is the market for complete robots with a human-like upper body that can move, handle objects and perform useful physical tasks in spaces built for people
   note: We use a functional definition because humanoid robots can walk on legs, roll on wheels or use hybrid bases while still doing human-oriented work.
   src: 6
-  icon_tl: 🧬
+  icon_tl: 🤖
 - id: ed007p
   type: pp_radar
   section: Market definition
@@ -358,7 +358,7 @@ slides:
   section: Market definition
   title: How can we categorize companies of the humanoid robotics market?
   page: 1/3
-  note: There are many ways to categorize the field, but these five robot types capture most current company strategies and make the competitive map easier to read.
+  note: We could categorize the field in many ways, but these five robot types capture most current company strategies and make the map easier to read
   src: 18
   categories:
   - label: 'BIPEDAL
@@ -406,22 +406,22 @@ slides:
     13: 'WAREHOUSES +
 
       LOGISTICS'
-    14: 🩸
-    15: 🛡️
+    14: 🏭
+    15: 🚚
     16: Companies building safe, quiet humanoids for chores, assistance and everyday interaction around people
     18: 'HOMES +
 
       ELDER CARE'
     19: Companies using humanoid form for customer-facing assistance, hospitality, guidance and practical service tasks
-    21: 🎯
-    22: 🔀
+    21: 🏠
+    22: 🛒
     25: Here, we categorize by the place where the robot works
 - id: ed020
   type: x/categorize_companies_market
   section: Market definition
   title: How can we categorize companies of the humanoid robotics market?
   page: 3/3
-  note: A third useful lens is commercial maturity because a robot sold as a developer platform, used in a paid pilot or operating commercially represents a very different business stage.
+  note: We add commercial maturity as a third lens, because a robot sold as a developer platform, used in a paid pilot or working commercially is at a very different stage
   src: 20
   t:
     7: 'CONSUMER
@@ -435,21 +435,21 @@ slides:
     13: 'PAID
 
       PILOTS'
-    14: ♾️
+    14: 🧑‍💻
     15: ⏳
     16: Companies with robots performing recurring work under commercial customer agreements in operating facilities
     18: 'LIVE COMMERCIAL
 
       DEPLOYMENTS'
     19: Companies taking orders for home humanoids before broad consumer delivery and fully autonomous capability
-    21: 🧬
-    22: 🔀
+    21: 🏭
+    22: 🏠
     25: Here, we categorize by commercial maturity
 - id: ed021
   type: x/top_companies_market
   section: Market definition
   title: What do top companies do in this market?
-  note: Other companies could also make the top eight. We chose deployment leaders and strategically important platforms to show the range of approaches shaping the market.
+  note: We chose deployment leaders and strategically important platforms to show the range of approaches, and other companies could also make the top eight
   src: 21
   t:
     7: They deploy Figure 03 at BMW and train Helix for factory and household-style manipulation
@@ -503,7 +503,7 @@ slides:
   type: x/learning_truths_have_flipped
   section: Market definition
   title: Which humanoid robotics truths have flipped?
-  note: These are directional market shifts identified from recent deployments, product launches and customer agreements. They are not formal industry rules, but they recur across the evidence.
+  note: We drew these directional shifts from recent deployments, product launches and customer agreements. They are not formal industry rules, but they recur across the evidence
   src: 23
   t:
     6: Humanoids used to be mainly impressive research demonstrations
@@ -601,10 +601,10 @@ slides:
     10: Figure raised $675M at a $2.6B valuation and partnered with BMW. Mercedes-Benz also began testing Apptronik's Apollo in manufacturing.
     11: Late 2024
     12: GXO put Digit into a multi-year commercial warehouse deployment, while BMW completed an early Figure 02 factory test in Spartanburg.
-    13: 🧬
+    13: 🚶
     14: 💰
-    15: 🐒
-    16: 💉
+    15: 🤝
+    16: 🏭
 - id: ed030
   type: x/happened_since_then
   section: Market opportunity
@@ -622,7 +622,7 @@ slides:
     13: 📈
     14: 🤝
     15: 🏦
-    16: 🔬
+    16: 🚚
 - id: ed031
   type: x/usually_why_people_get_excited
   section: Market opportunity
@@ -672,7 +672,7 @@ slides:
     14: '5'
     15: UBTECH sold 1,079 full-size humanoids
     16: '6'
-    19: 36 rounds of $100M or more in 2026
+    19: 37 rounds of $100M or more in 2026
     20: '7'
 - id: xh_unitree
   type: x/sig_key_trend
@@ -735,15 +735,15 @@ slides:
     - 97
     - 3
   - name: Share of funding rounds
-    total: 300 rounds since 2024
+    total: 301 rounds since 2024
     v:
     - 76
     - 24
   - name: Share of money raised
-    total: $15.3B since 2024
+    total: $15.8B since 2024
     v:
-    - 62
-    - 38
+    - 60
+    - 40
   story: 'The market is hot, and it is hottest in China: its makers ship almost every robot and close three funding rounds in four.
 
     US startups such as Figure and Apptronik still raise the biggest single checks.'
@@ -807,23 +807,23 @@ slides:
   type: sx_faceoff
   section: Market opportunity
   pill: SIGNAL
-  title: 'Humanoid startups closed 36 rounds of
+  title: 'Humanoid startups closed 37 rounds of
 
     $100M or more in 2026, against 4 in 2024'
   cards:
   - name: '2024'
     stats:
-    - v: '4'
+    - v: 4
       l: rounds of $100M or more
     - v: $1.6B
       l: raised in all, in 65 rounds
   - name: 2026 SO FAR
     hl: true
     stats:
-    - v: '36'
+    - v: 37
       l: rounds of $100M or more
-    - v: $9.0B
-      l: raised in all, in 119 rounds
+    - v: $9.5B
+      l: raised in all, in 120 rounds
   story: Big checks are a sign of a hot market. Galbot, TARS, X Square Robot and Apptronik all raised $100M or more in 2026, and money in 2026 is already almost six times 2024.
   note:
   - We added up every equity round raised by humanoid robotics startups in our own database
@@ -974,15 +974,15 @@ slides:
   title: What is behind these categories?
   src: 48
   t:
-    4: Two-legged robots use a human-like torso and arms while walking through stairs, factory aisles and other spaces designed around people
-    5: BIPEDAL HUMANOIDS
-    7: Wheeled humanoids keep a task-capable torso and two arms but trade stairs for greater stability, efficiency and runtime on flat floors
-    8: WHEELED HUMANOIDS
-    9: Hybrid platforms combine legs, wheels or transformable bases to preserve manipulation while adapting locomotion to different work settings
-    10: HYBRID LOCOMOTION
-    11: 🦠
-    12: 🧪
-    13: 🔀
+    4: Two-legged humanoids built to learn many tasks, from Unitree and AgiBot, which together sold most of 2025's robots
+    5: GENERAL-PURPOSE BIPEDAL
+    7: Humanoids sold for factory lines, led by UBTECH, whose Walker S robots made up most of its 2025 humanoid revenue
+    8: INDUSTRIAL AND FACTORY
+    9: Developer, warehouse, service, home and hybrid-base humanoids, each still a small share of today's revenue
+    10: OTHER CATEGORIES
+    11: 🚶
+    12: 🏗️
+    13: 🧰
     14: ''
     15: ''
     16: ''
@@ -1078,7 +1078,7 @@ slides:
   type: x/realistic_cagr_market
   section: Market size
   title: What is a realistic CAGR for the humanoid robotics market?
-  note: Current forecasts range from 28.1% to 50.6%. We use 40% as a rounded base case, with 30% and 50% as downside and upside scenarios.
+  note: We see current forecasts ranging from 28.1% to 50.6%, and use 40% as a rounded base case, with 30% and 50% as downside and upside scenarios
   src: 51
   t:
     15: BEST CASE ≈ 50%
@@ -1543,7 +1543,7 @@ slides:
     - 3
     p: CRITICAL
   note:
-  - Every stakeholder is different, and this table is a simplified view based on live automotive deployments and vendor product changes
+  - We give a simplified view, since every stakeholder is different, based on live automotive deployments and vendor product changes
   - It gives a starting point, not a checklist, so priorities should be validated with plant operators, workers and automation teams
   src: 65
 - id: ed062-s2
@@ -1677,7 +1677,7 @@ slides:
     - 3
     p: CRITICAL
   note:
-  - Every stakeholder is different, and this table is a simplified view based on live warehouse deployments and current product specifications
+  - We give a simplified view, since every stakeholder is different, based on live warehouse deployments and current product specifications
   - It gives a starting point, not a checklist, so priorities should be validated with operators, workers, automation teams and fleet managers
   src: 65
 - id: ed062-s3
@@ -1811,7 +1811,7 @@ slides:
     - 3
     p: CRITICAL
   note:
-  - Every stakeholder is different, and this table is a simplified view based on early home tests, product positioning and reported limitations
+  - We give a simplified view, since every stakeholder is different, based on early home tests, product positioning and reported limitations
   - It gives a starting point, not a checklist, so priorities should be validated with older adults, caregivers, households and care providers
   src: 65
 - id: ed062-s4
@@ -1945,7 +1945,7 @@ slides:
     - 3
     p: CRITICAL
   note:
-  - Every stakeholder is different, and this table is a simplified view based on current humanoid service products and public-facing use cases
+  - We give a simplified view, since every stakeholder is different, based on current humanoid service products and public-facing use cases
   - It gives a starting point, not a checklist, so priorities should be validated with staff, customers, site managers and service operators
   src: 65
 - id: ed086
@@ -2208,7 +2208,7 @@ slides:
   type: x/when_realistically_expect_solve_them
   section: Tech and infra
   title: When can we realistically expect to solve them?
-  note: These are directional estimates based on current field progress, not consensus forecasts; some bottlenecks will improve gradually rather than disappear in one year.
+  note: We base these directional estimates on current field progress, not consensus forecasts, and some bottlenecks will improve gradually rather than disappear in one year
   src: 96
   t:
     5: Touch, palm vision and five-finger control are improving fast, but reliability needs years of field data
@@ -3337,30 +3337,6 @@ slides:
     34: Humanoid-specific standards are still being written and adopted
     37: REGULATORY DELAYS
     38: ≈8%
-- id: xh_capacity
-  type: sx_faceoff
-  section: Market challenges
-  title: 'UBTECH sold at only 31% of its
-
-    factory capacity in early 2026'
-  cards:
-  - name: CAPACITY
-    stats:
-    - v: 6,000+
-      l: full-size humanoids a year, as stated by UBTECH
-    - v: 100%
-      l: of what its lines can build
-  - name: SALES PACE
-    hl: true
-    stats:
-    - v: 1,842
-      l: robots a year, at its first-half 2026 pace
-    - v: 31%
-      l: of its capacity, so about 69% is idle
-  story: Factories are being built faster than customers buy. Makers must turn pilots into fleets quickly, or their new lines will stay idle and burn cash.
-  note:
-  - We doubled the 921 humanoids UBTECH sold in the first half of 2026,
-  - and compared it with the yearly capacity UBTECH states in its filings
 - id: ed144
   type: x/severe_impact_each_one
   section: Market challenges
@@ -3391,6 +3367,30 @@ slides:
     34: Certification could slow rollout, but existing robot rules still offer a path
     37: REGULATORY DELAYS
     38: MEDIUM
+- id: xh_capacity
+  type: sx_faceoff
+  section: Market challenges
+  title: 'UBTECH sold at only 31% of its
+
+    factory capacity in early 2026'
+  cards:
+  - name: CAPACITY
+    stats:
+    - v: 6,000+
+      l: full-size humanoids a year, as stated by UBTECH
+    - v: 100%
+      l: of what its lines can build
+  - name: SALES PACE
+    hl: true
+    stats:
+    - v: 1,842
+      l: robots a year, at its first-half 2026 pace
+    - v: 31%
+      l: of its capacity, so about 69% is idle
+  story: Factories are being built faster than customers buy. Makers must turn pilots into fleets quickly, or their new lines will stay idle and burn cash.
+  note:
+  - We doubled the 921 humanoids UBTECH sold in the first half of 2026,
+  - and compared it with the yearly capacity UBTECH states in its filings
 - id: ed145
   type: x/constraints_have_largely_disappeared_today
   section: Market challenges
@@ -3721,17 +3721,17 @@ slides:
   src: 156
   t:
     13: 2026 (NOV)
-    14: Tutor Intelligence raised a $75M Series B led by Andreessen Horowitz {1|Business Wire}
+    14: Agile Robots raised a $500M late-stage led by SoftBank Group for its industrial and factory humanoids {1|Forbes}
     15: 2026 (NOV)
-    16: RoboScience raised an undisclosed Series A led by Hupo Capital {1|Beijing News}
-    17: 2026 (OCT)
-    18: Zhicheng AI raised $25M for its humanoid developer and research platforms {1|ChinaVenture}
+    16: Tutor Intelligence raised a $75M Series B led by Andreessen Horowitz {1|Business Wire}
+    17: 2026 (NOV)
+    18: RoboScience raised an undisclosed Series A led by Hupo Capital {1|Beijing News}
     19: 2026 (OCT)
-    20: CASBOT raised an undisclosed Series A for its industrial and factory humanoids {1|Cailian Press}
+    20: Zhicheng AI raised $25M for its humanoid developer and research platforms {1|ChinaVenture}
     21: 2026 (OCT)
-    22: EIR raised a $14M seed round for its service, hospitality and social humanoids {1|IT Home}
+    22: CASBOT raised an undisclosed Series A for its industrial and factory humanoids {1|Cailian Press}
     23: 2026 (OCT)
-    24: Ruoyu Technology raised a $14M seed round led by Sunway Communication {1|STAR Market Daily}
+    24: EIR raised a $14M seed round for its service, hospitality and social humanoids {1|IT Home}
 - id: ed157
   type: x/rounds_were_announced_last_2
   section: Investor bets
@@ -3743,17 +3743,17 @@ slides:
   src: 157
   t:
     14: 2026 (OCT)
-    15: NEXFORM raised an undisclosed seed round for its human-form embodied manipulation / hybrid locomotion {1|NEXFORM}
+    15: Ruoyu Technology raised a $14M seed round led by Sunway Communication {1|STAR Market Daily}
     16: 2026 (OCT)
-    17: Astribot raised a $140M Series B led by Toukong Donghai Capital for its general-purpose bipedal humanoids {1|36Kr}
+    17: NEXFORM raised an undisclosed seed round for its human-form embodied manipulation / hybrid locomotion {1|NEXFORM}
     18: 2026 (OCT)
-    19: Minerva Humanoids raised a $10M seed round led by General Catalyst for its industrial and factory humanoids {1|Minerva}
-    20: 2026 (SEP)
-    21: Feather Robotics raised a $7.6M seed round led by Gradient Ventures {1|Investegate}
+    19: Astribot raised a $140M Series B led by Toukong Donghai Capital for its general-purpose bipedal humanoids {1|36Kr}
+    20: 2026 (OCT)
+    21: Minerva Humanoids raised a $10M seed round led by General Catalyst for its industrial and factory humanoids {1|Minerva}
     22: 2026 (SEP)
-    23: Kinetix AI raised a $70M seed round led by Vertex Ventures China for its general-purpose bipedal humanoids {1|Xinhua}
+    23: Feather Robotics raised a $7.6M seed round led by Gradient Ventures {1|Investegate}
     24: 2026 (SEP)
-    25: Zerith Robotics raised an undisclosed Series A for its service, hospitality and social humanoids {1|PEdaily}
+    25: Kinetix AI raised a $70M seed round led by Vertex Ventures China for its general-purpose bipedal humanoids {1|Xinhua}
 - id: iv_deals
   type: x/rounds_were_announced_last
   section: Investor bets
@@ -3790,8 +3790,8 @@ slides:
     v: 6361
     ann: Apptronik $520M, TARS Robotics $455M, in 83 rounds
   - x: 2026 H2
-    v: 2648
-    ann: XPENG Robotics $900M, Walden Robotics $300M, in 36 rounds
+    v: 3148
+    ann: XPENG Robotics $900M, Agile Robots $500M, in 37 rounds
   note:
   - We add up the disclosed equity rounds of humanoid robotics startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero in this chart
@@ -3814,7 +3814,7 @@ slides:
     v: 4664
     ann: Figure AI $1B, Apptronik $350M
   - x: '2026'
-    v: 9009
+    v: 9509
     ann: XPENG Robotics $900M, Apptronik $520M
 - id: ed160
   type: x/stands_out_funding
@@ -3822,22 +3822,22 @@ slides:
   title: 'What stands out in
 
     humanoid robotics funding?'
-  note: Insights come from our tracker of 300 humanoid robotics equity rounds announced since January 2024, worth about $15.3B
+  note: We drew these insights from our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $15.8B
   src: 160
   t:
     6: General-purpose bipedal humanoids took about 53% of the capital raised since 2024, far ahead of any other type of robot
-    7: Only 156 of the 300 rounds since 2024 disclosed an amount, and the median disclosed round was $48M
-    8: Chinese startups closed 229 of the 300 rounds and took about 62% of the money, against $5B for US startups
-    9: 53 rounds of $100M or more made up about 79% of all the capital raised in the market since 2024
+    7: Only 157 of the 301 rounds since 2024 disclosed an amount, and the median disclosed round was $52M
+    8: Chinese startups closed 229 of the 301 rounds and took about 60% of the money, against $5B for US startups
+    9: 54 rounds of $100M or more made up about 80% of all the capital raised in the market since 2024
     10: Figure’s $1B Series C is the biggest round since 2024, ahead of the $900M raised by XPENG Robotics in 2026
-    11: Seed was the most common round, with 134 of the 300 rounds, ahead of Series A with 71 and Series B with 32
+    11: Seed was the most common round, with 134 of the 301 rounds, ahead of Series A with 71 and Series B with 32
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
   title: 'What has changed
 
     recently?'
-  note: Insights come from our tracker of humanoid robotics equity rounds, complete from January 2024, and from company releases and the press
+  note: We used our tracker of humanoid robotics equity rounds, complete from January 2024, and company releases and the press
   src: 162
   t:
     6: 'BEFORE
@@ -3847,7 +3847,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 300 rounds raised $15.3B. Chinese startups close three rounds in four, while Figure and Apptronik raise the biggest checks.'
+      Since 2024, 301 rounds raised $15.8B. Chinese startups close three rounds in four, while Figure and Apptronik raise the biggest checks.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -3855,7 +3855,7 @@ slides:
 
     humanoid robotics deal weigh?'
   note:
-  - For each year, we divide the largest round by all the disclosed capital in our tracker
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
   - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
   src: 164
   unit: pct
@@ -3867,8 +3867,8 @@ slides:
     v: 21
     ann: Figure AI’s $1B, out of 116 rounds
   - x: 2026 (YTD)
-    v: 10
-    ann: XPENG Robotics’s $900M, out of 119 rounds
+    v: 9
+    ann: XPENG Robotics’s $900M, out of 120 rounds
 - id: ed165p
   type: pp_raises
   section: Investor bets
@@ -3886,16 +3886,16 @@ slides:
     date: Q1 2026
     stage: Series A
     src: ../../assets/logos/lib/apptronik.png
+  - name: Agile Robots
+    amt: 500000000
+    date: Q4 2026
+    stage: late-stage
+    src: ../../assets/logos/lib/agile-robots.png
   - name: TARS Robotics
     amt: 455000000
     date: Q2 2026
     stage: Seed
     src: ../../assets/logos/lib/tars.png
-  - name: Rhoda AI
-    amt: 450000000
-    date: Q1 2026
-    stage: Series A
-    src: ../../assets/logos/rhoda-ai.png
   note:
   - We listed the biggest equity rounds raised by humanoid robotics startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
@@ -3935,26 +3935,26 @@ slides:
   title: 'Where did most
 
     of the capital go?'
-  note: Data comes from our tracker of 300 humanoid robotics equity rounds announced since January 2024, worth about $15.3B. IPOs, debt and grants are left out
+  note: We used our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $15.8B. IPOs, debt and grants are left out
   src: 167
   t:
-    6: BIPEDAL GENERAL-PURPOSE
-    7: DEVELOPER PLATFORMS
-    8: INDUSTRIAL HUMANOIDS
+    6: GENERAL-PURPOSE BIPEDAL
+    7: DEVELOPER AND RESEARCH
+    8: INDUSTRIAL AND FACTORY
     9: '110'
     10: DEALS
     11: '60'
-    12: '56'
+    12: '57'
     13: $8.1B
     14: '
 
       RAISED ($)'
     15: $3.2B
-    16: $2.4B
+    16: $2.9B
     17: Figure AI, XPENG Robotics, TARS Robotics, Galbot
     18: EXAMPLES OF STARTUPS
     19: Rhoda AI, Spirit AI, X Square Robot, GigaAI
-    20: Apptronik, Walden Robotics, YOUIBOT, Holiday Robotics
+    20: Apptronik, Agile Robots, Walden Robotics, YOUIBOT
     24: SINCE 2024
 - id: ed168p
   type: invbets
@@ -4049,7 +4049,7 @@ slides:
   title: 'Who are the most
 
     active investors?'
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 300 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 301 rounds
   src: 169
   t:
     7: IDG CAPITAL
@@ -4465,7 +4465,7 @@ slides:
   type: x/ones_working_moonshots
   section: Top players
   title: Which ones are working on moonshots?
-  note: A moonshot is a highly ambitious technical or commercial goal with major uncertainty, even when the company already has working robots or customer pilots.
+  note: We call a moonshot a highly ambitious technical or commercial goal with major uncertainty, even when the company already has working robots or customer pilots
   src: 186
   t:
     7: '🏭
@@ -4567,7 +4567,7 @@ slides:
   type: x/fast_startups_growing
   section: Top players
   title: How fast are humanoid robotics startups growing?
-  note: Each line uses a public valuation milestone from founding to the latest disclosed financing or transaction. Private values are round-based and public values can move after listing.
+  note: We use for each line a public valuation milestone from founding to the latest disclosed financing. Private values are round-based and public values move after listing
   src: 190
   t:
     8: $0
@@ -4879,12 +4879,12 @@ slides:
     17: Figure AI raised a $1B Series C led by Parkway Venture Capital for its general-purpose bipedal humanoids {1|Figure}
     18: 2026 (FEB)
     19: Apptronik raised a $520M Series A led by B Capital for its industrial and factory humanoids {1|Apptronik}
-    20: 2026 (MAR)
-    21: Rhoda AI raised a $450M Series A led by Premji Invest for its humanoid developer and research platforms {1|Rhoda}
-    22: 2026 (APR)
-    23: TARS Robotics raised a $455M seed round led by GL Ventures for its general-purpose bipedal humanoids {1|Caixin}
-    24: 2026 (AUG)
-    25: XPENG Robotics raised $900M led by IDG Capital for its general-purpose bipedal humanoids {1|XPENG}
+    20: 2026 (APR)
+    21: TARS Robotics raised a $455M seed round led by GL Ventures for its general-purpose bipedal humanoids {1|Caixin}
+    22: 2026 (AUG)
+    23: XPENG Robotics raised $900M led by IDG Capital for its general-purpose bipedal humanoids {1|XPENG}
+    24: 2026 (NOV)
+    25: Agile Robots raised a $500M late-stage led by SoftBank Group for its industrial and factory humanoids {1|Forbes}
 - id: ed206
   type: x/success_look_like_market
   section: Startup strategies
@@ -5093,6 +5093,7 @@ slides:
   src: 210
   title: How Figure turned factory proof into a $39B valuation
   type: contrast
+  logo_src: ../../assets/logos/lib/figure-ai.png
 - id: ed211
   left: A REGULAR HUMANOID STARTUP
   logo: apptronik
@@ -5125,6 +5126,7 @@ slides:
   src: 211
   title: How Apptronik tied Apollo to industrial partners
   type: contrast
+  logo_src: ../../assets/logos/lib/apptronik.png
 - id: ed212
   left: A REGULAR HUMANOID STARTUP
   logo: agility
@@ -5157,6 +5159,7 @@ slides:
   src: 212
   title: How Agility turned warehouse work into public-market scale
   type: contrast
+  logo_src: ../../assets/logos/lib/agility-robotics.png
 - id: ed213
   left: A REGULAR HUMANOID STARTUP
   logo: unitree
@@ -5189,6 +5192,7 @@ slides:
   src: 213
   title: How Unitree made humanoids cheap enough to ship by the thousands
   type: contrast
+  logo_src: ../../assets/logos/unitree-robotics.png
 - id: ed214
   left: A REGULAR HUMANOID STARTUP
   logo: 1x
@@ -5221,6 +5225,7 @@ slides:
   src: 214
   title: How 1X turned home humanoids into a 10,000-unit preorder book
   type: contrast
+  logo_src: ../../assets/logos/lib/1x.png
 - id: ed215
   type: x/divider_9
   src: 215

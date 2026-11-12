@@ -52,6 +52,13 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Short date labels of timelines in capitals (« EARLY 2024 », « TODAY »). CHECK DATE_CASE.
 - A chart label never touches a bubble or another label. CHECK LABEL_ON_SHAPE.
 
+## Figures from the base
+- Every hand-written sentence that quotes the startups base uses `{db.key}` (facts written by make_db_slides.py in
+  db_facts.yaml), never a typed figure: a base update re-flows every slide. A YAML value starting with `{` is quoted.
+- A key written twice in edits.yaml / live.yaml / db_text.yaml stops the import (DUPLICATE KEY).
+- Icons copied from the reference market and still identical are listed by the import (MODEL ICON LEFT).
+- Broken images fail the audit (BROKEN_IMG). Notes start with « We » (NOTE_WE).
+
 ## Charts and maps
 - Splits by category (donut, shares): never copied from a study. Our own best estimate, explained in the note (up to 3
   lines, starting with « We »). Too weak to defend: drop the slide (Claude judges). Categories = the base's (markets.category).

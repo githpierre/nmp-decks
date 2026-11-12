@@ -1,11 +1,11 @@
 ed160:
   6: General-purpose bipedal humanoids took about 53% of the capital raised since 2024, far ahead of any other type of robot
-  7: Only 156 of the 300 rounds since 2024 disclosed an amount, and the median disclosed round was $48M
-  8: Chinese startups closed 229 of the 300 rounds and took about 62% of the money, against $5B for US startups
-  9: 53 rounds of $100M or more made up about 79% of all the capital raised in the market since 2024
+  7: Only {db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}
+  8: Chinese startups closed {db.cn_n} of the {db.n} rounds and took about {db.cn_money_pct}% of the money, against {db.us_money} for US startups
+  9: '{db.big_n} rounds of $100M or more made up about {db.big_pct}% of all the capital raised in the market since 2024'
   10: Figure’s $1B Series C is the biggest round since 2024, ahead of the $900M raised by XPENG Robotics in 2026
-  11: Seed was the most common round, with 134 of the 300 rounds, ahead of Series A with 71 and Series B with 32
-  note: Insights come from our tracker of 300 humanoid robotics equity rounds announced since January 2024, worth about $15.3B
+  11: Seed was the most common round, with {db.seed} of the {db.n} rounds, ahead of Series A with {db.series_a} and Series B with {db.series_b}
+  note: We drew these insights from our tracker of {db.n} humanoid robotics equity rounds announced since January 2024, worth about {db.total}
 ed162:
   6: 'BEFORE
 
@@ -16,12 +16,12 @@ ed162:
 
 
 
-    Since 2024, 300 rounds raised $15.3B. Chinese startups close three rounds in four, while Figure and Apptronik raise the biggest checks.'
-  note: Insights come from our tracker of humanoid robotics equity rounds, complete from January 2024, and from company releases and the press
+    Since 2024, {db.n} rounds raised {db.total}. Chinese startups close three rounds in four, while Figure and Apptronik raise the biggest checks.'
+  note: We used our tracker of humanoid robotics equity rounds, complete from January 2024, and company releases and the press
 ed167:
-  6: BIPEDAL GENERAL-PURPOSE
-  7: DEVELOPER PLATFORMS
-  8: INDUSTRIAL HUMANOIDS
+  6: GENERAL-PURPOSE BIPEDAL
+  7: DEVELOPER AND RESEARCH
+  8: INDUSTRIAL AND FACTORY
 ed169:
   7: IDG CAPITAL
   8: MATRIX CHINA

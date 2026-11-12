@@ -32,6 +32,7 @@ ed018:
     description: Companies building stronger human-form machines for demanding industrial handling and factory work
     emoji: 🏭
   categorization: Here, we categorize by type of robot
+  note: We could categorize the field in many ways, but these five robot types capture most current company strategies and make the map easier to read
 ed059:
   13: 'SKILL
 
@@ -478,5 +479,62 @@ ed032:
   7: Figure robots worked 1,250 hours at BMW
   13: Digit robots logged 65,000 paid hours
   15: UBTECH sold 1,079 full-size humanoids
-  19: 36 rounds of $100M or more in 2026
+  19: '{db.big_2026} rounds of $100M or more in 2026'
   note: We kept seven recent signals, each measured rather than promised, and each one gets its own slide next, before search interest
+ed048:
+  5: GENERAL-PURPOSE BIPEDAL
+  4: Two-legged humanoids built to learn many tasks, from Unitree and AgiBot, which together sold most of 2025's robots
+  8: INDUSTRIAL AND FACTORY
+  7: Humanoids sold for factory lines, led by UBTECH, whose Walker S robots made up most of its 2025 humanoid revenue
+  10: OTHER CATEGORIES
+  9: Developer, warehouse, service, home and hybrid-base humanoids, each still a small share of today's revenue
+  11: 🚶
+  12: 🏗️
+  13: 🧰
+  note: We use the categories of our market definition, the same as in the funding slides, with the five smallest grouped
+ed006:
+  icon_tl: 🤖
+ed019:
+  14: 🏭
+  15: 🚚
+  21: 🏠
+  22: 🛒
+ed020:
+  14: 🧑‍💻
+  21: 🏭
+  22: 🏠
+  note: We add commercial maturity as a third lens, because a robot sold as a developer platform, used in a paid pilot or working commercially is at a very different stage
+ed029:
+  13: 🚶
+  15: 🤝
+  16: 🏭
+ed030:
+  16: 🚚
+ed021:
+  note: We chose deployment leaders and strategically important platforms to show the range of approaches, and other companies could also make the top eight
+ed023:
+  note: We drew these directional shifts from recent deployments, product launches and customer agreements. They are not formal industry rules, but they recur across the evidence
+ed051:
+  note: We see current forecasts ranging from 28.1% to 50.6%, and use 40% as a rounded base case, with 30% and 50% as downside and upside scenarios
+ed096:
+  note: We base these directional estimates on current field progress, not consensus forecasts, and some bottlenecks will improve gradually rather than disappear in one year
+ed186:
+  note: We call a moonshot a highly ambitious technical or commercial goal with major uncertainty, even when the company already has working robots or customer pilots
+ed190:
+  note: We use for each line a public valuation milestone from founding to the latest disclosed financing. Private values are round-based and public values move after listing
+ed065-s1:
+  note:
+  - We give a simplified view, since every stakeholder is different, based on live automotive deployments and vendor product changes
+  - It gives a starting point, not a checklist, so priorities should be validated with plant operators, workers and automation teams
+ed065-s2:
+  note:
+  - We give a simplified view, since every stakeholder is different, based on live warehouse deployments and current product specifications
+  - It gives a starting point, not a checklist, so priorities should be validated with operators, workers, automation teams and fleet managers
+ed065-s3:
+  note:
+  - We give a simplified view, since every stakeholder is different, based on early home tests, product positioning and reported limitations
+  - It gives a starting point, not a checklist, so priorities should be validated with older adults, caregivers, households and care providers
+ed065-s4:
+  note:
+  - We give a simplified view, since every stakeholder is different, based on current humanoid service products and public-facing use cases
+  - It gives a starting point, not a checklist, so priorities should be validated with staff, customers, site managers and service operators

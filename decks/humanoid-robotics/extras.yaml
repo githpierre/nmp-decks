@@ -112,15 +112,15 @@
       - 97
       - 3
     - name: Share of funding rounds
-      total: 300 rounds since 2024
+      total: '{db.n} rounds since 2024'
       v:
-      - 76
-      - 24
+      - '{db.cn_rounds_pct}'
+      - '{db.row_rounds_pct}'
     - name: Share of money raised
-      total: $15.3B since 2024
+      total: '{db.total} since 2024'
       v:
-      - 62
-      - 38
+      - '{db.cn_money_pct}'
+      - '{db.row_money_pct}'
     story: 'The market is hot, and it is hottest in China: its makers ship almost every robot and close three funding rounds in four.
 
       US startups such as Figure and Apptronik still raise the biggest single checks.'
@@ -196,23 +196,23 @@
     type: sx_faceoff
     section: Market opportunity
     pill: SIGNAL
-    title: 'Humanoid startups closed 36 rounds of
+    title: 'Humanoid startups closed {db.big_2026} rounds of
 
-      $100M or more in 2026, against 4 in 2024'
+      $100M or more in 2026, against {db.big_2024} in 2024'
     cards:
     - name: '2024'
       stats:
-      - v: '4'
+      - v: '{db.big_2024}'
         l: rounds of $100M or more
-      - v: $1.6B
-        l: raised in all, in 65 rounds
+      - v: '{db.total_2024}'
+        l: raised in all, in {db.n_2024} rounds
     - name: 2026 SO FAR
       hl: true
       stats:
-      - v: '36'
+      - v: '{db.big_2026}'
         l: rounds of $100M or more
-      - v: $9.0B
-        l: raised in all, in 119 rounds
+      - v: '{db.total_2026}'
+        l: raised in all, in {db.n_2026} rounds
     story: Big checks are a sign of a hot market. Galbot, TARS, X Square Robot and Apptronik all raised $100M or more in 2026, and money in 2026 is already almost six times 2024.
     note:
     - We added up every equity round raised by humanoid robotics startups in our own database
@@ -263,8 +263,8 @@
     note:
     - We divided Unitree’s humanoid revenue by its units sold, from its prospectus;
     - the mix of models changed, so this is an average, not a like-for-like price
-- after: ed143
-  link: ed143 « PILOTS STALL AT SCALE » leads to a maker’s idle capacity
+- after: ed144
+  link: ed143-ed144 risks (pilots stall at scale) lead to a maker’s idle capacity
   slide:
     id: xh_capacity
     type: sx_faceoff

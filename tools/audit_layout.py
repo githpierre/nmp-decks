@@ -74,7 +74,9 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   // --- chart labels sitting on a bubble or another label (sx_round_timeline)
   sl.querySelectorAll('.rtl-lab[data-clash]').forEach(t => out.push([n, 'LABEL_ON_SHAPE', t.textContent.trim()]));
   // --- money written the way people say it
-  const tx = sl.querySelector('.srcl') ? '' : sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]);
+  const nt = sl.querySelector('.note'); if (nt && nt.textContent.trim() && !/^We\b/.test(nt.textContent.trim())) out.push([n, 'NOTE_WE', nt.textContent.trim().slice(0, 40)]);   // RULES: a note starts with « We »
+  sl.querySelectorAll('img').forEach(im => { if (!im.naturalWidth) out.push([n, 'BROKEN_IMG', (im.getAttribute('src') || '').split('/').pop()]); });   // 12 Nov 2026: contrast slides showed broken logo images
+  const tx = sl.querySelector('.srcl') ? '' : sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b|\$ ?\d{4,} ?M\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]);   // $1787M must read $1.8B (12 Nov 2026)
   // --- the slide title is always on two lines (Pierre, 12 Nov 2026)
   { const tt = sl.querySelector('.title'); if (tt) { const lh = parseFloat(getComputedStyle(tt).lineHeight), k = Math.round(tt.getBoundingClientRect().height / lh); if (k !== 2) out.push([n, 'TITLE_NOT_2_LINES', k + ' line(s)', tt.textContent.trim().slice(0, 50)]); } }
   if (sl.querySelector('[data-robotic]')) out.push([n, 'GRID_ROBOTIC', 'top players grid placed by the automatic pattern: give `pos` (meaning) or `tiles` (live page)']);

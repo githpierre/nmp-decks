@@ -81,7 +81,7 @@ def main():
     for y in ('2024', '2025', '2026'):
         rs = sorted([r for r in R if r['date'][:4] == y], key=lambda r: -r['amt']); s = sum(r['amt'] for r in rs)
         if s: pb.append(dict(x=y if y != today[:4] else f'{y} (YTD)', v=round(100 * rs[0]['amt'] / s), ann=f"{rs[0]['name']}’s {money(rs[0]['amt'])}, out of {len(rs)} rounds"))
-    D['ed164'] = dict(type='fundbars', unit='pct', t=None, bars=pb, note=['For each year, we divide the largest round by all the disclosed capital in our tracker',
+    D['ed164'] = dict(type='fundbars', unit='pct', t=None, bars=pb, note=['We divide, for each year, the largest round by all the disclosed capital in our tracker',
                                                                            'IPOs, debt and grants are left out, and 2026 only runs to mid-November for now'])
     # biggest rounds: last twelve months / before
     def raises(rs, n=4):
@@ -106,7 +106,7 @@ def main():
     for i, (c, rs) in enumerate(top):
         ex = []; [ex.append(r['name']) for r in sorted(rs, key=lambda r: -r['amt']) if r['name'] not in ex]
         t167[6 + i] = c.upper(); t167[[9, 11, 12][i]] = str(len(rs)); t167[[13, 15, 16][i]] = money(sum(r['amt'] for r in rs)); t167[[17, 19, 20][i]] = ', '.join(ex[:4])
-    t167['note'] = f'Data comes from our tracker of {len(R)} {N} equity rounds announced since January 2024, worth about {money(tot)}. IPOs, debt and grants are left out'
+    t167['note'] = f'We used our tracker of {len(R)} {N} equity rounds announced since January 2024, worth about {money(tot)}. IPOs, debt and grants are left out'
     D['ed167'] = t167
     # investors (leads)
     inv = collections.defaultdict(list)
@@ -134,9 +134,24 @@ def main():
     big100 = [r for r in R if r['amt'] >= 1e8]; print('rounds >= $100M', len(big100), money(sum(r['amt'] for r in big100)), f'{100 * sum(r["amt"] for r in big100) / tot:.0f}%')
     print('biggest', [(r['name'], money(r['amt']), r['date']) for r in sorted(R, key=lambda r: -r['amt'])[:5]])
     print('stages', collections.Counter(stage(r) or 'undisclosed stage' for r in R).most_common(5))
+    # facts every hand-written sentence quotes as {db.key} (db_text.yaml, extras.yaml, edits.yaml): a base update can never leave a stale figure (12 Nov 2026)
+    stg = collections.Counter(stage(r) for r in R); cn = [r for r in R if r['country'] == 'China']
+    F = dict(n=len(R), total=money(tot), cn_n=len(cn), cn_rounds_pct=round(100 * len(cn) / len(R)), cn_money_pct=round(100 * sum(r['amt'] for r in cn) / tot),
+             us_money=money(amc['United States']), big_n=len(big100), big_pct=round(100 * sum(r['amt'] for r in big100) / tot), disclosed=len(dis), median=money(st.median(dis)),
+             seed=stg['Seed'], series_a=stg['Series A'], series_b=stg['Series B'], until=max(r['date'] for r in R))
+    F['row_rounds_pct'] = 100 - F['cn_rounds_pct']; F['row_money_pct'] = 100 - F['cn_money_pct']
+    for y in sorted({r['date'][:4] for r in R}):
+        ry = [r for r in R if r['date'][:4] == y]; by = [r for r in ry if r['amt'] >= 1e8]
+        F[f'n_{y}'] = len(ry); F[f'total_{y}'] = money(sum(r['amt'] for r in ry)); F[f'big_{y}'] = len(by)
+    (ROOT / 'decks' / H / 'db_facts.yaml').write_text(yaml.dump(F, allow_unicode=True, sort_keys=False)); print('facts', F)
+    def fill(v):
+        if isinstance(v, str): return re.sub(r'\{db\.(\w+)\}', lambda m: str(F[m.group(1)]), v)
+        if isinstance(v, dict): return {k: fill(x) for k, x in v.items()}
+        if isinstance(v, list): return [fill(x) for x in v]
+        return v
     tx = ROOT / 'decks' / H / 'db_text.yaml'          # sentences that need judgment (ed160, ed162), written from the figures above
     if tx.exists():
-        for k, v in (yaml.safe_load(tx.read_text()) or {}).items(): D.setdefault(k, {}).update(v)
+        for k, v in (yaml.safe_load(tx.read_text()) or {}).items(): D.setdefault(k, {}).update(fill(v))
     out = ROOT / 'decks' / H / 'db.yaml'
     out.write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000)); print(out)
 
