@@ -13,8 +13,9 @@
       8: SIGNAL
       12: $7B
       13: $1.44B
-      11: In January 2024, AbbVie’s deal with Umoja was worth up to $1.44 billion, the most anyone had put on an in vivo CAR-T platform. In April 2026, Lilly agreed to pay up to $7 billion for Kelonia, almost five times more. In between, AbbVie paid up to $2.1 billion for Capstan. Pharma now pays platform prices before late-stage data, so a startup with early human results can sell for billions.
+      11: Prices for in vivo CAR-T platforms keep climbing, a classic sign of a hot market. In January 2024, AbbVie’s deal with Umoja was worth up to $1.44 billion, then the record. In April 2026, Lilly agreed to pay up to $7 billion for Kelonia, almost five times more, after AbbVie paid up to $2.1 billion for Capstan. Pharma now pays platform prices before late-stage data.
     note: Values are the maximum announced in each deal, milestones included. Data comes from AbbVie and Lilly press releases
+  link: ed028 says 2025 is when the market became hot because of strategic acquisitions; the deal-size jump is the proof
 - after: ed032
   slide:
     id: xs_1b
@@ -50,6 +51,7 @@
         Kelonia for up to $7B'
       31: APR 2026
     note: Data comes from the buyers’ announcements, with the maximum value of each deal, milestones included
+  link: ed028 names the buyers (AbbVie, AstraZeneca, Gilead, BMS); this slide lists the six buyouts
 - after: ed039p
   slide:
     id: xs_2a
@@ -69,6 +71,7 @@
     note:
     - Data comes from Kelonia’s ASCO 2026 interim results (cutoff April 21, 2026), reported by Fierce Biotech and pharmaphorum
     pill: SIGNAL
+  link: 'the market-opportunity signals: first clean human readout, weeks before the Lilly deal'
 - after: ed152
   slide:
     id: xs_2b
@@ -84,8 +87,9 @@
       8: ''
       12: '18'
       13: '4'
-      11: Kelonia first showed KLN-1010 data on 4 myeloma patients at ASH in December 2025. By the ASCO 2026 data cutoff in April, 18 patients had been treated, and all of them had responded. A larger cohort with the same result makes it much less likely that the first signal was luck, and it gives buyers and doctors a dataset they can start to trust.
+      11: 'This is the first driver at work: larger human studies. Kelonia first showed KLN-1010 data on 4 myeloma patients at ASH in December 2025. By the ASCO 2026 cutoff in April, 18 patients had been treated, and all of them had responded. A larger cohort with the same result makes luck much less likely and gives buyers and doctors a dataset they can trust.'
     note: Data comes from Kelonia’s ASH 2025 and ASCO 2026 presentations, reported by Fierce Biotech
+  link: 'ed152, first driver: durable responses from larger human studies'
 - after: ed153
   slide:
     id: xs_3a
@@ -99,9 +103,10 @@
       value: '16'
     - label: Of them reached complete B-cell depletion, the effect behind the immune reset
       value: 100%
-    why: 'It matters because it is the first neurologic cohort: in vivo CAR-T now reaches beyond blood cancers to chronic autoimmune diseases with far more patients.'
+    why: 'Each new indication adds learning across the same platform: this first neurologic cohort takes in vivo CAR-T beyond blood cancers, to chronic autoimmune diseases with far more patients.'
     note:
     - Data comes from a report of 16 patients published in the New England Journal of Medicine in September 2026
+  link: ed153, card « Each new indication adds learning that can transfer across the same platform »
 - after: iv_deals
   slide:
     id: xs_1d
@@ -132,6 +137,7 @@
 
         One deal now sets the price of the whole field, and every startup with human data is measured against it.'
     note: 'Maximum announced values, milestones included: Kelonia $7B (Lilly), Orna $2.4B (Lilly), Capstan $2.1B (AbbVie), Orbital $1.5B (BMS), EsoBiotec $1B (AstraZeneca), Interius $350M (Kite). Sources: buyers’ press releases'
+  link: 'investor-bets chapter: Kelonia buyout vs the other five'
 - after: iv_safety
   slide:
     id: xs_4c
@@ -159,6 +165,7 @@
 
         All four myeloma patients of the first study responded. In the follow-up published in Nature Medicine, only one was still in stringent complete response after 15 months.'
     note: Data comes from the extended follow-up of the four ESO-T01 patients, published in Nature Medicine in October 2026
+  link: 'iv_safety, GENE CONTROL card: regulators still need proof that responses last'
 - after: ed099p
   slide:
     id: xs_5a
@@ -176,6 +183,7 @@
     - v: '4'
       l: Myeloma patients in the study, followed for up to 15 months
     story: It matters because delivery to the right cells is the core technical bottleneck of in vivo CAR-T, and this is early human proof that it can be engineered.
+  link: the slide before is about delivery tech; off-target delivery is the core test
 - after: ed159
   slide:
     id: xs_n4
@@ -215,6 +223,7 @@
     note:
     - A round counts as a repeat when the same in vivo CAR-T startup had already raised
     - in the 12 months before, in our own funding database, from 2024 to November 2026
+  link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
 - after: ed160
   slide:
     section: Investor bets
@@ -251,6 +260,7 @@
     id: xs_n1
     type: sx_split_compare
     chart_w: 400
+  link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
 - after: ed169
   slide:
     id: xs_n3
@@ -277,6 +287,7 @@
     note:
     - We looked at the investors of every equity round raised by in vivo CAR-T startups
     - in our own funding database, and counted the rounds where a large drugmaker invested
+  link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
 - after: ed167
   slide:
     id: xs_n2
@@ -306,12 +317,13 @@
     note:
     - We sorted the equity rounds of in vivo CAR-T startups in our database
     - by delivery technology, from January 2024 to November 2026
+  link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
 - after: ed164
   slide:
     section: Investor bets
     title: 'Five rounds of $100M or more made up
 
-      72% of in vivo CAR-T funding since 2024'
+      72% of recent in vivo CAR-T funding'
     note:
     - We placed every equity round raised by in vivo CAR-T startups in our own database
     - on a timeline, sized by its disclosed amount, from January 2024 to November 2026
@@ -500,6 +512,7 @@
     id: xs_n5
     type: sx_round_timeline
     legend: false
+  link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
 - after: ed162
   slide:
     id: xs_n6
@@ -543,3 +556,4 @@
     note:
     - We sorted every equity round raised by in vivo CAR-T startups
     - in our own database by stage, from January 2024 to November 2026
+  link: 'Investor bets chapter: each slide adds one fact on who raises money and how'

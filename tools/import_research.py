@@ -262,6 +262,8 @@ def main():
         for e in yaml.safe_load(xf.read_text()) or []:
             i = next((j for j, y in enumerate(S) if y['id'] == e['after']), None)
             if i is None: print('extra slide: anchor not found', e['after']); continue
+            if not e.get('link'):                  # RULES.md « liant » : the slide before must announce the extra slide
+                print('extra slide: no link written for', e['slide'].get('id'), '(say which phrase of', e['after'], 'leads to it)')
             S.insert(i + 1, e['slide'])
     D = {k: v for k, v in demo.items() if k != 'slides'}; D['slug'] = Path(a.out).name; D['slides'] = S
     (out / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))

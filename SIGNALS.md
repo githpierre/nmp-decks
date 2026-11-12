@@ -92,3 +92,4 @@ Refused on 12 Nov: N8 searches vs funding (reads as hype, not opportunity), N10 
 - Gardés : C01 sx_split_compare, C02 sx_faceoff, C03 sx_side, C04 sx_stacked_cols, C05 sx_round_timeline, C08 sx_butterfly, C09 sx_league. Nouveau : sx_stat_strip (bandeau de chiffres).
 - Refusés : C06, C07, C10 (ne plus proposer).
 - Exemple In Vivo CAR-T : decks/in-vivo-car-t/extras.yaml (14 slides).
+- Liant obligatoire avec la slide d'avant (voir RULES.md « Liant des slides complémentaires ») ; champ `link:` dans extras.yaml.

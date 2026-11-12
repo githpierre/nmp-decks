@@ -341,3 +341,14 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - Barres 100% (sx_split_compare) : largeur réglée par `chart_w` (400 par défaut, pas pleine largeur).
 - Face-à-face (sx_faceoff) : carte mise en avant 8px rose, autre carte 3px #334D54.
 - Classement (sx_league) : lignes en flex, séparateurs alignés sur toute la largeur, y compris sous l'en-tête.
+
+## Liant des slides complémentaires (12/11/2026, 16:47)
+- Une slide complémentaire ne doit jamais arriver « comme un cheveu sur la soupe » : la slide juste avant doit déjà évoquer l'idée (un risque, un driver, un acheteur…), et la slide complémentaire en est l'exemple illustratif.
+- Si la slide d'avant n'en parle pas, on réécrit une de ses cases ou phrases pour créer le lien (edits.yaml), ou on déplace la slide après celle qui en parle déjà.
+- La slide complémentaire peut aussi nommer le lien dans son texte (« This is the first driver at work: … »).
+- Chaque entrée d'extras.yaml porte un champ `link:` (quelle phrase de la slide d'avant mène à elle). import_research.py signale toute entrée sans `link`.
+- Slide SIGNAL : le texte explique subtilement pourquoi ce fait montre que le marché est chaud, dès la première phrase.
+- Titres datés : préférer « recent » / « recently » à « since 2024 » dans le titre ; la période exacte va dans la note en bas à gauche.
+
+## Audit de fraîcheur (à mettre en place à la prochaine mise à jour d'un deck)
+- Toute mention relative au temps (« 2026 so far », « this year », « so far », « today ») est revue à chaque mise à jour : on recalcule le chiffre ou on réécrit la mention, pour qu'un lecteur de l'année suivante ne lise rien de faux.
