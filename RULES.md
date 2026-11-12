@@ -246,7 +246,8 @@ Mise en page
 - Refontes des formats qu'il a dessinés (arbre « Qui paie », intercalaires, expérience client).
 
 - Slide « bold bets » : modèle deux colonnes « Next 5 years / 5 to 10 years », icône à gauche de chaque pari (choix 11 Nov).
-- Slides de contraste « How X turned… » : logo centré entre les deux blocs, sans flèche (choix 11 Nov, CSS du modèle).
+- Slides de contraste « How X turned… » (12/11, d'après les anciennes slides PPT Aalo, Corteva, Bayer) : case gauche à fin contour gris et texte gris, petite flèche grise, tuile logo blanche (30 px, logo qui la remplit), case droite à cadre rose 2 px sur fond navy foncé, texte blanc ; en-têtes sable centrés au-dessus de chaque colonne. Remplace le choix du 11/11 « sans flèche ». Attention : la classe générique `.lt` est en position absolue, la tuile du contraste doit la remettre en `position:static` (sinon le logo recouvre la flèche).
+- Logo manquant dans une slide : chaîne favicon (Google s2 en 256 px, posé sur blanc) avant de demander à Pierre ; Interius (interiusbio.com) récupéré ainsi le 12/11.
 
 Séries (1/2, 2/3…)
 25. Les pages d'une même série (même titre) ont EXACTEMENT le même design et les mêmes décisions (icônes, pastilles, rails…). Automatique : make_decisions.py recopie toute décision d'une page aux autres pages de la série ; l'audit final compare les pages d'une série côte à côte. (Raté le 11/11 : 208 avait gardé ses emojis alors que 207 avait les icônes, parce que la décision avait été listée par numéro de slide et pas par série.)
