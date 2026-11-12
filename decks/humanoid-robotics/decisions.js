@@ -326,8 +326,26 @@ window.F = (() => {
     /* capitals are wider: a label that fitted on one line must stay on one line (shrink a little, never wrap) */
     const lh = parseFloat(getComputedStyle(sp).lineHeight) || 20; let k = 0;
     while (ink0 && ink(sp, sl) && ink(sp, sl).h > ink0.h + lh * 0.5 && k++ < 12) el.querySelectorAll('span').forEach(x => { x.style.fontSize = (parseFloat(getComputedStyle(x).fontSize) * 0.96) + 'px'; }); }); };
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [dateCaps, vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } });
-    try { if (window.__fitapi && window.__fitapi.slideFit) window.__fitapi.slideFit(sl); } catch (e) { console.error('refit', sl.dataset.n, e); } };   // equal line counts on the final geometry
+
+  // centred sentences of 2 lines or more: lines as equal as possible, like the titles (Pierre, 12 Nov 2026). CHECK TEXT_BALANCE
+  const balance = sl => { sl.querySelectorAll('p, div').forEach(el => { if (el.closest('.title, .note, .foot-label, .foot-brand, .section, .pillrow')) return;
+    if (el.querySelector('p, div, br, svg, img')) return; const t = el.textContent.trim(); if (t.length < 50) return;
+    const cs = getComputedStyle(el); if (cs.textAlign !== 'center') return; const lh = parseFloat(cs.lineHeight) || parseFloat(cs.fontSize) * 1.3;
+    if (el.getBoundingClientRect().height < lh * 1.6) return; el.style.textWrap = 'balance'; mark('balance', sl); }); };
+  // SIGNAL slides: the content block sits centred between the pill and the note, never stuck under the pill (Pierre, 12 Nov 2026). CHECK PILL_GAP
+  const SKIP = '.tri, .section, .title, .subtitle, .pillrow, .note, .wtag, .foot-line, .foot-label, .foot-brand, script, style';
+  const contentBox = sl => { const R = sl.getBoundingClientRect(); let top = 1e9, bot = -1e9; const els = [];
+    [...sl.children].forEach(c => { if (c.matches(SKIP)) return; (c.classList.contains('raw') ? [...c.children] : [c]).forEach(e => { if (e.matches && e.matches(SKIP)) return;
+      const r = e.classList && e.classList.contains('rx-t') ? ink(e, sl) : rect(e, sl); els.push(e); if (!r || r.h < 1 || r.w < 1 || getComputedStyle(e).visibility === 'hidden') return; top = Math.min(top, r.y); bot = Math.max(bot, r.b); }); });
+    return {top, bot, els}; };
+  const pillCentre = sl => { const pr = sl.querySelector('.pillrow .pill'); if (!pr || /^pp_/.test(sl.dataset.type || '')) return;   // product-page twins keep the live layout const R = sl.getBoundingClientRect(), p = pr.getBoundingClientRect().bottom - R.top;
+    const n = sl.querySelector('.note') || sl.querySelector('.foot-line'); const nb = n.getBoundingClientRect().top - R.top; const c = contentBox(sl); if (c.top > 1e8) return;
+    const dy = Math.round(((nb - c.bot) - (c.top - p)) / 2); if (dy < 8) return;
+    c.els.forEach(e => { e.style.transform = ((e.style.transform || '') + ' translateY(' + dy + 'px)').trim(); }); sl.dataset.pillDy = dy; mark('pillCentre', sl); };
+  const all = sl => { try { names(sl); } catch (e) {} try { balance(sl); } catch (e) {}
+    if (sl.querySelector('.raw')) { [dateCaps, vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } });
+      try { if (window.__fitapi && window.__fitapi.slideFit) window.__fitapi.slideFit(sl); } catch (e) { console.error('refit', sl.dataset.n, e); } }   // equal line counts on the final geometry
+    try { pillCentre(sl); } catch (e) { console.error('pillCentre', sl.dataset.n, e); } };   // last: on the final geometry
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
 

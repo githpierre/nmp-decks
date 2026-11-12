@@ -42,3 +42,289 @@
     note:
     - We placed each company by how its business model works, from pricing pages and filings
     - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: signal 1 of « What signals suggest the market is hot right now? »
+  slide:
+    id: xh_unitree
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Unitree sold 5,215 humanoids in 2025,
+
+      up from 5 two years earlier'
+    t:
+      9: '5'
+      10: '2023'
+      12: 5,215
+      13: '2025'
+      15: ×1,000
+      16: WHY IT IS HOT
+      17: 'One maker went from a handful of lab robots to thousands of sales in two years, and these are audited figures from its IPO prospectus.
+
+        In 2024 it sold 412. Its price cuts and online store turned humanoids into a product people can actually buy.'
+    vbars:
+    - 5
+    - 5215
+    note: We used the production and sales table of Unitree’s STAR Market prospectus, with sales counted when revenue is recognized
+- after: xh_unitree
+  link: signal 2
+  slide:
+    id: xh_ship
+    type: sx_stat_strip
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Humanoid shipments nearly quadrupled
+
+      in one year, to 19,100 robots'
+    headline: The first half of 2026 against the first half of 2025, worldwide
+    stats:
+    - v: 19,100
+      l: Humanoid robots shipped in the first half of 2026, around the world
+    - v: 5,100
+      l: Shipped in the first half of 2025, a year earlier
+    - v: ×3.7
+      l: Growth in one year, the jump from prototypes to series production
+    story: 'This is a sign of a hot market: volumes now grow by multiples, not percent. Most of the robots come from Chinese makers such as Unitree, AgiBot and UBTECH.'
+    note:
+    - We used Smart Analytics Global shipment estimates for H1 2025 and H1 2026,
+    - as reported by China Daily in August 2026, the first half of each year
+- after: xh_ship
+  link: signal 3
+  slide:
+    id: xh_china
+    type: sx_split_compare
+    section: Market opportunity
+    pill: SIGNAL
+    chart_w: 400
+    title: 'Chinese makers shipped 97% of
+
+      the humanoids sold in early 2026'
+    big: 97%
+    groups:
+    - name: China
+      col: '#FB0161'
+    - name: Rest of the world
+      col: '#7FA9C9'
+    rows:
+    - name: Share of humanoids shipped
+      total: First half of 2026
+      v:
+      - 97
+      - 3
+    - name: Share of funding rounds
+      total: 300 rounds since 2024
+      v:
+      - 76
+      - 24
+    - name: Share of money raised
+      total: $15.3B since 2024
+      v:
+      - 62
+      - 38
+    story: 'The market is hot, and it is hottest in China: its makers ship almost every robot and close three funding rounds in four.
+
+      US startups such as Figure and Apptronik still raise the biggest single checks.'
+    note:
+    - We took shipments from Smart Analytics Global, first half of 2026,
+    - and rounds and money from our database of equity rounds since 2024
+- after: xh_china
+  link: signal 4
+  slide:
+    id: xh_figure
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Figure’s robots worked 1,250 hours
+
+      on a live BMW assembly line'
+    items:
+    - value: 1,250
+      label: Hours of work on BMW’s Spartanburg line, in 10-hour shifts on weekdays
+    - value: 90,000
+      label: Sheet-metal parts loaded by Figure 02 robots over about ten months
+    - value: 30,000
+      label: BMW X3 cars that these robots helped to build
+    why: This is a strong signal because it is one of the first humanoid fleets measured on a real production line, not in a lab or a video.
+    note: We used BMW Group’s report on the Figure 02 deployment at its Spartanburg plant, published in 2026
+- after: xh_figure
+  link: signal 5
+  slide:
+    id: xh_digit
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Agility’s Digit robots have worked
+
+      65,000 hours for paying customers'
+    items:
+    - value: 65,000
+      label: Hours of work logged by Digit robots at customer sites in North America
+    - value: 100,000
+      label: Totes moved by Digit at the GXO warehouse in Flowery Branch, Georgia
+    - value: 98%
+      label: Share of tasks done right, as reported by Agility for its robots at GXO
+    why: This is a strong signal because customers pay for this work every month, and GXO is now adding two more US sites.
+    note: We used Agility Robotics’ Digit 5 announcement of September 15, 2026
+- after: xh_digit
+  link: signal 6
+  slide:
+    id: xh_ubtech
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'UBTECH sold 1,079 full-size humanoids
+
+      in 2025, up from 3 a year earlier'
+    t:
+      9: '3'
+      10: '2024'
+      12: 1,079
+      13: '2025'
+      15: ×360
+      16: WHY IT IS HOT
+      17: 'A second listed maker confirms the jump is not only Unitree’s: UBTECH went from almost no full-size robots to four-digit sales in one year.
+
+        Most of them are Walker S2 robots for factories, sold to carmakers and electronics plants.'
+    vbars:
+    - 3
+    - 1079
+    note: We used UBTECH’s audited 2025 annual report, which gives 1,079 units and the growth rate that puts 2024 at 3
+- after: xh_ubtech
+  link: signal 7
+  slide:
+    id: xh_megarounds
+    type: sx_faceoff
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Humanoid startups closed 36 rounds of
+
+      $100M or more in 2026, against 4 in 2024'
+    cards:
+    - name: '2024'
+      stats:
+      - v: '4'
+        l: rounds of $100M or more
+      - v: $1.6B
+        l: raised in all, in 65 rounds
+    - name: 2026 SO FAR
+      hl: true
+      stats:
+      - v: '36'
+        l: rounds of $100M or more
+      - v: $9.0B
+        l: raised in all, in 119 rounds
+    story: Big checks are a sign of a hot market. Galbot, TARS, X Square Robot and Apptronik all raised $100M or more in 2026, and money in 2026 is already almost six times 2024.
+    note:
+    - We added up every equity round raised by humanoid robotics startups in our own database
+    - IPOs, debt and grants are left out, 2026 runs to mid-November, and undisclosed rounds count as zero
+- after: ed050
+  link: ed050 « What are the growth rate estimates from different sources online? » shows forecasts disagree
+  slide:
+    id: xh_forecast
+    type: x/sig_forecast_gap
+    section: Market size
+    title: 'Forecasts of humanoid sales in 2035
+
+      are 14x apart'
+    t:
+      7: Interact Analysis
+      9: 0.7M
+      10: Omdia
+      12: 2.6M
+      13: Goldman Sachs
+      15: 6.5M
+      16: Yano Research
+      18: 7.2M
+      19: Bank of America
+      21: 10M
+      23: 14x
+      24: 'That is the gap between Interact Analysis and Bank of America for robots sold in 2035.
+
+        Goldman Sachs raised its own forecast 4.6 times in 2026, from 1.4 million robots: nobody knows yet how fast factories will buy.'
+    note: We compared five published forecasts of humanoid robots sold each year in 2035, from the publishers’ reports and the financial press. Definitions vary from one publisher to the next
+- after: iv_safety
+  link: iv_safety « How fast is the price of a humanoid falling? » leads to Unitree’s real prices
+  slide:
+    id: xh_asp
+    type: sx_stat_strip
+    section: Market challenges
+    title: 'Unitree’s average humanoid price
+
+      fell 36% in one year'
+    headline: What Unitree really earned per humanoid sold
+    stats:
+    - v: $36K
+      l: Average revenue per humanoid in 2024, about RMB 260,000
+    - v: $23K
+      l: Average revenue per humanoid in 2025, about RMB 166,000
+    - v: -36%
+      l: In one year, as cheaper models such as the G1 took most of the sales
+    story: It matters because cheaper robots widen the market from labs to factories and homes, and it is a real average price, not a list price or a target.
+    note:
+    - We divided Unitree’s humanoid revenue by its units sold, from its prospectus;
+    - the mix of models changed, so this is an average, not a like-for-like price
+- after: ed143
+  link: ed143 « PILOTS STALL AT SCALE » leads to a maker’s idle capacity
+  slide:
+    id: xh_capacity
+    type: sx_faceoff
+    section: Market challenges
+    title: 'UBTECH sold at only 31% of its
+
+      factory capacity in early 2026'
+    cards:
+    - name: CAPACITY
+      stats:
+      - v: 6,000+
+        l: full-size humanoids a year, as stated by UBTECH
+      - v: 100%
+        l: of what its lines can build
+    - name: SALES PACE
+      hl: true
+      stats:
+      - v: 1,842
+        l: robots a year, at its first-half 2026 pace
+      - v: 31%
+        l: of its capacity, so about 69% is idle
+    story: Factories are being built faster than customers buy. Makers must turn pilots into fleets quickly, or their new lines will stay idle and burn cash.
+    note:
+    - We doubled the 921 humanoids UBTECH sold in the first half of 2026,
+    - and compared it with the yearly capacity UBTECH states in its filings
+- after: ed189
+  link: ed189 « How long did it take them to pass $1B? »
+  slide:
+    id: xh_values
+    type: sx_league
+    section: Top players
+    title: 'Four humanoid makers are now
+
+      worth $2.5B or more'
+    big: '4'
+    h1: RANK
+    h2: WORTH
+    kicker: WHY IT MATTERS
+    rows:
+    - n: 1
+      name: Figure
+      src: ../../assets/logos/lib/figure-ai.png
+      v: $39B
+      what: Series C, September 2025
+    - n: 2
+      name: Unitree
+      src: ../../assets/logos/unitree-robotics.png
+      v: ≈$9B
+      what: Shanghai IPO price, August 2026
+    - n: 3
+      name: Apptronik
+      src: ../../assets/logos/lib/apptronik.png
+      v: ≈$5B
+      what: Series A extension, February 2026
+    - n: 4
+      name: Agility Robotics
+      src: ../../assets/logos/lib/agility-robotics.png
+      v: $2.5B
+      what: Nasdaq listing deal, June 2026
+    story: 'Investors already pay billions for makers that sell hundreds or a few thousand robots: they price the factories of the future, not today’s sales.'
+    note:
+    - We used the latest disclosed valuation of each company,
+    - so dates differ and public values move every day after a listing

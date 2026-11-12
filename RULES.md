@@ -25,6 +25,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Chapter kicker is the chapter, never the market name. CHECK KICKER_IS_MARKET.
 - Note (bottom left): starts with « We », 2 balanced lines by default (YAML list, no dots), 1 line if one idea fits,
   3 only for 3 important ideas; never runs into the footer label. CHECK NOTE_BALANCE, NOTE_WIDTH.
+- Centred sentences of 2 lines or more (stories, why texts): lines as equal as possible, like titles (fixlib `balance`).
 - Footer label: Pierre's list `data/market_labels.txt`, one line. CHECK in build.py, FOOT_LABEL.
 
 ## Text boxes and grids
@@ -81,6 +82,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - One design at most twice among a deck's extra slides. Side text never wider than its kicker, centered.
 - Market opportunity: the signals slide lists 6-8 signals, each followed by its SIGNAL slide, in the same order;
   its first sentence says why the fact shows the market is hot.
+- SIGNAL slides: the content block is centred between the pill and the note, never stuck under the pill (fixlib
+  `pillCentre`, skipped on product-page twins).
 
 ## Delivery
 - Name « <Market> - Q<n> <year> - newmarketpitch.com ©.pdf », quarter of the day of production.
