@@ -165,7 +165,9 @@ window.F = (() => {
   // left to right, in proportion (the tallest keeps its height, bottoms stay put), and the value label above each bar follows it (12 Nov)
   const vbars = sl => { const V = (sl.dataset.vbars || '').split(',').map(Number).filter(v => !isNaN(v)); if (!V.length) return;
     const R = sl.getBoundingClientRect();
-    const bars = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(sv => { const p = sv.querySelector('path'); return p && /FB0161/i.test(p.getAttribute('fill') || '') && sv.getBoundingClientRect().height > 60 && sv.getBoundingClientRect().width < 90; })
+    const bars = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(sv => { const p = sv.querySelector('path'); if (!p) return false;   // plain filled rectangles, pink or grey, tall and narrow
+      const f = (p.getAttribute('fill') || '').toUpperCase(), d = (p.getAttribute('d') || '').replace(/\s/g, ''), r = sv.getBoundingClientRect();
+      return f && f !== 'NONE' && !/062A3C|0A3243/.test(f) && /^M0,?0H[\d.]+V[\d.]+H0Z$/.test(d) && r.height > 60 && r.width < 140 && r.width < r.height * 1.5; })
       .sort((a, b) => a.getBoundingClientRect().left - b.getBoundingClientRect().left);
     if (bars.length !== V.length) return;
     const hs = bars.map(b => parseFloat(b.querySelector('path').getAttribute('d').match(/V([\d.]+)/)[1])), H = Math.max(...hs), mx = Math.max(...V);

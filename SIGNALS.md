@@ -33,7 +33,10 @@ Growth drivers, Investor bets… The kicker on top is set from the chapter where
 Only in the Market opportunity chapter, and it says SIGNAL. No pill anywhere else (Pierre, 12 Nov).
 
 ## Validated templates
-(none yet)
+Validated by Pierre on 12 Nov 2026 (in vivo CAR-T examples in `decks/extra-invivo`, ids in brackets; inserted in the deck through `decks/in-vivo-car-t/extras.yaml`):
+- deal-timeline (1B), key-trend with proportional bars (1C, 2B), kpi-trio (2A, 3A).
+Refused: value-ladder as a list of deal values (1A), key-trend for a fall in a tiny cohort (4A).
+- Pierre, 12 Nov: the TEMP series formats (sig_*: dominance, announced-vs-built, funnels, curves, dot grids…) must be used too, not only the EdTech signal templates. Each review round shows them.
 
 ## Formats
 

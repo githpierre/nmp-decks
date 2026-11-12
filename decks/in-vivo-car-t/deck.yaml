@@ -561,6 +561,21 @@ slides:
     6: In 2025, human data began to back in vivo CAR-T, and AbbVie, AstraZeneca, Gilead and BMS bought into it
     7: '2025'
     12: Before that, the field was venture-backed platforms and animal data, with first trials starting in late 2024
+- id: xs_1c
+  type: x/student_use_ai_homework_jumped
+  section: Market opportunity
+  title: 'The biggest in vivo CAR-T deal
+
+    jumped from $1.44B to $7B'
+  vbars:
+  - 1.44
+  - 7
+  t:
+    8: SIGNAL
+    12: $7B
+    13: $1.44B
+    11: In January 2024, AbbVie’s deal with Umoja was worth up to $1.44 billion, the most anyone had put on an in vivo CAR-T platform. In April 2026, Lilly agreed to pay up to $7 billion for Kelonia, almost five times more. In between, AbbVie paid up to $2.1 billion for Capstan. Pharma now pays platform prices before late-stage data, so a startup with early human results can sell for billions.
+  note: Values are the maximum announced in each deal, milestones included. Data comes from AbbVie and Lilly press releases
 - id: ed029
   type: x/happened_between
   section: Market opportunity
@@ -648,6 +663,39 @@ slides:
     16: '6'
     19: Umoja won FDA Fast Track status for UB-VV111
     20: '7'
+- id: xs_1b
+  type: x/big_buyers_now_pay_up
+  section: Market opportunity
+  title: 'Big pharma bought six in vivo
+
+    CAR-T platforms in 13 months'
+  t:
+    6: SIGNAL
+    14: 'AstraZeneca agrees to buy
+
+      EsoBiotec for up to $1B'
+    16: MAR 2025
+    22: 'AbbVie agrees to buy
+
+      Capstan for up to $2.1B'
+    23: JUN 2025
+    24: 'Kite agrees to buy
+
+      Interius for $350M'
+    25: AUG 2025
+    26: 'BMS agrees to buy
+
+      Orbital for $1.5B'
+    27: OCT 2025
+    28: 'Lilly agrees to buy
+
+      Orna for up to $2.4B'
+    29: FEB 2026
+    30: 'Lilly agrees to buy
+
+      Kelonia for up to $7B'
+    31: APR 2026
+  note: Data comes from the buyers’ announcements, with the maximum value of each deal, milestones included
 - id: ed039p
   type: pp_trends
   section: Market opportunity
@@ -663,6 +711,23 @@ slides:
   - We tracked how often people around the world googled this term over the last five years
   - We also corrected the curve for a jump in Google's counts that happened in August 2025
   signal: google-trends
+- id: xs_2a
+  type: kpis
+  section: Market opportunity
+  title: 'Kelonia’s one-time infusion worked
+
+    in all 18 myeloma patients treated'
+  items:
+  - label: Myeloma patients treated with KLN-1010, one infusion each, with no cell harvest
+    value: '18'
+  - label: Of them responded, with no cancer found in their bone marrow a month later
+    value: 100%
+  - label: Of the 6 patients followed 4 months or more reached a stringent complete response
+    value: 67%
+  why: This is a strong signal because it is the cleanest first readout of any in vivo CAR-T so far, and it came weeks before Lilly agreed to buy Kelonia for up to $7 billion.
+  note:
+  - Data comes from Kelonia’s ASCO 2026 interim results (cutoff April 21, 2026), reported by Fierce Biotech and pharmaphorum
+  pill: SIGNAL
 - id: ed040
   type: agenda
   section: Market size
@@ -3172,6 +3237,21 @@ slides:
     13: Repeat-dose RNA platforms that achieve deeper immune reset without added toxicity
     14: Manufacturing that can supply standardized doses globally at conventional drug scale
     15: Proof that in vivo CAR-T can match ex vivo efficacy while cutting burden and cost
+- id: xs_2b
+  type: x/student_use_ai_homework_jumped
+  section: Growth drivers
+  title: 'Kelonia’s trial grew from 4
+
+    to 18 treated patients in 5 months'
+  vbars:
+  - 4
+  - 18
+  t:
+    8: ''
+    12: '18'
+    13: '4'
+    11: Kelonia first showed KLN-1010 data on 4 myeloma patients at ASH in December 2025. By the ASCO 2026 data cutoff in April, 18 patients had been treated, and all of them had responded. A larger cohort with the same result makes it much less likely that the first signal was luck, and it gives buyers and doctors a dataset they can start to trust.
+  note: Data comes from Kelonia’s ASH 2025 and ASCO 2026 presentations, reported by Fierce Biotech
 - id: ed153
   type: x/slows_adoption_down
   section: Growth drivers
@@ -3210,6 +3290,20 @@ slides:
     19: '6'
     20: '7'
     21: '8'
+- id: xs_3a
+  type: kpis
+  section: Growth drivers
+  title: 'In vivo CAR-T cleared harmful B cells
+
+    in all 16 patients with nerve diseases'
+  items:
+  - label: Patients with refractory neurologic autoimmune diseases, such as myasthenia gravis
+    value: '16'
+  - label: Of them reached complete B-cell depletion, the effect behind the immune reset
+    value: 100%
+  why: 'It matters because it is the first neurologic cohort: in vivo CAR-T now reaches beyond blood cancers to chronic autoimmune diseases with far more patients.'
+  note:
+  - Data comes from a report of 16 patients published in the New England Journal of Medicine in September 2026
 - id: ed154
   type: x/drivers_feed_each_other
   section: Growth drivers
@@ -3427,7 +3521,7 @@ slides:
     amt: 40000000
     date: Q2 2026
     stage: Series B
-    src: media/ini/starna-therapeutics.png
+    src: ../../assets/logos/starna-therapeutics.png
   - name: Vyriad
     amt: 25000000
     date: Q4 2025
@@ -3510,7 +3604,7 @@ slides:
     logos:
     - src: ../../assets/logos/sail-biomedicines.png
     - src: ../../assets/logos/magicrna.png
-    - src: media/ini/starna-therapeutics.png
+    - src: ../../assets/logos/starna-therapeutics.png
   - name: Multi-lineage CAR
     names:
     - CREATE Medicines
@@ -3528,7 +3622,7 @@ slides:
     w: 7.7
     logos:
     - src: ../../assets/logos/vyriad.png
-    - src: media/ini/delinova-therapeutics.png
+    - src: ../../assets/logos/delinova-therapeutics.png
   - name: Other approaches
     names:
     - MVRIX
@@ -3617,22 +3711,22 @@ slides:
   srcs:
     umoja-biopharma: ../../assets/logos/umoja-biopharma.png
     iaso-biotherapeutics: ../../assets/logos/iaso-biotherapeutics.png
-    shenzhen-genocury-biotech: media/ini/shenzhen-genocury-biotech.png
+    shenzhen-genocury-biotech: ../../assets/logos/shenzhen-genocury-biotech.png
     vyriad: ../../assets/logos/vyriad.png
-    delinova-therapeutics: media/ini/delinova-therapeutics.png
+    delinova-therapeutics: ../../assets/logos/delinova-therapeutics.png
     jiyin-biotechnology: media/ini/jiyin-biotechnology.png
     sail-biomedicines: ../../assets/logos/sail-biomedicines.png
     magicrna: ../../assets/logos/magicrna.png
-    starna-therapeutics: media/ini/starna-therapeutics.png
+    starna-therapeutics: ../../assets/logos/starna-therapeutics.png
     strand-therapeutics: ../../assets/logos/strand-therapeutics.png
-    vivacta-bio: media/ini/vivacta-bio.png
+    vivacta-bio: ../../assets/logos/vivacta-bio.png
     zhenyu-biopharma: media/ini/zhenyu-biopharma.png
     create-medicines: ../../assets/logos/create-medicines.png
     ensoma: ../../assets/logos/ensoma.png
     azalea-therapeutics: ../../assets/logos/azalea-therapeutics.png
     mvrix: ../../assets/logos/mvrix.png
-    stylus-medicine: media/ini/stylus-medicine.png
-    nanocell-therapeutics: media/ini/nanocell-therapeutics.png
+    stylus-medicine: ../../assets/logos/stylus-medicine.png
+    nanocell-therapeutics: ../../assets/logos/nanocell-therapeutics.png
   weight: {}
 - id: ed172
   type: x/different_types_startup
@@ -4049,7 +4143,7 @@ slides:
     - CT-0525|stopped
     - All R&D|paused
     - Wind-down|prepared
-    src: media/ini/carisma-therapeutics.png
+    src: ../../assets/logos/carisma-therapeutics.png
   - name: Generation Bio
     slug: generation-bio
     domain: generationbio.com
@@ -4060,7 +4154,7 @@ slides:
     - R&D ops|ended
     - R&D|discontinued
     - Alternatives|review
-    src: media/ini/generation-bio.png
+    src: ../../assets/logos/generation-bio.png
   - name: Sail Biomedicines
     slug: sail-biomedicines
     domain: sail.bio

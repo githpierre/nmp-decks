@@ -257,6 +257,12 @@ def main():
                 for cell, celln in zip(row, rown):
                     for sl, n in zip(cell, celln): srcs[sl] = logo(n)
             x['srcs'] = srcs
+    xf = out / 'extras.yaml'                     # validated extra slides (slides complémentaires), each after a given slide id
+    if xf.exists():
+        for e in yaml.safe_load(xf.read_text()) or []:
+            i = next((j for j, y in enumerate(S) if y['id'] == e['after']), None)
+            if i is None: print('extra slide: anchor not found', e['after']); continue
+            S.insert(i + 1, e['slide'])
     D = {k: v for k, v in demo.items() if k != 'slides'}; D['slug'] = Path(a.out).name; D['slides'] = S
     (out / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
     (out / 'sources.yaml').write_text(yaml.dump(sources, allow_unicode=True, sort_keys=False, width=1000))
