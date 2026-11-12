@@ -323,3 +323,7 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - An icon grid is for a rate over a large population; a small count (18 of 18 patients) goes in a kpi-trio or a key-trend, never 2 lines of emojis.
 - Extra-slide titles state the fact in plain words, with who, what and how much ("Only 1 of 4 ESO-T01 patients was still in remission after 15 months").
 - A review round shows every usable candidate of the research, each with 2-3 designs when several formats fit, and says why any candidate is left out.
+
+## Extra slides: one complete review, not many rounds (Pierre, 12 Nov 2026)
+- Claude goes through ALL the TEMP series templates (decks/signals, sig_*) and the EdTech signal templates against the research and our startups database, builds every slide that has solid data, and shows them all in ONE review page, in deck order, each with its proposed place. The page also lists the templates not used and why. Never 2 or 3 slides per round.
+- Drawings follow the data, for every template: `vbars` (vertical bars), `hbars` (+ `hpink`), `split` (two-part bar), `dots` (one dot = one round, counts per group and color), `curves` (series, markers hidden). Set in deck.yaml, applied by fixlib.js. A data attribute that is absent never triggers its rule.

@@ -46,167 +46,6 @@ keep_together:
 - in vivo CAR-T
 - CAR-T
 slides:
-- id: 1A
-  type: x/five_learning_scaleups_now_worth
-  section: Investor bets
-  title: 'Five in vivo CAR-T deals were
-
-    worth $1.5B or more'
-  vbars:
-  - 7
-  - 3.4
-  - 2.4
-  - 2.1
-  - 1.5
-  t:
-    6: ''
-    7: $7B
-    8: 'Kelonia, whose lentiviral particles make CAR-T
-
-      cells in the body, agreed to a Lilly buyout'
-    9: $3.4B
-    10: 'Sail, which makes in vivo CAR-T with circular
-
-      RNA, signed a J&J deal with an option to buy it'
-    11: $2.4B
-    12: 'Orna, a circular-RNA in vivo CAR-T developer,
-
-      agreed to be bought by Lilly in 2026'
-    13: $2.1B
-    14: 'Capstan, which targets T cells with LNP-mRNA,
-
-      was bought by AbbVie in 2025'
-    15: $1.5B
-    16: 'Orbital, which built a circular-RNA CAR-T
-
-      platform, was bought by BMS in cash'
-  note: Values are the maximum announced in each deal, milestones included, from 2025 to 2026. Data comes from the buyers’ press releases
-- id: 1B
-  type: x/big_buyers_now_pay_up
-  section: Market opportunity
-  title: 'Big pharma bought six in vivo
-
-    CAR-T platforms in 13 months'
-  t:
-    6: SIGNAL
-    14: 'AstraZeneca agrees to buy
-
-      EsoBiotec for up to $1B'
-    16: MAR 2025
-    22: 'AbbVie agrees to buy
-
-      Capstan for up to $2.1B'
-    23: JUN 2025
-    24: 'Kite agrees to buy
-
-      Interius for $350M'
-    25: AUG 2025
-    26: 'BMS agrees to buy
-
-      Orbital for $1.5B'
-    27: OCT 2025
-    28: 'Lilly agrees to buy
-
-      Orna for up to $2.4B'
-    29: FEB 2026
-    30: 'Lilly agrees to buy
-
-      Kelonia for up to $7B'
-    31: APR 2026
-  note: Data comes from the buyers’ announcements, with the maximum value of each deal, milestones included
-- id: 1C
-  type: x/student_use_ai_homework_jumped
-  section: Market opportunity
-  title: 'The biggest in vivo CAR-T deal
-
-    jumped from $1.44B to $7B'
-  vbars:
-  - 1.44
-  - 7
-  t:
-    8: SIGNAL
-    12: $7B
-    13: $1.44B
-    11: In January 2024, AbbVie’s deal with Umoja was worth up to $1.44 billion, the most anyone had put on an in vivo CAR-T platform. In April 2026, Lilly agreed to pay up to $7 billion for Kelonia, almost five times more. In between, AbbVie paid up to $2.1 billion for Capstan. Pharma now pays platform prices before late-stage data, so a startup with early human results can sell for billions.
-  note: Values are the maximum announced in each deal, milestones included. Data comes from AbbVie and Lilly press releases
-- id: 2A
-  type: kpis
-  section: Market opportunity
-  title: 'Kelonia’s one-time infusion worked
-
-    in all 18 myeloma patients treated'
-  items:
-  - label: Myeloma patients treated with KLN-1010, one infusion each, with no cell harvest
-    value: '18'
-  - label: Of them responded, with no cancer found in their bone marrow a month later
-    value: 100%
-  - label: Of the 6 patients followed 4 months or more reached a stringent complete response
-    value: 67%
-  why: This is a strong signal because it is the cleanest first readout of any in vivo CAR-T so far, and it came weeks before Lilly agreed to buy Kelonia for up to $7 billion.
-  note:
-  - Data comes from Kelonia’s ASCO 2026 interim results (cutoff April 21, 2026), reported by Fierce Biotech and pharmaphorum
-  pill: SIGNAL
-- id: 2B
-  type: x/student_use_ai_homework_jumped
-  section: Growth drivers
-  title: 'Kelonia’s trial grew from 4
-
-    to 18 treated patients in 5 months'
-  vbars:
-  - 4
-  - 18
-  t:
-    8: ''
-    12: '18'
-    13: '4'
-    11: Kelonia first showed KLN-1010 data on 4 myeloma patients at ASH in December 2025. By the ASCO 2026 data cutoff in April, 18 patients had been treated, and all of them had responded. A larger cohort with the same result makes it much less likely that the first signal was luck, and it gives buyers and doctors a dataset they can start to trust.
-  note: Data comes from Kelonia’s ASH 2025 and ASCO 2026 presentations, reported by Fierce Biotech
-- id: 3A
-  type: kpis
-  section: Growth drivers
-  title: 'In vivo CAR-T cleared harmful B cells
-
-    in all 16 patients with nerve diseases'
-  items:
-  - label: Patients with refractory neurologic autoimmune diseases, such as myasthenia gravis
-    value: '16'
-  - label: Of them reached complete B-cell depletion, the effect behind the immune reset
-    value: 100%
-  why: 'It matters because it is the first neurologic cohort: in vivo CAR-T now reaches beyond blood cancers to chronic autoimmune diseases with far more patients.'
-  note:
-  - Data comes from a report of 16 patients published in the New England Journal of Medicine in September 2026
-- id: 4A
-  type: x/student_use_ai_homework_jumped
-  section: Market challenges
-  title: 'Only 1 of 4 ESO-T01 patients was
-
-    still in remission after 15 months'
-  vbars:
-  - 4
-  - 1
-  t:
-    8: ''
-    12: 1 of 4
-    13: 4 of 4
-    11: All four myeloma patients treated with ESO-T01 first responded to a single infusion. In the follow-up published in Nature Medicine in October 2026, only one was still in stringent complete response 15 months later. The CAR-T cells made in the body did not last long enough in most patients, which makes durability the main question for the whole field, beyond this one program.
-  note: Data comes from the extended follow-up of the four ESO-T01 patients, published in Nature Medicine in October 2026
-- id: 4B
-  type: kpis
-  section: Market challenges
-  title: 'ESO-T01 worked fast, but its effect
-
-    faded in 3 of 4 patients'
-  items:
-  - label: Myeloma patients treated with one infusion of ESO-T01 in the first study
-    value: '4'
-  - label: Of them responded at first, with no cell harvest and no chemotherapy
-    value: 100%
-  - label: Patient was still in stringent complete response after 15 months
-    value: 1 of 4
-    down: true
-  why: 'It matters because quick responses are not enough: CAR-T cells made in the body must last, and persistence is now the main technical risk of the field.'
-  note:
-  - Data comes from the extended follow-up published in Nature Medicine in October 2026
 - id: 5A
   type: kpis
   section: Tech and infra
@@ -274,3 +113,324 @@ slides:
 
       All four myeloma patients of the first study responded. In the follow-up published in Nature Medicine, only one was still in stringent complete response after 15 months.'
   note: Data comes from the extended follow-up of the four ESO-T01 patients, published in Nature Medicine in October 2026
+- id: N1
+  type: x/sig_funding_by_region_2
+  section: Investor bets
+  title: 'Two in three in vivo CAR-T rounds
+
+    now go to Chinese startups'
+  t:
+    8: China
+    10: North America
+    12: Rest of the world
+    13: One dot = one funding round
+    82: '2024'
+    83: 57%
+    84: of rounds in China
+    160: '2025'
+    161: 56%
+    162: of rounds in China
+    208: 2026 (year to date)
+    209: 67%
+    210: of rounds in China
+    212: 67%
+    213: THE STORY BEHIND IT
+    214: 'MagicRNA, Starna, Vivacta, DeliNova and Genocury all raised in 2025 and 2026, mostly from Chinese funds.
+
+      US startups still take 89% of the money since 2024, because their rounds are far bigger: Sail alone took $465M from J&J.'
+  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far
+  dots:
+  - - 4
+    - 3
+    - 0
+  - - 9
+    - 7
+    - 0
+  - - 6
+    - 2
+    - 1
+- id: N2
+  type: x/sig_funding_by_segment_2
+  section: Investor bets
+  title: 'LNP-mRNA startups now take
+
+    56% of in vivo CAR-T rounds'
+  t:
+    8: LNP-mRNA CAR-T
+    10: Everything else
+    11: ·   One dot = one funding round
+    80: '2024'
+    81: 29%
+    82: of rounds
+    158: '2025'
+    159: 31%
+    160: of rounds
+    206: 2026 (year to date)
+    207: 56%
+    208: of rounds
+    210: 56%
+    211: THE STORY BEHIND IT
+    212: 'RNA carried by lipid particles makes a CAR for days, not for life, so doses can be repeated or stopped.
+
+      After AbbVie paid up to $2.1B for Capstan, an LNP-mRNA pioneer, money followed: Sail, MagicRNA, Starna and Vivacta all raised in 2026.'
+  note: We sorted every round raised by in vivo CAR-T startups in our own funding database by delivery technology, for 2024, 2025 and 2026 so far
+  dots:
+  - - 2
+    - 0
+    - 5
+  - - 5
+    - 0
+    - 11
+  - - 5
+    - 0
+    - 4
+- id: N3
+  type: x/sig_corporate_backers
+  section: Investor bets
+  title: 'Big pharma now backs 44% of
+
+    in vivo CAR-T funding rounds'
+  t:
+    8: A large company invested
+    10: Other rounds
+    11: One dot = one funding round
+    47: '2024'
+    48: 14%
+    49: 'had a large company
+
+      as an investor'
+    85: '2025'
+    86: 25%
+    87: 'had a large company
+
+      as an investor'
+    128: 2026 (year to date)
+    129: 44%
+    130: 'had a large company
+
+      as an investor'
+    132: 44%
+    133: WHY IT MATTERS
+    134: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups such as Sail, Strand, Stylus and Ensoma.
+
+      A stake gives them a front-row seat before a buyout: six in vivo CAR-T makers have already been bought by big pharma.'
+  note: We looked at the investors of every round raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and colored the rounds where a large company invested
+  dots:
+  - - 1
+    - 0
+    - 6
+  - - 4
+    - 0
+    - 12
+  - - 4
+    - 0
+    - 5
+- id: N4
+  type: x/sig_repeat_raisers
+  section: Investor bets
+  title: '44% of 2026 in vivo CAR-T rounds went
+
+    to startups that raised within a year'
+  t:
+    8: Raised again within a year
+    10: Other rounds
+    11: One dot = one funding round
+    57: '2025'
+    58: 13%
+    59: went to a repeat raiser
+    111: 2026 (year to date)
+    112: 44%
+    113: went to a repeat raiser
+    115: 44%
+    116: WHY IT HAPPENED
+    117: 'MagicRNA raised three times in less than a year, and Starna and Vivacta came back within six months.
+
+      Startups with first human data now raise again quickly, in smaller steps, while investors are keen on the field.'
+  note: A round counts as a repeat when the same in vivo CAR-T startup had already raised in the 12 months before, in our own funding database
+  dots:
+  - - 2
+    - 0
+    - 14
+  - - 4
+    - 0
+    - 5
+- id: N5
+  type: x/sig_mega_rounds
+  section: Investor bets
+  title: '22% of in vivo CAR-T rounds reached
+
+    $100M or more in 2026'
+  t:
+    8: $100M or more
+    10: Smaller rounds
+    11: ·   One dot = one funding round
+    46: '2024'
+    47: 14%
+    48: were $100M or more
+    91: '2025'
+    92: 13%
+    93: were $100M or more
+    131: 2026 (year to date)
+    132: 22%
+    133: were $100M or more
+    135: 22%
+    136: WHAT IT TELLS US
+    137: 'Big checks are back for the startups with data. CREATE raised $122M in May 2026 and Sail took $465M from J&J in July.
+
+      Only five rounds reached $100M since 2024, but together they make up 72% of all the money raised.'
+  note: We took every round with a disclosed amount raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far, and colored the rounds of $100M or more
+  dots:
+  - - 1
+    - 0
+    - 6
+  - - 2
+    - 0
+    - 14
+  - - 2
+    - 0
+    - 7
+- id: N6
+  type: x/sig_funding_by_stage_2
+  section: Investor bets
+  title: 'Only 11% of in vivo CAR-T rounds
+
+    were seed rounds in 2026'
+  t:
+    8: Seed
+    10: Series B or later
+    12: Series A
+    13: ·   One dot = one funding round
+    73: '2024'
+    74: 29%
+    75: were seed rounds
+    135: '2025'
+    136: 19%
+    137: were seed rounds
+    176: 2026 (year to date)
+    177: 11%
+    178: were seed rounds
+    180: 11%
+    181: BEHIND THE NUMBERS
+    182: 'The field is growing up: most money now goes to Series B or later, to startups with human data such as Starna and MagicRNA.
+
+      New entrants such as DeliNova still raise seed rounds, but they are getting rarer.'
+  note: We sorted every round with a known stage raised by in vivo CAR-T startups in our own funding database, for 2024, 2025 and 2026 so far
+  dots:
+  - - 2
+    - 4
+    - 1
+  - - 3
+    - 6
+    - 7
+  - - 1
+    - 5
+    - 3
+- id: N7
+  type: x/sig_funding_share
+  section: Investor bets
+  title: 'One startup, Sail, took a third of
+
+    all in vivo CAR-T funding since 2024'
+  hbars:
+  - 465
+  - 175
+  - 153
+  - 122
+  - 100
+  - 82
+  - 317
+  t:
+    7: SINCE 2024
+    8: Sail
+    10: '$465M
+
+      33%'
+    11: Capstan
+    13: '$175M
+
+      12%'
+    14: Strand
+    16: $153M, 11%
+    17: CREATE
+    19: $122M, 9%
+    20: Umoja
+    22: $100M, 7%
+    23: Starna
+    25: $82M, 6%
+    26: All 26 others combined
+    28: $317M, 22%
+  note: 'Disclosed equity rounds in our own funding database, January 2024 to November 2026: $1.41B raised by in vivo CAR-T startups. Sail’s $465M came from Johnson & Johnson in July 2026'
+  hpink: 1
+- id: N8
+  type: x/sig_searches_vs_funding
+  section: Market opportunity
+  title: 'In vivo CAR-T searches rose about 50x
+
+    since 2024, funding barely doubled'
+  curves:
+  - - 0.5
+    - 0.2
+    - 3.3
+    - 14.8
+    - 25.7
+    - 21.5
+  - - 1
+    - 0.01
+    - 0.64
+    - 1.75
+    - 0.72
+    - 2.15
+  t:
+    9: ''
+    11: ''
+    13: ''
+    14: 2024 level
+    16: '2024'
+    18: '2025'
+    20: '2026'
+    25: Google searches
+    26: Funding
+    28: Everyone now asks about CAR-T made in the body. {1|Searches jumped after the first patient data and the pharma buyouts of 2025. Funding rose far less, and went to a few big deals.}
+  note: 'Funding: disclosed equity rounds in our own database, by half-year. Searches: Google Trends for “in vivo CAR-T”, worldwide, corrected for a jump in Google’s counts in August 2025. Both start at their early-2024 level'
+- id: N10
+  type: x/sig_dollar_split
+  section: Value creation
+  title: 'J&J pays Sail 23¢ of each $1 up front,
+
+    the rest only if it buys the company'
+  split:
+  - 2580
+  - 785
+  t:
+    8: '77 cents
+
+      only if J&J buys Sail, $2.58B'
+    10: '23 cents
+
+      paid up front, $785M'
+    12: 23¢
+    13: BEHIND THE NUMBERS
+    14: 'Pharma now pays for in vivo CAR-T in two steps. J&J pays Sail $785M first, and $2.58B more only if it decides to buy.
+
+      Lilly pays Kelonia $3.25B up front, out of up to $7B.'
+  note: 'Deal terms announced by Johnson & Johnson (July 2026) and Lilly (April 2026). Sources: J&J and Lilly press releases'
+- id: N11
+  type: x/sig_key_trend
+  section: Investor bets
+  title: 'In vivo CAR-T startups raised half
+
+    as much in 2025 as in 2021'
+  vbars:
+  - 1076
+  - 541
+  t:
+    9: $1.1B
+    10: '2021'
+    12: $0.5B
+    13: '2025'
+    15: 0.5x
+    16: WHY IT MATTERS
+    17: 'In 2021, investors wrote huge checks to broad platforms such as Tessera and Umoja, before any human data.
+
+      In 2025, money came back, but in smaller rounds and to fewer startups, mostly those close to the clinic. 2026 already beats 2025, at $647M.'
+  note: Disclosed equity rounds raised by in vivo CAR-T startups each year, in our own funding database. IPOs, debt and grants are left out
