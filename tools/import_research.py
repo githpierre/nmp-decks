@@ -38,6 +38,20 @@ def parse(d):
     return R, errs
 
 
+def like_model(v, mv):
+    """same paragraph structure as the model: its separators (blank paragraphs give each part its own style) between the answer's parts"""
+    if isinstance(v, str) and isinstance(mv, str) and mv.startswith('\n'):   # leading blank lines of the model are kept (ed221); idempotent
+        return re.match(r'\n+', mv).group(0) + like_model(v.lstrip('\n'), mv.lstrip('\n'))
+    if not isinstance(v, str) or not isinstance(mv, str) or '\n' not in mv: return v
+    mseg, msep = re.split(r'\n+', mv), re.findall(r'\n+', mv)
+    aseg = [x.strip() for x in re.split(r'\n+', v) if x.strip()]
+    if len(aseg) < len(mseg): return '\n'.join(aseg) if all(len(x) == 1 for x in msep) else (msep[0].join(aseg) if aseg else v)
+    if len(aseg) > len(mseg): aseg = aseg[:len(mseg) - 1] + [' '.join(aseg[len(mseg) - 1:])]
+    out = aseg[0]
+    for sep, part in zip(msep, aseg[1:]): out += sep + part
+    return out
+
+
 def clean_title(t):
     return re.sub(r'\s+', ' ', str(t).replace('\\n', ' ')).strip() if t else t
 
@@ -75,7 +89,8 @@ def slugify(n):
 
 def logo(name, deck_rel=True):
     """company name -> logo path seen from deck.html: assets/logos (and pp/), else a generated initials tile (listed as missing)"""
-    name = re.split(r'\s+[—-]\s+https?://', str(name))[0].strip()
+    if isinstance(name, dict): name = next(iter(name), '')
+    name = re.split(r'\s+[—-]\s+https?://', str(name))[0].split(' / ')[-1].strip()
     base = slugify(name); cands = [base]
     short = re.sub(r'-(therapeutics|biotherapeutics|biopharma|biotechnology|biotech|medicines|bio|inc|sciences|pharmaceuticals?)$', '', base)
     cands += [short, short + '-therapeutics', short + '-bio', short + '-biopharma']
@@ -146,7 +161,7 @@ def merge(slide, ans):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('results'); ap.add_argument('--demo'); ap.add_argument('--out'); ap.add_argument('--name')
-    ap.add_argument('--pain'); ap.add_argument('--value')
+    ap.add_argument('--pain'); ap.add_argument('--value'); ap.add_argument('--drop-no-data', action='store_true')
     a = ap.parse_args()
     R, errs = parse(a.results)
     global OUTDIR
@@ -172,6 +187,10 @@ def main():
                     x = merge(base, ans); x['id'] = f'{b}-s{i}'
                     if b in ('ed062', 'ed106'):
                         ks = list(x['t']); x['t'][ks[0]] = seg.upper()
+                    else:                        # the segment label under the title is the segment name, the same everywhere (Pierre, 12 Nov)
+                        lab = str(next(iter(REF[ids[0]]['t'].values()))).strip().upper()   # EdTech label of the segment (AI TUTORS)
+                        for k, v in (REF[b].get('t') or {}).items():
+                            if isinstance(v, str) and v.strip().upper() == lab and k in x['t']: x['t'][k] = seg.upper()
                     if x.get('subtitle') is not None or b in ('ed065',): x['subtitle'] = seg
                     if ans.get('status') != 'ok': x['tag'] = 'NO DATA'
                     sources[x['id']] = ans.get('sources') or []
@@ -185,6 +204,7 @@ def main():
             S.append(x); continue
         model = REF.get(sid) or s
         rep.append((sid, check(sid, model, ans)))
+        if ans.get('status') != 'ok' and a.drop_no_data: rep.append((sid, ['dropped: no data'])); continue   # Pierre, 12 Nov: slides without solid data are removed
         x = merge(s, ans) if ans.get('status') == 'ok' else dict(copy.deepcopy(s), tag='NO DATA')
         sources[sid] = ans.get('sources') or []
         S.append(x)
@@ -193,12 +213,29 @@ def main():
         E = yaml.safe_load(ed.read_text()) or {}
         for x in S:
             for k, v in (E.get(x['id']) or {}).items():
+                if v is None: x.pop(k, None); continue   # null in edits.yaml removes the field (a demo tag…)
                 if k == '__replace__':
                     y = yaml.dump(x, allow_unicode=True, width=10000)
                     for a_, b_ in v.items(): y = y.replace(a_, b_)
                     x.clear(); x.update(yaml.safe_load(y)); continue
-                if isinstance(x.get('t'), dict) and k in x['t']: x['t'][k] = v
+                if isinstance(x.get('t'), dict) and str(k).isdigit(): x['t'][int(k)] = v
                 elif k in ('title', 'note'): x[k] = v
+                else:                     # any other field (cats, groups, events…): replaced; company names in logos become logo paths
+                    m = REF.get(re.sub(r'-s\d$', '', x['id'])) or {}
+                    x[k] = fill_list(m.get(k) or [], v) if isinstance(v, list) and v and isinstance(v[0], dict) else v
+    def nl(v):                                   # a literal backslash-n anywhere (firm names of ed042…) is a line break
+        if isinstance(v, str): return v.replace('\\n', '\n')
+        if isinstance(v, list): return [nl(y) for y in v]
+        if isinstance(v, dict): return {k: nl(y) for k, y in v.items()}
+        return v
+    S = [nl(x) for x in S]
+    for x in S:                                  # a field the model does not have is dropped (pp_radar: the caption is the note, 12 Nov)
+        m = REF.get(re.sub(r'-s\d$', '', x['id']))
+        if m and 'note' in x and 'note' not in m: x.pop('note')
+    for x in S:                                  # every text keeps the paragraph structure of its model (Pierre, 12 Nov: slide 120 lost its styles)
+        m = REF.get(re.sub(r'-s\d$', '', x['id']))
+        if m and isinstance(x.get('t'), dict) and isinstance(m.get('t'), dict):
+            for k in x['t']: x['t'][k] = like_model(x['t'][k], m['t'].get(k))
     for x in S:                                  # titles: no doubled words left by the market-name swap
         if x.get('title'): x['title'] = re.sub(r'\b(\w+) \1\b', r'\1', re.sub(r'\bWho is in in vivo', 'Who is in the in vivo', x['title']), flags=re.I) if 'in in vivo' not in x['title'] else x['title'].replace('in in vivo CAR-T,', 'in the in vivo CAR-T market,')
     for x in S:                                  # what the yellow tag says now

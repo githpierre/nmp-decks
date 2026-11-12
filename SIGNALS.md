@@ -1,4 +1,6 @@
-# Signal slides library
+# Extra slides library (slides complémentaires)
+
+Name: "extra slides" / « slides complémentaires ». Do not call them "signal slides" any more (Pierre, 12 Nov 2026: ambiguous). File and template names (sig_*) are historical.
 
 Pierre, 12 Nov 2026: signal slides are NOT part of the base deck. They go into a deck only when the research finds a strong,
 sourced data point that fits one of the formats below. Each format is a visual shape (4 bars + a story, horizontal bars,
@@ -22,7 +24,7 @@ Growth drivers, Investor bets… The kicker on top is set from the chapter where
   is marked validated here and the new example replaces the old one in `decks/signals`.
 - Integrated in a deck, a signal slide shows the deck's market name bottom right (never "Signals library") and the kicker of
   the chapter where it is placed.
-- 5 to 15 signal slides per deck, never 60. Claude proposes the placement of each one (chapter and position), Pierre validates.
+- 5 to 15 extra slides per deck, never 60. Two steps, never skipped: (1) Claude shows the candidate slides on a review page and Pierre validates the design; (2) Claude proposes for each one its place "between slide N and slide N+1" (with both titles), Pierre approves. Only then the slide goes into the deck.
 - Sources of signals: the deck research (prompt 11, all formats screened), our startups database (nmp-seo, data/startups:
   funding, valuations, metrics, employees), and complementary research when a figure needs it.
 - The cell-therapy examples of the library are not reused for in vivo CAR-T: its own research finds its own signals.

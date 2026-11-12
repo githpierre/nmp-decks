@@ -271,7 +271,8 @@ Process de revue
 - Prototypes and new slides work only on markets 131-225 (101-130 are done).
 
 
-## Slides « signal » (data points) : comment les penser (Pierre, 11 Nov 2026)
+## Slides complémentaires (data points) : comment les penser (Pierre, 11-12 Nov 2026)
+Nom : « slides complémentaires » (extra slides). Ne plus dire « slides signal » (Pierre, 12 Nov : le mot est ambigu). Catalogue : SIGNALS.md (nom de fichier historique).
 Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapore teachers use AI tools 5x more often than French ones », « Only 3% of people who start a free online course finish it », « Byju's IPO was always within the next year », « Coursera still loses 10.2¢ per $1 », « Online course star Coursera lost 91% of its value », « Tutoring firm Nerdy has lost 79% », « Since ChatGPT launched, Chegg lost almost all its value », « One university pays almost 90% of Grand Canyon Education's revenue ».
 - Ce ne sont PAS des emplacements fixes (« après And more recently, il faut une slide à barres »). Ce sont des TEMPLATES qui montrent un signal, positif ou négatif.
 - Process : 1) un prompt de recherche bien construit ramène beaucoup de signaux récents et variés sur l'état du marché (adoption, régulation, chute d'un acteur, concentration, comparaison entre pays, unit economics…) ; 2) on fait une slide par signal fort, avec le template qui va le mieux à la forme de la donnée (barres, courbe de cours, nuage, waffle, chiffre géant…) ; 3) on place chaque slide dans le chapitre où elle sert le propos, n'importe où dans le deck.
@@ -295,3 +296,19 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - `tools/make_research_prompts.py` writes one TXT per chapter + one signals TXT, zipped, no README. Each slide shows its EdTech model as YAML (same keys, target lengths ±15%) and the other LLM answers the same YAML with sources (claim, url, date, quote), or `status: no_data` instead of inventing.
 - Slides built from our startups database (funding, investors, grids by stage) are never asked to the other LLM.
 - File names: <uuid>-<handle>-deck-<NN>-<chapter>-results-research-<date>.md.
+
+## Category splits, market size, logos, extra slides (Pierre, 12 Nov 2026)
+- Donut / split by category: exact figures never exist. The split is OUR best estimate, and the note bottom left says so plainly (e.g. "We estimate the split from deal counts and pipelines; no public source splits this market by category."). Never leave a 0% slice: merge it or drop it.
+- Market size: our estimate is fine when the note says it is ours and how it is built. The forecast-gap slide (growth-rate estimates by source) shows the spread between published forecasts.
+- Slides whose research came back without data (status no_data) are removed from the deck (`import_research.py --drop-no-data`). Never invent to fill them. If a chapter ends up nearly empty, tell Pierre.
+- When asking Pierre for logos: always list each company with its domain (e.g. "Capstan Therapeutics — capstantx.com"). Homonyms are common.
+- Extra slides (slides complémentaires): never place them directly in a deck. Step 1: show the candidates to Pierre on a review page (design + data), he validates or retouches the design (the designs are still temporary). Step 2: for each validated slide, propose its exact place, "between slide N (title) and slide N+1 (title)", and Pierre approves or moves it. Only then integrate.
+
+## Research import: what the 12 Nov in vivo audit taught (generic fixes)
+- The prompts list the keys of a converted slide in reading order (top to bottom, left to right, `key_pos` in make_research_prompts.py). Listed by key number, the other LLM paired a label with the card of another row (categorize slides 1/3 to 3/3, products quadrant, bottom-up steps out of order).
+- Company and product names are never cut to fit a length target (CAPSTAN, not "CAPSTAN TX"; KELONIA, not "KELONI").
+- The segment label under the title (pain and value blocks) is always the segment name given to the import (`--pain` / `--value`), the same as on the chapter divider.
+- A card whose texts are all empty is hidden and the cards left are centered vertically (fixlib.js `emptyCards`).
+- Market sizes under $1B are written in millions on the CAGR bars ($285M, not $285B).
+- A literal "\n" written by the other LLM is a line break in every field, not only in slide texts.
+- Emoji icons of converted slides are chosen for the market (no graduation caps in a biotech deck).

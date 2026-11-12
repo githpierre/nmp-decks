@@ -29,3 +29,6 @@
 - The cell-therapy signals of the library are not reused (Pierre).
 - Google Trends (12 Nov): Pierre's 3 CSVs in assets/trends/in-vivo-car-t/. Kept 'CAR-T' (x4.5 after the August 2025 correction).
   'car t cell therapy' only x2.5; 'in vivo car t' dropped: its base before 2025 is near zero (x20+ means nothing).
+
+- 12 Nov (Pierre): no extra slides were placed in v1. Next: review page of the candidates (design first), then placement proposals between two slides. Name: extra slides / slides complémentaires (not "signal").
+- 12 Nov: the 8 slides with no_data are removed (ed013, ed190, ed192, ed195, ed199p, ed201, ed207, ed208): 175 slides. The Startup killers chapter keeps only ed200.

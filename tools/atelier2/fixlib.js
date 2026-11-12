@@ -148,7 +148,20 @@ window.F = (() => {
     if ((s.stroke || '').toUpperCase() !== C.pink || (s.fill && s.fill !== 'none' && s.fill.toUpperCase() !== '#062A3C')) return;
     const M = s.p.getScreenCTM(), k = M ? Math.hypot(M.a, M.b) : 1; if (!(s.sw * k < 3)) return; s.p.setAttribute('stroke-width', String(4 / k)); s.el.style.overflow = 'visible'; mark('pinkStroke', sl); });
 
+  // a card whose texts are all empty (the research found fewer items than the model has, e.g. 3 categories instead of 6) is hidden,
+  // and the cards left are centered vertically in the body (12 Nov)
+  const emptyCards = sl => { const R = sl.getBoundingClientRect(); const box = e => { const r = e.getBoundingClientRect(); return {x: r.left - R.left, y: r.top - R.top, r: r.right - R.left, b: r.bottom - R.top}; };
+    const T = [...sl.querySelectorAll('.raw > .rx-t')].map(e => ({e, ...box(e), empty: !e.textContent.trim()}));
+    let hid = 0;
+    sl.querySelectorAll('.raw > svg.rx-s').forEach(sv => { const b = box(sv); if (b.r - b.x < 60 || b.b - b.y < 40) return;
+      const ins = T.filter(t => t.x >= b.x - 2 && t.r <= b.r + 2 && t.y >= b.y - 2 && t.b <= b.b + 2);
+      if (ins.length && ins.every(t => t.empty)) { sv.style.display = 'none'; hid++; } });
+    if (!hid) return;
+    const body = [...sl.querySelectorAll('.raw > .rx-t, .raw > svg.rx-s, .raw > img')].filter(e => vis(e) && !(e.classList.contains('rx-t') && !e.textContent.trim())).map(e => ({e, ...box(e)})).filter(o => o.y > 140 && o.b < 600);
+    if (!body.length) return; const top = Math.min(...body.map(o => o.y)), bot = Math.max(...body.map(o => o.b)), dy = Math.round((150 + 590) / 2 - (top + bot) / 2);
+    if (Math.abs(dy) > 4) body.forEach(o => mv(o.e, 0, dy)); mark('emptyCards', sl); };
+
   // generic rules, every raw slide
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();

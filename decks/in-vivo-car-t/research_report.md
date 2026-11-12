@@ -1,9 +1,10 @@
 # Research import report
 
-145 answers parsed, 0 YAML errors, 39 slides with remarks.
+145 answers parsed, 0 YAML errors, 47 slides with remarks.
 
 - **ed012**: length 35: 54 vs 35; length 37: 54 vs 31; length 38: 54 vs 37; length 39: 56 vs 35
 - **ed013**: status no_data: No in vivo CAR-T product has a public commercial treatment price yet because the field is still in early clinical development.
+- **ed013**: dropped: no data
 - **ed062-s1**: length 5: 118 vs 91
 - **ed064-s1**: length 16: 70 vs 51; length 17: 73 vs 58; length 18: 74 vs 49
 - **ed062-s2**: length 5: 118 vs 91
@@ -35,9 +36,16 @@
 - **ed176**: length 23: 92 vs 123
 - **ed186**: length 9: 94 vs 72; length 11: 85 vs 65; length 14: 93 vs 71
 - **ed190**: status no_data: Public sources do not provide a consistent multi-round valuation history for four independent in vivo CAR-T startups. The available numbers are 
+- **ed190**: dropped: no data
 - **ed192**: status no_data: We could not verify six recent stumble events among strict in vivo CAR-T pure players without mixing in broader cell-therapy companies or compan
+- **ed192**: dropped: no data
 - **ed195**: status no_data: We could not verify six 2025-2026 stumble events among strict in vivo CAR-T pure players. The period is dominated by financings, clinical entrie
+- **ed195**: dropped: no data
 - **ed199p**: status no_data: Public evidence does not support a six-company warning-sign matrix under the brief's strict pure-player rule without importing broader cell-ther
+- **ed199p**: dropped: no data
 - **ed201**: status no_data: The brief requires six failed or sharply contracted in vivo CAR-T startups with a documented main cause and outcome. We could not source six qua
+- **ed201**: dropped: no data
 - **ed207**: status no_data: The model needs eight distinct leader mini-cases on one slide. We could not source eight pure-play in vivo CAR-T companies with equally strong, 
+- **ed207**: dropped: no data
 - **ed208**: status no_data: A second set of eight leader mini-cases would require sixteen well-supported pure-player success stories in total. The current clinical market i
+- **ed208**: dropped: no data

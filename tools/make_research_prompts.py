@@ -35,6 +35,12 @@ CHAPTERS = [  # (file part, chapter title, sections)
 DROP_KEYS = {'id', 'type', 'src', 'signal', 'tag', 'img', 'csv', 'handle', 'weight', 'srcs', 'label', 'variant', 'mode', 'pill'}
 
 
+def key_pos(tpl):
+    """box key -> (row, left) read from the template: rows are 30 px bands"""
+    f = ROOT / 'templates/slides' / (tpl if tpl.endswith('.j2') else tpl + '.j2')
+    if not f.exists(): return {}
+    return {int(k): (round(float(t) / 30), float(l)) for k, l, t in re.findall(r'data-k="(\d+)" style="left:([\d.]+)px;top:([\d.]+)px', f.read_text())}
+
 def example(s):
     """the reference content shown to the other LLM: texts and data only, no file paths"""
     def clean(v):
@@ -45,6 +51,9 @@ def example(s):
     e = {k: clean(v) for k, v in s.items() if k not in DROP_KEYS}
     if isinstance(e.get('note'), str): e['note'] = e['note'].replace('DEMO DATA. ', '')
     if s.get('img'): e['logos_on_slide'] = len(s['img'])
+    if isinstance(e.get('t'), dict) and str(s.get('type', '')).startswith('x/'):   # keys in reading order (top to bottom, left to right), 12 Nov: the other LLM paired a label with the wrong card
+        P = key_pos(s['type'])
+        e['t'] = dict(sorted(e['t'].items(), key=lambda kv: P.get(int(kv[0]), (999, 999))))
     if isinstance(e.get('t'), dict):
         e['t'] = {k: v for k, v in e['t'].items() if not re.fullmatch(r'\s*(\d{1,2}|[^\w\s]{1,3}|[✓✕×])\s*', v or '')}   # keep numbers like 1..8 and icons out
     return e

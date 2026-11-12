@@ -29,7 +29,9 @@ def curve(s):
 def cagr(s):
     v0, r = float(s['size']), float(s['cagr']) / 100
     vals = [v0 * (1 + r) ** i for i in range(11)]; mx = vals[-1]
-    def money(v): return f'$ {v:.1f} B'.replace('.0 B', ' B') if v < 10 else f'$ {v:.0f} B'
+    def money(v):                                # size is in billions; a market under $1B shows millions (in vivo CAR-T: $285M in 2026)
+        if v < 1: return f'$ {v * 1000:.0f} M'
+        return f'$ {v:.1f} B'.replace('.0 B', ' B') if v < 10 else f'$ {v:.0f} B'
     X0, X1, base, H = 175, 770, 496, 184; slot = (X1 - X0) / 11; bw = slot * 0.78
     s['geo'] = dict(bars=[dict(x=X0 + i * slot + (slot - bw) / 2, w=bw, h=max(6, H * v / mx), lab=money(v), year=s.get('y0', 2026) + i) for i, v in enumerate(vals)],
                     base=base, X0=X0, X1=X1, lastx=X0 + 10.5 * slot, lasttop=base - H - 30)
