@@ -74,6 +74,9 @@
     note:
     - Data comes from Kelonia’s ASCO 2026 interim results (cutoff April 21, 2026), reported by Fierce Biotech and pharmaphorum
     pill: SIGNAL
+    fresh:
+      period: total
+      end: 2026-04
   link: ed032, signal 1 of the list
 - after: xs_2a
   slide:
@@ -151,6 +154,9 @@
     note:
     - Data comes from the Johnson & Johnson press release of July 2026
     - and from its quarterly report for the third quarter of the year 2026
+    fresh:
+      period: total
+      end: 2026-07
 - after: xs_sail
   slide:
     section: Market opportunity
@@ -335,6 +341,9 @@
     type: sx_round_timeline
     legend: false
     pill: SIGNAL
+    fresh:
+      period: year
+      end: 2026-12
   link: ed032, signal 5 of the list
 - after: xs_n5
   slide:
@@ -363,6 +372,9 @@
     - We looked at the investors of every equity round raised by in vivo CAR-T startups
     - in our own funding database, and counted the rounds where a large drugmaker invested
     pill: SIGNAL
+    fresh:
+      period: year
+      end: 2026-12
   link: ed032, signal 6 of the list
 - after: ed152
   slide:

@@ -49,23 +49,28 @@
     type: x/sig_key_trend
     section: Market opportunity
     pill: SIGNAL
-    title: 'Unitree sold 5,215 humanoids in 2025,
+    title: 'Unitree should sell about 12,000 humanoids
 
-      up from 5 two years earlier'
+      in 2026, more than double its 2025 sales'
     t:
-      9: '5'
-      10: '2023'
-      12: 5,215
-      13: '2025'
-      15: ×1,000
+      9: 5,215
+      10: '2025'
+      12: 12,000
+      13: 2026 (EST.)
+      15: ×2.3
       16: WHY IT IS HOT
-      17: 'One maker went from a handful of lab robots to thousands of sales in two years, and these are audited figures from its IPO prospectus.
+      17: 'Unitree shipped about 5,900 humanoids in the first half of 2026 alone, more than in all of 2025. At this pace it should sell about 12,000 this year.
 
-        In 2024 it sold 412. Its price cuts and online store turned humanoids into a product people can actually buy.'
+        Its revenue grew 56% in the first nine months of 2026, and Morgan Stanley expects 14,000 units for the year.'
     vbars:
-    - 5
     - 5215
-    note: We used the production and sales table of Unitree’s STAR Market prospectus, with sales counted when revenue is recognized
+    - 12000
+    note:
+    - We doubled the 5,900 humanoids that Smart Analytics Global estimates Unitree shipped in the first half of 2026
+    - We took the 5,215 sold in 2025 from its prospectus, and Morgan Stanley forecasts 14,000 units for 2026
+    fresh:
+      period: year
+      end: 2026-12
 - after: xh_unitree
   link: signal 2
   slide:
@@ -88,6 +93,9 @@
     note:
     - We used Smart Analytics Global shipment estimates for H1 2025 and H1 2026,
     - as reported by China Daily in August 2026, the first half of each year
+    fresh:
+      period: half
+      end: 2026-06
 - after: xh_ship
   link: signal 3
   slide:
@@ -127,6 +135,9 @@
     note:
     - We took shipments from Smart Analytics Global, first half of 2026,
     - and rounds and money from our database of equity rounds since 2024
+    fresh:
+      period: half
+      end: 2026-06
 - after: xh_china
   link: signal 4
   slide:
@@ -145,7 +156,10 @@
     - value: 30,000
       label: BMW X3 cars that these robots helped to build
     why: This is a strong signal because it is one of the first humanoid fleets measured on a real production line, not in a lab or a video.
-    note: We used BMW Group’s report on the Figure 02 deployment at its Spartanburg plant, published in 2026
+    note: We used BMW Group’s report on the Figure 02 deployment at its Spartanburg plant, which ran until November 2025
+    fresh:
+      period: total
+      end: 2025-11
 - after: xh_figure
   link: signal 5
   slide:
@@ -165,6 +179,9 @@
       label: Share of tasks done right, as reported by Agility for its robots at GXO
     why: This is a strong signal because customers pay for this work every month, and GXO is now adding two more US sites.
     note: We used Agility Robotics’ Digit 5 announcement of September 15, 2026
+    fresh:
+      period: total
+      end: 2026-09
 - after: xh_digit
   link: signal 6
   slide:
@@ -172,23 +189,26 @@
     type: x/sig_key_trend
     section: Market opportunity
     pill: SIGNAL
-    title: 'UBTECH sold 1,079 full-size humanoids
+    title: 'UBTECH’s full-size humanoid sales
 
-      in 2025, up from 3 a year earlier'
+      rose from 45 to 921 in one year'
     t:
-      9: '3'
-      10: '2024'
-      12: 1,079
-      13: '2025'
-      15: ×360
+      9: '45'
+      10: H1 2025
+      12: '921'
+      13: H1 2026
+      15: ×20
       16: WHY IT IS HOT
-      17: 'A second listed maker confirms the jump is not only Unitree’s: UBTECH went from almost no full-size robots to four-digit sales in one year.
+      17: 'A second listed maker confirms the jump: UBTECH sold 20 times more full-size humanoids than a year earlier, almost all of them for factories.
 
-        Most of them are Walker S2 robots for factories, sold to carmakers and electronics plants.'
+        At this pace it should sell more than 1,800 in 2026, against 1,079 in all of 2025.'
     vbars:
-    - 3
-    - 1079
-    note: We used UBTECH’s audited 2025 annual report, which gives 1,079 units and the growth rate that puts 2024 at 3
+    - 45
+    - 921
+    note: We used UBTECH’s interim results for the six months to June 30, 2026, which give 921 full-size units, up 1,946.7% in a year
+    fresh:
+      period: half
+      end: 2026-06
 - after: xh_ubtech
   link: signal 7
   slide:
@@ -217,6 +237,9 @@
     note:
     - We added up every equity round raised by humanoid robotics startups in our own database
     - IPOs, debt and grants are left out, 2026 runs to mid-November, and undisclosed rounds count as zero
+    fresh:
+      period: year
+      end: 2026-12
 - after: ed050
   link: ed050 « What are the growth rate estimates from different sources online? » shows forecasts disagree
   slide:
@@ -261,8 +284,8 @@
       l: In one year, as cheaper models such as the G1 took most of the sales
     story: It matters because cheaper robots widen the market from labs to factories and homes, and it is a real average price, not a list price or a target.
     note:
-    - We divided Unitree’s humanoid revenue by its units sold, from its prospectus;
-    - the mix of models changed, so this is an average, not a like-for-like price
+    - We divided Unitree’s humanoid revenue by its units sold, from its prospectus
+    - The mix of models changed, so this is an average, not a like-for-like price
 - after: ed144
   link: ed143-ed144 risks (pilots stall at scale) lead to a maker’s idle capacity
   slide:

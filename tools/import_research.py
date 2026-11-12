@@ -391,6 +391,29 @@ def main():
             if not e.get('link'):                  # RULES.md « liant » : the slide before must announce the extra slide
                 print('extra slide: no link written for', e['slide'].get('id'), '(say which phrase of', e['after'], 'leads to it)')
             S.insert(i + 1, e['slide'])
+    # SIGNAL slides show momentum NOW (Pierre, 12 Nov 2026): each one states the period of its newest figure in `fresh: {period, end: YYYY-MM}`
+    #   month: at most 6 months old ; quarter: 9 months ; half: 12 months ; total (cumulative proof at a date): 12 months ;
+    #   year: the current year (an estimate « should sell… » derived from the published months, explained in the note) or last year until April 30.
+    import datetime as _dt
+    _today = _dt.date.today(); _lim = dict(month=6, quarter=9, half=12, total=12)
+    for x in S:
+        if x.get('pill') != 'SIGNAL' or str(x.get('type', '')).startswith('pp_'): continue
+        fr = x.get('fresh')
+        if not fr: print('SIGNAL NO DATE', x['id'], '(add fresh: {period, end})'); continue
+        y, m = map(int, str(fr['end']).split('-')); age = (_today.year - y) * 12 + _today.month - m
+        ok = (y >= _today.year or (y == _today.year - 1 and _today.month <= 4)) if fr['period'] == 'year' else age <= _lim[fr['period']]
+        if not ok: print('SIGNAL STALE', x['id'], fr, f'{age} months old')
+    def _semi(v, k=None):                         # no semicolon in slide texts (same rule as the product pages): two sentences instead
+        if isinstance(v, str): return v if k in ('url', 'image', 'src', 'logo_src', 'csv') or v.startswith('http') else re.sub(r';\s+(\w)', lambda m: '. ' + m.group(1).upper(), v)
+        if isinstance(v, dict): return {a: (b if a in ('sources', 'links') else _semi(b, a)) for a, b in v.items()}
+        if isinstance(v, list): return [_semi(b, k) for b in v]
+        return v
+    S = [_semi(x) for x in S]
+    cv = out / 'cover.yaml'                      # cover layout copied from Pierre's cover slide (tools/cover_from_slides.py)
+    if cv.exists() and S and S[0].get('type') == 'cover':
+        import shutil
+        S[0].update(yaml.safe_load(cv.read_text())); (out / 'media').mkdir(exist_ok=True); shutil.copy(ROOT / 'assets/covers' / f'{out.name}.jpg', out / 'media/cover.jpg')
+    elif S and S[0].get('type') == 'cover': print('COVER NOT COPIED: run tools/cover_from_slides.py (the cover follows Pierre\'s cover slide, never a general layout)')
     ff = out / 'db_facts.yaml'                   # {db.key} in any text = a figure from the latest startups base (make_db_slides.py), never typed by hand
     if ff.exists():
         F = yaml.safe_load(ff.read_text()) or {}
@@ -403,6 +426,10 @@ def main():
             if isinstance(v, list): return [dbf(x) for x in v]
             return v
         S = [dbf(x) for x in S]
+    for x in S:                                  # contrast slides: 8 rows (Pierre, 12 Nov 2026: 10 rows took too much room). `rows_drop: [i, j]` in edits.yaml removes the two weakest
+        if x.get('type') == 'contrast':
+            if x.get('rows_drop'): x['rows'] = [r for i, r in enumerate(x['rows']) if i not in x.pop('rows_drop')]
+            if len(x.get('rows') or []) != 8: print('CONTRAST ROWS', x['id'], len(x.get('rows') or []), '(8 expected)')
     for x in S:                                  # contrast slides: the logo of the company on the right, found like every other logo (12 Nov 2026)
         if x.get('type') == 'contrast' and x.get('right'):
             nm = {'FIGURE': 'Figure AI', 'AGILITY ROBOTICS': 'Agility Robotics', 'UNITREE': 'Unitree Robotics', '1X': '1X Technologies'}.get(x['right'].upper(), x['right'].title())

@@ -127,10 +127,11 @@ window.F = (() => {
       if (st.length < 2) return; const l = Math.min(...st), r = Math.max(...st); if (x0 < l - 8 || x1 > r + 8) { L.set({x: Math.max(x0, l), y}, {x: Math.min(x1, r), y}); mark('trimBus', sl); } }); };
 
   // 3. a text box drawn as a card (same rectangle) has its text centred vertically, not stuck to the top
-  const centerText = sl => { const cs = A.cards(sl);
+  const centerText = sl => { const cs = A.cards(sl), G = {};   // sibling boxes (same row, same size) are centred together or not at all (12 Nov 2026: one header higher than its neighbours). CHECK SIBLING_TOP
     sl.querySelectorAll('.raw > .rx-t').forEach(el => { if (!vis(el) || el.style.justifyContent !== 'flex-start') return; const b = rect(el, sl), k = ink(el, sl); if (!k) return;
       if (!cs.some(c => Math.abs(c.x - b.x) < 4 && Math.abs(c.y - b.y) < 4 && Math.abs(c.w - b.w) < 4 && Math.abs(c.h - b.h) < 4)) return;
-      if (k.h > b.h * .8 || (k.y - b.y) - (b.b - k.b) > -12) return; el.style.justifyContent = 'center'; mark('centerText', sl); }); };
+      const ok = !(k.h > b.h * .8 || (k.y - b.y) - (b.b - k.b) > -12), key = Math.round(b.y) + '|' + Math.round(b.h) + '|' + Math.round(b.w); (G[key] = G[key] || []).push({el, ok}); });
+    Object.values(G).forEach(g => { if (!g.every(o => o.ok)) return; g.forEach(o => { o.el.style.justifyContent = 'center'; }); mark('centerText', sl); }); };
 
   // 4. column headers drawn in the line colour (#334D54) are invisible on navy: readable grey
   const headers = sl => sl.querySelectorAll('.raw > .rx-t').forEach(el => { const t = el.textContent.trim(); if (!t || t.length > 40 || !vis(el)) return;
@@ -336,17 +337,42 @@ window.F = (() => {
   const SKIP = '.tri, .section, .title, .subtitle, .pillrow, .note, .wtag, .foot-line, .foot-label, .foot-brand, script, style';
   const contentBox = sl => { const R = sl.getBoundingClientRect(); let top = 1e9, bot = -1e9; const els = [];
     [...sl.children].forEach(c => { if (c.matches(SKIP)) return; (c.classList.contains('raw') ? [...c.children] : [c]).forEach(e => { if (e.matches && e.matches(SKIP)) return;
-      const r = e.classList && e.classList.contains('rx-t') ? ink(e, sl) : rect(e, sl); els.push(e); if (!r || r.h < 1 || r.w < 1 || getComputedStyle(e).visibility === 'hidden') return; top = Math.min(top, r.y); bot = Math.max(bot, r.b); }); });
+      let r = e.classList && e.classList.contains('rx-t') ? ink(e, sl) : rect(e, sl); els.push(e);
+      if (e.tagName && e.tagName.toLowerCase() === 'svg') { const ks = [...e.querySelectorAll('path, rect, line, circle, ellipse, polyline, polygon, text')].filter(k => !k.closest('defs')).map(k => rect(k, sl)).filter(q => q.w > 0.5 || q.h > 0.5); if (ks.length) { const y = Math.min(...ks.map(q => q.y)), b = Math.max(...ks.map(q => q.b)); r = {y, b, h: Math.max(1, b - y), w: 2}; } }   /* the drawing, not the padded svg box */
+      if (!e.classList || !e.classList.contains('rx-t')) { const ts = [...e.querySelectorAll('*')].filter(k => !k.children.length && k.textContent.trim()); if (!e.tagName || e.tagName.toLowerCase() !== 'svg') { const all = [...e.querySelectorAll('*')].filter(k => getComputedStyle(k).visibility !== 'hidden' && k.getBoundingClientRect().height > 0.5 && !k.children.length).map(k => rect(k, sl)); if (all.length) { const y = Math.min(...all.map(q => q.y)), b = Math.max(...all.map(q => q.b)); r = {y, b, h: Math.max(1, b - y), w: 2}; } } }   /* template slides: the visible leaves, not the stretched body box */ if (!r || r.h < 1 || r.w < 1 || getComputedStyle(e).visibility === 'hidden') return; top = Math.min(top, r.y); bot = Math.max(bot, r.b); }); });
     return {top, bot, els}; };
-  const pillCentre = sl => { const pr = sl.querySelector('.pillrow .pill'); if (!pr || /^pp_/.test(sl.dataset.type || '')) return;   // product-page twins keep the live layout const R = sl.getBoundingClientRect(), p = pr.getBoundingClientRect().bottom - R.top;
+  const pillCentre = sl => { const pr = sl.querySelector('.pillrow .pill'); if (!pr || /^pp_/.test(sl.dataset.type || '')) return;   /* product-page twins keep the live layout */ const R = sl.getBoundingClientRect(), p = pr.getBoundingClientRect().bottom - R.top;
     const n = sl.querySelector('.note') || sl.querySelector('.foot-line'); const nb = n.getBoundingClientRect().top - R.top; const c = contentBox(sl); if (c.top > 1e8) return;
-    const dy = Math.round(((nb - c.bot) - (c.top - p)) / 2); if (dy < 8) return;
+    const free = (nb - p) - (c.bot - c.top), dy = Math.round(free * 0.55 - (c.top - p)); if (dy < 6 || free < 30) return;   // a little lower than the middle: 55 % of the free space above (Pierre, 12 Nov: « plus proche du bas que du SIGNAL »)
     c.els.forEach(e => { e.style.transform = ((e.style.transform || '') + ' translateY(' + dy + 'px)').trim(); }); sl.dataset.pillDy = dy; mark('pillCentre', sl); };
-  const all = sl => { try { names(sl); } catch (e) {} try { balance(sl); } catch (e) {}
+  // « Which categories will we use? »: names in capitals on 2 lines at most (one size for all), every card the same size and on the same lines
+  // (the PPTX slots differ by 2 px), filled cards centred: 4 = 2 + 2, others up to 3 per row (Pierre, 12 Nov 2026). Runs after the refit.
+  const catsGrid = sl => { const raw = sl.querySelector('.raw'), K = k => raw.querySelector(`.rx-t[data-k="${k}"]`), S = [...raw.querySelectorAll(':scope > svg.rx-s')];
+    const cards = [[7,6],[9,8],[11,10],[13,12],[15,14],[17,16]].map(([l, d], i) => ({l: K(l), d: K(d), s: S[i]})), full = cards.filter(c => c.l && c.l.textContent.trim()); if (!full.length) return;
+    cards.filter(c => !full.includes(c)).forEach(c => [c.l, c.d, c.s].forEach(e => e && (e.style.display = 'none')));
+    const n = full.length, cols = n === 4 ? 2 : Math.min(n, 3), W = 165.8, G = 13, x0 = (960 - (cols * W + (cols - 1) * G)) / 2, LT = [199, 381.7], DT = [256, 438.7], model = S[0].cloneNode(true);
+    full.forEach((c, i) => { const col = i % cols, row = Math.floor(i / cols), x = x0 + col * (W + G);
+      c.l.style.cssText += `;left:${x - 6}px;top:${LT[row]}px;width:${W + 12}px;height:54.7px;padding:0 2px 8px;text-transform:uppercase;justify-content:flex-end`;
+      c.d.style.cssText += `;left:${x}px;top:${DT[row]}px;width:${W}px;height:105.6px`;
+      const sv = model.cloneNode(true); sv.style.left = (x - 9) + 'px'; sv.style.top = (DT[row] - 9) + 'px'; sv.style.display = ''; c.s.replaceWith(sv); });
+    const lines = e => { const i = ink(e, sl); const lh = parseFloat(getComputedStyle(e.querySelector('p') || e).lineHeight) || 18; return i ? Math.round(i.h / lh) : 0; };
+    let fs = 11; const set = () => full.forEach(c => c.l.querySelectorAll('p, span').forEach(x => { x.style.fontSize = fs + 'pt'; x.style.textWrap = 'balance'; })); set();
+    while (fs > 8.5 && full.some(c => lines(c.l) > 2)) { fs -= 0.5; set(); }
+    const mx = Math.max(...full.map(c => lines(c.l))); full.forEach(c => { let p = 2; while (lines(c.l) < mx && p < 60) { p += 3; c.l.style.paddingLeft = c.l.style.paddingRight = p + 'px'; } });   // same number of lines for every name
+    mark('catsGrid', sl); };
+  // a figure is never cut in two lines (12 Nov 2026: « 12,0 / 00 » above its bar). CHECK WORD_SPLIT
+  const figures = sl => sl.querySelectorAll('.raw > .rx-t').forEach(el => { const t = el.textContent.trim(); if (t && t.length <= 12 && /^[≈~×x$€£+\-]?[\d][\d.,]*\s?[%KMBx+]*$/.test(t)) { el.style.whiteSpace = 'nowrap'; el.style.overflow = 'visible'; el.querySelectorAll('p, span').forEach(x => { x.style.whiteSpace = 'nowrap'; }); } });
+  const all = sl => { try { names(sl); } catch (e) {} try { balance(sl); } catch (e) {} try { figures(sl); } catch (e) {}
     if (sl.querySelector('.raw')) { [dateCaps, vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } });
       try { if (window.__fitapi && window.__fitapi.slideFit) window.__fitapi.slideFit(sl); } catch (e) { console.error('refit', sl.dataset.n, e); } }   // equal line counts on the final geometry
+    try { if (sl.dataset.tpl === 'categories_will_use') catsGrid(sl); } catch (e) { console.error('catsGrid', sl.dataset.n, e); }
     try { pillCentre(sl); } catch (e) { console.error('pillCentre', sl.dataset.n, e); } };   // last: on the final geometry
-  return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
+  // segment dividers: ONE title size for the whole deck, the largest at which the longest name stays clear of the side arrows
+  // (Pierre, 12 Nov 2026: the arrows ran over « BIPEDAL GENERAL-PURPOSE HUMANOIDS »). CHECK TEXT_ON_LINE
+  const deck = () => { const D = [...document.querySelectorAll('.slide[data-tpl="divider_3"]')].map(sl => ({sl, el: sl.querySelector('.rx-t[data-k="3"]')})).filter(o => o.el && o.el.textContent.trim());
+    if (!D.length) return; let k = 1; D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.whiteSpace = 'nowrap'; }); const i = ink(o.el, o.sl); if (i) k = Math.min(k, 640 / i.w); });
+    if (k < 1) D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = (parseFloat(getComputedStyle(x).fontSize) * k) + 'px'; }); mark('dividerSize', o.sl); }); };
+  return {deck, all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
 
 __D.push([".slide[data-tpl=\"categorize_companies_market\"]","","A.swap(sl,{style:'line',color:C.cream,size:15,ring:{bg:'#0E3A50',border:'1px solid rgba(231,205,168,.25)'}});A.toCorner(sl)","3"]);
@@ -458,4 +484,5 @@ __D.push([".slide[data-tpl=\"did_leaders_get_where_2\"]","","A.cardPillAuto(sl)"
   __D.forEach(([q,css,js,id])=>{ if(css){const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);}
     document.querySelectorAll(q).forEach(sl=>{ try{ (new Function('sl','A','C',js))(sl,window.A,window.A.C); }catch(e){ console.error('decision',id,q,e); } }); });
   document.querySelectorAll('.slide').forEach(sl=>{ try{ window.F.all(sl); }catch(e){ console.error('fixall',sl.dataset.n,e); } });
+  try{ window.F.deck(); }catch(e){ console.error('deck',e); }
   window.__decided=true; })();

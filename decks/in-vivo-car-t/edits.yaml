@@ -602,6 +602,9 @@ ed210:
   note:
   - We used Kelonia's trial materials, its ASH 2025 clinical disclosure and Lilly's acquisition release
   - We treated “a regular CAR-T startup” as a fictional baseline, shown here only for the contrast
+  rows_drop:
+  - 5
+  - 8
 ed211:
   __replace__:
     They deliver CAR mRNA straight to CD8 T cells inside the patient: They deliver CAR mRNA straight to CD8 T cells in the body
@@ -631,6 +634,9 @@ ed211:
     - They built the CellSeeker targeted LNP-mRNA platform
   - - They stay private while financing each clinical step separately
     - AbbVie acquired Capstan for up to $2.1 billion in cash
+  rows_drop:
+  - 2
+  - 6
 ed212:
   __replace__:
     INT2104 targets CD20-positive malignant B cells: INT2104 targets the CD20 marker on cancerous B cells
@@ -666,6 +672,9 @@ ed212:
     - Their lentivirus writes the CAR gene into the genome
   - - They stay independent after entering first-in-human testing
     - Kite agreed to acquire Interius for $350 million in 2025
+  rows_drop:
+  - 5
+  - 6
 ed213:
   __replace__:
     AstraZeneca completed its acquisition of EsoBiotec in May 2025: AstraZeneca closed its EsoBiotec deal in May 2025
@@ -678,6 +687,9 @@ ed213:
   note:
   - We used EsoBiotec's clinical disclosures, its Phase 1 paper in Nature Medicine and AstraZeneca's releases
   - We treated “a regular CAR-T startup” as a fictional baseline, shown here only to make the contrast clear
+  rows_drop:
+  - 1
+  - 8
 ed214:
   __replace__:
     BMS agreed to pay $1.5 billion in cash at closing: BMS agreed to pay $1.5 billion in cash to buy them
@@ -693,6 +705,9 @@ ed214:
   note:
   - We used Orbital's 2025 preclinical release and the acquisition announcement of Bristol Myers Squibb
   - We treated “a regular CAR-T startup” as a fictional baseline, shown here only to make the contrast clear
+  rows_drop:
+  - 6
+  - 7
 iv_fda:
   10: 'FAST LANES
 

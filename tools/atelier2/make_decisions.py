@@ -53,5 +53,6 @@ out.append("""(function go(){ if(window.__rawfit!==true) return setTimeout(go,50
   __D.forEach(([q,css,js,id])=>{ if(css){const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);}
     document.querySelectorAll(q).forEach(sl=>{ try{ (new Function('sl','A','C',js))(sl,window.A,window.A.C); }catch(e){ console.error('decision',id,q,e); } }); });
   document.querySelectorAll('.slide').forEach(sl=>{ try{ window.F.all(sl); }catch(e){ console.error('fixall',sl.dataset.n,e); } });
+  try{ window.F.deck(); }catch(e){ console.error('deck',e); }
   window.__decided=true; })();""")
 d = pathlib.Path(sys.argv[1]); (d / 'decisions.js').write_text('\n'.join(out)); print('decisions', len(DEC.D))

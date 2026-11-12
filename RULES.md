@@ -23,7 +23,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Slide title: always 2 lines, the most balanced cut, a market or company name never cut. CHECK TITLE_NOT_2_LINES, TITLE_BALANCE.
 - Extra-slide titles state the fact (who, what, how much), say « recent » rather than « since 2024 ».
 - Chapter kicker is the chapter, never the market name. CHECK KICKER_IS_MARKET.
-- Note (bottom left): starts with « We », 2 balanced lines by default (YAML list, no dots), 1 line if one idea fits,
+- Note (bottom left): 2 balanced lines by default (YAML list, no dots), 1 line if one idea fits,
   3 only for 3 important ideas; never runs into the footer label. CHECK NOTE_BALANCE, NOTE_WIDTH.
 - Centred sentences of 2 lines or more (stories, why texts): lines as equal as possible, like titles (fixlib `balance`).
 - Footer label: Pierre's list `data/market_labels.txt`, one line. CHECK in build.py, FOOT_LABEL.
@@ -57,11 +57,11 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   db_facts.yaml), never a typed figure: a base update re-flows every slide. A YAML value starting with `{` is quoted.
 - A key written twice in edits.yaml / live.yaml / db_text.yaml stops the import (DUPLICATE KEY).
 - Icons copied from the reference market and still identical are listed by the import (MODEL ICON LEFT).
-- Broken images fail the audit (BROKEN_IMG). Notes start with « We » (NOTE_WE).
+- Broken images fail the audit (BROKEN_IMG).
 
 ## Charts and maps
 - Splits by category (donut, shares): never copied from a study. Our own best estimate, explained in the note (up to 3
-  lines, starting with « We »). Too weak to defend: drop the slide (Claude judges). Categories = the base's (markets.category).
+  lines). Too weak to defend: drop the slide (Claude judges). Categories = the base's (markets.category).
 - Charts are computed from the data in deck.yaml (`vbars`, `hbars`, `split`, `dots`, `curves`); never a pixel size by hand.
 - Decorative arrows on charts are muted (#789096) and centered on their bar. CHECK ARROW_OFFCENTER.
 - World map: each region text on 3 lines, short enough that its box does not widen; leader lines start at the middle of the

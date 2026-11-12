@@ -17,12 +17,3 @@
 <svg class="rx-s" style="left:563.6px;top:427.5px;width:183.8px;height:125.8px;filter:drop-shadow(0.0px 2.0px 3.0px rgba(0,0,0,.5))" viewBox="-9.0 -9.0 183.8 125.8"><path d="M17.963613858267717 0H147.8631577952756A17.963613858267717 17.963613858267717 0 0 1 165.82677165354332 17.963613858267717V89.81591370078739A17.963613858267717 17.963613858267717 0 0 1 147.8631577952756 107.77952755905511H17.963613858267717A17.963613858267717 17.963613858267717 0 0 1 0 89.81591370078739V17.963613858267717A17.963613858267717 17.963613858267717 0 0 1 17.963613858267717 0Z" fill-rule="evenodd" fill="none" stroke="#334D54" stroke-width="1.00"/></svg>
 <div class="rx-t" data-k="16" style="left:572.6px;top:436.5px;width:165.8px;height:107.8px;padding:9.6px 10.0px 9.6px 10.0px;justify-content:center;">{{ rt(s.t[16], ["text-align:center;line-height:1.380;font-size:8.00pt"], ["font-size:8.00pt;letter-spacing:0.00pt;color:#E7CDA8"], [0], [0]) }}</div>
 <div class="rx-t" data-k="17" style="left:575.8px;top:381.7px;width:162.6px;height:54.7px;padding:9.6px 9.6px 9.6px 9.6px;justify-content:center;">{{ rt(s.t[17], ["text-align:center;line-height:1.380;font-size:11.00pt"], ["font-size:11.00pt;font-weight:700;letter-spacing:0.00pt;color:#FFFFFF"], [0], [0]) }}</div></div>
-<script>/* 4 categories out of 6 slots: 2 + 2, centered, instead of 3 + 1 (Humanoid robotics, 12 Nov 2026) */
-(()=>{const raw=document.currentScript.previousElementSibling; if(!raw||!raw.classList.contains('raw')) return;
-const K=k=>raw.querySelector(`.rx-t[data-k="${k}"]`), S=[...raw.querySelectorAll(':scope > svg.rx-s')];
-const cards=[[7,6],[9,8],[11,10],[13,12],[15,14],[17,16]].map(([l,d],i)=>({l:K(l),d:K(d),s:S[i]}));
-const full=cards.filter(c=>c.l&&c.l.textContent.trim()); if(full.length!==4) return;
-const X=[215.0,393.8], dx=89.4, Y=[0,182.7];
-full.forEach((c,i)=>{const col=i%2,row=i>>1; const tx=(X[col]+dx)-parseFloat(c.d.style.left), ty=Y[row]-(i<2?0:(cards.indexOf(c)<3?0:182.7));
- [c.l,c.d,c.s].forEach(e=>{if(!e)return; e.style.left=(parseFloat(e.style.left)+tx)+'px'; e.style.top=(parseFloat(e.style.top)+ty)+'px';});});
-cards.filter(c=>!full.includes(c)).forEach(c=>[c.l,c.d,c.s].forEach(e=>e&&(e.style.display='none')));})();</script>

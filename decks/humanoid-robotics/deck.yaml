@@ -54,6 +54,31 @@ slides:
     robotics'
   disclaimer: This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.
   src: 1
+  geo:
+    sub:
+      left: 51.9
+      top: 267.0
+      width: 856.2
+      height: 0
+      pt: 18
+    title:
+      left: 51.9
+      top: 75.9
+      width: 716.1
+      height: 0
+      pt: 55
+    disc:
+      left: 51.9
+      top: 314.7
+      width: 682.1
+      height: 56.7
+      pt: 7
+    copyright:
+      left: 51.9
+      top: 19.4
+      width: 856.2
+      height: 23.3
+      pt: 10
 - id: ed002
   type: x/divider
   src: 2
@@ -277,7 +302,7 @@ slides:
     8: '$100K+ / RaaS
 
 
-      Enterprise systems often use negotiated contracts or service pricing; Agility commercializes Digit through multi-year Robots-as-a-Service deals'
+      Enterprise systems often use negotiated contracts or service pricing. Agility commercializes Digit through multi-year Robots-as-a-Service deals'
     10: 💰
     11: 💰💰
     12: 💰💰💰
@@ -660,7 +685,7 @@ slides:
   note: We kept seven recent signals, each measured rather than promised, and each one gets its own slide next, before search interest
   src: 32
   t:
-    5: Unitree sold 5,215 humanoids in 2025
+    5: Unitree should sell 12,000 humanoids in 2026
     6: '1'
     7: Figure robots worked 1,250 hours at BMW
     8: '4'
@@ -670,7 +695,7 @@ slides:
     12: '3'
     13: Digit robots logged 65,000 paid hours
     14: '5'
-    15: UBTECH sold 1,079 full-size humanoids
+    15: UBTECH sold 921 full-size humanoids in H1
     16: '6'
     19: 37 rounds of $100M or more in 2026
     20: '7'
@@ -678,23 +703,28 @@ slides:
   type: x/sig_key_trend
   section: Market opportunity
   pill: SIGNAL
-  title: 'Unitree sold 5,215 humanoids in 2025,
+  title: 'Unitree should sell about 12,000 humanoids
 
-    up from 5 two years earlier'
+    in 2026, more than double its 2025 sales'
   t:
-    9: '5'
-    10: '2023'
-    12: 5,215
-    13: '2025'
-    15: ×1,000
+    9: 5,215
+    10: '2025'
+    12: 12,000
+    13: 2026 (EST.)
+    15: ×2.3
     16: WHY IT IS HOT
-    17: 'One maker went from a handful of lab robots to thousands of sales in two years, and these are audited figures from its IPO prospectus.
+    17: 'Unitree shipped about 5,900 humanoids in the first half of 2026 alone, more than in all of 2025. At this pace it should sell about 12,000 this year.
 
-      In 2024 it sold 412. Its price cuts and online store turned humanoids into a product people can actually buy.'
+      Its revenue grew 56% in the first nine months of 2026, and Morgan Stanley expects 14,000 units for the year.'
   vbars:
-  - 5
   - 5215
-  note: We used the production and sales table of Unitree’s STAR Market prospectus, with sales counted when revenue is recognized
+  - 12000
+  note:
+  - We doubled the 5,900 humanoids that Smart Analytics Global estimates Unitree shipped in the first half of 2026
+  - We took the 5,215 sold in 2025 from its prospectus, and Morgan Stanley forecasts 14,000 units for 2026
+  fresh:
+    period: year
+    end: 2026-12
 - id: xh_ship
   type: sx_stat_strip
   section: Market opportunity
@@ -714,6 +744,9 @@ slides:
   note:
   - We used Smart Analytics Global shipment estimates for H1 2025 and H1 2026,
   - as reported by China Daily in August 2026, the first half of each year
+  fresh:
+    period: half
+    end: 2026-06
 - id: xh_china
   type: sx_split_compare
   section: Market opportunity
@@ -750,6 +783,9 @@ slides:
   note:
   - We took shipments from Smart Analytics Global, first half of 2026,
   - and rounds and money from our database of equity rounds since 2024
+  fresh:
+    period: half
+    end: 2026-06
 - id: xh_figure
   type: kpis
   section: Market opportunity
@@ -765,7 +801,10 @@ slides:
   - value: 30,000
     label: BMW X3 cars that these robots helped to build
   why: This is a strong signal because it is one of the first humanoid fleets measured on a real production line, not in a lab or a video.
-  note: We used BMW Group’s report on the Figure 02 deployment at its Spartanburg plant, published in 2026
+  note: We used BMW Group’s report on the Figure 02 deployment at its Spartanburg plant, which ran until November 2025
+  fresh:
+    period: total
+    end: 2025-11
 - id: xh_digit
   type: kpis
   section: Market opportunity
@@ -782,27 +821,33 @@ slides:
     label: Share of tasks done right, as reported by Agility for its robots at GXO
   why: This is a strong signal because customers pay for this work every month, and GXO is now adding two more US sites.
   note: We used Agility Robotics’ Digit 5 announcement of September 15, 2026
+  fresh:
+    period: total
+    end: 2026-09
 - id: xh_ubtech
   type: x/sig_key_trend
   section: Market opportunity
   pill: SIGNAL
-  title: 'UBTECH sold 1,079 full-size humanoids
+  title: 'UBTECH’s full-size humanoid sales
 
-    in 2025, up from 3 a year earlier'
+    rose from 45 to 921 in one year'
   t:
-    9: '3'
-    10: '2024'
-    12: 1,079
-    13: '2025'
-    15: ×360
+    9: '45'
+    10: H1 2025
+    12: '921'
+    13: H1 2026
+    15: ×20
     16: WHY IT IS HOT
-    17: 'A second listed maker confirms the jump is not only Unitree’s: UBTECH went from almost no full-size robots to four-digit sales in one year.
+    17: 'A second listed maker confirms the jump: UBTECH sold 20 times more full-size humanoids than a year earlier, almost all of them for factories.
 
-      Most of them are Walker S2 robots for factories, sold to carmakers and electronics plants.'
+      At this pace it should sell more than 1,800 in 2026, against 1,079 in all of 2025.'
   vbars:
-  - 3
-  - 1079
-  note: We used UBTECH’s audited 2025 annual report, which gives 1,079 units and the growth rate that puts 2024 at 3
+  - 45
+  - 921
+  note: We used UBTECH’s interim results for the six months to June 30, 2026, which give 921 full-size units, up 1,946.7% in a year
+  fresh:
+    period: half
+    end: 2026-06
 - id: xh_megarounds
   type: sx_faceoff
   section: Market opportunity
@@ -828,6 +873,9 @@ slides:
   note:
   - We added up every equity round raised by humanoid robotics startups in our own database
   - IPOs, debt and grants are left out, 2026 runs to mid-November, and undisclosed rounds count as zero
+  fresh:
+    period: year
+    end: 2026-12
 - id: ed039p
   type: pp_trends
   section: Market opportunity
@@ -1139,17 +1187,17 @@ slides:
   src: 55
   t:
     5: Humanoids were mostly research machines with little evidence of useful live work
-    7: Commercial robots now work inside active factories and warehouses
+    7: Commercial robots now work inside active car factories and warehouses, on real shifts with paying customers behind them
     8: Buyers had little proof that humanoids could repeat one job for long periods
-    10: BMW logged 1,250 hours on a live production deployment
+    10: BMW logged 1,250 hours of Figure 02 work on a live production line, loading more than 90,000 parts over ten months
     11: Early robots often needed fenced cells or close supervision to stay safe
-    13: New designs are built for closer work around people without barriers
+    13: New designs such as Digit 5 are built for cooperative work near people, with safety systems that replace fixed barriers
     14: Battery charging made sustained multi-shift operation difficult to justify
-    16: New systems can use short autonomous charges to extend daily uptime
+    16: New systems swap batteries or charge themselves in minutes, so one robot can now cover most of a working day
     17: Commercial humanoid orders and production capacity were mostly theoretical
-    19: Vendors now report paid orders and purpose-built factories
+    19: Vendors now report paid orders worth hundreds of millions of dollars, and factories built to make thousands of robots
     20: Humanoids had few standardized ways to prove capability and safety
-    22: Formal humanoid standards are now being issued and expanded
+    22: Formal standards for humanoids are now being drafted and issued, including ISO 25785-1 for robots that balance on legs
     23: 🟢
     24: 🟢
     25: 🟢
@@ -1406,7 +1454,7 @@ slides:
     10: Humanoids for chores, mobility support, companionship and assistance for older adults at home
     11: Homes and elder care
     12: Humanoids for greeting, guiding, shopping assistance, public interaction and light service work
-    13: Retail stores and services
+    13: Retail and services
     14: ''
     15: ''
     16: ''
@@ -2318,7 +2366,7 @@ slides:
   type: x/likely_each_risk
   section: Tech and infra
   title: Where are humanoid robots actually at work today?
-  note: We list eight representative customer-site deployments or paid pilots with reported on-site work; stages reflect disclosed commercial status rather than technical maturity.
+  note: We list eight representative customer-site deployments or paid pilots with reported on-site work. Stages reflect disclosed commercial status rather than technical maturity.
   src: 143
   t:
     0: Low-skill physical manufacturing tasks at Mercedes-Benz plants
@@ -2499,7 +2547,7 @@ slides:
   note: We derived these elements from current customer deployments and the bottlenecks vendors are explicitly solving. The strongest current value is in uptime, flexible reuse across tasks and safe operation inside existing human facilities.
   src: 103
   t:
-    7: Robots that keep working for long shifts with few stops, resets or human rescues
+    7: Robots that keep working through long shifts, with few stops, resets or human rescues along the way
     9: 'FIELD
 
       UPTIME'
@@ -2509,7 +2557,7 @@ slides:
       VALUE'
     13: 💎
     14: 💎
-    15: Robots that work near people with validated safety and predictable behavior
+    15: Robots that work safely near people, with validated safety functions and predictable behavior on site
     17: 'SAFE
 
       CO-WORKING'
@@ -2522,17 +2570,17 @@ slides:
   note: We derived these elements from how commercial programs are moving from pilots toward fleets. Value is increasingly created by reducing human intervention, fitting existing operations and making useful robot hours economical enough to scale.
   src: 104
   t:
-    7: Less teleoperation, fewer resets and less specialist attention per shift
+    7: Less teleoperation, fewer resets and less specialist attention needed on site during every working shift
     9: 'LESS HUMAN
 
       SUPERVISION'
-    10: Robots that connect with existing lines, conveyors and software
+    10: Robots that connect with the existing lines, conveyors and plant software, with no need to rebuild the site
     12: 'EASY
 
       INTEGRATION'
     13: 💎
     14: 💎
-    15: Hardware and service models that lower the cost of each useful hour worked
+    15: Hardware and service models that lower the cost of each useful hour worked, such as leasing by the month
     17: 'BETTER
 
       ECONOMICS'
@@ -3202,27 +3250,27 @@ slides:
 
 
 
-      A high-spec humanoid could cost $50K-$250K to build in 2023; Unitree now lists a complete G1 from $13.5K.'
+      A humanoid could cost $50K-$250K to build in 2023. Unitree now lists a complete G1 from $13.5K.'
     7: 'ACTUATORS
 
 
 
-      Earlier estimates put actuators above $20K per robot; Morgan Stanley now models $22K with a China supply chain.'
+      Earlier estimates put actuators above $20K per robot. Morgan Stanley now models $22K with a China supply chain.'
     8: 'HANDS
 
 
 
-      Dexterous hands can exceed $70K a pair at low volume; Morgan Stanley models about $15K for an Optimus-style pair.'
+      Dexterous hands can exceed $70K a pair at low volume. Morgan Stanley models about $15K for an Optimus-style pair.'
     9: 'BATTERY
 
 
 
-      Older prototype models put battery systems near $5K; recent component estimates put a humanoid pack near $275-$417.'
+      Older prototype models put battery systems near $5K. Recent component estimates put a humanoid pack near $275-$417.'
     10: 'COMPUTE
 
 
 
-      Prototype AI compute was often modeled around $5K; recent Optimus-style estimates put compute near $2.1K.'
+      Prototype AI compute was often modeled around $5K. Recent Optimus-style estimates put compute near $2.1K.'
 - id: xh_asp
   type: sx_stat_strip
   section: Market challenges
@@ -3239,8 +3287,8 @@ slides:
     l: In one year, as cheaper models such as the G1 took most of the sales
   story: It matters because cheaper robots widen the market from labs to factories and homes, and it is a real average price, not a list price or a target.
   note:
-  - We divided Unitree’s humanoid revenue by its units sold, from its prospectus;
-  - the mix of models changed, so this is an average, not a like-for-like price
+  - We divided Unitree’s humanoid revenue by its units sold, from its prospectus
+  - The mix of models changed, so this is an average, not a like-for-like price
 - id: ed141
   type: x/constraints_structural
   section: Market challenges
@@ -3762,7 +3810,7 @@ slides:
   src: 156
   t:
     13: 2026 (OCT)
-    14: GXO agreed to expand Digit deployments to two more U.S. sites from early 2027; deal value was not disclosed {1|Agility}
+    14: GXO agreed to expand Digit deployments to two more U.S. sites from early 2027. Deal value was not disclosed {1|Agility}
     15: 2026 (AUG)
     16: Unitree raised about $905M in its STAR Market IPO, pricing the robot maker at roughly $9B at the offer {1|Unitree}
     17: 2026 (JUL)
@@ -4721,7 +4769,7 @@ slides:
     src: media/ini/aldebaran.png
   note:
   - We looked for warning signs among notable humanoid robot builders, from layoffs and leadership exits to shutdowns
-  - We used company statements, filings and reputable reporting; a blank cell means we did not verify that warning sign
+  - We used company statements, filings and reputable reporting. A blank cell means we did not verify that warning sign
 - id: ed200
   type: x/why_startups_fail
   section: Startup killers
@@ -5073,8 +5121,6 @@ slides:
     - Figure 02 worked daily on an active BMW assembly line
   - - They show short tasks with resets between each step
     - Helix 02 ran a four-minute kitchen task with no reset
-  - - They separate walking from manipulation control
-    - Helix 02 controls walking, balance and hands together
   - - They collect little evidence from real production lines
     - Figure 02 logged more than 1,250 working hours at BMW
   - - They build their prototypes by hand, one unit at a time
@@ -5085,8 +5131,6 @@ slides:
     - Figure 03 moved from sheet loading to parts sequencing
   - - They train only on carefully staged robot lab data
     - Figure added human video and multimodal data collection
-  - - They raise money before any customer production use
-    - BMW said Figure 02 helped build over 30,000 X3 cars
   - - They stay valued like an early robotics experiment
     - Figure raised over $1 billion at a $39 billion valuation
   section: Startup strategies
@@ -5108,16 +5152,12 @@ slides:
     - Mercedes-Benz brought Apollo into its car factories
   - - They outsource manufacturing with no feedback loop
     - Jabil agreed to build Apollo and use it in its own plants
-  - - They keep the robot maker and the factory apart
-    - Jabil validates Apollo on the lines that build Apollo
   - - They depend on a single customer to prove the product
     - Apptronik also works with Mercedes-Benz and GXO
   - - They raise small rounds between hardware versions
     - Apptronik's Series A grew to more than $935 million
   - - They rely only on purely financial venture investors
     - Google, Mercedes-Benz and John Deere joined its rounds
-  - - They build their hardware with no major AI partner
-    - Google joined as Apptronik scaled its AI-powered robots
   - - They plan scale before securing factory know-how
     - Jabil brought engineering, production and supply chains
   - - They keep their sales separate from robot production
@@ -5139,8 +5179,6 @@ slides:
     - Agility built Digit around repetitive material handling
   - - They leave customer pilots after only a few weeks
     - Digit logged more than 65,000 hours at customer sites
-  - - They treat every new customer workflow as a new robot
-    - Digit 5 adds tools and skills to cover more site work
   - - They need long charging stops between short shifts
     - Digit 5 works 90 minutes after a nine-minute charge
   - - They keep payloads too low for common industrial loads
@@ -5151,8 +5189,6 @@ slides:
     - RoboFab is designed to build up to 10,000 robots a year
   - - They rely on pilots with no contracted follow-on demand
     - Agility disclosed more than $300 million in Digit 5 orders
-  - - They keep customer data separate from AI development
-    - Agility feeds deployment data back into its robot AI
   - - They stay private while scaling factory infrastructure
     - Agility began trading on Nasdaq as AGLT in November 2026
   section: Startup strategies
@@ -5174,8 +5210,6 @@ slides:
     - The standard G1 can be bought in Unitree's online store
   - - They build only a handful of robots for demonstrations
     - Unitree says it delivered over 5,500 humanoids in 2025
-  - - They call factory output an order before a robot ships
-    - Unitree separated delivered units from its order volume
   - - They depend on one single premium full-size platform
     - Unitree sells several humanoid models at different prices
   - - They hide basic hardware specifications from developers
@@ -5186,8 +5220,6 @@ slides:
     - Unitree raised capital through a Shanghai public listing
   - - They burn cash while waiting for humanoids to mature
     - Unitree reported a profit in its 2025 prospectus period
-  - - They prove demand only with social-media attention
-    - Unitree disclosed thousands of humanoids sold and delivered
   section: Startup strategies
   src: 213
   title: How Unitree made humanoids cheap enough to ship by the thousands
@@ -5207,8 +5239,6 @@ slides:
     - NEO uses a soft body over its mechanical structure
   - - They make a heavy robot that is hard to move safely
     - NEO weighs about 66 pounds, light enough for a home
-  - - They build hands mainly for simple industrial gripping
-    - NEO uses multi-finger tendon-driven hands for home items
   - - They wait for full autonomy before selling anything
     - 1X sells early access while its autonomy keeps improving
   - - They hide human assistance behind an autonomy claim
@@ -5219,8 +5249,6 @@ slides:
     - NEO early access ownership is listed at only $20,000
   - - They build production before testing consumer demand
     - 1X booked 10,000 units of production in only five days
-  - - They treat a home robot as hardware with fixed skills
-    - 1X says NEO learns and gains new skills over time
   section: Startup strategies
   src: 214
   title: How 1X turned home humanoids into a 10,000-unit preorder book

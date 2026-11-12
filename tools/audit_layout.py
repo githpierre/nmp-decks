@@ -23,9 +23,27 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
  const rowsOf = p => { const g = document.createRange(); g.selectNodeContents(p); const t = new Set(); [...g.getClientRects()].forEach(r => { if (r.width > 1) t.add(Math.round(r.top / 4)); }); return t.size; };
  const ink = el => { const g = document.createRange(); g.selectNodeContents(el); const rs = [...g.getClientRects()].filter(r => r.width > 1 && r.height > 1); if (!rs.length) return null;
    return {l: Math.min(...rs.map(r => r.left)), r: Math.max(...rs.map(r => r.right)), t: Math.min(...rs.map(r => r.top)), b: Math.max(...rs.map(r => r.bottom))}; };
+ const trects = el => { const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), o = []; let t; while ((t = w.nextNode())) { if (!t.textContent.trim()) continue; const g = document.createRange(); g.selectNodeContents(t); for (const r of g.getClientRects()) if (r.width > 1 && r.height > 1) o.push(r); } return o; };
+ const tink = el => { const rs = trects(el); if (!rs.length) return null; return {l: Math.min(...rs.map(r => r.left)), r: Math.max(...rs.map(r => r.right)), t: Math.min(...rs.map(r => r.top)), b: Math.max(...rs.map(r => r.bottom)), rows: new Set(rs.map(r => Math.round(r.top / 4))).size}; };
  const EMO = /\p{Extended_Pictographic}/u;
  document.querySelectorAll('section.slide').forEach(sl => { const n = +sl.dataset.n, R = sl.getBoundingClientRect(), type = sl.dataset.type || '';
+  // --- a text never sits on a line or an arrow (12 Nov 2026: divider arrows over the segment name). Dividers included.
+  if (type !== 'cover' && !/^(fast_startups_growing)$/.test(sl.dataset.tpl || '')) { const L = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(v => getComputedStyle(v).display !== 'none').map(v => { const p = v.querySelector(':scope > path'); if (!p || !/^M[-\d.\s]+L[-\d.\s]+$/.test(p.getAttribute('d') || '')) return null; const r = p.getBoundingClientRect(); return {l: r.left - 1, r: r.right + 1, t: r.top - 1, b: r.bottom + 1}; }).filter(Boolean);
+    sl.querySelectorAll('.raw > .rx-t').forEach(el => { if (el.textContent.trim().length < 4 || getComputedStyle(el).display === 'none') return;
+      for (const q of trects(el)) { if (q.width < 2 || q.height < 2) continue; const hit = L.find(a => Math.min(a.r, q.right) - Math.max(a.l, q.left) > 3 && Math.min(a.b, q.bottom - q.height * .22) - Math.max(a.t, q.top + q.height * .22) > 0); if (hit) { out.push([n, 'TEXT_ON_LINE', el.textContent.trim().slice(0, 40)]); break; } } }); }
   if (/^(cover|agenda)$/.test(type) || /divider/.test(sl.dataset.tpl || '')) return;
+  // --- sibling boxes (same row, same size): their first lines start at the same height (12 Nov 2026: « WHOLE ROBOT » higher than its neighbours)
+  { const G = {}; sl.querySelectorAll('.raw > .rx-t').forEach(el => { const t = el.textContent.trim(); if (t.length < 25 || getComputedStyle(el).display === 'none') return; const r = el.getBoundingClientRect(); const k = Math.round(r.top) + '|' + Math.round(r.height) + '|' + Math.round(r.width); const i = tink(el); if (i) (G[k] = G[k] || []).push(i.t); });
+    Object.values(G).forEach(a => { if (a.length >= 3 && Math.max(...a) - Math.min(...a) > 3) out.push([n, 'SIBLING_TOP', a.map(v => Math.round(v - R.top)).join(',')]); }); }
+  const CARDS = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(v => getComputedStyle(v).display !== 'none' && v.querySelector('rect, path[d*="Z"]')).map(v => (v.querySelector('rect, path') || v).getBoundingClientRect()).filter(r => r.width > 100 && r.height > 20 && Math.abs(r.width - r.height) > 6);   // circles (bubble charts) are not cards
+  // --- a text never straddles the border of a card, and a word or a number is never cut in two lines (12 Nov 2026: names over their card, « 12,0 / 00 »)
+  sl.querySelectorAll('.raw > .rx-t').forEach(el => { const t = el.textContent.trim(); if (t.length < 4 || getComputedStyle(el).display === 'none') return;
+    if (t.length >= 8) { const rs = trects(el); const c = CARDS.find(c => rs.some(q => Math.min(c.right, q.right) - Math.max(c.left, q.left) > 6 && ((q.top + 2 < c.top && q.bottom - 3 > c.top) || (q.top + 3 < c.bottom && q.bottom - 2 > c.bottom)))); if (c) out.push([n, 'TEXT_ON_BORDER', t.slice(0, 40)]); }
+    const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let x; while ((x = w.nextNode())) { const m = [...x.textContent.matchAll(/[^\s\u00a0-]+/g)]; for (const k of m) { if (k[0].length < 3) continue; const g = document.createRange(); g.setStart(x, k.index); g.setEnd(x, k.index + k[0].length); const tops = new Set([...g.getClientRects()].filter(r => r.width > 0.5).map(r => Math.round(r.top / 4))); if (tops.size > 1) { out.push([n, 'WORD_SPLIT', k[0]]); return; } } } });
+  // --- a box of 2 lines or more is filled: its longest line takes at least 62 % of the inner width (12 Nov 2026: boxes half empty, texts must be longer)
+  sl.querySelectorAll('.raw > .rx-t').forEach(el => { const t = el.textContent.trim(); const p0 = el.querySelector('p'); const eb = el.getBoundingClientRect(); if (!CARDS.some(c => c.left <= eb.left + 6 && c.right >= eb.right - 6 && c.top <= eb.top + 6 && c.bottom >= eb.bottom - 6 && c.width < eb.width + 60 && c.height < eb.height + 60)) return; if (t.length < 30 || getComputedStyle(el).display === 'none' || !p0 || getComputedStyle(p0).textAlign !== 'left') return;
+    const cs = getComputedStyle(el), inner = el.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight), i = tink(el); if (!i || i.rows < 2 || inner < 140) return;
+    const f = (i.r - i.l) / inner; if (f < 0.58) out.push([n, "HALF_FILLED", Math.round(f * 100) + '%', t.slice(0, 40)]); });
   const vis = e => { const c = getComputedStyle(e); return c.visibility !== 'hidden' && c.display !== 'none' && +c.opacity !== 0; };
   // --- margins of everything between the title and the footer
   const skip = e => e.closest('.title,.kicker,.subtitle,.note,.foot,.foot-line,.foot-label,.foot-brand,.corner,.pill');
@@ -74,7 +92,6 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   // --- chart labels sitting on a bubble or another label (sx_round_timeline)
   sl.querySelectorAll('.rtl-lab[data-clash]').forEach(t => out.push([n, 'LABEL_ON_SHAPE', t.textContent.trim()]));
   // --- money written the way people say it
-  const nt = sl.querySelector('.note'); if (nt && nt.textContent.trim() && !/^We\b/.test(nt.textContent.trim())) out.push([n, 'NOTE_WE', nt.textContent.trim().slice(0, 40)]);   // RULES: a note starts with « We »
   sl.querySelectorAll('img').forEach(im => { if (!im.naturalWidth) out.push([n, 'BROKEN_IMG', (im.getAttribute('src') || '').split('/').pop()]); });   // 12 Nov 2026: contrast slides showed broken logo images
   const tx = sl.querySelector('.srcl') ? '' : sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b|\$ ?\d{4,} ?M\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]);   // $1787M must read $1.8B (12 Nov 2026)
   // --- the slide title is always on two lines (Pierre, 12 Nov 2026)
@@ -82,12 +99,35 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   if (sl.querySelector('[data-robotic]')) out.push([n, 'GRID_ROBOTIC', 'top players grid placed by the automatic pattern: give `pos` (meaning) or `tiles` (live page)']);
   // --- cards emptied by the import
   const holes = sl.querySelectorAll('[data-emptied]').length; if (holes && !sl.dataset.holesOk && !(holes === 1 && sl.querySelector('.raw'))) out.push([n, 'GRID_HOLES', holes + ' empty cards']);
- }); return out; }"""
+ });
+ { const S = {}; document.querySelectorAll('section.slide').forEach(sl => { const t = (sl.querySelector('.title') || {}).textContent; if (!t) return; const emo = [...sl.querySelectorAll('.raw span, .raw div')].some(e => !e.children.length && EMO.test(e.textContent) && !e.querySelector('svg')); (S[t.trim()] = S[t.trim()] || []).push([+sl.dataset.n, emo]); });
+   Object.values(S).forEach(a => { if (a.length > 1 && new Set(a.map(x => x[1])).size > 1) out.push([a.filter(x => x[1])[0][0], 'SERIES_ICON_MIX', 'emojis on this page, icons on the other pages of the series']); }); }
+ return out; }"""
 def run(slug):
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': 1000, 'height': 800})
+        errs = []; pg.on('console', lambda m: errs.append(m.text) if m.type == 'error' else None); pg.on('pageerror', lambda e: errs.append(str(e)))
         pg.goto((Path(__file__).resolve().parent.parent / 'decks' / slug / 'deck.html').as_uri()); pg.wait_for_timeout(1500)
-        out = pg.evaluate(JS); out += pg.evaluate(JS2); b.close()
+        out = pg.evaluate(JS); out += pg.evaluate(JS2)
+        # a script error means a rule silently stopped working (12 Nov 2026: the SIGNAL centring was dead, nobody saw it)
+        seen = set()
+        for e in errs:
+            k = e.split('\n')[0][:110]; k2 = ''.join(c for c in k if not c.isdigit())
+            if k2 not in seen and 'net::ERR' not in k: seen.add(k2); out.append([0, 'JS_ERROR', k])
+        # cover: no text over the subject of the photo (12 Nov 2026: title and disclaimer drawn over the robots). The photo under each text must be calm.
+        cov = pg.query_selector('section.slide.cover')
+        if cov:
+            import io
+            from PIL import Image, ImageStat
+            rects = pg.evaluate("""() => { const c = document.querySelector('section.slide.cover'), R = c.getBoundingClientRect(); return [...c.querySelectorAll('.copy, .big .ln, .sub, .disc')].map(e => { const g = document.createRange(); g.selectNodeContents(e); const r = g.getBoundingClientRect(); return [e.className.split(' ')[0], r.left - R.left, r.top - R.top, r.width, r.height]; }); }""")
+            pg.add_style_tag(content='.cover .copy,.cover .big,.cover .sub,.cover .disc,.cover .tblock{visibility:hidden!important}')
+            im = Image.open(io.BytesIO(cov.screenshot())).convert('L')
+            for cls, x, y, w, h in rects:
+                if w < 2 or h < 2: continue
+                st = ImageStat.Stat(im.crop((int(x), int(y), int(x + w), int(y + h)))); sd, mean = st.stddev[0], st.mean[0]
+                if sd > 22 or mean > 110: out.append([1, 'COVER_TEXT_ON_SUBJECT', cls, f'contrast {sd:.0f}, brightness {mean:.0f}'])
+                elif '--cover' in sys.argv: print('cover', cls, round(x), round(y), round(w), round(h), f'sd {sd:.1f} mean {mean:.1f}')
+        b.close()
     for o in out: print(' | '.join(map(str, o)))
     print(len(out), 'layout issues')
 if __name__ == '__main__': run(sys.argv[1])

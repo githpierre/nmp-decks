@@ -1,11 +1,21 @@
 <section class="slide cover btn-{{ s.btn or "b" }}" data-n="1" data-type="cover">
+{% set g = s.geo %}{% macro sp(t) %}{{ (t | upper | replace(' ', '|') | list | join(' ') | replace(' | ', '&nbsp;&nbsp;')) | safe }}{% endmacro %}
+{% if g %}{# layout copied from Pierre's cover slide (tools/cover_from_slides.py): photo crop, sizes and places as in Google Slides, letters spaced by real spaces #}
+  {% macro box(b) %}position:absolute;margin:0;bottom:auto;left:{{ b.left }}px;top:{{ b.top }}px;font-size:{{ b.pt }}pt;letter-spacing:0;{% if b.height %}height:{{ b.height }}px;display:flex;flex-direction:column;justify-content:center;{% endif %}{% endmacro %}
+  <img class="photo" src="{{ s.image }}">
+  {% if g.copyright %}<div class="copy cv" style="{{ box(g.copyright) }}">©&nbsp;{{ sp('New Market Pitch') }}</div>{% else %}<div class="copy">© NEW MARKET PITCH</div>{% endif %}
+  <div class="big cv" style="{{ box(g.title) }}line-height:1.15">{% for l in s.big.split('\n') %}<div class="ln">{{ sp(l) }}</div>{% endfor %}</div>
+  <div class="sub cv" style="{{ box(g.sub) }}">{{ sp('New Market Pitch') }}</div>
+  <p class="disc cv" style="{{ box(g.disc) }}width:{{ g.disc.width }}px">{{ s.disclaimer }}</p>
+{% else %}
   <img class="photo" src="{{ s.image }}">
   <div class="copy">© NEW MARKET PITCH</div>
   <div class="tblock" data-maxw="{{ s.title_maxw or 520 }}"><div class="big">{% for l in s.big.split('\n') %}<div class="ln">{{ l }}</div>{% endfor %}</div><div class="sub">NEW MARKET PITCH</div>{% if s.disc_pos != 'bottom' %}<p class="disc under">{{ s.disclaimer }}</p>{% endif %}</div>
   {% if s.disc_pos == 'bottom' %}<p class="disc" {% if s.disc_style %}style="{{ s.disc_style }}"{% endif %}>{{ s.disclaimer }}</p>{% endif %}
+{% endif %}
   {% if s.tag %}<div class="wtag">{{ s.tag }}</div>{% endif %}
   <div class="foot-brand{% if s.btn_busy %} busy{% endif %}">NEWMARKETPITCH.COM</div>
-  <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'), big = b.querySelector('.big'), max = +b.dataset.maxw;
+  <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'); if (!b) return; const big = b.querySelector('.big'), max = +b.dataset.maxw;
     // cover title: each line on one line, shrunk only if the longest line is wider than the free dark area (title_maxw)
     // the pink "NEW MARKET PITCH" line shrinks with it (23/60 of the title size) and is measured too
     const sub = b.querySelector('.sub'); let fs = 60;
