@@ -1,0 +1,320 @@
+ed001:
+  big: 'Humanoid
+
+    robotics'
+ed018:
+  type: sx_categories_n
+  t: null
+  categories:
+  - label: 'BIPEDAL
+
+      GENERAL-PURPOSE'
+    description: Companies building two-legged humanoids designed to learn and perform many physical tasks
+    emoji: 🚶
+  - label: 'WHEELED +
+
+      HYBRID BASE'
+    description: Companies putting human-like torsos and arms on wheels or mixed bases for practical work
+    emoji: 🛞
+  - label: 'OPEN DEVELOPER
+
+      PLATFORMS'
+    description: Companies selling affordable complete humanoids for research, training and software development
+    emoji: 🧑‍💻
+  - label: 'SOCIAL +
+
+      EXPRESSIVE'
+    description: Companies building human-form robots for conversation, hospitality, guidance and social settings
+    emoji: 🗣️
+  - label: 'HEAVY-DUTY
+
+      SUPERHUMANOIDS'
+    description: Companies building stronger human-form machines for demanding industrial handling and factory work
+    emoji: 🏭
+  categorization: Here, we categorize by type of robot
+ed059:
+  13: 'SKILL
+
+
+    gaps'
+ed008:
+  7: Humanoids combine legs or wheels, sensing and human-like arms in one robot for varied physical work
+  10: Industrial arms are fixed machines built for repeated motions inside a set workstation or guarded cell
+  11: Mobile robots move goods around sites, while humanoids add arms for tasks designed around human bodies
+ed010:
+  7: It is in the market when a two-legged robot walks, handles objects and learns tasks
+  10: It is in the market when a human-like torso and arms ride on wheels around a site
+  13: It is in the market when a complete humanoid is sold for robot AI research
+  16: It is in the market when a human-form robot is built to talk with and serve people
+  19: It is in the market when a heavy-duty human-form robot handles loads in industry
+ed012:
+  8: One-time sale
+  9: Recurring fee
+ed017:
+  note:
+  - We rate maturity with a simple internal score based on real deployments, products, customer commitments and repeat sales
+  - We set 45/100 because commercial proof exists, but fleets, safety certification and general-purpose skills are still early
+ed022:
+  8: '🧠
+
+    Generalizable skills, because buyers want one robot to learn more than one task'
+  10: '🏭
+
+    Easy integration, because customers want automation without rebuilding workstations'
+  11: '📈
+
+    Real deployment data, because working fleets create data that lab demos cannot'
+  12: '⚙️
+
+    Scalable production, because customers need consistent hardware, service and parts'
+  13: '🧩
+
+    Full-stack control, because hardware, AI, safety and fleet software must work as one'
+ed061:
+  13: Retail stores and services
+  holes_ok: true
+ed087:
+  10: Frames, joints and actuators turn motor commands into stable whole-body motion
+  11: Cameras, touch and joint sensors tell the robot what is around it and how it moves
+  14: Onboard computers run perception, planning and control fast enough for motion
+  15: Dexterous hands and grippers decide how well robots grasp and handle objects
+ed101:
+  6: Moving totes and parts is now repeated in many warehouse and factory pilots
+  8: Teleoperation and scripted teaching are common ways to add new robot tasks
+  10: Depth cameras, LiDAR and force sensors now come with most humanoids
+  12: Stable walking on flat floors is routine in vendors’ controlled demos
+  14: Narrow pilots at one workstation are now the usual first step
+  16: Basic pick, carry and place moves are now expected, not special
+  18: A polished demo of one task no longer proves broad, lasting autonomy
+  20: A human-like body alone no longer sets a robot apart
+ed102:
+  6: Because many vendors now handle parts and totes in live operations
+  8: Because remote help and task teaching cover gaps in robot autonomy
+  10: Because cameras, LiDAR, force sensors and compute modules are easy to buy
+  12: Because many robots already walk reliably on flat indoor floors
+  14: Because customers start with narrow pilots before adding robot duties
+  16: Because picking and moving objects is now a basic test for any humanoid
+  18: Because single-task videos say little about real, sustained performance
+  20: Because many vendors offer human-shaped robots, so shape adds little value
+ed107-s1:
+  5: CAR MAKERS
+ed107-s2:
+  11: WAREHOUSE OPERATORS
+  17: ROBOT INTEGRATORS
+ed107-s3:
+  14: ROBOTICS EDUCATORS
+  17: SOFTWARE DEVELOPERS
+ed108-s3:
+  7: A developer buys the robot, opens its software interfaces and starts experiments quickly. Documentation works, parts and updates are easy to get, and teams spend their time on applications rather than on rebuilding hardware.
+ed108-s4:
+  7: The robot holds natural conversations, reacts with believable timing and stays engaging in noisy public places. Staff set its knowledge and personality, and visitors understand its limits. Its physical presence does what a screen cannot.
+ed108-s5:
+  6: The robot lifts a dramatic demo load but is slow, hard to service and unsafe near normal operations. Noise, heat and upkeep pile up and precision drops under load, so the customer still needs cranes, fixtures and people.
+iv_fda:
+  7: 'LAB TESTS
+
+
+
+    The maker tests falls, stops and failures. Engineering and safety decide if it can leave the lab.'
+ed141:
+  5: 'Human-shaped robots have many joints
+
+    that wear, heat up or fail'
+  10: 'Mobile robots must carry their energy
+
+    while moving a heavy body'
+ed145:
+  8: 'Robot safety rules
+
+
+    had not been revised since 2011'
+  7: 'Digit works under paid contracts
+
+
+    and Figure has run on BMW lines'
+  10: 'ISO 10218 was revised in 2025
+
+
+    for robots and their applications'
+  13: 'BMW reported 1,250+ hours
+
+
+    and 90,000+ parts moved'
+  16: 'Unitree lists complete humanoids
+
+
+    from $4.9K to $29.9K'
+  19: 'ISO 25785-1 is in development
+
+
+    for this class of robots'
+  22: 'GXO is taking Digit from Georgia
+
+
+    to two more US sites'
+ed153:
+  6: '🏭
+
+    Each deployment adds data that makes the next customer rollout easier'
+  10: '🤖
+
+    Each production batch makes the hardware more consistent'
+ed183:
+  regions:
+    na:
+      name: NORTH AMERICA
+      text: North America is led by Figure, Apptronik, Agility and 1X, with BMW, Mercedes-Benz, GXO and Toyota among named deployment partners.
+    eu:
+      name: EUROPE
+      text: Europe has 1X roots in Norway and newer builders such as Humanoid in London, which became a $1.35B unicorn in July 2026.
+    apac:
+      name: CHINA
+      text: 'China has the deepest supply chain: Unitree, UBTECH, AgiBot and Galbot ship the most robots.'
+    au:
+      name: ASIA-PACIFIC
+      text: Japan, Korea and Southeast Asia are active customer and investor hubs, while Chinese vendors increasingly sell and test robots abroad.
+ed201:
+  23: US
+  34: US
+  45: FR
+  56: CA
+  67: US
+  78: US
+  77: Boston D.
+  13: Weak
+  14: demand
+ed210:
+  rows:
+  - - They stay in lab demos while customers keep waiting
+    - Figure 02 worked daily on an active BMW assembly line
+  - - They show short tasks with resets between each step
+    - Helix 02 ran a four-minute kitchen task with no reset
+  - - They separate walking from manipulation control
+    - Helix 02 controls walking, balance and hands together
+  - - They collect little evidence from real production lines
+    - Figure 02 logged more than 1,250 working hours at BMW
+  - - They build their prototypes by hand, one unit at a time
+    - BotQ took Figure 03 output from one a day to one an hour
+  - - They wait years before manufacturing at volume
+    - Figure delivered over 350 Figure 03 robots by April 2026
+  - - They depend on one narrow, repeated factory movement
+    - Figure 03 moved from sheet loading to parts sequencing
+  - - They train only on carefully staged robot lab data
+    - Figure added human video and multimodal data collection
+  - - They raise money before any customer production use
+    - BMW said Figure 02 helped build over 30,000 X3 cars
+  - - They stay valued like an early robotics experiment
+    - Figure raised over $1 billion at a $39 billion valuation
+ed211:
+  rows:
+  - - They design a robot before finding where it will work
+    - Apptronik built Apollo around warehouse and factory tasks
+  - - They test their robots only inside their own robotics lab
+    - Mercedes-Benz brought Apollo into its car factories
+  - - They outsource manufacturing with no feedback loop
+    - Jabil agreed to build Apollo and use it in its own plants
+  - - They keep the robot maker and the factory apart
+    - Jabil validates Apollo on the lines that build Apollo
+  - - They depend on a single customer to prove the product
+    - Apptronik also works with Mercedes-Benz and GXO
+  - - They raise small rounds between hardware versions
+    - Apptronik's Series A grew to more than $935 million
+  - - They rely only on purely financial venture investors
+    - Google, Mercedes-Benz and John Deere joined its rounds
+  - - They build their hardware with no major AI partner
+    - Google joined as Apptronik scaled its AI-powered robots
+  - - They plan scale before securing factory know-how
+    - Jabil brought engineering, production and supply chains
+  - - They keep their sales separate from robot production
+    - Apptronik uses its factory sites as deployment sites
+ed212:
+  rows:
+  - - They optimize for flashy video demonstrations first
+    - Agility built Digit around repetitive material handling
+  - - They leave customer pilots after only a few weeks
+    - Digit logged more than 65,000 hours at customer sites
+  - - They treat every new customer workflow as a new robot
+    - Digit 5 adds tools and skills to cover more site work
+  - - They need long charging stops between short shifts
+    - Digit 5 works 90 minutes after a nine-minute charge
+  - - They keep payloads too low for common industrial loads
+    - Digit 5 is designed to lift loads of up to 50 pounds
+  - - They isolate robots behind permanent safety barriers
+    - Digit 5 is designed for cooperative work near people
+  - - They build their robots without a dedicated factory
+    - RoboFab is designed to build up to 10,000 robots a year
+  - - They rely on pilots with no contracted follow-on demand
+    - Agility disclosed more than $300 million in Digit 5 orders
+  - - They keep customer data separate from AI development
+    - Agility feeds deployment data back into its robot AI
+  - - They stay private while scaling factory infrastructure
+    - Agility began trading on Nasdaq as AGLT in November 2026
+  note:
+  - We used Agility's own news on its GXO deployment, Digit 5 orders and Nasdaq listing
+  - We treated “a regular humanoid startup” as a fictional baseline, for the contrast only
+ed213:
+  rows:
+  - - They price a research humanoid like special machinery
+    - Unitree lists its full G1 humanoid from just $13,500
+  - - They make buyers request a quote before any trial
+    - The standard G1 can be bought in Unitree's online store
+  - - They build only a handful of robots for demonstrations
+    - Unitree says it delivered over 5,500 humanoids in 2025
+  - - They call factory output an order before a robot ships
+    - Unitree separated delivered units from its order volume
+  - - They depend on one single premium full-size platform
+    - Unitree sells several humanoid models at different prices
+  - - They hide basic hardware specifications from developers
+    - G1 publishes its sensors, battery life and joint setup
+  - - They need a large body to offer a developer platform
+    - G1 packs a full humanoid body into about 35 kilograms
+  - - They stay private while funding scale from venture rounds
+    - Unitree raised capital through a Shanghai public listing
+  - - They burn cash while waiting for humanoids to mature
+    - Unitree reported a profit in its 2025 prospectus period
+  - - They prove demand only with social-media attention
+    - Unitree disclosed thousands of humanoids sold and delivered
+  note:
+  - We used Unitree's product pages, its 2025 shipment figure and its IPO filings
+  - We treated “a regular humanoid startup” as a fictional baseline, for the contrast only
+ed214:
+  rows:
+  - - They start in factories because homes are too messy
+    - 1X designed NEO specifically for everyday work at home
+  - - They expose hard metal surfaces around the people
+    - NEO uses a soft body over its mechanical structure
+  - - They make a heavy robot that is hard to move safely
+    - NEO weighs about 66 pounds, light enough for a home
+  - - They build hands mainly for simple industrial gripping
+    - NEO uses multi-finger tendon-driven hands for home items
+  - - They wait for full autonomy before selling anything
+    - 1X sells early access while its autonomy keeps improving
+  - - They hide human assistance behind an autonomy claim
+    - 1X openly offers scheduled remote supervision by experts
+  - - They sell only through long enterprise pilot contracts
+    - Consumers can reserve NEO directly on the 1X website
+  - - They require a six-figure budget to own one robot
+    - NEO early access ownership is listed at only $20,000
+  - - They build production before testing consumer demand
+    - 1X booked 10,000 units of production in only five days
+  - - They treat a home robot as hardware with fixed skills
+    - 1X says NEO learns and gains new skills over time
+  note:
+  - We used 1X's NEO launch, its order page, its factory update and product pages
+  - We treated “a regular humanoid startup” as a fictional baseline, for the contrast only
+ed024:
+  note:
+  - We kept the milestones that most changed credibility, customer adoption, prices or the set of serious rivals
+  - There is no official timeline, and another analyst could reasonably pick a few different milestones
+ed025:
+  note:
+  - We kept the milestones that most changed credibility, customer adoption, funding or the rules of the market
+  - There is no official timeline, and another analyst could reasonably pick a few different milestones
+ed042:
+  note:
+  - We take each estimate from the firm's current website and compare its scope with our own definition
+  - We keep complete humanoid revenue apart from components, software, services, funding and orders
+ed052p:
+  note:
+  - We start from our $1.9B estimate for 2026 and apply a 40% base-case CAGR, about $55B by 2036
+  - We anchor that rate in current forecasts of 28.1% to 50.6%, and it needs sales to spread beyond China

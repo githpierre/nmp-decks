@@ -222,6 +222,12 @@ def build(slug, png=False, only=None):
         pg.evaluate('document.fonts.ready'); pg.wait_for_function('window.__rawfit === true && window.__decided !== false', timeout=60000)
         issues = pg.evaluate(AUDIT_JS)
         name = f"{deck['market']} - {deck['quarter']} - newmarketpitch.com ©.pdf"
+        if png or only:   # audit PNGs are the screen render, taken BEFORE the print under-layer hides images and shadows (12 Nov 2026 bug: blank logos)
+            (out / 'png').mkdir(exist_ok=True)
+            pg.add_style_tag(content='.slide{margin:0!important}body{background:#062A3C}')
+            for i, el in enumerate(pg.query_selector_all('.slide'), 1):
+                if only and i not in only: continue
+                el.screenshot(path=str(out / 'png' / f'{i:03d}.png'))
         pg.emulate_media(media='print')
         if not only:   # under-layer only carries text and links (the screen render goes on top): no images, no shadows -> small file
             pg.add_style_tag(content='img,image{visibility:hidden!important}*{text-shadow:none!important;box-shadow:none!important;filter:none!important;background-image:none!important}')
@@ -239,13 +245,6 @@ def build(slug, png=False, only=None):
             shots = [_jpg(el) for el in pg2.query_selector_all('.slide')]
             pg2.close()
             flatten(out / name, shots)
-        if png or only:
-            pg.emulate_media(media='screen')
-            (out / 'png').mkdir(exist_ok=True)
-            pg.add_style_tag(content='.slide{margin:0!important}body{background:#062A3C}')
-            for i, el in enumerate(pg.query_selector_all('.slide'), 1):
-                if only and i not in only: continue
-                el.screenshot(path=str(out / 'png' / f'{i:03d}.png'))
         b.close()
     issues = py_issues + issues
     for x in issues: print(*x, sep=' | ')

@@ -1,0 +1,5040 @@
+market: Humanoid Robotics
+label: Humanoid robotics
+quarter: Q4 2026
+year: 2026
+slug: humanoid-robotics
+chapters:
+- 'What is this
+
+  market about?'
+- 'Why this
+
+  market now?'
+- 'How big could this
+
+  market get?'
+- 'What are the pain
+
+  points, and for whom?'
+- 'What is the latest tech
+
+  and infrastructure?'
+- 'How is value created
+
+  and monetized?'
+- 'What could slow this
+
+  market down?'
+- 'What are the growth
+
+  drivers in this market?'
+- 'What are investors
+
+  betting on now?'
+- 'Who are the top startups
+
+  and companies?'
+- 'What could kill
+
+  a startup in this market?'
+- 'How do you win
+
+  in this market?'
+scripts:
+- decisions.js
+keep_together:
+- humanoid robotics
+- humanoid robots
+slides:
+- id: ed001
+  type: cover
+  image: media/cover.jpg
+  big: 'Humanoid
+
+    robotics'
+  disclaimer: This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.
+  src: 1
+- id: ed002
+  type: x/divider
+  src: 2
+  t:
+    0: 'In this deck, you’ll find numbers, charts, estimates and forecasts. Wherever possible, we’ve included source indications and short notes at the bottom of each slide as well as at the end of this document.
+
+
+      We want to be upfront about our approach. Markets are rarely perfectly measurable, and any attempt to describe them involves assumptions, judgment calls, and points that can be debated. We’re fully aware of that, and we don’t believe in pulling figures out of thin air.
+
+
+      Our goal is to do serious, thoughtful work as close to reality as possible, while being transparent about how we get there. That’s why you’ll frequently see footnotes explaining our reasoning, pointing to sources, or clarifying how a number or conclusion was constructed. We aim to give enough detail to make our thinking clear, without drowning you in unnecessary complexity.
+
+
+      Practically, our process starts with selecting sources we consider credible and authoritative. We rarely rely on a single reference. Instead, we compare multiple independent sources, often linking directly to them, and look for patterns and points of convergence. When several credible sources consistently point in the same direction, that’s where we start to form stronger convictions.'
+    1: INTRO
+- id: ed003
+  type: x/divider_2
+  src: 3
+  t:
+    0: 'Based on those convergences, we sometimes make the effort to quantify what would otherwise remain vague, through percentages, scores, or relative rankings. We’re fully aware that this introduces an element of subjectivity, and we openly acknowledge it. Absolute objectivity doesn’t exist in market analysis, and pretending otherwise would be misleading.
+
+
+      What matters to us is being honest about the nature of the data we present. When something is directional or indicative rather than precise, we clearly state it. We rely on recent sources, update this deck on a quarterly basis, and continuously revisit our assumptions as new information becomes available.
+
+      If anything feels unclear, debatable, or simply doesn’t make sense to you, we genuinely encourage you to reach out. We’re always happy to explain our reasoning in more detail. Ultimately, our goal is that you come away from this presentation feeling informed, confident in the data you’ve seen, and having learned something useful.
+
+      If you have constructive feedback for us, we’d love to hear it. We also make similar decks about other markets, which you can find {1|on our homepage}. And if you want another one, you can always use the code {2|NEWMARKET} to get 20% off (or {2|NEWMARKETMAX} for 30% off if you get 5+ of them).'
+    1: INTRO
+- id: ed004
+  type: agenda
+  section: Humanoid robotics
+  current: 0
+  src: 4
+- id: ed005
+  type: agenda
+  section: Market definition
+  current: 1
+  src: 5
+- id: ed006
+  type: definition
+  section: Market definition
+  title: What is the humanoid robotics market, in simple terms?
+  text: Humanoid robotics is the market for complete robots with a human-like upper body that can move, handle objects and perform useful physical tasks in spaces built for people
+  note: We use a functional definition because humanoid robots can walk on legs, roll on wheels or use hybrid bases while still doing human-oriented work.
+  src: 6
+  icon_tl: 🧬
+- id: ed007p
+  type: pp_radar
+  section: Market definition
+  title: What is actually included in the humanoid robotics market?
+  caption:
+  - Distance to the center reflects how closely each company fits a complete, task-performing humanoid platform
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market’s boundaries lie
+  inside:
+  - ../../assets/logos/pp/figure-ai.png
+  - ../../assets/logos/pp/apptronik.png
+  - ../../assets/logos/pp/agility-robotics.png
+  - ../../assets/logos/boston-dynamics.png
+  - ../../assets/logos/unitree-robotics.png
+  - ../../assets/logos/pp/1x.png
+  - ../../assets/logos/sanctuary-ai.png
+  - ../../assets/logos/pp/neura.png
+  TL:
+    src: ../../assets/logos/pp/nvidia.png
+    name: NVIDIA
+    text: supplies computing and robot AI platforms, but does not independently sell a complete humanoid robot
+  TR:
+    src: media/ini/schunk.png
+    name: Schunk
+    text: supplies robot hands and gripping systems, not a complete mobile humanoid platform
+  BL:
+    src: ../../assets/logos/unitree-robotics.png
+    name: Unitree Robotics
+    text: sells quadrupeds too, but independently designs and sells complete humanoid robots such as G1 and R1
+  BR:
+    src: ../../assets/logos/hexagon-bio.png
+    name: Hexagon Robotics
+    text: sits near the edge because AEON rolls on wheels, but its human-like torso and arms perform factory tasks
+- id: ed008
+  type: x/markets_often_confused
+  section: Market definition
+  title: What markets are often confused with humanoid robotics?
+  src: 8
+  t:
+    7: Humanoids combine legs or wheels, sensing and human-like arms in one robot for varied physical work
+    10: Industrial arms are fixed machines built for repeated motions inside a set workstation or guarded cell
+    11: Mobile robots move goods around sites, while humanoids add arms for tasks designed around human bodies
+    12: INDUSTRIAL ARMS
+    13: HUMANOID ROBOTS
+    14: MOBILE ROBOTS
+- id: ed009
+  type: x/markets_sit_between
+  section: Market definition
+  title: What markets does humanoid robotics sit between?
+  src: 9
+  t:
+    8: 'ROBOTICS
+
+      HARDWARE'
+    9: PHYSICAL<br>AI
+    10: INDUSTRIAL<br>AUTOMATION
+    13: 'Humanoid robotics sits between three markets: robotics hardware provides the body, physical AI provides learned behavior, and industrial automation provides the workflows, safety and integration needed for useful work.'
+- id: ed010
+  type: x/if_break_down_smaller_markets
+  section: Market definition
+  title: And what if we break it down in smaller markets?
+  src: 10
+  t:
+    5: 'GENERAL-PURPOSE
+
+      BIPEDS'
+    7: It is in the market when a two-legged robot walks, handles objects and learns tasks
+    8: 'WHEELED
+
+      HUMANOIDS'
+    10: It is in the market when a human-like torso and arms ride on wheels around a site
+    11: 'DEVELOPER
+
+      PLATFORMS'
+    13: It is in the market when a complete humanoid is sold for robot AI research
+    14: 'SOCIAL
+
+      HUMANOIDS'
+    16: It is in the market when a human-form robot is built to talk with and serve people
+    17: 'INDUSTRIAL
+
+      SUPERHUMANOIDS'
+    19: It is in the market when a heavy-duty human-form robot handles loads in industry
+    21: HUMANOID ROBOTS
+- id: ed011
+  type: x/some_common_acronyms_i_should
+  section: Market definition
+  title: What are some common acronyms I should know?
+  note: We prioritized acronyms that recur in humanoid product, AI, deployment and investor materials rather than narrow engineering abbreviations.
+  src: 11
+  t:
+    4: It counts the independent joint motions that determine how flexibly a robot can move
+    6: DoF
+    8: 'Degrees of
+
+      Freedom'
+    9: It is a wheeled robot that navigates a site autonomously, usually without human-like arms
+    11: AMR
+    12: 'Autonomous Mobile
+
+      Robot'
+    13: It is an AI model that links camera input and language directly to physical robot actions
+    15: VLA
+    16: 'Vision-Language-
+
+      Action'
+    17: It describes how people and robots communicate, share space and work safely together
+    19: HRI
+    20: 'Human-Robot
+
+      Interaction'
+    21: It is a subscription-style model where customers pay to use robots rather than own them
+    23: RaaS
+    24: 'Robots as a
+
+      Service'
+    25: It defines the conditions and environments in which an autonomous robot is designed to operate
+    27: ODD
+    28: 'Operational Design
+
+      Domain'
+- id: ed012
+  type: x/products_services_sold_market
+  section: Market definition
+  title: What products and services are sold in this market?
+  note: We grouped the main commercial offers so you get a clear view of most of the market, from developer hardware to enterprise deployments and home robots.
+  src: 12
+  t:
+    6: Deployment stack
+    7: Robot hardware
+    8: One-time sale
+    9: Recurring fee
+    10: Atlas
+    11: Phoenix
+    12: NEO
+    13: Apollo
+    14: Digit
+    15: GR-2
+    16: Unitree G1
+    17: Unitree H2
+    18: 4NE1
+    19: Unitree R1
+    20: Figure 03
+    21: AEON
+    22: Digit RaaS
+    23: NEO subscription
+    24: Pilot programs
+    25: Fleet software
+    26: Skill updates
+    27: Safety setup
+    28: Robot support
+    29: Remote assist
+    30: AI training
+    31: Site integration
+    32: Maintenance
+    33: Data capture
+    35: Complete humanoids sold to developers
+    37: Robots sold or leased to businesses
+    38: Services that enterprises buy with robots
+    39: Software and support bought around robots
+- id: ed013
+  type: x/different_price_ranges
+  section: Market definition
+  title: What are the different price ranges?
+  note: We show public hardware or subscription prices where manufacturers publish them. Enterprise humanoids are often sold through negotiated pilots or service contracts instead.
+  src: 13
+  t:
+    6: '$4.9K-$20K
+
+
+      Entry humanoids and developer units sit here, such as Unitree R1 from $4,900, G1 from $13,500 and 1X NEO Early Access at $20,000'
+    7: '$20K-$100K
+
+
+      Larger research and performance robots sit here, including Unitree H2 at $29,900 and H1 listed at $90,000 before tax and shipping'
+    8: '$100K+ / RaaS
+
+
+      Enterprise systems often use negotiated contracts or service pricing; Agility commercializes Digit through multi-year Robots-as-a-Service deals'
+    10: 💰
+    11: 💰💰
+    12: 💰💰💰
+- id: ed014
+  type: cards
+  section: Market definition
+  title: When and where is value created in the market?
+  items:
+  - e: 🦾
+    t: When one robot can learn several physical tasks instead of being built for only one motion
+  - e: ⏱️
+    t: When automation can be added to an existing human workspace without rebuilding the whole line
+  - e: 👁️
+    t: When perception lets the robot handle parts that arrive in changing positions and orientations
+  - e: 👐
+    t: When two capable hands let one platform handle tools, bins and objects made for people
+  - e: 🚶
+    t: When mobility lets the same robot move between workstations and manipulate at each one
+  - e: 🏭
+    t: When reliable shift operation turns a prototype into useful labor inside a real facility
+  - e: 🛡️
+    t: When safety systems let robots work around people without isolating every task behind cages
+  - e: 📈
+    t: When fleet software and shared learning spread one new skill across many deployed robots
+  src: 14
+- id: ed015
+  type: x/some_common_myths_about
+  section: Market definition
+  title: What are some common myths about humanoid robotics?
+  page: 1/2
+  note: We focused on myths that recur in company, investor and specialist discussions. These counters distinguish demonstrated operation from broader claims about future scale.
+  src: 15
+  t:
+    0: Humanoids cannot yet perform a full production shift
+    7: Digit has worked commercially at GXO since 2024, and its fleet has logged more than 65,000 real-world operating hours
+    9: Humanoids are still only staged demos and lab prototypes
+    10: Figure 02 worked on BMW’s existing line, loading 90,000+ parts and supporting production of more than 30,000 vehicles
+    12: Humanoids need factories rebuilt around the robot
+    13: BMW is piloting Hexagon’s wheeled AEON because a human-like torso and arms can still perform flexible factory work
+    15: Useful humanoids must always walk on two legs
+    16: Figure 02 ran ten-hour weekday shifts at BMW, while Digit operates in live logistics under a commercial agreement
+    20: 🤥
+    21: 🤥
+    22: 🤥
+    23: 🤥
+- id: ed016
+  type: x/some_common_myths_about_2
+  section: Market definition
+  title: What are some common myths about humanoid robotics?
+  page: 2/2
+  note: We focused on myths that recur in company, investor and specialist discussions. The counters show real progress while avoiding claims that broad autonomy is already solved.
+  src: 16
+  t:
+    0: No serious buyer has moved beyond small experiments
+    7: Digit is deployed in logistics, while NEO targets homes and Figure is testing both factory and household-style manipulation
+    9: Humanoids are only for car factories
+    10: Unitree lists R1 from $4,900 and G1 from $13,500, while 1X lists NEO Early Access ownership at $20,000
+    12: Every useful humanoid costs hundreds of thousands
+    13: Current deployments still focus on bounded tasks such as tote handling, sheet-metal loading and parts sequencing
+    15: General-purpose autonomy is already solved
+    16: Agility reports $300M+ in committed multi-year Digit 5 orders, subject to contractual milestones
+    20: 🤥
+    21: 🤥
+    22: 🤥
+    23: 🤥
+- id: ed017
+  type: maturity
+  section: Market definition
+  title: How mature is humanoid robotics as a market?
+  score: 45
+  text: The market is commercially real because humanoids now work in live factories and warehouses, some fleets have tens of thousands of operating hours, and production hardware is shipping. The score stays below halfway because deployments remain small, task scope is narrow, and broad general-purpose autonomy is not yet proven at scale.
+  note:
+  - We rate maturity with a simple internal score based on real deployments, products, customer commitments and repeat sales
+  - We set 45/100 because commercial proof exists, but fleets, safety certification and general-purpose skills are still early
+  src: 17
+- id: ed018
+  type: sx_categories_n
+  section: Market definition
+  title: How can we categorize companies of the humanoid robotics market?
+  page: 1/3
+  note: There are many ways to categorize the field, but these five robot types capture most current company strategies and make the competitive map easier to read.
+  src: 18
+  categories:
+  - label: 'BIPEDAL
+
+      GENERAL-PURPOSE'
+    description: Companies building two-legged humanoids designed to learn and perform many physical tasks
+    emoji: 🚶
+  - label: 'WHEELED +
+
+      HYBRID BASE'
+    description: Companies putting human-like torsos and arms on wheels or mixed bases for practical work
+    emoji: 🛞
+  - label: 'OPEN DEVELOPER
+
+      PLATFORMS'
+    description: Companies selling affordable complete humanoids for research, training and software development
+    emoji: 🧑‍💻
+  - label: 'SOCIAL +
+
+      EXPRESSIVE'
+    description: Companies building human-form robots for conversation, hospitality, guidance and social settings
+    emoji: 🗣️
+  - label: 'HEAVY-DUTY
+
+      SUPERHUMANOIDS'
+    description: Companies building stronger human-form machines for demanding industrial handling and factory work
+    emoji: 🏭
+  categorization: Here, we categorize by type of robot
+- id: ed019
+  type: x/categorize_companies_market
+  section: Market definition
+  title: How can we categorize companies of the humanoid robotics market?
+  page: 2/3
+  note: We also categorize by place of use because factory, warehouse, home and service environments create very different requirements for safety, mobility, dexterity and economics.
+  src: 19
+  t:
+    7: 'RETAIL +
+
+      SERVICES'
+    8: Companies automating repetitive handling, sequencing, machine tending and assembly work on production floors
+    10: 'CAR + ELECTRONICS
+
+      FACTORIES'
+    11: Companies moving totes, handling goods and automating repetitive material workflows in distribution sites
+    13: 'WAREHOUSES +
+
+      LOGISTICS'
+    14: 🩸
+    15: 🛡️
+    16: Companies building safe, quiet humanoids for chores, assistance and everyday interaction around people
+    18: 'HOMES +
+
+      ELDER CARE'
+    19: Companies using humanoid form for customer-facing assistance, hospitality, guidance and practical service tasks
+    21: 🎯
+    22: 🔀
+    25: Here, we categorize by the place where the robot works
+- id: ed020
+  type: x/categorize_companies_market
+  section: Market definition
+  title: How can we categorize companies of the humanoid robotics market?
+  page: 3/3
+  note: A third useful lens is commercial maturity because a robot sold as a developer platform, used in a paid pilot or operating commercially represents a very different business stage.
+  src: 20
+  t:
+    7: 'CONSUMER
+
+      PREORDERS'
+    8: Companies shipping complete humanoids mainly for research, software development and embodied-AI training
+    10: 'DEVELOPER
+
+      HARDWARE'
+    11: Companies placing robots with enterprises to validate tasks, economics, safety and integration before scale
+    13: 'PAID
+
+      PILOTS'
+    14: ♾️
+    15: ⏳
+    16: Companies with robots performing recurring work under commercial customer agreements in operating facilities
+    18: 'LIVE COMMERCIAL
+
+      DEPLOYMENTS'
+    19: Companies taking orders for home humanoids before broad consumer delivery and fully autonomous capability
+    21: 🧬
+    22: 🔀
+    25: Here, we categorize by commercial maturity
+- id: ed021
+  type: x/top_companies_market
+  section: Market definition
+  title: What do top companies do in this market?
+  note: Other companies could also make the top eight. We chose deployment leaders and strategically important platforms to show the range of approaches shaping the market.
+  src: 21
+  t:
+    7: They deploy Figure 03 at BMW and train Helix for factory and household-style manipulation
+    8: FIGURE
+    9: They commercially deploy Digit in logistics and report more than 65,000 operating hours
+    10: AGILITY
+    11: They sell lower-cost humanoids including R1 from $4,900 and G1 from $13,500
+    12: UNITREE
+    13: They build 4NE1 Gen 4, a German humanoid being prepared for series production
+    14: NEURA
+    15: They build Apollo and work with Mercedes-Benz and GXO on industrial humanoid applications
+    16: APPTRONIK
+    17: They build NEO for homes, with $20,000 Early Access ownership and a $499 monthly plan
+    18: 1X
+    19: They manufacture Atlas for industrial work, with 2026 deployments to Hyundai and Google DeepMind
+    20: BOSTON DYNAMICS
+    21: They build wheeled AEON for industrial work and pilot it at BMW’s Leipzig factory
+    22: HEXAGON
+- id: ed022
+  type: x/rare_people_happily_pay_market
+  section: Market definition
+  title: What is rare and that people happily pay for in this market?
+  note: We looked at operating deployments, customer programs, product disclosures and safety work to identify capabilities that appear genuinely scarce and strategically valuable.
+  src: 22
+  t:
+    6: '👐
+
+      Dexterous hands, because useful robots must reliably grasp objects made for people'
+    7: '🛡️
+
+      Proven safety, because enterprises need robots that can work near people and equipment'
+    8: '🧠
+
+      Generalizable skills, because buyers want one robot to learn more than one task'
+    9: '🔁
+
+      Shift reliability, because demos matter less than hours of repeatable daily operation'
+    10: '🏭
+
+      Easy integration, because customers want automation without rebuilding workstations'
+    11: '📈
+
+      Real deployment data, because working fleets create data that lab demos cannot'
+    12: '⚙️
+
+      Scalable production, because customers need consistent hardware, service and parts'
+    13: '🧩
+
+      Full-stack control, because hardware, AI, safety and fleet software must work as one'
+- id: ed023
+  type: x/learning_truths_have_flipped
+  section: Market definition
+  title: Which humanoid robotics truths have flipped?
+  note: These are directional market shifts identified from recent deployments, product launches and customer agreements. They are not formal industry rules, but they recur across the evidence.
+  src: 23
+  t:
+    6: Humanoids used to be mainly impressive research demonstrations
+    8: Now some robots work recurring shifts in factories and warehouses
+    10: Serious humanoids used to imply very high six-figure hardware
+    12: Now complete developer humanoids start below $5,000 from Unitree
+    14: Two legs used to define the commercial humanoid idea
+    16: Now wheeled human-form robots such as AEON are entering factories
+    18: Robot intelligence once meant many separately programmed behaviors
+    20: Now one learned model can control walking, hands and whole-body tasks
+    22: Early value used to sit in prototypes and technical demonstrations
+    24: Now operating hours, paid orders and repeat deployments drive credibility
+    26: Humanoids used to look like a distant consumer and factory concept
+    28: Now firms are building factories, taking home orders and shipping production hardware
+- id: ed024
+  type: dated
+  section: Market definition
+  title: What has changed (very) recently?
+  page: 1/2
+  items:
+  - d: SINCE 2024
+    t: GXO and Agility signed the first formal commercial humanoid deployment and first humanoid Robots-as-a-Service agreement, putting Digit into regular warehouse operations.
+  - d: SINCE 2025
+    t: Figure 02 ran ten-hour weekday shifts at BMW, loaded more than 90,000 parts and contributed to production of more than 30,000 X3 vehicles.
+  - d: SINCE 2025
+    t: Figure raised more than $1B in a Series C at a $39B post-money valuation, showing how much investor capital was moving toward general-purpose humanoids.
+  - d: SINCE 2025
+    t: Hexagon launched AEON, a wheeled industrial humanoid, with Schaeffler and Pilatus named as pilot customers across industrial use cases.
+  - d: SINCE 2025
+    t: 1X opened NEO home-robot orders at $20,000 for Early Access ownership, with a $499 monthly subscription planned for later delivery.
+  - d: SINCE 2026
+    t: Boston Dynamics unveiled the production Atlas and began manufacturing, with 2026 fleets committed to Hyundai and Google DeepMind.
+  note:
+  - We kept the milestones that most changed credibility, customer adoption, prices or the set of serious rivals
+  - There is no official timeline, and another analyst could reasonably pick a few different milestones
+  src: 24
+- id: ed025
+  type: dated
+  section: Market definition
+  title: What has changed (very) recently?
+  page: 2/2
+  items:
+  - d: SINCE 2026
+    t: Figure returned to BMW with Figure 03 and moved from sheet-metal loading toward parts sequencing, a workflow requiring perception, dexterity and movement together.
+  - d: SINCE 2026
+    t: Apptronik expanded its Series A to more than $935M, backed by Google, Mercedes-Benz, John Deere and others to scale Apollo production and deployment.
+  - d: SINCE 2026
+    t: BMW advanced Hexagon’s AEON at Leipzig from testing toward production tasks in battery assembly and component manufacturing.
+  - d: SINCE 2026
+    t: Agility reported more than 65,000 real-world operating hours and expanded GXO deployments to two additional U.S. facilities planned for 2027.
+  - d: SINCE 2026
+    t: Agility completed its public-market transaction and reported more than $300M in committed multi-year Digit 5 orders, subject to contractual milestones.
+  - d: SINCE 2026
+    t: China published a national general technical standard for humanoid robots and continued government programs aimed at real-world deployment and scale.
+  note:
+  - We kept the milestones that most changed credibility, customer adoption, funding or the rules of the market
+  - There is no official timeline, and another analyst could reasonably pick a few different milestones
+  src: 25
+- id: ed026
+  type: agenda
+  section: Market opportunity
+  current: 2
+  src: 26
+- id: ed027
+  type: x/when_did_market_become_real
+  section: Market opportunity
+  title: When did the humanoid robotics market become real?
+  note: We chose 2024 because GXO and Agility Robotics signed the industry's first formal commercial deployment of humanoid robots in live operations.
+  src: 27
+  t:
+    8: Before that, humanoids had reached pilots and demos, but no formal commercial deployment in live operations had been announced
+    12: In June 2024, GXO signed a multi-year deal that put Agility Robotics' Digit to work moving totes in a live warehouse
+    13: '2024'
+- id: ed028
+  type: x/when_did_become_hot
+  section: Market opportunity
+  title: When did it become hot?
+  note: We chose 2025 because deployment proof, much larger funding rounds and a sharp rise in shipped humanoids arrived together.
+  src: 28
+  t:
+    6: In 2025, Figure hit a $39B valuation, Apptronik raised $350M, and global humanoid shipments jumped to 13,318
+    7: '2025'
+    12: Before that, the field had promising robots and early factory tests, but little volume and only one formal commercial deployment
+- id: ed029
+  type: x/happened_between
+  section: Market opportunity
+  title: What happened in-between?
+  src: 29
+  t:
+    5: 2019 - 2021
+    6: Agility introduced Digit in 2019. Tesla then presented its humanoid concept in 2021, bringing far wider attention to human-shaped work robots.
+    7: 2022 - 2023
+    8: Figure was founded in 2022. In 2023, Apptronik unveiled Apollo and Unitree introduced H1, expanding the field beyond a few early developers.
+    9: Early 2024
+    10: Figure raised $675M at a $2.6B valuation and partnered with BMW. Mercedes-Benz also began testing Apptronik's Apollo in manufacturing.
+    11: Late 2024
+    12: GXO put Digit into a multi-year commercial warehouse deployment, while BMW completed an early Figure 02 factory test in Spartanburg.
+    13: 🧬
+    14: 💰
+    15: 🐒
+    16: 💉
+- id: ed030
+  type: x/happened_since_then
+  section: Market opportunity
+  title: And what happened since then?
+  src: 30
+  t:
+    5: Early 2025
+    6: Apptronik raised $350M as Apollo moved into industrial pilots. Figure's BMW work then built evidence that humanoids could run real factory tasks.
+    7: '2025'
+    8: Figure raised over $1B at a $39B valuation. Omdia counted 13,318 humanoid shipments, nearly six times its 2024 estimate of 2,300.
+    9: '2026'
+    10: Apptronik added $520M, Agility prepared to list publicly, and BMW reported Figure 02 had moved 90,000+ parts in about 1,250 hours.
+    11: TODAY
+    12: GXO is expanding Digit to two more U.S. sites after 100,000+ totes moved. Humanoids are still early, but paid deployments are widening.
+    13: 📈
+    14: 🤝
+    15: 🏦
+    16: 🔬
+- id: ed031
+  type: x/usually_why_people_get_excited
+  section: Market opportunity
+  title: Usually, why do people get excited about this market?
+  src: 31
+  t:
+    6: '📦
+
+      Warehouses offer repetitive jobs with clear labor costs'
+    7: '🦾
+
+      One body can learn many handling and movement tasks'
+    8: '🧠
+
+      Better robot AI is making new tasks easier to teach'
+    9: '🏭
+
+      Existing factories are already built around human reach'
+    10: '🤝
+
+      BMW and GXO now report sustained real-world robot work'
+    11: '📈
+
+      Shipment estimates rose sharply from 2024 into 2026'
+    12: '💰
+
+      Figure and Apptronik have raised unusually large rounds'
+    13: '🔋
+
+      New hardware is improving runtime, hands and reliability'
+- id: ed032
+  type: x/signals_suggest_market_hot_right
+  section: Market opportunity
+  title: What signals suggest the market is hot right now?
+  note: We selected seven recent signals covering shipped units, operating proof, funding and commercial expansion. Each is measurable rather than a future production target.
+  src: 32
+  t:
+    5: Humanoid shipments hit 13,318 in 2025
+    6: '1'
+    7: H1 2026 shipments topped 22,000 units
+    8: '4'
+    9: Figure reached a $39B private valuation
+    10: '2'
+    11: Apptronik's Series A passed $935M
+    12: '3'
+    13: Figure 02 moved 90,000+ BMW parts
+    14: '5'
+    15: Digit has moved 100,000+ GXO totes
+    16: '6'
+    19: GXO is adding Digit at two more U.S. sites
+    20: '7'
+- id: ed039p
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Searches for humanoid robotics soar as
+
+    cell therapy moves inside the body'
+  csv: assets/trends/in-vivo-car-t/in-vivo-car-t.csv
+  term: in vivo car t
+  date: Lately.
+  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and big deals by AstraZeneca and AbbVie for in vivo startups drew attention.
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources at the end of the report
+  signal: google-trends
+  tag: 'PRODUCT PAGE: TO COPY'
+- id: ed040
+  type: agenda
+  section: Market size
+  current: 3
+  src: 40
+- id: ed041
+  type: x/counts_as_doesn_t
+  section: Market size
+  title: What counts as humanoid robotics, and what doesn’t?
+  note: We count integrated humanoid platforms with a functional torso, task-capable arms and mobility, and exclude standalone components, AI software and nonhumanoid robots.
+  src: 41
+  t:
+    7: We define humanoid robotics as integrated human-oriented robots with a functional torso and articulated arms that perform physical tasks in human spaces
+    8: We include bipedal, wheeled and hybrid humanoids for industrial, logistics, service, home, research and embodied-AI training use
+    9: We exclude component-only, AI-only and nonhumanoid robots, including hands, arms, grippers, AMRs, robot dogs, exoskeletons and animatronics
+    12: ✅
+    13: ❌
+    14: ⚖️
+- id: ed042
+  type: estimates
+  section: Market size
+  title: What are the market size estimates from different sources online?
+  rows:
+  - firm: 'Grand View
+
+      Research'
+    value: $ 4.2 B
+    comment: Their 2026 estimate includes hardware and software across biped and wheel-drive robots. We use it as the low end of broad published estimates.
+  - firm: 'Marketsand
+
+      Markets'
+    value: $ 5.41 B
+    comment: Their scope includes hardware, software and services, plus stationary torso systems. It is broader than our integrated mobile-platform definition.
+  - firm: 'Fortune Business
+
+      Insights'
+    value: $ 6.24 B
+    comment: Their ecosystem also includes component and software suppliers. We treat the 2026 figure as a broad market benchmark, not direct robot sales.
+  - firm: 'Global Market
+
+      Insights'
+    value: $ 10.9 B
+    comment: Their 2026 estimate is the highest of these sources and starts from a very broad revenue base. We use it only as an upper cross-check.
+  note:
+  - We take each estimate from the firm's current website and compare its scope with our own definition
+  - We keep complete humanoid revenue apart from components, software, services, funding and orders
+  src: 42
+- id: ed043
+  type: x/our_own_first_principles_bottom
+  section: Market size
+  title: Our own first-principles, bottom-up calculation of the market size
+  page: 1/2
+  note: We anchor the estimate to current shipment and industry-revenue data, then remove the broader component, software and service layers included in many market reports.
+  src: 43
+  t:
+    0: Frost reported $320 million for full-size embodied humanoids in H1 2026
+    2: Frost reported 36,000 humanoid sales and $540 million in H1 2026
+    3: That implies roughly $35,000 in recognized revenue for each robot shipped
+    6: SAG estimates 2026 humanoid revenue at $1.9 billion
+    7: SAG expects about 54,000 humanoid robots to ship worldwide during 2026
+    8: We use 2026, the latest year with shipment and revenue estimates
+    9: We exclude funding, orders and factory capacity because they are not realized sales
+    14: We exclude standalone components, AI software, services and adjacent robots
+    15: We count complete humanoid platforms sold to external customers worldwide
+    16: We start from 2026 shipment data because commercial volumes are now measurable
+    21: We estimate platform revenue using shipments and realized market sales
+- id: ed044
+  type: x/our_own_first_principles_bottom_2
+  section: Market size
+  title: Our own first-principles, bottom-up calculation of the market size
+  page: 2/2
+  note: We use SAG's shipment-linked 2026 revenue estimate as the cleanest current proxy for complete robot sales, and use Frost as an independent commercial cross-check.
+  src: 44
+  t:
+    0: We conclude humanoid robot platform revenue is about $1.9 billion today
+    2: We use one number traceable to shipments and recognized market sales
+    3: We keep complete-platform revenue and use $1.9 billion for 2026
+    6: Most broad reports also count software, components or services around the robot
+    7: Published 2026 market reports range from $4.2 billion to $10.9 billion
+    8: Those H1 figures support a low single-digit billion market
+    9: SAG reported 16,500 units shipped globally in Q3 2026, up 347% year over year
+    14: Frost reported $540 million of humanoid revenue in H1 2026
+    15: That unit value fits today’s mix of low and high-end robots
+    16: The estimate equals about 54,000 robots times roughly $35,000 per unit
+    21: We use $1.9 billion because SAG reports both 2026 shipments and revenue
+- id: ed045
+  type: x/much_worth_today
+  section: Market size
+  title: How much is humanoid robotics worth today?
+  src: 45
+  t:
+    4: '2026'
+    6: $1.9B
+    8: We estimate $1.9 billion in 2026 from 54,000 shipments and SAG revenue data. Broader reports span $4.2B to $10.9B because many include software, components and services.
+- id: ed047p
+  type: pp_donutv
+  variant: B
+  section: Market size
+  title: How is the humanoid robotics market split between its categories?
+  cats:
+  - name: Viral CAR vectors
+    p: 53
+    logos:
+    - ../../assets/logos/pp/umoja.png
+    - ../../assets/logos/interius.png
+    - ../../assets/logos/esobiotec.png
+    - ../../assets/logos/kelonia.png
+  - name: LNP-RNA delivery
+    p: 29
+    logos:
+    - ../../assets/logos/capstan.png
+    - ../../assets/logos/orna.png
+    - ../../assets/logos/orbital.png
+    - ../../assets/logos/create-medicines.png
+  - name: Other delivery routes
+    p: 18
+    logos:
+    - ../../assets/logos/ensoma.png
+    - ../../assets/logos/nanocell-therapeutics.png
+  note:
+  - We estimate the split from the delivery route of the 45 clinical-stage programs, as nothing is sold yet
+  - No public source splits this market by category, so these shares are our own best estimate, rounded
+  tag: 'PRODUCT PAGE: TO COPY'
+- id: ed048
+  type: x/behind_these_categories
+  section: Market size
+  title: What is behind these categories?
+  src: 48
+  t:
+    4: Two-legged robots use a human-like torso and arms while walking through stairs, factory aisles and other spaces designed around people
+    5: BIPEDAL HUMANOIDS
+    7: Wheeled humanoids keep a task-capable torso and two arms but trade stairs for greater stability, efficiency and runtime on flat floors
+    8: WHEELED HUMANOIDS
+    9: Hybrid platforms combine legs, wheels or transformable bases to preserve manipulation while adapting locomotion to different work settings
+    10: HYBRID LOCOMOTION
+    11: 🦠
+    12: 🧪
+    13: 🔀
+    14: ''
+    15: ''
+    16: ''
+    17: ''
+    18: ''
+    19: ''
+  holes_ok: true
+- id: ed049
+  type: worldmap
+  section: Market size
+  title: Where in the world is humanoid robotics money spent?
+  regions:
+    na:
+      pct: 43.4
+      text: North America leads this broad revenue view at 43.4%, helped by US developers, research spending and early industrial deployments.
+    eu:
+      pct: 11.1
+      text: Europe holds 11.1%, with manufacturing the largest application and Germany expected to post the region’s fastest growth.
+    apac:
+      pct: 41.3
+      text: Asia-Pacific is close behind at 41.3% and is the fastest-growing region, led by China, Japan and South Korea.
+    latam:
+      pct: 3.0
+      text: Latin America accounts for 3.0% of 2025 revenue. Brazil is expected to register the region’s highest growth through 2033.
+    mea:
+      pct: 1.2
+      text: The Middle East and Africa account for 1.2%. Commercial activity remains small compared with North America and Asia-Pacific.
+  note:
+  - We use Grand View Research's 2025 regional revenue shares because they provide a complete five-region split
+  - These shares use a broader hardware-and-software scope than our $1.9 billion complete-platform estimate
+  src: 49
+- id: ed050
+  type: x/growth_rate_estimates_from_different
+  section: Market size
+  title: What are the growth rate estimates from different sources online?
+  note: We use current humanoid-robot forecasts with explicit 2026 starting years. Their scopes differ, so we treat the spread as scenarios rather than one precise answer.
+  src: 50
+  t:
+    5: '≈ 28.1%
+
+      through 2035'
+    6: 'Marketsand
+
+      Markets'
+    7: Their forecast is broad, but its 28.1% CAGR gives us a conservative long-term benchmark for humanoid robot revenue growth.
+    9: '≈ 38.2%
+
+      through 2033'
+    10: 'Grand View
+
+      Research'
+    11: Their 38.2% forecast sits near the middle of current estimates and provides a useful base case for a broad humanoid market.
+    13: '≈ 37.6%
+
+      through 2035'
+    14: 'Global Market
+
+      Insights'
+    15: Their 37.6% forecast is close to Grand View, despite a much larger starting market size. We use it as a second mid-range check.
+    17: '≈ 50.6%
+
+      through 2034'
+    18: 'Fortune Business
+
+      Insights'
+    19: Their 50.6% forecast is the highest of the major current estimates. We treat it as an upside case because its ecosystem scope is broad.
+    24: FIRM
+    25: CAGR
+    26: COMMENTS
+- id: ed051
+  type: x/realistic_cagr_market
+  section: Market size
+  title: What is a realistic CAGR for the humanoid robotics market?
+  note: Current forecasts range from 28.1% to 50.6%. We use 40% as a rounded base case, with 30% and 50% as downside and upside scenarios.
+  src: 51
+  t:
+    15: BEST CASE ≈ 50%
+    16: WORST CASE ≈ 30%
+    17: '≈40%
+
+      through 2036'
+    19: Shipment growth is still extreme, but market forecasts cluster from 28% to 51%. We use 40% as a base case, with 30% downside and 50% upside.
+- id: ed052p
+  type: pp_cagr
+  section: Market size
+  title: How much bigger can humanoid robotics get?
+  size: 1.9
+  cagr: 40
+  y0: 2026
+  lead: 'To get that big, '
+  condition: commercial shipments must keep scaling beyond China, while factories, warehouses and service buyers turn pilots into repeat orders at sustainable prices.
+  note:
+  - We start from our $1.9B estimate for 2026 and apply a 40% base-case CAGR, about $55B by 2036
+  - We anchor that rate in current forecasts of 28.1% to 50.6%, and it needs sales to spread beyond China
+- id: ed053
+  type: agenda
+  section: Pain points
+  current: 4
+  src: 53
+- id: ed054
+  type: x/pain_points_yesterday_vs_today
+  section: Pain points
+  title: What are the pain points of yesterday vs. today?
+  note: We used operating deployments rather than demo videos to mark progress. The shift is from proving locomotion to proving dependable, safe and economic work.
+  src: 54
+  t:
+    6: '2017 - 2023
+
+
+      Humanoids moved from research demos toward paid pilots, but most work stayed narrow, supervised and difficult to keep running'
+    7: '2024 - 2025
+
+
+      Factory and warehouse pilots became real operating deployments, but tasks were still tightly scoped and needed site integration'
+    8: '2025 - 2026
+
+
+      Longer deployments proved repetitive work can run for thousands of hours, while safety, uptime and broader skills became the bottlenecks'
+    9: 'TODAY
+
+
+      Humanoids can do useful work in live facilities, but buyers still need reliability, safe autonomy and economics that beat alternatives'
+    10: '?
+
+
+      Better hands, batteries and robot AI could widen the task set, but homes and public spaces remain harder than structured industrial sites'
+- id: ed055
+  type: x/old_problems_now_behind_us
+  section: Pain points
+  title: Which old problems are now behind us?
+  note: We treat these as barriers that have materially improved, not as fully solved problems. The remaining challenge is dependable performance across more tasks and sites.
+  src: 55
+  t:
+    5: Humanoids were mostly research machines with little evidence of useful live work
+    7: Commercial robots now work inside active factories and warehouses
+    8: Buyers had little proof that humanoids could repeat one job for long periods
+    10: BMW logged 1,250 hours on a live production deployment
+    11: Early robots often needed fenced cells or close supervision to stay safe
+    13: New designs are built for closer work around people without barriers
+    14: Battery charging made sustained multi-shift operation difficult to justify
+    16: New systems can use short autonomous charges to extend daily uptime
+    17: Commercial humanoid orders and production capacity were mostly theoretical
+    19: Vendors now report paid orders and purpose-built factories
+    20: Humanoids had few standardized ways to prove capability and safety
+    22: Formal humanoid standards are now being issued and expanded
+    23: 🟢
+    24: 🟢
+    25: 🟢
+    26: 🟢
+    27: 🟢
+    28: 🟢
+- id: ed056
+  type: x/problems_all_players_face
+  section: Pain points
+  title: What problems do all players face?
+  page: 1/2
+  note: We kept problems that recur across real deployments and product designs. They span hardware, autonomy, safety, power and the operational work needed to keep fleets productive.
+  src: 56
+  t:
+    6: 'You need stable
+
+      body control'
+    8: 'Robots still need
+
+      site integration'
+    10: 'Charging must fit
+
+      operations'
+    12: 'Battery time can
+
+      limit each shift'
+    14: 'Heavy robots
+
+      create hazards'
+    16: 'You must prove
+
+      safe human contact'
+    18: 'Teleoperation
+
+      may be needed'
+    20: 'Task learning
+
+      needs data'
+    23: 'Perception must work
+
+      in clutter'
+    25: 'Hands must handle
+
+      varied objects'
+    27: 'Autonomy still
+
+      has edge cases'
+    29: 'Falls stop
+
+      workflows'
+    31: 'Service teams need
+
+      fast repairs'
+    33: 'Uptime must beat
+
+      manual fallback'
+    35: 'You need secure
+
+      fleet control'
+    37: 'Standards are
+
+      still evolving'
+- id: ed057
+  type: x/problems_all_players_face_2
+  section: Pain points
+  title: What problems do all players face?
+  page: 2/2
+  note: We separated the core robot problems from deployment economics and environment-specific friction. A robot can work technically and still fail the buyer on support, ROI or trust.
+  src: 57
+  t:
+    6: 'You still need
+
+      clear task value'
+    8: 'Objects and layouts
+
+      change constantly'
+    10: 'Public sites add
+
+      bystanders'
+    12: 'Homes add stairs,
+
+      pets, clutter'
+    14: 'Downtime can
+
+      block operations'
+    16: 'Users need
+
+      consistent service'
+    18: 'Skills do not
+
+      transfer perfectly'
+    20: 'Trust drops after
+
+      visible errors'
+    23: 'Useful tasks differ
+
+      by each site'
+    25: 'ROI must beat
+
+      cheaper automation'
+    27: 'Fleet tools must
+
+      scale up'
+    29: 'Workers need
+
+      clear procedures'
+    31: 'Support can
+
+      erase savings'
+    33: 'Privacy matters
+
+      when cameras roam'
+    35: 'Prices are
+
+      a buying hurdle'
+    37: 'Production scale
+
+      still needs proof'
+- id: ed058
+  type: pp_pains
+  section: Pain points
+  title: 'Which humanoid robotics problems
+
+    are still waiting for a fix?'
+  auds:
+  - Oncologists
+  - Patients
+  - Hospitals
+  - Biotech teams
+  - Investors
+  pains:
+  - - They wait weeks for cells to be made for each patient today
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They cannot yet control how strong the therapy gets in the body
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 2
+  - - They need proof the effect lasts as long as classic CAR-T
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They worry about where the gene delivery ends up in the body
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 2
+  - - They pay hundreds of thousands per patient for current CAR-T
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They face a long path from early trials to approval
+    - - 1
+      - 1
+      - 1
+      - 3
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+  tag: 'PRODUCT PAGE: TO COPY'
+- id: ed059
+  type: x/problems_startups_going_after
+  section: Pain points
+  title: Which problems are startups going after?
+  src: 59
+  t:
+    7: 😤
+    8: 😖
+    9: ☠️
+    10: ⚠️
+    11: 'WEAK
+
+      hands'
+    12: 'BATTERY
+
+      limits'
+    13: 'SKILL
+
+      gaps'
+    14: 'SAFETY
+
+      risk'
+    15: 'HIGH
+
+      cost'
+    16: 'DOWN
+
+      time'
+    17: 💥
+    18: 'SITE
+
+      setup'
+    19: 'FLEET
+
+      ops'
+    21: 'Pain points change sharply by deployment setting.
+
+
+      Factories reward repeatability, while homes demand flexibility and trust.
+
+      So we score four use cases separately before ranking priorities.'
+- id: ed060
+  type: x/will_proceed
+  section: Pain points
+  title: How will we proceed?
+  note: We break the market down before scoring because the same humanoid can create very different value, safety risk and integration work across factories, logistics, homes and services.
+  src: 60
+  t:
+    6: '🎯
+
+      GOAL
+
+
+      Find the pain points that matter most in humanoid robotics, and who feels them.'
+    7: '🏷️
+
+      CATEGORIES
+
+
+      We split the market by use case, because tasks and safety differ by setting.'
+    8: '🧑‍🤝‍🧑
+
+      SEGMENTS
+
+
+      For each setting, we list operators, workers, buyers, users and integrators.'
+    9: '😣
+
+      PAIN POINTS
+
+
+      We list each segment''s main pains and score them to rank them.'
+- id: ed061
+  type: x/categories_will_use
+  section: Pain points
+  title: Which categories will we use?
+  note: We use four deployment segments because they differ materially in environment structure, safety exposure, task variability, buyer economics and tolerance for human supervision.
+  src: 61
+  t:
+    6: Humanoids for assembly, machine tending, parts handling and intralogistics in factories
+    7: Car and electronics factories
+    8: Humanoids for tote movement, sorting, picking support and material handling in warehouses
+    9: Warehouses and logistics
+    10: Humanoids for chores, mobility support, companionship and assistance for older adults at home
+    11: Homes and elder care
+    12: Humanoids for greeting, guiding, shopping assistance, public interaction and light service work
+    13: Retail stores and services
+    14: ''
+    15: ''
+    16: ''
+    17: ''
+  holes_ok: true
+- id: ed062-s1
+  type: x/divider_3
+  src: 62
+  t:
+    3: CAR AND ELECTRONICS FACTORIES
+    5: Humanoids for factory assembly and parts handling, where repeatability, safe operation and uptime decide value
+    6: PAIN POINTS
+- id: ed063-s1
+  type: x/pays_these_learning_tools
+  section: Pain points
+  title: Who needs these humanoid robots?
+  note: We focus on the five groups most exposed to operational, safety and economic trade-offs when humanoids enter production lines.
+  src: 63
+  t:
+    5: 'PLANT
+
+      OPERATORS'
+    7: They need robots that raise throughput without disrupting takt time, quality checks or existing line layouts
+    8: 'PRODUCTION
+
+      WORKERS'
+    10: They need repetitive, strenuous work removed without adding new safety hazards or awkward handoffs
+    11: 'ROBOTICS
+
+      TEAMS'
+    13: They need robots that connect to plant systems, learn tasks quickly and stay predictable after changes
+    14: 'MAINTENANCE
+
+      TEAMS'
+    16: They need fast fault diagnosis, repairable hardware and enough spares to restore production quickly
+    17: 'PLANT BUSINESS
+
+      LEADERS'
+    19: They need measurable labor and safety value that justifies integration, service and hardware costs
+    20: 🎗️
+    21: 🩸
+    22: 🦴
+    23: 🏥
+    24: 🏛️
+    27: CAR AND ELECTRONICS FACTORIES
+- id: ed064-s1
+  type: x/these_customers_strongest_pain_points
+  section: Pain points
+  title: What are these customers’ strongest pain points?
+  note: We prioritized the issues visible in real automotive deployments and in the hardware changes vendors are making for industrial scale.
+  src: 64
+  t:
+    0: 🤒
+    7: 🤒
+    8: 🤒
+    9: 🤒
+    10: 🤒
+    11: 🤒
+    12: 🤒
+    13: CAR AND ELECTRONICS FACTORIES
+    14: They need dependable uptime across long production shifts
+    15: They need precise handling without damaging parts or slowing the line
+    16: They must keep moving robots safe around production workers
+    17: They need reliable perception despite glare and changing parts
+    18: They need fast task setup with little custom engineering
+    19: They need repairs and charging without costly downtime
+    20: They must prove labor and safety gains justify deployment cost
+- id: ed065-s1
+  type: priority
+  section: Pain points
+  title: Which pains deserve attention first?
+  subtitle: Car and electronics factories
+  icons:
+  - 🏭
+  - 👷
+  - ⚙️
+  - 🔧
+  - 💼
+  rows:
+  - pain: They need dependable uptime across long production shifts
+    s:
+    - 3
+    - 2
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need precise handling without damaging parts or slowing the line
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: They must keep moving robots safe around production workers
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need reliable perception despite glare and changing parts
+    s:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    p: MAJOR
+  - pain: They need fast task setup with little custom engineering
+    s:
+    - 3
+    - 1
+    - 3
+    - 2
+    - 3
+    p: HIGH
+  - pain: They need repairs and charging without costly downtime
+    s:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They must prove labor and safety gains justify deployment cost
+    s:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    p: CRITICAL
+  note:
+  - Every stakeholder is different, and this table is a simplified view based on live automotive deployments and vendor product changes
+  - It gives a starting point, not a checklist, so priorities should be validated with plant operators, workers and automation teams
+  src: 65
+- id: ed062-s2
+  type: x/divider_3
+  src: 62
+  t:
+    3: WAREHOUSES AND LOGISTICS
+    5: Humanoids for warehouse material handling, where throughput, safe movement and fleet uptime drive value
+    6: PAIN POINTS
+- id: ed063-s2
+  type: x/pays_these_learning_tools
+  section: Pain points
+  title: Who needs these humanoid robots?
+  note: We focus on the five groups most exposed to throughput, safety, integration and fleet economics in distribution operations.
+  src: 63
+  t:
+    5: 'WAREHOUSE
+
+      OPERATORS'
+    7: They need robots that move material at predictable rates without blocking aisles, docks or upstream automation
+    8: 'WAREHOUSE
+
+      WORKERS'
+    10: They need repetitive lifting reduced while keeping walking routes, handoffs and shared workspaces safe
+    11: 'AUTOMATION
+
+      TEAMS'
+    13: They need humanoids that connect to WMS workflows and can add tasks without rebuilding the facility
+    14: 'FLEET AND
+
+      MAINTENANCE'
+    16: They need high availability, quick charging, remote diagnostics and repairs that keep fleets productive
+    17: 'LOGISTICS
+
+      CUSTOMERS'
+    19: They need a clear cost per task and proof that humanoids scale beyond one carefully managed pilot
+    20: 🎗️
+    21: 🩸
+    22: 🦴
+    23: 🏥
+    24: 🏛️
+    27: WAREHOUSES AND LOGISTICS
+- id: ed064-s2
+  type: x/these_customers_strongest_pain_points
+  section: Pain points
+  title: What are these customers’ strongest pain points?
+  note: We prioritized the issues reflected in live logistics deployments and the redesign of Digit around payload, charging, safety and broader workflows.
+  src: 64
+  t:
+    0: 🤒
+    7: 🤒
+    8: 🤒
+    9: 🤒
+    10: 🤒
+    11: 🤒
+    12: 🤒
+    13: WAREHOUSES AND LOGISTICS
+    14: They need predictable throughput across long operating days
+    15: They need safe movement through aisles shared with people
+    16: They need enough payload and reach for common containers
+    17: They need rapid charging without long periods off task
+    18: They need task changes without rebuilding workstations
+    19: They need fleet service that prevents failures from stalling flow
+    20: They must prove cost per move beats practical alternatives
+- id: ed065-s2
+  type: priority
+  section: Pain points
+  title: Which pains deserve attention first?
+  subtitle: Warehouses and logistics
+  icons:
+  - 📦
+  - 🧑
+  - ⚙️
+  - 🔧
+  - 💳
+  rows:
+  - pain: They need predictable throughput across long operating days
+    s:
+    - 3
+    - 2
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need safe movement through aisles shared with people
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need enough payload and reach for common containers
+    s:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 3
+    p: HIGH
+  - pain: They need rapid charging without long periods off task
+    s:
+    - 3
+    - 1
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need task changes without rebuilding workstations
+    s:
+    - 3
+    - 1
+    - 3
+    - 2
+    - 3
+    p: MAJOR
+  - pain: They need fleet service that prevents failures from stalling flow
+    s:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They must prove cost per move beats practical alternatives
+    s:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    p: CRITICAL
+  note:
+  - Every stakeholder is different, and this table is a simplified view based on live warehouse deployments and current product specifications
+  - It gives a starting point, not a checklist, so priorities should be validated with operators, workers, automation teams and fleet managers
+  src: 65
+- id: ed062-s3
+  type: x/divider_3
+  src: 62
+  t:
+    3: HOMES AND ELDER CARE
+    5: Humanoids for home chores and daily assistance, where safety, privacy, autonomy and trust matter most
+    6: PAIN POINTS
+- id: ed063-s3
+  type: x/pays_these_learning_tools
+  section: Pain points
+  title: Who needs these humanoid robots?
+  note: We focus on the five groups most exposed to safety, privacy, trust, autonomy and value questions in domestic and elder-care settings.
+  src: 63
+  t:
+    5: 'OLDER HOME
+
+      USERS'
+    7: They need practical help with daily tasks while remaining safe, predictable and easy to stop or override
+    8: 'FAMILY
+
+      CAREGIVERS'
+    10: They need trusted assistance that reduces routine workload without creating constant remote supervision
+    11: 'HOUSEHOLD
+
+      USERS'
+    13: They need robots that handle clutter, stairs, pets and changing objects without extensive setup
+    14: 'HOME-CARE
+
+      PROVIDERS'
+    16: They need clear limits, privacy controls and escalation paths when the robot cannot complete a task
+    17: 'HOME ROBOT
+
+      CUSTOMERS'
+    19: They need enough useful autonomy to justify a high purchase or subscription cost inside the home
+    20: 🎗️
+    21: 🩸
+    22: 🦴
+    23: 🏥
+    24: 🏛️
+    27: HOMES AND ELDER CARE
+- id: ed064-s3
+  type: x/these_customers_strongest_pain_points
+  section: Pain points
+  title: What are these customers’ strongest pain points?
+  note: We prioritized problems visible in early home testing and current consumer positioning. Domestic environments combine physical safety with privacy and much higher task variability.
+  src: 64
+  t:
+    0: 🤒
+    7: 🤒
+    8: 🤒
+    9: 🤒
+    10: 🤒
+    11: 🤒
+    12: 🤒
+    13: HOMES AND ELDER CARE
+    14: They need safe behavior around vulnerable people and pets
+    15: They need useful autonomy without constant remote supervision
+    16: They need strong privacy controls for cameras and microphones
+    17: They need robots that cope with clutter, stairs and layout changes
+    18: They need gentle object handling with few visible errors
+    19: They need simple recovery from confusion or lost balance
+    20: They must justify high prices with dependable everyday value
+- id: ed065-s3
+  type: priority
+  section: Pain points
+  title: Which pains deserve attention first?
+  subtitle: Homes and elder care
+  icons:
+  - 🧓
+  - 👪
+  - 🏠
+  - 🩺
+  - 💳
+  rows:
+  - pain: They need safe behavior around vulnerable people and pets
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need useful autonomy without constant remote supervision
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need strong privacy controls for cameras and microphones
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need robots that cope with clutter, stairs and layout changes
+    s:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: They need gentle object handling with few visible errors
+    s:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 3
+    p: HIGH
+  - pain: They need simple recovery from confusion or lost balance
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 2
+    p: CRITICAL
+  - pain: They must justify high prices with dependable everyday value
+    s:
+    - 2
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  note:
+  - Every stakeholder is different, and this table is a simplified view based on early home tests, product positioning and reported limitations
+  - It gives a starting point, not a checklist, so priorities should be validated with older adults, caregivers, households and care providers
+  src: 65
+- id: ed062-s4
+  type: x/divider_3
+  src: 62
+  t:
+    3: RETAIL AND SERVICES
+    5: Humanoids for greeting and shopping help, where interaction quality, public safety and easy operation matter
+    6: PAIN POINTS
+- id: ed063-s4
+  type: x/pays_these_learning_tools
+  section: Pain points
+  title: Who needs these humanoid robots?
+  note: We focus on the five groups most exposed to interaction quality, public safety, uptime and brand risk in customer-facing deployments.
+  src: 63
+  t:
+    5: 'FRONTLINE
+
+      STAFF'
+    7: They need robots that remove repetitive service work without creating extra supervision or customer friction
+    8: 'CUSTOMERS
+
+      VISITORS'
+    10: They need fast, accurate help that feels safe, understandable and useful rather than like a novelty
+    11: 'SITE
+
+      MANAGERS'
+    13: They need dependable operation in busy public spaces with changing crowds, routes and questions
+    14: 'SERVICE
+
+      OPERATORS'
+    16: They need simple deployment, remote support and enough battery life to cover opening hours daily
+    17: 'BRAND AND
+
+      RISK TEAMS'
+    19: They need brand-safe behavior, privacy controls and evidence that service quality improves enough to pay
+    20: 🎗️
+    21: 🩸
+    22: 🦴
+    23: 🏥
+    24: 🏛️
+    27: RETAIL AND SERVICES
+- id: ed064-s4
+  type: x/these_customers_strongest_pain_points
+  section: Pain points
+  title: What are these customers’ strongest pain points?
+  note: We prioritized the issues implied by current service-robot specifications and public-facing use cases, where visible failures can affect both operations and brand trust.
+  src: 64
+  t:
+    0: 🤒
+    7: 🤒
+    8: 🤒
+    9: 🤒
+    10: 🤒
+    11: 🤒
+    12: 🤒
+    13: RETAIL AND SERVICES
+    14: They need natural interaction that answers questions reliably
+    15: They need safe navigation through crowds and moving customers
+    16: They need enough battery life for customer-facing hours
+    17: They need simple setup across stores and changing layouts
+    18: They need graceful recovery when speech or navigation fails
+    19: They need privacy and brand controls for cameras and behavior
+    20: They must prove service gains exceed deployment costs
+- id: ed065-s4
+  type: priority
+  section: Pain points
+  title: Which pains deserve attention first?
+  subtitle: Retail and services
+  icons:
+  - 🧑‍💼
+  - 🛍️
+  - 🏬
+  - 🔧
+  - 🛡️
+  rows:
+  - pain: They need natural interaction that answers questions reliably
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: They need safe navigation through crowds and moving customers
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need enough battery life for customer-facing hours
+    s:
+    - 2
+    - 1
+    - 3
+    - 3
+    - 2
+    p: HIGH
+  - pain: They need simple setup across stores and changing layouts
+    s:
+    - 2
+    - 1
+    - 3
+    - 3
+    - 2
+    p: MAJOR
+  - pain: They need graceful recovery when speech or navigation fails
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: They need privacy and brand controls for cameras and behavior
+    s:
+    - 2
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: They must prove service gains exceed deployment costs
+    s:
+    - 3
+    - 1
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  note:
+  - Every stakeholder is different, and this table is a simplified view based on current humanoid service products and public-facing use cases
+  - It gives a starting point, not a checklist, so priorities should be validated with staff, customers, site managers and service operators
+  src: 65
+- id: ed086
+  type: agenda
+  section: Tech and infra
+  current: 5
+  src: 86
+- id: ed087
+  type: x/tech_infra_layers
+  section: Tech and infra
+  title: What are the tech and infra layers?
+  page: 1/2
+  src: 87
+  t:
+    7: BODY
+    9: SENSORS
+    10: Frames, joints and actuators turn motor commands into stable whole-body motion
+    11: Cameras, touch and joint sensors tell the robot what is around it and how it moves
+    12: COMPUTE
+    13: HANDS
+    14: Onboard computers run perception, planning and control fast enough for motion
+    15: Dexterous hands and grippers decide how well robots grasp and handle objects
+    21: LAYERS
+- id: ed088
+  type: x/tech_infra_layers_2
+  section: Tech and infra
+  title: What are the tech and infra layers?
+  page: 2/2
+  src: 88
+  t:
+    7: DATA
+    9: ROBOT AI
+    10: Human demonstrations, robot logs and synthetic scenes teach models how tasks should unfold
+    11: Vision-language-action models turn instructions and sensor inputs into robot actions
+    12: SIM
+    13: FLEETS
+    14: Simulation creates training data and tests policies before expensive real-world runs
+    15: Fleet software connects robots to workflows, monitors performance and ships learned skills
+    21: LAYERS
+- id: ed089
+  type: x/every_layer_carry_same_weight
+  section: Tech and infra
+  title: Does every layer carry the same weight?
+  note: We ranked the layers directionally from current deployment evidence and product roadmaps, not from a standardized industry score.
+  src: 89
+  t:
+    6: ROBOT AI
+    7: HANDS
+    8: DATA
+    9: BODY
+    10: SENSORS
+    11: COMPUTE
+    12: SIM
+    13: FLEETS
+    14: Determines whether one robot can understand tasks, recover from variation and generalize
+    15: '1'
+    16: '2'
+    17: '3'
+    18: '4'
+    19: '5'
+    20: '6'
+    21: '7'
+    22: '8'
+    24: Reliable grasping still decides whether useful work survives contact with messy objects
+    26: More diverse demonstrations improve task coverage, but data still needs capable hardware
+    28: Actuators and mechanics set speed, payload, uptime and the physical envelope of work
+    30: Vision and touch reduce uncertainty, especially when hands hide objects from cameras
+    32: Low-latency onboard inference keeps perception and motion control responsive
+    34: Simulation scales training and testing, but real environments still expose the final gaps
+    36: Fleet tools matter most after robots can perform useful tasks reliably enough to scale
+    38: RANKING
+- id: ed090
+  type: x/where_80_value_sit
+  section: Tech and infra
+  title: Where does 80% of humanoid robotics value sit?
+  note: We treat robot intelligence, manipulation and reliable hardware as the main bottlenecks because current factory deployments still expose failures in those layers.
+  src: 90
+  t:
+    8: 'Most value today sits in robot intelligence, dexterous manipulation and reliable whole-body hardware, because useful work requires all three to hold up together.
+
+
+      Data and simulation come next, since broader demonstrations and synthetic worlds can expand skills faster than collecting every task on real robots.
+
+
+      Winners will combine generalizable models with dependable hands, safe motion, long uptime and fleet software that turns one learned task into repeatable operations.'
+    9: '💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+      💰 💰 💰 💰 💰 💰 💰 💰 💰'
+- id: ed091
+  type: x/has_tech_infra_evolved_over
+  section: Tech and infra
+  title: How has tech and infra evolved over the years?
+  note: We use product and deployment milestones rather than invention dates because they show when enabling technology became usable in real operations.
+  src: 91
+  t:
+    6: '2013 - 2020
+
+
+      Humanoids proved dynamic balance, walking and whole-body control in research, but remained expensive machines built mainly for laboratories'
+    7: '2021 - 2023
+
+
+      New startups shifted toward general-purpose workers, combining electric actuation, cameras, AI compute and human-scale designs'
+    8: '2024 - 2025
+
+
+      Figure and Agility put humanoids into live BMW and GXO workflows, while robot foundation models and simulation stacks matured'
+    9: 'TODAY
+
+
+      Production-ready Atlas, Figure 03, Walker S2 and Optimus move the field toward fleets, stronger hands, self-charging and factory-scale builds'
+    10: '?
+
+
+      Next platforms may learn from human video, transfer skills across robot bodies and operate longer with less task-specific programming'
+- id: ed092
+  type: x/were_latest_tech_infra_developments
+  section: Tech and infra
+  title: What were the latest tech and infra developments?
+  page: 1/2
+  note: We prioritized technology milestones with clear consequences for autonomy, dexterity, uptime, manufacturing or real production use.
+  src: 92
+  t:
+    13: '2025'
+    14: NVIDIA released GR00T N1, combining web, synthetic and teleoperation data in an open humanoid foundation model
+    15: '2025'
+    16: Figure 03 added tactile fingertips, palm cameras and wireless charging while redesigning hardware for mass manufacturing
+    17: '2025'
+    18: Figure 02 completed daily BMW production work, moving 90,000+ parts across more than 1,250 operating hours
+    19: '2025'
+    20: UBTECH launched Walker S2 with autonomous three-minute battery swaps for near-continuous industrial operation
+    21: '2026'
+    22: Boston Dynamics launched production-ready Atlas with self-swapping batteries and enterprise workflow integration
+    23: '2026'
+    24: Figure Helix 02 unified walking, manipulation and balance under one neural system using vision, touch and proprioception
+- id: ed093
+  type: x/were_latest_tech_infra_developments_2
+  section: Tech and infra
+  title: What were the latest tech and infra developments?
+  page: 2/2
+  note: We used primary company and customer releases to capture the most consequential 2026 hardware, deployment and robot-AI milestones.
+  src: 93
+  t:
+    13: '2026'
+    14: NVIDIA shipped Jetson Thor-based reference hardware pairing a Unitree humanoid with tactile five-finger hands and open software
+    15: '2026'
+    16: BMW began a Leipzig pilot of Agile Robots' wheeled AEON for battery assembly and component manufacturing
+    17: '2026'
+    18: Boston Dynamics opened Hyundai's RMAC with Atlas training on real automotive parts sequencing workflows
+    19: '2026'
+    20: Figure 03 returned to BMW for a harder sequencing workflow that combines cart pulling, walking and part manipulation
+    21: '2026'
+    22: Tesla reported Optimus production had begun on high-volume Fremont lines, moving the program into an early manufacturing ramp
+    23: '2026'
+    24: NVIDIA introduced GR00T 2, using 402,730 hours of human video plus robot data to transfer skills across embodiments
+- id: ed094
+  type: x/solvable_bottlenecks
+  section: Tech and infra
+  title: What are the solvable bottlenecks?
+  note: We selected bottlenecks that are repeatedly visible in current deployments and product designs and are technically addressable rather than fundamental limits.
+  src: 94
+  t:
+    5: Hands still miss small, slippery or occluded objects, so manipulation needs better touch and control
+    7: 'HAND
+
+      DEXTERITY'
+    9: Robots need far more varied demonstrations to cover the long tail of real workplace tasks
+    11: 'TASK
+
+      DATA'
+    13: Policies still fail when objects, layouts or task sequences differ from training
+    15: 'GENERAL
+
+      SKILLS'
+    17: Robots must match production takt time while keeping grasping and placement reliable
+    19: 'CYCLE
+
+      SPEED'
+    22: Motors, cables and joints must survive long shifts without frequent resets or repair
+    24: 'HARDWARE
+
+      UPTIME'
+    26: Short runtimes interrupt work unless charging or battery swaps fit the operating cycle
+    28: 'BATTERY
+
+      UPTIME'
+    30: Humanoids must detect people, limit forces and recover safely from errors or falls
+    32: 'SAFE
+
+      MOTION'
+    34: Skills, maintenance and monitoring must work across many robots, sites and workflows
+    36: 'FLEET
+
+      SCALE'
+    38: EXPLANATION
+    39: BOTTLENECK
+    40: EXPLANATION
+    41: BOTTLENECK
+- id: ed095
+  type: x/solvable_bottlenecks
+  section: Tech and infra
+  title: Why can’t we solve them yet?
+  note: We tied each reason to current robot architectures and deployment evidence rather than assuming one software or hardware upgrade solves the full problem.
+  src: 95
+  t:
+    5: Fine contact combines vision, touch, force control and mechanics at tight tolerances
+    7: 'HAND
+
+      DEXTERITY'
+    9: Real robot data is slow and costly, while simulation still differs from the physical world
+    11: 'TASK
+
+      DATA'
+    13: Small physical changes can break policies that looked robust in familiar settings
+    15: 'GENERAL
+
+      SKILLS'
+    17: Faster motion leaves less time for perception, correction and stable manipulation
+    19: 'CYCLE
+
+      SPEED'
+    22: Humanoids pack many moving joints, cables and electronics into a compact body
+    24: 'HARDWARE
+
+      UPTIME'
+    26: Higher energy capacity adds mass, while charging downtime cuts useful working time
+    28: 'BATTERY
+
+      UPTIME'
+    30: Fast, powerful robots share space with people, so failures must remain bounded
+    32: 'SAFE
+
+      MOTION'
+    34: Sites differ in layout, IT, safety rules and maintenance, limiting simple replication
+    36: 'FLEET
+
+      SCALE'
+    38: REASON WHY
+    39: BOTTLENECK
+    40: REASON WHY
+    41: BOTTLENECK
+- id: ed096
+  type: x/when_realistically_expect_solve_them
+  section: Tech and infra
+  title: When can we realistically expect to solve them?
+  note: These are directional estimates based on current field progress, not consensus forecasts; some bottlenecks will improve gradually rather than disappear in one year.
+  src: 96
+  t:
+    5: Touch, palm vision and five-finger control are improving fast, but reliability needs years of field data
+    7: 'HAND
+
+      DEXTERITY'
+    9: Human video and simulation scale coverage quickly, but hard physical tasks still need robot demonstrations
+    11: 'TASK
+
+      DATA'
+    13: Foundation models are generalizing faster, but robust transfer across sites remains unproven
+    15: 'GENERAL
+
+      SKILLS'
+    17: BMW-scale work proves useful pace is possible, but broader tasks still trade speed for reliability
+    19: 'CYCLE
+
+      SPEED'
+    22: Factory pilots already expose weak components, but proving multi-shift durability takes larger fleets
+    24: 'HARDWARE
+
+      UPTIME'
+    26: Self-swapping batteries already work, so infrastructure can solve uptime before chemistry changes
+    28: 'BATTERY
+
+      UPTIME'
+    30: Safety hardware is shipping now, but standards and operating evidence must mature with deployments
+    32: 'SAFE
+
+      MOTION'
+    34: Multi-site fleet expansion has started, but repeatable integration and service need more operating history
+    36: 'FLEET
+
+      SCALE'
+    38: WHY THIS TIMELINE
+    39: BOTTLENECK
+    40: WHY THIS TIMELINE
+    41: BOTTLENECK
+    42: '2029'
+    43: '2029'
+    44: '2031'
+    45: '2029'
+    46: '2030'
+    47: '2028'
+    48: '2030'
+    49: '2030'
+- id: ed097
+  type: x/bold_bets_could_reshape_learning
+  section: Tech and infra
+  title: Which bold bets could reshape humanoid robotics?
+  note: We grounded the bets in current directions already visible in GR00T 2, Helix 02, autonomous charging, consumer humanoids and robot manufacturing pilots.
+  src: 97
+  t:
+    7: It is one policy that learns many factory and home tasks instead of one program per workflow
+    9: GENERALIST BRAIN
+    10: It is robots learning physical skills from ordinary human video without collecting every task on robots
+    12: HUMAN-VIDEO LEARNING
+    13: It is fleets that recharge or swap batteries automatically and keep working across long shifts
+    15: SELF-CHARGING FLEET
+    16: It is touch-aware five-finger hands that handle small, soft and partly hidden objects reliably
+    18: TACTILE HANDS
+    19: It is one learned skill transferring across different humanoid bodies with little retraining
+    21: CROSS-ROBOT SKILLS
+    22: It is quieter, safer actuation that cuts weight and power while preserving human-level force
+    24: LIGHTER ACTUATION
+    25: It is one home humanoid that handles changing chores without remote help for routine tasks
+    27: AUTONOMOUS HOMES
+    28: It is highly automated production where humanoids help build, test and maintain other humanoids
+    30: ROBOT FACTORIES
+    33: 'NEAR-TERM HORIZON
+
+      (0-5 YEARS)'
+    34: 'LONG-TERM HORIZON
+
+      (5-10 YEARS)'
+- id: ed098
+  type: x/companies_working_groundbreaking_tech_today
+  section: Tech and infra
+  title: Which companies are working on groundbreaking tech today?
+  src: 98
+  t:
+    6: They unify walking and dexterous manipulation with Helix 02 and tactile Figure 03 hands
+    8: FIGURE
+    9: They use tendon-driven actuation, a soft body and 22-DoF hands for a consumer home humanoid
+    11: 1X
+    12: They operate Digit in live logistics workflows and use field data to improve the platform
+    14: AGILITY
+    15: They designed Apollo for manufacturability and are validating robots inside Jabil factories
+    17: APPTRONIK
+    18: 🚀
+    19: 🚀
+    20: 🚀
+    21: 🚀
+    22: They built Atlas for industrial fleets with 360° sensing, tactile hands and self-swapping batteries
+    24: BOSTON DYNAMICS
+    25: They built Walker S2 to autonomously swap batteries and coordinate factory tasks across fleets
+    27: UBTECH
+    28: They offer full-size H2 hardware with 31 DoF, high joint torque and onboard AI compute
+    30: UNITREE
+    31: They started Optimus production on high-volume lines while developing vision-based autonomy
+    33: TESLA
+    34: 🚀
+    35: 🚀
+    36: 🚀
+    37: 🚀
+- id: iv_pipeline
+  type: x/likely_each_risk
+  section: Tech and infra
+  title: Where are humanoid robots actually at work today?
+  note: We list eight representative customer-site deployments or paid pilots with reported on-site work; stages reflect disclosed commercial status rather than technical maturity.
+  src: 143
+  t:
+    0: Low-skill physical manufacturing tasks at Mercedes-Benz plants
+    2: APPTRONIK · APOLLO
+    3: PILOT
+    4: Warehouse proof-of-concept work at GXO distribution operations
+    6: APPTRONIK · APOLLO
+    7: PILOT
+    8: Repetitive manufacturing validation inside Jabil factories
+    10: APPTRONIK · APOLLO
+    11: PILOT
+    12: Material handling at Schaeffler factories
+    14: AGILITY · DIGIT
+    15: PILOT
+    16: Automotive parts sequencing training at Hyundai RMAC
+    18: BOSTON DYNAMICS · ATLAS
+    19: PILOT
+    20: Battery assembly and component work at BMW Leipzig
+    22: AGILE · AEON
+    23: PILOT
+    24: Parts sequencing at BMW Spartanburg
+    26: FIGURE · FIGURE 03
+    27: PILOT
+    34: Tote handling at GXO Flowery Branch warehouse
+    37: AGILITY · DIGIT
+    38: FLEET
+- id: ed099p
+  type: pp_tech
+  section: Tech and infra
+  title: 'Which humanoid robotics maker has
+
+    the most complete tech today?'
+  companies:
+  - name: Lilly
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-0.png
+  - name: Umoja
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-1.png
+  - name: Gilead
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-2.png
+  - name: AbbVie
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-3.png
+  - name: AstraZeneca
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-4.png
+  features:
+  - header: CD19|CAR
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: BCMA|CAR
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: CD20|CAR
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: CD22|CAR
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Targeted|lipids
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Viral|vectors
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Circular|RNA
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+  tag: 'PRODUCT PAGE: TO COPY'
+- id: ed100
+  type: agenda
+  section: Value creation
+  current: 6
+  src: 100
+- id: ed101
+  type: x/s_commoditized_today_market
+  section: Value creation
+  title: What’s commoditized today in the market?
+  note: We identified capabilities that now recur across leading humanoid platforms and customer pilots. They remain necessary, but differentiation is shifting toward reliability, autonomy, task breadth, safety and operating economics.
+  src: 101
+  t:
+    6: Moving totes and parts is now repeated in many warehouse and factory pilots
+    7: STANDARD PICK-PLACE
+    8: Teleoperation and scripted teaching are common ways to add new robot tasks
+    9: BASIC TELEOP
+    10: Depth cameras, LiDAR and force sensors now come with most humanoids
+    11: SENSOR STACK
+    12: Stable walking on flat floors is routine in vendors’ controlled demos
+    13: LAB WALKING
+    14: Narrow pilots at one workstation are now the usual first step
+    15: FIXED PILOTS
+    16: Basic pick, carry and place moves are now expected, not special
+    17: SIMPLE GRASPING
+    18: A polished demo of one task no longer proves broad, lasting autonomy
+    19: ONE-TASK DEMOS
+    20: A human-like body alone no longer sets a robot apart
+    21: HUMAN SHAPE
+    22: 📉
+    23: 📉
+    24: 📉
+    25: 📉
+    26: 📉
+    27: 📉
+    28: 📉
+    29: 📉
+- id: ed102
+  type: x/why_has_become_commoditized
+  section: Value creation
+  title: Why has it become commoditized?
+  note: We see commoditization where multiple suppliers can reproduce the same hardware features or narrow task demos. New value therefore comes from dependable multi-task work, lower supervision, easier integration and proven economics.
+  src: 102
+  t:
+    6: Because many vendors now handle parts and totes in live operations
+    7: STANDARD PICK-PLACE
+    8: Because remote help and task teaching cover gaps in robot autonomy
+    9: BASIC TELEOP
+    10: Because cameras, LiDAR, force sensors and compute modules are easy to buy
+    11: SENSOR STACK
+    12: Because many robots already walk reliably on flat indoor floors
+    13: LAB WALKING
+    14: Because customers start with narrow pilots before adding robot duties
+    15: FIXED PILOTS
+    16: Because picking and moving objects is now a basic test for any humanoid
+    17: SIMPLE GRASPING
+    18: Because single-task videos say little about real, sustained performance
+    19: ONE-TASK DEMOS
+    20: Because many vendors offer human-shaped robots, so shape adds little value
+    21: HUMAN SHAPE
+    22: 📉
+    23: 📉
+    24: 📉
+    25: 📉
+    26: 📉
+    27: 📉
+    28: 📉
+    29: 📉
+- id: ed103
+  type: x/where_value_created_today
+  section: Value creation
+  title: Where is value created today?
+  page: 1/2
+  note: We derived these elements from current customer deployments and the bottlenecks vendors are explicitly solving. The strongest current value is in uptime, flexible reuse across tasks and safe operation inside existing human facilities.
+  src: 103
+  t:
+    7: Robots that keep working for long shifts with few stops, resets or human rescues
+    9: 'FIELD
+
+      UPTIME'
+    10: One robot that can learn several useful workflows instead of staying tied to one fixed station
+    12: 'MULTI-TASK
+
+      VALUE'
+    13: 💎
+    14: 💎
+    15: Robots that work near people with validated safety and predictable behavior
+    17: 'SAFE
+
+      CO-WORKING'
+    18: 💎
+- id: ed104
+  type: x/where_value_created_today_2
+  section: Value creation
+  title: Where is value created today?
+  page: 2/2
+  note: We derived these elements from how commercial programs are moving from pilots toward fleets. Value is increasingly created by reducing human intervention, fitting existing operations and making useful robot hours economical enough to scale.
+  src: 104
+  t:
+    7: Less teleoperation, fewer resets and less specialist attention per shift
+    9: 'LESS HUMAN
+
+      SUPERVISION'
+    10: Robots that connect with existing lines, conveyors and software
+    12: 'EASY
+
+      INTEGRATION'
+    13: 💎
+    14: 💎
+    15: Hardware and service models that lower the cost of each useful hour worked
+    17: 'BETTER
+
+      ECONOMICS'
+    18: 💎
+- id: ed106-s1
+  type: x/divider_3
+  src: 106
+  t:
+    3: BIPEDAL GENERAL-PURPOSE HUMANOIDS
+    5: Two-legged robots built for varied jobs in human-designed workplaces
+    6: VALUE CREATION
+- id: ed107-s1
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on five user groups where bipedal general-purpose humanoids can create the clearest operational value. These are priority customer profiles, not claims that every current robot is ready for every use case.
+  src: 107
+  t:
+    5: CAR MAKERS
+    7: They need flexible robots for repetitive line-side handling, sequencing and machine-tending work without rebuilding the whole factory
+    8: 'LOGISTICS
+
+      OPERATORS'
+    10: They need mobile workers that can move totes, handle varied stations and fit workflows already built around people
+    11: 'LARGE
+
+      MANUFACTURERS'
+    13: They need one platform that can be retrained across multiple tasks instead of buying a separate robot cell for each job
+    14: 'ROBOTICS
+
+      AI TEAMS'
+    16: They need full-size bodies for collecting real task data and testing general manipulation, balance and autonomy
+    17: 'EARLY
+
+      ADOPTERS'
+    19: They need credible platforms with support, safety evidence and a roadmap from pilot units to larger fleets
+    21: BIPEDAL GENERAL-PURPOSE HUMANOIDS
+- id: ed108-s1
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: BIPEDAL GENERAL-PURPOSE HUMANOIDS
+    6: The robot looks impressive but handles one chore, stops often and needs constant teleoperation. Small layout changes break the workflow. Each new task requires specialist engineering, uptime stays low and the economics fail to beat simpler automation or human labor.
+    7: The robot walks safely through an existing site, learns several useful jobs and works long shifts with few interventions. It moves between tasks without major fixture changes. Managers see measurable throughput, workers avoid repetitive strain and the fleet improves as software gets better.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - ../../assets/deco/bad-experience.png
+  logos_on_slide: 1
+- id: ed109-s1
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Teams measure uptime, speed and rescues'
+    7: '🧪
+
+      A paid pilot proves safety and task fit'
+    8: '💳
+
+      The customer orders a larger fleet'
+    9: '🔍
+
+      Operators choose a high-value repetitive task'
+    10: '📈
+
+      Fleet data improves reliability'
+    11: '👥
+
+      More sites reuse the same platform'
+    12: '🤖
+
+      Robots work across several shifts'
+    13: '🔁
+
+      New skills expand each robot’s use'
+    14: BIPEDAL GENERAL-PURPOSE HUMANOIDS
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed106-s2
+  type: x/divider_3
+  src: 106
+  t:
+    3: WHEELED AND HYBRID-BASE HUMANOIDS
+    5: Human-form upper bodies on mobile bases for stable indoor manipulation
+    6: VALUE CREATION
+- id: ed107-s2
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on five user groups where wheeled and hybrid-base humanoids can create the clearest operational value. These are priority customer profiles, not claims that every current robot is ready for every use case.
+  src: 107
+  t:
+    5: 'BATTERY
+
+      PLANTS'
+    7: They need mobile manipulation around lines where wheels give stable travel and arms can handle components, tools and inspection work
+    8: 'ELECTRONICS
+
+      FACTORIES'
+    10: They need precise handling between stations without the balance burden and energy cost of continuous bipedal walking
+    11: WAREHOUSE OPERATORS
+    13: They need fast indoor movement plus two-arm manipulation for bins, carts, scanning, kitting and replenishment tasks
+    14: 'MACHINE
+
+      SHOPS'
+    16: They need robots that can approach equipment, tend machines and move parts while staying stable during manipulation
+    17: ROBOT INTEGRATORS
+    19: They need configurable mobile bodies that accept different hands, grippers and sensors for customer-specific workflows
+    21: WHEELED AND HYBRID-BASE HUMANOIDS
+- id: ed108-s2
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: WHEELED AND HYBRID-BASE HUMANOIDS
+    6: The base cannot cross thresholds or reach awkward stations, the arms lose precision while moving and the system needs custom lanes. Customers end up redesigning the site around the robot, wiping out much of the flexibility that justified buying it.
+    7: The wheeled humanoid moves predictably between workstations, docks close to equipment and uses two arms without balance interruptions. It swaps tools, runs for long periods and covers several indoor jobs while fitting the customer’s existing floor and safety rules.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - ../../assets/deco/bad-experience.png
+  logos_on_slide: 1
+- id: ed109-s2
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Teams track speed, precision and uptime'
+    7: '🧪
+
+      A pilot tests docking and manipulation'
+    8: '💳
+
+      The buyer expands to more stations'
+    9: '🔍
+
+      Teams map routes and reachable tasks'
+    10: '📈
+
+      Usage data improves route planning'
+    11: '👥
+
+      More departments share the fleet'
+    12: '🛞
+
+      Robots move work between stations'
+    13: '🔁
+
+      Tool changes unlock more workflows'
+    14: WHEELED AND HYBRID-BASE HUMANOIDS
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed106-s3
+  type: x/divider_3
+  src: 106
+  t:
+    3: LOW-COST AND OPEN DEVELOPER PLATFORMS
+    5: Affordable programmable humanoids for research, education and AI development
+    6: VALUE CREATION
+- id: ed107-s3
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on five user groups where low-cost and open developer platforms can create the clearest operational value. These are priority customer profiles, not claims that every current robot is ready for every use case.
+  src: 107
+  t:
+    5: 'UNIVERSITY
+
+      LABS'
+    7: They need affordable full-body hardware for locomotion, manipulation and embodied-AI research without building a robot from scratch
+    8: 'AI
+
+      STARTUPS'
+    10: They need open interfaces so small teams can test robot policies, collect data and iterate on physical products quickly
+    11: 'CORPORATE
+
+      R&D'
+    13: They need inexpensive test platforms for comparing algorithms before committing to costly production-grade humanoid fleets
+    14: ROBOTICS EDUCATORS
+    16: They need maintainable hardware that students can program, inspect and reset safely during repeated classroom projects
+    17: SOFTWARE DEVELOPERS
+    19: They need documentation, compute access and development tools that let them modify behavior without waiting on the vendor
+    21: LOW-COST AND OPEN DEVELOPER PLATFORMS
+- id: ed108-s3
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: LOW-COST AND OPEN DEVELOPER PLATFORMS
+    6: The price is low but the software is closed, documentation is thin and replacement parts are scarce. Researchers spend weeks fighting drivers and calibration, experiments break after updates and the platform becomes cheaper to replace than maintain.
+    7: A developer buys the robot, opens its software interfaces and starts experiments quickly. Documentation works, parts and updates are easy to get, and teams spend their time on applications rather than on rebuilding hardware.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - ../../assets/deco/bad-experience.png
+  logos_on_slide: 1
+- id: ed109-s3
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Labs measure repeatability and failures'
+    7: '🧪
+
+      Developers test APIs and core motions'
+    8: '💳
+
+      The buyer adds more research units'
+    9: '🔍
+
+      Teams compare price, openness and specs'
+    10: '📈
+
+      Community work improves the stack'
+    11: '👥
+
+      More developers share code and data'
+    12: '🧠
+
+      New models run on the same hardware'
+    13: '🔁
+
+      Open tools create new experiments'
+    14: LOW-COST AND OPEN DEVELOPER PLATFORMS
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed106-s4
+  type: x/divider_3
+  src: 106
+  t:
+    3: SOCIAL AND EXPRESSIVE HUMANOIDS
+    5: Human-facing robots built for conversation, expression and social presence
+    6: VALUE CREATION
+- id: ed107-s4
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on five user groups where social and expressive humanoids can create the clearest operational value. These are priority customer profiles, not claims that every current robot is ready for every use case.
+  src: 107
+  t:
+    5: 'MUSEUMS
+
+      & EVENTS'
+    7: They need memorable interactive exhibits that attract visitors, answer questions and create a strong physical presence
+    8: 'HOSPITALITY
+
+      VENUES'
+    10: They need front-of-house robots for greeting, guiding and branded conversation where social engagement matters more than lifting
+    11: 'RESEARCH
+
+      LABS'
+    13: They need expressive faces and speech systems for studying trust, communication and human-robot interaction
+    14: 'BRANDS
+
+      & MEDIA'
+    16: They need distinctive embodied characters for launches, demonstrations, content and live experiences that people remember
+    17: 'SERVICE
+
+      TEAMS'
+    19: They need consistent multilingual conversation and visual engagement for information, reception and basic customer interactions
+    21: SOCIAL AND EXPRESSIVE HUMANOIDS
+- id: ed108-s4
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: SOCIAL AND EXPRESSIVE HUMANOIDS
+    6: The face looks impressive but responses lag, microphones fail in crowds and conversations feel scripted. Staff intervene constantly, errors repeat in public and the novelty fades. Customers realize a kiosk or tablet could deliver the same information more reliably.
+    7: The robot holds natural conversations, reacts with believable timing and stays engaging in noisy public places. Staff set its knowledge and personality, and visitors understand its limits. Its physical presence does what a screen cannot.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - ../../assets/deco/bad-experience.png
+  logos_on_slide: 1
+- id: ed109-s4
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Teams measure engagement and failures'
+    7: '🧪
+
+      A demo tests speech and crowd behavior'
+    8: '💳
+
+      The buyer rents or purchases the robot'
+    9: '🔍
+
+      A venue defines the interaction goal'
+    10: '📈
+
+      Usage data improves conversations'
+    11: '👥
+
+      More visitors interact and share clips'
+    12: '🗣️
+
+      The robot handles repeated interactions'
+    13: '🔁
+
+      New content refreshes the experience'
+    14: SOCIAL AND EXPRESSIVE HUMANOIDS
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed106-s5
+  type: x/divider_3
+  src: 106
+  t:
+    3: HEAVY-DUTY INDUSTRIAL SUPERHUMANOIDS
+    5: High-payload humanoids built for strenuous and hazardous industrial work
+    6: VALUE CREATION
+- id: ed107-s5
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on five user groups where heavy-duty industrial superhumanoids can create the clearest operational value. These are priority customer profiles, not claims that every current robot is ready for every use case.
+  src: 107
+  t:
+    5: 'BATTERY
+
+      MAKERS'
+    7: They need robots for heavy module handling and repetitive pack work where payload and endurance directly reduce worker strain
+    8: 'HEAVY
+
+      INDUSTRY'
+    10: They need machines that can lift, carry and manipulate loads beyond ordinary humanoids in harsh or hazardous work areas
+    11: 'MINING
+
+      & ENERGY'
+    13: They need remotely supervised systems for dirty, dangerous or high-force tasks where sending people is costly or risky
+    14: 'LOGISTICS
+
+      HUBS'
+    16: They need high-payload mobile manipulation for bulky materials that standard warehouse humanoids cannot safely move
+    17: 'EQUIPMENT
+
+      MAKERS'
+    19: They need adaptable robotic labor around oversized parts and machines without designing a fixed automation cell for each step
+    21: HEAVY-DUTY INDUSTRIAL SUPERHUMANOIDS
+- id: ed108-s5
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: HEAVY-DUTY INDUSTRIAL SUPERHUMANOIDS
+    6: The robot lifts a dramatic demo load but is slow, hard to service and unsafe near normal operations. Noise, heat and upkeep pile up and precision drops under load, so the customer still needs cranes, fixtures and people.
+    7: The robot handles heavy loads for hours, stays stable under force and works in areas that are tiring or risky for people. Payload, useful reach and safe control let customers remove strenuous manual steps without installing a custom machine for every task.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - ../../assets/deco/bad-experience.png
+  logos_on_slide: 1
+- id: ed109-s5
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Teams track duty cycle and maintenance'
+    7: '🧪
+
+      A pilot proves payload and stability'
+    8: '💳
+
+      The buyer funds industrial deployment'
+    9: '🔍
+
+      Plants identify dangerous heavy tasks'
+    10: '📈
+
+      Field data hardens the platform'
+    11: '👥
+
+      More sites remove strenuous work'
+    12: '🏭
+
+      Robots take on heavy production work'
+    13: '🔁
+
+      More tools expand heavy applications'
+    14: HEAVY-DUTY INDUSTRIAL SUPERHUMANOIDS
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed131
+  type: agenda
+  section: Market challenges
+  current: 7
+  src: 131
+- id: ed132
+  type: x/newcomers_often_miss_here
+  section: Market challenges
+  title: What do newcomers often miss here?
+  note: We grouped recurring issues in recent buyer surveys, robotics research and live factory deployments. Better demos do not remove the need for uptime, safety, integration and a clear payback.
+  src: 132
+  t:
+    17: A robot can demo a task once but still fail the uptime needed for paid factory work
+    21: Autonomy is improving, but many real tasks still need training, supervision or resets
+    23: A cheaper robot does not guarantee ROI if speed, uptime or utilization stay low
+    25: Human-shaped hardware still needs site integration, safety work and process changes
+    28: Battery life, heat and joint wear make continuous multi-shift operation difficult
+- id: ed133
+  type: x/has_held_back_market_growth
+  section: Market challenges
+  title: What has held back market growth so far?
+  note: We grouped the market into broad phases using commercial deployments, safety standards and recent operating evidence. The phases are subjective but track the shift from research hardware to measured factory work.
+  src: 133
+  t:
+    6: '2017 - 2020
+
+
+      Humanoids were mostly research machines. High hardware costs, fragile walking and scripted control kept them far from factory economics.'
+    7: '2021 - 2023
+
+
+      Better actuators and AI revived the category, but robots still lacked reliable dexterity, uptime and a clear commercial workflow.'
+    8: '2024 - 2025
+
+
+      Paid pilots reached warehouses and car plants. The bottleneck shifted from basic mobility toward safe integration, reliability and repeatable task performance.'
+    9: 'TODAY
+
+
+      Buyers now ask for uptime, throughput and payback. Safety, batteries, hands and integration still decide whether a pilot scales.'
+    10: '2025 - 2026
+
+
+      Prices fell and deployments expanded, but most sites still used small fleets on narrow material-handling tasks.'
+- id: ed134
+  type: x/more_recently
+  section: Market challenges
+  title: And more recently?
+  src: 134
+  t:
+    12: 2024 (JUN)
+    13: GXO signed the first commercial humanoid deal, putting Agility's Digit into live warehouse work {1|GXO}
+    14: 2025 (FEB)
+    15: ISO published new industrial robot safety standards covering robot design and application integration {1|ISO}
+    16: 2025 (NOV)
+    17: Figure said its BMW deployment logged 1,250+ hours and loaded 90,000+ parts during 11 months of factory work {1|Figure AI}
+    18: 2026 (JUN)
+    19: BMW started a new Figure 03 project in Spartanburg, moving from body-shop loading into logistics sequencing {1|BMW}
+    20: 2026 (JUL)
+    21: ISO's draft 25785-1 advanced safety rules for dynamically stable industrial mobile robots, including bipeds {1|ISO}
+    22: 2026 (OCT)
+    23: GXO and Agility expanded Digit to two more US sites, a rare move from one live deployment toward multi-site scale {1|GXO}
+- id: ed136
+  type: x/slows_adoption_down
+  section: Market challenges
+  title: What slows humanoid robotics adoption down?
+  note: We summarized adoption barriers repeatedly highlighted in 2026 buyer surveys, industrial research and live deployments. The biggest gaps are reliability, economics, safe integration and continuous operation.
+  src: 136
+  t:
+    6: '🛡️
+
+      Working near people still needs strict site safety controls'
+    7: '🔋
+
+      Short battery life and charging breaks reduce productive shift time'
+    8: '🦾
+
+      Hands and joints still struggle with wear and fine manipulation'
+    9: '📉
+
+      High cost is hard to justify without strong uptime'
+    10: '🧠
+
+      New tasks still need training and supervision'
+    11: '🏭
+
+      Plants must link robots to workflows and safety systems'
+    12: '🔧
+
+      Reliability is still weak for round-the-clock work'
+    13: '📏
+
+      Humanoid safety rules are still evolving'
+    14: '1'
+    15: '2'
+    16: '3'
+    17: '4'
+    18: '5'
+    19: '6'
+    20: '7'
+    21: '8'
+- id: ed138
+  type: x/regulation_evolving
+  section: Market challenges
+  title: How is regulation evolving?
+  note: We mapped the industrial and mobile robot standards most relevant to humanoids. Humanoid-specific safety work is advancing, but site integration and risk assessment still remain operator responsibilities.
+  src: 138
+  t:
+    7: '2011 - 2024
+
+
+      Factories relied on general industrial-robot and mobile-robot safety standards, not humanoid-specific rules.'
+    8: '2025
+
+
+      ISO 10218 was revised for industrial robots and applications, tightening design and integration duties.'
+    9: '2026
+
+
+      US mobile-robot rules were reaffirmed as ISO advanced draft 25785-1 for stable mobile robots.'
+    10: 'TODAY
+
+
+      Integrators still need site risk reviews, safe limits and proof that the full application is controlled.'
+    11: '?
+
+
+      Humanoid-specific rules will mature, but robots near people will still need site-level safety evidence.'
+- id: iv_fda
+  type: x/were_key_phases_market_acceleration
+  section: Market challenges
+  title: What does it take to put a humanoid on a factory floor?
+  note: We translated current industrial robot and mobile robot safety practice into five practical deployment gates. Exact approval steps differ by site, country, task and whether people share the workspace.
+  src: 147
+  t:
+    7: 'LAB TESTS
+
+
+      The maker tests falls, stops and failures. Engineering and safety decide if it can leave the lab.'
+    8: 'SITE RISK REVIEW
+
+
+      The integrator maps hazards against robot safety rules. The plant safety owner approves the controls.'
+    9: 'FENCED PILOT
+
+
+      The robot runs one narrow task with separation. Operations decides if uptime and quality are credible.'
+    10: 'OPEN FLEET
+
+
+      Robots work beside people with validated safeguards. The operator remains responsible for safe use.'
+    11: 'PAID PILOT
+
+
+      The customer measures throughput, interventions and safety. Plant leadership decides whether to scale.'
+- id: ed140
+  type: x/where_schools_learners_vendors_clash
+  section: Market challenges
+  title: Where do developers, operators and regulators clash?
+  src: 140
+  t:
+    0: Developers want one robot platform that can learn many factory tasks
+    7: Safety teams want proven stops, separation and safe failure behavior
+    9: Buyers want payback without rebuilding the whole production line
+    10: Workers need safe paths, training and clear robot behavior
+    12: Developers want more speed and force to improve productivity
+    13: Insurers fear falls, collisions and unclear liability
+    18: Investors want pilots to convert quickly into fleet orders
+    19: Operators need predictable uptime across long shifts
+    21: Customers want flexible robots, but only if throughput stays reliable
+    22: Standards bodies want hazards controlled at robot and site level
+    24: Vendors want recurring fleet revenue before volumes are proven
+    25: Plant teams want maintenance, spare parts and fast recovery
+- id: iv_safety
+  type: x/pain_points_yesterday_vs_today
+  section: Market challenges
+  title: How fast is the price of a humanoid falling?
+  note: We compared published maker prices and analyst hardware estimates. Figures are not directly identical configurations, but they show how supply chains and design choices are compressing hardware cost.
+  src: 54
+  t:
+    6: 'WHOLE ROBOT
+
+
+
+      A high-spec humanoid could cost $50K-$250K to build in 2023; Unitree now lists a complete G1 from $13.5K.'
+    7: 'ACTUATORS
+
+
+
+      Earlier estimates put actuators above $20K per robot; Morgan Stanley now models $22K with a China supply chain.'
+    8: 'HANDS
+
+
+
+      Dexterous hands can exceed $70K a pair at low volume; Morgan Stanley models about $15K for an Optimus-style pair.'
+    9: 'BATTERY
+
+
+
+      Older prototype models put battery systems near $5K; recent component estimates put a humanoid pack near $275-$417.'
+    10: 'COMPUTE
+
+
+
+      Prototype AI compute was often modeled around $5K; recent Optimus-style estimates put compute near $2.1K.'
+- id: ed141
+  type: x/constraints_structural
+  section: Market challenges
+  title: Which constraints are structural?
+  src: 141
+  t:
+    5: 'Human-shaped robots have many joints
+
+      that wear, heat up or fail'
+    8: 🔒
+    9: 🔒
+    10: 'Mobile robots must carry their energy
+
+      while moving a heavy body'
+    13: 🔒
+    14: 🔒
+    15: 'Fine manipulation needs compact hands
+
+      that stay dexterous and durable'
+    18: 🔒
+    19: 🔒
+    20: 'A general robot must handle variation
+
+      without losing speed or safety'
+    23: 🔒
+    24: 🔒
+    25: 'Factories require high uptime
+
+      before labor economics work'
+    28: 🔒
+    29: 🔒
+- id: ed142p
+  type: pp_risks
+  section: Market challenges
+  title: 'What are the biggest
+
+    threats to humanoid robotics?'
+  events:
+  - text: AbbVie with Capstan, Gilead with Interius and Lilly with Orna control the field, leaving few independent startups
+    odds: 40
+    impact: 2
+  - text: Chinese biotechs post faster humanoid robotics data and license their assets cheaply to big pharma
+    odds: 35
+    impact: 1
+  - text: Bispecific antibodies and T cell engagers win autoimmune disease before humanoid robotics reaches the market
+    odds: 30
+    impact: 2
+  - text: Early responses in lupus and lymphoma fade within a year, so doctors stay with existing CAR-T
+    odds: 25
+    impact: 2
+  - text: A patient dies from immune toxicity in an humanoid robotics trial and the FDA halts programs
+    odds: 20
+    impact: 3
+  - text: Lipid nanoparticles reach the liver more than T cells, which limits doses and weakens efficacy
+    odds: 20
+    impact: 1
+  - text: Biotech funding falls, and humanoid robotics startups cannot finance the large trials the FDA requires
+    odds: 18
+    impact: 2
+  - text: Viral vectors insert genes into the wrong cells, raising cancer fears and triggering long FDA safety reviews
+    odds: 12
+    impact: 3
+  note:
+  - We listed the events that could slow humanoid robotics down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+  tag: 'PRODUCT PAGE: TO COPY'
+- id: ed143
+  type: x/likely_each_risk
+  section: Market challenges
+  title: How likely is each humanoid robotics risk?
+  note: We estimate the probability that each event materially affects the market within five years. These are judgment calls anchored in current deployments, buyer surveys, component economics and safety standards.
+  src: 143
+  t:
+    0: Robots may remain dependent on training and narrow workflows
+    2: AUTONOMY PLATEAU
+    3: ≈25%
+    4: Weak utilization could make simpler automation more attractive
+    6: ROI DISAPPOINTS
+    7: ≈22%
+    8: Dexterous hands remain expensive and hard to make durable at scale
+    10: DEXTERITY COST RISK
+    11: ≈20%
+    12: Factory uptime targets remain above what most pilots have proven
+    14: RELIABILITY GAP
+    15: ≈18%
+    16: A live-work collision or fall could slow market adoption
+    18: SAFETY ACCIDENT RISK
+    19: ≈15%
+    20: Small fleets may prove one task without converting into broad deployments
+    22: PILOTS STALL AT SCALE
+    23: ≈12%
+    24: Short runtime and charging can make multi-shift economics unattractive
+    26: BATTERY LIMIT
+    27: ≈9%
+    34: Humanoid-specific standards are still being written and adopted
+    37: REGULATORY DELAYS
+    38: ≈8%
+- id: ed144
+  type: x/severe_impact_each_one
+  section: Market challenges
+  title: How severe is the impact of each one?
+  src: 144
+  t:
+    0: If autonomy stalls, humanoids stay supervised tools rather than flexible labor
+    2: AUTONOMY PLATEAU
+    3: HIGH
+    4: Poor ROI would block fleet orders and push buyers toward simpler automation
+    6: ROI DISAPPOINTS
+    7: HIGH
+    8: A serious safety event could trigger pauses, tighter controls and slower approval
+    10: SAFETY ACCIDENT RISK
+    11: HIGH
+    12: Low uptime would weaken customer economics and force more maintenance before large fleets
+    14: UPTIME AND RELIABILITY
+    15: MEDIUM
+    16: Costly hands would narrow use cases, while simpler grippers still cover many tasks
+    18: HANDS STAY COSTLY
+    19: MEDIUM
+    20: Weak pilot conversion would slow revenue while proven tasks keep expanding
+    22: PILOTS STALL AT SCALE
+    23: MEDIUM
+    24: Short runtime hurts utilization, but faster charging can offset it
+    26: BATTERY LIMIT
+    27: MEDIUM
+    34: Certification could slow rollout, but existing robot rules still offer a path
+    37: REGULATORY DELAYS
+    38: MEDIUM
+- id: ed145
+  type: x/constraints_have_largely_disappeared_today
+  section: Market challenges
+  title: Which constraints have largely disappeared today?
+  note: We kept constraints that have materially eased because commercial deployments, cheaper hardware and updated safety work changed the baseline. This does not mean the issues are fully solved.
+  src: 145
+  t:
+    5: 'Humanoids were mostly lab demos
+
+      with no live commercial work'
+    7: 'Digit works under paid contracts
+
+      and Figure has run on BMW lines'
+    8: 'Robot safety rules
+
+      had not been revised since 2011'
+    10: 'ISO 10218 was revised in 2025
+
+      for robots and their applications'
+    11: 'Factory evidence was limited to
+
+      short demonstrations and videos'
+    13: 'BMW reported 1,250+ hours
+
+      and 90,000+ parts moved'
+    14: 'Humanoid prices were often quoted
+
+      above $100K per robot'
+    16: 'Unitree lists complete humanoids
+
+      from $4.9K to $29.9K'
+    17: 'No standard directly targeted
+
+      stable mobile robots'
+    19: 'ISO 25785-1 is in development
+
+      for this class of robots'
+    20: 'Commercial use was confined to
+
+      one-off pilots at single sites'
+    22: 'GXO is taking Digit from Georgia
+
+      to two more US sites'
+    23: 🟢
+    24: 🟢
+    25: 🟢
+    26: 🟢
+    27: 🟢
+    28: 🟢
+    31: WHY IT HAS DISAPPEARED
+    32: CONSTRAINT
+- id: ed146
+  type: agenda
+  section: Growth drivers
+  current: 8
+  src: 146
+- id: ed147
+  type: x/were_key_phases_market_acceleration
+  section: Growth drivers
+  title: What were the key phases of market acceleration?
+  note: We grouped the market into broad phases using product launches, factory trials, commercial deployments, production milestones and major financings. The boundaries are judgment-based, but each phase is grounded in the sources below.
+  src: 147
+  t:
+    7: '2018 - 2022
+
+
+      Humanoids moved from research demos toward electric platforms built for real industrial work.'
+    8: '2023 - 2024
+
+
+      Startups launched new robots and factory pilots began with automakers and logistics groups.'
+    9: '2025
+
+
+      BMW proved repeatable factory work, Figure raised over $1B, and AGIBOT reached 5,000 robots.'
+    10: 'TODAY
+
+
+      Buyers are shifting from pilots to repeat deployments, larger orders and multi-site rollouts.'
+    11: '2026
+
+
+      Atlas entered production, Apptronik topped $935M raised, and AGIBOT reached 10,000 robots.'
+- id: ed148p
+  type: pp_drivers
+  section: Growth drivers
+  title: 'What pushed humanoid robotics
+
+    forward, year after year?'
+  events:
+  - year: '2017'
+    text: DNA nanoparticles generate CAR T in mice
+    impact: 3.0
+  - year: '2022'
+    text: Nanoparticles target fibrosis with CAR T
+    impact: 2.0
+  - year: '2023'
+    text: Ionizable lipids improve T cell targeting
+    impact: 1.5
+  - year: '2024'
+    text: AbbVie backs in situ CAR T platforms
+    impact: 2.0
+  - year: '2024'
+    text: Enveloped vectors expand delivery choices
+    impact: 1.5
+  - year: '2024'
+    text: Primate data strengthens durability evidence
+    impact: 2.0
+  - year: '2024'
+    text: Umoja clearance opens US testing
+    impact: 2.5
+  - year: '2024'
+    text: Interius doses first in vivo patient
+    impact: 3.0
+  - year: '2024'
+    text: Extrahepatic mRNA delivery reaches T cells
+    impact: 1.0
+  - year: '2025'
+    text: Retargeted virus improves CAR T production
+    impact: 1.5
+  - year: '2025'
+    text: Nonviral DNA delivery generates CAR T
+    impact: 2.0
+  - year: '2025'
+    text: Engineered lentivirus reaches T and NK cells
+    impact: 1.0
+  - year: '2025'
+    text: AstraZeneca buys EsoBiotec platform
+    impact: 2.0
+  - year: '2025'
+    text: Umoja Fast Track speeds FDA dialogue
+    impact: 1.5
+  - year: '2025'
+    text: AbbVie buys Capstan lipid delivery platform
+    impact: 2.5
+  - year: '2025'
+    text: Gilead backs Interius direct cell engineering
+    impact: 2.0
+  - year: '2025'
+    text: Major review clarifies platform choices
+    impact: 1.0
+  - year: '2025'
+    text: Australian trials test direct CAR delivery
+    impact: 1.5
+  - year: '2026'
+    text: Lilly buys Orna for circular RNA
+    impact: 2.0
+  - year: '2026'
+    text: Lilly acquires Kelonia for in vivo CAR
+    impact: 2.5
+  - year: '2026'
+    text: US myeloma dosing broadens clinical reach
+    impact: 2.0
+  - year: '2026'
+    text: Myeloma responses validate clinical tests
+    impact: 2.0
+  - year: '2026'
+    text: Umoja clears CD22 program for trials
+    impact: 1.5
+  - year: '2026'
+    text: CREATE receives autoimmune trial clearance
+    impact: 1.5
+  - year: '2026'
+    text: IASO advances CD20 in vivo CAR
+    impact: 1.5
+  - year: '2026'
+    text: Ligand-free particles simplify CAR delivery
+    impact: 1.5
+  - year: '2026'
+    text: Clinical data expose durability tradeoffs
+    impact: 1.5
+  - year: '2026'
+    text: Clinical trials test multiple delivery routes
+    impact: 1.5
+  - year: '2026'
+    text: Review maps early human evidence
+    impact: 1.0
+  - year: '2026'
+    text: CD8 targeting reaches oncology trial programs
+    impact: 1.0
+  note:
+  - We kept the events we believe pushed humanoid robotics forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+  tag: 'PRODUCT PAGE: TO COPY'
+- id: ed149
+  type: x/growth_engines_have_run_out
+  section: Growth drivers
+  title: Which growth engines have run out of steam?
+  note: We paired early market assumptions with the newer approaches now replacing them. The selection is judgment-based and reflects current deployment, manufacturing, software and financing evidence.
+  src: 149
+  t:
+    6: Lab demos as the main proof humanoids could work
+    8: Factory runtime now shows repeatable real-world value
+    9: One-off pilots with little operational follow-through
+    11: Repeat deployments now expand across customer sites
+    12: Custom robot software built mostly from scratch
+    14: Open robot models and simulation now speed training
+    15: Small startup rounds as the main source of capital
+    17: Billion-dollar rounds now finance scale and factories
+    18: Industrial use as the only near-term market
+    20: Home robots now add a second commercial pathway
+    21: Prototype output as the main scale signal
+    23: Thousands of units now test real production systems
+    24: ⛔
+    25: ⛔
+    26: ⛔
+    27: ⛔
+    28: ⛔
+    29: ⛔
+- id: ed150
+  type: x/has_most_contributed_market_growth
+  section: Growth drivers
+  title: What has most contributed to market growth recently?
+  note: We selected recent events that materially improved deployment proof, production scale, available capital or customer commitment. The examples below are among the clearest 2025-2026 signals in primary company sources.
+  src: 150
+  t:
+    12: 2025 (SEP)
+    13: Figure raised over $1B at a $39B valuation to scale humanoid production, AI training and real-world deployments {1|Figure AI}
+    14: 2025 (NOV)
+    15: Figure said its BMW robots logged 1,250+ hours, loaded 90,000+ parts and supported 30,000+ vehicles {1|BMW}
+    16: 2025 (DEC)
+    17: AGIBOT rolled out its 5,000th mass-produced humanoid, with robots deployed across eight commercial uses {1|AGIBOT}
+    18: 2026 (JAN)
+    19: Boston Dynamics unveiled production Atlas and said every 2026 deployment was committed to Hyundai and Google DeepMind {1|Boston Dynamics}
+    20: 2026 (FEB)
+    21: Apptronik added $520M, lifting its Series A above $935M to scale Apollo production and deployments {1|Apptronik}
+    22: 2026 (OCT)
+    23: GXO and Agility expanded Digit to more U.S. sites after the robot moved over 100,000 totes in live warehouse operations {1|Agility Robotics}
+- id: ed151
+  type: x/forces_continuously_push_market_forward
+  section: Growth drivers
+  title: What forces continuously push this market forward?
+  note: We selected sustained forces that keep improving deployment economics, technical capability, production readiness and buyer confidence. Each has direct support in current company or customer evidence.
+  src: 151
+  t:
+    6: More factory deployments that prove humanoids can do repetitive work for full operating shifts
+    7: Larger production runs that standardize hardware, supply chains and field maintenance at scale
+    8: Open robot AI and simulation tools that reduce the data and engineering needed for new skills
+    9: Larger funding rounds that finance factories, compute, data collection and customer deployments
+    10: Repeat customer rollouts that turn successful pilots into multi-site commercial demand
+    19: MARKET
+- id: ed152
+  type: x/could_make_market_grow_faster
+  section: Growth drivers
+  title: What could make the market grow faster?
+  note: We selected the bottlenecks whose resolution would most directly improve reliability, buyer confidence, production economics and deployment speed across factories, warehouses and homes.
+  src: 152
+  t:
+    11: 'Longer autonomous runs in
+
+      real customer operations'
+    12: 'Safety standards that make
+
+      deployment approval easier'
+    13: Better robot AI that learns new tasks from fewer demonstrations and less engineering
+    14: Manufacturing that delivers reliable humanoids in much larger volumes at lower cost
+    15: Proof that robots can pay back their cost across several tasks, not just one narrow workflow
+- id: ed153
+  type: x/slows_adoption_down
+  section: Growth drivers
+  title: Which drivers compound over time instead of resetting?
+  src: 153
+  t:
+    6: '🏭
+
+      Each deployment adds data that makes the next customer rollout easier'
+    7: '🧠
+
+      Each new task adds training data that improves the next robot skill'
+    8: '📈
+
+      Each proven use case lowers buyer risk and unlocks more capital'
+    9: '🧪
+
+      Each simulation run cuts the amount of real-world training needed'
+    10: '🤖
+
+      Each production batch makes the hardware more consistent'
+    11: '🤝
+
+      Each repeat customer order proves value and supports broader deployments'
+    12: '🏠
+
+      Each new setting adds lessons that can transfer to other human spaces'
+    13: '🔧
+
+      Each field repair improves reliability and lowers future support cost'
+    14: '1'
+    15: '2'
+    16: '3'
+    17: '4'
+    18: '5'
+    19: '6'
+    20: '7'
+    21: '8'
+- id: ed154
+  type: x/drivers_feed_each_other
+  section: Growth drivers
+  title: Which humanoid robotics drivers feed each other?
+  src: 154
+  t:
+    6: More deployments create data, which improves robot skills and lowers rollout risk
+    7: Better robot AI broadens task coverage, which increases value at each customer site
+    8: Better simulation cuts training effort, speeding new tasks and customer onboarding
+    9: Stronger field results validate the market, attracting more customers and investors
+    10: More production lowers unit friction, making larger customer orders easier to serve
+    11: More customer sites expose edge cases, improving reliability for the next deployment
+    12: Larger funding rounds finance factories, compute and data that improve the next robots
+    13: Repeat orders improve scale economics, strengthening the case for wider deployment
+    14: 📈
+    15: 📈
+    16: 📈
+    17: 📈
+    18: 📈
+    19: 📈
+- id: ed155
+  type: agenda
+  section: Investor bets
+  current: 9
+  src: 155
+- id: ed156
+  type: x/rounds_were_announced_last
+  section: Investor bets
+  title: 'Which rounds were
+
+    announced last?'
+  page: 1/2
+  note: We list the latest equity rounds of humanoid robotics startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+  src: 156
+  t:
+    13: 2026 (OCT)
+    14: DeliNova raised a $14M seed round led by Proxima Ventures for its lentiviral humanoid robotics therapies {1|The Capital}
+    15: 2026 (SEP)
+    16: MVRIX raised a $5.9M Series B from Korea Investment Partners and others for its humanoid robotics cell therapies {1|Hankyung}
+    17: 2026 (AUG)
+    18: MagicRNA raised an undisclosed Series B led by CICC Capital and Kangjun Capital for its LNP-mRNA CD19 CAR-T {1|BioPharm China}
+    19: 2026 (JUL)
+    20: Sail Biomedicines got $465M from Johnson & Johnson in a strategic deal for its RNA-based humanoid robotics {1|J&J}
+    21: 2026 (MAY)
+    22: Zhenyu Biopharma raised an undisclosed round led by Chengdu Future Industry Fund for mRNA-LNP humanoid robotics {1|Chengdu Hi-Tech}
+    23: 2026 (MAY)
+    24: CREATE Medicines raised a $122M Series B led by Newpath, ARCH and Hatteras to program immune cells in the body {1|PR Newswire}
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed157
+  type: x/rounds_were_announced_last_2
+  section: Investor bets
+  title: 'Which rounds were
+
+    announced last?'
+  page: 2/2
+  note: We list the latest equity rounds of humanoid robotics startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+  src: 157
+  t:
+    14: 2026 (MAY)
+    15: Starna Therapeutics raised a $40M Series B from Lilly Asia Ventures for its in vivo CAR programs STR-P004 and STR-P005 {1|Starna}
+    16: 2026 (APR)
+    17: Vivacta Bio raised an undisclosed Series A led by Loyal Valley Capital to advance its GT801 CD19 humanoid robotics {1|PR Newswire}
+    18: 2025 (DEC)
+    19: Vyriad closed the final $25M tranche of its Series B, from Harry Stine, to advance its humanoid robotics programs {1|Vyriad}
+    20: 2025 (NOV)
+    21: Vivacta Bio raised a $14M seed round led by Qiming Venture Partners for its GT801 CD19 humanoid robotics program {1|CNFIN}
+    22: 2025 (NOV)
+    23: Azalea Therapeutics raised a $65M Series A led by Third Rock Ventures for in vivo genome editing against cancer {1|Fierce Biotech}
+    24: 2025 (OCT)
+    25: Starna Therapeutics raised a $42M Series B led by LYFE Capital, Hillhouse Ventures and Lilly Asia Ventures {1|Starna}
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: iv_deals
+  type: x/rounds_were_announced_last
+  section: Investor bets
+  title: Which corporate deals shaped the market?
+  note: We used announced investments, orders and commercial agreements from company releases, filings and named customer announcements. Values are included only when publicly disclosed.
+  src: 156
+  t:
+    13: 2026 (OCT)
+    14: GXO agreed to expand Digit deployments to two more U.S. sites from early 2027; deal value was not disclosed {1|Agility}
+    15: 2026 (AUG)
+    16: Unitree raised about $905M in its STAR Market IPO, pricing the robot maker at roughly $9B at the offer {1|Unitree}
+    17: 2026 (JUL)
+    18: Humanoid raised $152M in a Series A led by Prime Movers Lab, reaching a reported $1.35B post-money value {1|Humanoid}
+    19: 2026 (JUN)
+    20: Agility agreed to go public through Churchill Capital XI at a $2.5B equity value, with $620M+ of cash {1|Agility}
+    21: 2026 (FEB)
+    22: Apptronik raised a $520M Series A extension, taking its Series A above $935M and total funding near $1B {1|Apptronik}
+    23: 2025 (SEP)
+    24: Figure raised more than $1B in Series C financing at a $39B post-money valuation to scale its humanoid platform {1|Figure AI}
+- id: ed158
+  type: fundbars
+  section: Investor bets
+  title: 'How has fundraising activity
+
+    evolved recently?'
+  bars:
+  - x: 2025 H1
+    v: 145
+    ann: Umoja’s $100M Series C made up most of the half-year
+  - x: 2025 H2
+    v: 396
+    ann: Strand raised $153M and Azalea $65M, in 12 rounds
+  - x: 2026 H1
+    v: 162
+    ann: CREATE’s $122M Series B was most of a quiet half-year
+  - x: 2026 H2
+    v: 485
+    ann: Sail’s $465M from J&J made up almost all of it
+  note:
+  - We add up the disclosed equity rounds of humanoid robotics startups in our tracker, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+  src: 158
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed159
+  type: fundbars
+  section: Investor bets
+  title: 'How much have humanoid robotics
+
+    startups raised each year?'
+  note:
+  - We add up the disclosed equity rounds of humanoid robotics startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+  src: 159
+  bars:
+  - x: '2024'
+    v: 226
+    ann: Capstan’s $175M was 77% of the year
+  - x: '2025'
+    v: 541
+    ann: Strand $153M, Umoja $100M
+  - x: '2026'
+    v: 647
+    ann: Sail took $465M from J&J
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed160
+  type: x/stands_out_funding
+  section: Investor bets
+  title: 'What stands out in
+
+    humanoid robotics funding?'
+  note: Insights come from our tracker of 30 humanoid robotics equity rounds announced since January 2024, worth about $1.41 billion
+  src: 160
+  t:
+    6: LNP-mRNA CAR-T took about 64% of the capital raised since 2024, far more than any other category
+    7: Only 17 of the 30 rounds since 2024 disclosed an amount, and the median disclosed round was $45M
+    8: US startups took about 89% of the capital, even though Chinese startups closed more rounds, 17 against 12
+    9: Five rounds of $100M or more made up about 72% of all the capital raised in the market since 2024
+    10: Sail’s $465M from Johnson & Johnson alone is about a third of all the capital raised since 2024
+    11: Series B was the most common round, with 11 of the 30 rounds, ahead of seed with 6 and Series A with 5
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed162
+  type: x/has_changed_recently
+  section: Investor bets
+  title: 'What has changed
+
+    recently?'
+  note: Insights come from our tracker of humanoid robotics equity rounds, complete from January 2024, and from company releases and the press
+  src: 162
+  t:
+    6: 'BEFORE
+
+
+      From 2020 to 2022, investors wrote very large checks to broad platforms like Sana, Tessera, Orna and Umoja. The money came before any human data, on the promise of the technology alone.'
+    7: 'AFTER
+
+
+      Now, money follows clinical data and pharma partners. Big rounds are rare: Sail took $465M from J&J and CREATE raised $122M in 2026, while Chinese startups close most of the rounds.'
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed164
+  type: fundbars
+  section: Investor bets
+  title: 'How much does the top
+
+    humanoid robotics deal weigh?'
+  note:
+  - For each year, we divide the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+  src: 164
+  unit: pct
+  bars:
+  - x: '2024'
+    v: 77
+    ann: Capstan’s $175M Series B, out of 7 rounds
+  - x: '2025'
+    v: 28
+    ann: Strand’s $153M Series B, out of 15 rounds
+  - x: 2026 (YTD)
+    v: 72
+    ann: Sail’s $465M from J&J, out of 8 rounds
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed165p
+  type: pp_raises
+  section: Investor bets
+  title: 'Who are investors backing most
+
+    in the humanoid robotics space right now?'
+  rounds:
+  - name: Sail Biomedicines
+    amt: 465000000
+    date: Q3 2026
+    stage: Strategic
+    src: ../../assets/logos/sail-biomedicines.png
+  - name: CREATE Medicines
+    amt: 122000000
+    date: Q2 2026
+    stage: Series B
+    src: ../../assets/logos/create-medicines.png
+  - name: Starna Therapeutics
+    amt: 40000000
+    date: Q2 2026
+    stage: Series B
+    src: ../../assets/logos/starna-therapeutics.png
+  - name: Vyriad
+    amt: 25000000
+    date: Q4 2025
+    stage: Series B
+    src: ../../assets/logos/vyriad.png
+  note:
+  - We listed the biggest equity rounds raised by humanoid robotics startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed166p
+  type: pp_raises
+  section: Investor bets
+  title: 'Who did investors back the most
+
+    in the humanoid robotics space in earlier years?'
+  rounds:
+  - name: Tessera Therapeutics
+    amt: 300000000
+    date: '2022'
+    stage: Series C
+    src: ../../assets/logos/tessera-therapeutics.png
+  - name: Orbital Therapeutics
+    amt: 270000000
+    date: '2023'
+    stage: Series A
+    src: ../../assets/logos/orbital.png
+  - name: Orna Therapeutics
+    amt: 221000000
+    date: '2022'
+    stage: Series B
+    src: ../../assets/logos/orna.png
+  - name: Umoja Biopharma
+    amt: 210000000
+    date: '2021'
+    stage: Series B
+    src: ../../assets/logos/umoja-biopharma.png
+  note:
+  - We listed the biggest equity rounds raised by humanoid robotics startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed167
+  type: x/where_did_most_capital_go
+  section: Investor bets
+  title: 'Where did most
+
+    of the capital go?'
+  note: Data comes from our tracker of 30 humanoid robotics equity rounds announced since January 2024, worth about $1.41 billion. IPOs, debt and grants are left out
+  src: 167
+  t:
+    6: LNP-MRNA CAR-T
+    7: LENTIVIRAL CAR-T
+    8: OTHER ROUTES
+    9: '10'
+    10: DEALS
+    11: '10'
+    12: '10'
+    13: $903M
+    14: '
+
+      RAISED ($)'
+    15: $220M
+    16: $291M
+    17: Sail, Capstan, Strand, Starna
+    18: EXAMPLES OF STARTUPS
+    19: Umoja, Interius, IASO, Vyriad
+    20: CREATE, Azalea, Ensoma, Stylus
+    24: SINCE 2024
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed168p
+  type: invbets
+  section: Investor bets
+  handle: in-vivo-car-t
+  title: 'Where did humanoid robotics investors
+
+    put their money this past year?'
+  rows:
+  - name: mRNA humanoid robotics
+    names:
+    - Sail Biomedicines
+    - Starna
+    pct: 69% of total
+    v: $505M
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-00.png
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-01.png
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-02.png
+  - name: Beyond T cells
+    names:
+    - CREATE Medicines
+    pct: 17% of total
+    v: $122M
+    w: 24.2
+    logos:
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-10.png
+  - name: Gene-editing CAR-T
+    names:
+    - Azalea
+    pct: 9% of total
+    v: $65M
+    w: 12.9
+    logos:
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-20.png
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-21.png
+  - name: Lentiviral CAR-T
+    names:
+    - Vyriad
+    - DeliNova
+    pct: 5% of total
+    v: $39M
+    w: 7.7
+    logos:
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-30.png
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-31.png
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-32.png
+  - name: Other approaches
+    names:
+    - MVRIX
+    pct: under 1% of total
+    v: $6M
+    w: 1.2
+    logos:
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-40.png
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-41.png
+    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-42.png
+  note:
+  - We added up every funding round we tracked in humanoid robotics over the last twelve months
+  - We used company announcements and the press, with all the sources at the end of the report
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed169
+  type: x/most_active_investors
+  section: Investor bets
+  title: 'Who are the most
+
+    active investors?'
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 30 rounds
+  src: 169
+  t:
+    7: RA CAPITAL
+    8: LILLY ASIA VENTURES
+    9: QIMING
+    10: '2'
+    11: DEALS
+    12: '2'
+    13: '2'
+    14: $220M
+    15: FUNDED ($)
+    16: $82M
+    17: $14M
+    18: Capstan, Stylus
+    19: EXAMPLES OF STARTUPS
+    20: Starna (twice)
+    21: Vivacta, RiboX
+    25: SINCE 2024
+    26: TIANCHUANG
+    27: ARCH VENTURES
+    28: '2'
+    29: '1'
+    30: Undisclosed
+    31: $122M
+    32: Genocury, Jiyin
+    33: CREATE Medicines
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed170
+  type: agenda
+  section: Top players
+  current: 10
+  src: 170
+- id: ed171p
+  type: pp_grid
+  section: Top players
+  title: 'Who are the leading
+
+    humanoid robotics companies?'
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Viral Vectors
+  - RNA Delivery
+  - Gene & Polymer
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-00.png
+    x: 217.0
+    y: 288.8
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-01.png
+    x: 314.1
+    y: 304.9
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-02.png
+    x: 421.7
+    y: 271.8
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-03.png
+    x: 582.0
+    y: 290.1
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-04.png
+    x: 693.1
+    y: 265.0
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-05.png
+    x: 757.4
+    y: 293.7
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-06.png
+    x: 243.3
+    y: 379.9
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-07.png
+    x: 315.4
+    y: 387.2
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-08.png
+    x: 434.6
+    y: 397.0
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-09.png
+    x: 579.3
+    y: 393.6
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-10.png
+    x: 660.9
+    y: 388.5
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-11.png
+    x: 768.1
+    y: 375.6
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-12.png
+    x: 217.2
+    y: 496.5
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-13.png
+    x: 318.4
+    y: 491.4
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-14.png
+    x: 497.8
+    y: 491.4
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-15.png
+    x: 559.3
+    y: 503.8
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-16.png
+    x: 711.7
+    y: 490.1
+  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-17.png
+    x: 790.4
+    y: 505.9
+  note:
+  - We left out listed companies and incumbents like Capstan, Kelonia and Orna Therapeutics
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed172
+  type: x/different_types_startup
+  section: Top players
+  title: What are the different types of startup?
+  note: We grouped developers by the primary robot form and customer setting visible in current products and deployments. Several companies span more than one category.
+  src: 172
+  t:
+    5: '📦
+
+      Warehouse and logistics humanoids moving goods and totes'
+    6: '🏭
+
+      Industrial and factory humanoids for production work'
+    7: '🏠
+
+      Domestic and eldercare humanoids designed for home support'
+    8: '🦿
+
+      General-purpose bipedal humanoids for many human tasks'
+    9: '🛞
+
+      Human-form embodied manipulation / hybrid locomotion platforms'
+    10: '🧪
+
+      Humanoid developer and research platforms for labs and AI teams'
+    11: '🔀
+
+      Startups spanning several humanoid categories as products mature'
+    12: '🤝
+
+      Service, hospitality and social humanoids for people-facing work'
+    13: '1'
+    14: '2'
+    15: '3'
+    16: '4'
+    17: '5'
+    18: '6'
+    19: '7'
+    20: '8'
+- id: ed173
+  type: x/owns
+  section: Top players
+  title: Who owns what?
+  note: We compare six representative humanoid developers on publicly visible positioning. The matrix is simplified and reflects current products rather than every prototype.
+  src: 173
+  t:
+    6: FIGURE AI
+    7: APPTRONIK
+    8: AGILITY ROBOTICS
+    9: 'YES'
+    10: 'BIPEDAL
+
+      ROBOT'
+    11: 'YES'
+    12: 'YES'
+    13: 'YES'
+    14: 'FACTORY
+
+      FOCUS'
+    15: 'YES'
+    16: 'YES'
+    19: 1X TECHNOLOGIES
+    20: UNITREE ROBOTICS
+    21: 'YES'
+    22: 'YES'
+    23: 'NO'
+    24: 'NO'
+    27: 'YES'
+    28: 'HOME
+
+      AMBITION'
+    29: 'NO'
+    30: 'NO'
+    31: 'NO'
+    32: 'PUBLIC
+
+      STOCK'
+    33: 'NO'
+    34: 'NO'
+    35: 'YES'
+    36: 'NO'
+    37: 'NO'
+    38: 'YES'
+    39: 'YES'
+    40: 'US
+
+      BASED'
+    41: 'YES'
+    42: 'YES'
+    43: 'NO'
+    44: 'NO'
+    46: UBTECH ROBOTICS
+    47: 'YES'
+    48: 'YES'
+    49: 'NO'
+    50: 'YES'
+    51: 'NO'
+- id: ed174
+  type: x/have_been_different_waves_hot
+  section: Top players
+  title: What have been the different waves of ‘hot’ startups over time?
+  note: We grouped companies by when their approach became visibly important through launches, major financings, deployments or listings. It is a directional history, not a formal taxonomy.
+  src: 174
+  t:
+    6: '2015 - 2022
+
+
+      Agility, Apptronik, Unitree and 1X formed the first durable startup cohort. Early robots proved human-form machines could leave the lab.'
+    7: '2023 - 2024
+
+
+      Figure surged, while AgiBot and Galbot emerged in China. BMW, Mercedes-Benz and Amazon-backed tests made factory work the main proving ground.'
+    8: '2025
+
+
+      Capital accelerated sharply. Figure reached $39B, Apptronik raised $415M, and Chinese makers pushed from pilots toward scaled production.'
+    9: 'TODAY
+
+
+      Unitree is public, Apptronik nears $1B raised, and Figure, Agility, UBTECH and Galbot are expanding named deployments.'
+    10: '?
+
+
+      Future winners may pair reliable autonomy with low-cost hardware, high uptime, useful hands and repeatable customer economics across many sites.'
+- id: ed175
+  type: x/startups_stand_out
+  section: Top players
+  title: Which humanoid robotics startups stand out?
+  note: We selected companies that recur in recent financing, production and named customer deployment activity. This is a curated view, not an objective ranking.
+  src: 175
+  t:
+    18: It reached a $39B value and put Figure 03 into BMW logistics work
+    19: APPTRONIK
+    20: Walker S2 entered mass production with more than 1,000 units sold
+    21: UBTECH
+    22: It raised over $935M in Series A funding and works with Mercedes-Benz
+    23: FIGURE AI
+    24: Digit has commercial RaaS customers and more than $300M of orders
+    25: AGILITY
+    26: It listed in Shanghai after selling thousands of humanoids in 2025
+    27: UNITREE
+- id: ed176
+  type: x/startups_news_lately
+  section: Top players
+  title: Which startups are in the news lately?
+  page: 1/2
+  note: We focused on developers with material financing, launches, listings or customer deployments in 2026, and separated announced plans from robots already operating.
+  src: 176
+  t:
+    12: 2026 (OCT)
+    13: Agility and GXO said Digit deployments will expand to two additional U.S. logistics sites beginning in early 2027 {1|Agility}
+    14: 2026 (OCT)
+    15: Unitree unveiled H2-X, extending its full-size humanoid line after its August STAR Market listing {1|Unitree}
+    16: 2026 (SEP)
+    17: Figure retired most of its Figure 02 fleet after shifting current BMW work to the newer Figure 03 platform {1|Figure AI}
+    18: 2026 (AUG)
+    19: Unitree completed its Shanghai STAR Market IPO, raising about $905M at roughly a $9B offer valuation {1|Unitree}
+    20: 2026 (JUL)
+    21: Humanoid raised $152M in Series A funding at a reported $1.35B post-money valuation to scale HMND 01 {1|Humanoid}
+    22: 2026 (JUN)
+    23: Figure 03 arrived at BMW Spartanburg for a new logistics sequencing workflow after earlier factory work {1|Figure AI}
+- id: ed177
+  type: x/startups_news_lately_2
+  section: Top players
+  title: Which startups are in the news lately?
+  page: 2/2
+  note: We focused on developers with material financing, launches, listings or customer deployments in 2026, and separated announced plans from robots already operating.
+  src: 177
+  t:
+    13: 2026 (JUN)
+    14: Agility agreed to a public-market transaction valuing the company at $2.5B, while disclosing nine customer facilities {1|Agility}
+    15: 2026 (JUN)
+    16: Apptronik unveiled Apollo 2 as its next humanoid generation after expanding pilots with major industrial partners {1|Apptronik}
+    17: 2026 (APR)
+    18: Figure said BotQ had produced more than 350 Figure 03 units and raised output from one robot a day to one per hour {1|Figure AI}
+    19: 2026 (MAR)
+    20: Galbot raised RMB 2.5B, adding fresh capital for its industrial and commercial embodied-robot platforms {1|Galbot}
+    21: 2026 (FEB)
+    22: Toyota Motor Manufacturing Canada signed a commercial agreement to deploy Digit after a successful pilot {1|Agility}
+    23: 2026 (FEB)
+    24: Apptronik raised a $520M Series A extension, bringing its Series A above $935M and total capital near $1B {1|Apptronik}
+- id: ed178
+  type: x/current_market_leaders
+  section: Top players
+  title: Who are the current market leaders?
+  note: We use capital raised, production evidence, named customer deployments and commercial scale. This is directional because no single objective leaderboard exists.
+  src: 178
+  t:
+    7: Figure AI leads private valuation at $39B and has Figure 03 working at BMW
+    9: 'PRIVATE
+
+      VALUE'
+    10: Apptronik leads recent U.S. fundraising with more than $935M in Series A
+    12: 'FRESH
+
+      CAPITAL'
+    13: UBTECH leads industrial production evidence with 1,000-unit-level Walker S2 output
+    15: 'INDUSTRIAL
+
+      VOLUME'
+    19: Unitree leads listed Chinese scale after shipping thousands and going public
+    21: 'CHINA
+
+      SCALE'
+    22: Agility leads RaaS evidence with Digit customers and $300M+ committed orders
+    24: 'COMMERCIAL
+
+      RaaS'
+    25: 1X leads the home-focused field with NEO priced for consumer preorder
+    27: HOME HUMANOIDS
+- id: ed182
+  type: x/leads_each_link_from_content
+  section: Top players
+  title: Who leads each humanoid robotics link, from hardware to deployment?
+  note: We selected leaders by visible hardware depth, autonomy progress, production evidence, customer deployment and financing. The value chain is simplified for clarity.
+  src: 182
+  t:
+    11: HARDWARE
+    12: AUTONOMY
+    13: FACTORY
+    14: CUSTOMER
+    15: SCALE-UP
+    16: Unitree and UBTECH lead visible hardware output, with thousands of humanoids shipped or produced across their current product lines
+    17: Figure and 1X push full-body autonomy for general tasks, while Apptronik works with Google DeepMind on robot intelligence
+    18: UBTECH, Figure, Apptronik and Agility target factory and logistics workflows designed around spaces and tools built for people
+    19: Figure, Agility and Apptronik have named BMW, GXO, Toyota, Mercedes-Benz and Jabil across current deployments or pilots
+    20: Figure, Unitree, Apptronik and UBTECH show the strongest evidence of scaling production, capital or deliveries
+- id: ed183
+  type: worldmap
+  section: Top players
+  title: And at different regions of the world?
+  note: We mapped leadership by company headquarters, production and visible deployments. Robots are increasingly deployed across borders, so these labels indicate company clusters rather than closed markets.
+  regions:
+    na:
+      name: NORTH AMERICA
+      text: North America is led by Figure, Apptronik, Agility and 1X, with BMW, Mercedes-Benz, GXO and Toyota among named deployment partners.
+    eu:
+      name: EUROPE
+      text: Europe has 1X roots in Norway and newer builders such as Humanoid in London, which became a $1.35B unicorn in July 2026.
+    apac:
+      name: CHINA
+      text: 'China has the deepest supply chain: Unitree, UBTECH, AgiBot and Galbot ship the most robots.'
+    au:
+      name: ASIA-PACIFIC
+      text: Japan, Korea and Southeast Asia are active customer and investor hubs, while Chinese vendors increasingly sell and test robots abroad.
+- id: ed184
+  type: x/any_new_disruptive_startups_emerging
+  section: Top players
+  title: Any new disruptive startups emerging recently?
+  note: We selected younger companies with recent funding, product launches or commercial milestones inside the humanoid robotics market definition.
+  src: 184
+  t:
+    12: 2026 (OCT)
+    13: Minerva Humanoids emerged from stealth with $10M to develop Roger, a human-operated humanoid for useful physical work {1|Minerva}
+    14: 2026 (OCT)
+    15: Astribot reportedly raised about $140M as it expanded its humanoid assistant platform and commercial ambitions {1|Astribot}
+    16: 2026 (JUL)
+    17: Humanoid raised $152M at a $1.35B post-money valuation to scale its wheeled and bipedal HMND 01 platform {1|Humanoid}
+    18: 2026 (JUL)
+    19: LimX Dynamics raised nearly $200M in a pre-IPO round at a reported RMB 15B post-money valuation {1|LimX Dynamics}
+    20: 2026 (APR)
+    21: Robot Era raised more than $200M after another large strategic round, backing its full-size humanoid product push {1|Robot Era}
+    22: 2026 (MAR)
+    23: Galbot raised RMB 2.5B, bringing new state and industrial capital into its commercial embodied-robot platform {1|Galbot}
+- id: ed185
+  type: x/ones_disrupting_value_chain
+  section: Top players
+  title: Which ones are disrupting the value chain?
+  src: 185
+  t:
+    11: HARDWARE
+    12: AUTONOMY
+    13: FACTORY
+    14: CUSTOMER
+    15: SCALE-UP
+    16: Unitree pushes lower-priced complete humanoids, while UBTECH adds autonomous battery swapping to keep industrial robots working longer
+    17: Figure, 1X and Apptronik are building robot intelligence around cameras, language instructions and learned whole-body control
+    18: Figure, Apptronik and Agility move humanoids into BMW, Mercedes-Benz, GXO and Toyota workflows instead of custom robot-only sites
+    19: RaaS from Agility shifts the sale from robot hardware toward paid operating capacity, reducing upfront adoption friction
+    20: Figure, Apptronik, UBTECH and Unitree are building larger factories and fleets, turning production scale itself into a competitive advantage
+- id: ed186
+  type: x/ones_working_moonshots
+  section: Top players
+  title: Which ones are working on moonshots?
+  note: A moonshot is a highly ambitious technical or commercial goal with major uncertainty, even when the company already has working robots or customer pilots.
+  src: 186
+  t:
+    7: '🏭
+
+      Apptronik wants Apollo to move from pilots into repeatable global factory fleets'
+    8: '🧠
+
+      Figure wants one learned full-body system to handle many unrelated human tasks'
+    9: '📦
+
+      Agility wants Digit fleets to work reliably across many logistics and factory sites'
+    10: '🏠
+
+      1X wants NEO to become a useful general-purpose humanoid for ordinary homes'
+    11: '🤖
+
+      Galbot wants general-purpose embodied robots to work across retail and industry'
+    12: '💰
+
+      Unitree is pushing humanoid hardware toward mass-market price points and volume'
+    13: '🌍
+
+      Humanoid wants one modular wheeled and bipedal platform to scale across many commercial settings'
+    14: '🔋
+
+      UBTECH wants autonomous battery swaps to support near-continuous industrial work'
+    15: '1'
+    16: '2'
+    17: '3'
+    18: '4'
+    19: '5'
+    20: '6'
+    21: '7'
+    22: '8'
+- id: ed188
+  type: x/startups_passed_1b
+  section: Top players
+  title: Which humanoid robotics startups passed $1B?
+  note: We use the latest publicly announced private valuation or public-market offer value tied to the standalone company. Market values can change quickly after listing.
+  src: 188
+  t:
+    6: Figure built a general-purpose humanoid platform and reached a $39B post-money valuation in its September 2025 Series C round
+    7: FIGURE AI
+    9: Unitree built low-cost bipedal robots and priced its August 2026 STAR Market IPO at an offer valuation of roughly $9B
+    11: Apptronik raised a $520M Series A extension in 2026 at three times its prior Series A valuation, reportedly above $5B
+    12: APPTRONIK
+    14: Agility agreed to a 2026 public-market transaction valuing the humanoid developer at about $2.5B in equity value
+    15: AGILITY
+    17: UNITREE
+- id: ed189
+  type: x/long_did_take_them_become
+  section: Top players
+  title: How long did it take them to pass $1B?
+  note: We count from the commonly reported founding year to the first publicly disclosed valuation above $1B. For Unitree we use its last private valuation before listing.
+  src: 189
+  t:
+    8: '2026'
+    19: '2015'
+    20: Figure needed about 2 years (2022 - 2024)
+    21: It took about 10 years for Apptronik (2016 - 2026)
+    22: Agility did it in about 10 years (2015 - 2025)
+    23: Unitree needed about 9 years (2016 - 2025)
+- id: ed190
+  type: x/fast_startups_growing
+  section: Top players
+  title: How fast are humanoid robotics startups growing?
+  note: Each line uses a public valuation milestone from founding to the latest disclosed financing or transaction. Private values are round-based and public values can move after listing.
+  src: 190
+  t:
+    8: $0
+    10: $20B
+    12: $40B
+    13: Founding
+    14: Year 2
+    15: Year 4
+    16: Year 6
+    17: Year 8
+    18: Year 10
+    19: Year 12
+    20: Year 14
+    21: Year 16
+    22: YEARS SINCE FOUNDING
+    36: 'APPTRONIK
+
+      $5B+'
+    37: 'FIGURE AI
+
+      $39B'
+    38: 'UNITREE
+
+      $9B'
+    39: 'AGILITY
+
+      $2.5B'
+    41: Capital has repriced leaders quickly. {1|Figure reached $39B within three years, while Unitree, Apptronik and Agility all crossed $1B on different paths.}
+- id: ed191
+  type: agenda
+  section: Startup killers
+  current: 11
+  src: 191
+- id: ed192
+  type: x/startups_stumbled_lately
+  section: Startup killers
+  title: Which humanoid robotics companies stumbled lately?
+  page: 1/2
+  note: We included verified setbacks across humanoid robot builders, including layoffs, founder exits and formal restructuring. We treated these as warning events, not proof that every company was failing.
+  src: 192
+  t:
+    12: 2024 (APR)
+    13: Agility Robotics cut a small number of jobs while refocusing the company on Digit commercialization {1|TechCrunch}
+    14: 2024 (APR)
+    15: Sanctuary AI co-founder and CTO Suzanne Gildert left as the company reassigned her day-to-day duties {1|Sanctuary AI}
+    16: 2024 (NOV)
+    17: Sanctuary AI announced co-founder Geordie Rose was leaving the CEO role and named an interim chief {1|Sanctuary AI}
+    18: 2024 (NOV)
+    19: Sanctuary AI cut about 30 jobs after its CEO exit, with the company citing operational efficiency {1|Bloomberg}
+    20: 2024 (DEC)
+    21: Boston Dynamics laid off 45 employees, about 5% of staff, across nearly every business function {1|Boston Globe}
+    22: 2025 (JAN)
+    23: Aldebaran entered a French safeguard procedure after serious financial difficulties {1|French government}
+- id: ed195
+  type: x/startups_stumbled_lately_2
+  section: Startup killers
+  title: Which humanoid robotics companies stumbled lately?
+  page: 2/2
+  note: We treated restructurings, shutdowns and a documented launch delay as setbacks even when a robot program survived. We excluded rumors and did not count acquisitions as failures by themselves.
+  src: 195
+  t:
+    13: 2025 (FEB)
+    14: Aldebaran entered judicial restructuring on February 17 after its earlier safeguard process failed {1|French government}
+    15: 2025 (MAR)
+    16: United Robotics Group filed for self-administered insolvency after a deep restructuring of operations {1|RAG-Stiftung}
+    17: 2025 (JUN)
+    18: Aldebaran was liquidated on June 2, with 106 jobs slated to disappear after takeover efforts failed {1|Eurofound}
+    19: 2025 (NOV)
+    20: K-Scale Labs shut down after failing to raise its next round, cancelling K-Bot orders and refunds {1|The Information}
+    21: 2026 (FEB)
+    22: Cartwheel Robotics closed after failing to secure enough capital to bring its Yogi humanoid to market {1|Founder statement}
+    23: 2026 (OCT)
+    24: Tesla pushed outside-customer Optimus deliveries to around end-2027 while saying AI and reliability still need work {1|Tesla}
+- id: ed199p
+  type: pp_killers
+  section: Startup killers
+  mode: warning
+  title: Which humanoid robotics companies have shown warning signs?
+  signs:
+  - Big|layoffs
+  - Leadership|exit
+  - Launch|delayed
+  - Funding|stress
+  - Shut down|or sold
+  rows:
+  - name: Agility Robotics
+    slug: agility-robotics
+    ini: A
+    domain: agilityrobotics.com
+    cells:
+    - Small cuts|Apr 2024
+    - ''
+    - Digit 5 rollout|starts 2027
+    - Still loss-making|2026 filing
+    - ''
+    src: ../../assets/logos/pp/agility-robotics.png
+  - name: Sanctuary AI
+    slug: sanctuary-ai
+    ini: S
+    domain: sanctuary.ai
+    cells:
+    - ~30 jobs|Nov 2024
+    - CEO left|Nov 2024
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/sanctuary-ai.png
+  - name: Boston Dynamics
+    slug: boston-dynamics
+    ini: B
+    domain: bostondynamics.com
+    cells:
+    - 45 jobs|Dec 2024
+    - ''
+    - ''
+    - ''
+    - ''
+    src: ../../assets/logos/boston-dynamics.png
+  - name: K-Scale Labs
+    slug: k-scale-labs
+    ini: K
+    domain: kscale.dev
+    cells:
+    - Most staff|cut 2025
+    - ''
+    - K-Bot orders|cancelled
+    - ~$400K cash|left 2025
+    - Shut down|Nov 2025
+    src: media/ini/k-scale-labs.png
+  - name: Cartwheel Robotics
+    slug: cartwheel-robotics
+    ini: C
+    domain: cartwheelrobotics.com
+    cells:
+    - ''
+    - ''
+    - Yogi never|reached market
+    - Could not fund|scale-up
+    - Shut down|Feb 2026
+    src: ../../assets/logos/cartwheel-robotics.png
+  - name: Aldebaran
+    slug: aldebaran
+    ini: A
+    domain: aldebaran.com
+    cells:
+    - 106 jobs|lost 2025
+    - ''
+    - ''
+    - Parent stopped|funding
+    - Liquidated|Jun 2025
+    src: media/ini/aldebaran.png
+  note:
+  - We looked for warning signs among notable humanoid robot builders, from layoffs and leadership exits to shutdowns
+  - We used company statements, filings and reputable reporting; a blank cell means we did not verify that warning sign
+- id: ed200
+  type: x/why_startups_fail
+  section: Startup killers
+  title: Why do humanoid robotics startups fail?
+  note: We used public filings, company statements and reported shutdowns to identify recurring failure modes. These are market-level risks, not a claim that every builder faces all six.
+  src: 200
+  t:
+    0: They fail when hardware burns cash before sales can scale
+    2: 'CAPITAL
+
+      RUNWAY RISK'
+    3: They fail when AI cannot handle open-ended work reliably
+    5: 'ROBOT
+
+      AUTONOMY'
+    6: They fail when site integration takes too long to repeat
+    8: 'CUSTOMER
+
+      DEPLOYMENT'
+    9: They fail when robots break or wear out too fast
+    11: 'FIELD
+
+      RELIABILITY'
+    12: They fail when prototypes cannot be built cheaply at volume
+    14: 'MASS
+
+      PRODUCTION'
+    15: They fail when buyers cannot justify the economics yet
+    17: CUSTOMER ROI
+    24: 💀
+    25: 💀
+    26: 💀
+    27: 💀
+    28: 💀
+    29: 💀
+- id: ed201
+  type: x/broke_these_startups_did_each
+  section: Startup killers
+  title: What broke these humanoid robotics companies, and how did each one end?
+  note: We grouped six humanoid robot builders that shut down or had to shrink from 2024 to 2026 under the clearest reported pressure and outcome. Some remain active after layoffs.
+  src: 201
+  t:
+    7: WHY IT BROKE
+    8: HOW IT ENDED
+    11: Funding
+    12: fell short
+    13: Weak
+    14: demand
+    15: Product not
+    16: ready yet
+    17: Costs ran
+    18: too high
+    22: K-Scale
+    23: US
+    29: Shut down
+    33: Cartwheel
+    34: US
+    40: Shut down
+    44: Aldebaran
+    45: FR
+    51: Liquidated
+    55: Sanctuary
+    56: CA
+    62: Big layoffs
+    66: Agility
+    67: US
+    73: Small layoffs
+    77: Boston D.
+    78: US
+    84: 45 layoffs
+  img:
+  - media/ini/k-scale-labs.png
+  - ../../assets/logos/cartwheel-robotics.png
+  - media/ini/aldebaran.png
+  - ../../assets/logos/sanctuary-ai.png
+  - ../../assets/logos/pp/agility-robotics.png
+  - ../../assets/logos/boston-dynamics.png
+  logos_on_slide: 6
+- id: ed203
+  type: agenda
+  section: Startup strategies
+  current: 12
+  src: 203
+- id: ed204
+  type: x/startups_news_lately
+  section: Startup strategies
+  title: Which humanoid robotics startups scored big recently?
+  page: 1/2
+  note: We focused on large disclosed financings and public-market transactions involving companies inside our humanoid robotics definition. Values are announced round sizes or gross proceeds.
+  src: 204
+  t:
+    12: 2025 (SEP)
+    13: Figure raised more than $1 billion in Series C funding at a $39 billion post-money valuation to scale humanoid production {1|Figure}
+    14: 2026 (FEB)
+    15: Apptronik added $520 million, taking its Series A above $935 million to scale Apollo production {1|Apptronik}
+    16: 2026 (MAR)
+    17: Galbot raised about $350 million in a Series D+ round backed by major Chinese state and strategic funds {1|Galbot}
+    18: 2026 (JUN)
+    19: NEURA Robotics announced up to $1.4 billion in Series C funding to scale its physical-AI platform {1|NEURA Robotics}
+    20: 2026 (JUN)
+    21: Agility agreed to go public in a deal expected to provide more than $620 million of gross proceeds {1|Agility Robotics}
+    22: 2026 (AUG)
+    23: Unitree priced its Shanghai IPO to raise about $904 million as China’s first listed humanoid maker {1|Unitree}
+- id: ed205
+  type: x/rounds_were_announced_last_2
+  section: Startup strategies
+  title: 'Which startups
+
+    scored big recently?'
+  page: 2/2
+  note: We picked the biggest disclosed rounds of humanoid robotics startups since 2024, from our tracker of rounds
+  src: 205
+  t:
+    14: 2024 (MAR)
+    15: Capstan raised a $175M Series B led by RA Capital, about a year before AbbVie agreed to buy it for up to $2.1B {1|Capstan}
+    16: 2025 (JAN)
+    17: Umoja raised a $100M Series C led by Double Point Ventures and DCVC Bio to bring its humanoid robotics to patients {1|GlobeNewswire}
+    18: 2025 (AUG)
+    19: Strand Therapeutics raised a $153M Series B led by Kinnevik for its programmable mRNA therapies against cancer {1|Business Wire}
+    20: 2025 (NOV)
+    21: Azalea Therapeutics launched with a $65M Series A led by Third Rock Ventures for in vivo genome editing in cancer {1|Fierce Biotech}
+    22: 2026 (MAY)
+    23: CREATE Medicines raised a $122M Series B led by Newpath, ARCH and Hatteras to program immune cells in the body {1|PR Newswire}
+    24: 2026 (JUL)
+    25: Sail Biomedicines got $465M from Johnson & Johnson in a deal that gives J&J an option to buy the company {1|J&J}
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed206
+  type: x/success_look_like_market
+  section: Startup strategies
+  title: How does success look like in this market?
+  note: We based this high-level view on verified deployments, disclosed orders, public pricing, production data and current platform strategies. It summarizes recurring success patterns rather than a single formula.
+  src: 206
+  t:
+    7: They win by logging real hours inside customer operations
+    9: 'REAL-WORLD
+
+      PROOF'
+    10: They win by making robots customers can actually afford
+    12: 'LOW-COST
+
+      SCALE'
+    13: They win by learning from robots already at work
+    15: 'REAL-WORLD
+
+      DATASET'
+    16: They win by working safely around people and equipment
+    18: 'SAFE
+
+      DEPLOYMENT'
+    19: They win by teaching one robot to handle new tasks
+    21: 'GENERAL
+
+      BRAINS'
+    22: They win by building enough robots to learn and cut costs
+    24: FACTORY SCALE
+    25: 🏆
+    26: 🏆
+    27: 🏆
+    28: 🏆
+    29: 🏆
+    30: 🏆
+- id: ed207
+  type: x/did_leaders_get_where
+  section: Startup strategies
+  title: How did the leaders get where they are?
+  page: 1/2
+  note: We selected independent humanoid companies with clear evidence of financing, production or customer use. These short explanations simplify many factors behind each company's progress.
+  src: 207
+  t:
+    6: '📦
+
+      Agility put Digit into live warehouses, then expanded from pilots into orders'
+    7: '🤝
+
+      Apptronik paired Apollo with Mercedes-Benz, Jabil and deep-pocketed investors'
+    8: '💰
+
+      Unitree used low prices and China’s supply chain to ship over 5,500 humanoids'
+    9: '🏭
+
+      Figure proved factory value at BMW before scaling Figure 03 and Helix'
+    10: '🏗️
+
+      AGIBOT standardized production early and rolled out its 10,000th robot'
+    11: '🧠
+
+      NEURA linked robots, shared intelligence and training sites in one ecosystem'
+    12: '🚗
+
+      UBTECH trained Walker robots in factories before mass-producing Walker S2'
+    13: '🏠
+
+      1X designed NEO for homes and booked a year of output in five days'
+- id: ed208
+  type: x/did_leaders_get_where_2
+  section: Startup strategies
+  title: How did the leaders get where they are?
+  page: 2/2
+  note: We selected additional independent humanoid companies with differentiated hardware, software, financing or deployment strategies. Product claims are limited to what companies or cited sources disclose.
+  src: 208
+  t:
+    7: '🧠
+
+      X Square built its WALL robot brain alongside complete mobile humanoid bodies'
+    8: '🧰
+
+      LimX mixed humanoid hardware with open tools for developers and researchers'
+    9: '🏃
+
+      Robot Era pushed locomotion and dexterous hardware together in its STAR1'
+    10: '🛒
+
+      Galbot chose wheels and real retail workflows instead of waiting for perfect legs'
+    11: '🎯
+
+      Noetix used compact, lower-cost humanoids to target research and consumers'
+    12: '✋
+
+      Astribot focused S1 on fast, precise manipulation with human-scale reach'
+    13: '🧩
+
+      Fourier built GR-2 as a modular full-size platform for research and services'
+    14: '🔓
+
+      ENGINEAI made PM01 open for developers while building its own actuators'
+- id: ed209p
+  type: pp_winner
+  section: Startup strategies
+  title: 'Why might Lilly be winning
+
+    the humanoid robotics vector market?'
+  companies:
+  - short: Lilly
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-0.png
+  - short: AstraZeneca
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-1.png
+  - short: Gilead
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-2.png
+  - short: Umoja
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-3.png
+  - short: Vyriad
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-4.png
+  criteria:
+  - name: Targeted LVV platform
+    why: Direct in-body CAR design
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Patients dosed in humans
+    why: Initial clinical validation
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Public patient outcomes
+    why: Early efficacy visibility
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Live US clinical trial
+    why: Regulatory development
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: BCMA CAR program
+    why: Myeloma target coverage
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Multiple in vivo programs
+    why: Pipeline optionality
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Major pharma ownership
+    why: Capital for clinical scale
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+  tag: 'PRODUCT PAGE: TO COPY'
+- id: ed210
+  left: A REGULAR HUMANOID STARTUP
+  logo: figure
+  note:
+  - We used Figure's BMW deployment, Helix 02, manufacturing and financing disclosures
+  - We treated “a regular humanoid startup” as a fictional baseline, shown here only for the contrast
+  right: FIGURE
+  rows:
+  - - They stay in lab demos while customers keep waiting
+    - Figure 02 worked daily on an active BMW assembly line
+  - - They show short tasks with resets between each step
+    - Helix 02 ran a four-minute kitchen task with no reset
+  - - They separate walking from manipulation control
+    - Helix 02 controls walking, balance and hands together
+  - - They collect little evidence from real production lines
+    - Figure 02 logged more than 1,250 working hours at BMW
+  - - They build their prototypes by hand, one unit at a time
+    - BotQ took Figure 03 output from one a day to one an hour
+  - - They wait years before manufacturing at volume
+    - Figure delivered over 350 Figure 03 robots by April 2026
+  - - They depend on one narrow, repeated factory movement
+    - Figure 03 moved from sheet loading to parts sequencing
+  - - They train only on carefully staged robot lab data
+    - Figure added human video and multimodal data collection
+  - - They raise money before any customer production use
+    - BMW said Figure 02 helped build over 30,000 X3 cars
+  - - They stay valued like an early robotics experiment
+    - Figure raised over $1 billion at a $39 billion valuation
+  section: Startup strategies
+  src: 210
+  title: How Figure turned factory proof into a $39B valuation
+  type: contrast
+- id: ed211
+  left: A REGULAR HUMANOID STARTUP
+  logo: apptronik
+  note:
+  - We used Apptronik's financing disclosures and its industrial agreements with Mercedes-Benz and Jabil
+  - We treated “a regular humanoid startup” as a fictional baseline, shown here only for the contrast
+  right: APPTRONIK
+  rows:
+  - - They design a robot before finding where it will work
+    - Apptronik built Apollo around warehouse and factory tasks
+  - - They test their robots only inside their own robotics lab
+    - Mercedes-Benz brought Apollo into its car factories
+  - - They outsource manufacturing with no feedback loop
+    - Jabil agreed to build Apollo and use it in its own plants
+  - - They keep the robot maker and the factory apart
+    - Jabil validates Apollo on the lines that build Apollo
+  - - They depend on a single customer to prove the product
+    - Apptronik also works with Mercedes-Benz and GXO
+  - - They raise small rounds between hardware versions
+    - Apptronik's Series A grew to more than $935 million
+  - - They rely only on purely financial venture investors
+    - Google, Mercedes-Benz and John Deere joined its rounds
+  - - They build their hardware with no major AI partner
+    - Google joined as Apptronik scaled its AI-powered robots
+  - - They plan scale before securing factory know-how
+    - Jabil brought engineering, production and supply chains
+  - - They keep their sales separate from robot production
+    - Apptronik uses its factory sites as deployment sites
+  section: Startup strategies
+  src: 211
+  title: How Apptronik tied Apollo to industrial partners
+  type: contrast
+- id: ed212
+  left: A REGULAR HUMANOID STARTUP
+  logo: agility
+  note:
+  - We used Agility's own news on its GXO deployment, Digit 5 orders and Nasdaq listing
+  - We treated “a regular humanoid startup” as a fictional baseline, for the contrast only
+  right: AGILITY ROBOTICS
+  rows:
+  - - They optimize for flashy video demonstrations first
+    - Agility built Digit around repetitive material handling
+  - - They leave customer pilots after only a few weeks
+    - Digit logged more than 65,000 hours at customer sites
+  - - They treat every new customer workflow as a new robot
+    - Digit 5 adds tools and skills to cover more site work
+  - - They need long charging stops between short shifts
+    - Digit 5 works 90 minutes after a nine-minute charge
+  - - They keep payloads too low for common industrial loads
+    - Digit 5 is designed to lift loads of up to 50 pounds
+  - - They isolate robots behind permanent safety barriers
+    - Digit 5 is designed for cooperative work near people
+  - - They build their robots without a dedicated factory
+    - RoboFab is designed to build up to 10,000 robots a year
+  - - They rely on pilots with no contracted follow-on demand
+    - Agility disclosed more than $300 million in Digit 5 orders
+  - - They keep customer data separate from AI development
+    - Agility feeds deployment data back into its robot AI
+  - - They stay private while scaling factory infrastructure
+    - Agility began trading on Nasdaq as AGLT in November 2026
+  section: Startup strategies
+  src: 212
+  title: How Agility turned warehouse work into public-market scale
+  type: contrast
+- id: ed213
+  left: A REGULAR HUMANOID STARTUP
+  logo: unitree
+  note:
+  - We used Unitree's product pages, its 2025 shipment figure and its IPO filings
+  - We treated “a regular humanoid startup” as a fictional baseline, for the contrast only
+  right: UNITREE
+  rows:
+  - - They price a research humanoid like special machinery
+    - Unitree lists its full G1 humanoid from just $13,500
+  - - They make buyers request a quote before any trial
+    - The standard G1 can be bought in Unitree's online store
+  - - They build only a handful of robots for demonstrations
+    - Unitree says it delivered over 5,500 humanoids in 2025
+  - - They call factory output an order before a robot ships
+    - Unitree separated delivered units from its order volume
+  - - They depend on one single premium full-size platform
+    - Unitree sells several humanoid models at different prices
+  - - They hide basic hardware specifications from developers
+    - G1 publishes its sensors, battery life and joint setup
+  - - They need a large body to offer a developer platform
+    - G1 packs a full humanoid body into about 35 kilograms
+  - - They stay private while funding scale from venture rounds
+    - Unitree raised capital through a Shanghai public listing
+  - - They burn cash while waiting for humanoids to mature
+    - Unitree reported a profit in its 2025 prospectus period
+  - - They prove demand only with social-media attention
+    - Unitree disclosed thousands of humanoids sold and delivered
+  section: Startup strategies
+  src: 213
+  title: How Unitree made humanoids cheap enough to ship by the thousands
+  type: contrast
+- id: ed214
+  left: A REGULAR HUMANOID STARTUP
+  logo: 1x
+  note:
+  - We used 1X's NEO launch, its order page, its factory update and product pages
+  - We treated “a regular humanoid startup” as a fictional baseline, for the contrast only
+  right: 1X
+  rows:
+  - - They start in factories because homes are too messy
+    - 1X designed NEO specifically for everyday work at home
+  - - They expose hard metal surfaces around the people
+    - NEO uses a soft body over its mechanical structure
+  - - They make a heavy robot that is hard to move safely
+    - NEO weighs about 66 pounds, light enough for a home
+  - - They build hands mainly for simple industrial gripping
+    - NEO uses multi-finger tendon-driven hands for home items
+  - - They wait for full autonomy before selling anything
+    - 1X sells early access while its autonomy keeps improving
+  - - They hide human assistance behind an autonomy claim
+    - 1X openly offers scheduled remote supervision by experts
+  - - They sell only through long enterprise pilot contracts
+    - Consumers can reserve NEO directly on the 1X website
+  - - They require a six-figure budget to own one robot
+    - NEO early access ownership is listed at only $20,000
+  - - They build production before testing consumer demand
+    - 1X booked 10,000 units of production in only five days
+  - - They treat a home robot as hardware with fixed skills
+    - 1X says NEO learns and gains new skills over time
+  section: Startup strategies
+  src: 214
+  title: How 1X turned home humanoids into a 10,000-unit preorder book
+  type: contrast
+- id: ed215
+  type: x/divider_9
+  src: 215
+  t:
+    3: SOURCES
+    4: HUMANOID ROBOTICS
+  tag: 'SOURCES: TO BUILD'
+- id: ed216
+  type: x/divider_10
+  src: 216
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'Lilly, Kelonia
+
+      acquisition release'
+    4: Eli Lilly’s own announcement, with the deal terms it must disclose to its shareholders
+    5: We used it for the $7 billion deal. It also anchored our view of who leads the market.
+    7: 'Lilly, Orna
+
+      acquisition release'
+    8: Eli Lilly’s own announcement, with the price and the circular RNA platform it bought
+    9: We used it for the $2.4 billion deal. It also helped us describe circular RNA CAR-T.
+    10: 'AbbVie, Capstan
+
+      acquisition release'
+    11: AbbVie’s own announcement, with the deal terms and the status of CPTX2309 at signing
+    12: We used it for the $2.1 billion deal. It also helped us explain targeted LNP delivery.
+    13: 'Gilead, Interius
+
+      acquisition release'
+    14: Gilead’s own announcement for Kite, with the price paid and the platform it bought
+    15: We used it for the $350 million deal. It also shaped our contrast slide on Interius.
+    16: 'AstraZeneca,
+
+      EsoBiotec deal'
+    17: AstraZeneca’s own release on closing the deal, with the upfront and total value paid
+    18: We used it for the $1 billion deal. It also showed how early big pharma bought in.
+  links:
+    3: https://lilly.gcs-web.com/news-releases/news-release-details/lilly-acquire-kelonia-therapeutics-advance-vivo-car-t-cell
+    7: https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-orna-therapeutics-advance-cell-therapies
+    10: https://news.abbvie.com/2025-06-30-AbbVie-to-Acquire-Capstan-Therapeutics%2C-Further-Strengthening-Commitment-to-Transforming-Patient-Care-i
+    13: https://investors.gilead.com/news/news-details/2025/Kite-to-Acquire-Interius-BioTherapeutics-to-Advance-In-Vivo-Platform/default.aspx
+    16: https://www.astrazeneca.com/media-centre/press-releases/2025/acquisition-of-esobiotec-completed.html
+  section: Sources
+  tag: 'SOURCES: TO BUILD'
+- id: ed217
+  type: x/divider_10
+  src: 217
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'BMS, Orbital
+
+      acquisition release'
+    4: Bristol Myers Squibb’s own release, with the cash price and the program it acquired
+    5: We used it for the $1.5 billion deal. It also helped us show that pharma buys early.
+    7: 'Fierce Biotech,
+
+      J&J and Sail deal'
+    8: Fierce Biotech is a leading biotech trade outlet that reports deal terms from the filings
+    9: We used it for the $785 million J&J deal. It also gave us the option to buy Sail.
+    10: 'Blood (ASH 2025),
+
+      KLN-1010 results'
+    11: Peer-reviewed abstract in Blood, the journal of the American Society of Hematology
+    12: We used it for the first Kelonia patient data. It also backed our signal on results.
+    13: 'Nature Medicine,
+
+      ESO-T01 follow-up'
+    14: Peer-reviewed paper in Nature Medicine, with the long follow-up of every patient
+    15: We used it for the 15-month remission data. It also tempered our maturity score.
+    16: 'FDA, end of REMS
+
+      for CAR-T'
+    17: Official FDA announcement, the agency that approves every CAR-T therapy in the US
+    18: We used it for the regulation slides. It also showed which old constraints are gone.
+  links:
+    3: https://investors.bms.com/iframes/press-releases/press-release-details/2025/Bristol-Myers-Squibb-Strengthens-and-Diversifies-Cell-Therapy-Po
+    7: https://www.fiercebiotech.com/biotech/jj-pays-sail-785m-charting-course-possible-vivo-car-t-buyout
+    10: https://ashpublications.org/blood/article/146/Supplement%202/LBA-1/556929
+    13: https://www.nature.com/articles/s41591-026-04704-z
+    16: https://www.fda.gov/news-events/press-announcements/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antige
+  section: Sources
+  tag: 'SOURCES: TO BUILD'
+- id: ed218
+  type: x/divider_10
+  src: 218
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'FDA, potency
+
+      assurance guidance'
+    4: Official FDA guidance that sponsors of cell and gene therapies must follow to file
+    5: We used it for the road to approval. It also helped us rank the regulatory risks.
+    7: 'Umoja, UB-VV111
+
+      Fast Track release'
+    8: Umoja’s own release on the FDA designation, confirmed by the agency’s public criteria
+    9: We used it for the Fast Track milestone. It also placed Umoja among the leaders.
+    10: 'CREATE, MT-302
+
+      first human results'
+    11: CREATE’s own release on its first patients, presented at a scientific congress
+    12: We used it for in vivo CAR beyond T cells. It also helped us map solid tumor work.
+    13: 'Interius, first
+
+      patient dosed'
+    14: Interius’s own release on the first in vivo CAR patient, later confirmed by Gilead
+    15: We used it for the first human dosing date. It also anchored our market timeline.
+    16: 'Review of in vivo
+
+      CAR-T therapies'
+    17: Peer-reviewed 2026 review in PubMed Central, covering every clinical-stage program
+    18: We used it for our market definition. It also gave us the list of in vivo pipelines.
+  links:
+    3: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products
+    7: https://www.umoja-biopharma.com/news/umoja-biopharma-announces-that-ub-vv111-receives-fda-fast-track-designation-for-relapsed-refractory-b-c
+    10: https://createmedicines.com/news/create-medicines-announces-positive-first-in-human-results-for-mt-302
+    13: https://www.globenewswire.com/news-release/2024/10/23/2967445/0/en/Interius-BioTherapeutics-Doses-First-Patien
+    16: https://pmc.ncbi.nlm.nih.gov/articles/PMC12857126
+  section: Sources
+  tag: 'SOURCES: TO BUILD'
+- id: ed219
+  type: x/divider_10
+  src: 219
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'MedComm review,
+
+      delivery platforms'
+    4: Peer-reviewed 2026 review in MedComm comparing viral and lipid delivery in people
+    5: We used it for the categories of the market. It also helped us see what has flipped.
+    7: 'Precedence Research
+
+      market report'
+    8: Market research firm with a dedicated humanoid robotics report, updated in September 2026
+    9: We used it as the high end of the market size. It also gave us the regional split.
+    10: 'Grand View in vivo
+
+      cell therapy report'
+    11: Market research firm with a yearly report on the wider in vivo cell therapy market
+    12: We used it as the base of our own estimate. It also checked our growth rate range.
+    13: 'Future Market
+
+      Insights report'
+    14: Market research firm with a narrow humanoid robotics scope, close to our own definition
+    15: We used it as the low end of the market size. It also gave us a direct growth rate.
+    16: 'Our humanoid robotics
+
+      funding tracker'
+    17: Our own database of every equity round since January 2024, each with its source link
+    18: We used it for all the funding slides. It also counted rounds by stage and country.
+  links:
+    3: https://onlinelibrary.wiley.com/doi/full/10.1002/mco2.71030
+    7: https://www.precedenceresearch.com/in-vivo-car-t-therapy-market
+    10: https://www.grandviewresearch.com/industry-analysis/in-vivo-cell-therapy-market-report
+    13: https://www.futuremarketinsights.com/reports/in-vivo-car-t-cell-therapy-market
+  section: Sources
+  tag: 'SOURCES: TO BUILD'
+- id: ed221
+  type: x/divider_12
+  src: 221
+  t:
+    0: '
+
+
+
+      Thank you for taking the time to go through this report.
+
+
+      Our intention was to make this work useful. Rigorous, yes, but also clear, structured, and easy to navigate, so that knowledge can actually be absorbed and reused. We truly hope the information was digestible, that you learned something meaningful along the way, and that it will prove useful in your own thinking or decision making.
+
+
+      Behind these documents is a team that works hard to produce them and keep them up to date. This is not a one-off effort, and we take the craft seriously.
+
+
+      If you are interested in other markets, we invite you to visit our homepage and explore our other reports. You can use {1|NEWMARKET} for 20% off, or {1|NEWMARKETMAX} for 30% off when purchasing five or more. If a market you care about is not currently in the list, email us and maybe we can cover it.'
+    3: THANK YOU FOR YOUR TIME

@@ -1,4 +1,5 @@
-"""Research prompts for a new market deck (Pierre, 12 Nov 2026: « donne un nom de marché, reçois les prompts puis le deck »).
+"""SUPERSEDED (12 Nov 2026) by tools/make_market_prompts.py (reference deck In Vivo as model); kept because it provides example(), ylen(), CHAPTERS.
+Research prompts for a new market deck (Pierre, 12 Nov 2026: « donne un nom de marché, reçois les prompts puis le deck »).
 
     python3 tools/make_research_prompts.py decks/invivo-demo  --uuid 109 --handle in-vivo-car-t --name "in vivo CAR-T" \
         --definition-file /home/claude/nmp-seo/data/startups/market_definitions.csv  --out /home/claude/prompts_invivo

@@ -12,6 +12,14 @@ import argparse, copy, glob, json, re, yaml
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REF = {s['id']: s for s in yaml.safe_load((ROOT / 'decks/edtech-full/deck.yaml').read_text())['slides']}
+
+
+def use_model(deck):
+    """the reference deck (In Vivo CAR-T, 12 Nov 2026) becomes the model; EdTech stays for the slides it does not have"""
+    for s in yaml.safe_load((ROOT / deck / 'deck.yaml').read_text())['slides']:
+        m = re.match(r'(ed\d{3})-s(\d)$', s['id'])
+        if m and m.group(2) != '1': continue
+        REF[m.group(1) if m else s['id']] = s
 DB_IDS = {'ed156', 'ed157', 'ed158', 'ed159', 'ed160', 'ed162', 'ed164', 'ed165p', 'ed166p', 'ed167', 'ed168p', 'ed169', 'ed171p', 'ed205'}
 EDWORDS = re.compile(r'\b(edtech|students?|teachers?|schools?|classrooms?|learners?|tutor(s|ing)?|homework|duolingo|coursera|chegg)\b', re.I)
 
@@ -89,16 +97,47 @@ def slugify(n):
     return re.sub(r'[^a-z0-9]+', '-', str(n).lower()).strip('-')
 
 
+DOMAINS = {}          # company name (lower case) -> website domain, read from the answers (logos lists, rows)
+_GLOBE = None
+
+
+def fetch_logo(domain, slug):
+    """square logo from the site's own favicon (Google favicon service, 256 px), the way the In Vivo logos were checked (12 Nov 2026).
+    Only the domain name leaves the machine. The generic globe returned for unknown sites is refused."""
+    import hashlib, subprocess, tempfile
+    from PIL import Image
+    global _GLOBE
+    def get(d):
+        f = tempfile.mktemp(suffix='.png')
+        r = subprocess.run(['curl', '-sSL', '-m', '15', '-o', f, f'https://www.google.com/s2/favicons?domain={d}&sz=256'], capture_output=True)
+        return f if r.returncode == 0 and Path(f).exists() else None
+    if _GLOBE is None:
+        g = get('no-such-site-nmp-xyz.invalid'); _GLOBE = hashlib.md5(Path(g).read_bytes()).hexdigest() if g else ''
+    f = get(re.sub(r'^https?://|/.*$', '', domain))
+    if not f: return False
+    b = Path(f).read_bytes()
+    if hashlib.md5(b).hexdigest() == _GLOBE: return False
+    try: im = Image.open(f).convert('RGBA')
+    except Exception: return False
+    if im.width < 96: return False
+    bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im)
+    bg.convert('RGB').save(ROOT / 'assets/logos' / f'{slug}.png'); print('logo fetched from favicon:', slug, domain)
+    return True
+
+
 def logo(name, deck_rel=True):
     """company name -> logo path seen from deck.html: assets/logos (and pp/), else a generated initials tile (listed as missing)"""
-    if isinstance(name, dict): name = next(iter(name), '')
+    domain = ''
+    if isinstance(name, dict): domain = name.get('domain') or ''; name = name.get('name') or next(iter(name.values()), '')
     name = re.split(r'\s+[—-]\s+https?://', str(name))[0].split(' / ')[-1].strip()
+    domain = domain or DOMAINS.get(name.lower(), '')
     base = slugify(name); cands = [base]
-    short = re.sub(r'-(therapeutics|biotherapeutics|biopharma|biotechnology|biotech|medicines|bio|inc|sciences|pharmaceuticals?)$', '', base)
-    cands += [short, short + '-therapeutics', short + '-bio', short + '-biopharma']
+    short = re.sub(r'-(therapeutics|biotherapeutics|biopharma|biotechnology|biotech|medicines|bio|inc|sciences|pharmaceuticals?|robotics|robot|ai|labs|technologies|technology|dynamics)$', '', base)
+    cands += [short, short + '-therapeutics', short + '-bio', short + '-biopharma', short + '-robotics', short + '-ai']
     for c in cands:
         for d in ('assets/logos', 'assets/logos/pp'):
             if (ROOT / d / f'{c}.png').exists(): return f'../../{d}/{c}.png'
+    if domain and fetch_logo(domain, base): return f'../../assets/logos/{base}.png'
     MISSING.add(name)
     from PIL import Image, ImageDraw, ImageFont
     ini = ''.join(w[0] for w in re.findall(r'[A-Za-z0-9]+', name)[:2]).upper() or '?'
@@ -146,12 +185,13 @@ def merge(slide, ans):
         elif k == 'note':
             fx = lambda x: ' '.join(f'{a}: {b}' for a, b in x.items()) if isinstance(x, dict) else str(x)
             s['note'] = [fx(x) for x in v] if isinstance(v, list) else fx(v)
-        elif k in ('inside',) or (isinstance(v, list) and v and v[0] == '<logo>'): continue
+        elif k in ('inside', 'inside_xy', 'edge_xy') or (isinstance(v, list) and v and v[0] == '<logo>'): continue
         elif k in ('TL', 'TR', 'BL', 'BR') and isinstance(v, dict) and isinstance(s.get(k), dict):
             s[k] = {**s[k], **{kk: vv for kk, vv in v.items() if kk != 'src'}, 'src': logo(v.get('name', ''))}
         elif isinstance(v, list) and isinstance(s.get(k), list): s[k] = fill_list(s[k], v)
         else: s[k] = v
     names = ans.get('logos') or []
+    if s.get('type') == 'pp_radar': s.pop('inside_xy', None); s.pop('edge_xy', None)   # exact tiles belong to the model's live page only
     if s.get('type') == 'pp_radar' and names: s['inside'] = [logo(x) for x in names][:len(s.get('inside') or names)]
     elif s.get('img') and any('/deco/' in x for x in s['img']): pass     # decoration (grey emoji of 'bad customer experience'...) is never a logo slot (12 Nov 2026)
     elif s.get('img') and names:
@@ -165,8 +205,20 @@ def merge(slide, ans):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('results'); ap.add_argument('--demo'); ap.add_argument('--out'); ap.add_argument('--name')
     ap.add_argument('--pain'); ap.add_argument('--value'); ap.add_argument('--drop-no-data', action='store_true')
+    ap.add_argument('--model', help='reference deck used as model (decks/in-vivo-car-t)'); ap.add_argument('--model-words', default=''); ap.add_argument('--model-name', default='')
     a = ap.parse_args()
+    global EDWORDS
+    if a.model:
+        use_model(a.model)
+        if a.model_words: EDWORDS = re.compile(r'\b(' + '|'.join(re.escape(w.strip()) for w in a.model_words.split(',')) + r')\b', re.I)
     R, errs = parse(a.results)
+    def walk(v):
+        if isinstance(v, dict):
+            if v.get('name') and v.get('domain'): DOMAINS[str(v['name']).lower()] = v['domain']
+            for x in v.values(): walk(x)
+        elif isinstance(v, list):
+            for x in v: walk(x)
+    walk(R)
     global OUTDIR
     out = ROOT / a.out; out.mkdir(parents=True, exist_ok=True); OUTDIR = out
     demo = yaml.safe_load((ROOT / a.demo / 'deck.yaml').read_text())
@@ -286,6 +338,18 @@ def main():
             if not e.get('link'):                  # RULES.md « liant » : the slide before must announce the extra slide
                 print('extra slide: no link written for', e['slide'].get('id'), '(say which phrase of', e['after'], 'leads to it)')
             S.insert(i + 1, e['slide'])
+    if a.model_name:             # the reference market's name left in slides nobody rewrote (agenda kicker, sources divider…) becomes the new name
+        mn, nn = a.model_name, a.name
+        def sw(v):
+            if isinstance(v, str):
+                v = re.sub(re.escape(mn.upper()), nn.upper(), v); v = re.sub(re.escape(mn[0].upper() + mn[1:]), nn[0].upper() + nn[1:], v)
+                return re.sub(re.escape(mn), nn, v, flags=re.I)
+            if isinstance(v, list): return [sw(y) for y in v]
+            if isinstance(v, dict): return {k: sw(y) for k, y in v.items()}
+            return v
+        S = [sw(x) for x in S]
+        left = [x['id'] for x in S if re.search(re.escape(mn), yaml.dump(x, allow_unicode=True), re.I)]
+        if left: print('MODEL MARKET LEFT in', left); rep.append(('model market', ['name left in ' + ', '.join(left)]))
     D = {k: v for k, v in demo.items() if k != 'slides'}; D['slug'] = Path(a.out).name; D['slides'] = S
     (out / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
     (out / 'sources.yaml').write_text(yaml.dump(sources, allow_unicode=True, sort_keys=False, width=1000))

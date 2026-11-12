@@ -45,7 +45,7 @@ MARKET DEFINITION (it decides what is in or out):
 Categories of companies used in our database: {spec['categories']}
 
 HOW TO ANSWER, FOR EVERY SLIDE
-1. Same structure as the model: same keys, same number of items, same order. Each text about the same length as the model (the target length in characters is given; stay within ±15%), because the text must fit a fixed box.
+1. Same structure as the model: same keys, same number of items, same order. Each text at most the length given in characters (and not much shorter), because it must fit a fixed box: a longer text breaks the slide. Count before you deliver.
    Keep the formatting marks of the model: a line break inside a text is written \\n, and {{1|text}} marks a run in a second style (for example a bold company name followed by normal text). Keep them where the model has them. Keys that hold a single emoji are icons: give one fitting emoji.
 2. Content is about {m} only, written for a smart reader who is not an expert: plain US English, short sentences, no jargon without a word of explanation, no em dash, no exclamation marks.
    Bad: "VLA policies with sim2real transfer cut deployment TCO." Good: "Robot brains trained in simulation now need less work on site, so each robot costs less to set up." (the reader is not an engineer)
@@ -75,7 +75,7 @@ sources:
     quote: <the exact sentence that supports it, under 25 words>
 ```
 
-Before delivering, check yourself, slide by slide: same number of items as the model, every number has a source with a quote, lengths within ±15%, no {ref} words left ({spec['model_words']}), nothing outside the market definition, the same category names everywhere. Fix what fails, then deliver the file. Do not ask questions; take the most reasonable reading and say it in a `comment:` line when needed.
+Before delivering, check yourself, slide by slide: same number of items as the model, every number has a source with a quote, every text within its maximum length, no {ref} words left ({spec['model_words']}), nothing outside the market definition, the same category names everywhere. Fix what fails, then deliver the file. Do not ask questions; take the most reasonable reading and say it in a `comment:` line when needed.
 
 CHAPTER: {chapter}
 
@@ -85,7 +85,7 @@ CHAPTER: {chapter}
 def block(sid, model, src, extra=''):
     e = base.example(model); L = base.ylen(e)
     t = f"### {sid}\n{src} model (structure only):\n```yaml\n{yaml.dump(e, allow_unicode=True, sort_keys=False, width=200)}```\n"
-    if L: t += 'Target lengths in characters per key: ' + ', '.join(f'{k}: ~{v}' for k, v in L.items()) + '\n'
+    if L: t += 'Maximum length in characters per key: ' + ', '.join(f'{k}: {v}' for k, v in L.items()) + '\n'
     if extra: t += extra.strip() + '\n'
     return t + '\n'
 

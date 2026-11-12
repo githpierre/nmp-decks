@@ -1,0 +1,16 @@
+{# Categories of companies, any number of rows (3 to 6): label box -> description box, brace and side text.
+   Same look as x/categorize_companies_market (4 rows), for markets with another number of categories (Humanoid robotics: 5, 12 Nov 2026).
+   data: categories: [{label, description, emoji}], categorization: side text #}
+{% set C = s.categories %}{% set n = C|length %}{% set top = 196 %}{% set span = 382 %}{% set step = span / n %}{% set h = [step - 14, 74]|min %}
+<div class="raw">
+{% for c in C %}{% set y = top + loop.index0 * step + (step - 14 - h) / 2 %}
+<svg class="rx-s" style="left:191.1px;top:{{ y - 9 }}px;width:184.3px;height:{{ h + 18 }}px;filter:drop-shadow(0.0px 2.0px 3.0px rgba(0,0,0,.5))" viewBox="-9 -9 184.3 {{ h + 18 }}"><rect x="0" y="0" width="166.3" height="{{ h }}" rx="12.5" fill="none" stroke="#334D54" stroke-width="1"/></svg>
+<div class="rx-t" data-k="{{ 100 + loop.index0 }}" style="left:200.1px;top:{{ y }}px;width:166.3px;height:{{ h }}px;padding:4.8px 10px;justify-content:center;">{{ rt(c.label, ["text-align:center;line-height:1.380;font-size:9.00pt"], ["font-size:9.00pt;letter-spacing:0.00pt;color:#FFFFFF"], [0, 0], [0, 0]) }}</div>
+<div class="rx-t" data-k="{{ 200 + loop.index0 }}" style="left:192.0px;top:{{ y + 3.6 }}px;width:21.7px;height:30px;padding:0;justify-content:flex-start;">{{ rt(c.emoji, ["text-align:left;line-height:1.200;white-space:nowrap;font-size:14.00pt"], ["font-size:14.00pt;letter-spacing:0.00pt;color:#000000;font-family:Arial,sans-serif"], [0], [0]) }}</div>
+<svg class="rx-s" style="left:356.4px;top:{{ y + h / 2 - 10 }}px;width:45.8px;height:20px" viewBox="-10 -10 45.8 20"><defs><marker id="mcn{{ loop.index }}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#334D54"/></marker></defs><path d="M0 0L25.76 0" fill="none" stroke="#334D54" stroke-width="2" marker-end="url(#mcn{{ loop.index }})"/></svg>
+<svg class="rx-s" style="left:383.2px;top:{{ y - 9 }}px;width:306px;height:{{ h + 18 }}px;filter:drop-shadow(0.0px 2.0px 3.0px rgba(0,0,0,.5))" viewBox="-9 -9 306 {{ h + 18 }}"><rect x="0" y="0" width="288" height="{{ h }}" rx="12.2" fill="none" stroke="#334D54" stroke-width="1"/></svg>
+<div class="rx-t" data-k="{{ 300 + loop.index0 }}" style="left:392.2px;top:{{ y }}px;width:288px;height:{{ h }}px;padding:6px 10px;justify-content:center;">{{ rt(c.description, ["text-align:left;line-height:1.380;font-size:9.00pt"], ["font-size:9.00pt;letter-spacing:0.00pt;color:#E7CDA8"], [0], [0]) }}</div>
+{% endfor %}
+<svg class="rx-s" style="left:684.6px;top:{{ top }}px;width:74px;height:{{ span + 4 }}px" viewBox="-9 -9 74 {{ span + 4 }}"><path d="M0 0Q28 0 28 28V{{ span / 2 - 37 }}Q28 {{ span / 2 - 9 }} 56 {{ span / 2 - 9 }}Q28 {{ span / 2 - 9 }} 28 {{ span / 2 + 19 }}V{{ span - 46 }}Q28 {{ span - 18 }} 0 {{ span - 18 }}" fill="none" stroke="#334D54" stroke-width="1" stroke-dasharray="6 4"/></svg>
+<div class="rx-t" data-k="25" style="left:766.1px;top:{{ top + span / 2 - 86 }}px;width:112.2px;height:154.8px;padding:9.6px;justify-content:center;">{{ rt(s.categorization or '', ["text-align:center;line-height:1.380;font-size:8.00pt"], ["font-size:8.00pt;letter-spacing:0.00pt;color:#789096"], [0], [0]) }}</div>
+</div>
