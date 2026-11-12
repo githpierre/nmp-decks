@@ -1,0 +1,560 @@
+# Claude's rewrites of texts too long for their box (fit passes after the research import). Applied by tools/import_research.py.
+ed009:
+  13: 'In vivo CAR-T sits between three markets: it combines a genetic payload, targeted delivery and living immune cells. Gene therapy brings the vectors, cell therapy the CAR biology, immunology the targets.'
+ed012:
+  35: Lentiviral drugs that make lasting CAR cells
+  37: RNA drugs that make short-lived CAR cells
+  38: Programs aimed at blood and solid tumors
+  39: Programs that reset B-cell autoimmunity
+ed018:
+  25: Here, we categorize by technical approach
+ed020:
+  25: Here, we categorize by how long CAR lasts
+ed022:
+  12: '🌍
+
+    Scalable supply, because off-the-shelf doses skip custom cell making'
+ed023:
+  18: Cell therapy once needed custom manufacturing per patient
+ed027:
+  8: Before that, companies had shown immune-cell engineering in animals, but no human trial had dosed a patient
+  12: In October 2024, Interius dosed the first patient with INT2104, one infusion meant to make CAR cells inside the body
+ed028:
+  6: In 2025, human data began to back in vivo CAR-T, and AbbVie, AstraZeneca, Gilead and BMS bought into it
+  12: Before that, the field was venture-backed platforms and animal data, with first trials starting in late 2024
+ed045:
+  8: We estimate $285 million in 2026. FMI says $180 million, Grand View $341 million and Precedence $861 million for wider scopes. Grand View, adjusted to T cells, is closest to ours.
+ed051:
+  17: '≈35%
+
+    through 2036'
+  19: Clinical supply is tiny, so approvals can lift sales fast, but safety and trial risks stay high. We use 35%, just above the two direct 32% forecasts.
+ed054:
+  8: '2025 - 2026
+
+
+    Early cancer and autoimmune data showed CAR cells can be made inside the body, but durability, redosing and off-target risks remain open'
+ed055:
+  22: In vivo platforms use standard vectors, not custom cell lots
+ed058:
+  title: 'What has been fixed so far,
+
+    and what is left to solve?'
+ed059:
+  16: 'Antigen
+
+    escape'
+  21: 'Pain points change sharply by delivery platform and disease.
+
+
+    Broad statements quickly mislead.
+
+
+    So we split blood cancers, autoimmune disease and solid tumors before scoring priorities.'
+ed060:
+  6: '🎯
+
+
+    GOAL
+
+
+
+    Find the pain points that matter most in in vivo CAR-T, and who feels them.'
+  7: '🏷️
+
+
+    CATEGORIES
+
+
+
+    We split the market by disease, because biology and safety differ.'
+  8: '🧑‍🤝‍🧑
+
+
+    SEGMENTS
+
+
+
+    For each disease, we list the patients, doctors, centers and payers.'
+  9: '😣
+
+
+    PAIN POINTS
+
+
+
+    We list each group''s main pains and score them to rank them.'
+ed062-s1:
+  5: 'In vivo CAR-T for lymphoma, leukemia and myeloma,
+
+    where CAR-T already has clinical proof'
+ed062-s2:
+  5: 'In vivo CAR-T for lupus, myasthenia gravis, multiple
+
+    sclerosis and other B-cell-driven diseases'
+ed062-s3:
+  5: 'In vivo CAR-T for solid cancers, where delivery must
+
+    beat tumor access, diversity and immune suppression'
+ed063-s2:
+  13: They need predictable B-cell depletion, low toxicity and clear rules for drug-free remission
+ed064-s1:
+  14: They need enough CAR cells to grow and last after one dose
+  16: They still face CRS, neurotoxicity and low blood counts
+  17: They need precise T-cell targeting with no off-target hits
+  18: They must treat fast disease before patients decline
+  20: They must prove simple delivery matches ex vivo results
+ed064-s2:
+  14: They must clear harmful cells without wiping out immunity
+  15: They need enough CAR activity to reset immunity, not forever
+  16: They face infections, low antibodies, CRS and toxicity
+  17: They need targets that work across varied autoimmune biology
+  18: They need proof that returning B cells do not relapse
+  19: They need shared definitions of drug-free remission
+  20: They must beat cheaper biologics and long-term immunosuppression
+ed064-s3:
+  14: CAR cells struggle to reach and enter solid tumors
+  15: Tumor cells vary, so one target can miss resistant cells
+  16: The tumor's surroundings can switch CAR-T cells off
+  17: Delivery must make enough CAR cells with no off-target risk
+  18: CAR-T cells may not grow or last inside tumors
+  19: Animal models do not always predict human results
+  20: Developers must beat the thin solid-tumor CAR-T record
+ed091:
+  10: '?
+
+
+
+    Next platforms may combine precise targeting, redosable RNA, durable gene placement, dual-target CARs and outpatient dosing'
+ed095:
+  30: Tumors are hard to reach, varied and immune-suppressive
+ed102:
+  10: Because RNA medicines made lipid particles and their testing widely available
+  12: Because mouse tumor studies are now a routine gate before human trials
+  14: Because regulators and developers already use safety-first dose-escalation trials
+  16: Because cell-killing and gene-delivery assays are now standard lab measures
+  18: Because most programs reuse proven B-cell targets instead of new ones
+  20: Because leading programs already position treatment as an off-the-shelf drip
+ed103:
+  7: Delivery that reaches the right immune cells while sparing other tissues
+  15: CAR designs that clear disease cells without chemotherapy first
+ed104:
+  7: Platforms that tune short or lasting CAR expression for control
+  10: Multi-target CARs built to stop tumors from escaping
+  15: In vivo engineering that reaches macrophages and other immune cells
+ed106-s1:
+  5: RNA-loaded particles that program chosen T cells inside the body
+ed106-s2:
+  5: Lentiviral vectors that create CAR-T cells inside the patient after infusion
+ed106-s3:
+  5: Systems that write the CAR into immune-cell DNA for lasting activity
+ed106-s4:
+  5: Platforms that program macrophages or several immune cell types in the body
+ed108-s2:
+  6: The vector reaches the wrong cells or makes too little CAR. Safety worries force slow dosing. The patient still waits, and the platform loses its access edge.
+ed109-s1:
+  6: '📊
+
+    Teams confirm delivery and B-cell loss'
+  7: '🧪
+
+    A phase 1 trial tests safety and dose'
+  8: '💳
+
+    A buyer funds or buys it'
+  9: '🔍
+
+    Developers compare targeting and safety'
+  10: '📈
+
+    Data de-risk more autoimmune uses'
+  11: '👥
+
+    More centers adopt simple dosing'
+  12: '💉
+
+    Patients get one off-the-shelf infusion'
+  13: '🔁
+
+    New diseases expand the platform'
+ed109-s2:
+  6: '📊
+
+    Teams measure CAR growth and lifespan'
+  7: '🧪
+
+    Phase 1 sets dose, safety and activity'
+  8: '💳
+
+    Partners license or buy it'
+  9: '🔍
+
+    Buyers compare targeting and scale'
+  10: '📈
+
+    Patient data unlock later stages'
+  11: '👥
+
+    New diseases reuse the vector'
+  12: '💉
+
+    One drip replaces cell production'
+  13: '🔁
+
+    Milestones reward each expansion'
+ed109-s3:
+  6: '📊
+
+    Teams confirm placement and lifespan'
+  7: '🧪
+
+    Trials test safety and long follow-up'
+  8: '💳
+
+    Buyers acquire the platform'
+  9: '🔍
+
+    Buyers weigh durability and risk'
+  10: '📈
+
+    Lasting responses add value'
+  11: '👥
+
+    New diseases reuse the vector'
+  12: '💉
+
+    Patients get one lasting infusion'
+  13: '🔁
+
+    Follow-up supports new approvals'
+ed109-s4:
+  6: '📊
+
+    Teams prove myeloid programming'
+  7: '🧪
+
+    Animal tests show tumor entry first'
+  8: '💳
+
+    Partners fund new targets'
+  9: '🔍
+
+    Buyers compare cell types and safety'
+  10: '📈
+
+    Human data validate a new class'
+  11: '👥
+
+    More targets reuse the platform'
+  12: '💉
+
+    Patients get RNA that programs cells'
+  13: '🔁
+
+    Royalties grow with each program'
+ed132:
+  17: It removes cell manufacturing but creates a hard delivery problem inside the body
+  21: Early human data look good, but cohorts are too small to show durability or rare risks
+  23: 'Targeting is part of the drug: genes in the wrong cells cannot be taken back'
+  25: 'A simpler drip does not remove CAR-T biology: CRS and long follow-up still matter'
+  28: Scaling up stays hard because potency, spread in the body and vector quality must hold
+ed133:
+  7: '2021 - 2023
+
+
+
+    In vivo ideas advanced in animals, but selective delivery into T cells and control of vector spread stayed the main hurdle.'
+  9: 'TODAY
+
+
+
+    Human proof is emerging, but developers must still show precise targeting, steady potency, scalable vectors and long-term safety.'
+  10: '2025 - 2026
+
+
+
+    Big pharma deals validated the field, but most programs are in phase 1 or earlier and no product is approved yet.'
+ed136:
+  6: '🎯
+
+    Delivery must reach the right immune cells and avoid the liver'
+  7: '🧬
+
+    Lasting vectors keep CAR cells, but wrong-cell hits can''t be undone'
+  8: '🩺
+
+    CRS and nerve toxicity still need trained teams and rescue care'
+  9: '📊
+
+    Human data are thin, so rare risks and durability are unknown'
+  10: '🏭
+
+    Vector quality must hold as production scales up'
+  11: '💉
+
+    Some programs still need chemo first, losing simplicity'
+  12: '🔎
+
+    Regulators want proof of where the gene goes first'
+  13: '⏳
+
+    Gene-modified cells need years of follow-up'
+ed138:
+  7: '2017 - 2023
+
+
+
+    CAR-T approvals set a path, while gene-therapy rules focused on vector safety and long follow-up.'
+  8: '2024 - 2025
+
+
+
+    The FDA issued CAR-T and editing guidance, warned on T-cell cancers, then dropped CAR-T REMS.'
+  9: '2026
+
+
+
+    The FDA added flexible manufacturing rules, off-target editing guidance and a potency framework.'
+  10: 'TODAY
+
+
+
+    Sponsors must pair CAR-T clinical data with proof of targeting, spread in the body and safety.'
+  11: '?
+
+
+
+    Rules may adapt to platforms, but lasting in-body gene delivery will still need strong safety data.'
+ed140:
+  0: Developers want one off-the-shelf drip with no cell manufacturing
+  7: Regulators want data showing exactly which cells get the gene
+  9: Patients want CAR-T without weeks of manufacturing and travel
+  10: Centers still need systems for CRS and long follow-up
+  12: Developers want lasting CAR expression from a single dose
+  13: Safety teams fear lasting genes make errors permanent
+  18: Investors want fast proof that delivery works in people
+  19: Doctors need slow dose steps in first human trials
+  21: Pharma buyers value platforms across cancer and autoimmunity
+  22: Regulators review each product's payload, target and vector
+  24: Sponsors want to scale it like a standard drug, not a cell
+  25: The FDA still demands tight potency and batch controls
+ed141:
+  10: 'Lasting gene expression helps, but makes
+
+    off-target events permanent'
+  15: 'CAR-T biology can still cause CRS and
+
+    nerve toxicity after infusion'
+  20: 'Tiny early trials show it works, but
+
+    cannot reveal rare long-term risks'
+  25: 'Potency and vector quality must hold
+
+    at commercial scale'
+ed143:
+  0: The FDA asks sponsors to show where the gene goes in the body
+  4: Human cohorts are tiny, so how long CAR cells last is unproven
+  8: CRS and nerve toxicity remain boxed-warning risks for CAR-T
+  12: The FDA expects potency control from design to batch release
+  16: The FDA requires lifelong cancer monitoring after CAR-T
+  20: AbbVie bought Capstan and Lilly is buying Kelonia, pooling the leaders
+  24: Autoimmunity is a big bet, but most human data are still early
+  34: FDA guidance keeps adding potency and off-target requirements
+ed144:
+  4: Weak persistence would break the one-dose promise and force redesigns
+  8: A second-cancer signal could trigger trial holds and years of follow-up
+  16: Manufacturing swings could delay trials and raise costs, but are fixable
+  20: Consolidation would cut startup variety while big pharma keeps going
+  24: An autoimmune miss would shrink the upside, but cancer would remain
+  34: More testing would slow timelines, but clear rules make them predictable
+ed145:
+  5: 'Every CAR-T dose took weeks of
+
+    patient-specific manufacturing'
+  7: 'In vivo platforms make CAR cells
+
+    right after an off-the-shelf drip'
+  8: 'Hospitals needed special FDA REMS
+
+    certification to give CAR-T'
+  10: 'The FDA dropped the REMS rule
+
+    for approved CD19 and BCMA CAR-T'
+  11: 'Early programs had no human proof
+
+    that in vivo CAR-T could work'
+  13: 'Several phase 1 trials now show CAR
+
+    growth and early responses'
+  14: 'The field had little backing
+
+    from large drug companies'
+  16: 'AbbVie and Lilly moved to buy
+
+    leading in vivo platforms'
+  17: 'Developers had no CAR-T-specific
+
+    FDA framework to follow'
+  19: 'The FDA now has CAR-T, editing
+
+    and potency guidance'
+  20: 'CAR-T monitoring rules were built
+
+    for the class''s early unknowns'
+  22: 'The FDA has eased some monitoring
+
+    as real-world experience grew'
+ed147:
+  7: '2018 - 2022
+
+    Mouse studies showed CAR-T cells can be made inside the body. Startups formed around targeted delivery.'
+  8: '2023 - 2024
+
+    Umoja validated VivoVec in primates and Interius dosed a first patient. The field reached humans.'
+  9: '2025
+
+    Trials multiplied. Immorna dosed an mRNA therapy, and AbbVie, AstraZeneca and Kite bought platforms.'
+  10: 'TODAY
+
+    Big pharma is consolidating. Lilly bought Orna and Kelonia, and CREATE raised $122 million.'
+  11: '2025 - 2026
+
+    Autoimmunity joined cancer as a target. Fast Track tags, data and big deals pulled money in.'
+ed149:
+  6: Complex ex vivo factories and weeks of waiting
+  8: In vivo dosing makes CAR cells inside patients
+  9: Chemotherapy before conventional CAR-T
+  11: Several programs now dose without chemo first
+  12: One-time viral vectors as the only real route
+  14: Targeted mRNA, circular RNA and DNA now join
+  15: Small biotech funding as the main capital
+  17: Big pharma deals now fund and validate it
+  18: Cancer-only focus for early CAR-T programs
+  20: Autoimmune programs widen the patient pool
+  21: Mouse data as the main proof of value
+  23: Human dosing and early data now build trust
+ed172:
+  5: '🧬
+
+    Startups using targeted lentiviral vectors in vivo'
+  6: '💧
+
+    Startups using targeted LNPs to deliver CAR mRNA'
+  8: '✂️
+
+    Startups writing CAR genes directly into T cells'
+  9: '🧫
+
+    Startups programming several immune cell types'
+  10: '🩸
+
+    Startups going after blood cancers in vivo'
+  11: '🛡️
+
+    Startups resetting autoimmunity through B cells'
+  12: '🎯
+
+    Startups building multi-target in vivo platforms'
+ed174:
+  7: '2023 - 2024
+
+
+    Platforms went beyond one vector. Interius reached the clinic, and Kelonia and others signed pharma deals on targeted delivery.'
+  9: 'TODAY
+
+
+    Lilly bought Orna and agreed to buy Kelonia. Umoja, MagicRNA and CREATE are pushing their trials forward.'
+ed178:
+  22: Umoja and MagicRNA lead with programs in cancer and autoimmune reset
+  25: Lilly made the biggest strategic bet, through Kelonia and Orna
+ed182:
+  20: AbbVie, Lilly, BMS, Gilead and AstraZeneca now own or back the leading platforms
+ed185:
+  19: In vivo moves treatment to one drip that programs cells inside the patient, with no shipping to a factory
+ed186:
+  7: '🧬
+
+    Kelonia aims to put therapeutic genes straight into chosen T cells'
+  8: '⭕
+
+    Orna aims to use circular RNA to make the body a cell-therapy factory'
+  9: '🩸
+
+    Umoja wants off-the-shelf in vivo CAR-T for cancer and autoimmunity'
+  10: '🧫
+
+    Ensoma aims to program stem cells once to make several CAR cell types'
+  11: '💧
+
+    MagicRNA aims to make targeted LNPs work outside the liver'
+  14: '🎯
+
+    Multi-target programs aim to stop escape by hitting two B-cell markers'
+ed200:
+  9: They fail when repeat doses trigger immunity
+ed206:
+  7: They win by targeting immune cells and sparing others
+ed210:
+  __replace__:
+    A lower-dose fourth patient still achieved MRD negativity at month one: A low-dose fourth patient was MRD-negative at one month
+    Their iGPS platform targets T cells with engineered lentiviral particles: Their iGPS platform targets T cells with a lentivirus
+    They designed KLN-1010 to work without preconditioning chemotherapy: They designed KLN-1010 to work without chemo first
+    They detected memory CAR-T cells through three months in early patients: They found memory CAR-T cells three months later
+    They generate CAR cells briefly and lose them after the first weeks: They make CAR cells that fade after the first weeks
+    They generate anti-BCMA CAR-T cells directly inside the patient: They make anti-BCMA CAR-T cells inside the patient
+    They need chemotherapy before the engineered cells are infused: They need chemotherapy before cells are infused
+    They opened a first-in-human Phase 1 trial in multiple myeloma: They opened a first-in-human trial in multiple myeloma
+    They rely on early biomarkers without showing deep responses: They rely on early markers without deep responses
+    They reported MRD-negative responses across the first four patients: Their first four patients all reached MRD-negative
+    They wait for a bespoke cell product to be manufactured off site: They wait for a custom cell product made off site
+ed211:
+  __replace__:
+    They deliver CAR mRNA straight to CD8 T cells inside the patient: They deliver CAR mRNA straight to CD8 T cells in the body
+    They designed the program to avoid lymphodepleting chemotherapy: They designed the program to avoid chemo before dosing
+    They engineered T cells from several autoimmune patient samples: They engineered T cells from autoimmune patients
+    They made autoimmune disease the lead use case for CPTX2309: They made autoimmunity the lead use of CPTX2309
+    They moved CPTX2309 into Phase 1 in 2025: They moved CPTX2309 into a phase 1 trial in 2025
+    They use antibody-targeted lipid nanoparticles aimed at CD8 cells: They use antibody-guided particles aimed at CD8
+ed212:
+  __replace__:
+    INT2104 targets CD20-positive malignant B cells: INT2104 targets the CD20 marker on cancerous B cells
+    Their lentiviral approach integrates the CAR DNA into the genome: Their lentivirus writes the CAR gene into the genome
+    Their platform is designed around one intravenous administration: Their platform is built around one intravenous dose
+    They build a non-integrating system with short-lived expression: They use a system whose CAR effect fades quickly
+    They deliver a CAR transgene directly to immune cells in the body: They deliver a CAR gene to immune cells in the body
+    They designed INT2104 to avoid preconditioning chemotherapy: They designed INT2104 to skip conditioning chemo
+    They focus on an unproven antigen with little clinical precedent: They chase an unproven target with no track record
+    They require conditioning chemotherapy before CAR-T infusion: They need conditioning chemo before the CAR-T infusion
+    They target CD7-positive T and NK cells with an engineered fusogen: They target CD7 T and NK cells with an engineered fusogen
+ed213:
+  __replace__:
+    AstraZeneca completed its acquisition of EsoBiotec in May 2025: AstraZeneca closed its EsoBiotec deal in May 2025
+    ESO-T01 was administered without lymphodepleting chemotherapy: ESO-T01 was given with no conditioning chemo first
+    ESO-T01 was given without leukapheresis or ex vivo manufacturing: ESO-T01 needed no cell collection or factory step
+    The AstraZeneca deal was worth up to $1 billion: The AstraZeneca deal was worth up to $1 billion in all
+    They deliver the therapy by one intravenous infusion in minutes: They give the therapy as one IV infusion in minutes
+    They rely on repeated infusions to maintain anti-tumor pressure: They rely on repeat infusions to keep tumors in check
+    They use lymphodepletion to make room for infused CAR-T cells: They use chemo to make room for the infused cells
+ed214:
+  __replace__:
+    BMS agreed to pay $1.5 billion in cash at closing: BMS agreed to pay $1.5 billion in cash to buy them
+    Their platform combines RNA engineering with AI-guided design: Their platform pairs RNA engineering with AI design
+    They build CAR-T around a permanent integrated DNA cassette: They build CAR-T around a permanent DNA insert
+    They built one platform across circular RNA, linear RNA and delivery: They built one platform for circular and linear RNA
+    They depend on manufactured CAR-T cells from outside the body: They depend on CAR-T cells made outside the body
+    They enter the clinic before proving tissue-wide B-cell depletion: They enter trials before proving deep B-cell clearance
+    They keep the company independent through IND-enabling work: They stay independent through all pre-trial work
+    They made B-cell-driven autoimmune disease the lead indication: They lead with B-cell-driven autoimmune disease
+    They showed full B-cell depletion in blood, spleen and lymph nodes: They cleared B cells in blood, spleen and lymph nodes
+    They use hand-designed RNA without a broader optimization engine: They hand-design RNA with no optimization engine
+iv_fda:
+  10: 'FAST LANES
+
+
+
+    Fast Track, Breakthrough and RMAT bring more FDA contact, but not less evidence.'
+  11: 'PHASE 3 AND BLA
+
+
+
+    Confirmatory data and proven manufacturing support approval, then long safety follow-up.'

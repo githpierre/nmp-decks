@@ -1,0 +1,43 @@
+# Research import report
+
+145 answers parsed, 0 YAML errors, 39 slides with remarks.
+
+- **ed012**: length 35: 54 vs 35; length 37: 54 vs 31; length 38: 54 vs 37; length 39: 56 vs 35
+- **ed013**: status no_data: No in vivo CAR-T product has a public commercial treatment price yet because the field is still in early clinical development.
+- **ed062-s1**: length 5: 118 vs 91
+- **ed064-s1**: length 16: 70 vs 51; length 17: 73 vs 58; length 18: 74 vs 49
+- **ed062-s2**: length 5: 118 vs 91
+- **ed064-s2**: length 14: 76 vs 59; length 16: 73 vs 51; length 17: 74 vs 58; length 18: 71 vs 49; length 19: 74 vs 54; length 20: 79 vs 61
+- **ed062-s3**: length 5: 129 vs 91
+- **ed064-s3**: length 14: 74 vs 59; length 15: 79 vs 63; length 16: 73 vs 51; length 17: 78 vs 58; length 18: 76 vs 49; length 19: 76 vs 54
+- **ed090**: length 9: 244 vs 180
+- **ed095**: length 30: 80 vs 62
+- **ed102**: length 12: 96 vs 73
+- **ed104**: length 7: 97 vs 72; length 10: 88 vs 69; length 15: 96 vs 75
+- **ed106-s1**: length 5: 103 vs 80
+- **ed109-s1**: length 6: 64 vs 39; length 7: 61 vs 40; length 8: 57 vs 29; length 9: 61 vs 39; length 10: 61 vs 35; length 11: 62 vs 35; length 12: 64 vs 40; length 13: 60 vs 37
+- **ed106-s2**: length 5: 104 vs 80
+- **ed109-s2**: length 6: 60 vs 39; length 7: 66 vs 40; length 8: 67 vs 29; length 9: 69 vs 39; length 10: 67 vs 35; length 11: 63 vs 35; length 12: 67 vs 40; length 13: 61 vs 37
+- **ed106-s3**: length 5: 107 vs 80
+- **ed109-s3**: length 6: 63 vs 39; length 7: 64 vs 40; length 8: 70 vs 29; length 9: 69 vs 39; length 10: 66 vs 35; length 11: 64 vs 35; length 12: 64 vs 40; length 13: 65 vs 37
+- **ed106-s4**: length 5: 102 vs 80
+- **ed109-s4**: length 6: 58 vs 39; length 7: 67 vs 40; length 8: 67 vs 29; length 9: 67 vs 39; length 10: 63 vs 35; length 11: 64 vs 35; length 12: 65 vs 40; length 13: 64 vs 37
+- **ed132**: length 17: 108 vs 79; length 21: 110 vs 84; length 23: 115 vs 81; length 25: 109 vs 86; length 28: 116 vs 83
+- **ed136**: length 7: 103 vs 77; length 8: 99 vs 73; length 10: 96 vs 68; length 11: 100 vs 70; length 12: 99 vs 72; length 13: 103 vs 66
+- **iv_fda**: length 8: 129 vs 102; length 9: 124 vs 92; length 10: 127 vs 101; length 11: 140 vs 111
+- **ed140**: length 0: 82 vs 65; length 7: 88 vs 70; length 9: 85 vs 62; length 10: 89 vs 59; length 12: 85 vs 59; length 13: 91 vs 55; length 18: 91 vs 61; length 19: 92 vs 52; length 21: 85 vs 57; length 22: 93 vs 58; length 24: 88 vs 60; length 25: 86 vs 62
+- **iv_safety**: length 9: 142 vs 112; length 10: 142 vs 106
+- **ed141**: length 10: 86 vs 67; length 15: 81 vs 62; length 25: 80 vs 56
+- **ed143**: length 34: 92 vs 73
+- **ed144**: length 4: 91 vs 70; length 34: 97 vs 71
+- **ed145**: length 5: 77 vs 56; length 7: 88 vs 57; length 8: 82 vs 55; length 10: 78 vs 55; length 11: 83 vs 54; length 13: 83 vs 55; length 14: 84 vs 57; length 16: 77 vs 58; length 17: 79 vs 55; length 19: 86 vs 56; length 20: 86 vs 56; length 22: 89 vs 57
+- **ed172**: length 5: 79 vs 61; length 10: 72 vs 51; length 11: 75 vs 59; length 12: 78 vs 62
+- **ed176**: length 23: 92 vs 123
+- **ed186**: length 9: 94 vs 72; length 11: 85 vs 65; length 14: 93 vs 71
+- **ed190**: status no_data: Public sources do not provide a consistent multi-round valuation history for four independent in vivo CAR-T startups. The available numbers are 
+- **ed192**: status no_data: We could not verify six recent stumble events among strict in vivo CAR-T pure players without mixing in broader cell-therapy companies or compan
+- **ed195**: status no_data: We could not verify six 2025-2026 stumble events among strict in vivo CAR-T pure players. The period is dominated by financings, clinical entrie
+- **ed199p**: status no_data: Public evidence does not support a six-company warning-sign matrix under the brief's strict pure-player rule without importing broader cell-ther
+- **ed201**: status no_data: The brief requires six failed or sharply contracted in vivo CAR-T startups with a documented main cause and outcome. We could not source six qua
+- **ed207**: status no_data: The model needs eight distinct leader mini-cases on one slide. We could not source eight pure-play in vivo CAR-T companies with equally strong, 
+- **ed208**: status no_data: A second set of eight leader mini-cases would require sixteen well-supported pure-player success stories in total. The current clinical market i

@@ -1,0 +1,4458 @@
+market: In Vivo CAR-T
+label: In vivo CAR-T market
+quarter: Q3 2026
+year: 2026
+slug: in-vivo-car-t
+chapters:
+- 'What is this
+
+  market about?'
+- 'Why this
+
+  market now?'
+- 'How big could this
+
+  market get?'
+- 'What are the pain
+
+  points, and for whom?'
+- 'What is the latest tech
+
+  and infrastructure?'
+- 'How is value created
+
+  and monetized?'
+- 'What could slow this
+
+  market down?'
+- 'What are the growth
+
+  drivers in this market?'
+- 'What are investors
+
+  betting on now?'
+- 'Who are the top startups
+
+  and companies?'
+- 'What could kill
+
+  a startup in this market?'
+- 'How do you win
+
+  in this market?'
+scripts:
+- decisions.js
+keep_together:
+- in vivo CAR-T
+- CAR-T
+slides:
+- id: ed001
+  type: cover
+  image: media/cover.jpg
+  big: 'In vivo
+
+    CAR-T'
+  disclaimer: This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.
+  src: 1
+- id: ed002
+  type: x/divider
+  src: 2
+  t:
+    0: 'In this deck, you’ll find numbers, charts, estimates and forecasts. Wherever possible, we’ve included source indications and short notes at the bottom of each slide as well as at the end of this document.
+
+
+      We want to be upfront about our approach. Markets are rarely perfectly measurable, and any attempt to describe them involves assumptions, judgment calls, and points that can be debated. We’re fully aware of that, and we don’t believe in pulling figures out of thin air.
+
+
+      Our goal is to do serious, thoughtful work as close to reality as possible, while being transparent about how we get there. That’s why you’ll frequently see footnotes explaining our reasoning, pointing to sources, or clarifying how a number or conclusion was constructed. We aim to give enough detail to make our thinking clear, without drowning you in unnecessary complexity.
+
+
+      Practically, our process starts with selecting sources we consider credible and authoritative. We rarely rely on a single reference. Instead, we compare multiple independent sources, often linking directly to them, and look for patterns and points of convergence. When several credible sources consistently point in the same direction, that’s where we start to form stronger convictions.'
+    1: INTRO
+- id: ed003
+  type: x/divider_2
+  src: 3
+  t:
+    0: 'Based on those convergences, we sometimes make the effort to quantify what would otherwise remain vague, through percentages, scores, or relative rankings. We’re fully aware that this introduces an element of subjectivity, and we openly acknowledge it. Absolute objectivity doesn’t exist in market analysis, and pretending otherwise would be misleading.
+
+
+      What matters to us is being honest about the nature of the data we present. When something is directional or indicative rather than precise, we clearly state it. We rely on recent sources, update this deck on a quarterly basis, and continuously revisit our assumptions as new information becomes available.
+
+      If anything feels unclear, debatable, or simply doesn’t make sense to you, we genuinely encourage you to reach out. We’re always happy to explain our reasoning in more detail. Ultimately, our goal is that you come away from this presentation feeling informed, confident in the data you’ve seen, and having learned something useful.
+
+      If you have constructive feedback for us, we’d love to hear it. We also make similar decks about other markets, which you can find {1|on our homepage}. And if you want another one, you can always use the code {2|NEWMARKET} to get 20% off (or {2|NEWMARKETMAX} for 30% off if you get 5+ of them).'
+    1: INTRO
+- id: ed004
+  type: agenda
+  section: In vivo CAR-T market
+  current: 0
+  src: 4
+- id: ed005
+  type: agenda
+  section: Market definition
+  current: 1
+  src: 5
+- id: ed006
+  type: definition
+  section: Market definition
+  title: What is the in vivo CAR-T market, in simple terms?
+  text: In vivo CAR-T is the market for medicines that deliver genetic instructions into a patient so their own immune cells become CAR cells inside the body
+  note: We use a conversational definition here because it makes the boundary with conventional ex vivo CAR-T easier to understand.
+  src: 6
+- id: ed007p
+  type: pp_radar
+  section: Market definition
+  pill: MARKET MAP
+  title: Who is in the in vivo CAR-T market, and who stays outside?
+  caption:
+  - Distance to the center reflects how directly a platform creates CAR-engineered immune cells inside the patient, not whether it simply supports cell therapy
+  - The companies shown are a representative sample, not an exhaustive list, chosen to make the market boundary easy to see
+  inside:
+  - media/ini/capstan-therapeutics.png
+  - ../../assets/logos/umoja-biopharma.png
+  - media/ini/kelonia-therapeutics.png
+  - ../../assets/logos/pp/interius.png
+  - media/ini/esobiotec.png
+  - media/ini/orna-therapeutics.png
+  - media/ini/orbital-therapeutics.png
+  - ../../assets/logos/create-medicines.png
+  TL:
+    src: ../../assets/logos/pp/legend-biotech.png
+    name: Legend Biotech
+    text: develops CAR-T, but its established products are manufactured ex vivo; only its newer LVIVO program sits inside this market
+  TR:
+    src: ../../assets/logos/pp/moderna.png
+    name: Moderna
+    text: leads mRNA-LNP drug delivery, but generic RNA delivery alone is outside unless it is used to generate CAR immune cells in vivo
+  BL:
+    src: ../../assets/logos/pp/astrazeneca.png
+    name: AstraZeneca
+    text: is a diversified pharma, yet its 2025 EsoBiotec acquisition gives it a direct in vivo CAR platform and clinical program
+  BR:
+    src: ../../assets/logos/pp/umoja.png
+    name: Umoja
+    text: is centered on VivoVec, a targeted lentiviral platform designed to generate CAR-T cells directly inside patients
+  note: We keep companies inside only when in vivo CAR generation is central to the platform or a documented specialist-source exception applies.
+- id: ed008
+  type: x/markets_often_confused
+  section: Market definition
+  title: What markets are often confused with in vivo CAR-T?
+  src: 8
+  t:
+    7: In vivo CAR-T differs from both because the drug reprograms immune cells inside the patient, rather than shipping finished cells
+    10: Ex vivo CAR-T removes immune cells, engineers them outside the body, then reinfuses the manufactured cells into the patient
+    11: Gene delivery moves DNA or RNA into cells, while in vivo CAR-T uses that delivery specifically to create CAR immune cells
+    12: EX VIVO CAR-T
+    13: IN VIVO CAR-T
+    14: GENE DELIVERY
+  note: 'We separate the market by where CAR engineering happens: outside the patient for ex vivo CAR-T and inside the patient for in vivo CAR-T.'
+- id: ed009
+  type: x/markets_sit_between
+  section: Market definition
+  title: What markets does in vivo CAR-T sit between?
+  src: 9
+  t:
+    8: "GENE\n    DELIVERY"
+    9: CELL<br>THERAPY
+    10: IMMUNO-ONCOLOGY
+    13: 'In vivo CAR-T sits between three markets: it combines a genetic payload, targeted delivery and living immune cells. Gene therapy brings the vectors, cell therapy the CAR biology, immunology the targets.'
+  note: We use these three adjacent markets because most in vivo CAR programs borrow technology, talent, and regulatory thinking from all three.
+- id: ed010
+  type: x/if_break_down_smaller_markets
+  section: Market definition
+  title: And what if we break it down in smaller markets?
+  src: 10
+  t:
+    5: "TARGETED\n    LENTIVIRUS"
+    7: It is in the market because lentiviral particles can place durable CAR genes directly into T cells
+    8: "TARGETED\n    RNA-LNP"
+    10: It is in the market because targeted LNPs deliver temporary CAR mRNA into selected T cells
+    11: "CIRCULAR\n    RNA CAR-T"
+    13: It is in the market because circular RNA can extend CAR expression without integrating a CAR gene
+    14: "IN VIVO\n    GENE EDITING"
+    16: It is in the market when editing or integration creates a CAR program directly inside immune cells
+    17: "OTHER CAR\n    IMMUNE CELLS"
+    19: It is in the market when platforms generate CAR-NK, CAR-myeloid, or other CAR cells in vivo
+    21: IN VIVO CAR-T
+  note: We group the market by the delivery and engineering mechanism because that choice drives persistence, repeat dosing, safety, and manufacturing.
+- id: ed011
+  type: x/some_common_acronyms_i_should
+  section: Market definition
+  title: What are some common acronyms I should know?
+  note: We prioritized acronyms that appear repeatedly in company, clinical-trial, and investor materials rather than very technical vector-engineering terms.
+  src: 11
+  t:
+    4: It is the engineered receptor that lets immune cells recognize a target
+    6: CAR
+    8: "Chimeric Antigen\n    Receptor"
+    9: It is the lipid carrier used to deliver RNA payloads into selected cells in vivo
+    11: LNP
+    12: "Lipid\n    Nanoparticle"
+    13: It is an integrating viral delivery system used by several in vivo CAR programs
+    15: LVV
+    16: "Lentiviral\n    Vector"
+    17: It is the chemotherapy step often used before CAR-T to clear immune cells
+    19: LD
+    20: "Lympho-\n    depletion"
+    21: It is the inflammatory immune reaction monitored closely after CAR-T treatment
+    23: CRS
+    24: "Cytokine Release\n    Syndrome"
+    25: It is a deep-response test showing no detectable cancer at the assay threshold
+    27: MRD
+    28: "Minimal Residual\n    Disease"
+- id: ed012
+  type: x/products_services_sold_market
+  section: Market definition
+  title: What products and services are sold in this market?
+  note: We show representative clinical and preclinical drug programs rather than generic vectors or contract manufacturing, which sit outside our market boundary.
+  src: 12
+  t:
+    6: Cancer programs
+    7: Autoimmune programs
+    8: Viral delivery
+    9: RNA delivery
+    10: UB-VV111
+    11: ESO-T01
+    12: INT2104
+    13: KLN-1010
+    14: JY-231
+    15: LVIVO-TaVec100
+    16: UB-V400/410
+    17: KL-1010
+    18: CPTX2309
+    19: HN2301
+    20: JCXH-213
+    21: GT801
+    22: ORN-252
+    23: OTX-201
+    24: MT-302
+    25: MT-303
+    26: VivoVec
+    27: ENaBL
+    28: iGPS
+    29: Interius LVV
+    30: tLNP platform
+    31: circular RNA
+    32: myeloid CAR
+    33: CAR-NK programs
+    35: Lentiviral drugs that make lasting CAR cells
+    37: RNA drugs that make short-lived CAR cells
+    38: Programs aimed at blood and solid tumors
+    39: Programs that reset B-cell autoimmunity
+- id: ed013
+  type: x/different_price_ranges
+  section: Market definition
+  title: 'What are the different
+
+    price ranges?'
+  note: We show the monthly price that one patient or oncologist pays. Prices come from public price pages and therapy rate guides in 2026, rounded
+  src: 13
+  t:
+    6: '$0-$15
+
+
+      In this range, you will find study platforms and oncologist tools, like Super Capstan or Tessera Plus at about $13 a month'
+    7: '$15-$60
+
+
+      This usually covers AI therapies and therapy subscriptions, like Orna at $20 a month or Interius Plus at $59 a month'
+    8: '$60+
+
+
+      In this range, you will find live human cell therapy, where most private therapies charge $20 to $80 for each hour of dose'
+    10: 💰
+    11: 💰💰
+    12: 💰💰💰
+  tag: NO DATA
+- id: ed014
+  type: cards
+  section: Market definition
+  title: When and where is value created in the market?
+  items:
+  - e: 🎯
+    t: When one IV drug turns a patient’s own T cells into targeted CAR cells
+  - e: ⏱️
+    t: When treatment avoids weeks of personalized cell manufacturing
+  - e: 🧪
+    t: When a vector reaches the intended immune cell and limits off-target delivery
+  - e: 🔁
+    t: When RNA dosing can be repeated to tune CAR exposure over time
+  - e: 🧬
+    t: When integrating delivery creates longer CAR expression from one treatment
+  - e: 🏥
+    t: When patients can avoid leukapheresis and complex centralized logistics
+  - e: 🛡️
+    t: When immune reset is achieved without lymphodepleting chemotherapy
+  - e: 🌍
+    t: When an off-the-shelf drug can expand access beyond specialist CAR-T centers
+  src: 14
+  note: We define value around simplification, targeting, persistence, repeatability, and access because these are the core problems current developers are trying to solve.
+- id: ed015
+  type: x/some_common_myths_about
+  section: Market definition
+  title: What are some common myths about in vivo CAR-T?
+  page: 1/2
+  note: We focused on myths that recur in company, investor, and specialist discussions. The evidence is still early, so these counters describe what has been demonstrated, not what is clinically proven at scale.
+  src: 15
+  t:
+    0: In vivo CAR-T is still only a preclinical idea
+    7: Multiple Phase 1 programs now treat patients with viral or targeted RNA approaches in cancer and autoimmunity
+    9: CAR-T cells cannot be made well inside patients
+    10: KLN-1010 produced CAR-positive cells at 22% to 85% of circulating CD3 T cells around day 15 in its first four patients
+    12: In vivo CAR-T always needs lymphodepletion
+    13: ESO-T01, KLN-1010 and several other programs have generated CAR cells without preparative lymphodepleting chemotherapy
+    15: RNA in vivo CAR-T cannot show clinical activity
+    16: Early HN2301 autoimmune data showed B-cell depletion and lower disease activity after CD19 CAR mRNA-LNP dosing
+    20: 🤥
+    21: 🤥
+    22: 🤥
+    23: 🤥
+- id: ed016
+  type: x/some_common_myths_about_2
+  section: Market definition
+  title: What are some common myths about in vivo CAR-T?
+  page: 2/2
+  note: We focused on myths that recur in company, investor, and specialist discussions. The evidence is still early, so these counters describe what has been demonstrated, not what is clinically proven at scale.
+  src: 16
+  t:
+    0: Big pharma is waiting for the science to mature
+    7: AbbVie paid up to $2.1B for Capstan in 2025, while BMS agreed to pay $1.5B for Orbital later that year
+    9: The market is only about blood cancer
+    10: Programs now target autoimmune disease and solid tumors, including CPTX2309, ORN-252, HN2301 and MT-302
+    12: Only lentiviral vectors are serious
+    13: Clinical pipelines include targeted RNA-LNP programs, while circular-RNA assets have drawn major acquisitions
+    15: Early responses prove durable cures
+    16: ESO-T01 showed responses, but 2026 follow-up found limited persistence and still-scarce clinical data
+    20: 🤥
+    21: 🤥
+    22: 🤥
+    23: 🤥
+- id: ed017
+  type: maturity
+  section: Market definition
+  title: How mature is in vivo CAR-T as a market?
+  score: 28
+  text: The market is real because several programs are in Phase 1 and early patients have generated CAR cells and clinical responses. The score stays low because cohorts are tiny, durability is uncertain, and no in vivo CAR-T product is commercially approved yet.
+  note:
+  - We rate market maturity with a simple internal score based on clinical proof, platform breadth, strategic investment, and commercial readiness.
+  - We set 28/100 because human proof exists, but the field remains early Phase 1 with sparse long-term data and no commercial product.
+  src: 17
+- id: ed018
+  type: x/categorize_companies_market
+  section: Market definition
+  title: How can we categorize companies of the in vivo CAR-T market?
+  page: 1/3
+  note: There are many ways to categorize the field, but these four technical approaches capture most current company strategies and make the competitive map easier to read.
+  src: 18
+  t:
+    7: "TARGETED\n    LNP-mRNA"
+    8: Companies delivering CAR mRNA to immune cells with targeted lipid nanoparticles
+    10: "TARGETED\n    LENTIVIRUS"
+    11: Companies using engineered lentiviral particles to place CAR genes directly into immune cells
+    13: "GENE EDITING +\n    INTEGRATION"
+    14: 🏫
+    15: 🎓
+    16: Companies pursuing durable CAR programs through genome integration or direct editing
+    18: "BEYOND\n    T CELLS"
+    19: Companies programming NK, myeloid, or multiple immune-cell lineages beyond T cells
+    21: 🗣️
+    22: 💼
+    25: Here, we categorize by technical approach
+- id: ed019
+  type: x/categorize_companies_market
+  section: Market definition
+  title: How can we categorize companies of the in vivo CAR-T market?
+  page: 2/3
+  note: We also categorize by disease because oncology and immune reset impose different requirements for dosing, persistence, safety, and acceptable toxicity.
+  src: 19
+  t:
+    7: "BLOOD\n    CANCERS"
+    8: Companies targeting CD19, CD20, BCMA, or CD22 in blood cancers such as myeloma
+    10: "AUTOIMMUNE\n    DISEASE"
+    11: Companies using in vivo CAR-T to deplete B cells and reset immunity in lupus
+    13: "SOLID\n    TUMORS"
+    14: 🧸
+    15: 🎒
+    16: Companies programming CAR immune cells against targets such as TROP2 in solid tumors
+    18: "MULTI-\n    DISEASE"
+    19: Companies building delivery platforms for several payloads, targets, and disease areas
+    21: 📖
+    22: 🧭
+    25: Here, we categorize by the disease being targeted
+- id: ed020
+  type: x/categorize_companies_market
+  section: Market definition
+  title: How can we categorize companies of the in vivo CAR-T market?
+  page: 3/3
+  note: A third useful lens is expression strategy because persistent integrated CAR expression and transient RNA expression create very different risk-benefit and redosing profiles.
+  src: 20
+  t:
+    7: "DURABLE\n    EXPRESSION"
+    8: Companies using integrating vectors to create CAR cells that may persist after one dose
+    10: "TRANSIENT\n    EXPRESSION"
+    11: Companies using mRNA so CAR expression fades and repeat dosing stays controllable
+    13: "EXTENDED RNA\n    EXPRESSION"
+    14: 🏫
+    15: 🏛️
+    16: Companies using circular RNA to extend expression without integrating a CAR gene
+    18: "HYBRID\n    PLATFORMS"
+    19: Companies combining delivery or editing tools to tune persistence and cell specificity
+    21: 🏢
+    22: 🙋
+    25: Here, we categorize by how long CAR lasts
+- id: ed021
+  type: x/top_companies_market
+  section: Market definition
+  title: What do top companies do in this market?
+  note: Other companies could also make the top eight. We chose clinical leaders and strategically important platforms to show the range of approaches shaping the market.
+  src: 21
+  t:
+    7: They lead targeted RNA CAR-T with CPTX2309, now in Phase 1 for autoimmune disease
+    8: CAPSTAN
+    9: They lead BCMA in vivo CAR-T with KLN-1010 and early MRD-negative responses
+    10: KELONIA
+    11: They run VivoVec, with UB-VV111 in Phase 1 and FDA Fast Track in B-cell cancers
+    12: UMOJA
+    13: They built INT2104, an integrating vector creating both CAR-T and CAR-NK cells
+    14: INTERIUS
+    15: They built ENaBL and ESO-T01, one of the first human in vivo CAR-T programs
+    16: ESOBIOTEC
+    17: They built ORN-252, combining circular RNA and LNPs for autoimmune in vivo CAR-T
+    18: ORNA
+    19: They built OTX-201, a circular-RNA CD19 CAR program acquired by BMS for $1.5B
+    20: ORBITAL
+    21: They reported first-in-human MT-302 data for an mRNA-LNP CAR in solid tumors
+    22: CREATE
+- id: ed022
+  type: x/rare_people_happily_pay_market
+  section: Market definition
+  title: What is rare and that people happily pay for in this market?
+  note: We looked at clinical proof, acquisition values, specialist reviews, and company disclosures to identify capabilities that appear genuinely scarce and strategically valuable.
+  src: 22
+  t:
+    6: "\U0001F3AF\n    Precise targeting, because delivery must reach the intended immune cells"
+    7: "\U0001F6E1️\n    Immune shielding, because vectors must survive circulation and keep activity"
+    8: "\U0001F9EC\n    Controlled persistence, because too little expression fails and too much can add risk"
+    9: "\U0001F501\n    Repeat dosing, because nonintegrating RNA programs may need redosing"
+    10: "\U0001F3E5\n    No lymphodepletion, because simpler conditioning can widen patient access"
+    11: "\U0001F4C8\n    Human proof, because early cohorts now separate clinical platforms from concepts"
+    12: '🌍
+
+      Scalable supply, because off-the-shelf doses skip custom cell making'
+    13: "\U0001F9E9\n    Platform breadth, because buyers value delivery systems that carry many payloads"
+- id: ed023
+  type: x/learning_truths_have_flipped
+  section: Market definition
+  title: Which in vivo CAR-T truths have flipped?
+  note: These are directional market shifts identified from recent clinical reports, company disclosures, and transactions. They are not formal industry rules, but they recur across the evidence.
+  src: 23
+  t:
+    6: In vivo CAR-T used to be mostly a preclinical delivery concept
+    8: Now several Phase 1 programs have generated CAR cells directly inside human patients
+    10: Viral vectors used to dominate serious in vivo CAR discussions
+    12: Now targeted mRNA-LNP and circular-RNA programs have reached trials and major acquisitions
+    14: CAR-T used to be framed mainly as a cancer treatment
+    16: Now autoimmune immune reset is a major focus for Capstan, Orna, Orbital and others
+    18: Cell therapy once needed custom manufacturing per patient
+    20: Now in vivo developers aim to turn CAR-T into an off-the-shelf injectable drug
+    22: Early value used to sit in preclinical platform claims
+    24: Now human data can move strategy fast, with acquisitions following early clinical validation
+    26: The market used to be led mainly by small independent biotechs
+    28: Now major pharma companies own or partner with leading in vivo CAR platforms
+- id: ed024
+  type: dated
+  section: Market definition
+  title: What has changed (very) recently?
+  page: 1/2
+  items:
+  - d: SINCE 2024
+    t: Umoja won FDA clearance for UB-VV111, a CD19 in situ CAR-T, moving its VivoVec platform from preclinical development into a human Phase 1 program.
+  - d: SINCE 2024
+    t: The first clinical evidence of lentiviral in vivo CAR-T antitumor activity appeared, showing that direct CAR generation inside patients was no longer only a lab concept.
+  - d: SINCE 2025
+    t: AstraZeneca bought EsoBiotec for up to $1 billion after early clinical activity from its targeted lentiviral ENaBL platform put in vivo CAR-T on big pharma radar screens.
+  - d: SINCE 2025
+    t: AbbVie agreed to buy Capstan for up to $2.1 billion, validating targeted RNA-LNP delivery as a strategic route for autoimmune in vivo CAR-T.
+  - d: SINCE 2025
+    t: Kite agreed to buy Interius for $350 million, adding an integrating platform that creates CAR-T cells directly inside patients with one IV infusion.
+  - d: SINCE 2025
+    t: BMS agreed to buy Orbital for $1.5 billion, bringing circular RNA and targeted LNP delivery into the center of the in vivo CAR-T race.
+  note:
+  - We kept the milestones that most changed clinical credibility, platform competition, or strategic ownership in the market.
+  - There is no official timeline, and another analyst could reasonably choose a few different milestones.
+  src: 24
+- id: ed025
+  type: dated
+  section: Market definition
+  title: What has changed (very) recently?
+  page: 2/2
+  items:
+  - d: SINCE 2025
+    t: Early KLN-1010 data showed MRD-negative responses in multiple myeloma while generating CAR-T cells in vivo without preparative chemotherapy, strengthening the case for durable viral delivery.
+  - d: SINCE 2025
+    t: HN2301 early lupus data showed rapid CAR-T generation, B-cell depletion, and lower disease activity, giving targeted RNA-LNP in vivo CAR-T its first autoimmune human proof point.
+  - d: SINCE 2025
+    t: CREATE Medicines reported first-in-human MT-302 data in solid tumors, extending in vivo CAR engineering beyond conventional T-cell blood-cancer programs.
+  - d: SINCE 2026
+    t: Lilly agreed to acquire Orna, bringing circular RNA plus LNP delivery and the ORN-252 autoimmune CAR-T program into a major pharmaceutical company.
+  - d: SINCE 2026
+    t: Lilly also agreed to acquire Kelonia after early KLN-1010 clinical data, adding an integrating lentiviral in vivo CAR platform to its genetic-medicine strategy.
+  - d: SINCE 2026
+    t: 'Longer ESO-T01 follow-up showed both the promise and the limits of the first wave: responses occurred, but persistence was limited and clinical data remain scarce.'
+  note:
+  - We kept the milestones that most changed clinical credibility, platform competition, or strategic ownership in the market.
+  - There is no official timeline, and another analyst could reasonably choose a few different milestones.
+  src: 25
+- id: ed026
+  type: agenda
+  section: Market opportunity
+  current: 2
+  src: 26
+- id: ed027
+  type: x/when_did_market_become_real
+  section: Market opportunity
+  title: When did the in vivo CAR-T market become real?
+  note: We chose 2024 because Interius dosed the first patient in a first-in-human in vivo CAR gene therapy trial, moving the field from preclinical promise into human testing.
+  src: 27
+  t:
+    8: Before that, companies had shown immune-cell engineering in animals, but no human trial had dosed a patient
+    12: In October 2024, Interius dosed the first patient with INT2104, one infusion meant to make CAR cells inside the body
+    13: '2024'
+- id: ed028
+  type: x/when_did_become_hot
+  section: Market opportunity
+  title: When did it become hot?
+  note: We chose 2025 because clinical proof of concept and a wave of strategic acquisitions arrived together, including AbbVie paying $2.1 billion for Capstan.
+  src: 28
+  t:
+    6: In 2025, human data began to back in vivo CAR-T, and AbbVie, AstraZeneca, Gilead and BMS bought into it
+    7: '2025'
+    12: Before that, the field was venture-backed platforms and animal data, with first trials starting in late 2024
+- id: ed029
+  type: x/happened_between
+  section: Market opportunity
+  title: What happened in-between?
+  src: 29
+  t:
+    5: 2019 - 2021
+    6: Umoja and Interius formed around targeted in vivo immune-cell engineering. Capstan followed in 2021 with targeted lipid nanoparticles for RNA delivery.
+    7: 2022 - 2023
+    8: Orbital launched in 2022 and raised $270 million in 2023. Umoja showed durable in vivo CAR-T generation and B-cell depletion in primates.
+    9: Early 2024
+    10: Umoja published primate data showing CAR-positive T cells and durable B-cell depletion. Multiple platforms prepared to move into human studies.
+    11: Oct - Dec 24
+    12: Interius dosed the first patient with INT2104 in October. EsoBiotec then launched a clinical trial of its in vivo BCMA CAR-T candidate ESO-T01.
+    13: 🖥️
+    14: 📺
+    15: 🎓
+    16: 🏠
+  note: We traced the commercial build-up from specialist platform formation to animal proof of concept and then the first human dosing.
+- id: ed030
+  type: x/happened_since_then
+  section: Market opportunity
+  title: And what happened since then?
+  src: 30
+  t:
+    5: Early 2025
+    6: EsoBiotec reported early human activity and AstraZeneca bought it for up to $1 billion. Capstan entered Phase 1 with an RNA-LNP autoimmune program.
+    7: '2025'
+    8: AbbVie bought Capstan for $2.1 billion, Gilead bought Interius for $350 million, and BMS agreed to buy Orbital for $1.5 billion.
+    9: '2026'
+    10: Lilly agreed to buy Kelonia for $3.25 billion upfront. KLN-1010 later showed MRD negativity in all 18 evaluable myeloma patients.
+    11: TODAY
+    12: The market is still early, but clinical proof and pharma demand are converging. New programs span viral, RNA-LNP and circular-RNA approaches.
+    13: 📉
+    14: 🏦
+    15: 🤖
+    16: 🧠
+  note: 'We focus on the acceleration after the first human dosing: clinical readouts, major acquisitions, and larger pharma commitments through 2026.'
+- id: ed031
+  type: x/usually_why_people_get_excited
+  section: Market opportunity
+  title: Usually, why do people get excited about this market?
+  src: 31
+  t:
+    6: "\U0001F489\n    One IV dose could replace weeks of cell manufacturing"
+    7: "\U0001F3E5\n    No apheresis could move CAR-T beyond specialist centers"
+    8: "⚡\n    In-body engineering could cut treatment time dramatically"
+    9: "\U0001F9EC\n    Viral and RNA platforms can target several immune cells"
+    10: "\U0001FA7A\n    Some programs avoid lymphodepleting chemotherapy"
+    11: "\U0001F4CA\n    Early myeloma data show deep responses in small cohorts"
+    12: "\U0001F4B0\n    Pharma has paid billions to acquire leading platforms"
+    13: "\U0001F501\n    Cancer and autoimmunity offer two paths to scale"
+  note: 'We selected the recurring reasons cited by developers, buyers and clinical investigators: simpler delivery, broader access, strong early activity and platform flexibility.'
+- id: ed032
+  type: x/signals_suggest_market_hot_right
+  section: Market opportunity
+  title: What signals suggest the market is hot right now?
+  note: We selected seven recent signals that combine clinical validation, financing and strategic demand. They show momentum without implying that the field is clinically mature.
+  src: 32
+  t:
+    5: Kelonia showed MRD negativity in all 18 patients
+    6: '1'
+    7: Lilly agreed to pay $3.25B upfront for Kelonia
+    8: '4'
+    9: AbbVie paid $2.1B for RNA-LNP developer Capstan
+    10: '2'
+    11: BMS paid $1.5B for circular-RNA player Orbital
+    12: '3'
+    13: J&J paid $785M upfront for an option on Sail
+    14: '5'
+    15: Create Medicines raised $122M for in vivo cell therapy
+    16: '6'
+    19: Umoja won FDA Fast Track status for UB-VV111
+    20: '7'
+- id: ed039p
+  type: pp_trends
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'CAR-T searches have
+
+    more than quadrupled'
+  csv: decks/invivo-demo/media/trends/car-t.csv
+  term: CAR-T
+  date: Lately.
+  expl: After the Covid rush, interest in in vivo therapy slowly faded for years. Then free AI therapies got good enough for everyday dosing help, and millions of caregivers and patients went looking for new ways to learn online.
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We also corrected the curve for a jump in Google's counts that happened in August 2025
+  signal: google-trends
+  tag: REAL CURVE · TEXT DEMO
+- id: ed040
+  type: agenda
+  section: Market size
+  current: 3
+  src: 40
+- id: ed041
+  type: x/counts_as_doesn_t
+  section: Market size
+  title: What counts as in vivo CAR-T, and what doesn’t?
+  note: We count therapeutic vectors and nanocarriers that create CAR-engineered immune cells inside the patient, and exclude ex vivo cell manufacturing and generic suppliers.
+  src: 41
+  t:
+    7: We define in vivo CAR-T as therapies that deliver CAR instructions or editing machinery into the body so immune cells are engineered inside the patient
+    8: We include targeted lentiviral, LNP-RNA, circular-RNA, DNA, hybrid, and in vivo editing platforms that directly generate CAR immune cells
+    9: We exclude ex vivo CAR-T products, generic vector suppliers, CDMOs, research-only tools, and programs where in vivo CAR is only peripheral
+    12: ✅
+    13: ❌
+    14: 🎓
+- id: ed042
+  type: estimates
+  section: Market size
+  title: What are the market size estimates from different sources online?
+  rows:
+  - firm: Precedence\nResearch
+    value: $ 861 M
+    comment: Their 2026 figure uses a broad in vivo CAR-T market definition across development stages. We treat it as the high end of our range.
+  - firm: Future Market\nInsights
+    value: $ 180 M
+    comment: Their scope is narrow and revenue-based, centered on administered vectors, nanocarriers, and clinical supply. We use it as the low case.
+  - firm: Grand View\nResearch
+    value: $ 341 M
+    comment: Their figure covers the broader in vivo cell-therapy market, not only CAR-T. We use it as a cross-check, then adjust for T-cell share.
+  - firm: Metic.\nNext
+    value: $ 500–800 M
+    comment: Their 2026 range includes development spending, acquisitions, partnerships, manufacturing, and clinical supply. We use it only as an upper bound.
+  note:
+  - We take each estimate from the firm’s website and adjust when its definition is broader or narrower than ours
+  - We prioritize current 2026 estimates and separate therapy revenue from financing, acquisitions, and other non-market transactions
+  src: 42
+- id: ed043
+  type: x/our_own_first_principles_bottom
+  section: Market size
+  title: Our own first-principles, bottom-up calculation of the market size
+  page: 1/2
+  note: We triangulate current market reports, then strip out M&A and other financing and use broader in vivo cell-therapy data only as a cross-check.
+  src: 43
+  t:
+    0: We exclude M&A and licensing because those are financing, not therapy revenue
+    2: We start with FMI at $180 million in 2026, the narrowest direct estimate
+    3: We check Grand View’s broader $341 million in vivo cell-therapy estimate
+    6: We take the scope-adjusted midpoint, about $285 million for 2026
+    7: We derive $284 million by taking 83.2% of Grand View’s $341 million
+    8: We compare Precedence, which puts 2026 at $861 million
+    9: We treat Meticulous Next’s $0.5–0.8 billion as a broad upper range
+    14: We begin from trial-supply revenue because no in vivo CAR-T has an approved label
+    15: We exclude ex vivo CAR-T, CDMOs, generic vectors, and downstream care
+    16: We count administered vector or nanocarrier products and clinical supply
+    21: We explain our estimate using only market data we can reconcile
+- id: ed044
+  type: x/our_own_first_principles_bottom_2
+  section: Market size
+  title: Our own first-principles, bottom-up calculation of the market size
+  page: 2/2
+  note: We land near the T-cell share of Grand View’s broader market, while keeping FMI as the narrow case and Precedence as the high case.
+  src: 44
+  t:
+    0: We conclude that in vivo CAR-T is worth about $285 million today
+    2: We round to one simple number that stays easy to check and defend
+    3: We check that T cells are 83.2% of broader in vivo cell therapy
+    6: We note hematologic malignancies were 60% of 2025 market value
+    7: We keep 2026, the current year with fresh estimates from each source
+    8: We check FMI’s 2026 figure of $180 million as the narrow case
+    9: We note there are no approved products yet, so trial supply drives revenue
+    14: We check Precedence, which gives $861 million under a broader scope
+    15: We note public estimates diverge because definitions are still unsettled
+    16: We add Grand View’s $341 million broader in vivo cell-therapy estimate
+    21: We add SNS Insider at $283 million for the broader in vivo cell market
+- id: ed045
+  type: x/much_worth_today
+  section: Market size
+  title: How much is in vivo CAR-T worth today?
+  src: 45
+  t:
+    4: '2026'
+    6: $285M
+    8: We estimate $285 million in 2026. FMI says $180 million, Grand View $341 million and Precedence $861 million for wider scopes. Grand View, adjusted to T cells, is closest to ours.
+  note: We use a scope-adjusted estimate rather than a simple average because public sources count very different things in this pre-commercial market.
+- id: ed046
+  type: compare
+  section: Market size
+  title: How does it compare to other markets?
+  rows:
+  - name: In vivo CAR-T
+    v: 0.285
+    hl: true
+  - name: NK cell therapy
+    v: 0.32
+  - name: In vivo cell therapy
+    v: 0.341
+  - name: Gene therapy
+    v: 4.22
+  - name: mRNA therapeutics
+    v: 6.85
+  - name: CAR-T therapy
+    v: 6.9
+  - name: T-cell therapy
+    v: 9.7
+  note:
+  - We compare 2026 global market estimates in USD billions, using the latest public estimate available for each category
+  - In vivo CAR-T remains tiny beside established CAR-T and gene therapy because its revenue is still mainly trial and clinical supply
+  src: 46
+- id: ed047p
+  type: pp_donutv
+  variant: B
+  section: Market size
+  title: How is the in vivo CAR-T market split between its categories?
+  cats:
+  - name: Targeted viral vectors
+    p: 53
+    logos: []
+  - name: Targeted LNPs
+    p: 29
+    logos: []
+  - name: Extracellular vesicles
+    p: 2
+    logos: []
+  - name: Undisclosed delivery
+    p: 16
+    logos: []
+  - name: Other disclosed routes
+    p: 0
+    logos: []
+  note:
+  - We use the global clinical-pipeline delivery mix as a proxy because there are still no approved in vivo CAR-T product sales to split
+  - 'The source counts 45 clinical-stage pipelines: 24 viral, 13 LNP, one extracellular-vesicle program, and seven undisclosed'
+- id: ed048
+  type: x/behind_these_categories
+  section: Market size
+  title: What is behind these categories?
+  src: 48
+  t:
+    4: Lentiviral particles target immune cells and insert CAR instructions, usually creating durable CAR expression inside patients
+    5: VIRAL CAR VECTORS
+    7: Lipid nanoparticles that deliver CAR mRNA or circular RNA into immune cells for transient, repeatable CAR expression in vivo
+    8: LNP-RNA DELIVERY
+    9: Bioinspired vesicles carry CAR-encoding nucleic acids into immune cells and offer an early nonviral delivery route
+    10: EV PLATFORMS
+    11: 🏫
+    12: 💼
+    13: 🎓
+    14: Clinical programs that disclose an in vivo CAR candidate but have not publicly identified the exact delivery technology yet
+    15: UNNAMED DELIVERY
+    16: The cited pipeline reports no other disclosed delivery class beyond viral vectors, LNPs, and vesicles
+    17: OTHER ROUTES
+    18: 🗣️
+    19: 📝
+  note: We describe the same delivery buckets used in the clinical-pipeline proxy on the previous slide, not a sales split.
+- id: ed049
+  type: worldmap
+  section: Market size
+  title: Where in the world is in vivo CAR-T money spent?
+  regions:
+    na:
+      pct: 50
+      text: North America leads because the US concentrates major developers, trial sites, acquisitions, and specialist cell-therapy infrastructure. Precedence puts the region at 50% of 2025 value.
+    eu:
+      pct: 25
+      text: Europe is the second-largest region, with strong biotech research, specialist hospitals, and active platform development. Precedence estimates about 25% of 2025 value.
+    apac:
+      pct: 15
+      text: Asia-Pacific holds about 15% today but is the fastest-growing region. China has an expanding in vivo CAR-T trial base and a large domestic cell-therapy ecosystem.
+    latam:
+      pct: 7
+      text: We estimate Latin America at about 7% by allocating the residual share using the broader 2025 CAR-T regional mix, where Latin America is much larger than MEA.
+    mea:
+      pct: 3
+      text: We estimate Middle East and Africa at about 3% using the same residual method. Advanced cell-therapy infrastructure remains concentrated in a small number of Gulf and Israeli centers.
+  note:
+  - We use Precedence’s direct in vivo shares for North America, Europe, and Asia-Pacific, then split the remaining 10% using the broader CAR-T ratio for Latin America versus MEA
+  src: 49
+- id: ed050
+  type: x/growth_rate_estimates_from_different
+  section: Market size
+  title: What are the growth rate estimates from different sources online?
+  note: We use direct in vivo CAR-T forecasts first, then broader in vivo cell-therapy forecasts only as an upside check because their definitions are wider than ours.
+  src: 50
+  t:
+    5: '≈ 32.2%
+
+      through 2036'
+    6: 'Future Market
+
+      Insights'
+    7: They forecast growth as trial supply turns into approved-product revenue. We use this as the cautious end of our realistic range.
+    9: '≈ 32.5%
+
+      through 2035'
+    10: 'Precedence
+
+      Research'
+    11: Their direct in vivo CAR-T forecast is almost identical to FMI. We use it to anchor our base case through the next decade.
+    13: '≈ 38–42%
+
+      through 2036'
+    14: 'Metic.
+
+      Next'
+    15: Their range includes broader development spending and deal value. We treat it as an optimistic signal, not our core revenue CAGR.
+    17: '≈ 49.6%
+
+      through 2033'
+    18: 'Grand View
+
+      Research'
+    19: Their forecast covers the wider in vivo cell-therapy market. We use it only to test how fast the category could grow if adoption broadens.
+    24: FIRM
+    25: CAGR
+    26: COMMENTS
+- id: ed051
+  type: x/realistic_cagr_market
+  section: Market size
+  title: What is a realistic CAGR for the in vivo CAR-T market?
+  note: Direct in vivo CAR-T forecasts cluster near 32%, while broader market forecasts run higher. We use 35% as a base case, with 25% and 45% as downside and upside scenarios.
+  src: 51
+  t:
+    15: BEST CASE ≈ 45%
+    16: WORST CASE ≈ 25%
+    17: '≈35%
+
+      through 2036'
+    19: Clinical supply is tiny, so approvals can lift sales fast, but safety and trial risks stay high. We use 35%, just above the two direct 32% forecasts.
+- id: ed052p
+  type: pp_cagr
+  section: Market size
+  title: How much bigger can in vivo CAR-T get?
+  size: 285
+  cagr: 35
+  y0: 2026
+  lead: 'To get that big, '
+  condition: the first products must win approvals around 2029–2030, while safer outpatient dosing and autoimmune expansion move in vivo CAR-T beyond a small group of specialist trial centers.
+  note:
+  - We start from our $285 million 2026 estimate and apply a 35% base-case CAGR, which implies roughly $5.7 billion by 2036
+  - We anchor the timing to public forecasts that expect first approvals around 2029–2030 and broader adoption after early safety and efficacy readouts
+- id: ed053
+  type: agenda
+  section: Pain points
+  current: 4
+  src: 53
+- id: ed054
+  type: x/pain_points_yesterday_vs_today
+  section: Pain points
+  title: What are the pain points of yesterday vs. today?
+  note: 'We grouped the market into clinical phases: ex vivo proof, first in vivo dosing, early human validation, and the current translation bottlenecks. We used recent clinical reports, FDA material, and peer-reviewed reviews.'
+  src: 54
+  t:
+    6: "2017 - 2023\n\n    CAR-T proved it could induce deep responses in blood cancers, but treatment still required leukapheresis, custom manufacturing, lymphodepletion, and specialist centers"
+    7: "2024 - 2025\n\n    In vivo CAR-T began dosing patients directly, removing cell collection and factory expansion, but precise immune-cell targeting and safety control became central risks"
+    8: '2025 - 2026
+
+
+      Early cancer and autoimmune data showed CAR cells can be made inside the body, but durability, redosing and off-target risks remain open'
+    9: "TODAY\n\n    CAR cells can now be made inside patients, but developers must prove precise targeting, persistence, scalable CMC, and durable benefit"
+    10: "?\n\n    Better vectors may make CAR therapy simpler and broader, but solid tumors still add trafficking, antigen heterogeneity, stromal exclusion, and immune suppression"
+- id: ed055
+  type: x/old_problems_now_behind_us
+  section: Pain points
+  title: Which old problems are now behind us?
+  note: We treat these as problems the in vivo model is designed to remove from the workflow. They are not proof that current in vivo products have solved safety, durability, or access at commercial scale.
+  src: 55
+  t:
+    5: Patients needed leukapheresis before a personalized CAR-T product could be made
+    7: In vivo vectors can generate CAR cells directly after one IV dose
+    8: Patient cells had to be shipped away, expanded, tested, and returned
+    10: In vivo dosing removes the ex vivo cell-manufacturing loop
+    11: Manufacturing delays could let aggressive disease worsen while patients waited
+    13: In-body engineering can start without waiting for a custom cell lot
+    14: Each dose depended on collecting and expanding that patient’s T cells
+    16: In vivo platforms use circulating immune cells as starting material
+    17: CAR-T access depended on centers able to manage bespoke logistics
+    19: A drug-like infusion could simplify delivery and monitoring
+    20: Ex vivo production varied with each patient’s starting cell quality
+    22: In vivo platforms use standard vectors, not custom cell lots
+    23: 🟢
+    24: 🟢
+    25: 🟢
+    26: 🟢
+    27: 🟢
+    28: 🟢
+- id: ed056
+  type: x/problems_all_players_face
+  section: Pain points
+  title: What problems do all players face?
+  page: 1/2
+  note: We kept the translation problems that recur across recent in vivo CAR-T reviews and human studies. We skipped generic development issues and focused on problems specific to delivering and controlling CAR engineering inside the body.
+  src: 56
+  t:
+    6: "You must hit\n    the right T cells"
+    8: "Vectors can hit\n    off-target cells"
+    10: "You need enough\n    CAR expression"
+    12: "RNA CAR levels\n    can fade quickly"
+    14: "Vectors can\n    integrate DNA"
+    16: "You must control\n    immune activation"
+    18: "Redosing can\n    trigger immunity"
+    20: "CRS and ICANS\n    still occur"
+    23: "You need clear\n    biodistribution"
+    25: "Potency must be\n    batch-consistent"
+    27: "You must prove\n    who gets transduced"
+    29: "T-cell targets\n    can vary"
+    31: "You need enough\n    cells to expand"
+    33: "Low persistence\n    limits benefit"
+    35: "You need long\n    safety follow-up"
+    37: "Regulators need\n    new CMC standards"
+- id: ed057
+  type: x/problems_all_players_face_2
+  section: Pain points
+  title: What problems do all players face?
+  page: 2/2
+  note: We separated platform-wide delivery problems from disease biology. The second set becomes especially important once in vivo CAR cells are successfully generated, because clinical benefit still depends on target biology and disease context.
+  src: 57
+  t:
+    6: "You still need\n    the right antigen"
+    8: "Tumors can lose\n    the target antigen"
+    10: "T cells can\n    exhaust quickly"
+    12: "Solid tumors\n    block trafficking"
+    14: "Stroma can\n    exclude CAR cells"
+    16: "Tumors can\n    suppress T cells"
+    18: "Antigens vary\n    within one tumor"
+    20: "Cancer can relapse\n    after response"
+    23: "Autoimmune targets\n    differ by disease"
+    25: "B-cell loss can\n    raise infection"
+    27: "You must tune\n    CAR duration"
+    29: "Endpoints are\n    still evolving"
+    31: "Early cohorts\n    remain small"
+    33: "Long-term benefit\n    stays uncertain"
+    35: "Scale-up remains\n    unproven"
+    37: "Cost savings need\n    real-world proof"
+- id: ed058
+  type: x/has_already_been_fixed_left
+  section: Pain points
+  title: 'What has been fixed so far,
+
+    and what is left to solve?'
+  note: We mapped recurring problems to the groups that would bear the clinical, operational, or financial consequences. Bigger priorities should be interpreted as relative willingness to solve the issue, not measured willingness to pay.
+  src: 58
+  t:
+    7: "Blood cancer\n    care"
+    8: "Autoimmune\n    clinics"
+    9: "Solid tumor\n    care"
+    10: "Patient\n    groups"
+    11: "Regulatory\n    teams"
+    12: "They want direct dosing without\n    weeks of personalized manufacturing"
+    19: "They need proof in-body\n    engineering is precise and safe"
+    26: "They worry about off-target\n    transduction, integration, and immunity"
+    33: "They need CAR cells to persist\n    long enough for durable control"
+    40: "They need monitoring for CRS,\n    neurotoxicity, and malignancy"
+    47: "They need proof simpler delivery\n    produces durable patient value"
+- id: ed059
+  type: x/problems_startups_going_after
+  section: Pain points
+  title: Which problems are startups going after?
+  src: 59
+  t:
+    7: 😤
+    8: 😖
+    9: ☠️
+    10: ⚠️
+    11: "Target\n    T"
+    12: "Off-target\n    risk"
+    13: "CAR\n    persistence"
+    14: "Immune\n    risk"
+    15: "Redose\n    risk"
+    16: 'Antigen
+
+      escape'
+    17: 💥
+    18: "Tumor\n    access"
+    19: "CMC\n    scale-up"
+    21: 'Pain points change sharply by delivery platform and disease.
+
+
+      Broad statements quickly mislead.
+
+
+      So we split blood cancers, autoimmune disease and solid tumors before scoring priorities.'
+  note: We use these eight recurring bottlenecks as a compact map of where in vivo CAR-T developers are concentrating engineering effort. The next slides separate them by disease segment.
+- id: ed060
+  type: x/will_proceed
+  section: Pain points
+  title: How will we proceed?
+  note: We break the market down before scoring because the same platform can create very different clinical value and risk in blood cancers, autoimmune disease, and solid tumors.
+  src: 60
+  t:
+    6: '🎯
+
+
+      GOAL
+
+
+
+      Find the pain points that matter most in in vivo CAR-T, and who feels them.'
+    7: '🏷️
+
+
+      CATEGORIES
+
+
+
+      We split the market by disease, because biology and safety differ.'
+    8: '🧑‍🤝‍🧑
+
+
+      SEGMENTS
+
+
+
+      For each disease, we list the patients, doctors, centers and payers.'
+    9: '😣
+
+
+      PAIN POINTS
+
+
+
+      We list each group''s main pains and score them to rank them.'
+- id: ed061
+  type: x/categories_will_use
+  section: Pain points
+  title: Which categories will we use?
+  note: This categorization follows the three disease segments requested for the deck. They differ enough in target biology, safety tolerance, treatment endpoints, and current clinical maturity to warrant separate pain-point scoring.
+  src: 61
+  t:
+    6: Companies developing in vivo CAR-T for lymphoma, leukemia, and multiple myeloma
+    7: "BLOOD\n    CANCERS"
+    8: Companies developing in vivo CAR-T for lupus, myasthenia gravis, MS, and related disease
+    9: "AUTOIMMUNE\n    DISEASES"
+    10: Companies developing in vivo CAR-T for solid cancers with difficult access and heterogeneous targets
+    11: "SOLID\n    TUMORS"
+    12: ''
+    13: ''
+    14: ''
+    15: ''
+    16: ''
+    17: ''
+- id: ed062-s1
+  type: x/divider_3
+  src: 62
+  t:
+    3: BLOOD CANCERS
+    5: 'In vivo CAR-T for lymphoma, leukemia and myeloma,
+
+      where CAR-T already has clinical proof'
+    6: PAIN POINTS
+  note: We treat blood cancers as the most clinically validated CAR-T setting, but in vivo programs still need to match durability while improving access and workflow.
+- id: ed063-s1
+  type: x/pays_these_learning_tools
+  section: Pain points
+  title: Who needs these in vivo CAR-T therapies?
+  note: We focus on the five groups most exposed to the clinical and operational trade-offs of in vivo CAR-T in hematologic malignancies.
+  src: 63
+  t:
+    5: "RELAPSED\n    LYMPHOMA"
+    7: They need rapid treatment when standard options fail and cannot afford long personalized manufacturing delays
+    8: "REFRACTORY\n    LEUKEMIA"
+    10: They need deep disease control before fast-moving leukemia progresses beyond a safe treatment window
+    11: "MULTIPLE\n    MYELOMA"
+    13: They need durable control after several prior therapies and may relapse after BCMA-directed treatment
+    14: "CELL-THERAPY\n    CENTERS"
+    16: They need simpler logistics, predictable dosing, and safety protocols that fit existing oncology workflows
+    17: "PAYERS AND\n    REGULATORS"
+    19: They need evidence that easier delivery preserves efficacy, controls risk, and creates durable value
+    20: 🏫
+    21: 📋
+    22: 🎒
+    23: 🏛️
+    24: 🏠
+    27: BLOOD CANCERS
+- id: ed064-s1
+  type: x/these_customers_strongest_pain_points
+  section: Pain points
+  title: What are these customers’ strongest pain points?
+  note: We prioritized problems supported by recent human in vivo data and by the known resistance and toxicity profile of CAR-T in hematologic cancers.
+  src: 64
+  t:
+    0: 🤒
+    7: 🤒
+    8: 🤒
+    9: 🤒
+    10: 🤒
+    11: 🤒
+    12: 🤒
+    13: BLOOD CANCERS
+    14: They need enough CAR cells to grow and last after one dose
+    15: They face relapse when tumors lose or reduce the targeted antigen
+    16: They still face CRS, neurotoxicity and low blood counts
+    17: They need precise T-cell targeting with no off-target hits
+    18: They must treat fast disease before patients decline
+    19: They need durable responses, not only early tumor shrinkage
+    20: They must prove simple delivery matches ex vivo results
+- id: ed065-s1
+  type: priority
+  section: Pain points
+  title: Which pains deserve attention first?
+  subtitle: Blood cancers
+  icons:
+  - 🧑
+  - 🩺
+  - 🏥
+  - 💳
+  - 🧪
+  rows:
+  - pain: They need enough CAR cells to expand and persist after one dose
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: Tumors can escape by losing or reducing the target antigen
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: CRS, neurotoxicity, and hematotoxicity still require control
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: In vivo vectors must avoid unsafe off-target transduction
+    s:
+    - 2
+    - 3
+    - 3
+    - 2
+    - 3
+    p: MAJOR
+  - pain: Fast disease can worsen before treatment is delivered
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+    p: HIGH
+  - pain: Early responses must translate into durable disease control
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  - pain: Simpler delivery must match the efficacy of ex vivo CAR-T
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  note:
+  - Every stakeholder is different, and this table is a simplified view based on clinical studies and recent reviews
+  - It gives a starting point, not a checklist, so priorities should be validated with patients, clinicians, and trial teams
+  src: 65
+- id: ed062-s2
+  type: x/divider_3
+  src: 62
+  t:
+    3: AUTOIMMUNE DISEASES
+    5: 'In vivo CAR-T for lupus, myasthenia gravis, multiple
+
+      sclerosis and other B-cell-driven diseases'
+    6: PAIN POINTS
+  note: We treat autoimmune disease separately because the goal is immune reset rather than tumor eradication, changing the desired depth, duration, and safety profile of CAR activity.
+- id: ed063-s2
+  type: x/pays_these_learning_tools
+  section: Pain points
+  title: Who needs these in vivo CAR-T therapies?
+  note: We focus on patients with severe refractory disease and the clinical systems that must balance immune reset against safety and long-term immune competence.
+  src: 63
+  t:
+    5: "REFRACTORY\n    LUPUS"
+    7: They need deep disease control after standard immunosuppression fails or causes unacceptable cumulative burden
+    8: "NEUROLOGIC\n    AUTOIMMUNE"
+    10: They need immune reset without worsening neurologic disability or causing prolonged immune suppression
+    11: "RHEUMATOLOGY\n    TEAMS"
+    13: They need predictable B-cell depletion, low toxicity and clear rules for drug-free remission
+    14: "INFUSION\n    CENTERS"
+    16: They need protocols that can manage CRS, infection risk, immune recovery, and long-term monitoring
+    17: "PAYERS AND\n    REGULATORS"
+    19: They need comparative evidence that a one-time genetic therapy improves outcomes over chronic treatment
+    20: 🏫
+    21: 📋
+    22: 🎒
+    23: 🏛️
+    24: 🏠
+    27: AUTOIMMUNE DISEASES
+- id: ed064-s2
+  type: x/these_customers_strongest_pain_points
+  section: Pain points
+  title: What are these customers’ strongest pain points?
+  note: 'We prioritized the issues that differ most from oncology: how deep to deplete, how long CAR cells should persist, how to preserve immune competence, and how to define a durable immune reset.'
+  src: 64
+  t:
+    0: 🤒
+    7: 🤒
+    8: 🤒
+    9: 🤒
+    10: 🤒
+    11: 🤒
+    12: 🤒
+    13: AUTOIMMUNE DISEASES
+    14: They must clear harmful cells without wiping out immunity
+    15: They need enough CAR activity to reset immunity, not forever
+    16: They face infections, low antibodies, CRS and toxicity
+    17: They need targets that work across varied autoimmune biology
+    18: They need proof that returning B cells do not relapse
+    19: They need shared definitions of drug-free remission
+    20: They must beat cheaper biologics and long-term immunosuppression
+- id: ed065-s2
+  type: priority
+  section: Pain points
+  title: Which pains deserve attention first?
+  subtitle: Autoimmune diseases
+  icons:
+  - 🧑
+  - 🩺
+  - 🏥
+  - 💳
+  - 🧪
+  rows:
+  - pain: Deep depletion must not erase healthy immunity for too long
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: CAR activity must last long enough for immune reset
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: Infection, hypogammaglobulinemia, and CRS require control
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: Targets differ across heterogeneous autoimmune diseases
+    s:
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    p: MAJOR
+  - pain: B-cell return must not immediately restart disease
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    p: MAJOR
+  - pain: Trials need consistent remission and relapse definitions
+    s:
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    p: MAJOR
+  - pain: One-time therapy must beat chronic treatment on patient value
+    s:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+    p: CRITICAL
+  note:
+  - Every stakeholder is different, and this table is a simplified view based on early clinical studies and current reviews
+  - It gives a starting point, not a checklist, so priorities should be validated by disease and patient population
+  src: 65
+- id: ed062-s3
+  type: x/divider_3
+  src: 62
+  t:
+    3: SOLID TUMORS
+    5: 'In vivo CAR-T for solid cancers, where delivery must
+
+      beat tumor access, diversity and immune suppression'
+    6: PAIN POINTS
+  note: We treat solid tumors separately because in vivo delivery does not remove the biological barriers that have limited CAR-T efficacy in solid cancers.
+- id: ed063-s3
+  type: x/pays_these_learning_tools
+  section: Pain points
+  title: Who needs these in vivo CAR-T therapies?
+  note: We focus on the groups that must solve both in vivo engineering and solid-tumor biology before this segment can become a scalable therapeutic market.
+  src: 63
+  t:
+    5: "ADVANCED\n    CANCER PATIENTS"
+    7: They need new options after standard therapies fail, without adding long manufacturing delays or complex logistics
+    8: "SOLID-TUMOR\n    ONCOLOGISTS"
+    10: They need CAR cells that reach tumors, recognize enough cancer cells, and remain active in hostile tissue
+    11: "CELL-THERAPY\n    CENTERS"
+    13: They need dosing and toxicity management that can scale beyond a small number of specialist programs
+    14: "TRIAL\n    DEVELOPERS"
+    16: They need biomarkers that show vector delivery, tumor infiltration, expansion, persistence, and target coverage
+    17: "PAYERS AND\n    REGULATORS"
+    19: They need convincing benefit in a setting where CAR-T has not yet shown broad, durable success
+    20: 🏫
+    21: 📋
+    22: 🎒
+    23: 🏛️
+    24: 🏠
+    27: SOLID TUMORS
+- id: ed064-s3
+  type: x/these_customers_strongest_pain_points
+  section: Pain points
+  title: What are these customers’ strongest pain points?
+  note: We prioritized the barriers most consistently identified in 2025-2026 reviews. Solid tumors combine platform-level in vivo delivery risk with the hardest biological barriers in CAR-T.
+  src: 64
+  t:
+    0: 🤒
+    7: 🤒
+    8: 🤒
+    9: 🤒
+    10: 🤒
+    11: 🤒
+    12: 🤒
+    13: SOLID TUMORS
+    14: CAR cells struggle to reach and enter solid tumors
+    15: Tumor cells vary, so one target can miss resistant cells
+    16: The tumor's surroundings can switch CAR-T cells off
+    17: Delivery must make enough CAR cells with no off-target risk
+    18: CAR-T cells may not grow or last inside tumors
+    19: Animal models do not always predict human results
+    20: Developers must beat the thin solid-tumor CAR-T record
+- id: ed065-s3
+  type: priority
+  section: Pain points
+  title: Which pains deserve attention first?
+  subtitle: Solid tumors
+  icons:
+  - 🧑
+  - 🩺
+  - 🏥
+  - 💳
+  - 🧪
+  rows:
+  - pain: CAR cells struggle to traffic into and infiltrate tumors
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: Antigen heterogeneity lets resistant tumor clones escape
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: The tumor microenvironment suppresses CAR-T function
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: In vivo delivery must create enough cells without off-target risk
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: CAR cells may expand poorly or fail to persist in tumors
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    p: CRITICAL
+  - pain: Preclinical models may not predict human efficacy and safety
+    s:
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    p: MAJOR
+  - pain: Developers must prove durable benefit in solid cancers
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    p: CRITICAL
+  note:
+  - Every stakeholder is different, and this table is a simplified view based on recent solid-tumor CAR-T reviews and early in vivo trials
+  - It gives a starting point, not a checklist, so priorities should be validated by tumor type, target, and delivery platform
+  src: 65
+- id: ed086
+  type: agenda
+  section: Tech and infra
+  current: 5
+  src: 86
+- id: ed087
+  type: x/tech_infra_layers
+  section: Tech and infra
+  title: What are the tech and infra layers?
+  page: 1/2
+  src: 87
+  t:
+    7: LNPs
+    9: VIRUSES
+    10: Targeted lipid particles carry CAR RNA into immune cells without genome integration
+    11: Retargeted lentiviral vectors enter T cells and can make CAR expression durable
+    12: TARGETING
+    13: PAYLOADS
+    14: Surface binders steer vectors toward T-cell markers such as CD3, CD7, or CD8
+    15: CAR RNA or DNA encodes receptors that redirect immune cells to disease targets
+    21: LAYERS
+  note: We grouped the stack from recent reviews of the leading viral and nonviral in vivo CAR delivery approaches.
+- id: ed088
+  type: x/tech_infra_layers_2
+  section: Tech and infra
+  title: What are the tech and infra layers?
+  page: 2/2
+  src: 88
+  t:
+    7: DOSE
+    9: ANALYTICS
+    10: Dose, route, and formulation control how many immune cells are engineered in vivo
+    11: Assays track vector identity, potency, biodistribution, and CAR kinetics
+    12: SCALE
+    13: CLINICS
+    14: Scalable vector manufacturing must hold potency, purity, and batch consistency
+    15: Clinics monitor cytokine release and other acute infusion toxicities
+    21: LAYERS
+  note: We treated dosing, analytical control, manufacturing, and clinical monitoring as infrastructure because each is required for reproducible in vivo engineering.
+- id: ed089
+  type: x/every_layer_carry_same_weight
+  section: Tech and infra
+  title: Does every layer carry the same weight?
+  note: We ranked these layers directionally from recent translational reviews and the first human studies, not from a standardized industry score.
+  src: 89
+  t:
+    6: TARGETING
+    7: DELIVERY
+    8: CARs
+    9: ASSAYS
+    10: DOSE
+    11: CELL ENTRY
+    12: SCALE
+    13: SAFETY
+    14: Determines which immune cells are engineered and limits harmful off-target delivery
+    15: '1'
+    16: '2'
+    17: '3'
+    18: '4'
+    19: '5'
+    20: '6'
+    21: '7'
+    22: '8'
+    24: Controls whether cargo reaches T cells efficiently and lasts long enough to work
+    26: Sets disease target and signaling, but still depends on effective delivery
+    28: Makes potency and biodistribution measurable before programs can scale dosing
+    30: Shapes expansion and toxicity, but cannot rescue poor cell specificity
+    32: Governs uptake after binding, so precise targeting still needs cell entry
+    34: Turns a lab vector into consistent batches once the core biology works
+    36: Can halt development when cytokine, immune, or genome risks outweigh benefit
+    38: RANKING
+- id: ed090
+  type: x/where_80_value_sit
+  section: Tech and infra
+  title: Where does 80% of in vivo CAR-T value sit?
+  note: We treated delivery specificity and persistence control as the main value bottlenecks because recent reviews repeatedly identify them as the core translational constraints.
+  src: 90
+  t:
+    8: "Most value today sits in targeted delivery and cell entry, because vectors must reach the right immune cells while avoiding liver and other tissues.\n\n    Payload design comes next, since RNA is transient while integrating vectors can add durability but also genome risk.\n\n    Winners will pair precise targeting with controllable persistence, scalable CMC, and safety that supports repeatable dosing."
+    9: "\U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\n\n    \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0\
+      \ \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0 \U0001F4B0"
+- id: ed091
+  type: x/has_tech_infra_evolved_over
+  section: Tech and infra
+  title: How has tech and infra evolved over the years?
+  note: We used clinical milestones rather than discovery dates because they show when the enabling technology became usable in people.
+  src: 91
+  t:
+    6: "2017 - 2020\n\n\n    Academic teams showed that targeted viral particles could program CAR T cells directly in animals, establishing the core in vivo concept"
+    7: "2021 - 2023\n\n\n    Startups refined lentiviral, LNP, and fusosome delivery, while MT-302 reached patients as an RNA CAR for myeloid cells"
+    8: "2024 - 2025\n\n\n    Interius dosed INT2104, Umoja entered Phase 1, Capstan started CPTX2309, and large pharma began acquiring leading platforms"
+    9: "TODAY\n\n\n    Multiple Phase 1 programs span cancer and autoimmunity, with early human responses reported for ESO-T01, KLN-1010, and HN2301"
+    10: '?
+
+
+
+      Next platforms may combine precise targeting, redosable RNA, durable gene placement, dual-target CARs and outpatient dosing'
+- id: ed092
+  type: x/were_latest_tech_infra_developments
+  section: Tech and infra
+  title: What were the latest tech and infra developments?
+  page: 1/2
+  note: We prioritized milestones with direct clinical or platform consequences, using company releases and trial records where available.
+  src: 92
+  t:
+    13: '2023'
+    14: MT-302 dosed its first patient, taking an mRNA-LNP CAR that programs myeloid cells into a Phase 1 solid-tumor study
+    15: '2024'
+    16: Interius dosed INT2104, a targeted lentiviral therapy that generates CD20 CAR-T and CAR-NK cells inside patients
+    17: '2024'
+    18: Umoja received FDA clearance for UB-VV111, moving its CD19 VivoVec in situ CAR-T platform into a Phase 1 trial
+    19: '2025'
+    20: Capstan started Phase 1 testing of CPTX2309, a CD8-targeted LNP carrying mRNA for a CD19 CAR in autoimmunity
+    21: '2025'
+    22: AstraZeneca acquired EsoBiotec for up to $1 billion, adding its targeted ENaBL lentiviral in vivo cell platform
+    23: '2025'
+    24: Kite agreed to buy Interius for $350 million, adding its integrating single-infusion in vivo CAR platform
+- id: ed093
+  type: x/were_latest_tech_infra_developments_2
+  section: Tech and infra
+  title: What were the latest tech and infra developments?
+  page: 2/2
+  note: We used peer-reviewed clinical reports and company releases to capture the most consequential 2026 technology milestones.
+  src: 93
+  t:
+    13: '2026'
+    14: Nature Medicine reported ESO-T01 human data, showing four responses among five treated multiple-myeloma patients
+    15: '2026'
+    16: Kelonia reported six early KLN-1010 patients all responded and were MRD-negative in marrow at month one
+    17: '2026'
+    18: Lilly agreed to acquire Orna, adding circular-RNA LNPs and a clinical-ready CD19 in vivo CAR-T for autoimmunity
+    19: '2026'
+    20: Sana showed SG293 produced CAR-T cells and deep B-cell depletion in primates without lymphodepleting chemotherapy
+    21: '2026'
+    22: Umoja received FDA clearance for UB-VV400, adding a CD22-directed program to its clinical in vivo CAR-T pipeline
+    23: '2026'
+    24: Lilly agreed to acquire Kelonia, adding its targeted integrating lentiviral platform and Phase 1 KLN-1010 program
+- id: ed094
+  type: x/solvable_bottlenecks
+  section: Tech and infra
+  title: What are the solvable bottlenecks?
+  note: We selected bottlenecks repeatedly identified in 2026 delivery reviews and early human studies as technically addressable but not yet broadly solved.
+  src: 94
+  t:
+    5: Vectors can still reach the wrong tissues, so the field needs tighter immune-cell targeting
+    7: "CELL\n    TARGETING"
+    9: Nonviral particles often favor liver uptake instead of the immune cells developers want
+    11: "LIVER\n    UPTAKE"
+    13: Viral particles can trigger immune responses that reduce usable exposure
+    15: "VIRAL\n    IMMUNE"
+    17: Short-lived RNA may fade too quickly, while durable vectors raise other safety tradeoffs
+    19: "CAR\n    PERSISTENCE"
+    22: Integrating vectors can create durable CAR cells but raise genome-safety risks
+    24: "INTEGRATION\n    RISK"
+    26: Vector products must keep identity, potency, purity, and batch consistency
+    28: "BATCH\n    CONSISTENCY"
+    30: Solid tumors block immune-cell access and suppress engineered cells after arrival
+    32: "SOLID\n    TUMORS"
+    34: Neutralizing immunity can limit later doses, especially with viral platforms
+    36: "DOSE\n    AGAIN"
+    38: EXPLANATION
+    39: BOTTLENECK
+    40: EXPLANATION
+    41: BOTTLENECK
+- id: ed095
+  type: x/solvable_bottlenecks
+  section: Tech and infra
+  title: Why can’t we solve them yet?
+  note: We tied each reason to known vector biology rather than assuming a single engineering change can solve the full problem.
+  src: 95
+  t:
+    5: Cell markers overlap, and binding alone does not ensure selective entry
+    7: "CELL\n    TARGETING"
+    9: LNP chemistry shapes organ tropism, and shifting exposure from liver is hard
+    11: "LIVER\n    UPTAKE"
+    13: Patients can recognize vector proteins, making repeat exposure less predictable
+    15: "VIRAL\n    IMMUNE"
+    17: Transient cargo can stop, while durable integration is harder to reverse or tune
+    19: "CAR\n    PERSISTENCE"
+    22: Integration is stochastic, so teams must track insertion sites and clonal expansion
+    24: "INTEGRATION\n    RISK"
+    26: Process changes can alter vector potency, tropism, particle quality, and dose
+    28: "BATCH\n    CONSISTENCY"
+    30: Tumors are hard to reach, varied and immune-suppressive
+    32: "SOLID\n    TUMORS"
+    34: Adaptive immunity can neutralize later doses before vectors reach target cells
+    36: "DOSE\n    AGAIN"
+    38: REASON WHY
+    39: BOTTLENECK
+    40: REASON WHY
+    41: BOTTLENECK
+- id: ed096
+  type: x/when_realistically_expect_solve_them
+  section: Tech and infra
+  title: When can we realistically expect to solve them?
+  note: We base these estimates on the field's current Phase 1 status and known safety follow-up needs; they are directional rather than consensus forecasts.
+  src: 96
+  t:
+    5: Human biodistribution can refine targeting, but broad specificity proof needs trials
+    7: "CELL\n    TARGETING"
+    9: Better ionizable lipids can redirect exposure, but human tropism data remain limited
+    11: "LIVER\n    UPTAKE"
+    13: Shielding can reduce immunity, but repeat dosing still needs human proof
+    15: "VIRAL\n    IMMUNE"
+    17: Cargo can tune duration, but durable control must balance efficacy and reversibility
+    19: "CAR\n    PERSISTENCE"
+    22: Safer integration designs and long follow-up help, but rare events require years to exclude
+    24: "INTEGRATION\n    RISK"
+    26: Analytics can standardize batches, but scale-up must preserve potency and tropism
+    28: "BATCH\n    CONSISTENCY"
+    30: Combination designs may help trafficking, but solid tumors need more than delivery
+    32: "SOLID\n    TUMORS"
+    34: Redosable particles look feasible, but repeated human exposure must prove safety
+    36: "DOSE\n    AGAIN"
+    38: WHY THIS TIMELINE
+    39: BOTTLENECK
+    40: WHY THIS TIMELINE
+    41: BOTTLENECK
+    42: '2029'
+    43: '2029'
+    44: '2030'
+    45: '2029'
+    46: '2032'
+    47: '2029'
+    48: '2032'
+    49: '2030'
+- id: ed097
+  type: x/bold_bets_could_reshape_learning
+  section: Tech and infra
+  title: Which bold bets could reshape in vivo CAR-T?
+  note: We grounded the bets in current platform directions such as autoimmune immune reset, multilayer targeting, dual-antigen CARs, and delivery without lymphodepletion.
+  src: 97
+  t:
+    7: It is one infusion that resets pathogenic B cells in autoimmunity without cell manufacturing
+    9: ONE-SHOT RESET
+    10: It is durable in vivo CAR-T given without lymphodepletion or bespoke cell processing
+    12: NO-CHEMO CAR-T
+    13: It programs T, NK, or myeloid cells in vivo to attack disease in complementary ways
+    15: MULTILINEAGE CAR
+    16: It is in vivo CAR that works in solid tumors despite trafficking and immune suppression
+    18: SOLID-TUMOR CAR
+    19: It is redosable RNA delivery that can tune the depth and duration of immune reset
+    21: REDOSABLE RNA CAR
+    22: It is gene editing inside the body that places a CAR only in the intended immune-cell population
+    24: GENE EDITING
+    25: It is one in vivo product that attacks two antigens to reduce target escape
+    27: DUAL-TARGET CAR
+    28: It is a standardized infusion with predictable toxicity that can move into outpatient care
+    30: OUTPATIENT CAR-T
+    33: "NEAR-TERM HORIZON\n    (0-5 YEARS)"
+    34: "LONG-TERM HORIZON\n    (5-10 YEARS)"
+- id: ed098
+  type: x/companies_working_groundbreaking_tech_today
+  section: Tech and infra
+  title: Which companies are working on groundbreaking tech today?
+  src: 98
+  t:
+    6: They target CD8 T cells with CAR mRNA LNPs for autoimmune immune reset
+    8: CAPSTAN TX
+    9: They use VivoVec lentiviral particles to generate CAR-T cells directly in vivo
+    11: UMOJA BIOPH
+    12: They use CD7-targeted vectors to generate CAR-T and CAR-NK cells in patients
+    14: IBIO
+    15: They use iGPS lentiviral particles to place durable CAR programs into T cells in vivo
+    17: KELONI
+    18: 🚀
+    19: 🚀
+    20: 🚀
+    21: 🚀
+    22: They built immune-shielded ENaBL vectors that generated BCMA CAR-T cells in patients
+    24: ESOBI
+    25: They pair circular RNA with immunotropic LNPs to build in vivo CAR-T programs
+    27: ORNA THER
+    28: They develop CD8-targeted fusosomes for in vivo CD19 and BCMA CAR-T
+    30: SANA.
+    31: They program immune cells in vivo with mRNA-LNP CARs for solid tumors
+    33: CREATE TX
+    34: 🚀
+    35: 🚀
+    36: 🚀
+    37: 🚀
+  note: We selected companies with differentiated delivery systems and current clinical or advanced preclinical programs inside the market definition.
+- id: iv_pipeline
+  type: x/likely_each_risk
+  section: Tech and infra
+  title: Where are in vivo CAR-T programs in the clinic?
+  note: We list eight representative Phase 1 programs because the slide has eight fixed rows; additional registered programs exist outside this layout.
+  src: 143
+  t:
+    0: CD19 CAR mRNA in targeted LNPs for rheumatoid arthritis and lupus
+    2: CAPSTAN · CPTX2309
+    3: PH 1
+    4: CD20 CAR-T and CAR-NK generated in vivo for relapsed B-cell cancers
+    6: INTERIUS · INT2104
+    7: PH 1
+    8: BCMA CAR-T generated by targeted lentivirus for relapsed multiple myeloma
+    10: KELONIA · KLN-1010
+    11: PH 1
+    12: CD19 in vivo CAR-T for lymphoma and CLL
+    14: UMOJA · UB-VV111
+    15: PH 1
+    16: TROP2 RNA CAR programs myeloid cells for advanced solid tumors
+    18: CREATE MED · MT302
+    19: PH 1
+    20: GPC3 RNA CAR programs myeloid cells for liver cancer
+    22: CRTE · MT303
+    23: PH 1
+    24: CD19 CAR mRNA in LNPs for lupus and RA
+    26: MAGIC · HN2301
+    27: PH 1
+    34: CD19 CAR RNA in vivo for B-cell malignancies
+    37: IMMORNA · J213
+    38: PH 1
+- id: ed099p
+  type: pp_tech
+  section: Tech and infra
+  title: Which in vivo CAR-T players can already do the most today?
+  companies:
+  - name: Umoja Biopharma
+    src: ../../assets/logos/umoja-biopharma.png
+  - name: Kelonia Therapeutics
+    src: media/ini/kelonia-therapeutics.png
+  - name: Capstan Therapeutics
+    src: media/ini/capstan-therapeutics.png
+  - name: Interius BioTherapeutics
+    src: ../../assets/logos/pp/interius.png
+  - name: CREATE Medicines
+    src: ../../assets/logos/create-medicines.png
+  - name: Sana Biotechnology
+    src: ../../assets/logos/pp/sana.png
+  features:
+  - header: Clinical|program
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Cancer|focus
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Autoimmune|focus
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Human|efficacy
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Multi|lineage
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Dual|target
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: No-chemo|design
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We checked current company pipelines, trial records, peer-reviewed reports, and recent corporate releases feature by feature
+  - A pink mark means the capability is publicly documented, with the supporting sources listed below
+- id: ed100
+  type: agenda
+  section: Value creation
+  current: 6
+  src: 100
+- id: ed101
+  type: x/s_commoditized_today_market
+  section: Value creation
+  title: What’s commoditized today in the market?
+  note: We identified elements that are now broadly available or repeatedly used across CAR and gene-therapy development. They remain necessary, but differentiation is shifting toward targeting precision, safety, durability, manufacturability and clinical performance.
+  src: 101
+  t:
+    6: Common CD19 and BCMA CAR designs, now validated across many conventional CAR-T products and trials
+    7: COMMON CAR TARGETS
+    8: Standard lentiviral vector backbones, long used to insert CAR genes into therapeutic T cells
+    9: BASIC LVV DESIGN
+    10: Generic LNP formulation know-how, now widespread after years of RNA-drug development
+    11: GENERIC LNPs
+    12: Routine mouse tumor models used to show that engineered immune cells can kill target cells
+    13: MOUSE MODELS
+    14: Standard Phase 1 dose escalation, now the default first clinical step for in vivo CAR programs
+    15: PHASE 1 DESIGN
+    16: Basic CAR potency assays that measure target-cell killing before a program reaches patients
+    17: KILLING ASSAYS
+    18: Single-antigen CAR concepts against established B-cell targets, no longer enough to stand out
+    19: SINGLE TARGETS
+    20: Simple IV administration claims, now common across leading in vivo CAR programs in development
+    21: IV DELIVERY
+    22: 📉
+    23: 📉
+    24: 📉
+    25: 📉
+    26: 📉
+    27: 📉
+    28: 📉
+    29: 📉
+- id: ed102
+  type: x/why_has_become_commoditized
+  section: Value creation
+  title: Why has it become commoditized?
+  note: We see commoditization where the field can reuse validated CAR biology, common vector methods and standard development workflows. New value therefore comes from solving selective delivery, safety, persistence, access and real clinical outcomes.
+  src: 102
+  t:
+    6: Because approved CAR-T products already validate CD19 and BCMA as clinically useful targets
+    7: COMMON CAR TARGETS
+    8: Because lentiviral engineering has decades of tooling, suppliers and CAR-T manufacturing use
+    9: BASIC LVV DESIGN
+    10: Because RNA medicines made lipid particles and their testing widely available
+    11: GENERIC LNPs
+    12: Because mouse tumor studies are now a routine gate before human trials
+    13: MOUSE MODELS
+    14: Because regulators and developers already use safety-first dose-escalation trials
+    15: PHASE 1 DESIGN
+    16: Because cell-killing and gene-delivery assays are now standard lab measures
+    17: KILLING ASSAYS
+    18: Because most programs reuse proven B-cell targets instead of new ones
+    19: SINGLE TARGETS
+    20: Because leading programs already position treatment as an off-the-shelf drip
+    21: IV DELIVERY
+    22: 📉
+    23: 📉
+    24: 📉
+    25: 📉
+    26: 📉
+    27: 📉
+    28: 📉
+    29: 📉
+- id: ed103
+  type: x/where_value_created_today
+  section: Value creation
+  title: Where is value created today?
+  page: 1/2
+  note: We derived these elements from unresolved technical bottlenecks and from what the leading clinical-stage developers are building. The strongest current value is in selective in vivo delivery, simpler treatment logistics and reduced preconditioning burden.
+  src: 103
+  t:
+    7: Delivery that reaches the right immune cells while sparing other tissues
+    9: "CELL\n    TARGETING"
+    10: Platforms that remove leukapheresis, bespoke cell manufacturing and long vein-to-vein delays
+    12: "OFF-THE-SHELF\n    ACCESS"
+    13: 💎
+    14: 💎
+    15: CAR designs that clear disease cells without chemotherapy first
+    17: "NO\n    LYMPHODEPLETION"
+    18: 💎
+- id: ed104
+  type: x/where_value_created_today_2
+  section: Value creation
+  title: Where is value created today?
+  page: 2/2
+  note: We derived these elements from current platform choices and newly advanced programs. Value is increasingly created by controlling how long CAR activity lasts, broadening target coverage and programming additional immune-cell lineages in vivo.
+  src: 104
+  t:
+    7: Platforms that tune short or lasting CAR expression for control
+    9: "CONTROLLED\n    PERSISTENCE"
+    10: Multi-target CARs built to stop tumors from escaping
+    12: "DUAL\n    TARGETING"
+    13: 💎
+    14: 💎
+    15: In vivo engineering that reaches macrophages and other immune cells
+    17: "NEW CELL\n    TYPES"
+    18: 💎
+- id: ed105p
+  type: pp_value
+  section: Value creation
+  title: How does money really flow in in vivo CAR-T?
+  axes:
+  - Paid once
+  - Paid over time
+  - Paid by
+  - biopharma buyers
+  - Paid by
+  - care systems / payers
+  groups:
+  - name: Platform acquisition
+    x: 0.22
+    y: 0.83
+    logos: []
+  - name: Upfront licensing payment
+    x: 0.35
+    y: 0.73
+    logos: []
+  - name: Milestones and royalties
+    x: 0.78
+    y: 0.78
+    logos: []
+  - name: Commercial therapy reimbursement
+    x: 0.55
+    y: 0.25
+    logos: []
+  note:
+  - We placed each model using disclosed acquisitions, licensing structures and the reimbursement logic of one-time advanced therapies
+  - Positions are our interpretation of how value is captured; specific commercial pricing for in vivo CAR-T is not yet established
+- id: ed106-s1
+  type: x/divider_3
+  src: 106
+  t:
+    3: MRNA-LNP CAR-T
+    5: RNA-loaded particles that program chosen T cells inside the body
+    6: VALUE CREATION
+- id: ed107-s1
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on five user groups where targeted LNP-mRNA in vivo CAR-T could create the clearest clinical or operational value. These are priority use cases, not claims of approved use.
+  src: 107
+  t:
+    5: "AUTOIMMUNE\n    PATIENTS"
+    7: They are people with severe B-cell-driven autoimmune disease who may benefit from deep depletion without bespoke cell manufacturing
+    8: "RHEUMATOLOGY\n    CENTERS"
+    10: They are clinics that want potent immune reset but need a simpler treatment workflow than conventional autologous CAR-T
+    11: "HIGH-RISK\n    PATIENTS"
+    13: They are patients for whom avoiding lymphodepleting chemotherapy could materially simplify treatment and recovery
+    14: "COMMUNITY\n    HOSPITALS"
+    16: They are hospitals that cannot run complex cell-manufacturing logistics but could administer an off-the-shelf infusion
+    17: "GLOBAL\n    PAYERS"
+    19: They are payers seeking cell-therapy outcomes with less individualized manufacturing and fewer logistical steps
+    21: TARGETED LNP-mRNA
+- id: ed108-s1
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: TARGETED LNP-mRNA
+    6: The LNP reaches too few T cells or accumulates off target. CAR expression is weak or inconsistent. B-cell depletion is shallow. The patient still needs other therapy and confidence falls.
+    7: The LNP selectively programs the intended T-cell subset in vivo. CAR expression is controllable, B cells are deeply depleted, no lymphodepletion is needed, and treatment feels like an off-the-shelf biologic.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - media/ini/abbvie-capstan-therapeutics-https-www-abbvie-com.png
+  logos_on_slide: 1
+- id: ed109-s1
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Teams confirm delivery and B-cell loss'
+    7: '🧪
+
+      A phase 1 trial tests safety and dose'
+    8: '💳
+
+      A buyer funds or buys it'
+    9: '🔍
+
+      Developers compare targeting and safety'
+    10: '📈
+
+      Data de-risk more autoimmune uses'
+    11: '👥
+
+      More centers adopt simple dosing'
+    12: '💉
+
+      Patients get one off-the-shelf infusion'
+    13: '🔁
+
+      New diseases expand the platform'
+    14: TARGETED LNP-mRNA
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed106-s2
+  type: x/divider_3
+  src: 106
+  t:
+    3: LENTIVIRAL CAR-T
+    5: Lentiviral vectors that create CAR-T cells inside the patient after infusion
+    6: VALUE CREATION
+- id: ed107-s2
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on five groups where targeted lentiviral in vivo CAR-T could create the most value if early clinical performance translates into durable, scalable treatment.
+  src: 107
+  t:
+    5: "B-CELL\n    CANCERS"
+    7: They are patients with relapsed B-cell malignancies who need fast access to potent CAR-T without a bespoke manufacturing wait
+    8: "MULTIPLE\n    MYELOMA"
+    10: They are heavily pretreated patients who may need durable in vivo CAR activity and multi-antigen strategies after prior therapy
+    11: "AUTOIMMUNE\n    DISEASE"
+    13: They are patients where durable depletion of pathogenic B cells could support a deeper immune reset than chronic treatment
+    14: "CELL-THERAPY\n    CENTERS"
+    16: They are centers that know CAR-T medicine but want to remove leukapheresis, shipping and individualized manufacturing
+    17: "RAPIDLY\n    PROGRESSING"
+    19: They are patients whose disease may worsen while waiting weeks for conventional autologous CAR-T manufacturing
+    21: TARGETED LENTIVIRAL
+- id: ed108-s2
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: TARGETED LENTIVIRAL
+    6: The vector reaches the wrong cells or makes too little CAR. Safety worries force slow dosing. The patient still waits, and the platform loses its access edge.
+    7: One infusion selectively programs enough T cells to produce durable CAR activity. No cell harvest is needed, manufacturing is scalable, and the patient starts treatment without a personalized production slot.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - media/ini/umoja-biopharma-https-www-umoja-biopharma-com.png
+  logos_on_slide: 1
+- id: ed109-s2
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Teams measure CAR growth and lifespan'
+    7: '🧪
+
+      Phase 1 sets dose, safety and activity'
+    8: '💳
+
+      Partners license or buy it'
+    9: '🔍
+
+      Buyers compare targeting and scale'
+    10: '📈
+
+      Patient data unlock later stages'
+    11: '👥
+
+      New diseases reuse the vector'
+    12: '💉
+
+      One drip replaces cell production'
+    13: '🔁
+
+      Milestones reward each expansion'
+    14: TARGETED LENTIVIRAL
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed106-s3
+  type: x/divider_3
+  src: 106
+  t:
+    3: GENE-EDITING CAR-T
+    5: Systems that write the CAR into immune-cell DNA for lasting activity
+    6: VALUE CREATION
+- id: ed107-s3
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on five groups where durable in vivo integration could create value, while recognizing that integration also raises long-term safety requirements.
+  src: 107
+  t:
+    5: "AGGRESSIVE\n    CANCERS"
+    7: They are patients with fast-moving disease who need treatment without waiting for personalized CAR-T manufacturing
+    8: "DURABILITY-\n    SEEKING"
+    10: They are patients where persistent CAR expression may be more valuable than short-lived RNA expression alone
+    11: "RELAPSED\n    PATIENTS"
+    13: They are patients who have exhausted prior therapies and may need sustained engineered immune surveillance
+    14: "PLATFORM\n    BUYERS"
+    16: They are biopharma companies seeking reusable in vivo integration technology across oncology and autoimmunity
+    17: "SPECIALIST\n    CENTERS"
+    19: They are centers able to monitor integrating gene therapy for delayed safety events and long-term patient outcomes
+    21: GENOME-INTEGRATING
+- id: ed108-s3
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: GENOME-INTEGRATING
+    6: Integration occurs in too few target cells or raises unacceptable off-target and long-term safety concerns. Dosing stays conservative, monitoring expands, and the durability advantage disappears.
+    7: The vector selectively reaches the intended immune cells and inserts the CAR payload at an effective level. One infusion produces durable activity while safety monitoring stays manageable and predictable.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - media/ini/kite-gilead-https-www-gilead-com.png
+  logos_on_slide: 1
+- id: ed109-s3
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Teams confirm placement and lifespan'
+    7: '🧪
+
+      Trials test safety and long follow-up'
+    8: '💳
+
+      Buyers acquire the platform'
+    9: '🔍
+
+      Buyers weigh durability and risk'
+    10: '📈
+
+      Lasting responses add value'
+    11: '👥
+
+      New diseases reuse the vector'
+    12: '💉
+
+      Patients get one lasting infusion'
+    13: '🔁
+
+      Follow-up supports new approvals'
+    14: GENOME-INTEGRATING
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed106-s4
+  type: x/divider_3
+  src: 106
+  t:
+    3: BEYOND T CELLS
+    5: Platforms that program macrophages or several immune cell types in the body
+    6: VALUE CREATION
+- id: ed107-s4
+  type: x/needs_most
+  section: Value creation
+  title: Who needs it the most?
+  note: We focus on use cases where other immune-cell lineages may add biology that conventional CAR-T alone does not provide, especially in solid tumors and immune disease.
+  src: 107
+  t:
+    5: "SOLID-TUMOR\n    PATIENTS"
+    7: They are patients whose tumors may benefit from macrophages that naturally enter tissue and can be reprogrammed in vivo
+    8: "AUTOIMMUNE\n    PATIENTS"
+    10: They are patients who may benefit from reprogramming myeloid cells rather than relying only on T-cell depletion strategies
+    11: "COMBINATION\n    USERS"
+    13: They are developers seeking multi-lineage immune effects that can complement T-cell activity inside difficult tumors
+    14: "RNA-PLATFORM\n    TEAMS"
+    16: They are teams that can reuse mRNA and LNP infrastructure while changing which immune cells receive the CAR payload
+    17: "SOLID-TUMOR\n    CENTERS"
+    19: They are oncology centers seeking off-the-shelf cellular immunotherapy approaches beyond blood-cancer CAR-T models
+    21: BEYOND T CELLS
+- id: ed108-s4
+  type: x/maximum_customer_value_look_like
+  section: Value creation
+  title: What does “maximum customer value” look like in practice?
+  src: 108
+  t:
+    5: BEYOND T CELLS
+    6: The payload reaches the wrong myeloid cells or fails to persist in the tumor. CAR expression is weak, tissue activity is limited, and the program adds complexity without improving clinical effect.
+    7: The delivery system programs the intended macrophages or monocytes in vivo. Engineered cells enter diseased tissue, express the CAR at useful levels, and add a new immune mechanism without cell manufacturing.
+    8: 🤩
+    9: BAD CUSTOMER EXPERIENCE
+    10: EXCEPTIONAL CUSTOMER EXPERIENCE
+    12: VS
+  img:
+  - media/ini/carisma-therapeutics-moderna-https-www-modernatx-com.png
+  logos_on_slide: 1
+- id: ed109-s4
+  type: x/money_flow_case
+  section: Value creation
+  title: How does the money flow in this case?
+  src: 109
+  t:
+    6: '📊
+
+      Teams prove myeloid programming'
+    7: '🧪
+
+      Animal tests show tumor entry first'
+    8: '💳
+
+      Partners fund new targets'
+    9: '🔍
+
+      Buyers compare cell types and safety'
+    10: '📈
+
+      Human data validate a new class'
+    11: '👥
+
+      More targets reuse the platform'
+    12: '💉
+
+      Patients get RNA that programs cells'
+    13: '🔁
+
+      Royalties grow with each program'
+    14: BEYOND T CELLS
+    22: '1'
+    23: '2'
+    24: '3'
+    25: '4'
+    26: '8'
+    27: '7'
+    28: '6'
+    29: '5'
+- id: ed131
+  type: agenda
+  section: Market challenges
+  current: 7
+  src: 131
+- id: ed132
+  type: x/newcomers_often_miss_here
+  section: Market challenges
+  title: What do newcomers often miss here?
+  note: We grouped the recurring issues in FDA guidance, early clinical reports and company disclosures. The field is simplifying cell manufacture, not eliminating gene-therapy and CAR-T development risk.
+  src: 132
+  t:
+    17: It removes cell manufacturing but creates a hard delivery problem inside the body
+    21: Early human data look good, but cohorts are too small to show durability or rare risks
+    23: 'Targeting is part of the drug: genes in the wrong cells cannot be taken back'
+    25: 'A simpler drip does not remove CAR-T biology: CRS and long follow-up still matter'
+    28: Scaling up stays hard because potency, spread in the body and vector quality must hold
+- id: ed133
+  type: x/has_held_back_market_growth
+  section: Market challenges
+  title: What has held back market growth so far?
+  note: We grouped the market into broad phases using FDA milestones, first-in-human programs and recent clinical readouts. The phases are subjective but track the main technical and regulatory bottlenecks.
+  src: 133
+  t:
+    6: "2017 - 2020\n\n\n    CAR-T proved engineered T cells could work, but treatment still depended on bespoke cell collection, manufacturing and hospital delivery."
+    7: '2021 - 2023
+
+
+
+      In vivo ideas advanced in animals, but selective delivery into T cells and control of vector spread stayed the main hurdle.'
+    8: "2024 - 2025\n\n\n    First in vivo programs entered human trials. Evidence was still limited to early dose escalation, making durability and safety hard to judge."
+    9: 'TODAY
+
+
+
+      Human proof is emerging, but developers must still show precise targeting, steady potency, scalable vectors and long-term safety.'
+    10: '2025 - 2026
+
+
+
+      Big pharma deals validated the field, but most programs are in phase 1 or earlier and no product is approved yet.'
+- id: ed134
+  type: x/more_recently
+  section: Market challenges
+  title: And more recently?
+  src: 134
+  t:
+    12: 2025 (JUN)
+    13: AbbVie agreed to acquire Capstan and its Phase 1 targeted-LNP in vivo CAR-T program CPTX2309 {1|AbbVie}
+    14: 2025 (SEP)
+    15: FDA granted Fast Track to Umoja's UB-VV111, an in vivo CD19 CAR-T in an ongoing Phase 1 study {1|Umoja}
+    16: 2025 (DEC)
+    17: Kelonia reported the first three KLN-1010 patients were MRD-negative after treatment without lymphodepletion {1|Blood}
+    18: 2026 (APR)
+    19: Lilly agreed to buy Kelonia for up to $7B, one of the clearest pharma validations of in vivo CAR-T {1|Lilly}
+    20: 2026 (JUL)
+    21: FDA cleared Umoja's UB-VV400 IND, adding a second VivoVec in vivo CAR-T program to US clinical development {1|Umoja}
+    22: 2026 (NOV)
+    23: FDA finalized new potency guidance covering cell and gene therapies from early IND work through BLA approval {1|FDA}
+  note: We selected recent events that changed clinical, strategic or regulatory confidence in the market. Company transactions are included because they materially changed validation and ownership of leading platforms.
+- id: ed136
+  type: x/slows_adoption_down
+  section: Market challenges
+  title: What slows in vivo CAR-T adoption down?
+  note: We summarized adoption constraints repeatedly highlighted in FDA guidance, CAR-T safety communications and clinical disclosures. The burden shifts from bespoke cell processing toward targeted gene delivery and evidence generation.
+  src: 136
+  t:
+    6: '🎯
+
+      Delivery must reach the right immune cells and avoid the liver'
+    7: '🧬
+
+      Lasting vectors keep CAR cells, but wrong-cell hits can''t be undone'
+    8: '🩺
+
+      CRS and nerve toxicity still need trained teams and rescue care'
+    9: '📊
+
+      Human data are thin, so rare risks and durability are unknown'
+    10: '🏭
+
+      Vector quality must hold as production scales up'
+    11: '💉
+
+      Some programs still need chemo first, losing simplicity'
+    12: '🔎
+
+      Regulators want proof of where the gene goes first'
+    13: '⏳
+
+      Gene-modified cells need years of follow-up'
+    14: '1'
+    15: '2'
+    16: '3'
+    17: '4'
+    18: '5'
+    19: '6'
+    20: '7'
+    21: '8'
+- id: ed138
+  type: x/regulation_evolving
+  section: Market challenges
+  title: How is regulation evolving?
+  note: We mapped the main FDA changes that affect in vivo CAR-T. The market benefits from a clearer cell-and-gene-therapy framework, while targeted delivery creates additional biodistribution and off-target obligations.
+  src: 138
+  t:
+    7: '2017 - 2023
+
+
+
+      CAR-T approvals set a path, while gene-therapy rules focused on vector safety and long follow-up.'
+    8: '2024 - 2025
+
+
+
+      The FDA issued CAR-T and editing guidance, warned on T-cell cancers, then dropped CAR-T REMS.'
+    9: '2026
+
+
+
+      The FDA added flexible manufacturing rules, off-target editing guidance and a potency framework.'
+    10: 'TODAY
+
+
+
+      Sponsors must pair CAR-T clinical data with proof of targeting, spread in the body and safety.'
+    11: '?
+
+
+
+      Rules may adapt to platforms, but lasting in-body gene delivery will still need strong safety data.'
+- id: iv_fda
+  type: x/were_key_phases_market_acceleration
+  section: Market challenges
+  title: What does the road to FDA approval look like?
+  note: We used current FDA rules for IND review and cell-and-gene-therapy development. Exact trial sizes and whether Phase 3 is required depend on indication, effect size and the regulatory pathway.
+  src: 147
+  t:
+    7: "IND\n\n\n    The sponsor submits preclinical, manufacturing and trial plans. FDA review normally lasts 30 days."
+    8: "PHASE 1\n\n\n    Small cohorts test dose, delivery, CAR expansion and acute safety, with special attention to off-target effects."
+    9: "PHASE 2\n\n\n    More patients test response and durability while the sponsor locks down potency, process controls and dose."
+    10: 'FAST LANES
+
+
+
+      Fast Track, Breakthrough and RMAT bring more FDA contact, but not less evidence.'
+    11: 'PHASE 3 AND BLA
+
+
+
+      Confirmatory data and proven manufacturing support approval, then long safety follow-up.'
+- id: ed140
+  type: x/where_schools_learners_vendors_clash
+  section: Market challenges
+  title: Where do developers, doctors and regulators clash?
+  src: 140
+  t:
+    0: Developers want one off-the-shelf drip with no cell manufacturing
+    7: Regulators want data showing exactly which cells get the gene
+    9: Patients want CAR-T without weeks of manufacturing and travel
+    10: Centers still need systems for CRS and long follow-up
+    12: Developers want lasting CAR expression from a single dose
+    13: Safety teams fear lasting genes make errors permanent
+    18: Investors want fast proof that delivery works in people
+    19: Doctors need slow dose steps in first human trials
+    21: Pharma buyers value platforms across cancer and autoimmunity
+    22: Regulators review each product's payload, target and vector
+    24: Sponsors want to scale it like a standard drug, not a cell
+    25: The FDA still demands tight potency and batch controls
+  note: We framed the tensions from FDA guidance, CAR-T safety requirements and company disclosures. These are market-level trade-offs, not statements that every program faces the same clinical protocol.
+- id: iv_safety
+  type: x/pain_points_yesterday_vs_today
+  section: Market challenges
+  title: Which safety risks worry doctors the most?
+  note: We separated established CAR-T class risks from in vivo-specific delivery risks. Human in vivo datasets remain small, so the relative incidence of each risk is not yet known.
+  src: 54
+  t:
+    6: "CYTOKINE STORM\n\n\n    CAR-T expansion can still trigger CRS with fever and low blood pressure, even when the cells are made inside the body"
+    7: "NERVE EFFECTS\n\n\n    Neurological toxicity remains a class concern, so early in vivo trials need close observation and rapid intervention"
+    8: "SECOND CANCERS\n\n\n    FDA requires lifelong vigilance for secondary malignancies after genetically modified CAR-T treatment"
+    9: "OFF-TARGET DELIVERY\n\n\n    In vivo vectors must show that CAR genes avoid unintended tissues, because a misdirected durable edit may persist"
+    10: "GENE CONTROL\n\n\n    The key promise is precise cell targeting, but regulators still need potency, biodistribution and long-term safety proof"
+- id: ed141
+  type: x/constraints_structural
+  section: Market challenges
+  title: Which constraints are structural?
+  src: 141
+  t:
+    5: "The drug must find the right immune cells\n    inside a complex living patient"
+    8: 🔒
+    9: 🔒
+    10: 'Lasting gene expression helps, but makes
+
+      off-target events permanent'
+    13: 🔒
+    14: 🔒
+    15: 'CAR-T biology can still cause CRS and
+
+      nerve toxicity after infusion'
+    18: 🔒
+    19: 🔒
+    20: 'Tiny early trials show it works, but
+
+      cannot reveal rare long-term risks'
+    23: 🔒
+    24: 🔒
+    25: 'Potency and vector quality must hold
+
+      at commercial scale'
+    28: 🔒
+    29: 🔒
+  note: These constraints follow from the biology of targeted gene delivery and genetically modified CAR cells, so better execution can reduce them but is unlikely to remove them entirely.
+- id: ed142p
+  type: pp_risks
+  section: Market challenges
+  title: What could go wrong for in vivo CAR-T?
+  events:
+  - text: A serious off-target gene-delivery event appears in a human trial, forcing regulators to slow several targeted-vector programs at once
+    odds: 20
+    impact: 3
+  - text: Early responses fade because in vivo-generated CAR cells do not persist long enough, weakening the one-dose value proposition
+    odds: 18
+    impact: 3
+  - text: CRS or neurotoxicity remains frequent enough that treatment still needs major CAR-T centers, limiting the expected access advantage
+    odds: 18
+    impact: 2
+  - text: Vector manufacturing proves difficult to scale consistently, creating potency variation, high costs or delays in pivotal development
+    odds: 15
+    impact: 2
+  - text: A secondary malignancy signal emerges for an integrating in vivo platform and triggers broader long-term safety scrutiny
+    odds: 10
+    impact: 3
+  - text: Large pharma consolidates the strongest platforms and deprioritizes weaker programs, reducing competitive breadth before approval
+    odds: 10
+    impact: 2
+  - text: Autoimmune expansion disappoints clinically, leaving the market concentrated in smaller hematology indications for longer than expected
+    odds: 8
+    impact: 2
+  - text: Regulators demand more product-specific biodistribution and off-target testing than developers expect, adding years to timelines
+    odds: 7
+    impact: 2
+  note:
+  - We listed plausible events that could slow in vivo CAR-T using current clinical, regulatory and transaction evidence.
+  - Odds and impact are our own five-year estimates. The percentages are judgments, not forecasts from a published source.
+- id: ed143
+  type: x/likely_each_risk
+  section: Market challenges
+  title: How likely is each in vivo CAR-T risk?
+  note: Each probability is our judgment of the chance that the event occurs within five years. We use current trial maturity, known CAR-T risks and FDA expectations to anchor the estimates.
+  src: 143
+  t:
+    0: The FDA asks sponsors to show where the gene goes in the body
+    2: OFF-TARGET EVENT
+    3: ≈20%
+    4: Human cohorts are tiny, so how long CAR cells last is unproven
+    6: WEAK PERSISTENCE
+    7: ≈18%
+    8: CRS and nerve toxicity remain boxed-warning risks for CAR-T
+    10: CENTER-LEVEL TOXICITY
+    11: ≈18%
+    12: The FDA expects potency control from design to batch release
+    14: VECTOR SCALE-UP
+    15: ≈15%
+    16: The FDA requires lifelong cancer monitoring after CAR-T
+    18: SECOND CANCER SIGNAL
+    19: ≈10%
+    20: AbbVie bought Capstan and Lilly is buying Kelonia, pooling the leaders
+    22: PLATFORM CONSOLIDATION
+    23: ≈10%
+    24: Autoimmunity is a big bet, but most human data are still early
+    26: AUTOIMMUNE MISS
+    27: ≈8%
+    34: FDA guidance keeps adding potency and off-target requirements
+    37: REGULATORY DELAYS
+    38: ≈7%
+- id: ed144
+  type: x/severe_impact_each_one
+  section: Market challenges
+  title: How severe is the impact of each one?
+  src: 144
+  t:
+    0: A severe wrong-cell delivery event could slow the whole targeted-vector category
+    2: OFF-TARGET EVENT
+    3: HIGH
+    4: Weak persistence would break the one-dose promise and force redesigns
+    6: WEAK PERSISTENCE
+    7: HIGH
+    8: A second-cancer signal could trigger trial holds and years of follow-up
+    10: SECOND CANCER SIGNAL
+    11: HIGH
+    12: Persistent CAR-T toxicity would keep treatment concentrated in specialist centers
+    14: CENTER-LEVEL TOXICITY
+    15: MEDIUM
+    16: Manufacturing swings could delay trials and raise costs, but are fixable
+    18: VECTOR SCALE-UP
+    19: MEDIUM
+    20: Consolidation would cut startup variety while big pharma keeps going
+    22: PLATFORM CONSOLIDATION
+    23: MEDIUM
+    24: An autoimmune miss would shrink the upside, but cancer would remain
+    26: AUTOIMMUNE MISS
+    27: MEDIUM
+    34: More testing would slow timelines, but clear rules make them predictable
+    37: REGULATORY DELAYS
+    38: MEDIUM
+  note: Impact ratings are our judgment of market-wide damage if each event occurs. They distinguish risks that could challenge the modality itself from risks that mainly slow timelines or narrow indications.
+- id: ed145
+  type: x/constraints_have_largely_disappeared_today
+  section: Market challenges
+  title: Which constraints have largely disappeared today?
+  note: We kept constraints that have materially eased because CAR-T infrastructure, regulatory experience or in vivo delivery has changed them. This is a judgment-based assessment, not a claim that the issues are fully gone.
+  src: 145
+  t:
+    5: 'Every CAR-T dose took weeks of
+
+      patient-specific manufacturing'
+    7: 'In vivo platforms make CAR cells
+
+      right after an off-the-shelf drip'
+    8: 'Hospitals needed special FDA REMS
+
+      certification to give CAR-T'
+    10: 'The FDA dropped the REMS rule
+
+      for approved CD19 and BCMA CAR-T'
+    11: 'Early programs had no human proof
+
+      that in vivo CAR-T could work'
+    13: 'Several phase 1 trials now show CAR
+
+      growth and early responses'
+    14: 'The field had little backing
+
+      from large drug companies'
+    16: 'AbbVie and Lilly moved to buy
+
+      leading in vivo platforms'
+    17: 'Developers had no CAR-T-specific
+
+      FDA framework to follow'
+    19: 'The FDA now has CAR-T, editing
+
+      and potency guidance'
+    20: 'CAR-T monitoring rules were built
+
+      for the class''s early unknowns'
+    22: 'The FDA has eased some monitoring
+
+      as real-world experience grew'
+    23: 🟢
+    24: 🟢
+    25: 🟢
+    26: 🟢
+    27: 🟢
+    28: 🟢
+    31: WHY IT HAS DISAPPEARED
+    32: CONSTRAINT
+- id: ed146
+  type: agenda
+  section: Growth drivers
+  current: 8
+  src: 146
+- id: ed147
+  type: x/were_key_phases_market_acceleration
+  section: Growth drivers
+  title: What were the key phases of market acceleration?
+  note: We grouped the field into broad phases based on published technical milestones, clinical starts, financings and acquisitions. The phase boundaries are judgment-based, but each step is grounded in the sources below.
+  src: 147
+  t:
+    7: '2018 - 2022
+
+      Mouse studies showed CAR-T cells can be made inside the body. Startups formed around targeted delivery.'
+    8: '2023 - 2024
+
+      Umoja validated VivoVec in primates and Interius dosed a first patient. The field reached humans.'
+    9: '2025
+
+      Trials multiplied. Immorna dosed an mRNA therapy, and AbbVie, AstraZeneca and Kite bought platforms.'
+    10: 'TODAY
+
+      Big pharma is consolidating. Lilly bought Orna and Kelonia, and CREATE raised $122 million.'
+    11: '2025 - 2026
+
+      Autoimmunity joined cancer as a target. Fast Track tags, data and big deals pulled money in.'
+- id: ed148p
+  type: pp_drivers
+  section: Growth drivers
+  title: What pushed the in vivo CAR-T market forward, year after year?
+  events:
+  - year: '2018'
+    text: First direct human CD19 CAR-T generation shown in mice
+    impact: 2.0
+  - year: '2022'
+    text: Capstan launches around targeted RNA cell engineering
+    impact: 1.5
+  - year: '2022'
+    text: Merck backs Orna circular RNA with a major collaboration
+    impact: 1.0
+  - year: '2022'
+    text: Umoja reports durable antitumor activity from VivoVec
+    impact: 1.5
+  - year: '2023'
+    text: Peer-reviewed VivoVec proof strengthens viral delivery
+    impact: 1.5
+  - year: '2023'
+    text: Umoja shows long B-cell depletion in primate studies
+    impact: 2.0
+  - year: '2024'
+    text: Targeted mRNA LNPs produce functional CAR-T in vivo
+    impact: 1.5
+  - year: '2024'
+    text: Umoja validates VivoVec in immune-competent primates
+    impact: 2.0
+  - year: '2024'
+    text: Interius doses the first patient in the INVISE trial
+    impact: 3.0
+  - year: '2025'
+    text: Umoja raises $100M to advance its in vivo CAR-T pipeline
+    impact: 1.5
+  - year: '2025'
+    text: Immorna doses the first mRNA-LNP in vivo CAR therapy
+    impact: 3.0
+  - year: '2025'
+    text: AstraZeneca agrees to buy EsoBiotec for up to $1B
+    impact: 2.0
+  - year: '2025'
+    text: AstraZeneca completes the EsoBiotec acquisition
+    impact: 1.5
+  - year: '2025'
+    text: AbbVie agrees to buy Capstan for up to $2.1B
+    impact: 2.5
+  - year: '2025'
+    text: AbbVie completes Capstan and gains a Phase 1 program
+    impact: 2.0
+  - year: '2025'
+    text: Kite agrees to acquire Interius for $350M
+    impact: 2.0
+  - year: '2025'
+    text: Umoja's UB-VV111 receives FDA Fast Track designation
+    impact: 2.0
+  - year: '2025'
+    text: BMS agrees to buy Orbital for $1.5B
+    impact: 2.5
+  - year: '2025'
+    text: CREATE doses MT-303 in frontline liver cancer
+    impact: 1.5
+  - year: '2025'
+    text: Kelonia presents early Phase 1 in vivo CAR-T data
+    impact: 2.5
+  - year: '2026'
+    text: Lilly agrees to acquire Orna's circular RNA platform
+    impact: 2.5
+  - year: '2026'
+    text: Circio and Acuitas test circular RNA for in vivo CAR-T
+    impact: 1.0
+  - year: '2026'
+    text: Lilly agrees to buy Kelonia for up to $7B
+    impact: 3.0
+  - year: '2026'
+    text: CREATE doses first patient with multi-immune MT-304
+    impact: 2.0
+  - year: '2026'
+    text: CREATE raises $122M to expand in vivo CAR programs
+    impact: 2.0
+  - year: '2026'
+    text: Lilly completes Kelonia and adds KLN-1010
+    impact: 2.5
+  - year: '2026'
+    text: Tempest prioritizes a CD19/BCMA in vivo CAR-T program
+    impact: 1.0
+  - year: '2026'
+    text: CREATE expands in vivo CAR engineering beyond T cells
+    impact: 1.5
+  - year: '2026'
+    text: Big Pharma ownership spreads across RNA and viral routes
+    impact: 2.0
+  - year: '2026'
+    text: Autoimmune disease becomes a central development target
+    impact: 2.5
+  note:
+  - We selected milestones that materially changed technical confidence, clinical validation, capital access or strategic ownership in the in vivo CAR-T field
+  - Impact ratings are our own judgment, grounded in company releases, peer-reviewed papers and regulatory milestones listed below
+- id: ed149
+  type: x/growth_engines_have_run_out
+  section: Growth drivers
+  title: Which growth engines have run out of steam?
+  note: We paired early constraints or market assumptions with the newer approaches that are replacing them. The selection is judgment-based and reflects current clinical, technical and transaction evidence.
+  src: 149
+  t:
+    6: Complex ex vivo factories and weeks of waiting
+    8: In vivo dosing makes CAR cells inside patients
+    9: Chemotherapy before conventional CAR-T
+    11: Several programs now dose without chemo first
+    12: One-time viral vectors as the only real route
+    14: Targeted mRNA, circular RNA and DNA now join
+    15: Small biotech funding as the main capital
+    17: Big pharma deals now fund and validate it
+    18: Cancer-only focus for early CAR-T programs
+    20: Autoimmune programs widen the patient pool
+    21: Mouse data as the main proof of value
+    23: Human dosing and early data now build trust
+    24: ⛔
+    25: ⛔
+    26: ⛔
+    27: ⛔
+    28: ⛔
+    29: ⛔
+- id: ed150
+  type: x/has_most_contributed_market_growth
+  section: Growth drivers
+  title: What has most contributed to market growth recently?
+  note: We focused on recent events that materially increased clinical validation, strategic ownership or available development capital. The examples below are among the clearest 2025-2026 signals in primary company sources.
+  src: 150
+  t:
+    12: 2025 (AUG)
+    13: AbbVie completed its Capstan acquisition, adding Phase 1 in vivo CD19 CAR-T and a targeted RNA-LNP platform {1|AbbVie}
+    14: 2025 (OCT)
+    15: BMS agreed to buy Orbital for $1.5 billion, adding circular-RNA in vivo CAR-T and targeted LNP technology {1|BMS}
+    16: 2026 (FEB)
+    17: Lilly agreed to acquire Orna, adding a trial-ready CD19 circular-RNA in vivo CAR-T for autoimmune disease {1|Lilly}
+    18: 2026 (APR)
+    19: Lilly agreed to buy Kelonia for up to $7 billion after clinical validation of its lentiviral in vivo CAR-T platform {1|Lilly}
+    20: 2026 (APR)
+    21: CREATE dosed the first patient with MT-304, extending its in vivo CAR platform across T, NK and myeloid immune cells {1|CREATE}
+    22: 2026 (MAY)
+    23: CREATE raised $122 million to advance a repeat-dose CD19 in vivo CAR-T program and expand its autoimmune and oncology pipeline {1|CREATE}
+- id: ed151
+  type: x/forces_continuously_push_market_forward
+  section: Growth drivers
+  title: What forces continuously push this market forward?
+  note: We selected sustained forces that continue to improve access, technical feasibility, clinical confidence and capital formation. Each has direct support in current company or peer-reviewed evidence.
+  src: 151
+  t:
+    6: Off-the-shelf IV dosing that removes bespoke manufacturing and can expand patient access
+    7: Autoimmune disease demand that extends CAR-T beyond oncology into large chronic populations
+    8: Targeted RNA and lentiviral delivery that keeps improving cell selectivity and control
+    9: Early human data that reduce platform risk and pull more pharma capital into the field
+    10: Large acquisitions that validate in vivo CAR-T and give programs deeper development capital
+    19: MARKET
+- id: ed152
+  type: x/could_make_market_grow_faster
+  section: Growth drivers
+  title: What could make the market grow faster?
+  note: We selected the bottlenecks whose resolution would most directly improve efficacy confidence, regulatory predictability, scalability and patient access.
+  src: 152
+  t:
+    11: 'Durable responses from
+
+      larger human studies'
+    12: 'Regulatory paths for
+
+      direct cell engineering'
+    13: Repeat-dose RNA platforms that achieve deeper immune reset without added toxicity
+    14: Manufacturing that can supply standardized doses globally at conventional drug scale
+    15: Proof that in vivo CAR-T can match ex vivo efficacy while cutting burden and cost
+- id: ed153
+  type: x/slows_adoption_down
+  section: Growth drivers
+  title: Which drivers compound over time instead of resetting?
+  src: 153
+  t:
+    6: '🧬
+
+      Each patient adds data that makes the next trial design more credible and precise'
+    7: '🏥
+
+      Each simpler IV treatment can expand access beyond today''s specialized CAR-T centers'
+    8: '📈
+
+      Each strong human readout lowers risk and attracts more capital into the category'
+    9: '🧪
+
+      Each delivery study improves targeting, which sharpens the next vector or nanoparticle'
+    10: '💊
+
+      Each off-the-shelf dose cuts logistics and supports broader patient access'
+    11: '🤝
+
+      Each pharma deal brings resources that push more in vivo programs into trials'
+    12: '🧠
+
+      Each new indication adds learning that can transfer across the same platform'
+    13: '🏭
+
+      Each manufacturing run improves process know-how, supporting cheaper and more scalable supply'
+    14: '1'
+    15: '2'
+    16: '3'
+    17: '4'
+    18: '5'
+    19: '6'
+    20: '7'
+    21: '8'
+  note: We focused on learning, access, capital and manufacturing loops where each additional program or patient can improve the economics or probability of success of later programs.
+- id: ed154
+  type: x/drivers_feed_each_other
+  section: Growth drivers
+  title: Which in vivo CAR-T drivers feed each other?
+  src: 154
+  t:
+    6: More clinical data reduce risk, which draws capital to fund faster trials
+    7: Simpler IV dosing expands access, bringing more patients and stronger datasets
+    8: Better targeting improves safety, enabling repeat dosing and broader use
+    9: More pharma deals validate the field, pulling more investors into it
+    10: More indications add data that improve platform design across diseases
+    11: Lower logistics burden expands treatment sites and can ease recruitment
+    12: Each strong exit recycles capital and talent into the next in vivo startups
+    13: Better manufacturing lowers cost, strengthening the case for wider access
+    14: 📈
+    15: 📈
+    16: 📈
+    17: 📈
+    18: 📈
+    19: 📈
+  note: We mapped reinforcing loops that are already visible in clinical progress, platform development, access claims and transaction activity. These loops are directional interpretations of the sourced evidence.
+- id: ed155
+  type: agenda
+  section: Investor bets
+  current: 9
+  src: 155
+- id: ed156
+  type: x/rounds_were_announced_last
+  section: Investor bets
+  title: 'Which rounds were
+
+    announced last?'
+  page: 1/2
+  note: We focused exclusively on pure players, defined as companies with at least 70–80% of their business directly tied to the market This research has been done with our own market definition, at a global level with a minimum funding threshold of $300k
+  src: 156
+  t:
+    13: 2026 (SEP)
+    14: Ed.ai raised €5M led by Bpifrance, with La Poste Ventures, for an AI assistant that grades patient work {1|Bpifrance}
+    15: 2026 (SEP)
+    16: Turing raised a $5M Series B to take its AI study agent for math and science from Korea to new markets {1|Seoul Economic Daily}
+    17: 2026 (SEP)
+    18: Dawraty raised a $2M seed round led by Qatar Development Bank for AI healthcare healthcare in Arabic {1|Startup Centrum}
+    19: 2026 (SEP)
+    20: 3C Coding Hospital raised a $3M seed round led by MRG to bring its coding and AI therapies for kids to Saudi Arabia {1|Wamda}
+    21: 2026 (AUG)
+    22: Mote Bio raised an $8M seed round led by Felix Capital for its AI therapy for GCSE and A-level exams {1|Tech.eu}
+    23: 2026 (AUG)
+    24: Wild Zebra raised a $6M seed round led by Trilogy Equity Partners for its Socratic AI therapy for kids {1|GeekWire}
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed157
+  type: x/rounds_were_announced_last_2
+  section: Investor bets
+  title: 'Which rounds were
+
+    announced last?'
+  page: 2/2
+  note: We focused exclusively on pure players, defined as companies with at least 70–80% of their business directly tied to the market This research has been done with our own market definition, at a global level with a minimum funding threshold of $300k
+  src: 157
+  t:
+    14: 2026 (AUG)
+    15: AILA raised $3M led by Rua Growth Fund, with Jo Academy, to find each patient’s treatment gaps with AI {1|Wamda}
+    16: 2026 (AUG)
+    17: Codio raised $5M from Armada Investment Group to grow its coding labs and AI literacy therapies for colleges {1|PR Newswire}
+    18: 2026 (JUL)
+    19: Sail Bio, founded by Andrew Ng, raised a $100M Series A from Interius to build AI-native therapies {1|Interius}
+    20: 2026 (JUL)
+    21: imagi raised a $4.5M seed round led by Brighteye and DayOne to teach coding and AI literacy in hospitals {1|imagi}
+    22: 2026 (JUL)
+    23: Elevate Healthcare raised about $17.8M from WestBridge to run online approvals with cancer centers in India {1|Moneycontrol}
+    24: 2026 (JUL)
+    25: DeweyLearn raised a $5M Series A led by SJF Ventures for AI that assesses real-world skills at expert level {1|PR Newswire}
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: iv_deals
+  type: x/rounds_were_announced_last
+  section: Investor bets
+  title: Which pharma deals shaped the market?
+  note: We used announced transaction values from primary company releases. Amounts marked “up to” include contingent milestone payments where disclosed.
+  src: 156
+  t:
+    13: 2026 (APR)
+    14: Lilly agreed to buy Kelonia for up to $7B, including $3.25B upfront, for its lentiviral in vivo CAR-T platform {1|Lilly}
+    15: 2026 (FEB)
+    16: Lilly agreed to buy Orna for up to $2.4B to add circular-RNA and LNP-based in vivo CAR-T programs {1|Lilly}
+    17: 2025 (OCT)
+    18: Bristol Myers Squibb agreed to buy Orbital for $1.5B cash, adding its circular-RNA in vivo CAR-T program {1|BMS}
+    19: 2025 (AUG)
+    20: Kite agreed to buy Interius for $350M cash to add its integrating lentiviral in vivo CAR-T platform {1|Gilead}
+    21: 2025 (JUN)
+    22: AbbVie agreed to buy Capstan for up to $2.1B cash, centered on targeted-LNP mRNA in vivo CAR-T {1|AbbVie}
+    23: 2025 (MAR)
+    24: AstraZeneca agreed to buy EsoBiotec for up to $1B, including $425M upfront, for targeted lentiviral in vivo cell therapy {1|AstraZeneca}
+- id: ed158
+  type: fundbars
+  section: Investor bets
+  title: 'How has fundraising activity
+
+    evolved recently?'
+  bars:
+  - x: Q3 2025
+    v: 189
+    ann: Honor Healthcare raised $38M, and Wooclap raised about $29M
+  - x: Q4 2025
+    v: 206
+    ann: Create Medicines raised a $40M Series B, and Edflex raised $18M
+  - x: Q1 2026
+    v: 319
+    ann: Ensoma raised $150M, almost half of all capital in the quarter
+  - x: Q2 2026
+    v: 43
+    ann: MVRIX’s $22M Series A made up half of a very quiet quarter
+  - x: Q3 2026
+    v: 191
+    ann: Sail Bio raised $100M from Interius, over half of the quarter
+  note:
+  - Data comes from our [tracker](https://newmarketpitch.com/blogs/news/in vivo CAR-T-list-deals) of 266 in vivo CAR-T equity rounds since January 2024
+  - Debt and grants are left out, and Q2 2026 holds only 9 rounds, so it may still rise
+  src: 158
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed159
+  type: x/much_have_startups_raised_each
+  section: Investor bets
+  title: 'How much have in vivo CAR-T
+
+    startups raised each year?'
+  note: Data comes from our tracker of 266 in vivo CAR-T equity rounds announced since January 2024, worth about $2.43 billion. Debt, grants, and secondary share sales are left out
+  src: 159
+  t:
+    1: '2024'
+    6: IASO Bio raised about $175M, and Legend Biotech raised $150M
+    8: $1.13B
+    11: '2025'
+    13: Campus, Tessera, and Create Medicines raised about $131M together
+    15: $747M
+    16: 2026 (YTD)
+    18: Ensoma and Sail Bio took $250M, about 45% of the year
+    20: $553M
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed160
+  type: x/stands_out_funding
+  section: Investor bets
+  title: 'What stands out in
+
+    in vivo CAR-T funding?'
+  note: Insights come from our tracker of 266 in vivo CAR-T equity rounds announced since January 2024
+  src: 160
+  t:
+    6: mRNA-LNP CAR-T took about 28% of all capital raised since 2024, more than any other category
+    7: Seed rounds made up 133 of the 266 deals, and the median round stayed near $3M to $4M a year
+    8: About 46% of the capital went to North America, about 27% to Asia-Pacific, and about 22% to Europe
+    9: Europe closed 99 of the 266 rounds, more than North America with 80, but with much smaller checks
+    10: Four rounds of $100M or more made up about 24% of all the capital raised in the market since 2024
+    11: Strategic investors like Interius, Novartis, and Capstan joined 30 rounds, about 11% of all deals
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed162
+  type: x/has_changed_recently
+  section: Investor bets
+  title: 'What has changed
+
+    recently?'
+  note: Insights come from our tracker of 266 in vivo CAR-T equity rounds announced since January 2024
+  src: 162
+  t:
+    6: 'BEFORE
+
+
+      Previously, investors wrote large checks to cell therapy and online degree firms, like Carisma, Myeloid, and Abintus. They bet that COVID habits would last. Funding hit a record $16.7 billion in 2021.'
+    7: 'AFTER
+
+
+      Now, most rounds are small seed checks for AI tools, like Stylus, MVRIX, and Mote Bio. Investors ask for profits first. Only Ensoma and Sail Bio raised $100M or more in 2026, out of 65 tracked rounds.'
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed164
+  type: x/much_top_deal_weigh
+  section: Investor bets
+  title: 'How much does the top
+
+    in vivo CAR-T deal weigh?'
+  note: For each year, we divide the largest round by all capital in our tracker of 266 in vivo CAR-T equity rounds since 2024. Debt, grants, and secondary sales are left out
+  src: 164
+  t:
+    9: '≈ 16%
+
+      (114 deals)'
+    10: '2024'
+    12: '≈ 6%
+
+      (87 deals)'
+    13: '2025'
+    15: '≈ 27%
+
+      (65 deals)'
+    16: 2026 (YTD)
+    18: '% of total capital captured by the biggest deal of the year'
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed165p
+  type: pp_raises
+  section: Investor bets
+  title: 'Who are investors backing most
+
+    in the in vivo CAR-T space right now?'
+  rounds:
+  - name: Ensoma
+    amt: 150000000.0
+    src: ../../assets/logos/pp/novartis.png
+    stage: Series D
+    date: Q1 2026
+  - name: Sail Bio
+    amt: 100000000.0
+    src: ../../assets/logos/pp/lilly.png
+    stage: Series A
+    date: Q3 2026
+  - name: Create Medicines
+    amt: 40000000.0
+    src: ../../assets/logos/pp/regeneron.png
+    stage: Series B
+    date: Q4 2025
+  - name: Immorna
+    amt: 30000000.0
+    src: ../../assets/logos/pp/pfizer.png
+    stage: Series A
+    date: Q1 2026
+  note:
+  - We listed the biggest equity rounds raised by in vivo CAR-T startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed166p
+  type: pp_raises
+  section: Investor bets
+  title: 'Who did investors back the most
+
+    in the in vivo CAR-T space in earlier years?'
+  rounds:
+  - name: IASO Bio
+    amt: 175000000.0
+    src: ../../assets/logos/sail-biomedicines.png
+    stage: Series B
+    date: '2024'
+  - name: Legend Biotech
+    amt: 150000000.0
+    src: ../../assets/logos/immorna.png
+    stage: Late stage
+    date: '2024'
+  - name: SchooLinks
+    amt: 80000000.0
+    src: ../../assets/logos/magicrna.png
+    stage: Series B
+    date: '2024'
+  - name: Orna
+    amt: 78000000.0
+    src: ../../assets/logos/create-medicines.png
+    stage: Series C
+    date: '2024'
+  note:
+  - We listed the biggest equity rounds raised by in vivo CAR-T startups in the years before, from our tracker of rounds
+  - We used company announcements and the press, and all our sources are at the end of the report
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed167
+  type: x/where_did_most_capital_go
+  section: Investor bets
+  title: 'Where did most
+
+    of the capital go?'
+  note: Data comes from our tracker of 266 in vivo CAR-T equity rounds announced since January 2024, worth about $2.43 billion. Debt, grants, and secondary share sales are left out
+  src: 167
+  t:
+    6: MRNA-LNP CAR-T
+    7: BEYOND T CELLS
+    8: LENTIVIRAL CAR-T
+    9: '76'
+    10: DEALS
+    11: '70'
+    12: '45'
+    13: $671M
+    14: '
+
+      RAISED ($)'
+    15: $613M
+    16: $602M
+    17: SchooLinks, Tessera, DeliNova, Wooclap
+    18: EXAMPLES OF STARTUPS
+    19: Sail Bio, Create Medicines, Honor, Arcellx
+    20: IASO Bio, Legend Biotech, Lilly, Campus
+    24: SINCE 2024
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed168p
+  type: invbets
+  handle: edtech
+  section: Investor bets
+  title: Where did in vivo CAR-T investors put their money this past year?
+  note: We added up every funding round we tracked in the in vivo CAR-T space over the last twelve months, from company announcements, funding databases and the press. All the sources are included at the end of the report.
+  rows:
+  - name: Beyond T cells
+    names:
+    - Sail Bio
+    - Create Medicines
+    v: $278M
+    pct: 37% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/azalea-therapeutics.png
+    - src: ../../assets/logos/tessera-therapeutics.png
+    - src: ../../assets/logos/vyriad.png
+  - name: Gene-editing CAR-T
+    names:
+    - Ensoma
+    - Genocury
+    v: $243M
+    pct: 32% of total
+    w: 87.4
+    logos:
+    - src: ../../assets/logos/umoja-biopharma.png
+    - src: ../../assets/logos/iaso-biotherapeutics.png
+    - src: ../../assets/logos/mvrix.png
+  - name: mRNA-LNP CAR-T
+    names:
+    - Subject
+    - MVRIX
+    v: $164M
+    pct: 22% of total
+    w: 59.0
+    logos:
+    - src: ../../assets/logos/ensoma.png
+    - src: ../../assets/logos/thunderbiotech.png
+    - src: ../../assets/logos/pp/interius.png
+  - name: Lentiviral CAR-T
+    names:
+    - Ocugen
+    - Skillwill
+    v: $39M
+    pct: 5% of total
+    w: 14.0
+    logos:
+    - src: ../../assets/logos/pp/sana.png
+    - src: ../../assets/logos/pp/abbvie.png
+    - src: ../../assets/logos/pp/astrazeneca.png
+  - name: Other approaches
+    names:
+    - Ed.ai
+    - DeweyLearn
+    v: $21M
+    pct: 3% of total
+    w: 7.6
+    logos:
+    - src: ../../assets/logos/pp/legend-biotech.png
+    - src: ../../assets/logos/pp/autolus.png
+  - name: Manufacturing tools
+    names:
+    - BRUM Patenti
+    - AICertified
+    v: $7M
+    pct: under 1% of total
+    w: 2.5
+    logos: []
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed169
+  type: x/most_active_investors
+  section: Investor bets
+  title: 'Who are the most
+
+    active investors?'
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. The lead is not disclosed for 91 of the 266 rounds
+  src: 169
+  t:
+    7: REACH CAPITAL
+    8: OWL VENTURES
+    9: WESTBRIDGE
+    10: '4'
+    11: DEALS
+    12: '3'
+    13: '3'
+    14: $23.9M
+    15: FUNDED ($)
+    16: $26.5M
+    17: $73.8M
+    18: Mote, Arcellx, Suraasa, LabLabee
+    19: EXAMPLES OF STARTUPS
+    20: Stylus, Jotit, StudyFetch
+    21: Create Medicines, Genocury, Elevate Healthcare
+    25: SINCE 2024
+    26: ACCEL
+    27: FORERUNNER
+    28: '2'
+    29: '2'
+    30: $82.2M
+    31: $35.4M
+    32: Orna, Arivihan
+    33: Leland, Outsmart Healthcare
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed170
+  type: agenda
+  section: Top players
+  current: 10
+  src: 170
+- id: ed171p
+  type: pp_grid
+  section: Top players
+  title: 'Who are the top players
+
+    in the in vivo CAR-T space today?'
+  handle: edtech
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Hospitals
+  - Consumers
+  - Workforce
+  cells:
+  - - - classdojo
+      - newsela
+    - - magicschool
+      - amira
+    - - teachy
+      - brisk
+  - - - preply
+      - gostudent
+    - - knowunity
+      - speakx
+    - - sigiq
+      - oboe
+  - - - multiverse
+      - guild
+    - - yoodli
+      - stepful
+    - - fullyramped
+      - secondnature
+  note:
+  - We placed private players by their main customer and their stage, from funding news, revenue and reach
+  - We left out big tech, listed firms like Capstan and buyouts like Bristol Myers Squibb, with sources at the end of the report
+  srcs:
+    classdojo: ../../assets/logos/pp/gilead-kite.png
+    newsela: ../../assets/logos/pp/bristol-myers-squibb.png
+    magicschool: ../../assets/logos/pp/interius.png
+    amira: ../../assets/logos/pp/novartis.png
+    teachy: ../../assets/logos/pp/kite.png
+    brisk: ../../assets/logos/pp/legend-biotech.png
+    preply: ../../assets/logos/pp/novartis.png
+    gostudent: ../../assets/logos/pp/autolus.png
+    knowunity: ../../assets/logos/pp/arcellx.png
+    speakx: ../../assets/logos/pp/allogene.png
+    sigiq: ../../assets/logos/pp/cellectis.png
+    oboe: ../../assets/logos/pp/crispr-therapeutics.png
+    multiverse: ../../assets/logos/pp/abbvie.png
+    guild: ../../assets/logos/pp/beam.png
+    yoodli: ../../assets/logos/pp/regeneron.png
+    stepful: ../../assets/logos/pp/moderna.png
+    fullyramped: ../../assets/logos/pp/biontech.png
+    secondnature: ../../assets/logos/pp/lilly.png
+  weight: {}
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed172
+  type: x/different_types_startup
+  section: Top players
+  title: What are the different types of startup?
+  note: We grouped current developers by the delivery and cell-programming approaches most visible in company pipelines and recent specialist reviews.
+  src: 172
+  t:
+    5: '🧬
+
+      Startups using targeted lentiviral vectors in vivo'
+    6: '💧
+
+      Startups using targeted LNPs to deliver CAR mRNA'
+    7: "⭕\n    Startups using circular RNA for longer-lived CAR expression"
+    8: '✂️
+
+      Startups writing CAR genes directly into T cells'
+    9: '🧫
+
+      Startups programming several immune cell types'
+    10: '🩸
+
+      Startups going after blood cancers in vivo'
+    11: '🛡️
+
+      Startups resetting autoimmunity through B cells'
+    12: '🎯
+
+      Startups building multi-target in vivo platforms'
+    13: '1'
+    14: '2'
+    15: '3'
+    16: '4'
+    17: '5'
+    18: '6'
+    19: '7'
+    20: '8'
+- id: ed173
+  type: x/owns
+  section: Top players
+  title: Who owns what?
+  note: We compare four representative platform companies. The matrix is simplified and reflects public pipeline positioning rather than every research program.
+  src: 173
+  t:
+    6: TARGETED LENTIVIRUS
+    7: TARGETED LNP
+    8: MULTI-LINEAGE CAR
+    9: 'YES'
+    10: "RNA\n    PAYLOAD"
+    11: 'NO'
+    12: 'NO'
+    13: 'YES'
+    14: "ONCOLOGY\n    PROGRAMS"
+    15: 'YES'
+    16: 'YES'
+    19: AUTOIMMUNE PROGRAMS
+    20: CLINICAL STAGE
+    21: 'YES'
+    22: 'YES'
+    23: 'YES'
+    24: 'YES'
+    27: 'YES'
+    28: "GENE\n    INTEGRATION"
+    29: 'YES'
+    30: 'YES'
+    31: 'NO'
+    32: "MIXED\n    CELLS"
+    33: 'NO'
+    34: 'NO'
+    35: 'NO'
+    36: 'YES'
+    37: 'YES'
+    38: 'YES'
+    39: 'YES'
+    40: "US\n    BASED"
+    41: 'YES'
+    42: 'YES'
+    43: 'NO'
+    44: 'YES'
+    46: PUBLIC PARTNERS
+    47: 'NO'
+    48: 'YES'
+    49: 'NO'
+    50: 'NO'
+    51: 'YES'
+- id: ed174
+  type: x/have_been_different_waves_hot
+  section: Top players
+  title: What have been the different waves of ‘hot’ startups over time?
+  note: We grouped companies by when their approach became visibly important through launches, clinical progress, major financings or acquisitions. It is a directional history, not a formal taxonomy.
+  src: 174
+  t:
+    6: "2019 - 2022\n\n    Umoja, Orna, Capstan, and Kelonia formed around direct immune-cell programming. Early funding proved investors would back in vivo delivery."
+    7: '2023 - 2024
+
+
+      Platforms went beyond one vector. Interius reached the clinic, and Kelonia and others signed pharma deals on targeted delivery.'
+    8: "2025\n\n    The field broke into pharma M&A. AstraZeneca, AbbVie, Gilead, and BMS bought EsoBiotec, Capstan, Interius, and Orbital."
+    9: 'TODAY
+
+
+      Lilly bought Orna and agreed to buy Kelonia. Umoja, MagicRNA and CREATE are pushing their trials forward.'
+    10: "?\n\n    Future winners may combine precise targeting, repeat dosing, strong safety, and durable immune reset. Clinical proof will decide which platform scales."
+- id: ed175
+  type: x/startups_stand_out
+  section: Top players
+  title: Which in vivo CAR-T startups stand out?
+  note: We selected companies that recur in recent clinical, financing, partnership and acquisition activity. This is a curated view, not an objective ranking.
+  src: 175
+  t:
+    18: It has two U.S. in vivo CAR-T programs and raised a $100M Series C
+    19: UMOJA
+    20: Its lead lentiviral program reached Phase 1 before Lilly's $7B deal
+    21: KELONIA
+    22: Its CD19 tLNP program produced first-in-human SLE data in 2025
+    23: MAGICRNA
+    24: It raised $122M in 2026 to advance in vivo CAR programs in clinic
+    25: CREATE
+    26: It built a circular-RNA in vivo CAR-T pipeline acquired by Lilly
+    27: ORNA
+- id: ed176
+  type: x/startups_news_lately
+  section: Top players
+  title: Which startups are in the news lately?
+  page: 1/2
+  note: We focused on companies whose current positioning is directly tied to in vivo CAR or in vivo immune-cell programming.
+  src: 176
+  t:
+    12: 2026 (NOV)
+    13: Umoja said first UB-VV400 clinical data will be presented at ASH, alongside UB-VV410 autoimmune data {1|Umoja}
+    14: 2026 (JUL)
+    15: Umoja received FDA IND clearance for UB-VV400, its CD22 in vivo CAR-T for relapsed B-cell malignancies {1|Umoja}
+    16: 2026 (JUL)
+    17: Tempest unveiled a CD7-targeted mRNA/LNP in vivo CAR-T platform and planned first clinical dosing in Q4 {1|Tempest}
+    18: 2026 (JUL)
+    19: CREATE received Australian approval to start a Phase 1/2 trial of CRT-402 in autoimmune diseases {1|CREATE}
+    20: 2026 (MAY)
+    21: CREATE raised a $122M Series B to move its CD19 and dual CD19-BCMA in vivo CAR programs forward {1|CREATE}
+    22: 2026 (APR)
+    23: Lilly agreed to buy Kelonia for up to $7B after its lead in vivo CAR-T reached Phase 1 {1|Lilly}
+- id: ed177
+  type: x/startups_news_lately_2
+  section: Top players
+  title: Which startups are in the news lately?
+  page: 2/2
+  note: We focused on companies whose current positioning is directly tied to in vivo CAR or in vivo immune-cell programming.
+  src: 177
+  t:
+    13: 2026 (JUN)
+    14: MagicRNA completed a Series B after its targeted-LNP CD19 program had entered human testing for autoimmune disease {1|MagicRNA}
+    15: 2026 (MAY)
+    16: Ensoma reported initial clinical safety data from the first patient treated with its in vivo HSC engineering therapy {1|Ensoma}
+    17: 2026 (APR)
+    18: Lilly agreed to buy Kelonia for up to $7B, including $3.25B upfront, around its lentiviral in vivo platform {1|Lilly}
+    19: 2026 (FEB)
+    20: Lilly agreed to buy Orna for up to $2.4B, adding circular-RNA and LNP technologies for in vivo cell engineering {1|Lilly}
+    21: 2025 (OCT)
+    22: BMS agreed to buy Orbital for $1.5B cash, adding OTX-201 and its circular-RNA/LNP in vivo CAR-T platform {1|BMS}
+    23: 2025 (AUG)
+    24: Kite agreed to buy Interius for $350M cash, bringing an integrating lentiviral in vivo CAR-T platform in-house {1|Gilead}
+- id: ed178
+  type: x/current_market_leaders
+  section: Top players
+  title: Who are the current market leaders?
+  note: We use clinical progress, major strategic transactions and specialist recognition. This is directional because the market is early and no objective leaderboard exists.
+  src: 178
+  t:
+    7: Kelonia and Umoja lead integrating lentiviral in vivo CAR-T in the clinic
+    9: "TARGETED\n    LENTIVIRUS"
+    10: MagicRNA and AbbVie/Capstan lead targeted mRNA-LNP in vivo CAR-T
+    12: "TARGETED\n    LNP-MRNA"
+    13: Lilly/Orna and BMS/Orbital lead circular-RNA in vivo CAR-T programs
+    15: "CIRCULAR\n    RNA CAR-T"
+    19: CREATE leads multi-lineage RNA CAR programming across T, myeloid, and NK cells
+    21: "MULTI-LINEAGE\n    CAR"
+    22: Umoja and MagicRNA lead with programs in cancer and autoimmune reset
+    24: "CLINICAL\n    BREADTH"
+    25: Lilly made the biggest strategic bet, through Kelonia and Orna
+    27: PHARMA BACKING
+- id: ed182
+  type: x/leads_each_link_from_content
+  section: Top players
+  title: Who leads each in vivo CAR-T link, from payload to treatment?
+  note: We selected leaders by visible clinical progress, platform depth and strategic transactions. The value chain is simplified for clarity.
+  src: 182
+  t:
+    11: PAYLOAD
+    12: DELIVERY
+    13: TARGETING
+    14: CLINICAL
+    15: SCALE-UP
+    16: Orna and Orbital lead circular-RNA payload design, both acquired after building in vivo CAR-T programs around programmable RNA
+    17: Kelonia and Umoja lead targeted lentiviral delivery, while MagicRNA and Capstan advanced targeted LNP delivery into human testing
+    18: Kelonia targets T cells with engineered lentiviral particles; MagicRNA uses engineered cell-targeted LNPs to deliver mRNA
+    19: Umoja, Kelonia, MagicRNA, and CREATE have all moved in vivo immune-cell programs into or toward active human studies
+    20: AbbVie, Lilly, BMS, Gilead and AstraZeneca now own or back the leading platforms
+- id: ed183
+  type: x/at_different_regions_world
+  section: Top players
+  title: And at different regions of the world?
+  note: We mapped leadership by company headquarters and visible clinical activity. Programs are global, so regional labels should be read as centers of company activity.
+  src: 183
+  t:
+    401: Asia-Pacific is led by MagicRNA in China, whose targeted-LNP CD19 CAR-T entered human studies and reported SLE data in 2025
+    402: ASIA-PACIFIC
+    405: North America is the deepest cluster, with Umoja, Kelonia, CREATE, Orna, Orbital, Capstan, and Interius all founded or based there
+    406: NORTH AMERICA
+    409: Australia is an important trial hub, with early in vivo CAR-T studies from Kelonia, Capstan, CREATE, and others recruiting there
+    410: AUSTRALIA
+    413: Europe produced EsoBiotec in Belgium, whose targeted lentiviral platform was acquired by AstraZeneca for up to $1B in 2025
+    414: EUROPE
+- id: ed184
+  type: x/any_new_disruptive_startups_emerging
+  section: Top players
+  title: Any new disruptive startups emerging recently?
+  note: We selected younger or newly repositioned companies with recent platform launches, financings or regulatory milestones directly tied to in vivo CAR engineering.
+  src: 184
+  t:
+    12: 2026 (JUL)
+    13: Tempest unveiled a CD7-targeted mRNA/LNP platform designed to generate CAR-T cells directly in patients {1|Tempest}
+    14: 2026 (JUL)
+    15: CREATE won approval to start CRT-402, a repeat-dose-capable in vivo CAR-T trial for autoimmune disease {1|CREATE}
+    16: 2026 (JUN)
+    17: MagicRNA completed Series B financing after moving its targeted-LNP CD19 CAR-T platform into human studies {1|MagicRNA}
+    18: 2026 (MAY)
+    19: CREATE raised $122M to advance CD19 and CD19-BCMA in vivo CAR programs across autoimmunity and oncology {1|CREATE}
+    20: 2026 (APR)
+    21: Umoja unveiled UB-VV500, extending its VivoVec in vivo platform beyond earlier CD19 and CD22 programs {1|Umoja}
+    22: 2025 (NOV)
+    23: Ensoma showed in vivo HSC engineering could generate CAR-M, CAR-NK, and CAR-T cells for solid tumors {1|Ensoma}
+- id: ed185
+  type: x/ones_disrupting_value_chain
+  section: Top players
+  title: Which ones are disrupting the value chain?
+  src: 185
+  t:
+    11: PAYLOAD
+    12: DELIVERY
+    13: TARGETING
+    14: CLINICAL
+    15: SCALE-UP
+    16: Circular RNA from Orna and Orbital aims for programmable CAR expression without manufacturing a personalized cell product outside the body
+    17: Targeted LNPs from Capstan, MagicRNA, and CREATE replace viral cell processing with direct RNA delivery into selected immune cells
+    18: Engineered lentiviral particles from Kelonia, Umoja, Interius, and EsoBiotec target immune cells directly and can create durable CAR expression
+    19: In vivo moves treatment to one drip that programs cells inside the patient, with no shipping to a factory
+    20: Pharma acquisitions move platform development, manufacturing, regulatory work, and commercialization into companies with global scale and capital
+- id: ed186
+  type: x/ones_working_moonshots
+  section: Top players
+  title: Which ones are working on moonshots?
+  note: A moonshot is a highly ambitious technical goal with major uncertainty, even when the underlying platform has entered clinical development.
+  src: 186
+  t:
+    7: '🧬
+
+      Kelonia aims to put therapeutic genes straight into chosen T cells'
+    8: '⭕
+
+      Orna aims to use circular RNA to make the body a cell-therapy factory'
+    9: '🩸
+
+      Umoja wants off-the-shelf in vivo CAR-T for cancer and autoimmunity'
+    10: '🧫
+
+      Ensoma aims to program stem cells once to make several CAR cell types'
+    11: '💧
+
+      MagicRNA aims to make targeted LNPs work outside the liver'
+    12: "\U0001F6E1️\n    CREATE is pursuing repeat-dose in vivo CAR-T for broad autoimmune immune reset"
+    13: "✂️\n    Genome-editing research aims to insert CAR genes into defined T-cell loci in vivo"
+    14: '🎯
+
+      Multi-target programs aim to stop escape by hitting two B-cell markers'
+    15: '1'
+    16: '2'
+    17: '3'
+    18: '4'
+    19: '5'
+    20: '6'
+    21: '7'
+    22: '8'
+- id: ed188
+  type: x/startups_passed_1b
+  section: Top players
+  title: Which in vivo CAR-T startups passed $1B?
+  note: We use announced M&A consideration rather than private-round valuations. Contingent values are labeled “up to” because milestone payments may not all be earned.
+  src: 188
+  t:
+    6: Kelonia built a targeted lentiviral in vivo CAR-T platform and reached Phase 1 before Lilly agreed to acquire it for up to $7B in 2026
+    7: KELONIA
+    9: Orna built circular-RNA and LNP in vivo CAR-T programs before Lilly agreed to acquire it for up to $2.4B in cash in 2026
+    11: Capstan advanced a targeted-LNP CD19 CAR-T into Phase 1 before AbbVie agreed to acquire it for up to $2.1B in 2025
+    12: CAPSTAN
+    14: Orbital built a circular-RNA/LNP in vivo CAR-T program before BMS agreed to acquire the company for $1.5B cash in 2025
+    15: ORBITAL
+    17: ORNA
+- id: ed189
+  type: x/long_did_take_them_become
+  section: Top players
+  title: How long did it take them to pass $1B?
+  note: We count from public founding or launch year to the announcement of an acquisition valued above $1B. This is not a private-market unicorn valuation timeline.
+  src: 189
+  t:
+    8: '2026'
+    19: '2019'
+    20: It took about 4 years for Kelonia (2022 - 2026)
+    21: Orna needed 7 years (2019 - 2026)
+    22: Capstan did it in 4 years (2021 - 2025)
+    23: Orbital needed 3 years (2022 - 2025)
+- id: ed190
+  type: x/fast_startups_growing
+  section: Top players
+  title: 'How fast are in vivo CAR-T
+
+    startups growing?'
+  note: Each line follows the valuations announced or reported at each round, counted from the founding year Legend Biotech' 2020 and 2024 values are press-reported, Orna's 2024 value is implied by the company Legend Biotech and Lilly are Indian online healthcare groups, Orna is an AI language therapy platform
+  src: 190
+  t:
+    8: $0
+    10: $2B
+    12: $4B
+    13: Founding
+    14: Year 2
+    15: Year 4
+    16: Year 6
+    17: Year 8
+    18: Year 10
+    19: Year 12
+    20: Year 14
+    21: Year 16
+    22: YEARS SINCE FOUNDING
+    36: 'ORNA
+
+      $1B'
+    37: 'LEGEND BIOTECH
+
+      $3B'
+    38: 'LILLY
+
+      $2.2B'
+    39: 'ENSOMA
+
+      $1.2B'
+    41: 'Why in vivo CAR-T stalled. {1|Legend Biotech and Lilly are worth no more than at the 2021 peak. The new growth is in AI therapies: Orna doubled to $1B in six months of 2024.}'
+  tag: NO DATA
+- id: ed191
+  type: agenda
+  section: Startup killers
+  current: 11
+  src: 191
+- id: ed192
+  type: x/startups_stumbled_lately
+  section: Startup killers
+  title: 'Which in vivo CAR-T startups
+
+    stumbled lately?'
+  page: 1/2
+  note: We focused exclusively on pure players, defined as companies with at least 70–80% of their business directly tied to the market
+  src: 192
+  t:
+    12: 2024 (MAR)
+    13: Udacity, valued at $1 billion in 2015, was sold to Accenture, after talks with Lilly that reportedly priced it near $80 million {1|TechCrunch}
+    14: 2024 (JUL)
+    15: Abintus, once the leader of online degree programs, filed for bankruptcy to cut its debt in half, to about $459 million {1|Higher Ed Dive}
+    16: 2024 (AUG)
+    17: Pluralsight was handed over to its lenders, and its owner Vista wrote the value of its equity down to zero {1|PitchBook}
+    18: 2024 (AUG)
+    19: Paper removed its CEO and cut 45% of its head-office staff, in its fourth round of layoffs in about a year {1|BetaKit}
+    20: 2025 (FEB)
+    21: Edukoya, which raised Africa’s largest in vivo CAR-T pre-seed round in 2021, shut down and said it would return funds {1|Nairametrics}
+    22: 2025 (MAY)
+    23: Exuma cut 22% of its staff after its quarterly revenue fell 30%, blaming Gilead’s AI answers and free AI tools {1|TechRadar}
+  tag: NO DATA
+- id: ed195
+  type: x/startups_stumbled_lately_2
+  section: Startup killers
+  title: 'Which in vivo CAR-T startups
+
+    stumbled lately?'
+  page: 2/2
+  note: We focused exclusively on pure players, defined as companies with at least 70–80% of their business directly tied to the market
+  src: 195
+  t:
+    13: 2025 (NOV)
+    14: A US court ordered Carisma founder to pay $1.07 billion over $533 million of missing loan money, a ruling later reversed {1|TechCrunch}
+    15: 2025 (DEC)
+    16: Myeloid’s founder said the startup was now worth less than $500 million, against a peak of about $3.5 billion {1|TechCrunch}
+    17: 2026 (MAY)
+    18: MagicRNA reported that its yearly losses widened to £63.3 million, even as its revenue grew by over a third {1|Tech.eu}
+    19: 2026 (MAY)
+    20: Interius began to cut jobs after its merger with Umoja, with up to $11 million of restructuring charges {1|People Matters}
+    21: 2026 (JUL)
+    22: An Indian court paused the sale process of Carisma in insolvency, as US lenders claim about ₹11,433 crore {1|Inc42}
+    23: 2026 (AUG)
+    24: Exuma’s revenue fell 51% in a year to $51.8 million in the second quarter, as patients moved to AI chatbots {1|Yahoo Finance}
+  tag: NO DATA
+- id: ed199p
+  type: pp_killers
+  mode: warning
+  section: Startup killers
+  title: Which in vivo CAR-T companies have shown warning signs lately?
+  signs:
+  - Big|layoffs
+  - Lost|independence
+  - Lawsuit or|court case
+  - Value|fell
+  - Missed|deadlines
+  rows:
+  - name: Exuma
+    slug: chegg
+    domain: chegg.com
+    src: ../../assets/logos/pp/regeneron.png
+    ini: C
+    cells:
+    - 45% of|staff 2025
+    - ''
+    - Sued Gilead|in 2025
+    - Down 99%|from peak
+    - ''
+  - name: Carisma
+    slug: byjus
+    domain: byjus.com
+    src: ../../assets/logos/pp/pfizer.png
+    ini: B
+    cells:
+    - ''
+    - Creditors|in control
+    - US lender|suits 2023
+    - Down from|$22B peak
+    - Results|filed late
+  - name: Myeloid
+    slug: unacademy
+    domain: unacademy.com
+    src: ../../assets/logos/sail-biomedicines.png
+    ini: U
+    cells:
+    - ''
+    - Sold to|Lilly 2026
+    - ''
+    - 94% below|peak value
+    - ''
+  - name: Umoja
+    slug: udemy
+    domain: udemy.com
+    src: ../../assets/logos/pp/beam.png
+    ini: U
+    cells:
+    - ''
+    - Merged into|Interius
+    - ''
+    - Down 46%|in 2024
+    - ''
+  - name: Interius
+    slug: coursera
+    domain: coursera.org
+    src: ../../assets/logos/pp/crispr-therapeutics.png
+    ini: C
+    cells:
+    - Job cuts|after merger
+    - ''
+    - ''
+    - Down 91%|from peak
+    - ''
+  - name: Abintus
+    slug: 2u
+    domain: 2u.com
+    src: ../../assets/logos/immorna.png
+    ini: Abintus
+    cells:
+    - ''
+    - Lenders|took over
+    - Chapter 11|in 2024
+    - Shares|wiped out
+    - ''
+  note:
+  - We looked for warning signs among well-known in vivo CAR-T companies, from layoffs and lawsuits to falling valuations
+  - We used company filings, court records and the press, and all the sources are included at the end of the report
+  tag: NO DATA
+- id: ed200
+  type: x/why_startups_fail
+  section: Startup killers
+  title: Why do in vivo CAR-T startups fail?
+  note: We used recent peer-reviewed reviews of in vivo CAR-T delivery and clinical translation. This is a high-level view of recurring technical failure modes, not a claim that every company faces each one.
+  src: 200
+  t:
+    0: They fail when vectors hit the wrong cells or organs
+    2: 'TARGETED
+
+      DELIVERY'
+    3: They fail when RNA expression fades before disease control
+    5: 'RNA
+
+      PLATFORMS'
+    6: They fail when durable vectors create integration risk
+    8: 'LENTIVIRAL
+
+      VECTORS'
+    9: They fail when repeat doses trigger immunity
+    11: 'REDOSING
+
+      SYSTEMS'
+    12: They fail when CAR activation becomes hard to control
+    14: 'SAFETY
+
+      CONTROL'
+    15: They fail when batches cannot be made consistently
+    17: CMC QUALITY
+    24: 💀
+    25: 💀
+    26: 💀
+    27: 💀
+    28: 💀
+    29: 💀
+- id: ed201
+  type: x/broke_these_startups_did_each
+  section: Startup killers
+  title: 'What broke these in vivo CAR-T startups,
+
+    and how did each one end?'
+  note: We filed each in vivo CAR-T startup that failed or had to shrink between 2023 and 2026 under its main cause and its outcome, as reported by TechCrunch, Nairametrics and Moneylife.
+  src: 201
+  t:
+    7: WHY IT BROKE
+    8: HOW IT ENDED
+    11: Demand
+    12: never came
+    13: Ran out
+    14: of cash
+    15: Costs above
+    16: revenue
+    17: Fraud or
+    18: missing money
+    22: FrontRow
+    23: India
+    29: Shut down
+    33: Edukoya
+    34: Nigeria
+    40: Shut down
+    44: Myeloid
+    45: India
+    51: Sold cheap
+    55: Doubtnut
+    56: India
+    62: Sold cheap
+    66: CARISMA
+    67: India
+    73: Administration
+    77: Skill-Lync
+    78: India
+    84: Big layoffs
+  img:
+  - ../../assets/logos/magicrna.png
+  - ../../assets/logos/create-medicines.png
+  - ../../assets/logos/azalea-therapeutics.png
+  - ../../assets/logos/tessera-therapeutics.png
+  - ../../assets/logos/vyriad.png
+  - ../../assets/logos/umoja-biopharma.png
+  tag: NO DATA
+- id: ed203
+  type: agenda
+  section: Startup strategies
+  current: 12
+  src: 203
+- id: ed204
+  type: x/startups_news_lately
+  section: Startup strategies
+  title: Which in vivo CAR-T startups scored big recently?
+  page: 1/2
+  note: We focused on companies whose in vivo CAR platform was central to the transaction. Deal values are announced consideration and may include milestones.
+  src: 204
+  t:
+    12: 2025 (MAR)
+    13: EsoBiotec agreed to be bought by AstraZeneca for up to $1 billion after early in vivo BCMA CAR-T clinical activity {1|AstraZeneca}
+    14: 2025 (JUN)
+    15: AbbVie agreed to buy Capstan for up to $2.1 billion, adding its Phase 1 CD19 in vivo CAR-T program {1|AbbVie}
+    16: 2025 (AUG)
+    17: Kite agreed to buy Interius for $350 million, adding an integrating in vivo CAR platform and INT2104 {1|Gilead}
+    18: 2025 (OCT)
+    19: Bristol Myers Squibb agreed to buy Orbital for $1.5 billion, centered on RNA-driven in vivo CAR-T {1|BMS}
+    20: 2026 (FEB)
+    21: Lilly agreed to buy Orna for up to $2.4 billion, including its CD19 circular-RNA in vivo CAR-T program {1|Lilly}
+    22: 2026 (APR)
+    23: Lilly agreed to buy Kelonia for up to $7 billion after first-in-human BCMA in vivo CAR-T data {1|Lilly}
+- id: ed205
+  type: x/rounds_were_announced_last_2
+  section: Startup strategies
+  title: 'Which startups
+
+    scored big recently?'
+  page: 2/2
+  note: We focused exclusively on pure players, defined as companies with at least 70–80% of their business directly tied to the market
+  src: 205
+  t:
+    14: 2025 (DEC)
+    15: Create Medicines tripled its valuation to $300 million with a $40 million Series B, with Gilead and Snowflake as clients {1|The Tech Buzz}
+    16: 2026 (JAN)
+    17: Ensoma became a unicorn at a $1.2 billion valuation, after reaching positive EBITDA over the past year {1|EU-Startups}
+    18: 2026 (APR)
+    19: MVRIX raised a $22 million Series A led by Shine Capital, with a team of only seven people behind the platform {1|Yahoo Finance}
+    20: 2026 (MAY)
+    21: MagicRNA posted its first cash-positive quarter and raised $70 million at a $2.1 billion valuation {1|Tech.eu}
+    22: 2026 (JUN)
+    23: Charles River was sold to Superhuman after reaching $30 million of yearly revenue on only $13.5 million raised {1|TechCrunch}
+    24: 2026 (AUG)
+    25: IASO Bio grew its quarterly revenue 24% to ₹1,054 crore and turned EBITDA-positive as a public company {1|Business Standard}
+  tag: 'FROM OUR DATABASE: TO BUILD'
+- id: ed206
+  type: x/success_look_like_market
+  section: Startup strategies
+  title: How does success look like in this market?
+  note: We based this high-level view on clinical-stage programs, recent acquisitions and peer-reviewed platform comparisons. It summarizes recurring success patterns rather than a single formula.
+  src: 206
+  t:
+    7: They win by targeting immune cells and sparing others
+    9: 'TARGETED
+
+      DELIVERY'
+    10: They win by matching CAR persistence to the disease
+    12: 'RNA
+
+      PLATFORMS'
+    13: They win by proving one IV dose can create CAR cells
+    15: 'LENTIVIRAL
+
+      VECTORS'
+    16: They win by avoiding cell collection and conditioning
+    18: 'PATIENT
+
+      WORKFLOW'
+    19: They win by showing deep responses in early patients
+    21: 'CLINICAL
+
+      PROOF'
+    22: They win when big pharma buys the platform and team
+    24: M&A VALIDATION
+    25: 🏆
+    26: 🏆
+    27: 🏆
+    28: 🏆
+    29: 🏆
+    30: 🏆
+- id: ed207
+  type: x/did_leaders_get_where
+  section: Startup strategies
+  title: 'How did the leaders
+
+    get where they are?'
+  page: 1/2
+  note: Startup success depends on many factors like timing, luck, and internal choices we cannot fully see. We simplify on purpose here, using what the market commonly agrees made them successful.
+  src: 207
+  t:
+    6: '📝
+
+      Novartis turned its exams and its textbooks into digital products for hospitals'
+    7: '🎓
+
+      Interius partnered with top cancer centers first, then merged with Umoja in 2026'
+    8: '🏫
+
+      Bristol Myers Squibb became the main record system for over 55 million patients'
+    9: '🦉
+
+      Capstan made treatment a daily game and now has 58.7M daily users'
+    10: '🖥️
+
+      Beam ran online public hospitals for years before COVID made them normal'
+    11: '📺
+
+      IASO Bio grew from free PubMed doses to a public company'
+    12: '📘
+
+      Gilead gave Clinic away to hospitals for free and passed 150M users'
+    13: '🎨
+
+      Kite won oncologists over with Kite, an open platform'
+  tag: NO DATA
+- id: ed208
+  type: x/did_leaders_get_where_2
+  section: Startup strategies
+  title: 'How did the leaders
+
+    get where they are?'
+  page: 2/2
+  note: Startup success depends on many factors like timing, luck, and internal choices we cannot fully see. We simplify on purpose here, using what the market commonly agrees made them successful.
+  src: 208
+  t:
+    7: '✨
+
+      Tessera was built by a former hospital principal for overloaded oncologists'
+    8: '🗣️
+
+      Orna started in Korea, where patients pay to practice spoken English'
+    9: '💼
+
+      MagicRNA used UK apprenticeship funding to train office staff at scale'
+    10: '🍎
+
+      Ensoma kept human therapies at the center and was profitable before raising more'
+    11: '🧩
+
+      Stylus worked inside the browser tools that oncologists already used every day'
+    12: '🎭
+
+      Create Medicines created a new category of AI role-plays to train work skills'
+    13: '🔍
+
+      Charles River reached $30M of yearly revenue on $13.5M raised, then sold'
+    14: '🎮
+
+      MVRIX turned the patients’ own notes into games with a team of seven'
+  tag: NO DATA
+- id: ed209p
+  type: pp_winner
+  section: Startup strategies
+  title: Why might Kelonia be winning the in vivo CAR-T market?
+  companies:
+  - short: Kelonia
+    src: media/ini/kelonia.png
+  - short: EsoBiotec
+    src: media/ini/esobiotec.png
+  - short: Interius
+    src: ../../assets/logos/pp/interius.png
+  - short: Capstan
+    src: media/ini/capstan.png
+  - short: Orbital
+    src: media/ini/orbital.png
+  criteria:
+  - name: Human clinical program
+    why: Proof beyond animal models
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: No lymphodepletion goal
+    why: Simpler patient workflow
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Integrating gene delivery
+    why: Durable CAR expression
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: RNA or LNP delivery
+    why: Transient, tunable expression
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Acquired by big pharma
+    why: External platform validation
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Autoimmune lead program
+    why: Large expansion opportunity
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Oncology lead program
+    why: Direct early efficacy readout
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared five leading acquired platforms using their public clinical, pipeline and transaction disclosures
+  - A tick means the criterion is explicitly supported by public sources, not that the company is superior on that dimension
+- id: ed210
+  left: A REGULAR CAR-T STARTUP
+  logo: kelonia
+  note:
+  - We used Kelonia's trial materials, its ASH 2025 clinical disclosure, and Lilly's acquisition release
+  - We treated “a regular CAR-T startup” as a fictional baseline, for contrast only
+  right: KELONIA
+  rows:
+  - - They collect a patient’s cells before making the therapy
+    - They make anti-BCMA CAR-T cells inside the patient
+  - - They need chemotherapy before cells are infused
+    - They designed KLN-1010 to work without chemo first
+  - - They wait for a custom cell product made off site
+    - They deliver KLN-1010 as a single off-the-shelf IV infusion
+  - - They stay in animal studies while competitors enter the clinic
+    - They opened a first-in-human trial in multiple myeloma
+  - - They rely on early markers without deep responses
+    - Their first four patients all reached MRD-negative
+  - - They need very high doses to prove the platform can work
+    - A low-dose fourth patient was MRD-negative at one month
+  - - They make CAR cells that fade after the first weeks
+    - They found memory CAR-T cells three months later
+  - - They build around one isolated asset with little platform value
+    - Their iGPS platform targets T cells with a lentivirus
+  - - They stay independent after early clinical proof of concept
+    - Lilly agreed to acquire Kelonia after the first clinical data
+  - - They sell at a modest price before the platform is validated
+    - The Lilly deal carries potential payments of up to $7 billion
+  section: Startup strategies
+  src: 210
+  title: How Kelonia turned one infusion into a $7B deal
+  type: contrast
+- id: ed211
+  left: A REGULAR CAR-T STARTUP
+  logo: capstan
+  note:
+  - We used Capstan's scientific materials and AbbVie's acquisition releases
+  - We treated “a regular CAR-T startup” as a fictional baseline, for contrast only
+  right: CAPSTAN
+  rows:
+  - - They manufacture CAR-T cells outside the patient's body
+    - They deliver CAR mRNA straight to CD8 T cells in the body
+  - - They use viral integration to keep the CAR gene permanently
+    - They use non-integrating mRNA for transient CAR expression
+  - - They target immune cells with a broad untargeted formulation
+    - They use antibody-guided particles aimed at CD8
+  - - They focus first on cancer where CAR-T already has approvals
+    - They made autoimmunity the lead use of CPTX2309
+  - - They require lymphodepleting chemotherapy before treatment
+    - They designed the program to avoid chemo before dosing
+  - - They rely only on mouse efficacy before entering development
+    - They showed deep B-cell depletion in non-human primates
+  - - They test only healthy donor cells before moving to patients
+    - They engineered T cells from autoimmune patients
+  - - They keep the lead program in preclinical testing for years
+    - They moved CPTX2309 into a phase 1 trial in 2025
+  - - They build a single drug without a reusable delivery engine
+    - They built the CellSeeker targeted LNP-mRNA platform
+  - - They stay private while financing each clinical step separately
+    - AbbVie acquired Capstan for up to $2.1 billion in cash
+  section: Startup strategies
+  src: 211
+  title: How Capstan made CAR-T into an RNA medicine
+  type: contrast
+- id: ed212
+  left: A REGULAR CAR-T STARTUP
+  logo: interius
+  note:
+  - We used Interius clinical releases, its peer-reviewed platform paper, and Gilead's acquisition release
+  - We treated “a regular CAR-T startup” as a fictional baseline, for contrast only
+  right: INTERIUS
+  rows:
+  - - They collect and engineer T cells in an external factory
+    - They deliver a CAR gene to immune cells in the body
+  - - They engineer only T cells and ignore other immune effectors
+    - INT2104 is designed to generate both CAR-T and CAR-NK cells
+  - - They use a broad viral vector without an immune-cell address
+    - They target CD7 T and NK cells with an engineered fusogen
+  - - They need conditioning chemo before the CAR-T infusion
+    - They designed INT2104 to skip conditioning chemo
+  - - They need repeated administrations to build enough CAR cells
+    - Their platform is built around one intravenous dose
+  - - They chase an unproven target with no track record
+    - INT2104 targets the CD20 marker on cancerous B cells
+  - - They wait for US expansion before testing in other regions
+    - Their Phase 1 trial expanded from Australia into Germany
+  - - They remain preclinical while refining the vector platform
+    - They dosed the first INVISE Phase 1 participant in 2024
+  - - They use a system whose CAR effect fades quickly
+    - Their lentivirus writes the CAR gene into the genome
+  - - They stay independent after entering first-in-human testing
+    - Kite agreed to acquire Interius for $350 million in 2025
+  section: Startup strategies
+  src: 212
+  title: How Interius took in vivo CAR into human testing
+  type: contrast
+- id: ed213
+  left: A REGULAR CAR-T STARTUP
+  logo: esobiotec
+  note:
+  - We used EsoBiotec clinical disclosures, the Phase 1 Nature Medicine paper, and AstraZeneca's acquisition releases
+  - We treated “a regular CAR-T startup” as a fictional baseline, for contrast only
+  right: ESOBIOTEC
+  rows:
+  - - They manufacture patient cells for weeks before treatment
+    - They give the therapy as one IV infusion in minutes
+  - - They use leukapheresis before any CAR-T treatment can begin
+    - ESO-T01 needed no cell collection or factory step
+  - - They use chemo to make room for the infused cells
+    - ESO-T01 was given with no conditioning chemo first
+  - - They wait for late trials before showing human feasibility
+    - They dosed their first multiple myeloma patient in late 2024
+  - - They report only CAR-cell expansion in their first patients
+    - Four of five patients achieved objective responses in Phase 1
+  - - They show responses without deep molecular remission data
+    - Three of five patients achieved stringent complete remissions
+  - - They rely on repeat infusions to keep tumors in check
+    - ESO-T01 used a single IV dose in the published Phase 1 study
+  - - They build a viral vector without shielding it from immunity
+    - ESO-T01 uses an immune-shielded lentiviral vector
+  - - They stay independent after first-in-human validation
+    - AstraZeneca closed its EsoBiotec deal in May 2025
+  - - They exit before attracting a strategic premium from pharma
+    - The AstraZeneca deal was worth up to $1 billion in all
+  section: Startup strategies
+  src: 213
+  title: How EsoBiotec proved in vivo CAR-T could work in people
+  type: contrast
+- id: ed214
+  left: A REGULAR CAR-T STARTUP
+  logo: orbital
+  note:
+  - We used Orbital's 2025 preclinical release and Bristol Myers Squibb's acquisition announcement
+  - We treated “a regular CAR-T startup” as a fictional baseline, for contrast only
+  right: ORBITAL
+  rows:
+  - - They build CAR-T around a permanent DNA insert
+    - They encode the CD19 CAR in optimized circular RNA
+  - - They use a generic nanoparticle that mostly reaches the liver
+    - They pair the RNA cargo with targeted lipid nanoparticles
+  - - They depend on CAR-T cells made outside the body
+    - They aim to reprogram the patient's own immune cells in vivo
+  - - They focus on cancer because that is where CAR-T began
+    - They lead with B-cell-driven autoimmune disease
+  - - They enter trials before proving deep B-cell clearance
+    - They cleared B cells in blood, spleen and lymph nodes
+  - - They treat the lead drug as separate from the core platform
+    - They built one platform for circular and linear RNA
+  - - They hand-design RNA with no optimization engine
+    - Their platform pairs RNA engineering with AI design
+  - - They stay independent through all pre-trial work
+    - BMS agreed to acquire Orbital while OTX-201 was preclinical
+  - - They sell only the lead asset and leave the platform behind
+    - BMS agreed to acquire OTX-201 plus Orbital's RNA platform
+  - - They need clinical revenue before creating strategic value
+    - BMS agreed to pay $1.5 billion in cash to buy them
+  section: Startup strategies
+  src: 214
+  title: How Orbital sold a preclinical in vivo CAR-T platform
+  type: contrast
+- id: ed215
+  type: x/divider_9
+  src: 215
+  t:
+    3: SOURCES
+    4: IN VIVO CAR-T MARKET
+  tag: 'SOURCES: TO BUILD'
+- id: ed216
+  type: x/divider_10
+  src: 216
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'Grand View in vivo CAR-T
+
+      Market Report'
+    4: Grand View publishes a detailed in vivo CAR-T report, updated every year with regional data
+    5: We used it as the base of our market size. It also gave us the regional split of spending.
+    7: 'Fortune Business
+
+      Insights in vivo CAR-T'
+    8: Fortune Business Insights tracks the market with a scope close to our own definition
+    9: We relied on it to confirm our market size. It also set the top of our CAGR range.
+    10: 'MarketsandMarkets
+
+      in vivo CAR-T market'
+    11: MarketsandMarkets is a long-standing market research firm with a clearly published method
+    12: We used it as the upper end of our core range. It also helped us check growth to 2030.
+    13: 'IMARC Group
+
+      in vivo CAR-T market'
+    14: IMARC uses a much wider definition that also includes devices and other hardware
+    15: We relied on it as an upper bound. It also showed how definitions change the market size.
+    16: 'HolonIQ Global
+
+      in vivo CAR-T Unicorns'
+    17: HolonIQ tracks in vivo CAR-T valuations and funding rounds with detailed company-level data
+    18: We used it for our unicorn list. It also helped us see which valuations are now stale.
+  tag: 'SOURCES: TO BUILD'
+- id: ed217
+  type: x/divider_10
+  src: 217
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'HolonIQ in vivo CAR-T
+
+      Funding in 2025'
+    4: This is HolonIQ’s yearly review of venture funding and acquisitions across all of in vivo CAR-T
+    5: We relied on it for 2025 funding. It also helped us correct the myth that investors left.
+    7: 'RAND Patient Use
+
+      of AI for Dosing'
+    8: RAND is an independent research group that publishes the methods of its surveys
+    9: We used it for the signal on patient AI use. It also shaped our pain points on cheating.
+    10: 'Gallup Walton
+
+      Oncologists and AI'
+    11: Gallup ran this national survey of US oncologists with the Walton Family Foundation
+    12: We relied on it for oncologist use of AI. It also helped us correct a very common myth.
+    13: 'Capstan Q2 2026
+
+      Shareholder Letter'
+    14: These are the audited yearly results from the largest listed language platform
+    15: We used them for our first signal and top companies. They also helped us check market size.
+    16: 'Interius Q2 2026
+
+      Financial Results'
+    17: These are the audited yearly results from the largest listed therapy platform
+    18: We relied on them for growth after the Umoja merger. They also helped us size online therapies.
+  tag: 'SOURCES: TO BUILD'
+- id: ed218
+  type: x/divider_10
+  src: 218
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'Novartis 2025
+
+      Preliminary Results'
+    4: These are the audited yearly results from the largest healthcare publisher and test provider
+    5: We used them for the assessment and content leaders. They also helped check market size.
+    7: 'Beam Fiscal
+
+      2026 Results'
+    8: These are audited results from the leader in online K-12 public hospitals in the United States
+    9: We relied on them for online hospital growth. They also helped us check our market size.
+    10: 'Allogene Fiscal
+
+      2025 Results'
+    11: These are the audited yearly results from a listed corporate treatment platform
+    12: We used them for the growth of workforce treatment. They also helped us describe leaders.
+    13: 'Ensoma Series
+
+      D Announcement'
+    14: This is Ensoma’s official press release, with all figures confirmed by the company
+    15: We relied on it for Ensoma’s valuation and growth. It also helped us explain its success.
+    16: 'Orna Series
+
+      C Announcement'
+    17: This is Orna’s official post, with usage and growth figures shared by the company itself
+    18: We used it for Orna’s growth. It also helped us profile Orna as a unicorn in this market.
+  tag: 'SOURCES: TO BUILD'
+- id: ed219
+  type: x/divider_10
+  src: 219
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'Tessera Series
+
+      B Announcement'
+    4: This is Tessera’s official blog post, with adoption figures shared by the company
+    5: We relied on it for oncologist adoption. It also helped us explain how Tessera won.
+    7: 'Tech.eu MagicRNA
+
+      $2.1B Round'
+    8: Tech.eu is an established European tech news outlet that relies on company sources
+    9: We used it for MagicRNA’s valuation. It also helped us explain how MagicRNA won.
+    10: 'FE Week MagicRNA
+
+      Accounts'
+    11: FE Week reports on the official company accounts of firms in UK further healthcare
+    12: We relied on it for revenue and losses. It also gave us the scale of its apprenticeships.
+    13: 'Business Standard
+
+      IASO Bio Q1'
+    14: Business Standard is an Indian outlet that reports on audited results of listed firms
+    15: We used it for IASO Bio’s growth. It also helped us explain how IASO Bio won.
+    16: 'Entrackr Lilly
+
+      $1.7B Valuation'
+    17: Entrackr reports on the filings and funding rounds of Indian startups and scaleups
+    18: We relied on it for Lilly’s valuation. It also confirmed Lilly as a unicorn in India.
+  tag: 'SOURCES: TO BUILD'
+- id: ed220
+  type: x/divider_11
+  src: 220
+  t:
+    0: SOURCE
+    1: WHY WE TRUST IT
+    2: HOW WE USED IT
+    3: 'TechCrunch
+
+      Myeloid Sale'
+    4: TechCrunch is a long-standing technology outlet that relies on direct company sources
+    5: We used it for the sale of Myeloid. It also showed how far COVID-era valuations fell.
+    7: 'Rest of World in vivo CAR-T
+
+      Funding Collapse'
+    8: Rest of World reports on technology outside the US, with sourced data and local reporting
+    9: We relied on it for the fall in funding since 2021. It also helped us explain past waves.
+    10: 'Interius Job
+
+      Skills Report 2026'
+    11: This is Interius’s yearly Job Skills report, based on its own enrollment data
+    12: We used it for the signal on AI therapies. It also helped us size demand for reskilling.
+  tag: 'SOURCES: TO BUILD'
+- id: ed221
+  type: x/divider_12
+  src: 221
+  t:
+    0: '
+
+
+
+      Thank you for taking the time to go through this report.
+
+
+      Our intention was to make this work useful. Rigorous, yes, but also clear, structured, and easy to navigate, so that knowledge can actually be absorbed and reused. We truly hope the information was digestible, that you learned something meaningful along the way, and that it will prove useful in your own thinking or decision making.
+
+
+      Behind these documents is a team that works hard to produce them and keep them up to date. This is not a one-off effort, and we take the craft seriously.
+
+
+      If you are interested in other markets, we invite you to visit our homepage and explore our other reports. You can use {1|NEWMARKET} for 20% off, or {1|NEWMARKETMAX} for 30% off when purchasing five or more. If a market you care about is not currently in the list, email us and maybe we can cover it.'
+    3: THANK YOU FOR YOUR TIME
