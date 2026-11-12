@@ -83,3 +83,7 @@ Refused: value-ladder as a list of deal values (1A), key-trend for a fall in a t
 | value-ladder | ranked values of the biggest players (EdTech 36) | 4-6 valuations | Market opportunity | several $1B+ |
 | icon-grid | a rate shown as a grid of icons (EdTech 37) | one striking rate | Market opportunity | easy to picture |
 | funding-event | 4 dated steps of a funding story (EdTech 38) | yearly funding + one event | Market opportunity | ≥ 2x |
+
+## New share templates (12 Nov 2026, to validate)
+`templates/slides/share_*.j2` (bars100, rings, slope, waffle, hero, gauges, bubbles): one share per year, fully data-driven (`years: [{x, k, n, p}]`, `big`, `story`, `on`, `off`, `what`). Examples in `decks/extra-invivo-v`. Pierre (12 Nov): the dot rows of the converted TEMP slides are ugly with few rounds; never show 40 slides in the same format, vary the templates.
+Refused on 12 Nov: N8 searches vs funding (reads as hype, not opportunity), N10 dollar split (unclear), N11 key trend 2021 vs 2025 (backward-looking), N7 funding share bars.

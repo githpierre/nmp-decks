@@ -1,0 +1,6 @@
+<div class="body" style="display:block"><div class="sh">
+{% for y in s.years %}{% set r = 70 %}{% set c = 3.14159 * r %}<div style="position:absolute;left:{{ loop.index0 * 195 }}px;top:70px;width:180px;text-align:center">
+ <svg width="180" height="100" viewBox="0 0 180 100"><path d="M20 90 A70 70 0 0 1 160 90" fill="none" stroke="#1C4A60" stroke-width="18"/><path d="M20 90 A70 70 0 0 1 160 90" fill="none" stroke="#FB0161" stroke-width="18" stroke-dasharray="{{ c * y.p / 100 }} {{ c }}"/>
+ <text x="90" y="86" text-anchor="middle" fill="#fff" font-size="24" font-weight="700" font-family="Lexend">{{ y.p }}%</text></svg>
+ <div class="yr" style="margin-top:10px">{{ y.x }}</div><div class="sub" style="margin-top:4px">{{ y.k }} of {{ y.n }} rounds</div></div>{% endfor %}
+{% include 'slides/share_side.j2' %}</div></div>

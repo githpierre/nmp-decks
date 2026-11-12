@@ -1,0 +1,8 @@
+<div class="body" style="display:block"><div class="sh">{% set ys = s.years %}{% set W = 520 %}{% set H = 230 %}{% set ps = ys | map(attribute='p') | list %}{% set lo = [0, (ps | min) - 15] | max %}{% set hi = [100, (ps | max) + 15] | min %}
+<svg style="position:absolute;left:20px;top:20px" width="560" height="330" viewBox="0 0 560 330">
+ {% for y in ys %}{% set x = 40 + loop.index0 * (W - 40) / (ys|length - 1) %}<line x1="{{ x }}" y1="20" x2="{{ x }}" y2="{{ H + 20 }}" stroke="#334D54" stroke-dasharray="3 4"/><text x="{{ x }}" y="{{ H + 48 }}" text-anchor="middle" fill="#fff" font-size="12" font-weight="600" font-family="Lexend">{{ y.x }}</text>{% endfor %}
+ <polyline fill="none" stroke="#FB0161" stroke-width="4" stroke-linejoin="round" points="{% for y in ys %}{{ 40 + loop.index0 * (W - 40) / (ys|length - 1) }},{{ H + 20 - H * (y.p - lo) / (hi - lo) }} {% endfor %}"/>
+ {% for y in ys %}{% set x = 40 + loop.index0 * (W - 40) / (ys|length - 1) %}{% set yy = H + 20 - H * (y.p - lo) / (hi - lo) %}<circle cx="{{ x }}" cy="{{ yy }}" r="{{ 9 if loop.last else 6 }}" fill="{{ '#FB0161' if loop.last else '#062A3C' }}" stroke="#FB0161" stroke-width="3"/>
+ <text x="{{ x }}" y="{{ yy - 18 }}" text-anchor="middle" fill="#fff" font-size="{{ 22 if loop.last else 16 }}" font-weight="700" font-family="Lexend">{{ y.p }}%</text><text x="{{ x }}" y="{{ yy + 28 if yy < H - 20 else yy - 40 }}" text-anchor="middle" fill="#A9B8BE" font-size="10" font-family="Lexend">{{ y.k }} of {{ y.n }}</text>{% endfor %}
+ <line x1="20" y1="{{ H + 20 }}" x2="{{ W + 20 }}" y2="{{ H + 20 }}" stroke="#789096"/></svg>
+{% include 'slides/share_side.j2' %}</div></div>

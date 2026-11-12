@@ -1,0 +1,6 @@
+<div class="body" style="display:block"><div class="sh">{% set mx = s.years | map(attribute='n') | max %}
+<div class="lg" style="position:absolute;left:20px;top:0"><span><i style="background:#FB0161;border-radius:50%"></i>{{ s.on }}</span><span><i style="background:#1C4A60;border-radius:50%"></i>all rounds that year</span></div>
+{% for y in s.years %}{% set R = 78 * (y.n / mx) ** 0.5 %}{% set r = R * (y.k / y.n) ** 0.5 %}<div style="position:absolute;left:{{ 10 + loop.index0 * 190 }}px;top:40px;width:170px;text-align:center">
+ <svg width="170" height="170" viewBox="0 0 170 170"><circle cx="85" cy="{{ 165 - R }}" r="{{ R }}" fill="#1C4A60"/><circle cx="85" cy="{{ 165 - r }}" r="{{ r }}" fill="#FB0161"/></svg>
+ <div class="pc" style="margin-top:6px">{{ y.p }}%</div><div class="yr">{{ y.x }}</div><div class="sub">{{ y.k }} of {{ y.n }} rounds</div></div>{% endfor %}
+{% include 'slides/share_side.j2' %}</div></div>
