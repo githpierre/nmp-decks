@@ -408,3 +408,23 @@ Cause commune : je ne regardais que les slides nouvelles, pas les 190, et les co
 
 ## Étiquettes de graphique (12/11/2026, 20:38)
 - Une étiquette (« Sail $465M ») ne touche jamais une bulle ni une autre étiquette. sx_round_timeline essaie au-dessus, plus haut, à droite, à gauche, et garde la première place libre. Contrôle : LABEL_ON_SHAPE.
+
+## Nouveau marché : le process en 7 étapes (Pierre, 12/11/2026, 20:47 : « c'est vachement bien »)
+Au lancement d'un marché, Claude propose toujours ce plan étape par étape, en disant qui fait quoi :
+1. Pierre répond aux questions de départ : découpages des chapitres problèmes et création de valeur, couverture, termes Google Trends.
+2. Claude écrit le plan (`plans/<handle>.md`) et le zip des prompts de recherche : un prompt par chapitre, plus les signaux et les startups en difficulté.
+3. Pierre lance les prompts, rend les fichiers et donne les CSV Google Trends.
+4. Claude importe la recherche, remplit les slides tirées de la base, reprend les slides de la page produit, construit le chapitre Sources et fait UNE page de revue des slides complémentaires.
+5. Pierre valide cette page.
+6. Claude audite toutes les slides et livre le PDF « <Marché> - Qn AAAA - newmarketpitch.com ©.pdf ».
+7. Pierre lit tout le deck. Chaque remarque devient une règle plus un contrôle.
+
+## Base de startups et decks (Pierre, 12/11/2026)
+- On ne demande jamais à Pierre un prompt qui ajoute des levées ou modifie la base : le deck prend toujours le dernier état de la base (nmp-seo `data/startups`).
+- Au lancement, on lui dit jusqu'à quelle date la base est à jour (`coverage.csv`, dernier `searched_until` du marché) et l'écart avec aujourd'hui (« levées jusqu'au 04/11, on est le 12/11 : 8 jours »). Il met lui-même la base à jour dans une autre conversation s'il le souhaite.
+- Les catégories du deck respectent la définition du marché (`market_definitions.csv`) : une catégorie de sociétés que la définition exclut (fournisseurs de composants, modèles d'IA seuls…) n'est pas une catégorie du deck.
+
+## Couverture et Google Trends d'un nouveau marché (12/11/2026)
+- La couverture est la slide du marché dans le Google Slides « nmp - cover deck (1-225) », numéro de slide = uuid du marché (Humanoid Robotics : 42). On la récupère en image de 2000 px, dans `assets/covers/<handle>.jpg`.
+- Google Trends : Pierre donne plusieurs CSV. On garde le terme générique dont la courbe monte le plus nettement. Un terme à 0 presque partout (« … when ») ou ambigu (« optimus », qui couvre aussi Optimus Prime) est écarté.
+- Début octobre 2026, Google a divisé ses comptes par environ 3 pour tous les termes, y compris « online learning ». C'est une baisse de comptage, pas une chute d'intérêt. La règle « la courbe s'arrête à son dernier pic » la cache déjà.
