@@ -49,18 +49,6 @@ ed159:
   type: fundbars
   t: null
   bars:
-  - x: '2020'
-    v: 915
-    ann: Sana raised $700M before its IPO
-  - x: '2021'
-    v: 1076
-    ann: Tessera and Umoja raised over $200M each
-  - x: '2022'
-    v: 747
-    ann: Tessera raised $300M and Orna $221M
-  - x: '2023'
-    v: 670
-    ann: Orbital launched with a $270M Series A
   - x: '2024'
     v: 226
     ann: Capstan’s $175M was 77% of the year
@@ -71,8 +59,8 @@ ed159:
     v: 647
     ann: Sail took $465M from J&J
   note:
-  - We add up the disclosed equity rounds of in vivo CAR-T startups from 2020 to mid-November 2026
-  - IPOs, debt and grants are left out, and any round with no public amount is counted as zero
+  - We add up the disclosed equity rounds of in vivo CAR-T startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
 ed160:
   6: LNP-mRNA CAR-T took about 64% of the capital raised since 2024, far more than any other category
   7: Only 17 of the 30 rounds since 2024 disclosed an amount, and the median disclosed round was $45M
@@ -85,12 +73,12 @@ ed162:
   6: 'BEFORE
 
 
-    From 2020 to 2022, investors wrote very large checks to broad platforms like Sana, Tessera, Orna and Umoja. Startups in this market raised about $2.7 billion in three years, before any human data.'
+    From 2020 to 2022, investors wrote very large checks to broad platforms like Sana, Tessera, Orna and Umoja. The money came before any human data, on the promise of the technology alone.'
   7: 'AFTER
 
 
     Now, money follows clinical data and pharma partners. Big rounds are rare: Sail took $465M from J&J and CREATE raised $122M in 2026, while Chinese startups close most of the rounds.'
-  note: Insights come from our tracker of in vivo CAR-T equity rounds since 2020, from company releases and the press
+  note: Insights come from our tracker of in vivo CAR-T equity rounds, complete from January 2024, and from company releases and the press
 ed164:
   type: fundbars
   t: null

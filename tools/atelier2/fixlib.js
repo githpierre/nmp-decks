@@ -153,10 +153,17 @@ window.F = (() => {
   const emptyCards = sl => { const R = sl.getBoundingClientRect(); const box = e => { const r = e.getBoundingClientRect(); return {x: r.left - R.left, y: r.top - R.top, r: r.right - R.left, b: r.bottom - R.top}; };
     const T = [...sl.querySelectorAll('.raw > .rx-t')].map(e => ({e, ...box(e), empty: !e.textContent.trim()}));
     let hid = 0;
-    sl.querySelectorAll('.raw > svg.rx-s').forEach(sv => { const b = box(sv); if (b.r - b.x < 60 || b.b - b.y < 20) return;
+    sl.querySelectorAll('.raw > svg.rx-s').forEach(sv => { const b = box(sv); if (b.r - b.x < 60 || b.b - b.y < 20) return; const pd = sv.querySelector('path'); if (!pd || !/Z\s*$/i.test((pd.getAttribute('d') || '').trim())) return;   // only closed shapes are cards: a connector line is never hidden (12 Nov: slide 118 lost its lines)
       const ins = T.filter(t => t.x >= b.x - 2 && t.r <= b.r + 2 && t.y >= b.y - 2 && t.b <= b.b + 2);
-      if (ins.length && ins.every(t => t.empty)) { sv.style.display = 'none'; hid++; } });
+      if (ins.length && ins.every(t => t.empty)) { sv.style.display = 'none'; sv.dataset.emptied = 1; hid++; } });
     if (!hid) return;
+    // what sat on an emptied card goes with it: its icon tile, its pastille, its image (12 Nov 2026: two orphan tiles stayed under the 3 cards kept)
+    { const H = [...sl.querySelectorAll('.raw > svg.rx-s[data-emptied]')].map(e => { e.style.display = ''; const b = box(e); e.style.display = 'none'; return b; });
+      const V = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(e => !e.dataset.emptied && vis(e)).map(box).filter(b => b.r - b.x >= 60 && b.b - b.y >= 20);
+      const hit = (a, b, m) => a.x < b.r + m && a.r > b.x - m && a.y < b.b + m && a.b > b.y - m;
+      sl.querySelectorAll('.raw > svg.rx-s, .raw > img, .raw > .rx-i, .raw > .rx-t').forEach(e => { if (e.dataset.emptied || !vis(e)) return; const b = box(e); if (b.r - b.x >= 60 || b.b - b.y >= 60) return;
+        if (e.classList.contains('rx-t') && e.textContent.trim().length > 3) return;
+        if (H.some(h => hit(b, h, 6)) && !V.some(v => hit(b, v, 6))) { e.style.display = 'none'; e.dataset.emptiedDeco = 1; } }); }
     const body = [...sl.querySelectorAll('.raw > .rx-t, .raw > svg.rx-s, .raw > img')].filter(e => vis(e) && !(e.classList.contains('rx-t') && !e.textContent.trim())).map(e => ({e, ...box(e)})).filter(o => o.y > 140 && o.b < 600);
     if (!body.length) return; const top = Math.min(...body.map(o => o.y)), bot = Math.max(...body.map(o => o.b)), dy = Math.round((150 + 590) / 2 - (top + bot) / 2);
     if (Math.abs(dy) > 4) body.forEach(o => mv(o.e, 0, dy)); mark('emptyCards', sl); };
@@ -221,6 +228,7 @@ window.F = (() => {
     mark('curves', sl); };
 
   // generic rules, every raw slide
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } });
+    try { if (window.__fitapi && window.__fitapi.slideFit) window.__fitapi.slideFit(sl); } catch (e) { console.error('refit', sl.dataset.n, e); } };   // equal line counts on the final geometry
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();

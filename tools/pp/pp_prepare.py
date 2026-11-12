@@ -17,6 +17,8 @@ def radar(s):
     s['geo'] = dict(cx=cx, cy=cy, R=R, rings=[R * k for k in (1, .76, .52, .28)],
         inside=[dict(src=l, x=cx + R * r * math.cos(math.radians(a)), y=cy - R * r * math.sin(math.radians(a))) for l, (r, a) in zip(s['inside'], pos)],
         edge={k: dict(x=cx + dx, y=cy + dy) for k, dx, dy in (('TL', -128, -108), ('TR', 154, -110), ('BL', -104, 96), ('BR', 108, 92))})
+    if s.get('inside_xy'): s['geo']['inside'] = [dict(src=t['src'], x=t['x'], y=t['y']) for t in s['inside_xy']]   # exact tiles of the live product page (12 Nov 2026)
+    if s.get('edge_xy'): s['geo']['edge'] = {k: dict(x=v['x'], y=v['y']) for k, v in s['edge_xy'].items()}
 
 def curve(s):
     pts = s['points']; xl, xr, top, base = 160, 520, 300, 556
@@ -111,6 +113,8 @@ def risks(s):
 
 def drivers(s):
     E = s['events']; halves = [E[:15], E[15:30]]
+    long = [e['text'] for e in E if len(e['text']) > 46]   # 12 Nov 2026: longer lines push the two columns out of the side margins (slide 125 went from 13 to 934 px)
+    if long: raise SystemExit('pp_drivers: event text over 46 characters, shorten it: ' + ' | '.join(long[:4]))
     tw = [max([len(e['text']) for e in h] + [10]) * 6.4 for h in halves]; cw = [42 + t + 14 + 22 for t in tw]; gap = 34
     L = (960 - (sum(cw) + gap)) / 2; cols = [(L, halves[0]), (L + cw[0] + gap, halves[1])]; s['cw'] = cw
     hot = sorted(range(len(E)), key=lambda i: -E[i]['impact'])[:3]; hot = {i for i in hot if E[i]['impact'] >= 2.5}
@@ -137,13 +141,21 @@ def raises(s):
     s['geo'] = dict(bars=bars, grid=grid, base=base, L=L, R=L + SP * k, SP=SP)
 
 def grid(s):
+    """Position inside a cell means something (closer to the next column = almost there), never a robotic pattern (Pierre, 12 Nov 2026).
+    `tiles: [{src, x, y}]` = exact tiles (copied from the live product page) ; `pos: {slug: [fx, fy]}` = place in the cell, 0..1 ;
+    without them the old automatic spread is used and the layout audit flags GRID_ROBOTIC."""
     XB = [157, 377, 616, 833]; YB = [232, 336, 440, 543]; tiles = []
+    if s.get('tiles'):
+        s['geo'] = dict(XB=XB, YB=YB, tiles=[dict(slug='', src=t['src'], ini='', x=t['x'], y=t['y'], full=True) for t in s['tiles']]); return
+    P = s.get('pos') or {}
+    if not P: s['robotic'] = True
     for r in range(3):
         for c in range(3):
             L = s['cells'][r][c]
             W = s.get('weight', {})
             for i, slug in enumerate(sorted(L, key=lambda k: -W.get(k, 0))):
                 fx = .28 + .44 * (i / max(1, len(L) - 1)) if len(L) > 1 else .5; fy = .38 if i % 2 == 0 else .62
+                if slug in P: fx, fy = P[slug]
                 tiles.append(dict(slug=slug, src=s.get('srcs', {}).get(slug, ''), ini=slug[:2].upper(), x=XB[c] + (XB[c + 1] - XB[c]) * fx, y=YB[r] + (YB[r + 1] - YB[r]) * fy))
     s['geo'] = dict(XB=XB, YB=YB, tiles=tiles)
 
@@ -159,7 +171,7 @@ def killers(s):
         lx0 = 158
     else:
         for r in s['rows']:
-            m = sum(1 for c in r['cells'] if c); r['risk'] = 'High risk' if m >= 3 else 'Medium risk'; r['rn'] = 3 if m >= 3 else 1
+            m = sum(1 for c in r['cells'] if c); r['risk'] = 'High risk' if m >= 3 else 'Medium risk'; r['rn'] = max(1, min(5, m))   # one square per warning sign, as on the live product pages (12 Nov)
     lx1 = xs[-1] + (45 if s['mode'] == 'dead' else ws[-1] + 8)
     H = head + n * st; top = 392 - H / 2
     s['geo'] = dict(xs=xs, ys=[top + head + st / 2 + i * st for i in range(n)], hy=top, lx0=lx0, lx1=lx1, st=st)
@@ -299,6 +311,14 @@ def _warn_cols(s):
     K = len(s['signs']); F = 10; HF = 12
     name_w = max(_tw(r['name'], 12.7, True) for r in s['rows']); name_w = max(name_w, 122) + 52   # logo 32 + gap, name or risk dots
     head_w = [max(_tw(p, HF, True) for p in h.split('|')) for h in s['signs']]
+    # cells written with their own line break ('2nd round|Nov 2024') keep it when the table fits: same look as the live product pages (12 Nov 2026)
+    if any('|' in c for r in s['rows'] for c in r['cells']):
+        cols = [max([head_w[i]] + [_tw(l, F) for r in s['rows'] if r['cells'][i] for l in r['cells'][i].split('|')]) + 8 for i in range(K)]
+        total = name_w + sum(c + 26 for c in cols)
+        if total <= 780:
+            lx0 = (960 - total) / 2; xs = []; x = lx0 + name_w
+            for c in cols: xs.append(x); x += c + 26
+            return xs, cols, lx0, lx0 + 44
     best = None
     for maxl in (3, 4):
         for W in (175, 160, 145, 130, 118, 106, 96, 88):

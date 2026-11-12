@@ -25,6 +25,15 @@ M = {  # emoji: (lucide, phosphor)
  '🌐': ('globe', 'globe'), '🛒': ('shopping-cart', 'shopping-cart'), '🎤': ('mic', 'microphone'), '✍️': ('pen-line', 'pen-nib'),
  '🗂️': ('folders', 'folders'), '📦': ('package', 'package'), '⭐': ('star', 'star'), '❓': ('circle-help', 'question'), '🤔': ('circle-help', 'question'),
  '🏗️': ('construction', 'crane'), '🧾': ('receipt', 'receipt'), '📣': ('megaphone', 'megaphone'), '💬': ('message-circle', 'chat-circle'),
+ '🧬': ('dna', 'dna'), '🏥': ('hospital', 'hospital'), '💉': ('syringe', 'syringe'), '🩺': ('stethoscope', 'stethoscope'), '🩸': ('droplet', 'drop'),
+ '✂️': ('scissors', 'scissors'), '🧫': ('flask-round', 'test-tube'), '🔀': ('shuffle', 'shuffle'), '🧑': ('user', 'user'), '🦠': ('bug', 'virus'),
+ '⏳': ('hourglass', 'hourglass'), '🎗️': ('ribbon', 'heart'), '🏭': ('factory', 'factory'), '💧': ('droplet', 'drop'), '⭕': ('circle', 'circle'),
+ '♾️': ('infinity', 'infinity'), '🐒': ('paw-print', 'paw-print'), '🔬': ('microscope', 'microscope'), '⚡': ('zap', 'lightning'), '🫧': ('droplets', 'drop-half'),
+ '❔': ('circle-help', 'question'), '🦴': ('bone', 'bone'), '🦋': ('heart-pulse', 'butterfly'), '💊': ('pill', 'pill'), '🧲': ('magnet', 'magnet'),
+ '🚑': ('ambulance', 'ambulance'), '🧯': ('fire-extinguisher', 'fire-extinguisher'), '🛰️': ('satellite', 'planet'), '🔋': ('battery-charging', 'battery-charging'), '⚙️': ('settings', 'gear'),
+ '🚚': ('truck', 'truck'), '🌡️': ('thermometer', 'thermometer'), '🧱': ('brick-wall', 'wall'), '🪙': ('coins', 'coin'), '🔧': ('wrench', 'wrench'), '👁️': ('eye', 'eye'),
+ '✖️': ('x', 'x'), '⏰': ('alarm-clock', 'alarm'), '🚧': ('construction', 'barricade'), '📡': ('radio-tower', 'broadcast'), '🧮': ('calculator', 'calculator'),
+ '__default__': ('circle-dot', 'circle'),
 }
 def clean(s): return re.sub(r'<!--.*?-->', '', s).strip()
 out = {}; miss = []

@@ -84,7 +84,7 @@ def logo(p):
 def walk(v, key=''):
     if isinstance(v, str):
         if key in ('src',) or (v.endswith('.png') and ('media/raw/' in v or 'assets/logos' in v)):
-            return logo(v) if ('media/raw/' in v or 'assets/logos' in v) and 'b8681302' not in v else v
+            return logo(v) if ('media/raw/' in v or 'assets/logos' in v) and 'b8681302' not in v and '3e1659dc7698' not in v else ('../../assets/deco/bad-experience.png' if '3e1659dc7698' in v else v)   # 12 Nov: the grey emoji of 'bad customer experience' is decoration, never a logo
         if key in ('type', 'id', 'csv', 'variant', 'mode', 'handle', 'l', 'slug', 'domain'): return v
         return swap(v)
     if isinstance(v, dict): return {k: walk(x, k) for k, x in v.items()}
@@ -194,7 +194,7 @@ def main():
         if last is None: continue
         out.insert(last + 1, g)
     D = {k: v for k, v in E.items() if k != 'slides'}
-    D.update(market='In Vivo CAR-T', label='In vivo CAR-T market', slug='invivo-demo', keep_together=['in vivo CAR-T', 'CAR-T'])
+    D.update(market='In Vivo CAR-T', label='In vivo CAR-T', slug='invivo-demo', keep_together=['in vivo CAR-T', 'CAR-T'])
     out[0]['big'] = 'In vivo\nCAR-T'
     for x in out:      # Google Trends: Pierre's CSVs (12 Nov). 'in vivo car t' has a near-zero base before 2025 (x20+ means nothing): 'CAR-T' is kept
         if x['id'] == 'ed039p':

@@ -1,5 +1,5 @@
 {% set G = s.geo %}{% for c in G.cols %}<span class="pp-rh" style="left:{{c.x+14}}px">Event</span><span class="pp-rh" style="left:{{c.x+275}}px">Odds</span><span class="pp-rh" style="left:{{c.x+332}}px">Impact</span>
-{% for r in c.rows %}<i class="pp-rb {{ 'hot' if r.e.impact == 3 }}" style="left:{{c.x}}px;top:{{r.y-24}}px"></i><p class="pp-rt" style="left:{{c.x+14}}px;top:{{r.y}}px">{{r.e.text}}</p>
+{% for r in c.rows %}<i class="pp-rb {{ 'hot' if r.e.impact == 3 }}" style="left:{{c.x}}px;top:{{r.y-24}}px"></i><p class="pp-rt{% if (s.events | map(attribute='text') | map('length') | max) <= 118 %} big{% endif %}" style="left:{{c.x+14}}px;top:{{r.y}}px">{{r.e.text}}</p>
 <span class="pp-ro" style="left:{{c.x+308}}px;top:{{r.y-14}}px">{{r.e.odds}}%</span><i class="pp-rtr" style="left:{{c.x+288}}px;top:{{r.y+6}}px"><i style="width:{{r.e.odds}}%"></i></i>
 <span class="pp-ri" style="left:{{c.x+352}}px;top:{{r.y}}px">{% for k in range(3) %}<i class="{{ 'hot' if r.e.impact == 3 else ('on' if k < r.e.impact else '') }}"></i>{% endfor %}</span>
 {% if not loop.last %}<i class="pp-rs" style="width:395px;left:{{c.x}}px;top:{{r.y+35}}px"></i>{% endif %}{% endfor %}{% endfor %}

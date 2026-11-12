@@ -42,6 +42,8 @@ def like_model(v, mv):
     """same paragraph structure as the model: its separators (blank paragraphs give each part its own style) between the answer's parts"""
     if isinstance(v, str) and isinstance(mv, str) and mv.startswith('\n'):   # leading blank lines of the model are kept (ed221); idempotent
         return re.match(r'\n+', mv).group(0) + like_model(v.lstrip('\n'), mv.lstrip('\n'))
+    if isinstance(v, str) and isinstance(mv, str) and '\n' not in mv and '\n' in v and len(v) <= 40:
+        return ' '.join(v.split())   # a short label never carries the LLM's own line break: rawfit breaks every label of a grid the same way (12 Nov 2026)
     if not isinstance(v, str) or not isinstance(mv, str) or '\n' not in mv: return v
     mseg, msep = re.split(r'\n+', mv), re.findall(r'\n+', mv)
     aseg = [x.strip() for x in re.split(r'\n+', v) if x.strip()]
@@ -151,6 +153,7 @@ def merge(slide, ans):
         else: s[k] = v
     names = ans.get('logos') or []
     if s.get('type') == 'pp_radar' and names: s['inside'] = [logo(x) for x in names][:len(s.get('inside') or names)]
+    elif s.get('img') and any('/deco/' in x for x in s['img']): pass     # decoration (grey emoji of 'bad customer experience'...) is never a logo slot (12 Nov 2026)
     elif s.get('img') and names:
         s['img'] = [logo(names[i]) if i < len(names) else s['img'][i] for i in range(len(s['img']))]
     elif s.get('img') and str(s.get('type', '')).startswith('x/') and not s['id'].startswith('sig_'):
@@ -234,6 +237,12 @@ def main():
         if isinstance(v, dict): return {k: nl(y) for k, y in v.items()}
         return v
     S = [nl(x) for x in S]
+    # a slide that cannot be filled completely is removed, never shown with holes (Pierre, 12 Nov 2026: products grid of a market
+    # with few products). `drop: true` in edits.yaml removes a slide by hand; the products grid is dropped as soon as one cell is empty.
+    def holes(x): return x.get('type') == 'x/products_services_sold_market' and any(str(v).strip() == '' for v in (x.get('t') or {}).values())
+    for x in S:
+        if x.get('drop') or holes(x): print('slide dropped (incomplete or drop: true):', x['id'], x.get('type'))
+    S = [x for x in S if not (x.get('drop') or holes(x))]
     for x in S:                                  # a field the model does not have is dropped (pp_radar: the caption is the note, 12 Nov)
         m = REF.get(re.sub(r'-s\d$', '', x['id']))
         if m and 'note' in x and 'note' not in m: x.pop('note')
@@ -250,13 +259,20 @@ def main():
         elif x['id'] in DB_DONE: x.pop('tag', None)
         elif b in {f'ed{n}' for n in range(215, 221)}: x['tag'] = 'SOURCES: TO BUILD'
     for x in S:                                  # pp_grid cells written as company names: slugs + logo paths
-        if x.get('type') == 'pp_grid' and any(' ' in n or n[:1].isupper() for row in x['cells'] for cell in row for n in cell):
+        if x.get('type') == 'pp_grid' and not x.get('tiles') and any(' ' in n or n[:1].isupper() for row in x['cells'] for cell in row for n in cell):
             srcs = {}
             x['cells'] = [[[slugify(n) for n in cell] for cell in row] for row in x['cells']]
             for row, rown in zip(x['cells'], (yaml.safe_load(dbf.read_text()) or {}).get(x['id'], {}).get('cells', [])):
                 for cell, celln in zip(row, rown):
                     for sl, n in zip(cell, celln): srcs[sl] = logo(n)
             x['srcs'] = srcs
+    lf = out / 'live.yaml'                       # product-page twins: the slide of the live product page, copied as is (Pierre, 12 Nov 2026:
+    if lf.exists():                              # "pour les 12 pages qui illustrent la page produit tu aurais dû reprendre exactement ça")
+        LV = yaml.safe_load(lf.read_text()) or {}
+        for j, y in enumerate(S):
+            if y['id'] in LV: S[j] = {**{k: y[k] for k in ('id', 'type', 'section') if k in y}, **LV[y['id']]}
+        for k in LV:
+            if not any(y['id'] == k for y in S): print('live.yaml: slide not in deck', k)
     xf = out / 'extras.yaml'                     # validated extra slides (slides complémentaires), each after a given slide id
     if xf.exists():
         for e in yaml.safe_load(xf.read_text()) or []:

@@ -157,6 +157,11 @@ def build(slug, png=False, only=None):
     d = ROOT / 'decks' / slug
     deck = yaml.safe_load((d / 'deck.yaml').read_text())
     check_yaml(deck)
+    if deck.get('market') and deck.get('label'):   # footer label = Pierre's list (data/market_labels.txt), never rebuilt by hand (12 Nov 2026: 'In vivo CAR-T market' was wrong)
+        norm = lambda t: re.sub(r'\s+', ' ', re.sub(r'(?<=\S) (?=\S)', '', re.sub(r' {2,}', '  ', t)).strip()).upper()
+        ok = {re.sub(r'\s+', ' ', re.sub(r'(?<! ) (?! )', '', l.rstrip('\n'))).strip().upper() for l in (ROOT / 'data' / 'market_labels.txt').read_text().splitlines() if l and not l.startswith('#')}
+        if re.sub(r'\s+', ' ', deck['label']).strip().upper() not in ok:
+            raise SystemExit(f"footer label {deck['label']!r} is not in data/market_labels.txt (take the exact label of the market from Pierre's list)")
     import sys as _s; _s.path.insert(0, str(ROOT / 'tools' / 'pp')); from pp_prepare import PREP
     for s in deck['slides']:
         if str(s.get('type', '')).startswith('pp_'): PREP[s['type'][3:]](s)

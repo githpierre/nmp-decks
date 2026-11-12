@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../../css/nmp.css"></head><body>
 {% for s in slides %}{% set T = s.type %}
 {% if T == 'cover' %}{% include 'slides/cover.j2' %}{% else %}
-<section class="slide {{ 'has-sub' if s.subtitle or (s.page and s.page != '1/1') }}" data-n="{{ loop.index }}"{% if s.id %} data-id="{{ s.id }}"{% endif %} data-type="{{ 'raw' if T.startswith('x/') else T }}"{% if T.startswith('x/') %} data-tpl="{{ T[2:] }}"{% endif %}{% if s.hl %} data-hl="{{ s.hl }}"{% endif %}{% if s.vbars %} data-vbars="{{ s.vbars | join(',') }}"{% endif %}{% if s.hbars %} data-hbars="{{ s.hbars | join(',') }}"{% endif %}{% if s.dots %} data-dots="{{ s.dots | tojson | forceescape }}"{% endif %}{% if s.curves %} data-curves="{{ s.curves | tojson | forceescape }}"{% endif %}{% if s.hpink %} data-hpink="{{ s.hpink }}"{% endif %}{% if s.split %} data-split="{{ s.split | join(',') }}"{% endif %}>
+<section class="slide {{ 'has-sub' if s.subtitle or (s.page and s.page != '1/1') }}" data-n="{{ loop.index }}"{% if s.id %} data-id="{{ s.id }}"{% endif %} data-type="{{ 'raw' if T.startswith('x/') else T }}"{% if T.startswith('x/') %} data-tpl="{{ T[2:] }}"{% endif %}{% if s.hl %} data-hl="{{ s.hl }}"{% endif %}{% if s.holes_ok %} data-holes-ok="1"{% endif %}{% if s.vbars %} data-vbars="{{ s.vbars | join(',') }}"{% endif %}{% if s.hbars %} data-hbars="{{ s.hbars | join(',') }}"{% endif %}{% if s.dots %} data-dots="{{ s.dots | tojson | forceescape }}"{% endif %}{% if s.curves %} data-curves="{{ s.curves | tojson | forceescape }}"{% endif %}{% if s.hpink %} data-hpink="{{ s.hpink }}"{% endif %}{% if s.split %} data-split="{{ s.split | join(',') }}"{% endif %}>
   <div class="tri"></div>
   {% if s.section %}<div class="section">{{ s.section }}</div>{% endif %}
   {% if s.title %}<h1 class="title">{{ s.title | nl }}</h1>{% endif %}
@@ -21,7 +21,7 @@
     const cs = getComputedStyle(t); m.style.font = cs.font; m.style.letterSpacing = cs.letterSpacing; m.style.textTransform = cs.textTransform;
     const w = s => { m.textContent = s; return m.getBoundingClientRect().width; };
     const words = t.innerHTML.replace(/<br\s*\/?>/g, ' ').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, '\u00a0').replace(/[ \t\n\r]+/g, ' ').trim().split(' ');
-    const max = t.clientWidth, manual = /<br/.test(t.innerHTML); if (words.length < 2 || (!manual && w(words.join(' ')) <= max * 0.62)) return;   // short titles stay on one line unless written on two
+    const max = t.clientWidth, manual = /<br/.test(t.innerHTML); if (words.length < 3) return;   // 12 Nov 2026 (Pierre): a slide title is ALWAYS on two lines, short ones too (audit TITLE_NOT_2_LINES)
     let best = null;
     for (let i = 1; i < words.length; i++) { const a = words.slice(0, i).join(' '), b = words.slice(i).join(' '), wa = w(a), wb = w(b);
       if (wa > max || wb > max) continue; if (/^(a|an|the|its|their|of|to|for|in|with|by|on|at|and|or|every)$/i.test(words[i - 1])) continue;   // 11 Nov: a line never ends on a small word

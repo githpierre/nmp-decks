@@ -11,7 +11,8 @@ window.A = (() => {
   const emojis = sl => [...sl.querySelectorAll('span, div')].filter(s => !s.children.length && isEmoji(s.textContent.trim()));
   const split = t => (t.match(/(\p{Extended_Pictographic}(️)?(‍\p{Extended_Pictographic}(️)?)*)|✓/gu) || []);
   const svg = (e, style, size, color, sw) => {
-    const I = (window.ICONS || {})[e] || (window.ICONS || {})[e + '️'] || (window.ICONS || {})[e.replace('️', '')];
+    let I = (window.ICONS || {})[e] || (window.ICONS || {})[e + '️'] || (window.ICONS || {})[e.replace('️', '')];
+    if (!I) { (window.__emojiMiss = window.__emojiMiss || []).push(e); I = (window.ICONS || {})['__default__']; }  // 12 Nov: an unmapped emoji never stays an emoji among icons (audit EMOJI_UNMAPPED)
     if (!I) return null;
     let s = style === 'line' ? I.line : style === 'fill' ? I.fill : I.duo;
     s = s.replace(/<svg([^>]*)>/, (m, a) => '<svg' + a.replace(/\s(width|height|class)="[^"]*"/g, '') + ` width="${size}" height="${size}" style="display:block;color:${color}">`);

@@ -71,6 +71,12 @@ ed022:
     Scalable supply, because off-the-shelf doses skip custom cell making'
 ed023:
   18: Cell therapy once needed custom manufacturing per patient
+  8: Now several Phase 1 trials have made CAR cells inside patients
+  12: Now mRNA-LNP and circular RNA programs reach trials and buyouts
+  16: Now immune reset is a main goal for Capstan, Orna and Orbital
+  20: Now developers want CAR-T to be an off-the-shelf injection
+  24: Now early human data moves fast, and buyouts follow it
+  28: Now big pharma owns or partners with the leading platforms
 ed027:
   8: Before that, companies had shown immune-cell engineering in animals, but no human trial had dosed a patient
   12: In October 2024, Interius dosed the first patient with INT2104, one infusion meant to make CAR cells inside the body
@@ -88,13 +94,32 @@ ed054:
   8: '2025 - 2026
 
 
-    Early cancer and autoimmune data showed CAR cells can be made inside the body, but durability, redosing and off-target risks remain open'
+    Early cancer and autoimmune data showed CAR cells can be made in the body, but durability and redosing stay open questions'
+  6: '2017 - 2023
+
+
+    CAR-T proved deep responses in blood cancers, but it still needed cell harvest, custom manufacturing and chemotherapy first'
+  7: '2024 - 2025
+
+
+    In vivo CAR-T began dosing patients directly, with no cell harvest or factory step, but precise targeting became the main risk'
+  9: 'TODAY
+
+
+    CAR cells can now be made inside patients, but developers must still prove precise targeting, persistence and lasting benefit'
+  10: '?
+
+
+    Better vectors may make CAR therapy simpler and broader, but solid tumors still block cells from getting in and staying active'
 ed055:
   22: In vivo platforms use standard vectors, not custom cell lots
 ed058:
   title: 'What has been fixed so far,
 
     and what is left to solve?'
+  26: 'They worry about off-target
+
+    delivery and immune reactions'
 ed059:
   16: 'CD19
 
@@ -199,6 +224,8 @@ ed102:
   16: Because cell-killing and gene-delivery assays are now standard lab measures
   18: Because most programs reuse proven B-cell targets instead of new ones
   20: Because leading programs already position treatment as an off-the-shelf drip
+  6: Because approved CAR-T products already validate CD19 and BCMA as useful targets
+  8: Because lentiviral engineering has decades of tooling, suppliers and CAR-T use
 ed103:
   7: Delivery that reaches the right immune cells while sparing other tissues
   15: CAR designs that clear disease cells without chemotherapy first
@@ -215,7 +242,8 @@ ed106-s3:
 ed106-s4:
   5: Platforms that program macrophages or several immune cell types in the body
 ed108-s2:
-  6: The vector reaches the wrong cells or makes too little CAR. Safety worries force slow dosing. The patient still waits, and the platform loses its access edge.
+  6: The vector reaches the wrong cells or makes too little CAR. Safety worries force very slow dosing, the patient still waits for weeks, relapse comes early, and the platform loses the access advantage that made it attractive at first.
+  7: One infusion programs enough T cells to give durable CAR activity. No cell harvest is needed, supply is easy to scale, and the patient starts treatment within days, without waiting for a personalized production slot at a specialist center.
 ed109-s1:
   6: '📊
 
@@ -669,13 +697,23 @@ iv_fda:
   10: 'FAST LANES
 
 
-
-    Fast Track, Breakthrough and RMAT bring more FDA contact, but not less evidence.'
+    Fast Track, Breakthrough and RMAT bring more contact with the FDA, but not less evidence.'
   11: 'PHASE 3 AND BLA
 
 
-
     Confirmatory data and proven manufacturing support approval, then long safety follow-up.'
+  7: 'IND FILING
+
+
+    The sponsor files preclinical, manufacturing and trial plans. The FDA then has 30 days to review them.'
+  8: 'PHASE 1 TRIALS
+
+
+    Small groups test dose, delivery and CAR expansion, with close attention to off-target effects.'
+  9: 'PHASE 2 TRIALS
+
+
+    More patients test response and durability while the sponsor locks potency, process and dose.'
 ed024:
   note: &id001
   - We kept the milestones that most changed clinical credibility, platform competition or ownership of the market
@@ -703,6 +741,22 @@ ed049:
   note:
   - We use Precedence's direct in vivo shares for North America, Europe and Asia-Pacific
   - We then split the remaining 10% with the broader CAR-T ratio of Latin America to MEA
+  regions:
+    na:
+      pct: 50
+      text: 'North America leads: the US concentrates the main developers, trial sites and buyouts. Precedence puts it at 50% of 2025 value.'
+    eu:
+      pct: 25
+      text: Europe comes second, with strong biotech research and specialist hospitals. Precedence estimates about 25% of 2025 value.
+    apac:
+      pct: 15
+      text: Asia-Pacific holds about 15% but grows the fastest, led by China’s many in vivo trials.
+    latam:
+      pct: 7
+      text: We estimate Latin America at about 7%, by splitting the remaining share with the wider 2025 CAR-T regional mix.
+    mea:
+      pct: 3
+      text: We estimate the Middle East and Africa at about 3%, the same way. Cell-therapy centers are few, mostly in the Gulf and Israel.
 ed052p:
   note:
   - We start from our $285 million 2026 estimate and apply a 35% base-case CAGR, roughly $5.7 billion by 2036
@@ -732,23 +786,22 @@ ed047p:
   - name: Viral CAR vectors
     p: 53
     logos:
-    - Umoja
-    - Interius
-    - EsoBiotec
-    - Kelonia
+    - ../../assets/logos/pp/umoja.png
+    - ../../assets/logos/interius.png
+    - ../../assets/logos/esobiotec.png
+    - ../../assets/logos/kelonia.png
   - name: LNP-RNA delivery
     p: 29
     logos:
-    - Capstan
-    - Orna
-    - Orbital
-    - Create Medicines
-  - name: Unnamed delivery
-    p: 16
-    logos: []
-  - name: EV platforms
-    p: 2
-    logos: []
+    - ../../assets/logos/capstan.png
+    - ../../assets/logos/orna.png
+    - ../../assets/logos/orbital.png
+    - ../../assets/logos/create-medicines.png
+  - name: Other delivery routes
+    p: 18
+    logos:
+    - ../../assets/logos/ensoma.png
+    - ../../assets/logos/nanocell-therapeutics.png
 ed105p:
   groups:
   - name: Platform buyouts
@@ -771,8 +824,16 @@ ed105p:
     x: 0.55
     y: 0.8
     logos: []
+  drop: true
 ed101:
   '18': Single-antigen CAR concepts against known B-cell targets, no longer enough to stand out
+  6: CD19 and BCMA CAR designs, now validated across many CAR-T products and trials
+  8: Standard lentiviral vector backbones, long used to insert CAR genes into T cells
+  10: Generic LNP recipes and know-how, now widespread after years of RNA drugs
+  12: Routine mouse tumor models, used to show that engineered cells kill their targets
+  14: Standard Phase 1 dose escalation, now the default first step for in vivo programs
+  16: Basic potency assays that measure cell killing before a program reaches patients
+  20: Simple IV dosing claims, now common across the leading in vivo CAR programs
 ed025:
   note: *id001
 ed019:
@@ -797,9 +858,16 @@ ed041:
 ed048:
   11: 🦠
   12: 🧪
-  13: 🫧
-  18: ❔
-  19: 🔀
+  13: 🔀
+  18: ''
+  19: ''
+  9: Vesicles, DNA nanoparticles and programs with no disclosed route, each still a small share of the clinical pipeline
+  10: OTHER DELIVERY ROUTES
+  14: ''
+  15: ''
+  16: ''
+  17: ''
+  holes_ok: true
 ed029:
   13: 🧬
   14: 💰
@@ -866,3 +934,65 @@ ed039p:
   expl: Interest in CAR-T grew slowly for years as approved cell therapies spread. Then the first in-body data and big pharma buyouts of 2025 and 2026 brought a new wave of attention from patients, doctors and investors.
 ed006:
   icon_tl: 🧬
+ed108-s1:
+  7: The LNP programs only the intended T cells inside the body. CAR expression is controlled, B cells are deeply depleted, no chemotherapy is needed first, and the treatment feels like an ordinary off-the-shelf drug that any clinic can give.
+  6: The LNP reaches too few T cells or builds up in the wrong organs. CAR expression is weak or uneven, B cells come back quickly, the patient still needs another therapy, and doctors lose confidence in the whole approach.
+ed108-s3:
+  7: The vector reaches the intended immune cells and inserts the CAR payload at an effective level. One infusion gives durable activity, while safety monitoring stays manageable and predictable for doctors, patients and regulators over the following years.
+  6: The edit lands in too few target cells or raises off-target and long-term safety concerns. Dosing stays very cautious, monitoring keeps growing, regulators ask for more follow-up, and the durability advantage of a permanent edit quickly disappears.
+ed108-s4:
+  7: The delivery system programs the intended macrophages or monocytes inside the body. The engineered cells enter diseased tissue, express the CAR at useful levels, and add a new way to attack solid tumors without any cell manufacturing step.
+  6: The payload reaches the wrong myeloid cells or fades too quickly inside the tumor. CAR expression stays weak, tissue activity is limited, and the program adds cost and complexity without improving results for patients with solid tumors.
+iv_safety:
+  9: "DELIVERY ERRORS\n\n\n    In vivo vectors must show that CAR genes avoid unintended tissues, because a misdirected durable edit may persist"
+ed046:
+  drop: true
+ed032:
+  5: Kelonia’s infusion worked in all 18 patients
+  9: Big pharma bought six platforms in 13 months
+  11: The biggest deal jumped from $1.44B to $7B
+  7: J&J paid $785M upfront for an option on Sail
+  13: Five rounds of $100M or more since 2024
+  15: Big pharma now backs half of funding rounds
+  19: Google searches grew more than 20 times
+  note: We selected seven recent signals that combine clinical proof, deal prices, funding and public attention. Each one is shown in detail on the next seven slides.
+ed183:
+  type: worldmap
+  t: null
+  src: null
+  widths: null
+  regions:
+    na:
+      name: NORTH AMERICA
+      text: 'North America is the deepest cluster: Umoja, Kelonia, CREATE, Orna, Orbital, Capstan and Interius were all founded or based there.'
+    eu:
+      name: EUROPE
+      text: Europe produced EsoBiotec in Belgium, whose targeted lentiviral platform was bought by AstraZeneca for up to $1B in 2025.
+    apac:
+      name: CHINA
+      text: 'China is led by MagicRNA: its targeted-LNP therapy reported lupus data in 2025.'
+    au:
+      name: AUSTRALIA
+      text: 'Australia is an important trial hub: Kelonia, Capstan, CREATE and others run early in vivo CAR-T studies there.'
+ed061:
+  holes_ok: true
+ed153:
+  7: '🏥
+
+    Each simpler IV treatment widens access beyond the big centers'
+  13: '🏭
+
+    Each production run improves know-how and makes supply cheaper'
+  8: '📈
+
+    Each strong human readout lowers risk and draws in more capital'
+  9: '🧪
+
+    Each delivery study improves targeting and sharpens the next vector'
+ed010:
+  7: It is in the market because lentiviral particles can place durable CAR genes into T cells
+  13: It is in the market because circular RNA extends CAR expression with no gene insertion
+  16: It is in the market when gene editing creates a CAR program inside immune cells
+  19: It is in the market when platforms make CAR-NK, CAR-myeloid or other CAR cells in vivo
+ed215:
+  4: IN VIVO CAR-T

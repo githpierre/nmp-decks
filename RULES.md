@@ -357,3 +357,24 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 ## Chiffres tirés de notre base (12/11/2026)
 - Une slide qui compte des tours (par pays, par stade, par technologie, « X of N ») se recalcule après toute correction de la base nmp-seo ; un doublon retiré change souvent plusieurs slides à la fois (MagicRNA, 12/11 : 32 → 30 tours, 7 slides corrigées).
 - Une ligne de « répétition » (startup qui relève vite) se vérifie à la source avant d'entrer dans une slide : un tour tiré de la frise d'un site sans montant ni investisseur est souvent un doublon (nmp-seo RULES 39).
+
+## Audit du process après la revue du 12/11/2026 à 17:54 (« c'est truffé d'erreurs »)
+Cause commune : je ne regardais que les slides nouvelles, pas les 190, et les contrôles automatiques avaient des trous. Désormais :
+1. **Avant de montrer un deck** : `python3 tools/audit_layout.py <slug>` à 0, PUIS toutes les slides regardées sur des planches de 12 (tout le deck, pas seulement ce qui a changé). Un défaut vu à l'œil devient un contrôle automatique dans audit_layout.py.
+2. **Titre de slide : toujours 2 lignes**, même court (script de base.html.j2 ; audit TITLE_NOT_2_LINES).
+3. **Cases sœurs = même nombre de lignes** (texte et petit titre), dans TOUTE la grille, sur la géométrie finale (rawfit.slideFit rejoué après les fixes ; audits LABEL_LINES, BODY_LINES). Petit titre de case toujours sur 2 lignes : un titre d'un seul mot se réécrit (« IND FILING »).
+4. **Même taille de police dans des cases sœurs** : un texte trop long se raccourcit, il ne se rétrécit pas (audit FONT_MIXED).
+5. **Texte dans sa bulle avec de l'air** (audit TEXT_PAD) ; texte trop long = on le raccourcit.
+6. **Emojis** : tout emoji a une icône dans tools/atelier2/icons.py ; un emoji inconnu prend l'icône par défaut et l'audit le signale (EMOJI_UNMAPPED, EMOJI_MIX). Cause du 12/11 : la table ne connaissait que les emojis EdTech.
+7. **Image de décor ≠ logo** : l'emoji gris de « Bad customer experience » (assets/deco/) n'est jamais remplacé par un logo (import_research + make_invivo_demo).
+8. **Slide incomplète = slide retirée** : grille de produits avec une case vide, comparaison de marchés sans marché plus petit sourcé, catégories sans au moins 2 logos chacune (`drop: true` dans edits.yaml ; audit GRID_HOLES). On ne montre jamais une grille trouée.
+9. **Au moins 2 logos par catégorie** (donut, flux de valeur, paris des investisseurs) ; sinon on fusionne des catégories ou on retire la slide.
+10. **Montants comme on les dit** : $285M, $4.2B ; jamais $0.285B ni 4.228 (audit MONEY_FORMAT).
+11. **Marges** : contrôle sur TOUTES les slides (MARGIN_ALL), pas seulement les gabarits `.body`. pp_drivers : 46 caractères au plus par événement (sinon le build s'arrête). Carte du monde : texte court, la boîte ne doit pas s'élargir (MAP_BOX_WIDENED).
+12. **Libellé du pied de page** : pris dans data/market_labels.txt (liste de Pierre), vérifié par build.py. « In vivo CAR-T », sans « market ».
+13. **Signaux (Market opportunity)** : la slide « What signals suggest… » liste 6 à 8 signaux, et CHAQUE signal a sa slide SIGNAL juste après, dans le même ordre. Aucune slide SIGNAL ailleurs.
+14. **Slides jumelles de la page produit (S01-S12)** : on reprend exactement la slide en ligne (decks/<slug>/live.yaml, logos recadrés depuis la page si besoin). Grille des acteurs : la place dans la case a un sens (`pos` ou `tiles`), jamais le motif automatique (audit GRID_ROBOTIC).
+15. **Base de startups** : complète depuis janvier 2024 seulement ; aucune somme par année avant 2024.
+16. **Carte** : une région qui n'existe pas dans le gabarit s'ajoute au gabarit (Australie), on ne réutilise pas le point d'une autre région.
+17. **Trimestre du deck** = la date du jour (Q4 2026 en novembre).
+18. Un connecteur n'est jamais masqué par la règle des cases vides ; ce qui était posé sur une case vide (tuile d'icône) part avec elle.

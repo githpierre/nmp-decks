@@ -1,22 +1,24 @@
-- after: ed028
-  slide:
-    id: xs_1c
-    type: x/student_use_ai_homework_jumped
-    section: Market opportunity
-    title: 'The biggest in vivo CAR-T deal
-
-      jumped from $1.44B to $7B'
-    vbars:
-    - 1.44
-    - 7
-    t:
-      8: SIGNAL
-      12: $7B
-      13: $1.44B
-      11: Prices for in vivo CAR-T platforms keep climbing, a classic sign of a hot market. In January 2024, AbbVie’s deal with Umoja was worth up to $1.44 billion, then the record. In April 2026, Lilly agreed to pay up to $7 billion for Kelonia, almost five times more, after AbbVie paid up to $2.1 billion for Capstan. Pharma now pays platform prices before late-stage data.
-    note: Values are the maximum announced in each deal, milestones included. Data comes from AbbVie and Lilly press releases
-  link: ed028 says 2025 is when the market became hot because of strategic acquisitions; the deal-size jump is the proof
 - after: ed032
+  slide:
+    id: xs_2a
+    type: kpis
+    section: Market opportunity
+    title: 'Kelonia’s one-time infusion worked
+
+      in all 18 myeloma patients treated'
+    items:
+    - label: Myeloma patients treated with KLN-1010, one infusion each, with no cell harvest
+      value: '18'
+    - label: Of them responded, with no cancer found in their bone marrow a month later
+      value: 100%
+    - label: Of the 6 patients followed 4 months or more reached a stringent complete response
+      value: 67%
+    why: This is a strong signal because it is the cleanest first readout of any in vivo CAR-T so far, and it came weeks before Lilly agreed to buy Kelonia for up to $7 billion.
+    note:
+    - Data comes from Kelonia’s ASCO 2026 interim results (cutoff April 21, 2026), reported by Fierce Biotech and pharmaphorum
+    pill: SIGNAL
+  link: ed032, signal 1 of the list
+- after: xs_2a
   slide:
     id: xs_1b
     type: x/big_buyers_now_pay_up
@@ -51,27 +53,260 @@
         Kelonia for up to $7B'
       31: APR 2026
     note: Data comes from the buyers’ announcements, with the maximum value of each deal, milestones included
-  link: ed028 names the buyers (AbbVie, AstraZeneca, Gilead, BMS); this slide lists the six buyouts
-- after: ed039p
+  link: ed032, signal 2 of the list
+- after: xs_1b
   slide:
-    id: xs_2a
-    type: kpis
+    id: xs_1c
+    type: x/student_use_ai_homework_jumped
     section: Market opportunity
-    title: 'Kelonia’s one-time infusion worked
+    title: 'The biggest in vivo CAR-T deal
 
-      in all 18 myeloma patients treated'
-    items:
-    - label: Myeloma patients treated with KLN-1010, one infusion each, with no cell harvest
-      value: '18'
-    - label: Of them responded, with no cancer found in their bone marrow a month later
-      value: 100%
-    - label: Of the 6 patients followed 4 months or more reached a stringent complete response
-      value: 67%
-    why: This is a strong signal because it is the cleanest first readout of any in vivo CAR-T so far, and it came weeks before Lilly agreed to buy Kelonia for up to $7 billion.
-    note:
-    - Data comes from Kelonia’s ASCO 2026 interim results (cutoff April 21, 2026), reported by Fierce Biotech and pharmaphorum
+      jumped from $1.44B to $7B'
+    vbars:
+    - 1.44
+    - 7
+    t:
+      8: SIGNAL
+      12: $7B
+      13: $1.44B
+      11: Prices for in vivo CAR-T platforms keep climbing, a classic sign of a hot market. In January 2024, AbbVie’s deal with Umoja was worth up to $1.44 billion, then the record. In April 2026, Lilly agreed to pay up to $7 billion for Kelonia, almost five times more, after AbbVie paid up to $2.1 billion for Capstan. Pharma now pays platform prices before late-stage data.
+    note: Values are the maximum announced in each deal, milestones included. Data comes from AbbVie and Lilly press releases
+  link: ed032, signal 3 of the list
+- after: xs_1c
+  link: ed032, signal 4 of the list
+  slide:
+    id: xs_sail
+    type: sx_stat_strip
+    section: Market opportunity
     pill: SIGNAL
-  link: 'the market-opportunity signals: first clean human readout, weeks before the Lilly deal'
+    title: 'J&J paid $785M upfront for
+
+      an option to buy Sail'
+    headline: 'A new kind of deal: pay now, decide on the buyout later'
+    stats:
+    - v: $785M
+      l: Paid by J&J at signing, in July 2026, for a collaboration and an option on Sail
+    - v: $465M
+      l: Of it is an equity stake in Sail, taken by J&J’s venture arm, JJDC
+    - v: $2.58B
+      l: More to pay if J&J uses its exclusive option to buy the whole company
+    story: 'This is a sign of a hot market: buyers now pay just to hold their place in line. J&J committed $785 million to work with Sail and keep the exclusive right to buy it later.'
+    note:
+    - Data comes from the Johnson & Johnson press release of July 2026
+    - and from its quarterly report for the third quarter of the year 2026
+- after: xs_sail
+  slide:
+    section: Market opportunity
+    title: 'Five rounds of $100M or more made up
+
+      72% of recent in vivo CAR-T funding'
+    note:
+    - We placed every equity round raised by in vivo CAR-T startups in our own database
+    - on a timeline, sized by its disclosed amount, from January 2024 to November 2026
+    story: 'Big checks are a sign of a hot market. Each circle is one equity round since 2024. The five pink ones, Capstan, Umoja, Strand, CREATE and Sail, raised $100M or more: 72% of all the money.'
+    t0: 2024.0
+    t1: 2027.0
+    amax: 465.0
+    ticks:
+    - t: 2024.0
+      l: '2024'
+    - t: 2025.0
+      l: '2025'
+    - t: 2026.0
+      l: '2026'
+    - t: 2026.87
+      l: Today
+    pts:
+    - t: 2026.542
+      a: 465.0
+      col: '#FB0161'
+      lab: Sail $465M
+      cy: 112.0
+    - t: 2024.208
+      a: 175.0
+      col: '#FB0161'
+      lab: Capstan $175M
+      cy: 125.1
+    - t: 2025.625
+      a: 153.0
+      col: '#FB0161'
+      lab: Strand $153M
+      cy: 126.5
+    - t: 2026.375
+      a: 122.0
+      col: '#FB0161'
+      lab: CREATE $122M
+      cy: 64.6
+    - t: 2025.042
+      a: 100.0
+      col: '#FB0161'
+      lab: Umoja $100M
+      cy: 130.2
+    - t: 2025.875
+      a: 65.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 133.3
+    - t: 2025.708
+      a: 53.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 90.5
+    - t: 2024.458
+      a: 51.4
+      col: '#C5CDD2'
+      lab: ''
+      cy: 134.7
+    - t: 2025.375
+      a: 45.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 135.4
+    - t: 2025.792
+      a: 42.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 65.8
+    - t: 2026.375
+      a: 40.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 26.0
+    - t: 2025.708
+      a: 30.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 45.4
+    - t: 2025.958
+      a: 25.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 110.1
+    - t: 2025.875
+      a: 14.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 96.1
+    - t: 2026.792
+      a: 14.0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 140.1
+    - t: 2025.625
+      a: 13.9
+      col: '#C5CDD2'
+      lab: ''
+      cy: 72.1
+    - t: 2026.708
+      a: 5.9
+      col: '#C5CDD2'
+      lab: ''
+      cy: 142.2
+    - t: 2024.042
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 146
+    - t: 2024.042
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 136
+    - t: 2024.125
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 102
+    - t: 2024.375
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 146
+    - t: 2024.375
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 128
+    - t: 2025.042
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 104
+    - t: 2025.458
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 146
+    - t: 2025.708
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 68
+    - t: 2025.792
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 146
+    - t: 2025.875
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 80
+    - t: 2026.292
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 146
+    - t: 2026.375
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 146
+    - t: 2026.625
+      a: 0
+      col: '#C5CDD2'
+      lab: ''
+      cy: 72
+    groups:
+    - name: Chinese startup
+      col: '#FB0161'
+    - name: US startup
+      col: '#FFFFFF'
+    - name: Other
+      col: '#789096'
+    id: xs_n5
+    type: sx_round_timeline
+    legend: false
+    pill: SIGNAL
+  link: ed032, signal 5 of the list
+- after: xs_n5
+  slide:
+    id: xs_n3
+    type: sx_faceoff
+    section: Market opportunity
+    title: 'Big pharma now backs half of
+
+      in vivo CAR-T funding rounds'
+    cards:
+    - name: '2024'
+      stats:
+      - v: 14%
+        l: of rounds had a large drugmaker as an investor
+      - v: 1 of 7
+        l: equity rounds
+    - name: 2026 SO FAR
+      hl: true
+      stats:
+      - v: 50%
+        l: of rounds had a large drugmaker as an investor
+      - v: 4 of 8
+        l: equity rounds
+    story: 'When big pharma invests this early, the market is hot. J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into startups: a stake gives them a front-row seat before a buyout.'
+    note:
+    - We looked at the investors of every equity round raised by in vivo CAR-T startups
+    - in our own funding database, and counted the rounds where a large drugmaker invested
+    pill: SIGNAL
+  link: ed032, signal 6 of the list
 - after: ed152
   slide:
     id: xs_2b
@@ -261,33 +496,6 @@
     type: sx_split_compare
     chart_w: 400
   link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
-- after: ed169
-  slide:
-    id: xs_n3
-    type: sx_faceoff
-    section: Investor bets
-    title: 'Big pharma now backs half of
-
-      in vivo CAR-T funding rounds'
-    cards:
-    - name: '2024'
-      stats:
-      - v: 14%
-        l: of rounds had a large drugmaker as an investor
-      - v: 1 of 7
-        l: equity rounds
-    - name: 2026 SO FAR
-      hl: true
-      stats:
-      - v: 50%
-        l: of rounds had a large drugmaker as an investor
-      - v: 4 of 8
-        l: equity rounds
-    story: 'J&J, Lilly, Gilead, Regeneron and Amgen now put money straight into in vivo CAR-T startups. A stake gives them a front-row seat before a buyout: six makers have already been bought by big pharma.'
-    note:
-    - We looked at the investors of every equity round raised by in vivo CAR-T startups
-    - in our own funding database, and counted the rounds where a large drugmaker invested
-  link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
 - after: ed167
   slide:
     id: xs_n2
@@ -317,190 +525,6 @@
     note:
     - We sorted the equity rounds of in vivo CAR-T startups in our database
     - by delivery technology, from January 2024 to November 2026
-  link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
-- after: ed164
-  slide:
-    section: Investor bets
-    title: 'Five rounds of $100M or more made up
-
-      72% of recent in vivo CAR-T funding'
-    note:
-    - We placed every equity round raised by in vivo CAR-T startups in our own database
-    - on a timeline, sized by its disclosed amount, from January 2024 to November 2026
-    story: 'Each circle is one equity round since 2024, sized by the amount raised. The five pink circles, Capstan, Umoja, Strand, CREATE and Sail, are the rounds of $100M or more: together they make up 72% of all the money.'
-    t0: 2024.0
-    t1: 2027.0
-    amax: 465.0
-    ticks:
-    - t: 2024.0
-      l: '2024'
-    - t: 2025.0
-      l: '2025'
-    - t: 2026.0
-      l: '2026'
-    - t: 2026.87
-      l: Today
-    pts:
-    - t: 2026.542
-      a: 465.0
-      col: '#FB0161'
-      lab: Sail $465M
-      cy: 112.0
-    - t: 2024.208
-      a: 175.0
-      col: '#FB0161'
-      lab: Capstan $175M
-      cy: 125.1
-    - t: 2025.625
-      a: 153.0
-      col: '#FB0161'
-      lab: Strand $153M
-      cy: 126.5
-    - t: 2026.375
-      a: 122.0
-      col: '#FB0161'
-      lab: CREATE $122M
-      cy: 64.6
-    - t: 2025.042
-      a: 100.0
-      col: '#FB0161'
-      lab: Umoja $100M
-      cy: 130.2
-    - t: 2025.875
-      a: 65.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 133.3
-    - t: 2025.708
-      a: 53.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 90.5
-    - t: 2024.458
-      a: 51.4
-      col: '#C5CDD2'
-      lab: ''
-      cy: 134.7
-    - t: 2025.375
-      a: 45.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 135.4
-    - t: 2025.792
-      a: 42.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 65.8
-    - t: 2026.375
-      a: 40.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 26.0
-    - t: 2025.708
-      a: 30.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 45.4
-    - t: 2025.958
-      a: 25.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 110.1
-    - t: 2025.875
-      a: 14.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 96.1
-    - t: 2026.792
-      a: 14.0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 140.1
-    - t: 2025.625
-      a: 13.9
-      col: '#C5CDD2'
-      lab: ''
-      cy: 72.1
-    - t: 2026.708
-      a: 5.9
-      col: '#C5CDD2'
-      lab: ''
-      cy: 142.2
-    - t: 2024.042
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 146
-    - t: 2024.042
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 136
-    - t: 2024.125
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 102
-    - t: 2024.375
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 146
-    - t: 2024.375
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 128
-    - t: 2025.042
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 104
-    - t: 2025.458
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 146
-    - t: 2025.708
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 68
-    - t: 2025.792
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 146
-    - t: 2025.875
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 80
-    - t: 2026.292
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 146
-    - t: 2026.375
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 146
-    - t: 2026.625
-      a: 0
-      col: '#C5CDD2'
-      lab: ''
-      cy: 72
-    groups:
-    - name: Chinese startup
-      col: '#FB0161'
-    - name: US startup
-      col: '#FFFFFF'
-    - name: Other
-      col: '#789096'
-    id: xs_n5
-    type: sx_round_timeline
-    legend: false
   link: 'Investor bets chapter: each slide adds one fact on who raises money and how'
 - after: ed162
   slide:
@@ -532,7 +556,7 @@
       - 6
       - 6
     - x: '2026'
-      sub: 8 rounds so far
+      sub: 8 so far
       v:
       - 1
       - 3
