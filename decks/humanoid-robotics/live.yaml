@@ -1,0 +1,633 @@
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  raw: true
+  window: 5y
+  csv: assets/trends/humanoid-robotics/where-to-buy-robots.csv
+  term: where to buy robots
+  title: 'More and more people look for where to
+
+    buy a robot, now that preorders are open'
+  date: Lately.
+  expl: Humanoid robots stopped sounding like science fiction. 1X opened preorders for Neo, a home robot at $20,000, Chinese makers like Unitree showed humanoids under $6,000, and robot videos went viral on every feed. For the first time, buying one felt possible, so people started looking for where.
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  y_top: 222
+ed047p:
+  type: pp_donutv
+  variant: D
+  title: 'How is the humanoid robotics
+
+    market split between its categories?'
+  cats:
+  - name: Parts and services
+    p: 29
+    logos:
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-03.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-04.png
+  - name: Labs and schools
+    p: 23
+    logos:
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-10.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-11.png
+  - name: Factory and logistics
+    p: 20
+    logos:
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-07.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-08.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-09.png
+  - name: AI and software
+    p: 14
+    logos:
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-05.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-06.png
+  - name: Other robot uses
+    p: 14
+    logos:
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-00.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-01.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-02.png
+  note:
+  - We estimated each category from the robot sales, parts and software we can see, from Unitree to Agility
+  - They give orders of magnitude, not exact shares, and all the sources are included at the end of the report
+ed058:
+  type: pp_pains
+  title: 'Which humanoid robot
+
+    problems are still unsolved?'
+  auds:
+  - Car makers
+  - Battery makers
+  - Logistics firms
+  - AI labs
+  - University labs
+  pains:
+  - - They face downtime and repair bills when hands and arms break
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 3
+  - - They cannot cover a full shift on batteries that last a few hours
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They wait weeks before robots are useful on each new task
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They still pay people to operate many robots from a distance
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They struggle to prove payback with robots slower than workers
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They keep robots away from workers with no safety standard yet
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which humanoid maker has
+
+    the most complete tech today?'
+  companies:
+  - name: 1X
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-00.png
+  - name: Figure
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-01.png
+  - name: Agility
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-02.png
+  - name: Tesla
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-03.png
+  - name: Unitree
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-04.png
+  - name: Apptronik
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-05.png
+  features:
+  - header: On sale|to public
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Self-|charging
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Own|factory
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Built for|homes
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Business|contracts
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Own robot|AI model
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Carries|20 kg+
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for humanoid robots?'
+  events:
+  - odds: 50
+    impact: 1
+    text: Battery life stays under four hours per charge, limiting humanoids to short shifts and narrow jobs
+  - odds: 45
+    impact: 3
+    text: Unitree and UBTech flood the market with cheap Chinese humanoids that set prices far below Western rivals
+  - odds: 40
+    impact: 2
+    text: US tariffs and export controls on Chinese motors and actuators raise humanoid build costs over 20 percent
+  - odds: 35
+    impact: 2
+    text: Robot foundation models from Google DeepMind and Nvidia stall on dexterity, delaying useful general tasks for years
+  - odds: 30
+    impact: 3
+    text: Pilots at BMW, Mercedes and Amazon fail to show payback, so factories return to fixed industrial arms
+  - odds: 25
+    impact: 2
+    text: Venture funding dries up after several humanoid startups miss delivery targets and cut staff
+  - odds: 20
+    impact: 3
+    text: Tesla Optimus reaches volume production below 30,000 dollars and undercuts startups like Figure and Apptronik
+  - odds: 15
+    impact: 2
+    text: A humanoid injures a worker in a warehouse and OSHA forces new safety rules on deployments
+  note:
+  - We listed the events that could slow humanoid robots down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+ed148p:
+  title: 'What pushed humanoid robots
+
+    forward, year after year?'
+  events:
+  - year: '2000'
+    text: Honda ASIMO shows a robot can walk
+    impact: 1.5
+  - year: '2013'
+    text: DARPA challenge funds disaster humanoids
+    impact: 1.5
+  - year: '2013'
+    text: Google buys Boston Dynamics
+    impact: 1.0
+  - year: '2016'
+    text: Atlas walks outdoors and keeps balance
+    impact: 1.0
+  - year: '2021'
+    text: Tesla announces Optimus robot
+    impact: 3.0
+  - year: '2021'
+    text: Atlas parkour video shows new agility
+    impact: 1.0
+  - year: '2022'
+    text: Chip and labor shortages spur automation
+    impact: 1.0
+  - year: '2023'
+    text: ChatGPT gives robots a brain to talk
+    impact: 2.0
+  - year: '2023'
+    text: China sets 2025 humanoid production goal
+    impact: 3.0
+  - year: '2023'
+    text: Agility opens a factory for Digit robots
+    impact: 1.0
+  - year: '2024'
+    text: Figure signs BMW plant deployment
+    impact: 1.5
+  - year: '2024'
+    text: Nvidia GR00T offers robots a base model
+    impact: 1.75
+  - year: '2024'
+    text: Electric Atlas aims at factory work
+    impact: 1.5
+  - year: '2024'
+    text: Unitree G1 sells for $16,000
+    impact: 1.75
+  - year: '2024'
+    text: Digit robots go to work at GXO
+    impact: 1.5
+  - year: '2024'
+    text: Figure raises $675M from Nvidia and Bezos
+    impact: 1.5
+  - year: '2025'
+    text: Gemini Robotics adds AI brains to bots
+    impact: 1.5
+  - year: '2025'
+    text: Open GR00T N1 model speeds robot training
+    impact: 1.5
+  - year: '2025'
+    text: China hosts a humanoid half marathon
+    impact: 1.0
+  - year: '2025'
+    text: Figure Helix lets robots learn new tasks
+    impact: 1.5
+  - year: '2025'
+    text: Jetson Thor gives humanoids an onboard brain
+    impact: 1.0
+  - year: '2025'
+    text: China humanoid games show mass production
+    impact: 1.0
+  - year: '2025'
+    text: Unitree R1 cuts humanoid price to $5,900
+    impact: 1.5
+  - year: '2025'
+    text: UBTech wins big factory humanoid orders
+    impact: 1.25
+  - year: '2025'
+    text: 1X opens NEO home robot preorders
+    impact: 1.5
+  - year: '2025'
+    text: Figure 03 is designed for mass production
+    impact: 1.5
+  - year: '2026'
+    text: Hyundai shows production Atlas for plants
+    impact: 1.5
+  - year: '2026'
+    text: Tesla starts Optimus production in Fremont
+    impact: 2.75
+  - year: '2026'
+    text: Unitree IPO lets investors buy humanoids
+    impact: 1.5
+  - year: '2026'
+    text: Figure 03 output passes 1,000 robots
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed humanoid robots forward the most
+  - Ratings are our estimates, and all our sources are at the end of the report
+ed168p:
+  handle: humanoid-robotics
+  title: 'Where did humanoid robot investors
+
+    put their money this past year?'
+  rows:
+  - name: General humanoids
+    names:
+    - TARS
+    - Galbot
+    v: $3.7B
+    pct: 57% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-00.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-01.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-02.png
+  - name: Humanoid AI models
+    names:
+    - X Square Robot
+    - Spirit AI
+    v: $943M
+    pct: 15% of total
+    w: 25.5
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-03.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-04.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-05.png
+  - name: Industrial humanoids
+    names:
+    - Apptronik
+    - Holiday Robotics
+    v: $784M
+    pct: 12% of total
+    w: 21.2
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-06.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-07.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-08.png
+  - name: Actuators and hands
+    names:
+    - Linkerbot
+    - AGILINK
+    v: $632M
+    pct: 10% of total
+    w: 17.1
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-09.png
+  - name: Home robots
+    names:
+    - Sunday
+    - Noetix
+    v: $416M
+    pct: 6% of total
+    w: 11.2
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-10.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-11.png
+  - name: Logistics robots
+    names:
+    - Avatar Robotics
+    v: $6M
+    pct: under 1% of total
+    w: 0.2
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-12.png
+  note:
+  - We added up every funding round we tracked in humanoid robots over the last twelve months
+  - We used company announcements and the press, with all the sources at the end of the report
+ed171p:
+  title: 'Who are the top players
+
+    in humanoid robotics?'
+  cols:
+  - Industrial & warehouse
+  - Service environments
+  - Dev / R&D or platform-first
+  rows:
+  - Full-size biped
+  - Compact biped
+  - Wheeled / hybrid
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-00.png
+    x: 296.6
+    y: 270.6
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-01.png
+    x: 505.9
+    y: 269.1
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-02.png
+    x: 751.3
+    y: 265.7
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-03.png
+    x: 190.1
+    y: 294.0
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-04.png
+    x: 243.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-05.png
+    x: 350.4
+    y: 285.0
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-06.png
+    x: 444.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-07.png
+    x: 571.7
+    y: 308.8
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-08.png
+    x: 647.6
+    y: 307.7
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-09.png
+    x: 699.0
+    y: 291.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-10.png
+    x: 797.8
+    y: 304.3
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-11.png
+    x: 306.2
+    y: 384.4
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-12.png
+    x: 480.0
+    y: 393.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-13.png
+    x: 544.3
+    y: 385.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-14.png
+    x: 648.9
+    y: 379.3
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-15.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-16.png
+    x: 774.9
+    y: 397.3
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-17.png
+    x: 420.9
+    y: 468.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-18.png
+    x: 478.7
+    y: 483.2
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-19.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-20.png
+    x: 191.6
+    y: 497.6
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-21.png
+    x: 249.0
+    y: 504.6
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-22.png
+    x: 306.9
+    y: 504.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-23.png
+    x: 544.3
+    y: 504.6
+  note:
+  - We placed humanoid robots with a torso and two arms by body type and by their first market
+  - We left out mobile carts, fixed arms and animatronics, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these humanoid
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Investors|pulled out
+  - Product|fell short
+  - Weak|sales
+  rows:
+  - name: K-Scale Labs
+    ending: Shut down
+    start: '2024'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-00.png
+    ini: K
+    slug: k-scale-labs
+    domain: kscale.dev
+  - name: Aldebaran
+    ending: Liquidated
+    start: '2005'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-01.png
+    ini: A
+    slug: aldebaran
+    domain: aldebaran.com
+  - name: Rethink Robotics
+    ending: Shut down
+    start: '2008'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-02.png
+    ini: R
+    slug: rethink-robotics
+    domain: rethinkrobotics.com
+  - name: Schaft
+    ending: Shut down
+    start: '2012'
+    end: '2018'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-03.png
+    ini: S
+    slug: schaft
+    domain: ''
+  - name: OneStar
+    ending: Disbanded
+    start: '2025'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-04.png
+    ini: O
+    slug: onestar
+    domain: ''
+  note:
+  - We tracked the humanoid robots startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Figure be winning
+
+    the humanoid robot race?'
+  companies:
+  - short: Figure
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-00.png
+  - short: Agility
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-01.png
+  - short: Apptronik
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-02.png
+  - short: 1X
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-03.png
+  - short: Boston Dyn.
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-04.png
+  criteria:
+  - name: Valued above $30B
+    why: Most money to scale up
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Raised over $1B
+    why: Funds its own factory
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: In house robot AI model
+    why: Robots learn new tasks
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Paid factory deployments
+    why: Proves real work value
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Home robot preorders
+    why: Opens the consumer market
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Google DeepMind AI deal
+    why: Borrows top robot AI
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Owned by a carmaker
+    why: Built in factory customer
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report

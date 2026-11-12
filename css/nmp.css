@@ -318,7 +318,7 @@ b,strong{font-weight:700}
 .pp-rv{transform:translateX(-50%);font-size:11pt;font-weight:700;color:#fff;white-space:nowrap}
 .pp-rn{transform:translateX(-50%);font-size:9pt;color:#E5EAEC;white-space:nowrap}.pp-rs2{transform:translateX(-50%);font-size:7pt;font-style:italic;color:#789096;white-space:nowrap}
 /* S10 grid */
-.pp-gc{top:198px;transform:translateX(-50%);font-size:9pt;color:#BCC8CC}.pp-gr{font-size:9pt;color:#BCC8CC;text-align:right;white-space:nowrap}
+.pp-gc{top:198px;transform:translateX(-50%);font-size:9pt;color:#BCC8CC}.pp-gr{font-size:9pt;color:#BCC8CC;text-align:right;max-width:92px;line-height:1.3;transform:translateY(calc(-50% + 8px))}
 /* S11 killers / survivors */
 .pp-kh{top:256px;transform:translateX(-50%);text-align:center;font-size:9pt;font-weight:600;line-height:1.25;color:#fff}.pp-kh.l{transform:none;text-align:left}
 .pp-kl{border-top:1px solid #133A4D}

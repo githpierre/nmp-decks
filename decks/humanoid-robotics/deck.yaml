@@ -678,18 +678,20 @@ slides:
   type: pp_trends
   section: Market opportunity
   pill: SIGNAL
-  title: 'Searches for humanoid robotics soar as
+  signal: google-trends
+  raw: true
+  window: 5y
+  csv: assets/trends/humanoid-robotics/where-to-buy-robots.csv
+  term: where to buy robots
+  title: 'More and more people look for where to
 
-    cell therapy moves inside the body'
-  csv: assets/trends/in-vivo-car-t/in-vivo-car-t.csv
-  term: in vivo car t
+    buy a robot, now that preorders are open'
   date: Lately.
-  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and big deals by AstraZeneca and AbbVie for in vivo startups drew attention.
+  expl: Humanoid robots stopped sounding like science fiction. 1X opened preorders for Neo, a home robot at $20,000, Chinese makers like Unitree showed humanoids under $6,000, and robot videos went viral on every feed. For the first time, buying one felt possible, so people started looking for where.
   note:
   - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources at the end of the report
-  signal: google-trends
-  tag: 'PRODUCT PAGE: TO COPY'
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  y_top: 222
 - id: ed040
   type: agenda
   section: Market size
@@ -786,33 +788,42 @@ slides:
     8: We estimate $1.9 billion in 2026 from 54,000 shipments and SAG revenue data. Broader reports span $4.2B to $10.9B because many include software, components and services.
 - id: ed047p
   type: pp_donutv
-  variant: B
   section: Market size
-  title: How is the humanoid robotics market split between its categories?
+  variant: D
+  title: 'How is the humanoid robotics
+
+    market split between its categories?'
   cats:
-  - name: Viral CAR vectors
-    p: 53
-    logos:
-    - ../../assets/logos/pp/umoja.png
-    - ../../assets/logos/interius.png
-    - ../../assets/logos/esobiotec.png
-    - ../../assets/logos/kelonia.png
-  - name: LNP-RNA delivery
+  - name: Parts and services
     p: 29
     logos:
-    - ../../assets/logos/capstan.png
-    - ../../assets/logos/orna.png
-    - ../../assets/logos/orbital.png
-    - ../../assets/logos/create-medicines.png
-  - name: Other delivery routes
-    p: 18
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-03.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-04.png
+  - name: Labs and schools
+    p: 23
     logos:
-    - ../../assets/logos/ensoma.png
-    - ../../assets/logos/nanocell-therapeutics.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-10.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-11.png
+  - name: Factory and logistics
+    p: 20
+    logos:
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-07.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-08.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-09.png
+  - name: AI and software
+    p: 14
+    logos:
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-05.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-06.png
+  - name: Other robot uses
+    p: 14
+    logos:
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-00.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-01.png
+    - ../../assets/logos/pp_live/humanoid-robotics/s03-02.png
   note:
-  - We estimate the split from the delivery route of the 45 clinical-stage programs, as nothing is sold yet
-  - No public source splits this market by category, so these shares are our own best estimate, rounded
-  tag: 'PRODUCT PAGE: TO COPY'
+  - We estimated each category from the robot sales, parts and software we can see, from Unitree to Agility
+  - They give orders of magnitude, not exact shares, and all the sources are included at the end of the report
 - id: ed048
   type: x/behind_these_categories
   section: Market size
@@ -1094,56 +1105,55 @@ slides:
 - id: ed058
   type: pp_pains
   section: Pain points
-  title: 'Which humanoid robotics problems
+  title: 'Which humanoid robot
 
-    are still waiting for a fix?'
+    problems are still unsolved?'
   auds:
-  - Oncologists
-  - Patients
-  - Hospitals
-  - Biotech teams
-  - Investors
+  - Car makers
+  - Battery makers
+  - Logistics firms
+  - AI labs
+  - University labs
   pains:
-  - - They wait weeks for cells to be made for each patient today
-    - - 3
-      - 3
-      - 2
-      - 1
-      - 1
-  - - They cannot yet control how strong the therapy gets in the body
-    - - 3
-      - 2
-      - 1
-      - 3
-      - 2
-  - - They need proof the effect lasts as long as classic CAR-T
-    - - 3
-      - 2
-      - 1
-      - 3
-      - 3
-  - - They worry about where the gene delivery ends up in the body
+  - - They face downtime and repair bills when hands and arms break
     - - 2
       - 2
+      - 2
+      - 3
+      - 3
+  - - They cannot cover a full shift on batteries that last a few hours
+    - - 3
+      - 3
+      - 3
       - 1
+      - 1
+  - - They wait weeks before robots are useful on each new task
+    - - 3
       - 3
       - 2
-  - - They pay hundreds of thousands per patient for current CAR-T
+      - 2
+      - 1
+  - - They still pay people to operate many robots from a distance
     - - 2
+      - 2
       - 3
       - 3
       - 1
-      - 1
-  - - They face a long path from early trials to approval
-    - - 1
-      - 1
-      - 1
+  - - They struggle to prove payback with robots slower than workers
+    - - 3
+      - 2
       - 3
-      - 3
+      - 1
+      - 1
+  - - They keep robots away from workers with no safety standard yet
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
   note:
   - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
   - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
-  tag: 'PRODUCT PAGE: TO COPY'
 - id: ed059
   type: x/problems_startups_going_after
   section: Pain points
@@ -2172,74 +2182,82 @@ slides:
 - id: ed099p
   type: pp_tech
   section: Tech and infra
-  title: 'Which humanoid robotics maker has
+  title: 'Which humanoid maker has
 
     the most complete tech today?'
   companies:
-  - name: Lilly
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-0.png
-  - name: Umoja
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-1.png
-  - name: Gilead
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-2.png
-  - name: AbbVie
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-3.png
-  - name: AstraZeneca
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s05-4.png
+  - name: 1X
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-00.png
+  - name: Figure
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-01.png
+  - name: Agility
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-02.png
+  - name: Tesla
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-03.png
+  - name: Unitree
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-04.png
+  - name: Apptronik
+    src: ../../assets/logos/pp_live/humanoid-robotics/s05-05.png
   features:
-  - header: CD19|CAR
+  - header: On sale|to public
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Self-|charging
     values:
     - 1
     - 1
     - 1
     - 1
     - 0
-  - header: BCMA|CAR
+    - 0
+  - header: Own|factory
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Built for|homes
     values:
     - 1
     - 1
     - 0
     - 0
-    - 1
-  - header: CD20|CAR
-    values:
     - 0
     - 0
-    - 1
-    - 0
-    - 0
-  - header: CD22|CAR
-    values:
-    - 0
-    - 1
-    - 0
-    - 0
-    - 0
-  - header: Targeted|lipids
-    values:
-    - 1
-    - 0
-    - 0
-    - 1
-    - 0
-  - header: Viral|vectors
+  - header: Business|contracts
     values:
     - 1
     - 1
     - 1
     - 0
     - 1
-  - header: Circular|RNA
+    - 1
+  - header: Own robot|AI model
     values:
     - 1
+    - 1
+    - 1
+    - 1
+    - 1
     - 0
+  - header: Carries|20 kg+
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
     - 0
-    - 0
-    - 0
+    - 1
   note:
   - We checked each company’s website, filings and press releases, feature by feature
   - A pink mark means the feature is there, with all the sources at the end of the report
-  tag: 'PRODUCT PAGE: TO COPY'
 - id: ed100
   type: agenda
   section: Value creation
@@ -2353,6 +2371,47 @@ slides:
 
       ECONOMICS'
     18: 💎
+- id: pp_s06
+  type: pp_value
+  section: Value creation
+  title: 'How do humanoid makers
+
+    actually make money?'
+  axes:
+  - Businesses pay
+  - Households pay
+  - Sells the
+  - hardware
+  - Sells the
+  - brain
+  groups:
+  - name: Robot brains and chips
+    x: 0.18
+    y: 0.84
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-00.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-01.png
+  - name: Robots sold outright
+    x: 0.5
+    y: 0.5
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-02.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-03.png
+  - name: Robots leased to factories
+    x: 0.16
+    y: 0.22
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-04.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-05.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-06.png
+  - name: Home robots by monthly plan
+    x: 0.85
+    y: 0.2
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-07.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
 - id: ed106-s1
   type: x/divider_3
   src: 106
@@ -3032,38 +3091,37 @@ slides:
 - id: ed142p
   type: pp_risks
   section: Market challenges
-  title: 'What are the biggest
+  title: 'What could go wrong
 
-    threats to humanoid robotics?'
+    for humanoid robots?'
   events:
-  - text: AbbVie with Capstan, Gilead with Interius and Lilly with Orna control the field, leaving few independent startups
-    odds: 40
-    impact: 2
-  - text: Chinese biotechs post faster humanoid robotics data and license their assets cheaply to big pharma
-    odds: 35
+  - odds: 50
     impact: 1
-  - text: Bispecific antibodies and T cell engagers win autoimmune disease before humanoid robotics reaches the market
-    odds: 30
-    impact: 2
-  - text: Early responses in lupus and lymphoma fade within a year, so doctors stay with existing CAR-T
-    odds: 25
-    impact: 2
-  - text: A patient dies from immune toxicity in an humanoid robotics trial and the FDA halts programs
-    odds: 20
+    text: Battery life stays under four hours per charge, limiting humanoids to short shifts and narrow jobs
+  - odds: 45
     impact: 3
-  - text: Lipid nanoparticles reach the liver more than T cells, which limits doses and weakens efficacy
-    odds: 20
-    impact: 1
-  - text: Biotech funding falls, and humanoid robotics startups cannot finance the large trials the FDA requires
-    odds: 18
+    text: Unitree and UBTech flood the market with cheap Chinese humanoids that set prices far below Western rivals
+  - odds: 40
     impact: 2
-  - text: Viral vectors insert genes into the wrong cells, raising cancer fears and triggering long FDA safety reviews
-    odds: 12
+    text: US tariffs and export controls on Chinese motors and actuators raise humanoid build costs over 20 percent
+  - odds: 35
+    impact: 2
+    text: Robot foundation models from Google DeepMind and Nvidia stall on dexterity, delaying useful general tasks for years
+  - odds: 30
     impact: 3
+    text: Pilots at BMW, Mercedes and Amazon fail to show payback, so factories return to fixed industrial arms
+  - odds: 25
+    impact: 2
+    text: Venture funding dries up after several humanoid startups miss delivery targets and cut staff
+  - odds: 20
+    impact: 3
+    text: Tesla Optimus reaches volume production below 30,000 dollars and undercuts startups like Figure and Apptronik
+  - odds: 15
+    impact: 2
+    text: A humanoid injures a worker in a warehouse and OSHA forces new safety rules on deployments
   note:
-  - We listed the events that could slow humanoid robotics down, from company news, regulators and analysts
-  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
-  tag: 'PRODUCT PAGE: TO COPY'
+  - We listed the events that could slow humanoid robots down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
 - id: ed143
   type: x/likely_each_risk
   section: Market challenges
@@ -3211,104 +3269,103 @@ slides:
 - id: ed148p
   type: pp_drivers
   section: Growth drivers
-  title: 'What pushed humanoid robotics
+  title: 'What pushed humanoid robots
 
     forward, year after year?'
   events:
-  - year: '2017'
-    text: DNA nanoparticles generate CAR T in mice
+  - year: '2000'
+    text: Honda ASIMO shows a robot can walk
+    impact: 1.5
+  - year: '2013'
+    text: DARPA challenge funds disaster humanoids
+    impact: 1.5
+  - year: '2013'
+    text: Google buys Boston Dynamics
+    impact: 1.0
+  - year: '2016'
+    text: Atlas walks outdoors and keeps balance
+    impact: 1.0
+  - year: '2021'
+    text: Tesla announces Optimus robot
     impact: 3.0
+  - year: '2021'
+    text: Atlas parkour video shows new agility
+    impact: 1.0
   - year: '2022'
-    text: Nanoparticles target fibrosis with CAR T
+    text: Chip and labor shortages spur automation
+    impact: 1.0
+  - year: '2023'
+    text: ChatGPT gives robots a brain to talk
     impact: 2.0
   - year: '2023'
-    text: Ionizable lipids improve T cell targeting
-    impact: 1.5
-  - year: '2024'
-    text: AbbVie backs in situ CAR T platforms
-    impact: 2.0
-  - year: '2024'
-    text: Enveloped vectors expand delivery choices
-    impact: 1.5
-  - year: '2024'
-    text: Primate data strengthens durability evidence
-    impact: 2.0
-  - year: '2024'
-    text: Umoja clearance opens US testing
-    impact: 2.5
-  - year: '2024'
-    text: Interius doses first in vivo patient
+    text: China sets 2025 humanoid production goal
     impact: 3.0
+  - year: '2023'
+    text: Agility opens a factory for Digit robots
+    impact: 1.0
   - year: '2024'
-    text: Extrahepatic mRNA delivery reaches T cells
+    text: Figure signs BMW plant deployment
+    impact: 1.5
+  - year: '2024'
+    text: Nvidia GR00T offers robots a base model
+    impact: 1.75
+  - year: '2024'
+    text: Electric Atlas aims at factory work
+    impact: 1.5
+  - year: '2024'
+    text: Unitree G1 sells for $16,000
+    impact: 1.75
+  - year: '2024'
+    text: Digit robots go to work at GXO
+    impact: 1.5
+  - year: '2024'
+    text: Figure raises $675M from Nvidia and Bezos
+    impact: 1.5
+  - year: '2025'
+    text: Gemini Robotics adds AI brains to bots
+    impact: 1.5
+  - year: '2025'
+    text: Open GR00T N1 model speeds robot training
+    impact: 1.5
+  - year: '2025'
+    text: China hosts a humanoid half marathon
     impact: 1.0
   - year: '2025'
-    text: Retargeted virus improves CAR T production
+    text: Figure Helix lets robots learn new tasks
     impact: 1.5
   - year: '2025'
-    text: Nonviral DNA delivery generates CAR T
-    impact: 2.0
-  - year: '2025'
-    text: Engineered lentivirus reaches T and NK cells
+    text: Jetson Thor gives humanoids an onboard brain
     impact: 1.0
   - year: '2025'
-    text: AstraZeneca buys EsoBiotec platform
-    impact: 2.0
-  - year: '2025'
-    text: Umoja Fast Track speeds FDA dialogue
-    impact: 1.5
-  - year: '2025'
-    text: AbbVie buys Capstan lipid delivery platform
-    impact: 2.5
-  - year: '2025'
-    text: Gilead backs Interius direct cell engineering
-    impact: 2.0
-  - year: '2025'
-    text: Major review clarifies platform choices
+    text: China humanoid games show mass production
     impact: 1.0
   - year: '2025'
-    text: Australian trials test direct CAR delivery
+    text: Unitree R1 cuts humanoid price to $5,900
+    impact: 1.5
+  - year: '2025'
+    text: UBTech wins big factory humanoid orders
+    impact: 1.25
+  - year: '2025'
+    text: 1X opens NEO home robot preorders
+    impact: 1.5
+  - year: '2025'
+    text: Figure 03 is designed for mass production
     impact: 1.5
   - year: '2026'
-    text: Lilly buys Orna for circular RNA
-    impact: 2.0
-  - year: '2026'
-    text: Lilly acquires Kelonia for in vivo CAR
-    impact: 2.5
-  - year: '2026'
-    text: US myeloma dosing broadens clinical reach
-    impact: 2.0
-  - year: '2026'
-    text: Myeloma responses validate clinical tests
-    impact: 2.0
-  - year: '2026'
-    text: Umoja clears CD22 program for trials
+    text: Hyundai shows production Atlas for plants
     impact: 1.5
   - year: '2026'
-    text: CREATE receives autoimmune trial clearance
+    text: Tesla starts Optimus production in Fremont
+    impact: 2.75
+  - year: '2026'
+    text: Unitree IPO lets investors buy humanoids
     impact: 1.5
   - year: '2026'
-    text: IASO advances CD20 in vivo CAR
+    text: Figure 03 output passes 1,000 robots
     impact: 1.5
-  - year: '2026'
-    text: Ligand-free particles simplify CAR delivery
-    impact: 1.5
-  - year: '2026'
-    text: Clinical data expose durability tradeoffs
-    impact: 1.5
-  - year: '2026'
-    text: Clinical trials test multiple delivery routes
-    impact: 1.5
-  - year: '2026'
-    text: Review maps early human evidence
-    impact: 1.0
-  - year: '2026'
-    text: CD8 targeting reaches oncology trial programs
-    impact: 1.0
   note:
-  - We kept the events we believe pushed humanoid robotics forward the most
-  - Ratings are our estimates, with all the sources at the end of the report
-  tag: 'PRODUCT PAGE: TO COPY'
+  - We kept the events we believe pushed humanoid robots forward the most
+  - Ratings are our estimates, and all our sources are at the end of the report
 - id: ed149
   type: x/growth_engines_have_run_out
   section: Growth drivers
@@ -3455,19 +3512,18 @@ slides:
   note: We list the latest equity rounds of humanoid robotics startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
   src: 156
   t:
-    13: 2026 (OCT)
-    14: DeliNova raised a $14M seed round led by Proxima Ventures for its lentiviral humanoid robotics therapies {1|The Capital}
-    15: 2026 (SEP)
-    16: MVRIX raised a $5.9M Series B from Korea Investment Partners and others for its humanoid robotics cell therapies {1|Hankyung}
-    17: 2026 (AUG)
-    18: MagicRNA raised an undisclosed Series B led by CICC Capital and Kangjun Capital for its LNP-mRNA CD19 CAR-T {1|BioPharm China}
-    19: 2026 (JUL)
-    20: Sail Biomedicines got $465M from Johnson & Johnson in a strategic deal for its RNA-based humanoid robotics {1|J&J}
-    21: 2026 (MAY)
-    22: Zhenyu Biopharma raised an undisclosed round led by Chengdu Future Industry Fund for mRNA-LNP humanoid robotics {1|Chengdu Hi-Tech}
-    23: 2026 (MAY)
-    24: CREATE Medicines raised a $122M Series B led by Newpath, ARCH and Hatteras to program immune cells in the body {1|PR Newswire}
-  tag: 'FROM OUR DATABASE: TO BUILD'
+    13: 2026 (NOV)
+    14: Tutor Intelligence raised a $75M Series B led by Andreessen Horowitz {1|Business Wire}
+    15: 2026 (NOV)
+    16: RoboScience raised an undisclosed Series A led by Hupo Capital {1|Beijing News}
+    17: 2026 (OCT)
+    18: Zhicheng AI raised $25M for its humanoid developer and research platforms {1|ChinaVenture}
+    19: 2026 (OCT)
+    20: CASBOT raised an undisclosed Series A for its industrial and factory humanoids {1|Cailian Press}
+    21: 2026 (OCT)
+    22: EIR raised a $14M seed round for its service, hospitality and social humanoids {1|IT Home}
+    23: 2026 (OCT)
+    24: Ruoyu Technology raised a $14M seed round led by Sunway Communication {1|STAR Market Daily}
 - id: ed157
   type: x/rounds_were_announced_last_2
   section: Investor bets
@@ -3478,19 +3534,18 @@ slides:
   note: We list the latest equity rounds of humanoid robotics startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
   src: 157
   t:
-    14: 2026 (MAY)
-    15: Starna Therapeutics raised a $40M Series B from Lilly Asia Ventures for its in vivo CAR programs STR-P004 and STR-P005 {1|Starna}
-    16: 2026 (APR)
-    17: Vivacta Bio raised an undisclosed Series A led by Loyal Valley Capital to advance its GT801 CD19 humanoid robotics {1|PR Newswire}
-    18: 2025 (DEC)
-    19: Vyriad closed the final $25M tranche of its Series B, from Harry Stine, to advance its humanoid robotics programs {1|Vyriad}
-    20: 2025 (NOV)
-    21: Vivacta Bio raised a $14M seed round led by Qiming Venture Partners for its GT801 CD19 humanoid robotics program {1|CNFIN}
-    22: 2025 (NOV)
-    23: Azalea Therapeutics raised a $65M Series A led by Third Rock Ventures for in vivo genome editing against cancer {1|Fierce Biotech}
-    24: 2025 (OCT)
-    25: Starna Therapeutics raised a $42M Series B led by LYFE Capital, Hillhouse Ventures and Lilly Asia Ventures {1|Starna}
-  tag: 'FROM OUR DATABASE: TO BUILD'
+    14: 2026 (OCT)
+    15: NEXFORM raised an undisclosed seed round for its human-form embodied manipulation / hybrid locomotion {1|NEXFORM}
+    16: 2026 (OCT)
+    17: Astribot raised a $140M Series B led by Toukong Donghai Capital for its general-purpose bipedal humanoids {1|36Kr}
+    18: 2026 (OCT)
+    19: Minerva Humanoids raised a $10M seed round led by General Catalyst for its industrial and factory humanoids {1|Minerva}
+    20: 2026 (SEP)
+    21: Feather Robotics raised a $7.6M seed round led by Gradient Ventures {1|Investegate}
+    22: 2026 (SEP)
+    23: Kinetix AI raised a $70M seed round led by Vertex Ventures China for its general-purpose bipedal humanoids {1|Xinhua}
+    24: 2026 (SEP)
+    25: Zerith Robotics raised an undisclosed Series A for its service, hospitality and social humanoids {1|PEdaily}
 - id: iv_deals
   type: x/rounds_were_announced_last
   section: Investor bets
@@ -3518,22 +3573,21 @@ slides:
     evolved recently?'
   bars:
   - x: 2025 H1
-    v: 145
-    ann: Umoja’s $100M Series C made up most of the half-year
+    v: 1787
+    ann: Apptronik $350M, Rhoda AI $163M, in 62 rounds
   - x: 2025 H2
-    v: 396
-    ann: Strand raised $153M and Azalea $65M, in 12 rounds
+    v: 2877
+    ann: Figure AI $1B, Galbot $294M, in 54 rounds
   - x: 2026 H1
-    v: 162
-    ann: CREATE’s $122M Series B was most of a quiet half-year
+    v: 6361
+    ann: Apptronik $520M, TARS Robotics $455M, in 83 rounds
   - x: 2026 H2
-    v: 485
-    ann: Sail’s $465M from J&J made up almost all of it
+    v: 2648
+    ann: XPENG Robotics $900M, Walden Robotics $300M, in 36 rounds
   note:
   - We add up the disclosed equity rounds of humanoid robotics startups in our tracker, by half-year
-  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero in this chart
   src: 158
-  tag: 'FROM OUR DATABASE: TO BUILD'
 - id: ed159
   type: fundbars
   section: Investor bets
@@ -3546,31 +3600,29 @@ slides:
   src: 159
   bars:
   - x: '2024'
-    v: 226
-    ann: Capstan’s $175M was 77% of the year
+    v: 1582
+    ann: Figure AI $675M, YOUIBOT $193M
   - x: '2025'
-    v: 541
-    ann: Strand $153M, Umoja $100M
+    v: 4664
+    ann: Figure AI $1B, Apptronik $350M
   - x: '2026'
-    v: 647
-    ann: Sail took $465M from J&J
-  tag: 'FROM OUR DATABASE: TO BUILD'
+    v: 9009
+    ann: XPENG Robotics $900M, Apptronik $520M
 - id: ed160
   type: x/stands_out_funding
   section: Investor bets
   title: 'What stands out in
 
     humanoid robotics funding?'
-  note: Insights come from our tracker of 30 humanoid robotics equity rounds announced since January 2024, worth about $1.41 billion
+  note: Insights come from our tracker of 300 humanoid robotics equity rounds announced since January 2024, worth about $15.3B
   src: 160
   t:
-    6: LNP-mRNA CAR-T took about 64% of the capital raised since 2024, far more than any other category
-    7: Only 17 of the 30 rounds since 2024 disclosed an amount, and the median disclosed round was $45M
-    8: US startups took about 89% of the capital, even though Chinese startups closed more rounds, 17 against 12
-    9: Five rounds of $100M or more made up about 72% of all the capital raised in the market since 2024
-    10: Sail’s $465M from Johnson & Johnson alone is about a third of all the capital raised since 2024
-    11: Series B was the most common round, with 11 of the 30 rounds, ahead of seed with 6 and Series A with 5
-  tag: 'FROM OUR DATABASE: TO BUILD'
+    6: General-purpose bipedal humanoids took about 53% of the capital raised since 2024, far ahead of any other type of robot
+    7: Only 156 of the 300 rounds since 2024 disclosed an amount, and the median disclosed round was $48M
+    8: Chinese startups closed 229 of the 300 rounds and took about 62% of the money, against $5B for US startups
+    9: 53 rounds of $100M or more made up about 79% of all the capital raised in the market since 2024
+    10: Figure’s $1B Series C is the biggest round since 2024, ahead of the $900M raised by XPENG Robotics in 2026
+    11: Seed was the most common round, with 134 of the 300 rounds, ahead of Series A with 71 and Series B with 32
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
@@ -3583,12 +3635,11 @@ slides:
     6: 'BEFORE
 
 
-      From 2020 to 2022, investors wrote very large checks to broad platforms like Sana, Tessera, Orna and Umoja. The money came before any human data, on the promise of the technology alone.'
+      Until 2023, only a handful of startups such as Agility, Figure and 1X raised large rounds, on the promise of robots shown in labs and demo videos.'
     7: 'AFTER
 
 
-      Now, money follows clinical data and pharma partners. Big rounds are rare: Sail took $465M from J&J and CREATE raised $122M in 2026, while Chinese startups close most of the rounds.'
-  tag: 'FROM OUR DATABASE: TO BUILD'
+      Since 2024, 300 rounds raised $15.3B. Chinese startups close three rounds in four, while Figure and Apptronik raise the biggest checks.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -3602,15 +3653,14 @@ slides:
   unit: pct
   bars:
   - x: '2024'
-    v: 77
-    ann: Capstan’s $175M Series B, out of 7 rounds
+    v: 43
+    ann: Figure AI’s $675M, out of 65 rounds
   - x: '2025'
-    v: 28
-    ann: Strand’s $153M Series B, out of 15 rounds
+    v: 21
+    ann: Figure AI’s $1B, out of 116 rounds
   - x: 2026 (YTD)
-    v: 72
-    ann: Sail’s $465M from J&J, out of 8 rounds
-  tag: 'FROM OUR DATABASE: TO BUILD'
+    v: 10
+    ann: XPENG Robotics’s $900M, out of 119 rounds
 - id: ed165p
   type: pp_raises
   section: Investor bets
@@ -3618,184 +3668,190 @@ slides:
 
     in the humanoid robotics space right now?'
   rounds:
-  - name: Sail Biomedicines
-    amt: 465000000
+  - name: XPENG Robotics
+    amt: 900000000
     date: Q3 2026
-    stage: Strategic
-    src: ../../assets/logos/sail-biomedicines.png
-  - name: CREATE Medicines
-    amt: 122000000
+    stage: Equity
+    src: media/ini/xpeng-robotics.png
+  - name: Apptronik
+    amt: 520000000
+    date: Q1 2026
+    stage: Series A
+    src: ../../assets/logos/pp/apptronik.png
+  - name: TARS Robotics
+    amt: 455000000
     date: Q2 2026
-    stage: Series B
-    src: ../../assets/logos/create-medicines.png
-  - name: Starna Therapeutics
-    amt: 40000000
-    date: Q2 2026
-    stage: Series B
-    src: ../../assets/logos/starna-therapeutics.png
-  - name: Vyriad
-    amt: 25000000
-    date: Q4 2025
-    stage: Series B
-    src: ../../assets/logos/vyriad.png
+    stage: Seed
+    src: media/ini/tars-robotics.png
+  - name: Rhoda AI
+    amt: 450000000
+    date: Q1 2026
+    stage: Series A
+    src: ../../assets/logos/rhoda-ai.png
   note:
   - We listed the biggest equity rounds raised by humanoid robotics startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
-  tag: 'FROM OUR DATABASE: TO BUILD'
 - id: ed166p
   type: pp_raises
   section: Investor bets
-  title: 'Who did investors back the most
+  title: 'Who did investors back
 
-    in the humanoid robotics space in earlier years?'
+    most in earlier years?'
   rounds:
-  - name: Tessera Therapeutics
-    amt: 300000000
-    date: '2022'
+  - name: Figure AI
+    amt: 1000000000
+    date: Q3 2
     stage: Series C
-    src: ../../assets/logos/tessera-therapeutics.png
-  - name: Orbital Therapeutics
-    amt: 270000000
-    date: '2023'
+    src: ../../assets/logos/pp/figure-ai.png
+  - name: UBTECH Robotics
+    amt: 820000000
+    date: Q2 2
+    stage: Series C
+    src: media/ini/ubtech-robotics.png
+  - name: Figure AI
+    amt: 675000000
+    date: Q1 2
+    stage: Series B
+    src: ../../assets/logos/pp/figure-ai.png
+  - name: Apptronik
+    amt: 350000000
+    date: Q1 2
     stage: Series A
-    src: ../../assets/logos/orbital.png
-  - name: Orna Therapeutics
-    amt: 221000000
-    date: '2022'
-    stage: Series B
-    src: ../../assets/logos/orna.png
-  - name: Umoja Biopharma
-    amt: 210000000
-    date: '2021'
-    stage: Series B
-    src: ../../assets/logos/umoja-biopharma.png
+    src: ../../assets/logos/pp/apptronik.png
   note:
   - We listed the biggest equity rounds raised by humanoid robotics startups before the last twelve months
   - We used our tracker of rounds, company announcements and the press, with sources at the end
-  tag: 'FROM OUR DATABASE: TO BUILD'
 - id: ed167
   type: x/where_did_most_capital_go
   section: Investor bets
   title: 'Where did most
 
     of the capital go?'
-  note: Data comes from our tracker of 30 humanoid robotics equity rounds announced since January 2024, worth about $1.41 billion. IPOs, debt and grants are left out
+  note: Data comes from our tracker of 300 humanoid robotics equity rounds announced since January 2024, worth about $15.3B. IPOs, debt and grants are left out
   src: 167
   t:
-    6: LNP-MRNA CAR-T
-    7: LENTIVIRAL CAR-T
-    8: OTHER ROUTES
-    9: '10'
+    6: BIPEDAL GENERAL-PURPOSE
+    7: DEVELOPER PLATFORMS
+    8: INDUSTRIAL HUMANOIDS
+    9: '110'
     10: DEALS
-    11: '10'
-    12: '10'
-    13: $903M
+    11: '60'
+    12: '56'
+    13: $8.1B
     14: '
 
       RAISED ($)'
-    15: $220M
-    16: $291M
-    17: Sail, Capstan, Strand, Starna
+    15: $3.2B
+    16: $2.4B
+    17: Figure AI, XPENG Robotics, TARS Robotics, Galbot
     18: EXAMPLES OF STARTUPS
-    19: Umoja, Interius, IASO, Vyriad
-    20: CREATE, Azalea, Ensoma, Stylus
+    19: Rhoda AI, Spirit AI, X Square Robot, GigaAI
+    20: Apptronik, Walden Robotics, YOUIBOT, Holiday Robotics
     24: SINCE 2024
-  tag: 'FROM OUR DATABASE: TO BUILD'
 - id: ed168p
   type: invbets
   section: Investor bets
-  handle: in-vivo-car-t
-  title: 'Where did humanoid robotics investors
+  handle: humanoid-robotics
+  title: 'Where did humanoid robot investors
 
     put their money this past year?'
   rows:
-  - name: mRNA humanoid robotics
+  - name: General humanoids
     names:
-    - Sail Biomedicines
-    - Starna
-    pct: 69% of total
-    v: $505M
+    - TARS
+    - Galbot
+    v: $3.7B
+    pct: 57% of total
     w: 100.0
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-00.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-01.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-02.png
-  - name: Beyond T cells
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-00.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-01.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-02.png
+  - name: Humanoid AI models
     names:
-    - CREATE Medicines
-    pct: 17% of total
-    v: $122M
-    w: 24.2
+    - X Square Robot
+    - Spirit AI
+    v: $943M
+    pct: 15% of total
+    w: 25.5
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-10.png
-  - name: Gene-editing CAR-T
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-03.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-04.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-05.png
+  - name: Industrial humanoids
     names:
-    - Azalea
-    pct: 9% of total
-    v: $65M
-    w: 12.9
+    - Apptronik
+    - Holiday Robotics
+    v: $784M
+    pct: 12% of total
+    w: 21.2
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-20.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-21.png
-  - name: Lentiviral CAR-T
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-06.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-07.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-08.png
+  - name: Actuators and hands
     names:
-    - Vyriad
-    - DeliNova
-    pct: 5% of total
-    v: $39M
-    w: 7.7
+    - Linkerbot
+    - AGILINK
+    v: $632M
+    pct: 10% of total
+    w: 17.1
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-30.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-31.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-32.png
-  - name: Other approaches
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-09.png
+  - name: Home robots
     names:
-    - MVRIX
-    pct: under 1% of total
+    - Sunday
+    - Noetix
+    v: $416M
+    pct: 6% of total
+    w: 11.2
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-10.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-11.png
+  - name: Logistics robots
+    names:
+    - Avatar Robotics
     v: $6M
-    w: 1.2
+    pct: under 1% of total
+    w: 0.2
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-40.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-41.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-42.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s09-12.png
   note:
-  - We added up every funding round we tracked in humanoid robotics over the last twelve months
+  - We added up every funding round we tracked in humanoid robots over the last twelve months
   - We used company announcements and the press, with all the sources at the end of the report
-  tag: 'FROM OUR DATABASE: TO BUILD'
 - id: ed169
   type: x/most_active_investors
   section: Investor bets
   title: 'Who are the most
 
     active investors?'
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 30 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 300 rounds
   src: 169
   t:
-    7: RA CAPITAL
-    8: LILLY ASIA VENTURES
-    9: QIMING
-    10: '2'
+    7: IDG CAPITAL
+    8: MATRIX CHINA
+    9: ANT GROUP
+    10: '4'
     11: DEALS
-    12: '2'
-    13: '2'
-    14: $220M
+    12: '4'
+    13: '4'
+    14: $1.1B
     15: FUNDED ($)
-    16: $82M
-    17: $14M
-    18: Capstan, Stylus
+    16: $100M
+    17: $70M
+    18: Zeroth, Booster Robotics
     19: EXAMPLES OF STARTUPS
-    20: Starna (twice)
-    21: Vivacta, RiboX
+    20: RoboParty (twice), Astribot
+    21: Galaxea AI (twice), Astribot (twice)
     25: SINCE 2024
-    26: TIANCHUANG
-    27: ARCH VENTURES
-    28: '2'
-    29: '1'
-    30: Undisclosed
-    31: $122M
-    32: Genocury, Jiyin
-    33: CREATE Medicines
-  tag: 'FROM OUR DATABASE: TO BUILD'
+    26: HONGSHAN CAPITAL
+    27: MEITUAN
+    28: '3'
+    29: '3'
+    30: $875M
+    31: $577M
+    32: X Square Robot (twice), TARS Robotics
+    33: TARS Robotics (twice), X Square Robot
 - id: ed170
   type: agenda
   section: Top players
@@ -3804,17 +3860,17 @@ slides:
 - id: ed171p
   type: pp_grid
   section: Top players
-  title: 'Who are the leading
+  title: 'Who are the top players
 
-    humanoid robotics companies?'
+    in humanoid robotics?'
   cols:
-  - Leaders
-  - Challengers
-  - Newcomers
+  - Industrial & warehouse
+  - Service environments
+  - Dev / R&D or platform-first
   rows:
-  - Viral Vectors
-  - RNA Delivery
-  - Gene & Polymer
+  - Full-size biped
+  - Compact biped
+  - Wheeled / hybrid
   cells:
   - - []
     - []
@@ -3826,64 +3882,81 @@ slides:
     - []
     - []
   tiles:
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-00.png
-    x: 217.0
-    y: 288.8
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-01.png
-    x: 314.1
-    y: 304.9
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-02.png
-    x: 421.7
-    y: 271.8
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-03.png
-    x: 582.0
-    y: 290.1
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-04.png
-    x: 693.1
-    y: 265.0
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-05.png
-    x: 757.4
-    y: 293.7
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-06.png
-    x: 243.3
-    y: 379.9
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-07.png
-    x: 315.4
-    y: 387.2
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-08.png
-    x: 434.6
-    y: 397.0
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-09.png
-    x: 579.3
-    y: 393.6
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-10.png
-    x: 660.9
-    y: 388.5
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-11.png
-    x: 768.1
-    y: 375.6
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-12.png
-    x: 217.2
-    y: 496.5
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-13.png
-    x: 318.4
-    y: 491.4
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-14.png
-    x: 497.8
-    y: 491.4
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-15.png
-    x: 559.3
-    y: 503.8
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-16.png
-    x: 711.7
-    y: 490.1
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s10-17.png
-    x: 790.4
-    y: 505.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-00.png
+    x: 296.6
+    y: 270.6
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-01.png
+    x: 505.9
+    y: 269.1
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-02.png
+    x: 751.3
+    y: 265.7
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-03.png
+    x: 190.1
+    y: 294.0
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-04.png
+    x: 243.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-05.png
+    x: 350.4
+    y: 285.0
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-06.png
+    x: 444.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-07.png
+    x: 571.7
+    y: 308.8
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-08.png
+    x: 647.6
+    y: 307.7
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-09.png
+    x: 699.0
+    y: 291.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-10.png
+    x: 797.8
+    y: 304.3
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-11.png
+    x: 306.2
+    y: 384.4
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-12.png
+    x: 480.0
+    y: 393.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-13.png
+    x: 544.3
+    y: 385.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-14.png
+    x: 648.9
+    y: 379.3
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-15.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-16.png
+    x: 774.9
+    y: 397.3
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-17.png
+    x: 420.9
+    y: 468.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-18.png
+    x: 478.7
+    y: 483.2
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-19.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-20.png
+    x: 191.6
+    y: 497.6
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-21.png
+    x: 249.0
+    y: 504.6
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-22.png
+    x: 306.9
+    y: 504.9
+  - src: ../../assets/logos/pp_live/humanoid-robotics/s10-23.png
+    x: 544.3
+    y: 504.6
   note:
-  - We left out listed companies and incumbents like Capstan, Kelonia and Orna Therapeutics
-  - We placed each pure player by its main focus, with all the sources at the end of the report
-  tag: 'FROM OUR DATABASE: TO BUILD'
+  - We placed humanoid robots with a torso and two arms by body type and by their first market
+  - We left out mobile carts, fixed arms and animatronics, with all the sources at the end of the report
 - id: ed172
   type: x/different_types_startup
   section: Top players
@@ -4426,48 +4499,86 @@ slides:
     28: 💀
     29: 💀
 - id: ed201
-  type: x/broke_these_startups_did_each
+  type: pp_killers
   section: Startup killers
-  title: What broke these humanoid robotics companies, and how did each one end?
-  note: We grouped six humanoid robot builders that shut down or had to shrink from 2024 to 2026 under the clearest reported pressure and outcome. Some remain active after layoffs.
-  src: 201
-  t:
-    7: WHY IT BROKE
-    8: HOW IT ENDED
-    11: Funding
-    12: fell short
-    13: Weak
-    14: demand
-    15: Product not
-    16: ready yet
-    17: Costs ran
-    18: too high
-    22: K-Scale
-    23: US
-    29: Shut down
-    33: Cartwheel
-    34: US
-    40: Shut down
-    44: Aldebaran
-    45: FR
-    51: Liquidated
-    55: Sanctuary
-    56: CA
-    62: Big layoffs
-    66: Agility
-    67: US
-    73: Small layoffs
-    77: Boston D.
-    78: US
-    84: 45 layoffs
-  img:
-  - media/ini/k-scale-labs.png
-  - ../../assets/logos/cartwheel-robotics.png
-  - media/ini/aldebaran.png
-  - ../../assets/logos/sanctuary-ai.png
-  - ../../assets/logos/pp/agility-robotics.png
-  - ../../assets/logos/boston-dynamics.png
-  logos_on_slide: 6
+  mode: dead
+  title: 'What broke these humanoid
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Investors|pulled out
+  - Product|fell short
+  - Weak|sales
+  rows:
+  - name: K-Scale Labs
+    ending: Shut down
+    start: '2024'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-00.png
+    ini: K
+    slug: k-scale-labs
+    domain: kscale.dev
+  - name: Aldebaran
+    ending: Liquidated
+    start: '2005'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-01.png
+    ini: A
+    slug: aldebaran
+    domain: aldebaran.com
+  - name: Rethink Robotics
+    ending: Shut down
+    start: '2008'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-02.png
+    ini: R
+    slug: rethink-robotics
+    domain: rethinkrobotics.com
+  - name: Schaft
+    ending: Shut down
+    start: '2012'
+    end: '2018'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-03.png
+    ini: S
+    slug: schaft
+    domain: ''
+  - name: OneStar
+    ending: Disbanded
+    start: '2025'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/humanoid-robotics/s11-04.png
+    ini: O
+    slug: onestar
+    domain: ''
+  note:
+  - We tracked the humanoid robots startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
 - id: ed203
   type: agenda
   section: Startup strategies
@@ -4503,19 +4614,18 @@ slides:
   note: We picked the biggest disclosed rounds of humanoid robotics startups since 2024, from our tracker of rounds
   src: 205
   t:
-    14: 2024 (MAR)
-    15: Capstan raised a $175M Series B led by RA Capital, about a year before AbbVie agreed to buy it for up to $2.1B {1|Capstan}
-    16: 2025 (JAN)
-    17: Umoja raised a $100M Series C led by Double Point Ventures and DCVC Bio to bring its humanoid robotics to patients {1|GlobeNewswire}
-    18: 2025 (AUG)
-    19: Strand Therapeutics raised a $153M Series B led by Kinnevik for its programmable mRNA therapies against cancer {1|Business Wire}
-    20: 2025 (NOV)
-    21: Azalea Therapeutics launched with a $65M Series A led by Third Rock Ventures for in vivo genome editing in cancer {1|Fierce Biotech}
-    22: 2026 (MAY)
-    23: CREATE Medicines raised a $122M Series B led by Newpath, ARCH and Hatteras to program immune cells in the body {1|PR Newswire}
-    24: 2026 (JUL)
-    25: Sail Biomedicines got $465M from Johnson & Johnson in a deal that gives J&J an option to buy the company {1|J&J}
-  tag: 'FROM OUR DATABASE: TO BUILD'
+    14: 2024 (FEB)
+    15: Figure AI raised a $675M Series B led by Microsoft for its general-purpose bipedal humanoids {1|PR Newswire}
+    16: 2025 (SEP)
+    17: Figure AI raised a $1B Series C led by Parkway Venture Capital for its general-purpose bipedal humanoids {1|Figure}
+    18: 2026 (FEB)
+    19: Apptronik raised a $520M Series A led by B Capital for its industrial and factory humanoids {1|Apptronik}
+    20: 2026 (MAR)
+    21: Rhoda AI raised a $450M Series A led by Premji Invest for its humanoid developer and research platforms {1|Rhoda}
+    22: 2026 (APR)
+    23: TARS Robotics raised a $455M seed round led by GL Ventures for its general-purpose bipedal humanoids {1|Caixin}
+    24: 2026 (AUG)
+    25: XPENG Robotics raised $900M led by IDG Capital for its general-purpose bipedal humanoids {1|XPENG}
 - id: ed206
   type: x/success_look_like_market
   section: Startup strategies
@@ -4618,81 +4728,80 @@ slides:
 - id: ed209p
   type: pp_winner
   section: Startup strategies
-  title: 'Why might Lilly be winning
+  title: 'Why might Figure be winning
 
-    the humanoid robotics vector market?'
+    the humanoid robot race?'
   companies:
-  - short: Lilly
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-0.png
-  - short: AstraZeneca
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-1.png
-  - short: Gilead
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-2.png
-  - short: Umoja
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-3.png
-  - short: Vyriad
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s12-4.png
+  - short: Figure
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-00.png
+  - short: Agility
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-01.png
+  - short: Apptronik
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-02.png
+  - short: 1X
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-03.png
+  - short: Boston Dyn.
+    src: ../../assets/logos/pp_live/humanoid-robotics/s12-04.png
   criteria:
-  - name: Targeted LVV platform
-    why: Direct in-body CAR design
-    ticks:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-  - name: Patients dosed in humans
-    why: Initial clinical validation
-    ticks:
-    - 1
-    - 1
-    - 1
-    - 0
-    - 0
-  - name: Public patient outcomes
-    why: Early efficacy visibility
-    ticks:
-    - 1
-    - 1
-    - 0
-    - 0
-    - 0
-  - name: Live US clinical trial
-    why: Regulatory development
+  - name: Valued above $30B
+    why: Most money to scale up
     ticks:
     - 1
     - 0
+    - 0
+    - 0
+    - 0
+  - name: Raised over $1B
+    why: Funds its own factory
+    ticks:
     - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: In house robot AI model
+    why: Robots learn new tasks
+    ticks:
     - 1
+    - 0
+    - 0
     - 1
-  - name: BCMA CAR program
-    why: Myeloma target coverage
+    - 0
+  - name: Paid factory deployments
+    why: Proves real work value
     ticks:
     - 1
     - 1
     - 0
     - 0
-    - 1
-  - name: Multiple in vivo programs
-    why: Pipeline optionality
+    - 0
+  - name: Home robot preorders
+    why: Opens the consumer market
     ticks:
     - 0
     - 0
     - 0
     - 1
     - 0
-  - name: Major pharma ownership
-    why: Capital for clinical scale
+  - name: Google DeepMind AI deal
+    why: Borrows top robot AI
     ticks:
-    - 1
-    - 1
-    - 1
     - 0
     - 0
+    - 1
+    - 0
+    - 1
+  - name: Owned by a carmaker
+    why: Built in factory customer
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
   note:
   - We compared companies with the same business model on what matters most to customers
   - We used company reports and public records, and all our sources are at the end of the report
-  tag: 'PRODUCT PAGE: TO COPY'
 - id: ed210
   left: A REGULAR HUMANOID STARTUP
   logo: figure
@@ -4859,7 +4968,6 @@ slides:
   t:
     3: SOURCES
     4: HUMANOID ROBOTICS
-  tag: 'SOURCES: TO BUILD'
 - id: ed216
   type: x/divider_10
   src: 216
@@ -4867,39 +4975,38 @@ slides:
     0: SOURCE
     1: WHY WE TRUST IT
     2: HOW WE USED IT
-    3: 'Lilly, Kelonia
+    3: 'BMW, Figure 02
 
-      acquisition release'
-    4: Eli Lilly’s own announcement, with the deal terms it must disclose to its shareholders
-    5: We used it for the $7 billion deal. It also anchored our view of who leads the market.
-    7: 'Lilly, Orna
+      in Leipzig'
+    4: BMW’s own report on its humanoid pilot, with hours and parts counted on a live line
+    5: We used it for the 1,250 hours and 90,000 parts. It also anchored our view of real deployments.
+    7: 'Figure, production
 
-      acquisition release'
-    8: Eli Lilly’s own announcement, with the price and the circular RNA platform it bought
-    9: We used it for the $2.4 billion deal. It also helped us describe circular RNA CAR-T.
-    10: 'AbbVie, Capstan
+      at BMW'
+    8: Figure’s own account of its 11 months on BMW’s assembly line
+    9: We used it for the shift length and runtime. It also backed our contrast slide on Figure.
+    10: 'Agility,
 
-      acquisition release'
-    11: AbbVie’s own announcement, with the deal terms and the status of CPTX2309 at signing
-    12: We used it for the $2.1 billion deal. It also helped us explain targeted LNP delivery.
-    13: 'Gilead, Interius
+      Digit 5 launch'
+    11: Agility’s own launch note, written after three years of customer use
+    12: We used it for payload, charging and safety. It also gave us the 65,000 hours of work.
+    13: 'GXO, Digit
 
-      acquisition release'
-    14: Gilead’s own announcement for Kite, with the price paid and the platform it bought
-    15: We used it for the $350 million deal. It also shaped our contrast slide on Interius.
-    16: 'AstraZeneca,
+      expansion'
+    14: GXO’s own release, as the customer that pays for the robots
+    15: We used it for the 100,000 totes and the two new sites. It also dated the first paid deal.
+    16: 'Apptronik,
 
-      EsoBiotec deal'
-    17: AstraZeneca’s own release on closing the deal, with the upfront and total value paid
-    18: We used it for the $1 billion deal. It also showed how early big pharma bought in.
+      Series A'
+    17: Apptronik’s own announcement of its round and its partners
+    18: We used it for the $935M Series A. It also named Mercedes-Benz, GXO and Jabil.
   links:
-    3: https://lilly.gcs-web.com/news-releases/news-release-details/lilly-acquire-kelonia-therapeutics-advance-vivo-car-t-cell
-    7: https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-orna-therapeutics-advance-cell-therapies
-    10: https://news.abbvie.com/2025-06-30-AbbVie-to-Acquire-Capstan-Therapeutics%2C-Further-Strengthening-Commitment-to-Transforming-Patient-Care-i
-    13: https://investors.gilead.com/news/news-details/2025/Kite-to-Acquire-Interius-BioTherapeutics-to-Advance-In-Vivo-Platform/default.aspx
-    16: https://www.astrazeneca.com/media-centre/press-releases/2025/acquisition-of-esobiotec-completed.html
+    3: https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html
+    7: https://www.figure.ai/news/production-at-bmw
+    10: https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale
+    13: https://investors.gxo.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate
+    16: https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a
   section: Sources
-  tag: 'SOURCES: TO BUILD'
 - id: ed217
   type: x/divider_10
   src: 217
@@ -4907,39 +5014,38 @@ slides:
     0: SOURCE
     1: WHY WE TRUST IT
     2: HOW WE USED IT
-    3: 'BMS, Orbital
+    3: 'Figure,
 
-      acquisition release'
-    4: Bristol Myers Squibb’s own release, with the cash price and the program it acquired
-    5: We used it for the $1.5 billion deal. It also helped us show that pharma buys early.
-    7: 'Fierce Biotech,
+      Series C'
+    4: Figure’s own announcement, with the amount and the valuation
+    5: We used it for the $39B valuation. It also showed how fast money moved into the market.
+    7: 'Figure 03
 
-      J&J and Sail deal'
-    8: Fierce Biotech is a leading biotech trade outlet that reports deal terms from the filings
-    9: We used it for the $785 million J&J deal. It also gave us the option to buy Sail.
-    10: 'Blood (ASH 2025),
+      at BMW'
+    8: Figure’s own note on its second BMW use case
+    9: We used it for parts sequencing. It also showed how tasks are getting harder.
+    10: 'Figure,
 
-      KLN-1010 results'
-    11: Peer-reviewed abstract in Blood, the journal of the American Society of Hematology
-    12: We used it for the first Kelonia patient data. It also backed our signal on results.
-    13: 'Nature Medicine,
+      Helix 02'
+    11: Figure’s own technical note on its robot AI model
+    12: We used it for whole-body control. It also helped us explain robot brains.
+    13: 'Figure, Figure 03
 
-      ESO-T01 follow-up'
-    14: Peer-reviewed paper in Nature Medicine, with the long follow-up of every patient
-    15: We used it for the 15-month remission data. It also tempered our maturity score.
-    16: 'FDA, end of REMS
+      production ramp'
+    14: Figure’s own update on its BotQ factory output
+    15: We used it for one robot an hour and 350 robots delivered. It also shaped our scale slides.
+    16: 'Unitree,
 
-      for CAR-T'
-    17: Official FDA announcement, the agency that approves every CAR-T therapy in the US
-    18: We used it for the regulation slides. It also showed which old constraints are gone.
+      G1 product page'
+    17: Unitree’s own price list, the cheapest full humanoid on sale
+    18: We used it for the $13,500 price. It also anchored our price ranges.
   links:
-    3: https://investors.bms.com/iframes/press-releases/press-release-details/2025/Bristol-Myers-Squibb-Strengthens-and-Diversifies-Cell-Therapy-Po
-    7: https://www.fiercebiotech.com/biotech/jj-pays-sail-785m-charting-course-possible-vivo-car-t-buyout
-    10: https://ashpublications.org/blood/article/146/Supplement%202/LBA-1/556929
-    13: https://www.nature.com/articles/s41591-026-04704-z
-    16: https://www.fda.gov/news-events/press-announcements/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antige
+    3: https://www.figure.ai/news/series-c
+    7: https://www.figure.ai/news/f-03-at-bmw
+    10: https://www.figure.ai/news/helix-02
+    13: https://www.figure.ai/news/ramping-figure-03-production
+    16: https://www.unitree.com/g1
   section: Sources
-  tag: 'SOURCES: TO BUILD'
 - id: ed218
   type: x/divider_10
   src: 218
@@ -4947,39 +5053,38 @@ slides:
     0: SOURCE
     1: WHY WE TRUST IT
     2: HOW WE USED IT
-    3: 'FDA, potency
+    3: '1X, NEO
 
-      assurance guidance'
-    4: Official FDA guidance that sponsors of cell and gene therapies must follow to file
-    5: We used it for the road to approval. It also helped us rank the regulatory risks.
-    7: 'Umoja, UB-VV111
+      home robot launch'
+    4: 1X’s own launch note for the first home humanoid on preorder
+    5: We used it for the $20,000 price and the home use case.
+    7: 'Boston Dynamics,
 
-      Fast Track release'
-    8: Umoja’s own release on the FDA designation, confirmed by the agency’s public criteria
-    9: We used it for the Fast Track milestone. It also placed Umoja among the leaders.
-    10: 'CREATE, MT-302
+      production Atlas'
+    8: Boston Dynamics’ own launch of its production robot
+    9: We used it for the Hyundai and DeepMind fleets. It also dated the move to production.
+    10: 'AGIBOT,
 
-      first human results'
-    11: CREATE’s own release on its first patients, presented at a scientific congress
-    12: We used it for in vivo CAR beyond T cells. It also helped us map solid tumor work.
-    13: 'Interius, first
+      10,000th robot'
+    11: AGIBOT’s own milestone release, from China’s largest maker by volume
+    12: We used it for China’s production scale. It also backed our leader slides.
+    13: 'SAG, humanoid
 
-      patient dosed'
-    14: Interius’s own release on the first in vivo CAR patient, later confirmed by Gilead
-    15: We used it for the first human dosing date. It also anchored our market timeline.
-    16: 'Review of in vivo
+      shipments Q3 2026'
+    14: An industry tracker that counts shipments by maker every quarter
+    15: We used it for the 54,000 robots expected in 2026. It is the base of our market size.
+    16: 'Agility,
 
-      CAR-T therapies'
-    17: Peer-reviewed 2026 review in PubMed Central, covering every clinical-stage program
-    18: We used it for our market definition. It also gave us the list of in vivo pipelines.
+      S-1 filing'
+    17: Agility’s filing with the SEC, written under legal liability
+    18: We used it for its losses and risks. It also gave us the Digit 5 timing.
   links:
-    3: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products
-    7: https://www.umoja-biopharma.com/news/umoja-biopharma-announces-that-ub-vv111-receives-fda-fast-track-designation-for-relapsed-refractory-b-c
-    10: https://createmedicines.com/news/create-medicines-announces-positive-first-in-human-results-for-mt-302
-    13: https://www.globenewswire.com/news-release/2024/10/23/2967445/0/en/Interius-BioTherapeutics-Doses-First-Patien
-    16: https://pmc.ncbi.nlm.nih.gov/articles/PMC12857126
+    3: https://www.1x.tech/discover/neo-home-robot
+    7: https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry
+    10: https://www.agibot.com/article/231/detail/53.html
+    13: https://smartanalyticsglobal.com/global-humanoid-robot-shipments-q3-2026-agibot-ubtech-unitree
+    16: https://www.sec.gov/Archives/edgar/data/2074973/000121390026118025/ea0311220-s1_agility.htm
   section: Sources
-  tag: 'SOURCES: TO BUILD'
 - id: ed219
   type: x/divider_10
   src: 219
@@ -4987,38 +5092,767 @@ slides:
     0: SOURCE
     1: WHY WE TRUST IT
     2: HOW WE USED IT
-    3: 'MedComm review,
+    3: 'ISO 25785-1,
 
-      delivery platforms'
-    4: Peer-reviewed 2026 review in MedComm comparing viral and lipid delivery in people
-    5: We used it for the categories of the market. It also helped us see what has flipped.
-    7: 'Precedence Research
+      mobile robot safety'
+    4: The draft standard for robots that balance, such as bipeds
+    5: We used it for the regulation slides. It also showed what is still missing.
+    7: 'Capgemini, Physical
 
-      market report'
-    8: Market research firm with a dedicated humanoid robotics report, updated in September 2026
-    9: We used it as the high end of the market size. It also gave us the regional split.
-    10: 'Grand View in vivo
+      AI report'
+    8: A survey of large buyers on what holds back robots
+    9: We used it for adoption barriers. It also shaped the risks we rated.
+    10: 'Bank of America,
 
-      cell therapy report'
-    11: Market research firm with a yearly report on the wider in vivo cell therapy market
-    12: We used it as the base of our own estimate. It also checked our growth rate range.
-    13: 'Future Market
+      Physical AI part 2'
+    11: A bank research note on humanoid reliability and costs
+    12: We used it for uptime and upkeep limits. It also checked our structural constraints.
+    13: 'Grand View,
 
-      Insights report'
-    14: Market research firm with a narrow humanoid robotics scope, close to our own definition
-    15: We used it as the low end of the market size. It also gave us a direct growth rate.
-    16: 'Our humanoid robotics
+      humanoid market'
+    14: A market research firm with a yearly humanoid report
+    15: We used it for one of the size estimates. It also framed the regional split.
+    16: 'Our humanoid
 
       funding tracker'
-    17: Our own database of every equity round since January 2024, each with its source link
-    18: We used it for all the funding slides. It also counted rounds by stage and country.
+    17: Our own database of every equity round since January 2024, each with its source
+    18: We used it for all the funding slides. It also counted rounds by country and stage.
   links:
-    3: https://onlinelibrary.wiley.com/doi/full/10.1002/mco2.71030
-    7: https://www.precedenceresearch.com/in-vivo-car-t-therapy-market
-    10: https://www.grandviewresearch.com/industry-analysis/in-vivo-cell-therapy-market-report
-    13: https://www.futuremarketinsights.com/reports/in-vivo-car-t-cell-therapy-market
+    3: https://www.iso.org/standard/91469.html
+    7: https://www.capgemini.com/wp-content/uploads/2026/05/CRI_Physical-AI-Report-Final-web-version-2.pdf
+    10: https://institute.bankofamerica.com/content/dam/transformation/physical-ai-part-2.pdf
+    13: https://www.grandviewresearch.com/industry-analysis/humanoid-robot-market-report
   section: Sources
-  tag: 'SOURCES: TO BUILD'
+- id: src_all_1
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: 1X booked 10,000 units of production capacity in five days
+      pub: 1X
+      d: Apr 2026
+      url: https://www.1x.tech/discover/neo-factory
+      key: false
+    - t: 1X NEO is designed for the home
+      pub: 1X
+      d: Oct 2025
+      url: https://www.1x.tech/discover/neo-home-robot
+      key: true
+    - t: NEO is available through ownership and subscription
+      pub: 1X
+      d: Oct 2026
+      url: https://www.1x.tech/order
+      key: false
+    - t: Robot Era raised more than $200M in April 2026
+      pub: Aap
+      d: Apr 2026
+      url: https://www.aap.com.au/aapreleases/cision20260508ae54818
+      key: false
+    - t: Morgan Stanley estimated Optimus hardware costs by subsystem
+      pub: Advisor
+      d: '2024-06-26'
+      url: https://advisor.morganstanley.com/john.howard/documents/field/j/jo/john-howard/The_Humanoid_100_-_Mapping_the_Humanoid_Robot_Value_Chain.pdf
+      key: false
+    - t: AGIBOT announced its 5,000th mass-produced humanoid robot
+      pub: Agibot
+      d: Dec 2025
+      url: https://agibot.com/article/231/detail/31.html
+      key: false
+    - t: AGIBOT announced rollout of its 10,000th humanoid robot
+      pub: Agibot
+      d: Mar 2026
+      url: https://www.agibot.com/article/231/detail/53.html
+      key: true
+    - t: Agility and GXO announced a Robots-as-a-Service agreement
+      pub: Agilityrobotics
+      d: Jun 2024
+      url: https://www.agilityrobotics.com/content/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics
+      key: false
+    - t: Agility announced a Churchill Capital XI transaction at a…
+      pub: Agilityrobotics
+      d: Jun 2026
+      url: https://investors.agilityrobotics.com/news-releases/news-release-details/agility-robotics-go-public-through-merger-churchill-capital-corp
+      key: false
+    - t: Agility began trading on Nasdaq as AGLT
+      pub: Agilityrobotics
+      d: Nov 2026
+      url: https://investors.agilityrobotics.com/news-releases/news-release-details/agility-becomes-first-us-publicly-listed-pure-play-humanoid
+      key: false
+    - t: Agility has more than $300 million in committed multi-year…
+      pub: Agilityrobotics
+      d: Nov 2026
+      url: https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt
+      key: false
+    - t: Agility has more than $300M in committed multi-year Digit 5…
+      pub: Agilityrobotics
+      d: Nov 2026
+      url: https://investors.agilityrobotics.com/news-releases/news-release-details/agility-robotics-and-churchill-capital-corp-xi-complete-business
+      key: false
+    - t: Agility redesigned Digit 5 around safety, uptime, lifting…
+      pub: Agilityrobotics
+      d: Sep 2026
+      url: https://investors.agilityrobotics.com/static-files/1c76d4d0-2445-4378-9f9b-994e2242bf54
+      key: false
+    - t: Agility warns that manufacturing difficulties can delay…
+      pub: Agilityrobotics
+      d: Nov 2026
+      url: https://investors.agilityrobotics.com/static-files/c3a4fa2a-84e6-4161-aa38-a69449b42139
+      key: false
+    - t: Digit 5 is designed for close work around people and a 10:1…
+      pub: Agilityrobotics
+      d: Sep 2026
+      url: https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale
+      key: true
+  - - t: Digit has more than 65,000 hours of real-world operation
+      pub: Agilityrobotics
+      d: Oct 2026
+      url: https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations
+      key: false
+    - t: Digit moved more than 100,000 totes in an active GXO…
+      pub: Agilityrobotics
+      d: Oct 2026
+      url: https://investors.agilityrobotics.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate
+      key: false
+    - t: Digit was commercially available and shipping to customers…
+      pub: Agilityrobotics
+      d: Oct 2020
+      url: https://www.agilityrobotics.com/content/agility-robotics-raises-20-million
+      key: false
+    - t: Humanoids are positioned for flexible work in human spaces…
+      pub: Agilityrobotics
+      d: Jun 2024
+      url: https://www.agilityrobotics.com/content/digit-deployed-at-gxo-in-historic-humanoid-raas-agreement
+      key: false
+    - t: RoboFab is designed for annual capacity of up to 10,000 robots
+      pub: Agilityrobotics
+      d: Oct 2026
+      url: https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot
+      key: false
+    - t: Toyota Motor Manufacturing Canada signed a commercial…
+      pub: Agilityrobotics
+      d: Feb 2026
+      url: https://agilityrobotics.com/content/agility-robotics-announces-commercial-agreement-with-toyota-motor-manufacturing-canada
+      key: false
+    - t: Aldebaran was liquidated and 106 jobs were affected
+      pub: Apps
+      d: Jun 2025
+      url: https://apps.eurofound.europa.eu/restructuring-events/detail/202869
+      key: false
+    - t: Apollo was developed for warehouses and manufacturing plants
+      pub: Apptronik
+      d: Aug 2023
+      url: https://apptronik.com/company/press-releases
+      key: false
+    - t: Apptronik has a Mercedes-Benz commercial agreement
+      pub: Apptronik
+      d: Mar 2024
+      url: https://apptronik.com/news-collection/apptronik-and-mercedes-benz-enter-commercial-agreement
+      key: false
+    - t: Apptronik raised more than $935M in its Series A
+      pub: Apptronik
+      d: Feb 2026
+      url: https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a
+      key: true
+    - t: Apptronik unveiled Apollo 2 in June 2026
+      pub: Apptronik
+      d: Jun 2026
+      url: https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work
+      key: false
+    - t: Apptronik unveiled Apollo on August 23, 2023
+      pub: Apptronik
+      d: Aug 2023
+      url: https://apptronik.com/news-collection/apptronik-unveils-apollo
+      key: false
+    - t: Tesla reported Optimus production began in Fremont on…
+      pub: Assets Ir
+      d: Oct 2026
+      url: https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf
+      key: false
+    - t: Astribot S1 supports a 5 kg horizontal payload per arm
+      pub: Astribot
+      d: Nov 2026
+      url: https://www.astribot.com/en/product
+      key: false
+- id: src_all_2
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: Omdia estimated 13,318 humanoid shipments in 2025
+      pub: Axis Intelligence
+      d: Nov 2026
+      url: https://axis-intelligence.com/wp-content/dashboard/humanoid-robot-statistics-dashboard.html
+      key: false
+    - t: Sanctuary AI cut about 30 jobs after the CEO departure
+      pub: Bloomberglaw
+      d: Nov 2024
+      url: https://news.bloomberglaw.com/private-equity/robotics-startup-sanctuary-cuts-jobs-after-two-co-founders-leave
+      key: false
+    - t: Humanoid robots are defined here by human-oriented form and…
+      pub: Bmwgroup
+      d: Oct 2026
+      url: https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html
+      key: true
+    - t: Atlas fleet software connects to enterprise systems and…
+      pub: Bostondynamics
+      d: n.d.
+      url: https://bostondynamics.com/products/atlas
+      key: false
+    - t: Atlas robots are training at Hyundai's RMAC on parts…
+      pub: Bostondynamics
+      d: Sep 2026
+      url: https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks
+      key: false
+    - t: Boston Dynamics began manufacturing production Atlas in 2026
+      pub: Bostondynamics
+      d: Jan 2026
+      url: https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry
+      key: true
+    - t: Boston Dynamics moved Atlas from research toward a…
+      pub: Bostondynamics
+      d: '2026'
+      url: https://bostondynamics.com/blog/atlas-evolution-from-research-robot-to-industrial-humanoid
+      key: false
+    - t: Boston Dynamics laid off 45 employees, or 5% of its workforce
+      pub: Bostonglobe
+      d: Dec 2024
+      url: https://www.bostonglobe.com/2024/12/11/business/boston-dynamics-layoffs-robotics-atlas-spot
+      key: false
+    - t: Technology immaturity, cost, ROI and safety are major…
+      pub: Capgemini
+      d: '2026-05-01'
+      url: https://www.capgemini.com/wp-content/uploads/2026/05/CRI_Physical-AI-Report-Final-web-version-2.pdf
+      key: true
+    - t: Galbot S1 has been deployed on CATL’s intelligent…
+      pub: Catl
+      d: Jun 2026
+      url: https://www.catl.com/en/news/6881.html
+      key: false
+    - t: Galbot raised about $350 million in March 2026
+      pub: Data
+      d: Oct 2026
+      url: https://data.roboticguys.com/segments/humanoids
+      key: false
+    - t: GR00T spans simulation, training, evaluation and deployment
+      pub: Developer
+      d: n.d.
+      url: https://developer.nvidia.com/isaac/gr00t
+      key: false
+    - t: GR00T uses human video, real robot teleoperation and…
+      pub: Developer
+      d: Mar 2025
+      url: https://developer.nvidia.com/blog/accelerate-generalist-humanoid-robot-development-with-nvidia-isaac-gr00t-n1
+      key: false
+    - t: Tesla said outside-customer Optimus deliveries were likely…
+      pub: Earningscalls
+      d: Oct 2026
+      url: https://earningscalls.dev/transcripts/tesla-inc_tsla_earnings_call_transcript_2026-10-21
+      key: false
+    - t: Tesla said Optimus still needed work on reliability and…
+      pub: Elonmuskarchive
+      d: Oct 2026
+      url: https://elonmuskarchive.org/video/tesla-earnings-q3-2026
+      key: false
+  - - t: EngineAI PM01 is a fully open general-purpose embodied…
+      pub: Engineai
+      d: Oct 2026
+      url: https://en.engineai.com.cn/open/docs/pm01/01/product-overview?entry=home
+      key: false
+    - t: ENGINEAI positions PM01 as an open development platform
+      pub: Engineai
+      d: Nov 2026
+      url: https://en.engineai.com.cn/product-pm01
+      key: false
+    - t: The world’s most advanced social humanoid robot
+      pub: Engineeredarts
+      d: undated
+      url: https://www.engineeredarts.com/robot/ameca
+      key: false
+    - t: Figure 02 ran 10-hour shifts in BMW production
+      pub: Figure
+      d: Nov 2025
+      url: https://www.figure.ai/news/production-at-bmw
+      key: true
+    - t: Figure 03 handles variable part positions in sequencing
+      pub: Figure
+      d: Jun 2026
+      url: https://www.figure.ai/news/f-03-at-bmw
+      key: true
+    - t: Figure 03 was redesigned for tactile sensing, charging and…
+      pub: Figure
+      d: Oct 2025
+      url: https://www.figure.ai/news/introducing-figure-03
+      key: false
+    - t: Figure describes Helix as a vision-language-action model
+      pub: Figure
+      d: Feb 2025
+      url: https://www.figure.ai/news/helix
+      key: false
+    - t: Figure Helix 02 controls full-body autonomy
+      pub: Figure
+      d: Jan 2026
+      url: https://www.figure.ai/news/helix-02
+      key: true
+    - t: Figure raised more than $1B at a $39B post-money valuation
+      pub: Figure
+      d: Sep 2025
+      url: https://www.figure.ai/news
+      key: false
+    - t: Figure raised more than $1B at a $39B post-money valuation…
+      pub: Figure
+      d: Sep 2025
+      url: https://www.figure.ai/news/series-c
+      key: true
+    - t: The Figure hardware and manufacturing teams have…
+      pub: Figure
+      d: Apr 2026
+      url: https://www.figure.ai/news/ramping-figure-03-production
+      key: true
+    - t: UBTECH is Hong Kong-listed and focuses Walker S2 on…
+      pub: Financialfilings
+      d: Mar 2026
+      url: https://financialfilings.com/filings/ubtech-robotics-corp-ltd/annual-report/2026/34496311
+      key: false
+    - t: Fortune Business Insights estimates the humanoid robot…
+      pub: Fortune Business Insights
+      d: Oct 2026
+      url: https://www.fortunebusinessinsights.com/humanoid-robots-market-110188
+      key: false
+    - t: Humanoid robots have an anthropomorphic torso, upper-limb…
+      pub: Frostchina
+      d: Sep 2026
+      url: https://www.frostchina.com/en/content/insight/detail/6ad199fb7f1bc6817386cd98
+      key: false
+- id: src_all_3
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: Galbot G1 is designed for industry and supports retail,…
+      pub: Galbot
+      d: Nov 2026
+      url: https://galbot.com/g1
+      key: false
+    - t: Global Market Insights estimates the humanoid robot market…
+      pub: Gminsights
+      d: Sep 2026
+      url: https://www.gminsights.com/industry-analysis/humanoid-robot-market
+      key: false
+    - t: Goldman Sachs estimated humanoid manufacturing cost fell…
+      pub: Goldmansachs
+      d: '2024-01-08'
+      url: https://www.goldmansachs.com/pdfs/insights/pages/gs-research/global-automation-humanoid-robot-the-ai-accelerant/report.pdf
+      key: false
+    - t: Asia-Pacific held 41.3% of global humanoid robot revenue in…
+      pub: Grand View Research
+      d: Jul 2026
+      url: https://www.grandviewresearch.com/horizon/outlook/humanoid-robot-market/asia-pacific
+      key: false
+    - t: Europe held 11.1% of global humanoid robot revenue in 2025
+      pub: Grand View Research
+      d: Jul 2026
+      url: https://www.grandviewresearch.com/horizon/outlook/humanoid-robot-market/europe
+      key: false
+    - t: Grand View Research estimates the humanoid robot market at…
+      pub: Grand View Research
+      d: Jun 2026
+      url: https://www.grandviewresearch.com/industry-analysis/humanoid-robot-market-report
+      key: true
+    - t: Latin America held 3.0% of global humanoid robot revenue in…
+      pub: Grand View Research
+      d: Aug 2026
+      url: https://www.grandviewresearch.com/horizon/outlook/humanoid-robot-market/latin-america
+      key: false
+    - t: Middle East and Africa held 1.2% of global humanoid robot…
+      pub: Grand View Research
+      d: Aug 2026
+      url: https://www.grandviewresearch.com/horizon/outlook/humanoid-robot-market/mea
+      key: false
+    - t: Digit has moved more than 100,000 totes at GXO
+      pub: Gxo
+      d: Oct 2026
+      url: https://gxo.com/news_article/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations
+      key: false
+    - t: GXO and Agility signed a multi-year commercial deployment…
+      pub: Gxo
+      d: '2024-06-27'
+      url: https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics
+      key: false
+    - t: GXO conducted an Apollo warehouse proof of concept
+      pub: Gxo
+      d: Jun 2024
+      url: https://investors.gxo.com/news-releases/news-release-details/gxo-advances-humanoid-strategy-announces-multi-phase-rd
+      key: false
+    - t: June 2024 was the first formal commercial deployment of…
+      pub: Gxo
+      d: Oct 2026
+      url: https://investors.gxo.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate
+      key: true
+    - t: Hexagon launched AEON with Schaeffler and Pilatus pilots
+      pub: Hexagon
+      d: Jun 2025
+      url: https://hexagon.com/about/news-media/press-releases/2340225/hexagon-launches-aeon-a-humanoid-built-for-industry
+      key: false
+    - t: The Train–Validate–Deploy approach creates a continuous…
+      pub: Hexagon
+      d: Aug 2026
+      url: https://hexagon.com/about/news-media/press-releases/2026/towards-factory-deployment-how-aeon-is-trained-to-perform
+      key: false
+    - t: K-Scale cancelled preorders and laid off most of its team
+      pub: Humanoidsdaily
+      d: Nov 2025
+      url: https://www.humanoidsdaily.com/news/k-scale-labs-cancels-k-bot-orders-open-sources-all-ip-after-funding-fails
+      key: false
+  - - t: Early Agility deployments required heavy operational support
+      pub: IEEE Spectrum
+      d: Jan 2026
+      url: https://spectrum.ieee.org/global-chip-shortage-charts/particle-6?itm_content=summary-challenges
+      key: false
+    - t: Reliability, energy, safety and AI competence remain…
+      pub: Institute
+      d: '2026-03-12'
+      url: https://institute.bankofamerica.com/content/dam/transformation/physical-ai-part-2.pdf
+      key: true
+    - t: Unitree raised about RMB 6.1B in its August 2026 STAR…
+      pub: Investing
+      d: Aug 2026
+      url: https://www.investing.com/news/stock-market-news/explainerwhat-is-unitree-and-why-are-chinas-humanoid-robot-makers-racing-to-list-4850841
+      key: false
+    - t: Unitree's 2025 revenue was about 1.7 billion yuan and it…
+      pub: Investing
+      d: Aug 2026
+      url: https://www.investing.com/news/stock-market-news/explainerwhat-is-unitree-and-why-are-chinas-humanoid-robot-makers-racing-to-list-4847802
+      key: false
+    - t: High-end dexterous hands can exceed $70K in low-volume…
+      pub: Ipa
+      d: '2026-03-01'
+      url: https://www.ipa.fraunhofer.de/content/dam/ipa/de/documents/Publikationen/Studien/260219_Humanoid_Value_Chain_final.pdf
+      key: false
+    - t: ISO 10218-1:2025 covers safety requirements for industrial…
+      pub: Iso
+      d: '2025-02-05'
+      url: https://www.iso.org/standard/73933.html
+      key: false
+    - t: ISO 10218-2:2025 covers integration and operation of robot…
+      pub: Iso
+      d: '2025-02-01'
+      url: https://www.iso.org/standard/73934.html
+      key: false
+    - t: ISO is developing 25785-1 for dynamically stable industrial…
+      pub: Iso
+      d: '2026-07-08'
+      url: https://www.iso.org/standard/91469.html
+      key: true
+    - t: Jabil and Apptronik are testing Apollo in the factories…
+      pub: Jabil
+      d: Feb 2025
+      url: https://www.jabil.com/news/apptronik-jabil-collaborate.html
+      key: false
+    - t: LimX develops humanoids plus open-source infrastructure for…
+      pub: Limxdynamics
+      d: Nov 2026
+      url: https://www.limxdynamics.com/en/about
+      key: false
+    - t: MarketsandMarkets estimates the humanoid robot market at…
+      pub: Marketsandmarkets
+      d: Jul 2026
+      url: https://www.marketsandmarkets.com/Market-Reports/humanoid-robot-market-99567653.html
+      key: false
+    - t: Actuation is 40% to 60% of humanoid hardware cost
+      pub: Mckinsey
+      d: '2026-05-01'
+      url: https://www.mckinsey.com/industries/industrials/our-insights/turning-humanoid-supply-chain-constraints-into-billion-dollar-wins
+      key: false
+    - t: China launched a 2026 real-world training initiative for…
+      pub: Miit
+      d: Jun 2026
+      url: https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_cd666691abf8471fb8553d463aa416e3.html
+      key: false
+    - t: Cartwheel Robotics shut down after failing to secure enough…
+      pub: Mikekalil
+      d: Feb 2026
+      url: https://mikekalil.com/blog/cartwheel-robotics-shuts-down
+      key: false
+- id: src_all_4
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: 4NE1 Gen 4 is being prepared for series production
+      pub: Neura Robotics
+      d: Oct 2026
+      url: https://neura-robotics.com/products/4ne1
+      key: false
+    - t: NEURA Robotics announced a Series C of up to $1.4 billion
+      pub: Neura Robotics
+      d: Jun 2026
+      url: https://neura-robotics.com/record-series-c
+      key: false
+    - t: Sanctuary AI co-founder and CTO Suzanne Gildert left the…
+      pub: Newatlas
+      d: Apr 2024
+      url: https://newatlas.com/robotics/suzanne-gildert-leaves-sanctuary-interview
+      key: false
+    - t: BMW's Leipzig AEON deployment covers high-voltage battery…
+      pub: Newsroom
+      d: Feb 2026
+      url: https://newsroom.bmwgroup.com/global/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time
+      key: false
+    - t: Noetix offers compact humanoids including N2
+      pub: Noetixrobotics
+      d: Nov 2026
+      url: https://www.noetixrobotics.com/en
+      key: false
+    - t: Current humanoid developers span industrial, logistics,…
+      pub: Npow
+      d: Sep 2026
+      url: https://npow.github.io/robotics
+      key: false
+    - t: Humanoid platforms combine body hardware, sensing, onboard…
+      pub: Nvidia
+      d: Jun 2026
+      url: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-NVIDIA-Isaac-GR00T-Reference-Humanoid-Robot-for-Academic-Research
+      key: false
+    - t: NVIDIA says GR00T models can adapt to tasks with a focused…
+      pub: Nvidia
+      d: Jul 2026
+      url: https://www.nvidia.com/en-us/industries/robotics/isaac-groot
+      key: false
+    - t: NVIDIA released Isaac GR00T N1 in March 2025
+      pub: Nvidianews
+      d: Mar 2025
+      url: https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks
+      key: false
+    - t: China published a general technical requirements standard…
+      pub: Openstd
+      d: Sep 2026
+      url: https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=32AB881AF970A02B4DE3DFC4984EFD52
+      key: false
+    - t: Digit was announced in 2019
+      pub: Physicalaiguide
+      d: Sep 2026
+      url: https://physicalaiguide.com/guides/humanoid-robots-2026-availability
+      key: false
+    - t: Aldebaran entered a safeguard procedure in January 2025…
+      pub: Politique
+      d: Jun 2026
+      url: https://politique.pappers.fr/question/redressement-judiciaire-societe-aidebaran-robotics-QANR5L17QE5089
+      key: false
+    - t: Figure raised $675M at a $2.6B valuation in February 2024
+      pub: PR Newswire
+      d: Feb 2024
+      url: https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html
+      key: false
+    - t: BMW began a Figure 03 project in Spartanburg
+      pub: Press
+      d: '2026-06-25'
+      url: https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg
+      key: false
+    - t: Figure 02 moved more than 90,000 components in around 1,250…
+      pub: Press
+      d: Feb 2026
+      url: https://www.press.bmwgroup.com/global/article/attachment/T0455864EN/644966
+      key: false
+  - - t: Physical AI links digital AI with physical machines in…
+      pub: Press
+      d: Feb 2026
+      url: https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for
+      key: false
+    - t: Morgan Stanley estimated a 2025 China-supply Optimus BOM at…
+      pub: Privatebank
+      d: '2026-08-01'
+      url: https://privatebank.jpmorgan.com/nam/en/insights/markets-and-investing/ideas-and-insights/robotics-the-next-big-frontier-in-ai
+      key: false
+    - t: United Robotics Group filed for self-administered…
+      pub: Rag Stiftung
+      d: May 2025
+      url: https://www.rag-stiftung.de/fileadmin/user_upload/Jahresabschluss/RAG-Stiftung_Lagebericht_2024_DE.pdf
+      key: false
+    - t: Full-body $59,950 Plus an AI plan from $19.99/mo
+      pub: Realbotix
+      d: undated
+      url: https://www.realbotix.com/pricing
+      key: false
+    - t: GR00T 2 improves adaptation by scaling human, teleoperation…
+      pub: Research
+      d: Nov 2026
+      url: https://research.nvidia.com/labs/gear/gr00t-2
+      key: false
+    - t: Astribot raised roughly $140M in October 2026
+      pub: Roboboom
+      d: Oct 2026
+      url: https://roboboom.com/market
+      key: false
+    - t: Robot Era STAR1 has 55 degrees of freedom
+      pub: Robotera
+      d: Dec 2024
+      url: https://www.robotera.com/upload/goods/20241208/f56791f6bd7fdd069e2c8552f4d3aeed.pdf
+      key: false
+    - t: Figure, Apptronik, Unitree, 1X and other current vendors…
+      pub: Roboticaguide
+      d: Oct 2026
+      url: https://www.roboticaguide.com/robot-companies-directory
+      key: false
+    - t: AEON, Hexagon Robotics’ humanoid robot, begins performing…
+      pub: Robotics
+      d: Jun 2026
+      url: https://robotics.hexagon.com/new-milestone-with-bmw-group-industrial-humanoid-deployment
+      key: false
+    - t: The 4-meter-class hydraulic-electric robot features 41…
+      pub: Roboticsbusinessnews
+      d: Oct 2026
+      url: https://www.roboticsbusinessnews.com/news/55/3731/neodradynamics-introduces-neo1-heavy-duty-hydraulic-humanoid-robot-at-ciif-2026.html
+      key: false
+    - t: Sanctuary AI announced Geordie Rose was leaving as CEO in…
+      pub: Sanctuary
+      d: Nov 2024
+      url: https://sanctuary.ai/news/company-leadership-update
+      key: false
+    - t: Agility scheduled early access to Digit 5 for the first…
+      pub: SEC filing
+      d: Nov 2026
+      url: https://www.sec.gov/Archives/edgar/data/2074973/000121390026118025/ea0311220-s1_agility.htm
+      key: true
+    - t: Digit has been deployed at Schaeffler facilities for…
+      pub: SEC filing
+      d: Nov 2026
+      url: https://www.sec.gov/Archives/edgar/data/2074973/000121390026118037/ea0311221-s1_agility.htm
+      key: false
+    - t: Mobileye describes humanoid robotics as capital intensive…
+      pub: SEC filing
+      d: Apr 2026
+      url: https://www.sec.gov/Archives/edgar/data/1910139/000110465926048124/tm261059d3_ars.pdf
+      key: false
+- id: src_all_5
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: Unitree delivered more than 5,500 humanoid robots in 2025
+      pub: Shop
+      d: Jan 2026
+      url: https://shop.unitree.com/zh-au/blogs/news/clarification-regarding-unitrees-2025-sales-data
+      key: false
+    - t: Unitree H2 has 31 DoF and 360 N.m joint torque
+      pub: Shop
+      d: '2026'
+      url: https://shop.unitree.com/collections/humanoid-robot/products/unitree-h2
+      key: false
+    - t: Unitree sells complete humanoid robots including G1 and R1
+      pub: Shop
+      d: Nov 2026
+      url: https://shop.unitree.com/collections/humanoid-robot
+      key: false
+    - t: SAG forecasts 54,000 global humanoid shipments in 2026
+      pub: Smartanalyticsglobal
+      d: Nov 2026
+      url: https://smartanalyticsglobal.com/global-humanoid-robot-shipments-q3-2026-agibot-ubtech-unitree
+      key: true
+    - t: Agility was founded in 2015 and reached a roughly $2B…
+      pub: Sterlingcharts
+      d: Jun 2025
+      url: https://sterlingcharts.com/sectors/humanoids/market
+      key: false
+    - t: Agility Robotics laid off a small number of employees in…
+      pub: TechCrunch
+      d: Apr 2024
+      url: https://techcrunch.com/2024/04/04/agility-robotics-lays-off-some-staff-amid-commercialization-focus
+      key: false
+    - t: Apptronik added $520M in February 2026
+      pub: TechCrunch
+      d: Feb 2026
+      url: https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation
+      key: false
+    - t: Apptronik announced a $350M Series A in February 2025
+      pub: TechCrunch
+      d: Feb 2025
+      url: https://techcrunch.com/2025/02/13/apptronik-raises-350m-to-build-humanoid-robots-with-help-from-google
+      key: false
+    - t: Home humanoids still face pricing, reliability, safety and…
+      pub: TechCrunch
+      d: Feb 2025
+      url: https://techcrunch.com/2025/02/21/norways-1x-is-building-a-humanoid-robot-for-the-home
+      key: false
+    - t: Home tests of 1X robots relied on teleoperators
+      pub: TechCrunch
+      d: Mar 2025
+      url: https://techcrunch.com/2025/03/21/1x-will-test-humanoid-robots-in-a-few-hundred-homes-in-2025
+      key: false
+    - t: Homes vary widely and include uneven surfaces, stairs, pets…
+      pub: TechCrunch
+      d: Feb 2025
+      url: https://techcrunch.com/2025/02/27/figure-will-start-alpha-testing-its-humanoid-robot-in-the-home-in-2025
+      key: false
+    - t: K-Scale Labs shut down after failing to secure further funding
+      pub: The Information
+      d: Nov 2025
+      url: https://www.theinformation.com/briefings/exclusive-humanoid-robotics-startup-k-scale-shut-exploring-sale-1x-bot-co
+      key: false
+    - t: Figure said most retired Figure 02 robots were…
+      pub: Theaiinsider
+      d: Sep 2026
+      url: https://theaiinsider.tech/?p=52745
+      key: false
+  - - t: Humanoid raised $152M in July 2026 at a $1.35B post-money…
+      pub: Thehumanoid
+      d: Jul 2026
+      url: https://thehumanoid.ai/humanoid-raises-152-million-at-1-35-billion
+      key: false
+    - t: Humanoid applications differ across industrial, logistics,…
+      pub: Ubtrobot
+      d: Nov 2026
+      url: https://www.ubtrobot.com/en/humanoid/application-scenarios
+      key: false
+    - t: UBTECH began mass production and delivery of Walker S2
+      pub: Ubtrobot
+      d: Nov 2026
+      url: https://www.ubtrobot.com/en/about/company-profile
+      key: false
+    - t: UBTECH markets Walker C for greeting, reception, smart…
+      pub: Ubtrobot
+      d: n.d.
+      url: https://www.ubtrobot.com/en/humanoid/products/walker-c
+      key: false
+    - t: UBTECH markets Walker C1 for reception, tour guiding and…
+      pub: Ubtrobot
+      d: n.d.
+      url: https://www.ubtrobot.com/en/humanoid/products/walker-c1
+      key: false
+    - t: UBTECH's service products target retail, supermarkets,…
+      pub: Ubtrobot
+      d: n.d.
+      url: https://www.ubtrobot.com/en/commercial
+      key: false
+    - t: Walker S2 can autonomously swap a battery within three minutes
+      pub: Ubtrobot
+      d: '2025'
+      url: https://www.ubtrobot.com/en/humanoid/products/walker-s2
+      key: false
+    - t: Unitree G1 is specified with 23 to 43 degrees of freedom
+      pub: Unitree
+      d: Nov 2026
+      url: https://www.unitree.com/g1
+      key: true
+    - t: Unitree sells humanoids with open control interfaces for…
+      pub: Unitree
+      d: Oct 2026
+      url: https://www.unitree.com/mobile/R1
+      key: false
+    - t: Figure was founded in 2022
+      pub: Ventureatlas
+      d: Oct 2026
+      url: https://www.ventureatlas.org/company/figure-ai
+      key: false
+    - t: R15.08 uses iterative risk assessment for industrial mobile…
+      pub: Webstore
+      d: '2026-09-01'
+      url: https://webstore.ansi.org/standards/ria/ANSIA3R15082020R2026
+      key: false
+    - t: Fourier GR-2 has 53 independently controllable joints or axes
+      pub: Wipo
+      d: Oct 2025
+      url: https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1088-en-a-century-of-design-registrations-1925-2025.pdf
+      key: false
+    - t: X Square combines WALL-A with the Quanta X2 mobile humanoid
+      pub: X2Robot
+      d: Nov 2026
+      url: https://x2robot.com/en/product/quantum2
+      key: false
 - id: ed221
   type: x/divider_12
   src: 221

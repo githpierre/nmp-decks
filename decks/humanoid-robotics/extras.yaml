@@ -1,0 +1,44 @@
+- after: ed104
+  link: 'ed104 « BETTER ECONOMICS: hardware and service models that lower the cost of each useful hour » leads to how makers charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do humanoid makers
+
+      actually make money?'
+    axes:
+    - Businesses pay
+    - Households pay
+    - Sells the
+    - hardware
+    - Sells the
+    - brain
+    groups:
+    - name: Robot brains and chips
+      x: 0.18
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/humanoid-robotics/s06-00.png
+      - src: ../../assets/logos/pp_live/humanoid-robotics/s06-01.png
+    - name: Robots sold outright
+      x: 0.5
+      y: 0.5
+      logos:
+      - src: ../../assets/logos/pp_live/humanoid-robotics/s06-02.png
+      - src: ../../assets/logos/pp_live/humanoid-robotics/s06-03.png
+    - name: Robots leased to factories
+      x: 0.16
+      y: 0.22
+      logos:
+      - src: ../../assets/logos/pp_live/humanoid-robotics/s06-04.png
+      - src: ../../assets/logos/pp_live/humanoid-robotics/s06-05.png
+      - src: ../../assets/logos/pp_live/humanoid-robotics/s06-06.png
+    - name: Home robots by monthly plan
+      x: 0.85
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/humanoid-robotics/s06-07.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

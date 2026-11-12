@@ -167,7 +167,7 @@ def killers(s):
         ml = max([c.count('|') + 1 for r in s['rows'] for c in r['cells'] if c] + [1]); st = max(st, 13.5 * ml + 14)
     if s['mode'] == 'dead':
         k = len(s['causes']); xs = [464 + i * min(96, 330 / max(1, k - 1)) for i in range(k)]
-        for r in s['rows']: r['years'] = int(r['end']) - int(r['start'])
+        for r in s['rows']: r['years'] = max(1, int(r['end']) - int(r['start']))   # a startup born and closed the same year lived « 1 year » (live S11)
         lx0 = 158
     else:
         for r in s['rows']:
@@ -261,8 +261,9 @@ def _trend_rows(s):
                 if d >= JUMP_FROM and b > 0: fac.setdefault(d, []).append(v / b)
         fac = {d: st.median(x) for d, x in fac.items()}
     k = float(s.get('aug25', 2.0))
+    if s.get('raw'): fac, k = {}, 1.0          # a twin of a live slide redraws the live curve as it is (12 Nov 2026)
     out = [(d, v / (fac.get(d, k) if fac else k) if d >= JUMP_FROM else v) for d, v in rows]
-    s['corrected'] = any(d >= JUMP_FROM for d, _ in rows)
+    s['corrected'] = any(d >= JUMP_FROM for d, _ in rows) and not s.get('raw')
     return out
 
 def trends_window(s):
@@ -281,12 +282,12 @@ def trends(s):
     v = [x for _, x in _trend_rows(s)]
     if s.get('window') == '1y': v = v[-52:]
     # light smoothing (Pierre, 12 Nov 2026: « on lisse un peu les incohérences et on montre le mouvement »): 3-week median drops one-week spikes and dips
-    v = [sorted(v[max(0, i - 1):i + 2])[len(v[max(0, i - 1):i + 2]) // 2] for i in range(len(v))]
+    if not s.get('raw'): v = [sorted(v[max(0, i - 1):i + 2])[len(v[max(0, i - 1):i + 2]) // 2] for i in range(len(v))]
     pk = max(i for i, x in enumerate(v) if x == max(v)); v = v[:pk + 1]
     m = max(v); v = [x * 100 / m for x in v]
     n = len(v); r = max(v) / max(st.median(v[:max(1, int(n * .75))]), 1)
     lab = '×20+' if r >= 20 else (f'×{int(round(r / 5) * 5)}' if r >= 10 else f'×{round(r * 2) / 2:.1f}'.replace('.0', ''))
-    x0, x1, y0, y1 = 136, 824, 500, 410
+    x0, x1, y0, y1 = 136, 824, 500, s.get('y_top', 410)   # y_top: height of the live slide's curve when a twin copies it
     s['geo'] = dict(ratio=r, stat=lab, pts=' '.join(f'{x0 + i / (n - 1) * (x1 - x0):.1f},{y0 - x / 100 * (y0 - y1):.1f}' for i, x in enumerate(v)), base=y0 + 16)
 PREP['trends'] = trends
 

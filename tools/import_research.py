@@ -307,6 +307,7 @@ def main():
     for x in S:                                  # what the yellow tag says now
         b = re.sub(r'-s\d$', '', x['id'])
         if x['type'] in ('agenda', 'cover') or b in ('ed002', 'ed003', 'ed221'): x.pop('tag', None)
+        elif x.get("tag") == "PRODUCT PAGE: TO COPY" and (out / "live.yaml").exists() and x["id"] in (yaml.safe_load((out / "live.yaml").read_text()) or {}): x.pop("tag", None)
         elif b in DB_IDS and x['id'] not in DB_DONE: x['tag'] = 'FROM OUR DATABASE: TO BUILD'
         elif x['id'] in DB_DONE: x.pop('tag', None)
         elif b in {f'ed{n}' for n in range(215, 221)} and not (out / 'sources_key.yaml').exists(): x['tag'] = 'SOURCES: TO BUILD'

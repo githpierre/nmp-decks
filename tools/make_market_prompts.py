@@ -49,7 +49,7 @@ HOW TO ANSWER, FOR EVERY SLIDE
    Keep the formatting marks of the model: a line break inside a text is written \\n, and {{1|text}} marks a run in a second style (for example a bold company name followed by normal text). Keep them where the model has them. Keys that hold a single emoji are icons: give one fitting emoji.
 2. Content is about {m} only, written for a smart reader who is not an expert: plain US English, short sentences, no jargon without a word of explanation, no em dash, no exclamation marks.
    Bad: "VLA policies with sim2real transfer cut deployment TCO." Good: "Robot brains trained in simulation now need less work on site, so each robot costs less to set up." (the reader is not an engineer)
-3. Every figure, date, name and claim must be true and sourced. Prefer primary sources: {spec['sources_hint']} A database such as Crunchbase or PitchBook alone is never a source. Never use newmarketpitch.com.
+3. Every figure, date, name and claim must be true and sourced. Prefer primary sources: {spec['sources_hint']} A database such as Crunchbase or PitchBook alone is never a source. Never use newmarketpitch.com. The url is the exact page that carries the quote, never a homepage (« https://www.sec.gov » proves nothing), and the quote is copied word for word from it.
 4. Recent facts first (2025-2026). A demo video or a CEO promise is not a deployment: say what was shown, and what is actually running at a customer.
    Bad: "Tesla will build 1 million Optimus robots in 2026." Good: "Tesla said in 2026 it aims to build Optimus robots at scale, but has not reported external sales." (a target is not a fact)
 5. Money is written the way people say it: $285M, $4.2B, never $0.285B.

@@ -5,7 +5,7 @@ Usage: python3 tools/build_sources.py <slug>"""
 import sys, re, yaml, collections, datetime
 from pathlib import Path
 slug = sys.argv[1]; D = Path(__file__).resolve().parent.parent / 'decks' / slug
-PUB = {'fda.gov': 'FDA', 'pmc.ncbi.nlm.nih.gov': 'PubMed Central', 'pubmed.ncbi.nlm.nih.gov': 'PubMed', 'nature.com': 'Nature', 'sec.gov': 'SEC filing',
+PUB = {'bjnews.com.cn': 'Beijing News', 'ithome.com': 'IT Home', 'chinastarmarket.cn': 'STAR Market Daily', 'cls.cn': 'Cailian Press', 'chinaventure.com.cn': 'ChinaVenture', '36kr.com': '36Kr', 'jiemian.com': 'Jiemian', 'pedaily.cn': 'PEdaily', 'xinhuanet.com': 'Xinhua', 'mk.co.kr': 'Maeil Business', 'caixinglobal.com': 'Caixin', 'caixin.com': 'Caixin', 'scmp.com': 'SCMP', 'techcrunch.com': 'TechCrunch', 'reuters.com': 'Reuters', 'bloomberg.com': 'Bloomberg', 'theinformation.com': 'The Information', 'therobotreport.com': 'The Robot Report', 'ieee.org': 'IEEE Spectrum', 'yicai.com': 'Yicai', 'sina.com.cn': 'Sina', '163.com': 'NetEase', 'qq.com': 'Tencent News', 'stcn.com': 'Securities Times', 'cnstock.com': 'China Securities Journal', 'eastmoney.com': 'East Money', 'thepaper.cn': 'The Paper', 'latepost.com': 'LatePost', 'nikkei.com': 'Nikkei', 'koreaherald.com': 'Korea Herald', 'businesswire.com': 'Business Wire', 'fda.gov': 'FDA', 'pmc.ncbi.nlm.nih.gov': 'PubMed Central', 'pubmed.ncbi.nlm.nih.gov': 'PubMed', 'nature.com': 'Nature', 'sec.gov': 'SEC filing',
        'fiercebiotech.com': 'Fierce Biotech', 'globenewswire.com': 'GlobeNewswire', 'prnewswire.com': 'PR Newswire', 'businesswire.com': 'Business Wire',
        'ashpublications.org': 'Blood (ASH)', 'nejm.org': 'NEJM', 'grandviewresearch.com': 'Grand View Research', 'precedenceresearch.com': 'Precedence Research',
        'futuremarketinsights.com': 'Future Market Insights', 'meticulousresearch.com': 'Meticulous Research', 'fortunebusinessinsights.com': 'Fortune Business Insights',
@@ -21,7 +21,7 @@ def pub(u):
     if h in PUB: return PUB[h]
     for k, v in PUB.items():
         if h.endswith('.' + k): return v
-    b = re.sub(r'^(ir|investors?|news|en)\.', '', h).split('.')[0]
+    b = re.sub(r'^(ir|investors?|news|en|companies|www2|global)\.', '', h).split('.')[0]
     return b.replace('-', ' ').title().replace('Biopharma', 'Biopharma')
 def title(u, claim):
     path = re.sub(r'^https?://[^/]+', '', u).split('?')[0].rstrip('/')
@@ -43,7 +43,10 @@ for sid, v in S.items():
         if u not in U: U[u] = x
 key = {s['url'].rstrip('/') for s in yaml.safe_load((D / 'sources_key.yaml').read_text())['rows'] if s.get('url')}
 items = []
+HOME = [u for u in U if not re.search(r'https?://[^/]+/.+', u)]   # a bare homepage proves nothing: never listed as a source (12 Nov 2026)
+if HOME: print('homepage-only sources left out (check the claims they carry):', ', '.join(HOME))
 for u, x in U.items():
+    if u in HOME: continue
     d = x.get('date'); d = d.strftime('%b %Y') if isinstance(d, (datetime.date,)) else (str(d) if d else '')
     if re.fullmatch(r'\d{4}-\d{2}', d or ''): d = datetime.date(int(d[:4]), int(d[5:]), 1).strftime('%b %Y')
     items.append(dict(t=title(u, x['claim']), pub=pub(u), d=d, url=u, key=u in key))
@@ -57,3 +60,18 @@ prev = 'ed219'
 for s in slides: s['after'] = prev; prev = s['slide']['id']
 (D / 'sources_slides.yaml').write_text(yaml.safe_dump(slides, allow_unicode=True, sort_keys=False, width=1000))
 print(len(items), 'sources,', len(slides), 'list slides')
+
+# key-source slides ed216-ed219 (5 rows each) written into edits.yaml from sources_key.yaml (12 Nov 2026: no more hand copy)
+KR = yaml.safe_load((D / 'sources_key.yaml').read_text())['rows']
+E = yaml.safe_load((D / 'edits.yaml').read_text()) if (D / 'edits.yaml').exists() else {}
+E['ed215'] = {**(E.get('ed215') or {}), 'tag': None}
+for i, sid in enumerate(['ed216', 'ed217', 'ed218', 'ed219']):
+    rows = KR[5 * i:5 * i + 5]
+    if not rows: E[sid] = {'drop': True}; continue
+    e = {0: 'SOURCE', 1: 'WHY WE TRUST IT', 2: 'HOW WE USED IT', 'section': 'Sources', 'tag': None, 'links': {}}
+    for j, r in enumerate(rows):
+        k = [3, 7, 10, 13, 16][j]; e[k] = r['name']; e[k + 1] = r['why']; e[k + 2] = r['how']
+        if r.get('url'): e['links'][k] = r['url']
+    E[sid] = e
+(D / 'edits.yaml').write_text(yaml.dump(E, allow_unicode=True, sort_keys=False, width=1000))
+print('key sources ->', len(KR), 'rows in ed216-ed219 (edits.yaml)')

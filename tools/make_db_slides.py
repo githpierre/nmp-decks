@@ -1,0 +1,145 @@
+"""Database slides of a market deck (Investor bets, top rounds, top investors), from the latest nmp-seo startups base.
+
+    python3 tools/make_db_slides.py <handle> --name "humanoid robotics" [--today 2026-11-12]   -> decks/<handle>/db.yaml
+
+Rules (RULES.md, Content): equity rounds only (no IPO, debt, grants), complete since January 2024, rounds with no public
+amount count as zero and the notes say so. Keys and shapes follow the reference deck (decks/in-vivo-car-t/db.yaml).
+Product-page twins (ed168p, ed171p) are not written here: they copy the live page (live.yaml).
+Texts that need judgment (ed162 before/after) are written in edits.yaml after reading the printed figures."""
+import argparse, collections, re, statistics as st, sys, yaml
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, '/home/claude/nmp-seo/outils/startups'); sys.path.insert(0, str(ROOT / 'tools'))
+import gen_lib as g
+_src = (ROOT / 'tools/build_sources.py').read_text()          # publisher names (PUB, pub) without running build_sources
+exec(_src[_src.index('PUB = {'):_src.index('def title(')])
+
+
+def money(v):
+    if v >= 1e9: return f'${v / 1e9:.1f}B'.replace('.0B', 'B')
+    if v >= 1e7: return f'${v / 1e6:.0f}M'
+    return f'${v / 1e6:.1f}M'.replace('.0M', 'M')
+
+
+def stage(r):
+    t = r['round_type'] or ''
+    return '' if t in ('Unknown', 'Other', '') else t.replace('Series D+', 'late-stage')
+
+
+def main():
+    ap = argparse.ArgumentParser(); ap.add_argument('handle'); ap.add_argument('--name'); ap.add_argument('--today', default='2026-11-12')
+    a = ap.parse_args(); H, N, today = a.handle, a.name, a.today
+    b = g.Base(); M = {m['company_id']: m for m in b.markets[H]}
+    R = []
+    for cid, m in M.items():
+        for r in g.rounds_for(b, cid, 'deals'):
+            if (r['round_type'] or '').upper() == 'IPO' or 'IPO' in (r['round_label'] or ''): continue   # equity rounds only, never a listing
+            R.append(dict(r, name=b.companies[cid]['name'], cat=m.get('category') or '', country=b.companies[cid]['hq_country'], amt=float(r['amount_usd'] or 0)))
+    R.sort(key=lambda r: r['date'])
+    tot = sum(r['amt'] for r in R); D = {}
+    year_ago = f'{int(today[:4]) - 1}{today[4:]}'
+    print(f'{len(R)} equity rounds since 2024, {money(tot)}; base covers to', max(r['date'] for r in R))
+
+    def sentence(r):
+        """« Tutor Intelligence raised a $75M Series B led by Andreessen Horowitz for its industrial and factory humanoids {1|Business Wire} »"""
+        lead = (r['lead_investors'] or '').split(';')[0].strip(); st_ = stage(r)
+        if r['amt']: s = f"{r['name']} raised {'a ' + money(r['amt']) + ' ' + st_ if st_ else money(r['amt'])}"
+        else: s = f"{r['name']} raised an undisclosed {st_ or 'round'}"
+        if lead: s += f' led by {lead}'
+        if r['cat'] and len(s) + len(r['cat']) < 100: s += f" for its {r['cat'][0].lower() + r['cat'][1:]}"
+        s = s.replace(' Seed', ' seed round').replace(' Pre-Seed', ' pre-seed round')
+        p_ = pub(r['source_url']); key = re.sub(r'[^a-z0-9]', '', r['name'].lower())
+        if p_.lower()[:5] == key[:5] or 'pr.co' in r['source_url']: p_ = r['name'].split()[0]   # a company's own site or press page: name the company
+        return s + f" {{1|{p_}}}"
+    def dl(d): return f"{d[:4]} ({['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][int(d[5:7]) - 1]})"
+
+    last = sorted(R, key=lambda r: r['date'], reverse=True)[:12]
+    D['ed156'] = {k: v for i, r in enumerate(last[:6]) for k, v in ((13 + 2 * i, dl(r['date'])), (14 + 2 * i, sentence(r)))}
+    D['ed156']['note'] = f'We list the latest equity rounds of {N} startups in our tracker, from company releases and the press. Undisclosed means no amount was made public'
+    D['ed157'] = {k: v for i, r in enumerate(last[6:12]) for k, v in ((14 + 2 * i, dl(r['date'])), (15 + 2 * i, sentence(r)))}
+    D['ed157']['note'] = D['ed156']['note']
+
+    def ann(rs):
+        rs = sorted(rs, key=lambda r: -r['amt']); s = sum(r['amt'] for r in rs)
+        if not rs or not s: return ''
+        t = rs[0]
+        if t['amt'] > .5 * s: return f"{t['name']}’s {money(t['amt'])} made up most of it"
+        return f"{t['name']} {money(t['amt'])}, {rs[1]['name']} {money(rs[1]['amt'])}" if len(rs) > 1 else f"{t['name']} {money(t['amt'])}"
+    halves = [('2025', 'H1'), ('2025', 'H2'), ('2026', 'H1'), ('2026', 'H2')]
+    bars = []
+    for y, h in halves:
+        rs = [r for r in R if r['date'][:4] == y and ((r['date'][5:7] <= '06') == (h == 'H1'))]
+        bars.append(dict(x=f'{y} {h}', v=round(sum(r['amt'] for r in rs) / 1e6), ann=ann(rs) + f', in {len(rs)} rounds'))
+    D['ed158'] = dict(bars=bars, note=[f'We add up the disclosed equity rounds of {N} startups in our tracker, by half-year',
+                                       f'{today[:4]} H2 runs to mid-{["January","February","March","April","May","June","July","August","September","October","November","December"][int(today[5:7]) - 1]} only, and rounds with no public amount count as zero'])
+    yb = []
+    for y in ('2024', '2025', '2026'):
+        rs = [r for r in R if r['date'][:4] == y]; yb.append(dict(x=y, v=round(sum(r['amt'] for r in rs) / 1e6), ann=ann(rs)))
+    D['ed159'] = dict(type='fundbars', t=None, bars=yb, note=[f'We add up the disclosed equity rounds of {N} startups in our database, which is complete from January 2024',
+                                                             'IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero'])
+    pb = []
+    for y in ('2024', '2025', '2026'):
+        rs = sorted([r for r in R if r['date'][:4] == y], key=lambda r: -r['amt']); s = sum(r['amt'] for r in rs)
+        if s: pb.append(dict(x=y if y != today[:4] else f'{y} (YTD)', v=round(100 * rs[0]['amt'] / s), ann=f"{rs[0]['name']}’s {money(rs[0]['amt'])}, out of {len(rs)} rounds"))
+    D['ed164'] = dict(type='fundbars', unit='pct', t=None, bars=pb, note=['For each year, we divide the largest round by all the disclosed capital in our tracker',
+                                                                           'IPOs, debt and grants are left out, and 2026 only runs to mid-November for now'])
+    # biggest rounds: last twelve months / before
+    def raises(rs, n=4):
+        out = []
+        for r in sorted(rs, key=lambda r: -r['amt'])[:n]:
+            q = (int(r['date'][5:7]) - 1) // 3 + 1
+            out.append(dict(name=r['name'], amt=int(r['amt']), date=f"Q{q} {r['date'][:4]}", stage=stage(r) or 'Equity'))
+        return out
+    D['ed165p'] = dict(rounds=raises([r for r in R if r['date'] >= year_ago]), note=[f'We listed the biggest equity rounds raised by {N} startups over the last twelve months',
+                       'We used company announcements and the press, and all our sources are at the end of the report'])
+    old = []
+    for cid, m in M.items():
+        for r in g.rounds_for(b, cid, 'ranking'):
+            if r['date'] < year_ago and (r['round_type'] or '').upper() != 'IPO': old.append(dict(r, name=b.companies[cid]['name'], amt=float(r['amount_usd'] or 0)))
+    D['ed166p'] = dict(rounds=[dict(x, date=x['date'][:4]) for x in raises(old)], note=[f'We listed the biggest equity rounds raised by {N} startups before the last twelve months',
+                       'We used our tracker of rounds, company announcements and the press, with sources at the end'])
+    # categories
+    cat = collections.defaultdict(list)
+    for r in R: cat[r['cat'] or 'Other'].append(r)
+    top = sorted(cat.items(), key=lambda kv: -sum(r['amt'] for r in kv[1]))[:3]
+    t167 = {}
+    for i, (c, rs) in enumerate(top):
+        ex = []; [ex.append(r['name']) for r in sorted(rs, key=lambda r: -r['amt']) if r['name'] not in ex]
+        t167[6 + i] = c.upper(); t167[[9, 11, 12][i]] = str(len(rs)); t167[[13, 15, 16][i]] = money(sum(r['amt'] for r in rs)); t167[[17, 19, 20][i]] = ', '.join(ex[:4])
+    t167['note'] = f'Data comes from our tracker of {len(R)} {N} equity rounds announced since January 2024, worth about {money(tot)}. IPOs, debt and grants are left out'
+    D['ed167'] = t167
+    # investors (leads)
+    inv = collections.defaultdict(list)
+    for r in R:
+        for x in [y.strip() for y in (r['lead_investors'] or '').split(';') if y.strip()]: inv[x].append(r)
+    ti = sorted(inv.items(), key=lambda kv: (-len(kv[1]), -sum(r['amt'] for r in kv[1])))[:5]
+    t169 = {}
+    K = [(7, 10, 14, 18), (8, 12, 16, 20), (9, 13, 17, 21), (26, 28, 30, 32), (27, 29, 31, 33)]
+    for (kn, kc, kf, ke), (x, rs) in zip(K, ti):
+        s = sum(r['amt'] for r in rs); names = collections.Counter(r['name'] for r in rs)
+        t169[kn] = x.upper(); t169[kc] = str(len(rs)); t169[kf] = money(s) if s else 'Undisclosed'
+        t169[ke] = ', '.join(f'{n} (twice)' if c == 2 else n for n, c in names.most_common(2))
+    t169['note'] = f'We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the {len(R)} rounds'
+    D['ed169'] = t169
+    big = sorted(sorted(R, key=lambda r: -r['amt'])[:6], key=lambda r: r['date'])
+    D['ed205'] = {k: v for i, r in enumerate(big) for k, v in ((14 + 2 * i, dl(r['date'])), (15 + 2 * i, sentence(r)))}
+    D['ed205']['note'] = f'We picked the biggest disclosed rounds of {N} startups since 2024, from our tracker of rounds'
+    # figures for the insight slides (ed160, ed162): printed, the sentences are written by Claude in edits.yaml
+    dis = [r['amt'] for r in R if r['amt']]
+    byc = collections.Counter(); amc = collections.Counter()
+    for r in R: byc[r['country']] += 1; amc[r['country']] += r['amt']
+    print('categories:', [(c, len(rs), money(sum(r['amt'] for r in rs))) for c, rs in sorted(cat.items(), key=lambda kv: -sum(r['amt'] for r in kv[1]))])
+    print('disclosed', len(dis), 'of', len(R), 'median', money(st.median(dis)))
+    print('countries rounds', byc.most_common(4), 'money', [(k, money(v)) for k, v in amc.most_common(4)])
+    big100 = [r for r in R if r['amt'] >= 1e8]; print('rounds >= $100M', len(big100), money(sum(r['amt'] for r in big100)), f'{100 * sum(r["amt"] for r in big100) / tot:.0f}%')
+    print('biggest', [(r['name'], money(r['amt']), r['date']) for r in sorted(R, key=lambda r: -r['amt'])[:5]])
+    print('stages', collections.Counter(stage(r) or 'undisclosed stage' for r in R).most_common(5))
+    tx = ROOT / 'decks' / H / 'db_text.yaml'          # sentences that need judgment (ed160, ed162), written from the figures above
+    if tx.exists():
+        for k, v in (yaml.safe_load(tx.read_text()) or {}).items(): D.setdefault(k, {}).update(v)
+    out = ROOT / 'decks' / H / 'db.yaml'
+    out.write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000)); print(out)
+
+
+if __name__ == '__main__':
+    main()

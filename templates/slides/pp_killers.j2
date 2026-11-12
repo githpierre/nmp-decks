@@ -2,7 +2,7 @@
 {% for r in s.rows %}{% set y = G.ys[loop.index0] %}{% if not loop.first %}<i class="pp-kl" style="top:{{y-G.st/2}}px;left:{{G.lx0}}px;width:{{G.lx1-G.lx0}}px"></i>{% endif %}
 <span class="lt pp-c" style="left:176px;top:{{y}}px">{% if r.src %}<img src="{{r.src}}">{% else %}<b class="nt">{{r.ini}}</b>{% endif %}</span>
 <span class="pp-kn" style="left:204px;top:{{y-13}}px">{{r.name}}<em>{{r.ending}}</em></span>
-<span class="pp-ky" style="left:371px;top:{{y-13}}px">{{r.years}} years<em>{{r.start}} to {{r.end}}</em></span>
+<span class="pp-ky" style="left:371px;top:{{y-13}}px">{{r.years}} year{{ "s" if r.years != 1 }}<em>{{r.start}} to {{r.end}}</em></span>
 {% for v in r.causes %}<i class="pp-td {{ 'on' if v }}" style="left:{{G.xs[loop.index0]}}px;top:{{y}}px"></i>{% endfor %}{% endfor %}
 {% else %}{% for c in s.signs %}<span class="pp-kh l" style="top:{{G.hy}}px;left:{{G.xs[loop.index0]}}px;width:{{G.ws[loop.index0]}}px">{{c|replace('|','<br>')|safe}}</span>{% endfor %}
 {% for r in s.rows %}{% set y = G.ys[loop.index0] %}{% if not loop.first %}<i class="pp-kl" style="top:{{y-G.st/2}}px;left:{{G.lx0}}px;width:{{G.lx1-G.lx0}}px"></i>{% endif %}
