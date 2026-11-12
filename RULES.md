@@ -378,3 +378,10 @@ Cause commune : je ne regardais que les slides nouvelles, pas les 190, et les co
 16. **Carte** : une région qui n'existe pas dans le gabarit s'ajoute au gabarit (Australie), on ne réutilise pas le point d'une autre région.
 17. **Trimestre du deck** = la date du jour (Q4 2026 en novembre).
 18. Un connecteur n'est jamais masqué par la règle des cases vides ; ce qui était posé sur une case vide (tuile d'icône) part avec elle.
+
+## Deck de référence (12/11/2026, 18:46)
+- Le deck EdTech est ancien (decks/edtech-full/DEPRECATED.md) : on ne le revoit plus et on ne le publie plus. Le modèle de tout nouveau marché est decks/in-vivo-car-t.
+- Pastille rose dans le deck : seulement « SIGNAL » (Market opportunity). La pastille « MARKET MAP » reste sur la page produit, jamais dans le deck.
+- Slides de la page produit (S01-S12) : elles entrent dans le deck dès qu'elles s'insèrent bien dans l'histoire (S04 remplace « what has been fixed so far », S06 vient juste après « Which pharma deals shaped the market? »).
+- Couleurs des barres : jamais de blanc plein (trop fort) ; deuxième couleur = bleu clair #7FA9C9 (celui du donut), texte navy dessus.
+- Dernière slide « Thank you for your time » : titre aligné à gauche, comme le texte.

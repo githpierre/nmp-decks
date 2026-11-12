@@ -337,3 +337,4 @@ def _warn_cols(s):
     lx0 = max(50, (960 - total) / 2); xs = []; x = lx0 + name_w
     for c in cols: xs.append(x); x += c + 20
     return xs, cols, lx0, lx0 + 44
+PREP['deals'] = lambda s: None   # S06 deals scatter: positions given in the data

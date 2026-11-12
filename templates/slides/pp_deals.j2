@@ -1,0 +1,9 @@
+{# S06 of the product pages: each deal at its date (x) and value (y, log scale), logo tile + value + company (live in vivo CAR-T page, 12 Nov 2026) #}
+<svg class="pp-abs" width="960" height="672" stroke="#4A6A75" stroke-dasharray="3 4" stroke-width="1">
+{% for x in s.vlines %}<line x1="{{x.x}}" y1="228" x2="{{x.x}}" y2="520"/>{% endfor %}
+{% for y in s.hlines %}<line x1="200" y1="{{y.y}}" x2="779" y2="{{y.y}}"/>{% endfor %}
+<line x1="200" y1="520" x2="779" y2="520" stroke="#5E7E8E" stroke-dasharray="0" stroke-width="1.2"/></svg>
+{% for x in s.vlines %}<span class="pp-dx" style="left:{{x.x+5}}px;top:529px">{{x.l}}</span>{% endfor %}
+{% for y in s.hlines %}<span class="pp-dy" style="right:{{960-194}}px;top:{{y.y-7}}px">{{y.l}}</span>{% endfor %}
+{% for d in s.deals %}<span class="lt pp-c" style="left:{{d.x}}px;top:{{d.y}}px"><img src="{{d.src}}"></span>
+<span class="pp-dl {{ d.side }}" style="{% if d.side == 'l' %}right:{{960-d.x+22}}px{% else %}left:{{d.x+22}}px{% endif %};top:{{d.y-16}}px"><b>{{d.v}}</b><em>{{d.name}}</em></span>{% endfor %}

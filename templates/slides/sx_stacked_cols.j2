@@ -1,6 +1,6 @@
 <div class="body"><div class="sx"><div class="chart">{% set mx = s.max %}
 <div class="lg">{% for g in s.groups %}<span><i style="background:{{ g.col }}"></i>{{ g.name }}</span>{% endfor %}</div>
 <div style="display:flex;gap:46px;align-items:flex-end;height:220px;justify-content:center;border-bottom:1.5px solid #789096">{% for c in s.cols %}<div style="width:70px;display:flex;flex-direction:column-reverse">
- {% for v in c.v %}{% if v %}<div style="height:{{ 190 * v / mx }}px;background:{{ s.groups[loop.index0].col }};display:flex;align-items:center;justify-content:center;font-size:9pt;font-weight:700;color:{{ '#062A3C' if s.groups[loop.index0].col == '#FFFFFF' else '#fff' }};border-top:2px solid #062A3C">{{ v }}</div>{% endif %}{% endfor %}</div>{% endfor %}</div>
+ {% for v in c.v %}{% if v %}<div style="height:{{ 190 * v / mx }}px;background:{{ s.groups[loop.index0].col }};display:flex;align-items:center;justify-content:center;font-size:9pt;font-weight:700;color:{{ '#062A3C' if s.groups[loop.index0].col in ('#FFFFFF', '#7FA9C9') else '#fff' }};border-top:2px solid #062A3C">{{ v }}</div>{% endif %}{% endfor %}</div>{% endfor %}</div>
 <div style="display:flex;gap:46px;justify-content:center;margin-top:8px">{% for c in s.cols %}<div style="width:70px;text-align:center"><div class="lab" style="font-weight:600">{{ c.x }}</div><div class="sub">{{ c.sub }}</div></div>{% endfor %}</div>
 </div>{% include 'slides/sx_side.j2' %}</div></div>

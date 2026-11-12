@@ -103,7 +103,6 @@ slides:
 - id: ed007p
   type: pp_radar
   section: Market definition
-  pill: MARKET MAP
   title: 'What is actually included
 
     in the in vivo CAR-T market?'
@@ -912,7 +911,7 @@ slides:
   - name: Chinese startup
     col: '#FB0161'
   - name: US startup
-    col: '#FFFFFF'
+    col: '#7FA9C9'
   - name: Other
     col: '#789096'
   id: xs_n5
@@ -1360,47 +1359,57 @@ slides:
 
       real-world proof'
 - id: ed058
-  type: x/has_already_been_fixed_left
+  type: pp_pains
   section: Pain points
-  title: 'What has been fixed so far,
+  title: 'Which in vivo CAR-T problems
 
-    and what is left to solve?'
-  note: We mapped recurring problems to the groups that would bear the clinical, operational, or financial consequences. Bigger priorities should be interpreted as relative willingness to solve the issue, not measured willingness to pay.
-  src: 58
-  t:
-    7: 'Blood cancer
-
-      care'
-    8: 'Autoimmune
-
-      clinics'
-    9: 'Solid tumor
-
-      care'
-    10: 'Patient
-
-      groups'
-    11: 'Regulatory
-
-      teams'
-    12: 'They want direct dosing without
-
-      weeks of personalized manufacturing'
-    19: 'They need proof in-body
-
-      engineering is precise and safe'
-    26: 'They worry about off-target
-
-      delivery and immune reactions'
-    33: 'They need CAR cells to persist
-
-      long enough for durable control'
-    40: 'They need monitoring for CRS,
-
-      neurotoxicity, and malignancy'
-    47: 'They need proof simpler delivery
-
-      produces durable patient value'
+    are still waiting for a fix?'
+  auds:
+  - Oncologists
+  - Patients
+  - Hospitals
+  - Biotech teams
+  - Investors
+  pains:
+  - - They wait weeks for cells to be made for each patient today
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They cannot yet control how strong the therapy gets in the body
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 2
+  - - They need proof the effect lasts as long as classic CAR-T
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They worry about where the gene delivery ends up in the body
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 2
+  - - They pay hundreds of thousands per patient for current CAR-T
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They face a long path from early trials to approval
+    - - 1
+      - 1
+      - 1
+      - 3
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
 - id: ed059
   type: x/problems_startups_going_after
   section: Pain points
@@ -3609,6 +3618,60 @@ slides:
     22: AbbVie agreed to buy Capstan for up to $2.1B cash, centered on targeted-LNP mRNA in vivo CAR-T {1|AbbVie}
     23: 2025 (MAR)
     24: AstraZeneca agreed to buy EsoBiotec for up to $1B, including $425M upfront, for targeted lentiviral in vivo cell therapy {1|AstraZeneca}
+- id: pp_s06
+  type: pp_deals
+  section: Investor bets
+  title: 'Big pharma is now paying
+
+    billions for in vivo CAR-T'
+  vlines:
+  - x: 200.6
+    l: '2025'
+  - x: 490
+    l: '2026'
+  hlines:
+  - y: 380
+    l: $1B
+  deals:
+  - x: 322
+    y: 314
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s06-322.png
+    v: up to $2.1B
+    name: Capstan
+    side: l
+  - x: 514
+    y: 302
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s06-514.png
+    v: up to $2.4B
+    name: Orna
+    side: l
+  - x: 563
+    y: 274
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s06-563.png
+    v: $3.25B
+    name: Kelonia
+    side: r
+  - x: 418
+    y: 344
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s06-418.png
+    v: $1.5B
+    name: Orbital
+    side: r
+  - x: 249
+    y: 457
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s06-249.png
+    v: $425M
+    name: EsoBiotec
+    side: r
+  - x: 370
+    y: 474
+    src: ../../assets/logos/pp_live/in-vivo-car-t/s06-370.png
+    v: $350M
+    name: Interius
+    side: r
+  note:
+  - Each logo is one deal, placed at its date and its value, on a scale where each line is ten times the one below
+  - Buyouts show the price paid, the other deals their full potential value, with all the sources at the end of the report
 - id: xs_1d
   type: x/sig_dominance
   section: Investor bets
@@ -3747,7 +3810,7 @@ slides:
   - name: China
     col: '#FB0161'
   - name: US
-    col: '#FFFFFF'
+    col: '#7FA9C9'
   - name: Rest of the world
     col: '#789096'
   rows:
@@ -3796,7 +3859,7 @@ slides:
   - name: Series A and other
     col: '#789096'
   - name: Series B or later
-    col: '#FFFFFF'
+    col: '#7FA9C9'
   cols:
   - x: '2024'
     sub: 7 rounds

@@ -93,3 +93,5 @@ Refused on 12 Nov: N8 searches vs funding (reads as hype, not opportunity), N10 
 - Refusés : C06, C07, C10 (ne plus proposer).
 - Exemple In Vivo CAR-T : decks/in-vivo-car-t/extras.yaml (14 slides).
 - Liant obligatoire avec la slide d'avant (voir RULES.md « Liant des slides complémentaires ») ; champ `link:` dans extras.yaml.
+
+- Barres 100 % et colonnes empilées : deuxième série en bleu clair #7FA9C9, jamais en blanc (12/11/2026).

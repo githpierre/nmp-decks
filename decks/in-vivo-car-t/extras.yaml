@@ -1,3 +1,60 @@
+- after: iv_deals
+  link: iv_deals lists the pharma deals; this slide shows their size over time (product page S06)
+  slide:
+    id: pp_s06
+    type: pp_deals
+    section: Investor bets
+    title: 'Big pharma is now paying
+
+      billions for in vivo CAR-T'
+    vlines:
+    - x: 200.6
+      l: '2025'
+    - x: 490
+      l: '2026'
+    hlines:
+    - y: 380
+      l: $1B
+    deals:
+    - x: 322
+      y: 314
+      src: ../../assets/logos/pp_live/in-vivo-car-t/s06-322.png
+      v: up to $2.1B
+      name: Capstan
+      side: l
+    - x: 514
+      y: 302
+      src: ../../assets/logos/pp_live/in-vivo-car-t/s06-514.png
+      v: up to $2.4B
+      name: Orna
+      side: l
+    - x: 563
+      y: 274
+      src: ../../assets/logos/pp_live/in-vivo-car-t/s06-563.png
+      v: $3.25B
+      name: Kelonia
+      side: r
+    - x: 418
+      y: 344
+      src: ../../assets/logos/pp_live/in-vivo-car-t/s06-418.png
+      v: $1.5B
+      name: Orbital
+      side: r
+    - x: 249
+      y: 457
+      src: ../../assets/logos/pp_live/in-vivo-car-t/s06-249.png
+      v: $425M
+      name: EsoBiotec
+      side: r
+    - x: 370
+      y: 474
+      src: ../../assets/logos/pp_live/in-vivo-car-t/s06-370.png
+      v: $350M
+      name: Interius
+      side: r
+    note:
+    - Each logo is one deal, placed at its date and its value, on a scale where each line is ten times the one below
+    - Buyouts show the price paid, the other deals their full potential value, with all the sources at the end of the report
 - after: ed032
   slide:
     id: xs_2a
@@ -271,7 +328,7 @@
     - name: Chinese startup
       col: '#FB0161'
     - name: US startup
-      col: '#FFFFFF'
+      col: '#7FA9C9'
     - name: Other
       col: '#789096'
     id: xs_n5
@@ -342,7 +399,7 @@
     note:
     - Data comes from a report of 16 patients published in the New England Journal of Medicine in September 2026
   link: ed153, card « Each new indication adds learning that can transfer across the same platform »
-- after: iv_deals
+- after: pp_s06
   slide:
     id: xs_1d
     type: x/sig_dominance
@@ -476,7 +533,7 @@
     - name: China
       col: '#FB0161'
     - name: US
-      col: '#FFFFFF'
+      col: '#7FA9C9'
     - name: Rest of the world
       col: '#789096'
     rows:
@@ -541,7 +598,7 @@
     - name: Series A and other
       col: '#789096'
     - name: Series B or later
-      col: '#FFFFFF'
+      col: '#7FA9C9'
     cols:
     - x: '2024'
       sub: 7 rounds
