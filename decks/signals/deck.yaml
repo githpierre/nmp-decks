@@ -1,0 +1,1312 @@
+market: Signals library
+label: Signals library
+quarter: ''
+slug: signals
+slides:
+- type: x/sig_adoption_race
+  signal: adoption-race
+  src: adoption-race#1
+  section: Growth drivers
+  title: 'AI creator tools hit $100M a year
+
+    4.7x faster than creator platforms'
+  note: 'Months from public launch (Gamma: its AI product launch) to $100M of yearly revenue Canva, Patreon and Vimeo dates are our estimates from annual revenue, Suno is from press sources Sources: Next Play, Digital Music News, Business Wire (Gamma), The GP (HeyGen), Sacra, IAC'
+  t:
+    7: A I    C R E A T O R    T O O L S     median 27 months
+    8: Higgsfield   {1|8 months}
+    10: Suno   {1|22 months}
+    12: Gamma   {1|32 months}
+    14: HeyGen   {1|37 months}
+    17: E A R L I E R    C R E A T O R    P L A T F O R M S     median 127 months
+    18: Canva   58 months
+    20: Patreon   127 months
+    22: Vimeo   151 months
+- type: x/sig_announced_vs_built
+  signal: announced-vs-built
+  src: announced-vs-built#1
+  section: Market challenges
+  title: 'Prenuvo planned 15 new scan clinics,
+
+    20 months later it lists 11 more sites'
+  note: 'Clinics open in Feb 2025 as reported by Fitt Insider; Oct 2026 count from Prenuvo''s locations page, including 2 mobile clinics and a Boston research site. Sources: Fitt Insider, Prenuvo locations.'
+  t:
+    8: '15'
+    9: 'Planned
+
+      new clinics, Feb 2025'
+    11: '11'
+    12: 'Added
+
+      new sites by Oct 2026'
+    15: 11 of 15
+    16: WHAT IS GOING ON
+    17: 'Raising $120M in February 2025, Prenuvo said 15 clinics would open within months, in Europe and Australia too.
+
+      It went from 17 to 28 sites, counting 2 mobile units and a Boston research site; 7 more, such as Sydney, are still coming soon.'
+- type: x/sig_contract_share
+  signal: contract-share
+  src: contract-share#1
+  section: Top players
+  title: 'Army XR headset prototypes went 0%
+
+    to newcomers in 2018, 100% in 2025'
+  note: 'Prototype awards for the Army''s soldier mixed-reality headset: IVAS in 2018, Soldier Borne Mission Command in Sep 2025. Newcomer = company founded after 2015. Sources: CNBC, The Register.'
+  t:
+    8: 'Microsoft
+
+      $480M'
+    9: 0% newcomers
+    10: 'IVAS prototype
+
+      2018'
+    12: 'Rivet
+
+      $195M'
+    14: 'Anduril
+
+      $159M'
+    15: 100% newcomers
+    16: 'SBMC prototype
+
+      2025'
+    19: THE STORY BEHIND IT
+    20: 'In 2018 the Army gave Microsoft $480M to prototype IVAS, a HoloLens-based combat headset, then a production deal worth up to $21.9B in 2021. Soldiers complained of discomfort and nausea, and Anduril took over the program in 2025.
+
+      The follow-on Soldier Borne Mission Command prototypes went to two defense startups: Rivet, founded in 2024 by former Palantir executives ($195M), and Anduril ($159M).'
+- type: x/sig_corporate_backers
+  signal: corporate-backers
+  src: corporate-backers#1
+  section: Investor bets
+  title: 'Large companies now back 28%
+
+    of wearable funding rounds'
+  note: We looked at the investors of every round raised by wearable tech startups in our own funding database, for 2024, 2025 and 2026 so far, and colored the rounds where a large company invested. Context from MassDevice.
+  t:
+    8: A large company invested
+    10: Other rounds
+    11: One dot = one funding round
+    47: '2024'
+    48: 11%
+    49: 'had a large company
+
+      as an investor'
+    85: '2025'
+    86: 11%
+    87: 'had a large company
+
+      as an investor'
+    128: 2026 (year to date)
+    129: 28%
+    130: 'had a large company
+
+      as an investor'
+    132: 28%
+    133: WHY IT MATTERS
+    134: 'Lenovo, Qualcomm, Abbott and Luxshare back wearables such as Ultrahuman, WHOOP and XREAL, to own the device that may follow the phone.
+
+      In April 2026, Abbott, a glucose sensor maker, joined WHOOP''s $575M round at a $10.1B valuation, echoing Dexcom''s 2024 bet on Oura.'
+- type: x/sig_cost_threshold
+  signal: cost-threshold
+  src: cost-threshold#1
+  section: Tech and infra
+  title: 'Full-body MRI scans reached $499,
+
+    two years after Ezra set a $500 goal'
+  note: 'We used published prices of a full-body MRI scan for consumers: Ezra (2019, 2023, 2025), Prenuvo (2023) and Function Health after it bought Ezra (May 2025), from Radiology Business and CNBC.'
+  t:
+    9: $300
+    11: $1,000
+    13: $3,000
+    15: '2019'
+    17: '2020'
+    19: '2021'
+    21: '2022'
+    23: '2023'
+    25: '2024'
+    27: '2025'
+    29: '2026'
+    31: Ezra's 2023 goal  $500
+    37: Ezra at launch  $1,950
+    38: Ezra  $1,350
+    39: Prenuvo  $2,500
+    40: Ezra  $1,495
+    41: Function Health  $499
+    43: The catch. {1|The $499 scan came with a $499 yearly Function Health membership, cut to $365 in November 2025. A typical full-body MRI cost $5,000 to $10,000 in 2019.}
+- type: x/sig_country_gap
+  signal: country-gap
+  src: country-gap#1
+  section: Tech and infra
+  title: 'Singapore teachers use AI tools
+
+    5x more often than French ones'
+  note: We used the share of lower secondary teachers who used AI in their work, from the OECD TALIS 2024 survey. An OECD summary slide gives 66% for Singapore. Context from Education International.
+  t:
+    7: United Arab Emirates
+    9: 75%
+    10: Singapore
+    12: 75%
+    13: OECD average
+    15: 41%
+    16: France
+    18: 14%
+    20: 5x
+    21: WHY IT HAPPENED
+    22: 'Training seems to drive use. Almost 76% of Singapore teachers were trained in AI, against just 9% in France.
+
+      Teachers mostly use it to learn about a topic and draft lesson plans. Grading comes last, at 26%.'
+- type: x/sig_country_gap_2
+  signal: country-gap
+  src: country-gap#6
+  section: Tech and infra
+  title: 'China runs 1.9x more engineered
+
+    cell therapy trials than North America'
+  note: 'We used gene-modified cell therapy trials, mostly CAR-T, by region, from GlobalData (via Pharmaceutical Technology, July 2025). Approvals: FDA list and press reports. Deal context from BioPharma Dive.'
+  market: cell therapy
+  t:
+    7: China
+    9: '720'
+    10: North America
+    12: '370'
+    13: Europe
+    15: '112'
+    17: 1.9x
+    18: THE STORY BEHIND IT
+    19: 'Western drugmakers shop there. J&J sells Carvykti, a CAR-T from China''s Legend Biotech. AstraZeneca bought Gracell for up to $1.2 billion in 2023.
+
+      The US has approved 7 CAR-T therapies, China at least 6.'
+- type: x/sig_country_gap_3
+  signal: country-gap
+  src: country-gap#7
+  section: Market challenges
+  title: 'A US CAR-T treatment costs over $460k,
+
+    India''s own version about $40k'
+  note: We used 2025 US list prices of the six approved CAR-T therapies (HMPI, February 2026) and the price of NexCAR19 in India, Rs 30 to 40 lakh (Shaastra, July 2025). Context from Shaastra.
+  market: cell therapy
+  t:
+    7: Kymriah
+    9: $593.5k
+    10: Carvykti
+    12: $555.3k
+    13: Breyanzi
+    15: $531.4k
+    16: Abecma
+    18: $528.3k
+    19: Yescarta
+    21: $503.6k
+    22: Tecartus
+    24: $462k
+    25: NexCAR19, India
+    27: $42k
+    29: $40k
+    30: WHY IT HAPPENED
+    31: 'NexCAR19 comes from ImmunoACT, a company founded in 2018 by an IIT Bombay professor and made in Mumbai. It developed its own lentiviral vector, the carrier that delivers the gene, because buying vectors drives much of CAR-T''s cost.
+
+      About 300 Indian patients have received it so far. Meanwhile every US list price has risen since launch, Kymriah by a quarter.'
+- type: x/sig_dollar_split
+  signal: dollar-split
+  src: dollar-split#1
+  section: Value creation
+  title: 'ThredUp keeps 85¢ per $1
+
+    of a $20 sale, its seller gets 15¢'
+  note: 'ThredUp''s published payout table: a $20 sale earns the seller $3 (15¢ per $1). A price tier, not an average. Sources: ThredUp, The RealReal 10-K 2025.'
+  t:
+    8: '85 cents
+
+      kept by ThredUp, $17 of $20'
+    10: '15 cents
+
+      paid to the seller, $3'
+    12: 15¢
+    13: BEHIND THE NUMBERS
+    14: 'ThredUp''s payout rises with price: 3¢ per $1 on a $5 item, 30¢ at $50, 80¢ at $200.
+
+      The RealReal, selling luxury, paid consignors about 62¢ per $1 of sales in 2025.'
+- type: x/sig_dominance
+  signal: dominance
+  src: dominance#1
+  section: Top players
+  title: 'Duolingo''s app made 1.5x the revenue
+
+    of all other language apps combined'
+  note: 'Appfigures estimates of 2024 app-store revenue. Duolingo''s figure is net of store fees, rivals'' total is gross, so the gap is if anything understated. Source: Appfigures. Context from CX Dive.'
+  t:
+    8: $678M
+    9: 'Duolingo
+
+      2024 app revenue'
+    11: $440M+
+    12: 'All other language apps
+
+      combined, 2024'
+    15: 1.5x
+    16: WHY IT IS STRIKING
+    17: 'Appfigures estimates Duolingo''s app revenue at $678M in 2024, up 37% in a year.
+
+      Every other language app it tracked, summed together, made a little over $440M.
+
+      Daily active users grew 30% in Q4 2025, down from 60% in mid-2024, after Duolingo added friction to its free tier. Only about 10% of monthly users pay.'
+- type: x/sig_dominance_2
+  signal: dominance
+  src: dominance#10
+  section: Top players
+  title: 'Carvykti took 82% of myeloma
+
+    cell therapy sales in 2025, up from 51%'
+  note: 'Carvykti over Carvykti plus Abecma worldwide yearly sales, the 2 marketed BCMA CAR-T therapies: Carvykti net trade sales per Legend Biotech (2025 rounded to $1.9B), Abecma revenue per BMS. Sources: Legend 2025, Legend 2024, Legend 2023, BMS 2025, BMS 2023.'
+  market: cell therapy
+  t:
+    8: 51%
+    9: '2023'
+    11: 70%
+    12: '2024'
+    14: 82%
+    15: '2025'
+    17: Carvykti's share of Carvykti plus Abecma sales
+    19: 82%
+    20: WHAT IT TELLS US
+    21: 'Both therapies target the same myeloma protein. In 2023 they sold almost the same, $500M vs $472M.
+
+      By 2025 Carvykti sold $1.9B, 4.4x Abecma''s $427M, and BMS stopped breaking Abecma out in 2026.'
+- type: x/sig_earnings_mentions
+  signal: earnings-mentions
+  src: earnings-mentions#1
+  section: Market opportunity
+  title: 'S&P 500 companies citing ESG
+
+    fell from 155 to 29 in two years'
+  note: 'Number of S&P 500 companies citing "ESG" on their earnings calls, per quarter, latest revised figures Source: FactSet Earnings Insight (John Butters), no figure published for Q1-Q3 2022 and Q3 2023 (dotted line), Q4 2022 implied Context: CNN (state laws), The Globe and Mail (Larry Fink), FactSet stopped publishing this count after 2023'
+  t:
+    9: '50'
+    11: '100'
+    13: '150'
+    18: 'Q1
+
+      2020'
+    19: 'Q3
+
+      2020'
+    20: 'Q1
+
+      2021'
+    21: 'Q3
+
+      2021'
+    22: 'Q1
+
+      2022'
+    23: 'Q3
+
+      2022'
+    24: 'Q1
+
+      2023'
+    25: 'Q4
+
+      2023'
+    27: '31'
+    29: '57'
+    31: '79'
+    33: '127'
+    35: '154'
+    37: '153'
+    39: '134'
+    41: '155'
+    43: '96'
+    45: '74'
+    47: '61'
+    49: '29'
+    50: WHAT HAPPENED
+    51: '5.3x fewer companies
+
+      in two years'
+    52: 'ESG talk had been rising for years and peaked at the end of 2021, when a record 155 S&P 500 companies used the term on their calls. Then it became political: about half of US states moved to block ESG investing with state money, and in June 2023 BlackRock CEO Larry Fink said he no longer used the word because it had been "weaponized". By the end of 2023 only 29 companies said it, the lowest since 2019, while mentions of AI kept climbing.'
+- type: x/sig_fallen_star
+  signal: fallen-star
+  src: fallen-star#1
+  section: Market opportunity
+  title: 'Online course star Coursera
+
+    lost 91% of its value since 2021'
+  note: We plotted Coursera's share price at the end of each quarter as a share of its peak close of April 2021 (Digrin, StatMuse, Stock Analysis).
+  t:
+    8: 0%
+    10: 25%
+    12: 50%
+    14: 75%
+    16: 100%
+    18: '2021'
+    20: '2022'
+    22: '2023'
+    24: '2024'
+    26: '2025'
+    28: '2026'
+    31: 'Mar 31, 2021
+
+      Coursera lists
+
+      on the NYSE.'
+    33: Peak
+    35: 8.8% today
+    37: May 2026. {1|Even after taking over its rival Udemy, Coursera was worth about $1.35 billion.}
+- type: x/sig_fallen_star_2
+  signal: fallen-star
+  src: fallen-star#12
+  section: Market opportunity
+  title: 'Cell therapy darling Fate Therapeutics
+
+    lost 98% of its value since 2021'
+  note: We plotted Fate Therapeutics' share price at the end of each quarter as a share of its peak close of January 14, 2021 (StatMuse, Digrin, Stock Analysis).
+  market: cell therapy
+  t:
+    8: 0%
+    10: 25%
+    12: 50%
+    14: 75%
+    16: 100%
+    18: '2019'
+    20: '2020'
+    22: '2021'
+    24: '2022'
+    26: '2023'
+    28: '2024'
+    30: '2025'
+    32: '2026'
+    35: 'Q4 2020
+
+      Fate''s shares
+
+      more than double.'
+    37: Peak
+    39: 2.0% today
+    41: Off-the-shelf cells. {1|Fate makes immune cells from stem cells, meant to treat many patients from one batch.}
+- type: x/sig_forecast_gap
+  signal: forecast-gap
+  src: forecast-gap#1
+  section: Market size
+  title: 'Cultivated meat forecasts
+
+    for 2030 are 42x apart'
+  note: 'We collected the 2030 forecasts of the cultivated meat market we could confirm, from research firms and McKinsey McKinsey''s figure is a scenario, and Global Market Insights has since cut its forecast Sources: the publishers'' reports and press releases (2021-2023), IMARC for today''s market size'
+  t:
+    7: Zion Market Research
+    9: $593M
+    10: ResearchAndMarkets
+    12: $2.7B
+    13: Grand View Research
+    15: $6.9B
+    16: Global Market Insights
+    18: $13B
+    19: McKinsey
+    21: $25B
+    23: 42x
+    24: 'That is the gap between Zion Market Research''s $593M and McKinsey''s $25B for 2030.
+
+      Sales were only about $260M in 2025 (IMARC), and most of the high forecasts date from the 2021 hype.'
+- type: x/sig_funding_by_region
+  signal: funding-by-region
+  src: funding-by-region#1
+  section: Investor bets
+  title: 'European startups now
+
+    raise 42% of edtech rounds'
+  note: We sorted every round raised by edtech startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far. Context from Tech.eu.
+  t:
+    8: Europe
+    10: North America
+    12: Rest of the world
+    13: One dot = two funding rounds
+    71: '2024'
+    72: 32%
+    73: of rounds in Europe
+    117: '2025'
+    118: 38%
+    119: of rounds in Europe
+    153: 2026 (year to date)
+    154: 42%
+    155: of rounds in Europe
+    157: 42%
+    158: WHAT IS GOING ON
+    159: 'Gizmo, Medly AI and Third Space Learning lead Europe''s AI tutors. London''s Gizmo raised $22M in April 2026: it turns notes into quizzes for over 13 million learners in 120 countries.
+
+      The share also rose as others shrank. Rounds outside Europe and North America fell from 42 in 2024 to 26 in 2025.'
+- type: x/sig_funding_by_region_2
+  signal: funding-by-region
+  src: funding-by-region#6
+  section: Investor bets
+  title: '64% of cell therapy rounds
+
+    now go to Chinese startups'
+  note: We sorted every round raised by cell therapy startups in our own funding database by the country of the startup’s headquarters, for 2024, 2025 and 2026 so far. Context from BioSpace.
+  market: cell therapy
+  t:
+    8: China
+    10: North America
+    12: Rest of the world
+    13: One dot = one funding round
+    82: '2024'
+    83: 29%
+    84: of rounds in China
+    160: '2025'
+    161: 36%
+    162: of rounds in China
+    208: 2026 (year to date)
+    209: 64%
+    210: of rounds in China
+    212: 64%
+    213: THE STORY BEHIND IT
+    214: 'US cell therapy startups struggle to raise since sales of CAR-T drugs disappointed. Big drug makers now shop in China, where new treatments are cheaper and faster to test.
+
+      In October 2025, Gilead''s Kite paid $120M upfront for a CAR-T from Chinese biotech Pregene, while Takeda and Novo Nordisk left the field.'
+- type: x/sig_funding_by_segment
+  signal: funding-by-segment
+  src: funding-by-segment#1
+  section: Investor bets
+  title: 'Health check startups now
+
+    take 42% of longevity rounds'
+  note: We sorted every round raised by longevity startups in our own funding database by what the startup makes, for 2024, 2025 and 2026 so far. Context from TechCrunch.
+  t:
+    8: Health checks and scans
+    10: Everything else
+    11: One dot = one funding round
+    46: '2024'
+    47: 9%
+    48: of rounds
+    93: '2025'
+    94: 30%
+    95: of rounds
+    139: 2026 (year to date)
+    140: 42%
+    141: of rounds
+    143: 42%
+    144: WHY IT HAPPENED
+    145: 'Scans sell today. Neko Health, co-founded by Spotify''s Daniel Ek, charges £300 for an hour-long exam and had a waitlist above 100,000 when it raised $260M at $1.8B in January 2025.
+
+      Its next test is the US.'
+- type: x/sig_funding_by_segment_2
+  signal: funding-by-segment
+  src: funding-by-segment#7
+  section: Investor bets
+  title: 'CAR-T startups now take
+
+    33% of cell therapy rounds'
+  note: We sorted every round raised by cell therapy startups in our own funding database by what the startup makes, for 2024, 2025 and 2026 so far. Context from Pharmaceutical Executive.
+  market: cell therapy
+  t:
+    8: CAR-T therapies
+    10: Everything else
+    11: ·   One dot = one funding round
+    80: '2024'
+    81: 13%
+    82: of rounds
+    158: '2025'
+    159: 20%
+    160: of rounds
+    206: 2026 (year to date)
+    207: 33%
+    208: of rounds
+    210: 33%
+    211: THE STORY BEHIND IT
+    212: 'CAR-T reprograms immune cells. It now shows promise against lupus, not just cancer, and OriCell and BrainChild Bio raised.
+
+      AbbVie agreed in June 2025 to buy Capstan for up to $2.1 billion, for CAR-T made inside the body with no complex manufacturing.'
+- type: x/sig_funding_by_stage
+  signal: funding-by-stage
+  src: funding-by-stage#1
+  section: Investor bets
+  title: '50% of mental health rounds
+
+    are now Series B or later'
+  note: We sorted every round with a known stage raised by mental health startups in our own funding database, for 2024, 2025 and 2026 so far. Later rounds include Series B, C, D and growth rounds. Context from HLTH and the Illinois IDFPR.
+  t:
+    8: Series B or later
+    10: Seed
+    12: Series A
+    13: ·   One dot = one funding round
+    72: '2024'
+    73: 28%
+    74: were Series B or later
+    115: '2025'
+    116: 22%
+    117: were Series B or later
+    140: 2026 (year to date)
+    141: 50%
+    142: were Series B or later
+    144: 50%
+    145: BEHIND THE NUMBERS
+    146: 'Investors back players that already bill insurers. Talkiatry, which employs over 800 psychiatrists and is in network with more than 100 insurers, raised a $210M Series D in February 2026.
+
+      AI therapy apps face new limits: Illinois banned AI therapy in August 2025.'
+- type: x/sig_funding_by_stage_2
+  signal: funding-by-stage
+  src: funding-by-stage#2
+  section: Investor bets
+  title: 'Only 18% of cell therapy rounds
+
+    now go to brand-new startups'
+  note: We sorted every round with a known stage raised by cell therapy startups in our own funding database, for 2024, 2025 and 2026 so far. Later rounds include Series B, C, D and growth rounds. Context from BioCentury and BioPharma Dive.
+  market: cell therapy
+  t:
+    8: Seed
+    10: Series B or later
+    12: Series A
+    13: ·   One dot = one funding round
+    73: '2024'
+    74: 37%
+    75: were seed rounds
+    135: '2025'
+    136: 22%
+    137: were seed rounds
+    176: 2026 (year to date)
+    177: 18%
+    178: were seed rounds
+    180: 18%
+    181: BEHIND THE NUMBERS
+    182: 'Investors soured on the commercial prospects of cell therapies. Makers of cell and gene therapies raised $8.2B in 2021, but only $500M in the first half of 2024.
+
+      Funding shifts to ideas that cut costs: in June 2025, AbbVie paid up to $2.1B for Capstan, which turns T cells into CAR-T cells inside the body.'
+- type: x/sig_funding_share
+  signal: funding-share
+  src: funding-share#1
+  section: Investor bets
+  title: 'Two startups took 55% of all
+
+    data center cooling funding'
+  note: 'Disclosed rounds in our own funding database, January 2024 to September 2026: $552M raised by 10 data center cooling startups LiteOn, a Taiwanese electronics maker, invested $176M in DCX in September 2026; ZutaCore raised a $100M Series C in June 2026'
+  t:
+    7: SINCE 2024
+    8: DCX
+    10: '$176M
+
+      32%'
+    11: ZutaCore
+    13: '$130M
+
+      24%'
+    14: Accelsius
+    16: $89M, 16%
+    17: Submer
+    19: $56M, 10%
+    20: Corintis
+    22: $49M, 9%
+    23: Iceotope
+    25: $26M, 5%
+    26: The 4 others combined
+    28: $27M, 5%
+- type: x/sig_funnel
+  signal: funnel
+  src: funnel#1
+  section: Market challenges
+  title: 'Only 3% of people who start
+
+    a free online course finish it'
+  note: We used completion rates in MIT and Harvard online courses (MOOCs), 2014-15 and 2017-18, from Reich and Ruipérez-Valiente (Science, 2019).
+  t:
+    7: All participants
+    9: 6%
+    11: 3.1%
+    12: Those who paid
+    14: 56%
+    16: 46%
+    18: 2014-15
+    20: 2017-18
+    22: 3%
+    23: WHAT IS GOING ON
+    24: 'Even learners who paid for a certificate mostly did not finish, and only 12% of first-timers came back the next year.
+
+      Growth came almost entirely from the richest countries, and new learners peaked in 2015-16. So MOOCs pivoted toward paid online professional degrees.'
+- type: x/sig_funnel_2
+  signal: funnel
+  src: funnel#6
+  section: Market challenges
+  title: 'Gene and CAR-T therapies pile up
+
+    in early trials: only 59 reach phase 3'
+  note: We counted gene therapies in development by stage, including gene-modified cell therapies like CAR-T, from the ASGCT and Citeline report (Q2 2026). Unmodified cell therapies are not split by stage in the report.
+  market: cell therapy
+  t:
+    7: Phase 1
+    9: '427'
+    10: Phase 2
+    12: '387'
+    13: Phase 3
+    15: '59'
+    16: Waiting for approval
+    18: '12'
+    20: '59'
+    21: WHY IT HAPPENED
+    22: 'Behind the funnel, 1,332 more programs are still in the lab. Phase 3 is the large trial, often with hundreds of patients, needed before sale. Most stop before it, short of money, patients or results.
+
+      In Q2 2026, 5 gene therapies won approval, one for hearing loss.'
+- type: x/sig_funnel_3
+  signal: funnel
+  src: funnel#7
+  section: Pain points
+  title: 'Only 1 in 4 Casgevy patients whose
+
+    cells were collected got treated'
+  note: We used patients referred, with cells collected and infused with Casgevy, the CRISPR therapy for sickle cell disease, as of September 30, 2025 (Vertex). Price from The Motley Fool.
+  market: cell therapy
+  t:
+    7: Referred
+    9: '300'
+    10: Cells collected
+    12: '165'
+    13: Treated
+    15: '39'
+    17: 1{1| in 4}
+    18: WHY IT IS STRIKING
+    19: 'Each patient needs several cell collections, gene editing in a lab, then chemotherapy before the infusion.
+
+      Casgevy lists at $2.2 million in the US, yet earned Vertex $16.9 million in the third quarter of 2025.'
+- type: x/sig_idle_capacity
+  signal: idle-capacity
+  src: idle-capacity#1
+  section: Market challenges
+  title: 'Ginkgo had subleased or listed 49%
+
+    of its Boston HQ by February 2025'
+  note: 'Share of the 320,000 sq ft Ginkgo leases at 27 Drydock Ave., Boston: 27,000 sq ft subleased and 129,000 offered for sublease, as of February 2025. Sources: Boston Globe, Ginkgo 10-K 2025.'
+  t:
+    7: Subleased or on the market
+    10: 49%
+    11: Listed for sublease
+    14: 40.3%
+    15: Already subleased
+    18: 8.4%
+    19: 0%
+    20: 50%
+    21: 100%
+    24: 49%
+    25: WHY IT HAPPENED
+    26: 'Ginkgo built its 320k sq ft Seaport labs for growth, then cut staff to 485 by end 2025.
+
+      Excess space costs it at least $65M a year, and it exited 63,000 sq ft in Cambridge too.'
+- type: x/sig_incident_count
+  signal: incident-count
+  src: incident-count#1
+  section: Pain points
+  title: 'US customs seized $7.4B of fake
+
+    goods in 2025, 2.7x the 2023 haul'
+  note: 'Retail value of goods seized by US Customs for trademark or copyright violations, fiscal years to September. 7.4/2.7 = 2.7x. Sources: CBP, CBP 2023, ST&R.'
+  t:
+    8: $3.3B
+    9: '2021'
+    11: $2.9B
+    12: '2022'
+    14: $2.7B
+    15: '2023'
+    17: $5.5B
+    18: '2024'
+    20: $7.4B
+    21: '2025'
+    24: 2.7x
+    25: WHY IT MATTERS
+    26: 'Seizures rose from 19,724 in 2023 to 25,079 in 2025.
+
+      In 2024 jewelry, watches and handbags made up $4.2B of the $5.5B seized, the very goods luxury resellers must authenticate.'
+- type: x/sig_incumbent_crash
+  signal: incumbent-crash
+  src: incumbent-crash#1
+  section: Market opportunity
+  title: 'Since ChatGPT launched,
+
+    Chegg lost almost all its value'
+  note: We plotted the share price of Chegg, the US homework help site, at the end of each quarter (StatMuse, Stock Analysis). Chegg had already fallen from its 2021 peak as pandemic demand faded.
+  t:
+    8: $0
+    10: $10
+    12: $20
+    14: $30
+    16: $40
+    18: '2022'
+    20: '2023'
+    22: '2024'
+    24: '2025'
+    26: '2026'
+    29: 'Nov 30, 2022
+
+      OpenAI launches ChatGPT.
+
+      Students can now get answers
+
+      to homework questions for free.'
+    31: $29.84
+    33: $0.71 in October 2026
+    35: May 2023. {1|Chegg told investors that ChatGPT was slowing its sign-ups. The stock lost 48% of its value in a single day.}
+- type: x/sig_key_trend
+  signal: key-trend
+  src: key-trend#1
+  section: Market challenges
+  title: 'Twice as many primary teachers
+
+    quit each year as in 2015'
+  note: We used the attrition rate of primary school teachers worldwide, from UNESCO (Global report on teachers, February 2024). Context from Education Week.
+  t:
+    9: 4.6%
+    10: '2015'
+    12: 9.1%
+    13: '2022'
+    15: 2x
+    16: WHY IT MATTERS
+    17: 'UNESCO points to low pay, heavy workloads and little recognition. Too many young teachers leave in their first years, so schools lose the staff they just trained.
+
+      The world needs 44 million more teachers by 2030. Sub-Saharan Africa alone accounts for 1 in 3 of the shortfall, and Europe and North America need 4.8 million.'
+- type: x/sig_lobbying_spend
+  signal: lobbying-spend
+  src: lobbying-spend#1
+  section: Market challenges
+  title: 'eBay''s own lobbying hit $4.4M in 2025,
+
+    2.2x 2024, as duty-free parcels ended'
+  note: 'Sum of eBay Inc.''s own quarterly LD-2 expenses, Senate lobbying database; 2026 is first half only. 2025: 0.79+1.34+1.83+0.48 = $4.44M; 2024: 0.18+0.53+0.67+0.67 = $2.05M. Source: lda.gov eBay 2025.'
+  t:
+    8: $1.2M
+    9: '2021'
+    11: $1.5M
+    12: '2022'
+    14: $1.9M
+    15: '2023'
+    17: $2.1M
+    18: '2024'
+    20: $4.4M
+    21: '2025'
+    23: $1.2M
+    24: H1 2026
+    27: 2.2x
+    28: WHAT IS GOING ON
+    29: 'eBay spent $1.83M in the third quarter of 2025 alone, lobbying on the order suspending duty-free low-value parcels, the 1099-K threshold and counterfeits.
+
+      The RealReal has filed no lobbying since 2023.'
+- type: x/sig_lobbying_spend_2
+  signal: lobbying-spend
+  src: lobbying-spend#9
+  section: Market challenges
+  title: 'Legend, 48% owned by GenScript,
+
+    has paid lobbyists $1.1M since 2024'
+  note: 'Sum of quarterly income reported by Hogan Lovells, Legend''s only registered lobbying firm, in LD-2 filings; no earlier registration found (first registration in Q2 2024). 2026 covers Q1 and Q2. Sources: LDA 2024, LDA 2025, LDA 2026.'
+  market: cell therapy
+  t:
+    8: $520k
+    9: '2024
+
+      from Q2'
+    11: $370k
+    12: '2025'
+    14: $180k
+    15: H1 2026
+    17: ··· first half
+    19: $1.1M
+    20: WHAT IS GOING ON
+    21: 'Legend first registered with Hogan Lovells in Q2 2024, naming GenScript as a 48% foreign owner.
+
+      The filings cite educating Congress on Legend''s role in cell therapy; Q3 2024 alone cost $300k.'
+- type: x/sig_mega_rounds
+  signal: mega-rounds
+  src: mega-rounds#1
+  section: Investor bets
+  title: '11% of longevity rounds
+
+    now reach $100M or more'
+  note: We took every round with a disclosed amount raised by longevity startups in our own funding database, for 2024, 2025 and 2026 so far, and colored the rounds of $100M or more. Context from Athletech News and Endurance Sportswire.
+  t:
+    8: $100M or more
+    10: Smaller rounds
+    11: ·   One dot = one funding round
+    46: '2024'
+    47: 3%
+    48: were $100M or more
+    91: '2025'
+    92: 12%
+    93: were $100M or more
+    131: 2026 (year to date)
+    132: 11%
+    133: were $100M or more
+    135: 11%
+    136: WHAT IT TELLS US
+    137: 'The share held steady, but the checks grew. NewLimit, which aims to make old cells act young, raised $435M in June 2026, led by Founders Fund, with human trials planned for 2027.
+
+      Neko Health, the body-scan clinics of Spotify''s Daniel Ek, raised $700M in July.'
+- type: x/sig_multiple_gap
+  signal: multiple-gap
+  src: multiple-gap#1
+  section: Value creation
+  title: 'Duolingo is worth $6.20 per $1
+
+    sold, Chegg just $0.31, 20x less'
+  note: 'Market value divided by trailing 12-month revenue, Stock Analysis pages updated 27 Sep to 8 Oct 2026. Sources: Duolingo, Pearson, Coursera, Stride, Nerdy, Chegg. Context from Fox Business.'
+  t:
+    7: Market value per $1 of sales
+    8: 'Duolingo
+
+      language app'
+    10: $6.20
+    11: 'Pearson
+
+      publisher, tests'
+    13: $2.01
+    14: 'Coursera
+
+      incl. Udemy'
+    16: $1.50
+    17: 'Stride
+
+      online K-12 schools'
+    19: $1.30
+    20: 'Nerdy
+
+      tutoring'
+    22: $0.62
+    23: 'Chegg
+
+      homework help'
+    25: $0.31
+    27: 20x
+    28: WHY IT MATTERS
+    29: 'Duolingo grew revenue to $1.15B over the last 12 months with a 14% operating margin.
+
+      Chegg''s revenue shrank to $266M, leaving it a company worth $81M.
+
+      Chegg sold homework answers that AI chatbots now give away. In October 2025 it cut about 45% of its staff, some 388 people, citing the new realities of AI and less traffic from Google.'
+- type: x/sig_multiple_gap_2
+  signal: multiple-gap
+  src: multiple-gap#12
+  section: Value creation
+  title: 'Iovance is valued at $18.46 per
+
+    $1 of sales, 6.5x Legend''s multiple'
+  note: 'Price-to-sales ratio (market value divided by revenue of the last 12 months) as shown by Stock Analysis on 5-7 Oct 2026, for each company. Sources: Iovance, Gilead, Legend, BMS.'
+  market: cell therapy
+  t:
+    7: Market value per $1 of sales (last 12 months)
+    8: 'Iovance
+
+      Amtagvi'
+    10: $18.46
+    11: 'Gilead
+
+      owns Kite'
+    13: $5.98
+    14: 'Legend Biotech
+
+      Carvykti'
+    16: $2.82
+    17: 'Bristol Myers Squibb
+
+      Breyanzi, Abecma'
+    19: $2.47
+    21: 6.5x
+    22: WHY IT IS STRIKING
+    23: 'Legend sells 3.9x more than Iovance, $1.27B vs $325M over 12 months, yet is worth less: $3.58B vs $5.87B.
+
+      Investors pay for Amtagvi''s growth: Q2 2026 US sales rose 40% from Q4 2025.'
+- type: x/sig_penetration_curve
+  signal: penetration-curve
+  src: penetration-curve#1
+  section: Growth drivers
+  title: 'Therapy use by US adults jumped
+
+    47%, from 9.5% in 2019 to 14% in 2024'
+  note: 'Share of US adults who received counseling or therapy from a mental health professional in the past 12 months, National Health Interview Survey; 2021 to 2023 not published as text. Sources: NCHS 2019, NCHS 2020, NCHS 2024. Context from Teladoc.'
+  t:
+    8: 9.5%
+    9: '2019'
+    11: 10.1%
+    12: '2020'
+    13: no data
+    14: '2021
+
+      to 2023'
+    16: 14.0%
+    17: '2024'
+    20: 1{1| in 7}
+    21: WHY IT MATTERS
+    22: 'Counseling went from about 1 in 10 adults to 1 in 7, the pool online therapy sells into.
+
+      Pills still lead: 19.3% took mental health medication in 2024.
+
+      Cash-pay apps still struggle: BetterHelp, owned by Teladoc, saw Q2 2026 revenue fall 12% to $212.6M as it moves toward insurance-covered sessions.'
+- type: x/sig_profit_gap
+  signal: profit-gap
+  src: profit-gap#1
+  section: Value creation
+  title: 'Coursera still loses 10.2¢ per $1,
+
+    Udemy, which it bought, lost 0.5¢'
+  note: 'GAAP loss from operations per $1 of revenue, full years, before the merger. Udemy was delisted on 11 May 2026. Sources: Coursera Q4 2025, Udemy Q4 2025.'
+  t:
+    7: '2024'
+    8: '2025'
+    14: Coursera  -16.3¢
+    15: -10.2¢
+    19: Udemy  -11.4¢
+    20: -0.5¢
+    22: -10.2¢
+    23: WHAT IS GOING ON
+    24: 'Coursera lost $77.4M on $757.5M of 2025 revenue; Udemy lost $4.2M on $789.8M after cutting R&D spend by $24M.
+
+      Coursera agreed to buy Udemy in an all-stock deal in December 2025, closed in May 2026.'
+- type: x/sig_profit_gap_2
+  signal: profit-gap
+  src: profit-gap#13
+  section: Value creation
+  title: 'Autolus loses $2.10 per $1
+
+    of sales, Legend Biotech just 4¢'
+  note: 'Operating income divided by revenue, last 12 months to 30 June 2026, as compiled by Stock Analysis from company filings. Sources: Autolus, Iovance, Legend.'
+  market: cell therapy
+  t:
+    7: Operating result per $1 of sales, 12 months to June 2026
+    8: 'Autolus
+
+      Aucatzyl'
+    10: -$2.10
+    11: 'Iovance
+
+      Amtagvi'
+    13: -$0.91
+    14: 'Legend Biotech
+
+      Carvykti'
+    16: -$0.04
+    19: -$2.10
+    20: BEHIND THE NUMBERS
+    21: 'Autolus booked $117M of sales against a $247M operating loss; Iovance lost $296M on $325M.
+
+      Legend shares Carvykti''s $657M quarter with J&J and posted a $57.7M operating profit in Q2 2026.'
+- type: x/sig_profit_gap_3
+  signal: profit-gap
+  src: profit-gap#14
+  section: Value creation
+  title: 'Legend cut its loss per $1
+
+    of sales from $3.91 in 2022 to 4¢'
+  note: 'Operating loss divided by revenue, fiscal years and last 12 months to 30 June 2026, as compiled by Stock Analysis (its 2024 loss, $305.1M, differs slightly from Legend''s own $309.5M). Source: Stock Analysis, Legend Biotech.'
+  market: cell therapy
+  t:
+    8: -$3.91
+    9: '2022'
+    11: -$1.85
+    12: '2023'
+    14: -$0.49
+    15: '2024'
+    17: -$0.13
+    18: '2025'
+    20: -$0.04
+    21: '12 mo. to
+
+      June 2026'
+    23: Operating result per $1 of sales
+    25: 4¢
+    26: WHY IT HAPPENED
+    27: 'Legend''s revenue grew 11x, from $117M in 2022 to $1.27B, as Carvykti sales passed $1.9B a year.
+
+      Its operating loss shrank from $458M to $53M, and Q2 2026 turned a $57.7M profit.
+
+      Legend books half of Carvykti, the cell therapy it shares with Johnson & Johnson: $326M of the $657M sold in Q2 2026, up 50%.'
+- type: x/sig_promise_tracker
+  signal: promise-tracker
+  src: promise-tracker#1
+  section: Market challenges
+  title: 'Byju''s IPO was always
+
+    “within the next year”'
+  note: We listed the dates given for an IPO of Byju's or its unit Aakash and when, from press reports citing the company or unnamed sources (Reuters, Bloomberg, Economic Times). Each line runs from that day to the date given.
+  t:
+    8: 2024. {1|Byju’s, once valued at $22 billion, saw its value marked down to almost nothing by investors. Nothing was ever listed.}
+    11: '2022'
+    13: '2023'
+    15: '2024'
+    17: '2025'
+    19: '2026'
+    21: Today
+    25: Sep 2021 · IPO filing by mid-2022
+    29: Early 2022 · US listing via a SPAC
+    33: Nov 2022 · Filing in 9 to 12 months
+    37: 2023 · Aakash IPO by mid-2024
+    39: Day of the promise
+    41: Date promised
+- type: x/sig_promise_tracker_2
+  signal: promise-tracker
+  src: promise-tracker#9
+  section: Market challenges
+  title: 'Atara''s cell therapy has waited
+
+    over 7 years for a US approval'
+  note: We listed the dates Atara gave for its tab-cel therapy, filing then FDA decision, and when it gave them (company releases).
+  market: cell therapy
+  t:
+    8: Two rejections. {1|The FDA said no in January 2025 and again in January 2026. Europe approved it as Ebvallo.}
+    11: '2019'
+    13: '2021'
+    15: '2023'
+    17: '2025'
+    19: '2027'
+    21: Today
+    25: Jul 2019 · Filing in H2 2020
+    29: Aug 2020 · Filing by end of 2020
+    33: Jul 2024 · FDA decision Jan 15, 2025
+    37: Jul 2025 · FDA decision Jan 10, 2026
+    39: Day of the promise
+    41: Date promised
+- type: x/sig_real_world_vs_funding
+  signal: real-world-vs-funding
+  src: real-world-vs-funding#1
+  section: Market opportunity
+  title: 'As beef prices hit records,
+
+    alternative protein funding fell'
+  note: Bars show the money alternative protein startups raised each quarter in our own funding database. The white line shows the average US price of a pound of ground beef, from the Bureau of Labor Statistics.
+  t:
+    9: $159M
+    10: Q1 24
+    12: $278M
+    13: Q2 24
+    15: $105M
+    16: Q3 24
+    18: $63M
+    19: Q4 24
+    21: $92M
+    22: Q1 25
+    24: $18M
+    25: Q2 25
+    27: $130M
+    28: Q3 25
+    30: $130M
+    31: Q4 25
+    33: $92M
+    34: Q1 26
+    36: $66M
+    37: Q2 26
+    39: $18M
+    40: Q3 26
+    53: $5.03
+    54: $6.25
+    55: $6.89
+    57: US price of a pound of ground beef
+    59: Money raised per quarter
+    61: 'A missed chance. {1|Beef got 37% more expensive in two years and set new records from mid-2025. That should have helped meat alternatives. Yet after years of weak sales, investors kept away: startups raised $605M in 2024, $369M in 2025 and only $176M so far in 2026.}'
+- type: x/sig_repeat_raisers
+  signal: repeat-raisers
+  src: repeat-raisers#1
+  section: Investor bets
+  title: '35% of quantum computing rounds go
+
+    to startups that raised within a year'
+  note: A round counts as a repeat when the same quantum computing startup had already raised in the 12 months before, in our own funding database. 2024 is left out because our database starts in January 2024. Context from The Quantum Insider.
+  t:
+    8: Raised again within a year
+    10: Other rounds
+    11: One dot = one funding round
+    57: '2025'
+    58: 18%
+    59: went to a repeat raiser
+    111: 2026 (year to date)
+    112: 35%
+    113: went to a repeat raiser
+    115: 35%
+    116: WHY IT HAPPENED
+    117: 'Beijing''s 15th Five-Year Plan names quantum the top future industry SpinQ closed a CNY 600M ($87M) round on April 3, bringing its Series C to about $145M in 3 months. QBoson had just raised CNY 1B.
+
+      Many lead investors are units of state banks and state firms. Early 2026 funding already neared all of 2025.'
+- type: x/sig_revenue_per_head
+  signal: revenue-per-head
+  src: revenue-per-head#1
+  section: Value creation
+  title: 'Duolingo makes $1.15M per employee,
+
+    2.0x what Coursera and Udemy make'
+  note: 'Full-year 2025 revenue divided by year-end 2025 headcount. Coursera and Udemy are shown before their May 2026 merger. Sources: Stock Analysis financials and employee counts.'
+  t:
+    7: 2025 revenue per employee
+    8: 'Duolingo
+
+      900 staff'
+    10: $1.15M
+    11: 'Coursera
+
+      1,307 staff'
+    13: $580k
+    14: 'Udemy
+
+      1,380 staff'
+    16: $572k
+    18: 2.0x
+    19: WHAT IT TELLS US
+    20: 'Duolingo''s revenue rose from $251M to $1.04B between 2021 and 2025 while staff went from 500 to 900.
+
+      Coursera and Udemy each needed over 1,300 staff to sell less than $800M of courses.'
+- type: x/sig_revenue_per_head_2
+  signal: revenue-per-head
+  src: revenue-per-head#9
+  section: Value creation
+  title: 'Gilead brings in $1.79M per employee,
+
+    4.2x cell therapy maker Legend'
+  note: 'Last-12-month revenue divided by employee count, as shown by Stock Analysis in Oct 2026; Legend''s own release cites over 3,200 employees, which would lower its figure. Sources: Gilead, BMS, Legend, Iovance.'
+  market: cell therapy
+  t:
+    7: Revenue per employee, last 12 months
+    8: 'Gilead
+
+      owns Kite'
+    10: $1.79M
+    11: 'Bristol Myers Squibb
+
+      Breyanzi, Abecma'
+    13: $1.51M
+    14: 'Legend Biotech
+
+      Carvykti'
+    16: $429k
+    17: 'Iovance
+
+      Amtagvi'
+    19: $333k
+    21: 4.2x
+    22: WHY IT MATTERS
+    23: 'Each cell therapy dose is made from one patient''s own cells, so staff grows with patients treated.
+
+      Legend counts 2,965 staff for $1.27B of revenue; Iovance 975 for $325M.'
+- type: x/sig_round_size
+  signal: round-size
+  src: round-size#1
+  section: Investor bets
+  title: 'An edtech seed round is now
+
+    1.5x bigger than in 2024'
+  note: 'We took every Seed round with a disclosed amount raised by edtech startups in our own funding database: 58 in 2024, 43 in 2025 and 31 so far in 2026. The median is the round in the middle: half were bigger, half smaller. Context from Rest of World.'
+  t:
+    8: $0.3M
+    10: $1M
+    12: $3M
+    14: $10M
+    74: $1.3M
+    75: '2024'
+    120: $2M
+    121: '2025'
+    154: $2M
+    155: 2026 (year to date)
+    156: White line = median round
+    158: 1.5x
+    159: WHAT IT TELLS US
+    160: 'Edtech still pays for the pandemic boom. Global investment peaked at $16.7B in 2021 and fell below $3B by 2025, per Tracxn. Byju''s, once valued at $22B, collapsed.
+
+      HolonIQ, an education research firm, says the remaining money goes to AI products, workforce platforms and K-12 operations tools. Fewer startups get funded, with slightly more each.'
+- type: x/sig_rules_wave
+  signal: rules-wave
+  src: rules-wave#1
+  section: Market challenges
+  title: '22 US states banned phones
+
+    in schools in 2025 alone'
+  note: US states enacting a statewide K-12 cellphone ban or limit each year, from Ballotpedia (laws and statewide board or executive policies) 2024 derived from Ballotpedia counts (6 states from May 2023 to the end of 2024), Illinois signed a ban in August 2026 Other trackers using a broader definition count 36 or more states
+  t:
+    8: '1'
+    9: '2023'
+    11: '5'
+    12: '2024'
+    14: '22'
+    15: '2025'
+    17: '5'
+    18: '2026
+
+      (to March 26)'
+    21: '22'
+    22: THE STORY BEHIND IT
+    23: '2023. Florida became the first state to restrict phones in schools by law.
+
+      2024. California was among the next states to act.
+
+      2025. About two states a month, from Arkansas in February to New York, Georgia and Ohio.
+
+      2026. New Jersey, Michigan, Hawaii, Indiana and Kansas, the 33rd state.'
+- type: x/sig_rules_wave_2
+  signal: rules-wave
+  src: rules-wave#4
+  section: Market opportunity
+  title: 'FDA fast-track tags rose 3.6x
+
+    for cell and gene therapies'
+  note: 'RMAT designations (the FDA fast track for regenerative medicine) granted by FDA CBER per fiscal year (October to September) 3.6x is 50 divided by 14, source: FDA CBER cumulative RMAT table (data as of September 30, 2025) Context: BioInformant (approvals), Pharmaceutical Technology, FDA (CAR-T safety programs)'
+  market: cell therapy
+  t:
+    8: '14'
+    9: FY2022
+    11: '18'
+    12: FY2023
+    14: '43'
+    15: FY2024
+    17: '50'
+    18: FY2025
+    21: 3.6x
+    22: WHAT IS GOING ON
+    23: 'FY2022. 30 requests, 14 granted.
+
+      FY2023. New approvals like Casgevy and Elevidys drew more companies to the fast track.
+
+      FY2024. Grants more than doubled as a record pipeline of products reported early data.
+
+      FY2025. A record 91 requests, as FDA dropped extra safety programs for CAR-T therapies.'
+- type: x/sig_searches_vs_funding
+  signal: searches-vs-funding
+  src: searches-vs-funding#1
+  section: Market opportunity
+  title: 'Epigenetic age searches rose 5x,
+
+    but longevity rounds never tripled'
+  note: 'Funding rounds: our own database, each month. Searches: Google Trends for “epigenetic age”, corrected for a jump in Google’s counts in August 2025. 3x = three times the 2024 level. Dot: first month at 3x.'
+  t:
+    9: 1x
+    11: 3x
+    13: 10x
+    14: 2024 level
+    16: '2024'
+    18: '2025'
+    20: '2026'
+    25: Google searches
+    26: Funding rounds
+    28: Everyone wants to know their real age. {1|Tests that read your “biological age” from blood or saliva became a trend. Longevity startups raised more rounds, but never 3 times their 2024 level.}
+- type: x/sig_single_customer
+  signal: single-customer
+  src: single-customer#1
+  section: Value creation
+  title: 'One university pays almost 90%
+
+    of Grand Canyon Education''s revenue'
+  note: We used Grand Canyon University's share of Grand Canyon Education's service revenue, from its filings (10-K, 10-Q). The company runs online programs for universities.
+  t:
+    9: 100%
+    10: H2 2018
+    12: 87%
+    13: Jan-Sep 2023
+    15: 88%
+    16: Jan-Sep 2024
+    18: 90%
+    19: WHY IT HAPPENED
+    20: 'On July 1, 2018, Grand Canyon Education transferred the university it owned to Grand Canyon University itself. It then signed a 15-year services deal paying it 60% of the university''s tuition and fee revenue.
+
+      The share is built into the model. The company grows only if the university''s enrollment grows, and the deal''s first term ends around 2033.'
+- type: x/sig_waiting_line
+  signal: waiting-line
+  src: waiting-line#1
+  section: Pain points
+  title: 'Function Health had twice as many
+
+    people waiting as members in 2024'
+  note: We used Function Health's waitlist and member count reported in 2024 (via Wikipedia). Members were at least 100,000. Context from Fierce Healthcare.
+  t:
+    7: On the waitlist
+    9: 200,000
+    10: Members
+    12: 100,000
+    14: 200,000
+    15: WHAT IS GOING ON
+    16: 'Function sells yearly testing of 160+ biomarkers. In November 2025 it cut its price to $365 from $499 and raised $298 million at a $2.5 billion valuation.
+
+      It also bought Ezra to add full-body scans.'

@@ -85,11 +85,11 @@ def main(deck_dir):
         sk = '{# raw-derived template: geometry from the PPTX, words in deck.yaml (t, img) #}\n<div class="raw">' + sk + '</div>\n'
         hsh = hashlib.sha1(sk.encode()).hexdigest()
         if hsh not in seen:
-            base = slug(s.get('title') or (s.get('section', '') + ' divider')); name = base; i = 2
+            base = s.pop('tpl_hint', None) or slug(s.get('title') or (s.get('section', '') + ' divider')); name = base; i = 2
             while name in names: name = f'{base}_{i}'; i += 1
             names.add(name); seen[hsh] = name
             (tdir / f'{name}.j2').write_text(sk); made += 1
-        s['type'] = 'x/' + seen[hsh]; del s['html']
+        s.pop('tpl_hint', None); s['type'] = 'x/' + seen[hsh]; del s['html']
         s['t'] = texts
         if imgs: s['img'] = imgs
     f.write_text(yaml.dump(deck, allow_unicode=True, sort_keys=False, width=1000))

@@ -15,3 +15,5 @@
   - Safety (Market challenges, after 140; template of 54).
 - Product-page slides: they replace their twin slide (done in EdTech, tools/pp/pp_edtech.py). Slide 51 (realistic CAGR) stays, it is a different slide.
 - Cover: Pierre's Google Slides cover "I N  V I V O".
+- Signal slides (12 Nov): out of the base deck. The research first screens the 33+ formats of SIGNALS.md and keeps only strong, sourced signals;
+  each kept signal becomes a slide in the chapter where it makes sense. The 16 cell-therapy signals already researched (decks/signals) are in the demo.

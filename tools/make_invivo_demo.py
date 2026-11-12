@@ -150,6 +150,7 @@ def main():
     for n in range(1, len(S) + 1):
         if 74 <= n <= 85: continue            # pain points: 3 disease blocks only (62-73)
         if 123 <= n <= 130: continue          # value creation: 4 approach blocks only (106-122)
+        if S[n - 1].get('signal') and S[n - 1]['signal'] != 'google-trends': continue   # signal slides are not in the base deck (SIGNALS.md)
         order.append(by(n))
         if n == 98: order.append(pipe)
         if n == 138: order.append(fda)
@@ -185,6 +186,13 @@ def main():
             ks = list(s['t'])
             s['t'][ks[0]] = name
             if s['t'][ks[1]].strip().upper() != 'PAIN POINTS': s['t'][ks[1]] = sub
+    # the cell-therapy signals of the library (real, researched data) go at the end of their chapter
+    SG = yaml.safe_load((ROOT / 'decks/signals/deck.yaml').read_text())['slides']
+    for g in [x for x in SG if x.get('market') == 'cell therapy']:
+        g = copy.deepcopy(g); g['id'] = 'sig_' + g['src'].replace('#', '_'); g['tag'] = 'REAL DATA · CELL THERAPY'
+        last = max((i for i, x in enumerate(out) if x.get('section') == g.get('section')), default=None)
+        if last is None: continue
+        out.insert(last + 1, g)
     D = {k: v for k, v in E.items() if k != 'slides'}
     D.update(market='In Vivo CAR-T', label='In vivo CAR-T market', slug='invivo-demo', keep_together=['in vivo CAR-T', 'CAR-T'])
     out[0]['big'] = 'In vivo\nCAR-T'
@@ -192,6 +200,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     if (OUT / 'media').exists(): shutil.rmtree(OUT / 'media')
     shutil.copytree(SRC / 'media', OUT / 'media')
+    for f in (ROOT / 'decks/signals/media/raw').glob('*'): shutil.copy(f, OUT / 'media/raw' / f.name)
     shutil.copy(ROOT / 'assets/covers/in-vivo-car-t.jpg', OUT / 'media/cover.jpg')     # Pierre's cover (Google Slides, slide nmpcov109)
     (OUT / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
     print(len(out), 'slides ->', OUT / 'deck.yaml')

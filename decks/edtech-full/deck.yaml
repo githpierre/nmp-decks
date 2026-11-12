@@ -734,6 +734,7 @@ slides:
   note:
   - Data comes from Duolingo’s shareholder letter for the quarter ended in June 2026, published by [Duolingo](https://investors.duolingo.com)
   src: 33
+  signal: kpi-trio
 - id: ed034
   type: x/student_use_ai_homework_jumped
   section: Market opportunity
@@ -747,6 +748,7 @@ slides:
     11: 'RAND found that 62% of US students used AI for their homework in December 2025, up from 48% only seven months earlier. 71% now use at least one AI tool for school, but only about a third say that their school has a clear AI policy. This is a strong demand signal: students already learn with AI every week, and schools need tools that make this use safe, useful, and easy to follow.'
     12: 62%
     13: 48%
+  signal: key-trend
 - id: ed035
   type: x/big_buyers_now_pay_up
   section: Market opportunity
@@ -781,6 +783,7 @@ slides:
 
       Andrew Ng’s LearnVector'
     31: JUL 2026
+  signal: deal-timeline
 - id: ed036
   type: x/five_learning_scaleups_now_worth
   section: Market opportunity
@@ -811,6 +814,7 @@ slides:
     16: 'Speak, whose voice AI tutor teaches
 
       languages, passed $100M of yearly revenue'
+  signal: value-ladder
 - id: ed037
   type: x/genai_courses_now_draw_14
   section: Market opportunity
@@ -841,6 +845,7 @@ slides:
 
       📚 📚 📚 📚 📚 📚 📚 📚 📚'
     8: SIGNAL
+  signal: icon-grid
 - id: ed038
   type: x/european_learning_startups_doubled_their
   section: Market opportunity
@@ -864,6 +869,7 @@ slides:
     15: 🔥
     19: SIGNAL
     21: Investors now follow learning into the workplace, where employers pay for AI skills
+  signal: funding-event
 - id: ed039p
   type: pp_trends
   section: Market opportunity
@@ -878,6 +884,7 @@ slides:
   note:
   - We tracked how often people around the world googled this term over the last five years
   - We also corrected the curve for a jump in Google's counts that happened in August 2025
+  signal: google-trends
 - id: ed040
   type: agenda
   section: Market size
@@ -3110,6 +3117,7 @@ slides:
     17: 'UNESCO points to low pay, heavy workloads and little recognition. Too many young teachers leave in their first years, so schools lose the staff they just trained.
 
       The world needs 44 million more teachers by 2030. Sub-Saharan Africa alone accounts for 1 in 3 of the shortfall, and Europe and North America need 4.8 million.'
+  signal: key-trend
 - id: ed113
   type: x/maximum_customer_value_look_like_2
   section: Value creation
@@ -3636,6 +3644,7 @@ slides:
     24: 'Even learners who paid for a certificate mostly did not finish, and only 12% of first-timers came back the next year.
 
       Growth came almost entirely from the richest countries, and new learners peaked in 2015-16. So MOOCs pivoted toward paid online professional degrees.'
+  signal: funnel
 - id: ed136
   type: x/slows_adoption_down
   section: Market challenges
@@ -3699,6 +3708,7 @@ slides:
     22: 'Training seems to drive use. Almost 76% of Singapore teachers were trained in AI, against just 9% in France.
 
       Teachers mostly use it to learn about a topic and draft lesson plans. Grading comes last, at 26%.'
+  signal: country-gap
 - id: ed138
   type: x/regulation_evolving
   section: Market challenges
@@ -3756,6 +3766,7 @@ slides:
       2025. About two states a month, from Arkansas in February to New York, Georgia and Ohio.
 
       2026. New Jersey, Michigan, Hawaii, Indiana and Kansas, the 33rd state.'
+  signal: rules-wave
 - id: ed140
   type: x/where_schools_learners_vendors_clash
   section: Market challenges
@@ -4393,6 +4404,7 @@ slides:
     159: 'Gizmo, Medly AI and Third Space Learning lead Europe''s AI tutors. London''s Gizmo raised $22M in April 2026: it turns notes into quizzes for over 13 million learners in 120 countries.
 
       The share also rose as others shrank. Rounds outside Europe and North America fell from 42 in 2024 to 26 in 2025.'
+  signal: funding-by-region
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
@@ -4435,6 +4447,7 @@ slides:
     160: 'EdTech still pays for the pandemic boom. Global investment peaked at $16.7B in 2021 and fell below $3B by 2025, per Tracxn. Byju''s, once valued at $22B, collapsed.
 
       HolonIQ, an education research firm, says the remaining money goes to AI products, workforce platforms and K-12 operations tools. Fewer startups get funded, with slightly more each.'
+  signal: round-size
 - id: ed164
   type: x/much_top_deal_weigh
   section: Investor bets
@@ -4979,6 +4992,7 @@ slides:
       Chegg''s revenue shrank to $266M, leaving it a company worth $81M.
 
       Chegg sold homework answers that AI chatbots now give away. In October 2025 it cut about 45% of its staff, some 388 people, citing the new realities of AI and less traffic from Google.'
+  signal: multiple-gap
 - id: ed180
   type: x/duolingo_s_app_made_1
   section: Top players
@@ -5003,6 +5017,7 @@ slides:
       Every other language app it tracked, summed together, made a little over $440M.
 
       Daily active users grew 23% in Q2 2026, down from 40% a year earlier, after Duolingo added friction to its free tier. Only 9% of users pay.'
+  signal: dominance
 - id: ed181
   type: x/duolingo_makes_1_15m_per
   section: Top players
@@ -5030,6 +5045,7 @@ slides:
     20: 'Duolingo''s revenue rose from $251M to $1.04B between 2021 and 2025 while staff went from 500 to 900.
 
       Coursera and Udemy each needed over 1,300 staff to sell less than $800M of courses.'
+  signal: revenue-per-head
 - id: ed182
   type: x/leads_each_link_from_content
   section: Top players
@@ -5171,6 +5187,7 @@ slides:
   img:
   - media/raw/cdac78f176ee.png
   - media/raw/baf25b69d147.png
+  signal: challenger
 - id: ed188
   type: x/startups_passed_1b
   section: Top players
@@ -5294,6 +5311,7 @@ slides:
     31: $29.84
     33: $0.71 in October 2026
     35: May 2023. {1|Chegg told investors that ChatGPT was slowing its sign-ups. The stock lost 48% of its value in a single day.}
+  signal: incumbent-crash
 - id: ed194
   type: x/tutoring_firm_nerdy_has_lost
   section: Startup killers
@@ -5320,6 +5338,7 @@ slides:
     29: $31.65
     31: $6.75
     33: 2023. {1|Nerdy bounced back to $62 as it pushed its own AI tutoring. It then fell for three years in a row.}
+  signal: incumbent-crash
 - id: ed195
   type: x/startups_stumbled_lately_2
   section: Startup killers
@@ -5370,6 +5389,7 @@ slides:
     33: Peak
     35: 8.8% Sep 2026
     37: May 2026. {1|Even after taking over its rival Udemy, Coursera was worth about $1.35 billion.}
+  signal: fallen-star
 - id: ed197
   type: x/coursera_still_loses_10_2
   section: Startup killers
@@ -5390,6 +5410,7 @@ slides:
     24: 'Coursera lost $77.4M on $757.5M of 2025 revenue; Udemy lost $4.2M on $789.8M after cutting R&D spend by $24M.
 
       Coursera agreed to buy Udemy in an all-stock deal in December 2025, closed in May 2026.'
+  signal: profit-gap
 - id: ed198
   type: x/byju_s_ipo_was_always
   section: Startup killers
@@ -5412,6 +5433,7 @@ slides:
     37: 2023 · Aakash IPO by mid-2024
     39: Day of the promise
     41: Date promised
+  signal: promise-tracker
 - id: ed199p
   type: pp_killers
   mode: warning
@@ -5594,6 +5616,7 @@ slides:
     20: 'On July 1, 2018, Grand Canyon Education transferred the university it owned to Grand Canyon University itself. It then signed a 15-year services deal paying it 60% of the university''s tuition and fee revenue.
 
       The share is built into the model. The company grows only if the university''s enrollment grows, and the deal''s first term ends around 2033.'
+  signal: single-customer
 - id: ed203
   type: agenda
   section: Startup strategies
