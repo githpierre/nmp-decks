@@ -1,0 +1,204 @@
+market: Humanoid Robotics
+label: Humanoid robotics
+quarter: Q4 2026
+year: 2026
+slug: humanoid-robotics
+chapters:
+- 'What is this
+
+  market about?'
+- 'Why this
+
+  market now?'
+- 'How big could this
+
+  market get?'
+- 'What are the pain
+
+  points, and for whom?'
+- 'What is the latest tech
+
+  and infrastructure?'
+- 'How is value created
+
+  and monetized?'
+- 'What could slow this
+
+  market down?'
+- 'What are the growth
+
+  drivers in this market?'
+- 'What are investors
+
+  betting on now?'
+- 'Who are the top startups
+
+  and companies?'
+- 'What could kill
+
+  a startup in this market?'
+- 'How do you win
+
+  in this market?'
+scripts:
+- decisions.js
+keep_together:
+- humanoid robotics
+- humanoid robots
+slides:
+- id: ed047p
+  type: pp_donutv
+  section: Market size
+  variant: B
+  title: 'How is the humanoid robotics
+
+    market split between its categories?'
+  cats:
+  - name: General-purpose bipedal
+    p: 70
+    logos:
+    - ../../assets/logos/unitree-robotics.png
+    - ../../assets/logos/lib/agibot.png
+  - name: Industrial and factory
+    p: 27
+    logos:
+    - ../../assets/logos/lib/ubtech.png
+    - ../../assets/logos/lib/apptronik.png
+  - name: Other categories
+    p: 3
+    logos:
+    - ../../assets/logos/lib/booster-robotics.png
+    - ../../assets/logos/lib/agility-robotics.png
+    - ../../assets/logos/lib/pudu.png
+  note:
+  - We started from IDC’s $440M of humanoid revenue in 2025, of which Unitree, AgiBot and UBTECH report about $380M
+  - We placed each maker in its category of our definition and estimated the rest from shipments and prices
+  - Other categories group developer, warehouse, service, home and hybrid-base humanoids, in orders of magnitude only
+- id: pp_s06
+  type: pp_value
+  section: Value creation
+  title: 'How do humanoid makers
+
+    actually make money?'
+  axes:
+  - Businesses pay
+  - Households pay
+  - Sells the
+  - hardware
+  - Sells the
+  - brain
+  groups:
+  - name: Developer kits sold to labs
+    x: 0.2
+    y: 0.62
+    logos:
+    - src: ../../assets/logos/lib/booster-robotics.png
+    - src: ../../assets/logos/fourier-intelligence.png
+  - name: Robots sold outright
+    x: 0.5
+    y: 0.5
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-02.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-03.png
+  - name: Robots leased to factories
+    x: 0.16
+    y: 0.22
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-04.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-05.png
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-06.png
+  - name: Home robots by monthly plan
+    x: 0.85
+    y: 0.2
+    logos:
+    - src: ../../assets/logos/pp_live/humanoid-robotics/s06-07.png
+  note:
+  - We placed each company by how its business model works, from pricing pages and filings
+  - Positions are our reading, and you will find all the sources we used at the end of the report
+- id: ed168p
+  type: invbets
+  section: Investor bets
+  handle: humanoid-robotics
+  title: 'Where did humanoid robot investors
+
+    put their money this past year?'
+  rows:
+  - name: General-purpose bipedal
+    names:
+    - XPENG Robotics
+    - Galbot
+    v: $4.8B
+    pct: 48% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/lib/xpeng.png
+    - src: ../../assets/logos/galbot.png
+    - src: ../../assets/logos/lib/robotera.png
+  - name: Developer and research platforms
+    names:
+    - Spirit AI
+    - GigaAI
+    v: $2.4B
+    pct: 24% of total
+    w: 50.5
+    logos:
+    - src: ../../assets/logos/lib/spirit-ai.png
+    - src: ../../assets/logos/lib/gigaai.png
+    - src: ../../assets/logos/rhoda-ai.png
+  - name: Industrial and factory
+    names:
+    - Apptronik
+    - Agile Robots
+    v: $1.9B
+    pct: 19% of total
+    w: 39.5
+    logos:
+    - src: ../../assets/logos/lib/apptronik.png
+    - src: ../../assets/logos/lib/agile-robots.png
+    - src: ../../assets/logos/walden-robotics.png
+  - name: Domestic and eldercare
+    names:
+    - Sunday Robotics
+    - Knowin AI
+    v: $382M
+    pct: 4% of total
+    w: 7.9
+    logos:
+    - src: ../../assets/logos/lib/sunday-robotics.png
+    - src: ../../assets/logos/lib/knowin.png
+    - src: ../../assets/logos/lib/futuring-robot.png
+  - name: Service and social
+    names:
+    - Pudu Robotics
+    - UniX AI
+    v: $221M
+    pct: 2% of total
+    w: 4.6
+    logos:
+    - src: ../../assets/logos/lib/pudu.png
+    - src: ../../assets/logos/lib/unix.png
+  - name: Wheeled and hybrid bases
+    names:
+    - AI² Robotics
+    - Dexmate
+    v: $195M
+    pct: 2% of total
+    w: 4.0
+    logos:
+    - src: ../../assets/logos/lib/ai2.png
+    - src: ../../assets/logos/dexmate.png
+    - src: ../../assets/logos/lib/simple-ai.png
+  - name: Warehouse and logistics
+    names:
+    - Dexterity
+    - Avatar Robotics
+    v: $116M
+    pct: 1% of total
+    w: 2.4
+    logos:
+    - src: ../../assets/logos/lib/dexterity.png
+    - src: ../../assets/logos/avatar-robotics.png
+    - src: ../../assets/logos/lib/agility-robotics.png
+  note:
+  - We added up every equity round of humanoid startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here

@@ -214,11 +214,12 @@ def donut_var(s):
         return
     for g in segs: g['right'] = math.cos(math.radians(g['mid'])) >= 0
     if v in ('B', 'C', 'G'):
-        for side in (True, False):                 # keep labels 58 px apart on each side
+        gap = 84 if any(c.get('logos') for c in s['cats']) else 58   # a label with its logo row is ~75 px tall (12 Nov 2026: 3 % ran into 27 %)
+        for side in (True, False):                 # keep labels apart on each side
             L = sorted([g for g in segs if g['right'] == side], key=lambda g: g.get('ly', g['ey']))
             y = -1e9
             for g in L:
-                g.setdefault('ly', g['ey']); g['ly'] = max(g['ly'], y + 58); y = g['ly']
+                g.setdefault('ly', g['ey']); g['ly'] = max(g['ly'], y + gap); y = g['ly']
             if L and L[-1]['ly'] > 560:
                 d = L[-1]['ly'] - 560
                 for g in L: g['ly'] -= d

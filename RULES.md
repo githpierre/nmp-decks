@@ -53,6 +53,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A chart label never touches a bubble or another label. CHECK LABEL_ON_SHAPE.
 
 ## Charts and maps
+- Splits by category (donut, shares): never copied from a study. Our own best estimate, explained in the note (up to 3
+  lines, starting with « We »). Too weak to defend: drop the slide (Claude judges). Categories = the base's (markets.category).
 - Charts are computed from the data in deck.yaml (`vbars`, `hbars`, `split`, `dots`, `curves`); never a pixel size by hand.
 - Decorative arrows on charts are muted (#789096) and centered on their bar. CHECK ARROW_OFFCENTER.
 - World map: each region text on 3 lines, short enough that its box does not widen; leader lines start at the middle of the

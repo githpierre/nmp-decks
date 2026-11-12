@@ -16,41 +16,31 @@ ed039p:
   y_top: 222
 ed047p:
   type: pp_donutv
-  variant: D
+  variant: B
   title: 'How is the humanoid robotics
 
     market split between its categories?'
   cats:
-  - name: Parts and services
-    p: 29
+  - name: General-purpose bipedal
+    p: 70
     logos:
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-03.png
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-04.png
-  - name: Labs and schools
-    p: 23
+    - ../../assets/logos/unitree-robotics.png
+    - ../../assets/logos/lib/agibot.png
+  - name: Industrial and factory
+    p: 27
     logos:
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-10.png
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-11.png
-  - name: Factory and logistics
-    p: 20
+    - ../../assets/logos/lib/ubtech.png
+    - ../../assets/logos/lib/apptronik.png
+  - name: Other categories
+    p: 3
     logos:
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-07.png
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-08.png
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-09.png
-  - name: AI and software
-    p: 14
-    logos:
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-05.png
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-06.png
-  - name: Other robot uses
-    p: 14
-    logos:
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-00.png
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-01.png
-    - ../../assets/logos/pp_live/humanoid-robotics/s03-02.png
+    - ../../assets/logos/lib/booster-robotics.png
+    - ../../assets/logos/lib/agility-robotics.png
+    - ../../assets/logos/lib/pudu.png
   note:
-  - We estimated each category from the robot sales, parts and software we can see, from Unitree to Agility
-  - They give orders of magnitude, not exact shares, and all the sources are included at the end of the report
+  - We started from IDC’s $440M of humanoid revenue in 2025, of which Unitree, AgiBot and UBTECH report about $380M
+  - We placed each maker in its category of our definition and estimated the rest from shipments and prices
+  - Other categories group developer, warehouse, service, home and hybrid-base humanoids, in orders of magnitude only
 ed058:
   type: pp_pains
   title: 'Which humanoid robot
