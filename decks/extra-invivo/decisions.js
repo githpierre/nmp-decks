@@ -241,7 +241,7 @@ window.F = (() => {
   const emptyCards = sl => { const R = sl.getBoundingClientRect(); const box = e => { const r = e.getBoundingClientRect(); return {x: r.left - R.left, y: r.top - R.top, r: r.right - R.left, b: r.bottom - R.top}; };
     const T = [...sl.querySelectorAll('.raw > .rx-t')].map(e => ({e, ...box(e), empty: !e.textContent.trim()}));
     let hid = 0;
-    sl.querySelectorAll('.raw > svg.rx-s').forEach(sv => { const b = box(sv); if (b.r - b.x < 60 || b.b - b.y < 40) return;
+    sl.querySelectorAll('.raw > svg.rx-s').forEach(sv => { const b = box(sv); if (b.r - b.x < 60 || b.b - b.y < 20) return;
       const ins = T.filter(t => t.x >= b.x - 2 && t.r <= b.r + 2 && t.y >= b.y - 2 && t.b <= b.b + 2);
       if (ins.length && ins.every(t => t.empty)) { sv.style.display = 'none'; hid++; } });
     if (!hid) return;
@@ -251,9 +251,11 @@ window.F = (() => {
 
   // converted bar charts with fixed bar heights (key-trend…): `vbars: [a, b, …]` in deck.yaml sets the heights of the tall pink bars,
   // left to right, in proportion (the tallest keeps its height, bottoms stay put), and the value label above each bar follows it (12 Nov)
-  const vbars = sl => { const V = (sl.dataset.vbars || '').split(',').map(Number).filter(v => !isNaN(v)); if (!V.length) return;
+  const vbars = sl => { if (!sl.dataset.vbars) return; const V = (sl.dataset.vbars || '').split(',').map(Number).filter(v => !isNaN(v)); if (!V.length) return;
     const R = sl.getBoundingClientRect();
-    const bars = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(sv => { const p = sv.querySelector('path'); return p && /FB0161/i.test(p.getAttribute('fill') || '') && sv.getBoundingClientRect().height > 60 && sv.getBoundingClientRect().width < 90; })
+    const bars = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(sv => { const p = sv.querySelector('path'); if (!p) return false;   // plain filled rectangles, pink or grey, tall and narrow
+      const f = (p.getAttribute('fill') || '').toUpperCase(), d = (p.getAttribute('d') || '').replace(/\s/g, ''), r = sv.getBoundingClientRect();
+      return f && f !== 'NONE' && !/062A3C|0A3243/.test(f) && /^M0,?0H[\d.]+V[\d.]+H0Z$/.test(d) && r.height > 60 && r.width < 140 && r.width < r.height * 1.5; })
       .sort((a, b) => a.getBoundingClientRect().left - b.getBoundingClientRect().left);
     if (bars.length !== V.length) return;
     const hs = bars.map(b => parseFloat(b.querySelector('path').getAttribute('d').match(/V([\d.]+)/)[1])), H = Math.max(...hs), mx = Math.max(...V);
@@ -265,8 +267,49 @@ window.F = (() => {
       if (lab) mv(lab, 0, d); });
     mark('vbars', sl); };
 
+
+  // ---- data-driven geometry for the converted TEMP series slides (12 Nov): hbars, dots, curves, split
+  const rects = sl => [...sl.querySelectorAll('.raw > svg.rx-s')].filter(sv => { const p = sv.querySelector('path'); if (!p || !vis(sv)) return false;
+      const f = (p.getAttribute('fill') || '').toUpperCase(), d = (p.getAttribute('d') || '').replace(/\s/g, '');
+      return f && f !== 'NONE' && !/062A3C|0A3243/.test(f) && /^M0,?0H[\d.]+V[\d.]+H0Z$/.test(d); });
+  const setW = (sv, w) => { const p = sv.querySelector('path'), d = p.getAttribute('d'); const w0 = parseFloat(d.match(/H([\d.]+)/)[1]); p.setAttribute('d', d.replace(/H[\d.]+/, 'H' + w.toFixed(2))); const dw = w - w0; sv.style.width = (parseFloat(sv.style.width) + dw) + 'px'; const vb = sv.getAttribute('viewBox').split(/\s+/).map(Number); vb[2] += dw; sv.setAttribute('viewBox', vb.join(' ')); return dw; };
+  const hbars = sl => { if (!sl.dataset.hbars) return; const V = (sl.dataset.hbars || '').split(',').map(Number).filter(v => !isNaN(v)); if (!V.length) return;
+    const bars = rects(sl).filter(sv => { const r = sv.getBoundingClientRect(); return r.height < 44 && r.height > 6 && r.width > r.height * 1.2; }).sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
+    if (bars.length !== V.length) return; const ws = bars.map(b => parseFloat(b.querySelector('path').getAttribute('d').match(/H([\d.]+)/)[1])), W = Math.max(...ws), mx = Math.max(...V);
+    const T = [...sl.querySelectorAll('.raw > .rx-t')];
+    bars.forEach((b, i) => { const r = b.getBoundingClientRect(); const lab = T.filter(t => { const q = t.getBoundingClientRect(); return q.left > r.right - 12 && q.left - r.right < 40 && Math.abs((q.top + q.bottom) / 2 - (r.top + r.bottom) / 2) < 14; });
+      const dw = setW(b, Math.max(3, W * V[i] / mx)); lab.forEach(t => mv(t, dw, 0));
+      const hp = +(sl.dataset.hpink || 0); if (hp) b.querySelector('path').setAttribute('fill', i < hp ? '#FB0161' : i === bars.length - 1 ? '#334D54' : '#789096'); });
+    mark('hbars', sl); };
+  const split = sl => { if (!sl.dataset.split) return; const V = (sl.dataset.split || '').split(',').map(Number); if (V.length !== 2) return;
+    const bars = rects(sl).filter(sv => sv.getBoundingClientRect().height > 100).sort((a, b) => a.getBoundingClientRect().left - b.getBoundingClientRect().left); if (bars.length !== 2) return;
+    const w = bars.map(b => parseFloat(b.querySelector('path').getAttribute('d').match(/H([\d.]+)/)[1])), tot = w[0] + w[1], w0 = Math.max(4, tot * V[0] / (V[0] + V[1]));
+    const T = [...sl.querySelectorAll('.raw > .rx-t')], r1 = bars[1].getBoundingClientRect(); const right = T.filter(t => { const q = t.getBoundingClientRect(); return q.left >= r1.left - 2 && q.left < r1.right + 40 && q.top > r1.top - 5 && q.bottom < r1.bottom + 5; });
+    const d0 = setW(bars[0], w0); setW(bars[1], tot - w0); mv(bars[1], d0, 0); mark('split', sl); };   // the right edge does not move, nor the labels right of it
+  const dots = sl => { let G; try { G = JSON.parse(sl.dataset.dots || 'null'); } catch (e) { return; } if (!G) return;
+    const D = [...sl.querySelectorAll('.raw > svg.rx-s')].filter(sv => { const p = sv.querySelector('path'), r = sv.getBoundingClientRect(); return p && r.width < 30 && r.height < 30 && /A/.test(p.getAttribute('d') || '') && /FB0161|FFFFFF|334D54|5E7E8E|789096/i.test(p.getAttribute('fill') || ''); });
+    const TT = [...sl.querySelectorAll('.raw > .rx-t')].filter(t => t.textContent.trim()).map(t => t.getBoundingClientRect());
+    const legend = D.filter(sv => { const r = sv.getBoundingClientRect(); return TT.some(q => q.left - r.right > -14 && q.left - r.right < 14 && Math.abs((q.top + q.bottom) / 2 - (r.top + r.bottom) / 2) < 10); });   // a legend dot has its label right next to it
+    const cells = D.filter(d => !legend.includes(d)).map(sv => ({sv, r: sv.getBoundingClientRect()})).sort((a, b) => a.r.left - b.r.left);
+    const groups = []; cells.forEach(c => { const g = groups[groups.length - 1]; if (g && c.r.left - g[g.length - 1].r.left < 30) g.push(c); else groups.push([c]); });
+    if (groups.length !== G.length) return; const col = ['#FB0161', '#FFFFFF', '#334D54'];
+    groups.forEach((g, gi) => { g.sort((a, b) => (b.r.top - a.r.top) || (a.r.left - b.r.left)); let k = 0;
+      g.forEach((c, i) => { let n = 0, ci = -1; for (let j = 0; j < G[gi].length; j++) { n += G[gi][j]; if (i < n) { ci = j; break; } }
+        if (ci < 0) c.sv.style.visibility = 'hidden'; else { c.sv.style.visibility = ''; c.sv.querySelector('path').setAttribute('fill', col[ci]); } }); });
+    mark('dots', sl); };
+  const curves = sl => { let C; try { C = JSON.parse(sl.dataset.curves || 'null'); } catch (e) { return; } if (!C) return;
+    const P = [...sl.querySelectorAll('.raw > svg.rx-s path')].filter(p => ((p.getAttribute('d') || '').match(/L/g) || []).length > 5).sort((a, b) => b.getAttribute('d').length - a.getAttribute('d').length).slice(0, C.length);
+    if (P.length !== C.length) return; const R = sl.getBoundingClientRect();
+    const bb = P.map(p => p.getBoundingClientRect()); const top = Math.min(...bb.map(b => b.top)), bot = Math.max(...bb.map(b => b.bottom));
+    const all = C.flat(), lo = Math.min(...all), hi = Math.max(...all);
+    P.forEach((p, i) => { const b = bb[i], M = p.getScreenCTM(); if (!M) return; const I = M.inverse(), s = C[i];
+      const pts = s.map((v, j) => { const x = b.left + (b.width) * j / (s.length - 1), y = bot - (bot - top) * (v - lo) / ((hi - lo) || 1); const q = new DOMPoint(x, y).matrixTransform(I); return q.x.toFixed(1) + ' ' + q.y.toFixed(1); });
+      p.setAttribute('d', 'M' + pts.join('L')); p.closest('svg').style.overflow = 'visible'; });
+    sl.querySelectorAll('.raw > svg.rx-s').forEach(sv => { const r = sv.getBoundingClientRect(), d = sv.querySelector('path')?.getAttribute('d') || ''; if ((r.width < 32 && r.height < 32 && /A/.test(d)) || (r.width < 22 && r.height > 120 && /^M0 0L0/.test(d))) sv.style.visibility = 'hidden'; });
+    mark('curves', sl); };
+
   // generic rules, every raw slide
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [vbars, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } }); };
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
 

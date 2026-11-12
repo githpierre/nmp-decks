@@ -1,6 +1,5 @@
 <div class="body"><div class="sx"><div class="chart">
-<div style="display:grid;grid-template-columns:34px 1fr 54px 70px;column-gap:10px;row-gap:0;align-items:center">
- <div></div><div class="sub" style="letter-spacing:.2em">STARTUP</div><div class="sub" style="letter-spacing:.2em;text-align:center">ROUNDS</div><div class="sub" style="letter-spacing:.2em;text-align:right">RAISED</div>
- {% for r in s.rows %}<span class="tile" style="margin:6px 0">{% if r.src %}<img src="{{ r.src }}">{% endif %}</span><div style="border-bottom:1px solid #1C4A60;padding:9px 0"><div class="lab" style="font-weight:600">{{ r.name }}</div><div class="sub">{{ r.what }}</div></div>
- <div style="border-bottom:1px solid #1C4A60;padding:17px 0;text-align:center;font-weight:700">{{ r.n }}</div><div style="border-bottom:1px solid #1C4A60;padding:17px 0;text-align:right;font-weight:700">{{ r.v }}</div>{% endfor %}</div>
-</div>{% include 'slides/sx_side.j2' %}</div></div>
+<div style="display:flex;align-items:center;padding-bottom:6px"><div style="width:44px"></div><div class="sub" style="flex:1;letter-spacing:.2em">{{ s.h0 | default('STARTUP') }}</div><div class="sub" style="width:70px;letter-spacing:.2em;text-align:center">{{ s.h1 | default('ROUNDS') }}</div><div class="sub" style="width:84px;letter-spacing:.2em;text-align:right">{{ s.h2 | default('RAISED') }}</div></div>
+{% for r in s.rows %}<div style="display:flex;align-items:center;border-top:1px solid #1C4A60;padding:8px 0"><div style="width:44px"><span class="tile">{% if r.src %}<img src="{{ r.src }}">{% endif %}</span></div>
+ <div style="flex:1"><div class="lab" style="font-weight:600">{{ r.name }}</div><div class="sub">{{ r.what }}</div></div><div style="width:70px;text-align:center;font-weight:700">{{ r.n }}</div><div style="width:84px;text-align:right;font-weight:700">{{ r.v }}</div></div>{% endfor %}
+<div style="border-top:1px solid #1C4A60"></div></div>{% include 'slides/sx_side.j2' %}</div></div>

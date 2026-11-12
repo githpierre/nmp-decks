@@ -87,3 +87,8 @@ Refused: value-ladder as a list of deal values (1A), key-trend for a fall in a t
 ## New share templates (12 Nov 2026, to validate)
 `templates/slides/share_*.j2` (bars100, rings, slope, waffle, hero, gauges, bubbles): one share per year, fully data-driven (`years: [{x, k, n, p}]`, `big`, `story`, `on`, `off`, `what`). Examples in `decks/extra-invivo-v`. Pierre (12 Nov): the dot rows of the converted TEMP slides are ugly with few rounds; never show 40 slides in the same format, vary the templates.
 Refused on 12 Nov: N8 searches vs funding (reads as hype, not opportunity), N10 dollar split (unclear), N11 key trend 2021 vs 2025 (backward-looking), N7 funding share bars.
+
+## Designs sx_* validés le 12/11/2026
+- Gardés : C01 sx_split_compare, C02 sx_faceoff, C03 sx_side, C04 sx_stacked_cols, C05 sx_round_timeline, C08 sx_butterfly, C09 sx_league. Nouveau : sx_stat_strip (bandeau de chiffres).
+- Refusés : C06, C07, C10 (ne plus proposer).
+- Exemple In Vivo CAR-T : decks/in-vivo-car-t/extras.yaml (14 slides).

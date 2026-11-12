@@ -333,3 +333,11 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - No big pink numbers on navy (white instead); notes always 2 balanced lines.
 - The dashed divider between a chart and its text panel is exactly as tall as the chart block (from the top of the legend to the bottom of the last label), never shorter: templates use the flex row `.sx` (css/nmp.css), where both columns stretch to the same height.
 - New extra-slide designs: not only "three years in a row" charts (bars, rings, gauges). Show the fact in really different ways: rounds vs money, face-off cards, logo wall, round timeline, butterfly, stat strip, treemap, stacked columns, league table, pictogram (`templates/slides/sx_*.j2`, examples in `decks/extra-invivo-cn`).
+
+## Slides complémentaires : variété et texte de côté (12/11/2026, 16:23)
+- Un même design ne sert pas plus de 2 fois parmi les slides complémentaires d'un deck (3 fois seulement en exception rare, signalée à Pierre).
+- Texte de côté (bloc « THE STORY BEHIND IT ») : jamais plus large que son petit titre, et centré verticalement par rapport au graphique (`.sx .side` fit-content + `p{width:0;min-width:100%}`).
+- Une légende qui répète l'explication du texte est retirée (légende seulement si `legend:` est donné).
+- Barres 100% (sx_split_compare) : largeur réglée par `chart_w` (400 par défaut, pas pleine largeur).
+- Face-à-face (sx_faceoff) : carte mise en avant 8px rose, autre carte 3px #334D54.
+- Classement (sx_league) : lignes en flex, séparateurs alignés sur toute la largeur, y compris sous l'en-tête.
