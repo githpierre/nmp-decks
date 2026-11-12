@@ -228,7 +228,16 @@ window.F = (() => {
     mark('curves', sl); };
 
   // generic rules, every raw slide
-  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } });
+
+  // short date labels of timelines ("Early 2024", "Oct - Dec 24", "Today") are always written in capitals (Pierre, 12 Nov 2026)
+  const DATE_RX = /^(?=.*(\b(19|20)\d{2}\b|\b\d{2}\b|\btoday\b|\bnow\b))((early|mid|late|since|before|after|by|until|from|end of|start of|today|now|q[1-4]|h[12]|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?|(19|20)?\d{2}|[-–/&+, ])+$/i;
+  const dateCaps = sl => { sl.querySelectorAll('.raw .rx-t').forEach(el => { const t = el.textContent.replace(/\s+/g, ' ').trim();
+    if (!t || t.length > 20 || !DATE_RX.test(t) || t === t.toUpperCase()) return; const h0 = el.getBoundingClientRect().height, sp = el.querySelector('span') || el, ink0 = ink(sp, sl);
+    el.style.textTransform = 'uppercase'; mark('dateCaps', sl);
+    /* capitals are wider: a label that fitted on one line must stay on one line (shrink a little, never wrap) */
+    const lh = parseFloat(getComputedStyle(sp).lineHeight) || 20; let k = 0;
+    while (ink0 && ink(sp, sl) && ink(sp, sl).h > ink0.h + lh * 0.5 && k++ < 12) el.querySelectorAll('span').forEach(x => { x.style.fontSize = (parseFloat(getComputedStyle(x).fontSize) * 0.96) + 'px'; }); }); };
+  const all = sl => { try { names(sl); } catch (e) {} if (!sl.querySelector('.raw')) return; [dateCaps, vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } });
     try { if (window.__fitapi && window.__fitapi.slideFit) window.__fitapi.slideFit(sl); } catch (e) { console.error('refit', sl.dataset.n, e); } };   // equal line counts on the final geometry
   return {all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();

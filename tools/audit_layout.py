@@ -18,7 +18,7 @@ JS = r"""() => { const out = []; document.querySelectorAll('section.slide').forE
 # Harmony audit (12 Nov 2026, Pierre: "truffé d'erreurs"): what a reader sees at a glance on ANY slide (raw, pp, templates).
 # MARGIN_ALL: content outside x 60..900 (hard) ; LABEL_LINES / BODY_LINES: sibling boxes with different line counts ;
 # TEXT_PAD: a text closer than 5 px to the border of its bubble (or out of it) ; EMOJI_MIX: emojis left among line icons ;
-# EMOJI_UNMAPPED: emoji with no icon in icons.py ; MONEY_FORMAT: "$0.285B", "4.228 billion" ; GRID_HOLES: emptied cards.
+# EMOJI_UNMAPPED: emoji with no icon in icons.py ; MONEY_FORMAT: "$0.285B", "4.228 billion" ; GRID_HOLES: emptied cards ; DATE_CASE: timeline date label not in capitals.
 JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss || [])]; if (miss.length) out.push([0, 'EMOJI_UNMAPPED', miss.join(' ')]);
  const rowsOf = p => { const g = document.createRange(); g.selectNodeContents(p); const t = new Set(); [...g.getClientRects()].forEach(r => { if (r.width > 1) t.add(Math.round(r.top / 4)); }); return t.size; };
  const ink = el => { const g = document.createRange(); g.selectNodeContents(el); const rs = [...g.getClientRects()].filter(r => r.width > 1 && r.height > 1); if (!rs.length) return null;
@@ -68,6 +68,9 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   const ic = sl.querySelectorAll('.raw span[style*="inline-flex"] svg, .raw .ico-pill svg').length;
   const em = [...sl.querySelectorAll('.raw .rx-t')].filter(vis).filter(el => { const t = el.textContent.trim(); return t && [...t.replace(/[\s\uFE0F\u200D]/g, '')].length <= 3 && EMO.test(t); });
   if (ic >= 2 && em.length) out.push([n, 'EMOJI_MIX', em.length + ' emoji / ' + ic + ' icons', em.map(e => e.textContent.trim()).join(' ')]);
+  // --- timeline date labels in capitals (Pierre, 12 Nov 2026)
+  { const DR = /^(?=.*(\b(19|20)\d{2}\b|\b\d{2}\b|\btoday\b|\bnow\b))((early|mid|late|since|before|after|by|until|from|end of|start of|today|now|q[1-4]|h[12]|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?|(19|20)?\d{2}|[-–/&+, ])+$/i;
+    [...sl.querySelectorAll('.raw .rx-t')].filter(vis).forEach(el => { const t = el.textContent.replace(/\s+/g, ' ').trim(); if (t && t.length <= 20 && DR.test(t) && el.innerText.trim() !== el.innerText.trim().toUpperCase()) out.push([n, 'DATE_CASE', t]); }); }
   // --- money written the way people say it
   const tx = sl.querySelector('.srcl') ? '' : sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]);
   // --- the slide title is always on two lines (Pierre, 12 Nov 2026)
