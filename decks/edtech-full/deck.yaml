@@ -875,7 +875,9 @@ slides:
   term: online learning
   date: Lately.
   expl: After the Covid rush, interest in online learning slowly faded for years. Then free AI tutors got good enough for everyday homework help, and millions of parents and students went looking for new ways to learn online.
-  note: We tracked how often people around the world googled this term over the last five years, corrected for a jump in Google's counts in August 2025
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We also corrected the curve for a jump in Google's counts that happened in August 2025
 - id: ed040
   type: agenda
   section: Market size
@@ -4469,7 +4471,7 @@ slides:
     date: Q1 2026
   - name: LearnVector
     amt: 100000000.0
-    src: ''
+    src: ../../assets/logos/learnvector.png
     stage: Series A
     date: Q3 2026
   - name: Yoodli
@@ -4479,7 +4481,7 @@ slides:
     date: Q4 2025
   - name: Emversity
     amt: 30000000.0
-    src: ''
+    src: ../../assets/logos/emversity.png
     stage: Series A
     date: Q1 2026
   note:

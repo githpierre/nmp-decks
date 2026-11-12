@@ -265,6 +265,8 @@ def trends(s):
     import statistics as st
     v = [x for _, x in _trend_rows(s)]
     if s.get('window') == '1y': v = v[-52:]
+    # light smoothing (Pierre, 12 Nov 2026: « on lisse un peu les incohérences et on montre le mouvement »): 3-week median drops one-week spikes and dips
+    v = [sorted(v[max(0, i - 1):i + 2])[len(v[max(0, i - 1):i + 2]) // 2] for i in range(len(v))]
     pk = max(i for i, x in enumerate(v) if x == max(v)); v = v[:pk + 1]
     m = max(v); v = [x * 100 / m for x in v]
     n = len(v); r = max(v) / max(st.median(v[:max(1, int(n * .75))]), 1)
