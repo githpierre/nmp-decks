@@ -71,6 +71,8 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   // --- timeline date labels in capitals (Pierre, 12 Nov 2026)
   { const DR = /^(?=.*(\b(19|20)\d{2}\b|\b\d{2}\b|\btoday\b|\bnow\b))((early|mid|late|since|before|after|by|until|from|end of|start of|today|now|q[1-4]|h[12]|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?|(19|20)?\d{2}|[-–/&+, ])+$/i;
     [...sl.querySelectorAll('.raw .rx-t')].filter(vis).forEach(el => { const t = el.textContent.replace(/\s+/g, ' ').trim(); if (t && t.length <= 20 && DR.test(t) && el.innerText.trim() !== el.innerText.trim().toUpperCase()) out.push([n, 'DATE_CASE', t]); }); }
+  // --- chart labels sitting on a bubble or another label (sx_round_timeline)
+  sl.querySelectorAll('.rtl-lab[data-clash]').forEach(t => out.push([n, 'LABEL_ON_SHAPE', t.textContent.trim()]));
   // --- money written the way people say it
   const tx = sl.querySelector('.srcl') ? '' : sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]);
   // --- the slide title is always on two lines (Pierre, 12 Nov 2026)

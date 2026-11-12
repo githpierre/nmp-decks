@@ -405,3 +405,6 @@ Cause commune : je ne regardais que les slides nouvelles, pas les 190, et les co
 - Appliqué par le code : `dateCaps` dans tools/atelier2/fixlib.js (libellé court ≤ 20 caractères qui ressemble à une date) et `| upper` sur les graduations de sx_round_timeline. Une capitale est plus large : un libellé qui tenait sur une ligne reste sur une ligne (police réduite un peu, jamais de retour à la ligne).
 - Contrôle : DATE_CASE dans tools/audit_layout.py.
 - Préférer un libellé court et lisible (« Late 2024 ») à une plage de mois (« Oct - Dec 24 »).
+
+## Étiquettes de graphique (12/11/2026, 20:38)
+- Une étiquette (« Sail $465M ») ne touche jamais une bulle ni une autre étiquette. sx_round_timeline essaie au-dessus, plus haut, à droite, à gauche, et garde la première place libre. Contrôle : LABEL_ON_SHAPE.
