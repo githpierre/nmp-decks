@@ -11,7 +11,7 @@ document.querySelectorAll('.slide').forEach((s, i) => {
   const t = s.querySelector('.title'); const tb = t ? R(t).bottom - S.top : 0;
   const pill = s.querySelector('.pillrow .pill'); const pb = pill ? R(pill).bottom - S.top : 0;
   // 1. air under the title: content never closer than 30 px to the title (20 px to the pill)
-  const skip = new Set(['title', 'section', 'pillrow', 'pill', 'tri', 'note', 'foot-line', 'foot-label', 'foot-brand', 'pp-abs']);
+  const skip = new Set(['title', 'wtag', 'section', 'pillrow', 'pill', 'tri', 'note', 'foot-line', 'foot-label', 'foot-brand', 'pp-abs']);
   let top = 1e9;
   s.querySelectorAll(':scope > *').forEach(e => { if ([...e.classList].some(c => skip.has(c))) return; const r = R(e); if (r.height > 0 && r.width > 0) top = Math.min(top, r.top - S.top); });
   s.querySelectorAll('.pp-abs *').forEach(e => { const r = R(e); if (r.height > 1 && r.width > 1) top = Math.min(top, r.top - S.top); });
