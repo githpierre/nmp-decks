@@ -398,3 +398,4 @@ Cause commune : je ne regardais que les slides nouvelles, pas les 190, et les co
 ## Export PDF (12/11/2026, 19:57)
 - Les ombres floues (titres, tuiles, cartes) s'impriment en rectangles sombres dans Aperçu / Acrobat, et la mise en page « print » peut différer de l'écran (texte en plus sur la couverture). Le PDF pose donc sur chaque page le rendu écran exact (×2, JPEG) au-dessus de la page vectorielle (sans images ni ombres) : même rendu dans tous les lecteurs, texte toujours sélectionnable, liens des sources cliquables (build.py, flatten). Contrôle : rendu des pages du PDF comparé aux PNG audités.
 - Logo de page produit trop petit dans sa tuile (logo-texte écrasé) : on prend notre logo carré de assets/logos.
+- Poids du PDF : images de page en JPEG qualité 72 (visuellement identique), puis compression sans perte par qpdf : 25 Mo pour 195 slides. Chaque page est une image entière (pas seulement la photo de couverture), c'est ce qui fait le poids.

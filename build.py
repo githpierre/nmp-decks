@@ -112,6 +112,11 @@ def flatten(pdf, shots):
         top = PdfReader(io.BytesIO(img2pdf.convert(jpg, layout_fun=lay))).pages[0]
         page.merge_page(top); W.add_page(page)
     W.compress_identical_objects(); W.write(str(pdf))
+    import subprocess, shutil   # lossless: object streams + recompressed text layers (35 -> 25 MB on in vivo CAR-T)
+    if shutil.which('qpdf'):
+        tmp = str(pdf) + '.tmp'
+        subprocess.run(['qpdf', '--object-streams=generate', '--compress-streams=y', '--recompress-flate', '--compression-level=9', str(pdf), tmp], check=True)
+        shutil.move(tmp, str(pdf))
 
 def check_yaml(node, path='deck'):
     """YAML trap: an unquoted comma inside {k: v, ...} silently cuts a sentence into an empty key. Refuse it."""
@@ -230,7 +235,7 @@ def build(slug, png=False, only=None):
             pg2.add_style_tag(content='.slide{margin:0!important}body{background:#062A3C}')
             from PIL import Image; import io as _io
             def _jpg(el):
-                b_ = _io.BytesIO(); Image.open(_io.BytesIO(el.screenshot())).convert('RGB').save(b_, 'JPEG', quality=78, optimize=True, progressive=True, subsampling=2); return b_.getvalue()
+                b_ = _io.BytesIO(); Image.open(_io.BytesIO(el.screenshot())).convert('RGB').save(b_, 'JPEG', quality=72, optimize=True, progressive=True, subsampling=2); return b_.getvalue()
             shots = [_jpg(el) for el in pg2.query_selector_all('.slide')]
             pg2.close()
             flatten(out / name, shots)
