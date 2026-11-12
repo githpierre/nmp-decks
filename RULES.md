@@ -45,7 +45,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Same slide type = same look on every page of a series (1/2, 2/2): decisions are copied by make_decisions.py; a page built
   with another template takes the series' template name (base.html.j2). CHECK SERIES_ICON_MIX.
 - « Which categories will we use? »: names in capitals on 2 lines, the same names as the dividers, identical cards (fixlib
-  `catsGrid`). Segment dividers: one title size for the whole deck, clear of the side arrows (fixlib `deck`).
+  `catsGrid`). Segment dividers: one line, one title size for the whole deck, clear of the side arrows (fixlib `deck`;
+  Pierre chose it on 13 Nov 2026 over 2-line names and over removing the arrows: never propose those again).
 
 ## Colors, icons, logos
 - Pink never as thin text or thin small icons on navy; pink fills (pill, bar, bold) or a 2 px frame are fine. CHECK PINK_TEXT.
@@ -84,7 +85,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   CHECK COVER_TEXT_ON_SUBJECT, and the eye: next to the slide thumbnail.
 - « In simple terms » framed sentence; dated lists with hollow pink circles; priority tables with fixed geometry.
 - Contrast slides « How X turned… »: 8 rows, grey left box, small grey arrow, white logo tile, right box with 2 px pink frame.
-  CHECK CONTRAST ROWS (import), FILL.
+  Row spacing and text size stay as they are (more air or bigger text refused, 13 Nov 2026). CHECK CONTRAST ROWS (import), FILL.
 - Keep: the small gap at the end of connectors, column headers in line color, the grey emoji of « bad customer experience »,
   2 px pink frames, Pierre's own layouts (no redesign unless he asks; targeted fixes only).
 - Last slide « Thank you for your time »: title left-aligned.
@@ -106,6 +107,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A SIGNAL shows momentum now. `fresh: {period, end}` on each: month at most 6 months old, quarter 9, half-year 12, a
   cumulative total at a date 12; a yearly figure is the current year (last year until April). No fresh figure published:
   estimate the current year from the latest half-year or quarter (« should sell… »), with the arithmetic in the note.
+  An estimate is shown as 2 bars, last year against this year « (EST.) » (chosen over 3 bars and over a strip of figures).
   CHECK SIGNAL STALE, SIGNAL NO DATE (import). Older figures stay fine on the other slides.
 
 ## Delivery
