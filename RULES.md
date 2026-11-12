@@ -391,3 +391,6 @@ Cause commune : je ne regardais que les slides nouvelles, pas les 190, et les co
 - Les slides reprises de la page produit ne sont pas sourcées à part (décision de Pierre).
 - Logo introuvable : tuile aux initiales, ce n'est pas grave.
 - Correction d'une image de page produit : même nom de fichier, remplacée par fileUpdate (originalSource) pour garder l'URL ; ombre « page lift » par tools/pp/page_lift.py.
+
+## Nom du deck et trimestre (12/11/2026, 19:10)
+- Le deck se nomme avec le trimestre du moment où on le produit : « <Marché> - Q<n> <année> - newmarketpitch.com ©.pdf ». En novembre 2026 : Q4 2026. Jamais le trimestre des anciens decks.
