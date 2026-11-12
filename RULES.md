@@ -43,8 +43,11 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - No big pink numbers on navy (white). Never white and sand mixed in one text. Second bar color: light blue #7FA9C9, navy text on it.
 - Pink pill only on Market opportunity extra slides (« SIGNAL »). MARKET MAP pill only on the product page.
 - Every emoji has a line icon in tools/atelier2/icons.py. CHECK EMOJI_UNMAPPED, EMOJI_MIX.
-- Logos: white rounded tile, logo at 66 %, thin light border. Missing logo: the import fetches the site favicon from the domain
-  the research gives; initials only if that fails (accepted by Pierre). Decoration images (assets/deco) are never logos.
+- Logos: white rounded tile, logo at 66 %, thin light border. Order of search (tools/import_research.py `logo()`):
+  assets/logos, then Pierre's libraries (clone githpierre/nmp-pages `nmp-funding/logos/*/tile|fav` and
+  githpierre/nmp-product-pages `w/logos_all`, market-prefixed first), then assets/logos/pp, then the site favicon.
+  Wordmarks (content wider than 2.5x its height) are refused: unreadable in a square tile. Still missing: ask Pierre in one
+  list; initials meanwhile. Decoration images (assets/deco) are never logos.
 - Short date labels of timelines in capitals (« EARLY 2024 », « TODAY »). CHECK DATE_CASE.
 - A chart label never touches a bubble or another label. CHECK LABEL_ON_SHAPE.
 

@@ -125,6 +125,33 @@ def fetch_logo(domain, slug):
     return True
 
 
+LIBS = [Path('/home/claude/nmp-pages/nmp-funding/logos'), Path('/home/claude/nmp-product-pages/w/logos_all')]
+MARKET = ''
+
+
+def lib_logo(cands):
+    """Pierre's logo libraries (repos nmp-pages and nmp-product-pages): square tiles first, wide wordmarks refused"""
+    import shutil
+    from PIL import Image
+    for c in cands:
+        if not c: continue
+        keys = [c, c.replace('-', '')]
+        for lib in LIBS:
+            if not lib.exists(): continue
+            pats = [f'*/tile/{k}.png' for k in keys] + [f'*/fav/{k}.png' for k in keys] if 'funding' in str(lib) else [f'{MARKET}__{k}.png' for k in keys] + [f'{k}.png' for k in keys]
+            for pat in pats:
+                for f in sorted(lib.glob(pat)):
+                    w, h = Image.open(f).size
+                    im = Image.open(f).convert('RGBA'); bg = Image.new('RGBA', im.size, (255, 255, 255, 255)); bg.alpha_composite(im)
+                    from PIL import ImageChops
+                    bb = ImageChops.difference(bg.convert('RGB'), Image.new('RGB', im.size, (255, 255, 255))).getbbox() or (0, 0, w, h)
+                    bw, bh = bb[2] - bb[0], bb[3] - bb[1]
+                    if w < 64 or max(w, h) > 2.5 * min(w, h) or bw > 2.5 * bh: continue   # wordmark: unreadable in a square tile
+                    out = ROOT / 'assets/logos/lib' / f'{c}.png'; out.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy(f, out); return f'../../assets/logos/lib/{c}.png'
+    return None
+
+
 def logo(name, deck_rel=True):
     """company name -> logo path seen from deck.html: assets/logos (and pp/), else a generated initials tile (listed as missing)"""
     domain = ''
@@ -135,8 +162,11 @@ def logo(name, deck_rel=True):
     short = re.sub(r'-(therapeutics|biotherapeutics|biopharma|biotechnology|biotech|medicines|bio|inc|sciences|pharmaceuticals?|robotics|robot|ai|labs|technologies|technology|dynamics)$', '', base)
     cands += [short, short + '-therapeutics', short + '-bio', short + '-biopharma', short + '-robotics', short + '-ai']
     for c in cands:
-        for d in ('assets/logos', 'assets/logos/pp'):
-            if (ROOT / d / f'{c}.png').exists(): return f'../../{d}/{c}.png'
+        if (ROOT / 'assets/logos' / f'{c}.png').exists(): return f'../../assets/logos/{c}.png'
+    hit = lib_logo(cands)
+    if hit: return hit
+    for c in cands:
+        if (ROOT / 'assets/logos/pp' / f'{c}.png').exists(): return f'../../assets/logos/pp/{c}.png'
     if domain and fetch_logo(domain, base): return f'../../assets/logos/{base}.png'
     MISSING.add(name)
     from PIL import Image, ImageDraw, ImageFont
@@ -219,8 +249,8 @@ def main():
         elif isinstance(v, list):
             for x in v: walk(x)
     walk(R)
-    global OUTDIR
-    out = ROOT / a.out; out.mkdir(parents=True, exist_ok=True); OUTDIR = out
+    global OUTDIR, MARKET
+    out = ROOT / a.out; out.mkdir(parents=True, exist_ok=True); OUTDIR = out; MARKET = out.name
     demo = yaml.safe_load((ROOT / a.demo / 'deck.yaml').read_text())
     pains, vals = a.pain.split(';'), a.value.split(';')
     S, rep, sources = [], [], {}

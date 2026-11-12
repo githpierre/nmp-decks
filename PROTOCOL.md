@@ -5,6 +5,8 @@ The reference deck is `decks/in-vivo-car-t`. Every new market is built from it (
 Speak French to Pierre. Each step ends with a gate: do not go to the next step until the gate is green.
 
 ## Step 0. Start (Claude, 10 min)
+- Clone the logo libraries: githpierre/nmp-pages and githpierre/nmp-product-pages (add_repo, then `git clone --depth 1`
+  into /home/claude). The import reads them.
 - Footer label: the market's line in `data/market_labels.txt`. Market uuid and handle: nmp-seo `data/catalogues`.
 - Startups base: last `searched_until` of the market in nmp-seo `data/startups/coverage.csv`. Tell Pierre the date and the gap
   with today. Never ask him for a prompt that adds rounds: he updates the base himself, the deck takes its latest state.
@@ -63,6 +65,7 @@ Speak French to Pierre. Each step ends with a gate: do not go to the next step u
 ## Why the steps are built this way (errors of 12 Nov 2026, Humanoid Robotics)
 - In Vivo words left on slides nobody rewrote (agenda, sources divider): the import now swaps the model market's name and
   stops on `MODEL MARKET LEFT`.
+- Logos as tiny wordmarks or initials: the libraries in Pierre's other repos were not searched. The import now looks there first.
 - Logos blank on the audit images: the PNGs were taken after the PDF step had hidden images. PNGs are now taken first.
 - Many texts too long: the research exceeds target lengths; the import report lists them, step 4 fixes them before anything is shown.
 - 4 or 5 categories in a 3- or 4-slot layout: templates must take N items; the layout follows the data.

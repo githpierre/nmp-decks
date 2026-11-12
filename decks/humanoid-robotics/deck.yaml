@@ -108,16 +108,16 @@ slides:
   - Distance to the center reflects how closely each company fits a complete, task-performing humanoid platform
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market’s boundaries lie
   inside:
-  - ../../assets/logos/pp/figure-ai.png
-  - ../../assets/logos/pp/apptronik.png
-  - ../../assets/logos/pp/agility-robotics.png
+  - ../../assets/logos/lib/figure-ai.png
+  - ../../assets/logos/lib/apptronik.png
+  - ../../assets/logos/lib/agility-robotics.png
   - ../../assets/logos/boston-dynamics.png
   - ../../assets/logos/unitree-robotics.png
-  - ../../assets/logos/pp/1x.png
+  - ../../assets/logos/lib/1x.png
   - ../../assets/logos/sanctuary-ai.png
-  - ../../assets/logos/pp/neura.png
+  - ../../assets/logos/lib/neura-robotics.png
   TL:
-    src: ../../assets/logos/pp/nvidia.png
+    src: ../../assets/logos/lib/nvidia.png
     name: NVIDIA
     text: supplies computing and robot AI platforms, but does not independently sell a complete humanoid robot
   TR:
@@ -3672,17 +3672,17 @@ slides:
     amt: 900000000
     date: Q3 2026
     stage: Equity
-    src: media/ini/xpeng-robotics.png
+    src: ../../assets/logos/lib/xpeng.png
   - name: Apptronik
     amt: 520000000
     date: Q1 2026
     stage: Series A
-    src: ../../assets/logos/pp/apptronik.png
+    src: ../../assets/logos/lib/apptronik.png
   - name: TARS Robotics
     amt: 455000000
     date: Q2 2026
     stage: Seed
-    src: media/ini/tars-robotics.png
+    src: ../../assets/logos/lib/tars.png
   - name: Rhoda AI
     amt: 450000000
     date: Q1 2026
@@ -3702,22 +3702,22 @@ slides:
     amt: 1000000000
     date: Q3 2
     stage: Series C
-    src: ../../assets/logos/pp/figure-ai.png
+    src: ../../assets/logos/lib/figure-ai.png
   - name: UBTECH Robotics
     amt: 820000000
     date: Q2 2
     stage: Series C
-    src: media/ini/ubtech-robotics.png
+    src: ../../assets/logos/lib/ubtech.png
   - name: Figure AI
     amt: 675000000
     date: Q1 2
     stage: Series B
-    src: ../../assets/logos/pp/figure-ai.png
+    src: ../../assets/logos/lib/figure-ai.png
   - name: Apptronik
     amt: 350000000
     date: Q1 2
     stage: Series A
-    src: ../../assets/logos/pp/apptronik.png
+    src: ../../assets/logos/lib/apptronik.png
   note:
   - We listed the biggest equity rounds raised by humanoid robotics startups before the last twelve months
   - We used our tracker of rounds, company announcements and the press, with sources at the end
@@ -4404,7 +4404,7 @@ slides:
     - Digit 5 rollout|starts 2027
     - Still loss-making|2026 filing
     - ''
-    src: ../../assets/logos/pp/agility-robotics.png
+    src: ../../assets/logos/lib/agility-robotics.png
   - name: Sanctuary AI
     slug: sanctuary-ai
     ini: S
@@ -4437,7 +4437,7 @@ slides:
     - K-Bot orders|cancelled
     - ~$400K cash|left 2025
     - Shut down|Nov 2025
-    src: media/ini/k-scale-labs.png
+    src: ../../assets/logos/lib/k-scale.png
   - name: Cartwheel Robotics
     slug: cartwheel-robotics
     ini: C
