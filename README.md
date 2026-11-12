@@ -3,7 +3,7 @@
 NewMarketPitch market decks in HTML/CSS, exported to PDF (10 x 7 in, same design as the PowerPoint decks).
 
 ```
-python3 build.py edtech            # decks/edtech/deck.yaml -> PDF in decks/edtech/out/ (~3 s) + layout audit
+python3 build.py edtech-full       # decks/edtech-full/deck.yaml -> PDF in decks/edtech-full/out/ (~3 s) + layout audit
 python3 build.py edtech --png      # + one PNG per slide (visual check)
 python3 build.py edtech --only 4,9 # PNG of a few slides only
 ```

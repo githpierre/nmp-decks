@@ -1,0 +1,675 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Examples - Q3 2026</title>
+<link rel="stylesheet" href="../../css/nmp.css"></head><body>
+
+<section class="slide cover btn-b" data-n="1" data-type="cover">
+  <img class="photo" src="media/nuclear_fusion.jpg">
+  <div class="copy">© NEW MARKET PITCH</div>
+  <div class="tblock" data-maxw="452"><div class="big"><div class="ln">Nuclear</div><div class="ln">fusion</div></div><div class="sub">NEW MARKET PITCH</div><p class="disc under">This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.</p></div>
+  
+  
+  <div class="foot-brand busy">NEWMARKETPITCH.COM</div>
+  <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'), big = b.querySelector('.big'), max = +b.dataset.maxw;
+    // cover title: each line on one line, shrunk only if the longest line is wider than the free dark area (title_maxw)
+    // the pink "NEW MARKET PITCH" line shrinks with it (23/60 of the title size) and is measured too
+    const sub = b.querySelector('.sub'); let fs = 60;
+    const fit = () => { big.style.fontSize = fs + 'pt'; sub.style.fontSize = Math.max(14, Math.min(23, fs * 23 / 60 * 1.15)) + 'pt'; };
+    fit();
+    while (fs > 24 && Math.max(sub.scrollWidth, ...[...big.children].map(l => l.scrollWidth)) > max) { fs -= 2; fit(); }
+  })();</script>
+</section>
+
+
+<section class="slide " data-n="2" data-type="definition">
+  <div class="tri"></div>
+  <div class="section">Market definition</div>
+  <h1 class="title">What is the nuclear fusion market,<br>in simple terms?</h1>
+  
+  
+  
+
+
+<div class="body">
+<svg class="dash-arrows" viewBox="0 0 880 410" style="position:absolute;inset:0;width:100%;height:100%">
+  <g stroke="#334D54" stroke-width="1.5" stroke-dasharray="5 5" fill="none"><path d="M440 10 V60"/><path d="M440 400 V350"/><path d="M40 205 H100"/><path d="M840 205 H780"/></g>
+</svg>
+<div class="card defbox"><span class="ico tl">⚛️</span>The nuclear fusion market is the reactors, magnets, lasers, and fuel that governments, utilities, and investors fund to make clean power from fusing atoms<span class="ico br">✅</span></div>
+</div>
+
+  <p class="note lines"><span class="nl">We often use a conversational tone, which may sometimes sound a bit informal</span><span class="nl">We do it on purpose, because it reduces cognitive load and makes slides easier</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">NUCLEAR FUSION market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+
+<section class="slide " data-n="3" data-type="worldmap">
+  <div class="tri"></div>
+  <div class="section">Market size</div>
+  <h1 class="title">Where in the world is<br>nuclear fusion money spent?</h1>
+  
+  
+  
+
+<div class="map"><img class="w" src="../../assets/img/world-map.svg">
+<svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
+
+<div class="dot" data-k="na" style="left:309.64px;top:345.64px;width:42.72px;height:42.72px"></div>
+<div class="reg" data-k="na" data-start="middle" data-end="auto" data-bend="0.67" style="left:24px;top:177px;width:246px"><h4>NORTH AMERICA - 48%</h4><p>North America leads, with most private fusion startups, the largest rounds raised so far, and the first deals to sell fusion power to tech companies.</p></div>
+<div class="dot" data-k="eu" style="left:482.32px;top:348.32px;width:21.36px;height:21.36px"></div>
+<div class="reg" data-k="eu" data-start="middle" data-end="auto" data-bend="0.67" style="left:396px;top:177px;width:313px"><h4>EUROPE - 24%</h4><p>Europe relies on public programs and a few startups, with ITER in France as its anchor and national labs in the UK and Germany behind most of the work.</p></div>
+<div class="dot" data-k="apac" style="left:622.655px;top:393.655px;width:18.69px;height:18.69px"></div>
+<div class="reg" data-k="apac" data-start="middle" data-end="auto" data-bend="0.67" style="left:730px;top:272px;width:190px"><h4>ASIA-PACIFIC - 21%</h4><p>Asia-Pacific grows with China and Japan, where the state funds large test reactors and moves faster than most private projects in the West.</p></div>
+<div class="dot" data-k="latam" style="left:409.5px;top:441.5px;width:5px;height:5px"></div>
+<div class="reg" data-k="latam" data-start="middle" data-end="auto" data-bend="0.67" style="left:31px;top:459px;width:280px"><h4>LATIN AMERICA - 2%</h4><p>Latin America has almost no fusion spending yet, outside of a few university research labs in Brazil and Argentina.</p></div>
+<div class="dot" data-k="mea" style="left:526.5px;top:393.5px;width:5px;height:5px"></div>
+<div class="reg" data-k="mea" data-start="middle" data-end="auto" data-bend="0.67" style="left:440px;top:500px;width:290px"><h4>MIDDLE EAST &amp; AFRICA - 5%</h4><p>The Middle East funds a few partnerships with Western startups, mostly to prepare the energy mix that comes after oil and gas.</p></div>
+<script>/* Region texts: 3 lines (Pierre, 10 Nov 2026). If the text needs more than 3 lines at its default width, the box widens
+   around its centre (up to +110 px, inside the 24-936 px margins) until it fits on 3 lines. Audit MAP_TEXT_LINES checks 3 lines. */
+(() => { const map = document.currentScript.parentElement;
+  map.querySelectorAll('.reg').forEach(reg => { const p = reg.querySelector('p'), lh = parseFloat(getComputedStyle(p).lineHeight);
+    const lines = () => Math.round(p.getBoundingClientRect().height / lh);
+    const w0 = reg.offsetWidth, c = reg.offsetLeft + w0 / 2;
+    for (let w = w0; lines() > 3 && w <= w0 + 110; w += 4) {
+      let l = Math.max(24, c - w / 2); if (l + w > 936) l = 936 - w;
+      reg.style.width = w + 'px'; reg.style.left = l + 'px'; }
+    reg.dataset.lines = lines(); }); })();
+</script>
+<script>
+/* Map leader lines (dotted). Per region (deck.yaml) or per slide (line_start / line_end / line_bend):
+   start: corner = the text corner nearest the dot | middle = middle of the text edge facing the dot | side = side of the middle line
+   end:   auto (horizontal arrival, or vertical when the line leaves from the side) | h | v | radial (aims at the dot centre)
+   bend:  0..1, length of the curve handles (0.9 = tight elbow, 0.67 = rounded elbow, 0.35 = soft curve)
+   The line starts 4 px from the text and stops 3 px from the dot. */
+(() => { const map = document.currentScript.parentElement, S = map.closest('.slide').getBoundingClientRect(), g = map.querySelector('svg.lines g');
+  map.querySelectorAll('.reg').forEach(reg => {
+    const dot = map.querySelector('.dot[data-k="' + reg.dataset.k + '"]'); if (!dot) return;
+    const d = dot.getBoundingClientRect(), cx = d.left + d.width / 2 - S.left, cy = d.top + d.height / 2 - S.top, rad = d.width / 2, gap = rad + 3;
+    const p = reg.querySelector('p'), h = reg.querySelector('h4');
+    const rg = document.createRange(); rg.selectNodeContents(p);
+    const lines = [...rg.getClientRects()].map(r => ({l: r.left - S.left, r: r.right - S.left, t: r.top - S.top, b: r.bottom - S.top}));
+    const rh = document.createRange(); rh.selectNodeContents(h); const hb = rh.getBoundingClientRect();   // the title's TEXT, not its box
+    const hl = hb.left - S.left, hr = hb.right - S.left, top = hb.top - S.top, bot = lines[lines.length - 1].b;
+    const left = Math.min(...lines.map(x => x.l), hl), right = Math.max(...lines.map(x => x.r), hr);
+    const mode = reg.dataset.start, endm = reg.dataset.end, k = +reg.dataset.bend;
+    const rel = cy > bot + 20 ? 'below' : (cy < top - 20 ? 'above' : 'beside');
+    const rows = [{l: hl, r: hr, t: top, b: hb.bottom - S.top}, ...lines];          // title + text lines
+    const dir = cx > (left + right) / 2 ? 1 : -1;                                     // dot to the right (1) or left (-1)
+    const sideOf = ln => [dir > 0 ? ln.r + 4 : ln.l - 4, (ln.t + ln.b) / 2, [dir, 0]];
+    let sx, sy, t0;                                            // start point and start direction
+    if (rel === 'beside') {
+      const mid = lines[Math.floor((lines.length - 1) / 2)];
+      const near = rows.reduce((a, r) => Math.abs((r.t + r.b) / 2 - cy) < Math.abs((a.t + a.b) / 2 - cy) ? r : a);
+      if (mode === 'corner') { const c = cy < (top + bot) / 2 ? rows[0] : lines[lines.length - 1]; [sx, sy, t0] = sideOf(c); }
+      else if (mode === 'side') [sx, sy, t0] = sideOf(near);
+      else [sx, sy, t0] = sideOf(mid);
+    } else if (rel === 'below') {
+      const ln = lines[lines.length - 1];
+      if (mode === 'side') [sx, sy, t0] = sideOf(ln);
+      else { sy = bot + 4; t0 = [0, 1]; sx = mode === 'middle' ? (ln.l + ln.r) / 2 : (dir > 0 ? ln.r - 8 : ln.l + 8); }
+    } else {
+      if (mode === 'side') [sx, sy, t0] = sideOf(rows[0]);
+      else { sy = top - 4; t0 = [0, -1]; sx = mode === 'middle' ? (hl + hr) / 2 : (dir > 0 ? hr - 8 : hl + 8); }
+    }
+    let em = endm === 'auto' ? (t0[0] ? 'v' : 'h') : endm;
+    if (em === 'h' && Math.abs(cx - sx) < gap + 12) em = 'v';      // no room to arrive from the side
+    if (em === 'v' && Math.abs(cy - sy) < gap + 12) em = 'h';
+    let ex, ey, t1;
+    if (em === 'h') { const s = Math.sign(cx - sx) || 1; ex = cx - s * gap; ey = cy; t1 = [s, 0]; }
+    else if (em === 'v') { const s = Math.sign(cy - sy) || 1; ex = cx; ey = cy - s * gap; t1 = [0, s]; }
+    else { const L = Math.hypot(cx - sx, cy - sy), u = [(cx - sx) / L, (cy - sy) / L]; ex = cx - u[0] * gap; ey = cy - u[1] * gap; t1 = u; }
+    const dx = Math.abs(ex - sx), dy = Math.abs(ey - sy), dist = Math.hypot(dx, dy);
+    const l0 = k * (t0[0] ? dx : dy), l1 = k * (em === 'radial' ? dist * .5 : (t1[0] ? dx : dy));
+    const path = `M${sx} ${sy} C${sx + t0[0] * l0} ${sy + t0[1] * l0} ${ex - t1[0] * l1} ${ey - t1[1] * l1} ${ex} ${ey}`;
+    const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
+    // bounding box of text + dot, used by the workshop zoom
+    const zb = [Math.min(left, cx - rad, sx) - 14, Math.min(top, cy - rad, sy) - 14, Math.max(right, cx + rad, sx) + 14, Math.max(bot, cy + rad, sy) + 14];
+    reg.dataset.zoom = zb.map(Math.round).join(',');
+  });
+})();
+</script>
+</div>
+  <p class="note lines"><span class="nl">Example layout: the shares and texts on this map are illustrative, not research results</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">NUCLEAR FUSION market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+<section class="slide cover btn-b" data-n="1" data-type="cover">
+  <img class="photo" src="media/biotechnology.jpg">
+  <div class="copy">© NEW MARKET PITCH</div>
+  <div class="tblock" data-maxw="544"><div class="big"><div class="ln">Biotechnology</div></div><div class="sub">NEW MARKET PITCH</div><p class="disc under">This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.</p></div>
+  
+  
+  <div class="foot-brand">NEWMARKETPITCH.COM</div>
+  <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'), big = b.querySelector('.big'), max = +b.dataset.maxw;
+    // cover title: each line on one line, shrunk only if the longest line is wider than the free dark area (title_maxw)
+    // the pink "NEW MARKET PITCH" line shrinks with it (23/60 of the title size) and is measured too
+    const sub = b.querySelector('.sub'); let fs = 60;
+    const fit = () => { big.style.fontSize = fs + 'pt'; sub.style.fontSize = Math.max(14, Math.min(23, fs * 23 / 60 * 1.15)) + 'pt'; };
+    fit();
+    while (fs > 24 && Math.max(sub.scrollWidth, ...[...big.children].map(l => l.scrollWidth)) > max) { fs -= 2; fit(); }
+  })();</script>
+</section>
+
+
+<section class="slide " data-n="5" data-type="definition">
+  <div class="tri"></div>
+  <div class="section">Market definition</div>
+  <h1 class="title">What is the biotechnology market,<br>in simple terms?</h1>
+  
+  
+  
+
+
+<div class="body">
+<svg class="dash-arrows" viewBox="0 0 880 410" style="position:absolute;inset:0;width:100%;height:100%">
+  <g stroke="#334D54" stroke-width="1.5" stroke-dasharray="5 5" fill="none"><path d="M440 10 V60"/><path d="M440 400 V350"/><path d="M40 205 H100"/><path d="M840 205 H780"/></g>
+</svg>
+<div class="card defbox"><span class="ico tl">🧬</span>The biotechnology market is the drugs, tools, and lab services built from living cells that pharma groups, hospitals, and labs pay for to treat and test diseases<span class="ico br">✅</span></div>
+</div>
+
+  <p class="note lines"><span class="nl">We often use a conversational tone, which may sometimes sound a bit informal</span><span class="nl">We do it on purpose, because it reduces cognitive load and makes slides easier</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">BIOTECHNOLOGY market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+
+<section class="slide " data-n="6" data-type="worldmap">
+  <div class="tri"></div>
+  <div class="section">Market size</div>
+  <h1 class="title">Where in the world is<br>biotechnology money spent?</h1>
+  
+  
+  
+
+<div class="map"><img class="w" src="../../assets/img/world-map.svg">
+<svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
+
+<div class="dot" data-k="na" style="left:311.42px;top:347.42px;width:39.160000000000004px;height:39.160000000000004px"></div>
+<div class="reg" data-k="na" data-start="middle" data-end="auto" data-bend="0.67" style="left:24px;top:177px;width:246px"><h4>NORTH AMERICA - 44%</h4><p>North America leads by far, with Boston and San Francisco as the two main hubs for biotech startups, investors, and big pharma buyers.</p></div>
+<div class="dot" data-k="eu" style="left:481.875px;top:347.875px;width:22.25px;height:22.25px"></div>
+<div class="reg" data-k="eu" data-start="middle" data-end="auto" data-bend="0.67" style="left:396px;top:177px;width:313px"><h4>EUROPE - 25%</h4><p>Europe is strong in research, with hubs in the UK, Switzerland, and Germany, but its startups raise less money and often sell out early.</p></div>
+<div class="dot" data-k="apac" style="left:621.765px;top:392.765px;width:20.47px;height:20.47px"></div>
+<div class="reg" data-k="apac" data-start="middle" data-end="auto" data-bend="0.67" style="left:730px;top:272px;width:190px"><h4>ASIA-PACIFIC - 23%</h4><p>Asia-Pacific grows fast, led by China and South Korea, which now run many of the world’s drug trials and make a growing share of new drugs.</p></div>
+<div class="dot" data-k="latam" style="left:409.5px;top:441.5px;width:5px;height:5px"></div>
+<div class="reg" data-k="latam" data-start="middle" data-end="auto" data-bend="0.67" style="left:31px;top:459px;width:280px"><h4>LATIN AMERICA - 4%</h4><p>Latin America is small and mostly buys drugs and tests made elsewhere, with a few local makers in Brazil and Argentina.</p></div>
+<div class="dot" data-k="mea" style="left:526.5px;top:393.5px;width:5px;height:5px"></div>
+<div class="reg" data-k="mea" data-start="middle" data-end="auto" data-bend="0.67" style="left:440px;top:500px;width:290px"><h4>MIDDLE EAST &amp; AFRICA - 4%</h4><p>The Middle East invests in local production and research centers, while Africa remains a small market that mostly buys from abroad.</p></div>
+<script>/* Region texts: 3 lines (Pierre, 10 Nov 2026). If the text needs more than 3 lines at its default width, the box widens
+   around its centre (up to +110 px, inside the 24-936 px margins) until it fits on 3 lines. Audit MAP_TEXT_LINES checks 3 lines. */
+(() => { const map = document.currentScript.parentElement;
+  map.querySelectorAll('.reg').forEach(reg => { const p = reg.querySelector('p'), lh = parseFloat(getComputedStyle(p).lineHeight);
+    const lines = () => Math.round(p.getBoundingClientRect().height / lh);
+    const w0 = reg.offsetWidth, c = reg.offsetLeft + w0 / 2;
+    for (let w = w0; lines() > 3 && w <= w0 + 110; w += 4) {
+      let l = Math.max(24, c - w / 2); if (l + w > 936) l = 936 - w;
+      reg.style.width = w + 'px'; reg.style.left = l + 'px'; }
+    reg.dataset.lines = lines(); }); })();
+</script>
+<script>
+/* Map leader lines (dotted). Per region (deck.yaml) or per slide (line_start / line_end / line_bend):
+   start: corner = the text corner nearest the dot | middle = middle of the text edge facing the dot | side = side of the middle line
+   end:   auto (horizontal arrival, or vertical when the line leaves from the side) | h | v | radial (aims at the dot centre)
+   bend:  0..1, length of the curve handles (0.9 = tight elbow, 0.67 = rounded elbow, 0.35 = soft curve)
+   The line starts 4 px from the text and stops 3 px from the dot. */
+(() => { const map = document.currentScript.parentElement, S = map.closest('.slide').getBoundingClientRect(), g = map.querySelector('svg.lines g');
+  map.querySelectorAll('.reg').forEach(reg => {
+    const dot = map.querySelector('.dot[data-k="' + reg.dataset.k + '"]'); if (!dot) return;
+    const d = dot.getBoundingClientRect(), cx = d.left + d.width / 2 - S.left, cy = d.top + d.height / 2 - S.top, rad = d.width / 2, gap = rad + 3;
+    const p = reg.querySelector('p'), h = reg.querySelector('h4');
+    const rg = document.createRange(); rg.selectNodeContents(p);
+    const lines = [...rg.getClientRects()].map(r => ({l: r.left - S.left, r: r.right - S.left, t: r.top - S.top, b: r.bottom - S.top}));
+    const rh = document.createRange(); rh.selectNodeContents(h); const hb = rh.getBoundingClientRect();   // the title's TEXT, not its box
+    const hl = hb.left - S.left, hr = hb.right - S.left, top = hb.top - S.top, bot = lines[lines.length - 1].b;
+    const left = Math.min(...lines.map(x => x.l), hl), right = Math.max(...lines.map(x => x.r), hr);
+    const mode = reg.dataset.start, endm = reg.dataset.end, k = +reg.dataset.bend;
+    const rel = cy > bot + 20 ? 'below' : (cy < top - 20 ? 'above' : 'beside');
+    const rows = [{l: hl, r: hr, t: top, b: hb.bottom - S.top}, ...lines];          // title + text lines
+    const dir = cx > (left + right) / 2 ? 1 : -1;                                     // dot to the right (1) or left (-1)
+    const sideOf = ln => [dir > 0 ? ln.r + 4 : ln.l - 4, (ln.t + ln.b) / 2, [dir, 0]];
+    let sx, sy, t0;                                            // start point and start direction
+    if (rel === 'beside') {
+      const mid = lines[Math.floor((lines.length - 1) / 2)];
+      const near = rows.reduce((a, r) => Math.abs((r.t + r.b) / 2 - cy) < Math.abs((a.t + a.b) / 2 - cy) ? r : a);
+      if (mode === 'corner') { const c = cy < (top + bot) / 2 ? rows[0] : lines[lines.length - 1]; [sx, sy, t0] = sideOf(c); }
+      else if (mode === 'side') [sx, sy, t0] = sideOf(near);
+      else [sx, sy, t0] = sideOf(mid);
+    } else if (rel === 'below') {
+      const ln = lines[lines.length - 1];
+      if (mode === 'side') [sx, sy, t0] = sideOf(ln);
+      else { sy = bot + 4; t0 = [0, 1]; sx = mode === 'middle' ? (ln.l + ln.r) / 2 : (dir > 0 ? ln.r - 8 : ln.l + 8); }
+    } else {
+      if (mode === 'side') [sx, sy, t0] = sideOf(rows[0]);
+      else { sy = top - 4; t0 = [0, -1]; sx = mode === 'middle' ? (hl + hr) / 2 : (dir > 0 ? hr - 8 : hl + 8); }
+    }
+    let em = endm === 'auto' ? (t0[0] ? 'v' : 'h') : endm;
+    if (em === 'h' && Math.abs(cx - sx) < gap + 12) em = 'v';      // no room to arrive from the side
+    if (em === 'v' && Math.abs(cy - sy) < gap + 12) em = 'h';
+    let ex, ey, t1;
+    if (em === 'h') { const s = Math.sign(cx - sx) || 1; ex = cx - s * gap; ey = cy; t1 = [s, 0]; }
+    else if (em === 'v') { const s = Math.sign(cy - sy) || 1; ex = cx; ey = cy - s * gap; t1 = [0, s]; }
+    else { const L = Math.hypot(cx - sx, cy - sy), u = [(cx - sx) / L, (cy - sy) / L]; ex = cx - u[0] * gap; ey = cy - u[1] * gap; t1 = u; }
+    const dx = Math.abs(ex - sx), dy = Math.abs(ey - sy), dist = Math.hypot(dx, dy);
+    const l0 = k * (t0[0] ? dx : dy), l1 = k * (em === 'radial' ? dist * .5 : (t1[0] ? dx : dy));
+    const path = `M${sx} ${sy} C${sx + t0[0] * l0} ${sy + t0[1] * l0} ${ex - t1[0] * l1} ${ey - t1[1] * l1} ${ex} ${ey}`;
+    const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
+    // bounding box of text + dot, used by the workshop zoom
+    const zb = [Math.min(left, cx - rad, sx) - 14, Math.min(top, cy - rad, sy) - 14, Math.max(right, cx + rad, sx) + 14, Math.max(bot, cy + rad, sy) + 14];
+    reg.dataset.zoom = zb.map(Math.round).join(',');
+  });
+})();
+</script>
+</div>
+  <p class="note lines"><span class="nl">Example layout: the shares and texts on this map are illustrative, not research results</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">BIOTECHNOLOGY market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+<section class="slide cover btn-b" data-n="1" data-type="cover">
+  <img class="photo" src="media/wearable_technology.jpg">
+  <div class="copy">© NEW MARKET PITCH</div>
+  <div class="tblock" data-maxw="504"><div class="big"><div class="ln">Wearable</div><div class="ln">technology</div></div><div class="sub">NEW MARKET PITCH</div><p class="disc under">This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.</p></div>
+  
+  
+  <div class="foot-brand busy">NEWMARKETPITCH.COM</div>
+  <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'), big = b.querySelector('.big'), max = +b.dataset.maxw;
+    // cover title: each line on one line, shrunk only if the longest line is wider than the free dark area (title_maxw)
+    // the pink "NEW MARKET PITCH" line shrinks with it (23/60 of the title size) and is measured too
+    const sub = b.querySelector('.sub'); let fs = 60;
+    const fit = () => { big.style.fontSize = fs + 'pt'; sub.style.fontSize = Math.max(14, Math.min(23, fs * 23 / 60 * 1.15)) + 'pt'; };
+    fit();
+    while (fs > 24 && Math.max(sub.scrollWidth, ...[...big.children].map(l => l.scrollWidth)) > max) { fs -= 2; fit(); }
+  })();</script>
+</section>
+
+
+<section class="slide " data-n="8" data-type="definition">
+  <div class="tri"></div>
+  <div class="section">Market definition</div>
+  <h1 class="title">What is the wearable tech market,<br>in simple terms?</h1>
+  
+  
+  
+
+
+<div class="body">
+<svg class="dash-arrows" viewBox="0 0 880 410" style="position:absolute;inset:0;width:100%;height:100%">
+  <g stroke="#334D54" stroke-width="1.5" stroke-dasharray="5 5" fill="none"><path d="M440 10 V60"/><path d="M440 400 V350"/><path d="M40 205 H100"/><path d="M840 205 H780"/></g>
+</svg>
+<div class="card defbox"><span class="ico tl">⌚</span>The wearable tech market is the watches, rings, bands, and glasses that consumers, insurers, and employers buy to track health, stay connected, and stay safe<span class="ico br">✅</span></div>
+</div>
+
+  <p class="note lines"><span class="nl">We often use a conversational tone, which may sometimes sound a bit informal</span><span class="nl">We do it on purpose, because it reduces cognitive load and makes slides easier</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">WEARABLE TECH market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+
+<section class="slide " data-n="9" data-type="worldmap">
+  <div class="tri"></div>
+  <div class="section">Market size</div>
+  <h1 class="title">Where in the world is<br>wearable tech money spent?</h1>
+  
+  
+  
+
+<div class="map"><img class="w" src="../../assets/img/world-map.svg">
+<svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
+
+<div class="dot" data-k="na" style="left:316.315px;top:352.315px;width:29.37px;height:29.37px"></div>
+<div class="reg" data-k="na" data-start="middle" data-end="auto" data-bend="0.67" style="left:24px;top:177px;width:246px"><h4>NORTH AMERICA - 33%</h4><p>North America is the largest market for smartwatches and rings, where people pay more for health tracking and a premium brand.</p></div>
+<div class="dot" data-k="eu" style="left:481.43px;top:347.43px;width:23.14px;height:23.14px"></div>
+<div class="reg" data-k="eu" data-start="middle" data-end="auto" data-bend="0.67" style="left:396px;top:177px;width:313px"><h4>EUROPE - 26%</h4><p>Europe buys a lot of fitness trackers and smartwatches, with strong sales in Germany and the UK, and stricter rules on health data.</p></div>
+<div class="dot" data-k="apac" style="left:618.65px;top:389.65px;width:26.7px;height:26.7px"></div>
+<div class="reg" data-k="apac" data-start="middle" data-end="auto" data-bend="0.67" style="left:730px;top:272px;width:190px"><h4>ASIA-PACIFIC - 30%</h4><p>Asia-Pacific has the most users, led by China and India, where cheap bands from local brands sell in very large volumes.</p></div>
+<div class="dot" data-k="latam" style="left:409.5px;top:441.5px;width:5px;height:5px"></div>
+<div class="reg" data-k="latam" data-start="middle" data-end="auto" data-bend="0.67" style="left:31px;top:459px;width:280px"><h4>LATIN AMERICA - 5%</h4><p>Latin America buys mostly low-cost bands and older watch models, with Brazil and Mexico as the two largest markets.</p></div>
+<div class="dot" data-k="mea" style="left:526.33px;top:393.33px;width:5.34px;height:5.34px"></div>
+<div class="reg" data-k="mea" data-start="middle" data-end="auto" data-bend="0.67" style="left:440px;top:500px;width:290px"><h4>MIDDLE EAST &amp; AFRICA - 6%</h4><p>The Gulf countries buy premium watches and rings, while the rest of the region is still a small market for cheaper bands.</p></div>
+<script>/* Region texts: 3 lines (Pierre, 10 Nov 2026). If the text needs more than 3 lines at its default width, the box widens
+   around its centre (up to +110 px, inside the 24-936 px margins) until it fits on 3 lines. Audit MAP_TEXT_LINES checks 3 lines. */
+(() => { const map = document.currentScript.parentElement;
+  map.querySelectorAll('.reg').forEach(reg => { const p = reg.querySelector('p'), lh = parseFloat(getComputedStyle(p).lineHeight);
+    const lines = () => Math.round(p.getBoundingClientRect().height / lh);
+    const w0 = reg.offsetWidth, c = reg.offsetLeft + w0 / 2;
+    for (let w = w0; lines() > 3 && w <= w0 + 110; w += 4) {
+      let l = Math.max(24, c - w / 2); if (l + w > 936) l = 936 - w;
+      reg.style.width = w + 'px'; reg.style.left = l + 'px'; }
+    reg.dataset.lines = lines(); }); })();
+</script>
+<script>
+/* Map leader lines (dotted). Per region (deck.yaml) or per slide (line_start / line_end / line_bend):
+   start: corner = the text corner nearest the dot | middle = middle of the text edge facing the dot | side = side of the middle line
+   end:   auto (horizontal arrival, or vertical when the line leaves from the side) | h | v | radial (aims at the dot centre)
+   bend:  0..1, length of the curve handles (0.9 = tight elbow, 0.67 = rounded elbow, 0.35 = soft curve)
+   The line starts 4 px from the text and stops 3 px from the dot. */
+(() => { const map = document.currentScript.parentElement, S = map.closest('.slide').getBoundingClientRect(), g = map.querySelector('svg.lines g');
+  map.querySelectorAll('.reg').forEach(reg => {
+    const dot = map.querySelector('.dot[data-k="' + reg.dataset.k + '"]'); if (!dot) return;
+    const d = dot.getBoundingClientRect(), cx = d.left + d.width / 2 - S.left, cy = d.top + d.height / 2 - S.top, rad = d.width / 2, gap = rad + 3;
+    const p = reg.querySelector('p'), h = reg.querySelector('h4');
+    const rg = document.createRange(); rg.selectNodeContents(p);
+    const lines = [...rg.getClientRects()].map(r => ({l: r.left - S.left, r: r.right - S.left, t: r.top - S.top, b: r.bottom - S.top}));
+    const rh = document.createRange(); rh.selectNodeContents(h); const hb = rh.getBoundingClientRect();   // the title's TEXT, not its box
+    const hl = hb.left - S.left, hr = hb.right - S.left, top = hb.top - S.top, bot = lines[lines.length - 1].b;
+    const left = Math.min(...lines.map(x => x.l), hl), right = Math.max(...lines.map(x => x.r), hr);
+    const mode = reg.dataset.start, endm = reg.dataset.end, k = +reg.dataset.bend;
+    const rel = cy > bot + 20 ? 'below' : (cy < top - 20 ? 'above' : 'beside');
+    const rows = [{l: hl, r: hr, t: top, b: hb.bottom - S.top}, ...lines];          // title + text lines
+    const dir = cx > (left + right) / 2 ? 1 : -1;                                     // dot to the right (1) or left (-1)
+    const sideOf = ln => [dir > 0 ? ln.r + 4 : ln.l - 4, (ln.t + ln.b) / 2, [dir, 0]];
+    let sx, sy, t0;                                            // start point and start direction
+    if (rel === 'beside') {
+      const mid = lines[Math.floor((lines.length - 1) / 2)];
+      const near = rows.reduce((a, r) => Math.abs((r.t + r.b) / 2 - cy) < Math.abs((a.t + a.b) / 2 - cy) ? r : a);
+      if (mode === 'corner') { const c = cy < (top + bot) / 2 ? rows[0] : lines[lines.length - 1]; [sx, sy, t0] = sideOf(c); }
+      else if (mode === 'side') [sx, sy, t0] = sideOf(near);
+      else [sx, sy, t0] = sideOf(mid);
+    } else if (rel === 'below') {
+      const ln = lines[lines.length - 1];
+      if (mode === 'side') [sx, sy, t0] = sideOf(ln);
+      else { sy = bot + 4; t0 = [0, 1]; sx = mode === 'middle' ? (ln.l + ln.r) / 2 : (dir > 0 ? ln.r - 8 : ln.l + 8); }
+    } else {
+      if (mode === 'side') [sx, sy, t0] = sideOf(rows[0]);
+      else { sy = top - 4; t0 = [0, -1]; sx = mode === 'middle' ? (hl + hr) / 2 : (dir > 0 ? hr - 8 : hl + 8); }
+    }
+    let em = endm === 'auto' ? (t0[0] ? 'v' : 'h') : endm;
+    if (em === 'h' && Math.abs(cx - sx) < gap + 12) em = 'v';      // no room to arrive from the side
+    if (em === 'v' && Math.abs(cy - sy) < gap + 12) em = 'h';
+    let ex, ey, t1;
+    if (em === 'h') { const s = Math.sign(cx - sx) || 1; ex = cx - s * gap; ey = cy; t1 = [s, 0]; }
+    else if (em === 'v') { const s = Math.sign(cy - sy) || 1; ex = cx; ey = cy - s * gap; t1 = [0, s]; }
+    else { const L = Math.hypot(cx - sx, cy - sy), u = [(cx - sx) / L, (cy - sy) / L]; ex = cx - u[0] * gap; ey = cy - u[1] * gap; t1 = u; }
+    const dx = Math.abs(ex - sx), dy = Math.abs(ey - sy), dist = Math.hypot(dx, dy);
+    const l0 = k * (t0[0] ? dx : dy), l1 = k * (em === 'radial' ? dist * .5 : (t1[0] ? dx : dy));
+    const path = `M${sx} ${sy} C${sx + t0[0] * l0} ${sy + t0[1] * l0} ${ex - t1[0] * l1} ${ey - t1[1] * l1} ${ex} ${ey}`;
+    const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
+    // bounding box of text + dot, used by the workshop zoom
+    const zb = [Math.min(left, cx - rad, sx) - 14, Math.min(top, cy - rad, sy) - 14, Math.max(right, cx + rad, sx) + 14, Math.max(bot, cy + rad, sy) + 14];
+    reg.dataset.zoom = zb.map(Math.round).join(',');
+  });
+})();
+</script>
+</div>
+  <p class="note lines"><span class="nl">Example layout: the shares and texts on this map are illustrative, not research results</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">WEARABLE TECH market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+<section class="slide cover btn-b" data-n="1" data-type="cover">
+  <img class="photo" src="media/ai_voice_agents.jpg">
+  <div class="copy">© NEW MARKET PITCH</div>
+  <div class="tblock" data-maxw="560"><div class="big"><div class="ln">AI voice</div><div class="ln">agents</div></div><div class="sub">NEW MARKET PITCH</div><p class="disc under">This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.</p></div>
+  
+  
+  <div class="foot-brand">NEWMARKETPITCH.COM</div>
+  <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'), big = b.querySelector('.big'), max = +b.dataset.maxw;
+    // cover title: each line on one line, shrunk only if the longest line is wider than the free dark area (title_maxw)
+    // the pink "NEW MARKET PITCH" line shrinks with it (23/60 of the title size) and is measured too
+    const sub = b.querySelector('.sub'); let fs = 60;
+    const fit = () => { big.style.fontSize = fs + 'pt'; sub.style.fontSize = Math.max(14, Math.min(23, fs * 23 / 60 * 1.15)) + 'pt'; };
+    fit();
+    while (fs > 24 && Math.max(sub.scrollWidth, ...[...big.children].map(l => l.scrollWidth)) > max) { fs -= 2; fit(); }
+  })();</script>
+</section>
+
+
+<section class="slide " data-n="11" data-type="definition">
+  <div class="tri"></div>
+  <div class="section">Market definition</div>
+  <h1 class="title">What is the AI voice agents market,<br>in simple terms?</h1>
+  
+  
+  
+
+
+<div class="body">
+<svg class="dash-arrows" viewBox="0 0 880 410" style="position:absolute;inset:0;width:100%;height:100%">
+  <g stroke="#334D54" stroke-width="1.5" stroke-dasharray="5 5" fill="none"><path d="M440 10 V60"/><path d="M440 400 V350"/><path d="M40 205 H100"/><path d="M840 205 H780"/></g>
+</svg>
+<div class="card defbox"><span class="ico tl">🎙️</span>The AI voice agents market is the software that talks on the phone for you, which companies pay for to answer, sell, and book without a human agent<span class="ico br">✅</span></div>
+</div>
+
+  <p class="note lines"><span class="nl">We often use a conversational tone, which may sometimes sound a bit informal</span><span class="nl">We do it on purpose, because it reduces cognitive load and makes slides easier</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">AI VOICE AGENTS market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+
+<section class="slide " data-n="12" data-type="worldmap">
+  <div class="tri"></div>
+  <div class="section">Market size</div>
+  <h1 class="title">Where in the world is<br>AI voice agents money spent?</h1>
+  
+  
+  
+
+<div class="map"><img class="w" src="../../assets/img/world-map.svg">
+<svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
+
+<div class="dot" data-k="na" style="left:307.86px;top:343.86px;width:46.28px;height:46.28px"></div>
+<div class="reg" data-k="na" data-start="middle" data-end="auto" data-bend="0.67" style="left:24px;top:177px;width:246px"><h4>NORTH AMERICA - 52%</h4><p>North America leads, since most voice agent startups and their first big customers are in the US, from call centers to clinics and car dealers.</p></div>
+<div class="dot" data-k="eu" style="left:483.655px;top:349.655px;width:18.69px;height:18.69px"></div>
+<div class="reg" data-k="eu" data-start="middle" data-end="auto" data-bend="0.67" style="left:396px;top:177px;width:313px"><h4>EUROPE - 21%</h4><p>Europe follows, slowed by language diversity and strict privacy rules that make every rollout longer, even for large companies.</p></div>
+<div class="dot" data-k="apac" style="left:624.435px;top:395.435px;width:15.13px;height:15.13px"></div>
+<div class="reg" data-k="apac" data-start="middle" data-end="auto" data-bend="0.67" style="left:730px;top:272px;width:190px"><h4>ASIA-PACIFIC - 17%</h4><p>Asia-Pacific grows with India and the Philippines, where outsourced call centers start to use AI agents for simple calls.</p></div>
+<div class="dot" data-k="latam" style="left:409.5px;top:441.5px;width:5px;height:5px"></div>
+<div class="reg" data-k="latam" data-start="middle" data-end="auto" data-bend="0.67" style="left:31px;top:459px;width:280px"><h4>LATIN AMERICA - 5%</h4><p>Latin America tests voice agents in banks and telecom companies, mostly in Spanish and Portuguese, and often with local partners.</p></div>
+<div class="dot" data-k="mea" style="left:526.5px;top:393.5px;width:5px;height:5px"></div>
+<div class="reg" data-k="mea" data-start="middle" data-end="auto" data-bend="0.67" style="left:440px;top:500px;width:290px"><h4>MIDDLE EAST &amp; AFRICA - 5%</h4><p>The Middle East buys AI agents for government services and airlines, often in Arabic and English, with Gulf states as early buyers.</p></div>
+<script>/* Region texts: 3 lines (Pierre, 10 Nov 2026). If the text needs more than 3 lines at its default width, the box widens
+   around its centre (up to +110 px, inside the 24-936 px margins) until it fits on 3 lines. Audit MAP_TEXT_LINES checks 3 lines. */
+(() => { const map = document.currentScript.parentElement;
+  map.querySelectorAll('.reg').forEach(reg => { const p = reg.querySelector('p'), lh = parseFloat(getComputedStyle(p).lineHeight);
+    const lines = () => Math.round(p.getBoundingClientRect().height / lh);
+    const w0 = reg.offsetWidth, c = reg.offsetLeft + w0 / 2;
+    for (let w = w0; lines() > 3 && w <= w0 + 110; w += 4) {
+      let l = Math.max(24, c - w / 2); if (l + w > 936) l = 936 - w;
+      reg.style.width = w + 'px'; reg.style.left = l + 'px'; }
+    reg.dataset.lines = lines(); }); })();
+</script>
+<script>
+/* Map leader lines (dotted). Per region (deck.yaml) or per slide (line_start / line_end / line_bend):
+   start: corner = the text corner nearest the dot | middle = middle of the text edge facing the dot | side = side of the middle line
+   end:   auto (horizontal arrival, or vertical when the line leaves from the side) | h | v | radial (aims at the dot centre)
+   bend:  0..1, length of the curve handles (0.9 = tight elbow, 0.67 = rounded elbow, 0.35 = soft curve)
+   The line starts 4 px from the text and stops 3 px from the dot. */
+(() => { const map = document.currentScript.parentElement, S = map.closest('.slide').getBoundingClientRect(), g = map.querySelector('svg.lines g');
+  map.querySelectorAll('.reg').forEach(reg => {
+    const dot = map.querySelector('.dot[data-k="' + reg.dataset.k + '"]'); if (!dot) return;
+    const d = dot.getBoundingClientRect(), cx = d.left + d.width / 2 - S.left, cy = d.top + d.height / 2 - S.top, rad = d.width / 2, gap = rad + 3;
+    const p = reg.querySelector('p'), h = reg.querySelector('h4');
+    const rg = document.createRange(); rg.selectNodeContents(p);
+    const lines = [...rg.getClientRects()].map(r => ({l: r.left - S.left, r: r.right - S.left, t: r.top - S.top, b: r.bottom - S.top}));
+    const rh = document.createRange(); rh.selectNodeContents(h); const hb = rh.getBoundingClientRect();   // the title's TEXT, not its box
+    const hl = hb.left - S.left, hr = hb.right - S.left, top = hb.top - S.top, bot = lines[lines.length - 1].b;
+    const left = Math.min(...lines.map(x => x.l), hl), right = Math.max(...lines.map(x => x.r), hr);
+    const mode = reg.dataset.start, endm = reg.dataset.end, k = +reg.dataset.bend;
+    const rel = cy > bot + 20 ? 'below' : (cy < top - 20 ? 'above' : 'beside');
+    const rows = [{l: hl, r: hr, t: top, b: hb.bottom - S.top}, ...lines];          // title + text lines
+    const dir = cx > (left + right) / 2 ? 1 : -1;                                     // dot to the right (1) or left (-1)
+    const sideOf = ln => [dir > 0 ? ln.r + 4 : ln.l - 4, (ln.t + ln.b) / 2, [dir, 0]];
+    let sx, sy, t0;                                            // start point and start direction
+    if (rel === 'beside') {
+      const mid = lines[Math.floor((lines.length - 1) / 2)];
+      const near = rows.reduce((a, r) => Math.abs((r.t + r.b) / 2 - cy) < Math.abs((a.t + a.b) / 2 - cy) ? r : a);
+      if (mode === 'corner') { const c = cy < (top + bot) / 2 ? rows[0] : lines[lines.length - 1]; [sx, sy, t0] = sideOf(c); }
+      else if (mode === 'side') [sx, sy, t0] = sideOf(near);
+      else [sx, sy, t0] = sideOf(mid);
+    } else if (rel === 'below') {
+      const ln = lines[lines.length - 1];
+      if (mode === 'side') [sx, sy, t0] = sideOf(ln);
+      else { sy = bot + 4; t0 = [0, 1]; sx = mode === 'middle' ? (ln.l + ln.r) / 2 : (dir > 0 ? ln.r - 8 : ln.l + 8); }
+    } else {
+      if (mode === 'side') [sx, sy, t0] = sideOf(rows[0]);
+      else { sy = top - 4; t0 = [0, -1]; sx = mode === 'middle' ? (hl + hr) / 2 : (dir > 0 ? hr - 8 : hl + 8); }
+    }
+    let em = endm === 'auto' ? (t0[0] ? 'v' : 'h') : endm;
+    if (em === 'h' && Math.abs(cx - sx) < gap + 12) em = 'v';      // no room to arrive from the side
+    if (em === 'v' && Math.abs(cy - sy) < gap + 12) em = 'h';
+    let ex, ey, t1;
+    if (em === 'h') { const s = Math.sign(cx - sx) || 1; ex = cx - s * gap; ey = cy; t1 = [s, 0]; }
+    else if (em === 'v') { const s = Math.sign(cy - sy) || 1; ex = cx; ey = cy - s * gap; t1 = [0, s]; }
+    else { const L = Math.hypot(cx - sx, cy - sy), u = [(cx - sx) / L, (cy - sy) / L]; ex = cx - u[0] * gap; ey = cy - u[1] * gap; t1 = u; }
+    const dx = Math.abs(ex - sx), dy = Math.abs(ey - sy), dist = Math.hypot(dx, dy);
+    const l0 = k * (t0[0] ? dx : dy), l1 = k * (em === 'radial' ? dist * .5 : (t1[0] ? dx : dy));
+    const path = `M${sx} ${sy} C${sx + t0[0] * l0} ${sy + t0[1] * l0} ${ex - t1[0] * l1} ${ey - t1[1] * l1} ${ex} ${ey}`;
+    const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
+    // bounding box of text + dot, used by the workshop zoom
+    const zb = [Math.min(left, cx - rad, sx) - 14, Math.min(top, cy - rad, sy) - 14, Math.max(right, cx + rad, sx) + 14, Math.max(bot, cy + rad, sy) + 14];
+    reg.dataset.zoom = zb.map(Math.round).join(',');
+  });
+})();
+</script>
+</div>
+  <p class="note lines"><span class="nl">Example layout: the shares and texts on this map are illustrative, not research results</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">AI VOICE AGENTS market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+<section class="slide cover btn-b" data-n="1" data-type="cover">
+  <img class="photo" src="media/longevity.jpg">
+  <div class="copy">© NEW MARKET PITCH</div>
+  <div class="tblock" data-maxw="560"><div class="big"><div class="ln">Longevity</div><div class="ln">market</div></div><div class="sub">NEW MARKET PITCH</div><p class="disc under">This report is for informational purposes only and is not financial, investment, or legal advice. Do your own due diligence, verify key facts, and consult qualified financial and legal professionals before investing. The author, publisher, and affiliates are not liable for any losses or claims from its use. This report does not consider individual objectives, financial situations, or risk tolerance.</p></div>
+  
+  
+  <div class="foot-brand">NEWMARKETPITCH.COM</div>
+  <script>(() => { const b = document.currentScript.parentElement.querySelector('.tblock'), big = b.querySelector('.big'), max = +b.dataset.maxw;
+    // cover title: each line on one line, shrunk only if the longest line is wider than the free dark area (title_maxw)
+    // the pink "NEW MARKET PITCH" line shrinks with it (23/60 of the title size) and is measured too
+    const sub = b.querySelector('.sub'); let fs = 60;
+    const fit = () => { big.style.fontSize = fs + 'pt'; sub.style.fontSize = Math.max(14, Math.min(23, fs * 23 / 60 * 1.15)) + 'pt'; };
+    fit();
+    while (fs > 24 && Math.max(sub.scrollWidth, ...[...big.children].map(l => l.scrollWidth)) > max) { fs -= 2; fit(); }
+  })();</script>
+</section>
+
+
+<section class="slide " data-n="14" data-type="definition">
+  <div class="tri"></div>
+  <div class="section">Market definition</div>
+  <h1 class="title">What is the longevity market,<br>in simple terms?</h1>
+  
+  
+  
+
+
+<div class="body">
+<svg class="dash-arrows" viewBox="0 0 880 410" style="position:absolute;inset:0;width:100%;height:100%">
+  <g stroke="#334D54" stroke-width="1.5" stroke-dasharray="5 5" fill="none"><path d="M440 10 V60"/><path d="M440 400 V350"/><path d="M40 205 H100"/><path d="M840 205 H780"/></g>
+</svg>
+<div class="card defbox"><span class="ico tl">⏳</span>The longevity market is the tests, clinics, drugs, and supplements that people, clinics, and insurers pay for to stay healthy for longer<span class="ico br">✅</span></div>
+</div>
+
+  <p class="note lines"><span class="nl">We often use a conversational tone, which may sometimes sound a bit informal</span><span class="nl">We do it on purpose, because it reduces cognitive load and makes slides easier</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">LONGEVITY market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+
+
+<section class="slide " data-n="15" data-type="worldmap">
+  <div class="tri"></div>
+  <div class="section">Market size</div>
+  <h1 class="title">Where in the world is<br>longevity money spent?</h1>
+  
+  
+  
+
+<div class="map"><img class="w" src="../../assets/img/world-map.svg">
+<svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
+
+<div class="dot" data-k="na" style="left:312.755px;top:348.755px;width:36.49px;height:36.49px"></div>
+<div class="reg" data-k="na" data-start="middle" data-end="auto" data-bend="0.67" style="left:24px;top:177px;width:246px"><h4>NORTH AMERICA - 41%</h4><p>North America leads with clinics, tests, and supplements sold directly to people, and most of the venture money in the field.</p></div>
+<div class="dot" data-k="eu" style="left:480.54px;top:346.54px;width:24.92px;height:24.92px"></div>
+<div class="reg" data-k="eu" data-start="middle" data-end="auto" data-bend="0.67" style="left:396px;top:177px;width:313px"><h4>EUROPE - 28%</h4><p>Europe follows, with high-end clinics in Switzerland and the UK, a large supplement market, and strong public research in aging biology.</p></div>
+<div class="dot" data-k="apac" style="left:622.21px;top:393.21px;width:19.580000000000002px;height:19.580000000000002px"></div>
+<div class="reg" data-k="apac" data-start="middle" data-end="auto" data-bend="0.67" style="left:730px;top:272px;width:190px"><h4>ASIA-PACIFIC - 22%</h4><p>Asia-Pacific grows with Japan, an aging country that funds research, and Singapore, a hub for studies on healthy aging.</p></div>
+<div class="dot" data-k="latam" style="left:409.5px;top:441.5px;width:5px;height:5px"></div>
+<div class="reg" data-k="latam" data-start="middle" data-end="auto" data-bend="0.67" style="left:31px;top:459px;width:280px"><h4>LATIN AMERICA - 3%</h4><p>Latin America is small, with a few clinics in Mexico and Brazil that mostly serve wealthy local and foreign patients.</p></div>
+<div class="dot" data-k="mea" style="left:526.33px;top:393.33px;width:5.34px;height:5.34px"></div>
+<div class="reg" data-k="mea" data-start="middle" data-end="auto" data-bend="0.67" style="left:440px;top:500px;width:290px"><h4>MIDDLE EAST &amp; AFRICA - 6%</h4><p>The Gulf countries invest in longevity research and premium clinics, often with large public budgets and foreign partners.</p></div>
+<script>/* Region texts: 3 lines (Pierre, 10 Nov 2026). If the text needs more than 3 lines at its default width, the box widens
+   around its centre (up to +110 px, inside the 24-936 px margins) until it fits on 3 lines. Audit MAP_TEXT_LINES checks 3 lines. */
+(() => { const map = document.currentScript.parentElement;
+  map.querySelectorAll('.reg').forEach(reg => { const p = reg.querySelector('p'), lh = parseFloat(getComputedStyle(p).lineHeight);
+    const lines = () => Math.round(p.getBoundingClientRect().height / lh);
+    const w0 = reg.offsetWidth, c = reg.offsetLeft + w0 / 2;
+    for (let w = w0; lines() > 3 && w <= w0 + 110; w += 4) {
+      let l = Math.max(24, c - w / 2); if (l + w > 936) l = 936 - w;
+      reg.style.width = w + 'px'; reg.style.left = l + 'px'; }
+    reg.dataset.lines = lines(); }); })();
+</script>
+<script>
+/* Map leader lines (dotted). Per region (deck.yaml) or per slide (line_start / line_end / line_bend):
+   start: corner = the text corner nearest the dot | middle = middle of the text edge facing the dot | side = side of the middle line
+   end:   auto (horizontal arrival, or vertical when the line leaves from the side) | h | v | radial (aims at the dot centre)
+   bend:  0..1, length of the curve handles (0.9 = tight elbow, 0.67 = rounded elbow, 0.35 = soft curve)
+   The line starts 4 px from the text and stops 3 px from the dot. */
+(() => { const map = document.currentScript.parentElement, S = map.closest('.slide').getBoundingClientRect(), g = map.querySelector('svg.lines g');
+  map.querySelectorAll('.reg').forEach(reg => {
+    const dot = map.querySelector('.dot[data-k="' + reg.dataset.k + '"]'); if (!dot) return;
+    const d = dot.getBoundingClientRect(), cx = d.left + d.width / 2 - S.left, cy = d.top + d.height / 2 - S.top, rad = d.width / 2, gap = rad + 3;
+    const p = reg.querySelector('p'), h = reg.querySelector('h4');
+    const rg = document.createRange(); rg.selectNodeContents(p);
+    const lines = [...rg.getClientRects()].map(r => ({l: r.left - S.left, r: r.right - S.left, t: r.top - S.top, b: r.bottom - S.top}));
+    const rh = document.createRange(); rh.selectNodeContents(h); const hb = rh.getBoundingClientRect();   // the title's TEXT, not its box
+    const hl = hb.left - S.left, hr = hb.right - S.left, top = hb.top - S.top, bot = lines[lines.length - 1].b;
+    const left = Math.min(...lines.map(x => x.l), hl), right = Math.max(...lines.map(x => x.r), hr);
+    const mode = reg.dataset.start, endm = reg.dataset.end, k = +reg.dataset.bend;
+    const rel = cy > bot + 20 ? 'below' : (cy < top - 20 ? 'above' : 'beside');
+    const rows = [{l: hl, r: hr, t: top, b: hb.bottom - S.top}, ...lines];          // title + text lines
+    const dir = cx > (left + right) / 2 ? 1 : -1;                                     // dot to the right (1) or left (-1)
+    const sideOf = ln => [dir > 0 ? ln.r + 4 : ln.l - 4, (ln.t + ln.b) / 2, [dir, 0]];
+    let sx, sy, t0;                                            // start point and start direction
+    if (rel === 'beside') {
+      const mid = lines[Math.floor((lines.length - 1) / 2)];
+      const near = rows.reduce((a, r) => Math.abs((r.t + r.b) / 2 - cy) < Math.abs((a.t + a.b) / 2 - cy) ? r : a);
+      if (mode === 'corner') { const c = cy < (top + bot) / 2 ? rows[0] : lines[lines.length - 1]; [sx, sy, t0] = sideOf(c); }
+      else if (mode === 'side') [sx, sy, t0] = sideOf(near);
+      else [sx, sy, t0] = sideOf(mid);
+    } else if (rel === 'below') {
+      const ln = lines[lines.length - 1];
+      if (mode === 'side') [sx, sy, t0] = sideOf(ln);
+      else { sy = bot + 4; t0 = [0, 1]; sx = mode === 'middle' ? (ln.l + ln.r) / 2 : (dir > 0 ? ln.r - 8 : ln.l + 8); }
+    } else {
+      if (mode === 'side') [sx, sy, t0] = sideOf(rows[0]);
+      else { sy = top - 4; t0 = [0, -1]; sx = mode === 'middle' ? (hl + hr) / 2 : (dir > 0 ? hr - 8 : hl + 8); }
+    }
+    let em = endm === 'auto' ? (t0[0] ? 'v' : 'h') : endm;
+    if (em === 'h' && Math.abs(cx - sx) < gap + 12) em = 'v';      // no room to arrive from the side
+    if (em === 'v' && Math.abs(cy - sy) < gap + 12) em = 'h';
+    let ex, ey, t1;
+    if (em === 'h') { const s = Math.sign(cx - sx) || 1; ex = cx - s * gap; ey = cy; t1 = [s, 0]; }
+    else if (em === 'v') { const s = Math.sign(cy - sy) || 1; ex = cx; ey = cy - s * gap; t1 = [0, s]; }
+    else { const L = Math.hypot(cx - sx, cy - sy), u = [(cx - sx) / L, (cy - sy) / L]; ex = cx - u[0] * gap; ey = cy - u[1] * gap; t1 = u; }
+    const dx = Math.abs(ex - sx), dy = Math.abs(ey - sy), dist = Math.hypot(dx, dy);
+    const l0 = k * (t0[0] ? dx : dy), l1 = k * (em === 'radial' ? dist * .5 : (t1[0] ? dx : dy));
+    const path = `M${sx} ${sy} C${sx + t0[0] * l0} ${sy + t0[1] * l0} ${ex - t1[0] * l1} ${ey - t1[1] * l1} ${ex} ${ey}`;
+    const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
+    // bounding box of text + dot, used by the workshop zoom
+    const zb = [Math.min(left, cx - rad, sx) - 14, Math.min(top, cy - rad, sy) - 14, Math.max(right, cx + rad, sx) + 14, Math.max(bot, cy + rad, sy) + 14];
+    reg.dataset.zoom = zb.map(Math.round).join(',');
+  });
+})();
+</script>
+</div>
+  <p class="note lines"><span class="nl">Example layout: the shares and texts on this map are illustrative, not research results</span></p>
+  
+  <div class="foot-line"></div><div class="foot-label">LONGEVITY market</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
+</section>
+<script>/* Titles on 2 lines: cut where the two lines are the most equal in width (Pierre's rule, 31 Oct + 10 Nov 2026).
+   The manual \n in deck.yaml is ignored: every split is measured and the smallest difference wins. */
+(() => { const m = document.createElement('span'); m.style.cssText = 'position:absolute;white-space:nowrap;visibility:hidden;left:-9999px'; document.body.appendChild(m);
+  const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');   // words joined by a non-breaking space stay together
+  document.querySelectorAll('.slide .title').forEach(t => {
+    const cs = getComputedStyle(t); m.style.font = cs.font; m.style.letterSpacing = cs.letterSpacing; m.style.textTransform = cs.textTransform;
+    const w = s => { m.textContent = s; return m.getBoundingClientRect().width; };
+    const words = t.innerHTML.replace(/<br\s*\/?>/g, ' ').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, '\u00a0').replace(/[ \t\n\r]+/g, ' ').trim().split(' ');
+    const max = t.clientWidth, manual = /<br/.test(t.innerHTML); if (words.length < 2 || (!manual && w(words.join(' ')) <= max * 0.62)) return;   // short titles stay on one line unless written on two
+    let best = null;
+    for (let i = 1; i < words.length; i++) { const a = words.slice(0, i).join(' '), b = words.slice(i).join(' '), wa = w(a), wb = w(b);
+      if (wa > max || wb > max) continue; const d = Math.abs(wa - wb); if (!best || d < best.d) best = {a, b, d, wa, wb}; }
+    if (best) { t.innerHTML = esc(best.a) + '<br>' + esc(best.b); t.dataset.bal = Math.round(best.d / Math.max(best.wa, best.wb) * 100); }
+  });
+  // footer label on one line inside its 228 px: tighten the letter spacing if a long market name would overflow
+  document.querySelectorAll('.foot-label').forEach(f => { let ls = 0.42; while (f.scrollWidth > f.clientWidth + 1 && ls > 0.1) { ls -= 0.02; f.style.letterSpacing = ls + 'em'; } });
+  m.remove(); })();</script>
+</body></html>
