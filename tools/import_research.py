@@ -257,7 +257,7 @@ def main():
         if x['type'] in ('agenda', 'cover') or b in ('ed002', 'ed003', 'ed221'): x.pop('tag', None)
         elif b in DB_IDS and x['id'] not in DB_DONE: x['tag'] = 'FROM OUR DATABASE: TO BUILD'
         elif x['id'] in DB_DONE: x.pop('tag', None)
-        elif b in {f'ed{n}' for n in range(215, 221)}: x['tag'] = 'SOURCES: TO BUILD'
+        elif b in {f'ed{n}' for n in range(215, 221)} and not (out / 'sources_key.yaml').exists(): x['tag'] = 'SOURCES: TO BUILD'
     for x in S:                                  # pp_grid cells written as company names: slugs + logo paths
         if x.get('type') == 'pp_grid' and not x.get('tiles') and any(' ' in n or n[:1].isupper() for row in x['cells'] for cell in row for n in cell):
             srcs = {}
@@ -273,6 +273,11 @@ def main():
             if y['id'] in LV: S[j] = {**{k: y[k] for k in ('id', 'type', 'section') if k in y}, **LV[y['id']]}
         for k in LV:
             if not any(y['id'] == k for y in S): print('live.yaml: slide not in deck', k)
+    sf = out / 'sources_slides.yaml'             # full list of sources (tools/build_sources.py), after the key-source slides
+    if sf.exists():
+        for e in yaml.safe_load(sf.read_text()) or []:
+            i = next((j for j, y in enumerate(S) if y['id'] == e['after']), None)
+            if i is not None: S.insert(i + 1, e['slide'])
     xf = out / 'extras.yaml'                     # validated extra slides (slides complémentaires), each after a given slide id
     if xf.exists():
         for e in yaml.safe_load(xf.read_text()) or []:

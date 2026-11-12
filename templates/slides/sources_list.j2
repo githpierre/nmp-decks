@@ -1,0 +1,2 @@
+{# Full list of the deck's sources (12 Nov 2026): two columns, each source = linked title + publisher and date. Built by tools/build_sources.py from sources.yaml #}
+<div class="srcl">{% for col in s.cols %}<div class="c">{% for x in col %}<p><a href="{{ x.url }}">{{ x.t }}</a><span>{{ x.pub }}{% if x.d %} · {{ x.d }}{% endif %}</span></p>{% endfor %}</div>{% endfor %}</div>

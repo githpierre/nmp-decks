@@ -379,3 +379,6 @@ b,strong{font-weight:700}
 .pp-rt.big{font-size:8.6pt;width:232px;text-wrap:balance}   /* short events (live pages of markets 101-130): bigger text on 3 balanced lines */
 .pp-dx,.pp-dy{position:absolute;font-size:7.5pt;color:#789096}
 .pp-dl{position:absolute;line-height:1.15;white-space:nowrap}.pp-dl b{display:block;font-size:10.5pt;font-weight:700;color:#fff}.pp-dl em{display:block;font-style:normal;font-size:8pt;color:#9DB4C0}.pp-dl.l{text-align:right}
+.srcl{position:absolute;left:66px;right:66px;top:62px;bottom:96px;display:flex;gap:40px}.srcl .c{flex:1;display:flex;flex-direction:column;gap:7.2px}
+.srcl p{margin:0;font-size:7.4pt;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.srcl a{color:#E5EAEC;text-decoration:underline;text-decoration-color:#5E7E8E}
+.srcl span{display:block;font-size:6.6pt;color:#789096}

@@ -69,7 +69,7 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   const em = [...sl.querySelectorAll('.raw .rx-t')].filter(vis).filter(el => { const t = el.textContent.trim(); return t && [...t.replace(/[\s\uFE0F\u200D]/g, '')].length <= 3 && EMO.test(t); });
   if (ic >= 2 && em.length) out.push([n, 'EMOJI_MIX', em.length + ' emoji / ' + ic + ' icons', em.map(e => e.textContent.trim()).join(' ')]);
   // --- money written the way people say it
-  const tx = sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]);
+  const tx = sl.querySelector('.srcl') ? '' : sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]);
   // --- the slide title is always on two lines (Pierre, 12 Nov 2026)
   { const tt = sl.querySelector('.title'); if (tt) { const lh = parseFloat(getComputedStyle(tt).lineHeight), k = Math.round(tt.getBoundingClientRect().height / lh); if (k !== 2) out.push([n, 'TITLE_NOT_2_LINES', k + ' line(s)', tt.textContent.trim().slice(0, 50)]); } }
   if (sl.querySelector('[data-robotic]')) out.push([n, 'GRID_ROBOTIC', 'top players grid placed by the automatic pattern: give `pos` (meaning) or `tiles` (live page)']);

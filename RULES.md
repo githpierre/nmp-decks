@@ -385,3 +385,9 @@ Cause commune : je ne regardais que les slides nouvelles, pas les 190, et les co
 - Slides de la page produit (S01-S12) : elles entrent dans le deck dès qu'elles s'insèrent bien dans l'histoire (S04 remplace « what has been fixed so far », S06 vient juste après « Which pharma deals shaped the market? »).
 - Couleurs des barres : jamais de blanc plein (trop fort) ; deuxième couleur = bleu clair #7FA9C9 (celui du donut), texte navy dessus.
 - Dernière slide « Thank you for your time » : titre aligné à gauche, comme le texte.
+
+## Chapitre Sources (12/11/2026)
+- 20 sources clés au design validé (Source / Why we trust it / How we used it), écrites à la main dans decks/<slug>/sources_key.yaml, noms cliquables (`links:`), puis la liste complète de toutes les sources de sources.yaml (gabarit sources_list, 2 colonnes, lien + éditeur + date) : `python3 tools/build_sources.py <slug>` puis l'import.
+- Les slides reprises de la page produit ne sont pas sourcées à part (décision de Pierre).
+- Logo introuvable : tuile aux initiales, ce n'est pas grave.
+- Correction d'une image de page produit : même nom de fichier, remplacée par fileUpdate (originalSource) pour garder l'URL ; ombre « page lift » par tools/pp/page_lift.py.

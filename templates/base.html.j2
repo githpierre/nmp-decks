@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../../css/nmp.css"></head><body>
 {% for s in slides %}{% set T = s.type %}
 {% if T == 'cover' %}{% include 'slides/cover.j2' %}{% else %}
-<section class="slide {{ 'has-sub' if s.subtitle or (s.page and s.page != '1/1') }}" data-n="{{ loop.index }}"{% if s.id %} data-id="{{ s.id }}"{% endif %} data-type="{{ 'raw' if T.startswith('x/') else T }}"{% if T.startswith('x/') %} data-tpl="{{ T[2:] }}"{% endif %}{% if s.hl %} data-hl="{{ s.hl }}"{% endif %}{% if s.holes_ok %} data-holes-ok="1"{% endif %}{% if s.vbars %} data-vbars="{{ s.vbars | join(',') }}"{% endif %}{% if s.hbars %} data-hbars="{{ s.hbars | join(',') }}"{% endif %}{% if s.dots %} data-dots="{{ s.dots | tojson | forceescape }}"{% endif %}{% if s.curves %} data-curves="{{ s.curves | tojson | forceescape }}"{% endif %}{% if s.hpink %} data-hpink="{{ s.hpink }}"{% endif %}{% if s.split %} data-split="{{ s.split | join(',') }}"{% endif %}>
+<section class="slide {{ 'has-sub' if s.subtitle or (s.page and s.page != '1/1') }}" data-n="{{ loop.index }}"{% if s.id %} data-id="{{ s.id }}"{% endif %} data-type="{{ 'raw' if T.startswith('x/') else T }}"{% if T.startswith('x/') %} data-tpl="{{ T[2:] }}"{% endif %}{% if s.hl %} data-hl="{{ s.hl }}"{% endif %}{% if s.holes_ok %} data-holes-ok="1"{% endif %}{% if s.links %} data-links="{{ s.links | tojson | forceescape }}"{% endif %}{% if s.vbars %} data-vbars="{{ s.vbars | join(',') }}"{% endif %}{% if s.hbars %} data-hbars="{{ s.hbars | join(',') }}"{% endif %}{% if s.dots %} data-dots="{{ s.dots | tojson | forceescape }}"{% endif %}{% if s.curves %} data-curves="{{ s.curves | tojson | forceescape }}"{% endif %}{% if s.hpink %} data-hpink="{{ s.hpink }}"{% endif %}{% if s.split %} data-split="{{ s.split | join(',') }}"{% endif %}>
   <div class="tri"></div>
   {% if s.section %}<div class="section">{{ s.section }}</div>{% endif %}
   {% if s.title %}<h1 class="title">{{ s.title | nl }}</h1>{% endif %}
@@ -13,7 +13,10 @@
   {% if s.tag %}<div class="wtag">{{ s.tag }}</div>{% endif %}
   <div class="foot-line"></div><div class="foot-label">{{ s.label or deck.label }}</div><div class="foot-brand">NEWMARKETPITCH.COM</div>
 </section>{% endif %}
-{% endfor %}<script>/* Titles on 2 lines: cut where the two lines are the most equal in width (Pierre's rule, 31 Oct + 10 Nov 2026).
+{% endfor %}<script>/* Clickable sources: `links: {k: url}` wraps text box k in a link (kept in the PDF), 12 Nov 2026 */
+document.querySelectorAll('.slide[data-links]').forEach(sl => { const L = JSON.parse(sl.dataset.links); Object.entries(L).forEach(([k, u]) => { const el = sl.querySelector('.rx-t[data-k="' + k + '"]'); if (!el || !u) return;
+  el.querySelectorAll('p').forEach(p => { const a = document.createElement('a'); a.href = u; a.style.cssText = 'color:inherit;text-decoration:inherit'; while (p.firstChild) a.appendChild(p.firstChild); p.appendChild(a); }); }); });</script>
+<script>/* Titles on 2 lines: cut where the two lines are the most equal in width (Pierre's rule, 31 Oct + 10 Nov 2026).
    The manual \n in deck.yaml is ignored: every split is measured and the smallest difference wins. */
 (() => { const m = document.createElement('span'); m.style.cssText = 'position:absolute;white-space:nowrap;visibility:hidden;left:-9999px'; document.body.appendChild(m);
   const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');   // words joined by a non-breaking space stay together
