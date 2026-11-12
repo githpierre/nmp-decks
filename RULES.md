@@ -276,3 +276,8 @@ Exemples : « 22 US states banned phones in schools in 2025 alone », « Singapo
 - Ce ne sont PAS des emplacements fixes (« après And more recently, il faut une slide à barres »). Ce sont des TEMPLATES qui montrent un signal, positif ou négatif.
 - Process : 1) un prompt de recherche bien construit ramène beaucoup de signaux récents et variés sur l'état du marché (adoption, régulation, chute d'un acteur, concentration, comparaison entre pays, unit economics…) ; 2) on fait une slide par signal fort, avec le template qui va le mieux à la forme de la donnée (barres, courbe de cours, nuage, waffle, chiffre géant…) ; 3) on place chaque slide dans le chapitre où elle sert le propos, n'importe où dans le deck.
 - Le nombre et l'emplacement de ces slides varient d'un marché à l'autre ; ne jamais copier la position EdTech.
+
+## Google Trends slides (pp_trends), Pierre 12 Nov 2026
+- Google's counts jumped for almost every term in late July / August 2025: every curve is corrected after the week of 2025-07-27 (`tools/pp/pp_prepare.py`, `_trend_rows`). With the control terms of the slide kit in `tools/pp/trends_ctrl/*.csv`, each week is divided by their median jump; without them, by `aug25` (default 2.0). The note says "corrected for a jump in Google's counts in August 2025".
+- The curve always stops at its last peak: the fall at the end (weeks Google has not finished counting) is never shown. The goal is to show a rising trend.
+- CSVs live with the deck (`decks/<slug>/media/trends/<term>.csv`), worldwide, 5 years, weekly. The term shown is the one in the CSV header.

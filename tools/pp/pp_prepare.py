@@ -227,28 +227,52 @@ def donut_var(s):
 PREP = dict(donutv=donut_var, radar=radar, curve=curve, cagr=cagr, donut=donut, pains=pains, tech=tech, value=value, risks=risks,
             drivers=drivers, raises=raises, grid=grid, killers=killers, survivors=survivors, winner=winner)
 
-def trends_window(csv_path):
+JUMP_FROM = '2025-07-27'      # Google's counts jumped for almost every term that week (nmp-slide-generation, section Google Trends)
+
+def _trend_rows(s):
+    """weekly (date, value) of a Trends CSV, corrected for Google's August 2025 jump (Pierre's rule, 12 Nov 2026: always correct it):
+    - with control CSVs in tools/pp/trends_ctrl/ (the everyday terms of the slide kit): each week after the jump is divided by the
+      median ratio of the control terms to their own level before the jump;
+    - without them: divided by s['aug25'] (default 2.0, the documented size of the jump)."""
+    import csv as _c, statistics as st, glob, os
+    rd = lambda f: [(r[0], float(r[1].replace('<1', '0.5'))) for r in _c.reader(open(f)) if len(r) == 2 and re.match(r'\d{4}-', r[0])]
+    rows = rd(s['csv'])
+    ctrl = [rd(f) for f in sorted(glob.glob(os.path.join(os.path.dirname(__file__), 'trends_ctrl', '*.csv')))]
+    fac = {}
+    if ctrl:
+        for c in ctrl:
+            pre = [v for d, v in c if '2024-07' <= d < JUMP_FROM]; b = st.median(pre) if pre else 0
+            for d, v in c:
+                if d >= JUMP_FROM and b > 0: fac.setdefault(d, []).append(v / b)
+        fac = {d: st.median(x) for d, x in fac.items()}
+    k = float(s.get('aug25', 2.0))
+    out = [(d, v / (fac.get(d, k) if fac else k) if d >= JUMP_FROM else v) for d, v in rows]
+    s['corrected'] = any(d >= JUMP_FROM for d, _ in rows)
+    return out
+
+def trends_window(s):
     """5 years by default; 1 year only when the last 12 months alone show a strong surge (x3 or more), Pierre 11 Nov 2026"""
-    import csv as _c, statistics as st
-    v = [float(r[1].replace('<1', '0.5')) for r in _c.reader(open(csv_path)) if len(r) == 2 and re.match(r'\d{4}-', r[0])][-52:]
+    import statistics as st
+    w = [v for _, v in _trend_rows(s)]; v = w[-52:]
     m = max(v); pk = max(i for i, x in enumerate(v) if x == m); base = st.median(v[:max(1, int(pk * .75))]) if pk > 4 else m
     r1 = m / max(base, 1)
-    w = [float(r[1].replace('<1', '0.5')) for r in _c.reader(open(csv_path)) if len(r) == 2 and re.match(r'\d{4}-', r[0])]
     k = max(i for i, x in enumerate(w) if x == max(w)); w = w[:k + 1]; r5 = max(w) / max(st.median(w[:max(1, int(len(w) * .75))]), 1)
     return '1y' if r1 >= 3 and r1 > r5 and pk > 26 else '5y'
 
 def trends(s):
-    if not s.get('window'): s['window'] = trends_window(s['csv'])
-    import csv as _c, statistics as st
-    rows = [r for r in _c.reader(open(s['csv'])) if len(r) == 2 and re.match(r'\d{4}-', r[0])]
-    v = [float(x[1].replace('<1', '0.5')) for x in rows]
-    if s.get('window') == '1y': v = v[-52:]; m = max(v); v = [x * 100 / m for x in v]
-    pk = len(v) - 1 - max(range(len(v)), key=lambda i: (v[::-1][i], -i)) if False else max(i for i, x in enumerate(v) if x == max(v))
-    v = v[:pk + 1] if s.get('window') != '1y' else v; n = len(v); r = max(v) / max(st.median(v[:max(1, int(n * .75))]), 1)
+    """the curve stops at its last peak: the trailing fall (weeks Google has not finished counting) is never shown (Pierre, 12 Nov 2026)"""
+    if not s.get('window'): s['window'] = trends_window(s)
+    import statistics as st
+    v = [x for _, x in _trend_rows(s)]
+    if s.get('window') == '1y': v = v[-52:]
+    pk = max(i for i, x in enumerate(v) if x == max(v)); v = v[:pk + 1]
+    m = max(v); v = [x * 100 / m for x in v]
+    n = len(v); r = max(v) / max(st.median(v[:max(1, int(n * .75))]), 1)
     lab = '×20+' if r >= 20 else (f'×{int(round(r / 5) * 5)}' if r >= 10 else f'×{round(r * 2) / 2:.1f}'.replace('.0', ''))
     x0, x1, y0, y1 = 136, 824, 500, 410
     s['geo'] = dict(ratio=r, stat=lab, pts=' '.join(f'{x0 + i / (n - 1) * (x1 - x0):.1f},{y0 - x / 100 * (y0 - y1):.1f}' for i, x in enumerate(v)), base=y0 + 16)
 PREP['trends'] = trends
+
 
 
 _KF = {}

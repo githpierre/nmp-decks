@@ -864,30 +864,18 @@ slides:
     15: 🔥
     19: SIGNAL
     21: Investors now follow learning into the workplace, where employers pay for AI skills
-- id: ed039
-  type: x/online_learning_searches_have_suddenly
+- id: ed039p
+  type: pp_trends
   section: Market opportunity
+  pill: SIGNAL
   title: 'Online learning searches
 
     have suddenly taken off'
-  note: We tracked how often people around the world googled this term over the last five years
-  src: 39
-  t:
-    7: SIGNAL
-    10: Worldwide Google searches for ‘learning online’, last five years
-    11: ×3
-    12: 'more searches at the peak
-
-      than in a typical week before'
-    13: 'Lately. {1|After the Covid rush, interest in online learning slowly faded for}
-
-      years. Then free AI tutors got good enough for everyday homework
-
-      help, and with school out, millions of parents and students went looking
-
-      for new ways to learn online.'
-  img:
-  - media/raw/b8681302a662.png
+  csv: decks/edtech-full/media/trends/online-learning.csv
+  term: online learning
+  date: Lately.
+  expl: After the Covid rush, interest in online learning slowly faded for years. Then free AI tutors got good enough for everyday homework help, and millions of parents and students went looking for new ways to learn online.
+  note: We tracked how often people around the world googled this term over the last five years, corrected for a jump in Google's counts in August 2025
 - id: ed040
   type: agenda
   section: Market size
