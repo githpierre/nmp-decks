@@ -95,8 +95,19 @@ CHAPTER: {chapter}
 """
 
 
+LIMS = {}                      # slide id -> {key: length}, filled by block() and written into the self-check of each file
+
+
+def selfcheck(fname):
+    """The other LLM checks its own file before delivering (Pierre, 13 Nov 2026: the fit to the boxes is done by the research, not by
+    Claude afterwards). A script, not a wish: it prints every text out of its range and the delivery waits for « 0 problems »."""
+    import json
+    t = (ROOT / 'tools/selfcheck_template.txt').read_text().replace('__LIMITS__', json.dumps({k: {str(a): b for a, b in v.items()} for k, v in LIMS.items() if v})).replace('__FNAME__', fname)
+    LIMS.clear(); return t
+
+
 def block(sid, model, src, extra=''):
-    e = base.example(model); L = base.ylen(e)
+    e = base.example(model); L = base.ylen(e); LIMS[sid] = L
     t = f"### {sid}\n{src} model (structure only):\n```yaml\n{yaml.dump(e, allow_unicode=True, sort_keys=False, width=200)}```\n"
     if L: t += 'Length in characters per key, between 80% and 100% of: ' + ', '.join(f'{k}: {v}' for k, v in L.items()) + ' (a text much shorter leaves its box half empty: add one concrete fact rather than filler words)\n'
     if extra: t += extra.strip() + '\n'
@@ -151,6 +162,7 @@ def main():
             if sid in RT:
                 m_ = dict(m_, title=RT[sid]['title']); extra = ('THIS SLIDE IS RE-TARGETED for this market (same template, new subject): ' + RT[sid]['brief'] + '\n' + extra)
             body += block(sid, m_, src, extra); n += 1; asked.append(sid)
+        body += selfcheck(fname)
         p = out / f"{spec['uuid']}-{spec['handle']}-deck-{part}.txt"; p.write_text(body); files.append(p)
         print(f'{p.name}: {n} slides, {len(body)} chars')
     # signals: same screening as the reference market, market text swapped

@@ -71,6 +71,13 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   « for its life science AI », and name a real publisher: `make_db_slides.py` prints PUBLISHER UNKNOWN for a name it guessed.
 - `diff_slides.py` sees a changed word in small text (12 clearly different pixels at 960 px), not only big moves.
 - The examples inside the research prompts are written per market in the spec (`examples:`), never left from another market.
+- Latest rounds (« Which rounds were announced last? »): when more than half of the 12 latest rounds are under $10M, the slides
+  list the 12 latest rounds of $10M or more and the note says so (Pierre, 13 Nov 2026, Healthcare AI: 25 rounds a month).
+- A twin whose live slide shows amounts older than the base (S09 after a definition change) is recomputed from the base
+  (`tools/pp/s09_from_base.py`) and the live image is replaced in place, same file name (Pierre, 13 Nov 2026).
+- A company the live radar (S01) puts outside the market is on no other slide as a player (Tempus, Healthcare AI).
+- Research results are kept in `decks/<handle>/research`. Each chapter prompt ends with a self-check script (lengths, em dash,
+  semicolon): the other LLM delivers at « 0 problems », so the fit to the boxes is not redone here.
 
 ## Charts and maps
 - Splits by category (donut, shares): never copied from a study. Our own best estimate, explained in the note (up to 3

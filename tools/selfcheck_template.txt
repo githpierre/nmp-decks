@@ -1,0 +1,23 @@
+
+SELF-CHECK BEFORE YOU DELIVER (mandatory)
+Save your answer as the Markdown file, then run this Python script on it. Fix every line it prints by rewriting the text (same facts, one
+more concrete fact when too short, tighter wording when too long), run it again, and deliver only when it prints "0 problems".
+```python
+import re, json, yaml
+LIMITS = json.loads(r'''__LIMITS__''')
+md = open("__FNAME__", encoding="utf-8").read(); n = 0
+F = chr(96) * 3
+for sid, body in re.findall(r"### (\S+)\s+" + F + r"yaml\n(.*?)" + F, md, re.S):
+    d = yaml.safe_load(body) or {}
+    if d.get("status") != "ok": continue
+    flat = json.dumps(d, ensure_ascii=False)
+    for bad, why in ((chr(8212), "em dash"), ("; ", "semicolon: write two sentences")):
+        if bad in flat.replace("&amp; ", ""): print(sid, "|", why); n += 1
+    for k, v in (d.get("t") or {}).items():
+        lim = (LIMITS.get(sid.split("-s")[0]) or {}).get(str(k))
+        if not lim or not isinstance(v, str): continue
+        L = len(re.sub(r"\{\d\|([^}]*)\}", r"\1", v))
+        if L > lim: print(sid, k, "| too long:", L, "for", lim, "|", v[:60]); n += 1
+        elif lim >= 40 and L < 0.8 * lim: print(sid, k, "| too short:", L, "for", lim, "(add one concrete fact) |", v[:60]); n += 1
+print(n, "problems")
+```

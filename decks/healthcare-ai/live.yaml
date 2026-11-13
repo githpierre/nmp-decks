@@ -1,3 +1,17 @@
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  csv: assets/trends/healthcare-ai/ai-in-healthcare.csv
+  term: ai in healthcare
+  title: 'Lately, searches for healthcare AI
+
+    keep climbing as AI enters hospitals'
+  date: Recently.
+  expl: AI stopped being a lab demo in hospitals. Doctors started using AI scribes that write their notes during visits, big health systems signed deals with OpenAI and Microsoft, and patients began asking chatbots about their symptoms. So people went looking for what healthcare AI really is.
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
 ed058:
   type: pp_pains
   title: 'Which problems would healthcare AI
@@ -381,9 +395,6 @@ ed171p:
   - src: ../../assets/logos/pp_live/healthcare-ai/s10-08.png
     x: 662.6
     y: 296.8
-  - src: ../../assets/logos/pp_live/healthcare-ai/s10-09.png
-    x: 781.3
-    y: 294.0
   - src: ../../assets/logos/pp_live/healthcare-ai/s10-10.png
     x: 480.0
     y: 317.6

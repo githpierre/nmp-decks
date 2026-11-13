@@ -754,18 +754,18 @@ slides:
   type: pp_trends
   section: Market opportunity
   pill: SIGNAL
-  title: 'Searches for healthcare AI soar as
+  signal: google-trends
+  window: 5y
+  csv: assets/trends/healthcare-ai/ai-in-healthcare.csv
+  term: ai in healthcare
+  title: 'Lately, searches for healthcare AI
 
-    cell therapy moves inside the body'
-  csv: assets/trends/in-vivo-car-t/in-vivo-car-t.csv
-  term: in vivo car t
-  date: Lately.
-  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and big deals by AstraZeneca and AbbVie for in vivo startups drew attention.
+    keep climbing as AI enters hospitals'
+  date: Recently.
+  expl: AI stopped being a lab demo in hospitals. Doctors started using AI scribes that write their notes during visits, big health systems signed deals with OpenAI and Microsoft, and patients began asking chatbots about their symptoms. So people went looking for what healthcare AI really is.
   note:
   - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources at the end of the report
-  signal: google-trends
-  tag: 'PRODUCT PAGE: TO COPY'
+  - We used Google Trends, and you will find all the sources we used at the end of the report
 - id: ed040
   type: agenda
   section: Market size
@@ -3592,21 +3592,21 @@ slides:
 
     announced last?'
   page: 1/2
-  note: We list the latest equity rounds of healthcare AI startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+  note: We list the latest equity rounds of $10M or more of healthcare AI startups in our tracker, from company releases and the press.
   src: 156
   t:
     13: 2026 (NOV)
-    14: Octopath AI raised a $1.3M seed round led by TwinPath Ventures for its diagnostic AI software {1|UCL}
-    15: 2026 (NOV)
-    16: nPhase raised a $30M late-stage round led by Viking Global Investors for its life science AI {1|nPhase}
+    14: nPhase raised a $30M late-stage round led by Viking Global Investors for its life science AI {1|nPhase}
+    15: 2026 (OCT)
+    16: Ribopeutic raised a $15M Series A led by Loyal Valley Capital for its life science AI {1|PharmCube}
     17: 2026 (OCT)
-    18: Ribopeutic raised a $15M Series A led by Loyal Valley Capital for its life science AI {1|PharmCube}
+    18: Midstream Health raised a $20M Series A led by Valtruis for its revenue cycle AI {1|Becker’s Hospital Review}
     19: 2026 (OCT)
-    20: Midstream Health raised a $20M Series A led by Valtruis for its revenue cycle AI {1|Becker’s Hospital Review}
+    20: ALLOX raised a $10M seed round led by Asabys Partners for its life science AI {1|GlobeNewswire}
     21: 2026 (OCT)
-    22: SpendRule raised a $4M seed round led by Radical Investments for its care workflow AI {1|GlobeNewswire}
+    22: Vera Health raised a $28M Series A led by Threshold Ventures for its clinical AI tools {1|MobiHealthNews}
     23: 2026 (OCT)
-    24: ALLOX raised a $10M seed round led by Asabys Partners for its life science AI {1|GlobeNewswire}
+    24: Atlas Bio raised a $10M seed round led by Creandum for its life science AI {1|Creandum}
 - id: ed157
   type: x/rounds_were_announced_last_2
   section: Investor bets
@@ -3614,21 +3614,21 @@ slides:
 
     announced last?'
   page: 2/2
-  note: We list the latest equity rounds of healthcare AI startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+  note: We list the latest equity rounds of $10M or more of healthcare AI startups in our tracker, from company releases and the press.
   src: 157
   t:
     14: 2026 (OCT)
-    15: PerturbMind AI raised a $1.4M seed round led by Qingsong Capital for its life science AI {1|Zhangtongshe}
+    15: adsilico raised a $13M Series A led by PXN Ventures for its life science AI {1|Parkwalk}
     16: 2026 (OCT)
-    17: Magic Vision raised a $0.7M seed round for its diagnostic AI software {1|Teleborsa}
+    17: ClarityCare raised a $16M Series A led by Headline for its payer AI platforms {1|ClarityCare}
     18: 2026 (OCT)
-    19: CareLumi raised a $2.5M seed round led by Izou Partners for its care workflow AI {1|CareLumi}
+    19: Pathos AI raised a $237M late-stage round led by Bristol Myers Squibb for its life science AI {1|Pathos}
     20: 2026 (OCT)
-    21: Omabit raised a $2M seed round led by Bright Ventures for its life science AI {1|StreetInsider}
+    21: Coherence Neuro raised a $45M Series A led by Founders Fund for its clinical AI tools {1|Coherence}
     22: 2026 (OCT)
-    23: Vera Health raised a $28M Series A led by Threshold Ventures for its clinical AI tools {1|MobiHealthNews}
+    23: Sunlight AI raised a $17M seed round led by Basis Set Ventures for its care workflow AI {1|PR Newswire}
     24: 2026 (OCT)
-    25: Agora Labs raised $5M led by P101 for its life science AI {1|P101}
+    25: Sirona Medical raised a $40M late-stage round led by Avidity Partners for its diagnostic AI software {1|PR Newswire}
 - id: iv_deals
   type: x/rounds_were_announced_last
   section: Investor bets
@@ -3998,9 +3998,6 @@ slides:
   - src: ../../assets/logos/pp_live/healthcare-ai/s10-08.png
     x: 662.6
     y: 296.8
-  - src: ../../assets/logos/pp_live/healthcare-ai/s10-09.png
-    x: 781.3
-    y: 294.0
   - src: ../../assets/logos/pp_live/healthcare-ai/s10-10.png
     x: 480.0
     y: 317.6

@@ -1,0 +1,124 @@
+market: Healthcare AI
+label: Healthcare AI
+quarter: Q4 2026
+year: 2026
+slug: healthcare-ai-pp-fix
+scripts:
+- decisions.js
+keep_together:
+- healthcare AI
+chapters:
+- 'What is this
+
+  market about?'
+- 'Why this
+
+  market now?'
+- 'How big could this
+
+  market get?'
+- 'What are the pain
+
+  points, and for whom?'
+- 'What is the latest tech
+
+  and infrastructure?'
+- 'How is value created
+
+  and monetized?'
+- 'What could slow this
+
+  market down?'
+- 'What are the growth
+
+  drivers in this market?'
+- 'What are investors
+
+  betting on now?'
+- 'Who are the top startups
+
+  and companies?'
+- 'What could kill
+
+  a startup in this market?'
+- 'How do you win
+
+  in this market?'
+slides:
+- id: ed168p
+  type: invbets
+  section: Investor bets
+  handle: healthcare-ai
+  title: 'Where did healthcare AI investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of healthcare AI startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Life science AI
+    names:
+    - Isomorphic Labs
+    - Earendil Labs
+    v: $7.5B
+    pct: 56% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/lib/isomorphic-labs.png
+    - src: ../../assets/logos/earendil-labs.png
+    - src: ../../assets/logos/lib/chai-discovery.png
+  - name: Diagnostic AI
+    names:
+    - Neko Health
+    - Aidoc
+    v: $1.9B
+    pct: 14% of total
+    w: 24.8
+    logos:
+    - src: ../../assets/logos/lib/neko-health.png
+    - src: ../../assets/logos/lib/aidoc.png
+    - src: ../../assets/logos/dentalmonitoring.png
+  - name: Care workflow AI
+    names:
+    - Forus
+    - Qualified Health
+    v: $1.7B
+    pct: 13% of total
+    w: 22.8
+    logos:
+    - src: ../../assets/logos/lib/forus.png
+    - src: ../../assets/logos/lib/qualified-health.png
+    - src: ../../assets/logos/assort-health.png
+  - name: Clinical AI tools
+    names:
+    - OpenEvidence
+    - Function Health
+    v: $1.6B
+    pct: 12% of total
+    w: 21.3
+    logos:
+    - src: ../../assets/logos/openevidence.png
+    - src: ../../assets/logos/lib/function-health.png
+    - src: ../../assets/logos/lib/inspiren.png
+  - name: Revenue cycle AI
+    names:
+    - Candid Health
+    - Commure
+    v: $530M
+    pct: 4% of total
+    w: 7.1
+    logos:
+    - src: ../../assets/logos/lib/candid-health.png
+    - src: ../../assets/logos/lib/commure.png
+    - src: ../../assets/logos/lib/akasa.png
+  - name: Payer AI
+    names:
+    - Alaffia Health
+    - Anterior
+    v: $256M
+    pct: 2% of total
+    w: 3.4
+    logos:
+    - src: ../../assets/logos/alaffia-health.png
+    - src: ../../assets/logos/lib/anterior.png
+    - src: ../../assets/logos/lib/codoxo.png

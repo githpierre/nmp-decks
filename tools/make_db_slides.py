@@ -58,9 +58,11 @@ def main():
         return s + f" {{1|{p_}}}"
     def dl(d): return f"{d[:4]} ({['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][int(d[5:7]) - 1]})"
 
-    last = sorted(R, key=lambda r: r['date'], reverse=True)[:12]
+    last = sorted(R, key=lambda r: r['date'], reverse=True)[:12]; floor = ''
+    if sum(1 for r in last if 0 < r['amt'] < 1e7) > 6:      # a busy market: most of the 12 latest rounds are small rounds of unknown startups (Healthcare AI, 13 Nov 2026).
+        last = sorted([r for r in R if r['amt'] >= 1e7], key=lambda r: r['date'], reverse=True)[:12]; floor = ' of $10M or more'   # Pierre: the 12 latest of $10M or more, and the note says so
     D['ed156'] = {k: v for i, r in enumerate(last[:6]) for k, v in ((13 + 2 * i, dl(r['date'])), (14 + 2 * i, sentence(r)))}
-    D['ed156']['note'] = f'We list the latest equity rounds of {N} startups in our tracker, from company releases and the press. Undisclosed means no amount was made public'
+    D['ed156']['note'] = f'We list the latest equity rounds{floor} of {N} startups in our tracker, from company releases and the press.' + ('' if floor else ' Undisclosed means no amount was made public')
     D['ed157'] = {k: v for i, r in enumerate(last[6:12]) for k, v in ((14 + 2 * i, dl(r['date'])), (15 + 2 * i, sentence(r)))}
     D['ed157']['note'] = D['ed156']['note']
 

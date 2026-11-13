@@ -24,11 +24,12 @@ PUB.update({'fiercehealthcare.com': 'Fierce Healthcare', 'mobihealthnews.com': '
        'healthcaredive.com': 'Healthcare Dive', 'modernhealthcare.com': 'Modern Healthcare', 'medcitynews.com': 'MedCity News', 'hitconsultant.net': 'HIT Consultant', 'biospace.com': 'BioSpace',
        'sifted.eu': 'Sifted', 'wamda.com': 'Wamda', 'brutkasten.com': 'Brutkasten', 'indiatimes.com': 'The Economic Times', 'healthcareitnews.com': 'Healthcare IT News', 'webwire.com': 'WebWire',
        'thesaasnews.com': 'The SaaS News', 'forgeglobal.com': 'Forge Global', 'bydrug.pharmcube.com': 'PharmCube', 'zhangtongshe.com': 'Zhangtongshe', 'klasresearch.com': 'KLAS', 'jamanetwork.com': 'JAMA',
-       'ama-assn.org': 'AMA', 'fda.gov': 'FDA', 'cms.gov': 'CMS', 'hhs.gov': 'HHS', 'nature.com': 'Nature', 'rockhealth.com': 'Rock Health', 'menlovc.com': 'Menlo Ventures', 'bvp.com': 'Bessemer', 'investegate.eu': 'Investegate', 'investegate.co.uk': 'Investegate'})
+       'ama-assn.org': 'AMA', 'fda.gov': 'FDA', 'cms.gov': 'CMS', 'hhs.gov': 'HHS', 'nature.com': 'Nature', 'rockhealth.com': 'Rock Health', 'menlovc.com': 'Menlo Ventures', 'bvp.com': 'Bessemer', 'investegate.eu': 'Investegate', 'parkwalk.vc': 'Parkwalk', 'investegate.co.uk': 'Investegate'})
 def site_label(u):
     """main label of the host: blog.newlimit.com -> newlimit, ucl.ac.uk -> ucl (a sub-domain is never a publisher name: « Blog », 13 Nov 2026)"""
     h = re.sub(r'^https?://(www\.)?', '', u).split('/')[0].lower(); p = h.split('.')
     if len(p) >= 3 and p[-2] in ('co', 'com', 'ac', 'org', 'net', 'gov', 'edu') and len(p[-1]) == 2: return p[-3]
+    if len(p) >= 3 and p[-2] in ('substack', 'medium', 'notion', 'webflow'): return p[-3]      # a company's page on a blog host: the company, not the host
     return p[-2] if len(p) >= 2 else h
 def pub(u):
     h = re.sub(r'^https?://(www\.)?', '', u).split('/')[0]
