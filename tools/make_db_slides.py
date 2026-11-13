@@ -37,7 +37,7 @@ def main():
     for cid, m in M.items():
         for r in g.rounds_for(b, cid, 'deals'):
             if (r['round_type'] or '').upper() == 'IPO' or 'IPO' in (r['round_label'] or ''): continue   # equity rounds only, never a listing
-            R.append(dict(r, name=b.companies[cid]['name'], cat=m.get('category') or '', country=b.companies[cid]['hq_country'], amt=float(r['amount_usd'] or 0)))
+            R.append(dict(r, name=b.companies[cid]['name'], what=m.get('what_they_do') or '', cat=m.get('category') or '', country=b.companies[cid]['hq_country'], amt=float(r['amount_usd'] or 0)))
     R.sort(key=lambda r: r['date'])
     tot = sum(r['amt'] for r in R); D = {}
     year_ago = f'{int(today[:4]) - 1}{today[4:]}'
@@ -50,7 +50,16 @@ def main():
         if r['amt']: s = f"{r['name']} raised {'a ' + money(r['amt']) + ' ' + st_ if st_ else money(r['amt'])}"
         else: s = f"{r['name']} raised an undisclosed {st_ or 'round'}"
         if lead: s += f' led by {lead}'
-        if r['cat'] and len(s) + len(r['cat']) < 100: s += ' for its ' + ' '.join(w if w.isupper() else w.lower() for w in r['cat'].split())   # « life science AI », not « life Science AI »
+        w_ = (r.get('what') or '').strip().rstrip('.')   # what the company does (markets.csv), so the reader learns something (Pierre, 14 Nov 2026: rows 30-40% too short)
+        lw = lambda x: ' '.join(t if (t.isupper() or any(c.isupper() for c in t[1:])) else t.lower() for t in x.split())
+        verb = bool(re.match(r'^(Builds|Develops|Combines|Uses|Makes|Designs|Provides|Offers|Creates|Runs|Helps|Turns|Applies)\b', w_))
+        lim = 140 - len(pub(r['source_url']))   # two lines at most, source label included
+        while w_ and len(s) + len(w_) >= lim:                     # too long: cut at the last « and », « for », « to », comma
+            cut = max(w_.rfind(x) for x in (' and ', ' for ', ' to ', ', ', ' with '))
+            w_ = w_[:cut] if cut > 15 else ''
+        if w_ and verb: s += '. It ' + lw(w_)
+        elif w_: s += ' for its ' + lw(w_)
+        elif r['cat'] and len(s) + len(r['cat']) < 100: s += ' for its ' + ' '.join(w if w.isupper() else w.lower() for w in r['cat'].split())   # « life science AI », not « life Science AI »
         p_ = pub(r['source_url']); key = re.sub(r'[^a-z0-9]', '', r['name'].lower())
         lab = re.sub(r'[^a-z0-9]', '', site_label(r['source_url']))
         if p_.lower()[:5] == key[:5] or (len(lab) >= 4 and (key.startswith(lab) or lab.startswith(key))) or 'pr.co' in r['source_url']: p_ = r['name'].split()[0]   # a company's own site, blog or press page: name the company
@@ -102,7 +111,7 @@ def main():
     old = []
     for cid, m in M.items():
         for r in g.rounds_for(b, cid, 'ranking'):
-            if r['date'] < year_ago and (r['round_type'] or '').upper() != 'IPO': old.append(dict(r, name=b.companies[cid]['name'], amt=float(r['amount_usd'] or 0)))
+            if r['date'] < year_ago and (r['round_type'] or '').upper() != 'IPO': old.append(dict(r, name=b.companies[cid]['name'], what=m.get('what_they_do') or '', cat=m.get('category') or '', amt=float(r['amount_usd'] or 0)))
     D['ed166p'] = dict(rounds=[dict(x, date=x['date'][-4:]) for x in raises(old)], note=[f'We listed the biggest equity rounds raised by {N} startups before the last twelve months',
                        'We used our tracker of rounds, company announcements and the press, with sources at the end'])
     # categories

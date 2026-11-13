@@ -320,8 +320,17 @@ window.F = (() => {
     try { pillCentre(sl); } catch (e) { console.error('pillCentre', sl.dataset.n, e); } };   // last: on the final geometry
   // segment dividers: ONE title size for the whole deck, the largest at which the longest name stays clear of the side arrows
   // (Pierre, 12 Nov 2026: the arrows ran over « BIPEDAL GENERAL-PURPOSE HUMANOIDS »). CHECK TEXT_ON_LINE
-  const deck = () => { const D = [...document.querySelectorAll('.slide[data-tpl="divider_3"]')].map(sl => ({sl, el: sl.querySelector('.rx-t[data-k="3"]')})).filter(o => o.el && o.el.textContent.trim());
-    if (!D.length) return; let k = 1; D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.whiteSpace = 'nowrap'; }); const i = ink(o.el, o.sl); if (i) k = Math.min(k, 640 / i.w); });
-    if (k < 1) D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = (parseFloat(getComputedStyle(x).fontSize) * k) + 'px'; }); mark('dividerSize', o.sl); }); };
+  const deck = () => { const D = [...document.querySelectorAll('.slide[data-tpl="divider_3"]')].map(sl => ({sl, el: sl.querySelector('.rx-t[data-k="3"]'), k5: sl.querySelector('.rx-t[data-k="5"]'), k6: sl.querySelector('.rx-t[data-k="6"]')})).filter(o => o.el && o.el.textContent.trim());
+    /* segment dividers (Pierre, 14 Nov 2026): the name takes the largest size, up to 40pt, at which EVERY name of the deck fits between the side arrows
+       on at most 2 balanced lines; one size for all dividers; kicker, name and subtitle centred as a group on the arrows. CHECK TEXT_ON_LINE */
+    if (!D.length) return; const X0 = 160, W = 640, MID = 310;
+    D.forEach(o => { Object.assign(o.el.style, {left: X0 + 'px', width: W + 'px', height: 'auto', padding: '0'}); o.el.querySelectorAll('p, div').forEach(x => { x.style.textWrap = 'balance'; });
+      o.el.querySelectorAll('span').forEach(x => { x.style.whiteSpace = 'normal'; }); });
+    const fits = f => D.every(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = f + 'px'; }); const lh = f * 1.38, h = o.el.scrollHeight;
+      const words = [...o.el.querySelectorAll('span')].every(x => x.scrollWidth <= W + 1); return h <= lh * 2 + 4 && words && o.el.scrollWidth <= W + 1; });
+    let f = 40 * 96 / 72; while (f > 18 && !fits(f)) f -= 1;
+    D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = f + 'px'; }); const h = o.el.getBoundingClientRect().height;
+      const h6 = o.k6 ? o.k6.getBoundingClientRect().height : 0, h5 = o.k5 ? o.k5.getBoundingClientRect().height : 0, tot = h6 + 6 + h + 8 + h5;
+      let y = MID - h / 2 - h6 - 6; if (o.k6) o.k6.style.top = y + 'px'; o.el.style.top = (y + h6 + 6) + 'px'; if (o.k5) o.k5.style.top = (y + h6 + 6 + h + 8) + 'px'; mark('dividerSize', o.sl); }); };
   return {deck, all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();

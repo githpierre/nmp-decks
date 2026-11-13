@@ -133,11 +133,11 @@ def raises(s):
     while mx / step > 4.2: step *= 2
     grid = []; v = step
     while v < mx * 1.02:
-        grid.append(dict(y=base - HM * v / mx, lab=f'${v/1e9:.1f}B' if v >= 1e9 else f'${v/1e6:.0f}M')); v += step
+        grid.append(dict(y=base - HM * v / mx, lab=(f'${v/1e9:.1f}B'.replace('.0B', 'B')) if v >= 1e9 else f'${v/1e6:.0f}M')); v += step
     bars = []
     for i, r in enumerate(R):
         h = max(10, HM * r['amt'] / mx); a = r['amt']
-        bars.append(dict(r=r, cx=L + SP * (i + .5), h=h, lab=f'${a/1e9:.1f}B' if a >= 1e9 else f'${a/1e6:.0f}M', lead=i == 0))
+        bars.append(dict(r=r, cx=L + SP * (i + .5), h=h, lab=(f'${a/1e9:.1f}B'.replace('.0B', 'B')) if a >= 1e9 else f'${a/1e6:.0f}M', lead=i == 0))
     s['geo'] = dict(bars=bars, grid=grid, base=base, L=L, R=L + SP * k, SP=SP)
 
 def grid(s):

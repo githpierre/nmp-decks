@@ -126,7 +126,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 
 ## Delivery
 - Name « <Market> - Q<n> <year> - newmarketpitch.com ©.pdf », quarter of the day of production.
-- PDF = screen render of each slide (2x JPEG q72) over the vector page (text selectable, links clickable), qpdf compression.
+- PDF = screen render of each slide (2x PNG, lossless: JPEG 72 turned soft shadows on navy into blocks, Pierre 14 Nov 2026) over the vector page (text selectable, links clickable), qpdf compression.
 - Audit images (PNG) are the screen render with images. First build: every slide, on sheets of 6. Later rounds: the slides
   listed as changed (tools/diff_slides.py). Pierre sees the deck on a review page before the PDF.
 
@@ -135,3 +135,15 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   « Copier mes réponses ». Round 2+: only what he must see again.
 - Atelier du juge = a recurring judgment (6 real cases, variants A/B/C, one thing changes). Design choice = 6-9 truly different
   variants, large. « Sois créatif » = change the layout, not a detail.
+
+## Pierre's review of Healthcare AI (14 Nov 2026), each with its check
+- Amounts read at a glance: $10B or more without decimal ($56B, never $56.01B), under $10B one decimal at most ($2.1B), same for M.
+  A share keeps one decimal at most. Applied by the import to every text except notes (notes keep the exact arithmetic). Given to the research LLM as a format rule.
+- The pages of a series (1/2, 2/3…) share one design and one number of items. CHECK SERIES MIXED (import). A page that cannot match leaves the series (`page: null`).
+- The three circles (markets it sits between): two words each, one word per line. CHECK VENN WORDS.
+- Top companies slide: company names in capitals (import).
+- Segment dividers: no slide title on top. Their name takes the largest size, up to 40pt, at which the longest name of the deck stays clear of the side arrows, and every divider uses that size (fixlib deck()).
+- A map region renamed to a country puts its dot on that country (worldmap PL table). CHECK MAP PLACE for a name the map does not know.
+- Text lengths Pierre asked for (targets for the research prompts): myth answers ~125 characters, « truths that flipped » right boxes ~70,
+  rows of dated timelines (latest developments, deals, news, scored big, rounds) 120-140 characters with one more concrete fact.
+  Rounds rows from the base say what the company does (markets.csv what_they_do).

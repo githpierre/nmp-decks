@@ -242,7 +242,7 @@ def build(slug, png=False, only=None):
             pg2.add_style_tag(content='.slide{margin:0!important}body{background:#062A3C}')
             from PIL import Image; import io as _io
             def _jpg(el):
-                b_ = _io.BytesIO(); Image.open(_io.BytesIO(el.screenshot())).convert('RGB').save(b_, 'JPEG', quality=72, optimize=True, progressive=True, subsampling=2); return b_.getvalue()
+                b_ = _io.BytesIO(); Image.open(_io.BytesIO(el.screenshot())).convert('RGB').save(b_, 'PNG', optimize=True); return b_.getvalue()   # lossless (Pierre, 14 Nov 2026: JPEG 72 turned the soft shadows on navy into blocks)
             shots = [_jpg(el) for el in pg2.query_selector_all('.slide')]
             pg2.close()
             flatten(out / name, shots)

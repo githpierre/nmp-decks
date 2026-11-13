@@ -8,8 +8,14 @@
             'au':{'dot':[655,498],'box':[385,512,250],'name':'AUSTRALIA'}} %}{# au + regions without pct (leaders by region): 12 Nov 2026, the Australia text pointed at the Middle East #}
 <div class="map"><img class="w" src="../../assets/img/world-map.svg">
 <svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
-{% for k,r in s.regions.items() %}{% set d = [r.pct * 0.89, 5] | max if r.pct else 14 %}
-<div class="dot" data-k="{{ k }}" style="left:{{ P[k].dot[0] - d/2 }}px;top:{{ P[k].dot[1] - d/2 }}px;width:{{ d }}px;height:{{ d }}px"></div>
+{# a region renamed to a country (« INDIA » instead of « ASIA-PACIFIC ») puts its dot on that country (Pierre, 14 Nov 2026: the India dot sat on China).
+   Positions from the map projection: x = 331 + 1.415 (lon + 95), y = 367 - 2.015 (lat - 40). The import refuses a name it cannot place (MAP PLACE). #}
+{% set PL = {'INDIA':[576,405],'CHINA':[614,377],'JAPAN':[662,375],'SOUTH KOREA':[645,373],'SINGAPORE':[613,445],'TAIWAN':[635,400],'ISRAEL':[515,385],
+             'UNITED KINGDOM':[478,339],'UK':[478,339],'FRANCE':[468,353],'GERMANY':[479,345],'SWITZERLAND':[475,352],'NORDICS':[489,323],
+             'CANADA':[310,330],'UNITED STATES':[331,367],'US':[331,367],'BRAZIL':[400,470],'MEXICO':[316,402],'UAE':[553,407],'SAUDI ARABIA':[543,405],
+             'AFRICA':[490,440],'NORTH AMERICA':[331,367],'EUROPE':[493,359],'ASIA-PACIFIC':[632,403],'MIDDLE EAST & AFRICA':[529,396],'LATIN AMERICA':[412,444],'SOUTHEAST ASIA':[610,430],'AUSTRALIA':[655,498],'NEW ZEALAND':[713,535]} %}
+{% for k,r in s.regions.items() %}{% set d = [r.pct * 0.89, 5] | max if r.pct else 14 %}{% set nm = (r.name or P[k].name) | upper %}{% set dot = r.at or PL.get(nm.split(' - ')[0]) or P[k].dot %}
+<div class="dot" data-k="{{ k }}" style="left:{{ dot[0] - d/2 }}px;top:{{ dot[1] - d/2 }}px;width:{{ d }}px;height:{{ d }}px"></div>
 <div class="reg" data-k="{{ k }}" data-start="{{ r.start or s.line_start or 'middle' }}" data-end="{{ r.end or s.line_end or 'auto' }}" data-bend="{{ r.bend or s.line_bend or 0.67 }}" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ s.widths[k] if s.widths and s.widths[k] else P[k].box[2] }}px"><h4>{{ r.name or P[k].name }}{% if r.pct %} - {{ r.pct }}%{% endif %}</h4><p>{{ r.text | md }}</p></div>{% endfor %}
 <script>/* Region texts: 3 lines (Pierre, 10 Nov 2026). If the text needs more than 3 lines at its default width, the box widens
    around its centre (up to +110 px, inside the 24-936 px margins) until it fits on 3 lines. Audit MAP_TEXT_LINES checks 3 lines. */

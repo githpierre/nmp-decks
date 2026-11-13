@@ -14,6 +14,24 @@ ROOT = Path(__file__).resolve().parent.parent
 REF = {s['id']: s for s in yaml.safe_load((ROOT / 'decks/edtech-full/deck.yaml').read_text())['slides']}
 
 
+
+def tidy_numbers(v):
+    """amounts and shares read at a glance (Pierre, 14 Nov 2026: « $56.01B » makes no sense, « $56B » does):
+    $10B or more -> no decimal, under $10B -> one decimal at most, same for M and K; a share keeps one decimal at most"""
+    def amt(m):
+        x = float(m.group(1).replace(',', '')); u = m.group(2)
+        r = f'{x:.0f}' if x >= 10 else f'{x:.1f}'.rstrip('0').rstrip('.')
+        return '$' + r + u
+    v = re.sub(r'\$(\d+\.\d+)(B|M|K)\b', amt, v)
+    v = re.sub(r'\$(\d+)\.0(B|M|K)\b', r'$\1\2', v)   # « $1.0B » -> « $1B »
+    v = re.sub(r'(?<![\d.])(\d+\.\d)\d+%', lambda m: m.group(1).rstrip('0').rstrip('.') + '%', v)
+    return v
+def tidy_all(x, k=None):
+    if isinstance(x, dict): return {kk: tidy_all(vv, kk) for kk, vv in x.items()}
+    if isinstance(x, list): return [tidy_all(vv, k) for vv in x]
+    if isinstance(x, str) and k not in ('url', 'src', 'href', 'link', 'note'): return tidy_numbers(x)   # the note keeps the exact figures of the arithmetic
+    return x
+
 def use_model(deck):
     """the reference deck (In Vivo CAR-T, 12 Nov 2026) becomes the model; EdTech stays for the slides it does not have"""
     for s in yaml.safe_load((ROOT / deck / 'deck.yaml').read_text())['slides']:
@@ -462,6 +480,8 @@ def main():
         if x.get('type') == 'contrast' and x.get('right'):
             nm = {'FIGURE': 'Figure AI', 'AGILITY ROBOTICS': 'Agility Robotics', 'UNITREE': 'Unitree Robotics', '1X': '1X Technologies'}.get(x['right'].upper(), x['right'].title())
             x['logo_src'] = logo(nm)
+    for x in S:                  # segment dividers carry no slide title (Pierre, 14 Nov 2026: « Pain points: Hospitals… » sat over the arrows)
+        if x.get('type') == 'x/divider_3': x.pop('title', None)
     for x in S:                  # a converted chart with fixed geometry needs its data (14 Nov 2026: the valuation lines of the original PowerPoint were shown in two decks)
         if x.get('type') == 'x/fast_startups_growing' and not x.get('growth'): print('FIXED CHART', x.get('id'), x['type'], ': give `growth: {36: {pts: [[years since founding, value], …]}, 37: …}` in edits.yaml, or drop the slide')
     if a.model:                  # icons copied from the reference market and still identical: a leftover when they belong to its domain (12 Nov 2026: 🧬 🦠 💉 in Humanoid Robotics)
@@ -489,6 +509,32 @@ def main():
         left = [x['id'] for x in S if re.search(re.escape(mn), yaml.dump(x, allow_unicode=True), re.I)]
         if left: print('MODEL MARKET LEFT in', left); rep.append(('model market', ['name left in ' + ', '.join(left)]))
     D = {k: v for k, v in demo.items() if k != 'slides'}; D['slug'] = Path(a.out).name; D['slides'] = S
+    for x in S:                  # fixed shapes of some slides (Pierre, 14 Nov 2026)
+        t = x.get('t') if isinstance(x.get('t'), dict) else {}
+        if x.get('type') == 'x/markets_sit_between':      # the three circles: always two words, one per line
+            for k in (8, 9, 10):
+                w = re.sub(r'<br>|\n', ' ', str(t.get(k, ''))).split()
+                if len(w) == 2: t[k] = '\n'.join(w)
+                elif t.get(k): print('VENN WORDS', x.get('id'), k, repr(t[k]), ': two words, one per line')
+        if x.get('type') in ('x/top_companies_market', 'x/top_companies_market_2'):   # company names in capitals
+            for k in range(8, 24, 2):
+                if isinstance(t.get(k), str) and len(t[k]) < 30: t[k] = t[k].upper()
+    S[:] = [tidy_all(x) for x in S]
+    _PLC = set('INDIA CHINA JAPAN TAIWAN ISRAEL UK US FRANCE GERMANY SWITZERLAND NORDICS CANADA BRAZIL MEXICO UAE AFRICA AUSTRALIA SINGAPORE'.split()) | {'JAPAN AND KOREA', 'SOUTH KOREA', 'UNITED KINGDOM', 'UNITED STATES', 'SAUDI ARABIA', 'SOUTHEAST ASIA', 'NEW ZEALAND',
+            'NORTH AMERICA', 'EUROPE', 'ASIA-PACIFIC', 'MIDDLE EAST & AFRICA', 'LATIN AMERICA'}
+    for x in S:                  # a renamed map region must be a place the map knows, so its dot moves with it (14 Nov 2026)
+        for k, r in ((x.get('regions') or {}).items() if x.get('type') == 'worldmap' else []):
+            nm = str(r.get('name') or '').upper().split(' - ')[0].strip()
+            if nm and nm not in _PLC and not r.get('at'): print('MAP PLACE', x.get('id'), k, nm, ': name a known place or give `at: [x, y]`')
+    for i, x in enumerate(S):    # the pages of a series (1/3, 2/3, 3/3) share one design and one number of items (Pierre, 14 Nov 2026: 6 rows on 1/3, 4 on 2/3 and 3/3)
+        m = re.fullmatch(r'1/(\d)', str(x.get('page') or ''))
+        if not m: continue
+        G = S[i:i + int(m.group(1))]
+        cnt = lambda y: len(y.get('rows') or y.get('items') or y.get('categories') or []) or sum(1 for v in (y.get('t') or {}).values() if isinstance(v, str) and v.strip())
+        DATED = {'startups_news_lately', 'rounds_were_announced_last', 'startups_stumbled_lately', 'were_latest_tech_infra_developments'}   # one look: the dated timeline
+        fam = lambda y: (lambda b: 'dated' if b in DATED else b)(re.sub(r'^x/|_\d$', '', str(y.get('type'))))
+        if len({fam(y) for y in G}) > 1 or len({cnt(y) for y in G}) > 1:
+            print('SERIES MIXED', ' '.join(f"{y.get('id')}={y.get('type')}:{cnt(y)}" for y in G), ': one design and one count on every page, or take the odd page out of the series (`page: null`)')
     (out / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
     (out / 'sources.yaml').write_text(yaml.dump(sources, allow_unicode=True, sort_keys=False, width=1000))
     bad = [(k, p) for k, p in rep if p]

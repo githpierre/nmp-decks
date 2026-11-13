@@ -182,8 +182,12 @@ slides:
     8: 'CLINICAL
 
       CARE'
-    9: MEDICAL DEVICES
-    10: LIFE SCIENCES
+    9: 'MEDICAL
+
+      DEVICES'
+    10: 'LIFE
+
+      SCIENCES'
     13: Healthcare AI links clinical software, medical devices and life sciences. Its products help doctors answer questions, read scans or design drugs. The link is AI built mainly for healthcare buyers.
 - id: ed010
   type: x/if_break_down_smaller_markets
@@ -193,11 +197,11 @@ slides:
   t:
     5: 'CLINICAL
 
-      DECISION'
+      AI TOOLS'
     7: It is in the market when AI answers medical questions or helps doctors assess needs.
-    8: 'MEDICAL
+    8: 'DIAGNOSTIC
 
-      IMAGING'
+      AI SOFTWARE'
     10: It is in the market when software reads scans and flags findings for medical staff.
     11: 'CARE
 
@@ -207,9 +211,9 @@ slides:
 
       PAYER AI'
     16: It is in the market when AI reviews bills, claims or insurer approval requests.
-    17: 'LIFE SCIENCE
+    17: 'LIFE
 
-      AI MODELS'
+      SCIENCE AI'
     19: It is in the market when AI finds drug targets or designs medicines for human trials.
     21: HEALTHCARE AI
 - id: ed011
@@ -302,13 +306,13 @@ slides:
   src: 15
   t:
     0: AI already makes medical decisions by itself
-    7: The AMA reports 81% physician awareness or use in 2026. Permanente doctors logged 2.5M AI-aided visits.
+    7: The AMA's 2026 survey found 81% of US physicians use AI at work. Permanente doctors alone logged 2.5M AI-aided visits.
     9: Doctors do not really use AI in patient care
-    10: A five-center study found modest reductions in documentation time, not universal hours a day. Results depend on use.
+    10: A five-center study found modest cuts in note time, not hours saved every day. Gains depend on the specialty and on daily use.
     12: AI scribes always save hours every day
-    13: FDA rules apply to some medical AI tools. Its device list is not a directory of all clinical and billing software.
+    13: FDA rules cover AI that acts like a medical device, such as scan readers. Its list is not a directory of all clinical software.
     15: Every healthcare AI product needs FDA clearance
-    16: Payer AI can automate simple approvals, but Cohere says the other cases go to clinicians for final review.
+    16: Payer AI can approve simple requests on its own, but Cohere Health sends every other case to a clinician for the final call.
     20: 🤥
     21: 🤥
     22: 🤥
@@ -322,13 +326,13 @@ slides:
   src: 16
   t:
     0: Hospitals can skip privacy and oversight rules
-    7: AI answers doctors’ questions, writes clinical notes and handles billing. Imaging is only one segment.
+    7: AI answers doctors' questions, writes clinical notes, codes bills and helps design drugs. Imaging is only one of six segments.
     9: Healthcare AI is only about scans
-    10: The study measured medical AI usage, not the accuracy of each answer or improved patient outcomes.
+    10: The JAMA study measured how often doctors use OpenEvidence, not whether each answer was right or patients did better after.
     12: Fast answers guarantee better care
-    13: AI drugs have entered clinical studies, but a 2026 review found no approved medicine discovered with AI.
+    13: AI-designed drugs such as Insilico's rentosertib have reached human trials, but a 2026 review found no approved one yet.
     15: AI drugs are already approved
-    16: A 2026 NEJM AI paper said vendors retain data differently. Hospitals still need privacy safeguards.
+    16: A 2026 NEJM AI paper found vendors keep patient data in different ways. Hospitals still need privacy rules and human review.
     20: 🤥
     21: 🤥
     22: 🤥
@@ -347,7 +351,6 @@ slides:
   type: sx_categories_n
   section: Market definition
   title: How can we categorize companies in the healthcare AI market?
-  page: 1/3
   note: We use the six solution categories in our company database, with overlap decided by the primary product sold.
   src: 18
   categories:
@@ -386,7 +389,7 @@ slides:
   type: x/categorize_companies_market
   section: Market definition
   title: How can we categorize companies in the healthcare AI market?
-  page: 2/3
+  page: 1/2
   note: We classify buyers by the healthcare work they pay to improve. Some platforms serve more than one buyer group.
   src: 19
   t:
@@ -415,7 +418,7 @@ slides:
   type: x/categorize_companies_market
   section: Market definition
   title: How can we categorize companies in the healthcare AI market?
-  page: 3/3
+  page: 2/2
   note: We sort products by their place in daily work, from clinical guidance to back-office execution and scientific discovery.
   src: 20
   t:
@@ -448,19 +451,19 @@ slides:
   src: 21
   t:
     7: It turns clinical talk into visit notes and partners with 150+ US health systems.
-    8: Abridge
+    8: ABRIDGE
     9: It flags possible strokes and urgent findings, alerting specialist teams.
-    10: Viz.ai
+    10: VIZ.AI
     11: It interprets scans and alerts care teams about urgent findings in hospitals.
-    12: Aidoc
+    12: AIDOC
     13: It helps insurers review care approvals and route difficult cases to experts.
-    14: Anterior
+    14: ANTERIOR
     15: It uses AI to analyze heart scans and help doctors assess blocked arteries.
-    16: Heartflow
+    16: HEARTFLOW
     17: It creates clinical notes and stages orders for physicians to review.
-    18: Suki
+    18: SUKI
     19: It models disease biology to discover drug targets and design new medicines.
-    20: insitro
+    20: INSITRO
     21: It uses AI for hospital coding and record review before claims go out.
     22: AKASA
 - id: ed022
@@ -502,17 +505,17 @@ slides:
   src: 23
   t:
     6: Healthcare AI was often a narrow imaging tool for specialists
-    8: Now it also supports evidence search, visit notes and hospital billing
+    8: Now it also supports evidence search, visit notes, coding and hospital billing
     10: Early clinical AI reached doctors as separate software
-    12: Now more AI tools feed patient records and care workflows
+    12: Now more AI tools feed patient records and daily care workflows
     14: Medical AI was mostly described as a research idea
-    16: Now verified clinicians use it at scale for real care questions
+    16: Now verified clinicians use it at scale for real patient care questions
     18: The first imaging AI systems handled a few findings
-    20: Now the FDA lists more than 1,600 authorized AI-enabled devices
+    20: Now the FDA lists more than 1,600 authorized AI-enabled medical devices
     22: Hospitals once tested AI note tools in pilot programs
-    24: Now one health system has measured millions of AI-assisted visits
+    24: Now Permanente alone has measured millions of AI-assisted patient visits
     26: Healthcare AI used to mean mostly provider-side products
-    28: Now payer automation and drug discovery are core markets
+    28: Now payer automation and drug discovery are core parts of the market
 - id: ed024
   type: dated
   section: Market definition
@@ -552,7 +555,7 @@ slides:
   - d: SINCE 2026
     t: A JAMA study counted 703,265 monthly active clinician users on OpenEvidence in June, demonstrating rapid use of AI for medical information retrieval.
   - d: SINCE 2026
-    t: AstraZeneca agreed to collaborate with insitro on AI-led drug targets, committing $40M upfront with up to $1.46B in possible milestones.
+    t: AstraZeneca agreed to collaborate with insitro on AI-led drug targets, committing $40M upfront with up to $1.5B in possible milestones.
   note:
   - We selected public, dated events with clinical, regulatory or strategic weight across the six categories
   - We report company deployment figures as claims unless an independent usage study backs them
@@ -663,7 +666,7 @@ slides:
     10: '2'
     11: Insilico’s half-year revenue rose 3.9 times
     12: '3'
-    13: $12.3B raised in 2026, more than in 2025
+    13: $12B raised in 2026, more than in 2025
     14: '5'
     15: The FDA cleared a record 335 AI devices
     16: '6'
@@ -713,11 +716,11 @@ slides:
   pill: SIGNAL
   title: 'Insilico’s first-half revenue rose
 
-    almost four times, to $106.3M'
+    almost four times, to $106M'
   t:
-    9: $27.5M
+    9: $28M
     10: H1 2025
-    12: $106.3M
+    12: $106M
     13: H1 2026
     15: ×3.9
     16: WHY IT IS HOT
@@ -746,7 +749,7 @@ slides:
   - n: 1
     name: Insilico + Lilly
     src: ../../assets/logos/lib/insilico-medicine.png
-    v: $2.75B
+    v: $2.8B
     what: March 2026
   - n: 2
     name: Insilico + SK Biopharmaceuticals
@@ -756,7 +759,7 @@ slides:
   - n: 3
     name: Profluent + Lilly
     src: ../../assets/logos/lib/profluent.png
-    v: $2.25B
+    v: $2.2B
     what: April 2026
   - n: 4
     name: Iambic + Takeda
@@ -779,20 +782,20 @@ slides:
   type: sx_faceoff
   section: Market opportunity
   pill: SIGNAL
-  title: 'Healthcare AI startups raised $12.3B in 2026
+  title: 'Healthcare AI startups raised $12B in 2026
 
     so far, already more than in all of 2025'
   cards:
   - name: '2025'
     stats:
-    - v: $11.1B
+    - v: $11B
       l: raised in all, in 342 rounds
     - v: 29
       l: rounds of $100M or more
   - name: 2026 SO FAR
     hl: true
     stats:
-    - v: $12.3B
+    - v: $12B
       l: raised in all, in 269 rounds
     - v: 24
       l: rounds of $100M or more
@@ -880,22 +883,22 @@ slides:
   rows:
   - comment: Their 2026 forecast includes clinical software, robots and cybersecurity. It is a broad market low case, not our exact scope.
     firm: Markets and Markets
-    value: $36.67B
+    value: $37B
   - comment: Their 2026 total covers hardware, services, consumer tools and software. We use it only as a wide cross-check.
     firm: 'Grand View
 
       Research'
-    value: $50.7B
+    value: $51B
   - comment: Their 2026 estimate includes major platform suppliers and medical hardware. We treat it as a broad reference case.
     firm: 'Precedence
 
       Research'
-    value: $51.20B
+    value: $51B
   - comment: Their 2026 figure spans robotic surgery, platforms and virtual care. We regard it as the upper end of the published range.
     firm: 'Fortune Business
 
       Insights'
-    value: $56.01B
+    value: $56B
   section: Market size
   src: 42
   title: What are the market size estimates from different sources online?
@@ -955,14 +958,14 @@ slides:
 
       Research'
     11: The forecast includes hardware, services and patient-facing tools. It tests the pace, not the precise scope of our market.
-    13: '35.02%
+    13: '35%
 
       through 2035'
     14: 'Precedence
 
       Research'
     15: The longer forecast includes AI platforms, devices and care tools. It offers a growth proxy, not a narrow industry forecast.
-    17: '43.96%
+    17: '43.9%
 
       through 2034'
     18: 'Fortune Business
@@ -1319,7 +1322,6 @@ slides:
     3: HOSPITALS AND HEALTH SYSTEMS
     5: Hospitals buying AI for medical decisions, documentation, care flow and system safety
     6: PAIN POINTS
-  title: 'Pain points: Hospitals and health systems'
 - id: ed063-s1
   type: x/pays_these_learning_tools
   section: Pain points
@@ -1454,7 +1456,6 @@ slides:
     3: PHYSICIAN PRACTICES AND CLINICS
     5: Outpatient clinics using AI for visit notes, patient messages and insurance paperwork
     6: PAIN POINTS
-  title: 'Pain points: Physician practices and clinics'
 - id: ed063-s2
   type: x/pays_these_learning_tools
   section: Pain points
@@ -1589,7 +1590,6 @@ slides:
     3: HEALTH INSURERS
     5: Health plans using AI for claims, prior approvals, member support and coverage reviews
     6: PAIN POINTS
-  title: 'Pain points: Health insurers'
 - id: ed063-s3
   type: x/pays_these_learning_tools
   section: Pain points
@@ -1724,7 +1724,6 @@ slides:
     3: PHARMA AND BIOTECH
     5: Drug developers using AI-first models for target discovery, molecule design and trials
     6: PAIN POINTS
-  title: 'Pain points: Pharma and biotech'
 - id: ed063-s4
   type: x/pays_these_learning_tools
   section: Pain points
@@ -1991,17 +1990,17 @@ slides:
   src: 92
   t:
     13: '2024'
-    14: Hospitals began linking ambient AI to records, so visit conversations could create draft notes.
+    14: Hospitals began linking ambient AI to patient records, so a recorded visit could become a draft note for the doctor to check.
     15: '2025'
-    16: The FDA drafted lifecycle guidance on safety, bias, and performance tracking for AI devices.
+    16: The FDA drafted lifecycle guidance asking AI device makers to track safety, bias and performance before and after launch.
     17: '2025'
-    18: John Muir Health reported that more than 65% of clinicians in 15 specialties were actively using Ambience.
+    18: John Muir Health reported that more than 65% of its clinicians in 15 specialties were actively using Ambience, so the tool stuck.
     19: '2025'
-    20: Cleveland Clinic rolled out AKASA coding AI at all U.S. sites, handling thousands of visits.
+    20: Cleveland Clinic rolled out AKASA's coding AI at all of its US sites, where it now handles medical coding for thousands of visits.
     21: '2025'
-    22: UPMC expanded Abridge beyond its pilot to thousands of clinicians, with more system-wide access planned.
+    22: UPMC took Abridge beyond its first pilot to thousands of clinicians across its hospitals, and plans wider access across the system.
     23: '2025'
-    24: The FDA finalized guidance allowing planned AI device updates while maintaining safety and effectiveness.
+    24: The FDA finalized guidance letting device makers plan AI model updates in advance, so tools can improve without a new review.
 - id: ed093
   type: x/were_latest_tech_infra_developments_2
   section: Tech and infra
@@ -2011,17 +2010,17 @@ slides:
   src: 93
   t:
     13: '2026'
-    14: Cleveland Clinic reported 4,800+ clinicians using Ambience across 3.5 million patient encounters.
+    14: Cleveland Clinic reported more than 4,800 clinicians using Ambience across 3.5 million patient encounters, one of the largest rollouts.
     15: '2026'
-    16: Aidoc reported one CARE-based triage workflow covering 11 new and three earlier FDA-cleared findings.
+    16: Aidoc reported one CARE-based triage workflow covering 11 new and three earlier FDA-cleared findings, instead of one tool per finding.
     17: '2026'
-    18: Cohere Health said its clinical AI now supports 15 million care decisions each year for health plans.
+    18: Cohere Health said its clinical AI now supports 15 million care decisions a year for health plans reviewing prior authorization requests.
     19: '2026'
-    20: Insilico Medicine dosed its first patient in a Phase 3 trial of the AI-developed drug rentosertib.
+    20: Insilico Medicine dosed the first patient in a Phase 3 trial of rentosertib, a lung fibrosis drug found and designed with its AI.
     21: '2026'
-    22: Recursion said Sanofi selected its first AI-assisted drug candidate from their joint research work.
+    22: Recursion said Sanofi selected the first AI-assisted drug candidate from their joint research, a first step toward clinical testing.
     23: '2026'
-    24: Abridge added local hospital care pathways to its assistant, linking patient context to cited guidance.
+    24: Abridge added local hospital care pathways to its assistant, so answers given during a visit link the patient's context to guidance.
 - id: ed094
   type: x/solvable_bottlenecks
   section: Tech and infra
@@ -2500,7 +2499,7 @@ slides:
   - name: Q3 2026
     hl: true
     stats:
-    - v: $18.6M
+    - v: $19M
       l: of revenue in the quarter
     - v: $6.42
       l: lost for each dollar of revenue
@@ -3747,17 +3746,17 @@ slides:
   src: 156
   t:
     13: 2026 (NOV)
-    14: nPhase raised a $30M late-stage round led by Viking Global Investors for its life science AI {1|nPhase}
+    14: nPhase raised a $30M late-stage round led by Viking Global Investors. It builds an AI-native data platform {1|nPhase}
     15: 2026 (OCT)
-    16: Ribopeutic raised a $15M Series A led by Loyal Valley Capital for its life science AI {1|PharmCube}
+    16: Ribopeutic raised a $15M Series A led by Loyal Valley Capital. It develops AI-guided RNA structural models {1|PharmCube}
     17: 2026 (OCT)
-    18: Midstream Health raised a $20M Series A led by Valtruis for its revenue cycle AI {1|Becker’s Hospital Review}
+    18: Midstream Health raised a $20M Series A led by Valtruis for its healthcare financial optimization software {1|Becker’s Hospital Review}
     19: 2026 (OCT)
-    20: ALLOX raised a $10M seed round led by Asabys Partners for its life science AI {1|GlobeNewswire}
+    20: ALLOX raised a $10M seed round led by Asabys Partners. It combines biophysical experiments and predictive AI models {1|GlobeNewswire}
     21: 2026 (OCT)
-    22: Vera Health raised a $28M Series A led by Threshold Ventures for its clinical AI tools {1|MobiHealthNews}
+    22: Vera Health raised a $28M Series A led by Threshold Ventures for its clinical evidence search for healthcare professionals {1|MobiHealthNews}
     23: 2026 (OCT)
-    24: Atlas Bio raised a $10M seed round led by Creandum for its life science AI {1|Creandum}
+    24: Atlas Bio raised a $10M seed round led by Creandum. It uses foundation models of human biology to simulate clinical trials {1|Creandum}
 - id: ed157
   type: x/rounds_were_announced_last_2
   section: Investor bets
@@ -3769,17 +3768,17 @@ slides:
   src: 157
   t:
     14: 2026 (OCT)
-    15: adsilico raised a $13M Series A led by PXN Ventures for its life science AI {1|Parkwalk}
+    15: adsilico raised a $13M Series A led by PXN Ventures for its synthetic clinical trials for medical devices {1|Parkwalk}
     16: 2026 (OCT)
-    17: ClarityCare raised a $16M Series A led by Headline for its payer AI platforms {1|ClarityCare}
+    17: ClarityCare raised a $16M Series A led by Headline for its AI care coordination for healthcare providers {1|ClarityCare}
     18: 2026 (OCT)
-    19: Pathos AI raised a $237M late-stage round led by Bristol Myers Squibb for its life science AI {1|Pathos}
+    19: Pathos AI raised a $237M late-stage round led by Bristol Myers Squibb for its AI-driven oncology drug development {1|Pathos}
     20: 2026 (OCT)
-    21: Coherence Neuro raised a $45M Series A led by Founders Fund for its clinical AI tools {1|Coherence}
+    21: Coherence Neuro raised a $45M Series A led by Founders Fund. It develops AI-adaptive implantable bioelectronic systems {1|Coherence}
     22: 2026 (OCT)
-    23: Sunlight AI raised a $17M seed round led by Basis Set Ventures for its care workflow AI {1|PR Newswire}
+    23: Sunlight AI raised a $17M seed round led by Basis Set Ventures for its AI tools for healthcare operations {1|PR Newswire}
     24: 2026 (OCT)
-    25: Sirona Medical raised a $40M late-stage round led by Avidity Partners for its diagnostic AI software {1|PR Newswire}
+    25: Sirona Medical raised a $40M late-stage round led by Avidity Partners for its cloud radiology workflow and imaging platform {1|PR Newswire}
 - id: iv_deals
   type: x/rounds_were_announced_last
   section: Investor bets
@@ -3788,17 +3787,17 @@ slides:
   src: 156
   t:
     13: 2026 (OCT)
-    14: AstraZeneca signed a $40M upfront AI drug deal with insitro, plus up to $1.46B in milestones {1|AstraZeneca}
+    14: AstraZeneca signed a $40M upfront deal to use insitro's AI to find drug targets, with up to $1.5B more in milestones {1|AstraZeneca}
     15: 2026 (SEP)
-    16: OpenEvidence teamed with Anthropic to bring clinical AI to more doctors worldwide {1|OpenEvidence}
+    16: OpenEvidence teamed with Anthropic to offer its clinical AI free to doctors in about 100 low- and middle-income countries {1|Fierce Healthcare}
     17: 2026 (JUL)
-    18: Takeda signed an AI drug deal with Insilico Medicine worth up to $600M in milestones {1|Takeda}
+    18: Takeda signed a deal to use Insilico Medicine's AI to design new drugs, worth up to $600M if every milestone is met {1|Takeda}
     19: 2026 (MAR)
-    20: Mount Sinai added OpenEvidence medical search inside its Epic patient records {1|Mount Sinai}
+    20: Mount Sinai put OpenEvidence medical search inside its Epic patient records, so doctors ask questions without leaving the chart {1|Mount Sinai}
     21: 2026 (MAR)
-    22: GE HealthCare bought Intelerad for $2.3B, adding imaging AI and cloud software {1|GE HealthCare}
+    22: GE HealthCare bought Intelerad for $2.3B, adding cloud imaging software and AI used by radiology practices and hospitals {1|GE HealthCare}
     23: 2025 (AUG)
-    24: Tempus bought pathology AI firm Paige, later reporting $102.7M in consideration to expand its clinical image analysis {1|Tempus}
+    24: Tempus bought pathology AI firm Paige, later reporting $103M in consideration to expand its clinical image analysis {1|Tempus}
 - id: ed158
   type: fundbars
   section: Investor bets
@@ -3853,7 +3852,7 @@ slides:
   t:
     6: Life science AI took about 48% of the capital raised since 2024, far ahead of care workflow AI with about 17%
     7: 861 of the 901 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
-    8: US startups closed 553 of the 901 rounds and took $22.2B, about 72% of the money, far ahead of the United Kingdom
+    8: US startups closed 553 of the 901 rounds and took $22B, about 72% of the money, far ahead of the United Kingdom
     9: 68 rounds of $100M or more made up about 54% of all the capital raised in the market since 2024
     10: The $2.1B Series B of Isomorphic Labs is the biggest round since 2024, ahead of the $1B raised by Xaira Therapeutics in 2024
     11: Seed was the most common round, with 343 of the 901 rounds, ahead of Series A with 242 and Series B with 104
@@ -3873,7 +3872,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 901 rounds raised $30.8B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
+      Since 2024, 901 rounds raised $31B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -3936,12 +3935,12 @@ slides:
     amt: 1000000000
     date: '2019'
     stage: Growth Equity
-    src: media/ini/verily.png
+    src: ../../assets/logos/verily.png
   - name: Verily
     amt: 1000000000
     date: '2022'
     stage: Growth Equity
-    src: media/ini/verily.png
+    src: ../../assets/logos/verily.png
   - name: Xaira Therapeutics
     amt: 1000000000
     date: '2024'
@@ -3971,7 +3970,7 @@ slides:
     10: DEALS
     11: '228'
     12: '200'
-    13: $14.6B
+    13: $15B
     14: '
 
       RAISED ($)'
@@ -4354,17 +4353,17 @@ slides:
   src: 176
   t:
     12: 2026 (NOV)
-    13: Chai Discovery signed a Roche deal using its AI models for drug discovery {1|Chai Discovery}
+    13: Chai Discovery signed a deal with Roche to use its AI models to design new drug molecules, after raising $400M in July {1|Chai Discovery}
     14: 2026 (OCT)
-    15: AstraZeneca signed a $40M upfront drug deal using insitro’s AI to find new targets {1|insitro}
+    15: AstraZeneca signed a $40M upfront deal using insitro's AI to find new drug targets, with up to $1.5B more in milestones {1|insitro}
     16: 2026 (OCT)
-    17: Suki raised $90M to expand clinical AI notes, reasoning and other healthcare workflows {1|Suki}
+    17: Suki raised $90M from Philips Ventures and Zoom Ventures to expand its clinical AI notes and agents across 450+ health groups {1|Suki}
     18: 2026 (SEP)
-    19: OpenEvidence raised $250M at a $15B valuation for its physician evidence platform {1|OpenEvidence}
+    19: OpenEvidence raised $250M at a $15B valuation, led by Andreessen Horowitz, for its medical evidence search used by US doctors {1|OpenEvidence}
     20: 2026 (SEP)
-    21: Basalt raised $20M to speed referrals and post-hospital admissions using AI {1|Basalt Health}
+    21: Basalt raised $20M to use AI to speed hospital referrals and place patients faster in post-acute care after a hospital stay {1|Basalt Health}
     22: 2026 (SEP)
-    23: Heidi raised $100M at a $900M value to grow AI clinical documentation and agents {1|Heidi}
+    23: Heidi raised $100M at a $900M valuation to grow its AI clinical notes and agents, which clinicians use in many countries {1|Heidi}
 - id: ed177
   type: x/startups_news_lately_2
   section: Top players
@@ -4374,17 +4373,17 @@ slides:
   src: 177
   t:
     13: 2026 (JUL)
-    14: Candid Health raised $120M for AI medical billing, reporting faster growth in contracted revenue {1|Candid Health}
+    14: Candid Health raised $120M for its AI that automates medical billing, and reported 190% annual growth in contracted revenue {1|Candid Health}
     15: 2026 (JUL)
-    16: Bunkerhill reported more than 20 AI agents running at UTMB across care and hospital operations {1|Bunkerhill Health}
+    16: Bunkerhill said UTMB now runs more than 20 AI agents built on its platform, covering both patient care and back-office work {1|Bunkerhill Health}
     17: 2026 (JUL)
-    18: Takeda signed a drug-design collaboration with Insilico Medicine worth up to $600M {1|Insilico Medicine}
+    18: Takeda signed a drug design deal with Insilico Medicine worth up to $600M, after Insilico's earlier deals with Lilly and SK {1|Insilico Medicine}
     19: 2026 (JUN)
-    20: Assort Health raised $120M at a $1.2B value for patient calls and scheduling AI agents {1|Assort Health}
+    20: Assort Health raised $120M at a $1.2B valuation for its AI agents that answer patient calls and book appointments for clinics {1|Assort Health}
     21: 2026 (APR)
-    22: AstraZeneca and Telangana planned AI chest X-ray screening in hospitals using Qure.ai {1|Qure.ai}
+    22: AstraZeneca and the Indian state of Telangana planned AI chest X-ray screening in public hospitals using Qure.ai's software {1|Qure.ai}
     23: 2026 (APR)
-    24: Abridge added NEJM, JAMA and UpToDate content to support clinical questions within medical visits {1|Abridge}
+    24: Abridge added NEJM, JAMA and UpToDate content to its assistant, so clinicians get cited answers to questions during visits {1|Abridge}
 - id: ed178
   type: x/current_market_leaders
   section: Top players
@@ -4535,7 +4534,7 @@ slides:
     9: Abridge builds clinical documentation AI and reached a $5.3B valuation in a June 2025 funding round
     11: Hippocratic AI makes patient-facing healthcare agents and raised $126M at a $3.5B valuation in 2025
     12: HIPPOCRATIC AI
-    14: Ambience makes clinical notes and coding AI and reported a $1.25B valuation alongside its 2025 Series C
+    14: Ambience makes clinical notes and coding AI and reported a $1.2B valuation alongside its 2025 Series C
     15: AMBIENCE HEALTHCARE
     17: ABRIDGE
 - id: ed189
@@ -4582,7 +4581,7 @@ slides:
       $5.3B'
     39: 'AMBIENCE
 
-      $1.25B'
+      $1.2B'
     41: Health AI values climbed. {1|OpenEvidence rose from $1B to $15B, Abridge reached $5.3B, and Hippocratic AI hit $3.5B. These are funding prices, not sales.}
   growth:
     37:
@@ -4701,7 +4700,7 @@ slides:
     - Strategy|reset 2024
     - Delisted|Mar 2025
     - ''
-    src: media/ini/benevolentai.png
+    src: ../../assets/logos/benevolentai.png
   - name: Exscientia
     slug: exscientia
     ini: E
@@ -4879,17 +4878,17 @@ slides:
   src: 204
   t:
     12: 2025 (JUL)
-    13: Ambience raised $243M for medical note and coding AI across hospital departments and specialties {1|Ambience Healthcare}
+    13: Ambience raised $243M, led by Oak HC/FT and Andreessen Horowitz, to expand its note and coding AI across hospital specialties {1|Ambience Healthcare}
     14: 2025 (NOV)
-    15: Hippocratic AI raised $126M at a $3.5B valuation for healthcare patient agents {1|Hippocratic AI}
+    15: Hippocratic AI raised $126M at a $3.5B valuation for its patient-facing AI agents, which make calls but never give a diagnosis {1|Hippocratic AI}
     16: 2026 (JUN)
-    17: Assort raised $120M at a $1.2B value to expand patient scheduling and intake AI {1|Assort Health}
+    17: Assort raised $120M at a $1.2B valuation to expand its AI agents for patient scheduling, intake and phone calls at clinics {1|Assort Health}
     18: 2026 (JUL)
-    19: Candid Health raised $120M for its automated medical claims platform {1|Candid Health}
+    19: Candid Health raised $120M for its automated medical claims platform, tripling its valuation since its previous round {1|Candid Health}
     20: 2026 (SEP)
-    21: OpenEvidence raised $250M at a $15B valuation for doctor-facing medical evidence search {1|OpenEvidence}
+    21: OpenEvidence raised $250M at a $15B valuation for its evidence search, which more than 700,000 US clinicians use each month {1|OpenEvidence}
     22: 2026 (OCT)
-    23: insitro signed an AstraZeneca deal for $40M upfront and $1.46B in possible milestones {1|insitro}
+    23: insitro signed a deal with AstraZeneca for $40M upfront and up to $1.5B in milestones to find drug targets with its AI {1|insitro}
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
@@ -4901,17 +4900,17 @@ slides:
   src: 205
   t:
     14: 2024 (APR)
-    15: Xaira Therapeutics raised a $1B Series A led by ARCH Venture Partners for its life science AI {1|Xaira}
+    15: Xaira Therapeutics raised a $1B Series A led by ARCH Venture Partners for its AI-powered protein design and drug discovery {1|Xaira}
     16: 2025 (MAR)
-    17: Isomorphic Labs raised a $600M Series A led by Thrive Capital for its life science AI {1|Isomorphic}
+    17: Isomorphic Labs raised a $600M Series A led by Thrive Capital for its AI drug discovery and molecular design {1|Isomorphic}
     18: 2026 (MAR)
-    19: Earendil Labs raised a $787M growth equity round for its life science AI {1|PR Newswire}
+    19: Earendil Labs raised a $787M growth equity round for its AI-driven antibody and biologics discovery {1|PR Newswire}
     20: 2026 (MAY)
-    21: Isomorphic Labs raised a $2.1B Series B led by Thrive Capital for its life science AI {1|Isomorphic}
+    21: Isomorphic Labs raised a $2.1B Series B led by Thrive Capital for its AI drug discovery and molecular design {1|Isomorphic}
     22: 2026 (JUN)
-    23: NewLimit raised a $435M Series C led by Founders Fund for its life science AI {1|NewLimit}
+    23: NewLimit raised a $435M Series C led by Founders Fund for its epigenetic reprogramming for aging treatments {1|NewLimit}
     24: 2026 (JUL)
-    25: Neko Health raised a $700M Series C led by Lightspeed Venture Partners for its diagnostic AI software {1|Neko}
+    25: Neko Health raised a $700M Series C led by Lightspeed Venture Partners for its preventive full-body health scanning {1|Neko}
 - id: ed206
   type: x/success_look_like_market
   section: Startup strategies
@@ -5347,7 +5346,7 @@ slides:
 
       interim results'
     11: The half-year accounts of a listed AI drug discovery company, to June 30, 2026
-    12: We used it for the $106.3M of revenue, up almost four times. It shows drugmakers now pay for AI discovery.
+    12: We used it for the $106M of revenue, up almost four times. It shows drugmakers now pay for AI discovery.
     13: 'Recursion,
 
       Q3 2026 results'
@@ -5357,7 +5356,7 @@ slides:
 
       insitro deal'
     17: The drugmaker’s own release on its October 2026 AI discovery partnership with insitro
-    18: We used it for the $40M upfront and the $1.46B of possible milestones. It illustrates pharma demand.
+    18: We used it for the $40M upfront and the $1.5B of possible milestones. It illustrates pharma demand.
   links:
     3: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307
     7: https://www.sciencedirect.com/science/article/pii/S1386505626004181
@@ -5523,7 +5522,7 @@ slides:
       d: '2025-07-29'
       url: https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-243-million-series-c-to-scale-its-ai-platform-for-health-systems
       key: false
-    - t: Ambience Healthcare reached a $1.25B valuation in July 2025
+    - t: Ambience Healthcare reached a $1.2B valuation in July 2025
       pub: Ambience Healthcare
       d: '2025-10-20'
       url: https://www.ambiencehealthcare.com/blog-legacy/klas-emerging-solutions-report-ambience-healthcare-ranked-1-in-improving-clinician-experience-top-3-in-both-improving-patient-experience-and-improving-outcomes
@@ -5727,7 +5726,7 @@ slides:
       d: '2026-07-22'
       url: https://www.fiercehealthcare.com/health-tech/candid-health-secures-120m-series-d-funding-ai-powered-rcm-ramps
       key: false
-    - t: Hippocratic AI reached a $1.64B valuation in January 2025
+    - t: Hippocratic AI reached a $1.6B valuation in January 2025
       pub: Fierce Healthcare
       d: '2025-01-09'
       url: https://www.fiercehealthcare.com/ai-and-machine-learning/hippocratic-ai-banks-141m-series-b-hits-unicorn-status-it-rolls-out-ai
@@ -5751,7 +5750,7 @@ slides:
       d: '2026-09-16'
       url: https://tollbit.forbes.com/sites/innovationrx/2026/09/16/a-premier-cancer-hospital-makes-its-data-available-to-doctors-nationwide-through-openevidence
       key: false
-    - t: Fortune Business Insights estimates $56.01B in 2026
+    - t: Fortune Business Insights estimates $56B in 2026
       pub: Fortune Business Insights
       d: '2026-10-26'
       url: https://www.fortunebusinessinsights.com/industry-reports/artificial-intelligence-in-healthcare-market-100534
@@ -5945,7 +5944,7 @@ slides:
       d: '2026-04-17'
       url: https://www.lunit.io/en/media-hub/lunit-surpasses-330-sites-and-1m-annual-screenings-as-breast-imaging-ai-moves-into-clinical-practice
       key: false
-    - t: MarketsandMarkets estimates broad healthcare AI at $36.67B…
+    - t: MarketsandMarkets estimates broad healthcare AI at $37B…
       pub: Markets and Markets
       d: Jun 2026
       url: https://www.marketsandmarkets.com/Market-Reports/artificial-intelligence-healthcare-market-54679303.html
@@ -6139,7 +6138,7 @@ slides:
       d: '2025-06-10'
       url: https://www.sec.gov/Archives/edgar/data/1601830/000119312525138138/d80288d8k.htm
       key: false
-  - - t: Tempus disclosed $102.7M in aggregate fair value for its…
+  - - t: Tempus disclosed $103M in aggregate fair value for its…
       pub: SEC filing
       d: '2025-11-05'
       url: https://www.sec.gov/Archives/edgar/data/1717115/000119312525264652/tem-20250930.htm

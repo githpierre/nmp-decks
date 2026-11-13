@@ -1,7 +1,8 @@
 # Research import re, jsonport
 
-150 answers parsed, 0 YAML errors, 13 slides with remarks.
+150 answers parsed, 0 YAML errors, 14 slides with remarks.
 
+- **ed009**: length 10: 13 vs 20
 - **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]
 - **ed043**: status no_data: No audited category-level 2026 revenues are disclosed for all six healthcare-first AI segments. Published totals include excluded hardware and h
 - **ed043**: dropped: no data

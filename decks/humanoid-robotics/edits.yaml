@@ -3,6 +3,7 @@ ed001:
 
     robotics'
 ed018:
+  page: null
   type: sx_categories_n
   t: null
   categories:
@@ -175,7 +176,8 @@ ed183:
       name: CHINA
       text: 'China has the deepest supply chain: Unitree, UBTECH, AgiBot and Galbot ship the most robots.'
     au:
-      name: ASIA-PACIFIC
+      name: JAPAN AND KOREA
+      at: [654, 374]
       text: Japan, Korea and Southeast Asia are active customer and investor hubs, while Chinese vendors increasingly sell and test robots abroad.
 ed201:
   23: US
@@ -478,11 +480,13 @@ ed048:
 ed006:
   icon_tl: 🤖
 ed019:
+  page: 1/2
   14: 🏭
   15: 🚚
   21: 🏠
   22: 🛒
 ed020:
+  page: 2/2
   14: 🧑‍💻
   21: 🏭
   22: 🏠

@@ -34,11 +34,6 @@ ed017:
   note:
   - We rate maturity with an internal score on adoption, clinical evidence, scale and buying breadth
   - We set 67/100 as our own judgment, because broad use coexists with uneven proof of patient benefit
-ed023:
-  8: Now it also supports evidence search, visit notes and hospital billing
-  16: Now verified clinicians use it at scale for real care questions
-  20: Now the FDA lists more than 1,600 authorized AI-enabled devices
-  24: Now one health system has measured millions of AI-assisted visits
 ed049:
   note:
   - We use the 2025 regional shares of Fortune Business Insights as a proxy, since they cover a wider scope
@@ -318,11 +313,13 @@ ed219:
   17: A market study that splits its healthcare AI total between software, hardware and services
   18: We used its 46% software share to explain our $29B estimate. Its total covers a wider scope than ours.
 ed019:
+  page: 1/2
   14: 🏥
   15: 🩺
   21: 🛡️
   22: 🧪
 ed020:
+  page: 2/2
   14: 🧠
   15: 📋
   21: 💳
@@ -434,3 +431,69 @@ ed190:
 ed042:
   __replace__:
     MarketsandMarkets: Markets and Markets
+# ---- Pierre's review of 14 Nov 2026 ----
+# categories on slide 10 keep the names of the base (two of them share a column)
+ed010: {5: "CLINICAL\nAI TOOLS", 8: "DIAGNOSTIC\nAI SOFTWARE", 11: "CARE\nWORKFLOW AI", 14: "REVENUE &\nPAYER AI", 17: "LIFE\nSCIENCE AI"}
+# series of three pages: the 6 categories stand alone, the buyers and the work done become 1/2 and 2/2 (4 rows each)
+ed018: {page: null}
+# myths: answers 20-25% fuller
+ed015:
+  7: "The AMA's 2026 survey found 81% of US physicians use AI at work. Permanente doctors alone logged 2.5M AI-aided visits."
+  10: "A five-center study found modest cuts in note time, not hours saved every day. Gains depend on the specialty and on daily use."
+  13: "FDA rules cover AI that acts like a medical device, such as scan readers. Its list is not a directory of all clinical software."
+  16: "Payer AI can approve simple requests on its own, but Cohere Health sends every other case to a clinician for the final call."
+ed016:
+  7: "AI answers doctors' questions, writes clinical notes, codes bills and helps design drugs. Imaging is only one of six segments."
+  10: "The JAMA study measured how often doctors use OpenEvidence, not whether each answer was right or patients did better after."
+  13: "AI-designed drugs such as Insilico's rentosertib have reached human trials, but a 2026 review found no approved one yet."
+  16: "A 2026 NEJM AI paper found vendors keep patient data in different ways. Hospitals still need privacy rules and human review."
+# truths that flipped: right boxes 10-15% fuller
+ed023:
+  8: Now it also supports evidence search, visit notes, coding and hospital billing
+  12: Now more AI tools feed patient records and daily care workflows
+  16: Now verified clinicians use it at scale for real patient care questions
+  20: Now the FDA lists more than 1,600 authorized AI-enabled medical devices
+  24: Now Permanente alone has measured millions of AI-assisted patient visits
+  28: Now payer automation and drug discovery are core parts of the market
+# dated rows 30-40% longer (one more concrete fact each)
+ed092:
+  14: Hospitals began linking ambient AI to patient records, so a recorded visit could become a draft note for the doctor to check.
+  16: The FDA drafted lifecycle guidance asking AI device makers to track safety, bias and performance before and after launch.
+  18: John Muir Health reported that more than 65% of its clinicians in 15 specialties were actively using Ambience, so the tool stuck.
+  20: Cleveland Clinic rolled out AKASA's coding AI at all of its US sites, where it now handles medical coding for thousands of visits.
+  22: UPMC took Abridge beyond its first pilot to thousands of clinicians across its hospitals, and plans wider access across the system.
+  24: The FDA finalized guidance letting device makers plan AI model updates in advance, so tools can improve without a new review.
+ed093:
+  14: Cleveland Clinic reported more than 4,800 clinicians using Ambience across 3.5 million patient encounters, one of the largest rollouts.
+  16: Aidoc reported one CARE-based triage workflow covering 11 new and three earlier FDA-cleared findings, instead of one tool per finding.
+  18: Cohere Health said its clinical AI now supports 15 million care decisions a year for health plans reviewing prior authorization requests.
+  20: Insilico Medicine dosed the first patient in a Phase 3 trial of rentosertib, a lung fibrosis drug found and designed with its AI.
+  22: Recursion said Sanofi selected the first AI-assisted drug candidate from their joint research, a first step toward clinical testing.
+  24: Abridge added local hospital care pathways to its assistant, so answers given during a visit link the patient's context to guidance.
+iv_deals:
+  14: "AstraZeneca signed a $40M upfront deal to use insitro's AI to find drug targets, with up to $1.46B more in milestones {1|AstraZeneca}"
+  16: "OpenEvidence teamed with Anthropic to offer its clinical AI free to doctors in about 100 low- and middle-income countries {1|Fierce Healthcare}"
+  18: "Takeda signed a deal to use Insilico Medicine's AI to design new drugs, worth up to $600M if every milestone is met {1|Takeda}"
+  20: "Mount Sinai put OpenEvidence medical search inside its Epic patient records, so doctors ask questions without leaving the chart {1|Mount Sinai}"
+  22: "GE HealthCare bought Intelerad for $2.3B, adding cloud imaging software and AI used by radiology practices and hospitals {1|GE HealthCare}"
+ed176:
+  13: "Chai Discovery signed a deal with Roche to use its AI models to design new drug molecules, after raising $400M in July {1|Chai Discovery}"
+  15: "AstraZeneca signed a $40M upfront deal using insitro's AI to find new drug targets, with up to $1.46B more in milestones {1|insitro}"
+  17: "Suki raised $90M from Philips Ventures and Zoom Ventures to expand its clinical AI notes and agents across 450+ health groups {1|Suki}"
+  19: "OpenEvidence raised $250M at a $15B valuation, led by Andreessen Horowitz, for its medical evidence search used by US doctors {1|OpenEvidence}"
+  21: "Basalt raised $20M to use AI to speed hospital referrals and place patients faster in post-acute care after a hospital stay {1|Basalt Health}"
+  23: "Heidi raised $100M at a $900M valuation to grow its AI clinical notes and agents, which clinicians use in many countries {1|Heidi}"
+ed177:
+  14: "Candid Health raised $120M for its AI that automates medical billing, and reported 190% annual growth in contracted revenue {1|Candid Health}"
+  16: "Bunkerhill said UTMB now runs more than 20 AI agents built on its platform, covering both patient care and back-office work {1|Bunkerhill Health}"
+  18: "Takeda signed a drug design deal with Insilico Medicine worth up to $600M, after Insilico's earlier deals with Lilly and SK {1|Insilico Medicine}"
+  20: "Assort Health raised $120M at a $1.2B valuation for its AI agents that answer patient calls and book appointments for clinics {1|Assort Health}"
+  22: "AstraZeneca and the Indian state of Telangana planned AI chest X-ray screening in public hospitals using Qure.ai's software {1|Qure.ai}"
+  24: "Abridge added NEJM, JAMA and UpToDate content to its assistant, so clinicians get cited answers to questions during visits {1|Abridge}"
+ed204:
+  13: "Ambience raised $243M, led by Oak HC/FT and Andreessen Horowitz, to expand its note and coding AI across hospital specialties {1|Ambience Healthcare}"
+  15: "Hippocratic AI raised $126M at a $3.5B valuation for its patient-facing AI agents, which make calls but never give a diagnosis {1|Hippocratic AI}"
+  17: "Assort raised $120M at a $1.2B valuation to expand its AI agents for patient scheduling, intake and phone calls at clinics {1|Assort Health}"
+  19: "Candid Health raised $120M for its automated medical claims platform, tripling its valuation since its previous round {1|Candid Health}"
+  21: "OpenEvidence raised $250M at a $15B valuation for its evidence search, which more than 700,000 US clinicians use each month {1|OpenEvidence}"
+  23: "insitro signed a deal with AstraZeneca for $40M upfront and up to $1.46B in milestones to find drug targets with its AI {1|insitro}"

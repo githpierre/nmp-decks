@@ -328,7 +328,7 @@ window.F = (() => {
         d.style.transform = ''; d.style.left = (xz + 4 - 10) + 'px'; d.style.top = (parseFloat(b.style.top) + 5.7) + 'px'; d.style.width = (gap - 4 + 20) + 'px'; d.setAttribute('viewBox', '-10.0 -10.0 ' + (gap - 4 + 20).toFixed(1) + ' 20.0');
         d.querySelector('path').setAttribute('d', 'M0 0L' + (gap - 4).toFixed(1) + ' 0.0'); d.style.visibility = ''; } });
     mark('spans', sl); };
-  /* lines of « How fast are startups growing » : `growth: {36: {pts: [[years since founding, value], …], at: [dx, dy]}, …}` on the slide, one entry per label key.
+  /* lines of « How fast are startups growing » : `growth: {36: {pts: [[years since founding, value], …], at: [dx, dy]}, …}` on the slide, one entry per label key (41 = the text box, moved by its `at`).
      The scale is read on the axis labels (last year label, top value label). Without data the lines are those of the original PowerPoint: the import prints FIXED CHART. */
   const growth = sl => { if (sl.dataset.tpl !== 'fast_startups_growing') return; let G; try { G = JSON.parse(sl.dataset.growth || 'null'); } catch (e) { G = null; }
     if (!G) { console.error('growth: slide ' + sl.dataset.n + ' has no `growth` data, its lines are not those of this market'); return; }
@@ -344,7 +344,7 @@ window.F = (() => {
       p.setAttribute('d', 'M' + pts.map(q => q[0].toFixed(1) + ' ' + q[1].toFixed(1)).join('L'));
       pts.slice(1).forEach(q => { const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle'); c.setAttribute('cx', q[0].toFixed(1)); c.setAttribute('cy', q[1].toFixed(1)); c.setAttribute('r', '3'); c.setAttribute('fill', col); sv.appendChild(c); });
       const L = T(k), e = pts[pts.length - 1], at = g.at || [9, -14]; if (L) { L.style.left = (X0 + e[0] + at[0]) + 'px'; L.style.top = (Y1 + e[1] + at[1]) + 'px'; L.style.justifyContent = 'flex-start'; L.querySelectorAll('p, div').forEach(x => { x.style.textAlign = 'left'; }); } });
-    if (G.box) { const bg = S.find(sv => { const q = sv.querySelector('path'); return q && /0B3A50/i.test(q.getAttribute('fill') || '') && parseFloat(sv.style.width) > 200; }); [bg, T(41)].forEach(el => { if (el) mv(el, G.box[0], G.box[1]); }); }   /* the text box moves when a line would run under it */
+    if (G[41] && G[41].at) { const bg = S.find(sv => { const q = sv.querySelector('path'); return q && /0B3A50/i.test(q.getAttribute('fill') || '') && parseFloat(sv.style.width) > 200; }); [bg, T(41)].forEach(el => { if (el) mv(el, G[41].at[0], G[41].at[1]); }); }   /* the text box moves when a line would run under it */
     mark('growth', sl); };
   const curves = sl => { let C; try { C = JSON.parse(sl.dataset.curves || 'null'); } catch (e) { return; } if (!C) return;
     const P = [...sl.querySelectorAll('.raw > svg.rx-s path')].filter(p => ((p.getAttribute('d') || '').match(/L/g) || []).length > 5).sort((a, b) => b.getAttribute('d').length - a.getAttribute('d').length).slice(0, C.length);
@@ -409,9 +409,18 @@ window.F = (() => {
     try { pillCentre(sl); } catch (e) { console.error('pillCentre', sl.dataset.n, e); } };   // last: on the final geometry
   // segment dividers: ONE title size for the whole deck, the largest at which the longest name stays clear of the side arrows
   // (Pierre, 12 Nov 2026: the arrows ran over « BIPEDAL GENERAL-PURPOSE HUMANOIDS »). CHECK TEXT_ON_LINE
-  const deck = () => { const D = [...document.querySelectorAll('.slide[data-tpl="divider_3"]')].map(sl => ({sl, el: sl.querySelector('.rx-t[data-k="3"]')})).filter(o => o.el && o.el.textContent.trim());
-    if (!D.length) return; let k = 1; D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.whiteSpace = 'nowrap'; }); const i = ink(o.el, o.sl); if (i) k = Math.min(k, 640 / i.w); });
-    if (k < 1) D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = (parseFloat(getComputedStyle(x).fontSize) * k) + 'px'; }); mark('dividerSize', o.sl); }); };
+  const deck = () => { const D = [...document.querySelectorAll('.slide[data-tpl="divider_3"]')].map(sl => ({sl, el: sl.querySelector('.rx-t[data-k="3"]'), k5: sl.querySelector('.rx-t[data-k="5"]'), k6: sl.querySelector('.rx-t[data-k="6"]')})).filter(o => o.el && o.el.textContent.trim());
+    /* segment dividers (Pierre, 14 Nov 2026): the name takes the largest size, up to 40pt, at which EVERY name of the deck fits between the side arrows
+       on at most 2 balanced lines; one size for all dividers; kicker, name and subtitle centred as a group on the arrows. CHECK TEXT_ON_LINE */
+    if (!D.length) return; const X0 = 160, W = 640, MID = 310;
+    D.forEach(o => { Object.assign(o.el.style, {left: X0 + 'px', width: W + 'px', height: 'auto', padding: '0'}); o.el.querySelectorAll('p, div').forEach(x => { x.style.textWrap = 'balance'; });
+      o.el.querySelectorAll('span').forEach(x => { x.style.whiteSpace = 'normal'; }); });
+    const fits = f => D.every(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = f + 'px'; }); const lh = f * 1.38, h = o.el.scrollHeight;
+      const words = [...o.el.querySelectorAll('span')].every(x => x.scrollWidth <= W + 1); return h <= lh * 2 + 4 && words && o.el.scrollWidth <= W + 1; });
+    let f = 40 * 96 / 72; while (f > 18 && !fits(f)) f -= 1;
+    D.forEach(o => { o.el.querySelectorAll('span').forEach(x => { x.style.fontSize = f + 'px'; }); const h = o.el.getBoundingClientRect().height;
+      const h6 = o.k6 ? o.k6.getBoundingClientRect().height : 0, h5 = o.k5 ? o.k5.getBoundingClientRect().height : 0, tot = h6 + 6 + h + 8 + h5;
+      let y = MID - h / 2 - h6 - 6; if (o.k6) o.k6.style.top = y + 'px'; o.el.style.top = (y + h6 + 6) + 'px'; if (o.k5) o.k5.style.top = (y + h6 + 6 + h + 8) + 'px'; mark('dividerSize', o.sl); }); };
   return {deck, all, logos, cats, snapLines, trimBus, centerText, headers, gauges, grid, pillText, rail, arrowheads, lines, rect, ink, mv, mark, vis};
 })();
 
