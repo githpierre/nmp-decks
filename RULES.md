@@ -67,6 +67,10 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A key written twice in edits.yaml / live.yaml / db_text.yaml stops the import (DUPLICATE KEY).
 - Icons copied from the reference market and still identical are listed by the import (MODEL ICON LEFT).
 - Broken images and script errors fail the audit (BROKEN_IMG, JS_ERROR).
+- A date is never cut short (« Q3 2 » for 2025). CHECK DATE_CUT. Sentences on rounds read « a $787M growth equity round »,
+  « for its life science AI », and name a real publisher: `make_db_slides.py` prints PUBLISHER UNKNOWN for a name it guessed.
+- `diff_slides.py` sees a changed word in small text (12 clearly different pixels at 960 px), not only big moves.
+- The examples inside the research prompts are written per market in the spec (`examples:`), never left from another market.
 
 ## Charts and maps
 - Splits by category (donut, shares): never copied from a study. Our own best estimate, explained in the note (up to 3

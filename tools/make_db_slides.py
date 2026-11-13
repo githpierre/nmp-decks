@@ -43,13 +43,15 @@ def main():
     def sentence(r):
         """« Tutor Intelligence raised a $75M Series B led by Andreessen Horowitz for its industrial and factory humanoids {1|Business Wire} »"""
         lead = (r['lead_investors'] or '').split(';')[0].strip(); st_ = stage(r)
+        if st_ and not st_.startswith('Series'): st_ = st_.lower() + ' round'          # « a $787M growth equity round », never « a $787M Growth Equity » (13 Nov 2026)
         if r['amt']: s = f"{r['name']} raised {'a ' + money(r['amt']) + ' ' + st_ if st_ else money(r['amt'])}"
         else: s = f"{r['name']} raised an undisclosed {st_ or 'round'}"
         if lead: s += f' led by {lead}'
-        if r['cat'] and len(s) + len(r['cat']) < 100: s += f" for its {r['cat'][0].lower() + r['cat'][1:]}"
-        s = s.replace(' Seed', ' seed round').replace(' Pre-Seed', ' pre-seed round')
+        if r['cat'] and len(s) + len(r['cat']) < 100: s += ' for its ' + ' '.join(w if w.isupper() else w.lower() for w in r['cat'].split())   # « life science AI », not « life Science AI »
         p_ = pub(r['source_url']); key = re.sub(r'[^a-z0-9]', '', r['name'].lower())
-        if p_.lower()[:5] == key[:5] or 'pr.co' in r['source_url']: p_ = r['name'].split()[0]   # a company's own site or press page: name the company
+        lab = re.sub(r'[^a-z0-9]', '', site_label(r['source_url']))
+        if p_.lower()[:5] == key[:5] or (len(lab) >= 4 and (key.startswith(lab) or lab.startswith(key))) or 'pr.co' in r['source_url']: p_ = r['name'].split()[0]   # a company's own site, blog or press page: name the company
+        elif p_ not in PUB.values() and p_.lower() not in (r['lead_investors'] or '').lower(): print('PUBLISHER UNKNOWN', r['source_url'][:70], '->', p_)   # shown on a slide: add its name to PUB (tools/build_sources.py)
         return s + f" {{1|{p_}}}"
     def dl(d): return f"{d[:4]} ({['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][int(d[5:7]) - 1]})"
 
@@ -96,7 +98,7 @@ def main():
     for cid, m in M.items():
         for r in g.rounds_for(b, cid, 'ranking'):
             if r['date'] < year_ago and (r['round_type'] or '').upper() != 'IPO': old.append(dict(r, name=b.companies[cid]['name'], amt=float(r['amount_usd'] or 0)))
-    D['ed166p'] = dict(rounds=[dict(x, date=x['date'][:4]) for x in raises(old)], note=[f'We listed the biggest equity rounds raised by {N} startups before the last twelve months',
+    D['ed166p'] = dict(rounds=[dict(x, date=x['date'][-4:]) for x in raises(old)], note=[f'We listed the biggest equity rounds raised by {N} startups before the last twelve months',
                        'We used our tracker of rounds, company announcements and the press, with sources at the end'])
     # categories
     cat = collections.defaultdict(list)
@@ -135,11 +137,15 @@ def main():
     print('biggest', [(r['name'], money(r['amt']), r['date']) for r in sorted(R, key=lambda r: -r['amt'])[:5]])
     print('stages', collections.Counter(stage(r) or 'undisclosed stage' for r in R).most_common(5))
     # facts every hand-written sentence quotes as {db.key} (db_text.yaml, extras.yaml, edits.yaml): a base update can never leave a stale figure (12 Nov 2026)
-    stg = collections.Counter(stage(r) for r in R); cn = [r for r in R if r['country'] == 'China']
+    stg = collections.Counter(stage(r) for r in R); cn = [r for r in R if r['country'] == 'China']; us = [r for r in R if r['country'] == 'United States']
     F = dict(n=len(R), total=money(tot), cn_n=len(cn), cn_rounds_pct=round(100 * len(cn) / len(R)), cn_money_pct=round(100 * sum(r['amt'] for r in cn) / tot),
              us_money=money(amc['United States']), big_n=len(big100), big_pct=round(100 * sum(r['amt'] for r in big100) / tot), disclosed=len(dis), median=money(st.median(dis)),
              seed=stg['Seed'], series_a=stg['Series A'], series_b=stg['Series B'], until=max(r['date'] for r in R))
     F['row_rounds_pct'] = 100 - F['cn_rounds_pct']; F['row_money_pct'] = 100 - F['cn_money_pct']
+    F.update(us_n=len(us), us_rounds_pct=round(100 * len(us) / len(R)), us_money_pct=round(100 * amc['United States'] / tot))
+    for i, (c, rs) in enumerate(sorted(cat.items(), key=lambda kv: -sum(r['amt'] for r in kv[1]))[:3], 1):      # top categories by money
+        F[f'cat{i}'] = c; F[f'cat{i}_n'] = len(rs); F[f'cat{i}_total'] = money(sum(r['amt'] for r in rs)); F[f'cat{i}_pct'] = round(100 * sum(r['amt'] for r in rs) / tot)
+    for i, r in enumerate(sorted(R, key=lambda r: -r['amt'])[:2], 1): F[f'big{i}_name'] = r['name']; F[f'big{i}_amt'] = money(r['amt']); F[f'big{i}_stage'] = stage(r); F[f'big{i}_year'] = r['date'][:4]
     for y in sorted({r['date'][:4] for r in R}):
         ry = [r for r in R if r['date'][:4] == y]; by = [r for r in ry if r['amt'] >= 1e8]
         F[f'n_{y}'] = len(ry); F[f'total_{y}'] = money(sum(r['amt'] for r in ry)); F[f'big_{y}'] = len(by)

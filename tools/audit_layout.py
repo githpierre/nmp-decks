@@ -18,7 +18,7 @@ JS = r"""() => { const out = []; document.querySelectorAll('section.slide').forE
 # Harmony audit (12 Nov 2026, Pierre: "truffé d'erreurs"): what a reader sees at a glance on ANY slide (raw, pp, templates).
 # MARGIN_ALL: content outside x 60..900 (hard) ; LABEL_LINES / BODY_LINES: sibling boxes with different line counts ;
 # TEXT_PAD: a text closer than 5 px to the border of its bubble (or out of it) ; EMOJI_MIX: emojis left among line icons ;
-# EMOJI_UNMAPPED: emoji with no icon in icons.py ; MONEY_FORMAT: "$0.285B", "4.228 billion" ; GRID_HOLES: emptied cards ; DATE_CASE: timeline date label not in capitals.
+# EMOJI_UNMAPPED: emoji with no icon in icons.py ; MONEY_FORMAT: "$0.285B", "4.228 billion" ; DATE_CUT: a date cut short, "Q3 2" for 2025 (13 Nov 2026, Humanoid slide 155) ; GRID_HOLES: emptied cards ; DATE_CASE: timeline date label not in capitals.
 JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss || [])]; if (miss.length) out.push([0, 'EMOJI_UNMAPPED', miss.join(' ')]);
  const rowsOf = p => { const g = document.createRange(); g.selectNodeContents(p); const t = new Set(); [...g.getClientRects()].forEach(r => { if (r.width > 1) t.add(Math.round(r.top / 4)); }); return t.size; };
  const ink = el => { const g = document.createRange(); g.selectNodeContents(el); const rs = [...g.getClientRects()].filter(r => r.width > 1 && r.height > 1); if (!rs.length) return null;
@@ -93,7 +93,7 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   sl.querySelectorAll('.rtl-lab[data-clash]').forEach(t => out.push([n, 'LABEL_ON_SHAPE', t.textContent.trim()]));
   // --- money written the way people say it
   sl.querySelectorAll('img').forEach(im => { if (!im.naturalWidth) out.push([n, 'BROKEN_IMG', (im.getAttribute('src') || '').split('/').pop()]); });   // 12 Nov 2026: contrast slides showed broken logo images
-  const tx = sl.querySelector('.srcl') ? '' : sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b|\$ ?\d{4,} ?M\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]);   // $1787M must read $1.8B (12 Nov 2026)
+  const tx = sl.querySelector('.srcl') ? '' : sl.innerText; const m = tx.match(/\$0\.\d+ ?(B|billion)\b|\b\d+\.\d{3,} ?(B|billion|M|million)\b|\$ ?\d{4,} ?M\b/); if (m) out.push([n, 'MONEY_FORMAT', m[0]]); { const dc = tx.match(/\bQ[1-4] \d{1,3}(?!\d)/); if (dc) out.push([n, 'DATE_CUT', dc[0]]); }   // $1787M must read $1.8B (12 Nov 2026)
   // --- the slide title is always on two lines (Pierre, 12 Nov 2026)
   { const tt = sl.querySelector('.title'); if (tt) { const lh = parseFloat(getComputedStyle(tt).lineHeight), k = Math.round(tt.getBoundingClientRect().height / lh); if (k !== 2) out.push([n, 'TITLE_NOT_2_LINES', k + ' line(s)', tt.textContent.trim().slice(0, 50)]); } }
   if (sl.querySelector('[data-robotic]')) out.push([n, 'GRID_ROBOTIC', 'top players grid placed by the automatic pattern: give `pos` (meaning) or `tiles` (live page)']);

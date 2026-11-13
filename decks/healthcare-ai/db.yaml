@@ -1,0 +1,170 @@
+ed156:
+  13: 2026 (NOV)
+  14: Octopath AI raised a $1.3M seed round led by TwinPath Ventures for its diagnostic AI software {1|UCL}
+  15: 2026 (NOV)
+  16: nPhase raised a $30M late-stage round led by Viking Global Investors for its life science AI {1|nPhase}
+  17: 2026 (OCT)
+  18: Ribopeutic raised a $15M Series A led by Loyal Valley Capital for its life science AI {1|PharmCube}
+  19: 2026 (OCT)
+  20: Midstream Health raised a $20M Series A led by Valtruis for its revenue cycle AI {1|Becker’s Hospital Review}
+  21: 2026 (OCT)
+  22: SpendRule raised a $4M seed round led by Radical Investments for its care workflow AI {1|GlobeNewswire}
+  23: 2026 (OCT)
+  24: ALLOX raised a $10M seed round led by Asabys Partners for its life science AI {1|GlobeNewswire}
+  note: We list the latest equity rounds of healthcare AI startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (OCT)
+  15: PerturbMind AI raised a $1.4M seed round led by Qingsong Capital for its life science AI {1|Zhangtongshe}
+  16: 2026 (OCT)
+  17: Magic Vision raised a $0.7M seed round for its diagnostic AI software {1|Teleborsa}
+  18: 2026 (OCT)
+  19: CareLumi raised a $2.5M seed round led by Izou Partners for its care workflow AI {1|CareLumi}
+  20: 2026 (OCT)
+  21: Omabit raised a $2M seed round led by Bright Ventures for its life science AI {1|StreetInsider}
+  22: 2026 (OCT)
+  23: Vera Health raised a $28M Series A led by Threshold Ventures for its clinical AI tools {1|MobiHealthNews}
+  24: 2026 (OCT)
+  25: Agora Labs raised $5M led by P101 for its life science AI {1|P101}
+  note: We list the latest equity rounds of healthcare AI startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 6237
+    ann: Isomorphic Labs $600M, Pathos AI $365M, in 171 rounds
+  - x: 2025 H2
+    v: 4827
+    ann: Function Health $298M, Ambience Healthcare $243M, in 171 rounds
+  - x: 2026 H1
+    v: 6995
+    ann: Isomorphic Labs $2.1B, Earendil Labs $787M, in 151 rounds
+  - x: 2026 H2
+    v: 5287
+    ann: Neko Health $700M, Chai Discovery $400M, in 118 rounds
+  note:
+  - We add up the disclosed equity rounds of healthcare AI startups in our tracker, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 7478
+    ann: Xaira Therapeutics $1B, Formation Bio $372M
+  - x: '2025'
+    v: 11064
+    ann: Isomorphic Labs $600M, Pathos AI $365M
+  - x: '2026'
+    v: 12282
+    ann: Isomorphic Labs $2.1B, Earendil Labs $787M
+  note:
+  - We add up the disclosed equity rounds of healthcare AI startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 13
+    ann: Xaira Therapeutics’s $1B, out of 290 rounds
+  - x: '2025'
+    v: 5
+    ann: Isomorphic Labs’s $600M, out of 342 rounds
+  - x: 2026 (YTD)
+    v: 17
+    ann: Isomorphic Labs’s $2.1B, out of 269 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Isomorphic Labs
+    amt: 2100000000
+    date: Q2 2026
+    stage: Series B
+  - name: Earendil Labs
+    amt: 787000000
+    date: Q1 2026
+    stage: Growth Equity
+  - name: Neko Health
+    amt: 700000000
+    date: Q3 2026
+    stage: Series C
+  - name: NewLimit
+    amt: 435000000
+    date: Q2 2026
+    stage: Series C
+  note:
+  - We listed the biggest equity rounds raised by healthcare AI startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: Verily
+    amt: 1000000000
+    date: '2019'
+    stage: Growth Equity
+  - name: Verily
+    amt: 1000000000
+    date: '2022'
+    stage: Growth Equity
+  - name: Xaira Therapeutics
+    amt: 1000000000
+    date: '2024'
+    stage: Series A
+  - name: Caris Life Sciences
+    amt: 830000000
+    date: '2021'
+    stage: Growth Equity
+  note:
+  - We listed the biggest equity rounds raised by healthcare AI startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: LIFE SCIENCE AI
+  9: '239'
+  13: $14.6B
+  17: Isomorphic Labs, Xaira Therapeutics, Earendil Labs, NewLimit
+  7: CARE WORKFLOW AI
+  11: '228'
+  15: $5.3B
+  19: Abridge, Ambience Healthcare, Innovaccer, Forus
+  8: DIAGNOSTIC AI SOFTWARE
+  12: '200'
+  16: $4.7B
+  20: Neko Health, Caris Life Sciences, Aidoc, Harrison.ai
+  note: We used our tracker of 901 healthcare AI equity rounds announced since January 2024, worth about $30.8B. IPOs, debt and grants are left out
+ed169:
+  7: ANDREESSEN HOROWITZ
+  10: '15'
+  14: $1.5B
+  18: Tennr, Formation Bio
+  8: GENERAL CATALYST
+  12: '12'
+  16: $482M
+  20: Hippocratic AI, Hona
+  9: KHOSLA VENTURES
+  13: '11'
+  17: $395M
+  21: TORTUS, Limbic
+  26: INSIGHT PARTNERS
+  28: '10'
+  30: $450M
+  32: Sensi.AI, Cleerly
+  27: LIGHTSPEED VENTURE PARTNERS
+  29: '9'
+  31: $1.3B
+  33: Neko Health (twice), Doctronic (twice)
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 901 rounds
+ed205:
+  14: 2024 (APR)
+  15: Xaira Therapeutics raised a $1B Series A led by ARCH Venture Partners for its life science AI {1|Xaira}
+  16: 2025 (MAR)
+  17: Isomorphic Labs raised a $600M Series A led by Thrive Capital for its life science AI {1|Isomorphic}
+  18: 2026 (MAR)
+  19: Earendil Labs raised a $787M growth equity round for its life science AI {1|PR Newswire}
+  20: 2026 (MAY)
+  21: Isomorphic Labs raised a $2.1B Series B led by Thrive Capital for its life science AI {1|Isomorphic}
+  22: 2026 (JUN)
+  23: NewLimit raised a $435M Series C led by Founders Fund for its life science AI {1|NewLimit}
+  24: 2026 (JUL)
+  25: Neko Health raised a $700M Series C led by Lightspeed Venture Partners for its diagnostic AI software {1|Neko}
+  note: We picked the biggest disclosed rounds of healthcare AI startups since 2024, from our tracker of rounds

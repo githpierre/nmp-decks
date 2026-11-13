@@ -11,14 +11,14 @@ d = ROOT / 'decks' / sys.argv[1] / 'out'; snap = d / 'snap'; new = sorted(glob.g
 if '--snap' in sys.argv:
     snap.mkdir(exist_ok=True)
     for f in snap.glob('*.jpg'): f.unlink()
-    for f in new: Image.open(f).convert('RGB').resize((480, 336)).save(snap / (Path(f).stem + '.jpg'), quality=85)
+    for f in new: Image.open(f).convert('RGB').resize((960, 672)).save(snap / (Path(f).stem + '.jpg'), quality=92)
     print('snapshot of', len(new), 'slides'); sys.exit()
 old = sorted(snap.glob('*.jpg'))
 if len(old) != len(new): print(f'slide count changed ({len(old)} -> {len(new)}): do a full pass, then --snap'); sys.exit(1)
 ch = []
 for i, (a, b) in enumerate(zip(old, new), 1):
-    x = ImageChops.difference(Image.open(a).convert('L'), Image.open(b).convert('L').resize((480, 336))).point(lambda v: 255 if v > 40 else 0)
-    if ImageStat.Stat(x).mean[0] / 255 > 0.0025: ch.append(i)
+    A = Image.open(a).convert('L'); x = ImageChops.difference(A, Image.open(b).convert('L').resize(A.size)).point(lambda v: 255 if v > 60 else 0)
+    if ImageStat.Stat(x).sum[0] / 255 >= 12 * (A.size[0] / 960) ** 2: ch.append(i)   # 12 clearly different pixels at 960 px: a date or a word that changed in small text is seen (13 Nov 2026: « Q3 2 » -> « 2025 » was under the old 0.25 % threshold)
 print(len(ch), 'slides changed:', ' '.join(map(str, ch)))
 if '--sheets' in sys.argv:
     for k in range(0, len(ch), 6):

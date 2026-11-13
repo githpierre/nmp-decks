@@ -16,12 +16,26 @@ PUB = {'bjnews.com.cn': 'Beijing News', 'ithome.com': 'IT Home', 'chinastarmarke
        'bio.org': 'BIO', 'ascopubs.org': 'ASCO', 'abbvieclinicaltrials.com': 'AbbVie', 'umoja-biopharma.com': 'Umoja Biopharma', 'orbitaltx.com': 'Orbital',
        'keloniatx.com': 'Kelonia', 'sana.com': 'Sana', 'ensoma.com': 'Ensoma', 'magicrna.com': 'MagicRNA', 'starnatx.com': 'Starna', 'circio.com': 'Circio',
        'wedbush.com': 'Wedbush', 'businessinsider.com': 'Business Insider', 'reuters.com': 'Reuters', 'nih.gov': 'NIH', 'ema.europa.eu': 'EMA'}
+PUB.update({'fiercehealthcare.com': 'Fierce Healthcare', 'mobihealthnews.com': 'MobiHealthNews', 'beckershospitalreview.com': 'Becker’s Hospital Review', 'tech.eu': 'Tech.eu', 'axios.com': 'Axios',
+       'eu-startups.com': 'EU-Startups', 'finance.yahoo.com': 'Yahoo Finance', 'streetinsider.com': 'StreetInsider', 'geekwire.com': 'GeekWire', 'siliconangle.com': 'SiliconANGLE',
+       'einpresswire.com': 'EIN Presswire', 'accessnewswire.com': 'ACCESS Newswire', 'prweb.com': 'PRWeb', 'finsmes.com': 'FinSMEs', 'calcalistech.com': 'CTech', 'forbes.com': 'Forbes',
+       'nasdaq.com': 'Nasdaq', 'techfundingnews.com': 'Tech Funding News', 'vcnewsdaily.com': 'VC News Daily', 'digitalhealth.net': 'Digital Health', 'teleborsa.it': 'Teleborsa', 'ucl.ac.uk': 'UCL',
+       'dealroom.co': 'Dealroom', 'cbinsights.com': 'CB Insights', 'linkedin.com': 'LinkedIn', 'endpoints.news': 'Endpoints News', 'endpts.com': 'Endpoints News', 'statnews.com': 'STAT',
+       'healthcaredive.com': 'Healthcare Dive', 'modernhealthcare.com': 'Modern Healthcare', 'medcitynews.com': 'MedCity News', 'hitconsultant.net': 'HIT Consultant', 'biospace.com': 'BioSpace',
+       'sifted.eu': 'Sifted', 'wamda.com': 'Wamda', 'brutkasten.com': 'Brutkasten', 'indiatimes.com': 'The Economic Times', 'healthcareitnews.com': 'Healthcare IT News', 'webwire.com': 'WebWire',
+       'thesaasnews.com': 'The SaaS News', 'forgeglobal.com': 'Forge Global', 'bydrug.pharmcube.com': 'PharmCube', 'zhangtongshe.com': 'Zhangtongshe', 'klasresearch.com': 'KLAS', 'jamanetwork.com': 'JAMA',
+       'ama-assn.org': 'AMA', 'fda.gov': 'FDA', 'cms.gov': 'CMS', 'hhs.gov': 'HHS', 'nature.com': 'Nature', 'rockhealth.com': 'Rock Health', 'menlovc.com': 'Menlo Ventures', 'bvp.com': 'Bessemer', 'investegate.eu': 'Investegate', 'investegate.co.uk': 'Investegate'})
+def site_label(u):
+    """main label of the host: blog.newlimit.com -> newlimit, ucl.ac.uk -> ucl (a sub-domain is never a publisher name: « Blog », 13 Nov 2026)"""
+    h = re.sub(r'^https?://(www\.)?', '', u).split('/')[0].lower(); p = h.split('.')
+    if len(p) >= 3 and p[-2] in ('co', 'com', 'ac', 'org', 'net', 'gov', 'edu') and len(p[-1]) == 2: return p[-3]
+    return p[-2] if len(p) >= 2 else h
 def pub(u):
     h = re.sub(r'^https?://(www\.)?', '', u).split('/')[0]
     if h in PUB: return PUB[h]
     for k, v in PUB.items():
         if h.endswith('.' + k): return v
-    b = re.sub(r'^(ir|investors?|news|en|companies|www2|global)\.', '', h).split('.')[0]
+    b = site_label(u)
     return b.replace('-', ' ').title().replace('Biopharma', 'Biopharma')
 def title(u, claim):
     path = re.sub(r'^https?://[^/]+', '', u).split('?')[0].rstrip('/')
