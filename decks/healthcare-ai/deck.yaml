@@ -733,23 +733,193 @@ slides:
   type: x/signals_suggest_market_hot_right
   section: Market opportunity
   title: What signals suggest the market is hot right now?
-  note: We selected seven recent, checkable signals across clinical usage, regulation, deployments, financing and life sciences. They indicate demand, not proven universal outcomes.
+  note: We selected seven recent signals across clinical use, revenue, deals, funding, regulation and search interest. Each one has its own slide after this one.
   src: 32
   t:
-    5: 703,265 monthly medical AI users in June
+    5: 703,265 clinicians use OpenEvidence monthly
     6: '1'
-    7: FDA listed over 1,600 AI-enabled devices
+    7: Drugmakers signed $9.8B of AI drug deals
     8: '4'
-    9: Aidoc reports AI in nearly 2,000 hospitals
+    9: 81% of US physicians now use AI at work
     10: '2'
-    11: Abridge raised a $300M round during 2025
+    11: Insilico’s half-year revenue rose 3.9 times
     12: '3'
-    13: AI got 54% of digital health VC in 2025
+    13: $12.3B raised in 2026, more than in 2025
     14: '5'
-    15: Health GenAI spend hit $1.4B in 2025
+    15: The FDA cleared a record 335 AI devices
     16: '6'
-    19: AstraZeneca made a $40M insitro deal
+    19: Google searches for healthcare AI soared
     20: '7'
+- id: xa_users
+  type: kpis
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'OpenEvidence went from 355 to 703,265
+
+    monthly clinician users in 30 months'
+  items:
+  - value: 703,265
+    label: Verified clinicians who used OpenEvidence in June 2026, in one month
+  - value: 27.8M
+    label: Clinical questions they asked that month, against about 6,000 in January 2024
+  - value: 90%
+    label: Share of the clinicians active one month who came back the next month
+  why: This is a sign of a hot market because doctors now use a tool built for medicine every day, at a scale measured by an outside study and not by the company.
+  note: We used the JAMA study of OpenEvidence account logs published in October 2026, which covers January 2024 to June 2026
+  fresh:
+    period: month
+    end: 2026-06
+- id: xa_ama
+  type: kpis
+  section: Market opportunity
+  pill: SIGNAL
+  title: '81% of US physicians now use AI
+
+    at work, up from 38% three years ago'
+  items:
+  - value: 81%
+    label: US physicians who said they use AI in their practice, in the survey released in March 2026
+  - value: 66%
+    label: The same share in the 2024 survey of the American Medical Association
+  - value: 38%
+    label: The same share in the 2023 survey, three years ago
+  why: 'This is a sign of a hot market: the buyers already use the product. The figure covers any AI tool, including general chatbots, so it shows demand more than paid software.'
+  note: We used the American Medical Association physician surveys on AI use, released in 2024, in February 2025 and in March 2026
+  fresh:
+    period: year
+    end: 2026-03
+- id: xa_insilico
+  type: x/sig_key_trend
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Insilico’s first-half revenue rose
+
+    almost four times, to $106.3M'
+  t:
+    9: $27.5M
+    10: H1 2025
+    12: $106.3M
+    13: H1 2026
+    15: ×3.9
+    16: WHY IT IS HOT
+    17: 'Drugmakers now pay real money for AI drug discovery: Insilico Medicine made almost four times more revenue than a year earlier.
+
+      Most of it came from upfront payments in new partnerships, so it can swing from one half-year to the next.'
+  vbars:
+  - 27.5
+  - 106.3
+  note: We used Insilico Medicine’s interim results for the six months to June 30, 2026, which give $106.3M of revenue, up 287.2% in a year
+  fresh:
+    period: half
+    end: 2026-06
+- id: xa_deals
+  type: sx_league
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Drugmakers signed five AI drug deals
+
+    worth up to $9.8B in six months'
+  big: '5'
+  h1: RANK
+  h2: UP TO
+  kicker: WHY IT IS HOT
+  rows:
+  - n: 1
+    name: Insilico + Lilly
+    src: ../../assets/logos/lib/insilico-medicine.png
+    v: $2.75B
+    what: March 2026
+  - n: 2
+    name: Insilico + SK Biopharmaceuticals
+    src: ../../assets/logos/lib/insilico-medicine.png
+    v: $2.5B
+    what: June 2026
+  - n: 3
+    name: Profluent + Lilly
+    src: ../../assets/logos/lib/profluent.png
+    v: $2.25B
+    what: April 2026
+  - n: 4
+    name: Iambic + Takeda
+    src: ../../assets/logos/lib/iambic.png
+    v: $1.7B
+    what: February 2026
+  - n: 5
+    name: Insilico + Takeda
+    src: ../../assets/logos/lib/insilico-medicine.png
+    v: $600M
+    what: July 2026
+  story: Big pharma is buying AI discovery at scale, a sign of a hot market. Almost all of this value depends on future milestones, so it is a promise, not cash received.
+  note:
+  - We added up five partnerships announced by the companies between February and July 2026,
+  - with the maximum value each one stated, most of which depends on future milestones
+  fresh:
+    period: month
+    end: 2026-07
+- id: xa_funding
+  type: sx_faceoff
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'Healthcare AI startups raised $12.3B in 2026
+
+    so far, already more than in all of 2025'
+  cards:
+  - name: '2025'
+    stats:
+    - v: $11.1B
+      l: raised in all, in 342 rounds
+    - v: 29
+      l: rounds of $100M or more
+  - name: 2026 SO FAR
+    hl: true
+    stats:
+    - v: $12.3B
+      l: raised in all, in 269 rounds
+    - v: 24
+      l: rounds of $100M or more
+  story: 'More money in fewer rounds is a sign of a hot market: investors write bigger checks. Isomorphic Labs alone raised $2.1B in 2026, the biggest round since 2024.'
+  note:
+  - We added up every equity round raised by healthcare AI startups in our own database, and
+  - we left out IPOs, debt and grants. 2026 runs to mid-November, undisclosed rounds count as zero
+  fresh:
+    period: year
+    end: 2026-12
+- id: xa_fda
+  type: x/sig_rules_wave_2
+  section: Market opportunity
+  pill: SIGNAL
+  title: 'FDA decisions on AI devices hit a record
+
+    335 in 2025, and 181 more by mid-2026'
+  t:
+    8: '226'
+    9: '2023'
+    11: '235'
+    12: '2024'
+    14: '335'
+    15: '2025'
+    17: '181'
+    18: '2026
+
+      (to June 29)'
+    21: '335'
+    22: WHY IT IS HOT
+    23: 'More AI products now reach the point where hospitals can buy them, a sign of a hot market.
+
+      2025. A record 335 decisions, up 43% in one year.
+
+      2026. 181 decisions by June 29, a pace of about 360 for the year.
+
+      The list covers regulated devices only, not scribes or billing tools.'
+  note: We used the FDA list of AI-enabled medical devices, counted by year of decision in the AI Device Index of October 2026
+  fresh:
+    period: half
+    end: 2026-06
+  vbars:
+  - 226
+  - 235
+  - 335
+  - 181
 - id: ed039p
   type: pp_trends
   section: Market opportunity
@@ -828,19 +998,19 @@ slides:
   regions:
     na:
       pct: 45
-      text: North America leads with 44.5% of the broad market in 2025, per Fortune Business Insights. The US drives adoption.
+      text: North America leads with about 45% of spending. The US has the biggest buyers, the main vendors and most of the funding.
     eu:
       pct: 28
-      text: Europe accounts for 28.1% in Fortune Business Insights data. Hospital AI and drug research help build demand.
+      text: Europe comes second with about 28% of spending. Hospital AI and drug research both help build demand across the region.
     apac:
       pct: 21
-      text: Asia Pacific holds 21.05%, led by China, Japan and India. The report expects rapid further growth.
+      text: Asia-Pacific holds about 21%, led by China, Japan and India, and should grow the fastest of all regions.
     latam:
       pct: 4
-      text: Latin America holds 4.08% of 2025 broad-market revenue. Brazil and Mexico are major markets.
+      text: Latin America holds about 4% of spending in 2025, about $1.6 billion. Brazil and Mexico are the two largest markets in the region.
     mea:
       pct: 2
-      text: Middle East and Africa account for 2.26% of 2025 broad-market revenue. Gulf investments support interest.
+      text: The Middle East and Africa account for about 2% of spending in 2025. Investments by Gulf states support interest in the region.
   note:
   - We use the 2025 regional shares of Fortune Business Insights as a proxy, since they cover a wider scope
   - We round its five published shares to whole percentages and do not claim more precision than the source
@@ -2395,6 +2565,30 @@ slides:
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
+- id: xa_recursion
+  type: sx_faceoff
+  section: Value creation
+  title: 'Recursion still lost $6.42 for each
+
+    dollar of revenue in its latest quarter'
+  cards:
+  - name: Q3 2025
+    stats:
+    - v: $5.2M
+      l: of revenue in the quarter
+    - v: $31.35
+      l: lost for each dollar of revenue
+  - name: Q3 2026
+    hl: true
+    stats:
+    - v: $18.6M
+      l: of revenue in the quarter
+    - v: $6.42
+      l: lost for each dollar of revenue
+  story: AI drug discovery is paid on milestones, so revenue comes late and in lumps. Recursion more than tripled its revenue in a year and still spends far more than it earns.
+  note:
+  - 'We divided Recursion’s net loss by its revenue for the third quarters of 2025 and 2026:'
+  - $162.3M on $5.2M, then $119.0M on $18.6M, as published in its quarterly results
 - id: ed106-s1
   type: x/divider_3
   src: 106
@@ -2952,6 +3146,24 @@ slides:
     23: FDA clearance covers medical devices, not every AI tool used by hospitals
     25: AI notes need human review because fluent text may invent a drug or symptom
     28: Rollouts need patient-record links, security reviews and proof of financial gains
+- id: xa_funnel
+  type: sx_stat_strip
+  section: Market challenges
+  title: 'Only 9 of 161 published AI projects
+
+    reached routine use in a health system'
+  headline: How far 161 published AI projects for health systems got
+  stats:
+  - v: '161'
+    l: Published studies of predictive AI for health-system planning
+  - v: '22'
+    l: Reached validation, a pilot or routine use
+  - v: '9'
+    l: Reported routine use, about one in eighteen
+  story: 'Building a model is the easy part: most published projects stop before anyone tests them in real care. A startup that gets into daily use has done what few teams manage.'
+  note:
+  - We used a scoping review of 161 studies published in September 2026, which counts as the
+  - most advanced stage 139 at development, 10 at validation, 3 at pilot and 9 in operation
 - id: ed133
   type: x/has_held_back_market_growth
   section: Market challenges
@@ -3580,6 +3792,26 @@ slides:
     17: 📈
     18: 📈
     19: 📈
+- id: xa_queries
+  type: x/sig_key_trend
+  section: Growth drivers
+  title: 'Each OpenEvidence clinician now asks
+
+    39.5 questions a month, up from 18'
+  t:
+    9: '18'
+    10: JAN 2024
+    12: '39.5'
+    13: JUN 2026
+    15: ×2.2
+    16: WHY IT MATTERS
+    17: 'Use deepens as well as widens: the average active clinician asks more than twice as many questions as in early 2024.
+
+      A tool people return to every day is hard to replace, which is why usage data matters more than downloads.'
+  vbars:
+  - 18
+  - 39.5
+  note: We used the JAMA study of OpenEvidence account logs published in October 2026, which compares January 2024 with June 2026
 - id: ed155
   type: agenda
   section: Investor bets
@@ -4291,7 +4523,7 @@ slides:
       text: The US hosts Abridge, OpenEvidence, Hippocratic AI and Ambience, alongside hospital AI developers in imaging and billing.
     eu:
       name: EUROPE
-      text: Europe has Corti in Denmark, which builds clinical-grade AI for healthcare workflows and regulated care systems.
+      text: Europe has Corti in Denmark, which builds AI models for clinical work, and imaging AI firms such as Gleamer in France.
     apac:
       name: INDIA
       text: India is led by Qure.ai, whose imaging AI supports public lung screening.
@@ -4587,7 +4819,7 @@ slides:
 
       PRIVACY'
     15: They fail when no one can review mistakes in care
-    17: GOVERNANCE
+    17: HUMAN OVERSIGHT
     24: 💀
     25: 💀
     26: 💀

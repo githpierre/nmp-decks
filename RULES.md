@@ -76,6 +76,9 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A twin whose live slide shows amounts older than the base (S09 after a definition change) is recomputed from the base
   (`tools/pp/s09_from_base.py`) and the live image is replaced in place, same file name (Pierre, 13 Nov 2026).
 - A company the live radar (S01) puts outside the market is on no other slide as a player (Tempus, Healthcare AI).
+- A converted chart (`x/sig_*`) keeps the bar sizes of its original data: give `vbars` or `hbars` with the values, or use a
+  data template. The import prints FIXED CHART, and a chart whose bars cannot be matched to its values is a script error
+  (13 Nov 2026: Humanoid slide 51 showed the bars of another market).
 - Research results are kept in `decks/<handle>/research`. Each chapter prompt ends with a self-check script (lengths, em dash,
   semicolon): the other LLM delivers at « 0 problems », so the fit to the boxes is not redone here.
 

@@ -25,3 +25,10 @@
 - Prompts now end with a self-check script (tools/selfcheck_template.txt). Skill update proposed to Pierre (card).
 - Still to do: items 1 to 3 of the list above (fit of slide 12, extras review page, sources, full visual pass, review page, PDF).
 - Seen on the live page texts (not changed): the S10 and S12 paragraphs name Tempus as a known player, and S06 shows slide 06-02 while the manifest lists 06-01 only.
+
+## Update 14 Nov 2026, 00:15
+- Page texts of the live page: Tempus replaced by OpenEvidence in the S10 and S12 paragraphs (Matrixify job 783190635, backup in decks/healthcare-ai-pp-fix/backup_live_2026-11-13).
+- Extra slides built (extras.yaml, 9 slides + pp_s06) and ed032 rewritten. Review page sent to Pierre: https://claude.ai/artifact/QR9GNe6mFVGKvwhmF8e93o (slug bda12218-13a8-4eaa-951a-d72d12bc8aba, version 1794590029-c815). Waiting for his Oui / Non.
+- Deck: 198 slides, 0 build issue, 1 layout issue (slide 12, ed012 products grid to rewrite).
+- Humanoid: slide 51 bars fixed with hbars (delivered deck had the bar sizes of another market), PDF rebuilt and to resend.
+- Next: slide 12, sources (sources_key.yaml, build_sources.py), full visual pass on sheets of 6, snapshot, review page of the whole deck, PDF.

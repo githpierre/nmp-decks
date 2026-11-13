@@ -266,7 +266,7 @@ window.F = (() => {
       const f = (p.getAttribute('fill') || '').toUpperCase(), d = (p.getAttribute('d') || '').replace(/\s/g, ''), r = sv.getBoundingClientRect();
       return f && f !== 'NONE' && !/062A3C|0A3243/.test(f) && /^M0,?0H[\d.]+V[\d.]+H0Z$/.test(d) && r.height > 60 && r.width < 140 && r.width < r.height * 1.5; })
       .sort((a, b) => a.getBoundingClientRect().left - b.getBoundingClientRect().left);
-    if (bars.length !== V.length) return;
+    if (bars.length !== V.length) { console.error('vbars: slide ' + sl.dataset.n + ' has ' + bars.length + ' bars for ' + V.length + ' values'); return; }
     const hs = bars.map(b => parseFloat(b.querySelector('path').getAttribute('d').match(/V([\d.]+)/)[1])), H = Math.max(...hs), mx = Math.max(...V);
     const T = [...sl.querySelectorAll('.raw > .rx-t')];
     bars.forEach((b, i) => { const p = b.querySelector('path'), h0 = hs[i], h = Math.max(4, H * V[i] / mx), d = h0 - h, br = b.getBoundingClientRect();
@@ -283,8 +283,11 @@ window.F = (() => {
       return f && f !== 'NONE' && !/062A3C|0A3243/.test(f) && /^M0,?0H[\d.]+V[\d.]+H0Z$/.test(d); });
   const setW = (sv, w) => { const p = sv.querySelector('path'), d = p.getAttribute('d'); const w0 = parseFloat(d.match(/H([\d.]+)/)[1]); p.setAttribute('d', d.replace(/H[\d.]+/, 'H' + w.toFixed(2))); const dw = w - w0; sv.style.width = (parseFloat(sv.style.width) + dw) + 'px'; const vb = sv.getAttribute('viewBox').split(/\s+/).map(Number); vb[2] += dw; sv.setAttribute('viewBox', vb.join(' ')); return dw; };
   const hbars = sl => { if (!sl.dataset.hbars) return; const V = (sl.dataset.hbars || '').split(',').map(Number).filter(v => !isNaN(v)); if (!V.length) return;
-    const bars = rects(sl).filter(sv => { const r = sv.getBoundingClientRect(); return r.height < 44 && r.height > 6 && r.width > r.height * 1.2; }).sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
-    if (bars.length !== V.length) return; const ws = bars.map(b => parseFloat(b.querySelector('path').getAttribute('d').match(/H([\d.]+)/)[1])), W = Math.max(...ws), mx = Math.max(...V);
+    /* bars of one chart share their left edge: a very short bar (the smallest value) is still a bar (13 Nov 2026: the 5th bar was skipped, so nothing was resized and nobody saw it) */
+    const cand = rects(sl).filter(sv => { const r = sv.getBoundingClientRect(); return r.height < 44 && r.height > 6; }), G = {};
+    cand.forEach(sv => { const k = Math.round(sv.getBoundingClientRect().left / 4); (G[k] = G[k] || []).push(sv); });
+    const bars = (Object.values(G).find(g => g.length === V.length) || []).sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
+    if (bars.length !== V.length) { console.error('hbars: slide ' + sl.dataset.n + ' has no group of ' + V.length + ' bars for its ' + V.length + ' values'); return; } const ws = bars.map(b => parseFloat(b.querySelector('path').getAttribute('d').match(/H([\d.]+)/)[1])), W = Math.max(...ws), mx = Math.max(...V);
     const T = [...sl.querySelectorAll('.raw > .rx-t')];
     bars.forEach((b, i) => { const r = b.getBoundingClientRect(); const lab = T.filter(t => { const q = t.getBoundingClientRect(); return q.left > r.right - 12 && q.left - r.right < 40 && Math.abs((q.top + q.bottom) / 2 - (r.top + r.bottom) / 2) < 14; });
       const dw = setW(b, Math.max(3, W * V[i] / mx)); lab.forEach(t => mv(t, dw, 0));

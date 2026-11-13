@@ -400,6 +400,7 @@ def main():
         for e in yaml.safe_load(xf.read_text()) or []:
             i = next((j for j, y in enumerate(S) if y['id'] == e['after']), None)
             if i is None: print('extra slide: anchor not found', e['after']); continue
+            if str(e['slide'].get('type', '')).startswith('x/sig_') and not any(e['slide'].get(k) for k in ('vbars', 'hbars', 'dots', 'curves', 'split')): print('FIXED CHART', e['slide'].get('id'), e['slide']['type'], ': a converted chart keeps the bar sizes of its original data, give `vbars`, `hbars`… or use a data template (13 Nov 2026: Humanoid slide 51 showed the bars of another market)')
             if not e.get('link') or str(e['link']).startswith('TO WRITE'):                  # RULES.md « liant » : the slide before must announce the extra slide
                 print('extra slide: no link written for', e['slide'].get('id'), '(say which phrase of', e['after'], 'leads to it)')
             S.insert(i + 1, e['slide'])

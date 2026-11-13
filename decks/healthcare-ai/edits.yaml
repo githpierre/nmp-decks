@@ -48,6 +48,22 @@ ed049:
   note:
   - We use the 2025 regional shares of Fortune Business Insights as a proxy, since they cover a wider scope
   - We round its five published shares to whole percentages and do not claim more precision than the source
+  regions:
+    na:
+      pct: 45
+      text: North America leads with about 45% of spending. The US has the biggest buyers, the main vendors and most of the funding.
+    eu:
+      pct: 28
+      text: Europe comes second with about 28% of spending. Hospital AI and drug research both help build demand across the region.
+    apac:
+      pct: 21
+      text: Asia-Pacific holds about 21%, led by China, Japan and India, and should grow the fastest of all regions.
+    latam:
+      pct: 4
+      text: Latin America holds about 4% of spending in 2025, about $1.6 billion. Brazil and Mexico are the two largest markets in the region.
+    mea:
+      pct: 2
+      text: The Middle East and Africa account for about 2% of spending in 2025. Investments by Gulf states support interest in the region.
 ed050:
   6: 'Markets and
 
@@ -107,7 +123,7 @@ ed183:
       text: The US hosts Abridge, OpenEvidence, Hippocratic AI and Ambience, alongside hospital AI developers in imaging and billing.
     eu:
       name: EUROPE
-      text: Europe has Corti in Denmark, which builds clinical-grade AI for healthcare workflows and regulated care systems.
+      text: Europe has Corti in Denmark, which builds AI models for clinical work, and imaging AI firms such as Gleamer in France.
     apac:
       name: INDIA
       text: India is led by Qure.ai, whose imaging AI supports public lung screening.
@@ -141,3 +157,16 @@ iv_pipeline:
   10: SUKI · ASSISTANT
   6: CODAMETRIX · CODING
   2: HIPPOCRATIC AI · VOICE AGENT
+ed032:
+  5: 703,265 clinicians use OpenEvidence monthly
+  9: 81% of US physicians now use AI at work
+  11: Insilico’s half-year revenue rose 3.9 times
+  7: Drugmakers signed $9.8B of AI drug deals
+  13: '{db.total_2026} raised in 2026, more than in 2025'
+  15: The FDA cleared a record 335 AI devices
+  19: Google searches for healthcare AI soared
+  note: We selected seven recent signals across clinical use, revenue, deals, funding, regulation and search interest. Each one has its own slide after this one.
+ed200:
+  17: 'HUMAN
+
+    OVERSIGHT'
