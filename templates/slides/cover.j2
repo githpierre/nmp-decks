@@ -4,7 +4,7 @@
   {% macro box(b) %}position:absolute;margin:0;bottom:auto;left:{{ b.left }}px;top:{{ b.top }}px;font-size:{{ b.pt }}pt;letter-spacing:0;{% if b.height %}height:{{ b.height }}px;display:flex;flex-direction:column;justify-content:center;{% endif %}{% endmacro %}
   <img class="photo" src="{{ s.image }}">
   {% if g.copyright %}<div class="copy cv" style="{{ box(g.copyright) }}">©&nbsp;{{ sp('New Market Pitch') }}</div>{% else %}<div class="copy">© NEW MARKET PITCH</div>{% endif %}
-  <div class="big cv" style="{{ box(g.title) }}line-height:1.15">{% for l in s.big.split('\n') %}<div class="ln">{{ sp(l) }}</div>{% endfor %}</div>
+  <div class="big cv" style="{{ box(g.title) }}line-height:{{ g.title.lh or 1.15 }}">{% for l in s.big.split('\n') %}<div class="ln">{{ sp(l) }}</div>{% endfor %}</div>
   <div class="sub cv" style="{{ box(g.sub) }}">{{ sp('New Market Pitch') }}</div>
   <p class="disc cv" style="{{ box(g.disc) }}width:{{ g.disc.width }}px">{{ s.disclaimer }}</p>
 {% else %}

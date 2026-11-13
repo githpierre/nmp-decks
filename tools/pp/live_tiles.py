@@ -25,6 +25,7 @@ def tiles(f, box=None):
         x, y = (cx - OX) / SC, (cy - OY) / SC
         if box and not (box[0] <= x <= box[2] and box[1] <= y <= box[3]): continue
         out.append(dict(x=round(x, 1), y=round(y, 1), w=round(w / SC, 1), crop=(sl[1].start, sl[0].start, sl[1].stop, sl[0].stop)))
+    out = [t for t in out if not any(o is not t and o['w'] > t['w'] and abs(o['x'] - t['x']) < o['w'] / 2 and abs(o['y'] - t['y']) < o['w'] / 2 for o in out)]   # a white shape inside a tile is not a tile (13 Nov 2026)
     return im, sorted(out, key=lambda t: (round(t['y'] / 30), t['x']))
 
 

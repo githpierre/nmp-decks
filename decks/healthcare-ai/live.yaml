@@ -1,0 +1,607 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would healthcare AI
+
+    customers actually pay to solve?'
+  auds:
+  - Health systems
+  - Physician groups
+  - Nursing teams
+  - Home-care agencies
+  - Behavioral clinics
+  pains:
+  - - They spend hours writing notes at night after every clinic day
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - They lose good staff to burnout from endless paperwork and admin
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They miss patient calls when phone lines are jammed all morning
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - They juggle too many software tools that do not talk to each other
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They cannot get the deep links into Epic or Oracle that they need
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  - - They worry about patient consent when visits are being recorded
+    - - 2
+      - 2
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which healthcare AI scribe has
+
+    the most complete tech today?'
+  companies:
+  - name: Microsoft
+    src: ../../assets/logos/pp_live/healthcare-ai/s05-00.png
+  - name: Abridge
+    src: ../../assets/logos/pp_live/healthcare-ai/s05-01.png
+  - name: Nabla
+    src: ../../assets/logos/pp_live/healthcare-ai/s05-02.png
+  - name: Suki
+    src: ../../assets/logos/pp_live/healthcare-ai/s05-03.png
+  - name: Ambience
+    src: ../../assets/logos/pp_live/healthcare-ai/s05-04.png
+  - name: Heidi
+    src: ../../assets/logos/pp_live/healthcare-ai/s05-05.png
+  features:
+  - header: Free|plan
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Billing|codes
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Voice|dictation
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Drafts|orders
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Nurse|notes
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Hospital|notes
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Works in|Epic
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for healthcare AI?'
+  events:
+  - odds: 25
+    impact: 3
+    text: Epic and Microsoft bundle AI charting and scribes into their suites, squeezing independent healthcare AI startups
+  - odds: 20
+    impact: 2
+    text: Seed and Series A funding for healthcare AI startups dries up as investors back a few leaders
+  - odds: 20
+    impact: 2
+    text: Medicaid cuts force US hospitals to freeze software budgets, delaying AI purchases by a year
+  - odds: 15
+    impact: 3
+    text: A chatbot gives a patient a seriously harmful medical answer and the case dominates national news coverage
+  - odds: 12
+    impact: 2
+    text: Pharma partners cut AI drug discovery deals after several AI-designed drugs fail in Phase 2 trials
+  - odds: 10
+    impact: 3
+    text: A US court holds an AI vendor fully liable for a misdiagnosis, raising insurance costs for startups
+  - odds: 8
+    impact: 2
+    text: The FDA and HHS reverse course and require full premarket review for AI clinical decision support tools
+  - odds: 5
+    impact: 2
+    text: A massive hospital data breach traced to an AI vendor makes health systems freeze new AI contracts
+  note:
+  - We listed the events that could slow healthcare AI down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed healthcare AI
+
+    forward, year after year?'
+  events:
+  - year: '1972'
+    text: MYCIN shows computers can suggest diagnoses
+    impact: 0.5
+  - year: '1998'
+    text: FDA clears first AI helper for mammograms
+    impact: 1
+  - year: '2009'
+    text: HITECH Act puts patient records online
+    impact: 2
+  - year: '2011'
+    text: Watson wins Jeopardy, hospitals take notice
+    impact: 1
+  - year: '2012'
+    text: AlexNet shows AI can read images
+    impact: 1.5
+  - year: '2016'
+    text: Google AI spots eye disease like doctors
+    impact: 1
+  - year: '2017'
+    text: FDA opens fast path for digital health
+    impact: 1
+  - year: '2018'
+    text: FDA clears first AI that diagnoses alone
+    impact: 2
+  - year: '2018'
+    text: FDA clears stroke AI that alerts specialists
+    impact: 1
+  - year: '2019'
+    text: FDA drafts rules for learning AI devices
+    impact: 1
+  - year: '2020'
+    text: AI beats radiologists on breast cancer scans
+    impact: 1
+  - year: '2020'
+    text: Medicare pays extra for stroke AI
+    impact: 1.5
+  - year: '2020'
+    text: Covid forces hospitals onto digital tools
+    impact: 1.5
+  - year: '2020'
+    text: AlphaFold cracks protein folding for drugs
+    impact: 1.5
+  - year: '2021'
+    text: Info blocking rule frees patient data
+    impact: 1
+  - year: '2021'
+    text: Doctor burnout hits a record 63%
+    impact: 1.5
+  - year: '2022'
+    text: Microsoft buys Nuance, betting on AI notes
+    impact: 2
+  - year: '2022'
+    text: ChatGPT shows AI can write clinical notes
+    impact: 3
+  - year: '2023'
+    text: AI passes US medical licensing exams
+    impact: 1.5
+  - year: '2023'
+    text: Epic adds GPT-4 to hospital records
+    impact: 2
+  - year: '2024'
+    text: CMS rule makes insurers speed prior approvals
+    impact: 1
+  - year: '2024'
+    text: Nobel for AlphaFold validates AI in biology
+    impact: 1
+  - year: '2024'
+    text: Kaiser brings AI scribes to 40 hospitals
+    impact: 2.5
+  - year: '2025'
+    text: FDA list passes 1,000 cleared AI devices
+    impact: 1
+  - year: '2025'
+    text: FDA starts using AI for its reviews
+    impact: 1
+  - year: '2025'
+    text: Microsoft AI beats doctors on hard diagnoses
+    impact: 1
+  - year: '2025'
+    text: Epic builds AI scribing into its records
+    impact: 1.5
+  - year: '2025'
+    text: Abridge hits $5.3B as scribes go mainstream
+    impact: 1.5
+  - year: '2026'
+    text: FDA eases rules for AI decision support
+    impact: 1.5
+  - year: '2026'
+    text: ChatGPT Health links records for millions
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed healthcare AI forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: healthcare-ai
+  title: 'Where did healthcare AI investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of healthcare AI startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Life science AI
+    names:
+    - Isomorphic Labs
+    - Earendil Labs
+    v: $7.5B
+    pct: 56% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/lib/isomorphic-labs.png
+    - src: ../../assets/logos/earendil-labs.png
+    - src: ../../assets/logos/lib/chai-discovery.png
+  - name: Diagnostic AI
+    names:
+    - Neko Health
+    - Aidoc
+    v: $1.9B
+    pct: 14% of total
+    w: 24.8
+    logos:
+    - src: ../../assets/logos/lib/neko-health.png
+    - src: ../../assets/logos/lib/aidoc.png
+    - src: ../../assets/logos/dentalmonitoring.png
+  - name: Care workflow AI
+    names:
+    - Forus
+    - Qualified Health
+    v: $1.7B
+    pct: 13% of total
+    w: 22.8
+    logos:
+    - src: ../../assets/logos/lib/forus.png
+    - src: ../../assets/logos/lib/qualified-health.png
+    - src: ../../assets/logos/assort-health.png
+  - name: Clinical AI tools
+    names:
+    - OpenEvidence
+    - Function Health
+    v: $1.6B
+    pct: 12% of total
+    w: 21.3
+    logos:
+    - src: ../../assets/logos/openevidence.png
+    - src: ../../assets/logos/lib/function-health.png
+    - src: ../../assets/logos/lib/inspiren.png
+  - name: Revenue cycle AI
+    names:
+    - Candid Health
+    - Commure
+    v: $530M
+    pct: 4% of total
+    w: 7.1
+    logos:
+    - src: ../../assets/logos/lib/candid-health.png
+    - src: ../../assets/logos/lib/commure.png
+    - src: ../../assets/logos/lib/akasa.png
+  - name: Payer AI
+    names:
+    - Alaffia Health
+    - Anterior
+    v: $256M
+    pct: 2% of total
+    w: 3.4
+    logos:
+    - src: ../../assets/logos/alaffia-health.png
+    - src: ../../assets/logos/lib/anterior.png
+    - src: ../../assets/logos/lib/codoxo.png
+ed171p:
+  title: 'Who are the top players
+
+    in healthcare AI today?'
+  cols:
+  - Language & voice
+  - Imaging & biosignals
+  - Molecular & multimodal
+  rows:
+  - Clinical care delivery
+  - Admin, operations & payment
+  - Life sciences & medtech R&D
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-00.png
+    x: 349.3
+    y: 261.0
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-03.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-04.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-05.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-06.png
+    x: 321.0
+    y: 309.4
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-07.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-08.png
+    x: 662.6
+    y: 296.8
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-09.png
+    x: 781.3
+    y: 294.0
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-10.png
+    x: 480.0
+    y: 317.6
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-11.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-12.png
+    x: 680.6
+    y: 372.9
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-13.png
+    x: 191.6
+    y: 400.3
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-14.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-15.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-16.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-17.png
+    x: 751.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-18.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-19.png
+    x: 467.1
+    y: 487.3
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-20.png
+    x: 543.9
+    y: 478.3
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-21.png
+    x: 672.9
+    y: 470.8
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-22.png
+    x: 801.6
+    y: 478.3
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-23.png
+    x: 245.8
+    y: 505.3
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-24.png
+    x: 310.7
+    y: 499.1
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-25.png
+    x: 409.9
+    y: 510.6
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-26.png
+    x: 663.0
+    y: 522.6
+  - src: ../../assets/logos/pp_live/healthcare-ai/s10-27.png
+    x: 735.0
+    y: 498.6
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out general AI infrastructure and tools not built for healthcare first, with sources at the end
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these healthcare AI
+
+    startups, and how did they end?'
+  causes:
+  - Regulator|hurdles
+  - Funding|dried up
+  - Ran out|of cash
+  - Losses on|care deals
+  rows:
+  - name: Babylon Health
+    ending: Went bankrupt
+    start: '2013'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/healthcare-ai/s11-00.png
+    ini: B
+    slug: babylon-health
+    domain: babylonhealth.com
+  - name: Olive AI
+    ending: Shut down
+    start: '2012'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/healthcare-ai/s11-01.png
+    ini: O
+    slug: olive-ai
+    domain: oliveai.com
+  - name: Forward
+    ending: Shut down
+    start: '2016'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/healthcare-ai/s11-02.png
+    ini: F
+    slug: forward
+    domain: goforward.com
+  - name: Mindstrong
+    ending: Shut down
+    start: '2014'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/healthcare-ai/s11-03.png
+    ini: M
+    slug: mindstrong
+    domain: mindstrong.com
+  - name: Woebot
+    ending: Shut its app
+    start: '2017'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/healthcare-ai/s11-04.png
+    ini: W
+    slug: woebot
+    domain: woebothealth.com
+  note:
+  - We tracked the healthcare AI startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Abridge winning the
+
+    AI medical scribe market?'
+  companies:
+  - short: Abridge
+    src: ../../assets/logos/pp_live/healthcare-ai/s12-00.png
+  - short: Microsoft
+    src: ../../assets/logos/pp_live/healthcare-ai/s12-01.png
+  - short: Ambience
+    src: ../../assets/logos/pp_live/healthcare-ai/s12-02.png
+  - short: Suki
+    src: ../../assets/logos/pp_live/healthcare-ai/s12-03.png
+  - short: Nabla
+    src: ../../assets/logos/pp_live/healthcare-ai/s12-04.png
+  - short: Heidi
+    src: ../../assets/logos/pp_live/healthcare-ai/s12-05.png
+  criteria:
+  - name: 250+ health systems live
+    why: Proof at enterprise scale
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Best in KLAS ambient AI
+    why: Top rated by clinicians
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Raised over $750M
+    why: Funds product and sales
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Native Epic integration
+    why: Fits the main EHR workflow
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Coding and billing support
+    why: Helps hospitals get paid
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Used outside the US
+    why: Bigger global market
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Free plan for clinicians
+    why: Fast bottom up adoption
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report

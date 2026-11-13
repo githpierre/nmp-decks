@@ -21,6 +21,9 @@ def money(v):
     return f'${v / 1e6:.1f}M'.replace('.0M', 'M')
 
 
+def poss(n): return n + ('’' if n.endswith('s') else '’s')      # « Isomorphic Labs’ $2.1B », « Sail’s $465M »
+
+
 def stage(r):
     t = r['round_type'] or ''
     return '' if t in ('Unknown', 'Other', '') else t.replace('Series D+', 'late-stage')
@@ -65,7 +68,7 @@ def main():
         rs = sorted(rs, key=lambda r: -r['amt']); s = sum(r['amt'] for r in rs)
         if not rs or not s: return ''
         t = rs[0]
-        if t['amt'] > .5 * s: return f"{t['name']}’s {money(t['amt'])} made up most of it"
+        if t['amt'] > .5 * s: return f"{poss(t['name'])} {money(t['amt'])} made up most of it"
         return f"{t['name']} {money(t['amt'])}, {rs[1]['name']} {money(rs[1]['amt'])}" if len(rs) > 1 else f"{t['name']} {money(t['amt'])}"
     halves = [('2025', 'H1'), ('2025', 'H2'), ('2026', 'H1'), ('2026', 'H2')]
     bars = []
@@ -82,7 +85,7 @@ def main():
     pb = []
     for y in ('2024', '2025', '2026'):
         rs = sorted([r for r in R if r['date'][:4] == y], key=lambda r: -r['amt']); s = sum(r['amt'] for r in rs)
-        if s: pb.append(dict(x=y if y != today[:4] else f'{y} (YTD)', v=round(100 * rs[0]['amt'] / s), ann=f"{rs[0]['name']}’s {money(rs[0]['amt'])}, out of {len(rs)} rounds"))
+        if s: pb.append(dict(x=y if y != today[:4] else f'{y} (YTD)', v=round(100 * rs[0]['amt'] / s), ann=f"{poss(rs[0]['name'])} {money(rs[0]['amt'])}, out of {len(rs)} rounds"))
     D['ed164'] = dict(type='fundbars', unit='pct', t=None, bars=pb, note=['We divide, for each year, the largest round by all the disclosed capital in our tracker',
                                                                            'IPOs, debt and grants are left out, and 2026 only runs to mid-November for now'])
     # biggest rounds: last twelve months / before
@@ -145,6 +148,7 @@ def main():
     F.update(us_n=len(us), us_rounds_pct=round(100 * len(us) / len(R)), us_money_pct=round(100 * amc['United States'] / tot))
     for i, (c, rs) in enumerate(sorted(cat.items(), key=lambda kv: -sum(r['amt'] for r in kv[1]))[:3], 1):      # top categories by money
         F[f'cat{i}'] = c; F[f'cat{i}_n'] = len(rs); F[f'cat{i}_total'] = money(sum(r['amt'] for r in rs)); F[f'cat{i}_pct'] = round(100 * sum(r['amt'] for r in rs) / tot)
+    for i, (c, v) in enumerate(amc.most_common(2), 1): F[f'ctry{i}'] = {'United States': 'the United States', 'United Kingdom': 'the United Kingdom'}.get(c, c); F[f'ctry{i}_money'] = money(v); F[f'ctry{i}_n'] = byc[c]
     for i, r in enumerate(sorted(R, key=lambda r: -r['amt'])[:2], 1): F[f'big{i}_name'] = r['name']; F[f'big{i}_amt'] = money(r['amt']); F[f'big{i}_stage'] = stage(r); F[f'big{i}_year'] = r['date'][:4]
     for y in sorted({r['date'][:4] for r in R}):
         ry = [r for r in R if r['date'][:4] == y]; by = [r for r in ry if r['amt'] >= 1e8]

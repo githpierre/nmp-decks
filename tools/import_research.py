@@ -388,7 +388,7 @@ def main():
         for e in yaml.safe_load(xf.read_text()) or []:
             i = next((j for j, y in enumerate(S) if y['id'] == e['after']), None)
             if i is None: print('extra slide: anchor not found', e['after']); continue
-            if not e.get('link'):                  # RULES.md « liant » : the slide before must announce the extra slide
+            if not e.get('link') or str(e['link']).startswith('TO WRITE'):                  # RULES.md « liant » : the slide before must announce the extra slide
                 print('extra slide: no link written for', e['slide'].get('id'), '(say which phrase of', e['after'], 'leads to it)')
             S.insert(i + 1, e['slide'])
     # SIGNAL slides show momentum NOW (Pierre, 12 Nov 2026): each one states the period of its newest figure in `fresh: {period, end: YYYY-MM}`

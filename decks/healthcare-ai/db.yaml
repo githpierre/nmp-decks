@@ -66,13 +66,13 @@ ed164:
   bars:
   - x: '2024'
     v: 13
-    ann: Xaira Therapeutics’s $1B, out of 290 rounds
+    ann: Xaira Therapeutics’ $1B, out of 290 rounds
   - x: '2025'
     v: 5
-    ann: Isomorphic Labs’s $600M, out of 342 rounds
+    ann: Isomorphic Labs’ $600M, out of 342 rounds
   - x: 2026 (YTD)
     v: 17
-    ann: Isomorphic Labs’s $2.1B, out of 269 rounds
+    ann: Isomorphic Labs’ $2.1B, out of 269 rounds
   note:
   - We divide, for each year, the largest round by all the disclosed capital in our tracker
   - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
@@ -127,7 +127,7 @@ ed167:
   11: '228'
   15: $5.3B
   19: Abridge, Ambience Healthcare, Innovaccer, Forus
-  8: DIAGNOSTIC AI SOFTWARE
+  8: DIAGNOSTIC AI
   12: '200'
   16: $4.7B
   20: Neko Health, Caris Life Sciences, Aidoc, Harrison.ai
@@ -149,7 +149,7 @@ ed169:
   28: '10'
   30: $450M
   32: Sensi.AI, Cleerly
-  27: LIGHTSPEED VENTURE PARTNERS
+  27: LIGHTSPEED
   29: '9'
   31: $1.3B
   33: Neko Health (twice), Doctronic (twice)
@@ -168,3 +168,23 @@ ed205:
   24: 2026 (JUL)
   25: Neko Health raised a $700M Series C led by Lightspeed Venture Partners for its diagnostic AI software {1|Neko}
   note: We picked the biggest disclosed rounds of healthcare AI startups since 2024, from our tracker of rounds
+ed160:
+  6: Life science AI took about 48% of the capital raised since 2024, far ahead of care workflow AI with about 17%
+  7: 861 of the 901 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
+  8: US startups closed 553 of the 901 rounds and took $22.2B, about 72% of the money, far ahead of the United Kingdom
+  9: 68 rounds of $100M or more made up about 54% of all the capital raised in the market since 2024
+  10: The $2.1B Series B of Isomorphic Labs is the biggest round since 2024, ahead of the $1B raised by Xaira Therapeutics in 2024
+  11: Seed was the most common round, with 343 of the 901 rounds, ahead of Series A with 242 and Series B with 104
+  note: We drew these insights from our tracker of 901 healthcare AI equity rounds announced since January 2024, worth about $30.8B
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, the largest checks we track went to broad data and biology platforms such as Verily, Caris Life Sciences, insitro and XtalPi, most of them between 2019 and 2022.'
+  7: 'AFTER
+
+
+
+    Since 2024, 901 rounds raised $30.8B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
+  note: We used our tracker of healthcare AI equity rounds, complete from January 2024, and company releases and the press

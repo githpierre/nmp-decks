@@ -1,0 +1,46 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does the healthcare AI
+
+      market actually make money?'
+    axes:
+    - Paid by hospitals
+    - Paid by pharma or insurers
+    - Fixed
+    - license
+    - Paid on
+    - results
+    groups:
+    - name: Scribe license per clinician
+      x: 0.18
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-07.png
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-08.png
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-09.png
+    - name: Imaging AI subscriptions
+      x: 0.36
+      y: 0.6
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-03.png
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-04.png
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-05.png
+    - name: Prior auth for health plans
+      x: 0.82
+      y: 0.3
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-06.png
+    - name: Drug discovery milestones
+      x: 0.78
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-00.png
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-01.png
+      - src: ../../assets/logos/pp_live/healthcare-ai/s06-02.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

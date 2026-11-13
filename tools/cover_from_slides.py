@@ -1,7 +1,7 @@
 """Cover geometry copied from Pierre's cover slide (Google Slides « nmp - cover deck (1-225) », slide number = market uuid).
 
     1. Read the slide with the Google Slides tool, fields:
-       pageElements(size,transform,image(contentUrl,imageProperties(cropProperties,transparency)),shape(shapeProperties.contentAlignment,text.textElements(textRun(content,style(fontSize)))))
+       pageElements(size,transform,image(contentUrl,imageProperties(cropProperties,transparency)),shape(shapeProperties.contentAlignment,text.textElements(paragraphMarker(style(lineSpacing)),textRun(content,style(fontSize)))))
        and save the answer as decks/<handle>/cover_slide.json
     2. python3 tools/cover_from_slides.py <handle>      -> decks/<handle>/cover.yaml (read by the import)
                                                           + assets/covers/<handle>.jpg : every image layer of the slide, cropped, with its
@@ -10,7 +10,7 @@
 
 Every cover of the deck has its own layout (photo crop, title size, where the disclaimer sits): the HTML cover copies it,
 it is never laid out by a general rule (12 Nov 2026: Humanoid Robotics title drawn over the robots)."""
-import json, sys, yaml
+import json, re, sys, yaml
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PX = 1 / 9525                       # EMU -> px on the 960 x 672 canvas
@@ -38,7 +38,10 @@ for e in P:
     box = dict(left=round(t.get('translateX', 0) * PX, 1), top=round(t.get('translateY', 0) * PX + (0 if mid else INSET), 1), width=round(3000000 * t.get('scaleX', 1) * PX, 1),
                height=round(3000000 * t.get('scaleY', 1) * PX, 1) if mid else 0, pt=pt)
     key = 'copyright' if txt.startswith('©') else 'disc' if 'This report' in txt else 'button' if 'NEWMARKETPITCH' in txt else 'sub' if 'M A R K E T' in txt else 'title'
+    ls = [r['paragraphMarker']['style']['lineSpacing'] for r in (sh.get('text') or {}).get('textElements', []) if (r.get('paragraphMarker') or {}).get('style', {}).get('lineSpacing')]
+    if key == 'title' and ls: box['lh'] = round(1.197 * ls[0] / 100, 3)      # Google Slides: 100 % line spacing in Lexend = 1.197 x the font size (measured on the Healthcare AI thumbnail)
     if key != 'button': G[key] = box
+    if key == 'title': BIG = '\n'.join(' '.join(w.replace(' ', '') for w in re.split(r' {2,}', l.strip())) for l in txt.strip().split('\n'))   # the words of the slide too: « A I / H E A L T H / C A R E » -> AI, HEALTH, CARE (13 Nov 2026)
 assert n and {'title', 'sub', 'disc'} <= set(G), G
 flat.convert('RGB').save(ROOT / 'assets/covers' / f'{sys.argv[1]}.jpg', quality=92)
-(d / 'cover.yaml').write_text(yaml.dump(dict(geo=G), sort_keys=False)); print(G)
+(d / 'cover.yaml').write_text(yaml.dump(dict(geo=G, big=BIG), sort_keys=False)); print(G, repr(BIG))
