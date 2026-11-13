@@ -1,0 +1,65 @@
+# Spec of the research prompts for the Healthcare AI deck (tools/make_market_prompts.py). Plan: plans/healthcare-ai.md
+name: healthcare AI
+handle: healthcare-ai
+uuid: 19
+date: '2026-11-13'
+today: 13 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+# words of the reference market only. Patients, FDA, pharma, trials, therapy, cancer belong to healthcare AI too: they are not traces here
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and customer announcements (health systems, health plans, drugmakers), earnings calls and SEC or exchange filings, the FDA list of AI-enabled medical devices, CMS and ONC rules, peer-reviewed studies (JAMA, NEJM AI, Nature Medicine, npj Digital Medicine), surveys and buyer reports (KLAS, AMA, Peterson Health Technology Institute, Rock Health, Menlo Ventures, Bessemer), and reputable press (STAT, Fierce Healthcare, Modern Healthcare, Healthcare Dive, Endpoints News, Reuters, Bloomberg, Financial Times, The Information, Axios).
+# where the problem is felt (buyers of the definition): 4 segments, like the reference deck
+pain_segments: [Hospitals and health systems, Physician practices and clinics, Health insurers, Pharma and biotech]
+# types of solution = the 6 categories of the startups base (market_categories.csv), so the deck has one category set everywhere
+value_segments: [Clinical AI Tools, Diagnostic AI Software, Care Workflow AI, Revenue Cycle AI, Payer AI Platforms, Life Science AI]
+# the reference market had no data for these; healthcare AI does (prices, valuations, failures, success cases)
+reask: [ed012, ed013, ed190, ed201, ed207, ed208]
+# removed by Pierre on purpose in the reference deck
+pierre_dropped: [ed046, ed105p, ed220]
+# given by the live product page https://newmarketpitch.com/pages/healthcare-ai (same slide type as the deck twin).
+# The live page has no category donut (S03-02): ed047p is asked in the prompts and judged at Step 4 (our own estimate or dropped)
+live_twins: [ed039p, ed058, ed099p, ed142p, ed148p, ed168p, ed171p, ed209p, pp_s06]
+retarget:
+  iv_pipeline:
+    title: Where is healthcare AI actually in daily use today?
+    brief: 8 rows = 8 real rollouts at a named customer (a health system, a health plan or a drugmaker). Rows read "task at customer" + "VENDOR · PRODUCT" + stage (PILOT / ROLLOUT / SYSTEM-WIDE). Only what the customer or the vendor reported as live, with the number of clinicians, sites or members when public. Not a pilot announced and never confirmed.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between healthcare AI companies and large groups (buyouts, strategic investments, partnerships with EHR vendors, big tech, health systems, insurers or drugmakers), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to get an AI tool into a hospital?
+    brief: 5 steps from a working product to system-wide use (for example FDA clearance when the tool is a medical device, security and privacy review, integration with the patient record system such as Epic or Oracle Health, pilot with clinicians, system-wide contract and payment). Each step in plain words with who decides.
+  iv_safety:
+    title: How can AI put patients at risk?
+    brief: 5 safety risks, each "LABEL" + one sentence with a documented case or a measured figure (for example made-up facts in AI notes, tools that work less well for some patient groups, doctors trusting a wrong answer, patient data leaks, accuracy that drops after the tool goes live). Real studies, regulator notices or reported incidents only.
+extra:
+  ed061: 'For healthcare AI: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution), the same as in our database: {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: adoption of AI scribes (clinicians and health systems using them), revenue and growth of the leaders, valuations vs revenue, FDA-authorized AI devices per year, Medicare payment for AI tools, Epic, Oracle and Microsoft launching their own tools against startups, insurers vs hospitals using AI against each other (billing and denials), AI-designed drugs reaching human trials and their results, deals with big drugmakers, IPOs and their share prices, doctors and patients using general chatbots, measured time saved vs vendor claims, lawsuits and state laws on AI in care, layoffs or shutdowns.
+killers_brief: |
+  This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, fire sales, layoffs, customers or partners that walked away, products pulled, FDA warnings or recalls, lawsuits, failed trials of AI-designed drugs, valuations that fell. Scope: companies whose core product is AI for healthcare or life sciences, startups first.
+  - ed192 and ed195: 12 dated events in all, 2024 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY (MON).
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, lost a customer, product pulled, value fell, shut down or sold). Each cell is two short lines separated by | or empty. Give the website domain of each company.
+  - ed200 and ed201: why healthcare AI startups fail, and named cases with the main cause and the outcome.
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+market_title: Healthcare AI
+label: Healthcare AI
+keep_together: [healthcare AI]
+# bad / good examples shown in the prompts: written for this market, no default (tools/make_market_prompts.py refuses a spec without them)
+examples:
+  jargon_bad: Ambient LLM scribes with EHR write-back cut pajama time.
+  jargon_good: AI scribes listen to the visit and write the note into the patient record, so doctors finish less paperwork at night.
+  jargon_why: the reader is not a clinician
+  proof_rule: 'A pilot, a press release or a vendor claim is not adoption: say how many clinicians, sites or patients actually use the tool, and who measured the result.'
+  proof_bad: Vendor X saves every doctor two hours a day.
+  proof_good: Vendor X says its tool saves two hours a day, and a study at Health System Y measured 20 minutes.
+  proof_why: a vendor claim is not a measured result
+  fresh_bad: Company X had 150 health systems as customers in 2025
+  fresh_good: Company X reached $200M of yearly revenue in the third quarter of 2026, against $80M a year earlier
+  fresh_est: Company X should end 2026 near $250M of yearly revenue, against $100M in 2025
+  fresh_method: latest reported revenue pace and growth, analyst estimate as a cross-check
+  not_proof: a pilot or a vendor claim is not adoption

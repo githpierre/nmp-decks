@@ -45,3 +45,17 @@ killers_brief: |
 market_title: Humanoid Robotics
 label: Humanoid robotics
 keep_together: [humanoid robotics, humanoid robots]
+# bad / good examples shown in the prompts: written for this market, no default (tools/make_market_prompts.py refuses a spec without them)
+examples:
+  jargon_bad: VLA policies with sim2real transfer cut deployment TCO.
+  jargon_good: Robot brains trained in simulation now need less work on site, so each robot costs less to set up.
+  jargon_why: the reader is not an engineer
+  proof_rule: 'A demo video or a CEO promise is not a deployment: say what was shown, and what is actually running at a customer.'
+  proof_bad: Tesla will build 1 million Optimus robots in 2026.
+  proof_good: Tesla said in 2026 it aims to build Optimus robots at scale, but has not reported external sales.
+  proof_why: a target is not a fact
+  fresh_bad: Maker X sold 5,215 robots in 2025
+  fresh_good: Maker X sold 921 robots in the first half of 2026, against 45 a year earlier
+  fresh_est: Maker X should sell about 12,000 robots in 2026, against 5,215 in 2025
+  fresh_method: first-half shipments doubled, analyst forecast as a cross-check
+  not_proof: a demo video or a production target is not a delivery

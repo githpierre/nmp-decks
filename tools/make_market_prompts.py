@@ -33,8 +33,19 @@ def structure(ref, spec):
     return ids
 
 
+EXKEYS = ['jargon_bad', 'jargon_good', 'jargon_why', 'proof_rule', 'proof_bad', 'proof_good', 'proof_why', 'fresh_bad', 'fresh_good', 'fresh_est', 'fresh_method', 'not_proof']
+
+
+def examples(spec):
+    """Bad / good examples of the prompts, written for THIS market in the spec (`examples:`). No default: a default would carry
+    another market's words into every prompt (13 Nov 2026: robot examples left in the tool when Healthcare AI started)."""
+    X = spec.get('examples') or {}; miss = [k for k in EXKEYS if not X.get(k)]
+    if miss: raise SystemExit(f'spec: examples missing {miss} (write them for this market, see plans/humanoid-robotics.yaml)')
+    return X
+
+
 def common(spec, fname, chapter):
-    m, ref = spec['name'], spec['model_name']
+    m, ref = spec['name'], spec['model_name']; X = examples(spec)
     return f"""You are a senior market analyst working for NewMarketPitch, which sells market reports to founders and investors.
 We are building the {m} market report (a deck of about 190 slides). Every slide uses a fixed design template.
 For each slide below we show you the content of the SAME slide in our {ref} report: it is the MODEL of the structure and of the tone only.
@@ -48,10 +59,10 @@ HOW TO ANSWER, FOR EVERY SLIDE
 1. Same structure as the model: same keys, same number of items, same order. Each text at most the length given in characters (and not much shorter), because it must fit a fixed box: a longer text breaks the slide. Count before you deliver.
    Keep the formatting marks of the model: a line break inside a text is written \\n, and {{1|text}} marks a run in a second style (for example a bold company name followed by normal text). Keep them where the model has them. Keys that hold a single emoji are icons: give one fitting emoji.
 2. Content is about {m} only, written for a smart reader who is not an expert: plain US English, short sentences, no jargon without a word of explanation, no em dash, no exclamation marks.
-   Bad: "VLA policies with sim2real transfer cut deployment TCO." Good: "Robot brains trained in simulation now need less work on site, so each robot costs less to set up." (the reader is not an engineer)
+   Bad: "{X['jargon_bad']}" Good: "{X['jargon_good']}" ({X['jargon_why']})
 3. Every figure, date, name and claim must be true and sourced. Prefer primary sources: {spec['sources_hint']} A database such as Crunchbase or PitchBook alone is never a source. Never use newmarketpitch.com. The url is the exact page that carries the quote, never a homepage (« https://www.sec.gov » proves nothing), and the quote is copied word for word from it.
-4. Recent facts first (2025-2026). A demo video or a CEO promise is not a deployment: say what was shown, and what is actually running at a customer.
-   Bad: "Tesla will build 1 million Optimus robots in 2026." Good: "Tesla said in 2026 it aims to build Optimus robots at scale, but has not reported external sales." (a target is not a fact)
+4. Recent facts first (2025-2026). {X['proof_rule']}
+   Bad: "{X['proof_bad']}" Good: "{X['proof_good']}" ({X['proof_why']})
 5. Money is written the way people say it: $285M, $4.2B, never $0.285B.
 6. If you cannot find solid facts for a slide, do NOT invent: return `status: no_data` with one line explaining what is missing. A slide that cannot be filled completely is removed, so never leave half the items empty.
 7. The `note` of each slide (the small text at the bottom) says where the data comes from, starting with "We", in one or two plain sentences. Never put a date like "as of" in it.
@@ -155,7 +166,7 @@ def write_signals(spec, out):
     for l in rows:
         c = [x.strip() for x in l.strip('|').split('|')]
         if c[0] not in DBF: fmts.append(f'- **{c[0]}**: {c[1]}. Data: {c[2]}. Usual chapters: {c[3]}. Keep only if: {c[4]}.')
-    m = spec['name']; fname = f"{spec['uuid']}-{spec['handle']}-deck-11-signals-results-research-{spec['date']}.md"
+    m = spec['name']; fname = f"{spec['uuid']}-{spec['handle']}-deck-11-signals-results-research-{spec['date']}.md"; X = examples(spec)
     txt = f"""You are a senior market analyst working for NewMarketPitch, which sells market reports to founders and investors.
 We are building the {m} market report. Today is {spec['today']}. Besides its fixed slides, a report gets 5 to 15 extra slides: each one shows ONE striking, sourced data point that tells something important about the market (it is hot, it is stuck, a leader is winning, money is moving…). Each one uses one of the visual formats below.
 
@@ -168,9 +179,9 @@ YOUR TASK
 3. For each kept candidate, research it fully in the same pass (all the data points the chart needs, each with its source), so that we can build the slide without any other research.
 4. Score each candidate from 1 to 5 on: surprise (would an informed investor learn something?), importance for the market, clarity in 3 seconds, durability (still true in 6 months). Rank them by total score. Aim for 12 to 20 candidates; we keep 6 to 15. Market opportunity needs 6 to 8 of them that show why the market is hot right now.
 5. Freshness of the "hot right now" candidates (today is {spec['date']}). A figure that shows momentum must be recent: a monthly figure at most 6 months old, a quarterly figure at most 3 quarters old, a half-year figure at most 12 months old, a yearly figure for the current year only (last year is accepted until April).
-   Bad: "Maker X sold 5,215 robots in 2025" written in November 2026 (a year old, the reader wonders what happened since).
-   Good: "Maker X sold 921 robots in the first half of 2026, against 45 a year earlier" (latest published period, same period a year before).
-   Good: "Maker X should sell about 12,000 robots in 2026, against 5,215 in 2025" with the method in the note (first-half shipments doubled, analyst forecast as a cross-check). When only last year's figure exists as a total, look for the latest quarterly or half-year filing and derive the current-year estimate yourself; say "should" and give the arithmetic.
+   Bad: "{X['fresh_bad']}" written in {spec['today'].split(' ', 1)[1]} (a year old, the reader wonders what happened since).
+   Good: "{X['fresh_good']}" (latest published period, same period a year before).
+   Good: "{X['fresh_est']}" with the method in the note ({X['fresh_method']}). When only last year's figure exists as a total, look for the latest quarterly or half-year filing and derive the current-year estimate yourself; say "should" and give the arithmetic.
    Add to each candidate `fresh: {{period: month|quarter|half|year|total, end: YYYY-MM}}` (total = a cumulative proof at a date, at most 12 months old).
 
 THE FORMATS
@@ -192,7 +203,7 @@ sources:
   - {{claim: ..., url: ..., date: ..., quote: <exact supporting sentence, under 25 words>}}
 ```
 
-RULES: plain US English, no em dash; primary sources first ({spec['sources_hint']}); a database such as Crunchbase or PitchBook alone is never a source; never use newmarketpitch.com; a demo video or a production target is not a delivery; one measure per chart; every number of the title must appear in the data; money written $285M, $4.2B; mark estimates as estimates.
+RULES: plain US English, no em dash; primary sources first ({spec['sources_hint']}); a database such as Crunchbase or PitchBook alone is never a source; never use newmarketpitch.com; {X['not_proof']}; one measure per chart; every number of the title must appear in the data; money written $285M, $4.2B; mark estimates as estimates.
 Before delivering, check every candidate against its "keep only if" condition and every number against its quote; drop what fails.
 
 OUTPUT: ONE downloadable Markdown file named exactly {fname} (not a chat message), candidates ranked by total score. Do not ask questions.

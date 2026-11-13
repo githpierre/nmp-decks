@@ -24,6 +24,9 @@ Speak French to Pierre. Each step ends with a gate: do not go to the next step u
 - Write `plans/<handle>.yaml` (copy `plans/humanoid-robotics.yaml`): name, segments, `reask` (slides the reference market had
   no data for), `pierre_dropped`, `live_twins` (deck slides the product page already gives, same type), `retarget` (slides
   specific to the reference market, given a new subject), `extra` (per-slide instructions).
+  `examples` (the bad / good examples shown in the prompts) are written for THIS market: the tool refuses a spec without them, so
+  no prompt carries another market's words. `model_words` lists only words the new market never uses (« patients » and « FDA »
+  are In Vivo words for a robot deck, not for a healthcare deck).
 - `python3 tools/make_market_prompts.py --spec plans/<handle>.yaml --out /home/claude/prompts_<handle>`: 12 TXT in one zip
   (10 chapters, 11 signals, 12 startup killers). Each slide shows its In Vivo version as the model.
   The prompts ask for: texts between 80 % and 100 % of each length, no semicolon, 8 rows on contrast slides, and for the
