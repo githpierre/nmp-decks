@@ -19,3 +19,9 @@
   2. Extra slides (Step 6) from research file 11. Tempus candidates (11, 13) are out: the live radar puts Tempus outside the market. Market opportunity SIGNAL candidates: 02 OpenEvidence users, 04 Insilico H1 revenue, 07 AMA 81%, 08 valuations, 09 pharma deal wave, plus ed039p trends and one from the base (2026 funding already above 2025). Others: 01 funnel, 03 FDA decisions, 06 Recursion loss per dollar, 10 retention, 12 queries per clinician, 14 multiple (Sacra estimate, weak). One review page for Pierre.
   3. Sources (sources_key.yaml, build_sources.py), full visual pass on sheets of 6, diff_slides --snap, review page of the whole deck, then the PDF.
 - Open points told to Pierre: live S09 amounts are older than the base (deck twin recomputed), Generate:Biomedicines is in Diagnostic AI Software in the base, Tempus is outside on the live radar but looks present on the live S10 grid, the $29B market size of the live page against Menlo's $1.4B of generative AI spend in 2025, missing logo Verily.
+
+## Update 13 Nov 2026, 23:50
+- Pierre's answers: trends on "ai in healthcare" (done, ed039p in live.yaml), live S09 replaced from the base and Tempus tile removed from live S10 (done: fileUpdate v=1794588069, 20 articles updated by Matrixify job 783187687, manifest and journal of nmp-product-pages), latest rounds of $10M or more (done, in make_db_slides.py).
+- Prompts now end with a self-check script (tools/selfcheck_template.txt). Skill update proposed to Pierre (card).
+- Still to do: items 1 to 3 of the list above (fit of slide 12, extras review page, sources, full visual pass, review page, PDF).
+- Seen on the live page texts (not changed): the S10 and S12 paragraphs name Tempus as a known player, and S06 shows slide 06-02 while the manifest lists 06-01 only.
