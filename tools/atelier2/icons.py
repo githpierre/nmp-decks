@@ -36,6 +36,7 @@ M = {  # emoji: (lucide, phosphor)
  '👐': ('hand', 'hand-palm'), '🦾': ('grab', 'hand-grabbing'), '📏': ('ruler', 'ruler'), '🦿': ('footprints', 'footprints'), '🛞': ('disc', 'tire'),
  '🚗': ('car', 'car'), '🧰': ('toolbox', 'toolbox'), '✋': ('hand', 'hand'), '🚶': ('footprints', 'person-simple-walk'),
  '🧑‍💻': ('laptop', 'laptop'), '🏗️': ('construction', 'crane'),
+ '🔌': ('plug', 'plug'), '🩻': ('scan', 'scan'), '🌏': ('globe', 'globe'), '🎙️': ('mic', 'microphone'), '🎙': ('mic', 'microphone'),
  '__default__': ('circle-dot', 'circle'),
 }
 def clean(s): return re.sub(r'<!--.*?-->', '', s).strip()

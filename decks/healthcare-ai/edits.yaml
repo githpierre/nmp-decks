@@ -1,0 +1,143 @@
+# Fit rewrites and our own estimates for Healthcare AI (same facts as the research unless said). Number keys are the text boxes of the slide.
+# Market size (ed045, ed051): the research returned no figure for our scope. We keep the estimate of the live product page ($29B in 2026,
+#   35% a year, slide S03, twin ed052p in live.yaml) so the deck and the page say the same thing, and we explain it (Pierre, 12 Nov).
+# ed048 dropped with ed047p: no revenue split by category can be defended (research: no data, no live donut).
+# ed173: company names are never padded to fill a box. Contrast notes (ed210-214): balanced on two lines.
+ed045:
+  keep: true
+  title: How much is healthcare AI worth today?
+  4: '2026'
+  6: $29B
+  8: We estimate $29 billion in 2026. Published totals run from $36.7 billion to $56 billion because they add robots, hardware and services. Software alone is 46% of Grand View's total, about $23 billion.
+ed051:
+  note: We center our scenario on four published forecasts for wider scopes, and take their low end for a ten-year period. The downside and upside cases are our own assumptions.
+  15: BEST CASE ≈ 45%
+  16: WORST CASE ≈ 25%
+  17: '≈35%
+
+    through 2036'
+  19: Published forecasts range from 35% to 44% for wider scopes and shorter periods. We use 35%, their low end, because growth slows as a market gets bigger over ten years.
+ed048:
+  drop: true
+ed097:
+  title: Which bold bets could reshape healthcare AI?
+ed173:
+  6: ABRIDGE
+  19: HIPPOCRATIC AI
+  20: VIZ.AI
+ed189:
+  22: Hippocratic AI took 2 years (2023 - 2025)
+ed025:
+  note:
+  - We selected public, dated events with clinical, regulatory or strategic weight across the six categories
+  - We report company deployment figures as claims unless an independent usage study backs them
+ed011:
+  20: 'Prior
+
+    Authorization'
+ed017:
+  note:
+  - We rate maturity with an internal score on adoption, clinical evidence, scale and buying breadth
+  - We set 67/100 as our own judgment, because broad use coexists with uneven proof of patient benefit
+ed023:
+  8: Now it also supports evidence search, visit notes and hospital billing
+  16: Now verified clinicians use it at scale for real care questions
+  20: Now the FDA lists more than 1,600 authorized AI-enabled devices
+  24: Now one health system has measured millions of AI-assisted visits
+ed049:
+  note:
+  - We use the 2025 regional shares of Fortune Business Insights as a proxy, since they cover a wider scope
+  - We round its five published shares to whole percentages and do not claim more precision than the source
+ed050:
+  6: 'Markets and
+
+    Markets'
+ed109-s5:
+  8: '💳
+
+    Health plan funds the AI review tools'
+iv_fda:
+  7: 'FDA CHECK
+
+
+    The vendor and the hospital legal team check whether the tool needs FDA authorization as a device.'
+  8: 'SECURITY REVIEW
+
+
+    Hospital security leaders review data access, vendor controls and patient privacy terms.'
+  9: 'RECORD LINK
+
+
+    IT teams test the link to Epic or Oracle Health and check that the tool fits daily work.'
+  11: 'CLINICIAN PILOT
+
+
+    Doctors and quality leaders test real notes, safety, time savings and user acceptance.'
+  10: 'FULL CONTRACT
+
+
+    Executives approve pricing and a system-wide rollout when pilot results justify it.'
+iv_safety:
+  7: 'BIASED RESULTS
+
+
+
+    A review found skin-lesion AI scored 0.82 out of 1 on darker skin versus 0.89 on lighter skin, a gap that risks unequal care.'
+  8: 'MISSED ALERTS
+
+
+
+    An independent study found that a widely used sepsis score missed 67% of the patients who went on to develop sepsis.'
+  9: 'OVERTRUST
+
+
+
+    In a trial, doctors who were given false AI advice averaged 73.3% diagnostic accuracy, versus 84.9% for doctors without it.'
+ed149:
+  20: Randomized trials now test real clinical gains
+  21: Small pilots presented as proof of large scale
+ed153:
+  11: '🤝
+
+    Each hospital partnership opens more teams to AI workflows'
+ed183:
+  regions:
+    na:
+      name: NORTH AMERICA
+      text: The US hosts Abridge, OpenEvidence, Hippocratic AI and Ambience, alongside hospital AI developers in imaging and billing.
+    eu:
+      name: EUROPE
+      text: Europe has Corti in Denmark, which builds clinical-grade AI for healthcare workflows and regulated care systems.
+    apac:
+      name: INDIA
+      text: India is led by Qure.ai, whose imaging AI supports public lung screening.
+    au:
+      name: AUSTRALIA
+      text: Australia produced Harrison.ai for clinical imaging and Heidi for AI notes, with Heidi now reporting global use.
+ed210:
+  note: &id001
+  - We used company releases and customer disclosures to describe each named platform
+  - We treated “a regular startup” as a fictional baseline, shown here only for contrast
+ed211:
+  note: *id001
+ed212:
+  note: *id001
+  __replace__:
+    They launch bots without clinical risk checks: They launch chatbots without any clinical risk checks first
+ed213:
+  note: *id001
+  __replace__:
+    Ambience supports over 100 medical specialties: Ambience supports more than 100 medical specialties
+ed214:
+  note: *id001
+  __replace__:
+    They treat billing as a generic accounting task: They treat medical billing as a generic accounting task
+ed061:
+  note: We group buyers into four segments, because their daily work, budgets and rules differ
+iv_pipeline:
+  37: AMBIENCE · AI SCRIBE
+  22: ABRIDGE · AI SCRIBE
+  18: AKASA · CODING
+  10: SUKI · ASSISTANT
+  6: CODAMETRIX · CODING
+  2: HIPPOCRATIC AI · VOICE AGENT

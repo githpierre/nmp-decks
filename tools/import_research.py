@@ -272,6 +272,9 @@ def main():
     demo = yaml.safe_load((ROOT / a.demo / 'deck.yaml').read_text())
     pains, vals = a.pain.split(';'), a.value.split(';')
     S, rep, sources = [], [], {}
+    KEEP = set()                                 # slides whose content comes from live.yaml (twin of the live page) or edits.yaml (`keep: true`, our own estimate): never dropped as no_data
+    for f_ in ('live.yaml', 'edits.yaml'):
+        if (out / f_).exists(): KEEP |= {k for k, v in (yaml.safe_load((out / f_).read_text()) or {}).items() if f_ == 'live.yaml' or (isinstance(v, dict) and v.get('keep'))}
     blocks = {62: (['ed062', 'ed063', 'ed064', 'ed065'], pains, range(62, 74)), 106: (['ed106', 'ed107', 'ed108', 'ed109'], vals, range(106, 123))}
     done = set()
     for s in demo['slides']:
@@ -307,11 +310,20 @@ def main():
             S.append(x); continue
         model = REF.get(sid) or s
         rep.append((sid, check(sid, model, ans)))
-        if ans.get('status') != 'ok' and a.drop_no_data: rep.append((sid, ['dropped: no data'])); continue   # Pierre, 12 Nov: slides without solid data are removed
-        x = merge(s, ans) if ans.get('status') == 'ok' else dict(copy.deepcopy(s), tag='NO DATA')
+        if ans.get('status') != 'ok' and a.drop_no_data and sid not in KEEP: rep.append((sid, ['dropped: no data'])); continue   # Pierre, 12 Nov: slides without solid data are removed
+        x = merge(s, ans) if ans.get('status') == 'ok' else dict(copy.deepcopy(s), **({} if sid in KEEP else {'tag': 'NO DATA'}))   # kept without data only when live.yaml or edits.yaml (`keep: true`) gives the content
         sources[sid] = ans.get('sources') or []
         S.append(x)
+    for x in S:                                  # a market with N categories answers ed018 with a `categories:` list: the slide takes the N-item template at once,
+        if x.get('categories') and x.get('type') == 'x/categorize_companies_market':      # so the 4 model slots (and their words) never stay under it (13 Nov 2026)
+            x['categorization'] = (x.get('t') or {}).get(25) or (x.get('t') or {}).get('25') or ''; x['type'] = 'sx_categories_n'; x.pop('t', None)
+            x['categories'] = [dict(label=c.get('label'), description=c.get('description'), emoji=c.get('emoji') or c.get('e')) for c in x['categories']]
     ed = out / 'edits.yaml'                      # Claude's fit rewrites (texts too long for their box), kept across re-imports
+    def _talk():                                 # a note that talks about the prompt (« the four specified groups », « original short-card label limits ») is not for the reader (13 Nov 2026)
+        for x in S:
+            n = ' '.join(x['note']) if isinstance(x.get('note'), list) else str(x.get('note') or '')
+            m = re.search(r'\b(template|specified|short-card|label limits?|the model (has|slide)|slots?|verbatim|placeholder)\b', n, re.I)
+            if m: print('PROMPT TALK', x['id'], '«', m.group(0), '»', n[:90])
     dbf = out / 'db.yaml'                        # slides built from our startups database (nmp-seo), applied first, then the edits
     for f in (out / 'edits.yaml', out / 'live.yaml', out / 'db_text.yaml'):      # a key written twice silently drops the first block (12 Nov 2026: ed018 lost its categories)
         if f.exists():
@@ -409,6 +421,7 @@ def main():
         if isinstance(v, list): return [_semi(b, k) for b in v]
         return v
     S = [_semi(x) for x in S]
+    _talk()
     cv = out / 'cover.yaml'                      # cover layout copied from Pierre's cover slide (tools/cover_from_slides.py)
     if cv.exists() and S and S[0].get('type') == 'cover':
         import shutil

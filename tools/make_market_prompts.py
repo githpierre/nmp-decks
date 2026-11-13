@@ -58,6 +58,8 @@ Categories of companies used in our database: {spec['categories']}
 HOW TO ANSWER, FOR EVERY SLIDE
 1. Same structure as the model: same keys, same number of items, same order. Each text at most the length given in characters (and not much shorter), because it must fit a fixed box: a longer text breaks the slide. Count before you deliver.
    Keep the formatting marks of the model: a line break inside a text is written \\n, and {{1|text}} marks a run in a second style (for example a bold company name followed by normal text). Keep them where the model has them. Keys that hold a single emoji are icons: give one fitting emoji.
+   The length rule is for sentences. A name (company, product, person, acronym) is written as it is, never padded or cut to reach a length.
+   Bad: \"ABRIDGE AI NOTES\", \"Aidoc AI\" (words added to a company name). Good: \"ABRIDGE\", \"Aidoc\".
 2. Content is about {m} only, written for a smart reader who is not an expert: plain US English, short sentences, no jargon without a word of explanation, no em dash, no exclamation marks.
    Bad: "{X['jargon_bad']}" Good: "{X['jargon_good']}" ({X['jargon_why']})
 3. Every figure, date, name and claim must be true and sourced. Prefer primary sources: {spec['sources_hint']} A database such as Crunchbase or PitchBook alone is never a source. Never use newmarketpitch.com. The url is the exact page that carries the quote, never a homepage (« https://www.sec.gov » proves nothing), and the quote is copied word for word from it.
@@ -65,7 +67,7 @@ HOW TO ANSWER, FOR EVERY SLIDE
    Bad: "{X['proof_bad']}" Good: "{X['proof_good']}" ({X['proof_why']})
 5. Money is written the way people say it: $285M, $4.2B, never $0.285B.
 6. If you cannot find solid facts for a slide, do NOT invent: return `status: no_data` with one line explaining what is missing. A slide that cannot be filled completely is removed, so never leave half the items empty.
-7. The `note` of each slide (the small text at the bottom) says where the data comes from, starting with "We", in one or two plain sentences. Never put a date like "as of" in it.
+7. The `note` of each slide (the small text at the bottom) says where the data comes from, starting with "We", in one or two plain sentences. Never put a date like "as of" in it. The note speaks to the reader of the report: never mention this prompt, the model slide, the segments you were given or the length limits.
 8. Where the model shows <logo> or logos_on_slide, the slide shows company logos: give the company names and their website domains in a `logos:` list, we add the logos ourselves. Company names are never shortened.
 9. Titles stay the same as the model, with the market name changed, unless the model title is a fact (then write the {m} fact). Titles are questions people would ask, not analyst wording.
 
