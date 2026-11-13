@@ -32,3 +32,11 @@ About one hour of Claude's work per market, several times fewer tokens, almost n
 5. Remaining fixed-drawing templates: list them (x/sig_*, x/* with charts) and convert or drop.
 6. Pending for delivered decks: Humanoid Robotics and In Vivo CAR-T research-text rows (dated timelines, myths, truths)
    to bring to the new lengths.
+
+## Status (14 Nov 2026, 03:40)
+Done: 1 (specs/slides.yaml from the validated decks, not measured in the browser: rawfit and fixlib change the boxes),
+2 (prompts print MIN-MAX, self-check uses it), 3 (TEXT LENGTH gate), 4 (evergreen chapters out of the zip, briefs in
+decks/<handle>/evergreen/, tools/check_results.py), 5 (no other converted chart with a fixed drawing in use: x/sig_* and
+fast_startups_growing are guarded by FIXED CHART), 6 (Humanoid and In Vivo texts in range, lengths.yaml).
+Also: PDF printed in ranges of 50 pages (Chromium failed on the whole deck).
+Next market: first one made end to end with this method; measure Claude's time and tokens and tell Pierre.

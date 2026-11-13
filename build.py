@@ -232,7 +232,13 @@ def build(slug, png=False, only=None):
         pg.emulate_media(media='print')
         if not only:   # under-layer only carries text and links (the screen render goes on top): no images, no shadows -> small file
             pg.add_style_tag(content='img,image{visibility:hidden!important}*{text-shadow:none!important;box-shadow:none!important;filter:none!important;background-image:none!important}')
-        pg.pdf(path=str(out / name), width='10in', height='7in', print_background=True, prefer_css_page_size=True)
+        # printed in ranges of 50 pages then joined (14 Nov 2026: Chromium « Printing failed » on the whole 200-slide deck, each half printed fine)
+        import io as _io2
+        from pypdf import PdfReader as _R, PdfWriter as _W
+        _w = _W(); _n = len(deck['slides'])
+        for _a in range(1, _n + 1, 50):
+            for _pg in _R(_io2.BytesIO(pg.pdf(width='10in', height='7in', print_background=True, prefer_css_page_size=True, page_ranges=f'{_a}-{min(_n, _a + 49)}'))).pages: _w.add_page(_pg)
+        _w.write(str(out / name))
         # 12 Nov 2026: blurred shadows (titles, tiles, cards) print as dark boxes in Preview/Acrobat, and print layout can differ from screen.
         # Each PDF page gets the exact screen render on top (2x JPEG); the vector page stays below, so text stays selectable and links clickable.
         if not only:

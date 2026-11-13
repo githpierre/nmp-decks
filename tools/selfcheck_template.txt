@@ -7,17 +7,30 @@ import re, json, yaml
 LIMITS = json.loads(r'''__LIMITS__''')
 md = open("__FNAME__", encoding="utf-8").read(); n = 0
 F = chr(96) * 3
+SKIP = {"id", "type", "section", "title", "note", "src", "logo", "url", "page", "sources", "logos", "status", "comment"}
+def leaves(x, path=""):
+    if isinstance(x, dict):
+        for k, v in x.items():
+            if k not in SKIP: yield from leaves(v, (path + "." if path else "") + str(k))
+    elif isinstance(x, list):
+        for v in x: yield from leaves(v, path + ".*")
+    elif isinstance(x, str): yield path, x
+plain = lambda v: re.sub(r"\s+", " ", re.sub(r"\{\d\|([^}]*)\}", r"\1", v)).strip()
 for sid, body in re.findall(r"### (\S+)\s+" + F + r"yaml\n(.*?)" + F, md, re.S):
     d = yaml.safe_load(body) or {}
     if d.get("status") != "ok": continue
     flat = json.dumps(d, ensure_ascii=False)
-    for bad, why in ((chr(8212), "em dash"), ("; ", "semicolon: write two sentences")):
+    for bad, why in ((chr(8212), "em dash"), (chr(8211), "en dash"), ("; ", "semicolon: write two sentences")):
         if bad in flat.replace("&amp; ", ""): print(sid, "|", why); n += 1
-    for k, v in (d.get("t") or {}).items():
-        lim = (LIMITS.get(sid.split("-s")[0]) or {}).get(str(k))
-        if not lim or not isinstance(v, str): continue
-        L = len(re.sub(r"\{\d\|([^}]*)\}", r"\1", v))
-        if L > lim: print(sid, k, "| too long:", L, "for", lim, "|", v[:60]); n += 1
-        elif lim >= 40 and L < 0.8 * lim: print(sid, k, "| too short:", L, "for", lim, "(add one concrete fact) |", v[:60]); n += 1
+    for m in re.findall(r"\$\d+\.\d{2,}[BMK]|\$\d{2,}\.\d[B]|\$\d+\.0[BMK]|\d+\.\d{2,}%", flat): print(sid, "| amount format:", m, "(write $56B, $2.1B, $1B, 39.7%)"); n += 1
+    L = LIMITS.get(sid) or LIMITS.get(re.sub(r"-s\d+$", "", sid)) or {}
+    for p, v in leaves(d):
+        k = p[2:] if p.startswith("t.") else p
+        e = L.get(k)
+        if not e or re.fullmatch(r"\s*[^\w\s]{1,4}\s*", v): continue
+        t = plain(v); n0 = n
+        if len(t) > e["max"]: print(sid, k, "| too long:", len(t), "for max", e["max"], "|", t[:60]); n += 1
+        elif e.get("min") and len(t) < e["min"]: print(sid, k, "| too short:", len(t), "for min", e["min"], "(add one concrete fact) |", t[:60]); n += 1
+        if e.get("words") and len(t.split()) != e["words"]: print(sid, k, "| must have exactly", e["words"], "words |", t[:40]); n += 1
 print(n, "problems")
 ```

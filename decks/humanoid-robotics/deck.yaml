@@ -163,8 +163,8 @@ slides:
   title: What markets are often confused with humanoid robotics?
   src: 8
   t:
-    7: Humanoids combine legs or wheels, sensing and human-like arms in one robot for varied physical work
-    10: Industrial arms are fixed machines built for repeated motions inside a set workstation or guarded cell
+    7: Humanoids combine legs or wheels, sensing and human-like arms in one robot built for varied work in human spaces
+    10: Industrial arms are fixed machines built for repeated motions inside one set workstation or guarded cell on a factory floor
     11: Mobile robots move goods around sites, while humanoids add arms for tasks designed around human bodies
     12: INDUSTRIAL ARMS
     13: HUMANOID ROBOTS
@@ -363,11 +363,11 @@ slides:
     0: No serious buyer has moved beyond small experiments
     7: Digit is deployed in logistics, while NEO targets homes and Figure is testing both factory and household-style manipulation
     9: Humanoids are only for car factories
-    10: Unitree lists R1 from $4,900 and G1 from $13,500, while 1X lists NEO Early Access ownership at $20,000
+    10: Unitree lists R1 from $4,900 and G1 from $13,500, while 1X lists NEO Early Access ownership at $20,000 for a home humanoid
     12: Every useful humanoid costs hundreds of thousands
     13: Current deployments still focus on bounded tasks such as tote handling, sheet-metal loading and parts sequencing
     15: General-purpose autonomy is already solved
-    16: Agility reports $300M+ in committed multi-year Digit 5 orders, subject to contractual milestones
+    16: Agility reports more than $300M in committed multi-year Digit 5 orders, though they depend on contract milestones being met
     20: 🤥
     21: 🤥
     22: 🤥
@@ -535,7 +535,7 @@ slides:
   src: 23
   t:
     6: Humanoids used to be mainly impressive research demonstrations
-    8: Now some robots work recurring shifts in factories and warehouses
+    8: Now some robots work recurring paid shifts in car factories and warehouses
     10: Serious humanoids used to imply very high six-figure hardware
     12: Now complete developer humanoids start below $5,000 from Unitree
     14: Two legs used to define the commercial humanoid idea
@@ -569,17 +569,13 @@ slides:
   - There is no official timeline, and another analyst could reasonably pick a few different milestones
   src: 24
 - id: ed025
-  type: dated
-  section: Market definition
-  title: What has changed (very) recently?
-  page: 2/2
   items:
   - d: SINCE 2026
     t: Figure returned to BMW with Figure 03 and moved from sheet-metal loading toward parts sequencing, a workflow requiring perception, dexterity and movement together.
   - d: SINCE 2026
     t: Apptronik expanded its Series A to more than $935M, backed by Google, Mercedes-Benz, John Deere and others to scale Apollo production and deployment.
   - d: SINCE 2026
-    t: BMW advanced Hexagon’s AEON at Leipzig from testing toward production tasks in battery assembly and component manufacturing.
+    t: BMW moved Hexagon’s wheeled AEON humanoid at its Leipzig plant from testing toward real production tasks in high-voltage battery assembly and component manufacturing.
   - d: SINCE 2026
     t: Agility reported more than 65,000 real-world operating hours and expanded GXO deployments to two additional U.S. facilities planned for 2027.
   - d: SINCE 2026
@@ -589,7 +585,11 @@ slides:
   note:
   - We kept the milestones that most changed credibility, customer adoption, funding or the rules of the market
   - There is no official timeline, and another analyst could reasonably pick a few different milestones
+  page: 2/2
+  section: Market definition
   src: 25
+  title: What has changed (very) recently?
+  type: dated
 - id: ed026
   type: agenda
   section: Market opportunity
@@ -802,8 +802,8 @@ slides:
   - value: 90,000
     label: Sheet-metal parts loaded by Figure 02 robots over about ten months
   - value: 30,000
-    label: BMW X3 cars that these robots helped to build
-  why: This is a strong signal because it is one of the first humanoid fleets measured on a real production line, not in a lab or a video.
+    label: BMW X3 cars that these robots helped to build at the Spartanburg plant
+  why: This is a strong signal because it is one of the first humanoid fleets measured on a real production line over about ten months, not in a lab or a video.
   note: We used BMW Group’s report on the Figure 02 deployment at its Spartanburg plant, which ran until November 2025
   fresh:
     period: total
@@ -822,7 +822,7 @@ slides:
     label: Totes moved by Digit at the GXO warehouse in Flowery Branch, Georgia
   - value: 98%
     label: Share of tasks done right, as reported by Agility for its robots at GXO
-  why: This is a strong signal because customers pay for this work every month, and GXO is now adding two more US sites.
+  why: This is a strong signal because customers pay for this work every month, and GXO is now adding two more US sites, in Statesville and Lebanon, from early 2027.
   note: We used Agility Robotics’ Digit 5 announcement of September 15, 2026
   fresh:
     period: total
@@ -990,7 +990,7 @@ slides:
   t:
     4: '2026'
     6: $1.9B
-    8: We estimate $1.9 billion in 2026 from 54,000 shipments and SAG revenue data. Broader reports span $4.2B to $11B because many include software, components and services.
+    8: We estimate $1.9 billion in 2026 from 54,000 shipments and SAG revenue data. Broader reports span $4.2B to $11B because many of them include software, components and services.
 - id: ed047p
   type: pp_donutv
   section: Market size
@@ -1143,7 +1143,7 @@ slides:
     17: '≈40%
 
       through 2036'
-    19: Shipment growth is still extreme, but market forecasts cluster from 28% to 51%. We use 40% as a base case, with 30% downside and 50% upside.
+    19: Shipment growth is still extreme, but market forecasts cluster from 28% to 51%. We use 40% as our base case, with 30% as downside and 50% as upside.
 - id: ed052p
   type: pp_cagr
   section: Market size
@@ -2148,9 +2148,9 @@ slides:
     15: '2025'
     16: Figure 03 added tactile fingertips, palm cameras and wireless charging while redesigning hardware for mass manufacturing
     17: '2025'
-    18: Figure 02 completed daily BMW production work, moving 90,000+ parts across more than 1,250 operating hours
+    18: Figure 02 completed daily BMW production work, moving more than 90,000 parts across more than 1,250 operating hours
     19: '2025'
-    20: UBTECH launched Walker S2 with autonomous three-minute battery swaps for near-continuous industrial operation
+    20: UBTECH launched Walker S2 with autonomous three-minute battery swaps, so it can keep working near-continuously in factories
     21: '2026'
     22: Boston Dynamics launched production-ready Atlas with self-swapping batteries and enterprise workflow integration
     23: '2026'
@@ -2166,9 +2166,9 @@ slides:
     13: '2026'
     14: NVIDIA shipped Jetson Thor-based reference hardware pairing a Unitree humanoid with tactile five-finger hands and open software
     15: '2026'
-    16: BMW began a Leipzig pilot of Agile Robots' wheeled AEON for battery assembly and component manufacturing
+    16: BMW began a pilot at its Leipzig plant of the wheeled AEON humanoid for high-voltage battery assembly and component work
     17: '2026'
-    18: Boston Dynamics opened Hyundai's RMAC with Atlas training on real automotive parts sequencing workflows
+    18: Boston Dynamics opened Hyundai's RMAC center, where Atlas robots train on real automotive parts sequencing workflows
     19: '2026'
     20: Figure 03 returned to BMW for a harder sequencing workflow that combines cart pulling, walking and part manipulation
     21: '2026'
@@ -2387,7 +2387,7 @@ slides:
     8: Repetitive manufacturing validation inside Jabil factories
     10: APPTRONIK · APOLLO
     11: PILOT
-    12: Material handling at Schaeffler factories
+    12: Material handling and logistics at Schaeffler factories
     14: AGILITY · DIGIT
     15: PILOT
     16: Automotive parts sequencing training at Hyundai RMAC
@@ -2396,7 +2396,7 @@ slides:
     20: Battery assembly and component work at BMW Leipzig
     22: AGILE · AEON
     23: PILOT
-    24: Parts sequencing at BMW Spartanburg
+    24: Parts sequencing at BMW Spartanburg with Figure 03
     26: FIGURE · FIGURE 03
     27: PILOT
     34: Tote handling at GXO Flowery Branch warehouse
@@ -2501,13 +2501,13 @@ slides:
     11: SENSOR STACK
     12: Stable walking on flat floors is routine in vendors’ controlled demos
     13: LAB WALKING
-    14: Narrow pilots at one workstation are now the usual first step
+    14: Narrow pilots at one workstation are now the usual first step for buyers
     15: FIXED PILOTS
     16: Basic pick, carry and place moves are now expected, not special
     17: SIMPLE GRASPING
     18: A polished demo of one task no longer proves broad, lasting autonomy
     19: ONE-TASK DEMOS
-    20: A human-like body alone no longer sets a robot apart
+    20: A human-like body alone no longer sets a robot apart from rivals
     21: HUMAN SHAPE
     22: 📉
     23: 📉
@@ -3158,13 +3158,13 @@ slides:
       High cost is hard to justify without strong uptime'
     10: '🧠
 
-      New tasks still need training and supervision'
+      Each new task still needs training data and supervision'
     11: '🏭
 
       Plants must link robots to workflows and safety systems'
     12: '🔧
 
-      Reliability is still weak for round-the-clock work'
+      Reliability is still too weak for round-the-clock shifts'
     13: '📏
 
       Humanoid safety rules are still evolving'
@@ -3259,7 +3259,7 @@ slides:
 
 
 
-      A humanoid could cost $50K-$250K to build in 2023. Unitree now lists a complete G1 from $14K.'
+      A humanoid could cost $50K-$250K to build in 2023. Unitree now lists a complete G1 humanoid robot from $14K on its website.'
     7: 'ACTUATORS
 
 
@@ -3286,7 +3286,7 @@ slides:
   title: 'Unitree’s average humanoid price
 
     fell 36% in one year'
-  headline: What Unitree really earned per humanoid sold
+  headline: What Unitree really earned per humanoid it sold
   stats:
   - v: $36K
     l: Average revenue per humanoid in 2024, about RMB 260,000
@@ -3470,9 +3470,7 @@ slides:
     11: 'Factory evidence was limited to
 
       short demonstrations and videos'
-    13: 'BMW reported 1,250+ hours
-
-      and 90,000+ parts moved'
+    13: BMW reported 1,250+ hours and 90,000+ parts moved by Figure
     14: 'Humanoid prices were often quoted
 
       above $100K per robot'
@@ -3825,9 +3823,9 @@ slides:
     17: 2026 (JUL)
     18: Humanoid raised $152M in a Series A led by Prime Movers Lab, reaching a reported $1.4B post-money value {1|Humanoid}
     19: 2026 (JUN)
-    20: Agility agreed to go public through Churchill Capital XI at a $2.5B equity value, with $620M+ of cash {1|Agility}
+    20: Agility agreed to go public through Churchill Capital XI at a $2.5B equity value, with more than $620M of expected cash {1|Agility}
     21: 2026 (FEB)
-    22: Apptronik raised a $520M Series A extension, taking its Series A above $935M and total funding near $1B {1|Apptronik}
+    22: Apptronik raised a $520M Series A extension, taking its Series A above $935M and its total funding to nearly $1B {1|Apptronik}
     23: 2025 (SEP)
     24: Figure raised more than $1B in Series C financing at a $39B post-money valuation to scale its humanoid platform {1|Figure AI}
 - id: ed158
@@ -3904,7 +3902,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 301 rounds raised $16B. Chinese startups close three rounds in four, while Figure and Apptronik raise the biggest checks.'
+      Since 2024, 301 rounds raised $16B. Chinese startups close three rounds in four, while US leaders Figure and Apptronik raise the biggest checks.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -4008,9 +4006,9 @@ slides:
       RAISED ($)'
     15: $3.2B
     16: $2.9B
-    17: Figure AI, XPENG Robotics, TARS Robotics, Galbot
+    17: Figure AI, XPENG Robotics, TARS Robotics, Galbot, Galaxea AI
     18: EXAMPLES OF STARTUPS
-    19: Rhoda AI, Spirit AI, X Square Robot, GigaAI
+    19: Rhoda AI, Spirit AI, X Square Robot, GigaAI, RoboScience
     20: Apptronik, Agile Robots, Walden Robotics, YOUIBOT
     24: SINCE 2024
 - id: ed168p
@@ -4390,13 +4388,13 @@ slides:
     12: 2026 (OCT)
     13: Agility and GXO said Digit deployments will expand to two additional U.S. logistics sites beginning in early 2027 {1|Agility}
     14: 2026 (OCT)
-    15: Unitree unveiled H2-X, extending its full-size humanoid line after its August STAR Market listing {1|Unitree}
+    15: Unitree unveiled H2-X in October, extending its full-size humanoid line two months after its August STAR Market listing {1|Unitree}
     16: 2026 (SEP)
     17: Figure retired most of its Figure 02 fleet after shifting current BMW work to the newer Figure 03 platform {1|Figure AI}
     18: 2026 (AUG)
-    19: Unitree completed its Shanghai STAR Market IPO, raising about $905M at roughly a $9B offer valuation {1|Unitree}
+    19: Unitree completed its Shanghai STAR Market IPO, raising about $905M at roughly a $9B offer valuation in August {1|Unitree}
     20: 2026 (JUL)
-    21: Humanoid raised $152M in Series A funding at a reported $1.4B post-money valuation to scale HMND 01 {1|Humanoid}
+    21: Humanoid raised $152M in Series A funding at a reported $1.4B post-money valuation to scale its HMND 01 robot {1|Humanoid}
     22: 2026 (JUN)
     23: Figure 03 arrived at BMW Spartanburg for a new logistics sequencing workflow after earlier factory work {1|Figure AI}
 - id: ed177
@@ -4414,7 +4412,7 @@ slides:
     17: 2026 (APR)
     18: Figure said BotQ had produced more than 350 Figure 03 units and raised output from one robot a day to one per hour {1|Figure AI}
     19: 2026 (MAR)
-    20: Galbot raised RMB 2.5B, adding fresh capital for its industrial and commercial embodied-robot platforms {1|Galbot}
+    20: Galbot raised RMB 2.5B in March 2026, adding fresh capital for its industrial and commercial embodied-robot platforms {1|Galbot}
     21: 2026 (FEB)
     22: Toyota Motor Manufacturing Canada signed a commercial agreement to deploy Digit after a successful pilot {1|Agility}
     23: 2026 (FEB)
@@ -4947,15 +4945,15 @@ slides:
     12: 2025 (SEP)
     13: Figure raised more than $1 billion in Series C funding at a $39 billion post-money valuation to scale humanoid production {1|Figure}
     14: 2026 (FEB)
-    15: Apptronik added $520 million, taking its Series A above $935 million to scale Apollo production {1|Apptronik}
+    15: Apptronik added $520 million, taking its Series A above $935 million to scale production of its Apollo humanoid {1|Apptronik}
     16: 2026 (MAR)
-    17: Galbot raised about $350 million in a Series D+ round backed by major Chinese state and strategic funds {1|Galbot}
+    17: Galbot raised about $350 million in March 2026 in a round backed by major Chinese state and strategic funds {1|Galbot}
     18: 2026 (JUN)
-    19: NEURA Robotics announced up to $1.4 billion in Series C funding to scale its physical-AI platform {1|NEURA Robotics}
+    19: NEURA Robotics announced up to $1.4 billion in Series C funding to scale its physical-AI platform and its robots {1|NEURA Robotics}
     20: 2026 (JUN)
-    21: Agility agreed to go public in a deal expected to provide more than $620 million of gross proceeds {1|Agility Robotics}
+    21: Agility agreed to go public in a deal expected to provide more than $620 million of gross proceeds to grow Digit {1|Agility Robotics}
     22: 2026 (AUG)
-    23: Unitree priced its Shanghai IPO to raise about $904 million as China’s first listed humanoid maker {1|Unitree}
+    23: Unitree priced its Shanghai IPO to raise about $904 million, becoming the first listed humanoid maker in China {1|Unitree}
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
@@ -5170,7 +5168,7 @@ slides:
     - Figure 02 logged more than 1,250 working hours at BMW
   - - They build their prototypes by hand, one unit at a time
     - BotQ took Figure 03 output from one a day to one an hour
-  - - They wait years before manufacturing at volume
+  - - They wait for years before manufacturing at volume
     - Figure delivered over 350 Figure 03 robots by April 2026
   - - They depend on one narrow, repeated factory movement
     - Figure 03 moved from sheet loading to parts sequencing

@@ -14,7 +14,8 @@ Files: 10 chapters + 11 signals + 12 startup killers (setbacks), one zip, no REA
 """
 import argparse, csv, re, zipfile, yaml
 from pathlib import Path
-import make_research_prompts as base   # example(), ylen(), SIGNALS screening text
+import make_research_prompts as base
+import spec                            # text ranges and format rules of every template (specs/slides.yaml)   # example(), ylen(), SIGNALS screening text
 ROOT = Path(__file__).resolve().parent.parent
 EDT = {s['id']: s for s in yaml.safe_load((ROOT / 'decks/edtech-full/deck.yaml').read_text())['slides']}
 DEMO = [s['id'] for s in yaml.safe_load((ROOT / 'decks/invivo-demo/deck.yaml').read_text())['slides']]
@@ -56,7 +57,7 @@ MARKET DEFINITION (it decides what is in or out):
 Categories of companies used in our database: {spec['categories']}
 
 HOW TO ANSWER, FOR EVERY SLIDE
-1. Same structure as the model: same keys, same number of items, same order. Each text at most the length given in characters (and not much shorter), because it must fit a fixed box: a longer text breaks the slide. Count before you deliver.
+1. Same structure as the model: same keys, same number of items, same order. Each text stays between the MIN and MAX characters given under its slide (measured on our validated slides): longer breaks the slide, shorter leaves the box half empty. The self-check script at the end counts them for you.
    Keep the formatting marks of the model: a line break inside a text is written \\n, and {{1|text}} marks a run in a second style (for example a bold company name followed by normal text). Keep them where the model has them. Keys that hold a single emoji are icons: give one fitting emoji.
    The length rule is for sentences. A name (company, product, person, acronym) is written as it is, never padded or cut to reach a length.
    Bad: \"ABRIDGE AI NOTES\", \"Aidoc AI\" (words added to a company name). Good: \"ABRIDGE\", \"Aidoc\".
@@ -65,7 +66,8 @@ HOW TO ANSWER, FOR EVERY SLIDE
 3. Every figure, date, name and claim must be true and sourced. Prefer primary sources: {spec['sources_hint']} A database such as Crunchbase or PitchBook alone is never a source. Never use newmarketpitch.com. The url is the exact page that carries the quote, never a homepage (« https://www.sec.gov » proves nothing), and the quote is copied word for word from it.
 4. Recent facts first (2025-2026). {X['proof_rule']}
    Bad: "{X['proof_bad']}" Good: "{X['proof_good']}" ({X['proof_why']})
-5. Money is written the way people say it: $285M, $4.2B, never $0.285B.
+5. Money is written the way people say it: $285M, $4.2B, never $0.285B. $10B or more without decimal ($56B, never $56.01B), under $10B one decimal at most ($2.1B, and $1B never $1.0B). A share keeps one decimal at most (39.7%).
+   A key marked CAPS is written in capitals. A key marked WORDS n has exactly n words (the three circles: two words, one per line, written WORD\\nWORD).
 6. If you cannot find solid facts for a slide, do NOT invent: return `status: no_data` with one line explaining what is missing. A slide that cannot be filled completely is removed, so never leave half the items empty.
 7. The `note` of each slide (the small text at the bottom) says where the data comes from, starting with "We", in one or two plain sentences. Never put a date like "as of" in it. The note speaks to the reader of the report: never mention this prompt, the model slide, the segments you were given or the length limits.
 8. Where the model shows <logo> or logos_on_slide, the slide shows company logos: give the company names and their website domains in a `logos:` list, we add the logos ourselves. Company names are never shortened.
@@ -107,9 +109,9 @@ def selfcheck(fname):
 
 
 def block(sid, model, src, extra=''):
-    e = base.example(model); L = base.ylen(e); LIMS[sid] = L
+    e = base.example(model); LIMS[sid] = spec.limits(model); L = None   # ranges from specs/slides.yaml (method v2, 14 Nov 2026), no longer the length of the model text
     t = f"### {sid}\n{src} model (structure only):\n```yaml\n{yaml.dump(e, allow_unicode=True, sort_keys=False, width=200)}```\n"
-    if L: t += 'Length in characters per key, between 80% and 100% of: ' + ', '.join(f'{k}: {v}' for k, v in L.items()) + ' (a text much shorter leaves its box half empty: add one concrete fact rather than filler words)\n'
+    t += spec.describe(model)
     if extra: t += extra.strip() + '\n'
     return t + '\n'
 
@@ -124,6 +126,7 @@ def main():
     ids = structure(ref, spec)
     skip = set(spec.get('pierre_dropped', [])) | set(spec.get('live_twins', [])) | DB_IDS
     pains, vals = spec['pain_segments'], spec['value_segments']
+    EVERGREEN = set(spec.get('evergreen_chapters', ['01', '04', '06']))   # market definition, pain points, value creation: Claude writes them, the research LLM only gets dated facts
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True); files, asked = [], []
     RT = spec.get('retarget', {}); EX = {k: v.format(pains='; '.join(pains), vals='; '.join(vals), np=len(pains), nv=len(vals)) for k, v in spec.get('extra', {}).items()}
 
@@ -163,10 +166,14 @@ def main():
                 m_ = dict(m_, title=RT[sid]['title']); extra = ('THIS SLIDE IS RE-TARGETED for this market (same template, new subject): ' + RT[sid]['brief'] + '\n' + extra)
             body += block(sid, m_, src, extra); n += 1; asked.append(sid)
         body += selfcheck(fname)
-        p = out / f"{spec['uuid']}-{spec['handle']}-deck-{part}.txt"; p.write_text(body); files.append(p)
+        p = out / f"{spec['uuid']}-{spec['handle']}-deck-{part}.txt"; p.write_text(body)
+        if part[:2] in EVERGREEN:               # evergreen chapter: Claude writes it from this same brief, in the same result format (method v2, 14 Nov 2026)
+            ev = ROOT / 'decks' / spec['handle'] / 'evergreen'; ev.mkdir(parents=True, exist_ok=True); (ev / p.name).write_text(body); p.unlink()
+            print(f'{p.name}: {n} slides -> written by Claude (decks/{spec["handle"]}/evergreen/), not in the zip'); continue
+        files.append(p)
         print(f'{p.name}: {n} slides, {len(body)} chars')
     # signals: same screening as the reference market, market text swapped
-    files.insert(10, write_signals(spec, out))
+    files.append(write_signals(spec, out))
     z = out / f"{spec['uuid']}-{spec['handle']}-deck-research-prompts-{spec['date']}.zip"
     with zipfile.ZipFile(z, 'w', zipfile.ZIP_DEFLATED) as zf:
         for f in files: zf.write(f, f.name)

@@ -87,3 +87,10 @@ Speak French to Pierre. Each step ends with a gate: do not go to the next step u
 - The layout follows the data: N items need a template that takes N; texts have a minimum length as well as a maximum.
 - A rule enters RULES.md only if Pierre said it or the reference deck shows it (an invented « notes start with We » rule
   contradicted the reference and was removed).
+
+## Method v2 (14 Nov 2026), replaces the corresponding parts above
+- Step 2: `python3 tools/make_market_prompts.py --spec plans/<handle>.yaml --out <dir>` puts chapters 01, 04 and 06 in decks/<handle>/evergreen/
+  for Claude to write, and the other chapters in the zip. Every slide shows its MIN-MAX per key.
+- Step 4: Claude writes the evergreen results in decks/<handle>/research/ (same format), runs tools/check_results.py on every result file,
+  imports, and the gate includes TEXT LENGTH at 0.
+- After a deck is validated: `python3 tools/make_spec.py` so the spec learns from it.

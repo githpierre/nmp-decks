@@ -10,6 +10,7 @@
   sources kept in <out>/sources.yaml. Slides still without real content keep a yellow tag saying why (DEMO DATA, DATABASE, NO DATA)."""
 import argparse, copy, glob, json, re, yaml
 from pathlib import Path
+import sys as _sys; _sys.path.insert(0, str(Path(__file__).resolve().parent))   # tools/ (run with -I)
 ROOT = Path(__file__).resolve().parent.parent
 REF = {s['id']: s for s in yaml.safe_load((ROOT / 'decks/edtech-full/deck.yaml').read_text())['slides']}
 
@@ -345,12 +346,12 @@ def main():
             m = re.search(r'\b(template|specified|short-card|label limits?|the model (has|slide)|slots?|verbatim|placeholder)\b', n, re.I)
             if m: print('PROMPT TALK', x['id'], '«', m.group(0), '»', n[:90])
     dbf = out / 'db.yaml'                        # slides built from our startups database (nmp-seo), applied first, then the edits
-    for f in (out / 'edits.yaml', out / 'live.yaml', out / 'db_text.yaml'):      # a key written twice silently drops the first block (12 Nov 2026: ed018 lost its categories)
+    for f in (out / 'edits.yaml', out / 'live.yaml', out / 'db_text.yaml', out / 'lengths.yaml'):      # a key written twice silently drops the first block (12 Nov 2026: ed018 lost its categories)
         if f.exists():
             ks = re.findall(r'(?m)^([A-Za-z0-9_-]+):', f.read_text()); d = {k for k in ks if ks.count(k) > 1}
             if d: raise SystemExit(f'DUPLICATE KEY in {f.name}: {sorted(d)}')
     E = {}
-    for f in (dbf, ed):
+    for f in (dbf, ed, out / 'lengths.yaml'):   # lengths.yaml: texts brought into their spec range (method v2), applied last; its replacements are `__replace2__`
         if f.exists():
             for k, v in (yaml.safe_load(f.read_text()) or {}).items(): E.setdefault(k, {}).update(v)
     DB_DONE = set(yaml.safe_load(dbf.read_text()) or {}) if dbf.exists() else set()
@@ -358,7 +359,7 @@ def main():
         for x in S:
             for k, v in (E.get(x['id']) or {}).items():
                 if v is None: x.pop(k, None); continue   # null in edits.yaml removes the field (a demo tag…)
-                if k == '__replace__':
+                if k in ('__replace__', '__replace2__'):
                     y = yaml.dump(x, allow_unicode=True, width=10000)
                     for a_, b_ in v.items(): y = y.replace(a_, b_)
                     x.clear(); x.update(yaml.safe_load(y)); continue
@@ -520,6 +521,20 @@ def main():
             for k in range(8, 24, 2):
                 if isinstance(t.get(k), str) and len(t[k]) < 30: t[k] = t[k].upper()
     S[:] = [tidy_all(x) for x in S]
+    _DBIDS = set(yaml.safe_load((out / 'db.yaml').read_text()) or {}) if (out / 'db.yaml').exists() else set()
+    import spec as _spec          # method v2 (14 Nov 2026): every text against its range in specs/slides.yaml. Capitals are applied, lengths are reported
+    for x in S:
+        E = _spec.SPEC.get(_spec.tpl(x)) or {}
+        if isinstance(x.get('t'), dict):
+            for k, v in list(x['t'].items()):
+                if (E.get(str(k)) or {}).get('caps') and isinstance(v, str): x['t'][k] = re.sub(r'(?<!\{)\b([a-z])', lambda m: m.group(1).upper(), v) if '{' in v else v.upper()
+        if isinstance(x.get('t'), dict):           # an icon on its own line in the sibling boxes stays on its own line (14 Nov 2026: « ⚖️ FDA… » overflowed slide 123)
+            EM = r'^([\U0001F300-\U0001FAFF\u2600-\u27BF]\ufe0f?)'
+            if sum(1 for v in x['t'].values() if isinstance(v, str) and re.match(EM + r'\n', v)) >= 2:
+                for k, v in list(x['t'].items()):
+                    if isinstance(v, str) and re.match(EM + r' ', v): x['t'][k] = re.sub(EM + r' +', r'\1\n', v)
+        for p_ in _spec.problems(x):              # a sentence built from the base (db.yaml) cannot take a fact we do not have: only its maximum counts
+            if 'capitals' not in p_ and not (x.get('id') in _DBIDS and 'too short' in p_): print('TEXT LENGTH', p_)
     _PLC = set('INDIA CHINA JAPAN TAIWAN ISRAEL UK US FRANCE GERMANY SWITZERLAND NORDICS CANADA BRAZIL MEXICO UAE AFRICA AUSTRALIA SINGAPORE'.split()) | {'JAPAN AND KOREA', 'SOUTH KOREA', 'UNITED KINGDOM', 'UNITED STATES', 'SAUDI ARABIA', 'SOUTHEAST ASIA', 'NEW ZEALAND',
             'NORTH AMERICA', 'EUROPE', 'ASIA-PACIFIC', 'MIDDLE EAST & AFRICA', 'LATIN AMERICA'}
     for x in S:                  # a renamed map region must be a place the map knows, so its dot moves with it (14 Nov 2026)

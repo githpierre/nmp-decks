@@ -1,9 +1,10 @@
 # Research import re, jsonport
 
-150 answers parsed, 0 YAML errors, 14 slides with remarks.
+150 answers parsed, 0 YAML errors, 19 slides with remarks.
 
 - **ed009**: length 10: 13 vs 20
 - **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]
+- **ed023**: length 8: 50 vs 70
 - **ed043**: status no_data: No audited category-level 2026 revenues are disclosed for all six healthcare-first AI segments. Published totals include excluded hardware and h
 - **ed043**: dropped: no data
 - **ed044**: status no_data: No verified company-level AI-only revenue census or non-overlapping six-category subtotal supports a second bottom-up calculation.
@@ -15,4 +16,8 @@
 - **ed052p**: status no_data: A forecast cannot be computed responsibly without an evidenced 2026 base revenue for the strict healthcare-first AI scope and a matching forward
 - **ed061**: length 10: 71 vs 100
 - **ed097**: EdTech words: car-t, in vivo
+- **iv_pipeline**: length 24: 36 vs 56; length 12: 34 vs 55
+- **iv_deals**: length 20: 89 vs 121; length 22: 92 vs 125
+- **ed176**: length 13: 88 vs 122; length 21: 89 vs 124
 - **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3
+- **ed204**: length 19: 82 vs 122

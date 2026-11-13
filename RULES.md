@@ -147,3 +147,14 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Text lengths Pierre asked for (targets for the research prompts): myth answers ~125 characters, « truths that flipped » right boxes ~70,
   rows of dated timelines (latest developments, deals, news, scored big, rounds) 120-140 characters with one more concrete fact.
   Rounds rows from the base say what the company does (markets.csv what_they_do).
+
+## Method v2: one text spec for every slide (Pierre, 14 Nov 2026)
+- specs/slides.yaml (tools/make_spec.py) gives every template key its range: max = the longest text that fits in a validated deck,
+  min = 0.85 x the median length in the deck filled to Pierre's remarks (body texts only), caps and words from specs/overrides.yaml.
+- The research prompts print the range under every slide and the self-check refuses any text out of it, plus em dash, semicolon and
+  amount format. tools/check_results.py runs the same checks on any result file before import.
+- The import prints TEXT LENGTH for every text out of range (gate, like the other capital warnings) and writes CAPS keys in capitals.
+  A sentence built from the base (db.yaml) is only held to its maximum.
+- Market definition, pain points and value creation are written by Claude from the same brief (decks/<handle>/evergreen/),
+  in the result format, checked with tools/check_results.py. The research zip holds only the chapters with dated facts.
+- Texts brought into range after a deck was built go in decks/<handle>/lengths.yaml (applied last, `__replace2__` for nested texts).

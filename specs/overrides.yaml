@@ -1,0 +1,15 @@
+# Pierre's own targets: they win over the measure of tools/make_spec.py (keys as in specs/slides.yaml)
+# words: exact number of words; caps: written in capitals
+markets_sit_between:            # the three circles: two words, one per line (14 Nov 2026)
+  '8': {words: 2, caps: true}
+  '9': {words: 2, caps: true}
+  '10': {words: 2, caps: true}
+top_companies_market:           # company names in capitals (14 Nov 2026)
+  '8': {caps: true}
+  '10': {caps: true}
+  '12': {caps: true}
+  '14': {caps: true}
+  '16': {caps: true}
+  '18': {caps: true}
+  '20': {caps: true}
+  '22': {caps: true}

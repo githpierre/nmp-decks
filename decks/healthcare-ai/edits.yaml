@@ -116,7 +116,7 @@ ed183:
       text: Europe has Corti in Denmark, which builds AI models for clinical work, and imaging AI firms such as Gleamer in France.
     apac:
       name: INDIA
-      text: India is led by Qure.ai, whose imaging AI supports public lung screening.
+      text: India is led by Qure.ai, whose imaging AI supports public lung and tuberculosis screening.
     au:
       name: AUSTRALIA
       text: Australia produced Harrison.ai for clinical imaging and Heidi for AI notes, with Heidi now reporting global use.
@@ -141,6 +141,8 @@ ed214:
 ed061:
   note: We group buyers into four segments, because their daily work, budgets and rules differ
 iv_pipeline:
+  12: 70+ Isala staff use Aidoc's blood clot AI alerts
+  24: Mercy uses Aidoc's AI tools across 50+ hospitals
   37: AMBIENCE · AI SCRIBE
   22: ABRIDGE · AI SCRIBE
   18: AKASA · CODING
@@ -497,3 +499,5 @@ ed204:
   19: "Candid Health raised $120M for its automated medical claims platform, tripling its valuation since its previous round {1|Candid Health}"
   21: "OpenEvidence raised $250M at a $15B valuation for its evidence search, which more than 700,000 US clinicians use each month {1|OpenEvidence}"
   23: "insitro signed a deal with AstraZeneca for $40M upfront and up to $1.46B in milestones to find drug targets with its AI {1|insitro}"
+ed095: {30: 'Savings hinge on volume, staff time, denials and real daily use.'}
+ed136: {10: "⚖️\nFDA rules depend on what the tool does in medical care", 12: "👥\nDoctors need training time and a real voice in buying"}
