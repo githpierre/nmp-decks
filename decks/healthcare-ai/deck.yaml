@@ -130,79 +130,37 @@ slides:
 - id: ed007p
   type: pp_radar
   section: Market definition
-  title: 'What is actually included
+  title: 'What counts as healthcare AI,
 
-    in the healthcare AI market?'
+    and what only looks like it?'
   caption:
-  - Distance to the center reflects how much a therapy reprograms immune cells inside the body, rather than in a lab
+  - Distance to the center reflects how much a product is AI software built for healthcare, rather than care, labs or general AI
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market’s boundaries lie
   inside:
-  - ../../assets/logos/pp_live/in-vivo-car-t/s01-in0.png
-  - ../../assets/logos/pp_live/in-vivo-car-t/s01-in1.png
-  - ../../assets/logos/pp_live/in-vivo-car-t/s01-in2.png
-  - ../../assets/logos/pp_live/in-vivo-car-t/s01-in3.png
-  - ../../assets/logos/pp_live/in-vivo-car-t/s01-in4.png
-  - ../../assets/logos/pp_live/in-vivo-car-t/s01-in5.png
-  - ../../assets/logos/pp_live/in-vivo-car-t/s01-in6.png
-  - ../../assets/logos/pp_live/in-vivo-car-t/s01-in7.png
-  inside_xy:
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s01-in0.png
-    x: 486.4
-    y: 352.2
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s01-in1.png
-    x: 446.1
-    y: 397.2
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s01-in2.png
-    x: 505.5
-    y: 411.4
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s01-in3.png
-    x: 422.5
-    y: 334.2
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s01-in4.png
-    x: 553.3
-    y: 359.5
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s01-in5.png
-    x: 469.3
-    y: 463.3
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s01-in6.png
-    x: 506.6
-    y: 280.2
-  - src: ../../assets/logos/pp_live/in-vivo-car-t/s01-in7.png
-    x: 373.2
-    y: 371.1
-  edge_xy:
-    BL:
-      src: ../../assets/logos/pp_live/in-vivo-car-t/s01-BL.png
-      x: 386.7
-      y: 489.9
-    BR:
-      src: ../../assets/logos/pp_live/in-vivo-car-t/s01-BR.png
-      x: 588.7
-      y: 483.9
-    TL:
-      src: ../../assets/logos/pp_live/in-vivo-car-t/s01-TL.png
-      x: 361.7
-      y: 279.3
-    TR:
-      src: ../../assets/logos/pp_live/in-vivo-car-t/s01-TR.png
-      x: 647.6
-      y: 277.6
+  - ../../assets/logos/lib/abridge.png
+  - ../../assets/logos/openevidence.png
+  - ../../assets/logos/lib/aidoc.png
+  - ../../assets/logos/lib/nabla.png
+  - ../../assets/logos/lib/hippocratic-ai.png
+  - ../../assets/logos/pp/ambience-healthcare.png
+  - ../../assets/logos/lib/isomorphic-labs.png
+  - ../../assets/logos/owkin.png
   TL:
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s01-TL.png
-    name: Autolus Therapeutics
-    text: makes autologous CAR-T by modifying each patient’s cells outside the body, not generating CAR-T cells in vivo
+    src: ../../assets/logos/lib/epic.png
+    name: Epic
+    text: now ships AI scribes and copilots to most of its clients, but what hospitals pay for is the health record itself
   TR:
-    src: ../../assets/logos/pp/thermo-fisher.png
-    name: Thermo Fisher Scientific
-    text: supplies CAR-T manufacturing reagents and lab tools, not medicines that program T cells inside patients
+    src: ../../assets/logos/lib/cvs-health.png
+    name: CVS Health
+    text: uses AI across Aetna and its pharmacies, but it makes its money from insurance, drug benefits and prescriptions
   BL:
-    src: ../../assets/logos/pp_live/in-vivo-car-t/s01-BL.png
-    name: Legend Biotech
-    text: tests healthcare AI LB2501, but also sells CARVYKTI made by modifying patient cells outside the body
+    src: ../../assets/logos/lib/doximity.png
+    name: Doximity
+    text: gives doctors a free AI scribe and clinical assistant, but almost all its revenue still comes from pharma marketing
   BR:
-    src: ../../assets/logos/pp/bms.png
-    name: Bristol Myers Squibb
-    text: owns Orbital RNA programs for healthcare AI, while also marketing conventionally manufactured CAR-T
+    src: ../../assets/logos/lib/tempus.png
+    name: Tempus AI
+    text: has AI in its name and its pitch, but about three quarters of its 2025 revenue came from lab tests, not software
 - id: ed008
   type: x/markets_often_confused
   section: Market definition
@@ -291,45 +249,6 @@ slides:
     28: 'App Program
 
       Interface'
-- id: ed012
-  type: x/products_services_sold_market
-  section: Market definition
-  title: What products and services are sold in this market?
-  note: We group the main products by the problem and buyer. These examples are illustrative, not a ranking or an exhaustive catalog.
-  src: 12
-  t:
-    6: Back-office AI
-    7: Patient care AI
-    8: Clinic buyers
-    9: Care team buyers
-    10: Abridge
-    11: Aidoc AI
-    12: PathAI Dx
-    13: Regard
-    14: Lunit
-    15: Suki
-    16: Abridge AI
-    17: Nabla Copilot
-    18: Heartflow AI
-    19: Abridge Platform
-    20: Suki Assist
-    21: Qure.ai
-    22: Cohere Health AI
-    23: AKASA AI
-    24: insitro TherML
-    25: AKASA AI
-    26: Anterior AI
-    27: Pharma.AI Suite
-    28: Anterior AI
-    29: Cohere Policy AI
-    30: PandaOmics
-    31: Cohere Align
-    32: AKASA Coding
-    33: AISight Dx AI
-    35: AI tools used in patient visits
-    37: AI software that reviews scans
-    38: AI that hospitals buy for billing
-    39: AI for payers and drug companies
 - id: ed013
   type: x/different_price_ranges
   section: Market definition
@@ -345,10 +264,10 @@ slides:
 
 
       Clinicians buy AI note tools in this range. Freed Core costs $79, while Nabla charges $119 per month per user.'
-    8: 'CUSTOM
+    8: '$120+ / CUSTOM
 
 
-      Hospitals, insurers and drug firms negotiate contracts. Public per-user prices do not cover all these deals.'
+      Hospitals, insurers and drug firms negotiate their contracts. Public prices per user do not cover these larger deals.'
     10: 💰
     11: 💰💰
     12: 💰💰💰
@@ -482,15 +401,15 @@ slides:
     13: 'PHYSICIAN
 
       CLINICS'
-    14: 🩸
-    15: 🛡️
+    14: 🏥
+    15: 🩺
     16: Health plans buy AI to review authorization requests and coordinate covered care.
     18: 'HEALTH
 
       PLANS'
     19: Drug makers buy AI platforms that find targets, design molecules and plan studies.
-    21: 🎯
-    22: 🔀
+    21: 🛡️
+    22: 🧪
     25: Here, we categorize by the type of buyer
 - id: ed020
   type: x/categorize_companies_market
@@ -511,15 +430,15 @@ slides:
     13: 'CLINICAL
 
       WORKFLOWS'
-    14: ♾️
-    15: ⏳
+    14: 🧠
+    15: 📋
     16: Companies handle medical coding, claims checks and insurer authorization work.
     18: 'BILLING &
 
       APPROVALS'
     19: Companies model biology, search for new drug targets and develop treatment ideas.
-    21: 🧬
-    22: 🔀
+    21: 💳
+    22: 🧪
     25: Here, we categorize by the work done
 - id: ed021
   type: x/top_companies_market
@@ -677,10 +596,10 @@ slides:
     10: AI scribes rolled out across a large Permanente physician group. Providers tested note generation in real visits, not only product demos.
     11: Late 2024
     12: Permanente doctors made millions of AI-aided visits. Buyers sought proof of efficiency and safety as health-specific AI firms raised capital.
-    13: 🧬
-    14: 💰
-    15: 🐒
-    16: 💉
+    13: ⚖️
+    14: 🤝
+    15: 📝
+    16: 📈
 - id: ed030
   type: x/happened_since_then
   section: Market opportunity
@@ -695,10 +614,10 @@ slides:
     10: Aidoc reported nearly 2,000 hospitals using its tools. JAMA tracked over 700,000 monthly OpenEvidence users by June.
     11: TODAY
     12: Healthcare AI spans notes, images, billing, insurer reviews and drug discovery. Adoption has scaled, but proof and safety still vary.
-    13: 📈
+    13: ⏱️
     14: 🤝
     15: 🏦
-    16: 🔬
+    16: 🌐
 - id: ed031
   type: x/usually_why_people_get_excited
   section: Market opportunity
@@ -1001,7 +920,7 @@ slides:
       text: North America leads with about 45% of spending. The US has the biggest buyers, the main vendors and most of the funding.
     eu:
       pct: 28
-      text: Europe comes second with about 28% of spending. Hospital AI and drug research both help build demand across the region.
+      text: Europe comes second with about 28% of spending in 2025. Hospital AI and drug research both help to build demand across the region.
     apac:
       pct: 21
       text: Asia-Pacific holds about 21%, led by China, Japan and India, and should grow the fastest of all regions.
@@ -5290,7 +5209,6 @@ slides:
   t:
     3: SOURCES
     4: HEALTHCARE AI
-  tag: 'SOURCES: TO BUILD'
 - id: ed216
   type: x/divider_10
   src: 216
@@ -5298,39 +5216,38 @@ slides:
     0: SOURCE
     1: WHY WE TRUST IT
     2: HOW WE USED IT
-    3: 'Lilly, Kelonia
+    3: 'JAMA, OpenEvidence
 
-      acquisition release'
-    4: Eli Lilly’s own announcement, with the deal terms it must disclose to its shareholders
-    5: We used it for the $7 billion deal. It also anchored our view of who leads the market.
-    7: 'Lilly, Orna
+      use study'
+    4: An independent study of account logs, not a company claim, on how many clinicians use the tool
+    5: We used it for the 703,265 monthly users and the 39.5 questions per clinician. It anchors our view of real use.
+    7: 'AMA, physician
 
-      acquisition release'
-    8: Eli Lilly’s own announcement, with the price and the circular RNA platform it bought
-    9: We used it for the $2.4 billion deal. It also helped us describe circular RNA CAR-T.
-    10: 'AbbVie, Capstan
+      AI survey'
+    8: The yearly survey of US physicians by their main professional body, released in March 2026
+    9: We used it for the 81% of physicians who use AI. It also gave us what doctors ask for before they trust a tool.
+    10: 'FDA, list of
 
-      acquisition release'
-    11: AbbVie’s own announcement, with the deal terms and the status of CPTX2309 at signing
-    12: We used it for the $2.1 billion deal. It also helped us explain targeted LNP delivery.
-    13: 'Gilead, Interius
+      AI devices'
+    11: The regulator’s own list of the AI-enabled medical devices it has authorized in the United States
+    12: We used it for the count of more than 1,600 devices. It also frames what is regulated and what is not.
+    13: 'FDA, decision
 
-      acquisition release'
-    14: Gilead’s own announcement for Kite, with the price paid and the platform it bought
-    15: We used it for the $350 million deal. It also shaped our contrast slide on Interius.
-    16: 'AstraZeneca,
+      support guidance'
+    14: The January 2026 guidance that says when clinical software counts as a medical device
+    15: We used it for the regulation timeline. It also explains the path of a tool into a hospital.
+    16: 'KLAS, healthcare
 
-      EsoBiotec deal'
-    17: AstraZeneca’s own release on closing the deal, with the upfront and total value paid
-    18: We used it for the $1 billion deal. It also showed how early big pharma bought in.
+      AI update'
+    17: Buyer research on which AI use cases health systems adopt first, from interviews with their leaders
+    18: We used it for what buyers ask before scaling. It also backed our view that low-risk tasks come first.
   links:
-    3: https://lilly.gcs-web.com/news-releases/news-release-details/lilly-acquire-kelonia-therapeutics-advance-vivo-car-t-cell
-    7: https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-orna-therapeutics-advance-cell-therapies
-    10: https://news.abbvie.com/2025-06-30-AbbVie-to-Acquire-Capstan-Therapeutics%2C-Further-Strengthening-Commitment-to-Transforming-Patient-Care-i
-    13: https://investors.gilead.com/news/news-details/2025/Kite-to-Acquire-Interius-BioTherapeutics-to-Advance-In-Vivo-Platform/default.aspx
-    16: https://www.astrazeneca.com/media-centre/press-releases/2025/acquisition-of-esobiotec-completed.html
+    3: https://jamanetwork.com/journals/jama/fullarticle/2855491
+    7: https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows
+    10: https://www.fda.gov/medical-devices/digital-health-center-excellence/artificial-intelligence-enabled-medical-devices
+    13: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software
+    16: https://klasresearch.com/report/healthcare-ai-update-2025-what-use-cases-are-adopted-the-most/3912
   section: Sources
-  tag: 'SOURCES: TO BUILD'
 - id: ed217
   type: x/divider_10
   src: 217
@@ -5338,39 +5255,38 @@ slides:
     0: SOURCE
     1: WHY WE TRUST IT
     2: HOW WE USED IT
-    3: 'BMS, Orbital
+    3: 'Menlo Ventures,
 
-      acquisition release'
-    4: Bristol Myers Squibb’s own release, with the cash price and the program it acquired
-    5: We used it for the $1.5 billion deal. It also helped us show that pharma buys early.
-    7: 'Fierce Biotech,
+      AI in healthcare'
+    4: A venture firm’s yearly count of what providers and payers spend on generative AI
+    5: We used it for the $1.4B spent in 2025. It also dated the moment when the market became hot.
+    7: 'JAMA Network Open,
 
-      J&J and Sail deal'
-    8: Fierce Biotech is a leading biotech trade outlet that reports deal terms from the filings
-    9: We used it for the $785 million J&J deal. It also gave us the option to buy Sail.
-    10: 'Blood (ASH 2025),
+      ambient AI study'
+    8: A peer-reviewed study of 1,547 clinicians who use AI scribes in daily practice
+    9: We used it for the measured time saved on notes. It keeps vendor claims and measured results apart.
+    10: 'JAMA Network Open,
 
-      KLN-1010 results'
-    11: Peer-reviewed abstract in Blood, the journal of the American Society of Hematology
-    12: We used it for the first Kelonia patient data. It also backed our signal on results.
-    13: 'Nature Medicine,
+      burnout study'
+    11: A study of 263 clinicians in six health systems, before and after 30 days with an AI scribe
+    12: We used it for the fall in burnout from 51.9% to 38.8%. It supports our growth drivers.
+    13: 'UPMC and KLAS,
 
-      ESO-T01 follow-up'
-    14: Peer-reviewed paper in Nature Medicine, with the long follow-up of every patient
-    15: We used it for the 15-month remission data. It also tempered our maturity score.
-    16: 'FDA, end of REMS
+      AI governance'
+    14: A 2026 survey of health systems on how they test, govern and measure AI tools
+    15: We used it for the gaps in testing and governance. It also showed that 90% of systems already use outside AI.
+    16: 'BMC, AI scribe
 
-      for CAR-T'
-    17: Official FDA announcement, the agency that approves every CAR-T therapy in the US
-    18: We used it for the regulation slides. It also showed which old constraints are gone.
+      trial'
+    17: A hospital trial in Australia where staff reported how often AI notes contained made-up facts
+    18: We used it for the 47% of staff who saw invented facts. It anchors our slide on patient risks.
   links:
-    3: https://investors.bms.com/iframes/press-releases/press-release-details/2025/Bristol-Myers-Squibb-Strengthens-and-Diversifies-Cell-Therapy-Po
-    7: https://www.fiercebiotech.com/biotech/jj-pays-sail-785m-charting-course-possible-vivo-car-t-buyout
-    10: https://ashpublications.org/blood/article/146/Supplement%202/LBA-1/556929
-    13: https://www.nature.com/articles/s41591-026-04704-z
-    16: https://www.fda.gov/news-events/press-announcements/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antige
+    3: https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/
+    7: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2849634
+    10: https://doi.org/10.1001/jamanetworkopen.2025.34976
+    13: https://enterprises.upmc.com/resources/insights/governance-of-ai-solutions-at-health-systems/
+    16: https://link.springer.com/article/10.1186/s12913-025-13954-5
   section: Sources
-  tag: 'SOURCES: TO BUILD'
 - id: ed218
   type: x/divider_10
   src: 218
@@ -5378,39 +5294,38 @@ slides:
     0: SOURCE
     1: WHY WE TRUST IT
     2: HOW WE USED IT
-    3: 'FDA, potency
+    3: 'JAMA Internal
 
-      assurance guidance'
-    4: Official FDA guidance that sponsors of cell and gene therapies must follow to file
-    5: We used it for the road to approval. It also helped us rank the regulatory risks.
-    7: 'Umoja, UB-VV111
+      Medicine, sepsis'
+    4: An independent test of a widely used sepsis alert on real patients, published in 2021
+    5: We used it for the 67% of sepsis cases the tool missed. It shows why outside validation matters.
+    7: 'Scoping review
 
-      Fast Track release'
-    8: Umoja’s own release on the FDA designation, confirmed by the agency’s public criteria
-    9: We used it for the Fast Track milestone. It also placed Umoja among the leaders.
-    10: 'CREATE, MT-302
+      of 161 studies'
+    8: A 2026 review of published predictive AI projects for health systems, by stage reached
+    9: We used it for the 9 projects out of 161 in routine use. It supports our chapter on market challenges.
+    10: 'Insilico Medicine,
 
-      first human results'
-    11: CREATE’s own release on its first patients, presented at a scientific congress
-    12: We used it for in vivo CAR beyond T cells. It also helped us map solid tumor work.
-    13: 'Interius, first
+      interim results'
+    11: The half-year accounts of a listed AI drug discovery company, to June 30, 2026
+    12: We used it for the $106.3M of revenue, up almost four times. It shows drugmakers now pay for AI discovery.
+    13: 'Recursion,
 
-      patient dosed'
-    14: Interius’s own release on the first in vivo CAR patient, later confirmed by Gilead
-    15: We used it for the first human dosing date. It also anchored our market timeline.
-    16: 'Review of in vivo
+      Q3 2026 results'
+    14: The quarterly accounts of the largest listed AI drug discovery company
+    15: We used it for the $6.42 lost per dollar of revenue. It shows how milestone-based revenue arrives late.
+    16: 'AstraZeneca,
 
-      CAR-T therapies'
-    17: Peer-reviewed 2026 review in PubMed Central, covering every clinical-stage program
-    18: We used it for our market definition. It also gave us the list of in vivo pipelines.
+      insitro deal'
+    17: The drugmaker’s own release on its October 2026 AI discovery partnership with insitro
+    18: We used it for the $40M upfront and the $1.46B of possible milestones. It illustrates pharma demand.
   links:
-    3: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products
-    7: https://www.umoja-biopharma.com/news/umoja-biopharma-announces-that-ub-vv111-receives-fda-fast-track-designation-for-relapsed-refractory-b-c
-    10: https://createmedicines.com/news/create-medicines-announces-positive-first-in-human-results-for-mt-302
-    13: https://www.globenewswire.com/news-release/2024/10/23/2967445/0/en/Interius-BioTherapeutics-Doses-First-Patien
-    16: https://pmc.ncbi.nlm.nih.gov/articles/PMC12857126
+    3: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307
+    7: https://www.sciencedirect.com/science/article/pii/S1386505626004181
+    10: https://insilico.com/news/s11n46hx31-commercialization-roadmap-validated-with
+    13: https://recursion.gcs-web.com/news-releases/news-release-details/recursion-reports-third-quarter-2026-financial-results-and
+    16: https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-to-use-advanced-ai-systems-to-develop-transformative-therapeutics.html
   section: Sources
-  tag: 'SOURCES: TO BUILD'
 - id: ed219
   type: x/divider_10
   src: 219
@@ -5418,38 +5333,843 @@ slides:
     0: SOURCE
     1: WHY WE TRUST IT
     2: HOW WE USED IT
-    3: 'MedComm review,
+    3: 'Abridge,
 
-      delivery platforms'
-    4: Peer-reviewed 2026 review in MedComm comparing viral and lipid delivery in people
-    5: We used it for the categories of the market. It also helped us see what has flipped.
-    7: 'Precedence Research
+      Series E'
+    4: The company’s own release on its $300M round and its health-system customers
+    5: We used it for the 150 health systems and the round size. It also fed our contrast slide on Abridge.
+    7: 'Becker’s, OpenEvidence
 
-      market report'
-    8: Market research firm with a dedicated healthcare AI report, updated in September 2026
-    9: We used it as the high end of the market size. It also gave us the regional split.
-    10: 'Grand View in vivo
+      funding'
+    8: Trade press report on the $250M round that valued OpenEvidence at $15B in September 2026
+    9: We used it for the $15B valuation. It anchors our slides on the fastest-growing startups.
+    10: 'KFF, AI in prior
 
-      cell therapy report'
-    11: Market research firm with a yearly report on the wider in vivo cell therapy market
-    12: We used it as the base of our own estimate. It also checked our growth rate range.
-    13: 'Future Market
+      authorization'
+    11: A policy review of how insurers use AI for coverage decisions, and of the rules that apply
+    12: We used it for the risks of automated denials. It shaped the pain points of health insurers.
+    13: 'Fortune Business
 
-      Insights report'
-    14: Market research firm with a narrow healthcare AI scope, close to our own definition
-    15: We used it as the low end of the market size. It also gave us a direct growth rate.
-    16: 'Our healthcare AI
+      Insights'
+    14: A market study with a 2026 size, a growth rate and a split of spending by region
+    15: We used it for the regional shares. Its total is wider than our scope, so we treat it as an upper bound.
+    16: 'Grand View
 
-      funding tracker'
-    17: Our own database of every equity round since January 2024, each with its source link
-    18: We used it for all the funding slides. It also counted rounds by stage and country.
+      Research'
+    17: A market study that splits its healthcare AI total between software, hardware and services
+    18: We used its 46% software share to explain our $29B estimate. Its total covers a wider scope than ours.
   links:
-    3: https://onlinelibrary.wiley.com/doi/full/10.1002/mco2.71030
-    7: https://www.precedenceresearch.com/in-vivo-car-t-therapy-market
-    10: https://www.grandviewresearch.com/industry-analysis/in-vivo-cell-therapy-market-report
-    13: https://www.futuremarketinsights.com/reports/in-vivo-car-t-cell-therapy-market
+    3: https://www.abridge.com/blog/series-e
+    7: https://www.beckershospitalreview.com/healthcare-information-technology/ai/openevidence-raises-250m-at-15b-valuation/
+    10: https://www.kff.org/patient-consumer-protections/regulation-of-ai-in-prior-authorization-and-claims-review-a-look-at-federal-and-state-consumer-protections/
+    13: https://www.fortunebusinessinsights.com/industry-reports/artificial-intelligence-in-healthcare-market-100534
+    16: https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-healthcare-market
   section: Sources
-  tag: 'SOURCES: TO BUILD'
+- id: src_all_1
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: Australian layoffs reported amid US shift
+      pub: Abc
+      d: '2026-09-08'
+      url: https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480
+      key: false
+    - t: 2023 clinical-documentation integration announced
+      pub: Abridge
+      d: '2023-08-16'
+      url: https://www.abridge.com/press-release/abridge-becomes-epics-first-pal-bringing-generative-ai-to-more-providers-and-patients
+      key: false
+    - t: Abridge clinical assistant
+      pub: Abridge
+      d: '2026-08-17'
+      url: https://www.abridge.com/press-release/context-aware-clinical-intelligence-extended-to-all-partners
+      key: false
+    - t: Abridge footprint of enterprise health-system partners
+      pub: Abridge
+      d: '2025-06-23'
+      url: https://www.abridge.com/blog/series-e
+      key: true
+    - t: Abridge hospital pathways
+      pub: Abridge
+      d: '2026-11-12'
+      url: https://www.abridge.com/press-release/local-pathways-abridge-assistant
+      key: false
+    - t: Abridge large 2025 fundraise
+      pub: Abridge
+      d: '2025-06-26'
+      url: https://www.abridge.com/blog/series-e-media-recap
+      key: false
+    - t: Abridge prebill review
+      pub: Abridge
+      d: '2026-09-14'
+      url: https://www.abridge.com/press-release/pre-bill-review-for-cdi-and-coding-teams
+      key: false
+    - t: Abridge surpassed 100 health-system deployments and raised…
+      pub: Abridge
+      d: '2025-02-17'
+      url: https://www.abridge.com/press-release/series-d
+      key: false
+    - t: UPMC scaling
+      pub: Abridge
+      d: '2025-10-16'
+      url: https://www.abridge.com/press-release/upmc-scales-abridge
+      key: false
+    - t: Aidoc AI deployment and patient-case scale
+      pub: Aidoc
+      d: '2026-08-11'
+      url: https://www.aidoc.com/about/news/twelve-us-health-systems-and-aidoc-unite-to-form-diagnostic-ai-consortium
+      key: false
+    - t: Aidoc announced Medicare payment eligibility for its AI CT…
+      pub: Aidoc
+      d: '2026-08-12'
+      url: https://www.aidoc.com/about/news/aidocs-care-body-ct-multi-triage-receives-eligibility-for-medicare-new-technology-add-on-payment
+      key: false
+    - t: Aidoc clinical model FDA clearance
+      pub: Aidoc
+      d: undated
+      url: https://www.aidoc.com/about/news/aidoc-secures-fda-clearance-for-healthcares-first-comprehensive-foundation-model-ai
+      key: false
+    - t: Aidoc investment
+      pub: Aidoc
+      d: '2026-04-29'
+      url: https://www.aidoc.com/about/news/aidoc-raises-150-million-series-e-led-by-goldman-sachs-to-scale-clinical-ai-for-earlier-safer-diagnoses
+      key: false
+    - t: Isala Aidoc in use
+      pub: Aidoc
+      d: undated
+      url: https://www.aidoc.com/about/news/isala-hospital-leads-the-way-with-first-ai-powered-pulmonary-embolism-response-in-the-netherlands
+      key: false
+    - t: Mercy Aidoc rollout
+      pub: Aidoc
+      d: undated
+      url: https://www.aidoc.com/about/news/mercy-and-aidoc-reveal-faster-diagnoses-and-earlier-treatment-for-thousands-of-patients
+      key: false
+    - t: Postdeployment monitoring
+      pub: Aidoc
+      d: undated
+      url: https://www.aidoc.com/learn/clinical-studies/using-a-large-language-model-for-postdeployment-monitoring-of-fda-approved-artificial-intelligence-pulmonary-embolism-detection-use-case
+      key: false
+  - - t: Ambient hospital study
+      pub: Ajmc
+      d: '2026-01-27'
+      url: https://www.ajmc.com/view/ambient-ai-tool-adoption-in-us-hospitals-and-associated-factors
+      key: false
+    - t: AKASA revenue-cycle AI production-scale footprint,…
+      pub: Akasa
+      d: '2026-10-02'
+      url: https://akasa.com/press/autonomous-mid-cycle
+      key: false
+    - t: Cleveland Clinic AI coding rollout
+      pub: Akasa
+      d: '2025-10-13'
+      url: https://akasa.com/press/cleveland-clinic-akasa-deepen-ai-partnership
+      key: false
+    - t: 2026 AMA physician survey shows expanding professional use
+      pub: AMA
+      d: '2026-03-12'
+      url: https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows
+      key: true
+    - t: AMA reports physicians use AI most in summarization and…
+      pub: AMA
+      d: '2026-03-12'
+      url: https://www.ama-assn.org/practice-management/digital-health/more-80-physicians-use-ai-professionally-ama-survey
+      key: false
+    - t: AMA survey distinguishes active adoption from awareness
+      pub: AMA
+      d: Mar 2026
+      url: https://www.ama-assn.org/sites/ama-assn.org/files/2026-03/physician-ai-sentiment-report_0.pdf
+      key: false
+    - t: Ambience Healthcare 2025 AI workflow fundraise
+      pub: Ambiencehealthcare
+      d: '2025-07-29'
+      url: https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-243-million-series-c-to-scale-its-ai-platform-for-health-systems
+      key: false
+    - t: Ambience Healthcare reached a $1.25B valuation in July 2025
+      pub: Ambiencehealthcare
+      d: '2025-10-20'
+      url: https://www.ambiencehealthcare.com/blog-legacy/klas-emerging-solutions-report-ambience-healthcare-ranked-1-in-improving-clinician-experience-top-3-in-both-improving-patient-experience-and-improving-outcomes
+      key: false
+    - t: John Muir rollout
+      pub: Ambiencehealthcare
+      d: '2025-02-11'
+      url: https://www.ambiencehealthcare.com/blog/john-muir-health-announces-the-full-enterprise-rollout-of-ambience-healthcare-s-ai-platform
+      key: false
+    - t: MultiCare Ambience evaluation
+      pub: Ambiencehealthcare
+      d: '2026-02-03'
+      url: https://www.ambiencehealthcare.com/blog/ambience-healthcare-partners-with-multicare-health-system-on-enterprise-rollout-of-ai-platform
+      key: false
+    - t: Anterior payer-focused clinical AI integrated with care…
+      pub: Anterior
+      d: '2026-03-03'
+      url: https://www.anterior.com/insights/announcements/anterior-partners-with-healthedge
+      key: false
+    - t: Anterior raised $40M in February 2026
+      pub: Anterior
+      d: '2026-02-12'
+      url: https://anterior.com/insights/announcements/anterior-raises-40m-series
+      key: false
+    - t: Cleveland Clinic operational use
+      pub: Ascoai
+      d: '2026-10-22'
+      url: https://ascoai.org/articles/2026/10/measuring-ambient-ai-adoption-at-scale
+      key: false
+    - t: AI-first drug discovery partnership with AstraZeneca
+      pub: AstraZeneca
+      d: '2026-10-15'
+      url: https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-to-use-advanced-ai-systems-to-develop-transformative-therapeutics.html
+      key: true
+    - t: OpenEvidence financing report
+      pub: Axios
+      d: '2026-09-25'
+      url: https://www.axios.com/pro/health-tech-deals/2026/09/25/openevidence-250m-raise-15b-valuation-a16z
+      key: false
+    - t: Basalt Health raised $20M Series A in September 2026
+      pub: Basalt
+      d: '2026-09-24'
+      url: https://basalt.health/basalt-series-a
+      key: false
+- id: src_all_2
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: Babylon 2023 bankruptcy and US closure
+      pub: Becker’s Hospital Review
+      d: '2023-08-18'
+      url: https://www.beckershospitalreview.com/finance/babylon-health-files-for-bankruptcy
+      key: false
+    - t: Johns Hopkins AI-related data incident
+      pub: Becker’s Hospital Review
+      d: '2026-10-26'
+      url: https://www.beckershospitalreview.com/healthcare-information-technology/ai/johns-hopkins-alerts-3182-patients-after-worker-uploads-data-to-unapproved-ai-tool
+      key: false
+    - t: OpenEvidence raised $250M at a $15B valuation in September…
+      pub: Becker’s Hospital Review
+      d: '2026-09-28'
+      url: https://www.beckershospitalreview.com/healthcare-information-technology/ai/openevidence-raises-250m-at-15b-valuation
+      key: true
+    - t: BenevolentAI planned 30% cuts and halted knowledge tool
+      pub: Benevolent
+      d: '2024-04-23'
+      url: https://www.benevolent.com/news-and-media/press-releases-and-in-media/benevolentai-provides-an-update-on-its-business-priorities
+      key: false
+    - t: BenchSci cut 23% in 2025 and shifted AI-first
+      pub: Betakit
+      d: '2025-09-23'
+      url: https://betakit.com/benchsci-inks-multi-year-partnership-with-mila-to-develop-ai-for-drug-discovery
+      key: false
+    - t: BenchSci cut 70 jobs, 17% of its workforce
+      pub: Betakit
+      d: '2024-01-08'
+      url: https://betakit.com/benchsci-trims-headcount-citing-generative-ai-economic-conditions
+      key: false
+    - t: Bunkerhill Health announced $55M cumulative financing in…
+      pub: Bunkerhillhealth
+      d: '2026-07-16'
+      url: https://www.bunkerhillhealth.com/resources/series-b-announcement
+      key: false
+    - t: Chai Discovery announced a $400M Series C in July 2026
+      pub: Business Wire
+      d: '2026-07-14'
+      url: https://www.businesswire.com/news/home/20260713849009/en/Chai-Discovery-Announces-%24400M-Series-C-to-Advance-AI-Driven-Molecular-Design
+      key: false
+    - t: Chai Discovery signed an AI drug-design partnership with Roche
+      pub: Business Wire
+      d: '2026-11-05'
+      url: https://www.businesswire.com/news/home/20261105711783/en
+      key: false
+    - t: CMS prior authorization initiative
+      pub: CMS
+      d: '2026-05-13'
+      url: https://www.cms.gov/newsroom/press-releases/cms-announces-early-adopters-advance-solutions-electronic-prior-authorization-accelerating-momentum
+      key: false
+    - t: US health insurer prior-authorization data interchange…
+      pub: CMS
+      d: '2024-01-17'
+      url: https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f
+      key: false
+    - t: CU Medicine autonomous coding
+      pub: Codametrix
+      d: undated
+      url: https://www.codametrix.com/case-studies/cu-medicine-case-study
+      key: false
+    - t: Cohere health plan platform
+      pub: Coherehealth
+      d: '2026-10-20'
+      url: https://www.coherehealth.com/news/cohere-unifies-medical-drug-utilization-management
+      key: false
+    - t: Cohere Health raised $90M Series C in May 2025
+      pub: Coherehealth
+      d: '2025-05-14'
+      url: https://www.coherehealth.com/news/cohere-health-90m-series-c-ai-platform-expansion
+      key: false
+    - t: Cohere payer AI prior-authorization and workflow expansion
+      pub: Coherehealth
+      d: '2026-01-13'
+      url: https://www.coherehealth.com/news/cohere-health-record-growth-2025-clinical-intelligence
+      key: false
+    - t: Regional Blue plan adoption
+      pub: Coherehealth
+      d: '2025-02-18'
+      url: https://www.coherehealth.com/news/cohere-achieves-digital-adoption-blue-plan-prior-auth
+      key: false
+  - - t: Corti announced its clinical-grade AI startup program in…
+      pub: Corti
+      d: '2026-05-12'
+      url: https://corti.ai/newsroom/corti-launches-healthcare-ai-startup-acceleration-program
+      key: false
+    - t: Burnout before-after results in a multicenter study
+      pub: DOI
+      d: '2025-10-02'
+      url: https://doi.org/10.1001/jamanetworkopen.2025.34976
+      key: true
+    - t: Doximity finds 63% physician AI adoption in its late 2025…
+      pub: Doximity
+      d: '2026'
+      url: https://www.doximity.com/reports/state-of-ai-medicine-report/2026
+      key: false
+    - t: BenevolentAI delisted March 2025
+      pub: Euronext
+      d: '2025-03-12'
+      url: https://live.euronext.com/en/products/equities/company-news/2025-03-12-result-extraordinary-general-meeting-and-delisting
+      key: false
+    - t: BenevolentAI strategic overhaul and possible delisting
+      pub: Euronext
+      d: '2024-12-11'
+      url: https://live.euronext.com/en/products/equities/company-news/2024-12-11-benevolentai-unveils-major-strategic-overhaul-return
+      key: false
+    - t: FDA AI-enabled medical-device authorization exceeds 1,600
+      pub: FDA
+      d: Oct 2026
+      url: https://www.fda.gov/medical-devices/digital-health-center-excellence/artificial-intelligence-enabled-medical-devices
+      key: true
+    - t: FDA device list is not a universal catalog of healthcare AI
+      pub: FDA
+      d: Oct 2026
+      url: https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices
+      key: false
+    - t: FDA life cycle guidance
+      pub: FDA
+      d: '2025-01-06'
+      url: https://www.fda.gov/news-events/press-announcements/fda-issues-comprehensive-draft-guidance-developers-artificial-intelligence-enabled-medical-devices
+      key: false
+    - t: FDA update plan
+      pub: FDA
+      d: Aug 2025
+      url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence
+      key: false
+    - t: First US market authorization for a clinical stroke-alert…
+      pub: FDA
+      d: '2018-02-13'
+      url: https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-clinical-decision-support-software-alerting-providers-potential-stroke
+      key: false
+    - t: Qure.ai medical-image algorithm listed with US FDA clearance
+      pub: FDA
+      d: '2026-01-16'
+      url: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251934
+      key: false
+    - t: Regulatory distinction
+      pub: FDA
+      d: '2026-01-29'
+      url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software
+      key: true
+    - t: Verge ended its only clinical asset after failed analysis
+      pub: Fierce Biotech
+      d: '2025-12-18'
+      url: https://www.fiercebiotech.com/biotech/verge-genomics-drops-sole-clinical-candidate-return-ai-drug-discovery-roots
+      key: false
+    - t: Abridge added major content partnerships for clinical…
+      pub: Fierce Healthcare
+      d: '2026-04-15'
+      url: https://www.fiercehealthcare.com/ai-and-machine-learning/abridge-expands-clinical-decision-support-capabilities-uptodate-partnership
+      key: false
+    - t: Abridge confirmed layoffs with undisclosed size
+      pub: Fierce Healthcare
+      d: '2026-11-06'
+      url: https://www.fiercehealthcare.com/finance/fierce-healthcare-layoff-tracker-2026-job-cuts-eliminations-health-systems-hospitals
+      key: false
+    - t: Candid Health builds automated insurance claim handling
+      pub: Fierce Healthcare
+      d: '2026-07-22'
+      url: https://www.fiercehealthcare.com/health-tech/candid-health-secures-120m-series-d-funding-ai-powered-rcm-ramps
+      key: false
+- id: src_all_3
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: Hippocratic AI reached a $1.64B valuation in January 2025
+      pub: Fierce Healthcare
+      d: '2025-01-09'
+      url: https://www.fiercehealthcare.com/ai-and-machine-learning/hippocratic-ai-banks-141m-series-b-hits-unicorn-status-it-rolls-out-ai
+      key: false
+    - t: Olive shut down after selling product units
+      pub: Fierce Healthcare
+      d: '2023-10-31'
+      url: https://www.fiercehealthcare.com/health-tech/once-high-flying-unicorn-olive-ai-sells-two-key-businesses-winds-down-operations
+      key: false
+    - t: Memorial Sloan Kettering shared cancer knowledge with…
+      pub: Forbes
+      d: '2026-09-16'
+      url: https://tollbit.forbes.com/sites/innovationrx/2026/09/16/a-premier-cancer-hospital-makes-its-data-available-to-doctors-nationwide-through-openevidence
+      key: false
+    - t: Fortune Business Insights estimates $56.01B in 2026
+      pub: Fortune Business Insights
+      d: '2026-10-26'
+      url: https://www.fortunebusinessinsights.com/industry-reports/artificial-intelligence-in-healthcare-market-100534
+      key: true
+    - t: Freenome received FDA approval later
+      pub: Freenome
+      d: '2026-11-10'
+      url: https://investors.freenome.com/news-releases/news-release-details/freenome-reports-third-quarter-2026-financial-results
+      key: false
+    - t: GE HealthCare completed its $2.3B Intelerad acquisition in…
+      pub: Gehealthcare
+      d: '2026-03-18'
+      url: https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-completes-intelerad-acquisition-accelerating-shift-to-cloud-first-enterprise-solutions-to-deliver-precision-care
+      key: false
+    - t: Public individual clinician AI scribe pricing
+      pub: Getfreed
+      d: undated (accessed 2026-11-13)
+      url: https://help.getfreed.ai/en/articles/9242518-freed-pricing-discounts
+      key: false
+    - t: Grand View Research reports a 46% software share in its…
+      pub: Grand View Research
+      d: Jun 2026
+      url: https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-healthcare-market
+      key: true
+    - t: Guidehouse/HIMSS finds 78% of health systems have AI…
+      pub: Guidehouse
+      d: '2026-02-12'
+      url: https://guidehouse.com/news/healthcare/2026/himss-ai-at-scale
+      key: false
+    - t: Share of US digital health capital going to AI-touting…
+      pub: Healthcare Dive
+      d: '2026-01-13'
+      url: https://www.healthcaredive.com/news/digital-health-funding-2025-boosted-ai-rock-health/809449
+      key: false
+    - t: ONC algorithm transparency
+      pub: Healthit
+      d: '2023-12-13'
+      url: https://healthit.gov/regulations/hti-rules/hti-1-final-rule
+      key: false
+    - t: Heartflow AI-powered coronary diagnostic software
+      pub: Heartflow
+      d: '2025-09-22'
+      url: https://ir.heartflow.com/news-releases/news-release-details/heartflow-announces-fda-510k-clearance-and-launch-next
+      key: false
+    - t: Heidi 18% layoffs
+      pub: Heidihealth
+      d: '2026-11-04'
+      url: https://www.heidihealth.com/en-us/blog/changes-to-our-team-at-heidi
+      key: false
+    - t: Heidi AI scribe free plan and clinician tier
+      pub: Heidihealth
+      d: undated (accessed 2026-11-13)
+      url: https://www.heidihealth.com/en-us/try-heidi/clinical-confidence
+      key: false
+    - t: Heidi raised $100M Series C at a $900M valuation in…
+      pub: Heidihealth
+      d: '2026-09-22'
+      url: https://www.heidihealth.com/en-sg/blog/heidi-secures-us340m-to-scale-agents-across-health-systems-globally
+      key: false
+    - t: Privacy requirements
+      pub: HHS
+      d: '2008-01-01'
+      url: https://www.hhs.gov/hipaa/for-professionals/faq/what-are-some-considerations-in-developing-and-implementing-a-business-associate-agreement/index.html
+      key: false
+  - - t: EmblemHealth AI calls
+      pub: Hippocraticai
+      d: '2026-07-31'
+      url: https://hippocraticai.com/rapid-response-healthcare-agents
+      key: false
+    - t: Hippocratic AI reached a $3.5B valuation after a $126M…
+      pub: Hippocraticai
+      d: '2025-11-03'
+      url: https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million
+      key: false
+    - t: Huma scribe deployment
+      pub: Huma
+      d: '2025-06-05'
+      url: https://www.huma.com/newsroom/press-release-hi-scribe
+      key: false
+    - t: Innovaccer confirmed 340 layoffs
+      pub: Inc42
+      d: '2026-05-15'
+      url: https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round
+      key: false
+    - t: Babylon AI-led care and UK administration
+      pub: Informs
+      d: '2023-11-01'
+      url: https://pubsonline.informs.org/do/10.1287/LYTX.2023.04.10/full
+      key: false
+    - t: Insilico Medicine signed an AI drug-discovery collaboration…
+      pub: Insilico
+      d: '2026-07-02'
+      url: https://insilico.com/news/4ifuiaal01-insilico-medicine-announces-collaboratio
+      key: false
+    - t: Insilico phase 3 first patient
+      pub: Insilico
+      d: '2026-09-10'
+      url: https://insilico.com/news/isn1009261-insilico-medicine-doses-first-patient-genesis-ipf-3
+      key: false
+    - t: The insitro collaboration has potential milestones of about…
+      pub: Insitro
+      d: '2026-10-15'
+      url: https://www.insitro.com/news/insitro-announces-a-strategic-collaboration-with-astrazeneca-for-ai-enabled-discovery-of-novel-therapeutics-for-mash-and-cardiomyopathies
+      key: false
+    - t: 263 clinicians participated in the scribe study
+      pub: JAMA
+      d: '2025-10-02'
+      url: https://media.jamanetwork.com/media-releases/10.1001/jamanetworkopen.2025.34976
+      key: false
+    - t: A 2026 JAMA Network Open study found modest reductions in…
+      pub: JAMA
+      d: '2026-05-29'
+      url: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2849634
+      key: true
+    - t: Clinical model drift after deployment
+      pub: JAMA
+      d: '2025-08-15'
+      url: https://jamanetwork.com/journals/jama-health-forum/fullarticle/2837519
+      key: false
+    - t: Early scoring models could fail when tested outside…
+      pub: JAMA
+      d: '2021-06-21'
+      url: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307
+      key: true
+    - t: Five-center study finds modest documentation improvements
+      pub: JAMA
+      d: Apr 2026
+      url: https://jamanetwork.com/journals/jama/fullarticle/2847319
+      key: false
+    - t: Medical AI reference tool use measured in peer-reviewed study
+      pub: JAMA
+      d: '2026-10-15'
+      url: https://jamanetwork.com/journals/jama/fullarticle/2855491?guestAccessKey=3c32db93-5960-43cb-b10b-8d707de27b89&linkId=1021821267
+      key: false
+    - t: 2026 emergency department study found ambient AI associated…
+      pub: Jmir
+      d: '2026'
+      url: https://ai.jmir.org/2026/1/e92193
+      key: false
+    - t: Need for prospective validation and real workflow integration
+      pub: Jmir
+      d: '2026-10-10'
+      url: https://www.jmir.org/2026/1/e95157
+      key: false
+- id: src_all_4
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: Health-system measured ambient scribe deployment
+      pub: Kaiserpermanente
+      d: '2025-04-01'
+      url: https://divisionofresearch.kaiserpermanente.org/ai-assisted-notetaking-gains-steady-support-from-kaiser-permanente-physicians
+      key: false
+    - t: Health-system measured documentation time savings
+      pub: Kaiserpermanente
+      d: '2025-06-10'
+      url: https://lookinside.kaiserpermanente.org/blog/2025/06/10/ai-assists-in-medical-visit-note-taking
+      key: false
+    - t: KFF finds AI insurance decisions pose risks if no…
+      pub: Kff
+      d: '2026-05-06'
+      url: https://www.kff.org/patient-consumer-protections/regulation-of-ai-in-prior-authorization-and-claims-review-a-look-at-federal-and-state-consumer-protections
+      key: true
+    - t: KFF reports 2025 standard prior authorization denial rates…
+      pub: Kff
+      d: Aug 2026
+      url: https://www.kff.org/patient-consumer-protections/prior-authorization-metrics-provide-new-insights-into-insurer-practices-but-gaps-remain
+      key: false
+    - t: KLAS Suki sites
+      pub: KLAS
+      d: '2026-01-22'
+      url: https://klasresearch.com/report/suki-roi-validations-2026-cross-organizational-results-from-suki-s-clinical-intelligence-platform/3869
+      key: false
+    - t: Lower-risk early adoption
+      pub: KLAS
+      d: '2025-12-29'
+      url: https://klasresearch.com/report/healthcare-ai-update-2025-what-use-cases-are-adopted-the-most/3912
+      key: true
+    - t: ROI and workflow obstacles
+      pub: KLAS
+      d: '2025-12-29'
+      url: https://engage.klasresearch.com/?p=9515
+      key: false
+    - t: Olive financial strain and inability to service debt
+      pub: Lincolninternational
+      d: '2023-10-31'
+      url: https://www.lincolninternational.com/transactions/olive-ai-has-sold-substantially-all-of-its-assets-to-waystar-and-humata-health
+      key: false
+    - t: Lunit breast-imaging AI is FDA-cleared and used clinically
+      pub: Lunit
+      d: '2026-04-17'
+      url: https://www.lunit.io/en/media-hub/lunit-surpasses-330-sites-and-1m-annual-screenings-as-breast-imaging-ai-moves-into-clinical-practice
+      key: false
+    - t: MarketsandMarkets estimates broad healthcare AI at $36.67B…
+      pub: Marketsandmarkets
+      d: Jun 2026
+      url: https://www.marketsandmarkets.com/Market-Reports/artificial-intelligence-healthcare-market-54679303.html
+      key: false
+    - t: 2026 scoping review identifies validation, data quality,…
+      pub: Mdpi
+      d: Sep 2026
+      url: https://www.mdpi.com/2079-8954/14/9/1124
+      key: false
+    - t: Freenome 20% layoffs with over 100 positions
+      pub: Medtechdive
+      d: '2024-04-25'
+      url: https://www.medtechdive.com/news/freenome-cut-100-employees-restructuring/714258
+      key: false
+    - t: Provider and payer AI spending and adoption estimates
+      pub: Menlo Ventures
+      d: Nov 2025
+      url: https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare
+      key: true
+    - t: Microsoft Dragon Copilot introduction
+      pub: Microsoft
+      d: '2025-03-03'
+      url: https://news.microsoft.com/source/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task
+      key: false
+    - t: Mount Sinai announced enterprise Epic integration of…
+      pub: Mountsinai
+      d: '2026-03-31'
+      url: https://www.mountsinai.org/about/newsroom/2026/mount-sinai-health-system-collaborates-with-openevidence-to-provide-evidence-based-knowledge-within-electronic-medical-record
+      key: false
+    - t: Individual medical AI scribe subscription price
+      pub: Nabla
+      d: '2026-10-04'
+      url: https://help.nabla.com/en/articles/10692354
+      key: false
+  - - t: 2026 Nature review cites costs, eligibility, recruitment…
+      pub: Nature
+      d: Sep 2026
+      url: https://www.nature.com/articles/s44222-026-00487-7
+      key: false
+    - t: 2026 Nature Reviews Clinical Oncology describes trial…
+      pub: Nature
+      d: '2026-08-07'
+      url: https://www.nature.com/articles/s41571-026-01189-0
+      key: false
+    - t: AI-discovered drug in phase 2a
+      pub: Nature
+      d: '2025-06-03'
+      url: https://www.nature.com/articles/s41591-025-03743-2
+      key: false
+    - t: Clinical testing is separate from a promising demo
+      pub: Nature
+      d: '2026-06-26'
+      url: https://www.nature.com/articles/s41591-026-04503-6
+      key: false
+    - t: Enterprise deployment workflow
+      pub: Nature
+      d: Aug 2026
+      url: https://www.nature.com/articles/s44401-026-00144-6
+      key: false
+    - t: Nature Reviews Drug Discovery highlights the difficulty of…
+      pub: Nature
+      d: Aug 2026
+      url: https://www.nature.com/articles/s41573-026-01496-2
+      key: false
+    - t: Harrison.ai developed imaging and pathology AI in Sydney
+      pub: Nrf
+      d: '2025-04-17'
+      url: https://www.nrf.gov.au/news-and-media-releases/nrfc-invests-32-million-lifesaving-medical-artificial-intelligence-provider-harrisonai
+      key: false
+    - t: Sanofi Owkin AI agents
+      pub: Owkin
+      d: '2026-06-05'
+      url: https://www.owkin.com/newsfeed/owkin-to-build-ai-agents-as-part-of-a-multi-year-k-pro-collaboration-with-sanofi
+      key: false
+    - t: PathAI diagnostic pathology platform deployed with MedStar…
+      pub: Pathai
+      d: '2026-04-07'
+      url: https://www.pathai.com/news/pathai-and-medstar-health-announce-partnership-to-deploy-the-aisight-dx-digital-pathology-platform-and-advanced-ai-applications
+      key: false
+    - t: Adoption acceleration
+      pub: Phti
+      d: Mar 2025
+      url: https://www.phti.org/wp-content/uploads/2025/03/PHTI-Adoption-of-AI-in-Healthcare-Delivery-Systems-Early-Applications-Impacts.pdf
+      key: false
+    - t: Aidoc expanded FDA-cleared triage AI
+      pub: PR Newswire
+      d: '2026-01-21'
+      url: https://www.prnewswire.com/news-releases/aidoc-secures-fda-clearance-for-healthcares-first-comprehensive-foundation-model-ai-302666640.html
+      key: false
+    - t: Assort Health raised $120M Series C at a $1.2B valuation in…
+      pub: PR Newswire
+      d: '2026-06-25'
+      url: https://www.prnewswire.com/news-releases/assort-health-raises-120-million-series-c-to-scale-largest-deployment-of-ai-agents-for-the-patient-journey-302808634.html
+      key: false
+    - t: FDA market authorization for diabetic-retinopathy AI software
+      pub: PR Newswire
+      d: '2018-04-11'
+      url: https://www.prnewswire.com/news-releases/fda-permits-marketing-of-artificial-intelligence-based-device-to-detect-certain-diabetes-related-eye-problems-300628218.html
+      key: false
+    - t: OpenEvidence reached a $1B valuation in February 2025
+      pub: PR Newswire
+      d: '2025-02-19'
+      url: https://www.prnewswire.com/news-releases/openevidence-achieves-1-billion-valuation-in-sequoia-led-round-and-announces-content-partnership-with-the-new-england-journal-of-medicine-302380960.html
+      key: false
+    - t: Precedence Research estimates broad healthcare AI at…
+      pub: Precedence Research
+      d: '2026-09-16'
+      url: https://www.precedenceresearch.com/artificial-intelligence-in-healthcare-market
+      key: false
+    - t: 2026 NEJM AI commentary on patient-data privacy risks
+      pub: PubMed
+      d: '2026-05-20'
+      url: https://pubmed.ncbi.nlm.nih.gov/42932620
+      key: false
+- id: src_all_5
+  type: sources_list
+  section: Sources
+  cols:
+  - - t: Randomized physician automation-bias test
+      pub: PubMed
+      d: '2026-04-23'
+      url: https://pubmed.ncbi.nlm.nih.gov/42932681
+      key: false
+    - t: Real-world integration and adoption
+      pub: PubMed Central
+      d: Jul 2026
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13308903
+      key: false
+    - t: Unequal diagnostic performance by skin tone
+      pub: PubMed Central
+      d: Dec 2025
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12735087
+      key: false
+    - t: Qure.ai and AstraZeneca announced an India public-hospital…
+      pub: Qure
+      d: '2026-04-28'
+      url: https://www.qure.ai/us/news-press-coverages/AstraZeneca-Signs-MoU-with-Telangana-Government-to-Deploy-Qure.ai-Powered-Lung-Cancer-Screening-in-Public-Hospitals
+      key: false
+    - t: Qure.ai reach
+      pub: Qure
+      d: '2026-01-15'
+      url: https://www.qure.ai/us/impact-stories/qure-ai-fy-24-25-impact-report-global-ai-healthcare-innovations
+      key: false
+    - t: Qure.ai reported Indian public-sector healthcare AI…
+      pub: Qure
+      d: '2026-02-16'
+      url: https://www.qure.ai/us/news-press-coverages/qureai-unveils-aiin-action-report-at-india-ai-impact-summit-mapping-ais-ole-across-indias-public-healthcare-system
+      key: false
+    - t: Exscientia acquired by Recursion
+      pub: Recursion
+      d: '2024-11-20'
+      url: https://ir.recursion.com/news-releases/news-release-details/recursion-and-exscientia-two-leaders-ai-drug-discovery-space
+      key: false
+    - t: Sanofi Recursion candidate
+      pub: Recursion
+      d: '2026-10-15'
+      url: https://ir.recursion.com/news-releases/news-release-details/recursion-announces-sanofi-options-potential-first-class
+      key: false
+    - t: Regard EHR-based clinical diagnosis and documentation AI
+      pub: Regard
+      d: '2026-03-24'
+      url: https://regard.com/press-media/regard-expands-platform-to-new-specialties-making-progress-toward-use-across-all-admitted-patients
+      key: false
+    - t: Abridge was founded in 2018
+      pub: Sacra
+      d: '2026-11-01'
+      url: https://sacra.com/c/abridge
+      key: false
+    - t: Hippocratic AI was founded in 2023
+      pub: Sacra
+      d: '2026-11-01'
+      url: https://sacra.com/c/hippocratic-ai
+      key: false
+    - t: No approved AI-discovered drug in scholarly review
+      pub: ScienceDirect
+      d: Jan 2026
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0031699725075118
+      key: false
+    - t: Exscientia announced planned 20-25% cuts
+      pub: SEC filing
+      d: '2024-05-21'
+      url: https://www.sec.gov/Archives/edgar/data/1865408/000186540824000043/privateconfidentialexai1q2.htm
+      key: false
+    - t: Recursion 20% cut
+      pub: SEC filing
+      d: '2025-06-10'
+      url: https://www.sec.gov/Archives/edgar/data/1601830/000119312525138138/d80288d8k.htm
+      key: false
+    - t: Tempus disclosed $102.7M in aggregate fair value for its…
+      pub: SEC filing
+      d: '2025-11-05'
+      url: https://www.sec.gov/Archives/edgar/data/1717115/000119312525264652/tem-20250930.htm
+      key: false
+  - - t: Candid Health raised $120M in July 2026, its valuation…
+      pub: Sixthstreet
+      d: '2026-07-22'
+      url: https://sixthstreet.com/newsroom/candid-health-raises-120m-led-by-sixth-street-growth-to-fuel-autonomous-revenue-cycle-management-in-healthcare
+      key: false
+    - t: OpenEvidence and Anthropic collaborated on expanding…
+      pub: Socastsrm
+      d: '2026-09-22'
+      url: https://d2233.cms.socastsrm.com/2026/09/22/exclusive-anthropic-openevidence-partner-to-bring-medical-ai-worldwide
+      key: false
+    - t: Errors in medical notes
+      pub: Springer
+      d: '2026-01-08'
+      url: https://link.springer.com/article/10.1186/s12913-025-13954-5
+      key: true
+    - t: Embedded AI competition
+      pub: STAT
+      d: '2026-02-04'
+      url: https://www.statnews.com/2026/02/04/epic-ai-charting-ambient-scribe-abridge-microsoft
+      key: false
+    - t: OpenEvidence raised $250M at a $12B valuation in January 2026
+      pub: STAT
+      d: '2026-01-21'
+      url: https://www.statnews.com/2026/01/21/health-ai-starutup-openevidence-raises-250-million
+      key: false
+    - t: Rush Suki use
+      pub: Suki
+      d: '2025-03-03'
+      url: https://www.suki.ai/press-releases/rush-expands-suki-partnership-with-enterprise-wide-ambient-ai-rollout-following-successful-launch
+      key: false
+    - t: Suki adds clinical reasoning and has more than 450…
+      pub: Suki
+      d: '2026-10-13'
+      url: https://www.suki.ai/press-releases/suki-secures-90-million-to-build-and-scale-ai-agents-for-health-systems-and-health-tech-companies
+      key: false
+    - t: Hippocratic AI sells non-diagnostic patient-facing agents
+      pub: TechCrunch
+      d: '2025-01-09'
+      url: https://techcrunch.com/2025/01/09/hippocratic-ai-raises-141m-for-creating-patient-facing-ai-agents
+      key: false
+    - t: Tempus acquired AI pathology developer Paige in 2025
+      pub: Tempus
+      d: '2025-08-22'
+      url: https://investors.tempus.com/news/news-details/2025/Tempus-Announces-the-Acquisition-of-Paige-08-22-2025/default.aspx
+      key: false
+    - t: Tempus drug development agents
+      pub: Tempus
+      d: '2026-05-31'
+      url: https://www.tempus.com/news/pr/tempus-unveils-the-next-generation-of-lens-expanding-its-agentic-ai-platform-for-oncology-drug-development
+      key: false
+    - t: Tempus multiomics model
+      pub: Tempus
+      d: '2026-05-29'
+      url: https://investors.tempus.com/news/news-details/2026/Tempus-Announces-Initial-Results-from-its-Multimodal-Foundation-Model-Efforts-for-Novel-and-Scalable-Insight-Generation-in-Oncology-05-29-2026/default.aspx
+      key: false
+    - t: UPMC and KLAS health system survey documents AI governance…
+      pub: Upmc
+      d: '2026-08-06'
+      url: https://enterprises.upmc.com/resources/insights/governance-of-ai-solutions-at-health-systems
+      key: true
+    - t: Viz.ai reported deployment in 2,000 hospitals
+      pub: Viz
+      d: '2026-07-28'
+      url: https://www.viz.ai/news/a-decade-of-increasing-access-to-life-saving-treatments-viz-ai-celebrates-10-years-2000-hospitals-and-230-million-patients
+      key: false
+    - t: Viz.ai said it was adopted in nearly 2,000 US hospitals at…
+      pub: Viz
+      d: '2026-01-12'
+      url: https://www.viz.ai/news/viz-ai-closes-2025-with-record-scale-and-patient-impact
+      key: false
 - id: ed221
   type: x/divider_12
   src: 221

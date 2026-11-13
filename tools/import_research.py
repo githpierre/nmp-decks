@@ -272,6 +272,7 @@ def main():
     demo = yaml.safe_load((ROOT / a.demo / 'deck.yaml').read_text())
     pains, vals = a.pain.split(';'), a.value.split(';')
     S, rep, sources = [], [], {}
+    NOANS = []
     KEEP = set()                                 # slides whose content comes from live.yaml (twin of the live page) or edits.yaml (`keep: true`, our own estimate): never dropped as no_data
     for f_ in ('live.yaml', 'edits.yaml'):
         if (out / f_).exists(): KEEP |= {k for k, v in (yaml.safe_load((out / f_).read_text()) or {}).items() if f_ == 'live.yaml' or (isinstance(v, dict) and v.get('keep'))}
@@ -305,6 +306,7 @@ def main():
         ans = R.get(sid)
         if ans is None:
             x = copy.deepcopy(s)
+            if not str(s.get('type', '')).startswith(('x/divider', 'agenda', 'cover', 'sources', 'intro')) and not sid.startswith('src_') and sid not in ('ed001', 'ed002', 'ed003', 'ed004', 'ed005'): NOANS.append(sid)   # the research did not answer it: it still holds the reference market's content
             if not x.get('tag'): pass
             elif sid.startswith('sig_'): pass
             S.append(x); continue
@@ -423,6 +425,11 @@ def main():
         return v
     S = [_semi(x) for x in S]
     _talk()
+    _given = set()                               # content given by live.yaml, db.yaml, edits.yaml or extras.yaml
+    for f_ in ('live.yaml', 'db.yaml', 'edits.yaml'):
+        if (out / f_).exists(): _given |= set(yaml.safe_load((out / f_).read_text()) or {})
+    _left = [i for i in NOANS if i not in _given and any(x['id'] == i for x in S)]
+    if _left and R: print('NO ANSWER (the slide still shows the reference market, give it in live.yaml or edits.yaml, or drop it):', ' '.join(_left))
     cv = out / 'cover.yaml'                      # cover layout copied from Pierre's cover slide (tools/cover_from_slides.py)
     if cv.exists() and S and S[0].get('type') == 'cover':
         import shutil

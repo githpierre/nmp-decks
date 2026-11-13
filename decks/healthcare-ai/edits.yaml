@@ -1,8 +1,3 @@
-# Fit rewrites and our own estimates for Healthcare AI (same facts as the research unless said). Number keys are the text boxes of the slide.
-# Market size (ed045, ed051): the research returned no figure for our scope. We keep the estimate of the live product page ($29B in 2026,
-#   35% a year, slide S03, twin ed052p in live.yaml) so the deck and the page say the same thing, and we explain it (Pierre, 12 Nov).
-# ed048 dropped with ed047p: no revenue split by category can be defended (research: no data, no live donut).
-# ed173: company names are never padded to fill a box. Contrast notes (ed210-214): balanced on two lines.
 ed045:
   keep: true
   title: How much is healthcare AI worth today?
@@ -54,7 +49,7 @@ ed049:
       text: North America leads with about 45% of spending. The US has the biggest buyers, the main vendors and most of the funding.
     eu:
       pct: 28
-      text: Europe comes second with about 28% of spending. Hospital AI and drug research both help build demand across the region.
+      text: Europe comes second with about 28% of spending in 2025. Hospital AI and drug research both help to build demand across the region.
     apac:
       pct: 21
       text: Asia-Pacific holds about 21%, led by China, Japan and India, and should grow the fastest of all regions.
@@ -170,3 +165,178 @@ ed200:
   17: 'HUMAN
 
     OVERSIGHT'
+ed012:
+  drop: true
+ed215:
+  tag: null
+ed216:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://jamanetwork.com/journals/jama/fullarticle/2855491
+    7: https://www.ama-assn.org/press-center/ama-press-releases/ama-ai-usage-among-doctors-doubles-confidence-technology-grows
+    10: https://www.fda.gov/medical-devices/digital-health-center-excellence/artificial-intelligence-enabled-medical-devices
+    13: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software
+    16: https://klasresearch.com/report/healthcare-ai-update-2025-what-use-cases-are-adopted-the-most/3912
+  3: 'JAMA, OpenEvidence
+
+    use study'
+  4: An independent study of account logs, not a company claim, on how many clinicians use the tool
+  5: We used it for the 703,265 monthly users and the 39.5 questions per clinician. It anchors our view of real use.
+  7: 'AMA, physician
+
+    AI survey'
+  8: The yearly survey of US physicians by their main professional body, released in March 2026
+  9: We used it for the 81% of physicians who use AI. It also gave us what doctors ask for before they trust a tool.
+  10: 'FDA, list of
+
+    AI devices'
+  11: The regulator’s own list of the AI-enabled medical devices it has authorized in the United States
+  12: We used it for the count of more than 1,600 devices. It also frames what is regulated and what is not.
+  13: 'FDA, decision
+
+    support guidance'
+  14: The January 2026 guidance that says when clinical software counts as a medical device
+  15: We used it for the regulation timeline. It also explains the path of a tool into a hospital.
+  16: 'KLAS, healthcare
+
+    AI update'
+  17: Buyer research on which AI use cases health systems adopt first, from interviews with their leaders
+  18: We used it for what buyers ask before scaling. It also backed our view that low-risk tasks come first.
+ed217:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/
+    7: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2849634
+    10: https://doi.org/10.1001/jamanetworkopen.2025.34976
+    13: https://enterprises.upmc.com/resources/insights/governance-of-ai-solutions-at-health-systems/
+    16: https://link.springer.com/article/10.1186/s12913-025-13954-5
+  3: 'Menlo Ventures,
+
+    AI in healthcare'
+  4: A venture firm’s yearly count of what providers and payers spend on generative AI
+  5: We used it for the $1.4B spent in 2025. It also dated the moment when the market became hot.
+  7: 'JAMA Network Open,
+
+    ambient AI study'
+  8: A peer-reviewed study of 1,547 clinicians who use AI scribes in daily practice
+  9: We used it for the measured time saved on notes. It keeps vendor claims and measured results apart.
+  10: 'JAMA Network Open,
+
+    burnout study'
+  11: A study of 263 clinicians in six health systems, before and after 30 days with an AI scribe
+  12: We used it for the fall in burnout from 51.9% to 38.8%. It supports our growth drivers.
+  13: 'UPMC and KLAS,
+
+    AI governance'
+  14: A 2026 survey of health systems on how they test, govern and measure AI tools
+  15: We used it for the gaps in testing and governance. It also showed that 90% of systems already use outside AI.
+  16: 'BMC, AI scribe
+
+    trial'
+  17: A hospital trial in Australia where staff reported how often AI notes contained made-up facts
+  18: We used it for the 47% of staff who saw invented facts. It anchors our slide on patient risks.
+ed218:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307
+    7: https://www.sciencedirect.com/science/article/pii/S1386505626004181
+    10: https://insilico.com/news/s11n46hx31-commercialization-roadmap-validated-with
+    13: https://recursion.gcs-web.com/news-releases/news-release-details/recursion-reports-third-quarter-2026-financial-results-and
+    16: https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-to-use-advanced-ai-systems-to-develop-transformative-therapeutics.html
+  3: 'JAMA Internal
+
+    Medicine, sepsis'
+  4: An independent test of a widely used sepsis alert on real patients, published in 2021
+  5: We used it for the 67% of sepsis cases the tool missed. It shows why outside validation matters.
+  7: 'Scoping review
+
+    of 161 studies'
+  8: A 2026 review of published predictive AI projects for health systems, by stage reached
+  9: We used it for the 9 projects out of 161 in routine use. It supports our chapter on market challenges.
+  10: 'Insilico Medicine,
+
+    interim results'
+  11: The half-year accounts of a listed AI drug discovery company, to June 30, 2026
+  12: We used it for the $106.3M of revenue, up almost four times. It shows drugmakers now pay for AI discovery.
+  13: 'Recursion,
+
+    Q3 2026 results'
+  14: The quarterly accounts of the largest listed AI drug discovery company
+  15: We used it for the $6.42 lost per dollar of revenue. It shows how milestone-based revenue arrives late.
+  16: 'AstraZeneca,
+
+    insitro deal'
+  17: The drugmaker’s own release on its October 2026 AI discovery partnership with insitro
+  18: We used it for the $40M upfront and the $1.46B of possible milestones. It illustrates pharma demand.
+ed219:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.abridge.com/blog/series-e
+    7: https://www.beckershospitalreview.com/healthcare-information-technology/ai/openevidence-raises-250m-at-15b-valuation/
+    10: https://www.kff.org/patient-consumer-protections/regulation-of-ai-in-prior-authorization-and-claims-review-a-look-at-federal-and-state-consumer-protections/
+    13: https://www.fortunebusinessinsights.com/industry-reports/artificial-intelligence-in-healthcare-market-100534
+    16: https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-healthcare-market
+  3: 'Abridge,
+
+    Series E'
+  4: The company’s own release on its $300M round and its health-system customers
+  5: We used it for the 150 health systems and the round size. It also fed our contrast slide on Abridge.
+  7: 'Becker’s, OpenEvidence
+
+    funding'
+  8: Trade press report on the $250M round that valued OpenEvidence at $15B in September 2026
+  9: We used it for the $15B valuation. It anchors our slides on the fastest-growing startups.
+  10: 'KFF, AI in prior
+
+    authorization'
+  11: A policy review of how insurers use AI for coverage decisions, and of the rules that apply
+  12: We used it for the risks of automated denials. It shaped the pain points of health insurers.
+  13: 'Fortune Business
+
+    Insights'
+  14: A market study with a 2026 size, a growth rate and a split of spending by region
+  15: We used it for the regional shares. Its total is wider than our scope, so we treat it as an upper bound.
+  16: 'Grand View
+
+    Research'
+  17: A market study that splits its healthcare AI total between software, hardware and services
+  18: We used its 46% software share to explain our $29B estimate. Its total covers a wider scope than ours.
+ed019:
+  14: 🏥
+  15: 🩺
+  21: 🛡️
+  22: 🧪
+ed020:
+  14: 🧠
+  15: 📋
+  21: 💳
+  22: 🧪
+ed029:
+  13: ⚖️
+  14: 🤝
+  15: 📝
+  16: 📈
+ed030:
+  13: ⏱️
+  16: 🌐
+ed013:
+  8: '$120+ / CUSTOM
+
+
+    Hospitals, insurers and drug firms negotiate their contracts. Public prices per user do not cover these larger deals.'
