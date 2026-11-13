@@ -25,6 +25,12 @@ PUB.update({'fiercehealthcare.com': 'Fierce Healthcare', 'mobihealthnews.com': '
        'sifted.eu': 'Sifted', 'wamda.com': 'Wamda', 'brutkasten.com': 'Brutkasten', 'indiatimes.com': 'The Economic Times', 'healthcareitnews.com': 'Healthcare IT News', 'webwire.com': 'WebWire',
        'thesaasnews.com': 'The SaaS News', 'forgeglobal.com': 'Forge Global', 'bydrug.pharmcube.com': 'PharmCube', 'zhangtongshe.com': 'Zhangtongshe', 'klasresearch.com': 'KLAS', 'jamanetwork.com': 'JAMA',
        'ama-assn.org': 'AMA', 'fda.gov': 'FDA', 'cms.gov': 'CMS', 'hhs.gov': 'HHS', 'nature.com': 'Nature', 'rockhealth.com': 'Rock Health', 'menlovc.com': 'Menlo Ventures', 'bvp.com': 'Bessemer', 'investegate.eu': 'Investegate', 'parkwalk.vc': 'Parkwalk', 'investegate.co.uk': 'Investegate'})
+PUB.update({'abc.net.au': 'ABC News', 'jmir.org': 'JMIR', 'ajmc.com': 'AJMC', 'akasa.com': 'AKASA', 'ambiencehealthcare.com': 'Ambience Healthcare', 'ascoai.org': 'ASCO', 'basalt.health': 'Basalt Health',
+            'benevolent.com': 'BenevolentAI', 'betakit.com': 'BetaKit', 'bunkerhillhealth.com': 'Bunkerhill Health', 'codametrix.com': 'CodaMetrix', 'coherehealth.com': 'Cohere Health', 'kaiserpermanente.org': 'Kaiser Permanente',
+            'gehealthcare.com': 'GE HealthCare', 'healthit.gov': 'ONC', 'heidihealth.com': 'Heidi', 'getfreed.ai': 'Freed', 'hippocraticai.com': 'Hippocratic AI', 'insitro.com': 'insitro', 'kff.org': 'KFF',
+            'lincolninternational.com': 'Lincoln International', 'marketsandmarkets.com': 'Markets and Markets', 'mdpi.com': 'MDPI', 'medtechdive.com': 'MedTech Dive', 'mountsinai.org': 'Mount Sinai', 'nrf.gov.au': 'NRF Australia',
+            'pathai.com': 'PathAI', 'phti.org': 'PHTI', 'informs.org': 'INFORMS', 'qure.ai': 'Qure.ai', 'sixthstreet.com': 'Sixth Street', 'viz.ai': 'Viz.ai', 'insilico.com': 'Insilico Medicine', 'hhs.gov': 'HHS', 'upmc.com': 'UPMC'})   # healthcare AI, 14 Nov 2026
+DOI = {'10.1001': 'JAMA', '10.1056': 'NEJM', '10.1038': 'Nature', '10.1016': 'ScienceDirect', '10.1136': 'BMJ', '10.2196': 'JMIR', '10.1186': 'BMC', '10.1371': 'PLOS', '10.1126': 'Science', '10.3390': 'MDPI', '10.1093': 'Oxford Academic', '10.1148': 'RSNA', '10.1287': 'INFORMS'}
 def site_label(u):
     """main label of the host: blog.newlimit.com -> newlimit, ucl.ac.uk -> ucl (a sub-domain is never a publisher name: « Blog », 13 Nov 2026)"""
     h = re.sub(r'^https?://(www\.)?', '', u).split('/')[0].lower(); p = h.split('.')
@@ -33,6 +39,8 @@ def site_label(u):
     return p[-2] if len(p) >= 2 else h
 def pub(u):
     h = re.sub(r'^https?://(www\.)?', '', u).split('/')[0]
+    m = re.match(r'https?://(?:dx\.)?doi\.org/(10\.\d+)', u)   # a DOI link names no publisher: the DOI prefix does (14 Nov 2026: « Doi » on a sources page)
+    if m: return DOI.get(m.group(1), 'Journal article')
     if h in PUB: return PUB[h]
     for k, v in PUB.items():
         if h.endswith('.' + k): return v

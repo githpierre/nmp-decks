@@ -355,7 +355,7 @@ sources:
   date: '2026-09-16'
   quote: MSK will also integrate OpenEvidence into its electronic health record system, Epic
 - claim: OpenEvidence and Anthropic collaborated on expanding medical AI access in lower-income countries.
-  url: https://d2233.cms.socastsrm.com/2026/09/22/exclusive-anthropic-openevidence-partner-to-bring-medical-ai-worldwide/
+  url: https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-partners-anthropic-and-penn-medicine-expand-medical-ai
   date: '2026-09-22'
   quote: Artificial intelligence startup Anthropic and medical knowledge platform OpenEvidence are collaborating to bring AI-powered clinical decision support
     to physicians

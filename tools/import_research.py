@@ -129,7 +129,7 @@ LIBS = [Path('/home/claude/nmp-pages/nmp-funding/logos'), Path('/home/claude/nmp
 MARKET = ''
 
 
-GENERIC_ICONS = set('🤥 🟢 💰 📈 🤝 🏦 📉 💎 🔒 ⛔ 💀 🏆 🚀 ✅ ❌ ⚖️ 😤 😖 ☠️ ⚠️ 💥 🎯 🔀 ♾️ ⏳ 🛡️ 🤩 🔍 📊 💡 🧩 🔁 🔄'.split())
+GENERIC_ICONS = set('🤒 🤥 🟢 💰 📈 🤝 🏦 📉 💎 🔒 ⛔ 💀 🏆 🚀 ✅ ❌ ⚖️ 😤 😖 ☠️ ⚠️ 💥 🎯 🔀 ♾️ ⏳ 🛡️ 🤩 🔍 📊 💡 🧩 🔁 🔄'.split())
 _SITES = None
 
 
@@ -430,6 +430,13 @@ def main():
         if (out / f_).exists(): _given |= set(yaml.safe_load((out / f_).read_text()) or {})
     _left = [i for i in NOANS if i not in _given and any(x['id'] == i for x in S)]
     if _left and R: print('NO ANSWER (the slide still shows the reference market, give it in live.yaml or edits.yaml, or drop it):', ' '.join(_left))
+    _rad = next((x for x in S if x.get('id') == 'ed007p'), None)   # the eye decides (a corner can be an edge case that is in the market, or an incumbent named as context): the list only makes sure it is looked at (14 Nov 2026: Tempus AI outside the radar and leader on three slides)
+    for c in ('TL', 'TR', 'BL', 'BR'):
+        nm = ((_rad or {}).get(c) or {}).get('name')
+        if not nm: continue
+        w = nm.split()[0]
+        ids = [x.get('id') for x in S if x.get('id') != 'ed007p' and not str(x.get('id')).startswith('src_') and re.search(r'\b' + re.escape(w) + r'\b', json.dumps(x, ensure_ascii=False), re.I)]
+        if ids: print(f'radar corner {nm} is named on:', ' '.join(map(str, ids)))
     cv = out / 'cover.yaml'                      # cover layout copied from Pierre's cover slide (tools/cover_from_slides.py)
     if cv.exists() and S and S[0].get('type') == 'cover':
         import shutil
@@ -455,12 +462,17 @@ def main():
         if x.get('type') == 'contrast' and x.get('right'):
             nm = {'FIGURE': 'Figure AI', 'AGILITY ROBOTICS': 'Agility Robotics', 'UNITREE': 'Unitree Robotics', '1X': '1X Technologies'}.get(x['right'].upper(), x['right'].title())
             x['logo_src'] = logo(nm)
+    for x in S:                  # a converted chart with fixed geometry needs its data (14 Nov 2026: the valuation lines of the original PowerPoint were shown in two decks)
+        if x.get('type') == 'x/fast_startups_growing' and not x.get('growth'): print('FIXED CHART', x.get('id'), x['type'], ': give `growth: {36: {pts: [[years since founding, value], …]}, 37: …}` in edits.yaml, or drop the slide')
     if a.model:                  # icons copied from the reference market and still identical: a leftover when they belong to its domain (12 Nov 2026: 🧬 🦠 💉 in Humanoid Robotics)
         _M = {y.get('id'): y for y in yaml.safe_load((ROOT / a.model / 'deck.yaml').read_text())['slides']}
+        _EDITS = (yaml.safe_load((out / 'edits.yaml').read_text()) or {}) if (out / 'edits.yaml').exists() else {}
         for x in S:
-            m = _M.get(re.sub(r'-s\d$', '', x.get('id') or ''))
+            _id = x.get('id') or ''   # a page of a series is compared with the same page of the model, then its first page (14 Nov 2026: the lookup dropped '-s1' and no series page was ever checked)
+            m = _M.get(re.sub(r'-s\d+$', '-s1', _id)) or _M.get(_id) or _M.get(re.sub(r'-s\d+$', '', _id))   # every page of a series is built from the model's first page
             if not m: continue
-            pairs = [(k, v) for k, v in (x.get('t') or {}).items() if isinstance(v, str) and len(v) <= 3 and v == (m.get('t') or {}).get(k)]
+            _ed = (_EDITS.get(_id) or {})   # an icon written in edits.yaml is a choice, even when it equals the model's
+            pairs = [(k, v) for k, v in (x.get('t') or {}).items() if isinstance(v, str) and len(v) <= 3 and v == (m.get('t') or {}).get(k) and k not in _ed]
             pairs += [(k, x[k]) for k in ('icon_tl', 'icon') if x.get(k) and x.get(k) == m.get(k)]
             for k, v in pairs:
                 if re.search('[\U0001F300-\U0001FAFF\u2600-\u27BF]', v) and v.strip() not in GENERIC_ICONS: print('MODEL ICON LEFT', x['id'], k, v)
@@ -480,7 +492,7 @@ def main():
     (out / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
     (out / 'sources.yaml').write_text(yaml.dump(sources, allow_unicode=True, sort_keys=False, width=1000))
     bad = [(k, p) for k, p in rep if p]
-    md = [f'# Research import report\n\n{len(R)} answers parsed, {len(errs)} YAML errors, {len(bad)} slides with remarks.\n']
+    md = [f'# Research import re, jsonport\n\n{len(R)} answers parsed, {len(errs)} YAML errors, {len(bad)} slides with remarks.\n']
     for e in errs: md.append(f'- YAML error {e[0]}: {e[1]}')
     for k, p in bad: md.append(f'- **{k}**: ' + '; '.join(p))
     (out / 'research_report.md').write_text('\n'.join(md) + '\n')

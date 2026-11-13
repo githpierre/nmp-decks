@@ -1500,11 +1500,11 @@ slides:
 
       LEADERS'
     19: They need measurable labor and safety value that justifies integration, service and hardware costs
-    20: 🎗️
-    21: 🩸
-    22: 🦴
-    23: 🏥
-    24: 🏛️
+    20: 🏭
+    21: 👷
+    22: 🤖
+    23: 🔧
+    24: 💼
     27: CAR AND ELECTRONICS FACTORIES
 - id: ed064-s1
   type: x/these_customers_strongest_pain_points
@@ -1634,11 +1634,11 @@ slides:
 
       CUSTOMERS'
     19: They need a clear cost per task and proof that humanoids scale beyond one carefully managed pilot
-    20: 🎗️
-    21: 🩸
-    22: 🦴
-    23: 🏥
-    24: 🏛️
+    20: 📦
+    21: 👷
+    22: ⚙️
+    23: 🔧
+    24: 🚚
     27: WAREHOUSES AND LOGISTICS
 - id: ed064-s2
   type: x/these_customers_strongest_pain_points
@@ -1768,11 +1768,11 @@ slides:
 
       CUSTOMERS'
     19: They need enough useful autonomy to justify a high purchase or subscription cost inside the home
-    20: 🎗️
-    21: 🩸
-    22: 🦴
-    23: 🏥
-    24: 🏛️
+    20: 🧓
+    21: 👪
+    22: 🏠
+    23: 🩺
+    24: 🛒
     27: HOMES AND ELDER CARE
 - id: ed064-s3
   type: x/these_customers_strongest_pain_points
@@ -1902,11 +1902,11 @@ slides:
 
       RISK TEAMS'
     19: They need brand-safe behavior, privacy controls and evidence that service quality improves enough to pay
-    20: 🎗️
-    21: 🩸
-    22: 🦴
-    23: 🏥
-    24: 🏛️
+    20: 🧑‍💼
+    21: 🛍️
+    22: 🏬
+    23: 🔧
+    24: 🛡️
     27: RETAIL AND SERVICES
 - id: ed064-s4
   type: x/these_customers_strongest_pain_points
@@ -4650,6 +4650,39 @@ slides:
 
       $2.5B'
     41: Capital has repriced leaders quickly. {1|Figure reached $39B within three years, while Unitree, Apptronik and Agility all crossed $1B on different paths.}
+  growth:
+    37:
+      pts:
+      - - 2.1
+        - 2.6
+      - - 3.7
+        - 39
+    38:
+      pts:
+      - - 9
+        - 1
+      - - 10.6
+        - 9
+      at:
+      - -45
+      - -38
+    36:
+      pts:
+      - - 10.1
+        - 5
+      at:
+      - -110
+      - -40
+    39:
+      pts:
+      - - 10
+        - 1
+      - - 11.5
+        - 2.5
+    41:
+      at:
+      - 250
+      - 0
 - id: ed191
   type: agenda
   section: Startup killers

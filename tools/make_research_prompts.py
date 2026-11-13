@@ -56,7 +56,9 @@ def example(s):
         P = key_pos(s['type'])
         e['t'] = dict(sorted(e['t'].items(), key=lambda kv: P.get(int(kv[0]), (999, 999))))
     if isinstance(e.get('t'), dict):
-        e['t'] = {k: v for k, v in e['t'].items() if not re.fullmatch(r'\s*(\d{1,2}|[^\w\s]{1,3}|[✓✕×])\s*', v or '')}   # keep numbers like 1..8 and icons out
+        from import_research import GENERIC_ICONS   # an icon of the reference market (🎗️ 🩸 🦴) is shown, so the other LLM gives one for the new market (14 Nov 2026: they were hidden and stayed in two decks); numbers and generic icons stay out
+        _own = lambda v: bool(re.search('[\U0001F300-\U0001FAFF\u2600-\u27BF]', v or '')) and len(v.strip()) <= 5 and v.strip() not in GENERIC_ICONS
+        e['t'] = {k: v for k, v in e['t'].items() if _own(v) or not re.fullmatch(r'\s*(\d{1,2}|[^\w\s]{1,3}|[✓✕×])\s*', v or '')}
     return e
 
 

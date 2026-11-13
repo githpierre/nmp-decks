@@ -309,6 +309,43 @@ window.F = (() => {
       g.forEach((c, i) => { let n = 0, ci = -1; for (let j = 0; j < G[gi].length; j++) { n += G[gi][j]; if (i < n) { ci = j; break; } }
         if (ci < 0) c.sv.style.visibility = 'hidden'; else { c.sv.style.visibility = ''; c.sv.querySelector('path').setAttribute('fill', col[ci]); } }); });
     mark('dots', sl); };
+  /* bars of « How long did it take them » : each bar runs from the first to the last year written in its own label, on the axis given by the two year labels
+     (14 Nov 2026: the bars were those of the original PowerPoint in three decks, so a company founded in 2022 had a bar starting in 2018). Automatic, no data to give. */
+  const spans = sl => { if (sl.dataset.tpl !== 'long_did_take_them_become') return; const T = k => sl.querySelector('.raw > .rx-t[data-k="' + k + '"]');
+    const yr = k => parseInt((((T(k) || {}).textContent || '').match(/(19|20)\d{2}/) || [NaN])[0], 10), A = yr(19), B = yr(8);
+    const S = [...sl.querySelectorAll('.raw > svg.rx-s')], path = sv => (sv.querySelector('path') || {getAttribute: () => ''});
+    const arrows = S.filter(sv => /H[\d.]+V0L/.test(path(sv).getAttribute('d') || '')).sort((a, b) => parseFloat(a.style.top) - parseFloat(b.style.top));
+    const axis = arrows.shift(), labs = [20, 21, 22, 23].map(T).filter(Boolean).sort((a, b) => parseFloat(a.style.top) - parseFloat(b.style.top));
+    if (!axis || isNaN(A) || isNaN(B) || B <= A || arrows.length !== labs.length) { console.error('spans: slide ' + sl.dataset.n + ' has no readable axis years or as many bars as labels'); return; }
+    const hd = 7.72, X0 = parseFloat(axis.style.left) + 8, X1 = X0 + parseFloat(path(axis).getAttribute('d').match(/H([\d.]+)/)[1]) + hd, X = y => X0 + (X1 - X0) * (y - A) / (B - A);
+    const dash = S.filter(sv => /1 3/.test(path(sv).getAttribute('stroke-dasharray') || '') && parseFloat(sv.style.height) < 24);
+    dash.forEach(d => { d.style.visibility = 'hidden'; });
+    arrows.forEach((b, i) => { const m = labs[i].textContent.match(/((?:19|20)\d{2})\s*[-–]\s*((?:19|20)\d{2})/);
+      if (!m) { console.error('spans: slide ' + sl.dataset.n + ', label ' + (i + 1) + ' has no « (2022 - 2025) » years'); return; }
+      const a = Math.max(A, +m[1]), z = Math.min(B, +m[2]), xa = X(a), xz = X(z);
+      const w = Math.max(3, xz - xa - hd), tot = w + hd + 16; b.style.left = (xa - 8) + 'px'; b.style.width = tot + 'px'; b.setAttribute('viewBox', '-8.0 -8.0 ' + tot.toFixed(1) + ' 31.4'); path(b).setAttribute('d', 'M0 3.858H' + w.toFixed(2) + 'V0L' + (w + hd).toFixed(2) + ' 7.717L' + w.toFixed(2) + ' 15.433V11.575H0Z');   /* the whole arrow is redrawn: its head has its own coordinates */ labs[i].style.left = Math.min(xa, 960 - parseFloat(labs[i].style.width) - 20) + 'px';
+      const gap = X1 - xz; if (gap > 14 && dash.length) { const d = dash[i] || dash[0].cloneNode(true); if (!dash[i]) { dash[0].parentNode.appendChild(d); dash[i] = d; }
+        d.style.transform = ''; d.style.left = (xz + 4 - 10) + 'px'; d.style.top = (parseFloat(b.style.top) + 5.7) + 'px'; d.style.width = (gap - 4 + 20) + 'px'; d.setAttribute('viewBox', '-10.0 -10.0 ' + (gap - 4 + 20).toFixed(1) + ' 20.0');
+        d.querySelector('path').setAttribute('d', 'M0 0L' + (gap - 4).toFixed(1) + ' 0.0'); d.style.visibility = ''; } });
+    mark('spans', sl); };
+  /* lines of « How fast are startups growing » : `growth: {36: {pts: [[years since founding, value], …], at: [dx, dy]}, …}` on the slide, one entry per label key.
+     The scale is read on the axis labels (last year label, top value label). Without data the lines are those of the original PowerPoint: the import prints FIXED CHART. */
+  const growth = sl => { if (sl.dataset.tpl !== 'fast_startups_growing') return; let G; try { G = JSON.parse(sl.dataset.growth || 'null'); } catch (e) { G = null; }
+    if (!G) { console.error('growth: slide ' + sl.dataset.n + ' has no `growth` data, its lines are not those of this market'); return; }
+    const T = k => sl.querySelector('.raw > .rx-t[data-k="' + k + '"]'), num = k => parseFloat(((T(k) || {}).textContent || '').replace(/[^\d.]/g, ''));
+    const cx = k => parseFloat(T(k).style.left) + parseFloat(T(k).style.width) / 2, cy = k => parseFloat(T(k).style.top) + parseFloat(T(k).style.height) / 2;
+    const X0 = cx(13), X1 = cx(21), XM = num(21), Y0 = cy(8), Y1 = cy(12), YM = num(12), W = X1 - X0, H = Y0 - Y1;
+    const KEY = {'#FB0161': 36, '#FFFFFF': 37, '#E7CDA8': 38, '#789096': 39}, S = [...sl.querySelectorAll('.raw > svg.rx-s')];
+    S.forEach(sv => { const p = sv.querySelector('path'), d = (p && p.getAttribute('d')) || ''; if (/A/.test(d) && parseFloat(sv.style.width) < 30 && /^#(FB0161|FFFFFF|E7CDA8|789096)$/i.test(p.getAttribute('fill') || '')) sv.style.visibility = 'hidden'; });
+    S.filter(sv => { const p = sv.querySelector('path'); return p && p.getAttribute('fill') === 'none' && !p.getAttribute('stroke-dasharray') && parseFloat(sv.style.height) > 30 && !/A/.test(p.getAttribute('d')); }).forEach(sv => {
+      const p = sv.querySelector('path'), col = (p.getAttribute('stroke') || '').toUpperCase(), k = KEY[col], g = G[k]; if (!g) { sv.style.visibility = 'hidden'; if (T(k)) T(k).style.visibility = 'hidden'; return; }
+      const pts = [[0, 0]].concat(g.pts).map(q => [W * q[0] / XM, H * (1 - q[1] / YM)]);
+      sv.style.left = (X0 - 10) + 'px'; sv.style.top = (Y1 - 10) + 'px'; sv.style.width = (W + 20) + 'px'; sv.style.height = (H + 20) + 'px'; sv.style.overflow = 'visible'; sv.setAttribute('viewBox', '-10 -10 ' + (W + 20).toFixed(1) + ' ' + (H + 20).toFixed(1));
+      p.setAttribute('d', 'M' + pts.map(q => q[0].toFixed(1) + ' ' + q[1].toFixed(1)).join('L'));
+      pts.slice(1).forEach(q => { const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle'); c.setAttribute('cx', q[0].toFixed(1)); c.setAttribute('cy', q[1].toFixed(1)); c.setAttribute('r', '3'); c.setAttribute('fill', col); sv.appendChild(c); });
+      const L = T(k), e = pts[pts.length - 1], at = g.at || [9, -14]; if (L) { L.style.left = (X0 + e[0] + at[0]) + 'px'; L.style.top = (Y1 + e[1] + at[1]) + 'px'; L.style.justifyContent = 'flex-start'; L.querySelectorAll('p, div').forEach(x => { x.style.textAlign = 'left'; }); } });
+    if (G.box) { const bg = S.find(sv => { const q = sv.querySelector('path'); return q && /0B3A50/i.test(q.getAttribute('fill') || '') && parseFloat(sv.style.width) > 200; }); [bg, T(41)].forEach(el => { if (el) mv(el, G.box[0], G.box[1]); }); }   /* the text box moves when a line would run under it */
+    mark('growth', sl); };
   const curves = sl => { let C; try { C = JSON.parse(sl.dataset.curves || 'null'); } catch (e) { return; } if (!C) return;
     const P = [...sl.querySelectorAll('.raw > svg.rx-s path')].filter(p => ((p.getAttribute('d') || '').match(/L/g) || []).length > 5).sort((a, b) => b.getAttribute('d').length - a.getAttribute('d').length).slice(0, C.length);
     if (P.length !== C.length) return; const R = sl.getBoundingClientRect();
@@ -366,7 +403,7 @@ window.F = (() => {
   // a figure is never cut in two lines (12 Nov 2026: « 12,0 / 00 » above its bar). CHECK WORD_SPLIT
   const figures = sl => sl.querySelectorAll('.raw > .rx-t').forEach(el => { const t = el.textContent.trim(); if (t && t.length <= 12 && /^[≈~×x$€£+\-]?[\d][\d.,]*\s?[%KMBx+]*$/.test(t)) { el.style.whiteSpace = 'nowrap'; el.style.overflow = 'visible'; el.querySelectorAll('p, span').forEach(x => { x.style.whiteSpace = 'nowrap'; }); } });
   const all = sl => { try { names(sl); } catch (e) {} try { balance(sl); } catch (e) {} try { figures(sl); } catch (e) {}
-    if (sl.querySelector('.raw')) { [dateCaps, vbars, hbars, split, dots, curves, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } });
+    if (sl.querySelector('.raw')) { [dateCaps, vbars, hbars, split, dots, curves, spans, growth, emptyCards, centerText, headers, gauges, grid, logos, cats, barGap, titleDown].forEach(f => { try { f(sl); } catch (e) { console.error('fix', f.name, sl.dataset.n, e); } });
       try { if (window.__fitapi && window.__fitapi.slideFit) window.__fitapi.slideFit(sl); } catch (e) { console.error('refit', sl.dataset.n, e); } }   // equal line counts on the final geometry
     try { if (sl.dataset.tpl === 'categories_will_use') catsGrid(sl); } catch (e) { console.error('catsGrid', sl.dataset.n, e); }
     try { pillCentre(sl); } catch (e) { console.error('pillCentre', sl.dataset.n, e); } };   // last: on the final geometry

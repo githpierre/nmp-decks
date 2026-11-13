@@ -504,6 +504,13 @@ ed096:
 ed186:
   note: We call a moonshot a highly ambitious technical or commercial goal with major uncertainty, even when the company already has working robots or customer pilots
 ed190:
+  # valuation lines drawn from the valuation milestones of the sources (years since founding, $B), the text box moved clear of Figure's line
+  growth:
+    37: {pts: [[2.1, 2.6], [3.7, 39]]}
+    38: {pts: [[9, 1], [10.6, 9]], at: [-45, -38]}
+    36: {pts: [[10.1, 5]], at: [-110, -40]}
+    39: {pts: [[10, 1], [11.5, 2.5]]}
+    41: {at: [250, 0]}
   note: We use for each line a public valuation milestone from founding to the latest disclosed financing. Private values are round-based and public values move after listing
 ed065-s1:
   note:
@@ -561,3 +568,8 @@ ed104:
   7: Less teleoperation, fewer resets and less specialist attention needed on site during every working shift
   10: Robots that connect with the existing lines, conveyors and plant software, with no need to rebuild the site
   15: Hardware and service models that lower the cost of each useful hour worked, such as leasing by the month
+# icons of the five roles (the research gave none and the reference market's stayed: 🎗️ 🩸 🦴)
+ed063-s1: {20: '🏭', 21: '👷', 22: '🤖', 23: '🔧', 24: '💼'}
+ed063-s2: {20: '📦', 21: '👷', 22: '⚙️', 23: '🔧', 24: '🚚'}
+ed063-s3: {20: '🧓', 21: '👪', 22: '🏠', 23: '🩺', 24: '🛒'}
+ed063-s4: {20: '🧑‍💼', 21: '🛍️', 22: '🏬', 23: '🔧', 24: '🛡️'}
