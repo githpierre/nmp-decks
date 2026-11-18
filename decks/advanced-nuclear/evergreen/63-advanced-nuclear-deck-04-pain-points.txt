@@ -1,0 +1,506 @@
+You are a senior market analyst working for NewMarketPitch, which sells market reports to founders and investors.
+We are building the advanced nuclear market report (a deck of about 190 slides). Every slide uses a fixed design template.
+For each slide below we show you the content of the SAME slide in our in vivo CAR-T report: it is the MODEL of the structure and of the tone only.
+Your job: research the advanced nuclear market and write the advanced nuclear version of each slide. Today is 18 November 2026.
+
+MARKET DEFINITION (it decides what is in or out):
+We define the advanced nuclear market as new nuclear fission technologies intended to improve reactor performance, safety or deployment.
+Included: We include advanced reactor developers, small modular reactors, microreactors and dedicated fuel and enabling systems. Specifically, this includes dedicated advanced-fission fuel fabrication, recycling or enrichment systems and fission-reactor platforms for electricity, industrial heat, propulsion or purpose-built isotope generation, where the advanced reactor or nuclear-specific system is the core product.
+Excluded: We exclude nuclear fusion, routine operation of conventional legacy reactors and unrelated power equipment. General uranium extraction, grid storage, reactor-agnostic civil construction and generic data-centre services are excluded unless a nuclear-specific technology is the core business. Boundary with nuclear-fusion: nuclear fusion of light nuclei is excluded; a genuinely separate advanced fission business may be included only when it independently satisfies the core-business test. Boundary with data-center-on-site-power: site-power operators and generic behind-the-meter energy services are excluded when they do not develop new reactor or dedicated fission technology; a dedicated advanced-reactor startup may overlap only when on-site data-centre power is its main commercial model.
+Rule: 0. Verify entity, founding year and independently financed startup eligibility; preserve older companies in history with a NOT A STARTUP verdict. 1. Does the company primarily develop a novel fission reactor, SMR, microreactor or dedicated advanced nuclear fuel cycle technology? If yes, IN. 2. If its primary product is equipment or services, are those nuclear-specific enabling technologies that form the company’s main product rather than a generic cross-sector service? If yes, IN; otherwise OUT. 3. Is its core technology fusion (OUT) or a reactor-agnostic data-centre site-power service (OUT)? Only allow genuine independent reactor IP and core nuclear-specific products to overlap the adjacent markets. 4. If high-quality specialist sources consistently rank it as an advanced nuclear leader despite mixed activities, include as borderline and explain; when in legitimate doubt retain historically, do not invent outside revenues.
+Categories of companies used in our database: Light-Water SMRs; High-Temperature Gas Reactors; Sodium-Cooled Fast Reactors; Molten Salt Reactors; Lead-Cooled Fast Reactors; Microreactors; Advanced Nuclear Fuel Systems; Other Advanced Fission Reactors
+
+HOW TO ANSWER, FOR EVERY SLIDE
+1. Same structure as the model: same keys, same number of items, same order. Each text stays between the MIN and MAX characters given under its slide (measured on our validated slides): longer breaks the slide, shorter leaves the box half empty. The self-check script at the end counts them for you.
+   Keep the formatting marks of the model: a line break inside a text is written \n, and {1|text} marks a run in a second style (for example a bold company name followed by normal text). Keep them where the model has them. Keys that hold a single emoji are icons: give one fitting emoji.
+   The length rule is for sentences. A name (company, product, person, acronym) is written as it is, never padded or cut to reach a length.
+   Bad: "ABRIDGE AI NOTES", "Aidoc AI" (words added to a company name). Good: "ABRIDGE", "Aidoc".
+2. Content is about advanced nuclear only, written for a smart reader who is not an expert: plain US English, short sentences, no jargon without a word of explanation, no em dash, no exclamation marks.
+   Bad: "HALEU-fueled Gen IV SMRs with passive decay heat removal." Good: "Small reactors that use a richer uranium fuel and cool themselves without pumps if power is lost." (the reader is not a nuclear engineer)
+3. Every figure, date, name and claim must be true and sourced. Prefer primary sources: company releases and SEC or exchange filings (Oklo, NuScale, Nano Nuclear, Centrus, X-energy, Kairos, TerraPower), NRC and DOE documents (licensing dockets, reactor pilot program, HALEU program, ARDP), CNSC, ONR and other regulators, IAEA and NEA reports, utility and hyperscaler power deals (Google, Amazon, Meta, Microsoft), IEA and EIA data, World Nuclear Association and World Nuclear News, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, Utility Dive, Heatmap, Canary Media, Axios). A database such as Crunchbase or PitchBook alone is never a source. Never use newmarketpitch.com. The url is the exact page that carries the quote, never a homepage (« https://www.sec.gov » proves nothing), and the quote is copied word for word from it.
+4. Recent facts first (2025-2026). A memorandum of understanding, a letter of intent or a "partnership" is not an order: say whether there is a signed contract, a licence step or construction on site, and who reported it.
+   Bad: "Company X will power data centers with 12 reactors." Good: "Company X signed a non-binding agreement for up to 12 reactors, and has no construction permit yet." (a non-binding agreement is not an order)
+5. Money is written the way people say it: $285M, $4.2B, never $0.285B. $10B or more without decimal ($56B, never $56.01B), under $10B one decimal at most ($2.1B, and $1B never $1.0B). A share keeps one decimal at most (39.7%).
+   A key marked CAPS is written in capitals. A key marked WORDS n has exactly n words (the three circles: two words, one per line, written WORD\nWORD).
+6. If you cannot find solid facts for a slide, do NOT invent: return `status: no_data` with one line explaining what is missing. A slide that cannot be filled completely is removed, so never leave half the items empty.
+7. The `note` of each slide (the small text at the bottom) says where the data comes from, starting with "We", in one or two plain sentences. Never put a date like "as of" in it. The note speaks to the reader of the report: never mention this prompt, the model slide, the segments you were given or the length limits.
+8. Where the model shows <logo> or logos_on_slide, the slide shows company logos: give the company names and their website domains in a `logos:` list, we add the logos ourselves. Company names are never shortened.
+9. Titles stay the same as the model, with the market name changed, unless the model title is a fact (then write the advanced nuclear fact). Titles are questions people would ask, not analyst wording.
+
+OUTPUT
+Deliver ONE downloadable Markdown file named exactly: 63-advanced-nuclear-deck-04-pain-points-results-research-2026-11-18.md
+(not a message in the chat). Inside, for each slide, in the order given:
+
+### <slide id>
+```yaml
+status: ok            # or no_data
+title: ...
+<same keys as the model>
+note: ...
+sources:
+  - claim: <the figure or fact>
+    url: <link>
+    date: <publication date>
+    quote: <the exact sentence that supports it, under 25 words>
+```
+
+Before delivering, check yourself, slide by slide: same number of items as the model, every number has a source with a quote, every text between 80% and 100% of its length, no semicolon (two sentences instead), contrast slides ("How X…") with exactly 8 rows, no in vivo CAR-T words left (CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, patients, FDA, therapy, cancer, healthcare), nothing outside the market definition, the same category names everywhere. Fix what fails, then deliver the file. Do not ask questions; take the most reasonable reading and say it in a `comment:` line when needed.
+
+CHAPTER: Pain points
+
+### ed054
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: What are the pain points of yesterday vs. today?
+note: 'We grouped the market into clinical phases: ex vivo proof, first in vivo dosing, early human validation, and the current translation bottlenecks. We used recent clinical reports, FDA material, and
+  peer-reviewed reviews.'
+t:
+  6: '2017 - 2023
+
+
+    CAR-T proved deep responses in blood cancers, but it still needed cell harvest, custom manufacturing and chemotherapy first'
+  7: '2024 - 2025
+
+
+    In vivo CAR-T began dosing patients directly, with no cell harvest or factory step, but precise targeting became the main risk'
+  8: '2025 - 2026
+
+
+    Early cancer and autoimmune data showed CAR cells can be made in the body, but durability and redosing stay open questions'
+  9: 'TODAY
+
+
+    CAR cells can now be made inside patients, but developers must still prove precise targeting, persistence and lasting benefit'
+  10: '?
+
+
+    Better vectors may make CAR therapy simpler and broader, but solid tumors still block cells from getting in and staying active'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 114-137, 7: 115-140, 8: 111-148, 9: 110-140, 10: 106-139
+
+### ed055
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Which old problems are now behind us?
+note: We treat these as problems the in vivo model is designed to remove from the workflow. They are not proof that current in vivo products have solved safety, durability, or access at commercial scale.
+t:
+  5: Patients needed leukapheresis before a personalized CAR-T product could be made
+  7: In vivo vectors can generate CAR cells directly after one IV dose
+  8: Patient cells had to be shipped away, expanded, tested, and returned
+  10: In vivo dosing removes the ex vivo cell-manufacturing loop
+  11: Manufacturing delays could let aggressive disease worsen while patients waited
+  13: In-body engineering can start without waiting for a custom cell lot
+  14: Each dose depended on collecting and expanding that patient’s T cells
+  16: In vivo platforms use circulating immune cells as starting material
+  17: CAR-T access depended on centers able to manage bespoke logistics
+  19: A drug-like infusion could simplify delivery and monitoring
+  20: Ex vivo production varied with each patient’s starting cell quality
+  22: In vivo platforms use standard vectors, not custom cell lots
+```
+Characters per key (MIN-MAX), measured on the slide: 5: 59-80, 7: 49-119, 8: 51-76, 10: 45-114, 11: 61-78, 13: 50-119, 14: 57-74, 16: 54-108, 17: 54-74, 19: 46-117, 20: 53-67, 22: 49-118
+
+### ed056
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: What problems do all players face?
+page: 1/2
+note: We kept the translation problems that recur across recent in vivo CAR-T reviews and human studies. We skipped generic development issues and focused on problems specific to delivering and controlling
+  CAR engineering inside the body.
+t:
+  25: 'Potency must be
+
+    batch-consistent'
+  23: 'You need clear
+
+    biodistribution'
+  8: 'Vectors can hit
+
+    off-target cells'
+  6: 'You must hit
+
+    the right T cells'
+  29: 'T-cell targets
+
+    can vary'
+  27: 'You must prove
+
+    who gets transduced'
+  12: 'RNA CAR levels
+
+    can fade quickly'
+  10: 'You need enough
+
+    CAR expression'
+  33: 'Low persistence
+
+    limits benefit'
+  31: 'You need enough
+
+    cells to expand'
+  16: 'You must control
+
+    immune activation'
+  14: 'Vectors can
+
+    integrate DNA'
+  37: 'Regulators need
+
+    new CMC standards'
+  35: 'You need long
+
+    safety follow-up'
+  20: 'CRS and ICANS
+
+    still occur'
+  18: 'Redosing can
+
+    trigger immunity'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 1-39, 8: 1-44, 10: 1-39, 12: 1-43, 14: 1-35, 16: 1-44, 18: 1-38, 20: 1-33, 23: 1-40, 25: 1-42, 27: 1-44, 29: 1-30, 31: 1-40, 33: 1-42, 35: 1-39, 37: 1-43
+
+### ed057
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: What problems do all players face?
+page: 2/2
+note: We separated platform-wide delivery problems from disease biology. The second set becomes especially important once in vivo CAR cells are successfully generated, because clinical benefit still depends
+  on target biology and disease context.
+t:
+  25: 'B-cell loss can
+
+    raise infection'
+  23: 'Autoimmune targets
+
+    differ by disease'
+  8: 'Tumors can lose
+
+    the target antigen'
+  6: 'You still need
+
+    the right antigen'
+  29: 'Endpoints are
+
+    still evolving'
+  27: 'You must tune
+
+    CAR duration'
+  12: 'Solid tumors
+
+    block trafficking'
+  10: 'T cells can
+
+    exhaust quickly'
+  33: 'Long-term benefit
+
+    stays uncertain'
+  31: 'Early cohorts
+
+    remain small'
+  16: 'Tumors can
+
+    suppress T cells'
+  14: 'Stroma can
+
+    exclude CAR cells'
+  37: 'Cost savings need
+
+    real-world proof'
+  35: 'Scale-up remains
+
+    unproven'
+  20: 'Cancer can relapse
+
+    after response'
+  18: 'Antigens vary
+
+    within one tumor'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 1-42, 8: 1-48, 10: 1-35, 12: 1-40, 14: 1-38, 16: 1-38, 18: 1-42, 20: 1-43, 23: 1-47, 25: 1-42, 27: 1-34, 29: 1-38, 31: 1-34, 33: 1-43, 35: 1-34, 37: 1-44
+
+### ed059
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Which problems are startups going after?
+t:
+  16: 'CD19
+
+    loss'
+  11: 'Wrong
+
+    cells'
+  14: 'Immune
+
+    risk'
+  21: 'Pain points change sharply by delivery platform and disease.
+
+
+    Broad statements quickly mislead.
+
+    So we split blood cancers, autoimmune disease and solid tumors before scoring priorities.'
+  13: 'CAR
+
+    persistence'
+  12: 'Off-target
+
+    risk'
+  15: 'Redose
+
+    risk'
+  18: 'Tumor
+
+    access'
+  19: 'CMC
+
+    scale-up'
+```
+Characters per key (MIN-MAX), measured on the slide: 11: 1-15, 12: 1-20, 13: 1-20, 14: 1-15, 15: 1-15, 16: 1-13, 18: 1-17, 19: 1-17, 21: 153-188
+
+### ed060
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: How will we proceed?
+note: We break the market down before scoring because the same platform can create very different clinical value and risk in blood cancers, autoimmune disease, and solid tumors.
+t:
+  9: '😣
+
+    PAIN POINTS
+
+
+    We list each group''s main pains and score them to rank them.'
+  6: '🎯
+
+    GOAL
+
+
+    Find the pain points that matter most in in vivo CAR-T, and who feels them.'
+  7: '🏷️
+
+    CATEGORIES
+
+
+    We split the market by disease, because biology and safety differ.'
+  8: '🧑‍🤝‍🧑
+
+    SEGMENTS
+
+
+    For each disease, we list the patients, doctors, centers and payers.'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 64-86, 7: 65-90, 8: 62-91, 9: 59-76
+
+### ed061
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Which categories will we use?
+note: This categorization follows the three disease segments requested for the deck. They differ enough in target biology, safety tolerance, treatment endpoints, and current clinical maturity to warrant
+  separate pain-point scoring.
+t:
+  7: 'BLOOD
+
+    CANCERS'
+  9: 'AUTOIMMUNE
+
+    DISEASES'
+  11: 'SOLID
+
+    TUMORS'
+  10: Companies developing in vivo CAR-T for solid cancers with difficult access and heterogeneous targets
+  6: Companies developing in vivo CAR-T for lymphoma, leukemia, and multiple myeloma
+  8: Companies developing in vivo CAR-T for lupus, myasthenia gravis, MS, and related disease
+  13: ''
+  15: ''
+  17: ''
+  12: ''
+  14: ''
+  16: ''
+holes_ok: true
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 62-87, 7: 1-38, 8: 60-89, 9: 1-40, 10: 60-100, 11: 1-27, 12: 61-95, 13: 1-25
+For advanced nuclear: the pain points are split into 4 segments (Utilities; Data centers and hyperscalers; Industrial heat users; Governments and defense). Fill the first 4 items with them and leave the others empty ("").
+
+
+REPEATED BLOCK: the next 4 slides form one block that we repeat for EACH of these 4 segments: 1. Utilities; 2. Data centers and hyperscalers; 3. Industrial heat users; 4. Governments and defense. Answer the whole block once per segment, with slide ids suffixed by the segment number (ed063-s1 … ed063-s4). The segment name is written exactly the same way everywhere.
+
+### ed062
+in vivo CAR-T model (structure only):
+```yaml
+t:
+  6: PAIN POINTS
+  3: BLOOD CANCERS
+  5: 'In vivo CAR-T for lymphoma, leukemia and myeloma,
+
+    where CAR-T already has clinical proof'
+```
+
+### ed063
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Who needs these in vivo CAR-T therapies?
+note: We focus on the five groups most exposed to the clinical and operational trade-offs of in vivo CAR-T in hematologic malignancies.
+t:
+  27: BLOOD CANCERS
+  5: 'RELAPSED
+
+    LYMPHOMA'
+  8: 'REFRACTORY
+
+    LEUKEMIA'
+  11: 'MULTIPLE
+
+    MYELOMA'
+  14: 'CELL-THERAPY
+
+    CENTERS'
+  17: 'PAYERS AND
+
+    REGULATORS'
+  20: 🎗️
+  21: 🩸
+  22: 🦴
+  23: 🏥
+  24: 🏛️
+  7: They need rapid treatment when standard options fail and cannot afford long personalized manufacturing delays
+  10: They need deep disease control before fast-moving leukemia progresses beyond a safe treatment window
+  13: They need durable control after several prior therapies and may relapse after BCMA-directed treatment
+  16: They need simpler logistics, predictable dosing, and safety protocols that fit existing oncology workflows
+  19: They need evidence that easier delivery preserves efficacy, controls risk, and creates durable value
+```
+Characters per key (MIN-MAX), measured on the slide: 5: 1-32 CAPS, 7: 85-114, 8: 1-30 CAPS, 10: 85-105, 11: 1-27 CAPS, 13: 78-102, 14: 1-28 CAPS, 16: 82-111, 17: 1-29 CAPS, 19: 81-104, 27: 1-40 CAPS
+
+### ed064
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: What are these customers’ strongest pain points?
+note: We prioritized problems supported by recent human in vivo data and by the known resistance and toxicity profile of CAR-T in hematologic cancers.
+t:
+  13: BLOOD CANCERS
+  14: They need enough CAR cells to grow and last after one dose
+  15: They face relapse when tumors lose or reduce the targeted antigen
+  16: They still face CRS, neurotoxicity and low blood counts
+  17: They need precise T-cell targeting with no off-target hits
+  18: They must treat fast disease before patients decline
+  19: They need durable responses, not only early tumor shrinkage
+  20: They must prove simple delivery matches ex vivo results
+```
+Characters per key (MIN-MAX), measured on the slide: 13: 1-40 CAPS, 14: 46-61, 15: 46-69, 16: 44-61, 17: 43-66, 18: 42-59, 19: 45-65, 20: 43-64
+
+### ed065
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Which pains deserve attention first?
+subtitle: Blood cancers
+icons:
+- 🧑
+- 🩺
+- 🏥
+- 💳
+- 🧪
+rows:
+- pain: They need enough CAR cells to expand and persist after one dose
+  s:
+  - 3
+  - 3
+  - 3
+  - 2
+  - 3
+  p: CRITICAL
+- pain: Tumors can escape by losing or reducing the target antigen
+  s:
+  - 3
+  - 3
+  - 2
+  - 2
+  - 3
+  p: CRITICAL
+- pain: CRS, neurotoxicity, and hematotoxicity still require control
+  s:
+  - 3
+  - 3
+  - 3
+  - 2
+  - 3
+  p: CRITICAL
+- pain: In vivo vectors must avoid unsafe off-target transduction
+  s:
+  - 2
+  - 3
+  - 3
+  - 2
+  - 3
+  p: MAJOR
+- pain: Fast disease can worsen before treatment is delivered
+  s:
+  - 3
+  - 3
+  - 2
+  - 2
+  - 2
+  p: HIGH
+- pain: Early responses must translate into durable disease control
+  s:
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  p: CRITICAL
+- pain: Simpler delivery must match the efficacy of ex vivo CAR-T
+  s:
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  p: CRITICAL
+note:
+- Every stakeholder is different, and this table is a simplified view based on clinical studies and recent reviews
+- It gives a starting point, not a checklist, so priorities should be validated with patients, clinicians, and trial teams
+```
+Characters per key (MIN-MAX), measured on the slide: subtitle: 1-40, rows.*.pain: 44-69, rows.*.p: 1-12 CAPS
+
+
+SELF-CHECK BEFORE YOU DELIVER (mandatory)
+Save your answer as the Markdown file, then run this Python script on it. Fix every line it prints by rewriting the text (same facts, one
+more concrete fact when too short, tighter wording when too long), run it again, and deliver only when it prints "0 problems".
+```python
+import re, json, yaml
+LIMITS = json.loads(r'''{"ed054": {"6": {"max": 137, "min": 114}, "7": {"max": 140, "min": 115}, "8": {"max": 148, "min": 111}, "9": {"max": 140, "min": 110}, "10": {"max": 139, "min": 106}}, "ed055": {"5": {"max": 80, "min": 59}, "7": {"max": 119, "min": 49}, "8": {"max": 76, "min": 51}, "10": {"max": 114, "min": 45}, "11": {"max": 78, "min": 61}, "13": {"max": 119, "min": 50}, "14": {"max": 74, "min": 57}, "16": {"max": 108, "min": 54}, "17": {"max": 74, "min": 54}, "19": {"max": 117, "min": 46}, "20": {"max": 67, "min": 53}, "22": {"max": 118, "min": 49}}, "ed056": {"6": {"max": 39}, "8": {"max": 44}, "10": {"max": 39}, "12": {"max": 43}, "14": {"max": 35}, "16": {"max": 44}, "18": {"max": 38}, "20": {"max": 33}, "23": {"max": 40}, "25": {"max": 42}, "27": {"max": 44}, "29": {"max": 30}, "31": {"max": 40}, "33": {"max": 42}, "35": {"max": 39}, "37": {"max": 43}}, "ed057": {"6": {"max": 42}, "8": {"max": 48}, "10": {"max": 35}, "12": {"max": 40}, "14": {"max": 38}, "16": {"max": 38}, "18": {"max": 42}, "20": {"max": 43}, "23": {"max": 47}, "25": {"max": 42}, "27": {"max": 34}, "29": {"max": 38}, "31": {"max": 34}, "33": {"max": 43}, "35": {"max": 34}, "37": {"max": 44}}, "ed059": {"11": {"max": 15}, "12": {"max": 20}, "13": {"max": 20}, "14": {"max": 15}, "15": {"max": 15}, "16": {"max": 13}, "18": {"max": 17}, "19": {"max": 17}, "21": {"max": 188, "min": 153}}, "ed060": {"6": {"max": 86, "min": 64}, "7": {"max": 90, "min": 65}, "8": {"max": 91, "min": 62}, "9": {"max": 76, "min": 59}}, "ed061": {"6": {"max": 87, "min": 62}, "7": {"max": 38}, "8": {"max": 89, "min": 60}, "9": {"max": 40}, "10": {"max": 100, "min": 60}, "11": {"max": 27}, "12": {"max": 95, "min": 61}, "13": {"max": 25}}, "ed063": {"5": {"caps": true, "max": 32}, "7": {"max": 114, "min": 85}, "8": {"caps": true, "max": 30}, "10": {"max": 105, "min": 85}, "11": {"caps": true, "max": 27}, "13": {"max": 102, "min": 78}, "14": {"caps": true, "max": 28}, "16": {"max": 111, "min": 82}, "17": {"caps": true, "max": 29}, "19": {"max": 104, "min": 81}, "27": {"caps": true, "max": 40}}, "ed064": {"13": {"caps": true, "max": 40}, "14": {"max": 61, "min": 46}, "15": {"max": 69, "min": 46}, "16": {"max": 61, "min": 44}, "17": {"max": 66, "min": 43}, "18": {"max": 59, "min": 42}, "19": {"max": 65, "min": 45}, "20": {"max": 64, "min": 43}}, "ed065": {"subtitle": {"max": 40}, "rows.*.pain": {"max": 69, "min": 44}, "rows.*.p": {"caps": true, "max": 12}}}''')
+md = open("63-advanced-nuclear-deck-04-pain-points-results-research-2026-11-18.md", encoding="utf-8").read(); n = 0
+F = chr(96) * 3
+SKIP = {"id", "type", "section", "title", "note", "src", "logo", "url", "page", "sources", "logos", "status", "comment"}
+def leaves(x, path=""):
+    if isinstance(x, dict):
+        for k, v in x.items():
+            if k not in SKIP: yield from leaves(v, (path + "." if path else "") + str(k))
+    elif isinstance(x, list):
+        for v in x: yield from leaves(v, path + ".*")
+    elif isinstance(x, str): yield path, x
+plain = lambda v: re.sub(r"\s+", " ", re.sub(r"\{\d\|([^}]*)\}", r"\1", v)).strip()
+for sid, body in re.findall(r"### (\S+)\s+" + F + r"yaml\n(.*?)" + F, md, re.S):
+    d = yaml.safe_load(body) or {}
+    if d.get("status") != "ok": continue
+    flat = json.dumps(d, ensure_ascii=False)
+    for bad, why in ((chr(8212), "em dash"), (chr(8211), "en dash"), ("; ", "semicolon: write two sentences")):
+        if bad in flat.replace("&amp; ", ""): print(sid, "|", why); n += 1
+    for m in re.findall(r"\$\d+\.\d{2,}[BMK]|\$\d{2,}\.\d[B]|\$\d+\.0[BMK]|\d+\.\d{2,}%", flat): print(sid, "| amount format:", m, "(write $56B, $2.1B, $1B, 39.7%)"); n += 1
+    L = LIMITS.get(sid) or LIMITS.get(re.sub(r"-s\d+$", "", sid)) or {}
+    for p, v in leaves(d):
+        k = p[2:] if p.startswith("t.") else p
+        e = L.get(k)
+        if not e or re.fullmatch(r"\s*[^\w\s]{1,4}\s*", v): continue
+        t = plain(v); n0 = n
+        if len(t) > e["max"]: print(sid, k, "| too long:", len(t), "for max", e["max"], "|", t[:60]); n += 1
+        elif e.get("min") and len(t) < e["min"]: print(sid, k, "| too short:", len(t), "for min", e["min"], "(add one concrete fact) |", t[:60]); n += 1
+        if e.get("words") and len(t.split()) != e["words"]: print(sid, k, "| must have exactly", e["words"], "words |", t[:40]); n += 1
+print(n, "problems")
+```

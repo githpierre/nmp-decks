@@ -1,0 +1,61 @@
+# Spec of the research prompts for the Advanced Nuclear deck (tools/make_market_prompts.py). Method v2: chapters 01, 04, 06 written by Claude
+name: advanced nuclear
+handle: advanced-nuclear
+uuid: 63
+date: '2026-11-18'
+today: 18 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, patients, FDA, therapy, cancer, healthcare
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and SEC or exchange filings (Oklo, NuScale, Nano Nuclear, Centrus, X-energy, Kairos, TerraPower), NRC and DOE documents (licensing dockets, reactor pilot program, HALEU program, ARDP), CNSC, ONR and other regulators, IAEA and NEA reports, utility and hyperscaler power deals (Google, Amazon, Meta, Microsoft), IEA and EIA data, World Nuclear Association and World Nuclear News, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, Utility Dive, Heatmap, Canary Media, Axios).
+# where the problem is felt (buyers): 4 segments (Pierre, 18 Nov 2026)
+pain_segments: [Utilities, Data centers and hyperscalers, Industrial heat users, Governments and defense]
+# types of solution: the 8 base categories grouped in 5 (Pierre, 18 Nov 2026, option B)
+#   Light-Water SMRs = Light-Water SMRs | Microreactors = Microreactors | High-Temperature Reactors = High-Temperature Gas Reactors
+#   Advanced Gen IV Reactors = Sodium-Cooled Fast, Molten Salt, Lead-Cooled Fast, Other Advanced Fission | Nuclear Fuel Systems = Advanced Nuclear Fuel Systems
+value_segments: [Light-Water SMRs, Microreactors, High-Temperature Reactors, Advanced Gen IV Reactors, Nuclear Fuel Systems]
+reask: [ed012, ed013, ed190, ed201, ed207, ed208]
+pierre_dropped: [ed046, ed105p, ed220]
+live_twins: [ed039p, ed058, ed099p, ed142p, ed148p, ed168p, ed171p, ed209p, pp_s06]
+retarget:
+  iv_pipeline:
+    title: Which advanced reactors are actually being built today?
+    brief: 8 rows = 8 real projects with a named site (country, owner or customer). Rows read "project at site" + "DEVELOPER · REACTOR" + stage (LICENSING / CONSTRUCTION / OPERATING). Only projects with a construction permit, licence application under review, site work or fuel loading reported by the regulator, the developer or the customer. Not a memorandum of understanding.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between advanced nuclear companies and large groups (power purchase agreements with hyperscalers, utility orders, strategic investments, government awards, mergers, SPAC listings), newest first, with the amount or the megawatts when public.
+  iv_fda:
+    title: What does it take to build a new reactor?
+    brief: 5 steps from a reactor design to selling power (for example regulator pre-application and design review, site permit and environmental review, construction permit, fuel supply such as HALEU, operating licence and grid connection). Each step in plain words with who decides and a typical duration.
+  iv_safety:
+    title: What could go wrong with new reactors?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example cost overruns like NuScale's cancelled Utah project, fuel supply dependence on Russia for HALEU, licensing delays, waste and proliferation concerns, first-of-a-kind construction delays). Real reports, regulator documents or reported cases only.
+extra:
+  ed061: 'For advanced nuclear: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: hyperscaler power deals (Google-Kairos, Amazon-X-energy, Meta, Microsoft), NRC licensing speed and the 2025 executive orders, DOE reactor pilot program and first criticality targets, HALEU supply and Centrus, share prices and market caps of Oklo, NuScale, Nano Nuclear and the gap with their revenue, SPACs and IPOs, construction starts (TerraPower Kemmerer, Ontario Darlington BWRX-300, Kairos Hermes), order books and orders by utilities, financing (Army microreactors, DOE loans, World Bank stance), cost estimates per MW, China and Russia deployments.
+killers_brief: |
+  This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, cancelled projects, cost overruns, licence applications withdrawn or rejected, layoffs, customers or partners that walked away, valuations that fell, short-seller reports. Scope: companies whose core product is an advanced fission reactor or its dedicated fuel, startups first.
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY (MON).
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, project cancelled, licence setback, value fell, shut down or sold). Each cell is two short lines separated by | or empty. Give the website domain of each company.
+  - ed200 and ed201: why advanced nuclear startups fail, and named cases with the main cause and the outcome.
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+market_title: Advanced Nuclear
+label: Advanced Nuclear
+keep_together: [advanced nuclear]
+examples:
+  jargon_bad: HALEU-fueled Gen IV SMRs with passive decay heat removal.
+  jargon_good: Small reactors that use a richer uranium fuel and cool themselves without pumps if power is lost.
+  jargon_why: the reader is not a nuclear engineer
+  proof_rule: 'A memorandum of understanding, a letter of intent or a "partnership" is not an order: say whether there is a signed contract, a licence step or construction on site, and who reported it.'
+  proof_bad: Company X will power data centers with 12 reactors.
+  proof_good: Company X signed a non-binding agreement for up to 12 reactors, and has no construction permit yet.
+  proof_why: a non-binding agreement is not an order
+  fresh_bad: Company X had 500 MW of agreements in 2025
+  fresh_good: Company X reported 14 GW of customer pipeline in its third-quarter 2026 results, against 4 GW a year earlier
+  fresh_est: Company X should end 2026 near $30M of revenue, against $8M in 2025
+  fresh_method: latest reported quarter and company guidance, analyst estimate as a cross-check
+  not_proof: an agreement in principle is not an order
