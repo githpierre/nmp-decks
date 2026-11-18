@@ -1,6 +1,6 @@
 # Sentences on base figures (ed160, ed162): every figure is a {db.key} of db_facts.yaml, so a base update re-flows them
 ed160:
-  6: Drug makers took about {db.cat1_pct}% of the capital raised since 2024, just ahead of consumer longevity brands with about {db.cat2_pct}%
+  6: Drug makers took about {db.cat1_pct}% of the capital raised since 2024, ahead of preventive health platforms with about {db.cat2_pct}%
   7: '{db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}'
   8: US startups closed {db.us_n} of the {db.n} rounds and took {db.us_money}, about {db.us_money_pct}% of the money, far ahead of {db.ctry2}
   9: '{db.big_n} rounds of $100M or more made up about {db.big_pct}% of all the capital raised in the market since 2024'
@@ -17,5 +17,5 @@ ed162:
 
 
 
-    Since 2024, {db.n} rounds raised {db.total}. Wearables and scan clinics such as Oura and Neko Health take the biggest checks, while aging-drug startups multiply in the US.'
+    Since 2024, {db.n} rounds raised {db.total}. Scan clinics and test memberships such as Neko Health and Function take the biggest checks, while aging-drug startups multiply in the US.'
   note: We used our tracker of longevity equity rounds, complete from January 2024, and company releases and the press

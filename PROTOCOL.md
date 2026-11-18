@@ -19,6 +19,17 @@ Look at `MARKETS.md` first. If the market is there, NEVER rebuild it from step 0
   in-browser audit still checks every slide. A change in a template, `fixlib.js` or `build.py` makes it a full build by itself.
 - Before ANY review page or PDF: one full build, `tools/rebuild.sh <handle> --png`, then the look at the changed slides.
 - Several decks to rebuild after a common fix: run them in the background, one after the other, and keep working.
+- Time rules (Pierre, 18 Nov 2026, Longevity took 1 h 30 instead of ~40 min):
+  1. One full build (`--png`) per market, at the very end, before the review page. Every fix before that is `--fast`
+     (the piste B gate refuses `--png` anyway while a reference trace is left).
+  2. A fix common to several decks is NOT rebuilt into the delivered decks while a new market is in progress: note it in
+     MARKETS.md (« pending common fixes »); the other decks take it at their next pass or in a background run after delivery.
+  3. Never two builds at the same time: the map texts are measured before the fonts are ready and fail at random
+     (MAP_TEXT_LINES on 4 decks, 18 Nov 2026). One build after the other.
+  4. Product-page twins: `python3 tools/pp/twins_auto.py <handle>` writes the radar, Google Trends, market size and S10
+     twins in live.yaml from the specs that built the live page; only what it cannot read is written by hand.
+  5. Key sources: `python3 tools/draft_sources_key.py <handle>` drafts sources_key.yaml (the 20 most cited source URLs of
+     the research files, with the claims they backed); Claude only rewrites the « why » and « how » lines.
 
 ## Step 0. Start (Claude, 10 min)
 - Clone the logo libraries: githpierre/nmp-pages and githpierre/nmp-product-pages (add_repo, then `git clone --depth 1`
@@ -76,6 +87,8 @@ Look at `MARKETS.md` first. If the market is there, NEVER rebuild it from step 0
   look only at the slides the rebuild lists as changed (`tools/diff_slides.py <handle> --sheets`), then `--snap` again.
 
 ## Step 5. Product-page twins, database slides, sources (Claude)
+- First `python3 tools/pp/live_from_specs.py <handle> <live webp folder>`, then `python3 tools/pp/twins_auto.py <handle> <same folder>`
+  (radar, Trends, market size, S10 names read on the live slides), then look at each twin next to its live slide.
 - Twins: copy the live slide's data into `decks/<handle>/live.yaml` (same title, same data, logos from the page).
 - Database slides (Investor bets, rounds, top players by stage): `decks/<handle>/db.yaml` from the latest base, last of all.
 - Sources: `decks/<handle>/sources_key.yaml` (20 key sources), then `python3 tools/build_sources.py <handle>`, then re-import.

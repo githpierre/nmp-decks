@@ -32,11 +32,11 @@ ed158:
     v: 996
     ann: Neko Health $260M, NewLimit $130M, in 25 rounds
   - x: 2025 H2
-    v: 1880
-    ann: Oura $900M, Function Health $298M, in 29 rounds
+    v: 917
+    ann: Function Health $298M, Lanserhof Group $110M, in 27 rounds
   - x: 2026 H1
-    v: 1973
-    ann: WHOOP $575M, NewLimit $435M, in 46 rounds
+    v: 1398
+    ann: NewLimit $435M, Cambrian Biopharma $124M, in 45 rounds
   - x: 2026 H2
     v: 870
     ann: Neko Health’s $700M made up most of it, in 16 rounds
@@ -48,14 +48,14 @@ ed159:
   t: null
   bars:
   - x: '2024'
-    v: 1158
-    ann: BioAge Labs $170M, Oura $125M
+    v: 958
+    ann: BioAge Labs $170M, Fountain Life $80M
   - x: '2025'
-    v: 2876
-    ann: Oura $900M, Function Health $298M
+    v: 1913
+    ann: Function Health $298M, Neko Health $260M
   - x: '2026'
-    v: 2843
-    ann: Neko Health $700M, WHOOP $575M
+    v: 2268
+    ann: Neko Health $700M, NewLimit $435M
   note:
   - We add up the disclosed equity rounds of longevity startups in our database, which is complete from January 2024
   - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
@@ -65,14 +65,14 @@ ed164:
   t: null
   bars:
   - x: '2024'
-    v: 15
-    ann: BioAge Labs’ $170M, out of 48 rounds
+    v: 18
+    ann: BioAge Labs’ $170M, out of 46 rounds
   - x: '2025'
-    v: 31
-    ann: Oura’s $900M, out of 54 rounds
+    v: 16
+    ann: Function Health’s $298M, out of 52 rounds
   - x: 2026 (YTD)
-    v: 25
-    ann: Neko Health’s $700M, out of 62 rounds
+    v: 31
+    ann: Neko Health’s $700M, out of 61 rounds
   note:
   - We divide, for each year, the largest round by all the disclosed capital in our tracker
   - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
@@ -82,10 +82,6 @@ ed165p:
     amt: 700000000
     date: Q3 2026
     stage: Series C
-  - name: WHOOP
-    amt: 575000000
-    date: Q1 2026
-    stage: late-stage
   - name: NewLimit
     amt: 435000000
     date: Q2 2026
@@ -94,6 +90,10 @@ ed165p:
     amt: 298000000
     date: Q4 2025
     stage: Series B
+  - name: Cambrian Biopharma
+    amt: 123800000
+    date: Q2 2026
+    stage: Growth Equity
   note:
   - We listed the biggest equity rounds raised by longevity startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
@@ -103,18 +103,18 @@ ed166p:
     amt: 3000000000
     date: '2022'
     stage: Equity
-  - name: Oura
-    amt: 900000000
-    date: '2025'
-    stage: late-stage
   - name: Neko Health
     amt: 260000000
     date: '2025'
     stage: Series B
-  - name: Oura
+  - name: Insilico Medicine
     amt: 255000000
     date: '2021'
     stage: Series C
+  - name: Human Longevity
+    amt: 220000000
+    date: '2016'
+    stage: Series B
   note:
   - We listed the biggest equity rounds raised by longevity startups before the last twelve months
   - We used our tracker of rounds, company announcements and the press, with sources at the end
@@ -123,59 +123,59 @@ ed167:
   9: '72'
   13: $2.3B
   17: NewLimit, BioAge Labs, Cambrian Biopharma
-  7: CONSUMER LONGEVITY BRANDS
-  11: '21'
-  15: $2.1B
-  19: Oura, WHOOP, Eight Sleep, Timeline, Blueprint, L-Nutra
-  8: PREVENTIVE HEALTH PLATFORMS
-  12: '33'
-  16: $1.6B
-  20: Neko Health, Function Health, Prenuvo, Everlab, Superpower, Lucis
-  note: We used our tracker of 164 longevity equity rounds announced since January 2024, worth about $6.9B. IPOs, debt and grants are left out
+  7: PREVENTIVE HEALTH PLATFORMS
+  11: '33'
+  15: $1.6B
+  19: Neko Health, Function Health, Prenuvo, Everlab
+  8: LONGEVITY CLINICS
+  12: '24'
+  16: $556M
+  20: Lanserhof Group, Midi Health, Fountain Life, Human Longevity
+  note: We used our tracker of 159 longevity equity rounds announced since January 2024, worth about $5.1B. IPOs, debt and grants are left out
 ed169:
-  7: FIDELITY
+  7: LIGHTSPEED
   10: '2'
-  14: $1B
-  18: Oura (twice)
-  8: LIGHTSPEED
+  14: $960M
+  18: Neko Health (twice)
+  8: LUMA GROUP
   12: '2'
-  16: $960M
-  20: Neko Health (twice)
-  9: COLLABORATIVE FUND
+  16: $148M
+  20: Character Bio, Aeovian
+  9: FORERUNNER
   13: '2'
-  17: $597M
-  21: Loyal, WHOOP
-  26: LUMA GROUP
+  17: $148M
+  21: Prenuvo, Superpower
+  26: LEFT LANE
   28: '2'
-  30: $148M
-  32: Character Bio, Aeovian
-  27: FORERUNNER
+  30: $130M
+  32: Prenuvo, Everlab
+  27: VALUE PARTNERS GROUP
   29: '2'
-  31: $148M
-  33: Prenuvo, Superpower
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 164 rounds
+  31: $123M
+  33: Insilico Medicine (twice)
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 159 rounds
 ed205:
-  14: 2025 (JAN)
-  15: Neko Health raised a $260M Series B led by Lightspeed for its preventive full-body health diagnostics {1|Neko Health}
-  16: 2025 (OCT)
-  17: Oura raised a $900M late-stage round led by Fidelity for its smart rings tracking personal health {1|Business Wire}
-  18: 2025 (NOV)
-  19: Function Health raised a $298M Series B led by Redpoint for its preventive lab testing and health insights {1|TechCrunch}
-  20: 2026 (MAR)
-  21: WHOOP raised a $575M late-stage round led by Collaborative Fund for its screenless health and performance wearables {1|WHOOP}
+  14: 2024 (FEB)
+  15: BioAge Labs raised a $170M late-stage round led by Sofinnova Investments for its aging-biology drugs {1|BioAge Labs}
+  16: 2025 (JAN)
+  17: Neko Health raised a $260M Series B led by Lightspeed for its preventive full-body health diagnostics {1|Neko Health}
+  18: 2025 (MAY)
+  19: NewLimit raised a $130M Series B led by Kleiner Perkins for its epigenetic reprogramming medicines for aging {1|NewLimit}
+  20: 2025 (NOV)
+  21: Function Health raised a $298M Series B led by Redpoint for its preventive lab testing and health insights {1|TechCrunch}
   22: 2026 (JUN)
   23: NewLimit raised a $435M Series C led by Founders Fund for its epigenetic reprogramming medicines for aging {1|NewLimit}
   24: 2026 (JUL)
   25: Neko Health raised a $700M Series C led by Lightspeed for its preventive full-body health diagnostics {1|Neko Health}
   note: We picked the biggest disclosed rounds of longevity startups since 2024, from our tracker of rounds
 ed160:
-  6: Drug makers took about 34% of the capital raised since 2024, just ahead of consumer longevity brands with about 31%
-  7: 148 of the 164 rounds since 2024 disclosed an amount, and the median disclosed round was $10M
-  8: US startups closed 97 of the 164 rounds and took $5.1B, about 74% of the money, far ahead of Sweden
-  9: 17 rounds of $100M or more made up about 65% of all the capital raised in the market since 2024
-  10: The $900M late-stage of Oura is the biggest round since 2024, ahead of the $700M raised by Neko Health in 2026
-  11: Seed was the most common round, with 64 of the 164 rounds, ahead of Series A with 32 and Series B with 19
-  note: We drew these insights from our tracker of 164 longevity equity rounds announced since January 2024, worth about $6.9B
+  6: Drug makers took about 45% of the capital raised since 2024, ahead of preventive health platforms with about 32%
+  7: 143 of the 159 rounds since 2024 disclosed an amount, and the median disclosed round was $10M
+  8: US startups closed 92 of the 159 rounds and took $3.3B, about 65% of the money, far ahead of Sweden
+  9: 14 rounds of $100M or more made up about 56% of all the capital raised in the market since 2024
+  10: The $700M Series C of Neko Health is the biggest round since 2024, ahead of the $435M raised by NewLimit in 2026
+  11: Seed was the most common round, with 64 of the 159 rounds, ahead of Series A with 32 and Series B with 19
+  note: We drew these insights from our tracker of 159 longevity equity rounds announced since January 2024, worth about $5.1B
 ed162:
   6: 'BEFORE
 
@@ -186,5 +186,5 @@ ed162:
 
 
 
-    Since 2024, 164 rounds raised $6.9B. Wearables and scan clinics such as Oura and Neko Health take the biggest checks, while aging-drug startups multiply in the US.'
+    Since 2024, 159 rounds raised $5.1B. Scan clinics and test memberships such as Neko Health and Function take the biggest checks, while aging-drug startups multiply in the US.'
   note: We used our tracker of longevity equity rounds, complete from January 2024, and company releases and the press
