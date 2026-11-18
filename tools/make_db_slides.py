@@ -75,7 +75,7 @@ def main():
         elif r['cat'] and len(s) + len(CS.get(r['cat'], r['cat'])) < 100: s += ' for its ' + ' '.join(w if w.isupper() else w.lower() for w in CS.get(r['cat'], r['cat']).split())   # the short slide name (« aging-biology drugs »), never the base label « longevity therapeutics developers » (Longevity, 18 Nov 2026)   # « life science AI », not « life Science AI »
         p_ = pub(r['source_url']); key = re.sub(r'[^a-z0-9]', '', r['name'].lower())
         lab = re.sub(r'[^a-z0-9]', '', site_label(r['source_url']))
-        if p_.lower()[:5] == key[:5] or (len(lab) >= 4 and (key.startswith(lab) or lab.startswith(key))) or 'pr.co' in r['source_url']: p_ = r['name'].split()[0]   # a company's own site, blog or press page: name the company
+        if p_.lower()[:5] == key[:5] or (len(lab) >= 4 and (key.startswith(lab) or lab.startswith(key))) or 'pr.co' in r['source_url']: p_ = r['name'] if len(r['name']) <= 14 else r['name'].split()[0]   # « Project Omega », never « Project » (18 Nov 2026)   # a company's own site, blog or press page: name the company
         elif p_ not in PUB.values() and p_.lower() not in (r['lead_investors'] or '').lower(): print('PUBLISHER UNKNOWN', r['source_url'][:70], '->', p_)   # shown on a slide: add its name to PUB (tools/build_sources.py)
         return s + f" {{1|{p_}}}"
     def dl(d): return f"{d[:4]} ({['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][int(d[5:7]) - 1]})"
