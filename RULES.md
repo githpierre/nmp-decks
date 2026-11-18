@@ -151,6 +151,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Amounts read at a glance: $10B or more without decimal ($56B, never $56.01B), under $10B one decimal at most ($2.1B), same for M.
   A share keeps one decimal at most. Applied by the import to every text except notes (notes keep the exact arithmetic). Given to the research LLM as a format rule.
 - The pages of a series (1/2, 2/3…) share one design and one number of items. CHECK SERIES MIXED (import). The three « How can we categorize companies » pages are ALWAYS one series 1/3, 2/3, 3/3 (solution, buyer, business model) in the same design with the number of base categories on every page: buyers and business models get as many rows as the categories (Pierre, 18 Nov 2026, said twice). `page: null` is never used to silence the check on them.
+- One icon per category on a slide: never the same icon twice (18 Nov 2026, HAI buyers). CHECK ICON TWICE (import, blocks --png). Labels of a categorize page all on the same number of lines.
 - The three circles (markets it sits between): two words each, one word per line. CHECK VENN WORDS.
 - Top companies slide: company names in capitals (import).
 - Segment dividers: no slide title on top. Their name takes the largest size, up to 34pt (Pierre, 18 Nov 2026: 40pt was too big), at which the longest name of the deck stays clear of the side arrows, and every divider uses that size (fixlib deck()).

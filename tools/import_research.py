@@ -507,6 +507,9 @@ def main():
     _cz = [y for y in S if y.get('id') in ('ed018', 'ed019', 'ed020')]   # the three categorize pages: one series 1/3-3/3, same design, same count, never page: null (Pierre, 18 Nov 2026, twice)
     if len(_cz) > 1 and (len({y.get('type') for y in _cz}) > 1 or any(not y.get('page') for y in _cz) or len({len(y.get('categories') or []) for y in _cz}) > 1):
         print('SERIES MIXED categorize pages:', ' '.join(f"{y['id']}={y.get('type')}:{len(y.get('categories') or [])}:{y.get('page')}" for y in _cz), ': one series 1/3 2/3 3/3, sx_categories_n, as many rows as the categories')
+    for y in S:                  # one icon per category on a slide (18 Nov 2026, HAI buyers: 🧪 twice)
+        _em = [c.get('emoji') for c in (y.get('categories') or []) if isinstance(c, dict) and c.get('emoji')]
+        if len(_em) != len(set(_em)): print('ICON TWICE', y.get('id'), ' '.join(_em))
     _ids = [y.get('id') for y in S]   # « What is behind these categories? » explains the split by category just before it: without that slide it has nothing to explain (Pierre, 18 Nov 2026, Longevity)
     if 'ed048' in _ids and not any(i in _ids for i in ('ed047p', 'ed047')):
         S[:] = [y for y in S if y.get('id') != 'ed048']; print('slide dropped (no category split before it): ed048')
@@ -587,7 +590,7 @@ def main():
         DATED = {'startups_news_lately', 'rounds_were_announced_last', 'startups_stumbled_lately', 'were_latest_tech_infra_developments'}   # one look: the dated timeline
         fam = lambda y: (lambda b: 'dated' if b in DATED else b)(re.sub(r'^x/|_\d$', '', str(y.get('type'))))
         if len({fam(y) for y in G}) > 1 or len({cnt(y) for y in G}) > 1:
-            print('SERIES MIXED', ' '.join(f"{y.get('id')}={y.get('type')}:{cnt(y)}" for y in G), ': one design and one count on every page, or take the odd page out of the series (`page: null`)')
+            print('SERIES MIXED', ' '.join(f"{y.get('id')}={y.get('type')}:{cnt(y)}" for y in G), ': one design and one count on every page (never `page: null` to silence this)')
     (out / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
     (out / 'sources.yaml').write_text(yaml.dump(sources, allow_unicode=True, sort_keys=False, width=1000))
     bad = [(k, p) for k, p in rep if p]

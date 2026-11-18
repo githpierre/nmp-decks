@@ -351,6 +351,7 @@ slides:
   type: sx_categories_n
   section: Market definition
   title: How can we categorize companies in the healthcare AI market?
+  page: 1/3
   note: We use the six solution categories in our company database, with overlap decided by the primary product sold.
   src: 18
   categories:
@@ -386,63 +387,83 @@ slides:
     emoji: 🧪
   categorization: Here, we categorize by type of solution
 - id: ed019
-  type: x/categorize_companies_market
+  type: sx_categories_n
   section: Market definition
   title: How can we categorize companies in the healthcare AI market?
-  page: 1/2
+  page: 2/3
   note: We classify buyers by the healthcare work they pay to improve. Some platforms serve more than one buyer group.
   src: 19
-  t:
-    7: 'PHARMA
-
-      BIOTECH'
-    8: They buy AI for clinical notes, imaging alerts, care coordination and billing.
-    10: 'HEALTH
+  categorization: Here, we categorize by the type of buyer
+  categories:
+  - label: 'HEALTH
 
       SYSTEM'
-    11: Clinics buy AI scribes, medical search and tools that cut visit paperwork.
-    13: 'PHYSICIAN
+    description: They buy AI for clinical notes, imaging alerts, care coordination and billing.
+    emoji: 🏥
+  - label: 'PHYSICIAN
 
       CLINICS'
-    14: 🏥
-    15: 🩺
-    16: Health plans buy AI to review authorization requests and coordinate covered care.
-    18: 'HEALTH
+    description: Clinics buy AI scribes, medical search and tools that cut visit paperwork.
+    emoji: 🩺
+  - label: 'HEALTH
 
       PLANS'
-    19: Drug makers buy AI platforms that find targets, design molecules and plan studies.
-    21: 🛡️
-    22: 🧪
-    25: Here, we categorize by the type of buyer
+    description: Health plans buy AI to review authorization requests and coordinate covered care.
+    emoji: 🛡️
+  - label: 'PHARMA
+
+      BIOTECH'
+    description: Drug makers buy AI platforms that find targets, design molecules and plan studies.
+    emoji: 🧪
+  - label: 'CONSUMER
+
+      PATIENTS'
+    description: Companies sell AI health apps and symptom checkers straight to people.
+    emoji: 📱
+  - label: 'LABS +
+
+      PHARMACIES'
+    description: Labs and pharmacies buy AI to read tests, check prescriptions and plan stock.
+    emoji: 🔬
 - id: ed020
-  type: x/categorize_companies_market
+  type: sx_categories_n
   section: Market definition
   title: How can we categorize companies in the healthcare AI market?
-  page: 2/2
+  page: 3/3
   note: We sort products by their place in daily work, from clinical guidance to back-office execution and scientific discovery.
   src: 20
-  t:
-    7: 'DRUG
-
-      RESEARCH'
-    8: Companies help doctors assess cases, detect findings or search medical evidence.
-    10: 'CLINICAL
+  categorization: Here, we categorize by the work done
+  categories:
+  - label: 'CLINICAL
 
       DECISIONS'
-    11: Companies create visit notes, summarize records and route work across care teams.
-    13: 'CLINICAL
+    description: Companies help doctors assess cases, detect findings or search medical evidence.
+    emoji: 🧠
+  - label: 'CLINICAL
 
       WORKFLOWS'
-    14: 🧠
-    15: 📋
-    16: Companies handle medical coding, claims checks and insurer authorization work.
-    18: 'BILLING &
+    description: Companies create visit notes, summarize records and route work across care teams.
+    emoji: 📋
+  - label: 'BILLING &
 
       APPROVALS'
-    19: Companies model biology, search for new drug targets and develop treatment ideas.
-    21: 💳
-    22: 🧪
-    25: Here, we categorize by the work done
+    description: Companies handle medical coding, claims checks and insurer authorization work.
+    emoji: 💳
+  - label: 'DRUG
+
+      RESEARCH'
+    description: Companies model biology, search for new drug targets and develop treatment ideas.
+    emoji: 🧪
+  - label: 'PATIENT
+
+      CONTACT'
+    description: Companies answer patient messages, book visits and follow up after care.
+    emoji: 💬
+  - label: 'HEALTH
+
+      DATA'
+    description: Companies clean and link health records so they can feed studies and AI.
+    emoji: 🗂️
 - id: ed021
   type: x/top_companies_market
   section: Market definition
@@ -1319,7 +1340,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: HOSPITALS AND HEALTH SYSTEMS
+    3: 'HOSPITALS AND
+
+      HEALTH SYSTEMS'
     5: Hospitals buying AI for medical decisions, documentation, care flow and system safety
     6: PAIN POINTS
 - id: ed063-s1
@@ -1453,7 +1476,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: PHYSICIAN PRACTICES AND CLINICS
+    3: 'PHYSICIAN PRACTICES
+
+      AND CLINICS'
     5: Outpatient clinics using AI for visit notes, patient messages and insurance paperwork
     6: PAIN POINTS
 - id: ed063-s2
@@ -1587,7 +1612,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: HEALTH INSURERS
+    3: 'HEALTH
+
+      INSURERS'
     5: Health plans using AI for claims, prior approvals, member support and coverage reviews
     6: PAIN POINTS
 - id: ed063-s3
@@ -1721,7 +1748,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: PHARMA AND BIOTECH
+    3: 'PHARMA AND
+
+      BIOTECH'
     5: Drug developers using AI-first models for target discovery, molecule design and trials
     6: PAIN POINTS
 - id: ed063-s4
@@ -2511,7 +2540,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: CLINICAL AI TOOLS
+    3: 'CLINICAL
+
+      AI TOOLS'
     5: AI gives clinicians cited answers from charts during care.
     6: VALUE CREATION
 - id: ed107-s1
@@ -2601,7 +2632,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: DIAGNOSTIC AI SOFTWARE
+    3: 'DIAGNOSTIC
+
+      AI SOFTWARE'
     5: AI spots urgent findings in medical scans and alerts care teams.
     6: VALUE CREATION
 - id: ed107-s2
@@ -2691,7 +2724,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: CARE WORKFLOW AI
+    3: 'CARE
+
+      WORKFLOW AI'
     5: AI turns care conversations into reviewed visit notes and tasks.
     6: VALUE CREATION
 - id: ed107-s3
@@ -2781,7 +2816,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: REVENUE CYCLE AI
+    3: 'REVENUE
+
+      CYCLE AI'
     5: AI links patient notes to codes and cleaner claims for payment.
     6: VALUE CREATION
 - id: ed107-s4
@@ -2871,7 +2908,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: PAYER AI PLATFORMS
+    3: 'PAYER AI
+
+      PLATFORMS'
     5: AI checks care requests against payer rules and clinical proof.
     6: VALUE CREATION
 - id: ed107-s5
@@ -2961,7 +3000,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: LIFE SCIENCE AI
+    3: 'LIFE
+
+      SCIENCE AI'
     5: AI helps drugmakers find targets and design test compounds.
     6: VALUE CREATION
 - id: ed107-s6
@@ -4711,7 +4752,7 @@ slides:
     - Lab cost|shift 2024
     - Acquired|Nov 2024
     - ''
-    src: ../../assets/logos/lib/exscientia.png
+    src: ../../assets/logos/pp/exscientia.png
   - name: Recursion Pharmaceuticals
     slug: recursion-pharmaceuticals
     ini: R
@@ -4744,7 +4785,7 @@ slides:
     - Team shape|changed
     - ''
     - ''
-    src: ../../assets/logos/lib/heidi.png
+    src: ../../assets/logos/pp/heidi.png
   note:
   - We selected documented negative events, not rumors or weak growth claims.
   - We left cells blank where a matching warning sign had no verified public evidence.

@@ -386,6 +386,7 @@ slides:
   type: sx_categories_n
   section: Market definition
   title: How can we categorize companies of the humanoid robotics market?
+  page: 1/3
   note: We could categorize the field in many ways, but these five robot types capture most current company strategies and make the map easier to read
   src: 18
   categories:
@@ -416,63 +417,73 @@ slides:
     emoji: 🏭
   categorization: Here, we categorize by type of robot
 - id: ed019
-  type: x/categorize_companies_market
+  type: sx_categories_n
   section: Market definition
   title: How can we categorize companies of the humanoid robotics market?
-  page: 1/2
+  page: 2/3
   note: We also categorize by place of use because factory, warehouse, home and service environments create very different requirements for safety, mobility, dexterity and economics.
   src: 19
-  t:
-    7: 'RETAIL +
-
-      SERVICES'
-    8: Companies automating repetitive handling, sequencing, machine tending and assembly work on production floors
-    10: 'CAR + ELECTRONICS
+  categorization: Here, we categorize by where the robot works
+  categories:
+  - label: 'CAR + ELECTRONICS
 
       FACTORIES'
-    11: Companies moving totes, handling goods and automating repetitive material workflows in distribution sites
-    13: 'WAREHOUSES +
+    description: Companies automating handling, sequencing, machine tending and assembly work on production floors
+    emoji: 🏭
+  - label: 'WAREHOUSES
 
-      LOGISTICS'
-    14: 🏭
-    15: 🚚
-    16: Companies building safe, quiet humanoids for chores, assistance and everyday interaction around people
-    18: 'HOMES +
+      + LOGISTICS'
+    description: Companies moving totes, handling goods and automating repetitive work in distribution sites
+    emoji: 🚚
+  - label: 'HOMES +
 
       ELDER CARE'
-    19: Companies using humanoid form for customer-facing assistance, hospitality, guidance and practical service tasks
-    21: 🏠
-    22: 🛒
-    25: Here, we categorize by the place where the robot works
+    description: Companies building safe, quiet humanoids for chores, assistance and daily life around people
+    emoji: 🏠
+  - label: 'RETAIL +
+
+      SERVICES'
+    description: Companies using humanoids for customer assistance, hospitality, guidance and service tasks
+    emoji: 🛒
+  - label: 'RESEARCH
+
+      LABS'
+    description: Companies selling humanoids to universities and AI labs that train robot skills and test models
+    emoji: 🔬
 - id: ed020
-  type: x/categorize_companies_market
+  type: sx_categories_n
   section: Market definition
   title: How can we categorize companies of the humanoid robotics market?
-  page: 2/2
+  page: 3/3
   note: We add commercial maturity as a third lens, because a robot sold as a developer platform, used in a paid pilot or working commercially is at a very different stage
   src: 20
-  t:
-    7: 'CONSUMER
-
-      PREORDERS'
-    8: Companies shipping complete humanoids mainly for research, software development and embodied-AI training
-    10: 'DEVELOPER
+  categorization: Here, we categorize by commercial maturity
+  categories:
+  - label: 'DEVELOPER
 
       HARDWARE'
-    11: Companies placing robots with enterprises to validate tasks, economics, safety and integration before scale
-    13: 'PAID
+    description: Companies shipping complete humanoids mainly for research, software work and embodied-AI training
+    emoji: 🧑‍💻
+  - label: 'PAID
 
       PILOTS'
-    14: 🧑‍💻
-    15: ⏳
-    16: Companies with robots performing recurring work under commercial customer agreements in operating facilities
-    18: 'LIVE COMMERCIAL
+    description: Companies placing robots with enterprises to test tasks, economics and safety before scaling up
+    emoji: ⏳
+  - label: 'LIVE COMMERCIAL
 
       DEPLOYMENTS'
-    19: Companies taking orders for home humanoids before broad consumer delivery and fully autonomous capability
-    21: 🏭
-    22: 🏠
-    25: Here, we categorize by commercial maturity
+    description: Companies with robots doing recurring paid work under customer contracts in operating facilities
+    emoji: 🏭
+  - label: 'CONSUMER
+
+      PREORDERS'
+    description: Companies taking orders for home humanoids before broad delivery and fully autonomous use
+    emoji: 🏠
+  - label: 'ROBOTS AS
+
+      A SERVICE'
+    description: Companies renting robots by the hour or the month instead of selling them outright to customers
+    emoji: ⏱️
 - id: ed021
   type: x/top_companies_market
   section: Market definition
@@ -1473,7 +1484,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: CAR AND ELECTRONICS FACTORIES
+    3: 'CAR AND ELECTRONICS
+
+      FACTORIES'
     5: Humanoids for factory assembly and parts handling, where repeatability, safe operation and uptime decide value
     6: PAIN POINTS
 - id: ed063-s1
@@ -1607,7 +1620,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: WAREHOUSES AND LOGISTICS
+    3: 'WAREHOUSES
+
+      AND LOGISTICS'
     5: Humanoids for warehouse material handling, where throughput, safe movement and fleet uptime drive value
     6: PAIN POINTS
 - id: ed063-s2
@@ -1741,7 +1756,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: HOMES AND ELDER CARE
+    3: 'HOMES AND
+
+      ELDER CARE'
     5: Humanoids for home chores and daily assistance, where safety, privacy, autonomy and trust matter most
     6: PAIN POINTS
 - id: ed063-s3
@@ -1875,7 +1892,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: RETAIL AND SERVICES
+    3: 'RETAIL AND
+
+      SERVICES'
     5: Humanoids for greeting and shopping help, where interaction quality, public safety and easy operation matter
     6: PAIN POINTS
 - id: ed063-s4
@@ -2639,7 +2658,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: BIPEDAL GENERAL-PURPOSE HUMANOIDS
+    3: 'BIPEDAL GENERAL-PURPOSE
+
+      HUMANOIDS'
     5: Two-legged robots built for varied jobs in human-designed workplaces
     6: VALUE CREATION
 - id: ed107-s1
@@ -2727,7 +2748,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: WHEELED AND HYBRID-BASE HUMANOIDS
+    3: 'WHEELED AND
+
+      HYBRID-BASE HUMANOIDS'
     5: Human-form upper bodies on mobile bases for stable indoor manipulation
     6: VALUE CREATION
 - id: ed107-s2
@@ -2813,7 +2836,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: LOW-COST AND OPEN DEVELOPER PLATFORMS
+    3: 'LOW-COST AND OPEN
+
+      DEVELOPER PLATFORMS'
     5: Affordable programmable humanoids for research, education and AI development
     6: VALUE CREATION
 - id: ed107-s3
@@ -2899,7 +2924,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: SOCIAL AND EXPRESSIVE HUMANOIDS
+    3: 'SOCIAL AND
+
+      EXPRESSIVE HUMANOIDS'
     5: Human-facing robots built for conversation, expression and social presence
     6: VALUE CREATION
 - id: ed107-s4
@@ -2989,7 +3016,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: HEAVY-DUTY INDUSTRIAL SUPERHUMANOIDS
+    3: 'HEAVY-DUTY INDUSTRIAL
+
+      SUPERHUMANOIDS'
     5: High-payload humanoids built for strenuous and hazardous industrial work
     6: VALUE CREATION
 - id: ed107-s5
