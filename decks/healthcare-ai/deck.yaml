@@ -3754,7 +3754,7 @@ slides:
     19: 2026 (NOV)
     20: Kardi Ai raised a $6M Series A led by Callisto Health. It uses AI analysis of ECG recordings {1|Tech.eu}
     21: 2026 (NOV)
-    22: Skribe Medical raised a $1.6M seed round led by SeaX Ventures for its diagnostic AI software {1|PR Newswire}
+    22: Skribe Medical raised a $1.6M seed round led by SeaX. It develops an AI-assisted wearable cardiac monitoring patch {1|PR Newswire}
     23: 2026 (NOV)
     24: XpertDox raised a $20M Series A led by Savant Growth. It automates medical coding {1|Business Wire}
 - id: ed157
@@ -3768,11 +3768,11 @@ slides:
   src: 157
   t:
     14: 2026 (NOV)
-    15: Charta Health raised a $55M Series B led by Insight Partners for its AI medical chart review platform {1|Charta}
+    15: Charta Health raised a $55M Series B led by Insight for its AI medical chart review platform {1|Charta Health}
     16: 2026 (NOV)
     17: Alterra Labs raised a $12M seed round led by Oak HC/FT for its clinical AI tools {1|Fortune}
     18: 2026 (NOV)
-    19: Zus Health raised a $33M Series B led by Drive Capital for its clinical AI tools {1|GlobeNewswire}
+    19: Zus Health raised a $33M Series B led by Drive for its clinical AI tools {1|GlobeNewswire}
     20: 2026 (NOV)
     21: Granit raised a $4M seed round led by Seedcamp for its revenue cycle AI {1|Getgranit}
     22: 2026 (NOV)
@@ -3833,7 +3833,7 @@ slides:
   src: 159
   bars:
   - x: '2024'
-    v: 7036
+    v: 7024
     ann: Xaira Therapeutics $1B, Formation Bio $372M
   - x: '2025'
     v: 10691
@@ -3847,15 +3847,15 @@ slides:
   title: 'What stands out in
 
     healthcare AI funding?'
-  note: We drew these insights from our tracker of 849 healthcare AI equity rounds announced since January 2024, worth about $29.2B
+  note: We drew these insights from our tracker of 848 healthcare AI equity rounds announced since January 2024, worth about $29.2B
   src: 160
   t:
     6: Life science AI took about 46% of the capital raised since 2024, far ahead of care workflow AI with about 23%
-    7: 829 of the 849 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
-    8: US startups closed 509 of the 849 rounds and took $20B, about 70% of the money, far ahead of the United Kingdom
+    7: 828 of the 848 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
+    8: US startups closed 509 of the 848 rounds and took $20B, about 70% of the money, far ahead of the United Kingdom
     9: 65 rounds of $100M or more made up about 54% of all the capital raised in the market since 2024
     10: The $2.1B Series B of Isomorphic Labs is the biggest round since 2024, ahead of the $1B raised by Xaira Therapeutics in 2024
-    11: Seed was the most common round, with 326 of the 849 rounds, ahead of Series A with 241 and Series B with 103
+    11: Seed was the most common round, with 326 of the 848 rounds, ahead of Series A with 240 and Series B with 103
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
@@ -3872,7 +3872,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 849 rounds raised $29B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
+      Since 2024, 848 rounds raised $29B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -3887,7 +3887,7 @@ slides:
   bars:
   - x: '2024'
     v: 14
-    ann: Xaira Therapeutics’ $1B, out of 256 rounds
+    ann: Xaira Therapeutics’ $1B, out of 255 rounds
   - x: '2025'
     v: 6
     ann: Isomorphic Labs’ $600M, out of 322 rounds
@@ -3905,22 +3905,22 @@ slides:
     amt: 2100000000
     date: Q2 2026
     stage: Series B
-    src: ../../assets/logos/lib/isomorphic-labs.png
+    src: ../../assets/logos/nl/isomorphic-labs.png
   - name: Neko Health
     amt: 700000000
     date: Q3 2026
     stage: Series C
-    src: ../../assets/logos/lib/neko-health.png
+    src: ../../assets/logos/nl/neko-health--symbol.png
   - name: NewLimit
     amt: 435000000
     date: Q2 2026
     stage: Series C
-    src: ../../assets/logos/newlimit.png
+    src: ../../assets/logos/nl/newlimit.png
   - name: Chai Discovery
     amt: 400000000
     date: Q3 2026
     stage: Series C
-    src: ../../assets/logos/lib/chai-discovery.png
+    src: ../../assets/logos/nl/chai-discovery.png
   note:
   - We listed the biggest equity rounds raised by healthcare AI startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
@@ -3935,22 +3935,22 @@ slides:
     amt: 1000000000
     date: '2019'
     stage: Growth Equity
-    src: ../../assets/logos/verily.png
+    src: ../../assets/logos/nl/verily.png
   - name: Xaira Therapeutics
     amt: 1000000000
     date: '2024'
     stage: Series A
-    src: ../../assets/logos/lib/xaira.png
+    src: ../../assets/logos/nl/xaira-therapeutics.png
   - name: Caris Life Sciences
     amt: 830000000
     date: '2021'
     stage: Growth Equity
-    src: ../../assets/logos/pp/caris-life-sciences.png
+    src: ../../assets/logos/nl/caris-life-sciences.png
   - name: Verily
     amt: 800000000
     date: '2017'
     stage: Growth Equity
-    src: ../../assets/logos/verily.png
+    src: ../../assets/logos/nl/verily.png
   note:
   - We listed the biggest equity rounds raised by healthcare AI startups before the last twelve months
   - We used our tracker of rounds, company announcements and the press, with sources at the end
@@ -3960,7 +3960,7 @@ slides:
   title: 'Where did most
 
     of the capital go?'
-  note: We used our tracker of 849 healthcare AI equity rounds announced since January 2024, worth about $29.2B. IPOs, debt and grants are left out
+  note: We used our tracker of 848 healthcare AI equity rounds announced since January 2024, worth about $29.2B. IPOs, debt and grants are left out
   src: 167
   t:
     6: LIFE SCIENCE AI
@@ -3979,7 +3979,7 @@ slides:
     17: Isomorphic Labs, Xaira Therapeutics, NewLimit
     18: EXAMPLES OF STARTUPS
     19: Abridge, Innovaccer, Ambience Healthcare, Forus
-    20: Neko Health, Caris Life Sciences, Aidoc, Harrison.ai
+    20: Neko Health, Caris Life Sciences, Aidoc, Harrison.ai, Cleerly
     24: SINCE 2024
 - id: ed168p
   type: invbets
@@ -4064,12 +4064,12 @@ slides:
   title: 'Who are the most
 
     active investors?'
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 849 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 848 rounds
   src: 169
   t:
     7: ANDREESSEN HOROWITZ
     8: GENERAL CATALYST
-    9: INSIGHT PARTNERS
+    9: INSIGHT
     10: '15'
     11: DEALS
     12: '11'
@@ -4083,7 +4083,7 @@ slides:
     20: Hippocratic AI, Clarium
     21: Sensi.AI, Cleerly
     25: SINCE 2024
-    26: KHOSLA VENTURES
+    26: KHOSLA
     27: LIGHTSPEED
     28: '11'
     29: '9'
@@ -4689,7 +4689,7 @@ slides:
     - AI-first|strategy
     - ''
     - ''
-    src: ../../assets/logos/lib/benchsci.png
+    src: ../../assets/logos/nl/benchsci.png
   - name: BenevolentAI
     slug: benevolentai
     ini: B
@@ -4700,7 +4700,7 @@ slides:
     - Strategy|reset 2024
     - Delisted|Mar 2025
     - ''
-    src: ../../assets/logos/benevolentai.png
+    src: ../../assets/logos/nl/benevolentai.png
   - name: Exscientia
     slug: exscientia
     ini: E
@@ -4722,7 +4722,7 @@ slides:
     - Merged and|refocused
     - ''
     - ''
-    src: ../../assets/logos/lib/recursion-pharmaceuticals.png
+    src: ../../assets/logos/nl/recursion-pharmaceuticals.png
   - name: Verge Genomics
     slug: verge-genomics
     ini: V
@@ -4733,7 +4733,7 @@ slides:
     - Discovery|refocus
     - ''
     - Phase 1|missed goal
-    src: ../../assets/logos/verge-genomics.png
+    src: ../../assets/logos/nl/verge-genomics.png
   - name: Heidi
     slug: heidi
     ini: H
@@ -4900,17 +4900,17 @@ slides:
   src: 205
   t:
     14: 2024 (APR)
-    15: Xaira Therapeutics raised a $1B Series A led by ARCH Venture Partners for its AI-powered protein design and drug discovery {1|Xaira}
+    15: Xaira Therapeutics raised a $1B Series A led by ARCH for its AI-powered protein design and drug discovery {1|Xaira}
     16: 2025 (MAR)
-    17: Isomorphic Labs raised a $600M Series A led by Thrive Capital for its AI drug discovery and molecular design {1|Isomorphic}
+    17: Isomorphic Labs raised a $600M Series A led by Thrive for its AI drug discovery and molecular design {1|Isomorphic}
     18: 2026 (MAY)
-    19: Isomorphic Labs raised a $2.1B Series B led by Thrive Capital for its AI drug discovery and molecular design {1|Isomorphic}
+    19: Isomorphic Labs raised a $2.1B Series B led by Thrive for its AI drug discovery and molecular design {1|Isomorphic}
     20: 2026 (JUN)
     21: NewLimit raised a $435M Series C led by Founders Fund for its epigenetic reprogramming for aging treatments {1|NewLimit}
     22: 2026 (JUL)
-    23: Chai Discovery raised a $400M Series C led by Index Ventures for its life science AI {1|Chai}
+    23: Chai Discovery raised a $400M Series C led by Index for its AI-designed molecular discovery and drug-design models {1|Chai Discovery}
     24: 2026 (JUL)
-    25: Neko Health raised a $700M Series C led by Lightspeed Venture Partners for its preventive full-body health scanning {1|Neko}
+    25: Neko Health raised a $700M Series C led by Lightspeed for its preventive full-body health scanning {1|Neko Health}
 - id: ed206
   type: x/success_look_like_market
   section: Startup strategies
@@ -5124,7 +5124,7 @@ slides:
   src: 210
   title: How Abridge turned medical notes into care intelligence
   type: contrast
-  logo_src: ../../assets/logos/lib/abridge.png
+  logo_src: ../../assets/logos/nl/abridge.png
 - id: ed211
   left: A REGULAR HEALTHCARE AI STARTUP
   logo: openevidence
@@ -5153,11 +5153,11 @@ slides:
   src: 211
   title: How OpenEvidence made evidence search a $15B platform
   type: contrast
-  logo_src: ../../assets/logos/openevidence.png
+  logo_src: ../../assets/logos/nl/openevidence--symbol.png
 - id: ed212
   left: A REGULAR HEALTHCARE AI STARTUP
   logo: hippocratic-ai
-  logo_src: ../../assets/logos/lib/hippocratic-ai.png
+  logo_src: ../../assets/logos/nl/hippocratic-ai.png
   note:
   - We used company releases and customer disclosures to describe each named platform
   - We treated “a regular startup” as a fictional baseline, shown here only for contrast
@@ -5186,7 +5186,7 @@ slides:
 - id: ed213
   left: A REGULAR HEALTHCARE AI STARTUP
   logo: ambience-healthcare
-  logo_src: ../../assets/logos/pp/ambience-healthcare.png
+  logo_src: ../../assets/logos/nl/ambience-healthcare.png
   note:
   - We used company releases and customer disclosures to describe each named platform
   - We treated “a regular startup” as a fictional baseline, shown here only for contrast
@@ -5215,7 +5215,7 @@ slides:
 - id: ed214
   left: A REGULAR HEALTHCARE AI STARTUP
   logo: candid-health
-  logo_src: ../../assets/logos/lib/candid-health.png
+  logo_src: ../../assets/logos/nl/candid-health.png
   note:
   - We used company releases and customer disclosures to describe each named platform
   - We treated “a regular startup” as a fictional baseline, shown here only for contrast
