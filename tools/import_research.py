@@ -189,6 +189,21 @@ def lib_logo(cands):
     return None
 
 
+NL = Path('/home/claude/nmp-logos')
+def nmp_logo(name, domain=''):
+    """nmp-logos lookup (find_logo.logo): copies the file into assets/logos/nl/<id>.png, the public copy the decks load."""
+    if not (NL / 'find_logo.py').exists(): return None
+    import sys as _s, shutil
+    if str(NL) not in _s.path: _s.path.insert(0, str(NL))
+    try:
+        from find_logo import logo as _fl
+        p = _fl(name, domain=domain or None) if domain else _fl(name)
+    except Exception: return None
+    if not p: return None
+    p = Path(p); dst = ROOT / 'assets/logos/nl' / p.name; dst.parent.mkdir(parents=True, exist_ok=True)
+    if not dst.exists() or dst.stat().st_size != p.stat().st_size: shutil.copy(p, dst)
+    return f'../../assets/logos/nl/{p.name}'
+
 def logo(name, deck_rel=True):
     """company name -> logo path seen from deck.html: assets/logos (and pp/), else a generated initials tile (listed as missing)"""
     domain = ''
@@ -198,6 +213,8 @@ def logo(name, deck_rel=True):
     base = slugify(name.replace('²', '2').replace('³', '3')); cands = [base]
     short = re.sub(r'-(therapeutics|biotherapeutics|biopharma|biotechnology|biotech|medicines|bio|inc|sciences|pharmaceuticals?|robotics|robot|ai|labs|technologies|technology|dynamics)$', '', base)
     cands += [short, short + '-therapeutics', short + '-bio', short + '-biopharma', short + '-robotics', short + '-ai']
+    nl = nmp_logo(name, domain)                  # githpierre/nmp-logos first, the only place for logos (Pierre, 18 Nov 2026, LOGOS.md)
+    if nl: return nl
     for c in cands:
         if (ROOT / 'assets/logos' / f'{c}.png').exists(): return f'../../assets/logos/{c}.png'
     hit = lib_logo(cands)
