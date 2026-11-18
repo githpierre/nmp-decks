@@ -62,6 +62,10 @@ Look at `MARKETS.md` first. If the market is there, NEVER rebuild it from step 0
   `CONTRAST ROWS`, `COVER NOT COPIED`, `DUPLICATE KEY`); `research_report.md` read; `logos_missing.txt` short, and the
   missing ones asked to Pierre in one list.
 
+- Piste B (18 Nov 2026): a full build (`--png`) refuses to run while the import prints MODEL MARKET LEFT, MODEL ICON LEFT,
+  MODEL SOURCES LEFT, NO ANSWER or FIXED CHART: no slide of the reference market can reach a review page or a PDF.
+  `--fast` still builds a draft to work on.
+
 ## Step 4. Fix until clean (Claude)
 - Texts too long, too short or uneven: rewrite in `decks/<handle>/edits.yaml` (same facts; a text too short gets one more
   concrete fact). Never shrink fonts by hand.

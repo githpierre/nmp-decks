@@ -448,6 +448,7 @@ def main():
     for f_ in ('live.yaml', 'db.yaml', 'edits.yaml'):
         if (out / f_).exists(): _given |= set(yaml.safe_load((out / f_).read_text()) or {})
     _left = [i for i in NOANS if i not in _given and any(x['id'] == i for x in S)]
+    if a.model and R and not (out / 'sources_key.yaml').exists(): print('MODEL SOURCES LEFT: the source slides still list the reference market. Write decks/<handle>/sources_key.yaml (20 key sources from the research files) and run tools/build_sources.py (piste B, 18 Nov 2026)')
     if _left and R: print('NO ANSWER (the slide still shows the reference market, give it in live.yaml or edits.yaml, or drop it):', ' '.join(_left))
     _rad = next((x for x in S if x.get('id') == 'ed007p'), None)   # the eye decides (a corner can be an edge case that is in the market, or an incumbent named as context): the list only makes sure it is looked at (14 Nov 2026: Tempus AI outside the radar and leader on three slides)
     for c in ('TL', 'TR', 'BL', 'BR'):

@@ -1,0 +1,107 @@
+# Spec of the research prompts for the Longevity deck (tools/make_market_prompts.py). Method v2, piste A checks, piste B gate.
+# Pierre 18 Nov 2026: pain segments option B (types of buyer), the 6 categories of the base as value segments, base as of 4 Nov 2026.
+name: longevity
+handle: longevity
+uuid: 2
+date: '2026-11-18'
+today: 18 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, HALEU
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and SEC or exchange filings (Altos Labs, Retro Biosciences, NewLimit, BioAge Labs, Unity Biotechnology, Loyal, Function Health, Superpower, Fountain Life, Prenuvo, Neko Health,
+  TruDiagnostic, Timeline, Insilico Medicine), ClinicalTrials.gov, FDA and EMA documents (TAME trial, Loyal conditional approval, indications), peer-reviewed papers (Nature Aging, Cell, Aging Cell, GeroScience),
+  NIH and National Institute on Aging, Hevolution and XPRIZE Healthspan, longevity media (Longevity.Technology, Lifespan.io, Fight Aging!), market research firms with a named method, and reputable press
+  (Reuters, Bloomberg, Financial Times, Wall Street Journal, STAT News, Endpoints, Fierce Biotech, TechCrunch, Axios).
+pain_segments:
+- Self-paying healthy adults
+- Older adults facing decline
+- Doctors and clinics
+- Employers and insurers
+value_segments:
+- Aging-biology drugs
+- Preventive health platforms
+- Biological-age tests
+- Longevity clinics
+- Consumer longevity brands
+- Aging research platforms
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+live_twins:
+- ed039p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which aging drugs are being tested in people today?
+    brief: 8 rows = 8 real clinical programs of longevity companies (aging-biology drugs or drugs for a decline that comes with age). Rows read "drug or program" + "COMPANY · TARGET" + stage (PHASE 1 /
+      PHASE 2 / PHASE 3 / APPROVED). Only programs listed on ClinicalTrials.gov, in a filing or in a company release. Not a preclinical program.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between longevity companies and large groups (pharma licensing and partnerships, acquisitions, large strategic investments, government or foundation awards such as Hevolution or
+      ARPA-H, IPOs or SPACs), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to bring an aging drug to market?
+    brief: 5 steps from an aging-biology discovery to a sold product (for example animal studies on lifespan and healthspan, choosing a first disease indication because regulators do not accept aging as
+      one, phase 1 safety, phase 2 and 3 efficacy, approval and payer coverage, or the consumer path for tests and clinics). Each step in plain words with who decides and a typical duration.
+  iv_safety:
+    title: What could go wrong with longevity products?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example failed trials like Unity Biotechnology, off-label use of rapamycin or metformin, unvalidated biological-age
+      tests, regulator warnings on clinics or supplements, data and privacy issues of consumer testing). Real reports, regulator documents or reported cases only.
+extra:
+  ed061: 'For longevity: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line
+    description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: funding records (Retro, NewLimit, Altos, Function Health, Superpower), Loyal and the first lifespan drug for dogs at FDA, TAME and metformin trials, GLP-1 drugs studied for aging, Bryan Johnson
+  and consumer demand, longevity clinics opening (Fountain Life, Biograph, Prenuvo, Neko Health), biological-age tests and their sales, pharma deals on aging biology (Novo Nordisk, Eli Lilly, AbbVie-Calico),
+  Hevolution and XPRIZE Healthspan money, Google searches for how to live longer, membership prices and subscriber counts, IPOs and SPACs, regulator moves (FDA, Montana right-to-try law).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, failed or stopped clinical trials, regulator warnings or recalls, clinics closed,
+  layoffs, customers or partners that walked away, valuations that fell, short-seller reports. Scope: companies whose core product is an longevity product (aging-biology drugs, longevity clinics, biological-age
+  tests, consumer longevity brands), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, project cancelled, trial failed, value fell, shut down or sold). Each cell is two short lines
+  separated by | or empty. Give the website domain of each company.
+
+  - ed200: why longevity startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: Longevity
+label: Longevity
+keep_together:
+- longevity
+examples:
+  jargon_bad: Senolytic small molecules targeting p16-positive cells to reduce SASP.
+  jargon_good: Pills that clear out old, worn-out cells that send harmful signals to the tissue around them.
+  jargon_why: the reader is not a biologist
+  proof_rule: 'A mouse study, a biological-age test result or a wellness claim is not proof that a product adds healthy years: say whether there is a human trial, its phase and its result, and who reported
+    it.'
+  proof_bad: Company X reverses aging by 10 years.
+  proof_good: Company X lowered an epigenetic age score in a 60-person phase 1 study, with no data yet on health outcomes.
+  proof_why: an age score is not a health outcome
+  fresh_bad: Company X had 10,000 members in 2025
+  fresh_good: Company X reported 200,000 paying members in October 2026, against 50,000 a year earlier
+  fresh_est: Company X should end 2026 near $150M of revenue, against $60M in 2025
+  fresh_method: latest reported members or revenue and company statements, press reports as a cross-check
+  not_proof: an animal study is not a human result
+trends_csv: assets/trends/longevity/how-to-live-longer.csv
