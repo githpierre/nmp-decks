@@ -1,8 +1,18 @@
 # Protocol: a new market deck, step by step
 
-Read this file, then RULES.md (what a slide must look like). Nothing else is required.
+Read MARKETS.md (markets already built), this file, then RULES.md (what a slide must look like). Nothing else is required.
 The reference deck is `decks/in-vivo-car-t`. Every new market is built from it (EdTech is retired, `archive/`).
 Speak French to Pierre. Each step ends with a gate: do not go to the next step until the gate is green.
+
+## A market already built? (a client orders it again, Pierre 18 Nov 2026)
+Look at `MARKETS.md` first. If the market is there, NEVER rebuild it from step 0:
+1. `python3 tools/stale.py <handle>`: chapters to redo (dated chapters older than 60 days), SIGNAL slides past their limit,
+   relative time words to rewrite, product-page twins to compare with the live page.
+2. ONE zip of research prompts for the chapters marked TO REDO only (`make_market_prompts.py`, same spec in `plans/`),
+   plus the signals prompt. Evergreen chapters (01, 04, 06) are only re-read by Claude.
+3. Pierre returns the results: put them in `decks/<handle>/research` (they replace the old files of the same chapter),
+   then `tools/rebuild.sh <handle> --png`. Base figures re-flow by themselves (`{db.key}`), sources are rebuilt.
+4. Gate of step 4, then the review page (only the slides that changed), then the PDF of the current quarter.
 
 ## Step 0. Start (Claude, 10 min)
 - Clone the logo libraries: githpierre/nmp-pages and githpierre/nmp-product-pages (add_repo, then `git clone --depth 1`

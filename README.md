@@ -3,6 +3,7 @@
 NewMarketPitch market decks in HTML/CSS, exported to PDF (10 x 7 in).
 
 Start here:
+0. `MARKETS.md` — markets already built: they are UPDATED (`tools/stale.py`), never rebuilt.
 1. `PROTOCOL.md` — how a new market deck is made, step by step, with a gate at each step.
 2. `RULES.md` — what a slide must look like (one line per rule; most are checked by code).
 3. `SIGNALS.md` — catalogue of extra-slide formats.
