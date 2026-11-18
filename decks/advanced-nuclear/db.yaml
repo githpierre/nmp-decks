@@ -1,0 +1,170 @@
+ed156:
+  13: 2026 (NOV)
+  14: Project Omega raised a $80M Series A led by B Capital for its reprocesses used nuclear fuel into advanced reactor feedstocks {1|Project}
+  15: 2026 (OCT)
+  16: Kairos Power raised a $368M strategic round led by GV for its fluoride salt-cooled nuclear reactors {1|Bloomberglaw}
+  17: 2026 (OCT)
+  18: RX raised $7M. It designs and licenses the RX-50 light-water SMR for industrial and district heat supply {1|Sedaily}
+  19: 2026 (OCT)
+  20: Weilan Zhidian raised a $30M Series A led by Sky9 Capital. It develops compact water-cooled small modular fission reactors for power {1|Sky9}
+  21: 2026 (SEP)
+  22: Bluecore Energy raised a $50M seed round led by Silverton Partners for its floating nuclear power platforms {1|TechCrunch}
+  23: 2026 (AUG)
+  24: Hexana raised a $2.3M strategic round for its sodium-cooled fast nuclear reactors {1|Hexana}
+  note: We list the latest equity rounds of advanced nuclear startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (AUG)
+  15: Apollo Atomics raised a $26M seed round led by FCVC for its factory-built pressurized water microreactors {1|LinkedIn}
+  16: 2026 (AUG)
+  17: Deployable Energy raised an undisclosed round led by Solaris Energy Infrastructure for its microreactors {1|Deployable}
+  18: 2026 (AUG)
+  19: Valar Atomics raised a $1B Series B led by Sequoia Capital for its mass-manufactured advanced nuclear reactors {1|Valar}
+  20: 2026 (AUG)
+  21: Molten Salt Solutions raised a $7M seed round led by Dolby Family Ventures for its enriches lithium isotopes for nuclear energy {1|PR Newswire}
+  22: 2026 (JUL)
+  23: Antares raised a $370M Series C led by Paradigm for its factory-produced nuclear microreactors {1|Antares}
+  24: 2026 (JUL)
+  25: Nuclear Turbines raised a $19M pre-seed round led by IQ Capital for its compact industrial nuclear reactors {1|Iqcapital}
+  note: We list the latest equity rounds of advanced nuclear startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 1126
+    ann: TerraPower’s $650M made up most of it, in 15 rounds
+  - x: 2025 H2
+    v: 1573
+    ann: X-energy $700M, Radiant $300M, in 17 rounds
+  - x: 2026 H1
+    v: 1151
+    ann: Blue Energy $380M, Valar Atomics $340M, in 18 rounds
+  - x: 2026 H2
+    v: 1969
+    ann: Valar Atomics’ $1B made up most of it, in 13 rounds
+  note:
+  - We add up the disclosed equity rounds of advanced nuclear startups in our tracker, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 1270
+    ann: X-energy $500M, Rolls-Royce SMR $273M
+  - x: '2025'
+    v: 2698
+    ann: X-energy $700M, TerraPower $650M
+  - x: '2026'
+    v: 3120
+    ann: Valar Atomics $1B, Blue Energy $380M
+  note:
+  - We add up the disclosed equity rounds of advanced nuclear startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 39
+    ann: X-energy’s $500M, out of 25 rounds
+  - x: '2025'
+    v: 26
+    ann: X-energy’s $700M, out of 32 rounds
+  - x: 2026 (YTD)
+    v: 32
+    ann: Valar Atomics’ $1B, out of 31 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Valar Atomics
+    amt: 1000000000
+    date: Q3 2026
+    stage: Series B
+  - name: X-energy
+    amt: 700000000
+    date: Q4 2025
+    stage: late-stage
+  - name: Blue Energy
+    amt: 380000000
+    date: Q2 2026
+    stage: Series A
+  - name: Antares
+    amt: 370000000
+    date: Q3 2026
+    stage: Series C
+  note:
+  - We listed the biggest equity rounds raised by advanced nuclear startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: TerraPower
+    amt: 830000000
+    date: '2022'
+    stage: Growth Equity
+  - name: TerraPower
+    amt: 650000000
+    date: '2025'
+    stage: Equity
+  - name: X-energy
+    amt: 500000000
+    date: '2024'
+    stage: Series C
+  - name: newcleo
+    amt: 315000000
+    date: '2022'
+    stage: Equity
+  note:
+  - We listed the biggest equity rounds raised by advanced nuclear startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: HIGH-TEMPERATURE GAS REACTORS
+  9: '11'
+  13: $3B
+  17: Valar Atomics, X-energy, Jimmy, Nuclear Turbines
+  7: MICROREACTORS
+  11: '19'
+  15: $1.2B
+  19: Antares, Radiant, Aalo Atomics, Deep Fission
+  8: LIGHT-WATER SMRS
+  12: '14'
+  16: $996M
+  20: Blue Energy, Rolls-Royce SMR, Last Energy
+  note: We used our tracker of 88 advanced nuclear equity rounds announced since January 2024, worth about $7.1B. IPOs, debt and grants are left out
+ed169:
+  7: DCVC
+  10: '3'
+  14: $533M
+  18: Radiant (twice), Kairos Power
+  8: CAFFEINATED CAPITAL
+  12: '2'
+  16: $400M
+  20: Antares (twice)
+  9: DECISIVE POINT
+  13: '2'
+  17: $182M
+  21: Standard Nuclear (twice)
+  26: VALOR EQUITY PARTNERS
+  28: '2'
+  30: $127M
+  32: Aalo Atomics (twice)
+  27: AT ONE VENTURES
+  29: '2'
+  31: $61M
+  33: Blue Energy, Stellaria
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 88 rounds
+ed205:
+  14: 2024 (OCT)
+  15: X-energy raised a $500M Series C led by Amazon for its advanced reactors and nuclear fuel {1|X-energy}
+  16: 2025 (JUN)
+  17: TerraPower raised $650M led by NVentures for its advanced reactors and nuclear innovation {1|TerraPower}
+  18: 2025 (NOV)
+  19: X-energy raised a $700M late-stage round led by Jane Street for its advanced reactors and nuclear fuel {1|X-energy}
+  20: 2026 (APR)
+  21: Blue Energy raised a $380M Series A led by VXI Capital for its prefabricated nuclear power plants {1|Bloomberg}
+  22: 2026 (JUL)
+  23: Antares raised a $370M Series C led by Paradigm for its factory-produced nuclear microreactors {1|Antares}
+  24: 2026 (AUG)
+  25: Valar Atomics raised a $1B Series B led by Sequoia Capital for its mass-manufactured advanced nuclear reactors {1|Valar}
+  note: We picked the biggest disclosed rounds of advanced nuclear startups since 2024, from our tracker of rounds

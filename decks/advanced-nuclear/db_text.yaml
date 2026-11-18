@@ -1,0 +1,21 @@
+# Sentences on base figures (ed160, ed162): every figure is a {db.key} of db_facts.yaml, so a base update re-flows them
+ed160:
+  6: High-temperature gas reactors took about {db.cat1_pct}% of the capital raised since 2024, far ahead of microreactors with about {db.cat2_pct}%
+  7: '{db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}'
+  8: US startups closed {db.us_n} of the {db.n} rounds and took {db.us_money}, about {db.us_money_pct}% of the money, far ahead of {db.ctry2}
+  9: '{db.big_n} rounds of $100M or more made up about {db.big_pct}% of all the capital raised in the market since 2024'
+  10: 'The {db.big1_amt} {db.big1_stage} of {db.big1_name} is the biggest round since 2024, ahead of the {db.big2_amt} raised by {db.big2_name} in {db.big2_year}'
+  11: Seed was the most common round, with {db.seed} of the {db.n} rounds, ahead of Series A with {db.series_a} and Series B with {db.series_b}
+  note: We drew these insights from our tracker of {db.n} advanced nuclear equity rounds announced since January 2024, worth about {db.total}
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, the largest checks we track went to a few long-funded developers such as TerraPower, X-energy and newcleo, often backed by billionaires, utilities or the US government.'
+  7: 'AFTER
+
+
+
+    Since 2024, {db.n} rounds raised {db.total}. Gas-cooled reactor makers take the biggest checks, while microreactor startups multiply, mostly in the United States.'
+  note: We used our tracker of advanced nuclear equity rounds, complete from January 2024, and company releases and the press

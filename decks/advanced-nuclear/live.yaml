@@ -1,0 +1,534 @@
+ed058:
+  type: pp_pains
+  title: 'Which advanced nuclear
+
+    problems are still unsolved?'
+  auds:
+  - Power utilities
+  - Tech giants
+  - National governments
+  - Heat networks
+  - Public funders
+  pains:
+  - - They fear the first units will cost far more than first planned
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 3
+  - - They lack a supply chain that can make nuclear-grade parts
+    - - 3
+      - 1
+      - 3
+      - 2
+      - 2
+  - - They compete on price with cheap gas and cheap solar power
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 2
+  - - They wait years to get a license for each new reactor site
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 2
+  - - They need buyers to sign firm deals before construction starts
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 3
+  - - They need trained staff to run the new plants once they open
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which advanced nuclear firm has
+
+    the most complete tech today?'
+  companies:
+  - name: GE Vernova
+    src: ../../assets/logos/pp_live/advanced-nuclear/s05-00.png
+  - name: Oklo
+    src: ../../assets/logos/pp_live/advanced-nuclear/s05-01.png
+  - name: NuScale
+    src: ../../assets/logos/pp_live/advanced-nuclear/s05-02.png
+  - name: TerraPower
+    src: ../../assets/logos/pp_live/advanced-nuclear/s05-03.png
+  - name: X-energy
+    src: ../../assets/logos/pp_live/advanced-nuclear/s05-04.png
+  - name: Kairos
+    src: ../../assets/logos/pp_live/advanced-nuclear/s05-05.png
+  features:
+  - header: NRC design|approval
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: US build|permit
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Building|abroad
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Reactor|started
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Today's|fuel
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own fuel|factory
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Non-water|coolant
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for advanced nuclear?'
+  events:
+  - odds: 30
+    impact: 3
+    text: First advanced reactors run far over budget like Vogtle, and utilities cancel their follow-on orders
+  - odds: 25
+    impact: 3
+    text: A HALEU fuel shortage delays first advanced reactors, since only Centrus makes the fuel in America
+  - odds: 20
+    impact: 2
+    text: Over 120 reactor designs split the few orders, so no small modular reactor reaches factory volume
+  - odds: 20
+    impact: 2
+    text: Oklo and NuScale stocks crash and funding for advanced nuclear startups dries up for years
+  - odds: 15
+    impact: 2
+    text: Cheaper solar and batteries win utility and data center contracts that advanced nuclear startups were counting on
+  - odds: 15
+    impact: 2
+    text: NRC staff cuts slow reviews, delaying licenses for TerraPower, X-energy, Kairos and other reactor developers
+  - odds: 8
+    impact: 2
+    text: A new US administration or Congress cuts nuclear support, ending loans and tax credits for new reactors
+  - odds: 3
+    impact: 3
+    text: A serious accident at a nuclear plant anywhere revives public fear and halts new reactor approvals worldwide
+  note:
+  - We listed the events that could slow advanced nuclear down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed advanced nuclear
+
+    forward, year after year?'
+  events:
+  - year: '1951'
+    text: EBR-I makes the first nuclear electricity
+    impact: 1
+  - year: '1965'
+    text: Oak Ridge runs a molten salt reactor
+    impact: 1
+  - year: '1986'
+    text: EBR-II shuts itself down safely in test
+    impact: 1.5
+  - year: '2011'
+    text: Fukushima drives demand for passive safety
+    impact: 1.5
+  - year: '2015'
+    text: Paris deal raises need for clean power
+    impact: 1
+  - year: '2015'
+    text: DOE launches GAIN to help reactor startups
+    impact: 1
+  - year: '2018'
+    text: Congress opens national labs to startups
+    impact: 1
+  - year: '2019'
+    text: New law orders NRC reactor rulebook
+    impact: 1.5
+  - year: '2020'
+    text: NRC approves NuScale, the first SMR design
+    impact: 2
+  - year: '2020'
+    text: DOE funds TerraPower and X-energy demos
+    impact: 2
+  - year: '2021'
+    text: Infrastructure law adds $2.5B for demos
+    impact: 1.5
+  - year: '2022'
+    text: Ukraine war makes energy security urgent
+    impact: 1.5
+  - year: '2022'
+    text: IRA adds tax credits for new nuclear
+    impact: 2
+  - year: '2023'
+    text: NRC permits Kairos Hermes, a salt reactor
+    impact: 1.5
+  - year: '2023'
+    text: 22 nations pledge to triple nuclear
+    impact: 1.5
+  - year: '2024'
+    text: US bans Russian uranium, spurring local fuel
+    impact: 1
+  - year: '2024'
+    text: TerraPower breaks ground in Wyoming
+    impact: 1
+  - year: '2024'
+    text: ADVANCE Act orders faster NRC reviews
+    impact: 2
+  - year: '2024'
+    text: Microsoft deal revives Three Mile Island
+    impact: 2.5
+  - year: '2024'
+    text: Google signs first SMR deal with Kairos
+    impact: 2.5
+  - year: '2024'
+    text: Amazon backs X-energy SMRs
+    impact: 2
+  - year: '2024'
+    text: Amazon buys a nuclear powered data campus
+    impact: 1
+  - year: '2025'
+    text: Canada licenses first BWRX-300 at Darlington
+    impact: 1.5
+  - year: '2025'
+    text: Trump orders quadrupled nuclear by 2050
+    impact: 2.5
+  - year: '2025'
+    text: UK picks Rolls-Royce SMR for first fleet
+    impact: 1.5
+  - year: '2025'
+    text: DOE pilot sets July 2026 criticality goal
+    impact: 1.5
+  - year: '2026'
+    text: Meta signs 6.6GW deals with Oklo, TerraPower
+    impact: 2
+  - year: '2026'
+    text: NRC grants TerraPower Natrium a permit
+    impact: 2
+  - year: '2026'
+    text: Four pilot reactors go critical by July
+    impact: 2
+  - year: '2026'
+    text: TVA wins first US permit for BWRX-300
+    impact: 2
+  note:
+  - We kept the events we believe pushed advanced nuclear forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: advanced-nuclear
+  title: 'Where did advanced nuclear investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of advanced nuclear startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in advanced nuclear today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-00.png
+    x: 266.1
+    y: 274.3
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-01.png
+    x: 333.9
+    y: 266.1
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-02.png
+    x: 514.9
+    y: 271.7
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-03.png
+    x: 690.2
+    y: 270.6
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-04.png
+    x: 768.2
+    y: 268.7
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-05.png
+    x: 389.4
+    y: 291.9
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-06.png
+    x: 462.0
+    y: 295.7
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-07.png
+    x: 590.1
+    y: 290.4
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-08.png
+    x: 819.9
+    y: 298.3
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-09.png
+    x: 607.1
+    y: 372.4
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-10.png
+    x: 754.7
+    y: 373.7
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-11.png
+    x: 249.6
+    y: 393.0
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-12.png
+    x: 308.8
+    y: 403.3
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-13.png
+    x: 386.8
+    y: 379.3
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-14.png
+    x: 492.4
+    y: 383.1
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-15.png
+    x: 554.4
+    y: 396.4
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-16.png
+    x: 690.4
+    y: 388.9
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-17.png
+    x: 809.4
+    y: 406.3
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-18.png
+    x: 315.9
+    y: 487.5
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-19.png
+    x: 462.2
+    y: 480.4
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-20.png
+    x: 522.0
+    y: 492.9
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-21.png
+    x: 682.9
+    y: 485.6
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-22.png
+    x: 253.5
+    y: 506.1
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-23.png
+    x: 387.2
+    y: 503.4
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-24.png
+    x: 603.6
+    y: 510.0
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-25.png
+    x: 740.8
+    y: 511.7
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s10-26.png
+    x: 807.9
+    y: 511.9
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Grid
+  - Micro
+  - Fuel
+  note:
+  - We left out large groups like GE Vernova, Westinghouse, Rolls-Royce and state companies
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why is GE Hitachi winning
+
+    the small reactor race?'
+  companies:
+  - short: GE Hitachi
+    src: ../../assets/logos/pp_live/advanced-nuclear/s12-00.png
+  - short: TerraPower
+    src: ../../assets/logos/pp_live/advanced-nuclear/s12-01.png
+  - short: NuScale
+    src: ../../assets/logos/pp_live/advanced-nuclear/s12-02.png
+  - short: Rolls-Royce
+    src: ../../assets/logos/pp_live/advanced-nuclear/s12-03.png
+  - short: Holtec
+    src: ../../assets/logos/pp_live/advanced-nuclear/s12-04.png
+  - short: X-energy
+    src: ../../assets/logos/pp_live/advanced-nuclear/s12-05.png
+  criteria:
+  - name: Licence to build a unit
+    why: First G7 grid SMR in build
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Chosen in 3+ countries
+    why: Fleet orders cut unit cost
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Proven water cooled design
+    why: Uses existing fuel and parts
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: US DOE build funding
+    why: Federal cash lowers risk
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Listed parent company
+    why: Deep balance sheet behind it
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: NRC design approval
+    why: Cleared US safety review
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Big tech power deal
+    why: Data centers buy its output
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is in advanced nuclear,
+
+    and what stays outside?'
+  caption:
+  - Distance to the center reflects how new the reactor technology is, rather than operating or servicing the existing fleet
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-02.png
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-03.png
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-04.png
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-05.png
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-06.png
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-07.png
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-08.png
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-09.png
+  inside_xy:
+  - x: 435.6
+    y: 287.4
+  - x: 521.4
+    y: 321.2
+  - x: 463.7
+    y: 356.4
+  - x: 402.6
+    y: 381.6
+  - x: 515.4
+    y: 391.1
+  - x: 460.1
+    y: 416.4
+  - x: 386.4
+    y: 440.8
+  - x: 518.8
+    y: 454.1
+  TL:
+    src: ../../assets/logos/pp_live/advanced-nuclear/s01-00.png
+    name: Constellation
+    text: runs the largest US nuclear fleet and is reviving Three Mile Island for Microsoft, but these are conventional plants
+  TR:
+    src: ../../assets/logos/pp_live/advanced-nuclear/s01-01.png
+    name: Cameco
+    text: is one of the largest uranium fuel suppliers and owns 49% of Westinghouse, but mining uranium is not new reactor technology
+  BL:
+    src: ../../assets/logos/pp_live/advanced-nuclear/s01-10.png
+    name: Westinghouse
+    text: markets its AP300 small reactor, but its AP1000 is a large Gen III+ unit and its core business serves running plants
+  BR:
+    src: ../../assets/logos/pp_live/advanced-nuclear/s01-11.png
+    name: GE Vernova
+    text: is building the first BWRX-300 small reactor in Ontario, but nuclear is one unit next to its gas, wind and grid arms
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  csv: assets/trends/advanced-nuclear/advanced-nuclear.csv
+  term: advanced nuclear
+  title: 'Lately, searches for advanced nuclear
+
+    climbed as AI needs more power'
+  date: Recently.
+  expl: Nuclear came back into the news. Tech giants signed deals to power their AI data centers with new reactors, the US ordered its regulator to approve designs faster, and small reactor startups listed on the stock market. So people went looking for what advanced nuclear really is.
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  size: 5
+  cagr: 18
+  y0: 2026
+  lead: 'To fill that room, '
+  condition: first plants like Darlington, Natrium and Hermes 2 must start on time, and buyers must keep signing long contracts for their power. The market must also secure enough HALEU fuel, build reactors in factories at scale, and keep regulators fast as the number of applications grows.
+  note:
+  - We compared forecasts from IEA, GMI, Precedence and Grand View and adjusted each one to our market definition
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report

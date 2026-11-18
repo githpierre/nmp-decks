@@ -39,7 +39,7 @@ t:
   19: NON-BINDING DEALS
   21: PUBLIC GRANTS
   6: Because a mature global industry has made this fuel for decades
-  8: Because big makers like GE Vernova and Siemens build them for every plant
+  8: Because big industrial makers already build them for every gas and coal plant
   10: Because decades of reactor builds made the design and parts widely known
   12: Because a concept costs little to draw next to a licensed reactor
   14: Because national regulators publish their codes for every applicant
@@ -118,8 +118,8 @@ t:
   9: BAD CUSTOMER EXPERIENCE
   6: The first unit runs years late and billions over budget, the target power price jumps, partners walk away and the project is cancelled, as NuScale's Utah project was in 2023 after its price rose.
 logos:
-- name: GE Vernova Hitachi Nuclear Energy
-  domain: gevernova.com
+- name: NuScale Power
+  domain: nuscalepower.com
 ```
 
 ### ed109-s1
@@ -178,8 +178,8 @@ t:
   9: BAD CUSTOMER EXPERIENCE
   6: The unit waits years for a licence, needs a large security team, costs far more per megawatt than diesel and needs special HALEU fuel that nobody can deliver on time, so the site goes back to diesel.
 logos:
-- name: Westinghouse
-  domain: westinghousenuclear.com
+- name: Radiant
+  domain: radiantnuclear.com
 ```
 
 ### ed109-s2

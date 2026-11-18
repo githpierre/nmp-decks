@@ -242,12 +242,12 @@ t:
   9: They are building the Natrium sodium reactor in Wyoming, backed by Bill Gates
   17: They got the first US permit for a non-water reactor and signed a deal with Google
   12: X-ENERGY
-  20: GE VERNOVA HITACHI
+  20: RADIANT
   11: They build gas-cooled Xe-100 reactors, backed by Amazon and by Dow
   13: They supply HALEU fuel and produced the first US-made batch in 2023
   14: CENTRUS
   22: NEWCLEO
-  19: They designed the BWRX-300, now being built at Darlington in Canada
+  19: They build Kaleidos, a truck-sized microreactor for tests at Idaho National Lab
   21: They design lead-cooled reactors, one of Europe's best-funded nuclear startups
 ```
 

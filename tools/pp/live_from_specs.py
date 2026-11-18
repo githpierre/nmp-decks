@@ -52,6 +52,7 @@ L.setdefault('ed168p', {}).update(handle=H, title=two(T['09-01']), note=[f'We ad
 tl = tiles('10-01'); g = L.setdefault('ed171p', {}); g.update(title=two(T['10-01']), cells=[[[], [], []], [[], [], []], [[], [], []]], tiles=[dict(src=t['src'], x=t['x'], y=t['y']) for t in tl])
 if 'cols' not in g: print('S10: write cols, rows and note of ed171p by hand, read on the live slide;', len(tl), 'tiles')
 d = spec(f's10/sk/{H}.json')
+if d and d.get('mode') == 'warning': print('S11 is a warning-signs grid (ed199p): it comes from the research, the live slide is checked against it'); d = None   # 18 Nov 2026
 if d:
     tl = tiles('11-01'); assert len(tl) == len(d['rows']), ('S11 tiles', len(tl), len(d['rows']))
     L['ed201'] = dict(type='pp_killers', mode=d.get('mode', 'dead'), title=two(T['11-01']), causes=d['causes'],
