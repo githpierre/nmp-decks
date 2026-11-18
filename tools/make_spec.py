@@ -41,7 +41,7 @@ def main():
             if statistics.median(L) >= 45: e['min'] = int(0.85 * statistics.median(ref))
             else: e['max'] = int(max(L) * 1.25) + 2       # a label or a name: seen in few decks, so room for a longer one (names are never cut)
             if all(v == v.upper() and re.search('[A-Z]', v) for _, v in obs): e['caps'] = True
-            if 'min' not in e: e['wordmax'] = max(len(w) for _, v in obs for w in v.split())   # piste A (18 Nov 2026): a longer word is cut in two (« UTILITI / ES »)
+            if 'min' not in e: e['wordmax'] = max(9, max(len(w) for _, v in obs for w in re.split(r'[\s/-]+', v.replace('\\n', ' '))))   # floor 9: fewer false alarms on names   # piste A (18 Nov 2026): a longer word is cut in two (« UTILITI / ES »)
             spec.setdefault(t, {})[k] = e
     for t, L in NOTE.items(): spec.setdefault(t, {})['note_line'] = {'max': max(L)}   # list notes: each line at most this long (NOTE_WIDTH)
     ov = ROOT / 'specs/overrides.yaml'
