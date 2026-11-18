@@ -15,7 +15,8 @@ SHORT = dict(x.split('=') for x in a.short.split(';') if '=' in x)
 _sf = ROOT / 'decks' / a.handle / 'cat_short.yaml'
 if _sf.exists(): SHORT = {**yaml.safe_load(_sf.read_text()), **SHORT}     # same short names as the db slides
 ir.MARKET = a.handle; ir.OUTDIR = ROOT / 'decks' / a.handle
-b = g.Base(); M = {m['company_id']: m for m in b.markets[a.handle]}
+b = g.Base(); import startup_status as _ss   # startups only (base rule), as on the db slides
+M = {m['company_id']: m for m in b.markets[a.handle] if _ss.table_startup_base(b, m['company_id'])[0]}
 since = f'{int(a.today[:4]) - 1}{a.today[4:]}'
 S = collections.defaultdict(float); T = collections.defaultdict(lambda: collections.defaultdict(float))
 for cid, m in M.items():

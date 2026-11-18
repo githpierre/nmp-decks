@@ -38,6 +38,11 @@ Look at `MARKETS.md` first. If the market is there, NEVER rebuild it from step 0
 - Startups base: last `searched_until` of the market in nmp-seo `data/startups/coverage.csv`. Tell Pierre the date and the gap
   with today. Never ask him for a prompt that adds rounds: he updates the base himself, the deck takes its latest state.
 - Market definition and categories: nmp-seo `data/startups/market_definitions.csv` and `market_categories.csv`.
+- Borderline companies, BEFORE any build: `python3 tools/borderline.py <handle>` lists the companies that weigh most (money
+  over 24 months, total raised) with the market's decision rule. Claude tests each one against that rule and fixes the base
+  itself (markets.csv row out, market_fit.csv « no », a decision, tests, CHANGELOG). Never a question to Pierre: the rule
+  decides, and a company that leaves after delivery changes a PDF already sent (Pierre, 18 Nov 2026: Oura, WHOOP, then Eight
+  Sleep left Longevity after the client had the PDF).
 - Product page: `https://newmarketpitch.com/pages/<handle>`. List its 12 slides (S01-S12) and their types.
 - Cover: it is COPIED from Pierre's cover slide (Google Slides « nmp - cover deck (1-225) », slide number = uuid), never laid
   out by a general rule: read the slide, save the answer as `decks/<handle>/cover_slide.json`, run

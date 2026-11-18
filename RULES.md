@@ -185,3 +185,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - « What is behind these categories? » (ed048) only follows a split of the market by category (ed047p); without it the slide is dropped by the import (Pierre, 18 Nov 2026).
 - Number badges (1-8 in the corner of cards) keep their numbers: the import ignores an emoji given for a badge (empty circles on Longevity and Advanced Nuclear, 18 Nov 2026).
 - Segment dividers of one chapter all have their name on 2 balanced lines, so every divider of the series has the same number of lines (Pierre, 18 Nov 2026).
+- A doubt on whether a company belongs to the market is settled by Claude with the market's decision rule
+  (nmp-seo market_definitions.csv), at step 0 with `tools/borderline.py`, never asked to Pierre (18 Nov 2026, said many times).
+- Database slides and the S09 twin count only startups by the base's own rule (`startup_status.table_startup_base`): the base keeps
+  non-startups in a market as history (Lanserhof, founded 1984, sat among Longevity rounds; Rolls-Royce SMR among Advanced Nuclear
+  rounds, 18 Nov 2026). Never remove a non-startup from markets.csv to hide it: filter in the tool.

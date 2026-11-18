@@ -40,7 +40,8 @@ def stage(r):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('handle'); ap.add_argument('--name'); ap.add_argument('--today', default='2026-11-12')
     a = ap.parse_args(); H, N, today = a.handle, a.name, a.today
-    b = g.Base(); M = {m['company_id']: m for m in b.markets[H]}
+    b = g.Base(); import startup_status as _ss   # startups only: the base keeps non-startups as history (Lanserhof on Longevity, 18 Nov 2026)
+    M = {m['company_id']: m for m in b.markets[H] if _ss.table_startup_base(b, m['company_id'])[0]}
     R = []
     for cid, m in M.items():
         for r in g.rounds_for(b, cid, 'deals'):
@@ -69,6 +70,8 @@ def main():
         while w_ and len(s) + len(w_) >= lim:                     # too long: cut at the last « for », « to », « with », comma
             cut = max(w_.rfind(x) for x in (' for ', ' to ', ', ', ' with '))   # never at « and »: it splits a noun phrase (« an AI-powered patient data », Healthcare AI, 18 Nov 2026)
             w_ = w_[:cut] if cut > 15 else ''
+            while w_ and re.search(r'\b(one|two|three|four|five|six|seven|eight|nine|ten|\d+|a|an|the|of|and|or|its|their|both|with)$', w_, re.I):   # never end on a dangling word (« robots with two », Humanoid Robotics, 18 Nov 2026)
+                cut = max(w_.rfind(x) for x in (' for ', ' to ', ', ', ' with ')); w_ = w_[:cut] if cut > 15 else ''
         if w_ and re.search(r'(-enabled|-powered|-based|-driven|-derived|-specific|-grade|ed)$', w_.split()[-1]): w_ = ''   # a cut that ends on an adjective: use the category instead
         if w_ and verb: s += '. It ' + lw(w_)
         elif w_: s += ' for its ' + lw(w_)
