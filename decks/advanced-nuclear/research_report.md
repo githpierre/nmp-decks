@@ -1,6 +1,6 @@
 # Research import re, jsonport
 
-67 answers parsed, 0 YAML errors, 69 slides with remarks.
+160 answers parsed, 0 YAML errors, 80 slides with remarks.
 
 - **ed006**: no sources
 - **ed007p**: status no_data: taken from the live product page
@@ -47,6 +47,9 @@
 - **ed063-s4**: length 14: 14 vs 20; no sources
 - **ed064-s4**: no sources
 - **ed065-s4**: no sources
+- **ed088**: length 15: 86 vs 68
+- **ed095**: length 5: 96 vs 71
+- **iv_pipeline**: length 34: 60 vs 44; length 20: 71 vs 52
 - **ed101**: no sources
 - **ed102**: no sources
 - **ed103**: length 12: 11 vs 20; no sources
@@ -71,3 +74,11 @@
 - **ed107-s5**: length 8: 9 vs 20; no sources
 - **ed108-s5**: no sources
 - **ed109-s5**: no sources
+- **ed136**: length 11: 74 vs 57; length 12: 79 vs 55; length 13: 68 vs 45
+- **ed143**: length 22: 16 vs 22
+- **ed144**: length 22: 16 vs 22
+- **ed149**: length 17: 56 vs 41; length 21: 49 vs 37
+- **ed152**: length 11: 61 vs 43
+- **ed189**: length 22: 49 vs 39
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3
+- **ed207**: length 10: 56 vs 75

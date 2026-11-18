@@ -1,0 +1,391 @@
+ed043:
+  drop: true
+ed044:
+  drop: true
+ed045:
+  keep: true
+  4: '2026'
+  6: $5B
+  8: We estimate about $5B in 2026, close to GMI's $5.3B. Wider forecasts reach $8.2B because they add construction and plant work that our definition leaves out, such as civil works and turbines.
+  note: We estimate annual spending on dedicated reactor systems, design and fuel, not the sales of completed plants or the value of announced projects.
+ed051:
+  note: Published SMR forecasts grow 7% to 13% a year, but they track whole plant projects. We follow the 18% yearly growth of reactor capacity under construction, which drives spending on our core.
+  15: BEST CASE ≈ 25%
+  16: WORST CASE ≈ 10%
+  17: '≈18%
+
+    through 2036'
+  19: Reactor capacity under construction grows about 18% a year. Microreactors and fuel startups grow faster than SMR forecasts, but first builds face cost and fuel risk.
+iv_pipeline:
+  10: OPG · BWRX-300
+  3: PERMIT
+  7: PERMIT
+  11: BUILD
+  15: BUILD
+  19: BUILD
+  23: BUILD
+  27: BUILD
+  38: LIVE
+  2: TVA · BWRX-300
+ed018:
+  page: null
+ed030:
+  16: ⚛️
+ed190:
+  growth:
+    36:
+      pts:
+      - - 3.5
+        - 6
+      at:
+      - 10
+      - -6
+    37:
+      pts:
+      - - 5.5
+        - 2.4
+    38:
+      pts:
+      - - 5
+        - 1.8
+      at:
+      - -80
+      - 6
+    39:
+      pts:
+      - - 15
+        - 1.9
+      at:
+      - -110
+      - -40
+ed201:
+  drop: true
+ed166p:
+  title: 'Who did investors back
+
+    most in earlier years?'
+ed011:
+  25: It is the first unit of a new reactor design, which costs more than the units that follow
+  27: FOAK
+  28: 'First Of
+
+    A Kind'
+ed016:
+  12: Fuel for new reactors is easy to find
+ed019:
+  10: 'POWER
+
+    UTILITIES'
+ed056:
+  6: 'You need a licence
+
+    per design'
+ed057:
+  16: 'Rules differ
+
+    by country'
+ed061:
+  7: Power utilities
+  9: Data centers and hyperscalers
+  11: Industrial heat users
+  13: Governments and defense
+ed094:
+  11: 'REACTOR
+
+    LICENSING'
+ed095:
+  11: 'REACTOR
+
+    LICENSING'
+ed096:
+  11: 'REACTOR
+
+    LICENSING'
+ed107-s3:
+  17: 'POWER
+
+    UTILITIES'
+ed107-s4:
+  5: 'DATA
+
+    CENTERS'
+ed107-s5:
+  8: 'POWER
+
+    UTILITIES'
+  11: 'NATIONAL
+
+    GOVERNMENTS'
+ed109-s4:
+  8: '🏗️
+
+    The first unit gets built on site'
+ed108-s5:
+  6: The reactor is built but sits idle because HALEU never arrives, Russian supply is banned, the only US plant makes too little, and the developer must delay its launch by years while it keeps paying its staff and its loans.
+ed136:
+  6: '📜
+
+    Each new design must prove it stays safe even when it loses power.'
+  12: '📍
+
+    Each site must pass safety and environmental reviews.'
+ed153:
+  12: '💰
+
+    Each private round draws suppliers that serve more reactor teams'
+ed178:
+  21: 'MICROREACTOR
+
+    DESIGNS'
+  25: NuScale leads design approval. Blue Energy raised $380M to build
+ed017:
+  note:
+  - We rate market maturity with an internal score of licensed designs, units being built, signed buyers and supply chain.
+  - We set 30/100 because licences and construction have started, but very few advanced reactors run and none at fleet scale.
+ed047p:
+  note:
+  - We estimate fuel at 14% of the market, after taking generic construction out of project spending
+  - We split the rest between reactor types with the 48% light-water share of current build plans
+  - Non-light-water reactors group gas, fast, molten-salt and microreactor designs, as our estimate
+ed199p:
+  note:
+  - We selected five warning signs tied to named nuclear developers and checked them in court notices, filings and press
+  - We left a cell empty unless a specific event was verified, and a conditional asset sale is not a completed sale
+ed055:
+  10: A 2025 executive order gives the NRC 18 months to decide on a new reactor licence application
+  16: A 2024 US law bans Russian uranium imports and funds new enrichment plants at home
+  19: The World Bank lifted its ban on nuclear financing in June 2025 and now works with the IAEA on new plants
+  22: Several reactor startups now trade on the stock market at billion-dollar values, like Oklo and NuScale
+ed104:
+  15: Reactors that sell very hot steam to industry as well as power to the grid, so one plant earns twice
+ed210:
+  note:
+  - We used TerraPower and DOE records for Natrium construction, funding and its buyer deal.
+  - We use a fictional baseline for contrast and do not claim other startups all follow it.
+  rows:
+  - - They stick with standard water cooling and its pressure needs
+    - TerraPower uses sodium coolant at near-normal pressure
+  - - They design a plant that sends all reactor heat to power
+    - Natrium adds molten salt storage to shift power into peaks
+  - - They cannot raise output without changing reactor power
+    - Natrium can lift grid output from 345 MW to 500 MW
+  - - They look for sites far from established power facilities
+    - TerraPower chose a site beside a Wyoming coal power plant
+  - - They remain in pre-application talks with regulators
+    - NRC issued Natrium a construction permit in March 2026
+  - - They prepare land but cannot build the nuclear reactor
+    - TerraPower started Natrium reactor construction in April
+  - - They rely on one investor to fund a long build process
+    - TerraPower closed a $650M funding round in June 2025
+  - - They plan the reactor without a named customer pipeline
+    - Meta agreed to support plans for eight Natrium units
+ed211:
+  note:
+  - We used X-energy filings and DOE records, and kept permits apart from investment calls.
+  - We use a fictional baseline for contrast and do not claim other startups all follow it.
+  rows:
+  - - They pitch only generic power for the national grid
+    - X-energy designed Xe-100 for both electricity and steam
+  - - They wait to prove fuel safety until reactor startup
+    - Xe-100 uses TRISO-coated fuel to retain radioactive material
+  - - They leave fuel supply to an uncertain third party
+    - TRISO-X won a 40-year NRC fuel license in February 2026
+  - - They stop at drawings of the plant and fuel facilities
+    - X-energy finished TX-1 main structure in September 2026
+  - - They must seek a fresh permit on an untested site
+    - Dow’s four-unit Xe-100 site received a 2026 permit
+  - - They report a permit as if the plant is ready to run power
+    - Dow still needs a final investment decision to build
+  - - They raise funding only through repeated private rounds
+    - X-energy raised about $1.1B net in its April 2026 IPO
+  - - They have no specific follow-on customer in view yet
+    - X-energy tapped Fluor to design its second U.S. project
+ed212:
+  note:
+  - We drew on Kairos Power construction releases and its signed TVA power purchase deal.
+  - We use a fictional baseline for contrast and do not claim other startups all follow it.
+ed213:
+  note:
+  - We used DOE reactor test records, Antares production and contract releases and its financing.
+  - We use a fictional baseline for contrast and do not claim other startups all follow it.
+  rows:
+  - - They target broad city grids before defining actual users
+    - Antares built microreactors for defense and space uses
+  - - They keep their first reactor core in paper safety studies
+    - Antares took Mark-0 critical at Idaho in June 2026
+  - - They test only small physics samples instead of a core
+    - Mark-0 tested a full-size core using advanced TRISO fuel
+  - - They develop fuel without an experienced fabricator
+    - Antares used BWXT’s existing TRISO fuel production
+  - - They avoid a factory until customers sign up for power
+    - Antares opened a reactor factory in February 2025
+  - - They depend on informal expressions of fuel supply interest
+    - Antares signed a binding fuel contract in August 2026
+  - - They keep a test program separate from actual users
+    - Antares won an Army Janus agreement for Fort Bragg
+  - - They finance each test without a major follow-on raise
+    - Antares raised $470M in equity and debt in July 2026
+ed214:
+  note:
+  - We used Standard Nuclear filings, contracts, DOE selections and its financing release.
+  - We use a fictional baseline for contrast and do not claim other startups all follow it.
+ed215:
+  tag: null
+ed216:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary
+    7: https://www.energy.gov/ne/articles/nrc-issues-construction-permit-terrapowers-natrium-advanced-reactor
+    10: https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas
+    13: https://www.energy.gov/ne/articles/nrc-certifies-first-us-small-modular-reactor-design
+    16: https://www.canada.ca/en/nuclear-safety-commission/news/2025/04/commission-authorizes-ontario-power-generation-inc-to-construct-1-bwrx-300-reactor-at-the-darlington-new-nuclear-project-site.html
+  3: 'IEA, a new era
+
+    for nuclear energy'
+  4: The International Energy Agency's report on reactor costs, financing and the case for repeat builds
+  5: We used it for what lowers the cost of new reactors. It also framed the financing pain points.
+  7: 'DOE, Natrium
+
+    construction permit'
+  8: The US Department of Energy's account of the NRC permit for TerraPower's Natrium plant
+  9: We used it for the March 2026 permit. It also anchored our view of who leads sodium reactors.
+  10: 'DOE, Dow and
+
+    X-energy permit'
+  11: The Department of Energy's release on the first permit for an industrial advanced reactor site
+  12: We used it for the four Xe-100 units at Seadrift. It also backed our view of heat buyers.
+  13: 'NRC, first SMR
+
+    design certified'
+  14: The Department of Energy's summary of the first small reactor design certified by the NRC
+  15: We used it for the 2023 NuScale certification. It also dated when the market became real.
+  16: 'CNSC, Darlington
+
+    construction licence'
+  17: The Canadian regulator's own decision to let OPG build the first BWRX-300
+  18: We used it for the April 2025 licence. It also showed that the race is not US-only.
+ed217:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.energy.gov/articles/department-energy-celebrates-first-advanced-reactor-criticality
+    7: https://www.energy.gov/articles/us-department-energy-awards-27-billion-restore-american-uranium-enrichment
+    10: https://files.gao.gov/reports/GAO-26-107385/index.html
+    13: https://blog.google/company-news/outreach-and-initiatives/sustainability/google-first-advanced-nuclear-reactor-project-with-kairos-power-and-tennessee-valley-authority/
+    16: https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/
+  3: 'DOE, first advanced
+
+    reactor criticality'
+  4: The Department of Energy's release on the first test reactor to go critical under its pilot program
+  5: We used it for Antares and the four pilot reactors. It also dated our momentum signals.
+  7: 'DOE, $2.7B for
+
+    uranium enrichment'
+  8: The Department of Energy's award to rebuild American enrichment of richer uranium fuel
+  9: We used it for the $900M Centrus award. It also backed our fuel supply bottleneck.
+  10: 'GAO, HALEU
+
+    supply review'
+  11: The US Government Accountability Office's audit of the domestic supply of richer uranium fuel
+  12: We used it for the risk of a HALEU shortage. It also weighted our fuel risk scores.
+  13: 'Google, Kairos and
+
+    TVA power deal'
+  14: Google's own announcement of the first US power purchase deal for an advanced reactor
+  15: We used it for the 50 MW Hermes 2 deal. It also dated when the market became hot.
+  16: 'Meta, nuclear
+
+    energy projects'
+  17: Meta's own release on its agreements with TerraPower, Oklo and Vistra
+  18: We used it for the 6.6 GW of deals. It also backed our view of data center buyers.
+ed218:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.sec.gov/Archives/edgar/data/2088896/000119312526456659/xe-20260930.htm
+    7: https://investors.newcleo.com/news-releases/news-release-details/newcleo-completes-business-combination-raises-247-million-and
+    10: https://www.valaratomics.com/docs/Announcing-our-1B-Series-B-Led-By-Sequoia
+    13: https://ir.standardnuclear.com/news-events/press-releases/detail/106/standard-nuclear-reports-third-quarter-and-year-to-date-2026-results
+    16: https://www.nuscalepower.com/press-releases/2023/utah-associated-municipal-power-systems-and-nuscale-power-agree-to-terminate-the-carbon-free-power-project
+  3: 'X-energy,
+
+    quarterly filing'
+  4: X-energy's filing with the US securities regulator after its April 2026 listing
+  5: We used it for the IPO proceeds and the TX-1 progress. It also checked our funding figures.
+  7: 'newcleo, business
+
+    combination'
+  8: newcleo's own release on closing its Nasdaq merger and the cash it raised
+  9: We used it for the $247M proceeds and the $2.4B value. It also placed newcleo among the leaders.
+  10: 'Valar Atomics,
+
+    Series B release'
+  11: Valar Atomics' own announcement of its $1B round led by Sequoia
+  12: We used it for the biggest round since 2024. It also backed our microreactor momentum.
+  13: 'Standard Nuclear,
+
+    Q3 results'
+  14: Standard Nuclear's own report on its fuel deliveries and supply contracts
+  15: We used it for the Radiant core and the Antares fuel deal. It also shaped our fuel strategy slide.
+  16: 'NuScale and UAMPS,
+
+    project ended'
+  17: NuScale's own release on ending the Carbon Free Power Project in Idaho
+  18: We used it for the 2023 setback. It also backed our customer demand risk.
+ed219:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.constructiondive.com/news/bechtel-splits-terrapower-nuclear-project-layoffs/830793/
+    7: https://cms.oecd-nea.org/jcms/pl_122015/release-of-the-nea-small-modular-reactor-digital-dashboard-fourth-edition
+    10: https://www.gminsights.com/industry-analysis/small-modular-reactor-market
+    13: https://www.precedenceresearch.com/small-modular-reactor-market
+  3: 'Construction Dive,
+
+    Bechtel exit'
+  4: A trade outlet that covers large construction projects and their contractors
+  5: We used it for Bechtel leaving Natrium. It also backed our contractor risk.
+  7: 'NEA, SMR
+
+    dashboard'
+  8: The OECD Nuclear Energy Agency's tracker of small reactor projects and their readiness
+  9: We used it for the readiness criteria. It also checked our list of bottlenecks.
+  10: 'Global Market
+
+    Insights report'
+  11: Market research firm with a yearly report on small modular reactors
+  12: We used it as the closest published benchmark to our $5B estimate. It also set a growth range.
+  13: 'Precedence Research
+
+    market report'
+  14: Market research firm with a yearly report on small modular reactors
+  15: We used it as the high end of the market size. It also gave us a growth rate estimate.
+  16: 'Our advanced nuclear
+
+    funding tracker'
+  17: Our own database of every equity round since January 2024, each with its source link
+  18: We used it for all the funding slides. It also counted rounds by stage and country.
+# rows mix reactor types with project stages (demo construction, commercial scale): not a who-owns-what grid
+ed173: {drop: true}
+ed032:
+  5: General Matter won $900M for HALEU, as much as Centrus
+  9: Centrus enrichment commitments jumped 80% in a quarter
+  11: Five advanced test reactors went critical in 2026
+  7: Google, Amazon and Meta signed six reactor deals
+  13: Three listed reactor developers are worth $10.2B
+  15: X-energy's quarterly revenue more than doubled
+  19: Google searches for advanced nuclear soared
+  note: We chose seven recent signals across fuel, test reactors, tech buyers, stock values, revenue and search interest. Each one has its own slide after this one.

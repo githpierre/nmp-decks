@@ -43,3 +43,198 @@
     note:
     - We placed each company by how its business model works, from pricing pages and filings
     - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: signal 1
+  slide:
+    id: xa_haleu
+    type: sx_faceoff
+    section: Market opportunity
+    pill: SIGNAL
+    title: "A 2024 startup won a $900M HALEU award,\nas much as the incumbent Centrus"
+    cards:
+    - name: GENERAL MATTER
+      hl: true
+      stats:
+      - v: $900M
+        l: DOE task order to build HALEU enrichment, January 2026
+      - v: '2024'
+        l: the year the startup was founded
+    - name: CENTRUS
+      stats:
+      - v: $900M
+        l: the same award, for its centrifuge plant in Ohio
+      - v: '1'
+        l: the only US plant making HALEU today
+    story: 'Washington now trusts a new fuel startup with as much money as the incumbent, a sign of a hot market. Both task orders are paid only as each company reaches its milestones.'
+    note:
+    - We used the DOE release of January 5, 2026 on its $2.7B of awards, with two $900M HALEU orders
+    - The awards are paid against milestones, so they are neither venture funding nor cash in hand
+    fresh:
+      period: total
+      end: 2026-01
+- after: xa_haleu
+  link: signal 2
+  slide:
+    id: xa_centrus
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: "Centrus enrichment commitments jumped\n80% in one quarter, to $5.4B"
+    t:
+      9: $3B
+      10: Q2 2026
+      12: $5.4B
+      13: Q3 2026
+      15: +80%
+      16: WHY IT IS HOT
+      17: "Utilities and reactor makers are lining up for US-made fuel: Centrus grew its enrichment backlog from $3B to $5.4B in three months.\nThe figure mixes ordinary and HALEU fuel and depends on milestones, so it shows demand, not cash."
+    vbars: [3.0, 5.4]
+    note: We used Centrus results at June 30 and September 30, 2026, with $5.4B of contingent commitments, $5.1B of them signed
+    fresh:
+      period: quarter
+      end: 2026-09
+- after: xa_centrus
+  link: signal 3
+  slide:
+    id: xa_crit
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: "Five advanced test reactors went critical\nin 2026, three of them by June 30"
+    items:
+    - value: '3'
+      label: Test reactors critical by June 30, 2026, starting with the Antares Mark-0 in Idaho
+    - value: '4'
+      label: Test reactors critical by July 4, 2026, after Aalo Atomics took its Aalo-X critical
+    - value: '5'
+      label: Test reactors critical by August 5, 2026, with the Oklo isotope test reactor in Texas
+    why: This is a sign of a hot market because private reactor teams now turn designs into working cores in months. These were zero-power tests, so none of them sells electricity yet.
+    note: We used DOE releases on its reactor pilot program up to July 4, 2026, and Oklo’s filing for the quarter to September 30, 2026
+    fresh:
+      period: total
+      end: 2026-08
+- after: xa_crit
+  link: signal 4
+  slide:
+    id: xa_pacts
+    type: sx_league
+    section: Market opportunity
+    pill: SIGNAL
+    title: "Google, Amazon and Meta signed six\nadvanced reactor deals in two years"
+    big: '6'
+    h0: BUYER AND DEVELOPER
+    h1: RANK
+    h2: UP TO
+    kicker: WHY IT IS HOT
+    rows:
+    - {n: 1, name: Amazon + X-energy, src: ../../assets/logos/lib/x-energy.png, v: 5 GW, what: "US fleet target, October 2024"}
+    - {n: 2, name: Meta + TerraPower, src: ../../assets/logos/lib/terrapower.png, v: 2.8 GW, what: "Natrium units, January 2026"}
+    - {n: 3, name: Meta + Oklo, src: ../../assets/logos/lib/oklo.png, v: 1.2 GW, what: "Ohio campus, January 2026"}
+    - {n: 4, name: Amazon + AEP + X-energy, src: ../../assets/logos/lib/x-energy.png, v: 960 MW, what: "Indiana study, October 2026"}
+    - {n: 5, name: Google + Kairos Power, src: ../../assets/logos/lib/kairos-power.png, v: 500 MW, what: "Multi-plant deal, October 2024"}
+    - {n: 6, name: Google + TVA + Kairos Power, src: ../../assets/logos/lib/kairos-power.png, v: 50 MW, what: "Binding power deal, August 2025"}
+    story: "The biggest tech buyers keep coming back to new reactors, a sign of a hot market. Most of these are options and targets, and two deals sit inside earlier ones, so the figures do not add up."
+    note:
+    - We listed six deals announced by the companies from October 2024 to October 2026, with the most
+    - power each one could reach. Hermes 2 sits inside Google’s 500 MW and Indiana inside Amazon’s 5 GW
+    fresh:
+      period: month
+      end: 2026-10
+- after: xa_pacts
+  link: signal 5
+  slide:
+    id: xa_listed
+    type: sx_stat_strip
+    section: Market opportunity
+    pill: SIGNAL
+    title: "Three listed reactor developers are now\nworth $10.2B on the stock market"
+    headline: Market value of three reactor developers on November 17, 2026
+    stats:
+    - {v: $4.4B, l: "Oklo, which has not sold any power yet"}
+    - {v: $4.1B, l: "X-energy, which listed on the stock market in April 2026"}
+    - {v: $1.8B, l: "NuScale, the first small reactor design certified in the US"}
+    story: "Public investors already price these companies in billions, a sign of a hot market. Their values rest on reactors still to come and can swing hard."
+    note:
+    - We used market values at the close of November 17, 2026, from Stock Analysis, adding up to $10.2B
+    - None of the three companies has a commercial reactor running yet, so these are bets on the future
+    fresh:
+      period: total
+      end: 2026-11
+- after: xa_listed
+  link: signal 6
+  slide:
+    id: xa_xenergy
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: "X-energy’s quarterly revenue and grants\nmore than doubled, to $66.3M"
+    items:
+    - value: $66.3M
+      label: Revenue and grant income in the quarter to September 30, 2026, up from $30.4M a year earlier
+    - value: $1.8B
+      label: Cash and other liquidity at the end of September 2026, after its April listing
+    - value: 11 GW+
+      label: Possible reactor projects in the US and the UK, if customers use all their rights
+    why: This is a sign of a hot market because a pure reactor developer now earns and raises money at scale. Most of its revenue still comes from engineering work and grants, not from reactors.
+    note: We used X-energy’s report of November 12, 2026 for the quarter to September 30, 2026, which gives a 118% rise
+    fresh:
+      period: quarter
+      end: 2026-09
+- after: ed132
+  link: ed132 « A power contract does not mean delivery. Reactors still need testing and approval »
+  slide:
+    id: xa_meta
+    type: sx_faceoff
+    section: Market challenges
+    title: "Meta backs up to 4 GW of new reactors,\nand none of it is online yet"
+    cards:
+    - name: ANNOUNCED
+      stats:
+      - v: 4 GW
+        l: planned with TerraPower and Oklo in January 2026
+      - v: '2030'
+        l: earliest Oklo power, and 2032 for TerraPower
+    - name: ONLINE TODAY
+      hl: true
+      stats:
+      - v: 0 MW
+        l: generated by these new reactors in November 2026
+      - v: '0'
+        l: units finished so far
+    story: "Big buyers sign first and wait years for power. Permits, fuel and money still stand between a deal and a working plant, and the developer carries that risk."
+    note:
+    - We added Meta’s January 9, 2026 figures of up to 2.8 GW with TerraPower and 1.2 GW with Oklo
+    - We left out TerraPower’s storage output and all of Meta’s deals with existing reactors
+- after: ed136
+  link: ed136 « A construction permit does not allow fuel loading or power sales »
+  slide:
+    id: xa_funnel
+    type: sx_stat_strip
+    section: Market challenges
+    title: "X-energy counts 144 possible reactors,\nbut has not finished one yet"
+    headline: How far X-energy’s Xe-100 reactors had gone by November 2026
+    stats:
+    - {v: '144', l: "Reactors in its US and UK pipeline if customers use all their rights"}
+    - {v: '4', l: "Units at the Dow site in Texas, the only ones with an NRC build permit"}
+    - {v: '0', l: "Units built or running so far, 17 years after X-energy was founded"}
+    story: "A pipeline is not an order book: each reactor still needs a site, a permit, fuel and money. Leaders are judged on their first units, not on the options they sign."
+    note:
+    - We used X-energy’s report for the quarter to September 30, 2026 and the NRC permit of November 9
+    - The 144 reactors assume that every customer uses all of its rights, so this is not an order book
+- after: ed200
+  link: ed200 « They fail when backers stop financing long development »
+  slide:
+    id: xa_doe
+    type: x/sig_key_trend
+    section: Startup killers
+    title: "The US government still paid 78.5%\nof X-energy’s service revenue"
+    t:
+      9: 80.6%
+      10: Q3 2025
+      12: 78.5%
+      13: Q3 2026
+      15: '-2 pts'
+      16: WHY IT MATTERS
+      17: "One public buyer still pays for most of the work: DOE made up 78.5% of X-energy’s service revenue in its latest quarter.\nIf federal programs slow down, a developer like this loses most of its sales at once."
+    vbars: [80.6, 78.5]
+    note: We divided DOE service revenue by total service revenue in X-energy’s reports for the quarters to September 30, 2025 and 2026

@@ -54,7 +54,7 @@ def main():
         w_ = (r.get('what') or '').strip().rstrip('.')   # what the company does (markets.csv), so the reader learns something (Pierre, 14 Nov 2026: rows 30-40% too short)
         lw = lambda x: ' '.join(t if (t.isupper() or any(c.isupper() for c in t[1:])) else t.lower() for t in x.split())
         verb = bool(re.match(r'^(Builds|Develops|Combines|Uses|Makes|Designs|Provides|Offers|Creates|Runs|Helps|Turns|Applies)\b', w_))
-        lim = 140 - len(pub(r['source_url']))   # two lines at most, source label included
+        lim = 124 - len(pub(r['source_url']))   # two lines at most, source label included (spec max 128 with the joining words)
         while w_ and len(s) + len(w_) >= lim:                     # too long: cut at the last « and », « for », « to », comma
             cut = max(w_.rfind(x) for x in (' and ', ' for ', ' to ', ', ', ' with '))
             w_ = w_[:cut] if cut > 15 else ''
@@ -126,10 +126,11 @@ def main():
     cat = collections.defaultdict(list)
     for r in R: cat[r['cat'] or 'Other'].append(r)
     top = sorted(cat.items(), key=lambda kv: -sum(r['amt'] for r in kv[1]))[:3]
-    t167 = {}
+    t167 = {}; _sf = ROOT / 'decks' / H / 'cat_short.yaml'          # short category names, as on the live S09 slide (Advanced Nuclear, 18 Nov 2026)
+    SHORT = yaml.safe_load(_sf.read_text()) if _sf.exists() else {}
     for i, (c, rs) in enumerate(top):
         ex = []; [ex.append(r['name']) for r in sorted(rs, key=lambda r: -r['amt']) if r['name'] not in ex]
-        t167[6 + i] = c.upper(); t167[[9, 11, 12][i]] = str(len(rs)); t167[[13, 15, 16][i]] = money(sum(r['amt'] for r in rs)); t167[[17, 19, 20][i]] = names_fit(ex, [17, 19, 20][i])
+        t167[6 + i] = SHORT.get(c, c).upper(); t167[[9, 11, 12][i]] = str(len(rs)); t167[[13, 15, 16][i]] = money(sum(r['amt'] for r in rs)); t167[[17, 19, 20][i]] = names_fit(ex, [17, 19, 20][i])
     t167['note'] = f'We used our tracker of {len(R)} {N} equity rounds announced since January 2024, worth about {money(tot)}. IPOs, debt and grants are left out'
     D['ed167'] = t167
     # investors (leads)

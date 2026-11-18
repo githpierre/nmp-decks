@@ -12,6 +12,8 @@ import gen_lib as g, import_research as ir
 ap = argparse.ArgumentParser(); ap.add_argument('handle'); ap.add_argument('key'); ap.add_argument('--today', default='2026-11-12'); ap.add_argument('--short', default='')
 a = ap.parse_args()
 SHORT = dict(x.split('=') for x in a.short.split(';') if '=' in x)
+_sf = ROOT / 'decks' / a.handle / 'cat_short.yaml'
+if _sf.exists(): SHORT = {**yaml.safe_load(_sf.read_text()), **SHORT}     # same short names as the db slides
 ir.MARKET = a.handle; ir.OUTDIR = ROOT / 'decks' / a.handle
 b = g.Base(); M = {m['company_id']: m for m in b.markets[a.handle]}
 since = f'{int(a.today[:4]) - 1}{a.today[4:]}'

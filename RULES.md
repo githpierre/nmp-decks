@@ -78,6 +78,13 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A company the live radar (S01) puts outside the market is on no other slide as a player (Tempus, Healthcare AI).
 - A converted chart (`x/sig_*`) keeps the bar sizes of its original data: give `vbars` or `hbars` with the values, or use a
   data template. The import prints FIXED CHART, and a chart whose bars cannot be matched to its values is a script error
+- `x/broke_these_startups_did_each` draws its cause dots for the reference market: a new market uses the live S11 twin
+  (`pp_killers`) or drops the slide (import: FIXED CHART). Advanced Nuclear, 18 Nov 2026.
+- The S09 twin (`invbets`) is computed from the base by `tools/pp/s09_from_base.py`: the build stops when it has no rows
+  (Advanced Nuclear, 18 Nov 2026: the slide was empty). Short category names live in `decks/<h>/cat_short.yaml`,
+  read by the S09 script and the database slides, as on the live S09 slide.
+- A label that the refit puts on two lines must have two words: a single word is cut in the middle (« UTILITI / ES »,
+  check WORD_SPLIT). Use the same two-word name on every slide (« Power utilities »).
   (13 Nov 2026: Humanoid slide 51 showed the bars of another market).
 - Research results are kept in `decks/<handle>/research`. Each chapter prompt ends with a self-check script (lengths, em dash,
   semicolon): the other LLM delivers at « 0 problems », so the fit to the boxes is not redone here.

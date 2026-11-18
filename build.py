@@ -186,6 +186,8 @@ def build(slug, png=False, only=None):
         if str(s.get('type', '')).startswith('pp_'): PREP[s['type'][3:]](s)
         if s.get('type') == 'logogrid': prepare_logogrid(s)
         if s.get('type') == 'cover': prepare_cover(s, d)
+        if s.get('type') == 'invbets' and not s.get('rows'):   # S09 twin with no rows: run tools/pp/s09_from_base.py (Advanced Nuclear, 18 Nov 2026)
+            raise SystemExit(f"invbets {s.get('id')} has no rows: python3 tools/pp/s09_from_base.py <handle> {s.get('id')} --today <date> --short ...")
         if s.get('type') == 'dated' and len(s.get('items', [])) != 6:
             raise SystemExit(f"dated list must have exactly 6 dates (has {len(s.get('items', []))}): {s.get('title')}")
         if s.get('type') == 'contrast':

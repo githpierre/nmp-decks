@@ -167,7 +167,6 @@ note:
 ```yaml
 status: ok
 title: How can we categorize companies of the advanced nuclear market?
-page: null
 note: We use the five solution groups of our company database. Gas-cooled reactors stand alone, and sodium, lead and molten salt designs form one Gen IV group.
 t:
   25: Here, we categorize by type of solution

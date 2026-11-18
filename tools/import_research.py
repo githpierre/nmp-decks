@@ -485,6 +485,7 @@ def main():
         if x.get('type') == 'x/divider_3': x.pop('title', None)
     for x in S:                  # a converted chart with fixed geometry needs its data (14 Nov 2026: the valuation lines of the original PowerPoint were shown in two decks)
         if x.get('type') == 'x/fast_startups_growing' and not x.get('growth'): print('FIXED CHART', x.get('id'), x['type'], ': give `growth: {36: {pts: [[years since founding, value], …]}, 37: …}` in edits.yaml, or drop the slide')
+        if x.get('type') == 'x/broke_these_startups_did_each' and a.model and not x.get('drop'): print('FIXED CHART', x.get('id'), x['type'], ': its cause dots are drawn for the reference market, use the live S11 twin (pp_killers) or drop the slide (18 Nov 2026, Advanced Nuclear)')
     if a.model:                  # icons copied from the reference market and still identical: a leftover when they belong to its domain (12 Nov 2026: 🧬 🦠 💉 in Humanoid Robotics)
         _M = {y.get('id'): y for y in yaml.safe_load((ROOT / a.model / 'deck.yaml').read_text())['slides']}
         _EDITS = (yaml.safe_load((out / 'edits.yaml').read_text()) or {}) if (out / 'edits.yaml').exists() else {}
