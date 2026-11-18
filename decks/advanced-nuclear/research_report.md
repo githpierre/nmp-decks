@@ -1,0 +1,73 @@
+# Research import re, jsonport
+
+67 answers parsed, 0 YAML errors, 69 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed008**: no sources
+- **ed009**: no sources
+- **ed010**: no sources
+- **ed011**: length 28: 8 vs 24; no sources
+- **ed012**: status no_data: products are reactors and fuel with no public catalogue to group by buyer
+- **ed012**: dropped: no data
+- **ed013**: status no_data: no public price list, reactor prices are project quotes
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: no sources
+- **ed016**: length 12: 20 vs 35; no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: no sources
+- **ed020**: length 13: 13 vs 20; length 18: 14 vs 23; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed054**: no sources
+- **ed055**: length 10: 73 vs 58; length 22: 79 vs 60; no sources
+- **ed056**: no sources
+- **ed057**: length 16: 36 vs 27; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 17: 14 vs 21; no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 17: 15 vs 21; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 14: 12 vs 20; length 17: 15 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 14 vs 20; no sources
+- **ed064-s4**: no sources
+- **ed065-s4**: no sources
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 12: 11 vs 20; no sources
+- **ed104**: length 9: 13 vs 22; length 7: 80 vs 63; length 10: 85 vs 52; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: length 8: 34 vs 26; no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: length 8: 12 vs 20; no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 36 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: length 8: 14 vs 20; no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 7: 29 vs 39; length 8: 38 vs 26; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: length 8: 9 vs 20; no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: no sources

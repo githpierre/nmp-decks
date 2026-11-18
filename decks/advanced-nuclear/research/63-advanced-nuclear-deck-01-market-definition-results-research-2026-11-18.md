@@ -167,25 +167,25 @@ note:
 ```yaml
 status: ok
 title: How can we categorize companies of the advanced nuclear market?
-page: 1/3
+page: null
 note: We use the five solution groups of our company database. Gas-cooled reactors stand alone, and sodium, lead and molten salt designs form one Gen IV group.
 t:
   25: Here, we categorize by type of solution
 categories:
 - label: "LIGHT-WATER\nSMRS"
-  text: Companies shrinking today's water-cooled reactor into factory-built modules
+  description: Companies shrinking today's water-cooled reactor into factory-built modules
   e: 🏭
 - label: "MICRO\nREACTORS"
-  text: Companies building reactors of a few megawatts that fit on a truck
+  description: Companies building reactors of a few megawatts that fit on a truck
   e: 🚚
 - label: "HIGH-TEMP\nREACTORS"
-  text: Companies cooling reactors with gas to deliver very hot heat and power
+  description: Companies cooling reactors with gas to deliver very hot heat and power
   e: 🔥
 - label: "GEN IV\nREACTORS"
-  text: Companies using sodium, lead or molten salt to cool reactors instead of water
+  description: Companies using sodium, lead or molten salt to cool reactors instead of water
   e: ⚛️
 - label: "NUCLEAR FUEL\nSYSTEMS"
-  text: Companies enriching or making the special fuel that new reactors need
+  description: Companies enriching or making the special fuel that new reactors need
   e: ⛽
 ```
 
