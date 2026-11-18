@@ -352,6 +352,7 @@ slides:
   type: sx_categories_n
   section: Market definition
   title: How can we categorize companies of the longevity market?
+  page: 1/3
   note: We use the six solution groups of our company database, from drugs that target aging to the brands that sell to consumers.
   src: 18
   categories:
@@ -387,63 +388,83 @@ slides:
     emoji: 🔬
   categorization: Here, we categorize by type of solution
 - id: ed019
-  type: x/categorize_companies_market
+  type: sx_categories_n
   section: Market definition
   title: How can we categorize companies of the longevity market?
-  page: 1/2
-  note: We also categorize by buyer because people paying for themselves, older adults, doctors and employers need very different prices, proof and products.
+  page: 2/3
+  note: We also categorize by buyer because healthy adults, older adults, doctors, employers, drug groups and pet owners need very different prices, proof and products.
   src: 19
-  t:
-    7: 'EMPLOYERS AND
+  categorization: Here, we categorize by the type of buyer
+  categories:
+  - label: 'SELF-PAYING
+
+      ADULTS'
+    description: Companies selling tests and memberships to healthy adults who pay out of pocket
+    emoji: 💳
+  - label: 'OLDER
+
+      ADULTS'
+    description: Companies treating a decline of age, like memory loss, frailty or bone loss
+    emoji: 🛡️
+  - label: 'DOCTORS AND
+
+      CLINICS'
+    description: Companies giving doctors tests, programs and tools to offer prevention care
+    emoji: 🩺
+  - label: 'EMPLOYERS AND
 
       INSURERS'
-    8: Companies selling tests and memberships to healthy adults who pay out of pocket
-    10: 'SELF-PAYING
+    description: Companies selling prevention programs that cut future health costs for payers
+    emoji: 💼
+  - label: 'PHARMA
 
-      ADULTS'
-    11: Companies treating a decline of age, like memory loss, frailty or bone loss
-    13: 'OLDER
+      PARTNERS'
+    description: Companies licensing aging targets and drug programs to large drug groups
+    emoji: 🤝
+  - label: 'PET
 
-      ADULTS'
-    14: 💳
-    15: 🛡️
-    16: Companies giving doctors tests, programs and tools to offer prevention care
-    18: 'DOCTORS AND
-
-      CLINICS'
-    19: Companies selling prevention programs that cut future health costs for payers
-    21: 🎯
-    22: 💼
-    25: Here, we categorize by the type of buyer
+      OWNERS'
+    description: Companies selling lifespan drugs for older dogs through their vets
+    emoji: 🦴
 - id: ed020
-  type: x/categorize_companies_market
+  type: sx_categories_n
   section: Market definition
   title: How can we categorize companies of the longevity market?
-  page: 2/2
+  page: 3/3
   note: A third useful lens is the business model, because a membership, a drug or a clinic visit brings in money at very different speeds.
   src: 20
-  t:
-    7: 'PREMIUM
-
-      CLINICS'
-    8: Companies running long trials and earning from licences or a drug approval
-    10: 'DRUG
+  categorization: Here, we categorize by business model
+  categories:
+  - label: 'DRUG
 
       DEVELOPERS'
-    11: Companies earning a yearly fee for lab tests, results and coaching
-    13: 'MEMBERSHIP
+    description: Companies running long trials and earning from licences or a drug approval
+    emoji: ♾️
+  - label: 'MEMBERSHIP
 
       PLATFORMS'
-    14: ♾️
-    15: ⏳
-    16: Companies selling home tests, pills and devices one order at a time
-    18: 'PRODUCT
+    description: Companies earning a yearly fee for lab tests, results and coaching
+    emoji: ⏳
+  - label: 'PRODUCT
 
       SELLERS'
-    19: Companies earning thousands per client for full checkups and programs
-    21: 💰
-    22: 🏥
-    25: Here, we categorize by business model
+    description: Companies selling home tests, pills and devices one order at a time
+    emoji: 🛒
+  - label: 'PREMIUM
+
+      CLINICS'
+    description: Companies earning thousands per client for full checkups and programs
+    emoji: 🏥
+  - label: 'LICENSING
+
+      PLATFORMS'
+    description: Companies earning milestones and royalties when partners use their targets
+    emoji: 🔗
+  - label: 'DATA
+
+      PLATFORMS'
+    description: Companies selling aging data, scan archives and AI tools to labs and insurers
+    emoji: 📊
 - id: ed021
   type: x/top_companies_market
   section: Market definition
@@ -903,28 +924,6 @@ slides:
   - We compare broad industry values, not revenue from the independently screened startups covered in this report
   - We use direct 2026 sizes when given and advance SNS and Maximize 2025 figures by their stated yearly growth
   src: 42
-- id: ed048
-  type: x/behind_these_categories
-  section: Market size
-  title: What is behind these categories?
-  src: 48
-  t:
-    4: Aging-biology drug makers target how we age, while aging research platforms study why aging causes decline
-    5: THERAPY & RESEARCH
-    7: Preventive health platforms monitor early risks, while biological-age tests track aging in blood or DNA
-    8: TESTS & PREVENTION
-    9: Longevity clinics offer care plans, while consumer longevity brands sell products marketed for healthy aging
-    10: CLINICS & BRANDS
-    11: 💊
-    12: 🩸
-    13: 🏥
-    14: ''
-    15: ''
-    16: ''
-    17: ''
-    18: ''
-    19: ''
-  holes_ok: true
 - id: ed050
   type: x/growth_rate_estimates_from_different
   section: Market size
@@ -1313,7 +1312,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: SELF-PAYING HEALTHY ADULTS
+    3: 'SELF-PAYING
+
+      HEALTHY ADULTS'
     5: 'Adults who pay out of pocket for tests,
 
       memberships and clinics to stay healthy'
@@ -1467,7 +1468,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: OLDER ADULTS FACING DECLINE
+    3: 'OLDER ADULTS
+
+      FACING DECLINE'
     5: 'People over 65 who want to slow memory
 
       loss, frailty and other declines of age'
@@ -1603,7 +1606,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: DOCTORS AND CLINICS
+    3: 'DOCTORS
+
+      AND CLINICS'
     5: 'Doctors and clinics that want to add
 
       prevention and longevity care to their offer'
@@ -1739,7 +1744,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: EMPLOYERS AND INSURERS
+    3: 'EMPLOYERS
+
+      AND INSURERS'
     5: 'Companies and health insurers that want
 
       to cut the future health costs of members'
@@ -2508,7 +2515,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: AGING-BIOLOGY DRUGS
+    3: 'AGING-BIOLOGY
+
+      DRUGS'
     5: Drugs that target the biology of aging or a decline of age
     6: VALUE CREATION
 - id: ed107-s1
@@ -2598,7 +2607,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: PREVENTIVE HEALTH PLATFORMS
+    3: 'PREVENTIVE
+
+      HEALTH PLATFORMS'
     5: Memberships and apps that test, track and coach long-term health
     6: VALUE CREATION
 - id: ed107-s2
@@ -2688,7 +2699,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: BIOLOGICAL-AGE TESTS
+    3: 'BIOLOGICAL-AGE
+
+      TESTS'
     5: Tests that estimate biological age from blood, saliva or DNA
     6: VALUE CREATION
 - id: ed107-s3
@@ -2778,7 +2791,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: LONGEVITY CLINICS
+    3: 'LONGEVITY
+
+      CLINICS'
     5: Clinics that sell scans, tests and plans to stay healthy longer
     6: VALUE CREATION
 - id: ed107-s4
@@ -2868,7 +2883,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: CONSUMER LONGEVITY BRANDS
+    3: 'CONSUMER
+
+      LONGEVITY BRANDS'
     5: Supplements and products sold to consumers with a healthspan claim
     6: VALUE CREATION
 - id: ed107-s5
@@ -2958,7 +2975,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: AGING RESEARCH PLATFORMS
+    3: 'AGING RESEARCH
+
+      PLATFORMS'
     5: AI and lab tools that find new targets in the biology of aging
     6: VALUE CREATION
 - id: ed107-s6
@@ -4218,14 +4237,14 @@ slides:
     12: '🧪
 
       Startups measuring biological age with blood markers'
-    13: 🔬
-    14: 🩺
-    15: 🧬
-    16: 💊
-    17: 🧪
-    18: 🍎
-    19: 🏥
-    20: 🦴
+    13: '1'
+    14: '2'
+    15: '3'
+    16: '4'
+    17: '5'
+    18: '6'
+    19: '7'
+    20: '8'
 - id: ed174
   type: x/have_been_different_waves_hot
   section: Top players
@@ -4441,14 +4460,14 @@ slides:
     14: '🦴
 
       Loyal wants to extend healthy dog lifespan using medicines for aging'
-    15: 🔬
-    16: 🧬
-    17: 💊
-    18: 👁️
-    19: 🦴
-    20: 🧪
-    21: ⚗️
-    22: 🎯
+    15: '1'
+    16: '2'
+    17: '3'
+    18: '4'
+    19: '5'
+    20: '6'
+    21: '7'
+    22: '8'
 - id: ed188
   type: x/startups_passed_1b
   section: Top players

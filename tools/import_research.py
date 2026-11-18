@@ -261,6 +261,7 @@ def merge(slide, ans):
             for kk, vv in v.items():
                 kk = int(kk) if str(kk).isdigit() else kk
                 if kk not in t: continue
+                if re.fullmatch(r'\d{1,2}', str(t[kk]).strip()) and not re.search(r'[\w$%]', str(vv)): continue   # a number badge (1-8) stays the model's number: an emoji there left empty circles (Longevity ed172, ed186, 18 Nov 2026)
                 vv = str(vv).replace('\\n', '\n').strip()                  # a literal backslash-n written by the other LLM is a line break
                 if '\n\n' not in t[kk]: vv = re.sub(r'\n\s*\n+', '\n', vv)   # no blank paragraph unless the model has one
                 t[kk] = vv
@@ -503,6 +504,18 @@ def main():
             x['logo_src'] = logo(nm)
     for x in S:                  # segment dividers carry no slide title (Pierre, 14 Nov 2026: « Pain points: Hospitals… » sat over the arrows)
         if x.get('type') == 'x/divider_3': x.pop('title', None)
+    _cz = [y for y in S if y.get('id') in ('ed018', 'ed019', 'ed020')]   # the three categorize pages: one series 1/3-3/3, same design, same count, never page: null (Pierre, 18 Nov 2026, twice)
+    if len(_cz) > 1 and (len({y.get('type') for y in _cz}) > 1 or any(not y.get('page') for y in _cz) or len({len(y.get('categories') or []) for y in _cz}) > 1):
+        print('SERIES MIXED categorize pages:', ' '.join(f"{y['id']}={y.get('type')}:{len(y.get('categories') or [])}:{y.get('page')}" for y in _cz), ': one series 1/3 2/3 3/3, sx_categories_n, as many rows as the categories')
+    _ids = [y.get('id') for y in S]   # « What is behind these categories? » explains the split by category just before it: without that slide it has nothing to explain (Pierre, 18 Nov 2026, Longevity)
+    if 'ed048' in _ids and not any(i in _ids for i in ('ed047p', 'ed047')):
+        S[:] = [y for y in S if y.get('id') != 'ed048']; print('slide dropped (no category split before it): ed048')
+    def _two(t):
+        w = t.split(); k = min(range(1, len(w)), key=lambda i: abs(len(' '.join(w[:i])) - len(' '.join(w[i:])))); return ' '.join(w[:k]) + '\n' + ' '.join(w[k:])
+    for x in S:                  # segment dividers of one chapter: the name always on 2 balanced lines, so every divider of the series has the same number of lines (Pierre, 18 Nov 2026: « soit 3 lignes partout soit 4 »)
+        if x.get('type') == 'x/divider_3' and isinstance((x.get('t') or {}).get(3), str):
+            t = x['t'][3].replace('\n', ' ').strip()
+            if len(t.split()) >= 2: x['t'][3] = _two(t)
     for x in S:                  # a converted chart with fixed geometry needs its data (14 Nov 2026: the valuation lines of the original PowerPoint were shown in two decks)
         if x.get('type') == 'x/fast_startups_growing' and not x.get('growth'): print('FIXED CHART', x.get('id'), x['type'], ': give `growth: {36: {pts: [[years since founding, value], …]}, 37: …}` in edits.yaml, or drop the slide')
         if x.get('type') == 'x/broke_these_startups_did_each' and a.model and not x.get('drop'): print('FIXED CHART', x.get('id'), x['type'], ': its cause dots are drawn for the reference market, use the live S11 twin (pp_killers) or drop the slide (18 Nov 2026, Advanced Nuclear)')

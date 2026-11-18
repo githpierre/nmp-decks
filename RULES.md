@@ -150,7 +150,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 ## Pierre's review of Healthcare AI (14 Nov 2026), each with its check
 - Amounts read at a glance: $10B or more without decimal ($56B, never $56.01B), under $10B one decimal at most ($2.1B), same for M.
   A share keeps one decimal at most. Applied by the import to every text except notes (notes keep the exact arithmetic). Given to the research LLM as a format rule.
-- The pages of a series (1/2, 2/3…) share one design and one number of items. CHECK SERIES MIXED (import). A page that cannot match leaves the series (`page: null`).
+- The pages of a series (1/2, 2/3…) share one design and one number of items. CHECK SERIES MIXED (import). The three « How can we categorize companies » pages are ALWAYS one series 1/3, 2/3, 3/3 (solution, buyer, business model) in the same design with the number of base categories on every page: buyers and business models get as many rows as the categories (Pierre, 18 Nov 2026, said twice). `page: null` is never used to silence the check on them.
 - The three circles (markets it sits between): two words each, one word per line. CHECK VENN WORDS.
 - Top companies slide: company names in capitals (import).
 - Segment dividers: no slide title on top. Their name takes the largest size, up to 34pt (Pierre, 18 Nov 2026: 40pt was too big), at which the longest name of the deck stays clear of the side arrows, and every divider uses that size (fixlib deck()).
@@ -180,3 +180,6 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A KPI slide with up arrows only shows rises: a falling funnel (600 teams to 10) takes a face-off or a funnel.
 - The footer label is the exact line of data/market_labels.txt (« Longevity market »), in plans/<handle>.yaml.
 - The cover title can contain « M A R K E T »: cover_from_slides.py finds the subtitle by « P I T C H ».
+- « What is behind these categories? » (ed048) only follows a split of the market by category (ed047p); without it the slide is dropped by the import (Pierre, 18 Nov 2026).
+- Number badges (1-8 in the corner of cards) keep their numbers: the import ignores an emoji given for a badge (empty circles on Longevity and Advanced Nuclear, 18 Nov 2026).
+- Segment dividers of one chapter all have their name on 2 balanced lines, so every divider of the series has the same number of lines (Pierre, 18 Nov 2026).

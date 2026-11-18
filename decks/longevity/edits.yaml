@@ -1,7 +1,7 @@
 ed173:
   drop: true
 ed018:
-  page: null
+  page: 1/3
 ed006:
   icon_tl: ⏳
 ed029:
@@ -342,6 +342,75 @@ ed219:
   17: Fitt Insider's report on Eternal closing its New York and San Francisco longevity clinics
   18: We used it for a recent clinic failure. It also showed how hard the clinic model is to scale.
 ed019:
-  22: 💼
+  type: sx_categories_n
+  t: null
+  page: 2/3
+  categorization: Here, we categorize by the type of buyer
+  categories:
+  - label: 'SELF-PAYING
+
+      ADULTS'
+    description: Companies selling tests and memberships to healthy adults who pay out of pocket
+    emoji: 💳
+  - label: 'OLDER
+
+      ADULTS'
+    description: Companies treating a decline of age, like memory loss, frailty or bone loss
+    emoji: 🛡️
+  - label: 'DOCTORS AND
+
+      CLINICS'
+    description: Companies giving doctors tests, programs and tools to offer prevention care
+    emoji: 🩺
+  - label: 'EMPLOYERS AND
+
+      INSURERS'
+    description: Companies selling prevention programs that cut future health costs for payers
+    emoji: 💼
+  - label: 'PHARMA
+
+      PARTNERS'
+    description: Companies licensing aging targets and drug programs to large drug groups
+    emoji: 🤝
+  - label: 'PET
+
+      OWNERS'
+    description: Companies selling lifespan drugs for older dogs through their vets
+    emoji: 🦴
+  note: We also categorize by buyer because healthy adults, older adults, doctors, employers, drug groups and pet owners need very different prices, proof and products.
 ed020:
-  22: 🏥
+  type: sx_categories_n
+  t: null
+  page: 3/3
+  categorization: Here, we categorize by business model
+  categories:
+  - label: 'DRUG
+
+      DEVELOPERS'
+    description: Companies running long trials and earning from licences or a drug approval
+    emoji: ♾️
+  - label: 'MEMBERSHIP
+
+      PLATFORMS'
+    description: Companies earning a yearly fee for lab tests, results and coaching
+    emoji: ⏳
+  - label: 'PRODUCT
+
+      SELLERS'
+    description: Companies selling home tests, pills and devices one order at a time
+    emoji: 🛒
+  - label: 'PREMIUM
+
+      CLINICS'
+    description: Companies earning thousands per client for full checkups and programs
+    emoji: 🏥
+  - label: 'LICENSING
+
+      PLATFORMS'
+    description: Companies earning milestones and royalties when partners use their targets
+    emoji: 🔗
+  - label: 'DATA
+
+      PLATFORMS'
+    description: Companies selling aging data, scan archives and AI tools to labs and insurers
+    emoji: 📊

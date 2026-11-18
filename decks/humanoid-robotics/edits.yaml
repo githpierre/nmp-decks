@@ -3,7 +3,6 @@ ed001:
 
     robotics'
 ed018:
-  page: null
   type: sx_categories_n
   t: null
   categories:
@@ -34,6 +33,7 @@ ed018:
     emoji: 🏭
   categorization: Here, we categorize by type of robot
   note: We could categorize the field in many ways, but these five robot types capture most current company strategies and make the map easier to read
+  page: 1/3
 ed059:
   13: 'SKILL
 
@@ -110,11 +110,14 @@ ed107-s3:
   14: ROBOTICS EDUCATORS
   17: SOFTWARE DEVELOPERS
 ed108-s3:
-  7: A developer buys the robot, opens its software interfaces and starts experiments quickly. Documentation works, parts and updates are easy to get, and teams spend their time on applications rather than on rebuilding hardware.
+  7: A developer buys the robot, opens its software interfaces and starts experiments quickly. Documentation works, parts and updates are easy to get, and teams spend their time on applications rather than
+    on rebuilding hardware.
 ed108-s4:
-  7: The robot holds natural conversations, reacts with believable timing and stays engaging in noisy public places. Staff set its knowledge and personality, and visitors understand its limits. Its physical presence does what a screen cannot.
+  7: The robot holds natural conversations, reacts with believable timing and stays engaging in noisy public places. Staff set its knowledge and personality, and visitors understand its limits. Its physical
+    presence does what a screen cannot.
 ed108-s5:
-  6: The robot lifts a dramatic demo load but is slow, hard to service and unsafe near normal operations. Noise, heat and upkeep pile up and precision drops under load, so the customer still needs cranes, fixtures and people.
+  6: The robot lifts a dramatic demo load but is slow, hard to service and unsafe near normal operations. Noise, heat and upkeep pile up and precision drops under load, so the customer still needs cranes,
+    fixtures and people.
 iv_fda:
   7: 'LAB TESTS
 
@@ -177,7 +180,9 @@ ed183:
       text: 'China has the deepest supply chain: Unitree, UBTECH, AgiBot and Galbot ship the most robots.'
     au:
       name: JAPAN AND KOREA
-      at: [654, 374]
+      at:
+      - 654
+      - 374
       text: Japan, Korea and Southeast Asia are active customer and investor hubs, while Chinese vendors increasingly sell and test robots abroad.
 ed201:
   23: US
@@ -480,17 +485,68 @@ ed048:
 ed006:
   icon_tl: 🤖
 ed019:
-  page: 1/2
-  14: 🏭
-  15: 🚚
-  21: 🏠
-  22: 🛒
+  page: 2/3
+  type: sx_categories_n
+  t: null
+  categorization: Here, we categorize by the place where the robot works
+  categories:
+  - label: 'CAR + ELECTRONICS
+
+      FACTORIES'
+    description: Companies automating repetitive handling, sequencing, machine tending and assembly work on production floors
+    emoji: 🏭
+  - label: 'WAREHOUSES
+
+      + LOGISTICS'
+    description: Companies moving totes, handling goods and automating repetitive material workflows in distribution sites
+    emoji: 🚚
+  - label: 'HOMES +
+
+      ELDER CARE'
+    description: Companies building safe, quiet humanoids for chores, assistance and everyday interaction around people
+    emoji: 🏠
+  - label: 'RETAIL +
+
+      SERVICES'
+    description: Companies using humanoid form for customer-facing assistance, hospitality, guidance and practical service tasks
+    emoji: 🛒
+  - label: 'RESEARCH
+
+      LABS'
+    description: Companies selling humanoids to universities and AI labs that train robot skills and test new models
+    emoji: 🔬
 ed020:
-  page: 2/2
-  14: 🧑‍💻
-  21: 🏭
-  22: 🏠
+  page: 3/3
   note: We add commercial maturity as a third lens, because a robot sold as a developer platform, used in a paid pilot or working commercially is at a very different stage
+  type: sx_categories_n
+  t: null
+  categorization: Here, we categorize by commercial maturity
+  categories:
+  - label: 'DEVELOPER
+
+      HARDWARE'
+    description: Companies shipping complete humanoids mainly for research, software development and embodied-AI training
+    emoji: 🧑‍💻
+  - label: 'PAID
+
+      PILOTS'
+    description: Companies placing robots with enterprises to validate tasks, economics, safety and integration before scale
+    emoji: ⏳
+  - label: 'LIVE COMMERCIAL
+
+      DEPLOYMENTS'
+    description: Companies with robots performing recurring work under commercial customer agreements in operating facilities
+    emoji: 🏭
+  - label: 'CONSUMER
+
+      PREORDERS'
+    description: Companies taking orders for home humanoids before broad consumer delivery and fully autonomous capability
+    emoji: 🏠
+  - label: 'ROBOTS AS
+
+      A SERVICE'
+    description: Companies renting robots by the hour or the month instead of selling them outright to customers
+    emoji: ⏱️
 ed029:
   13: 🚶
   15: 🤝
@@ -508,13 +564,39 @@ ed096:
 ed186:
   note: We call a moonshot a highly ambitious technical or commercial goal with major uncertainty, even when the company already has working robots or customer pilots
 ed190:
-  # valuation lines drawn from the valuation milestones of the sources (years since founding, $B), the text box moved clear of Figure's line
   growth:
-    37: {pts: [[2.1, 2.6], [3.7, 39]]}
-    38: {pts: [[9, 1], [10.6, 9]], at: [-45, -38]}
-    36: {pts: [[10.1, 5]], at: [-110, -40]}
-    39: {pts: [[10, 1], [11.5, 2.5]]}
-    41: {at: [250, 0]}
+    37:
+      pts:
+      - - 2.1
+        - 2.6
+      - - 3.7
+        - 39
+    38:
+      pts:
+      - - 9
+        - 1
+      - - 10.6
+        - 9
+      at:
+      - -45
+      - -38
+    36:
+      pts:
+      - - 10.1
+        - 5
+      at:
+      - -110
+      - -40
+    39:
+      pts:
+      - - 10
+        - 1
+      - - 11.5
+        - 2.5
+    41:
+      at:
+      - 250
+      - 0
   note: We use for each line a public valuation milestone from founding to the latest disclosed financing. Private values are round-based and public values move after listing
 ed065-s1:
   note:
@@ -572,8 +654,27 @@ ed104:
   7: Less teleoperation, fewer resets and less specialist attention needed on site during every working shift
   10: Robots that connect with the existing lines, conveyors and plant software, with no need to rebuild the site
   15: Hardware and service models that lower the cost of each useful hour worked, such as leasing by the month
-# icons of the five roles (the research gave none and the reference market's stayed: 🎗️ 🩸 🦴)
-ed063-s1: {20: '🏭', 21: '👷', 22: '🤖', 23: '🔧', 24: '💼'}
-ed063-s2: {20: '📦', 21: '👷', 22: '⚙️', 23: '🔧', 24: '🚚'}
-ed063-s3: {20: '🧓', 21: '👪', 22: '🏠', 23: '🩺', 24: '🛒'}
-ed063-s4: {20: '🧑‍💼', 21: '🛍️', 22: '🏬', 23: '🔧', 24: '🛡️'}
+ed063-s1:
+  20: 🏭
+  21: 👷
+  22: 🤖
+  23: 🔧
+  24: 💼
+ed063-s2:
+  20: 📦
+  21: 👷
+  22: ⚙️
+  23: 🔧
+  24: 🚚
+ed063-s3:
+  20: 🧓
+  21: 👪
+  22: 🏠
+  23: 🩺
+  24: 🛒
+ed063-s4:
+  20: 🧑‍💼
+  21: 🛍️
+  22: 🏬
+  23: 🔧
+  24: 🛡️

@@ -12,7 +12,7 @@ eval "python3 -I tools/import_research.py $(cat "$D/import.args")" > /tmp/import
 grep -E "MODEL MARKET LEFT|MODEL ICON LEFT|SIGNAL (STALE|NO DATE)|CONTRAST ROWS|COVER NOT COPIED|DUPLICATE KEY|PROMPT TALK|NO ANSWER|SERIES MIXED|MAP PLACE|STAGE LABEL|VENN WORDS|TEXT LENGTH|FIXED CHART|extra slide|slide dropped|logos missing" /tmp/import_$H.log | cut -c1-170
 # piste B (18 Nov 2026): a slide that still shows the reference market blocks the full build, so it can never reach a review page
 # or a PDF. While drafting, --fast builds anyway and only lists them.
-if [ "$2" = "--png" ] && grep -qE "MODEL MARKET LEFT|MODEL ICON LEFT|MODEL SOURCES LEFT|NO ANSWER|FIXED CHART" /tmp/import_$H.log; then echo "REFERENCE MARKET LEFT: fix the lines above (or build a draft with --fast)"; exit 1; fi
+if [ "$2" = "--png" ] && grep -qE "MODEL MARKET LEFT|MODEL ICON LEFT|MODEL SOURCES LEFT|NO ANSWER|FIXED CHART|SERIES MIXED|STAGE LABEL" /tmp/import_$H.log; then echo "REFERENCE MARKET LEFT: fix the lines above (or build a draft with --fast)"; exit 1; fi
 python3 tools/atelier2/make_decisions.py "$D" > /dev/null || { echo "DECISIONS FAILED"; exit 1; }
 MODE=$2
 if [ "$2" = "--fast" ]; then ONLY=$(python3 tools/changed_slides.py "$H"); if [ "$ONLY" = "ALL" ]; then MODE=--png; elif [ -z "$ONLY" ]; then echo "no slide changed"; exit 0; else MODE="--only $ONLY"; echo "fast: slides $ONLY"; fi; fi

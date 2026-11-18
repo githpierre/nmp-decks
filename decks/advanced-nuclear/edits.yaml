@@ -28,7 +28,7 @@ iv_pipeline:
   38: LIVE
   2: TVA · BWRX-300
 ed018:
-  page: null
+  page: 1/3
 ed030:
   16: ⚛️
 ed190:
@@ -73,9 +73,36 @@ ed011:
 ed016:
   12: Fuel for new reactors is easy to find
 ed019:
-  10: 'POWER
+  type: sx_categories_n
+  t: null
+  page: 2/3
+  categorization: Here, we categorize by the type of buyer
+  categories:
+  - label: 'POWER
 
-    UTILITIES'
+      UTILITIES'
+    description: Companies selling reactors to power companies that replace old coal plants
+    emoji: ⚡
+  - label: 'DATA
+
+      CENTERS'
+    description: Companies signing long power contracts with tech giants for their AI data centers
+    emoji: 🛡️
+  - label: 'INDUSTRIAL
+
+      HEAT'
+    description: Companies selling steam and hot heat to chemical plants, refineries and steel mills
+    emoji: 🎯
+  - label: 'DEFENSE AND
+
+      GOVERNMENT'
+    description: Companies building small reactors for military bases, remote sites and space missions
+    emoji: 🏛️
+  - label: 'MINING AND
+
+      REMOTE SITES'
+    description: Companies selling small reactors to mines, islands and off-grid towns that burn diesel today
+    emoji: ⛽
 ed056:
   6: 'You need a licence
 
@@ -121,7 +148,8 @@ ed109-s4:
 
     The first unit gets built on site'
 ed108-s5:
-  6: The reactor is built but sits idle because HALEU never arrives, Russian supply is banned, the only US plant makes too little, and the developer must delay its launch by years while it keeps paying its staff and its loans.
+  6: The reactor is built but sits idle because HALEU never arrives, Russian supply is banned, the only US plant makes too little, and the developer must delay its launch by years while it keeps paying
+    its staff and its loans.
 ed136:
   6: '📜
 
@@ -378,8 +406,8 @@ ed219:
     funding tracker'
   17: Our own database of every equity round since January 2024, each with its source link
   18: We used it for all the funding slides. It also counted rounds by stage and country.
-# rows mix reactor types with project stages (demo construction, commercial scale): not a who-owns-what grid
-ed173: {drop: true}
+ed173:
+  drop: true
 ed032:
   5: General Matter won $900M for HALEU, as much as Centrus
   9: Centrus enrichment commitments jumped 80% in a quarter
@@ -389,3 +417,34 @@ ed032:
   15: X-energy's quarterly revenue more than doubled
   19: Google searches for advanced nuclear soared
   note: We chose seven recent signals across fuel, test reactors, tech buyers, stock values, revenue and search interest. Each one has its own slide after this one.
+ed020:
+  type: sx_categories_n
+  t: null
+  page: 3/3
+  categorization: Here, we categorize by business model
+  categories:
+  - label: 'REACTOR
+
+      SELLERS'
+    description: Companies designing reactors and selling them to utilities that will own and run them
+    emoji: ♾️
+  - label: 'POWER
+
+      SELLERS'
+    description: Companies planning to own their plants and sell the electricity under long contracts
+    emoji: ⏳
+  - label: 'FUEL
+
+      SUPPLIERS'
+    description: Companies enriching uranium or making fuel pellets and selling them to reactor owners
+    emoji: 💰
+  - label: 'HEAT
+
+      SELLERS'
+    description: Companies selling hot steam or heat to industrial sites rather than power to the grid
+    emoji: ♨️
+  - label: 'DESIGN
+
+      LICENSORS'
+    description: Companies licensing their reactor design and selling engineering work to other builders
+    emoji: 🔗
