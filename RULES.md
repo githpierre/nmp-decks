@@ -86,6 +86,10 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   read by the S09 script and the database slides, as on the live S09 slide.
 - A label that the refit puts on two lines must have two words: a single word is cut in the middle (« UTILITI / ES »,
   check WORD_SPLIT). Use the same two-word name on every slide (« Power utilities »).
+- Piste A (18 Nov 2026): the research self-check also refuses a word longer than the key's WORDMAX (longest word seen in a
+  validated deck, `make_spec.py`), an emoji not in `icons.json` on templates that redraw emojis as icons (`specs/icon_templates.json`,
+  made by `tools/icon_templates.py`), and list notes with a line too long or lines of unequal length (shortest under 82%).
+  The import prints the same as TEXT LENGTH, `check_results.py` too. Goal: the first import arrives at 0.
 - Research results are kept in `decks/<handle>/research`. Each chapter prompt ends with a self-check script (lengths, em dash,
   semicolon): the other LLM delivers at « 0 problems », so the fit to the boxes is not redone here.
 

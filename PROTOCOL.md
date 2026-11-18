@@ -14,6 +14,12 @@ Look at `MARKETS.md` first. If the market is there, NEVER rebuild it from step 0
    then `tools/rebuild.sh <handle> --png`. Base figures re-flow by themselves (`{db.key}`), sources are rebuilt.
 4. Gate of step 4, then the review page (only the slides that changed), then the PDF of the current quarter.
 
+## Fast builds (piste C, 18 Nov 2026)
+- While fixing: `tools/rebuild.sh <handle> --fast` renders only the slides whose data changed (about 35 s instead of 5 min); the
+  in-browser audit still checks every slide. A change in a template, `fixlib.js` or `build.py` makes it a full build by itself.
+- Before ANY review page or PDF: one full build, `tools/rebuild.sh <handle> --png`, then the look at the changed slides.
+- Several decks to rebuild after a common fix: run them in the background, one after the other, and keep working.
+
 ## Step 0. Start (Claude, 10 min)
 - Clone the logo libraries: githpierre/nmp-pages and githpierre/nmp-product-pages (add_repo, then `git clone --depth 1`
   into /home/claude). The import reads them.

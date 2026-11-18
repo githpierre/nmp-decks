@@ -68,6 +68,9 @@ HOW TO ANSWER, FOR EVERY SLIDE
    Bad: "{X['proof_bad']}" Good: "{X['proof_good']}" ({X['proof_why']})
 5. Money is written the way people say it: $285M, $4.2B, never $0.285B. $10B or more without decimal ($56B, never $56.01B), under $10B one decimal at most ($2.1B, and $1B never $1.0B). A share keeps one decimal at most (39.7%).
    A key marked CAPS is written in capitals. A key marked WORDS n has exactly n words (the three circles: two words, one per line, written WORD\\nWORD).
+   A key marked WORDMAX n never has a word longer than n letters: a longer word is cut in two on the slide. Bad: "UTILITIES" alone in a narrow label. Good: "POWER UTILITIES" (two short words). Bad: "LICENS." (abbreviation). Good: "PERMIT".
+   Icons: only emojis of the ICONS list in the self-check (they are redrawn as line icons). Bad: 🪖 (not drawn). Good: 🛡️.
+   A note given as a list of lines: lines of about the same length, the shortest at least 82% of the longest. Bad: 87 and 108 characters. Good: 96 and 104.
 6. If you cannot find solid facts for a slide, do NOT invent: return `status: no_data` with one line explaining what is missing. A slide that cannot be filled completely is removed, so never leave half the items empty.
 7. The `note` of each slide (the small text at the bottom) says where the data comes from, starting with "We", in one or two plain sentences. Never put a date like "as of" in it. The note speaks to the reader of the report: never mention this prompt, the model slide, the segments you were given or the length limits.
 8. Where the model shows <logo> or logos_on_slide, the slide shows company logos: give the company names and their website domains in a `logos:` list, we add the logos ourselves. Company names are never shortened.
@@ -104,12 +107,12 @@ def selfcheck(fname):
     """The other LLM checks its own file before delivering (Pierre, 13 Nov 2026: the fit to the boxes is done by the research, not by
     Claude afterwards). A script, not a wish: it prints every text out of its range and the delivery waits for « 0 problems »."""
     import json
-    t = (ROOT / 'tools/selfcheck_template.txt').read_text().replace('__LIMITS__', json.dumps({k: {str(a): b for a, b in v.items()} for k, v in LIMS.items() if v})).replace('__FNAME__', fname)
+    t = (ROOT / 'tools/selfcheck_template.txt').read_text().replace('__LIMITS__', json.dumps({k: {str(a): b for a, b in v.items()} for k, v in LIMS.items() if v})).replace('__FNAME__', fname).replace('__ICONS__', json.dumps(sorted(spec.ICONS - {'__default__'}), ensure_ascii=False))
     LIMS.clear(); return t
 
 
 def block(sid, model, src, extra=''):
-    e = base.example(model); LIMS[sid] = spec.limits(model); L = None   # ranges from specs/slides.yaml (method v2, 14 Nov 2026), no longer the length of the model text
+    e = base.example(model); LIMS[sid] = {**spec.limits(model), **({'note_line': spec.SPEC[spec.tpl(model)]['note_line']} if 'note_line' in (spec.SPEC.get(spec.tpl(model)) or {}) else {}), **({'__icons__': 1} if spec.tpl(model) in spec.ICON_TPL else {})}; L = None   # ranges from specs/slides.yaml (method v2, 14 Nov 2026), no longer the length of the model text
     t = f"### {sid}\n{src} model (structure only):\n```yaml\n{yaml.dump(e, allow_unicode=True, sort_keys=False, width=200)}```\n"
     t += spec.describe(model)
     if extra: t += extra.strip() + '\n'
