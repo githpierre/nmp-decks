@@ -54,10 +54,13 @@ def main():
         w_ = (r.get('what') or '').strip().rstrip('.')   # what the company does (markets.csv), so the reader learns something (Pierre, 14 Nov 2026: rows 30-40% too short)
         lw = lambda x: ' '.join(t if (t.isupper() or any(c.isupper() for c in t[1:])) else t.lower() for t in x.split())
         verb = bool(re.match(r'^(Builds|Develops|Combines|Uses|Makes|Designs|Provides|Offers|Creates|Runs|Helps|Turns|Applies)\b', w_))
+        _w0 = (w_.split() or [''])[0]   # any verb in the 3rd person (« Operates », « Automates »), never « for its operates » (Healthcare AI, 18 Nov 2026)
+        verb = verb or bool(re.match(r'^[A-Z][a-z]+s$', _w0) and not re.search(r'(ics|ions|ors|ems|ots|ools|ents|ances|ings|orms|ices|ss)$', _w0.lower()))
         lim = 124 - len(pub(r['source_url']))   # two lines at most, source label included (spec max 128 with the joining words)
-        while w_ and len(s) + len(w_) >= lim:                     # too long: cut at the last « and », « for », « to », comma
-            cut = max(w_.rfind(x) for x in (' and ', ' for ', ' to ', ', ', ' with '))
+        while w_ and len(s) + len(w_) >= lim:                     # too long: cut at the last « for », « to », « with », comma
+            cut = max(w_.rfind(x) for x in (' for ', ' to ', ', ', ' with '))   # never at « and »: it splits a noun phrase (« an AI-powered patient data », Healthcare AI, 18 Nov 2026)
             w_ = w_[:cut] if cut > 15 else ''
+        if w_ and re.search(r'(-enabled|-powered|-based|-driven|-derived|-specific|-grade|ed)$', w_.split()[-1]): w_ = ''   # a cut that ends on an adjective: use the category instead
         if w_ and verb: s += '. It ' + lw(w_)
         elif w_: s += ' for its ' + lw(w_)
         elif r['cat'] and len(s) + len(r['cat']) < 100: s += ' for its ' + ' '.join(w if w.isupper() else w.lower() for w in r['cat'].split())   # « life science AI », not « life Science AI »

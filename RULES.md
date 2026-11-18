@@ -149,7 +149,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - The pages of a series (1/2, 2/3…) share one design and one number of items. CHECK SERIES MIXED (import). A page that cannot match leaves the series (`page: null`).
 - The three circles (markets it sits between): two words each, one word per line. CHECK VENN WORDS.
 - Top companies slide: company names in capitals (import).
-- Segment dividers: no slide title on top. Their name takes the largest size, up to 40pt, at which the longest name of the deck stays clear of the side arrows, and every divider uses that size (fixlib deck()).
+- Segment dividers: no slide title on top. Their name takes the largest size, up to 34pt (Pierre, 18 Nov 2026: 40pt was too big), at which the longest name of the deck stays clear of the side arrows, and every divider uses that size (fixlib deck()).
 - A map region renamed to a country puts its dot on that country (worldmap PL table). CHECK MAP PLACE for a name the map does not know.
 - Text lengths Pierre asked for (targets for the research prompts): myth answers ~125 characters, « truths that flipped » right boxes ~70,
   rows of dated timelines (latest developments, deals, news, scored big, rounds) 120-140 characters with one more concrete fact.

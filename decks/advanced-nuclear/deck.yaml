@@ -143,6 +143,7 @@ slides:
   - ../../assets/logos/pp_live/advanced-nuclear/s01-07.png
   - ../../assets/logos/pp_live/advanced-nuclear/s01-08.png
   - ../../assets/logos/pp_live/advanced-nuclear/s01-09.png
+  - ../../assets/logos/pp_live/advanced-nuclear/s01-11.png
   inside_xy:
   - src: ../../assets/logos/pp_live/advanced-nuclear/s01-02.png
     x: 435.6
@@ -168,6 +169,9 @@ slides:
   - src: ../../assets/logos/pp_live/advanced-nuclear/s01-09.png
     x: 518.8
     y: 454.1
+  - src: ../../assets/logos/pp_live/advanced-nuclear/s01-11.png
+    x: 415.0
+    y: 330.0
   TL:
     src: ../../assets/logos/pp_live/advanced-nuclear/s01-00.png
     name: Constellation
@@ -181,9 +185,9 @@ slides:
     name: Westinghouse
     text: markets its AP300 small reactor, but its AP1000 is a large Gen III+ unit and its core business serves running plants
   BR:
-    src: ../../assets/logos/pp_live/advanced-nuclear/s01-11.png
-    name: GE Vernova
-    text: is building the first BWRX-300 small reactor in Ontario, but nuclear is one unit next to its gas, wind and grid arms
+    name: Southern Company
+    src: ../../assets/logos/southern-company.png
+    text: finished Vogtle 3 and 4 in Georgia, the newest US reactors, but they are large AP1000 units, not advanced designs
 - id: ed008
   type: x/markets_often_confused
   section: Market definition
@@ -3702,7 +3706,7 @@ slides:
     18: 2026 (AUG)
     19: Valar Atomics raised a $1B Series B led by Sequoia Capital for its mass-manufactured advanced nuclear reactors {1|Valar}
     20: 2026 (AUG)
-    21: Molten Salt Solutions raised a $7M seed round led by Dolby Family Ventures for its enriches lithium isotopes {1|PR Newswire}
+    21: Molten Salt Solutions raised a $7M seed round led by Dolby Family Ventures. It enriches lithium isotopes {1|PR Newswire}
     22: 2026 (JUL)
     23: Antares raised a $370M Series C led by Paradigm for its factory-produced nuclear microreactors {1|Antares}
     24: 2026 (JUL)
@@ -4578,7 +4582,7 @@ slides:
     - Chapter 11|Oct 2024
     - Reactor IP|sold 2025
     - ''
-    src: media/ini/ultra-safe-nuclear-corporation.png
+    src: ../../assets/logos/ultra-safe-nuclear-corporation.png
   - name: Moltex Energy
     slug: moltex-energy
     ini: M
@@ -4600,7 +4604,7 @@ slides:
     - Liquidated|Jan 2026
     - Sale plan|Jan 2026
     - ''
-    src: media/ini/naarea.png
+    src: ../../assets/logos/naarea.png
   - name: TerraPower
     slug: terrapower
     ini: T
