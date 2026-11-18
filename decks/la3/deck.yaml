@@ -23,7 +23,7 @@ slides:
     - Merged with Later|under one platform
     - ''
     - ''
-    src: ../../assets/logos/pp/mavrck.png
+    src: ../../assets/logos/later.png
     ini: M
   - name: Captiv8
     slug: captiv8
@@ -34,7 +34,7 @@ slides:
     - ''
     - Creator platforms face|measurement and contract disputes
     - ''
-    src: ../../assets/logos/pp/captiv8.png
+    src: ../../assets/logos/captiv8.png
     ini: C
   - name: GRIN
     slug: grin
@@ -45,7 +45,7 @@ slides:
     - ''
     - ''
     - Creator tech reset pushed|vendors toward efficiency
-    src: ../../assets/logos/pp/grin.png
+    src: ../../assets/logos/grin.png
     ini: G
   - name: LTK
     slug: ltk
@@ -56,7 +56,7 @@ slides:
     - ''
     - ''
     - ''
-    src: ../../assets/logos/pp/ltk.png
+    src: ../../assets/logos/ltk.png
     ini: L
   - name: Upfluence
     slug: upfluence
@@ -67,7 +67,7 @@ slides:
     - ''
     - ''
     - ''
-    src: ../../assets/logos/pp/upfluence.png
+    src: ../../assets/logos/upfluence.png
     ini: U
   note:
   - We looked for warning signs among well-known influencer marketing companies
@@ -80,15 +80,15 @@ slides:
     the enterprise creator market?'
   companies:
   - short: CreatorIQ
-    src: ../../assets/logos/pp/creatoriq.png
+    src: ../../assets/logos/creatoriq.png
   - short: GRIN
-    src: ../../assets/logos/pp/grin.png
+    src: ../../assets/logos/grin.png
   - short: Captiv8
-    src: ../../assets/logos/pp/captiv8.png
+    src: ../../assets/logos/captiv8.png
   - short: Traackr
-    src: ../../assets/logos/pp/traackr.png
+    src: ../../assets/logos/traackr.png
   - short: Aspire
-    src: ../../assets/logos/pp/aspire.png
+    src: ../../assets/logos/aspire.png
   criteria:
   - name: Creator data
     why: Improves discovery quality
@@ -151,28 +151,28 @@ slides:
   - Distance to the center reflects how central each company is to lab automation
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/opentrons.png
-  - ../../assets/logos/pp/automata.png
-  - ../../assets/logos/pp/highres-biosolutions.png
-  - ../../assets/logos/pp/multiply-labs.png
-  - ../../assets/logos/pp/emerald-cloud-lab.png
-  - ../../assets/logos/pp/biosero.png
-  - ../../assets/logos/pp/synthace.png
-  - ../../assets/logos/pp/matic-robots.png
+  - ../../assets/logos/opentrons.png
+  - ../../assets/logos/automata.png
+  - ../../assets/logos/highres-biosolutions.png
+  - ../../assets/logos/multiply-labs.png
+  - ../../assets/logos/emerald-cloud-lab.png
+  - ../../assets/logos/biosero.png
+  - ../../assets/logos/synthace.png
+  - ../../assets/logos/matic-robots.png
   TL:
-    src: ../../assets/logos/pp/benchling.png
+    src: ../../assets/logos/benchling.png
     name: Benchling
     text: it manages biotech R&D data and workflows, but it does not itself execute experiments through robots or automated
   TR:
-    src: ../../assets/logos/pp/openai.png
+    src: ../../assets/logos/openai--symbol.png
     name: OpenAI
     text: its models can design or analyze experiments, but it does not sell laboratory robots, instruments or automated lab
   BL:
-    src: ../../assets/logos/pp/periodic-labs.png
+    src: ../../assets/logos/periodic-labs.png
     name: Periodic Labs
     text: it is building autonomous physical science labs, but its early focus is materials discovery rather than life science
   BR:
-    src: ../../assets/logos/pp/ginkgo-bioworks.png
+    src: ../../assets/logos/ginkgo-bioworks.png
     name: Ginkgo Bioworks
     text: its foundries are heavily automated, but automation mainly supports its own cell programming and contract research
 - label: LAB AUTOMATION
@@ -196,33 +196,33 @@ slides:
   - name: Liquid Handling
     p: 25
     logos:
-    - ../../assets/logos/pp/hamilton.png
-    - ../../assets/logos/pp/tecan.png
+    - ../../assets/logos/hamilton.png
+    - ../../assets/logos/tecan.png
   - name: Sample Preparation
     p: 18
     logos:
-    - ../../assets/logos/pp/opentrons.png
-    - ../../assets/logos/pp/tecan.png
+    - ../../assets/logos/opentrons.png
+    - ../../assets/logos/tecan.png
   - name: Robotics & Workcells
     p: 18
     logos:
-    - ../../assets/logos/pp/automata.png
-    - ../../assets/logos/pp/opentrons.png
+    - ../../assets/logos/automata.png
+    - ../../assets/logos/opentrons.png
   - name: Cell Culture Automation
     p: 14
     logos:
-    - ../../assets/logos/pp/automata.png
-    - ../../assets/logos/pp/hamilton.png
+    - ../../assets/logos/automata.png
+    - ../../assets/logos/hamilton.png
   - name: High-Throughput Systems
     p: 13
     logos:
-    - ../../assets/logos/pp/agilent-technologies.png
-    - ../../assets/logos/pp/revvity.png
+    - ../../assets/logos/agilent-technologies.png
+    - ../../assets/logos/revvity.png
   - name: Scheduling Software
     p: 12
     logos:
-    - ../../assets/logos/pp/biosero.png
-    - ../../assets/logos/pp/automata.png
+    - ../../assets/logos/biosero.png
+    - ../../assets/logos/automata.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -287,15 +287,15 @@ slides:
     can already do the most today?'
   companies:
   - name: Tecan
-    src: ../../assets/logos/pp/tecan.png
+    src: ../../assets/logos/tecan.png
   - name: Hamilton
-    src: ../../assets/logos/pp/hamilton.png
+    src: ../../assets/logos/hamilton.png
   - name: Beckman
-    src: ../../assets/logos/pp/beckman.png
+    src: ../../assets/logos/beckman.png
   - name: Opentrons
-    src: ../../assets/logos/pp/opentrons.png
+    src: ../../assets/logos/opentrons.png
   - name: HighRes
-    src: ../../assets/logos/pp/highres.png
+    src: ../../assets/logos/highres-biosolutions.png
   features:
   - header: Liquid|handler
     values:
@@ -367,32 +367,32 @@ slides:
     x: 0.15
     y: 0.2
     logos:
-    - src: ../../assets/logos/pp/hamilton.png
-    - src: ../../assets/logos/pp/tecan.png
+    - src: ../../assets/logos/hamilton.png
+    - src: ../../assets/logos/tecan.png
   - name: Recurring consumables
     x: 0.35
     y: 0.82
     logos:
-    - src: ../../assets/logos/pp/tecan.png
-    - src: ../../assets/logos/pp/agilent-technologies.png
+    - src: ../../assets/logos/tecan.png
+    - src: ../../assets/logos/agilent-technologies.png
   - name: Service contracts
     x: 0.5
     y: 0.62
     logos:
-    - src: ../../assets/logos/pp/hamilton.png
-    - src: ../../assets/logos/pp/agilent-technologies.png
+    - src: ../../assets/logos/hamilton.png
+    - src: ../../assets/logos/agilent-technologies.png
   - name: Orchestration software
     x: 0.82
     y: 0.72
     logos:
-    - src: ../../assets/logos/pp/biosero.png
-    - src: ../../assets/logos/pp/automata.png
+    - src: ../../assets/logos/biosero.png
+    - src: ../../assets/logos/automata.png
   - name: Integrated workcell projects
     x: 0.7
     y: 0.3
     logos:
-    - src: ../../assets/logos/pp/automata.png
-    - src: ../../assets/logos/pp/opentrons.png
+    - src: ../../assets/logos/automata.png
+    - src: ../../assets/logos/opentrons.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -535,17 +535,17 @@ slides:
   rounds:
   - name: Lila Sciences
     amt: 2000000000.0
-    src: ../../assets/logos/pp/lila-sciences.png
+    src: ../../assets/logos/lila-sciences.png
     stage: Series B
     date: Jul 2026
   - name: Periodic Labs
     amt: 808000000.0
-    src: ../../assets/logos/pp/periodic-labs.png
+    src: ../../assets/logos/periodic-labs.png
     stage: Series A
     date: Jun 2026
   - name: Warp Sciences
     amt: 215000000.0
-    src: ../../assets/logos/pp/warp-sciences.png
+    src: ../../assets/logos/warp-sciences.png
     stage: Series A
     date: Oct 2026
   - name: Radical AI
@@ -555,12 +555,12 @@ slides:
     date: Jul 2025
   - name: Medra
     amt: 52000000.0
-    src: ../../assets/logos/pp/medra.png
+    src: ../../assets/logos/medra.png
     stage: Series A
     date: Dec 2025
   - name: Chemify
     amt: 51000000.0
-    src: ../../assets/logos/pp/chemify.png
+    src: ../../assets/logos/chemify.png
     stage: Series B
     date: Sep 2025
   note:
@@ -622,24 +622,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Tecan, Hamilton, and all our sources are at the end of the report
   srcs:
-    opentrons: ../../assets/logos/pp/opentrons.png
-    highres-biosolutions: ../../assets/logos/pp/highres-biosolutions.png
-    andrew-alliance: ../../assets/logos/pp/andrew-alliance.png
-    flow-robotics: ../../assets/logos/pp/flow-robotics.png
+    opentrons: ../../assets/logos/opentrons.png
+    highres-biosolutions: ../../assets/logos/highres-biosolutions.png
+    andrew-alliance: ../../assets/logos/andrew-alliance.png
+    flow-robotics: ../../assets/logos/flow-robotics.png
     meso-scale-automation: ''
     scintillation-nanotechnologies: ''
-    automata: ../../assets/logos/pp/automata.png
-    multiply-labs: ../../assets/logos/pp/multiply-labs.png
-    emerald-cloud-lab: ../../assets/logos/pp/emerald-cloud-lab.png
-    labgenius: ../../assets/logos/pp/labgenius.png
-    lila-sciences: ../../assets/logos/pp/lila-sciences.png
-    periodic-labs: ../../assets/logos/pp/periodic-labs.png
-    biosero: ../../assets/logos/pp/biosero.png
-    synthace: ../../assets/logos/pp/synthace.png
-    scispot: ../../assets/logos/pp/scispot.png
-    labstep: ../../assets/logos/pp/labstep.png
-    monomer-bio: ../../assets/logos/pp/monomer-bio.png
-    unitelabs: ../../assets/logos/pp/unitelabs.png
+    automata: ../../assets/logos/automata.png
+    multiply-labs: ../../assets/logos/multiply-labs.png
+    emerald-cloud-lab: ../../assets/logos/emerald-cloud-lab.png
+    labgenius: ../../assets/logos/labgenius.png
+    lila-sciences: ../../assets/logos/lila-sciences.png
+    periodic-labs: ../../assets/logos/periodic-labs.png
+    biosero: ../../assets/logos/biosero.png
+    synthace: ../../assets/logos/synthace.png
+    scispot: ../../assets/logos/scispot.png
+    labstep: ../../assets/logos/labstep.png
+    monomer-bio: ../../assets/logos/monomer-bio.png
+    unitelabs: ../../assets/logos/unitelabs.png
 - label: LAB AUTOMATION
   type: pp_killers
   mode: warning
@@ -657,7 +657,7 @@ slides:
     - Cloud lab shutdown|is cited by AlignBio
     - Shutdown exposed durability|risk for cloud labs
     - ''
-    src: ../../assets/logos/pp/strateos.png
+    src: ../../assets/logos/strateos.png
     ini: S
   - name: Chemspeed
     slug: chemspeed
@@ -666,7 +666,7 @@ slides:
     - Bruker agreed to acquire|Chemspeed in 2024
     - ''
     - ''
-    src: ../../assets/logos/pp/chemspeed.png
+    src: ../../assets/logos/chemspeed.png
     ini: C
   - name: Nanoscribe
     slug: nanoscribe
@@ -675,7 +675,7 @@ slides:
     - BICO divested Nanoscribe|in November 2024
     - ''
     - Sale valued|equity at EUR 26M
-    src: ../../assets/logos/pp/nanoscribe.png
+    src: ../../assets/logos/nanoscribe.png
     ini: N
   - name: Hudson
     slug: hudson
@@ -684,7 +684,7 @@ slides:
     - Hudson Robotics was recapitalized|and merged with Art Robbins
     - ''
     - ''
-    src: ../../assets/logos/pp/hudson.png
+    src: ../../assets/logos/hudson.png
     ini: H
   - name: Synthace
     slug: synthace
@@ -693,7 +693,7 @@ slides:
     - ''
     - Commercial adoption remains|concentrated in large life science teams
     - ''
-    src: ../../assets/logos/pp/synthace.png
+    src: ../../assets/logos/synthace.png
     ini: S
   note:
   - We looked for warning signs among well-known lab automation companies, from layoffs to lawsuits
@@ -706,15 +706,15 @@ slides:
     liquid handling robot maker?'
   companies:
   - short: Tecan
-    src: ../../assets/logos/pp/tecan.png
+    src: ../../assets/logos/tecan.png
   - short: Hamilton
-    src: ../../assets/logos/pp/hamilton.png
+    src: ../../assets/logos/hamilton.png
   - short: Beckman
-    src: ../../assets/logos/pp/beckman-coulter-life-sciences.png
+    src: ../../assets/logos/beckman-coulter-life-sciences.png
   - short: Opentrons
-    src: ../../assets/logos/pp/opentrons.png
+    src: ../../assets/logos/opentrons.png
   - short: Agilent
-    src: ../../assets/logos/pp/agilent.png
+    src: ../../assets/logos/agilent-technologies.png
   criteria:
   - name: Also sells microplate readers
     why: One vendor for the whole bench
@@ -777,28 +777,28 @@ slides:
   - Distance to the center reflects how central each company is to last-mile delivery
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/veho.png
-  - ../../assets/logos/pp/uniuni.png
-  - ../../assets/logos/pp/gobolt.png
-  - ../../assets/logos/pp/packfleet.png
-  - ../../assets/logos/pp/relay.png
-  - ../../assets/logos/pp/stuart.png
-  - ../../assets/logos/pp/better-trucks.png
-  - ../../assets/logos/pp/jitsu.png
+  - ../../assets/logos/veho.png
+  - ../../assets/logos/uniuni.png
+  - ../../assets/logos/gobolt.png
+  - ../../assets/logos/packfleet.png
+  - ../../assets/logos/relay-3.png
+  - ../../assets/logos/stuart.png
+  - ../../assets/logos/better-trucks.png
+  - ../../assets/logos/jitsu.png
   TL:
-    src: ../../assets/logos/pp/onfleet.png
+    src: ../../assets/logos/onfleet.png
     name: Onfleet
     text: routing and dispatch software coordinates fleets but does not itself execute deliveries with a business model that rema
   TR:
-    src: ../../assets/logos/pp/flexport.png
+    src: ../../assets/logos/flexport.png
     name: Flexport
     text: global freight forwarding focuses on long haul logistics rather than final mile delivery with a business model that rem
   BL:
-    src: ../../assets/logos/pp/uber.png
+    src: ../../assets/logos/uber.png
     name: Uber
     text: 'uber Direct handles last mile delivery, while ride hailing remains a major business with a business model that remains '
   BR:
-    src: ../../assets/logos/pp/doordash.png
+    src: ../../assets/logos/doordash.png
     name: DoorDash
     text: 'executes local delivery at scale, but marketplace demand generation is also central with a business model that remains '
 - label: LAST-MILE DELIVERY
@@ -822,33 +822,33 @@ slides:
   - name: Parcel & courier
     p: 35
     logos:
-    - ../../assets/logos/pp/ups.png
-    - ../../assets/logos/pp/fedex.png
+    - ../../assets/logos/ups.png
+    - ../../assets/logos/fedex.png
   - name: Same-day delivery
     p: 18
     logos:
-    - ../../assets/logos/pp/roadie.png
-    - ../../assets/logos/pp/veho.png
+    - ../../assets/logos/roadie.png
+    - ../../assets/logos/veho.png
   - name: Grocery delivery
     p: 14
     logos:
-    - ../../assets/logos/pp/instacart.png
-    - ../../assets/logos/pp/shipt.png
+    - ../../assets/logos/instacart.png
+    - ../../assets/logos/shipt.png
   - name: Restaurant delivery
     p: 14
     logos:
-    - ../../assets/logos/pp/doordash.png
-    - ../../assets/logos/pp/uber-eats.png
+    - ../../assets/logos/doordash.png
+    - ../../assets/logos/uber-eats.png
   - name: Delivery platforms
     p: 10
     logos:
-    - ../../assets/logos/pp/bringg.png
-    - ../../assets/logos/pp/onfleet.png
+    - ../../assets/logos/bringg.png
+    - ../../assets/logos/onfleet.png
   - name: Bulky delivery
     p: 9
     logos:
-    - ../../assets/logos/pp/rxo.png
-    - ../../assets/logos/pp/goshare.png
+    - ../../assets/logos/rxo.png
+    - ../../assets/logos/goshare.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -913,15 +913,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: UPS
-    src: ../../assets/logos/pp/ups.png
+    src: ../../assets/logos/ups.png
   - name: FedEx
-    src: ../../assets/logos/pp/fedex.png
+    src: ../../assets/logos/fedex.png
   - name: DHL
-    src: ../../assets/logos/pp/dhl.png
+    src: ../../assets/logos/dhl.png
   - name: OnTrac
-    src: ../../assets/logos/pp/ontrac.png
+    src: ../../assets/logos/ontrac.png
   - name: Veho
-    src: ../../assets/logos/pp/veho.png
+    src: ../../assets/logos/veho.png
   features:
   - header: Own|couriers
     values:
@@ -993,26 +993,26 @@ slides:
     x: 0.15
     y: 0.3
     logos:
-    - src: ../../assets/logos/pp/ups.png
-    - src: ../../assets/logos/pp/fedex.png
+    - src: ../../assets/logos/ups.png
+    - src: ../../assets/logos/fedex.png
   - name: On-demand delivery fee
     x: 0.35
     y: 0.2
     logos:
-    - src: ../../assets/logos/pp/roadie.png
-    - src: ../../assets/logos/pp/uber-direct.png
+    - src: ../../assets/logos/roadie.png
+    - src: ../../assets/logos/uber.png
   - name: Marketplace commission
     x: 0.55
     y: 0.4
     logos:
-    - src: ../../assets/logos/pp/doordash.png
-    - src: ../../assets/logos/pp/uber-eats.png
+    - src: ../../assets/logos/doordash.png
+    - src: ../../assets/logos/uber-eats.png
   - name: Platform subscription
     x: 0.85
     y: 0.82
     logos:
-    - src: ../../assets/logos/pp/onfleet.png
-    - src: ../../assets/logos/pp/bringg.png
+    - src: ../../assets/logos/onfleet.png
+    - src: ../../assets/logos/bringg.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -1155,12 +1155,12 @@ slides:
   rounds:
   - name: Zipline
     amt: 600000000.0
-    src: ../../assets/logos/pp/zipline.png
+    src: ../../assets/logos/zipline.png
     stage: Late stage
     date: Jan 2026
   - name: Neolix
     amt: 600000000.0
-    src: ../../assets/logos/pp/neolix.png
+    src: ../../assets/logos/neolix.png
     stage: Late stage
     date: Jun 2025
   - name: Zepto
@@ -1170,7 +1170,7 @@ slides:
     date: Oct 2025
   - name: Zelos
     amt: 300000000.0
-    src: ../../assets/logos/pp/zelos.png
+    src: ../../assets/logos/zelos.png
     stage: Growth Equity
     date: Feb 2026
   - name: Ninja
@@ -1180,7 +1180,7 @@ slides:
     date: Jul 2025
   - name: Gopuff
     amt: 250000000.0
-    src: ../../assets/logos/pp/gopuff.png
+    src: ../../assets/logos/gopuff.png
     stage: Growth Equity
     date: Nov 2025
   note:
@@ -1243,24 +1243,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like DoorDash, Uber, and all our sources are at the end of the report
   srcs:
-    veho: ../../assets/logos/pp/veho.png
-    uniuni: ../../assets/logos/pp/uniuni.png
-    gobolt: ../../assets/logos/pp/gobolt.png
-    packfleet: ../../assets/logos/pp/packfleet.png
-    relay: ../../assets/logos/pp/relay.png
-    stuart: ../../assets/logos/pp/stuart.png
-    better-trucks: ../../assets/logos/pp/better-trucks.png
-    jitsu: ../../assets/logos/pp/jitsu.png
-    manna: ../../assets/logos/pp/manna.png
-    curri: ../../assets/logos/pp/curri.png
-    dropoff: ../../assets/logos/pp/dropoff.png
-    dispatch: ../../assets/logos/pp/dispatch.png
-    onerail: ../../assets/logos/pp/onerail.png
-    goshare: ../../assets/logos/pp/goshare.png
-    bungii: ../../assets/logos/pp/bungii.png
-    frayt: ../../assets/logos/pp/frayt.png
-    nash: ../../assets/logos/pp/nash.png
-    senpex: ../../assets/logos/pp/senpex.png
+    veho: ../../assets/logos/veho.png
+    uniuni: ../../assets/logos/uniuni.png
+    gobolt: ../../assets/logos/gobolt.png
+    packfleet: ../../assets/logos/packfleet.png
+    relay: ../../assets/logos/relay-3.png
+    stuart: ../../assets/logos/stuart.png
+    better-trucks: ../../assets/logos/better-trucks.png
+    jitsu: ../../assets/logos/jitsu.png
+    manna: ../../assets/logos/manna.png
+    curri: ../../assets/logos/curri.png
+    dropoff: ../../assets/logos/dropoff.png
+    dispatch: ../../assets/logos/dispatch.png
+    onerail: ../../assets/logos/onerail.png
+    goshare: ../../assets/logos/goshare.png
+    bungii: ../../assets/logos/bungii.png
+    frayt: ../../assets/logos/frayt.png
+    nash: ../../assets/logos/nash.png
+    senpex: ../../assets/logos/senpex.png
 - label: LAST-MILE DELIVERY
   type: pp_killers
   mode: dead
@@ -1279,7 +1279,7 @@ slides:
     causes:
     - 1
     - 1
-    src: ../../assets/logos/pp/deliver-it.png
+    src: ../../assets/logos/pandion.png
     ini: DI
   - name: Pandion
     slug: pandion
@@ -1290,7 +1290,7 @@ slides:
     causes:
     - 1
     - 1
-    src: ../../assets/logos/pp/pandion.png
+    src: ../../assets/logos/pandion.png
     ini: P
   - name: Deliv
     slug: deliv
@@ -1301,7 +1301,7 @@ slides:
     causes:
     - 1
     - 1
-    src: ../../assets/logos/pp/deliv.png
+    src: ../../assets/logos/deliv.png
     ini: D
   - name: Zedify
     slug: zedify
@@ -1312,7 +1312,7 @@ slides:
     causes:
     - 1
     - 1
-    src: ../../assets/logos/pp/zedify.png
+    src: ../../assets/logos/zedify.png
     ini: Z
   - name: Fridge No More
     slug: fridge-no-more
@@ -1323,7 +1323,7 @@ slides:
     causes:
     - 1
     - 1
-    src: ../../assets/logos/pp/fridge-no-more.png
+    src: ../../assets/logos/fridge-no-more.png
     ini: FN
   note:
   - We tracked the last-mile delivery startups that shut down, went bankrupt or were sold for little
@@ -1339,7 +1339,7 @@ slides:
     website: ''
     why_it_failed: Weak economics at scale
     slug: deliver-it
-    src: ../../assets/logos/pp/deliver-it.png
+    src: ../../assets/logos/pandion.png
     ini: DI
   - lesson: Sell into repeat workflows
     explanation: Veho shows repeatable commercial traction
@@ -1347,7 +1347,7 @@ slides:
     website: ''
     why_it_failed: Demand did not scale fast enough
     slug: pandion
-    src: ../../assets/logos/pp/pandion.png
+    src: ../../assets/logos/pandion.png
     ini: P
   - lesson: Secure durable capital
     explanation: Veho shows repeatable commercial traction
@@ -1355,7 +1355,7 @@ slides:
     website: ''
     why_it_failed: Capital needs outran funding
     slug: deliv
-    src: ../../assets/logos/pp/deliv.png
+    src: ../../assets/logos/deliv.png
     ini: D
   - lesson: Integrate with incumbents
     explanation: Veho shows repeatable commercial traction
@@ -1363,7 +1363,7 @@ slides:
     website: ''
     why_it_failed: Integration or channel gap
     slug: zedify
-    src: ../../assets/logos/pp/zedify.png
+    src: ../../assets/logos/zedify.png
     ini: Z
   - lesson: Scale only after demand
     explanation: Veho shows repeatable commercial traction
@@ -1371,7 +1371,7 @@ slides:
     website: ''
     why_it_failed: Scaled before demand was proven
     slug: fridge-no-more
-    src: ../../assets/logos/pp/fridge-no-more.png
+    src: ../../assets/logos/fridge-no-more.png
     ini: FN
   note:
   - We compared last-mile delivery companies that failed or hit a major setback with the ones that survived
@@ -1384,15 +1384,15 @@ slides:
     the parcel network market?'
   companies:
   - short: Veho
-    src: ../../assets/logos/pp/veho.png
+    src: ../../assets/logos/veho.png
   - short: UniUni
-    src: ../../assets/logos/pp/uniuni.png
+    src: ../../assets/logos/uniuni.png
   - short: GoBolt
-    src: ../../assets/logos/pp/gobolt.png
+    src: ../../assets/logos/gobolt.png
   - short: Packfleet
-    src: ../../assets/logos/pp/packfleet.png
+    src: ../../assets/logos/packfleet.png
   - short: Better Truck
-    src: ../../assets/logos/pp/better-truck.png
+    src: ../../assets/logos/better-trucks.png
   criteria:
   - name: Scale
     why: Lowers customer execution risk
@@ -1455,28 +1455,28 @@ slides:
   - Distance to the center reflects how central each company is to life science research tools
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/element-biosciences.png
-  - ../../assets/logos/pp/ultima-genomics.png
-  - ../../assets/logos/pp/parse-biosciences.png
-  - ../../assets/logos/pp/vizgen.png
-  - ../../assets/logos/pp/benchling.png
-  - ../../assets/logos/pp/sapio-sciences.png
-  - ../../assets/logos/pp/synthace.png
-  - ../../assets/logos/pp/emerald-cloud-lab.png
+  - ../../assets/logos/element-biosciences.png
+  - ../../assets/logos/ultima-genomics.png
+  - ../../assets/logos/parse-biosciences.png
+  - ../../assets/logos/vizgen.png
+  - ../../assets/logos/benchling.png
+  - ../../assets/logos/sapio-sciences.png
+  - ../../assets/logos/synthace.png
+  - ../../assets/logos/emerald-cloud-lab.png
   TL:
-    src: ../../assets/logos/pp/tempus-ai.png
+    src: ../../assets/logos/tempus-ai.png
     name: Tempus AI
     text: it provides clinical diagnostics and data services that researchers use, but its center of gravity is patient care and
   TR:
-    src: ../../assets/logos/pp/pfizer.png
+    src: ../../assets/logos/pfizer-ventures.png
     name: Pfizer
     text: it buys and uses life science research tools to develop drugs, but it is a pharmaceutical producer rather than a tools
   BL:
-    src: ../../assets/logos/pp/10x-genomics.png
+    src: ../../assets/logos/10x-genomics.png
     name: 10x Genomics
     text: it is a major research tools company but is publicly listed, so it fits the market while sitting outside private startup
   BR:
-    src: ../../assets/logos/pp/ginkgo-bioworks.png
+    src: ../../assets/logos/ginkgo-bioworks.png
     name: Ginkgo Bioworks
     text: it provides automated cell programming and research services, blending a research platform with contract development
 - label: LIFE SCIENCE TOOLS
@@ -1500,33 +1500,33 @@ slides:
   - name: Genomics & Sequencing
     p: 23
     logos:
-    - ../../assets/logos/pp/illumina.png
-    - ../../assets/logos/pp/_ini_pacbio.png
+    - ../../assets/logos/illumina.png
+    - ../../assets/logos/ini/pacbio.png
   - name: Proteomics & Mass Spec
     p: 20
     logos:
-    - ../../assets/logos/pp/thermo-fisher-scientific.png
-    - ../../assets/logos/pp/bruker.png
+    - ../../assets/logos/thermo-fisher-scientific.png
+    - ../../assets/logos/bruker.png
   - name: PCR & Molecular Tools
     p: 18
     logos:
-    - ../../assets/logos/pp/bio-rad.png
-    - ../../assets/logos/pp/_ini_qiagen.png
+    - ../../assets/logos/bio-rad.png
+    - ../../assets/logos/ini/qiagen.png
   - name: Cell Analysis
     p: 16
     logos:
-    - ../../assets/logos/pp/cytek-biosciences.png
-    - ../../assets/logos/pp/bio-rad.png
+    - ../../assets/logos/cytek-biosciences.png
+    - ../../assets/logos/bio-rad.png
   - name: Lab Automation
     p: 12
     logos:
-    - ../../assets/logos/pp/tecan.png
-    - ../../assets/logos/pp/hamilton.png
+    - ../../assets/logos/tecan.png
+    - ../../assets/logos/hamilton.png
   - name: Imaging & Microscopy
     p: 11
     logos:
-    - ../../assets/logos/pp/zeiss.png
-    - ../../assets/logos/pp/oxford-instruments.png
+    - ../../assets/logos/zeiss.png
+    - ../../assets/logos/oxford-instruments.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -1591,15 +1591,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: Thermo
-    src: ../../assets/logos/pp/thermo.png
+    src: ../../assets/logos/thermo-fisher-scientific.png
   - name: Agilent
-    src: ../../assets/logos/pp/agilent.png
+    src: ../../assets/logos/agilent-technologies.png
   - name: Bio-Rad
-    src: ../../assets/logos/pp/bio-rad.png
+    src: ../../assets/logos/bio-rad.png
   - name: Illumina
-    src: ../../assets/logos/pp/illumina.png
+    src: ../../assets/logos/illumina.png
   - name: Revvity
-    src: ../../assets/logos/pp/revvity.png
+    src: ../../assets/logos/revvity.png
   features:
   - header: Sequencing|systems
     values:
@@ -1792,32 +1792,32 @@ slides:
   rounds:
   - name: Element Biosciences
     amt: 175000000.0
-    src: ../../assets/logos/pp/element-biosciences.png
+    src: ../../assets/logos/element-biosciences.png
     stage: Late stage
     date: Jun 2026
   - name: Stellaromics
     amt: 80000000.0
-    src: ../../assets/logos/pp/stellaromics.png
+    src: ../../assets/logos/stellaromics.png
     stage: Series B
     date: Feb 2025
   - name: Cellanome
     amt: 75930476.0
-    src: ../../assets/logos/pp/cellanome.png
+    src: ../../assets/logos/cellanome.png
     stage: Series C
     date: Dec 2025
   - name: Ansa Biotechnologies
     amt: 62100000.0
-    src: ../../assets/logos/pp/ansa-biotechnologies.png
+    src: ../../assets/logos/ansa-biotechnologies.png
     stage: Series C
     date: Oct 2026
   - name: bit.bio
     amt: 50000000.0
-    src: ../../assets/logos/pp/bit-bio.png
+    src: ../../assets/logos/bit-bio.png
     stage: Series C
     date: Jan 2026
   - name: Vizgen
     amt: 48000000.0
-    src: ../../assets/logos/pp/vizgen.png
+    src: ../../assets/logos/vizgen.png
     stage: Late stage
     date: Jan 2026
   note:
@@ -1878,24 +1878,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Thermo Fisher Scientific, Illumina, with all the sources at the end of the report
   srcs:
-    element-biosciences: ../../assets/logos/pp/element-biosciences.png
-    ultima-genomics: ../../assets/logos/pp/ultima-genomics.png
-    parse-biosciences: ../../assets/logos/pp/parse-biosciences.png
-    scale-biosciences: ../../assets/logos/pp/scale-biosciences.png
-    portal-biotech: ../../assets/logos/pp/portal-biotech.png
+    element-biosciences: ../../assets/logos/element-biosciences.png
+    ultima-genomics: ../../assets/logos/ultima-genomics.png
+    parse-biosciences: ../../assets/logos/parse-biosciences.png
+    scale-biosciences: ../../assets/logos/scale-biosciences.png
+    portal-biotech: ../../assets/logos/portal-biotech.png
     swan-genomics: ''
-    vizgen: ../../assets/logos/pp/vizgen.png
+    vizgen: ../../assets/logos/vizgen.png
     resolve-biosciences: ''
-    alamar-biosciences: ../../assets/logos/pp/alamar-biosciences.png
-    encodia: ../../assets/logos/pp/encodia.png
-    haga-bioscience: ../../assets/logos/pp/haga-bioscience.png
-    stellaromics: ../../assets/logos/pp/stellaromics.png
-    benchling: ../../assets/logos/pp/benchling.png
-    sapio-sciences: ../../assets/logos/pp/sapio-sciences.png
-    synthace: ../../assets/logos/pp/synthace.png
-    dotmatics: ../../assets/logos/pp/dotmatics.png
+    alamar-biosciences: ../../assets/logos/alamar-biosciences.png
+    encodia: ../../assets/logos/encodia.png
+    haga-bioscience: ../../assets/logos/voxlbio.png
+    stellaromics: ../../assets/logos/stellaromics.png
+    benchling: ../../assets/logos/benchling.png
+    sapio-sciences: ../../assets/logos/sapio-sciences.png
+    synthace: ../../assets/logos/synthace.png
+    dotmatics: ../../assets/logos/dotmatics.png
     bioreact: ''
-    lila-sciences: ../../assets/logos/pp/lila-sciences.png
+    lila-sciences: ../../assets/logos/lila-sciences.png
 - label: LIFE SCIENCE TOOLS
   type: pp_killers
   mode: warning
@@ -1927,7 +1927,7 @@ slides:
     cells:
     - Deerfield acquired the|company in February 2025
     - Cut about 20% of|staff in March 2024
-    src: ../../assets/logos/pp/singular-gen.png
+    src: ../../assets/logos/singular-gen.png
     ini: SG
   - name: SomaLogic
     slug: somalogic
@@ -1935,7 +1935,7 @@ slides:
     cells:
     - Merged into Standard|BioTools in January 2024
     - ''
-    src: ../../assets/logos/pp/somalogic.png
+    src: ../../assets/logos/somalogic.png
     ini: S
   - name: Std BioTools
     slug: std-biotools
@@ -1943,7 +1943,7 @@ slides:
     cells:
     - Sold the SomaLogic business|to Illumina in 2026
     - Cut about 10% of workforce|after SomaLogic merger
-    src: ../../assets/logos/pp/std-biotools.png
+    src: ../../assets/logos/std-biotools.png
     ini: SB
   note:
   - We looked for warning signs among well-known life science research tools companies
@@ -1956,15 +1956,15 @@ slides:
     in single-cell and spatial tools?'
   companies:
   - short: 10x Genomics
-    src: ../../assets/logos/pp/10x-genomics.png
+    src: ../../assets/logos/10x-genomics.png
   - short: Bruker
-    src: ../../assets/logos/pp/bruker-spatial.png
+    src: ../../assets/logos/bruker.png
   - short: Vizgen
-    src: ../../assets/logos/pp/vizgen.png
+    src: ../../assets/logos/vizgen.png
   - short: Akoya
-    src: ../../assets/logos/pp/akoya.png
+    src: ../../assets/logos/akoya-biosciences.png
   - short: Parse
-    src: ../../assets/logos/pp/parse-biosciences.png
+    src: ../../assets/logos/parse-biosciences.png
   criteria:
   - name: Over 5,000 instruments installed
     why: Locks in consumables
@@ -2011,28 +2011,28 @@ slides:
   - Distance to the center reflects how central each company is to low-carbon cement
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/sublime-systems.png
-  - ../../assets/logos/pp/brimstone.png
-  - ../../assets/logos/pp/fortera.png
-  - ../../assets/logos/pp/cemvision.png
-  - ../../assets/logos/pp/ecocem.png
-  - ../../assets/logos/pp/terra-co2.png
-  - ../../assets/logos/pp/carboncure.png
-  - ../../assets/logos/pp/material-evolution.png
+  - ../../assets/logos/sublime-systems.png
+  - ../../assets/logos/brimstone.png
+  - ../../assets/logos/fortera.png
+  - ../../assets/logos/cemvision.png
+  - ../../assets/logos/ecocem.png
+  - ../../assets/logos/terra-co2.png
+  - ../../assets/logos/carboncure-technologies.png
+  - ../../assets/logos/material-evolution.png
   TL:
-    src: ../../assets/logos/pp/carbon-clean.png
+    src: ../../assets/logos/carbon-clean.png
     name: Carbon Clean
     text: captures kiln CO2 for cement plants, but sells carbon-capture equipment rather than a lower-carbon binder
   TR:
-    src: ../../assets/logos/pp/autodesk.png
+    src: ../../assets/logos/autodesk.png
     name: Autodesk
     text: provides construction design software and can track embodied carbon, but it does not manufacture cement or binders
   BL:
-    src: ../../assets/logos/pp/holcim.png
+    src: ../../assets/logos/holcim.png
     name: Holcim
     text: global cement incumbent with low-carbon ranges and startup bets, but most sales still span conventional materials
   BR:
-    src: ../../assets/logos/pp/heidelberg-materials.png
+    src: ../../assets/logos/heidelbergmaterials.png
     name: Heidelberg Materials
     text: major cement producer with low-carbon products and capture projects, while conventional cement remains core revenue
 - label: LOW-CARBON CEMENT
@@ -2056,28 +2056,28 @@ slides:
   - name: Blended and SCM
     p: 38
     logos:
-    - ../../assets/logos/pp/ecocem.png
-    - ../../assets/logos/pp/holcim.png
+    - ../../assets/logos/ecocem.png
+    - ../../assets/logos/holcim.png
   - name: Calcined clay LC3
     p: 18
     logos:
-    - ../../assets/logos/pp/cimpor.png
-    - ../../assets/logos/pp/holcim.png
+    - ../../assets/logos/cimpor.png
+    - ../../assets/logos/holcim.png
   - name: Alt clinker chemistry
     p: 16
     logos:
-    - ../../assets/logos/pp/brimstone.png
-    - ../../assets/logos/pp/sublime-systems.png
+    - ../../assets/logos/brimstone.png
+    - ../../assets/logos/sublime-systems.png
   - name: Carbon mineralized
     p: 14
     logos:
-    - ../../assets/logos/pp/fortera.png
-    - ../../assets/logos/pp/carboncure.png
+    - ../../assets/logos/fortera.png
+    - ../../assets/logos/carboncure-technologies.png
   - name: Novel production
     p: 14
     logos:
-    - ../../assets/logos/pp/sublime-systems.png
-    - ../../assets/logos/pp/cemvision.png
+    - ../../assets/logos/sublime-systems.png
+    - ../../assets/logos/cemvision.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -2142,15 +2142,15 @@ slides:
     can already do the most today?'
   companies:
   - name: Sublime
-    src: ../../assets/logos/pp/sublime.png
+    src: ../../assets/logos/sublime-security.png
   - name: Brimstone
-    src: ../../assets/logos/pp/brimstone.png
+    src: ../../assets/logos/brimstone.png
   - name: Fortera
-    src: ../../assets/logos/pp/fortera.png
+    src: ../../assets/logos/fortera.png
   - name: Terra CO2
-    src: ../../assets/logos/pp/terra-co2.png
+    src: ../../assets/logos/terra-co2.png
   - name: Ecocem
-    src: ../../assets/logos/pp/ecocem.png
+    src: ../../assets/logos/ecocem.png
   features:
   - header: OPC|replace
     values:
@@ -2222,26 +2222,26 @@ slides:
     x: 0.8
     y: 0.8
     logos:
-    - src: ../../assets/logos/pp/ecocem.png
-    - src: ../../assets/logos/pp/hoffmann-green.png
+    - src: ../../assets/logos/ecocem.png
+    - src: ../../assets/logos/hoffmann-green.png
   - name: Technology licensing
     x: 0.2
     y: 0.62
     logos:
-    - src: ../../assets/logos/pp/carboncure.png
-    - src: ../../assets/logos/pp/carbon-upcycling.png
+    - src: ../../assets/logos/carboncure-technologies.png
+    - src: ../../assets/logos/carbon-upcycling.png
   - name: Plant project contracts
     x: 0.3
     y: 0.2
     logos:
-    - src: ../../assets/logos/pp/calix.png
-    - src: ../../assets/logos/pp/flsmidth.png
+    - src: ../../assets/logos/calix.png
+    - src: ../../assets/logos/flsmidth.png
   - name: Long-term offtake
     x: 0.7
     y: 0.4
     logos:
-    - src: ../../assets/logos/pp/sublime-systems.png
-    - src: ../../assets/logos/pp/brimstone.png
+    - src: ../../assets/logos/sublime-systems.png
+    - src: ../../assets/logos/brimstone.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -2384,32 +2384,32 @@ slides:
   rounds:
   - name: Terra CO2
     amt: 124500000.0
-    src: ../../assets/logos/pp/terra-co2.png
+    src: ../../assets/logos/terra-co2.png
     stage: Series B
     date: Jul 2025
   - name: Biomason
     amt: 36672578.0
-    src: ../../assets/logos/pp/biomason.png
+    src: ../../assets/logos/biomason.png
     stage: Late stage
     date: Dec 2024
   - name: NeoCem
     amt: 18700000.0
-    src: ../../assets/logos/pp/neocem.png
+    src: ../../assets/logos/neocem.png
     stage: Series B
     date: Jul 2026
   - name: Cocoon Carbon
     amt: 15000000.0
-    src: ../../assets/logos/pp/cocoon-carbon.png
+    src: ../../assets/logos/cocoon-carbon.png
     stage: Series A
     date: Mar 2026
   - name: Reclinker
     amt: 13300000.0
-    src: ../../assets/logos/pp/reclinker.png
+    src: ../../assets/logos/reclinker.png
     stage: Series A
     date: Oct 2026
   - name: Queens Carbon
     amt: 10000000.0
-    src: ../../assets/logos/pp/queens-carbon.png
+    src: ../../assets/logos/queens-carbon.png
     stage: Seed
     date: Apr 2025
   note:
@@ -2470,22 +2470,22 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Holcim, Heidelberg Materials, with all the sources at the end of the report
   srcs:
-    sublime-systems: ../../assets/logos/pp/sublime-systems.png
-    brimstone: ../../assets/logos/pp/brimstone.png
-    fortera: ../../assets/logos/pp/fortera.png
-    cemvision: ../../assets/logos/pp/cemvision.png
-    furno: ../../assets/logos/pp/furno.png
+    sublime-systems: ../../assets/logos/sublime-systems.png
+    brimstone: ../../assets/logos/brimstone.png
+    fortera: ../../assets/logos/fortera.png
+    cemvision: ../../assets/logos/cemvision.png
+    furno: ../../assets/logos/furno.png
     c-crete-technologies: ''
-    ecocem: ../../assets/logos/pp/ecocem.png
-    terra-co2: ../../assets/logos/pp/terra-co2.png
-    carbon-upcycling: ../../assets/logos/pp/carbon-upcycling.png
-    material-evolution: ../../assets/logos/pp/material-evolution.png
-    materrup: ../../assets/logos/pp/materrup.png
-    neocem: ../../assets/logos/pp/neocem.png
-    carboncure: ../../assets/logos/pp/carboncure.png
-    carbonbuilt: ../../assets/logos/pp/carbonbuilt.png
-    carbicrete: ../../assets/logos/pp/carbicrete.png
-    paebbl: ../../assets/logos/pp/paebbl.png
+    ecocem: ../../assets/logos/ecocem.png
+    terra-co2: ../../assets/logos/terra-co2.png
+    carbon-upcycling: ../../assets/logos/carbon-upcycling.png
+    material-evolution: ../../assets/logos/material-evolution.png
+    materrup: ../../assets/logos/materrup.png
+    neocem: ../../assets/logos/neocem.png
+    carboncure: ../../assets/logos/carboncure-technologies.png
+    carbonbuilt: ../../assets/logos/carbonbuilt.png
+    carbicrete: ../../assets/logos/carbicrete.png
+    paebbl: ../../assets/logos/paebbl.png
     c2ca-technology: ''
     seratech: ''
 - label: LOW-CARBON CEMENT
@@ -2507,7 +2507,7 @@ slides:
     - Cut 10% of staff after an|$86M grant was canceled.
     - ''
     - ''
-    src: ../../assets/logos/pp/sublime.png
+    src: ../../assets/logos/sublime-security.png
     ini: S
   - name: Solidia
     slug: solidia
@@ -2527,7 +2527,7 @@ slides:
     - ''
     - Shares fell about|59% in 2022.
     - ''
-    src: ../../assets/logos/pp/hoffmann-green.png
+    src: ../../assets/logos/hoffmann-green.png
     ini: HG
   - name: CarbonCure
     slug: carboncure
@@ -2537,7 +2537,7 @@ slides:
     - Headcount fell about 18.5%|year over year in Q2 2023.
     - ''
     - ''
-    src: ../../assets/logos/pp/carboncure.png
+    src: ../../assets/logos/carboncure-technologies.png
     ini: C
   - name: Terra CO2
     slug: terra-co2
@@ -2547,7 +2547,7 @@ slides:
     - ''
     - ''
     - ''
-    src: ../../assets/logos/pp/terra-co2.png
+    src: ../../assets/logos/terra-co2.png
     ini: TC
   note:
   - We looked for warning signs among well-known low-carbon cement companies, from layoffs to lawsuits
@@ -2560,15 +2560,15 @@ slides:
     the low-carbon cement market?'
   companies:
   - short: Ecocem
-    src: ../../assets/logos/pp/ecocem.png
+    src: ../../assets/logos/ecocem.png
   - short: Hoffmann
-    src: ../../assets/logos/pp/hoffmann-green.png
+    src: ../../assets/logos/hoffmann-green.png
   - short: Sublime
-    src: ../../assets/logos/pp/sublime-systems.png
+    src: ../../assets/logos/sublime-systems.png
   - short: Brimstone
-    src: ../../assets/logos/pp/brimstone.png
+    src: ../../assets/logos/brimstone.png
   - short: Terra CO2
-    src: ../../assets/logos/pp/terra-co2.png
+    src: ../../assets/logos/terra-co2.png
   criteria:
   - name: Plants in several countries
     why: Serves big contractors
@@ -2623,28 +2623,28 @@ slides:
   - Distance to the center reflects how central each company is to machine vision
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/cognex.png
-  - ../../assets/logos/pp/keyence.png
-  - ../../assets/logos/pp/basler.png
-  - ../../assets/logos/pp/teledyne-dalsa.png
-  - ../../assets/logos/pp/sick.png
-  - ../../assets/logos/pp/zebra-technologies.png
-  - ../../assets/logos/pp/zivid.png
-  - ../../assets/logos/pp/overview-ai.png
+  - ../../assets/logos/cognex.png
+  - ../../assets/logos/keyence.png
+  - ../../assets/logos/basler.png
+  - ../../assets/logos/teledyne-technologies.png
+  - ../../assets/logos/sick.png
+  - ../../assets/logos/zebra.png
+  - ../../assets/logos/zivid.png
+  - ../../assets/logos/overview-ai.png
   TL:
-    src: ../../assets/logos/pp/axis-communications.png
+    src: ../../assets/logos/axis-communications.png
     name: Axis Communications
     text: axis builds industrial-grade cameras, but its core use is video surveillance rather than automated factory decisions
   TR:
-    src: ../../assets/logos/pp/adobe.png
+    src: ../../assets/logos/adobe.png
     name: Adobe
     text: adobe develops imaging software for creative workflows, not industrial inspection, robot guidance or factory control
   BL:
-    src: ../../assets/logos/pp/landing-ai.png
+    src: ../../assets/logos/landingai.png
     name: Landing AI
     text: landing AI supports industrial visual inspection, but its computer vision platform also serves broader use cases
   BR:
-    src: ../../assets/logos/pp/instrumental.png
+    src: ../../assets/logos/instrumental.png
     name: Instrumental
     text: instrumental uses visual AI for factory inspection, but also sells broader manufacturing data and analytics software
 - label: MACHINE VISION
@@ -2668,28 +2668,28 @@ slides:
   - name: Visual Inspection
     p: 34
     logos:
-    - ../../assets/logos/pp/cognex.png
-    - ../../assets/logos/pp/keyence.png
+    - ../../assets/logos/cognex.png
+    - ../../assets/logos/keyence.png
   - name: 3D Machine Vision
     p: 20
     logos:
-    - ../../assets/logos/pp/_ini_lmi-technologies.png
-    - ../../assets/logos/pp/photoneo.png
+    - ../../assets/logos/ini/lmi-technologies.png
+    - ../../assets/logos/photoneo.png
   - name: Robot Guidance
     p: 17
     logos:
-    - ../../assets/logos/pp/sick.png
-    - ../../assets/logos/pp/cognex.png
+    - ../../assets/logos/sick.png
+    - ../../assets/logos/cognex.png
   - name: Process and Assembly
     p: 16
     logos:
-    - ../../assets/logos/pp/omron.png
-    - ../../assets/logos/pp/basler.png
+    - ../../assets/logos/omron.png
+    - ../../assets/logos/basler.png
   - name: ID and OCR
     p: 13
     logos:
-    - ../../assets/logos/pp/zebra-technologies.png
-    - ../../assets/logos/pp/cognex.png
+    - ../../assets/logos/zebra.png
+    - ../../assets/logos/cognex.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -2754,15 +2754,15 @@ slides:
     can already do the most today?'
   companies:
   - name: Cognex
-    src: ../../assets/logos/pp/cognex.png
+    src: ../../assets/logos/cognex.png
   - name: KEYENCE
-    src: ../../assets/logos/pp/keyence.png
+    src: ../../assets/logos/keyence.png
   - name: Basler
-    src: ../../assets/logos/pp/basler.png
+    src: ../../assets/logos/basler.png
   - name: Teledyne
-    src: ../../assets/logos/pp/teledyne.png
+    src: ../../assets/logos/teledyne-technologies.png
   - name: SICK
-    src: ../../assets/logos/pp/sick.png
+    src: ../../assets/logos/sick.png
   features:
   - header: 3D|vision
     values:
@@ -2834,26 +2834,26 @@ slides:
     x: 0.18
     y: 0.22
     logos:
-    - src: ../../assets/logos/pp/cognex.png
-    - src: ../../assets/logos/pp/basler.png
+    - src: ../../assets/logos/cognex.png
+    - src: ../../assets/logos/basler.png
   - name: Software license
     x: 0.35
     y: 0.72
     logos:
-    - src: ../../assets/logos/pp/cognex.png
-    - src: ../../assets/logos/pp/mvtec.png
+    - src: ../../assets/logos/cognex.png
+    - src: ../../assets/logos/mvtec.png
   - name: Integrated system sale
     x: 0.8
     y: 0.3
     logos:
-    - src: ../../assets/logos/pp/keyence.png
-    - src: ../../assets/logos/pp/sick.png
+    - src: ../../assets/logos/keyence.png
+    - src: ../../assets/logos/sick.png
   - name: Support and integration
     x: 0.68
     y: 0.78
     logos:
-    - src: ../../assets/logos/pp/stemmer-imaging.png
-    - src: ../../assets/logos/pp/cognex.png
+    - src: ../../assets/logos/stemmer-imaging.png
+    - src: ../../assets/logos/cognex.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -2996,32 +2996,32 @@ slides:
   rounds:
   - name: Lyte
     amt: 165000000.0
-    src: ../../assets/logos/pp/lyte.png
+    src: ../../assets/logos/lyte.png
     stage: Series C
     date: Sep 2026
   - name: Mech-Mind Robotics
     amt: 70000000.0
-    src: ../../assets/logos/pp/mech-mind-robotics.png
+    src: ../../assets/logos/mech-mind-robotics.png
     stage: Late stage
     date: Aug 2025
   - name: RealSense
     amt: 50000000.0
-    src: ../../assets/logos/pp/realsense.png
+    src: ../../assets/logos/realsense.png
     stage: Series A
     date: Jul 2025
   - name: UnitX
     amt: 46000000.0
-    src: ../../assets/logos/pp/unitx.png
+    src: ../../assets/logos/unitx.png
     stage: Series B
     date: Nov 2024
   - name: UVeye
     amt: 41000000.0
-    src: ../../assets/logos/pp/uveye.png
+    src: ../../assets/logos/uveye.png
     stage: Late stage
     date: Jan 2025
   - name: Roboflow
     amt: 40000000.0
-    src: ../../assets/logos/pp/roboflow.png
+    src: ../../assets/logos/roboflow.png
     stage: Series B
     date: Nov 2024
   note:
@@ -3081,24 +3081,24 @@ slides:
   - We placed private pure players by main product and stage, from funding news and the press
   - We left out listed companies and incumbents, and all our sources are at the end of the report
   srcs:
-    instrumental: ../../assets/logos/pp/instrumental.png
-    overview-ai: ../../assets/logos/pp/overview-ai.png
-    robovision: ../../assets/logos/pp/robovision.png
+    instrumental: ../../assets/logos/instrumental.png
+    overview-ai: ../../assets/logos/overview-ai.png
+    robovision: ../../assets/logos/robovision.png
     elementary: ''
-    hundred: ../../assets/logos/pp/hundred.png
+    hundred: ../../assets/logos/hundred.png
     covision-quality: ''
-    zivid: ../../assets/logos/pp/zivid.png
-    mech-mind-robotics: ../../assets/logos/pp/mech-mind-robotics.png
+    zivid: ../../assets/logos/zivid.png
+    mech-mind-robotics: ../../assets/logos/mech-mind-robotics.png
     cambrian-robotics: ''
-    pickit: ../../assets/logos/pp/pickit.png
-    inbolt: ../../assets/logos/pp/inbolt.png
-    saccade-vision: ../../assets/logos/pp/saccade-vision.png
-    landing-ai: ../../assets/logos/pp/landing-ai.png
-    v7: ../../assets/logos/pp/v7.png
-    neurala: ../../assets/logos/pp/neurala.png
-    viso-ai: ../../assets/logos/pp/viso-ai.png
-    unitx: ../../assets/logos/pp/unitx.png
-    kitov-ai: ../../assets/logos/pp/kitov-ai.png
+    pickit: ../../assets/logos/pickit.png
+    inbolt: ../../assets/logos/inbolt.png
+    saccade-vision: ../../assets/logos/saccade-vision.png
+    landing-ai: ../../assets/logos/landingai.png
+    v7: ../../assets/logos/v7-labs.png
+    neurala: ../../assets/logos/neurala.png
+    viso-ai: ../../assets/logos/viso-ai.png
+    unitx: ../../assets/logos/unitx.png
+    kitov-ai: ../../assets/logos/kitov-ai.png
 - label: MACHINE VISION
   type: pp_killers
   mode: warning
@@ -3118,7 +3118,7 @@ slides:
     - Large logistics customers|paused investment.
     - ''
     - ''
-    src: ../../assets/logos/pp/cognex.png
+    src: ../../assets/logos/cognex.png
     ini: C
   - name: Zebra
     slug: zebra
@@ -3128,7 +3128,7 @@ slides:
     - ''
     - Cut roughly 700|staff in 2023.
     - ''
-    src: ../../assets/logos/pp/zebra.png
+    src: ../../assets/logos/zebra.png
     ini: Z
   - name: RealSense
     slug: realsense
@@ -3138,7 +3138,7 @@ slides:
     - Required facial-auth|spinout before closing.
     - ''
     - Cognex agreed to buy|it for about $500M.
-    src: ../../assets/logos/pp/realsense.png
+    src: ../../assets/logos/realsense.png
     ini: R
   - name: Tripleye
     slug: tripleye
@@ -3148,7 +3148,7 @@ slides:
     - ''
     - ''
     - IP sold for EUR|5,000 in insolvency.
-    src: ../../assets/logos/pp/tripleye.png
+    src: ../../assets/logos/tripleye.png
     ini: T
   - name: Basler
     slug: basler
@@ -3158,7 +3158,7 @@ slides:
     - ''
     - Cost reductions followed|the demand downturn.
     - ''
-    src: ../../assets/logos/pp/basler.png
+    src: ../../assets/logos/basler.png
     ini: B
   note:
   - We looked for warning signs among well-known machine vision companies, from layoffs to lawsuits
@@ -3171,15 +3171,15 @@ slides:
     in industrial vision systems?'
   companies:
   - short: Cognex
-    src: ../../assets/logos/pp/cognex.png
+    src: ../../assets/logos/cognex.png
   - short: Keyence
-    src: ../../assets/logos/pp/keyence.png
+    src: ../../assets/logos/keyence.png
   - short: Basler
-    src: ../../assets/logos/pp/basler.png
+    src: ../../assets/logos/basler.png
   - short: SICK
-    src: ../../assets/logos/pp/sick.png
+    src: ../../assets/logos/sick.png
   - short: Zebra
-    src: ../../assets/logos/pp/zebra.png
+    src: ../../assets/logos/zebra.png
   criteria:
   - name: Pure vision company
     why: Full focus
@@ -3226,28 +3226,28 @@ slides:
   - Distance to the center reflects how central each company is to managing general agent (MGA)
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/coalition.png
-  - ../../assets/logos/pp/at-bay.png
-  - ../../assets/logos/pp/coterie.png
-  - ../../assets/logos/pp/vouch.png
-  - ../../assets/logos/pp/counterpart.png
-  - ../../assets/logos/pp/ledgebrook.png
-  - ../../assets/logos/pp/floodflash.png
-  - ../../assets/logos/pp/resilience.png
+  - ../../assets/logos/coalition.png
+  - ../../assets/logos/at-bay.png
+  - ../../assets/logos/coterie-insurance.png
+  - ../../assets/logos/vouch.png
+  - ../../assets/logos/counterpart.png
+  - ../../assets/logos/ledgebrook.png
+  - ../../assets/logos/floodflash.png
+  - ../../assets/logos/resilience.png
   TL:
-    src: ../../assets/logos/pp/policygenius.png
+    src: ../../assets/logos/policygenius.png
     name: Policygenius
     text: policygenius distributes insurance to consumers, but it is a broker marketplace without delegated underwriting authority
   TR:
-    src: ../../assets/logos/pp/state-farm.png
+    src: ../../assets/logos/statefarm-com.png
     name: State Farm
     text: state Farm is a carrier taking insurance risk on its own balance sheet, not a delegated-authority MGA
   BL:
-    src: ../../assets/logos/pp/tint.png
+    src: ../../assets/logos/tint.png
     name: Tint
     text: tint structures embedded insurance programs, while its platform also acts as infrastructure for distribution partners
   BR:
-    src: ../../assets/logos/pp/boost.png
+    src: ../../assets/logos/boost-insurance.png
     name: Boost
     text: boost supplies embedded insurance infrastructure and programs, with MGA functions alongside broader insurance technology
 - label: MGA
@@ -3271,28 +3271,28 @@ slides:
   - name: Specialty Commercial
     p: 24
     logos:
-    - ../../assets/logos/pp/cfc.png
-    - ../../assets/logos/pp/amwins.png
+    - ../../assets/logos/cfc.png
+    - ../../assets/logos/amwins.png
   - name: Cyber MGAs
     p: 20
     logos:
-    - ../../assets/logos/pp/coalition.png
-    - ../../assets/logos/pp/at-bay.png
+    - ../../assets/logos/coalition.png
+    - ../../assets/logos/at-bay.png
   - name: Property & Cat
     p: 20
     logos:
-    - ../../assets/logos/pp/velocity-risk.png
-    - ../../assets/logos/pp/slide.png
+    - ../../assets/logos/velocity-risk.png
+    - ../../assets/logos/slide.png
   - name: Professional Lines
     p: 18
     logos:
-    - ../../assets/logos/pp/corvus.png
-    - ../../assets/logos/pp/cfc.png
+    - ../../assets/logos/corvus.png
+    - ../../assets/logos/cfc.png
   - name: Mobility & Auto
     p: 18
     logos:
-    - ../../assets/logos/pp/zego.png
-    - ../../assets/logos/pp/fairmatic.png
+    - ../../assets/logos/zego.png
+    - ../../assets/logos/fairmatic.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -3357,15 +3357,15 @@ slides:
     already do the most today?'
   companies:
   - name: Coalition
-    src: ../../assets/logos/pp/coalition.png
+    src: ../../assets/logos/coalition.png
   - name: At-Bay
-    src: ../../assets/logos/pp/at-bay.png
+    src: ../../assets/logos/at-bay.png
   - name: CFC
-    src: ../../assets/logos/pp/cfc.png
+    src: ../../assets/logos/cfc.png
   - name: Corvus
-    src: ../../assets/logos/pp/corvus.png
+    src: ../../assets/logos/corvus.png
   - name: Zego
-    src: ../../assets/logos/pp/zego.png
+    src: ../../assets/logos/zego.png
   features:
   - header: Own|underwrite
     values:
@@ -3437,26 +3437,26 @@ slides:
     x: 0.2
     y: 0.8
     logos:
-    - src: ../../assets/logos/pp/cfc.png
-    - src: ../../assets/logos/pp/amwins.png
+    - src: ../../assets/logos/cfc.png
+    - src: ../../assets/logos/amwins.png
   - name: Profit commission
     x: 0.82
     y: 0.82
     logos:
-    - src: ../../assets/logos/pp/coalition.png
-    - src: ../../assets/logos/pp/at-bay.png
+    - src: ../../assets/logos/coalition.png
+    - src: ../../assets/logos/at-bay.png
   - name: Policy fees
     x: 0.25
     y: 0.2
     logos:
-    - src: ../../assets/logos/pp/velocity-risk.png
-    - src: ../../assets/logos/pp/slide.png
+    - src: ../../assets/logos/velocity-risk.png
+    - src: ../../assets/logos/slide.png
   - name: Service fees
     x: 0.55
     y: 0.4
     logos:
-    - src: ../../assets/logos/pp/corvus.png
-    - src: ../../assets/logos/pp/zego.png
+    - src: ../../assets/logos/corvus.png
+    - src: ../../assets/logos/zego.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -3599,12 +3599,12 @@ slides:
   rounds:
   - name: Ledgebrook
     amt: 200000000.0
-    src: ../../assets/logos/pp/ledgebrook.png
+    src: ../../assets/logos/ledgebrook.png
     stage: Late stage
     date: Oct 2026
   - name: Openly
     amt: 123000000.0
-    src: ../../assets/logos/pp/openly.png
+    src: ../../assets/logos/openly.png
     stage: Growth Equity
     date: Jan 2025
   - name: Nirvana Insurance
@@ -3619,12 +3619,12 @@ slides:
     date: Jun 2026
   - name: Lassie
     amt: 75000000.0
-    src: ../../assets/logos/pp/lassie-2.png
+    src: ../../assets/logos/lassie-2.png
     stage: Series C
     date: Feb 2026
   - name: Stand
     amt: 70000000.0
-    src: ../../assets/logos/pp/stand.png
+    src: ../../assets/logos/stand.png
     stage: Series C
     date: Oct 2026
   note:
@@ -3687,24 +3687,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like AIG, Chubb, and all our sources are listed at the end of the report
   srcs:
-    coalition: ../../assets/logos/pp/coalition.png
-    at-bay: ../../assets/logos/pp/at-bay.png
-    resilience: ../../assets/logos/pp/resilience.png
-    cowbell: ../../assets/logos/pp/cowbell.png
-    stoik: ../../assets/logos/pp/stoik.png
-    baobab: ../../assets/logos/pp/baobab.png
-    coterie: ../../assets/logos/pp/coterie.png
-    vouch: ../../assets/logos/pp/vouch.png
-    ledgebrook: ../../assets/logos/pp/ledgebrook.png
-    counterpart: ../../assets/logos/pp/counterpart.png
-    shepherd: ../../assets/logos/pp/shepherd.png
-    kita: ../../assets/logos/pp/kita.png
-    boost: ../../assets/logos/pp/boost.png
-    tint: ../../assets/logos/pp/tint.png
-    coverdash: ../../assets/logos/pp/coverdash.png
-    embroker: ../../assets/logos/pp/embroker.png
-    authentic: ../../assets/logos/pp/authentic.png
-    vellum: ../../assets/logos/pp/vellum.png
+    coalition: ../../assets/logos/coalition.png
+    at-bay: ../../assets/logos/at-bay.png
+    resilience: ../../assets/logos/resilience.png
+    cowbell: ../../assets/logos/cowbell.png
+    stoik: ../../assets/logos/stoik.png
+    baobab: ../../assets/logos/baobab.png
+    coterie: ../../assets/logos/coterie-insurance.png
+    vouch: ../../assets/logos/vouch.png
+    ledgebrook: ../../assets/logos/ledgebrook.png
+    counterpart: ../../assets/logos/counterpart.png
+    shepherd: ../../assets/logos/shepherd.png
+    kita: ../../assets/logos/kita.png
+    boost: ../../assets/logos/boost-insurance.png
+    tint: ../../assets/logos/tint.png
+    coverdash: ../../assets/logos/coverdash.png
+    embroker: ../../assets/logos/embroker.png
+    authentic: ../../assets/logos/authentic-insurance.png
+    vellum: ../../assets/logos/vellum.png
 - label: MGA
   type: pp_killers
   mode: warning
@@ -3722,7 +3722,7 @@ slides:
     - Independent cyber MGA upside|ended with strategic acquisition
     - ''
     - Acquired by|Travelers in 2024
-    src: ../../assets/logos/pp/corvus.png
+    src: ../../assets/logos/corvus.png
     ini: C
   - name: Next
     slug: next
@@ -3731,7 +3731,7 @@ slides:
     - Exit valuation was below some|prior private-market expectations
     - ''
     - Munich Re agreed to acquire|Next Insurance for $2.6B in 2025
-    src: ../../assets/logos/pp/next.png
+    src: ../../assets/logos/next-insurance.png
     ini: N
   - name: Cowbell
     slug: cowbell
@@ -3740,7 +3740,7 @@ slides:
     - Cyber insurance pricing and|capacity cycles pressured valuations
     - Insurtech peers cut costs as|underwriting discipline tightened
     - ''
-    src: ../../assets/logos/pp/cowbell.png
+    src: ../../assets/logos/cowbell.png
     ini: C
   - name: Vouch
     slug: vouch
@@ -3749,7 +3749,7 @@ slides:
     - Commercial insurtech valuations|reset from 2021 levels
     - Startups in digital commercial|insurance shifted to leaner growth
     - ''
-    src: ../../assets/logos/pp/vouch.png
+    src: ../../assets/logos/vouch.png
     ini: V
   - name: Boost
     slug: boost
@@ -3758,7 +3758,7 @@ slides:
     - Embedded insurance funding|slowed after the 2021 cycle
     - Insurance infrastructure|startups faced cost discipline
     - ''
-    src: ../../assets/logos/pp/boost.png
+    src: ../../assets/logos/boost-insurance.png
     ini: B
   note:
   - We looked for warning signs among well-known MGA companies, from layoffs to lawsuits
@@ -3771,15 +3771,15 @@ slides:
     the cyber MGA market?'
   companies:
   - short: Coalition
-    src: ../../assets/logos/pp/coalition.png
+    src: ../../assets/logos/coalition.png
   - short: At-Bay
-    src: ../../assets/logos/pp/at-bay.png
+    src: ../../assets/logos/at-bay.png
   - short: Resilience
-    src: ../../assets/logos/pp/resilience.png
+    src: ../../assets/logos/resilience.png
   - short: Cowbell
-    src: ../../assets/logos/pp/cowbell.png
+    src: ../../assets/logos/cowbell.png
   - short: Stoik
-    src: ../../assets/logos/pp/stoik.png
+    src: ../../assets/logos/stoik.png
   criteria:
   - name: Active security
     why: Prevention lowers loss costs
@@ -3842,28 +3842,28 @@ slides:
   - Distance to the center reflects how central each company is to maritime autonomy
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/saildrone.png
-  - ../../assets/logos/pp/saronic.png
-  - ../../assets/logos/pp/ocean-infinity.png
-  - ../../assets/logos/pp/sea-machines-robotics.png
-  - ../../assets/logos/pp/orca-ai.png
-  - ../../assets/logos/pp/havocai.png
-  - ../../assets/logos/pp/greensea-iq.png
-  - ../../assets/logos/pp/maritime-robotics.png
+  - ../../assets/logos/saildrone.png
+  - ../../assets/logos/saronic-technologies.png
+  - ../../assets/logos/ocean-infinity.png
+  - ../../assets/logos/sea-machines-robotics.png
+  - ../../assets/logos/orca-ai.png
+  - ../../assets/logos/havocai.png
+  - ../../assets/logos/greensea-iq.png
+  - ../../assets/logos/maritime-robotics.png
   TL:
-    src: ../../assets/logos/pp/anduril.png
+    src: ../../assets/logos/anduril-industries.png
     name: Anduril
     text: anduril builds autonomous maritime systems, but its business also spans air, land and other defense domains
   TR:
-    src: ../../assets/logos/pp/maersk.png
+    src: ../../assets/logos/maersk.png
     name: Maersk
     text: maersk operates global shipping and logistics services, but it is not primarily a developer of autonomous vessel systems
   BL:
-    src: ../../assets/logos/pp/exail.png
+    src: ../../assets/logos/exail-technologies.png
     name: Exail
     text: exail builds autonomous maritime robots, but it also sells navigation, aerospace and photonics systems outside maritime
   BR:
-    src: ../../assets/logos/pp/avikus.png
+    src: ../../assets/logos/avikus.png
     name: Avikus
     text: avikus develops vessel autonomy and navigation, but it is a technology unit inside the broader HD Hyundai group
 - label: MARITIME AUTONOMY
@@ -3887,28 +3887,28 @@ slides:
   - name: Autonomous Surface
     p: 29
     logos:
-    - ../../assets/logos/pp/saildrone.png
-    - ../../assets/logos/pp/saronic.png
+    - ../../assets/logos/saildrone.png
+    - ../../assets/logos/saronic-technologies.png
   - name: Shipping Autonomy
     p: 21
     logos:
-    - ../../assets/logos/pp/kongsberg.png
-    - ../../assets/logos/pp/wartsila.png
+    - ../../assets/logos/kongsberg.png
+    - ../../assets/logos/wartsila.png
   - name: Underwater Vehicles
     p: 20
     logos:
-    - ../../assets/logos/pp/kongsberg.png
-    - ../../assets/logos/pp/anduril.png
+    - ../../assets/logos/kongsberg.png
+    - ../../assets/logos/anduril-industries.png
   - name: Navigation Software
     p: 17
     logos:
-    - ../../assets/logos/pp/sea-machines.png
-    - ../../assets/logos/pp/orca-ai.png
+    - ../../assets/logos/sea-machines-robotics.png
+    - ../../assets/logos/orca-ai.png
   - name: Remote Fleet Ops
     p: 13
     logos:
-    - ../../assets/logos/pp/wartsila.png
-    - ../../assets/logos/pp/sea-machines.png
+    - ../../assets/logos/wartsila.png
+    - ../../assets/logos/sea-machines-robotics.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -3973,15 +3973,15 @@ slides:
     can already do the most today?'
   companies:
   - name: SeaMachines
-    src: ../../assets/logos/pp/seamachines.png
+    src: ../../assets/logos/sea-machines-robotics.png
   - name: Kongsberg
-    src: ../../assets/logos/pp/kongsberg.png
+    src: ../../assets/logos/kongsberg.png
   - name: Avikus
-    src: ../../assets/logos/pp/avikus.png
+    src: ../../assets/logos/avikus.png
   - name: Orca AI
-    src: ../../assets/logos/pp/orca-ai.png
+    src: ../../assets/logos/orca-ai.png
   - name: OceanInf
-    src: ../../assets/logos/pp/oceaninf.png
+    src: ../../assets/logos/ocean-infinity.png
   features:
   - header: Collision|avoid
     values:
@@ -4053,26 +4053,26 @@ slides:
     x: 0.18
     y: 0.22
     logos:
-    - src: ../../assets/logos/pp/saildrone.png
-    - src: ../../assets/logos/pp/saronic.png
+    - src: ../../assets/logos/saildrone.png
+    - src: ../../assets/logos/saronic-technologies.png
   - name: Autonomy system sale
     x: 0.35
     y: 0.38
     logos:
-    - src: ../../assets/logos/pp/kongsberg.png
-    - src: ../../assets/logos/pp/sea-machines.png
+    - src: ../../assets/logos/kongsberg.png
+    - src: ../../assets/logos/sea-machines-robotics.png
   - name: Software subscription
     x: 0.55
     y: 0.8
     logos:
-    - src: ../../assets/logos/pp/orca-ai.png
-    - src: ../../assets/logos/pp/wartsila.png
+    - src: ../../assets/logos/orca-ai.png
+    - src: ../../assets/logos/wartsila.png
   - name: Mission as a service
     x: 0.82
     y: 0.62
     logos:
-    - src: ../../assets/logos/pp/saildrone.png
-    - src: ../../assets/logos/pp/ocean-infinity.png
+    - src: ../../assets/logos/saildrone.png
+    - src: ../../assets/logos/ocean-infinity.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -4220,12 +4220,12 @@ slides:
     date: May 2026
   - name: Helsing
     amt: 1800000000.0
-    src: ../../assets/logos/pp/helsing.png
+    src: ../../assets/logos/helsing.png
     stage: Late stage
     date: Jul 2026
   - name: Saronic
     amt: 1750000000.0
-    src: ../../assets/logos/pp/saronic-technologies.png
+    src: ../../assets/logos/saronic-technologies.png
     stage: Late stage
     date: Mar 2026
   - name: Panthalassa
@@ -4299,24 +4299,24 @@ slides:
   - We placed private pure players by main product and stage, from funding news and the press
   - We left out listed companies and incumbents, and all our sources are at the end of the report
   srcs:
-    saronic: ../../assets/logos/pp/saronic.png
-    saildrone: ../../assets/logos/pp/saildrone.png
+    saronic: ../../assets/logos/saronic-technologies.png
+    saildrone: ../../assets/logos/saildrone.png
     sea-kit-international: ''
-    maritime-robotics: ../../assets/logos/pp/maritime-robotics.png
-    havocai: ../../assets/logos/pp/havocai.png
-    seasats: ../../assets/logos/pp/seasats.png
-    ocean-infinity: ../../assets/logos/pp/ocean-infinity.png
-    greensea-iq: ../../assets/logos/pp/greensea-iq.png
-    ocean-aero: ../../assets/logos/pp/ocean-aero.png
-    bedrock-ocean: ../../assets/logos/pp/bedrock-ocean.png
+    maritime-robotics: ../../assets/logos/maritime-robotics.png
+    havocai: ../../assets/logos/havocai.png
+    seasats: ../../assets/logos/seasats.png
+    ocean-infinity: ../../assets/logos/ocean-infinity.png
+    greensea-iq: ../../assets/logos/greensea-iq.png
+    ocean-aero: ../../assets/logos/ocean-aero.png
+    bedrock-ocean: ../../assets/logos/bedrock-ocean.png
     jaia-robotics: ''
-    blue-water-autonomy: ../../assets/logos/pp/blue-water-autonomy.png
-    orca-ai: ../../assets/logos/pp/orca-ai.png
-    sea-machines-robotics: ../../assets/logos/pp/sea-machines-robotics.png
+    blue-water-autonomy: ../../assets/logos/blue-water-autonomy.png
+    orca-ai: ../../assets/logos/orca-ai.png
+    sea-machines-robotics: ../../assets/logos/sea-machines-robotics.png
     kraken-technology-group: ''
     sagar-defence-engineering: ''
     acua-ocean: ''
-    martac: ../../assets/logos/pp/martac.png
+    martac: ../../assets/logos/martac.png
 - label: MARITIME AUTONOMY
   type: pp_killers
   mode: warning
@@ -4334,7 +4334,7 @@ slides:
     - Standalone autonomy|scale shifted after sale.
     - ''
     - Acquired by|Mythos AI in 2024.
-    src: ../../assets/logos/pp/sea-machines.png
+    src: ../../assets/logos/sea-machines-robotics.png
     ini: SM
   - name: Saildrone
     slug: saildrone
@@ -4343,7 +4343,7 @@ slides:
     - Defense and survey scale|requires fleet expansion.
     - Private revenue and margin|scale are undisclosed.
     - ''
-    src: ../../assets/logos/pp/saildrone.png
+    src: ../../assets/logos/saildrone.png
     ini: S
   - name: Ocean Infinity
     slug: ocean-infinity
@@ -4352,7 +4352,7 @@ slides:
     - Armada rollout has|taken multiple years.
     - High capex fleet model|raises execution risk.
     - ''
-    src: ../../assets/logos/pp/ocean-infinity.png
+    src: ../../assets/logos/ocean-infinity.png
     ini: OI
   - name: Saronic
     slug: saronic
@@ -4361,7 +4361,7 @@ slides:
     - Large autonomous ship|programs are still scaling.
     - Rapid expansion requires|heavy capital spending.
     - ''
-    src: ../../assets/logos/pp/saronic.png
+    src: ../../assets/logos/saronic-technologies.png
     ini: S
   - name: HavocAI
     slug: havocai
@@ -4370,7 +4370,7 @@ slides:
     - Fleet deployments|remain early-stage.
     - Private commercial|revenue is not disclosed.
     - ''
-    src: ../../assets/logos/pp/havocai.png
+    src: ../../assets/logos/havocai.png
     ini: H
   note:
   - We looked for warning signs among well-known maritime autonomy companies, from layoffs to lawsuits
@@ -4383,15 +4383,15 @@ slides:
     for autonomous underwater vehicles?'
   companies:
   - short: Kongsberg
-    src: ../../assets/logos/pp/kongsberg-discovery.png
+    src: ../../assets/logos/kongsberg.png
   - short: HII
-    src: ../../assets/logos/pp/hii.png
+    src: ../../assets/logos/hii.png
   - short: Anduril
-    src: ../../assets/logos/pp/anduril.png
+    src: ../../assets/logos/anduril-industries.png
   - short: Exail
-    src: ../../assets/logos/pp/exail.png
+    src: ../../assets/logos/exail-technologies.png
   - short: Teledyne
-    src: ../../assets/logos/pp/teledyne-marine.png
+    src: ../../assets/logos/teledyne-marine.png
   criteria:
   - name: AUV missions up to 15 days
     why: Covers more seabed per trip
@@ -4454,28 +4454,28 @@ slides:
   - Distance to the center reflects how central each company is to maritime decarbonization
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/norsepower.png
-  - ../../assets/logos/pp/bound4blue.png
-  - ../../assets/logos/pp/seabound.png
-  - ../../assets/logos/pp/bar-technologies.png
-  - ../../assets/logos/pp/daphne-technology.png
-  - ../../assets/logos/pp/e1-marine.png
-  - ../../assets/logos/pp/corvus-energy.png
-  - ../../assets/logos/pp/zero-emission-industries.png
+  - ../../assets/logos/norsepower.png
+  - ../../assets/logos/bound4blue.png
+  - ../../assets/logos/seabound.png
+  - ../../assets/logos/bar-technologies.png
+  - ../../assets/logos/daphne-technology.png
+  - ../../assets/logos/e1-marine.png
+  - ../../assets/logos/corvus-energy.png
+  - ../../assets/logos/zero-emission-industries.png
   TL:
-    src: ../../assets/logos/pp/hif-global.png
+    src: ../../assets/logos/hif-global.png
     name: HIF Global
     text: produces e-fuels that ships may use, but fuel production alone sits outside vessel-focused decarbonization technology
   TR:
-    src: ../../assets/logos/pp/maersk.png
+    src: ../../assets/logos/maersk.png
     name: Maersk
     text: operates shipping services and buys cleaner vessels and fuels, but it is not primarily a decarbonization technology vend
   BL:
-    src: ../../assets/logos/pp/kongsberg-maritime.png
+    src: ../../assets/logos/kongsberg.png
     name: Kongsberg Maritime
     text: provides vessel efficiency and energy systems, while serving many conventional marine automation and navigation needs
   BR:
-    src: ../../assets/logos/pp/wartsila.png
+    src: ../../assets/logos/wartsila.png
     name: Wartsila
     text: supplies low-carbon marine engines and digital systems within a broad marine and energy-equipment portfolio
 - label: GREEN SHIPPING
@@ -4499,33 +4499,33 @@ slides:
   - name: Alternative fuels
     p: 24
     logos:
-    - ../../assets/logos/pp/wartsila.png
-    - ../../assets/logos/pp/man-energy-solutions.png
+    - ../../assets/logos/wartsila.png
+    - ../../assets/logos/man-es.png
   - name: Battery and hybrid
     p: 23
     logos:
-    - ../../assets/logos/pp/wartsila.png
-    - ../../assets/logos/pp/corvus-energy.png
+    - ../../assets/logos/wartsila.png
+    - ../../assets/logos/corvus-energy.png
   - name: Efficiency hardware
     p: 21
     logos:
-    - ../../assets/logos/pp/_ini_silverstream-technologies.png
-    - ../../assets/logos/pp/alfa-laval.png
+    - ../../assets/logos/ini/silverstream-technologies.png
+    - ../../assets/logos/alfa-laval.png
   - name: Voyage software
     p: 14
     logos:
-    - ../../assets/logos/pp/zeronorth.png
-    - ../../assets/logos/pp/napa.png
+    - ../../assets/logos/zeronorth.png
+    - ../../assets/logos/napa.png
   - name: Wind assist
     p: 10
     logos:
-    - ../../assets/logos/pp/norsepower.png
-    - ../../assets/logos/pp/bound4blue.png
+    - ../../assets/logos/norsepower.png
+    - ../../assets/logos/bound4blue.png
   - name: Onboard carbon capture
     p: 8
     logos:
-    - ../../assets/logos/pp/seabound.png
-    - ../../assets/logos/pp/value-maritime.png
+    - ../../assets/logos/seabound.png
+    - ../../assets/logos/value-maritime.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -4590,15 +4590,15 @@ slides:
     players can already do the most today?'
   companies:
   - name: Wartsila
-    src: ../../assets/logos/pp/wartsila.png
+    src: ../../assets/logos/wartsila.png
   - name: ABB
-    src: ../../assets/logos/pp/_ini_abb.png
+    src: ../../assets/logos/ini/abb.png
   - name: Kongsberg
-    src: ../../assets/logos/pp/kongsberg.png
+    src: ../../assets/logos/kongsberg.png
   - name: MAN ES
-    src: ../../assets/logos/pp/man-es.png
+    src: ../../assets/logos/man-es.png
   - name: Yara Marine
-    src: ../../assets/logos/pp/yara-marine.png
+    src: ../../assets/logos/yaramarine.png
   features:
   - header: Hybrid|electric
     values:
@@ -4670,26 +4670,26 @@ slides:
     x: 0.18
     y: 0.22
     logos:
-    - src: ../../assets/logos/pp/norsepower.png
-    - src: ../../assets/logos/pp/corvus-energy.png
+    - src: ../../assets/logos/norsepower.png
+    - src: ../../assets/logos/corvus-energy.png
   - name: Retrofit project
     x: 0.4
     y: 0.35
     logos:
-    - src: ../../assets/logos/pp/bound4blue.png
-    - src: ../../assets/logos/pp/_ini_silverstream-technologies.png
+    - src: ../../assets/logos/bound4blue.png
+    - src: ../../assets/logos/ini/silverstream-technologies.png
   - name: Software subscription
     x: 0.8
     y: 0.8
     logos:
-    - src: ../../assets/logos/pp/zeronorth.png
-    - src: ../../assets/logos/pp/napa.png
+    - src: ../../assets/logos/zeronorth.png
+    - src: ../../assets/logos/napa.png
   - name: Service contract
     x: 0.6
     y: 0.65
     logos:
-    - src: ../../assets/logos/pp/wartsila.png
-    - src: ../../assets/logos/pp/alfa-laval.png
+    - src: ../../assets/logos/wartsila.png
+    - src: ../../assets/logos/alfa-laval.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -4832,32 +4832,32 @@ slides:
   rounds:
   - name: Corvus Energy
     amt: 60000000.0
-    src: ../../assets/logos/pp/corvus-energy.png
+    src: ../../assets/logos/corvus-energy.png
     stage: Late stage
     date: Oct 2025
   - name: Amogy
     amt: 56000000.0
-    src: ../../assets/logos/pp/amogy.png
+    src: ../../assets/logos/amogy.png
     stage: Round
     date: Jan 2025
   - name: Arc Boat Company
     amt: 50000000.0
-    src: ../../assets/logos/pp/arc-boat-company.png
+    src: ../../assets/logos/arc-boat-company.png
     stage: Series C
     date: Mar 2026
   - name: bound4blue
     amt: 44000000.0
-    src: ../../assets/logos/pp/bound4blue.png
+    src: ../../assets/logos/bound4blue.png
     stage: Series B
     date: Dec 2025
   - name: Fleetzero
     amt: 43000000.0
-    src: ../../assets/logos/pp/fleetzero.png
+    src: ../../assets/logos/fleetzero.png
     stage: Series A
     date: Jan 2026
   - name: H2SITE
     amt: 39600000.0
-    src: ../../assets/logos/pp/h2site.png
+    src: ../../assets/logos/h2site.png
     stage: Series B
     date: Jan 2025
   note:
@@ -4920,24 +4920,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Wartsila, Kongsberg, with all the sources at the end of the report
   srcs:
-    norsepower: ../../assets/logos/pp/norsepower.png
-    bound4blue: ../../assets/logos/pp/bound4blue.png
-    bar-technologies: ../../assets/logos/pp/bar-technologies.png
-    airseas: ../../assets/logos/pp/airseas.png
-    oceanwings: ../../assets/logos/pp/oceanwings.png
-    gt-wings: ../../assets/logos/pp/gt-wings.png
-    corvus-energy: ../../assets/logos/pp/corvus-energy.png
-    e1-marine: ../../assets/logos/pp/e1-marine.png
-    zero-emission-industries: ../../assets/logos/pp/zero-emission-industries.png
-    amogy: ../../assets/logos/pp/amogy.png
-    fleetzero: ../../assets/logos/pp/fleetzero.png
-    bluegrid: ../../assets/logos/pp/bluegrid.png
-    seabound: ../../assets/logos/pp/seabound.png
-    daphne-technology: ../../assets/logos/pp/daphne-technology.png
-    nautilus-labs: ../../assets/logos/pp/nautilus-labs.png
-    deepsea-technologies: ../../assets/logos/pp/deepsea-technologies.png
-    value-maritime: ../../assets/logos/pp/value-maritime.png
-    sofar-ocean: ../../assets/logos/pp/sofar-ocean.png
+    norsepower: ../../assets/logos/norsepower.png
+    bound4blue: ../../assets/logos/bound4blue.png
+    bar-technologies: ../../assets/logos/bar-technologies.png
+    airseas: ../../assets/logos/airseas.png
+    oceanwings: ../../assets/logos/oceanwings.png
+    gt-wings: ../../assets/logos/gt-wings.png
+    corvus-energy: ../../assets/logos/corvus-energy.png
+    e1-marine: ../../assets/logos/e1-marine.png
+    zero-emission-industries: ../../assets/logos/zero-emission-industries.png
+    amogy: ../../assets/logos/amogy.png
+    fleetzero: ../../assets/logos/fleetzero.png
+    bluegrid: ../../assets/logos/bluegrid.png
+    seabound: ../../assets/logos/seabound.png
+    daphne-technology: ../../assets/logos/daphne-technology.png
+    nautilus-labs: ../../assets/logos/nautilus-labs.png
+    deepsea-technologies: ../../assets/logos/deepsea-technologies.png
+    value-maritime: ../../assets/logos/value-maritime.png
+    sofar-ocean: ../../assets/logos/sofar-ocean.png
 - label: GREEN SHIPPING
   type: pp_killers
   mode: warning
@@ -4953,7 +4953,7 @@ slides:
     cells:
     - ''
     - Econowind joined the|Damen Shipyards Group.
-    src: ../../assets/logos/pp/econowind.png
+    src: ../../assets/logos/econowind.png
     ini: E
   - name: Oceanbird
     slug: oceanbird
@@ -4977,7 +4977,7 @@ slides:
     cells:
     - Battery-electric container|shipping remains pre-scale.
     - ''
-    src: ../../assets/logos/pp/fleetzero.png
+    src: ../../assets/logos/fleetzero.png
     ini: F
   - name: bound4blue
     slug: bound4blue
@@ -4985,7 +4985,7 @@ slides:
     cells:
     - Wind propulsion still requires|case-by-case regulatory validation.
     - ''
-    src: ../../assets/logos/pp/bound4blue.png
+    src: ../../assets/logos/bound4blue.png
     ini: B
   note:
   - We looked for warning signs among well-known maritime decarbonization companies
@@ -4998,15 +4998,15 @@ slides:
     in wind-assisted propulsion?'
   companies:
   - short: Norsepower
-    src: ../../assets/logos/pp/norsepower.png
+    src: ../../assets/logos/norsepower.png
   - short: bound4blue
-    src: ../../assets/logos/pp/bound4blue.png
+    src: ../../assets/logos/bound4blue.png
   - short: Econowind
-    src: ../../assets/logos/pp/econowind.png
+    src: ../../assets/logos/econowind.png
   - short: Oceanbird
-    src: ../../assets/logos/pp/_ini_oceanbird.png
+    src: ../../assets/logos/ini/oceanbird.png
   - short: Anemoi
-    src: ../../assets/logos/pp/anemoi.png
+    src: ../../assets/logos/anemoi.png
   criteria:
   - name: Rotor sails
     why: Most installed design
@@ -5061,28 +5061,28 @@ slides:
   - Distance to the center reflects how central each company is to metal additive manufacturing
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/eos.png
-  - ../../assets/logos/pp/nikon-slm-solutions.png
-  - ../../assets/logos/pp/colibrium-additive.png
-  - ../../assets/logos/pp/renishaw.png
-  - ../../assets/logos/pp/additive-industries.png
-  - ../../assets/logos/pp/velo3d.png
-  - ../../assets/logos/pp/meltio.png
-  - ../../assets/logos/pp/spee3d.png
+  - ../../assets/logos/eos.png
+  - ../../assets/logos/nikon-slm-solutions-2.png
+  - ../../assets/logos/colibrium-additive.png
+  - ../../assets/logos/renishaw.png
+  - ../../assets/logos/additive-industries.png
+  - ../../assets/logos/velo3d.png
+  - ../../assets/logos/meltio.png
+  - ../../assets/logos/spee3d.png
   TL:
-    src: ../../assets/logos/pp/carbon.png
+    src: ../../assets/logos/carbon.png
     name: Carbon
     text: carbon is a major additive manufacturer, but its platform centers on polymer printing rather than metal parts
   TR:
-    src: ../../assets/logos/pp/autodesk.png
+    src: ../../assets/logos/autodesk.png
     name: Autodesk
     text: autodesk supports additive workflows with design software, but it does not build metal printers or feedstocks
   BL:
-    src: ../../assets/logos/pp/materialise.png
+    src: ../../assets/logos/materialise.png
     name: Materialise
     text: materialise serves metal additive production, but much of its business is software and broader 3D printing services
   BR:
-    src: ../../assets/logos/pp/3d-systems.png
+    src: ../../assets/logos/3dsystems.png
     name: 3D Systems
     text: 3D Systems sells metal additive systems, but a large share of its portfolio remains polymer printing and services
 - label: METAL 3D PRINTING
@@ -5106,28 +5106,28 @@ slides:
   - name: Laser Powder Bed
     p: 44
     logos:
-    - ../../assets/logos/pp/eos.png
-    - ../../assets/logos/pp/nikon-slm-solutions.png
+    - ../../assets/logos/eos.png
+    - ../../assets/logos/nikon-slm-solutions-2.png
   - name: Feedstock and Services
     p: 20
     logos:
-    - ../../assets/logos/pp/hoganas.png
-    - ../../assets/logos/pp/materialise.png
+    - ../../assets/logos/hoganas.png
+    - ../../assets/logos/materialise.png
   - name: Directed Energy Dep
     p: 15
     logos:
-    - ../../assets/logos/pp/meltio.png
-    - ../../assets/logos/pp/optomec.png
+    - ../../assets/logos/meltio.png
+    - ../../assets/logos/optomec.png
   - name: Binder and Extrusion
     p: 12
     logos:
-    - ../../assets/logos/pp/hp.png
-    - ../../assets/logos/pp/markforged.png
+    - ../../assets/logos/hp.png
+    - ../../assets/logos/markforged.png
   - name: Solid State Additive
     p: 9
     logos:
-    - ../../assets/logos/pp/spee3d.png
-    - ../../assets/logos/pp/_ini_titomic.png
+    - ../../assets/logos/spee3d.png
+    - ../../assets/logos/ini/titomic.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -5192,15 +5192,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: EOS
-    src: ../../assets/logos/pp/eos.png
+    src: ../../assets/logos/eos.png
   - name: Nikon SLM
-    src: ../../assets/logos/pp/nikon-slm.png
+    src: ../../assets/logos/nikon-slm-solutions.png
   - name: Colibrium
-    src: ../../assets/logos/pp/colibrium.png
+    src: ../../assets/logos/colibriumadditive.png
   - name: Renishaw
-    src: ../../assets/logos/pp/renishaw.png
+    src: ../../assets/logos/renishaw.png
   - name: Velo3D
-    src: ../../assets/logos/pp/velo3d.png
+    src: ../../assets/logos/velo3d.png
   features:
   - header: Laser|PBF
     values:
@@ -5272,26 +5272,26 @@ slides:
     x: 0.18
     y: 0.22
     logos:
-    - src: ../../assets/logos/pp/eos.png
-    - src: ../../assets/logos/pp/nikon-slm-solutions.png
+    - src: ../../assets/logos/eos.png
+    - src: ../../assets/logos/nikon-slm-solutions-2.png
   - name: Materials consumables
     x: 0.45
     y: 0.8
     logos:
-    - src: ../../assets/logos/pp/hoganas.png
-    - src: ../../assets/logos/pp/sandvik.png
+    - src: ../../assets/logos/hoganas.png
+    - src: ../../assets/logos/sandvik.png
   - name: Printing services
     x: 0.82
     y: 0.55
     logos:
-    - src: ../../assets/logos/pp/materialise.png
-    - src: ../../assets/logos/pp/protolabs.png
+    - src: ../../assets/logos/materialise.png
+    - src: ../../assets/logos/protolabs.png
   - name: Software license
     x: 0.5
     y: 0.45
     logos:
-    - src: ../../assets/logos/pp/materialise.png
-    - src: ../../assets/logos/pp/autodesk.png
+    - src: ../../assets/logos/materialise.png
+    - src: ../../assets/logos/autodesk.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -5434,32 +5434,32 @@ slides:
   rounds:
   - name: Divergent
     amt: 250000000.0
-    src: ../../assets/logos/pp/divergent.png
+    src: ../../assets/logos/divergent-technologies.png
     stage: Late stage
     date: Sep 2025
   - name: VulcanForms
     amt: 220000000.0
-    src: ../../assets/logos/pp/vulcanforms.png
+    src: ../../assets/logos/vulcanforms.png
     stage: Late stage
     date: Jan 2026
   - name: Freeform
     amt: 67000000.0
-    src: ../../assets/logos/pp/freeform.png
+    src: ../../assets/logos/freeform.png
     stage: Series B
     date: Feb 2026
   - name: Vilory
     amt: 43400000.0
-    src: ../../assets/logos/pp/vilory.png
+    src: ../../assets/logos/vilory.png
     stage: Series C
     date: Dec 2025
   - name: Caracol
     amt: 40000000.0
-    src: ../../assets/logos/pp/caracol.png
+    src: ../../assets/logos/caracol.png
     stage: Series B
     date: Oct 2025
   - name: Alloyed
     amt: 30000000.0
-    src: ../../assets/logos/pp/alloyed.png
+    src: ../../assets/logos/alloyed.png
     stage: Round
     date: Mar 2025
   note:
@@ -5519,20 +5519,20 @@ slides:
   - We placed private pure players by main product and stage, from funding news and the press
   - We left out listed companies and incumbents, and all our sources are at the end of the report
   srcs:
-    spee3d: ../../assets/logos/pp/spee3d.png
-    mantle: ../../assets/logos/pp/mantle.png
-    meltio: ../../assets/logos/pp/meltio.png
-    wayland-additive: ../../assets/logos/pp/wayland-additive.png
-    fluent-metal: ../../assets/logos/pp/fluent-metal.png
+    spee3d: ../../assets/logos/spee3d.png
+    mantle: ../../assets/logos/mantle.png
+    meltio: ../../assets/logos/meltio.png
+    wayland-additive: ../../assets/logos/wayland-additive.png
+    fluent-metal: ../../assets/logos/fluent-metal.png
     rosotics: ''
-    seurat-technologies: ../../assets/logos/pp/seurat-technologies.png
-    vulcanforms: ../../assets/logos/pp/vulcanforms.png
-    freeform: ../../assets/logos/pp/freeform.png
-    3deo: ../../assets/logos/pp/3deo.png
-    firestorm-labs: ../../assets/logos/pp/firestorm-labs.png
-    alloy-enterprises: ../../assets/logos/pp/alloy-enterprises.png
-    6k-additive: ../../assets/logos/pp/6k-additive.png
-    continuum-powders: ../../assets/logos/pp/continuum-powders.png
+    seurat-technologies: ../../assets/logos/seurat-technologies.png
+    vulcanforms: ../../assets/logos/vulcanforms.png
+    freeform: ../../assets/logos/freeform.png
+    3deo: ../../assets/logos/3deo.png
+    firestorm-labs: ../../assets/logos/firestorm-labs.png
+    alloy-enterprises: ../../assets/logos/alloy-enterprises.png
+    6k-additive: ../../assets/logos/6k-additive.png
+    continuum-powders: ../../assets/logos/continuum-powders.png
     uniformity-labs: ''
     elementum-3d: ''
     headmade-materials: ''
@@ -5558,7 +5558,7 @@ slides:
     - Order delays and weak|liquidity hurt sales.
     - ''
     - ''
-    src: ../../assets/logos/pp/velo3d.png
+    src: ../../assets/logos/velo3d.png
     ini: V
   - name: Markforged
     slug: markforged
@@ -5569,7 +5569,7 @@ slides:
     - ''
     - Acquired by Nano|Dimension in Apr 2025.
     - ''
-    src: ../../assets/logos/pp/markforged.png
+    src: ../../assets/logos/markforged.png
     ini: M
   - name: Nano Dimension
     slug: nano-dimension
@@ -5580,7 +5580,7 @@ slides:
     - ''
     - ''
     - Desktop Metal deal|produced major impairment.
-    src: ../../assets/logos/pp/nano-dimension.png
+    src: ../../assets/logos/nano-di.png
     ini: ND
   - name: Stratasys
     slug: stratasys
@@ -5591,7 +5591,7 @@ slides:
     - Desktop Metal merger|terminated in 2023.
     - ''
     - ''
-    src: ../../assets/logos/pp/stratasys.png
+    src: ../../assets/logos/stratasys.png
     ini: S
   - name: Desktop Metal
     slug: desktop-metal
@@ -5602,7 +5602,7 @@ slides:
     - ''
     - Acquired by Nano|Dimension in Apr 2025.
     - ''
-    src: ../../assets/logos/pp/desktop-metal.png
+    src: ../../assets/logos/desktopmetal.png
     ini: DM
   note:
   - We looked for warning signs among well-known metal 3D printing companies, from layoffs to lawsuits
@@ -5615,15 +5615,15 @@ slides:
     powder bed fusion market?'
   companies:
   - short: EOS
-    src: ../../assets/logos/pp/eos.png
+    src: ../../assets/logos/eos.png
   - short: Nikon SLM
-    src: ../../assets/logos/pp/nikon-slm-solutions.png
+    src: ../../assets/logos/nikon-slm-solutions-2.png
   - short: Colibrium
-    src: ../../assets/logos/pp/colibrium-additive.png
+    src: ../../assets/logos/colibrium-additive.png
   - short: Renishaw
-    src: ../../assets/logos/pp/renishaw.png
+    src: ../../assets/logos/renishaw.png
   - short: 3D Systems
-    src: ../../assets/logos/pp/3d-systems.png
+    src: ../../assets/logos/3dsystems.png
   criteria:
   - name: Largest installed base
     why: Most qualified parts
@@ -5678,28 +5678,28 @@ slides:
   - Distance to the center reflects how central each company is to mortgage technology
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/vesta.png
-  - ../../assets/logos/pp/maxwell.png
-  - ../../assets/logos/pp/valon.png
-  - ../../assets/logos/pp/stavvy.png
-  - ../../assets/logos/pp/ocrolus.png
-  - ../../assets/logos/pp/candor.png
-  - ../../assets/logos/pp/snapdocs.png
-  - ../../assets/logos/pp/polly.png
+  - ../../assets/logos/vesta.png
+  - ../../assets/logos/maxwell.png
+  - ../../assets/logos/valon.png
+  - ../../assets/logos/stavvy.png
+  - ../../assets/logos/ocrolus.png
+  - ../../assets/logos/candor-technology.png
+  - ../../assets/logos/snapdocs.png
+  - ../../assets/logos/polly.png
   TL:
-    src: ../../assets/logos/pp/zillow.png
+    src: ../../assets/logos/zillow.png
     name: Zillow
     text: zillow supports home shopping and mortgage leads, but property search remains outside mortgage technology infrastructure
   TR:
-    src: ../../assets/logos/pp/redfin.png
+    src: ../../assets/logos/redfin.png
     name: Redfin
     text: redfin is primarily a real estate brokerage and listings platform rather than mortgage lending technology software
   BL:
-    src: ../../assets/logos/pp/ice-mortgage.png
+    src: ../../assets/logos/ice-mortgage-tech.png
     name: ICE Mortgage
     text: ICE has leading mortgage software, but it sits inside a large public exchange and financial-data company
   BR:
-    src: ../../assets/logos/pp/blend.png
+    src: ../../assets/logos/blend-labs.png
     name: Blend
     text: blend digitizes mortgage origination, while the platform also serves consumer banking and other lending products
 - label: MORTGAGE TECHNOLOGY
@@ -5723,28 +5723,28 @@ slides:
   - name: Loan Origination
     p: 26
     logos:
-    - ../../assets/logos/pp/ice-mortgage-tech.png
-    - ../../assets/logos/pp/ncino.png
+    - ../../assets/logos/ice-mortgage-tech.png
+    - ../../assets/logos/ncino.png
   - name: Servicing
     p: 26
     logos:
-    - ../../assets/logos/pp/sagent.png
-    - ../../assets/logos/pp/ice-mortgage-tech.png
+    - ../../assets/logos/sagent.png
+    - ../../assets/logos/ice-mortgage-tech.png
   - name: Mortgage POS
     p: 18
     logos:
-    - ../../assets/logos/pp/blend.png
-    - ../../assets/logos/pp/ncino.png
+    - ../../assets/logos/blend-labs.png
+    - ../../assets/logos/ncino.png
   - name: Underwriting
     p: 16
     logos:
-    - ../../assets/logos/pp/ocrolus.png
-    - ../../assets/logos/pp/loanbeam.png
+    - ../../assets/logos/ocrolus.png
+    - ../../assets/logos/loanbeam.png
   - name: Verification
     p: 14
     logos:
-    - ../../assets/logos/pp/argyle.png
-    - ../../assets/logos/pp/truework.png
+    - ../../assets/logos/argyle.png
+    - ../../assets/logos/truework.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -5809,15 +5809,15 @@ slides:
     can already do the most today?'
   companies:
   - name: ICE MT
-    src: ../../assets/logos/pp/ice-mt.png
+    src: ../../assets/logos/ice-mortgage-tech.png
   - name: Blend
-    src: ../../assets/logos/pp/blend.png
+    src: ../../assets/logos/blend-labs.png
   - name: nCino
-    src: ../../assets/logos/pp/ncino.png
+    src: ../../assets/logos/ncino.png
   - name: Ocrolus
-    src: ../../assets/logos/pp/ocrolus.png
+    src: ../../assets/logos/ocrolus.png
   - name: Sagent
-    src: ../../assets/logos/pp/sagent.png
+    src: ../../assets/logos/sagent.png
   features:
   - header: Borrower|POS
     values:
@@ -5889,20 +5889,20 @@ slides:
     x: 0.2
     y: 0.8
     logos:
-    - src: ../../assets/logos/pp/blend.png
-    - src: ../../assets/logos/pp/ncino.png
+    - src: ../../assets/logos/blend-labs.png
+    - src: ../../assets/logos/ncino.png
   - name: Per loan fee
     x: 0.35
     y: 0.25
     logos:
-    - src: ../../assets/logos/pp/ice-mortgage-tech.png
-    - src: ../../assets/logos/pp/ocrolus.png
+    - src: ../../assets/logos/ice-mortgage-tech.png
+    - src: ../../assets/logos/ocrolus.png
   - name: Verification fee
     x: 0.8
     y: 0.3
     logos:
-    - src: ../../assets/logos/pp/truework.png
-    - src: ../../assets/logos/pp/argyle.png
+    - src: ../../assets/logos/truework.png
+    - src: ../../assets/logos/argyle.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -6045,7 +6045,7 @@ slides:
   rounds:
   - name: Valon
     amt: 150000000.0
-    src: ../../assets/logos/pp/valon.png
+    src: ../../assets/logos/valon.png
     stage: Late stage
     date: Oct 2026
   - name: Huspy
@@ -6060,7 +6060,7 @@ slides:
     date: Jul 2025
   - name: True Footage
     amt: 40000000.0
-    src: ../../assets/logos/pp/true-footage.png
+    src: ../../assets/logos/true-footage.png
     stage: Series C
     date: Apr 2026
   - name: Closinglock
@@ -6070,7 +6070,7 @@ slides:
     date: Jan 2025
   - name: Vesta
     amt: 30000000.0
-    src: ../../assets/logos/pp/vesta.png
+    src: ../../assets/logos/vesta.png
     stage: Series B
     date: Oct 2026
   note:
@@ -6131,24 +6131,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Blend, ICE, and all our sources are listed at the end of the report
   srcs:
-    vesta: ../../assets/logos/pp/vesta.png
-    maxwell: ../../assets/logos/pp/maxwell.png
-    polly: ../../assets/logos/pp/polly.png
-    candor: ../../assets/logos/pp/candor.png
+    vesta: ../../assets/logos/vesta.png
+    maxwell: ../../assets/logos/maxwell.png
+    polly: ../../assets/logos/polly.png
+    candor: ../../assets/logos/candor-technology.png
     sela-ai: ''
-    elio: ../../assets/logos/pp/elio.png
-    snapdocs: ../../assets/logos/pp/snapdocs.png
-    stavvy: ../../assets/logos/pp/stavvy.png
-    notarize: ../../assets/logos/pp/notarize.png
-    pavaso: ../../assets/logos/pp/pavaso.png
-    haven: ../../assets/logos/pp/haven.png
-    brace: ../../assets/logos/pp/brace.png
-    valon: ../../assets/logos/pp/valon.png
-    sagent: ../../assets/logos/pp/sagent.png
+    elio: ../../assets/logos/elio.png
+    snapdocs: ../../assets/logos/snapdocs.png
+    stavvy: ../../assets/logos/stavvy.png
+    notarize: ../../assets/logos/notarize.png
+    pavaso: ../../assets/logos/pavaso.png
+    haven: ../../assets/logos/haven.png
+    brace: ../../assets/logos/stavvy.png
+    valon: ../../assets/logos/valon.png
+    sagent: ../../assets/logos/sagent.png
     loancare: ''
-    covius: ../../assets/logos/pp/covius.png
-    brellium: ../../assets/logos/pp/brellium.png
-    truework: ../../assets/logos/pp/truework.png
+    covius: ../../assets/logos/covius.png
+    brellium: ../../assets/logos/brellium.png
+    truework: ../../assets/logos/truework.png
 - label: MORTGAGE TECHNOLOGY
   type: pp_killers
   mode: warning
@@ -6168,7 +6168,7 @@ slides:
     - Executed repeated mass|layoffs beginning in late 2021
     - ''
     - ''
-    src: ../../assets/logos/pp/better.png
+    src: ../../assets/logos/bettercom.png
     ini: B
   - name: Blend
     slug: blend
@@ -6178,7 +6178,7 @@ slides:
     - Cut staff repeatedly during|the mortgage volume collapse
     - ''
     - ''
-    src: ../../assets/logos/pp/blend.png
+    src: ../../assets/logos/blend-labs.png
     ini: B
   - name: Roostify
     slug: roostify
@@ -6188,7 +6188,7 @@ slides:
     - ''
     - CoreLogic acquired|Roostify in 2023
     - ''
-    src: ../../assets/logos/pp/roostify.png
+    src: ../../assets/logos/roostify.png
     ini: R
   - name: Sprout
     slug: sprout
@@ -6208,7 +6208,7 @@ slides:
     - Large layoffs hit the mortgage|software unit in May 2025
     - ''
     - ''
-    src: ../../assets/logos/pp/dark-matter.png
+    src: ../../assets/logos/darkmatter.png
     ini: DM
   note:
   - We looked for warning signs among well-known mortgage technology companies, from layoffs to lawsuits
@@ -6221,15 +6221,15 @@ slides:
     the mortgage LOS market?'
   companies:
   - short: Vesta
-    src: ../../assets/logos/pp/vesta.png
+    src: ../../assets/logos/vesta.png
   - short: Maxwell
-    src: ../../assets/logos/pp/maxwell.png
+    src: ../../assets/logos/maxwell.png
   - short: ICE Encomp
-    src: ../../assets/logos/pp/ice-encomp.png
+    src: ../../assets/logos/ice-mortgage-tech.png
   - short: DarkMatter
-    src: ../../assets/logos/pp/darkmatter.png
+    src: ../../assets/logos/darkmatter.png
   - short: LendingPad
-    src: ../../assets/logos/pp/lendingpad.png
+    src: ../../assets/logos/lendingpad.png
   criteria:
   - name: Cloud native
     why: Reduces legacy infrastructure
@@ -6292,28 +6292,28 @@ slides:
   - Distance to the center reflects how central each company is to natural hydrogen
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/koloma.png
-  - ../../assets/logos/pp/gold-hydrogen.png
-  - ../../assets/logos/pp/mantle8.png
-  - ../../assets/logos/pp/helios-aragon.png
-  - ../../assets/logos/pp/snowfox-discovery.png
-  - ../../assets/logos/pp/hyterra.png
-  - ../../assets/logos/pp/hydroma.png
-  - ../../assets/logos/pp/vema-hydrogen.png
+  - ../../assets/logos/koloma.png
+  - ../../assets/logos/gold-hydrogen.png
+  - ../../assets/logos/mantle8.png
+  - ../../assets/logos/helios-arag-n.png
+  - ../../assets/logos/snowfox-discovery.png
+  - ../../assets/logos/hyterra.png
+  - ../../assets/logos/hydroma.png
+  - ../../assets/logos/vema-hydrogen.png
   TL:
-    src: ../../assets/logos/pp/electric-hydrogen.png
+    src: ../../assets/logos/electric-hydrogen.png
     name: Electric Hydrogen
     text: builds electrolyzers for manufactured green hydrogen, not exploration or production of naturally occurring hydrogen
   TR:
-    src: ../../assets/logos/pp/plug-power.png
+    src: ../../assets/logos/plug-power.png
     name: Plug Power
     text: sells electrolyzers and fuel-cell hydrogen systems, but does not develop underground natural-hydrogen resources
   BL:
-    src: ../../assets/logos/pp/bp.png
+    src: ../../assets/logos/bp.png
     name: BP
     text: has venture exposure to natural hydrogen, but its core business is oil, gas and broader low-carbon energy
   BR:
-    src: ../../assets/logos/pp/fortescue.png
+    src: ../../assets/logos/fortescue.png
     name: Fortescue
     text: invests in natural hydrogen exploration while its main hydrogen strategy centers on manufactured green hydrogen
 - label: NATURAL HYDROGEN
@@ -6337,28 +6337,28 @@ slides:
   - name: Exploration
     p: 32
     logos:
-    - ../../assets/logos/pp/koloma.png
-    - ../../assets/logos/pp/mantle8.png
+    - ../../assets/logos/koloma.png
+    - ../../assets/logos/mantle8.png
   - name: Appraisal drilling
     p: 24
     logos:
-    - ../../assets/logos/pp/gold-hydrogen.png
-    - ../../assets/logos/pp/hyterra.png
+    - ../../assets/logos/gold-hydrogen.png
+    - ../../assets/logos/hyterra.png
   - name: Field development
     p: 18
     logos:
-    - ../../assets/logos/pp/hydroma.png
-    - ../../assets/logos/pp/gold-hydrogen.png
+    - ../../assets/logos/hydroma.png
+    - ../../assets/logos/gold-hydrogen.png
   - name: Separation systems
     p: 14
     logos:
-    - ../../assets/logos/pp/h2site.png
-    - ../../assets/logos/pp/vema-hydrogen.png
+    - ../../assets/logos/h2site.png
+    - ../../assets/logos/vema-hydrogen.png
   - name: Field services
     p: 12
     logos:
-    - ../../assets/logos/pp/snowfox-discovery.png
-    - ../../assets/logos/pp/mantle8.png
+    - ../../assets/logos/snowfox-discovery.png
+    - ../../assets/logos/mantle8.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -6423,15 +6423,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: Koloma
-    src: ../../assets/logos/pp/koloma.png
+    src: ../../assets/logos/koloma.png
   - name: HyTerra
-    src: ../../assets/logos/pp/hyterra.png
+    src: ../../assets/logos/hyterra.png
   - name: Gold H2
-    src: ../../assets/logos/pp/gold-h2.png
+    src: ../../assets/logos/gold-hydrogen.png
   - name: Mantle8
-    src: ../../assets/logos/pp/mantle8.png
+    src: ../../assets/logos/mantle8.png
   - name: Helios
-    src: ../../assets/logos/pp/helios.png
+    src: ../../assets/logos/helios.png
   features:
   - header: Own|acreage
     values:
@@ -6503,26 +6503,26 @@ slides:
     x: 0.18
     y: 0.32
     logos:
-    - src: ../../assets/logos/pp/koloma.png
-    - src: ../../assets/logos/pp/gold-hydrogen.png
+    - src: ../../assets/logos/koloma.png
+    - src: ../../assets/logos/gold-hydrogen.png
   - name: Hydrogen production sales
     x: 0.82
     y: 0.82
     logos:
-    - src: ../../assets/logos/pp/hydroma.png
-    - src: ../../assets/logos/pp/gold-hydrogen.png
+    - src: ../../assets/logos/hydroma.png
+    - src: ../../assets/logos/gold-hydrogen.png
   - name: Geoscience services
     x: 0.3
     y: 0.7
     logos:
-    - src: ../../assets/logos/pp/mantle8.png
-    - src: ../../assets/logos/pp/snowfox-discovery.png
+    - src: ../../assets/logos/mantle8.png
+    - src: ../../assets/logos/snowfox-discovery.png
   - name: Technology licensing
     x: 0.62
     y: 0.22
     logos:
-    - src: ../../assets/logos/pp/vema-hydrogen.png
-    - src: ../../assets/logos/pp/eden-geopower.png
+    - src: ../../assets/logos/vema-hydrogen.png
+    - src: ../../assets/logos/eden-geopower.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -6665,27 +6665,27 @@ slides:
   rounds:
   - name: Mantle8
     amt: 36300000.0
-    src: ../../assets/logos/pp/mantle8.png
+    src: ../../assets/logos/mantle8.png
     stage: Series A
     date: May 2026
   - name: Snowfox Discovery
     amt: 30000000.0
-    src: ../../assets/logos/pp/snowfox-discovery.png
+    src: ../../assets/logos/snowfox-discovery.png
     stage: Series A
     date: Sep 2025
   - name: Vema Hydrogen
     amt: 13000000.0
-    src: ../../assets/logos/pp/vema-hydrogen.png
+    src: ../../assets/logos/vema-hydrogen.png
     stage: Seed
     date: Feb 2025
   - name: Addis Energy
     amt: 8300000.0
-    src: ../../assets/logos/pp/addis-energy.png
+    src: ../../assets/logos/addis-energy.png
     stage: Seed
     date: Dec 2025
   - name: Koloma
     amt: .nan
-    src: ../../assets/logos/pp/koloma.png
+    src: ../../assets/logos/koloma.png
     stage: Round
     date: Oct 2026
   note:
@@ -6743,23 +6743,23 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Fortescue, BP, and all our sources are at the end of the report
   srcs:
-    koloma: ../../assets/logos/pp/koloma.png
-    gold-hydrogen: ../../assets/logos/pp/gold-hydrogen.png
-    mantle8: ../../assets/logos/pp/mantle8.png
-    snowfox-discovery: ../../assets/logos/pp/snowfox-discovery.png
+    koloma: ../../assets/logos/koloma.png
+    gold-hydrogen: ../../assets/logos/gold-hydrogen.png
+    mantle8: ../../assets/logos/mantle8.png
+    snowfox-discovery: ../../assets/logos/snowfox-discovery.png
     h2au: ''
-    helios-aragon: ../../assets/logos/pp/helios-aragon.png
-    hydroma: ../../assets/logos/pp/hydroma.png
-    hyterra: ../../assets/logos/pp/hyterra.png
+    helios-aragon: ../../assets/logos/helios-arag-n.png
+    hydroma: ../../assets/logos/hydroma.png
+    hyterra: ../../assets/logos/hyterra.png
     natural-hydrogen-energy: ''
-    max-power-mining: ../../assets/logos/pp/max-power-mining.png
-    45-8-energy: ../../assets/logos/pp/45-8-energy.png
+    max-power-mining: ../../assets/logos/max-power-mining.png
+    45-8-energy: ../../assets/logos/45-8-energy.png
     tanos-expeditions: ''
-    vema-hydrogen: ../../assets/logos/pp/vema-hydrogen.png
-    eden-geopower: ../../assets/logos/pp/eden-geopower.png
+    vema-hydrogen: ../../assets/logos/vema-hydrogen.png
+    eden-geopower: ../../assets/logos/eden-geopower.png
     georedox: ''
     earth-source-hydrogen: ''
-    addis-energy: ../../assets/logos/pp/addis-energy.png
+    addis-energy: ../../assets/logos/addis-energy.png
     red-shift-energy: ''
 - label: NATURAL HYDROGEN
   type: pp_killers
@@ -6778,7 +6778,7 @@ slides:
     - After nearly $400M raised, production|plans were still undisclosed in 2025.
     - ''
     - ''
-    src: ../../assets/logos/pp/koloma.png
+    src: ../../assets/logos/koloma.png
     ini: K
   - name: Gold Hydrogen
     slug: gold-hydrogen
@@ -6787,7 +6787,7 @@ slides:
     - Commercial viability remains|unproven after appraisal testing.
     - ''
     - Shares saw an 85.6% peak-to-trough|drawdown by March 2026.
-    src: ../../assets/logos/pp/gold-hydrogen.png
+    src: ../../assets/logos/gold-hydrogen.png
     ini: GH
   - name: Helios Aragon
     slug: helios-aragon
@@ -6796,7 +6796,7 @@ slides:
     - Still in exploration while|targeting a listing in early 2027.
     - ''
     - ''
-    src: ../../assets/logos/pp/helios-aragon.png
+    src: ../../assets/logos/helios-arag-n.png
     ini: HA
   - name: H2Au
     slug: h2au
@@ -6814,7 +6814,7 @@ slides:
     - ''
     - Fortescue moved to acquire|the natural-hydrogen explorer.
     - ''
-    src: ../../assets/logos/pp/hyterra.png
+    src: ../../assets/logos/hyterra.png
     ini: H
   note:
   - We looked for warning signs among well-known natural hydrogen companies, from layoffs to lawsuits
@@ -6827,15 +6827,15 @@ slides:
     the natural hydrogen exploration market?'
   companies:
   - short: Koloma
-    src: ../../assets/logos/pp/koloma.png
+    src: ../../assets/logos/koloma.png
   - short: HyTerra
-    src: ../../assets/logos/pp/hyterra.png
+    src: ../../assets/logos/hyterra.png
   - short: Gold
-    src: ../../assets/logos/pp/gold-hydrogen.png
+    src: ../../assets/logos/gold-hydrogen.png
   - short: Hydroma
-    src: ../../assets/logos/pp/hydroma.png
+    src: ../../assets/logos/hydroma.png
   - short: Max Power
-    src: ../../assets/logos/pp/max-power-mining.png
+    src: ../../assets/logos/max-power-mining.png
   criteria:
   - name: Raised over $200M
     why: Funds many test wells
@@ -6898,28 +6898,28 @@ slides:
   - Distance to the center reflects how central each company is to neuropsychiatric therapeutics
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/neumora.png
-  - ../../assets/logos/pp/delix.png
-  - ../../assets/logos/pp/gilgamesh.png
-  - ../../assets/logos/pp/gilgamesh-pharma.png
-  - ../../assets/logos/pp/engrail.png
-  - ../../assets/logos/pp/noema-pharma.png
-  - ../../assets/logos/pp/terran-biosciences.png
-  - ../../assets/logos/pp/psylo.png
+  - ../../assets/logos/neumora-therapeutics.png
+  - ../../assets/logos/delix-therapeutics.png
+  - ../../assets/logos/gilgamesh-pharma.png
+  - ../../assets/logos/gilgamesh-pharma.png
+  - ../../assets/logos/engrail-therapeutics.png
+  - ../../assets/logos/noema-pharma.png
+  - ../../assets/logos/terran-biosciences.png
+  - ../../assets/logos/xylo-bio.png
   TL:
-    src: ../../assets/logos/pp/biogen.png
+    src: ../../assets/logos/biogen.png
     name: Biogen
     text: focuses mainly on neurological and neurodegenerative diseases, not psychiatric and behavioral indications
   TR:
-    src: ../../assets/logos/pp/headspace.png
+    src: ../../assets/logos/headspace.png
     name: Headspace
     text: provides meditation and mental health services but does not develop regulated neuropsychiatric drug therapies
   BL:
-    src: ../../assets/logos/pp/bristol-myers-squibb.png
+    src: ../../assets/logos/bristol-myers-squibb--symbol.png
     name: Bristol Myers Squibb
     text: markets a novel schizophrenia medicine, but neuroscience remains one part of a broad global drug portfolio
   BR:
-    src: ../../assets/logos/pp/otsuka.png
+    src: ../../assets/logos/otsuka.png
     name: Otsuka
     text: has major psychiatric drug franchises, while its broader pharmaceutical portfolio covers many other diseases
 - label: PSYCHIATRIC THERAPIES
@@ -6943,28 +6943,28 @@ slides:
   - name: Depression drugs
     p: 32
     logos:
-    - ../../assets/logos/pp/jandj.png
-    - ../../assets/logos/pp/sage.png
+    - ../../assets/logos/johnson-and-johnson.png
+    - ../../assets/logos/sage.png
   - name: Schizophrenia drugs
     p: 27
     logos:
-    - ../../assets/logos/pp/bms.png
-    - ../../assets/logos/pp/otsuka.png
+    - ../../assets/logos/bristol-myers-squibb--symbol.png
+    - ../../assets/logos/otsuka.png
   - name: ADHD therapies
     p: 18
     logos:
-    - ../../assets/logos/pp/otsuka.png
-    - ../../assets/logos/pp/lundbeck.png
+    - ../../assets/logos/otsuka.png
+    - ../../assets/logos/lundbeck.png
   - name: Bipolar therapies
     p: 13
     logos:
-    - ../../assets/logos/pp/lundbeck.png
-    - ../../assets/logos/pp/otsuka.png
+    - ../../assets/logos/lundbeck.png
+    - ../../assets/logos/otsuka.png
   - name: Other psychiatry
     p: 10
     logos:
-    - ../../assets/logos/pp/jandj.png
-    - ../../assets/logos/pp/sage.png
+    - ../../assets/logos/johnson-and-johnson.png
+    - ../../assets/logos/sage.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -7029,15 +7029,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: J&J
-    src: ../../assets/logos/pp/jandj.png
+    src: ../../assets/logos/johnson-and-johnson.png
   - name: BMS
-    src: ../../assets/logos/pp/bms.png
+    src: ../../assets/logos/bristol-myers-squibb--symbol.png
   - name: Otsuka
-    src: ../../assets/logos/pp/otsuka.png
+    src: ../../assets/logos/otsuka.png
   - name: Lundbeck
-    src: ../../assets/logos/pp/lundbeck.png
+    src: ../../assets/logos/lundbeck.png
   - name: Sage
-    src: ../../assets/logos/pp/sage.png
+    src: ../../assets/logos/sage.png
   features:
   - header: Depression|drugs
     values:
@@ -7235,12 +7235,12 @@ slides:
     date: Jul 2025
   - name: Syremis Therapeutics
     amt: 165000000.0
-    src: ../../assets/logos/pp/syremis-therapeutics.png
+    src: ../../assets/logos/syremis-therapeutics.png
     stage: Series A
     date: Dec 2025
   - name: Draig Therapeutics
     amt: 140000000.0
-    src: ../../assets/logos/pp/draig-therapeutics.png
+    src: ../../assets/logos/draig-therapeutics.png
     stage: Series A
     date: Jun 2025
   - name: Tortugas Neuroscience
@@ -7250,7 +7250,7 @@ slides:
     date: Apr 2026
   - name: Delix Therapeutics
     amt: 100000000.0
-    src: ../../assets/logos/pp/delix-therapeutics.png
+    src: ../../assets/logos/delix-therapeutics.png
     stage: Series C
     date: Nov 2026
   - name: Newleos Therapeutics
@@ -7316,24 +7316,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Neumora, Alto, and all our sources are at the end of the report
   srcs:
-    delix: ../../assets/logos/pp/delix.png
-    gilgamesh: ../../assets/logos/pp/gilgamesh.png
-    freedom-bio: ../../assets/logos/pp/freedom-bio.png
-    psylo: ../../assets/logos/pp/psylo.png
-    damona: ../../assets/logos/pp/damona.png
-    sensorium: ../../assets/logos/pp/sensorium.png
+    delix: ../../assets/logos/delix-therapeutics.png
+    gilgamesh: ../../assets/logos/gilgamesh-pharma.png
+    freedom-bio: ../../assets/logos/freedom-biosciences.png
+    psylo: ../../assets/logos/xylo-bio.png
+    damona: ../../assets/logos/damona.png
+    sensorium: ../../assets/logos/sensorium-therapeutics.png
     cerevance: ''
-    noema: ../../assets/logos/pp/noema.png
-    neushen: ../../assets/logos/pp/neushen.png
-    tortugas: ../../assets/logos/pp/tortugas.png
-    aviadobio: ../../assets/logos/pp/aviadobio.png
+    noema: ../../assets/logos/noema-pharma.png
+    neushen: ../../assets/logos/neushen-therapeutics.png
+    tortugas: ../../assets/logos/tortugas.png
+    aviadobio: ../../assets/logos/aviadobio.png
     nido-bio: ''
-    engrail: ../../assets/logos/pp/engrail.png
-    kynexis: ../../assets/logos/pp/kynexis.png
-    amani-tx: ../../assets/logos/pp/amani-tx.png
+    engrail: ../../assets/logos/engrail-therapeutics.png
+    kynexis: ../../assets/logos/kynexis.png
+    amani-tx: ../../assets/logos/amani-therapeutics.png
     leal-tx: ''
-    neurosterix: ../../assets/logos/pp/neurosterix.png
-    terran-bio: ../../assets/logos/pp/terran-bio.png
+    neurosterix: ../../assets/logos/neurosterix.png
+    terran-bio: ../../assets/logos/terran-biosciences.png
 - label: PSYCHIATRIC THERAPIES
   type: pp_killers
   mode: warning
@@ -7353,7 +7353,7 @@ slides:
     - Navacaprant depression development|was discontinued in 2026
     - ''
     - ''
-    src: ../../assets/logos/pp/neumora.png
+    src: ../../assets/logos/neumora-therapeutics.png
     ini: N
   - name: Relmada
     slug: relmada
@@ -7363,7 +7363,7 @@ slides:
     - REL-1017 missed key Phase|3 efficacy endpoints
     - ''
     - ''
-    src: ../../assets/logos/pp/relmada.png
+    src: ../../assets/logos/relmada.png
     ini: R
   - name: Sage
     slug: sage
@@ -7373,7 +7373,7 @@ slides:
     - ''
     - Biogen agreed to acquire Sage|after commercial struggles
     - Sage cut staff and programs|before the transaction
-    src: ../../assets/logos/pp/sage.png
+    src: ../../assets/logos/sage.png
     ini: S
   - name: AtaiBeckley
     slug: ataibeckley
@@ -7383,7 +7383,7 @@ slides:
     - ''
     - Atai combined with Beckley|Psytech to consolidate pipelines
     - ''
-    src: ../../assets/logos/pp/ataibeckley.png
+    src: ../../assets/logos/ataibeckley.png
     ini: A
   - name: Compass
     slug: compass
@@ -7393,7 +7393,7 @@ slides:
     - Commercial timing moved as|Phase 3 development extended
     - ''
     - ''
-    src: ../../assets/logos/pp/compass.png
+    src: ../../assets/logos/compass-pathways.png
     ini: C
   note:
   - We looked for warning signs among well-known neuropsychiatric drug companies, from layoffs to lawsuits
@@ -7406,15 +7406,15 @@ slides:
     winning the schizophrenia drugs market?'
   companies:
   - short: BMS
-    src: ../../assets/logos/pp/bristol-myers-squibb.png
+    src: ../../assets/logos/bristol-myers-squibb--symbol.png
   - short: Otsuka
-    src: ../../assets/logos/pp/otsuka.png
+    src: ../../assets/logos/otsuka.png
   - short: AbbVie
-    src: ../../assets/logos/pp/abbvie.png
+    src: ../../assets/logos/abbvie.png
   - short: Lundbeck
-    src: ../../assets/logos/pp/lundbeck.png
+    src: ../../assets/logos/lundbeck.png
   - short: Neurocrine
-    src: ../../assets/logos/pp/neurocrine.png
+    src: ../../assets/logos/neurocrine-biosciences.png
   criteria:
   - name: First muscarinic drug approved
     why: New way to treat it
@@ -7461,28 +7461,28 @@ slides:
   - Distance to the center reflects how central each company is to non-human identity security
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/token-security.png
-  - ../../assets/logos/pp/aembit.png
-  - ../../assets/logos/pp/clutch-security.png
-  - ../../assets/logos/pp/astrix.png
-  - ../../assets/logos/pp/oasis-security.png
-  - ../../assets/logos/pp/entro.png
-  - ../../assets/logos/pp/britive.png
-  - ../../assets/logos/pp/gitguardian.png
+  - ../../assets/logos/token-security.png
+  - ../../assets/logos/aembit.png
+  - ../../assets/logos/clutch-security.png
+  - ../../assets/logos/astrix-security.png
+  - ../../assets/logos/oasis-security.png
+  - ../../assets/logos/entro-security.png
+  - ../../assets/logos/britive.png
+  - ../../assets/logos/gitguardian.png
   TL:
-    src: ../../assets/logos/pp/okta.png
+    src: ../../assets/logos/okta.png
     name: Okta
     text: primarily manages human workforce and customer identities, with limited machine-identity controls
   TR:
-    src: ../../assets/logos/pp/crowdstrike.png
+    src: ../../assets/logos/crowdstrike--symbol.png
     name: CrowdStrike
     text: endpoint and cloud security touch workloads, but machine identity governance is not the core product
   BL:
-    src: ../../assets/logos/pp/sailpoint.png
+    src: ../../assets/logos/sailpoint.png
     name: SailPoint
     text: extends identity governance to NHIs, while most of the platform remains focused on workforce identity
   BR:
-    src: ../../assets/logos/pp/cyberark.png
+    src: ../../assets/logos/palo-alto-networks.png
     name: CyberArk
     text: secures machine credentials and workloads, but also has a large human privileged-access business
 - label: NON-HUMAN IDENTITY
@@ -7506,28 +7506,28 @@ slides:
   - name: NHI Discovery
     p: 23
     logos:
-    - ../../assets/logos/pp/token-security.png
-    - ../../assets/logos/pp/clutch-security.png
+    - ../../assets/logos/token-security.png
+    - ../../assets/logos/clutch-security.png
   - name: Workload Identity
     p: 21
     logos:
-    - ../../assets/logos/pp/aembit.png
-    - ../../assets/logos/pp/akeyless.png
+    - ../../assets/logos/aembit.png
+    - ../../assets/logos/akeyless.png
   - name: Secrets Security
     p: 20
     logos:
-    - ../../assets/logos/pp/gitguardian.png
-    - ../../assets/logos/pp/akeyless.png
+    - ../../assets/logos/gitguardian.png
+    - ../../assets/logos/akeyless.png
   - name: Agent Identity
     p: 18
     logos:
-    - ../../assets/logos/pp/aembit.png
-    - ../../assets/logos/pp/token-security.png
+    - ../../assets/logos/aembit.png
+    - ../../assets/logos/token-security.png
   - name: Access Governance
     p: 18
     logos:
-    - ../../assets/logos/pp/token-security.png
-    - ../../assets/logos/pp/clutch-security.png
+    - ../../assets/logos/token-security.png
+    - ../../assets/logos/clutch-security.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -7592,15 +7592,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: Aembit
-    src: ../../assets/logos/pp/aembit.png
+    src: ../../assets/logos/aembit.png
   - name: Token
-    src: ../../assets/logos/pp/token.png
+    src: ../../assets/logos/token-security.png
   - name: Clutch
-    src: ../../assets/logos/pp/clutch.png
+    src: ../../assets/logos/clutch-security.png
   - name: GitGuardian
-    src: ../../assets/logos/pp/gitguardian.png
+    src: ../../assets/logos/gitguardian.png
   - name: Akeyless
-    src: ../../assets/logos/pp/akeyless.png
+    src: ../../assets/logos/akeyless.png
   features:
   - header: NHI|discovery
     values:
@@ -7672,26 +7672,26 @@ slides:
     x: 0.45
     y: 0.2
     logos:
-    - src: ../../assets/logos/pp/aembit.png
-    - src: ../../assets/logos/pp/token-security.png
+    - src: ../../assets/logos/aembit.png
+    - src: ../../assets/logos/token-security.png
   - name: Platform subscription
     x: 0.6
     y: 0.7
     logos:
-    - src: ../../assets/logos/pp/token-security.png
-    - src: ../../assets/logos/pp/clutch-security.png
+    - src: ../../assets/logos/token-security.png
+    - src: ../../assets/logos/clutch-security.png
   - name: Secrets subscription
     x: 0.2
     y: 0.55
     logos:
-    - src: ../../assets/logos/pp/gitguardian.png
-    - src: ../../assets/logos/pp/akeyless.png
+    - src: ../../assets/logos/gitguardian.png
+    - src: ../../assets/logos/akeyless.png
   - name: Enterprise contract
     x: 0.82
     y: 0.82
     logos:
-    - src: ../../assets/logos/pp/aembit.png
-    - src: ../../assets/logos/pp/akeyless.png
+    - src: ../../assets/logos/aembit.png
+    - src: ../../assets/logos/akeyless.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -7834,32 +7834,32 @@ slides:
   rounds:
   - name: Saviynt
     amt: 700000000.0
-    src: ../../assets/logos/pp/saviynt.png
+    src: ../../assets/logos/saviynt.png
     stage: Series B
     date: Dec 2025
   - name: Oasis Security
     amt: 120000000.0
-    src: ../../assets/logos/pp/oasis-security.png
+    src: ../../assets/logos/oasis-security.png
     stage: Series B
     date: Apr 2026
   - name: Veza
     amt: 108000000.0
-    src: ../../assets/logos/pp/veza.png
+    src: ../../assets/logos/veza.png
     stage: Late stage
     date: Apr 2025
   - name: ConductorOne
     amt: 79000000.0
-    src: ../../assets/logos/pp/conductorone.png
+    src: ../../assets/logos/conductorone.png
     stage: Series B
     date: Oct 2025
   - name: Arcade.dev
     amt: 60000000.0
-    src: ../../assets/logos/pp/arcade-dev.png
+    src: ../../assets/logos/arcade-dev.png
     stage: Series A
     date: Jun 2026
   - name: Oak
     amt: 60000000.0
-    src: ../../assets/logos/pp/oak.png
+    src: ../../assets/logos/oak.png
     stage: Seed
     date: Jan 2025
   note:
@@ -7922,24 +7922,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like CyberArk, SailPoint, with all the sources at the end of the report
   srcs:
-    token-security: ../../assets/logos/pp/token-security.png
-    aembit: ../../assets/logos/pp/aembit.png
-    clutch-security: ../../assets/logos/pp/clutch-security.png
-    britive: ../../assets/logos/pp/britive.png
-    gitguardian: ../../assets/logos/pp/gitguardian.png
-    teleport: ../../assets/logos/pp/teleport.png
-    strongdm: ../../assets/logos/pp/strongdm.png
-    cerby: ../../assets/logos/pp/cerby.png
-    conductorone: ../../assets/logos/pp/conductorone.png
-    opal-security: ../../assets/logos/pp/opal-security.png
-    entro: ../../assets/logos/pp/entro.png
-    oasis-security: ../../assets/logos/pp/oasis-security.png
-    astrix: ../../assets/logos/pp/astrix.png
-    infisical: ../../assets/logos/pp/infisical.png
-    akeyless: ../../assets/logos/pp/akeyless.png
-    delinea: ../../assets/logos/pp/delinea.png
-    veza: ../../assets/logos/pp/veza.png
-    permit-io: ../../assets/logos/pp/permit-io.png
+    token-security: ../../assets/logos/token-security.png
+    aembit: ../../assets/logos/aembit.png
+    clutch-security: ../../assets/logos/clutch-security.png
+    britive: ../../assets/logos/britive.png
+    gitguardian: ../../assets/logos/gitguardian.png
+    teleport: ../../assets/logos/teleport.png
+    strongdm: ../../assets/logos/strongdm.png
+    cerby: ../../assets/logos/cerby.png
+    conductorone: ../../assets/logos/conductorone.png
+    opal-security: ../../assets/logos/opal-security.png
+    entro: ../../assets/logos/entro-security.png
+    oasis-security: ../../assets/logos/oasis-security.png
+    astrix: ../../assets/logos/astrix-security.png
+    infisical: ../../assets/logos/infisical.png
+    akeyless: ../../assets/logos/akeyless.png
+    delinea: ../../assets/logos/delinea.png
+    veza: ../../assets/logos/veza.png
+    permit-io: ../../assets/logos/permit-io.png
 - label: NON-HUMAN IDENTITY
   type: pp_killers
   mode: warning
@@ -7955,7 +7955,7 @@ slides:
     cells:
     - Cisco acquired Astrix and ended|standalone new-license sales
     - Independent roadmap narrowed after|ownership or strategic control changed
-    src: ../../assets/logos/pp/astrix.png
+    src: ../../assets/logos/astrix-security.png
     ini: A
   - name: Entro
     slug: entro
@@ -7963,7 +7963,7 @@ slides:
     cells:
     - SailPoint acquired Entro for|non-human identity capabilities
     - Independent roadmap narrowed after|ownership or strategic control changed
-    src: ../../assets/logos/pp/entro.png
+    src: ../../assets/logos/entro-security.png
     ini: E
   - name: Oasis Security
     slug: oasis-security
@@ -7971,7 +7971,7 @@ slides:
     cells:
     - Cyera announced a deal to acquire|Oasis for about $1 billion
     - Independent roadmap narrowed after|ownership or strategic control changed
-    src: ../../assets/logos/pp/oasis-security.png
+    src: ../../assets/logos/oasis-security.png
     ini: OS
   - name: Conjur
     slug: conjur
@@ -7979,7 +7979,7 @@ slides:
     cells:
     - CyberArk acquired Conjur and folded|machine identity controls into its platform
     - Independent roadmap narrowed after|ownership or strategic control changed
-    src: ../../assets/logos/pp/conjur.png
+    src: ../../assets/logos/conjur.png
     ini: C
   - name: Venafi
     slug: venafi
@@ -7987,7 +7987,7 @@ slides:
     cells:
     - CyberArk acquired Venafi in a large|machine identity security deal
     - Independent roadmap narrowed after|ownership or strategic control changed
-    src: ../../assets/logos/pp/venafi.png
+    src: ../../assets/logos/venafi.png
     ini: V
   note:
   - We looked for warning signs among well-known non-human identity companies, from layoffs to lawsuits
@@ -8000,15 +8000,15 @@ slides:
     the NHI posture market?'
   companies:
   - short: Token
-    src: ../../assets/logos/pp/token-securi.png
+    src: ../../assets/logos/token-security.png
   - short: Aembit
-    src: ../../assets/logos/pp/aembit.png
+    src: ../../assets/logos/aembit.png
   - short: Clutch
-    src: ../../assets/logos/pp/clutch-secur.png
+    src: ../../assets/logos/clutch-security.png
   - short: Oasis
-    src: ../../assets/logos/pp/oasis-securi.png
+    src: ../../assets/logos/oasis-security.png
   - short: Entro
-    src: ../../assets/logos/pp/entro.png
+    src: ../../assets/logos/entro-security.png
   criteria:
   - name: NHI discovery
     why: Finds assets
@@ -8071,28 +8071,28 @@ slides:
   - Distance to the center reflects how central each company is to off-grid solar
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/sun-king.png
-  - ../../assets/logos/pp/d-light.png
-  - ../../assets/logos/pp/bboxx.png
-  - ../../assets/logos/pp/m-kopa.png
-  - ../../assets/logos/pp/zola-electric.png
-  - ../../assets/logos/pp/husk-power-systems.png
-  - ../../assets/logos/pp/lumos.png
-  - ../../assets/logos/pp/solar-panda.png
+  - ../../assets/logos/sun-king.png
+  - ../../assets/logos/d-light.png
+  - ../../assets/logos/bboxx.png
+  - ../../assets/logos/m-kopa.png
+  - ../../assets/logos/zola-electric.png
+  - ../../assets/logos/husk-power-systems.png
+  - ../../assets/logos/lumos.png
+  - ../../assets/logos/solar-panda.png
   TL:
-    src: ../../assets/logos/pp/enphase-energy.png
+    src: ../../assets/logos/enphase-energy.png
     name: Enphase Energy
     text: sells solar microinverters and batteries mainly for grid-connected systems, not dedicated off-grid energy access
   TR:
-    src: ../../assets/logos/pp/_ini_first-solar.png
+    src: ../../assets/logos/ini/first-solar.png
     name: First Solar
     text: manufactures utility-scale solar modules for grid projects and does not operate an off-grid solar service business
   BL:
-    src: ../../assets/logos/pp/schneider-electric.png
+    src: ../../assets/logos/schneider-electric--symbol.png
     name: Schneider Electric
     text: provides off-grid and microgrid hardware, while most revenue comes from broader electrification and automation
   BR:
-    src: ../../assets/logos/pp/engie-energy-access.png
+    src: ../../assets/logos/engie-energy-access.png
     name: ENGIE Energy Access
     text: runs off-grid solar and mini-grids, but sits inside a much larger global utility and energy-services group
 - label: OFF-GRID SOLAR
@@ -8116,28 +8116,28 @@ slides:
   - name: Solar home systems
     p: 42
     logos:
-    - ../../assets/logos/pp/sun-king.png
-    - ../../assets/logos/pp/d-light.png
+    - ../../assets/logos/sun-king.png
+    - ../../assets/logos/d-light.png
   - name: Mini-grids
     p: 18
     logos:
-    - ../../assets/logos/pp/husk-power-systems.png
-    - ../../assets/logos/pp/powergen-renewable-energy.png
+    - ../../assets/logos/husk-power-systems.png
+    - ../../assets/logos/powergen-renewable-energy.png
   - name: Productive use
     p: 16
     logos:
-    - ../../assets/logos/pp/sunculture.png
-    - ../../assets/logos/pp/futurepump.png
+    - ../../assets/logos/sunculture.png
+    - ../../assets/logos/futurepump.png
   - name: Pico solar
     p: 12
     logos:
-    - ../../assets/logos/pp/d-light.png
-    - ../../assets/logos/pp/lumos.png
+    - ../../assets/logos/d-light.png
+    - ../../assets/logos/lumos.png
   - name: C and I remote solar
     p: 12
     logos:
-    - ../../assets/logos/pp/daystar-power.png
-    - ../../assets/logos/pp/crossboundary-energy.png
+    - ../../assets/logos/daystar-power.png
+    - ../../assets/logos/crossboundary-energy.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -8202,15 +8202,15 @@ slides:
     the most complete tech today?'
   companies:
   - name: d.light
-    src: ../../assets/logos/pp/d-light.png
+    src: ../../assets/logos/d-light.png
   - name: Sun King
-    src: ../../assets/logos/pp/sun-king.png
+    src: ../../assets/logos/sun-king.png
   - name: Bboxx
-    src: ../../assets/logos/pp/bboxx.png
+    src: ../../assets/logos/bboxx.png
   - name: ENGIE EA
-    src: ../../assets/logos/pp/engie-ea.png
+    src: ../../assets/logos/engie-energy-access.png
   - name: Easy Solar
-    src: ../../assets/logos/pp/easy-solar.png
+    src: ../../assets/logos/easy-solar.png
   features:
   - header: PAYGo|finance
     values:
@@ -8282,26 +8282,26 @@ slides:
     x: 0.2
     y: 0.2
     logos:
-    - src: ../../assets/logos/pp/d-light.png
-    - src: ../../assets/logos/pp/sun-king.png
+    - src: ../../assets/logos/d-light.png
+    - src: ../../assets/logos/sun-king.png
   - name: PAYG financing
     x: 0.25
     y: 0.78
     logos:
-    - src: ../../assets/logos/pp/sun-king.png
-    - src: ../../assets/logos/pp/m-kopa.png
+    - src: ../../assets/logos/sun-king.png
+    - src: ../../assets/logos/m-kopa.png
   - name: Energy as a service
     x: 0.55
     y: 0.82
     logos:
-    - src: ../../assets/logos/pp/husk-power-systems.png
-    - src: ../../assets/logos/pp/crossboundary-energy.png
+    - src: ../../assets/logos/husk-power-systems.png
+    - src: ../../assets/logos/crossboundary-energy.png
   - name: Results-based grants
     x: 0.82
     y: 0.35
     logos:
-    - src: ../../assets/logos/pp/d-light.png
-    - src: ../../assets/logos/pp/bboxx.png
+    - src: ../../assets/logos/d-light.png
+    - src: ../../assets/logos/bboxx.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -8449,12 +8449,12 @@ slides:
     date: Nov 2025
   - name: Sun King
     amt: 40000000.0
-    src: ../../assets/logos/pp/sun-king.png
+    src: ../../assets/logos/sun-king.png
     stage: Growth Equity
     date: Dec 2025
   - name: Odyssey Energy Solutions
     amt: 27000000.0
-    src: ../../assets/logos/pp/odyssey-energy-solutions.png
+    src: ../../assets/logos/odyssey-energy-solutions.png
     stage: Round
     date: Sep 2026
   - name: Arnergy
@@ -8464,12 +8464,12 @@ slides:
     date: Apr 2025
   - name: Koolboks
     amt: 8800000.0
-    src: ../../assets/logos/pp/koolboks.png
+    src: ../../assets/logos/koolboks.png
     stage: Series A
     date: Aug 2025
   - name: PowerGen Renewable Energy
     amt: 5000000.0
-    src: ../../assets/logos/pp/powergen-renewable-energy.png
+    src: ../../assets/logos/powergen-renewable-energy.png
     stage: Series C
     date: Jan 2025
   note:
@@ -8529,23 +8529,23 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like ENGIE, Schneider Electric, with all the sources at the end of the report
   srcs:
-    sun-king: ../../assets/logos/pp/sun-king.png
-    d-light: ../../assets/logos/pp/d-light.png
-    bboxx: ../../assets/logos/pp/bboxx.png
-    lumos: ../../assets/logos/pp/lumos.png
-    oolu: ../../assets/logos/pp/oolu.png
-    solar-panda: ../../assets/logos/pp/solar-panda.png
-    husk-power-systems: ../../assets/logos/pp/husk-power-systems.png
-    powergen-renewable-energy: ../../assets/logos/pp/powergen-renewable-energy.png
-    nuru: ../../assets/logos/pp/nuru.png
-    okra-solar: ../../assets/logos/pp/okra-solar.png
-    koolboks: ../../assets/logos/pp/koolboks.png
+    sun-king: ../../assets/logos/sun-king.png
+    d-light: ../../assets/logos/d-light.png
+    bboxx: ../../assets/logos/bboxx.png
+    lumos: ../../assets/logos/lumos.png
+    oolu: ../../assets/logos/oolu.png
+    solar-panda: ../../assets/logos/solar-panda.png
+    husk-power-systems: ../../assets/logos/husk-power-systems.png
+    powergen-renewable-energy: ../../assets/logos/powergen-renewable-energy.png
+    nuru: ../../assets/logos/nuru.png
+    okra-solar: ../../assets/logos/okra-solar.png
+    koolboks: ../../assets/logos/koolboks.png
     a2ei: ''
-    zola-electric: ../../assets/logos/pp/zola-electric.png
-    m-kopa: ../../assets/logos/pp/m-kopa.png
-    ared: ../../assets/logos/pp/ared.png
-    daystar-power: ../../assets/logos/pp/daystar-power.png
-    mpower-ventures: ../../assets/logos/pp/mpower-ventures.png
+    zola-electric: ../../assets/logos/zola-electric.png
+    m-kopa: ../../assets/logos/m-kopa.png
+    ared: ../../assets/logos/ared.png
+    daystar-power: ../../assets/logos/daystar-power.png
+    mpower-ventures: ../../assets/logos/mpower-ventures.png
     ampersand-solar: ''
 - label: OFF-GRID SOLAR
   type: pp_killers
@@ -8562,7 +8562,7 @@ slides:
     cells:
     - Its business was later|acquired by Engie.
     - Entered insolvency proceedings|in Germany in 2019.
-    src: ../../assets/logos/pp/mobisol.png
+    src: ../../assets/logos/mobisol.png
     ini: M
   - name: Azuri
     slug: azuri
@@ -8570,7 +8570,7 @@ slides:
     cells:
     - Administration ended its|independent growth path.
     - Entered administration|after funding pressure.
-    src: ../../assets/logos/pp/azuri.png
+    src: ../../assets/logos/azuri.png
     ini: A
   - name: PEG Africa
     slug: peg-africa
@@ -8578,7 +8578,7 @@ slides:
     cells:
     - Bboxx acquired PEG|Africa in September 2022.
     - ''
-    src: ../../assets/logos/pp/peg-africa.png
+    src: ../../assets/logos/pegafrica.png
     ini: PA
   - name: Oolu
     slug: oolu
@@ -8586,7 +8586,7 @@ slides:
     cells:
     - Ignite Power acquired|Oolu in 2024.
     - ''
-    src: ../../assets/logos/pp/oolu.png
+    src: ../../assets/logos/oolu.png
     ini: O
   - name: Pawame
     slug: pawame
@@ -8594,7 +8594,7 @@ slides:
     cells:
     - Ignite Power acquired|Pawame in 2023.
     - ''
-    src: ../../assets/logos/pp/pawame.png
+    src: ../../assets/logos/pawame.png
     ini: P
   note:
   - We looked for warning signs among well-known off-grid solar companies, from layoffs to lawsuits
@@ -8607,15 +8607,15 @@ slides:
     the off-grid solar leader?'
   companies:
   - short: Sun King
-    src: ../../assets/logos/pp/sun-king.png
+    src: ../../assets/logos/sun-king.png
   - short: d.light
-    src: ../../assets/logos/pp/d-light.png
+    src: ../../assets/logos/d-light.png
   - short: Ignite
-    src: ../../assets/logos/pp/ignite-energy-access.png
+    src: ../../assets/logos/ignite-energy-access.png
   - short: Bboxx
-    src: ../../assets/logos/pp/bboxx.png
+    src: ../../assets/logos/bboxx.png
   - short: SunCulture
-    src: ../../assets/logos/pp/sunculture.png
+    src: ../../assets/logos/sunculture.png
   criteria:
   - name: Securitized its solar loan book
     why: Cheaper capital at scale
@@ -8678,28 +8678,28 @@ slides:
   - Distance to the center reflects how central each company is to online tutoring
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/preply.png
-  - ../../assets/logos/pp/gostudent.png
-  - ../../assets/logos/pp/wyzant.png
-  - ../../assets/logos/pp/outschool.png
-  - ../../assets/logos/pp/cambly.png
-  - ../../assets/logos/pp/superprof.png
-  - ../../assets/logos/pp/brighterly.png
-  - ../../assets/logos/pp/tutor-com.png
+  - ../../assets/logos/preply.png
+  - ../../assets/logos/gostudent.png
+  - ../../assets/logos/wyzant.png
+  - ../../assets/logos/outschool.png
+  - ../../assets/logos/cambly.png
+  - ../../assets/logos/superprof.png
+  - ../../assets/logos/brighterly.png
+  - ../../assets/logos/tutor-com.png
   TL:
-    src: ../../assets/logos/pp/coursera.png
+    src: ../../assets/logos/coursera.png
     name: Coursera
     text: coursera offers online courses and coaching tools, but most learning is course-based rather than personalized tutoring
   TR:
-    src: ../../assets/logos/pp/instructure.png
+    src: ../../assets/logos/instructure.png
     name: Instructure
     text: instructure provides learning-management software, not direct personalized instruction between tutors and learners
   BL:
-    src: ../../assets/logos/pp/duolingo.png
+    src: ../../assets/logos/duolingo.png
     name: Duolingo
     text: duolingo adds AI conversation and tutoring features, but most usage remains self-study language learning
   BR:
-    src: ../../assets/logos/pp/varsity-tutors.png
+    src: ../../assets/logos/nerdy.png
     name: Varsity Tutors
     text: varsity Tutors offers direct tutoring plus broader classes and school programs, so only part is pure one-to-one tutoring
 - label: ONLINE TUTORING
@@ -8723,28 +8723,28 @@ slides:
   - name: One to one tutoring
     p: 30
     logos:
-    - ../../assets/logos/pp/preply.png
-    - ../../assets/logos/pp/wyzant.png
+    - ../../assets/logos/preply.png
+    - ../../assets/logos/wyzant.png
   - name: Language tutoring
     p: 22
     logos:
-    - ../../assets/logos/pp/cambly.png
-    - ../../assets/logos/pp/italki.png
+    - ../../assets/logos/cambly.png
+    - ../../assets/logos/italki.png
   - name: K12 tutoring
     p: 20
     logos:
-    - ../../assets/logos/pp/varsity-tutors.png
-    - ../../assets/logos/pp/tutor-com.png
+    - ../../assets/logos/nerdy.png
+    - ../../assets/logos/tutor-com.png
   - name: Test prep
     p: 15
     logos:
-    - ../../assets/logos/pp/kaplan.png
-    - ../../assets/logos/pp/princeton-review.png
+    - ../../assets/logos/kaplan.png
+    - ../../assets/logos/princeton-review.png
   - name: Group and skills
     p: 13
     logos:
-    - ../../assets/logos/pp/outschool.png
-    - ../../assets/logos/pp/gostudent.png
+    - ../../assets/logos/outschool.png
+    - ../../assets/logos/gostudent.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -8809,15 +8809,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: Preply
-    src: ../../assets/logos/pp/preply.png
+    src: ../../assets/logos/preply.png
   - name: Varsity
-    src: ../../assets/logos/pp/varsity.png
+    src: ../../assets/logos/nerdy.png
   - name: Wyzant
-    src: ../../assets/logos/pp/wyzant.png
+    src: ../../assets/logos/wyzant.png
   - name: Cambly
-    src: ../../assets/logos/pp/cambly.png
+    src: ../../assets/logos/cambly.png
   - name: GoStudent
-    src: ../../assets/logos/pp/gostudent.png
+    src: ../../assets/logos/gostudent.png
   features:
   - header: Live|video
     values:
@@ -8889,26 +8889,26 @@ slides:
     x: 0.2
     y: 0.2
     logos:
-    - src: ../../assets/logos/pp/preply.png
-    - src: ../../assets/logos/pp/wyzant.png
+    - src: ../../assets/logos/preply.png
+    - src: ../../assets/logos/wyzant.png
   - name: Subscription plan
     x: 0.25
     y: 0.8
     logos:
-    - src: ../../assets/logos/pp/cambly.png
-    - src: ../../assets/logos/pp/italki.png
+    - src: ../../assets/logos/cambly.png
+    - src: ../../assets/logos/italki.png
   - name: School contracts
     x: 0.82
     y: 0.75
     logos:
-    - src: ../../assets/logos/pp/varsity-tutors.png
-    - src: ../../assets/logos/pp/tutor-com.png
+    - src: ../../assets/logos/nerdy.png
+    - src: ../../assets/logos/tutor-com.png
   - name: Session packages
     x: 0.45
     y: 0.45
     logos:
-    - src: ../../assets/logos/pp/kaplan.png
-    - src: ../../assets/logos/pp/princeton-review.png
+    - src: ../../assets/logos/kaplan.png
+    - src: ../../assets/logos/princeton-review.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -9051,7 +9051,7 @@ slides:
   rounds:
   - name: Preply
     amt: 150000000.0
-    src: ../../assets/logos/pp/preply.png
+    src: ../../assets/logos/preply.png
     stage: Late stage
     date: Jan 2026
   - name: Bhanzu
@@ -9071,7 +9071,7 @@ slides:
     date: Dec 2024
   - name: Third Space Learning
     amt: 5632000.0
-    src: ../../assets/logos/pp/third-space-learning.png
+    src: ../../assets/logos/third-space-learning.png
     stage: Growth Equity
     date: Apr 2026
   - name: Sparkl Edventure
@@ -9139,24 +9139,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Pearson, Chegg, and all our sources are at the end of the report
   srcs:
-    preply: ../../assets/logos/pp/preply.png
-    cambly: ../../assets/logos/pp/cambly.png
-    lingoda: ../../assets/logos/pp/lingoda.png
-    amazingtalk: ../../assets/logos/pp/amazingtalk.png
-    loora: ../../assets/logos/pp/loora.png
-    speakx: ../../assets/logos/pp/speakx.png
-    gostudent: ../../assets/logos/pp/gostudent.png
-    outschool: ../../assets/logos/pp/outschool.png
-    brighterly: ../../assets/logos/pp/brighterly.png
-    novakid: ../../assets/logos/pp/novakid.png
-    arivihan: ../../assets/logos/pp/arivihan.png
-    wippi: ../../assets/logos/pp/wippi.png
-    superprof: ../../assets/logos/pp/superprof.png
-    wyzant: ../../assets/logos/pp/wyzant.png
-    tutorful: ../../assets/logos/pp/tutorful.png
-    mytutor: ../../assets/logos/pp/mytutor.png
-    wild-zebra: ../../assets/logos/pp/wild-zebra.png
-    filo: ../../assets/logos/pp/filo.png
+    preply: ../../assets/logos/preply.png
+    cambly: ../../assets/logos/cambly.png
+    lingoda: ../../assets/logos/lingoda.png
+    amazingtalk: ../../assets/logos/amazingtalk.png
+    loora: ../../assets/logos/loora.png
+    speakx: ../../assets/logos/speakx.png
+    gostudent: ../../assets/logos/gostudent.png
+    outschool: ../../assets/logos/outschool.png
+    brighterly: ../../assets/logos/brighterly.png
+    novakid: ../../assets/logos/novakid.png
+    arivihan: ../../assets/logos/arivihan.png
+    wippi: ../../assets/logos/wippi.png
+    superprof: ../../assets/logos/superprof.png
+    wyzant: ../../assets/logos/wyzant.png
+    tutorful: ../../assets/logos/tutorful.png
+    mytutor: ../../assets/logos/mytutor.png
+    wild-zebra: ../../assets/logos/wild-zebra.png
+    filo: ../../assets/logos/filo.png
 - label: ONLINE TUTORING
   type: pp_killers
   mode: warning
@@ -9174,7 +9174,7 @@ slides:
     - Headcount fell sharply|from its 2023 peak
     - Estimated value sits|below its last $3.3B round
     - ''
-    src: ../../assets/logos/pp/gostudent.png
+    src: ../../assets/logos/gostudent.png
     ini: G
   - name: Paper
     slug: paper
@@ -9183,7 +9183,7 @@ slides:
     - Reported layoffs followed|pandemic-era district expansion
     - ''
     - Pivoted toward higher-impact|tutoring after usage concerns
-    src: ../../assets/logos/pp/paper.png
+    src: ../../assets/logos/paper.png
     ini: P
   - name: Varsity
     slug: varsity
@@ -9192,7 +9192,7 @@ slides:
     - ''
     - School business fell as|pandemic aid and demand faded
     - School service ended after|evidence concerns on outcomes
-    src: ../../assets/logos/pp/varsity.png
+    src: ../../assets/logos/nerdy.png
     ini: V
   - name: Cambly
     slug: cambly
@@ -9201,7 +9201,7 @@ slides:
     - Estimated headcount declined|materially from 2023
     - Search share fell to|6.8% by September 2026
     - ''
-    src: ../../assets/logos/pp/cambly.png
+    src: ../../assets/logos/cambly.png
     ini: C
   - name: Outschool
     slug: outschool
@@ -9210,7 +9210,7 @@ slides:
     - The sector broadly cut staffing|after 2021 growth peaks
     - Demand normalized after|pandemic-era online learning surge
     - ''
-    src: ../../assets/logos/pp/outschool.png
+    src: ../../assets/logos/outschool.png
     ini: O
   note:
   - We looked for warning signs among well-known online tutoring companies, from layoffs to lawsuits
@@ -9223,15 +9223,15 @@ slides:
     in language tutoring?'
   companies:
   - short: Preply
-    src: ../../assets/logos/pp/preply.png
+    src: ../../assets/logos/preply.png
   - short: Cambly
-    src: ../../assets/logos/pp/cambly.png
+    src: ../../assets/logos/cambly.png
   - short: Lingoda
-    src: ../../assets/logos/pp/lingoda.png
+    src: ../../assets/logos/lingoda.png
   - short: AmazingTalk
-    src: ../../assets/logos/pp/amazingtalk.png
+    src: ../../assets/logos/amazingtalk.png
   - short: Superprof
-    src: ../../assets/logos/pp/superprof.png
+    src: ../../assets/logos/superprof.png
   criteria:
   - name: Tutor liquidity
     why: Improves match quality
@@ -9294,28 +9294,28 @@ slides:
   - Distance to the center reflects how central each company is to optical interconnect
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/ayar-labs.png
-  - ../../assets/logos/pp/lightmatter.png
-  - ../../assets/logos/pp/ranovus.png
-  - ../../assets/logos/pp/xscape-photonics.png
-  - ../../assets/logos/pp/scintil-photonics.png
-  - ../../assets/logos/pp/salience-labs.png
-  - ../../assets/logos/pp/avicena.png
-  - ../../assets/logos/pp/hyperlight.png
+  - ../../assets/logos/ayar-labs.png
+  - ../../assets/logos/lightmatter.png
+  - ../../assets/logos/ranovus.png
+  - ../../assets/logos/xscape-photonics.png
+  - ../../assets/logos/scintil-photonics.png
+  - ../../assets/logos/salience-labs.png
+  - ../../assets/logos/avicena.png
+  - ../../assets/logos/hyperlight.png
   TL:
-    src: ../../assets/logos/pp/broadcom.png
+    src: ../../assets/logos/broadcom.png
     name: Broadcom
     text: broadcom sells networking and optical components, but its business extends beyond dedicated optical interconnects
   TR:
-    src: ../../assets/logos/pp/dell-technologies.png
+    src: ../../assets/logos/dell-technologies.png
     name: Dell Technologies
     text: dell builds systems that use optical links, but it does not primarily develop optical interconnect technology
   BL:
-    src: ../../assets/logos/pp/intel.png
+    src: ../../assets/logos/intel.png
     name: Intel
     text: intel develops silicon photonics and optical I/O, but most of its business remains general computing chips
   BR:
-    src: ../../assets/logos/pp/lumentum.png
+    src: ../../assets/logos/lumentum.png
     name: Lumentum
     text: lumentum supplies lasers and optical components for interconnects, but also serves telecom and industrial laser markets
 - label: OPTICAL INTERCONNECT
@@ -9339,28 +9339,28 @@ slides:
   - name: Optical Transceivers
     p: 36
     logos:
-    - ../../assets/logos/pp/coherent.png
-    - ../../assets/logos/pp/innolight.png
+    - ../../assets/logos/coherent--symbol.png
+    - ../../assets/logos/innolight.png
   - name: Cables and Components
     p: 23
     logos:
-    - ../../assets/logos/pp/amphenol.png
-    - ../../assets/logos/pp/molex.png
+    - ../../assets/logos/amphenol.png
+    - ../../assets/logos/molex.png
   - name: CPO and Optical Engines
     p: 19
     logos:
-    - ../../assets/logos/pp/broadcom.png
-    - ../../assets/logos/pp/marvell.png
+    - ../../assets/logos/broadcom.png
+    - ../../assets/logos/marvell.png
   - name: Optical IO Chiplets
     p: 12
     logos:
-    - ../../assets/logos/pp/ayar-labs.png
-    - ../../assets/logos/pp/lightmatter.png
+    - ../../assets/logos/ayar-labs.png
+    - ../../assets/logos/lightmatter.png
   - name: Optical Switches
     p: 10
     logos:
-    - ../../assets/logos/pp/google.png
-    - ../../assets/logos/pp/polatis.png
+    - ../../assets/logos/google.png
+    - ../../assets/logos/polatis.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -9425,15 +9425,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: Broadcom
-    src: ../../assets/logos/pp/broadcom.png
+    src: ../../assets/logos/broadcom.png
   - name: NVIDIA
-    src: ../../assets/logos/pp/nvidia.png
+    src: ../../assets/logos/nvidia--symbol.png
   - name: Marvell
-    src: ../../assets/logos/pp/marvell.png
+    src: ../../assets/logos/marvell.png
   - name: Intel
-    src: ../../assets/logos/pp/intel.png
+    src: ../../assets/logos/intel.png
   - name: Ayar Labs
-    src: ../../assets/logos/pp/ayar-labs.png
+    src: ../../assets/logos/ayar-labs.png
   features:
   - header: CPO|system
     values:
@@ -9626,12 +9626,12 @@ slides:
   rounds:
   - name: Lumilens
     amt: 700000000.0
-    src: ../../assets/logos/pp/lumilens.png
+    src: ../../assets/logos/lumilens.png
     stage: Series C
     date: Aug 2026
   - name: Ayar Labs
     amt: 500000000.0
-    src: ../../assets/logos/pp/ayar-labs.png
+    src: ../../assets/logos/ayar-labs.png
     stage: Late stage
     date: Mar 2026
   - name: Celero Communications
@@ -9641,17 +9641,17 @@ slides:
     date: Sep 2026
   - name: Celestial AI
     amt: 250000000.0
-    src: ../../assets/logos/pp/celestial-ai.png
+    src: ../../assets/logos/celestial-ai.png
     stage: Series C
     date: Mar 2025
   - name: Lightelligence
     amt: 210000000.0
-    src: ../../assets/logos/pp/lightelligence.png
+    src: ../../assets/logos/lightelligence.png
     stage: Series C
     date: Sep 2025
   - name: CScale
     amt: 145000000.0
-    src: ../../assets/logos/pp/cscale.png
+    src: ../../assets/logos/cscale.png
     stage: Series C
     date: Sep 2026
   note:
@@ -9713,21 +9713,21 @@ slides:
   - We placed private pure players by main product and stage, from funding news and the press
   - We left out listed companies and incumbents, and all our sources are at the end of the report
   srcs:
-    ayar-labs: ../../assets/logos/pp/ayar-labs.png
-    lightmatter: ../../assets/logos/pp/lightmatter.png
-    xscape-photonics: ../../assets/logos/pp/xscape-photonics.png
-    avicena: ../../assets/logos/pp/avicena.png
+    ayar-labs: ../../assets/logos/ayar-labs.png
+    lightmatter: ../../assets/logos/lightmatter.png
+    xscape-photonics: ../../assets/logos/xscape-photonics.png
+    avicena: ../../assets/logos/avicena.png
     newphotonics: ''
-    lumilens: ../../assets/logos/pp/lumilens.png
-    ranovus: ../../assets/logos/pp/ranovus.png
-    scintil-photonics: ../../assets/logos/pp/scintil-photonics.png
-    hyperlight: ../../assets/logos/pp/hyperlight.png
-    quintessent: ../../assets/logos/pp/quintessent.png
-    nlm-photonics: ../../assets/logos/pp/nlm-photonics.png
-    openlight: ../../assets/logos/pp/openlight.png
-    salience-labs: ../../assets/logos/pp/salience-labs.png
-    ipronics: ../../assets/logos/pp/ipronics.png
-    neye-systems: ../../assets/logos/pp/neye-systems.png
-    lessengers: ../../assets/logos/pp/lessengers.png
-    lightspeed-photonics: ../../assets/logos/pp/lightspeed-photonics.png
-    terasignal: ../../assets/logos/pp/terasignal.png
+    lumilens: ../../assets/logos/lumilens.png
+    ranovus: ../../assets/logos/ranovus.png
+    scintil-photonics: ../../assets/logos/scintil-photonics.png
+    hyperlight: ../../assets/logos/hyperlight.png
+    quintessent: ../../assets/logos/quintessent.png
+    nlm-photonics: ../../assets/logos/nlm-photonics.png
+    openlight: ../../assets/logos/openlight--symbol.png
+    salience-labs: ../../assets/logos/salience-labs.png
+    ipronics: ../../assets/logos/ipronics.png
+    neye-systems: ../../assets/logos/neye-systems.png
+    lessengers: ../../assets/logos/lessengers.png
+    lightspeed-photonics: ../../assets/logos/lightspeed-photonics.png
+    terasignal: ../../assets/logos/terasignal.png

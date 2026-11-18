@@ -273,9 +273,9 @@ ed168p:
     pct: 48% of total
     w: 100.0
     logos:
-    - src: ../../assets/logos/lib/valar-atomics.png
-    - src: ../../assets/logos/lib/x-energy.png
-    - src: ../../assets/logos/lib/jimmy.png
+    - src: ../../assets/logos/valar-atomics--symbol.png
+    - src: ../../assets/logos/x-energy.png
+    - src: ../../assets/logos/jimmy.png
   - name: Microreactors
     names:
     - Antares
@@ -284,9 +284,9 @@ ed168p:
     pct: 20% of total
     w: 40.8
     logos:
-    - src: ../../assets/logos/lib/antares.png
-    - src: ../../assets/logos/lib/radiant.png
-    - src: ../../assets/logos/lib/deep-fission.png
+    - src: ../../assets/logos/antares.png
+    - src: ../../assets/logos/radiant--symbol.png
+    - src: ../../assets/logos/deep-fission.png
   - name: Light-water SMRs
     names:
     - Blue Energy
@@ -295,9 +295,9 @@ ed168p:
     pct: 14% of total
     w: 27.9
     logos:
-    - src: ../../assets/logos/lib/blue-energy.png
-    - src: ../../assets/logos/lib/last-energy.png
-    - src: ../../assets/logos/lib/bluecore-energy.png
+    - src: ../../assets/logos/blue-energy.png
+    - src: ../../assets/logos/last-energy--symbol.png
+    - src: ../../assets/logos/bluecore-energy.png
   - name: Molten salt reactors
     names:
     - Kairos Power
@@ -305,7 +305,7 @@ ed168p:
     pct: 8% of total
     w: 17.5
     logos:
-    - src: ../../assets/logos/lib/kairos-power.png
+    - src: ../../assets/logos/kairos-power--symbol.png
   - name: Nuclear fuel
     names:
     - Standard Nuclear
@@ -314,9 +314,9 @@ ed168p:
     pct: 6% of total
     w: 12.5
     logos:
-    - src: ../../assets/logos/lib/standard-nuclear.png
-    - src: ../../assets/logos/lib/project-omega.png
-    - src: ../../assets/logos/lib/lis-technologies.png
+    - src: ../../assets/logos/standard-nuclear.png
+    - src: ../../assets/logos/project-omega.png
+    - src: ../../assets/logos/lis-technologies.png
   - name: Lead-cooled reactors
     names:
     - newcleo
@@ -325,12 +325,12 @@ ed168p:
     pct: 3% of total
     w: 6.9
     logos:
-    - src: ../../assets/logos/lib/newcleo.png
-    - src: ../../assets/logos/lib/blykalla.png
+    - src: ../../assets/logos/newcleo.png
+    - src: ../../assets/logos/blykalla.png
     - src: ../../assets/logos/first-american-nuclear.png
   - logos:
     - src: ../../assets/logos/otrera.png
-    - src: ../../assets/logos/lib/hexana.png
+    - src: ../../assets/logos/hexana.png
     - src: ../../assets/logos/emerald-horizon.png
     name: Other designs
     names:

@@ -140,11 +140,10 @@ def fetch_logo(domain, slug):
     except Exception: return False
     if im.width < 96: return False
     bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im)
-    bg.convert('RGB').save(ROOT / 'assets/logos' / f'{slug}.png'); print('logo fetched from favicon:', slug, domain)
+    (ROOT / 'assets/logos/fav').mkdir(parents=True, exist_ok=True); bg.convert('RGB').save(ROOT / 'assets/logos/fav' / f'{slug}.png'); print('logo fetched from favicon:', slug, domain)
     return True
 
 
-LIBS = [Path('/home/claude/nmp-pages/nmp-funding/logos'), Path('/home/claude/nmp-product-pages/w/logos_all')]
 MARKET = ''
 
 
@@ -166,43 +165,24 @@ def base_site(name):
     return _SITES.get(name.lower(), '')
 
 
-def lib_logo(cands):
-    """Pierre's logo libraries (repos nmp-pages and nmp-product-pages): square tiles first, wide wordmarks refused"""
-    import shutil
-    from PIL import Image
-    for c in cands:
-        if not c: continue
-        keys = [c, c.replace('-', '')]
-        for lib in LIBS:
-            if not lib.exists(): continue
-            pats = [f'*/tile/{k}.png' for k in keys] + [f'*/fav/{k}.png' for k in keys] if 'funding' in str(lib) else [f'{MARKET}__{k}.png' for k in keys] + [f'{k}.png' for k in keys] + [f'*__{k}.png' for k in keys]
-            for pat in pats:
-                for f in sorted(lib.glob(pat)):
-                    w, h = Image.open(f).size
-                    im = Image.open(f).convert('RGBA'); bg = Image.new('RGBA', im.size, (255, 255, 255, 255)); bg.alpha_composite(im)
-                    from PIL import ImageChops
-                    bb = ImageChops.difference(bg.convert('RGB'), Image.new('RGB', im.size, (255, 255, 255))).getbbox() or (0, 0, w, h)
-                    bw, bh = bb[2] - bb[0], bb[3] - bb[1]
-                    if w < 64 or max(w, h) > 2.5 * min(w, h) or bw > 2.5 * bh: continue   # wordmark: unreadable in a square tile
-                    out = ROOT / 'assets/logos/lib' / f'{c}.png'; out.parent.mkdir(parents=True, exist_ok=True)
-                    shutil.copy(f, out); return f'../../assets/logos/lib/{c}.png'
-    return None
-
-
-NL = Path('/home/claude/nmp-logos')
+import os as _os
+NL = Path(_os.environ.get('NMP_LOGOS') or ROOT.parent / 'nmp-logos')     # githpierre/nmp-logos, cloned next to nmp-decks (LOGOS.md)
 def nmp_logo(name, domain=''):
-    """nmp-logos lookup (find_logo.logo): copies the file into assets/logos/nl/<id>.png, the public copy the decks load."""
-    if not (NL / 'find_logo.py').exists(): return None
+    """nmp-logos lookup (find_logo.logo) -> copy into assets/logos/<id>.png (or <id>--symbol.png), the public copy the decks load.
+    Same file names as nmp-logos/tools/decks_sync.py: a later sync sees it as already migrated."""
+    if not (NL / 'find_logo.py').exists():
+        print('nmp-logos not found: clone githpierre/nmp-logos next to nmp-decks or set NMP_LOGOS'); return None
     import sys as _s, shutil
     if str(NL) not in _s.path: _s.path.insert(0, str(NL))
     try:
         from find_logo import logo as _fl
-        p = _fl(name, domain=domain or None, symbol=True) if domain else _fl(name, symbol=True)   # deck logos sit in square tiles: the --symbol file when the full logo is a wide wordmark (Function Health unreadable on Longevity, 18 Nov 2026)
-    except Exception: return None
+        p = _fl(name, domain=domain or None, symbol=True)   # deck logos sit in square tiles: the --symbol file when the full logo is a wide wordmark (Function Health unreadable on Longevity, 18 Nov 2026)
+    except Exception as e:
+        print('find_logo:', e); return None
     if not p: return None
-    p = Path(p); dst = ROOT / 'assets/logos/nl' / p.name; dst.parent.mkdir(parents=True, exist_ok=True)
-    if not dst.exists() or dst.stat().st_size != p.stat().st_size: shutil.copy(p, dst)
-    return f'../../assets/logos/nl/{p.name}'
+    p = Path(p); dst = ROOT / 'assets/logos' / p.name
+    if not dst.exists() or dst.read_bytes() != p.read_bytes(): shutil.copy(p, dst)
+    return f'../../assets/logos/{p.name}'
 
 def logo(name, deck_rel=True):
     """company name -> logo path seen from deck.html: assets/logos (and pp/), else a generated initials tile (listed as missing)"""
@@ -217,11 +197,11 @@ def logo(name, deck_rel=True):
     if nl: return nl
     for c in cands:
         if (ROOT / 'assets/logos' / f'{c}.png').exists(): return f'../../assets/logos/{c}.png'
-    hit = lib_logo(cands)
-    if hit: return hit
+    # (no more lookups in nmp-pages / nmp-product-pages: their logo folders are frozen, 18 Nov 2026, nmp-logos/LOGOS.md)
     for c in cands:
         if (ROOT / 'assets/logos/pp' / f'{c}.png').exists(): return f'../../assets/logos/pp/{c}.png'
-    if domain and fetch_logo(domain, base): return f'../../assets/logos/{base}.png'
+    if domain and fetch_logo(domain, base):      # favicon: a stopgap in assets/logos/fav/, to add to nmp-logos (add_logo.py), then decks_sync.py
+        print(f'  favicon used for {name} ({domain}): add it to nmp-logos with add_logo.py'); return f'../../assets/logos/fav/{base}.png'
     MISSING.add(name)
     from PIL import Image, ImageDraw, ImageFont
     ini = ''.join(w[0] for w in re.findall(r'[A-Za-z0-9]+', name)[:2]).upper() or '?'

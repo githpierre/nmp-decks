@@ -12,28 +12,28 @@ slides:
   - Distance to the center reflects how central each company is to prediction markets
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/kalshi.png
-  - ../../assets/logos/pp/polymarket.png
-  - ../../assets/logos/pp/predictit.png
-  - ../../assets/logos/pp/limitless.png
-  - ../../assets/logos/pp/opinion.png
-  - ../../assets/logos/pp/myriad.png
-  - ../../assets/logos/pp/novig.png
-  - ../../assets/logos/pp/manifold.png
+  - ../../assets/logos/kalshi.png
+  - ../../assets/logos/polymarket.png
+  - ../../assets/logos/predictit.png
+  - ../../assets/logos/limitless-exchange.png
+  - ../../assets/logos/opinion-labs.png
+  - ../../assets/logos/myriad.png
+  - ../../assets/logos/novig.png
+  - ../../assets/logos/manifold-security.png
   TL:
-    src: ../../assets/logos/pp/draftkings.png
+    src: ../../assets/logos/draftkings.png
     name: DraftKings
     text: draftKings is a sportsbook with house priced bets, not a general event contract market where users trade contracts
   TR:
-    src: ../../assets/logos/pp/morning-consult.png
+    src: ../../assets/logos/morning-consult.png
     name: Morning Consult
     text: morning Consult measures opinions through polling and surveys, not through tradable contracts tied to future outcomes
   BL:
-    src: ../../assets/logos/pp/crypto-com.png
+    src: ../../assets/logos/crypto-com.png
     name: Crypto.com
     text: crypto.com offers event contracts in some markets, while most of its business remains crypto trading and payments
   BR:
-    src: ../../assets/logos/pp/robinhood.png
+    src: ../../assets/logos/robinhood.png
     name: Robinhood
     text: robinhood distributes event contracts inside a broad brokerage, so prediction markets are only one product line
 - label: PREDICTION MARKETS
@@ -57,28 +57,28 @@ slides:
   - name: Political Markets
     p: 28
     logos:
-    - ../../assets/logos/pp/kalshi.png
-    - ../../assets/logos/pp/polymarket.png
+    - ../../assets/logos/kalshi.png
+    - ../../assets/logos/polymarket.png
   - name: Sports Markets
     p: 26
     logos:
-    - ../../assets/logos/pp/kalshi.png
-    - ../../assets/logos/pp/crypto-com.png
+    - ../../assets/logos/kalshi.png
+    - ../../assets/logos/crypto-com.png
   - name: Economic Markets
     p: 18
     logos:
-    - ../../assets/logos/pp/kalshi.png
-    - ../../assets/logos/pp/forecastex.png
+    - ../../assets/logos/kalshi.png
+    - ../../assets/logos/forecastex.png
   - name: Crypto Markets
     p: 16
     logos:
-    - ../../assets/logos/pp/polymarket.png
-    - ../../assets/logos/pp/coinbase.png
+    - ../../assets/logos/polymarket.png
+    - ../../assets/logos/coinbase.png
   - name: Culture and Tech
     p: 12
     logos:
-    - ../../assets/logos/pp/polymarket.png
-    - ../../assets/logos/pp/kalshi.png
+    - ../../assets/logos/polymarket.png
+    - ../../assets/logos/kalshi.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -143,15 +143,15 @@ slides:
     can already do the most today?'
   companies:
   - name: Kalshi
-    src: ../../assets/logos/pp/kalshi.png
+    src: ../../assets/logos/kalshi.png
   - name: Polymarket
-    src: ../../assets/logos/pp/polymarket.png
+    src: ../../assets/logos/polymarket.png
   - name: Robinhood
-    src: ../../assets/logos/pp/robinhood.png
+    src: ../../assets/logos/robinhood.png
   - name: Coinbase
-    src: ../../assets/logos/pp/coinbase.png
+    src: ../../assets/logos/coinbase.png
   - name: ForecastEx
-    src: ../../assets/logos/pp/forecastex.png
+    src: ../../assets/logos/forecastex.png
   features:
   - header: Politics|markets
     values:
@@ -223,25 +223,25 @@ slides:
     x: 0.2
     y: 0.25
     logos:
-    - src: ../../assets/logos/pp/kalshi.png
-    - src: ../../assets/logos/pp/robinhood.png
+    - src: ../../assets/logos/kalshi.png
+    - src: ../../assets/logos/robinhood.png
   - name: Exchange fee share
     x: 0.45
     y: 0.45
     logos:
-    - src: ../../assets/logos/pp/forecastex.png
-    - src: ../../assets/logos/pp/crypto-com.png
+    - src: ../../assets/logos/forecastex.png
+    - src: ../../assets/logos/crypto-com.png
   - name: Market maker spread
     x: 0.3
     y: 0.82
     logos:
-    - src: ../../assets/logos/pp/susquehanna.png
+    - src: ../../assets/logos/susquehanna.png
   - name: Distribution economics
     x: 0.82
     y: 0.3
     logos:
-    - src: ../../assets/logos/pp/robinhood.png
-    - src: ../../assets/logos/pp/coinbase.png
+    - src: ../../assets/logos/robinhood.png
+    - src: ../../assets/logos/coinbase.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -384,32 +384,32 @@ slides:
   rounds:
   - name: Kalshi
     amt: 1000000000.0
-    src: ../../assets/logos/pp/kalshi.png
+    src: ../../assets/logos/kalshi.png
     stage: Late stage
     date: Nov 2025
   - name: Polymarket
     amt: 1000000000.0
-    src: ../../assets/logos/pp/polymarket.png
+    src: ../../assets/logos/polymarket.png
     stage: Strategic
     date: Oct 2025
   - name: Novig
     amt: 75000000.0
-    src: ../../assets/logos/pp/novig.png
+    src: ../../assets/logos/novig.png
     stage: Series B
     date: Feb 2026
   - name: ProphetX
     amt: 35000000.0
-    src: ../../assets/logos/pp/prophetx.png
+    src: ../../assets/logos/prophetx.png
     stage: Round
     date: Jul 2026
   - name: ORNN Compute
     amt: 33000000.0
-    src: ../../assets/logos/pp/ornn-compute.png
+    src: ../../assets/logos/ornn-compute.png
     stage: Seed
     date: Jun 2026
   - name: Onyx Odds
     amt: 20000000.0
-    src: ../../assets/logos/pp/onyx-odds.png
+    src: ../../assets/logos/onyx-odds.png
     stage: Series A
     date: Jun 2026
   note:
@@ -470,24 +470,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Robinhood, DraftKings, with all the sources at the end of the report
   srcs:
-    kalshi: ../../assets/logos/pp/kalshi.png
-    novig: ../../assets/logos/pp/novig.png
-    predictit: ../../assets/logos/pp/predictit.png
-    forecastex: ../../assets/logos/pp/forecastex.png
-    railbird: ../../assets/logos/pp/railbird.png
+    kalshi: ../../assets/logos/kalshi.png
+    novig: ../../assets/logos/novig.png
+    predictit: ../../assets/logos/predictit.png
+    forecastex: ../../assets/logos/forecastex.png
+    railbird: ../../assets/logos/railbird.png
     pascal: ''
-    polymarket: ../../assets/logos/pp/polymarket.png
-    limitless: ../../assets/logos/pp/limitless.png
-    opinion: ../../assets/logos/pp/opinion.png
-    myriad: ../../assets/logos/pp/myriad.png
-    probable: ../../assets/logos/pp/probable.png
-    predict-fun: ../../assets/logos/pp/predict-fun.png
-    manifold: ../../assets/logos/pp/manifold.png
-    metaculus: ../../assets/logos/pp/metaculus.png
-    azuro: ../../assets/logos/pp/azuro.png
-    zeitgeist: ../../assets/logos/pp/zeitgeist.png
+    polymarket: ../../assets/logos/polymarket.png
+    limitless: ../../assets/logos/limitless-exchange.png
+    opinion: ../../assets/logos/opinion-labs.png
+    myriad: ../../assets/logos/myriad.png
+    probable: ../../assets/logos/probable.png
+    predict-fun: ../../assets/logos/predict-fun.png
+    manifold: ../../assets/logos/manifold-security.png
+    metaculus: ../../assets/logos/metaculus.png
+    azuro: ../../assets/logos/azuro.png
+    zeitgeist: ../../assets/logos/zeitgeist.png
     furnace: ''
-    bayes-market: ../../assets/logos/pp/bayes-market.png
+    bayes-market: ../../assets/logos/bayesmarket.png
 - label: PREDICTION MARKETS
   type: pp_killers
   mode: dead
@@ -517,7 +517,7 @@ slides:
     causes:
     - 0
     - 1
-    src: ../../assets/logos/pp/forecast.png
+    src: ../../assets/logos/forecast.png
     ini: F
   - name: Trepa
     slug: trepa
@@ -528,7 +528,7 @@ slides:
     causes:
     - 1
     - 0
-    src: ../../assets/logos/pp/trepa.png
+    src: ../../assets/logos/trepa.png
     ini: T
   - name: Fireplace
     slug: fireplace
@@ -539,7 +539,7 @@ slides:
     causes:
     - 0
     - 1
-    src: ../../assets/logos/pp/fireplace.png
+    src: ../../assets/logos/fireplace.png
     ini: F
   - name: Replication
     slug: replication
@@ -550,7 +550,7 @@ slides:
     causes:
     - 1
     - 0
-    src: ../../assets/logos/pp/replication.png
+    src: ../../assets/logos/replicationmarkets.png
     ini: R
   note:
   - We tracked the prediction market startups that shut down, went bankrupt or were sold for little
@@ -574,7 +574,7 @@ slides:
     website: https://www.facebook.com
     why_it_failed: Experiment was easy to sunset
     slug: forecast
-    src: ../../assets/logos/pp/forecast.png
+    src: ../../assets/logos/forecast.png
     ini: F
   - lesson: Build deep liquidity
     explanation: Polymarket compounds trader depth
@@ -582,7 +582,7 @@ slides:
     website: https://trepa.xyz
     why_it_failed: Usage did not sustain
     slug: trepa
-    src: ../../assets/logos/pp/trepa.png
+    src: ../../assets/logos/trepa.png
     ini: T
   - lesson: Own distribution
     explanation: Robinhood distributes event contracts
@@ -590,7 +590,7 @@ slides:
     website: https://fireplace.gg
     why_it_failed: Overlay had little moat
     slug: fireplace
-    src: ../../assets/logos/pp/fireplace.png
+    src: ../../assets/logos/fireplace.png
     ini: F
   - lesson: Cover many topics
     explanation: Kalshi spans macro, sports and more
@@ -598,7 +598,7 @@ slides:
     website: https://replicationmarkets.com
     why_it_failed: Program ended with funding
     slug: replication
-    src: ../../assets/logos/pp/replication.png
+    src: ../../assets/logos/replicationmarkets.png
     ini: R
   note:
   - We compared prediction market companies that failed or hit a major setback with the ones that survived

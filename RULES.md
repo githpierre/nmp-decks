@@ -53,9 +53,10 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - No big pink numbers on navy (white). Never white and sand mixed in one text. Second bar color: light blue #7FA9C9, navy text on it.
 - Pink pill only on Market opportunity extra slides (« SIGNAL »). MARKET MAP pill only on the product page.
 - Every emoji has a line icon in tools/atelier2/icons.py. CHECK EMOJI_UNMAPPED, EMOJI_MIX.
-- Logos: white rounded tile, logo at 66 %, thin light border. Order of search (tools/import_research.py `logo()`):
-  assets/logos, then Pierre's libraries (clone githpierre/nmp-pages `nmp-funding/logos/*/tile|fav` and
-  githpierre/nmp-product-pages `w/logos_all`, market-prefixed first), then assets/logos/pp, then the site favicon.
+- Logos: white rounded tile, logo at 66 %, thin light border. The only logo library is githpierre/nmp-logos (cloned next to
+  nmp-decks, read its `LOGOS.md`). `assets/logos/` is a generated copy (`<id>.png`, `<id>--symbol.png`, `ini/`, `pp_live/`):
+  never add a logo there by hand, add it to nmp-logos (`add_logo.py`) then run `../nmp-logos/tools/decks_sync.py` and `--check`
+  (18 Nov 2026). Order in `logo()`: nmp-logos, then assets/logos, then the site favicon (to add to nmp-logos).
   Wordmarks (content wider than 2.5x its height) are refused: unreadable in a square tile. Still missing: ask Pierre in one
   list; initials meanwhile. Decoration images (assets/deco) are never logos.
 - Short date labels of timelines in capitals (« EARLY 2024 », « TODAY »). CHECK DATE_CASE.

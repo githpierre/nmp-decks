@@ -895,28 +895,28 @@ slides:
   - name: mRNA-LNP CAR-T
     p: 35
     logos:
-    - ../../assets/logos/pp/interius.png
-    - ../../assets/logos/pp/sana.png
+    - ../../assets/logos/interius.png
+    - ../../assets/logos/sana.png
   - name: Beyond T cells
     p: 22
     logos:
-    - ../../assets/logos/pp/abbvie.png
-    - ../../assets/logos/pp/astrazeneca.png
+    - ../../assets/logos/abbvie.png
+    - ../../assets/logos/astrazeneca.png
   - name: Lentiviral CAR-T
     p: 20
     logos:
-    - ../../assets/logos/pp/gilead-kite.png
-    - ../../assets/logos/pp/bristol-myers-squibb.png
+    - ../../assets/logos/gilead-sciences.png
+    - ../../assets/logos/bristol-myers-squibb--symbol.png
   - name: Gene-editing CAR-T
     p: 14
     logos:
-    - ../../assets/logos/pp/novartis.png
-    - ../../assets/logos/pp/kite.png
+    - ../../assets/logos/novartis.png
+    - ../../assets/logos/kite.png
   - name: Other spending
     p: 9
     logos:
-    - ../../assets/logos/pp/legend-biotech.png
-    - ../../assets/logos/pp/autolus.png
+    - ../../assets/logos/legend-biotech.png
+    - ../../assets/logos/autolus-therapeutics.png
   note:
   - We split the total using the end-user shares of Grand View and Fortune Business Insights
   - We then rounded every category so that all of them still add up to the same $192 billion
@@ -2249,17 +2249,17 @@ slides:
     can already do the most today?'
   companies:
   - name: Capstan
-    src: ../../assets/logos/pp/arcellx.png
+    src: ../../assets/logos/arcellx.png
   - name: Sana
-    src: ../../assets/logos/pp/allogene.png
+    src: ../../assets/logos/allogene-therapeutics.png
   - name: EsoBiotec
-    src: ../../assets/logos/pp/cellectis.png
+    src: ../../assets/logos/cellectis.png
   - name: Interius
-    src: ../../assets/logos/pp/crispr-therapeutics.png
+    src: ../../assets/logos/crispr-therapeutics.png
   - name: Umoja
-    src: ../../assets/logos/pp/beam.png
+    src: ../../assets/logos/beam.png
   - name: Kelonia
-    src: ../../assets/logos/pp/bristol-myers-squibb.png
+    src: ../../assets/logos/bristol-myers-squibb--symbol.png
   features:
   - header: AI|therapy
     values:
@@ -2465,24 +2465,24 @@ slides:
     x: 0.23
     y: 0.69
     logos:
-    - src: ../../assets/logos/pp/crispr-therapeutics.png
-    - src: ../../assets/logos/pp/bristol-myers-squibb.png
+    - src: ../../assets/logos/crispr-therapeutics.png
+    - src: ../../assets/logos/bristol-myers-squibb--symbol.png
   - name: Paid by payers
     x: 0.77
     y: 0.9
     logos:
-    - src: ../../assets/logos/pp/allogene.png
+    - src: ../../assets/logos/allogene-therapeutics.png
   - name: Paid cell therapy doses
     x: 0.46
     y: 0.35
     logos:
-    - src: ../../assets/logos/pp/moderna.png
+    - src: ../../assets/logos/moderna.png
   - name: Monthly subscription
     x: 0.77
     y: 0.32
     logos:
-    - src: ../../assets/logos/pp/arcellx.png
-    - src: ../../assets/logos/pp/cellectis.png
+    - src: ../../assets/logos/arcellx.png
+    - src: ../../assets/logos/cellectis.png
   note:
   - We placed each company by how its business model works, from pricing pages, company reports and filings
   - Positions are our own reading of each model, and all the sources are included at the end of the report
@@ -3784,22 +3784,22 @@ slides:
   rounds:
   - name: Ensoma
     amt: 150000000.0
-    src: ../../assets/logos/pp/novartis.png
+    src: ../../assets/logos/novartis.png
     stage: Series D
     date: Q1 2026
   - name: Sail Bio
     amt: 100000000.0
-    src: ../../assets/logos/pp/lilly.png
+    src: ../../assets/logos/eli-lilly-and-company.png
     stage: Series A
     date: Q3 2026
   - name: Create Medicines
     amt: 40000000.0
-    src: ../../assets/logos/pp/regeneron.png
+    src: ../../assets/logos/regeneron-pharmaceuticals.png
     stage: Series B
     date: Q4 2025
   - name: Immorna
     amt: 30000000.0
-    src: ../../assets/logos/pp/pfizer.png
+    src: ../../assets/logos/pfizer-ventures.png
     stage: Series A
     date: Q1 2026
   note:
@@ -3904,7 +3904,7 @@ slides:
     logos:
     - src: ../../assets/logos/ensoma.png
     - src: ../../assets/logos/thunderbiotech.png
-    - src: ../../assets/logos/pp/interius.png
+    - src: ../../assets/logos/interius.png
   - name: Lentiviral CAR-T
     names:
     - Ocugen
@@ -3913,9 +3913,9 @@ slides:
     pct: 5% of total
     w: 14.0
     logos:
-    - src: ../../assets/logos/pp/sana.png
-    - src: ../../assets/logos/pp/abbvie.png
-    - src: ../../assets/logos/pp/astrazeneca.png
+    - src: ../../assets/logos/sana.png
+    - src: ../../assets/logos/abbvie.png
+    - src: ../../assets/logos/astrazeneca.png
   - name: Other approaches
     names:
     - Ed.ai
@@ -3924,8 +3924,8 @@ slides:
     pct: 3% of total
     w: 7.6
     logos:
-    - src: ../../assets/logos/pp/legend-biotech.png
-    - src: ../../assets/logos/pp/autolus.png
+    - src: ../../assets/logos/legend-biotech.png
+    - src: ../../assets/logos/autolus-therapeutics.png
   - name: Manufacturing tools
     names:
     - BRUM Patenti
@@ -4013,24 +4013,24 @@ slides:
   - We placed private players by their main customer and their stage, from funding news, revenue and reach
   - We left out big tech, listed firms like Capstan and buyouts like Bristol Myers Squibb, with sources at the end of the report
   srcs:
-    classdojo: ../../assets/logos/pp/gilead-kite.png
-    newsela: ../../assets/logos/pp/bristol-myers-squibb.png
-    magicschool: ../../assets/logos/pp/interius.png
-    amira: ../../assets/logos/pp/novartis.png
-    teachy: ../../assets/logos/pp/kite.png
-    brisk: ../../assets/logos/pp/legend-biotech.png
-    preply: ../../assets/logos/pp/novartis.png
-    gostudent: ../../assets/logos/pp/autolus.png
-    knowunity: ../../assets/logos/pp/arcellx.png
-    speakx: ../../assets/logos/pp/allogene.png
-    sigiq: ../../assets/logos/pp/cellectis.png
-    oboe: ../../assets/logos/pp/crispr-therapeutics.png
-    multiverse: ../../assets/logos/pp/abbvie.png
-    guild: ../../assets/logos/pp/beam.png
-    yoodli: ../../assets/logos/pp/regeneron.png
-    stepful: ../../assets/logos/pp/moderna.png
-    fullyramped: ../../assets/logos/pp/biontech.png
-    secondnature: ../../assets/logos/pp/lilly.png
+    classdojo: ../../assets/logos/gilead-sciences.png
+    newsela: ../../assets/logos/bristol-myers-squibb--symbol.png
+    magicschool: ../../assets/logos/interius.png
+    amira: ../../assets/logos/novartis.png
+    teachy: ../../assets/logos/kite.png
+    brisk: ../../assets/logos/legend-biotech.png
+    preply: ../../assets/logos/novartis.png
+    gostudent: ../../assets/logos/autolus-therapeutics.png
+    knowunity: ../../assets/logos/arcellx.png
+    speakx: ../../assets/logos/allogene-therapeutics.png
+    sigiq: ../../assets/logos/cellectis.png
+    oboe: ../../assets/logos/crispr-therapeutics.png
+    multiverse: ../../assets/logos/abbvie.png
+    guild: ../../assets/logos/beam.png
+    yoodli: ../../assets/logos/regeneron-pharmaceuticals.png
+    stepful: ../../assets/logos/moderna.png
+    fullyramped: ../../assets/logos/biontech.png
+    secondnature: ../../assets/logos/eli-lilly-and-company.png
   weight: {}
   tag: DEMO DATA
 - id: ed172
@@ -4512,7 +4512,7 @@ slides:
   - name: Exuma
     slug: chegg
     domain: chegg.com
-    src: ../../assets/logos/pp/regeneron.png
+    src: ../../assets/logos/regeneron-pharmaceuticals.png
     ini: C
     cells:
     - 45% of|staff 2025
@@ -4523,7 +4523,7 @@ slides:
   - name: Carisma
     slug: byjus
     domain: byjus.com
-    src: ../../assets/logos/pp/pfizer.png
+    src: ../../assets/logos/pfizer-ventures.png
     ini: B
     cells:
     - ''
@@ -4545,7 +4545,7 @@ slides:
   - name: Umoja
     slug: udemy
     domain: udemy.com
-    src: ../../assets/logos/pp/beam.png
+    src: ../../assets/logos/beam.png
     ini: U
     cells:
     - ''
@@ -4556,7 +4556,7 @@ slides:
   - name: Interius
     slug: coursera
     domain: coursera.org
-    src: ../../assets/logos/pp/crispr-therapeutics.png
+    src: ../../assets/logos/crispr-therapeutics.png
     ini: C
     cells:
     - Job cuts|after merger
@@ -4818,7 +4818,7 @@ slides:
   - short: Orna
     src: ../../assets/logos/thunderbiotech.png
   - short: Vyriad
-    src: ../../assets/logos/pp/interius.png
+    src: ../../assets/logos/interius.png
   criteria:
   - name: 140M+ monthly patients
     why: Biggest free patient funnel
@@ -4958,7 +4958,7 @@ slides:
     millions of oncologists'
   left: A REGULAR HOSPITAL VENDOR
   right: TESSERA
-  logo: magicschool
+  logo: magicschool-ai
   rows:
   - - They are founded by software sellers far from clinics
     - They were founded by a former principal who knew oncologists

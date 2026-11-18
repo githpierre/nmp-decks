@@ -17,28 +17,28 @@ slides:
   - Distance to the center reflects how central each company is to dental AI
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/overjet.png
-  - ../../assets/logos/pp/pearl.png
-  - ../../assets/logos/pp/videahealth.png
-  - ../../assets/logos/pp/diagnocat.png
-  - ../../assets/logos/pp/denti-ai.png
-  - ../../assets/logos/pp/dentalmonitoring.png
-  - ../../assets/logos/pp/archy.png
-  - ../../assets/logos/pp/kiroku.png
+  - ../../assets/logos/overjet.png
+  - ../../assets/logos/pearl.png
+  - ../../assets/logos/videa.png
+  - ../../assets/logos/diagnocat.png
+  - ../../assets/logos/denti-ai.png
+  - ../../assets/logos/dentalmonitoring.png
+  - ../../assets/logos/archy.png
+  - ../../assets/logos/kiroku.png
   TL:
-    src: ../../assets/logos/pp/3shape.png
+    src: ../../assets/logos/3shape.png
     name: 3Shape
     text: digital scanning and CAD lead its business while AI diagnosis is an added module rather than the company core
   TR:
-    src: ../../assets/logos/pp/colgate-palmolive.png
+    src: ../../assets/logos/colgate-palmolive.png
     name: Colgate-Palmolive
     text: it sells oral care products worldwide and may use AI in R&D, but it does not sell dental AI software to clinics
   BL:
-    src: ../../assets/logos/pp/relu.png
+    src: ../../assets/logos/relu.png
     name: Relu
     text: its AI converts dental CBCT into anatomy and planning data, sitting between dental AI and broader digital planning
   BR:
-    src: ../../assets/logos/pp/dandy.png
+    src: ../../assets/logos/dandy.png
     name: Dandy
     text: its digital lab workflow now includes AI scan review, but most revenue still comes from lab services and prosthetics
 - label: DENTAL AI
@@ -62,28 +62,28 @@ slides:
   - name: Diagnostic Imaging AI
     p: 35
     logos:
-    - ../../assets/logos/pp/pearl.png
-    - ../../assets/logos/pp/overjet.png
+    - ../../assets/logos/pearl.png
+    - ../../assets/logos/overjet.png
   - name: Treatment Planning AI
     p: 20
     logos:
-    - ../../assets/logos/pp/diagnocat.png
-    - ../../assets/logos/pp/3shape.png
+    - ../../assets/logos/diagnocat.png
+    - ../../assets/logos/3shape.png
   - name: Patient Monitoring AI
     p: 15
     logos:
-    - ../../assets/logos/pp/dentalmonitoring.png
-    - ../../assets/logos/pp/align-technology.png
+    - ../../assets/logos/dentalmonitoring.png
+    - ../../assets/logos/align-technology.png
   - name: Practice Automation
     p: 15
     logos:
-    - ../../assets/logos/pp/archy.png
-    - ../../assets/logos/pp/planet-dds.png
+    - ../../assets/logos/archy.png
+    - ../../assets/logos/planet-dds.png
   - name: Claims & Revenue AI
     p: 15
     logos:
-    - ../../assets/logos/pp/overjet.png
-    - ../../assets/logos/pp/zentist.png
+    - ../../assets/logos/overjet.png
+    - ../../assets/logos/zentist.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -147,15 +147,15 @@ slides:
     the most complete tech today?'
   companies:
   - name: Pearl
-    src: ../../assets/logos/pp/pearl.png
+    src: ../../assets/logos/pearl.png
   - name: Overjet
-    src: ../../assets/logos/pp/overjet.png
+    src: ../../assets/logos/overjet.png
   - name: Videa
-    src: ../../assets/logos/pp/videa.png
+    src: ../../assets/logos/videa.png
   - name: Diagnocat
-    src: ../../assets/logos/pp/diagnocat.png
+    src: ../../assets/logos/diagnocat.png
   - name: Denti.AI
-    src: ../../assets/logos/pp/denti-ai.png
+    src: ../../assets/logos/denti-ai.png
   features:
   - header: 2D Xray|AI
     values:
@@ -227,26 +227,26 @@ slides:
     x: 0.78
     y: 0.75
     logos:
-    - src: ../../assets/logos/pp/pearl.png
-    - src: ../../assets/logos/pp/overjet.png
+    - src: ../../assets/logos/pearl.png
+    - src: ../../assets/logos/overjet.png
   - name: Enterprise site license
     x: 0.63
     y: 0.53
     logos:
-    - src: ../../assets/logos/pp/pearl.png
-    - src: ../../assets/logos/pp/archy.png
+    - src: ../../assets/logos/pearl.png
+    - src: ../../assets/logos/archy.png
   - name: Per-case monitoring fee
     x: 0.22
     y: 0.75
     logos:
-    - src: ../../assets/logos/pp/dentalmonitoring.png
-    - src: ../../assets/logos/pp/align-technology.png
+    - src: ../../assets/logos/dentalmonitoring.png
+    - src: ../../assets/logos/align-technology.png
   - name: RCM software fees
     x: 0.37
     y: 0.53
     logos:
-    - src: ../../assets/logos/pp/overjet.png
-    - src: ../../assets/logos/pp/zentist.png
+    - src: ../../assets/logos/overjet.png
+    - src: ../../assets/logos/zentist.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -387,32 +387,32 @@ slides:
   rounds:
   - name: DentalMonitoring
     amt: 100000000.0
-    src: ../../assets/logos/pp/dentalmonitoring.png
+    src: ../../assets/logos/dentalmonitoring.png
     stage: Growth Equity
     date: Feb 2026
   - name: Archy
     amt: 50000000.0
-    src: ../../assets/logos/pp/archy.png
+    src: ../../assets/logos/archy.png
     stage: Series C
     date: Sep 2026
   - name: Videa
     amt: 40000000.0
-    src: ../../assets/logos/pp/videa.png
+    src: ../../assets/logos/videa.png
     stage: Series B
     date: Jan 2025
   - name: Lassie
     amt: 35000000.0
-    src: ../../assets/logos/pp/lassie.png
+    src: ../../assets/logos/lassie.png
     stage: Series A
     date: Jun 2026
   - name: Overjet
     amt: 24562699.0
-    src: ../../assets/logos/pp/overjet.png
+    src: ../../assets/logos/overjet.png
     stage: Series C
     date: Dec 2025
   - name: Vocca
     amt: 20000000.0
-    src: ../../assets/logos/pp/vocca.png
+    src: ../../assets/logos/vocca.png
     stage: Series A
     date: Oct 2026
   note:
@@ -475,24 +475,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Excluded, Dentsply Sirona, Align Technology, with all the sources at the end of the report
   srcs:
-    overjet: ../../assets/logos/pp/overjet.png
-    pearl: ../../assets/logos/pp/pearl.png
-    videahealth: ../../assets/logos/pp/videahealth.png
-    diagnocat: ../../assets/logos/pp/diagnocat.png
-    better-diagnostics: ../../assets/logos/pp/better-diagnostics.png
+    overjet: ../../assets/logos/overjet.png
+    pearl: ../../assets/logos/pearl.png
+    videahealth: ../../assets/logos/videa.png
+    diagnocat: ../../assets/logos/diagnocat.png
+    better-diagnostics: ../../assets/logos/better-diagnostics.png
     bench7: ''
-    dentalmonitoring: ../../assets/logos/pp/dentalmonitoring.png
-    ulab-systems: ../../assets/logos/pp/ulab-systems.png
-    relu: ../../assets/logos/pp/relu.png
-    orca-dental-ai: ../../assets/logos/pp/orca-dental-ai.png
-    chohotech: ../../assets/logos/pp/chohotech.png
-    audax: ../../assets/logos/pp/audax.png
-    archy: ../../assets/logos/pp/archy.png
-    retrace: ../../assets/logos/pp/retrace.png
-    kiroku: ../../assets/logos/pp/kiroku.png
-    denti-ai: ../../assets/logos/pp/denti-ai.png
-    superdial: ../../assets/logos/pp/superdial.png
-    boomcloud-360: ../../assets/logos/pp/boomcloud-360.png
+    dentalmonitoring: ../../assets/logos/dentalmonitoring.png
+    ulab-systems: ../../assets/logos/ulab-systems.png
+    relu: ../../assets/logos/relu.png
+    orca-dental-ai: ../../assets/logos/orca-dental-ai.png
+    chohotech: ../../assets/logos/chohotech.png
+    audax: ../../assets/logos/audax.png
+    archy: ../../assets/logos/archy.png
+    retrace: ../../assets/logos/retrace-labs.png
+    kiroku: ../../assets/logos/kiroku.png
+    denti-ai: ../../assets/logos/denti-ai.png
+    superdial: ../../assets/logos/superdial.png
+    boomcloud-360: ../../assets/logos/boomcloud-360.png
 - label: DENTAL AI
   type: pp_killers
   mode: warning
@@ -506,35 +506,35 @@ slides:
     domain: overjet.com
     cells:
     - Filed IP and advertising|case against VideaHealth
-    src: ../../assets/logos/pp/overjet.png
+    src: ../../assets/logos/overjet.png
     ini: O
   - name: VideaHealth
     slug: videahealth
     domain: videa.ai
     cells:
     - Named defendant in|Overjet federal IP case
-    src: ../../assets/logos/pp/videahealth.png
+    src: ../../assets/logos/videa.png
     ini: V
   - name: DentalMonitor
     slug: dentalmonitor
     domain: dentalmonitoring.com
     cells:
     - Patent dispute with Align|reached Federal Circuit
-    src: ../../assets/logos/pp/dentalmonitor.png
+    src: ../../assets/logos/dentalmonitor.png
     ini: D
   - name: Align Tech
     slug: align-tech
     domain: aligntech.com
     cells:
     - Defended multiple Dental|Monitoring patent appeals
-    src: ../../assets/logos/pp/align-tech.png
+    src: ../../assets/logos/align-technology.png
     ini: AT
   - name: Dental Intel
     slug: dental-intel
     domain: dentalintel.com
     cells:
     - Faced privacy class action|over LocalMed portal data
-    src: ../../assets/logos/pp/dental-intel.png
+    src: ../../assets/logos/dental-intelligence.png
     ini: DI
   note:
   - We looked for warning signs among well-known dental AI companies, from layoffs to lawsuits
@@ -547,15 +547,15 @@ slides:
     in diagnostic imaging AI?'
   companies:
   - short: Overjet
-    src: ../../assets/logos/pp/overjet.png
+    src: ../../assets/logos/overjet.png
   - short: Pearl
-    src: ../../assets/logos/pp/pearl.png
+    src: ../../assets/logos/pearl.png
   - short: VideaHealth
-    src: ../../assets/logos/pp/videahealth.png
+    src: ../../assets/logos/videa.png
   - short: Diagnocat
-    src: ../../assets/logos/pp/diagnocat.png
+    src: ../../assets/logos/diagnocat.png
   - short: Denti.AI
-    src: ../../assets/logos/pp/denti-ai.png
+    src: ../../assets/logos/denti-ai.png
   criteria:
   - name: Major PMS integrations
     why: Fits existing dental workflow
@@ -618,28 +618,28 @@ slides:
   - Distance to the center reflects how central each company is to EV charging infrastructure
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/electra.png
+  - ../../assets/logos/electra.png
   - ''
-  - ../../assets/logos/pp/terawatt-infrastructure.png
-  - ../../assets/logos/pp/char-gy.png
-  - ../../assets/logos/pp/monta.png
-  - ../../assets/logos/pp/ampeco.png
-  - ../../assets/logos/pp/jolt.png
-  - ../../assets/logos/pp/myenergi.png
+  - ../../assets/logos/terawatt-infrastructure.png
+  - ../../assets/logos/char-gy.png
+  - ../../assets/logos/monta.png
+  - ../../assets/logos/ampeco.png
+  - ../../assets/logos/jolt.png
+  - ../../assets/logos/myenergi.png
   TL:
-    src: ../../assets/logos/pp/gogoro.png
+    src: ../../assets/logos/gogoro.png
     name: Gogoro
     text: runs battery swapping for electric scooters, which supplies mobility energy but is not plug-in EV charging infrastructur
   TR:
-    src: ../../assets/logos/pp/rivian.png
+    src: ../../assets/logos/rivian--symbol.png
     name: Rivian
     text: makes electric vehicles and owns some chargers, but vehicle manufacturing is its primary business rather than charging
   BL:
-    src: ../../assets/logos/pp/shell.png
+    src: ../../assets/logos/shell.png
     name: Shell
     text: owns and operates EV charging assets through a broad energy business still dominated by fuels and convenience retail
   BR:
-    src: ../../assets/logos/pp/tesla.png
+    src: ../../assets/logos/tesla.png
     name: Tesla
     text: operates a major fast-charging network, while most company revenue comes from vehicles, storage and related products
 - label: EV CHARGING NETWORKS
@@ -663,28 +663,28 @@ slides:
   - name: Home and workplace
     p: 28
     logos:
-    - ../../assets/logos/pp/wallbox.png
-    - ../../assets/logos/pp/chargepoint.png
+    - ../../assets/logos/wallbox.png
+    - ../../assets/logos/chargepoint.png
   - name: DC fast charging
     p: 27
     logos:
-    - ../../assets/logos/pp/kempower.png
-    - ../../assets/logos/pp/abb-e-mobility.png
+    - ../../assets/logos/kempower.png
+    - ../../assets/logos/abb-e-mobility.png
   - name: Charging networks
     p: 20
     logos:
-    - ../../assets/logos/pp/evgo.png
-    - ../../assets/logos/pp/chargepoint.png
+    - ../../assets/logos/evgo.png
+    - ../../assets/logos/chargepoint.png
   - name: Public AC charging
     p: 15
     logos:
-    - ../../assets/logos/pp/chargepoint.png
-    - ../../assets/logos/pp/blink-charging.png
+    - ../../assets/logos/chargepoint.png
+    - ../../assets/logos/blink-charging.png
   - name: CPMS software
     p: 10
     logos:
-    - ../../assets/logos/pp/driivz.png
-    - ../../assets/logos/pp/ampeco.png
+    - ../../assets/logos/driivz.png
+    - ../../assets/logos/ampeco.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -748,15 +748,15 @@ slides:
     players can already do the most today?'
   companies:
   - name: ChargePoint
-    src: ../../assets/logos/pp/chargepoint.png
+    src: ../../assets/logos/chargepoint.png
   - name: EVgo
-    src: ../../assets/logos/pp/evgo.png
+    src: ../../assets/logos/evgo.png
   - name: Electrify
-    src: ../../assets/logos/pp/electrify.png
+    src: ../../assets/logos/electrifyam.png
   - name: Tesla
-    src: ../../assets/logos/pp/tesla.png
+    src: ../../assets/logos/tesla.png
   - name: Blink
-    src: ../../assets/logos/pp/blink.png
+    src: ../../assets/logos/blink.png
   features:
   - header: Level 2|AC
     values:
@@ -828,26 +828,26 @@ slides:
     x: 0.78
     y: 0.25
     logos:
-    - src: ../../assets/logos/pp/wallbox.png
-    - src: ../../assets/logos/pp/kempower.png
+    - src: ../../assets/logos/wallbox.png
+    - src: ../../assets/logos/kempower.png
   - name: Network subscription
     x: 0.78
     y: 0.75
     logos:
-    - src: ../../assets/logos/pp/chargepoint.png
-    - src: ../../assets/logos/pp/ampeco.png
+    - src: ../../assets/logos/chargepoint.png
+    - src: ../../assets/logos/ampeco.png
   - name: Charging session revenue
     x: 0.63
     y: 0.53
     logos:
-    - src: ../../assets/logos/pp/evgo.png
-    - src: ../../assets/logos/pp/chargepoint.png
+    - src: ../../assets/logos/evgo.png
+    - src: ../../assets/logos/chargepoint.png
   - name: Install and service
     x: 0.48
     y: 0.69
     logos:
-    - src: ../../assets/logos/pp/abb-e-mobility.png
-    - src: ../../assets/logos/pp/blink-charging.png
+    - src: ../../assets/logos/abb-e-mobility.png
+    - src: ../../assets/logos/blink-charging.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -988,17 +988,17 @@ slides:
   rounds:
   - name: Spironet
     amt: 215000000.0
-    src: ../../assets/logos/pp/spironet.png
+    src: ../../assets/logos/spironet.png
     stage: Growth Equity
     date: Jun 2026
   - name: GRIDSERVE
     amt: 128000000.0
-    src: ../../assets/logos/pp/gridserve.png
+    src: ../../assets/logos/gridserve.png
     stage: Growth Equity
     date: Jul 2025
   - name: WAAT
     amt: 117000000.0
-    src: ../../assets/logos/pp/waat.png
+    src: ../../assets/logos/waat.png
     stage: Growth Equity
     date: Sep 2025
   - name: Connected Kerb
@@ -1008,12 +1008,12 @@ slides:
     date: Jan 2025
   - name: Qwello
     amt: 63800000.0
-    src: ../../assets/logos/pp/qwello.png
+    src: ../../assets/logos/qwello.png
     stage: Growth Equity
     date: Oct 2026
   - name: AMPECO
     amt: 26000000.0
-    src: ../../assets/logos/pp/ampeco.png
+    src: ../../assets/logos/ampeco.png
     stage: Series B
     date: Nov 2024
   note:
@@ -1076,24 +1076,24 @@ slides:
   - We placed private pure players by their main product and their stage, from funding news, company websites and the press
   - We left out listed companies and incumbents like Excluded, ChargePoint, EVgo, with all the sources at the end of the report
   srcs:
-    electra: ../../assets/logos/pp/electra.png
-    instavolt: ../../assets/logos/pp/instavolt.png
-    jolt: ../../assets/logos/pp/jolt.png
-    zunder: ../../assets/logos/pp/zunder.png
-    atlante: ../../assets/logos/pp/atlante.png
-    ekoenergetyka: ../../assets/logos/pp/ekoenergetyka.png
+    electra: ../../assets/logos/electra.png
+    instavolt: ../../assets/logos/instavolt.png
+    jolt: ../../assets/logos/jolt.png
+    zunder: ../../assets/logos/zunder.png
+    atlante: ../../assets/logos/atlante.png
+    ekoenergetyka: ../../assets/logos/ekoenergetyka.png
     connected-kerb: ''
-    char-gy: ../../assets/logos/pp/char-gy.png
-    myenergi: ../../assets/logos/pp/myenergi.png
-    ohme: ../../assets/logos/pp/ohme.png
-    kerbo-charge: ../../assets/logos/pp/kerbo-charge.png
-    rightcharge: ../../assets/logos/pp/rightcharge.png
-    terawatt-infrastructure: ../../assets/logos/pp/terawatt-infrastructure.png
-    monta: ../../assets/logos/pp/monta.png
-    ampeco: ../../assets/logos/pp/ampeco.png
-    ev-energy: ../../assets/logos/pp/ev-energy.png
-    volteras: ../../assets/logos/pp/volteras.png
-    stable-auto: ../../assets/logos/pp/stable-auto.png
+    char-gy: ../../assets/logos/char-gy.png
+    myenergi: ../../assets/logos/myenergi.png
+    ohme: ../../assets/logos/ohme.png
+    kerbo-charge: ../../assets/logos/kerbo-charge.png
+    rightcharge: ../../assets/logos/rightcharge.png
+    terawatt-infrastructure: ../../assets/logos/terawatt-infrastructure.png
+    monta: ../../assets/logos/monta.png
+    ampeco: ../../assets/logos/ampeco.png
+    ev-energy: ../../assets/logos/ev-energy.png
+    volteras: ../../assets/logos/volteras.png
+    stable-auto: ../../assets/logos/stable-auto.png
 - label: EV CHARGING NETWORKS
   type: pp_killers
   mode: dead
@@ -1129,7 +1129,7 @@ slides:
     - 0
     - 0
     - 1
-    src: ../../assets/logos/pp/tritium.png
+    src: ../../assets/logos/tritium.png
     ini: T
   - name: Volta
     slug: volta
@@ -1142,7 +1142,7 @@ slides:
     - 0
     - 1
     - 0
-    src: ../../assets/logos/pp/volta.png
+    src: ../../assets/logos/volta--symbol.png
     ini: V
   - name: Enel X Way NA
     slug: enel-x-way-na
@@ -1155,7 +1155,7 @@ slides:
     - 1
     - 0
     - 0
-    src: ../../assets/logos/pp/enel-x-way-na.png
+    src: ../../assets/logos/enel-x-way-na.png
     ini: EX
   - name: Charge Ent.
     slug: charge-ent
@@ -1168,7 +1168,7 @@ slides:
     - 0
     - 1
     - 0
-    src: ../../assets/logos/pp/charge-ent.png
+    src: ../../assets/logos/charge-ent.png
     ini: CE
   note:
   - We tracked the EV charging infrastructure startups that shut down, went bankrupt or were sold for little
@@ -1184,7 +1184,7 @@ slides:
     website: https://voltacharging.com/
     why_it_failed: Ad-led destination charging lacked cash
     slug: volta
-    src: ../../assets/logos/pp/volta.png
+    src: ../../assets/logos/volta--symbol.png
     ini: V
   - lesson: Standardize hardware and plug
     explanation: NACS adoption widens Tesla utilization
@@ -1192,7 +1192,7 @@ slides:
     website: https://tritiumcharging.com/
     why_it_failed: Hardware scale could not cover stress
     slug: tritium
-    src: ../../assets/logos/pp/tritium.png
+    src: ../../assets/logos/tritium.png
     ini: T
   - lesson: Monetize charging directly
     explanation: EVgo charges users for energy and service
@@ -1200,7 +1200,7 @@ slides:
     website: https://www.enelxway.com/us/en/
     why_it_failed: Software exit stranded smart features
     slug: enel-x-way-na
-    src: ../../assets/logos/pp/enel-x-way-na.png
+    src: ../../assets/logos/enel-x-way-na.png
     ini: EX
   - lesson: Keep capex per site controlled
     explanation: IONNA uses standardized fast-charge hubs
@@ -1216,7 +1216,7 @@ slides:
     website: https://charge.enterprises/
     why_it_failed: Debt-heavy roll-up hit bankruptcy
     slug: charge-ent
-    src: ../../assets/logos/pp/charge-ent.png
+    src: ../../assets/logos/charge-ent.png
     ini: CE
   note:
   - We compared EV charging infrastructure companies that failed or hit a major setback with the ones that survived
@@ -1229,15 +1229,15 @@ slides:
     in DC fast networks?'
   companies:
   - short: Tesla
-    src: ../../assets/logos/pp/tesla.png
+    src: ../../assets/logos/tesla.png
   - short: EVgo
-    src: ../../assets/logos/pp/evgo.png
+    src: ../../assets/logos/evgo.png
   - short: ChargePoint
-    src: ../../assets/logos/pp/chargepoint.png
+    src: ../../assets/logos/chargepoint.png
   - short: ElectrifyAm
-    src: ../../assets/logos/pp/electrifyam.png
+    src: ../../assets/logos/electrifyam.png
   - short: IONNA
-    src: ../../assets/logos/pp/ionna.png
+    src: ../../assets/logos/ionna.png
   criteria:
   - name: OEM access
     why: Expands addressable drivers
@@ -1276,28 +1276,28 @@ slides:
   - Distance to the center reflects how central each company is to optical interconnect
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/ayar-labs.png
-  - ../../assets/logos/pp/lightmatter.png
-  - ../../assets/logos/pp/ranovus.png
-  - ../../assets/logos/pp/xscape-photonics.png
-  - ../../assets/logos/pp/scintil-photonics.png
-  - ../../assets/logos/pp/salience-labs.png
-  - ../../assets/logos/pp/avicena.png
-  - ../../assets/logos/pp/hyperlight.png
+  - ../../assets/logos/ayar-labs.png
+  - ../../assets/logos/lightmatter.png
+  - ../../assets/logos/ranovus.png
+  - ../../assets/logos/xscape-photonics.png
+  - ../../assets/logos/scintil-photonics.png
+  - ../../assets/logos/salience-labs.png
+  - ../../assets/logos/avicena.png
+  - ../../assets/logos/hyperlight.png
   TL:
-    src: ../../assets/logos/pp/broadcom.png
+    src: ../../assets/logos/broadcom.png
     name: Broadcom
     text: broadcom sells networking and optical components, but its business extends beyond dedicated optical interconnects
   TR:
-    src: ../../assets/logos/pp/dell-technologies.png
+    src: ../../assets/logos/dell-technologies.png
     name: Dell Technologies
     text: dell builds systems that use optical links, but it does not primarily develop optical interconnect technology
   BL:
-    src: ../../assets/logos/pp/intel.png
+    src: ../../assets/logos/intel.png
     name: Intel
     text: intel develops silicon photonics and optical I/O, but most of its business remains general computing chips
   BR:
-    src: ../../assets/logos/pp/lumentum.png
+    src: ../../assets/logos/lumentum.png
     name: Lumentum
     text: lumentum supplies lasers and optical components for interconnects, but also serves telecom and industrial laser markets
 - label: OPTICAL INTERCONNECT
@@ -1321,28 +1321,28 @@ slides:
   - name: Optical Transceivers
     p: 36
     logos:
-    - ../../assets/logos/pp/coherent.png
-    - ../../assets/logos/pp/innolight.png
+    - ../../assets/logos/coherent--symbol.png
+    - ../../assets/logos/innolight.png
   - name: Cables and Components
     p: 23
     logos:
-    - ../../assets/logos/pp/amphenol.png
-    - ../../assets/logos/pp/molex.png
+    - ../../assets/logos/amphenol.png
+    - ../../assets/logos/molex.png
   - name: CPO and Optical Engines
     p: 19
     logos:
-    - ../../assets/logos/pp/broadcom.png
-    - ../../assets/logos/pp/marvell.png
+    - ../../assets/logos/broadcom.png
+    - ../../assets/logos/marvell.png
   - name: Optical IO Chiplets
     p: 12
     logos:
-    - ../../assets/logos/pp/ayar-labs.png
-    - ../../assets/logos/pp/lightmatter.png
+    - ../../assets/logos/ayar-labs.png
+    - ../../assets/logos/lightmatter.png
   - name: Optical Switches
     p: 10
     logos:
-    - ../../assets/logos/pp/google.png
-    - ../../assets/logos/pp/polatis.png
+    - ../../assets/logos/google.png
+    - ../../assets/logos/polatis.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -1406,15 +1406,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: Broadcom
-    src: ../../assets/logos/pp/broadcom.png
+    src: ../../assets/logos/broadcom.png
   - name: NVIDIA
-    src: ../../assets/logos/pp/nvidia.png
+    src: ../../assets/logos/nvidia--symbol.png
   - name: Marvell
-    src: ../../assets/logos/pp/marvell.png
+    src: ../../assets/logos/marvell.png
   - name: Intel
-    src: ../../assets/logos/pp/intel.png
+    src: ../../assets/logos/intel.png
   - name: Ayar Labs
-    src: ../../assets/logos/pp/ayar-labs.png
+    src: ../../assets/logos/ayar-labs.png
   features:
   - header: CPO|system
     values:
@@ -1486,26 +1486,26 @@ slides:
     x: 0.78
     y: 0.25
     logos:
-    - src: ../../assets/logos/pp/coherent.png
-    - src: ../../assets/logos/pp/amphenol.png
+    - src: ../../assets/logos/coherent--symbol.png
+    - src: ../../assets/logos/amphenol.png
   - name: Chip and engine sale
     x: 0.22
     y: 0.25
     logos:
-    - src: ../../assets/logos/pp/broadcom.png
-    - src: ../../assets/logos/pp/marvell.png
+    - src: ../../assets/logos/broadcom.png
+    - src: ../../assets/logos/marvell.png
   - name: IP licensing
     x: 0.22
     y: 0.75
     logos:
-    - src: ../../assets/logos/pp/ayar-labs.png
-    - src: ../../assets/logos/pp/lightmatter.png
+    - src: ../../assets/logos/ayar-labs.png
+    - src: ../../assets/logos/lightmatter.png
   - name: Custom design contracts
     x: 0.63
     y: 0.47
     logos:
-    - src: ../../assets/logos/pp/molex.png
-    - src: ../../assets/logos/pp/coherent.png
+    - src: ../../assets/logos/molex.png
+    - src: ../../assets/logos/coherent--symbol.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -1646,12 +1646,12 @@ slides:
   rounds:
   - name: Lumilens
     amt: 700000000.0
-    src: ../../assets/logos/pp/lumilens.png
+    src: ../../assets/logos/lumilens.png
     stage: Series C
     date: Aug 2026
   - name: Ayar Labs
     amt: 500000000.0
-    src: ../../assets/logos/pp/ayar-labs.png
+    src: ../../assets/logos/ayar-labs.png
     stage: Late stage
     date: Mar 2026
   - name: Celero Communications
@@ -1661,17 +1661,17 @@ slides:
     date: Sep 2026
   - name: Celestial AI
     amt: 250000000.0
-    src: ../../assets/logos/pp/celestial-ai.png
+    src: ../../assets/logos/celestial-ai.png
     stage: Series C
     date: Mar 2025
   - name: Lightelligence
     amt: 210000000.0
-    src: ../../assets/logos/pp/lightelligence.png
+    src: ../../assets/logos/lightelligence.png
     stage: Series C
     date: Sep 2025
   - name: CScale
     amt: 145000000.0
-    src: ../../assets/logos/pp/cscale.png
+    src: ../../assets/logos/cscale.png
     stage: Series C
     date: Sep 2026
   note:
@@ -1734,24 +1734,24 @@ slides:
   - We placed private pure players by main product and stage, from funding news and the press
   - We left out listed companies and incumbents, and all our sources are at the end of the report
   srcs:
-    ayar-labs: ../../assets/logos/pp/ayar-labs.png
-    lightmatter: ../../assets/logos/pp/lightmatter.png
-    xscape-photonics: ../../assets/logos/pp/xscape-photonics.png
-    avicena: ../../assets/logos/pp/avicena.png
+    ayar-labs: ../../assets/logos/ayar-labs.png
+    lightmatter: ../../assets/logos/lightmatter.png
+    xscape-photonics: ../../assets/logos/xscape-photonics.png
+    avicena: ../../assets/logos/avicena.png
     newphotonics: ''
-    lumilens: ../../assets/logos/pp/lumilens.png
-    ranovus: ../../assets/logos/pp/ranovus.png
-    scintil-photonics: ../../assets/logos/pp/scintil-photonics.png
-    hyperlight: ../../assets/logos/pp/hyperlight.png
-    quintessent: ../../assets/logos/pp/quintessent.png
-    nlm-photonics: ../../assets/logos/pp/nlm-photonics.png
-    openlight: ../../assets/logos/pp/openlight.png
-    salience-labs: ../../assets/logos/pp/salience-labs.png
-    ipronics: ../../assets/logos/pp/ipronics.png
-    neye-systems: ../../assets/logos/pp/neye-systems.png
-    lessengers: ../../assets/logos/pp/lessengers.png
-    lightspeed-photonics: ../../assets/logos/pp/lightspeed-photonics.png
-    terasignal: ../../assets/logos/pp/terasignal.png
+    lumilens: ../../assets/logos/lumilens.png
+    ranovus: ../../assets/logos/ranovus.png
+    scintil-photonics: ../../assets/logos/scintil-photonics.png
+    hyperlight: ../../assets/logos/hyperlight.png
+    quintessent: ../../assets/logos/quintessent.png
+    nlm-photonics: ../../assets/logos/nlm-photonics.png
+    openlight: ../../assets/logos/openlight--symbol.png
+    salience-labs: ../../assets/logos/salience-labs.png
+    ipronics: ../../assets/logos/ipronics.png
+    neye-systems: ../../assets/logos/neye-systems.png
+    lessengers: ../../assets/logos/lessengers.png
+    lightspeed-photonics: ../../assets/logos/lightspeed-photonics.png
+    terasignal: ../../assets/logos/terasignal.png
 - label: OPTICAL INTERCONNECT
   type: pp_killers
   mode: warning
@@ -1769,7 +1769,7 @@ slides:
     - ''
     - ''
     - Bought by|Marvell 2026
-    src: ../../assets/logos/pp/celestial-ai.png
+    src: ../../assets/logos/celestial-ai.png
     ini: CA
   - name: Ayar Labs
     slug: ayar-labs
@@ -1778,7 +1778,7 @@ slides:
     - Volume ramp|still ahead
     - Needs more|capital
     - ''
-    src: ../../assets/logos/pp/ayar-labs.png
+    src: ../../assets/logos/ayar-labs.png
     ini: AL
   - name: Lightmatter
     slug: lightmatter
@@ -1787,7 +1787,7 @@ slides:
     - Still sampling|in 2026
     - ''
     - ''
-    src: ../../assets/logos/pp/lightmatter.png
+    src: ../../assets/logos/lightmatter.png
     ini: L
   - name: Ranovus
     slug: ranovus
@@ -1796,7 +1796,7 @@ slides:
     - Ramp hangs|on Jabil
     - ''
     - ''
-    src: ../../assets/logos/pp/ranovus.png
+    src: ../../assets/logos/ranovus.png
     ini: R
   - name: POET
     slug: poet
@@ -1805,7 +1805,7 @@ slides:
     - Ramp hangs|on partners
     - Small next to|incumbents
     - ''
-    src: ../../assets/logos/pp/poet.png
+    src: ../../assets/logos/poet-technologies.png
     ini: P
   note:
   - We looked for warning signs among well-known optical interconnect companies, from layoffs to lawsuits
@@ -1818,15 +1818,15 @@ slides:
     the co-packaged optics market?'
   companies:
   - short: Ayar Labs
-    src: ../../assets/logos/pp/ayar-labs.png
+    src: ../../assets/logos/ayar-labs.png
   - short: Lightmatter
-    src: ../../assets/logos/pp/lightmatter.png
+    src: ../../assets/logos/lightmatter.png
   - short: Ranovus
-    src: ../../assets/logos/pp/ranovus.png
+    src: ../../assets/logos/ranovus.png
   - short: POET
-    src: ../../assets/logos/pp/poet.png
+    src: ../../assets/logos/poet-technologies.png
   - short: Marvell
-    src: ../../assets/logos/pp/marvell.png
+    src: ../../assets/logos/marvell.png
   criteria:
   - name: External light source
     why: Improves system design
@@ -1857,28 +1857,28 @@ slides:
   - Distance to the center reflects how central each company is to autonomous trucking
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/gatik.png
-  - ../../assets/logos/pp/waabi.png
-  - ../../assets/logos/pp/aurora.png
-  - ../../assets/logos/pp/inceptio-technology.png
-  - ../../assets/logos/pp/plusai.png
-  - ../../assets/logos/pp/kodiak-ai.png
-  - ../../assets/logos/pp/bot-auto.png
+  - ../../assets/logos/gatik.png
+  - ../../assets/logos/waabi.png
+  - ../../assets/logos/aurora-therapeutics.png
+  - ../../assets/logos/inceptio-technology.png
+  - ../../assets/logos/plusai.png
+  - ../../assets/logos/kodiak-ai.png
+  - ../../assets/logos/bot-auto.png
   - ''
   TL:
-    src: ../../assets/logos/pp/waymo.png
+    src: ../../assets/logos/waymo.png
     name: Waymo
     text: waymo is centered on robotaxis and passenger autonomy, with no current trucking product as its primary commercial focus
   TR:
-    src: ../../assets/logos/pp/uber-freight.png
+    src: ../../assets/logos/uber-freight.png
     name: Uber Freight
     text: uber Freight is a digital freight marketplace and logistics platform, not a developer of self-driving truck systems
   BL:
-    src: ../../assets/logos/pp/outrider.png
+    src: ../../assets/logos/outrider.png
     name: Outrider
     text: outrider automates yard trucks inside logistics sites, sitting on the border of road-going autonomous trucking
   BR:
-    src: ../../assets/logos/pp/torc-robotics.png
+    src: ../../assets/logos/torc-robotics.png
     name: Torc Robotics
     text: torc builds autonomous trucks, but it is an independent Daimler Truck subsidiary tied to one major incumbent OEM
 - label: AUTONOMOUS TRUCKING
@@ -1902,28 +1902,28 @@ slides:
   - name: Full Stack Developers
     p: 42
     logos:
-    - ../../assets/logos/pp/aurora.png
-    - ../../assets/logos/pp/torc-robotics.png
+    - ../../assets/logos/aurora-therapeutics.png
+    - ../../assets/logos/torc-robotics.png
   - name: Autonomous Freight
     p: 24
     logos:
-    - ../../assets/logos/pp/kodiak-robotics.png
-    - ../../assets/logos/pp/einride.png
+    - ../../assets/logos/kodiak-ai.png
+    - ../../assets/logos/einride.png
   - name: Autonomy Systems
     p: 18
     logos:
-    - ../../assets/logos/pp/plus.png
-    - ../../assets/logos/pp/waabi.png
+    - ../../assets/logos/plusai.png
+    - ../../assets/logos/waabi.png
   - name: Remote Operations
     p: 8
     logos:
-    - ../../assets/logos/pp/einride.png
-    - ../../assets/logos/pp/fernride.png
+    - ../../assets/logos/einride.png
+    - ../../assets/logos/fernride.png
   - name: Hub and Yard Autonomy
     p: 8
     logos:
-    - ../../assets/logos/pp/outrider.png
-    - ../../assets/logos/pp/isee.png
+    - ../../assets/logos/outrider.png
+    - ../../assets/logos/isee.png
   note:
   - We built these estimates from company revenue, company filings and industry reports on the market
   - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
@@ -1987,15 +1987,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: Aurora
-    src: ../../assets/logos/pp/aurora.png
+    src: ../../assets/logos/aurora-therapeutics.png
   - name: Kodiak
-    src: ../../assets/logos/pp/kodiak.png
+    src: ../../assets/logos/kodiak-ai.png
   - name: Torc
-    src: ../../assets/logos/pp/torc.png
+    src: ../../assets/logos/torc-robotics.png
   - name: Waabi
-    src: ../../assets/logos/pp/waabi.png
+    src: ../../assets/logos/waabi.png
   - name: Gatik
-    src: ../../assets/logos/pp/gatik.png
+    src: ../../assets/logos/gatik.png
   features:
   - header: Driverless|road
     values:
@@ -2067,26 +2067,26 @@ slides:
     x: 0.78
     y: 0.25
     logos:
-    - src: ../../assets/logos/pp/plus.png
-    - src: ../../assets/logos/pp/waabi.png
+    - src: ../../assets/logos/plusai.png
+    - src: ../../assets/logos/waabi.png
   - name: Freight per mile
     x: 0.63
     y: 0.47
     logos:
-    - src: ../../assets/logos/pp/kodiak-robotics.png
-    - src: ../../assets/logos/pp/einride.png
+    - src: ../../assets/logos/kodiak-ai.png
+    - src: ../../assets/logos/einride.png
   - name: Driver as a Service
     x: 0.48
     y: 0.69
     logos:
-    - src: ../../assets/logos/pp/aurora.png
-    - src: ../../assets/logos/pp/torc-robotics.png
+    - src: ../../assets/logos/aurora-therapeutics.png
+    - src: ../../assets/logos/torc-robotics.png
   - name: Remote ops subscription
     x: 0.78
     y: 0.75
     logos:
-    - src: ../../assets/logos/pp/einride.png
-    - src: ../../assets/logos/pp/fernride.png
+    - src: ../../assets/logos/einride.png
+    - src: ../../assets/logos/fernride.png
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
@@ -2227,32 +2227,32 @@ slides:
   rounds:
   - name: Waabi
     amt: 750000000.0
-    src: ../../assets/logos/pp/waabi.png
+    src: ../../assets/logos/waabi.png
     stage: Series C
     date: Jan 2026
   - name: CargoX
     amt: 250000000.0
-    src: ../../assets/logos/pp/cargox.png
+    src: ../../assets/logos/cargox.png
     stage: Series A
     date: Jun 2026
   - name: Zeron
     amt: 200000000.0
-    src: ../../assets/logos/pp/zeron.png
+    src: ../../assets/logos/zeron.png
     stage: Series B
     date: May 2026
   - name: Gatik
     amt: 200000000.0
-    src: ../../assets/logos/pp/gatik.png
+    src: ../../assets/logos/gatik.png
     stage: Late stage
     date: Aug 2026
   - name: Forterra
     amt: 188000000.0
-    src: ../../assets/logos/pp/forterra.png
+    src: ../../assets/logos/forterra.png
     stage: Series C
     date: Nov 2025
   - name: DeepWay
     amt: 167000000.0
-    src: ../../assets/logos/pp/deepway.png
+    src: ../../assets/logos/deepway.png
     stage: Growth Equity
     date: Jan 2026
   note:
@@ -2315,24 +2315,24 @@ slides:
   - We placed private pure players by main product and stage, from funding news and the press
   - We left out listed companies and incumbents, and all our sources are at the end of the report
   srcs:
-    waabi: ../../assets/logos/pp/waabi.png
-    plusai: ../../assets/logos/pp/plusai.png
-    inceptio-technology: ../../assets/logos/pp/inceptio-technology.png
-    stack-av: ../../assets/logos/pp/stack-av.png
-    bot-auto: ../../assets/logos/pp/bot-auto.png
+    waabi: ../../assets/logos/waabi.png
+    plusai: ../../assets/logos/plusai.png
+    inceptio-technology: ../../assets/logos/inceptio-technology.png
+    stack-av: ../../assets/logos/stack-av.png
+    bot-auto: ../../assets/logos/bot-auto.png
     humble-robotics: ''
-    gatik: ../../assets/logos/pp/gatik.png
-    deepway: ../../assets/logos/pp/deepway.png
+    gatik: ../../assets/logos/gatik.png
+    deepway: ../../assets/logos/deepway.png
     kargobot: ''
-    mars-auto: ../../assets/logos/pp/mars-auto.png
-    flux-auto: ../../assets/logos/pp/flux-auto.png
+    mars-auto: ../../assets/logos/mars-auto.png
+    flux-auto: ../../assets/logos/flux-auto.png
     solo-avt: ''
-    outrider: ../../assets/logos/pp/outrider.png
-    fernride: ../../assets/logos/pp/fernride.png
-    westwell: ../../assets/logos/pp/westwell.png
-    embotech: ../../assets/logos/pp/embotech.png
+    outrider: ../../assets/logos/outrider.png
+    fernride: ../../assets/logos/fernride.png
+    westwell: ../../assets/logos/westwell.png
+    embotech: ../../assets/logos/embotech.png
     qomolo: ''
-    autonomous-solutions: ../../assets/logos/pp/autonomous-solutions.png
+    autonomous-solutions: ../../assets/logos/autonomous-solutions.png
 - label: AUTONOMOUS TRUCKING
   type: pp_killers
   mode: dead
@@ -2381,7 +2381,7 @@ slides:
     - 1
     - 0
     - 0
-    src: ../../assets/logos/pp/starsky.png
+    src: ../../assets/logos/starsky-2.png
     ini: S
   - name: Peloton Tech
     slug: peloton-tech
@@ -2394,7 +2394,7 @@ slides:
     - 0
     - 1
     - 0
-    src: ../../assets/logos/pp/peloton-tech.png
+    src: ../../assets/logos/peloton-tech.png
     ini: PT
   - name: Ike
     slug: ike
@@ -2439,7 +2439,7 @@ slides:
     website: https://starsky.io
     why_it_failed: Funding ended before scale proof
     slug: starsky
-    src: ../../assets/logos/pp/starsky.png
+    src: ../../assets/logos/starsky-2.png
     ini: S
   - lesson: Sell to major carriers
     explanation: Aurora has DSV McLane and Charger
@@ -2447,7 +2447,7 @@ slides:
     website: https://peloton-tech.com
     why_it_failed: Platooning demand stayed limited
     slug: peloton-tech
-    src: ../../assets/logos/pp/peloton-tech.png
+    src: ../../assets/logos/peloton-tech.png
     ini: PT
   - lesson: Expand lane by lane
     explanation: Aurora validated a 10-route network
@@ -2468,15 +2468,15 @@ slides:
     in full-stack autonomous trucks?'
   companies:
   - short: Aurora
-    src: ../../assets/logos/pp/aurora.png
+    src: ../../assets/logos/aurora-therapeutics.png
   - short: Kodiak
-    src: ../../assets/logos/pp/kodiak.png
+    src: ../../assets/logos/kodiak-ai.png
   - short: Gatik
-    src: ../../assets/logos/pp/gatik.png
+    src: ../../assets/logos/gatik.png
   - short: Torc
-    src: ../../assets/logos/pp/torc.png
+    src: ../../assets/logos/torc-robotics.png
   - short: Waabi
-    src: ../../assets/logos/pp/waabi.png
+    src: ../../assets/logos/waabi.png
   criteria:
   - name: Driverless revenue
     why: Proves commercial demand

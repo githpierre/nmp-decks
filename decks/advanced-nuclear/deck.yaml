@@ -769,32 +769,32 @@ slides:
   rows:
   - n: 1
     name: Amazon + X-energy
-    src: ../../assets/logos/lib/x-energy.png
+    src: ../../assets/logos/x-energy.png
     v: 5 GW
     what: US fleet target, October 2024
   - n: 2
     name: Meta + TerraPower
-    src: ../../assets/logos/lib/terrapower.png
+    src: ../../assets/logos/terrapower.png
     v: 2.8 GW
     what: Natrium units, January 2026
   - n: 3
     name: Meta + Oklo
-    src: ../../assets/logos/lib/oklo.png
+    src: ../../assets/logos/oklo--symbol.png
     v: 1.2 GW
     what: Ohio campus, January 2026
   - n: 4
     name: Amazon + AEP + X-energy
-    src: ../../assets/logos/lib/x-energy.png
+    src: ../../assets/logos/x-energy.png
     v: 960 MW
     what: Indiana study, October 2026
   - n: 5
     name: Google + Kairos Power
-    src: ../../assets/logos/lib/kairos-power.png
+    src: ../../assets/logos/kairos-power--symbol.png
     v: 500 MW
     what: Multi-plant deal, October 2024
   - n: 6
     name: Google + TVA + Kairos Power
-    src: ../../assets/logos/lib/kairos-power.png
+    src: ../../assets/logos/kairos-power--symbol.png
     v: 50 MW
     what: Binding power deal, August 2025
   story: The biggest tech buyers keep coming back to new reactors, a sign of a hot market. Most of these are options and targets, and two deals sit inside earlier ones, so the figures do not add up.
@@ -3864,22 +3864,22 @@ slides:
     amt: 1000000000
     date: Q3 2026
     stage: Series B
-    src: ../../assets/logos/nl/valar-atomics--symbol.png
+    src: ../../assets/logos/valar-atomics--symbol.png
   - name: X-energy
     amt: 700000000
     date: Q4 2025
     stage: late-stage
-    src: ../../assets/logos/nl/x-energy.png
+    src: ../../assets/logos/x-energy.png
   - name: Blue Energy
     amt: 380000000
     date: Q2 2026
     stage: Series A
-    src: ../../assets/logos/nl/blue-energy.png
+    src: ../../assets/logos/blue-energy.png
   - name: Antares
     amt: 370000000
     date: Q3 2026
     stage: Series C
-    src: ../../assets/logos/nl/antares.png
+    src: ../../assets/logos/antares.png
   note:
   - We listed the biggest equity rounds raised by advanced nuclear startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
@@ -3894,22 +3894,22 @@ slides:
     amt: 830000000
     date: '2022'
     stage: Growth Equity
-    src: ../../assets/logos/nl/terrapower.png
+    src: ../../assets/logos/terrapower.png
   - name: TerraPower
     amt: 650000000
     date: '2025'
     stage: Equity
-    src: ../../assets/logos/nl/terrapower.png
+    src: ../../assets/logos/terrapower.png
   - name: X-energy
     amt: 500000000
     date: '2024'
     stage: Series C
-    src: ../../assets/logos/nl/x-energy.png
+    src: ../../assets/logos/x-energy.png
   - name: newcleo
     amt: 315000000
     date: '2022'
     stage: Equity
-    src: ../../assets/logos/nl/newcleo.png
+    src: ../../assets/logos/newcleo.png
   note:
   - We listed the biggest equity rounds raised by advanced nuclear startups before the last twelve months
   - We used our tracker of rounds, company announcements and the press, with sources at the end
@@ -3959,9 +3959,9 @@ slides:
     pct: 48% of total
     w: 100.0
     logos:
-    - src: ../../assets/logos/lib/valar-atomics.png
-    - src: ../../assets/logos/lib/x-energy.png
-    - src: ../../assets/logos/lib/jimmy.png
+    - src: ../../assets/logos/valar-atomics--symbol.png
+    - src: ../../assets/logos/x-energy.png
+    - src: ../../assets/logos/jimmy.png
   - name: Microreactors
     names:
     - Antares
@@ -3970,9 +3970,9 @@ slides:
     pct: 20% of total
     w: 40.8
     logos:
-    - src: ../../assets/logos/lib/antares.png
-    - src: ../../assets/logos/lib/radiant.png
-    - src: ../../assets/logos/lib/deep-fission.png
+    - src: ../../assets/logos/antares.png
+    - src: ../../assets/logos/radiant--symbol.png
+    - src: ../../assets/logos/deep-fission.png
   - name: Light-water SMRs
     names:
     - Blue Energy
@@ -3981,9 +3981,9 @@ slides:
     pct: 14% of total
     w: 27.9
     logos:
-    - src: ../../assets/logos/lib/blue-energy.png
-    - src: ../../assets/logos/lib/last-energy.png
-    - src: ../../assets/logos/lib/bluecore-energy.png
+    - src: ../../assets/logos/blue-energy.png
+    - src: ../../assets/logos/last-energy--symbol.png
+    - src: ../../assets/logos/bluecore-energy.png
   - name: Molten salt reactors
     names:
     - Kairos Power
@@ -3991,7 +3991,7 @@ slides:
     pct: 8% of total
     w: 17.5
     logos:
-    - src: ../../assets/logos/lib/kairos-power.png
+    - src: ../../assets/logos/kairos-power--symbol.png
   - name: Nuclear fuel
     names:
     - Standard Nuclear
@@ -4000,9 +4000,9 @@ slides:
     pct: 6% of total
     w: 12.5
     logos:
-    - src: ../../assets/logos/lib/standard-nuclear.png
-    - src: ../../assets/logos/lib/project-omega.png
-    - src: ../../assets/logos/lib/lis-technologies.png
+    - src: ../../assets/logos/standard-nuclear.png
+    - src: ../../assets/logos/project-omega.png
+    - src: ../../assets/logos/lis-technologies.png
   - name: Lead-cooled reactors
     names:
     - newcleo
@@ -4011,12 +4011,12 @@ slides:
     pct: 3% of total
     w: 6.9
     logos:
-    - src: ../../assets/logos/lib/newcleo.png
-    - src: ../../assets/logos/lib/blykalla.png
+    - src: ../../assets/logos/newcleo.png
+    - src: ../../assets/logos/blykalla.png
     - src: ../../assets/logos/first-american-nuclear.png
   - logos:
     - src: ../../assets/logos/otrera.png
-    - src: ../../assets/logos/lib/hexana.png
+    - src: ../../assets/logos/hexana.png
     - src: ../../assets/logos/emerald-horizon.png
     name: Other designs
     names:
@@ -4587,7 +4587,7 @@ slides:
     - ''
     - ''
     - Ares SPAC|ended 2023
-    src: ../../assets/logos/nl/x-energy.png
+    src: ../../assets/logos/x-energy.png
   - name: NuScale Power
     slug: nuscale-power
     ini: N
@@ -4598,7 +4598,7 @@ slides:
     - ''
     - ''
     - ''
-    src: ../../assets/logos/nl/nuscale-power.png
+    src: ../../assets/logos/nuscale-power.png
   - name: Ultra Safe Nuclear Corporation
     slug: ultra-safe-nuclear
     ini: U
@@ -4642,7 +4642,7 @@ slides:
     - ''
     - ''
     - Bechtel exit|Sep 2026
-    src: ../../assets/logos/nl/terrapower.png
+    src: ../../assets/logos/terrapower.png
   note:
   - We selected five warning signs tied to named nuclear developers and checked them in court notices, filings and press
   - We left a cell empty unless a specific event was verified, and a conditional asset sale is not a completed sale
@@ -4961,7 +4961,7 @@ slides:
   src: 210
   title: How TerraPower moved Natrium from permit to construction
   type: contrast
-  logo_src: ../../assets/logos/nl/terrapower.png
+  logo_src: ../../assets/logos/terrapower.png
 - id: ed211
   left: A REGULAR ADVANCED NUCLEAR STARTUP
   logo: xenergy
@@ -4990,7 +4990,7 @@ slides:
   src: 211
   title: How X-energy won the first industrial reactor permit
   type: contrast
-  logo_src: ../../assets/logos/nl/x-energy.png
+  logo_src: ../../assets/logos/x-energy.png
 - id: ed212
   left: A REGULAR ADVANCED NUCLEAR STARTUP
   logo: kairospower
@@ -5019,7 +5019,7 @@ slides:
   src: 212
   title: How Kairos Power secured a binding power buyer
   type: contrast
-  logo_src: ../../assets/logos/nl/kairos-power--symbol.png
+  logo_src: ../../assets/logos/kairos-power--symbol.png
 - id: ed213
   left: A REGULAR ADVANCED NUCLEAR STARTUP
   logo: antares
@@ -5048,7 +5048,7 @@ slides:
   src: 213
   title: How Antares made defense its first reactor market
   type: contrast
-  logo_src: ../../assets/logos/nl/antares.png
+  logo_src: ../../assets/logos/antares.png
 - id: ed214
   left: A REGULAR NUCLEAR FUEL STARTUP
   logo: standardnuclear
@@ -5077,7 +5077,7 @@ slides:
   src: 214
   title: How Standard Nuclear sold fuel before reactor startups
   type: contrast
-  logo_src: ../../assets/logos/nl/standard-nuclear.png
+  logo_src: ../../assets/logos/standard-nuclear.png
 - id: ed215
   type: x/divider_9
   src: 215

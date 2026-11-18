@@ -164,7 +164,7 @@ slides:
     name: Autolus Therapeutics
     text: makes autologous CAR-T by modifying each patient’s cells outside the body, not generating CAR-T cells in vivo
   TR:
-    src: ../../assets/logos/pp/thermo-fisher.png
+    src: ../../assets/logos/thermo-fisher-scientific.png
     name: Thermo Fisher Scientific
     text: supplies CAR-T manufacturing reagents and lab tools, not medicines that program T cells inside patients
   BL:
@@ -172,7 +172,7 @@ slides:
     name: Legend Biotech
     text: tests in vivo CAR-T LB2501, but also sells CARVYKTI made by modifying patient cells outside the body
   BR:
-    src: ../../assets/logos/pp/bms.png
+    src: ../../assets/logos/bristol-myers-squibb--symbol.png
     name: Bristol Myers Squibb
     text: owns Orbital RNA programs for in vivo CAR-T, while also marketing conventionally manufactured CAR-T
 - id: ed008
@@ -841,16 +841,16 @@ slides:
   - name: Viral CAR vectors
     p: 53
     logos:
-    - ../../assets/logos/pp/umoja.png
+    - ../../assets/logos/umoja-biopharma.png
     - ../../assets/logos/interius.png
     - ../../assets/logos/esobiotec.png
-    - ../../assets/logos/kelonia.png
+    - ../../assets/logos/kelonia-therapeutics.png
   - name: LNP-RNA delivery
     p: 29
     logos:
     - ../../assets/logos/capstan.png
-    - ../../assets/logos/orna.png
-    - ../../assets/logos/orbital.png
+    - ../../assets/logos/orna-therapeutics.png
+    - ../../assets/logos/orbital-therapeutics.png
     - ../../assets/logos/create-medicines.png
   - name: Other delivery routes
     p: 18
@@ -2933,12 +2933,12 @@ slides:
     amt: 270000000
     date: '2023'
     stage: Series A
-    src: ../../assets/logos/orbital.png
+    src: ../../assets/logos/orbital-therapeutics.png
   - name: Orna Therapeutics
     amt: 221000000
     date: '2022'
     stage: Series B
-    src: ../../assets/logos/orna.png
+    src: ../../assets/logos/orna-therapeutics.png
   - name: Umoja Biopharma
     amt: 210000000
     date: '2021'
@@ -3607,7 +3607,7 @@ slides:
     - 2nd round|Nov 2024
     - Lilly deal|Feb 2026
     - Refocus on|panCAR
-    src: ../../assets/logos/pp/lilly.png
+    src: ../../assets/logos/eli-lilly-and-company.png
   - name: ArsenalBio
     slug: arsenal-biosciences
     ini: A
@@ -3615,7 +3615,7 @@ slides:
     - Most staff|cut 2026
     - ''
     - All in on|in vivo
-    src: ../../assets/logos/arsenal-biosciences.png
+    src: ../../assets/logos/arsenalbio.png
   - name: Sail
     slug: sail-biomedicines
     ini: S
@@ -3631,7 +3631,7 @@ slides:
     - 29% staff|cut 2023
     - ''
     - Refocus on|ex vivo
-    src: ../../assets/logos/pp/sana.png
+    src: ../../assets/logos/sana.png
   - name: Create Medicines
     slug: create-medicines
     ini: C
@@ -3936,7 +3936,7 @@ slides:
   src: 210
   title: How Kelonia turned one infusion into a $7B deal
   type: contrast
-  logo_src: ../../assets/logos/kelonia.png
+  logo_src: ../../assets/logos/kelonia-therapeutics.png
 - id: ed211
   left: A REGULAR CAR-T STARTUP
   logo: capstan
@@ -4052,7 +4052,7 @@ slides:
   src: 214
   title: How Orbital sold a preclinical in vivo CAR-T platform
   type: contrast
-  logo_src: ../../assets/logos/orbital.png
+  logo_src: ../../assets/logos/orbital-therapeutics.png
 - id: ed215
   type: x/divider_9
   src: 215

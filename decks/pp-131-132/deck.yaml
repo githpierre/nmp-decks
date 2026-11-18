@@ -15,28 +15,28 @@ slides:
   - Distance to the center reflects how much the product itself cuts the carbon of the cement it replaces
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/sublime-systems.png
-  - ../../assets/logos/pp/brimstone.png
-  - ../../assets/logos/pp/fortera.png
-  - ../../assets/logos/pp/terra-co2.png
-  - ../../assets/logos/pp/ecocem.png
-  - ../../assets/logos/pp/paebbl.png
-  - ../../assets/logos/pp/neocem.png
-  - ../../assets/logos/pp/materrup.png
+  - ../../assets/logos/sublime-systems.png
+  - ../../assets/logos/brimstone.png
+  - ../../assets/logos/fortera.png
+  - ../../assets/logos/terra-co2.png
+  - ../../assets/logos/ecocem.png
+  - ../../assets/logos/paebbl.png
+  - ../../assets/logos/neocem.png
+  - ../../assets/logos/materrup.png
   TL:
-    src: ../../assets/logos/pp/holcim.png
+    src: ../../assets/logos/holcim.png
     name: Holcim
     text: sells ECOPlanet low-carbon cement, but most of the tons it ships are still ordinary Portland cement
   TR:
-    src: ../../assets/logos/pp/carboncure.png
+    src: ../../assets/logos/carboncure-technologies.png
     name: CarbonCure
     text: injects captured CO2 into concrete at ready-mix plants, but it does not make the cement itself
   BL:
-    src: ../../assets/logos/pp/biomason.png
+    src: ../../assets/logos/biomason.png
     name: Biomason
     text: grows biocement tiles and pavers with bacteria, a product outside the cement that goes into concrete
   BR:
-    src: ../../assets/logos/pp/alcemy.png
+    src: ../../assets/logos/alcemy.png
     name: alcemy
     text: uses AI to cut clinker and energy in cement plants, but it sells software, not a lower-carbon binder
 - label: LOW-CARBON CEMENT
@@ -58,36 +58,36 @@ slides:
   - name: Blended cements
     p: 60
     logos:
-    - ../../assets/logos/pp/ecocem.png
-    - ../../assets/logos/pp/holcim.png
-    - ../../assets/logos/pp/heidelberg-materials.png
+    - ../../assets/logos/ecocem.png
+    - ../../assets/logos/holcim.png
+    - ../../assets/logos/heidelbergmaterials.png
   - name: Calcined clay cements
     p: 15
     logos:
-    - ../../assets/logos/pp/neocem.png
-    - ../../assets/logos/pp/materrup.png
+    - ../../assets/logos/neocem.png
+    - ../../assets/logos/materrup.png
   - name: Carbon capture cements
     p: 10
     logos:
-    - ../../assets/logos/pp/heidelberg-materials.png
-    - ../../assets/logos/pp/calix.png
+    - ../../assets/logos/heidelbergmaterials.png
+    - ../../assets/logos/calix.png
   - name: Alkali-activated binders
     p: 8
     logos:
-    - ../../assets/logos/pp/betolar.png
-    - ../../assets/logos/pp/material-evolution.png
-    - ../../assets/logos/pp/carbicrete.png
+    - ../../assets/logos/betolar.png
+    - ../../assets/logos/material-evolution.png
+    - ../../assets/logos/carbicrete.png
   - name: New clinker chemistries
     p: 4
     logos:
-    - ../../assets/logos/pp/brimstone.png
-    - ../../assets/logos/pp/sublime-systems.png
-    - ../../assets/logos/pp/fortera.png
+    - ../../assets/logos/brimstone.png
+    - ../../assets/logos/sublime-systems.png
+    - ../../assets/logos/fortera.png
   - name: CO2-mineralized cements
     p: 3
     logos:
-    - ../../assets/logos/pp/paebbl.png
-    - ../../assets/logos/pp/co-reactive.png
+    - ../../assets/logos/paebbl.png
+    - ../../assets/logos/reactive.png
   note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
     sources are included at the end of the report.'
 - label: LOW-CARBON CEMENT
@@ -149,15 +149,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: Fortera
-    src: ../../assets/logos/pp/fortera.png
+    src: ../../assets/logos/fortera.png
   - name: Brimstone
-    src: ../../assets/logos/pp/brimstone.png
+    src: ../../assets/logos/brimstone.png
   - name: Sublime
-    src: ../../assets/logos/pp/sublime-systems.png
+    src: ../../assets/logos/sublime-systems.png
   - name: Terra CO2
-    src: ../../assets/logos/pp/terra-co2.png
+    src: ../../assets/logos/terra-co2.png
   - name: Ecocem
-    src: ../../assets/logos/pp/ecocem.png
+    src: ../../assets/logos/ecocem.png
   features:
   - header: Running|plant
     values:
@@ -221,31 +221,31 @@ slides:
     x: 0.38
     y: 0.18
     logos:
-    - src: ../../assets/logos/pp/terra-co2.png
-    - src: ../../assets/logos/pp/ecocem.png
-    - src: ../../assets/logos/pp/neocem.png
+    - src: ../../assets/logos/terra-co2.png
+    - src: ../../assets/logos/ecocem.png
+    - src: ../../assets/logos/neocem.png
   - name: Own plants, cement sold to builders
     x: 0.17
     y: 0.55
     logos:
-    - src: ../../assets/logos/pp/fortera.png
-    - src: ../../assets/logos/pp/brimstone.png
+    - src: ../../assets/logos/fortera.png
+    - src: ../../assets/logos/brimstone.png
   - name: Tech buyers paying years ahead
     x: 0.45
     y: 0.88
     logos:
-    - src: ../../assets/logos/pp/sublime-systems.png
+    - src: ../../assets/logos/sublime-systems.png
   - name: Process licensed to cement makers
     x: 0.88
     y: 0.32
     logos:
-    - src: ../../assets/logos/pp/calix.png
-    - src: ../../assets/logos/pp/cemvision.png
+    - src: ../../assets/logos/calix.png
+    - src: ../../assets/logos/cemvision.png
   - name: Tech fees plus carbon credits
     x: 0.86
     y: 0.8
     logos:
-    - src: ../../assets/logos/pp/carbon-upcycling.png
+    - src: ../../assets/logos/carbon-upcycling.png
   note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
     end of the report.
 - label: LOW-CARBON CEMENT
@@ -383,32 +383,32 @@ slides:
   rounds:
   - name: Terra CO2
     amt: 124500000.0
-    src: ../../assets/logos/pp/terra-co2.png
+    src: ../../assets/logos/terra-co2.png
     stage: Series B
     date: Jul 2025
   - name: Biomason
     amt: 36672578.0
-    src: ../../assets/logos/pp/biomason.png
+    src: ../../assets/logos/biomason.png
     stage: Late stage
     date: Dec 2024
   - name: NeoCem
     amt: 18700000.0
-    src: ../../assets/logos/pp/neocem.png
+    src: ../../assets/logos/neocem.png
     stage: Series B
     date: Jul 2026
   - name: Cocoon Carbon
     amt: 15000000.0
-    src: ../../assets/logos/pp/cocoon-carbon.png
+    src: ../../assets/logos/cocoon-carbon.png
     stage: Series A
     date: Mar 2026
   - name: Reclinker
     amt: 13300000.0
-    src: ../../assets/logos/pp/reclinker.png
+    src: ../../assets/logos/reclinker.png
     stage: Series A
     date: Oct 2026
   - name: Queens Carbon
     amt: 10000000.0
-    src: ../../assets/logos/pp/queens-carbon.png
+    src: ../../assets/logos/queens-carbon.png
     stage: Seed
     date: Apr 2025
   note: We listed the biggest equity rounds raised by low-carbon cement startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end of
@@ -468,24 +468,24 @@ slides:
       - cura
   note: We placed the main low-carbon cement companies by segment and by stage, from company websites, funding announcements and the press. All the sources are included at the end of the report.
   srcs:
-    brimstone: ../../assets/logos/pp/brimstone.png
-    sublime-systems: ../../assets/logos/pp/sublime-systems.png
-    cemvision: ../../assets/logos/pp/cemvision.png
-    queens-carbon: ../../assets/logos/pp/queens-carbon.png
-    lithirm: ../../assets/logos/pp/lithirm.png
-    furno: ../../assets/logos/pp/furno.png
-    ecocem: ../../assets/logos/pp/ecocem.png
-    terra-co2: ../../assets/logos/pp/terra-co2.png
-    neocem: ../../assets/logos/pp/neocem.png
-    materrup: ../../assets/logos/pp/materrup.png
-    cocoon-carbon: ../../assets/logos/pp/cocoon-carbon.png
-    reclinker: ../../assets/logos/pp/reclinker.png
-    fortera: ../../assets/logos/pp/fortera.png
-    carboncure: ../../assets/logos/pp/carboncure.png
-    paebbl: ../../assets/logos/pp/paebbl.png
-    carbonbuilt: ../../assets/logos/pp/carbonbuilt.png
-    co-reactive: ../../assets/logos/pp/co-reactive.png
-    cura: ../../assets/logos/pp/cura.png
+    brimstone: ../../assets/logos/brimstone.png
+    sublime-systems: ../../assets/logos/sublime-systems.png
+    cemvision: ../../assets/logos/cemvision.png
+    queens-carbon: ../../assets/logos/queens-carbon.png
+    lithirm: ../../assets/logos/lithirm.png
+    furno: ../../assets/logos/furno.png
+    ecocem: ../../assets/logos/ecocem.png
+    terra-co2: ../../assets/logos/terra-co2.png
+    neocem: ../../assets/logos/neocem.png
+    materrup: ../../assets/logos/materrup.png
+    cocoon-carbon: ../../assets/logos/cocoon-carbon.png
+    reclinker: ../../assets/logos/reclinker.png
+    fortera: ../../assets/logos/fortera.png
+    carboncure: ../../assets/logos/carboncure-technologies.png
+    paebbl: ../../assets/logos/paebbl.png
+    carbonbuilt: ../../assets/logos/carbonbuilt.png
+    co-reactive: ../../assets/logos/reactive.png
+    cura: ../../assets/logos/cura.png
 - label: LOW-CARBON CEMENT
   type: pp_killers
   mode: warning
@@ -505,7 +505,7 @@ slides:
     - Holyoke|Dec 2025
     - Two-thirds|Mar 2026
     - ''
-    src: ../../assets/logos/pp/sublime-systems.png
+    src: ../../assets/logos/sublime-systems.png
     ini: SS
   - name: Brimstone
     slug: brimstone
@@ -515,7 +515,7 @@ slides:
     - ''
     - ''
     - ''
-    src: ../../assets/logos/pp/brimstone.png
+    src: ../../assets/logos/brimstone.png
     ini: B
   - name: National Cement
     slug: national-cement
@@ -525,7 +525,7 @@ slides:
     - ''
     - ''
     - ''
-    src: ../../assets/logos/pp/national-cement.png
+    src: ../../assets/logos/national-cement.png
     ini: NC
   - name: Roanoke Cement
     slug: roanoke-cement
@@ -535,7 +535,7 @@ slides:
     - ''
     - ''
     - ''
-    src: ../../assets/logos/pp/roanoke-cement.png
+    src: ../../assets/logos/roanoke-cement.png
     ini: RC
   - name: Novacem
     slug: novacem
@@ -557,15 +557,15 @@ slides:
     the low-carbon cement race?'
   companies:
   - short: Fortera
-    src: ../../assets/logos/pp/fortera.png
+    src: ../../assets/logos/fortera.png
   - short: Brimstone
-    src: ../../assets/logos/pp/brimstone.png
+    src: ../../assets/logos/brimstone.png
   - short: Sublime
-    src: ../../assets/logos/pp/sublime-systems.png
+    src: ../../assets/logos/sublime-systems.png
   - short: Terra CO2
-    src: ../../assets/logos/pp/terra-co2.png
+    src: ../../assets/logos/terra-co2.png
   - short: Ecocem
-    src: ../../assets/logos/pp/ecocem.png
+    src: ../../assets/logos/ecocem.png
   criteria:
   - name: Commercial plant running
     why: Real tons, not lab samples
@@ -626,28 +626,28 @@ slides:
   - Distance to the center reflects how much of the company's business is printing metal parts or making what they need
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
-  - ../../assets/logos/pp/eos.png
-  - ../../assets/logos/pp/nikon-slm.png
-  - ../../assets/logos/pp/velo3d.png
-  - ../../assets/logos/pp/farsoon.png
-  - ../../assets/logos/pp/divergent.png
-  - ../../assets/logos/pp/vulcanforms.png
-  - ../../assets/logos/pp/freeform.png
-  - ../../assets/logos/pp/equispheres.png
+  - ../../assets/logos/eos.png
+  - ../../assets/logos/nikon-slm-solutions.png
+  - ../../assets/logos/velo3d.png
+  - ../../assets/logos/farsoon-technologies.png
+  - ../../assets/logos/divergent-technologies.png
+  - ../../assets/logos/vulcanforms.png
+  - ../../assets/logos/freeform.png
+  - ../../assets/logos/equispheres.png
   TL:
-    src: ../../assets/logos/pp/3d-systems.png
+    src: ../../assets/logos/3dsystems.png
     name: 3D Systems
     text: sells metal printers, but most of its revenue comes from plastic printing and healthcare products
   TR:
-    src: ../../assets/logos/pp/renishaw.png
+    src: ../../assets/logos/renishaw.png
     name: Renishaw
     text: builds metal laser printers, but most of its sales come from measuring probes and machine tool sensors
   BL:
-    src: ../../assets/logos/pp/markforged.png
+    src: ../../assets/logos/markforged.png
     name: Markforged
     text: sells a metal printer, but most of its machines print composite plastic parts, and Nano Dimension owns it
   BR:
-    src: ../../assets/logos/pp/trumpf.png
+    src: ../../assets/logos/trumpf.png
     name: Trumpf
     text: sells metal laser printers, but most of its business comes from sheet metal machines and industrial lasers
 - label: METAL 3D PRINTING
@@ -700,33 +700,33 @@ slides:
   - name: Laser powder bed printers
     p: 35
     logos:
-    - ../../assets/logos/pp/eos.png
-    - ../../assets/logos/pp/nikon-slm.png
-    - ../../assets/logos/pp/farsoon.png
+    - ../../assets/logos/eos.png
+    - ../../assets/logos/nikon-slm-solutions.png
+    - ../../assets/logos/farsoon-technologies.png
   - name: Printing services
     p: 30
     logos:
-    - ../../assets/logos/pp/sintavia.png
-    - ../../assets/logos/pp/conflux.png
-    - ../../assets/logos/pp/vulcanforms.png
+    - ../../assets/logos/sintavia.png
+    - ../../assets/logos/conflux-technology.png
+    - ../../assets/logos/vulcanforms.png
   - name: Metal powders
     p: 15
     logos:
-    - ../../assets/logos/pp/equispheres.png
-    - ../../assets/logos/pp/6k-additive.png
-    - ../../assets/logos/pp/continuum-powders.png
+    - ../../assets/logos/equispheres.png
+    - ../../assets/logos/6k-additive.png
+    - ../../assets/logos/continuum-powders.png
   - name: Wire and DED
     p: 8
     logos:
-    - ../../assets/logos/pp/meltio.png
-    - ../../assets/logos/pp/aml3d.png
-    - ../../assets/logos/pp/caracol.png
+    - ../../assets/logos/meltio.png
+    - ../../assets/logos/aml3d.png
+    - ../../assets/logos/caracol.png
   - name: Other processes
     p: 12
     logos:
-    - ../../assets/logos/pp/wayland.png
-    - ../../assets/logos/pp/xjet.png
-    - ../../assets/logos/pp/spee3d.png
+    - ../../assets/logos/wayland-additive.png
+    - ../../assets/logos/xjet.png
+    - ../../assets/logos/spee3d.png
   note: 'We built these estimates from company revenue, filings and industry reports, then split the market by category. They are defensible but directional: orders of magnitude, not exact shares. All the
     sources are included at the end of the report.'
 - label: METAL 3D PRINTING
@@ -788,15 +788,15 @@ slides:
     has the most complete tech today?'
   companies:
   - name: EOS
-    src: ../../assets/logos/pp/eos.png
+    src: ../../assets/logos/eos.png
   - name: Nikon SLM
-    src: ../../assets/logos/pp/nikon-slm.png
+    src: ../../assets/logos/nikon-slm-solutions.png
   - name: Renishaw
-    src: ../../assets/logos/pp/renishaw.png
+    src: ../../assets/logos/renishaw.png
   - name: Velo3D
-    src: ../../assets/logos/pp/velo3d.png
+    src: ../../assets/logos/velo3d.png
   - name: Farsoon
-    src: ../../assets/logos/pp/farsoon.png
+    src: ../../assets/logos/farsoon-technologies.png
   features:
   - header: Laser|powder bed
     values:
@@ -853,33 +853,33 @@ slides:
     x: 0.18
     y: 0.2
     logos:
-    - src: ../../assets/logos/pp/eos.png
-    - src: ../../assets/logos/pp/nikon-slm.png
-    - src: ../../assets/logos/pp/farsoon.png
+    - src: ../../assets/logos/eos.png
+    - src: ../../assets/logos/nikon-slm-solutions.png
+    - src: ../../assets/logos/farsoon-technologies.png
   - name: Printers plus yearly service
     x: 0.2
     y: 0.58
     logos:
-    - src: ../../assets/logos/pp/velo3d.png
-    - src: ../../assets/logos/pp/renishaw.png
+    - src: ../../assets/logos/velo3d.png
+    - src: ../../assets/logos/renishaw.png
   - name: Powder and wire sold by the kilo
     x: 0.45
     y: 0.92
     logos:
-    - src: ../../assets/logos/pp/equispheres.png
-    - src: ../../assets/logos/pp/6k-additive.png
+    - src: ../../assets/logos/equispheres.png
+    - src: ../../assets/logos/6k-additive.png
   - name: Parts printed to order
     x: 0.82
     y: 0.3
     logos:
-    - src: ../../assets/logos/pp/sintavia.png
-    - src: ../../assets/logos/pp/conflux.png
+    - src: ../../assets/logos/sintavia.png
+    - src: ../../assets/logos/conflux-technology.png
   - name: Factories with long supply deals
     x: 0.82
     y: 0.75
     logos:
-    - src: ../../assets/logos/pp/divergent.png
-    - src: ../../assets/logos/pp/vulcanforms.png
+    - src: ../../assets/logos/divergent-technologies.png
+    - src: ../../assets/logos/vulcanforms.png
   note: We placed each company by how its business model works, from pricing pages, company reports and filings. Positions are our own reading of where each model sits. All the sources are included at the
     end of the report.
 - label: METAL 3D PRINTING
@@ -1017,32 +1017,32 @@ slides:
   rounds:
   - name: Divergent
     amt: 250000000.0
-    src: ../../assets/logos/pp/divergent.png
+    src: ../../assets/logos/divergent-technologies.png
     stage: Late stage
     date: Sep 2025
   - name: VulcanForms
     amt: 220000000.0
-    src: ../../assets/logos/pp/vulcanforms.png
+    src: ../../assets/logos/vulcanforms.png
     stage: Late stage
     date: Jan 2026
   - name: Freeform
     amt: 67000000.0
-    src: ../../assets/logos/pp/freeform.png
+    src: ../../assets/logos/freeform.png
     stage: Series B
     date: Feb 2026
   - name: Vilory
     amt: 43400000.0
-    src: ../../assets/logos/pp/vilory.png
+    src: ../../assets/logos/vilory.png
     stage: Series C
     date: Dec 2025
   - name: Caracol
     amt: 40000000.0
-    src: ../../assets/logos/pp/caracol.png
+    src: ../../assets/logos/caracol.png
     stage: Series B
     date: Oct 2025
   - name: Alloyed
     amt: 30000000.0
-    src: ../../assets/logos/pp/alloyed.png
+    src: ../../assets/logos/alloyed.png
     stage: Round
     date: Mar 2025
   note: We listed the biggest equity rounds raised by metal 3D printing startups in recent years, from company announcements, investor releases and the press. All the sources are included at the end of
@@ -1102,24 +1102,24 @@ slides:
       - caracol
   note: We placed the main metal 3D printing companies by segment and by stage, from company websites, funding announcements and the press. All the sources are included at the end of the report.
   srcs:
-    eos: ../../assets/logos/pp/eos.png
-    nikon-slm: ../../assets/logos/pp/nikon-slm.png
-    velo3d: ../../assets/logos/pp/velo3d.png
-    farsoon: ../../assets/logos/pp/farsoon.png
-    freeform: ../../assets/logos/pp/freeform.png
-    eplus3d: ../../assets/logos/pp/eplus3d.png
-    aml3d: ../../assets/logos/pp/aml3d.png
-    meltio: ../../assets/logos/pp/meltio.png
-    seurat: ../../assets/logos/pp/seurat.png
-    xjet: ../../assets/logos/pp/xjet.png
-    fabric8labs: ../../assets/logos/pp/fabric8labs.png
-    incus: ../../assets/logos/pp/incus.png
-    divergent: ../../assets/logos/pp/divergent.png
-    vulcanforms: ../../assets/logos/pp/vulcanforms.png
-    sintavia: ../../assets/logos/pp/sintavia.png
-    conflux: ../../assets/logos/pp/conflux.png
-    alloyed: ../../assets/logos/pp/alloyed.png
-    caracol: ../../assets/logos/pp/caracol.png
+    eos: ../../assets/logos/eos.png
+    nikon-slm: ../../assets/logos/nikon-slm-solutions.png
+    velo3d: ../../assets/logos/velo3d.png
+    farsoon: ../../assets/logos/farsoon-technologies.png
+    freeform: ../../assets/logos/freeform.png
+    eplus3d: ../../assets/logos/eplus3d.png
+    aml3d: ../../assets/logos/aml3d.png
+    meltio: ../../assets/logos/meltio.png
+    seurat: ../../assets/logos/seurat-technologies.png
+    xjet: ../../assets/logos/xjet.png
+    fabric8labs: ../../assets/logos/fabric8labs.png
+    incus: ../../assets/logos/incus.png
+    divergent: ../../assets/logos/divergent-technologies.png
+    vulcanforms: ../../assets/logos/vulcanforms.png
+    sintavia: ../../assets/logos/sintavia.png
+    conflux: ../../assets/logos/conflux-technology.png
+    alloyed: ../../assets/logos/alloyed.png
+    caracol: ../../assets/logos/caracol.png
 - label: METAL 3D PRINTING
   type: pp_killers
   mode: dead
@@ -1155,7 +1155,7 @@ slides:
     - 0
     - 0
     - 0
-    src: ../../assets/logos/pp/3deo.png
+    src: ../../assets/logos/3deo.png
     ini: '3'
   - name: MatterFab
     slug: matterfab
@@ -1225,7 +1225,7 @@ slides:
     website: https://3deo.co
     why_it_failed: Went insolvent in 2026
     slug: 3deo
-    src: ../../assets/logos/pp/3deo.png
+    src: ../../assets/logos/3deo.png
     ini: '3'
   - lesson: Ship to customers early
     explanation: Freeform sells parts while it scales
@@ -1253,15 +1253,15 @@ slides:
     large metal printer leader?'
   companies:
   - short: Nikon SLM
-    src: ../../assets/logos/pp/nikon-slm.png
+    src: ../../assets/logos/nikon-slm-solutions.png
   - short: EOS
-    src: ../../assets/logos/pp/eos.png
+    src: ../../assets/logos/eos.png
   - short: Velo3D
-    src: ../../assets/logos/pp/velo3d.png
+    src: ../../assets/logos/velo3d.png
   - short: Farsoon
-    src: ../../assets/logos/pp/farsoon.png
+    src: ../../assets/logos/farsoon-technologies.png
   - short: Renishaw
-    src: ../../assets/logos/pp/renishaw.png
+    src: ../../assets/logos/renishaw.png
   criteria:
   - name: Builds over 1 meter tall
     why: Big rocket and ship parts

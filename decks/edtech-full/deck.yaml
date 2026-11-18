@@ -1020,8 +1020,8 @@ slides:
   - name: School platforms
     p: 35
     logos:
-    - ../../assets/logos/magicschool.png
-    - ../../assets/logos/pp/instructure.png
+    - ../../assets/logos/magicschool-ai.png
+    - ../../assets/logos/instructure.png
   - name: Workforce learning
     p: 22
     logos:
@@ -1030,13 +1030,13 @@ slides:
   - name: Online courses
     p: 20
     logos:
-    - ../../assets/logos/pp/coursera.png
+    - ../../assets/logos/coursera.png
     - media/raw/f4e850957ea1.png
   - name: Digital tutoring
     p: 14
     logos:
     - ../../assets/logos/preply.png
-    - ../../assets/logos/pp/duolingo.png
+    - ../../assets/logos/duolingo.png
   - name: Other spending
     p: 9
     logos:
@@ -4524,7 +4524,7 @@ slides:
     date: '2024'
   - name: Speak
     amt: 78000000.0
-    src: ../../assets/logos/pp/speak.png
+    src: ../../assets/logos/speak.png
     stage: Series C
     date: '2024'
   note:
@@ -4710,7 +4710,7 @@ slides:
   srcs:
     classdojo: ../../assets/logos/classdojo.png
     newsela: ../../assets/logos/newsela.png
-    magicschool: ../../assets/logos/magicschool.png
+    magicschool: ../../assets/logos/magicschool-ai.png
     amira: ../../assets/logos/amira.png
     teachy: ../../assets/logos/teachy.png
     brisk: ../../assets/logos/brisk.png
@@ -4718,14 +4718,14 @@ slides:
     gostudent: ../../assets/logos/gostudent.png
     knowunity: ../../assets/logos/knowunity.png
     speakx: ../../assets/logos/speakx.png
-    sigiq: ../../assets/logos/sigiq.png
+    sigiq: ../../assets/logos/sigiq-ai.png
     oboe: ../../assets/logos/oboe.png
     multiverse: ../../assets/logos/multiverse.png
     guild: ../../assets/logos/guild.png
     yoodli: ../../assets/logos/yoodli.png
     stepful: ../../assets/logos/stepful.png
     fullyramped: ../../assets/logos/fullyramped.png
-    secondnature: ../../assets/logos/secondnature.png
+    secondnature: ../../assets/logos/second-nature.png
   weight: {}
 - id: ed172
   type: x/different_types_startup
@@ -5924,7 +5924,7 @@ slides:
     millions of teachers'
   left: A REGULAR SCHOOL VENDOR
   right: MAGICSCHOOL
-  logo: magicschool
+  logo: magicschool-ai
   rows:
   - - They are founded by software sellers far from classrooms
     - They were founded by a former principal who knew teachers

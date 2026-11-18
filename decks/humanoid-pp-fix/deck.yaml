@@ -57,19 +57,19 @@ slides:
   - name: General-purpose bipedal
     p: 70
     logos:
-    - ../../assets/logos/unitree-robotics.png
-    - ../../assets/logos/lib/agibot.png
+    - ../../assets/logos/unitree-robotics--symbol.png
+    - ../../assets/logos/agibot.png
   - name: Industrial and factory
     p: 27
     logos:
-    - ../../assets/logos/lib/ubtech.png
-    - ../../assets/logos/lib/apptronik.png
+    - ../../assets/logos/ubtech-robotics.png
+    - ../../assets/logos/apptronik--symbol.png
   - name: Other categories
     p: 3
     logos:
-    - ../../assets/logos/lib/booster-robotics.png
-    - ../../assets/logos/lib/agility-robotics.png
-    - ../../assets/logos/lib/pudu.png
+    - ../../assets/logos/booster-robotics--symbol.png
+    - ../../assets/logos/agility-robotics--symbol.png
+    - ../../assets/logos/pudu-robotics--symbol.png
   note:
   - We started from IDC’s $440M of humanoid revenue in 2025, of which Unitree, AgiBot and UBTECH report about $380M
   - We placed each maker in its category of our definition and estimated the rest from shipments and prices
@@ -92,7 +92,7 @@ slides:
     x: 0.2
     y: 0.62
     logos:
-    - src: ../../assets/logos/lib/booster-robotics.png
+    - src: ../../assets/logos/booster-robotics--symbol.png
     - src: ../../assets/logos/fourier-intelligence.png
   - name: Robots sold outright
     x: 0.5
@@ -131,9 +131,9 @@ slides:
     pct: 48% of total
     w: 100.0
     logos:
-    - src: ../../assets/logos/lib/xpeng.png
+    - src: ../../assets/logos/xpeng--symbol.png
     - src: ../../assets/logos/galbot.png
-    - src: ../../assets/logos/lib/robotera.png
+    - src: ../../assets/logos/robotera.png
   - name: Developer and research platforms
     names:
     - Spirit AI
@@ -142,8 +142,8 @@ slides:
     pct: 24% of total
     w: 50.5
     logos:
-    - src: ../../assets/logos/lib/spirit-ai.png
-    - src: ../../assets/logos/lib/gigaai.png
+    - src: ../../assets/logos/spirit-ai-qianxun.png
+    - src: ../../assets/logos/gigaai--symbol.png
     - src: ../../assets/logos/rhoda-ai.png
   - name: Industrial and factory
     names:
@@ -153,8 +153,8 @@ slides:
     pct: 19% of total
     w: 39.5
     logos:
-    - src: ../../assets/logos/lib/apptronik.png
-    - src: ../../assets/logos/lib/agile-robots.png
+    - src: ../../assets/logos/apptronik--symbol.png
+    - src: ../../assets/logos/agile-robots.png
     - src: ../../assets/logos/walden-robotics.png
   - name: Domestic and eldercare
     names:
@@ -164,9 +164,9 @@ slides:
     pct: 4% of total
     w: 7.9
     logos:
-    - src: ../../assets/logos/lib/sunday-robotics.png
-    - src: ../../assets/logos/lib/knowin.png
-    - src: ../../assets/logos/lib/futuring-robot.png
+    - src: ../../assets/logos/sunday-robotics.png
+    - src: ../../assets/logos/knowin-ai.png
+    - src: ../../assets/logos/futuring-robot.png
   - name: Service and social
     names:
     - Pudu Robotics
@@ -175,8 +175,8 @@ slides:
     pct: 2% of total
     w: 4.6
     logos:
-    - src: ../../assets/logos/lib/pudu.png
-    - src: ../../assets/logos/lib/unix.png
+    - src: ../../assets/logos/pudu-robotics--symbol.png
+    - src: ../../assets/logos/unix-ai.png
   - name: Wheeled and hybrid bases
     names:
     - AI² Robotics
@@ -185,9 +185,9 @@ slides:
     pct: 2% of total
     w: 4.0
     logos:
-    - src: ../../assets/logos/lib/ai2.png
+    - src: ../../assets/logos/ai2.png
     - src: ../../assets/logos/dexmate.png
-    - src: ../../assets/logos/lib/simple-ai.png
+    - src: ../../assets/logos/simple-ai.png
   - name: Warehouse and logistics
     names:
     - Dexterity
@@ -196,9 +196,9 @@ slides:
     pct: 1% of total
     w: 2.4
     logos:
-    - src: ../../assets/logos/lib/dexterity.png
+    - src: ../../assets/logos/dexterity--symbol.png
     - src: ../../assets/logos/avatar-robotics.png
-    - src: ../../assets/logos/lib/agility-robotics.png
+    - src: ../../assets/logos/agility-robotics--symbol.png
   note:
   - We added up every equity round of humanoid startups in our tracker over the last twelve months
   - by category of our market definition, and rounds with no public amount count as zero here
