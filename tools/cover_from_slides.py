@@ -37,7 +37,7 @@ for e in P:
     mid = (sh.get('shapeProperties') or {}).get('contentAlignment') == 'MIDDLE'
     box = dict(left=round(t.get('translateX', 0) * PX, 1), top=round(t.get('translateY', 0) * PX + (0 if mid else INSET), 1), width=round(3000000 * t.get('scaleX', 1) * PX, 1),
                height=round(3000000 * t.get('scaleY', 1) * PX, 1) if mid else 0, pt=pt)
-    key = 'copyright' if txt.startswith('©') else 'disc' if 'This report' in txt else 'button' if 'NEWMARKETPITCH' in txt else 'sub' if 'M A R K E T' in txt else 'title'
+    key = 'copyright' if txt.startswith('©') else 'disc' if 'This report' in txt else 'button' if 'NEWMARKETPITCH' in txt else 'sub' if 'P I T C H' in txt else 'title'   # « N E W  M A R K E T  P I T C H »: a title can hold M A R K E T too (Longevity, 18 Nov 2026)
     ls = [r['paragraphMarker']['style']['lineSpacing'] for r in (sh.get('text') or {}).get('textElements', []) if (r.get('paragraphMarker') or {}).get('style', {}).get('lineSpacing')]
     if key == 'title' and ls: box['lh'] = round(1.197 * ls[0] / 100, 3)      # Google Slides: 100 % line spacing in Lexend = 1.197 x the font size (measured on the Healthcare AI thumbnail)
     if key != 'button': G[key] = box

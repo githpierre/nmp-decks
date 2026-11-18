@@ -1,0 +1,681 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved
+
+    pain points in longevity?'
+  auds:
+  - Frail seniors
+  - At-risk adults
+  - Metabolic patients
+  - Memory patients
+  - Infection survivors
+  pains:
+  - - They see aging damage get worse while drugs only treat symptoms
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 3
+  - - They live with several age-linked diseases that make care harder
+    - - 3
+      - 1
+      - 3
+      - 2
+      - 2
+  - - They lose muscle and strength and recover slowly after illness
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 3
+  - - They get standard treatments that ignore how they age differently
+    - - 2
+      - 2
+      - 3
+      - 2
+      - 2
+  - - They catch infections more often and heal slower as immunity fades
+    - - 2
+      - 1
+      - 2
+      - 1
+      - 3
+  - - They lose the memory and focus they need to live on their own
+    - - 2
+      - 1
+      - 1
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which longevity player has
+
+    the most complete tech today?'
+  companies:
+  - name: Fountain
+    src: ../../assets/logos/pp_live/longevity/s05-00.png
+  - name: Superpower
+    src: ../../assets/logos/pp_live/longevity/s05-01.png
+  - name: HLI
+    src: ../../assets/logos/pp_live/longevity/s05-02.png
+  - name: Function
+    src: ../../assets/logos/pp_live/longevity/s05-03.png
+  - name: Neko Health
+    src: ../../assets/logos/pp_live/longevity/s05-04.png
+  - name: Lifeforce
+    src: ../../assets/logos/pp_live/longevity/s05-05.png
+  features:
+  - header: Own|clinics
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Full-body|MRI
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Own body|scanners
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Genome|sequencing
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Wearable|sync
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: AI health|chat
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Rx and|therapies
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    longevity down?'
+  events:
+  - odds: 50
+    impact: 3
+    text: The FDA refuses to call aging a disease, so rapamycin and similar drugs lack an approval path
+  - odds: 40
+    impact: 2
+    text: Doctors prescribe GLP-1 drugs from Lilly and Novo Nordisk as longevity care, absorbing demand from smaller startups
+  - odds: 35
+    impact: 2
+    text: Altos Labs and Retro Biosciences spend billions without a drug in Phase 2, cooling investor interest
+  - odds: 30
+    impact: 2
+    text: The FTC fines supplement brands like those selling NAD+ boosters for health claims without clinical proof
+  - odds: 25
+    impact: 1
+    text: Consumers drop $500 longevity memberships during a downturn, so clinics like Fountain Life struggle to keep members
+  - odds: 20
+    impact: 3
+    text: A large metformin or senolytic trial shows no lifespan benefit and investors pull back from the field
+  - odds: 20
+    impact: 2
+    text: Function Health and Superpower face state lab rules that limit direct-to-consumer blood testing without a doctor
+  - odds: 10
+    impact: 3
+    text: A death tied to an unapproved gene therapy at an offshore clinic triggers public backlash against longevity
+  note:
+  - We listed the events that could slow longevity down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed longevity
+
+    forward, year after year?'
+  events:
+  - year: '1993'
+    text: Kenyon doubles worm lifespan with one gene
+    impact: 2.5
+  - year: '2003'
+    text: Resveratrol study sparks anti-aging pill hype
+    impact: 1
+  - year: '2006'
+    text: Yamanaka factors show cells can be reset
+    impact: 2.5
+  - year: '2008'
+    text: GSK pays $720M for Sirtris aging pills
+    impact: 2
+  - year: '2009'
+    text: Rapamycin extends mouse life, a drug works
+    impact: 2
+  - year: '2009'
+    text: Nobel for telomeres spotlights aging science
+    impact: 1
+  - year: '2011'
+    text: Clearing senescent cells keeps mice young
+    impact: 1.5
+  - year: '2013'
+    text: Hallmarks of Aging paper gives field targets
+    impact: 1
+  - year: '2013'
+    text: Google's Calico makes aging a tech bet
+    impact: 3
+  - year: '2013'
+    text: Horvath clock makes biological age measurable
+    impact: 2
+  - year: '2014'
+    text: Novartis mTOR drug boosts elderly immunity
+    impact: 1.5
+  - year: '2015'
+    text: TAME trial asks FDA to target aging
+    impact: 1.5
+  - year: '2015'
+    text: Elysium Basis starts NAD pill consumer market
+    impact: 1
+  - year: '2016'
+    text: Partial reprogramming makes old mice younger
+    impact: 2
+  - year: '2018'
+    text: WHO ICD-11 adds a code for aging
+    impact: 1
+  - year: '2019'
+    text: Sinclair's book sends consumers to NMN
+    impact: 1.5
+  - year: '2020'
+    text: Covid deaths expose aging as top risk
+    impact: 1.5
+  - year: '2020'
+    text: Unity knee trial flop pushes smarter targets
+    impact: 0.5
+  - year: '2022'
+    text: Altos $3B launch makes reprogramming a race
+    impact: 3
+  - year: '2022'
+    text: Saudi Hevolution pledges $1B yearly for aging
+    impact: 2
+  - year: '2023'
+    text: Altman's $180M bet pulls tech money in
+    impact: 1.5
+  - year: '2023'
+    text: Bryan Johnson makes reversing age go viral
+    impact: 1.5
+  - year: '2023'
+    text: Attia's Outlive turns healthspan into habit
+    impact: 1.5
+  - year: '2023'
+    text: GLP-1 boom proves people pay for health
+    impact: 2
+  - year: '2023'
+    text: FDA accepts Loyal's dog lifespan efficacy
+    impact: 2
+  - year: '2023'
+    text: XPRIZE puts $101M on reversing muscle aging
+    impact: 1
+  - year: '2023'
+    text: Function sells $499 yearly full body labs
+    impact: 1.5
+  - year: '2025'
+    text: FDA accepts efficacy for senior dog pill
+    impact: 1.5
+  - year: '2025'
+    text: Montana law allows experimental drug clinics
+    impact: 1
+  - year: '2026'
+    text: FDA accepts dog lifespan pill safety data
+    impact: 2
+  note:
+  - We kept the events we believe pushed longevity forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: longevity
+  title: 'Where did longevity investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of longevity startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Aging-biology drugs
+    names:
+    - NewLimit
+    - Cambrian Biopharma
+    v: $1.2B
+    pct: 38% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/nl/newlimit.png
+    - src: ../../assets/logos/nl/cambrian-biopharma.png
+    - src: ../../assets/logos/nl/cognito-therapeutics.png
+  - name: Preventive health platforms
+    names:
+    - Neko Health
+    - Function Health
+    v: $1.1B
+    pct: 35% of total
+    w: 91.2
+    logos:
+    - src: ../../assets/logos/nl/neko-health.png
+    - src: ../../assets/logos/nl/function-health.png
+    - src: ../../assets/logos/nl/everlab.png
+  - name: Consumer longevity brands
+    names:
+    - WHOOP
+    - Oura
+    v: $753M
+    pct: 23% of total
+    w: 60.3
+    logos:
+    - src: ../../assets/logos/nl/whoop.png
+    - src: ../../assets/logos/nl/oura.png
+    - src: ../../assets/logos/eight-sleep.png
+  - name: Longevity clinics
+    names:
+    - Midi Health
+    - Longevium
+    v: $123M
+    pct: 4% of total
+    w: 9.9
+    logos:
+    - src: ../../assets/logos/nl/midi-health.png
+    - src: ../../assets/logos/nl/longevium.png
+    - src: ../../assets/logos/nl/agelessrx.png
+  - name: Aging research platforms
+    names:
+    - Gero
+    v: $17M
+    pct: under 1% of total
+    w: 1.4
+    logos:
+    - src: ../../assets/logos/nl/gero.png
+  - name: Biological-age tests
+    names:
+    - GlycanAge
+    - Entourage AI
+    v: $14M
+    pct: under 1% of total
+    w: 1.1
+    logos:
+    - src: ../../assets/logos/nl/glycanage.png
+    - src: ../../assets/logos/nl/entourage-ai.png
+ed171p:
+  title: 'Who are the top companies
+
+    in the longevity market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/longevity/s10-00.png
+    x: 244.7
+    y: 271.1
+  - src: ../../assets/logos/pp_live/longevity/s10-01.png
+    x: 299.1
+    y: 277.7
+  - src: ../../assets/logos/pp_live/longevity/s10-02.png
+    x: 353.1
+    y: 260.8
+  - src: ../../assets/logos/pp_live/longevity/s10-03.png
+    x: 510.2
+    y: 282.6
+  - src: ../../assets/logos/pp_live/longevity/s10-04.png
+    x: 688.7
+    y: 277.1
+  - src: ../../assets/logos/pp_live/longevity/s10-05.png
+    x: 195.0
+    y: 305.4
+  - src: ../../assets/logos/pp_live/longevity/s10-06.png
+    x: 756.4
+    y: 298.5
+  - src: ../../assets/logos/pp_live/longevity/s10-07.png
+    x: 285.0
+    y: 331.7
+  - src: ../../assets/logos/pp_live/longevity/s10-08.png
+    x: 340.3
+    y: 331.7
+  - src: ../../assets/logos/pp_live/longevity/s10-09.png
+    x: 666.2
+    y: 370.3
+  - src: ../../assets/logos/pp_live/longevity/s10-10.png
+    x: 195.0
+    y: 393.0
+  - src: ../../assets/logos/pp_live/longevity/s10-11.png
+    x: 251.6
+    y: 402.6
+  - src: ../../assets/logos/pp_live/longevity/s10-12.png
+    x: 306.9
+    y: 389.1
+  - src: ../../assets/logos/pp_live/longevity/s10-13.png
+    x: 492.0
+    y: 393.0
+  - src: ../../assets/logos/pp_live/longevity/s10-14.png
+    x: 735.0
+    y: 432.9
+  - src: ../../assets/logos/pp_live/longevity/s10-15.png
+    x: 781.7
+    y: 432.9
+  - src: ../../assets/logos/pp_live/longevity/s10-16.png
+    x: 829.9
+    y: 432.9
+  - src: ../../assets/logos/pp_live/longevity/s10-17.png
+    x: 388.3
+    y: 492.9
+  - src: ../../assets/logos/pp_live/longevity/s10-18.png
+    x: 445.3
+    y: 468.9
+  - src: ../../assets/logos/pp_live/longevity/s10-19.png
+    x: 555.0
+    y: 487.7
+  - src: ../../assets/logos/pp_live/longevity/s10-20.png
+    x: 626.4
+    y: 468.9
+  - src: ../../assets/logos/pp_live/longevity/s10-21.png
+    x: 679.7
+    y: 468.9
+  - src: ../../assets/logos/pp_live/longevity/s10-22.png
+    x: 747.0
+    y: 492.9
+  - src: ../../assets/logos/pp_live/longevity/s10-23.png
+    x: 285.0
+    y: 505.3
+  - src: ../../assets/logos/pp_live/longevity/s10-24.png
+    x: 492.0
+    y: 517.7
+  - src: ../../assets/logos/pp_live/longevity/s10-25.png
+    x: 626.6
+    y: 517.7
+  - src: ../../assets/logos/pp_live/longevity/s10-26.png
+    x: 679.7
+    y: 517.7
+  - src: ../../assets/logos/pp_live/longevity/s10-27.png
+    x: 813.9
+    y: 507.6
+  cols:
+  - B2B / healthcare
+  - Hybrid clinician–consumer
+  - Direct-to-consumer
+  rows:
+  - Cellular/gene
+  - Pathway/system
+  - Multi-system / tools
+  note:
+  - We placed startups focused on healthspan, the biology of aging or prevention by their main focus
+  - We left out general wellness, and you will find all the sources we used at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these longevity
+
+    startups, and how did they end?'
+  causes:
+  - Trial|failed
+  - Regulator|warning
+  - Ran out|of cash
+  - No buyer or|partner
+  rows:
+  - name: Unity Bio
+    ending: Shut down
+    start: '2011'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/longevity/s11-00.png
+    ini: U
+    slug: unity-biotechnology
+    domain: unitybiotechnology.com
+  - name: resTORbio
+    ending: Merged into Adicet
+    start: '2016'
+    end: '2020'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/longevity/s11-01.png
+    ini: r
+    slug: restorbio
+    domain: restorbio.com
+  - name: CohBar
+    ending: Chose to liquidate
+    start: '2007'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/longevity/s11-02.png
+    ini: C
+    slug: cohbar
+    domain: cohbar.com
+  - name: Modern Age
+    ending: Shut down
+    start: '2021'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/longevity/s11-03.png
+    ini: M
+    slug: modern-age
+    domain: modernage.com
+  - name: Ambrosia
+    ending: Halted after FDA
+    start: '2016'
+    end: '2019'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/longevity/s11-04.png
+    ini: A
+    slug: ambrosia
+    domain: ambrosiaplasma.com
+  note:
+  - We tracked the longevity startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Function Health winning
+
+    the longevity testing market?'
+  companies:
+  - short: Function
+    src: ../../assets/logos/pp_live/longevity/s12-00.png
+  - short: Superpower
+    src: ../../assets/logos/pp_live/longevity/s12-01.png
+  - short: Insidetrack
+    src: ../../assets/logos/pp_live/longevity/s12-02.png
+  - short: Lifeforce
+    src: ../../assets/logos/pp_live/longevity/s12-03.png
+  - short: Fountain
+    src: ../../assets/logos/pp_live/longevity/s12-04.png
+  criteria:
+  - name: $450M raise in 2026
+    why: Cash to keep buying firms
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Valued at $2.5B
+    why: Cash to buy rivals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Yearly plan under $400
+    why: Mass market price
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Full body MRI add-on
+    why: Catches disease early
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Owns home blood draw firm
+    why: Easy testing at home
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Hormone and peptide care
+    why: Treats, not only tests
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Athlete performance focus
+    why: Loyal sports audience
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Who is in the longevity
+
+    market, and who is not?'
+  caption:
+  - Distance to the center reflects how directly a company targets the biology of aging, rather than general health or wellness
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  TL:
+    name: Function Health
+    src: ../../assets/logos/pp_live/longevity/s01-00.png
+    text: runs over 100 lab tests to catch disease early, which is valuable prevention but does not target the biology of aging
+  TR:
+    name: AG1
+    src: ../../assets/logos/pp_live/longevity/s01-02.png
+    text: sells a daily greens supplement with a strong wellness positioning, but none of its products are designed or tested to slow aging
+  BL:
+    name: Loyal
+    src: ../../assets/logos/pp_live/longevity/s01-10.png
+    text: is developing drugs to extend lifespan and has made real progress with the FDA, but for now its patients are dogs, not people
+  BR:
+    name: Elysium
+    src: ../../assets/logos/pp_live/longevity/s01-11.png
+    text: sells an NAD+ supplement backed by well-known scientific advisors, but a supplement is not a clinically proven anti-aging therapy
+  inside:
+  - ../../assets/logos/pp_live/longevity/s01-01.png
+  - ../../assets/logos/pp_live/longevity/s01-03.png
+  - ../../assets/logos/pp_live/longevity/s01-04.png
+  - ../../assets/logos/pp_live/longevity/s01-05.png
+  - ../../assets/logos/pp_live/longevity/s01-06.png
+  - ../../assets/logos/pp_live/longevity/s01-07.png
+  - ../../assets/logos/pp_live/longevity/s01-08.png
+  - ../../assets/logos/pp_live/longevity/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/longevity/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/longevity/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/longevity/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/longevity/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/longevity/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/longevity/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/longevity/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/longevity/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  csv: assets/trends/longevity/longevity.csv
+  term: longevity
+  title: 'Now, more and more people
+
+    are googling longevity'
+  date: Recently.
+  expl: Longevity left the lab and entered the gym. Bryan Johnson and Peter Attia turned it into a daily routine, Netflix shows and podcasts made “healthspan”
+    a household word, and clinics started selling it. People now google longevity the way they used to google diets.
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+ed052p:
+  type: pp_cagr
+  title: 'Where could the longevity
+
+    market be in ten years?'
+  size: 29
+  cagr: 8
+  y0: 2026
+  lead: 'To get there, '
+  condition: the market must win FDA recognition of aging as treatable, prove senolytics in late-stage trials, and secure broad insurer reimbursement. It
+    also needs faster adoption in Asia and a major tech firm to turn cell-reprogramming advances, like the Retro Biosciences and OpenAI work, into products.
+  note:
+  - We compared forecasts from Grand View, Fortune Business Insights, Straits, Technavio and IMARC
+  - We adjusted each one to our definition of the market, and all our sources are at the end of the report

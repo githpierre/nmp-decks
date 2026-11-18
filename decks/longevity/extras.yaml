@@ -1,0 +1,309 @@
+- after: ed104
+  link: ed104 « People who renew their plan year after year, so each new member is worth more over time » leads to how firms get paid
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do longevity companies
+
+      really make their money?'
+    axes:
+    - Pays per test or visit
+    - Pays every month
+    - Done
+    - at home
+    - Done
+    - in a clinic
+    groups:
+    - name: Full body scan per visit
+      x: 0.18
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/longevity/s06-00.png
+      - src: ../../assets/logos/pp_live/longevity/s06-01.png
+    - name: Biological age test kits
+      x: 0.18
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/longevity/s06-05.png
+    - name: Blood testing membership
+      x: 0.5
+      y: 0.5
+      logos:
+      - src: ../../assets/logos/pp_live/longevity/s06-03.png
+      - src: ../../assets/logos/pp_live/longevity/s06-04.png
+    - name: Supplement subscription
+      x: 0.82
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/longevity/s06-06.png
+    - name: Premium clinic membership
+      x: 0.85
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/longevity/s06-02.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: signal 1
+  slide:
+    id: xl_neko_scans
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Neko Health’s scans rose more than
+
+      ninefold in 17 months, to 92,002'
+    t:
+      9: 10,000
+      10: Jan 2025
+      12: 92,002
+      13: Jun 2026
+      15: ×9.2
+      16: WHY IT IS HOT
+      17: 'People pay to be checked while they still feel fine: Neko Health went from 10,000 to 92,002 completed scans in a year and a half.
+
+        These are scans done, not unique people, and the figures come from the company, not an audit.'
+    vbars:
+    - 10000
+    - 92002
+    note: We compared Neko Health’s scan count of January 23, 2025 with its data report covering scans up to June 30, 2026
+    fresh:
+      period: total
+      end: 2026-09
+- after: xl_neko_scans
+  link: signal 2
+  slide:
+    id: xl_prenuvo
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Prenuvo doubled its whole-body MRI
+
+      scans in two years, past 200,000'
+    t:
+      9: 100,000
+      10: Dec 2024
+      12: 200,000+
+      13: Sep 2026
+      15: ×2
+      16: WHY IT IS HOT
+      17: 'Healthy adults keep booking full-body MRIs at their own cost: Prenuvo passed 200,000 scans less than two years after its 100,000th.
+
+        Prenuvo now turns these scans into a research biobank, a second business built on the same visits.'
+    vbars:
+    - 100000
+    - 200000
+    note: We compared Prenuvo’s 100,000-scan milestone of December 17, 2024 with its release of September 29, 2026, which gives more than 200,000
+    fresh:
+      period: total
+      end: 2026-09
+- after: xl_prenuvo
+  link: signal 3
+  slide:
+    id: xl_neko_kpis
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: '350,000 people signed up for a Neko
+
+      scan, and 3 in 4 members book again'
+    items:
+    - value: 350,000+
+      label: People who registered for a Neko Health scan by July 2026, mostly in Sweden and the UK
+    - value: 100,000+
+      label: Members who had already been through a scan at one of its clinics by July 2026
+    - value: 75%
+      label: Members who book and prepay next year’s scan at the end of their visit, on average
+    why: This is a sign of a hot market because demand runs ahead of clinic space and members pay a year in advance. Sign-ups include people already scanned, so they are not a pure waiting list.
+    note: We used Neko Health’s release of July 15, 2026 on its $700M Series C for all three figures, which the company did not audit
+    fresh:
+      period: total
+      end: 2026-07
+- after: xl_neko_kpis
+  link: signal 4
+  slide:
+    id: xl_function
+    type: sx_stat_strip
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Function Health topped 500,000 members
+
+      and 100 million lab tests in three years'
+    headline: Function Health in July 2026, three years after its launch
+    stats:
+    - v: 500,000+
+      l: People who became members since its 2023 launch
+    - v: 100M+
+      l: Lab tests run for its members since launch
+    - v: 160+
+      l: Lab tests in one yearly membership, for $365
+    story: A testing membership reached mass-market scale in three years, a sign of a hot market. Members to date are not all active payers, and tests are not unique people.
+    note:
+    - We used Athletech News on Function’s $450M financing of July 31, 2026 for members and tests
+    - and Function’s own membership page, checked on November 18, 2026, for the tests per year
+    fresh:
+      period: total
+      end: 2026-07
+- after: xl_function
+  link: signal 5
+  slide:
+    id: xl_deals
+    type: sx_league
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Four big firms signed deals with
+
+      aging-biology startups in 2026'
+    big: '4'
+    h0: STARTUP AND PARTNER
+    h1: RANK
+    h2: WHEN
+    kicker: WHY IT IS HOT
+    rows:
+    - n: 1
+      name: Gordian Bio + Pfizer
+      src: ../../assets/logos/nl/gordian-biotechnology.png
+      v: Jan 2026
+      what: Research deal on aging-disease targets
+    - n: 2
+      name: Eos SENOLYTIX + Pulmatrix
+      src: ../../assets/logos/eos-senolytix.png
+      v: Mar 2026
+      what: Merger agreement, still pending
+    - n: 3
+      name: Rejuvenate Bio + Merck
+      src: ../../assets/logos/nl/rejuvenate-bio--symbol.png
+      v: Jun 2026
+      what: Pet medicine R&D deal, with Merck Animal Health
+    - n: 4
+      name: Junevity + Amorepacific
+      src: ../../assets/logos/nl/junevity.png
+      v: Sep 2026
+      what: Skin aging deal and license
+    story: Large drug, animal health and beauty groups now pay to reach aging-biology platforms, a sign of a hot market. None of these deals proves that a treatment works.
+    note:
+    - We listed four deals announced by the companies from January 8 to September 29, 2026
+    - The Eos merger was still pending on November 17, 2026, and a research deal is not a purchase
+    fresh:
+      period: year
+      end: 2026-09
+- after: xl_deals
+  link: signal 6
+  slide:
+    id: xl_acq
+    type: sx_league
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Longevity players announced four
+
+      acquisitions in five months of 2026'
+    big: '4'
+    h0: BUYER AND TARGET
+    h1: RANK
+    h2: WHEN
+    kicker: WHY IT IS HOT
+    rows:
+    - n: 1
+      name: Function + Getlabs
+      src: ../../assets/logos/nl/function-health--symbol.png
+      v: Apr 2026
+      what: Home blood draws for members
+    - n: 2
+      name: Infinite Epigenetics + Tally Health
+      src: ../../assets/logos/nl/tally-health.png
+      v: Apr 2026
+      what: Biological-age tests at home
+    - n: 3
+      name: Function + SuppCo
+      src: ../../assets/logos/nl/function-health--symbol.png
+      v: May 2026
+      what: Supplement guidance platform
+    - n: 4
+      name: Temple + Longevous
+      src: ../../assets/logos/nl/temple-wearables.png
+      v: Aug 2026
+      what: Longevity clinic, ahead of launch
+    story: Leaders buy labs, tests and clinics instead of building them, a sign of a hot market. Function made two of the four deals, and no price was disclosed.
+    note:
+    - We listed four acquisitions announced by the buyers from April 8 to August 27, 2026
+    - This counts deals, not distinct buyers, prices paid or finished integrations of the targets
+    fresh:
+      period: year
+      end: 2026-08
+- after: ed063-s1
+  link: ed063-s1 « They need early tests for the heart disease, cancer or dementia that runs in their family history »
+  slide:
+    id: xl_hidden
+    type: sx_stat_strip
+    section: Pain points
+    title: 'About 1 in 100 Neko members who felt
+
+      well had a hidden severe condition'
+    headline: Swedish members aged 28 to 72 with a severe hidden finding
+    stats:
+    - v: 1.0%
+      l: Members scanned in 2023, the first full year
+    - v: 1.2%
+      l: Members scanned in 2024, as volumes grew
+    - v: 1.0%
+      l: Members scanned in 2025, as scan volumes tripled
+    story: People who feel healthy can still carry a serious disease, which is why they pay to be checked. The rate held at about 1% as more people came in.
+    note:
+    - We used Neko Health’s data report of September 14, 2026 on members with no symptoms
+    - These members chose to be scanned, so the rate is not one for the whole population
+- after: ed136
+  link: ed136 « Aging outcomes take years to measure with confidence »
+  slide:
+    id: xl_xprize
+    type: sx_faceoff
+    section: Market challenges
+    title: 'Only 10 of more than 600 XPRIZE teams
+
+      won the second healthspan award'
+    cards:
+    - name: ENTRANTS, 2025
+      stats:
+      - v: 600+
+        l: teams from 58 countries entered the $101M prize
+      - v: '40'
+        l: teams still in the race by May 2025
+    - name: SECOND AWARD, 2026
+      hl: true
+      stats:
+      - v: '10'
+        l: finalists that won the second milestone award
+      - v: '20'
+        l: finalists picked to test treatments in people
+    story: Proving that a treatment adds healthy years is slow and hard, even with a large prize behind it. Being picked for more testing is not proof that it works.
+    note:
+    - We used XPRIZE releases of May 12, 2025 and August 11, 2026
+    - Teams include universities and labs, so not only startups
+- after: ed200
+  link: ed200 « They fail when lab gains do not hold up in human trials »
+  slide:
+    id: xl_bioage
+    type: sx_faceoff
+    section: Startup killers
+    title: 'BioAge stock fell 80% from its peak
+
+      after its lead trial was halted'
+    cards:
+    - name: PEAK, OCT 2024
+      stats:
+      - v: $25.83
+        l: highest closing share price, weeks after its IPO
+      - v: Phase 2
+        l: azelaprag trial running at the time
+    - name: NOV 2026
+      hl: true
+      stats:
+      - v: $5.10
+        l: closing share price on November 17, 2026
+      - v: 100%
+        l: of revenue from one partner, no product sales
+    story: When a lead drug fails in people, a public aging-biology company loses most of its value fast. BioAge still lives on one research partner.
+    note:
+    - We compared the peak close of October 21, 2024 with the close of November 17, 2026
+    - Revenue share from BioAge’s 10-Q for the nine months to September 30, 2026

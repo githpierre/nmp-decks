@@ -25,6 +25,13 @@ def money(v):
 def poss(n): return n + ('’' if n.endswith('s') else '’s')      # « Isomorphic Labs’ $2.1B », « Sail’s $465M »
 
 
+INV_TAIL = re.compile(r'(\s*,?\s+(Management(\s*&\s*Research)?(\s+Company)?|Venture Partners|Venture Capital|Ventures|Capital Partners|Capital Management|Partners|Capital|LLC|L\.?P\.?|Inc\.?))+$', re.I)
+def inv_short(x):   # « Fidelity Management & Research Company » -> « Fidelity », « Lightspeed Venture Partners » -> « Lightspeed »: the name people use (Longevity, 18 Nov 2026: names too long for the investor slide)
+    y = INV_TAIL.sub('', x).strip(); return y if len(y) >= 3 else x
+CO_TAIL = re.compile(r'\s+(Biosciences|Pharmaceuticals|Therapeutics|Technologies|Biotechnology)$', re.I)
+def co_short(n): return re.sub(r'\s+Biosciences$', ' Bio', n) if ' ' not in n.rsplit(' ', 1)[0] and n.endswith('Biosciences') else (CO_TAIL.sub('', n) or n)   # « Aeovian Pharmaceuticals » -> « Aeovian » on the narrow investor slide
+
+
 def stage(r):
     t = r['round_type'] or ''
     return '' if t in ('Unknown', 'Other', '') else t.replace('Series D+', 'late-stage')
@@ -44,18 +51,20 @@ def main():
     year_ago = f'{int(today[:4]) - 1}{today[4:]}'
     print(f'{len(R)} equity rounds since 2024, {money(tot)}; base covers to', max(r['date'] for r in R))
 
+    _csf = ROOT / 'decks' / H / 'cat_short.yaml'; CS = yaml.safe_load(_csf.read_text()) if _csf.exists() else {}
     def sentence(r):
         """« Tutor Intelligence raised a $75M Series B led by Andreessen Horowitz for its industrial and factory humanoids {1|Business Wire} »"""
-        lead = (r['lead_investors'] or '').split(';')[0].strip(); st_ = stage(r)
+        lead = inv_short((r['lead_investors'] or '').split(';')[0].strip()); st_ = stage(r)
         if st_ and not st_.startswith('Series'): st_ = st_.lower() + ' round'          # « a $787M growth equity round », never « a $787M Growth Equity » (13 Nov 2026)
         if r['amt']: s = f"{r['name']} raised {'a ' + money(r['amt']) + ' ' + st_ if st_ else money(r['amt'])}"
         else: s = f"{r['name']} raised an undisclosed {st_ or 'round'}"
         if lead: s += f' led by {lead}'
         w_ = (r.get('what') or '').strip().rstrip('.')   # what the company does (markets.csv), so the reader learns something (Pierre, 14 Nov 2026: rows 30-40% too short)
-        lw = lambda x: ' '.join(t if (t.isupper() or any(c.isupper() for c in t[1:])) else t.lower() for t in x.split())
+        PROPER = {'India', 'China', 'Japan', 'Europe', 'Asia', 'Africa', 'America', 'American', 'European', 'Chinese', 'Indian', 'Japanese', 'US', 'UK', 'FDA', 'Korea', 'Korean', 'Singapore', 'Australia', 'Canada', 'Germany', 'France', 'Sweden', 'Swiss'}
+        lw = lambda x: ' '.join(t if (t.isupper() or any(c.isupper() for c in t[1:]) or t.strip(',.') in PROPER) else t.lower() for t in x.split())   # « in India », never « in india » (Longevity, 18 Nov 2026)
         verb = bool(re.match(r'^(Builds|Develops|Combines|Uses|Makes|Designs|Provides|Offers|Creates|Runs|Helps|Turns|Applies)\b', w_))
         _w0 = (w_.split() or [''])[0]   # any verb in the 3rd person (« Operates », « Automates »), never « for its operates » (Healthcare AI, 18 Nov 2026)
-        verb = verb or bool(re.match(r'^[A-Z][a-z]+s$', _w0) and not re.search(r'(ics|ions|ors|ems|ots|ools|ents|ances|ings|orms|ices|ss)$', _w0.lower()))
+        verb = verb or bool(re.match(r'^[A-Z][a-z]+s$', _w0) and not re.search(r'(ics|ions|ors|ems|ots|ools|ents|ances|ings|orms|ices|ss|us|is|as|os|ys)$', _w0.lower()))   # « Thymus » is not a verb (« It thymus regeneration », Longevity, 18 Nov 2026)
         lim = 124 - len(pub(r['source_url']))   # two lines at most, source label included (spec max 128 with the joining words)
         while w_ and len(s) + len(w_) >= lim:                     # too long: cut at the last « for », « to », « with », comma
             cut = max(w_.rfind(x) for x in (' for ', ' to ', ', ', ' with '))   # never at « and »: it splits a noun phrase (« an AI-powered patient data », Healthcare AI, 18 Nov 2026)
@@ -63,7 +72,7 @@ def main():
         if w_ and re.search(r'(-enabled|-powered|-based|-driven|-derived|-specific|-grade|ed)$', w_.split()[-1]): w_ = ''   # a cut that ends on an adjective: use the category instead
         if w_ and verb: s += '. It ' + lw(w_)
         elif w_: s += ' for its ' + lw(w_)
-        elif r['cat'] and len(s) + len(r['cat']) < 100: s += ' for its ' + ' '.join(w if w.isupper() else w.lower() for w in r['cat'].split())   # « life science AI », not « life Science AI »
+        elif r['cat'] and len(s) + len(CS.get(r['cat'], r['cat'])) < 100: s += ' for its ' + ' '.join(w if w.isupper() else w.lower() for w in CS.get(r['cat'], r['cat']).split())   # the short slide name (« aging-biology drugs »), never the base label « longevity therapeutics developers » (Longevity, 18 Nov 2026)   # « life science AI », not « life Science AI »
         p_ = pub(r['source_url']); key = re.sub(r'[^a-z0-9]', '', r['name'].lower())
         lab = re.sub(r'[^a-z0-9]', '', site_label(r['source_url']))
         if p_.lower()[:5] == key[:5] or (len(lab) >= 4 and (key.startswith(lab) or lab.startswith(key))) or 'pr.co' in r['source_url']: p_ = r['name'].split()[0]   # a company's own site, blog or press page: name the company
@@ -145,8 +154,8 @@ def main():
     K = [(7, 10, 14, 18), (8, 12, 16, 20), (9, 13, 17, 21), (26, 28, 30, 32), (27, 29, 31, 33)]
     for (kn, kc, kf, ke), (x, rs) in zip(K, ti):
         s = sum(r['amt'] for r in rs); names = collections.Counter(r['name'] for r in rs)
-        t169[kn] = x.upper(); t169[kc] = str(len(rs)); t169[kf] = money(s) if s else 'Undisclosed'
-        t169[ke] = ', '.join(f'{n} (twice)' if c == 2 else n for n, c in names.most_common(2))
+        t169[kn] = inv_short(x).upper(); t169[kc] = str(len(rs)); t169[kf] = money(s) if s else 'Undisclosed'
+        t169[ke] = ', '.join(f'{co_short(n)} (twice)' if c == 2 else co_short(n) for n, c in names.most_common(2))
     t169['note'] = f'We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the {len(R)} rounds'
     D['ed169'] = t169
     big = sorted(sorted(R, key=lambda r: -r['amt'])[:6], key=lambda r: r['date'])

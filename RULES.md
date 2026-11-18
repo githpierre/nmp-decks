@@ -169,3 +169,14 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Market definition, pain points and value creation are written by Claude from the same brief (decks/<handle>/evergreen/),
   in the result format, checked with tools/check_results.py. The research zip holds only the chapters with dated facts.
 - Texts brought into range after a deck was built go in decks/<handle>/lengths.yaml (applied last, `__replace2__` for nested texts).
+
+## Longevity first build (18 Nov 2026), each with its check
+- Deck logos sit in square tiles: the import takes the `--symbol` file of nmp-logos when there is one (a wide wordmark like Function Health is unreadable at 30 px). Check: `nmp_logo(..., symbol=True)` in import_research.py.
+- Database sentences use the names people use: investor suffixes are cut (« Fidelity », « Lightspeed », never « Fidelity Management & Research Company »), company suffixes too on narrow slides (« Character Bio, Aeovian »), the category is the short slide name of cat_short.yaml, never the base label, and place names keep their capital (« in India »). Check: make_db_slides.py inv_short, co_short, CS, PROPER.
+- A publisher label on a slide is a real name (« SEC filing », « Mint »), never a domain stem (« Formds », « Mentionfox »). Check: PUBLISHER UNKNOWN in make_db_slides.py, PUB in build_sources.py.
+- The stage pill of the pipeline slide holds 6 characters at most (« PH 1 »). Check: STAGE LABEL in the import.
+- Key sources written but build_sources.py not run leaves the reference market's sources: the import says MODEL SOURCES LEFT when sources_key.yaml is newer than sources_slides.yaml (piste B gate).
+- Labels and texts on the same card belong to the same company: read every card of a « stand out » or radar slide against its name (NewLimit and Neko Health texts were swapped by the research). The eye pass catches it, nothing else can.
+- A KPI slide with up arrows only shows rises: a falling funnel (600 teams to 10) takes a face-off or a funnel.
+- The footer label is the exact line of data/market_labels.txt (« Longevity market »), in plans/<handle>.yaml.
+- The cover title can contain « M A R K E T »: cover_from_slides.py finds the subtitle by « P I T C H ».

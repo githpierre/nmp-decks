@@ -9,7 +9,7 @@ set -o pipefail; cd "$(dirname "$0")/.." || exit 1; H=$1; D=decks/$H
 # database slides are regenerated from the latest base only for decks made with make_db_slides.py (they have a db_text.yaml)
 [ -f "$D/db_text.yaml" ] && { python3 tools/make_db_slides.py "$H" --name "$(grep -o -- '--name "[^"]*"' "$D/import.args" | cut -d'"' -f2)" > /tmp/db_$H.log 2>&1 || { tail -5 /tmp/db_$H.log; echo "DATABASE SLIDES FAILED"; exit 1; }; }
 eval "python3 -I tools/import_research.py $(cat "$D/import.args")" > /tmp/import_$H.log 2>&1 || { tail -8 /tmp/import_$H.log; echo "IMPORT FAILED"; exit 1; }
-grep -E "MODEL MARKET LEFT|MODEL ICON LEFT|SIGNAL (STALE|NO DATE)|CONTRAST ROWS|COVER NOT COPIED|DUPLICATE KEY|PROMPT TALK|NO ANSWER|SERIES MIXED|MAP PLACE|VENN WORDS|TEXT LENGTH|FIXED CHART|extra slide|slide dropped|logos missing" /tmp/import_$H.log | cut -c1-170
+grep -E "MODEL MARKET LEFT|MODEL ICON LEFT|SIGNAL (STALE|NO DATE)|CONTRAST ROWS|COVER NOT COPIED|DUPLICATE KEY|PROMPT TALK|NO ANSWER|SERIES MIXED|MAP PLACE|STAGE LABEL|VENN WORDS|TEXT LENGTH|FIXED CHART|extra slide|slide dropped|logos missing" /tmp/import_$H.log | cut -c1-170
 # piste B (18 Nov 2026): a slide that still shows the reference market blocks the full build, so it can never reach a review page
 # or a PDF. While drafting, --fast builds anyway and only lists them.
 if [ "$2" = "--png" ] && grep -qE "MODEL MARKET LEFT|MODEL ICON LEFT|MODEL SOURCES LEFT|NO ANSWER|FIXED CHART" /tmp/import_$H.log; then echo "REFERENCE MARKET LEFT: fix the lines above (or build a draft with --fast)"; exit 1; fi

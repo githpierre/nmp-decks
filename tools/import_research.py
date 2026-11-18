@@ -197,7 +197,7 @@ def nmp_logo(name, domain=''):
     if str(NL) not in _s.path: _s.path.insert(0, str(NL))
     try:
         from find_logo import logo as _fl
-        p = _fl(name, domain=domain or None) if domain else _fl(name)
+        p = _fl(name, domain=domain or None, symbol=True) if domain else _fl(name, symbol=True)   # deck logos sit in square tiles: the --symbol file when the full logo is a wide wordmark (Function Health unreadable on Longevity, 18 Nov 2026)
     except Exception: return None
     if not p: return None
     p = Path(p); dst = ROOT / 'assets/logos/nl' / p.name; dst.parent.mkdir(parents=True, exist_ok=True)
@@ -465,6 +465,8 @@ def main():
     for f_ in ('live.yaml', 'db.yaml', 'edits.yaml'):
         if (out / f_).exists(): _given |= set(yaml.safe_load((out / f_).read_text()) or {})
     _left = [i for i in NOANS if i not in _given and any(x['id'] == i for x in S)]
+    _sk, _ss = out / 'sources_key.yaml', out / 'sources_slides.yaml'   # sources_key written but build_sources.py not run: the key-source slides still show the reference market (Longevity, 18 Nov 2026)
+    if a.model and R and _sk.exists() and (not _ss.exists() or _ss.stat().st_mtime < _sk.stat().st_mtime): print('MODEL SOURCES LEFT: sources_key.yaml is newer than sources_slides.yaml, run tools/build_sources.py <handle>')
     if a.model and R and not (out / 'sources_key.yaml').exists(): print('MODEL SOURCES LEFT: the source slides still list the reference market. Write decks/<handle>/sources_key.yaml (20 key sources from the research files) and run tools/build_sources.py (piste B, 18 Nov 2026)')
     if _left and R: print('NO ANSWER (the slide still shows the reference market, give it in live.yaml or edits.yaml, or drop it):', ' '.join(_left))
     _rad = next((x for x in S if x.get('id') == 'ed007p'), None)   # the eye decides (a corner can be an edge case that is in the market, or an incumbent named as context): the list only makes sure it is looked at (14 Nov 2026: Tempus AI outside the radar and leader on three slides)
@@ -560,6 +562,10 @@ def main():
         for k, r in ((x.get('regions') or {}).items() if x.get('type') == 'worldmap' else []):
             nm = str(r.get('name') or '').upper().split(' - ')[0].strip()
             if nm and nm not in _PLC and not r.get('at'): print('MAP PLACE', x.get('id'), k, nm, ': name a known place or give `at: [x, y]`')
+    for x in S:                  # the stage pill of the pipeline slide holds one short word (« PH 1 », « PERMIT »): « PHASE 1 » wrapped to two lines (Longevity, 18 Nov 2026)
+        if x.get('type') == 'x/likely_each_risk' and x.get('id') == 'iv_pipeline':
+            for k, v in (x.get('t') or {}).items():
+                if str(k) in ('3', '7', '11', '15', '19', '23', '27', '31', '38') and isinstance(v, str) and len(v) > 6: print('STAGE LABEL', x['id'], k, repr(v), ': 6 characters at most (PH 1, PERMIT)')
     for i, x in enumerate(S):    # the pages of a series (1/3, 2/3, 3/3) share one design and one number of items (Pierre, 14 Nov 2026: 6 rows on 1/3, 4 on 2/3 and 3/3)
         m = re.fullmatch(r'1/(\d)', str(x.get('page') or ''))
         if not m: continue

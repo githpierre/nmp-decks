@@ -1,0 +1,101 @@
+# Research import re, jsonport
+
+161 answers parsed, 0 YAML errors, 97 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed008**: no sources
+- **ed009**: no sources
+- **ed010**: length 17: 15 vs 22; no sources
+- **ed011**: no sources
+- **ed012**: status no_data: products and prices change too often to group them reliably without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: price lists change often, left for the research chapters
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: no sources
+- **ed016**: no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: no sources
+- **ed020**: length 18: 15 vs 23; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed043**: status no_data: No verified startup-level revenues across all six eligible categories or consistent carve-outs from the industry-wide figures were found.
+- **ed043**: dropped: no data
+- **ed044**: status no_data: No auditable 2026 total for independent in-scope startups can be derived without guessing the excluded-company share.
+- **ed044**: dropped: no data
+- **ed045**: status no_data: The published $30B to $36B comparables include excluded incumbents and other products, so no startup-only value is supported.
+- **ed045**: dropped: no data
+- **ed047p**: status no_data: No credible revenue breakdown maps the three on-slide buckets to the six in-scope startup categories without double counting.
+- **ed047p**: dropped: no data
+- **ed049**: status no_data: North America and Europe shares exist for broad sector reports, but five in-scope startup revenue shares are not published.
+- **ed049**: dropped: no data
+- **ed050**: length 6: 29 vs 22
+- **ed052p**: status no_data: A ten-year forecast needs a defensible 2026 startup-only revenue base, which the available market reports do not provide.
+- **ed054**: no sources
+- **ed055**: length 10: 74 vs 58; length 22: 76 vs 60; no sources
+- **ed056**: length 23: 38 vs 30; length 14: 37 vs 25; no sources
+- **ed057**: length 27: 35 vs 26; length 31: 36 vs 26; length 16: 36 vs 27; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 14: 14 vs 20; length 17: 12 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 13 vs 20; length 17: 9 vs 21; no sources
+- **ed064-s4**: length 15: 47 vs 65; no sources
+- **ed065-s4**: no sources
+- **ed088**: length 15: 90 vs 68
+- **ed095**: length 5: 94 vs 71; length 30: 80 vs 60
+- **ed096**: length 13: 91 vs 72
+- **iv_pipeline**: length 34: 57 vs 44; length 20: 67 vs 52
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 12: 13 vs 20; length 15: 83 vs 63; no sources
+- **ed104**: length 9: 16 vs 22; length 7: 87 vs 63; length 10: 86 vs 52; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: length 8: 13 vs 20; no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: length 8: 34 vs 26; no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: length 8: 14 vs 20; no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 9: 30 vs 41; length 12: 30 vs 41; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 8: 34 vs 26; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: length 8: 10 vs 20; no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 10: 23 vs 35; length 12: 29 vs 41; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: length 8: 14 vs 20; no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: length 12: 27 vs 41; no sources
+- **ed136**: length 10: 72 vs 57; length 12: 76 vs 55
+- **ed143**: length 22: 12 vs 22; length 10: 11 vs 21
+- **ed144**: length 22: 12 vs 22; length 14: 14 vs 21; length 10: 11 vs 20
+- **ed145**: length 31: 16 vs 22
+- **ed149**: length 12: 28 vs 45
+- **ed172**: length 10: 60 vs 44
+- **ed189**: length 20: 50 vs 39; length 22: 51 vs 39; length 23: 50 vs 36
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3
