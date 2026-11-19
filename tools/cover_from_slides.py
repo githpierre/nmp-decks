@@ -28,7 +28,11 @@ for e in P:
         im = Image.open(f).convert('RGBA'); w, h = im.size
         im = im.crop((int(c.get('leftOffset', 0) * w), int(c.get('topOffset', 0) * h), int(w - c.get('rightOffset', 0) * w), int(h - c.get('bottomOffset', 0) * h)))
         bw, bh = e['size']['width']['magnitude'] * t.get('scaleX', 1) * PX * K, e['size']['height']['magnitude'] * t.get('scaleY', 1) * PX * K
-        im = im.resize((round(bw), round(bh)), Image.LANCZOS); a = 1 - ip.get('transparency', 0)
+        fx, fy = bw < 0, bh < 0                        # negative scale = mirrored image (Pet Tech cover, 19 Nov 2026)
+        bw, bh = abs(bw), abs(bh); im = im.resize((round(bw), round(bh)), Image.LANCZOS); a = 1 - ip.get('transparency', 0)
+        if fx: im = im.transpose(Image.FLIP_LEFT_RIGHT)
+        if fy: im = im.transpose(Image.FLIP_TOP_BOTTOM)
+        t = dict(t, translateX=t.get('translateX', 0) - (bw / PX / K if fx else 0), translateY=t.get('translateY', 0) - (bh / PX / K if fy else 0))
         if a < 1: im.putalpha(im.getchannel('A').point(lambda v: int(v * a)))
         flat.alpha_composite(im, (round(t.get('translateX', 0) * PX * K), round(t.get('translateY', 0) * PX * K)) if t.get('translateX', 0) >= 0 and t.get('translateY', 0) >= 0 else (0, 0))
     sh = e.get('shape') or {}; runs = [r['textRun'] for r in (sh.get('text') or {}).get('textElements', []) if r.get('textRun')]

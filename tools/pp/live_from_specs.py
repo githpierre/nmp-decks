@@ -14,6 +14,8 @@ for r in csv.reader(open('/home/claude/nmp-product-pages/slides/manifest.csv')):
     if r[0] == H: T[f'{r[1]}-{r[2]}'] = r[6].rsplit(' (', 1)[0].split(': ', 1)[1]
 
 def two(t):
+    w = (t or '').split()
+    if len(w) < 2: return t or 'TITLE TO WRITE (no live slide)'
     w = t.split(); k = min(range(1, len(w)), key=lambda i: abs(len(' '.join(w[:i])) - len(' '.join(w[i:])))); return ' '.join(w[:k]) + '\n' + ' '.join(w[k:])
 
 def tiles(sec, prefix=None):
@@ -36,32 +38,35 @@ N = dict(pains=['We gathered customer complaints from reviews, forums, surveys a
          win=['We compared companies with the same business model on what matters most to customers', 'We used company reports and public records, and all our sources are at the end of the report'])
 name = sys.argv[3] if len(sys.argv) > 3 else H.replace('-', ' ')
 d = spec('s8/pain100_spec.json')
-if d: L['ed058'] = dict(type='pp_pains', title=two(T['04-01']), auds=d['auds'], pains=[[t, v] for t, v in d['pains']], note=N['pains'])
+if d and 'auds' not in d: print('S04 spec in another format (no auds): write ed058 by hand from the live slide'); d = None
+if d: L['ed058'] = dict(type='pp_pains', title=two(T.get('04-01', '')), auds=d['auds'], pains=[[t, v] for t, v in d['pains']], note=N['pains'])
 d = spec(f's9/cmpm/{H}.json')
 if d:
     tl = tiles('05-01'); n = len(d['companies']); order = sorted(range(n), key=lambda i: (-sum(f['values'][i] for f in d['features']), i))    # live order: most complete first
-    L['ed099p'] = dict(title=two(T['05-01']), companies=[dict(name=d['companies'][i]['name'], src=tl[k]['src']) for k, i in enumerate(order)],
+    L['ed099p'] = dict(title=two(T.get('05-01', '')), companies=[dict(name=d['companies'][i]['name'], src=tl[k]['src']) for k, i in enumerate(order)],
                        features=[dict(header=f['header'], values=[f['values'][i] for i in order]) for f in d['features']], note=N['tech'])
-    assert len(tl) == n, ('S05 tiles', len(tl), n)
+    if len(tl) != n: print('S05: tiles', len(tl), 'companies', n, '-> check ed099p logos by hand')
 d = spec(f's10/mc/{H}.json')
-if d: L['ed142p'] = dict(title=two(T['07-01']), events=[dict(odds=e['odds'], impact=e['impact'], text=e['text']) for e in sorted(d['events'], key=lambda e: -e['odds'])],
+if d: L['ed142p'] = dict(title=two(T.get('07-01', '')), events=[dict(odds=e['odds'], impact=e['impact'], text=e['text']) for e in sorted(d['events'], key=lambda e: -e['odds'])],
                          note=[f'We listed the events that could slow {name} down, from company news, regulators and analysts', 'Odds and impact are our own estimates, and all the sources we used are listed at the end of the report'])
 d = spec(f's10/gd/{H}.json')
-if d: L['ed148p'] = dict(title=two(T['08-01']), events=d['events'], note=[f'We kept the events we believe pushed {name} forward the most', 'Ratings are our estimates, with all the sources at the end of the report'])
-L.setdefault('ed168p', {}).update(handle=H, title=two(T['09-01']), note=[f'We added up every equity round of {name} startups in our tracker over the last twelve months', 'by category of our market definition, and rounds with no public amount count as zero here'])
-tl = tiles('10-01'); g = L.setdefault('ed171p', {}); g.update(title=two(T['10-01']), cells=[[[], [], []], [[], [], []], [[], [], []]], tiles=[dict(src=t['src'], x=t['x'], y=t['y']) for t in tl])
+if d: L['ed148p'] = dict(title=two(T.get('08-01', '')), events=d['events'], note=[f'We kept the events we believe pushed {name} forward the most', 'Ratings are our estimates, with all the sources at the end of the report'])
+L.setdefault('ed168p', {}).update(handle=H, title=two(T.get('09-01', '')), note=[f'We added up every equity round of {name} startups in our tracker over the last twelve months', 'by category of our market definition, and rounds with no public amount count as zero here'])
+tl = tiles('10-01'); g = L.setdefault('ed171p', {}); g.update(title=two(T.get('10-01', '')), cells=[[[], [], []], [[], [], []], [[], [], []]], tiles=[dict(src=t['src'], x=t['x'], y=t['y']) for t in tl])
 if 'cols' not in g: print('S10: write cols, rows and note of ed171p by hand, read on the live slide;', len(tl), 'tiles')
 d = spec(f's10/sk/{H}.json')
 if d and d.get('mode') == 'warning': print('S11 is a warning-signs grid (ed199p): it comes from the research, the live slide is checked against it'); d = None   # 18 Nov 2026
 if d:
-    tl = tiles('11-01'); assert len(tl) == len(d['rows']), ('S11 tiles', len(tl), len(d['rows']))
-    L['ed201'] = dict(type='pp_killers', mode=d.get('mode', 'dead'), title=two(T['11-01']), causes=d['causes'],
+    tl = tiles('11-01')
+    if len(tl) != len(d['rows']): print('S11: tiles', len(tl), 'rows', len(d['rows']), '-> check ed201 logos by hand'); tl = (tl + [dict(src='')] * len(d['rows']))[:len(d['rows'])]
+    L['ed201'] = dict(type='pp_killers', mode=d.get('mode', 'dead'), title=two(T.get('11-01', '')), causes=d['causes'],
                       rows=[dict(name=r['name'], ending=r['ending'], start=r['start'], end=r['end'], causes=r['causes'], src=t['src'], ini=r['name'][0], slug=r['slug'], domain=r['domain']) for r, t in zip(d['rows'], tl)],
                       note=[f'We tracked the {name} startups that shut down, went bankrupt or were sold for little'] + N['kill'])
 d = spec(f's10/ss/{H}.json')
 if d:
-    tl = tiles('12-01'); assert len(tl) == len(d['companies']), ('S12 tiles', len(tl), len(d['companies']))
-    L['ed209p'] = dict(title=two(T['12-01']), companies=[dict(short=c['short'], src=t['src']) for c, t in zip(d['companies'], tl)], criteria=d['criteria'], note=N['win'])
+    tl = tiles('12-01')
+    if len(tl) != len(d['companies']): print('S12: tiles', len(tl), 'companies', len(d['companies']), '-> check ed209p logos by hand'); tl = (tl + [dict(src='')] * len(d['companies']))[:len(d['companies'])]
+    L['ed209p'] = dict(title=two(T.get('12-01', '')), companies=[dict(short=c['short'], src=t['src']) for c, t in zip(d['companies'], tl)], criteria=d['criteria'], note=N['win'])
 f.write_text(yaml.dump(L, allow_unicode=True, sort_keys=False, width=1000)); print(f, list(L))
 d = spec(f's10/vc/{H}.json')
 if d:
@@ -72,6 +77,6 @@ if d:
         for t in near: tl.remove(t)
         G.append(dict(name=g_['name'], x=g_['x'], y=g_['y'], logos=[dict(src=t['src']) for t in sorted(near, key=lambda t: t['x'])]))
     if tl: print('S06 TILES LEFT', len(tl))
-    s06 = dict(after='ed104', link='TO WRITE: the phrase of ed104 that leads to how companies charge', slide=dict(id='pp_s06', type='pp_value', section='Value creation', title=two(T['06-01']), axes=d['axes'], groups=G, note=N['value']))
+    s06 = dict(after='ed104', link='TO WRITE: the phrase of ed104 that leads to how companies charge', slide=dict(id='pp_s06', type='pp_value', section='Value creation', title=two(T.get('06-01', '')), axes=d['axes'], groups=G, note=N['value']))
     xf = ROOT / 'decks' / H / 'extras.yaml'; X = [e for e in (yaml.safe_load(xf.read_text()) if xf.exists() else None) or [] if e['slide'].get('id') != 'pp_s06']
     xf.write_text(yaml.dump([s06] + X, allow_unicode=True, sort_keys=False, width=1000)); print('pp_s06 -> extras.yaml (write its link once ed104 is known: the import says so)')
