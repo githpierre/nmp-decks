@@ -1,0 +1,544 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would neocloud
+
+    customers actually pay to solve?'
+  auds:
+  - AI startups
+  - Enterprise teams
+  - Research labs
+  - App builders
+  - Crypto miners
+  pains:
+  - - They get only part of the Nvidia GPUs they order, and often late
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 3
+  - - They see GPU rental prices swing sharply within a few months
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They face failures when new racks first run at full scale
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 2
+  - - They struggle to keep every costly GPU busy all day and night
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 3
+  - - They lose customers to hyperscalers that keep cutting prices
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - They carry heavy debt on chips that age in just a few years
+    - - 2
+      - 1
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Who has built the full neocloud stack,
+
+    and who still relies on partners?'
+  companies:
+  - name: Crusoe
+    src: ../../assets/logos/pp_live/neocloud/s05-00.png
+  - name: CoreWeave
+    src: ../../assets/logos/pp_live/neocloud/s05-01.png
+  - name: Nebius
+    src: ../../assets/logos/pp_live/neocloud/s05-02.png
+  - name: Nscale
+    src: ../../assets/logos/pp_live/neocloud/s05-03.png
+  - name: Together AI
+    src: ../../assets/logos/pp_live/neocloud/s05-04.png
+  - name: Lambda
+    src: ../../assets/logos/pp_live/neocloud/s05-05.png
+  features:
+  - header: Own data|centers
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Own|energy
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: AMD|GPUs
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Managed|Slurm
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Token|API
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Experiment|tracking
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: RL|training
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to neocloud?'
+  events:
+  - odds: 25
+    impact: 3
+    text: AI demand slows after a cheap model shock, and neocloud stocks and contracts collapse together
+  - odds: 20
+    impact: 3
+    text: Lenders refuse to refinance CoreWeave or peers, and a heavily indebted neocloud defaults on its loans
+  - odds: 20
+    impact: 2
+    text: H100 and Blackwell rental prices crash again as supply floods in, wiping out neocloud margins
+  - odds: 15
+    impact: 3
+    text: OpenAI or another AI lab fails to pay its huge compute contracts, leaving neoclouds with idle GPUs
+  - odds: 15
+    impact: 3
+    text: Microsoft, Google and Meta stop signing neocloud deals and use only their own data centers
+  - odds: 12
+    impact: 2
+    text: Nvidia favors hyperscalers in Rubin GPU allocation, leaving neoclouds behind on the newest chips
+  - odds: 10
+    impact: 2
+    text: New US export rules block Nvidia GPUs for neocloud sites abroad, stranding planned capacity
+  - odds: 5
+    impact: 1
+    text: A large rack or cooling failure takes a CoreWeave or Nebius cluster down and breaks customer contracts
+  note:
+  - We listed the events that could slow neocloud down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed neoclouds
+
+    forward, year after year?'
+  events:
+  - year: '2007'
+    text: Nvidia CUDA lets GPUs run any code
+    impact: 1.5
+  - year: '2012'
+    text: AlexNet on GPUs sparks deep learning
+    impact: 2
+  - year: '2017'
+    text: Crypto boom fills warehouses with GPUs
+    impact: 1.5
+  - year: '2018'
+    text: Crypto crash leaves miners with idle GPUs
+    impact: 1
+  - year: '2020'
+    text: Nvidia A100 becomes the AI workhorse
+    impact: 1
+  - year: '2022'
+    text: Ethereum Merge pushes miners to rent GPUs
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT triggers a global rush for GPUs
+    impact: 3
+  - year: '2023'
+    text: H100 shortage leaves big clouds sold out
+    impact: 2.5
+  - year: '2023'
+    text: Nvidia invests in CoreWeave, picking allies
+    impact: 1.5
+  - year: '2023'
+    text: Microsoft rents CoreWeave GPUs for OpenAI
+    impact: 2
+  - year: '2023'
+    text: CoreWeave borrows $2.3B against its GPUs
+    impact: 2
+  - year: '2024'
+    text: Blackstone leads $7.5B GPU debt deal
+    impact: 1.5
+  - year: '2024'
+    text: Core Scientific signs $3.5B CoreWeave deal
+    impact: 1.5
+  - year: '2024'
+    text: Nebius splits from Yandex to rent GPUs
+    impact: 1
+  - year: '2024'
+    text: CoreWeave's $19B value draws GPU cloud money
+    impact: 1.5
+  - year: '2025'
+    text: CoreWeave IPO opens public money to neoclouds
+    impact: 2.5
+  - year: '2025'
+    text: OpenAI signs $11.9B CoreWeave contract
+    impact: 2
+  - year: '2025'
+    text: DeepSeek cuts model costs and usage soars
+    impact: 1
+  - year: '2025'
+    text: Microsoft signs $17.4B Nebius GPU deal
+    impact: 2
+  - year: '2025'
+    text: Meta signs $14B compute deal with CoreWeave
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia backstops $6.3B of CoreWeave capacity
+    impact: 1.5
+  - year: '2025'
+    text: Nscale wins Microsoft deal for 200,000 GPUs
+    impact: 1
+  - year: '2025'
+    text: Microsoft signs $9.7B GPU deal with IREN
+    impact: 1.5
+  - year: '2025'
+    text: Anthropic picks Fluidstack for $50B buildout
+    impact: 1.5
+  - year: '2025'
+    text: Meta adds a $3B Nebius contract
+    impact: 1
+  - year: '2025'
+    text: OpenAI lifts CoreWeave deals to $22.4B
+    impact: 1.5
+  - year: '2026'
+    text: Meta expands CoreWeave deal to $21B
+    impact: 2
+  - year: '2026'
+    text: Jane Street buys $6B of CoreWeave compute
+    impact: 1.5
+  - year: '2026'
+    text: Nvidia Rubin starts a GPU upgrade wave
+    impact: 1
+  - year: '2026'
+    text: Cerebras IPO shows appetite for AI compute
+    impact: 1
+  note:
+  - We kept the events we believe pushed neocloud forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: neocloud
+  title: 'Where did neocloud investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of neocloud startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the neocloud market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/neocloud/s10-00.png
+    x: 396.2
+    y: 274.3
+  - src: ../../assets/logos/pp_live/neocloud/s10-01.png
+    x: 495.6
+    y: 282.9
+  - src: ../../assets/logos/pp_live/neocloud/s10-02.png
+    x: 607.9
+    y: 266.4
+  - src: ../../assets/logos/pp_live/neocloud/s10-03.png
+    x: 251.4
+    y: 293.1
+  - src: ../../assets/logos/pp_live/neocloud/s10-04.png
+    x: 326.8
+    y: 285.4
+  - src: ../../assets/logos/pp_live/neocloud/s10-05.png
+    x: 556.5
+    y: 291.0
+  - src: ../../assets/logos/pp_live/neocloud/s10-06.png
+    x: 701.4
+    y: 286.3
+  - src: ../../assets/logos/pp_live/neocloud/s10-07.png
+    x: 767.4
+    y: 285.4
+  - src: ../../assets/logos/pp_live/neocloud/s10-08.png
+    x: 822.6
+    y: 299.6
+  - src: ../../assets/logos/pp_live/neocloud/s10-09.png
+    x: 262.1
+    y: 402.6
+  - src: ../../assets/logos/pp_live/neocloud/s10-10.png
+    x: 322.9
+    y: 392.6
+  - src: ../../assets/logos/pp_live/neocloud/s10-11.png
+    x: 478.5
+    y: 382.3
+  - src: ../../assets/logos/pp_live/neocloud/s10-12.png
+    x: 539.6
+    y: 376.3
+  - src: ../../assets/logos/pp_live/neocloud/s10-13.png
+    x: 682.1
+    y: 381.9
+  - src: ../../assets/logos/pp_live/neocloud/s10-14.png
+    x: 772.9
+    y: 404.6
+  - src: ../../assets/logos/pp_live/neocloud/s10-15.png
+    x: 823.1
+    y: 387.0
+  - src: ../../assets/logos/pp_live/neocloud/s10-16.png
+    x: 391.5
+    y: 407.4
+  - src: ../../assets/logos/pp_live/neocloud/s10-17.png
+    x: 598.5
+    y: 407.1
+  - src: ../../assets/logos/pp_live/neocloud/s10-18.png
+    x: 257.6
+    y: 485.1
+  - src: ../../assets/logos/pp_live/neocloud/s10-19.png
+    x: 393.9
+    y: 481.1
+  - src: ../../assets/logos/pp_live/neocloud/s10-20.png
+    x: 521.4
+    y: 478.3
+  - src: ../../assets/logos/pp_live/neocloud/s10-21.png
+    x: 588.2
+    y: 481.1
+  - src: ../../assets/logos/pp_live/neocloud/s10-22.png
+    x: 735.2
+    y: 486.4
+  - src: ../../assets/logos/pp_live/neocloud/s10-23.png
+    x: 807.0
+    y: 494.1
+  - src: ../../assets/logos/pp_live/neocloud/s10-24.png
+    x: 336.2
+    y: 495.2
+  - src: ../../assets/logos/pp_live/neocloud/s10-25.png
+    x: 467.4
+    y: 509.6
+  - src: ../../assets/logos/pp_live/neocloud/s10-26.png
+    x: 676.5
+    y: 501.0
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - GPU clouds
+  - Inference clouds
+  - Clusters & more
+  note:
+  - We left out hyperscalers, AI labs, listed neoclouds and chip makers like Microsoft and Nvidia
+  - We placed each pure player by its main product, with all the sources at the end of the report
+ed209p:
+  title: 'What does Nebius do
+
+    better than its rivals?'
+  companies:
+  - short: Nebius
+    src: ../../assets/logos/pp_live/neocloud/s12-00.png
+  - short: Nscale
+    src: ../../assets/logos/pp_live/neocloud/s12-01.png
+  - short: Crusoe
+    src: ../../assets/logos/pp_live/neocloud/s12-02.png
+  - short: IREN
+    src: ../../assets/logos/pp_live/neocloud/s12-03.png
+  - short: Lambda
+    src: ../../assets/logos/pp_live/neocloud/s12-04.png
+  - short: Fluidstack
+    src: ../../assets/logos/pp_live/neocloud/s12-05.png
+  criteria:
+  - name: $40B+ committed backlog
+    why: Years of locked in revenue
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Microsoft GPU contract
+    why: Hyperscaler as a customer
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Own inference platform
+    why: Sells tokens, not just GPUs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Sites in Europe and US
+    why: Serves both big markets
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Builds own data centers
+    why: Controls power and space
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Nvidia is an investor
+    why: Early access to new GPUs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Anthropic compute deal
+    why: Top AI lab as anchor
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as a neocloud,
+
+    and what falls outside?'
+  TL:
+    name: Oracle
+    src: ../../assets/logos/pp_live/neocloud/s01-00.png
+    text: has a $638 billion backlog driven by AI cloud deals, but its OCI cloud is still one part of a database and software group
+  TR:
+    name: AMD
+    src: ../../assets/logos/pp_live/neocloud/s01-02.png
+    text: co-led a $350 million round in TensorWave, a cloud built on its Instinct GPUs, but it sells chips rather than renting compute
+  BL:
+    name: Modal
+    src: ../../assets/logos/pp_live/neocloud/s01-10.png
+    text: sells serverless GPU compute to AI developers, but much of it runs on capacity rented from AWS, Google Cloud and Oracle
+  BR:
+    name: HGIED
+    src: ../../assets/logos/pp_live/neocloud/s01-11.png
+    text: '|ellerns to wllntél Gtovin Biikeerht Bee by bean nt ace a tiea xu ‘OMlathntg) Gal) ISS vet Seite fiscal 2026 revenue'
+  caption:
+  - Distance to the center reflects how much of a company’s business is renting out its own GPU capacity for AI as a cloud
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/neocloud/s01-01.png
+  - ../../assets/logos/pp_live/neocloud/s01-03.png
+  - ../../assets/logos/pp_live/neocloud/s01-04.png
+  - ../../assets/logos/pp_live/neocloud/s01-05.png
+  - ../../assets/logos/pp_live/neocloud/s01-06.png
+  - ../../assets/logos/pp_live/neocloud/s01-07.png
+  - ../../assets/logos/pp_live/neocloud/s01-08.png
+  - ../../assets/logos/pp_live/neocloud/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/neocloud/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/neocloud/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/neocloud/s01-04.png
+    x: 374.8
+    y: 362.6
+  - src: ../../assets/logos/pp_live/neocloud/s01-05.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/neocloud/s01-06.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/neocloud/s01-07.png
+    x: 445.1
+    y: 394.9
+  - src: ../../assets/logos/pp_live/neocloud/s01-08.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/neocloud/s01-09.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'The term neocloud is showing up more
+
+    and more as GPU clouds sign big deals'
+  date: In recent months.
+  expl: Neoclouds are cloud companies that rent GPUs for AI. CoreWeave went public, Nebius and Nscale signed multibillion-dollar deals with Microsoft and
+    Meta, and the word started appearing in every investor note. A term almost nobody used became a market.
+  term: neocloud
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/neocloud/neocloud.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for neocloud to grow?'
+  lead: 'To fill that room, '
+  condition: neoclouds must keep getting new chips before hyperscalers, fill every new cluster with long contracts, and keep lenders willing to fund GPU
+    fleets. They must also keep serving inference cheaper than big tech, as token prices keep falling every year.
+  note:
+  - We compared growth paths from Synergy, Gartner, McKinsey and the IEA, and aligned their timelines to build a realistic range
+  - We allowed for falling token prices and hyperscaler competition, and all the sources we used are listed at the end of the report
+  size: 40
+  cagr: 30
+  y0: 2026
