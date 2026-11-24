@@ -277,14 +277,11 @@ slides:
 
       Therapy'
 - id: ed014
-  type: cards
-  section: Market definition
-  title: When and where is value created in the market?
   items:
   - e: 🧬
-    t: When a drug slows a process of aging in people, not only in mice
+    t: When a drug slows a process of aging in people, not only in mice or worms
   - e: 🩸
-    t: When a blood test finds a risk years before any symptom shows up
+    t: When a blood test finds a disease risk years before any symptom shows up
   - e: 🔁
     t: When a member renews a yearly plan because the results keep changing their habits
   - e: 🏥
@@ -296,8 +293,11 @@ slides:
   - e: 🤝
     t: When a pharma group licenses an aging program from a young biotech
   - e: 📊
-    t: When years of member data help predict who will get sick and when
+    t: When years of member data help a company predict who will get sick and when
+  section: Market definition
   src: 14
+  title: When and where is value created in the market?
+  type: cards
 - id: ed015
   type: x/some_common_myths_about
   section: Market definition
@@ -332,7 +332,7 @@ slides:
     10: Many drugs that extend mouse lifespan were never tested on aging in people, and several failed in human trials
     12: Results in mice prove it works
     13: Saudi Arabia's Hevolution, Europe's Neko Health and Asia's clinics show the money and buyers are spread worldwide
-    15: Longevity is a US-only trend
+    15: Longevity is only a trend in the US
     16: Creams and cosmetics change how the skin looks, while longevity products target how the whole body ages inside
     20: 🤥
     21: 🤥
@@ -901,32 +901,32 @@ slides:
     13: ❌
     14: ⚖️
 - id: ed042
-  type: estimates
-  section: Market size
-  title: What are the market size estimates from different sources online?
-  rows:
-  - firm: SNS Insider
-    value: $30B
-    comment: We derive this 2026 proxy from its $28B 2025 value and 9.4% growth outlook. It includes consumer and older-drug sales outside our startup test.
-  - firm: 'The Business
-
-      Research Company'
-    value: $32B
-    comment: Its 2026 total covers drugs, clinics and disease treatments, including cancer. We use it to check the industry scale only.
-  - firm: 'Market Research
-
-      Future'
-    value: $35B
-    comment: This broad 2026 estimate covers wellness, supplements, skin care and monitoring devices. We do not treat it as a startup-only total.
-  - firm: 'Maximize
-
-      Market Research'
-    value: $36B
-    comment: We roll its 2025 size forward using its 13.5% forecast growth. It covers supplements, scans, clinics and wearables beyond our startup test.
   note:
   - We compare broad industry values, not revenue from the independently screened startups covered in this report
   - We use direct 2026 sizes when given and advance SNS and Maximize 2025 figures by their stated yearly growth
+  rows:
+  - comment: We derive this 2026 proxy from its $28B 2025 value and 9.4% growth. It includes consumer and older-drug sales outside our startup test.
+    firm: SNS Insider
+    value: $30B
+  - comment: Its 2026 total covers drugs, clinics and disease treatments, including cancer. We use it to check the industry scale only.
+    firm: 'The Business
+
+      Research Company'
+    value: $32B
+  - comment: This broad 2026 estimate covers wellness, supplements, skin care and monitoring devices. We do not treat it as a startup-only total.
+    firm: 'Market Research
+
+      Future'
+    value: $35B
+  - comment: We roll its 2025 size forward using its 13.5% forecast growth. It covers supplements, scans, clinics and wearables beyond our startup test.
+    firm: 'Maximize
+
+      Market Research'
+    value: $36B
+  section: Market size
   src: 42
+  title: What are the market size estimates from different sources online?
+  type: estimates
 - id: ed050
   type: x/growth_rate_estimates_from_different
   section: Market size
@@ -1395,78 +1395,78 @@ slides:
     18: They want one plan instead of five separate providers
     19: They worry about what happens to their health data
     20: They lose motivation once the first results come in
-- id: ed065-s1
-  type: priority
-  section: Pain points
-  title: Which pains deserve attention first?
-  subtitle: Self-paying healthy adults
-  icons:
+- icons:
   - 💼
   - 🏃
   - 🧪
   - 👪
   - 🩺
-  rows:
-  - pain: Lab results come without a clear plan of what to do
-    s:
-    - 3
-    - 2
-    - 1
-    - 3
-    - 3
-    p: CRITICAL
-  - pain: Nobody can tell which tests and pills really work
-    s:
-    - 2
-    - 3
-    - 3
-    - 2
-    - 3
-    p: CRITICAL
-  - pain: Prices are high and no health insurer covers them
-    s:
-    - 2
-    - 2
-    - 1
-    - 3
-    - 2
-    p: MAJOR
-  - pain: Biological age scores jump from one test to the next
-    s:
-    - 1
-    - 2
-    - 3
-    - 1
-    - 2
-    p: HIGH
-  - pain: Care is split between five different providers
-    s:
-    - 3
-    - 2
-    - 2
-    - 2
-    - 3
-    p: MAJOR
-  - pain: Personal health data may be shared or leaked
-    s:
-    - 2
-    - 1
-    - 2
-    - 2
-    - 2
-    p: HIGH
-  - pain: Motivation fades once the first results come in
-    s:
-    - 3
-    - 1
-    - 1
-    - 2
-    - 1
-    p: HIGH
+  id: ed065-s1
   note:
   - Every stakeholder is different, and this table is a simplified view based on member reviews and consumer surveys
   - It gives a starting point, not a checklist, so priorities should be validated with members, clinics and testing platforms
+  rows:
+  - p: CRITICAL
+    pain: Lab results come without a clear plan of what to do
+    s:
+    - 3
+    - 2
+    - 1
+    - 3
+    - 3
+  - p: CRITICAL
+    pain: Nobody can tell which tests and pills really work
+    s:
+    - 2
+    - 3
+    - 3
+    - 2
+    - 3
+  - p: MAJOR
+    pain: Prices are high and no health insurer covers them
+    s:
+    - 2
+    - 2
+    - 1
+    - 3
+    - 2
+  - p: HIGH
+    pain: Biological age scores jump from one test to the next
+    s:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+  - p: MAJOR
+    pain: Care is split between five different providers who never talk
+    s:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+  - p: HIGH
+    pain: Personal health data may be shared or leaked
+    s:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+  - p: HIGH
+    pain: Motivation fades once the first results come in
+    s:
+    - 3
+    - 1
+    - 1
+    - 2
+    - 1
+  section: Pain points
   src: 65
+  subtitle: Self-paying healthy adults
+  title: Which pains deserve attention first?
+  type: priority
 - id: ed062-s2
   type: x/divider_3
   src: 62
@@ -1533,78 +1533,78 @@ slides:
     18: They depend on family members to stay at home
     19: They find few products made for their age and needs
     20: They live on fixed incomes that limit what they can buy
-- id: ed065-s2
-  type: priority
-  section: Pain points
-  title: Which pains deserve attention first?
-  subtitle: Older adults facing decline
-  icons:
+- icons:
   - 🚶
   - 🦯
   - 🧠
   - 🤝
   - 🩺
-  rows:
-  - pain: Muscle and strength drop faster after each illness
-    s:
-    - 2
-    - 3
-    - 2
-    - 3
-    - 3
-    p: CRITICAL
-  - pain: Memory loss is feared more than most other diseases
-    s:
-    - 3
-    - 2
-    - 3
-    - 3
-    - 3
-    p: CRITICAL
-  - pain: Many drugs taken together interact with each other
-    s:
-    - 1
-    - 3
-    - 3
-    - 2
-    - 3
-    p: MAJOR
-  - pain: Older patients are often left out of drug trials
-    s:
-    - 1
-    - 2
-    - 3
-    - 1
-    - 3
-    p: MAJOR
-  - pain: Staying at home depends on family caregivers
-    s:
-    - 1
-    - 3
-    - 3
-    - 3
-    - 2
-    p: HIGH
-  - pain: Few products are made for older adults' needs
-    s:
-    - 3
-    - 2
-    - 1
-    - 2
-    - 1
-    p: HIGH
-  - pain: Fixed incomes limit what they can pay each month
-    s:
-    - 2
-    - 2
-    - 2
-    - 3
-    - 1
-    p: HIGH
+  id: ed065-s2
   note:
   - Every stakeholder is different, and this table is a simplified view based on geriatric care studies and caregiver surveys
   - It gives a starting point, not a checklist, so priorities should be validated with seniors, caregivers and doctors
+  rows:
+  - p: CRITICAL
+    pain: Muscle and strength drop faster after each illness
+    s:
+    - 2
+    - 3
+    - 2
+    - 3
+    - 3
+  - p: CRITICAL
+    pain: Memory loss is feared more than most other diseases
+    s:
+    - 3
+    - 2
+    - 3
+    - 3
+    - 3
+  - p: MAJOR
+    pain: Many drugs taken together interact with each other
+    s:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 3
+  - p: MAJOR
+    pain: Older patients are often left out of the trials of new drugs
+    s:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 3
+  - p: HIGH
+    pain: Staying at home depends on family caregivers
+    s:
+    - 1
+    - 3
+    - 3
+    - 3
+    - 2
+  - p: HIGH
+    pain: Few products are made for older adults' needs
+    s:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 1
+  - p: HIGH
+    pain: Fixed incomes limit what they can pay each month
+    s:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+  section: Pain points
   src: 65
+  subtitle: Older adults facing decline
+  title: Which pains deserve attention first?
+  type: priority
 - id: ed062-s3
   type: x/divider_3
   src: 62
@@ -1671,78 +1671,78 @@ slides:
     18: They must turn complex results into simple plans
     19: They fear legal risk when they offer unproven care
     20: They lose clients who stop renewing after one year
-- id: ed065-s3
-  type: priority
-  section: Pain points
-  title: Which pains deserve attention first?
-  subtitle: Doctors and clinics
-  icons:
+- icons:
   - 🩺
   - 💼
   - 🏥
   - 🏃
   - 🧪
-  rows:
-  - pain: Visits are too short to explain prevention well
-    s:
-    - 3
-    - 2
-    - 1
-    - 2
-    - 1
-    p: MAJOR
-  - pain: Many longevity tests and supplements lack proof
-    s:
-    - 3
-    - 3
-    - 2
-    - 2
-    - 3
-    p: CRITICAL
-  - pain: Insurers pay for disease care, not prevention
-    s:
-    - 3
-    - 1
-    - 2
-    - 2
-    - 2
-    p: CRITICAL
-  - pain: Scanners and staff cost a lot before any profit
-    s:
-    - 1
-    - 2
-    - 3
-    - 1
-    - 2
-    p: MAJOR
-  - pain: Complex results must become simple daily plans
-    s:
-    - 2
-    - 3
-    - 2
-    - 3
-    - 1
-    p: HIGH
-  - pain: Unproven care brings legal and reputation risk
-    s:
-    - 3
-    - 2
-    - 3
-    - 1
-    - 2
-    p: MAJOR
-  - pain: Many clients stop renewing after the first year
-    s:
-    - 1
-    - 3
-    - 3
-    - 2
-    - 2
-    p: HIGH
+  id: ed065-s3
   note:
   - Every stakeholder is different, and this table is a simplified view based on physician surveys and clinic business reviews
   - It gives a starting point, not a checklist, so priorities should be validated with doctors, clinic owners and lab partners
+  rows:
+  - p: MAJOR
+    pain: Doctor visits are too short to explain prevention well
+    s:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 1
+  - p: CRITICAL
+    pain: Many longevity tests and supplements lack proof
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+  - p: CRITICAL
+    pain: Insurers pay for the care of disease, not for its prevention
+    s:
+    - 3
+    - 1
+    - 2
+    - 2
+    - 2
+  - p: MAJOR
+    pain: Scanners and staff cost a lot before any profit
+    s:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+  - p: HIGH
+    pain: Complex results must become simple daily plans
+    s:
+    - 2
+    - 3
+    - 2
+    - 3
+    - 1
+  - p: MAJOR
+    pain: Unproven care brings legal and reputation risk
+    s:
+    - 3
+    - 2
+    - 3
+    - 1
+    - 2
+  - p: HIGH
+    pain: Many clients stop renewing after the first year
+    s:
+    - 1
+    - 3
+    - 3
+    - 2
+    - 2
+  section: Pain points
   src: 65
+  subtitle: Doctors and clinics
+  title: Which pains deserve attention first?
+  type: priority
 - id: ed062-s4
   type: x/divider_3
   src: 62
@@ -1809,78 +1809,78 @@ slides:
     18: They must protect employee health data by law
     19: They get low use of the perks they already pay for
     20: They lack data linking early tests to later costs
-- id: ed065-s4
-  type: priority
-  section: Pain points
-  title: Which pains deserve attention first?
-  subtitle: Employers and insurers
-  icons:
+- icons:
   - 💼
   - 💳
   - 📊
   - 📜
   - 🧑‍💼
-  rows:
-  - pain: Prevention rarely proves its payback within a few years
-    s:
-    - 3
-    - 3
-    - 3
-    - 2
-    - 1
-    p: CRITICAL
-  - pain: Employees often leave before any savings show up
-    s:
-    - 3
-    - 3
-    - 2
-    - 1
-    - 1
-    p: MAJOR
-  - pain: Health costs keep rising again every single year
-    s:
-    - 3
-    - 3
-    - 3
-    - 2
-    - 2
-    p: CRITICAL
-  - pain: Few longevity offers are built for large groups
-    s:
-    - 2
-    - 3
-    - 1
-    - 2
-    - 2
-    p: HIGH
-  - pain: Employee health data must stay private by law
-    s:
-    - 3
-    - 2
-    - 2
-    - 2
-    - 3
-    p: MAJOR
-  - pain: Many perks paid for are hardly used by the staff
-    s:
-    - 3
-    - 3
-    - 1
-    - 1
-    - 2
-    p: HIGH
-  - pain: Little data links early tests to later costs
-    s:
-    - 1
-    - 2
-    - 3
-    - 3
-    - 1
-    p: MAJOR
+  id: ed065-s4
   note:
   - Every stakeholder is different, and this table is a simplified view based on benefit surveys and insurer reports
   - It gives a starting point, not a checklist, so priorities should be validated with HR leaders, insurers and employees
+  rows:
+  - p: CRITICAL
+    pain: Prevention rarely proves its payback within a few years
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 1
+  - p: MAJOR
+    pain: Employees often leave before any savings show up
+    s:
+    - 3
+    - 3
+    - 2
+    - 1
+    - 1
+  - p: CRITICAL
+    pain: Health costs keep rising again every single year
+    s:
+    - 3
+    - 3
+    - 3
+    - 2
+    - 2
+  - p: HIGH
+    pain: Few longevity offers are built for large groups
+    s:
+    - 2
+    - 3
+    - 1
+    - 2
+    - 2
+  - p: MAJOR
+    pain: Employee health data must stay private by law
+    s:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+  - p: HIGH
+    pain: Many perks paid for are hardly used by the staff
+    s:
+    - 3
+    - 3
+    - 1
+    - 1
+    - 2
+  - p: MAJOR
+    pain: Little data links early tests to the health costs saved later
+    s:
+    - 1
+    - 2
+    - 3
+    - 3
+    - 1
+  section: Pain points
   src: 65
+  subtitle: Employers and insurers
+  title: Which pains deserve attention first?
+  type: priority
 - id: ed086
   type: agenda
   section: Tech and infra
@@ -3093,19 +3093,19 @@ slides:
     6: '2010 - 2017
 
 
-      Aging studies moved beyond labs, but drugs had no aging indication and no agreed way to measure added healthy years.'
+      Aging studies moved beyond labs, but no drug had an aging indication or a way to measure it.'
     7: '2018 - 2021
 
 
-      Age clocks and drug ideas spread, but regulators still lacked aging markers that could stand in for real health outcomes.'
+      Age clocks and drug ideas spread, but regulators had no aging marker to stand in for health.'
     8: '2022 - 2024
 
 
-      Well-funded cell-reset programs and consumer testing expanded, yet most treatments stayed preclinical and preventive scans lacked proof of long-term benefit.'
+      Cell-reset programs and home tests grew, yet most drugs stayed preclinical and scans unproven.'
     9: 'TODAY
 
 
-      Startups can sell wellness tests now, while medicines must still show patient benefit and a clear safety case in trials.'
+      Startups can sell wellness tests, but medicines must still prove benefit and safety in trials.'
     10: '2025 - 2026
 
 

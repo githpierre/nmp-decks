@@ -414,3 +414,35 @@ ed020:
       PLATFORMS'
     description: Companies selling aging data, scan archives and AI tools to labs and insurers
     emoji: 📊
+
+# CARD_LINES, BOX_LINES, ROW_LINES (checks added after delivery, 24 Nov 2026): sibling texts on the same number of lines
+ed014:
+  __replace__:
+    "not only in mice'": "not only in mice or worms'"
+    "not only in mice\n": "not only in mice or worms\n"
+    "finds a risk years before any symptom shows up": "finds a disease risk years before any symptom shows up"
+    "When years of member data help predict who will get sick and when": "When years of member data help a company predict who will get sick and when"
+ed016:
+  15: Longevity is only a trend in the US
+ed042:
+  __replace__:
+    "and 9.4% growth outlook.": "and 9.4% growth."
+ed065-s1:
+  __replace__:
+    "Care is split between five different providers": "Care is split between five different providers who never talk"
+ed065-s2:
+  __replace__:
+    "Older patients are often left out of drug trials": "Older patients are often left out of the trials of new drugs"
+ed065-s3:
+  __replace__:
+    "Visits are too short to explain prevention well": "Doctor visits are too short to explain prevention well"
+    "Insurers pay for disease care, not prevention": "Insurers pay for the care of disease, not for its prevention"
+ed065-s4:
+  __replace__:
+    "Little data links early tests to later costs": "Little data links early tests to the health costs saved later"
+# TEXT_PAD (24 Nov 2026): the phase texts touched the bottom of their cards, each brought to about 90 characters
+ed133:
+  6: "2010 - 2017\n\nAging studies moved beyond labs, but no drug had an aging indication or a way to measure it."
+  7: "2018 - 2021\n\nAge clocks and drug ideas spread, but regulators had no aging marker to stand in for health."
+  8: "2022 - 2024\n\nCell-reset programs and home tests grew, yet most drugs stayed preclinical and scans unproven."
+  9: "TODAY\n\nStartups can sell wellness tests, but medicines must still prove benefit and safety in trials."
