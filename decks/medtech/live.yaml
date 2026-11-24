@@ -640,17 +640,17 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'MedTech searches climbed
-
-    steadily from 2021 to 2025'
+  title: "MedTech searches climbed steadily\nfrom 2021 to mid-2025"
   date: From late 2021 to mid-2025.
   expl: MedTech makes the devices that diagnose, monitor or treat patients. As surgical robots, new heart treatments and glucose sensors drew money and news, more people looked it up. We stop in July 2025, when Google changed how it counts small search terms.
   term: MedTech
   note:
   - We tracked how often people worldwide googled this term from late 2021 to July 2025
-  - Since mid-2025, small unrelated search terms rise and fall together, so we stop there
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/medtech/medtech-to-jul-2025.csv
-  period: late 2021 to July 2025
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed052p:
   type: pp_cagr
   title: 'How much room is left

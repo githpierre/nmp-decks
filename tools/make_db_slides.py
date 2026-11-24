@@ -27,8 +27,10 @@ def poss(n): return n + ('’' if n.endswith('s') else '’s')      # « Isomorp
 
 INV_TAIL = re.compile(r'(\s*,?\s+(Management(\s*&\s*Research)?(\s+Company)?|Private Capital|Private Equity|Venture Partners|Venture Capital|Ventures|Capital Partners|Capital Management|Partners|Capital|LLC|L\.?P\.?|Inc\.?))+$', re.I)
 def inv_short(x):   # « Fidelity Management & Research Company » -> « Fidelity », « Lightspeed Venture Partners » -> « Lightspeed »: the name people use (Longevity, 18 Nov 2026: names too long for the investor slide)
+    if x.strip() in INV_ALIAS: return INV_ALIAS[x.strip()]
     y = INV_TAIL.sub('', x).strip(); return y if len(y) >= 3 and y.lower() not in GENERIC_INV else x
-GENERIC_INV = {'blockchain', 'crypto', 'digital', 'global', 'general', 'growth', 'venture', 'first', 'new', 'tech', 'future'}   # « Blockchain Capital » stays whole: « led by Blockchain » reads as a technology (Stablecoin payments, 22 Nov 2026)
+INV_ALIAS = {'U.S. Venture Partners': 'USVP'}   # « U.S. Venture Partners » became « U.S. » (MedTech, 24 Nov 2026)
+GENERIC_INV = {'u.s.', 'us', 'blockchain', 'crypto', 'digital', 'global', 'general', 'growth', 'venture', 'first', 'new', 'tech', 'future'}   # « Blockchain Capital » stays whole: « led by Blockchain » reads as a technology (Stablecoin payments, 22 Nov 2026)
 CO_TAIL = re.compile(r'\s+(Biosciences|Pharmaceuticals|Therapeutics|Technologies|Biotechnology)$', re.I)
 def co_short(n): return re.sub(r'\s+Biosciences$', ' Bio', n) if ' ' not in n.rsplit(' ', 1)[0] and n.endswith('Biosciences') else (CO_TAIL.sub('', n) or n)   # « Aeovian Pharmaceuticals » -> « Aeovian » on the narrow investor slide
 
