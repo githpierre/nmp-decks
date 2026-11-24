@@ -9,27 +9,27 @@ ed018:
   - label: 'BIPEDAL
 
       GENERAL-PURPOSE'
-    description: Companies building two-legged humanoids designed to learn and perform many physical tasks
+    description: Companies building two-legged humanoids that learn many physical tasks
     emoji: 🚶
   - label: 'WHEELED +
 
       HYBRID BASE'
-    description: Companies putting human-like torsos and arms on wheels or mixed bases for practical work
+    description: Companies putting human-like torsos and arms on wheels for practical work
     emoji: 🛞
   - label: 'OPEN DEVELOPER
 
       PLATFORMS'
-    description: Companies selling affordable complete humanoids for research, training and software development
+    description: Companies selling affordable humanoids for research and software work
     emoji: 🧑‍💻
   - label: 'SOCIAL +
 
       EXPRESSIVE'
-    description: Companies building human-form robots for conversation, hospitality, guidance and social settings
+    description: Companies building human-form robots that talk, greet and guide people
     emoji: 🗣️
   - label: 'HEAVY-DUTY
 
       SUPERHUMANOIDS'
-    description: Companies building stronger human-form machines for demanding industrial handling and factory work
+    description: Companies building stronger humanoids for heavy factory handling
     emoji: 🏭
   categorization: Here, we categorize by type of robot
   note: We could categorize the field in many ways, but these five robot types capture most current company strategies and make the map easier to read
@@ -302,6 +302,9 @@ ed025:
   - We kept the milestones that most changed credibility, customer adoption, funding or the rules of the market
   - There is no official timeline, and another analyst could reasonably pick a few different milestones
 ed042:
+  __replace__:
+    "a broad market benchmark, not direct robot sales.": "a broad market benchmark, not as direct sales of robots."
+    "We use it only as an upper cross-check.": "We use it only as an upper cross-check of the range."
   note:
   - We take each estimate from the firm's current website and compare its scope with our own definition
   - We keep complete humanoid revenue apart from components, software, services, funding and orders
@@ -493,27 +496,27 @@ ed019:
   - label: 'CAR + ELECTRONICS
 
       FACTORIES'
-    description: Companies automating handling, sequencing, machine tending and assembly work on production floors
+    description: Companies automating handling, machine tending and assembly in factories
     emoji: 🏭
   - label: 'WAREHOUSES
 
       + LOGISTICS'
-    description: Companies moving totes, handling goods and automating repetitive work in distribution sites
+    description: Companies moving totes and goods and doing repetitive warehouse work
     emoji: 🚚
   - label: 'HOMES +
 
       ELDER CARE'
-    description: Companies building safe, quiet humanoids for chores, assistance and daily life around people
+    description: Companies building safe, quiet humanoids for chores and daily help at home
     emoji: 🏠
   - label: 'RETAIL +
 
       SERVICES'
-    description: Companies using humanoids for customer assistance, hospitality, guidance and service tasks
+    description: Companies using humanoids to help customers in hotels, shops and lobbies
     emoji: 🛒
   - label: 'RESEARCH
 
       LABS'
-    description: Companies selling humanoids to universities and AI labs that train robot skills and test models
+    description: Companies selling humanoids to universities and AI labs that train skills
     emoji: 🔬
 ed020:
   page: 3/3
@@ -525,27 +528,27 @@ ed020:
   - label: 'DEVELOPER
 
       HARDWARE'
-    description: Companies shipping complete humanoids mainly for research, software work and embodied-AI training
+    description: Companies shipping complete humanoids mainly for research and AI training
     emoji: 🧑‍💻
   - label: 'PAID
 
       PILOTS'
-    description: Companies placing robots with enterprises to test tasks, economics and safety before scaling up
+    description: Companies placing robots with firms to test tasks and costs before scaling
     emoji: ⏳
   - label: 'LIVE COMMERCIAL
 
       DEPLOYMENTS'
-    description: Companies with robots doing recurring paid work under customer contracts in operating facilities
+    description: Companies paid under contracts for the recurring work their robots do
     emoji: 🏭
   - label: 'CONSUMER
 
       PREORDERS'
-    description: Companies taking orders for home humanoids before broad delivery and fully autonomous use
+    description: Companies taking orders for home humanoids before they can ship them
     emoji: 🏠
   - label: 'ROBOTS AS
 
       A SERVICE'
-    description: Companies renting robots by the hour or the month instead of selling them outright to customers
+    description: Companies renting robots by the hour or the month instead of selling them
     emoji: ⏱️
 ed029:
   13: 🚶
@@ -678,3 +681,9 @@ ed063-s4:
   22: 🏬
   23: 🔧
   24: 🛡️
+
+# MARGIN_ALL (24 Nov 2026): the side texts stop before the right margin
+ed088:
+  10: Human demos, robot logs and synthetic scenes teach models how tasks unfold
+  15: Fleet software links robots to workflows, tracks them and ships new skills
+  11: Vision-language-action models turn instructions and sensor data into actions

@@ -393,27 +393,27 @@ slides:
   - label: 'BIPEDAL
 
       GENERAL-PURPOSE'
-    description: Companies building two-legged humanoids designed to learn and perform many physical tasks
+    description: Companies building two-legged humanoids that learn many physical tasks
     emoji: 🚶
   - label: 'WHEELED +
 
       HYBRID BASE'
-    description: Companies putting human-like torsos and arms on wheels or mixed bases for practical work
+    description: Companies putting human-like torsos and arms on wheels for practical work
     emoji: 🛞
   - label: 'OPEN DEVELOPER
 
       PLATFORMS'
-    description: Companies selling affordable complete humanoids for research, training and software development
+    description: Companies selling affordable humanoids for research and software work
     emoji: 🧑‍💻
   - label: 'SOCIAL +
 
       EXPRESSIVE'
-    description: Companies building human-form robots for conversation, hospitality, guidance and social settings
+    description: Companies building human-form robots that talk, greet and guide people
     emoji: 🗣️
   - label: 'HEAVY-DUTY
 
       SUPERHUMANOIDS'
-    description: Companies building stronger human-form machines for demanding industrial handling and factory work
+    description: Companies building stronger humanoids for heavy factory handling
     emoji: 🏭
   categorization: Here, we categorize by type of robot
 - id: ed019
@@ -428,27 +428,27 @@ slides:
   - label: 'CAR + ELECTRONICS
 
       FACTORIES'
-    description: Companies automating handling, sequencing, machine tending and assembly work on production floors
+    description: Companies automating handling, machine tending and assembly in factories
     emoji: 🏭
   - label: 'WAREHOUSES
 
       + LOGISTICS'
-    description: Companies moving totes, handling goods and automating repetitive work in distribution sites
+    description: Companies moving totes and goods and doing repetitive warehouse work
     emoji: 🚚
   - label: 'HOMES +
 
       ELDER CARE'
-    description: Companies building safe, quiet humanoids for chores, assistance and daily life around people
+    description: Companies building safe, quiet humanoids for chores and daily help at home
     emoji: 🏠
   - label: 'RETAIL +
 
       SERVICES'
-    description: Companies using humanoids for customer assistance, hospitality, guidance and service tasks
+    description: Companies using humanoids to help customers in hotels, shops and lobbies
     emoji: 🛒
   - label: 'RESEARCH
 
       LABS'
-    description: Companies selling humanoids to universities and AI labs that train robot skills and test models
+    description: Companies selling humanoids to universities and AI labs that train skills
     emoji: 🔬
 - id: ed020
   type: sx_categories_n
@@ -462,27 +462,27 @@ slides:
   - label: 'DEVELOPER
 
       HARDWARE'
-    description: Companies shipping complete humanoids mainly for research, software work and embodied-AI training
+    description: Companies shipping complete humanoids mainly for research and AI training
     emoji: 🧑‍💻
   - label: 'PAID
 
       PILOTS'
-    description: Companies placing robots with enterprises to test tasks, economics and safety before scaling up
+    description: Companies placing robots with firms to test tasks and costs before scaling
     emoji: ⏳
   - label: 'LIVE COMMERCIAL
 
       DEPLOYMENTS'
-    description: Companies with robots doing recurring paid work under customer contracts in operating facilities
+    description: Companies paid under contracts for the recurring work their robots do
     emoji: 🏭
   - label: 'CONSUMER
 
       PREORDERS'
-    description: Companies taking orders for home humanoids before broad delivery and fully autonomous use
+    description: Companies taking orders for home humanoids before they can ship them
     emoji: 🏠
   - label: 'ROBOTS AS
 
       A SERVICE'
-    description: Companies renting robots by the hour or the month instead of selling them outright to customers
+    description: Companies renting robots by the hour or the month instead of selling them
     emoji: ⏱️
 - id: ed021
   type: x/top_companies_market
@@ -751,7 +751,7 @@ slides:
   - v: 19,100
     l: Humanoid robots shipped in the first half of 2026, around the world
   - v: 5,100
-    l: Shipped in the first half of 2025, a year earlier
+    l: Humanoid robots shipped in the first half of 2025, a year earlier, worldwide
   - v: ×3.7
     l: Growth in one year, the jump from prototypes to series production
   story: 'This is a sign of a hot market: volumes now grow by multiples, not percent. Most of the robots come from Chinese makers such as Unitree, AgiBot and UBTECH.'
@@ -930,34 +930,34 @@ slides:
     13: ❌
     14: ⚖️
 - id: ed042
-  type: estimates
-  section: Market size
-  title: What are the market size estimates from different sources online?
-  rows:
-  - firm: 'Grand View
-
-      Research'
-    value: $ 4.2 B
-    comment: Their 2026 estimate includes hardware and software across biped and wheel-drive robots. We use it as the low end of broad published estimates.
-  - firm: 'Marketsand
-
-      Markets'
-    value: $ 5.41 B
-    comment: Their scope includes hardware, software and services, plus stationary torso systems. It is broader than our integrated mobile-platform definition.
-  - firm: 'Fortune Business
-
-      Insights'
-    value: $ 6.24 B
-    comment: Their ecosystem also includes component and software suppliers. We treat the 2026 figure as a broad market benchmark, not direct robot sales.
-  - firm: 'Global Market
-
-      Insights'
-    value: $ 10.9 B
-    comment: Their 2026 estimate is the highest of these sources and starts from a very broad revenue base. We use it only as an upper cross-check.
   note:
   - We take each estimate from the firm's current website and compare its scope with our own definition
   - We keep complete humanoid revenue apart from components, software, services, funding and orders
+  rows:
+  - comment: Their 2026 estimate includes hardware and software across biped and wheel-drive robots. We use it as the low end of broad published estimates.
+    firm: 'Grand View
+
+      Research'
+    value: $ 4.2 B
+  - comment: Their scope includes hardware, software and services, plus stationary torso systems. It is broader than our integrated mobile-platform definition.
+    firm: 'Marketsand
+
+      Markets'
+    value: $ 5.41 B
+  - comment: Their ecosystem also includes component and software suppliers. We treat the 2026 figure as a broad market benchmark, not as direct sales of robots.
+    firm: 'Fortune Business
+
+      Insights'
+    value: $ 6.24 B
+  - comment: Their 2026 estimate is the highest of these sources and starts from a very broad revenue base. We use it only as an upper cross-check of the range.
+    firm: 'Global Market
+
+      Insights'
+    value: $ 10.9 B
+  section: Market size
   src: 42
+  title: What are the market size estimates from different sources online?
+  type: estimates
 - id: ed043
   type: x/our_own_first_principles_bottom
   section: Market size
@@ -2057,12 +2057,12 @@ slides:
   t:
     7: DATA
     9: ROBOT AI
-    10: Human demonstrations, robot logs and synthetic scenes teach models how tasks should unfold
-    11: Vision-language-action models turn instructions and sensor inputs into robot actions
+    10: Human demos, robot logs and synthetic scenes teach models how tasks unfold
+    11: Vision-language-action models turn instructions and sensor data into actions
     12: SIM
     13: FLEETS
     14: Simulation creates training data and tests policies before expensive real-world runs
-    15: Fleet software connects robots to workflows, monitors performance and ships learned skills
+    15: Fleet software links robots to workflows, tracks them and ships new skills
     21: LAYERS
 - id: ed089
   type: x/every_layer_carry_same_weight
@@ -3325,7 +3325,7 @@ slides:
   - v: $23K
     l: Average revenue per humanoid in 2025, about RMB 166,000
   - v: -36%
-    l: In one year, as cheaper models such as the G1 took most of the sales
+    l: In one year, as cheap models like the G1 took most sales
   story: It matters because cheaper robots widen the market from labs to factories and homes, and it is a real average price, not a list price or a target.
   note:
   - We divided Unitree’s humanoid revenue by its units sold, from its prospectus
