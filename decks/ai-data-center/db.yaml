@@ -48,8 +48,8 @@ ed159:
   t: null
   bars:
   - x: '2024'
-    v: 4702
-    ann: DayOne, $1.2B top round, in 14 rounds
+    v: 4713
+    ann: DayOne, $1.2B top round, in 17 rounds
   - x: '2025'
     v: 5550
     ann: Lambda, $1.5B top round, in 11 rounds
@@ -65,8 +65,8 @@ ed164:
   t: null
   bars:
   - x: '2024'
-    v: 26
-    ann: DayOne, $1.2B top round, out of 14 rounds
+    v: 25
+    ann: DayOne, $1.2B top round, out of 17 rounds
   - x: '2025'
     v: 27
     ann: Lambda, $1.5B top round, out of 11 rounds
@@ -120,7 +120,7 @@ ed166p:
   - We used our tracker of rounds, company announcements and the press, with sources at the end
 ed167:
   6: AI CLOUD OPERATORS
-  9: '16'
+  9: '19'
   13: $15.7B
   17: Crusoe, Nscale, Firmus, Lambda, CoreWeave, ai&, KONST
   7: AI CAMPUSES
@@ -131,7 +131,7 @@ ed167:
   12: '16'
   16: $1.5B
   20: Torus, Armada, Panthalassa, Metrobloks, Mavria, Nautilus Data
-  note: We used our tracker of 47 AI data center equity rounds announced since January 2024, worth about $29.1B. IPOs, debt and grants are left out
+  note: We used our tracker of 50 AI data center equity rounds announced since January 2024, worth about $29.1B. IPOs, debt and grants are left out
 ed169:
   7: COATUE
   10: '4'
@@ -153,7 +153,7 @@ ed169:
   29: '2'
   31: $3.1B
   33: Nscale (twice)
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 47 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 50 rounds
 ed205:
   14: 2025 (NOV)
   15: Lambda raised a $1.5B late-stage round led by TWG Global for its AI GPU cloud infrastructure {1|Lambda}
@@ -170,12 +170,12 @@ ed205:
   note: We picked the biggest disclosed rounds of AI data center startups since 2024, from our tracker of rounds
 ed160:
   6: AI cloud operators took about 54% of the capital raised since 2024, ahead of AI campuses with about 39%
-  7: 46 of the 47 rounds since 2024 disclosed an amount, and the median disclosed round was $195M
-  8: US startups closed 32 of the 47 rounds and raised $16.3B, ahead of startups based in Singapore with $6.4B
-  9: 31 rounds of $100M or more made up about 99% of all the capital raised in the market since 2024
+  7: 49 of the 50 rounds since 2024 disclosed an amount, and the median disclosed round was $155M
+  8: US startups closed 32 of the 50 rounds and raised $16.3B, ahead of startups based in Singapore with $6.4B
+  9: 31 rounds of $100M or more made up about 98% of all the capital raised in the market since 2024
   10: The $4.5B Series C round of DayOne Data Centers is the biggest since 2024, ahead of the $3.9B round of Crusoe
   11: Startups raised $18.8B in 22 rounds so far in 2026, against $5.5B in 11 rounds in all of 2025
-  note: We drew these insights from our tracker of 47 AI data center equity rounds announced since January 2024, worth about $29.1B
+  note: We drew these insights from our tracker of 50 AI data center equity rounds announced since January 2024, worth about $29.1B
 ed162:
   6: 'BEFORE
 
@@ -186,5 +186,5 @@ ed162:
 
 
 
-    Since 2024, 47 rounds raised $29.1B. AI cloud operators take the biggest share, led by Crusoe and Nscale, and gigawatt campuses now go live.'
+    Since 2024, 50 rounds raised $29.1B. AI cloud operators take the biggest share, led by Crusoe and Nscale, and gigawatt campuses now go live.'
   note: We used our tracker of AI data center equity rounds, complete from January 2024, and company releases and the press
