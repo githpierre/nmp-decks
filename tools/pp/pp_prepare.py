@@ -321,6 +321,11 @@ def trends(s):
     # dash_from (Pierre, 22 Nov 2026, AI data center, rule C): the part from that date is drawn dashed and muted, with a short legend,
     # and the stat is the one given in `stat` (the solid part), never the ratio of the whole curve.
     j = next((i for i, d in enumerate(D) if d >= s['dash_from']), None) if s.get('dash_from') else None
+    _t = ' '.join(str(s.get('title') or '').split()).lower()   # TRENDS STAT (24 Nov 2026): « doubled » on a ×2.5 curve slipped through (Longevity)
+    for _w, _lo, _hi in (('more than tripled', 3.05, 3.9), ('tripled', 2.7, 3.4), ('more than doubled', 2.05, 2.95), ('doubled', 1.8, 2.3), ('fivefold', 4.5, 5.6), ('tenfold', 9, 12)):
+        if _w in _t and not s.get('stat'):   # a hand-set stat has its own basis (AI data center: mid-2025 against 2022)
+            if not _lo <= r <= _hi: print(f"TRENDS TEXT: the title says « {_w} » but the curve shows ×{r:.1f}, say what the stat shows")
+            break
     s['geo'] = dict(ratio=r, stat=s.get('stat') or lab, stat_text=s.get('stat_text') or 'more searches at the peak<br>than in a typical week before',
                     pts=fmt(P if j is None else P[:j + 1]), dash=('' if j is None else fmt(P[j:])), base=y0 + 16, ghost=ghost,
                     dash_x=(None if j is None else P[j][0]), dash_top=(None if j is None else min(b for _, b in P[j:])))

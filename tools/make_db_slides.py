@@ -164,9 +164,9 @@ def main():
             if r['date'] < year_ago and (r['round_type'] or '').upper() != 'IPO': old.append(dict(r, name=b.companies[cid]['name'], what=m.get('what_they_do') or '', cat=m.get('category') or '', amt=float(r['amount_usd'] or 0)))
     D['ed166p'] = dict(rounds=[dict(x, date=x['date'][-4:]) for x in raises(old)], note=[f'We listed the biggest equity rounds raised by {N} startups before the last twelve months',
                        'We used our tracker of rounds, company announcements and the press, with sources at the end'])
-    def names_fit(ex, k):                        # as many names as the box holds (specs/slides.yaml), so it never looks half empty (14 Nov 2026)
+    def names_fit(ex, k, cap=None):              # as many names as the box holds (specs/slides.yaml), so it never looks half empty (14 Nov 2026)
         import spec as sp
-        cap = ((sp.SPEC.get('where_did_most_capital_go') or {}).get(str(k)) or {}).get('max', 60); out = []
+        cap = cap or ((sp.SPEC.get('where_did_most_capital_go') or {}).get(str(k)) or {}).get('max', 60); out = []
         for n_ in ex:
             n_ = co_short(n_)                    # short names fill the box evenly: rows on 1 and 2 lines side by side (BODY_LINES, AI drug discovery, 20 Nov 2026)
             if len(', '.join(out + [n_])) > cap: continue
@@ -182,6 +182,11 @@ def main():
     for i, (c, rs) in enumerate(top):
         ex = []; [ex.append(r['name']) for r in sorted(rs, key=lambda r: -r['amt']) if r['name'] not in ex]
         t167[6 + i] = SHORT.get(c, c).upper(); t167[[9, 11, 12][i]] = str(len(rs)); t167[[13, 15, 16][i]] = money(sum(r['amt'] for r in rs)); t167[[17, 19, 20][i]] = names_fit(ex, [17, 19, 20][i])
+    _ex = {k: v for k, v in t167.items() if k in (17, 19, 20)}   # a category with few startups fills one line: the other rows keep one line too (BOX_LINES, Neocloud, 24 Nov 2026)
+    if len(_ex) == 3 and min(len(v) for v in _ex.values()) <= 36:
+        for i, (c, rs) in enumerate(top):
+            ex = []; [ex.append(r['name']) for r in sorted(rs, key=lambda r: -r['amt']) if r['name'] not in ex]
+            t167[[17, 19, 20][i]] = names_fit(ex, [17, 19, 20][i], cap=36)
     t167['note'] = f'We used our tracker of {len(R)} {N} equity rounds announced since January 2024, worth about {money(tot)}. IPOs, debt and grants are left out'
     D['ed167'] = t167
     # investors (leads)

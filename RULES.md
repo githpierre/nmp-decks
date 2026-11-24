@@ -325,6 +325,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   stays counted, low confidence; a repeat of an earlier round is removed), never hidden from the slides by a deck conversation.
   skip_rounds.yaml is empty and stays for a round the base cannot fix yet. A round already ruled on goes to checked_rounds.yaml
   (round id + rule), so WEAK ROUND SOURCE and ROUND EXTENSION do not warn about it again.
+- A Trends title that names a multiple (« doubled », « tripled ») matches the stat shown (« doubled » on ×2.5 slipped
+  through on Longevity, 24 Nov 2026). CHECK: TRENDS TEXT in pp_prepare.trends.
 - A market term too rare on Google (0 most weeks before the cut) gives way to its wider parent term, and the text says so
   (In vivo CAR-T follows « car-t », Pierre, 24 Nov 2026). A curve with values of only 0 to 8 before the cut draws a staircase:
   use a CSV downloaded on November 2021 to July 2025 only, which Google rescales.
