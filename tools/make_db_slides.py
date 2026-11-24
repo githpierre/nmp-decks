@@ -136,11 +136,15 @@ def main():
     for y, h in halves:
         rs = [r for r in R if r['date'][:4] == y and ((r['date'][5:7] <= '06') == (h == 'H1'))]
         bars.append(dict(x=f'{y} {h}', v=round(sum(r['amt'] for r in rs) / 1e6), ann=ann(rs, f"in {len(rs)} round{'s' if len(rs) != 1 else ''}")))
+    for b_ in bars:                              # a half-year with rounds but no public amount reads « Undisclosed », never « $0M » (Natural hydrogen, 24 Nov 2026)
+        if b_['v'] == 0 and 'in 0 rounds' not in b_['ann']: b_['lab'] = 'Undisclosed'
     D['ed158'] = dict(bars=bars, note=[f'We add up the disclosed equity rounds of {N} startups in our tracker, by half-year',
                                        f'{today[:4]} H2 runs to mid-{["January","February","March","April","May","June","July","August","September","October","November","December"][int(today[5:7]) - 1]} only, and rounds with no public amount count as zero'])
     yb = []
     for y in ('2024', '2025', '2026'):
         rs = [r for r in R if r['date'][:4] == y]; yb.append(dict(x=y, v=round(sum(r['amt'] for r in rs) / 1e6), ann=ann(rs, f"in {len(rs)} round{'s' if len(rs) != 1 else ''}")))
+    for b_ in yb:
+        if b_['v'] == 0 and 'in 0 rounds' not in b_['ann']: b_['lab'] = 'Undisclosed'
     D['ed159'] = dict(type='fundbars', t=None, bars=yb, note=[f'We add up the disclosed equity rounds of {N} startups in our database, which is complete from January 2024',
                                                              'IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero'])
     pb = []
@@ -202,6 +206,7 @@ def main():
         t169[ke] = ', '.join(f'{co_short(n)} (twice)' if c == 2 else co_short(n) for n, c in names.most_common(2))
         if len(t169[ke]) > 35: t169[ke] = ', '.join(f'{co_short(n)} (twice)' if c == 2 else co_short(n) for n, c in names.most_common(1))   # « Isomorphic Labs (twice), Chai Discovery » broke the box (35 max)
     t169['note'] = f'We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the {len(R)} rounds'
+    if not ti or len(ti[0][1]) < 2: t169['drop'] = True   # « most active investors » with one deal each says nothing: the slide goes (Natural hydrogen, 24 Nov 2026)
     D['ed169'] = t169
     big = sorted(sorted(R, key=lambda r: -r['amt'])[:6], key=lambda r: r['date'])
     D['ed205'] = {k: v for i, r in enumerate(big) for k, v in ((14 + 2 * i, dl(r['date'])), (15 + 2 * i, sentence(r)))}

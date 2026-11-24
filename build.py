@@ -249,7 +249,7 @@ def build(slug, png=False, only=None):
         pg.goto((d / 'deck.html').as_uri()); pg.wait_for_load_state('load')
         pg.evaluate('document.fonts.ready'); pg.wait_for_function('window.__rawfit === true && window.__decided !== false', timeout=60000)
         issues = pg.evaluate(AUDIT_JS)
-        name = f"{deck['market']} - {deck['quarter']} - newmarketpitch.com ©.pdf"
+        name = f"{deck['market'][:1].upper() + deck['market'][1:]} - {deck['quarter']} - newmarketpitch.com ©.pdf"
         if png or only:   # audit PNGs are the screen render, taken BEFORE the print under-layer hides images and shadows (12 Nov 2026 bug: blank logos)
             (out / 'png').mkdir(exist_ok=True)
             pg.add_style_tag(content='.slide{margin:0!important}body{background:#062A3C}')

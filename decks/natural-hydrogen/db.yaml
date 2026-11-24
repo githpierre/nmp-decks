@@ -40,6 +40,7 @@ ed158:
   - x: 2026 H2
     v: 0
     ann: Koloma, undisclosed amount, in 1 round
+    lab: Undisclosed
   note:
   - We add up the disclosed equity rounds of natural hydrogen startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
@@ -123,7 +124,7 @@ ed167:
   12: '2'
   16: $21M
   20: Vema Hydrogen, Addis Energy
-  note: We used our tracker of 11 natural hydrogen equity rounds announced since January 2024, worth about $389M. IPOs, debt and grants are left out
+  note: We used our tracker of 11 natural hydrogen equity rounds announced since January 2024, worth about $388M. IPOs, debt and grants are left out
 ed169:
   7: KHOSLA
   10: '1'
@@ -146,6 +147,7 @@ ed169:
   31: $13M
   33: Vema Hydrogen
   note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 11 rounds
+  drop: true
 ed205:
   14: 2024 (FEB)
   15: Koloma raised a $246M Series B led by Khosla for its exploration and production of geological hydrogen {1|Axios}
@@ -167,7 +169,7 @@ ed160:
   9: Rounds of $100M or more, 1 in all, made up about 63% of the capital raised since 2024
   10: The $246M Series B round of Koloma is the biggest since 2024, ahead of the $50M round of Koloma
   11: Seed was the most common round, with 4 of the 11 rounds, ahead of Series A with 2 and Series B with 2
-  note: We drew these insights from our tracker of 11 natural hydrogen equity rounds announced since January 2024, worth about $389M
+  note: We drew these insights from our tracker of 11 natural hydrogen equity rounds announced since January 2024, worth about $388M
 ed162:
   6: 'BEFORE
 
@@ -178,5 +180,5 @@ ed162:
 
 
 
-    Since 2024, 11 rounds raised $389M. Hydrogen explorers take the biggest share, led by Koloma, and new wells in Australia and Canada find very pure hydrogen.'
+    Since 2024, 11 rounds raised $388M. Hydrogen explorers take the biggest share, led by Koloma, and new wells in Australia and Canada find very pure hydrogen.'
   note: We used our tracker of natural hydrogen equity rounds, complete from January 2024, and company releases and the press
