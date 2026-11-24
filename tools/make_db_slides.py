@@ -56,7 +56,7 @@ def main():
     for cid in M:
         for r in g.rounds_for(b, cid, 'ranking'):
             if r['round_id'] in CHECKED: continue
-            if r.get('amount_usd') and any(s in (r.get('source_url') or '') for s in SECONDARY):
+            if r.get('amount_usd') and any(s in (r.get('source_url') or '') for s in SECONDARY) and (float(r['amount_usd']) >= 1e8 or (r.get('date') or '') >= '2024'):   # RULES 131 of the base keeps the rest at low confidence: only a big or recent one moves a slide (24 Nov 2026)
                 print(f"WEAK ROUND SOURCE: {r['round_id']} {money(float(r['amount_usd']))} only from {r['source_url']}: check, or add it to skip_rounds.yaml")
             if re.search(r'participation', r.get('round_label') or '', re.I):   # « Series A investor participation »: the same round again (an « extension » is new money, kept)
                 print(f"ROUND EXTENSION: {r['round_id']} « {r['round_label']} » is likely the same round as an earlier one: check, or add it to skip_rounds.yaml")
