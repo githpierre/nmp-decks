@@ -276,16 +276,13 @@ slides:
     11: 💰💰
     12: 💰💰💰
 - id: ed014
-  type: cards
-  section: Market definition
-  title: When and where is value created in the market?
   items:
   - e: 🩺
-    t: When clinicians find relevant medical evidence at the point of care
+    t: When clinicians find the right medical evidence during care
   - e: ⏱️
     t: When visit notes take less clinician time to complete and review
   - e: 🔎
-    t: When scan findings reach the right specialist soon after imaging
+    t: When scan results reach the right specialist fast
   - e: 📋
     t: When care teams track tasks without repeating manual data entry
   - e: 💳
@@ -296,7 +293,10 @@ slides:
     t: When researchers find promising drug targets in complex data
   - e: 🔐
     t: When hospitals validate safety, privacy and performance at scale
+  section: Market definition
   src: 14
+  title: When and where is value created in the market?
+  type: cards
 - id: ed015
   type: x/some_common_myths_about
   section: Market definition
@@ -2461,7 +2461,7 @@ slides:
     9: 'PAYER
 
       WORKFLOW LINKS'
-    10: Platforms that monitor AI accuracy across hospitals.
+    10: Platforms that monitor AI accuracy and safety across many hospitals.
     12: 'SAFE
 
       SCALING'

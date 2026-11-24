@@ -578,3 +578,11 @@ ed136:
   12: '👥
 
     Doctors need training time and a real voice in buying'
+
+# CARD_LINES, HALF_FILLED (checks added after delivery, 24 Nov 2026)
+ed014:
+  __replace__:
+    "When clinicians find relevant medical evidence at the point of care": "When clinicians find the right medical evidence during care"
+    "When scan findings reach the right specialist soon after imaging": "When scan results reach the right specialist fast"
+ed104:
+  10: Platforms that monitor AI accuracy and safety across many hospitals.
