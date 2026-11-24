@@ -24,7 +24,7 @@
 - **ed098**: length 28: 84 vs 67
 - **iv_pipeline**: length 34: 58 vs 44
 - **ed103**: length 7: 93 vs 72; length 12: 14 vs 20; length 15: 96 vs 63
-- **ed104**: length 7: 83 vs 63; length 10: 85 vs 52
+- **ed104**: length 7: 83 vs 63
 - **ed106-s1**: length 5: 95 vs 64
 - **ed107-s1**: length 8: 10 vs 20
 - **ed109-s1**: length 8: 37 vs 26
