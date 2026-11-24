@@ -312,7 +312,7 @@ ed168p:
     names:
     - Baseten
     - fal
-    v: $11.2B
+    v: $11B
     pct: 45% of total
     w: 100.0
     logos:
@@ -325,7 +325,7 @@ ed168p:
     - Fluidstack
     v: $7.1B
     pct: 29% of total
-    w: 64.0
+    w: 63.9
     logos:
     - src: ../../assets/logos/firmus--symbol.png
     - src: ../../assets/logos/fluidstack--symbol.png
@@ -333,14 +333,14 @@ ed168p:
   - name: GPU clouds
     names:
     - Crusoe
-    - TensorWave
+    - PaleBlueDot AI
     v: $5.3B
     pct: 21% of total
-    w: 47.3
+    w: 47.2
     logos:
     - src: ../../assets/logos/crusoe.png
+    - src: ../../assets/logos/palebluedot-ai--symbol.png
     - src: ../../assets/logos/tensorwave--symbol.png
-    - src: ../../assets/logos/gmi-cloud.png
   - name: Training platforms
     names:
     - Together AI
@@ -365,14 +365,14 @@ ed168p:
   - name: Sovereign AI clouds
     names:
     - Prime Intellect
-    - Sapience AI
+    - TensorX
     v: $148M
     pct: under 1% of total
     w: 1.3
     logos:
     - src: ../../assets/logos/prime-intellect.png
-    - src: ../../assets/logos/sapience-ai.png
     - src: ../../assets/logos/tensorx.png
+    - src: ../../assets/logos/sapience-ai.png
 ed171p:
   title: 'Who are the top companies
 
@@ -491,8 +491,6 @@ ed209p:
     src: ../../assets/logos/pp_live/neocloud/s12-01.png
   - short: Crusoe
     src: ../../assets/logos/pp_live/neocloud/s12-02.png
-  - short: IREN
-    src: ../../assets/logos/pp_live/neocloud/s12-03.png
   - short: Lambda
     src: ../../assets/logos/pp_live/neocloud/s12-04.png
   - short: Fluidstack
@@ -506,14 +504,12 @@ ed209p:
     - 0
     - 0
     - 0
-    - 0
   - name: Microsoft GPU contract
     why: Hyperscaler as a customer
     ticks:
     - 1
     - 1
     - 0
-    - 1
     - 1
     - 0
   - name: Own inference platform
@@ -524,7 +520,6 @@ ed209p:
     - 1
     - 0
     - 0
-    - 0
   - name: Sites in Europe and US
     why: Serves both big markets
     ticks:
@@ -532,12 +527,10 @@ ed209p:
     - 1
     - 1
     - 0
-    - 0
     - 1
   - name: Builds own data centers
     why: Controls power and space
     ticks:
-    - 1
     - 1
     - 1
     - 1
@@ -549,13 +542,11 @@ ed209p:
     - 1
     - 1
     - 1
-    - 0
     - 1
     - 0
   - name: Anthropic compute deal
     why: Top AI lab as anchor
     ticks:
-    - 0
     - 0
     - 0
     - 0
@@ -627,7 +618,7 @@ ed039p:
   signal: google-trends
   window: 5y
   title: 'Searches for GPU cloud more than
-  
+
     tripled from 2021 to mid-2025'
   date: From late 2021 to mid-2025.
   expl: Neoclouds are cloud companies that rent GPUs for AI. ChatGPT set off a race for GPUs, CoreWeave signed a $12B deal with OpenAI and went public in March 2025, and AI teams started to look for GPUs outside the big clouds.
@@ -645,8 +636,7 @@ ed052p:
 
     for neocloud to grow?'
   lead: 'To fill that room, '
-  condition: neoclouds must keep getting new chips before hyperscalers, fill every new cluster with long contracts, and keep lenders willing to
-    fund GPU fleets. They must also keep serving inference cheaper than big tech, as token prices keep falling every year.
+  condition: neoclouds must keep getting new chips before hyperscalers, fill every new cluster with long contracts, and keep lenders willing to fund GPU fleets. They must also keep serving inference cheaper than big tech, as token prices keep falling every year.
   note:
   - We compared growth paths from Synergy, Gartner, McKinsey and the IEA, and aligned their timelines into a realistic range
   - We allowed for falling token prices and hyperscaler competition, and all our sources are listed at the end of the report

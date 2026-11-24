@@ -36,6 +36,7 @@ for c, v in sorted(S.items(), key=lambda x: -x[1]):
     p = 100 * v / tot
     rows.append(dict(name=SHORT.get(c, c), names=[n for n, _ in ok][:2], v=mon(v), pct=f'{p:.0f}% of total' if p >= 1 else 'under 1% of total',
                      w=round(100 * v / mx, 1), logos=[dict(src=s) for _, s in ok]))
+if len(rows) > 7: raise SystemExit(f'S09 ROWS: {len(rows)} rows, 7 at most: merge the smallest categories into « Other » in cat_short.yaml (24 Nov 2026)')
 f = ROOT / 'decks' / a.handle / 'live.yaml'; L = yaml.safe_load(f.read_text()); L[a.key]['rows'] = rows
 f.write_text(yaml.dump(L, allow_unicode=True, sort_keys=False, width=1000))
 print(f'{mon(tot)} since {since}, base to {a.today}')

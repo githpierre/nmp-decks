@@ -270,7 +270,7 @@ ed168p:
     - NewLimit
     - Cambrian Biopharma
     v: $1.2B
-    pct: 48% of total
+    pct: 54% of total
     w: 100.0
     logos:
     - src: ../../assets/logos/newlimit.png
@@ -279,14 +279,14 @@ ed168p:
   - name: Preventive health platforms
     names:
     - Neko Health
-    - Function Health
-    v: $1.1B
-    pct: 44% of total
-    w: 91.2
+    - Everlab
+    v: $840M
+    pct: 36% of total
+    w: 67.3
     logos:
     - src: ../../assets/logos/neko-health--symbol.png
-    - src: ../../assets/logos/function-health--symbol.png
     - src: ../../assets/logos/everlab.png
+    - src: ../../assets/logos/lucis--symbol.png
   - name: Longevity clinics
     names:
     - Midi Health
@@ -303,7 +303,7 @@ ed168p:
     - L-Nutra
     - Rapalogix Health
     v: $65M
-    pct: 2% of total
+    pct: 3% of total
     w: 5.2
     logos:
     - src: ../../assets/logos/l-nutra.png
@@ -601,7 +601,6 @@ ed007p:
   - Distance to the center reflects how directly a company targets the biology of aging, rather than general health or wellness
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   TL:
-    # Function Health left this corner on 24 Nov 2026: definition v3 includes preventive testing, the base ranks it 3rd (OUTSIDE PLAYER)
     name: Calm
     src: ../../assets/logos/calm.png
     text: sells a meditation and sleep app for everyday wellbeing, but nothing in it is built to add healthy years of life
@@ -658,7 +657,7 @@ ed039p:
   csv: assets/trends/longevity/longevity.csv
   term: longevity
   title: 'Searches for longevity more than
-  
+
     doubled from 2021 to mid-2025'
   date: From late 2021 to mid-2025.
   expl: Longevity left the lab and entered the gym. Bryan Johnson and Peter Attia turned it into a daily routine, Netflix shows and podcasts made “healthspan” a household word, and clinics started selling it. People now google longevity the way they used to google diets.

@@ -17,7 +17,7 @@ slides = deck.get('slides', []) if isinstance(deck, dict) else (deck or [])
 def names(x):
     if isinstance(x, dict):
         for k, v in x.items():
-            if k == 'name' and isinstance(v, str): yield v
+            if k in ('name', 'short', 'firm', 'company') and isinstance(v, str): yield v   # 'short': a scorecard column (Neocloud ed209p IREN, 24 Nov 2026)
             else: yield from names(v)
     elif isinstance(x, list):
         for v in x: yield from names(v)

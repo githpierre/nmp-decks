@@ -315,7 +315,7 @@ ed168p:
     w: 12.5
     logos:
     - src: ../../assets/logos/standard-nuclear.png
-    - src: ../../assets/logos/project-omega.png
+    - src: ../../assets/logos/fav/project-omega.png
     - src: ../../assets/logos/lis-technologies.png
   - name: Lead-cooled reactors
     names:
@@ -328,17 +328,17 @@ ed168p:
     - src: ../../assets/logos/newcleo.png
     - src: ../../assets/logos/blykalla.png
     - src: ../../assets/logos/first-american-nuclear.png
-  - logos:
-    - src: ../../assets/logos/otrera.png
-    - src: ../../assets/logos/hexana.png
-    - src: ../../assets/logos/emerald-horizon.png
-    name: Other designs
+  - name: Other designs
     names:
     - Otrera
     - Emerald Horizon
     v: $20M
     pct: under 1% of total
     w: 0.9
+    logos:
+    - src: ../../assets/logos/otrera.png
+    - src: ../../assets/logos/emerald-horizon.png
+    - src: ../../assets/logos/hexana.png
 ed171p:
   title: 'Who are the top players
 
@@ -599,7 +599,7 @@ ed039p:
   csv: assets/trends/advanced-nuclear/advanced-nuclear.csv
   term: advanced nuclear
   title: 'Searches for advanced nuclear climbed
-  
+
     from 2021 to mid-2025'
   date: From late 2021 to mid-2025.
   expl: Nuclear came back into the news. Microsoft, Google and Amazon signed deals in 2024 to power their AI data centers with nuclear, the US ordered its regulator to approve designs faster in May 2025, and Oklo listed on the stock market.

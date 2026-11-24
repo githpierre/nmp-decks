@@ -258,22 +258,22 @@ ed168p:
   rows:
   - name: Implantable devices
     names:
-    - Precision Neuroscience
     - Science Corporation
-    v: $2.1B
-    pct: 33% of total
+    - Precision Neuroscience
+    v: $2.5B
+    pct: 36% of total
     w: 100.0
     logos:
-    - src: ../../assets/logos/precision-neuroscience--symbol.png
     - src: ../../assets/logos/science.png
+    - src: ../../assets/logos/precision-neuroscience--symbol.png
     - src: ../../assets/logos/bciflex.png
   - name: Therapeutic devices
     names:
     - BrainCo
     - Cognito Therapeutics
-    v: $1.9B
-    pct: 29% of total
-    w: 88.6
+    v: $2B
+    pct: 28% of total
+    w: 78.8
     logos:
     - src: ../../assets/logos/brainco.png
     - src: ../../assets/logos/cognito-therapeutics.png
@@ -283,41 +283,41 @@ ed168p:
     - Neko Health
     - ClearNote Health
     v: $1.2B
-    pct: 18% of total
-    w: 53.9
+    pct: 17% of total
+    w: 46.5
     logos:
     - src: ../../assets/logos/neko-health--symbol.png
     - src: ../../assets/logos/clearnote-health.png
     - src: ../../assets/logos/fav/coremap.png
-  - name: Medical software
-    names:
-    - Aidoc
-    - Iterative Health
-    v: $573M
-    pct: 9% of total
-    w: 26.7
-    logos:
-    - src: ../../assets/logos/aidoc.png
-    - src: ../../assets/logos/fav/iterative-health.png
-    - src: ../../assets/logos/elucid.png
   - name: Surgical systems
     names:
     - Medical Microinstruments
     - Vitestro
-    v: $443M
-    pct: 7% of total
-    w: 20.7
+    v: $551M
+    pct: 8% of total
+    w: 21.7
     logos:
     - src: ../../assets/logos/medical-microinstruments.png
     - src: ../../assets/logos/vitestro.png
-    - src: ../../assets/logos/fav/calyxo.png
+    - src: ../../assets/logos/remedy.png
+  - name: Medical software
+    names:
+    - Aidoc
+    - Elucid
+    v: $476M
+    pct: 7% of total
+    w: 18.8
+    logos:
+    - src: ../../assets/logos/aidoc.png
+    - src: ../../assets/logos/elucid.png
+    - src: ../../assets/logos/sirona-medical.png
   - name: Patient monitoring
     names:
     - DentalMonitoring
     - Biobeat Technologies
-    v: $381M
+    v: $395M
     pct: 6% of total
-    w: 17.8
+    w: 15.6
     logos:
     - src: ../../assets/logos/dentalmonitoring.png
     - src: ../../assets/logos/biobeat-technologies.png
@@ -640,7 +640,9 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: "MedTech searches climbed steadily\nfrom 2021 to mid-2025"
+  title: 'MedTech searches climbed steadily
+
+    from 2021 to mid-2025'
   date: From late 2021 to mid-2025.
   expl: MedTech makes the devices that diagnose, monitor or treat patients. As surgical robots, new heart treatments and glucose sensors drew money and news, more people looked it up. We stop in July 2025, when Google changed how it counts small search terms.
   term: MedTech

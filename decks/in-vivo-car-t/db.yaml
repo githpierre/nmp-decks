@@ -1,47 +1,45 @@
-# Slides built from our startups database (nmp-seo data/startups, market in-vivo-car-t, 52 companies), 12 Nov 2026.
-# Equity rounds only (no IPO, debt, grants); 30 rounds since January 2024, 17 with a disclosed amount, $1.41B in all.
 ed156:
-  13: 2026 (OCT)
-  14: DeliNova raised a $14M seed round led by Proxima Ventures for its lentiviral in vivo CAR-T therapies {1|The Capital}
-  15: 2026 (SEP)
-  16: MVRIX raised a $5.9M Series B from Korea Investment Partners and others for its in vivo CAR-T cell therapies {1|Hankyung}
-  17: 2026 (AUG)
-  18: MagicRNA raised an undisclosed Series B led by CICC Capital and Kangjun Capital for its LNP-mRNA CD19 CAR-T {1|BioPharm China}
-  19: 2026 (JUL)
-  20: Sail Biomedicines got $465M from Johnson & Johnson in a strategic deal for its RNA-based in vivo CAR-T {1|J&J}
-  21: 2026 (MAY)
-  22: Zhenyu Biopharma raised an undisclosed round led by Chengdu Future Industry Fund for mRNA-LNP in vivo CAR-T {1|Chengdu Hi-Tech}
+  13: 2026 (NOV)
+  14: AlphaNa Bioscience raised a $50M Series A led by Guozhong. It develops TALENT targeted mRNA delivery {1|Vbdata}
+  15: 2026 (OCT)
+  16: DeliNova Therapeutics raised a $15M seed round led by Proxima for its lentiviral CAR-T {1|Thecapital}
+  17: 2026 (SEP)
+  18: MVRIX raised a $5.9M Series B for its in-vivo CAR-T cell therapies {1|Hankyung}
+  19: 2026 (AUG)
+  20: MagicRNA raised an undisclosed Series B led by CICC Capital-affiliated fund for its mRNA in vivo CAR-T {1|Biopharmchina}
+  21: 2026 (JUL)
+  22: Sail Biomedicines raised a $465M strategic round led by Johnson & Johnson Innovation – JJDC {1|Johnson & Johnson}
   23: 2026 (MAY)
-  24: CREATE Medicines raised a $122M Series B led by Newpath, ARCH and Hatteras to program immune cells in the body {1|PR Newswire}
+  24: Zhenyu Biopharma raised an undisclosed round for its mRNA-LNP in vivo CAR-T therapies {1|Chinamcloud}
   note: We list the latest equity rounds of in vivo CAR-T startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
 ed157:
   14: 2026 (MAY)
-  15: Starna Therapeutics raised a $40M Series B from Lilly Asia Ventures for its in vivo CAR programs STR-P004 and STR-P005 {1|Starna}
-  16: 2026 (APR)
-  17: Vivacta Bio raised an undisclosed Series A led by Loyal Valley Capital to advance its GT801 CD19 in vivo CAR-T {1|PR Newswire}
-  18: 2025 (DEC)
-  19: Vyriad closed the final $25M tranche of its Series B, from Harry Stine, to advance its in vivo CAR-T programs {1|Vyriad}
-  20: 2025 (NOV)
-  21: Vivacta Bio raised a $14M seed round led by Qiming Venture Partners for its GT801 CD19 in vivo CAR-T program {1|CNFIN}
-  22: 2025 (NOV)
-  23: Azalea Therapeutics raised a $65M Series A led by Third Rock Ventures for in vivo genome editing against cancer {1|Fierce Biotech}
-  24: 2025 (OCT)
-  25: Starna Therapeutics raised a $42M Series B led by LYFE Capital, Hillhouse Ventures and Lilly Asia Ventures {1|Starna}
+  15: CREATE Medicines raised a $122M Series B led by Newpath for its in vivo CAR immune therapies {1|PR Newswire}
+  16: 2026 (MAY)
+  17: Starna Therapeutics raised a $40M Series B. It develops STR-P004 and STR-P005 in vivo CAR {1|Starna}
+  18: 2026 (MAY)
+  19: Waypoint Bio raised a $20M Series A led by Amplify for its AI-designed in vivo CAR-T therapies {1|Business Wire}
+  20: 2026 (APR)
+  21: Vivacta Bio raised a $50M Series A led by Loyal Valley for its advances GT801 CD19 in vivo CAR-T program {1|PR Newswire}
+  22: '2026'
+  23: Genocury Bio raised an undisclosed round. It develops JY231 CD19 lentiviral in vivo CAR {1|Clsacapital}
+  24: 2025 (DEC)
+  25: Vyriad raised a $25M Series B led by Harry Stine for its in vivo CAR-T by targeted viral-vector delivery {1|Vyriad}
   note: We list the latest equity rounds of in vivo CAR-T startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
 ed158:
   bars:
   - x: 2025 H1
-    v: 145
-    ann: Umoja’s $100M Series C made up most of the half-year
+    v: 185
+    ann: Umoja Biopharma, $100M top round, in 5 rounds
   - x: 2025 H2
-    v: 396
-    ann: Strand raised $153M and Azalea $65M, in 12 rounds
+    v: 223
+    ann: Azalea, $65M top round, in 9 rounds
   - x: 2026 H1
-    v: 162
-    ann: CREATE’s $122M Series B was most of a quiet half-year
+    v: 232
+    ann: CREATE Medicines, $122M top round, in 6 rounds
   - x: 2026 H2
-    v: 485
-    ann: Sail’s $465M from J&J was almost all of the half-year
+    v: 536
+    ann: Sail, $465M top round, in 5 rounds
   note:
   - We add up the disclosed equity rounds of in vivo CAR-T startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
@@ -50,51 +48,33 @@ ed159:
   t: null
   bars:
   - x: '2024'
-    v: 226
-    ann: Capstan’s $175M was 77% of the year
+    v: 241
+    ann: Capstan, $175M top round, in 6 rounds
   - x: '2025'
-    v: 541
-    ann: Strand $153M, Umoja $100M
+    v: 408
+    ann: Umoja Biopharma, $100M top round, in 14 rounds
   - x: '2026'
-    v: 647
-    ann: Sail’s $465M round
+    v: 768
+    ann: Sail, $465M top round, in 11 rounds
   note:
   - We add up the disclosed equity rounds of in vivo CAR-T startups in our database, which is complete from January 2024
   - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
-ed160:
-  6: LNP-mRNA CAR-T took about 64% of the capital raised since 2024, far more than any other category
-  7: Only 17 of the 30 rounds since 2024 disclosed an amount, and the median disclosed round was $45M
-  8: US startups took about 89% of the capital, even though Chinese startups closed more rounds, 17 against 12
-  9: Five rounds of $100M or more made up about 72% of all the capital raised in the market since 2024
-  10: Sail’s $465M from Johnson & Johnson alone is about a third of all the capital raised in the market since 2024
-  11: Series B was the most common round, with 11 of the 30 rounds, ahead of seed with 6 and Series A with 5
-  note: Insights come from our tracker of 30 in vivo CAR-T equity rounds announced since January 2024, worth about $1.41 billion
-ed162:
-  6: 'BEFORE
-
-
-    From 2020 to 2022, investors wrote very large checks to broad platforms like Sana, Tessera, Orna and Umoja. The money came before any human data, on the promise of the technology alone.'
-  7: 'AFTER
-
-
-    Now, money follows clinical data and pharma partners. Big rounds are rare: Sail took $465M from J&J and CREATE raised $122M in 2026, while Chinese startups close most of the rounds.'
-  note: Insights come from our tracker of in vivo CAR-T equity rounds, complete from January 2024, and from company releases and the press
 ed164:
   type: fundbars
-  t: null
   unit: pct
+  t: null
   bars:
   - x: '2024'
-    v: 77
-    ann: Capstan’s $175M, out of 7 rounds
+    v: 73
+    ann: Capstan, $175M top round, out of 6 rounds
   - x: '2025'
-    v: 28
-    ann: Strand’s $153M round, out of 15 rounds
+    v: 24
+    ann: Umoja Biopharma, $100M top round, out of 14 rounds
   - x: 2026 (YTD)
-    v: 72
-    ann: Sail’s $465M round, out of 8 rounds
+    v: 61
+    ann: Sail, $465M top round, out of 11 rounds
   note:
-  - For each year, we divide the largest round by all the disclosed capital in our tracker
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
   - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
 ed165p:
   rounds:
@@ -106,23 +86,23 @@ ed165p:
     amt: 122000000
     date: Q2 2026
     stage: Series B
-  - name: Starna Therapeutics
-    amt: 40000000
+  - name: Vivacta Bio
+    amt: 50000000
     date: Q2 2026
-    stage: Series B
-  - name: Vyriad
-    amt: 25000000
-    date: Q4 2025
-    stage: Series B
+    stage: Series A
+  - name: AlphaNa Bioscience
+    amt: 50000000
+    date: Q4 2026
+    stage: Series A
   note:
   - We listed the biggest equity rounds raised by in vivo CAR-T startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
 ed166p:
   rounds:
-  - name: Tessera Therapeutics
-    amt: 300000000
-    date: '2022'
-    stage: Series C
+  - name: Sail Biomedicines
+    amt: 440000000
+    date: '2021'
+    stage: Series B
   - name: Orbital Therapeutics
     amt: 270000000
     date: '2023'
@@ -139,121 +119,70 @@ ed166p:
   - We listed the biggest equity rounds raised by in vivo CAR-T startups before the last twelve months
   - We used our tracker of rounds, company announcements and the press, with sources at the end
 ed167:
-  6: LNP-MRNA CAR-T
+  6: MRNA IN VIVO CAR-T
+  9: '12'
+  13: $852M
+  17: Sail Biomedicines, Capstan, Starna
   7: LENTIVIRAL CAR-T
-  8: OTHER ROUTES
-  9: '10'
-  11: '10'
-  12: '10'
-  13: $903M
-  15: $220M
-  16: $291M
-  17: Sail Biomedicines, Capstan, Strand
-  19: Umoja, Interius, IASO, Vyriad
-  20: CREATE, Azalea, Ensoma, Stylus
-  note: Data comes from our tracker of 30 in vivo CAR-T equity rounds announced since January 2024, worth about $1.41 billion. IPOs, debt and grants are left out
-ed168p:
-  rows:
-  - name: LNP-mRNA CAR-T
-    names:
-    - Sail
-    - Starna
-    pct: 75% of total
-    v: $505M
-    w: 100.0
-    logos:
-    - Sail Biomedicines
-    - MagicRNA
-    - Starna Therapeutics
-  - name: Multi-lineage CAR
-    names:
-    - CREATE Medicines
-    pct: 18% of total
-    v: $122M
-    w: 24.2
-    logos:
-    - CREATE Medicines
-  - name: Lentiviral CAR-T
-    names:
-    - Vyriad
-    - DeliNova
-    pct: 6% of total
-    v: $39M
-    w: 7.7
-    logos:
-    - Vyriad
-    - DeliNova Therapeutics
-  - name: Other approaches
-    names:
-    - MVRIX
-    - Zhenyu
-    pct: 1% of total
-    v: $6M
-    w: 1.2
-    logos:
-    - MVRIX
-    - Zhenyu Biopharma
-  note: We added up the 9 equity rounds we tracked in the in vivo CAR-T space over the last twelve months, $672M in all, from company announcements and the press. All the sources are included at the end of the report.
-ed169:
-  7: RA CAPITAL
-  8: LILLY ASIA VENTURES
-  9: QIMING
-  10: '2'
+  11: '11'
+  15: $200M
+  19: Umoja Biopharma, Vyriad, DeliNova
+  8: GENE-EDITING CAR-T
   12: '2'
-  13: '2'
-  14: $220M
-  16: $82M
-  17: $14M
-  18: Capstan, Stylus
-  20: Starna (twice)
-  21: Vivacta, RiboX
-  26: TIANCHUANG
-  27: ARCH VENTURES
-  28: '2'
+  16: $150M
+  20: Stylus Medicine, Azalea
+  note: We used our tracker of 31 in vivo CAR-T equity rounds announced since January 2024, worth about $1.4B. IPOs, debt and grants are left out
+ed169:
+  7: RA CAPITAL MANAGEMENT
+  10: '2'
+  14: $260M
+  18: Capstan, Stylus Medicine
+  8: JOHNSON & JOHNSON INNOVATION – JJDC
+  12: '1'
+  16: $465M
+  20: Sail Biomedicines
+  9: NEWPATH
+  13: '1'
+  17: $122M
+  21: CREATE Medicines
+  26: ARCH
+  28: '1'
+  30: $122M
+  32: CREATE Medicines
+  27: HATTERAS
   29: '1'
-  30: Undisclosed
   31: $122M
-  32: Genocury, Jiyin
   33: CREATE Medicines
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 30 rounds
-ed171p:
-  rows:
-  - Lentiviral
-  - LNP-mRNA
-  - Other routes
-  cells:
-  - - - Umoja Biopharma
-      - IASO Biotherapeutics
-    - - Shenzhen Genocury Biotech
-      - Vyriad
-    - - DeliNova Therapeutics
-      - Jiyin Biotechnology
-  - - - Sail Biomedicines
-      - MagicRNA
-    - - Starna Therapeutics
-      - Strand Therapeutics
-    - - Vivacta Bio
-      - Zhenyu Biopharma
-  - - - CREATE Medicines
-      - Ensoma
-    - - Azalea Therapeutics
-      - MVRIX
-    - - Stylus Medicine
-      - NanoCell Therapeutics
-  note:
-  - We placed private players by delivery route and stage, from funding, clinical progress and first rounds
-  - We left out acquired startups like Capstan, Interius, Orbital and EsoBiotec, with sources at the end
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 31 rounds
 ed205:
   14: 2024 (MAR)
-  15: Capstan raised a $175M Series B led by RA Capital, about a year before AbbVie agreed to buy it for up to $2.1B {1|Capstan}
+  15: Capstan Therapeutics raised a $175M Series B led by RA Capital Management for its mRNA in vivo CAR-T {1|Vcaonline}
   16: 2025 (JAN)
-  17: Umoja raised a $100M Series C led by Double Point Ventures and DCVC Bio to bring its in vivo CAR-T to patients {1|GlobeNewswire}
-  18: 2025 (AUG)
-  19: Strand Therapeutics raised a $153M Series B led by Kinnevik for its programmable mRNA therapies against cancer {1|Business Wire}
+  17: Umoja Biopharma raised a $100M Series C led by Double Point. It develops in-vivo CAR-T therapies {1|GlobeNewswire}
+  18: 2025 (MAY)
+  19: Stylus Medicine raised an $85M Series A led by RA Capital Management for its in-vivo gene editing {1|Fierce Biotech}
   20: 2025 (NOV)
-  21: Azalea Therapeutics launched with a $65M Series A led by Third Rock Ventures for in vivo genome editing in cancer {1|Fierce Biotech}
+  21: Azalea Therapeutics raised a $65M Series A led by Third Rock for its in-vivo genome editing {1|Fierce Biotech}
   22: 2026 (MAY)
-  23: CREATE Medicines raised a $122M Series B led by Newpath, ARCH and Hatteras to program immune cells in the body {1|PR Newswire}
+  23: CREATE Medicines raised a $122M Series B led by Newpath for its in vivo CAR immune therapies {1|PR Newswire}
   24: 2026 (JUL)
-  25: Sail Biomedicines got $465M from Johnson & Johnson in a deal that gives J&J an option to buy the company {1|J&J}
+  25: Sail Biomedicines raised a $465M strategic round led by Johnson & Johnson Innovation – JJDC {1|Johnson & Johnson}
   note: We picked the biggest disclosed rounds of in vivo CAR-T startups since 2024, from our tracker of rounds
+ed160:
+  6: LNP-mRNA CAR-T took about 60% of the capital raised since 2024, far more than any other category
+  7: Only 20 of the 31 rounds since 2024 disclosed an amount, and the median disclosed round was $47M
+  8: US startups took about 83% of the capital, even though Chinese startups closed more rounds, 18 against 12
+  9: 4 rounds of $100M or more made up about 61% of all the capital raised in the market since 2024
+  10: The $465M of Sail Biomedicines with Johnson & Johnson is the biggest round since 2024, ahead of the $175M raised by Capstan Therapeutics in 2024
+  11: Series B was the most common round, with 8 of the 31 rounds, ahead of seed with 8 and Series A with 7
+  note: Insights come from our tracker of 31 in vivo CAR-T equity rounds announced since January 2024, worth about $1.4B
+ed162:
+  6: 'BEFORE
+
+
+    From 2020 to 2022, investors wrote very large checks to broad platforms like Sana, Tessera, Orna and Umoja. The money came before any human data, on the promise of the technology alone.'
+  7: 'AFTER
+
+
+    Now, money follows clinical data and pharma partners. Since 2024, 31 rounds raised $1.4B, and Chinese startups close most of them.'
+  note: Insights come from our tracker of in vivo CAR-T equity rounds, complete from January 2024, and from company releases and the press

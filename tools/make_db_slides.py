@@ -104,7 +104,7 @@ def main():
         if p_.lower()[:5] == key[:5] or (len(lab) >= 4 and (key.startswith(lab) or lab.startswith(key))) or 'pr.co' in r['source_url']: p_ = r['name'] if len(r['name']) <= 14 else r['name'].split()[0]   # « Project Omega », never « Project » (18 Nov 2026)   # a company's own site, blog or press page: name the company
         elif p_ not in PUB.values() and p_.lower() not in (r['lead_investors'] or '').lower(): print('PUBLISHER UNKNOWN', r['source_url'][:70], '->', p_)   # shown on a slide: add its name to PUB (tools/build_sources.py)
         return s + f" {{1|{p_}}}"
-    def dl(d): return f"{d[:4]} ({['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][int(d[5:7]) - 1]})"
+    def dl(d): return f"{d[:4]} ({['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][int(d[5:7]) - 1]})" if d[5:7].isdigit() else d[:4]   # a year-only date in the base (In vivo CAR-T, 24 Nov 2026)
 
     last = sorted(R, key=lambda r: r['date'], reverse=True)[:12]; floor = ''
     if sum(1 for r in last if 0 < r['amt'] < 1e7) > 6:      # a busy market: most of the 12 latest rounds are small rounds of unknown startups (Healthcare AI, 13 Nov 2026).

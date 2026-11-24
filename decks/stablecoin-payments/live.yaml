@@ -262,64 +262,64 @@ ed168p:
     names:
     - Rain
     - RedotPay
-    v: $492M
-    pct: 29% of total
+    v: $486M
+    pct: 31% of total
     w: 100.0
     logos:
     - src: ../../assets/logos/rain.png
     - src: ../../assets/logos/redotpay.png
     - src: ../../assets/logos/kast.png
-  - name: Payment APIs
-    names:
-    - Mesh
-    - Latitude
-    v: $329M
-    pct: 19% of total
-    w: 66.8
-    logos:
-    - src: ../../assets/logos/mesh-2.png
-    - src: ../../assets/logos/fav/latitude.png
-    - src: ../../assets/logos/photonpay.png
   - name: Treasury settlement
     names:
     - OpenFX
     - Velocity
-    v: $321M
-    pct: 19% of total
-    w: 65.3
+    v: $351M
+    pct: 22% of total
+    w: 72.3
     logos:
     - src: ../../assets/logos/openfx.png
     - src: ../../assets/logos/velocity-2.png
-    - src: ../../assets/logos/xfx.png
+    - src: ../../assets/logos/codex.png
+  - name: Payment APIs
+    names:
+    - Mesh
+    - Latitude
+    v: $314M
+    pct: 20% of total
+    w: 64.6
+    logos:
+    - src: ../../assets/logos/mesh-2.png
+    - src: ../../assets/logos/fav/latitude.png
+    - src: ../../assets/logos/photonpay.png
   - name: Cross-border B2B
     names:
-    - Parallax
     - ARQ
-    v: $304M
-    pct: 18% of total
-    w: 61.8
+    - Fin.com
+    v: $174M
+    pct: 11% of total
+    w: 35.8
     logos:
-    - src: ../../assets/logos/fav/parallax.png
     - src: ../../assets/logos/fav/arq.png
     - src: ../../assets/logos/fin-com.png
+    - src: ../../assets/logos/velafi.png
   - name: On and off ramps
     names:
+    - Avenia
     - Yellow Card
-    - Trace Finance
-    v: $129M
-    pct: 8% of total
-    w: 26.2
+    v: $149M
+    pct: 9% of total
+    w: 30.8
     logos:
+    - src: ../../assets/logos/avenia.png
     - src: ../../assets/logos/yellow-card.png
     - src: ../../assets/logos/trace-finance.png
-    - src: ../../assets/logos/avenia.png
   - name: Remittance apps
     names:
     - Félix Pago
     - El Dorado
-    v: $113M
+    v: $108M
     pct: 7% of total
-    w: 23.0
+    w: 22.1
     logos:
     - src: ../../assets/logos/felix-pago.png
     - src: ../../assets/logos/el-dorado.png
@@ -662,7 +662,7 @@ ed039p:
   signal: google-trends
   window: 5y
   title: 'Searches for stablecoins fell after 2022,
-  
+
     then climbed to the US law in 2025'
   date: From late 2021 to mid-2025.
   expl: Searches dropped after the Terra crash in 2022, then climbed again as PayPal launched its own stablecoin and the US moved toward a stablecoin law, signed in July 2025.

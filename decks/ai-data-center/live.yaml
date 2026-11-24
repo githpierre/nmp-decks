@@ -484,14 +484,11 @@ ed209p:
     src: ../../assets/logos/pp_live/ai-data-center/s12-03.png
   - short: Core Sci.
     src: ../../assets/logos/pp_live/ai-data-center/s12-04.png
-  - short: Galaxy
-    src: ../../assets/logos/pp_live/ai-data-center/s12-05.png
   criteria:
   - name: $9.7B Microsoft contract
     why: Top hyperscaler as anchor
     ticks:
     - 1
-    - 0
     - 0
     - 0
     - 0
@@ -504,12 +501,10 @@ ed209p:
     - 0
     - 0
     - 0
-    - 0
   - name: Nvidia is a customer
     why: Chip giant rents its capacity
     ticks:
     - 1
-    - 0
     - 0
     - 0
     - 0
@@ -522,7 +517,6 @@ ed209p:
     - 0
     - 0
     - 0
-    - 0
   - name: Multi year AI contracts
     why: Locked in AI revenue
     ticks:
@@ -531,11 +525,9 @@ ed209p:
     - 1
     - 1
     - 1
-    - 1
   - name: Listed on Nasdaq
     why: Easy access to capital
     ticks:
-    - 1
     - 1
     - 1
     - 1
@@ -606,7 +598,7 @@ ed039p:
   signal: google-trends
   window: 5y
   title: 'Searches for data center doubled
-  
+
     in the three years to mid-2025'
   date: From late 2021 to mid-2025.
   expl: Data centers left the trade press as AI labs and big clouds raced to build. Microsoft, Meta and xAI planned campuses as big as cities, and OpenAI announced Stargate in January 2025.

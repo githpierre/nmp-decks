@@ -4004,7 +4004,7 @@ slides:
     w: 12.5
     logos:
     - src: ../../assets/logos/standard-nuclear.png
-    - src: ../../assets/logos/project-omega.png
+    - src: ../../assets/logos/fav/project-omega.png
     - src: ../../assets/logos/lis-technologies.png
   - name: Lead-cooled reactors
     names:
@@ -4017,17 +4017,17 @@ slides:
     - src: ../../assets/logos/newcleo.png
     - src: ../../assets/logos/blykalla.png
     - src: ../../assets/logos/first-american-nuclear.png
-  - logos:
-    - src: ../../assets/logos/otrera.png
-    - src: ../../assets/logos/hexana.png
-    - src: ../../assets/logos/emerald-horizon.png
-    name: Other designs
+  - name: Other designs
     names:
     - Otrera
     - Emerald Horizon
     v: $20M
     pct: under 1% of total
     w: 0.9
+    logos:
+    - src: ../../assets/logos/otrera.png
+    - src: ../../assets/logos/emerald-horizon.png
+    - src: ../../assets/logos/hexana.png
 - id: ed169
   type: x/most_active_investors
   section: Investor bets

@@ -332,9 +332,13 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A company the radar places outside but the market definition includes (Function Health, preventive testing in Longevity v3)
   leaves the radar corner, replaced by a clearly outside company with a logo (Calm). OUTSIDE PLAYER finds it.
 - The PDF name starts with a capital letter whatever the deck header says (build.py).
+- Google curves are drawn smooth: 3-week median, then a 5-week average for the drawing only (Pierre, 24 Nov 2026, « lisse toi-même »:
+  small whole numbers drew steps). The stat (×N) is computed before the average, so it never moves. No re-download needed for that.
+- S09 (ed168p) has 7 rows at most: a category that would make an 8th row is merged into « Other » in cat_short.yaml (Advanced
+  nuclear, 24 Nov 2026: 8 rows pushed the table into the title). cat_short.yaml keeps the short names of the live S09 slide.
 - A market term too rare on Google (0 most weeks before the cut) gives way to its wider parent term, and the text says so
   (In vivo CAR-T follows « car-t », Pierre, 24 Nov 2026). A curve with values of only 0 to 8 before the cut draws a staircase:
-  use a CSV downloaded on November 2021 to July 2025 only, which Google rescales.
+  the drawing is smoothed (rule above), no new download is needed.
 - « a » or « an » before an amount follows the figure as printed, after rounding (« an $11.9B » became « an $12B »,
   Neocloud): tidy_numbers fixes the article, CHECK: tools/check_article.py (ARTICLE AMOUNT, blocks --png).
 - OUTSIDE PLAYER on a hand-made slide: the outside company leaves the slide, the note counts what is left (IREN left the

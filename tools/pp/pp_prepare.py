@@ -307,6 +307,10 @@ def trends(s):
         if not s.get('to_today'): v, D = v[:pk + 1], D[:pk + 1]
     m = max(v); v = [x * 100 / m for x in v]
     n = len(v); r = max(v) / max(st.median(v[:max(1, int(n * .75))]), 1)
+    # SMOOTH DRAWING (Pierre, 24 Nov 2026: « lisse toi-même »): Google gives small whole numbers, so the curve drew steps. The line is drawn
+    #   with a 5-week average on top of the median; the stat above is computed BEFORE it, so the figure shown never moves. raw / smooth: none skip it.
+    if not s.get('raw') and s.get('smooth') != 'none':
+        v = [sum(v[max(0, i - 2):i + 3]) / len(v[max(0, i - 2):i + 3]) for i in range(len(v))]; _m = max(v); v = [x * 100 / _m for x in v]
     ghost = None
     if s.get('cut') and s.get('ghost'):     # grey line after the cut, on the same scale as the full series (option B of 22 Nov 2026)
         a = [x for _, x in s['_after']]; a = [sorted(a[max(0, i - 1):i + 2])[len(a[max(0, i - 1):i + 2]) // 2] for i in range(len(a))]

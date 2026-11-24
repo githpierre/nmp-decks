@@ -4120,7 +4120,7 @@ slides:
     - Fluidstack
     v: $7.1B
     pct: 29% of total
-    w: 64.0
+    w: 63.9
     logos:
     - src: ../../assets/logos/firmus--symbol.png
     - src: ../../assets/logos/fluidstack--symbol.png
@@ -4128,14 +4128,14 @@ slides:
   - name: GPU clouds
     names:
     - Crusoe
-    - TensorWave
+    - PaleBlueDot AI
     v: $5.3B
     pct: 21% of total
-    w: 47.3
+    w: 47.2
     logos:
     - src: ../../assets/logos/crusoe.png
+    - src: ../../assets/logos/palebluedot-ai--symbol.png
     - src: ../../assets/logos/tensorwave--symbol.png
-    - src: ../../assets/logos/gmi-cloud.png
   - name: Training platforms
     names:
     - Together AI
@@ -4160,14 +4160,14 @@ slides:
   - name: Sovereign AI clouds
     names:
     - Prime Intellect
-    - Sapience AI
+    - TensorX
     v: $148M
     pct: under 1% of total
     w: 1.3
     logos:
     - src: ../../assets/logos/prime-intellect.png
-    - src: ../../assets/logos/sapience-ai.png
     - src: ../../assets/logos/tensorx.png
+    - src: ../../assets/logos/sapience-ai.png
 - id: ed169
   type: x/most_active_investors
   section: Investor bets
@@ -5054,8 +5054,6 @@ slides:
     src: ../../assets/logos/pp_live/neocloud/s12-01.png
   - short: Crusoe
     src: ../../assets/logos/pp_live/neocloud/s12-02.png
-  - short: IREN
-    src: ../../assets/logos/pp_live/neocloud/s12-03.png
   - short: Lambda
     src: ../../assets/logos/pp_live/neocloud/s12-04.png
   - short: Fluidstack
@@ -5069,14 +5067,12 @@ slides:
     - 0
     - 0
     - 0
-    - 0
   - name: Microsoft GPU contract
     why: Hyperscaler as a customer
     ticks:
     - 1
     - 1
     - 0
-    - 1
     - 1
     - 0
   - name: Own inference platform
@@ -5087,7 +5083,6 @@ slides:
     - 1
     - 0
     - 0
-    - 0
   - name: Sites in Europe and US
     why: Serves both big markets
     ticks:
@@ -5095,12 +5090,10 @@ slides:
     - 1
     - 1
     - 0
-    - 0
     - 1
   - name: Builds own data centers
     why: Controls power and space
     ticks:
-    - 1
     - 1
     - 1
     - 1
@@ -5112,13 +5105,11 @@ slides:
     - 1
     - 1
     - 1
-    - 0
     - 1
     - 0
   - name: Anthropic compute deal
     why: Top AI lab as anchor
     ticks:
-    - 0
     - 0
     - 0
     - 0

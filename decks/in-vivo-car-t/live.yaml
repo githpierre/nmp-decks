@@ -1,4 +1,3 @@
-# Product-page twins: content of the live slides of https://newmarketpitch.com/pages/in-vivo-car-t, copied as is (12 Nov 2026).
 ed171p:
   title: 'Who are the leading
 
@@ -235,7 +234,9 @@ ed039p:
   signal: google-trends
   csv: assets/trends/in-vivo-car-t/car-t.csv
   term: car-t
-  title: "Searches for CAR-T more than doubled\nfrom late 2021 to mid-2025"
+  title: 'Searches for CAR-T more than doubled
+
+    from late 2021 to mid-2025'
   date: From late 2021 to mid-2025.
   note:
   - We tracked how often people worldwide googled CAR-T from late 2021 to July 2025
@@ -244,7 +245,6 @@ ed039p:
   caption_period: November 2021 to July 2025
   stat_text: more searches in mid-2025<br>than in a typical week before
   expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and AstraZeneca and AbbVie bought in vivo startups in 2025. The term “in vivo CAR-T” alone is too rare on Google, so the curve follows CAR-T.
-
 ed007p:
   title: 'What is actually included
 
@@ -428,52 +428,41 @@ ed168p:
   - name: mRNA in vivo CAR-T
     names:
     - Sail Biomedicines
-    - Starna
-    pct: 69% of total
-    v: $505M
+    - Vivacta Bio
+    v: $605M
+    pct: 76% of total
     w: 100.0
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-00.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-01.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-02.png
+    - src: ../../assets/logos/sail-biomedicines.png
+    - src: ../../assets/logos/vivacta-bio.png
   - name: Beyond T cells
     names:
     - CREATE Medicines
-    pct: 17% of total
     v: $122M
-    w: 24.2
+    pct: 15% of total
+    w: 20.2
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-10.png
-  - name: Gene-editing CAR-T
-    names:
-    - Azalea
-    pct: 9% of total
-    v: $65M
-    w: 12.9
-    logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-20.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-21.png
+    - src: ../../assets/logos/create-medicines.png
   - name: Lentiviral CAR-T
     names:
     - Vyriad
-    - DeliNova
+    - DeliNova Therapeutics
+    v: $40M
     pct: 5% of total
-    v: $39M
-    w: 7.7
+    w: 6.6
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-30.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-31.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-32.png
+    - src: ../../assets/logos/vyriad.png
+    - src: ../../assets/logos/delinova-therapeutics.png
   - name: Other approaches
     names:
+    - Waypoint Bio
     - MVRIX
-    pct: under 1% of total
-    v: $6M
-    w: 1.2
+    v: $26M
+    pct: 3% of total
+    w: 4.3
     logos:
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-40.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-41.png
-    - src: ../../assets/logos/pp_live/in-vivo-car-t/s09-42.png
+    - src: ../../assets/logos/fav/waypoint-bio.png
+    - src: ../../assets/logos/mvrix.png
   note:
   - We added up every funding round we tracked in in vivo CAR-T over the last twelve months
   - We used company announcements and the press, with all the sources at the end of the report

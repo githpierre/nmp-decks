@@ -1,0 +1,19 @@
+# Sentences on base figures (ed160, ed162): every figure is a {db.key} of db_facts.yaml, so a base update re-flows them (wired 24 Nov 2026)
+ed160:
+  6: LNP-mRNA CAR-T took about {db.cat1_pct}% of the capital raised since 2024, far more than any other category
+  7: 'Only {db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}'
+  8: US startups took about {db.us_money_pct}% of the capital, even though Chinese startups closed more rounds, {db.ctry2_n} against {db.us_n}
+  9: '{db.big_n} rounds of $100M or more made up about {db.big_pct}% of all the capital raised in the market since 2024'
+  10: 'The {db.big1_amt} of {db.big1_name} with Johnson & Johnson is the biggest round since 2024, ahead of the {db.big2_amt} raised by {db.big2_name} in {db.big2_year}'
+  11: Series B was the most common round, with {db.series_b} of the {db.n} rounds, ahead of seed with {db.seed} and Series A with {db.series_a}
+  note: Insights come from our tracker of {db.n} in vivo CAR-T equity rounds announced since January 2024, worth about {db.total}
+ed162:
+  6: 'BEFORE
+
+
+    From 2020 to 2022, investors wrote very large checks to broad platforms like Sana, Tessera, Orna and Umoja. The money came before any human data, on the promise of the technology alone.'
+  7: 'AFTER
+
+
+    Now, money follows clinical data and pharma partners. Since 2024, {db.n} rounds raised {db.total}, and Chinese startups close most of them.'
+  note: Insights come from our tracker of in vivo CAR-T equity rounds, complete from January 2024, and from company releases and the press
