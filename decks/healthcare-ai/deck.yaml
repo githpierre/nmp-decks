@@ -810,7 +810,7 @@ slides:
   - name: '2025'
     stats:
     - v: $11B
-      l: raised in all, in 322 rounds
+      l: raised in all, in 320 rounds
     - v: 28
       l: rounds of $100M or more
   - name: 2026 SO FAR
@@ -3798,7 +3798,7 @@ slides:
     19: 2026 (NOV)
     20: Akara raised $5.5M led by Locke Health. It uses privacy-preserving sensors, AI agents and robots {1|GlobeNewswire}
     21: 2026 (NOV)
-    22: Kardi Ai raised a $6M Series A led by Callisto Health. It uses AI analysis of ECG recordings {1|Tech.eu}
+    22: Kardi AI raised a $6M Series A led by Callisto Health. It uses AI analysis of ECG recordings {1|Tech.eu}
     23: 2026 (NOV)
     24: Skribe Medical raised a $1.6M seed round led by SeaX for its diagnostic AI software {1|PR Newswire}
 - id: ed157
@@ -3850,16 +3850,16 @@ slides:
     evolved recently?'
   bars:
   - x: 2025 H1
-    v: 5940
-    ann: Isomorphic Labs, $600M top round, in 160 rounds
+    v: 5953
+    ann: Isomorphic Labs, $600M top round, in 159 rounds
   - x: 2025 H2
-    v: 4751
-    ann: Function Health, $298M top round, in 162 rounds
+    v: 4768
+    ann: Function Health, $298M top round, in 161 rounds
   - x: 2026 H1
-    v: 6312
+    v: 6310
     ann: Isomorphic Labs, $2.1B top round, in 146 rounds
   - x: 2026 H2
-    v: 10177
+    v: 10176
     ann: Isomorphic Labs, $5B top round, in 126 rounds
   note:
   - We add up the disclosed equity rounds of healthcare AI startups in our tracker, by half-year
@@ -3877,13 +3877,13 @@ slides:
   src: 159
   bars:
   - x: '2024'
-    v: 7024
+    v: 7035
     ann: Xaira, $1B top round, in 255 rounds
   - x: '2025'
-    v: 10691
-    ann: Isomorphic Labs, $600M top round, in 322 rounds
+    v: 10720
+    ann: Isomorphic Labs, $600M top round, in 320 rounds
   - x: '2026'
-    v: 16489
+    v: 16487
     ann: Isomorphic Labs, $5B top round, in 272 rounds
 - id: ed160
   type: x/stands_out_funding
@@ -3891,15 +3891,15 @@ slides:
   title: 'What stands out in
 
     healthcare AI funding?'
-  note: We drew these insights from our tracker of 849 healthcare AI equity rounds announced since January 2024, worth about $34.2B
+  note: We drew these insights from our tracker of 847 healthcare AI equity rounds announced since January 2024, worth about $34.2B
   src: 160
   t:
     6: Life science AI took about 54% of the capital raised since 2024, far ahead of care workflow AI with about 19%
-    7: 829 of the 849 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
-    8: US startups closed 509 of the 849 rounds and took $21B, about 60% of the money, far ahead of the United Kingdom
+    7: 828 of the 847 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
+    8: US startups closed 506 of the 847 rounds and took $20B, about 60% of the money, far ahead of the United Kingdom
     9: 66 rounds of $100M or more made up about 60% of all the capital raised in the market since 2024
     10: The $5B Series C of Isomorphic Labs is the biggest round since 2024, ahead of the $2.1B raised by Isomorphic Labs in 2026
-    11: Seed was the most common round, with 326 of the 849 rounds, ahead of Series A with 240 and Series B with 103
+    11: Seed was the most common round, with 324 of the 847 rounds, ahead of Series A with 240 and Series B with 103
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
@@ -3916,7 +3916,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 849 rounds raised $34B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
+      Since 2024, 847 rounds raised $34B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -3934,7 +3934,7 @@ slides:
     ann: Xaira, $1B top round, out of 255 rounds
   - x: '2025'
     v: 6
-    ann: Isomorphic Labs, $600M top round, out of 322 rounds
+    ann: Isomorphic Labs, $600M top round, out of 320 rounds
   - x: 2026 (YTD)
     v: 30
     ann: Isomorphic Labs, $5B top round, out of 272 rounds
@@ -4004,7 +4004,7 @@ slides:
   title: 'Where did most
 
     of the capital go?'
-  note: We used our tracker of 849 healthcare AI equity rounds announced since January 2024, worth about $34.2B. IPOs, debt and grants are left out
+  note: We used our tracker of 847 healthcare AI equity rounds announced since January 2024, worth about $34.2B. IPOs, debt and grants are left out
   src: 167
   t:
     6: LIFE SCIENCE AI
@@ -4013,7 +4013,7 @@ slides:
     9: '229'
     10: DEALS
     11: '261'
-    12: '160'
+    12: '158'
     13: $19B
     14: '
 
@@ -4108,7 +4108,7 @@ slides:
   title: 'Who are the most
 
     active investors?'
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 849 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 847 rounds
   src: 169
   t:
     7: ANDREESSEN HOROWITZ
