@@ -242,8 +242,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   « Koloma, undisclosed amount, in 1 round » over its bar, never a bare arrow. « 1 round », never « 1 rounds ». CHECK in
   make_db_slides (raises() skips amount 0, ann() writes the zero case, plural by count).
 - S09 twin: a category with no public amount is left out of the rows (it drew « $nanM »). CHECK s09_from_base prints DROPPED.
-- No word split by a hyphen at a line end (« iron- / rich », « source- / to-trap »): rewrite without the compound. CHECK
-  HYPHEN_SPLIT (audit_layout).
+- No word split by a hyphen at a line end (« iron- / rich », « source- / to-trap »): build.py wraps every hyphenated word in
+  <nobr> (24 Nov 2026, our fonts have no non-breaking hyphen), CHECK HYPHEN_SPLIT (audit_layout) stays as the safety net.
 - A name and its number stay on one line (« Ramsay / 3 »): build.py binds « Word N » with a non-breaking space.
 - US English on every slide (« modeled », « license »); a proper name keeps its spelling (« Petroleum Exploration Licence »).
   CHECK check_results « British spelling ».

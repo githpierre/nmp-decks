@@ -204,3 +204,8 @@ ed219:
     growth report'
   17: The reinsurance broker's 2026 view of the US MGA market and the reinsurance behind it
   18: We used it for the 10% growth of 2025 and the $125B estimate. It also backed the growth drivers.
+
+# ROW_LINES (check added after delivery, 24 Nov 2026)
+ed065-s3:
+  __replace__:
+    "Claims can take weeks to be paid after a loss": "Claims can take weeks or months to be paid after a loss"
