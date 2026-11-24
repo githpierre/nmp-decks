@@ -268,16 +268,10 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   compared Tether, Circle, PayPal and Ripple: both twins were rewritten with players from inside (Bridge, BVNK, Rain…), as the
   S04 Neocloud rule does for pains. A sentence may still name it (« bought by Stripe »). CHECK tools/check_outside.py (run by
   rebuild.sh, OUTSIDE PLAYER blocks --png).
-- A doubtful round of the base is left out of every slide with skip_rounds.yaml (round_id: why), never by editing the base from a
-  deck conversation: a « round » whose only source is a secondary-market site (Forge Global « $100M Series B » for MoonPay) and an
-  « investor participation » row that repeats an earlier round (MoonPay $87M 2022 after the $555M 2021 Series A). Pierre
-  approved, 22 Nov 2026. CHECK make_db_slides prints WEAK ROUND SOURCE and ROUND EXTENSION (shown by rebuild.sh).
+- (skip_rounds line of 22 Nov 2026: replaced by the 24 Nov 2026 rule below, the base rules decide.)
 - A favicon that two sites share is the host's icon, not the company's (MoonPay showed Vercel's triangle). CHECK
   import_research refuses it and prints FAVICON SHARED; known cases go in NO_FAVICON.
-- Google Trends on S02: when the searches fall after their peak and the fall is the story, the twin keeps the curve to today
-  (`to_today: true` in live.yaml) instead of stopping at the last peak, with no SIGNAL pill, and the term falls out of the SIGNAL
-  slides (Pierre, option 4A, 22 Nov 2026). The ÷2 after 27 Jul 2025 stays the same for every deck, even when the control terms
-  show no jump (Pierre, 22 Nov 2026).
+- (Stablecoin payments Trends line of 22 Nov 2026, `to_today` and ÷2: replaced by the 24 Nov 2026 rule below.)
 - Market size is the revenue of the companies, never the money that flows through them. When the research only measures flows
   ($643B of stablecoin payments a year), the deck keeps the live revenue figure and explains it as flows × a take rate written as
   our assumption (0.8%, slides 43-44). Pierre approved, 22 Nov 2026. No check: read the size slides against the live S03.
@@ -301,11 +295,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   ed032 lists seven SIGNAL slides instead of six plus Google.
 
 ## AI data center first build (22-23 Nov 2026)
-- Google Trends, Pierre's choice (22 Nov 2026, AI data center, rendering C): the curve runs to its last peak, but the part from
-  2025-07-27 is dashed and muted (#789096) with a short legend « Dashed: Google counts small terms differently since mid-2025 »;
-  the title and the big figure speak only of the solid part (`stat`, `stat_text`), the note says why that part is dashed, and the
-  slide carries no SIGNAL pill and is never in the signals list. A term at 0 or « <1 » most weeks is dropped (AI data center:
-  « ai data center » 153 of 262 weeks). CHECK: pp_prepare.trends refuses `dash_from` without its own `stat`.
+- (AI data center Trends rendering C of 22 Nov 2026, `dash_from`: replaced by the 24 Nov 2026 rule below.)
 - Sibling rows of a table hold the same number of lines (Pierre, 23 Nov 2026, AI data center « Which pains deserve attention
   first? »: pains on 1 line next to pains on 2). Short values (« 17 GW », « $1.4B ») never wrap. CHECK: audit_layout ROW_LINES, LIST_LINES (rows with only inline styles, e.g. league tables)
   (same-class siblings in a mixed grid, which CARD_LINES skipped) and VALUE_WRAP; the key-trend template's value boxes are
