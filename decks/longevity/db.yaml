@@ -14,7 +14,7 @@ ed156:
   note: We list the latest equity rounds of $10M or more of longevity startups in our tracker, from company releases and the press.
 ed157:
   14: 2026 (JUN)
-  15: Rapalogix Health raised a $20M Series A led by Woodline for its rapamycin-based longevity skincare and dermatology {1|Rapalogix}
+  15: Rapalogix Health raised a $20M Series A led by Woodline for its consumer longevity brands {1|Rapalogix}
   16: 2026 (JUN)
   17: Everlab raised a $46M Series A led by AirTree for its AI-powered preventive healthcare platform {1|Everlab}
   18: 2026 (JUN)
@@ -30,16 +30,16 @@ ed158:
   bars:
   - x: 2025 H1
     v: 996
-    ann: Neko Health $260M, NewLimit $130M, in 25 rounds
+    ann: Neko Health, $260M top round, in 25 rounds
   - x: 2025 H2
     v: 707
-    ann: Function Health $298M, Blueprint $60M, in 25 rounds
+    ann: Function Health, $298M top round, in 25 rounds
   - x: 2026 H1
     v: 1348
-    ann: NewLimit $435M, Cambrian Biopharma $124M, in 44 rounds
+    ann: NewLimit, $435M top round, in 44 rounds
   - x: 2026 H2
     v: 870
-    ann: Neko Health’s $700M made up most of it, in 16 rounds
+    ann: Neko Health, $700M top round, in 16 rounds
   note:
   - We add up the disclosed equity rounds of longevity startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
@@ -49,13 +49,13 @@ ed159:
   bars:
   - x: '2024'
     v: 958
-    ann: BioAge Labs $170M, Fountain Life $80M
+    ann: BioAge Labs, $170M top round, in 46 rounds
   - x: '2025'
     v: 1703
-    ann: Function Health $298M, Neko Health $260M
+    ann: Function Health, $298M top round, in 50 rounds
   - x: '2026'
     v: 2218
-    ann: Neko Health $700M, NewLimit $435M
+    ann: Neko Health, $700M top round, in 60 rounds
   note:
   - We add up the disclosed equity rounds of longevity startups in our database, which is complete from January 2024
   - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
@@ -66,13 +66,13 @@ ed164:
   bars:
   - x: '2024'
     v: 18
-    ann: BioAge Labs’ $170M, out of 46 rounds
+    ann: BioAge Labs, $170M top round, out of 46 rounds
   - x: '2025'
     v: 17
-    ann: Function Health’s $298M, out of 50 rounds
+    ann: Function Health, $298M top round, out of 50 rounds
   - x: 2026 (YTD)
     v: 32
-    ann: Neko Health’s $700M, out of 60 rounds
+    ann: Neko Health, $700M top round, out of 60 rounds
   note:
   - We divide, for each year, the largest round by all the disclosed capital in our tracker
   - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
@@ -122,11 +122,11 @@ ed167:
   6: AGING-BIOLOGY DRUGS
   9: '72'
   13: $2.3B
-  17: NewLimit, BioAge Labs, Cambrian Biopharma
+  17: NewLimit, BioAge Labs, Cambrian Biopharma, Cognito, Loyal
   7: PREVENTIVE HEALTH PLATFORMS
   11: '33'
   15: $1.6B
-  19: Neko Health, Function Health, Prenuvo, Everlab
+  19: Neko Health, Function Health, Prenuvo, Everlab, Lucis
   8: LONGEVITY CLINICS
   12: '23'
   16: $445M

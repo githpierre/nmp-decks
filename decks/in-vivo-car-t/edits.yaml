@@ -232,7 +232,7 @@ ed103:
   15: CAR designs that clear disease cells without chemotherapy first
 ed104:
   7: Platforms that tune short or lasting CAR expression for control
-  10: Multi-target CARs built to stop tumors from escaping
+  10: Multi-target CARs built so tumors cannot escape by losing one target
   15: In vivo engineering that reaches macrophages and other immune cells
 ed106-s1:
   5: RNA-loaded particles that program chosen T cells inside the body
@@ -1163,3 +1163,10 @@ ed219:
   tag: null
 ed220:
   drop: true
+
+# CARD_LINES (check added after delivery, 24 Nov 2026): the 8 cards on 4 lines each
+ed014:
+  __replace__:
+    "into targeted CAR cells": "into targeted CAR cells inside the body"
+    "weeks of personalized cell manufacturing": "the weeks of personalized cell manufacturing in a lab"
+    "tune CAR exposure over time": "tune CAR exposure over weeks or months"

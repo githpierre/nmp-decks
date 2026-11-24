@@ -81,32 +81,32 @@ ed019:
   - label: 'POWER
 
       UTILITIES'
-    description: Companies selling reactors to power companies that replace old coal plants
+    description: Companies selling reactors to power companies replacing old coal plants
     emoji: ⚡
   - label: 'DATA
 
       CENTERS'
-    description: Companies signing long power contracts with tech giants for their AI data centers
+    description: Companies signing long power contracts with tech giants for data centers
     emoji: 🛡️
   - label: 'INDUSTRIAL
 
       HEAT'
-    description: Companies selling steam and hot heat to chemical plants, refineries and steel mills
+    description: Companies selling steam to chemical plants, refineries and steel mills
     emoji: 🎯
   - label: 'DEFENSE AND
 
       GOVERNMENT'
-    description: Companies building small reactors for military bases, remote sites and space missions
+    description: Companies building small reactors for military bases and remote sites
     emoji: 🏛️
   - label: 'MINING AND
 
       REMOTE SITES'
-    description: Companies selling small reactors to mines, islands and off-grid towns that burn diesel today
+    description: Companies selling small reactors to mines and islands that burn diesel
     emoji: ⛽
 ed056:
-  6: 'You need a licence
+  6: 'You need a permit
 
-    per design'
+    for each design'
 ed057:
   16: 'Rules differ
 
@@ -185,6 +185,7 @@ ed055:
   19: The World Bank lifted its ban on nuclear financing in June 2025 and now works with the IAEA on new plants
   22: Several reactor startups now trade on the stock market at billion-dollar values, like Oklo and NuScale
 ed104:
+  7: A first unit finished on schedule and on budget, the proof that utilities and tech buyers wait for
   15: Reactors that sell very hot steam to industry as well as power to the grid, so one plant earns twice
 ed210:
   note:
@@ -448,3 +449,11 @@ ed020:
       LICENSORS'
     description: Companies licensing their reactor design and selling engineering work to other builders
     emoji: 🔗
+
+# CARD_LINES / ROW_LINES (checks added after delivery, 24 Nov 2026)
+ed014:
+  __replace__:
+    "When the second and third units cost far less than the first one": "When the second and third reactors of a design cost far less than the first one"
+ed042:
+  __replace__:
+    "put it above the other three SMR estimates.": "put it above the other three estimates of the SMR market on this page."

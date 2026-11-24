@@ -228,6 +228,13 @@ def build(slug, png=False, only=None):
     html = re.sub(r'≈\s+(?=\d)', '≈', html)
     # a well, a phase or a version keeps its number on the same line: « Ramsay / 3 » split over two lines (Natural hydrogen, 21 Nov 2026)
     html = re.sub(r'(?<=[\s>(])([A-Z][a-z]+) (\d{1,2})(?![\d.,%])', '\\1\u00a0\\2', html)
+    # a hyphenated word never breaks at its hyphen (« day- / surgery », HYPHEN_SPLIT on every deck, 24 Nov 2026): our fonts have no
+    #   non-breaking hyphen, so the compound is wrapped in <nobr>; text only (never style, script, svg or a URL)
+    def _nw(seg):
+        if '://' in seg or 'www.' in seg: return seg
+        return re.sub(r'(?<![\w./@-])([A-Za-z0-9$]+(?:-[A-Za-z0-9]+)+)(?![\w@-]|\.[A-Za-z])', r'<nobr>\1</nobr>', seg)   # <nobr>, not a span: « .srcl span » and other span rules would restyle it
+    _parts = re.split(r'(<(?:style|script|svg)\b.*?</(?:style|script|svg)>)', html, flags=re.S)
+    html = ''.join(q if i % 2 else re.sub(r'>([^<>]+)<', lambda m: '>' + _nw(m.group(1)) + '<', q) for i, q in enumerate(_parts))
     # two sentences glued in a note ('...phases These phases...', 11 Nov): add the missing period
     #   but never between two lines of a list note (.nl): each line is its own idea, without dots (notes workshop, 11 Nov)
     html = re.sub(r'([a-z]{3,})((?:\s|<br[^>]*>|</span><span(?! class="nl")[^>]*>)+)(These|This|We|It|Our|Although|However) ', r'\1.\2\3 ', html)

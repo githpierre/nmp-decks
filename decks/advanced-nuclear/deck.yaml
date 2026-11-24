@@ -281,9 +281,6 @@ slides:
 
       A Kind'
 - id: ed014
-  type: cards
-  section: Market definition
-  title: When and where is value created in the market?
   items:
   - e: 🏭
     t: When reactor modules are built in a factory instead of poured on site for years
@@ -298,10 +295,13 @@ slides:
   - e: ⛽
     t: When a company secures a fuel supply that does not depend on Russia
   - e: 🔁
-    t: When the second and third units cost far less than the first one
+    t: When the second and third reactors of a design cost far less than the first one
   - e: 🪖
     t: When a small reactor powers a military base or a remote mine off the grid
+  section: Market definition
   src: 14
+  title: When and where is value created in the market?
+  type: cards
 - id: ed015
   type: x/some_common_myths_about
   section: Market definition
@@ -398,27 +398,27 @@ slides:
   - label: 'POWER
 
       UTILITIES'
-    description: Companies selling reactors to power companies that replace old coal plants
+    description: Companies selling reactors to power companies replacing old coal plants
     emoji: ⚡
   - label: 'DATA
 
       CENTERS'
-    description: Companies signing long power contracts with tech giants for their AI data centers
+    description: Companies signing long power contracts with tech giants for data centers
     emoji: 🛡️
   - label: 'INDUSTRIAL
 
       HEAT'
-    description: Companies selling steam and hot heat to chemical plants, refineries and steel mills
+    description: Companies selling steam to chemical plants, refineries and steel mills
     emoji: 🎯
   - label: 'DEFENSE AND
 
       GOVERNMENT'
-    description: Companies building small reactors for military bases, remote sites and space missions
+    description: Companies building small reactors for military bases and remote sites
     emoji: 🏛️
   - label: 'MINING AND
 
       REMOTE SITES'
-    description: Companies selling small reactors to mines, islands and off-grid towns that burn diesel today
+    description: Companies selling small reactors to mines and islands that burn diesel
     emoji: ⛽
 - id: ed020
   type: sx_categories_n
@@ -883,34 +883,34 @@ slides:
     13: ❌
     14: ⚖️
 - id: ed042
-  type: estimates
-  section: Market size
-  title: What are the market size estimates from different sources online?
-  rows:
-  - firm: 'Global Market
-
-      Insights'
-    value: $5.3B
-    comment: Their 2026 SMR estimate covers project deployment, not just reactor startups. We use it as the lower published benchmark before removing generic construction.
-  - firm: 'Future Market
-
-      Insights'
-    value: $6.7B
-    comment: Their 2026 figure covers modular reactor systems and project deployment. It is a broad reactor-market cross-check, not audited developer revenue.
-  - firm: 'Grand View
-
-      Research'
-    value: $6.8B
-    comment: Their 2026 estimate includes development, manufacturing, deployment and operation of modular reactors. It is wider than our nuclear-specific spending measure.
-  - firm: 'Precedence
-
-      Research'
-    value: $8.2B
-    comment: Their 2026 value rounds to $8.2B. Differences in project and technology coverage put it above the other three SMR estimates.
   note:
   - We compare four published 2026 SMR estimates as external checks, not as directly comparable measures of advanced-fission startup sales.
   - We exclude ordinary construction from our own measure and do not count financial deals or future contracts as current sales.
+  rows:
+  - comment: Their 2026 SMR estimate covers project deployment, not just reactor startups. We use it as the lower published benchmark before removing generic construction.
+    firm: 'Global Market
+
+      Insights'
+    value: $5.3B
+  - comment: Their 2026 figure covers modular reactor systems and project deployment. It is a broad reactor-market cross-check, not audited developer revenue.
+    firm: 'Future Market
+
+      Insights'
+    value: $6.7B
+  - comment: Their 2026 estimate includes development, manufacturing, deployment and operation of modular reactors. It is wider than our nuclear-specific spending measure.
+    firm: 'Grand View
+
+      Research'
+    value: $6.8B
+  - comment: Their 2026 value rounds to $8.2B. Differences in project and technology coverage put it above the other three estimates of the SMR market on this page.
+    firm: 'Precedence
+
+      Research'
+    value: $8.2B
+  section: Market size
   src: 42
+  title: What are the market size estimates from different sources online?
+  type: estimates
 - id: ed045
   type: x/much_worth_today
   section: Market size
@@ -1116,9 +1116,9 @@ slides:
   note: We kept the problems that come back in regulator documents, project reviews and investor reports. We skipped generic engineering issues and focused on what blocks new reactors from being built.
   src: 56
   t:
-    6: 'You need a licence
+    6: 'You need a permit
 
-      per design'
+      for each design'
     8: 'Reviews can still
 
       take many years'
@@ -2490,7 +2490,7 @@ slides:
   note: We derived these elements from the first construction projects and the factories now being planned. Value is moving to building on time, cutting cost unit after unit and selling heat as well as power.
   src: 104
   t:
-    7: A first unit finished on schedule and on budget, the proof every buyer waits for
+    7: A first unit finished on schedule and on budget, the proof that utilities and tech buyers wait for
     9: 'BUILT
 
       ON TIME'
@@ -3712,9 +3712,9 @@ slides:
     15: 2026 (OCT)
     16: Kairos Power raised a $368M strategic round led by GV for its fluoride salt-cooled nuclear reactors {1|Bloomberg Law}
     17: 2026 (OCT)
-    18: RX raised $7M. It designs and licenses the RX-50 light-water SMR for industrial and district heat supply {1|Seoul Economic Daily}
+    18: RX raised $7M. It designs and licenses the RX-50 light-water SMR {1|Seoul Economic Daily}
     19: 2026 (OCT)
-    20: Weilan Zhidian raised a $30M Series A led by Sky9. It develops compact water-cooled small modular fission reactors {1|Sky9}
+    20: Weilan Zhidian raised a $30M Series A led by Sky9 for its light-water SMRs {1|Sky9}
     21: 2026 (SEP)
     22: Bluecore Energy raised a $50M seed round led by Silverton for its floating nuclear power platforms {1|TechCrunch}
     23: 2026 (AUG)
@@ -3736,11 +3736,11 @@ slides:
     18: 2026 (AUG)
     19: Valar Atomics raised a $1B Series B led by Sequoia for its mass-manufactured advanced nuclear reactors {1|Valar Atomics}
     20: 2026 (AUG)
-    21: Molten Salt Solutions raised a $7M seed round led by Dolby Family. It enriches lithium isotopes for nuclear energy {1|PR Newswire}
+    21: Molten Salt Solutions raised a $7M seed round led by Dolby Family. It enriches lithium isotopes {1|PR Newswire}
     22: 2026 (JUL)
     23: Antares raised a $370M Series C led by Paradigm for its factory-produced nuclear microreactors {1|Antares}
     24: 2026 (JUL)
-    25: Nuclear Turbines raised a $19M pre-seed round led by IQ Capital for its compact industrial nuclear reactors {1|IQ Capital}
+    25: Nuclear Turbines raised a $19M pre-seed round led by IQ Capital for its gas-cooled reactors {1|IQ Capital}
 - id: iv_deals
   type: x/rounds_were_announced_last
   section: Investor bets
@@ -3769,16 +3769,16 @@ slides:
   bars:
   - x: 2025 H1
     v: 1126
-    ann: TerraPower’s $650M made up most of it, in 15 rounds
+    ann: TerraPower, $650M top round, in 15 rounds
   - x: 2025 H2
     v: 1573
-    ann: X-energy $700M, Radiant $300M, in 17 rounds
+    ann: X-energy, $700M top round, in 17 rounds
   - x: 2026 H1
     v: 1151
-    ann: Blue Energy $380M, Valar Atomics $340M, in 18 rounds
+    ann: Blue Energy, $380M top round, in 18 rounds
   - x: 2026 H2
     v: 1969
-    ann: Valar Atomics’ $1B made up most of it, in 13 rounds
+    ann: Valar Atomics, $1B top round, in 13 rounds
   note:
   - We add up the disclosed equity rounds of advanced nuclear startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
@@ -3796,13 +3796,13 @@ slides:
   bars:
   - x: '2024'
     v: 997
-    ann: X-energy’s $500M made up most of it
+    ann: X-energy, $500M top round, in 24 rounds
   - x: '2025'
     v: 2698
-    ann: X-energy $700M, TerraPower $650M
+    ann: X-energy, $700M top round, in 32 rounds
   - x: '2026'
     v: 3120
-    ann: Valar Atomics $1B, Blue Energy $380M
+    ann: Valar Atomics, $1B top round, in 31 rounds
 - id: ed160
   type: x/stands_out_funding
   section: Investor bets
@@ -3849,13 +3849,13 @@ slides:
   bars:
   - x: '2024'
     v: 50
-    ann: X-energy’s $500M, out of 24 rounds
+    ann: X-energy, $500M top round, out of 24 rounds
   - x: '2025'
     v: 26
-    ann: X-energy’s $700M, out of 32 rounds
+    ann: X-energy, $700M top round, out of 32 rounds
   - x: 2026 (YTD)
     v: 32
-    ann: Valar Atomics’ $1B, out of 31 rounds
+    ann: Valar Atomics, $1B top round, out of 31 rounds
 - id: ed165p
   type: pp_raises
   section: Investor bets
@@ -3941,7 +3941,7 @@ slides:
     17: Valar Atomics, X-energy, Jimmy, Nuclear Turbines
     18: EXAMPLES OF STARTUPS
     19: Antares, Radiant, Aalo Atomics, Deep Fission
-    20: Blue Energy, Last Energy, Bluecore Energy, Steady Energy
+    20: Blue Energy, Last Energy, Bluecore Energy, Steady Energy, RX
     24: SINCE 2024
 - id: ed168p
   type: invbets

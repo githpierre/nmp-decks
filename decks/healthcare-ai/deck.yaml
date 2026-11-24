@@ -687,7 +687,7 @@ slides:
     10: '2'
     11: Insilico’s half-year revenue rose 3.9 times
     12: '3'
-    13: $12B raised in 2026, more than in 2025
+    13: $17B raised in 2026, more than in 2025
     14: '5'
     15: The FDA cleared a record 335 AI devices
     16: '6'
@@ -803,7 +803,7 @@ slides:
   type: sx_faceoff
   section: Market opportunity
   pill: SIGNAL
-  title: 'Healthcare AI startups raised $12B in 2026
+  title: 'Healthcare AI startups raised $17B in 2026
 
     so far, already more than in all of 2025'
   cards:
@@ -816,11 +816,11 @@ slides:
   - name: 2026 SO FAR
     hl: true
     stats:
-    - v: $12B
-      l: raised in all, in 271 rounds
-    - v: 23
+    - v: $17B
+      l: raised in all, in 272 rounds
+    - v: 24
       l: rounds of $100M or more
-  story: 'More money in fewer rounds is a sign of a hot market: investors write bigger checks. Isomorphic Labs alone raised $2.1B in 2026, the biggest round since 2024.'
+  story: 'More money in fewer rounds is a sign of a hot market: investors write bigger checks. Isomorphic Labs alone raised $5B in 2026, the biggest round since 2024.'
   note:
   - We added up every equity round raised by healthcare AI startups in our own database, and
   - we left out IPOs, debt and grants. 2026 runs to mid-November, undisclosed rounds count as zero
@@ -3790,17 +3790,17 @@ slides:
   src: 156
   t:
     13: 2026 (NOV)
-    14: Boston Medical Sciences raised a $36M Series B led by Nomura SPARX Investment for its diagnostic AI software {1|Prtimes}
+    14: Isomorphic Labs raised a $5B Series C led by Greenoaks for its AI drug discovery and molecular design {1|PR Newswire}
     15: 2026 (NOV)
-    16: Orakl Oncology raised a $34M Series A led by Norrsken VC. It uses AI and patient-derived tumor models {1|Norrsken}
+    16: Boston Medical Sciences raised a $36M Series B led by Nomura SPARX Investment for its diagnostic AI software {1|Prtimes}
     17: 2026 (NOV)
-    18: Akara raised $5.5M led by Locke Health. It uses privacy-preserving sensors, AI agents and robots {1|GlobeNewswire}
+    18: Orakl Oncology raised a $34M Series A led by Norrsken VC. It uses AI and patient-derived tumor models {1|Norrsken}
     19: 2026 (NOV)
-    20: Kardi Ai raised a $6M Series A led by Callisto Health. It uses AI analysis of ECG recordings {1|Tech.eu}
+    20: Akara raised $5.5M led by Locke Health. It uses privacy-preserving sensors, AI agents and robots {1|GlobeNewswire}
     21: 2026 (NOV)
-    22: Skribe Medical raised a $1.6M seed round led by SeaX. It develops an AI-assisted wearable cardiac monitoring patch {1|PR Newswire}
+    22: Kardi Ai raised a $6M Series A led by Callisto Health. It uses AI analysis of ECG recordings {1|Tech.eu}
     23: 2026 (NOV)
-    24: XpertDox raised a $20M Series A led by Savant Growth. It automates medical coding {1|Business Wire}
+    24: Skribe Medical raised a $1.6M seed round led by SeaX for its diagnostic AI software {1|PR Newswire}
 - id: ed157
   type: x/rounds_were_announced_last_2
   section: Investor bets
@@ -3812,17 +3812,17 @@ slides:
   src: 157
   t:
     14: 2026 (NOV)
-    15: Charta Health raised a $55M Series B led by Insight for its AI medical chart review platform {1|Charta Health}
+    15: XpertDox raised a $20M Series A led by Savant Growth. It automates medical coding {1|Business Wire}
     16: 2026 (NOV)
-    17: Alterra Labs raised a $12M seed round led by Oak HC/FT for its clinical AI tools {1|Fortune}
+    17: Charta Health raised a $55M Series B led by Insight for its AI medical chart review platform {1|Charta Health}
     18: 2026 (NOV)
-    19: Zus Health raised a $33M Series B led by Drive for its clinical AI tools {1|GlobeNewswire}
+    19: Alterra Labs raised a $12M seed round led by Oak HC/FT for its clinical AI tools {1|Fortune}
     20: 2026 (NOV)
-    21: Granit raised a $4M seed round led by Seedcamp for its revenue cycle AI {1|Getgranit}
+    21: Zus Health raised a $33M Series B led by Drive for its clinical AI tools {1|GlobeNewswire}
     22: 2026 (NOV)
-    23: Siggy raised a $6M seed round led by Village Global. It operates an AI-enabled virtual mental healthcare platform {1|Crunchbase}
+    23: Granit raised a $4M seed round led by Seedcamp for its revenue cycle AI {1|Getgranit}
     24: 2026 (NOV)
-    25: Venomics AI raised a $2.7M seed round led by Speciale Invest for its life science AI {1|Specialeinvest}
+    25: Siggy raised a $6M seed round led by Village Global for its care workflow AI {1|Crunchbase News}
 - id: iv_deals
   type: x/rounds_were_announced_last
   section: Investor bets
@@ -3851,16 +3851,16 @@ slides:
   bars:
   - x: 2025 H1
     v: 5940
-    ann: Isomorphic Labs $600M, Pathos AI $365M, in 160 rounds
+    ann: Isomorphic Labs, $600M top round, in 160 rounds
   - x: 2025 H2
     v: 4751
-    ann: Function Health $298M, Ambience Healthcare $243M, in 162 rounds
+    ann: Function Health, $298M top round, in 162 rounds
   - x: 2026 H1
     v: 6312
-    ann: Isomorphic Labs $2.1B, NewLimit $435M, in 146 rounds
+    ann: Isomorphic Labs, $2.1B top round, in 146 rounds
   - x: 2026 H2
-    v: 5177
-    ann: Neko Health $700M, Chai Discovery $400M, in 125 rounds
+    v: 10177
+    ann: Isomorphic Labs, $5B top round, in 126 rounds
   note:
   - We add up the disclosed equity rounds of healthcare AI startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
@@ -3878,28 +3878,28 @@ slides:
   bars:
   - x: '2024'
     v: 7024
-    ann: Xaira Therapeutics $1B, Formation Bio $372M
+    ann: Xaira, $1B top round, in 255 rounds
   - x: '2025'
     v: 10691
-    ann: Isomorphic Labs $600M, Pathos AI $365M
+    ann: Isomorphic Labs, $600M top round, in 322 rounds
   - x: '2026'
-    v: 11489
-    ann: Isomorphic Labs $2.1B, Neko Health $700M
+    v: 16489
+    ann: Isomorphic Labs, $5B top round, in 272 rounds
 - id: ed160
   type: x/stands_out_funding
   section: Investor bets
   title: 'What stands out in
 
     healthcare AI funding?'
-  note: We drew these insights from our tracker of 848 healthcare AI equity rounds announced since January 2024, worth about $29.2B
+  note: We drew these insights from our tracker of 849 healthcare AI equity rounds announced since January 2024, worth about $34.2B
   src: 160
   t:
-    6: Life science AI took about 46% of the capital raised since 2024, far ahead of care workflow AI with about 23%
-    7: 828 of the 848 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
-    8: US startups closed 509 of the 848 rounds and took $21B, about 70% of the money, far ahead of the United Kingdom
-    9: 65 rounds of $100M or more made up about 54% of all the capital raised in the market since 2024
-    10: The $2.1B Series B of Isomorphic Labs is the biggest round since 2024, ahead of the $1B raised by Xaira Therapeutics in 2024
-    11: Seed was the most common round, with 326 of the 848 rounds, ahead of Series A with 240 and Series B with 103
+    6: Life science AI took about 54% of the capital raised since 2024, far ahead of care workflow AI with about 19%
+    7: 829 of the 849 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
+    8: US startups closed 509 of the 849 rounds and took $21B, about 60% of the money, far ahead of the United Kingdom
+    9: 66 rounds of $100M or more made up about 60% of all the capital raised in the market since 2024
+    10: The $5B Series C of Isomorphic Labs is the biggest round since 2024, ahead of the $2.1B raised by Isomorphic Labs in 2026
+    11: Seed was the most common round, with 326 of the 849 rounds, ahead of Series A with 240 and Series B with 103
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
@@ -3916,7 +3916,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 848 rounds raised $29B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
+      Since 2024, 849 rounds raised $34B. Life science AI still takes the biggest checks, while tools for doctors such as Abridge and OpenEvidence raise round after round.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -3931,13 +3931,13 @@ slides:
   bars:
   - x: '2024'
     v: 14
-    ann: Xaira Therapeutics’ $1B, out of 255 rounds
+    ann: Xaira, $1B top round, out of 255 rounds
   - x: '2025'
     v: 6
-    ann: Isomorphic Labs’ $600M, out of 322 rounds
+    ann: Isomorphic Labs, $600M top round, out of 322 rounds
   - x: 2026 (YTD)
-    v: 18
-    ann: Isomorphic Labs’ $2.1B, out of 271 rounds
+    v: 30
+    ann: Isomorphic Labs, $5B top round, out of 272 rounds
 - id: ed165p
   type: pp_raises
   section: Investor bets
@@ -3945,6 +3945,11 @@ slides:
 
     in the healthcare AI space right now?'
   rounds:
+  - name: Isomorphic Labs
+    amt: 5000000000
+    date: Q4 2026
+    stage: Series C
+    src: ../../assets/logos/isomorphic-labs.png
   - name: Isomorphic Labs
     amt: 2100000000
     date: Q2 2026
@@ -3960,11 +3965,6 @@ slides:
     date: Q2 2026
     stage: Series C
     src: ../../assets/logos/newlimit.png
-  - name: Chai Discovery
-    amt: 400000000
-    date: Q3 2026
-    stage: Series C
-    src: ../../assets/logos/chai-discovery.png
   note:
   - We listed the biggest equity rounds raised by healthcare AI startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
@@ -4004,25 +4004,25 @@ slides:
   title: 'Where did most
 
     of the capital go?'
-  note: We used our tracker of 848 healthcare AI equity rounds announced since January 2024, worth about $29.2B. IPOs, debt and grants are left out
+  note: We used our tracker of 849 healthcare AI equity rounds announced since January 2024, worth about $34.2B. IPOs, debt and grants are left out
   src: 167
   t:
     6: LIFE SCIENCE AI
     7: CARE WORKFLOW AI
     8: DIAGNOSTIC AI SOFTWARE
-    9: '228'
+    9: '229'
     10: DEALS
     11: '261'
     12: '160'
-    13: $14B
+    13: $19B
     14: '
 
       RAISED ($)'
     15: $6.6B
     16: $3.9B
-    17: Isomorphic Labs, Xaira Therapeutics, NewLimit
+    17: Isomorphic Labs, Xaira, NewLimit, Chai Discovery, Pathos AI
     18: EXAMPLES OF STARTUPS
-    19: Abridge, Innovaccer, Ambience Healthcare, Forus
+    19: Abridge, Innovaccer, Ambience Healthcare, Forus, DUOS
     20: Neko Health, Caris Life Sciences, Aidoc, Harrison.ai, Cleerly
     24: SINCE 2024
 - id: ed168p
@@ -4108,7 +4108,7 @@ slides:
   title: 'Who are the most
 
     active investors?'
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 848 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 849 rounds
   src: 169
   t:
     7: ANDREESSEN HOROWITZ
@@ -4134,7 +4134,7 @@ slides:
     30: $395M
     31: $1.3B
     32: TORTUS, Limbic
-    33: Neko Health (twice), Doctronic (twice)
+    33: Neko Health (twice)
 - id: ed170
   type: agenda
   section: Top players
@@ -4950,9 +4950,9 @@ slides:
     20: 2026 (JUN)
     21: NewLimit raised a $435M Series C led by Founders Fund for its epigenetic reprogramming for aging treatments {1|NewLimit}
     22: 2026 (JUL)
-    23: Chai Discovery raised a $400M Series C led by Index for its AI-designed molecular discovery and drug-design models {1|Chai Discovery}
-    24: 2026 (JUL)
-    25: Neko Health raised a $700M Series C led by Lightspeed for its preventive full-body health scanning {1|Neko Health}
+    23: Neko Health raised a $700M Series C led by Lightspeed for its preventive full-body health scanning {1|Neko Health}
+    24: 2026 (NOV)
+    25: Isomorphic Labs raised a $5B Series C led by Greenoaks for its AI drug discovery and molecular design {1|PR Newswire}
 - id: ed206
   type: x/success_look_like_market
   section: Startup strategies

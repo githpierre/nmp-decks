@@ -93,7 +93,8 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   // --- a short value (« 17 GW », « $1.4B ») never wraps (Pierre, 23 Nov 2026, AI data center slide 33: « 17 / GW » under a
   // bar of the key-trend template, whose value boxes are 36 to 43px wide)
   sl.querySelectorAll('.rx-t, .body div, .body span').forEach(el => { if (el.children.length > 3) return; const t = el.textContent.trim();
-    if (t.length < 2 || t.length > 9 || !/\d/.test(t) || /[A-Z]{3,}/.test(t)) return;   /* a NAME + value label is 2 lines on purpose */ const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), L = new Set(); let x;
+    if (t.length < 2 || t.length > 9 || !/\d/.test(t) || /[A-Z]{3,}|[a-z]{3,}/.test(t)) return;   /* « CD19 loss » is a label on 2 lines on purpose (24 Nov 2026) */
+    if ([...el.children].filter(c => c.textContent.trim()).length > 1) return;   /* several values side by side (stacked segments « 2 1 4 », donut « 11% 89% ») are not one value */   /* a NAME + value label is 2 lines on purpose */ const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), L = new Set(); let x;
     while ((x = w.nextNode())) { const g = document.createRange(); g.selectNodeContents(x); for (const r of g.getClientRects()) if (r.width > 1 && r.height > 1) L.add(Math.round(r.top / 4)); }
     if (L.size > 1) out.push([n, 'VALUE_WRAP', L.size + ' lines', t]); });
   // --- categories slides: each description holds on 2 lines (Pierre, 20 Nov 2026: 3 lines touch the box edges)

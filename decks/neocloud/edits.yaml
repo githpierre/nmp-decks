@@ -235,3 +235,116 @@ ed199p:
   note:
   - We used filings and news to map setbacks, net losses and financing needs among five neocloud operators.
   - We left cells empty without proof, and do not treat a delayed IPO, a forecast cut or a net loss as insolvency.
+
+# CATEGORY_LINES (check of 20 Nov 2026, 2 lines max): descriptions cut to about 70 characters like AI data center (24 Nov 2026)
+ed018:
+  categories:
+  - label: 'GPU
+
+      CLOUDS'
+    description: Companies renting GPU servers by the hour or the month to AI teams
+    emoji: 💻
+  - label: 'INFERENCE
+
+      CLOUDS'
+    description: Companies running clients' AI models, billed by the token or the second
+    emoji: ⚡
+  - label: 'COMPUTE
+
+      MARKETPLACES'
+    description: Companies renting out spare GPUs of partner data centers for a share
+    emoji: 🔀
+  - label: 'DEDICATED
+
+      CLUSTERS'
+    description: Companies building whole clusters for one AI lab on a multiyear contract
+    emoji: 🏭
+  - label: 'SOVEREIGN
+
+      AI CLOUDS'
+    description: Companies keeping AI chips and data inside one country or on small hosts
+    emoji: 🌍
+  - label: 'TRAINING
+
+      PLATFORMS'
+    description: Companies selling tools and computing power to train and tune AI models
+    emoji: 🧠
+ed019:
+  categories:
+  - label: 'AI MODEL
+
+      LABS'
+    description: Companies building clusters of tens of thousands of GPUs for AI labs
+    emoji: 🧠
+  - label: 'BIG
+
+      TECH'
+    description: Companies renting extra capacity to Microsoft or Meta when theirs runs out
+    emoji: 🏢
+  - label: 'AI APP
+
+      STARTUPS'
+    description: Companies serving the models behind coding, search and image apps
+    emoji: 🚀
+  - label: 'COMPANIES AND
+
+      GOVERNMENT'
+    description: Companies giving banks, factories and states private AI computing at home
+    emoji: 🏛️
+  - label: 'RESEARCH
+
+      LABS'
+    description: Companies renting GPU time to universities and public labs
+    emoji: 🔬
+  - label: 'SOLO
+
+      DEVELOPERS'
+    description: Companies letting one person start a GPU in a minute and pay by the second
+    emoji: 🧑‍💻
+ed020:
+  categories:
+  - label: 'HOURLY
+
+      RENTAL'
+    description: Companies billing each GPU by the hour or second, with no commitment
+    emoji: ⏱️
+  - label: 'RESERVED
+
+      CONTRACTS'
+    description: Companies signing take-or-pay contracts of several years before building
+    emoji: 📝
+  - label: 'PER-TOKEN
+
+      PRICING'
+    description: Companies charging for each word an AI model reads or writes
+    emoji: 🪙
+  - label: 'BROKER
+
+      FEES'
+    description: Companies keeping a share of every GPU hour sold for partner data centers
+    emoji: 🔗
+  - label: 'MANAGED
+
+      PLATFORMS'
+    description: Companies selling a yearly plan of computing, software and support
+    emoji: 🧰
+  - label: 'PUBLIC
+
+      PROGRAMS'
+    description: Companies paid by governments to run national AI computing for local firms
+    emoji: 🏛️
+
+# ROW_LINES / BODY_LINES (layout checks added after this deck was built): sibling texts brought to the same line count (24 Nov 2026)
+ed042:
+  __replace__:
+    'Scope is specialist rented compute, but methods are not public.': 'It counts rented compute, but the method is not public.'
+    'includes other computing uses yet is well below named neocloud sales.': 'includes other uses yet is below named neocloud sales.'
+ed057:
+  6: "You need more\nthan one client"
+  14: "You need a fair\nGPU-hour price"
+ed065-s1:
+  __replace__:
+    'Training runs crash when a single server fails': 'Training runs crash and restart when a single server fails'
+ed065-s4:
+  __replace__:
+    'Public buying rules are slow for a fast market': 'Public buying rules are too slow for a market that moves fast'

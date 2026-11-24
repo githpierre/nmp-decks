@@ -360,32 +360,32 @@ slides:
   - label: 'GPU
 
       CLOUDS'
-    description: Companies renting GPU servers by the hour or by the month to AI teams of any size
+    description: Companies renting GPU servers by the hour or the month to AI teams
     emoji: 💻
   - label: 'INFERENCE
 
       CLOUDS'
-    description: Companies running their clients' AI models and billing by the token or by the second
+    description: Companies running clients' AI models, billed by the token or the second
     emoji: ⚡
   - label: 'COMPUTE
 
       MARKETPLACES'
-    description: Companies renting out spare GPUs of partner data centers and taking a share of each hour
+    description: Companies renting out spare GPUs of partner data centers for a share
     emoji: 🔀
   - label: 'DEDICATED
 
       CLUSTERS'
-    description: Companies building whole clusters reserved for one big AI lab under a multiyear contract
+    description: Companies building whole clusters for one AI lab on a multiyear contract
     emoji: 🏭
   - label: 'SOVEREIGN
 
       AI CLOUDS'
-    description: Companies keeping AI chips and data inside one country or spread across many small hosts
+    description: Companies keeping AI chips and data inside one country or on small hosts
     emoji: 🌍
   - label: 'TRAINING
 
       PLATFORMS'
-    description: Companies selling tools and computing power to train and fine-tune AI models in one place
+    description: Companies selling tools and computing power to train and tune AI models
     emoji: 🧠
   categorization: Here, we categorize by type of solution
 - id: ed019
@@ -399,32 +399,32 @@ slides:
   - label: 'AI MODEL
 
       LABS'
-    description: Companies building clusters of tens of thousands of GPUs for labs like OpenAI and Anthropic
+    description: Companies building clusters of tens of thousands of GPUs for AI labs
     emoji: 🧠
   - label: 'BIG
 
       TECH'
-    description: Companies renting extra capacity to hyperscalers like Microsoft and Meta when theirs runs out
+    description: Companies renting extra capacity to Microsoft or Meta when theirs runs out
     emoji: 🏢
   - label: 'AI APP
 
       STARTUPS'
-    description: Companies serving the models behind coding, search and image apps, billed by each request
+    description: Companies serving the models behind coding, search and image apps
     emoji: 🚀
   - label: 'COMPANIES AND
 
       GOVERNMENT'
-    description: Companies giving banks, factories and states private AI computing inside their own country
+    description: Companies giving banks, factories and states private AI computing at home
     emoji: 🏛️
   - label: 'RESEARCH
 
       LABS'
-    description: Companies renting GPU time to universities and public labs that cannot afford their own
+    description: Companies renting GPU time to universities and public labs
     emoji: 🔬
   - label: 'SOLO
 
       DEVELOPERS'
-    description: Companies letting one person start a GPU in a minute and pay only for the seconds used
+    description: Companies letting one person start a GPU in a minute and pay by the second
     emoji: 🧑‍💻
   categorization: Here, we categorize by the type of buyer
 - id: ed020
@@ -438,32 +438,32 @@ slides:
   - label: 'HOURLY
 
       RENTAL'
-    description: Companies billing each GPU by the hour or the second, with no commitment from the client
+    description: Companies billing each GPU by the hour or second, with no commitment
     emoji: ⏱️
   - label: 'RESERVED
 
       CONTRACTS'
-    description: Companies signing take-or-pay contracts of several years before building the cluster
+    description: Companies signing take-or-pay contracts of several years before building
     emoji: 📝
   - label: 'PER-TOKEN
 
       PRICING'
-    description: Companies charging for each word an AI model reads or writes, not for the chips behind it
+    description: Companies charging for each word an AI model reads or writes
     emoji: 🪙
   - label: 'BROKER
 
       FEES'
-    description: Companies keeping a share of every GPU hour they sell on behalf of partner data centers
+    description: Companies keeping a share of every GPU hour sold for partner data centers
     emoji: 🔗
   - label: 'MANAGED
 
       PLATFORMS'
-    description: Companies selling a yearly plan that bundles computing, software and support for AI teams
+    description: Companies selling a yearly plan of computing, software and support
     emoji: 🧰
   - label: 'PUBLIC
 
       PROGRAMS'
-    description: Companies paid by governments to run national AI computing for local firms and researchers
+    description: Companies paid by governments to run national AI computing for local firms
     emoji: 🏛️
   categorization: Here, we categorize by business model
 - id: ed021
@@ -823,7 +823,7 @@ slides:
     in a year, and its sales 20 times'
   items:
   - value: 40x
-    label: Growth of its inference volume, the AI requests it runs for apps, in the year to June 2026
+    label: Growth of the AI requests it runs for apps, in the year to June 2026
   - value: 20x
     label: Growth of its revenue over the same year, as stated by the company
   - value: $13B
@@ -893,34 +893,34 @@ slides:
     13: ❌
     14: ⚖️
 - id: ed042
-  type: estimates
-  section: Market size
-  title: What are the market size estimates from different sources online?
-  rows:
-  - firm: 'Synergy
-
-      Research'
-    value: ≈ $40B
-    comment: Their $25B-plus 2025 base times 1.58 suggests about $40B in 2026. This covers neocloud supply, but also some platform and site activity.
-  - firm: 'ABI
-
-      Research'
-    value: ≈ $60B
-    comment: Their $42B 2025 GPU cloud base and 43% growth imply roughly $60B in 2026. Scope is specialist rented compute, but methods are not public.
-  - firm: 'Fortune
-
-      Insights'
-    value: $8.7B
-    comment: Their 2026 GPU-as-a-service figure covers broad cloud rentals and major cloud firms. It is not a complete neocloud revenue count.
-  - firm: 'Grand View
-
-      Research'
-    value: $5.1B
-    comment: Their 2026 GPU rental market includes other computing uses yet is well below named neocloud sales. We do not average it with Synergy.
   note:
   - We compare two neocloud forecasts with two GPU-rental studies, stating where their scopes are not alike.
   - We derive 2026 figures for Synergy and ABI from their 2025 base and stated growth rate, not direct forecasts.
+  rows:
+  - comment: Their $25B-plus 2025 base times 1.58 suggests about $40B in 2026. This covers neocloud supply, but also some platform and site activity.
+    firm: 'Synergy
+
+      Research'
+    value: ≈ $40B
+  - comment: Their $42B 2025 GPU cloud base and 43% growth imply roughly $60B in 2026. It counts rented compute, but the method is not public.
+    firm: 'ABI
+
+      Research'
+    value: ≈ $60B
+  - comment: Their 2026 GPU-as-a-service figure covers broad cloud rentals and major cloud firms. It is not a complete neocloud revenue count.
+    firm: 'Fortune
+
+      Insights'
+    value: $8.7B
+  - comment: Their 2026 GPU rental market includes other uses yet is below named neocloud sales. We do not average it with Synergy.
+    firm: 'Grand View
+
+      Research'
+    value: $5.1B
+  section: Market size
   src: 42
+  title: What are the market size estimates from different sources online?
+  type: estimates
 - id: ed043
   type: x/our_own_first_principles_bottom
   section: Market size
@@ -1257,7 +1257,7 @@ slides:
   t:
     6: 'You need more
 
-      than one big client'
+      than one client'
     8: 'A few clients make
 
       most of the revenue'
@@ -1269,7 +1269,7 @@ slides:
       handle liquid cooling'
     14: 'You need a fair
 
-      price per GPU-hour'
+      GPU-hour price'
     16: 'Rental prices
 
       swing month to month'
@@ -1519,78 +1519,78 @@ slides:
     18: They run out of power before they run out of money
     19: They pay more and more to serve each new model to users
     20: They must protect model weights in sites they do not run
-- id: ed065-s1
-  type: priority
-  section: Pain points
-  title: Which pains deserve attention first?
-  subtitle: AI model labs
-  icons:
+- icons:
   - 🧑‍💻
   - 🧠
   - 💰
   - ⚡
   - 🔒
-  rows:
-  - pain: New clusters arrive later than the date in the contract
-    s:
-    - 3
-    - 3
-    - 2
-    - 2
-    - 1
-    p: CRITICAL
-  - pain: Training runs crash when a single server fails
-    s:
-    - 2
-    - 3
-    - 1
-    - 1
-    - 1
-    p: MAJOR
-  - pain: Multiyear contracts lock them into chips that age fast
-    s:
-    - 2
-    - 1
-    - 3
-    - 2
-    - 1
-    p: MAJOR
-  - pain: Most of their capacity depends on a few providers
-    s:
-    - 3
-    - 2
-    - 3
-    - 2
-    - 2
-    p: CRITICAL
-  - pain: Power runs out before money does on new sites
-    s:
-    - 3
-    - 2
-    - 2
-    - 2
-    - 1
-    p: HIGH
-  - pain: Serving each new model to users costs more and more
-    s:
-    - 2
-    - 1
-    - 3
-    - 3
-    - 1
-    p: HIGH
-  - pain: Model weights sit in data centers they do not run
-    s:
-    - 1
-    - 2
-    - 1
-    - 1
-    - 3
-    p: HIGH
+  id: ed065-s1
   note:
   - Every stakeholder is different, and this table is a simplified view based on lab statements and analyst reports
   - It gives a starting point, not a checklist, so priorities should be validated with labs, providers and lenders
+  rows:
+  - p: CRITICAL
+    pain: New clusters arrive later than the date in the contract
+    s:
+    - 3
+    - 3
+    - 2
+    - 2
+    - 1
+  - p: MAJOR
+    pain: Training runs crash and restart when a single server fails
+    s:
+    - 2
+    - 3
+    - 1
+    - 1
+    - 1
+  - p: MAJOR
+    pain: Multiyear contracts lock them into chips that age fast
+    s:
+    - 2
+    - 1
+    - 3
+    - 2
+    - 1
+  - p: CRITICAL
+    pain: Most of their capacity depends on a few providers
+    s:
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+  - p: HIGH
+    pain: Power runs out before money does on new sites
+    s:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+  - p: HIGH
+    pain: Serving each new model to users costs more and more
+    s:
+    - 2
+    - 1
+    - 3
+    - 3
+    - 1
+  - p: HIGH
+    pain: Model weights sit in data centers they do not run
+    s:
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+  section: Pain points
   src: 65
+  subtitle: AI model labs
+  title: Which pains deserve attention first?
+  type: priority
 - id: ed062-s2
   type: x/divider_3
   src: 62
@@ -1933,78 +1933,78 @@ slides:
     18: They struggle to compare offers that change every month
     19: They fear paying for GPUs that their teams barely use
     20: They face slow public buying rules in a fast market
-- id: ed065-s4
-  type: priority
-  section: Pain points
-  title: Which pains deserve attention first?
-  subtitle: Enterprises and governments
-  icons:
+- icons:
   - 🏢
   - 📊
   - ⚖️
   - 🏛️
   - 📋
-  rows:
-  - pain: Sensitive data cannot be sent to clouds abroad
-    s:
-    - 3
-    - 3
-    - 3
-    - 3
-    - 1
-    p: CRITICAL
-  - pain: Too few of their staff know how to run GPU clusters
-    s:
-    - 3
-    - 2
-    - 1
-    - 2
-    - 1
-    p: MAJOR
-  - pain: Few local providers offer the newest Nvidia chips
-    s:
-    - 2
-    - 3
-    - 1
-    - 3
-    - 2
-    p: MAJOR
-  - pain: Regulators ask where data sits and who sees it
-    s:
-    - 2
-    - 1
-    - 3
-    - 3
-    - 1
-    p: CRITICAL
-  - pain: Offers and prices of providers change every month
-    s:
-    - 1
-    - 1
-    - 1
-    - 1
-    - 3
-    p: HIGH
-  - pain: GPUs bought or rented may sit barely used for months
-    s:
-    - 3
-    - 2
-    - 1
-    - 2
-    - 3
-    p: HIGH
-  - pain: Public buying rules are slow for a fast market
-    s:
-    - 1
-    - 1
-    - 1
-    - 3
-    - 3
-    p: HIGH
+  id: ed065-s4
   note:
   - Every stakeholder is different, and this table is a simplified view based on enterprise surveys and public AI plans
   - It gives a starting point, not a checklist, so priorities should be validated with IT chiefs, agencies and providers
+  rows:
+  - p: CRITICAL
+    pain: Sensitive data cannot be sent to clouds abroad
+    s:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 1
+  - p: MAJOR
+    pain: Too few of their staff know how to run GPU clusters
+    s:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 1
+  - p: MAJOR
+    pain: Few local providers offer the newest Nvidia chips
+    s:
+    - 2
+    - 3
+    - 1
+    - 3
+    - 2
+  - p: CRITICAL
+    pain: Regulators ask where data sits and who sees it
+    s:
+    - 2
+    - 1
+    - 3
+    - 3
+    - 1
+  - p: HIGH
+    pain: Offers and prices of providers change every month
+    s:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+  - p: HIGH
+    pain: GPUs bought or rented may sit barely used for months
+    s:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 3
+  - p: HIGH
+    pain: Public buying rules are too slow for a market that moves fast
+    s:
+    - 1
+    - 1
+    - 1
+    - 3
+    - 3
+  section: Pain points
   src: 65
+  subtitle: Enterprises and governments
+  title: Which pains deserve attention first?
+  type: priority
 - id: ed086
   type: agenda
   section: Tech and infra

@@ -269,18 +269,15 @@ slides:
 
       Disease'
 - id: ed014
-  type: cards
-  section: Market definition
-  title: When and where is value created in the market?
   items:
   - e: 🎯
-    t: When one IV drug turns a patient’s own T cells into targeted CAR cells
+    t: When one IV drug turns a patient’s own T cells into targeted CAR cells inside the body
   - e: ⏱️
-    t: When treatment avoids weeks of personalized cell manufacturing
+    t: When treatment avoids the weeks of personalized cell manufacturing in a lab
   - e: 🧪
     t: When a vector reaches the intended immune cell and limits off-target delivery
   - e: 🔁
-    t: When RNA dosing can be repeated to tune CAR exposure over time
+    t: When RNA dosing can be repeated to tune CAR exposure over weeks or months
   - e: 🧬
     t: When integrating delivery creates longer CAR expression from one treatment
   - e: 🏥
@@ -289,7 +286,10 @@ slides:
     t: When immune reset is achieved without lymphodepleting chemotherapy
   - e: 🌍
     t: When an off-the-shelf drug can expand access beyond specialist CAR-T centers
+  section: Market definition
   src: 14
+  title: When and where is value created in the market?
+  type: cards
 - id: ed015
   type: x/some_common_myths_about
   section: Market definition
@@ -2525,7 +2525,7 @@ slides:
     9: 'CONTROLLED
 
       PERSISTENCE'
-    10: Multi-target CARs built to stop tumors from escaping
+    10: Multi-target CARs built so tumors cannot escape by losing one target
     12: 'DUAL
 
       TARGETING'
