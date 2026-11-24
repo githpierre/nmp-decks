@@ -1,0 +1,534 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI recruiting
+
+    customers actually pay to solve?'
+  auds:
+  - Tech firms
+  - Large employers
+  - Search firms
+  - Staffing agencies
+  - Health systems
+  pains:
+  - - They must prove real hires, not just better reply rates
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They depend on profile data that they do not own or control
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They must stop their outreach emails from landing in spam
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 3
+  - - They see LinkedIn start selling its own AI hiring agent
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They lose paid seats as soon as a client freezes hiring
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 1
+  - - They see their search features copied by rivals within months
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI recruiting tools can
+
+    already do what recruiters ask for?'
+  companies:
+  - name: Eightfold
+    src: ../../assets/logos/pp_live/ai-recruiting/s05-00.png
+  - name: Paradox
+    src: ../../assets/logos/pp_live/ai-recruiting/s05-01.png
+  - name: Phenom
+    src: ../../assets/logos/pp_live/ai-recruiting/s05-02.png
+  - name: HireVue
+    src: ../../assets/logos/pp_live/ai-recruiting/s05-03.png
+  - name: Gem
+    src: ../../assets/logos/pp_live/ai-recruiting/s05-04.png
+  - name: SeekOut
+    src: ../../assets/logos/pp_live/ai-recruiting/s05-05.png
+  features:
+  - header: AI|interviewer
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Own|ATS
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Sourcing|database
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Auto|scheduling
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Skills|tests
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Internal|mobility
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Career|site
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to AI recruiting?'
+  events:
+  - odds: 35
+    impact: 3
+    text: Workday, LinkedIn, Indeed and Greenhouse bundle AI recruiting agents for free in their suites
+  - odds: 30
+    impact: 3
+    text: A long US hiring freeze keeps hiring rates near record lows, shrinking AI recruiting budgets
+  - odds: 25
+    impact: 1
+    text: The best AI recruiting startups get bought early like Paradox and HiredScore, leaving few independents
+  - odds: 20
+    impact: 2
+    text: AI notes and job posts become free features, collapsing prices for AI recruiting startups
+  - odds: 18
+    impact: 3
+    text: LinkedIn and Indeed close their data to outside AI recruiting tools and sell their own agents
+  - odds: 12
+    impact: 2
+    text: Fake AI candidates flood remote interviews, so employers stop trusting automated screening tools
+  - odds: 10
+    impact: 3
+    text: A court holds Workday or another vendor liable for biased AI hiring decisions in the Mobley case
+  - odds: 6
+    impact: 2
+    text: A viral case shows an AI hiring tool rejecting candidates by race or age, and employers quit
+  note:
+  - We listed the events that could slow ai recruiting down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI recruiting
+
+    forward, year after year?'
+  events:
+  - year: '1994'
+    text: Monster puts job listings online
+    impact: 1
+  - year: '2003'
+    text: LinkedIn turns resumes into searchable data
+    impact: 1.5
+  - year: '2004'
+    text: Indeed gathers job posts into one search
+    impact: 1
+  - year: '2009'
+    text: Recession floods each opening with applicants
+    impact: 1.5
+  - year: '2012'
+    text: Oracle buys Taleo, moving hiring online
+    impact: 1
+  - year: '2014'
+    text: HireVue adds AI scoring to video interviews
+    impact: 1
+  - year: '2016'
+    text: Chatbots start screening candidates by text
+    impact: 1
+  - year: '2016'
+    text: Microsoft buys LinkedIn and its career data
+    impact: 1.5
+  - year: '2017'
+    text: Google for Jobs ranks openings in search
+    impact: 1
+  - year: '2018'
+    text: Amazon scraps biased AI tool, audits begin
+    impact: 1
+  - year: '2019'
+    text: Unilever saves 100,000 hours with AI hiring
+    impact: 1.5
+  - year: '2020'
+    text: Illinois sets first rules for AI interviews
+    impact: 1
+  - year: '2020'
+    text: Covid moves job interviews to video
+    impact: 1.5
+  - year: '2021'
+    text: Great Resignation leaves recruiters swamped
+    impact: 2.5
+  - year: '2021'
+    text: HireVue drops face analysis after criticism
+    impact: 1
+  - year: '2022'
+    text: Record 11M open jobs strain hiring teams
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT drafts job posts and screens resumes
+    impact: 2.5
+  - year: '2023'
+    text: NYC law mandates audits of hiring AI
+    impact: 1.5
+  - year: '2023'
+    text: Layoffs gut recruiting teams, AI fills gaps
+    impact: 1.5
+  - year: '2024'
+    text: EU AI Act labels hiring AI risky
+    impact: 1.5
+  - year: '2024'
+    text: LinkedIn launches an AI agent for recruiters
+    impact: 2
+  - year: '2025'
+    text: LinkedIn gets 11,000 applications a minute
+    impact: 2.5
+  - year: '2025'
+    text: Workday bias case makes vendors liable
+    impact: 1.5
+  - year: '2025'
+    text: Workday buys Paradox for frontline hiring
+    impact: 1.5
+  - year: '2025'
+    text: SAP buys SmartRecruiters to add AI hiring
+    impact: 1
+  - year: '2025'
+    text: Fake AI candidates push firms to verify
+    impact: 1
+  - year: '2025'
+    text: California rules make AI hiring auditable
+    impact: 1
+  - year: '2025'
+    text: LinkedIn opens its hiring agent to all
+    impact: 1.5
+  - year: '2025'
+    text: OpenAI plans a jobs platform using AI
+    impact: 1.5
+  - year: '2026'
+    text: Juicebox valued at $850M for AI sourcing
+    impact: 1
+  note:
+  - We kept the events we believe pushed ai recruiting forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-recruiting
+  title: 'Where did AI recruiting investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai recruiting startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in AI recruiting today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-00.png
+    x: 251.6
+    y: 269.6
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-01.png
+    x: 328.5
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-02.png
+    x: 394.3
+    y: 294.9
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-03.png
+    x: 464.6
+    y: 288.2
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-04.png
+    x: 539.6
+    y: 288.0
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-05.png
+    x: 597.9
+    y: 301.3
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-06.png
+    x: 690.6
+    y: 288.4
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-07.png
+    x: 751.1
+    y: 286.3
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-08.png
+    x: 816.0
+    y: 295.5
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-09.png
+    x: 330.9
+    y: 375.0
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-10.png
+    x: 461.6
+    y: 370.3
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-11.png
+    x: 579.4
+    y: 371.1
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-12.png
+    x: 704.6
+    y: 374.6
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-13.png
+    x: 265.7
+    y: 384.4
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-14.png
+    x: 390.2
+    y: 395.1
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-15.png
+    x: 516.6
+    y: 393.4
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-16.png
+    x: 755.8
+    y: 381.0
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-17.png
+    x: 806.4
+    y: 400.7
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-18.png
+    x: 329.6
+    y: 488.6
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-19.png
+    x: 389.8
+    y: 475.3
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-20.png
+    x: 486.6
+    y: 480.4
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-21.png
+    x: 597.2
+    y: 487.3
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-22.png
+    x: 682.1
+    y: 483.9
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-23.png
+    x: 822.6
+    y: 492.4
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-24.png
+    x: 253.5
+    y: 507.4
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-25.png
+    x: 542.4
+    y: 505.1
+  - src: ../../assets/logos/pp_live/ai-recruiting/s10-26.png
+    x: 764.1
+    y: 511.7
+  cols:
+  - a
+  - Challengers
+  - $35B *°98 ,
+  rows:
+  - Interviews
+  - Sourcing
+  - Platforms
+  note:
+  - We left out listed companies, HR suites, job boards and acquired startups like Paradox and Ezra
+  - We placed each pure player by its main product, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is Mercor winning
+
+    the AI talent market?'
+  companies:
+  - short: Mercor
+    src: ../../assets/logos/pp_live/ai-recruiting/s12-00.png
+  - short: Handshake
+    src: ../../assets/logos/pp_live/ai-recruiting/s12-01.png
+  - short: micro1
+    src: ../../assets/logos/pp_live/ai-recruiting/s12-02.png
+  - short: Turing
+    src: ../../assets/logos/pp_live/ai-recruiting/s12-03.png
+  - short: Scale AI
+    src: ../../assets/logos/pp_live/ai-recruiting/s12-04.png
+  criteria:
+  - name: $2B gross run rate
+    why: Biggest buyer spend
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: AI interviewer vetting
+    why: Screens experts at scale
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: 30,000+ weekly experts
+    why: Deep bench of specialists
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Neutral to all AI labs
+    why: No Big Tech owner
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Cash flow positive
+    why: Growth without burn
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Valued at $10B or more
+    why: Capital to keep expanding
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Huge campus network
+    why: Millions of students, PhDs
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as AI recruiting,
+
+    and what only looks like it?'
+  TL:
+    name: Workday
+    src: ../../assets/logos/pp_live/ai-recruiting/s01-00.png
+    text: now owns Paradox and HiredScore for ATI hiring, but it sells them as modules of a much larger HR and finance suite
+  TR:
+    name: Randstad
+    src: ../../assets/logos/pp_live/ai-recruiting/s01-02.png
+    text: supported over 1.7 million workers in 2025, but its revenue comes from staffing run by about 38,000 employees
+  BL:
+    name: LinkedIn
+    src: ../../assets/logos/pp_live/ai-recruiting/s01-10.png
+    text: offers a Hiring Assistant agent that sources candidates for recruiters, but it is a social network and job board first
+  BR:
+    name: Mercor
+    src: ../../assets/logos/pp_live/ai-recruiting/s01-11.png
+    text: started as an AT hiring platform, but its $2 billion run rate comes from AI labs paying experts for training data
+  caption:
+  - Distance to the center reflects how much AI does the work of finding and assessing candidates, rather than staff or HR software
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-recruiting/s01-01.png
+  - ../../assets/logos/pp_live/ai-recruiting/s01-03.png
+  - ../../assets/logos/pp_live/ai-recruiting/s01-04.png
+  - ../../assets/logos/pp_live/ai-recruiting/s01-05.png
+  - ../../assets/logos/pp_live/ai-recruiting/s01-06.png
+  - ../../assets/logos/pp_live/ai-recruiting/s01-07.png
+  - ../../assets/logos/pp_live/ai-recruiting/s01-08.png
+  - ../../assets/logos/pp_live/ai-recruiting/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-recruiting/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/ai-recruiting/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/ai-recruiting/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/ai-recruiting/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/ai-recruiting/s01-06.png
+    x: 514.9
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-recruiting/s01-07.png
+    x: 381.2
+    y: 430.9
+  - src: ../../assets/logos/pp_live/ai-recruiting/s01-08.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/ai-recruiting/s01-09.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up AI
+
+    recruiters that screen CVs for them'
+  date: Recently.
+  expl: Hiring teams get hundreds of applications for one job. AI that screens CVs, schedules interviews and even talks to candidates started spreading,
+    and recruiters looked for one.
+  term: ai recruiting
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-recruiting/ai-recruiting.csv
+ed052p:
+  type: pp_cagr
+  title: 'Who are the top players
+
+    in defense AI today?'
+  lead: ''
+  condition: 'Leaders : Challengers :'
+  note:
+  - We left out big tech, AI labs and listed firms like Palantir, Google and Lockheed
+  - We placed each one by its focus, and all our sources are at the end of the report
+  size: null
+  cagr: null
+  y0: null

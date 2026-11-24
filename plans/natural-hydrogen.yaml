@@ -1,0 +1,121 @@
+# Spec of the research prompts for the Natural hydrogen deck (tools/make_market_prompts.py). Method v2.
+# Pierre 21 Nov 2026: pain segments option A (types of buyer), value segments option A (3 segments: the base categories that have
+# companies, Natural hydrogen production (Hydroma only) merged into the explorers; Reservoir appraisal and drilling and
+# Purification have no company). Base as of 14 Nov 2026. ProtonH2 left the market (hydrogen from oil reservoirs, excluded).
+# Trends term: natural hydrogen (white hydrogen gives the same rise; geologic hydrogen is at 0 in 175 of 262 weeks; clean
+# hydrogen is outside the definition, it covers green hydrogen).
+name: natural hydrogen
+handle: natural-hydrogen
+uuid: 176
+date: '2026-11-21'
+today: 21 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, patients, FDA, therapy, cancer, clinical, trial, reactor, longevity, GPU, neocloud
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and exchange filings (Koloma, Gold Hydrogen, HyTerra, Mantle8, Snowfox Discovery, Vema Hydrogen, Eden GeoPower, Addis Energy, Hydroma, Helios Aragón, H2Au, Terrensis,
+  Max Power Mining, Top End Energy, GeoRedox, Anning), ASX and CSE announcements, government documents (USGS hydrogen prospectivity map and 2024 global estimate, Geoscience Australia, ARPA-E awards,
+  US Air Force AFCEC geologic hydrogen initiative, French mining code reform and permits, South Australia licences), peer-reviewed papers (Science, Nature Reviews Earth and Environment, Science
+  Advances, the Royal Society natural hydrogen report), IEA Global Hydrogen Review, investor releases (Breakthrough Energy Ventures, Fortescue, BP Ventures, Chevron, Rio Tinto, JERA Ventures), market
+  research firms with a named method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, Science news, Canary Media, Hydrogen Insight, S&P Global, Le Monde).
+# where the problem is felt (types of buyer): option A (Pierre, 21 Nov 2026)
+pain_segments:
+- Ammonia and fertilizer makers
+- Refineries and chemical plants
+- Energy majors and miners
+- Remote and military sites
+# types of solution: option A (Pierre, 21 Nov 2026)
+#   Hydrogen explorers = Natural hydrogen exploration + Natural hydrogen production (Hydroma alone)
+#   Subsurface mapping = Exploration intelligence | Stimulated hydrogen = Stimulated geologic hydrogen
+value_segments:
+- Hydrogen explorers
+- Subsurface mapping
+- Stimulated hydrogen
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/natural-hydrogen (same slide type as the deck twin). No Trends
+# slide on the live page: ed039p written by hand from Pierre's CSV, as on Neocloud. The live donut S03-02 has 5 categories outside
+# the base: ed047p rewritten by hand with the 3 value segments. S11 live is a warning-signs grid: ed199p comes from the research.
+live_twins:
+- ed039p
+- ed047p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which natural hydrogen wells have actually been drilled?
+    brief: 8 rows = 8 real wells or drilling campaigns aimed at natural or stimulated hydrogen, with a named place (country, region, licence). Rows read "well or project at place" + "COMPANY · PROJECT"
+      + stage (DRILLED / TESTING / PRODUCING). Only wells reported by the company, an exchange filing, a regulator or a geological survey. Not a permit alone, not a planned well.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between natural hydrogen companies and large groups (strategic investments by energy majors or miners such as Fortescue, BP, Chevron, Rio Tinto or JERA, takeovers, offtake or
+      joint-venture agreements, government awards such as ARPA-E or the US Air Force, exchange listings), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to turn a hydrogen find into supply?
+    brief: 5 steps from a hydrogen show in a well to gas sold to a customer (for example getting an exploration licence, mapping and soil gas surveys, drilling and flow tests, proving the reservoir
+      refills and its size, production licence, separation and a buyer or pipeline). Each step in plain words with who decides and a typical duration, and how far the leading companies are.
+  iv_safety:
+    title: What could go wrong for natural hydrogen?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example dry wells or low flow rates, reservoirs that do not refill fast enough, hydrogen eaten by
+      microbes or leaking, rules that do not yet cover hydrogen wells, cheap gas or green hydrogen prices that make the economics weak). Real filings, reports or reported cases only.
+extra:
+  ed061: 'For natural hydrogen: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines,
+    one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: funding records and their size against earlier rounds (Koloma, Mantle8, Snowfox Discovery, Vema Hydrogen, Addis Energy, Eden GeoPower, the JERA investment in Koloma), drilling campaigns
+  and flow or purity results (Gold Hydrogen Ramsay project, HyTerra Kansas, Max Power Lonetree, Helios Aragón Monzón, Hydroma Bourakébougou), the number of exploration licences granted each year
+  (South Australia, France, Spain, United States, Morocco), government programs (USGS prospectivity map, ARPA-E awards, US Air Force initiative, French mining code), big groups entering (Fortescue,
+  BP, Chevron, Rio Tinto, Breakthrough Energy Ventures), share prices of the listed explorers, scientific estimates of the resource (USGS 2024), Google searches for natural hydrogen.
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, dry or disappointing wells, licences given up or refused, drilling campaigns delayed,
+  takeovers forced by cash needs, layoffs, share prices that fell, partners that walked away. Scope: companies whose core product is natural or stimulated geological hydrogen (explorers, field
+  developers, subsurface mapping, stimulation), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: missed deadlines, lost independence, value fell, disappointing well, licence given up). Each cell is two
+  short lines separated by | or empty. Give the website domain of each company.
+
+  - ed200: why natural hydrogen startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: natural hydrogen
+label: natural hydrogen
+keep_together:
+- natural hydrogen
+- geologic hydrogen
+- stimulated hydrogen
+- white hydrogen
+examples:
+  jargon_bad: Serpentinization of ultramafic rocks and radiolysis yield H2 trapped beneath evaporite seals.
+  jargon_good: Some rocks react with water deep underground and make hydrogen, and salt layers can trap it like a lid.
+  jargon_why: the reader is not a geologist
+  proof_rule: 'A hydrogen show in a well, a soil gas reading or a resource estimate is not proof of a business: say whether a well flowed hydrogen, at what rate and purity, for how long, whether
+    anyone buys it, and who reported it.'
+  proof_bad: Company X found a giant hydrogen reservoir.
+  proof_good: Company X measured 86 % hydrogen in gas samples from its 2023 wells, but has not yet reported a sustained flow rate.
+  proof_why: a gas sample is not a producing well
+  fresh_bad: Company X raised $91M in 2023
+  fresh_good: Company X raised $36M in May 2026, ten times its seed round of February 2025
+  fresh_est: Company X should drill four hydrogen wells in 2026, against one in 2025
+  fresh_method: latest company releases and exchange filings, regulator licence lists, press reports as a cross-check
+  not_proof: a hydrogen show in a well is not a producing field
+trends_csv: assets/trends/natural-hydrogen/natural-hydrogen.csv

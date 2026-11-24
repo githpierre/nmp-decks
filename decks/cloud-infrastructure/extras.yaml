@@ -1,0 +1,52 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do cloud providers
+
+      actually make money?'
+    axes:
+    - Small teams
+    - Large companies
+    - Billed
+    - by usage
+    - Fixed price
+    - or license
+    groups:
+    - name: Simple flat price servers
+      x: 0.21
+      y: 0.81
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-00.png
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-01.png
+    - name: Storage priced per terabyte
+      x: 0.28
+      y: 0.31
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-07.png
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-08.png
+    - name: Computing rented by the hour
+      x: 0.76
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-09.png
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-10.png
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-11.png
+    - name: Reserved GPUs for AI
+      x: 0.86
+      y: 0.56
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-04.png
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-05.png
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-06.png
+    - name: Software for private clouds
+      x: 0.55
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-02.png
+      - src: ../../assets/logos/pp_live/cloud-infrastructure/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

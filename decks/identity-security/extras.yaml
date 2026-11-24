@@ -1,0 +1,51 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do identity platforms
+
+      actually make money?'
+    axes:
+    - Secures people
+    - Secures machines
+    - Flat price
+    - per account
+    - Pay as
+    - you use
+    groups:
+    - name: Price per employee
+      x: 0.18
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/identity-security/s06-06.png
+      - src: ../../assets/logos/pp_live/identity-security/s06-07.png
+      - src: ../../assets/logos/pp_live/identity-security/s06-08.png
+    - name: Price per active app user
+      x: 0.2
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/identity-security/s06-00.png
+      - src: ../../assets/logos/pp_live/identity-security/s06-01.png
+    - name: Licenses for admin accounts
+      x: 0.5
+      y: 0.45
+      logos:
+      - src: ../../assets/logos/pp_live/identity-security/s06-04.png
+      - src: ../../assets/logos/pp_live/identity-security/s06-05.png
+    - name: Priced per certificate
+      x: 0.82
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/identity-security/s06-09.png
+      - src: ../../assets/logos/pp_live/identity-security/s06-10.png
+    - name: Pay per secret stored
+      x: 0.8
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/identity-security/s06-02.png
+      - src: ../../assets/logos/pp_live/identity-security/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

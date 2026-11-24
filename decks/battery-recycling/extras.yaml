@@ -1,0 +1,44 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does money really
+
+      flow in battery recycling?'
+    axes:
+    - Paid to take batteries
+    - Paid for the metals
+    - One-off
+    - deals
+    - Long-term
+    - contracts
+    groups:
+    - name: Toll recycling fees
+      x: 0.2
+      y: 0.45
+      logos:
+      - src: ../../assets/logos/pp_live/battery-recycling/s06-02.png
+      - src: ../../assets/logos/pp_live/battery-recycling/s06-03.png
+    - name: Recovered material sales
+      x: 0.8
+      y: 0.3
+      logos:
+      - src: ../../assets/logos/pp_live/battery-recycling/s06-04.png
+      - src: ../../assets/logos/pp_live/battery-recycling/s06-05.png
+    - name: Closed-loop supply deal
+      x: 0.62
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/battery-recycling/s06-00.png
+      - src: ../../assets/logos/pp_live/battery-recycling/s06-01.png
+    - name: Technology licensing
+      x: 0.4
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/battery-recycling/s06-06.png
+      - src: ../../assets/logos/pp_live/battery-recycling/s06-07.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

@@ -1,0 +1,21 @@
+# Sentences on base figures (ed160, ed162): every figure is a {db.key} of db_facts.yaml, so a base update re-flows them
+ed160:
+  6: Hydrogen explorers took about {db.cat1_pct}% of the capital raised since 2024, ahead of subsurface mapping with about {db.cat2_pct}%
+  7: '{db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}'
+  8: US startups closed {db.us_n} of the {db.n} rounds and took {db.ctry1_money}, mostly Koloma, while French startups closed {db.ctry2_n}
+  9: Rounds of $100M or more, {db.big_n} in all, made up about {db.big_pct}% of the capital raised since 2024
+  10: 'The {db.big1_amt} {db.big1_stage} round of {db.big1_name} is the biggest since 2024, ahead of the {db.big2_amt} round of {db.big2_name}'
+  11: Seed was the most common round, with {db.seed} of the {db.n} rounds, ahead of Series A with {db.series_a} and Series B with {db.series_b}
+  note: We drew these insights from our tracker of {db.n} natural hydrogen equity rounds announced since January 2024, worth about {db.total}
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, few startups chased natural hydrogen. Koloma led them with a $56M round in 2022, and only one well, in Mali, had ever produced hydrogen.'
+  7: 'AFTER
+
+
+
+    Since 2024, {db.n} rounds raised {db.total}. Hydrogen explorers take the biggest share, led by Koloma, and new wells in Australia and Canada find very pure hydrogen.'
+  note: We used our tracker of natural hydrogen equity rounds, complete from January 2024, and company releases and the press

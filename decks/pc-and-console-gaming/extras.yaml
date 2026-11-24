@@ -1,0 +1,43 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does money really flow
+
+      in PC and console gaming?'
+    axes:
+    - Sells the game
+    - Sells access
+    - One-off
+    - purchase
+    - Ongoing
+    - spend
+    groups:
+    - name: Premium game sales
+      x: 0.18
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/pc-and-console-gaming/s06-05.png
+      - src: ../../assets/logos/pp_live/pc-and-console-gaming/s06-06.png
+    - name: DLC and expansions
+      x: 0.3
+      y: 0.55
+      logos:
+      - src: ../../assets/logos/pp_live/pc-and-console-gaming/s06-02.png
+    - name: In-game purchases
+      x: 0.6
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/pc-and-console-gaming/s06-00.png
+      - src: ../../assets/logos/pp_live/pc-and-console-gaming/s06-01.png
+    - name: Subscriptions
+      x: 0.85
+      y: 0.62
+      logos:
+      - src: ../../assets/logos/pp_live/pc-and-console-gaming/s06-03.png
+      - src: ../../assets/logos/pp_live/pc-and-console-gaming/s06-04.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

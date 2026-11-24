@@ -1,0 +1,49 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do protein design
+
+      firms actually make money?'
+    axes:
+    - Paid upfront
+    - Paid if the drug works
+    - Sells
+    - tools
+    - Owns
+    - the products
+    groups:
+    - name: Design software license
+      x: 0.15
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-05.png
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-06.png
+    - name: Model access by usage
+      x: 0.4
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-07.png
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-08.png
+    - name: Pharma deal milestones
+      x: 0.66
+      y: 0.36
+      logos:
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-03.png
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-04.png
+    - name: Own drug pipeline
+      x: 0.8
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-00.png
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-01.png
+    - name: Designed enzymes sold
+      x: 0.3
+      y: 0.72
+      logos:
+      - src: ../../assets/logos/pp_live/ai-protein-design/s06-02.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

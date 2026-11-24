@@ -1,0 +1,589 @@
+ed058:
+  type: pp_pains
+  title: 'Which carbon capture
+
+    problems are still unsolved?'
+  auds:
+  - Cement plants
+  - Steel makers
+  - Gas plants
+  - Oil majors
+  - Credit buyers
+  pains:
+  - - They pay more to capture each ton of CO2 than carbon prices pay
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They wait years for pipelines and storage sites to be permitted
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They depend on tax credits that could change after the next vote
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 2
+  - - They face local fears about CO2 pipelines and underground leaks
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They lose power plant output just to run the capture equipment
+    - - 2
+      - 1
+      - 3
+      - 1
+      - 1
+  - - They struggle to trust that the CO2 removed stays out for good
+    - - 1
+      - 1
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which carbon capture firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Climeworks
+    src: ../../assets/logos/pp_live/carbon-capture/s05-00.png
+  - name: Heirloom
+    src: ../../assets/logos/pp_live/carbon-capture/s05-01.png
+  - name: Octavia
+    src: ../../assets/logos/pp_live/carbon-capture/s05-02.png
+  - name: Mission Zero
+    src: ../../assets/logos/pp_live/carbon-capture/s05-03.png
+  - name: 1PointFive
+    src: ../../assets/logos/pp_live/carbon-capture/s05-04.png
+  features:
+  - header: Running|plant
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own|storage
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Electric|only
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Certified|credits
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: CO2 for|products
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Sells to|individuals
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Geothermal|power
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for carbon capture?'
+  events:
+  - odds: 50
+    impact: 2
+    text: Direct air capture costs stay above $500 per ton, far from the $100 target buyers want
+  - odds: 40
+    impact: 3
+    text: Microsoft extends its 80% cut in carbon removal purchases, leaving direct air capture startups without offtake
+  - odds: 40
+    impact: 2
+    text: The DOE formally cancels the stalled Project Cypress and South Texas DAC hubs, stranding Climeworks and Heirloom
+  - odds: 35
+    impact: 1
+    text: Oil majors like ExxonMobil and Occidental dominate capture hubs, squeezing out independent startups
+  - odds: 30
+    impact: 2
+    text: The EU delays counting removals in its ETS, so European demand for credits grows slower than hoped
+  - odds: 12
+    impact: 3
+    text: A CO2 pipeline rupture like Satartia sickens residents and states block new pipelines from Summit Carbon
+  - odds: 10
+    impact: 3
+    text: Congress cuts or narrows the 45Q tax credit, wrecking the economics of US capture projects
+  - odds: 8
+    impact: 2
+    text: An investigation shows a stored CO2 site leaking, and buyers question permanence of geologic storage
+  note:
+  - We listed the events that could slow carbon capture down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed carbon capture
+
+    forward, year after year?'
+  events:
+  - year: '1972'
+    text: Texas oil fields buy CO2 for drilling
+    impact: 1.5
+  - year: '1991'
+    text: Norway taxes offshore CO2 emissions
+    impact: 1.5
+  - year: '1996'
+    text: Sleipner stores CO2 under the North Sea
+    impact: 2
+  - year: '2000'
+    text: Weyburn proves CO2 stays underground
+    impact: 1
+  - year: '2005'
+    text: IPCC report backs carbon capture
+    impact: 1
+  - year: '2005'
+    text: EU ETS puts a price on carbon
+    impact: 1.5
+  - year: '2008'
+    text: US creates the 45Q tax credit
+    impact: 1.5
+  - year: '2014'
+    text: Boundary Dam captures coal plant CO2
+    impact: 1.5
+  - year: '2015'
+    text: Paris Agreement sets net zero goals
+    impact: 2.5
+  - year: '2017'
+    text: Climeworks opens first commercial DAC plant
+    impact: 1.5
+  - year: '2018'
+    text: 45Q expanded to $50 per ton
+    impact: 2.5
+  - year: '2018'
+    text: IPCC says 1.5C needs CO2 removal
+    impact: 1.5
+  - year: '2020'
+    text: Microsoft pledges to be carbon negative
+    impact: 2
+  - year: '2021'
+    text: Musk funds $100M XPRIZE for carbon removal
+    impact: 1.5
+  - year: '2021'
+    text: Infrastructure law gives $3.5B for DAC hubs
+    impact: 2
+  - year: '2021'
+    text: Climeworks Orca opens in Iceland
+    impact: 1
+  - year: '2022'
+    text: Frontier pledges $925M to buy removal
+    impact: 1.5
+  - year: '2022'
+    text: IRA raises 45Q to $180 per ton
+    impact: 3
+  - year: '2023'
+    text: EU carbon price tops 100 euros
+    impact: 1.5
+  - year: '2023'
+    text: DOE funds Texas and Louisiana DAC hubs
+    impact: 1.5
+  - year: '2023'
+    text: Occidental buys Carbon Engineering
+    impact: 1.5
+  - year: '2024'
+    text: EU law requires 50Mt storage by 2030
+    impact: 1.5
+  - year: '2024'
+    text: Microsoft buys 500,000 tons from Oxy
+    impact: 1
+  - year: '2024'
+    text: Japan passes law enabling CO2 storage
+    impact: 1
+  - year: '2024'
+    text: UK commits 21.7B pounds to CCS
+    impact: 1.5
+  - year: '2024'
+    text: COP29 agrees rules for carbon credits
+    impact: 1
+  - year: '2025'
+    text: Microsoft signs record removal deals
+    impact: 1.5
+  - year: '2025'
+    text: Northern Lights starts storing CO2
+    impact: 1.5
+  - year: '2025'
+    text: New US budget law keeps 45Q credits
+    impact: 1
+  - year: '2026'
+    text: California starts its first CO2 injection
+    impact: 1
+  note:
+  - We kept the events we believe pushed carbon capture forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: carbon-capture
+  title: 'Where did carbon capture investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of carbon capture startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in the CCUS market today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-00.png
+    x: 339.4
+    y: 256.3
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-01.png
+    x: 473.8
+    y: 272.6
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-02.png
+    x: 643.3
+    y: 261.0
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-03.png
+    x: 695.1
+    y: 260.1
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-04.png
+    x: 802.1
+    y: 266.8
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-05.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-06.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-07.png
+    x: 319.7
+    y: 307.7
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-08.png
+    x: 749.1
+    y: 298.5
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-09.png
+    x: 239.1
+    y: 368.4
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-10.png
+    x: 291.0
+    y: 372.4
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-11.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-12.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-13.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-14.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-15.png
+    x: 767.1
+    y: 394.5
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-16.png
+    x: 189.4
+    y: 412.7
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-17.png
+    x: 345.0
+    y: 411.2
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-18.png
+    x: 310.7
+    y: 492.9
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-19.png
+    x: 409.3
+    y: 468.9
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-20.png
+    x: 473.1
+    y: 478.9
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-21.png
+    x: 695.1
+    y: 484.9
+  - src: ../../assets/logos/pp_live/carbon-capture/s10-22.png
+    x: 229.3
+    y: 510.6
+  cols:
+  - Ca on he fecu
+  - oer copes
+  - Pate storage
+  rows:
+  - Meta sells Ray-Ban Meta smart
+  - Ambient air
+  - Withings makes hybrid
+  note:
+  - Distance to the center reflects how much a device relies on body sensors and software, rather than on design alone
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these carbon capture
+
+    startups, and how did they end?'
+  causes:
+  - Buyers|pulled back
+  - Science|questioned
+  - Ran out|of cash
+  - Tech fell|short
+  rows:
+  - name: Running Tide
+    ending: Shut down
+    start: '2017'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/carbon-capture/s11-00.png
+    ini: R
+    slug: runningtide
+    domain: runningtide.com
+  - name: Nori
+    ending: Shut down
+    start: '2017'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/carbon-capture/s11-01.png
+    ini: N
+    slug: nori
+    domain: nori.com
+  - name: Noya
+    ending: Shut down
+    start: '2020'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/carbon-capture/s11-02.png
+    ini: N
+    slug: noya
+    domain: noya.co
+  - name: SeaO2
+    ending: Went bankrupt
+    start: '2022'
+    end: '2026'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/carbon-capture/s11-03.png
+    ini: S
+    slug: seao2
+    domain: seao2.com
+  - name: Cyanoskin
+    ending: Shut down
+    start: '2023'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/carbon-capture/s11-04.png
+    ini: C
+    slug: cyanoskin
+    domain: cyanoskin.com
+  note:
+  - We tracked the carbon capture startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Climeworks be
+
+    winning direct air capture?'
+  companies:
+  - short: Climeworks
+    src: ../../assets/logos/pp_live/carbon-capture/s12-00.png
+  - short: 1PointFive
+    src: ../../assets/logos/pp_live/carbon-capture/s12-01.png
+  - short: Heirloom
+    src: ../../assets/logos/pp_live/carbon-capture/s12-02.png
+  - short: CarbonCap
+    src: ../../assets/logos/pp_live/carbon-capture/s12-03.png
+  - short: Octavia
+    src: ../../assets/logos/pp_live/carbon-capture/s12-04.png
+  criteria:
+  - name: Two DAC plants running
+    why: Learns from real operations
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Puro certified removals
+    why: Buyers trust verified tons
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Largest plant by design
+    why: 500,000 tons a year planned
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Backed by an oil major
+    why: Cash and CO2 storage access
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Offtakes over 300k tons
+    why: Revenue locked in early
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Raised over $500M
+    why: Funds first of a kind plants
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Modular capture units
+    why: Scales by adding units
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the carbon capture market?'
+  TL:
+    name: Frontier
+    src: ../../assets/logos/pp_live/carbon-capture/s01-00.png
+    text: pools buyers like Stripe and Google to fund permanent carbon removal, but as a buyer it captures and stores no CO? itself
+  TR:
+    name: Sweep
+    src: ../../assets/logos/pp_live/carbon-capture/s01-01.png
+    text: helps companies measure and report their emissions with carbon accounting software, but it never captures or stores CO2
+  BL:
+    name: Heidelberg Materials
+    src: ../../assets/logos/pp_live/carbon-capture/s01-09.png
+    text: opened the first full-scale carbon capture plant at a cement works, but cement is still its core business
+  BR:
+    name: Linde
+    src: ../../assets/logos/pp_live/carbon-capture/s01-10.png
+    text: builds capture, purification and liquefaction units for CO2, but they are a small part of a giant industrial gases business
+  caption:
+  - Distance to the center reflects how directly a company captures, transports, uses or permanently stores CO2 as its main business
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/carbon-capture/s01-02.png
+  - ../../assets/logos/pp_live/carbon-capture/s01-03.png
+  - ../../assets/logos/pp_live/carbon-capture/s01-04.png
+  - ../../assets/logos/pp_live/carbon-capture/s01-05.png
+  - ../../assets/logos/pp_live/carbon-capture/s01-06.png
+  - ../../assets/logos/pp_live/carbon-capture/s01-07.png
+  - ../../assets/logos/pp_live/carbon-capture/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/carbon-capture/s01-02.png
+    x: 435.6
+    y: 287.4
+  - src: ../../assets/logos/pp_live/carbon-capture/s01-03.png
+    x: 521.4
+    y: 321.2
+  - src: ../../assets/logos/pp_live/carbon-capture/s01-04.png
+    x: 463.7
+    y: 356.4
+  - src: ../../assets/logos/pp_live/carbon-capture/s01-05.png
+    x: 402.6
+    y: 381.6
+  - src: ../../assets/logos/pp_live/carbon-capture/s01-06.png
+    x: 515.4
+    y: 391.1
+  - src: ../../assets/logos/pp_live/carbon-capture/s01-07.png
+    x: 460.1
+    y: 416.4
+  - src: ../../assets/logos/pp_live/carbon-capture/s01-08.png
+    x: 518.8
+    y: 454.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up carbon
+
+    credits, as new rules clean up the market'
+  date: In recent months.
+  expl: Carbon credits had a bad reputation after scandals over fake forest projects. Then new rules cleaned up the market, big tech companies like Microsoft
+    bought record amounts of carbon removal, and countries started trading credits under the Paris deal. People came back to understand how it works.
+  term: carbon capture
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/carbon-capture/carbon-capture.csv
+ed052p:
+  type: pp_cagr
+  title: 'What are the categories
+
+    and how much do they generate?'
+  lead: ''
+  condition: ''
+  note:
+  - We split the market using research firm shares and project data, then rounded each category
+  - Air capture credits and monitoring sit in other products, with all the sources at the end of the report
+  size: null
+  cagr: null
+  y0: null

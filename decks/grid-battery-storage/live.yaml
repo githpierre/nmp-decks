@@ -1,0 +1,596 @@
+ed058:
+  type: pp_pains
+  title: 'Which grid battery problems
+
+    are still waiting to be solved?'
+  auds:
+  - Project developers
+  - Power utilities
+  - Grid operators
+  - Infra investors
+  - Town councils
+  pains:
+  - - They wait years in grid queues before a battery can connect
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They face local bans after a single battery fire makes the news
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 3
+  - - They earn less each year as more batteries chase the same prices
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 1
+  - - They pay more to insure each site after recent battery fires
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 2
+  - - They must rebuild their supply chains to keep US tax credits
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 1
+  - - They see warranties vanish when a system maker goes bankrupt
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which grid battery player has
+
+    the most complete tech today?'
+  companies:
+  - name: Tesla
+    src: ../../assets/logos/pp_live/grid-battery-storage/s05-00.png
+  - name: Wartsila
+    src: ../../assets/logos/pp_live/grid-battery-storage/s05-01.png
+  - name: Fluence
+    src: ../../assets/logos/pp_live/grid-battery-storage/s05-02.png
+  - name: Sungrow
+    src: ../../assets/logos/pp_live/grid-battery-storage/s05-03.png
+  - name: CATL
+    src: ../../assets/logos/pp_live/grid-battery-storage/s05-04.png
+  - name: BYD
+    src: ../../assets/logos/pp_live/grid-battery-storage/s05-05.png
+  features:
+  - header: Own|cells
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Inverter|built in
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Bidding|software
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: US|plants
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Sodium-|ion
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Solar|inverters
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Gas power|plants
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to grid batteries?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Treasury FEOC rules cut tax credits for projects using Chinese cells from CATL, BYD and EVE
+  - odds: 45
+    impact: 2
+    text: Too many batteries in ERCOT and CAISO crash price spreads and cut revenue per megawatt
+  - odds: 40
+    impact: 3
+    text: US tariffs on Chinese lithium batteries rise above 80 percent, raising project costs and delaying builds
+  - odds: 40
+    impact: 2
+    text: Interconnection queues stay jammed, delaying thousands of megawatts of storage projects by several years
+  - odds: 35
+    impact: 1
+    text: Tesla Megapack and Fluence win most deals on scale and squeeze smaller integrators out of the market
+  - odds: 25
+    impact: 2
+    text: A large battery fire like Moss Landing leads counties in California and New York to ban sites
+  - odds: 15
+    impact: 3
+    text: Congress repeals or phases out the storage investment tax credit earlier than planned
+  - odds: 8
+    impact: 2
+    text: A cyberattack on battery management software from a Chinese supplier triggers federal bans on installed systems
+  note:
+  - We listed the events that could slow grid battery storage down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed grid batteries
+
+    forward, year after year?'
+  events:
+  - year: '2009'
+    text: AES proves batteries can steady frequency
+    impact: 1
+  - year: '2010'
+    text: California law makes utilities plan storage
+    impact: 1.5
+  - year: '2011'
+    text: FERC 755 pays fast responders more
+    impact: 1.5
+  - year: '2013'
+    text: California sets a 1.3 GW storage target
+    impact: 2
+  - year: '2015'
+    text: Tesla Powerpack brings batteries to utilities
+    impact: 1
+  - year: '2016'
+    text: Aliso Canyon leak fast tracks batteries
+    impact: 2
+  - year: '2017'
+    text: Tesla builds Australia's big battery fast
+    impact: 2.5
+  - year: '2018'
+    text: FERC 841 opens wholesale markets to batteries
+    impact: 2
+  - year: '2019'
+    text: Hornsdale savings prove grid batteries pay
+    impact: 1
+  - year: '2019'
+    text: Tesla Megapack makes grid batteries modular
+    impact: 1
+  - year: '2020'
+    text: Moss Landing reaches power plant scale
+    impact: 1.5
+  - year: '2020'
+    text: UK blackout creates fast frequency market
+    impact: 1
+  - year: '2020'
+    text: FERC 2222 lets small batteries bid together
+    impact: 1
+  - year: '2021'
+    text: Blackouts spur 11.5 GW California order
+    impact: 2
+  - year: '2021'
+    text: China ties new renewables to storage
+    impact: 2.5
+  - year: '2021'
+    text: Texas freeze exposes the need for storage
+    impact: 1
+  - year: '2022'
+    text: Energy crisis price swings reward arbitrage
+    impact: 1
+  - year: '2022'
+    text: IRA tax credit covers standalone storage
+    impact: 2
+  - year: '2023'
+    text: Texas price spikes make big batteries pay
+    impact: 1.5
+  - year: '2023'
+    text: Australia tender guarantees battery revenue
+    impact: 1
+  - year: '2024'
+    text: Batteries lead California's evening supply
+    impact: 1.5
+  - year: '2024'
+    text: Chinese cell glut cuts system prices 40%
+    impact: 2
+  - year: '2025'
+    text: Moss Landing fire drives safer designs
+    impact: 0.5
+  - year: '2025'
+    text: Tesla opens Shanghai Megapack factory
+    impact: 0.5
+  - year: '2025'
+    text: Iberian blackout sparks Spanish battery rush
+    impact: 1.5
+  - year: '2025'
+    text: China targets 180 GW storage by 2027
+    impact: 2.5
+  - year: '2025'
+    text: US rules reward batteries free of China
+    impact: 1
+  - year: '2025'
+    text: US budget law keeps storage credits
+    impact: 1.5
+  - year: '2026'
+    text: Data centers drive record US quarter
+    impact: 2
+  - year: '2026'
+    text: Spain's battery fleet grows almost sevenfold
+    impact: 1
+  note:
+  - We kept the events we believe pushed grid battery storage forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: grid-battery-storage
+  title: 'Where did grid battery investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of grid battery storage startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in grid battery storage?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-00.png
+    x: 271.5
+    y: 283.1
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-01.png
+    x: 361.1
+    y: 266.1
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-02.png
+    x: 503.8
+    y: 274.3
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-03.png
+    x: 818.4
+    y: 281.6
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-04.png
+    x: 562.9
+    y: 286.7
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-05.png
+    x: 695.8
+    y: 294.0
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-06.png
+    x: 483.4
+    y: 371.6
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-07.png
+    x: 799.5
+    y: 372.9
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-08.png
+    x: 314.8
+    y: 387.4
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-09.png
+    x: 383.6
+    y: 382.7
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-10.png
+    x: 607.9
+    y: 387.4
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-11.png
+    x: 739.1
+    y: 397.3
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-12.png
+    x: 554.1
+    y: 408.9
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-13.png
+    x: 560.8
+    y: 478.3
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-14.png
+    x: 282.2
+    y: 513.0
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-15.png
+    x: 350.1
+    y: 502.3
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-16.png
+    x: 469.5
+    y: 507.4
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-17.png
+    x: 703.5
+    y: 499.7
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s10-18.png
+    x: 817.9
+    y: 504.6
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Long duration
+  - Developers
+  - Trading & EMS
+  note:
+  - We left out listed companies and incumbents like Tesla, Fluence and Wartsila
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these grid battery
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Backer|pulled out
+  - No buyer|found
+  - Assets|sold off
+  rows:
+  - name: Powin
+    ending: Went bankrupt
+    start: '1989'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/grid-battery-storage/s11-00.png
+    ini: P
+    slug: powin
+    domain: powin.com
+  - name: Ambri
+    ending: Went bankrupt
+    start: '2010'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/grid-battery-storage/s11-01.png
+    ini: A
+    slug: ambri
+    domain: ambri.com
+  - name: Redflow
+    ending: Went bankrupt
+    start: '2005'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/grid-battery-storage/s11-02.png
+    ini: R
+    slug: redflow
+    domain: redflow.com
+  - name: Natron
+    ending: Shut down
+    start: '2012'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/grid-battery-storage/s11-03.png
+    ini: N
+    slug: natron-energy
+    domain: natron.energy
+  - name: Moxion
+    ending: Went bankrupt
+    start: '2020'
+    end: '2023'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/grid-battery-storage/s11-04.png
+    ini: M
+    slug: moxion
+    domain: moxionpower.com
+  note:
+  - We tracked the grid battery storage startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Sungrow winning
+
+    Europe''s grid battery market?'
+  companies:
+  - short: Sungrow
+    src: ../../assets/logos/pp_live/grid-battery-storage/s12-00.png
+  - short: BYD
+    src: ../../assets/logos/pp_live/grid-battery-storage/s12-01.png
+  - short: Huawei
+    src: ../../assets/logos/pp_live/grid-battery-storage/s12-02.png
+  - short: Tesla
+    src: ../../assets/logos/pp_live/grid-battery-storage/s12-03.png
+  - short: Fluence
+    src: ../../assets/logos/pp_live/grid-battery-storage/s12-04.png
+  - short: Wartsila
+    src: ../../assets/logos/pp_live/grid-battery-storage/s12-05.png
+  criteria:
+  - name: No.1 integrator in Europe
+    why: Top Wood Mackenzie rank 2025
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Top 3 in Europe in 2025
+    why: Strong local market share
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Top 3 global integrator
+    why: Scale lowers unit costs
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Top solar inverter maker
+    why: Own power electronics know how
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Storage is main revenue
+    why: Full focus on batteries
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Own trading software
+    why: Earns more from each battery
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: 5 MWh+ liquid cooled block
+    why: Fewer units per project
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the grid battery market?'
+  TL:
+    name: CATL
+    src: ../../assets/logos/pp_live/grid-battery-storage/s01-00.png
+    text: makes the cells inside many grid batteries, but storage was under 15% of its 2025 revenue, far behind car batteries
+  TR:
+    name: Hydrostor
+    src: ../../assets/logos/pp_live/grid-battery-storage/s01-02.png
+    text: stores power for the grid as compressed air in underground ; caverns, so with no battery involved it falls outside
+  BL:
+    name: SUnGTovaecel
+    src: ../../assets/logos/pp_live/grid-battery-storage/s01-09.png
+    text: eiemenneclan . inverters, but energy storage became its largest business in 2025, at nearly é 42% of its revenue
+  BR:
+    name: Wartsila
+    src: ../../assets/logos/pp_live/grid-battery-storage/s01-10.png
+    text: integrates grid batteries around the world, but its marine and ‘ i" nmiaers BeWWEL [ALGI Guug tines Sill) eLtlagg in else 80% of its sales
+  caption:
+  - Distance to the center reflects how much of the business is batteries storing power for the grid, not for cars or homes
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/grid-battery-storage/s01-01.png
+  - ../../assets/logos/pp_live/grid-battery-storage/s01-03.png
+  - ../../assets/logos/pp_live/grid-battery-storage/s01-04.png
+  - ../../assets/logos/pp_live/grid-battery-storage/s01-05.png
+  - ../../assets/logos/pp_live/grid-battery-storage/s01-06.png
+  - ../../assets/logos/pp_live/grid-battery-storage/s01-07.png
+  - ../../assets/logos/pp_live/grid-battery-storage/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s01-04.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s01-05.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s01-06.png
+    x: 445.1
+    y: 394.9
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s01-07.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/grid-battery-storage/s01-08.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'The term grid battery storage appears
+
+    more and more in Google searches'
+  date: 0 Lately.
+  expl: Solar and wind produce power when the grid does not need it. Huge battery parks store that energy for the evening, and more of them are being built,
+    which put grid battery storage on more people’s radar.
+  term: grid battery storage
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/grid-battery-storage/grid-battery-storage.csv
+ed052p:
+  type: pp_cagr
+  title: 'What growth can the grid battery
+
+    market realistically expect?'
+  lead: ''
+  condition: To hit this growth, batteries must win long contracts from utilities, grid operators, and data centers, so that owners stop depending on swinging
+    power prices. Grids must also connect new sites faster, and supply must stay open despite tariffs and the US rules on Chinese parts.
+  note:
+  - We compared forecasts from Grand View, MarketsandMarkets, Global Market Insights and BloombergNEF
+  - We allowed for falling prices per kwh to build a realistic range, with all the sources at the end of the report
+  size: 48
+  cagr: 12
+  y0: 2026

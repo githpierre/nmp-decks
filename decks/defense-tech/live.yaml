@@ -1,0 +1,520 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would defense tech
+
+    customers actually pay to solve?'
+  auds:
+  - Army units
+  - Navy fleets
+  - Procurement teams
+  - Allied armies
+  - Defense primes
+  pains:
+  - - They need far more cheap drones and missiles than factories make
+    - - 3
+      - 3
+      - 1
+      - 3
+      - 2
+  - - They wait years between a working prototype and a real contract
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They struggle to plug new startup systems into old platforms
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They lose comms and GPS when the enemy jams the battlefield
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 1
+  - - They depend on a few big primes that deliver late and over budget
+    - - 2
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They rely on parts from China for motors, batteries and magnets
+    - - 1
+      - 1
+      - 2
+      - 3
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which defense tech player has
+
+    the most complete tech today?'
+  companies:
+  - name: Anduril
+    src: ../../assets/logos/pp_live/defense-tech/s05-00.png
+  - name: Helsing
+    src: ../../assets/logos/pp_live/defense-tech/s05-01.png
+  - name: Shield AI
+    src: ../../assets/logos/pp_live/defense-tech/s05-02.png
+  - name: Saronic
+    src: ../../assets/logos/pp_live/defense-tech/s05-03.png
+  - name: Skydio
+    src: ../../assets/logos/pp_live/defense-tech/s05-04.png
+  features:
+  - header: Air|drones
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Sea|drones
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Combat|jet
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Counter|drone
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Electronic|warfare
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Cruise|missiles
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Autonomy|for others
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    defense tech down?'
+  events:
+  - odds: 40
+    impact: 2
+    text: Software Acquisition Pathway reforms stall, so startups wait years to move from pilots to programs of record
+  - odds: 35
+    impact: 3
+    text: Congress passes another full year continuing resolution, freezing new Pentagon programs for drones and autonomy
+  - odds: 35
+    impact: 2
+    text: Lockheed, RTX and Northrop copy startup pricing and win most drone and counter-drone contracts
+  - odds: 30
+    impact: 2
+    text: China restricts rare earth and gallium exports further, halting motor and sensor supply for drone makers
+  - odds: 25
+    impact: 2
+    text: A peace deal in Ukraine cools European demand for drones and munitions from startups like Helsing
+  - odds: 20
+    impact: 1
+    text: Engineers at Google, Microsoft and startups protest military AI work, making hiring harder for defense startups
+  - odds: 15
+    impact: 3
+    text: Defense tech valuations crash after Anduril or a peer misses delivery targets, freezing late stage rounds
+  - odds: 8
+    impact: 3
+    text: An autonomous weapon misfires and kills civilians, prompting UN pressure and new US autonomy limits
+  note:
+  - We listed the events that could slow defense tech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed defense tech
+
+    forward, year after year?'
+  events:
+  - year: '2005'
+    text: CIA's In-Q-Tel backs Palantir early
+    impact: 1
+  - year: '2008'
+    text: SpaceX wins NASA cargo, startups beat primes
+    impact: 1.5
+  - year: '2014'
+    text: Russia seizes Crimea, Europe rethinks defense
+    impact: 1
+  - year: '2015'
+    text: DIUx opens to buy Silicon Valley tech
+    impact: 1.5
+  - year: '2015'
+    text: Permanent OTA deals make contracts faster
+    impact: 1.5
+  - year: '2016'
+    text: Palantir sues Army, wins right to compete
+    impact: 2
+  - year: '2017'
+    text: Project Maven puts AI on drone footage
+    impact: 1.5
+  - year: '2018'
+    text: Google quits Maven, startups step in
+    impact: 1.5
+  - year: '2018'
+    text: China pivot sends Pentagon hunting new tech
+    impact: 1
+  - year: '2020'
+    text: Azerbaijan drones crush tanks in Karabakh
+    impact: 2
+  - year: '2020'
+    text: Palantir IPO proves defense software scales
+    impact: 2
+  - year: '2022'
+    text: Ukraine war proves cheap drones win
+    impact: 3
+  - year: '2022'
+    text: Germany sets 100 billion euro rearm fund
+    impact: 2
+  - year: '2023'
+    text: Ukraine's Brave1 funds drone startups
+    impact: 1
+  - year: '2023'
+    text: Replicator orders thousands of cheap drones
+    impact: 2
+  - year: '2024'
+    text: Houthi drones make cheap defenses urgent
+    impact: 1.5
+  - year: '2024'
+    text: Anduril beats big primes for CCA drones
+    impact: 2.5
+  - year: '2024'
+    text: Army expands Palantir Maven AI deal
+    impact: 1.5
+  - year: '2025'
+    text: Golden Dome opens a huge missile budget
+    impact: 2
+  - year: '2025'
+    text: Anduril plans Arsenal-1 mass factory
+    impact: 1.5
+  - year: '2025'
+    text: Microsoft hands Army headsets to Anduril
+    impact: 1.5
+  - year: '2025'
+    text: Germany frees defense from its debt brake
+    impact: 2
+  - year: '2025'
+    text: ReArm Europe offers 150 billion euro loans
+    impact: 2
+  - year: '2025'
+    text: Spiderweb drones destroy Russian bombers
+    impact: 1.5
+  - year: '2025'
+    text: NATO pledges 5% of GDP for defense
+    impact: 2.5
+  - year: '2025'
+    text: Hegseth memo orders units to buy drones
+    impact: 2
+  - year: '2025'
+    text: Army signs $10B enterprise deal with Palantir
+    impact: 1.5
+  - year: '2025'
+    text: Drones over Poland spur EU drone walls
+    impact: 1.5
+  - year: '2026'
+    text: Trump seeks $1.5 trillion defense budget
+    impact: 2
+  - year: '2026'
+    text: Iran war drains Patriot missile stocks
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed defense tech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: defense-tech
+  title: 'Where did defense tech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of defense tech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the defense tech market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/defense-tech/s10-00.png
+    x: 376.7
+    y: 277.1
+  - src: ../../assets/logos/pp_live/defense-tech/s10-01.png
+    x: 700.7
+    y: 266.1
+  - src: ../../assets/logos/pp_live/defense-tech/s10-02.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/defense-tech/s10-03.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/defense-tech/s10-04.png
+    x: 309.4
+    y: 301.7
+  - src: ../../assets/logos/pp_live/defense-tech/s10-05.png
+    x: 489.6
+    y: 289.7
+  - src: ../../assets/logos/pp_live/defense-tech/s10-06.png
+    x: 648.0
+    y: 301.3
+  - src: ../../assets/logos/pp_live/defense-tech/s10-07.png
+    x: 753.4
+    y: 287.4
+  - src: ../../assets/logos/pp_live/defense-tech/s10-08.png
+    x: 803.1
+    y: 309.0
+  - src: ../../assets/logos/pp_live/defense-tech/s10-09.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/defense-tech/s10-10.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/defense-tech/s10-11.png
+    x: 195.0
+    y: 404.1
+  - src: ../../assets/logos/pp_live/defense-tech/s10-12.png
+    x: 264.4
+    y: 389.1
+  - src: ../../assets/logos/pp_live/defense-tech/s10-13.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/defense-tech/s10-14.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/defense-tech/s10-15.png
+    x: 328.3
+    y: 407.4
+  - src: ../../assets/logos/pp_live/defense-tech/s10-16.png
+    x: 780.9
+    y: 412.7
+  - src: ../../assets/logos/pp_live/defense-tech/s10-17.png
+    x: 432.4
+    y: 477.4
+  - src: ../../assets/logos/pp_live/defense-tech/s10-18.png
+    x: 568.3
+    y: 476.6
+  - src: ../../assets/logos/pp_live/defense-tech/s10-19.png
+    x: 711.9
+    y: 475.1
+  - src: ../../assets/logos/pp_live/defense-tech/s10-20.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/defense-tech/s10-21.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/defense-tech/s10-22.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/defense-tech/s10-23.png
+    x: 511.7
+    y: 499.9
+  - src: ../../assets/logos/pp_live/defense-tech/s10-24.png
+    x: 655.3
+    y: 510.6
+  cols:
+  - Edge
+  - Network
+  - Orbit
+  rows:
+  - Platforms
+  - Payloads & effects
+  - Software & data
+  note:
+  - We placed defense tech companies with confirmed funding or contracts by their main focus
+  - This is not a full list, and you will find all the sources we used at the end of the report
+ed209p:
+  title: 'Why is Anduril winning
+
+    the defense tech market?'
+  companies:
+  - short: Anduril
+    src: ../../assets/logos/pp_live/defense-tech/s12-00.png
+  - short: Helsing
+    src: ../../assets/logos/pp_live/defense-tech/s12-01.png
+  - short: Shield AI
+    src: ../../assets/logos/pp_live/defense-tech/s12-02.png
+  - short: Saronic
+    src: ../../assets/logos/pp_live/defense-tech/s12-03.png
+  - short: Skydio
+    src: ../../assets/logos/pp_live/defense-tech/s12-04.png
+  criteria:
+  - name: $2B+ yearly revenue
+    why: Revenue doubled in 2025
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Won USAF CCA program
+    why: Fury picked as drone wingman
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Air, land, sea and space
+    why: One vendor for every domain
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Own AI autonomy software
+    why: Same brain on every system
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Own mass production plant
+    why: Arsenal-1 cuts unit costs
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Fielded in Ukraine
+    why: Proven in real combat
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Valued above $5B
+    why: Capital to build at scale
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'At what pace will
+
+    liquid biopsy grow?'
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/defense-tech/s01-00.png
+    text: routine
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/defense-tech/s01-02.png
+    text: $27B $24B
+  BL:
+    name: 2027 2028
+    src: ../../assets/logos/pp_live/defense-tech/s01-10.png
+    text: ''
+  BR:
+    name: 2034 2035 2036
+    src: ../../assets/logos/pp_live/defense-tech/s01-11.png
+    text: ''
+  caption:
+  - We compared forecasts from Towards Healthcare, Precedence, 360iResearch and BCC Research
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  inside:
+  - ../../assets/logos/pp_live/defense-tech/s01-01.png
+  - ../../assets/logos/pp_live/defense-tech/s01-03.png
+  - ../../assets/logos/pp_live/defense-tech/s01-04.png
+  - ../../assets/logos/pp_live/defense-tech/s01-05.png
+  - ../../assets/logos/pp_live/defense-tech/s01-06.png
+  - ../../assets/logos/pp_live/defense-tech/s01-07.png
+  - ../../assets/logos/pp_live/defense-tech/s01-08.png
+  - ../../assets/logos/pp_live/defense-tech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/defense-tech/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/defense-tech/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/defense-tech/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/defense-tech/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/defense-tech/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/defense-tech/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/defense-tech/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/defense-tech/s01-09.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people search
+
+    defense tech online, as Europe rearms'
+  date: Over the past year.
+  expl: Defense startups were all over the news. Europe promised to spend far more on its armies, cheap drones were reshaping the war in Ukraine, and companies
+    like Anduril and Helsing raised record rounds. Defense stopped being taboo for tech, and people wanted to understand why.
+  term: defense tech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/defense-tech/defense-tech.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for defense tech to grow?'
+  lead: 'To fill that room, '
+  condition: NATO allies must keep their 5% pledge, and the US must turn its drone and missile requests into funded programs. Suppliers must also rebuild
+    factories and supply chains fast enough to deliver what budgets now promise.
+  note:
+  - We compared spending trends from SIPRI, Global X and the European Defence Agency
+  - We adjusted each one to our definition, and all our sources are at the end of the report
+  size: 800
+  cagr: 5
+  y0: 2026

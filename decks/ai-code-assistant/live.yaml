@@ -1,0 +1,514 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI coding
+
+    customers actually pay to solve?'
+  auds:
+  - Software firms
+  - Large banks
+  - Startup teams
+  - Solo developers
+  - IT integrators
+  pains:
+  - - They spend time reviewing AI code that looks right but has bugs
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They see the assistant lose track of large and old codebases
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 3
+  - - They pay rising bills as usage-based pricing grows each month
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They struggle to measure whether the tools really speed teams up
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 2
+  - - They worry about leaking private code to an outside AI model
+    - - 2
+      - 3
+      - 1
+      - 1
+      - 2
+  - - They must switch tools often as new coding models keep coming out
+    - - 1
+      - 1
+      - 3
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI coding tool has the
+
+    most complete tech today?'
+  companies:
+  - name: Cursor
+    src: ../../assets/logos/pp_live/ai-code-assistant/s05-00.png
+  - name: Copilot
+    src: ../../assets/logos/pp_live/ai-code-assistant/s05-01.png
+  - name: Devin
+    src: ../../assets/logos/pp_live/ai-code-assistant/s05-02.png
+  - name: Claude Code
+    src: ../../assets/logos/pp_live/ai-code-assistant/s05-03.png
+  - name: Codex
+    src: ../../assets/logos/pp_live/ai-code-assistant/s05-04.png
+  - name: Antigravity
+    src: ../../assets/logos/pp_live/ai-code-assistant/s05-05.png
+  features:
+  - header: Own|IDE
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Model|choice
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Own code|hosting
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Cloud|agents
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Frontier|AI lab
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Security|scanner
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Mobile|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong for
+
+    AI coding assistants?'
+  events:
+  - odds: 50
+    impact: 3
+    text: Anthropic, OpenAI and Google sell their own coding agents directly and squeeze tools like Cursor and Cognition
+  - odds: 40
+    impact: 2
+    text: GitHub Copilot bundles agents into Microsoft enterprise deals and wins large companies on price
+  - odds: 35
+    impact: 3
+    text: Model costs rise with heavy agent use and coding startups see gross margins fall below 20 percent
+  - odds: 35
+    impact: 2
+    text: Open source models like DeepSeek and Qwen match paid tools and drive prices toward zero
+  - odds: 30
+    impact: 1
+    text: Developer seat counts shrink as tech layoffs continue, reducing the number of paying users per firm
+  - odds: 20
+    impact: 2
+    text: Studies show AI agents slow senior engineers down and CTOs cut spending on coding tools
+  - odds: 15
+    impact: 3
+    text: An AI generated code flaw causes a major breach and companies restrict agents in production
+  - odds: 8
+    impact: 2
+    text: Courts rule that training on open source code breaks licenses, forcing costly model retraining
+  note:
+  - We listed the events that could slow ai code assistant down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI code assistants
+
+    forward, year after year?'
+  events:
+  - year: '2017'
+    text: Transformer paper opens path to code models
+    impact: 1.5
+  - year: '2018'
+    text: Tabnine proves AI autocomplete helps coders
+    impact: 0.5
+  - year: '2019'
+    text: Microsoft's $1B gives OpenAI room to scale
+    impact: 1
+  - year: '2020'
+    text: GPT-3 shows big models can write code
+    impact: 1.5
+  - year: '2021'
+    text: Copilot preview puts AI inside the editor
+    impact: 2.5
+  - year: '2021'
+    text: Codex API lets startups build code tools
+    impact: 1.5
+  - year: '2022'
+    text: Copilot goes paid, proving devs will pay
+    impact: 2
+  - year: '2022'
+    text: Amazon CodeWhisperer shows giants want in
+    impact: 1
+  - year: '2022'
+    text: Copilot lawsuit makes firms want legal cover
+    impact: 0.5
+  - year: '2022'
+    text: ChatGPT makes every coder try AI help
+    impact: 3
+  - year: '2023'
+    text: GPT-4 writes far better code than before
+    impact: 2.5
+  - year: '2023'
+    text: Copilot adds chat, moving past autocomplete
+    impact: 1.5
+  - year: '2023'
+    text: Layoffs make firms chase output per engineer
+    impact: 1
+  - year: '2023'
+    text: Free Code Llama cuts tool model costs
+    impact: 1
+  - year: '2023'
+    text: Microsoft covers Copilot IP risk for clients
+    impact: 1
+  - year: '2024'
+    text: Devin demo sparks race for coding agents
+    impact: 1.5
+  - year: '2024'
+    text: Claude 3.5 Sonnet sets new coding bar
+    impact: 2
+  - year: '2024'
+    text: Developers flock to Cursor, raising $60M
+    impact: 2
+  - year: '2024'
+    text: OpenAI o1 shows reasoning helps hard code
+    impact: 1
+  - year: '2024'
+    text: Copilot adds rival models, buyers get choice
+    impact: 1
+  - year: '2024'
+    text: Free Copilot tier brings in millions more
+    impact: 1
+  - year: '2025'
+    text: DeepSeek R1 slashes cost of reasoning models
+    impact: 1
+  - year: '2025'
+    text: Karpathy coins vibe coding, non-coders join
+    impact: 1.5
+  - year: '2025'
+    text: Claude Code moves agents into the terminal
+    impact: 2.5
+  - year: '2025'
+    text: Shopify CEO makes AI use mandatory
+    impact: 1
+  - year: '2025'
+    text: Codex and Copilot agents open pull requests
+    impact: 2
+  - year: '2025'
+    text: Replit database wipe pushes safer agent tools
+    impact: 0.5
+  - year: '2025'
+    text: GPT-5 lifts coding agents for every vendor
+    impact: 1.5
+  - year: '2025'
+    text: Claude Code hits $1B, proving agents sell
+    impact: 2
+  - year: '2026'
+    text: Cursor tops $2B ARR, showing firms buy
+    impact: 2
+  note:
+  - We kept the events we believe pushed ai code assistant forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-code-assistant
+  title: 'Where did AI coding investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai code assistant startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the AI code assistant market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-00.png
+    x: 296.6
+    y: 270.6
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-01.png
+    x: 657.0
+    y: 264.9
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-02.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-03.png
+    x: 789.0
+    y: 261.0
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-04.png
+    x: 190.1
+    y: 290.1
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-05.png
+    x: 243.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-06.png
+    x: 350.4
+    y: 285.0
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-07.png
+    x: 444.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-08.png
+    x: 528.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-09.png
+    x: 540.0
+    y: 373.3
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-10.png
+    x: 240.0
+    y: 381.4
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-11.png
+    x: 417.4
+    y: 376.3
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-12.png
+    x: 481.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-13.png
+    x: 688.3
+    y: 386.1
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-14.png
+    x: 289.3
+    y: 492.9
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-15.png
+    x: 478.7
+    y: 483.2
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-16.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-17.png
+    x: 801.4
+    y: 480.0
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-18.png
+    x: 544.3
+    y: 504.6
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s10-19.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Autocomplete-first
+  - Chat / Refactor-first
+  - Agentic multi-file
+  rows:
+  - Individual-first
+  - Team-first
+  - Enterprise-first
+  note:
+  - We placed coding tools with funding or traction by their main buyer and workflow
+  - We left out code review and security tools, with all the sources at the end of the report
+ed209p:
+  title: 'Why is Cursor winning the
+
+    AI code editor market?'
+  companies:
+  - short: Cursor
+    src: ../../assets/logos/pp_live/ai-code-assistant/s12-00.png
+  - short: Copilot
+    src: ../../assets/logos/pp_live/ai-code-assistant/s12-01.png
+  - short: Windsurf
+    src: ../../assets/logos/pp_live/ai-code-assistant/s12-02.png
+  - short: Antigravity
+    src: ../../assets/logos/pp_live/ai-code-assistant/s12-03.png
+  - short: Kiro
+    src: ../../assets/logos/pp_live/ai-code-assistant/s12-04.png
+  - short: Zed
+    src: ../../assets/logos/pp_live/ai-code-assistant/s12-05.png
+  criteria:
+  - name: $4B+ revenue run rate
+    why: Most revenue of any AI IDE
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: In-house agent model
+    why: Composer cuts cost and lag
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Huge compute behind it
+    why: SpaceX Colossus to train
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Built on VS Code
+    why: No switching cost for devs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Picks any frontier model
+    why: Best model for each task
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: AI pull request review
+    why: Bugbot catches bugs early
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in AI code assistants?'
+  TL:
+    name: JetBrains
+    src: ../../assets/logos/pp_live/ai-code-assistant/s01-00.png
+    text: sells its own Al Assistant and Junie agent, but its core business is the IDE itself, which sits outside this market
+  TR:
+    name: CodeRabbit
+    src: ../../assets/logos/pp_live/ai-code-assistant/s01-02.png
+    text: reviews pull requests with AI once the code is written, so it works after the editor rather than inside it
+  BL:
+    name: Qodo
+    src: ../../assets/logos/pp_live/ai-code-assistant/s01-10.png
+    text: started as an IDE plugin that writes tests, then moved its focus to AI code review, so it now sits on the line
+  BR:
+    name: GitHub
+    src: ../../assets/logos/pp_live/ai-code-assistant/s01-11.png
+    text: sells Copilot, the most widely used code assistant, yet it remains first a code hosting and collaboration platform
+  caption:
+  - Distance to the center reflects how much a product helps developers write and change code interactively inside their editor
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-code-assistant/s01-01.png
+  - ../../assets/logos/pp_live/ai-code-assistant/s01-03.png
+  - ../../assets/logos/pp_live/ai-code-assistant/s01-04.png
+  - ../../assets/logos/pp_live/ai-code-assistant/s01-05.png
+  - ../../assets/logos/pp_live/ai-code-assistant/s01-06.png
+  - ../../assets/logos/pp_live/ai-code-assistant/s01-07.png
+  - ../../assets/logos/pp_live/ai-code-assistant/s01-08.png
+  - ../../assets/logos/pp_live/ai-code-assistant/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/ai-code-assistant/s01-09.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people with no coding
+
+    skills look for an AI code assistant'
+  date: Lately.
+  expl: Coding with AI went from a developer trick to a mass habit. Cursor, Claude Code and GitHub Copilot became daily tools, “vibe coding” went viral,
+    and people with no coding skills started building apps. Searches for AI code assistants took off.
+  term: ai code assistant
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-code-assistant/ai-code-assistant.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    AI code assistants get?'
+  lead: ''
+  condition: To get that big, the market must turn agents into trusted teammates that finish real tasks, and prove clear productivity gains to large buyers.
+    It must also keep margins healthy as prices fall, and bring AI coding to millions of non-developers who build their own software.
+  note:
+  - We compared forecasts from Grand View, MarketsandMarkets, Market.us and Astute Analytica
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 10
+  cagr: 25
+  y0: 2026

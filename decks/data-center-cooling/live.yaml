@@ -1,0 +1,534 @@
+ed058:
+  type: pp_pains
+  title: 'Which data center cooling
+
+    problems are still unsolved?'
+  auds:
+  - Colocation firms
+  - Cloud giants
+  - Enterprise IT
+  - GPU clouds
+  - Site builders
+  pains:
+  - - They sell a near commodity against Vertiv, Stulz and Schneider
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 3
+  - - They must cut fan power to hit very low PUE targets in new halls
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 2
+  - - They depend on construction schedules they do not control
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 3
+  - - They must handle the leftover heat that liquid-cooled racks leave
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 2
+  - - They see liquid cooling take over every new AI hall being built
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 2
+  - - They pay heavy tariffs on the steel and copper they need
+    - - 2
+      - 2
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which cooling firm offers
+
+    the most complete tech today?'
+  companies:
+  - name: Vertiv
+    src: ../../assets/logos/pp_live/data-center-cooling/s05-00.png
+  - name: Schneider
+    src: ../../assets/logos/pp_live/data-center-cooling/s05-01.png
+  - name: Rittal
+    src: ../../assets/logos/pp_live/data-center-cooling/s05-02.png
+  - name: Trane
+    src: ../../assets/logos/pp_live/data-center-cooling/s05-03.png
+  - name: CoolIT
+    src: ../../assets/logos/pp_live/data-center-cooling/s05-04.png
+  - name: Submer
+    src: ../../assets/logos/pp_live/data-center-cooling/s05-05.png
+  features:
+  - header: Own cold|plates
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Coolant|units
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Immersion|tanks
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Rear-door|coolers
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own|chillers
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: UPS|power
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Prefab|modules
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong for
+
+    data center cooling?'
+  events:
+  - odds: 35
+    impact: 2
+    text: Nvidia chips that run warm let operators drop chillers, shrinking a large part of the cooling market
+  - odds: 25
+    impact: 3
+    text: Hyperscalers design their own cooling units through the Open Compute Project and buy fewer branded systems
+  - odds: 25
+    impact: 3
+    text: AI demand slows and data center overcapacity hits, cutting cooling orders and halving Vertiv's stock
+  - odds: 20
+    impact: 2
+    text: Schneider, Vertiv and other incumbents buy the remaining liquid cooling startups, leaving few independent players
+  - odds: 15
+    impact: 1
+    text: More cities like Tucson and Amsterdam ban water-hungry data centers, cutting demand for evaporative cooling
+  - odds: 12
+    impact: 2
+    text: The EU bans PFAS chemicals without exemptions, forcing two-phase cooling vendors to change their fluids
+  - odds: 8
+    impact: 2
+    text: Nvidia's next racks run too hot for current cold plates, forcing costly cooling redesigns for vendors
+  - odds: 5
+    impact: 1
+    text: A liquid cooling leak destroys a rack of GPUs and operators slow their switch to liquid cooling
+  note:
+  - We listed the events that could slow data center cooling down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept data center cooling
+
+    moving forward, year after year?'
+  events:
+  - year: '1965'
+    text: Liebert builds the first computer room AC
+    impact: 1
+  - year: '1992'
+    text: IBM invents hot and cold aisle layouts
+    impact: 1
+  - year: '2004'
+    text: ASHRAE sets first data center heat rules
+    impact: 1
+  - year: '2007'
+    text: EPA report flags soaring data center power
+    impact: 1.5
+  - year: '2007'
+    text: Green Grid creates the PUE efficiency score
+    impact: 1.5
+  - year: '2009'
+    text: Google shows outside air can cool servers
+    impact: 1
+  - year: '2011'
+    text: ASHRAE widens allowed server temperatures
+    impact: 1
+  - year: '2011'
+    text: Facebook shares its efficient cooling designs
+    impact: 1
+  - year: '2016'
+    text: DeepMind AI cuts Google cooling energy 40%
+    impact: 1.5
+  - year: '2017'
+    text: Bitcoin boom popularizes immersion cooling
+    impact: 1
+  - year: '2018'
+    text: Google TPU v3 moves to liquid cooling
+    impact: 1.5
+  - year: '2020'
+    text: Covid boosts cloud demand and new builds
+    impact: 1
+  - year: '2021'
+    text: Microsoft tests two phase immersion tanks
+    impact: 1
+  - year: '2022'
+    text: Singapore lifts pause, demands low PUE
+    impact: 1
+  - year: '2022'
+    text: Heat wave knocks out London data centers
+    impact: 1
+  - year: '2022'
+    text: Meta halts builds to redesign for AI
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT sparks a rush for hot chips
+    impact: 2.5
+  - year: '2023'
+    text: H100 racks push air cooling to limits
+    impact: 1.5
+  - year: '2023'
+    text: Vertiv buys CoolTera for liquid cooling
+    impact: 1
+  - year: '2023'
+    text: Equinix offers liquid cooling in 100 sites
+    impact: 1
+  - year: '2024'
+    text: Nvidia GB200 NVL72 needs liquid cooling
+    impact: 3
+  - year: '2024'
+    text: xAI liquid cools 100,000 GPUs in Memphis
+    impact: 1.5
+  - year: '2024'
+    text: EU makes data centers report energy use
+    impact: 1
+  - year: '2024'
+    text: Schneider buys Motivair for $850M
+    impact: 1.5
+  - year: '2024'
+    text: Microsoft designs zero water cooling sites
+    impact: 1
+  - year: '2025'
+    text: Stargate Abilene runs liquid cooled GB200s
+    impact: 1.5
+  - year: '2025'
+    text: Microsoft tests cooling channels inside chips
+    impact: 1
+  - year: '2025'
+    text: Eaton buys Boyd Thermal for $9.5B
+    impact: 2.5
+  - year: '2026'
+    text: Nvidia Rubin runs on 45C warm water
+    impact: 2
+  - year: '2026'
+    text: Meta signs 6.6GW of nuclear for AI
+    impact: 1
+  note:
+  - We kept the events we believe pushed data center cooling forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: data-center-cooling
+  title: 'Where did data center cooling investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of data center cooling startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in data center cooling?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-00.png
+    x: 256.5
+    y: 274.3
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-01.png
+    x: 389.1
+    y: 271.7
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-02.png
+    x: 485.4
+    y: 267.0
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-03.png
+    x: 540.9
+    y: 283.1
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-04.png
+    x: 598.1
+    y: 276.4
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-05.png
+    x: 738.9
+    y: 282.4
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-06.png
+    x: 322.5
+    y: 291.4
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-07.png
+    x: 677.4
+    y: 285.0
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-08.png
+    x: 812.8
+    y: 286.7
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-09.png
+    x: 262.3
+    y: 388.9
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-10.png
+    x: 327.9
+    y: 396.0
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-11.png
+    x: 387.6
+    y: 386.6
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-12.png
+    x: 463.1
+    y: 391.3
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-13.png
+    x: 522.0
+    y: 396.9
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-14.png
+    x: 604.9
+    y: 384.6
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-15.png
+    x: 685.9
+    y: 382.3
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-16.png
+    x: 804.0
+    y: 382.3
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-17.png
+    x: 738.6
+    y: 407.1
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-18.png
+    x: 342.6
+    y: 492.4
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-19.png
+    x: 395.4
+    y: 474.0
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-20.png
+    x: 606.4
+    y: 483.0
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-21.png
+    x: 676.9
+    y: 491.4
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-22.png
+    x: 815.1
+    y: 487.7
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-23.png
+    x: 286.5
+    y: 511.3
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-24.png
+    x: 476.6
+    y: 498.0
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-25.png
+    x: 548.8
+    y: 512.1
+  - src: ../../assets/logos/pp_live/data-center-cooling/s10-26.png
+    x: 736.1
+    y: 500.6
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Direct-to-chip
+  - Immersion
+  - Parts & software
+  note:
+  - We left out listed vendors, hyperscalers and acquired startups like Vertiv, CoolIT and Motivair
+  - We placed each one by its main product, and all our sources are listed at the end of the report
+ed209p:
+  title: 'Why is Vertiv winning
+
+    the AI cooling market?'
+  companies:
+  - short: Vertiv
+    src: ../../assets/logos/pp_live/data-center-cooling/s12-00.png
+  - short: Schneider
+    src: ../../assets/logos/pp_live/data-center-cooling/s12-01.png
+  - short: nVent
+    src: ../../assets/logos/pp_live/data-center-cooling/s12-02.png
+  - short: CoolIT
+    src: ../../assets/logos/pp_live/data-center-cooling/s12-03.png
+  - short: LiquidStack
+    src: ../../assets/logos/pp_live/data-center-cooling/s12-04.png
+  criteria:
+  - name: $15B order backlog
+    why: Years of AI demand locked in
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Nvidia reference designs
+    why: Built into AI factory plans
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Power and cooling in one
+    why: One vendor for the whole rack
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Prefab modular units
+    why: Faster data center builds
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Publicly listed
+    why: Cash to scale factories
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Direct to chip CDUs
+    why: Cools the hottest GPUs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Two phase immersion
+    why: Extreme heat per rack
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Who Is in data center cooling,
+
+    and who is not part of it?'
+  TL:
+    name: Trane Technologies
+    src: ../../assets/logos/pp_live/data-center-cooling/s01-00.png
+    text: backs LiquidStack and sells data center chillers, but most of its sales come from heating and cooling buildings
+  TR:
+    name: Equinix
+    src: ../../assets/logos/pp_live/data-center-cooling/s01-02.png
+    text: offers liquid cooling in over 100 of its sites for AI clients, but it uses that gear to run its sites, not to sell it
+  BL:
+    name: Supermicro
+    src: ../../assets/logos/pp_live/data-center-cooling/s01-10.png
+    text: offers its own cold plates and coolant units, but it sells them inside full server racks, so cooling is a feature
+  BR:
+    name: Ecolab
+    src: ../../assets/logos/pp_live/data-center-cooling/s01-11.png
+    text: bought liquid cooling maker CoolIT Systems in July 2026, but water treatment and hygiene services remain its core business
+  caption:
+  - Distance to the center reflects how much of a business is built around removing heat from servers and other data center hardware
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/data-center-cooling/s01-01.png
+  - ../../assets/logos/pp_live/data-center-cooling/s01-03.png
+  - ../../assets/logos/pp_live/data-center-cooling/s01-04.png
+  - ../../assets/logos/pp_live/data-center-cooling/s01-05.png
+  - ../../assets/logos/pp_live/data-center-cooling/s01-06.png
+  - ../../assets/logos/pp_live/data-center-cooling/s01-07.png
+  - ../../assets/logos/pp_live/data-center-cooling/s01-08.png
+  - ../../assets/logos/pp_live/data-center-cooling/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/data-center-cooling/s01-01.png
+    x: 459.2
+    y: 279.6
+  - src: ../../assets/logos/pp_live/data-center-cooling/s01-03.png
+    x: 535.1
+    y: 331.9
+  - src: ../../assets/logos/pp_live/data-center-cooling/s01-04.png
+    x: 405.6
+    y: 364.1
+  - src: ../../assets/logos/pp_live/data-center-cooling/s01-05.png
+    x: 471.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/data-center-cooling/s01-06.png
+    x: 513.6
+    y: 399.2
+  - src: ../../assets/logos/pp_live/data-center-cooling/s01-07.png
+    x: 376.5
+    y: 418.5
+  - src: ../../assets/logos/pp_live/data-center-cooling/s01-08.png
+    x: 454.1
+    y: 411.2
+  - src: ../../assets/logos/pp_live/data-center-cooling/s01-09.png
+    x: 502.7
+    y: 461.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'People look up data center cooling
+
+    more and more, as AI chips run hot'
+  date: Recently.
+  expl: AI chips run so hot that fans are no longer enough. Nvidia’s new servers need liquid cooling, data centers started using millions of gallons of
+    water, and towns pushed back. Keeping AI cool became a headline problem, and searches kept reaching new highs.
+  term: data center cooling
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/data-center-cooling/data-center-cooling.csv
+ed052p:
+  type: pp_cagr
+  title: 'Who are the leading
+
+    companies in K-beauty?'
+  lead: ''
+  condition: 'Leaders ; Challengers :'
+  note:
+  - We left out listed companies and incumbents like COSRX, Laneige and Innisfree
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+  size: null
+  cagr: null
+  y0: null

@@ -1,0 +1,583 @@
+ed058:
+  type: pp_pains
+  title: 'What has been fixed in fintech,
+
+    and what is left to solve?'
+  auds:
+  - Online merchants
+  - Software platforms
+  - Small shops
+  - Global sellers
+  - Migrant workers
+  pains:
+  - - They pay high card fees that eat a large part of their margin
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They wait days to receive the money from each sale they make
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They lose money on hidden markups when they exchange currency
+    - - 2
+      - 1
+      - 2
+      - 3
+      - 3
+  - - They lose sales when good payments get declined by mistake
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 1
+  - - They face chargebacks and fraud that are hard to dispute
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 1
+  - - They need a different provider for each country they sell in
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which digital bank offers
+
+    the most complete tech today?'
+  companies:
+  - name: Revolut
+    src: ../../assets/logos/pp_live/fintech/s05-00.png
+  - name: N26
+    src: ../../assets/logos/pp_live/fintech/s05-01.png
+  - name: SoFi
+    src: ../../assets/logos/pp_live/fintech/s05-02.png
+  - name: Nubank
+    src: ../../assets/logos/pp_live/fintech/s05-03.png
+  - name: Monzo
+    src: ../../assets/logos/pp_live/fintech/s05-04.png
+  - name: Chime
+    src: ../../assets/logos/pp_live/fintech/s05-05.png
+  features:
+  - header: Bank|licence
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Stock|trading
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Phone|plan
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Business|accounts
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Early|salary
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Home|loans
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: In 10+|countries
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to fintech?'
+  events:
+  - odds: 45
+    impact: 2
+    text: Deepfakes and fake identities fuel a wave of instant payment fraud that hits fintech balance sheets
+  - odds: 40
+    impact: 2
+    text: Falling interest rates cut the deposit income that Robinhood, Nubank and neobanks rely on for profit
+  - odds: 35
+    impact: 2
+    text: JPMorgan and other banks copy instant transfers, slick apps and free accounts, slowing neobank growth
+  - odds: 25
+    impact: 3
+    text: A recession drives credit losses up fast at Affirm, Klarna and SoFi, cutting fintech lending revenue
+  - odds: 25
+    impact: 2
+    text: Regulators force fintechs to meet bank-like capital and compliance rules, raising costs for smaller players
+  - odds: 15
+    impact: 2
+    text: AI agents from OpenAI and Google choose financial products for users, so fintech brands lose direct customers
+  - odds: 10
+    impact: 3
+    text: A major hack at a leading fintech like Revolut or Chime drains accounts and destroys customer trust
+  - odds: 10
+    impact: 2
+    text: Partner banks exit after another Synapse-style collapse, freezing customer funds at smaller fintech apps
+  note:
+  - We listed the events that could slow fintech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed fintech
+
+    forward, year after year?'
+  events:
+  - year: '1998'
+    text: PayPal makes online payments easy for all
+    impact: 1.5
+  - year: '2002'
+    text: eBay buys PayPal, proving online payments pay
+    impact: 1
+  - year: '2004'
+    text: Alipay lets China shop online with trust
+    impact: 1.5
+  - year: '2007'
+    text: iPhone puts a bank in every pocket
+    impact: 2.5
+  - year: '2007'
+    text: M-Pesa brings mobile money to Kenya
+    impact: 1.5
+  - year: '2008'
+    text: Financial crisis erodes trust in banks
+    impact: 2
+  - year: '2009'
+    text: Square reader lets anyone take card payments
+    impact: 1.5
+  - year: '2010'
+    text: Durbin fee cap makes small banks prized
+    impact: 1
+  - year: '2011'
+    text: Stripe makes payments simple for developers
+    impact: 1.5
+  - year: '2013'
+    text: Yu'e Bao draws millions of savers online
+    impact: 1
+  - year: '2014'
+    text: Apple Pay brings tap to pay mainstream
+    impact: 1.5
+  - year: '2016'
+    text: India's UPI makes mobile payments free
+    impact: 2
+  - year: '2018'
+    text: PSD2 forces EU banks to share data
+    impact: 1.5
+  - year: '2019'
+    text: Robinhood zero fees force brokers to cut
+    impact: 1
+  - year: '2020'
+    text: Covid drives digital payments and apps
+    impact: 2.5
+  - year: '2020'
+    text: PPP loans run through fintech lenders
+    impact: 1
+  - year: '2020'
+    text: Brazil's Pix moves billions to instant pay
+    impact: 1
+  - year: '2021'
+    text: Record funding lets fintechs scale globally
+    impact: 1.5
+  - year: '2021'
+    text: Square buys Afterpay, BNPL goes mainstream
+    impact: 1.5
+  - year: '2023'
+    text: SVB collapse pushes firms to spread cash
+    impact: 1
+  - year: '2023'
+    text: FedNow launches instant payments in the US
+    impact: 1
+  - year: '2024'
+    text: Bitcoin ETFs bring crypto to mainstream funds
+    impact: 1
+  - year: '2024'
+    text: EU MiCA gives crypto firms one license
+    impact: 1
+  - year: '2024'
+    text: Synapse collapse pushes fintechs to charters
+    impact: 1
+  - year: '2024'
+    text: CFPB open banking rule frees user data
+    impact: 1.5
+  - year: '2025'
+    text: Visa and Mastercard let AI agents pay
+    impact: 1
+  - year: '2025'
+    text: Chime, Circle and Klarna IPOs reopen markets
+    impact: 1.5
+  - year: '2025'
+    text: GENIUS Act sets US stablecoin rules
+    impact: 2.5
+  - year: '2025'
+    text: OCC grants trust charters to crypto firms
+    impact: 1.5
+  - year: '2026'
+    text: OCC sets final rules for stablecoin issuers
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed fintech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: fintech
+  title: 'Where did fintech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of fintech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the leading
+
+    companies in fintech?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/fintech/s10-00.png
+    x: 251.4
+    y: 273.9
+  - src: ../../assets/logos/pp_live/fintech/s10-01.png
+    x: 469.1
+    y: 265.7
+  - src: ../../assets/logos/pp_live/fintech/s10-02.png
+    x: 594.2
+    y: 271.3
+  - src: ../../assets/logos/pp_live/fintech/s10-03.png
+    x: 382.1
+    y: 293.1
+  - src: ../../assets/logos/pp_live/fintech/s10-04.png
+    x: 698.4
+    y: 299.6
+  - src: ../../assets/logos/pp_live/fintech/s10-05.png
+    x: 763.9
+    y: 304.3
+  - src: ../../assets/logos/pp_live/fintech/s10-06.png
+    x: 304.9
+    y: 398.8
+  - src: ../../assets/logos/pp_live/fintech/s10-07.png
+    x: 364.3
+    y: 400.7
+  - src: ../../assets/logos/pp_live/fintech/s10-08.png
+    x: 462.9
+    y: 404.6
+  - src: ../../assets/logos/pp_live/fintech/s10-09.png
+    x: 516.2
+    y: 376.3
+  - src: ../../assets/logos/pp_live/fintech/s10-10.png
+    x: 592.1
+    y: 393.0
+  - src: ../../assets/logos/pp_live/fintech/s10-11.png
+    x: 732.9
+    y: 400.3
+  - src: ../../assets/logos/pp_live/fintech/s10-12.png
+    x: 790.7
+    y: 390.2
+  - src: ../../assets/logos/pp_live/fintech/s10-13.png
+    x: 276.6
+    y: 491.6
+  - src: ../../assets/logos/pp_live/fintech/s10-14.png
+    x: 395.4
+    y: 475.7
+  - src: ../../assets/logos/pp_live/fintech/s10-15.png
+    x: 600.9
+    y: 485.1
+  - src: ../../assets/logos/pp_live/fintech/s10-16.png
+    x: 723.6
+    y: 473.6
+  - src: ../../assets/logos/pp_live/fintech/s10-17.png
+    x: 469.3
+    y: 501.0
+  - src: ../../assets/logos/pp_live/fintech/s10-18.png
+    x: 781.1
+    y: 502.3
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Payments
+  - Banking
+  - Finance ops
+  note:
+  - We left out listed companies and incumbents like PayPal, Adyen and JPMorgan Chase
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these fintech
+
+    startups, and how did they end?'
+  causes:
+  - Fraud or|court case
+  - Partner or|bank woes
+  - Ran out|of cash
+  - Burned|too fast
+  rows:
+  - name: Synapse
+    ending: Went bankrupt
+    start: '2014'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/fintech/s11-00.png
+    ini: S
+    slug: synapse
+    domain: synapsefi.com
+  - name: Solid
+    ending: Went bankrupt
+    start: '2018'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/fintech/s11-01.png
+    ini: S
+    slug: solid
+    domain: solidfi.com
+  - name: Frank
+    ending: Founder convicted
+    start: '2016'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/fintech/s11-02.png
+    ini: F
+    slug: frank
+    domain: withfrank.org
+  - name: Fast
+    ending: Shut down
+    start: '2019'
+    end: '2022'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/fintech/s11-03.png
+    ini: F
+    slug: fast
+    domain: fast.co
+  - name: Bench
+    ending: Shut down
+    start: '2012'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/fintech/s11-04.png
+    ini: B
+    slug: bench
+    domain: bench.co
+  note:
+  - We tracked the fintech startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Stripe winning
+
+    online payments?'
+  companies:
+  - short: Stripe
+    src: ../../assets/logos/pp_live/fintech/s12-00.png
+  - short: PayPal
+    src: ../../assets/logos/pp_live/fintech/s12-01.png
+  - short: Adyen
+    src: ../../assets/logos/pp_live/fintech/s12-02.png
+  - short: Block
+    src: ../../assets/logos/pp_live/fintech/s12-03.png
+  - short: Checkout
+    src: ../../assets/logos/pp_live/fintech/s12-04.png
+  criteria:
+  - name: Top payment volume
+    why: $1.9T processed in 2025
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Valued at $159B
+    why: Top fintech valuation
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Co-built ChatGPT checkout
+    why: Ready for AI agent shopping
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Owns stablecoin rails
+    why: Moves dollars on blockchain
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Online and in store
+    why: One partner for all sales
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Profitable business
+    why: Funds growth from cash
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as fintech,
+
+    and what does not?'
+  TL:
+    name: JPMorgan Chase
+    src: ../../assets/logos/pp_live/fintech/s01-00.png
+    text: wil! spend nearly $20 billion on technology in 2026, but it remains a traditional bank that builds lots of software
+  TR:
+    name: Strategy
+    src: ../../assets/logos/pp_live/fintech/s01-02.png
+    text: holds over 800,000 bitcoins and trades like a financial asset, but it is a treasury bet with a software business attached
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/fintech/s01-10.png
+    text: ap 9 F Kalshi is regulated as a US financial i exchange, but most of its volume comes from sports contracts, which looks a lot like betting
+  BR:
+    name: URES) Sallis Senniele NO
+    src: ../../assets/logos/pp_live/fintech/s01-11.png
+    text: (ESTEE ENE, Ie Il ft t + ts, but most of its revenue comes from Eran th ELF EIGEN AMES, SO ht . hei d . SHS Gin Lins Illa
+  caption:
+  - Distance to the center reflects how much of the business is a technology product that moves, lends, invests or insures money
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/fintech/s01-01.png
+  - ../../assets/logos/pp_live/fintech/s01-03.png
+  - ../../assets/logos/pp_live/fintech/s01-04.png
+  - ../../assets/logos/pp_live/fintech/s01-05.png
+  - ../../assets/logos/pp_live/fintech/s01-06.png
+  - ../../assets/logos/pp_live/fintech/s01-07.png
+  - ../../assets/logos/pp_live/fintech/s01-08.png
+  - ../../assets/logos/pp_live/fintech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/fintech/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/fintech/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/fintech/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/fintech/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/fintech/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/fintech/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/fintech/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/fintech/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look
+
+    for ways to pay less in bank fees'
+  date: Lately.
+  expl: With prices still high, people started checking every fee on their bank statement. Neobanks like Revolut, Nubank and Chime advertised zero fees,
+    and switching banks became as easy as downloading an app. More and more people searched how to pay less to their bank.
+  term: fintech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/fintech/fintech.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  lead: 'To fill that room, '
+  condition: fintechs must win more of the profit pool of banks, with people and companies moving their main accounts, loans, and savings to apps. They
+    must also keep fraud and credit losses low and stay profitable as rates fall and new rules on data and stablecoins arrive.
+  note:
+  - We compared forecasts from Fortune Business Insights, Mordor, IMARC and McKinsey and adjusted each one to our market
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: 575
+  cagr: 16
+  y0: 2026

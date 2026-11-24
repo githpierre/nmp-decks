@@ -1,0 +1,122 @@
+# 20 key sources of the MedTech deck (draft_sources_key.py, why and how written by Claude, 23 Nov 2026)
+rows:
+- name: 'Wilson Sonsini,
+
+    HistoSonics stake sale'
+  why: The law firm's note on the majority stake sale of HistoSonics at about $2.25B
+  how: We used it for the $2.3B value and the 50 US centers. It also backed the HistoSonics contrast slide.
+  url: https://www.wsgr.com/en/insights/wilson-sonsini-advises-major-shareholders-of-histosonics-on-dollar225-billion-majority-stake-acquisition.html
+- name: 'Frost & Sullivan,
+
+    device market by sector'
+  why: Frost & Sullivan's sector-by-sector forecast, published in a Hong Kong listing filing
+  how: We used it as the base of our $680B estimate. It also gave the growth rate near 6% a year.
+  url: https://www1.hkexnews.hk/app/sehk/2026/108529/documents/sehk26051101259.pdf
+- name: 'EY, Pulse of the
+
+    MedTech Industry 2026'
+  why: EY's yearly report on the revenue, deals and financing of listed MedTech companies
+  how: We used it for the $130B of deals and $63B of financing. It also checked our market size.
+  url: https://www.ey.com/en_us/newsroom/2026/10/pulse-medtech-industry-report-2026
+- name: 'FDA, list of AI-
+
+    enabled devices'
+  why: The FDA's own page and list of the AI-enabled devices it authorized for sale
+  how: We used it for the 1,600+ AI devices on the list. It also dated the rise of medical AI.
+  url: https://www.fda.gov/medical-devices/digital-health-center-excellence/artificial-intelligence-enabled-medical-devices
+- name: 'FDA, quality rules
+
+    aligned with ISO'
+  why: The FDA page on the device quality rule that took effect in February 2026
+  how: We used it for the regulation slides. It also showed which old constraint has eased.
+  url: https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr
+- name: 'FDA, guidance on
+
+    AI update plans'
+  why: The FDA's final guidance on planned changes to AI devices, issued in August 2025
+  how: We used it for the AI update rules. It also backed the bottlenecks and the risk slides.
+  url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence
+- name: 'JAMA Network Open,
+
+    cost of a new device'
+  why: A peer-reviewed estimate of the time and cost to develop a complex therapeutic device
+  how: We used it for the steps to bring a device to patients. It also set the $54M average cost.
+  url: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2796179
+- name: 'CMR Surgical,
+
+    45,000 patients'
+  why: CMR Surgical's own release on its patient count as it launched in the US
+  how: We used it for the 45,000 Versius patients. It also backed the top players slides.
+  url: https://us.cmrsurgical.com/news/announces-45k-patients-treated-globally-as-robotic-assisted-surgery-company-makes-its-us-debut
+- name: 'MedTech Dive,
+
+    Science $400M round'
+  why: MedTech Dive's report on the Science Corporation round and its CE-marked retinal implant
+  how: We used it for the $400M round and the European launch. It also backed the moonshots.
+  url: https://www.medtechdive.com/news/science-corporation-raises-400m-to-commercialize-bci-device/875009
+- name: 'Kardium,
+
+    Globe registry'
+  why: Kardium's own release on the first patient of its 500-patient Globe registry
+  how: We used it for the FDA approval and the registry. It also backed the leaders slides.
+  url: https://kardium.com/news/kardium-announces-first-patient-enrollment-in-the-globe-registry-expanding-real-world-evidence-for-the-globe-pulsed-field-system-following-strong-early-commercial-experience
+- name: 'Medtronic, Hugo
+
+    general surgery'
+  why: Medtronic's release on the FDA clearance of Hugo for general surgery in November 2026
+  how: We used it for the latest Hugo clearance. It also backed the growth drivers.
+  url: https://news.medtronic.com/2026-11-17-Medtronic-announces-FDA-clearance-of-general-surgery-procedures-for-the-Hugo-TM-robotic-assisted-surgery-RAS-system
+- name: 'Heartflow, third
+
+    quarter 2026 results'
+  why: Heartflow's own release on its third quarter of 2026 sales and losses
+  how: We used it for the $72.9M quarterly sales, up 57%. It also backed the contrast slide.
+  url: https://ir.heartflow.com/news-releases/news-release-details/heartflow-reports-third-quarter-2026-financial-results-and
+- name: 'Intuitive, third
+
+    quarter 2026 results'
+  why: Intuitive's earnings release filed with the SEC for the third quarter of 2026
+  how: We used it for the 12,094 da Vinci systems. It also showed growing instrument sales.
+  url: https://www.sec.gov/Archives/edgar/data/1035267/000103526726000067/q326ex-991earningsrelease.htm
+- name: 'Fortune Business
+
+    Insights report'
+  why: Market research firm with a yearly report on the global medical device market
+  how: We used it for the $605B low estimate. It also gave us the regional split of sales.
+  url: https://www.fortunebusinessinsights.com/industry-reports/medical-devices-market-100085
+- name: 'CMR Surgical,
+
+    Versius Plus 510(k)'
+  why: CMR Surgical's release on the FDA clearance of Versius Plus for gallbladder surgery
+  how: We used it for the first US clearance of Versius. It also backed the contrast slide.
+  url: https://us.cmrsurgical.com/news/cmr-surgical-secures-510k-clearance-of-its-versius-plus-robotic-surgical-system
+- name: 'Medtronic, Hugo
+
+    FDA clearance'
+  why: Medtronic's release on the first FDA clearance of Hugo, for urology, in December 2025
+  how: We used it for the myths and recent changes. It also dated the new rivals of da Vinci.
+  url: https://news.medtronic.com/2025-12-03-Medtronic-announces-FDA-clearance-of-Hugo-TM-robotic-assisted-surgery-system-for-urologic-surgical-procedures
+- name: 'FDA, cybersecurity
+
+    guidance'
+  why: The FDA's guidance on how device makers must design and document cybersecurity
+  how: We used it for the cyber risks. It also backed the regulation and the bottleneck slides.
+  url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-management-system-considerations-and-content-premarket
+- name: 'Medtronic, CathWorks
+
+    acquisition'
+  why: Medtronic's release on closing its $585M purchase of the AI heart test maker CathWorks
+  how: We used it for the $585M deal. It also backed the corporate deals and growth drivers.
+  url: https://news.medtronic.com/2026-04-20-Medtronic-completes-acquisition-of-CathWorks,-expanding-its-leadership-in-transforming-care-for-patients-with-cardiovascular-disease
+- name: 'MedTech Dive,
+
+    Precision $250M round'
+  why: MedTech Dive's report on the Precision Neuroscience round and its 100+ procedures
+  how: We used it for the 100 procedures across 18 sites. It also backed the leaders slides.
+  url: https://www.medtechdive.com/news/precision-neuroscience-raises-250m-for-brain-computer-interface-work/831344
+- name: 'Precision, Layer 7
+
+    FDA clearance'
+  why: Precision Neuroscience's release on the FDA clearance of its brain electrode array
+  how: We used it for the 30-day clearance. It also backed the tech developments slides.
+  url: https://www.precisionneuro.io/articles/company-news/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array

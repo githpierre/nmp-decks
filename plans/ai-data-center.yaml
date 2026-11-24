@@ -1,0 +1,125 @@
+# Spec of the research prompts for the AI data center deck (tools/make_market_prompts.py). Method v2.
+# Pierre 22 Nov 2026 (« je suis tes recos »): pain segments = types of buyer (same names as Neocloud, GPU clouds instead of AI app
+# startups); value segments = the 7 base categories, Edge AI Data Centers (Armada only) merged into Modular AI centers. Base as of
+# 12 Nov 2026. Trends term: data center (« ai data center » is at 0 or <1 in 153 of 262 weeks), drawn with the dashed part after
+# mid-2025 (rule of 22 Nov 2026 on small search terms).
+name: AI data center
+handle: ai-data-center
+uuid: 61
+date: '2026-11-22'
+today: 22 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, patients, FDA, therapy, cancer, clinical, trial, nuclear reactor, uranium, HALEU, longevity, drug discovery
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases, earnings calls and SEC or exchange filings (CoreWeave, Crusoe, Nscale, Lambda, Fluidstack, Lancium, Fermi America, Applied Digital, Galaxy, Core Scientific, IREN, AirTrunk,
+  Vantage, Aligned, STACK, DayOne, Firmus, Polarise, Armada, Starcloud), customer and lease announcements (OpenAI and the Stargate partners Oracle and SoftBank, Microsoft, Meta, Google, Amazon, Anthropic,
+  xAI, Nvidia), utility and grid operator filings (ERCOT, PJM, Dominion, National Grid), CBRE, JLL, Cushman & Wakefield and datacenterHawk leasing reports, Synergy Research, IEA, EPRI, Lawrence Berkeley
+  National Laboratory, Epoch AI, SemiAnalysis, Uptime Institute, McKinsey, data-center press (DatacenterDynamics, Data Center Frontier, The Register), market research firms with a named
+  method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, The Information, CNBC, TechCrunch).
+# where the problem is felt (types of buyer): Pierre, 22 Nov 2026
+pain_segments:
+- AI model labs
+- Hyperscalers and big tech
+- GPU clouds
+- Enterprises and governments
+# types of solution (Pierre, 22 Nov 2026), short names in decks/ai-data-center/cat_short.yaml
+#   AI campuses = Hyperscale AI Campuses | AI cloud operators = Integrated AI Infrastructure Operators
+#   Modular AI centers = Modular AI Data Centers + Edge AI Data Centers | AI colocation = AI Colocation Facilities
+#   AI compute centers = AI Compute Data Centers | Powered campuses = Powered AI Campus Developers
+value_segments:
+- AI campuses
+- AI cloud operators
+- Modular AI centers
+- AI colocation
+- AI compute centers
+- Powered campuses
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/ai-data-center (same slide type as the deck twin). No donut on
+# the live S03 (ed048 dropped). S11 live is a warning-signs grid: ed199p comes from the research and is checked against it.
+live_twins:
+- ed007p
+- ed039p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which big AI data center campuses are being built right now?
+    brief: 8 rows = 8 real AI data center campuses of companies in this market, with a named place (city or region, country). Rows read "campus, country" + "COMPANY · MAIN TENANT or SIZE (MW or GW)" + stage
+      (PLAN / BUILD / LIVE, 6 characters at most). Only campuses with a signed tenant, construction reported on site or capacity already live, from the company, its tenant, a filing, the utility or the
+      local authority. Not a memorandum of understanding or a land purchase alone.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between AI data center companies and large groups (multi-year leases with Microsoft, Meta, OpenAI, Google, Amazon, Oracle or Anthropic, acquisitions of data center platforms,
+      project financing and joint ventures, power supply deals with utilities, IPOs), newest first, with the amount, the capacity in MW and the length when public.
+  iv_fda:
+    title: What does it take to turn land into a live AI data center?
+    brief: 5 steps from an empty site to a hall full of running AI chips (for example securing land and a grid connection or own power, local permits and zoning, signing an anchor tenant, financing the build
+      with project debt, building with liquid cooling and handing over the halls). Each step in plain words with who decides and a typical duration.
+  iv_safety:
+    title: What could go wrong for AI data center companies?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example one tenant taking most of the capacity, tenants cancelling or delaying leases, years of wait for a
+      grid connection, local opposition and moratoriums on new sites, heavy project debt, chips changing faster than buildings). Real filings, reports or reported cases only.
+extra:
+  ed061: 'For AI data center: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line
+    description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: gigawatt campuses signed or going live (Stargate in Abilene and its other sites, Crusoe, Lancium, Fermi America, Nscale, Fluidstack for Anthropic, Applied Digital), leases signed by
+  hyperscalers and AI labs with their value and length, record funding and debt rounds (Crusoe, Nscale, Lambda, Firmus, Lancium, Fermi America IPO, AirTrunk sale), hyperscaler capital spending each quarter
+  (Microsoft, Alphabet, Amazon, Meta, Oracle), data center vacancy and leasing records in North America and Europe (CBRE, JLL, datacenterHawk), power deals and gas turbines ordered for data centers, bitcoin
+  miners turning sites into AI data centers (Galaxy, Core Scientific, IREN, Cipher, TeraWulf) with their lease values, CoreWeave revenue and backlog each quarter, rack power rising (kW per rack, liquid
+  cooling).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: tenants lost or leases cancelled, campuses delayed or stopped, local projects rejected or blocked,
+  bankruptcies and fire sales, debt in trouble, CEOs who left, layoffs, lawsuits and class actions, valuations or share prices that fell, short-seller reports, outages. Scope: companies whose core product
+  is AI data center capacity (AI campuses, powered campuses, AI colocation, modular and edge AI data centers, AI cloud operators with their own campuses), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: lost a tenant, CEO left, lawsuit or court case, value fell, delays or outages). Each cell is two short lines
+  separated by | or empty. Give the website domain of each company.
+
+  - ed200: why AI data center startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: AI data center
+label: AI data center
+keep_together:
+- AI data center
+- AI data centers
+- data center
+examples:
+  jargon_bad: A 200 MW critical IT load campus with direct-to-chip liquid cooling at 130 kW per rack and N+1 redundancy.
+  jargon_good: A site that draws as much power as a city of 150,000 homes, with water pipes running straight onto the chips to keep them cool.
+  jargon_why: the reader is not a data center engineer
+  proof_rule: 'A planned capacity in gigawatts, a land purchase or a « letter of intent » is not a business: say whether there is a signed lease, its tenant, value and length, how many megawatts are live
+    today, and who reported it.'
+  proof_bad: Company X plans a 5 GW AI campus in Texas.
+  proof_good: Company X signed a 15-year lease with a hyperscaler for 200 MW, and its filing says the first 100 MW went live in 2026.
+  proof_why: a planned capacity is not a signed lease
+  fresh_bad: Company X had $500M of revenue in 2024
+  fresh_good: Company X reported $310M of revenue for its third quarter of 2026, against $120M a year earlier
+  fresh_est: Company X should end 2026 near $1.2B of revenue, against $450M in 2025
+  fresh_method: latest reported quarter and company guidance, analyst estimates as a cross-check
+  not_proof: a planned capacity is not a signed lease
+trends_csv: assets/trends/ai-data-center/data-center.csv

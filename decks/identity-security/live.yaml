@@ -1,0 +1,370 @@
+ed148p:
+  title: 'What pushed identity security
+
+    forward, year after year?'
+  events:
+  - year: '2002'
+    text: SAML standard unlocks web single signon
+    impact: 2.0
+  - year: '2003'
+    text: SAML improves login interoperability
+    impact: 1.0
+  - year: '2005'
+    text: SAML 2 standardizes enterprise federation
+    impact: 2.5
+  - year: '2010'
+    text: AWS previews fine grained identity control
+    impact: 1.5
+  - year: '2011'
+    text: AWS makes cloud IAM broadly available
+    impact: 2.0
+  - year: '2011'
+    text: Federation reduces duplicate credentials
+    impact: 1.5
+  - year: '2012'
+    text: Cloud roles replace embedded credentials
+    impact: 2.0
+  - year: '2012'
+    text: OAuth standardizes delegated access
+    impact: 2.0
+  - year: '2014'
+    text: OpenID Connect unifies authentication
+    impact: 2.5
+  - year: '2015'
+    text: Managed IAM policies simplify updates
+    impact: 1.5
+  - year: '2015'
+    text: Certification improves federation trust
+    impact: 1.0
+  - year: '2016'
+    text: WebAuthn draft advances secure login
+    impact: 1.5
+  - year: '2017'
+    text: AWS Organizations scales access guardrails
+    impact: 1.5
+  - year: '2017'
+    text: NIST refreshes identity guidance
+    impact: 1.5
+  - year: '2018'
+    text: WebAuthn reaches candidate standard maturity
+    impact: 1.5
+  - year: '2019'
+    text: WebAuthn secures browser authentication
+    impact: 2.5
+  - year: '2020'
+    text: SolarWinds exposes federation trust risks
+    impact: 2.0
+  - year: '2021'
+    text: Microsoft buys CloudKnox for privileges
+    impact: 1.5
+  - year: '2021'
+    text: WebAuthn Level 2 advances passwordless
+    impact: 1.0
+  - year: '2022'
+    text: Tech giants align to scale passkeys
+    impact: 3.0
+  - year: '2023'
+    text: Google makes passkeys default for accounts
+    impact: 2.0
+  - year: '2023'
+    text: Okta breach exposes identity hub risks
+    impact: 2.0
+  - year: '2024'
+    text: Snowflake attacks expose missing MFA controls
+    impact: 2.0
+  - year: '2024'
+    text: ISO recognizes OpenID Connect
+    impact: 1.0
+  - year: '2025'
+    text: NIST modernizes digital identity requirements
+    impact: 2.0
+  - year: '2026'
+    text: Google strengthens permissions for AI agents
+    impact: 1.5
+  - year: '2026'
+    text: Microsoft makes passkeys default in Entra
+    impact: 2.5
+  - year: '2026'
+    text: WebAuthn Level 3 standard advances passkeys
+    impact: 1.5
+  - year: '2026'
+    text: Passkey themed phishing exposes bypasses
+    impact: 1.5
+  - year: '2026'
+    text: NIST guidance targets stolen session tokens
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed identity security forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: identity-security
+  title: 'Where did identity security investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of identity security startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    identity security today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/identity-security/s10-00.png
+    x: 247.1
+    y: 272.4
+  - src: ../../assets/logos/pp_live/identity-security/s10-01.png
+    x: 441.9
+    y: 284.1
+  - src: ../../assets/logos/pp_live/identity-security/s10-02.png
+    x: 729.9
+    y: 268.3
+  - src: ../../assets/logos/pp_live/identity-security/s10-03.png
+    x: 316.5
+    y: 285.9
+  - src: ../../assets/logos/pp_live/identity-security/s10-04.png
+    x: 580.5
+    y: 286.1
+  - src: ../../assets/logos/pp_live/identity-security/s10-05.png
+    x: 786.9
+    y: 302.1
+  - src: ../../assets/logos/pp_live/identity-security/s10-06.png
+    x: 494.8
+    y: 369.4
+  - src: ../../assets/logos/pp_live/identity-security/s10-07.png
+    x: 699.9
+    y: 372.4
+  - src: ../../assets/logos/pp_live/identity-security/s10-08.png
+    x: 242.6
+    y: 399.0
+  - src: ../../assets/logos/pp_live/identity-security/s10-09.png
+    x: 301.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/identity-security/s10-10.png
+    x: 566.4
+    y: 396.0
+  - src: ../../assets/logos/pp_live/identity-security/s10-11.png
+    x: 756.2
+    y: 401.1
+  - src: ../../assets/logos/pp_live/identity-security/s10-12.png
+    x: 512.6
+    y: 495.0
+  - src: ../../assets/logos/pp_live/identity-security/s10-13.png
+    x: 220.3
+    y: 511.7
+  - src: ../../assets/logos/pp_live/identity-security/s10-14.png
+    x: 320.4
+    y: 513.4
+  - src: ../../assets/logos/pp_live/identity-security/s10-15.png
+    x: 439.9
+    y: 506.6
+  - src: ../../assets/logos/pp_live/identity-security/s10-16.png
+    x: 689.8
+    y: 513.0
+  - src: ../../assets/logos/pp_live/identity-security/s10-17.png
+    x: 770.6
+    y: 507.9
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Identity Gov
+  - ''
+  - Access & PAM
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out listed companies and incumbents like Okta, Microsoft and IBM, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these identity security
+
+    startups, and how did they end?'
+  causes:
+  - Too few|buyers
+  - Big rivals|won
+  - Ran out|of runway
+  - No public|reason
+  rows:
+  - name: 0pass
+    ending: Shut down
+    start: '2022'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/identity-security/s11-00.png
+    ini: '0'
+    slug: 0pass
+    domain: 0pass.com
+  - name: Tesseral
+    ending: Wound down
+    start: '2023'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/identity-security/s11-01.png
+    ini: T
+    slug: tesseral
+    domain: tesseral.com
+  - name: IDPartner
+    ending: Shut down
+    start: '2021'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/identity-security/s11-02.png
+    ini: I
+    slug: idpartner
+    domain: idpartner.com
+  - name: Common Fate
+    ending: Wound down
+    start: '2022'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/identity-security/s11-03.png
+    ini: C
+    slug: common-fate
+    domain: commonfate.io
+  - name: Passbase
+    ending: Assets sold
+    start: '2018'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/identity-security/s11-04.png
+    ini: P
+    slug: passbase
+    domain: passbase.com
+  note:
+  - We tracked the identity security startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might BeyondTrust be winning
+
+    the privileged access market?'
+  companies:
+  - short: BeyondTrust
+    src: ../../assets/logos/pp_live/identity-security/s12-00.png
+  - short: Delinea
+    src: ../../assets/logos/pp_live/identity-security/s12-01.png
+  - short: One Identity
+    src: ../../assets/logos/pp_live/identity-security/s12-02.png
+  - short: WALLIX
+    src: ../../assets/logos/pp_live/identity-security/s12-03.png
+  - short: Keeper
+    src: ../../assets/logos/pp_live/identity-security/s12-04.png
+  criteria:
+  - name: Privileged secret vault
+    why: Protect administrator secrets
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Privileged session replay
+    why: Audit sensitive access
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Just-in-time access
+    why: Minimize standing privilege
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Endpoint privilege control
+    why: Limit local admin rights
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Vendor remote access
+    why: Secure third-party support
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Machine secrets control
+    why: Secure nonhuman credentials
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: IT helpdesk remote support
+    why: Serve end users without VPN
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More people google passkeys as logins
+
+    finally move beyond passwords'
+  date: Lately.
+  expl: Apple, Google and Microsoft pushed passkeys as the default way to sign in, and big apps followed. People ran into the new login screens and went
+    looking for what a passkey is and whether it is safer than a password.
+  term: identity security
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/identity-security/identity-security.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    identity security get?'
+  lead: ''
+  condition: To get that big, the market must secure machine identities and AI agents as well as people, since they now far outnumber employees. It must
+    also stop attackers who log in with stolen credentials instead of breaking in.
+  note:
+  - We compared forecasts from 360iResearch, ResearchAndMarkets, Technavio and Start with Identity
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 25
+  cagr: 13
+  y0: 2026

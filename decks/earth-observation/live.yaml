@@ -1,0 +1,522 @@
+ed058:
+  type: pp_pains
+  title: 'Which Earth observation
+
+    problems are still unsolved?'
+  auds:
+  - Defense agencies
+  - Mapping agencies
+  - Crop insurers
+  - Energy firms
+  - News outlets
+  pains:
+  - - They must beat the free images from Sentinel and Landsat
+    - - 1
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They lose images to cloud cover over half of the planet
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They see buyers ask for clear answers, not just raw photos
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They see the price of each satellite image fall every year
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They need dozens of satellites to revisit a place every day
+    - - 3
+      - 1
+      - 2
+      - 1
+      - 3
+  - - They depend on a few large US defense contracts for revenue
+    - - 3
+      - 1
+      - 1
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which Earth observation firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Airbus
+    src: ../../assets/logos/pp_live/earth-observation/s05-00.png
+  - name: Planet
+    src: ../../assets/logos/pp_live/earth-observation/s05-01.png
+  - name: Vantor
+    src: ../../assets/logos/pp_live/earth-observation/s05-02.png
+  - name: ICEYE
+    src: ../../assets/logos/pp_live/earth-observation/s05-03.png
+  - name: Capella
+    src: ../../assets/logos/pp_live/earth-observation/s05-04.png
+  - name: Satellogic
+    src: ../../assets/logos/pp_live/earth-observation/s05-05.png
+  features:
+  - header: Radar|satellites
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Daily|whole Earth
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: 30 cm|imagery
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Hyper-|spectral
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: 3D|terrain
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: 20-year|archive
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Builds own|satellites
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for Earth observation?'
+  events:
+  - odds: 25
+    impact: 3
+    text: Dozens of satellite fleets sell similar images and optical image prices collapse for all providers
+  - odds: 20
+    impact: 1
+    text: The best Earth observation startups get bought early, like Capella and Orbital Insight, at modest prices
+  - odds: 18
+    impact: 2
+    text: Airbus and Thales win sovereign satellite fleet contracts in Europe, shutting out Earth observation startups
+  - odds: 15
+    impact: 3
+    text: The White House and Congress cut NRO and NASA commercial imagery budgets, hitting Planet and Vantor
+  - odds: 15
+    impact: 2
+    text: Google expands free AlphaEarth embeddings in Earth Engine, crushing paid geospatial AI startups
+  - odds: 10
+    impact: 2
+    text: Free Sentinel-2 and Landsat data improve enough that many buyers stop paying for commercial images
+  - odds: 8
+    impact: 2
+    text: Chinese operators like Chang Guang sell images far cheaper, starting a global price war
+  - odds: 3
+    impact: 3
+    text: A major orbital collision makes satellite fleets uninsurable and stops new Earth observation launches
+  note:
+  - We listed the events that could slow earth observation down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed Earth observation
+
+    forward, year after year?'
+  events:
+  - year: '1960'
+    text: TIROS 1 sends the first weather images
+    impact: 0.5
+  - year: '1972'
+    text: Landsat 1 starts imaging the whole planet
+    impact: 2.5
+  - year: '1986'
+    text: SPOT 1 sells satellite images commercially
+    impact: 1.5
+  - year: '1992'
+    text: US law opens remote sensing to firms
+    impact: 1
+  - year: '1994'
+    text: US lets firms sell sharp satellite images
+    impact: 1.5
+  - year: '1999'
+    text: IKONOS sells the first 1 meter images
+    impact: 2
+  - year: '2003'
+    text: NextView deals guarantee a buyer for imagery
+    impact: 1.5
+  - year: '2005'
+    text: Google Earth puts imagery on every screen
+    impact: 2
+  - year: '2008'
+    text: Free Landsat archive sparks new uses
+    impact: 1.5
+  - year: '2010'
+    text: EnhancedView pays $7.3B for private imagery
+    impact: 1.5
+  - year: '2013'
+    text: Cheap cubesats slash the cost of imaging
+    impact: 1
+  - year: '2013'
+    text: DigitalGlobe buys GeoEye, uniting imagery
+    impact: 1
+  - year: '2014'
+    text: US lifts the 50 cm resolution limit
+    impact: 1.5
+  - year: '2014'
+    text: Sentinel 1 radar data goes free
+    impact: 1.5
+  - year: '2015'
+    text: Cloud platforms process imagery at scale
+    impact: 1
+  - year: '2017'
+    text: Planet images all land every day
+    impact: 2.5
+  - year: '2018'
+    text: Small radar satellites see through clouds
+    impact: 1.5
+  - year: '2020'
+    text: New US rule eases imaging licenses
+    impact: 1
+  - year: '2021'
+    text: SPAC listings fund new constellations
+    impact: 1
+  - year: '2022'
+    text: Ukraine war puts orbital imagery on TV
+    impact: 3
+  - year: '2022'
+    text: NRO signs multiyear private imagery deals
+    impact: 2
+  - year: '2023'
+    text: Advent buys Maxar, betting on defense demand
+    impact: 1
+  - year: '2023'
+    text: Open AI models make imagery readable
+    impact: 1
+  - year: '2024'
+    text: EU methane law demands leak tracking
+    impact: 1
+  - year: '2024'
+    text: MethaneSAT launches to spot oil leaks
+    impact: 0.5
+  - year: '2025'
+    text: ReArm Europe plan funds space intelligence
+    impact: 1.5
+  - year: '2025'
+    text: US imagery cutoff spurs EU sovereignty
+    impact: 2
+  - year: '2025'
+    text: Google AI maps the planet from imagery
+    impact: 0.5
+  - year: '2025'
+    text: Germany buys ICEYE radar fleet for billions
+    impact: 2
+  - year: '2026'
+    text: Planet sales jump 60% on sovereign deals
+    impact: 1
+  note:
+  - We kept the events we believe pushed earth observation forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: earth-observation
+  title: 'Where did Earth observation investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of earth observation startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    Earth observation today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/earth-observation/s10-00.png
+    x: 249.0
+    y: 270.0
+  - src: ../../assets/logos/pp_live/earth-observation/s10-01.png
+    x: 475.5
+    y: 282.4
+  - src: ../../assets/logos/pp_live/earth-observation/s10-02.png
+    x: 585.4
+    y: 278.1
+  - src: ../../assets/logos/pp_live/earth-observation/s10-03.png
+    x: 308.6
+    y: 302.6
+  - src: ../../assets/logos/pp_live/earth-observation/s10-04.png
+    x: 366.4
+    y: 295.3
+  - src: ../../assets/logos/pp_live/earth-observation/s10-05.png
+    x: 530.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/earth-observation/s10-06.png
+    x: 686.8
+    y: 291.4
+  - src: ../../assets/logos/pp_live/earth-observation/s10-07.png
+    x: 748.9
+    y: 295.7
+  - src: ../../assets/logos/pp_live/earth-observation/s10-08.png
+    x: 819.9
+    y: 287.6
+  - src: ../../assets/logos/pp_live/earth-observation/s10-09.png
+    x: 540.6
+    y: 369.4
+  - src: ../../assets/logos/pp_live/earth-observation/s10-10.png
+    x: 727.1
+    y: 372.9
+  - src: ../../assets/logos/pp_live/earth-observation/s10-11.png
+    x: 318.4
+    y: 403.7
+  - src: ../../assets/logos/pp_live/earth-observation/s10-12.png
+    x: 370.7
+    y: 376.7
+  - src: ../../assets/logos/pp_live/earth-observation/s10-13.png
+    x: 487.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/earth-observation/s10-14.png
+    x: 591.0
+    y: 400.7
+  - src: ../../assets/logos/pp_live/earth-observation/s10-15.png
+    x: 675.9
+    y: 401.6
+  - src: ../../assets/logos/pp_live/earth-observation/s10-16.png
+    x: 811.5
+    y: 404.6
+  - src: ../../assets/logos/pp_live/earth-observation/s10-17.png
+    x: 258.6
+    y: 407.6
+  - src: ../../assets/logos/pp_live/earth-observation/s10-18.png
+    x: 250.7
+    y: 476.6
+  - src: ../../assets/logos/pp_live/earth-observation/s10-19.png
+    x: 466.7
+    y: 490.7
+  - src: ../../assets/logos/pp_live/earth-observation/s10-20.png
+    x: 527.4
+    y: 474.9
+  - src: ../../assets/logos/pp_live/earth-observation/s10-21.png
+    x: 805.9
+    y: 481.3
+  - src: ../../assets/logos/pp_live/earth-observation/s10-22.png
+    x: 302.6
+    y: 512.4
+  - src: ../../assets/logos/pp_live/earth-observation/s10-23.png
+    x: 364.9
+    y: 513.0
+  - src: ../../assets/logos/pp_live/earth-observation/s10-24.png
+    x: 591.0
+    y: 506.6
+  - src: ../../assets/logos/pp_live/earth-observation/s10-25.png
+    x: 700.1
+    y: 506.1
+  - src: ../../assets/logos/pp_live/earth-observation/s10-26.png
+    x: 756.0
+    y: 510.0
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Radar
+  - Imaging
+  - Analytics
+  note:
+  - We left out listed companies like Planet, big players like Airbus and acquired startups like Capella
+  - We placed each one by its focus, and you will find all the sources we used at the end of the report
+ed209p:
+  title: 'Why is ICEYE winning the
+
+    radar satellite market?'
+  companies:
+  - short: ICEYE
+    src: ../../assets/logos/pp_live/earth-observation/s12-00.png
+  - short: Capella
+    src: ../../assets/logos/pp_live/earth-observation/s12-01.png
+  - short: Umbra
+    src: ../../assets/logos/pp_live/earth-observation/s12-02.png
+  - short: Synspective
+    src: ../../assets/logos/pp_live/earth-observation/s12-03.png
+  - short: iQPS
+    src: ../../assets/logos/pp_live/earth-observation/s12-04.png
+  criteria:
+  - name: 50+ satellites in orbit
+    why: Revisits any spot many times
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 250M EUR+ revenue in 2025
+    why: Biggest radar imagery sales
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Sells fleets to nations
+    why: Big sovereign defense deals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: US defense customers
+    why: Largest buyer of imagery
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Listed stock or parent
+    why: Access to public capital
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Sub meter radar images
+    why: Sees through cloud and night
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is in Earth observation,
+
+    and what stays outside?'
+  TL:
+    name: Esri
+    src: ../../assets/logos/pp_live/earth-observation/s01-00.png
+    text: makes the ArcGIS mapping software that most governments use, but satellite imagery is only one of the many layers it handles
+  TR:
+    name: Trimble
+    src: ../../assets/logos/pp_live/earth-observation/s01-01.png
+    text: sells GPS receivers to surveyors and farmers, but reading signals from space is navigation, not observing the Earth
+  BL:
+    name: AiDASH
+    src: ../../assets/logos/pp_live/earth-observation/s01-10.png
+    text: uses satellite imagery to spot trees threatening power lines, but what utilities buy is its vegetation management software
+  BR:
+    name: Kpler
+    src: ../../assets/logos/pp_live/earth-observation/s01-11.png
+    text: bought Spire’s satellite ship- tracking business in 2025, but it sells commodity trade data where space is only one input
+  caption:
+  - Distance to the center reflects how much a business relies on imaging or sensing the Earth from orbit rather than the ground
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/earth-observation/s01-02.png
+  - ../../assets/logos/pp_live/earth-observation/s01-03.png
+  - ../../assets/logos/pp_live/earth-observation/s01-04.png
+  - ../../assets/logos/pp_live/earth-observation/s01-05.png
+  - ../../assets/logos/pp_live/earth-observation/s01-06.png
+  - ../../assets/logos/pp_live/earth-observation/s01-07.png
+  - ../../assets/logos/pp_live/earth-observation/s01-08.png
+  - ../../assets/logos/pp_live/earth-observation/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/earth-observation/s01-02.png
+    x: 435.6
+    y: 287.4
+  - src: ../../assets/logos/pp_live/earth-observation/s01-03.png
+    x: 521.1
+    y: 321.2
+  - src: ../../assets/logos/pp_live/earth-observation/s01-04.png
+    x: 463.7
+    y: 356.4
+  - src: ../../assets/logos/pp_live/earth-observation/s01-05.png
+    x: 402.6
+    y: 381.6
+  - src: ../../assets/logos/pp_live/earth-observation/s01-06.png
+    x: 515.4
+    y: 391.1
+  - src: ../../assets/logos/pp_live/earth-observation/s01-07.png
+    x: 460.1
+    y: 416.4
+  - src: ../../assets/logos/pp_live/earth-observation/s01-08.png
+    x: 386.4
+    y: 440.8
+  - src: ../../assets/logos/pp_live/earth-observation/s01-09.png
+    x: 518.8
+    y: 454.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: ''
+  date: ''
+  expl: ''
+  term: earth observation
+  note: []
+  csv: assets/trends/earth-observation/earth-observation.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the Earth observation
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but governments must keep buying commercial data and fleets instead of building their own, and new sensors must turn into paying products.
+    Analytics must also make the data easy enough for farms, utilities, and insurers to buy every week, not once a year.
+  note:
+  - We compared forecasts from Meticulous, Global Market Insights, Fortune and IMARC to build a realistic range
+  - We weighed the leaders’ growth and defense budget risks, and all our sources are listed at the end of the report
+  size: null
+  cagr: 10
+  y0: 2026

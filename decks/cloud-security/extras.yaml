@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do cloud security
+
+      firms actually make money?'
+    axes:
+    - Priced per person
+    - Priced per machine
+    - Self serve
+    - plans
+    - Enterprise
+    - contracts
+    groups:
+    - name: Priced per cloud workload
+      x: 0.61
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-security/s06-00.png
+      - src: ../../assets/logos/pp_live/cloud-security/s06-01.png
+      - src: ../../assets/logos/pp_live/cloud-security/s06-02.png
+    - name: Per user cloud app access
+      x: 0.2
+      y: 0.76
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-security/s06-03.png
+      - src: ../../assets/logos/pp_live/cloud-security/s06-04.png
+    - name: Billed by data analyzed
+      x: 0.9
+      y: 0.57
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-security/s06-05.png
+      - src: ../../assets/logos/pp_live/cloud-security/s06-06.png
+    - name: Per cloud account plans
+      x: 0.46
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-security/s06-07.png
+    - name: Built into the cloud bill
+      x: 0.76
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/cloud-security/s06-08.png
+      - src: ../../assets/logos/pp_live/cloud-security/s06-09.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

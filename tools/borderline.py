@@ -5,6 +5,7 @@ Claude decides with the rule and fixes the base itself (markets.csv, market_fit.
     python3 tools/borderline.py <handle> [--n 25]"""
 import argparse, collections, csv, sys, datetime
 sys.path.insert(0, '/home/claude/nmp-seo/outils/startups'); import gen_lib as g, startup_status as _ss
+import skip_rounds; skip_rounds.patch(g)   # doubtful rounds never reach a slide
 ap = argparse.ArgumentParser(); ap.add_argument('handle'); ap.add_argument('--n', type=int, default=25); a = ap.parse_args()
 b = g.Base(); M = {m['company_id']: m for m in b.markets[a.handle]}
 since = (datetime.date.today() - datetime.timedelta(days=730)).isoformat()

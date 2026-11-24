@@ -89,8 +89,9 @@ b,strong{font-weight:700}
 
 /* maturity */
 .maturity{position:relative;width:820px;height:300px}
-.maturity .score{position:absolute;top:30px;font-size:50pt;font-weight:700;line-height:1;text-align:center;width:330px;margin-left:-165px}
-.maturity .of{position:absolute;top:106px;font-size:10pt;width:330px;margin-left:-165px;text-align:center}
+.maturity .score{position:absolute;top:30px;font-size:50pt;font-weight:700;line-height:1;text-align:center;width:180px;margin-left:-90px}
+.maturity .of{position:absolute;top:106px;font-size:10pt;width:180px;margin-left:-90px;text-align:center}
+/* boxes 180 px, not 330: at a low score (15, Natural hydrogen 21 Nov 2026) the 330 px box went past the left margin (MARGIN 49) */
 .maturity .txt{position:absolute;top:134px;width:380px;margin-left:-190px;font-size:9pt;line-height:1.55;color:var(--muted);text-align:center;text-wrap:balance}
 .maturity .axis{position:absolute;left:30px;right:30px;top:255px;height:8px;background:var(--sand)}
 .maturity .axis::after{content:"";position:absolute;right:-12px;top:-7px;border-left:14px solid var(--sand);border-top:11px solid transparent;border-bottom:11px solid transparent}
@@ -159,7 +160,7 @@ b,strong{font-weight:700}
 .vbars .v{font-size:8pt;font-weight:700;margin-bottom:5px;white-space:nowrap}
 .vbars .bar{background:var(--accent);box-shadow:var(--shadow)}
 .vbars .x{margin-top:10px;font-size:8pt;color:var(--sand);white-space:nowrap}
-.vbars .ann{font-size:8pt;line-height:1.45;color:var(--muted);text-align:center;text-wrap:balance;width:96px;margin-bottom:6px}
+.vbars .ann{font-size:8pt;line-height:1.45;color:var(--muted);text-align:center;width:120px;margin-bottom:6px}  /* one line per comma part, so sibling notes keep the same number of lines (Neocloud 19 Nov 2026, CARD_LINES) */
 .vbars .down{display:block;width:10px;height:30px;color:var(--muted);margin-bottom:8px}   /* one symmetric SVG: shaft + head share the same axis */
 .proj-intro{font-size:8pt;line-height:1.5;color:var(--muted);text-align:center;text-wrap:balance}
 .cagr{font-size:14pt;font-weight:700;text-align:center}
@@ -350,6 +351,7 @@ b,strong{font-weight:700}
 .pp-stat{left:134px;top:262px;font-size:30pt;font-weight:700;color:#fff;display:flex;align-items:center;gap:10px}.pp-stat span{font-size:7.5pt;font-weight:400;color:#9AA8AD;line-height:1.35}
 .pp-expl{left:134px;top:320px;width:390px;font-size:8pt;line-height:1.45;color:#9AA8AD}.pp-expl b{color:#fff}
 .pp-tcap{left:130px;width:700px;text-align:center;font-size:7.5pt;color:#fff}
+.pp-dashcap{position:absolute;text-align:right;font-size:7pt;line-height:1.45;color:#9FB0BF;white-space:nowrap}
 .pp-rn{white-space:normal!important;text-align:center;line-height:1.2}
 .pp-dhl{width:auto}
 .slide[data-type=pp_killers] .pp-kh.l{width:90px}

@@ -1,0 +1,43 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'What business models work in buy now
+
+      pay later (BNPL)? (Buy Now Pay Later'
+    axes:
+    - Merchant pays
+    - Shopper pays
+    - Per
+    - purchase
+    - Over
+    - time
+    groups:
+    - name: Merchant fee
+      x: 0.18
+      y: 0.25
+      logos:
+      - src: ../../assets/logos/pp_live/buy-now-pay-later/s06-05.png
+      - src: ../../assets/logos/pp_live/buy-now-pay-later/s06-06.png
+    - name: Consumer interest
+      x: 0.82
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/buy-now-pay-later/s06-02.png
+      - src: ../../assets/logos/pp_live/buy-now-pay-later/s06-03.png
+    - name: Late fees
+      x: 0.85
+      y: 0.35
+      logos:
+      - src: ../../assets/logos/pp_live/buy-now-pay-later/s06-04.png
+    - name: White-label network
+      x: 0.3
+      y: 0.7
+      logos:
+      - src: ../../assets/logos/pp_live/buy-now-pay-later/s06-00.png
+      - src: ../../assets/logos/pp_live/buy-now-pay-later/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

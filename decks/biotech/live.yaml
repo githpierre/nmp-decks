@@ -1,0 +1,628 @@
+ed058:
+  type: pp_pains
+  title: 'What has been fixed in biotech,
+
+    and what is left to solve?'
+  auds:
+  - Big pharma
+  - Small biotechs
+  - Cancer patients
+  - Health insurers
+  - Biotech investors
+  pains:
+  - - They see most drug candidates fail in clinical trials after years
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They struggle to enroll enough patients to finish each trial
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They spend over a decade and huge sums to bring one drug to market
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 2
+  - - They pay very high prices for new biologic and gene therapies
+    - - 1
+      - 1
+      - 3
+      - 3
+      - 1
+  - - They struggle to raise money when markets turn against biotech
+    - - 1
+      - 3
+      - 1
+      - 1
+      - 3
+  - - They face drug price rules that cut the value of new medicines
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which biotech company has
+
+    the most complete tech today?'
+  companies:
+  - name: Amgen
+    src: ../../assets/logos/pp_live/biotech/s05-00.png
+  - name: Gilead
+    src: ../../assets/logos/pp_live/biotech/s05-01.png
+  - name: Vertex
+    src: ../../assets/logos/pp_live/biotech/s05-02.png
+  - name: Regeneron
+    src: ../../assets/logos/pp_live/biotech/s05-03.png
+  - name: Moderna
+    src: ../../assets/logos/pp_live/biotech/s05-04.png
+  - name: BioNTech
+    src: ../../assets/logos/pp_live/biotech/s05-05.png
+  features:
+  - header: Antibody|drugs
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Small|molecules
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: mRNA|medicines
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Cell|therapy
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Gene|editing
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Genetics|center
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Own|biosimilars
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to biotech?'
+  events:
+  - odds: 50
+    impact: 2
+    text: Chinese biotechs keep licensing cheap drug candidates to Pfizer and Merck, undercutting US startup valuations
+  - odds: 45
+    impact: 3
+    text: FDA staff cuts and leadership turnover delay reviews and approvals for small biotech drug candidates
+  - odds: 40
+    impact: 3
+    text: Most favored nation drug pricing deals cut US prices, so pharma pays less to license biotech assets
+  - odds: 40
+    impact: 2
+    text: NIH grant cuts and indirect cost caps shrink university research that feeds new biotech spinouts
+  - odds: 35
+    impact: 2
+    text: The biotech IPO window stays shut, leaving venture backed startups to sell early or shut down
+  - odds: 35
+    impact: 1
+    text: Medicare drug price negotiation under the IRA expands to more small molecules, cutting returns on pills
+  - odds: 30
+    impact: 2
+    text: The BIOSECURE Act forces startups to drop WuXi AppTec and other Chinese contract manufacturers at high cost
+  - odds: 20
+    impact: 2
+    text: A gene therapy trial death prompts an FDA clinical hold across similar programs and spooks investors
+  note:
+  - We listed the events that could slow biotech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed biotech
+
+    forward, year after year?'
+  events:
+  - year: '1953'
+    text: Double helix reveals how DNA works
+    impact: 2
+  - year: '1973'
+    text: Cohen and Boyer splice genes in bacteria
+    impact: 3
+  - year: '1976'
+    text: Genentech turns gene splicing into a business
+    impact: 2
+  - year: '1980'
+    text: Supreme Court allows patents on life forms
+    impact: 2
+  - year: '1980'
+    text: Bayh Dole lets universities license patents
+    impact: 1.5
+  - year: '1980'
+    text: Genentech IPO shows investors want biotech
+    impact: 1.5
+  - year: '1982'
+    text: FDA approves first biotech drug, insulin
+    impact: 2.5
+  - year: '1983'
+    text: Orphan Drug Act rewards rare disease drugs
+    impact: 1.5
+  - year: '1985'
+    text: PCR makes copying DNA fast and cheap
+    impact: 2
+  - year: '1986'
+    text: First antibody drug approved
+    impact: 1
+  - year: '1990'
+    text: Human Genome Project starts
+    impact: 1.5
+  - year: '1998'
+    text: Herceptin proves targeted cancer drugs work
+    impact: 1.5
+  - year: '2001'
+    text: Gleevec turns a deadly cancer manageable
+    impact: 1.5
+  - year: '2003'
+    text: Human genome completed
+    impact: 2
+  - year: '2007'
+    text: New sequencers slash cost of reading DNA
+    impact: 1.5
+  - year: '2009'
+    text: Roche pays $47B for Genentech
+    impact: 1
+  - year: '2012'
+    text: CRISPR makes gene editing easy
+    impact: 2.5
+  - year: '2012'
+    text: FDA breakthrough label speeds approvals
+    impact: 1
+  - year: '2014'
+    text: Keytruda proves immune therapy beats cancer
+    impact: 1.5
+  - year: '2017'
+    text: First CAR-T cell therapy approved
+    impact: 1.5
+  - year: '2020'
+    text: mRNA Covid vaccines arrive within a year
+    impact: 3
+  - year: '2021'
+    text: AlphaFold predicts protein shapes
+    impact: 2
+  - year: '2023'
+    text: First CRISPR therapy approved
+    impact: 2
+  - year: '2023'
+    text: Obesity drugs spark a $100B race
+    impact: 2
+  - year: '2023'
+    text: Pfizer pays $43B for Seagen cancer drugs
+    impact: 1.5
+  - year: '2024'
+    text: AlphaFold Nobel puts AI drug design center
+    impact: 1
+  - year: '2025'
+    text: China supplies a third of pharma licenses
+    impact: 1.5
+  - year: '2025'
+    text: Custom CRISPR therapy saves Baby KJ
+    impact: 1.5
+  - year: '2025'
+    text: BIOSECURE Act shifts work away from China
+    impact: 1
+  - year: '2026'
+    text: Pharma buys $106B of biotechs by June
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed biotech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: biotech
+  title: 'Where did biotech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of biotech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the biotechnology market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/biotech/s10-00.png
+    x: 353.1
+    y: 256.3
+  - src: ../../assets/logos/pp_live/biotech/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/biotech/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/biotech/s10-03.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/biotech/s10-04.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/biotech/s10-05.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/biotech/s10-06.png
+    x: 309.6
+    y: 301.7
+  - src: ../../assets/logos/pp_live/biotech/s10-07.png
+    x: 480.0
+    y: 312.9
+  - src: ../../assets/logos/pp_live/biotech/s10-08.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/biotech/s10-09.png
+    x: 662.4
+    y: 303.9
+  - src: ../../assets/logos/pp_live/biotech/s10-10.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/biotech/s10-11.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/biotech/s10-12.png
+    x: 191.6
+    y: 389.1
+  - src: ../../assets/logos/pp_live/biotech/s10-13.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/biotech/s10-14.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/biotech/s10-15.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/biotech/s10-16.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/biotech/s10-17.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/biotech/s10-18.png
+    x: 431.6
+    y: 470.1
+  - src: ../../assets/logos/pp_live/biotech/s10-19.png
+    x: 558.0
+    y: 485.6
+  - src: ../../assets/logos/pp_live/biotech/s10-20.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/biotech/s10-21.png
+    x: 797.8
+    y: 473.1
+  - src: ../../assets/logos/pp_live/biotech/s10-22.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/biotech/s10-23.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/biotech/s10-24.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/biotech/s10-25.png
+    x: 478.1
+    y: 517.7
+  - src: ../../assets/logos/pp_live/biotech/s10-26.png
+    x: 735.0
+    y: 498.6
+  - src: ../../assets/logos/pp_live/biotech/s10-27.png
+    x: 662.6
+    y: 528.0
+  cols:
+  - Data & AI
+  - Molecular engineering
+  - '- Industrial/climate & materials'
+  rows:
+  - Therapeutics & biopharma
+  - Molecular diagnostics
+  - Life-science tools &
+  note:
+  - We left out routine healthcare services and non-biotech industrial or farm uses
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these biotech
+
+    startups, and how did they end?'
+  causes:
+  - Product|fell short
+  - Ran out|of cash
+  - Payers|refused
+  - Too much|debt
+  rows:
+  - name: Zymergen
+    ending: Went bankrupt
+    start: '2013'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/biotech/s11-00.png
+    ini: Z
+    slug: zymergen
+    domain: zymergen.com
+  - name: Clovis Oncology
+    ending: Went bankrupt
+    start: '2009'
+    end: '2022'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/biotech/s11-01.png
+    ini: C
+    slug: clovis-oncology
+    domain: clovisoncology.com
+  - name: Amyris
+    ending: Went bankrupt
+    start: '2003'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/biotech/s11-02.png
+    ini: A
+    slug: amyris
+    domain: amyris.com
+  - name: Invitae
+    ending: Went bankrupt
+    start: '2010'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/biotech/s11-03.png
+    ini: I
+    slug: invitae
+    domain: invitae.com
+  - name: Gritstone
+    ending: Went bankrupt
+    start: '2015'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/biotech/s11-04.png
+    ini: G
+    slug: gritstone
+    domain: gritstonebio.com
+  note:
+  - We tracked the biotech startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Eli Lilly winning
+
+    the obesity drug market?'
+  companies:
+  - short: Lilly
+    src: ../../assets/logos/pp_live/biotech/s12-00.png
+  - short: Novo Nordisk
+    src: ../../assets/logos/pp_live/biotech/s12-01.png
+  - short: Amgen
+    src: ../../assets/logos/pp_live/biotech/s12-02.png
+  - short: Pfizer
+    src: ../../assets/logos/pp_live/biotech/s12-03.png
+  - short: Roche
+    src: ../../assets/logos/pp_live/biotech/s12-04.png
+  - short: Viking
+    src: ../../assets/logos/pp_live/biotech/s12-05.png
+  criteria:
+  - name: Most US GLP-1 scripts
+    why: Zepbound leads US demand
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Approved obesity pill
+    why: No needles needed
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Approved obesity shot
+    why: Selling at scale today
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Approved dual action drug
+    why: More weight loss per dose
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Obesity drug in phase 3
+    why: Next wave of launches
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Monthly shot in trials
+    why: Fewer shots for patients
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Direct to patient sales
+    why: Cash pay access in the US
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is in the biotech
+
+    market, and what is out?'
+  TL:
+    name: Teva
+    src: ../../assets/logos/pp_live/biotech/s01-00.png
+    text: is one of the world's largest drug makers, but most of its sales come from generic copies of chemical drugs, not biotech
+  TR:
+    name: L'Oréal
+    src: ../../assets/logos/pp_live/biotech/s01-02.png
+    text: grows reconstructed human EAL skin in its labs to test products, but it sells shampoo and makeup, which is beauty, not biotech
+  BL:
+    name: Lonza
+    src: ../../assets/logos/pp_live/biotech/s01-10.png
+    text: makes biologics and cell therapies for other drug developers but it owns none of the drugs it naciicenn so it sits on the line
+  BR:
+    name: Amgen
+    src: ../../assets/logos/pp_live/biotech/s01-11.png
+    text: was one of the first biotechs and still sells mostly biologics, but at its size it now runs much like a classic big pharma
+  caption:
+  - Distance to the center reflects how directly a company engineers biology into therapies, diagnostics or research tools
+  - ': ny Pany eng rorogy 7 3 ‘ .'
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/biotech/s01-01.png
+  - ../../assets/logos/pp_live/biotech/s01-03.png
+  - ../../assets/logos/pp_live/biotech/s01-04.png
+  - ../../assets/logos/pp_live/biotech/s01-05.png
+  - ../../assets/logos/pp_live/biotech/s01-06.png
+  - ../../assets/logos/pp_live/biotech/s01-07.png
+  - ../../assets/logos/pp_live/biotech/s01-08.png
+  - ../../assets/logos/pp_live/biotech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/biotech/s01-01.png
+    x: 453.6
+    y: 280.9
+  - src: ../../assets/logos/pp_live/biotech/s01-03.png
+    x: 532.1
+    y: 329.1
+  - src: ../../assets/logos/pp_live/biotech/s01-04.png
+    x: 404.8
+    y: 368.1
+  - src: ../../assets/logos/pp_live/biotech/s01-05.png
+    x: 469.3
+    y: 353.8
+  - src: ../../assets/logos/pp_live/biotech/s01-06.png
+    x: 514.1
+    y: 397.5
+  - src: ../../assets/logos/pp_live/biotech/s01-07.png
+    x: 378.4
+    y: 424.1
+  - src: ../../assets/logos/pp_live/biotech/s01-08.png
+    x: 455.4
+    y: 412.5
+  - src: ../../assets/logos/pp_live/biotech/s01-09.png
+    x: 506.6
+    y: 460.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Lately, more people are googling
+
+    biotech, as breakthroughs pile up'
+  date: ''
+  expl: ''
+  term: biotech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/biotech/biotech.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    synthetic biology get?'
+  lead: ''
+  condition: To get that big, the market must turn AI designs into products that scale, as pharma, food, and chemical firms buy more of what engineered
+    cells make. It must also cut production costs, build enough factory capacity, keep public trust in engineered food, and avoid a biosecurity incident
+    that brings strict rules.
+  note:
+  - We compared forecasts from Precedence, Fortune Business Insights, Mordor and Grand View
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: null
+  cagr: 19
+  y0: 2026

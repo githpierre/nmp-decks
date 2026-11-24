@@ -1,0 +1,536 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would imaging AI
+
+    customers actually pay to solve?'
+  auds:
+  - Radiology teams
+  - Imaging centers
+  - Screening programs
+  - Remote readers
+  - Device makers
+  pains:
+  - - They must fit into PACS so results appear with no extra click
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They sell a tool that rarely has its own payment code from payers
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They must prove on real patients that finding more helps
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 2
+  - - They face device makers who give similar AI with the scanner
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 3
+  - - They lose accuracy when a hospital buys a new scanner model
+    - - 2
+      - 2
+      - 1
+      - 2
+      - 3
+  - - They see radiologists turn off tools that raise false alarms
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which medical imaging AI firm
+
+    has the most complete tech now?'
+  companies:
+  - name: Aidoc
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s05-00.png
+  - name: Viz.ai
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s05-01.png
+  - name: Lunit
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s05-02.png
+  - name: Qure.ai
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s05-03.png
+  - name: Harrison.ai
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s05-04.png
+  - name: Gleamer
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s05-05.png
+  features:
+  - header: Head CT|alerts
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Chest|X-ray
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Breast|screening
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Pathology|AI
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Foundation|model
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Care team|app
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Lung clot|alerts
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for medical imaging AI?'
+  events:
+  - odds: 30
+    impact: 3
+    text: Medicare contractors refuse to pay for most imaging AI, so hospitals stop buying it
+  - odds: 25
+    impact: 3
+    text: GE HealthCare and Siemens Healthineers bundle AI into their scanners and win most imaging AI deals
+  - odds: 20
+    impact: 2
+    text: Google's free MedGemma and other open models make many paid imaging AI tools look overpriced
+  - odds: 20
+    impact: 2
+    text: Hospitals cannot measure a return on imaging AI and cancel contracts with startups
+  - odds: 12
+    impact: 3
+    text: Microsoft bundles AI reports into PowerScribe, squeezing standalone imaging AI startups like Aidoc
+  - odds: 10
+    impact: 1
+    text: Patent suits between incumbents and startups block key imaging AI features from US sales for years
+  - odds: 8
+    impact: 2
+    text: An AI tool misses a cancer on a scan, and the lawsuit makes radiologists distrust AI
+  - odds: 5
+    impact: 2
+    text: A cloud imaging AI vendor leaks millions of patient scans, and hospitals pull back from cloud tools
+  note:
+  - We listed the events that could slow medical imaging ai down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept medical imaging AI
+
+    moving forward, year after year?'
+  events:
+  - year: '1972'
+    text: CT scanners turn bodies into digital images
+    impact: 1
+  - year: '1993'
+    text: DICOM lets images move between machines
+    impact: 1.5
+  - year: '1998'
+    text: Mammogram CAD wins FDA approval
+    impact: 1
+  - year: '2002'
+    text: Medicare pays for mammogram CAD, use soars
+    impact: 1.5
+  - year: '2005'
+    text: PACS replace film, every scan goes digital
+    impact: 1.5
+  - year: '2012'
+    text: ImageNet win shows neural nets can see
+    impact: 2.5
+  - year: '2016'
+    text: Hinton says stop training radiologists
+    impact: 1
+  - year: '2017'
+    text: NIH frees 100,000 chest X-rays for training
+    impact: 1.5
+  - year: '2017'
+    text: FDA clears first cloud deep learning tool
+    impact: 1.5
+  - year: '2018'
+    text: Stroke AI pages specialists, saving minutes
+    impact: 1.5
+  - year: '2018'
+    text: Eye AI cleared to diagnose without doctors
+    impact: 1
+  - year: '2020'
+    text: Medicare add-on payment funds stroke alerts
+    impact: 2
+  - year: '2020'
+    text: AI rebuilds MRI scans twice as fast
+    impact: 1.5
+  - year: '2020'
+    text: Google AI cuts mammogram false alarms
+    impact: 1
+  - year: '2020'
+    text: Covid lung scans spur AI triage tools
+    impact: 1
+  - year: '2021'
+    text: CPT code pays for AI eye exams
+    impact: 1.5
+  - year: '2022'
+    text: UK census finds 29% radiologist shortfall
+    impact: 1.5
+  - year: '2022'
+    text: Lunit IPO shows imaging AI can list
+    impact: 1
+  - year: '2023'
+    text: 'Swedish trial: AI cuts mammogram reads 44%'
+    impact: 2.5
+  - year: '2023'
+    text: Patients pay $40 extra for AI mammograms
+    impact: 1.5
+  - year: '2023'
+    text: GPT-4 learns to read medical images
+    impact: 1.5
+  - year: '2024'
+    text: Medicare fee cuts push radiologists faster
+    impact: 1
+  - year: '2024'
+    text: FDA lets AI tools update without refiling
+    impact: 1.5
+  - year: '2025'
+    text: NHS tests AI on 700,000 mammograms
+    impact: 1.5
+  - year: '2025'
+    text: RadNet buys iCAD to scale breast AI
+    impact: 1
+  - year: '2025'
+    text: AI drafted X-ray reports speed reads 15%
+    impact: 1.5
+  - year: '2025'
+    text: Radiology wins most FDA AI clearances
+    impact: 1
+  - year: '2026'
+    text: FDA clears first imaging foundation model
+    impact: 1.5
+  - year: '2026'
+    text: 'MASAI trial: AI cuts missed cancers 12%'
+    impact: 2.5
+  - year: '2026'
+    text: AI heart plaque scans win billing code
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed medical imaging ai forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: medical-imaging-ai
+  title: 'Where did medical imaging AI
+
+    investors put their money lately?'
+  note:
+  - We added up every equity round of medical imaging ai startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in medical imaging AI?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-00.png
+    x: 343.7
+    y: 283.1
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-01.png
+    x: 394.5
+    y: 270.9
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-02.png
+    x: 462.0
+    y: 270.0
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-03.png
+    x: 535.9
+    y: 284.4
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-04.png
+    x: 772.9
+    y: 282.6
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-05.png
+    x: 293.4
+    y: 304.5
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-06.png
+    x: 601.9
+    y: 297.4
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-07.png
+    x: 704.6
+    y: 302.1
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-08.png
+    x: 822.9
+    y: 295.7
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-09.png
+    x: 791.4
+    y: 373.3
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-10.png
+    x: 309.4
+    y: 400.3
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-11.png
+    x: 495.2
+    y: 379.7
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-12.png
+    x: 597.9
+    y: 385.3
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-13.png
+    x: 726.0
+    y: 378.4
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-14.png
+    x: 249.0
+    y: 405.9
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-15.png
+    x: 395.8
+    y: 405.9
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-16.png
+    x: 545.8
+    y: 408.4
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-17.png
+    x: 675.6
+    y: 408.4
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-18.png
+    x: 357.0
+    y: 477.4
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-19.png
+    x: 466.1
+    y: 474.9
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-20.png
+    x: 523.1
+    y: 486.0
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-21.png
+    x: 583.1
+    y: 484.3
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-22.png
+    x: 727.9
+    y: 483.9
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-23.png
+    x: 812.4
+    y: 482.1
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-24.png
+    x: 251.8
+    y: 498.9
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-25.png
+    x: 306.9
+    y: 513.0
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s10-26.png
+    x: 674.8
+    y: 508.9
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Radiology
+  - Pathology
+  - Workflow
+  note:
+  - We gathered private pure players from funding news, FDA records, and press coverage. We left out device makers, Big Tech, listed
+  - We left out device makers, Big Tech, listed firms like HeartFlow and acquired firms like PathAI
+  - We placed each one by its main product, and all our sources are listed at the end of the report
+ed209p:
+  title: 'Why might Aidoc be winning the
+
+    radiology triage AI market?'
+  companies:
+  - short: Aidoc
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s12-00.png
+  - short: Viz.ai
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s12-01.png
+  - short: RapidAI
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s12-02.png
+  - short: Annalise
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s12-03.png
+  - short: Qure.ai
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s12-04.png
+  criteria:
+  - name: FDA cleared base model
+    why: One model, 14 indications
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: About 2,000 hospitals
+    why: Wide installed base
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: $500M+ war chest
+    why: Funds sales and research
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Broad CT triage menu
+    why: Many findings per scan
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Stroke care franchise
+    why: Core paid use case today
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Pharma revenue line
+    why: Second income stream
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Chest X-ray AI at scale
+    why: High volume screening
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What Is In medical imaging ATI,
+
+    and what stays outside of it?'
+  TL:
+    name: GE HealthCare
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s01-00.png
+    text: leads the FDA list with 100 AlI-enabled device clearances, but most of that AI ships inside the scanners it sells
+  TR:
+    name: Grail
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s01-01.png
+    text: looks for over 50 cancer types in a single blood test, but it reads blood samples, not scans, so it is not imaging AI
+  BL:
+    name: Rad AT
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s01-10.png
+    text: sells to radiologists, but its main product drafts report impressions from dictated findings without looking at images
+  BR:
+    name: Butterfly Network
+    src: ../../assets/logos/pp_live/medical-imaging-ai/s01-11.png
+    text: adds AI guidance to its handheld ultrasound, but its probes still make up about half of its total revenue
+  caption:
+  - Distance to the center reflects how much the AI itself reads or improves medical images, rather than devices or other tests
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/medical-imaging-ai/s01-02.png
+  - ../../assets/logos/pp_live/medical-imaging-ai/s01-03.png
+  - ../../assets/logos/pp_live/medical-imaging-ai/s01-04.png
+  - ../../assets/logos/pp_live/medical-imaging-ai/s01-05.png
+  - ../../assets/logos/pp_live/medical-imaging-ai/s01-06.png
+  - ../../assets/logos/pp_live/medical-imaging-ai/s01-07.png
+  - ../../assets/logos/pp_live/medical-imaging-ai/s01-08.png
+  - ../../assets/logos/pp_live/medical-imaging-ai/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s01-08.png
+    x: 388.5
+    y: 444.2
+  - src: ../../assets/logos/pp_live/medical-imaging-ai/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask
+
+    what AI radiology can really do'
+  date: Lately.
+  expl: AI that reads X-rays and scans spots things in seconds. After many tools won regulatory approval, hospitals and radiologists began asking what AI
+    radiology can really do.
+  term: medical imaging ai
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/medical-imaging-ai/medical-imaging-ai.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the medical imaging AI
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but imaging AI must move from single findings to models that read whole exams, and win more payment codes like the one for heart plaque.
+    It must also prove a clear return to hospitals and keep its prices up while device makers and Big Tech offer AI for free or bundled.
+  note:
+  - We compared forecasts from Grand View, Global Market Insights, Meticulous and MarketsandMarkets
+  - We allowed for free models from Big Tech, and all the sources we used are listed at the end of the report
+  size: 2.6
+  cagr: 24
+  y0: 2026

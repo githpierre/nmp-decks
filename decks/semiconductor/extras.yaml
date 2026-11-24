@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do chipmakers
+
+      actually make money?'
+    axes:
+    - Designs chips
+    - Makes chips
+    - Supplies the
+    - chip industry
+    - Sells finished
+    - chips
+    groups:
+    - name: Chips made by others
+      x: 0.18
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/semiconductor/s06-00.png
+      - src: ../../assets/logos/pp_live/semiconductor/s06-01.png
+      - src: ../../assets/logos/pp_live/semiconductor/s06-02.png
+    - name: Contract chipmaking
+      x: 0.8
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/semiconductor/s06-03.png
+      - src: ../../assets/logos/pp_live/semiconductor/s06-04.png
+      - src: ../../assets/logos/pp_live/semiconductor/s06-05.png
+    - name: Design licenses and royalty
+      x: 0.15
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/semiconductor/s06-07.png
+    - name: Chip design software
+      x: 0.42
+      y: 0.42
+      logos:
+      - src: ../../assets/logos/pp_live/semiconductor/s06-06.png
+    - name: Chipmaking machines
+      x: 0.8
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/semiconductor/s06-08.png
+      - src: ../../assets/logos/pp_live/semiconductor/s06-09.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

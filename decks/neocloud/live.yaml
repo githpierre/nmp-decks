@@ -1,53 +1,96 @@
+ed047p:
+  type: pp_donutv
+  variant: B
+  title: 'What is the neocloud
+
+    market really made of?'
+  cats:
+  - name: Dedicated clusters
+    p: 60
+    logos:
+    - ../../assets/logos/nscale.png
+    - ../../assets/logos/fluidstack--symbol.png
+  - name: GPU clouds
+    p: 18
+    logos:
+    - ../../assets/logos/lambda--symbol.png
+    - ../../assets/logos/vultr.png
+    - ../../assets/logos/runpod--symbol.png
+  - name: Inference clouds
+    p: 13
+    logos:
+    - ../../assets/logos/fireworks-ai.png
+    - ../../assets/logos/baseten--symbol.png
+    - ../../assets/logos/modal.png
+  - name: Compute marketplaces
+    p: 4
+    logos:
+    - ../../assets/logos/vast-ai.png
+    - ../../assets/logos/san-francisco-compute.png
+    - ../../assets/logos/hydra-host.png
+  - name: Training platforms
+    p: 3
+    logos:
+    - ../../assets/logos/lightning-ai.png
+    - ../../assets/logos/together-ai.png
+  - name: Sovereign AI clouds
+    p: 2
+    logos:
+    - ../../assets/logos/nebul.png
+    - ../../assets/logos/prime-intellect.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
 ed058:
   type: pp_pains
   title: 'Which problems would neocloud
 
     customers actually pay to solve?'
   auds:
-  - AI startups
+  - AI labs
+  - Big clouds
+  - App startups
   - Enterprise teams
-  - Research labs
-  - App builders
-  - Crypto miners
+  - Public agencies
   pains:
-  - - They get only part of the Nvidia GPUs they order, and often late
+  - - They wait months for the newest Nvidia GPUs they need
     - - 3
-      - 2
-      - 2
-      - 2
       - 3
+      - 2
+      - 2
+      - 2
   - - They see GPU rental prices swing sharply within a few months
-    - - 3
-      - 2
-      - 2
-      - 3
-      - 2
-  - - They face failures when new racks first run at full scale
-    - - 3
-      - 2
-      - 3
-      - 2
-      - 2
-  - - They struggle to keep every costly GPU busy all day and night
-    - - 3
-      - 1
-      - 2
-      - 2
-      - 3
-  - - They lose customers to hyperscalers that keep cutting prices
-    - - 2
-      - 3
-      - 1
-      - 2
-      - 2
-  - - They carry heavy debt on chips that age in just a few years
     - - 2
       - 1
+      - 3
+      - 2
       - 1
+  - - They lose days of work when a large cluster fails mid-run
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  - - They pay for reserved GPUs that sit idle between jobs
+    - - 2
       - 1
       - 3
+      - 3
+      - 2
+  - - They cannot keep sensitive data inside their own country
+    - - 1
+      - 1
+      - 1
+      - 2
+      - 3
+  - - They struggle to find enough powered space in one place
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 2
   note:
-  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - We built this from the customer pains of our pain-points chapter, cloud reviews and analyst reports
   - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
 ed099p:
   title: 'Who has built the full neocloud stack,
@@ -264,6 +307,72 @@ ed168p:
   note:
   - We added up every equity round of neocloud startups in our tracker over the last twelve months
   - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Inference clouds
+    names:
+    - Baseten
+    - fal
+    v: $11.2B
+    pct: 45% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/baseten--symbol.png
+    - src: ../../assets/logos/fal.png
+    - src: ../../assets/logos/fireworks-ai.png
+  - name: Dedicated clusters
+    names:
+    - Firmus
+    - Fluidstack
+    v: $7.1B
+    pct: 29% of total
+    w: 64.0
+    logos:
+    - src: ../../assets/logos/firmus--symbol.png
+    - src: ../../assets/logos/fluidstack--symbol.png
+    - src: ../../assets/logos/nscale.png
+  - name: GPU clouds
+    names:
+    - Crusoe
+    - TensorWave
+    v: $5.3B
+    pct: 21% of total
+    w: 47.3
+    logos:
+    - src: ../../assets/logos/crusoe.png
+    - src: ../../assets/logos/tensorwave--symbol.png
+    - src: ../../assets/logos/gmi-cloud.png
+  - name: Training platforms
+    names:
+    - Together AI
+    - Kluisz.ai
+    v: $822M
+    pct: 3% of total
+    w: 7.4
+    logos:
+    - src: ../../assets/logos/together-ai.png
+    - src: ../../assets/logos/kluisz-ai.png
+  - name: Compute marketplaces
+    names:
+    - Hydra Host
+    - San Francisco Compute
+    v: $170M
+    pct: under 1% of total
+    w: 1.5
+    logos:
+    - src: ../../assets/logos/hydra-host.png
+    - src: ../../assets/logos/san-francisco-compute.png
+    - src: ../../assets/logos/hyperbolic.png
+  - name: Sovereign AI clouds
+    names:
+    - Prime Intellect
+    - Sapience AI
+    v: $148M
+    pct: under 1% of total
+    w: 1.3
+    logos:
+    - src: ../../assets/logos/prime-intellect.png
+    - src: ../../assets/logos/sapience-ai.png
+    - src: ../../assets/logos/tensorx.png
 ed171p:
   title: 'Who are the top companies
 
@@ -473,9 +582,9 @@ ed007p:
     src: ../../assets/logos/pp_live/neocloud/s01-10.png
     text: sells serverless GPU compute to AI developers, but much of it runs on capacity rented from AWS, Google Cloud and Oracle
   BR:
-    name: HGIED
+    name: IREN
     src: ../../assets/logos/pp_live/neocloud/s01-11.png
-    text: '|ellerns to wllntél Gtovin Biikeerht Bee by bean nt ace a tiea xu ‘OMlathntg) Gal) ISS vet Seite fiscal 2026 revenue'
+    text: plans to wind down bitcoin mining by year end to run AI clouds, but mining still made over 80% of its fiscal 2026 revenue
   caption:
   - Distance to the center reflects how much of a company’s business is renting out its own GPU capacity for AI as a cloud
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
@@ -517,28 +626,28 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'The term neocloud is showing up more
+  title: 'Now, more and more people
 
-    and more as GPU clouds sign big deals'
+    are googling GPU cloud'
   date: In recent months.
-  expl: Neoclouds are cloud companies that rent GPUs for AI. CoreWeave went public, Nebius and Nscale signed multibillion-dollar deals with Microsoft and
-    Meta, and the word started appearing in every investor note. A term almost nobody used became a market.
-  term: neocloud
+  expl: Neoclouds are cloud companies that rent GPUs for AI. CoreWeave went public, Nebius and Nscale signed multibillion-dollar deals with Microsoft
+    and Meta, and AI teams started to look for GPUs outside the big clouds. Searches for GPU cloud took off with them.
+  term: GPU cloud
   note:
   - We tracked how often people around the world googled this term over the last five years
   - We used Google Trends, and you will find all the sources we used at the end of the report
-  csv: assets/trends/neocloud/neocloud.csv
+  csv: assets/trends/neocloud/gpu-cloud.csv
 ed052p:
   type: pp_cagr
   title: 'How much room is left
 
     for neocloud to grow?'
   lead: 'To fill that room, '
-  condition: neoclouds must keep getting new chips before hyperscalers, fill every new cluster with long contracts, and keep lenders willing to fund GPU
-    fleets. They must also keep serving inference cheaper than big tech, as token prices keep falling every year.
+  condition: neoclouds must keep getting new chips before hyperscalers, fill every new cluster with long contracts, and keep lenders willing to
+    fund GPU fleets. They must also keep serving inference cheaper than big tech, as token prices keep falling every year.
   note:
-  - We compared growth paths from Synergy, Gartner, McKinsey and the IEA, and aligned their timelines to build a realistic range
-  - We allowed for falling token prices and hyperscaler competition, and all the sources we used are listed at the end of the report
+  - We compared growth paths from Synergy, Gartner, McKinsey and the IEA, and aligned their timelines into a realistic range
+  - We allowed for falling token prices and hyperscaler competition, and all our sources are listed at the end of the report
   size: 40
   cagr: 30
   y0: 2026

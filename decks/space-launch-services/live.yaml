@@ -1,0 +1,599 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would satellite
+
+    operators pay to solve at launch?'
+  auds:
+  - Satellite operators
+  - Defense agencies
+  - Space startups
+  - Imaging firms
+  - Science agencies
+  pains:
+  - - They wait months for a ride after their rocket gets grounded
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They struggle to get a dedicated ride to the orbit they need
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 3
+  - - They lose the satellite and a year of work when a rocket fails
+    - - 3
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They depend on SpaceX, which flies most of the world’s launches
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They pay more to insure satellites flying on unproven rockets
+    - - 2
+      - 1
+      - 3
+      - 2
+      - 1
+  - - They must wait for the FAA to license each new launch or change
+    - - 1
+      - 3
+      - 2
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which launch provider has
+
+    the most complete tech today?'
+  companies:
+  - name: SpaceX
+    src: ../../assets/logos/pp_live/space-launch-services/s05-00.png
+  - name: Blue Origin
+    src: ../../assets/logos/pp_live/space-launch-services/s05-01.png
+  - name: Rocket Lab
+    src: ../../assets/logos/pp_live/space-launch-services/s05-02.png
+  - name: ULA
+    src: ../../assets/logos/pp_live/space-launch-services/s05-03.png
+  - name: Arianespace
+    src: ../../assets/logos/pp_live/space-launch-services/s05-04.png
+  - name: Firefly
+    src: ../../assets/logos/pp_live/space-launch-services/s05-05.png
+  features:
+  - header: Reusable|booster
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Heavy|rocket
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Small|rocket
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Crew to|orbit
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Sells|engines
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Two launch|countries
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: 100+|launches/yr
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    space launch down?'
+  events:
+  - odds: 40
+    impact: 2
+    text: Small launch startups like Isar Aerospace and RFA struggle to raise money as satellites shift to rideshare
+  - odds: 35
+    impact: 2
+    text: Rocket Lab Neutron or Relativity Terran R suffers a failure on early flights and loses customers
+  - odds: 35
+    impact: 2
+    text: NASA budget cuts cancel science and moon missions that small launch firms counted on
+  - odds: 30
+    impact: 3
+    text: SpaceX Starship reaches full reuse and cuts launch prices so far that rivals cannot compete
+  - odds: 30
+    impact: 2
+    text: Blue Origin New Glenn and ULA Vulcan delays leave Amazon Leo and the Pentagon short of rockets
+  - odds: 25
+    impact: 2
+    text: The FAA slows launch licenses after an accident, stalling flight rates across the US industry
+  - odds: 15
+    impact: 1
+    text: Starlink and Amazon Leo finish deployment and demand for dedicated launches falls off sharply
+  - odds: 12
+    impact: 3
+    text: A Starship explosion damages a launch pad or causes injuries and grounds the program for a year
+  note:
+  - We listed the events that could slow space launch services down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed space launch
+
+    forward, year after year?'
+  events:
+  - year: '1957'
+    text: Sputnik proves rockets can reach orbit
+    impact: 1
+  - year: '1965'
+    text: Early Bird proves satellites make money
+    impact: 1.5
+  - year: '1980'
+    text: Arianespace sells launches as a business
+    impact: 1.5
+  - year: '1984'
+    text: US law opens launch to private firms
+    impact: 1.5
+  - year: '1986'
+    text: Challenger ends shuttle commercial flights
+    impact: 2
+  - year: '1990'
+    text: Long March wins its first foreign client
+    impact: 0.5
+  - year: '1995'
+    text: Russian Proton enters the Western market
+    impact: 1
+  - year: '1997'
+    text: Iridium needs dozens of launches at once
+    impact: 1
+  - year: '2004'
+    text: SpaceShipOne flight spurs new launch law
+    impact: 1
+  - year: '2006'
+    text: NASA COTS pays firms to build rockets
+    impact: 2.5
+  - year: '2008'
+    text: Falcon 1 shows startups can reach orbit
+    impact: 1
+  - year: '2012'
+    text: Dragon delivers cargo to the ISS
+    impact: 1
+  - year: '2013'
+    text: Falcon 9 undercuts rivals on GEO jobs
+    impact: 1.5
+  - year: '2014'
+    text: NASA hires SpaceX and Boeing for crews
+    impact: 1
+  - year: '2015'
+    text: Falcon 9 booster lands, reuse becomes real
+    impact: 2.5
+  - year: '2017'
+    text: Reflown booster cuts launch costs
+    impact: 2
+  - year: '2017'
+    text: PSLV launches 104 satellites at once
+    impact: 1
+  - year: '2018'
+    text: Electron gives small satellites a ride
+    impact: 1.5
+  - year: '2019'
+    text: Starlink makes SpaceX its own top customer
+    impact: 2.5
+  - year: '2020'
+    text: Crew Dragon flies astronauts commercially
+    impact: 1
+  - year: '2020'
+    text: FAA streamlines launch licensing rules
+    impact: 1
+  - year: '2021'
+    text: Rideshare flights cut prices for smallsats
+    impact: 1.5
+  - year: '2022'
+    text: War cuts Soyuz off from Western clients
+    impact: 1.5
+  - year: '2022'
+    text: Amazon books 83 launches for Kuiper
+    impact: 2
+  - year: '2023'
+    text: Ariane 5 retires, leaving Europe short
+    impact: 1
+  - year: '2024'
+    text: Starship booster caught by its launch tower
+    impact: 2
+  - year: '2025'
+    text: New Glenn adds a second heavy lifter
+    impact: 1.5
+  - year: '2025'
+    text: SpaceX flies 165 times in one year
+    impact: 1.5
+  - year: '2026'
+    text: SpaceX IPO draws public money to launch
+    impact: 1.5
+  - year: '2026'
+    text: Starship reaches orbit with Starlink V3
+    impact: 2
+  note:
+  - We kept the events we believe pushed space launch services forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: space-launch-services
+  title: 'Where did space launch investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of space launch services startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in space launch services?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-00.png
+    x: 360.6
+    y: 265.5
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-01.png
+    x: 471.0
+    y: 268.5
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-02.png
+    x: 719.1
+    y: 267.9
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-03.png
+    x: 274.1
+    y: 300.9
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-04.png
+    x: 563.4
+    y: 295.3
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-05.png
+    x: 773.8
+    y: 287.1
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-06.png
+    x: 364.5
+    y: 378.9
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-07.png
+    x: 496.1
+    y: 376.7
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-08.png
+    x: 555.9
+    y: 378.0
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-09.png
+    x: 675.6
+    y: 386.1
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-10.png
+    x: 734.4
+    y: 403.3
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-11.png
+    x: 300.2
+    y: 405.0
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-12.png
+    x: 607.1
+    y: 408.0
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-13.png
+    x: 290.8
+    y: 487.3
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-14.png
+    x: 375.9
+    y: 478.9
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-15.png
+    x: 756.2
+    y: 485.8
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-16.png
+    x: 521.6
+    y: 507.4
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-17.png
+    x: 591.0
+    y: 510.4
+  - src: ../../assets/logos/pp_live/space-launch-services/s10-18.png
+    x: 689.4
+    y: 497.8
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Medium & heavy
+  - Small launch
+  - Tugs & cargo
+  note:
+  - We left out listed companies and incumbents like SpaceX, Rocket Lab and ULA
+  - We placed each one by its focus, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'Why did these launch startups
+
+    fail, and how did they end?'
+  causes:
+  - Launch|failures
+  - Ran out|of cash
+  - Funding|fell through
+  - Left the|business
+  rows:
+  - name: Virgin Orbit
+    ending: Sold for $36M
+    start: '2017'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/space-launch-services/s11-00.png
+    ini: V
+    slug: virgin-orbit
+    domain: virginorbit.com
+  - name: Vector Launch
+    ending: Went bankrupt
+    start: '2016'
+    end: '2019'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/space-launch-services/s11-01.png
+    ini: V
+    slug: vector-launch
+    domain: vectorlaunch.com
+  - name: Astra
+    ending: Taken private
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/space-launch-services/s11-02.png
+    ini: A
+    slug: astra
+    domain: astra.com
+  - name: ABL Space
+    ending: Quit launch
+    start: '2017'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/space-launch-services/s11-03.png
+    ini: A
+    slug: abl-space
+    domain: ablspacesystems.com
+  - name: Spaceflight Inc
+    ending: Sold, then closed
+    start: '2009'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/space-launch-services/s11-04.png
+    ini: S
+    slug: spaceflight-inc
+    domain: spaceflight.com
+  note:
+  - We tracked the space launch services startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is SpaceX winning
+
+    the space launch market?'
+  companies:
+  - short: SpaceX
+    src: ../../assets/logos/pp_live/space-launch-services/s12-00.png
+  - short: Rocket Lab
+    src: ../../assets/logos/pp_live/space-launch-services/s12-01.png
+  - short: Blue Origin
+    src: ../../assets/logos/pp_live/space-launch-services/s12-02.png
+  - short: ULA
+    src: ../../assets/logos/pp_live/space-launch-services/s12-03.png
+  - short: Arianespace
+    src: ../../assets/logos/pp_live/space-launch-services/s12-04.png
+  - short: Firefly
+    src: ../../assets/logos/pp_live/space-launch-services/s12-05.png
+  criteria:
+  - name: Reusable orbital boosters
+    why: Each flight costs far less
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Over 100 launches a year
+    why: Unmatched launch cadence
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Crewed orbital flights
+    why: Only US ride to the ISS
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Engines built in house
+    why: Controls cost and supply
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: NSSL Phase 3 contracts
+    why: Locks in US military missions
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Heavy lift rocket flying
+    why: Wins big payload missions
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Small sat launch offer
+    why: Serves fast growing smallsats
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as space launch,
+
+    and what only looks like it?'
+  TL:
+    name: Exolaunch
+    src: ../../assets/logos/pp_live/space-launch-services/s01-00.png
+    text: books satellites onto SpaceX rideshare flights and builds the deployers that release them, but it has no rocket
+  TR:
+    name: L3Harris
+    src: ../../assets/logos/pp_live/space-launch-services/s01-02.png
+    text: makes the RS-25 engines of NASA's SLS moon rocket, but it supplies parts rather than launches and earns most from defense
+  BL:
+    name: SpaceX
+    src: ../../assets/logos/pp_live/space-launch-services/s01-10.png
+    text: is by far the busiest launcher on the planet, but Starlink brought in about 61% of its 2025 revenue, against 22% for launch
+  BR:
+    name: Rocket Lab
+    src: ../../assets/logos/pp_live/space-launch-services/s01-11.png
+    text: is best known for its Electron rocket, but about two thirds of its 2025 revenue came from satellites and their parts
+  caption:
+  - Distance to the center reflects how much revenue comes from flying payloads to space on a company’s own rockets
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/space-launch-services/s01-01.png
+  - ../../assets/logos/pp_live/space-launch-services/s01-03.png
+  - ../../assets/logos/pp_live/space-launch-services/s01-04.png
+  - ../../assets/logos/pp_live/space-launch-services/s01-05.png
+  - ../../assets/logos/pp_live/space-launch-services/s01-06.png
+  - ../../assets/logos/pp_live/space-launch-services/s01-07.png
+  - ../../assets/logos/pp_live/space-launch-services/s01-08.png
+  - ../../assets/logos/pp_live/space-launch-services/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/space-launch-services/s01-01.png
+    x: 483.6
+    y: 277.9
+  - src: ../../assets/logos/pp_live/space-launch-services/s01-03.png
+    x: 412.7
+    y: 348.2
+  - src: ../../assets/logos/pp_live/space-launch-services/s01-04.png
+    x: 478.9
+    y: 352.5
+  - src: ../../assets/logos/pp_live/space-launch-services/s01-05.png
+    x: 545.8
+    y: 345.6
+  - src: ../../assets/logos/pp_live/space-launch-services/s01-06.png
+    x: 372.2
+    y: 394.5
+  - src: ../../assets/logos/pp_live/space-launch-services/s01-07.png
+    x: 448.9
+    y: 404.8
+  - src: ../../assets/logos/pp_live/space-launch-services/s01-08.png
+    x: 509.8
+    y: 406.3
+  - src: ../../assets/logos/pp_live/space-launch-services/s01-09.png
+    x: 485.4
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up
+
+    Rocket Lab as small rockets take off'
+  date: CO Lately.
+  expl: Rocket Lab became the best-known small rocket company once its Electron launches turned routine, and a bigger rocket is on the way. People started
+    searching who it is and whether private launchers can really compete.
+  term: space launch services
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/space-launch-services/space-launch-services.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for auto finance to grow?'
+  lead: 'To fill that room, '
+  condition: vehicle affordability must remain manageable and lenders must keep funding new, used and EV purchases through efficient digital channels.
+  note:
+  - We compared forecasts from Grand View Research, Mordor Intelligence and Fortune Business Insights
+  - We adjusted each one to our market definition, and all the sources are included at the end of the report
+  size: 14.5
+  cagr: 8
+  y0: null

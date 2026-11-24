@@ -1,0 +1,516 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved
+
+    pain points in femtech?'
+  auds:
+  - Large employers
+  - Health plans
+  - IVF clinics
+  - Expectant mothers
+  - OB-GYN practices
+  pains:
+  - - They lack the research on women’s health they need to prove value
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 2
+  - - They struggle to find doctors who know menopause care well
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They cannot bill insurers because many conditions lack codes
+    - - 1
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They fear their sensitive health data could leak or be misused
+    - - 2
+      - 1
+      - 2
+      - 3
+      - 1
+  - - They rarely trust app data enough to use it in clinical care
+    - - 1
+      - 1
+      - 3
+      - 1
+      - 3
+  - - They wait a year or more for each employer contract to be signed
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which femtech app offers the
+
+    most complete tech today?'
+  companies:
+  - name: Nat. Cycles
+    src: ../../assets/logos/pp_live/femtech/s05-00.png
+  - name: Flo
+    src: ../../assets/logos/pp_live/femtech/s05-01.png
+  - name: Ovia
+    src: ../../assets/logos/pp_live/femtech/s05-02.png
+  - name: Mira
+    src: ../../assets/logos/pp_live/femtech/s05-03.png
+  - name: Clue
+    src: ../../assets/logos/pp_live/femtech/s05-04.png
+  features:
+  - header: Own|device
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: FDA birth|control
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Anonymous|mode
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Human|coaches
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Employer|plans
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Online|Rx
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Partner|sharing
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    femtech down?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Apple, Samsung and Oura bundle free cycle and menopause tracking, so paid femtech apps lose subscribers
+  - odds: 40
+    impact: 2
+    text: Venture funding for women's health stays below 2% of digital health dollars, starving Series B rounds
+  - odds: 35
+    impact: 2
+    text: Medicaid cuts from the 2025 budget law shrink reimbursement for maternal health and prenatal care startups
+  - odds: 25
+    impact: 3
+    text: Employers cut fertility and menopause benefits to save costs, hurting Maven, Carrot and Progyny growth
+  - odds: 20
+    impact: 3
+    text: A state attorney general subpoenas period tracker data in an abortion case, and users delete apps
+  - odds: 20
+    impact: 2
+    text: The FTC fines another fertility app under the Health Breach Notification Rule for sharing data with Meta
+  - odds: 12
+    impact: 2
+    text: The FDA tightens rules on app-based contraception claims after Natural Cycles style pregnancy complaints resurface
+  - odds: 8
+    impact: 1
+    text: A widely used at-home hormone test gives false results and triggers an FDA recall and lawsuits
+  note:
+  - We listed the events that could slow femtech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed femtech
+
+    forward, year after year?'
+  events:
+  - year: '1960'
+    text: FDA approves the Pill, women gain control
+    impact: 1.5
+  - year: '1977'
+    text: First home pregnancy test hits shelves
+    impact: 1
+  - year: '1978'
+    text: First IVF baby opens fertility medicine
+    impact: 1.5
+  - year: '1993'
+    text: NIH law requires women in clinical trials
+    impact: 1.5
+  - year: '2002'
+    text: WHI study leaves menopause care underserved
+    impact: 1
+  - year: '2012'
+    text: ASRM drops experimental label on egg freezing
+    impact: 2
+  - year: '2012'
+    text: ACA makes birth control free of copays
+    impact: 1.5
+  - year: '2013'
+    text: Clue app turns period tracking digital
+    impact: 1.5
+  - year: '2014'
+    text: Apple and Facebook pay for egg freezing
+    impact: 2.5
+  - year: '2015'
+    text: Apple adds cycle tracking to the iPhone
+    impact: 1.5
+  - year: '2015'
+    text: Thinx ads make periods a public topic
+    impact: 1
+  - year: '2016'
+    text: Clue's Ida Tin coins the word femtech
+    impact: 1.5
+  - year: '2018'
+    text: FDA clears Natural Cycles as birth control
+    impact: 2
+  - year: '2018'
+    text: Fitbit adds female health tracking
+    impact: 1
+  - year: '2019'
+    text: Progyny IPO shows employers pay for fertility
+    impact: 1.5
+  - year: '2019'
+    text: Apple's women's health study legitimizes data
+    impact: 1
+  - year: '2020'
+    text: Covid moves women's care to telehealth
+    impact: 2
+  - year: '2021'
+    text: Maven becomes first femtech unicorn
+    impact: 1.5
+  - year: '2021'
+    text: Organon spins off to focus on women
+    impact: 1
+  - year: '2022'
+    text: Roe falls, women seek private remote care
+    impact: 2.5
+  - year: '2022'
+    text: Apple Watch temperature estimates ovulation
+    impact: 1.5
+  - year: '2022'
+    text: UK launches its first women's health strategy
+    impact: 1
+  - year: '2023'
+    text: Veozah offers a hormone-free hot flash drug
+    impact: 1.5
+  - year: '2023'
+    text: Opill becomes first over the counter pill
+    impact: 2
+  - year: '2024'
+    text: White House funds $100M women's health push
+    impact: 1.5
+  - year: '2025'
+    text: FDA clears at-home cervical cancer screening
+    impact: 1.5
+  - year: '2025'
+    text: White House cuts IVF drug prices
+    impact: 1.5
+  - year: '2025'
+    text: Lynkuet adds a second hormone-free option
+    impact: 1
+  - year: '2025'
+    text: FDA drops HRT boxed warning, care booms
+    impact: 2.5
+  - year: '2026'
+    text: Six HRT labels lose boxed warnings
+    impact: 1
+  note:
+  - We kept the events we believe pushed femtech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: femtech
+  title: 'Where did femtech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of femtech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the femtech market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/femtech/s10-00.png
+    x: 349.3
+    y: 264.4
+  - src: ../../assets/logos/pp_live/femtech/s10-01.png
+    x: 183.0
+    y: 294.0
+  - src: ../../assets/logos/pp_live/femtech/s10-02.png
+    x: 236.6
+    y: 300.0
+  - src: ../../assets/logos/pp_live/femtech/s10-03.png
+    x: 293.1
+    y: 297.4
+  - src: ../../assets/logos/pp_live/femtech/s10-04.png
+    x: 453.0
+    y: 285.0
+  - src: ../../assets/logos/pp_live/femtech/s10-05.png
+    x: 648.9
+    y: 370.3
+  - src: ../../assets/logos/pp_live/femtech/s10-06.png
+    x: 189.4
+    y: 389.1
+  - src: ../../assets/logos/pp_live/femtech/s10-07.png
+    x: 250.7
+    y: 404.1
+  - src: ../../assets/logos/pp_live/femtech/s10-08.png
+    x: 313.3
+    y: 404.1
+  - src: ../../assets/logos/pp_live/femtech/s10-09.png
+    x: 376.3
+    y: 378.0
+  - src: ../../assets/logos/pp_live/femtech/s10-10.png
+    x: 440.1
+    y: 378.6
+  - src: ../../assets/logos/pp_live/femtech/s10-11.png
+    x: 503.6
+    y: 389.1
+  - src: ../../assets/logos/pp_live/femtech/s10-12.png
+    x: 570.9
+    y: 401.1
+  - src: ../../assets/logos/pp_live/femtech/s10-13.png
+    x: 712.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/femtech/s10-14.png
+    x: 776.6
+    y: 410.8
+  - src: ../../assets/logos/pp_live/femtech/s10-15.png
+    x: 317.8
+    y: 478.9
+  - src: ../../assets/logos/pp_live/femtech/s10-16.png
+    x: 460.7
+    y: 492.9
+  - src: ../../assets/logos/pp_live/femtech/s10-17.png
+    x: 533.8
+    y: 484.3
+  - src: ../../assets/logos/pp_live/femtech/s10-18.png
+    x: 642.2
+    y: 473.1
+  - src: ../../assets/logos/pp_live/femtech/s10-19.png
+    x: 769.9
+    y: 489.0
+  - src: ../../assets/logos/pp_live/femtech/s10-20.png
+    x: 190.1
+    y: 505.3
+  - src: ../../assets/logos/pp_live/femtech/s10-21.png
+    x: 254.4
+    y: 509.1
+  - src: ../../assets/logos/pp_live/femtech/s10-22.png
+    x: 376.3
+    y: 512.8
+  - src: ../../assets/logos/pp_live/femtech/s10-23.png
+    x: 699.4
+    y: 520.3
+  cols:
+  - Preconception
+  - Perinatal
+  - Midlife & conditions
+  rows:
+  - Software self-manage
+  - Care delivery & benefits
+  - Diagnostics & devices
+  note:
+  - We left out general wellness apps and kept companies built around women’s biology or care
+  - We placed each pure player by its main focus, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is Flo Health winning
+
+    the period tracking market?'
+  companies:
+  - short: Flo
+    src: ../../assets/logos/pp_live/femtech/s12-00.png
+  - short: Clue
+    src: ../../assets/logos/pp_live/femtech/s12-01.png
+  - short: Nat. Cycles
+    src: ../../assets/logos/pp_live/femtech/s12-02.png
+  - short: Ovia
+    src: ../../assets/logos/pp_live/femtech/s12-03.png
+  - short: Glow
+    src: ../../assets/logos/pp_live/femtech/s12-04.png
+  criteria:
+  - name: 70M+ monthly users
+    why: Most used cycle app
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Valued above $1B
+    why: Funds AI and medical content
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Free core tracking
+    why: Grows a huge user base
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Pregnancy tracking mode
+    why: Keeps users after conception
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Anonymous Mode
+    why: Protects sensitive data
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: FDA cleared birth control
+    why: Medical grade use case
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Employer and plan deals
+    why: Paid by health benefits
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as femtech,
+
+    and what falls outside?'
+  TL:
+    name: Oura
+    src: ../../assets/logos/pp_live/femtech/s01-00.png
+    text: now has more women than men among its users and tracks cycles, but it remains a general health wearable
+  TR:
+    name: Thinx
+    src: ../../assets/logos/pp_live/femtech/s01-02.png
+    text: makes period underwear designed specifically for women, but beyond its absorbent fabric there is little technology in the product
+  BL:
+    name: Progyny
+    src: ../../assets/logos/pp_live/femtech/s01-10.png
+    text: manages fertility benefits for 7 5 employers, which makes it closer to health insurance infrastructure than to i - a women's health product
+  BR:
+    name: Hims & Hers
+    src: ../../assets/logos/pp_live/femtech/s01-11.png
+    text: offers telehealth services for women, but it is a mass-market brand that started out selling hair loss 5 treatments to men iS
+  caption:
+  - Distance to the center reflects how much a product is built around women's health needs, rather than simply marketed to women
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/femtech/s01-01.png
+  - ../../assets/logos/pp_live/femtech/s01-03.png
+  - ../../assets/logos/pp_live/femtech/s01-04.png
+  - ../../assets/logos/pp_live/femtech/s01-05.png
+  - ../../assets/logos/pp_live/femtech/s01-06.png
+  - ../../assets/logos/pp_live/femtech/s01-07.png
+  - ../../assets/logos/pp_live/femtech/s01-08.png
+  - ../../assets/logos/pp_live/femtech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/femtech/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/femtech/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/femtech/s01-04.png
+    x: 374.8
+    y: 362.6
+  - src: ../../assets/logos/pp_live/femtech/s01-05.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/femtech/s01-06.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/femtech/s01-07.png
+    x: 445.3
+    y: 394.9
+  - src: ../../assets/logos/pp_live/femtech/s01-08.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/femtech/s01-09.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'The word femtech is showing up
+
+    more and more in Google searches'
+  date: ''
+  expl: ''
+  term: femtech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/femtech/femtech.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    the femtech market get?'
+  lead: ''
+  condition: To get that big, the market must win insurance billing for more women’s conditions, and prove to employers that its care lowers their costs.
+    It must also close research gaps, protect women’s data, and bring proven care to Europe, Asia, and the rest of the world.
+  note:
+  - We compared forecasts from Precedence, Grand View, Fortune Business Insights and Global Market Insights
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 12.5
+  cagr: 14
+  y0: 2026

@@ -1,0 +1,442 @@
+# Extra slides of the AI data center deck (twins of the live page + signals from research ch. 11), Claude 22-23 Nov 2026
+- after: ed104
+  link: 'ed104: Leases of 10 to 20 years with strong tenants, which let lenders fund the build'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do the AI data center
+
+      builders actually make money?'
+    axes:
+    - Leases the building
+    - Rents the GPUs
+    - Converted
+    - mining sites
+    - New AI
+    - campuses
+    groups:
+    - name: Halls leased by ex miners
+      x: 0.2
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-05.png
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-06.png
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-07.png
+    - name: GPU cloud on mining sites
+      x: 0.84
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-08.png
+    - name: Build to suit campus leases
+      x: 0.2
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-00.png
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-01.png
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-02.png
+    - name: Campus plus own AI cloud
+      x: 0.8
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-03.png
+      - src: ../../assets/logos/pp_live/ai-data-center/s06-04.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xa_cw_curve
+    type: pp_curve
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'CoreWeave’s AI data center sales
+
+      grew 3x in 5 quarters'
+    points:
+    - - Q2 2025
+      - 1.21
+    - - Q3 2025
+      - 1.365
+    - - Q4 2025
+      - 1.57
+    - - Q1 2026
+      - 2.08
+    - - Q2 2026
+      - 2.58
+    - - Q3 2026
+      - 3.661
+    labs:
+    - $1.2B
+    - $1.4B
+    - $1.6B
+    - $2.1B
+    - $2.6B
+    - $3.7B
+    forecast: 0
+    zero: true
+    lastlines:
+    - of CoreWeave revenue
+    - in a single quarter
+    big: 3x
+    unit: ' in 5 quarters'
+    paras:
+    - CoreWeave revenue grew 2.7 times in a year.
+    - Its revenue backlog reached about $133B.
+    - Active power reached about 1.7 GW, with more than 4.6 GW contracted.
+    note:
+    - We used CoreWeave total revenue for each quarter, from its earnings releases and filings
+    - Each point is a reported figure, and all our sources are listed at the end of the report
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: CoreWeave Q3 2026 revenue $3.7B, up 168% in a year
+    url: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm
+    date: '2026-11-13'
+    quote: Revenue for the three months ended September 30, 2026 increased by $2.3 billion, or 168%, compared to the three months ended September 30, 2025.
+- after: xa_cw_curve
+  link: ed032, signal 2 of the list
+  slide:
+    id: xa_wulf
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'TeraWulf’s rent from AI sites grew
+
+      almost nine times in a year, to $63M'
+    t:
+      9: $7.2M
+      10: Q3 2025
+      12: $63M
+      13: Q3 2026
+      15: ×8.7
+      16: WHY IT IS HOT
+      17: 'A former bitcoin miner now earns rent from AI tenants: TeraWulf’s AI lease revenue reached $63M in the third quarter of 2026, against $7.2M a year earlier.
+
+
+
+        These are rents already earned. Its signed leases, worth about $27B, are still mostly being built.'
+    vbars:
+    - 7.203
+    - 62.986
+    note: We compared TeraWulf’s AI lease revenue for the quarters to September 30, 2025 and 2026, in its results of November 6
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: TeraWulf AI (HPC) lease revenue $63M in Q3 2026 against $7.2M a year earlier
+    url: https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/a_wulfearningsreleaseq32026.htm
+    date: '2026-11-06'
+    quote: HPC lease revenue | 62,986 | 7,203
+  - claim: TeraWulf has about $27B of contracted lease revenue on 839 MW
+    url: https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001628280-26-071306/terawulfq32026investorpr.htm
+    date: '2026-11-06'
+    quote: 839 MW CONTRACTED CRITICAL IT ~$27B CONTRACTED REVENUE
+- after: xa_wulf
+  link: ed032, signal 3 of the list
+  slide:
+    id: xa_iea
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Satellite images show AI campuses
+
+      grew ten times in two years, to 17 GW'
+    t:
+      9: 1.7 GW
+      10: Sep 2024
+      12: 17 GW
+      13: Sep 2026
+      15: ×10
+      16: WHY IT IS HOT
+      17: 'The IEA tracked 93 campuses built only for AI from space, including big tech’s own sites: their likely power grew from about 1.7 GW to 17 GW in 24 months.
+
+
+
+        This is the size of the buildings seen, not power already switched on.'
+    vbars:
+    - 1.7
+    - 17
+    note: We used the IEA World Energy Outlook of November 19, 2026, where the 2024 point is 17 GW divided by its tenfold rise
+    fresh:
+      period: month
+      end: 2026-09
+  sources:
+  - claim: IEA tracked 93 AI campuses whose inferred potential capacity grew tenfold in 24 months to 17 GW
+    url: https://www.iea.org/files/41082112-1153-4b16-b738-d44fb273dfd9/WorldEnergyOutlook2026.pdf
+    date: '2026-11-19'
+    quote: inferred potential capacity associated with such data centres growing 10-fold in just 24 months to reach 17 GW
+- after: xa_iea
+  link: ed032, signal 4 of the list
+  slide:
+    id: xa_leases
+    type: sx_league
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Six AI campus leases, from $5.2B
+
+      to $28B, were signed in seven months'
+    big: '6'
+    h0: SITE AND TENANT
+    h1: RANK
+    h2: UP TO
+    kicker: WHY IT IS HOT
+    rows:
+    - n: 1
+      name: Riot + a frontier AI lab
+      src: ../../assets/logos/riot-platforms--symbol.png
+      v: $28B
+      what: 910 MW in Texas for 15 years, November 2026
+    - n: 2
+      name: TeraWulf + Anthropic
+      src: ../../assets/logos/terawulf.png
+      v: $19B
+      what: About 401 MW for 20 years, July 2026
+    - n: 3
+      name: Cipher + Fluidstack
+      src: ../../assets/logos/cipher-mining.png
+      v: $9B+
+      what: 300 MW lease extended to 20 years, Sept. 2026
+    - n: 4
+      name: Applied Digital + a big cloud
+      src: ../../assets/logos/applied-digital.png
+      v: $7.5B
+      what: 300 MW at Delta Forge 1 for 15 years, April 2026
+    - n: 5
+      name: Applied Digital + a big cloud
+      src: ../../assets/logos/applied-digital.png
+      v: $7.5B
+      what: 300 MW at Polaris Forge 3 for 15 years, May 2026
+    - n: 6
+      name: Applied Digital + a big cloud
+      src: ../../assets/logos/applied-digital.png
+      v: $5.2B
+      what: 210 MW at Delta Forge 2 for 15 years, June 2026
+    story: AI labs and big clouds now sign for whole campuses years before they open, a sign of a hot market. These are rents over the full lease, not this year’s sales.
+    note:
+    - We listed six AI campus leases disclosed by the landlords from April to November 2026, each at
+    - its value over the base term. Most sites are still being built, so the rent has not started yet
+    fresh:
+      period: month
+      end: 2026-11
+  sources:
+  - claim: Riot signed a 15-year, 910 MW powered land lease with a frontier AI lab at Corsicana
+    url: https://www.riotplatforms.com/riot-platforms-reports-third-quarter-2026-financial-results-and-strategic-highlights/
+    date: '2026-11-04'
+    quote: Executed a 15-year, 910 critical IT MW triple-net powered land lease with a leading Frontier AI Lab at Corsicana
+  - claim: TeraWulf signed a 20-year lease with Anthropic for about 401 MW, about $19B
+    url: https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001628280-26-071306/a_wulfearningsreleaseq32026.htm
+    date: '2026-11-06'
+    quote: Executed a 20-year lease with Anthropic for approximately 401 MW of critical IT capacity, representing approximately $19 billion of contracted revenue
+  - claim: Cipher extended the Barber Lake lease to 20 years, lifting contracted revenue above $9B
+    url: https://investors.cipherdigital.com/news-releases/news-release-details/cipher-digital-expands-barber-lake-lease-term-20-years/
+    date: '2026-09-25'
+    quote: increase total contracted revenue at the facility from $3.8 billion to over $9 billion.
+  - claim: Applied Digital Delta Forge 1 lease, about $7.5B over 15 years
+    url: https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001144879-26-000036/apld_deltaforgexprxfinal.htm
+    date: '2026-04-23'
+    quote: This lease represents approximately $7.5 billion in total contracted value over an estimated 15-year lease term
+  - claim: Applied Digital Polaris Forge 3 lease, about $7.5B
+    url: https://ir.applieddigital.com/news-events/press-releases/detail/152/applied-digital-reaches-significant-milestone-surpassing-1
+    date: '2026-05-20'
+    quote: valued at approximately $7.5 billion in base-term contracted revenue
+  - claim: Applied Digital Delta Forge 2 lease, about $5.2B
+    url: https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001493152-26-027984/ex99-1.htm
+    date: '2026-06-08'
+    quote: representing approximately $5.2 billion in base-term contracted revenue
+- after: xa_leases
+  link: ed032, signal 5 of the list
+  slide:
+    id: xa_cbre
+    type: sx_stat_strip
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Four in five megawatts being built in
+
+      the US are leased before they open'
+    headline: Main data center markets of North America, first half of 2026
+    stats:
+    - v: 80.4%
+      l: Of the megawatts under construction already leased, up from 74.3%
+    - v: 1.4%
+      l: Of live capacity left empty, a record low, down from 1.6% a year ago
+    - v: 77%
+      l: Of capacity under construction is in new regions, away from old hubs
+    story: Tenants book space years ahead and almost nothing sits empty, a sign of a hot market. These figures cover all kinds of data centers, not only the sites built for AI.
+    note:
+    - We used CBRE’s North America report of August 27, 2026 for the first half of 2026,
+    - and JLL’s North America report of August 11, 2026 for the share built in new regions
+    fresh:
+      period: half
+      end: 2026-06
+  sources:
+  - claim: 'CBRE: 80.4% of capacity under construction preleased in H1 2026, against 74.3% a year earlier'
+    url: https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026
+    date: '2026-08-27'
+    quote: Preleasing activity accelerated with commitments made on 80.4% of all under-construction capacity, compared with 74.3% a year ago.
+  - claim: 'CBRE: primary market vacancy fell to a record low of 1.4%'
+    url: https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026
+    date: '2026-08-27'
+    quote: primary market vacancy fell to a record low of 1.4% in H1 from 1.6% in H1 2025
+  - claim: 'JLL: frontier markets hold 77% of capacity under construction'
+    url: https://www.jll.com/en-us/insights/market-dynamics/north-america-data-centers
+    date: '2026-08-11'
+    quote: Frontier markets account for 77% of all capacity under construction
+- after: ed132
+  link: ed132 « A signed lease is not cash yet. Rent starts only when the tenant can use a hall. »
+  slide:
+    id: xa_apld
+    type: x/sig_announced_vs_built
+    section: Market challenges
+    title: 'Applied Digital has 1,410 MW leased,
+
+      but only 250 MW live so far'
+    t:
+      8: '1.4'
+      9: 'GW under
+
+        signed leases'
+      11: '250'
+      12: 'MW live in
+
+        Oct 2026'
+      15: 1 in 6
+      16: WHAT IS GOING ON
+      17: 'Applied Digital signed leases for about 1.41 GW across five campuses, worth about $36B over their base terms.
+
+
+
+        Only 250 MW at Polaris Forge 1 in North Dakota was live on October 1, 2026. The rest is due in phases, so most of the rent has not started.'
+    vbars:
+    - 1410
+    - 250
+    note: We used Applied Digital’s results of October 7, 2026. The other campuses had not missed a deadline, they were still being built
+  sources:
+  - claim: Applied Digital has leases for about 1.41 GW across five campuses, about $36B
+    url: https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001144879-26-000057/apldq127earningsrelease.htm
+    date: '2026-10-07'
+    quote: 'As of August 31, 2026, the Company has leases for approximately 1.41 GW of critical IT load across five campuses:'
+  - claim: Applied Digital brought live capacity at Polaris Forge 1 to 250 MW
+    url: https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai
+    date: '2026-10-02'
+    quote: brings fully operational critical IT load at Polaris Forge 1 to 250 MW.
+- after: ed136
+  link: ed136 card « A site can wait four years for power even when a tenant wants space now »
+  slide:
+    id: xa_ercot
+    type: sx_stat_strip
+    section: Market challenges
+    title: 'Texas has 446 GW of big users waiting
+
+      for power, and 5.9 GW connected'
+    headline: Large power users asking to join the Texas grid, April 2026
+    stats:
+    - v: 446 GW
+      l: Requested by large users like data centers, for dates up to 2033
+    - v: 9.1 GW
+      l: Approved to switch on, or already switched on
+    - v: 5.9 GW
+      l: Actually switched on and drawing power from the grid
+    story: Many requests will never be built, but the queue shows why power, not demand, sets the pace of new AI campuses. Only one megawatt in 75 asked for is switched on today.
+    note:
+    - We used ERCOT’s monthly report for April 2026, published on May 13, 2026. The requests
+    - include large users other than AI sites, and many projects that may never be built at all
+    fresh:
+      period: month
+      end: 2026-04
+  sources:
+  - claim: ERCOT large-load applications total 445.8 GW by 2033; 5.9 GW energized; 3.2 GW approved but not operational
+    url: https://www.ercot.com/files/docs/2026/05/13/ERCOT-Monthly-April-2026-FINAL.pdf
+    date: '2026-05-13'
+    quote: ERCOT has 5.9 GW of Observed Energized Large Loads
+- after: ed138
+  link: ed138 « Rules could speed strong projects, but more towns may pause new sites »
+  slide:
+    id: xa_bills
+    type: x/sig_rules_wave_2
+    section: Market challenges
+    title: 'US state bills on data centers rose
+
+      from 54 to 375 in three years'
+    t:
+      8: '54'
+      9: '2023'
+      11: '75'
+      12: '2024'
+      14: '243'
+      15: '2025'
+      17: '375'
+      18: '2026
+
+        (to July 15)'
+      21: '375'
+      22: WHY IT MATTERS
+      23: 'Statehouses now debate data centers far more, and most new bills try to limit them.
+
+        2023. 54 bills, mostly tax breaks and faster permits.
+
+        2026. 375 bills by July 15, about three in four seeking limits.
+
+        A bill introduced is not a bill passed.'
+    vbars:
+    - 54
+    - 75
+    - 243
+    - 375
+    note: We used the Washington Post count of state bills that mention data centers, published on September 3, 2026
+    fresh:
+      period: year
+      end: 2026-07
+  sources:
+  - claim: 'State bills mentioning data centers: 54 in 2023, 75 in 2024, 243 in 2025, 375 in 2026 to July 15'
+    url: https://www.washingtonpost.com/nation/2026/09/03/how-data-center-backlash-is-growing-us-statehouses/
+    date: '2026-09-03'
+    quote: 2026* 375 total
+- after: ed200
+  link: ed200 card « They fail when a proposed tenant will not sign »
+  slide:
+    id: xa_fermi
+    type: x/sig_key_trend
+    section: Startup killers
+    title: 'Fermi America’s shares fell 94%
+
+      from their first day, to $1.95'
+    t:
+      9: $32.53
+      10: Oct 1, 2025
+      12: $1.95
+      13: Nov 20, 2026
+      15: −94%
+      16: WHAT HAPPENED
+      17: 'Fermi America listed in October 2025 to build an 11 GW AI campus near Amarillo, Texas, before any lease was signed.
+
+
+
+        Its first planned tenant walked away in December 2025, its CEO was removed in April 2026, and its TensorWave lease ended in November 2026.'
+    vbars:
+    - 32.53
+    - 1.95
+    note: We compared Fermi America’s closing share prices of October 1, 2025 and November 20, 2026
+  sources:
+  - claim: Fermi America first-day close of $32.53
+    url: https://ca.finance.yahoo.com/quote/FRMI/history/
+    date: '2025-10-01'
+    quote: Oct 1, 2025 | 25.1300 | 33.4600 | 24.5000 | 32.5300
+  - claim: Fermi America close of $1.95 on November 20, 2026
+    url: https://stockanalysis.com/stocks/frmi/history/
+    date: '2026-11-20'
+    quote: Nov 20, 2026 | 2.03 | 2.09 | 1.80 | 1.95 | 1.95
+  - claim: Fermi first tenant ended its advance agreement in December 2025
+    url: https://www.sec.gov/Archives/edgar/data/2071778/000121390025120940/ea0269377-8k_fermi.htm
+    date: '2025-12-12'
+    quote: On December 11, 2025, the First Tenant notified the Company that it is terminating the AICA
+  - claim: Fermi CEO removed on April 17, 2026
+    url: https://www.sec.gov/Archives/edgar/data/2071778/000121390026064825/ea0291106-03.htm
+    date: '2026-06-04'
+    quote: from its inception until April 17, 2026, when he was removed from the role of CEO by the board of directors
+  - claim: Fermi TensorWave lease terminated on November 10, 2026
+    url: https://www.sec.gov/Archives/edgar/data/2071778/000207177826000058/frmi-20260930.htm
+    date: '2026-11-12'
+    quote: on November 10, 2026, the TensorWave Lease was terminated in accordance with its terms.

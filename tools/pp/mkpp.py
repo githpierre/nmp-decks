@@ -2,6 +2,7 @@
 usage: python3 mkpp.py <slug> <handle> [<handle> ...]"""
 import json, os, re, shutil, sys, yaml
 import pandas as pd
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')); import skip_rounds   # doubtful rounds kept in the base never reach a slide
 ROOT = '/home/claude/nmp-decks'; W = '/root/w/m131'; S10 = '/root/w/s10'
 LOGO_DIRS = [f'{W}/logos', '/root/w/s9/logos', f'{ROOT}/assets/logos']
 NAME0 = {'low-carbon-cement': 'low-carbon cement', 'metal-additive-manufacturing': 'metal 3D printing'}
@@ -121,6 +122,7 @@ def slides(h):
     # S09-02 raises (from the startups base)
     B = '/home/claude/nmp-seo/data/startups'
     c = pd.read_csv(f'{B}/companies.csv'); mk = pd.read_csv(f'{B}/markets.csv'); r = pd.read_csv(f'{B}/rounds.csv')
+    r = skip_rounds.drop(r)
     r['amount_usd'] = pd.to_numeric(r.amount_usd, errors='coerce'); r['d'] = pd.to_datetime(r.date, format='mixed', errors='coerce')
     ids = set(mk[mk.market_handle == h].company_id) & set(c[c.company_type == 'Startup'].company_id)
     x = r[r.company_id.isin(ids) & (r.is_equity == True) & ~r.round_type.isin({'IPO', 'Post-IPO', 'Secondary', 'Debt', 'Grant'}) & (r.d >= '2024-11-11') & (r.aggregate != True)]
@@ -136,7 +138,7 @@ def slides(h):
     # S10 grid
     d = J(f'{S10}/grid/{h}.json')
     import pandas as _pd
-    _r = _pd.read_csv('/home/claude/nmp-seo/data/startups/rounds.csv'); _r['amount_usd'] = _pd.to_numeric(_r.amount_usd, errors='coerce')
+    _r = skip_rounds.drop(_pd.read_csv('/home/claude/nmp-seo/data/startups/rounds.csv')); _r['amount_usd'] = _pd.to_numeric(_r.amount_usd, errors='coerce')
     _t = _r[_r.is_equity == True].groupby('company_id').amount_usd.sum().to_dict()
     _al = {'sublime-systems': 'sublime-systems', 'carboncure': 'carboncure-technologies', 'divergent': 'divergent-technologies', 'seurat': 'seurat-technologies', 'cura': 'cura', 'co-reactive': 'reactive'}
     g = dict(base, type='pp_grid', weight={k: float(_t.get(_al.get(k, k), 0) or 0) for row in d['cells'] for cell in row for k in cell}, section=lab, title=d['title'], handle=h, cols=d['cols'], rows=d['rows'], cells=d['cells'], note=NGRID(d['note']) if isinstance(d['note'], str) else d['note'])

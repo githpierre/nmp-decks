@@ -1,0 +1,601 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would insurtech
+
+    customers actually pay to solve?'
+  auds:
+  - Young renters
+  - Car owners
+  - Pet owners
+  - New homeowners
+  - Small employers
+  pains:
+  - - They see their price jump at renewal without a clear reason
+    - - 3
+      - 3
+      - 1
+      - 3
+      - 2
+  - - They wait too long when a claim needs a human to check it
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They struggle to understand what their policy really covers
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 3
+  - - They pay much more when their insurer is hit by disasters
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 1
+  - - They find it hard to reach a person when things go wrong
+    - - 1
+      - 2
+      - 2
+      - 2
+      - 3
+  - - They get refused for risks that better data could price well
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which insurtech player has
+
+    the most complete tech today?'
+  companies:
+  - name: Lemonade
+    src: ../../assets/logos/pp_live/insurtech/s05-00.png
+  - name: Root
+    src: ../../assets/logos/pp_live/insurtech/s05-01.png
+  - name: Hippo
+    src: ../../assets/logos/pp_live/insurtech/s05-02.png
+  - name: Next
+    src: ../../assets/logos/pp_live/insurtech/s05-03.png
+  - name: Kin
+    src: ../../assets/logos/pp_live/insurtech/s05-04.png
+  features:
+  - header: Driving|data app
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: AI pays|claims
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Partner|platform
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Car|insurance
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Home|insurance
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Pet|insurance
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Business|insurance
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    insurtech down?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Progressive and GEICO cut car insurance prices hard, squeezing Root, Lemonade and other insurtech carriers
+  - odds: 35
+    impact: 3
+    text: A mega disaster bigger than the Los Angeles fires wipes out capital at insurtech carriers and MGAs
+  - odds: 30
+    impact: 2
+    text: Allianz, State Farm and other large insurers build their own AI agents and stop buying from startups
+  - odds: 25
+    impact: 2
+    text: A wave of AI-made fake photos and documents drives up claims fraud losses for digital insurers
+  - odds: 20
+    impact: 3
+    text: Reinsurers pull capacity from MGAs after weak results, forcing more insurtech MGAs to close or sell
+  - odds: 15
+    impact: 2
+    text: Insurtech funding crashes as investors back only AI startups, leaving full-stack carriers unable to raise
+  - odds: 10
+    impact: 2
+    text: State regulators or the EU ban AI in insurance pricing and claims, forcing insurtechs to rebuild
+  - odds: 10
+    impact: 2
+    text: Google, Amazon or OpenAI start selling insurance directly and take customers from Lemonade and Root
+  note:
+  - We listed the events that could slow insurtech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed insurtech
+
+    forward, year after year?'
+  events:
+  - year: '1996'
+    text: Progressive puts car insurance quotes online
+    impact: 1
+  - year: '2002'
+    text: UK comparison sites make buyers shop online
+    impact: 1.5
+  - year: '2011'
+    text: Snapshot prices car cover by driving data
+    impact: 1.5
+  - year: '2013'
+    text: Alibaba backs ZhongAn, first online insurer
+    impact: 1.5
+  - year: '2013'
+    text: Obamacare exchanges open door to new insurers
+    impact: 1.5
+  - year: '2015'
+    text: Big insurers launch startup venture funds
+    impact: 1
+  - year: '2016'
+    text: Lemonade sells renters cover in 90 seconds
+    impact: 1.5
+  - year: '2017'
+    text: ZhongAn IPO shows online insurers can scale
+    impact: 1
+  - year: '2017'
+    text: Record hurricanes push insurers to modernize
+    impact: 1
+  - year: '2019'
+    text: SoftBank's $300M lets Lemonade scale fast
+    impact: 1
+  - year: '2020'
+    text: Covid forces insurers to go fully digital
+    impact: 2.5
+  - year: '2020'
+    text: Lemonade IPO soars, drawing public money
+    impact: 2
+  - year: '2021'
+    text: SPAC wave takes Hippo and Metromile public
+    impact: 1
+  - year: '2021'
+    text: Record $15B funding lets insurtechs scale
+    impact: 1.5
+  - year: '2021'
+    text: Ransomware wave makes cyber cover a must
+    impact: 1.5
+  - year: '2022'
+    text: Inflation hikes premiums, buyers shop around
+    impact: 1.5
+  - year: '2023'
+    text: State Farm quits new California homes
+    impact: 2.5
+  - year: '2023'
+    text: Florida reform lures new insurers back
+    impact: 1
+  - year: '2023'
+    text: GenAI cuts claims handling time
+    impact: 1.5
+  - year: '2024'
+    text: Root turns profitable, proving data pricing
+    impact: 1.5
+  - year: '2024'
+    text: CrowdStrike outage shows need for cyber cover
+    impact: 1
+  - year: '2024'
+    text: Hurricanes Helene and Milton boost parametric
+    impact: 1
+  - year: '2024'
+    text: Cat losses top $100B for fifth year
+    impact: 1
+  - year: '2025'
+    text: Accelerant IPO backs the MGA model
+    impact: 1.5
+  - year: '2025'
+    text: LA wildfires cause about $40B insured losses
+    impact: 2.5
+  - year: '2025'
+    text: California allows catastrophe models in rates
+    impact: 1.5
+  - year: '2025'
+    text: Neptune Flood IPO rewards data underwriting
+    impact: 1.5
+  - year: '2025'
+    text: Lemonade passes $1B in premiums
+    impact: 1.5
+  - year: '2025'
+    text: Slide IPO shows Florida tech insurers pay
+    impact: 1
+  - year: '2026'
+    text: 32% of auto insurance shoppers use AI
+    impact: 1
+  note:
+  - We kept the events we believe pushed insurtech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: insurtech
+  title: 'Where did insurtech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of insurtech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the leading
+
+    companies in insurtech?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/insurtech/s10-00.png
+    x: 309.2
+    y: 280.7
+  - src: ../../assets/logos/pp_live/insurtech/s10-01.png
+    x: 392.4
+    y: 273.9
+  - src: ../../assets/logos/pp_live/insurtech/s10-02.png
+    x: 638.6
+    y: 268.3
+  - src: ../../assets/logos/pp_live/insurtech/s10-03.png
+    x: 750.6
+    y: 281.6
+  - src: ../../assets/logos/pp_live/insurtech/s10-04.png
+    x: 806.8
+    y: 265.3
+  - src: ../../assets/logos/pp_live/insurtech/s10-05.png
+    x: 871.5
+    y: 278.1
+  - src: ../../assets/logos/pp_live/insurtech/s10-06.png
+    x: 244.9
+    y: 289.3
+  - src: ../../assets/logos/pp_live/insurtech/s10-07.png
+    x: 492.4
+    y: 294.0
+  - src: ../../assets/logos/pp_live/insurtech/s10-08.png
+    x: 585.0
+    y: 295.7
+  - src: ../../assets/logos/pp_live/insurtech/s10-09.png
+    x: 402.6
+    y: 370.3
+  - src: ../../assets/logos/pp_live/insurtech/s10-10.png
+    x: 500.6
+    y: 371.1
+  - src: ../../assets/logos/pp_live/insurtech/s10-11.png
+    x: 253.5
+    y: 379.7
+  - src: ../../assets/logos/pp_live/insurtech/s10-12.png
+    x: 350.4
+    y: 392.6
+  - src: ../../assets/logos/pp_live/insurtech/s10-13.png
+    x: 601.5
+    y: 393.9
+  - src: ../../assets/logos/pp_live/insurtech/s10-14.png
+    x: 705.9
+    y: 403.7
+  - src: ../../assets/logos/pp_live/insurtech/s10-15.png
+    x: 764.8
+    y: 393.0
+  - src: ../../assets/logos/pp_live/insurtech/s10-16.png
+    x: 550.7
+    y: 405.0
+  - src: ../../assets/logos/pp_live/insurtech/s10-17.png
+    x: 832.9
+    y: 408.0
+  - src: ../../assets/logos/pp_live/insurtech/s10-18.png
+    x: 235.7
+    y: 474.4
+  - src: ../../assets/logos/pp_live/insurtech/s10-19.png
+    x: 487.5
+    y: 492.4
+  - src: ../../assets/logos/pp_live/insurtech/s10-20.png
+    x: 634.9
+    y: 489.0
+  - src: ../../assets/logos/pp_live/insurtech/s10-21.png
+    x: 733.5
+    y: 483.0
+  - src: ../../assets/logos/pp_live/insurtech/s10-22.png
+    x: 804.6
+    y: 489.4
+  - src: ../../assets/logos/pp_live/insurtech/s10-23.png
+    x: 288.0
+    y: 500.1
+  - src: ../../assets/logos/pp_live/insurtech/s10-24.png
+    x: 370.5
+    y: 508.5
+  - src: ../../assets/logos/pp_live/insurtech/s10-25.png
+    x: 561.2
+    y: 511.9
+  - src: ../../assets/logos/pp_live/insurtech/s10-26.png
+    x: 868.7
+    y: 510.9
+  cols:
+  - Personal lines
+  - ''' Business lines'
+  - Health, life & speci
+  rows:
+  - Insurers & MGAs
+  - Distribution
+  - Software & AI
+  note:
+  - We left out Big Tech and large incumbent insurers and vendors like Allianz, Verisk and Guidewire
+  - We placed each pure player by its main product, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these insurtech
+
+    startups, and how did they end?'
+  causes:
+  - Fraud or|probe
+  - Claims|losses
+  - Ran out|of cash
+  - Regulator|stepped in
+  rows:
+  - name: Vesttoo
+    ending: Went bankrupt
+    start: '2018'
+    end: '2023'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/insurtech/s11-00.png
+    ini: V
+    slug: vesttoo
+    domain: vesttoo.com
+  - name: Friday Health
+    ending: Shut down
+    start: '2015'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/insurtech/s11-01.png
+    ini: F
+    slug: friday-health
+    domain: fridayhealthplans.com
+  - name: Luko
+    ending: Sold for €4.3M
+    start: '2016'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/insurtech/s11-02.png
+    ini: L
+    slug: luko
+    domain: luko.eu
+  - name: Element
+    ending: Went bankrupt
+    start: '2017'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/insurtech/s11-03.png
+    ini: E
+    slug: element
+    domain: element.in
+  - name: Metromile
+    ending: Sold for ~$200M
+    start: '2011'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/insurtech/s11-04.png
+    ini: M
+    slug: metromile
+    domain: metromile.com
+  note:
+  - We tracked the insurtech startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Lemonade winning
+
+    the digital insurer market?'
+  companies:
+  - short: Lemonade
+    src: ../../assets/logos/pp_live/insurtech/s12-00.png
+  - short: Root
+    src: ../../assets/logos/pp_live/insurtech/s12-01.png
+  - short: Hippo
+    src: ../../assets/logos/pp_live/insurtech/s12-02.png
+  - short: Branch
+    src: ../../assets/logos/pp_live/insurtech/s12-03.png
+  - short: Kin
+    src: ../../assets/logos/pp_live/insurtech/s12-04.png
+  criteria:
+  - name: 3M+ customers
+    why: Largest digital base
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Home, pet, car and life
+    why: Many products per customer
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Sells in Europe
+    why: Growth beyond the US
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Publicly listed
+    why: Access to public capital
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Car prices from driving
+    why: Phone data sets the rate
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Embedded partner sales
+    why: Sold inside other journeys
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Own insurance carrier
+    why: Keeps the underwriting gain
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the insurtech market?'
+  TL:
+    name: AXA
+    src: ../../assets/logos/pp_live/insurtech/s01-00.png
+    text: launched Kamet in 2016 to build insurtech startups, but it remains a large traditional insurer where tech plays a support role
+  TR:
+    name: Revolut
+    src: ../../assets/logos/pp_live/insurtech/s01-02.png
+    text: lists insurance among the products in its app, but it is a neobank where cover is a small extra next to cards and trading
+  BL:
+    name: Progressive
+    src: ../../assets/logos/pp_live/insurtech/s01-09.png
+    text: sells auto cover through over 30,000 independent agents, yet its Snapshot program prices cover using real driving data
+  BR:
+    name: Oscar Health
+    src: ../../assets/logos/pp_live/insurtech/s01-10.png
+    text: was founded as a tech- first health insurer, but with $11 billion in revenue it now runs much like any large ACA plan
+  caption:
+  - Distance to the center reflects how much technology changes the way insurance is priced, sold or managed, not just marketed
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/insurtech/s01-01.png
+  - ../../assets/logos/pp_live/insurtech/s01-03.png
+  - ../../assets/logos/pp_live/insurtech/s01-04.png
+  - ../../assets/logos/pp_live/insurtech/s01-05.png
+  - ../../assets/logos/pp_live/insurtech/s01-06.png
+  - ../../assets/logos/pp_live/insurtech/s01-07.png
+  - ../../assets/logos/pp_live/insurtech/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/insurtech/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/insurtech/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/insurtech/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/insurtech/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/insurtech/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/insurtech/s01-07.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/insurtech/s01-08.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Who are the top companies
+
+    in the data center market?'
+  date: ''
+  expl: 'A\ : )'
+  term: insurtech
+  note:
+  - We placed data center specialists with funding or clear deployments by business model and scale
+  - This is not a full list, and you will find all the sources we used at the end of the report
+  csv: assets/trends/insurtech/insurtech.csv
+ed052p:
+  type: pp_cagr
+  title: 'What growth can the insurtech
+
+    market realistically expect?'
+  lead: ''
+  condition: To hit this growth, insurers must move their core systems to the cloud and let AI do real work in underwriting and claims, not just pilots.
+    Insurtechs must also keep their losses under control and prove that AI cuts costs without breaking rules on fairness.
+  note:
+  - We compared forecasts from Precedence, The Business Research Company, Fortune Business Insights and IMARC
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 50
+  cagr: 12
+  y0: 2026

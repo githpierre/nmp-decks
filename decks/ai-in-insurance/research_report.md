@@ -1,0 +1,52 @@
+# Research import re, jsonport
+
+160 answers parsed, 0 YAML errors, 48 slides with remarks.
+
+- **ed009**: length 10: 13 vs 20
+- **ed010**: length 17: 13 vs 22
+- **ed013**: status no_data: No comparable three-tier public price series exists for insurance AI. Enterprise contracts have undisclosed prices, while retail premiums depend
+- **ed013**: dropped: no data
+- **ed015**: length 7: 150 vs 109; length 10: 148 vs 118; length 16: 143 vs 110
+- **ed016**: length 7: 148 vs 114; length 12: 47 vs 35; length 10: 142 vs 108; length 13: 148 vs 109
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]
+- **ed020**: length 18: 17 vs 23
+- **ed032**: length 13: 50 vs 39
+- **ed047p**: status no_data: No verified revenue split maps the six defined AI-first startup categories to comparable market shares. Published application and deployment per
+- **ed047p**: dropped: no data
+- **ed048**: length 10: 12 vs 21
+- **ed055**: length 7: 95 vs 65; length 10: 86 vs 58; length 13: 105 vs 67; length 16: 93 vs 67; length 19: 85 vs 59; length 22: 97 vs 60
+- **ed057**: length 37: 22 vs 34
+- **ed063-s1**: length 17: 14 vs 21
+- **ed063-s2**: length 14: 14 vs 20
+- **ed063-s3**: length 14: 14 vs 20; length 17: 14 vs 21
+- **ed063-s4**: length 14: 12 vs 20
+- **ed095**: length 30: 79 vs 60
+- **ed098**: length 28: 84 vs 67
+- **iv_pipeline**: length 34: 58 vs 44
+- **ed103**: length 7: 93 vs 72; length 12: 14 vs 20; length 15: 96 vs 63
+- **ed104**: length 7: 83 vs 63; length 10: 85 vs 52
+- **ed106-s1**: length 5: 95 vs 64
+- **ed107-s1**: length 8: 10 vs 20
+- **ed109-s1**: length 8: 37 vs 26
+- **ed106-s2**: length 5: 90 vs 64
+- **ed107-s2**: length 8: 12 vs 20
+- **ed109-s2**: length 8: 36 vs 26
+- **ed106-s3**: length 5: 85 vs 64
+- **ed107-s3**: length 8: 11 vs 20
+- **ed109-s3**: length 8: 35 vs 26
+- **ed106-s4**: length 5: 89 vs 64
+- **ed107-s4**: length 8: 9 vs 20
+- **ed109-s4**: length 8: 35 vs 26
+- **ed106-s5**: length 5: 81 vs 64
+- **ed107-s5**: length 8: 11 vs 20
+- **ed109-s5**: length 8: 37 vs 26
+- **ed106-s6**: length 5: 83 vs 64
+- **ed107-s6**: length 8: 13 vs 20
+- **ed109-s6**: length 8: 33 vs 26
+- **ed136**: length 11: 73 vs 57
+- **ed143**: length 22: 9 vs 22
+- **ed144**: length 14: 14 vs 21; length 22: 9 vs 22
+- **ed149**: length 9: 49 vs 38
+- **ed152**: length 11: 57 vs 43
+- **ed182**: length 20: 107 vs 80
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

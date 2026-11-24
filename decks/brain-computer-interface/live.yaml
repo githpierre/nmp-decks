@@ -1,0 +1,521 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would brain
+
+    implant patients pay to solve?'
+  auds:
+  - ALS patients
+  - Spinal-cord patients
+  - Brain surgeons
+  - Rehab hospitals
+  - Family caregivers
+  pains:
+  - - They fear infection, bleeding or needing a second brain surgery
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They spend hours recalibrating decoders that drift over time
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 3
+  - - They cannot get insurance to pay for a brain implant yet
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They wait years to join a trial that may never reach them
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 2
+  - - They worry the maker will stop supporting the device in their head
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 3
+  - - They must live near one of the very few hospitals running trials
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which BCI company has the
+
+    most complete tech today?'
+  companies:
+  - name: Neuralink
+    src: ../../assets/logos/pp_live/brain-computer-interface/s05-00.png
+  - name: Synchron
+    src: ../../assets/logos/pp_live/brain-computer-interface/s05-01.png
+  - name: Blackrock
+    src: ../../assets/logos/pp_live/brain-computer-interface/s05-02.png
+  - name: Paradromics
+    src: ../../assets/logos/pp_live/brain-computer-interface/s05-03.png
+  - name: Precision
+    src: ../../assets/logos/pp_live/brain-computer-interface/s05-04.png
+  features:
+  - header: Wireless|implant
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Cleared|for sale
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: 1,000+|electrodes
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Robot|surgery
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: No skull|opening
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Restores|speech
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Long-term|implant
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to brain-computer interfaces?'
+  events:
+  - odds: 45
+    impact: 3
+    text: FDA approvals slip again for Neuralink Blindsight and Synchron, pushing first sales back by several years
+  - odds: 35
+    impact: 3
+    text: CMS and US insurers refuse to cover brain implants, so few patients can afford them after approval
+  - odds: 30
+    impact: 3
+    text: Serious adverse events in Neuralink or BrainGate trials scare patients and push the FDA to slow approvals
+  - odds: 25
+    impact: 2
+    text: Brain-computer interface funding crashes as Neuracle and other IPO candidates fail to list or trade poorly
+  - odds: 25
+    impact: 2
+    text: China approves more implants and scales faster, winning the market ahead of Neuralink, Synchron and Precision
+  - odds: 20
+    impact: 1
+    text: Consumers ignore EEG headphones and headbands, and consumer brain-computer interface startups like Neurable fade away
+  - odds: 15
+    impact: 1
+    text: New neural data laws in US states and the EU add costly rules for brain-computer interface companies
+  - odds: 10
+    impact: 2
+    text: Apple, Meta or Google launch their own implant program and push brain implant startups to the margins
+  note:
+  - We listed the events that could slow brain computer interface down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept brain-computer interfaces
+
+    moving forward, year after year?'
+  events:
+  - year: '1973'
+    text: UCLA's Vidal coins brain-computer interface
+    impact: 0.5
+  - year: '1998'
+    text: First implant lets paralyzed man move cursor
+    impact: 1
+  - year: '2004'
+    text: BrainGate implants first paralyzed patient
+    impact: 1.5
+  - year: '2006'
+    text: Patient controls a TV by thought alone
+    impact: 1
+  - year: '2008'
+    text: Monkey feeds itself using brain-run robot arm
+    impact: 1
+  - year: '2012'
+    text: Paralyzed woman sips coffee via robot arm
+    impact: 1.5
+  - year: '2013'
+    text: US BRAIN Initiative funds neuroscience boom
+    impact: 1.5
+  - year: '2014'
+    text: Mind-run exoskeleton kicks World Cup ball
+    impact: 0.5
+  - year: '2016'
+    text: Musk enters with Neuralink, money follows
+    impact: 2.5
+  - year: '2017'
+    text: DARPA funds high-bandwidth brain implants
+    impact: 1
+  - year: '2019'
+    text: Neuralink shows 3,000 electrode thread system
+    impact: 1
+  - year: '2020'
+    text: Stentrode lets patients text by thought
+    impact: 1
+  - year: '2021'
+    text: Pong-playing monkey, BCI goes viral
+    impact: 1
+  - year: '2021'
+    text: Speech implant turns attempted words to text
+    impact: 1.5
+  - year: '2021'
+    text: FDA clears Synchron trial, no open surgery
+    impact: 1.5
+  - year: '2022'
+    text: Synchron implants its first US patient
+    impact: 1
+  - year: '2023'
+    text: FDA lets Neuralink start human trials
+    impact: 2.5
+  - year: '2023'
+    text: Speech implants reach 60+ words per minute
+    impact: 2
+  - year: '2023'
+    text: Brain-spine link helps a paralyzed man walk
+    impact: 1.5
+  - year: '2024'
+    text: First Neuralink patient plays chess by mind
+    impact: 2.5
+  - year: '2024'
+    text: Speech BCI restores voice at 97% accuracy
+    impact: 1
+  - year: '2024'
+    text: Blindsight vision implant gets FDA fast track
+    impact: 1
+  - year: '2025'
+    text: Synchron taps Nvidia AI to decode signals
+    impact: 1
+  - year: '2025'
+    text: FDA clears Precision brain electrode for use
+    impact: 1.5
+  - year: '2025'
+    text: Apple adds BCI control to its devices
+    impact: 2
+  - year: '2025'
+    text: Neuralink speech implant gets FDA fast track
+    impact: 1
+  - year: '2025'
+    text: China plans national BCI industry by 2027
+    impact: 1.5
+  - year: '2025'
+    text: Paradromics wins FDA nod for speech trial
+    impact: 1
+  - year: '2025'
+    text: Neuralink raises $650M to widen trials
+    impact: 1
+  - year: '2026'
+    text: Neuralink trials grow past 20 patients
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed brain computer interface forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: brain-computer-interface
+  title: 'Where did brain-computer interface
+
+    investors put their money this past year?'
+  note:
+  - We added up every equity round of brain computer interface startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    brain-computer interfaces?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-00.png
+    x: 236.4
+    y: 280.7
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-01.png
+    x: 485.4
+    y: 275.1
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-02.png
+    x: 555.6
+    y: 274.3
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-03.png
+    x: 638.8
+    y: 271.7
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-04.png
+    x: 708.4
+    y: 270.6
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-05.png
+    x: 330.6
+    y: 300.0
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-06.png
+    x: 403.9
+    y: 285.0
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-07.png
+    x: 760.5
+    y: 295.3
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-08.png
+    x: 861.4
+    y: 300.9
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-09.png
+    x: 633.0
+    y: 370.9
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-10.png
+    x: 859.1
+    y: 373.7
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-11.png
+    x: 250.5
+    y: 379.7
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-12.png
+    x: 403.5
+    y: 402.4
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-13.png
+    x: 481.7
+    y: 400.3
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-14.png
+    x: 566.4
+    y: 401.6
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-15.png
+    x: 724.3
+    y: 398.1
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-16.png
+    x: 793.1
+    y: 390.4
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-17.png
+    x: 337.5
+    y: 406.3
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-18.png
+    x: 331.7
+    y: 474.0
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-19.png
+    x: 388.3
+    y: 484.7
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-20.png
+    x: 525.6
+    y: 476.1
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-21.png
+    x: 756.6
+    y: 487.3
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-22.png
+    x: 270.4
+    y: 499.7
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-23.png
+    x: 469.9
+    y: 504.0
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-24.png
+    x: 607.5
+    y: 501.9
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-25.png
+    x: 705.2
+    y: 508.7
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s10-26.png
+    x: 851.1
+    y: 507.0
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Implanted
+  - Non-invasive
+  - Tools & AI
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out Big Tech and AI groups like Apple, Meta and OpenAI, with all the sources at the end of the report
+ed209p:
+  title: 'What makes Muse the brain
+
+    wearable leader today?'
+  companies:
+  - short: Muse
+    src: ../../assets/logos/pp_live/brain-computer-interface/s12-00.png
+  - short: EMOTIV
+    src: ../../assets/logos/pp_live/brain-computer-interface/s12-01.png
+  - short: Neurable
+    src: ../../assets/logos/pp_live/brain-computer-interface/s12-02.png
+  - short: NextSense
+    src: ../../assets/logos/pp_live/brain-computer-interface/s12-03.png
+  - short: Neurosity
+    src: ../../assets/logos/pp_live/brain-computer-interface/s12-04.png
+  criteria:
+  - name: 500,000+ devices sold
+    why: Largest base of EEG users
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 10+ years on the market
+    why: Many product generations
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: 200+ studies use it
+    why: Trusted by researchers
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Sleep tracking by EEG
+    why: Daily use, not just focus
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Pharma trial partner
+    why: Clinical use beyond retail
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Weekly brain age score
+    why: A reason to wear it often
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Developer platform
+    why: Apps built by third parties
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company
+
+    part of vibe coding?'
+  TL:
+    name: Bubble
+    src: ../../assets/logos/pp_live/brain-computer-interface/s01-00.png
+    text: now offers an AI app generator, but its users still build mostly in a visual drag and drop editor, so it stays outside
+  TR:
+    name: Supabase
+    src: ../../assets/logos/pp_live/brain-computer-interface/s01-02.png
+    text: runs the database behind countless Lovable and Bolt apps, but it is infrastructure that never writes the software itself
+  BL:
+    name: Wix
+    src: ../../assets/logos/pp_live/brain-computer-interface/s01-09.png
+    text: bought Base44 to sell prompt to app building, but most of its revenue still comes from classic website builder subscriptions
+  BR:
+    name: Vercel
+    src: ../../assets/logos/pp_live/brain-computer-interface/s01-10.png
+    text: turns prompts into apps with vO, but most of its revenue still comes from hosting web apps, so it sits on the edge
+  caption:
+  - Distance to the center reflects how fully a product turns a plain language request into working software
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/brain-computer-interface/s01-01.png
+  - ../../assets/logos/pp_live/brain-computer-interface/s01-03.png
+  - ../../assets/logos/pp_live/brain-computer-interface/s01-04.png
+  - ../../assets/logos/pp_live/brain-computer-interface/s01-05.png
+  - ../../assets/logos/pp_live/brain-computer-interface/s01-06.png
+  - ../../assets/logos/pp_live/brain-computer-interface/s01-07.png
+  - ../../assets/logos/pp_live/brain-computer-interface/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s01-01.png
+    x: 506.4
+    y: 280.9
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s01-03.png
+    x: 422.4
+    y: 334.9
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s01-04.png
+    x: 486.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s01-05.png
+    x: 553.1
+    y: 360.2
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s01-06.png
+    x: 445.9
+    y: 397.9
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s01-07.png
+    x: 505.1
+    y: 412.1
+  - src: ../../assets/logos/pp_live/brain-computer-interface/s01-08.png
+    x: 469.1
+    y: 463.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people want to know how
+
+    to control a computer with their brain'
+  date: ''
+  expl: ''
+  term: brain computer interface
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/brain-computer-interface/brain-computer-interface.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is
+
+    left for BCI to grow?'
+  lead: 'To fill that room, '
+  condition: implants must move from trials to paid procedures, with approvals and insurance codes in the US, Europe, and China. Wearables must also prove
+    real benefits, so_xO000B_that people keep wearing them every day.
+  note:
+  - We compared forecasts from Fortune Business Insights, Mordor, Precedence and Straits and adjusted each one to our market
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: 1.1
+  cagr: 15
+  y0: 2026

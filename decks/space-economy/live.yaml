@@ -1,0 +1,630 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved pain points
+
+    in the space economy today?'
+  auds:
+  - Satellite operators
+  - Defense agencies
+  - Space startups
+  - Telecom firms
+  - Data buyers
+  pains:
+  - - They depend heavily on SpaceX for both launch and connectivity
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They wait a long time for a launch slot on a reliable rocket
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They must dodge debris in orbits that keep getting more crowded
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 1
+  - - They wait months for spectrum rights and licenses in each country
+    - - 3
+      - 1
+      - 2
+      - 3
+      - 1
+  - - They need huge sums of money long before earning any revenue
+    - - 2
+      - 1
+      - 3
+      - 1
+      - 1
+  - - They get raw satellite data when what they want is a clear answer
+    - - 1
+      - 2
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which space economy player has
+
+    the most complete tech today?'
+  companies:
+  - name: SpaceX
+    src: ../../assets/logos/pp_live/space-economy/s05-00.png
+  - name: Blue Origin
+    src: ../../assets/logos/pp_live/space-economy/s05-01.png
+  - name: Firefly
+    src: ../../assets/logos/pp_live/space-economy/s05-02.png
+  - name: Rocket Lab
+    src: ../../assets/logos/pp_live/space-economy/s05-03.png
+  - name: ULA
+    src: ../../assets/logos/pp_live/space-economy/s05-04.png
+  - name: Arianespace
+    src: ../../assets/logos/pp_live/space-economy/s05-05.png
+  features:
+  - header: Reusable|booster
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Heavy|rocket
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Small|rocket
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Flies|people
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Builds|spacecraft
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Moon|landing
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own sat|network
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to space economy?'
+  events:
+  - odds: 50
+    impact: 3
+    text: SpaceX Starlink and Starship pricing undercut rivals, so smaller launch and satellite startups cannot compete
+  - odds: 40
+    impact: 2
+    text: Golden Dome and Space Force contracts flow mostly to SpaceX, Lockheed and Northrop, leaving startups out
+  - odds: 35
+    impact: 3
+    text: NASA budget cuts proposed by the White House cancel science missions and commercial station contracts
+  - odds: 25
+    impact: 2
+    text: The FCC and ITU slow spectrum approvals, delaying Amazon Leo and other broadband constellations
+  - odds: 25
+    impact: 2
+    text: SpaceX shares fall back below the $135 IPO price, so investors shun space startups trying to raise
+  - odds: 20
+    impact: 2
+    text: A Starship or Falcon 9 failure grounds launches for months and delays hundreds of customer payloads
+  - odds: 12
+    impact: 1
+    text: Space insurers exit the market after big satellite losses, making coverage for new missions unaffordable
+  - odds: 6
+    impact: 3
+    text: A large debris collision in low Earth orbit forces operators to pause launches and raise insurance costs
+  note:
+  - We listed the events that could slow space economy down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed space economy
+
+    forward, year after year?'
+  events:
+  - year: '1962'
+    text: Telstar shows satellites can carry live TV
+    impact: 1
+  - year: '1965'
+    text: Intelsat 1 opens paid satellite phone links
+    impact: 1.5
+  - year: '1980'
+    text: Arianespace sells launches as a business
+    impact: 1
+  - year: '1984'
+    text: US law lets private firms launch rockets
+    impact: 1.5
+  - year: '1994'
+    text: DirecTV beams pay TV straight to homes
+    impact: 1.5
+  - year: '2000'
+    text: GPS gets precise for all, apps boom
+    impact: 2
+  - year: '2004'
+    text: X Prize win proves private spaceflight works
+    impact: 1.5
+  - year: '2006'
+    text: NASA pays private firms to fly cargo
+    impact: 2
+  - year: '2008'
+    text: Falcon 1 reaches orbit on a shoestring
+    impact: 1
+  - year: '2012'
+    text: Dragon docks at ISS, NASA trusts startups
+    impact: 1.5
+  - year: '2013'
+    text: Cheap cubesats let startups image Earth
+    impact: 1
+  - year: '2015'
+    text: Falcon 9 lands, reusable rockets cut costs
+    impact: 2.5
+  - year: '2017'
+    text: Reflown boosters slash the price of launch
+    impact: 2
+  - year: '2018'
+    text: NASA hires startups for Moon landings
+    impact: 1
+  - year: '2019'
+    text: US creates Space Force, defense budgets grow
+    impact: 1.5
+  - year: '2020'
+    text: Crew Dragon flies astronauts, NASA buys rides
+    impact: 2
+  - year: '2020'
+    text: Starlink beta proves space internet sells
+    impact: 2
+  - year: '2021'
+    text: SPAC wave gives space startups fresh cash
+    impact: 1
+  - year: '2021'
+    text: Inspiration4 flies an all civilian crew
+    impact: 1
+  - year: '2022'
+    text: Starlink keeps Ukraine online, armies buy in
+    impact: 2
+  - year: '2022'
+    text: Russia quits Western launches, rivals win
+    impact: 1
+  - year: '2022'
+    text: Space Force buys satellite swarms
+    impact: 1.5
+  - year: '2022'
+    text: Artemis I flies, Moon programs fund suppliers
+    impact: 1
+  - year: '2023'
+    text: Nearly 100 SpaceX launches make orbit routine
+    impact: 1.5
+  - year: '2024'
+    text: First private craft lands on the Moon
+    impact: 1
+  - year: '2024'
+    text: Starship booster caught, full reuse nears
+    impact: 2
+  - year: '2025'
+    text: Amazon Leo launches to rival Starlink
+    impact: 1.5
+  - year: '2025'
+    text: Golden Dome plan promises billions for space
+    impact: 1.5
+  - year: '2026'
+    text: Record SpaceX IPO pulls public money in
+    impact: 3
+  - year: '2026'
+    text: Starship reaches orbit and deploys Starlinks
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed space economy forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: space-economy
+  title: 'Where did space economy investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of space economy startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the space economy?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/space-economy/s10-00.png
+    x: 336.4
+    y: 264.4
+  - src: ../../assets/logos/pp_live/space-economy/s10-01.png
+    x: 648.9
+    y: 273.9
+  - src: ../../assets/logos/pp_live/space-economy/s10-02.png
+    x: 802.7
+    y: 261.0
+  - src: ../../assets/logos/pp_live/space-economy/s10-03.png
+    x: 273.0
+    y: 298.5
+  - src: ../../assets/logos/pp_live/space-economy/s10-04.png
+    x: 704.1
+    y: 303.9
+  - src: ../../assets/logos/pp_live/space-economy/s10-05.png
+    x: 756.0
+    y: 305.1
+  - src: ../../assets/logos/pp_live/space-economy/s10-06.png
+    x: 647.4
+    y: 337.3
+  - src: ../../assets/logos/pp_live/space-economy/s10-07.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/space-economy/s10-08.png
+    x: 576.4
+    y: 368.4
+  - src: ../../assets/logos/pp_live/space-economy/s10-09.png
+    x: 807.4
+    y: 362.1
+  - src: ../../assets/logos/pp_live/space-economy/s10-10.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/space-economy/s10-11.png
+    x: 485.8
+    y: 386.1
+  - src: ../../assets/logos/pp_live/space-economy/s10-12.png
+    x: 708.9
+    y: 383.6
+  - src: ../../assets/logos/pp_live/space-economy/s10-13.png
+    x: 191.6
+    y: 406.9
+  - src: ../../assets/logos/pp_live/space-economy/s10-14.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/space-economy/s10-15.png
+    x: 654.2
+    y: 405.2
+  - src: ../../assets/logos/pp_live/space-economy/s10-16.png
+    x: 771.4
+    y: 412.7
+  - src: ../../assets/logos/pp_live/space-economy/s10-17.png
+    x: 444.9
+    y: 441.0
+  - src: ../../assets/logos/pp_live/space-economy/s10-18.png
+    x: 529.9
+    y: 441.0
+  - src: ../../assets/logos/pp_live/space-economy/s10-19.png
+    x: 485.8
+    y: 494.8
+  - src: ../../assets/logos/pp_live/space-economy/s10-20.png
+    x: 574.1
+    y: 492.9
+  - src: ../../assets/logos/pp_live/space-economy/s10-21.png
+    x: 683.1
+    y: 473.1
+  - src: ../../assets/logos/pp_live/space-economy/s10-22.png
+    x: 805.9
+    y: 473.1
+  - src: ../../assets/logos/pp_live/space-economy/s10-23.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/space-economy/s10-24.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/space-economy/s10-25.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/space-economy/s10-26.png
+    x: 419.6
+    y: 500.8
+  - src: ../../assets/logos/pp_live/space-economy/s10-27.png
+    x: 654.9
+    y: 520.3
+  - src: ../../assets/logos/pp_live/space-economy/s10-28.png
+    x: 744.4
+    y: 498.6
+  cols:
+  - $13n 9148
+  - Sensing & Intelligence
+  - In-space infrastructure
+  rows:
+  - Upstream builders
+  - Midstream operators
+  - Newcomers
+  note:
+  - We compared forecasts from The Business Research Company, Grand View Research and Market Research Future
+  - We adjusted each one to our own definition and built a realistic range, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these space economy
+
+    startups, and how did they end?'
+  causes:
+  - Launch|failures
+  - Ran out|of cash
+  - Funding|fell through
+  - Costs|overran
+  rows:
+  - name: Virgin Orbit
+    ending: Went bankrupt
+    start: '2017'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/space-economy/s11-00.png
+    ini: V
+    slug: virgin-orbit
+    domain: virginorbit.com
+  - name: OneWeb
+    ending: Went bankrupt
+    start: '2012'
+    end: '2020'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/space-economy/s11-01.png
+    ini: O
+    slug: oneweb
+    domain: oneweb.net
+  - name: Vector Launch
+    ending: Went bankrupt
+    start: '2016'
+    end: '2019'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/space-economy/s11-02.png
+    ini: V
+    slug: vector-launch
+    domain: vectorlaunch.com
+  - name: Masten Space
+    ending: Sold for $4.5M
+    start: '2004'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/space-economy/s11-03.png
+    ini: M
+    slug: masten
+    domain: masten.aero
+  - name: Astra
+    ending: Sold for $11M
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/space-economy/s11-04.png
+    ini: A
+    slug: astra
+    domain: astra.com
+  note:
+  - We tracked the space economy startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Planet be winning
+
+    the Earth imaging market?'
+  companies:
+  - short: Planet
+    src: ../../assets/logos/pp_live/space-economy/s12-00.png
+  - short: Vantor
+    src: ../../assets/logos/pp_live/space-economy/s12-01.png
+  - short: BlackSky
+    src: ../../assets/logos/pp_live/space-economy/s12-02.png
+  - short: ICEYE
+    src: ../../assets/logos/pp_live/space-economy/s12-03.png
+  - short: Satellogic
+    src: ../../assets/logos/pp_live/space-economy/s12-04.png
+  - short: Pixxel
+    src: ../../assets/logos/pp_live/space-economy/s12-05.png
+  criteria:
+  - name: Images all land daily
+    why: Sees every change first
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Sub 50 cm imagery
+    why: Wins defense and intel work
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Radar sees through clouds
+    why: Images day, night, any weather
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Hyperspectral satellites
+    why: Reads gases, crops, minerals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Sovereign satellite deals
+    why: Large multi year contracts
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: NRO EOCL imagery contract
+    why: Steady US intel revenue
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Global 3D terrain maps
+    why: Feeds mission planning
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Who Is in the space economy,
+
+    and who is not part of it?'
+  TL:
+    name: Airbus
+    src: ../../assets/logos/pp_live/space-economy/s01-00.png
+    text: builds satellites and co-owns the maker of Ariane rockets, but commercial jets bring in over 70% of its revenue
+  TR:
+    name: Uber
+    src: ../../assets/logos/pp_live/space-economy/s01-02.png
+    text: could not route a single ride without GPS satellites, but it only uses that signal to sell rides and food deliveries
+  BL:
+    name: Starcloud
+    src: ../../assets/logos/pp_live/space-economy/s01-10.png
+    text: put an Nvidia H100 in orbit to build data centers in space, which makes it half satellite operator, half AI cloud
+  BR:
+    name: Tomorrow.io
+    src: ../../assets/logos/pp_live/space-economy/s01-11.png
+    text: now runs its own constellation of weather satellites, but it makes its money selling forecasts through software
+  caption:
+  - Distance to the center reflects how much revenue comes from building, launching or operating space assets and their data
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/space-economy/s01-01.png
+  - ../../assets/logos/pp_live/space-economy/s01-03.png
+  - ../../assets/logos/pp_live/space-economy/s01-04.png
+  - ../../assets/logos/pp_live/space-economy/s01-05.png
+  - ../../assets/logos/pp_live/space-economy/s01-06.png
+  - ../../assets/logos/pp_live/space-economy/s01-07.png
+  - ../../assets/logos/pp_live/space-economy/s01-08.png
+  - ../../assets/logos/pp_live/space-economy/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/space-economy/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/space-economy/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/space-economy/s01-04.png
+    x: 374.8
+    y: 362.6
+  - src: ../../assets/logos/pp_live/space-economy/s01-05.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/space-economy/s01-06.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/space-economy/s01-07.png
+    x: 445.1
+    y: 394.9
+  - src: ../../assets/logos/pp_live/space-economy/s01-08.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/space-economy/s01-09.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people want to know
+
+    what the space economy is worth'
+  date: Lately.
+  expl: Space stopped being only about astronauts. SpaceX launched almost every other day, Starlink reached millions of homes, and countries poured money
+    into space defense. People started to see space as a real economy, and searched what it is worth.
+  term: space economy
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/space-economy/space-economy.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the space economy
+
+    still growing fast?'
+  lead: ''
+  condition: Yes, but the market must scale satellite broadband, direct-to-device phones, and commercial stations while launch costs keep falling. It also
+    needs steady government budgets and wider use of Earth-imagery analytics, without major failures, strict regulation, or debris events that stall deployments.
+  note:
+  - We applied the realistic 8% CAGR of the previous slide to our estimate of $575B for the market today
+  - Rates of 10% and 5% would give about $1.49T and $0.94T in 2036, with all the sources at the end of the report
+  size: 575
+  cagr: 8
+  y0: 2026

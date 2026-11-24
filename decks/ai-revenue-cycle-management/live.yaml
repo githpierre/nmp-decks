@@ -1,0 +1,500 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI billing
+
+    customers actually pay to solve?'
+  auds:
+  - Health systems
+  - Physician groups
+  - Billing firms
+  - Coding teams
+  - Small clinics
+  pains:
+  - - They lose money when insurers deny or downcode their claims
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - They rebuild billing rules for each insurer, one by one
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They face audits when AI finds extra codes that look like upcoding
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They cannot code what doctors never wrote down in the chart
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 2
+  - - They fix broken flows every time a payer portal changes
+    - - 2
+      - 1
+      - 3
+      - 1
+      - 2
+  - - They see coders resist AI because they fear for their jobs
+    - - 2
+      - 1
+      - 2
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI medical billing tools can
+
+    already do what hospitals ask for?'
+  companies:
+  - name: R1 RCM
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s05-00.png
+  - name: Waystar
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s05-01.png
+  - name: Commure
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s05-02.png
+  - name: Ensemble
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s05-03.png
+  - name: AKASA
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s05-04.png
+  features:
+  - header: Autonomous|coding
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: AI appeal|letters
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Prior auth|automation
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Own claims|network
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Outsourced|staff
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Patient|payments
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: CDI|tools
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to AI revenue cycle management?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Epic adds AI coding and denial tools to its platform, so hospitals stop buying separate startup products
+  - odds: 40
+    impact: 2
+    text: Payers like UnitedHealth use their own AI to deny claims faster than providers can appeal
+  - odds: 40
+    impact: 2
+    text: Medicaid cuts under new federal law shrink hospital budgets and delay new RCM software purchases
+  - odds: 35
+    impact: 2
+    text: CMS and states pass rules limiting AI in prior authorization and billing, adding compliance costs
+  - odds: 35
+    impact: 2
+    text: Waystar, R1 and Ensemble buy or copy AI startups and win deals with bundled pricing
+  - odds: 30
+    impact: 1
+    text: Physicians and coders resist automated tools and hospitals see slow adoption and weak ROI
+  - odds: 20
+    impact: 3
+    text: An AI coding tool is found upcoding claims and the DOJ pursues False Claims Act cases
+  - odds: 15
+    impact: 3
+    text: A cyberattack like Change Healthcare hits an AI RCM vendor and halts claims for weeks
+  note:
+  - We listed the events that could slow ai revenue cycle management down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI revenue cycle
+
+    forward, year after year?'
+  events:
+  - year: '1965'
+    text: Medicare and Medicaid create claim paperwork
+    impact: 1
+  - year: '1983'
+    text: Medicare DRGs pay per diagnosis code
+    impact: 1.5
+  - year: '1996'
+    text: HIPAA sets standard formats for e-claims
+    impact: 2
+  - year: '2010'
+    text: Medicare audits claw back billions in claims
+    impact: 1
+  - year: '2011'
+    text: HITECH puts billing data into digital records
+    impact: 1.5
+  - year: '2014'
+    text: ACA adds millions of newly insured patients
+    impact: 1.5
+  - year: '2015'
+    text: ICD-10 multiplies billing codes fivefold
+    impact: 2
+  - year: '2018'
+    text: Olive brings software bots to billing
+    impact: 1
+  - year: '2020'
+    text: Covid cuts hospital revenue, forcing savings
+    impact: 1.5
+  - year: '2021'
+    text: Price rule exposes what hospitals charge
+    impact: 1
+  - year: '2022'
+    text: No Surprises Act forces upfront estimates
+    impact: 1
+  - year: '2022'
+    text: Coder shortage leaves claims piling up
+    impact: 1.5
+  - year: '2022'
+    text: Half of hospitals post negative margins
+    impact: 1.5
+  - year: '2022'
+    text: R1 buys Cloudmed to recover lost revenue
+    impact: 1
+  - year: '2022'
+    text: Optum buys Change Healthcare for $13B
+    impact: 1
+  - year: '2022'
+    text: Microsoft buys Nuance to automate notes
+    impact: 1
+  - year: '2023'
+    text: Medicaid unwinding leaves more unpaid bills
+    impact: 1
+  - year: '2023'
+    text: Olive AI shuts down, buyers demand proof
+    impact: 1
+  - year: '2023'
+    text: LLMs read clinical notes and suggest codes
+    impact: 2.5
+  - year: '2023'
+    text: Insurer AI denials spark lawsuits
+    impact: 1.5
+  - year: '2024'
+    text: Change Healthcare hack freezes US claims
+    impact: 2.5
+  - year: '2024'
+    text: Waystar IPO shows investors back claims tools
+    impact: 1
+  - year: '2024'
+    text: Senate probe finds insurer denials soar
+    impact: 1.5
+  - year: '2024'
+    text: CMS orders electronic prior approvals by 2027
+    impact: 1
+  - year: '2024'
+    text: R1 goes private for $8.9B to automate
+    impact: 1
+  - year: '2025'
+    text: Epic adds AI agents to billing software
+    impact: 1.5
+  - year: '2025'
+    text: Insurers pledge to speed prior approvals
+    impact: 1
+  - year: '2025'
+    text: Medicaid cuts in budget law squeeze margins
+    impact: 1.5
+  - year: '2026'
+    text: WISeR brings AI prior approval to Medicare
+    impact: 2.5
+  - year: '2026'
+    text: Innovaccer buys CaduceusHealth for billing
+    impact: 1
+  note:
+  - We kept the events we believe pushed ai revenue cycle management forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-revenue-cycle-management
+  title: 'Where did AI revenue cycle management
+
+    investors put their money this past year?'
+  note:
+  - We added up every equity round of ai revenue cycle management startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    AI revenue cycle management?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-00.png
+    x: 274.7
+    y: 278.6
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-01.png
+    x: 393.4
+    y: 279.9
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-02.png
+    x: 550.3
+    y: 278.6
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-03.png
+    x: 704.6
+    y: 276.9
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-04.png
+    x: 804.2
+    y: 273.0
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-05.png
+    x: 480.6
+    y: 291.6
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-06.png
+    x: 258.6
+    y: 372.6
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-07.png
+    x: 347.4
+    y: 378.2
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-08.png
+    x: 467.4
+    y: 404.4
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-09.png
+    x: 607.1
+    y: 397.7
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-10.png
+    x: 696.9
+    y: 375.9
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-11.png
+    x: 814.3
+    y: 393.0
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-12.png
+    x: 556.9
+    y: 480.0
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-13.png
+    x: 259.9
+    y: 499.1
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-14.png
+    x: 383.4
+    y: 495.9
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-15.png
+    x: 481.9
+    y: 502.3
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-16.png
+    x: 750.6
+    y: 504.0
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s10-17.png
+    x: 811.1
+    y: 498.4
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Coding & CDI
+  - Prior auth
+  - Claims & denials
+  note:
+  - We left out listed companies and incumbents like Waystar and Ensemble Health
+  - We placed each one by its focus, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is Waystar winning
+
+    the RCM software market?'
+  companies:
+  - short: Waystar
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s12-00.png
+  - short: Experian
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s12-01.png
+  - short: FinThrive
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s12-02.png
+  - short: Availity
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s12-03.png
+  - short: AKASA
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s12-04.png
+  criteria:
+  - name: Public pure play
+    why: Capital to buy AI startups
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 1M+ providers served
+    why: Huge claims data network
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Own clearinghouse rails
+    why: Claims flow through it
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Bought Iodine for $1.25B
+    why: Links chart data to claims
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 40%+ EBITDA margin
+    why: Profits fund AI build
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $15B denials prevented
+    why: Clear ROI for hospitals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: GenAI native platform
+    why: Built on LLMs from day one
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company part
+
+    of AI revenue cycle tools?'
+  TL:
+    name: Waystar
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-00.png
+    text: handles $2.4 trillion in claims a year and now sells AI agents, but it is a claims and billing platform built before AI
+  TR:
+    name: Cohere Health
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-02.png
+    text: uses AI to speed up prior authorizations, but it sells to health insurers, not to the providers trying to get paid
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-10.png
+    text: athenahealth has put over 80 AI A i oa Fi features into its billing and coding tools, but practices mostly buy . athenaOne as a health record
+  BR:
+    name: Abridge
+    src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-11.png
+    text: is known for ambient notes, but it now checks hospital claims before billing, which pulls it toward the ae . revenue cycle y
+  caption:
+  - Distance to the center reflects how much of the product automates getting providers paid, rather than care or insurer work
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-01.png
+  - ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-03.png
+  - ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-04.png
+  - ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-05.png
+  - ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-06.png
+  - ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-07.png
+  - ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-08.png
+  - ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s01-09.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up AI
+
+    medical billing to fight denied claims'
+  date: Recently.
+  expl: Hospitals lose time and money on billing errors and denied claims. AI that codes visits and fights denials began to spread, and clinics went looking
+    for it.
+  term: ai revenue cycle management
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-revenue-cycle-management/ai-revenue-cycle-management.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    AI medical billing get?'
+  lead: ''
+  condition: To get that big, AI must move from helping billers to doing the work on its own, like coding charts, sending claims, and winning appeals, with
+    proof that it brings more cash in. It must also stay clear of upcoding audits, keep prices up while Epic bundles its own AI, and win the trust of finance
+    chiefs.
+  note:
+  - We compared forecasts from Towards Healthcare, SNS Insider, KBV Research and Grand View to build a realistic range
+  - We allowed for bundling by Epic and shrinking billing fees, and all the sources we used are listed at the end of the report
+  size: 4
+  cagr: 26
+  y0: 2026

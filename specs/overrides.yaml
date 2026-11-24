@@ -15,12 +15,40 @@ top_companies_market:           # company names in capitals (14 Nov 2026)
   '22': {caps: true}
 most_active_investors:          # measured on the Longevity build (18 Nov 2026): COLLABORATIVE FUND and Superpower stay on one line
   '7': {wordmax: 13}
+  '27': {wordmax: 13, max: 20}          # FLAGSHIP PIONEERING holds on one line (AI drug discovery, 20 Nov 2026)
   '8': {wordmax: 13}
   '9': {wordmax: 13}
   '26': {wordmax: 13}
-  '27': {wordmax: 13}
   '18': {wordmax: 12}
   '20': {wordmax: 12}
   '21': {wordmax: 12}
   '32': {wordmax: 12}
   '33': {wordmax: 12}
+some_common_myths_about:        # Pierre, 20 Nov 2026 (AI drug discovery 13-14): myths always on 2 lines, answers 3 to 6 words longer than before
+  '0': {min: 37, max: 52}
+  '9': {min: 37, max: 52}
+  '12': {min: 37, max: 52}
+  '15': {min: 37, max: 52}
+  '7': {min: 125, max: 150}
+  '10': {min: 125, max: 150}
+  '13': {min: 125, max: 150}
+  '16': {min: 125, max: 150}
+some_common_myths_about_2:
+  '0': {min: 37, max: 52}
+  '9': {min: 37, max: 52}
+  '12': {min: 37, max: 52}
+  '15': {min: 37, max: 52}
+  '7': {min: 125, max: 150}
+  '10': {min: 125, max: 150}
+  '13': {min: 125, max: 150}
+  '16': {min: 125, max: 150}
+sx_categories_n:                # Pierre, 20 Nov 2026 (AI drug discovery 16-18): descriptions on 2 lines, well filled (3 lines touch the edges)
+  categories.*.description: {min: 60, max: 72}
+sx_faceoff:                     # names of 10-12 letters get a tighter letter spacing (SCHRÖDINGER, 20 Nov 2026)
+  cards.*.name: {wordmax: 12}
+behind_these_categories:        # STABLECOIN (Stablecoin payments) and COMMERCIAL, PARAMETRIC (MGA), 22 Nov 2026: 10-letter words hold on one line
+  '5': {wordmax: 10}
+  '8': {wordmax: 10}
+  '10': {wordmax: 10}
+where_did_most_capital_go:      # TREASURY SETTLEMENT (Stablecoin) and SPECIALTY COMMERCIAL (MGA) 22 Nov, IMPLANTABLE DEVICES (MedTech) 23 Nov 2026: no cut word
+  '6': {wordmax: 11}

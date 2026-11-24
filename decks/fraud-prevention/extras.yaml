@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do fraud prevention
+
+      firms actually make money?'
+    axes:
+    - Fixed plan
+    - Paid on results
+    - Banks and
+    - fintechs
+    - Online
+    - stores
+    groups:
+    - name: Tiered software plans
+      x: 0.17
+      y: 0.25
+      logos:
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-06.png
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-07.png
+    - name: Fee per identity check
+      x: 0.5
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-08.png
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-09.png
+    - name: Pay per API call
+      x: 0.4
+      y: 0.6
+      logos:
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-03.png
+    - name: Fee for guaranteed orders
+      x: 0.75
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-00.png
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-01.png
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-02.png
+    - name: Share of disputes won
+      x: 0.83
+      y: 0.45
+      logos:
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-04.png
+      - src: ../../assets/logos/pp_live/fraud-prevention/s06-05.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

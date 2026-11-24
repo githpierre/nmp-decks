@@ -1,0 +1,600 @@
+ed058:
+  type: pp_pains
+  title: 'Which data center problems
+
+    are still unsolved today?'
+  auds:
+  - Cloud giants
+  - AI labs
+  - GPU clouds
+  - Infra investors
+  - Local officials
+  pains:
+  - - They wait years for a grid connection in the best locations
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They face local opposition that blocks or delays new projects
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They wait months for transformers, switchgear and gas turbines
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 1
+  - - They pay more each year as the cost of building keeps rising
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They must redesign their halls as power per rack keeps rising
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They depend on a few giant tenants for most of their revenue
+    - - 1
+      - 2
+      - 2
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which data center operator has
+
+    the most complete tech today?'
+  companies:
+  - name: Equinix
+    src: ../../assets/logos/pp_live/data-center/s05-00.png
+  - name: Aligned
+    src: ../../assets/logos/pp_live/data-center/s05-01.png
+  - name: QTS
+    src: ../../assets/logos/pp_live/data-center/s05-02.png
+  - name: Vantage
+    src: ../../assets/logos/pp_live/data-center/s05-03.png
+  - name: Switch
+    src: ../../assets/logos/pp_live/data-center/s05-04.png
+  - name: CyrusOne
+    src: ../../assets/logos/pp_live/data-center/s05-05.png
+  features:
+  - header: Sites in|Asia
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Sites in|LatAm
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Cloud|on-ramps
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Software|fabric
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Patented|cooling
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Liquid|cooling
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Closed-loop|cooling
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to data centers?'
+  events:
+  - odds: 35
+    impact: 2
+    text: Ireland, the Netherlands and US states impose new power and water limits that stall data center builds
+  - odds: 30
+    impact: 3
+    text: PJM and Texas grid operators freeze new connections, so planned data centers wait years for power
+  - odds: 25
+    impact: 3
+    text: AI demand slows as Microsoft and others cancel leases, leaving new data centers half empty for years
+  - odds: 20
+    impact: 3
+    text: Lenders pull back from data center debt after a neocloud default, leaving projects without financing to finish
+  - odds: 15
+    impact: 2
+    text: Microsoft, Google and Amazon build all new capacity themselves and stop leasing from data center developers
+  - odds: 12
+    impact: 3
+    text: A DeepSeek-style efficiency leap lets AI labs need far less compute, so data center demand drops sharply
+  - odds: 10
+    impact: 2
+    text: New US export rules and Chinese mineral bans cut chip and equipment supply to data center builders
+  - odds: 5
+    impact: 1
+    text: A major hyperscale data center outage takes down cloud services for millions of users for days
+  note:
+  - We listed the events that could slow data center down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed data centers
+
+    forward, year after year?'
+  events:
+  - year: '1998'
+    text: Dot com boom fills early colocation halls
+    impact: 1.5
+  - year: '1999'
+    text: Salesforce shows software can run online
+    impact: 1
+  - year: '2001'
+    text: VMware lets one server run many machines
+    impact: 1
+  - year: '2006'
+    text: AWS rents servers by the hour
+    impact: 2.5
+  - year: '2007'
+    text: iPhone puts the internet in every pocket
+    impact: 2
+  - year: '2008'
+    text: Netflix outage pushes it toward the cloud
+    impact: 1
+  - year: '2010'
+    text: Azure launches, Microsoft joins cloud race
+    impact: 1.5
+  - year: '2011'
+    text: Open Compute makes servers cheaper to build
+    impact: 1
+  - year: '2012'
+    text: AlexNet trains on GPUs, AI needs servers
+    impact: 1
+  - year: '2013'
+    text: Snowden leaks push data to stay local
+    impact: 1
+  - year: '2015'
+    text: Equinix becomes a REIT, investors pile in
+    impact: 1
+  - year: '2017'
+    text: Transformer paper sets up the AI boom
+    impact: 1
+  - year: '2018'
+    text: GDPR pushes firms to store data locally
+    impact: 1
+  - year: '2019'
+    text: Microsoft puts $1B in OpenAI on Azure
+    impact: 1
+  - year: '2020'
+    text: Covid moves work and school online
+    impact: 2
+  - year: '2020'
+    text: Nvidia buys Mellanox to link AI servers
+    impact: 1
+  - year: '2021'
+    text: Blackstone buys QTS, big money flows in
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT sparks a rush for AI compute
+    impact: 3
+  - year: '2023'
+    text: Microsoft puts $10 billion into OpenAI
+    impact: 1.5
+  - year: '2023'
+    text: Nvidia H100 shortage triggers a buildout
+    impact: 2
+  - year: '2024'
+    text: Microsoft revives Three Mile Island for power
+    impact: 1.5
+  - year: '2024'
+    text: xAI builds giant cluster in 122 days
+    impact: 1
+  - year: '2024'
+    text: Big Tech signs small nuclear reactor deals
+    impact: 1.5
+  - year: '2025'
+    text: Stargate pledges $500 billion for AI sites
+    impact: 2.5
+  - year: '2025'
+    text: DeepSeek scare ends with even more spending
+    impact: 1
+  - year: '2025'
+    text: US orders fast permits for AI sites
+    impact: 1.5
+  - year: '2025'
+    text: Meta plans Hyperion, a 5 GW campus
+    impact: 1
+  - year: '2025'
+    text: OpenAI signs $300 billion Oracle compute deal
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia pledges up to $100B for OpenAI
+    impact: 1
+  - year: '2026'
+    text: Big Tech plans over $600B of capex
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed data center forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: data-center
+  title: 'Where did data center investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of data center startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the data center market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/data-center/s10-00.png
+    x: 376.3
+    y: 266.8
+  - src: ../../assets/logos/pp_live/data-center/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/data-center/s10-02.png
+    x: 537.0
+    y: 267.2
+  - src: ../../assets/logos/pp_live/data-center/s10-03.png
+    x: 796.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/data-center/s10-04.png
+    x: 237.6
+    y: 294.6
+  - src: ../../assets/logos/pp_live/data-center/s10-05.png
+    x: 294.2
+    y: 301.3
+  - src: ../../assets/logos/pp_live/data-center/s10-06.png
+    x: 610.7
+    y: 298.5
+  - src: ../../assets/logos/pp_live/data-center/s10-07.png
+    x: 676.3
+    y: 288.9
+  - src: ../../assets/logos/pp_live/data-center/s10-08.png
+    x: 736.7
+    y: 285.0
+  - src: ../../assets/logos/pp_live/data-center/s10-09.png
+    x: 480.0
+    y: 317.6
+  - src: ../../assets/logos/pp_live/data-center/s10-10.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/data-center/s10-11.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/data-center/s10-12.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/data-center/s10-13.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/data-center/s10-14.png
+    x: 735.0
+    y: 389.1
+  - src: ../../assets/logos/pp_live/data-center/s10-15.png
+    x: 418.1
+    y: 480.0
+  - src: ../../assets/logos/pp_live/data-center/s10-16.png
+    x: 238.1
+    y: 505.3
+  - src: ../../assets/logos/pp_live/data-center/s10-17.png
+    x: 493.9
+    y: 501.4
+  - src: ../../assets/logos/pp_live/data-center/s10-18.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Emerging
+  - Growth
+  - Scaled
+  rows:
+  - Hyperscale & wholesale
+  - ''
+  - Edge & micro data
+  note:
+  - We placed data center specialists with funding or clear deployments by business model and scale
+  - This is not a full list, and you will find all the sources we used at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these data center
+
+    startups, and how did they end?'
+  causes:
+  - Too much|debt
+  - Crypto|slump
+  - No buyer|found
+  - Fire or|power woes
+  rows:
+  - name: Cyxtera
+    ending: Went bankrupt
+    start: '2017'
+    end: '2023'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/data-center/s11-00.png
+    ini: C
+    slug: cyxtera
+    domain: cyxtera.com
+  - name: Compute North
+    ending: Went bankrupt
+    start: '2017'
+    end: '2022'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/data-center/s11-01.png
+    ini: C
+    slug: compute-north
+    domain: computenorth.com
+  - name: Core Scientific
+    ending: Went bankrupt
+    start: '2017'
+    end: '2022'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/data-center/s11-02.png
+    ini: C
+    slug: core-scientific
+    domain: corescientific.com
+  - name: Rhodium
+    ending: Went bankrupt
+    start: '2020'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/data-center/s11-03.png
+    ini: R
+    slug: rhodium
+    domain: rhdm.com
+  - name: NFN8
+    ending: Went bankrupt
+    start: '2016'
+    end: '2026'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/data-center/s11-04.png
+    ini: N
+    slug: nfn8
+    domain: nfn8.com
+  note:
+  - We tracked the data center startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'What makes Equinix
+
+    the colocation leader?'
+  companies:
+  - short: Equinix
+    src: ../../assets/logos/pp_live/data-center/s12-00.png
+  - short: Digital Rlty
+    src: ../../assets/logos/pp_live/data-center/s12-01.png
+  - short: QTS
+    src: ../../assets/logos/pp_live/data-center/s12-02.png
+  - short: Vantage
+    src: ../../assets/logos/pp_live/data-center/s12-03.png
+  - short: CyrusOne
+    src: ../../assets/logos/pp_live/data-center/s12-04.png
+  - short: Aligned
+    src: ../../assets/logos/pp_live/data-center/s12-05.png
+  criteria:
+  - name: Revenue above $9B
+    why: Largest colocation platform
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 500k+ interconnections
+    why: Network effect keeps tenants
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Sites in 20+ countries
+    why: One partner worldwide
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Publicly listed REIT
+    why: Cheap capital to expand
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Direct cloud on-ramps
+    why: Easy hybrid cloud setups
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Liquid cooling for AI
+    why: Hosts dense GPU racks
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Gigawatt scale campuses
+    why: Wins big hyperscale deals
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the data center market?'
+  TL:
+    name: Microsoft
+    src: ../../assets/logos/pp_live/data-center/s01-00.png
+    text: brought 88 data centers online in fiscal 2026, but it builds them to sell Azure cloud services, not space and power
+  TR:
+    name: Cisco
+    src: ../../assets/logos/pp_live/data-center/s01-02.png
+    text: sells the switches that link servers in AI data centers, but networking gear in the building falls outside this market
+  BL:
+    name: Schneider Electric
+    src: ../../assets/logos/pp_live/data-center/s01-10.png
+    text: gets about 30% of its orders from data centers and networks, but it remains a broad energy management group
+  BR:
+    name: Crusoe
+    src: ../../assets/logos/pp_live/data-center/s01-11.png
+    text: develops the Stargate campus in Abilene for Oracle, but most of its revenue is expected to come from its own GPU cloud
+  caption:
+  - Distance to the center reflects how much of a business is selling data center space, power and cooling, not the IT inside
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/data-center/s01-01.png
+  - ../../assets/logos/pp_live/data-center/s01-03.png
+  - ../../assets/logos/pp_live/data-center/s01-04.png
+  - ../../assets/logos/pp_live/data-center/s01-05.png
+  - ../../assets/logos/pp_live/data-center/s01-06.png
+  - ../../assets/logos/pp_live/data-center/s01-07.png
+  - ../../assets/logos/pp_live/data-center/s01-08.png
+  - ../../assets/logos/pp_live/data-center/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/data-center/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/data-center/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/data-center/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/data-center/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/data-center/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/data-center/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/data-center/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/data-center/s01-09.png
+    x: 496.1
+    y: 463.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'People ask what a data center
+
+    is, as AI builds them everywhere'
+  date: In recent months.
+  expl: 'Data centers used to be invisible buildings. Then AI turned them into front-page news: Stargate promised $500 billion, Meta planned a campus the
+    size of Manhattan, and towns fought over power bills and water use. People wanted to know what was being built next door.'
+  term: data center
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/data-center/data-center.csv
+ed052p:
+  type: pp_cagr
+  title: 'What growth can the data center
+
+    market realistically expect?'
+  lead: ''
+  condition: To hit this growth, the market must find enough power for hundreds of new gigawatts, and keep AI demand strong enough fo fill every new campus.
+    It must also build transformers, turbines, and cooling fast enough, and win local support for large sites in every region.
+  note:
+  - We compared forecasts from Dell'Oro, MarketsandMarkets and Grand View and adjusted each one to our market definition
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: null
+  cagr: 17
+  y0: 2026

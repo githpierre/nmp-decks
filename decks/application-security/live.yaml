@@ -1,0 +1,370 @@
+ed148p:
+  title: 'What pushed the application security
+
+    market forward, year after year?'
+  events:
+  - year: '1999'
+    text: CVE standardizes vulnerability tracking
+    impact: 2.0
+  - year: '2001'
+    text: OWASP spreads secure coding practices
+    impact: 1.5
+  - year: '2003'
+    text: OWASP Top Ten focuses application scanning
+    impact: 2.5
+  - year: '2004'
+    text: Updated OWASP risks guide security testing
+    impact: 1.0
+  - year: '2006'
+    text: CWE taxonomy makes code flaws comparable
+    impact: 2.0
+  - year: '2007'
+    text: OWASP refresh tracks changing web attacks
+    impact: 1.0
+  - year: '2010'
+    text: OWASP refresh guides secure development
+    impact: 1.0
+  - year: '2013'
+    text: OWASP update broadens vulnerability tests
+    impact: 1.0
+  - year: '2014'
+    text: Heartbleed exposes hidden dependency failures
+    impact: 2.0
+  - year: '2017'
+    text: Equifax exposes unpatched web frameworks
+    impact: 2.5
+  - year: '2017'
+    text: OWASP update reinforces app testing
+    impact: 1.0
+  - year: '2019'
+    text: OWASP API Top Ten drives focused testing
+    impact: 2.0
+  - year: '2020'
+    text: GitHub embeds CodeQL scanning in repos
+    impact: 2.5
+  - year: '2020'
+    text: SolarWinds exposes software supply risks
+    impact: 2.0
+  - year: '2021'
+    text: US guidance standardizes software inventories
+    impact: 2.0
+  - year: '2021'
+    text: Log4Shell forces urgent dependency inventory
+    impact: 3.0
+  - year: '2021'
+    text: OWASP modernizes application risk lists
+    impact: 1.0
+  - year: '2022'
+    text: NIST standardizes secure software delivery
+    impact: 2.0
+  - year: '2022'
+    text: Cloud function scanning closes gaps
+    impact: 1.5
+  - year: '2023'
+    text: MOVEit attacks drive application scanning
+    impact: 2.0
+  - year: '2023'
+    text: OWASP API refresh updates risk coverage
+    impact: 1.5
+  - year: '2024'
+    text: AI code fixes lower remediation effort
+    impact: 2.0
+  - year: '2024'
+    text: Free autofixes widen open source coverage
+    impact: 1.5
+  - year: '2024'
+    text: EU law mandates software security
+    impact: 2.0
+  - year: '2025'
+    text: OWASP flags software supply chain risks
+    impact: 2.0
+  - year: '2026'
+    text: AI coded flaws drive security testing
+    impact: 2.0
+  - year: '2026'
+    text: Third party coding agents get security gates
+    impact: 1.5
+  - year: '2026'
+    text: Agentic fixes preview cuts alert backlogs
+    impact: 1.5
+  - year: '2026'
+    text: Agentic autofix reaches general availability
+    impact: 2.0
+  - year: '2026'
+    text: CWE expands for automated development risks
+    impact: 1.0
+  note:
+  - We kept the events we believe pushed application security forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: application-security
+  title: 'Where did application security investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of application security startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    application security today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/application-security/s10-00.png
+    x: 223.5
+    y: 279.4
+  - src: ../../assets/logos/pp_live/application-security/s10-01.png
+    x: 299.4
+    y: 267.0
+  - src: ../../assets/logos/pp_live/application-security/s10-02.png
+    x: 685.7
+    y: 278.6
+  - src: ../../assets/logos/pp_live/application-security/s10-03.png
+    x: 435.6
+    y: 304.3
+  - src: ../../assets/logos/pp_live/application-security/s10-04.png
+    x: 535.3
+    y: 287.6
+  - src: ../../assets/logos/pp_live/application-security/s10-05.png
+    x: 794.4
+    y: 298.3
+  - src: ../../assets/logos/pp_live/application-security/s10-06.png
+    x: 216.6
+    y: 386.6
+  - src: ../../assets/logos/pp_live/application-security/s10-07.png
+    x: 323.8
+    y: 376.7
+  - src: ../../assets/logos/pp_live/application-security/s10-08.png
+    x: 439.3
+    y: 376.7
+  - src: ../../assets/logos/pp_live/application-security/s10-09.png
+    x: 581.8
+    y: 385.5
+  - src: ../../assets/logos/pp_live/application-security/s10-10.png
+    x: 654.6
+    y: 384.0
+  - src: ../../assets/logos/pp_live/application-security/s10-11.png
+    x: 753.2
+    y: 391.3
+  - src: ../../assets/logos/pp_live/application-security/s10-12.png
+    x: 229.9
+    y: 495.0
+  - src: ../../assets/logos/pp_live/application-security/s10-13.png
+    x: 312.6
+    y: 489.4
+  - src: ../../assets/logos/pp_live/application-security/s10-14.png
+    x: 581.6
+    y: 481.7
+  - src: ../../assets/logos/pp_live/application-security/s10-15.png
+    x: 706.3
+    y: 494.1
+  - src: ../../assets/logos/pp_live/application-security/s10-16.png
+    x: 494.4
+    y: 509.1
+  - src: ../../assets/logos/pp_live/application-security/s10-17.png
+    x: 793.3
+    y: 495.4
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Code Scanning [4]
+  - ee de we eee
+  - Supply & Run
+  note:
+  - We left out listed companies and incumbents like Microsoft GitHub, GitLab and Checkmarx
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these application security
+
+    startups, and how did they end?'
+  causes:
+  - Crowded|market
+  - No product|market fit
+  - Ran out|of cash
+  - No public|reason
+  rows:
+  - name: Myrror Security
+    ending: Shut down
+    start: '2022'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/application-security/s11-00.png
+    ini: M
+    slug: myrror-security
+    domain: myrror.security
+  - name: Shieldfy
+    ending: Shut down
+    start: '2016'
+    end: '2020'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/application-security/s11-01.png
+    ini: S
+    slug: shieldfy
+    domain: shieldfy.io
+  - name: Scribe Security
+    ending: Ceased operations
+    start: '2021'
+    end: '2026'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/application-security/s11-02.png
+    ini: S
+    slug: scribe-security
+    domain: scribesecurity.com
+  - name: SourceOps
+    ending: Shut down
+    start: '2022'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/application-security/s11-03.png
+    ini: S
+    slug: sourceops
+    domain: sourceops.io
+  - name: Sevren
+    ending: Shut down
+    start: '2019'
+    end: '2020'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/application-security/s11-04.png
+    ini: S
+    slug: sevren
+    domain: sevren-intelligence.com
+  note:
+  - We tracked the application security startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Sonatype be winning the
+
+    open source code scanning market?'
+  companies:
+  - short: Sonatype
+    src: ../../assets/logos/pp_live/application-security/s12-00.png
+  - short: Snyk
+    src: ../../assets/logos/pp_live/application-security/s12-01.png
+  - short: Mend
+    src: ../../assets/logos/pp_live/application-security/s12-02.png
+  - short: Black Duck
+    src: ../../assets/logos/pp_live/application-security/s12-03.png
+  - short: FOSSA
+    src: ../../assets/logos/pp_live/application-security/s12-04.png
+  criteria:
+  - name: Dependency CVE detection
+    why: Expose open-source risk
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: License policy controls
+    why: Avoid license obligations
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: SBOM creation and export
+    why: Document software contents
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Malware package screening
+    why: Stop poisoned dependencies
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: IDE developer feedback
+    why: Fix issues during coding
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Reachability risk context
+    why: Focus on exploitable code
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Repository firewall gate
+    why: Block risky downloads early
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Application security searches grow
+
+    as AI writes more and more code'
+  date: Lately.
+  expl: AI coding tools let teams ship far more code than before, and much of it is never reviewed line by line. Software supply chain attacks kept hitting
+    the news, and teams went looking for ways to catch flaws before they reach users.
+  term: application security
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/application-security/application-security.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    application security get?'
+  lead: ''
+  condition: To get that big, the market must find and fix flaws in code written by AI as fast as it is produced. It must also show developers fewer false
+    alarms so security checks speed up releases instead of slowing them.
+  note:
+  - We compared forecasts from Grand View, Roots Analysis, Knowledge Sourcing Intelligence and ResearchAndMarkets
+  - We adjusted each one to our market definition and built a realistic range, with all the sources at the end of the report
+  size: 14
+  cagr: 15
+  y0: 2026

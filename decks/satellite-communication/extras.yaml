@@ -1,0 +1,41 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do satellite telecom
+
+      firms actually make money?'
+    axes:
+    - Monthly plan
+    - Long contract
+    - Low orbit
+    - fleets
+    - High orbit
+    - satellites
+    groups:
+    - name: Home internet plans
+      x: 0.14
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/satellite-communication/s06-04.png
+    - name: Texting via phone carriers
+      x: 0.62
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/satellite-communication/s06-00.png
+    - name: Satellite phones and IoT
+      x: 0.45
+      y: 0.28
+      logos:
+      - src: ../../assets/logos/pp_live/satellite-communication/s06-02.png
+      - src: ../../assets/logos/pp_live/satellite-communication/s06-03.png
+    - name: Capacity leased to telcos
+      x: 0.86
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/satellite-communication/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

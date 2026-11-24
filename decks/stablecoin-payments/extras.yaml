@@ -1,0 +1,435 @@
+# Stablecoin payments extra slides (22 Nov 2026): 7 SIGNAL slides after ed032 + 2 others, from the signals file
+- after: ed104
+  link: ed104 page 2/2 « Where is value created today? », followed by how firms make money from it
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do stablecoin payment
+
+      firms actually make money?'
+    axes:
+    - Earns interest on reserves
+    - Earns fees on payments
+    - Sold to
+    - businesses
+    - Sold to
+    - people
+    groups:
+    - name: Interest on coin reserves
+      x: 0.15
+      y: 0.72
+      logos:
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-02.png
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-03.png
+    - name: Coins issued for brands
+      x: 0.22
+      y: 0.24
+      logos:
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-06.png
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-07.png
+    - name: Fee on each checkout
+      x: 0.6
+      y: 0.22
+      logos:
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-08.png
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-09.png
+    - name: Cross border payout fees
+      x: 0.86
+      y: 0.4
+      logos:
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-04.png
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-05.png
+    - name: Stablecoin card spend
+      x: 0.75
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-00.png
+      - src: ../../assets/logos/pp_live/stablecoin-payments/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed048
+  link: 'ed048, page 1/2: the three other categories of the donut ed047p'
+  slide:
+    id: ed048-2
+    type: x/behind_these_categories
+    section: Market size
+    title: What is behind these categories?
+    page: 2/2
+    t:
+      5: 'STABLECOIN
+
+        CARDS'
+      8: 'TREASURY
+
+        SETTLEMENT'
+      10: 'PAYMENT
+
+        APIS'
+      11: 💳
+      4: Cards let people spend their stablecoins at any shop that takes cards, and issuers earn part of the fee shops pay
+      12: 🏦
+      7: Firms hold and settle company cash in digital dollars at any hour, and pay a fee or a spread to move and convert it
+      13: 🔌
+      9: One API lets fintechs, banks and shops send, accept and convert coins, paid per call or per transfer
+      14: ''
+      15: ''
+      16: ''
+      17: ''
+      18: ''
+      19: ''
+    holes_ok: true
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xs_cpn
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Circle''s payment network grew fivefold
+
+      in six months, to a $41B yearly pace'
+    t:
+      9: $8.3B
+      10: Q1 2026
+      12: $41B
+      13: Q3 2026
+      15: ×5
+      16: WHY IT IS HOT
+      17: 'Banks and fintechs now route real payments through stablecoins: the Circle Payments Network reached a $41B yearly pace in September 2026.
+
+
+        In March it was at $8.3B. Each figure is the last 30 days of the quarter, turned into a yearly pace.'
+    vbars:
+    - 8.3
+    - 41.3
+    note: We used Circle’s results for the first and third quarters of 2026, where each figure is the last 30 days of the quarter, annualized
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: CPN annualized volume Q1 2026 $8.3B
+    url: https://www.circle.com/pressroom/circle-reports-first-quarter-2026-results
+    date: '2026-05-11'
+    quote: with $8.3 billion in annualized transaction volume
+  - claim: CPN annualized volume Q3 2026 $41.3B
+    url: https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/finalq3epr-110326.htm
+    date: '2026-11-04'
+    quote: CPN hit $41.3B in annualized TPV this quarter
+- after: xs_cpn
+  link: ed032, signal 2 of the list
+  slide:
+    id: xs_visa
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Visa’s stablecoin settlement passed a
+
+      $20B yearly pace, up from $3.5B'
+    t:
+      9: $3.5B
+      10: Nov 2025
+      12: $20B
+      13: Sep 2026
+      15: ×5.7
+      16: WHY IT IS HOT
+      17: 'A card network now moves real money between banks in stablecoins: Visa’s stablecoin settlement passed a $20B yearly pace in September 2026.
+
+
+        In November 2025 it was at $3.5B, when US banks first started to settle with Visa in USDC.'
+    vbars:
+    - 3.5
+    - 20
+    note: We used Visa’s figures of December 2025 and September 2026, each a monthly settlement volume turned into a yearly pace
+    fresh:
+      period: month
+      end: 2026-09
+  sources:
+  - claim: Visa November 2025 $3.5B pace
+    url: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-launches-stablecoin-settlement-in-the-united-states.html
+    date: '2025-12-16'
+    quote: Visa’s monthly stablecoin settlement volume passed a $3.5 billion annualized run rate
+  - claim: Visa September 2026 exceeded $20B pace
+    url: https://www.visa.com/en-us/thought-leadership/innovation/financing-stablecoin-linked-card-programs
+    date: '2026-09-08'
+    quote: stablecoin settlement volume recently surpassed a $20 billion annualized run rate
+- after: xs_visa
+  link: ed032, signal 3 of the list
+  slide:
+    id: xs_deals
+    type: sx_league
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Payment giants agreed to pay up to $4B
+
+      for five stablecoin startups'
+    big: '5'
+    h0: BUYER AND STARTUP
+    h1: RANK
+    h2: UP TO
+    kicker: WHY IT IS HOT
+    rows:
+    - n: 1
+      name: Mastercard + BVNK
+      src: ../../assets/logos/bvnk.png
+      v: $1.7B
+      what: $1.4B in cash and up to $300M more, August 2026
+    - n: 2
+      name: Stripe + Bridge
+      src: ../../assets/logos/bridge.png
+      v: $1.1B
+      what: Stablecoin payment APIs, closed February 2025
+    - n: 3
+      name: Payward + Reap
+      src: ../../assets/logos/fav/reap.png
+      v: $600M
+      what: Stablecoin cards, in cash and shares, July 2026
+    - n: 4
+      name: Circle + Tazapay
+      src: ../../assets/logos/fav/tazapay.png
+      v: $400M
+      what: Business payments, in shares, September 2026
+    - n: 5
+      name: Ripple + Rail
+      src: media/ini/rail.png
+      v: $200M
+      what: Stablecoin business payments, August 2025
+    story: Card networks, Stripe and crypto groups now buy the startups instead of building their own rails, a sign of a hot market. Amounts are the highest announced, extra payments included.
+    note:
+    - We listed five purchases of stablecoin payments startups announced from August 2025
+    - to September 2026, each at its highest announced value, extra payments included
+    fresh:
+      period: total
+      end: 2026-09
+  sources:
+  - claim: Mastercard paid $1.4B cash for BVNK plus up to $300M contingent
+    url: https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/R9.htm
+    date: 2026-10
+    quote: for total cash consideration of $1.4 billion.
+  - claim: Additional BVNK contingent payout of up to $300M
+    url: https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/R9.htm
+    date: 2026-10
+    quote: The sellers of BVNK have the potential to earn additional contingent consideration of up to $300 million if certain performance targets are met.
+  - claim: Stripe paid $1.1B to acquire Bridge
+    url: https://techcrunch.com/2025/02/05/stripe-makes-1-1-billion-crypto-bet-as-it-closes-on-bridge-acquisition/
+    date: '2025-02-05'
+    quote: Stripe has closed on its $1.1 billion purchase of stablecoin platform Bridge
+  - claim: Payward agreed to buy Reap for up to $600M
+    url: https://www.payward.com/press-release/payward-acquires-reap
+    date: '2026-05-07'
+    quote: for up to $600 million payable in a mix of cash and Payward stock
+  - claim: Payward completed its acquisition of Reap in July 2026
+    url: https://www.payward.com/press-release/payward-reap-close
+    date: '2026-07-01'
+    quote: today announced the completion of its acquisition of Reap Technologies Holdings Limited
+  - claim: Circle proposed roughly $400M in stock to acquire Tazapay
+    url: https://s206.q4cdn.com/265218871/files/doc_presentations/2026/Sep/08/Tazapay-Acquisition-Overview.pdf
+    date: '2026-09-08'
+    quote: Approximately $400 million in all stock.
+  - claim: Ripple agreed to buy Rail for $200M
+    url: https://ripple.com/ripple-press/ripple-to-acquire-rail-for-200m-expanding-leadership-in-stablecoin-payments/
+    date: '2025-08-07'
+    quote: it has agreed to acquire Rail, a stablecoin-powered platform for global payments, for $200 million.
+- after: xs_deals
+  link: ed032, signal 4 of the list
+  slide:
+    id: xs_tazapay
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Circle is buying a $25B payments firm
+
+      where 60% of volume uses stablecoins'
+    items:
+    - value: $25B+
+      label: Yearly payment volume of Tazapay, the Singapore firm that Circle agreed to buy in 2026
+    - value: 60%
+      label: Share of Tazapay’s volume that already includes stablecoins at some step of the payment
+    - value: 100+
+      label: Markets reached by Tazapay’s local payout rails, in bank money people can spend
+    why: This is a sign of a hot market because the largest dollar coin issuer is buying a working payments business, not a token project. Tazapay’s volume includes ordinary bank money too.
+    note: We used Circle’s release of September 8, 2026, with Tazapay’s figures measured at July 31, 2026
+    fresh:
+      period: month
+      end: 2026-07
+  sources:
+  - claim: Tazapay >$25B all-method annualized volume
+    url: https://investor.circle.com/news/news-details/2026/Circle-Expands-Global-Payments-Infrastructure-with-Agreement-to-Acquire-Singapore-Based-Cross-Border-Payments-Platform-Tazapay/default.aspx
+    date: '2026-09-08'
+    quote: Tazapay brings over $25 billion of annualized payment volume
+  - claim: Tazapay 60% includes stablecoins
+    url: https://investor.circle.com/news/news-details/2026/Circle-Expands-Global-Payments-Infrastructure-with-Agreement-to-Acquire-Singapore-Based-Cross-Border-Payments-Platform-Tazapay/default.aspx
+    date: '2026-09-08'
+    quote: Approximately 60% of Tazapay's transaction volume already includes stablecoins
+  - claim: Tazapay >100 payout markets
+    url: https://investor.circle.com/news/news-details/2026/Circle-Expands-Global-Payments-Infrastructure-with-Agreement-to-Acquire-Singapore-Based-Cross-Border-Payments-Platform-Tazapay/default.aspx
+    date: '2026-09-08'
+    quote: local payout rails covering over 100 markets
+- after: xs_tazapay
+  link: ed032, signal 5 of the list
+  slide:
+    id: xs_cards
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Visa runs over 160 stablecoin card
+
+      programs, and their spend nearly tripled'
+    items:
+    - value: 160+
+      label: Stablecoin-linked card programs live on Visa around the world in September 2026
+    - value: ~200%
+      label: Growth in a year of the payments made with those cards, as reported by Visa
+    - value: '18'
+      label: Countries where Bridge-enabled Visa cards were live in March 2026, with 100 planned
+    why: This is a sign of a hot market because people now spend stablecoins at ordinary shops through cards, not only inside crypto apps. Visa reports both card figures for September 2026.
+    note: We used Visa’s note of September 2026 on stablecoin card programs and its March 2026 release with Bridge
+    fresh:
+      period: month
+      end: 2026-09
+  sources:
+  - claim: Visa more than 160 live card programs
+    url: https://www.visa.com/en-us/thought-leadership/innovation/financing-stablecoin-linked-card-programs
+    date: '2026-09-08'
+    quote: more than 160 stablecoin-linked card programs were live around the world
+  - claim: Visa nearly 200% yoy payment volume rise
+    url: https://www.visa.com/en-us/thought-leadership/innovation/financing-stablecoin-linked-card-programs
+    date: '2026-09-08'
+    quote: payment volume on those programs grew nearly 200% year over year
+  - claim: Bridge Visa stablecoin cards were live in 18 countries by March 2026
+    url: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-bridge-stablecoin-linked-card-expansion.html
+    date: '2026-03-03'
+    quote: Bridge-enabled stablecoin-linked cards are now live in 18 countries, with planned expansion to over 100 countries
+- after: xs_cards
+  link: ed032, signal 6 of the list
+  slide:
+    id: xs_agents
+    type: sx_stat_strip
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'AI agents made 29M tiny stablecoin
+
+      payments in a single month'
+    headline: Payments made on the x402 protocol, in August 2026
+    stats:
+    - v: 29M
+      l: Payments made by AI agents in stablecoins in one month
+    - v: $0.06
+      l: Average size of each payment, sent automatically by software
+    - v: 89%
+      l: Of agent payments since October 2025 bought data or computing
+    story: Software agents now pay for services by themselves, in amounts cards were not built for, a sign of a hot market. Each payment is tiny, so the total is still small.
+    note:
+    - We used Allium’s September 2026 report on payments made with the x402 protocol,
+    - with the count for August 2026 and the purchase mix measured since October 2025
+    fresh:
+      period: month
+      end: 2026-08
+  sources:
+  - claim: x402 August count and mean payment
+    url: https://www.allium.so/reports/state-of-stablecoins-and-payments-september-2026
+    date: '2026-09-15'
+    quote: Agentic payments on the x402 protocol reached 29 million monthly transfers in August 2026, averaging 6 cents per payment.
+  - claim: x402 since October 2025 infrastructure payments share
+    url: https://www.allium.so/reports/state-of-stablecoins-and-payments-september-2026
+    date: '2026-09-15'
+    quote: Since October 2025, 89% of agentic transfers purchased infrastructure, analytics, and data queries.
+- after: xs_agents
+  link: ed032, signal 7 of the list
+  slide:
+    id: xs_business
+    type: share_waffle
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Businesses now receive most of
+
+      the money paid in stablecoins'
+    'on': Businesses
+    'off': Other recipients
+    unit: dollars
+    years:
+    - x: JAN-AUG 2026
+      k: 58
+      n: 100
+      p: 58
+    big: $58 of $100
+    kicker: WHY IT IS HOT
+    story: 'Most stablecoin payments now go to companies, not to friends or family, a sign of a hot market.
+
+      Allium puts business receipts at 58% to 64% of payment value, and we show the low end.'
+    note:
+    - We used Allium’s September 2026 report on stablecoin payments from January
+    - 'to August 2026, where businesses got 58% to 64% of value: we show the low end'
+    fresh:
+      period: month
+      end: 2026-08
+  sources:
+  - claim: Business recipients receive between 58% and 64%
+    url: https://www.allium.so/reports/state-of-stablecoins-and-payments-september-2026
+    date: '2026-09-15'
+    quote: Businesses receive 58% to 64% of all payments
+- after: ed132
+  link: ed132 card « Fast transfers on a blockchain still need banks to get dollars in and out locally »
+  slide:
+    id: xc_domestic
+    type: share_waffle
+    section: Market challenges
+    title: 'Most stablecoin payments stay inside
+
+      one country, not across borders'
+    'on': Domestic
+    'off': Cross-border
+    unit: dollars
+    years:
+    - x: JAN-AUG 2026
+      k: 61
+      n: 100
+      p: 61
+    big: $61 of $100
+    kicker: WHAT IS GOING ON
+    story: 'Stablecoins are often sold as a fix for slow transfers abroad.
+
+      Yet 61% of the payments whose countries can be traced stay in one country, where they compete with local payment systems.'
+    note:
+    - We used Allium’s September 2026 report, for payments from January to August 2026
+    - whose sender and receiver countries could both be traced, counted by their value
+  sources:
+  - claim: Geolocated stablecoin payment flows 61% domestic
+    url: https://www.allium.so/reports/state-of-stablecoins-and-payments-september-2026
+    date: '2026-09-15'
+    quote: 61% of geographically attributed payment volume was domestic
+- after: pp_s06
+  link: pp_s06 group « Interest on coin reserves »
+  slide:
+    id: xv_circle
+    type: sx_stat_strip
+    section: Value creation
+    title: 'Circle kept only 7 cents of profit
+
+      from each dollar of revenue'
+    headline: Circle, first half of 2026, for each $1 of revenue
+    stats:
+    - v: $0.59
+      l: Paid to the partners that distribute USDC to their users
+    - v: $0.34
+      l: Spent on infrastructure and on running the business
+    - v: $0.07
+      l: Kept by Circle as net profit, after all its costs
+    story: Interest on reserves brings the money in, but most of it is shared with the apps and exchanges that bring the users. The issuer keeps a thin slice.
+    note:
+    - We used Circle’s October 2026 note on the economics of USDC,
+    - for the first half of 2026, as shares of each dollar of revenue
+  sources:
+  - claim: Circle distribution partners 59 cents
+    url: https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win
+    date: '2026-10-16'
+    quote: Approximately 59 cents of every dollar of revenue went to the global partners
+  - claim: Circle infrastructure reinvestment 34 cents
+    url: https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win
+    date: '2026-10-16'
+    quote: Circle spent about $473 million, roughly 34 cents of every dollar
+  - claim: Circle net profit 7 cents
+    url: https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win
+    date: '2026-10-16'
+    quote: Circle made 7 cents of net profit from every dollar of revenue earned.

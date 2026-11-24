@@ -1,0 +1,594 @@
+ed058:
+  type: pp_pains
+  title: 'Which AI drug discovery
+
+    problems are still unsolved?'
+  auds:
+  - Big pharma
+  - Small biotechs
+  - AI startups
+  - Contract labs
+  - Biotech investors
+  pains:
+  - - They still see AI-designed drugs fail in human clinical trials
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They must prove AI saves time, since trials still take years
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They pay for wet-lab tests to check every AI prediction made
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They lack enough clean data on what really works in patients
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They earn small upfront fees and wait years for milestone pay
+    - - 1
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They cannot get the data that pharma keeps locked inside
+    - - 1
+      - 2
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI drug discovery firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Insilico
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s05-00.png
+  - name: Recursion
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s05-01.png
+  - name: insitro
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s05-02.png
+  - name: Schrödinger
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s05-03.png
+  - name: Isomorphic
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s05-04.png
+  features:
+  - header: Drug in|clinic
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Drug in|Phase 2+
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Robotic|lab
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Cell|imaging
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Target|finding AI
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Molecule|design AI
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Sells its|software
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI drug discovery?'
+  events:
+  - odds: 45
+    impact: 3
+    text: A high profile AI designed drug from Recursion or Insilico fails in Phase 2 and spooks investors
+  - odds: 40
+    impact: 3
+    text: Biotech funding stays tight and many AI drug startups run out of cash before clinical data
+  - odds: 35
+    impact: 3
+    text: Big pharma like Lilly and Novartis build AI teams in house and stop paying startups for platforms
+  - odds: 35
+    impact: 2
+    text: New data shows AI designed drugs fail Phase 2 as often as traditional drugs, eroding the pitch
+  - odds: 30
+    impact: 2
+    text: Free open models like Boltz-2 and OpenFold3 erase the edge of smaller AI biotech startups
+  - odds: 30
+    impact: 2
+    text: FDA budget cuts and staff losses slow reviews and trial approvals for new AI discovered molecules
+  - odds: 30
+    impact: 1
+    text: Drug pricing rules under the Inflation Reduction Act cut expected returns on small molecule programs
+  - odds: 8
+    impact: 2
+    text: A data scandal over patient genomic records used for training leads to lawsuits and tighter consent rules
+  note:
+  - We listed the events that could slow AI drug discovery down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI drug discovery
+
+    forward, year after year?'
+  events:
+  - year: '2010'
+    text: Each new drug now costs over $1B
+    impact: 1
+  - year: '2012'
+    text: Deep learning wins Merck drug contest
+    impact: 1
+  - year: '2016'
+    text: Pfizer taps IBM Watson for drug research
+    impact: 0.5
+  - year: '2017'
+    text: Sanofi and GSK sign first AI deals
+    impact: 1
+  - year: '2018'
+    text: AlphaFold tops protein structure contest
+    impact: 1.5
+  - year: '2019'
+    text: Insilico designs drug lead in 46 days
+    impact: 1.5
+  - year: '2020'
+    text: First AI-designed drug enters human trials
+    impact: 2.5
+  - year: '2020'
+    text: AI flags baricitinib as a Covid treatment
+    impact: 1.5
+  - year: '2020'
+    text: AlphaFold 2 cracks protein folding
+    impact: 3
+  - year: '2021'
+    text: Recursion and Exscientia IPOs raise billions
+    impact: 1.5
+  - year: '2021'
+    text: DeepMind spins out Isomorphic Labs
+    impact: 1
+  - year: '2022'
+    text: AlphaFold opens 200M protein structures
+    impact: 2
+  - year: '2022'
+    text: US drops animal test mandate for drugs
+    impact: 1.5
+  - year: '2023'
+    text: ChatGPT boom pulls investors into AI biotech
+    impact: 1.5
+  - year: '2023'
+    text: Patent cliff forces pharma to move faster
+    impact: 1.5
+  - year: '2023'
+    text: Insilico's AI drug reaches phase 2 trials
+    impact: 1.5
+  - year: '2023'
+    text: Nvidia backs Recursion, betting on AI biology
+    impact: 1.5
+  - year: '2024'
+    text: Lilly and Novartis sign $3B Isomorphic deals
+    impact: 2
+  - year: '2024'
+    text: Record $1B launch gives Xaira deep pockets
+    impact: 1.5
+  - year: '2024'
+    text: AlphaFold 3 predicts how drugs bind proteins
+    impact: 2
+  - year: '2024'
+    text: AlphaFold wins the Nobel Prize in Chemistry
+    impact: 2
+  - year: '2024'
+    text: Recursion buys Exscientia to scale up
+    impact: 1
+  - year: '2025'
+    text: FDA drafts first AI drug guidance
+    impact: 1
+  - year: '2025'
+    text: FDA starts phasing out animal tests
+    impact: 2
+  - year: '2025'
+    text: AI-found drug improves lung function in trial
+    impact: 2.5
+  - year: '2025'
+    text: Lilly opens its AI models to biotechs
+    impact: 1
+  - year: '2025'
+    text: Lilly builds pharma's top AI supercomputer
+    impact: 1.5
+  - year: '2026'
+    text: Nvidia and Lilly open $1B AI lab
+    impact: 1.5
+  - year: '2026'
+    text: Isomorphic raises $2.1B to reach clinic
+    impact: 1.5
+  - year: '2026'
+    text: First AI-found drug starts phase 3 trial
+    impact: 2
+  note:
+  - We kept the events we believe pushed AI drug discovery forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-drug-discovery
+  title: 'Where did AI drug discovery investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of AI drug discovery startups in our tracker over twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Molecule design
+    names:
+    - Isomorphic Labs
+    - Aureka Biotechnologies
+    v: $7.7B
+    pct: 66% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/isomorphic-labs.png
+    - src: ../../assets/logos/aureka-biotechnologies.png
+    - src: ../../assets/logos/boltz-pbc.png
+  - name: Protein design
+    names:
+    - Chai Discovery
+    - Anew Labs
+    v: $1.2B
+    pct: 10% of total
+    w: 15.8
+    logos:
+    - src: ../../assets/logos/chai-discovery.png
+    - src: ../../assets/logos/anew-labs.png
+    - src: ../../assets/logos/basecamp-research--symbol.png
+  - name: Target discovery
+    names:
+    - NewLimit
+    - Pathos AI
+    v: $1.2B
+    pct: 10% of total
+    w: 15.3
+    logos:
+    - src: ../../assets/logos/newlimit.png
+    - src: ../../assets/logos/pathos-ai.png
+    - src: ../../assets/logos/soley-therapeutics.png
+  - name: Hit finding
+    names:
+    - Enveda Biosciences
+    - LifeMine Therapeutics
+    v: $1.1B
+    pct: 9% of total
+    w: 14.2
+    logos:
+    - src: ../../assets/logos/enveda-biosciences--symbol.png
+    - src: ../../assets/logos/lifemine-therapeutics.png
+    - src: ../../assets/logos/triana-biomedicines.png
+  - name: Safety testing
+    names:
+    - Warp Sciences
+    - Xellar Biosystems
+    v: $343M
+    pct: 3% of total
+    w: 4.5
+    logos:
+    - src: ../../assets/logos/warp-sciences.png
+    - src: ../../assets/logos/xellar-biosystems.png
+    - src: ../../assets/logos/turbine.png
+  - name: Drug repurposing
+    names:
+    - Biossil
+    - Transcripta Bio
+    v: $222M
+    pct: 2% of total
+    w: 2.9
+    logos:
+    - src: ../../assets/logos/biossil.png
+    - src: ../../assets/logos/fav/transcripta-bio.png
+    - src: ../../assets/logos/big-picture-bio.png
+ed171p:
+  title: 'Who are the top companies in
+
+    the AI in drug discovery market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-00.png
+    x: 376.3
+    y: 271.1
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-01.png
+    x: 667.7
+    y: 277.1
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-02.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-03.png
+    x: 452.6
+    y: 297.9
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-04.png
+    x: 528.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-05.png
+    x: 583.3
+    y: 308.8
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-06.png
+    x: 778.7
+    y: 298.5
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-07.png
+    x: 576.9
+    y: 374.8
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-08.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-09.png
+    x: 249.0
+    y: 404.1
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-10.png
+    x: 324.4
+    y: 393.0
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-11.png
+    x: 403.7
+    y: 393.0
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-12.png
+    x: 456.9
+    y: 385.1
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-13.png
+    x: 516.4
+    y: 390.6
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-14.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-15.png
+    x: 780.9
+    y: 375.9
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-16.png
+    x: 191.1
+    y: 492.9
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-17.png
+    x: 420.9
+    y: 468.9
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-18.png
+    x: 478.7
+    y: 483.2
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-19.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-20.png
+    x: 249.0
+    y: 504.6
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-21.png
+    x: 306.9
+    y: 504.9
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s10-22.png
+    x: 544.3
+    y: 504.6
+  cols:
+  - 'Target ID &
+
+    validation'
+  - 'Candidate design &
+
+    optimization'
+  - 'Preclinical selection &
+
+    DMTA enablement'
+  rows:
+  - Small molecules
+  - Biologics / proteins / antibodies
+  - Cross-modal discovery engines
+  note:
+  - We left out trial, regulatory, manufacturing and sales tools not tied to choosing drug candidates
+  - We placed private pure players by main product and stage, with all sources at the end of the report
+ed209p:
+  title: 'Why is Insilico winning
+
+    AI drug discovery?'
+  companies:
+  - short: Insilico
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s12-00.png
+  - short: Recursion
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s12-01.png
+  - short: Generate
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s12-02.png
+  - short: Isomorphic
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s12-03.png
+  - short: Xaira
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s12-04.png
+  - short: Iambic
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s12-05.png
+  criteria:
+  - name: Phase 3 trial running
+    why: Closest to an approved drug
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Most drugs in the clinic
+    why: Ten AI drugs tested in people
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: AI drug in human trials
+    why: Proof beyond the lab
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Publicly listed
+    why: Access to public capital
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Big pharma partnerships
+    why: Partners fund the pipeline
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Raised $1B+
+    why: Funds many programs at once
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Own generative AI models
+    why: Designs new molecules fast
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is in AI drug discovery,
+
+    and what stays outside?'
+  TL:
+    name: Benchling
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s01-00.png
+    text: runs lab software used by over 200,000 scientists, but it records discovery work rather than designing drugs itself
+  TR:
+    name: IQVIA
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s01-02.png
+    text: uses AI across pharma, but over half of its revenue comes from its research unit that mostly runs clinical trials
+  BL:
+    name: Owkin
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s01-10.png
+    text: has used AI to find drug targets with partners like Sanofi, but it also offers AI cancer tests that sit outside . discovery
+  BR:
+    name: Schrodinger
+    src: ../../assets/logos/pp_live/ai-drug-discovery/s01-11.png
+    text: runs its own drug pale at al hada of Ova MUIS an 5 5 still comes from selling drug design software to pharma
+  caption:
+  - Distance to the center reflects how much AI drives the choice of drug candidates, before any testing in humans
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-drug-discovery/s01-01.png
+  - ../../assets/logos/pp_live/ai-drug-discovery/s01-03.png
+  - ../../assets/logos/pp_live/ai-drug-discovery/s01-04.png
+  - ../../assets/logos/pp_live/ai-drug-discovery/s01-05.png
+  - ../../assets/logos/pp_live/ai-drug-discovery/s01-06.png
+  - ../../assets/logos/pp_live/ai-drug-discovery/s01-07.png
+  - ../../assets/logos/pp_live/ai-drug-discovery/s01-08.png
+  - ../../assets/logos/pp_live/ai-drug-discovery/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s01-01.png
+    x: 459.2
+    y: 279.6
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s01-03.png
+    x: 535.1
+    y: 331.9
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s01-04.png
+    x: 405.6
+    y: 364.1
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s01-05.png
+    x: 471.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s01-06.png
+    x: 513.6
+    y: 399.2
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s01-07.png
+    x: 376.5
+    y: 418.5
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s01-08.png
+    x: 454.1
+    y: 411.2
+  - src: ../../assets/logos/pp_live/ai-drug-discovery/s01-09.png
+    x: 502.7
+    y: 461.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up how AI
+
+    designs drugs, now they reach trials'
+  date: Over the past year.
+  expl: AI drug discovery started to deliver. The Nobel Prize went to AlphaFold’s creators, drugs designed by AI entered late-stage trials, and Isomorphic Labs and others raised huge rounds. The idea that AI could find cures faster moved from labs to headlines.
+  term: ai drug discovery
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-drug-discovery/ai-drug-discovery.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the AI drug discovery
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but AI-discovered drugs must win approval, and pharma must move most of its early research onto AI platforms. Deal payments must turn into steady revenue, and AI must prove that it raises success rates in Phase 2 trials, not only speed.
+  note:
+  - We compared forecasts from Ken Research, Coherent and Market Research Future, close to our definition
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 3.4          # live page: 4 and 20 %. Research 03 ($3.4B, 26 %, better sourced) chosen by Pierre on 20 Nov 2026 -> new S03 in the retour
+  cagr: 26
+  y0: 2026

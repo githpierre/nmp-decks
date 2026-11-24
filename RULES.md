@@ -33,7 +33,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Sibling boxes: same width, same font size, same number of lines (labels too). A text too long is shortened, never shrunk.
   CHECK FONT_MIXED, LABEL_LINES, BODY_LINES.
 - Lines balanced (no orphan word), a number stays with its unit (automatic, rawfit.js).
-- Card labels on 2 lines; a one-word label gets a second word (« CAR MAKERS »).
+- Card labels on 2 lines; a one-word label gets a second word (« CAR MAKERS »). CHECK LABEL_LINES (build), and before the
+  import `tools/check_results.py` refuses a one-word label where the model has two lines (Neocloud, 19 Nov 2026).
 - A box of 2 lines or more is filled: its longest line takes at least 58 % of the inner width; a text too short gets one more
   fact (about 2 full lines). CHECK HALF_FILLED. Sibling boxes start at the same height. CHECK SIBLING_TOP.
 - A text never sits on a line, an arrow or a card border; a word or a figure is never cut in two lines.
@@ -57,7 +58,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   nmp-decks, read its `LOGOS.md`). `assets/logos/` is a generated copy (`<id>.png`, `<id>--symbol.png`, `ini/`, `pp_live/`):
   never add a logo there by hand, add it to nmp-logos (`add_logo.py`) then run `../nmp-logos/tools/decks_sync.py` and `--check`
   (18 Nov 2026). Order in `logo()`: nmp-logos, then assets/logos, then the site favicon (to add to nmp-logos).
-  Wordmarks (content wider than 2.5x its height) are refused: unreadable in a square tile. Still missing: ask Pierre in one
+  Wordmarks (content wider than 2.5x its height) are refused: unreadable in a square tile. CHECK in import_research.nmp_logo
+  and logo() (Neocloud S09, 19 Nov 2026: PaleBlueDot's wordmark showed a blank tile); listed in logos_missing.txt. Still missing: ask Pierre in one
   list; initials meanwhile. Decoration images (assets/deco) are never logos.
 - Short date labels of timelines in capitals (« EARLY 2024 », « TODAY »). CHECK DATE_CASE.
 - A chart label never touches a bubble or another label. CHECK LABEL_ON_SHAPE.
@@ -178,7 +180,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A publisher label on a slide is a real name (« SEC filing », « Mint »), never a domain stem (« Formds », « Mentionfox »). Check: PUBLISHER UNKNOWN in make_db_slides.py, PUB in build_sources.py.
 - The stage pill of the pipeline slide holds 6 characters at most (« PH 1 »). Check: STAGE LABEL in the import.
 - Key sources written but build_sources.py not run leaves the reference market's sources: the import says MODEL SOURCES LEFT when sources_key.yaml is newer than sources_slides.yaml (piste B gate).
-- Labels and texts on the same card belong to the same company: read every card of a « stand out » or radar slide against its name (NewLimit and Neko Health texts were swapped by the research). The eye pass catches it, nothing else can.
+- Labels and texts on the same card belong to the same company: read every card of a « stand out » or radar slide against its name (NewLimit and Neko Health texts were swapped by the research; CoreWeave and Fireworks on Neocloud). CHECK: `check_results.py` prints each header-text pair of x/startups_stand_out as a REVIEW line when the text does not name the company: read them.
 - A KPI slide with up arrows only shows rises: a falling funnel (600 teams to 10) takes a face-off or a funnel.
 - The footer label is the exact line of data/market_labels.txt (« Longevity market »), in plans/<handle>.yaml.
 - The cover title can contain « M A R K E T »: cover_from_slides.py finds the subtitle by « P I T C H ».
@@ -190,3 +192,134 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Database slides and the S09 twin count only startups by the base's own rule (`startup_status.table_startup_base`): the base keeps
   non-startups in a market as history (Lanserhof, founded 1984, sat among Longevity rounds; Rolls-Royce SMR among Advanced Nuclear
   rounds, 18 Nov 2026). Never remove a non-startup from markets.csv to hide it: filter in the tool.
+
+## Neocloud first build (19 Nov 2026), each with its check
+- A title copied from the reference deck must be about this market (ed140 kept « developers, doctors and regulators » from In Vivo CAR-T). CHECK: `check_results.py` REVIEW line for a model title shared by 3 other full decks or fewer.
+- A product-page twin is fixed when the live slide contradicts its own title (S04 « customers » listed the neoclouds' own pains and a « Crypto miners » column): the twin follows the pain segments, the new version goes to the retour.
+- An extra slide carries its own `sources:` in extras.yaml, so the sources list includes them (import_research).
+- Sources pages: publisher names come from the PUB table of build_sources.py; an IR host (x.gcs-web.com) gives the company, a CDN file with /CIK-/ is a SEC filing, a lower-case brand (fal) keeps its case.
+- « What is behind these categories? » (ed048) explains every category of the donut just before it (ed047p), in the same order: 3 cards per page, so 6 categories make 2 pages (ed048 1/2 + ed048-2 2/2 in extras.yaml). CHECK CATEGORIES MISMATCH (import, blocks --png) (Pierre, 19 Nov 2026: 6 categories on the donut, 3 behind it).
+- The card labels of a series of pages share one line count: if one label needs 2 lines, every label of the series goes on 2 balanced lines (import).
+- Sibling cards of every slide, template slides included, have the same number of lines (Pierre, 19 Nov 2026, slide 12: cards on 3 and 4 lines). CHECK CARD_LINES (audit_layout): BODY_LINES only read the converted (raw) slides, so the cards template was never checked. Chart notes above bars (fundbars) put each comma part on its own line for the same reason.
+- The block of the pp_winner table (criteria + company columns) is centred on the slide (Pierre, 19 Nov 2026, slide 187: 36 px to the right).
+
+## AI in drug discovery first build (20 Nov 2026)
+- ed175: each capital header is the company of the sentence just under it in the prompt model (pairs 19/18, 23/22…). The
+  prompt now shows the pairs together; check_results flags a header whose text's source names another header's company.
+- Amount rule applies to slide text and claims, never to source quotes (copied word for word). Halves round up ($64.5M -> $65M).
+- Notes over bars from the startups base: always three short lines (top company, top round, number of rounds).
+- A cover title that runs past the slide edge gets a smaller size in cover.yaml, and Pierre is told.
+- In YAML, write the keys 'on' and 'off' in quotes (bare, they become true/false).
+- Market size and CAGR: the deck follows the live page (S03) unless the research is clearly better sourced; then the deck takes
+  the research figures and the new S03 goes into the retour (AI drug discovery, 20 Nov 2026: $3.4B / 26 % instead of $4B / 20 %,
+  Pierre left it to my judgment). Always say which one was kept and why.
+- Source slides: build_sources prints PUBLISHER GUESSED for a name made from a domain (« Chaidiscovery »): add the real name to PUB
+  before the review (AI drug discovery, 20 Nov 2026: 30 such labels).
+- Pierre, 20 Nov 2026 (AI drug discovery review):
+  - Myths slides: the myth (left box) always on 2 lines, the answer (right box) 3 to 6 words longer than the old 105-125
+    characters, so 125-150 (specs/overrides.yaml). CHECK BOX_LINES (audit_layout): sibling boxes where one short text counted
+    as a label and the others as bodies were never compared (« Big deals mean big cash » on 1 line).
+  - Categories slides: each description on 2 lines and well filled, 60-72 characters (3 lines touch the box). CHECK
+    CATEGORY_LINES.
+  - Pages of one series (1/2, 2/2) have exactly the same boxes. Converted PowerPoint pages (« …_2 ») had other widths
+    (value bubbles 307 px against 268 px, news texts 539 against 583): import now gives every page the template of page 1
+    when the keys match, the _2 templates of news and setbacks are aligned on page 1, and SERIES GEOMETRY blocks --png
+    when widths still differ.
+  - A single waffle grid sits next to the dashed line of the side text, with bigger squares, never at the far left.
+  - specs/slides.yaml is generated: Pierre's targets go in specs/overrides.yaml, then run tools/make_spec.py.
+- Google Trends (22 Nov 2026, rewritten after the control curves): « weather » and « youtube » stay flat, but every small
+  term moves together (stablecoins, AI insurance, managing general agent, general agent, chatgpt insurance): up from July
+  2025, same drop the week of 12 July 2026, collapse in October 2026. Google changed how it counts small terms, not big ones,
+  so dividing by a control term fixes nothing. Never present a move since mid-2025 as a rise, a fall or a signal. The title
+  of the Google slide is about the long rise since 2021, and a note explains the Google effect. Show Pierre the curves of
+  each new market before applying this rule.
+
+## Natural hydrogen first build (21 Nov 2026), each with its check
+- A young market can have fewer than 12 rounds since 2024: ed156/ed157 are completed with the latest older rounds of the same
+  startups, never left with the template rows (an in vivo CAR-T round, Starna Therapeutics, sat on Natural hydrogen's ed157).
+  CHECK make_db_slides stops when it still has fewer than 12 rounds.
+- An undisclosed round is never a « biggest round » bar ($0M Koloma on ed165p), and a half-year with only undisclosed rounds says
+  « Koloma, undisclosed amount, in 1 round » over its bar, never a bare arrow. « 1 round », never « 1 rounds ». CHECK in
+  make_db_slides (raises() skips amount 0, ann() writes the zero case, plural by count).
+- S09 twin: a category with no public amount is left out of the rows (it drew « $nanM »). CHECK s09_from_base prints DROPPED.
+- No word split by a hyphen at a line end (« iron- / rich », « source- / to-trap »): rewrite without the compound. CHECK
+  HYPHEN_SPLIT (audit_layout).
+- A name and its number stay on one line (« Ramsay / 3 »): build.py binds « Word N » with a non-breaking space.
+- US English on every slide (« modeled », « license »); a proper name keeps its spelling (« Petroleum Exploration Licence »).
+  CHECK check_results « British spelling ».
+- One round, one figure across chapters: Koloma was « $245M » on 3 slides and « $246M » on 6. Use the base figure. CHECK
+  check_results « one round written two ways » (same company, amounts within 3%).
+- A summary line that names several startups keeps each backer with its own startup (« Koloma $400M and Mantle8 $36M, with bp and
+  Rio Tinto as backers » gave Snowfox's backers to the others). No check can see it: read every multi-company line once.
+- One unit per fact in a deck: « 4,100 square kilometers » everywhere, not « 1,600 square miles » on one slide.
+- Page 2/2 takes the title of page 1/2 (ed205 kept « Which startups scored big recently? » in every deck). CHECK import prints
+  PAGE TITLE and copies it.
+- Maturity score box (.maturity .score) is 180 px wide: at 330 px a low score ran past the left margin.
+- Pierre, 21 Nov 2026 (Natural hydrogen review):
+  - Category slides (sx_categories_n): the icon circle overlaps the top-left corner of the label box, as in the 4-row
+    PowerPoint model (icon top = box top - 5.3 px). It sat 9 px lower on every slide made with sx_categories_n.
+  - Estimates slide: the value cell holds the amount alone (« $4.6B »), never « $4.6B 2026 »; the year goes in the comment.
+    CHECK check_results « estimates value with a year »; the research prompt says it.
+  - A column of numbers is aligned the same way top to bottom (ranking « 4 » was left-aligned among centered numbers, a copy
+    defect of the PowerPoint template). CHECK ALIGN_ODD (build.py) on every x/ template of the deck.
+
+## Stablecoin payments first build (22 Nov 2026), each with its check
+- A company that the S01 radar (ed007p) places outside the market is never a player on another slide. The live S05 and S12
+  compared Tether, Circle, PayPal and Ripple: both twins were rewritten with players from inside (Bridge, BVNK, Rain…), as the
+  S04 Neocloud rule does for pains. A sentence may still name it (« bought by Stripe »). CHECK tools/check_outside.py (run by
+  rebuild.sh, OUTSIDE PLAYER blocks --png).
+- A doubtful round of the base is left out of every slide with skip_rounds.yaml (round_id: why), never by editing the base from a
+  deck conversation: a « round » whose only source is a secondary-market site (Forge Global « $100M Series B » for MoonPay) and an
+  « investor participation » row that repeats an earlier round (MoonPay $87M 2022 after the $555M 2021 Series A). Pierre
+  approved, 22 Nov 2026. CHECK make_db_slides prints WEAK ROUND SOURCE and ROUND EXTENSION (shown by rebuild.sh).
+- A favicon that two sites share is the host's icon, not the company's (MoonPay showed Vercel's triangle). CHECK
+  import_research refuses it and prints FAVICON SHARED; known cases go in NO_FAVICON.
+- Google Trends on S02: when the searches fall after their peak and the fall is the story, the twin keeps the curve to today
+  (`to_today: true` in live.yaml) instead of stopping at the last peak, with no SIGNAL pill, and the term falls out of the SIGNAL
+  slides (Pierre, option 4A, 22 Nov 2026). The ÷2 after 27 Jul 2025 stays the same for every deck, even when the control terms
+  show no jump (Pierre, 22 Nov 2026).
+- Market size is the revenue of the companies, never the money that flows through them. When the research only measures flows
+  ($643B of stablecoin payments a year), the deck keeps the live revenue figure and explains it as flows × a take rate written as
+  our assumption (0.8%, slides 43-44). Pierre approved, 22 Nov 2026. No check: read the size slides against the live S03.
+- The market name of import.args (--name) is written as in a sentence (« stablecoin payments »), so titles never capitalize it
+  mid-sentence; a proper name keeps its capitals (« In Vivo CAR-T »).
+- Investor names: a lead whose short form is a generic word (« led by Blockchain » for Blockchain Capital) keeps its full name.
+  Category words keep acronyms (« payment APIs », never « payment apis »). Done by make_db_slides (GENERIC_INV, case rule).
+- Pierre, 22 Nov 2026 (Stablecoin payments review): every recommendation of the review page accepted (7 SIGNAL slides, the
+  domestic-share and Circle-margin extras, the donut shares, the rewritten S04, S05, S09 and S12, the S11 live slide replaced by
+  the deck's ed199p in the retour).
+- Step and risk cards (`LABEL\n\nbody`): the label is everything before the blank line, written on ONE line; the box wraps it. A line break inside the label pushes its second word into the body (AI in insurance, 22 Nov 2026). CHECK LABEL SPLIT (import).
+
+## MGA first build (22 Nov 2026)
+- Segment names (pain and value) are checked BEFORE they are proposed to Pierre: no word over 10 letters, since they go in capital
+  card labels (« Business policyholders » had to become « Business clients » after approval). CHECK SEGMENT WORD TOO LONG
+  (make_market_prompts.py).
+- Round sentences from the base read « an $80M Series C » and never « for its specialty commercial »: when the company's own
+  description is too long, the sentence uses `decks/<h>/cat_phrase.yaml` (« for its specialty business insurance »); a plural
+  noun of people (« Homeowners insurance… ») is never read as a verb (make_db_slides.py).
+- A market whose Google curve is noise (Pierre's call, MGA) has no Google slide: `ed039p: {drop: true}` in edits.yaml, and
+  ed032 lists seven SIGNAL slides instead of six plus Google.
+
+## AI data center first build (22-23 Nov 2026)
+- Google Trends, Pierre's choice (22 Nov 2026, AI data center, rendering C): the curve runs to its last peak, but the part from
+  2025-07-27 is dashed and muted (#789096) with a short legend « Dashed: Google counts small terms differently since mid-2025 »;
+  the title and the big figure speak only of the solid part (`stat`, `stat_text`), the note says why that part is dashed, and the
+  slide carries no SIGNAL pill and is never in the signals list. A term at 0 or « <1 » most weeks is dropped (AI data center:
+  « ai data center » 153 of 262 weeks). CHECK: pp_prepare.trends refuses `dash_from` without its own `stat`.
+- Sibling rows of a table hold the same number of lines (Pierre, 23 Nov 2026, AI data center « Which pains deserve attention
+  first? »: pains on 1 line next to pains on 2). Short values (« 17 GW », « $1.4B ») never wrap. CHECK: audit_layout ROW_LINES, LIST_LINES (rows with only inline styles, e.g. league tables)
+  (same-class siblings in a mixed grid, which CARD_LINES skipped) and VALUE_WRAP; the key-trend template's value boxes are
+  100px wide and nowrap (they were 36-43px).
+
+## MedTech first build (23 Nov 2026), each with its check
+- The research prompts copy the structure of the reference deck (in vivo CAR-T); a market name the other LLM leaves in a
+  result (ed097 kept « in vivo CAR-T » in its title) is now a problem in tools/check_results.py, not a REVIEW line. The
+  import already refused it (MODEL MARKET LEFT blocks --png); the check now catches it as soon as a result comes back.
+- One company = one id in nmp-logos. Two ids with the same domain (pear-therapeutics + peartherapeutics) make find_logo give
+  up and the deck draws an initials tile. Check: import_research.py prints LOGO AMBIGUOUS with the ids; merge them in
+  nmp-logos/index.csv (keep the base id, old file in bad_files). index.csv is CRLF: keep it CRLF when rewriting it.
+- Market sizes of $1,000B and more are written in trillions ($1.06T): tools/pp/pp_prepare.py money().
+- A Trends curve cut before mid-2025 shows its real period under the chart (live.yaml `period:`, pp_trends.j2), never
+  « last five years ».
+- Database rows: the line limit counts the joining words around the publisher (tools/make_db_slides.py, margin 10).
+- Numbers of 1,000 and more always carry a thousands comma, in templates too (share_waffle printed « 1230 of 1614 », MedTech).

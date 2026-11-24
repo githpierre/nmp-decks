@@ -1,0 +1,595 @@
+ed058:
+  type: pp_pains
+  title: 'What has already been fixed in
+
+    chips, and what is left to solve?'
+  auds:
+  - Cloud providers
+  - AI labs
+  - Phone makers
+  - Car makers
+  - Trading firms
+  pains:
+  - - They struggle to move their software over to a new type of chip
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 3
+  - - They pay very high prices to a single dominant GPU supplier
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 3
+  - - They lack proof that a startup chip will really ship on time
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They see power and cooling limit how many chips they can run
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 2
+  - - They wait months to get enough AI chips to keep up with demand
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 2
+  - - They risk buying chips that will be outdated within two years
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which chipmaker has the most
+
+    complete tech right now?'
+  companies:
+  - name: AMD
+    src: ../../assets/logos/pp_live/semiconductor/s05-00.png
+  - name: Nvidia
+    src: ../../assets/logos/pp_live/semiconductor/s05-01.png
+  - name: Intel
+    src: ../../assets/logos/pp_live/semiconductor/s05-02.png
+  - name: Qualcomm
+    src: ../../assets/logos/pp_live/semiconductor/s05-03.png
+  - name: Broadcom
+    src: ../../assets/logos/pp_live/semiconductor/s05-04.png
+  features:
+  - header: Own|fabs
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: x86|CPUs
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Graphics|cards
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: 5G|modem
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Switch|chips
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Data center|AI GPU
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: FPGA|chips
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for semiconductors?'
+  events:
+  - odds: 45
+    impact: 2
+    text: Memory prices crash after the 2026 boom, hitting Samsung, SK hynix, Micron and their equipment suppliers hard
+  - odds: 40
+    impact: 3
+    text: Nvidia CUDA keeps developers locked in, so new AI chip startups cannot win enough customers to survive
+  - odds: 35
+    impact: 2
+    text: Google, Amazon, Meta and Microsoft use their own AI chips and buy far fewer chips from startups
+  - odds: 30
+    impact: 2
+    text: US chip tariffs and export limits split the market while China builds its own full supply chain
+  - odds: 20
+    impact: 2
+    text: China reimposes its gallium and germanium export ban, cutting key materials for US chipmakers and startups
+  - odds: 20
+    impact: 1
+    text: Chip startups struggle to raise seed and Series A rounds as capital goes only to mega rounds
+  - odds: 10
+    impact: 3
+    text: Cloud giants sharply cut AI spending and Nvidia data center sales fall, dragging down the chip industry
+  - odds: 5
+    impact: 3
+    text: China blockades Taiwan and TSMC output stops, cutting off most of the world's advanced chip supply
+  note:
+  - We listed the events that could slow semiconductor down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed semiconductors
+
+    forward, year after year?'
+  events:
+  - year: '1947'
+    text: Bell Labs invents the transistor
+    impact: 3
+  - year: '1958'
+    text: Kilby builds the first integrated circuit
+    impact: 2.5
+  - year: '1959'
+    text: Planar process makes chips mass producible
+    impact: 1.5
+  - year: '1962'
+    text: Apollo and Minuteman buy early chips
+    impact: 1.5
+  - year: '1965'
+    text: Moore's Law sets a doubling pace
+    impact: 2
+  - year: '1970'
+    text: Intel DRAM replaces magnetic memory
+    impact: 1
+  - year: '1971'
+    text: Intel 4004 becomes the first microprocessor
+    impact: 2
+  - year: '1981'
+    text: IBM PC creates mass demand for chips
+    impact: 2
+  - year: '1987'
+    text: TSMC invents the foundry model
+    impact: 2.5
+  - year: '1987'
+    text: US funds Sematech to fight Japan
+    impact: 1
+  - year: '1999'
+    text: Nvidia GeForce launches the GPU
+    impact: 1
+  - year: '2007'
+    text: CUDA turns GPUs into general computers
+    impact: 1.5
+  - year: '2007'
+    text: iPhone creates a mobile chip boom
+    impact: 2
+  - year: '2012'
+    text: AlexNet trains on GPUs, AI needs chips
+    impact: 1.5
+  - year: '2014'
+    text: China's $20B Big Fund backs local chips
+    impact: 1.5
+  - year: '2019'
+    text: EUV enters mass chip production
+    impact: 1.5
+  - year: '2020'
+    text: Chip shortage halts car factories
+    impact: 2
+  - year: '2020'
+    text: Apple M1 shows custom chips beat Intel
+    impact: 1
+  - year: '2020'
+    text: TSMC commits to its first Arizona fab
+    impact: 1
+  - year: '2022'
+    text: CHIPS Act gives $52B to US fabs
+    impact: 2.5
+  - year: '2022'
+    text: US export bans spur Chinese chipmaking
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT triggers a rush for AI chips
+    impact: 3
+  - year: '2023'
+    text: EU Chips Act targets 20% world share
+    impact: 1
+  - year: '2024'
+    text: AI demand makes Nvidia most valuable firm
+    impact: 1.5
+  - year: '2025'
+    text: Stargate plans $500B of AI data centers
+    impact: 2
+  - year: '2025'
+    text: TSMC adds $100B to build in Arizona
+    impact: 1
+  - year: '2025'
+    text: US government takes 10% of Intel
+    impact: 1
+  - year: '2025'
+    text: Nvidia hits $5 trillion market value
+    impact: 1
+  - year: '2025'
+    text: AI servers trigger a memory chip shortage
+    impact: 1.5
+  - year: '2026'
+    text: $725B AI capex plan floods chip demand
+    impact: 2
+  note:
+  - We kept the events we believe pushed semiconductor forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: semiconductor
+  title: 'Where did chip investors put
+
+    their money this past year?'
+  note:
+  - We added up every equity round of semiconductor startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the semiconductor industry?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/semiconductor/s10-00.png
+    x: 349.3
+    y: 261.0
+  - src: ../../assets/logos/pp_live/semiconductor/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/semiconductor/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/semiconductor/s10-03.png
+    x: 760.7
+    y: 273.9
+  - src: ../../assets/logos/pp_live/semiconductor/s10-04.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/semiconductor/s10-05.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/semiconductor/s10-06.png
+    x: 312.9
+    y: 306.6
+  - src: ../../assets/logos/pp_live/semiconductor/s10-07.png
+    x: 480.0
+    y: 312.9
+  - src: ../../assets/logos/pp_live/semiconductor/s10-08.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/semiconductor/s10-09.png
+    x: 699.9
+    y: 291.9
+  - src: ../../assets/logos/pp_live/semiconductor/s10-10.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/semiconductor/s10-11.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/semiconductor/s10-12.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/semiconductor/s10-13.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/semiconductor/s10-14.png
+    x: 777.0
+    y: 386.1
+  - src: ../../assets/logos/pp_live/semiconductor/s10-15.png
+    x: 186.9
+    y: 405.9
+  - src: ../../assets/logos/pp_live/semiconductor/s10-16.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/semiconductor/s10-17.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/semiconductor/s10-18.png
+    x: 801.6
+    y: 476.8
+  - src: ../../assets/logos/pp_live/semiconductor/s10-19.png
+    x: 278.4
+    y: 495.2
+  - src: ../../assets/logos/pp_live/semiconductor/s10-20.png
+    x: 735.0
+    y: 498.6
+  - src: ../../assets/logos/pp_live/semiconductor/s10-21.png
+    x: 662.6
+    y: 528.0
+  cols:
+  - Digital CMOS compute SoC
+  - Integrated photonics
+  - gi4p - $15B
+  rows:
+  - Datacenter AI compute
+  - Edge / embedded /
+  - Power & connectivity
+  note:
+  - We left out design software and IP, equipment, materials, packaging and test firms and device makers
+  - We placed each pure player by its main focus, and all the sources are included at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'Why did these chip startups
+
+    fail, and how did they end?'
+  causes:
+  - Big rivals|won
+  - Ran out|of cash
+  - Lawsuit or|court
+  - Market|shifted
+  rows:
+  - name: Rockley
+    ending: Went bankrupt
+    start: '2013'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/semiconductor/s11-00.png
+    ini: R
+    slug: rockley
+    domain: rockleyphotonics.com
+  - name: Akoustis
+    ending: Went bankrupt
+    start: '2014'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/semiconductor/s11-01.png
+    ini: A
+    slug: akoustis
+    domain: akoustis.com
+  - name: HSMC
+    ending: Shut down
+    start: '2017'
+    end: '2021'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/semiconductor/s11-02.png
+    ini: H
+    slug: hsmc
+    domain: hsmc.com.cn
+  - name: Wave Computing
+    ending: Went bankrupt
+    start: '2008'
+    end: '2020'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/semiconductor/s11-03.png
+    ini: W
+    slug: wavecomputing
+    domain: wavecomp.ai
+  - name: Graphcore
+    ending: Sold for ~$500M
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/semiconductor/s11-04.png
+    ini: G
+    slug: graphcore
+    domain: graphcore.ai
+  note:
+  - We tracked the semiconductor startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is TSMC winning the
+
+    chip foundry market?'
+  companies:
+  - short: TSMC
+    src: ../../assets/logos/pp_live/semiconductor/s12-00.png
+  - short: Samsung
+    src: ../../assets/logos/pp_live/semiconductor/s12-01.png
+  - short: Intel
+    src: ../../assets/logos/pp_live/semiconductor/s12-02.png
+  - short: SMIC
+    src: ../../assets/logos/pp_live/semiconductor/s12-03.png
+  - short: GF
+    src: ../../assets/logos/pp_live/semiconductor/s12-04.png
+  - short: UMC
+    src: ../../assets/logos/pp_live/semiconductor/s12-05.png
+  criteria:
+  - name: Over 70% foundry share
+    why: Most chips made for others
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 2nm class in volume
+    why: Leads on chip performance
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Makes Nvidia AI GPUs
+    why: Rides the AI boom
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Pure play, no own chips
+    why: No conflict with customers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Advanced 3D packaging
+    why: Key to AI accelerators
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Fabs running in the US
+    why: Fits US chip policy
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Top 3 by foundry share
+    why: Scale lowers unit cost
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the semiconductor market?'
+  TL:
+    name: ASML
+    src: ../../assets/logos/pp_live/semiconductor/s01-00.png
+    text: builds the lithography machines that every advanced chip fab depends on, but it sells equipment to chipmakers, not chips
+  TR:
+    name: Foxconn
+    src: ../../assets/logos/pp_live/semiconductor/s01-02.png
+    text: assembles iPhones and Nvidia AI servers, but it is a contract manufacturer that buys chips rather than selling them
+  BL:
+    name: Arm
+    src: ../../assets/logos/pp_live/semiconductor/s01-10.png
+    text: has always earned its money licensing chip designs to others, but in 2026 it began selling its own data center CPU to Meta
+  BR:
+    name: Broadcom
+    src: ../../assets/logos/pp_live/semiconductor/s01-11.png
+    text: sells networking and custom AI chips, but since buying VMware, infrastructure software brings in about 42% of its revenue
+  caption:
+  - Distance to the center reflects how much of a company's revenue comes from selling chips or making wafers, not tools or devices
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/semiconductor/s01-01.png
+  - ../../assets/logos/pp_live/semiconductor/s01-03.png
+  - ../../assets/logos/pp_live/semiconductor/s01-04.png
+  - ../../assets/logos/pp_live/semiconductor/s01-05.png
+  - ../../assets/logos/pp_live/semiconductor/s01-06.png
+  - ../../assets/logos/pp_live/semiconductor/s01-07.png
+  - ../../assets/logos/pp_live/semiconductor/s01-08.png
+  - ../../assets/logos/pp_live/semiconductor/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/semiconductor/s01-01.png
+    x: 506.4
+    y: 280.9
+  - src: ../../assets/logos/pp_live/semiconductor/s01-03.png
+    x: 422.4
+    y: 334.9
+  - src: ../../assets/logos/pp_live/semiconductor/s01-04.png
+    x: 373.1
+    y: 371.8
+  - src: ../../assets/logos/pp_live/semiconductor/s01-05.png
+    x: 486.2
+    y: 352.9
+  - src: ../../assets/logos/pp_live/semiconductor/s01-06.png
+    x: 553.1
+    y: 360.2
+  - src: ../../assets/logos/pp_live/semiconductor/s01-07.png
+    x: 445.9
+    y: 397.9
+  - src: ../../assets/logos/pp_live/semiconductor/s01-08.png
+    x: 505.3
+    y: 412.1
+  - src: ../../assets/logos/pp_live/semiconductor/s01-09.png
+    x: 469.1
+    y: 463.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'People who never cared about chips
+
+    now search what a semiconductor is'
+  date: Over the past year.
+  expl: Semiconductors became world news. Nvidia became the most valuable company on Earth, the US put tariffs and export bans on chips, and governments
+    took stakes in chipmakers like Intel. People who never cared about chips started googling what they are.
+  term: semiconductor
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/semiconductor/semiconductor.csv
+ed052p:
+  type: pp_cagr
+  title: ''
+  lead: ''
+  condition: ''
+  note: []
+  size: null
+  cagr: null
+  y0: null

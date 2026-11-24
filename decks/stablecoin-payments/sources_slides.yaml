@@ -1,0 +1,624 @@
+- after: ed219
+  slide:
+    id: src_all_1
+    type: sources_list
+    section: Sources
+    cols:
+    - - t: Allium distinguishes payments from trading, saving and…
+        pub: Allium
+        d: '2026-09-15'
+        url: https://www.allium.so/reports/state-of-stablecoins-and-payments-september-2026
+        key: true
+      - t: Allium estimates $482B in payment activity through…
+        pub: Allium
+        d: '2026-10-15'
+        url: https://app.allium.so/analyze/research/state-of-stablecoins-and-payments-q3-2026
+        key: true
+      - t: Allium25
+        pub: Allium
+        d: '2026-01-31'
+        url: https://www.allium.so/reports/stablecoin-payments-q1-2026
+        key: false
+      - t: Bcgmethod
+        pub: Allium
+        d: '2025-12-31'
+        url: https://www.allium.so/reports/stablecoin-payments-the-truth-behind-the-numbers
+        key: false
+      - t: Fxc
+        pub: Allium
+        d: '2026-07-30'
+        url: https://www.allium.so/reports/stablecoins-cross-border-payments-2026
+        key: false
+      - t: Wyre Bolt deal failed, employees laid off, company ceased…
+        pub: Axios
+        d: '2023-01-03'
+        url: https://www.axios.com/2023/01/03/wyre-shutdown-crypto-winter
+        key: false
+      - t: USDC temporarily lost its peg in March 2023
+        pub: Bank of England
+        d: '2023-11-06'
+        url: https://www.bankofengland.co.uk/paper/2023/dp/regulatory-regime-for-systemic-payment-systems-using-stablecoins-and-related-service-providers.
+        key: false
+      - t: BIS finds bank cash-out can delay recipient access
+        pub: Bis
+        d: '2026-10-19'
+        url: https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins
+        key: true
+      - t: BitPay began ending its prepaid card program in May 2023
+        pub: Bitrates
+        d: '2023-05-19'
+        url: https://www.bitrates.com/news/p/bitpay-has-paused-its-prepaid-card-program-and-is-looking-for-a-new-partner
+        key: false
+      - t: Bridge
+        pub: Bridge
+        d: '2026-11-22'
+        url: https://bridge.xyz/product/orchestration
+        key: true
+      - t: Bridge enables stablecoin-backed card issuing
+        pub: Bridge
+        d: undated
+        url: https://bridge.xyz/product/cards
+        key: false
+      - t: Bvnk
+        pub: Bvnk
+        d: '2026-05-11'
+        url: https://www.bvnk.com/press/corpay-partners-with-bvnk-to-add-stablecoin-wallets-for-global-customers
+        key: false
+      - t: BVNK enables payment acceptance and local fiat conversion
+        pub: Bvnk
+        d: undated
+        url: https://www.bvnk.com/payments
+        key: false
+      - t: BVNK was founded in 2021 and offers enterprise payments
+        pub: Bvnk
+        d: undated
+        url: https://www.bvnk.com/eu/about-us
+        key: false
+      - t: Chainalysis estimates 84% of 2025 illicit crypto flows…
+        pub: Chainalysis
+        d: '2026-01-08'
+        url: https://www.chainalysis.com/blog/2026-crypto-crime-report-introduction
+        key: false
+    - - t: Circle agreed to acquire Tazapay in September 2026
+        pub: Circle
+        d: '2026-09-08'
+        url: https://investor.circle.com/news/news-details/2026/Circle-Expands-Global-Payments-Infrastructure-with-Agreement-to-Acquire-Singapore-Based-Cross-Border-Payments-Platform-Tazapay/default.aspx
+        key: false
+      - t: Circle disclosed $3.3B of USDC reserves at failed SVB
+        pub: Circle
+        d: '2023-03-13'
+        url: https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes
+        key: false
+      - t: Circle launched a cross-border stablecoin payment network…
+        pub: Circle
+        d: '2025-04-21'
+        url: https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement
+        key: false
+      - t: Circle Payments Network began live payment activity in May…
+        pub: Circle
+        d: '2025-05-21'
+        url: https://www.circle.com/blog/circle-payments-network-cpn-mainnet-is-here-advancing-mainstream-stablecoin-payments-globally
+        key: false
+      - t: Circle USDC redemptions faced a backlog after bank failure
+        pub: Circle
+        d: '2023-03-16'
+        url: https://www.circle.com/blog/march-15-update-on-usdc-operations
+        key: false
+      - t: Circle2018
+        pub: Circle
+        d: '2018-09-26'
+        url: https://www.circle.com/blog/usd-coin-launches-with-wide-ecosystem-support
+        key: false
+      - t: Circle26
+        pub: Circle
+        d: '2026-04-08'
+        url: https://www.circle.com/pressroom/circle-launches-cpn-managed-payments-a-full-stack-platform-for-seamless-stablecoin-settlement
+        key: true
+      - t: USDC launch in 2018
+        pub: Circle
+        d: '2018-09-26'
+        url: https://www.circle.com/blog/introducing-usd-coin
+        key: false
+      - t: Stripe agreed to buy Bridge for $1.1B in October 2024
+        pub: Coindesk
+        d: '2024-10-21'
+        url: https://www.coindesk.com/business/2024/10/21/stripe-in-11b-acquisition-deal-for-stablecoin-platform-bridge-report
+        key: false
+      - t: CoinsPaid July 2023 $37.3M theft
+        pub: Coinspaid
+        d: '2023-07-26'
+        url: https://coinspaid.com/company-updates/coinspaid-is-back-to-processing-after-being-hit-by-hackers-attack
+        key: false
+      - t: Conduit
+        pub: Conduit
+        d: undated
+        url: https://conduitpay.com/send
+        key: false
+      - t: Conduit raised $36M Series A for stablecoin payments
+        pub: Conduit
+        d: '2025-05-28'
+        url: https://conduitpay.com/blog/conduit-raises-36m-in-series-a
+        key: true
+      - t: GENIUS Act will require dollar-for-dollar permitted…
+        pub: Congressional Research Service
+        d: '2026-08-20'
+        url: https://www.everycrsreport.com/reports/IN12553.html
+        key: true
+      - t: Cypher card and app retired in September 2026 following sale
+        pub: Cypherhq
+        d: '2026-07-08'
+        url: https://cypherhq.io/blog/cypher-is-being-acquired-by-nium
+        key: false
+      - t: Eba
+        pub: Europa
+        d: undated
+        url: https://www.eba.europa.eu/regulation-and-policy/asset-referenced-and-e-money-tokens-mica
+        key: false
+- after: src_all_1
+  slide:
+    id: src_all_2
+    type: sources_list
+    section: Sources
+    cols:
+    - - t: EBA highlighted double-authorization problem for payments…
+        pub: Europa
+        d: '2025-06-10'
+        url: https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-no-action-letter-interplay-between-payment-services-directive-psd23-and-markets-crypto
+        key: false
+      - t: EBA updated treatment of euro stablecoin payment services…
+        pub: Europa
+        d: '2026-02-12'
+        url: https://www.eba.europa.eu/publications-and-media/press-releases/eba-advises-national-authorities-actions-take-end-transition-period-under-its-no-action-letter
+        key: false
+      - t: ESMA advises ending EU services for non-MiCA-compliant…
+        pub: Europa
+        d: '2026-10-08'
+        url: https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised
+        key: false
+      - t: MiCA contains transition until July 1, 2026 for qualifying…
+        pub: Europa
+        d: '2024-12-30'
+        url: https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-143-transitional-measures
+        key: false
+      - t: FinCEN treats certain custodial crypto transmitters as…
+        pub: Fincen
+        d: '2013-03-18'
+        url: https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-persons-administering
+        key: false
+      - t: Fipto received French MiCA CASP license in January 2026
+        pub: Fipto
+        d: '2026-01-27'
+        url: https://www.fipto.com/articles/fipto-becomes-europes-first-dual-licensed-stablecoin-payment-institution-with-new-mica-license
+        key: false
+      - t: HIFI raised $37M Series A in September 2026
+        pub: Hifi
+        d: '2026-09-24'
+        url: https://www.hifi.com/blog/hifi-raises-usd37m-series-a-to-build-the-infrastructure-for-tokenized-money
+        key: false
+      - t: HKMA granted first two stablecoin issuance licenses in…
+        pub: Hkma
+        d: '2026-04-10'
+        url: https://www.hkma.gov.hk/eng/news-and-media/insight/2026/04/20260410
+        key: false
+      - t: Quicko license withdrawn January 21 2026
+        pub: Knf
+        d: '2026-01-21'
+        url: https://www.knf.gov.pl/?articleId=96890&p_id=18
+        key: false
+      - t: Monavate restriction on six companies effective December 2025
+        pub: Lb
+        d: '2025-12-23'
+        url: https://www.lb.lt/en/news/uab-monavate-must-inform-its-customers
+        key: false
+      - t: Paytend license revoked effective March 3
+        pub: Lb
+        d: '2026-03-06'
+        url: https://www.lb.lt/en/speeches-interviews-presentations/paytend-europe-uab-has-lost-its-licence
+        key: false
+      - t: Stables launched stablecoin spending cards in Australia
+        pub: Marqeta
+        d: '2023-03-20'
+        url: https://investors.marqeta.com/news-releases/news-release-details/marqeta-announces-partnership-stables-australia-power-prepaid
+        key: false
+      - t: Singapore MAS proposed 2026 stablecoin licensing amendments
+        pub: Mas
+        d: '2026-09-01'
+        url: https://www.mas.gov.sg/publications/consultations/2026/consultation-on-proposed-amendments-to-the-payment-services-act-for-stablecoin-regulation
+        key: false
+      - t: Mastercard agreed to buy BVNK for up to $1.8B
+        pub: Mastercard
+        d: '2026-03-17'
+        url: https://www.mastercard.com/us/en/news-and-trends/press/2026/march/Mastercard-to-acquire-BVNK-to-connect-on-chain-payments-and-fiat-rails.html
+        key: false
+      - t: Mastercard agreed to buy BVNK for up to $1.8B
+        pub: Mastercard
+        d: '2026-03-17'
+        url: https://www.mastercard.com/sea/en/news-and-trends/press/2026/march/Mastercard-to-acquire-BVNK-to-connect-on-chain-payments-and-fiat-rails.html
+        key: false
+    - - t: Mastercard and BVNK launched Global Money Platform in…
+        pub: Mastercard
+        d: '2026-10-15'
+        url: https://www.mastercard.com/global/en/news-and-trends/press/2026/october/mastercard-and-bvnk-launch-global-money-platform-to-power-a-mult.html
+        key: false
+      - t: Mastercard completed its purchase of BVNK in August 2026
+        pub: Mastercard
+        d: '2026-08-03'
+        url: https://www.mastercard.com/global/en/news-and-trends/press/2026/august/mastercard-completes-acquisition-of-bvnk-to-advance-global-stabl.html
+        key: true
+      - t: Mastercard25
+        pub: Mastercard
+        d: '2025-04-28'
+        url: https://investor.mastercard.com/investor-news/investor-news-details/2025/Mastercard-Unveils-End-to-End-Capabilities-to-Power-Stablecoin-Transactions--From-Wallets-to-Checkouts/default.aspx
+        key: false
+      - t: Mastercard26
+        pub: Mastercard
+        d: '2026-06-03'
+        url: https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-expands-settlement-capabilities-to-include-stablecoin.html
+        key: false
+      - t: McKinsey and Artemis isolate roughly $390B of annualized…
+        pub: McKinsey
+        d: '2026-02-18'
+        url: https://www.mckinsey.com/industries/financial-services/our-insights/stablecoins-in-payments-what-the-raw-transaction-numbers-miss
+        key: true
+      - t: Mesh offers spending through Visa acceptance
+        pub: Meshpay
+        d: '2026-11-01'
+        url: https://www.meshpay.com/mesh-by-the-numbers
+        key: false
+      - t: Mesh operates cross-wallet payment conversion and settlement
+        pub: Meshpay
+        d: '2026-01-27'
+        url: https://www.meshpay.com/blog/mesh-raises-75m-series-c-at-1b-valuation
+        key: true
+      - t: Mesh was founded in 2020
+        pub: Meshpay
+        d: undated
+        url: https://www.meshpay.com/about-us
+        key: false
+      - t: Meshapr
+        pub: Meshpay
+        d: '2026-04-18'
+        url: https://www.meshpay.com/blog/what-were-building-april-2026
+        key: false
+      - t: Meshtempo
+        pub: Meshpay
+        d: '2026-05-12'
+        url: https://www.meshpay.com/press-releases/mesh-and-tempo-formalize-partnership-to-advance-stablecoin-payments-at-scale
+        key: false
+      - t: Moonpay
+        pub: Moonpay
+        d: '2026-08-06'
+        url: https://www.moonpay.com/nl/newsroom/moonpayenterprise
+        key: false
+      - t: MoonPay acquired Iron, a stablecoin infrastructure API…
+        pub: Moonpay
+        d: '2025-03-13'
+        url: https://www.moonpay.com/newsroom/iron-acquisition
+        key: false
+      - t: Moonpos
+        pub: Moonpay
+        d: '2026-04-09'
+        url: https://www.moonpay.com/newsroom/moonpay-iron-walletconnect
+        key: false
+      - t: Mural raised a $15M Series A led by Tether
+        pub: Muralpay
+        d: '2026-10-20'
+        url: https://muralpay.com/blog/28-million-raised
+        key: false
+      - t: Noah closed a $38M seed after a $16M extension
+        pub: Noah
+        d: '2026-10-13'
+        url: https://noah.io/blog/noah_fundraising_seed_close
+        key: false
+- after: src_all_2
+  slide:
+    id: src_all_3
+    type: sources_list
+    section: Sources
+    cols:
+    - - t: OCC final GENIUS Act issuer rule takes effect January 18, 2027
+        pub: Occ
+        d: '2026-10-21'
+        url: https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html
+        key: false
+      - t: OpenFX raised $94M in March 2026
+        pub: Openfx
+        d: '2026-03-31'
+        url: https://www.openfx.com/blog/announcing-openfx-s-94m-series-a
+        key: false
+      - t: OpenFX reported $45B in annualized payment volume by…
+        pub: Openfx
+        d: '2026-04-02'
+        url: https://www.openfx.com/blog/the-story-of-our-94m-series-a
+        key: false
+      - t: Paxos paid $26.5M for historical compliance failures with…
+        pub: Paxos
+        d: '2025-08-07'
+        url: https://www.paxos.com/newsroom/statement-from-paxos-in-response-to-nydfs
+        key: false
+      - t: Paypal23
+        pub: Paypal
+        d: '2024-01-25'
+        url: https://developer.paypal.com/community/blog/pyusd-stablecoin
+        key: false
+      - t: Paypal26
+        pub: Paypal
+        d: '2026-08-11'
+        url: https://developer.paypal.com/crypto
+        key: false
+      - t: PayPal named partners for Xoom transfers settled with PYUSD…
+        pub: Paypal Corp
+        d: '2024-11-19'
+        url: https://newsroom.paypal-corp.com/2024-11-19-PayPal-PYUSD-To-Bring-Speed-and-Reduced-Costs-to-Cross-Border-Payments-with-Xoom
+        key: false
+      - t: Xoom added PYUSD as a funding option for remittances in…
+        pub: Paypal Corp
+        d: '2024-04-04'
+        url: https://newsroom.paypal-corp.com/2024-04-04-Xoom-Enables-PayPal-USD-as-a-Funding-Option-for-Cross-Border-Money-Transfers
+        key: false
+      - t: Payward agreed to buy Reap for up to $600M
+        pub: Payward
+        d: '2026-05-07'
+        url: https://www.payward.com/press-release/payward-acquires-reap
+        key: false
+      - t: Payward completed its acquisition of Reap in July 2026
+        pub: Payward
+        d: '2026-07-01'
+        url: https://www.payward.com/press-release/payward-reap-close
+        key: false
+      - t: PhotonPay raised $40M Series C for stablecoin payment OS
+        pub: Photonpay
+        d: '2026-10-29'
+        url: https://www.photonpay.com/hk/news/article/photonpay-raises-40m-series-c-funding-financial-os?read_from=news_sidebar
+        key: false
+      - t: KAST raised $80M Series A in March 2026
+        pub: PR Newswire
+        d: '2026-03-09'
+        url: https://www.prnewswire.com/news-releases/kast-raises-80-million-as-stablecoins-move-from-infrastructure-into-mainstream-financial-services-302708236.html
+        key: false
+      - t: Rain raised $250M at a valuation near $2B
+        pub: PR Newswire
+        d: '2026-01-09'
+        url: https://www.prnewswire.com/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-entERPrises-302657084.html
+        key: true
+      - t: Rain raised $250M in January 2026 for stablecoin payment…
+        pub: PR Newswire
+        d: '2026-01-09'
+        url: https://www.prnewswire.com/apac/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-enterprises-302657107.html
+        key: false
+      - t: Rain operates a stablecoin card and payout infrastructure…
+        pub: Pymnts
+        d: '2026-01-09'
+        url: https://www.pymnts.com/news/investment-tracker/2026/rain-raises-250-million-to-scale-platform-for-launching-stablecoin-cards
+        key: true
+    - - t: Circle proposed roughly $400M in stock to acquire Tazapay
+        pub: Q4Cdn
+        d: '2026-09-08'
+        url: https://s206.q4cdn.com/265218871/files/doc_presentations/2026/Sep/08/Tazapay-Acquisition-Overview.pdf
+        key: false
+      - t: RedotPay provides stablecoin spending cards
+        pub: Redotpay
+        d: undated
+        url: https://www.redotpay.com/card
+        key: false
+      - t: RedotPay raised $107M Series B in 2025
+        pub: Redotpay
+        d: '2025-12-16'
+        url: https://www.redotpay.com/news/redotpay-raises-us107m-in-series-b-to-drive-stablecoin-payments-adoption-globally
+        key: false
+      - t: RedotPay reported 8.5M users and $14B annual payments
+        pub: Redotpay
+        d: '2026-08-29'
+        url: https://www.redotpay.com/news/building-trust-how-were-protecting-users-at-redotpay
+        key: false
+      - t: Ripple agreed to buy Rail for $200M
+        pub: Ripple
+        d: '2025-08-07'
+        url: https://ripple.com/ripple-press/ripple-to-acquire-rail-for-200m-expanding-leadership-in-stablecoin-payments
+        key: false
+      - t: Mastercard paid $1.4B cash for BVNK plus up to $300M…
+        pub: SEC filing
+        d: Oct 2026
+        url: https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/R9.htm
+        key: true
+      - t: Bridge was founded in 2022
+        pub: Sequoia
+        d: undated
+        url: https://sequoiacap.com/companies/bridge
+        key: false
+      - t: Rampstripe
+        pub: Stripe
+        d: '2026-07-21'
+        url: https://stripe.com/en-fi/newsroom/news/ramp-and-stripe
+        key: false
+      - t: Stripe added USDC payouts for Twitter creators in 2022
+        pub: Stripe
+        d: '2022-04-22'
+        url: https://stripe.com/newsroom/news/crypto-payouts
+        key: false
+      - t: Stripe and Shopify announced USDC checkout for merchants in…
+        pub: Stripe
+        d: '2025-06-12'
+        url: https://stripe.com/newsroom/news/shopify-stripe-stablecoin-payments
+        key: true
+      - t: Stripe completed Bridge acquisition in February 2025
+        pub: Stripe
+        d: '2025-02-04'
+        url: https://stripe.com/newsroom/news/stripe-completes-bridge-acquisition
+        key: true
+      - t: Stripe400
+        pub: Stripe
+        d: '2026-02-24'
+        url: https://stripe.com/en-sg/newsroom/news/stripe-2025-update
+        key: false
+      - t: Stripetreas
+        pub: Stripe
+        d: '2025-05-20'
+        url: https://stripe.com/blog/introducing-stablecoins-for-treasury
+        key: false
+      - t: Stripe paid $1.1B to acquire Bridge
+        pub: TechCrunch
+        d: '2025-02-05'
+        url: https://techcrunch.com/2025/02/05/stripe-makes-1-1-billion-crypto-bet-as-it-closes-on-bridge-acquisition
+        key: true
+      - t: Kulipa provider wind-down disrupted Ready and Solflare
+        pub: The Defiant
+        d: '2026-07-30'
+        url: https://thedefiant.io/converge/cefi/ready-shuts-card-program-after-issuer-winds-down
+        key: false
+- after: src_all_3
+  slide:
+    id: src_all_4
+    type: sources_list
+    section: Sources
+    cols:
+    - - t: MoonPay June 2024 layoffs of 10%
+        pub: Theblock
+        d: '2024-06-05'
+        url: https://www.theblock.co/news/business/2024-06-05-moonpay-lays-off-10-staff-298638
+        key: false
+      - t: Rain supported 200 partners and $3B annualized transactions
+        pub: Theblock
+        d: '2026-01-09'
+        url: https://www.theblock.co/news/deals/2026-01-09-rain-valuation-nears-2-billion-usd-series-c-250-million-raise-384910
+        key: false
+      - t: Stripe announced it would enable USDC payment acceptance in…
+        pub: Theblock
+        d: '2024-04-25'
+        url: https://www.theblock.co/news/business/2024-04-25-stripe-to-enable-usdc-payments-starting-this-summer-291000
+        key: false
+      - t: Stripe enabled USDC acceptance for US firms in October 2024
+        pub: Theblock
+        d: '2024-10-10'
+        url: https://www.theblock.co/news/business/2024-10-10-stripe-crypto-payments-320404
+        key: false
+      - t: Transak October 2024 breach affected 92,554 users
+        pub: Theblock
+        d: '2024-10-21'
+        url: https://www.theblock.co/news/regulation/2024-10-21-transak-discloses-data-breach-affecting-over-57000-users-stormous-ransomware-gang-claims-responsibility-322263
+        key: false
+      - t: Toku
+        pub: Toku
+        d: '2026-11-12'
+        url: https://www.toku.com/stablecoin-payroll/usdt
+        key: false
+      - t: GENIUS Act became US law July 18, 2025
+        pub: Treas
+        d: '2025-07-18'
+        url: https://occ.treas.gov/topics/charters-and-licensing/genius-act/index-genius-act.html
+        key: false
+      - t: Quicko cards Trustee Plus affected
+        pub: Trustee
+        d: '2026-01-29'
+        url: https://trustee.io/news/discontinuation-quicko-digital-cards
+        key: false
+      - t: Bridge-enabled Visa cards operated in 18 countries in March…
+        pub: Visa
+        d: '2026-03-03'
+        url: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-bridge-stablecoin-linked-card-expansion.html
+        key: true
+      - t: Visa began piloting Asia-Pacific stablecoin prefunding with…
+        pub: Visa
+        d: '2026-11-18'
+        url: https://www.visa.com.sg/about-visa/newsroom/press-releases/visa-direct-advances-stablecoin-powered-money-movement-in-asia-pacific.html
+        key: false
+      - t: Visa Direct stablecoin prefunding went into commercial…
+        pub: Visa
+        d: '2026-10-15'
+        url: https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-direct-moves-stablecoin-pilots-production.html
+        key: true
+      - t: Visa estimated $5.2B stablecoin-linked card payments in…
+        pub: Visa
+        d: '2026-03-31'
+        url: https://www.visa.com/en-us/thought-leadership/innovation/stablecoin-linked-cards-monetize-money-movement
+        key: false
+      - t: Visa expanded USDC settlement to Worldpay, Nuvei, and…
+        pub: Visa
+        d: '2023-09-05'
+        url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.19881.html
+        key: false
+      - t: Visa had over 160 stablecoin-linked card programs live in 2026
+        pub: Visa
+        d: '2026-09-08'
+        url: https://www.visa.com/en-us/thought-leadership/innovation/financing-stablecoin-linked-card-programs
+        key: true
+      - t: Visa ran real stablecoin settlements with acquirers in 2023
+        pub: Visa
+        d: '2023-09-05'
+        url: https://investor.visa.com/news/news-details/2023/Visa-Expands-Stablecoin-Settlement-Capabilities-to-Merchant-Acquirers
+        key: false
+    - - t: Visa says commercial programs were 17% of stablecoin-linked…
+        pub: Visa
+        d: '2026-10-01'
+        url: https://corporate.visa.com/en/sites/visa-perspectives/newsroom/stablecoins-gain-traction-business-payments.html
+        key: false
+      - t: Visa settled card obligations in USDC with Crypto.com in 2021
+        pub: Visa
+        d: '2021-03-29'
+        url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.17821.html
+        key: false
+      - t: Visa started USDC settlement with US banks in December 2025
+        pub: Visa
+        d: '2025-12-16'
+        url: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-launches-stablecoin-settlement-in-the-united-states.html
+        key: true
+      - t: Visa2026
+        pub: Visa
+        d: '2026-04-29'
+        url: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-expands-stablecoin-settlement-adds-five-blockchains.html
+        key: false
+      - t: Visa24h
+        pub: Visa
+        d: '2026-09-08'
+        url: https://www.visa.com/en-us/thought-leadership/innovation/onchain-settlement-financing
+        key: false
+      - t: Visa25payout
+        pub: Visa
+        d: '2025-11-12'
+        url: https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-direct-stablecoin-payouts.html
+        key: false
+      - t: Wyre ceased operations June 2023
+        pub: Wa
+        d: '2024-07-29'
+        url: https://dfi.wa.gov/documents/securities-orders/S-23-3542-24-CO01.pdf
+        key: false
+      - t: Westerncard
+        pub: Western Union
+        d: '2026-08-04'
+        url: https://ir.westernunion.com/news/archived-press-releases/press-release-details/2026/Western-Union-Launches-Stablecard-in-Partnership-with-Rain/default.aspx
+        key: false
+      - t: US GENIUS Act signed into law July 18, 2025
+        pub: White House
+        d: '2025-07-18'
+        url: https://www.whitehouse.gov/briefings-statements/2025/07/the-president-signed-into-law-s-1582
+        key: false
+      - t: Yellow
+        pub: Yellow Card
+        d: undated
+        url: https://yellowcard.io/api
+        key: false
+      - t: Yellow Card raised $40M for its global stablecoin rails
+        pub: Yellow Card
+        d: '2026-08-04'
+        url: https://yellowcard.io/blog/yellow-card-secures-40-million-in-strategic-funding-to-further-global-expansion
+        key: false
+      - t: Offramp July 2026 transfer and card service shutdowns
+        pub: Zendesk
+        d: '2026-09-25'
+        url: https://offrampxyz.zendesk.com/hc/en-us/articles/59555666566425-We-re-shutting-down-Offramp-here-s-your-complete-shutdown-timeline
+        key: false
+      - t: Zerohash
+        pub: Zerohash
+        d: undated
+        url: https://docs.zerohash.com/docs/eu-single-api-call-payouts-api
+        key: false
+      - t: Zerohash announced its role in Visa Direct stablecoin…
+        pub: Zerohash
+        d: '2026-08-05'
+        url: https://zerohash.com/press/zerohash-powers-stablecoin-payout-and-prefunding-capabilities-for-visa-direct
+        key: false
+      - t: Zerohash launched stablecoin remittances with MAJORITY in…
+        pub: Zerohash
+        d: '2026-10-26'
+        url: https://zerohash.com/press/majority-launches-cross-border-stablecoin-payments-powered-by-zerohash
+        key: false

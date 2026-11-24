@@ -1,0 +1,532 @@
+ed058:
+  type: pp_pains
+  title: 'What are the biggest unsolved
+
+    problems in military robotics?'
+  auds:
+  - Front-line units
+  - Drone makers
+  - Army buyers
+  - Air-defense teams
+  - Allied states
+  pains:
+  - - They lose most drones to jamming before they hit targets
+    - - 3
+      - 2
+      - 3
+      - 3
+      - 2
+  - - They depend on Chinese motors, batteries and cameras for drones
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They must update models every few months as enemy jamming changes
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They wait months for test results before any big order is placed
+    - - 1
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They struggle to train enough skilled drone pilots in time
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 1
+  - - They lack test ranges where drones can fly without any GPS
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which robot maker offers the
+
+    most complete tech today?'
+  companies:
+  - name: Milrem
+    src: ../../assets/logos/pp_live/military-robotics/s05-00.png
+  - name: Overland AI
+    src: ../../assets/logos/pp_live/military-robotics/s05-01.png
+  - name: FLIR
+    src: ../../assets/logos/pp_live/military-robotics/s05-02.png
+  - name: Forterra
+    src: ../../assets/logos/pp_live/military-robotics/s05-03.png
+  - name: Ghost
+    src: ../../assets/logos/pp_live/military-robotics/s05-04.png
+  features:
+  - header: Legged|robot
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Bomb|disposal
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Armed|vehicle
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Heavy|robot tank
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Autonomy|kit
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Counter|drone
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Backpack|robot
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for military robotics?'
+  events:
+  - odds: 35
+    impact: 3
+    text: The defense tech bubble bursts and Anduril and peers see down rounds without enough production contracts
+  - odds: 30
+    impact: 3
+    text: Congress cuts the $54.6 billion DAWG drone request sharply, leaving military robotics startups without expected orders
+  - odds: 30
+    impact: 2
+    text: Rheinmetall, Lockheed and other primes win most large drone and robot contracts in Europe and the US
+  - odds: 30
+    impact: 2
+    text: A Ukraine peace deal ends the main battlefield demand for drones and ground robots
+  - odds: 30
+    impact: 3
+    text: China cuts off motors, magnets and batteries for Western military robot makers and Ukrainian suppliers
+  - odds: 10
+    impact: 2
+    text: New interceptors and jammers make cheap attack drones far less effective, cutting demand for robotic systems
+  - odds: 10
+    impact: 2
+    text: Robot boats or ground robots fail badly in Navy or Army tests and kill or injure sailors
+  - odds: 5
+    impact: 2
+    text: A UN treaty bans fully autonomous weapons and restricts military robot sales to many allied armies
+  note:
+  - We listed the events that could slow military robotics down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed military robotics
+
+    forward, year after year?'
+  events:
+  - year: '2000'
+    text: Congress wants a third of vehicles unmanned
+    impact: 1.5
+  - year: '2001'
+    text: Robots search Ground Zero after 9/11
+    impact: 1
+  - year: '2002'
+    text: PackBots clear Afghan caves, sparing troops
+    impact: 1.5
+  - year: '2004'
+    text: Iraq IEDs drive demand for bomb robots
+    impact: 2.5
+  - year: '2004'
+    text: DARPA race kickstarts robot driving
+    impact: 1.5
+  - year: '2008'
+    text: Army fields 5,000 robots across Iraq
+    impact: 1.5
+  - year: '2008'
+    text: Guardium robots patrol Israel's Gaza border
+    impact: 0.5
+  - year: '2009'
+    text: FCS collapse shifts Army to simpler robots
+    impact: 0.5
+  - year: '2012'
+    text: DARPA tests robot mules for troop gear
+    impact: 0.5
+  - year: '2016'
+    text: Sea Hunter sails with no crew aboard
+    impact: 1.5
+  - year: '2018'
+    text: Uran-9 flops in Syria, exposing gaps
+    impact: 0.5
+  - year: '2020'
+    text: Army tests robot combat vehicles in field
+    impact: 1
+  - year: '2021'
+    text: Navy task force tests Gulf sea drones
+    impact: 1
+  - year: '2021'
+    text: Robot ship sails 4,700 miles to Pacific
+    impact: 1
+  - year: '2022'
+    text: Sea drones strike Russian fleet at Sevastopol
+    impact: 2.5
+  - year: '2023'
+    text: Sea drone hits Kerch bridge
+    impact: 1.5
+  - year: '2023'
+    text: Replicator bets on masses of cheap robots
+    impact: 2
+  - year: '2023'
+    text: Brave1 hub funds Ukraine robot makers
+    impact: 1
+  - year: '2024'
+    text: Sea drones chase Russia's fleet from Crimea
+    impact: 2
+  - year: '2024'
+    text: Ukraine forms a branch for unmanned forces
+    impact: 1.5
+  - year: '2024'
+    text: Robots alone storm Russian lines near Kharkiv
+    impact: 2
+  - year: '2025'
+    text: Ukraine orders 15,000 ground robots
+    impact: 2.5
+  - year: '2025'
+    text: Sea drones shoot down Russian jets
+    impact: 1.5
+  - year: '2025'
+    text: Army drops RCV to buy commercial robots
+    impact: 1
+  - year: '2025'
+    text: Anduril picks Ohio for mass robot factory
+    impact: 1.5
+  - year: '2025'
+    text: Russian troops surrender to a ground robot
+    impact: 1
+  - year: '2025'
+    text: Australia buys Ghost Shark robot subs
+    impact: 1.5
+  - year: '2026'
+    text: Ukraine contracts 22,000 ground robots fast
+    impact: 2
+  - year: '2026'
+    text: Saronic's $3.2B shipyard scales robot boats
+    impact: 1.5
+  - year: '2026'
+    text: Ukraine ground robots run 100,000 missions
+    impact: 1
+  note:
+  - We kept the events we believe pushed military robotics forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: military-robotics
+  title: 'Where did military robotics investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of military robotics startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    military robotics today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/military-robotics/s10-00.png
+    x: 267.0
+    y: 272.1
+  - src: ../../assets/logos/pp_live/military-robotics/s10-01.png
+    x: 547.3
+    y: 278.1
+  - src: ../../assets/logos/pp_live/military-robotics/s10-02.png
+    x: 605.4
+    y: 271.7
+  - src: ../../assets/logos/pp_live/military-robotics/s10-03.png
+    x: 702.2
+    y: 283.9
+  - src: ../../assets/logos/pp_live/military-robotics/s10-04.png
+    x: 822.6
+    y: 270.0
+  - src: ../../assets/logos/pp_live/military-robotics/s10-05.png
+    x: 325.5
+    y: 289.3
+  - src: ../../assets/logos/pp_live/military-robotics/s10-06.png
+    x: 392.4
+    y: 286.7
+  - src: ../../assets/logos/pp_live/military-robotics/s10-07.png
+    x: 489.2
+    y: 304.7
+  - src: ../../assets/logos/pp_live/military-robotics/s10-08.png
+    x: 769.1
+    y: 290.6
+  - src: ../../assets/logos/pp_live/military-robotics/s10-09.png
+    x: 301.7
+    y: 373.7
+  - src: ../../assets/logos/pp_live/military-robotics/s10-10.png
+    x: 380.4
+    y: 371.6
+  - src: ../../assets/logos/pp_live/military-robotics/s10-11.png
+    x: 682.5
+    y: 370.3
+  - src: ../../assets/logos/pp_live/military-robotics/s10-12.png
+    x: 249.6
+    y: 398.6
+  - src: ../../assets/logos/pp_live/military-robotics/s10-13.png
+    x: 501.2
+    y: 399.0
+  - src: ../../assets/logos/pp_live/military-robotics/s10-14.png
+    x: 608.8
+    y: 378.9
+  - src: ../../assets/logos/pp_live/military-robotics/s10-15.png
+    x: 753.0
+    y: 379.1
+  - src: ../../assets/logos/pp_live/military-robotics/s10-16.png
+    x: 811.1
+    y: 396.0
+  - src: ../../assets/logos/pp_live/military-robotics/s10-17.png
+    x: 558.0
+    y: 408.4
+  - src: ../../assets/logos/pp_live/military-robotics/s10-18.png
+    x: 259.1
+    y: 474.9
+  - src: ../../assets/logos/pp_live/military-robotics/s10-19.png
+    x: 319.5
+    y: 493.3
+  - src: ../../assets/logos/pp_live/military-robotics/s10-20.png
+    x: 383.6
+    y: 486.4
+  - src: ../../assets/logos/pp_live/military-robotics/s10-21.png
+    x: 542.4
+    y: 474.9
+  - src: ../../assets/logos/pp_live/military-robotics/s10-22.png
+    x: 598.3
+    y: 481.7
+  - src: ../../assets/logos/pp_live/military-robotics/s10-23.png
+    x: 724.9
+    y: 492.4
+  - src: ../../assets/logos/pp_live/military-robotics/s10-24.png
+    x: 792.6
+    y: 473.1
+  - src: ../../assets/logos/pp_live/military-robotics/s10-25.png
+    x: 491.8
+    y: 504.9
+  - src: ../../assets/logos/pp_live/military-robotics/s10-26.png
+    x: 675.0
+    y: 503.6
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Air
+  - Ground
+  - Sea
+  note:
+  - We left out primes and big tech like Lockheed Martin, General Dynamics, HII and Rheinmetall
+  - We placed each pure player by its main focus, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is AeroVironment winning
+
+    the loitering munition market?'
+  companies:
+  - short: AV
+    src: ../../assets/logos/pp_live/military-robotics/s12-00.png
+  - short: Anduril
+    src: ../../assets/logos/pp_live/military-robotics/s12-01.png
+  - short: FLIR
+    src: ../../assets/logos/pp_live/military-robotics/s12-02.png
+  - short: UVision
+    src: ../../assets/logos/pp_live/military-robotics/s12-03.png
+  - short: Elbit
+    src: ../../assets/logos/pp_live/military-robotics/s12-04.png
+  - short: Helsing
+    src: ../../assets/logos/pp_live/military-robotics/s12-05.png
+  criteria:
+  - name: Army $990M drone contract
+    why: Five year Switchblade deal
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Fielded in 20+ brigades
+    why: Already in Army hands
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Combat proven
+    why: Used in real wars
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Bought by US forces
+    why: Home market is the biggest
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Onboard AI targeting
+    why: Finds tanks on its own
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Sold to Taiwan
+    why: Key ally export deal
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Publicly listed
+    why: Capital to scale output
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company
+
+    part of military robotics?'
+  TL:
+    name: DJI
+    src: ../../assets/logos/pp_live/military-robotics/s01-00.png
+    text: drones fly scouting and strike missions in Ukraine, but DJI designs them for civilians and halted sales there in 2022
+  TR:
+    name: Dassault Aviation
+    src: ../../assets/logos/pp_live/military-robotics/s01-02.png
+    text: builds the Rafale, a fighter flown by a pilot, and funding drone maker Harmattan AI doesn't change that
+  BL:
+    name: Rheinmetall
+    src: ../../assets/logos/pp_live/military-robotics/s01-09.png
+    text: builds Mission Master robot vehicles, but most of its business is crewed armored vehicles, guns and ammunition
+  BR:
+    name: Saildrone
+    src: ../../assets/logos/pp_live/military-robotics/s01-10.png
+    text: now calls itself a maritime defense company, but its drones still track hurricanes for NOAA, so it sits on the line
+  caption:
+  - Dist to th te flects h h of the busi d syst built f ilit issi t d
+  - istance to the center reflects how much of the business is uncrewed systems built for military missions, not crewed ones
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/military-robotics/s01-01.png
+  - ../../assets/logos/pp_live/military-robotics/s01-03.png
+  - ../../assets/logos/pp_live/military-robotics/s01-04.png
+  - ../../assets/logos/pp_live/military-robotics/s01-05.png
+  - ../../assets/logos/pp_live/military-robotics/s01-06.png
+  - ../../assets/logos/pp_live/military-robotics/s01-07.png
+  - ../../assets/logos/pp_live/military-robotics/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/military-robotics/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/military-robotics/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/military-robotics/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/military-robotics/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/military-robotics/s01-06.png
+    x: 514.9
+    y: 394.9
+  - src: ../../assets/logos/pp_live/military-robotics/s01-07.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/military-robotics/s01-08.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up military
+
+    robots, as ground robots join the war'
+  date: Over the past year.
+  expl: Ukraine started sending ground robots to carry supplies, evacuate soldiers and even hold positions, and China showed armed robot dogs in military
+    drills. Startups promised humanoid soldiers. Videos of robots at war went viral, and people searched what military robots can really do.
+  term: military robotics
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/military-robotics/military-robotics.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    military robotics get?'
+  lead: ''
+  condition: To get that big, the market must turn today’s first orders into large programs, and keep robot budgets strong after the war in Ukraine. It
+    must also build China-free supply chains, and prove that robots can work together with little human control.
+  note:
+  - We compared forecasts from Mordor, Grand View, GM Insights and MarketsandMarkets to build a realistic range
+  - We kept only ground, sea and underwater robots, and all the sources we used are listed at the end of the report
+  size: 11.5
+  cagr: 10
+  y0: 2026

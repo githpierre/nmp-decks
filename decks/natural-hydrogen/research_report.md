@@ -1,0 +1,83 @@
+# Research import re, jsonport
+
+136 answers parsed, 0 YAML errors, 79 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed008**: no sources
+- **ed009**: no sources
+- **ed010**: length 14: 14 vs 20; no sources
+- **ed011**: length 8: 12 vs 25; length 24: 17 vs 25; no sources
+- **ed012**: status no_data: almost no natural hydrogen is sold yet, so there is no reliable price map of offers
+- **ed012**: dropped: no data
+- **ed013**: status no_data: offtake terms and survey prices are rarely public, left for the research chapters
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: length 7: 139 vs 109
+- **ed016**: length 7: 144 vs 114; length 10: 137 vs 108; length 13: 142 vs 109
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed045**: status no_data: No defensible global 2026 revenue number can be reconstructed. Published estimates range from a $39.2M 2024 model to multibillion-dollar models,
+- **ed045**: dropped: no data
+- **ed050**: length 6: 13 vs 22
+- **ed052p**: status no_data: A 2036 value would require a defensible 2026 baseline. Available estimates are irreconcilable and no public worldwide natural-hydrogen sales led
+- **ed054**: no sources
+- **ed055**: length 7: 98 vs 65; length 10: 95 vs 58; length 13: 94 vs 67; length 19: 88 vs 59; length 22: 87 vs 60; no sources
+- **ed056**: length 10: 22 vs 30; length 14: 17 vs 25; length 27: 22 vs 34; length 31: 22 vs 31; length 35: 21 vs 30; no sources
+- **ed057**: length 6: 19 vs 32; length 14: 19 vs 28; length 18: 20 vs 30; length 20: 21 vs 33; length 23: 23 vs 36; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 14: 13 vs 20; length 17: 12 vs 21; no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 14: 13 vs 20; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 14: 10 vs 20; length 17: 13 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 14 vs 20; no sources
+- **ed064-s4**: no sources
+- **ed065-s4**: no sources
+- **ed095**: length 5: 94 vs 71; length 30: 78 vs 60
+- **ed098**: length 28: 85 vs 67
+- **iv_pipeline**: length 34: 57 vs 44
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 12: 14 vs 20; length 15: 93 vs 63; no sources
+- **ed104**: length 9: 14 vs 22; length 7: 94 vs 63; length 10: 88 vs 52; length 15: 94 vs 67; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: length 8: 13 vs 20; no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: length 8: 13 vs 20; no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 39 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: length 8: 12 vs 20; no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 8: 37 vs 26; no sources
+- **ed136**: length 13: 57 vs 45
+- **ed143**: length 22: 15 vs 22; length 18: 13 vs 20; length 10: 13 vs 21
+- **ed144**: length 22: 15 vs 22; length 14: 14 vs 21; length 10: 13 vs 20
+- **ed145**: length 31: 12 vs 22; length 7: 49 vs 66
+- **ed149**: length 21: 47 vs 37
+- **ed172**: length 10: 60 vs 44; length 12: 63 vs 50
+- **ed182**: length 20: 106 vs 80
+- **ed188**: status no_data: No verified four-company set of natural hydrogen startups with disclosed $1B-plus equity valuations or acquisition prices was found.
+- **ed188**: dropped: no data
+- **ed189**: status no_data: No verified founding-to-$1B company valuation milestones exist for four comparable natural hydrogen startups.
+- **ed189**: dropped: no data
+- **ed190**: status no_data: Comparable dated valuation histories for four natural hydrogen startups are not publicly documented.
+- **ed190**: dropped: no data
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

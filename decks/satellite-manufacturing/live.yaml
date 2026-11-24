@@ -1,0 +1,605 @@
+ed058:
+  type: pp_pains
+  title: 'What has been fixed in satellite
+
+    making, and what is left to solve?'
+  auds:
+  - Space Force
+  - Missile defense
+  - Defense primes
+  - Allied armies
+  - Spy agencies
+  pains:
+  - - They wait for laser terminals and encryption parts that arrive late
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They must prove a new satellite works before the next lot is awarded
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 1
+  - - They must deliver on fixed-price contracts that absorb every delay
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They depend on one budget that Congress votes every year
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They need security clearances before they can even place a bid
+    - - 1
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They see armies change how they buy, which cancels planned orders
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which satellite maker has
+
+    the most complete tech today?'
+  companies:
+  - name: Lockheed
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s05-00.png
+  - name: Airbus
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s05-01.png
+  - name: Northrop
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s05-02.png
+  - name: Boeing
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s05-03.png
+  - name: Thales
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s05-04.png
+  features:
+  - header: GEO|comsats
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Deep space|probes
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Missile|warning
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Navigation|satellites
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Crewed|capsule
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Sells own|imagery
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Satellite|servicing
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to satellite manufacturing?'
+  events:
+  - odds: 25
+    impact: 3
+    text: The Space Development Agency cuts or changes satellite orders, hitting York, Terran Orbital and peers
+  - odds: 20
+    impact: 2
+    text: Vulcan delays and SpaceX rideshare limits leave satellite makers waiting years for launch slots
+  - odds: 18
+    impact: 2
+    text: Satellite prices collapse as launches rise much faster than manufacturing revenue for every builder
+  - odds: 15
+    impact: 2
+    text: Funding for satellite manufacturing startups stops after record rounds, leaving many short of cash
+  - odds: 12
+    impact: 2
+    text: The EU Space Act and national rules favor home builders and close export markets to US startups
+  - odds: 10
+    impact: 1
+    text: Lockheed and Northrop buy the best satellite startups like K2 and Apex before they reach scale
+  - odds: 8
+    impact: 2
+    text: A full batch of new satellites fails in orbit and buyers lose trust in a startup manufacturer
+  - odds: 5
+    impact: 3
+    text: SpaceX starts selling its Starlink satellite buses to others and undercuts every satellite manufacturer
+  note:
+  - We listed the events that could slow satellite manufacturing down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept satellite manufacturing
+
+    moving forward, year after year?'
+  events:
+  - year: '1957'
+    text: Sputnik starts the race to build satellites
+    impact: 1
+  - year: '1964'
+    text: Syncom 3 beams Tokyo Olympics to America
+    impact: 1
+  - year: '1972'
+    text: Landsat 1 opens demand for Earth images
+    impact: 1
+  - year: '1978'
+    text: Pentagon orders a fleet of GPS satellites
+    impact: 1.5
+  - year: '1980'
+    text: Standard Hughes bus cuts satellite costs
+    impact: 1
+  - year: '1997'
+    text: Iridium builds satellites on an assembly line
+    impact: 1.5
+  - year: '1999'
+    text: CubeSat standard makes tiny satellites cheap
+    impact: 1.5
+  - year: '2012'
+    text: Electric thrusters make satellites lighter
+    impact: 1
+  - year: '2014'
+    text: Planet's Doves prove cheap satellites work
+    impact: 1
+  - year: '2015'
+    text: OneWeb orders 900 satellites from Airbus
+    impact: 1.5
+  - year: '2015'
+    text: Rocket landings promise far cheaper rides
+    impact: 2.5
+  - year: '2018'
+    text: Rocket Lab opens dedicated small sat launches
+    impact: 1
+  - year: '2019'
+    text: Florida plant builds two satellites a day
+    impact: 1.5
+  - year: '2019'
+    text: SpaceX mass builds Starlinks in house
+    impact: 2.5
+  - year: '2019'
+    text: Space Force creates steady military demand
+    impact: 1.5
+  - year: '2020'
+    text: SDA buys small satellites at fixed prices
+    impact: 1.5
+  - year: '2021'
+    text: SPAC boom funds many new satellite makers
+    impact: 1
+  - year: '2021'
+    text: Rideshare flights cut small sat launch costs
+    impact: 1.5
+  - year: '2022'
+    text: Ukraine war shows militaries need satellites
+    impact: 2
+  - year: '2023'
+    text: Amazon factory targets five satellites daily
+    impact: 1.5
+  - year: '2024'
+    text: China races to build rival megaconstellations
+    impact: 1.5
+  - year: '2024'
+    text: Spy agency orders hundreds of Starshield sats
+    impact: 1.5
+  - year: '2024'
+    text: EU funds IRIS2 to cut Starlink dependence
+    impact: 1.5
+  - year: '2025'
+    text: Apex flies its first ready made bus
+    impact: 1
+  - year: '2025'
+    text: Golden Dome plan needs thousands of sats
+    impact: 2.5
+  - year: '2025'
+    text: NATO 5% pledge boosts space budgets
+    impact: 1.5
+  - year: '2026'
+    text: Golden Dome awards $3.2B for interceptors
+    impact: 1.5
+  - year: '2026'
+    text: SpaceX IPO pulls investors to space hardware
+    impact: 2
+  - year: '2026'
+    text: EU speeds up IRIS2 with more satellites
+    impact: 1.5
+  - year: '2026'
+    text: Starship deploys first V3 Starlinks
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed satellite manufacturing forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: satellite-manufacturing
+  title: 'Where did satellite manufacturing
+
+    investors put their money this past year?'
+  note:
+  - We added up every equity round of satellite manufacturing startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in satellite manufacturing?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-00.png
+    x: 299.8
+    y: 279.9
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-01.png
+    x: 358.5
+    y: 265.9
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-02.png
+    x: 490.5
+    y: 284.6
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-03.png
+    x: 739.7
+    y: 273.0
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-04.png
+    x: 806.1
+    y: 269.1
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-05.png
+    x: 249.0
+    y: 302.6
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-06.png
+    x: 545.8
+    y: 301.3
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-07.png
+    x: 606.2
+    y: 291.0
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-08.png
+    x: 678.4
+    y: 288.4
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-09.png
+    x: 271.3
+    y: 387.0
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-10.png
+    x: 341.8
+    y: 385.7
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-11.png
+    x: 396.2
+    y: 403.7
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-12.png
+    x: 468.2
+    y: 383.1
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-13.png
+    x: 528.2
+    y: 378.9
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-14.png
+    x: 596.8
+    y: 396.9
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-15.png
+    x: 683.1
+    y: 387.0
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-16.png
+    x: 758.6
+    y: 376.3
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-17.png
+    x: 818.8
+    y: 396.0
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-18.png
+    x: 270.0
+    y: 493.3
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-19.png
+    x: 388.9
+    y: 493.7
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-20.png
+    x: 461.6
+    y: 474.4
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-21.png
+    x: 604.9
+    y: 480.0
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-22.png
+    x: 706.3
+    y: 494.6
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-23.png
+    x: 759.0
+    y: 474.4
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-24.png
+    x: 329.6
+    y: 503.1
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-25.png
+    x: 518.4
+    y: 497.1
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s10-26.png
+    x: 813.2
+    y: 495.9
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Buses
+  - Providers / Health systems -
+  - pace
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out SpaceX, Amazon, the primes and builders now owned by a prime, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these satellite
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Launch or|sat delays
+  - Debt|burden
+  - Slow|sales
+  rows:
+  - name: OneWeb
+    ending: Went bankrupt
+    start: '2012'
+    end: '2020'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s11-00.png
+    ini: O
+    slug: oneweb
+    domain: oneweb.net
+  - name: UrtheCast
+    ending: Assets sold
+    start: '2010'
+    end: '2021'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s11-01.png
+    ini: U
+    slug: urthecast
+    domain: urthecast.com
+  - name: Kleos Space
+    ending: Went bankrupt
+    start: '2017'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s11-02.png
+    ini: K
+    slug: kleos-space
+    domain: kleos.space
+  - name: Terran Orbital
+    ending: Sold at $0.25/sh
+    start: '2013'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s11-03.png
+    ini: T
+    slug: terran-orbital
+    domain: terranorbital.com
+  - name: Mynaric
+    ending: Sold to Rocket Lab
+    start: '2009'
+    end: '2026'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s11-04.png
+    ini: M
+    slug: mynaric
+    domain: mynaric.com
+  note:
+  - We tracked the satellite manufacturing startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might York be winning
+
+    the satellite bus market?'
+  companies:
+  - short: York
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s12-00.png
+  - short: Apex
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s12-01.png
+  - short: K2 Space
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s12-02.png
+  - short: Terran
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s12-03.png
+  - short: Blue Canyon
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s12-04.png
+  criteria:
+  - name: Public listing
+    why: IPO raised $629M in 2026
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: SDA constellation awards
+    why: Steady Pentagon volume
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: $500M+ yearly revenue
+    why: Scale funds new factories
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 33+ satellites in orbit
+    why: Proven flight heritage
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: In house propulsion
+    why: Bought Orbion to own supply
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Defense prime parent
+    why: Backed by Lockheed or RTX
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: $200M+ venture round
+    why: Cash to scale production
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really belong
+
+    in satellite manufacturing?'
+  TL:
+    name: Exotrail
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s01-00.png
+    text: sells electric thrusters for other firms’ satellites and offers in- orbit services, but it does not build spacecraft
+  TR:
+    name: Iridium
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s01-02.png
+    text: runs a constellation of 66 satellites, but Thales Alenia Space built them and it makes its money selling connectivity
+  BL:
+    name: Loft Orbital
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s01-10.png
+    text: flies customer payloads on satellite buses it buys from Airbus and Apex, which makes it half builder, half operator
+  BR:
+    name: Planet
+    src: ../../assets/logos/pp_live/satellite-manufacturing/s01-11.png
+    text: builds Pelican satellites for Japan's SKY Perfect JSAT in a $230 million deal, but its main business is selling imagery
+  caption:
+  - Distance to the center reflects how much revenue comes from building complete spacecraft, rather than parts or services
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/satellite-manufacturing/s01-01.png
+  - ../../assets/logos/pp_live/satellite-manufacturing/s01-03.png
+  - ../../assets/logos/pp_live/satellite-manufacturing/s01-04.png
+  - ../../assets/logos/pp_live/satellite-manufacturing/s01-05.png
+  - ../../assets/logos/pp_live/satellite-manufacturing/s01-06.png
+  - ../../assets/logos/pp_live/satellite-manufacturing/s01-07.png
+  - ../../assets/logos/pp_live/satellite-manufacturing/s01-08.png
+  - ../../assets/logos/pp_live/satellite-manufacturing/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s01-01.png
+    x: 459.2
+    y: 279.6
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s01-03.png
+    x: 535.1
+    y: 331.9
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s01-04.png
+    x: 405.6
+    y: 364.1
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s01-05.png
+    x: 471.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s01-06.png
+    x: 513.6
+    y: 399.2
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s01-07.png
+    x: 376.5
+    y: 418.5
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s01-08.png
+    x: 454.1
+    y: 411.2
+  - src: ../../assets/logos/pp_live/satellite-manufacturing/s01-09.png
+    x: 502.7
+    y: 461.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Satellites moved to factory
+
+    production in less than 18 months'
+  date: ''
+  expl: Amazon flies its first 27 Leo satellites rated at 1,000 a year an
+  term: satellite manufacturing
+  note:
+  - We used company and industry announcements, as published by About Amazon and CircleID
+  - We kept the signals that show the market is speeding up, with all the sources at the end of the report
+  csv: assets/trends/satellite-manufacturing/satellite-manufacturing.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for satellite makers to grow?'
+  lead: 'To fill that room, '
+  condition: armies must keep buying satellites in lots, and Golden Dome, IRIS?, and China’s constellations must move from plans to orders. It must also
+    find enough launches, laser terminals, and cleared engineers, so that factories can turn orders into satellites in orbit.
+  note:
+  - We compared forecasts from Mordor, Grand View, Global Market Insights and Meticulous
+  - We allowed for falling prices per satellite, and all our sources are at the end of the report
+  size: 26
+  cagr: 13
+  y0: 2026

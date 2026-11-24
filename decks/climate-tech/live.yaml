@@ -1,0 +1,624 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved pain
+
+    points in climate tech?'
+  auds:
+  - Power utilities
+  - Data centers
+  - Project developers
+  - Fleet owners
+  - Car buyers
+  pains:
+  - - They wait years in grid queues before a project can produce power
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They pay a green premium that many of their buyers will not accept
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They cannot plan on tax credits that change with each election
+    - - 2
+      - 1
+      - 3
+      - 2
+      - 3
+  - - They need storage for the hours when wind and sun go quiet
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They lose years to permits and local fights over new projects
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They struggle to raise enough money to build their very first plant
+    - - 2
+      - 1
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which DAC climate tech firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Climeworks
+    src: ../../assets/logos/pp_live/climate-tech/s05-00.png
+  - name: Heirloom
+    src: ../../assets/logos/pp_live/climate-tech/s05-01.png
+  - name: Mission Zero
+    src: ../../assets/logos/pp_live/climate-tech/s05-02.png
+  - name: Octavia
+    src: ../../assets/logos/pp_live/climate-tech/s05-03.png
+  - name: 1PointFive
+    src: ../../assets/logos/pp_live/climate-tech/s05-04.png
+  features:
+  - header: Running|DAC plant
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: 10,000 t+|plant
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Own CO2|storage
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Plant|outside US
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Solid|sorbent
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Heat|free
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: CO2 into|products
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for climate tech?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Treasury tightens foreign sourcing rules and more solar, wind and hydrogen projects lose federal tax credits
+  - odds: 45
+    impact: 3
+    text: The DOE cancels billions more in grants and loans, stranding more hydrogen hub and carbon capture projects
+  - odds: 45
+    impact: 2
+    text: Chinese solar, battery and EV makers cut prices so low that Western startups cannot compete
+  - odds: 40
+    impact: 2
+    text: Climate tech venture funding stays below 2021 levels and Series B startups fail to find investors
+  - odds: 40
+    impact: 2
+    text: Utilities delay grid connections for years, so new solar, storage and data center projects stall
+  - odds: 35
+    impact: 2
+    text: Northvolt-style collapses hit more battery and green steel startups that cannot fund first factories
+  - odds: 30
+    impact: 2
+    text: High interest rates raise financing costs and first-of-a-kind plants miss the returns lenders expected
+  - odds: 25
+    impact: 2
+    text: Carbon credit scandals collapse demand for removal credits from Climeworks and similar companies
+  note:
+  - We listed the events that could slow climate tech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed climate tech
+
+    forward, year after year?'
+  events:
+  - year: '1997'
+    text: Kyoto Protocol sets binding emission cuts
+    impact: 1.5
+  - year: '2000'
+    text: Germany's feed-in tariff pays for solar
+    impact: 2.5
+  - year: '2005'
+    text: EU carbon market puts price on CO2
+    impact: 2
+  - year: '2006'
+    text: An Inconvenient Truth wakes up the public
+    impact: 1
+  - year: '2008'
+    text: Oil hits $147, making alternatives urgent
+    impact: 1.5
+  - year: '2008'
+    text: Tesla Roadster proves EVs can be desirable
+    impact: 1.5
+  - year: '2009'
+    text: US stimulus pours $90B into clean energy
+    impact: 2
+  - year: '2010'
+    text: China solar factories crash panel prices
+    impact: 2
+  - year: '2011'
+    text: Fukushima pushes Germany toward renewables
+    impact: 1
+  - year: '2012'
+    text: Tesla Model S wins over premium buyers
+    impact: 1.5
+  - year: '2015'
+    text: Paris Agreement sets global net zero course
+    impact: 2.5
+  - year: '2016'
+    text: Tesla Gigafactory opens to cut battery costs
+    impact: 1.5
+  - year: '2016'
+    text: Breakthrough Energy fund backs hard tech
+    impact: 1.5
+  - year: '2017'
+    text: India solar bid hits record low price
+    impact: 1.5
+  - year: '2018'
+    text: IPCC 1.5C report sets 2050 net zero
+    impact: 1.5
+  - year: '2018'
+    text: Greta's strike turns climate into a movement
+    impact: 1
+  - year: '2019'
+    text: EU Green Deal targets net zero 2050
+    impact: 2
+  - year: '2020'
+    text: Microsoft vows carbon negative by 2030
+    impact: 1.5
+  - year: '2020'
+    text: China pledges carbon neutrality by 2060
+    impact: 2
+  - year: '2022'
+    text: Russia gas cutoff drives EU energy shift
+    impact: 2
+  - year: '2022'
+    text: IRA offers $370B in clean energy credits
+    impact: 3
+  - year: '2022'
+    text: Frontier pledges $925M for carbon removal
+    impact: 1
+  - year: '2022'
+    text: Fusion ignition at NIF lifts fusion bets
+    impact: 1
+  - year: '2023'
+    text: EU border carbon tax shields clean makers
+    impact: 1.5
+  - year: '2023'
+    text: EU bans new gas cars from 2035
+    impact: 1.5
+  - year: '2023'
+    text: COP28 agrees to shift off fossil fuels
+    impact: 1
+  - year: '2024'
+    text: AI data centers sign nuclear power deals
+    impact: 2.5
+  - year: '2024'
+    text: Battery prices drop 20% to record low
+    impact: 1.5
+  - year: '2025'
+    text: US credit phaseout sparks rush to build
+    impact: 1
+  - year: '2026'
+    text: Hormuz oil shock drives record EV sales
+    impact: 2
+  note:
+  - We kept the events we believe pushed climate tech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: climate-tech
+  title: 'Where did climate tech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of climate tech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the climate tech market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/climate-tech/s10-00.png
+    x: 376.3
+    y: 266.8
+  - src: ../../assets/logos/pp_live/climate-tech/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/climate-tech/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/climate-tech/s10-03.png
+    x: 657.0
+    y: 270.0
+  - src: ../../assets/logos/pp_live/climate-tech/s10-04.png
+    x: 732.9
+    y: 277.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-05.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-06.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/climate-tech/s10-07.png
+    x: 309.6
+    y: 301.7
+  - src: ../../assets/logos/pp_live/climate-tech/s10-08.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-09.png
+    x: 796.7
+    y: 305.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-10.png
+    x: 480.0
+    y: 317.6
+  - src: ../../assets/logos/pp_live/climate-tech/s10-11.png
+    x: 446.6
+    y: 375.0
+  - src: ../../assets/logos/pp_live/climate-tech/s10-12.png
+    x: 191.6
+    y: 404.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-13.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-14.png
+    x: 376.7
+    y: 387.2
+  - src: ../../assets/logos/pp_live/climate-tech/s10-15.png
+    x: 576.4
+    y: 376.3
+  - src: ../../assets/logos/pp_live/climate-tech/s10-16.png
+    x: 696.9
+    y: 375.2
+  - src: ../../assets/logos/pp_live/climate-tech/s10-17.png
+    x: 769.3
+    y: 401.8
+  - src: ../../assets/logos/pp_live/climate-tech/s10-18.png
+    x: 313.9
+    y: 405.4
+  - src: ../../assets/logos/pp_live/climate-tech/s10-19.png
+    x: 507.4
+    y: 406.9
+  - src: ../../assets/logos/pp_live/climate-tech/s10-20.png
+    x: 191.6
+    y: 492.9
+  - src: ../../assets/logos/pp_live/climate-tech/s10-21.png
+    x: 312.4
+    y: 492.9
+  - src: ../../assets/logos/pp_live/climate-tech/s10-22.png
+    x: 444.0
+    y: 471.4
+  - src: ../../assets/logos/pp_live/climate-tech/s10-23.png
+    x: 507.4
+    y: 492.9
+  - src: ../../assets/logos/pp_live/climate-tech/s10-24.png
+    x: 615.9
+    y: 476.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-25.png
+    x: 692.6
+    y: 473.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-26.png
+    x: 250.7
+    y: 513.4
+  - src: ../../assets/logos/pp_live/climate-tech/s10-27.png
+    x: 376.7
+    y: 500.1
+  - src: ../../assets/logos/pp_live/climate-tech/s10-28.png
+    x: 564.4
+    y: 519.9
+  - src: ../../assets/logos/pp_live/climate-tech/s10-29.png
+    x: 759.0
+    y: 504.0
+  cols:
+  - Broquelied
+  - Project / asset developer
+  - y Bigitelmeanxets/
+  rows:
+  - Clean energy &
+  - Industrial decarbonization
+  - Carbon removal, natu
+  note:
+  - We left out broad ESG software unless it directly helps cut emissions, remove carbon, or adapt to climate change
+  - We placed private pure players by main product and stage, and all our sources are listed at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these climate tech
+
+    startups, and how did they end?'
+  causes:
+  - Fraud or|court case
+  - Costs|too high
+  - Ran out|of cash
+  - Product|fell short
+  rows:
+  - name: Northvolt
+    ending: Went bankrupt
+    start: '2015'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/climate-tech/s11-00.png
+    ini: N
+    slug: northvolt
+    domain: northvolt.com
+  - name: Nikola
+    ending: Went bankrupt
+    start: '2014'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/climate-tech/s11-01.png
+    ini: N
+    slug: nikola
+    domain: nikolamotor.com
+  - name: AppHarvest
+    ending: Went bankrupt
+    start: '2017'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/climate-tech/s11-02.png
+    ini: A
+    slug: appharvest
+    domain: appharvest.com
+  - name: Arrival
+    ending: Went bankrupt
+    start: '2015'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/climate-tech/s11-03.png
+    ini: A
+    slug: arrival
+    domain: arrival.com
+  - name: Ambri
+    ending: Went bankrupt
+    start: '2010'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/climate-tech/s11-04.png
+    ini: A
+    slug: ambri
+    domain: ambri.com
+  note:
+  - We tracked the climate tech startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is CATL winning
+
+    the EV battery market?'
+  companies:
+  - short: CATL
+    src: ../../assets/logos/pp_live/climate-tech/s12-00.png
+  - short: BYD
+    src: ../../assets/logos/pp_live/climate-tech/s12-01.png
+  - short: LGES
+    src: ../../assets/logos/pp_live/climate-tech/s12-02.png
+  - short: Panasonic
+    src: ../../assets/logos/pp_live/climate-tech/s12-03.png
+  - short: SK On
+    src: ../../assets/logos/pp_live/climate-tech/s12-04.png
+  - short: Samsung SDI
+    src: ../../assets/logos/pp_live/climate-tech/s12-05.png
+  - short: CALB
+    src: ../../assets/logos/pp_live/climate-tech/s12-06.png
+  criteria:
+  - name: Top EV battery share
+    why: Over a third of world sales
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: LFP cells at huge scale
+    why: Cheap, safe cells for EVs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Plants in Europe
+    why: Close to EU carmakers
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Supplies Tesla
+    why: Wins a top EV buyer
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Licenses tech to carmakers
+    why: Earns from others' plants
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Ultra fast charging cells
+    why: Charge in minutes
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the climate tech market?'
+  TL:
+    name: Tesla
+    src: ../../assets/logos/pp_live/climate-tech/s01-00.png
+    text: did more than anyone to make electric cars mainstream, but it is valued and run as a carmaker and AI company rather than a climate one
+  TR:
+    name: ExxonMobil
+    src: ../../assets/logos/pp_live/climate-tech/s01-02.png
+    text: runs carbon capture J projects, but they remain small next to an oil and gas business it plans to keep expanding
+  BL:
+    name: Octopus Energy
+    src: ../../assets/logos/pp_live/climate-tech/s01-10.png
+    text: sells electricity like any other utility, but its focus on renewables and its software roots put it right on the boundary
+  BR:
+    name: Beyond Meat
+    src: ../../assets/logos/pp_live/climate-tech/s01-11.png
+    text: markets a much lower footprint than beef, but it is a food brand first and fits more naturally in the alternative protein market
+  caption:
+  - Dist to th te flects h tral ducti lis to th duct, rather t ide benefit
+  - istance to the center reflects how central emissions reduction or removal is to the product, rather than a side benefi
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/climate-tech/s01-01.png
+  - ../../assets/logos/pp_live/climate-tech/s01-03.png
+  - ../../assets/logos/pp_live/climate-tech/s01-04.png
+  - ../../assets/logos/pp_live/climate-tech/s01-05.png
+  - ../../assets/logos/pp_live/climate-tech/s01-06.png
+  - ../../assets/logos/pp_live/climate-tech/s01-07.png
+  - ../../assets/logos/pp_live/climate-tech/s01-08.png
+  - ../../assets/logos/pp_live/climate-tech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/climate-tech/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/climate-tech/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/climate-tech/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/climate-tech/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/climate-tech/s01-06.png
+    x: 514.9
+    y: 394.9
+  - src: ../../assets/logos/pp_live/climate-tech/s01-07.png
+    x: 381.2
+    y: 430.9
+  - src: ../../assets/logos/pp_live/climate-tech/s01-08.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/climate-tech/s01-09.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'People search climate
+
+    change in short bursts'
+  date: ''
+  expl: ''
+  term: climate tech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/climate-tech/climate-tech.csv
+ed052p:
+  type: pp_cagr
+  title: 'Can the climate tech
+
+    market still grow?'
+  lead: ''
+  condition: Yes, but the market must keep clean power cheaper than fossil fuels, build grids and storage fast, and win buyers in industry and transport
+    every year. It must also survive policy swings, raise capital for first plants, and turn early technologies like clean steel, fusion, and carbon removal
+    into real businesses.
+  note:
+  - We compared forecasts from BloombergNEF, the IEA, IRENA and research firms and adjusted each one to our market definition
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: null
+  cagr: 7
+  y0: 2026

@@ -1,0 +1,535 @@
+ed058:
+  type: pp_pains
+  title: 'Which AI training data
+
+    problems are still unsolved?'
+  auds:
+  - Frontier labs
+  - Big tech
+  - AI startups
+  - Enterprise teams
+  - Domain experts
+  pains:
+  - - They must keep each AI lab’s project fully confidential
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They need new experts as models start to beat junior ones
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 2
+  - - They cannot find enough senior experts for each new project
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They see crowd workers secretly use AI to do the tasks for them
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - They lose big projects when a lab switches to another supplier
+    - - 2
+      - 3
+      - 1
+      - 1
+      - 3
+  - - They face lawsuits over how they classify their contractors
+    - - 1
+      - 2
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI training data firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Scale AI
+    src: ../../assets/logos/pp_live/ai-training-data/s05-00.png
+  - name: Mercor
+    src: ../../assets/logos/pp_live/ai-training-data/s05-01.png
+  - name: Snorkel AI
+    src: ../../assets/logos/pp_live/ai-training-data/s05-02.png
+  - name: Turing
+    src: ../../assets/logos/pp_live/ai-training-data/s05-03.png
+  - name: Labelbox
+    src: ../../assets/logos/pp_live/ai-training-data/s05-04.png
+  - name: Surge AI
+    src: ../../assets/logos/pp_live/ai-training-data/s05-05.png
+  features:
+  - header: RL|sandboxes
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Driverless|car data
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Robotics|data
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Defense|offer
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Agents for|companies
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Ready-made|datasets
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Licenses|firm data
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI training data?'
+  events:
+  - odds: 25
+    impact: 3
+    text: Synthetic data and reinforcement learning replace most human-made data, shrinking the market for data vendors
+  - odds: 20
+    impact: 2
+    text: OpenAI, Google and xAI hire experts directly and bring data work in-house, bypassing data vendors
+  - odds: 15
+    impact: 3
+    text: AI labs cut training data budgets after a funding slowdown, hitting Scale AI, Surge and Turing
+  - odds: 15
+    impact: 2
+    text: California and other states classify data workers as employees, raising costs for Scale AI and Surge
+  - odds: 10
+    impact: 3
+    text: AI models surpass senior experts, so labs no longer need human experts to label or write data
+  - odds: 10
+    impact: 1
+    text: Copyright settlements like Anthropic's $1.5 billion deal drain lab budgets that would pay data vendors
+  - odds: 8
+    impact: 1
+    text: The US and China split AI data markets, cutting training data vendors off from half their buyers
+  - odds: 5
+    impact: 2
+    text: A major data leak at Scale AI, Surge or Mercor makes AI labs stop using outside vendors
+  note:
+  - We listed the events that could slow ai training data down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI training data
+
+    forward, year after year?'
+  events:
+  - year: '2005'
+    text: Mechanical Turk makes data labeling cheap
+    impact: 1.5
+  - year: '2008'
+    text: Common Crawl makes the web free data
+    impact: 1.5
+  - year: '2009'
+    text: ImageNet shows labeled data drives AI
+    impact: 2.5
+  - year: '2012'
+    text: AlexNet wins by training on ImageNet
+    impact: 2
+  - year: '2016'
+    text: Self driving race needs millions of labels
+    impact: 1.5
+  - year: '2017'
+    text: Transformers turn more text into better AI
+    impact: 1.5
+  - year: '2018'
+    text: GDPR raises the cost of personal data
+    impact: 1
+  - year: '2020'
+    text: Scaling laws show more data pays off
+    impact: 2
+  - year: '2020'
+    text: GPT-3 trains on a huge web scrape
+    impact: 1.5
+  - year: '2022'
+    text: Chinchilla shows models need far more data
+    impact: 1.5
+  - year: '2022'
+    text: InstructGPT shows human feedback works
+    impact: 2
+  - year: '2022'
+    text: ChatGPT makes human feedback a must
+    impact: 3
+  - year: '2023'
+    text: Getty sues Stability over scraped images
+    impact: 1
+  - year: '2023'
+    text: Reddit charges for API, data gets priced
+    impact: 1.5
+  - year: '2023'
+    text: AP licenses its archive to OpenAI
+    impact: 1
+  - year: '2023'
+    text: NYT sues OpenAI, pushing labs to license
+    impact: 2
+  - year: '2024'
+    text: Reddit licenses its posts to Google
+    impact: 1.5
+  - year: '2024'
+    text: News Corp signs $250M deal with OpenAI
+    impact: 1.5
+  - year: '2024'
+    text: EU AI Act forces training data summaries
+    impact: 1.5
+  - year: '2024'
+    text: Epoch warns web text runs out soon
+    impact: 1
+  - year: '2024'
+    text: OpenAI o1 needs expert reasoning data
+    impact: 1.5
+  - year: '2025'
+    text: Meta pays $14.3B for 49% of Scale
+    impact: 2.5
+  - year: '2025'
+    text: Labs leave Scale, spreading work to rivals
+    impact: 1.5
+  - year: '2025'
+    text: Judge rules book training is fair use
+    impact: 1
+  - year: '2025'
+    text: Cloudflare blocks AI crawlers by default
+    impact: 1.5
+  - year: '2025'
+    text: Anthropic pays $1.5B to settle book claims
+    impact: 2
+  - year: '2025'
+    text: Mercor hits $10B on expert data demand
+    impact: 1
+  - year: '2025'
+    text: Labels license songs to Udio and Suno
+    impact: 1
+  - year: '2025'
+    text: Disney licenses its characters to OpenAI
+    impact: 1
+  - year: '2026'
+    text: Handshake tops $1B run rate via AI
+    impact: 1
+  note:
+  - We kept the events we believe pushed ai training data forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-training-data
+  title: 'Where did AI training data investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai training data startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in AI training data today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-00.png
+    x: 289.7
+    y: 270.9
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-01.png
+    x: 396.0
+    y: 273.9
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-02.png
+    x: 535.1
+    y: 278.1
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-03.png
+    x: 731.1
+    y: 281.1
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-04.png
+    x: 814.9
+    y: 276.9
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-05.png
+    x: 340.5
+    y: 298.3
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-06.png
+    x: 471.4
+    y: 294.4
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-07.png
+    x: 595.1
+    y: 297.9
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-08.png
+    x: 675.6
+    y: 298.7
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-09.png
+    x: 468.9
+    y: 372.0
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-10.png
+    x: 248.8
+    y: 403.7
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-11.png
+    x: 359.6
+    y: 377.1
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-12.png
+    x: 520.5
+    y: 402.9
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-13.png
+    x: 590.8
+    y: 377.1
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-14.png
+    x: 691.7
+    y: 392.6
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-15.png
+    x: 750.2
+    y: 392.1
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-16.png
+    x: 814.9
+    y: 401.8
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-17.png
+    x: 308.4
+    y: 406.1
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-18.png
+    x: 266.6
+    y: 493.7
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-19.png
+    x: 334.3
+    y: 490.3
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-20.png
+    x: 395.4
+    y: 481.7
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-21.png
+    x: 514.5
+    y: 478.7
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-22.png
+    x: 609.0
+    y: 494.6
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-23.png
+    x: 756.2
+    y: 486.0
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-24.png
+    x: 463.5
+    y: 511.3
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-25.png
+    x: 697.9
+    y: 499.7
+  - src: ../../assets/logos/pp_live/ai-training-data/s10-26.png
+    x: 817.3
+    y: 507.4
+  cols:
+  - Leaders
+  - Challengers
+  - Challengers
+  rows:
+  - Experts
+  - Labeling
+  - Physical
+  note:
+  - We left out big tech, AI labs and listed firms like Meta, OpenAI, Appen and Innodata
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why might Surge AI be
+
+    winning AI training data?'
+  companies:
+  - short: Surge AI
+    src: ../../assets/logos/pp_live/ai-training-data/s12-00.png
+  - short: Mercor
+    src: ../../assets/logos/pp_live/ai-training-data/s12-01.png
+  - short: Scale AI
+    src: ../../assets/logos/pp_live/ai-training-data/s12-02.png
+  - short: Handshake
+    src: ../../assets/logos/pp_live/ai-training-data/s12-03.png
+  - short: micro1
+    src: ../../assets/logos/pp_live/ai-training-data/s12-04.png
+  - short: Turing
+    src: ../../assets/logos/pp_live/ai-training-data/s12-05.png
+  criteria:
+  - name: Hit $1B with no VC
+    why: Bootstrapped to scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $1B+ net revenue
+    why: Biggest net revenue base
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: US military customer
+    why: Trusted on sensitive work
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: No AI lab as owner
+    why: Every lab can trust it
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Sells to top AI labs
+    why: Frontier model budgets
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: $2B gross run rate
+    why: Fastest growing marketplace
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company
+
+    part of AI training data?'
+  TL:
+    name: Hugging Face
+    src: ../../assets/logos/pp_live/ai-training-data/s01-00.png
+    text: hosts many of the open datasets AI labs train on, but it is a hosting hub, not paid to create or supply that data
+  TR:
+    name: ZoomInfo
+    src: ../../assets/logos/pp_live/ai-training-data/s01-02.png
+    text: sells huge databases of company and contact records, but that data is built to help sales teams, not to train AI models
+  BL:
+    name: Arena
+    src: ../../assets/logos/pp_live/ai-training-data/s01-10.png
+    text: collects millions of human votes comparing AI models, but labs mostly pay it to evaluate models, not to train them
+  BR:
+    name: Reddit
+    src: ../../assets/logos/pp_live/ai-training-data/s01-11.png
+    text: licenses its posts to AI labs for training, but that brought in about $43 million last quarter, next to $762 million of ads
+  caption:
+  - Distance to the center reflects how much of a company’s revenue comes from supplying the data that AI models are trained on
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-training-data/s01-01.png
+  - ../../assets/logos/pp_live/ai-training-data/s01-03.png
+  - ../../assets/logos/pp_live/ai-training-data/s01-04.png
+  - ../../assets/logos/pp_live/ai-training-data/s01-05.png
+  - ../../assets/logos/pp_live/ai-training-data/s01-06.png
+  - ../../assets/logos/pp_live/ai-training-data/s01-07.png
+  - ../../assets/logos/pp_live/ai-training-data/s01-08.png
+  - ../../assets/logos/pp_live/ai-training-data/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-training-data/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/ai-training-data/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/ai-training-data/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/ai-training-data/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/ai-training-data/s01-06.png
+    x: 512.4
+    y: 402.2
+  - src: ../../assets/logos/pp_live/ai-training-data/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/ai-training-data/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/ai-training-data/s01-09.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask how
+
+    to get paid to train AI models'
+  date: Recently.
+  expl: AI labs need humans to teach their models, and they pay for it. Platforms like Outlier, DataAnnotation and Mercor flooded social media with ads
+    for writers, coders, doctors and lawyers, some paying over $100 an hour. Millions of people searched how to get one of these jobs.
+  term: ai training data
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-training-data/ai-training-data.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    AI training data get?'
+  lead: ''
+  condition: To get that big, the market must keep frontier labs spending on human experts, and win new buyers in companies, robotics, and governments.
+    It must also prove that human data still beats synthetic data, keep its experts fairly paid, and keep client data safe.
+  note:
+  - We compared forecasts from Mordor, Grand View, Fortune Business Insights and Precedence
+  - We allowed for synthetic data and falling prices, with all the sources at the end of the report
+  size: 10
+  cagr: 20
+  y0: 2026

@@ -1,0 +1,607 @@
+ed058:
+  type: pp_pains
+  title: 'Which warehouse problems
+
+    are still unsolved today?'
+  auds:
+  - Big retailers
+  - Online grocers
+  - Fashion brands
+  - 3PL operators
+  - Parts suppliers
+  pains:
+  - - They pay millions upfront for a system that takes a year
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 2
+  - - They lock their stock into one vendor’s grid for over ten years
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They lose support if the vendor fails, as Attabotics did in 2025
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 1
+  - - They depend on integrators who add their own margin on top
+    - - 2
+      - 1
+      - 2
+      - 2
+      - 3
+  - - They need a building with the right floor and height for a grid
+    - - 2
+      - 1
+      - 3
+      - 2
+      - 1
+  - - They struggle to expand the grid while the building keeps running
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which robot maker offers the
+
+    most complete tech today?'
+  companies:
+  - name: Ocado
+    src: ../../assets/logos/pp_live/warehouse-robotics/s05-00.png
+  - name: Geek+
+    src: ../../assets/logos/pp_live/warehouse-robotics/s05-01.png
+  - name: Symbotic
+    src: ../../assets/logos/pp_live/warehouse-robotics/s05-02.png
+  - name: AutoStore
+    src: ../../assets/logos/pp_live/warehouse-robotics/s05-03.png
+  - name: Locus
+    src: ../../assets/logos/pp_live/warehouse-robotics/s05-04.png
+  features:
+  - header: Grid|storage
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Picking|arm
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Picker|robots
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Pallet|robots
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Sorting|robots
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Cold|storage
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: As-a-|service
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for warehouse robots?'
+  events:
+  - odds: 25
+    impact: 3
+    text: A recession cuts retail volumes and warehouse automation orders fall sharply for Symbotic and peers
+  - odds: 25
+    impact: 3
+    text: Hai Robotics, Geek+ and other Chinese makers start a price war that crushes warehouse robot margins
+  - odds: 20
+    impact: 2
+    text: AI picking robots like Amazon Vulcan stall at 75% success, so warehouses keep human pickers
+  - odds: 20
+    impact: 2
+    text: Another warehouse robot vendor fails like Attabotics, leaving customers stranded and buyers wary of startups
+  - odds: 15
+    impact: 1
+    text: US tariffs on imported robots raise costs for warehouses buying from China and Europe
+  - odds: 10
+    impact: 2
+    text: Interest rates rise again in the US and Europe, and retailers delay warehouse automation projects for years
+  - odds: 8
+    impact: 2
+    text: A warehouse robot kills a worker, and OSHA imposes strict new rules on mobile robots
+  - odds: 5
+    impact: 3
+    text: Amazon starts selling its warehouse robots to other retailers and undercuts Symbotic and Locus Robotics
+  note:
+  - We listed the events that could slow warehouse robotics down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed warehouse robots
+
+    forward, year after year?'
+  events:
+  - year: '2006'
+    text: Staples puts Kiva robots to work
+    impact: 1
+  - year: '2010'
+    text: Cheap Kinect depth sensors give robots eyes
+    impact: 1
+  - year: '2012'
+    text: Amazon buys Kiva, proving robots pay off
+    impact: 3
+  - year: '2014'
+    text: Amazon stops selling Kiva, rivals rush in
+    impact: 2
+  - year: '2014'
+    text: Amazon rolls out 15,000 Kiva robots
+    impact: 1
+  - year: '2015'
+    text: Amazon contest speeds up robot grasping
+    impact: 1
+  - year: '2016'
+    text: Ocado's robot grid scales grocery picking
+    impact: 1
+  - year: '2018'
+    text: JD's lights out warehouse proves automation
+    impact: 1
+  - year: '2018'
+    text: Kroger signs Ocado, grocers bet on robots
+    impact: 1.5
+  - year: '2018'
+    text: Amazon's $15 wage raises labor costs
+    impact: 1.5
+  - year: '2019'
+    text: One day Prime needs faster warehouses
+    impact: 1.5
+  - year: '2020'
+    text: Covid floods warehouses with online orders
+    impact: 3
+  - year: '2021'
+    text: Supply chain crunch pushes automation
+    impact: 1
+  - year: '2021'
+    text: Warehouse wages jump, robots become cheaper
+    impact: 2.5
+  - year: '2021'
+    text: Record funding lets startups build at scale
+    impact: 1.5
+  - year: '2022'
+    text: Walmart puts Symbotic in all 42 hubs
+    impact: 2
+  - year: '2022'
+    text: Proteus robots work safely among people
+    impact: 1.5
+  - year: '2022'
+    text: Sparrow arm picks single items for Amazon
+    impact: 1
+  - year: '2022'
+    text: Stretch robot automates truck unloading
+    impact: 1
+  - year: '2023'
+    text: Amazon tests Digit humanoid in its warehouses
+    impact: 1.5
+  - year: '2023'
+    text: Sequoia system speeds Amazon orders 25%
+    impact: 1
+  - year: '2024'
+    text: Amazon licenses Covariant's picking AI
+    impact: 1
+  - year: '2024'
+    text: Nvidia humanoid platform cuts build costs
+    impact: 1.5
+  - year: '2024'
+    text: GXO rents humanoids monthly, cutting risk
+    impact: 1.5
+  - year: '2025'
+    text: Walmart orders 400 Symbotic systems
+    impact: 2
+  - year: '2025'
+    text: DHL orders 1,000 Stretch truck unloaders
+    impact: 1.5
+  - year: '2025'
+    text: Vulcan robot gains a sense of touch
+    impact: 1
+  - year: '2025'
+    text: Amazon hits one million warehouse robots
+    impact: 2
+  - year: '2025'
+    text: Amazon plans robots to avoid 600,000 hires
+    impact: 1.5
+  - year: '2026'
+    text: Amazon plans $11B robot upgrade in Europe
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed warehouse robotics forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: warehouse-robotics
+  title: 'Where did warehouse robot investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of warehouse robotics startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in warehouse robotics?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-00.png
+    x: 248.6
+    y: 277.7
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-01.png
+    x: 383.4
+    y: 272.6
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-02.png
+    x: 506.6
+    y: 266.6
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-03.png
+    x: 557.6
+    y: 281.4
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-04.png
+    x: 702.9
+    y: 281.6
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-05.png
+    x: 757.1
+    y: 270.9
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-06.png
+    x: 327.6
+    y: 305.1
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-07.png
+    x: 607.9
+    y: 298.3
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-08.png
+    x: 807.2
+    y: 303.9
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-09.png
+    x: 332.4
+    y: 369.4
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-10.png
+    x: 518.8
+    y: 369.0
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-11.png
+    x: 387.6
+    y: 381.9
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-12.png
+    x: 466.9
+    y: 396.4
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-13.png
+    x: 583.9
+    y: 383.6
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-14.png
+    x: 750.9
+    y: 375.4
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-15.png
+    x: 809.6
+    y: 391.7
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-16.png
+    x: 282.2
+    y: 408.0
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-17.png
+    x: 686.4
+    y: 406.5
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-18.png
+    x: 262.5
+    y: 480.9
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-19.png
+    x: 329.1
+    y: 477.9
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-20.png
+    x: 391.5
+    y: 493.7
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-21.png
+    x: 501.2
+    y: 483.4
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-22.png
+    x: 558.6
+    y: 493.3
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-23.png
+    x: 609.0
+    y: 474.0
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-24.png
+    x: 698.6
+    y: 478.7
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-25.png
+    x: 765.2
+    y: 494.8
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s10-26.png
+    x: 822.0
+    y: 480.0
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Mobile
+  - Picking
+  - Storage
+  note:
+  - We left out listed leaders like Symbotic and AutoStore and giants like Amazon and Dematic
+  - We placed each pure player by its main product, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'Why did these robot startups
+
+    fail, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Weak|demand
+  - Owner or|team exit
+  - Value|collapsed
+  rows:
+  - name: Attabotics
+    ending: Went bankrupt
+    start: '2016'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/warehouse-robotics/s11-00.png
+    ini: A
+    slug: attabotics
+    domain: attabotics.com
+  - name: Takeoff
+    ending: Went bankrupt
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/warehouse-robotics/s11-01.png
+    ini: T
+    slug: takeoff-technologies
+    domain: takeoff.com
+  - name: 6 River Systems
+    ending: Sold to Ocado
+    start: '2015'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/warehouse-robotics/s11-02.png
+    ini: '6'
+    slug: 6-river-systems
+    domain: 6river.com
+  - name: Berkshire Grey
+    ending: Sold for $375M
+    start: '2013'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/warehouse-robotics/s11-03.png
+    ini: B
+    slug: berkshire-grey
+    domain: berkshiregrey.com
+  - name: Covariant
+    ending: Team to Amazon
+    start: '2017'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/warehouse-robotics/s11-04.png
+    ini: C
+    slug: covariant
+    domain: covariant.ai
+  note:
+  - We tracked the warehouse robotics startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'What makes AutoStore
+
+    the cube storage leader?'
+  companies:
+  - short: AutoStore
+    src: ../../assets/logos/pp_live/warehouse-robotics/s12-00.png
+  - short: Exotec
+    src: ../../assets/logos/pp_live/warehouse-robotics/s12-01.png
+  - short: Hai Robotics
+    src: ../../assets/logos/pp_live/warehouse-robotics/s12-02.png
+  - short: Geek+
+    src: ../../assets/logos/pp_live/warehouse-robotics/s12-03.png
+  - short: Ocado
+    src: ../../assets/logos/pp_live/warehouse-robotics/s12-04.png
+  criteria:
+  - name: About 1,950 systems live
+    why: Largest installed base
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Sells only via integrators
+    why: Partners sell it worldwide
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Won patent fight vs Ocado
+    why: Ocado agreed to pay 200M GBP
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Dense cube grid storage
+    why: Stores more per square foot
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Publicly listed
+    why: Access to public capital
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Valued at $2B or more
+    why: Investors back it strongly
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Robots climb tall racks
+    why: Uses full building height
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really
+
+    belong in warehouse robotics?'
+  TL:
+    name: Manhattan Associates
+    src: ../../assets/logos/pp_live/warehouse-robotics/s01-00.png
+    text: runs the warehouse management software of many large sites, but it only directs the work and builds no robots
+  TR:
+    name: Gatik
+    src: ../../assets/logos/pp_live/warehouse-robotics/s01-02.png
+    text: drives autonomous box trucks between Walmart distribution centers a and stores, but on public roads, not inside the warehouse
+  BL:
+    name: Agility Robotics
+    src: ../../assets/logos/pp_live/warehouse-robotics/s01-10.png
+    text: 'has moved 100,000 totes with Digit at a GXO site, but it builds a general-purpose humanoid for F : many workplaces'
+  BR:
+    name: KION
+    src: ../../assets/logos/pp_live/warehouse-robotics/s01-11.png
+    text: 'owns Dematic, a major oT enoU se Suaninettteln player, but . about 73% of its sales come from Linde 7 : and STILL forklifts and service'
+  caption:
+  - Distance to the center reflects how much of the business is robots that store, move or pick goods inside the warehouse
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/warehouse-robotics/s01-01.png
+  - ../../assets/logos/pp_live/warehouse-robotics/s01-03.png
+  - ../../assets/logos/pp_live/warehouse-robotics/s01-04.png
+  - ../../assets/logos/pp_live/warehouse-robotics/s01-05.png
+  - ../../assets/logos/pp_live/warehouse-robotics/s01-06.png
+  - ../../assets/logos/pp_live/warehouse-robotics/s01-07.png
+  - ../../assets/logos/pp_live/warehouse-robotics/s01-08.png
+  - ../../assets/logos/pp_live/warehouse-robotics/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/warehouse-robotics/s01-09.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'People look up warehouse robots
+
+    more and more, as online orders grow'
+  date: 0 Lately.
+  expl: Online orders keep growing and warehouses struggle to hire. Robots that pick, carry and sort parcels moved from pilots to daily work, and operators
+    started searching for them.
+  term: warehouse robotics
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/warehouse-robotics/warehouse-robotics.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the warehouse robotics
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but retailers and parcel carriers must keep converting manual buildings at today’s pace, while AI arms make picking and unloading cheap
+    enough for mid- size warehouses. It must also avoid a long tariff war on robots and parts, and keep vendors solvent so that customers trust ten-year
+    fleets.
+  note:
+  - We compared forecasts from Mordor, Interact Analysis, Grand View and IMARC fo build a realistic range
+  - We added our funding tracker and allowed for falling robot prices, with all the sources at the end of the report
+  size: null
+  cagr: 15
+  y0: 2026

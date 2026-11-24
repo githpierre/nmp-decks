@@ -1,0 +1,316 @@
+ed190:
+  13: Founding
+  14: Year 1
+  15: Year 2
+  16: Year 3
+  17: Year 4
+  18: Year 5
+  19: Year 6
+  20: Year 7
+  21: Year 8
+  growth:
+    36:
+      pts:
+      - - 6
+        - 1
+    37:
+      pts:
+      - - 5
+        - 1.95
+    38:
+      pts:
+      - - 2
+        - 1.1
+    39:
+      pts:
+      - - 5
+        - 1.7
+ed048:
+  page: 1/2
+  5: 'CROSS-BORDER
+
+    B2B'
+  8: 'ON AND OFF
+
+    RAMPS'
+  10: 'REMITTANCE
+
+    APPS'
+  11: 🌍
+  12: 🔁
+  13: 📱
+  4: Companies pay suppliers and staff abroad in stablecoins, and the provider earns a fee or a currency spread on each transfer
+  7: Ramps turn local money into stablecoins and back, and earn a fee or a spread on every conversion they handle for users
+  9: Apps let migrants send money home in digital dollars from a phone, and charge a small fee on each transfer
+ed044:
+  3: We assume firms keep about 0.8% of the money they move
+  2: That gives about $5B of revenue a year for payment firms
+  0: We conclude the market is worth about $5B a year in revenue
+ed045:
+  6: $5B
+  8: We estimate about $5B of revenue in 2026. Payments run at about $643B a year at Allium's pace, and we assume firms keep about 0.8% of that in fees, spreads and card income.
+  note: We annualize Allium's nine months of 2026 payments and apply a 0.8% average take rate, our own assumption, not a published figure.
+ed051:
+  17: '~28%
+
+    through 2036'
+  19: Payment volume grew 39% in 2025 and 45% through September 2026. Revenue should grow slower, about 28% a year, as the fee kept on each payment keeps falling.
+  note: We set a 28% base case for revenue, below the 39% to 45% growth of payment volume, with 15% and 45% bounds. These are not published forecasts.
+ed183:
+  regions:
+    apac:
+      at:
+      - 624
+      - 405
+      name: ASIA
+      text: Hong Kong-based RedotPay serves card users. Singapore-based dtcpay pilots stablecoin payouts with Visa.
+    au:
+      name: AUSTRALIA
+      text: Sydney-based Stables offers a stablecoin wallet linked to a Mastercard prepaid card. Users spend after conversion to fiat.
+    eu:
+      name: EUROPE
+      text: 'Europe is a regulated hub: UK-based BVNK joined Mastercard, while France-based Fipto gained fiat and stablecoin payment licenses.'
+    na:
+      name: NORTH AMERICA
+      text: 'North America hosts major players: Stripe bought Bridge, Rain raised $250M, and Mesh hit a $1B valuation for payment links.'
+ed063-s2:
+  24: ⚖️
+ed063-s3:
+  24: ⚖️
+ed063-s4:
+  24: ⚖️
+ed063-s5:
+  24: ⚖️
+ed090:
+  9: '💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰
+
+    💰 💰 💰 💰 💰 💰 💰 💰 💰'
+ed159:
+  note:
+  - We add up the disclosed equity rounds of stablecoin payments startups in our database, complete from 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and undisclosed rounds count as zero
+ed165p:
+  title: 'Who are investors backing most
+
+
+    in stablecoin payments right now?'
+ed166p:
+  note:
+  - We listed the biggest equity rounds of stablecoin payments startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+  title: 'Who did investors back the most
+
+
+    in stablecoin payments in earlier years?'
+ed050:
+  25: GROWTH
+  5: 45%
+  9: ~100%
+  13: 64%
+  17: 39%
+ed088:
+  10: Cash and coin reserves let firms quote rates and complete transfers on time.
+ed214:
+  __replace2__:
+    Mesh joins many wallet and exchange sources through one API: Mesh joins many wallets and exchanges through one API
+ed049:
+  regions:
+    na:
+      pct: 24
+      text: North America originates about $95B of annual payment flow in the McKinsey and Artemis study, roughly one-quarter of its total.
+    eu:
+      pct: 13
+      text: Europe originates about $50B of yearly payments, or 13%, less than North America and Asia in the McKinsey and Artemis study.
+    apac:
+      pct: 63
+      text: Asia leads identified origin volume at about $245B, driven largely by Singapore, Hong Kong, and Japan.
+    latam:
+      pct: 0
+      text: Latin America is below $1B in this study, rounding to 0% at whole-percent precision. That reflects measurement scope, not no use.
+    mea:
+      pct: 0
+      text: Africa is also below $1B and rounds to 0%. The report groups its flows separately, but cannot support a precise regional split.
+ed215:
+  tag: null
+ed216:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.mckinsey.com/industries/financial-services/our-insights/stablecoins-in-payments-what-the-raw-transaction-numbers-miss
+    7: https://www.circle.com/pressroom/circle-launches-cpn-managed-payments-a-full-stack-platform-for-seamless-stablecoin-settlement
+    10: https://bridge.xyz/product/orchestration
+    13: https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins
+    16: https://www.meshpay.com/blog/mesh-raises-75m-series-c-at-1b-valuation
+  3: 'McKinsey and Artemis,
+
+    real payments study'
+  4: McKinsey's study with Artemis that separates real stablecoin payments from trading and internal transfers
+  5: We used it for the $390B of real payments in 2025 and the split by region. It also showed how small payments still are.
+  7: 'Circle, CPN
+
+    Managed Payments'
+  8: Circle's release on its managed payments service, where partners use stablecoin rails without holding coins
+  9: We used it for the latest tech developments. It also showed how giants hide the blockchain from their clients.
+  10: 'Bridge, product
+
+    pages'
+  11: Bridge's product page for receiving, converting, sending and cashing out stablecoins through one API
+  12: We used it for what a payment API does today. It also backed the Bridge comparison slide.
+  13: 'BIS, competing
+
+    rails paper'
+  14: The Bank for International Settlements working paper on banks, fintechs and stablecoins in cross-border payments
+  15: We used it for the cost of cash-out and thin local liquidity. It also framed the structural limits of the market.
+  16: 'Mesh, $75M
+
+    Series C'
+  17: Mesh's release on its $75M round at a $1B value, with its wallet payment network
+  18: We used it for the $1B valuation and how Mesh links wallets to merchants. It also set Mesh's place among the leaders.
+ed217:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.mastercard.com/global/en/news-and-trends/press/2026/august/mastercard-completes-acquisition-of-bvnk-to-advance-global-stabl.html
+    7: https://stripe.com/newsroom/news/stripe-completes-bridge-acquisition
+    10: https://www.visa.com/en-us/thought-leadership/innovation/financing-stablecoin-linked-card-programs
+    13: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-bridge-stablecoin-linked-card-expansion.html
+    16: https://conduitpay.com/blog/conduit-raises-36m-in-series-a
+  3: 'Mastercard, BVNK
+
+    deal closed'
+  4: Mastercard's release on closing its purchase of BVNK in August 2026
+  5: We used it for the largest deal of the market. It also showed a card network buying stablecoin rails.
+  7: 'Stripe, Bridge
+
+    deal closed'
+  8: Stripe's release on closing its purchase of Bridge in February 2025
+  9: We used it for the first big deal of the market. It also dated when the market became hot.
+  10: 'Visa, stablecoin
+
+    card programs'
+  11: Visa's note on financing stablecoin-linked card programs, with its live programs and settlement pace
+  12: We used it for the 160 card programs and the $20B settlement pace. It also explained the card funding problem.
+  13: 'Visa and Bridge,
+
+    card expansion'
+  14: Visa's release on Bridge-enabled stablecoin cards live in 18 countries
+  15: We used it for how far stablecoin cards reach. It also backed the card growth drivers.
+  16: 'Conduit, $36M
+
+    Series A'
+  17: Conduit's release on its $36M round and its $10B yearly payment pace
+  18: We used it for the cross-border business payment leaders. It also gave a rare company volume figure.
+ed218:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://stripe.com/newsroom/news/shopify-stripe-stablecoin-payments
+    7: https://app.allium.so/analyze/research/state-of-stablecoins-and-payments-q3-2026
+    10: https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/R9.htm
+    13: https://www.prnewswire.com/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-entERPrises-302657084.html
+    16: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-launches-stablecoin-settlement-in-the-united-states.html
+  3: 'Stripe and Shopify,
+
+    USDC checkout'
+  4: Stripe's release on USDC checkout for Shopify merchants in 34 countries
+  5: We used it for when stablecoins reached mainstream checkout. It also dated the 2025 turning point.
+  7: 'Allium, Q3 2026
+
+    payments report'
+  8: Allium's quarterly report on stablecoin payments, with trading and internal flows removed
+  9: We used it for the $482B of payments through September and the 45% growth. It also set our 2026 payment pace.
+  10: 'Mastercard, SEC
+
+    filing on BVNK'
+  11: Mastercard's filing with the price it paid for BVNK
+  12: We used it for the $1.4B cash and the $300M extra. It also checked the deal values of the top players.
+  13: 'Rain, $250M
+
+    Series C'
+  14: Rain's release on its $250M round at a value near $2B
+  15: We used it for the biggest card round and Rain's valuation. It also placed Rain among the $1B companies.
+  16: 'Visa, US stablecoin
+
+    settlement'
+  17: Visa's release on US banks settling with Visa in USDC
+  18: We used it for the move of a card network onto stablecoin rails. It also gave the $3.5B settlement pace of 2025.
+ed219:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.pymnts.com/news/investment-tracker/2026/rain-raises-250-million-to-scale-platform-for-launching-stablecoin-cards
+    7: https://www.allium.so/reports/state-of-stablecoins-and-payments-september-2026
+    10: https://techcrunch.com/2025/02/05/stripe-makes-1-1-billion-crypto-bet-as-it-closes-on-bridge-acquisition
+    13: https://www.everycrsreport.com/reports/IN12553.html
+    16: https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-direct-moves-stablecoin-pilots-production.html
+  3: 'PYMNTS, Rain
+
+    platform'
+  4: PYMNTS on Rain's platform for launching stablecoin cards that work wherever Visa is accepted
+  5: We used it for how card issuing platforms work. It also backed the card value chain slides.
+  7: 'Allium, September
+
+    2026 report'
+  8: Allium's report splitting stablecoin volume between trading, savings and payments
+  9: We used it for the share of payments and who receives them. It also framed domestic against cross-border use.
+  10: 'TechCrunch, Stripe
+
+    and Bridge'
+  11: TechCrunch on the $1.1B Stripe paid for Bridge
+  12: We used it for the deal value. It also backed the speed of the first $1B exits.
+  13: 'Congressional
+
+    Research Service'
+  14: The Congressional Research Service note on the reserve rules of the GENIUS Act
+  15: We used it for what the US law requires from issuers. It also framed the regulation timeline.
+  16: 'Visa Direct,
+
+    stablecoin payouts'
+  17: Visa's note on moving stablecoin prefunding for payouts from pilot to production
+  18: We used it for the latest live services. It also showed payouts moving onto stablecoin rails.
+# ed032: the 7 signals of the SIGNAL slides, in their order (Google searches fell, so they are not a signal: Pierre 22 Nov 2026)
+ed032:
+  5: Circle's payment network grew five times in six months
+  6: '1'
+  9: Visa's stablecoin settlement passed a $20B yearly pace
+  10: '2'
+  11: Payment giants agreed to pay up to $4B for five startups
+  12: '3'
+  7: Circle is buying Tazapay, a $25B payments firm
+  8: '4'
+  13: Over 160 stablecoin card programs now run on Visa
+  14: '5'
+  15: AI agents made 29M tiny payments in one month
+  16: '6'
+  19: Firms now receive most of the money paid in coins
+  20: '7'
+  note: We picked seven signals from company results, payment data, card networks and deals. Searches for stablecoins fell, so they are not one.

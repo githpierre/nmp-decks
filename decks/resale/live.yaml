@@ -1,0 +1,502 @@
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the resale market?'
+  TL:
+    name: Rent
+    src: ../../assets/logos/pp_live/resale/s01-00.png
+    text: the Runway keeps designer dresses moving between many wearers, but renting is not reselling, even if it sells used pieces
+  TR:
+    name: TJ Maxx
+    src: ../../assets/logos/pp_live/resale/s01-01.png
+    text: sells brand names at a discount that feels like thrifting, but its stock is excess inventory no consumer ever owned
+  BL:
+    name: Leboncoin
+    src: ../../assets/logos/pp_live/resale/s01-10.png
+    text: is where France sells used furniture and clothes, but the same site also lists homes, job offers and holiday rentals
+  BR:
+    name: Zalando
+    src: ../../assets/logos/pp_live/resale/s01-11.png
+    text: sells mostly new fashion, but its Pre-owned shop now offers luxury from Vestiaire Collective, which puts it on the edge
+  caption:
+  - Distance to the center reflects how much of what a company sells was already owned by a consumer, rather than new or rented
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/resale/s01-02.png
+  - ../../assets/logos/pp_live/resale/s01-03.png
+  - ../../assets/logos/pp_live/resale/s01-04.png
+  - ../../assets/logos/pp_live/resale/s01-05.png
+  - ../../assets/logos/pp_live/resale/s01-06.png
+  - ../../assets/logos/pp_live/resale/s01-07.png
+  - ../../assets/logos/pp_live/resale/s01-08.png
+  - ../../assets/logos/pp_live/resale/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/resale/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/resale/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/resale/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/resale/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/resale/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/resale/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/resale/s01-08.png
+    x: 388.3
+    y: 444.2
+  - src: ../../assets/logos/pp_live/resale/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask how to buy
+
+    and sell secondhand as prices rise'
+  date: In recent months.
+  expl: Prices kept rising and tariffs made new goods even pricier. At the same time, apps like Vinted, Depop and eBay made reselling as easy as posting a photo. Before the holidays, millions of people searched how to buy and sell secondhand.
+  term: resale
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/resale/resale.csv
+ed052p:
+  type: pp_cagr
+  title: 'How big has the resale
+
+    market become?'
+  lead: ''
+  condition: SMARTPHONES [ [ $4088
+  note:
+  - We compared them with tech categories of a similar size, with all the sources at the end of the report
+  size: null
+  cagr: null
+  y0: null
+ed171p:
+  cols:
+  - Light-touch
+  - Banaged 7, consignment
+  - Newcomers
+  rows:
+  - Liquid handle
+  - \alarLralle y )
+  - NE PN Ne Ne PE i, §=—eldg
+  note: []
+  title: 'Who are the top players in
+
+    the resale market today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/resale/s10-00.png
+    x: 263.1
+    y: 267.9
+  - src: ../../assets/logos/pp_live/resale/s10-01.png
+    x: 507.9
+    y: 262.3
+  - src: ../../assets/logos/pp_live/resale/s10-02.png
+    x: 614.6
+    y: 264.6
+  - src: ../../assets/logos/pp_live/resale/s10-03.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/resale/s10-04.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/resale/s10-05.png
+    x: 320.6
+    y: 297.0
+  - src: ../../assets/logos/pp_live/resale/s10-06.png
+    x: 378.9
+    y: 285.0
+  - src: ../../assets/logos/pp_live/resale/s10-07.png
+    x: 443.6
+    y: 285.0
+  - src: ../../assets/logos/pp_live/resale/s10-08.png
+    x: 563.6
+    y: 307.7
+  - src: ../../assets/logos/pp_live/resale/s10-09.png
+    x: 378.9
+    y: 359.6
+  - src: ../../assets/logos/pp_live/resale/s10-10.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/resale/s10-11.png
+    x: 462.9
+    y: 389.1
+  - src: ../../assets/logos/pp_live/resale/s10-12.png
+    x: 546.9
+    y: 376.3
+  - src: ../../assets/logos/pp_live/resale/s10-13.png
+    x: 614.4
+    y: 391.9
+  - src: ../../assets/logos/pp_live/resale/s10-14.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/resale/s10-15.png
+    x: 378.9
+    y: 415.9
+  - src: ../../assets/logos/pp_live/resale/s10-16.png
+    x: 274.1
+    y: 492.9
+  - src: ../../assets/logos/pp_live/resale/s10-17.png
+    x: 614.6
+    y: 468.9
+  - src: ../../assets/logos/pp_live/resale/s10-18.png
+    x: 451.3
+    y: 498.0
+  - src: ../../assets/logos/pp_live/resale/s10-19.png
+    x: 522.2
+    y: 510.6
+  - src: ../../assets/logos/pp_live/resale/s10-20.png
+    x: 735.0
+    y: 498.6
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved
+
+    pain points in resale?'
+  auds:
+  - Casual sellers
+  - Vintage shoppers
+  - Fashion brands
+  - Thrift stores
+  - Luxury buyers
+  pains:
+  - - They worry the designer bag or sneakers they buy might be fake
+    - - 1
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They struggle to set a fair price for one-of-a-kind items
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - They spend too long photographing, listing and shipping items
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 1
+  - - They see platform fees climb and eat into each small sale
+    - - 3
+      - 1
+      - 1
+      - 3
+      - 1
+  - - They pile up returned and unsold stock they cannot easily resell
+    - - 1
+      - 1
+      - 3
+      - 3
+      - 1
+  - - They get used items that do not match the photos or description
+    - - 1
+      - 3
+      - 1
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which resale platform has
+
+    the most complete tech today?'
+  companies:
+  - name: Vinted
+    src: ../../assets/logos/pp_live/resale/s05-00.png
+  - name: Poshmark
+    src: ../../assets/logos/pp_live/resale/s05-01.png
+  - name: ThredUp
+    src: ../../assets/logos/pp_live/resale/s05-02.png
+  - name: Vestiaire
+    src: ../../assets/logos/pp_live/resale/s05-03.png
+  - name: Depop
+    src: ../../assets/logos/pp_live/resale/s05-04.png
+  - name: The RealReal
+    src: ../../assets/logos/pp_live/resale/s05-05.png
+  features:
+  - header: Own parcel|network
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Live|shopping
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: AI photo|listing
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: In-house|auth check
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Lists items|for sellers
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: White-label|resale
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Seller|API
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to resale?'
+  events:
+  - odds: 45
+    impact: 2
+    text: Customs duties without de minimis keep shrinking cross-border secondhand orders from Vinted and eBay sellers
+  - odds: 40
+    impact: 2
+    text: Rising return and processing costs keep ThredUp and similar platforms from turning a sustained profit
+  - odds: 35
+    impact: 3
+    text: Shein and Temu cut prices on new clothes until used items stop looking cheap to shoppers
+  - odds: 30
+    impact: 2
+    text: Counterfeit scandals hit The RealReal or Vestiaire Collective again and buyers lose trust in luxury authentication
+  - odds: 30
+    impact: 3
+    text: Amazon and Walmart scale their own secondhand stores and undercut ThredUp on price and delivery speed
+  - odds: 25
+    impact: 1
+    text: EU textile EPR rules push brands to run their own resale, cutting out platforms like Vinted
+  - odds: 25
+    impact: 2
+    text: A recession lowers demand for luxury handbags and watches, dropping resale prices on Rebag and Fashionphile
+  - odds: 8
+    impact: 2
+    text: Congress lowers the IRS 1099-K threshold back toward $600 and casual sellers leave Poshmark and Mercari
+  note:
+  - We listed the events that could slow resale down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept resale moving
+
+    forward, year after year?'
+  events:
+  - year: '1995'
+    text: eBay proves strangers will buy used goods
+    impact: 2.5
+  - year: '2002'
+    text: eBay buys PayPal, making payments safe
+    impact: 1.5
+  - year: '2007'
+    text: iPhone camera makes listing items easy
+    impact: 1
+  - year: '2008'
+    text: Lehman crash makes buying used smart
+    impact: 2
+  - year: '2011'
+    text: Patagonia ad tells shoppers to buy used
+    impact: 1
+  - year: '2011'
+    text: The RealReal authenticates luxury resale
+    impact: 1.5
+  - year: '2011'
+    text: Poshmark makes selling closets social
+    impact: 1.5
+  - year: '2013'
+    text: Rana Plaza collapse sours fast fashion
+    impact: 1
+  - year: '2014'
+    text: Back Market makes refurbished phones trusted
+    impact: 1
+  - year: '2016'
+    text: StockX makes sneakers trade like stocks
+    impact: 1.5
+  - year: '2017'
+    text: Patagonia sells used gear online
+    impact: 1
+  - year: '2018'
+    text: Burberry burns stock, sparking waste backlash
+    impact: 1
+  - year: '2019'
+    text: RealReal IPO puts resale on Wall Street
+    impact: 1.5
+  - year: '2019'
+    text: Marie Kondo show floods resale with closets
+    impact: 1
+  - year: '2020'
+    text: Lockdown closet purges flood resale apps
+    impact: 2
+  - year: '2020'
+    text: eBay checks sneakers, killing fake fears
+    impact: 1.5
+  - year: '2020'
+    text: IKEA buys back furniture to resell
+    impact: 1
+  - year: '2020'
+    text: Levi's buys back used jeans to resell
+    impact: 1.5
+  - year: '2021'
+    text: Etsy buys Depop to reach young resellers
+    impact: 2
+  - year: '2021'
+    text: Kering invests in Vestiaire Collective
+    impact: 1.5
+  - year: '2021'
+    text: Poshmark and ThredUp IPOs fund growth
+    impact: 1.5
+  - year: '2022'
+    text: France bans destroying unsold clothes
+    impact: 1
+  - year: '2022'
+    text: US inflation hits 9.1%, shoppers buy used
+    impact: 2.5
+  - year: '2022'
+    text: Vestiaire bans fast fashion from its site
+    impact: 1
+  - year: '2023'
+    text: eBay AI writes listings from a photo
+    impact: 1
+  - year: '2023'
+    text: Vinted turns profitable, proving the model
+    impact: 1.5
+  - year: '2024'
+    text: eBay UK drops fees for private sellers
+    impact: 1.5
+  - year: '2025'
+    text: Liberation Day tariffs push buyers to used
+    impact: 2.5
+  - year: '2025'
+    text: De minimis end hits cheap Shein imports
+    impact: 1.5
+  - year: '2026'
+    text: EU ban on destroying unsold clothes starts
+    impact: 1
+  note:
+  - We kept the events we believe pushed resale forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: resale
+  title: TITLE TO WRITE (no live slide)
+  note:
+  - We added up every equity round of resale startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed209p:
+  title: 'Why is Vinted winning
+
+    secondhand fashion?'
+  companies:
+  - short: Vinted
+    src: ../../assets/logos/pp_live/resale/s12-00.png
+  - short: Depop
+    src: ../../assets/logos/pp_live/resale/s12-01.png
+  - short: Poshmark
+    src: ../../assets/logos/pp_live/resale/s12-02.png
+  - short: Vestiaire
+    src: ../../assets/logos/pp_live/resale/s12-03.png
+  - short: Grailed
+    src: ../../assets/logos/pp_live/resale/s12-04.png
+  criteria:
+  - name: 10.8B euros sales volume
+    why: Biggest buyer pool in Europe
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Free selling, buyer pays
+    why: More listings, more choice
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Own parcel network
+    why: Cheaper, faster shipping
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Net profit of 62M euros
+    why: Growth without new cash
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Luxury item checks
+    why: Trust on pricey items
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Live selling shows
+    why: Sellers stream to buyers
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report

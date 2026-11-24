@@ -1,0 +1,467 @@
+- after: ed104
+  link: Real claim payments, time saved and avoided fraud decide what insurers pay for
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do AI insurance firms
+
+      actually make money?'
+    axes:
+    - Sold to insurers
+    - Sold to consumers
+    - Software
+    - fees
+    - Premiums and
+    - commissions
+    groups:
+    - name: Software sold to insurers
+      x: 0.22
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-04.png
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-05.png
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-06.png
+    - name: AI agents for agencies
+      x: 0.6
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-07.png
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-08.png
+    - name: Commissions on policies
+      x: 0.85
+      y: 0.58
+      logos:
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-02.png
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-03.png
+    - name: Selling the insurance itself
+      x: 0.45
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-00.png
+      - src: ../../assets/logos/pp_live/ai-in-insurance/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xi_use
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Insurers using AI went from 29%
+
+
+      to 62% in just two years'
+    t:
+      9: 29%
+      10: Early 2024
+      12: 62%
+      13: Early 2026
+      15: ×2.1
+      16: WHY IT IS HOT
+      17: 'Goldman Sachs asks hundreds of insurers each year whether they use AI. 29% said yes in 2024, 48% in 2025 and 62% in 2026.
+
+
+
+        Each insurer that starts is a new buyer for AI startups, though the survey counts any use of AI, not only startup tools.'
+    vbars:
+    - 29
+    - 62
+    note: We used the Goldman Sachs Asset Management global insurance surveys of 2024, 2025 and 2026, which ask the same question each year
+    fresh:
+      period: year
+      end: 2026-02
+  sources:
+  - claim: Comparable three-wave AI usage chart
+    url: https://am.gs.com/cms-assets/gsam-app/documents/insights/en/2026/am-Insurance-survey-2026.pdf?view=true
+    date: 2026-03
+    quote: The number of respondents currently using AI increased by 14-percentage points year-over-year and 33-percentage points since 2024.
+  - claim: 2026 use and sample
+    url: https://am.gs.com/en-no/advisors/news/press-release/2026/press-insurance-survey-2026
+    date: 2026-03
+    quote: Most insurers are either currently using (62%) or considering the use (34%) of Artificial Intelligence (AI).
+- after: xi_use
+  link: ed032, signal 2 of the list
+  slide:
+    id: xi_service
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Lemonade’s AI now handles 82% of
+
+
+      customer service, up from 51%'
+    t:
+      9: 51%
+      10: '2024'
+      12: 82%
+      13: Nov 2026
+      15: ×1.6
+      16: WHY IT IS HOT
+      17: 'Lemonade, the best-known AI-first insurer, showed at its Investor Day of November 17, 2026 that its AI fully handles 82% of customer service.
+
+
+
+        It was 51% in 2024 and 67% in 2025. Rivals now have a public yardstick for what insurance AI can do.'
+    vbars:
+    - 51
+    - 82
+    note: We used Lemonade’s Investor Day presentation of November 17, 2026. The figures are measured by the company itself
+    fresh:
+      period: month
+      end: 2026-11
+  sources:
+  - claim: All three service automation percentages
+    url: https://www.lemonade.com/investor-relations-bo/wp-content/uploads/docs/LMND-Investor-Day-Presentation-2026.pdf
+    date: '2026-11-17'
+    quote: Service Automation % 2024 51% 2025 67% Today 82%
+  - claim: Operational validation in investor-day commentary
+    url: https://stockanalysis.com/stocks/lmnd/transcripts/678984-investor-day-2026/
+    date: '2026-11-17'
+    quote: 80% of our customer service interactions are fully automated.
+- after: xi_service
+  link: ed032, signal 3 of the list
+  slide:
+    id: xi_kalepa
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Kalepa tripled its revenue and
+
+
+      its clients in a single year'
+    items:
+    - value: ×3
+      label: Revenue growth over the past year, as insurers moved AI underwriting into daily work
+    - value: ×3
+      label: Growth in the number of insurer clients over the same year, from its own figures
+    - value: ×4
+      label: Growth in the volume of work running through its underwriting platform
+    why: This is a sign of a hot market because insurers are paying for more AI underwriting, not just testing it. The figures are the company’s own, and its revenue is not public.
+    note: We used Kalepa’s announcement of November 5, 2026, which gives growth over the past year but not revenue
+    fresh:
+      period: year
+      end: 2026-11
+  sources:
+  - claim: Revenue and customer 3x growth
+    url: https://kalepa.com/news-posts/kalepa-raises-75-million-series-b
+    date: '2026-11-05'
+    quote: Over the past year, the company has tripled revenue and its customer count.
+  - claim: Workload 4x growth
+    url: https://kalepa.com/news-posts/kalepa-raises-75-million-series-b
+    date: '2026-11-05'
+    quote: The volume of work running through the platform grew 4x in the past year.
+- after: xi_kalepa
+  link: ed032, signal 4 of the list
+  slide:
+    id: xi_deals
+    type: sx_round_timeline
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Big insurance groups agreed to buy
+
+
+      four AI insurance firms in 2026'
+    legend: false
+    t0: 1.5
+    t1: 11.5
+    amax: 1
+    ticks:
+    - t: 2
+      l: Feb
+    - t: 4
+      l: Apr
+    - t: 6
+      l: Jun
+    - t: 8
+      l: Aug
+    - t: 10
+      l: Oct
+    pts:
+    - t: 2.39
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: Flock
+    - t: 7.2
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: Send
+    - t: 8.58
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: Nava
+    - t: 10.87
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: hx
+    story: In 2026 Admiral agreed to buy Flock, Duck Creek bought Send, Alliant agreed to buy Nava and Guidewire agreed to buy hyperexponential (hx) for $1.7B. Buyers now pay for these firms.
+    note:
+    - We counted the deals the buyers announced in February, July, August and October
+    - 2026, one dot per deal. Only Send has closed and only Guidewire’s price is public
+    fresh:
+      period: month
+      end: 2026-10
+  sources:
+  - claim: Flock transaction and risk AI
+    url: https://admiralgroupplc.gcs-web.com/news-releases/news-release-details/admiral-group-acquires-flock-drive-innovation-commercial-motor
+    date: '2026-02-12'
+    quote: Admiral Group today announces that it has reached an agreement to acquire Flock, a digital commercial fleet insurance provider with an innovative telemetry-based proposition.
+  - claim: Send AI-native underwriting acquisition
+    url: https://www.duckcreek.com/resource/press-releases/duck-creek-acquires-send-creating-the-industrys-only-agentic-underwriting-to-core-platform/
+    date: '2026-07-07'
+    quote: Duck Creek Technologies, the intelligent core of insurance, today announced it has acquired Send Technology Solutions Ltd, a leading AI-native underwriting orchestration engine
+  - claim: Nava AI-native platform agreement
+    url: https://alliant.com/news-resources/alliant-insurance-services-to-acquire-nava-creating-an-ai-native-model-for-the-future-of-employee-benefits/
+    date: '2026-08-18'
+    quote: Alliant Insurance Services today announced that it has entered into an agreement to acquire Nava Benefits
+  - claim: Hyperexponential acquisition terms
+    url: https://ir.guidewire.com/news-releases/news-release-details/guidewire-signs-definitive-agreement-acquire-hyperexponential
+    date: '2026-10-27'
+    quote: 'Guidewire (NYSE: GWRE) announced today that it entered into a definitive agreement to acquire Hyperexponential Ltd'
+- after: xi_deals
+  link: ed032, signal 5 of the list
+  slide:
+    id: xi_aicover
+    type: share_waffle
+    section: Market opportunity
+    pill: SIGNAL
+    title: '63% of companies say their insurance
+
+
+      does not cover attacks made with AI'
+    'on': Not covered
+    'off': Covered or not sure
+    unit: respondents
+    years:
+    - x: MAY 2026
+      k: 63
+      n: 100
+      p: 63
+    big: 63%
+    kicker: WHY IT IS HOT
+    story: 'A survey of 2,487 risk managers by the Ponemon Institute for Aon found that 63% say their policies do not cover attacks made with AI, and 15% are not sure.
+
+      That gap is a market for AI risk cover such as Armilla, AIUC and Cowbell.'
+    note:
+    - We used the 2026 Ponemon Institute study sponsored by Aon, published in May, with 2,487 respondents
+    - from many industries. It measures what risk managers believe, not a legal review of their policies
+    fresh:
+      period: total
+      end: 2026-05
+  sources:
+  - claim: AI-attack cover and uncertainty
+    url: https://assets.aon.com/-/media/files/aon/reports/2026/intangible-versus-tangible-risks-2026.pdf
+    date: 2026-05
+    quote: Sixty-three percent of respondents say their companies existing insurance policies or a separate standalone AI liability policy do not cover
+  - claim: Study respondents and scope
+    url: https://assets.aon.com/-/media/files/aon/reports/2026/intangible-versus-tangible-risks-2026.pdf
+    date: 2026-05
+    quote: Drawing on survey responses from 2,487 professionals involved in digital and enterprise risk management across multiple global regions and industries
+- after: xi_aicover
+  link: ed032, signal 6 of the list
+  slide:
+    id: xi_photo
+    type: share_waffle
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'More than a third of consumers would
+
+
+      edit a photo to strengthen a claim'
+    'on': Would edit
+    'off': Would not
+    unit: consumers
+    years:
+    - x: MARCH 2026
+      k: 36
+      n: 100
+      p: 36
+    big: 36%
+    kicker: WHY IT IS HOT
+    story: 'Verisk asked consumers whether they would make a small edit to a claim photo or document, even against the insurer’s rules. 36% said they were at least somewhat likely.
+
+      With AI image tools, fraud detection built for insurers becomes a must-have.'
+    note:
+    - We used Verisk’s State of Insurance Fraud Study of March 2026, which surveyed consumers,
+    - so it measures what people say they would do, not proven fraud on claims paid out
+    fresh:
+      period: total
+      end: 2026-03
+  sources:
+  - claim: Willingness to edit
+    url: https://www.verisk.com/49411b/siteassets/media/campaigns/gated/claims/verisk-state-of-insurance-fraud-study.pdf
+    date: 2026-03
+    quote: But 36% say they’d still be at least somewhat likely to make a small edit to strengthen a claim, even if it breaks insurer rules.
+- after: xi_photo
+  link: ed032, signal 7 of the list
+  slide:
+    id: xi_lmnd
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Lemonade’s revenue grew 73%
+
+
+      in a year, with premium up 34%'
+    items:
+    - value: +73%
+      label: Revenue growth in the quarter to September 30, 2026, to $336M against $195M a year earlier
+    - value: +34%
+      label: Growth of in-force premium, the yearly value of its policies, to $1.55B
+    - value: +48%
+      label: Growth of gross profit in the quarter, to a record $118M from $80M
+    why: This is a sign of a hot market because the best-known AI-first insurer is growing fast at real scale. It still posts a net loss, so growth is not yet profit.
+    note: We used Lemonade’s results for the quarter to September 30, 2026, published on November 5, 2026
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: Company financial highlights
+    url: https://api.lemonade.com/investor
+    date: '2026-11-05'
+    quote: IFP reached $1.55 Billion (+34%)
+  - claim: Revenue 73%
+    url: https://api.lemonade.com/investor
+    date: '2026-11-05'
+    quote: Revenue grew 73% to $336M
+  - claim: Gross profit 48%
+    url: https://api.lemonade.com/investor
+    date: '2026-11-05'
+    quote: Record Gross Profit of $118M (+48%)
+  - claim: SEC quarter revenues
+    url: https://www.sec.gov/Archives/edgar/data/1691421/000169142126000068/lmnd-20260930.htm
+    date: '2026-11-05'
+    quote: Total revenue 336.1 194.5 888.5 509.8
+- after: pp_s06
+  link: ed104 card « PROVEN LOSS SAVINGS », real claim payments and time saved that insurers measure
+  slide:
+    id: xi_lae
+    type: x/sig_key_trend
+    section: Value creation
+    title: 'Lemonade cut its claims handling
+
+
+      cost from 13% to 5% of premium'
+    t:
+      9: 13%
+      10: Q3 2022
+      12: 5%
+      13: Q3 2026
+      15: −62%
+      16: WHAT CHANGED
+      17: 'Lemonade’s cost of handling claims fell from 13% of its premium in 2022 to 5% in 2026, as AI took over more of the work.
+
+
+
+        The company says leading insurers spend about 9%. Cheaper claims handling leaves room to price policies lower.'
+    vbars:
+    - 13
+    - 5
+    note: We used Lemonade’s third-quarter shareholder letters of 2022 to 2026. The 9% for big insurers is Lemonade’s own estimate
+  sources:
+  - claim: Q3 2022 to Q3 2025 series
+    url: https://www.lemonade.com/investor-relations-bo/wp-content/uploads/2025/11/LMND-Shareholder-Letter_Q3_25.pdf
+    date: '2025-11-05'
+    quote: Over the past three years, we’ve almost halved our LAE ratio, from 13% to 7%
+  - claim: 2026 Q3 LAE ratio of 5%
+    url: https://www.lemonade.com/investor-relations-bo/wp-content/uploads/docs/LMND-Shareholder-Letter-Q3-2026.pdf
+    date: '2026-11-05'
+    quote: LAE (excl. PPD) 7% 6% 6% 5% 5%
+  - claim: Company-reported large incumbent reference
+    url: https://www.lemonade.com/investor-relations-bo/wp-content/uploads/2025/11/LMND-Shareholder-Letter_Q3_25.pdf
+    date: '2025-11-05'
+    quote: many leading incumbents report LAE ratios around 9%
+- after: ed195
+  link: ed195 event « Lemonade secured court approval for a $10.5M settlement… »
+  slide:
+    id: xi_fallen
+    type: x/sig_dominance
+    section: Startup killers
+    title: 'Lemonade’s share price fell 81%
+
+
+      from its 2021 peak, to $35.46'
+    t:
+      8: $183
+      9: 'Peak close,
+
+        Jan 11, 2021'
+      11: $35.46
+      12: 'Close on
+
+        Nov 20, 2026'
+      15: −81%
+      16: WHAT IS GOING ON
+      17: 'Lemonade is the best-known listed AI-first insurer. Its shares closed at $183.26 in January 2021, six months after its IPO.
+
+
+
+        On November 20, 2026 they closed at $35.46, even though revenue grew 73% in a year and its AI handles 82% of service. Investors are still waiting for profits.'
+    vbars:
+    - 183.26
+    - 35.46
+    note: We compared Lemonade’s highest daily close with its close of November 20, 2026, both adjusted for splits. The company is still running
+  sources:
+  - claim: Historical record close
+    url: https://companiesmarketcap.com/lemonade/stock-price-history/
+    date: '2026-11-20'
+    quote: 'Highest end of day price: $183.26 USD (United States Dollar) on 2021-01-11'
+  - claim: Latest November 20 close
+    url: https://stockanalysis.com/stocks/lmnd/history/
+    date: '2026-11-20'
+    quote: 'At close: Nov 20, 2026, 4:00 PM EST'
+  - claim: Nov 20 close price
+    url: https://www.quotelinks.com/chart/lmnd.html
+    date: '2026-11-20'
+    quote: The highest closing price for LMND was $183.26 on January 11, 2021 (adjusted for stock splits).
+- after: ed200
+  link: ed200 card « They fail when poor risk prices cannot cover real claims » (RISK PRICING)
+  slide:
+    id: xi_profit
+    type: sx_faceoff
+    section: Startup killers
+    title: 'Root earned 4 cents per $1 of sales,
+
+
+      Lemonade lost 13 cents'
+    cards:
+    - name: ROOT
+      stats:
+      - v: +$0.04
+        l: net result for each $1 of sales, Q3 2026
+      - v: $381M
+        l: of sales in the quarter, for $14M of net income
+    - name: LEMONADE
+      hl: true
+      stats:
+      - v: −$0.13
+        l: net result for each $1 of sales, Q3 2026
+      - v: $336M
+        l: of sales in the quarter, for a $44M net loss
+    story: 'Both price insurance with data and AI, at a similar size. One makes money, the other still loses it. AI alone does not make an insurer profitable: claims costs decide.'
+    note:
+    - We divided each company’s net result by its revenue for the quarter to September 30, 2026, from
+    - their SEC filings. Net result, not operating result, because they book financing costs differently
+  sources:
+  - claim: Root GAAP revenues and net income
+    url: https://www.sec.gov/Archives/edgar/data/1788882/000178888226000082/root-20260930.htm
+    date: '2026-11-04'
+    quote: Net income (loss) 14.4 (5.4) 75.7 35.0
+  - claim: Root revenue base
+    url: https://www.sec.gov/Archives/edgar/data/1788882/000178888226000082/root-20260930.htm
+    date: '2026-11-04'
+    quote: Total revenues 381.3 387.8 1,164.0 1,120.1
+  - claim: Lemonade net result
+    url: https://www.sec.gov/Archives/edgar/data/1691421/000169142126000068/lmnd-20260930.htm
+    date: '2026-11-05'
+    quote: Net loss (43.7) (37.5) (122.9) (143.8)
+  - claim: Lemonade revenue base
+    url: https://www.sec.gov/Archives/edgar/data/1691421/000169142126000068/lmnd-20260930.htm
+    date: '2026-11-05'
+    quote: Total revenue 336.1 194.5 888.5 509.8

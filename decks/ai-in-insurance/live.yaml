@@ -1,0 +1,556 @@
+ed058:
+  type: pp_pains
+  title: 'Which insurance AI problems
+
+    are still waiting for a fix?'
+  auds:
+  - Underwriters
+  - Claims teams
+  - CIOs
+  - Regulators
+  - Policyholders
+  pains:
+  - - They spend hours reading documents to price a single risk
+    - - 3
+      - 1
+      - 2
+      - 1
+      - 1
+  - - They see claims fraud grow with AI-made fake photos
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 2
+  - - They run old core systems that AI tools cannot plug into
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They must explain every AI decision to regulators
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 2
+  - - They wait weeks for claims that could be paid in days
+    - - 1
+      - 2
+      - 1
+      - 1
+      - 3
+  - - They lack clean data to train and test AI models
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI insurance company has
+
+    the most complete tech today?'
+  companies:
+  - name: Five Sigma
+    src: ../../assets/logos/fivesigma.png
+  - name: Shift
+    src: ../../assets/logos/shift-technology.png
+  - name: Sprout.ai
+    src: ../../assets/logos/sprout-ai.png
+  - name: Snapsheet
+    src: ../../assets/logos/snapsheet.png
+  - name: Guidewire
+    src: ../../assets/logos/guidewire.png
+  features:
+  - header: AI|triage
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Fraud|AI
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: FNOL|agent
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Native|CMS
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Built-in|payments
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to the AI in insurance market?'
+  events:
+  - odds: 45
+    impact: 2
+    text: More states adopt the NAIC AI bulletin and Colorado style rules, adding audits that slow AI adoption
+  - odds: 40
+    impact: 3
+    text: Guidewire, Duck Creek and Salesforce add AI agents to core systems, crowding out insurtech startups
+  - odds: 30
+    impact: 2
+    text: Allianz and AXA build AI in house with OpenAI and Microsoft instead of buying from startups
+  - odds: 30
+    impact: 1
+    text: EU AI Act high risk rules on life and health pricing raise costs for European AI vendors
+  - odds: 25
+    impact: 3
+    text: Courts rule against UnitedHealth or Cigna in AI claim denial lawsuits, and insurers pause automated decisions
+  - odds: 20
+    impact: 2
+    text: Deepfake photos and documents fool AI claims tools, and insurers return to human adjusters for large claims
+  - odds: 15
+    impact: 2
+    text: A biased AI pricing model leads to a regulator fine and headlines, making insurers cautious buyers
+  - odds: 15
+    impact: 1
+    text: Lemonade and other AI first insurers post losses again, and investors doubt the whole AI insurance story
+  note:
+  - We listed the events that could slow AI in insurance down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI in insurance
+
+    forward, year after year?'
+  events:
+  - year: '2016'
+    text: Lemonade automates digital insurance sales
+    impact: 2.5
+  - year: '2016'
+    text: Lemonade bot settles claim in seconds
+    impact: 2.5
+  - year: '2016'
+    text: Ageas pilots photo-based vehicle assessments
+    impact: 1.0
+  - year: '2017'
+    text: Ageas deploys AI motor damage checks
+    impact: 1.5
+  - year: '2019'
+    text: Insurance regulators form dedicated AI group
+    impact: 1.5
+  - year: '2019'
+    text: Regulators review AI life underwriting
+    impact: 1.0
+  - year: '2020'
+    text: US insurers gain shared AI principles
+    impact: 2.0
+  - year: '2021'
+    text: Hartford uses photos to accelerate claims
+    impact: 2.0
+  - year: '2021'
+    text: NAIC launches insurer AI usage surveys
+    impact: 1.0
+  - year: '2022'
+    text: Auto insurers confirm widespread AI plans
+    impact: 1.5
+  - year: '2022'
+    text: Life underwriting gains AI review guidance
+    impact: 1.5
+  - year: '2023'
+    text: Home insurers reveal growing AI adoption
+    impact: 1.0
+  - year: '2023'
+    text: Life insurers reveal emerging AI demand
+    impact: 1.0
+  - year: '2023'
+    text: NAIC sets insurer AI governance expectations
+    impact: 2.5
+  - year: '2024'
+    text: Nevada approves AI wildfire risk model
+    impact: 2.5
+  - year: '2024'
+    text: EU flags insurance pricing AI risks
+    impact: 2.0
+  - year: '2024'
+    text: Sixfold streamlines insurer submissions
+    impact: 1.5
+  - year: '2024'
+    text: Lloyds tests AI underwriting specialist
+    impact: 1.0
+  - year: '2024'
+    text: New York scrutinizes insurer AI decisions
+    impact: 1.5
+  - year: '2024'
+    text: NAIC examines third-party AI model risk
+    impact: 1.5
+  - year: '2024'
+    text: NAIC clarifies automated life underwriting
+    impact: 1.0
+  - year: '2024'
+    text: Lemonade automates majority of claims
+    impact: 2.0
+  - year: '2025'
+    text: Gradient upgrades stop-loss risk projections
+    impact: 1.5
+  - year: '2025'
+    text: Zurich deploys AI underwriting support
+    impact: 2.0
+  - year: '2025'
+    text: Health insurers disclose large AI pipeline
+    impact: 1.5
+  - year: '2026'
+    text: Twelve states pilot insurer AI examinations
+    impact: 2.0
+  - year: '2026'
+    text: UK insurers report widespread AI use
+    impact: 1.5
+  - year: '2026'
+    text: ZestyAI passes 500 model approvals
+    impact: 2.5
+  - year: '2026'
+    text: NAIC publicly reviews AI risk supplement
+    impact: 1.5
+  - year: '2026'
+    text: California mandates AI solvency risk planning
+    impact: 2.0
+  note:
+  - We kept the events we believe pushed ai in insurance forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-in-insurance
+  title: 'Where did AI in insurance investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai in insurance startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: AI-native insurers
+    names:
+    - Corgi
+    - Ledgebrook
+    v: $1B
+    pct: 57% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/corgi.png
+    - src: ../../assets/logos/ledgebrook.png
+    - src: ../../assets/logos/nirvana-insurance.png
+  - name: Insurance AI agents
+    names:
+    - Outmarket AI
+    - mea Platform
+    v: $244M
+    pct: 14% of total
+    w: 24.4
+    logos:
+    - src: ../../assets/logos/outmarket-ai.png
+    - src: ../../assets/logos/fav/mea-platform.png
+    - src: ../../assets/logos/fav/equal-parts.png
+  - name: Claims automation
+    names:
+    - Reserv
+    - Alaffia Health
+    v: $184M
+    pct: 11% of total
+    w: 18.4
+    logos:
+    - src: ../../assets/logos/fav/reserv.png
+    - src: ../../assets/logos/alaffia-health.png
+    - src: ../../assets/logos/qumis.png
+  - name: AI underwriting
+    names:
+    - Kalepa
+    - Artificial Labs
+    v: $162M
+    pct: 9% of total
+    w: 16.2
+    logos:
+    - src: ../../assets/logos/fav/kalepa.png
+    - src: ../../assets/logos/artificial-labs.png
+    - src: ../../assets/logos/sixfold.png
+  - name: Insurance distribution
+    names:
+    - Gyde
+    - WithCoverage
+    v: $153M
+    pct: 9% of total
+    w: 15.3
+    logos:
+    - src: ../../assets/logos/fav/gyde.png
+    - src: ../../assets/logos/withcoverage.png
+    - src: ../../assets/logos/slingshot-insurance.png
+ed171p:
+  title: 'Who are the top players
+
+    in AI for insurers today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-00.png
+    x: 189.4
+    y: 276.4
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-01.png
+    x: 340.5
+    y: 270.4
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-02.png
+    x: 787.5
+    y: 276.4
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-03.png
+    x: 447.4
+    y: 286.9
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-04.png
+    x: 510.2
+    y: 304.7
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-05.png
+    x: 676.5
+    y: 300.4
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-06.png
+    x: 201.4
+    y: 372.9
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-07.png
+    x: 546.9
+    y: 369.9
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-08.png
+    x: 252.4
+    y: 404.6
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-09.png
+    x: 429.0
+    y: 390.9
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-10.png
+    x: 657.0
+    y: 388.3
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-11.png
+    x: 736.5
+    y: 405.0
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-12.png
+    x: 232.1
+    y: 492.9
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-13.png
+    x: 428.1
+    y: 485.1
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-14.png
+    x: 667.3
+    y: 483.4
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-15.png
+    x: 294.9
+    y: 501.9
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-16.png
+    x: 521.4
+    y: 507.0
+  - src: ../../assets/logos/pp_live/ai-in-insurance/s10-17.png
+    x: 739.5
+    y: 506.1
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Underwriting
+  - Claims AI
+  - Insurance Ops
+  note:
+  - We left out listed companies and incumbents like Guidewire, Verisk and CCC Intelligent Solutions
+  - We placed each pure player by its main focus, and all our sources are listed at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these insurtech AI
+
+    startups, and how did they end?'
+  causes:
+  - Owner|pulled plug
+  - Ran out|of cash
+  - Could not|scale
+  - Value|collapsed
+  rows:
+  - name: Assurance IQ
+    ending: Shut by Prudential
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/ai-in-insurance/s11-00.png
+    ini: A
+    slug: assurance-iq
+    domain: assurance.com
+  - name: Sproutt
+    ending: Went insolvent
+    start: '2018'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/ai-in-insurance/s11-01.png
+    ini: S
+    slug: sproutt
+    domain: sproutt.com
+  - name: DigiSure
+    ending: Shut down
+    start: '2018'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/ai-in-insurance/s11-02.png
+    ini: D
+    slug: digisure
+    domain: digisure.ai
+  - name: InsurStaq.ai
+    ending: Shut down
+    start: '2022'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/ai-in-insurance/s11-03.png
+    ini: I
+    slug: insurstaq
+    domain: ''
+  - name: Verikai
+    ending: Shut by owner
+    start: '2018'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/ai-in-insurance/s11-04.png
+    ini: V
+    slug: verikai
+    domain: verikai.com
+  note:
+  - We tracked the ai in insurance startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Tractable lead
+
+    the claims AI market?'
+  companies:
+  - short: Tractable
+    src: ../../assets/logos/pp_live/ai-in-insurance/s12-00.png
+  - short: Bdeo
+    src: ../../assets/logos/pp_live/ai-in-insurance/s12-01.png
+  - short: CCC
+    src: ../../assets/logos/pp_live/ai-in-insurance/s12-02.png
+  - short: Snapsheet
+    src: ../../assets/logos/pp_live/ai-in-insurance/s12-03.png
+  - short: Solera
+    src: ../../assets/logos/pp_live/ai-in-insurance/s12-04.png
+  criteria:
+  - name: AI claims triage
+    why: Speeds first assessment
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Image damage analysis
+    why: Automates visual inspection
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Repair cost estimates
+    why: Supports claims reserving
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Property claims AI
+    why: Opens non-auto insurance
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Carrier deployments
+    why: Proves enterprise distribution
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Salvage workflow AI
+    why: Extends beyond initial claim
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  cut: '2025-06-01'
+  title: 'Searches for AI insurance were tiny
+
+    in 2021 and grew until mid-2025'
+  date: Since 2021.
+  expl: Searches for AI insurance were too rare to measure in 2021 and 2022, then grew from 2023 as insurers began using AI to price policies, read claims and spot fraud.
+  stat_text: more searches in mid-2025<br>than in a typical week before
+  caption_period: November 2021 to May 2025
+  term: ai insurance
+  note:
+  - We tracked how often people around the world googled this term, using Google Trends
+  - Google changed how it counts rare terms in mid-2025, so the curve stops in May 2025
+  csv: assets/trends/ai-in-insurance/ai-insurance.csv
+ed052p:
+  type: pp_cagr
+  title: 'What will the AI in insurance
+
+    market be worth by 2036?'
+  lead: ''
+  condition: To be worth that much, the market must move AI from pilots to core underwriting and claims decisions that regulators accept, and prove lower loss ratios, not just faster service, for carriers of every size.
+  note:
+  - We compared forecasts from Fortune Business Insights, SNS Insider, Emergen and Precedence Research
+  - We kept the middle of their 2026 range and a 32% yearly growth, with all the sources at the end of the report
+  size: 13
+  cagr: 32
+  y0: 2026

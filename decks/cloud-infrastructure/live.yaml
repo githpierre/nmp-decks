@@ -1,0 +1,370 @@
+ed148p:
+  title: 'What pushed the cloud infrastructure
+
+    market forward, year after year?'
+  events:
+  - year: '1999'
+    text: VMware virtualization makes servers shareable
+    impact: 1.5
+  - year: '2004'
+    text: Amazon SQS makes infrastructure programmable
+    impact: 1.5
+  - year: '2006'
+    text: AWS S3 makes storage pay per use
+    impact: 3.0
+  - year: '2006'
+    text: AWS EC2 makes computing rentable on demand
+    impact: 3.0
+  - year: '2008'
+    text: Google App Engine broadens cloud competition
+    impact: 2.0
+  - year: '2009'
+    text: Alibaba Cloud brings competition to China
+    impact: 1.5
+  - year: '2010'
+    text: Azure brings Microsoft's customers into cloud
+    impact: 2.5
+  - year: '2010'
+    text: OpenStack makes private clouds accessible
+    impact: 2.0
+  - year: '2011'
+    text: NIST defines cloud to reduce confusion
+    impact: 1.0
+  - year: '2011'
+    text: US cloud-first policy legitimizes migration
+    impact: 1.5
+  - year: '2012'
+    text: DynamoDB makes databases easier to scale
+    impact: 1.0
+  - year: '2013'
+    text: Docker makes applications easier to move
+    impact: 2.0
+  - year: '2014'
+    text: Kubernetes simplifies container orchestration
+    impact: 2.5
+  - year: '2014'
+    text: AWS Lambda removes routine server management
+    impact: 2.5
+  - year: '2015'
+    text: Cloud price wars pressure hosting costs
+    impact: 2.0
+  - year: '2016'
+    text: Netflix proves global cloud scalability
+    impact: 2.0
+  - year: '2017'
+    text: Fargate removes container server management
+    impact: 1.5
+  - year: '2018'
+    text: EKS lowers Kubernetes adoption friction
+    impact: 1.5
+  - year: '2019'
+    text: AWS CDK makes infrastructure programmable
+    impact: 1.0
+  - year: '2020'
+    text: Pandemic boosts cloud capacity demand
+    impact: 2.0
+  - year: '2021'
+    text: Cloud bills increase cost scrutiny
+    impact: 1.0
+  - year: '2023'
+    text: Azure OpenAI makes model hosting mainstream
+    impact: 2.0
+  - year: '2023'
+    text: Bedrock boosts cloud AI compute demand
+    impact: 2.0
+  - year: '2024'
+    text: Aurora DSQL preview pushes managed databases
+    impact: 1.0
+  - year: '2025'
+    text: Stargate validates massive AI infrastructure
+    impact: 2.0
+  - year: '2025'
+    text: Oracle agreement expands planned AI capacity
+    impact: 1.5
+  - year: '2026'
+    text: Ironwood gives cloud AI more choices
+    impact: 1.5
+  - year: '2026'
+    text: Virgo targets AI network bottlenecks
+    impact: 2.0
+  - year: '2026'
+    text: Distributed Cloud eases sovereignty limits
+    impact: 1.5
+  - year: '2026'
+    text: Google Oracle pact widens TPU access
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed cloud infrastructure forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: cloud-infrastructure
+  title: 'Where did cloud infrastructure investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of cloud infrastructure startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in cloud infrastructure?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-00.png
+    x: 328.3
+    y: 277.3
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-01.png
+    x: 503.6
+    y: 279.9
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-02.png
+    x: 266.8
+    y: 287.6
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-03.png
+    x: 569.6
+    y: 294.6
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-04.png
+    x: 679.9
+    y: 287.6
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-05.png
+    x: 754.5
+    y: 297.4
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-06.png
+    x: 190.5
+    y: 378.4
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-07.png
+    x: 299.8
+    y: 384.9
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-08.png
+    x: 436.9
+    y: 394.7
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-09.png
+    x: 500.8
+    y: 396.4
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-10.png
+    x: 661.7
+    y: 402.9
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-11.png
+    x: 772.1
+    y: 387.4
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-12.png
+    x: 691.7
+    y: 479.1
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-13.png
+    x: 191.8
+    y: 509.1
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-14.png
+    x: 270.2
+    y: 508.3
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-15.png
+    x: 423.0
+    y: 499.3
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-16.png
+    x: 556.9
+    y: 505.7
+  - src: ../../assets/logos/pp_live/cloud-infrastructure/s10-17.png
+    x: 752.6
+    y: 510.0
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - GPU Cloud
+  - wf Render
+  - Cloud Ops
+  note:
+  - We left out listed companies and incumbents like Amazon Web Services, Microsoft Azure and Google Cloud
+  - We placed private pure players by main product and stage, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these cloud infrastructure
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Too few|customers
+  - Costs too|high
+  - Buyer|walked away
+  rows:
+  - name: D2iQ
+    ending: Liquidated
+    start: '2013'
+    end: '2023'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s11-00.png
+    ini: D
+    slug: d2iq
+    domain: d2iq.com
+  - name: Weaveworks
+    ending: Shut down
+    start: '2014'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s11-01.png
+    ini: W
+    slug: weaveworks
+    domain: weave.works
+  - name: Banana.dev
+    ending: Shut down
+    start: '2020'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s11-02.png
+    ini: B
+    slug: bananadev
+    domain: banana.dev
+  - name: Cyclic
+    ending: Shut down
+    start: '2021'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s11-03.png
+    ini: C
+    slug: cyclic
+    domain: cyclic.sh
+  - name: Wing Cloud
+    ending: Shut down
+    start: '2022'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s11-04.png
+    ini: W
+    slug: wing-cloud
+    domain: winglang.io
+  note:
+  - We tracked the cloud infrastructure startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'How did AWS take the lead
+
+    in the cloud compute market?'
+  companies:
+  - short: AWS
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s12-00.png
+  - short: Azure
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s12-01.png
+  - short: Google Cloud
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s12-02.png
+  - short: Oracle
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s12-03.png
+  - short: DigitalOcean
+    src: ../../assets/logos/pp_live/cloud-infrastructure/s12-04.png
+  criteria:
+  - name: Worldwide region depth
+    why: Keep compute near demand
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: GPU compute rentals
+    why: Host AI and ML workloads
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Spot and preemptible VMs
+    why: Cut interruptible job cost
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Arm-based virtual CPUs
+    why: Offer efficient CPU choice
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Bare-metal cloud hosts
+    why: Support hardware controls
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Managed container compute
+    why: Run modern cloud apps
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Largest cloud spend share
+    why: Signal buying and ecosystem
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More people look up cloud GPUs
+
+    as AI eats up computing power'
+  date: Lately.
+  expl: Training and running AI models needs powerful GPUs that few companies can buy. Startups and developers started renting them by the hour from cloud
+    providers and new GPU clouds like CoreWeave, and searches kept climbing.
+  term: cloud infrastructure
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/cloud-infrastructure/cloud-infrastructure.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    cloud infrastructure get?'
+  lead: ''
+  condition: To get that big, the market must turn record AI spending on data centers and chips into rented capacity that customers keep paying for. It
+    must also find enough power and sites to build it without long delays.
+  note:
+  - We compared forecasts from Synergy Research Group, Gartner, IDC and MarketsandMarkets
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 530
+  cagr: 15
+  y0: 2026

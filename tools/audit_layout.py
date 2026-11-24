@@ -39,7 +39,7 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   // --- a text never straddles the border of a card, and a word or a number is never cut in two lines (12 Nov 2026: names over their card, « 12,0 / 00 »)
   sl.querySelectorAll('.raw > .rx-t').forEach(el => { const t = el.textContent.trim(); if (t.length < 4 || getComputedStyle(el).display === 'none') return;
     if (t.length >= 8) { const rs = trects(el); const c = CARDS.find(c => rs.some(q => Math.min(c.right, q.right) - Math.max(c.left, q.left) > 6 && ((q.top + 2 < c.top && q.bottom - 3 > c.top) || (q.top + 3 < c.bottom && q.bottom - 2 > c.bottom)))); if (c) out.push([n, 'TEXT_ON_BORDER', t.slice(0, 40)]); }
-    const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let x; while ((x = w.nextNode())) { const m = [...x.textContent.matchAll(/[^\s\u00a0-]+/g)]; for (const k of m) { if (k[0].length < 3) continue; const g = document.createRange(); g.setStart(x, k.index); g.setEnd(x, k.index + k[0].length); const tops = new Set([...g.getClientRects()].filter(r => r.width > 0.5).map(r => Math.round(r.top / 4))); if (tops.size > 1) { out.push([n, 'WORD_SPLIT', k[0]]); return; } } } });
+    const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let x; while ((x = w.nextNode())) { const m = [...x.textContent.matchAll(/[^\s\u00a0-]+/g)]; for (const k of m) { if (k[0].length < 3) continue; const g = document.createRange(); g.setStart(x, k.index); g.setEnd(x, k.index + k[0].length); const tops = new Set([...g.getClientRects()].filter(r => r.width > 0.5).map(r => Math.round(r.top / 4))); if (tops.size > 1) { out.push([n, 'WORD_SPLIT', k[0]]); return; } } /* a hyphenated word cut at its hyphen (« iron- / rich »): Pierre's rule, no word split by a hyphen (Natural hydrogen, 21 Nov 2026) */ for (const k of x.textContent.matchAll(/[A-Za-z0-9]+(?:-[A-Za-z0-9]+)+/g)) { const g = document.createRange(); g.setStart(x, k.index); g.setEnd(x, k.index + k[0].length); const tops = new Set([...g.getClientRects()].filter(r => r.width > 0.5).map(r => Math.round(r.top / 4))); if (tops.size > 1) { out.push([n, 'HYPHEN_SPLIT', k[0]]); return; } } } });
   // --- a box of 2 lines or more is filled: its longest line takes at least 62 % of the inner width (12 Nov 2026: boxes half empty, texts must be longer)
   sl.querySelectorAll('.raw > .rx-t').forEach(el => { const t = el.textContent.trim(); const p0 = el.querySelector('p'); const eb = el.getBoundingClientRect(); if (!CARDS.some(c => c.left <= eb.left + 6 && c.right >= eb.right - 6 && c.top <= eb.top + 6 && c.bottom >= eb.bottom - 6 && c.width < eb.width + 60 && c.height < eb.height + 60)) return; if (t.length < 30 || getComputedStyle(el).display === 'none' || !p0 || getComputedStyle(p0).textAlign !== 'left') return;
     const cs = getComputedStyle(el), inner = el.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight), i = tink(el); if (!i || i.rows < 2 || inner < 140) return;
@@ -56,8 +56,53 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
   sl.querySelectorAll('.map .reg').forEach(r => { if (+r.dataset.grew > 8) out.push([n, 'MAP_BOX_WIDENED', '+' + r.dataset.grew + 'px: the text is too long for its place on the map, shorten it', r.textContent.trim().slice(0, 30)]); });
   sl.querySelectorAll('.map .reg p').forEach(p => { if (p.textContent.trim().length > 135) out.push([n, 'MAP_TEXT_LONG', p.textContent.trim().length + ' characters (max 135, or the box widens to the edge)', p.textContent.trim().slice(0, 30)]); });
   if ((mn < 56 || mx > 904) && type !== 'worldmap' && !/could_make_market_grow_faster|happened_between|happened_since_then/.test(sl.dataset.tpl || '')) out.push([n, 'MARGIN_ALL', Math.round(mn) + '..' + Math.round(mx), who]);
+  // --- template slides: sibling cards (same parent, same tag and class, same width) hold the same number of text lines
+  // (Neocloud slide 12, 19 Nov 2026: cards on 4 and 3 lines; BODY_LINES below only read raw slides, so nothing saw it). RULES « Sibling boxes ».
+  if (type !== 'raw') sl.querySelectorAll('.body, .body *').forEach(p => { const kids = [...p.children].filter(vis); if (kids.length < 3) return;
+    const c0 = kids[0].className; if (!c0 || typeof c0 !== 'string' || !kids.every(k => k.className === c0 && k.tagName === kids[0].tagName)) return;
+    const W = kids.map(k => k.getBoundingClientRect().width); if (Math.max(...W) - Math.min(...W) > 3) return;
+    const rows = kids.map(k => { const w = document.createTreeWalker(k, NodeFilter.SHOW_TEXT), t = new Set(); let x, len = 0;
+      while ((x = w.nextNode())) { const s = x.textContent.trim(); if (!s || (EMO.test(s.slice(0, 2)) && s.length < 4)) continue; len += s.length;
+        const g = document.createRange(); g.selectNodeContents(x); for (const r of g.getClientRects()) if (r.width > 1 && r.height > 1) t.add(Math.round(r.top / 4)); }
+      return len >= 30 ? t.size : null; });
+    const v = rows.filter(r => r != null); if (v.length >= 3 && new Set(v).size > 1) out.push([n, 'CARD_LINES', v.join(','), kids.map(k => k.textContent.trim().slice(0, 12)).join(' / ').slice(0, 90)]); });
+  // --- same-class siblings inside a mixed grid (Pierre, 23 Nov 2026, AI data center: in the « Which pains deserve attention
+  // first? » table, pains on 1 line sat next to pains on 2 lines; CARD_LINES above skips a parent whose children have
+  // mixed classes, so the .pain cells of the .prio grid were never compared). Groups children by class instead.
+  sl.querySelectorAll('.body, .body *').forEach(p => { const kids = [...p.children].filter(vis); if (kids.length < 6) return;
+    const by = {}; kids.forEach(k => { const c = typeof k.className === 'string' ? k.className : ''; if (c) (by[c] = by[c] || []).push(k); });
+    if (Object.keys(by).length < 2) return;
+    Object.entries(by).forEach(([c, ks]) => { if (ks.length < 3) return;
+      const rows = ks.map(k => { const t = k.textContent.trim(); if (t.length < 20) return null; const w = document.createTreeWalker(k, NodeFilter.SHOW_TEXT), L = new Set(); let x;
+        while ((x = w.nextNode())) { const g = document.createRange(); g.selectNodeContents(x); for (const r of g.getClientRects()) if (r.width > 1 && r.height > 1) L.add(Math.round(r.top / 4)); }
+        return L.size; }).filter(v => v != null);
+      if (rows.length >= 3 && new Set(rows).size > 1) out.push([n, 'ROW_LINES', c + ' ' + rows.join(','), ks.map(k => k.textContent.trim().slice(0, 12)).join(' / ').slice(0, 90)]); }); });
+  // --- repeated rows without a class (Pierre, 23 Nov 2026, AI data center slide 34: in the leases league table one
+  // « what » line wrapped to 2 lines next to five on 1 line; the rows only carry inline styles, so ROW_LINES, which groups
+  // by class, never saw them). Siblings with the same tag, class and number of children are compared leaf by leaf.
+  sl.querySelectorAll('.body, .body *').forEach(p => { const kids = [...p.children].filter(vis); if (kids.length < 3) return;
+    const leaves = k => [...k.querySelectorAll('*')].filter(e => !e.children.length && vis(e));
+    const by = {}; kids.forEach(k => { const sig = k.tagName + '|' + (typeof k.className === 'string' ? k.className : '') + '|' + k.children.length + '|' + leaves(k).length; (by[sig] = by[sig] || []).push(k); });
+    Object.values(by).forEach(ks => { if (ks.length < 3 || ks[0].children.length < 2) return;
+      const per = ks.map(leaves);
+      per[0].forEach((_, i) => { const cells = per.map(l => l[i]); if (cells.some(c => c.textContent.trim().length < 20)) return;
+        const rows = cells.map(c => { const w = document.createTreeWalker(c, NodeFilter.SHOW_TEXT), L = new Set(); let x;
+          while ((x = w.nextNode())) { const g = document.createRange(); g.selectNodeContents(x); for (const r of g.getClientRects()) if (r.width > 1 && r.height > 1) L.add(Math.round(r.top / 4)); }
+          return L.size; });
+        if (new Set(rows).size > 1) out.push([n, 'LIST_LINES', rows.join(','), cells.map(c => c.textContent.trim().slice(0, 12)).join(' / ').slice(0, 90)]); }); }); });
+  // --- a short value (« 17 GW », « $1.4B ») never wraps (Pierre, 23 Nov 2026, AI data center slide 33: « 17 / GW » under a
+  // bar of the key-trend template, whose value boxes are 36 to 43px wide)
+  sl.querySelectorAll('.rx-t, .body div, .body span').forEach(el => { if (el.children.length > 3) return; const t = el.textContent.trim();
+    if (t.length < 2 || t.length > 9 || !/\d/.test(t) || /[A-Z]{3,}/.test(t)) return;   /* a NAME + value label is 2 lines on purpose */ const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), L = new Set(); let x;
+    while ((x = w.nextNode())) { const g = document.createRange(); g.selectNodeContents(x); for (const r of g.getClientRects()) if (r.width > 1 && r.height > 1) L.add(Math.round(r.top / 4)); }
+    if (L.size > 1) out.push([n, 'VALUE_WRAP', L.size + ' lines', t]); });
+  // --- categories slides: each description holds on 2 lines (Pierre, 20 Nov 2026: 3 lines touch the box edges)
+  sl.querySelectorAll('.rx-t').forEach(el => { const k = +el.dataset.k; if (!(k >= 300 && k < 400)) return;
+    const t = new Set(); const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let x;
+    while ((x = w.nextNode())) { const g = document.createRange(); g.selectNodeContents(x); for (const r of g.getClientRects()) if (r.width > 1 && r.height > 1) t.add(Math.round(r.top / 4)); }
+    if (t.size > 2) out.push([n, 'CATEGORY_LINES', t.size + ' lines (2 max)', el.textContent.trim().slice(0, 40)]); });
   // --- raw slides: sibling boxes
-  const T = [...sl.querySelectorAll('.raw .rx-t')].filter(vis).map(el => { const ps = [...el.querySelectorAll('p')].filter(p => /[A-Za-z0-9]/.test(p.textContent) && !EMO.test(p.textContent.trim().slice(0, 2)));
+  const T = [...sl.querySelectorAll('.raw .rx-t')].filter(vis).map(el => { const ps = [...el.querySelectorAll('p')].filter(p => /[A-Za-z0-9?]/.test(p.textContent) && !EMO.test(p.textContent.trim().slice(0, 2)));
     if (!ps.length) return null; const b = el.getBoundingClientRect(), txt = ps.map(p => p.textContent.trim()).join(' ');
     if (txt.length < 6) return null; let lab = 0, body = 0;
     if (txt.length <= 34 && txt.split(/\s+/).length <= 5) lab = ps.reduce((a, p) => a + rowsOf(p), 0);
@@ -73,6 +118,15 @@ JS2 = r"""() => { const out = []; const miss = [...new Set(window.__emojiMiss ||
     const L = G.filter(b => b.lab).map(b => b.lab), B = G.filter(b => b.body).map(b => b.body);
     if (new Set(L).size > 1) out.push([n, 'LABEL_LINES', L.join(','), G.filter(b => b.lab).map(b => b.txt.slice(0, 14)).join(' / ').slice(0, 90)]);
     if (new Set(B).size > 1 && Math.max(...B) <= 9) out.push([n, 'BODY_LINES', B.join(','), G.filter(b => b.body).map(b => b.txt.slice(0, 12)).join(' / ').slice(0, 90)]); });
+  // same boxes where a short text counts as a « label » and a longer one as a « body »: they were never compared, so
+  // « Big deals mean big cash » sat on 1 line next to myths on 2 lines (Pierre, 20 Nov 2026, AI drug discovery slide 14)
+  const used2 = new Set();
+  T.forEach((a, i) => { if (used2.has(i)) return; const g = [i]; used2.add(i);
+    for (let q = 0; q < g.length; q++) T.forEach((b, j) => { if (used2.has(j)) return; const c = T[g[q]];
+      if (Math.abs(b.w - c.w) <= 3 && Math.abs(b.h - c.h) <= 3 && b.fs === c.fs && (Math.abs(b.y - c.y) <= 4 || Math.abs(b.x - c.x) <= 4)) { used2.add(j); g.push(j); } });
+    const G = g.map(j => T[j]); if (G.length < 2 || !G.some(b => b.lab) || !G.some(b => b.body || !b.lab)) return;
+    if (G.every(b => b.lab) || G.every(b => !b.lab)) return;
+    const Tt = G.map(b => b.lab + b.body); if (new Set(Tt).size > 1 && Math.max(...Tt) <= 9) out.push([n, 'BOX_LINES', Tt.join(','), G.map(b => b.txt.slice(0, 12)).join(' / ').slice(0, 90)]); });
   // --- same boxes, same font size (a text shrunk to fit is shortened instead)
   { const seen = new Set(); T.forEach((a, i) => { if (seen.has(i) || !a.body) return; const g = T.filter((b, j) => b.body && Math.abs(b.w - a.w) <= 3 && Math.abs(b.h - a.h) <= 3 && (Math.abs(b.y - a.y) <= 4 || Math.abs(b.x - a.x) <= 4));
       g.forEach(b => seen.add(T.indexOf(b))); const F = [...new Set(g.map(b => b.fs))]; if (g.length >= 3 && F.length > 1) out.push([n, 'FONT_MIXED', F.map(f => (f / 10 * 0.75).toFixed(1) + 'pt').join(','), g.filter(b => b.fs === Math.min(...F)).map(b => b.txt.slice(0, 25)).join(' / ')]); }); }

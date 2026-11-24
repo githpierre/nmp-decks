@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does money really
+
+      flow in lab automation?'
+    axes:
+    - Sells the robot
+    - Runs the workflow
+    - One-off
+    - sales
+    - Repeat
+    - revenue
+    groups:
+    - name: Capital equipment sale
+      x: 0.15
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/lab-automation/s06-06.png
+      - src: ../../assets/logos/pp_live/lab-automation/s06-07.png
+    - name: Recurring consumables
+      x: 0.35
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/lab-automation/s06-00.png
+      - src: ../../assets/logos/pp_live/lab-automation/s06-01.png
+    - name: Service contracts
+      x: 0.5
+      y: 0.62
+      logos:
+      - src: ../../assets/logos/pp_live/lab-automation/s06-04.png
+      - src: ../../assets/logos/pp_live/lab-automation/s06-05.png
+    - name: Orchestration software
+      x: 0.82
+      y: 0.72
+      logos:
+      - src: ../../assets/logos/pp_live/lab-automation/s06-02.png
+      - src: ../../assets/logos/pp_live/lab-automation/s06-03.png
+    - name: Integrated workcell projects
+      x: 0.7
+      y: 0.3
+      logos:
+      - src: ../../assets/logos/pp_live/lab-automation/s06-08.png
+      - src: ../../assets/logos/pp_live/lab-automation/s06-09.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

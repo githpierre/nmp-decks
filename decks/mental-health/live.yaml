@@ -1,0 +1,605 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would mental health
+
+    customers actually pay to solve?'
+  auds:
+  - Adult patients
+  - Teen patients
+  - Therapy practices
+  - Large employers
+  - Health insurers
+  pains:
+  - - They find that many good therapists do not take their insurance
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They drop out of care after a few sessions or a few app visits
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 3
+  - - They wait weeks or months to see a therapist or psychiatrist
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 1
+  - - They struggle to prove that mental health apps really cut costs
+    - - 1
+      - 1
+      - 2
+      - 3
+      - 3
+  - - They get paid insurance rates that barely cover a therapy session
+    - - 1
+      - 1
+      - 3
+      - 1
+      - 2
+  - - They burn out under heavy caseloads and endless paperwork
+    - - 1
+      - 1
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which mental health platform has
+
+    the most complete tech today?'
+  companies:
+  - name: Lyra Health
+    src: ../../assets/logos/pp_live/mental-health/s05-00.png
+  - name: Spring Health
+    src: ../../assets/logos/pp_live/mental-health/s05-01.png
+  - name: Headspace
+    src: ../../assets/logos/pp_live/mental-health/s05-02.png
+  - name: Talkspace
+    src: ../../assets/logos/pp_live/mental-health/s05-03.png
+  - name: BetterHelp
+    src: ../../assets/logos/pp_live/mental-health/s05-04.png
+  features:
+  - header: AI|companion
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Psychiatry|and Rx
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Couples|therapy
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: 24/7 crisis|line
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Mental|coaching
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: In-person|therapy
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Teen|care
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for mental health?'
+  events:
+  - odds: 50
+    impact: 3
+    text: More states copy Illinois and Nevada and ban AI chatbots from giving therapy without a licensed clinician
+  - odds: 45
+    impact: 2
+    text: OpenAI and Google add free mental health support to ChatGPT and Gemini, taking users from paid apps
+  - odds: 40
+    impact: 1
+    text: Licensed therapists refuse low per-session rates, and the shortage limits growth at BetterHelp and Grow Therapy
+  - odds: 35
+    impact: 2
+    text: Medicaid cuts in the One Big Beautiful Bill Act shrink payments to virtual therapy companies like Talkspace
+  - odds: 30
+    impact: 2
+    text: Employers cut benefits spending and drop Lyra, Spring Health and Headspace contracts during a slowdown
+  - odds: 25
+    impact: 3
+    text: Teen suicide lawsuits against Character.AI and OpenAI lead to strict federal rules on mental health chatbots
+  - odds: 25
+    impact: 2
+    text: The FTC fines another app after BetterHelp-style sharing of user mental health data with advertisers
+  - odds: 20
+    impact: 2
+    text: The DEA ends telehealth flexibilities and stimulant prescriptions over video calls need in-person visits again
+  note:
+  - We listed the events that could slow mental health down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed mental health
+
+    forward, year after year?'
+  events:
+  - year: '1987'
+    text: Prozac makes depression a treatable illness
+    impact: 1.5
+  - year: '2008'
+    text: US parity law makes insurers cover therapy
+    impact: 2
+  - year: '2010'
+    text: ACA makes therapy an essential benefit
+    impact: 2
+  - year: '2012'
+    text: Headspace app takes meditation mainstream
+    impact: 1.5
+  - year: '2014'
+    text: Talkspace offers therapy by text message
+    impact: 1.5
+  - year: '2015'
+    text: Teladoc buys BetterHelp, therapy goes online
+    impact: 1
+  - year: '2017'
+    text: Woebot shows a chatbot can deliver CBT
+    impact: 1
+  - year: '2017'
+    text: FDA clears first prescription therapy app
+    impact: 1.5
+  - year: '2019'
+    text: WHO names burnout a workplace hazard
+    impact: 1
+  - year: '2019'
+    text: Germany pays for prescribed health apps
+    impact: 1.5
+  - year: '2019'
+    text: Calm becomes a unicorn, apps go big
+    impact: 1
+  - year: '2019'
+    text: FDA approves fast-acting depression spray
+    impact: 1
+  - year: '2020'
+    text: Covid lockdowns spike anxiety and depression
+    impact: 3
+  - year: '2020'
+    text: US lifts telehealth limits for therapy
+    impact: 2.5
+  - year: '2020'
+    text: Starbucks gives staff free therapy via Lyra
+    impact: 1.5
+  - year: '2021'
+    text: Record $5.5B funding scales therapy startups
+    impact: 2
+  - year: '2021'
+    text: Simone Biles puts mental health on TV
+    impact: 1
+  - year: '2021'
+    text: Surgeon General flags youth mental crisis
+    impact: 1.5
+  - year: '2022'
+    text: 988 hotline makes crisis help one call
+    impact: 1.5
+  - year: '2022'
+    text: WHO reports 25% jump in anxiety
+    impact: 1
+  - year: '2023'
+    text: 41 states sue Meta over teen harm
+    impact: 1
+  - year: '2023'
+    text: Surgeon General calls loneliness an epidemic
+    impact: 1
+  - year: '2023'
+    text: Australia lets doctors prescribe MDMA
+    impact: 1
+  - year: '2023'
+    text: DEA extends remote prescribing rules
+    impact: 1
+  - year: '2024'
+    text: Medicare starts paying counselors and MFTs
+    impact: 1.5
+  - year: '2024'
+    text: FDA clears first app to treat depression
+    impact: 1.5
+  - year: '2025'
+    text: Therabot trial shows AI therapy cuts symptoms
+    impact: 1.5
+  - year: '2025'
+    text: Study ranks therapy top AI chatbot use
+    impact: 2.5
+  - year: '2025'
+    text: Illinois bans AI from acting as therapist
+    impact: 1
+  - year: '2026'
+    text: Trump order fast-tracks psychedelic therapies
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed mental health forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: mental-health
+  title: 'Where did mental health investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of mental health startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the mental health market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/mental-health/s10-00.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/mental-health/s10-01.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/mental-health/s10-02.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/mental-health/s10-03.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/mental-health/s10-04.png
+    x: 288.9
+    y: 290.1
+  - src: ../../assets/logos/pp_live/mental-health/s10-05.png
+    x: 378.2
+    y: 305.4
+  - src: ../../assets/logos/pp_live/mental-health/s10-06.png
+    x: 480.0
+    y: 312.9
+  - src: ../../assets/logos/pp_live/mental-health/s10-07.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/mental-health/s10-08.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/mental-health/s10-09.png
+    x: 265.9
+    y: 396.4
+  - src: ../../assets/logos/pp_live/mental-health/s10-10.png
+    x: 344.1
+    y: 384.4
+  - src: ../../assets/logos/pp_live/mental-health/s10-11.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/mental-health/s10-12.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/mental-health/s10-13.png
+    x: 191.6
+    y: 408.0
+  - src: ../../assets/logos/pp_live/mental-health/s10-14.png
+    x: 790.7
+    y: 441.0
+  - src: ../../assets/logos/pp_live/mental-health/s10-15.png
+    x: 406.7
+    y: 468.9
+  - src: ../../assets/logos/pp_live/mental-health/s10-16.png
+    x: 537.0
+    y: 476.1
+  - src: ../../assets/logos/pp_live/mental-health/s10-17.png
+    x: 614.4
+    y: 468.9
+  - src: ../../assets/logos/pp_live/mental-health/s10-18.png
+    x: 680.6
+    y: 475.1
+  - src: ../../assets/logos/pp_live/mental-health/s10-19.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/mental-health/s10-20.png
+    x: 467.6
+    y: 510.6
+  - src: ../../assets/logos/pp_live/mental-health/s10-21.png
+    x: 614.6
+    y: 517.7
+  - src: ../../assets/logos/pp_live/mental-health/s10-22.png
+    x: 738.2
+    y: 516.0
+  - src: ../../assets/logos/pp_live/mental-health/s10-23.png
+    x: 798.9
+    y: 507.9
+  cols:
+  - Direct-to-consumer
+  - 7 Embleven Sa)
+  - cater stens
+  rows:
+  - Virtual therapy-first cl
+  - Psychiatry / meds / in
+  - Digital therapeutics &
+  note: []
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these mental health
+
+    startups, and how did they end?'
+  causes:
+  - Regulator or|court action
+  - Payers|refused
+  - Ran out|of cash
+  - Product|fell short
+  rows:
+  - name: Pear
+    ending: Went bankrupt
+    start: '2013'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/mental-health/s11-00.png
+    ini: P
+    slug: pear
+    domain: peartherapeutics.com
+  - name: Mindstrong
+    ending: Shut down
+    start: '2014'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/mental-health/s11-01.png
+    ini: M
+    slug: mindstrong
+    domain: mindstrong.com
+  - name: Akili
+    ending: Sold for $34M
+    start: '2011'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/mental-health/s11-02.png
+    ini: A
+    slug: akili
+    domain: akiliinteractive.com
+  - name: Done
+    ending: Founder convicted
+    start: '2019'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/mental-health/s11-03.png
+    ini: D
+    slug: done
+    domain: donefirst.com
+  - name: Woebot
+    ending: App shut down
+    start: '2017'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/mental-health/s11-04.png
+    ini: W
+    slug: woebot
+    domain: woebothealth.com
+  note:
+  - We tracked the mental health startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Spring Health be
+
+    winning employer mental health?'
+  companies:
+  - short: Spring
+    src: ../../assets/logos/pp_live/mental-health/s12-00.png
+  - short: Lyra
+    src: ../../assets/logos/pp_live/mental-health/s12-01.png
+  - short: Headspace
+    src: ../../assets/logos/pp_live/mental-health/s12-02.png
+  - short: Talkspace
+    src: ../../assets/logos/pp_live/mental-health/s12-03.png
+  - short: Modern
+    src: ../../assets/logos/pp_live/mental-health/s12-04.png
+  - short: Calm
+    src: ../../assets/logos/pp_live/mental-health/s12-05.png
+  criteria:
+  - name: 170M+ lives covered
+    why: Widest reach via plans
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: In-network insurance care
+    why: Alma adds payer coverage
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Valued above $3B
+    why: Capital for acquisitions
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Therapy plus psychiatry
+    why: Full care in one platform
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Coaching plus therapy
+    why: Right level of care first
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Global provider network
+    why: One vendor for all staff
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Top consumer app brand
+    why: Members already know it
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as mental health,
+
+    and what only looks like it?'
+  TL:
+    name: Doctolib
+    src: ../../assets/logos/pp_live/mental-health/s01-00.png
+    text: books visits with psychologists and psychiatrists, but it schedules the care rather than providing any of it itself
+  TR:
+    name: Petit BamBou
+    src: ../../assets/logos/pp_live/mental-health/s01-02.png
+    text: has 12 million users for its meditation sessions, but it is a self- help app, not a treatment for any diagnosis
+  BL:
+    name: Teladoc
+    src: ../../assets/logos/pp_live/mental-health/s01-10.png
+    text: earns nearly 40% of its revenue from BetterHelp therapy, but the rest is general virtual care, so it sits on the line
+  BR:
+    name: Headspace
+    src: ../../assets/logos/pp_live/mental-health/s01-11.png
+    text: began as a meditation app and now offers licensed therapists, which puts it right between wellness and clinical care
+  caption:
+  - Distance to the center reflects how directly a company diagnoses or treats mental health conditions, not general wellbeing
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/mental-health/s01-01.png
+  - ../../assets/logos/pp_live/mental-health/s01-03.png
+  - ../../assets/logos/pp_live/mental-health/s01-04.png
+  - ../../assets/logos/pp_live/mental-health/s01-05.png
+  - ../../assets/logos/pp_live/mental-health/s01-06.png
+  - ../../assets/logos/pp_live/mental-health/s01-07.png
+  - ../../assets/logos/pp_live/mental-health/s01-08.png
+  - ../../assets/logos/pp_live/mental-health/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/mental-health/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/mental-health/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/mental-health/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/mental-health/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/mental-health/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/mental-health/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/mental-health/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/mental-health/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more men are looking
+
+    for help with their mental health'
+  date: 0 Over the past year.
+  expl: Men’s mental health moved from a whisper to a public topic. Athletes, podcasters and creators started talking openly about anxiety and burnout,
+    and Netflix’s Adolescence sparked a global debate about boys and young men. More men now search for help made for them.
+  term: mental health
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/mental-health/mental-health.csv
+ed052p:
+  type: pp_cagr
+  title: 'Can the mental health
+
+    market still grow?'
+  lead: ''
+  condition: Yes, but the market must treat more of the people who now get no care, with insurers paying for therapy, psychiatry, and digital treatment.
+    It must also turn new drugs, psychedelics, and AI into approved and paid care, while Medicaid cuts and clinician shortages hold it back.
+  note:
+  - We compared forecasts from SkyQuest, IMARC, Stellar Market Research and The Business Research Company
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  - a uana dean amatamn nanan wi waren viet cuen ns aaa ieee
+  size: 450
+  cagr: 3.8
+  y0: 2026

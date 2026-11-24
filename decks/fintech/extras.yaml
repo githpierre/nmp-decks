@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do fintech companies
+
+      actually make money?'
+    axes:
+    - Earns per payment
+    - Earns on balances
+    - Serves
+    - consumers
+    - Serves
+    - businesses
+    groups:
+    - name: Debit card interchange
+      x: 0.16
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/fintech/s06-06.png
+      - src: ../../assets/logos/pp_live/fintech/s06-07.png
+    - name: Buy now pay later fees
+      x: 0.45
+      y: 0.42
+      logos:
+      - src: ../../assets/logos/pp_live/fintech/s06-04.png
+      - src: ../../assets/logos/pp_live/fintech/s06-05.png
+    - name: Interest on loans
+      x: 0.84
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/fintech/s06-08.png
+      - src: ../../assets/logos/pp_live/fintech/s06-09.png
+    - name: Payment processing fees
+      x: 0.16
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/fintech/s06-00.png
+      - src: ../../assets/logos/pp_live/fintech/s06-01.png
+    - name: Interest on held balances
+      x: 0.84
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/fintech/s06-02.png
+      - src: ../../assets/logos/pp_live/fintech/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

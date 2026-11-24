@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do Earth observation
+
+      firms actually make money?'
+    axes:
+    - Sells raw images
+    - Sells answers
+    - Paid by
+    - governments
+    - Paid by
+    - businesses
+    groups:
+    - name: Optical imagery for defense
+      x: 0.24
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/earth-observation/s06-07.png
+      - src: ../../assets/logos/pp_live/earth-observation/s06-08.png
+      - src: ../../assets/logos/pp_live/earth-observation/s06-09.png
+    - name: Radar imagery on demand
+      x: 0.46
+      y: 0.62
+      logos:
+      - src: ../../assets/logos/pp_live/earth-observation/s06-02.png
+      - src: ../../assets/logos/pp_live/earth-observation/s06-03.png
+      - src: ../../assets/logos/pp_live/earth-observation/s06-04.png
+    - name: Daily imagery subscriptions
+      x: 0.16
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/earth-observation/s06-00.png
+    - name: Weather data from space
+      x: 0.78
+      y: 0.3
+      logos:
+      - src: ../../assets/logos/pp_live/earth-observation/s06-05.png
+      - src: ../../assets/logos/pp_live/earth-observation/s06-06.png
+    - name: Methane emissions tracking
+      x: 0.82
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/earth-observation/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

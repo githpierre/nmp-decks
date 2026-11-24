@@ -1,0 +1,116 @@
+# Spec of the research prompts for the Neocloud deck (tools/make_market_prompts.py). Method v2, piste A checks, piste B gate.
+# Pierre 19 Nov 2026: pain segments option A (types of buyer), value segments option A (the 6 base categories that have companies,
+# with the short names of the live donut S03). Base as of 12 Nov 2026. Trends term: GPU cloud (rule: neocloud is at 0 in 167 of 262 weeks).
+name: neocloud
+handle: neocloud
+uuid: 60
+date: '2026-11-19'
+today: 19 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, patients, FDA, therapy, cancer, clinical, trial, nuclear, reactor, uranium, longevity
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases, earnings calls and SEC or exchange filings (CoreWeave, Nebius, IREN, Cerebras, Lambda, Crusoe, Nscale, Fluidstack, Together AI, Fireworks AI, Baseten, Modal, fal, Groq), customer contract announcements (Microsoft, OpenAI, Meta, Google, Anthropic, Nvidia),
+  SemiAnalysis (ClusterMAX, GPU rental price index), Artificial Analysis, Synergy Research, Gartner, McKinsey, IEA and Uptime Institute data, data-center press (DatacenterDynamics, Data Center Frontier),
+  market research firms with a named method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, The Information, CNBC, TechCrunch).
+# where the problem is felt (types of buyer): option A (Pierre, 19 Nov 2026)
+pain_segments:
+- AI model labs
+- Hyperscalers and big tech
+- AI app startups
+- Enterprises and governments
+# types of solution: the 6 base categories with companies (Bare-Metal AI Infrastructure has none), short names of the live donut S03
+#   GPU clouds = GPU Cloud Compute | Inference clouds = Inference Cloud Services | Compute marketplaces = GPU Capacity Marketplaces
+#   Dedicated clusters = Dedicated AI Clusters | Sovereign AI clouds = Sovereign & Distributed AI Cloud | Training platforms = Managed AI Training Platforms
+value_segments:
+- GPU clouds
+- Inference clouds
+- Compute marketplaces
+- Dedicated clusters
+- Sovereign AI clouds
+- Training platforms
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/neocloud (same slide type as the deck twin). S11 live is a
+# warning-signs grid: ed199p comes from the research and is checked against it.
+live_twins:
+- ed039p
+- ed047p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which big AI clusters are neoclouds building right now?
+    brief: 8 rows = 8 real AI clusters or GPU sites of neocloud companies, with a named place (city or region, country). Rows read "site, country" + "COMPANY · MAIN CUSTOMER or SIZE (GPUs or MW)" + stage (PLAN / BUILD / LIVE, 6 characters at most).
+      Only sites with a signed customer, construction reported on site or capacity already rented out, from the company, its customer, a filing or the regulator. Not a memorandum of understanding.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between neocloud companies and large groups (multi-year capacity contracts with Microsoft, Meta, OpenAI, Google or Anthropic, Nvidia investments or capacity backstops, acquisitions, chip supply deals, IPOs),
+      newest first, with the amount and length when public.
+  iv_fda:
+    title: What does it take to turn chips into a cloud people pay for?
+    brief: 5 steps from buying GPUs to billing customers (for example securing a chip allocation from Nvidia or AMD, financing the fleet with GPU-backed debt, finding power and a site, building and stress-testing the cluster,
+      signing take-or-pay contracts and keeping uptime high). Each step in plain words with who decides and a typical duration.
+  iv_safety:
+    title: What could go wrong for neocloud companies?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example one customer making most of the revenue, heavy GPU-backed debt, chips that lose value in a few years, power and
+      construction delays, rental prices per GPU-hour falling, hyperscalers cutting prices). Real filings, reports or reported cases only.
+extra:
+  ed061: 'For neocloud: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line
+    description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: multi-billion capacity contracts (Microsoft with Nebius, Nscale, IREN, Lambda; Meta with CoreWeave and Nebius; OpenAI with CoreWeave and Cerebras; Anthropic with Fluidstack), funding records (Crusoe, Lambda,
+  Nscale, Firmus, Baseten, fal), IPOs and listings (CoreWeave, Cerebras, Nebius) and their share prices against revenue, backlog and revenue growth reported each quarter, GPU-backed debt and its interest rate, rental
+  prices per GPU-hour (H100, B200) and their fall, inference volumes in tokens (Fireworks, Together AI, Baseten, OpenRouter rankings), sovereign AI clouds in Europe, the Middle East and Asia, power secured in gigawatts,
+  Nvidia investments and capacity backstops, Google searches for GPU cloud.
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, fire sales, customers that walked away or cut their contracts, debt in trouble or covenants breached, data
+  centers delayed, layoffs, valuations or share prices that fell, short-seller reports, crypto miners whose AI cloud pivot stalled. Scope: companies whose core product is renting AI compute (GPU clouds, inference
+  clouds, compute marketplaces, dedicated clusters, sovereign AI clouds), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, customer lost, debt trouble, value fell, shut down or sold). Each cell is two short lines
+  separated by | or empty. Give the website domain of each company.
+
+  - ed200: why neocloud startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: Neocloud
+label: Neocloud
+keep_together:
+- neocloud
+- GPU cloud
+examples:
+  jargon_bad: Bare-metal H100 SXM nodes on a 3.2 Tbps InfiniBand fabric for distributed pretraining.
+  jargon_good: Whole servers of top Nvidia chips, wired with very fast links so thousands of them can train one AI model together.
+  jargon_why: the reader is not a data-center engineer
+  proof_rule: 'A letter of intent, a "strategic partnership" or a planned capacity in megawatts is not revenue: say whether there is a signed contract, its value and length, how much of it is live today, and who
+    reported it.'
+  proof_bad: Company X will deliver 1 GW of AI compute to a hyperscaler.
+  proof_good: Company X signed a five-year $9B contract with a hyperscaler, and its filing says the first 200 MW go live in 2026.
+  proof_why: a capacity plan is not a contract
+  fresh_bad: Company X had $2B of revenue in 2024
+  fresh_good: Company X reported $1.4B of revenue for its third quarter of 2026, against $580M a year earlier
+  fresh_est: Company X should end 2026 near $5B of revenue, against $1.9B in 2025
+  fresh_method: latest reported quarter and company guidance, analyst estimates as a cross-check
+  not_proof: a planned capacity is not a signed contract
+trends_csv: assets/trends/neocloud/gpu-cloud.csv

@@ -1,0 +1,52 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do robotics companies
+
+      actually make money?'
+    axes:
+    - Robot sold outright
+    - Robot rented by the hour
+    - Factories and
+    - warehouses
+    - Homes and
+    - hospitals
+    groups:
+    - name: Industrial arms sold
+      x: 0.16
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/robotics/s06-07.png
+      - src: ../../assets/logos/pp_live/robotics/s06-08.png
+      - src: ../../assets/logos/pp_live/robotics/s06-09.png
+    - name: Warehouse robots as a service
+      x: 0.82
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/robotics/s06-10.png
+      - src: ../../assets/logos/pp_live/robotics/s06-11.png
+    - name: Humanoids leased to plants
+      x: 0.7
+      y: 0.66
+      logos:
+      - src: ../../assets/logos/pp_live/robotics/s06-05.png
+      - src: ../../assets/logos/pp_live/robotics/s06-06.png
+    - name: Surgical robots plus supplies
+      x: 0.42
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/robotics/s06-00.png
+      - src: ../../assets/logos/pp_live/robotics/s06-01.png
+      - src: ../../assets/logos/pp_live/robotics/s06-02.png
+    - name: Home robots sold
+      x: 0.12
+      y: 0.62
+      logos:
+      - src: ../../assets/logos/pp_live/robotics/s06-03.png
+      - src: ../../assets/logos/pp_live/robotics/s06-04.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

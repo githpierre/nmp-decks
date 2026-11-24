@@ -1,0 +1,49 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do robot makers
+
+      actually make money?'
+    axes:
+    - Bought as a project
+    - Rented as a service
+    - Moves
+    - goods
+    - Picks
+    - items
+    groups:
+    - name: Storage systems sold
+      x: 0.18
+      y: 0.22
+      logos:
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-05.png
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-06.png
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-07.png
+    - name: Robot fleets sold
+      x: 0.22
+      y: 0.62
+      logos:
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-02.png
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-03.png
+    - name: Robots rented per month
+      x: 0.85
+      y: 0.5
+      logos:
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-04.png
+    - name: Robot forklifts
+      x: 0.6
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-08.png
+    - name: Picking arms per pick
+      x: 0.58
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-00.png
+      - src: ../../assets/logos/pp_live/warehouse-robotics/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

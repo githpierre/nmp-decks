@@ -1,0 +1,525 @@
+ed058:
+  type: pp_pains
+  title: 'Which quantum computing
+
+    problems are still unsolved?'
+  auds:
+  - Pharma groups
+  - Chemical firms
+  - Big banks
+  - Defense agencies
+  - Cloud providers
+  pains:
+  - - They wait for machines with few enough errors to be truly useful
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They cannot find a single job that beats a classical computer yet
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They must replace encryption before quantum machines can break it
+    - - 1
+      - 1
+      - 3
+      - 3
+      - 2
+  - - They struggle to hire people who know both quantum and the business
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They pay a lot for small pilots that rarely lead to real projects
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  - - They see each hardware maker use its own tools and its own stack
+    - - 1
+      - 1
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which quantum player has the
+
+    most complete tech today?'
+  companies:
+  - name: IonQ
+    src: ../../assets/logos/pp_live/quantum-computing/s05-00.png
+  - name: Quantinuum
+    src: ../../assets/logos/pp_live/quantum-computing/s05-01.png
+  - name: Rigetti
+    src: ../../assets/logos/pp_live/quantum-computing/s05-02.png
+  - name: IBM
+    src: ../../assets/logos/pp_live/quantum-computing/s05-03.png
+  - name: Google
+    src: ../../assets/logos/pp_live/quantum-computing/s05-04.png
+  features:
+  - header: Open|cloud
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: On AWS|Braket
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: 99.9%|fidelity
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: On-site|systems
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Own|SDK
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Logical|qubits
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Quantum|network
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for quantum computing?'
+  events:
+  - odds: 45
+    impact: 2
+    text: Classical algorithms on Nvidia GPUs keep matching claimed quantum advantage results, eroding buyer trust
+  - odds: 40
+    impact: 2
+    text: Logical qubit error rates stall, pushing useful quantum advantage beyond 2030 for most commercial customers
+  - odds: 35
+    impact: 3
+    text: IBM, Google and Microsoft reach error corrected qubits first, leaving IonQ, Rigetti and D-Wave behind
+  - odds: 35
+    impact: 3
+    text: Quantum stocks like IonQ and Rigetti fall 70% as investors lose patience with tiny revenues
+  - odds: 30
+    impact: 1
+    text: US export controls on quantum hardware and dilution refrigerators cut startups off from Asian customers
+  - odds: 25
+    impact: 2
+    text: Congress delays reauthorizing the National Quantum Initiative, freezing DOE and DARPA program money
+  - odds: 15
+    impact: 1
+    text: A helium-3 shortage drives up dilution refrigerator prices and delays new superconducting systems
+  - odds: 10
+    impact: 2
+    text: A quantum startup is caught overstating qubit performance, prompting SEC probes across listed quantum companies
+  note:
+  - We listed the events that could slow quantum computing down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept quantum computing
+
+    moving forward, year after year?'
+  events:
+  - year: '1981'
+    text: Feynman says quantum can simulate nature
+    impact: 1
+  - year: '1994'
+    text: Shor shows quantum can break RSA codes
+    impact: 2.5
+  - year: '1996'
+    text: Grover's algorithm widens quantum use cases
+    impact: 1
+  - year: '1999'
+    text: NEC builds the first superconducting qubit
+    impact: 1.5
+  - year: '2011'
+    text: D-Wave sells first commercial machine
+    impact: 1.5
+  - year: '2014'
+    text: Google hires Martinis team, joins the race
+    impact: 1.5
+  - year: '2016'
+    text: IBM puts quantum computing in the cloud
+    impact: 2
+  - year: '2017'
+    text: Open source Qiskit lets anyone code qubits
+    impact: 1
+  - year: '2018'
+    text: US Quantum Initiative Act funds $1.2B
+    impact: 2
+  - year: '2019'
+    text: Google Sycamore claims quantum supremacy
+    impact: 3
+  - year: '2020'
+    text: China's Jiuzhang shows photonic advantage
+    impact: 1
+  - year: '2021'
+    text: IonQ listing opens public money to quantum
+    impact: 1.5
+  - year: '2021'
+    text: Honeywell merges unit into Quantinuum
+    impact: 1
+  - year: '2022'
+    text: NIST picks post quantum codes, CIOs worry
+    impact: 1.5
+  - year: '2022'
+    text: White House orders agencies to plan ahead
+    impact: 1
+  - year: '2023'
+    text: Harvard and QuEra run 48 logical qubits
+    impact: 2
+  - year: '2024'
+    text: Microsoft and Quantinuum cut errors 800x
+    impact: 1.5
+  - year: '2024'
+    text: DARPA launches benchmark to pick winners
+    impact: 1
+  - year: '2024'
+    text: Google Willow cuts errors as it scales
+    impact: 2.5
+  - year: '2025'
+    text: Microsoft unveils Majorana 1 topological chip
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia opens a quantum research center
+    impact: 1.5
+  - year: '2025'
+    text: HSBC shows quantum gain in bond trading
+    impact: 1
+  - year: '2025'
+    text: IonQ buys Oxford Ionics for $1.08B
+    impact: 1
+  - year: '2025'
+    text: PsiQuantum raises $1B to build at scale
+    impact: 1.5
+  - year: '2025'
+    text: Quantinuum raises $600M at $10B value
+    impact: 1
+  - year: '2025'
+    text: Caltech traps 6,100 atom qubits at once
+    impact: 1
+  - year: '2025'
+    text: Google Quantum Echoes beats supercomputers
+    impact: 1.5
+  - year: '2025'
+    text: Nobel Prize honors superconducting qubits
+    impact: 1
+  - year: '2025'
+    text: IBM Loon chip tests error correction parts
+    impact: 1
+  - year: '2026'
+    text: Quantinuum IPO raises $1.68B for quantum
+    impact: 2
+  note:
+  - We kept the events we believe pushed quantum computing forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: quantum-computing
+  title: 'Where did quantum computing
+
+    investors put their money lately?'
+  note:
+  - We added up every equity round of quantum computing startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in quantum computing?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-00.png
+    x: 376.3
+    y: 266.8
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-02.png
+    x: 543.4
+    y: 261.4
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-03.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-04.png
+    x: 795.4
+    y: 266.8
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-05.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-06.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-07.png
+    x: 309.6
+    y: 301.7
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-08.png
+    x: 496.7
+    y: 312.9
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-09.png
+    x: 587.1
+    y: 310.5
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-10.png
+    x: 662.6
+    y: 298.7
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-11.png
+    x: 326.6
+    y: 397.3
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-12.png
+    x: 471.4
+    y: 404.1
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-13.png
+    x: 547.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-14.png
+    x: 681.4
+    y: 386.1
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-15.png
+    x: 748.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-16.png
+    x: 199.3
+    y: 490.7
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-17.png
+    x: 437.1
+    y: 477.9
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-18.png
+    x: 507.9
+    y: 489.9
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-19.png
+    x: 718.1
+    y: 474.6
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-20.png
+    x: 259.3
+    y: 505.3
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-21.png
+    x: 334.1
+    y: 499.1
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-22.png
+    x: 662.6
+    y: 518.8
+  - src: ../../assets/logos/pp_live/quantum-computing/s10-23.png
+    x: 779.6
+    y: 505.3
+  cols:
+  - ror
+  - On-prem / edge deployment
+  - '- Enabling components & IP'
+  rows:
+  - QPU / system hardwa
+  - Control & runtime infr
+  - Developer platforms &
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out sensing, communications, generic cloud and pure research tools, with all the sources at the end of the report
+ed209p:
+  title: 'What makes IonQ the leader in
+
+    the pure play quantum race?'
+  companies:
+  - short: IonQ
+    src: ../../assets/logos/pp_live/quantum-computing/s12-00.png
+  - short: Quantinuum
+    src: ../../assets/logos/pp_live/quantum-computing/s12-01.png
+  - short: Rigetti
+    src: ../../assets/logos/pp_live/quantum-computing/s12-02.png
+  - short: D-Wave
+    src: ../../assets/logos/pp_live/quantum-computing/s12-03.png
+  - short: PsiQuantum
+    src: ../../assets/logos/pp_live/quantum-computing/s12-04.png
+  - short: Pasqal
+    src: ../../assets/logos/pp_live/quantum-computing/s12-05.png
+  criteria:
+  - name: Over $100M 2025 revenue
+    why: Biggest pure play sales
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Owns a chip foundry
+    why: Controls qubit chip supply
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Quantum networking unit
+    why: Second market beyond compute
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Listed on Nasdaq or NYSE
+    why: Easy access to capital
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Raised over $1B in cash
+    why: Funds a long R&D roadmap
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: On premise systems sold
+    why: Big deals with governments
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Gov funded utility site
+    why: Public money for 1M qubits
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really belong
+
+    in quantum computing today?'
+  TL:
+    name: IBM
+    src: ../../assets/logos/pp_live/quantum-computing/s01-00.png
+    text: has booked about $1 billion in quantum sales over the years, a small slice of a company that earns over $60 billion a year
+  TR:
+    name: SandboxAQ
+    src: ../../assets/logos/pp_live/quantum-computing/s01-02.png
+    text: spun out of Alphabet with quantum in its pitch, but it sells encryption software and quantum sensors, not computers
+  BL:
+    name: Multiverse Computing
+    src: ../../assets/logos/pp_live/quantum-computing/s01-10.png
+    text: started with quantum-inspired optimization software, but its growth now comes from compressing AI models
+  BR:
+    name: Bluefors
+    src: ../../assets/logos/pp_live/quantum-computing/s01-11.png
+    text: builds the fridges that cool many quantum computers, but sells the same cryogenics to physics labs and fusion projects
+  caption:
+  - Distance to the center reflects how much a company’s revenue depends on building or running quantum computers
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/quantum-computing/s01-01.png
+  - ../../assets/logos/pp_live/quantum-computing/s01-03.png
+  - ../../assets/logos/pp_live/quantum-computing/s01-04.png
+  - ../../assets/logos/pp_live/quantum-computing/s01-05.png
+  - ../../assets/logos/pp_live/quantum-computing/s01-06.png
+  - ../../assets/logos/pp_live/quantum-computing/s01-07.png
+  - ../../assets/logos/pp_live/quantum-computing/s01-08.png
+  - ../../assets/logos/pp_live/quantum-computing/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/quantum-computing/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/quantum-computing/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/quantum-computing/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/quantum-computing/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/quantum-computing/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/quantum-computing/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/quantum-computing/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/quantum-computing/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Is the industrial robotics
+
+    market still growing fast?'
+  date: ''
+  expl: $55B $50B $45B $41B $37B $34B $28 B $31B
+  term: quantum computing
+  note:
+  - We compared forecasts from MarketsandMarkets, Stratview, Grand View and Fortune
+  - We aligned their timelines, and all the sources we used are listed at the end of the report
+  csv: assets/trends/quantum-computing/quantum-computing.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the quantum computing
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but the market must deliver machines that fix their own errors, and prove clear gains on real problems in chemistry, finance, and materials.
+    It must also make chips, fridges, and control systems at industrial scale, and keep public and private money flowing until profits arrive.
+  note:
+  - We compared forecasts from QED-C, MarketsandMarkets, Fortune Business Insights and Grand View
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 1.8
+  cagr: 30
+  y0: 2026

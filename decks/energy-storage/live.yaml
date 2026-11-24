@@ -1,0 +1,607 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would energy storage
+
+    customers actually pay to solve?'
+  auds:
+  - Project developers
+  - Power utilities
+  - Pension funds
+  - Project lenders
+  - System integrators
+  pains:
+  - - They wait years in a crowded US queue to connect to the grid
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They saw Texas battery revenue collapse within just two years
+    - - 3
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They lose the US tax credit if too many parts come from China
+    - - 3
+      - 1
+      - 2
+      - 3
+      - 3
+  - - They wait more than two years for a transformer to arrive
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 2
+  - - They face local bans after the Moss Landing battery fire
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They cannot fix a price when lithium doubles within months
+    - - 2
+      - 1
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which energy storage player has
+
+    the most complete tech today?'
+  companies:
+  - name: Tesla
+    src: ../../assets/logos/pp_live/energy-storage/s05-00.png
+  - name: BYD
+    src: ../../assets/logos/pp_live/energy-storage/s05-01.png
+  - name: LG Energy
+    src: ../../assets/logos/pp_live/energy-storage/s05-02.png
+  - name: CATL
+    src: ../../assets/logos/pp_live/energy-storage/s05-03.png
+  - name: Sungrow
+    src: ../../assets/logos/pp_live/energy-storage/s05-04.png
+  - name: Fluence
+    src: ../../assets/logos/pp_live/energy-storage/s05-05.png
+  features:
+  - header: Own|cells
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Home|battery
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Bidding|software
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Makes|EVs
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Sodium-|ion
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Solar|inverters
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: US|factory
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for energy storage?'
+  events:
+  - odds: 35
+    impact: 3
+    text: US content rules and tariffs effectively ban Chinese cells from CATL and BYD, raising storage costs
+  - odds: 25
+    impact: 3
+    text: Merchant battery revenues collapse further in Texas and California as too many batteries chase the same peaks
+  - odds: 20
+    impact: 2
+    text: Grid connection queues in the US and Germany stay blocked, delaying storage projects for years
+  - odds: 15
+    impact: 1
+    text: Gas turbines win data center power deals, leaving less room for battery storage projects
+  - odds: 12
+    impact: 2
+    text: A major battery fire like Moss Landing leads counties to ban new large storage projects
+  - odds: 10
+    impact: 2
+    text: AI data center demand slows and many planned battery deals with hyperscalers are canceled
+  - odds: 8
+    impact: 2
+    text: Lithium prices triple again and raise battery cell costs for storage developers worldwide
+  - odds: 5
+    impact: 3
+    text: Congress ends the storage tax credit early, cutting returns on new battery projects in America
+  note:
+  - We listed the events that could slow energy storage down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed energy storage
+
+    forward, year after year?'
+  events:
+  - year: '1859'
+    text: Plante invents the rechargeable battery
+    impact: 0.5
+  - year: '1907'
+    text: Swiss plant pumps water uphill as storage
+    impact: 1
+  - year: '1929'
+    text: Rocky River brings pumped storage to US
+    impact: 0.5
+  - year: '1978'
+    text: Huntorf stores power as compressed air
+    impact: 0.5
+  - year: '1984'
+    text: Dinorwig covers Britain's TV kettle surges
+    impact: 0.5
+  - year: '1991'
+    text: Sony sells the first lithium ion battery
+    impact: 2.5
+  - year: '1997'
+    text: LFP chemistry promises safer, cheaper cells
+    impact: 1
+  - year: '2010'
+    text: Nissan Leaf starts EV battery cost slide
+    impact: 1.5
+  - year: '2013'
+    text: Germany subsidizes home solar batteries
+    impact: 1
+  - year: '2015'
+    text: Tesla Powerwall turns home storage mainstream
+    impact: 2
+  - year: '2017'
+    text: Tesla builds Australia's big battery fast
+    impact: 1.5
+  - year: '2019'
+    text: Nobel prize honors lithium ion inventors
+    impact: 0.5
+  - year: '2021'
+    text: Texas freeze sends homeowners to backup power
+    impact: 1
+  - year: '2021'
+    text: CATL unveils a lithium free sodium battery
+    impact: 0.5
+  - year: '2022'
+    text: LFP patents expire, cheap cells spread
+    impact: 1.5
+  - year: '2022'
+    text: IRA tax credit now covers standalone storage
+    impact: 2.5
+  - year: '2022'
+    text: Gas crisis sends Europeans to home batteries
+    impact: 1.5
+  - year: '2023'
+    text: California solar pay cut favors batteries
+    impact: 1.5
+  - year: '2023'
+    text: Lithium price crash makes cells cheaper
+    impact: 2
+  - year: '2023'
+    text: Form Energy builds iron air battery plant
+    impact: 0.5
+  - year: '2024'
+    text: Tesla deploys record 31 GWh of storage
+    impact: 1
+  - year: '2024'
+    text: California battery fleet tops 10 GW
+    impact: 1.5
+  - year: '2024'
+    text: CATL TENER promises 5 years without decay
+    impact: 0.5
+  - year: '2025'
+    text: Storage battery packs fall 45% to $70
+    impact: 2.5
+  - year: '2025'
+    text: US budget law spares storage tax credits
+    impact: 1.5
+  - year: '2025'
+    text: Iberian blackout sends Spain to batteries
+    impact: 1
+  - year: '2025'
+    text: Tesla opens Shanghai Megapack factory
+    impact: 0.5
+  - year: '2026'
+    text: Global storage passes 100 GW a year
+    impact: 1.5
+  - year: '2026'
+    text: US installs a record 20 GWh quarter
+    impact: 1
+  - year: '2026'
+    text: Spain's battery fleet grows almost sevenfold
+    impact: 1
+  note:
+  - We kept the events we believe pushed energy storage forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: energy-storage
+  title: 'Where did energy storage investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of energy storage startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in energy storage today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/energy-storage/s10-00.png
+    x: 249.0
+    y: 265.3
+  - src: ../../assets/logos/pp_live/energy-storage/s10-01.png
+    x: 388.5
+    y: 282.0
+  - src: ../../assets/logos/pp_live/energy-storage/s10-02.png
+    x: 702.6
+    y: 266.1
+  - src: ../../assets/logos/pp_live/energy-storage/s10-03.png
+    x: 301.9
+    y: 291.0
+  - src: ../../assets/logos/pp_live/energy-storage/s10-04.png
+    x: 482.1
+    y: 287.1
+  - src: ../../assets/logos/pp_live/energy-storage/s10-05.png
+    x: 542.8
+    y: 304.7
+  - src: ../../assets/logos/pp_live/energy-storage/s10-06.png
+    x: 601.9
+    y: 292.3
+  - src: ../../assets/logos/pp_live/energy-storage/s10-07.png
+    x: 764.4
+    y: 291.9
+  - src: ../../assets/logos/pp_live/energy-storage/s10-08.png
+    x: 822.4
+    y: 302.1
+  - src: ../../assets/logos/pp_live/energy-storage/s10-09.png
+    x: 316.9
+    y: 370.3
+  - src: ../../assets/logos/pp_live/energy-storage/s10-10.png
+    x: 607.1
+    y: 370.7
+  - src: ../../assets/logos/pp_live/energy-storage/s10-11.png
+    x: 709.7
+    y: 372.0
+  - src: ../../assets/logos/pp_live/energy-storage/s10-12.png
+    x: 265.9
+    y: 399.4
+  - src: ../../assets/logos/pp_live/energy-storage/s10-13.png
+    x: 369.9
+    y: 386.1
+  - src: ../../assets/logos/pp_live/energy-storage/s10-14.png
+    x: 484.7
+    y: 390.9
+  - src: ../../assets/logos/pp_live/energy-storage/s10-15.png
+    x: 554.6
+    y: 396.0
+  - src: ../../assets/logos/pp_live/energy-storage/s10-16.png
+    x: 760.3
+    y: 402.9
+  - src: ../../assets/logos/pp_live/energy-storage/s10-17.png
+    x: 810.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/energy-storage/s10-18.png
+    x: 344.6
+    y: 493.3
+  - src: ../../assets/logos/pp_live/energy-storage/s10-19.png
+    x: 594.2
+    y: 487.7
+  - src: ../../assets/logos/pp_live/energy-storage/s10-20.png
+    x: 708.6
+    y: 475.7
+  - src: ../../assets/logos/pp_live/energy-storage/s10-21.png
+    x: 819.2
+    y: 484.7
+  - src: ../../assets/logos/pp_live/energy-storage/s10-22.png
+    x: 253.3
+    y: 503.1
+  - src: ../../assets/logos/pp_live/energy-storage/s10-23.png
+    x: 396.2
+    y: 510.0
+  - src: ../../assets/logos/pp_live/energy-storage/s10-24.png
+    x: 476.8
+    y: 504.9
+  - src: ../../assets/logos/pp_live/energy-storage/s10-25.png
+    x: 537.6
+    y: 513.0
+  - src: ../../assets/logos/pp_live/energy-storage/s10-26.png
+    x: 762.6
+    y: 510.9
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Batteries
+  - Newcomers
+  - Cells
+  note:
+  - We left out giants like Tesla, CATL, BYD, Sungrow and Fluence, and listed firms
+  - We placed each one by its focus, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these energy storage
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Backer|pulled out
+  - No buyer|found
+  - Assets|sold off
+  rows:
+  - name: Northvolt
+    ending: Went bankrupt
+    start: '2015'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/energy-storage/s11-00.png
+    ini: N
+    slug: northvolt
+    domain: northvolt.com
+  - name: Natron
+    ending: Shut down
+    start: '2012'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/energy-storage/s11-01.png
+    ini: N
+    slug: natron-energy
+    domain: natron.energy
+  - name: Powin
+    ending: Went bankrupt
+    start: '1989'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/energy-storage/s11-02.png
+    ini: P
+    slug: powin
+    domain: powin.com
+  - name: Ambri
+    ending: Went bankrupt
+    start: '2010'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/energy-storage/s11-03.png
+    ini: A
+    slug: ambri
+    domain: ambri.com
+  - name: Redflow
+    ending: Went bankrupt
+    start: '2005'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/energy-storage/s11-04.png
+    ini: R
+    slug: redflow
+    domain: redflow.com
+  note:
+  - We tracked the energy storage startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Tesla winning
+
+    the home battery market?'
+  companies:
+  - short: Tesla
+    src: ../../assets/logos/pp_live/energy-storage/s12-00.png
+  - short: Enphase
+    src: ../../assets/logos/pp_live/energy-storage/s12-01.png
+  - short: FranklinWH
+    src: ../../assets/logos/pp_live/energy-storage/s12-02.png
+  - short: SolarEdge
+    src: ../../assets/logos/pp_live/energy-storage/s12-03.png
+  - short: sonnen
+    src: ../../assets/logos/pp_live/energy-storage/s12-04.png
+  criteria:
+  - name: Top share of US quotes
+    why: First pick of US installers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 1M+ Powerwalls installed
+    why: Largest home battery base
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Utility scale storage arm
+    why: Megapack scale cuts cost
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Sells solar inverters too
+    why: One stop home energy system
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Publicly listed
+    why: Access to public capital
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Runs virtual power plants
+    why: Earns grid payments for users
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as energy storage,
+
+    and what only looks like it?'
+  TL:
+    name: Albemarle
+    src: ../../assets/logos/pp_live/energy-storage/s01-00.png
+    text: is a leading supplier of lithium for batteries, but it sells raw materials, and none of its products store energy
+  TR:
+    name: Vestas
+    src: ../../assets/logos/pp_live/energy-storage/s01-02.png
+    text: builds wind turbines for wind farms, but they only make power when the wind blows, and it sells no way to store that power
+  BL:
+    name: Enphase
+    src: ../../assets/logos/pp_live/energy-storage/s01-10.png
+    text: built its name on solar microinverters and now ships home batteries too, but it is still a solar electronics company
+  BR:
+    name: Nel
+    src: ../../assets/logos/pp_live/energy-storage/s01-11.png
+    text: builds electrolyzers that turn electricity into hydrogen, which can be stored, but most of it is used as fuel or feedstock
+  caption:
+  - Distance to the center reflects how much of the business is storing energy and giving it back later, in whatever form
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/energy-storage/s01-01.png
+  - ../../assets/logos/pp_live/energy-storage/s01-03.png
+  - ../../assets/logos/pp_live/energy-storage/s01-04.png
+  - ../../assets/logos/pp_live/energy-storage/s01-05.png
+  - ../../assets/logos/pp_live/energy-storage/s01-06.png
+  - ../../assets/logos/pp_live/energy-storage/s01-07.png
+  - ../../assets/logos/pp_live/energy-storage/s01-08.png
+  - ../../assets/logos/pp_live/energy-storage/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/energy-storage/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/energy-storage/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/energy-storage/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/energy-storage/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/energy-storage/s01-06.png
+    x: 514.9
+    y: 394.9
+  - src: ../../assets/logos/pp_live/energy-storage/s01-07.png
+    x: 381.2
+    y: 430.9
+  - src: ../../assets/logos/pp_live/energy-storage/s01-08.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/energy-storage/s01-09.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up battery
+
+    storage, as solar and wind need backup'
+  date: 0 Recently.
+  expl: Solar and wind produce power when it is not needed, and batteries store it for later. Homes, businesses and utilities started buying storage, and
+    searches for battery storage kept climbing.
+  term: energy storage
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/energy-storage/energy-storage.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is energy storage
+
+    still growing fast?'
+  lead: ''
+  condition: Yes, but gigawatt-hours must keep growing about 20% a year while prices fall more slowly than in 2025, and the US must find enough non-Chinese
+    cells. It must also turn the 142 gigawatt-hours signed by data centers into built plants and keep trading revenue high enough to finance new batteries.
+  note:
+  - We compared forecasts from MarketsandMarkets, Coherent, Fortune, Grand View and BNEF to build a realistic range
+  - We added our funding tracker and allowed for falling prices, and all the sources are included at the end of the report
+  size: 87
+  cagr: 16
+  y0: 2026

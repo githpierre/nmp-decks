@@ -1,0 +1,608 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would legal AI
+
+    customers actually pay to solve?'
+  auds:
+  - Large firms
+  - Small firms
+  - In-house teams
+  - State courts
+  - Law students
+  pains:
+  - - They see AI tools give confident answers that turn out wrong
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They pay high prices for access to the main legal databases
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 3
+  - - They must check by hand that each case is still good law
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 1
+  - - They face court rules on how AI research may be used in filings
+    - - 2
+      - 1
+      - 1
+      - 3
+      - 2
+  - - They lose time switching between many different research sources
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They cannot keep up with new laws in every single jurisdiction
+    - - 2
+      - 1
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which legal AI tools can already
+
+    do what law firms ask for?'
+  companies:
+  - name: Harvey
+    src: ../../assets/logos/pp_live/legal-ai/s05-00.png
+  - name: Legora
+    src: ../../assets/logos/pp_live/legal-ai/s05-01.png
+  - name: LexisNexis
+    src: ../../assets/logos/pp_live/legal-ai/s05-02.png
+  - name: Luminance
+    src: ../../assets/logos/pp_live/legal-ai/s05-03.png
+  - name: CoCounsel
+    src: ../../assets/logos/pp_live/legal-ai/s05-04.png
+  features:
+  - header: Own case|law
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Mobile|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Client|portal
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Workflow|builder
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Bulk|review
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Contract|portfolio
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Own legal|LLM
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to legal AI?'
+  events:
+  - odds: 30
+    impact: 3
+    text: Google, OpenAI and Anthropic sell legal AI directly to law firms, squeezing Harvey and Legora
+  - odds: 20
+    impact: 2
+    text: Dozens of legal AI tools sell the same features, and prices collapse across the market
+  - odds: 20
+    impact: 3
+    text: Legal AI funding dries up after Harvey's huge rounds, leaving smaller startups unable to raise
+  - odds: 15
+    impact: 2
+    text: Law firms keep billing by the hour, so AI tools that cut hours see slow adoption
+  - odds: 12
+    impact: 2
+    text: An AI tool causes a court disaster with fake citations that costs a client its case
+  - odds: 10
+    impact: 1
+    text: Bar associations and courts pass strict rules that limit how lawyers can use AI tools
+  - odds: 8
+    impact: 2
+    text: A large leak of confidential client files at a legal AI vendor makes law firms pull back
+  - odds: 5
+    impact: 2
+    text: Thomson Reuters and LexisNexis cut off content licenses to Harvey and other legal AI startups
+  note:
+  - We listed the events that could slow legal ai down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed legal AI
+
+    forward, year after year?'
+  events:
+  - year: '1987'
+    text: First AI and Law conference starts field
+    impact: 0.5
+  - year: '2006'
+    text: E-discovery rules bury firms in documents
+    impact: 2.5
+  - year: '2009'
+    text: Clients refuse to pay for junior work
+    impact: 1.5
+  - year: '2011'
+    text: Watson win pushes AI into legal research
+    impact: 1
+  - year: '2012'
+    text: Judge backs predictive coding for discovery
+    impact: 2.5
+  - year: '2016'
+    text: UK court approves AI document review
+    impact: 1
+  - year: '2016'
+    text: Panama Papers needed software for 11.5M files
+    impact: 1
+  - year: '2016'
+    text: ROSS AI joins a bankruptcy practice
+    impact: 1
+  - year: '2017'
+    text: JPMorgan COIN reviews loans in seconds
+    impact: 1.5
+  - year: '2018'
+    text: AI beats 20 lawyers reviewing NDAs
+    impact: 1
+  - year: '2018'
+    text: GDPR forces firms to redo countless contracts
+    impact: 1
+  - year: '2020'
+    text: GPT-3 writes passable legal prose
+    impact: 1
+  - year: '2020'
+    text: Remote courts get lawyers used to software
+    impact: 1
+  - year: '2020'
+    text: Utah sandbox lets non-lawyers sell legal help
+    impact: 0.5
+  - year: '2021'
+    text: Associate pay war makes junior work costly
+    impact: 1
+  - year: '2021'
+    text: Litera buys Kira, AI review goes mainstream
+    impact: 1
+  - year: '2022'
+    text: ChatGPT drafts contracts in seconds
+    impact: 3
+  - year: '2023'
+    text: A&O gives 3,500 lawyers Harvey access
+    impact: 2
+  - year: '2023'
+    text: Lawyers fined for ChatGPT made up cases
+    impact: 1
+  - year: '2023'
+    text: $650M Casetext deal prices legal AI high
+    impact: 1.5
+  - year: '2023'
+    text: A&O sells its own AI contract tool
+    impact: 1
+  - year: '2023'
+    text: Judges require lawyers to disclose AI use
+    impact: 0.5
+  - year: '2024'
+    text: Stanford finds legal AI still hallucinates
+    impact: 1
+  - year: '2024'
+    text: ABA Opinion 512 sets AI ethics rules
+    impact: 1.5
+  - year: '2025'
+    text: Ross ruling makes legal data a moat
+    impact: 1
+  - year: '2025'
+    text: Harvey teams with LexisNexis for case law
+    impact: 1.5
+  - year: '2025'
+    text: UK clears an AI law firm
+    impact: 1
+  - year: '2025'
+    text: Clio's $1B vLex deal arms small firms
+    impact: 1
+  - year: '2026'
+    text: Anthropic legal tool sinks legal data stocks
+    impact: 2
+  - year: '2026'
+    text: Harvey's $15.5B value shows firms pay
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed legal ai forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: legal-ai
+  title: 'Where did legal AI investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of legal ai startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the legal AI market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/legal-ai/s10-00.png
+    x: 299.1
+    y: 275.6
+  - src: ../../assets/logos/pp_live/legal-ai/s10-01.png
+    x: 536.4
+    y: 276.0
+  - src: ../../assets/logos/pp_live/legal-ai/s10-02.png
+    x: 249.0
+    y: 302.1
+  - src: ../../assets/logos/pp_live/legal-ai/s10-03.png
+    x: 356.6
+    y: 288.0
+  - src: ../../assets/logos/pp_live/legal-ai/s10-04.png
+    x: 475.3
+    y: 303.0
+  - src: ../../assets/logos/pp_live/legal-ai/s10-05.png
+    x: 605.4
+    y: 298.7
+  - src: ../../assets/logos/pp_live/legal-ai/s10-06.png
+    x: 688.7
+    y: 294.9
+  - src: ../../assets/logos/pp_live/legal-ai/s10-07.png
+    x: 758.1
+    y: 285.4
+  - src: ../../assets/logos/pp_live/legal-ai/s10-08.png
+    x: 815.8
+    y: 303.9
+  - src: ../../assets/logos/pp_live/legal-ai/s10-09.png
+    x: 557.4
+    y: 370.7
+  - src: ../../assets/logos/pp_live/legal-ai/s10-10.png
+    x: 784.9
+    y: 371.6
+  - src: ../../assets/logos/pp_live/legal-ai/s10-11.png
+    x: 247.9
+    y: 402.4
+  - src: ../../assets/logos/pp_live/legal-ai/s10-12.png
+    x: 305.1
+    y: 391.7
+  - src: ../../assets/logos/pp_live/legal-ai/s10-13.png
+    x: 376.1
+    y: 402.9
+  - src: ../../assets/logos/pp_live/legal-ai/s10-14.png
+    x: 474.4
+    y: 398.6
+  - src: ../../assets/logos/pp_live/legal-ai/s10-15.png
+    x: 682.9
+    y: 403.3
+  - src: ../../assets/logos/pp_live/legal-ai/s10-16.png
+    x: 733.3
+    y: 384.9
+  - src: ../../assets/logos/pp_live/legal-ai/s10-17.png
+    x: 607.5
+    y: 406.7
+  - src: ../../assets/logos/pp_live/legal-ai/s10-18.png
+    x: 273.9
+    y: 492.4
+  - src: ../../assets/logos/pp_live/legal-ai/s10-19.png
+    x: 345.6
+    y: 477.0
+  - src: ../../assets/logos/pp_live/legal-ai/s10-20.png
+    x: 465.2
+    y: 480.6
+  - src: ../../assets/logos/pp_live/legal-ai/s10-21.png
+    x: 523.1
+    y: 474.6
+  - src: ../../assets/logos/pp_live/legal-ai/s10-22.png
+    x: 602.4
+    y: 473.1
+  - src: ../../assets/logos/pp_live/legal-ai/s10-23.png
+    x: 696.6
+    y: 483.4
+  - src: ../../assets/logos/pp_live/legal-ai/s10-24.png
+    x: 396.2
+    y: 508.3
+  - src: ../../assets/logos/pp_live/legal-ai/s10-25.png
+    x: 746.8
+    y: 510.9
+  - src: ../../assets/logos/pp_live/legal-ai/s10-26.png
+    x: 800.6
+    y: 498.9
+  cols:
+  - Newcomers
+  - Challengers
+  - Rising stars
+  rows:
+  - Assistants
+  - Contracts
+  - Litigation
+  note:
+  - We left out publishe ana tise
+  - h like Thomson Reuters, LexisNexis and Google
+  - 'We placed each o: a its foci'
+  - are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these legal AI
+
+    startups, and how did they end?'
+  causes:
+  - Regulator or|court action
+  - Ran out|of cash
+  - Funding|round failed
+  - Model or|product flop
+  rows:
+  - name: Atrium
+    ending: Shut down
+    start: '2017'
+    end: '2020'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/legal-ai/s11-00.png
+    ini: A
+    slug: atrium
+    domain: atrium.co
+  - name: ROSS
+    ending: Shut down
+    start: '2014'
+    end: '2020'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/legal-ai/s11-01.png
+    ini: R
+    slug: ross
+    domain: rossintelligence.com
+  - name: Gavelytics
+    ending: Shut down
+    start: '2017'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/legal-ai/s11-02.png
+    ini: G
+    slug: gavelytics
+    domain: gavelytics.com
+  - name: Robin AI
+    ending: Sold in pieces
+    start: '2019'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/legal-ai/s11-03.png
+    ini: R
+    slug: robin-ai
+    domain: robinai.com
+  - name: DoNotPay
+    ending: Paid a fine
+    start: '2015'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/legal-ai/s11-04.png
+    ini: D
+    slug: donotpay
+    domain: donotpay.com
+  note:
+  - We tracked the legal ai startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is EvenUp winning
+
+    personal injury legal AI?'
+  companies:
+  - short: EvenUp
+    src: ../../assets/logos/pp_live/legal-ai/s12-00.png
+  - short: Eve
+    src: ../../assets/logos/pp_live/legal-ai/s12-01.png
+  - short: Supio
+    src: ../../assets/logos/pp_live/legal-ai/s12-02.png
+  - short: Painworth
+    src: ../../assets/logos/pp_live/legal-ai/s12-03.png
+  - short: Filevine
+    src: ../../assets/logos/pp_live/legal-ai/s12-04.png
+  criteria:
+  - name: Valued at $2B+
+    why: Series E led by Bessemer
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 2,000+ PI law firms
+    why: Largest plaintiff client base
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: AI voice and SMS agents
+    why: Automates client follow ups
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 200,000+ cases handled
+    why: Data to value each claim
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Raised $100M+
+    why: Cash to outbuild rivals
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Built for plaintiff firms
+    why: Focused on injury claims
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: AI medical chronologies
+    why: Hours of review in minutes
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is in the legal AI
+
+    market, and what is out?'
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/legal-ai/s01-00.png
+    text: iManage stores the files of many large law firms and is adding AI, but it remains conventional document management software
+  TR:
+    name: OpenAT
+    src: ../../assets/logos/pp_live/legal-ai/s01-01.png
+    text: is used by many lawyers to draft and summarize documents, but ChatGPT remains a general assistant with no legal focus
+  BL:
+    name: Norm Ai
+    src: ../../assets/logos/pp_live/legal-ai/s01-10.png
+    text: builds AI agents that check work against financial rules, which brings it closer to compliance than to legal work
+  BR:
+    name: Eudia
+    src: ../../assets/logos/pp_live/legal-ai/s01-11.png
+    text: sells legal AI agents to in-house teams, but it also runs its own AI- augmented law firm, so it is half software
+  caption:
+  - Distance to the center reflects how central AI is to the product and how specifically it is built for legal work
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/legal-ai/s01-02.png
+  - ../../assets/logos/pp_live/legal-ai/s01-03.png
+  - ../../assets/logos/pp_live/legal-ai/s01-04.png
+  - ../../assets/logos/pp_live/legal-ai/s01-05.png
+  - ../../assets/logos/pp_live/legal-ai/s01-06.png
+  - ../../assets/logos/pp_live/legal-ai/s01-07.png
+  - ../../assets/logos/pp_live/legal-ai/s01-08.png
+  - ../../assets/logos/pp_live/legal-ai/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/legal-ai/s01-02.png
+    x: 435.6
+    y: 287.4
+  - src: ../../assets/logos/pp_live/legal-ai/s01-03.png
+    x: 521.1
+    y: 321.2
+  - src: ../../assets/logos/pp_live/legal-ai/s01-04.png
+    x: 463.7
+    y: 356.4
+  - src: ../../assets/logos/pp_live/legal-ai/s01-05.png
+    x: 402.6
+    y: 381.6
+  - src: ../../assets/logos/pp_live/legal-ai/s01-06.png
+    x: 515.4
+    y: 391.1
+  - src: ../../assets/logos/pp_live/legal-ai/s01-07.png
+    x: 460.1
+    y: 416.4
+  - src: ../../assets/logos/pp_live/legal-ai/s01-08.png
+    x: 386.4
+    y: 440.8
+  - src: ../../assets/logos/pp_live/legal-ai/s01-09.png
+    x: 518.8
+    y: 454.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more lawyers look up
+
+    legal AI tools, and few people noticed'
+  date: Lately.
+  expl: Law firms and in-house teams found out AI can read contracts and draft memos in minutes. After a few legal AI startups raised big rounds, lawyers
+    and clients went looking for tools they could try.
+  term: legal ai
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/legal-ai/legal-ai.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger
+
+    can legal AI get?'
+  lead: ''
+  condition: To get that big, the market must turn AI into paid legal work, as firms and legal teams move budgets from hours to software every year. It
+    must also keep AI errors out of courts, win the trust of clients and regulators, and resist cheap general AI tools that do part of the job.
+  note:
+  - We compared forecasts from Technavio, Fortune Business Insights, The Business Research Company and Mordor
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 3.2
+  cagr: 20
+  y0: 2026

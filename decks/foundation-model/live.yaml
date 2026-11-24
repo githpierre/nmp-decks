@@ -1,0 +1,512 @@
+ed058:
+  type: pp_pains
+  title: 'Which foundation model
+
+    problems are still unsolved?'
+  auds:
+  - AI startups
+  - Large enterprises
+  - App developers
+  - Public agencies
+  - Media groups
+  pains:
+  - - They struggle to adapt a general model to their own business
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They pay rising compute bills to train and run larger models
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They face lawsuits over the data used to train the models
+    - - 2
+      - 2
+      - 1
+      - 2
+      - 3
+  - - They get stuck when one provider changes its terms or prices
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They see open models catch up and push prices down quickly
+    - - 3
+      - 1
+      - 3
+      - 1
+      - 1
+  - - They worry about bias and harmful outputs in public services
+    - - 1
+      - 2
+      - 1
+      - 3
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI lab has the widest
+
+    lineup of models today?'
+  companies:
+  - name: Google
+    src: ../../assets/logos/pp_live/foundation-model/s05-00.png
+  - name: xAI
+    src: ../../assets/logos/pp_live/foundation-model/s05-01.png
+  - name: OpenAI
+    src: ../../assets/logos/pp_live/foundation-model/s05-02.png
+  - name: Mistral
+    src: ../../assets/logos/pp_live/foundation-model/s05-03.png
+  - name: DeepSeek
+    src: ../../assets/logos/pp_live/foundation-model/s05-04.png
+  - name: Anthropic
+    src: ../../assets/logos/pp_live/foundation-model/s05-05.png
+  features:
+  - header: Open|weights
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Image|model
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Video|model
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Voice|models
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Coding|agent
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Computer|use
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Robot|model
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for foundation models?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Open weight models from DeepSeek, Qwen and Mistral close the gap and crush API prices for everyone
+  - odds: 40
+    impact: 3
+    text: Training costs for top models pass 10 billion dollars and only three or four labs compete
+  - odds: 40
+    impact: 2
+    text: The EU AI Act general purpose model rules force audits and disclosures that delay European launches
+  - odds: 35
+    impact: 2
+    text: Big tech like Google and Microsoft bundle models for free in cloud and office suites
+  - odds: 30
+    impact: 1
+    text: GPU and power shortages delay training runs at smaller labs like Cohere and Reflection AI
+  - odds: 25
+    impact: 2
+    text: Scaling returns flatten and new models bring small gains, so enterprise buyers stop upgrading
+  - odds: 20
+    impact: 3
+    text: US courts rule that training on copyrighted books and news needs licenses, adding billions in costs
+  - odds: 6
+    impact: 3
+    text: A model is used in a major bioweapon or cyber incident and governments impose licensing
+  note:
+  - We listed the events that could slow foundation model down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept foundation models
+
+    moving forward, year after year?'
+  events:
+  - year: '2012'
+    text: AlexNet shows GPUs can train deep nets
+    impact: 2
+  - year: '2013'
+    text: word2vec turns words into useful numbers
+    impact: 1
+  - year: '2017'
+    text: Transformer paper makes models easy to scale
+    impact: 3
+  - year: '2018'
+    text: BERT shows one model serves many tasks
+    impact: 2
+  - year: '2018'
+    text: GPT-1 shows pretraining beats task models
+    impact: 1
+  - year: '2019'
+    text: Microsoft invests $1B in OpenAI
+    impact: 1.5
+  - year: '2020'
+    text: Scaling laws show bigger models get better
+    impact: 2
+  - year: '2020'
+    text: GPT-3 learns tasks from a few examples
+    impact: 2.5
+  - year: '2021'
+    text: CLIP and DALL-E take models into images
+    impact: 1
+  - year: '2021'
+    text: Stanford names foundation models as a field
+    impact: 1
+  - year: '2022'
+    text: Stable Diffusion opens image models to all
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT hits 100M users in two months
+    impact: 3
+  - year: '2023'
+    text: Microsoft invests $10B in OpenAI
+    impact: 2
+  - year: '2023'
+    text: GPT-4 passes the bar exam
+    impact: 1.5
+  - year: '2023'
+    text: Llama 2 makes open models commercially free
+    impact: 1.5
+  - year: '2023'
+    text: Amazon pledges $4B to Anthropic
+    impact: 1.5
+  - year: '2024'
+    text: EU AI Act sets rules for models
+    impact: 1
+  - year: '2024'
+    text: Apple brings AI models to iPhones
+    impact: 1
+  - year: '2024'
+    text: Llama 3.1 405B makes open frontier free
+    impact: 1.5
+  - year: '2024'
+    text: OpenAI o1 kicks off reasoning models
+    impact: 2
+  - year: '2025'
+    text: DeepSeek R1 matches leaders at low cost
+    impact: 2
+  - year: '2025'
+    text: Stargate pledges $500B for model compute
+    impact: 2
+  - year: '2025'
+    text: Claude Code turns models into coding agents
+    impact: 1.5
+  - year: '2025'
+    text: US AI Action Plan backs model makers
+    impact: 1
+  - year: '2025'
+    text: GPT-5 launches to 700M weekly users
+    impact: 1
+  - year: '2025'
+    text: Nvidia pledges up to $100B to OpenAI
+    impact: 1.5
+  - year: '2025'
+    text: Gemini 3 tops leaderboards, lifting Google
+    impact: 1
+  - year: '2026'
+    text: Claude Cowork sends software stocks tumbling
+    impact: 1
+  - year: '2026'
+    text: Anthropic raises $30B at a $380B value
+    impact: 1.5
+  - year: '2026'
+    text: OpenAI raises $110B at a $730B value
+    impact: 2
+  note:
+  - We kept the events we believe pushed foundation model forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: foundation-model
+  title: 'Where did foundation model investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of foundation model startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in foundation models?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/foundation-model/s10-00.png
+    x: 304.9
+    y: 284.1
+  - src: ../../assets/logos/pp_live/foundation-model/s10-01.png
+    x: 544.7
+    y: 283.3
+  - src: ../../assets/logos/pp_live/foundation-model/s10-02.png
+    x: 608.6
+    y: 282.9
+  - src: ../../assets/logos/pp_live/foundation-model/s10-03.png
+    x: 683.4
+    y: 272.6
+  - src: ../../assets/logos/pp_live/foundation-model/s10-04.png
+    x: 361.3
+    y: 300.0
+  - src: ../../assets/logos/pp_live/foundation-model/s10-05.png
+    x: 768.0
+    y: 299.6
+  - src: ../../assets/logos/pp_live/foundation-model/s10-06.png
+    x: 298.5
+    y: 387.0
+  - src: ../../assets/logos/pp_live/foundation-model/s10-07.png
+    x: 367.1
+    y: 393.9
+  - src: ../../assets/logos/pp_live/foundation-model/s10-08.png
+    x: 536.4
+    y: 396.4
+  - src: ../../assets/logos/pp_live/foundation-model/s10-09.png
+    x: 606.2
+    y: 380.1
+  - src: ../../assets/logos/pp_live/foundation-model/s10-10.png
+    x: 720.9
+    y: 388.7
+  - src: ../../assets/logos/pp_live/foundation-model/s10-11.png
+    x: 466.9
+    y: 407.6
+  - src: ../../assets/logos/pp_live/foundation-model/s10-12.png
+    x: 822.2
+    y: 408.0
+  - src: ../../assets/logos/pp_live/foundation-model/s10-13.png
+    x: 274.9
+    y: 495.0
+  - src: ../../assets/logos/pp_live/foundation-model/s10-14.png
+    x: 470.8
+    y: 477.0
+  - src: ../../assets/logos/pp_live/foundation-model/s10-15.png
+    x: 722.4
+    y: 480.4
+  - src: ../../assets/logos/pp_live/foundation-model/s10-16.png
+    x: 370.5
+    y: 510.9
+  - src: ../../assets/logos/pp_live/foundation-model/s10-17.png
+    x: 584.8
+    y: 499.7
+  - src: ../../assets/logos/pp_live/foundation-model/s10-18.png
+    x: 822.0
+    y: 496.1
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Language
+  - Image & video
+  - Physical AI
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out listed companies and incumbents like Google, Meta and Nvidia, with all the sources at the end of the report
+ed209p:
+  title: 'Why is Qwen winning
+
+    the open model market?'
+  companies:
+  - short: Qwen
+    src: ../../assets/logos/pp_live/foundation-model/s12-00.png
+  - short: Meta
+    src: ../../assets/logos/pp_live/foundation-model/s12-01.png
+  - short: Mistral
+    src: ../../assets/logos/pp_live/foundation-model/s12-02.png
+  - short: DeepSeek
+    src: ../../assets/logos/pp_live/foundation-model/s12-03.png
+  - short: Moonshot
+    src: ../../assets/logos/pp_live/foundation-model/s12-04.png
+  - short: Zhipu
+    src: ../../assets/logos/pp_live/foundation-model/s12-05.png
+  criteria:
+  - name: Most Hugging Face spinoffs
+    why: 113,000+ derived models
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Owned by a cloud provider
+    why: Alibaba Cloud sells it
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 300M+ downloads
+    why: Default base for builders
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Sizes from 1B to 200B+
+    why: A model for every device
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Permissive open license
+    why: Free for commercial use
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Open vision + code models
+    why: Covers more use cases
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Who Is in payment processing,
+
+    and who stays outside?'
+  TL:
+    name: Wise
+    src: ../../assets/logos/pp_live/foundation-model/s01-00.png
+    text: moves money cross-border for consumers and businesses, but merchant payment processing is not its core
+  TR:
+    name: QuickBooks
+    src: ../../assets/logos/pp_live/foundation-model/s01-01.png
+    text: records accounting activity and can accept payments, but accounting software is outside processing
+  BL:
+    name: PayPal
+    src: ../../assets/logos/pp_live/foundation-model/s01-10.png
+    text: processes merchant payments, while a large share of the business is a consumer wallet and checkout brand
+  BR:
+    name: Block
+    src: ../../assets/logos/pp_live/foundation-model/s01-11.png
+    text: square processes merchant payments, while Block also owns Cash App and other consumer financial products
+  caption:
+  - Distance to the center reflects how central each company is to payment processing
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/foundation-model/s01-02.png
+  - ../../assets/logos/pp_live/foundation-model/s01-03.png
+  - ../../assets/logos/pp_live/foundation-model/s01-04.png
+  - ../../assets/logos/pp_live/foundation-model/s01-05.png
+  - ../../assets/logos/pp_live/foundation-model/s01-06.png
+  - ../../assets/logos/pp_live/foundation-model/s01-07.png
+  - ../../assets/logos/pp_live/foundation-model/s01-08.png
+  - ../../assets/logos/pp_live/foundation-model/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/foundation-model/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/foundation-model/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/foundation-model/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/foundation-model/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/foundation-model/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/foundation-model/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/foundation-model/s01-08.png
+    x: 388.5
+    y: 444.2
+  - src: ../../assets/logos/pp_live/foundation-model/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'The term foundation model is more and
+
+    more popular as companies build on them'
+  date: In recent months.
+  expl: Foundation models are the big AI models that power chatbots, coding tools and agents. As every company started building on them, and governments
+    wrote rules about them, the term moved from research papers to business news. Searches jumped and stayed high.
+  term: foundation model
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/foundation-model/foundation-model.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the foundation model
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but model makers must turn coding, voice, and work agents into daily tools for most firms, and keep consumers paying for chat plans. They
+    must also cut the cost of compute, settle the copyright fights, avoid a safety scandal that brings strict rules, and reach a profit before investors
+    lose patience.
+  note:
+  - We compared forecasts from Grand View, Precedence, Mordor and Next Move and adjusted each one to our market definition
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: null
+  cagr: 22
+  y0: 2026

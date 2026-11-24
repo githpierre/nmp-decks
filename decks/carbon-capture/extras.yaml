@@ -1,0 +1,43 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does the carbon capture
+
+      market actually make money?'
+    axes:
+    - Credit buyers pay
+    - Emitters pay
+    - Captured at
+    - the smokestack
+    - Pulled from
+    - air or plants
+    groups:
+    - name: Direct air capture credits
+      x: 0.17
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/carbon-capture/s06-00.png
+      - src: ../../assets/logos/pp_live/carbon-capture/s06-01.png
+      - src: ../../assets/logos/pp_live/carbon-capture/s06-02.png
+    - name: Bio oil removal credits
+      x: 0.44
+      y: 0.4
+      logos:
+      - src: ../../assets/logos/pp_live/carbon-capture/s06-04.png
+    - name: Capture tech for plants
+      x: 0.82
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/carbon-capture/s06-05.png
+      - src: ../../assets/logos/pp_live/carbon-capture/s06-06.png
+    - name: CO2 storage fees
+      x: 0.8
+      y: 0.64
+      logos:
+      - src: ../../assets/logos/pp_live/carbon-capture/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

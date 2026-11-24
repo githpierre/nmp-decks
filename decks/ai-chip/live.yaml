@@ -1,0 +1,588 @@
+ed058:
+  type: pp_pains
+  title: 'Which AI chip problems
+
+    are still unsolved today?'
+  auds:
+  - Cloud giants
+  - AI labs
+  - GPU clouds
+  - Large enterprises
+  - Sovereign buyers
+  pains:
+  - - They pay steep prices to one supplier that dominates the market
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They struggle to move their software away from Nvidia CUDA
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They fear new chips will look outdated within a couple of years
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They cannot get enough fast HBM memory to pair with each new chip
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They see power and cooling cap how many chips a site can run
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 2
+  - - They lose access to the best chips because of export rules
+    - - 1
+      - 2
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which chipmaker has the most
+
+    complete tech right now?'
+  companies:
+  - name: Nvidia
+    src: ../../assets/logos/pp_live/ai-chip/s05-00.png
+  - name: AMD
+    src: ../../assets/logos/pp_live/ai-chip/s05-01.png
+  - name: Google
+    src: ../../assets/logos/pp_live/ai-chip/s05-02.png
+  - name: Cerebras
+    src: ../../assets/logos/pp_live/ai-chip/s05-03.png
+  - name: Tenstorrent
+    src: ../../assets/logos/pp_live/ai-chip/s05-04.png
+  features:
+  - header: Model|API
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: HBM|memory
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Scale-up|switch
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Server|CPU
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Own|NICs
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Wafer-scale|chip
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Open|software
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to AI chips?'
+  events:
+  - odds: 50
+    impact: 3
+    text: Nvidia keeps over 80 percent of AI accelerator sales and startups like Etched and Tenstorrent stall
+  - odds: 45
+    impact: 3
+    text: Google TPUs, Amazon Trainium and Meta MTIA chips cut hyperscaler demand for third party startup chips
+  - odds: 35
+    impact: 2
+    text: TSMC advanced packaging capacity stays sold out, so small chip firms wait a year for supply
+  - odds: 35
+    impact: 2
+    text: New US export controls block AI chip sales to China and the Gulf, shrinking startup markets
+  - odds: 25
+    impact: 2
+    text: Cerebras or another newly listed AI chip firm misses forecasts and its stock falls by half
+  - odds: 20
+    impact: 2
+    text: A single customer like OpenAI or G42 cancels orders and wipes out most of a startup backlog
+  - odds: 10
+    impact: 1
+    text: New model types shift away from transformers and make fixed inference chips designed today obsolete
+  - odds: 4
+    impact: 3
+    text: A Taiwan Strait blockade or conflict halts TSMC output and freezes the whole AI chip supply chain
+  note:
+  - We listed the events that could slow ai chip down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI chips
+
+    forward, year after year?'
+  events:
+  - year: '1999'
+    text: Nvidia launches GeForce 256, the first GPU
+    impact: 1
+  - year: '2006'
+    text: CUDA turns graphics chips into AI engines
+    impact: 2
+  - year: '2012'
+    text: AlexNet proves GPUs are AI's engine
+    impact: 2.5
+  - year: '2015'
+    text: Google deploys its own TPUs in-house
+    impact: 1.5
+  - year: '2016'
+    text: Intel buys Nervana, giants enter AI chips
+    impact: 1
+  - year: '2017'
+    text: Tensor cores make Nvidia chips AI-first
+    impact: 1.5
+  - year: '2019'
+    text: Intel buys Habana for $2B
+    impact: 1
+  - year: '2019'
+    text: Cerebras builds a wafer-sized AI chip
+    impact: 1
+  - year: '2020'
+    text: A100 becomes the default AI training chip
+    impact: 1.5
+  - year: '2020'
+    text: AWS designs own chips to cut costs
+    impact: 1
+  - year: '2022'
+    text: CHIPS Act puts $52B into US chipmaking
+    impact: 1.5
+  - year: '2022'
+    text: Export curbs push China to build chips
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT launch sets off a GPU rush
+    impact: 3
+  - year: '2023'
+    text: Nvidia sales forecast shocks Wall Street
+    impact: 2.5
+  - year: '2023'
+    text: AMD MI300 gives buyers a second source
+    impact: 1.5
+  - year: '2024'
+    text: Blackwell doubles the bar for AI chips
+    impact: 1.5
+  - year: '2024'
+    text: Nvidia becomes the world's top company
+    impact: 1.5
+  - year: '2024'
+    text: Custom chips push Broadcom past $1 trillion
+    impact: 1.5
+  - year: '2025'
+    text: Huawei maps Ascend chips to rival Nvidia
+    impact: 1
+  - year: '2025'
+    text: Stargate promises $500B of AI buildout
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia puts $5B into Intel
+    impact: 1
+  - year: '2025'
+    text: OpenAI orders 10 GW of Broadcom chips
+    impact: 1.5
+  - year: '2025'
+    text: OpenAI books 6 GW of AMD GPUs
+    impact: 1.5
+  - year: '2025'
+    text: Anthropic books up to 1M Google TPUs
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia hits $5 trillion in market value
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia pays $20B for Groq's inference tech
+    impact: 1.5
+  - year: '2025'
+    text: US allows H200 sales to China
+    impact: 1
+  - year: '2025'
+    text: Nvidia books $500B of Blackwell and Rubin
+    impact: 2
+  - year: '2026'
+    text: China blocks H200, pushing local AI chips
+    impact: 1
+  - year: '2026'
+    text: Rubin GPUs ship, raising the bar again
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai chip forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-chip
+  title: 'Where did AI chip investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai chip startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the AI chip market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-chip/s10-00.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/ai-chip/s10-01.png
+    x: 285.0
+    y: 297.9
+  - src: ../../assets/logos/pp_live/ai-chip/s10-02.png
+    x: 467.6
+    y: 294.0
+  - src: ../../assets/logos/pp_live/ai-chip/s10-03.png
+    x: 540.0
+    y: 373.3
+  - src: ../../assets/logos/pp_live/ai-chip/s10-04.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/ai-chip/s10-05.png
+    x: 240.0
+    y: 381.4
+  - src: ../../assets/logos/pp_live/ai-chip/s10-06.png
+    x: 464.1
+    y: 386.1
+  - src: ../../assets/logos/pp_live/ai-chip/s10-07.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/ai-chip/s10-08.png
+    x: 773.1
+    y: 402.0
+  - src: ../../assets/logos/pp_live/ai-chip/s10-09.png
+    x: 189.4
+    y: 412.3
+  - src: ../../assets/logos/pp_live/ai-chip/s10-10.png
+    x: 291.0
+    y: 406.9
+  - src: ../../assets/logos/pp_live/ai-chip/s10-11.png
+    x: 345.0
+    y: 411.2
+  - src: ../../assets/logos/pp_live/ai-chip/s10-12.png
+    x: 516.0
+    y: 488.1
+  - src: ../../assets/logos/pp_live/ai-chip/s10-13.png
+    x: 678.9
+    y: 469.5
+  - src: ../../assets/logos/pp_live/ai-chip/s10-14.png
+    x: 801.6
+    y: 480.0
+  - src: ../../assets/logos/pp_live/ai-chip/s10-15.png
+    x: 453.0
+    y: 497.8
+  - src: ../../assets/logos/pp_live/ai-chip/s10-16.png
+    x: 648.0
+    y: 520.3
+  - src: ../../assets/logos/pp_live/ai-chip/s10-17.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Programmable many-core_ .-
+  - Dataflow / tensor-array
+  - '- Specialized / novel compute'
+  rows:
+  - Training-first
+  - Balanced
+  - Inference-first
+  note:
+  - We placed data center AI chip startups by their main focus, from funding news and IPO coverage
+  - This is a simplified map from public information, not a full list, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'Why did these chip startups
+
+    fail, and how did they end?'
+  causes:
+  - Nvidia|dominance
+  - Ran out|of cash
+  - Lost key|talent
+  - Market|shifted
+  rows:
+  - name: Untether AI
+    ending: AMD took team
+    start: '2018'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/ai-chip/s11-00.png
+    ini: U
+    slug: untetherai
+    domain: untether.ai
+  - name: Rain AI
+    ending: IP sold to OpenAI
+    start: '2017'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/ai-chip/s11-01.png
+    ini: R
+    slug: rain-ai
+    domain: rain.ai
+  - name: Esperanto
+    ending: Wound down
+    start: '2014'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/ai-chip/s11-02.png
+    ini: E
+    slug: esperanto
+    domain: esperanto.ai
+  - name: Graphcore
+    ending: Sold for ~$500M
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/ai-chip/s11-03.png
+    ini: G
+    slug: graphcore
+    domain: graphcore.ai
+  - name: Wave Computing
+    ending: Went bankrupt
+    start: '2008'
+    end: '2020'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/ai-chip/s11-04.png
+    ini: W
+    slug: wavecomputing
+    domain: wavecomp.ai
+  note:
+  - We tracked the ai chip startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Nvidia winning
+
+    the AI chip market?'
+  companies:
+  - short: Nvidia
+    src: ../../assets/logos/pp_live/ai-chip/s12-00.png
+  - short: AMD
+    src: ../../assets/logos/pp_live/ai-chip/s12-01.png
+  - short: Intel
+    src: ../../assets/logos/pp_live/ai-chip/s12-02.png
+  - short: Huawei
+    src: ../../assets/logos/pp_live/ai-chip/s12-03.png
+  - short: Cerebras
+    src: ../../assets/logos/pp_live/ai-chip/s12-04.png
+  - short: Tenstorrent
+    src: ../../assets/logos/pp_live/ai-chip/s12-05.png
+  criteria:
+  - name: Most used AI software
+    why: CUDA locks in developers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Top AI chip market share
+    why: Biggest buyers pick it first
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: HBM memory on chip
+    why: Fast memory for big models
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Rack scale systems
+    why: Sells full AI racks
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: New chip every year
+    why: Rivals chase a moving target
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Built at TSMC
+    why: Access to top chip factories
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Offered on major clouds
+    why: Easy to rent anywhere
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is in the AI chip
+
+    market, and what is out?'
+  TL:
+    name: SK
+    src: ../../assets/logos/pp_live/ai-chip/s01-00.png
+    text: hynix makes over half of the HBM memory stacked next to AI accelerators, but memory chips fall outside this market
+  TR:
+    name: Arista Networks
+    src: ../../assets/logos/pp_live/ai-chip/s01-02.png
+    text: sells the switches that link thousands of GPUs in AI clusters, but networking gear sits outside the chip market
+  BL:
+    name: Google
+    src: ../../assets/logos/pp_live/ai-chip/s01-10.png
+    text: designs its own TPUs and rents them to Meta in a multi-billion dollar deal, but it sells them as a cloud eenvica
+  BR:
+    name: AMD
+    src: ../../assets/logos/pp_live/ai-chip/s01-11.png
+    text: sells Instinct GPUs that rival Nvidia's, but its data center unit, 58% of sales, also counts EPYC server CPUs and other chips
+  caption:
+  - Distance to the center reflects how much of a company’s chip revenue comes from data center accelerators built for AI
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-chip/s01-01.png
+  - ../../assets/logos/pp_live/ai-chip/s01-03.png
+  - ../../assets/logos/pp_live/ai-chip/s01-04.png
+  - ../../assets/logos/pp_live/ai-chip/s01-05.png
+  - ../../assets/logos/pp_live/ai-chip/s01-06.png
+  - ../../assets/logos/pp_live/ai-chip/s01-07.png
+  - ../../assets/logos/pp_live/ai-chip/s01-08.png
+  - ../../assets/logos/pp_live/ai-chip/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-chip/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/ai-chip/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/ai-chip/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/ai-chip/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/ai-chip/s01-06.png
+    x: 514.9
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-chip/s01-07.png
+    x: 381.2
+    y: 430.9
+  - src: ../../assets/logos/pp_live/ai-chip/s01-08.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/ai-chip/s01-09.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up AI chips
+
+    because there are never enough'
+  date: Over the past year.
+  expl: Every AI company needs chips, and there are never enough. Nvidia’s sales exploded, Google, Amazon and OpenAI built their own chips, and the US and
+    China fought over who can buy them. AI chips became a topic for investors and the general public.
+  term: ai chip
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-chip/ai-chip.csv
+ed052p:
+  type: pp_cagr
+  title: 'Where could the AI chip
+
+    market be in ten years?'
+  lead: 'To get there, '
+  condition: AI must keep spreading into every product and service, with demand for inference growing faster than chips get cheaper. Chip makers must also
+    find enough power, memory, and packaging capacity to build all the data centers that buyers already plan.
+  note:
+  - We compared forecasts from Precedence, Fortune Business Insights, Grand View and IDC
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: null
+  cagr: 15
+  y0: 2026

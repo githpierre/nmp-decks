@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'Where does the money come from
+
+      for data center companies?'
+    axes:
+    - Short commitment
+    - Long commitment
+    - Space, power
+    - and gear
+    - Rents
+    - computing
+    groups:
+    - name: Power and cooling gear
+      x: 0.14
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/data-center/s06-05.png
+      - src: ../../assets/logos/pp_live/data-center/s06-06.png
+    - name: Colocation by the rack
+      x: 0.5
+      y: 0.4
+      logos:
+      - src: ../../assets/logos/pp_live/data-center/s06-03.png
+      - src: ../../assets/logos/pp_live/data-center/s06-04.png
+    - name: Leases to hyperscalers
+      x: 0.85
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/data-center/s06-07.png
+      - src: ../../assets/logos/pp_live/data-center/s06-08.png
+      - src: ../../assets/logos/pp_live/data-center/s06-09.png
+    - name: GPU cloud by the hour
+      x: 0.18
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/data-center/s06-00.png
+      - src: ../../assets/logos/pp_live/data-center/s06-01.png
+    - name: Reserved GPU clusters
+      x: 0.84
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/data-center/s06-02.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

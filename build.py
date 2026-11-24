@@ -198,6 +198,20 @@ def build(slug, png=False, only=None):
     for i, s in enumerate(deck['slides'], 1):          # an exact past year in a note ages fast ("latest 2025 estimates"): say "latest" instead
         nt = ' '.join(s['note']) if isinstance(s.get('note'), list) else str(s.get('note') or '')
         if _re.search(r'\b(latest|recent|newest)\s+(19|20)\d\d\b', nt, _re.I): py_issues.append([i, 'NOTE_YEAR', '', nt[:50]])
+    # one box of a column aligned differently from its siblings (ranking « 4 » left-aligned among centered numbers, a PowerPoint
+    # copy defect, Pierre, Natural hydrogen, 21 Nov 2026): same left, width and size, one odd text-align
+    from collections import defaultdict as _dd
+    for _tp in sorted({str(s.get('type')) for s in deck['slides'] if str(s.get('type', '')).startswith('x/')}):
+        _f = ROOT / 'templates' / 'slides' / (_tp + '.j2')
+        if not _f.exists(): continue
+        _g = _dd(list)
+        for _m in _re.finditer(r'data-k="(\d+)" (?:data-lines="\d+" )?style="left:([0-9.]+)px;top:[0-9.]+px;width:([0-9.]+)px;[^>]*>\{\{ rt\(s\.t\[\d+\], \["text-align:(\w+);line-height:[0-9.]+;(?:[^"]*?)font-size:([0-9.]+)pt', _f.read_text()):
+            _g[_m.group(2, 3, 5)].append(_m.group(1, 4))
+        for _v in _g.values():
+            _c = {a: sum(1 for _, x in _v if x == a) for _, a in _v}
+            for _k, _a in _v:
+                if len(_v) >= 3 and len(_c) > 1 and _c[_a] == 1:
+                    py_issues.append([[i for i, s in enumerate(deck['slides'], 1) if s.get('type') == _tp][0], 'ALIGN_ODD', _tp, f'key {_k} is {_a}, its column is not'])
     env = Environment(loader=FileSystemLoader(str(ROOT / 'templates')), autoescape=True)
     env.globals['rt'] = rt; env.filters['nl'] = nl; env.filters['md'] = md; env.filters['sentences'] = sentences
     import math; env.filters['cos'] = math.cos; env.filters['sin'] = math.sin
@@ -212,6 +226,8 @@ def build(slug, png=False, only=None):
     html = re.sub(r'([$€£])\s+(\d[\d.,]*)\s*([KMBT])(?=[\s<,.;:)]|$)', r'\1\2\3', html)
     html = re.sub(r'(?<=[>\s≈~])(\d[\d.,]*)\s+%', r'\1%', html)
     html = re.sub(r'≈\s+(?=\d)', '≈', html)
+    # a well, a phase or a version keeps its number on the same line: « Ramsay / 3 » split over two lines (Natural hydrogen, 21 Nov 2026)
+    html = re.sub(r'(?<=[\s>(])([A-Z][a-z]+) (\d{1,2})(?![\d.,%])', '\\1\u00a0\\2', html)
     # two sentences glued in a note ('...phases These phases...', 11 Nov): add the missing period
     #   but never between two lines of a list note (.nl): each line is its own idea, without dots (notes workshop, 11 Nov)
     html = re.sub(r'([a-z]{3,})((?:\s|<br[^>]*>|</span><span(?! class="nl")[^>]*>)+)(These|This|We|It|Our|Although|However) ', r'\1.\2\3 ', html)

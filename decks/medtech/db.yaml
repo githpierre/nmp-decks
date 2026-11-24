@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (NOV)
+  14: Clinics On Cloud raised a $12M Series A. It builds diagnostic health kiosks {1|Inc42}
+  15: 2026 (NOV)
+  16: Nanochap raised a $70M Series C led by Gaorong for its implantable devices {1|TechNode}
+  17: 2026 (NOV)
+  18: Yingjiexin Medical raised a $30M Series B led by CICC for its therapeutic devices {1|ChinaVenture}
+  19: 2026 (OCT)
+  20: StimCardio raised a $30M Series A led by Metis Medtech for its cardiac neuromodulation therapy devices {1|PR Newswire}
+  21: 2026 (OCT)
+  22: Blue Arbor Technologies raised a $10M Series A led by Ottobock for its neuroprosthetic interfaces {1|Business Wire}
+  23: 2026 (OCT)
+  24: NeuroXess raised a $98M Series B led by SDIC JULI for its implantable devices {1|NeuroXess}
+  note: We list the latest equity rounds of $10M or more of MedTech startups in our tracker, from company releases and the press.
+ed157:
+  14: 2026 (OCT)
+  15: Coherence Neuro raised a $45M Series A led by Founders Fund for its therapeutic devices {1|Coherence}
+  16: 2026 (OCT)
+  17: Smartbeam raised a $30M Series C led by CICC. It manufactures high-performance x-ray tubes {1|East Money}
+  18: 2026 (OCT)
+  19: ZAP Surgical Systems raised a $36M late-stage round led by Catalio for its surgical systems {1|ZAP}
+  20: 2026 (OCT)
+  21: DeepSurgery raised a $14M Series B led by Mifang. It develops FUNZAR robotic systems {1|VCBeat}
+  22: 2026 (OCT)
+  23: Hurotics raised a $18M Series A led by Atinum Investment for its therapeutic devices {1|Hurotics}
+  24: 2026 (OCT)
+  25: Sirona Medical raised a $40M late-stage round led by Avidity for its medical software {1|PR Newswire}
+  note: We list the latest equity rounds of $10M or more of MedTech startups in our tracker, from company releases and the press.
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 4363
+    ann: Neuralink, $650M top round, in 103 rounds
+  - x: 2025 H2
+    v: 3199
+    ann: Kardium, $250M top round, in 95 rounds
+  - x: 2026 H1
+    v: 3461
+    ann: BrainCo, $286M top round, in 146 rounds
+  - x: 2026 H2
+    v: 2880
+    ann: Neko Health, $700M top round, in 109 rounds
+  note:
+  - We add up the disclosed equity rounds of MedTech startups in our tracker, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 5246
+    ann: Freenome, $254M top round, in 208 rounds
+  - x: '2025'
+    v: 7562
+    ann: Neuralink, $650M top round, in 198 rounds
+  - x: '2026'
+    v: 6341
+    ann: Neko Health, $700M top round, in 255 rounds
+  note:
+  - We add up the disclosed equity rounds of MedTech startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 5
+    ann: Freenome, $254M top round, out of 208 rounds
+  - x: '2025'
+    v: 9
+    ann: Neuralink, $650M top round, out of 198 rounds
+  - x: 2026 (YTD)
+    v: 11
+    ann: Neko Health, $700M top round, out of 255 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Neko Health
+    amt: 700000000
+    date: Q3 2026
+    stage: Series C
+  - name: BrainCo
+    amt: 286300000
+    date: Q1 2026
+    stage: Equity
+  - name: Precision Neuroscience
+    amt: 250000000
+    date: Q3 2026
+    stage: late-stage
+  - name: Science Corporation
+    amt: 230000000
+    date: Q1 2026
+    stage: Series C
+  note:
+  - We listed the biggest equity rounds raised by MedTech startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: Neuralink
+    amt: 650000000
+    date: '2025'
+    stage: late-stage
+  - name: CMR Surgical
+    amt: 600000000
+    date: '2021'
+    stage: late-stage
+  - name: Neuralink
+    amt: 323241676
+    date: '2023'
+    stage: late-stage
+  - name: Freenome
+    amt: 300000000
+    date: '2021'
+    stage: late-stage
+  note:
+  - We listed the biggest equity rounds raised by MedTech startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: IMPLANTABLE DEVICES
+  9: '150'
+  13: $6.4B
+  17: Neuralink, Kardium, Precision Neuroscience, Synchron, Amber
+  7: THERAPEUTIC DEVICES
+  11: '194'
+  15: $5B
+  19: BrainCo, HistoSonics, Kestra Medical, OrganOx, CeQur
+  8: DIAGNOSTIC DEVICES
+  12: '114'
+  16: $3.2B
+  20: Neko Health, Freenome, Lumicell, Prenuvo, Geneoscopy, Karius
+  note: We used our tracker of 661 MedTech equity rounds announced since January 2024, worth about $19.1B. IPOs, debt and grants are left out
+ed169:
+  7: ARBORETUM
+  10: '6'
+  14: $217M
+  18: Motif Neurotech, AtaCor Medical
+  8: BPIFRANCE
+  12: '6'
+  16: $110M
+  20: Metyos, Orixha
+  9: SUROSH
+  13: '6'
+  17: $2.9M
+  21: Extremis Robotics, KAT Robotics
+  26: NOVO HOLDINGS
+  28: '5'
+  30: $355M
+  32: Nalu Medical, Magenta Medical
+  27: CATALIO
+  29: '5'
+  31: $247M
+  33: Visby Medical, Leo Cancer Care
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 661 rounds
+ed205:
+  14: 2024 (FEB)
+  15: Freenome raised a $254M late-stage round led by Roche for its AI-enabled blood-based cancer screening {1|Freenome}
+  16: 2025 (JAN)
+  17: Neko Health raised a $260M Series B led by Lightspeed for its preventive full-body health scanning {1|Neko Health}
+  18: 2025 (JUN)
+  19: Neuralink raised a $650M late-stage round for its implantable brain-computer interfaces {1|Neuralink}
+  20: 2025 (JUL)
+  21: Kardium raised a $250M growth equity round for its pulsed-field atrial fibrillation treatment {1|MassDevice}
+  22: 2026 (JAN)
+  23: BrainCo raised $286M led by IDG for its non-invasive BCI and robotic prosthetics {1|Hangzhou government}
+  24: 2026 (JUL)
+  25: Neko Health raised a $700M Series C led by Lightspeed for its preventive full-body health scanning {1|Neko Health}
+  note: We picked the biggest disclosed rounds of MedTech startups since 2024, from our tracker of rounds
+ed160:
+  6: Implantable devices took about 33% of the capital raised since 2024, ahead of therapeutic devices with about 26%
+  7: 627 of the 661 rounds since 2024 disclosed an amount, and the median disclosed round was $12M
+  8: US startups closed 324 of the 661 rounds and took $11.2B, about 59% of all the money raised since 2024
+  9: 47 rounds of $100M or more made up about 40% of all the capital raised in the market since 2024
+  10: The $700M Series C round of Neko Health is the biggest since 2024, ahead of the $650M round of Neuralink
+  11: Series A was the most common round, with 155 of the 661 rounds, ahead of seed with 145 and Series B with 92
+  note: We drew these insights from our tracker of 661 MedTech equity rounds announced since January 2024, worth about $19.1B
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, most MedTech startups built one device for one hospital department, and few investors backed brain implants or medical AI.'
+  7: 'AFTER
+
+
+
+    Since 2024, 661 rounds raised $19.1B. Implantable devices take the biggest share, ahead of therapeutic devices and diagnostic devices.'
+  note: We used our tracker of MedTech equity rounds, complete from January 2024, and company releases and the press

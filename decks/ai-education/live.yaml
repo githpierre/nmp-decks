@@ -1,0 +1,523 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI education
+
+    customers actually pay to solve?'
+  auds:
+  - School districts
+  - Classroom teachers
+  - High-school students
+  - College leaders
+  - Worried parents
+  pains:
+  - - They see students use AI to skip the thinking part of homework
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 3
+  - - They worry when AI tutors still make mistakes in math steps
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They struggle to prove that AI tools lead to real learning gains
+    - - 3
+      - 1
+      - 1
+      - 3
+      - 2
+  - - They wait months for districts to approve and buy new software
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 1
+  - - They fear chatbots will harm kids or leak their private data
+    - - 3
+      - 1
+      - 1
+      - 1
+      - 3
+  - - They have no time to learn yet another tool on top of teaching
+    - - 2
+      - 3
+      - 1
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI education app has
+
+    the most complete tech today?'
+  companies:
+  - name: Quizlet
+    src: ../../assets/logos/pp_live/ai-education/s05-00.png
+  - name: StudyFetch
+    src: ../../assets/logos/pp_live/ai-education/s05-01.png
+  - name: Brainly
+    src: ../../assets/logos/pp_live/ai-education/s05-02.png
+  - name: Gizmo
+    src: ../../assets/logos/pp_live/ai-education/s05-03.png
+  - name: Chegg
+    src: ../../assets/logos/pp_live/ai-education/s05-04.png
+  - name: Knowunity
+    src: ../../assets/logos/pp_live/ai-education/s05-05.png
+  features:
+  - header: Human|tutors
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Lecture|recording
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Live quiz|game
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Teacher|tools
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Textbook|solutions
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Video to|flashcards
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Student|notes
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI education?'
+  events:
+  - odds: 55
+    impact: 3
+    text: OpenAI, Google and Anthropic give free tutoring modes to students, wiping out paid AI homework apps
+  - odds: 45
+    impact: 3
+    text: School districts face budget shortfalls after Education Department cuts and freeze new AI software contracts
+  - odds: 45
+    impact: 2
+    text: Khan Academy, Duolingo and Pearson ship AI features to millions of users, leaving startups little distribution
+  - odds: 35
+    impact: 2
+    text: States pass laws restricting student data in AI chatbots, adding costly COPPA and FERPA compliance work
+  - odds: 30
+    impact: 1
+    text: Edtech venture funding stays near decade lows, so AI tutoring startups struggle to raise Series A rounds
+  - odds: 25
+    impact: 3
+    text: A chatbot gives harmful advice to a minor, prompting FTC action and lawsuits against AI learning apps
+  - odds: 20
+    impact: 2
+    text: A study links AI tutors to lower test scores, and teachers unions push districts to ban them
+  - odds: 20
+    impact: 1
+    text: Chegg style cheating concerns lead universities to block AI tools during exams and coursework
+  note:
+  - We listed the events that could slow ai education down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI education
+
+    forward, year after year?'
+  events:
+  - year: '1960'
+    text: PLATO brings computers into teaching
+    impact: 1
+  - year: '1984'
+    text: Bloom shows tutoring lifts scores two sigma
+    impact: 1.5
+  - year: '1998'
+    text: Cognitive Tutor brings AI to math class
+    impact: 1
+  - year: '2008'
+    text: Knewton sells adaptive learning to publishers
+    impact: 1
+  - year: '2011'
+    text: Stanford AI course draws 160,000 learners
+    impact: 1.5
+  - year: '2012'
+    text: MOOC boom proves online learning scales
+    impact: 1.5
+  - year: '2014'
+    text: Squirrel AI brings adaptive tutors to China
+    impact: 1
+  - year: '2017'
+    text: China's AI plan puts AI in schools
+    impact: 1.5
+  - year: '2019'
+    text: Duolingo uses AI to adapt every lesson
+    impact: 1
+  - year: '2020'
+    text: Covid sends 1.5B students online
+    impact: 3
+  - year: '2021'
+    text: China's tutoring ban boosts AI study devices
+    impact: 1
+  - year: '2022'
+    text: ChatGPT launches and students adopt it fast
+    impact: 3
+  - year: '2023'
+    text: Chegg crashes as students switch to ChatGPT
+    impact: 1.5
+  - year: '2023'
+    text: Khan Academy launches Khanmigo AI tutor
+    impact: 2.5
+  - year: '2023'
+    text: Duolingo Max adds a GPT-4 tutor
+    impact: 1.5
+  - year: '2023'
+    text: UNESCO issues first school AI guidance
+    impact: 1
+  - year: '2024'
+    text: ASU opens ChatGPT to its whole campus
+    impact: 1
+  - year: '2024'
+    text: OpenAI launches ChatGPT Edu for universities
+    impact: 1.5
+  - year: '2024'
+    text: 'Harvard trial: AI tutor doubles learning'
+    impact: 1.5
+  - year: '2024'
+    text: AI tutor gives Nigerian kids big gains
+    impact: 1
+  - year: '2025'
+    text: Cal State gives ChatGPT to 460,000 students
+    impact: 2
+  - year: '2025'
+    text: Claude adds a learning mode for students
+    impact: 1
+  - year: '2025'
+    text: White House order brings AI to classrooms
+    impact: 2
+  - year: '2025'
+    text: Microsoft pledges $4B for AI education
+    impact: 1
+  - year: '2025'
+    text: Unions and AI labs train 400,000 teachers
+    impact: 1
+  - year: '2025'
+    text: ChatGPT study mode teaches, not just answers
+    impact: 1.5
+  - year: '2025'
+    text: Beijing makes AI classes mandatory
+    impact: 1.5
+  - year: '2025'
+    text: Estonia gives AI chatbots to high schoolers
+    impact: 1
+  - year: '2025'
+    text: Free ChatGPT for teachers until 2027
+    impact: 1.5
+  - year: '2026'
+    text: India teaches AI from grade 3
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai education forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-education
+  title: 'Where did AI education investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai education startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the AI in education market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-education/s10-00.png
+    x: 190.1
+    y: 284.6
+  - src: ../../assets/logos/pp_live/ai-education/s10-01.png
+    x: 349.9
+    y: 282.0
+  - src: ../../assets/logos/pp_live/ai-education/s10-02.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/ai-education/s10-03.png
+    x: 244.3
+    y: 304.3
+  - src: ../../assets/logos/pp_live/ai-education/s10-04.png
+    x: 297.0
+    y: 309.2
+  - src: ../../assets/logos/pp_live/ai-education/s10-05.png
+    x: 480.0
+    y: 285.0
+  - src: ../../assets/logos/pp_live/ai-education/s10-06.png
+    x: 297.0
+    y: 372.9
+  - src: ../../assets/logos/pp_live/ai-education/s10-07.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/ai-education/s10-08.png
+    x: 190.7
+    y: 404.1
+  - src: ../../assets/logos/pp_live/ai-education/s10-09.png
+    x: 249.0
+    y: 402.6
+  - src: ../../assets/logos/pp_live/ai-education/s10-10.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/ai-education/s10-11.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/ai-education/s10-12.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/ai-education/s10-13.png
+    x: 345.0
+    y: 411.2
+  - src: ../../assets/logos/pp_live/ai-education/s10-14.png
+    x: 800.6
+    y: 411.4
+  - src: ../../assets/logos/pp_live/ai-education/s10-15.png
+    x: 229.3
+    y: 492.9
+  - src: ../../assets/logos/pp_live/ai-education/s10-16.png
+    x: 445.9
+    y: 492.9
+  - src: ../../assets/logos/pp_live/ai-education/s10-17.png
+    x: 573.0
+    y: 478.3
+  - src: ../../assets/logos/pp_live/ai-education/s10-18.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/ai-education/s10-19.png
+    x: 291.0
+    y: 502.5
+  - src: ../../assets/logos/pp_live/ai-education/s10-20.png
+    x: 520.3
+    y: 505.3
+  - src: ../../assets/logos/pp_live/ai-education/s10-21.png
+    x: 656.1
+    y: 522.6
+  - src: ../../assets/logos/pp_live/ai-education/s10-22.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Student tutor & practice
+  - Educator copilot
+  - Assessment & integrity
+  rows:
+  - STEM / quantitative
+  - 'Literacy: & language'
+  - Multi-subject
+  note:
+  - We placed AI-first education products with funding or clear adoption by their main positioning
+  - We left out general AI tools, and you will find all the sources we used at the end of the report
+ed209p:
+  title: 'What makes MagicSchool the
+
+    AI teacher tool leader?'
+  companies:
+  - short: MagicSchool
+    src: ../../assets/logos/pp_live/ai-education/s12-00.png
+  - short: Brisk
+    src: ../../assets/logos/pp_live/ai-education/s12-01.png
+  - short: SchoolAI
+    src: ../../assets/logos/pp_live/ai-education/s12-02.png
+  - short: Khanmigo
+    src: ../../assets/logos/pp_live/ai-education/s12-03.png
+  - short: Eduaide
+    src: ../../assets/logos/pp_live/ai-education/s12-04.png
+  criteria:
+  - name: Over 6M educator signups
+    why: Largest teacher user base
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Free plan for teachers
+    why: Fast bottom up adoption
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Student facing AI tools
+    why: Reaches the whole class
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Raised $45M or more
+    why: Funds sales and safety team
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Works inside Google Docs
+    why: No new app to learn
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: 10,000+ school partners
+    why: Proof with schools at scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Over 80 teacher tools
+    why: One stop shop for teachers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What Is really included
+
+    in AI in education?'
+  TL:
+    name: Khan Academy
+    src: ../../assets/logos/pp_live/ai-education/s01-00.png
+    text: built Khanmigo, a well- known AI tutor, but only about 15% of students with access use it, and videos remain its core
+  TR:
+    name: Canva
+    src: ../../assets/logos/pp_live/ai-education/s01-02.png
+    text: is free for K-12 teachers and full of AI tools for making lessons, but it remains a general design app, not a way to teach
+  BL:
+    name: Turnitin
+    src: ../../assets/logos/pp_live/ai-education/s01-10.png
+    text: is best known for catching plagiarism and Al-written essays, and policing integrity is not quite the same as teaching
+  BR:
+    name: Quizlet
+    src: ../../assets/logos/pp_live/ai-education/s01-11.png
+    text: turns notes into AI flashcards and adaptive practice tests, but at heart it is still a study app built on user-made sets
+  caption:
+  - Distance to the center reflects how much AT itself does the teaching, tutoring or grading, rather than adding a feature
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-education/s01-01.png
+  - ../../assets/logos/pp_live/ai-education/s01-03.png
+  - ../../assets/logos/pp_live/ai-education/s01-04.png
+  - ../../assets/logos/pp_live/ai-education/s01-05.png
+  - ../../assets/logos/pp_live/ai-education/s01-06.png
+  - ../../assets/logos/pp_live/ai-education/s01-07.png
+  - ../../assets/logos/pp_live/ai-education/s01-08.png
+  - ../../assets/logos/pp_live/ai-education/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-education/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/ai-education/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/ai-education/s01-04.png
+    x: 374.8
+    y: 362.6
+  - src: ../../assets/logos/pp_live/ai-education/s01-05.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/ai-education/s01-06.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/ai-education/s01-07.png
+    x: 445.1
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-education/s01-08.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/ai-education/s01-09.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more students look for an AI
+
+    tutor with every new school year'
+  date: In recent months.
+  expl: AI tutors went from a gimmick to a homework habit. ChatGPT, Khanmigo and Google added study modes that explain step by step instead of just giving
+    answers, and students shared them on TikTok. Every back-to-school season now brings a bigger wave of searches.
+  term: ai education
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-education/ai-education.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is AI in education
+
+    still growing fast?'
+  lead: ''
+  condition: Yes, but schools and universities must move from pilots to yearly contracts, and parents must keep paying for AI tutors and language apps.
+    AI tools must also prove that students learn more with them, and they must stay safe for children as new laws arrive.
+  note:
+  - We compared forecasts from Grand View, IMARC, Precedence and MarketsandMarkets and adjusted each one to our market
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: 9
+  cagr: 25
+  y0: 2026

@@ -1,0 +1,588 @@
+You are a senior market analyst working for NewMarketPitch, which sells market reports to founders and investors.
+We are building the MedTech market report (a deck of about 190 slides). Every slide uses a fixed design template.
+For each slide below we show you the content of the SAME slide in our in vivo CAR-T report: it is the MODEL of the structure and of the tone only.
+Your job: research the MedTech market and write the MedTech version of each slide. Today is 23 November 2026.
+
+MARKET DEFINITION (it decides what is in or out):
+We define the MedTech market as medical devices and technologies used to diagnose, monitor or treat human health conditions.
+Included: We include diagnostic equipment and in-vitro diagnostic devices, clinical imaging systems, medical implants, interventional devices, surgical and robotic systems, therapeutic stimulation systems, patient monitoring devices, and clinically purposed software (including AI) that directly performs or supports diagnosis, monitoring, treatment selection or procedural intervention. Medical-device platforms with a prominent dedicated clinical hardware component qualify even where software is essential. Standalone clinically purposed diagnostic software can qualify; a proprietary physical device is not a universal requirement.
+Excluded: We exclude drugs as the primary product, upstream discovery tools without patient-facing diagnostic/therapeutic product, general lifestyle/fitness wellness products without credible clinical positioning, standalone healthcare administration, general practice-management or billing software, generic IT and digital care services lacking core diagnostic/therapeutic technology. Boundary with digital-health: pure virtual-care delivery, scheduling, administrative workflow and patient navigation are digital-health-only; clinical sensor platforms, regulated diagnostics, monitoring systems and digital therapeutics may be in both where medical function is core. Boundary with surgical-robotics: clinical robotic hardware used to assist surgery belongs to both MedTech and surgical-robotics; surgical planning software without robotic surgery belongs to MedTech only when it has a direct clinical medical purpose. Boundary with medical-imaging-ai: clinical imaging interpretation, measurement, reconstruction and triage AI belongs to MedTech and medical-imaging-ai when it is principally a clinical diagnostic technology; generic image repositories and administration products are not MedTech. Boundary with neurotech: neurostimulation, brain-computer interfaces, neuro-monitoring and neural implants used in clinical diagnosis or therapy may be in both; nonmedical cognitive enhancement or research-only neural technology is neurotech-only. Boundary with healthcare-ai: clinical AI diagnosing disease, monitoring patients or guiding treatment may be in both; payer workflow, general scribes and nonclinical healthcare automation are healthcare-ai-only. Boundary with clinical-decision-support: purpose-built clinical diagnostic or therapeutic decision engines may be in both; generic care logistics, claims, triage routing or clinical data storage without direct medical decision function are not MedTech.
+Rule: 0. Startup status: check original founding/incorporation after 1999, independence or venture-funded recent spin-off, public-listing age and completion dates of change-of-control acquisitions. Non-startup market-fit companies are retained historically with NOT A STARTUP, never excluded from the selection solely for age. 1. Core product: inspect product pages and regulatory/clinical evidence. Does the company principally make a medical device, in-vitro diagnostic, therapeutic implant/system, or software delivering a direct clinical diagnostic, monitoring or treatment function? If no, OUT. 2. Principal customer and positioning: is the medical/clinical technology the primary product and the company presented as a medical technology firm, rather than a side division of a general technology/service business? If not, OUT absent 2 independent specialist source placements under the star exception. 3. Neighbor test: read website product and customer descriptions: care delivery/administration alone is digital-health-only; image AI, clinical decision support and healthcare AI can overlap when they actually deliver clinical medical function; all surgical robotic medical systems can overlap; medical neuro-devices can overlap neurotech. 4. Sources and doubts: check specialist press, device/industry analyst maps and specialist investor descriptions; source-level uncertainty -> BORDERLINE and keep provisionally, but never override explicit nonmedical exclusion or startup screen.
+Categories of companies used in our database: Diagnostic & Monitoring Devices; Surgical & Robotic Systems; Implantable & Cardiovascular Devices; Therapeutic & Neuromodulation Devices; Medical Imaging Systems; Clinical Diagnostic & Imaging Software; Connected Clinical Sensors & Software
+
+HOW TO ANSWER, FOR EVERY SLIDE
+1. Same structure as the model: same keys, same number of items, same order. Each text stays between the MIN and MAX characters given under its slide (measured on our validated slides): longer breaks the slide, shorter leaves the box half empty. The self-check script at the end counts them for you.
+   Keep the formatting marks of the model: a line break inside a text is written \n, and {1|text} marks a run in a second style (for example a bold company name followed by normal text). Keep them where the model has them. Keys that hold a single emoji are icons: give one fitting emoji.
+   The length rule is for sentences. A name (company, product, person, acronym) is written as it is, never padded or cut to reach a length.
+   Bad: "ABRIDGE AI NOTES", "Aidoc AI" (words added to a company name). Good: "ABRIDGE", "Aidoc".
+2. Content is about MedTech only, written for a smart reader who is not an expert: plain US English, short sentences, no jargon without a word of explanation, no em dash, no exclamation marks.
+   Bad: "Closed-loop spinal cord stimulation with ECAP-based dose control via a percutaneous lead." Good: "A small implant that calms back pain with tiny electric pulses and adjusts itself thousands of times a day." (the reader is not a doctor or an engineer)
+3. Every figure, date, name and claim must be true and sourced. Prefer primary sources: company releases and SEC or exchange filings (Intuitive Surgical, Medtronic, Boston Scientific, Abbott, Stryker, Johnson & Johnson MedTech, Dexcom, Edwards Lifesciences, Siemens Healthineers, GE HealthCare, CMR Surgical, Neuralink, HistoSonics, Kardium, Synchron, Precision Neuroscience, HeartFlow, Aidoc, Viz.ai), FDA databases (510(k), De Novo, PMA, breakthrough devices, the list of AI-enabled medical devices, recalls), CMS documents (TCET, payment codes), EU MDR documents, ClinicalTrials.gov, the EY Pulse of the MedTech Industry report, AdvaMed and MedTech Europe data, peer-reviewed journals (NEJM, The Lancet, JAMA, Nature Medicine), market research firms with a named method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, STAT News, MedTech Dive, MassDevice, Fierce Biotech, Endpoints). A database such as Crunchbase or PitchBook alone is never a source. Never use newmarketpitch.com. The url is the exact page that carries the quote, never a homepage (« https://www.sec.gov » proves nothing), and the quote is copied word for word from it.
+4. Recent facts first (2025-2026). A CE mark, a "breakthrough device" label, a first patient or a positive small study is not proof that a device sells: say whether it is cleared or approved by the FDA, how many patients or hospitals use it, the revenue when public, and who reported it.
+   Bad: "Company X's device got Breakthrough Device designation from the FDA." Good: "Company X's device was cleared by the FDA in March 2026, and 40 US hospitals used it in its first six months." (a breakthrough label is not an approval)
+5. Money is written the way people say it: $285M, $4.2B, never $0.285B. $10B or more without decimal ($56B, never $56.01B), under $10B one decimal at most ($2.1B, and $1B never $1.0B). A share keeps one decimal at most (39.7%).
+   A key marked CAPS is written in capitals. A key marked WORDS n has exactly n words (the three circles: two words, one per line, written WORD\nWORD).
+   A key marked WORDMAX n never has a word longer than n letters: a longer word is cut in two on the slide. Bad: "UTILITIES" alone in a narrow label. Good: "POWER UTILITIES" (two short words). Bad: "LICENS." (abbreviation). Good: "PERMIT".
+   Icons: only emojis of the ICONS list in the self-check (they are redrawn as line icons). Bad: 🪖 (not drawn). Good: 🛡️.
+   A note given as a list of lines: lines of about the same length, the shortest at least 82% of the longest. Bad: 87 and 108 characters. Good: 96 and 104.
+6. If you cannot find solid facts for a slide, do NOT invent: return `status: no_data` with one line explaining what is missing. A slide that cannot be filled completely is removed, so never leave half the items empty.
+7. The `note` of each slide (the small text at the bottom) says where the data comes from, starting with "We", in one or two plain sentences. Never put a date like "as of" in it. The note speaks to the reader of the report: never mention this prompt, the model slide, the segments you were given or the length limits.
+8. Where the model shows <logo> or logos_on_slide, the slide shows company logos: give the company names and their website domains in a `logos:` list, we add the logos ourselves. Company names are never shortened.
+9. Titles stay the same as the model, with the market name changed, unless the model title is a fact (then write the MedTech fact). Titles are questions people would ask, not analyst wording.
+
+OUTPUT
+Deliver ONE downloadable Markdown file named exactly: 57-medtech-deck-01-market-definition-results-research-2026-11-23.md
+(not a message in the chat). Inside, for each slide, in the order given:
+
+### <slide id>
+```yaml
+status: ok            # or no_data
+title: ...
+<same keys as the model>
+note: ...
+sources:
+  - claim: <the figure or fact>
+    url: <link>
+    date: <publication date>
+    quote: <the exact sentence that supports it, under 25 words>
+```
+
+Before delivering, check yourself, slide by slide: same number of items as the model, every number has a source with a quote, every text between 80% and 100% of its length, no semicolon (two sentences instead), contrast slides ("How X…") with exactly 8 rows, no in vivo CAR-T words left (CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity), nothing outside the market definition, the same category names everywhere. Fix what fails, then deliver the file. Do not ask questions; take the most reasonable reading and say it in a `comment:` line when needed.
+
+CHAPTER: Market definition
+
+### ed006
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What is the in vivo CAR-T market, in simple terms?
+text: In vivo CAR-T is the market for medicines that deliver genetic instructions into a patient so their own immune cells become CAR cells inside the body
+note: We use a conversational definition here because it makes the boundary with conventional ex vivo CAR-T easier to understand.
+icon_tl: 🧬
+```
+Characters per key (MIN-MAX), measured on the slide: text: 115-171
+
+### ed008
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What markets are often confused with in vivo CAR-T?
+t:
+  12: EX VIVO CAR-T
+  13: IN VIVO CAR-T
+  14: GENE DELIVERY
+  7: In vivo CAR-T differs from both because the drug reprograms immune cells inside the patient, rather than shipping finished cells
+  10: Ex vivo CAR-T removes immune cells, engineers them outside the body, then reinfuses the manufactured cells into the patient
+  11: Gene delivery moves DNA or RNA into cells, while in vivo CAR-T uses that delivery specifically to create CAR immune cells
+```
+Characters per key (MIN-MAX), measured on the slide: 7: 107-128, 10: 103-123, 11: 94-121, 12: 1-20 CAPS WORDMAX 10, 13: 1-22 CAPS WORDMAX 10, 14: 1-19 CAPS WORDMAX 9
+
+### ed009
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What markets does in vivo CAR-T sit between?
+t:
+  8: 'GENE
+
+    DELIVERY'
+  13: 'In vivo CAR-T sits between three markets: it combines a genetic payload, targeted delivery and living immune cells. Gene therapy brings the vectors, cell therapy the CAR biology, immunology the targets.'
+  9: 'CELL
+
+    THERAPY'
+  10: 'CANCER
+
+    IMMUNOTHERAPY'
+```
+Characters per key (MIN-MAX), measured on the slide: 8: 1-23 CAPS WORDS 2 WORDMAX 9, 9: 1-27 CAPS WORDS 2 WORDMAX 14, 10: 1-28 CAPS WORDS 2 WORDMAX 13, 13: 166-218
+
+### ed010
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: And what if we break it down in smaller markets?
+t:
+  21: IN VIVO CAR-T
+  5: 'TARGETED
+
+    LENTIVIRUS'
+  8: 'TARGETED
+
+    RNA-LNP'
+  11: 'CIRCULAR
+
+    RNA CAR-T'
+  14: 'IN VIVO
+
+    GENE EDITING'
+  17: 'OTHER CAR
+
+    IMMUNE CELLS'
+  7: It is in the market because lentiviral particles can place durable CAR genes into T cells
+  10: It is in the market because targeted LNPs deliver temporary CAR mRNA into selected T cells
+  13: It is in the market because circular RNA extends CAR expression with no gene insertion
+  16: It is in the market when gene editing creates a CAR program inside immune cells
+  19: It is in the market when platforms make CAR-NK, CAR-myeloid or other CAR cells in vivo
+```
+Characters per key (MIN-MAX), measured on the slide: 5: 1-29 CAPS WORDMAX 10, 7: 71-89, 8: 1-29 CAPS WORDMAX 10, 10: 70-90, 11: 1-25 CAPS WORDMAX 9, 13: 69-86, 14: 1-27 CAPS WORDMAX 9, 16: 67-82, 17: 1-33 CAPS WORDMAX 14, 19: 72-86, 21: 1-22 CAPS WORDMAX 10
+
+### ed011
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What are some common acronyms I should know?
+note: We prioritized acronyms that appear repeatedly in company, clinical-trial, and investor materials rather than very technical vector-engineering terms.
+t:
+  6: CAR
+  15: LVV
+  23: CRS
+  8: 'Chimeric Antigen
+
+    Receptor'
+  16: 'Lentiviral
+
+    Vector'
+  24: 'Cytokine Release
+
+    Syndrome'
+  4: It is the engineered receptor that lets immune cells recognize a target
+  13: It is an integrating viral delivery system used by several in vivo CAR programs
+  21: It is the inflammatory immune reaction monitored closely after CAR-T treatment
+  11: LNP
+  19: LD
+  27: MRD
+  12: 'Lipid
+
+    Nanoparticle'
+  20: 'Lympho-
+
+    depletion'
+  28: 'Minimal Residual
+
+    Disease'
+  9: It is the lipid carrier used to deliver RNA payloads into selected cells in vivo
+  17: It is the chemotherapy step often used before CAR-T to clear immune cells
+  25: It is a deep-response test showing no detectable cancer at the assay threshold
+```
+Characters per key (MIN-MAX), measured on the slide: 4: 58-84, 6: 1-5 WORDMAX 9, 8: 1-33 WORDMAX 10, 9: 63-89, 11: 1-5 CAPS WORDMAX 9, 12: 1-32 WORDMAX 12, 13: 62-89, 15: 1-8 CAPS WORDMAX 9, 16: 1-34 WORDMAX 10, 17: 56-84, 19: 1-5 CAPS WORDMAX 9, 20: 1-30 WORDMAX 13, 21: 61-87, 23: 1-7 WORDMAX 9, 24: 1-38 WORDMAX 10, 25: 66-94, 27: 1-7 CAPS WORDMAX 9, 28: 1-33 WORDMAX 11
+
+### ed012
+EdTech model (structure only):
+```yaml
+section: Market definition
+title: 'What products and services
+
+  are sold in this market?'
+note: We didn’t list everything here - we grouped it so you get a clear view of about 90% of the market
+t:
+  7: School learning
+  35: Platforms that schools use to teach
+  37: Apps that students use to study
+  16: Canvas LMS
+  19: Google Classroom
+  10: Duolingo
+  13: Quizlet
+  17: PowerSchool SIS
+  20: MagicSchool
+  11: Knowunity
+  14: Gizmo
+  18: Brisk Teaching
+  21: Khanmigo
+  12: Photomath
+  15: Speak
+  8: Paid by schools
+  9: Paid by learners
+  22: LinkedIn Learning
+  25: Docebo LMS
+  28: Udemy courses
+  31: Coursera Plus
+  23: Multiverse
+  26: Go1 library
+  29: Emeritus programs
+  32: upGrad degrees
+  24: Coursera Business
+  27: Yoodli role-play
+  30: MasterClass
+  33: Preply tutors
+  38: Training that employers buy for staff
+  39: Courses that adults buy for careers
+  6: Skills for work
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 1-22 WORDMAX 10, 7: 1-19 WORDMAX 9, 8: 1-18 WORDMAX 9, 9: 1-18 WORDMAX 9, 10: 1-8 WORDMAX 9, 11: 1-10 WORDMAX 9, 12: 1-5 CAPS WORDMAX 9, 13: 1-9 WORDMAX 9, 14: 1-8 WORDMAX 9, 15: 1-7 CAPS WORDMAX 9, 16: 1-14 WORDMAX 9, 17: 1-14 WORDMAX 9, 18: 1-7 CAPS WORDMAX 9, 19: 1-14 WORDMAX 9, 20: 1-13 WORDMAX 9, 21: 1-7 CAPS WORDMAX 9, 22: 1-14 WORDMAX 9, 23: 1-22 WORDMAX 12, 24: 1-19 WORDMAX 9, 25: 1-19 WORDMAX 9, 26: 1-18 WORDMAX 9, 27: 1-17 WORDMAX 9, 28: 1-18 WORDMAX 9, 29: 1-18 WORDMAX 9, 30: 1-15 WORDMAX 9, 31: 1-22 WORDMAX 11, 32: 1-15 WORDMAX 11, 33: 1-17 WORDMAX 9, 35: 1-48 WORDMAX 10, 37: 1-45 WORDMAX 10, 38: 1-53 WORDMAX 11, 39: 1-53 WORDMAX 9
+
+### ed013
+EdTech model (structure only):
+```yaml
+section: Market definition
+title: 'What are the different
+
+  price ranges?'
+note: We show the monthly price that one learner or teacher pays. Prices come from public price pages and tutor rate guides in 2026, rounded
+t:
+  11: 💰💰
+  12: 💰💰💰
+  6: '$0-$15
+
+
+    In this range, you will find study apps and teacher tools, like Super Duolingo or MagicSchool Plus at about $13 a month'
+  7: '$15-$60
+
+
+    This usually covers AI tutors and course subscriptions, like Speak at $20 a month or Coursera Plus at $59 a month'
+  8: '$60+
+
+
+    In this range, you will find live human tutoring, where most private tutors charge $20 to $80 for each hour of lesson'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 105-139, 7: 101-140, 8: 112-157
+
+### ed014
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: When and where is value created in the market?
+items:
+- e: 🎯
+  t: When one IV drug turns a patient’s own T cells into targeted CAR cells
+- e: ⏱️
+  t: When treatment avoids weeks of personalized cell manufacturing
+- e: 🧪
+  t: When a vector reaches the intended immune cell and limits off-target delivery
+- e: 🔁
+  t: When RNA dosing can be repeated to tune CAR exposure over time
+- e: 🧬
+  t: When integrating delivery creates longer CAR expression from one treatment
+- e: 🏥
+  t: When patients can avoid leukapheresis and complex centralized logistics
+- e: 🛡️
+  t: When immune reset is achieved without lymphodepleting chemotherapy
+- e: 🌍
+  t: When an off-the-shelf drug can expand access beyond specialist CAR-T centers
+```
+Characters per key (MIN-MAX), measured on the slide: items.*.t: 54-94
+
+### ed015
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What are some common myths about in vivo CAR-T?
+page: 1/2
+note: We focused on myths that recur in company, investor, and specialist discussions. The evidence is still early, so these counters describe what has been demonstrated, not what is clinically proven at
+  scale.
+t:
+  9: CAR-T cells cannot be made well inside patients
+  7: Multiple Phase 1 programs now treat patients with viral or targeted RNA approaches in cancer and autoimmunity
+  12: In vivo CAR-T always needs lymphodepletion
+  10: KLN-1010 produced CAR-positive cells at 22% to 85% of circulating CD3 T cells around day 15 in its first four patients
+  15: RNA in vivo CAR-T cannot show clinical activity
+  13: ESO-T01, KLN-1010 and several other programs have generated CAR cells without preparative lymphodepleting chemotherapy
+  0: In vivo CAR-T is still only a preclinical idea
+  16: Early HN2301 autoimmune data showed B-cell depletion and lower disease activity after CD19 CAR mRNA-LNP dosing
+```
+Characters per key (MIN-MAX), measured on the slide: 0: 37-52, 7: 125-150, 9: 37-52, 10: 125-150, 12: 37-52 WORDMAX 15, 13: 125-150, 15: 37-52, 16: 125-150
+
+### ed016
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What are some common myths about in vivo CAR-T?
+page: 2/2
+note: We focused on myths that recur in company, investor, and specialist discussions. The evidence is still early, so these counters describe what has been demonstrated, not what is clinically proven at
+  scale.
+t:
+  9: The market is only about blood cancer
+  7: AbbVie agreed to pay up to $2.1B for Capstan in 2025, and BMS agreed to pay $1.5B for Orbital later that same year
+  12: Only lentiviral vectors are serious
+  10: Programs now also target autoimmune disease and solid tumors, including CPTX2309, ORN-252, HN2301 and MT-302
+  15: Early responses prove durable cures
+  13: Clinical pipelines include targeted RNA-LNP programs, while circular-RNA assets have drawn major acquisitions
+  0: Big pharma is waiting for the science to mature
+  16: ESO-T01 showed responses, but a 2026 follow-up found limited persistence and clinical data that are still scarce
+```
+Characters per key (MIN-MAX), measured on the slide: 0: 37-52, 7: 125-150, 9: 37-52 WORDMAX 10, 10: 125-150, 12: 37-52 WORDMAX 10, 13: 125-150, 15: 37-52 WORDMAX 9, 16: 125-150
+
+### ed017
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: How mature is in vivo CAR-T as a market?
+score: 28
+text: The market is real because several programs are in Phase 1 and early patients have generated CAR cells and clinical responses. The score stays low because cohorts are tiny, durability is uncertain,
+  and no in vivo CAR-T product is commercially approved yet.
+note:
+- We rate market maturity with a simple internal score based on clinical proof, platform breadth, strategic investment, and commercial readiness.
+- We set 28/100 because human proof exists, but the field remains early Phase 1 with sparse long-term data and no commercial product.
+```
+Characters per key (MIN-MAX), measured on the slide: text: 167-333
+
+### ed018
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: How can we categorize companies of the in vivo CAR-T market?
+page: 1/3
+note: There are many ways to categorize the field, but these four technical approaches capture most current company strategies and make the competitive map easier to read.
+t:
+  14: 🧪
+  10: 'TARGETED
+
+    LNP-mRNA'
+  8: Companies delivering CAR mRNA to immune cells with targeted lipid nanoparticles
+  15: 🦠
+  13: 'TARGETED
+
+    LENTIVIRUS'
+  11: Companies using engineered lentiviral particles to place CAR genes directly into immune cells
+  25: Here, we categorize by technical approach
+  21: ✂️
+  18: 'GENE EDITING +
+
+    INTEGRATION'
+  16: Companies pursuing durable CAR programs through genome integration or direct editing
+  22: 🧫
+  7: 'BEYOND
+
+    T CELLS'
+  19: Companies programming NK, myeloid, or multiple immune-cell lineages beyond T cells
+```
+Characters per key (MIN-MAX), measured on the slide: 7: 1-22 CAPS WORDMAX 9, 8: 67-87, 10: 1-24 WORDMAX 10, 11: 68-93, 13: 1-27 CAPS WORDMAX 10, 16: 71-84, 18: 1-34 CAPS WORDMAX 11, 19: 73-86, 25: 1-63 WORDMAX 10
+This market uses 6 categories of companies (types of solution): Implantable devices; Therapeutic devices; Diagnostic devices; Surgical systems; Medical software; Patient monitoring. The model has 4 slots: answer with a `categories:` list of 6 items instead (label in capitals on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".
+
+### ed019
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: How can we categorize companies of the in vivo CAR-T market?
+page: 2/3
+note: We also categorize by disease because oncology and immune reset impose different requirements for dosing, persistence, safety, and acceptable toxicity.
+t:
+  14: 🩸
+  10: 'BLOOD
+
+    CANCERS'
+  8: Companies targeting CD19, CD20, BCMA, or CD22 in blood cancers such as myeloma
+  13: 'AUTOIMMUNE
+
+    DISEASE'
+  11: Companies using in vivo CAR-T to deplete B cells and reset immunity in lupus
+  25: Here, we categorize by the disease being targeted
+  18: 'SOLID
+
+    TUMORS'
+  16: Companies programming CAR immune cells against targets such as TROP2 in solid tumors
+  7: 'MULTI-
+
+    DISEASE'
+  19: Companies building delivery platforms for several payloads, targets, and disease areas
+```
+Characters per key (MIN-MAX), measured on the slide: 7: 1-22 CAPS WORDMAX 9, 8: 67-87, 10: 1-24 WORDMAX 10, 11: 68-93, 13: 1-27 CAPS WORDMAX 10, 16: 71-84, 18: 1-34 CAPS WORDMAX 11, 19: 73-86, 25: 1-63 WORDMAX 10
+Here the second categorization is by type of buyer, with the pain-point segments: Hospitals and health systems; Surgeons and specialists; Labs and clinics; Patients at home.
+
+### ed020
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: How can we categorize companies of the in vivo CAR-T market?
+page: 3/3
+note: A third useful lens is expression strategy because persistent integrated CAR expression and transient RNA expression create very different risk-benefit and redosing profiles.
+t:
+  10: 'DURABLE
+
+    EXPRESSION'
+  8: Companies using integrating vectors to create CAR cells that may persist after one dose
+  13: 'TRANSIENT
+
+    EXPRESSION'
+  11: Companies using mRNA so CAR expression fades and repeat dosing stays controllable
+  25: Here, we categorize by how long CAR lasts
+  21: 🧬
+  18: 'EXTENDED RNA
+
+    EXPRESSION'
+  16: Companies using circular RNA to extend expression without integrating a CAR gene
+  7: 'HYBRID
+
+    PLATFORMS'
+  19: Companies combining delivery or editing tools to tune persistence and cell specificity
+```
+Characters per key (MIN-MAX), measured on the slide: 7: 1-22 CAPS WORDMAX 9, 8: 67-87, 10: 1-24 WORDMAX 10, 11: 68-93, 13: 1-27 CAPS WORDMAX 10, 16: 71-84, 18: 1-34 CAPS WORDMAX 11, 19: 73-86, 25: 1-63 WORDMAX 10
+
+### ed021
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What do top companies do in this market?
+note: Other companies could also make the top eight. We chose clinical leaders and strategically important platforms to show the range of approaches shaping the market.
+t:
+  8: CAPSTAN
+  16: ESOBIOTEC
+  7: They lead targeted RNA CAR-T with CPTX2309, now in Phase 1 for autoimmune disease
+  15: They built ENaBL and ESO-T01, one of the first human in vivo CAR-T programs
+  10: KELONIA
+  18: ORNA
+  9: They lead BCMA in vivo CAR-T with KLN-1010 and early MRD-negative responses
+  17: They built ORN-252, combining circular RNA and LNPs for autoimmune in vivo CAR-T
+  12: UMOJA
+  20: ORBITAL
+  11: They run VivoVec, with UB-VV111 in Phase 1 and FDA Fast Track in B-cell cancers
+  19: They built OTX-201, a circular-RNA CD19 CAR program acquired by BMS for $1.5B
+  14: INTERIUS
+  22: CREATE
+  13: They built INT2104, an integrating vector creating both CAR-T and CAR-NK cells
+  21: They reported first-in-human MT-302 data for an mRNA-LNP CAR in solid tumors
+```
+Characters per key (MIN-MAX), measured on the slide: 7: 68-89, 8: 1-10 CAPS WORDMAX 9, 9: 62-87, 10: 1-14 CAPS WORDMAX 10, 11: 65-79, 12: 1-12 CAPS WORDMAX 9, 13: 65-78, 14: 1-12 CAPS WORDMAX 9, 15: 63-89, 16: 1-13 CAPS WORDMAX 9, 17: 58-85, 18: 1-9 CAPS WORDMAX 9, 19: 64-96, 20: 1-20 CAPS WORDMAX 9, 21: 59-81, 22: 1-10 CAPS WORDMAX 9
+
+### ed022
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What is rare and that people happily pay for in this market?
+note: We looked at clinical proof, acquisition values, specialist reviews, and company disclosures to identify capabilities that appear genuinely scarce and strategically valuable.
+t:
+  6: '🎯
+
+    Precise targeting, because delivery must reach the intended immune cells'
+  7: '🛡️
+
+    Immune shielding, because vectors must survive circulation and keep activity'
+  8: '🧬
+
+    Controlled persistence, because too little expression fails and too much can add risk'
+  9: '🔁
+
+    Repeat dosing, because nonintegrating RNA programs may need redosing'
+  10: '🏥
+
+    No lymphodepletion, because simpler conditioning can widen patient access'
+  11: '📈
+
+    Human proof, because early cohorts now separate clinical platforms from concepts'
+  12: '🌍
+
+    Scalable supply, because off-the-shelf doses skip custom cell making'
+  13: '🧩
+
+    Platform breadth, because buyers value delivery systems that carry many payloads'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 55-84, 7: 59-89, 8: 68-87, 9: 56-87, 10: 59-85, 11: 64-82, 12: 55-85, 13: 66-86
+
+### ed023
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: Which in vivo CAR-T truths have flipped?
+note: These are directional market shifts identified from recent clinical reports, company disclosures, and transactions. They are not formal industry rules, but they recur across the evidence.
+t:
+  6: In vivo CAR-T used to be mostly a preclinical delivery concept
+  8: Now several Phase 1 trials have made CAR cells inside patients’ bodies
+  10: Viral vectors used to dominate serious in vivo CAR discussions
+  12: Now mRNA-LNP and circular RNA programs reach trials and buyouts
+  14: CAR-T used to be framed mainly as a cancer treatment
+  16: Now immune reset is a main goal for Capstan, Orna and Orbital
+  18: Cell therapy once needed custom manufacturing per patient
+  20: Now developers want CAR-T to be a simple off-the-shelf injection
+  22: Early value used to sit in preclinical platform claims
+  24: Now early human data moves fast, and big pharma buyouts follow it
+  26: The market used to be led mainly by small independent biotechs
+  28: Now big pharma owns or partners with the leading platforms
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 51-62, 8: 66-78, 10: 45-62, 12: 53-64, 14: 42-52, 16: 60-71, 18: 43-66, 20: 60-71, 22: 45-66, 24: 61-73, 26: 47-66, 28: 57-85
+
+### ed024
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What has changed (very) recently?
+page: 1/2
+items:
+- d: SINCE 2024
+  t: Umoja won FDA clearance for UB-VV111, a CD19 in situ CAR-T, moving its VivoVec platform from preclinical development into a human Phase 1 program.
+- d: SINCE 2024
+  t: The first clinical evidence of lentiviral in vivo CAR-T antitumor activity appeared, showing that direct CAR generation inside patients was no longer only a lab concept.
+- d: SINCE 2025
+  t: AstraZeneca bought EsoBiotec for up to $1 billion after early clinical activity from its targeted lentiviral ENaBL platform put in vivo CAR-T on big pharma radar screens.
+- d: SINCE 2025
+  t: AbbVie agreed to buy Capstan for up to $2.1 billion, validating targeted RNA-LNP delivery as a strategic route for autoimmune in vivo CAR-T.
+- d: SINCE 2025
+  t: Kite agreed to buy Interius for $350 million, adding an integrating platform that creates CAR-T cells directly inside patients with one IV infusion.
+- d: SINCE 2025
+  t: BMS agreed to buy Orbital for $1.5 billion, bringing circular RNA and targeted LNP delivery into the center of the in vivo CAR-T race.
+note:
+- We kept the milestones that most changed clinical credibility, platform competition or ownership of the market
+- There is no official timeline, and another analyst could reasonably pick a few different milestones here
+```
+Characters per key (MIN-MAX), measured on the slide: items.*.d: 1-14 CAPS WORDMAX 9, items.*.t: 127-191
+
+### ed025
+in vivo CAR-T model (structure only):
+```yaml
+section: Market definition
+title: What has changed (very) recently?
+page: 2/2
+items:
+- d: SINCE 2025
+  t: Early KLN-1010 data showed MRD-negative responses in multiple myeloma while generating CAR-T cells in vivo without preparative chemotherapy, strengthening the case for durable viral delivery.
+- d: SINCE 2025
+  t: HN2301 early lupus data showed rapid CAR-T generation, B-cell depletion, and lower disease activity, giving targeted RNA-LNP in vivo CAR-T its first autoimmune human proof point.
+- d: SINCE 2025
+  t: CREATE Medicines reported first-in-human MT-302 data in solid tumors, extending in vivo CAR engineering beyond conventional T-cell blood-cancer programs.
+- d: SINCE 2026
+  t: Lilly agreed to acquire Orna, bringing circular RNA plus LNP delivery and the ORN-252 autoimmune CAR-T program into a major pharmaceutical company.
+- d: SINCE 2026
+  t: Lilly also agreed to acquire Kelonia after early KLN-1010 clinical data, adding an integrating lentiviral in vivo CAR platform to its genetic-medicine strategy.
+- d: SINCE 2026
+  t: 'Longer ESO-T01 follow-up showed both the promise and the limits of the first wave: responses occurred, but persistence was limited and clinical data remain scarce.'
+note:
+- We kept the milestones that most changed clinical credibility, platform competition or ownership of the market
+- There is no official timeline, and another analyst could reasonably pick a few different milestones here
+```
+Characters per key (MIN-MAX), measured on the slide: items.*.d: 1-14 CAPS WORDMAX 9, items.*.t: 127-191
+
+
+SELF-CHECK BEFORE YOU DELIVER (mandatory)
+Save your answer as the Markdown file, then run this Python script on it. Fix every line it prints by rewriting the text (same facts, one
+more concrete fact when too short, tighter wording when too long), run it again, and deliver only when it prints "0 problems".
+```python
+import re, json, yaml
+LIMITS = json.loads(r'''{"ed006": {"text": {"max": 171, "min": 115}, "__icons__": 1}, "ed008": {"7": {"max": 128, "min": 107}, "10": {"max": 123, "min": 103}, "11": {"max": 121, "min": 94}, "12": {"caps": true, "max": 20, "wordmax": 10}, "13": {"caps": true, "max": 22, "wordmax": 10}, "14": {"caps": true, "max": 19, "wordmax": 9}}, "ed009": {"8": {"caps": true, "max": 23, "wordmax": 9, "words": 2}, "9": {"caps": true, "max": 27, "wordmax": 14, "words": 2}, "10": {"caps": true, "max": 28, "wordmax": 13, "words": 2}, "13": {"max": 218, "min": 166}}, "ed010": {"5": {"caps": true, "max": 29, "wordmax": 10}, "7": {"max": 89, "min": 71}, "8": {"caps": true, "max": 29, "wordmax": 10}, "10": {"max": 90, "min": 70}, "11": {"caps": true, "max": 25, "wordmax": 9}, "13": {"max": 86, "min": 69}, "14": {"caps": true, "max": 27, "wordmax": 9}, "16": {"max": 82, "min": 67}, "17": {"caps": true, "max": 33, "wordmax": 14}, "19": {"max": 86, "min": 72}, "21": {"caps": true, "max": 22, "wordmax": 10}}, "ed011": {"4": {"max": 84, "min": 58}, "6": {"max": 5, "wordmax": 9}, "8": {"max": 33, "wordmax": 10}, "9": {"max": 89, "min": 63}, "11": {"caps": true, "max": 5, "wordmax": 9}, "12": {"max": 32, "wordmax": 12}, "13": {"max": 89, "min": 62}, "15": {"caps": true, "max": 8, "wordmax": 9}, "16": {"max": 34, "wordmax": 10}, "17": {"max": 84, "min": 56}, "19": {"caps": true, "max": 5, "wordmax": 9}, "20": {"max": 30, "wordmax": 13}, "21": {"max": 87, "min": 61}, "23": {"max": 7, "wordmax": 9}, "24": {"max": 38, "wordmax": 10}, "25": {"max": 94, "min": 66}, "27": {"caps": true, "max": 7, "wordmax": 9}, "28": {"max": 33, "wordmax": 11}}, "ed012": {"6": {"max": 22, "wordmax": 10}, "7": {"max": 19, "wordmax": 9}, "8": {"max": 18, "wordmax": 9}, "9": {"max": 18, "wordmax": 9}, "10": {"max": 8, "wordmax": 9}, "11": {"max": 10, "wordmax": 9}, "12": {"caps": true, "max": 5, "wordmax": 9}, "13": {"max": 9, "wordmax": 9}, "14": {"max": 8, "wordmax": 9}, "15": {"caps": true, "max": 7, "wordmax": 9}, "16": {"max": 14, "wordmax": 9}, "17": {"max": 14, "wordmax": 9}, "18": {"caps": true, "max": 7, "wordmax": 9}, "19": {"max": 14, "wordmax": 9}, "20": {"max": 13, "wordmax": 9}, "21": {"caps": true, "max": 7, "wordmax": 9}, "22": {"max": 14, "wordmax": 9}, "23": {"max": 22, "wordmax": 12}, "24": {"max": 19, "wordmax": 9}, "25": {"max": 19, "wordmax": 9}, "26": {"max": 18, "wordmax": 9}, "27": {"max": 17, "wordmax": 9}, "28": {"max": 18, "wordmax": 9}, "29": {"max": 18, "wordmax": 9}, "30": {"max": 15, "wordmax": 9}, "31": {"max": 22, "wordmax": 11}, "32": {"max": 15, "wordmax": 11}, "33": {"max": 17, "wordmax": 9}, "35": {"max": 48, "wordmax": 10}, "37": {"max": 45, "wordmax": 10}, "38": {"max": 53, "wordmax": 11}, "39": {"max": 53, "wordmax": 9}}, "ed013": {"6": {"max": 139, "min": 105}, "7": {"max": 140, "min": 101}, "8": {"max": 157, "min": 112}, "__icons__": 1}, "ed014": {"items.*.t": {"max": 94, "min": 54}}, "ed015": {"0": {"max": 52, "min": 37}, "7": {"max": 150, "min": 125}, "9": {"max": 52, "min": 37}, "10": {"max": 150, "min": 125}, "12": {"max": 52, "min": 37, "wordmax": 15}, "13": {"max": 150, "min": 125}, "15": {"max": 52, "min": 37}, "16": {"max": 150, "min": 125}, "__icons__": 1}, "ed016": {"0": {"max": 52, "min": 37}, "7": {"max": 150, "min": 125}, "9": {"max": 52, "min": 37, "wordmax": 10}, "10": {"max": 150, "min": 125}, "12": {"max": 52, "min": 37, "wordmax": 10}, "13": {"max": 150, "min": 125}, "15": {"max": 52, "min": 37, "wordmax": 9}, "16": {"max": 150, "min": 125}, "__icons__": 1}, "ed017": {"text": {"max": 333, "min": 167}, "note_line": {"max": 143}}, "ed018": {"7": {"caps": true, "max": 22, "wordmax": 9}, "8": {"max": 87, "min": 67}, "10": {"max": 24, "wordmax": 10}, "11": {"max": 93, "min": 68}, "13": {"caps": true, "max": 27, "wordmax": 10}, "16": {"max": 84, "min": 71}, "18": {"caps": true, "max": 34, "wordmax": 11}, "19": {"max": 86, "min": 73}, "25": {"max": 63, "wordmax": 10}, "__icons__": 1}, "ed019": {"7": {"caps": true, "max": 22, "wordmax": 9}, "8": {"max": 87, "min": 67}, "10": {"max": 24, "wordmax": 10}, "11": {"max": 93, "min": 68}, "13": {"caps": true, "max": 27, "wordmax": 10}, "16": {"max": 84, "min": 71}, "18": {"caps": true, "max": 34, "wordmax": 11}, "19": {"max": 86, "min": 73}, "25": {"max": 63, "wordmax": 10}, "__icons__": 1}, "ed020": {"7": {"caps": true, "max": 22, "wordmax": 9}, "8": {"max": 87, "min": 67}, "10": {"max": 24, "wordmax": 10}, "11": {"max": 93, "min": 68}, "13": {"caps": true, "max": 27, "wordmax": 10}, "16": {"max": 84, "min": 71}, "18": {"caps": true, "max": 34, "wordmax": 11}, "19": {"max": 86, "min": 73}, "25": {"max": 63, "wordmax": 10}, "__icons__": 1}, "ed021": {"7": {"max": 89, "min": 68}, "8": {"caps": true, "max": 10, "wordmax": 9}, "9": {"max": 87, "min": 62}, "10": {"caps": true, "max": 14, "wordmax": 10}, "11": {"max": 79, "min": 65}, "12": {"caps": true, "max": 12, "wordmax": 9}, "13": {"max": 78, "min": 65}, "14": {"caps": true, "max": 12, "wordmax": 9}, "15": {"max": 89, "min": 63}, "16": {"caps": true, "max": 13, "wordmax": 9}, "17": {"max": 85, "min": 58}, "18": {"caps": true, "max": 9, "wordmax": 9}, "19": {"max": 96, "min": 64}, "20": {"caps": true, "max": 20, "wordmax": 9}, "21": {"max": 81, "min": 59}, "22": {"caps": true, "max": 10, "wordmax": 9}}, "ed022": {"6": {"max": 84, "min": 55}, "7": {"max": 89, "min": 59}, "8": {"max": 87, "min": 68}, "9": {"max": 87, "min": 56}, "10": {"max": 85, "min": 59}, "11": {"max": 82, "min": 64}, "12": {"max": 85, "min": 55}, "13": {"max": 86, "min": 66}, "__icons__": 1}, "ed023": {"6": {"max": 62, "min": 51}, "8": {"max": 78, "min": 66}, "10": {"max": 62, "min": 45}, "12": {"max": 64, "min": 53}, "14": {"max": 52, "min": 42}, "16": {"max": 71, "min": 60}, "18": {"max": 66, "min": 43}, "20": {"max": 71, "min": 60}, "22": {"max": 66, "min": 45}, "24": {"max": 73, "min": 61}, "26": {"max": 66, "min": 47}, "28": {"max": 85, "min": 57}}, "ed024": {"items.*.d": {"caps": true, "max": 14, "wordmax": 9}, "items.*.t": {"max": 191, "min": 127}, "note_line": {"max": 113}}, "ed025": {"items.*.d": {"caps": true, "max": 14, "wordmax": 9}, "items.*.t": {"max": 191, "min": 127}, "note_line": {"max": 113}}}''')
+ICONS = set(json.loads(r'''["⏰", "⏱", "⏱️", "⏳", "☠️", "♨️", "♻️", "♾️", "⚖️", "⚗️", "⚙️", "⚛️", "⚠️", "⚡", "⛔", "⛽", "✂️", "✅", "✋", "✍️", "✓", "✖️", "✨", "❌", "❓", "❔", "⭐", "⭕", "🆓", "🌍", "🌎", "🌏", "🌐", "🌡️", "🌱", "🍎", "🎒", "🎓", "🎗️", "🎙", "🎙️", "🎤", "🎥", "🎨", "🎭", "🎮", "🎯", "🏃", "🏅", "🏆", "🏗️", "🏛️", "🏠", "🏢", "🏥", "🏦", "🏫", "🏭", "🏷️", "🐒", "👁️", "👐", "👔", "👥", "👩‍🏫", "👷", "💀", "💉", "💊", "💎", "💡", "💥", "💧", "💬", "💰", "💳", "💵", "💸", "💻", "💼", "📄", "📅", "📈", "📉", "📊", "📋", "📍", "📏", "📖", "📘", "📚", "📜", "📝", "📞", "📡", "📣", "📦", "📱", "📵", "📺", "🔀", "🔁", "🔄", "🔋", "🔌", "🔍", "🔎", "🔐", "🔒", "🔓", "🔗", "🔥", "🔧", "🔩", "🔬", "🕳️", "🖥️", "🗂️", "🗣️", "😖", "😣", "😤", "🙋", "🚀", "🚑", "🚗", "🚚", "🚛", "🚧", "🚶", "🛒", "🛞", "🛠️", "🛡️", "🛰️", "🟢", "🤒", "🤔", "🤖", "🤝", "🤥", "🤩", "🦉", "🦋", "🦠", "🦴", "🦾", "🦿", "🧂", "🧑", "🧑‍🏫", "🧑‍💻", "🧑‍🤝‍🧑", "🧠", "🧩", "🧪", "🧫", "🧬", "🧭", "🧮", "🧯", "🧰", "🧱", "🧲", "🧸", "🧾", "🩸", "🩺", "🩻", "🪙", "🫧"]'''))
+EMOJI = re.compile("[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF][\uFE0F\u200D\U0001F000-\U0001FAFF]*")
+md = open("57-medtech-deck-01-market-definition-results-research-2026-11-23.md", encoding="utf-8").read(); n = 0
+F = chr(96) * 3
+SKIP = {"id", "type", "section", "title", "note", "src", "logo", "url", "page", "sources", "logos", "status", "comment"}
+def leaves(x, path=""):
+    if isinstance(x, dict):
+        for k, v in x.items():
+            if k not in SKIP: yield from leaves(v, (path + "." if path else "") + str(k))
+    elif isinstance(x, list):
+        for v in x: yield from leaves(v, path + ".*")
+    elif isinstance(x, str): yield path, x
+plain = lambda v: re.sub(r"\s+", " ", re.sub(r"\{\d\|([^}]*)\}", r"\1", v)).strip()
+for sid, body in re.findall(r"### (\S+)\s+" + F + r"yaml\n(.*?)" + F, md, re.S):
+    d = yaml.safe_load(body) or {}
+    if d.get("status") != "ok": continue
+    flat = json.dumps(d, ensure_ascii=False)
+    for bad, why in ((chr(8212), "em dash"), (chr(8211), "en dash"), ("; ", "semicolon: write two sentences")):
+        if bad in flat.replace("&amp; ", ""): print(sid, "|", why); n += 1
+    for m in re.findall(r"\$\d+\.\d{2,}[BMK]|\$\d{2,}\.\d[B]|\$\d+\.0[BMK]|\d+\.\d{2,}%", flat): print(sid, "| amount format:", m, "(write $56B, $2.1B, $1B, 39.7%)"); n += 1
+    L = LIMITS.get(sid) or LIMITS.get(re.sub(r"-s\d+$", "", sid)) or {}
+    for p, v in leaves(d):
+        k = p[2:] if p.startswith("t.") else p
+        e = L.get(k)
+        if not e or re.fullmatch(r"\s*[^\w\s]{1,4}\s*", v): continue
+        t = plain(v); n0 = n
+        if len(t) > e["max"]: print(sid, k, "| too long:", len(t), "for max", e["max"], "|", t[:60]); n += 1
+        elif e.get("min") and len(t) < e["min"]: print(sid, k, "| too short:", len(t), "for min", e["min"], "(add one concrete fact) |", t[:60]); n += 1
+        if e.get("words") and len(t.split()) != e["words"]: print(sid, k, "| must have exactly", e["words"], "words |", t[:40]); n += 1
+        if e.get("wordmax") and max(map(len, re.split(r"[\s/-]+|\\n", t))) > e["wordmax"]: print(sid, k, "| a word longer than", e["wordmax"], "letters is cut in two on the slide: use shorter words |", t[:40]); n += 1
+    for p, v in (leaves(d) if L.get("__icons__") else []):
+        for m in {re.sub(r'(.)\1+', r'\1', x) for x in EMOJI.findall(v)}:
+            if m not in ICONS and m.replace(chr(0xFE0F), "") not in ICONS and m + chr(0xFE0F) not in ICONS: print(sid, "| icon", m, "is not drawn: use one from ICONS"); n += 1
+    nt = d.get("note"); nl = (L.get("note_line") or {}).get("max", 120)
+    if isinstance(nt, list) and len(nt) > 1:
+        Ls = [len(str(x)) for x in nt]
+        if max(Ls) > nl: print(sid, "note | a line has", max(Ls), "characters for max", nl); n += 1
+        if min(Ls) < 0.82 * max(Ls): print(sid, "note | lines of unequal length:", min(Ls), "and", max(Ls), "(rebalance)"); n += 1
+print(n, "problems")
+```

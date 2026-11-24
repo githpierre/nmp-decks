@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (NOV)
+  14: fal raised a $1.3B late-stage round led by Bessemer for its generative media AI inference cloud {1|Bloomberg}
+  15: 2026 (OCT)
+  16: General Compute raised a $100M Series A led by Blackbird for its high-speed AI inference cloud {1|General}
+  17: 2026 (OCT)
+  18: Hyperbolic raised a $30M Series A led by Walden Catalyst for its GPU marketplace and inference services {1|Asksurf}
+  19: 2026 (OCT)
+  20: Modal raised a $750M late-stage round led by Accel for its serverless cloud for AI workloads {1|Modal}
+  21: 2026 (OCT)
+  22: Infinigence AI raised a $320M Series C for its cloud computing infrastructure for AI {1|Technode}
+  23: 2026 (OCT)
+  24: KONST raised a $30M Series B led by ADATA Technology for its GPU clouds {1|Technode}
+  note: We list the latest equity rounds of neocloud startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (OCT)
+  15: GMI Cloud raised a $223M Series B led by ARCHIV for its GPU-as-a-service cloud infrastructure {1|The Information}
+  16: 2026 (OCT)
+  17: PaleBlueDot AI raised a $200M Series C led by ComputeCore for its AI cloud and GPU infrastructure {1|PR Newswire}
+  18: 2026 (SEP)
+  19: Verda raised a $189M Series B led by Emergence for its full-stack European AI cloud {1|Verda}
+  20: 2026 (SEP)
+  21: SiliconFlow raised a $125M Series C for its AI inference and cloud infrastructure {1|Caixin}
+  22: 2026 (SEP)
+  23: Crusoe raised a $3.9B late-stage round led by Atreides for its AI cloud and data center infrastructure {1|Tpg}
+  24: 2026 (SEP)
+  25: Gimlet Labs raised a $300M Series B led by Andreessen Horowitz for its agentic AI inference cloud {1|GlobeNewswire}
+  note: We list the latest equity rounds of neocloud startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 1314
+    ann: Lambda $480M, Together AI $305M, in 17 rounds
+  - x: 2025 H2
+    v: 7431
+    ann: Lambda $1.5B, Crusoe $1.4B, in 26 rounds
+  - x: 2026 H1
+    v: 9331
+    ann: Nscale $2B, Baseten $1.5B, in 33 rounds
+  - x: 2026 H2
+    v: 15066
+    ann: Crusoe $3.9B, Firmus $2B, in 22 rounds
+  note:
+  - We add up the disclosed equity rounds of neocloud startups in our tracker, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 3899
+    ann: CoreWeave $1.1B, Groq $640M
+  - x: '2025'
+    v: 8745
+    ann: Lambda $1.5B, Crusoe $1.4B
+  - x: '2026'
+    v: 24397
+    ann: Crusoe $3.9B, Nscale $2B
+  note:
+  - We add up the disclosed equity rounds of neocloud startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 28
+    ann: CoreWeave’s $1.1B, out of 42 rounds
+  - x: '2025'
+    v: 17
+    ann: Lambda’s $1.5B, out of 43 rounds
+  - x: 2026 (YTD)
+    v: 16
+    ann: Crusoe’s $3.9B, out of 55 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Crusoe
+    amt: 3900000000
+    date: Q3 2026
+    stage: late-stage
+  - name: Nscale
+    amt: 2000000000
+    date: Q1 2026
+    stage: Series C
+  - name: Firmus
+    amt: 2000000000
+    date: Q3 2026
+    stage: Strategic
+  - name: Fireworks AI
+    amt: 1505000000
+    date: Q3 2026
+    stage: late-stage
+  note:
+  - We listed the biggest equity rounds raised by neocloud startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: Crusoe
+    amt: 1375000000
+    date: '2025'
+    stage: late-stage
+  - name: CoreWeave
+    amt: 1100000000
+    date: '2024'
+    stage: Series C
+  - name: Nscale
+    amt: 1100000000
+    date: '2025'
+    stage: Series B
+  - name: Cerebras Systems
+    amt: 1100000000
+    date: '2025'
+    stage: late-stage
+  note:
+  - We listed the biggest equity rounds raised by neocloud startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: INFERENCE CLOUDS
+  9: '58'
+  13: $14.8B
+  17: Fireworks AI, Baseten, fal, Cerebras Systems
+  7: GPU CLOUDS
+  11: '46'
+  15: $11.4B
+  19: Crusoe, Lambda, CoreWeave, TensorWave, Vultr, GMI Cloud
+  8: DEDICATED CLUSTERS
+  12: '10'
+  16: $8.9B
+  20: Nscale, Firmus, Fluidstack, Volta
+  note: We used our tracker of 140 neocloud equity rounds announced since January 2024, worth about $37B. IPOs, debt and grants are left out
+ed169:
+  7: AMD
+  10: '4'
+  14: $803M
+  18: TensorWave (twice), Vultr
+  8: SEQUOIA
+  12: '4'
+  16: $602M
+  20: fal (twice), Mithril
+  9: ATREIDES
+  13: '3'
+  17: $6.5B
+  21: Cerebras Systems, Fireworks AI
+  26: COATUE
+  28: '3'
+  30: $3.6B
+  32: Firmus (twice), CoreWeave
+  27: DISRUPTIVE
+  29: '3'
+  31: $1.8B
+  33: Groq
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 140 rounds
+ed205:
+  14: 2025 (NOV)
+  15: Lambda raised a $1.5B late-stage round led by TWG Global for its GPU cloud for AI {1|Lambda}
+  16: 2026 (MAR)
+  17: Nscale raised a $2B Series C led by Aker ASA for its vertically integrated AI cloud infrastructure {1|Nscale}
+  18: 2026 (JUN)
+  19: Baseten raised a $1.5B late-stage round led by Altimeter for its AI model inference and deployment {1|Baseten}
+  20: 2026 (JUL)
+  21: Fireworks AI raised a $1.5B late-stage round led by Atreides for its AI inference and model serving {1|Fireworks AI}
+  22: 2026 (AUG)
+  23: Firmus raised a $2B strategic round led by Blackstone for its AI factories and GPU cloud {1|Firmus}
+  24: 2026 (SEP)
+  25: Crusoe raised a $3.9B late-stage round led by Atreides for its AI cloud and data center infrastructure {1|Tpg}
+  note: We picked the biggest disclosed rounds of neocloud startups since 2024, from our tracker of rounds
+ed160:
+  6: Inference clouds took about 40% of the capital raised since 2024, ahead of GPU clouds with about 31%
+  7: 129 of the 140 rounds since 2024 disclosed an amount, and the median disclosed round was $60M
+  8: US startups closed 91 of the 140 rounds and took $29B, about 78% of the money, far ahead of the United Kingdom
+  9: 57 rounds of $100M or more made up about 96% of all the capital raised in the market since 2024
+  10: The $3.9B late-stage round of Crusoe is the biggest since 2024, ahead of the $2B raised by Nscale in 2026
+  11: Seed was the most common round, with 36 of the 140 rounds, ahead of Series A with 33 and Series B with 18
+  note: We drew these insights from our tracker of 140 neocloud equity rounds announced since January 2024, worth about $37B
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, GPU clouds were few and small, and several of them, such as CoreWeave and Crusoe, were born close to crypto mining.'
+  7: 'AFTER
+
+
+
+    Since 2024, 140 rounds raised $37B. Inference clouds such as Fireworks AI, Baseten and fal take the biggest share, next to giant cluster builders.'
+  note: We used our tracker of neocloud equity rounds, complete from January 2024, and company releases and the press

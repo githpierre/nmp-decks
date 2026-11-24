@@ -1,0 +1,86 @@
+# Research import re, jsonport
+
+159 answers parsed, 0 YAML errors, 82 slides with remarks.
+
+- **ed006**: no sources
+- **ed008**: no sources
+- **ed009**: length 10: 13 vs 20; no sources
+- **ed010**: no sources
+- **ed011**: length 24: 18 vs 25; no sources
+- **ed012**: status no_data: MGAs sell insurance policies through brokers at prices set risk by risk, so there is no public list of products and prices to group into a relia
+- **ed012**: dropped: no data
+- **ed013**: status no_data: premiums depend on each risk and commissions are set in private contracts with insurers, so no reliable public price ranges exist
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: length 7: 141 vs 109
+- **ed016**: length 7: 143 vs 114; length 10: 139 vs 108
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed022**: no sources
+- **ed023**: length 28: 73 vs 58
+- **ed032**: length 11: 54 vs 41
+- **ed048**: length 10: 12 vs 21
+- **ed049**: status no_data: No verified five-region MGA premium split is available. Howden publishes US, Europe and rest-of-world shares, but not separate Asia-Pacific, Lat
+- **ed049**: dropped: no data
+- **ed050**: length 6: 9 vs 22; length 9: 14 vs 20; length 13: 14 vs 21
+- **ed054**: no sources
+- **ed055**: length 7: 108 vs 65; length 10: 97 vs 58; length 13: 95 vs 67; length 16: 88 vs 67; length 19: 82 vs 59; length 22: 91 vs 60; no sources
+- **ed056**: length 16: 25 vs 34; length 27: 21 vs 34; length 37: 24 vs 33; no sources
+- **ed057**: length 20: 23 vs 33; length 23: 25 vs 36; length 33: 23 vs 33; length 37: 21 vs 34; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 14: 14 vs 20; no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 17: 13 vs 21; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 14: 10 vs 20; length 17: 15 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 11 vs 20; length 17: 14 vs 21; no sources
+- **ed064-s4**: no sources
+- **ed065-s4**: no sources
+- **ed095**: length 5: 95 vs 71
+- **iv_pipeline**: length 8: 54 vs 73
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 12: 11 vs 20; length 15: 83 vs 63; no sources
+- **ed104**: length 9: 15 vs 22; length 10: 73 vs 52; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: length 12: 28 vs 41; no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 6: 27 vs 40; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: length 8: 11 vs 20; no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 8: 36 vs 26; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 6: 27 vs 40; length 12: 28 vs 41; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 8: 33 vs 26; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: no sources
+- **ed136**: length 12: 73 vs 55; length 13: 64 vs 45
+- **ed143**: length 22: 11 vs 22; length 10: 14 vs 21
+- **ed144**: length 22: 11 vs 22; length 14: 10 vs 21; length 10: 14 vs 20
+- **ed182**: length 20: 107 vs 80
+- **ed189**: length 22: 50 vs 39
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

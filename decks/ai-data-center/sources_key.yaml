@@ -1,0 +1,122 @@
+# 20 key sources of the AI data center deck (draft_sources_key.py, why/how by Claude 23 Nov 2026)
+rows:
+- name: 'CBRE, North America
+
+    data centers H1 2026'
+  why: CBRE's half-year report on North American data centers, with leasing, vacancy and building figures
+  how: We used it for the 80.4% preleased and the 1.4% vacancy. It also backed the power and site risks.
+  url: https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026
+- name: 'Crusoe, Series F
+
+    funding release'
+  why: Crusoe's release on its $3.9B round of September 2026, with its value and live capacity
+  how: We used it for the $31B value and the 1 GW live. It also framed Crusoe as the market leader.
+  url: https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding
+- name: 'JLL, global data
+
+    center outlook 2026'
+  why: JLL's yearly outlook for data centers worldwide, with grid waits, building costs and debt needs
+  how: We used it for the four-year grid wait and the $11.3M per MW. It also backed the debt risks.
+  url: https://www.jll.com/en-us/insights/market-outlook/global-data-centers
+- name: 'Core Scientific,
+
+    10-Q third quarter 2026'
+  why: Core Scientific's quarterly filing with the SEC, with its AI leases, billed power and clients
+  how: We used it for the 485 MW billed and the 530 MW of new leases. It also showed how miners pivot.
+  url: https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001839341-26-000030/core-20260930.htm
+- name: 'Fortune Business
+
+    Insights, AI data centers'
+  why: Fortune Business Insights' report on the AI data center market, with sizes by year and region
+  how: We used it for the $21B estimate, the 25.8% growth and the regions. We kept its wider scope apart.
+  url: https://www.fortunebusinessinsights.com/ai-data-center-market-110845
+- name: 'IEA, key questions
+
+    on energy and AI'
+  why: The IEA's 2026 update on energy and AI, with power use, chip density and supply chain limits
+  how: We used it for the elevenfold rise in power per server. It also backed the power swings of AI.
+  url: https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary
+- name: 'Galaxy, Helios
+
+    phase I release'
+  why: Galaxy's release on finishing the first phase of its Helios campus, leased to CoreWeave
+  how: We used it for the 133 MW delivered and the rent that began. It also showed a mine turned AI site.
+  url: https://www.galaxy.com/newsroom/galaxy-completes-phase-i-of-its-helios-data-center-campus
+- name: 'Fermi America,
+
+    10-Q third quarter 2026'
+  why: Fermi America's quarterly filing with the SEC, with its leases, letters of intent and funding needs
+  how: We used it for the end of the TensorWave lease. It also backed the risks of powered land alone.
+  url: https://www.sec.gov/Archives/edgar/data/2071778/000207177826000058/frmi-20260930.htm
+- name: 'Firmus, 900 MW
+
+    and OpenAI release'
+  why: Firmus's release on passing 900 MW under contract, with OpenAI as an anchor client in Malaysia
+  how: We used it for the 900 MW and the OpenAI deal. It also framed the leaders of Asia-Pacific.
+  url: https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia
+- name: 'Crusoe, Spark
+
+    Liquid release'
+  why: Crusoe's release on its factory-built, liquid-cooled module that powers up to 3.5 MW of chips
+  how: We used it for the 3.5 MW unit. It also backed the rise of modular and liquid-cooled AI sites.
+  url: https://www.crusoe.ai/resources/newsroom/crusoe-introduces-crusoe-spark-liquid
+- name: 'Crusoe, Abilene
+
+    campus is live'
+  why: Crusoe's release on the first phase of the Stargate campus in Abilene, Texas, going live
+  how: We used it for the September 2025 opening. It also dated when the market became hot.
+  url: https://www.crusoe.ai/resources/newsroom/crusoe-announces-flagship-abilene-data-center-is-live
+- name: 'IEA, Energy
+
+    and AI 2025'
+  why: The IEA's 2025 report on energy and AI, with grid build times and waits for power equipment
+  how: We used it for the four to eight years of new lines. It also backed the doubled transformer waits.
+  url: https://www.iea.org/reports/energy-and-ai/executive-summary
+- name: 'Nscale and
+
+    Microsoft, Norway'
+  why: Nscale's release on its 230 MW Narvik campus in Norway, with Microsoft and new Nvidia chips
+  how: We used it for the Narvik campus and its tenant. It also framed the leaders in Europe.
+  url: https://www.nscale.com/press-releases/nscale-microsoft-norway
+- name: 'JLL, global data
+
+    center outlook report'
+  why: JLL's full 2026 outlook report, with build times, equipment waits and cost premiums
+  how: We used it for the 18-month build and the 42-week equipment wait. It also backed the delays.
+  url: https://www.jll.com/content/dam/jllcom/en/global/documents/reports/research-reports/26-research-global-data-center-outlook-new.pdf
+- name: 'Armada, Orion
+
+    10 MW release'
+  why: Armada's release on Orion, its 10 MW modular data center built in a factory
+  how: We used it for the 10 MW unit. It also framed the modular AI data centers.
+  url: https://www.armada.ai/blog/armada-orion-10mw-galleon-sovereign-ai-grid
+- name: 'Applied Digital,
+
+    10-K fiscal 2026'
+  why: Applied Digital's annual filing with the SEC, with its leases, live capacity and lease terms
+  how: We used it for the 1.41 GW of leases and the first 100 MW building. It also backed its strategy.
+  url: https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001144879-26-000048/apld-20260531.htm
+- name: 'Crusoe, 900 MW
+
+    campus for Microsoft'
+  why: Crusoe's release on a new 900 MW campus in Abilene for Microsoft, with a power plant on site
+  how: We used it for the 900 MW campus. It also backed the trend of campuses with their own power.
+  url: https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure
+- name: 'Grand View Research,
+
+    AI data centers'
+  why: Grand View Research's report on the AI data center market, with its size and growth rate
+  how: We used it for the $181B estimate and the 23.9% growth, and we set it aside as it counts hardware.
+  url: https://www.grandviewresearch.com/industry-analysis/ai-data-center-market-report
+- name: 'Berkeley Lab,
+
+    data center siting'
+  why: Lawrence Berkeley National Laboratory's 2026 briefing on how US data center sites get approved
+  how: We used it for the 2026 moratoriums in Seattle and Minneapolis. It also backed the permit risks.
+  url: https://eta-publications.lbl.gov/sites/default/files/2026-10/eif_webinar_siting_v2.pdf
+- name: 'JLL, data
+
+    center outlook'
+  why: JLL's outlook on data center workloads, with the share of AI today and in 2030
+  how: We used it for the quarter of workloads from AI in 2025. It also set our own market size.
+  url: https://www.jll.com/en-us/insights/market-outlook/data-center-outlook

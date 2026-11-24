@@ -1,0 +1,44 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'What business models
+
+      work in dental AI?'
+    axes:
+    - Single practices
+    - Large dental groups
+    - Per
+    - case
+    - Flat
+    - subscription
+    groups:
+    - name: SaaS subscription
+      x: 0.3
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/dental-ai/s06-00.png
+      - src: ../../assets/logos/pp_live/dental-ai/s06-01.png
+    - name: Enterprise site license
+      x: 0.82
+      y: 0.72
+      logos:
+      - src: ../../assets/logos/pp_live/dental-ai/s06-02.png
+      - src: ../../assets/logos/pp_live/dental-ai/s06-03.png
+    - name: Per-case monitoring fee
+      x: 0.3
+      y: 0.22
+      logos:
+      - src: ../../assets/logos/pp_live/dental-ai/s06-06.png
+      - src: ../../assets/logos/pp_live/dental-ai/s06-07.png
+    - name: RCM software fees
+      x: 0.65
+      y: 0.35
+      logos:
+      - src: ../../assets/logos/pp_live/dental-ai/s06-04.png
+      - src: ../../assets/logos/pp_live/dental-ai/s06-05.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

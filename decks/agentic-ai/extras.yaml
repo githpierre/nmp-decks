@@ -1,0 +1,48 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do AI agent companies
+
+      actually make money?'
+    axes:
+    - Paid per seat
+    - Paid per result
+    - Customer
+    - service
+    - Code and
+    - operations
+    groups:
+    - name: Fee per resolved ticket
+      x: 0.8
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/agentic-ai/s06-05.png
+      - src: ../../assets/logos/pp_live/agentic-ai/s06-06.png
+      - src: ../../assets/logos/pp_live/agentic-ai/s06-07.png
+    - name: Credits per agent action
+      x: 0.42
+      y: 0.34
+      logos:
+      - src: ../../assets/logos/pp_live/agentic-ai/s06-03.png
+      - src: ../../assets/logos/pp_live/agentic-ai/s06-04.png
+    - name: Automation licenses
+      x: 0.14
+      y: 0.4
+      logos:
+      - src: ../../assets/logos/pp_live/agentic-ai/s06-02.png
+    - name: Coding agent usage
+      x: 0.66
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/agentic-ai/s06-01.png
+    - name: Developer platform seats
+      x: 0.26
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/agentic-ai/s06-00.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

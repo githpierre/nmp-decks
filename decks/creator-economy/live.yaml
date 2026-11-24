@@ -1,0 +1,524 @@
+ed058:
+  type: pp_pains
+  title: 'Which creator economy
+
+    problems are still unsolved?'
+  auds:
+  - Video creators
+  - Short-form creators
+  - Podcast hosts
+  - Newsletter writers
+  - Brand marketers
+  pains:
+  - - They cannot afford to create full time because most earn little
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They lose reach overnight when a platform changes its algorithm
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They struggle to plan income because brand deals come at random
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They struggle to stand out in feeds flooded with AI-made videos
+    - - 2
+      - 3
+      - 1
+      - 1
+      - 3
+  - - They risk burnout because they must post almost every single day
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They must prove to brands that their posts really drive sales
+    - - 2
+      - 2
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which creator platform has
+
+    the most complete tech today?'
+  companies:
+  - name: Kajabi
+    src: ../../assets/logos/pp_live/creator-economy/s05-00.png
+  - name: Patreon
+    src: ../../assets/logos/pp_live/creator-economy/s05-01.png
+  - name: Whop
+    src: ../../assets/logos/pp_live/creator-economy/s05-02.png
+  - name: Substack
+    src: ../../assets/logos/pp_live/creator-economy/s05-03.png
+  - name: Gumroad
+    src: ../../assets/logos/pp_live/creator-economy/s05-04.png
+  - name: Teachable
+    src: ../../assets/logos/pp_live/creator-economy/s05-05.png
+  features:
+  - header: Own|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Live|video
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Course|builder
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Built-in|community
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Merch|fulfillment
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Podcast|hosting
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Affiliate|program
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong for
+
+    the creator economy?'
+  events:
+  - odds: 45
+    impact: 2
+    text: Instagram and YouTube build free storefronts, courses and memberships, making paid creator tools less needed
+  - odds: 40
+    impact: 3
+    text: YouTube, Instagram and TikTok add AI-generated content so cheap that human creators lose brand deals
+  - odds: 35
+    impact: 3
+    text: The new US TikTok joint venture changes the algorithm and creators lose reach and income overnight
+  - odds: 35
+    impact: 2
+    text: Venture funding for creator startups stays low after the 2022 crash and many Series A companies close
+  - odds: 30
+    impact: 1
+    text: The FTC fines creators and agencies over undisclosed sponsorships under its new fake review rules
+  - odds: 25
+    impact: 2
+    text: Brands cut influencer budgets in an ad recession and creator tool startups like Linktree see revenue fall
+  - odds: 25
+    impact: 2
+    text: Australia-style social media bans for teens spread to the EU and US states, shrinking young audiences
+  - odds: 20
+    impact: 2
+    text: Visa and Mastercard pressure Patreon and Substack to drop adult content, and many creators leave
+  note:
+  - We listed the events that could slow creator economy down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed creator economy
+
+    forward, year after year?'
+  events:
+  - year: '2005'
+    text: YouTube lets anyone broadcast video
+    impact: 2.5
+  - year: '2006'
+    text: Google buys YouTube, backing user video
+    impact: 1.5
+  - year: '2007'
+    text: YouTube starts sharing ad money with creators
+    impact: 2.5
+  - year: '2009'
+    text: Kickstarter lets fans fund creators directly
+    impact: 1.5
+  - year: '2010'
+    text: Instagram turns phone photos into influence
+    impact: 1.5
+  - year: '2011'
+    text: Twitch makes live gaming a paid job
+    impact: 1.5
+  - year: '2013'
+    text: Patreon lets fans pay creators monthly
+    impact: 1.5
+  - year: '2014'
+    text: Amazon buys Twitch, live streaming goes big
+    impact: 1.5
+  - year: '2016'
+    text: Instagram Stories make daily posting a habit
+    impact: 1
+  - year: '2017'
+    text: YouTube ad crash pushes creators to diversify
+    impact: 1
+  - year: '2017'
+    text: FTC disclosure rules make sponsorships legit
+    impact: 1
+  - year: '2017'
+    text: Substack lets writers charge for newsletters
+    impact: 1
+  - year: '2018'
+    text: TikTok's algorithm makes anyone go viral
+    impact: 3
+  - year: '2020'
+    text: Lockdowns turn millions into creators
+    impact: 2
+  - year: '2020'
+    text: TikTok pays creators from a $1B fund
+    impact: 1.5
+  - year: '2020'
+    text: Star writers leave media for Substack
+    impact: 1
+  - year: '2020'
+    text: Instagram Reels launches to rival TikTok
+    impact: 1
+  - year: '2021'
+    text: Instagram pledges $1B to pay creators
+    impact: 1.5
+  - year: '2021'
+    text: NFT boom lets artists sell work directly
+    impact: 1
+  - year: '2021'
+    text: YouTube's $100M Shorts Fund pays creators
+    impact: 1.5
+  - year: '2023'
+    text: YouTube shares ad money on Shorts
+    impact: 1.5
+  - year: '2023'
+    text: YouTube becomes the top TV app
+    impact: 2
+  - year: '2023'
+    text: TikTok Shop turns creators into sellers
+    impact: 2
+  - year: '2023'
+    text: YouTube unveils AI tools for creators
+    impact: 1.5
+  - year: '2023'
+    text: Hollywood strikes push viewers to creators
+    impact: 1
+  - year: '2024'
+    text: Amazon gives MrBeast a $100M show
+    impact: 1.5
+  - year: '2025'
+    text: TikTok ban scare pushes creators everywhere
+    impact: 1
+  - year: '2025'
+    text: Spotify pays video podcasters
+    impact: 1
+  - year: '2025'
+    text: Netflix licenses creators like Ms Rachel
+    impact: 1.5
+  - year: '2026'
+    text: TikTok US deal ends creator ban fears
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed creator economy forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: creator-economy
+  title: 'Where did creator economy investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of creator economy startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the creator economy?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/creator-economy/s10-00.png
+    x: 375.9
+    y: 261.0
+  - src: ../../assets/logos/pp_live/creator-economy/s10-01.png
+    x: 503.1
+    y: 282.6
+  - src: ../../assets/logos/pp_live/creator-economy/s10-02.png
+    x: 657.0
+    y: 261.0
+  - src: ../../assets/logos/pp_live/creator-economy/s10-03.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/creator-economy/s10-04.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/creator-economy/s10-05.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/creator-economy/s10-06.png
+    x: 309.6
+    y: 301.7
+  - src: ../../assets/logos/pp_live/creator-economy/s10-07.png
+    x: 376.7
+    y: 309.9
+  - src: ../../assets/logos/pp_live/creator-economy/s10-08.png
+    x: 789.0
+    y: 301.9
+  - src: ../../assets/logos/pp_live/creator-economy/s10-09.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/creator-economy/s10-10.png
+    x: 789.0
+    y: 372.4
+  - src: ../../assets/logos/pp_live/creator-economy/s10-11.png
+    x: 447.4
+    y: 377.1
+  - src: ../../assets/logos/pp_live/creator-economy/s10-12.png
+    x: 552.9
+    y: 402.4
+  - src: ../../assets/logos/pp_live/creator-economy/s10-13.png
+    x: 718.7
+    y: 406.9
+  - src: ../../assets/logos/pp_live/creator-economy/s10-14.png
+    x: 415.3
+    y: 482.6
+  - src: ../../assets/logos/pp_live/creator-economy/s10-15.png
+    x: 541.3
+    y: 484.7
+  - src: ../../assets/logos/pp_live/creator-economy/s10-16.png
+    x: 614.4
+    y: 468.9
+  - src: ../../assets/logos/pp_live/creator-economy/s10-17.png
+    x: 687.4
+    y: 480.4
+  - src: ../../assets/logos/pp_live/creator-economy/s10-18.png
+    x: 803.6
+    y: 473.1
+  - src: ../../assets/logos/pp_live/creator-economy/s10-19.png
+    x: 255.9
+    y: 505.3
+  - src: ../../assets/logos/pp_live/creator-economy/s10-20.png
+    x: 476.6
+    y: 510.9
+  - src: ../../assets/logos/pp_live/creator-economy/s10-21.png
+    x: 614.6
+    y: 517.7
+  - src: ../../assets/logos/pp_live/creator-economy/s10-22.png
+    x: 745.3
+    y: 516.9
+  cols:
+  - ''
+  - Leaders
+  - Challengers
+  rows:
+  - Video / audio-first
+  - Written / knowledge-first
+  - Multi-format / infrastructure
+  note:
+  - We placed about thirty creator economy tools with clear traction by content format and role
+  - Categories blur, so this is not a ranking, and all our sources are listed at the end of the report
+ed209p:
+  title: 'What makes Substack the
+
+    paid newsletter leader?'
+  companies:
+  - short: Substack
+    src: ../../assets/logos/pp_live/creator-economy/s12-00.png
+  - short: Patreon
+    src: ../../assets/logos/pp_live/creator-economy/s12-01.png
+  - short: beehiiv
+    src: ../../assets/logos/pp_live/creator-economy/s12-02.png
+  - short: Kit
+    src: ../../assets/logos/pp_live/creator-economy/s12-03.png
+  - short: Ghost
+    src: ../../assets/logos/pp_live/creator-economy/s12-04.png
+  criteria:
+  - name: 5M+ paid subscriptions
+    why: Proof writers get paid
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Valued at $1B+
+    why: Capital to lure top writers
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Reader app with discovery
+    why: Network brings new readers
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Notes social feed
+    why: Writers grow inside the app
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Free to start publishing
+    why: Low barrier for new writers
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Built-in ad network
+    why: Earn from sponsors too
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Open source, self-host
+    why: Full control of your site
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies truly belong
+
+    in the creator economy?'
+  TL:
+    name: Kling AI
+    src: ../../assets/logos/pp_live/creator-economy/s01-00.png
+    text: generates video for millions of creators, but enterprise clients like ad agencies are the main driver of its growth
+  TR:
+    name: Etsy
+    src: ../../assets/logos/pp_live/creator-economy/s01-02.png
+    text: hosts millions of independent makers, but they earn money by selling the goods they make, not content for an audience
+  BL:
+    name: Shopify
+    src: ../../assets/logos/pp_live/creator-economy/s01-10.png
+    text: powers the merch stores of creators like MrBeast, but most of its merchants are ordinary businesses selling products
+  BR:
+    name: Spotify
+    src: ../../assets/logos/pp_live/creator-economy/s01-11.png
+    text: now pays video podcasters through its Partner Program, but most of its payouts still go to music rights holders
+  caption:
+  - Dist to the cent flects how directh ny hel if f thei di t just d tent
+  - istance to the center reflects how directly a company helps creators earn money from ir audience, not just produce conten
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/creator-economy/s01-01.png
+  - ../../assets/logos/pp_live/creator-economy/s01-03.png
+  - ../../assets/logos/pp_live/creator-economy/s01-04.png
+  - ../../assets/logos/pp_live/creator-economy/s01-05.png
+  - ../../assets/logos/pp_live/creator-economy/s01-06.png
+  - ../../assets/logos/pp_live/creator-economy/s01-07.png
+  - ../../assets/logos/pp_live/creator-economy/s01-08.png
+  - ../../assets/logos/pp_live/creator-economy/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/creator-economy/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/creator-economy/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/creator-economy/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/creator-economy/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/creator-economy/s01-06.png
+    x: 514.7
+    y: 394.9
+  - src: ../../assets/logos/pp_live/creator-economy/s01-07.png
+    x: 381.2
+    y: 430.9
+  - src: ../../assets/logos/pp_live/creator-economy/s01-08.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/creator-economy/s01-09.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people search
+
+    for a UGC creator platform online'
+  date: Recently.
+  expl: Brands now pay everyday people to film product videos that look real, and they need somewhere to find those people. Creator marketplaces and AI
+    tools for UGC started spreading, and more people searched for a platform to join or to hire from.
+  term: creator economy
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/creator-economy/creator-economy.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  lead: 'To fill that room, '
+  condition: brands must keep shifting budgets to creators, and fans must keep paying for content, products, and access every year. The market must also
+    stop AI copies of faces and voices, keep platforms stable, and turn more creators from hobbyists into real businesses.
+  note:
+  - We compared forecasts from Grand View, Fortune Business Insights, Precedence and Market.us
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 350
+  cagr: 20
+  y0: 2026

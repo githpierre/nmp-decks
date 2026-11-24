@@ -1,0 +1,91 @@
+# Research import re, jsonport
+
+148 answers parsed, 0 YAML errors, 87 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed008**: no sources
+- **ed009**: length 10: 12 vs 20; no sources
+- **ed010**: length 14: 13 vs 20; length 17: 11 vs 22; no sources
+- **ed011**: length 8: 18 vs 25; no sources
+- **ed012**: status no_data: MedTech products and prices are too varied to group into a reliable product map without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: device prices are mostly negotiated with hospitals and rarely public, left for the research chapters
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed016**: length 10: 137 vs 108
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed047p**: status no_data: no category donut on the live product page and these three revenue buckets are not our database categories (ed048 follows a donut only)
+- **ed047p**: dropped: no data
+- **ed048**: status no_data: no category donut on the live product page and these three revenue buckets are not our database categories (ed048 follows a donut only)
+- **ed048**: dropped: no data
+- **ed050**: length 6: 16 vs 22
+- **ed054**: no sources
+- **ed055**: length 7: 92 vs 65; length 10: 94 vs 58; length 13: 90 vs 67; length 19: 86 vs 59; length 22: 76 vs 60; no sources
+- **ed056**: length 10: 22 vs 30; length 12: 18 vs 31; length 14: 17 vs 25; length 16: 23 vs 34; length 20: 17 vs 25; length 25: 21 vs 32; length 27: 25 vs 34; length 31: 23 vs 31; length 33: 15 vs 30; no sources
+- **ed057**: length 6: 23 vs 32; length 8: 24 vs 34; length 20: 22 vs 33; length 23: 26 vs 36; length 25: 23 vs 31; length 29: 19 vs 28; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 17: 15 vs 21; no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 17: 14 vs 21; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 14: 14 vs 20; length 17: 15 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 13 vs 20; no sources
+- **ed064-s4**: no sources
+- **ed065-s4**: no sources
+- **ed090**: status no_data: no reliable split of where MedTech value sits, and the coin grid would show a share that nobody measured
+- **ed090**: dropped: no data
+- **ed095**: length 30: 77 vs 60
+- **iv_pipeline**: length 34: 62 vs 44
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 7: 95 vs 72; length 15: 87 vs 63; no sources
+- **ed104**: length 9: 12 vs 22; length 7: 92 vs 63; length 10: 91 vs 52; length 15: 85 vs 67; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: length 8: 14 vs 20; no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: length 8: 13 vs 20; no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 6: 27 vs 40; length 8: 39 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 8: 40 vs 26; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 6: 27 vs 40; length 8: 37 vs 26; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: length 8: 12 vs 20; no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 6: 29 vs 40; length 8: 38 vs 26; length 12: 29 vs 41; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: length 7: 27 vs 39; length 8: 38 vs 26; no sources
+- **ed136**: length 10: 76 vs 57; length 12: 78 vs 55; length 13: 66 vs 45
+- **ed144**: length 14: 13 vs 21
+- **ed145**: length 31: 16 vs 22
+- **ed172**: length 10: 56 vs 44
+- **ed189**: length 22: 54 vs 39
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

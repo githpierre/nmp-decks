@@ -1,0 +1,37 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does money really
+
+      flow in RL environments?'
+    axes:
+    - Sells compute
+    - Sells tasks
+    - Pay as
+    - you go
+    - Contract
+    - work
+    groups:
+    - name: Compute usage
+      x: 0.2
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/rl-environments/s06-03.png
+      - src: ../../assets/logos/pp_live/rl-environments/s06-04.png
+    - name: Software license
+      x: 0.35
+      y: 0.62
+      logos:
+      - src: ../../assets/logos/pp_live/rl-environments/s06-01.png
+      - src: ../../assets/logos/pp_live/rl-environments/s06-02.png
+    - name: Data service contract
+      x: 0.82
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/rl-environments/s06-00.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

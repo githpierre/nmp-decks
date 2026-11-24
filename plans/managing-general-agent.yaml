@@ -1,0 +1,127 @@
+# Spec of the research prompts for the Managing general agent (MGA) deck (tools/make_market_prompts.py). Method v2.
+# Pierre 22 Nov 2026 12h40 (« je suis tes recos »): pain segments = types of buyer (option A), value segments = 6 short names
+# (8 base categories, Embedded and program MGAs merged into Specialty commercial, Consumer and travel + Life and health merged).
+# Base: rounds searched until 14 Nov 2026. No Google slide (Pierre, 22 Nov 2026: « managing general agent » is at 0 one week
+# in two before June 2025, no rise; after, it is Google's counting change).
+name: MGA
+handle: managing-general-agent
+uuid: 151
+date: '2026-11-22'
+today: 22 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, lentivirus, LNP, viral vectors, myeloma, T cells, patients, FDA, clinical, nuclear, reactor, uranium, HALEU, GPU, drug
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases (Coalition, At-Bay, Cowbell, Stoïk, Ledgebrook, Counterpart, Shepherd, Nirvana Insurance, Cover Whale, Zego, Openly, Stand, Honeycomb, Steadily, Arbol, Descartes Underwriting,
+  Parametrix, Lassie, Dalma, ManyPets, Faye, YuLife, Boost, Comeryx), SEC filings and exchange documents (Accelerant, Neptune Insurance, Ryan Specialty, Skyward, Travelers), carrier and reinsurer releases
+  (Munich Re, Swiss Re, Hannover Re, Markel, Arch, Lloyd's syndicates, fronting carriers such as Clear Blue, State National, Vantage), Lloyd's annual reports and market bulletins, NAIC and FCA documents,
+  rating agencies and industry studies with a named method (AM Best, Conning, Aon, Gallagher Re, Target Markets, WSIA, MarketScout), and reputable press (Reuters, Bloomberg, Financial Times, Wall Street
+  Journal, Insurance Journal, Insurance Insider, The Insurer, Reinsurance News, Artemis, Carrier Management, Business Insurance, Intelligent Insurer, TechCrunch).
+# where the problem is felt (types of buyer of MGA cover and services): option A (Pierre, 22 Nov 2026), « Business policyholders »
+# and « Individual policyholders » renamed Business clients / Personal clients (POLICYHOLDERS = 13 letters, cut in capital card labels)
+pain_segments:
+- Insurance carriers
+- Insurance brokers
+- Business clients
+- Personal clients
+# types of solution: option A (Pierre, 22 Nov 2026), short names in decks/managing-general-agent/cat_short.yaml
+#   Specialty commercial = Commercial and specialty + Embedded and program MGAs | Cyber MGAs = Cyber and technology
+#   Mobility and auto = Motor and mobility | Home and property = Property and catastrophe
+#   Parametric and climate = Parametric and climate | Consumer and life = Consumer and travel + Life and health
+value_segments:
+- Specialty commercial
+- Cyber MGAs
+- Mobility and auto
+- Home and property
+- Parametric and climate
+- Consumer and life
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+# ed039p: no Google slide for MGA (Pierre, 22 Nov 2026)
+pierre_dropped:
+- ed039p
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/managing-general-agent: S01 radar (ed007p), S03 size (ed052p),
+# S03-02 donut (ed047p, redone by hand with the 6 categories), S04 (ed058, by hand, 4 buyer columns), S05 (ed099p, by hand),
+# S06 (pp_s06), S07 (ed142p, by hand), S08 (ed148p), S09 (ed168p), S10 (ed171p), S12 (ed209p). S11 live is a warning-signs
+# grid: ed199p comes from the research and is checked against it.
+live_twins:
+- ed007p
+- ed047p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which new MGA programs got insurer backing lately?
+    brief: 8 rows = 8 real MGA programs or launches from 2025 or 2026, each backed by a named insurer, reinsurer or Lloyd's syndicate. Rows read "program or line of cover" + "MGA · BACKER" + stage (PLAN / LAUNCH
+      / LIVE / RENEW, 6 characters at most). Only programs announced by the MGA, its backer or the trade press with a date. Not a broker placement, not a software contract.
+  iv_deals:
+    title: Which corporate deals shaped the MGA market?
+    brief: 6 dated deals between MGAs and large groups (acquisitions of MGAs by insurers, brokers or MGA platforms, multi-year capacity agreements with carriers, reinsurers or Lloyd's, strategic stakes, IPOs
+      such as Accelerant or Neptune), newest first, with the price or amount when public.
+  iv_fda:
+    title: What does it take to launch an MGA program?
+    brief: 5 steps from an idea for a new insurance product to policies sold under delegated authority (for example getting a license, finding an insurer that lends its paper, signing the binding authority
+      agreement, getting reinsurance behind it, passing the first audits and renewing capacity on the loss results). Each step in plain words with who decides and a typical duration.
+  iv_safety:
+    title: What could go wrong for MGAs?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example insurers pulling capacity after bad loss results, collateral fraud such as Vesttoo, a heavy catastrophe
+      year, prices falling in a soft market, regulators and Lloyd's tightening delegated-authority rules). Real filings, reports or reported cases only.
+extra:
+  ed061: 'For MGA: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line
+    description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: MGA premium growth against carriers (AM Best, Conning, Aon and Target Markets studies, the share of US commercial premium written through MGAs), the share of Lloyd's premium written under delegated
+  authority, funding records (Ledgebrook, Nirvana Insurance and its valuation, Stand, Openly, Counterpart, Lassie, Shepherd, Ominimo, Comeryx), IPOs and their share prices (Accelerant, Neptune Insurance),
+  acquisitions of MGAs (Travelers and Corvus, Ryan Specialty, Munich Re), multi-year capacity deals with reinsurers and Lloyd's, the growth of fronting carriers, E&S premium growth (WSIA), cyber MGAs' premium
+  (Coalition, At-Bay, Cowbell), new AI-native MGAs launched, insurers pulling capacity or tightening audits.
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: MGAs shut down or put in run-off, insurers or reinsurers that pulled capacity, collateral fraud (Vesttoo),
+  layoffs, down rounds and valuations that fell, MGAs sold cheaply, loss ratios far above plan, regulators or Lloyd''s acting against an MGA. Scope: companies whose core business is underwriting insurance
+  under delegated authority (MGAs, MGUs, program administrators, parametric and embedded MGAs), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: capacity pulled, big layoffs, lost independence, value fell, losses above plan). Each cell is two short lines
+  separated by | or empty. Give the website domain of each company.
+
+  - ed200: why MGA startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: Managing General Agent (MGA)
+label: MGA
+keep_together:
+- MGA
+- managing general agent
+- managing general agents
+examples:
+  jargon_bad: A binding authority agreement with a fronting carrier, backed by a quota-share reinsurance panel.
+  jargon_good: The MGA prices and sells the policies, a big insurer lends its license, and reinsurers carry most of the risk.
+  jargon_why: the reader does not work in insurance
+  proof_rule: 'Premium written or a program "worth" a big amount is not proof that an MGA works: say its loss results (loss ratio), whether its insurer renewed the capacity and for how long, and who reported
+    it.'
+  proof_bad: MGA X wrote $500M of premium.
+  proof_good: MGA X wrote $500M of premium in 2025 with a 52% loss ratio, and its insurer renewed its capacity for three years.
+  proof_why: premium can grow while losses grow faster
+  fresh_bad: MGA X raised $50M in 2024
+  fresh_good: MGA X raised $150M in June 2026, its biggest round, a year after a $60M round
+  fresh_est: MGA X should write about $600M of premium in 2026, against $400M in 2025
+  fresh_method: latest company releases, carrier and reinsurer filings, AM Best and Conning reports, press as a cross-check
+  not_proof: premium written is not profit

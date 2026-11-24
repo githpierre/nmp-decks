@@ -1,0 +1,507 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI governance
+
+    customers actually pay to solve?'
+  auds:
+  - Large banks
+  - Health systems
+  - Public agencies
+  - Tech firms
+  - Insurance firms
+  pains:
+  - - They cannot list every AI model and tool used across the company
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They struggle to prove to auditors that their AI is fair and safe
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They must follow new AI laws that differ from country to country
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 2
+  - - They find staff using AI tools that nobody has ever approved
+    - - 2
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They lack clear owners for each AI system and for its risks
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 2
+  - - They spend weeks on manual reviews before each new AI launch
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI governance player has
+
+    the most complete tech today?'
+  companies:
+  - name: IBM
+    src: ../../assets/logos/pp_live/ai-governance/s05-00.png
+  - name: ModelOp
+    src: ../../assets/logos/pp_live/ai-governance/s05-01.png
+  - name: Holistic AI
+    src: ../../assets/logos/pp_live/ai-governance/s05-02.png
+  - name: OneTrust
+    src: ../../assets/logos/pp_live/ai-governance/s05-03.png
+  - name: Credo AI
+    src: ../../assets/logos/pp_live/ai-governance/s05-04.png
+  features:
+  - header: Own|LLM
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: GRC|suite
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Red|teaming
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Model|delivery
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Self-|hosted
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Runtime|blocking
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Agent|registry
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to AI governance?'
+  events:
+  - odds: 50
+    impact: 3
+    text: ServiceNow, IBM and Microsoft bundle AI governance into existing platforms, squeezing Credo AI and similar startups
+  - odds: 40
+    impact: 2
+    text: More states copy Colorado in dropping AI bias duties, leaving few laws that require governance tools
+  - odds: 35
+    impact: 2
+    text: Buyers treat AI governance as a checklist feature and refuse to pay more than $20,000 a year
+  - odds: 30
+    impact: 1
+    text: ISO 42001 certification becomes cheap and standardized, so audit firms like Deloitte capture most spending
+  - odds: 25
+    impact: 3
+    text: Federal preemption and DOJ lawsuits wipe out Colorado and California AI laws, so fewer buyers need governance
+  - odds: 25
+    impact: 2
+    text: Venture investors cool on compliance software after slow sales cycles, so governance startups struggle to raise
+  - odds: 20
+    impact: 3
+    text: The EU delays AI Act high risk rules beyond December 2027, pushing back compliance budgets again
+  - odds: 10
+    impact: 2
+    text: A governance platform certifies a model that later causes a scandal, and customers question these tools
+  note:
+  - We listed the events that could slow ai governance down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI governance
+
+    forward, year after year?'
+  events:
+  - year: '2016'
+    text: ProPublica exposes bias in court algorithms
+    impact: 1.5
+  - year: '2018'
+    text: GDPR gives people rights over algorithms
+    impact: 2.5
+  - year: '2018'
+    text: Amazon scraps its biased hiring AI
+    impact: 1
+  - year: '2019'
+    text: OECD sets the first global AI principles
+    impact: 1
+  - year: '2020'
+    text: UK grading algorithm fiasco sparks outrage
+    impact: 1
+  - year: '2021'
+    text: EU proposes the AI Act
+    impact: 2
+  - year: '2021'
+    text: Dutch benefits scandal topples government
+    impact: 1
+  - year: '2022'
+    text: ChatGPT brings AI risk to every boardroom
+    impact: 2.5
+  - year: '2023'
+    text: NIST AI framework gives firms a playbook
+    impact: 1.5
+  - year: '2023'
+    text: NYC requires audits of hiring algorithms
+    impact: 1
+  - year: '2023'
+    text: Italy bans ChatGPT over privacy
+    impact: 1
+  - year: '2023'
+    text: Samsung leak makes firms police chatbot use
+    impact: 1
+  - year: '2023'
+    text: Biden order sets federal AI safety rules
+    impact: 1.5
+  - year: '2023'
+    text: ISO 42001 creates a certifiable AI standard
+    impact: 1.5
+  - year: '2024'
+    text: Air Canada pays for its chatbot's lie
+    impact: 1
+  - year: '2024'
+    text: EU AI Act passes with big fines
+    impact: 3
+  - year: '2024'
+    text: Colorado passes first state AI act
+    impact: 1.5
+  - year: '2024'
+    text: Hiring AI lawsuit against Workday advances
+    impact: 1
+  - year: '2024'
+    text: Council of Europe signs first AI treaty
+    impact: 1
+  - year: '2025'
+    text: EU bans unacceptable AI practices
+    impact: 1.5
+  - year: '2025'
+    text: Trump revokes AI order, states step in
+    impact: 1
+  - year: '2025'
+    text: EU rules for general purpose AI apply
+    impact: 2
+  - year: '2025'
+    text: California SB 53 requires AI safety reports
+    impact: 1.5
+  - year: '2025'
+    text: Insurers move to exclude AI risks
+    impact: 1
+  - year: '2025'
+    text: Texas passes TRAIGA, a statewide AI law
+    impact: 1.5
+  - year: '2025'
+    text: EU omnibus delays high-risk rules
+    impact: 0.5
+  - year: '2025'
+    text: Trump order targets state AI laws
+    impact: 1
+  - year: '2026'
+    text: Gartner releases first AI governance ranking
+    impact: 1.5
+  - year: '2026'
+    text: EU can now fine AI model makers
+    impact: 1.5
+  - year: '2026'
+    text: EU confirms later high-risk deadlines
+    impact: 1
+  note:
+  - We kept the events we believe pushed ai governance forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-governance
+  title: 'Where did AI governance investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai governance startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the AI governance market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-governance/s10-00.png
+    x: 349.3
+    y: 261.0
+  - src: ../../assets/logos/pp_live/ai-governance/s10-01.png
+    x: 703.9
+    y: 274.5
+  - src: ../../assets/logos/pp_live/ai-governance/s10-02.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/ai-governance/s10-03.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/ai-governance/s10-04.png
+    x: 312.9
+    y: 309.4
+  - src: ../../assets/logos/pp_live/ai-governance/s10-05.png
+    x: 475.3
+    y: 298.5
+  - src: ../../assets/logos/pp_live/ai-governance/s10-06.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/ai-governance/s10-07.png
+    x: 517.3
+    y: 365.8
+  - src: ../../assets/logos/pp_live/ai-governance/s10-08.png
+    x: 580.9
+    y: 373.3
+  - src: ../../assets/logos/pp_live/ai-governance/s10-09.png
+    x: 189.6
+    y: 404.1
+  - src: ../../assets/logos/pp_live/ai-governance/s10-10.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/ai-governance/s10-11.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/ai-governance/s10-12.png
+    x: 478.7
+    y: 417.0
+  - src: ../../assets/logos/pp_live/ai-governance/s10-13.png
+    x: 224.1
+    y: 492.9
+  - src: ../../assets/logos/pp_live/ai-governance/s10-14.png
+    x: 426.2
+    y: 470.1
+  - src: ../../assets/logos/pp_live/ai-governance/s10-15.png
+    x: 480.0
+    y: 476.1
+  - src: ../../assets/logos/pp_live/ai-governance/s10-16.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/ai-governance/s10-17.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/ai-governance/s10-18.png
+    x: 511.7
+    y: 520.7
+  - src: ../../assets/logos/pp_live/ai-governance/s10-19.png
+    x: 581.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/ai-governance/s10-20.png
+    x: 663.0
+    y: 510.6
+  cols:
+  - Sitework
+  - ''
+  - ga Renae pis
+  rows:
+  - Risk/Compliance/Legal
+  - AI/ML Engineering
+  - 'Security:'
+  note:
+  - We left out general MLOps and security tools unless they clearly enforce policy
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why might Credo AI be
+
+    winning AI governance?'
+  companies:
+  - short: Credo AI
+    src: ../../assets/logos/pp_live/ai-governance/s12-00.png
+  - short: Monitaur
+    src: ../../assets/logos/pp_live/ai-governance/s12-01.png
+  - short: ModelOp
+    src: ../../assets/logos/pp_live/ai-governance/s12-02.png
+  - short: Holistic AI
+    src: ../../assets/logos/pp_live/ai-governance/s12-03.png
+  - short: Trustible
+    src: ../../assets/logos/pp_live/ai-governance/s12-04.png
+  criteria:
+  - name: Forrester Wave Leader
+    why: Top pick for big buyers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Founder on US AI council
+    why: Shapes the rules early
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Rated in Forrester Wave
+    why: Makes enterprise shortlists
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: EU AI Act workflows
+    why: Must have for EU sales
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Insurance industry focus
+    why: Deep in a regulated niche
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Model ops automation
+    why: Governs models in production
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Hiring bias audits
+    why: Meets NYC hiring AI law
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company
+
+    part of AI governance?'
+  TL:
+    name: OneTrust
+    src: ../../assets/logos/pp_live/ai-governance/s01-00.png
+    text: is in Gartner's first Magic Quadrant for AI governance, but it built its business on privacy and cookie consent software
+  TR:
+    name: Datadog
+    src: ../../assets/logos/pp_live/ai-governance/s01-02.png
+    text: tracks the latency, cost and errors of LLM apps, but monitoring a model's performance is not enforcing AI policy
+  BL:
+    name: ServiceNow
+    src: ../../assets/logos/pp_live/ai-governance/s01-10.png
+    text: launched AI Control Tower to govern a company’s AI agents, but it remains a workflow platform known for IT tickets
+  BR:
+    name: Vanta
+    src: ../../assets/logos/pp_live/ai-governance/s01-11.png
+    text: added the ISO 42001 standard for AI management, but it is mainly software to pass security audits like SOC 2 and ISO 27001
+  caption:
+  - Distance to the center reflects how much a product exists to prove and enforce control over AI, rather than general security
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-governance/s01-01.png
+  - ../../assets/logos/pp_live/ai-governance/s01-03.png
+  - ../../assets/logos/pp_live/ai-governance/s01-04.png
+  - ../../assets/logos/pp_live/ai-governance/s01-05.png
+  - ../../assets/logos/pp_live/ai-governance/s01-06.png
+  - ../../assets/logos/pp_live/ai-governance/s01-07.png
+  - ../../assets/logos/pp_live/ai-governance/s01-08.png
+  - ../../assets/logos/pp_live/ai-governance/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-governance/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/ai-governance/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/ai-governance/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/ai-governance/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/ai-governance/s01-06.png
+    x: 514.9
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-governance/s01-07.png
+    x: 381.2
+    y: 430.9
+  - src: ../../assets/logos/pp_live/ai-governance/s01-08.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/ai-governance/s01-09.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Who are the top companies
+
+    in predictive maintenance?'
+  date: ''
+  expl: '& Analytics [A " \'
+  term: ai governance
+  note:
+  - We placed private pure players by main product and stage, from funding news and the press
+  - We left out listed companies and incumbents, and all our sources are at the end of the report
+  csv: assets/trends/ai-governance/ai-governance.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is AI governance
+
+    still growing fast?'
+  lead: ''
+  condition: Yes, but the market must turn new AI laws and agent risks into yearly budgets, as firms move governance from documents to software. It must
+    also stay independent from big platforms that bundle governance for free, and prove that its controls really prevent AI incidents.
+  note:
+  - We compared forecasts from Mordor, Straits, Fortune Business Insights and The Business Research Company
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: null
+  cagr: 28
+  y0: 2026

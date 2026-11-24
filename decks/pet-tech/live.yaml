@@ -1,0 +1,521 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would pet tech
+
+    customers actually pay to solve?'
+  auds:
+  - Dog owners
+  - Cat owners
+  - Busy workers
+  - Vet clinics
+  - Pet insurers
+  pains:
+  - - They find out about illness late because pets hide their pain
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They pay a separate monthly plan for each smart device they own
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They wait days for a vet visit as clinics run short of staff
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They repeat the same pet history because data is stuck in apps
+    - - 2
+      - 2
+      - 2
+      - 2
+      - 3
+  - - They stop trusting health alerts that are often wrong or vague
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - They lose hours on notes and admin that should go to the animals
+    - - 1
+      - 1
+      - 1
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which pet tech player has
+
+    the most complete tech today?'
+  companies:
+  - name: Tractive
+    src: ../../assets/logos/pp_live/pet-tech/s05-00.png
+  - name: Fi
+    src: ../../assets/logos/pp_live/pet-tech/s05-01.png
+  - name: SpotOn
+    src: ../../assets/logos/pp_live/pet-tech/s05-02.png
+  - name: Halo
+    src: ../../assets/logos/pp_live/pet-tech/s05-03.png
+  - name: Invoxia
+    src: ../../assets/logos/pp_live/pet-tech/s05-04.png
+  features:
+  - header: Fence|cues
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Heart|rate
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Cat|tracker
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Bark|tracking
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Built-in|light
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Training|program
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Live GPS|over LTE
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    pet tech down?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Chewy and Petco bundle vet care, insurance and smart devices, squeezing independent pet tech startups
+  - odds: 40
+    impact: 2
+    text: State veterinary boards keep blocking telehealth without an in-person exam, limiting virtual vet startups
+  - odds: 35
+    impact: 2
+    text: Household budgets tighten and owners cut spending on GPS collars, smart feeders and subscription apps
+  - odds: 30
+    impact: 2
+    text: Tariffs on Chinese electronics raise the cost of smart litter boxes and pet cameras by 25%
+  - odds: 25
+    impact: 2
+    text: Apple, Amazon and Google launch cheap pet trackers using AirTag style networks, undercutting Tractive and Fi
+  - odds: 25
+    impact: 1
+    text: Pet adoption keeps falling as shelters report fewer adoptions, shrinking the pool of new device buyers
+  - odds: 15
+    impact: 1
+    text: A hack exposes home camera feeds from a popular pet camera brand, and buyers return devices
+  - odds: 12
+    impact: 3
+    text: A smart feeder or litter box malfunction kills pets, triggering a CPSC recall and viral backlash
+  note:
+  - We listed the events that could slow pet tech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed pet tech
+
+    forward, year after year?'
+  events:
+  - year: '1995'
+    text: Microchips give lost pets a permanent ID
+    impact: 1
+  - year: '2011'
+    text: Chewy launches, pet supplies move online
+    impact: 2.5
+  - year: '2013'
+    text: Whistle launches a dog activity tracker
+    impact: 1
+  - year: '2014'
+    text: Petcube brings pet cameras to smartphones
+    impact: 1
+  - year: '2014'
+    text: Trupanion IPO puts pet insurance on Nasdaq
+    impact: 1
+  - year: '2014'
+    text: Buyout firms bet $8.7B on PetSmart
+    impact: 1
+  - year: '2016'
+    text: Mars buys Whistle, giants bet on tech
+    impact: 1.5
+  - year: '2016'
+    text: Furbo treat camera becomes an Amazon hit
+    impact: 1
+  - year: '2016'
+    text: Dog DNA tests reveal hidden health risks
+    impact: 1
+  - year: '2017'
+    text: PetSmart buys Chewy, online pet retail proven
+    impact: 1.5
+  - year: '2017'
+    text: Mars buys VCA, linking clinics and data
+    impact: 1
+  - year: '2018'
+    text: SoftBank's $300M puts dog walking on apps
+    impact: 1
+  - year: '2019'
+    text: Chewy IPO proves pet ecommerce can scale
+    impact: 1
+  - year: '2020'
+    text: Pandemic pet boom adds millions of owners
+    impact: 3
+  - year: '2020'
+    text: Covid pushes vets to offer video visits
+    impact: 2.5
+  - year: '2020'
+    text: Zoetis brings AI diagnostics to vet clinics
+    impact: 1
+  - year: '2020'
+    text: Halo collar replaces fences with GPS
+    impact: 1
+  - year: '2021'
+    text: Purina launches smart litter box sensors
+    impact: 1
+  - year: '2021'
+    text: Vet shortage leaves owners hunting for help
+    impact: 1.5
+  - year: '2021'
+    text: Chewy hits 20 million customers
+    impact: 1
+  - year: '2021'
+    text: Petco IPO rides the pandemic pet boom
+    impact: 1
+  - year: '2022'
+    text: Pet insurance passes $3 billion in premiums
+    impact: 1
+  - year: '2022'
+    text: Pets now live in 70% of homes
+    impact: 1
+  - year: '2023'
+    text: Vet bills soar, owners monitor at home
+    impact: 1.5
+  - year: '2023'
+    text: California lets vets treat pets by video
+    impact: 1.5
+  - year: '2023'
+    text: Chewy opens vet clinics linked to app
+    impact: 1
+  - year: '2024'
+    text: Blackstone buys Rover, betting on pet apps
+    impact: 1
+  - year: '2024'
+    text: US pet spending passes $150 billion
+    impact: 1.5
+  - year: '2025'
+    text: Whistle shuts down, Tractive takes its users
+    impact: 1
+  - year: '2026'
+    text: Dog lifespan pill clears FDA safety step
+    impact: 1
+  note:
+  - We kept the events we believe pushed pet tech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: pet-tech
+  title: 'Where did pet tech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of pet tech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the pet tech market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/pet-tech/s10-00.png
+    x: 346.1
+    y: 261.0
+  - src: ../../assets/logos/pp_live/pet-tech/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/pet-tech/s10-02.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/pet-tech/s10-03.png
+    x: 186.9
+    y: 294.0
+  - src: ../../assets/logos/pp_live/pet-tech/s10-04.png
+    x: 239.6
+    y: 300.0
+  - src: ../../assets/logos/pp_live/pet-tech/s10-05.png
+    x: 292.7
+    y: 304.3
+  - src: ../../assets/logos/pp_live/pet-tech/s10-06.png
+    x: 504.4
+    y: 304.3
+  - src: ../../assets/logos/pp_live/pet-tech/s10-07.png
+    x: 566.6
+    y: 285.0
+  - src: ../../assets/logos/pp_live/pet-tech/s10-08.png
+    x: 373.9
+    y: 368.4
+  - src: ../../assets/logos/pp_live/pet-tech/s10-09.png
+    x: 191.6
+    y: 399.2
+  - src: ../../assets/logos/pp_live/pet-tech/s10-10.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/pet-tech/s10-11.png
+    x: 313.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/pet-tech/s10-12.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/pet-tech/s10-13.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/pet-tech/s10-14.png
+    x: 682.7
+    y: 377.8
+  - src: ../../assets/logos/pp_live/pet-tech/s10-15.png
+    x: 754.1
+    y: 399.4
+  - src: ../../assets/logos/pp_live/pet-tech/s10-16.png
+    x: 183.0
+    y: 492.9
+  - src: ../../assets/logos/pp_live/pet-tech/s10-17.png
+    x: 510.9
+    y: 477.0
+  - src: ../../assets/logos/pp_live/pet-tech/s10-18.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/pet-tech/s10-19.png
+    x: 801.6
+    y: 483.2
+  - src: ../../assets/logos/pp_live/pet-tech/s10-20.png
+    x: 232.3
+    y: 510.6
+  - src: ../../assets/logos/pp_live/pet-tech/s10-21.png
+    x: 291.4
+    y: 505.3
+  - src: ../../assets/logos/pp_live/pet-tech/s10-22.png
+    x: 345.6
+    y: 510.6
+  - src: ../../assets/logos/pp_live/pet-tech/s10-23.png
+    x: 448.3
+    y: 496.7
+  - src: ../../assets/logos/pp_live/pet-tech/s10-24.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Challengers
+  - Partner-led B2B2C
+  - '- Vet/clinic & pet-service SaaS'
+  rows:
+  - Wearables & tracking
+  - Smart home devices
+  - Digital services
+  note:
+  - We placed pet tech startups with funding, an exit or clear traction by main product and channel
+  - Some companies could sit between two boxes, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is Tractive winning
+
+    the pet GPS tracker market?'
+  companies:
+  - short: Tractive
+    src: ../../assets/logos/pp_live/pet-tech/s12-00.png
+  - short: Fi
+    src: ../../assets/logos/pp_live/pet-tech/s12-01.png
+  - short: Halo
+    src: ../../assets/logos/pp_live/pet-tech/s12-02.png
+  - short: Garmin
+    src: ../../assets/logos/pp_live/pet-tech/s12-03.png
+  - short: Invoxia
+    src: ../../assets/logos/pp_live/pet-tech/s12-04.png
+  criteria:
+  - name: Sold in 175+ countries
+    why: Global scale and brand
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Took over Whistle users
+    why: Grew fast in the US
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Tracker built for cats
+    why: Serves a second big market
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Live GPS tracking
+    why: Finds lost pets fast
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Health and activity data
+    why: Adds value beyond location
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Training feedback collar
+    why: Replaces physical fences
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: No subscription needed
+    why: Lower cost of ownership
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as pet tech,
+
+    and what falls outside?'
+  TL:
+    name: Rover
+    src: ../../assets/logos/pp_live/pet-tech/s01-00.png
+    text: connects owners with walkers and sitters through its app, but the care it books is classic pet sitting done by people
+  TR:
+    name: Chewy
+    src: ../../assets/logos/pp_live/pet-tech/s01-02.png
+    text: runs a slick app and offers vet video calls, but about 70% of its sales still come from food, litter and other consumables
+  BL:
+    name: IDEXX
+    src: ../../assets/logos/pp_live/pet-tech/s01-10.png
+    text: sells cloud software like ezyVet to vet clinics, but about 80% of its revenue still comes from diagnostic tests and lab work
+  BR:
+    name: Pee
+    src: ../../assets/logos/pp_live/pet-tech/s01-11.png
+    text: rae is a pet ee whose * “ath Hat irectly at ; chec ui, ut its revenue comes from premiums, not tech products
+  caption:
+  - Distance to the center reflects how much the product relies on software or connected devices, rather than on goods or people
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/pet-tech/s01-01.png
+  - ../../assets/logos/pp_live/pet-tech/s01-03.png
+  - ../../assets/logos/pp_live/pet-tech/s01-04.png
+  - ../../assets/logos/pp_live/pet-tech/s01-05.png
+  - ../../assets/logos/pp_live/pet-tech/s01-06.png
+  - ../../assets/logos/pp_live/pet-tech/s01-07.png
+  - ../../assets/logos/pp_live/pet-tech/s01-08.png
+  - ../../assets/logos/pp_live/pet-tech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/pet-tech/s01-01.png
+    x: 459.2
+    y: 279.6
+  - src: ../../assets/logos/pp_live/pet-tech/s01-03.png
+    x: 535.1
+    y: 331.9
+  - src: ../../assets/logos/pp_live/pet-tech/s01-04.png
+    x: 405.6
+    y: 364.1
+  - src: ../../assets/logos/pp_live/pet-tech/s01-05.png
+    x: 471.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/pet-tech/s01-06.png
+    x: 513.6
+    y: 399.2
+  - src: ../../assets/logos/pp_live/pet-tech/s01-07.png
+    x: 376.5
+    y: 418.5
+  - src: ../../assets/logos/pp_live/pet-tech/s01-08.png
+    x: 454.1
+    y: 411.2
+  - src: ../../assets/logos/pp_live/pet-tech/s01-09.png
+    x: 502.7
+    y: 461.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Pet camera searches jump
+
+    every holiday season'
+  date: Recently.
+  expl: People treat their pets like family, and they hate leaving them alone. Back-to-office rules kept owners away longer, viral pet-cam clips flooded
+    TikTok, and holiday deals pushed cameras with treat dispensers. Searches jumped right before the holidays.
+  term: pet tech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/pet-tech/pet-tech.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    frontier AI labs get?'
+  lead: ''
+  condition: To get that big, labs must keep turning usage into paid demand from businesses, while raising the huge sums needed to buy computing every year.
+    They must also keep prices above their serving costs, win against free open models, and avoid a crash if AI revenue grows slower than the spending behind
+    it.
+  note:
+  - We compared forecasts from Grand View, Precedence, MarketsandMarkets and OpenAI's own plan
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 15
+  cagr: 22
+  y0: 2026

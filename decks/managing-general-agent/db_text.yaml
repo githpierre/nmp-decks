@@ -1,0 +1,21 @@
+# Sentences on base figures (ed160, ed162): every figure is a {db.key} of db_facts.yaml, so a base update re-flows them
+ed160:
+  6: Specialty commercial took about {db.cat1_pct}% of the capital raised since 2024, ahead of home and property with about {db.cat2_pct}%
+  7: '{db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}'
+  8: US startups closed {db.us_n} of the {db.n} rounds and took {db.us_money}, about {db.us_money_pct}% of all the money raised since 2024
+  9: '{db.big_n} rounds of $100M or more made up about {db.big_pct}% of all the capital raised in the market since 2024'
+  10: 'The {db.big1_amt} round of {db.big1_name} in {db.big1_year} is the biggest since 2024, ahead of {db.big2_name} with {db.big2_amt} in {db.big2_year}'
+  11: Series B was the most common round, with {db.series_b} of the {db.n} rounds, while seed rounds were only {db.seed} of them
+  note: We drew these insights from our tracker of {db.n} MGA equity rounds announced since January 2024, worth about {db.total}
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, most insurtech MGAs raised money on fast premium growth, and many lost their capacity when losses came in above plan.'
+  7: 'AFTER
+
+
+
+    Since 2024, {db.n} rounds raised {db.total}. Specialty commercial takes the biggest share, led by Ledgebrook, and investors now ask for loss results.'
+  note: We used our tracker of MGA equity rounds, complete from January 2024, and company releases and the press

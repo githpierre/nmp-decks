@@ -1,0 +1,589 @@
+ed058:
+  type: pp_pains
+  title: 'Which cell therapy problems
+
+    are still unsolved today?'
+  auds:
+  - Lymphoma patients
+  - Cancer centers
+  - Biotech developers
+  - Health insurers
+  - Solid-tumor patients
+  pains:
+  - - They wait weeks while their own cells are made into the therapy
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They face side effects like cytokine storms that need close care
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 2
+  - - They pay hundreds of thousands of dollars for a single treatment
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 1
+  - - They must travel to one of the few centers certified to treat them
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 2
+  - - They cannot make each batch cheaply because it is made by hand
+    - - 1
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They see little success so far against solid tumors like lung
+    - - 1
+      - 1
+      - 3
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which cell therapy player has
+
+    the most complete tech today?'
+  companies:
+  - name: Legend
+    src: ../../assets/logos/pp_live/cell-therapy/s05-00.png
+  - name: Allogene
+    src: ../../assets/logos/pp_live/cell-therapy/s05-01.png
+  - name: Kite
+    src: ../../assets/logos/pp_live/cell-therapy/s05-02.png
+  - name: Autolus
+    src: ../../assets/logos/pp_live/cell-therapy/s05-03.png
+  - name: Iovance
+    src: ../../assets/logos/pp_live/cell-therapy/s05-04.png
+  features:
+  - header: Approved|therapy
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Own|plant
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Off-the-|shelf cells
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: In vivo|CAR-T
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Autoimmune|trials
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Solid|tumors
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Gene|edited
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to cell therapy?'
+  events:
+  - odds: 40
+    impact: 3
+    text: CAR-T list prices stay above $400,000 per patient and hospitals limit use for budget reasons
+  - odds: 40
+    impact: 2
+    text: Biotech funding stays tight and many cell therapy startups close before reaching Phase 2 results
+  - odds: 35
+    impact: 2
+    text: Big pharma exits cell therapy like Takeda and Novo Nordisk did, leaving startups without partners
+  - odds: 35
+    impact: 1
+    text: Chinese companies like Legend Biotech win global licenses with cheaper CAR-T and take market share
+  - odds: 30
+    impact: 2
+    text: The FDA adds safety warnings or holds after T cell cancers appear in more CAR-T patients
+  - odds: 30
+    impact: 2
+    text: Medicare and payers refuse to pay for CAR-T in lupus and autoimmune diseases without long-term data
+  - odds: 15
+    impact: 3
+    text: A patient death in an allogeneic trial leads the FDA to halt several off-the-shelf programs
+  - odds: 12
+    impact: 3
+    text: In vivo CAR-T from AstraZeneca and Gilead replaces ex vivo therapies, making startup factories obsolete
+  note:
+  - We listed the events that could slow cell therapy down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed cell therapy
+
+    forward, year after year?'
+  events:
+  - year: '1957'
+    text: Thomas performs first bone marrow transplant
+    impact: 1.5
+  - year: '1988'
+    text: Rosenberg's TIL cells shrink melanoma
+    impact: 1.5
+  - year: '1989'
+    text: Eshhar builds the first CAR T cell
+    impact: 2
+  - year: '1997'
+    text: Carticel wins first approval for grown cells
+    impact: 1
+  - year: '1998'
+    text: Human embryonic stem cells first grown
+    impact: 1.5
+  - year: '2002'
+    text: Second-gen CARs make T cells last longer
+    impact: 1.5
+  - year: '2006'
+    text: Yamanaka turns adult cells into stem cells
+    impact: 2
+  - year: '2010'
+    text: Provenge wins approval as cancer cell vaccine
+    impact: 1.5
+  - year: '2011'
+    text: Penn CAR-T clears leukemia in first patients
+    impact: 2.5
+  - year: '2012'
+    text: Emily Whitehead's cure makes CAR-T famous
+    impact: 2
+  - year: '2012'
+    text: Novartis bets on Penn CAR-T, pharma arrives
+    impact: 1.5
+  - year: '2014'
+    text: Japan fast-tracks regenerative cell approvals
+    impact: 1.5
+  - year: '2016'
+    text: Cures Act creates fast track for cells
+    impact: 1.5
+  - year: '2017'
+    text: Kymriah becomes first FDA-approved CAR-T
+    impact: 3
+  - year: '2017'
+    text: Gilead buys Kite for $11.9B
+    impact: 2.5
+  - year: '2018'
+    text: Celgene buys Juno for $9B
+    impact: 1.5
+  - year: '2019'
+    text: Edited cells treat first sickle cell patient
+    impact: 1.5
+  - year: '2019'
+    text: Medicare sets CAR-T coverage, easing access
+    impact: 1
+  - year: '2021'
+    text: Abecma brings CAR-T to myeloma
+    impact: 1.5
+  - year: '2022'
+    text: Carvykti shows deep myeloma responses
+    impact: 1.5
+  - year: '2022'
+    text: CAR-T sends lupus patients into remission
+    impact: 2
+  - year: '2022'
+    text: Yescarta wins second-line use, more patients
+    impact: 1.5
+  - year: '2023'
+    text: Casgevy proves edited stem cells can cure
+    impact: 1.5
+  - year: '2024'
+    text: Amtagvi is first approved solid tumor TIL
+    impact: 2
+  - year: '2024'
+    text: Tecelra brings TCR cells to sarcoma
+    impact: 1
+  - year: '2025'
+    text: AbbVie buys Capstan for in vivo CAR-T
+    impact: 2
+  - year: '2025'
+    text: FDA drops REMS, easing CAR-T rollout
+    impact: 1.5
+  - year: '2025'
+    text: Gilead buys Interius for in vivo CAR-T
+    impact: 1
+  - year: '2025'
+    text: Stem cell islets free diabetics from insulin
+    impact: 1.5
+  - year: '2026'
+    text: In-body CAR-T wins FDA nod to expand
+    impact: 1
+  note:
+  - We kept the events we believe pushed cell therapy forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: cell-therapy
+  title: 'Where did cell therapy investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of cell therapy startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the cell therapy market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-00.png
+    x: 336.9
+    y: 264.4
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-01.png
+    x: 414.9
+    y: 264.6
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-02.png
+    x: 514.7
+    y: 261.4
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-03.png
+    x: 614.6
+    y: 264.6
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-04.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-05.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-06.png
+    x: 268.3
+    y: 285.0
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-07.png
+    x: 468.0
+    y: 312.0
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-08.png
+    x: 561.6
+    y: 312.0
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-09.png
+    x: 373.9
+    y: 365.1
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-10.png
+    x: 440.6
+    y: 368.4
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-11.png
+    x: 207.0
+    y: 404.1
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-12.png
+    x: 290.6
+    y: 377.8
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-13.png
+    x: 502.1
+    y: 404.1
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-14.png
+    x: 571.7
+    y: 376.3
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-15.png
+    x: 694.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-16.png
+    x: 373.9
+    y: 415.9
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-17.png
+    x: 444.9
+    y: 480.0
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-18.png
+    x: 723.4
+    y: 490.7
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-19.png
+    x: 800.6
+    y: 473.1
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-20.png
+    x: 229.3
+    y: 499.9
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-21.png
+    x: 315.0
+    y: 497.6
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-22.png
+    x: 541.3
+    y: 499.7
+  - src: ../../assets/logos/pp_live/cell-therapy/s10-23.png
+    x: 657.0
+    y: 517.7
+  cols:
+  - Product-led self-serve
+  - Enterprise/vertical sales
+  - $25 B $31B
+  rows:
+  - Hematologic
+  - Solid tumors
+  - Non-oncology
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these cell therapy
+
+    startups, and how did they end?'
+  causes:
+  - Trial|setbacks
+  - Ran out|of cash
+  - No buyer|or deal
+  - Sales too|small
+  rows:
+  - name: Rubius
+    ending: Shut down
+    start: '2013'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cell-therapy/s11-00.png
+    ini: R
+    slug: rubius
+    domain: rubiustx.com
+  - name: Tessa
+    ending: Shut down
+    start: '2012'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cell-therapy/s11-01.png
+    ini: T
+    slug: tessa
+    domain: tessatherapeutics.com
+  - name: Athersys
+    ending: Went bankrupt
+    start: '1995'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cell-therapy/s11-02.png
+    ini: A
+    slug: athersys
+    domain: athersys.com
+  - name: Adaptimmune
+    ending: Sold for $55M
+    start: '2008'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/cell-therapy/s11-03.png
+    ini: A
+    slug: adaptimmune
+    domain: adaptimmune.com
+  - name: Carisma
+    ending: Deal collapsed
+    start: '2016'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cell-therapy/s11-04.png
+    ini: C
+    slug: carisma
+    domain: carismatx.com
+  note:
+  - We tracked the cell therapy startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Carvykti winning
+
+    the CAR-T market today?'
+  companies:
+  - short: Carvykti
+    src: ../../assets/logos/pp_live/cell-therapy/s12-00.png
+  - short: Kite
+    src: ../../assets/logos/pp_live/cell-therapy/s12-01.png
+  - short: BMS
+    src: ../../assets/logos/pp_live/cell-therapy/s12-02.png
+  - short: Novartis
+    src: ../../assets/logos/pp_live/cell-therapy/s12-03.png
+  - short: Autolus
+    src: ../../assets/logos/pp_live/cell-therapy/s12-04.png
+  criteria:
+  - name: Top selling CAR-T
+    why: $657M sales in Q2 2026
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: BCMA myeloma CAR-T
+    why: Targets a big blood cancer
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Used from second line
+    why: Reaches patients earlier
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Proven survival gain
+    why: Trial showed longer lives
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Approved in US and Europe
+    why: Sold in top drug markets
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Big pharma launch partner
+    why: Global sales muscle
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really
+
+    belong in POS software?'
+  TL:
+    name: Stripe
+    src: ../../assets/logos/pp_live/cell-therapy/s01-00.png
+    text: payment processing powers checkout but is not a point of sale operating system with a business model that remains outsi
+  TR:
+    name: Shopify
+    src: ../../assets/logos/pp_live/cell-therapy/s01-01.png
+    text: commerce platform includes POS, but ecommerce remains a major part of the business with a business model that remains o
+  BL:
+    name: Block
+    src: ../../assets/logos/pp_live/cell-therapy/s01-10.png
+    text: square POS is meaningful, but Block also spans Cash App and broad financial services with a business model that remains
+  BR:
+    name: Toast
+    src: ../../assets/logos/pp_live/cell-therapy/s01-11.png
+    text: restaurant POS is central, with payments, payroll and lending expanding beyond POS with a business model that remains o
+  caption:
+  - Distance to the center reflects how central each company is to POS software
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/cell-therapy/s01-02.png
+  - ../../assets/logos/pp_live/cell-therapy/s01-03.png
+  - ../../assets/logos/pp_live/cell-therapy/s01-04.png
+  - ../../assets/logos/pp_live/cell-therapy/s01-05.png
+  - ../../assets/logos/pp_live/cell-therapy/s01-06.png
+  - ../../assets/logos/pp_live/cell-therapy/s01-07.png
+  - ../../assets/logos/pp_live/cell-therapy/s01-08.png
+  - ../../assets/logos/pp_live/cell-therapy/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/cell-therapy/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/cell-therapy/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/cell-therapy/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/cell-therapy/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/cell-therapy/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/cell-therapy/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/cell-therapy/s01-08.png
+    x: 388.5
+    y: 444.2
+  - src: ../../assets/logos/pp_live/cell-therapy/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask if stem
+
+    cell therapy works, and where to get It'
+  date: C Over the past year.
+  expl: Stem cells became the new longevity trend. Celebrities and athletes talked about trips to clinics abroad, influencers posted their treatments, and
+    new rules in the US and Japan made headlines. People wanted to know if it works and where to get it.
+  term: cell therapy
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/cell-therapy/cell-therapy.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for cell therapy to grow?'
+  lead: 'To fill that room, '
+  condition: CAR-T must keep moving to earlier lines of treatment and new countries, while autoimmune CAR-T wins its first approvals. In vivo CAR-T, donor
+    cells, and iPSC therapies must also reach patients, and costs must fall enough for payers to cover many more people.
+  note:
+  - We compared forecasts from Fortune Business Insights, Towards Healthcare, Mordor and IMARC
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 9.5
+  cagr: 20
+  y0: 2026

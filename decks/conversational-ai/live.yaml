@@ -1,0 +1,621 @@
+ed058:
+  type: pp_pains
+  title: 'Which conversational AI
+
+    problems are still unsolved?'
+  auds:
+  - Retail banks
+  - Telecom groups
+  - Online retailers
+  - Health systems
+  - Everyday users
+  pains:
+  - - They get answers that sound right but turn out to be wrong
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 3
+  - - They lose customers when the bot cannot hand off to a human
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They struggle to connect assistants to old back-office systems
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 1
+  - - They must stop the bot from making promises the firm cannot keep
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They pay usage bills that rise faster than the savings they see
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They worry about what the assistant does with their private data
+    - - 1
+      - 1
+      - 1
+      - 3
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which conversational AI firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Kore.ai
+    src: ../../assets/logos/pp_live/conversational-ai/s05-00.png
+  - name: Sierra
+    src: ../../assets/logos/pp_live/conversational-ai/s05-01.png
+  - name: Decagon
+    src: ../../assets/logos/pp_live/conversational-ai/s05-02.png
+  - name: Cresta
+    src: ../../assets/logos/pp_live/conversational-ai/s05-03.png
+  - name: PolyAI
+    src: ../../assets/logos/pp_live/conversational-ai/s05-04.png
+  - name: Parloa
+    src: ../../assets/logos/pp_live/conversational-ai/s05-05.png
+  features:
+  - header: On-prem|option
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Live agent|desk
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Email|agents
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Own trained|models
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Simulated|tests
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Agent|copilot
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Own contact|center
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for conversational AI?'
+  events:
+  - odds: 45
+    impact: 3
+    text: OpenAI, Google and Microsoft bundle voice and chat agents into their platforms, so startups lose deals
+  - odds: 40
+    impact: 3
+    text: Salesforce, Zendesk and ServiceNow ship native AI agents inside their help desks at no extra cost
+  - odds: 40
+    impact: 2
+    text: Model price cuts turn per conversation pricing into a race to the bottom for agent vendors
+  - odds: 35
+    impact: 1
+    text: EU AI Act transparency rules and national fines raise compliance costs for chatbot vendors selling in Europe
+  - odds: 30
+    impact: 2
+    text: Voice cloning fraud leads the FCC and state laws to restrict AI phone calls to consumers
+  - odds: 30
+    impact: 2
+    text: Investors stop funding thin wrapper startups after Sierra and Decagon raise most of the category money
+  - odds: 25
+    impact: 2
+    text: A bank or airline chatbot gives false refund promises at scale and courts hold the company liable
+  - odds: 12
+    impact: 3
+    text: A major data leak through a customer service agent triggers a class action and enterprise freezes
+  note:
+  - We listed the events that could slow conversational ai down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed conversational
+
+    AI forward, year after year?'
+  events:
+  - year: '1966'
+    text: ELIZA shows people will talk to machines
+    impact: 1
+  - year: '2011'
+    text: IBM Watson wins Jeopardy
+    impact: 1.5
+  - year: '2011'
+    text: Siri puts a voice assistant in pockets
+    impact: 2.5
+  - year: '2012'
+    text: Deep learning slashes speech errors
+    impact: 2
+  - year: '2014'
+    text: Alexa brings voice AI into homes
+    impact: 2.5
+  - year: '2016'
+    text: Messenger opens to chatbots
+    impact: 1.5
+  - year: '2016'
+    text: Google Assistant reaches Android phones
+    impact: 1
+  - year: '2017'
+    text: Transformer paper lets AI understand text
+    impact: 2
+  - year: '2018'
+    text: Google Duplex books calls like a human
+    impact: 1
+  - year: '2018'
+    text: BERT makes bots grasp user intent
+    impact: 1.5
+  - year: '2020'
+    text: Covid floods call centers, bots step in
+    impact: 2
+  - year: '2022'
+    text: Microsoft buys Nuance for $20B
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT shows bots can truly converse
+    impact: 3
+  - year: '2023'
+    text: Contact centers rush to add GenAI bots
+    impact: 2
+  - year: '2023'
+    text: Agent shortages push AI phone support
+    impact: 1
+  - year: '2024'
+    text: Klarna bot does work of 700 agents
+    impact: 2
+  - year: '2024'
+    text: FCC bans AI voices in robocalls
+    impact: 0.5
+  - year: '2024'
+    text: Air Canada liable for its chatbot's answer
+    impact: 1
+  - year: '2024'
+    text: GPT-4o talks with human-like voice
+    impact: 2
+  - year: '2024'
+    text: Realtime API lets apps build voice agents
+    impact: 1.5
+  - year: '2024'
+    text: OpenAI cuts realtime voice prices by 60%
+    impact: 1.5
+  - year: '2025'
+    text: Alexa+ rebuilds Alexa on generative AI
+    impact: 1.5
+  - year: '2025'
+    text: Klarna brings back humans, hybrid wins
+    impact: 0.5
+  - year: '2025'
+    text: NiCE buys Cognigy for $955M
+    impact: 1.5
+  - year: '2025'
+    text: Meta AI reaches 1 billion users
+    impact: 1.5
+  - year: '2025'
+    text: Gemini Live talks about what you see
+    impact: 1
+  - year: '2025'
+    text: Salesforce swaps 4,000 support jobs for AI
+    impact: 1
+  - year: '2026'
+    text: SoundHound buys LivePerson to scale
+    impact: 1
+  - year: '2026'
+    text: Apple picks Gemini to rebuild Siri
+    impact: 1.5
+  - year: '2026'
+    text: ChatGPT reaches 1 billion weekly users
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed conversational ai forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: conversational-ai
+  title: 'Where did conversational AI investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of conversational ai startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    conversational AI today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-00.png
+    x: 328.7
+    y: 270.6
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-01.png
+    x: 473.8
+    y: 277.1
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-02.png
+    x: 641.1
+    y: 261.0
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-03.png
+    x: 801.6
+    y: 261.0
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-04.png
+    x: 213.0
+    y: 297.9
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-05.png
+    x: 275.6
+    y: 300.0
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-06.png
+    x: 419.6
+    y: 294.0
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-07.png
+    x: 528.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-08.png
+    x: 696.4
+    y: 294.0
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-09.png
+    x: 748.3
+    y: 305.6
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-10.png
+    x: 540.0
+    y: 373.3
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-11.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-12.png
+    x: 755.6
+    y: 370.5
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-13.png
+    x: 310.7
+    y: 400.3
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-14.png
+    x: 417.6
+    y: 377.6
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-15.png
+    x: 481.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-16.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-17.png
+    x: 801.4
+    y: 414.0
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-18.png
+    x: 249.4
+    y: 492.9
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-19.png
+    x: 420.9
+    y: 468.9
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-20.png
+    x: 478.7
+    y: 483.2
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-21.png
+    x: 680.6
+    y: 469.5
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-22.png
+    x: 801.4
+    y: 480.0
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-23.png
+    x: 544.3
+    y: 504.6
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-24.png
+    x: 648.0
+    y: 520.3
+  - src: ../../assets/logos/pp_live/conversational-ai/s10-25.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Consumer
+  - Enterprise internal
+  - '- Enterprise customer-facing'
+  rows:
+  - Packaged assistants
+  - Build/orchestration
+  - Components
+  note:
+  - We left out general LLM APIs and broad suites where assistants are a small feature
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these conversational
+
+    AI startups, and how did they end?'
+  causes:
+  - Patent|lawsuit
+  - Ran out|of cash
+  - Investors|pulled out
+  - Weak|demand
+  rows:
+  - name: Mycroft AI
+    ending: Shut down
+    start: '2015'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/conversational-ai/s11-00.png
+    ini: M
+    slug: mycroft-ai
+    domain: mycroft.ai
+  - name: Embodied
+    ending: Shut down
+    start: '2016'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/conversational-ai/s11-01.png
+    ini: E
+    slug: embodied
+    domain: embodied.com
+  - name: Humane
+    ending: Sold for $116M
+    start: '2018'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/conversational-ai/s11-02.png
+    ini: H
+    slug: humane
+    domain: humane.com
+  - name: Jibo
+    ending: Shut down
+    start: '2012'
+    end: '2018'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/conversational-ai/s11-03.png
+    ini: J
+    slug: jibo
+    domain: jibo.com
+  - name: Clara Labs
+    ending: Sold to TopFunnel
+    start: '2014'
+    end: '2019'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/conversational-ai/s11-04.png
+    ini: C
+    slug: clara-labs
+    domain: claralabs.com
+  note:
+  - We tracked the conversational ai startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Sierra winning the
+
+    AI customer service race?'
+  companies:
+  - short: Sierra
+    src: ../../assets/logos/pp_live/conversational-ai/s12-00.png
+  - short: Decagon
+    src: ../../assets/logos/pp_live/conversational-ai/s12-01.png
+  - short: Parloa
+    src: ../../assets/logos/pp_live/conversational-ai/s12-02.png
+  - short: Ada
+    src: ../../assets/logos/pp_live/conversational-ai/s12-03.png
+  - short: PolyAI
+    src: ../../assets/logos/pp_live/conversational-ai/s12-04.png
+  - short: Cresta
+    src: ../../assets/logos/pp_live/conversational-ai/s12-05.png
+  criteria:
+  - name: Valued above $15B
+    why: Most capital to scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $150M+ ARR
+    why: Most revenue in the category
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Ex Salesforce co-CEO lead
+    why: Opens doors at big brands
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 40% of Fortune 50 served
+    why: Wins the largest accounts
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Valued $3B or more
+    why: Funds fast product build
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Pay per resolution option
+    why: Price tied to results
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Voice AI agents
+    why: Covers phone support too
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really
+
+    belong in conversational AI?'
+  TL:
+    name: Twilio
+    src: ../../assets/logos/pp_live/conversational-ai/s01-00.png
+    text: carries the calls and texts behind many AI assistants, but it sells that plumbing by the minute, not the assistant itself
+  TR:
+    name: WhatsApp
+    src: ../../assets/logos/pp_live/conversational-ai/s01-02.png
+    text: has over 3 billion users and now hosts Meta AI, but it is a messaging app between people rather than an AT assistant
+  BL:
+    name: Perplexity
+    src: ../../assets/logos/pp_live/conversational-ai/s01-10.png
+    text: answers questions in a chat window, but it is built as an answer engine to rival Google, so it sits on the line
+  BR:
+    name: Mistral AI
+    src: ../../assets/logos/pp_live/conversational-ai/s01-11.png
+    text: has a consumer assistant in Le Chat, but most of its revenue comes from models sold to businesses, so it is on the edge
+  caption:
+  - Distance to the center reflects how much a product is built around natural conversation, rather than models or plumbing
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/conversational-ai/s01-01.png
+  - ../../assets/logos/pp_live/conversational-ai/s01-03.png
+  - ../../assets/logos/pp_live/conversational-ai/s01-04.png
+  - ../../assets/logos/pp_live/conversational-ai/s01-05.png
+  - ../../assets/logos/pp_live/conversational-ai/s01-06.png
+  - ../../assets/logos/pp_live/conversational-ai/s01-07.png
+  - ../../assets/logos/pp_live/conversational-ai/s01-08.png
+  - ../../assets/logos/pp_live/conversational-ai/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/conversational-ai/s01-01.png
+    x: 453.6
+    y: 280.9
+  - src: ../../assets/logos/pp_live/conversational-ai/s01-03.png
+    x: 532.1
+    y: 329.1
+  - src: ../../assets/logos/pp_live/conversational-ai/s01-04.png
+    x: 404.8
+    y: 368.1
+  - src: ../../assets/logos/pp_live/conversational-ai/s01-05.png
+    x: 469.3
+    y: 353.8
+  - src: ../../assets/logos/pp_live/conversational-ai/s01-06.png
+    x: 514.1
+    y: 397.5
+  - src: ../../assets/logos/pp_live/conversational-ai/s01-07.png
+    x: 378.4
+    y: 424.1
+  - src: ../../assets/logos/pp_live/conversational-ai/s01-08.png
+    x: 455.4
+    y: 412.5
+  - src: ../../assets/logos/pp_live/conversational-ai/s01-09.png
+    x: 506.6
+    y: 460.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'People search for conversational AI
+
+    as AI voices stop sounding like robots'
+  date: Over the past year.
+  expl: AI voices stopped sounding like robots. ChatGPT’s voice mode, Gemini Live and new voice agents could talk, laugh and interrupt like a person, and
+    companies started putting them on customer service lines. People searched what conversational AI is and how to use it.
+  term: conversational ai
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/conversational-ai/conversational-ai.csv
+ed052p:
+  type: pp_cagr
+  title: 'Can conversational AI
+
+    keep growing this fast?'
+  lead: ''
+  condition: Yes, but the market must turn AI agents into trusted daily workers, as companies move budgets from people and old phone systems to software.
+    It must also keep bots from making costly errors, follow new rules on AI disclosure, and resist falling prices as models get cheaper every year.
+  note:
+  - We compared forecasts from IMARC, Grand View, Fortune Business Insights and MarketsandMarkets
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 18
+  cagr: 20
+  y0: 2026

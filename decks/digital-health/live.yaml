@@ -1,0 +1,602 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved pain
+
+    points in digital health?'
+  auds:
+  - Family doctors
+  - Hospital doctors
+  - Nursing teams
+  - Coding teams
+  - Hospital CIOs
+  pains:
+  - - They spend hours a day on notes, inbox messages and forms
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They worry that AI notes contain errors they must find and fix
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They lose revenue when notes miss diagnoses that could be billed
+    - - 2
+      - 1
+      - 1
+      - 3
+      - 3
+  - - They switch between many screens just to find basic patient data
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They face lawsuits over patient visits recorded without consent
+    - - 2
+      - 1
+      - 1
+      - 1
+      - 3
+  - - They struggle to show a clear financial return on their AI tools
+    - - 1
+      - 1
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which digital health player has
+
+    the most complete tech today?'
+  companies:
+  - name: Teladoc
+    src: ../../assets/logos/pp_live/digital-health/s05-00.png
+  - name: Hims & Hers
+    src: ../../assets/logos/pp_live/digital-health/s05-01.png
+  - name: Amwell
+    src: ../../assets/logos/pp_live/digital-health/s05-02.png
+  - name: Ro
+    src: ../../assets/logos/pp_live/digital-health/s05-03.png
+  - name: LifeMD
+    src: ../../assets/logos/pp_live/digital-health/s05-04.png
+  features:
+  - header: Hospital|platform
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Takes|insurance
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: GLP-1|program
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Therapy|sessions
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Home|devices
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own|pharmacy
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Own lab|testing
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for digital health?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Epic bundles AI agents and native AI notes for free, crushing standalone digital health tools inside hospitals
+  - odds: 35
+    impact: 3
+    text: UnitedHealth, CVS, Amazon and Epic build their own care and AI tools and cut startups out
+  - odds: 30
+    impact: 3
+    text: Employers and insurers cancel diabetes and blood pressure app contracts after Peterson studies find higher costs
+  - odds: 25
+    impact: 2
+    text: Free ChatGPT and Gemini health answers replace paid symptom checker and coaching apps for most consumers
+  - odds: 20
+    impact: 2
+    text: Another breach on the scale of Change Healthcare exposes millions of records and freezes digital health deals
+  - odds: 15
+    impact: 2
+    text: Digital health funding dries up for everyone except a few AI leaders, and many startups shut down
+  - odds: 15
+    impact: 2
+    text: An AI scribe or health chatbot seriously harms a patient and triggers lawsuits and new FDA scrutiny
+  - odds: 10
+    impact: 3
+    text: Congress lets Medicare telehealth flexibilities expire, cutting virtual care visits and revenue for digital health firms
+  note:
+  - We listed the events that could slow digital health down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed digital health
+
+    forward, year after year?'
+  events:
+  - year: '1996'
+    text: HIPAA sets rules for health data
+    impact: 1
+  - year: '2004'
+    text: Bush calls for digital records by 2014
+    impact: 1
+  - year: '2007'
+    text: iPhone puts health apps in every pocket
+    impact: 1.5
+  - year: '2009'
+    text: HITECH pays doctors $27B to go digital
+    impact: 3
+  - year: '2010'
+    text: Obamacare rewards keeping patients healthy
+    impact: 1.5
+  - year: '2013'
+    text: FDA clarifies rules for medical apps
+    impact: 1
+  - year: '2014'
+    text: Apple HealthKit gathers data in one place
+    impact: 1
+  - year: '2015'
+    text: Apple Watch puts heart tracking on wrists
+    impact: 1.5
+  - year: '2017'
+    text: FDA clears first prescription app
+    impact: 1.5
+  - year: '2018'
+    text: FDA clears Apple Watch ECG
+    impact: 1.5
+  - year: '2019'
+    text: Germany pays for apps doctors prescribe
+    impact: 1.5
+  - year: '2020'
+    text: Covid makes telehealth visits surge 38x
+    impact: 3
+  - year: '2020'
+    text: Medicare lifts limits on telehealth
+    impact: 2
+  - year: '2020'
+    text: Teladoc buys Livongo for $18.5B
+    impact: 1.5
+  - year: '2021'
+    text: Record $29B funding lets startups scale
+    impact: 1.5
+  - year: '2021'
+    text: Info blocking rule frees patient data
+    impact: 1
+  - year: '2022'
+    text: Amazon buys One Medical for $3.9B
+    impact: 1.5
+  - year: '2022'
+    text: Medicare starts paying for remote therapy
+    impact: 1
+  - year: '2023'
+    text: Epic adds GPT-4 to health records
+    impact: 1.5
+  - year: '2023'
+    text: GLP-1 demand fuels telehealth weight clinics
+    impact: 1.5
+  - year: '2024'
+    text: Kaiser brings AI scribes to 40 hospitals
+    impact: 2.5
+  - year: '2024'
+    text: Change Healthcare hack exposes old systems
+    impact: 1
+  - year: '2024'
+    text: FDA lets AirPods work as hearing aids
+    impact: 1
+  - year: '2025'
+    text: 60 firms sign CMS data sharing pledge
+    impact: 1.5
+  - year: '2025'
+    text: Medicare launches ACCESS model for tech care
+    impact: 1.5
+  - year: '2025'
+    text: FDA clears hypertension alerts on Apple Watch
+    impact: 1
+  - year: '2026'
+    text: ChatGPT Health connects medical records
+    impact: 2
+  - year: '2026'
+    text: Congress extends telehealth through 2027
+    impact: 1.5
+  - year: '2026'
+    text: FDA loosens rules on wellness wearables
+    impact: 1
+  - year: '2026'
+    text: Medicare tests AI for prior approvals
+    impact: 1
+  note:
+  - We kept the events we believe pushed digital health forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: digital-health
+  title: 'Where did digital health investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of digital health startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the digital health market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/digital-health/s10-00.png
+    x: 430.7
+    y: 264.6
+  - src: ../../assets/logos/pp_live/digital-health/s10-01.png
+    x: 549.4
+    y: 261.4
+  - src: ../../assets/logos/pp_live/digital-health/s10-02.png
+    x: 648.9
+    y: 264.6
+  - src: ../../assets/logos/pp_live/digital-health/s10-03.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/digital-health/s10-04.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/digital-health/s10-05.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/digital-health/s10-06.png
+    x: 309.4
+    y: 301.7
+  - src: ../../assets/logos/pp_live/digital-health/s10-07.png
+    x: 489.4
+    y: 309.0
+  - src: ../../assets/logos/pp_live/digital-health/s10-08.png
+    x: 789.0
+    y: 298.5
+  - src: ../../assets/logos/pp_live/digital-health/s10-09.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/digital-health/s10-10.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/digital-health/s10-11.png
+    x: 183.0
+    y: 394.9
+  - src: ../../assets/logos/pp_live/digital-health/s10-12.png
+    x: 339.4
+    y: 387.9
+  - src: ../../assets/logos/pp_live/digital-health/s10-13.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/digital-health/s10-14.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/digital-health/s10-15.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/digital-health/s10-16.png
+    x: 233.1
+    y: 421.3
+  - src: ../../assets/logos/pp_live/digital-health/s10-17.png
+    x: 283.7
+    y: 417.4
+  - src: ../../assets/logos/pp_live/digital-health/s10-18.png
+    x: 406.7
+    y: 470.1
+  - src: ../../assets/logos/pp_live/digital-health/s10-19.png
+    x: 466.7
+    y: 478.9
+  - src: ../../assets/logos/pp_live/digital-health/s10-20.png
+    x: 518.6
+    y: 478.9
+  - src: ../../assets/logos/pp_live/digital-health/s10-21.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/digital-health/s10-22.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/digital-health/s10-23.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/digital-health/s10-24.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/digital-health/s10-25.png
+    x: 583.3
+    y: 516.9
+  cols:
+  - Providers / Health systems -
+  - Payers / Employers
+  - Consumers / Patients
+  rows:
+  - Care delivery & navigation
+  - Clinical workflow & He
+  - LoJ
+  note:
+  - We placed digital health companies with funding or clear traction by main buyer and core product
+  - We left out general IT and wellness-only products, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these digital health
+
+    startups, and how did they end?'
+  causes:
+  - Regulator or|court action
+  - Payers|refused
+  - Ran out|of cash
+  - Product|fell short
+  rows:
+  - name: Cue Health
+    ending: Shut down
+    start: '2010'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/digital-health/s11-00.png
+    ini: C
+    slug: cue-health
+    domain: cuehealth.com
+  - name: Babylon
+    ending: Went bankrupt
+    start: '2013'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/digital-health/s11-01.png
+    ini: B
+    slug: babylon
+    domain: babylonhealth.com
+  - name: Olive AI
+    ending: Shut down
+    start: '2012'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/digital-health/s11-02.png
+    ini: O
+    slug: olive
+    domain: oliveai.com
+  - name: Pear
+    ending: Went bankrupt
+    start: '2013'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/digital-health/s11-03.png
+    ini: P
+    slug: pear
+    domain: peartherapeutics.com
+  - name: Done
+    ending: Founders charged
+    start: '2019'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/digital-health/s11-04.png
+    ini: D
+    slug: done
+    domain: donefirst.com
+  note:
+  - We tracked the digital health startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Hims & Hers winning
+
+    the DTC telehealth market?'
+  companies:
+  - short: Hims & Hers
+    src: ../../assets/logos/pp_live/digital-health/s12-00.png
+  - short: Ro
+    src: ../../assets/logos/pp_live/digital-health/s12-01.png
+  - short: LifeMD
+    src: ../../assets/logos/pp_live/digital-health/s12-02.png
+  - short: Noom
+    src: ../../assets/logos/pp_live/digital-health/s12-03.png
+  - short: WW
+    src: ../../assets/logos/pp_live/digital-health/s12-04.png
+  criteria:
+  - name: Over $2B yearly revenue
+    why: Largest DTC telehealth scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Publicly traded
+    why: Easy access to capital
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Owns at home lab testing
+    why: Adds diagnostics, longevity
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Operates outside the US
+    why: Bigger market than US alone
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Men and women brands
+    why: Wider wallet per family
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Own pharmacy network
+    why: Controls cost and delivery
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Behavior coaching program
+    why: Keeps weight off longer
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company
+
+    part of digital health?'
+  TL:
+    name: Philips
+    src: ../../assets/logos/pp_live/digital-health/s01-00.png
+    text: builds connected monitors and telehealth tools for hospitals, but it is a hardware group that also sells shavers
+  TR:
+    name: Strava
+    src: ../../assets/logos/pp_live/digital-health/s01-02.png
+    text: tracks the workouts of over 190 million registered athletes, but fitness with no medical use case is not digital health
+  BL:
+    name: Noom
+    src: ../../assets/logos/pp_live/digital-health/s01-10.png
+    text: started as a diet app, but its clinicians now prescribe GLP-1 weight loss drugs through the app, so it sits on the line
+  BR:
+    name: Alan
+    src: ../../assets/logos/pp_live/digital-health/s01-11.png
+    text: is a health insurer at heart, but its app bundles doctor chat and prevention tools, which puts it right on tins GleIsJe
+  caption:
+  - Distance to the center reflects how much care itself is delivered or managed through software, rather than simply supported by it
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/digital-health/s01-01.png
+  - ../../assets/logos/pp_live/digital-health/s01-03.png
+  - ../../assets/logos/pp_live/digital-health/s01-04.png
+  - ../../assets/logos/pp_live/digital-health/s01-05.png
+  - ../../assets/logos/pp_live/digital-health/s01-06.png
+  - ../../assets/logos/pp_live/digital-health/s01-07.png
+  - ../../assets/logos/pp_live/digital-health/s01-08.png
+  - ../../assets/logos/pp_live/digital-health/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/digital-health/s01-01.png
+    x: 483.6
+    y: 277.9
+  - src: ../../assets/logos/pp_live/digital-health/s01-03.png
+    x: 412.7
+    y: 348.2
+  - src: ../../assets/logos/pp_live/digital-health/s01-04.png
+    x: 478.9
+    y: 352.5
+  - src: ../../assets/logos/pp_live/digital-health/s01-05.png
+    x: 545.8
+    y: 345.6
+  - src: ../../assets/logos/pp_live/digital-health/s01-06.png
+    x: 372.2
+    y: 394.5
+  - src: ../../assets/logos/pp_live/digital-health/s01-07.png
+    x: 448.9
+    y: 404.8
+  - src: ../../assets/logos/pp_live/digital-health/s01-08.png
+    x: 509.8
+    y: 406.3
+  - src: ../../assets/logos/pp_live/digital-health/s01-09.png
+    x: 485.4
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'How much room is left
+
+    for satellite makers to grow?'
+  date: ''
+  expl: $61B $54B $48B $26B
+  term: digital health
+  note:
+  - We compared forecasts from Mordor, Grand View, Global Market Insights and Meticulous
+  - We allowed for falling prices per satellite, and all our sources are at the end of the report
+  csv: assets/trends/digital-health/digital-health.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  lead: 'To fill that room, '
+  condition: AI must move from writing notes to doing real clinical and admin work in most hospitals, and patients must keep using care at home. Payers
+    must also make telehealth and monitoring payments permanent and reward the tools that prove they lower costs.
+  note:
+  - We compared forecasts from Grand View, Fortune Business Insights, Mordor and Precedence
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 420
+  cagr: 13
+  y0: 2026

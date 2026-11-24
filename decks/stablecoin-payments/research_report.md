@@ -1,0 +1,94 @@
+# Research import re, jsonport
+
+153 answers parsed, 0 YAML errors, 90 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed008**: no sources
+- **ed009**: length 10: 14 vs 20; no sources
+- **ed010**: length 17: 15 vs 22; no sources
+- **ed011**: length 24: 18 vs 25; no sources
+- **ed012**: status no_data: offers and their names change too often to group them reliably without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: fees vary by country, amount and coin, and are rarely published, left for the research chapters
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: length 7: 142 vs 109; no sources
+- **ed016**: length 7: 147 vs 114; length 12: 44 vs 35; length 10: 147 vs 108; length 13: 139 vs 109; length 16: 144 vs 112; no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: length 28: 76 vs 58; no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed032**: length 5: 56 vs 44; length 19: 55 vs 39
+- **ed050**: length 6: 6 vs 22; length 5: 13 vs 20; length 9: 14 vs 20; length 13: 12 vs 21; length 17: 12 vs 20
+- **ed054**: no sources
+- **ed055**: length 7: 114 vs 65; length 10: 101 vs 58; length 13: 107 vs 67; length 19: 98 vs 59; length 22: 79 vs 60; no sources
+- **ed056**: length 27: 23 vs 34; length 10: 22 vs 30; no sources
+- **ed057**: length 23: 26 vs 36; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 14: 13 vs 20; length 17: 15 vs 21; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 14: 11 vs 20; length 17: 13 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 17: 13 vs 21; no sources
+- **ed064-s4**: no sources
+- **ed065-s4**: no sources
+- **ed062-s5**: no sources
+- **ed063-s5**: length 14: 13 vs 20; length 17: 11 vs 21; no sources
+- **ed064-s5**: length 15: 48 vs 65; no sources
+- **ed065-s5**: no sources
+- **ed095**: length 5: 97 vs 71
+- **iv_pipeline**: length 34: 63 vs 44
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 12: 13 vs 20; length 15: 84 vs 63; no sources
+- **ed104**: length 7: 85 vs 63; length 10: 76 vs 52; length 15: 85 vs 67; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: length 8: 12 vs 20; no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: length 8: 37 vs 26; no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 39 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: length 8: 13 vs 20; no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 8: 33 vs 26; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: length 8: 14 vs 20; no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 9: 27 vs 41; length 6: 28 vs 40; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: length 8: 12 vs 20; no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 9: 30 vs 41; length 7: 27 vs 39; length 8: 34 vs 26; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: no sources; EdTech words: students
+- **ed108-s6**: no sources
+- **ed109-s6**: length 9: 24 vs 41; length 12: 29 vs 41; no sources
+- **ed136**: length 7: 50 vs 69; length 8: 48 vs 65
+- **ed143**: length 22: 16 vs 22; length 18: 12 vs 20; length 10: 13 vs 21
+- **ed144**: length 22: 16 vs 22; length 10: 13 vs 20
+- **ed145**: length 31: 16 vs 22
+- **ed149**: length 9: 50 vs 38; length 21: 51 vs 37
+- **ed152**: length 11: 55 vs 43
+- **ed172**: length 10: 57 vs 44
+- **ed182**: length 20: 102 vs 80
+- **ed199p**: rows: 6 items vs 5; signs: 4 items vs 3

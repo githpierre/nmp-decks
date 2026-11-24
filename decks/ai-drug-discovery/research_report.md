@@ -1,0 +1,87 @@
+# Research import re, jsonport
+
+149 answers parsed, 0 YAML errors, 83 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed008**: no sources
+- **ed009**: length 10: 14 vs 20; no sources
+- **ed010**: length 14: 14 vs 20; length 17: 16 vs 22; no sources
+- **ed011**: length 8: 16 vs 25; no sources
+- **ed012**: status no_data: offers and their names are too varied to group into a reliable price map without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: deal terms and software prices are rarely public, left for the research chapters
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: length 7: 137 vs 109; length 16: 144 vs 110
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: length 28: 78 vs 58; no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed032**: length 19: 49 vs 39
+- **ed047p**: status no_data: No source gives a complete, mutually exclusive revenue split for all eight discovery categories. Published stage shares overlap or omit workflow
+- **ed047p**: dropped: no data
+- **ed054**: no sources
+- **ed055**: length 7: 102 vs 65; length 10: 111 vs 58; length 13: 96 vs 67; length 16: 94 vs 67; length 19: 86 vs 59; length 22: 103 vs 60; no sources
+- **ed056**: length 31: 22 vs 31; length 37: 24 vs 33; no sources
+- **ed057**: length 18: 22 vs 30; length 33: 21 vs 33; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 14: 10 vs 20; length 17: 10 vs 21; no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 17: 12 vs 21; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 17: 13 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 17: 13 vs 21; no sources
+- **ed064-s4**: no sources
+- **ed065-s4**: no sources
+- **ed098**: length 28: 86 vs 67; length 31: 90 vs 69
+- **iv_pipeline**: length 34: 62 vs 44
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 7: 93 vs 72; length 12: 12 vs 20; length 15: 80 vs 63; no sources
+- **ed104**: length 9: 12 vs 22; length 7: 80 vs 63; length 10: 87 vs 52; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 37 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 9: 26 vs 41; length 8: 37 vs 26; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 12: 30 vs 41; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: length 8: 13 vs 20; no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: length 8: 34 vs 26; no sources
+- **ed136**: length 13: 65 vs 45
+- **ed143**: length 22: 12 vs 22; length 18: 14 vs 20; length 10: 11 vs 21
+- **ed144**: length 22: 12 vs 22; length 10: 11 vs 20
+- **ed182**: length 20: 107 vs 80
+- **ed189**: length 22: 49 vs 39
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

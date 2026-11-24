@@ -1,0 +1,364 @@
+ed148p:
+  title: 'What pushed cloud databases
+
+    forward, year after year?'
+  events:
+  - year: '2009'
+    text: AWS RDS automates relational operations
+    impact: 2.5
+  - year: '2012'
+    text: DynamoDB makes NoSQL capacity managed
+    impact: 2.5
+  - year: '2012'
+    text: Redshift preview lowers warehouse barriers
+    impact: 2.0
+  - year: '2013'
+    text: Redshift makes cloud warehousing available
+    impact: 2.0
+  - year: '2014'
+    text: Aurora targets costly enterprise databases
+    impact: 1.5
+  - year: '2015'
+    text: Aurora cuts managed relational database costs
+    impact: 2.5
+  - year: '2016'
+    text: MongoDB Atlas simplifies document databases
+    impact: 2.0
+  - year: '2016'
+    text: Aurora replicas support global reads
+    impact: 1.5
+  - year: '2017'
+    text: Google previews global SQL database
+    impact: 2.0
+  - year: '2017'
+    text: Azure Cosmos brings global NoSQL
+    impact: 2.0
+  - year: '2017'
+    text: Cloud Spanner becomes broadly available
+    impact: 2.0
+  - year: '2017'
+    text: Neptune preview makes graphs cloud managed
+    impact: 1.0
+  - year: '2017'
+    text: Aurora adds PostgreSQL compatibility
+    impact: 1.5
+  - year: '2018'
+    text: Aurora Serverless lowers idle database costs
+    impact: 2.0
+  - year: '2018'
+    text: Aurora Global improves disaster recovery
+    impact: 1.5
+  - year: '2019'
+    text: Amazon DocumentDB eases migrations
+    impact: 1.5
+  - year: '2020'
+    text: Timestream brings time series into cloud
+    impact: 1.0
+  - year: '2022'
+    text: Aurora Serverless v2 enables finer scaling
+    impact: 2.0
+  - year: '2022'
+    text: AlloyDB preview improves SQL economics
+    impact: 1.5
+  - year: '2022'
+    text: AlloyDB expands managed SQL choices
+    impact: 1.5
+  - year: '2023'
+    text: Aurora adds vector search for AI
+    impact: 2.0
+  - year: '2023'
+    text: Aurora pricing reduces database IO overhead
+    impact: 1.5
+  - year: '2023'
+    text: Atlas Vector Search makes embeddings managed
+    impact: 2.0
+  - year: '2024'
+    text: Pinecone serverless cuts vector costs
+    impact: 1.5
+  - year: '2024'
+    text: Aurora DSQL previews global transactions
+    impact: 1.5
+  - year: '2025'
+    text: Aurora DSQL expands globally consistent SQL
+    impact: 2.5
+  - year: '2025'
+    text: AWS backs open document database standard
+    impact: 1.0
+  - year: '2026'
+    text: Aurora DSQL streams changes into applications
+    impact: 1.5
+  - year: '2026'
+    text: Atlas automates retrieval embeddings
+    impact: 1.5
+  - year: '2026'
+    text: Atlas Infinite scales bursty AI demand
+    impact: 2.0
+  note:
+  - We kept the events we believe pushed cloud database forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: cloud-database
+  title: 'Where did cloud database investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of cloud database startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in cloud databases today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/cloud-database/s10-00.png
+    x: 216.4
+    y: 266.1
+  - src: ../../assets/logos/pp_live/cloud-database/s10-01.png
+    x: 473.6
+    y: 275.6
+  - src: ../../assets/logos/pp_live/cloud-database/s10-02.png
+    x: 559.1
+    y: 273.4
+  - src: ../../assets/logos/pp_live/cloud-database/s10-03.png
+    x: 654.2
+    y: 277.3
+  - src: ../../assets/logos/pp_live/cloud-database/s10-04.png
+    x: 292.3
+    y: 304.7
+  - src: ../../assets/logos/pp_live/cloud-database/s10-05.png
+    x: 743.4
+    y: 291.0
+  - src: ../../assets/logos/pp_live/cloud-database/s10-06.png
+    x: 219.6
+    y: 403.7
+  - src: ../../assets/logos/pp_live/cloud-database/s10-07.png
+    x: 336.9
+    y: 402.4
+  - src: ../../assets/logos/pp_live/cloud-database/s10-08.png
+    x: 432.6
+    y: 380.6
+  - src: ../../assets/logos/pp_live/cloud-database/s10-09.png
+    x: 512.8
+    y: 402.6
+  - src: ../../assets/logos/pp_live/cloud-database/s10-10.png
+    x: 714.6
+    y: 402.4
+  - src: ../../assets/logos/pp_live/cloud-database/s10-11.png
+    x: 792.2
+    y: 393.0
+  - src: ../../assets/logos/pp_live/cloud-database/s10-12.png
+    x: 268.3
+    y: 493.7
+  - src: ../../assets/logos/pp_live/cloud-database/s10-13.png
+    x: 557.4
+    y: 489.4
+  - src: ../../assets/logos/pp_live/cloud-database/s10-14.png
+    x: 654.2
+    y: 488.6
+  - src: ../../assets/logos/pp_live/cloud-database/s10-15.png
+    x: 339.2
+    y: 497.1
+  - src: ../../assets/logos/pp_live/cloud-database/s10-16.png
+    x: 463.9
+    y: 513.0
+  - src: ../../assets/logos/pp_live/cloud-database/s10-17.png
+    x: 792.6
+    y: 508.7
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - SQL Cloud
+  - A we el. ph? ee! FAP ff >»
+  - PALIUATY TICUt bY eo
+  note:
+  - We left out listed companies and incumbents like Amazon Web Services, Microsoft and Google Cloud
+  - We placed each pure player by its main focus, and all our sources are listed at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these cloud database
+
+    startups, and how did they end?'
+  causes:
+  - Not enough|funding
+  - Team went|to big tech
+  - Pivoted|away
+  rows:
+  - name: Fauna
+    ending: Shut down
+    start: '2012'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cloud-database/s11-00.png
+    ini: F
+    slug: fauna
+    domain: fauna.com
+  - name: DoubleCloud
+    ending: Shut down
+    start: '2021'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cloud-database/s11-01.png
+    ini: D
+    slug: doublecloud
+    domain: double.cloud
+  - name: Gel
+    ending: Team to Vercel
+    start: '2019'
+    end: '2026'
+    causes:
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cloud-database/s11-02.png
+    ini: G
+    slug: gel
+    domain: geldata.com
+  - name: bit.io
+    ending: Team to Databricks
+    start: '2019'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cloud-database/s11-03.png
+    ini: b
+    slug: bitio
+    domain: bit.io
+  - name: Tembo
+    ending: Cloud shut down
+    start: '2022'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/cloud-database/s11-04.png
+    ini: T
+    slug: tembo
+    domain: tembo.io
+  note:
+  - We tracked the cloud database startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Pinecone be winning
+
+    the vector database market?'
+  companies:
+  - short: Pinecone
+    src: ../../assets/logos/pp_live/cloud-database/s12-00.png
+  - short: Weaviate
+    src: ../../assets/logos/pp_live/cloud-database/s12-01.png
+  - short: Qdrant
+    src: ../../assets/logos/pp_live/cloud-database/s12-02.png
+  - short: Zilliz
+    src: ../../assets/logos/pp_live/cloud-database/s12-03.png
+  - short: Turbopuffer
+    src: ../../assets/logos/pp_live/cloud-database/s12-04.png
+  criteria:
+  - name: Fully managed vector SaaS
+    why: Avoid running a database
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Dense and lexical search
+    why: Blend meaning with keywords
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Built-in embedding models
+    why: Reduce inference plumbing
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Private network option
+    why: Protect regulated datasets
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: 99.95% SLA available
+    why: Limit availability risk
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Managed RAG assistant
+    why: Build answers from data
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Serverless usage scaling
+    why: Reduce idle capacity bills
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Vector database searches jumped
+
+    as companies built their own chatbots'
+  date: Lately.
+  expl: To make chatbots answer from their own documents, companies needed a new kind of database that finds text by meaning. Developers rushed to learn
+    about vector databases, and startups like Pinecone raised large rounds.
+  term: cloud database
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/cloud-database/cloud-database.csv
+ed052p:
+  type: pp_cagr
+  title: 'What will the cloud databases
+
+    market be worth by 2036?'
+  lead: ''
+  condition: To be worth that much, the market must keep moving core company data off servers that firms run themselves, and become the default store for
+    AI apps and agents. It must also keep cloud bills predictable as data volumes explode.
+  note:
+  - We compared forecasts from Gartner, Grand View, 360iResearch and IMARC and adjusted each one to our market definition
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: 55
+  cagr: 15
+  y0: 2026

@@ -1,0 +1,594 @@
+ed007p:
+  type: pp_radar
+  title: 'Which companies really belong
+
+    in long-duration storage?'
+  TL:
+    name: Fluence
+    src: ../../assets/logos/pp_live/ldes/s01-00.png
+    text: works in nearly 50 markets, but its Smartstack lithium-ion systems top out at 8 hours, short of the 10 hours required
+  TR:
+    name: Rondo Energy
+    src: ../../assets/logos/pp_live/ldes/s01-02.png
+    text: runs one of the largest heat batteries in the world, but it delivers steam to factories, not electricity to the grid
+  BL:
+    name: Antora
+    src: ../../assets/logos/pp_live/ldes/s01-09.png
+    text: stores power as heat in carbon blocks and returns it as heat or electricity, so it sits between LDES and industrial heat
+  BR:
+    name: Energy Vault
+    src: ../../assets/logos/pp_live/ldes/s01-10.png
+    text: started out with gravity storage, but its recent projects are battery systems, like a two-hour site in Texas
+  caption:
+  - Distance to the center reflects how long a system can deliver electricity back to the grid, with 10 hours as the minimum
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ldes/s01-01.png
+  - ../../assets/logos/pp_live/ldes/s01-03.png
+  - ../../assets/logos/pp_live/ldes/s01-04.png
+  - ../../assets/logos/pp_live/ldes/s01-05.png
+  - ../../assets/logos/pp_live/ldes/s01-06.png
+  - ../../assets/logos/pp_live/ldes/s01-07.png
+  - ../../assets/logos/pp_live/ldes/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ldes/s01-01.png
+    x: 506.4
+    y: 280.9
+  - src: ../../assets/logos/pp_live/ldes/s01-03.png
+    x: 422.4
+    y: 334.9
+  - src: ../../assets/logos/pp_live/ldes/s01-04.png
+    x: 486.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/ldes/s01-05.png
+    x: 553.1
+    y: 360.2
+  - src: ../../assets/logos/pp_live/ldes/s01-06.png
+    x: 445.9
+    y: 397.9
+  - src: ../../assets/logos/pp_live/ldes/s01-07.png
+    x: 505.1
+    y: 412.1
+  - src: ../../assets/logos/pp_live/ldes/s01-08.png
+    x: 469.1
+    y: 463.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask how fo store
+
+    power for days after the big blackout'
+  date: In recent months.
+  expl: Solar and wind keep growing, but the sun sets and the wind drops. After the huge blackout in Spain and Portugal, grid stability became a real worry, and AI data centers need power around the clock. Long-duration storage became the missing piece people searched for.
+  term: ldes
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ldes/ldes.csv
+ed052p:
+  type: pp_cagr
+  title: 'What is the projected growth for the Long
+
+    Duration Energy Storage (LDES) market?'
+  lead: ''
+  condition: To reach this value, the market must turn pumped storage plans into built projects by speeding permits, financing, and delivery across the global pipeline. It also needs deep cost cuts for non-pumped systems, markets that pay multi-day reliability, scaled manufacturing, and bankable risk tools.
+  note:
+  - We adjusted each one to our definition of the market, and all our sources are at the end of the report
+  size: 28
+  cagr: 10
+  y0: null
+ed171p:
+  cols:
+  - Newcomers
+  - Leaders
+  - Challengers
+  rows:
+  - Electrochemical
+  - Thermodynamic /
+  - Mechanical potential /
+  note:
+  - We placed electricity storage that can run for ten hours or more by its main positioning
+  - This is not a ranking, and some platforms span two boxes, with all the sources at the end of the report
+  title: 'Who are the top players
+
+    in the LDES market today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ldes/s10-00.png
+    x: 296.6
+    y: 270.6
+  - src: ../../assets/logos/pp_live/ldes/s10-01.png
+    x: 505.9
+    y: 269.1
+  - src: ../../assets/logos/pp_live/ldes/s10-02.png
+    x: 671.6
+    y: 277.1
+  - src: ../../assets/logos/pp_live/ldes/s10-03.png
+    x: 190.1
+    y: 294.0
+  - src: ../../assets/logos/pp_live/ldes/s10-04.png
+    x: 243.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/ldes/s10-05.png
+    x: 350.6
+    y: 285.0
+  - src: ../../assets/logos/pp_live/ldes/s10-06.png
+    x: 444.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ldes/s10-07.png
+    x: 563.1
+    y: 303.9
+  - src: ../../assets/logos/pp_live/ldes/s10-08.png
+    x: 734.6
+    y: 294.0
+  - src: ../../assets/logos/pp_live/ldes/s10-09.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/ldes/s10-10.png
+    x: 219.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/ldes/s10-11.png
+    x: 307.3
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ldes/s10-12.png
+    x: 481.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/ldes/s10-13.png
+    x: 453.4
+    y: 470.1
+  - src: ../../assets/logos/pp_live/ldes/s10-14.png
+    x: 510.9
+    y: 485.6
+  - src: ../../assets/logos/pp_live/ldes/s10-15.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/ldes/s10-16.png
+    x: 220.3
+    y: 501.4
+  - src: ../../assets/logos/pp_live/ldes/s10-17.png
+    x: 295.3
+    y: 505.3
+  - src: ../../assets/logos/pp_live/ldes/s10-18.png
+    x: 407.1
+    y: 517.7
+  - src: ../../assets/logos/pp_live/ldes/s10-19.png
+    x: 573.0
+    y: 513.4
+ed058:
+  type: pp_pains
+  title: 'Which LDES problems
+
+    are still unsolved?'
+  auds:
+  - Power utilities
+  - Grid operators
+  - Project developers
+  - Data centers
+  - Island grids
+  pains:
+  - - They cannot get paid for storing power for ten hours or more
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They wait years in grid queues before a project can connect
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They compete with lithium batteries that keep getting cheaper
+    - - 2
+      - 1
+      - 3
+      - 2
+      - 2
+  - - They struggle to finance new technologies with few sites running
+    - - 2
+      - 1
+      - 3
+      - 1
+      - 3
+  - - They need firm clean power around the clock, not just at noon
+    - - 1
+      - 1
+      - 1
+      - 3
+      - 3
+  - - They lack long contracts that make big storage projects bankable
+    - - 3
+      - 1
+      - 2
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which LDES company has the
+
+    most complete tech today?'
+  companies:
+  - name: ESS
+    src: ../../assets/logos/pp_live/ldes/s05-00.png
+  - name: Form Energy
+    src: ../../assets/logos/pp_live/ldes/s05-01.png
+  - name: Invinity
+    src: ../../assets/logos/pp_live/ldes/s05-02.png
+  - name: Hydrostor
+    src: ../../assets/logos/pp_live/ldes/s05-03.png
+  - name: Energy Dome
+    src: ../../assets/logos/pp_live/ldes/s05-04.png
+  - name: Highview
+    src: ../../assets/logos/pp_live/ldes/s05-05.png
+  features:
+  - header: Own|factory
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Spinning|inertia
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Plant|running now
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: GWh-scale|project
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Stores|100 hours
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Water-based|electrolyte
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Sodium-ion|line too
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong for
+
+    long duration storage?'
+  events:
+  - odds: 50
+    impact: 3
+    text: Lithium iron phosphate prices keep falling, so eight hour lithium batteries win bids meant for iron air
+  - odds: 40
+    impact: 2
+    text: Congress and the Treasury tighten FEOC rules, cutting storage tax credits for projects with Chinese components
+  - odds: 40
+    impact: 1
+    text: Cheap natural gas peakers remain the default choice for reliability as data center power demand surges
+  - odds: 35
+    impact: 3
+    text: Utilities and ISOs fail to create markets that pay for 100 hour storage, leaving projects unfinanced
+  - odds: 30
+    impact: 2
+    text: Higher interest rates make first of a kind LDES plants too costly to finance without DOE loans
+  - odds: 30
+    impact: 2
+    text: The DOE cancels or freezes grants and loans for flow battery and compressed air demonstration projects
+  - odds: 25
+    impact: 3
+    text: Form Energy or ESS Inc. hits a manufacturing or performance setback that scares off utility buyers
+  - odds: 10
+    impact: 2
+    text: A thermal or flow battery site fails and the project developer writes off hundreds of millions
+  note:
+  - We listed the events that could slow ldes down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed long-duration
+
+    storage forward, year after year?'
+  events:
+  - year: '1978'
+    text: Germany opens first compressed air plant
+    impact: 1
+  - year: '1985'
+    text: Bath County pumped hydro becomes grid battery
+    impact: 1
+  - year: '2010'
+    text: California law makes utilities plan storage
+    impact: 1.5
+  - year: '2013'
+    text: California orders 1.3 GW of grid storage
+    impact: 2
+  - year: '2016'
+    text: Solar prices crash, more power needs shifting
+    impact: 1.5
+  - year: '2017'
+    text: Duck curve hits, California wastes solar
+    impact: 1.5
+  - year: '2017'
+    text: Australia launches Snowy 2.0 pumped hydro
+    impact: 1
+  - year: '2018'
+    text: FERC opens wholesale markets to storage
+    impact: 1.5
+  - year: '2020'
+    text: California rolling blackouts in heat wave
+    impact: 1.5
+  - year: '2021'
+    text: Texas freeze shows need for multiday backup
+    impact: 2.5
+  - year: '2021'
+    text: DOE Storage Shot targets 90% cheaper storage
+    impact: 2
+  - year: '2021'
+    text: California orders 1 GW of long storage
+    impact: 1.5
+  - year: '2021'
+    text: Big firms form LDES Council at COP26
+    impact: 1
+  - year: '2022'
+    text: IRA gives storage a 30% tax credit
+    impact: 3
+  - year: '2022'
+    text: Lithium price spike sends buyers elsewhere
+    impact: 1
+  - year: '2022'
+    text: China approves record wave of pumped hydro
+    impact: 1.5
+  - year: '2022'
+    text: China connects world's largest flow battery
+    impact: 1.5
+  - year: '2023'
+    text: DOE puts $325M into long duration projects
+    impact: 1
+  - year: '2023'
+    text: Iron-air factory rises at old steel mill
+    impact: 1
+  - year: '2024'
+    text: AI demand lifts PJM capacity price ninefold
+    impact: 2.5
+  - year: '2024'
+    text: China starts 300 MW air storage plants
+    impact: 1
+  - year: '2024'
+    text: UK cap and floor scheme guarantees income
+    impact: 1.5
+  - year: '2025'
+    text: DOE offers Hydrostor a $1.76B loan
+    impact: 1
+  - year: '2025'
+    text: Iberian blackout exposes fragile grids
+    impact: 1.5
+  - year: '2025'
+    text: US budget law keeps storage tax credits
+    impact: 2
+  - year: '2025'
+    text: Google backs CO2 batteries for 24/7 power
+    impact: 1.5
+  - year: '2025'
+    text: First 100 hour iron-air batteries go live
+    impact: 2
+  - year: '2025'
+    text: Italy auctions 15 year storage contracts
+    impact: 1
+  - year: '2025'
+    text: NSW contracts reward 8 hour batteries
+    impact: 1
+  - year: '2026'
+    text: Crusoe orders 12 GWh of 100-hour batteries
+    impact: 2
+  note:
+  - We kept the events we believe pushed ldes forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ldes
+  title: TITLE TO WRITE (no live slide)
+  note:
+  - We added up every equity round of ldes startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'Why did these LDES startups
+
+    fail, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Backer|pulled out
+  - No buyer|found
+  - Assets|sold off
+  rows:
+  - name: Ambri
+    ending: Went bankrupt
+    start: '2010'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/ldes/s11-00.png
+    ini: A
+    slug: ambri
+    domain: ambri.com
+  - name: Redflow
+    ending: Went bankrupt
+    start: '2005'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/ldes/s11-01.png
+    ini: R
+    slug: redflow
+    domain: redflow.com
+  - name: VoltStorage
+    ending: Shut down
+    start: '2016'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/ldes/s11-02.png
+    ini: V
+    slug: voltstorage
+    domain: voltstorage.com
+  - name: Azelio
+    ending: Went bankrupt
+    start: '2008'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/ldes/s11-03.png
+    ini: A
+    slug: azelio
+    domain: azelio.com
+  - name: JenaBatteries
+    ending: Went insolvent
+    start: '2013'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/ldes/s11-04.png
+    ini: J
+    slug: jenabatteries
+    domain: jenabatteries.de
+  note:
+  - We tracked the ldes startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Form Energy be
+
+    winning long-duration storage?'
+  companies:
+  - short: Form Energy
+    src: ../../assets/logos/pp_live/ldes/s12-00.png
+  - short: Eos
+    src: ../../assets/logos/pp_live/ldes/s12-01.png
+  - short: ESS
+    src: ../../assets/logos/pp_live/ldes/s12-02.png
+  - short: Energy Dome
+    src: ../../assets/logos/pp_live/ldes/s12-03.png
+  - short: Hydrostor
+    src: ../../assets/logos/pp_live/ldes/s12-04.png
+  - short: Highview
+    src: ../../assets/logos/pp_live/ldes/s12-05.png
+  criteria:
+  - name: Raised $2B+ in equity
+    why: Cash to scale its factory
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 80 GWh order backlog
+    why: Largest LDES order book
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 100+ hour duration
+    why: Covers multi-day wind lulls
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Own US factory
+    why: Builds its systems at home
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Google data center deals
+    why: Big tech buys clean power
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Public finance backing
+    why: Cheaper money to build
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Cheap abundant materials
+    why: No lithium supply risk
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report

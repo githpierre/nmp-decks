@@ -1,0 +1,43 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'What business models work
+
+      in prediction markets?'
+    axes:
+    - Runs the exchange
+    - Brings the traders
+    - Per
+    - contract
+    - Per
+    - spread
+    groups:
+    - name: Trading fees
+      x: 0.2
+      y: 0.25
+      logos:
+      - src: ../../assets/logos/pp_live/prediction-markets/s06-01.png
+      - src: ../../assets/logos/pp_live/prediction-markets/s06-02.png
+    - name: Exchange fee share
+      x: 0.45
+      y: 0.45
+      logos:
+      - src: ../../assets/logos/pp_live/prediction-markets/s06-03.png
+      - src: ../../assets/logos/pp_live/prediction-markets/s06-04.png
+    - name: Market maker spread
+      x: 0.3
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/prediction-markets/s06-00.png
+    - name: Distribution economics
+      x: 0.82
+      y: 0.3
+      logos:
+      - src: ../../assets/logos/pp_live/prediction-markets/s06-05.png
+      - src: ../../assets/logos/pp_live/prediction-markets/s06-06.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

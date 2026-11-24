@@ -1,0 +1,580 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved
+
+    pain points in SATCOM?'
+  auds:
+  - Shipping lines
+  - Airline groups
+  - Rural homes
+  - Mobile carriers
+  - Army units
+  pains:
+  - - They pay a lot for terminals that cost more than the service
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They depend on one provider that controls most of the network
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They get slow or patchy links in bad weather or busy areas
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They cannot use normal phones with satellites in most places
+    - - 2
+      - 1
+      - 3
+      - 3
+      - 2
+  - - They wait months for licenses in each country they want to serve
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 1
+  - - They fear jamming and outages just when the link matters most
+    - - 1
+      - 1
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Who has built the full satellite internet
+
+    stack, and who still relies on partners?'
+  companies:
+  - name: Starlink
+    src: ../../assets/logos/pp_live/satellite-communication/s05-00.png
+  - name: Amazon Leo
+    src: ../../assets/logos/pp_live/satellite-communication/s05-01.png
+  - name: Eutelsat
+    src: ../../assets/logos/pp_live/satellite-communication/s05-02.png
+  - name: Viasat
+    src: ../../assets/logos/pp_live/satellite-communication/s05-03.png
+  - name: AST
+    src: ../../assets/logos/pp_live/satellite-communication/s05-04.png
+  - name: SES
+    src: ../../assets/logos/pp_live/satellite-communication/s05-05.png
+  features:
+  - header: Own|rockets
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: LEO|fleet
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Laser|links
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Direct to|phones
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Own sat|factory
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: In-flight|Wi-Fi
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: GEO|satellites
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to satellite communications?'
+  events:
+  - odds: 50
+    impact: 3
+    text: Starlink cuts prices and scales direct to phone service, taking customers from Viasat, SES and Eutelsat
+  - odds: 40
+    impact: 2
+    text: Amazon Leo launches fast and starts a price war that hits smaller satellite operators hard
+  - odds: 35
+    impact: 2
+    text: Launch delays at Blue Origin and ULA push back constellations and burn startup cash
+  - odds: 30
+    impact: 2
+    text: The FCC and ITU fail to settle spectrum fights, delaying direct to device services by AST SpaceMobile
+  - odds: 25
+    impact: 1
+    text: Telecom carriers like AT&T and Verizon build more 5G towers and cut spending on satellite backhaul
+  - odds: 25
+    impact: 2
+    text: European IRIS2 funding cuts or delays weaken Eutelsat OneWeb as the main Starlink alternative
+  - odds: 10
+    impact: 2
+    text: A solar storm knocks out hundreds of satellites and insurers raise premiums across the industry
+  - odds: 8
+    impact: 3
+    text: A collision or debris cascade in low Earth orbit destroys satellites and forces new operating limits
+  note:
+  - We listed the events that could slow satellite communication down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept satellite communication
+
+    moving forward, year after year?'
+  events:
+  - year: '1945'
+    text: Clarke proposes relay satellites in orbit
+    impact: 0.5
+  - year: '1962'
+    text: Telstar beams first live TV across Atlantic
+    impact: 1
+  - year: '1965'
+    text: Early Bird starts paid satellite phone calls
+    impact: 1.5
+  - year: '1979'
+    text: Inmarsat forms to connect ships at sea
+    impact: 1
+  - year: '1994'
+    text: DirecTV makes satellite TV dishes small
+    impact: 1.5
+  - year: '1998'
+    text: Iridium promises phone calls from anywhere
+    impact: 1
+  - year: '2000'
+    text: Pentagon rescues Iridium after bankruptcy
+    impact: 1
+  - year: '2001'
+    text: XM brings satellite radio to cars
+    impact: 1
+  - year: '2003'
+    text: Iraq war drives military bandwidth demand
+    impact: 1
+  - year: '2011'
+    text: ViaSat-1 cuts the cost of each megabit
+    impact: 1.5
+  - year: '2013'
+    text: O3b brings fiber speeds to remote islands
+    impact: 1
+  - year: '2014'
+    text: Airlines race to put Wi-Fi on planes
+    impact: 1
+  - year: '2015'
+    text: Falcon 9 landing makes launches cheaper
+    impact: 2.5
+  - year: '2015'
+    text: Musk plans Starlink to beam global internet
+    impact: 1
+  - year: '2019'
+    text: First 60 Starlink satellites reach orbit
+    impact: 1.5
+  - year: '2020'
+    text: Covid sends rural homes hunting for broadband
+    impact: 1.5
+  - year: '2020'
+    text: FCC pays satellite firms $9.7B for C-band
+    impact: 1
+  - year: '2022'
+    text: Starlink keeps Ukraine online during invasion
+    impact: 2.5
+  - year: '2022'
+    text: iPhone 14 adds emergency texts by satellite
+    impact: 2
+  - year: '2023'
+    text: Viasat buys Inmarsat to build global reach
+    impact: 1
+  - year: '2023'
+    text: Eutelsat merges with OneWeb to add LEO
+    impact: 1
+  - year: '2024'
+    text: Starlink sends first texts to normal phones
+    impact: 2
+  - year: '2024'
+    text: FCC writes rules for satellite phone service
+    impact: 1
+  - year: '2024'
+    text: Airlines pick Starlink for free fast Wi-Fi
+    impact: 1.5
+  - year: '2025'
+    text: Amazon starts launching Kuiper satellites
+    impact: 1.5
+  - year: '2025'
+    text: SpaceX buys $17B of spectrum for phones
+    impact: 2
+  - year: '2025'
+    text: JetBlue picks Amazon Leo, adding a rival
+    impact: 1
+  - year: '2026'
+    text: Record SpaceX IPO pours cash into Starlink
+    impact: 2.5
+  - year: '2026'
+    text: Starship deploys first Starlink V3 satellites
+    impact: 1.5
+  - year: '2026'
+    text: Starlink passes 12 million paying users
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed satellite communication forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: satellite-communication
+  title: 'Where did satellite communications
+
+    investors put their money this past year?'
+  note:
+  - We added up every equity round of satellite communication startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in satellite communication?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-00.png
+    x: 676.5
+    y: 284.1
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-01.png
+    x: 284.8
+    y: 304.3
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-02.png
+    x: 376.3
+    y: 292.3
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-03.png
+    x: 467.1
+    y: 291.9
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-04.png
+    x: 564.6
+    y: 286.1
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-05.png
+    x: 756.6
+    y: 287.6
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-06.png
+    x: 722.1
+    y: 370.3
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-07.png
+    x: 373.5
+    y: 397.7
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-08.png
+    x: 515.6
+    y: 384.9
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-09.png
+    x: 603.9
+    y: 399.4
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-10.png
+    x: 808.9
+    y: 393.4
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-11.png
+    x: 301.9
+    y: 406.7
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-12.png
+    x: 384.2
+    y: 479.6
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-13.png
+    x: 477.6
+    y: 484.9
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-14.png
+    x: 588.6
+    y: 477.0
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-15.png
+    x: 687.2
+    y: 480.9
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-16.png
+    x: 265.3
+    y: 504.0
+  - src: ../../assets/logos/pp_live/satellite-communication/s10-17.png
+    x: 813.2
+    y: 496.3
+  cols:
+  - $758 $828
+  - Challengers
+  - Challengers
+  rows:
+  - Direct to device ©
+  - Leaders
+  - Challengers
+  note:
+  - We compared forecasts from Fortune Business Insights, Mordor Intelligence and The Business Research Company
+  - We adjusted them to our market definition and built a range, and all our sources are listed at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these satcom
+
+    startups, and how did they end?'
+  causes:
+  - Funding|fell through
+  - Ran out|of cash
+  - Regulator|fights
+  - COVID or|weak market
+  rows:
+  - name: OneWeb
+    ending: Went bankrupt
+    start: '2012'
+    end: '2020'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/satellite-communication/s11-00.png
+    ini: O
+    slug: oneweb
+    domain: oneweb.net
+  - name: LeoSat
+    ending: Shut down
+    start: '2013'
+    end: '2019'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/satellite-communication/s11-01.png
+    ini: L
+    slug: leosat
+    domain: leosat.com
+  - name: Speedcast
+    ending: Went bankrupt
+    start: '1999'
+    end: '2020'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/satellite-communication/s11-02.png
+    ini: S
+    slug: speedcast
+    domain: speedcast.com
+  - name: Ligado
+    ending: Went bankrupt
+    start: '2010'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/satellite-communication/s11-03.png
+    ini: L
+    slug: ligado
+    domain: ligado.com
+  - name: Sky and Space
+    ending: Administration
+    start: '2015'
+    end: '2020'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/satellite-communication/s11-04.png
+    ini: S
+    slug: sky-and-space-global
+    domain: skyandspace.co
+  note:
+  - We tracked the satellite communication startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Starlink winning the
+
+    satellite internet market?'
+  companies:
+  - short: Starlink
+    src: ../../assets/logos/pp_live/satellite-communication/s12-00.png
+  - short: Amazon Leo
+    src: ../../assets/logos/pp_live/satellite-communication/s12-01.png
+  - short: OneWeb
+    src: ../../assets/logos/pp_live/satellite-communication/s12-02.png
+  - short: Viasat
+    src: ../../assets/logos/pp_live/satellite-communication/s12-03.png
+  - short: SES
+    src: ../../assets/logos/pp_live/satellite-communication/s12-04.png
+  criteria:
+  - name: LEO satellites in orbit
+    why: Low latency like fiber
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Launches on own rockets
+    why: Cheapest way to fill orbit
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Over 10 million users
+    why: Scale cuts cost per user
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Direct to phone service
+    why: Reaches plain smartphones
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Airline wifi contracts
+    why: Big recurring fleet deals
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Maritime service
+    why: Ships pay premium prices
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in satellite communications?'
+  TL:
+    name: T-Mobile
+    src: ../../assets/logos/pp_live/satellite-communication/s01-00.png
+    text: lets its subscribers text through Starlink satellites with T- Satellite, but it owns no satellites and rents that capacity
+  TR:
+    name: Apple
+    src: ../../assets/logos/pp_live/satellite-communication/s01-02.png
+    text: has put more than $1 billion into | Globalstar for iPhone satellite messaging, but that feature is a perk to help sell iPhones
+  BL:
+    name: Aalyria
+    src: ../../assets/logos/pp_live/satellite-communication/s01-10.png
+    text: spun out of Google to route traffic across satellites, aircraft and ground links, but it sells software and moves no data
+  BR:
+    name: Garmin
+    src: ../../assets/logos/pp_live/satellite-communication/s01-11.png
+    text: sells inReach devices that text by satellite on a paid plan, but they are one line next to its watches and car devices
+  caption:
+  - Distance to the center reflects how much revenue comes from carrying voice and data through satellites rather than towers
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/satellite-communication/s01-01.png
+  - ../../assets/logos/pp_live/satellite-communication/s01-03.png
+  - ../../assets/logos/pp_live/satellite-communication/s01-04.png
+  - ../../assets/logos/pp_live/satellite-communication/s01-05.png
+  - ../../assets/logos/pp_live/satellite-communication/s01-06.png
+  - ../../assets/logos/pp_live/satellite-communication/s01-07.png
+  - ../../assets/logos/pp_live/satellite-communication/s01-08.png
+  - ../../assets/logos/pp_live/satellite-communication/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/satellite-communication/s01-01.png
+    x: 506.4
+    y: 280.9
+  - src: ../../assets/logos/pp_live/satellite-communication/s01-03.png
+    x: 422.4
+    y: 334.9
+  - src: ../../assets/logos/pp_live/satellite-communication/s01-04.png
+    x: 373.1
+    y: 371.8
+  - src: ../../assets/logos/pp_live/satellite-communication/s01-05.png
+    x: 486.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/satellite-communication/s01-06.png
+    x: 553.1
+    y: 360.2
+  - src: ../../assets/logos/pp_live/satellite-communication/s01-07.png
+    x: 445.9
+    y: 397.9
+  - src: ../../assets/logos/pp_live/satellite-communication/s01-08.png
+    x: 505.1
+    y: 412.1
+  - src: ../../assets/logos/pp_live/satellite-communication/s01-09.png
+    x: 469.1
+    y: 463.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'The query direct to cell satellite is
+
+    more and more popular on Google'
+  date: Recently.
+  expl: Phones started connecting straight to satellites, with no dish and no special device. Starlink and its partners began offering text and data from
+    space, and people searched how direct-to-cell works.
+  term: satellite communication
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/satellite-communication/satellite-communication.csv
+ed052p:
+  type: pp_cagr
+  title: 'Where could the SATCOM
+
+    market be in ten years?'
+  lead: 'To get there, '
+  condition: broadband and phone links must keep growing about 20% a year as Starlink, Amazon Leo, and AST add users, while TV revenue falls no faster a
+    than today. It must also keep launch costs falling and spectrum flowing, with Starship flying often and WRC-27 opening bands for phone links.
+  note:
+  - We compared forecasts from Grand View, Precedence, GMI, Mordor and Novaspace, and aligned their timelines
+  - We allowed for the decline of TV revenue to build a realistic range, and all our sources are at the end of the report
+  size: 110
+  cagr: 10
+  y0: 2026

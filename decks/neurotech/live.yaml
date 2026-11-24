@@ -1,0 +1,528 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved
+
+    pain points in neurotech?'
+  auds:
+  - Pain patients
+  - Parkinson’s patients
+  - Pain doctors
+  - Hospital buyers
+  - Health insurers
+  pains:
+  - - They lose pain relief as the effect of the implant fades over time
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They wait months for their insurer to approve the implant surgery
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They face infections or leads that move out of place after surgery
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They need a new surgery each time the implant battery runs out
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - They pay high prices set by the few big suppliers of these devices
+    - - 1
+      - 1
+      - 1
+      - 3
+      - 3
+  - - They find device programming slow and hard to get right each visit
+    - - 1
+      - 2
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which neurotech player has
+
+    the most complete tech today?'
+  companies:
+  - name: Science
+    src: ../../assets/logos/pp_live/neurotech/s05-00.png
+  - name: Neuralink
+    src: ../../assets/logos/pp_live/neurotech/s05-01.png
+  - name: Synchron
+    src: ../../assets/logos/pp_live/neurotech/s05-02.png
+  - name: Precision
+    src: ../../assets/logos/pp_live/neurotech/s05-03.png
+  - name: Blackrock
+    src: ../../assets/logos/pp_live/neurotech/s05-04.png
+  - name: Paradromics
+    src: ../../assets/logos/pp_live/neurotech/s05-05.png
+  features:
+  - header: Wireless|implant
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Cleared|for sale
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Robot|surgery
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: No skull|opening
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: 1,000+|electrodes
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Long-term|implant
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Restores|sight
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to neurotech?'
+  events:
+  - odds: 40
+    impact: 2
+    text: China approves more brain implants and scales them faster and cheaper than Neuralink and Western rivals
+  - odds: 30
+    impact: 2
+    text: Neurotech investors pull back after Synchron and Neuralink keep missing timelines for approval and commercial launch
+  - odds: 30
+    impact: 3
+    text: Medicare and US insurers refuse to pay for implanted brain devices, so few patients can afford them
+  - odds: 25
+    impact: 2
+    text: GLP-1 drugs and gene therapies replace implants for sleep apnea and eye disease, shrinking neurotech markets
+  - odds: 20
+    impact: 1
+    text: More states follow Colorado and California with strict neural data laws that block consumer neurotech business models
+  - odds: 20
+    impact: 2
+    text: Another neurotech startup shuts down like Second Sight, leaving implanted patients without support and hurting trust
+  - odds: 10
+    impact: 2
+    text: Hackers take control of a brain implant or neurostimulator, forcing Abbott or Medtronic into a broad recall
+  - odds: 10
+    impact: 3
+    text: A patient dies in a Neuralink or Synchron implant trial, and the FDA pauses similar studies
+  note:
+  - We listed the events that could slow neurotech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed neurotech
+
+    forward, year after year?'
+  events:
+  - year: '1924'
+    text: Berger records the first human EEG
+    impact: 0.5
+  - year: '1984'
+    text: FDA approves the first cochlear implant
+    impact: 1.5
+  - year: '1987'
+    text: Brain stimulation shown to calm tremor
+    impact: 1
+  - year: '1997'
+    text: FDA approves brain stimulation for tremor
+    impact: 2
+  - year: '2002'
+    text: DBS approved for Parkinson's, a big market
+    impact: 2
+  - year: '2004'
+    text: BrainGate patient moves a cursor by thought
+    impact: 1.5
+  - year: '2012'
+    text: Paralyzed woman moves robot arm by thought
+    impact: 1.5
+  - year: '2013'
+    text: BRAIN Initiative funds new neuro tools
+    impact: 1.5
+  - year: '2013'
+    text: FDA approves a responsive brain implant
+    impact: 1
+  - year: '2014'
+    text: Muse headband brings EEG into homes
+    impact: 0.5
+  - year: '2016'
+    text: Musk's Neuralink draws talent and money
+    impact: 1.5
+  - year: '2017'
+    text: Facebook starts a mind typing project
+    impact: 1
+  - year: '2019'
+    text: Facebook buys CTRL-labs for about $1 billion
+    impact: 1
+  - year: '2020'
+    text: FDA gives Synchron breakthrough status
+    impact: 1
+  - year: '2021'
+    text: Neuralink monkey plays Pong with its mind
+    impact: 1.5
+  - year: '2021'
+    text: Stanford BCI turns imagined writing into text
+    impact: 1
+  - year: '2022'
+    text: Synchron implants its first US patient
+    impact: 1.5
+  - year: '2023'
+    text: Speech implants turn thoughts into words fast
+    impact: 2
+  - year: '2023'
+    text: FDA clears Neuralink to start human trials
+    impact: 2.5
+  - year: '2024'
+    text: Neuralink patient plays chess by thought
+    impact: 2.5
+  - year: '2024'
+    text: ALS patient speaks again with 97% accuracy
+    impact: 1
+  - year: '2024'
+    text: Colorado passes first brain data privacy law
+    impact: 1
+  - year: '2025'
+    text: FDA approves brain sensing adaptive DBS
+    impact: 1
+  - year: '2025'
+    text: FDA clears Precision's thin brain sensor
+    impact: 1
+  - year: '2025'
+    text: Apple adds brain implant support to iPhone
+    impact: 1.5
+  - year: '2025'
+    text: Neuralink's $650M lets trials grow worldwide
+    impact: 1.5
+  - year: '2025'
+    text: China plans to lead in brain chips
+    impact: 1.5
+  - year: '2025'
+    text: Meta sells wristband that reads nerve signals
+    impact: 1.5
+  - year: '2025'
+    text: Paradromics gets FDA nod for speech trial
+    impact: 1
+  - year: '2026'
+    text: OpenAI backs Merge Labs brain startup
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed neurotech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: neurotech
+  title: 'Where did neurotech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of neurotech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the neurotech market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/neurotech/s10-00.png
+    x: 376.3
+    y: 266.8
+  - src: ../../assets/logos/pp_live/neurotech/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/neurotech/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/neurotech/s10-03.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/neurotech/s10-04.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/neurotech/s10-05.png
+    x: 309.6
+    y: 301.7
+  - src: ../../assets/logos/pp_live/neurotech/s10-06.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/neurotech/s10-07.png
+    x: 485.8
+    y: 337.3
+  - src: ../../assets/logos/pp_live/neurotech/s10-08.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/neurotech/s10-09.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/neurotech/s10-10.png
+    x: 191.6
+    y: 404.1
+  - src: ../../assets/logos/pp_live/neurotech/s10-11.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/neurotech/s10-12.png
+    x: 478.7
+    y: 400.3
+  - src: ../../assets/logos/pp_live/neurotech/s10-13.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/neurotech/s10-14.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/neurotech/s10-15.png
+    x: 793.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/neurotech/s10-16.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/neurotech/s10-17.png
+    x: 438.9
+    y: 483.2
+  - src: ../../assets/logos/pp_live/neurotech/s10-18.png
+    x: 507.9
+    y: 492.9
+  - src: ../../assets/logos/pp_live/neurotech/s10-19.png
+    x: 703.3
+    y: 473.1
+  - src: ../../assets/logos/pp_live/neurotech/s10-20.png
+    x: 774.2
+    y: 492.9
+  - src: ../../assets/logos/pp_live/neurotech/s10-21.png
+    x: 309.6
+    y: 499.1
+  - src: ../../assets/logos/pp_live/neurotech/s10-22.png
+    x: 653.1
+    y: 515.4
+  cols:
+  - Therapy
+  - BCI / Interface
+  - Diagnostics / Monitoring
+  rows:
+  - Circle issues USDC, a stablecoin
+  - Non-invasive / wearal
+  - Ripple runs a stablecoin
+  note:
+  - Distance to the center reflects how much a product relies on stablecoins to actually move, settle or spend money
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+ed209p:
+  title: 'Why is Neuralink winning
+
+    the brain implant market?'
+  companies:
+  - short: Neuralink
+    src: ../../assets/logos/pp_live/neurotech/s12-00.png
+  - short: Synchron
+    src: ../../assets/logos/pp_live/neurotech/s12-01.png
+  - short: Precision
+    src: ../../assets/logos/pp_live/neurotech/s12-02.png
+  - short: Paradromics
+    src: ../../assets/logos/pp_live/neurotech/s12-03.png
+  - short: Blackrock
+    src: ../../assets/logos/pp_live/neurotech/s12-04.png
+  - short: Science
+    src: ../../assets/logos/pp_live/neurotech/s12-05.png
+  criteria:
+  - name: Implants in 3+ countries
+    why: Fastest growing patient base
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Fully implanted wireless
+    why: Patients use it at home
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Robot does the surgery
+    why: Scalable, repeatable implants
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: FDA breakthrough status
+    why: Faster path to approval
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: 1,000+ electrodes
+    why: Richer brain signal data
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: FDA cleared device
+    why: Already sold to hospitals
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Decade of human use
+    why: Long safety track record
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: ''
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/neurotech/s01-00.png
+    text: ''
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/neurotech/s01-01.png
+    text: ''
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/neurotech/s01-10.png
+    text: ''
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/neurotech/s01-11.png
+    text: ''
+  caption: []
+  inside:
+  - ../../assets/logos/pp_live/neurotech/s01-02.png
+  - ../../assets/logos/pp_live/neurotech/s01-03.png
+  - ../../assets/logos/pp_live/neurotech/s01-04.png
+  - ../../assets/logos/pp_live/neurotech/s01-05.png
+  - ../../assets/logos/pp_live/neurotech/s01-06.png
+  - ../../assets/logos/pp_live/neurotech/s01-07.png
+  - ../../assets/logos/pp_live/neurotech/s01-08.png
+  - ../../assets/logos/pp_live/neurotech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/neurotech/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/neurotech/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/neurotech/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/neurotech/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/neurotech/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/neurotech/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/neurotech/s01-08.png
+    x: 388.3
+    y: 444.2
+  - src: ../../assets/logos/pp_live/neurotech/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'The term neurotechnology is showing
+
+    up more as Neuralink patients go viral'
+  date: Over the past year.
+  expl: Neuralink patients started playing video games and writing with their minds, and the videos went viral. Apple added brain-computer interface support,
+    and new rules on “neural data” made headlines. Neurotechnology suddenly felt real, and people searched what it means.
+  term: neurotech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/neurotech/neurotech.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for neurotech to grow?'
+  lead: 'To fill that room, '
+  condition: nerve stimulation must win new uses, like arthritis, stroke, and depression, and keep being paid for by insurers. Brain- - computer interfaces
+    must also win approvals in the US and Europe, and implants must reach thousands of patients each year.
+  note:
+  - We compared forecasts from Fortune Business Insights, Precedence, Mordor and The Business Research Company
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 17
+  cagr: 10
+  y0: 2026

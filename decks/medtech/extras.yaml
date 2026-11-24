@@ -1,0 +1,370 @@
+- after: ed104
+  link: 'Business models that sell refills, sensors or each use, so revenue grows with every patient'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do MedTech companies
+
+      actually make money?'
+    axes:
+    - Paid once
+    - Paid per use
+    - Used in
+    - hospital
+    - Used
+    - at home
+    groups:
+    - name: Imaging machines sold
+      x: 0.16
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/medtech/s06-03.png
+      - src: ../../assets/logos/pp_live/medtech/s06-04.png
+    - name: Robot plus instruments
+      x: 0.5
+      y: 0.4
+      logos:
+      - src: ../../assets/logos/pp_live/medtech/s06-02.png
+    - name: Implants per procedure
+      x: 0.84
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/medtech/s06-05.png
+      - src: ../../assets/logos/pp_live/medtech/s06-06.png
+    - name: Glucose sensor refills
+      x: 0.82
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/medtech/s06-00.png
+      - src: ../../assets/logos/pp_live/medtech/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xm_heartflow
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Heartflow’s paid heart scan analyses grew
+
+      2.8 times in two years, to 98,155'
+    t:
+      9: '34,970'
+      10: Q3 2024
+      12: '98,155'
+      13: Q3 2026
+      15: ×2.8
+      16: WHY IT IS HOT
+      17: 'Doctors now pay for AI reading of heart scans at scale: Heartflow delivered 98,155 paid analyses from July to September 2026, against 34,970 two years earlier.
+
+
+        One scan can count twice when it gets both analyses, so these are analyses, not patients.'
+    vbars:
+    - 34970
+    - 98155
+    note: We compared Heartflow’s paid analyses in the quarters to September 2024 and September 2026, from its filing of November 12, 2026
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: Heartflow revenue cases by quarter
+    url: https://ir.heartflow.com/static-files/83d1df3e-045a-4d61-864d-ed0a18df5ac3
+    date: '2026-11-12'
+    quote: Revenue cases | 28,803 | 33,039 | 34,970 | 37,805 | 40,336 | 48,423 | 51,805 | 57,776 | 67,443 | 84,491 | 98,155
+  - claim: Definition of a paid case
+    url: https://ir.heartflow.com/static-files/83d1df3e-045a-4d61-864d-ed0a18df5ac3
+    date: '2026-11-12'
+    quote: We define a “Heartflow revenue case” as each time an account orders and we deliver the requested analysis to the physician.
+- after: xm_heartflow
+  link: ed032, signal 2 of the list
+  slide:
+    id: xm_davinci
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Intuitive placed 315 da Vinci 5 robots
+
+      in one quarter, up from 110 in 2024'
+    items:
+    - value: '315'
+      label: da Vinci 5 robots placed in hospitals from July to September 2026, against 110 in 2024
+    - value: '12,094'
+      label: da Vinci robots in use worldwide on September 30, 2026, all models together
+    - value: +15%
+      label: more operations with Intuitive robots than in the same quarter a year earlier
+    why: This is a sign of a hot market because hospitals keep buying a robot that costs millions, and use it more each year. Placements count robots put in hospitals, not orders.
+    note: We used Intuitive’s results of October 17, 2024 and October 20, 2026 for the quarters to September 30
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: 110 da Vinci 5 placements in Q3 2024
+    url: https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-4
+    date: '2024-10-17'
+    quote: The third quarter 2024 da Vinci surgical system placements included 110 da Vinci 5 systems.
+  - claim: 315 da Vinci 5 placements in Q3 2026
+    url: https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-6
+    date: '2026-10-20'
+    quote: The third quarter 2026 da Vinci surgical system placements included 315 da Vinci 5 systems
+  - claim: Installed base of 12,094 systems
+    url: https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-6
+    date: '2026-10-20'
+    quote: The Company grew its da Vinci surgical system installed base to 12,094 systems as of September 30, 2026
+  - claim: Procedures up about 15%
+    url: https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-6
+    date: '2026-10-20'
+    quote: Worldwide procedures (da Vinci and Ion combined) grew approximately 15% compared with the third quarter of 2025.
+- after: xm_davinci
+  link: ed032, signal 3 of the list
+  slide:
+    id: xm_fda_ai
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'The FDA list of AI medical devices grew
+
+      2.5 times since 2022, to 1,614'
+    t:
+      9: '637'
+      10: End 2022
+      12: '1,614'
+      13: June 2026
+      15: ×2.5
+      16: WHY IT IS HOT
+      17: 'Regulators now clear AI tools for patient care at a steady pace: the FDA list counted 1,614 AI medical devices in June 2026, against 637 at the end of 2022.
+
+
+        One product cleared twice counts twice, and the FDA says its list is not complete.'
+    vbars:
+    - 637
+    - 1614
+    note: We counted the FDA’s public list of AI medical devices by decision date, from the September 2026 file as tallied on November 9, 2026
+    fresh:
+      period: total
+      end: 2026-06
+  sources:
+  - claim: FDA list of AI-enabled devices, not complete
+    url: https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices
+    date: '2026-09-04'
+    quote: The list is not a comprehensive resource of AI-enabled medical devices.
+  - claim: 637 devices at end 2022
+    url: https://www.justaparrot.com/charts/fda-ai-enabled-medical-devices/
+    date: '2026-11-09'
+    quote: 31 Dec 2022 | | 637 devices
+  - claim: 1,614 devices at June 29, 2026
+    url: https://www.justaparrot.com/charts/fda-ai-enabled-medical-devices/
+    date: '2026-11-09'
+    quote: 29 Jun 2026 | 1,614 devices | 1,614 devices
+- after: xm_fda_ai
+  link: ed032, signal 4 of the list
+  slide:
+    id: xm_deals
+    type: sx_round_timeline
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Big device makers agreed six takeovers
+
+      in 2026, the largest worth $21B'
+    legend: false
+    t0: 0.6
+    t1: 11.9
+    amax: 20.6
+    ticks:
+    - {t: 1, l: Jan}
+    - {t: 2, l: Feb}
+    - {t: 3, l: Mar}
+    - {t: 4, l: Apr}
+    - {t: 5, l: May}
+    - {t: 6, l: Jun}
+    - {t: 7, l: Jul}
+    - {t: 8, l: Aug}
+    - {t: 9, l: Sep}
+    - {t: 10, l: Oct}
+    - {t: 11, l: Nov}
+    pts:
+    - {t: 1.48, a: 14.5, cy: 117.5, col: '#FB0161', lab: Penumbra $15B}
+    - {t: 3.74, a: 20.6, cy: 112.0, col: '#FB0161', lab: Exact Sci. $21B}
+    - {t: 5.39, a: 0.435, cy: 141.1, col: '#FB0161', lab: Amplitude $435M}
+    - {t: 10.39, a: 2.1, cy: 135.1, col: '#FB0161', lab: Xodus $2.1B}
+    - {t: 10.42, a: 0.24, cy: 142.3, col: '#FB0161', lab: Proscia $240M}
+    - {t: 11.52, a: 0.38, cy: 141.4, col: '#FB0161', lab: Contego $380M}
+    story: Boston Scientific, Abbott, Stryker, STERIS, Agilent and Medtronic agreed to buy device or test makers in 2026. Each buyer states its price its own way, so do not add them up.
+    note:
+    - We placed each deal at its announcement or closing date, sized by its price.
+    - Penumbra and Exact Sciences were listed, payments tied to results left out
+    fresh:
+      period: month
+      end: 2026-11
+  sources:
+  - claim: Boston Scientific to buy Penumbra, about $14.5B enterprise value
+    url: https://www.penumbrainc.com/press-releases/boston-scientific-announces-agreement-to-acquire-penumbra-inc/
+    date: '2026-01-15'
+    quote: reflecting an enterprise value of approximately $14.5 billion.
+  - claim: Abbott completed Exact Sciences for about $20.6B
+    url: https://www.sec.gov/Archives/edgar/data/1800/000162828026070154/abt-20260930.htm
+    date: '2026-11-04'
+    quote: On March 23, 2026, Abbott completed the acquisition of Exact Sciences for approximately $20.6 billion.
+  - claim: Stryker paid about $435M upfront for Amplitude Vascular
+    url: https://www.medtechdive.com/news/stryker-values-amplitude-vascular-purchase-at-up-to-835m/819976/
+    date: '2026-05-12'
+    quote: Stryker paid about $435 million up front to acquire Amplitude
+  - claim: STERIS to buy Xodus Medical for $2.1B at closing
+    url: https://sterisplc.gcs-web.com/news-releases/news-release-details/steris-expands-healthcare-consumables-offering-definitive
+    date: '2026-10-12'
+    quote: for $2.1 billion at closing.
+  - claim: Agilent to buy Proscia for $240M cash at closing
+    url: https://www.agilent.com/about/newsroom/presrel/2026/13oct-gp26020.html
+    date: '2026-10-13'
+    quote: in an all-cash transaction valued at $240 million in cash at closing
+  - claim: Medtronic to buy Contego Medical, valued at $380M
+    url: https://news.medtronic.com/2026-11-16-Medtronic-to-acquire-Contego-Medical,-expanding-access-to-next-generation-carotid-therapies
+    date: '2026-11-16'
+    quote: Valued at $380 million with potential payments post-acquisition
+- after: xm_deals
+  link: ed032, signal 5 of the list
+  slide:
+    id: xm_kestra
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Doctors wrote 20,720 prescriptions for
+
+      Kestra’s heart device in a year, up 57%'
+    items:
+    - value: '20,720'
+      label: prescriptions for its wearable defibrillator in the year to April 2026, up 57%
+    - value: '18,000'
+      label: patients protected from sudden cardiac arrest during the same year
+    - value: $95.1M
+      label: of sales in the fiscal year to April 2026, up 59% on the year before
+    why: This is a sign of a hot market because doctors adopt a newer wearable heart device fast. Prescriptions and patients are related but not the same count.
+    note: We used Kestra’s results of July 14, 2026 for its fiscal year that ended on April 30, 2026
+    fresh:
+      period: year
+      end: 2026-04
+  sources:
+  - claim: Fiscal 2026 revenue $95.1M, up 59%
+    url: https://investors.kestramedical.com/news-releases/news-release-details/kestra-medical-technologies-reports-fourth-quarter-and-fiscal-0
+    date: '2026-07-14'
+    quote: FY26 revenue of $95.1 million, an increase of 59% compared to FY25.
+  - claim: 20,720 prescriptions
+    url: https://investors.kestramedical.com/news-releases/news-release-details/kestra-medical-technologies-reports-fourth-quarter-and-fiscal-0
+    date: '2026-07-14'
+    quote: 20,720 prescriptions were written for the ASSURE
+  - claim: 18,000 patients protected
+    url: https://investors.kestramedical.com/news-releases/news-release-details/kestra-medical-technologies-reports-fourth-quarter-and-fiscal-0
+    date: '2026-07-14'
+    quote: the ASSURE® system protected 18,000 patients from sudden cardiac arrest
+- after: ed093
+  link: ed093, the latest developments (AI tools now cleared for clinical use)
+  slide:
+    id: xm_radiology
+    type: share_waffle
+    section: Tech and infra
+    title: '76% of the AI devices on the FDA list
+
+      are tools for medical images'
+    'on': Medical images
+    'off': Other specialties
+    unit: devices
+    square_note: false
+    years:
+    - {x: JUNE 2026, k: 1230, n: 1614, p: 76}
+    big: 3 in 4
+    kicker: WHAT IT SHOWS
+    story: 'Clinical AI started where data was already digital: X-rays, CT and MRI scans.
+
+      Heart, brain and surgery tools are still a small part of the list, which leaves room for new players.'
+    note:
+    - We used AI Device Index’s count of the FDA’s September 2026 list by medical specialty, with decisions
+    - up to June 29, 2026. It counts listed clearances, not sales, and the FDA says its list is not complete
+  sources:
+  - claim: Radiology 1,230 of 1,614 listed devices (76.2%)
+    url: https://aideviceindex.com/stats
+    date: '2026-10-17'
+    quote: Radiology | 1,230 | 76.2%
+  - claim: FDA list is not complete
+    url: https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices
+    date: '2026-09-04'
+    quote: The list is not a comprehensive resource of AI-enabled medical devices.
+- after: pp_s06
+  link: pp_s06, business models (sensor refills sold again and again)
+  slide:
+    id: xm_profit
+    type: sx_faceoff
+    section: Value creation
+    title: 'Dexcom earned $0.24 on each $1 of sales,
+
+      Beta Bionics lost $0.75'
+    cards:
+    - name: DEXCOM
+      stats:
+      - v: +$0.24
+        l: operating profit for each $1 of sales, Q3 2026
+      - v: $327M
+        l: of operating profit in the quarter, from glucose sensors
+    - name: BETA BIONICS
+      hl: true
+      stats:
+      - v: −$0.75
+        l: operating loss for each $1 of sales, Q3 2026
+      - v: $26.6M
+        l: of operating loss in the quarter, from a newer insulin pump
+    story: Both sell to people with diabetes. A young device maker pays for sales teams and training long before it reaches scale, so it can lose money for years while its sales grow.
+    note:
+    - We divided each company’s operating result by its sales for the quarter to September 30,
+    - 2026, from their results. Dexcom sells far more, so this compares stages, not products
+  sources:
+  - claim: Dexcom operating income $327.2M, 24.3% of revenue
+    url: https://investors.dexcom.com/news/news-details/2026/Dexcom-Reports-Third-Quarter-2026-Financial-Results/default.aspx
+    date: '2026-10-29'
+    quote: GAAP operating income of $327.2 million or 24.3% of revenue
+  - claim: Beta Bionics operating loss $26.6M, -75% of sales
+    url: https://investors.betabionics.com/news-releases/news-release-details/beta-bionics-announces-third-quarter-2026-financial-results-and
+    date: '2026-10-27'
+    quote: Loss from operations of $26.6 million, or negative 75% of sales
+- after: iv_fda
+  link: iv_fda, the path to bring a new device to patients (FDA review)
+  slide:
+    id: xm_breakthrough
+    type: sx_split_compare
+    section: Market challenges
+    title: 'The FDA has fast-tracked 1,320 devices
+
+      and cleared 210 of them for sale so far'
+    chart_w: 400
+    groups:
+    - name: Fast-tracked
+      col: '#789096'
+    - name: Cleared for sale
+      col: '#FB0161'
+    - name: Not yet
+      col: '#1C4A60'
+      hide: true
+    rows:
+    - name: Got a fast-track label
+      total: 1,320 devices
+      v: [100, 0, 0]
+    - name: Cleared for sale since
+      total: 210 devices
+      v: [0, 16, 84]
+    big: 210 of 1,320
+    kicker: WHAT IS GOING ON
+    story: 'The FDA’s fast-track label speeds up its review, it is not an approval.
+
+      Many recent labels are still under review, so this is not a failure rate, but most fast-tracked devices are not on sale yet.'
+    note:
+    - We used the FDA’s August 31, 2026 update on its fast-track program for devices,
+    - with totals up to June 30, 2026, not one group of devices followed over time
+  sources:
+  - claim: 1,320 Breakthrough Device designations
+    url: https://content.govdelivery.com/accounts/USFDA/bulletins/42740a1
+    date: '2026-08-31'
+    quote: the FDA has granted a total of 1,320 Breakthrough Device designations.
+  - claim: 210 marketing authorizations for breakthrough devices
+    url: https://content.govdelivery.com/accounts/USFDA/bulletins/42740a1
+    date: '2026-08-31'
+    quote: The agency has also granted 210 marketing authorizations for breakthrough devices since the launch of the Breakthrough Devices Program

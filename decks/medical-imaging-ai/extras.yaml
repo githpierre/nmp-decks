@@ -1,0 +1,49 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do medical imaging AI
+
+      firms actually make money?'
+    axes:
+    - Paid per scan
+    - Paid per year
+    - Paid by hospitals
+    - or insurers
+    - Paid by
+    - patients
+    groups:
+    - name: Insurer pays per scan
+      x: 0.16
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-05.png
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-06.png
+    - name: Triage AI subscriptions
+      x: 0.82
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-07.png
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-08.png
+    - name: AI sold with the scanner
+      x: 0.54
+      y: 0.46
+      logos:
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-03.png
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-04.png
+    - name: Patient add-on AI fee
+      x: 0.16
+      y: 0.6
+      logos:
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-02.png
+    - name: Full body scans
+      x: 0.42
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-00.png
+      - src: ../../assets/logos/pp_live/medical-imaging-ai/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

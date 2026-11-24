@@ -1,0 +1,531 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would protein
+
+    design customers pay to solve?'
+  auds:
+  - Big pharma
+  - Small biotechs
+  - Cancer teams
+  - Immunology teams
+  - Testing labs
+  pains:
+  - - They still find no good binder for about half of their targets
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 2
+  - - They must prove candidates are stable, not only that they work
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They get small upfront fees and wait years for milestones
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They pay for costly lab work on every new round of candidates
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They face pharma experts who doubt their AI design claims
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 1
+  - - They cannot learn from the pharma data they never get to see
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which protein design firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Generate
+    src: ../../assets/logos/pp_live/ai-protein-design/s05-00.png
+  - name: Absci
+    src: ../../assets/logos/pp_live/ai-protein-design/s05-01.png
+  - name: Profluent
+    src: ../../assets/logos/pp_live/ai-protein-design/s05-02.png
+  - name: Chai
+    src: ../../assets/logos/pp_live/ai-protein-design/s05-03.png
+  - name: Xaira
+    src: ../../assets/logos/pp_live/ai-protein-design/s05-04.png
+  - name: Cradle
+    src: ../../assets/logos/pp_live/ai-protein-design/s05-05.png
+  features:
+  - header: Drug in|clinic
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Own drug|pipeline
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Open|model
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Licenses|its AI
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: De novo|antibodies
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Gene|editors
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Enzyme|design
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI protein design?'
+  events:
+  - odds: 25
+    impact: 2
+    text: Wet lab testing stays slow and costly, so AI protein design startups cannot speed up drug discovery
+  - odds: 20
+    impact: 2
+    text: Generate Biomedicines shares keep sliding from the $16 IPO price, closing public markets to AI protein startups
+  - odds: 20
+    impact: 3
+    text: Free models like RFdiffusion3, Boltz-2 and OpenFold3 match paid tools, wiping out software revenue for startups
+  - odds: 15
+    impact: 2
+    text: New biosecurity rules restrict AI protein design tools after Microsoft showed they can redesign toxins
+  - odds: 15
+    impact: 2
+    text: Lilly, Novartis and other pharma giants build their own protein design models and stop licensing startups
+  - odds: 15
+    impact: 2
+    text: Funding for AI protein design startups stops as revenue stays under $100 million for the leaders
+  - odds: 15
+    impact: 3
+    text: The first AI-designed protein drugs fail in Phase 2 or Phase 3 trials, and investors pull back
+  - odds: 5
+    impact: 2
+    text: The USPTO or courts deny patents on AI-designed proteins, cutting the value of AI drug pipelines
+  note:
+  - We listed the events that could slow ai protein design down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI protein design
+
+    forward, year after year?'
+  events:
+  - year: '1994'
+    text: CASP contest gives folding a scoreboard
+    impact: 1
+  - year: '2003'
+    text: Baker lab designs Top7, a new protein
+    impact: 2
+  - year: '2008'
+    text: Rosetta designs enzymes from scratch
+    impact: 1.5
+  - year: '2010'
+    text: Foldit gamers beat computers at folding
+    impact: 1
+  - year: '2016'
+    text: Designed proteins self-assemble into cages
+    impact: 1
+  - year: '2016'
+    text: Twist cuts DNA synthesis to 9 cents
+    impact: 1
+  - year: '2018'
+    text: AlphaFold wins CASP13, AI enters biology
+    impact: 2
+  - year: '2019'
+    text: Language models learn protein grammar
+    impact: 1.5
+  - year: '2020'
+    text: AlphaFold 2 solves protein folding
+    impact: 3
+  - year: '2020'
+    text: Covid binders designed in weeks show speed
+    impact: 1.5
+  - year: '2021'
+    text: AlphaFold code goes open for everyone
+    impact: 2
+  - year: '2021'
+    text: RoseTTAFold gives labs a free rival
+    impact: 1
+  - year: '2022'
+    text: AlphaFold DB maps 200M proteins
+    impact: 2
+  - year: '2022'
+    text: ProteinMPNN turns shapes into sequences
+    impact: 1.5
+  - year: '2022'
+    text: Korea approves a designed protein vaccine
+    impact: 2
+  - year: '2022'
+    text: ESMFold folds 600M metagenome proteins
+    impact: 1
+  - year: '2023'
+    text: ProGen enzymes match natural ones
+    impact: 1
+  - year: '2023'
+    text: Nvidia BioNeMo puts design models in cloud
+    impact: 1
+  - year: '2023'
+    text: RFdiffusion generates binders on demand
+    impact: 2.5
+  - year: '2023'
+    text: First AI-generated antibody enters trials
+    impact: 1.5
+  - year: '2024'
+    text: AlphaFold 3 models drugs bound to proteins
+    impact: 2
+  - year: '2024'
+    text: Xaira's $1B start lets design scale up
+    impact: 1.5
+  - year: '2024'
+    text: ESM3 designs a brand new glowing protein
+    impact: 1.5
+  - year: '2024'
+    text: Nobel prize crowns protein design
+    impact: 2.5
+  - year: '2025'
+    text: AI-designed antivenoms block snake toxins
+    impact: 1.5
+  - year: '2025'
+    text: Evo 2 lets AI write whole genes
+    impact: 1
+  - year: '2025'
+    text: Chai-2 designs working antibodies in one shot
+    impact: 2
+  - year: '2025'
+    text: Lilly opens its models to biotechs
+    impact: 1
+  - year: '2025'
+    text: Toxin study spurs better DNA order screening
+    impact: 1
+  - year: '2026'
+    text: Generate IPO opens public money to design
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai protein design forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-protein-design
+  title: 'Where did AI protein design investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai protein design startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    AI protein design today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-00.png
+    x: 682.9
+    y: 279.4
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-01.png
+    x: 249.4
+    y: 296.6
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-02.png
+    x: 310.1
+    y: 295.3
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-03.png
+    x: 377.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-04.png
+    x: 477.4
+    y: 291.4
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-05.png
+    x: 541.7
+    y: 300.0
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-06.png
+    x: 602.8
+    y: 294.2
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-07.png
+    x: 739.9
+    y: 305.1
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-08.png
+    x: 813.2
+    y: 295.3
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-09.png
+    x: 258.2
+    y: 382.7
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-10.png
+    x: 318.6
+    y: 379.7
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-11.png
+    x: 386.8
+    y: 399.0
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-12.png
+    x: 485.4
+    y: 378.4
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-13.png
+    x: 538.1
+    y: 402.9
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-14.png
+    x: 603.6
+    y: 395.6
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-15.png
+    x: 679.5
+    y: 404.6
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-16.png
+    x: 738.4
+    y: 400.3
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-17.png
+    x: 797.4
+    y: 386.1
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-18.png
+    x: 267.2
+    y: 479.1
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-19.png
+    x: 385.5
+    y: 481.3
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-20.png
+    x: 462.6
+    y: 476.1
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-21.png
+    x: 521.6
+    y: 475.7
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-22.png
+    x: 591.6
+    y: 481.7
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-23.png
+    x: 702.0
+    y: 493.3
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-24.png
+    x: 810.6
+    y: 481.3
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-25.png
+    x: 321.2
+    y: 507.4
+  - src: ../../assets/logos/pp_live/ai-protein-design/s10-26.png
+    x: 759.6
+    y: 512.6
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Antibodies
+  - Platforms
+  - Enzymes
+  note:
+  - We left out listed companies like Generate, Absci and Codexis, plus Big Tech and general AI labs
+  - We placed each pure player by its main focus, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is Generate winning the
+
+    AI protein design market?'
+  companies:
+  - short: Generate
+    src: ../../assets/logos/pp_live/ai-protein-design/s12-00.png
+  - short: Xaira
+    src: ../../assets/logos/pp_live/ai-protein-design/s12-01.png
+  - short: Absci
+    src: ../../assets/logos/pp_live/ai-protein-design/s12-02.png
+  - short: Chai
+    src: ../../assets/logos/pp_live/ai-protein-design/s12-03.png
+  - short: Profluent
+    src: ../../assets/logos/pp_live/ai-protein-design/s12-04.png
+  criteria:
+  - name: AI drug in Phase 3
+    why: Closest to approval
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Drug in human trials
+    why: Proof beyond the computer
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Publicly listed
+    why: Access to public capital
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Raised over $1B
+    why: Funds trials and compute
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Pharma deal worth $1B+
+    why: Big partners validate it
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Open published AI model
+    why: Draws top researchers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Raised $100M+ in one round
+    why: Fresh cash for compute
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Where does AI protein design
+
+    start, and where does it stop?'
+  TL:
+    name: Adaptyv
+    src: ../../assets/logos/pp_live/ai-protein-design/s01-00.png
+    text: runs an automated lab that tests AI-designed proteins for clients like Roche, but the designs come from its customers
+  TR:
+    name: Samsung Biologics
+    src: ../../assets/logos/pp_live/ai-protein-design/s01-02.png
+    text: makes antibodies for drug makers at huge scale, but it produces proteins that others designed for it
+  BL:
+    name: Absci
+    src: ../../assets/logos/pp_live/ai-protein-design/s01-09.png
+    text: designs antibodies with generative AI, but its focus is now testing its own hair loss drug, like a classic biotech
+  BR:
+    name: AbCellera
+    src: ../../assets/logos/pp_live/ai-protein-design/s01-10.png
+    text: found an early COVID antibody by screening a recovered patient's immune cells, which is discovery more than design
+  caption:
+  - Distance to the center reflects how much a company creates new protein sequences, rather than finding, testing or making them
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-protein-design/s01-01.png
+  - ../../assets/logos/pp_live/ai-protein-design/s01-03.png
+  - ../../assets/logos/pp_live/ai-protein-design/s01-04.png
+  - ../../assets/logos/pp_live/ai-protein-design/s01-05.png
+  - ../../assets/logos/pp_live/ai-protein-design/s01-06.png
+  - ../../assets/logos/pp_live/ai-protein-design/s01-07.png
+  - ../../assets/logos/pp_live/ai-protein-design/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-protein-design/s01-01.png
+    x: 483.6
+    y: 277.9
+  - src: ../../assets/logos/pp_live/ai-protein-design/s01-03.png
+    x: 412.7
+    y: 348.2
+  - src: ../../assets/logos/pp_live/ai-protein-design/s01-04.png
+    x: 478.9
+    y: 352.5
+  - src: ../../assets/logos/pp_live/ai-protein-design/s01-05.png
+    x: 545.8
+    y: 345.6
+  - src: ../../assets/logos/pp_live/ai-protein-design/s01-06.png
+    x: 448.9
+    y: 404.8
+  - src: ../../assets/logos/pp_live/ai-protein-design/s01-07.png
+    x: 509.8
+    y: 406.3
+  - src: ../../assets/logos/pp_live/ai-protein-design/s01-08.png
+    x: 485.4
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up protein
+
+    design, as AI starts to design proteins'
+  date: Lately.
+  expl: AlphaFold showed that AI can predict how proteins fold, and its creators won a Nobel Prize. Now startups use AI to design brand-new proteins for
+    medicines and enzymes, and people went looking for how protein design works.
+  term: ai protein design
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-protein-design/ai-protein-design.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    AI protein design get?'
+  lead: ''
+  condition: To get that big, the first AI-engineered antibodies must succeed in Phase 3, and pharma must pay more upfront instead of only when drugs succeed.
+    Designs must also pass the stability and safety tests that decide whether a protein can become a drug, so labs test fewer of them for each target.
+  note:
+  - We compared forecasts from Grand View, Spherical Insights, MarketsandMarkets and Astute Analytica
+  - We allowed for slower growth as the base gets larger, and all our sources are at the end of the report
+  size: 1.6
+  cagr: 25
+  y0: 2027

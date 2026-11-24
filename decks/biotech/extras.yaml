@@ -1,0 +1,46 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do biotech companies
+
+      actually make money?'
+    axes:
+    - Sells its own drugs
+    - Serves other drug makers
+    - Early
+    - research
+    - Approved
+    - medicines
+    groups:
+    - name: Sales of approved drugs
+      x: 0.18
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/biotech/s06-00.png
+      - src: ../../assets/logos/pp_live/biotech/s06-01.png
+      - src: ../../assets/logos/pp_live/biotech/s06-02.png
+    - name: Royalties on partner drugs
+      x: 0.55
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/biotech/s06-03.png
+      - src: ../../assets/logos/pp_live/biotech/s06-04.png
+    - name: Contract manufacturing
+      x: 0.82
+      y: 0.56
+      logos:
+      - src: ../../assets/logos/pp_live/biotech/s06-05.png
+      - src: ../../assets/logos/pp_live/biotech/s06-06.png
+    - name: Discovery deal milestones
+      x: 0.52
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/biotech/s06-07.png
+      - src: ../../assets/logos/pp_live/biotech/s06-08.png
+      - src: ../../assets/logos/pp_live/biotech/s06-09.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

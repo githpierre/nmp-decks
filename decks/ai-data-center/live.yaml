@@ -1,0 +1,638 @@
+ed058:
+  type: pp_pains
+  title: 'Which AI data center problems
+
+    are still waiting to be solved?'
+  auds:
+  - AI labs
+  - Big tech
+  - GPU clouds
+  - Enterprise teams
+  - Public agencies
+  pains:
+  - - They wait years to connect new sites to the grid in top markets
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They face local groups that block or delay their new campuses
+    - - 2
+      - 3
+      - 1
+      - 1
+      - 2
+  - - They wait months for transformers and gas turbines to arrive
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They must redesign halls as power per rack keeps climbing
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They find few local sites ready for the newest AI racks
+    - - 1
+      - 1
+      - 2
+      - 3
+      - 3
+  - - They sign leases of 15 years for chips that age in two
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 1
+  note:
+  - We built this from the customer pains of our pain-points chapter, lease news and analyst reports
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI data center firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Crusoe
+    src: ../../assets/logos/pp_live/ai-data-center/s05-00.png
+  - name: IREN
+    src: ../../assets/logos/pp_live/ai-data-center/s05-01.png
+  - name: Nscale
+    src: ../../assets/logos/pp_live/ai-data-center/s05-02.png
+  - name: Hut 8
+    src: ../../assets/logos/pp_live/ai-data-center/s05-03.png
+  - name: TeraWulf
+    src: ../../assets/logos/pp_live/ai-data-center/s05-04.png
+  - name: Cipher
+    src: ../../assets/logos/pp_live/ai-data-center/s05-05.png
+  features:
+  - header: Own GPU|cloud
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Sites|abroad
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Own|factories
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Big Tech|customer
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Bitcoin|mining
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: On-site|power
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Sites in|3+ states
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI data centers?'
+  events:
+  - odds: 30
+    impact: 3
+    text: More US states freeze new grid connections, so AI data centers wait years for power
+  - odds: 25
+    impact: 3
+    text: AI demand slows and OpenAI or another lab cuts its compute deals, leaving AI campuses without tenants
+  - odds: 20
+    impact: 3
+    text: Lenders pull back from CoreWeave and AI data center developers, leaving half-built campuses without funding
+  - odds: 20
+    impact: 2
+    text: GPU rental prices crash again as supply floods in, making AI data center loans hard to repay
+  - odds: 15
+    impact: 2
+    text: Microsoft, Google and Meta build all AI capacity themselves and stop leasing from developers and neoclouds
+  - odds: 12
+    impact: 3
+    text: AI models need far less compute after an efficiency leap, so new campuses sit half empty
+  - odds: 10
+    impact: 2
+    text: Tighter US export rules block Nvidia GPUs for planned AI data centers in the Gulf and Asia
+  - odds: 5
+    impact: 1
+    text: A major outage at a large AI training campus wipes out weeks of a lab's training
+  note:
+  - We listed the events that could slow ai data center down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI data centers
+
+    forward, year after year?'
+  events:
+  - year: '2012'
+    text: AlexNet makes GPUs the engine of AI
+    impact: 1.5
+  - year: '2016'
+    text: Nvidia DGX-1 packs AI into one server
+    impact: 1
+  - year: '2016'
+    text: Google TPU proves custom AI chips pay
+    impact: 1
+  - year: '2017'
+    text: Transformers make models scale with compute
+    impact: 1.5
+  - year: '2020'
+    text: GPT-3 proves more compute means better AI
+    impact: 1.5
+  - year: '2020'
+    text: Covid lockdowns push work into the cloud
+    impact: 1
+  - year: '2022'
+    text: ChatGPT sets off a race for capacity
+    impact: 3
+  - year: '2023'
+    text: Microsoft puts $10B into OpenAI compute
+    impact: 2
+  - year: '2023'
+    text: H100 shortage sparks a data center rush
+    impact: 2.5
+  - year: '2024'
+    text: Blackwell racks hit 120 kW, forcing rebuilds
+    impact: 1.5
+  - year: '2024'
+    text: xAI builds Colossus in 122 days
+    impact: 2
+  - year: '2024'
+    text: Microsoft deal revives Three Mile Island
+    impact: 2
+  - year: '2024'
+    text: BlackRock and Microsoft launch $30B AI fund
+    impact: 1.5
+  - year: '2024'
+    text: Blackstone buys AirTrunk for A$24B
+    impact: 1.5
+  - year: '2024'
+    text: Amazon buys a nuclear powered data campus
+    impact: 1
+  - year: '2025'
+    text: Stargate pledges $500B for US AI sites
+    impact: 3
+  - year: '2025'
+    text: Microsoft plans $80B for AI data centers
+    impact: 1
+  - year: '2025'
+    text: EU pledges 20B euros for AI gigafactories
+    impact: 1
+  - year: '2025'
+    text: Stargate UAE plans a 5GW AI campus
+    impact: 1.5
+  - year: '2025'
+    text: Meta plans Hyperion, a 5 GW campus
+    impact: 1.5
+  - year: '2025'
+    text: US AI Action Plan speeds site permits
+    impact: 1.5
+  - year: '2025'
+    text: Stargate Abilene goes live with GB200 racks
+    impact: 1.5
+  - year: '2025'
+    text: Oracle signs $300B compute deal with OpenAI
+    impact: 2
+  - year: '2025'
+    text: Nvidia pledges up to $100B to OpenAI
+    impact: 2
+  - year: '2025'
+    text: AMD signs 6GW chip deal with OpenAI
+    impact: 1.5
+  - year: '2025'
+    text: BlackRock group buys Aligned for $40B
+    impact: 1.5
+  - year: '2025'
+    text: Anthropic commits $50B to US data centers
+    impact: 1.5
+  - year: '2026'
+    text: Big Tech plans $725B of AI capex
+    impact: 2.5
+  - year: '2026'
+    text: Meta signs 6.6GW of nuclear for AI
+    impact: 1.5
+  - year: '2026'
+    text: OpenAI raises $110B to pay for compute
+    impact: 2
+  note:
+  - We kept the events we believe pushed ai data center forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-data-center
+  title: 'Where did AI data center investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai data center startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: AI campuses
+    names:
+    - DayOne Data Centers
+    - Fluidstack
+    v: $8.9B
+    pct: 47% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/dayone-data-centers--symbol.png
+    - src: ../../assets/logos/fluidstack--symbol.png
+    - src: ../../assets/logos/lancium--symbol.png
+  - name: AI cloud operators
+    names:
+    - Crusoe
+    - Firmus
+    v: $8.5B
+    pct: 45% of total
+    w: 95.3
+    logos:
+    - src: ../../assets/logos/crusoe.png
+    - src: ../../assets/logos/firmus--symbol.png
+    - src: ../../assets/logos/nscale.png
+  - name: Modular AI centers
+    names:
+    - Torus
+    - Armada
+    v: $1B
+    pct: 5% of total
+    w: 11.6
+    logos:
+    - src: ../../assets/logos/torus.png
+    - src: ../../assets/logos/armada.png
+    - src: ../../assets/logos/panthalassa--symbol.png
+  - name: AI compute centers
+    names:
+    - Starcloud
+    - Sapience AI
+    v: $429M
+    pct: 2% of total
+    w: 4.8
+    logos:
+    - src: ../../assets/logos/starcloud.png
+    - src: ../../assets/logos/sapience-ai.png
+  - name: Powered campuses
+    names:
+    - Bolt Data & Energy
+    v: $150M
+    pct: under 1% of total
+    w: 1.7
+    logos:
+    - src: ../../assets/logos/bolt-data-and-energy.png
+ed171p:
+  title: 'Who are the top players
+
+    in AI data centers today?'
+  cells:
+  - - - vantage-data-centers
+      - airtrunk
+      - dayone-data-centers
+    - - fluidstack
+      - lancium
+      - data4
+    - - hypervault-ai-data-center
+      - cardinal-data-power
+      - tract
+  - - - crusoe
+      - nscale
+      - firmus
+    - - lambda
+      - sharon-ai
+      - ai-and
+    - - polarise
+      - 5c
+      - konst
+  - - - torus
+      - armada
+      - panthalassa
+    - - nautilus-data-technologies
+      - eclairion
+      - metrobloks
+    - - mavria
+      - atomarine
+      - rune-energy
+  srcs:
+    vantage-data-centers: ../../assets/logos/vantage-data-centers.png
+    airtrunk: ../../assets/logos/airtrunk--symbol.png
+    dayone-data-centers: ../../assets/logos/dayone-data-centers--symbol.png
+    fluidstack: ../../assets/logos/fluidstack--symbol.png
+    lancium: ../../assets/logos/lancium--symbol.png
+    data4: ../../assets/logos/data4.png
+    hypervault-ai-data-center: ../../assets/logos/hypervault-ai-data-center.png
+    cardinal-data-power: ../../assets/logos/cardinal-data-power.png
+    crusoe: ../../assets/logos/crusoe.png
+    nscale: ../../assets/logos/nscale.png
+    firmus: ../../assets/logos/firmus--symbol.png
+    lambda: ../../assets/logos/lambda--symbol.png
+    ai-and: ../../assets/logos/ai-and.png
+    5c: ../../assets/logos/5c--symbol.png
+    tract: ../../assets/logos/tract--symbol.png
+    sharon-ai: ../../assets/logos/sharon-ai--symbol.png
+    polarise: ../../assets/logos/polarise--symbol.png
+    konst: ../../assets/logos/konst--symbol.png
+    nautilus-data-technologies: ../../assets/logos/nautilus-data-technologies--symbol.png
+    torus: ../../assets/logos/torus.png
+    armada: ../../assets/logos/armada.png
+    panthalassa: ../../assets/logos/panthalassa--symbol.png
+    eclairion: ../../assets/logos/eclairion.png
+    metrobloks: ../../assets/logos/metrobloks.png
+    mavria: ../../assets/logos/mavria.png
+    atomarine: ../../assets/logos/atomarine.png
+    rune-energy: ../../assets/logos/rune-energy.png
+  pos:
+    vantage-data-centers:
+    - 0.24
+    - 0.36
+    airtrunk:
+    - 0.52
+    - 0.66
+    dayone-data-centers:
+    - 0.78
+    - 0.42
+    fluidstack:
+    - 0.24
+    - 0.62
+    lancium:
+    - 0.52
+    - 0.34
+    data4:
+    - 0.78
+    - 0.6
+    hypervault-ai-data-center:
+    - 0.24
+    - 0.4
+    cardinal-data-power:
+    - 0.52
+    - 0.68
+    tract:
+    - 0.78
+    - 0.36
+    crusoe:
+    - 0.24
+    - 0.62
+    nscale:
+    - 0.52
+    - 0.34
+    firmus:
+    - 0.78
+    - 0.6
+    lambda:
+    - 0.24
+    - 0.4
+    sharon-ai:
+    - 0.52
+    - 0.68
+    ai-and:
+    - 0.78
+    - 0.36
+    polarise:
+    - 0.24
+    - 0.36
+    5c:
+    - 0.52
+    - 0.66
+    konst:
+    - 0.78
+    - 0.42
+    torus:
+    - 0.24
+    - 0.4
+    armada:
+    - 0.52
+    - 0.68
+    panthalassa:
+    - 0.78
+    - 0.36
+    nautilus-data-technologies:
+    - 0.24
+    - 0.36
+    eclairion:
+    - 0.52
+    - 0.66
+    metrobloks:
+    - 0.78
+    - 0.42
+    mavria:
+    - 0.24
+    - 0.62
+    atomarine:
+    - 0.52
+    - 0.34
+    rune-energy:
+    - 0.78
+    - 0.6
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - AI campuses
+  - AI cloud operators
+  - Modular AI centers
+  note:
+  - We left out big tech, AI labs, chip makers and listed companies like CoreWeave and Fermi America
+  - We placed each company by its main product and the money it raised, with all our sources at the end
+ed209p:
+  title: 'Why might IREN be winning
+
+    the miner to AI cloud race?'
+  companies:
+  - short: IREN
+    src: ../../assets/logos/pp_live/ai-data-center/s12-00.png
+  - short: Cipher
+    src: ../../assets/logos/pp_live/ai-data-center/s12-01.png
+  - short: TeraWulf
+    src: ../../assets/logos/pp_live/ai-data-center/s12-02.png
+  - short: Applied Dig.
+    src: ../../assets/logos/pp_live/ai-data-center/s12-03.png
+  - short: Core Sci.
+    src: ../../assets/logos/pp_live/ai-data-center/s12-04.png
+  - short: Galaxy
+    src: ../../assets/logos/pp_live/ai-data-center/s12-05.png
+  criteria:
+  - name: $9.7B Microsoft contract
+    why: Top hyperscaler as anchor
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Rents out its own GPUs
+    why: Earns cloud margins, not rent
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Nvidia is a customer
+    why: Chip giant rents its capacity
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $4B+ AI run rate target
+    why: Most AI revenue of its peers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Multi year AI contracts
+    why: Locked in AI revenue
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Listed on Nasdaq
+    why: Easy access to capital
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the AI data center market?'
+  TL:
+    name: Meta
+    src: ../../assets/logos/pp_live/ai-data-center/s01-00.png
+    text: is scaling its Hyperion campus in Louisiana to 5 GW, but it leases the site for its own AI and does not sell that capacity
+  TR:
+    name: GE Vernova
+    src: ../../assets/logos/pp_live/ai-data-center/s01-02.png
+    text: has booked over $5 billion of data center orders this year, but it sells gas turbines and grid gear, not AI capacity
+  BL:
+    name: Equinix
+    src: ../../assets/logos/pp_live/ai-data-center/s01-10.png
+    text: runs key networking for eight of the top 10 neoclouds, but most of its sites remain general colocation for enterprises
+  BR:
+    name: Galaxy
+    src: ../../assets/logos/pp_live/ai-data-center/s01-11.png
+    text: delivered 133 MW of AI capacity to CoreWeave at its Helios campus, but its founder calls it half a digital assets company
+  caption:
+  - Distance to the center reflects how much of a business is building and running high-density sites for AI, not general hosting
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-data-center/s01-01.png
+  - ../../assets/logos/pp_live/ai-data-center/s01-03.png
+  - ../../assets/logos/pp_live/ai-data-center/s01-04.png
+  - ../../assets/logos/pp_live/ai-data-center/s01-05.png
+  - ../../assets/logos/pp_live/ai-data-center/s01-06.png
+  - ../../assets/logos/pp_live/ai-data-center/s01-07.png
+  - ../../assets/logos/pp_live/ai-data-center/s01-08.png
+  - ../../assets/logos/pp_live/ai-data-center/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-data-center/s01-01.png
+    x: 453.6
+    y: 280.9
+  - src: ../../assets/logos/pp_live/ai-data-center/s01-03.png
+    x: 532.1
+    y: 329.1
+  - src: ../../assets/logos/pp_live/ai-data-center/s01-04.png
+    x: 404.8
+    y: 368.1
+  - src: ../../assets/logos/pp_live/ai-data-center/s01-05.png
+    x: 469.3
+    y: 353.8
+  - src: ../../assets/logos/pp_live/ai-data-center/s01-06.png
+    x: 514.1
+    y: 397.5
+  - src: ../../assets/logos/pp_live/ai-data-center/s01-07.png
+    x: 378.4
+    y: 424.1
+  - src: ../../assets/logos/pp_live/ai-data-center/s01-08.png
+    x: 455.4
+    y: 412.5
+  - src: ../../assets/logos/pp_live/ai-data-center/s01-09.png
+    x: 506.6
+    y: 460.1
+ed039p:
+  signal: google-trends
+  window: 5y
+  title: 'Searches for data center doubled
+
+    in the three years to mid-2025'
+  date: Before mid-2025.
+  expl: Data centers left the trade press as AI labs and big clouds raced to build. OpenAI’s Stargate, Meta and xAI planned campuses as big as cities, and searches for data center doubled in three years, before Google changed how it counts small search terms.
+  term: data center
+  stat: ×2
+  stat_text:
+  - more searches in early 2025
+  - than in 2022
+  dash_from: '2025-07-27'
+  dash_caption:
+  - 'Dashed: Google counts small'
+  - terms differently since mid-2025
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - Since mid-2025, small search terms move together across topics, so that part is dashed
+  csv: assets/trends/ai-data-center/data-center.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  lead: 'To fill that room, '
+  condition: the market must connect hundreds of new gigawatts to the grid, and keep AI demand strong enough to fill every new campus. It must also keep lenders willing to fund new campuses, and win local support for gigawatt sites in every region.
+  note:
+  - We compared the forecasts of Fortune Business Insights, Ameco, OG Analysis and Grand View with JLL’s AI outlook
+  - We count only the rent paid for AI sites, not the chips inside, and all our sources are listed at the end of the report
+  size: 25
+  cagr: 26
+  y0: 2026

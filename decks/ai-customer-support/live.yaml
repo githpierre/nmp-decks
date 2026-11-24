@@ -1,0 +1,519 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI support
+
+    customers actually pay to solve?'
+  auds:
+  - Consumer brands
+  - Fintech apps
+  - Software firms
+  - Telecom groups
+  - Support leaders
+  pains:
+  - - They automate most tickets, but the ones left are the costly ones
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 2
+  - - They are liable for any policy that their AI agent makes up
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - They need to write into billing and order systems with no APIs
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They pay per resolution, but each vendor defines it differently
+    - - 2
+      - 2
+      - 1
+      - 2
+      - 3
+  - - They anger customers each time they must repeat the same details
+    - - 2
+      - 1
+      - 1
+      - 2
+      - 3
+  - - They compete with agents Salesforce and Zendesk add to contracts
+    - - 1
+      - 2
+      - 3
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI support tools can already
+
+    do what support teams ask for?'
+  companies:
+  - name: Intercom
+    src: ../../assets/logos/pp_live/ai-customer-support/s05-00.png
+  - name: Zendesk
+    src: ../../assets/logos/pp_live/ai-customer-support/s05-01.png
+  - name: Sierra
+    src: ../../assets/logos/pp_live/ai-customer-support/s05-02.png
+  - name: Decagon
+    src: ../../assets/logos/pp_live/ai-customer-support/s05-03.png
+  - name: Gorgias
+    src: ../../assets/logos/pp_live/ai-customer-support/s05-04.png
+  features:
+  - header: Own|helpdesk
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: AI voice|agent
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Own trained|models
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Automatic|QA
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Pay per|outcome
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Works in|other desks
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: ChatGPT|channel
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to AI customer support?'
+  events:
+  - odds: 40
+    impact: 2
+    text: Sierra and Decagon valuations reset sharply as revenue multiples near 100 times fall back to earth
+  - odds: 35
+    impact: 3
+    text: Salesforce Agentforce and Zendesk bundle AI support into their suites and win most large customers
+  - odds: 30
+    impact: 2
+    text: More companies reverse AI support cuts like Klarna did after service quality drops and customers complain
+  - odds: 30
+    impact: 3
+    text: Resolution prices fall from about $1 toward 20 cents as vendors compete, crushing startup margins
+  - odds: 25
+    impact: 2
+    text: A breach at a leading AI support vendor leaks millions of customer records and chats
+  - odds: 20
+    impact: 2
+    text: Teleperformance and Concentrix build their own AI agents and keep large support contracts away from startups
+  - odds: 20
+    impact: 2
+    text: OpenAI and Google sell support agents directly to T-Mobile, Zillow and other large brands
+  - odds: 15
+    impact: 2
+    text: EU regulators fine a company up to 3% of turnover for AI support that misleads customers
+  note:
+  - We listed the events that could slow ai customer support down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept AI customer support
+
+    moving forward, year after year?'
+  events:
+  - year: '1967'
+    text: Toll free 800 numbers spark call centers
+    impact: 1
+  - year: '1998'
+    text: LivePerson brings live chat to websites
+    impact: 1
+  - year: '2000'
+    text: Firms offshore support to cut wage costs
+    impact: 1.5
+  - year: '2007'
+    text: Zendesk puts help desks in the cloud
+    impact: 1
+  - year: '2008'
+    text: Recession forces firms to cut support costs
+    impact: 0.5
+  - year: '2009'
+    text: Viral song shows bad service spreads fast
+    impact: 1
+  - year: '2011'
+    text: Watson win sparks dreams of support bots
+    impact: 1
+  - year: '2016'
+    text: Facebook opens Messenger to business bots
+    impact: 1
+  - year: '2017'
+    text: Amazon Connect rents out cloud call centers
+    impact: 1
+  - year: '2018'
+    text: Google Contact Center AI targets call lines
+    impact: 1.5
+  - year: '2018'
+    text: WhatsApp opens chats to business service
+    impact: 1
+  - year: '2020'
+    text: Covid swamps support lines for months
+    impact: 2
+  - year: '2021'
+    text: Great Resignation drains contact center staff
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT shows bots can answer like humans
+    impact: 3
+  - year: '2023'
+    text: Intercom Fin answers tickets with GPT-4
+    impact: 2.5
+  - year: '2023'
+    text: Salesforce and Zendesk add GenAI to desks
+    impact: 1
+  - year: '2023'
+    text: Study finds AI lifts agent output 14%
+    impact: 1.5
+  - year: '2024'
+    text: Klarna's bot handles two thirds of chats
+    impact: 2.5
+  - year: '2024'
+    text: Air Canada must honor its bot's promise
+    impact: 0.5
+  - year: '2024'
+    text: GPT-4o mini makes bot answers cheap
+    impact: 1.5
+  - year: '2024'
+    text: Zendesk prices AI by resolved ticket
+    impact: 1.5
+  - year: '2024'
+    text: Sierra sells agents priced on outcomes
+    impact: 1
+  - year: '2024'
+    text: Agentforce brings agents to Salesforce users
+    impact: 1.5
+  - year: '2024'
+    text: EU AI Act makes bots disclose themselves
+    impact: 0.5
+  - year: '2024'
+    text: Realtime API puts AI agents on phones
+    impact: 1
+  - year: '2025'
+    text: Gartner sees AI solving 80% of issues
+    impact: 1
+  - year: '2025'
+    text: Cursor bot invents a policy, users revolt
+    impact: 0.5
+  - year: '2025'
+    text: Salesforce cuts 4,000 support jobs with AI
+    impact: 2
+  - year: '2025'
+    text: Sierra tops $100M ARR within two years
+    impact: 1.5
+  - year: '2026'
+    text: Zendesk buys Forethought for self-learning AI
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai customer support forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-customer-support
+  title: 'Where did AI customer support
+
+    investors put their money lately?'
+  note:
+  - We added up every equity round of ai customer support startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in AI customer support?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-00.png
+    x: 248.6
+    y: 274.7
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-01.png
+    x: 370.1
+    y: 282.9
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-02.png
+    x: 477.0
+    y: 280.7
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-03.png
+    x: 549.2
+    y: 265.7
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-04.png
+    x: 747.6
+    y: 271.3
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-05.png
+    x: 307.9
+    y: 285.0
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-06.png
+    x: 608.4
+    y: 300.4
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-07.png
+    x: 681.4
+    y: 301.3
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-08.png
+    x: 806.8
+    y: 297.9
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-09.png
+    x: 702.6
+    y: 375.0
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-10.png
+    x: 270.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-11.png
+    x: 334.9
+    y: 386.1
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-12.png
+    x: 490.5
+    y: 381.9
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-13.png
+    x: 557.6
+    y: 404.6
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-14.png
+    x: 609.4
+    y: 375.4
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-15.png
+    x: 772.9
+    y: 397.1
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-16.png
+    x: 823.1
+    y: 386.8
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-17.png
+    x: 391.3
+    y: 408.9
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-18.png
+    x: 257.8
+    y: 484.7
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-19.png
+    x: 318.2
+    y: 473.1
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-20.png
+    x: 477.4
+    y: 477.0
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-21.png
+    x: 736.5
+    y: 488.6
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-22.png
+    x: 373.9
+    y: 500.6
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-23.png
+    x: 527.6
+    y: 501.4
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-24.png
+    x: 577.7
+    y: 496.7
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-25.png
+    x: 681.4
+    y: 513.0
+  - src: ../../assets/logos/pp_live/ai-customer-support/s10-26.png
+    x: 813.4
+    y: 512.6
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Autonomous
+  - Voice
+  - Assist & QA
+  note:
+  - We left out Big Tech, AI labs, Salesforce, Zendesk, NICE and the sold Fin and Cognigy
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why might Intercom be
+
+    winning the AI helpdesk race?'
+  companies:
+  - short: Intercom
+    src: ../../assets/logos/pp_live/ai-customer-support/s12-00.png
+  - short: Zendesk
+    src: ../../assets/logos/pp_live/ai-customer-support/s12-01.png
+  - short: Salesforce
+    src: ../../assets/logos/pp_live/ai-customer-support/s12-02.png
+  - short: Freshworks
+    src: ../../assets/logos/pp_live/ai-customer-support/s12-03.png
+  - short: Gorgias
+    src: ../../assets/logos/pp_live/ai-customer-support/s12-04.png
+  criteria:
+  - name: AI agent on any helpdesk
+    why: Fin also runs on rivals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 66% average resolution
+    why: Fin closes most tickets
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Pay only per resolution
+    why: Price tied to results
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Voice AI agent
+    why: Answers phone calls too
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: 50,000+ customers
+    why: Huge base to upsell AI
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Own native helpdesk
+    why: AI and inbox in one place
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies truly belong
+
+    in AI customer support?'
+  TL:
+    name: Zendesk
+    src: ../../assets/logos/pp_live/ai-customer-support/s01-00.png
+    text: now bills AI agents per resolved ticket, but its core business is still selling helpdesk seats to human support teams
+  TR:
+    name: Teleperformance
+    src: ../../assets/logos/pp_live/ai-customer-support/s01-02.png
+    text: answers calls and chats for the world's biggest brands, but its business still rests on about 420,000 employees
+  BL:
+    name: ServiceNow
+    src: ../../assets/logos/pp_live/ai-customer-support/s01-10.png
+    text: has AI agents handling 90% of its staff's IT requests, but it mostly sells to IT and HR teams rather than to support
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-customer-support/s01-11.png
+    text: dl pea ts Seg pelni tie earned sire SD ty iM igen US rer GS ro SELIG (UE CB 19 GEVEP MESES, 8 lh is on the edge
+  caption:
+  - Distance to the center reflects how much a product resolves customer requests itself, rather than hosting tickets or staff
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-customer-support/s01-01.png
+  - ../../assets/logos/pp_live/ai-customer-support/s01-03.png
+  - ../../assets/logos/pp_live/ai-customer-support/s01-04.png
+  - ../../assets/logos/pp_live/ai-customer-support/s01-05.png
+  - ../../assets/logos/pp_live/ai-customer-support/s01-06.png
+  - ../../assets/logos/pp_live/ai-customer-support/s01-07.png
+  - ../../assets/logos/pp_live/ai-customer-support/s01-08.png
+  - ../../assets/logos/pp_live/ai-customer-support/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-customer-support/s01-01.png
+    x: 483.6
+    y: 277.9
+  - src: ../../assets/logos/pp_live/ai-customer-support/s01-03.png
+    x: 412.7
+    y: 348.2
+  - src: ../../assets/logos/pp_live/ai-customer-support/s01-04.png
+    x: 478.9
+    y: 352.5
+  - src: ../../assets/logos/pp_live/ai-customer-support/s01-05.png
+    x: 545.8
+    y: 345.6
+  - src: ../../assets/logos/pp_live/ai-customer-support/s01-06.png
+    x: 372.2
+    y: 394.5
+  - src: ../../assets/logos/pp_live/ai-customer-support/s01-07.png
+    x: 448.9
+    y: 404.8
+  - src: ../../assets/logos/pp_live/ai-customer-support/s01-08.png
+    x: 509.8
+    y: 406.3
+  - src: ../../assets/logos/pp_live/ai-customer-support/s01-09.png
+    x: 485.4
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'The query AI customer service
+
+    keeps hitting new highs on Google'
+  date: Recently.
+  expl: Companies started letting AI answer customers instead of agents, and every support team wanted to know if that was safe. Searches come in waves,
+    and the latest wave was the biggest yet.
+  term: ai customer support
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-customer-support/ai-customer-support.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the AI customer support
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but agents must resolve most common issues by 2029 as Gartner expects, voice agents must answer in under a second, and a resolution must
+    mean the same thing to every buyer. It must also keep a human one click away, so that no Klarna-style reversal makes boards cap automation at half of
+    the volume.
+  note:
+  - We compared forecasts from Grand View Research, Polaris, Technavio and MarketsandMarkets
+  - We lowered them for falling prices per resolution, and all our sources are at the end of the report
+  size: 19
+  cagr: 20
+  y0: 2026

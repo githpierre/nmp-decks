@@ -1,0 +1,44 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does money really flow
+
+      in robot foundation models?'
+    axes:
+    - Sells the model
+    - Sells the robot
+    - License
+    - fee
+    - Shared
+    - deployment
+    groups:
+    - name: Model licensing
+      x: 0.18
+      y: 0.3
+      logos:
+      - src: ../../assets/logos/pp_live/robot-foundation-models/s06-04.png
+      - src: ../../assets/logos/pp_live/robot-foundation-models/s06-05.png
+    - name: Platform subscription
+      x: 0.35
+      y: 0.7
+      logos:
+      - src: ../../assets/logos/pp_live/robot-foundation-models/s06-00.png
+      - src: ../../assets/logos/pp_live/robot-foundation-models/s06-01.png
+    - name: Hardware plus software
+      x: 0.82
+      y: 0.4
+      logos:
+      - src: ../../assets/logos/pp_live/robot-foundation-models/s06-06.png
+      - src: ../../assets/logos/pp_live/robot-foundation-models/s06-07.png
+    - name: Strategic partnership
+      x: 0.65
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/robot-foundation-models/s06-02.png
+      - src: ../../assets/logos/pp_live/robot-foundation-models/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

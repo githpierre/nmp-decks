@@ -1,0 +1,535 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI safety
+
+    customers actually pay to solve?'
+  auds:
+  - Frontier labs
+  - Large banks
+  - Health systems
+  - Public agencies
+  - AI startups
+  pains:
+  - - They cannot fully stop jailbreaks that make models misbehave
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 3
+  - - They lack shared tests to show a model is safe enough to launch
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They see models give wrong answers with complete confidence
+    - - 1
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They must follow new AI laws that differ in each country
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They struggle to explain why a model made a given decision
+    - - 1
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They lose sleep over AI agents taking actions nobody approved
+    - - 3
+      - 2
+      - 1
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI safety player has
+
+    the most complete tech today?'
+  companies:
+  - name: HiddenLayer
+    src: ../../assets/logos/pp_live/ai-safety/s05-00.png
+  - name: Noma
+    src: ../../assets/logos/pp_live/ai-safety/s05-01.png
+  - name: Lasso
+    src: ../../assets/logos/pp_live/ai-safety/s05-02.png
+  - name: Lakera
+    src: ../../assets/logos/pp_live/ai-safety/s05-03.png
+  - name: Zenity
+    src: ../../assets/logos/pp_live/ai-safety/s05-04.png
+  - name: Mindgard
+    src: ../../assets/logos/pp_live/ai-safety/s05-05.png
+  features:
+  - header: Model|scanning
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Red team|tool
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Staff AI|control
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: MCP|security
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Agent|identity
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Expert|red team
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Coding|agents
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to AI safety?'
+  events:
+  - odds: 45
+    impact: 3
+    text: OpenAI, Google and Anthropic build evals in house, leaving little room for outside testing startups
+  - odds: 40
+    impact: 2
+    text: The EU delays and softens AI Act general purpose model obligations, cutting demand for compliance audits
+  - odds: 40
+    impact: 2
+    text: Enterprises treat AI safety tools as optional and buy them only when regulators or insurers demand
+  - odds: 30
+    impact: 2
+    text: The White House cuts the budget and staff of the Center for AI Standards and Innovation further
+  - odds: 25
+    impact: 2
+    text: Interpretability and red teaming methods fail to catch deceptive behavior in frontier models, hurting credibility
+  - odds: 20
+    impact: 3
+    text: Congress passes federal AI preemption, wiping out California SB 53 and New York RAISE Act safety rules
+  - odds: 15
+    impact: 1
+    text: Safety research nonprofits lose funding as Coefficient Giving and other donors shift grants toward other causes
+  - odds: 10
+    impact: 3
+    text: A major AI-enabled cyberattack or bioweapon scare triggers rushed laws that favor big labs over startups
+  note:
+  - We listed the events that could slow ai safety down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI safety
+
+    forward, year after year?'
+  events:
+  - year: '2000'
+    text: First AI risk institute starts research
+    impact: 0.5
+  - year: '2014'
+    text: Bostrom book makes AI risk mainstream
+    impact: 2
+  - year: '2015'
+    text: Musk gives $10M to fund safety research
+    impact: 1.5
+  - year: '2016'
+    text: Concrete Problems paper defines safety work
+    impact: 1.5
+  - year: '2016'
+    text: Tay chatbot turns racist within a day
+    impact: 1
+  - year: '2017'
+    text: Asilomar principles get labs to sign on
+    impact: 1
+  - year: '2017'
+    text: RLHF paper shows how to steer models
+    impact: 1.5
+  - year: '2019'
+    text: OpenAI withholds GPT-2 over misuse fears
+    impact: 1
+  - year: '2021'
+    text: Safety focused Anthropic splits from OpenAI
+    impact: 1.5
+  - year: '2022'
+    text: Constitutional AI offers new alignment method
+    impact: 1
+  - year: '2022'
+    text: ChatGPT puts AI risks in every home
+    impact: 3
+  - year: '2023'
+    text: Pause letter gets 30,000 signatures
+    impact: 1.5
+  - year: '2023'
+    text: Experts call AI extinction risk a priority
+    impact: 1.5
+  - year: '2023'
+    text: Labs make safety pledges at White House
+    impact: 1
+  - year: '2023'
+    text: Biden order demands safety tests
+    impact: 2
+  - year: '2023'
+    text: Bletchley summit creates UK safety institute
+    impact: 2.5
+  - year: '2023'
+    text: OpenAI board fires Altman over trust
+    impact: 1
+  - year: '2024'
+    text: EU AI Act passes, forcing risk checks
+    impact: 2.5
+  - year: '2024'
+    text: OpenAI safety team quits, sparking alarm
+    impact: 1
+  - year: '2024'
+    text: US institute gets early access to models
+    impact: 1
+  - year: '2024'
+    text: Nobel winner Hinton warns of AI dangers
+    impact: 1
+  - year: '2025'
+    text: DeepSeek R1 shows frontier AI spreads cheaply
+    impact: 1.5
+  - year: '2025'
+    text: Global AI Safety Report maps the risks
+    impact: 1
+  - year: '2025'
+    text: Anthropic turns on stricter ASL-3 safeguards
+    impact: 1
+  - year: '2025'
+    text: Teen suicide lawsuits hit chatbot makers
+    impact: 1.5
+  - year: '2025'
+    text: EU rules for big models take effect
+    impact: 1.5
+  - year: '2025'
+    text: California SB 53 makes labs publish plans
+    impact: 2
+  - year: '2025'
+    text: New York RAISE Act regulates frontier labs
+    impact: 1.5
+  - year: '2026'
+    text: Pentagon feud puts AI limits in headlines
+    impact: 1
+  - year: '2026'
+    text: Illinois passes toughest frontier AI law
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai safety forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-safety
+  title: 'Where did AI safety investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai safety startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the AI safety market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-safety/s10-00.png
+    x: 376.3
+    y: 266.8
+  - src: ../../assets/logos/pp_live/ai-safety/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/ai-safety/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/ai-safety/s10-03.png
+    x: 693.6
+    y: 277.1
+  - src: ../../assets/logos/pp_live/ai-safety/s10-04.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/ai-safety/s10-05.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/ai-safety/s10-06.png
+    x: 309.6
+    y: 301.7
+  - src: ../../assets/logos/pp_live/ai-safety/s10-07.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/ai-safety/s10-08.png
+    x: 480.0
+    y: 317.6
+  - src: ../../assets/logos/pp_live/ai-safety/s10-09.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/ai-safety/s10-10.png
+    x: 538.1
+    y: 368.4
+  - src: ../../assets/logos/pp_live/ai-safety/s10-11.png
+    x: 662.4
+    y: 373.7
+  - src: ../../assets/logos/pp_live/ai-safety/s10-12.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/ai-safety/s10-13.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/ai-safety/s10-14.png
+    x: 191.6
+    y: 406.9
+  - src: ../../assets/logos/pp_live/ai-safety/s10-15.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/ai-safety/s10-16.png
+    x: 581.8
+    y: 412.7
+  - src: ../../assets/logos/pp_live/ai-safety/s10-17.png
+    x: 423.4
+    y: 488.1
+  - src: ../../assets/logos/pp_live/ai-safety/s10-18.png
+    x: 564.9
+    y: 478.3
+  - src: ../../assets/logos/pp_live/ai-safety/s10-19.png
+    x: 715.3
+    y: 473.1
+  - src: ../../assets/logos/pp_live/ai-safety/s10-20.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/ai-safety/s10-21.png
+    x: 511.7
+    y: 496.7
+  - src: ../../assets/logos/pp_live/ai-safety/s10-22.png
+    x: 657.6
+    y: 510.6
+  - src: ../../assets/logos/pp_live/ai-safety/s10-23.png
+    x: 776.6
+    y: 500.1
+  cols:
+  - Behavior quality
+  - AI security threats
+  - '- Governance & auditability'
+  rows:
+  - Pre-deployment assurance
+  - Runtime control &
+  - Governance & risk
+  note:
+  - We placed AI safety startups with real traction by main buyer use and step of the Al life cycle
+  - Some vendors span several boxes, and all the sources we used are listed at the end of the report
+ed209p:
+  title: 'What makes Anthropic
+
+    the AI safety leader?'
+  companies:
+  - short: Anthropic
+    src: ../../assets/logos/pp_live/ai-safety/s12-00.png
+  - short: OpenAI
+    src: ../../assets/logos/pp_live/ai-safety/s12-01.png
+  - short: DeepMind
+    src: ../../assets/logos/pp_live/ai-safety/s12-02.png
+  - short: Meta
+    src: ../../assets/logos/pp_live/ai-safety/s12-03.png
+  - short: xAI
+    src: ../../assets/logos/pp_live/ai-safety/s12-04.png
+  - short: Mistral
+    src: ../../assets/logos/pp_live/ai-safety/s12-05.png
+  criteria:
+  - name: Top FLI safety grade
+    why: Rated safest by experts
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: FLI grade of C or better
+    why: Passes outside review
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Frontier safety framework
+    why: Clear rules before release
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Signed EU AI safety code
+    why: Ready for EU AI Act rules
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Public benefit company
+    why: Mission written into law
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Safety trust elects board
+    why: Board answers to mission
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Interpretability team
+    why: Sees inside the model
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as AI safety,
+
+    and what falls outside?'
+  TL:
+    name: Google DeepMind
+    src: ../../assets/logos/pp_live/ai-safety/s01-00.png
+    text: tests Gemini under a published frontier safety framework, but safety is how it ships models, not what it sells
+  TR:
+    name: CrowdStrike
+    src: ../../assets/logos/pp_live/ai-safety/s01-02.png
+    text: uses AI to stop hackers and sells some AI protection, but most of its revenue comes from securing laptops and clouds
+  BL:
+    name: Arize AI
+    src: ../../assets/logos/pp_live/ai-safety/s01-10.png
+    text: evaluates and monitors AI A ‘ A apps in production, but its focus on reliability and debugging sits between one z MLOps and safety
+  BR:
+    name: CeEIS AS
+    src: ../../assets/logos/pp_live/ai-safety/s01-11.png
+    text: munis masts! Gv luceitemis slr a F labs and governments, but most of its revenue still comes from labeled i nate tigeilige} cles
+  caption:
+  - Distance to the center reflects how directly a product measures, constrains or governs the behavior of AI models
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-safety/s01-01.png
+  - ../../assets/logos/pp_live/ai-safety/s01-03.png
+  - ../../assets/logos/pp_live/ai-safety/s01-04.png
+  - ../../assets/logos/pp_live/ai-safety/s01-05.png
+  - ../../assets/logos/pp_live/ai-safety/s01-06.png
+  - ../../assets/logos/pp_live/ai-safety/s01-07.png
+  - ../../assets/logos/pp_live/ai-safety/s01-08.png
+  - ../../assets/logos/pp_live/ai-safety/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-safety/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/ai-safety/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/ai-safety/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/ai-safety/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/ai-safety/s01-06.png
+    x: 514.9
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-safety/s01-07.png
+    x: 381.2
+    y: 430.9
+  - src: ../../assets/logos/pp_live/ai-safety/s01-08.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/ai-safety/s01-09.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more parents search
+
+    for AI safety, as chatbot worries grow'
+  date: Recently.
+  expl: AI got powerful fast, and so did the worries. Lawsuits about chatbots and teen suicides, deepfake scams and warnings from AI leaders hit the headlines,
+    and governments rushed to write rules. AI safety became a question for parents, not only researchers.
+  term: ai safety
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-safety/ai-safety.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for AI safety to grow?'
+  lead: 'To fill that room, '
+  condition: the market must make AI agents safe enough to run real work, and turn new laws and insurance rules into steady budgets. It must also prove
+    that safety tools cut real losses, and keep startups alive as large platforms bundle the same features.
+  note:
+  - We compared forecasts from Gartner, MarketsandMarkets, Grand View and Fortune Business Insights
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: null
+  cagr: 30
+  y0: 2028

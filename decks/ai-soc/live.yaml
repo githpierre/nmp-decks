@@ -1,0 +1,535 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI SOC
+
+    customers actually pay to solve?'
+  auds:
+  - Large enterprises
+  - Global banks
+  - Cloud startups
+  - Platform buyers
+  - Public agencies
+  pains:
+  - - They must move years of logs out of a classic SIEM first
+    - - 3
+      - 2
+      - 3
+      - 3
+      - 2
+  - - They detect only a small share of attack techniques with rules
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - They need data from dozens of tools that do not talk to each other
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They must prove the AI finds what the old rules used to miss
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - They pay for every gigabyte of security data that they store
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 1
+  - - They compete with the Palo Alto and CrowdStrike product bundles
+    - - 2
+      - 1
+      - 1
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI SOC tools can already
+
+    do what security teams ask for?'
+  companies:
+  - name: CrowdStrike
+    src: ../../assets/logos/pp_live/ai-soc/s05-00.png
+  - name: 7AI
+    src: ../../assets/logos/pp_live/ai-soc/s05-01.png
+  - name: Exaforce
+    src: ../../assets/logos/pp_live/ai-soc/s05-02.png
+  - name: Torq
+    src: ../../assets/logos/pp_live/ai-soc/s05-03.png
+  - name: Prophet
+    src: ../../assets/logos/pp_live/ai-soc/s05-04.png
+  - name: Dropzone
+    src: ../../assets/logos/pp_live/ai-soc/s05-05.png
+  features:
+  - header: MSSP|edition
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Own|SIEM
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: 24/7 human|service
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Auto|response
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Detection|engineering
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Threat|hunting
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: No-code|builder
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to AI SOC?'
+  events:
+  - odds: 30
+    impact: 3
+    text: Microsoft, now giving Security Copilot to all E5 customers, wins most SOC agent deals from startups
+  - odds: 25
+    impact: 2
+    text: CrowdStrike, Palo Alto Networks and Zscaler buy the AI SOC leaders, leaving few independent startups
+  - odds: 20
+    impact: 2
+    text: Most AI SOC pilots fail to prove results, and security teams cancel contracts after a year
+  - odds: 15
+    impact: 3
+    text: An AI SOC tool misses a major ransomware attack, and the breach becomes a public scandal
+  - odds: 12
+    impact: 2
+    text: Model costs per investigation stay high, so AI SOC startups cannot reach healthy margins
+  - odds: 10
+    impact: 3
+    text: Attackers hijack an AI SOC agent with planted text and make it shut down defenses
+  - odds: 8
+    impact: 2
+    text: OpenAI and Anthropic sell security agents directly to enterprises and bypass AI SOC startups
+  - odds: 5
+    impact: 1
+    text: EU AI Act duties or new US rules force strict human review on autonomous SOC agents
+  note:
+  - We listed the events that could slow ai soc down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI SOC
+
+    forward, year after year?'
+  events:
+  - year: '2005'
+    text: SIEM tools flood analysts with alerts
+    impact: 1
+  - year: '2013'
+    text: Target breach shows ignored alerts cost
+    impact: 2.5
+  - year: '2014'
+    text: Sony hack makes boards fear breaches
+    impact: 1
+  - year: '2016'
+    text: DARPA shows machines can fix bugs alone
+    impact: 1
+  - year: '2017'
+    text: WannaCry hits 200,000 PCs in days
+    impact: 1.5
+  - year: '2017'
+    text: Equifax breach makes speed a board issue
+    impact: 1
+  - year: '2018'
+    text: Splunk buys Phantom, SOC automation spreads
+    impact: 1.5
+  - year: '2019'
+    text: Palo Alto buys Demisto to automate SOCs
+    impact: 1
+  - year: '2019'
+    text: Microsoft Sentinel moves the SIEM to cloud
+    impact: 1.5
+  - year: '2020'
+    text: SolarWinds hack hides for months in networks
+    impact: 1.5
+  - year: '2020'
+    text: Remote work multiplies endpoints to watch
+    impact: 1
+  - year: '2021'
+    text: Colonial Pipeline ransom halts US fuel
+    impact: 1.5
+  - year: '2021'
+    text: Log4j bug buries teams in urgent alerts
+    impact: 1
+  - year: '2022'
+    text: ChatGPT shows AI can explain alerts
+    impact: 2
+  - year: '2023'
+    text: Security Copilot puts GPT-4 in the SOC
+    impact: 2.5
+  - year: '2023'
+    text: Google trains AI on threat intel data
+    impact: 1
+  - year: '2023'
+    text: SEC demands breach disclosure in four days
+    impact: 1.5
+  - year: '2023'
+    text: SEC sues SolarWinds CISO, raising the stakes
+    impact: 1
+  - year: '2024'
+    text: Cisco buys Splunk for $28B
+    impact: 1.5
+  - year: '2024'
+    text: IBM sells QRadar cloud as SIEMs consolidate
+    impact: 1
+  - year: '2024'
+    text: Security talent gap hits 4.8M workers
+    impact: 1.5
+  - year: '2025'
+    text: Microsoft agents start triaging phishing
+    impact: 1.5
+  - year: '2025'
+    text: Google unveils agents for an agentic SOC
+    impact: 1.5
+  - year: '2025'
+    text: M&S hack halts online sales for weeks
+    impact: 1
+  - year: '2025'
+    text: Zscaler buys Red Canary for SOC AI
+    impact: 1.5
+  - year: '2025'
+    text: CrowdStrike agents start working alerts alone
+    impact: 1
+  - year: '2025'
+    text: AI-run spy campaign shows attackers scale up
+    impact: 2.5
+  - year: '2025'
+    text: Palo Alto rebuilds Cortex around agents
+    impact: 1.5
+  - year: '2026'
+    text: Google closes Wiz, adds AI SOC tools
+    impact: 1.5
+  - year: '2026'
+    text: Cribl buys Radiant to add AI analysts
+    impact: 1
+  note:
+  - We kept the events we believe pushed ai soc forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-soc
+  title: 'Where did AI SOC investors put
+
+    their money this past year?'
+  note:
+  - We added up every equity round of ai soc startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the AI SOC market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-soc/s10-00.png
+    x: 391.1
+    y: 270.4
+  - src: ../../assets/logos/pp_live/ai-soc/s10-01.png
+    x: 548.8
+    y: 273.9
+  - src: ../../assets/logos/pp_live/ai-soc/s10-02.png
+    x: 609.2
+    y: 279.0
+  - src: ../../assets/logos/pp_live/ai-soc/s10-03.png
+    x: 736.1
+    y: 267.0
+  - src: ../../assets/logos/pp_live/ai-soc/s10-04.png
+    x: 287.4
+    y: 288.2
+  - src: ../../assets/logos/pp_live/ai-soc/s10-05.png
+    x: 340.3
+    y: 305.6
+  - src: ../../assets/logos/pp_live/ai-soc/s10-06.png
+    x: 483.2
+    y: 288.9
+  - src: ../../assets/logos/pp_live/ai-soc/s10-07.png
+    x: 681.2
+    y: 285.0
+  - src: ../../assets/logos/pp_live/ai-soc/s10-08.png
+    x: 788.1
+    y: 294.4
+  - src: ../../assets/logos/pp_live/ai-soc/s10-09.png
+    x: 796.5
+    y: 372.0
+  - src: ../../assets/logos/pp_live/ai-soc/s10-10.png
+    x: 248.6
+    y: 389.1
+  - src: ../../assets/logos/pp_live/ai-soc/s10-11.png
+    x: 327.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/ai-soc/s10-12.png
+    x: 393.0
+    y: 388.7
+  - src: ../../assets/logos/pp_live/ai-soc/s10-13.png
+    x: 470.8
+    y: 384.9
+  - src: ../../assets/logos/pp_live/ai-soc/s10-14.png
+    x: 529.9
+    y: 381.4
+  - src: ../../assets/logos/pp_live/ai-soc/s10-15.png
+    x: 739.1
+    y: 403.7
+  - src: ../../assets/logos/pp_live/ai-soc/s10-16.png
+    x: 604.5
+    y: 408.4
+  - src: ../../assets/logos/pp_live/ai-soc/s10-17.png
+    x: 681.2
+    y: 405.4
+  - src: ../../assets/logos/pp_live/ai-soc/s10-18.png
+    x: 257.8
+    y: 480.9
+  - src: ../../assets/logos/pp_live/ai-soc/s10-19.png
+    x: 392.6
+    y: 483.4
+  - src: ../../assets/logos/pp_live/ai-soc/s10-20.png
+    x: 471.2
+    y: 474.9
+  - src: ../../assets/logos/pp_live/ai-soc/s10-21.png
+    x: 538.1
+    y: 484.5
+  - src: ../../assets/logos/pp_live/ai-soc/s10-22.png
+    x: 690.4
+    y: 474.0
+  - src: ../../assets/logos/pp_live/ai-soc/s10-23.png
+    x: 748.5
+    y: 483.4
+  - src: ../../assets/logos/pp_live/ai-soc/s10-24.png
+    x: 336.6
+    y: 498.0
+  - src: ../../assets/logos/pp_live/ai-soc/s10-25.png
+    x: 594.9
+    y: 497.1
+  - src: ../../assets/logos/pp_live/ai-soc/s10-26.png
+    x: 812.6
+    y: 506.1
+  cols:
+  - Leaders
+  - Challengers
+  - sion S115
+  rows:
+  - Agents
+  - Platforms
+  - MDR
+  note:
+  - We left out platform giants like Palo Alto, CrowdStrike, Microsoft and Google
+  - We placed each one by its focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why might Torq be winning
+
+    the AI SOC market today?'
+  companies:
+  - short: Torq
+    src: ../../assets/logos/pp_live/ai-soc/s12-00.png
+  - short: 7AI
+    src: ../../assets/logos/pp_live/ai-soc/s12-01.png
+  - short: Dropzone
+    src: ../../assets/logos/pp_live/ai-soc/s12-02.png
+  - short: Exaforce
+    src: ../../assets/logos/pp_live/ai-soc/s12-03.png
+  - short: Prophet
+    src: ../../assets/logos/pp_live/ai-soc/s12-04.png
+  criteria:
+  - name: Unicorn valuation
+    why: Capital to outbuild rivals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Raised over $100M
+    why: Funds sales and product
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Fortune 100 customers
+    why: Proof at the biggest SOCs
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: No code workflow builder
+    why: Agents can also fix issues
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Hundreds of enterprises
+    why: Proof in production
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Autonomous alert triage
+    why: Cuts analyst workload
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: $75M+ Series A
+    why: Fast scale from day one
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is in the AI SOC
+
+    market, and what is out?'
+  TL:
+    name: ReliaQuest
+    src: ../../assets/logos/pp_live/ai-soc/s01-00.png
+    text: runs security for 1,300 clients with its GreyMatter AI platform, but it also relies on 1,200 staff in six centers
+  TR:
+    name: Okta
+    src: ../../assets/logos/pp_live/ai-soc/s01-02.png
+    text: secures logins for big firms and governments, but it controls who gets access rather than investigating security alerts
+  BL:
+    name: Tines
+    src: ../../assets/logos/pp_live/ai-soc/s01-10.png
+    text: began as an automation tool for security teams and now runs AI workflows for IT teams too, which puts it on the edge
+  BR:
+    name: Palo Alto Networks
+    src: ../../assets/logos/pp_live/ai-soc/s01-11.png
+    text: grew XSIAM to over $700 million in recurring revenue, but Cortex is under a fifth of its $11.5 billion sales
+  caption:
+  - Distance to the center reflects how much of the analyst's work, from triage to response, the AI actually does on its own
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-soc/s01-01.png
+  - ../../assets/logos/pp_live/ai-soc/s01-03.png
+  - ../../assets/logos/pp_live/ai-soc/s01-04.png
+  - ../../assets/logos/pp_live/ai-soc/s01-05.png
+  - ../../assets/logos/pp_live/ai-soc/s01-06.png
+  - ../../assets/logos/pp_live/ai-soc/s01-07.png
+  - ../../assets/logos/pp_live/ai-soc/s01-08.png
+  - ../../assets/logos/pp_live/ai-soc/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-soc/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/ai-soc/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/ai-soc/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/ai-soc/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/ai-soc/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/ai-soc/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/ai-soc/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/ai-soc/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more security teams
+
+    look up AI SOC to handle their alerts'
+  date: Recently.
+  expl: Security teams drown in alerts every day. When AI started triaging them automatically, ‘AI SOC’ went from jargon to something security leaders look
+    up by name.
+  term: ai soc
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-soc/ai-soc.csv
+ed052p:
+  type: pp_cagr
+  title: 'How fast can the AI SOC
+
+    market really grow?'
+  lead: ''
+  condition: To grow this fast, AI agents must move from pilots to production in most large SOCs, and buyers must trust them to act alone on more than low-risk
+    alerts. It must also keep AI-led MDR growing in the mid-market and avoid a price war as Microsoft and Google bundle agents into their licenses.
+  note:
+  - We compared forecasts from MarketsandMarkets, Fortune Business Insights, Mordor and Gartner to build a realistic range
+  - We checked them against the growth of the AI SIEM leaders, and all the sources we used are listed at the end of the report
+  size: 6.5
+  cagr: 22
+  y0: 2026

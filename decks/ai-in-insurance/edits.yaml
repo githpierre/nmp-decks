@@ -1,0 +1,446 @@
+# Claude's fit rewrites for AI in insurance (22 Nov 2026), same facts as the research
+iv_fda:
+  7: 'DATA TEST
+
+
+    A claims lead tests old files for 2 to 4 weeks. Weak lift or messy records can end the trial.'
+  8: 'SECURITY CHECK
+
+
+    IT and privacy teams check data access and vendor terms over weeks. Gaps may block approval.'
+  9: 'MODEL REVIEW
+
+
+    Risk and legal teams test bias and logs over weeks. Unclear decisions stop live policy use.'
+  11: 'SYSTEM LINKS
+
+
+    Engineers link claims and policy systems over 6 to 20 weeks. Failed handoffs can derail launch.'
+  10: 'LIVE ROLLOUT
+
+
+    Ops leaders scale across claims over 8 to 24 months, tracking errors, time and paid losses.'
+iv_safety:
+  6: 'DENIAL LAWSUITS
+
+
+    A court ordered 2026 discovery over claims UnitedHealth used AI in care denials. The accusations remain disputed.'
+  7: 'FAKE DAMAGE
+
+
+    Aviva detected £233M in suspected claims fraud in 2025 and separately warned that AI-made images can invent crashes and damage.'
+  8: 'BIASED RATES
+
+
+    New York holds insurers liable for unfair prices even when vendors build the AI, making audits a purchase hurdle.'
+  9: 'CORE VENDORS
+
+
+    Duck Creek launched its own insurance AI platform in April 2026, competing with specialist tools for claims work.'
+  10: 'LOSS RATIOS
+
+
+    Lemonade reported a 65% gross loss ratio for Q3 2026. AI-driven pricing does not remove the basic danger of costly claims.'
+ed210:
+  rows:
+  - - They set prices mainly from broad driver age and ZIP groups
+    - Root prices drivers with phone sensors and car data
+  - - They wait for yearly rate cycles to update risk prices
+    - Root tests its own AI-based pricing models as data grows
+  - - They rely on a thin sample of real driving behavior
+    - Root has analyzed over 38B miles of driving on its app
+  - - They handle each new online sales channel as a new project
+    - Root puts car insurance inside partner checkout flows
+  - - They buy new data without much past claim-level context
+    - Root has data from more than 900,000 claims filed
+  - - They rarely put a quote at the point of buying a car
+    - Carvana wrote over 250,000 Root policies by August 2026
+  - - They scale slowly when entering new state insurance markets
+    - Root reached 38 states and about 82% of the US market
+  - - They grow premiums but struggle to return a profit
+    - Root earned $14M of net income in Q3 2026 on $381M sales
+  note:
+  - We used Root's SEC shareholder letters to compare live insurance operations, pricing and capital returns.
+  - We compare it with a typical car insurer, a made-up baseline and not a real rival that Root named itself.
+ed211:
+  rows:
+  - - They fit pricing models by hand in slow spreadsheets
+    - Akur8 uses clear machine learning for insurance rates
+  - - They sell pricing tools that are hard to audit later
+    - Akur8 makes its risk models open to human review
+  - - They read public rate filings one document at a time
+    - Akur8 Discover searches filings with AI via Matrisk
+  - - They keep model versions scattered across local files
+    - Rate Repo puts all insurance rates in one audit trail
+  - - They stop after building a model for actuaries to see
+    - Deploy moves approved pricing models into live use
+  - - They treat claims reserves as a separate software task
+    - Akur8 connects pricing and reserve work in one suite
+  - - They stay focused on one kind of insurance market
+    - Akur8 bought Slope in 2026 to add life insurance pricing
+  - - They stay small with a few teams testing the product
+    - Akur8 now has over 330 insurer clients in 40+ countries
+ed213:
+  rows:
+  - - They mainly price cyber risk once when a policy starts
+    - Coalition uses AI and fresh web data to price cyber risk
+  - - They depend on a static form about a company network
+    - Coalition scans 4.5B IP addresses every month for risks
+  - - They wait until a breach occurs before warning a client
+    - Coalition sends AI-based alerts for exposed systems
+  - - They use claims records only after an incident is paid
+    - Coalition learns from threat feeds and past claim data
+  - - They offer general tips without fixing a weak system
+    - CoalitionAI gives clients steps to fix critical security flaws
+  - - They pay losses but offer little help to recover funds
+    - Coalition recovered $22M of clients’ stolen funds in 2025
+  - - They negotiate ransom costs without much cyber insight
+    - Its response teams cut ransom payments by 65% on average
+  - - They only insure old cyber risks with standard cover
+    - Coalition also covers cyber losses linked to AI use
+ed214:
+  rows:
+  - - They often take weeks to price one difficult business risk
+    - Blackbird can help quote specialty risks within hours
+  - - They read complex broker submissions line by line
+    - Blackbird reads and classifies each risk submission
+  - - They set a price without built-in data-based support
+    - Blackbird computes a technical price for each risk
+  - - They replace human judgment with a rigid price rule
+    - Ledgebrook keeps expert underwriters making final calls
+  - - They rely on the same standard cover for most firms
+    - Ledgebrook writes custom risk cover for midsize firms
+  - - They sell policies directly to firms and households
+    - Ledgebrook works only through wholesale brokers
+  - - They need a partner carrier to issue all the policies
+    - Ledgebrook earned an A- rating for its own carrier
+  - - They look for outside capital before scaling the book
+    - Ledgebrook raised $200M and is on track for $1B in premiums
+ed042:
+  note:
+  - We compare published insurance AI market estimates, which count incumbent and specialist vendors alike.
+  - We round each figure for display and use the exact published values to build our central demand estimate.
+ed014:
+  items:
+  - e: 🎯
+    t: When a pricing model spots profitable risks instead of one flat rate for every firm
+  - e: ⏱️
+    t: When an underwriter reads a clean summary instead of sorting emails and long files
+  - e: 🚗
+    t: When damage photos support an auto claim estimate before a field visit is needed
+  - e: 🔍
+    t: When fraud models find suspicious links that a fixed rule might not catch
+  - e: 🤖
+    t: When AI agents finish policy service jobs while routing exceptions to staff
+  - e: 💰
+    t: When claims are resolved faster and carriers spend less per simple case
+  - e: 🛡️
+    t: When the risk of AI failures is tested, priced and covered with clear policy terms
+  - e: 📈
+    t: When carriers can quote more submissions without growing each team at the same pace
+ed011:
+  24: 'Property and
+
+    Casualty'
+ed061:
+  7: 'LARGE
+
+    INSURERS'
+  9: 'SMALLER
+
+    INSURERS'
+  11: 'BROKERS
+
+    AND MGAS'
+  13: 'POLICY
+
+    HOLDERS'
+  8: Small and mid-size carriers with lean risk teams, limited IT budgets and few AI staff
+ed059:
+  14: 'Claim
+
+
+    queues'
+ed063-s4:
+  27: POLICY HOLDERS
+ed064-s4:
+  13: POLICY HOLDERS
+ed065-s4:
+  subtitle: Policy holders
+ed088:
+  10: AI agents move cases between steps, while staff review sensitive decisions
+ed019:
+  categories:
+  - label: 'LARGE
+
+      INSURERS'
+    description: Helping big carriers route huge claim volumes and meet strict risk rules
+    e: 🏢
+  - label: 'SMALL AND MID
+
+      INSURERS'
+    description: Giving smaller carriers AI tools without an in-house data science team
+    e: 🏠
+  - label: 'BROKERS
+
+      AND MGAS'
+    description: Helping agents quote fast, compare policies and run specialty programs
+    e: 👥
+  - label: 'POLICY
+
+      HOLDERS'
+    description: Selling simpler cover, faster claims and clearer answers to buyers
+    e: 🛡️
+  - label: 'RISK
+
+      BACKERS'
+    description: Reinsurers modeling shared cyber and disaster risk across insured firms
+    e: 🌍
+  - label: 'AI
+
+      COMPANIES'
+    description: Insuring firms that deploy AI agents against model errors and failures
+    e: 🤖
+  type: sx_categories_n
+ed020:
+  categories:
+  - label: 'SOFTWARE
+
+      LICENSE'
+    description: Selling AI software access to insurers, brokers or claims teams
+    e: 💻
+  - label: 'SERVICE
+
+      PER TASK'
+    description: Charging for each claim, document or request that AI processes
+    e: 📄
+  - label: 'INSURANCE
+
+      PREMIUM'
+    description: Issuing or arranging policies and keeping part of the premium
+    e: 💰
+  - label: 'BROKER
+
+      COMMISSION'
+    description: Earning a carrier commission on each policy sold through AI tools
+    e: 🤝
+  - label: 'DATA AND
+
+      MODELS'
+    description: Licensing risk data and models that insurers use to price and plan
+    e: 📊
+  - label: 'HYBRID
+
+      MODEL'
+    description: Mixing insurance cover with risk monitoring, software or claims work
+    e: 🔀
+  type: sx_categories_n
+ed190:
+  growth:
+    36:
+      pts:
+      - - 7.3
+        - 1.0
+    37:
+      pts:
+      - - 4.5
+        - 3.5
+      - - 5.5
+        - 5.0
+    38:
+      pts:
+      - - 2.3
+        - 1.3
+      - - 2.4
+        - 2.6
+      - - 2.7
+        - 5.0
+    39:
+      pts:
+      - - 4.5
+        - 1.5
+    41:
+      at:
+      - 400
+      - 130
+  12: $8B
+  10: $4B
+  39: 'NIRVANA
+
+    $1.5B'
+ed183:
+  regions:
+    apac:
+      name: ASIA
+      text: Papaya in Singapore sells claims AI to insurers, already used in Thailand and Indonesia.
+      at:
+      - 610
+      - 430
+    au:
+      name: AUSTRALIA
+      text: Australia has upcover, an AI-enabled broker, and is a new Asia Pacific base for Federato, which opened a Sydney office.
+    eu:
+      name: EUROPE
+      text: Europe hosts Shift Technology in France and hyperexponential in the UK, which Guidewire agreed to buy for up to $2.1B.
+    na:
+      name: NORTH AMERICA
+      text: North America has Corgi, Coalition, Federato, Sixfold and AIUC. Their models span insurance software, cyber risk and AI cover.
+ed215:
+  tag: null
+ed216:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://media.kkr.com/news-details?linkId=938690604&news_id=7616091e-dca4-455d-aedc-bcc70d512bf5
+    7: https://outmarket.ai/blog/outmarket-raises-34.5-million-series-b-four-months-after-our-series-a
+    10: https://content.naic.org/insurance-topics/artificial-intelligence
+    13: https://www.eiopa.europa.eu/eiopa-survey-generative-ai-shows-swift-cautious-adoption-among-europes-insurers-2026-02-02_en
+    16: https://jdpower.com/business/press-releases/2026-us-auto-insurance-study
+  3: 'Reserv, $125M
+
+    Series C'
+  4: KKR's release on Reserv's $125M Series C, with $100M of yearly recurring revenue
+  5: We used it for Reserv's round, revenue and client count. It also showed how AI claims services scale.
+  7: 'Outmarket,
+
+    $34.5M Series B'
+  8: Outmarket's post on its Series B and its use by over 300 agencies and 10,000 users
+  9: We used it for broker AI adoption. It also dated the fast pace of rounds in insurance AI agents.
+  10: 'NAIC, AI in
+
+    insurance'
+  11: The NAIC page on its model AI bulletin and the AI tool piloted by 12 states
+  12: We used it for the US rules on insurer AI. It also backed the need for human review and audits.
+  13: 'EIOPA, survey
+
+    on generative AI'
+  14: EIOPA's survey of European insurers on how they use generative AI
+  15: We used it for the share of projects still in pilots. It also gave the main barriers to adoption.
+  16: 'J.D. Power, 2026
+
+    auto insurance study'
+  17: J.D. Power's 2026 US auto insurance study on what customers understand and expect
+  18: We used it for policyholder pain points. It also showed how many shoppers now use AI tools.
+ed217:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.eiopa.europa.eu/eiopa-publishes-opinion-ai-governance-and-risk-management-2025-08-06_en
+    7: https://www.armilla.ai/resources/armilla-launches-affirmative-ai-liability-insurance-with-lloyds-underwriter-chaucer
+    10: https://www.sec.gov/Archives/edgar/data/1691421/000169142126000016/lmnd-20251231.htm
+    13: https://withpace.com/news/next-century
+    16: https://www.shift-technology.com/resources/case-studies/customer-stories/going-beyond-business-rules-to-improve-accuracy
+  3: 'EIOPA, opinion on
+
+    AI governance'
+  4: EIOPA's 2025 opinion on how insurers should govern and control their AI systems
+  5: We used it for European rules and high-risk pricing in life and health. It also backed the regulation timeline.
+  7: 'Armilla, AI
+
+    liability cover'
+  8: Armilla's release on its standalone AI liability policy backed by Lloyd's underwriters
+  9: We used it for the birth of insurance for AI failures. It also dated the AI risk cover segment.
+  10: 'Lemonade,
+
+    2025 annual report'
+  11: Lemonade's 2025 annual report filed with the SEC, with its claims automation figures
+  12: We used it for the 55% of claims automated and AI Jim. It also gave the yardstick of an AI-first insurer.
+  13: 'Pace, $46M
+
+    Series B'
+  14: Pace's release on its Series B and the 250,000 insurance tasks its agents completed
+  15: We used it for AI agents in live service work at Palomar and Prudential. It also dated the agents boom.
+  16: 'Shift Technology,
+
+    fraud case'
+  17: Shift Technology's case study of a US insurer running 15,000 claims a month through its tool
+  18: We used it for fraud detection in live claims. It also gave the 73% more fraud flagged than rules.
+ed218:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.dfs.ny.gov/industry-guidance/circular-letters/cl2024-07
+    7: https://tractable.ai/tractable-becomes-worlds-first-computer-vision-unicorn-for-financial-services
+    10: https://www.ledgebrook.com/press-release/ledgebrook-raises-usd-200-million
+    13: https://www.prnewswire.com/news-releases/corgi-insurance-raises-108-million-receives-regulatory-approval-to-launch-the-first-full-stack-insurance-carrier-for-startups-302657727.html
+    16: https://kalepa.com/news-posts/kalepa-raises-75-million-series-b
+  3: 'New York DFS,
+
+    AI circular letter'
+  4: New York DFS circular letter on insurers' use of AI and outside data in pricing
+  5: We used it for bias testing and insurer liability for vendor models. It also backed the fairness risks.
+  7: 'Tractable,
+
+    $60M Series D'
+  8: Tractable's release on its $60M Series D that made it a unicorn in 2021
+  9: We used it for the growth of photo-based car damage AI. It also dated the 2020 to 2022 phase.
+  10: 'Ledgebrook,
+
+    $200M round'
+  11: Ledgebrook's release on its $200M round co-led by Allianz X
+  12: We used it for the largest round since 2024 and its Blackbird pricing AI. It also backed the Ledgebrook case.
+  13: 'Corgi, $108M
+
+    and carrier license'
+  14: Corgi's release on its $108M raise and approval to run its own insurance carrier
+  15: We used it for the rise of AI-native insurers. It also dated Corgi before its later rounds.
+  16: 'Kalepa,
+
+    $75M Series B'
+  17: Kalepa's release on its $75M Series B, with revenue and clients tripled in a year
+  18: We used it for underwriting AI growth and insurer results. It also backed a market signal.
+ed219:
+  0: SOURCE
+  1: WHY WE TRUST IT
+  2: HOW WE USED IT
+  section: Sources
+  tag: null
+  links:
+    3: https://www.federato.ai/articles/federato-raises-100-million-series-d-led-by-goldman-sachs
+    7: https://www.insurancejournal.com/news/national/2026/09/24/886639.htm
+    10: https://www.sixfold.ai/about-us
+    13: https://www.fortunebusinessinsights.com/ai-in-insurance-market-114760
+    16: https://www.coalitioninc.com/en-us/announcements/coalition-closes-250-million-in-series-f-funding
+  3: 'Federato,
+
+    $100M Series D'
+  4: Federato's release on its $100M Series D led by Goldman Sachs Alternatives
+  5: We used it for investor demand for AI underwriting. It also dated the market getting hot in 2025.
+  7: 'Insurance Journal,
+
+    agency AI survey'
+  8: Insurance Journal's report on the 2026 agency technology survey
+  9: We used it for AI use by agencies, up from 15% to 46%. It also gave brokers' main barriers.
+  10: 'Sixfold,
+
+    about us'
+  11: Sixfold's company page with its 1.5M submissions and 50 lines of business
+  12: We used it for underwriting AI in production. It also backed the myths and the truths that flipped.
+  13: 'Fortune Business
+
+    Insights, AI market'
+  14: Fortune Business Insights' AI in insurance market report, with 2025 regional values
+  15: We used it for the market size, the growth rate and the split by region. It is one of our four forecasts.
+  16: 'Coalition,
+
+    $250M Series F'
+  17: Coalition's release on its $250M Series F that valued it at $5B in 2022
+  18: We used it for the growth of cyber insurers built on AI. It also gave Coalition's line on the growth chart.
+ed032:
+  5: Insurers using AI more than doubled to 62% in two years
+  7: Big groups agreed to buy four insurance AI firms in 2026
+  9: Lemonade’s AI now handles 82% of customer service
+  11: Kalepa tripled its revenue and clients in one year
+  13: 63% of firms say attacks made with AI are not covered
+  15: 36% of consumers would edit a claim photo
+  19: Lemonade’s revenue grew 73% in one year
+  note: We selected seven recent signals that combine insurer adoption, deals, growth and new risks. Each one is shown in detail on the next seven slides.

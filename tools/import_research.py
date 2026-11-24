@@ -21,7 +21,9 @@ def tidy_numbers(v):
     $10B or more -> no decimal, under $10B -> one decimal at most, same for M and K; a share keeps one decimal at most"""
     def amt(m):
         x = float(m.group(1).replace(',', '')); u = m.group(2)
-        r = f'{x:.0f}' if x >= 10 else f'{x:.1f}'.rstrip('0').rstrip('.')
+        from decimal import Decimal, ROUND_HALF_UP   # $64.5M -> $65M: Python's « :.0f » rounds half to even and gave $64M (AI drug discovery, 20 Nov 2026)
+        d = Decimal(m.group(1).replace(',', ''))
+        r = str(d.quantize(Decimal('1'), ROUND_HALF_UP)) if x >= 10 else str(d.quantize(Decimal('0.1'), ROUND_HALF_UP)).rstrip('0').rstrip('.')
         return '$' + r + u
     v = re.sub(r'\$(\d+\.\d+)(B|M|K)\b', amt, v)
     v = re.sub(r'\$(\d+)\.0(B|M|K)\b', r'$\1\2', v)   # « $1.0B » -> « $1B »
@@ -110,6 +112,7 @@ def check(sid, model, ans):
 
 OUTDIR = None
 MISSING = set()
+WORDMARK = set()     # companies whose only nmp-logos file is a wide wordmark: ask Pierre for a square symbol
 
 
 def slugify(n):
@@ -120,12 +123,14 @@ DOMAINS = {}          # company name (lower case) -> website domain, read from t
 _GLOBE = None
 
 
+NO_FAVICON = {'moonpay.com'}   # sites whose favicon is not their logo (MoonPay's is Vercel's triangle, Stablecoin payments, 22 Nov 2026): initials until Pierre sends the logo
 def fetch_logo(domain, slug):
     """square logo from the site's own favicon (Google favicon service, 256 px), the way the In Vivo logos were checked (12 Nov 2026).
     Only the domain name leaves the machine. The generic globe returned for unknown sites is refused."""
     import hashlib, subprocess, tempfile
     from PIL import Image
     global _GLOBE
+    if re.sub(r'^https?://(www\.)?|/.*$', '', domain) in NO_FAVICON: return False
     def get(d):
         f = tempfile.mktemp(suffix='.png')
         r = subprocess.run(['curl', '-sSL', '-m', '15', '-o', f, f'https://www.google.com/s2/favicons?domain={d}&sz=256'], capture_output=True)
@@ -140,6 +145,10 @@ def fetch_logo(domain, slug):
     except Exception: return False
     if im.width < 96: return False
     bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im)
+    _px = hashlib.md5(bg.convert('RGB').tobytes()).hexdigest()   # the same picture on two sites is a host's icon (MoonPay showed Vercel's triangle, 22 Nov 2026)
+    for o in (ROOT / 'assets/logos/fav').glob('*.png'):
+        if o.stem != slug and hashlib.md5(Image.open(o).convert('RGB').tobytes()).hexdigest() == _px:
+            print(f'FAVICON SHARED: {slug} ({domain}) has the same favicon as {o.stem}: a host icon, refused (add the domain to NO_FAVICON)'); return False
     (ROOT / 'assets/logos/fav').mkdir(parents=True, exist_ok=True); bg.convert('RGB').save(ROOT / 'assets/logos/fav' / f'{slug}.png'); print('logo fetched from favicon:', slug, domain)
     return True
 
@@ -167,6 +176,12 @@ def base_site(name):
 
 import os as _os
 NL = Path(_os.environ.get('NMP_LOGOS') or ROOT.parent / 'nmp-logos')     # githpierre/nmp-logos, cloned next to nmp-decks (LOGOS.md)
+def _wide(p):
+    try:
+        from PIL import Image as _I
+        bb = _I.open(p).getbbox(); return bool(bb) and (bb[2] - bb[0]) > 2.5 * (bb[3] - bb[1])
+    except Exception: return False
+
 def nmp_logo(name, domain=''):
     """nmp-logos lookup (find_logo.logo) -> copy into assets/logos/<id>.png (or <id>--symbol.png), the public copy the decks load.
     Same file names as nmp-logos/tools/decks_sync.py: a later sync sees it as already migrated."""
@@ -179,8 +194,18 @@ def nmp_logo(name, domain=''):
         p = _fl(name, domain=domain or None, symbol=True)   # deck logos sit in square tiles: the --symbol file when the full logo is a wide wordmark (Function Health unreadable on Longevity, 18 Nov 2026)
     except Exception as e:
         print('find_logo:', e); return None
-    if not p: return None
-    p = Path(p); dst = ROOT / 'assets/logos' / p.name
+    if not p:     # one company under two ids in nmp-logos (same domain) made the lookup give up: Pear Therapeutics drew a "P" tile (MedTech, 23 Nov 2026)
+        try:
+            from find_logo import find as _ff
+            ids = sorted({r['id'] for r in _ff(domain or name) if r.get('quality') != 'missing'})
+            if len(ids) > 1: print(f'  LOGO AMBIGUOUS {name}: {", ".join(ids)} share this name or domain in nmp-logos; merge them if they are one company')
+        except Exception: pass
+        return None
+    p = Path(p)
+    try:     # RULES « wordmarks (content wider than 2.5x its height) are refused »: it was not checked, PaleBlueDot showed a blank tile (Neocloud S09, 19 Nov 2026)
+        if _wide(p): WORDMARK.add(name); return None
+    except Exception: pass
+    dst = ROOT / 'assets/logos' / p.name
     if not dst.exists() or dst.read_bytes() != p.read_bytes(): shutil.copy(p, dst)
     return f'../../assets/logos/{p.name}'
 
@@ -195,8 +220,9 @@ def logo(name, deck_rel=True):
     cands += [short, short + '-therapeutics', short + '-bio', short + '-biopharma', short + '-robotics', short + '-ai']
     nl = nmp_logo(name, domain)                  # githpierre/nmp-logos first, the only place for logos (Pierre, 18 Nov 2026, LOGOS.md)
     if nl: return nl
-    for c in cands:
-        if (ROOT / 'assets/logos' / f'{c}.png').exists(): return f'../../assets/logos/{c}.png'
+    for c in cands:     # a wide wordmark left in the generated copy is refused here too (same rule as nmp_logo)
+        q = ROOT / 'assets/logos' / f'{c}.png'
+        if q.exists() and not _wide(q): return f'../../assets/logos/{c}.png'
     # (no more lookups in nmp-pages / nmp-product-pages: their logo folders are frozen, 18 Nov 2026, nmp-logos/LOGOS.md)
     for c in cands:
         if (ROOT / 'assets/logos/pp' / f'{c}.png').exists(): return f'../../assets/logos/pp/{c}.png'
@@ -409,6 +435,16 @@ def main():
             if y['id'] in LV: S[j] = {**{k: y[k] for k in ('id', 'type', 'section') if k in y}, **LV[y['id']]}
         for k in LV:
             if not any(y['id'] == k for y in S): print('live.yaml: slide not in deck', k)
+    def _strs(x, k=''):                          # « ai » written in lower case is an acronym lost by a reading of the live page (AI in drug discovery, 20 Nov 2026:
+        if isinstance(x, dict):                  # « slow ai drug discovery down » in two notes)
+            for kk, v in x.items():
+                if kk not in ('term', 'src', 'url', 'logo'): yield from _strs(v, kk)
+        elif isinstance(x, list):
+            for v in x: yield from _strs(v, k)
+        elif isinstance(x, str): yield x
+    for y in S:
+        for t_ in _strs(y):
+            if re.search(r'(?<![\w/.@-])ai(?![\w/.-])', t_): print('LOWERCASE AI', y.get('id'), '|', t_[:80])
     sf = out / 'sources_slides.yaml'             # full list of sources (tools/build_sources.py), after the key-source slides
     if sf.exists():
         for e in yaml.safe_load(sf.read_text()) or []:
@@ -423,6 +459,7 @@ def main():
             if not e.get('link') or str(e['link']).startswith('TO WRITE'):                  # RULES.md « liant » : the slide before must announce the extra slide
                 print('extra slide: no link written for', e['slide'].get('id'), '(say which phrase of', e['after'], 'leads to it)')
             S.insert(i + 1, e['slide'])
+            if e.get('sources'): sources[e['slide']['id']] = e['sources']   # an extra slide's sources join the sources list (Neocloud, 19 Nov 2026: they were left out)
     # SIGNAL slides show momentum NOW (Pierre, 12 Nov 2026): each one states the period of its newest figure in `fresh: {period, end: YYYY-MM}`
     #   month: at most 6 months old ; quarter: 9 months ; half: 12 months ; total (cumulative proof at a date): 12 months ;
     #   year: the current year (an estimate « should sell… » derived from the published months, explained in the note) or last year until April 30.
@@ -441,6 +478,13 @@ def main():
         if isinstance(v, list): return [_semi(b, k) for b in v]
         return v
     S = [_semi(x) for x in S]
+    # page 2/2 shows the title of its page 1/2: ed205 (base rounds) kept the model's « Which startups scored big recently? » under
+    # ed204's « Which natural hydrogen startups scored big recently? » in every deck (Natural hydrogen, 21 Nov 2026)
+    _pairs = {'ed205': 'ed204'}
+    _byid = {x['id']: x for x in S}
+    for b_, a_ in _pairs.items():
+        if b_ in _byid and a_ in _byid and _byid[a_].get('title') and re.sub(r'\s+', ' ', str(_byid[b_].get('title'))) != re.sub(r'\s+', ' ', str(_byid[a_]['title'])):
+            print('PAGE TITLE', b_, '<-', a_, repr(_byid[a_]['title'])[:70]); _byid[b_]['title'] = _byid[a_]['title']
     _talk()
     _given = set()                               # content given by live.yaml, db.yaml, edits.yaml or extras.yaml
     for f_ in ('live.yaml', 'db.yaml', 'edits.yaml'):
@@ -493,12 +537,25 @@ def main():
     _ids = [y.get('id') for y in S]   # « What is behind these categories? » explains the split by category just before it: without that slide it has nothing to explain (Pierre, 18 Nov 2026, Longevity)
     if 'ed048' in _ids and not any(i in _ids for i in ('ed047p', 'ed047')):
         S[:] = [y for y in S if y.get('id') != 'ed048']; print('slide dropped (no category split before it): ed048')
+    _dn = next((y for y in S if y.get('id') in ('ed047p', 'ed047') and y.get('cats')), None)   # ... and it explains EVERY category of that split, in its order
+    if _dn and 'ed048' in _ids:                                                          # (Pierre, 19 Nov 2026, Neocloud: 6 categories on the donut, 3 behind it)
+        _bh = [y for y in S if str(y.get('id', '')).startswith('ed048')]
+        _lab = [' '.join(str(v).split()).lower() for y in _bh for k, v in sorted((y.get('t') or {}).items(), key=lambda kv: int(kv[0])) if int(k) in (5, 8, 10) and str(v).strip()]
+        _cat = [str(c.get('name', '')).strip().lower() for c in _dn['cats']]
+        if _lab != _cat: print('CATEGORIES MISMATCH ed048:', _lab, 'vs donut', _cat, ': one card per donut category, same order (3 per page, pages ed048 1/2 + ed048-2 2/2 in extras.yaml)')
     def _two(t):
         w = t.split(); k = min(range(1, len(w)), key=lambda i: abs(len(' '.join(w[:i])) - len(' '.join(w[i:])))); return ' '.join(w[:k]) + '\n' + ' '.join(w[k:])
     for x in S:                  # segment dividers of one chapter: the name always on 2 balanced lines, so every divider of the series has the same number of lines (Pierre, 18 Nov 2026: « soit 3 lignes partout soit 4 »)
         if x.get('type') == 'x/divider_3' and isinstance((x.get('t') or {}).get(3), str):
             t = x['t'][3].replace('\n', ' ').strip()
             if len(t.split()) >= 2: x['t'][3] = _two(t)
+    for i, x in enumerate(S):    # the card labels of a series (1/2, 2/2) share one line count: when one page needs 2 lines, every label of the series goes on 2 balanced lines
+        m = re.fullmatch(r'1/(\d)', str(x.get('page') or ''))   # (Pierre, 19 Nov 2026, Neocloud « What is behind these categories? »: 1 line on page 1, 2 on page 2)
+        if not m or not str(x.get('type', '')).startswith('x/'): continue
+        G = [y for y in S[i:i + int(m.group(1))] if y.get('type') == x.get('type')]
+        L = [(y, k) for y in G for k, v in (y.get('t') or {}).items() if isinstance(v, str) and v.strip() and len(v) <= 40 and v == v.upper() and re.search('[A-Z]', v) and len(v.split()) >= 2]
+        if len(G) > 1 and any('\n' in y['t'][k] for y, k in L):
+            for y, k in L: y['t'][k] = _two(' '.join(y['t'][k].split()))
     for x in S:                  # a converted chart with fixed geometry needs its data (14 Nov 2026: the valuation lines of the original PowerPoint were shown in two decks)
         if x.get('type') == 'x/fast_startups_growing' and not x.get('growth'): print('FIXED CHART', x.get('id'), x['type'], ': give `growth: {36: {pts: [[years since founding, value], …]}, 37: …}` in edits.yaml, or drop the slide')
         if x.get('type') == 'x/broke_these_startups_did_each' and a.model and not x.get('drop'): print('FIXED CHART', x.get('id'), x['type'], ': its cause dots are drawn for the reference market, use the live S11 twin (pp_killers) or drop the slide (18 Nov 2026, Advanced Nuclear)')
@@ -511,7 +568,7 @@ def main():
             if not m: continue
             _ed = (_EDITS.get(_id) or {})   # an icon written in edits.yaml is a choice, even when it equals the model's
             pairs = [(k, v) for k, v in (x.get('t') or {}).items() if isinstance(v, str) and len(v) <= 3 and v == (m.get('t') or {}).get(k) and k not in _ed]
-            pairs += [(k, x[k]) for k in ('icon_tl', 'icon') if x.get(k) and x.get(k) == m.get(k)]
+            pairs += [(k, x[k]) for k in ('icon_tl', 'icon') if x.get(k) and x.get(k) == m.get(k) and k not in _ed]
             for k, v in pairs:
                 if re.search('[\U0001F300-\U0001FAFF\u2600-\u27BF]', v) and v.strip() not in GENERIC_ICONS: print('MODEL ICON LEFT', x['id'], k, v)
     if a.model_name:             # the reference market's name left in slides nobody rewrote (agenda kicker, sources divider…) becomes the new name
@@ -554,6 +611,11 @@ def main():
             if 'capitals' not in p_ and not (x.get('id') in _DBIDS and 'too short' in p_): print('TEXT LENGTH', p_)
     _PLC = set('INDIA CHINA JAPAN TAIWAN ISRAEL UK US FRANCE GERMANY SWITZERLAND NORDICS CANADA BRAZIL MEXICO UAE AFRICA AUSTRALIA SINGAPORE'.split()) | {'JAPAN AND KOREA', 'SOUTH KOREA', 'UNITED KINGDOM', 'UNITED STATES', 'SAUDI ARABIA', 'SOUTHEAST ASIA', 'NEW ZEALAND',
             'NORTH AMERICA', 'EUROPE', 'ASIA-PACIFIC', 'MIDDLE EAST & AFRICA', 'LATIN AMERICA'}
+    for x in S:                  # a step label is the text before the blank line: a line break inside it pushes its 2nd word into the body text (AI in insurance, 22 Nov 2026, iv_fda and iv_safety)
+        for k, v in (x.get('t') or {}).items():
+            if isinstance(v, str) and '\n\n' in v:
+                head = v.split('\n\n')[0]
+                if sum(1 for l in head.split('\n') if any(c.isalpha() for c in l)) > 1 and head.upper() == head: print('LABEL SPLIT', x.get('id'), k, repr(head), ': write the label on one line, the box wraps it')
     for x in S:                  # a renamed map region must be a place the map knows, so its dot moves with it (14 Nov 2026)
         for k, r in ((x.get('regions') or {}).items() if x.get('type') == 'worldmap' else []):
             nm = str(r.get('name') or '').upper().split(' - ')[0].strip()
@@ -571,6 +633,19 @@ def main():
         fam = lambda y: (lambda b: 'dated' if b in DATED else b)(re.sub(r'^x/|_\d$', '', str(y.get('type'))))
         if len({fam(y) for y in G}) > 1 or len({cnt(y) for y in G}) > 1:
             print('SERIES MIXED', ' '.join(f"{y.get('id')}={y.get('type')}:{cnt(y)}" for y in G), ': one design and one count on every page (never `page: null` to silence this)')
+        # same family but another converted PowerPoint (« where_value_created_today » and « …_2 »): same keys, different box
+        # sizes, so the boxes of page 2/2 were narrower than on 1/2 (Pierre, 20 Nov 2026, AI drug discovery 91-92, asked
+        # many times). Every page of a series now takes the design of its first page when the keys are the same.
+        _ty = {str(y.get('type')) for y in G}
+        if len(_ty) > 1 and len({fam(y) for y in G}) == 1 and all(t.startswith('x/') for t in _ty):
+            _keys = lambda t: frozenset(re.findall(r'data-k="(\w+)"', (ROOT / 'templates/slides' / (t + '.j2')).read_text())) if (ROOT / 'templates/slides' / (t + '.j2')).exists() else None
+            if len({_keys(t) for t in _ty}) == 1:
+                for y in G[1:]: y['type'] = G[0]['type']
+            else:     # other keys (dated timelines): the text boxes must still have the same places and widths
+                _geo = lambda t: sorted((round(float(a) / 3), round(float(b) / 3)) for a, b in re.findall(r'data-k="\w+" style="left:[\d.]+px;top:([\d.]+)px;width:([\d.]+)px', (ROOT / 'templates/slides' / (t + '.j2')).read_text()))
+                _b = {re.sub(r'_\d$', '', t) for t in _ty}
+                if len(_b) == 1 and len({tuple(_geo(t)) for t in _ty}) > 1:
+                    print('SERIES GEOMETRY', ' '.join(f"{y.get('id')}={y.get('type')}" for y in G), ': the pages of one series have text boxes of different widths: align the templates on page 1')
     (out / 'deck.yaml').write_text(yaml.dump(D, allow_unicode=True, sort_keys=False, width=1000))
     (out / 'sources.yaml').write_text(yaml.dump(sources, allow_unicode=True, sort_keys=False, width=1000))
     bad = [(k, p) for k, p in rep if p]
@@ -578,7 +653,8 @@ def main():
     for e in errs: md.append(f'- YAML error {e[0]}: {e[1]}')
     for k, p in bad: md.append(f'- **{k}**: ' + '; '.join(p))
     (out / 'research_report.md').write_text('\n'.join(md) + '\n')
-    (out / 'logos_missing.txt').write_text('\n'.join(sorted(n for n in MISSING if not n.startswith('?'))) + '\n')
+    (out / 'logos_missing.txt').write_text('\n'.join(sorted(n for n in MISSING if not n.startswith('?'))) + '\n'
+        + ''.join(f'{n} (wordmark only in nmp-logos: a square symbol is needed)\n' for n in sorted(WORDMARK)))
     print(len(MISSING), 'logos missing;', len(S), 'slides;', len(R), 'answers;', len(errs), 'yaml errors;', len(bad), 'with remarks ->', out / 'research_report.md')
 
 

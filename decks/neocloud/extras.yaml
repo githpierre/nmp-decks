@@ -1,5 +1,5 @@
 - after: ed104
-  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  link: Multiyear take-or-pay deals with strong clients (ed104, signed contracts)
   slide:
     id: pp_s06
     type: pp_value
@@ -49,3 +49,420 @@
     note:
     - We placed each company by how its business model works, from pricing pages and filings
     - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xn_cw_rev
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'CoreWeave’s quarterly sales grew
+
+      2.7 times in one year, to $3.7B'
+    t:
+      9: $1.4B
+      10: Q3 2025
+      12: $3.7B
+      13: Q3 2026
+      15: ×2.7
+      16: WHY IT IS HOT
+      17: 'The largest neocloud turns GPU demand into sales faster than ever: CoreWeave sold $3.7B in the third quarter of 2026, up 168% in a
+        year.
+
+
+        These are sales already earned, not the value of signed contracts, which is far larger.'
+    vbars:
+    - 1.365
+    - 3.661
+    note: We compared CoreWeave’s revenue for the quarters to September 30, 2025 and 2026, from its 10-Q filed on November 13, 2026
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: CoreWeave Q3 sales up 168%
+    url: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm
+    date: '2026-11-13'
+    quote: Revenue for the three months ended September 30, 2026 increased by $2.3 billion, or 168%, compared to the three months ended September
+      30, 2025.
+- after: xn_cw_rev
+  link: ed032, signal 2 of the list
+  slide:
+    id: xn_nb_arr
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Nebius doubled its yearly revenue
+
+      pace in one quarter, to $6.4B'
+    t:
+      9: $3B
+      10: Jun 2026
+      12: $6.4B
+      13: Sep 2026
+      15: ×2.1
+      16: WHY IT IS HOT
+      17: 'Big AI cloud contracts go live fast: Nebius’s yearly revenue pace rose from $3B at the end of June to $6.4B at the end of September
+        2026.
+
+
+        A revenue pace is a month of sales times twelve, not a full year. Nebius expects it to pass $7B in February.'
+    vbars:
+    - 3.0
+    - 6.4
+    note: We used Nebius’s letter of November 12, 2026 for its run-rate at the end of June and of September
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: Nebius run-rate $6.4B, up 113% from $3B
+    url: https://assets.nebius.com/assets/24c6bfb3-c90e-4076-9fe9-c2ab736b51ec/Nebius-SHL-2026-Q3.pdf
+    date: '2026-11-12'
+    quote: Annualized run-rate revenue (ARR) of $6.4 billion as of the end of September
+- after: xn_nb_arr
+  link: ed032, signal 3 of the list
+  slide:
+    id: xn_deals
+    type: sx_league
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Six AI cloud deals, from $2.8B
+
+      to $45B, were signed in ten months'
+    big: '6'
+    h0: CLOUD AND CLIENT
+    h1: RANK
+    h2: UP TO
+    kicker: WHY IT IS HOT
+    rows:
+    - n: 1
+      name: Nscale + Anthropic
+      src: ../../assets/logos/nscale.png
+      v: $45B
+      what: About 460 MW for six years, August 2026
+    - n: 2
+      name: Nebius + Meta
+      src: ../../assets/logos/nebius--symbol.png
+      v: $27B
+      what: Dedicated AI capacity, March 2026
+    - n: 3
+      name: CoreWeave + Meta
+      src: ../../assets/logos/coreweave.png
+      v: $21B
+      what: AI cloud capacity to 2032, April 2026
+    - n: 4
+      name: IREN + Microsoft
+      src: ../../assets/logos/iren.png
+      v: $9.7B
+      what: Five-year GPU cloud deal, November 2025
+    - n: 5
+      name: IREN + Nvidia
+      src: ../../assets/logos/iren.png
+      v: $3.4B
+      what: Five-year cloud contract, May 2026
+    - n: 6
+      name: IREN + AI developers
+      src: ../../assets/logos/iren.png
+      v: $2.8B
+      what: Several new clients combined, mid-2026
+    story: The biggest AI buyers now book years of computing from specialist clouds, a sign of a hot market. These are top contract values over
+      different lengths, not this year’s sales.
+    note:
+    - We listed six deals disclosed by the clouds from November 2025 to August 2026, each at
+    - its highest contract value. Delivery terms still apply, so not all of it will be paid
+    fresh:
+      period: month
+      end: 2026-08
+  sources:
+  - claim: IREN and Microsoft, $9.7B
+    url: https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft
+    date: '2025-11-03'
+    quote: with a total contract value of approximately $9.7 billion
+  - claim: Nebius and Meta, up to $27B
+    url: https://www.sec.gov/Archives/edgar/data/1513845/000110465926027886/tm268879d1_6k.htm
+    date: '2026-03-16'
+    quote: The Agreement and the initial Orders thereunder have a total contract value of up to approximately $27 billion.
+  - claim: CoreWeave and Meta, about $21B
+    url: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000154/ex991.htm
+    date: '2026-04-09'
+    quote: to provide AI cloud capacity through December 2032 for approximately $21 billion.
+  - claim: IREN and Nvidia, $3.4B
+    url: https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-34bn-ai-cloud-contract-nvidia
+    date: '2026-05-07'
+    quote: The total value of the five-year contract is approximately $3.4 billion.
+  - claim: IREN developer clients, $2.8B
+    url: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm
+    date: '2026-08-30'
+    quote: representing approximately $2.8 billion in aggregate total contract value.
+  - claim: Nscale and Anthropic, up to $44.6B
+    url: https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm
+    date: '2026-09-18'
+    quote: The Anthropic Services Agreements provide for aggregate payments to us of up to approximately $44.6 billion.
+- after: xn_deals
+  link: ed032, signal 4 of the list
+  slide:
+    id: xn_iren
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'IREN has $20B booked, against
+
+      $200M of quarterly cloud sales'
+    items:
+    - value: $20B
+      label: Revenue backlog at the end of September 2026, up 22% in a single quarter
+    - value: $200M
+      label: AI cloud sales in the quarter to September 30, 2026, up 182% from the quarter before
+    - value: $4B+
+      label: Yearly revenue pace that IREN says is already fully contracted and funded
+    why: This is a sign of a hot market because a former bitcoin miner now has booked demand about 100 times its quarterly cloud sales. Most of
+      that backlog still depends on GPUs going live.
+    note: We used IREN’s results of November 5, 2026 for the quarter to September 30, 2026
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: IREN backlog $20.3B
+    url: https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results
+    date: '2026-11-05'
+    quote: Revenue backlog increased 22% sequentially to $20.3 billion
+  - claim: IREN AI cloud sales $200M
+    url: https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results
+    date: '2026-11-05'
+    quote: AI Cloud quarterly revenue increased 182% sequentially to $200 million
+  - claim: IREN $4B revenue pace target
+    url: https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results
+    date: '2026-11-05'
+    quote: target is fully contracted and fully funded
+- after: xn_iren
+  link: ed032, signal 5 of the list
+  slide:
+    id: xn_baseten
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Baseten’s AI requests grew 40 times
+
+      in a year, and its sales 20 times'
+    items:
+    - value: 40x
+      label: Growth of its inference volume, the AI requests it runs for apps, in the year to June 2026
+    - value: 20x
+      label: Growth of its revenue over the same year, as stated by the company
+    - value: $13B
+      label: Valuation reached with its $1.5B Series F, announced in June 2026
+    why: This is a sign of a hot market because apps now send far more AI requests to clouds that run models for them. These growth rates come
+      from the company, not from audited accounts.
+    note: We used Baseten’s Series F announcement of June 22, 2026 for all three figures
+    fresh:
+      period: month
+      end: 2026-06
+  sources:
+  - claim: Baseten revenue 20x and inference volume 40x
+    url: https://www.baseten.co/blog/announcing-our-series-f/
+    date: '2026-06-22'
+    quote: Over the last year, our revenue has grown 20x, and inference volume has grown 40x.
+  - claim: Baseten $1.5B Series F at $13B
+    url: https://www.baseten.co/blog/announcing-our-series-f/
+    date: '2026-06-22'
+    quote: Baseten raised a $1.5B Series F and achieved a $13B valuation
+- after: xn_baseten
+  link: ed032, signal 6 of the list
+  slide:
+    id: xn_prepay
+    type: sx_stat_strip
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Prepayments on Nebius’s new deals
+
+      now cover all of their build cost'
+    headline: Nebius contracts signed from July to September 2026
+    stats:
+    - v: 90%+
+      l: Of the contract value signed carried a prepayment
+    - v: 100%+
+      l: Of build spending paid by prepayments, up from 50-60%
+    - v: $12B+
+      l: Of contract value committed by clients since July 1
+    story: Clients now pay cash up front to secure AI capacity, a sign of a hot market. A prepayment funds the build, but the cloud still has
+      to deliver on time.
+    note:
+    - We used Nebius’s shareholder letter of November 12, 2026 for the third quarter,
+    - where a prepayment is cash paid early on a signed deal, not extra revenue
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: Over 90% of Q3 contract value with a prepayment
+    url: https://assets.nebius.com/assets/24c6bfb3-c90e-4076-9fe9-c2ab736b51ec/Nebius-SHL-2026-Q3.pdf
+    date: '2026-11-12'
+    quote: More than 90% of contract value signed in the third quarter carried a prepayment
+  - claim: Prepayments covered over 100% of capex
+    url: https://assets.nebius.com/assets/24c6bfb3-c90e-4076-9fe9-c2ab736b51ec/Nebius-SHL-2026-Q3.pdf
+    date: '2026-11-12'
+    quote: Prepayments on Q3 agreements covered more than 100% of the associated capex
+  - claim: Over $12B committed since Q3
+    url: https://assets.nebius.com/assets/24c6bfb3-c90e-4076-9fe9-c2ab736b51ec/Nebius-SHL-2026-Q3.pdf
+    date: '2026-11-12'
+    quote: our customers have committed over $12 billion in contract value to Nebius
+- after: ed132
+  link: ed132 card « Signed deals are not live revenue. Future clusters need grids and new builds »
+  slide:
+    id: xn_nscale
+    type: x/sig_dominance
+    section: Market challenges
+    title: 'Nscale has $103B of deals booked,
+
+      but only $2.6B of them are active'
+    t:
+      8: $103B
+      9: 'Signed in all,
+
+        on Aug 31, 2026'
+      11: $2.6B
+      12: 'Active on
+
+        Aug 31, 2026'
+      15: 2.5%
+      16: WHAT IS GOING ON
+      17: 'Nscale filed for a US listing with $103B of take-or-pay contracts, including its deal with Anthropic worth up to $45B.
+
+
+        Only $2.6B of that was active at the end of August 2026. The rest turns into sales once sites, power and GPUs are ready, and Nscale has
+        no binding funding yet for the Anthropic hardware.'
+    vbars:
+    - 103.4
+    - 2.6
+    note: We used Nscale’s IPO filing of September 18, 2026, with contract values at August 31, 2026. The gap is not a count of lost orders
+  sources:
+  - claim: Nscale $2.6B active of $103.4B contracted
+    url: https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm
+    date: '2026-09-18'
+    quote: These take-or-pay contracts, totaling $2.6 billion of active and $103.4 billion of active and contracted TCV as of August 31, 2026
+  - claim: Nscale has no binding funding for the Anthropic deal
+    url: https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm
+    date: '2026-11-12'
+    quote: we have not obtained binding commitments for any of the financings required to fund performance under the Anthropic Services Agreements
+- after: ed136
+  link: ed136 card « Site handoffs and testing delay when a new cluster can start to bill »
+  slide:
+    id: xn_halls
+    type: x/sig_announced_vs_built
+    section: Market challenges
+    title: 'Only one of the four halls in IREN’s
+
+      $9.7B Microsoft deal was accepted'
+    t:
+      8: '4'
+      9: 'Halls in the
+
+        Microsoft deal'
+      11: '1'
+      12: 'Accepted
+
+        in Aug 2026'
+      15: 1 of 4
+      16: WHAT IS GOING ON
+      17: 'IREN signed a five-year, $9.7B GPU cloud contract with Microsoft in November 2025, served from four halls in Texas.
+
+
+        Only Horizon 1 was delivered and accepted, in August 2026. Horizons 2 to 4 are due in phases in late 2026, so most of the deal is not
+        billed yet.'
+    vbars:
+    - 4
+    - 1
+    note: We used IREN’s annual report for the year to June 30, 2026, filed on August 30, 2026. The other halls had not failed, they were still
+      being built
+  sources:
+  - claim: Horizon 1 accepted by Microsoft
+    url: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm
+    date: '2026-08-30'
+    quote: Horizon 1 was delivered to, and accepted by, Microsoft in August 2026.
+  - claim: Horizons 2 to 4 due in Q4 2026
+    url: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm
+    date: '2026-08-30'
+    quote: Horizon 2-4 is targeted for delivery in phases in calendar Q4 2026
+- after: ed200
+  link: ed200 card « They fail when a single big buyer cuts its order »
+  slide:
+    id: xn_buyer
+    type: sx_faceoff
+    section: Startup killers
+    title: 'One buyer still brings 38% to 52%
+
+      of sales at Cerebras and Nscale'
+    cards:
+    - name: CEREBRAS
+      stats:
+      - v: 70%
+        l: of Q3 2025 sales, from one buyer
+      - v: 38%
+        l: of Q3 2026 sales, from the same buyer
+    - name: NSCALE
+      hl: true
+      stats:
+      - v: 73%
+        l: of 2025 sales, from its largest client
+      - v: 52%
+        l: of H1 2026 sales, from that client
+    story: These clouds are adding clients, but one lost buyer would still cut a large part of their sales. The more a cloud depends on one client,
+      the harder that client can push on price.
+    note:
+    - We used Cerebras’s 10-Q for the quarter to September 30, 2026, where the buyer is MBZUAI,
+    - and Nscale’s IPO filing of September 18, 2026, which compares a year with a half-year
+  sources:
+  - claim: 'Cerebras: one buyer 38% and 70% of quarterly sales'
+    url: https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm
+    date: '2026-11-12'
+    quote: accounted for 38% and 70% of our total revenue for the three months ended September 30, 2026 and 2025, respectively
+  - claim: Nscale largest customer 52% of H1 2026 sales
+    url: https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm
+    date: '2026-09-18'
+    quote: For the six months ended June 30, 2026, our largest customer accounted for 52% of our revenue.
+  - claim: Nscale largest customer 73% of 2025 sales
+    url: https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm
+    date: '2026-09-18'
+    quote: For the year ended December 31, 2025, our largest customer accounted for 73% of our revenue.
+- after: ed048
+  link: 'ed048, page 1/2: the three other categories of the donut ed047p'
+  slide:
+    id: ed048-2
+    type: x/behind_these_categories
+    section: Market size
+    title: What is behind these categories?
+    page: 2/2
+    t:
+      5: 'COMPUTE
+
+        MARKETPLACES'
+      8: 'TRAINING
+
+        PLATFORMS'
+      10: 'SOVEREIGN
+
+        AI CLOUDS'
+      11: 🛒
+      4: Online markets list spare GPUs from many owners, so a buyer can compare live prices and book hours or weeks.
+      12: 🛠️
+      7: Platforms bundle GPUs with data, tracking and tuning tools, so a team can train a model without running servers.
+      13: 🏛️
+      9: National clouds keep AI chips and data in one country, under local law, for public bodies and regulated firms.
+      14: ''
+      15: ''
+      16: ''
+      17: ''
+      18: ''
+      19: ''
+    holes_ok: true
+  sources:
+  - claim: Vast.ai lists GPUs from verified hosts
+    url: https://gpuledger.dev/providers/vast/
+    date: '2026-11-19'
+    quote: The lowest and the median per-GPU on-demand asking price among verified hosts
+  - claim: SF Compute resale marketplace
+    url: https://www.eweek.com/news/sf-compute-ai-funding/
+    date: 2025-11
+    quote: By enabling buyers to resell unused capacity in a flexible marketplace
+  - claim: Demand for sovereign AI cloud
+    url: https://www.gartner.com/en/newsroom/press-releases/2026-06-23-gartner-predicts-neocloud-providers-will-capture-20-percent-of-the-267-billion-dollar-ai-cloud-market-by-2030
+    date: '2026-06-23'
+    quote: By 2030, neocloud providers will capture 20% of the $267 billion AI cloud market

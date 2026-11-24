@@ -1,0 +1,370 @@
+ed148p:
+  title: 'What pushed cloud security
+
+    forward, year after year?'
+  events:
+  - year: '2006'
+    text: AWS cloud launch creates new attack surfaces
+    impact: 2.5
+  - year: '2009'
+    text: Private clouds isolate customer workloads
+    impact: 1.5
+  - year: '2010'
+    text: AWS IAM preview limits shared credentials
+    impact: 1.5
+  - year: '2011'
+    text: AWS IAM makes least privilege practical
+    impact: 2.0
+  - year: '2012'
+    text: Cloud roles replace embedded secrets
+    impact: 1.5
+  - year: '2013'
+    text: CloudTrail enables cloud access audits
+    impact: 2.0
+  - year: '2014'
+    text: AWS Config tracks risky resource changes
+    impact: 2.0
+  - year: '2015'
+    text: Cloud complexity drives security spending
+    impact: 1.5
+  - year: '2016'
+    text: Enterprise migration drives cloud protection
+    impact: 2.0
+  - year: '2017'
+    text: Organizations scales cloud access controls
+    impact: 1.5
+  - year: '2017'
+    text: Macie finds sensitive cloud data
+    impact: 1.5
+  - year: '2017'
+    text: GuardDuty automates cloud threat detection
+    impact: 2.0
+  - year: '2018'
+    text: Platforms unify cloud posture checks
+    impact: 1.0
+  - year: '2019'
+    text: Capital One breach exposes configuration risk
+    impact: 2.5
+  - year: '2019'
+    text: Google centralizes cloud threat visibility
+    impact: 1.5
+  - year: '2019'
+    text: Security Hub aggregates cloud alerts
+    impact: 2.0
+  - year: '2020'
+    text: Cheaper Macie expands data security coverage
+    impact: 1.5
+  - year: '2020'
+    text: Pandemic raises cloud security urgency
+    impact: 2.0
+  - year: '2021'
+    text: CNAPP era combines siloed protection tools
+    impact: 2.0
+  - year: '2021'
+    text: Microsoft buys CloudKnox for cloud access
+    impact: 1.5
+  - year: '2021'
+    text: Log4Shell exposes gaps beyond cloud posture
+    impact: 2.0
+  - year: '2022'
+    text: Serverless scanning covers cloud gaps
+    impact: 1.5
+  - year: '2023'
+    text: Tenable buys Ermetic for consolidated CNAPP
+    impact: 1.5
+  - year: '2024'
+    text: CrowdStrike adds cloud data protection
+    impact: 1.5
+  - year: '2024'
+    text: Fortinet absorbs Lacework cloud protection
+    impact: 2.0
+  - year: '2025'
+    text: Google Wiz deal validates multicloud
+    impact: 2.5
+  - year: '2026'
+    text: Google buys Wiz to expand cloud defense
+    impact: 2.5
+  - year: '2026'
+    text: Cloud security baselines become default
+    impact: 1.5
+  - year: '2026'
+    text: Microsoft expands multicloud posture coverage
+    impact: 2.0
+  - year: '2026'
+    text: AI threats drive automated cloud defense
+    impact: 2.0
+  note:
+  - We kept the events we believe pushed cloud security forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: cloud-security
+  title: 'Where did cloud security investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of cloud security startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in cloud security today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/cloud-security/s10-00.png
+    x: 221.6
+    y: 265.9
+  - src: ../../assets/logos/pp_live/cloud-security/s10-01.png
+    x: 329.4
+    y: 278.6
+  - src: ../../assets/logos/pp_live/cloud-security/s10-02.png
+    x: 522.2
+    y: 282.0
+  - src: ../../assets/logos/pp_live/cloud-security/s10-03.png
+    x: 462.6
+    y: 302.6
+  - src: ../../assets/logos/pp_live/cloud-security/s10-04.png
+    x: 717.9
+    y: 301.7
+  - src: ../../assets/logos/pp_live/cloud-security/s10-05.png
+    x: 781.5
+    y: 302.6
+  - src: ../../assets/logos/pp_live/cloud-security/s10-06.png
+    x: 279.9
+    y: 396.4
+  - src: ../../assets/logos/pp_live/cloud-security/s10-07.png
+    x: 341.8
+    y: 377.1
+  - src: ../../assets/logos/pp_live/cloud-security/s10-08.png
+    x: 409.5
+    y: 387.4
+  - src: ../../assets/logos/pp_live/cloud-security/s10-09.png
+    x: 493.1
+    y: 379.7
+  - src: ../../assets/logos/pp_live/cloud-security/s10-10.png
+    x: 676.1
+    y: 381.9
+  - src: ../../assets/logos/pp_live/cloud-security/s10-11.png
+    x: 766.7
+    y: 406.7
+  - src: ../../assets/logos/pp_live/cloud-security/s10-12.png
+    x: 671.1
+    y: 477.4
+  - src: ../../assets/logos/pp_live/cloud-security/s10-13.png
+    x: 268.9
+    y: 501.4
+  - src: ../../assets/logos/pp_live/cloud-security/s10-14.png
+    x: 327.6
+    y: 507.9
+  - src: ../../assets/logos/pp_live/cloud-security/s10-15.png
+    x: 447.2
+    y: 497.1
+  - src: ../../assets/logos/pp_live/cloud-security/s10-16.png
+    x: 571.5
+    y: 495.4
+  - src: ../../assets/logos/pp_live/cloud-security/s10-17.png
+    x: 798.6
+    y: 500.1
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Cloud Posture [)
+  - 7 td ee ee ee eee
+  - Cloud Runtime
+  note:
+  - We left out listed companies and incumbents like Palo Alto Networks, CrowdStrike and Microsoft
+  - We placed each pure player by its main focus, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these cloud security
+
+    startups, and how did they end?'
+  causes:
+  - Rivals|won
+  - Too few|buyers
+  - Sold below|funds raised
+  - No public|reason
+  rows:
+  - name: Lacework
+    ending: Sold below $200M
+    start: '2015'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cloud-security/s11-00.png
+    ini: L
+    slug: lacework
+    domain: lacework.com
+  - name: Threat Stack
+    ending: Sold for $68M
+    start: '2012'
+    end: '2021'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cloud-security/s11-01.png
+    ini: T
+    slug: threat-stack
+    domain: threatstack.com
+  - name: Minimus
+    ending: Closed, then sold
+    start: '2022'
+    end: '2026'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cloud-security/s11-02.png
+    ini: M
+    slug: minimus
+    domain: minimus.io
+  - name: Datree
+    ending: Shut down
+    start: '2017'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/cloud-security/s11-03.png
+    ini: D
+    slug: datree
+    domain: datree.io
+  - name: Open Raven
+    ending: Sold to Formstack
+    start: '2019'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/cloud-security/s11-04.png
+    ini: O
+    slug: open-raven
+    domain: openraven.com
+  note:
+  - We tracked the cloud security startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Palo Alto Networks lead
+
+    the cloud posture security market?'
+  companies:
+  - short: Palo Alto
+    src: ../../assets/logos/pp_live/cloud-security/s12-00.png
+  - short: CrowdStrike
+    src: ../../assets/logos/pp_live/cloud-security/s12-01.png
+  - short: Check Point
+    src: ../../assets/logos/pp_live/cloud-security/s12-02.png
+  - short: Orca
+    src: ../../assets/logos/pp_live/cloud-security/s12-03.png
+  - short: Tenable
+    src: ../../assets/logos/pp_live/cloud-security/s12-04.png
+  criteria:
+  - name: Cloud posture scanning
+    why: Find cloud misconfigurations
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Runtime workload defense
+    why: Stop threats on running apps
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Cloud identity analysis
+    why: Reduce excessive privileges
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: IaC pipeline checks
+    why: Prevent risky deployments
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Cloud data discovery
+    why: Locate sensitive cloud data
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Native SOC or XDR link
+    why: Join prevention and response
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Cloud network firewall
+    why: Enforce network boundaries
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Cloud security searches keep climbing
+
+    as more data moves fo the cloud'
+  date: 0 Lately.
+  expl: Companies moved more of their apps and data to the cloud, and AI workloads added even more. Breaches through badly set up accounts kept making headlines,
+    and Google's deal to buy Wiz showed how much the market is worth.
+  term: cloud security
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/cloud-security/cloud-security.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    cloud security get?'
+  lead: ''
+  condition: To get that big, the market must merge posture, workload, identity, and detection tools into one platform that works across every cloud. It
+    must also cut alert noise enough that small security teams can act on it.
+  note:
+  - We compared forecasts from Grand View, 360iResearch, Polaris Market Research and IMARC
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 44
+  cagr: 12
+  y0: 2026

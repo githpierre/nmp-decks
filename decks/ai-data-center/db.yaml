@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (NOV)
+  14: Torus raised a $500M Series C led by Magnetar. It manufactures and operates foundry {1|Torus}
+  15: 2026 (NOV)
+  16: Mavria raised a $100M seed round led by Paradigm for its modular AI centers {1|Mavria}
+  17: 2026 (NOV)
+  18: Atomarine raised a $19M seed round led by Y Combinator for its modular AI centers {1|DatacenterDynamics}
+  19: 2026 (OCT)
+  20: KONST raised a $30M Series B led by ADATA Technology for its AI cloud operators {1|TechNode Global}
+  21: 2026 (SEP)
+  22: Crusoe raised a $3.9B late-stage round led by Atreides for its energy-integrated AI compute infrastructure {1|TPG}
+  23: 2026 (SEP)
+  24: Rune Energy raised a $40M Series A led by Spark for its solar-powered modular data centers {1|Business Wire}
+  note: We list the latest equity rounds of AI data center startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (SEP)
+  15: Fluidstack raised a $1.5B growth equity round led by Jane Street for its cloud infrastructure for AI labs {1|Forbes}
+  16: 2026 (AUG)
+  17: Lancium raised a $2B growth equity round led by NVIDIA for its energy-powered AI data center campuses {1|Lancium}
+  18: 2026 (AUG)
+  19: Starcloud raised a $250M Series A led by Manhattan West for its orbital data centers for AI computing {1|TechCrunch}
+  20: 2026 (AUG)
+  21: Firmus raised a $2B strategic round led by Blackstone for its energy-efficient AI factory infrastructure {1|Firmus}
+  22: 2026 (JUL)
+  23: StratGrid raised $1.8M for its modular data centers for AI workloads {1|SEC filing}
+  24: 2026 (JUL)
+  25: Cardinal Data Power raised a $70M Series A led by Hood River for its energy-backed AI data campuses {1|SEC filing}
+  note: We list the latest equity rounds of AI data center startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 640
+    ann: Lambda, $480M top round, in 3 rounds
+  - x: 2025 H2
+    v: 4909
+    ann: Lambda, $1.5B top round, in 8 rounds
+  - x: 2026 H1
+    v: 8434
+    ann: DayOne, $4.5B top round, in 10 rounds
+  - x: 2026 H2
+    v: 10411
+    ann: Crusoe, $3.9B top round, in 12 rounds
+  note:
+  - We add up the disclosed equity rounds of AI data center startups in our tracker, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 4702
+    ann: DayOne, $1.2B top round, in 14 rounds
+  - x: '2025'
+    v: 5550
+    ann: Lambda, $1.5B top round, in 11 rounds
+  - x: '2026'
+    v: 18845
+    ann: DayOne, $4.5B top round, in 22 rounds
+  note:
+  - We add up the disclosed equity rounds of AI data center startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 26
+    ann: DayOne, $1.2B top round, out of 14 rounds
+  - x: '2025'
+    v: 27
+    ann: Lambda, $1.5B top round, out of 11 rounds
+  - x: 2026 (YTD)
+    v: 24
+    ann: DayOne, $4.5B top round, out of 22 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: DayOne Data Centers
+    amt: 4500000000
+    date: Q2 2026
+    stage: Series C
+  - name: Crusoe
+    amt: 3900000000
+    date: Q3 2026
+    stage: late-stage
+  - name: Nscale
+    amt: 2000000000
+    date: Q1 2026
+    stage: Series C
+  - name: Firmus
+    amt: 2000000000
+    date: Q3 2026
+    stage: Strategic
+  note:
+  - We listed the biggest equity rounds raised by AI data center startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: Crusoe
+    amt: 1375000000
+    date: '2025'
+    stage: late-stage
+  - name: DayOne Data Centers
+    amt: 1200000000
+    date: '2024'
+    stage: Series B
+  - name: CoreWeave
+    amt: 1100000000
+    date: '2024'
+    stage: Series C
+  - name: Nscale
+    amt: 1100000000
+    date: '2025'
+    stage: Series B
+  note:
+  - We listed the biggest equity rounds raised by AI data center startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: AI CLOUD OPERATORS
+  9: '16'
+  13: $15.7B
+  17: Crusoe, Nscale, Firmus, Lambda, CoreWeave, ai&, KONST
+  7: AI CAMPUSES
+  11: '8'
+  15: $11.3B
+  19: DayOne Data Centers, Lancium, Fluidstack
+  8: MODULAR AI CENTERS
+  12: '16'
+  16: $1.5B
+  20: Torus, Armada, Panthalassa, Metrobloks, Mavria, Nautilus Data
+  note: We used our tracker of 47 AI data center equity rounds announced since January 2024, worth about $29.1B. IPOs, debt and grants are left out
+ed169:
+  7: COATUE
+  10: '4'
+  14: $8.1B
+  18: Firmus (twice), CoreWeave
+  8: VALOR EQUITY
+  12: '2'
+  16: $5.3B
+  20: Crusoe (twice)
+  9: MUBADALA
+  13: '2'
+  17: $5.3B
+  21: Crusoe (twice)
+  26: NVIDIA
+  28: '2'
+  30: $4B
+  32: Firmus, Lancium
+  27: AKER ASA
+  29: '2'
+  31: $3.1B
+  33: Nscale (twice)
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 47 rounds
+ed205:
+  14: 2025 (NOV)
+  15: Lambda raised a $1.5B late-stage round led by TWG Global for its AI GPU cloud infrastructure {1|Lambda}
+  16: 2026 (MAR)
+  17: Nscale raised a $2B Series C led by Aker ASA for its integrated AI hyperscale infrastructure {1|Nscale}
+  18: 2026 (JUN)
+  19: DayOne Data Centers raised a $4.5B Series C led by Coatue for its hyperscale data center developer and operator {1|DayOne}
+  20: 2026 (AUG)
+  21: Firmus raised a $2B strategic round led by Blackstone for its energy-efficient AI factory infrastructure {1|Firmus}
+  22: 2026 (AUG)
+  23: Lancium raised a $2B growth equity round led by NVIDIA for its energy-powered AI data center campuses {1|Lancium}
+  24: 2026 (SEP)
+  25: Crusoe raised a $3.9B late-stage round led by Atreides for its energy-integrated AI compute infrastructure {1|TPG}
+  note: We picked the biggest disclosed rounds of AI data center startups since 2024, from our tracker of rounds
+ed160:
+  6: AI cloud operators took about 54% of the capital raised since 2024, ahead of AI campuses with about 39%
+  7: 46 of the 47 rounds since 2024 disclosed an amount, and the median disclosed round was $195M
+  8: US startups closed 32 of the 47 rounds and raised $16.3B, ahead of startups based in Singapore with $6.4B
+  9: 31 rounds of $100M or more made up about 99% of all the capital raised in the market since 2024
+  10: The $4.5B Series C round of DayOne Data Centers is the biggest since 2024, ahead of the $3.9B round of Crusoe
+  11: Startups raised $18.8B in 22 rounds so far in 2026, against $5.5B in 11 rounds in all of 2025
+  note: We drew these insights from our tracker of 47 AI data center equity rounds announced since January 2024, worth about $29.1B
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, data centers were funded by big infrastructure funds, and few startups built sites made for the heat of AI chips.'
+  7: 'AFTER
+
+
+
+    Since 2024, 47 rounds raised $29.1B. AI cloud operators take the biggest share, led by Crusoe and Nscale, and gigawatt campuses now go live.'
+  note: We used our tracker of AI data center equity rounds, complete from January 2024, and company releases and the press

@@ -1,0 +1,606 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved
+
+    pain points in agritech?'
+  auds:
+  - Row-crop growers
+  - Orchard growers
+  - Vegetable farms
+  - Cattle ranchers
+  - Spray contractors
+  pains:
+  - - They struggle to hire drivers and crews for each busy season
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They pay a fortune for machines used only a few weeks a year
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 3
+  - - They lose days when a robot breaks with no technician nearby
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They find that robots built for one crop fail on another one
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They lack signal in remote fields for autonomy and tracking
+    - - 3
+      - 1
+      - 1
+      - 3
+      - 2
+  - - They must keep someone watching over each autonomous machine
+    - - 2
+      - 2
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which agritech giant has the
+
+    most complete tech today?'
+  companies:
+  - name: John Deere
+    src: ../../assets/logos/pp_live/agritech/s05-00.png
+  - name: CNH
+    src: ../../assets/logos/pp_live/agritech/s05-01.png
+  - name: AGCO
+    src: ../../assets/logos/pp_live/agritech/s05-02.png
+  - name: Kubota
+    src: ../../assets/logos/pp_live/agritech/s05-03.png
+  - name: CLAAS
+    src: ../../assets/logos/pp_live/agritech/s05-04.png
+  features:
+  - header: Driverless|tractor
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Camera|spraying
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Electric|tractor
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Satellite|internet
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own|engines
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Own GPS|corrections
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Combine|harvesters
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to agritech?'
+  events:
+  - odds: 45
+    impact: 3
+    text: The farm downturn deepens as Deere sales and US farm income keep falling and farmers stop buying
+  - odds: 40
+    impact: 3
+    text: Deere, AGCO and CNH copy or buy precision ag tech, leaving startups with little room to sell
+  - odds: 30
+    impact: 2
+    text: Agrifoodtech venture funding keeps falling below 2025 levels, leaving many startups unable to raise their next round
+  - odds: 25
+    impact: 2
+    text: More farm robot makers collapse like Monarch Tractor, whose assets Caterpillar bought, as hardware costs eat cash
+  - odds: 20
+    impact: 2
+    text: Biological products from Pivot Bio and peers fail to deliver yield gains, and farmers stop buying them
+  - odds: 20
+    impact: 2
+    text: New US tariffs raise steel and input costs and China cuts soybean purchases, squeezing farm budgets
+  - odds: 15
+    impact: 1
+    text: EU gene-edited crop rules and FAA drone rules turn out stricter than expected and delay product launches
+  - odds: 10
+    impact: 2
+    text: Deere and AGCO dealers refuse to sell or service third-party retrofit kits, blocking agritech startups from farmers
+  note:
+  - We listed the events that could slow agritech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed agritech
+
+    forward, year after year?'
+  events:
+  - year: '1996'
+    text: GPS guidance enables precision farming
+    impact: 2.5
+  - year: '1996'
+    text: Roundup Ready seeds spread biotech crops
+    impact: 2
+  - year: '2002'
+    text: John Deere AutoTrac steers tractors itself
+    impact: 1.5
+  - year: '2007'
+    text: Food price crisis spurs farm productivity
+    impact: 1.5
+  - year: '2012'
+    text: CRISPR makes crop editing fast and cheap
+    impact: 2
+  - year: '2013'
+    text: Monsanto buys Climate Corp for $1B
+    impact: 2.5
+  - year: '2015'
+    text: Drought pushes California to water sensors
+    impact: 1
+  - year: '2016'
+    text: FAA Part 107 opens drones to farmers
+    impact: 1.5
+  - year: '2017'
+    text: Deere buys Blue River for plant AI
+    impact: 2
+  - year: '2018'
+    text: Farm labor shortage makes robots pay off
+    impact: 1.5
+  - year: '2018'
+    text: Bayer buys Monsanto, betting on data
+    impact: 1
+  - year: '2020'
+    text: USDA eases rules for gene-edited crops
+    impact: 1.5
+  - year: '2020'
+    text: Covid breaks food chains, local farms gain
+    impact: 1.5
+  - year: '2021'
+    text: Record funding floods vertical farming
+    impact: 1.5
+  - year: '2021'
+    text: Crop prices soar, farmers buy new tech
+    impact: 1
+  - year: '2022'
+    text: Ukraine war spikes fertilizer prices
+    impact: 2.5
+  - year: '2022'
+    text: Deere shows a fully driverless tractor
+    impact: 2
+  - year: '2022'
+    text: IRA funds climate-smart farming
+    impact: 1.5
+  - year: '2022'
+    text: See & Spray cuts herbicide use sharply
+    impact: 1.5
+  - year: '2023'
+    text: England allows precision bred crops
+    impact: 1
+  - year: '2023'
+    text: Vertical farm failures shift money to fields
+    impact: 1
+  - year: '2023'
+    text: Starlink brings fast internet to farms
+    impact: 1
+  - year: '2024'
+    text: Deere buys GUSS for driverless sprayers
+    impact: 1
+  - year: '2024'
+    text: Bird flu pushes farms to buy biosecurity
+    impact: 1
+  - year: '2025'
+    text: FTC sues Deere over farm repairs
+    impact: 1
+  - year: '2025'
+    text: Immigration raids deepen farm labor gaps
+    impact: 1.5
+  - year: '2025'
+    text: EU agrees light rules for gene-edited crops
+    impact: 1.5
+  - year: '2025'
+    text: US DJI ban pushes local spray drones
+    impact: 1
+  - year: '2025'
+    text: Deere kits make older machines driverless
+    impact: 1.5
+  - year: '2026'
+    text: Hormuz shock makes precise fertilizing pay
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed agritech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: agritech
+  title: 'Where did agritech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of agritech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the AgriTech market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/agritech/s10-00.png
+    x: 349.3
+    y: 261.0
+  - src: ../../assets/logos/pp_live/agritech/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/agritech/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/agritech/s10-03.png
+    x: 657.0
+    y: 264.6
+  - src: ../../assets/logos/pp_live/agritech/s10-04.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/agritech/s10-05.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/agritech/s10-06.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/agritech/s10-07.png
+    x: 312.9
+    y: 309.4
+  - src: ../../assets/logos/pp_live/agritech/s10-08.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/agritech/s10-09.png
+    x: 787.7
+    y: 294.0
+  - src: ../../assets/logos/pp_live/agritech/s10-10.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/agritech/s10-11.png
+    x: 191.6
+    y: 404.1
+  - src: ../../assets/logos/pp_live/agritech/s10-12.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/agritech/s10-13.png
+    x: 520.3
+    y: 377.6
+  - src: ../../assets/logos/pp_live/agritech/s10-14.png
+    x: 579.0
+    y: 400.3
+  - src: ../../assets/logos/pp_live/agritech/s10-15.png
+    x: 671.6
+    y: 379.3
+  - src: ../../assets/logos/pp_live/agritech/s10-16.png
+    x: 328.3
+    y: 407.4
+  - src: ../../assets/logos/pp_live/agritech/s10-17.png
+    x: 464.1
+    y: 411.2
+  - src: ../../assets/logos/pp_live/agritech/s10-18.png
+    x: 185.1
+    y: 492.9
+  - src: ../../assets/logos/pp_live/agritech/s10-19.png
+    x: 417.4
+    y: 470.8
+  - src: ../../assets/logos/pp_live/agritech/s10-20.png
+    x: 498.2
+    y: 472.7
+  - src: ../../assets/logos/pp_live/agritech/s10-21.png
+    x: 762.2
+    y: 474.6
+  - src: ../../assets/logos/pp_live/agritech/s10-22.png
+    x: 237.6
+    y: 517.7
+  - src: ../../assets/logos/pp_live/agritech/s10-23.png
+    x: 293.8
+    y: 517.7
+  - src: ../../assets/logos/pp_live/agritech/s10-24.png
+    x: 349.3
+    y: 513.9
+  - src: ../../assets/logos/pp_live/agritech/s10-25.png
+    x: 562.7
+    y: 510.6
+  - src: ../../assets/logos/pp_live/agritech/s10-26.png
+    x: 676.7
+    y: 499.7
+  cols:
+  - Row crops & broadacre
+  - Specialty / perennial
+  - Livestock & aquaculture
+  rows:
+  - Digital decisioning
+  - Automation & robotics
+  - Input innovation
+  note:
+  - We placed farm-focused agritech specialists by the farm type they serve and their main approach
+  - We left out food processing and generic software, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these agritech
+
+    startups, and how did they end?'
+  causes:
+  - High|costs
+  - Ran out|of cash
+  - Could not|scale
+  - Crop|problems
+  rows:
+  - name: AppHarvest
+    ending: Went bankrupt
+    start: '2017'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/agritech/s11-00.png
+    ini: A
+    slug: appharvest
+    domain: appharvest.com
+  - name: AeroFarms
+    ending: Went bankrupt
+    start: '2004'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/agritech/s11-01.png
+    ini: A
+    slug: aerofarms
+    domain: aerofarms.com
+  - name: Bowery
+    ending: Shut down
+    start: '2015'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/agritech/s11-02.png
+    ini: B
+    slug: bowery
+    domain: boweryfarming.com
+  - name: Plenty
+    ending: Went bankrupt
+    start: '2014'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/agritech/s11-03.png
+    ini: P
+    slug: plenty
+    domain: plenty.ag
+  - name: Fifth Season
+    ending: Shut down
+    start: '2016'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/agritech/s11-04.png
+    ini: F
+    slug: fifthseason
+    domain: fifthseasonfresh.com
+  note:
+  - We tracked the agritech startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is John Deere winning
+
+    the precision farming race?'
+  companies:
+  - short: Deere
+    src: ../../assets/logos/pp_live/agritech/s12-00.png
+  - short: CNH
+    src: ../../assets/logos/pp_live/agritech/s12-01.png
+  - short: AGCO
+    src: ../../assets/logos/pp_live/agritech/s12-02.png
+  - short: Kubota
+    src: ../../assets/logos/pp_live/agritech/s12-03.png
+  - short: CLAAS
+    src: ../../assets/logos/pp_live/agritech/s12-04.png
+  criteria:
+  - name: Market cap above $100B
+    why: Cash to fund ag tech bets
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Largest connected fleet
+    why: More data, better models
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Revenue above $15B
+    why: Scale across dealers
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Camera spot spraying
+    why: Cuts herbicide use sharply
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Starlink on machines
+    why: Online in remote fields
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Autonomous field work
+    why: Answers labor shortages
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Tech sold for any brand
+    why: Reaches mixed fleets
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the agritech market?'
+  TL:
+    name: Planet Labs
+    src: ../../assets/logos/pp_live/agritech/s01-00.png
+    text: photographs the world’s farmland every day, but most of its revenue comes from defense agencies and civil governments
+  TR:
+    name: HelloFresh
+    src: ../../assets/logos/pp_live/agritech/s01-01.png
+    text: buys its ingredients from farms, but it sells meal kits to households, far past the farm gate where agritech stops
+  BL:
+    name: Oishii
+    src: ../../assets/logos/pp_live/agritech/s01-10.png
+    text: grows strawberries in robotic indoor farms, but it sells them under its own brand, so it is a farm more than a supplier
+  BR:
+    name: John Deere
+    src: ../../assets/logos/pp_live/agritech/s01-11.png
+    text: puts See & Spray ona third of new sprayers in North America, but it is a machinery giant that also sells bulldozers
+  caption:
+  - Distance to the center reflects how much a product improves farm production itself, rather than what happens after harvest
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/agritech/s01-02.png
+  - ../../assets/logos/pp_live/agritech/s01-03.png
+  - ../../assets/logos/pp_live/agritech/s01-04.png
+  - ../../assets/logos/pp_live/agritech/s01-05.png
+  - ../../assets/logos/pp_live/agritech/s01-06.png
+  - ../../assets/logos/pp_live/agritech/s01-07.png
+  - ../../assets/logos/pp_live/agritech/s01-08.png
+  - ../../assets/logos/pp_live/agritech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/agritech/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/agritech/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/agritech/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/agritech/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/agritech/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/agritech/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/agritech/s01-08.png
+    x: 388.3
+    y: 444.2
+  - src: ../../assets/logos/pp_live/agritech/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look at indoor
+
+    farming, as food prices and heat hit crops'
+  date: In recent months.
+  expl: After big vertical farm startups went bankrupt, indoor farming came back in a smaller, smarter way. Food prices, crop failures from heatwaves and
+    viral videos of home grow boxes pushed people to look at growing food indoors again.
+  term: agritech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/agritech/agritech.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the agritech market
+
+    still growing fast?'
+  lead: ''
+  condition: Yes, but the market must bring robots, drones, and smart sprayers to mid-size farms, not just to the largest ones. It must also prove a clear
+    return every season and work across machines from every brand.
+  note:
+  - We compared forecasts from The Business Research Company, Ken Research, Grand View and 6Wresearch
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 35
+  cagr: 11
+  y0: 2026

@@ -1,0 +1,126 @@
+# Spec of the research prompts for the Stablecoin payments deck (tools/make_market_prompts.py). Method v2.
+# Pierre 22 Nov 2026 (« ok pour tes recos »): pain segments option A (5 types of user), value segments option A (the 6 short
+# names of the live S09: the 8 base categories, Merchant Acceptance merged into Payment APIs and Payroll & Payouts into
+# Cross-border B2B). « Remittances » became « Remittance apps » (name of the live donut): a one-word label is cut in two
+# (RULES, card labels on 2 lines). Base as of 3 Nov 2026, no update (Pierre).
+# Trends term: stablecoins (0 weeks at 0; the 3 other terms are at 0 too often). The fall since July 2026 is real (control
+# terms weather and youtube do not fall): curve shown to today, no SIGNAL (Pierre 22 Nov 2026, option 4A).
+name: Stablecoin payments
+handle: stablecoin-payments
+uuid: 80
+date: '2026-11-22'
+today: 22 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, patients, FDA, therapy, cancer, clinical, nuclear, reactor, uranium, HALEU
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and filings (Circle, Stripe and Bridge, BVNK, Rain, RedotPay, MoonPay, zerohash, Tempo, OpenFX, Conduit, Yellow Card, Félix Pago, KAST, Mesh, Toku, Paxos), card network and bank
+  releases (Visa, Mastercard, JPMorgan, Citi, Société Générale), laws and regulators (the US GENIUS Act text, US Treasury, the EU MiCA regulation and ESMA or EBA documents, Hong Kong HKMA, Singapore MAS,
+  central banks and the BIS), on-chain data providers with a named method (Artemis, Visa Onchain Analytics, Allium, DefiLlama), studies with a named method (McKinsey, BCG, Chainalysis, Castle Island,
+  a16z State of Crypto), and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, Fortune, The Block, CoinDesk, TechCrunch).
+# where the problem is felt (types of user): option A (Pierre, 22 Nov 2026)
+pain_segments:
+- Cross-border businesses
+- Fintechs and banks
+- Migrant families
+- Dollar savers
+- Remote workers
+# types of solution: option A (Pierre, 22 Nov 2026), names of the live S09
+#   Payment APIs = Payment APIs & Orchestration + Merchant Acceptance | Cross-border B2B = Cross-Border B2B Payments + Payroll & Payouts
+#   Treasury settlement = Treasury & Settlement | Stablecoin cards = Stablecoin Cards & Spending
+#   On and off ramps = On-Off Ramp Infrastructure | Remittance apps = Consumer Remittances
+value_segments:
+- Payment APIs
+- Cross-border B2B
+- Treasury settlement
+- Stablecoin cards
+- On and off ramps
+- Remittance apps
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/stablecoin-payments (same slide type as the deck twin).
+# S03-02 is a donut (ed047p, added by hand to live.yaml). S11-01 is the « what broke these startups » grid (ed201).
+live_twins:
+- ed039p
+- ed047p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed201
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which banks and payment giants are launching stablecoin services?
+    brief: 8 rows = 8 real stablecoin payment services of large banks, card networks or payment companies (for example a bank's own coin for client payments, a card network settling in stablecoins, a
+      payment company letting merchants accept them). Rows read "service or coin name" + "COMPANY · USE" + stage (PLAN / PILOT / LIVE, 6 characters at most). Only services announced in a company release
+      or a filing, with the date. Not a crypto exchange product, not a coin used only for trading.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals around stablecoin payments companies (acquisitions such as Stripe buying Bridge, other acquisitions by payment groups, exchanges or banks, large strategic investments, IPOs or
+      listings), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to launch a stablecoin payment service?
+    brief: 5 steps from an idea to a payment service people can use (for example the licenses, a bank partner for dollars in and out, a coin issuer and its reserves, anti-money-laundering checks, a card
+      network or local payout partners). Each step in plain words with who decides and a typical duration or cost, and what the new US and EU laws changed.
+  iv_safety:
+    title: What could go wrong for stablecoin payments?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example a coin losing its dollar peg such as USDC in March 2023, a bank partner leaving, a regulator
+      fine or license refused, fraud and sanctions cases, card networks and banks launching their own services). Real filings, reports or reported cases only.
+extra:
+  ed061: 'For stablecoin payments: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line
+    description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of user, with the pain-point segments: {pains}.'
+signal_angles: the US GENIUS Act (July 2025) and the EU MiCA rules, total stablecoin supply and its records (USDT, USDC), measured payment volumes as opposed to trading (Artemis, Visa Onchain Analytics,
+  company figures such as BVNK, Rain or Bridge), funding records (Tempo, Rain, RedotPay, Mesh, Félix Pago, OpenFX, KAST), acquisitions of stablecoin startups by payment groups (Stripe and Bridge, others),
+  banks and card networks launching stablecoin services (Visa, Mastercard, banks issuing their own coins), Circle's listing in June 2025 and its revenue, remittance and business corridors in Latin America,
+  Africa and Asia, stablecoin cards spend. Google searches for stablecoins fell sharply after summer 2026, so they are never a signal of a hot market.
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, bank partners that pulled out, licenses refused or withdrawn, regulator fines
+  and enforcement, coins that lost their dollar peg, hacks and frauds, layoffs, sales forced by cash needs, valuations that fell. Scope: companies whose core product is stablecoin payments (payment APIs,
+  business and cross-border transfers, treasury settlement, cards, on and off ramps, remittance apps), startups first. Not trading exchanges and not coins used only for trading.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 4 warning signs (this replaces the 5 companies x 3 signs of the model, to match our grid of failed startups). Pick the 4 signs that fit this market (for example: bank partner left, regulator action, big layoffs, value fell, sold for little). Each cell is two short lines
+  separated by | or empty. Give the website domain of each company.
+
+  - ed200: why stablecoin payments startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: Stablecoin payments
+label: Stablecoin payments
+keep_together:
+- stablecoin payments
+- Stablecoin payments
+- stablecoin
+examples:
+  jargon_bad: Atomic PvP settlement on an L2 rollup with ERC-20 permit flows and programmable compliance hooks.
+  jargon_good: Digital dollars that move between two companies in seconds, any day of the week.
+  jargon_why: the reader is not a crypto engineer
+  proof_rule: 'Total stablecoin transfers on blockchains are not payments: most of them are trading, exchanges moving funds and bots. Say how much is real payments (business transfers, cards, remittances,
+    payouts), who measured it and how.'
+  proof_bad: Stablecoins moved trillions of dollars last year, more than Visa.
+  proof_good: Company X processed $2B of stablecoin payments for businesses in 2026, according to its own release, against $600M in 2025.
+  proof_why: most stablecoin volume is trading, not payments
+  fresh_bad: Company X raised $40M in 2024
+  fresh_good: Company X raised $250M in October 2026, its biggest round, a year after a $75M round
+  fresh_est: Company X should process $10B of payments in 2026, against $3B in 2025
+  fresh_method: latest company releases, on-chain dashboards with a named method (Artemis, Visa Onchain Analytics), press reports as a cross-check
+  not_proof: raw on-chain transfer volume is not payment volume
+trends_csv: assets/trends/stablecoin-payments/stablecoins.csv

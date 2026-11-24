@@ -1,0 +1,597 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would legal tech
+
+    customers actually pay to solve?'
+  auds:
+  - Large firms
+  - Small firms
+  - In-house teams
+  - Solo lawyers
+  - Corporate clients
+  pains:
+  - - They must check every AI answer by hand for invented citations
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They cannot share client files with most of the AI tools they try
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 2
+  - - They lose time searching for files spread across many systems
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They earn less when AI saves time because they bill by the hour
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 1
+  - - They see new tools sit unused because lawyers resist change
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  - - They refuse to pay lawyers for routine work that AI can do
+    - - 1
+      - 1
+      - 3
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which legal tech platform has
+
+    the most complete tech today?'
+  companies:
+  - name: Harvey
+    src: ../../assets/logos/pp_live/legaltech/s05-00.png
+  - name: Legora
+    src: ../../assets/logos/pp_live/legaltech/s05-01.png
+  - name: LexisNexis
+    src: ../../assets/logos/pp_live/legaltech/s05-02.png
+  - name: CoCounsel
+    src: ../../assets/logos/pp_live/legaltech/s05-03.png
+  - name: Spellbook
+    src: ../../assets/logos/pp_live/legaltech/s05-04.png
+  features:
+  - header: Own case|law
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Legal|research
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Free|trial
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Mobile|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Client|portal
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Request|intake
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Contract|portfolio
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to legal tech?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Thomson Reuters and LexisNexis bundle AI into Westlaw and Lexis plans, so startups lose law firm deals
+  - odds: 40
+    impact: 1
+    text: Clio and other practice management players add AI features that crowd out niche small firm tools
+  - odds: 35
+    impact: 2
+    text: Billable hour models resist change and large firms refuse to pay premium AI seat prices
+  - odds: 30
+    impact: 2
+    text: Courts sanction more lawyers for fake AI citations and firms cut back on generative AI tools
+  - odds: 30
+    impact: 3
+    text: OpenAI and Anthropic sell legal agents directly to firms and undercut Harvey and Legora on price
+  - odds: 30
+    impact: 2
+    text: Bar rules in California and New York limit AI use without client consent and human review
+  - odds: 25
+    impact: 2
+    text: Funding pulls back after legal AI valuations above 5 billion dollars fail to match revenue
+  - odds: 12
+    impact: 3
+    text: A client data leak through a legal AI vendor triggers malpractice claims and vendor bans
+  note:
+  - We listed the events that could slow legaltech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed legal tech
+
+    forward, year after year?'
+  events:
+  - year: '1973'
+    text: Lexis puts case law on computer terminals
+    impact: 1.5
+  - year: '1975'
+    text: Westlaw starts the online research race
+    impact: 1
+  - year: '2002'
+    text: Federal courts switch to electronic filing
+    impact: 1
+  - year: '2006'
+    text: New rules make digital evidence discoverable
+    impact: 2
+  - year: '2008'
+    text: Crisis pushes clients to cut legal bills
+    impact: 1.5
+  - year: '2012'
+    text: Court approves AI review of documents
+    impact: 2
+  - year: '2012'
+    text: ABA tells lawyers to master tech
+    impact: 1
+  - year: '2016'
+    text: BakerHostetler hires ROSS, an AI researcher
+    impact: 0.5
+  - year: '2018'
+    text: AI beats lawyers at spotting contract risks
+    impact: 1
+  - year: '2018'
+    text: GDPR takes effect, firms need privacy tools
+    impact: 1
+  - year: '2020'
+    text: Covid moves courts and signings online
+    impact: 2.5
+  - year: '2020'
+    text: Utah and Arizona open law to non-lawyers
+    impact: 1.5
+  - year: '2021'
+    text: Record funding pours into legal software
+    impact: 1
+  - year: '2021'
+    text: LegalZoom and DISCO IPOs prove the market
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT shows AI can draft legal text
+    impact: 3
+  - year: '2023'
+    text: Allen & Overy rolls out Harvey firmwide
+    impact: 2
+  - year: '2023'
+    text: GPT-4 passes the bar exam
+    impact: 2.5
+  - year: '2023'
+    text: Thomson Reuters buys Casetext for $650M
+    impact: 2
+  - year: '2023'
+    text: Fake AI citations spur safer legal AI
+    impact: 1
+  - year: '2023'
+    text: Lexis and Westlaw launch AI research
+    impact: 1.5
+  - year: '2023'
+    text: Copilot brings AI into lawyers' Word files
+    impact: 1
+  - year: '2024'
+    text: EU AI Act creates new compliance work
+    impact: 1
+  - year: '2024'
+    text: ABA gives lawyers rules for using AI
+    impact: 1.5
+  - year: '2024'
+    text: Clio raises $900M to serve small firms
+    impact: 1
+  - year: '2025'
+    text: UK approves the first AI-driven law firm
+    impact: 1.5
+  - year: '2025'
+    text: Clio buys vLex to add legal data
+    impact: 1.5
+  - year: '2025'
+    text: Harvey passes $100M in yearly revenue
+    impact: 1.5
+  - year: '2025'
+    text: Harvey hits $8B, money floods legal AI
+    impact: 1.5
+  - year: '2026'
+    text: Claude legal plugin shakes legal data giants
+    impact: 2
+  - year: '2026'
+    text: Harvey hits $11B as firms scale AI
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed legaltech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: legaltech
+  title: 'Where did legal tech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of legaltech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the legal technology market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/legaltech/s10-00.png
+    x: 296.6
+    y: 270.6
+  - src: ../../assets/logos/pp_live/legaltech/s10-01.png
+    x: 642.9
+    y: 261.0
+  - src: ../../assets/logos/pp_live/legaltech/s10-02.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/legaltech/s10-03.png
+    x: 784.3
+    y: 282.6
+  - src: ../../assets/logos/pp_live/legaltech/s10-04.png
+    x: 188.1
+    y: 297.9
+  - src: ../../assets/logos/pp_live/legaltech/s10-05.png
+    x: 243.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/legaltech/s10-06.png
+    x: 350.6
+    y: 285.0
+  - src: ../../assets/logos/pp_live/legaltech/s10-07.png
+    x: 444.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/legaltech/s10-08.png
+    x: 528.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/legaltech/s10-09.png
+    x: 663.9
+    y: 309.9
+  - src: ../../assets/logos/pp_live/legaltech/s10-10.png
+    x: 540.0
+    y: 373.3
+  - src: ../../assets/logos/pp_live/legaltech/s10-11.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/legaltech/s10-12.png
+    x: 240.0
+    y: 381.4
+  - src: ../../assets/logos/pp_live/legaltech/s10-13.png
+    x: 481.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/legaltech/s10-14.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/legaltech/s10-15.png
+    x: 777.0
+    y: 389.1
+  - src: ../../assets/logos/pp_live/legaltech/s10-16.png
+    x: 189.6
+    y: 412.3
+  - src: ../../assets/logos/pp_live/legaltech/s10-17.png
+    x: 291.0
+    y: 406.9
+  - src: ../../assets/logos/pp_live/legaltech/s10-18.png
+    x: 345.0
+    y: 411.2
+  - src: ../../assets/logos/pp_live/legaltech/s10-19.png
+    x: 464.6
+    y: 485.6
+  - src: ../../assets/logos/pp_live/legaltech/s10-20.png
+    x: 532.3
+    y: 490.3
+  - src: ../../assets/logos/pp_live/legaltech/s10-21.png
+    x: 744.4
+    y: 481.3
+  - src: ../../assets/logos/pp_live/legaltech/s10-22.png
+    x: 306.9
+    y: 504.9
+  - src: ../../assets/logos/pp_live/legaltech/s10-23.png
+    x: 677.1
+    y: 500.1
+  cols:
+  - Contracts & transactional -
+  - Litigation & disputes
+  - Legal ops & practice
+  rows:
+  - Systems of record
+  - Automation & AL
+  - Data & intelligence
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out broad productivity and compliance-first platforms, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these legal tech
+
+    startups, and how did they end?'
+  causes:
+  - Lawsuit or|regulator
+  - Ran out|of cash
+  - Product or|model failed
+  - Could not|raise
+  rows:
+  - name: Robin AI
+    ending: Broken up
+    start: '2019'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/legaltech/s11-00.png
+    ini: R
+    slug: robin-ai
+    domain: robinai.com
+  - name: DoNotPay
+    ending: Paid a fine
+    start: '2015'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/legaltech/s11-01.png
+    ini: D
+    slug: donotpay
+    domain: donotpay.com
+  - name: Gavelytics
+    ending: Shut down
+    start: '2017'
+    end: '2022'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/legaltech/s11-02.png
+    ini: G
+    slug: gavelytics
+    domain: gavelytics.com
+  - name: ROSS
+    ending: Shut down
+    start: '2014'
+    end: '2020'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/legaltech/s11-03.png
+    ini: R
+    slug: ross-intelligence
+    domain: rossintelligence.com
+  - name: Atrium
+    ending: Shut down
+    start: '2017'
+    end: '2020'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/legaltech/s11-04.png
+    ini: A
+    slug: atrium
+    domain: atrium.co
+  note:
+  - We tracked the legaltech startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Harvey winning
+
+    the legal AI market?'
+  companies:
+  - short: Harvey
+    src: ../../assets/logos/pp_live/legaltech/s12-00.png
+  - short: Legora
+    src: ../../assets/logos/pp_live/legaltech/s12-01.png
+  - short: Spellbook
+    src: ../../assets/logos/pp_live/legaltech/s12-02.png
+  - short: Luminance
+    src: ../../assets/logos/pp_live/legaltech/s12-03.png
+  - short: EvenUp
+    src: ../../assets/logos/pp_live/legaltech/s12-04.png
+  criteria:
+  - name: Valued above $10B
+    why: Investors back it the most
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 100,000+ lawyer seats
+    why: Widest adoption in law
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: LexisNexis content deal
+    why: Trusted case law built in
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: ARR above $100M
+    why: Proof that firms pay
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Unicorn valuation
+    why: Capital to outbuild rivals
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Top law firm customers
+    why: Big firms set the standard
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Works inside Word
+    why: Lawyers stay in their tools
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as legaltech,
+
+    and what falls outside?'
+  TL:
+    name: Docusign
+    src: ../../assets/logos/pp_live/legaltech/s01-00.png
+    text: signs and manages contracts for every department, from sales to HR, so it serves legal teams without being built for them
+  TR:
+    name: OneTrust
+    src: ../../assets/logos/pp_live/legaltech/s01-02.png
+    text: handles privacy and GRC programs that often involve lawyers, but these are compliance platforms our definition excludes
+  BL:
+    name: LegalZoom
+    src: ../../assets/logos/pp_live/legaltech/s01-10.png
+    text: sells business filings and legal documents to consumers and small firms, not tools for lawyers, so it is on the line
+  BR:
+    name: Thomson Reuters
+    src: ../../assets/logos/pp_live/legaltech/s01-11.png
+    text: owns Westlaw and CoCounsel, yet its legal unit brings in under 40% of group revenue, which puts it on the edge
+  caption:
+  - Distance to the center reflects how specifically a product is built for the daily work of lawyers and in-house legal teams
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/legaltech/s01-01.png
+  - ../../assets/logos/pp_live/legaltech/s01-03.png
+  - ../../assets/logos/pp_live/legaltech/s01-04.png
+  - ../../assets/logos/pp_live/legaltech/s01-05.png
+  - ../../assets/logos/pp_live/legaltech/s01-06.png
+  - ../../assets/logos/pp_live/legaltech/s01-07.png
+  - ../../assets/logos/pp_live/legaltech/s01-08.png
+  - ../../assets/logos/pp_live/legaltech/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/legaltech/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/legaltech/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/legaltech/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/legaltech/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/legaltech/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/legaltech/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/legaltech/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/legaltech/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More lawyers look for legal tech,
+
+    now that AI can draft contracts'
+  date: In recent months.
+  expl: Law firms used to be slow with tech. Then AI tools like Harvey started drafting contracts and reviewing documents in minutes, and big firms rolled
+    them out to every lawyer. Legal tech became the talk of the profession, and searches hit a five-year high.
+  term: legaltech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/legaltech/legaltech.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for legal tech to grow?'
+  lead: 'To fill that room, '
+  condition: the market must turn AI into paid legal work, as firms and legal teams move budgets from hours to software every year. It must also keep AI
+    errors out of courts, win the trust of clients and regulators, and resist cheap general AI tools that do part of the job.
+  note:
+  - We compared forecasts from Grand View, Fortune Business Insights, Precedence and The Business Research Company
+  - We adjusted each one to our market definition to build a realistic range, and all our sources are at the end of the report
+  size: 35
+  cagr: 11
+  y0: 2026

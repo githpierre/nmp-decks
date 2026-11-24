@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (OCT)
+  14: Stand raised a $70M Series C led by Saga for its homeowners insurance with catastrophe risk modeling {1|Fortune}
+  15: 2026 (OCT)
+  16: Ledgebrook raised $200M led by Allianz X for its digital underwriting for specialty business insurance {1|PR Newswire}
+  17: 2026 (AUG)
+  18: Faye raised a $50M Series C led by Madrona for its travel insurance policies and digital claims {1|PR Newswire}
+  19: 2026 (JUL)
+  20: Ominimo raised a $22M Series B led by EBRD. It underwrites digital motor products {1|The Insurer}
+  21: 2026 (JUL)
+  22: InRisk Labs raised a $27M Series A led by Bessemer for its parametric weather insurance {1|Earth Re}
+  23: 2026 (JUN)
+  24: Honeycomb Insurance raised a $40M growth equity round led by Zeev for its home and property insurance {1|The Insurer}
+  note: We list the latest equity rounds of MGA startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (APR)
+  15: Counterpart raised a $50M Series C led by Valor Equity for its specialty business insurance {1|Counterpart}
+  16: 2026 (APR)
+  17: Openly raised an undisclosed growth equity round led by Eden Global for its home and property insurance {1|Pulse 2.0}
+  18: 2026 (APR)
+  19: Zego raised a $28M late-stage round led by Sompo Holdings for its usage-based motor insurance for drivers {1|Zego}
+  20: 2026 (MAR)
+  21: Shepherd raised a $42M Series B led by Intact for its technology enabled commercial construction insurance {1|Shepherd}
+  22: 2026 (FEB)
+  23: Comeryx raised a $7.5M seed round led by Altai for its specialty business insurance {1|Comeryx}
+  24: 2026 (FEB)
+  25: Lassie raised a $75M Series C led by Balderton for its digital pet insurance and preventative care {1|Balderton}
+  note: We list the latest equity rounds of MGA startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 449
+    ann: Openly, $123M top round, in 13 rounds
+  - x: 2025 H2
+    v: 255
+    ann: Nirvana, $100M top round, in 10 rounds
+  - x: 2026 H1
+    v: 268
+    ann: Lassie, $75M top round, in 9 rounds
+  - x: 2026 H2
+    v: 370
+    ann: Ledgebrook, $200M top round, in 5 rounds
+  note:
+  - We add up the disclosed equity rounds of MGA startups in our tracker, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 426
+    ann: Arbol, $60M top round, in 18 rounds
+  - x: '2025'
+    v: 704
+    ann: Openly, $123M top round, in 23 rounds
+  - x: '2026'
+    v: 637
+    ann: Ledgebrook, $200M top round, in 14 rounds
+  note:
+  - We add up the disclosed equity rounds of MGA startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 14
+    ann: Arbol, $60M top round, out of 18 rounds
+  - x: '2025'
+    v: 17
+    ann: Openly, $123M top round, out of 23 rounds
+  - x: 2026 (YTD)
+    v: 31
+    ann: Ledgebrook, $200M top round, out of 14 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Ledgebrook
+    amt: 200000000
+    date: Q4 2026
+    stage: Equity
+  - name: Nirvana Insurance
+    amt: 100000000
+    date: Q4 2025
+    stage: late-stage
+  - name: Lassie
+    amt: 75000000
+    date: Q1 2026
+    stage: Series C
+  - name: Stand
+    amt: 70000000
+    date: Q4 2026
+    stage: Series C
+  note:
+  - We listed the biggest equity rounds raised by MGA startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: ManyPets
+    amt: 350000000
+    date: '2021'
+    stage: late-stage
+  - name: Coalition
+    amt: 250000000
+    date: '2022'
+    stage: late-stage
+  - name: Coalition
+    amt: 205000000
+    date: '2021'
+    stage: late-stage
+  - name: At-Bay
+    amt: 185000000
+    date: '2021'
+    stage: late-stage
+  note:
+  - We listed the biggest equity rounds raised by MGA startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: SPECIALTY COMMERCIAL
+  9: '20'
+  13: $555M
+  17: Ledgebrook, Counterpart, Shepherd, CompScience, Rainbow
+  7: HOME AND PROPERTY
+  11: '9'
+  15: $373M
+  19: Openly, Stand, Honeycomb Insurance, Steadily
+  8: MOBILITY AND AUTO
+  12: '8'
+  16: $340M
+  20: Nirvana Insurance, High Definition Vehicle Insurance, Zego
+  note: We used our tracker of 55 MGA equity rounds announced since January 2024, worth about $1.8B. IPOs, debt and grants are left out
+ed169:
+  7: ALLIANZ X
+  10: '2'
+  14: $200M
+  18: Coterie Insurance, Ledgebrook
+  8: VALOR EQUITY
+  12: '2'
+  16: $150M
+  20: Nirvana Insurance, Counterpart
+  9: EDEN GLOBAL
+  13: '2'
+  17: $123M
+  21: Openly (twice)
+  26: OPERA TECH
+  28: '2'
+  30: $83M
+  32: Arbol, Stoïk
+  27: ZEEV
+  29: '2'
+  31: $76M
+  33: Honeycomb Insurance (twice)
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 55 rounds
+ed205:
+  14: 2025 (JAN)
+  15: Openly raised a $123M growth equity round led by Eden Global for its home and property insurance {1|Eden Global Partners}
+  16: 2025 (MAR)
+  17: Nirvana Insurance raised an $80M Series C led by General Catalyst for its motor and fleet insurance {1|Nirvana}
+  18: 2025 (DEC)
+  19: Nirvana Insurance raised a $100M late-stage round led by Valor Equity for its motor and fleet insurance {1|PR Newswire}
+  20: 2026 (FEB)
+  21: Lassie raised a $75M Series C led by Balderton for its digital pet insurance and preventative care {1|Balderton}
+  22: 2026 (OCT)
+  23: Ledgebrook raised $200M led by Allianz X for its digital underwriting for specialty business insurance {1|PR Newswire}
+  24: 2026 (OCT)
+  25: Stand raised a $70M Series C led by Saga for its homeowners insurance with catastrophe risk modeling {1|Fortune}
+  note: We picked the biggest disclosed rounds of MGA startups since 2024, from our tracker of rounds
+ed160:
+  6: Specialty commercial took about 31% of the capital raised since 2024, ahead of home and property with about 21%
+  7: 50 of the 55 rounds since 2024 disclosed an amount, and the median disclosed round was $27M
+  8: US startups closed 43 of the 55 rounds and took $1.5B, about 86% of all the money raised since 2024
+  9: 3 rounds of $100M or more made up about 24% of all the capital raised in the market since 2024
+  10: The $200M round of Ledgebrook in 2026 is the biggest since 2024, ahead of Openly with $123M in 2025
+  11: Series B was the most common round, with 12 of the 55 rounds, while seed rounds were only 6 of them
+  note: We drew these insights from our tracker of 55 MGA equity rounds announced since January 2024, worth about $1.8B
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, most insurtech MGAs raised money on fast premium growth, and many lost their capacity when losses came in above plan.'
+  7: 'AFTER
+
+
+
+    Since 2024, 55 rounds raised $1.8B. Specialty commercial takes the biggest share, led by Ledgebrook, and investors now ask for loss results.'
+  note: We used our tracker of MGA equity rounds, complete from January 2024, and company releases and the press

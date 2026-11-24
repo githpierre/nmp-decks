@@ -1,0 +1,620 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would inference
+
+    chip buyers actually pay to solve?'
+  auds:
+  - Cloud giants
+  - AI labs
+  - GPU clouds
+  - Large enterprises
+  - Sovereign buyers
+  pains:
+  - - They cannot get enough memory and packaging to ship what is ordered
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They face AMD, Broadcom and startups on every big data center deal
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They pay more for memory as its prices keep rising very fast
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They must cut the cost per token sharply with every new generation
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They must ship a new chip generation every year to stay ahead
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 1
+  - - They lose a large share of demand to export rules on China
+    - - 3
+      - 1
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which inference chipmaker has
+
+    the most complete tech today?'
+  companies:
+  - name: Nvidia
+    src: ../../assets/logos/pp_live/ai-inference-chips/s05-00.png
+  - name: AMD
+    src: ../../assets/logos/pp_live/ai-inference-chips/s05-01.png
+  - name: Cerebras
+    src: ../../assets/logos/pp_live/ai-inference-chips/s05-02.png
+  - name: Tenstorrent
+    src: ../../assets/logos/pp_live/ai-inference-chips/s05-03.png
+  - name: SambaNova
+    src: ../../assets/logos/pp_live/ai-inference-chips/s05-04.png
+  - name: d-Matrix
+    src: ../../assets/logos/pp_live/ai-inference-chips/s05-05.png
+  features:
+  - header: Own token|API
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Wafer-scale|chip
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: HBM|memory
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Own|server CPU
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: PCIe|cards
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Scale-up|switch
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Training|too
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI inference chips?'
+  events:
+  - odds: 40
+    impact: 3
+    text: Google, Amazon, Meta and OpenAI run inference on their own chips and buy little from startups
+  - odds: 35
+    impact: 3
+    text: Nvidia CUDA keeps most developers locked in, so inference chip startups cannot win large volume orders
+  - odds: 25
+    impact: 3
+    text: AI demand slows after a cheap model shock, and orders for inference chips from startups dry up
+  - odds: 15
+    impact: 2
+    text: Token prices fall so fast that inference chip startups cannot earn back their chip design costs
+  - odds: 12
+    impact: 2
+    text: New US export rules cover Gulf and Asian buyers, cutting inference chip startups off from key customers
+  - odds: 12
+    impact: 2
+    text: An HBM shortage lets SK hynix, Samsung and Micron favor Nvidia, starving inference startups of memory
+  - odds: 10
+    impact: 1
+    text: Data center power delays push back new inference chip deployments and orders by one to two years
+  - odds: 5
+    impact: 2
+    text: Etched or Cerebras racks fail in production at a bank or cloud and buyers return to Nvidia
+  note:
+  - We listed the events that could slow ai inference chips down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI inference chips
+
+    forward, year after year?'
+  events:
+  - year: '2016'
+    text: Google reveals TPU, built to run models
+    impact: 2
+  - year: '2017'
+    text: iPhone X adds a dedicated AI chip
+    impact: 1.5
+  - year: '2018'
+    text: Nvidia T4 makes cloud inference cheaper
+    impact: 1
+  - year: '2018'
+    text: AWS unveils Inferentia to cut serving costs
+    impact: 1.5
+  - year: '2019'
+    text: MLPerf sets common tests for inference speed
+    impact: 1
+  - year: '2019'
+    text: Intel buys Habana for $2B
+    impact: 1
+  - year: '2022'
+    text: ChatGPT makes serving AI a daily cost
+    impact: 3
+  - year: '2022'
+    text: Export bans push China to homegrown chips
+    impact: 1.5
+  - year: '2023'
+    text: Open Llama models spread inference everywhere
+    impact: 1.5
+  - year: '2023'
+    text: Meta unveils MTIA to serve its models
+    impact: 1
+  - year: '2023'
+    text: Microsoft unveils its Maia AI chip
+    impact: 1
+  - year: '2024'
+    text: AMD MI300X wins Microsoft and Meta inference
+    impact: 1.5
+  - year: '2024'
+    text: Groq demo shows near instant chatbot replies
+    impact: 1.5
+  - year: '2024'
+    text: Cerebras launches record speed inference
+    impact: 1
+  - year: '2024'
+    text: OpenAI o1 makes models think longer
+    impact: 2.5
+  - year: '2024'
+    text: Broadcom sees $60B+ custom AI chip market
+    impact: 1.5
+  - year: '2024'
+    text: Apple Intelligence runs models on iPhones
+    impact: 1
+  - year: '2025'
+    text: DeepSeek R1 floods demand for cheap reasoning
+    impact: 1.5
+  - year: '2025'
+    text: Google serves 480 trillion tokens a month
+    impact: 1.5
+  - year: '2025'
+    text: Google Ironwood TPU is built for inference
+    impact: 1.5
+  - year: '2025'
+    text: China urges firms to shun Nvidia H20
+    impact: 1
+  - year: '2025'
+    text: Nvidia designs Rubin CPX for long prompts
+    impact: 1
+  - year: '2025'
+    text: OpenAI and Broadcom plan 10GW custom chips
+    impact: 2
+  - year: '2025'
+    text: Qualcomm enters data centers with AI200
+    impact: 1
+  - year: '2025'
+    text: Anthropic books up to 1M Google TPUs
+    impact: 2
+  - year: '2025'
+    text: Nvidia pays $20B to license Groq tech
+    impact: 2.5
+  - year: '2026'
+    text: OpenAI signs $10B Cerebras inference deal
+    impact: 2
+  - year: '2026'
+    text: Cerebras raises $5.5B in top 2026 IPO
+    impact: 1.5
+  - year: '2026'
+    text: OpenAI raises $110B, much for serving users
+    impact: 1
+  - year: '2026'
+    text: Nvidia ships Rubin, cutting cost per token
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai inference chips forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-inference-chips
+  title: 'Where did AI inference chip investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai inference chips startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    AI inference chips today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-00.png
+    x: 249.2
+    y: 281.1
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-01.png
+    x: 328.1
+    y: 276.4
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-02.png
+    x: 545.8
+    y: 265.7
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-03.png
+    x: 604.1
+    y: 282.6
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-04.png
+    x: 678.6
+    y: 279.9
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-05.png
+    x: 798.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-06.png
+    x: 387.2
+    y: 305.6
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-07.png
+    x: 490.9
+    y: 303.9
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-08.png
+    x: 736.5
+    y: 298.7
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-09.png
+    x: 249.2
+    y: 385.7
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-10.png
+    x: 311.8
+    y: 403.7
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-11.png
+    x: 389.4
+    y: 403.7
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-12.png
+    x: 473.4
+    y: 375.9
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-13.png
+    x: 527.4
+    y: 404.6
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-14.png
+    x: 582.4
+    y: 384.9
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-15.png
+    x: 681.2
+    y: 379.3
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-16.png
+    x: 803.1
+    y: 385.7
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-17.png
+    x: 745.3
+    y: 409.3
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-18.png
+    x: 286.5
+    y: 481.7
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-19.png
+    x: 394.9
+    y: 480.0
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-20.png
+    x: 592.1
+    y: 486.0
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-21.png
+    x: 763.9
+    y: 483.9
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-22.png
+    x: 340.5
+    y: 509.1
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-23.png
+    x: 468.2
+    y: 498.9
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-24.png
+    x: 536.6
+    y: 509.1
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-25.png
+    x: 688.5
+    y: 495.9
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s10-26.png
+    x: 822.4
+    y: 501.9
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Data center
+  - PUNU Ilo, UII
+  - Novel compute
+  note:
+  - We left out listed vendors, hyperscalers and acquired startups like Nvidia, Cerebras and Graphcore
+  - We placed each one by its focus, and you will find all the sources we used at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these inference chip
+
+    startups, and how did they end?'
+  causes:
+  - Nvidia|dominance
+  - Ran out|of cash
+  - Lost key|talent
+  - Market|shifted
+  rows:
+  - name: Untether AI
+    ending: AMD hired staff
+    start: '2018'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/ai-inference-chips/s11-00.png
+    ini: U
+    slug: untetherai
+    domain: untether.ai
+  - name: Esperanto
+    ending: Closed its doors
+    start: '2014'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/ai-inference-chips/s11-01.png
+    ini: E
+    slug: esperanto
+    domain: esperanto.ai
+  - name: Rain AI
+    ending: Patents sold
+    start: '2017'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/ai-inference-chips/s11-02.png
+    ini: R
+    slug: rain-ai
+    domain: rain.ai
+  - name: Graphcore
+    ending: SoftBank bought it
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/ai-inference-chips/s11-03.png
+    ini: G
+    slug: graphcore
+    domain: graphcore.ai
+  - name: Perceive
+    ending: Amazon paid $80M
+    start: '2018'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/ai-inference-chips/s11-04.png
+    ini: P
+    slug: perceive
+    domain: perceive.io
+  note:
+  - We tracked the ai inference chips startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Cerebras winning
+
+    the AI inference chip race?'
+  companies:
+  - short: Cerebras
+    src: ../../assets/logos/pp_live/ai-inference-chips/s12-00.png
+  - short: Groq
+    src: ../../assets/logos/pp_live/ai-inference-chips/s12-01.png
+  - short: SambaNova
+    src: ../../assets/logos/pp_live/ai-inference-chips/s12-02.png
+  - short: Etched
+    src: ../../assets/logos/pp_live/ai-inference-chips/s12-03.png
+  - short: d-Matrix
+    src: ../../assets/logos/pp_live/ai-inference-chips/s12-04.png
+  - short: Positron
+    src: ../../assets/logos/pp_live/ai-inference-chips/s12-05.png
+  criteria:
+  - name: Publicly listed
+    why: Raised $5.55B at its IPO
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $10B+ OpenAI contract
+    why: Anchor buyer for inference
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Wafer-scale processor
+    why: One giant chip, fast tokens
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Raised a $100M+ round
+    why: Cash to tape out new chips
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Runs own inference cloud
+    why: Sells tokens, not just chips
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: On-chip SRAM, no HBM
+    why: Avoids memory supply squeeze
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Chips shipping to buyers
+    why: Revenue from real hardware
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really
+
+    belong in AI inference chips?'
+  TL:
+    name: Fireworks AI
+    src: ../../assets/logos/pp_live/ai-inference-chips/s01-00.png
+    text: raised $1.5 billion to serve open models at high speed, but it runs them on Nvidia GPUs, not on chips of its own
+  TR:
+    name: Synopsys
+    src: ../../assets/logos/pp_live/ai-inference-chips/s01-02.png
+    text: sells the software that inference chip startups use to design their processors, but it sells no chips itself
+  BL:
+    name: Grog
+    src: ../../assets/logos/pp_live/ai-inference-chips/s01-09.png
+    text: built LPU chips for fast inference, but since Nvidia licensed its tech and hired its founder, it mostly sells cloud access
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-inference-chips/s01-10.png
+    text: paca launched a pial ie OF Glehis thee vty THEE cf ite SI CLO eS IN Sei TES US is just one block
+  caption:
+  - Distance to the center reflects how specifically a chip is built to run trained models, rather than to train them
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-inference-chips/s01-01.png
+  - ../../assets/logos/pp_live/ai-inference-chips/s01-03.png
+  - ../../assets/logos/pp_live/ai-inference-chips/s01-04.png
+  - ../../assets/logos/pp_live/ai-inference-chips/s01-05.png
+  - ../../assets/logos/pp_live/ai-inference-chips/s01-06.png
+  - ../../assets/logos/pp_live/ai-inference-chips/s01-07.png
+  - ../../assets/logos/pp_live/ai-inference-chips/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s01-01.png
+    x: 483.6
+    y: 277.9
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s01-03.png
+    x: 412.7
+    y: 348.2
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s01-04.png
+    x: 478.9
+    y: 352.3
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s01-05.png
+    x: 545.8
+    y: 345.6
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s01-06.png
+    x: 448.9
+    y: 404.8
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s01-07.png
+    x: 509.8
+    y: 406.3
+  - src: ../../assets/logos/pp_live/ai-inference-chips/s01-08.png
+    x: 485.4
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'People look up AI inference chips
+
+    more, as running AI gets costly'
+  date: Over the past year.
+  expl: Training AI models is expensive, but running them for billions of users costs even more. Nvidia bought Groq’s technology, Google pushed its TPUs,
+    and startups like Cerebras raised big rounds. Inference chips became the next big fight in AI hardware.
+  term: ai inference chips
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-inference-chips/ai-inference-chips.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger
+
+    can this market get?'
+  lead: ''
+  condition: To get that big, token volumes must keep growing faster than token prices fall, and agents must keep using far more compute than chat ever
+    did. It must also keep memory, packaging, and power growing fast enough to turn orders into shipped chips.
+  note:
+  - We compared growth paths from Broadcom, Nvidia and Dell'Oro, and aligned their timelines to build a realistic range
+  - We allowed for falling token prices and maturing capex, and all the sources we used are listed at the end of the report
+  size: 298
+  cagr: 22
+  y0: 2026

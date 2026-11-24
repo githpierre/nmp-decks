@@ -1,0 +1,606 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would cybersecurity
+
+    customers actually pay to solve?'
+  auds:
+  - Security teams
+  - IT admins
+  - Cloud teams
+  - DevOps teams
+  - Compliance leads
+  pains:
+  - - They lose track of which people and machines can access what
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 3
+  - - They cannot fill key security roles for months at a time
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 2
+  - - They pay for dozens of tools that still leave blind spots
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 2
+  - - They can never patch every new flaw before attackers find it
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They miss the one attack that matters in a flood of alerts
+    - - 3
+      - 1
+      - 3
+      - 1
+      - 1
+  - - They redo the same audits for each regulator and each country
+    - - 1
+      - 1
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which cybersecurity player has
+
+    the most complete tech today?'
+  companies:
+  - name: Palo Alto
+    src: ../../assets/logos/pp_live/cybersecurity/s05-00.png
+  - name: Fortinet
+    src: ../../assets/logos/pp_live/cybersecurity/s05-01.png
+  - name: CrowdStrike
+    src: ../../assets/logos/pp_live/cybersecurity/s05-02.png
+  - name: SentinelOne
+    src: ../../assets/logos/pp_live/cybersecurity/s05-03.png
+  - name: Check Point
+    src: ../../assets/logos/pp_live/cybersecurity/s05-04.png
+  - name: Zscaler
+    src: ../../assets/logos/pp_live/cybersecurity/s05-05.png
+  features:
+  - header: Firewall|hardware
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Endpoint|agent
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: SASE|cloud
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Email|security
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Own|SIEM
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Cloud app|security
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Identity|security
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    cybersecurity down?'
+  events:
+  - odds: 50
+    impact: 3
+    text: Microsoft, CrowdStrike and Palo Alto Networks bundle AI security features and squeeze point solution startups
+  - odds: 40
+    impact: 2
+    text: Startups fail to sell AI security tools because buyers wait for big vendors to add them
+  - odds: 35
+    impact: 2
+    text: CISA budget cuts and lapsed threat sharing laws weaken US cyber defense and slow federal deals
+  - odds: 30
+    impact: 2
+    text: AI agents from OpenAI and Google find and patch bugs for free, cutting demand for scanning tools
+  - odds: 30
+    impact: 1
+    text: SEC and EU NIS2 breach rules raise liability for vendors whose products are linked to hacks
+  - odds: 30
+    impact: 2
+    text: Valuations drop after the Wiz deal hype fades, and late-stage cyber startups struggle to raise or exit
+  - odds: 20
+    impact: 1
+    text: Cyber insurance premiums fall and insurers stop requiring tools, slowing sales to mid-size companies
+  - odds: 15
+    impact: 3
+    text: A CrowdStrike-style faulty update crashes millions of computers and buyers question cloud security vendors
+  note:
+  - We listed the events that could slow cybersecurity down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed cybersecurity
+
+    forward, year after year?'
+  events:
+  - year: '1987'
+    text: McAfee sells antivirus to new PC owners
+    impact: 1
+  - year: '1988'
+    text: Morris Worm shows networks can be hijacked
+    impact: 2
+  - year: '1994'
+    text: Check Point firewall sells as internet opens
+    impact: 1.5
+  - year: '1999'
+    text: Melissa virus jams email worldwide
+    impact: 1
+  - year: '2000'
+    text: ILOVEYOU worm hits millions, firms buy AV
+    impact: 1.5
+  - year: '2003'
+    text: California law forces breach disclosure
+    impact: 2
+  - year: '2004'
+    text: PCI rules force merchants to secure cards
+    impact: 1.5
+  - year: '2007'
+    text: TJX breach of 45M cards shocks retail
+    impact: 1.5
+  - year: '2010'
+    text: Stuxnet shows code can wreck machines
+    impact: 2
+  - year: '2013'
+    text: Target breach costs its CEO his job
+    impact: 2
+  - year: '2013'
+    text: Snowden leaks drive encryption everywhere
+    impact: 1.5
+  - year: '2014'
+    text: Sony hack shows firms can be crippled
+    impact: 1.5
+  - year: '2015'
+    text: OPM breach exposes 21M federal records
+    impact: 1
+  - year: '2016'
+    text: Mirai botnet turns cameras into weapons
+    impact: 1
+  - year: '2017'
+    text: WannaCry ransomware freezes NHS hospitals
+    impact: 2.5
+  - year: '2017'
+    text: NotPetya causes $10B in damage worldwide
+    impact: 2
+  - year: '2017'
+    text: Equifax breach hits 147M Americans
+    impact: 1.5
+  - year: '2018'
+    text: GDPR fines make data a board-level risk
+    impact: 2.5
+  - year: '2020'
+    text: SolarWinds hack exposes supply chain risk
+    impact: 2
+  - year: '2020'
+    text: Covid sends staff home, perimeter breaks
+    impact: 2
+  - year: '2021'
+    text: Colonial Pipeline ransom halts US fuel
+    impact: 2.5
+  - year: '2021'
+    text: Biden order mandates zero trust for agencies
+    impact: 1.5
+  - year: '2021'
+    text: Log4j bug sends every firm patching
+    impact: 1
+  - year: '2022'
+    text: Google buys Mandiant for $5.4B
+    impact: 1.5
+  - year: '2023'
+    text: SEC forces hack disclosure within 4 days
+    impact: 1.5
+  - year: '2023'
+    text: Microsoft Security Copilot brings AI to SOCs
+    impact: 1.5
+  - year: '2024'
+    text: Change Healthcare hack stalls US pharmacies
+    impact: 1.5
+  - year: '2024'
+    text: EU NIS2 extends security duties widely
+    impact: 1.5
+  - year: '2025'
+    text: Google's $32B Wiz deal prices cloud security
+    impact: 2.5
+  - year: '2026'
+    text: AI model finds thousands of hidden flaws
+    impact: 2
+  note:
+  - We kept the events we believe pushed cybersecurity forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: cybersecurity
+  title: 'Where did cybersecurity investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of cybersecurity startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the cybersecurity market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-00.png
+    x: 349.3
+    y: 264.4
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-01.png
+    x: 771.0
+    y: 277.1
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-02.png
+    x: 189.0
+    y: 290.1
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-03.png
+    x: 245.1
+    y: 300.0
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-04.png
+    x: 301.9
+    y: 306.6
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-05.png
+    x: 475.3
+    y: 285.0
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-06.png
+    x: 690.9
+    y: 296.8
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-07.png
+    x: 406.7
+    y: 368.4
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-08.png
+    x: 527.1
+    y: 368.4
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-09.png
+    x: 648.0
+    y: 368.4
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-10.png
+    x: 801.4
+    y: 367.7
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-11.png
+    x: 301.9
+    y: 402.6
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-12.png
+    x: 751.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-13.png
+    x: 464.1
+    y: 406.9
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-14.png
+    x: 699.9
+    y: 407.6
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-15.png
+    x: 510.9
+    y: 492.9
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-16.png
+    x: 708.9
+    y: 478.3
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-17.png
+    x: 200.1
+    y: 517.3
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-18.png
+    x: 265.9
+    y: 505.3
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-19.png
+    x: 333.0
+    y: 510.6
+  - src: ../../assets/logos/pp_live/cybersecurity/s10-20.png
+    x: 790.1
+    y: 507.9
+  cols:
+  - Prevent & enforce
+  - Detect & respond
+  - Validate & optimize
+  rows:
+  - Identity:-& access
+  - Lately. Drones got
+  - Data, SaaS & humans
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these cybersecurity
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Sales|stalled
+  - Rivals|won
+  - Debt|too heavy
+  rows:
+  - name: IronNet
+    ending: Went bankrupt
+    start: '2014'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cybersecurity/s11-00.png
+    ini: I
+    slug: ironnet
+    domain: ironnet.com
+  - name: Lacework
+    ending: Sold below $200M
+    start: '2015'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/cybersecurity/s11-01.png
+    ini: L
+    slug: lacework
+    domain: lacework.com
+  - name: Skybox Security
+    ending: Shut down
+    start: '2002'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cybersecurity/s11-02.png
+    ini: S
+    slug: skybox-security
+    domain: skyboxsecurity.com
+  - name: Appgate
+    ending: Went bankrupt
+    start: '2017'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/cybersecurity/s11-03.png
+    ini: A
+    slug: appgate
+    domain: appgate.com
+  - name: Cyren
+    ending: Shut down
+    start: '1991'
+    end: '2023'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/cybersecurity/s11-04.png
+    ini: C
+    slug: cyren
+    domain: cyren.com
+  note:
+  - We tracked the cybersecurity startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is CrowdStrike winning
+
+    the endpoint security market?'
+  companies:
+  - short: CrowdStrike
+    src: ../../assets/logos/pp_live/cybersecurity/s12-00.png
+  - short: SentinelOne
+    src: ../../assets/logos/pp_live/cybersecurity/s12-01.png
+  - short: Palo Alto
+    src: ../../assets/logos/pp_live/cybersecurity/s12-02.png
+  - short: Microsoft
+    src: ../../assets/logos/pp_live/cybersecurity/s12-03.png
+  - short: Trend Micro
+    src: ../../assets/logos/pp_live/cybersecurity/s12-04.png
+  - short: Sophos
+    src: ../../assets/logos/pp_live/cybersecurity/s12-05.png
+  criteria:
+  - name: Top modern endpoint share
+    why: Most bought EDR platform
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Gartner endpoint Leader
+    why: Trusted by big buyers
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Security ARR above $4B
+    why: Scale funds faster R&D
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Cloud native from day one
+    why: No legacy on-prem baggage
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Next-gen SIEM in platform
+    why: Replaces costly old SIEMs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: 24/7 managed detection
+    why: Experts run it for clients
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Flex module licensing
+    why: Customers add modules fast
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the cybersecurity market?'
+  TL:
+    name: Microsoft
+    src: ../../assets/logos/pp_live/cybersecurity/s01-00.png
+    text: runs a security business of over $20 billion a year, but that is a small part of a company built on cloud and software
+  TR:
+    name: ADT
+    src: ../../assets/logos/pp_live/cybersecurity/s01-02.png
+    text: is one of the best-known names in security, but its alarms and cameras protect homes and offices, not networks or data
+  BL:
+    name: Veeam
+    src: ../../assets/logos/pp_live/cybersecurity/s01-10.png
+    text: is known for backup, which we exclude, but now sells ransomware recovery and bought Securiti AI to move into data security
+  BR:
+    name: Cloudflare
+    src: ../../assets/logos/pp_live/cybersecurity/s01-11.png
+    text: began as a network that speeds up websites and now sells firewalls and Zero Trust access on top, so it sits on the line
+  caption:
+  - Distance to the center reflects how much protecting systems, data and users from cyber threats is the product's main purpose
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/cybersecurity/s01-01.png
+  - ../../assets/logos/pp_live/cybersecurity/s01-03.png
+  - ../../assets/logos/pp_live/cybersecurity/s01-04.png
+  - ../../assets/logos/pp_live/cybersecurity/s01-05.png
+  - ../../assets/logos/pp_live/cybersecurity/s01-06.png
+  - ../../assets/logos/pp_live/cybersecurity/s01-07.png
+  - ../../assets/logos/pp_live/cybersecurity/s01-08.png
+  - ../../assets/logos/pp_live/cybersecurity/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/cybersecurity/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/cybersecurity/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/cybersecurity/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/cybersecurity/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/cybersecurity/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/cybersecurity/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/cybersecurity/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/cybersecurity/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more companies look
+
+    for a cybersecurity firm after big hacks'
+  date: Lately.
+  expl: Cyberattacks stopped being a tech story. Hackers shut down retailers like Marks & Spencer, airlines and carmakers, and AI made scams and phishing
+    much more convincing. Businesses and people started searching for cybersecurity firms that can actually help.
+  term: cybersecurity
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/cybersecurity/cybersecurity.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  lead: 'To fill that room, '
+  condition: the market must turn AI from a weapon for attackers into a shield, with agents that find and fix flaws before criminals do. It must also keep
+    budgets growing while buyers cut tools, and protect the huge number of machine identities that AI agents create.
+  note:
+  - We compared forecasts from Gartner, IDC, Grand View and Fortune Business Insights and adjusted each one to our market
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: 275
+  cagr: 12
+  y0: 2026

@@ -1,0 +1,607 @@
+ed058:
+  type: pp_pains
+  title: 'Which industrial robot problems
+
+    are still waiting to be solved?'
+  auds:
+  - E-commerce firms
+  - Parcel carriers
+  - Car plants
+  - Grocery chains
+  - 3PL operators
+  pains:
+  - - They see robots fail on soft, shiny or tangled items in bins
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They lose output when one stuck robot stops a whole aisle
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They pay too much for systems that fit only one single site
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 3
+  - - They struggle to run robots from several vendors at once
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They wait years for a large storage system to finally pay back
+    - - 2
+      - 1
+      - 2
+      - 3
+      - 3
+  - - They cannot find enough staff to run and repair their robots
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which robot maker offers the
+
+    most complete tech today?'
+  companies:
+  - name: FANUC
+    src: ../../assets/logos/pp_live/industrial-robotics/s05-00.png
+  - name: ABB
+    src: ../../assets/logos/pp_live/industrial-robotics/s05-01.png
+  - name: KUKA
+    src: ../../assets/logos/pp_live/industrial-robotics/s05-02.png
+  - name: Yaskawa
+    src: ../../assets/logos/pp_live/industrial-robotics/s05-03.png
+  - name: UR
+    src: ../../assets/logos/pp_live/industrial-robotics/s05-04.png
+  features:
+  - header: SCARA|robots
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Own|CNC
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Cobot|30 kg+
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Paint|robots
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Payload|over 1 t
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Own mobile|robots
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: 1 million|robots
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for industrial robots?'
+  events:
+  - odds: 30
+    impact: 3
+    text: Chinese robot brands like Estun and Inovance undercut FANUC and ABB on price worldwide
+  - odds: 25
+    impact: 3
+    text: A carmaker slump cuts robot orders sharply in North America and Europe for years
+  - odds: 20
+    impact: 2
+    text: Funding freezes for industrial robot startups that raised $500 million rounds with few paying customers
+  - odds: 20
+    impact: 3
+    text: FANUC, ABB and Universal Robots add NVIDIA AI to their robots and keep most factory customers
+  - odds: 15
+    impact: 2
+    text: AI robot models stop improving and still fail fine factory tasks, delaying flexible automation
+  - odds: 10
+    impact: 2
+    text: US-China trade fights cut supply of motors, chips and magnets for industrial robot makers
+  - odds: 8
+    impact: 2
+    text: A humanoid or cobot seriously injures a factory worker, and regulators slow robot deployments
+  - odds: 5
+    impact: 1
+    text: Unions win new laws in Europe or the US that slow factory robot deployments
+  note:
+  - We listed the events that could slow industrial robotics down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed industrial robots
+
+    forward, year after year?'
+  events:
+  - year: '1961'
+    text: Unimate joins GM line, handling hot castings
+    impact: 3
+  - year: '1969'
+    text: Kawasaki licenses Unimate for Japan
+    impact: 1
+  - year: '1973'
+    text: KUKA Famulus brings six motor driven axes
+    impact: 1
+  - year: '1974'
+    text: ASEA IRB 6 puts a microchip inside
+    impact: 1
+  - year: '1980'
+    text: Japan auto boom makes robots a must
+    impact: 1.5
+  - year: '1982'
+    text: GM and Fanuc team up on robots
+    impact: 1
+  - year: '2001'
+    text: Fanuc robots build robots in dark factories
+    impact: 0.5
+  - year: '2008'
+    text: UR5 cobot works beside people, uncaged
+    impact: 2.5
+  - year: '2010'
+    text: Foxconn wage hikes push China toward robots
+    impact: 1.5
+  - year: '2011'
+    text: Industry 4.0 plan links factory machines
+    impact: 1
+  - year: '2011'
+    text: Foxconn vows one million robots
+    impact: 1
+  - year: '2012'
+    text: Baxter shows arms can learn by demo
+    impact: 0.5
+  - year: '2013'
+    text: China becomes the top buyer of robots
+    impact: 2
+  - year: '2013'
+    text: Google buys Boston Dynamics, tech piles in
+    impact: 0.5
+  - year: '2015'
+    text: Made in China 2025 puts robots first
+    impact: 2
+  - year: '2015'
+    text: Teradyne buys Universal Robots, cobots go big
+    impact: 1.5
+  - year: '2016'
+    text: ISO rule sets safety limits for cobots
+    impact: 1
+  - year: '2016'
+    text: Midea buys KUKA, China gains know how
+    impact: 1.5
+  - year: '2018'
+    text: Trade war spreads factories to new countries
+    impact: 1
+  - year: '2018'
+    text: Teradyne buys MiR, robots start to roam
+    impact: 1
+  - year: '2020'
+    text: Covid halts lines, firms automate
+    impact: 1.5
+  - year: '2021'
+    text: Post Covid labor gap brings record orders
+    impact: 2
+  - year: '2022'
+    text: IRA battery plants order robots in bulk
+    impact: 2
+  - year: '2023'
+    text: China Robot+ plan aims to double density
+    impact: 1
+  - year: '2023'
+    text: China EV boom fills plants with robots
+    impact: 1.5
+  - year: '2024'
+    text: Figure humanoid tested at BMW plant
+    impact: 1
+  - year: '2024'
+    text: China installs more robots than all others
+    impact: 2.5
+  - year: '2025'
+    text: Google AI models teach arms new tasks
+    impact: 1
+  - year: '2025'
+    text: SoftBank pays $5.4B for ABB robots
+    impact: 2
+  - year: '2026'
+    text: Factory robot fleet passes five million
+    impact: 1
+  note:
+  - We kept the events we believe pushed industrial robotics forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: industrial-robotics
+  title: 'Where did industrial robot investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of industrial robotics startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    industrial robotics today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-00.png
+    x: 271.3
+    y: 268.7
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-01.png
+    x: 336.4
+    y: 277.3
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-02.png
+    x: 393.6
+    y: 265.7
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-03.png
+    x: 558.2
+    y: 265.3
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-04.png
+    x: 729.2
+    y: 270.4
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-05.png
+    x: 808.9
+    y: 270.4
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-06.png
+    x: 507.4
+    y: 296.6
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-07.png
+    x: 609.2
+    y: 288.9
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-08.png
+    x: 675.9
+    y: 303.9
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-09.png
+    x: 315.4
+    y: 370.3
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-10.png
+    x: 528.0
+    y: 372.0
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-11.png
+    x: 713.4
+    y: 369.0
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-12.png
+    x: 822.9
+    y: 372.9
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-13.png
+    x: 251.1
+    y: 375.4
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-14.png
+    x: 388.5
+    y: 387.0
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-15.png
+    x: 472.9
+    y: 388.7
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-16.png
+    x: 579.6
+    y: 397.7
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-17.png
+    x: 770.4
+    y: 408.9
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-18.png
+    x: 305.4
+    y: 473.6
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-19.png
+    x: 363.2
+    y: 492.4
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-20.png
+    x: 488.8
+    y: 487.9
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-21.png
+    x: 591.6
+    y: 481.3
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-22.png
+    x: 757.7
+    y: 479.6
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-23.png
+    x: 817.1
+    y: 475.3
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-24.png
+    x: 252.2
+    y: 497.6
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-25.png
+    x: 540.2
+    y: 512.6
+  - src: ../../assets/logos/pp_live/industrial-robotics/s10-26.png
+    x: 682.3
+    y: 495.4
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Warehouse
+  - Factory [
+  - Software
+  note:
+  - We left out incumbents and big tech like FANUC, ABB, KUKA, Amazon and Symbotic
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'Why did these robot startups
+
+    fail, and how did they end?'
+  causes:
+  - Funding|fell through
+  - Ran out|of cash
+  - Weak|demand
+  - Sold or|team taken
+  rows:
+  - name: Rethink
+    ending: Shut down twice
+    start: '2008'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/industrial-robotics/s11-00.png
+    ini: R
+    slug: rethink-robotics
+    domain: rethinkrobotics.com
+  - name: READY Robotics
+    ending: Shut down
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/industrial-robotics/s11-01.png
+    ini: R
+    slug: ready-robotics
+    domain: ready-robotics.com
+  - name: Attabotics
+    ending: Went bankrupt
+    start: '2016'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/industrial-robotics/s11-02.png
+    ini: A
+    slug: attabotics
+    domain: attabotics.com
+  - name: Berkshire Grey
+    ending: Sold for $375M
+    start: '2013'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/industrial-robotics/s11-03.png
+    ini: B
+    slug: berkshire-grey
+    domain: berkshiregrey.com
+  - name: 6 River Systems
+    ending: Sold to Ocado
+    start: '2015'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/industrial-robotics/s11-04.png
+    ini: '6'
+    slug: 6-river-systems
+    domain: 6river.com
+  - name: Covariant
+    ending: Team to Amazon
+    start: '2017'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/industrial-robotics/s11-05.png
+    ini: C
+    slug: covariant
+    domain: covariant.ai
+  note:
+  - We tracked the industrial robotics startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'What makes Fanuc the leader
+
+    in industrial robots today?'
+  companies:
+  - short: Fanuc
+    src: ../../assets/logos/pp_live/industrial-robotics/s12-00.png
+  - short: ABB
+    src: ../../assets/logos/pp_live/industrial-robotics/s12-01.png
+  - short: Yaskawa
+    src: ../../assets/logos/pp_live/industrial-robotics/s12-02.png
+  - short: KUKA
+    src: ../../assets/logos/pp_live/industrial-robotics/s12-03.png
+  - short: Estun
+    src: ../../assets/logos/pp_live/industrial-robotics/s12-04.png
+  criteria:
+  - name: 1M+ robots installed
+    why: Largest base in the world
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Robots plus CNC controls
+    why: One stop factory automation
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Operating margin over 15%
+    why: Cash to outinvest rivals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Publicly listed
+    why: Access to public capital
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Cobot product line
+    why: Sells to smaller factories
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Chinese owner or base
+    why: Cheaper supply in China
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: ''
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/industrial-robotics/s01-00.png
+    text: ''
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/industrial-robotics/s01-02.png
+    text: ''
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/industrial-robotics/s01-10.png
+    text: ''
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/industrial-robotics/s01-11.png
+    text: ''
+  caption: []
+  inside:
+  - ../../assets/logos/pp_live/industrial-robotics/s01-01.png
+  - ../../assets/logos/pp_live/industrial-robotics/s01-03.png
+  - ../../assets/logos/pp_live/industrial-robotics/s01-04.png
+  - ../../assets/logos/pp_live/industrial-robotics/s01-05.png
+  - ../../assets/logos/pp_live/industrial-robotics/s01-06.png
+  - ../../assets/logos/pp_live/industrial-robotics/s01-07.png
+  - ../../assets/logos/pp_live/industrial-robotics/s01-08.png
+  - ../../assets/logos/pp_live/industrial-robotics/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/industrial-robotics/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/industrial-robotics/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/industrial-robotics/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/industrial-robotics/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/industrial-robotics/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/industrial-robotics/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/industrial-robotics/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/industrial-robotics/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More people look up industrial robots,
+
+    as factories struggle to hire workers'
+  date: Lately.
+  expl: Factories keep struggling to hire, and new robots are cheaper and easier to program than before. More companies started looking at industrial robots
+    to take over repetitive work.
+  term: industrial robotics
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/industrial-robotics/industrial-robotics.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the industrial robotics
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but the market must make AI robots reliable enough for full shifts, and cut the cost of setting up each robot cell. It must also train
+    enough workers to run robots, and pass new safety rules for humanoids and mobile robots.
+  note:
+  - We compared forecasts from MarketsandMarkets, Stratview, Grand View and Fortune
+  - We aligned their timelines, and all the sources we used are listed at the end of the report
+  size: 28
+  cagr: 10
+  y0: 2029

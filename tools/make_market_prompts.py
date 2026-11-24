@@ -112,7 +112,14 @@ def selfcheck(fname):
 
 
 def block(sid, model, src, extra=''):
-    e = base.example(model); LIMS[sid] = {**spec.limits(model), **({'note_line': spec.SPEC[spec.tpl(model)]['note_line']} if 'note_line' in (spec.SPEC.get(spec.tpl(model)) or {}) else {}), **({'__icons__': 1} if spec.tpl(model) in spec.ICON_TPL else {})}; L = None   # ranges from specs/slides.yaml (method v2, 14 Nov 2026), no longer the length of the model text
+    e = base.example(model)
+    if spec.tpl(model) == 'startups_stand_out' and isinstance(e.get('t'), dict):
+        # the base lists the keys as 23, 18, 19, 22…: the other LLM read « 23 then 18 » as one company and swapped two companies twice
+        # (Neocloud and AI drug discovery, Nov 2026). The header k sits over the text k-1, so the model now shows each pair together.
+        t0 = e['t']; hs = sorted(int(k) for k in t0 if int(k) % 2 == 1 and int(k) - 1 in {int(x) for x in t0})
+        e['t'] = {**{k2: t0[k2] for h in hs for k2 in (h, h - 1) if k2 in t0}, **{k: v for k, v in t0.items() if int(k) not in {x for h in hs for x in (h, h - 1)}}}
+        extra = (extra + '\nEach capital header is the company of the sentence just under it in this list (19 with 18, 23 with 22…).').strip()
+    LIMS[sid] = {**spec.limits(model), **({'note_line': spec.SPEC[spec.tpl(model)]['note_line']} if 'note_line' in (spec.SPEC.get(spec.tpl(model)) or {}) else {}), **({'__icons__': 1} if spec.tpl(model) in spec.ICON_TPL else {})}; L = None   # ranges from specs/slides.yaml (method v2, 14 Nov 2026), no longer the length of the model text
     t = f"### {sid}\n{src} model (structure only):\n```yaml\n{yaml.dump(e, allow_unicode=True, sort_keys=False, width=200)}```\n"
     t += spec.describe(model)
     if extra: t += extra.strip() + '\n'
@@ -129,6 +136,11 @@ def main():
     ids = structure(ref, spec)
     skip = set(spec.get('pierre_dropped', [])) | set(spec.get('live_twins', [])) | DB_IDS
     pains, vals = spec['pain_segments'], spec['value_segments']
+    # segment names go in capital card labels: a word over 10 letters is cut in two (MGA, 22 Nov 2026: « Business policyholders »,
+    # POLICYHOLDERS = 13 letters, had to be renamed after Pierre had approved it). Check BEFORE proposing names to Pierre.
+    for seg in pains + vals:
+        for w in seg.replace('-', ' ').split():
+            if len(w) > 10: print(f'SEGMENT WORD TOO LONG: « {w} » in « {seg} » ({len(w)} letters, cut in capital labels): rename the segment')
     EVERGREEN = set(spec.get('evergreen_chapters', ['01', '04', '06']))   # market definition, pain points, value creation: Claude writes them, the research LLM only gets dated facts
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True); files, asked = [], []
     RT = spec.get('retarget', {}); EX = {k: v.format(pains='; '.join(pains), vals='; '.join(vals), np=len(pains), nv=len(vals)) for k, v in spec.get('extra', {}).items()}
@@ -227,7 +239,7 @@ sources:
   - {{claim: ..., url: ..., date: ..., quote: <exact supporting sentence, under 25 words>}}
 ```
 
-RULES: plain US English, no em dash; primary sources first ({spec['sources_hint']}); a database such as Crunchbase or PitchBook alone is never a source; never use newmarketpitch.com; {X['not_proof']}; one measure per chart; every number of the title must appear in the data; money written $285M, $4.2B; mark estimates as estimates.
+RULES: plain US English, no em dash; primary sources first ({spec['sources_hint']}); a database such as Crunchbase or PitchBook alone is never a source; never use newmarketpitch.com; {X['not_proof']}; one measure per chart; every number of the title must appear in the data; money written $285M, $4.2B, alone in a value cell (its year goes in the comment); mark estimates as estimates.
 Before delivering, check every candidate against its "keep only if" condition and every number against its quote; drop what fails.
 
 OUTPUT: ONE downloadable Markdown file named exactly {fname} (not a chat message), candidates ranked by total score. Do not ask questions.

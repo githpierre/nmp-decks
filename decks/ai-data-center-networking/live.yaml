@@ -1,0 +1,493 @@
+ed058:
+  type: pp_pains
+  title: 'What has already been fixed in AI
+
+    networking, and what is left to solve?'
+  auds:
+  - Cloud giants
+  - AI labs
+  - GPU clouds
+  - Network teams
+  - Telecom carriers
+  pains:
+  - - They see slow links leave expensive GPUs waiting for data
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They wait months for optical parts and fast switches to ship
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 2
+  - - They struggle to find and fix a single bad link in a huge cluster
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They must choose between InfiniBand and Ethernet for years
+    - - 2
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They need fast links between data centers that sit far apart
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 3
+  - - They pay a lot for optics that use more power each generation
+    - - 3
+      - 1
+      - 2
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Who has built the full AI networking
+
+    stack, and who still relies on partners?'
+  companies:
+  - name: Nvidia
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s05-00.png
+  - name: Cisco
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s05-01.png
+  - name: HPE
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s05-02.png
+  - name: Nokia
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s05-03.png
+  - name: Arista
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s05-04.png
+  features:
+  - header: Own switch|chips
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: InfiniBand|fabric
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Co-packaged|optics
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Deep-buffer|routers
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Own|AI NICs
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Coherent|optics
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Own network|OS
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to AI data center networking?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Nvidia bundles Spectrum X Ethernet and NVLink with its GPUs, squeezing Arista and networking startups
+  - odds: 40
+    impact: 2
+    text: Broadcom Tomahawk and Jericho chips dominate switching and leave little room for new silicon startups
+  - odds: 35
+    impact: 2
+    text: Co packaged optics delays push back the shift that startups like Ayar Labs and Celestial AI need
+  - odds: 35
+    impact: 2
+    text: Chinese optics makers like Innolight face US tariffs and bans that disrupt transceiver supply
+  - odds: 30
+    impact: 2
+    text: Hyperscalers like Google and Meta design their own network chips and stop buying from startups
+  - odds: 25
+    impact: 3
+    text: Hyperscalers cut AI capex after weak returns, shrinking orders for switches and optical transceivers
+  - odds: 20
+    impact: 1
+    text: Ultra Ethernet Consortium standards split vendors and slow adoption of new AI fabrics in data centers
+  - odds: 12
+    impact: 1
+    text: A large AI cluster suffers long outages from network failures, damaging trust in a new vendor
+  note:
+  - We listed the events that could slow ai data center networking down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept AI data center networking
+
+    moving forward, year after year?'
+  events:
+  - year: '2000'
+    text: InfiniBand standard links servers at speed
+    impact: 1
+  - year: '2008'
+    text: Fat tree design shows cheap switches scale
+    impact: 1
+  - year: '2010'
+    text: RoCE brings fast RDMA to Ethernet
+    impact: 1
+  - year: '2011'
+    text: Open Compute opens up data center hardware
+    impact: 1
+  - year: '2014'
+    text: Nvidia unveils NVLink to join GPUs directly
+    impact: 1.5
+  - year: '2017'
+    text: Transformers spread training across many GPUs
+    impact: 1.5
+  - year: '2018'
+    text: NVSwitch links 16 GPUs as one
+    impact: 1
+  - year: '2019'
+    text: Nvidia buys Mellanox for $6.9B
+    impact: 2.5
+  - year: '2020'
+    text: GPT-3 needs thousands of linked GPUs
+    impact: 1.5
+  - year: '2021'
+    text: 400G optics enter mass production
+    impact: 1
+  - year: '2022'
+    text: ChatGPT sets off GPU cluster buildouts
+    impact: 3
+  - year: '2023'
+    text: Google uses optical switches in TPU pods
+    impact: 1
+  - year: '2023'
+    text: Nvidia launches Spectrum-X Ethernet for AI
+    impact: 1.5
+  - year: '2023'
+    text: Ultra Ethernet forms to rival InfiniBand
+    impact: 1.5
+  - year: '2024'
+    text: Blackwell NVL72 links 72 GPUs per rack
+    impact: 2.5
+  - year: '2024'
+    text: Meta builds 24,000 GPU cluster on Ethernet
+    impact: 1.5
+  - year: '2024'
+    text: Nvidia unveils 800G switches for AI
+    impact: 1.5
+  - year: '2024'
+    text: UALink group forms to rival NVLink
+    impact: 1
+  - year: '2024'
+    text: xAI Colossus runs 100,000 GPUs on Ethernet
+    impact: 1.5
+  - year: '2025'
+    text: UALink 1.0 opens GPU links to all
+    impact: 1
+  - year: '2025'
+    text: Nvidia opens NVLink Fusion to other chips
+    impact: 1
+  - year: '2025'
+    text: Ultra Ethernet 1.0 spec is released
+    impact: 1.5
+  - year: '2025'
+    text: Broadcom Tomahawk 6 doubles switch speed
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia links distant sites with Spectrum-XGS
+    impact: 1
+  - year: '2025'
+    text: Meta and Oracle pick Nvidia Ethernet switches
+    impact: 1.5
+  - year: '2025'
+    text: OpenAI picks Broadcom Ethernet for 10 GW
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia networking sales top $8B a quarter
+    impact: 1.5
+  - year: '2025'
+    text: Marvell buys Celestial AI for optical links
+    impact: 1
+  - year: '2026'
+    text: Nvidia co-packaged optics switches ship
+    impact: 2
+  - year: '2026'
+    text: Nvidia invests $4B in Lumentum and Coherent
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai data center networking forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-data-center-networking
+  title: 'Where did AI data center networking
+
+    investors put their money this past year?'
+  note:
+  - We added up every equity round of ai data center networking startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    AI data center networking?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-00.png
+    x: 272.8
+    y: 280.7
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-01.png
+    x: 607.3
+    y: 276.4
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-02.png
+    x: 675.0
+    y: 265.7
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-03.png
+    x: 801.6
+    y: 273.0
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-04.png
+    x: 386.8
+    y: 286.7
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-05.png
+    x: 475.7
+    y: 303.0
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-06.png
+    x: 549.2
+    y: 298.3
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-07.png
+    x: 728.4
+    y: 291.4
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-08.png
+    x: 684.6
+    y: 371.1
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-09.png
+    x: 308.1
+    y: 375.4
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-10.png
+    x: 382.3
+    y: 388.5
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-11.png
+    x: 527.4
+    y: 399.4
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-12.png
+    x: 586.9
+    y: 375.4
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-13.png
+    x: 763.1
+    y: 407.6
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-14.png
+    x: 367.9
+    y: 491.1
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-15.png
+    x: 528.6
+    y: 478.7
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-16.png
+    x: 597.2
+    y: 475.3
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-17.png
+    x: 813.6
+    y: 494.1
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-18.png
+    x: 306.4
+    y: 510.0
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s10-19.png
+    x: 747.6
+    y: 500.1
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Optical I/O
+  - Switch fabric
+  - Chip links
+  note:
+  - We left out listed companies and incumbents like Nvidia, Broadcom and Arista
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why is Innolight winning
+
+    the AI optics market?'
+  companies:
+  - short: Innolight
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s12-00.png
+  - short: Eoptolink
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s12-01.png
+  - short: Coherent
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s12-02.png
+  - short: Accelink
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s12-03.png
+  - short: Lumentum
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s12-04.png
+  criteria:
+  - name: No.1 transceiver seller
+    why: Ranked first by LightCounting
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $5B+ transceiver sales
+    why: Scale lowers cost per port
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Supplies all top clouds
+    why: Every hyperscaler buys it
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 1.6T modules in volume
+    why: First to the newest speed
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Plants outside China
+    why: Shields buyers from tariffs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Own laser chip fab
+    why: Controls a scarce component
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in AI data center networking?'
+  TL:
+    name: HPE
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s01-00.png
+    text: grew data center networking almost fivefold with Juniper, but campus and branch gear still sells nearly three times more
+  TR:
+    name: Ubiquiti
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s01-02.png
+    text: sold over $3 billion of switches and Wi-Fi gear last year, but to offices and homes, not to link GPUs in AI clusters
+  BL:
+    name: Astera Labs
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s01-09.png
+    text: sells Scorpio switches that link GPUs inside a rack over PCIe, which blurs the line between server and network
+  BR:
+    name: Marvell
+    src: ../../assets/logos/pp_live/ai-data-center-networking/s01-10.png
+    text: makes about 76% of its revenue in data centers, but a big part comes from custom AI processors rather than networking
+  caption:
+  - Distance to the center reflects how much of a product exists to move data between GPUs and servers inside AI clusters
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-data-center-networking/s01-01.png
+  - ../../assets/logos/pp_live/ai-data-center-networking/s01-03.png
+  - ../../assets/logos/pp_live/ai-data-center-networking/s01-04.png
+  - ../../assets/logos/pp_live/ai-data-center-networking/s01-05.png
+  - ../../assets/logos/pp_live/ai-data-center-networking/s01-06.png
+  - ../../assets/logos/pp_live/ai-data-center-networking/s01-07.png
+  - ../../assets/logos/pp_live/ai-data-center-networking/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s01-01.png
+    x: 506.4
+    y: 280.9
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s01-03.png
+    x: 422.4
+    y: 334.9
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s01-04.png
+    x: 486.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s01-05.png
+    x: 553.1
+    y: 360.2
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s01-06.png
+    x: 445.9
+    y: 397.9
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s01-07.png
+    x: 505.3
+    y: 412.1
+  - src: ../../assets/logos/pp_live/ai-data-center-networking/s01-08.png
+    x: 469.1
+    y: 463.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up AI network
+
+    cables, the new bottleneck of AI chips'
+  date: Lately.
+  expl: An AI supercomputer is only as fast as the links between its chips. Nvidia’s networking business grew to billions of dollars a quarter, Broadcom
+    and Arista rode the same wave, and engineers started saying the network, not the chip, was the real limit. People went looking for what AI networking
+    is.
+  term: ai data center networking
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-data-center-networking/ai-data-center-networking.csv
+ed052p:
+  type: pp_cagr
+  title: 'How does it compare
+
+    to other markets?'
+  lead: ''
+  condition: SWITCHES $55B
+  note:
+  - We pulled the latest public market size figures from research firms and industry pages
+  - We compared them with tech markets of a similar size, with all the sources at the end of the report
+  size: null
+  cagr: null
+  y0: null

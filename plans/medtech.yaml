@@ -1,0 +1,127 @@
+# Spec of the research prompts for the MedTech deck (tools/make_market_prompts.py). Method v2, piste A checks, piste B gate.
+# Pierre 23 Nov 2026: pain segments option A (types of buyer + patients at home), value segments option A (the 7 base categories,
+# Medical Imaging Systems merged into Diagnostic devices; names of the live S09, « Surgical systems » instead of « Surgical
+# robotics » because 27 of 66 companies make no robot). Base as of 4 Nov 2026 (Pierre: no update). Oura out (wellness, rule 1).
+# Trends term: medtech, curve stopped at the end of July 2025 (Pierre, option A: Google's small-term effect after that).
+name: MedTech
+handle: medtech
+uuid: 57
+date: '2026-11-23'
+today: 23 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and SEC or exchange filings (Intuitive Surgical, Medtronic, Boston Scientific, Abbott, Stryker, Johnson & Johnson MedTech, Dexcom, Edwards Lifesciences, Siemens Healthineers,
+  GE HealthCare, CMR Surgical, Neuralink, HistoSonics, Kardium, Synchron, Precision Neuroscience, HeartFlow, Aidoc, Viz.ai), FDA databases (510(k), De Novo, PMA, breakthrough devices, the list of
+  AI-enabled medical devices, recalls), CMS documents (TCET, payment codes), EU MDR documents, ClinicalTrials.gov, the EY Pulse of the MedTech Industry report, AdvaMed and MedTech Europe data,
+  peer-reviewed journals (NEJM, The Lancet, JAMA, Nature Medicine), market research firms with a named method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, STAT News,
+  MedTech Dive, MassDevice, Fierce Biotech, Endpoints).
+# where the problem is felt (types of buyer, and patients at home): option A (Pierre, 23 Nov 2026)
+pain_segments:
+- Hospitals and health systems
+- Surgeons and specialists
+- Labs and clinics
+- Patients at home
+# types of solution: option A (Pierre, 23 Nov 2026), names of the live S09
+#   Implantable devices = Implantable & Cardiovascular Devices | Therapeutic devices = Therapeutic & Neuromodulation Devices
+#   Diagnostic devices = Diagnostic & Monitoring Devices + Medical Imaging Systems | Surgical systems = Surgical & Robotic Systems
+#   Medical software = Clinical Diagnostic & Imaging Software | Patient monitoring = Connected Clinical Sensors & Software
+value_segments:
+- Implantable devices
+- Therapeutic devices
+- Diagnostic devices
+- Surgical systems
+- Medical software
+- Patient monitoring
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/medtech (same slide type as the deck twin). No donut on the live
+# S03 (ed048 dropped). S11 live is « What broke these medtech startups » (ed201, dead mode); ed199p comes from the research.
+live_twins:
+- ed007p
+- ed039p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed201
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which new medical devices are closest to patients?
+    brief: 8 rows = 8 real new devices of medtech startups or young companies in the final steps before or just after reaching patients. Rows read "device" + "COMPANY · CONDITION" + stage (EARLY
+      / PIVOT / FILED / FDA, 6 characters at most, EARLY = first-in-human or feasibility study, PIVOT = pivotal trial, FILED = submitted to the FDA, FDA = cleared or approved in the last 12 months).
+      Only devices listed on ClinicalTrials.gov, in an FDA database or in a company release. Not a lab prototype.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between medtech startups or young medtech companies and large groups (acquisitions by Medtronic, Boston Scientific, Stryker, Abbott, Johnson & Johnson MedTech, Edwards or
+      Zimmer Biomet, large strategic investments, distribution deals, IPOs), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to bring a new device to patients?
+    brief: 5 steps from a working prototype to a device hospitals buy and insurers pay for (for example bench and animal tests, a first-in-human or feasibility study, a pivotal trial, the regulatory
+      path such as FDA 510(k), De Novo or PMA and the CE mark in Europe, then a payment code and a yes from the hospital's value committee). Each step in plain words with who decides and a typical
+      duration and cost.
+  iv_safety:
+    title: What could go wrong with new medical devices?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example large recalls such as Philips breathing machines, implants that fail and need a second surgery,
+      hacked connected devices, AI tools whose accuracy drops in new hospitals, a pivotal trial that misses its goal). Real filings, FDA records, reports or reported cases only.
+extra:
+  ed061: 'For MedTech: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line
+    description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed032: 'Do not use Google searches as a signal: Google changed how it counts search terms in mid-2025, so a recent rise in searches is not real interest. Use 7 signals of money, deals, approvals, sales or use instead.'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: robotic surgery growth (Intuitive da Vinci procedures and systems placed, CMR Surgical, Distalmotion, Medical Microinstruments), pulsed field ablation for atrial fibrillation (Boston
+  Scientific Farapulse sales, Medtronic, Kardium), over-the-counter glucose sensors (Dexcom Stelo, Abbott Lingo), brain-computer interfaces in people (Neuralink, Synchron, Precision Neuroscience 510(k)),
+  the number of AI-enabled devices on the FDA list each year, funding records (CMR Surgical, Neuralink, HistoSonics, Kardium, MiRus), large acquisitions of startups (Johnson & Johnson and Shockwave,
+  Stryker and Inari, Boston Scientific and Axonics or Bolt Medical, the HistoSonics sale), medtech IPOs (HeartFlow, Kestra, Ceribell, Beta Bionics, Carlsmed), Medicare TCET coverage. Never Google searches
+  (Google changed how it counts search terms in mid-2025, so recent search curves are not real interest).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, pivotal trials that missed their goal, FDA rejections or warning letters,
+  recalls, layoffs, sales of the company for little, valuations or share prices that fell, insurers refusing to pay. Scope: companies whose core product is a medical device, a diagnostic device or
+  software with a direct clinical purpose (implants, therapeutic devices, diagnostic and imaging devices, surgical systems, medical software, patient monitoring), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, trial missed, FDA problem or recall, value fell, shut down or sold). Each cell is two short
+  lines separated by | or empty. Give the website domain of each company.
+
+  - ed200: why medtech startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: MedTech
+label: MedTech
+keep_together:
+- MedTech
+- medtech
+examples:
+  jargon_bad: Closed-loop spinal cord stimulation with ECAP-based dose control via a percutaneous lead.
+  jargon_good: A small implant that calms back pain with tiny electric pulses and adjusts itself thousands of times a day.
+  jargon_why: the reader is not a doctor or an engineer
+  proof_rule: 'A CE mark, a "breakthrough device" label, a first patient or a positive small study is not proof that a device sells: say whether it is cleared or approved by the FDA, how many patients
+    or hospitals use it, the revenue when public, and who reported it.'
+  proof_bad: Company X's device got Breakthrough Device designation from the FDA.
+  proof_good: Company X's device was cleared by the FDA in March 2026, and 40 US hospitals used it in its first six months.
+  proof_why: a breakthrough label is not an approval
+  fresh_bad: Company X raised $150M in 2024
+  fresh_good: Company X raised $250M in June 2026, its biggest round, two years after a $150M round
+  fresh_est: Company X should sell about $300M of devices in 2026, against $180M in 2025
+  fresh_method: latest company releases, quarterly results and filings, FDA databases, press reports as a cross-check
+  not_proof: a breakthrough label is not an FDA approval
+trends_csv: assets/trends/medtech/medtech-to-jul-2025.csv

@@ -1,0 +1,629 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would proptech
+
+    customers actually pay to solve?'
+  auds:
+  - Apartment operators
+  - Small landlords
+  - HOA managers
+  - Hotel groups
+  - Rental hosts
+  pains:
+  - - They run five or more software tools that do not share any data
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 3
+  - - They lose hours each week on accounting work done by hand
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They pay high fees and lose months when they switch core systems
+    - - 3
+      - 1
+      - 2
+      - 3
+      - 1
+  - - They see staff struggle with old and overly complex screens
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 2
+  - - They miss errors in rent rolls until an audit finally finds them
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  - - They wait months for vendors to ship the new features they need
+    - - 2
+      - 1
+      - 1
+      - 3
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which proptech player has
+
+    the most complete tech today?'
+  companies:
+  - name: Zillow
+    src: ../../assets/logos/pp_live/proptech/s05-00.png
+  - name: Redfin
+    src: ../../assets/logos/pp_live/proptech/s05-01.png
+  - name: Compass
+    src: ../../assets/logos/pp_live/proptech/s05-02.png
+  - name: Realtor.com
+    src: ../../assets/logos/pp_live/proptech/s05-03.png
+  - name: Homes.com
+    src: ../../assets/logos/pp_live/proptech/s05-04.png
+  features:
+  - header: ChatGPT|app
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Own|lender
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Own|agents
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Agent|CRM
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Landlord|tools
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: 3D tour|tech
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Showing|software
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    proptech down?'
+  events:
+  - odds: 25
+    impact: 3
+    text: A long real estate downturn keeps home sales weak and cuts transaction revenue for brokers and proptech
+  - odds: 20
+    impact: 3
+    text: High interest rates last for years and proptech venture funding keeps falling, starving startups of capital
+  - odds: 20
+    impact: 3
+    text: AppFolio, Entrata and RealPage bundle AI agents free inside their platforms, crowding out proptech startups
+  - odds: 15
+    impact: 2
+    text: Office owners slash tech spending as loan delinquencies rise, cutting demand for commercial proptech software
+  - odds: 12
+    impact: 2
+    text: Landlords and brokers lose faith in AI tools after failed pilots and cut proptech AI budgets sharply
+  - odds: 10
+    impact: 2
+    text: A breach at a property platform exposes millions of renter records and triggers lawsuits and new rules
+  - odds: 8
+    impact: 3
+    text: Congress bans algorithmic rent pricing nationwide, hitting RealPage, Yardi and startups that sell pricing software
+  - odds: 5
+    impact: 1
+    text: A rent payment platform outage blocks payments for millions of tenants and landlords lose trust in proptech
+  note:
+  - We listed the events that could slow proptech down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed proptech
+
+    forward, year after year?'
+  events:
+  - year: '1996'
+    text: Realtor.com puts home listings online
+    impact: 1.5
+  - year: '2006'
+    text: Zillow puts a price on every home
+    impact: 2
+  - year: '2008'
+    text: Airbnb turns spare rooms into income
+    impact: 1.5
+  - year: '2008'
+    text: Housing crash pushes lenders to better data
+    impact: 1
+  - year: '2010'
+    text: WeWork sells flexible desks to startups
+    impact: 1
+  - year: '2012'
+    text: JOBS Act opens real estate crowdfunding
+    impact: 1.5
+  - year: '2014'
+    text: Google buys Nest, smart homes go mainstream
+    impact: 1.5
+  - year: '2014'
+    text: Opendoor starts buying homes online
+    impact: 1.5
+  - year: '2015'
+    text: Reg A+ lets anyone invest in property
+    impact: 1
+  - year: '2018'
+    text: Zillow jumps into instant home buying
+    impact: 1.5
+  - year: '2018'
+    text: SoftBank floods proptech with billions
+    impact: 1.5
+  - year: '2020'
+    text: Covid moves tours and closings online
+    impact: 3
+  - year: '2020'
+    text: Record low rates spark a refinance boom
+    impact: 2
+  - year: '2020'
+    text: States approve online notarization
+    impact: 1.5
+  - year: '2021'
+    text: Record $32B funding lets proptech scale
+    impact: 1.5
+  - year: '2021'
+    text: SPACs take Opendoor and others public
+    impact: 1
+  - year: '2022'
+    text: Rate shock pushes firms to cut costs
+    impact: 1
+  - year: '2022'
+    text: Fannie Mae allows desktop appraisals
+    impact: 1
+  - year: '2023'
+    text: ChatGPT writes listings and answers renters
+    impact: 1.5
+  - year: '2023'
+    text: Jury hits NAR with $1.8B commission verdict
+    impact: 2.5
+  - year: '2024'
+    text: NAR settlement shakes up agent commissions
+    impact: 2.5
+  - year: '2024'
+    text: NYC carbon fines push building energy tech
+    impact: 1.5
+  - year: '2024'
+    text: EU building rules force energy upgrades
+    impact: 1
+  - year: '2025'
+    text: LA fires boost demand for climate data
+    impact: 1
+  - year: '2025'
+    text: Rocket buys Redfin, joining search and loans
+    impact: 1.5
+  - year: '2025'
+    text: Rocket buys Mr. Cooper, owning the loan
+    impact: 1
+  - year: '2025'
+    text: Compass buys Anywhere, forming a tech giant
+    impact: 1.5
+  - year: '2025'
+    text: Zillow lands inside ChatGPT for home search
+    impact: 1
+  - year: '2025'
+    text: Fed rate cuts pull buyers back
+    impact: 1.5
+  - year: '2026'
+    text: US orders $200B bond buy cutting rates
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed proptech forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: proptech
+  title: 'Where did proptech investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of proptech startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the PropTech market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/proptech/s10-00.png
+    x: 296.6
+    y: 270.6
+  - src: ../../assets/logos/pp_live/proptech/s10-01.png
+    x: 505.9
+    y: 282.6
+  - src: ../../assets/logos/pp_live/proptech/s10-02.png
+    x: 646.1
+    y: 261.0
+  - src: ../../assets/logos/pp_live/proptech/s10-03.png
+    x: 190.1
+    y: 294.0
+  - src: ../../assets/logos/pp_live/proptech/s10-04.png
+    x: 243.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/proptech/s10-05.png
+    x: 350.4
+    y: 285.0
+  - src: ../../assets/logos/pp_live/proptech/s10-06.png
+    x: 444.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/proptech/s10-07.png
+    x: 576.0
+    y: 308.8
+  - src: ../../assets/logos/pp_live/proptech/s10-08.png
+    x: 698.6
+    y: 296.8
+  - src: ../../assets/logos/pp_live/proptech/s10-09.png
+    x: 750.9
+    y: 285.0
+  - src: ../../assets/logos/pp_live/proptech/s10-10.png
+    x: 803.1
+    y: 308.8
+  - src: ../../assets/logos/pp_live/proptech/s10-11.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/proptech/s10-12.png
+    x: 240.0
+    y: 389.1
+  - src: ../../assets/logos/pp_live/proptech/s10-13.png
+    x: 469.3
+    y: 382.9
+  - src: ../../assets/logos/pp_live/proptech/s10-14.png
+    x: 553.3
+    y: 398.8
+  - src: ../../assets/logos/pp_live/proptech/s10-15.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/proptech/s10-16.png
+    x: 768.4
+    y: 397.3
+  - src: ../../assets/logos/pp_live/proptech/s10-17.png
+    x: 291.0
+    y: 406.9
+  - src: ../../assets/logos/pp_live/proptech/s10-18.png
+    x: 345.0
+    y: 411.2
+  - src: ../../assets/logos/pp_live/proptech/s10-19.png
+    x: 420.9
+    y: 468.9
+  - src: ../../assets/logos/pp_live/proptech/s10-20.png
+    x: 478.7
+    y: 483.2
+  - src: ../../assets/logos/pp_live/proptech/s10-21.png
+    x: 650.4
+    y: 469.5
+  - src: ../../assets/logos/pp_live/proptech/s10-22.png
+    x: 739.7
+    y: 475.1
+  - src: ../../assets/logos/pp_live/proptech/s10-23.png
+    x: 801.6
+    y: 480.0
+  - src: ../../assets/logos/pp_live/proptech/s10-24.png
+    x: 191.1
+    y: 505.3
+  - src: ../../assets/logos/pp_live/proptech/s10-25.png
+    x: 249.0
+    y: 504.6
+  - src: ../../assets/logos/pp_live/proptech/s10-26.png
+    x: 307.3
+    y: 505.3
+  - src: ../../assets/logos/pp_live/proptech/s10-27.png
+    x: 544.3
+    y: 504.6
+  - src: ../../assets/logos/pp_live/proptech/s10-28.png
+    x: 696.4
+    y: 520.3
+  cols:
+  - System of record
+  - Orchestration & engagement
+  - Connected intelligence
+  rows:
+  - Residential rental ops
+  - Commercial & workplc
+  - Investment & transaction
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out construction tech and fintech or insurtech not tied to real estate, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these proptech
+
+    startups, and how did they end?'
+  causes:
+  - Lawsuits or|regulators
+  - Pandemic or|rates
+  - Could not|raise
+  - Costs too|high
+  rows:
+  - name: Sonder
+    ending: Went bankrupt
+    start: '2014'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/proptech/s11-00.png
+    ini: S
+    slug: sonder
+    domain: sonder.com
+  - name: EasyKnock
+    ending: Shut down
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/proptech/s11-01.png
+    ini: E
+    slug: easyknock
+    domain: easyknock.com
+  - name: WeWork
+    ending: Went bankrupt
+    start: '2010'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/proptech/s11-02.png
+    ini: W
+    slug: wework
+    domain: wework.com
+  - name: Reali
+    ending: Shut down
+    start: '2016'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/proptech/s11-03.png
+    ini: R
+    slug: reali
+    domain: reali.com
+  - name: Katerra
+    ending: Went bankrupt
+    start: '2015'
+    end: '2021'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/proptech/s11-04.png
+    ini: K
+    slug: katerra
+    domain: katerra.com
+  - name: Knotel
+    ending: Went bankrupt
+    start: '2016'
+    end: '2021'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/proptech/s11-05.png
+    ini: K
+    slug: knotel
+    domain: knotel.com
+  note:
+  - We tracked the proptech startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Zillow winning
+
+    the home search market?'
+  companies:
+  - short: Zillow
+    src: ../../assets/logos/pp_live/proptech/s12-00.png
+  - short: Realtor.com
+    src: ../../assets/logos/pp_live/proptech/s12-01.png
+  - short: Homes.com
+    src: ../../assets/logos/pp_live/proptech/s12-02.png
+  - short: Redfin
+    src: ../../assets/logos/pp_live/proptech/s12-03.png
+  - short: Rightmove
+    src: ../../assets/logos/pp_live/proptech/s12-04.png
+  - short: REA Group
+    src: ../../assets/logos/pp_live/proptech/s12-05.png
+  criteria:
+  - name: Most visited US home site
+    why: First stop for US buyers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $2B+ yearly revenue
+    why: Scale to outspend rivals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Agent CRM software
+    why: Agents work in it daily
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Own mortgage arm
+    why: Earns more per home sale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Pay per closed deal leads
+    why: Fees tied to real sales
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Number one in its country
+    why: Default site for buyers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Big rentals marketplace
+    why: Captures renters early
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What Is actually included
+
+    in the proptech market?'
+  TL:
+    name: Procore
+    src: ../../assets/logos/pp_live/proptech/s01-00.png
+    text: sells software to run construction projects, so it helps build property rather than operate, lease or sell it
+  TR:
+    name: Lemonade
+    src: ../../assets/logos/pp_live/proptech/s01-02.png
+    text: sells renters and homeowners insurance using AI, but insurance not tied to running a property belongs to insurtech
+  BL:
+    name: Opendoor
+    src: ../../assets/logos/pp_live/proptech/s01-09.png
+    text: uses algorithms to price and buy homes, but it earns its revenue mainly by reselling those homes, so it sits on the line
+  BR:
+    name: Zillow
+    src: ../../assets/logos/pp_live/proptech/s01-10.png
+    text: draws over 200 million users a month to browse homes, but most of its revenue comes from agents and builders buying leads
+  caption:
+  - Distance to the center reflects how directly a product helps operate, lease or sell real estate, rather than build or insure it
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/proptech/s01-01.png
+  - ../../assets/logos/pp_live/proptech/s01-03.png
+  - ../../assets/logos/pp_live/proptech/s01-04.png
+  - ../../assets/logos/pp_live/proptech/s01-05.png
+  - ../../assets/logos/pp_live/proptech/s01-06.png
+  - ../../assets/logos/pp_live/proptech/s01-07.png
+  - ../../assets/logos/pp_live/proptech/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/proptech/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/proptech/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/proptech/s01-04.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/proptech/s01-05.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/proptech/s01-06.png
+    x: 445.3
+    y: 394.9
+  - src: ../../assets/logos/pp_live/proptech/s01-07.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/proptech/s01-08.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask what
+
+    proptech can do, as startups raise again'
+  date: ''
+  expl: ''
+  term: proptech
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/proptech/proptech.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for PropTech to grow?'
+  lead: 'To fill that room, '
+  condition: the market must keep moving landlords, agents, and owners from spreadsheets to software, and turn AI agents into paid products. It must also
+    get through real estate downturns and rules on pricing tools, while owners keep paying for software when rates stay high.
+  note:
+  - We compared forecasts from Grand View, Fortune, Mordor and Precedence and adjusted each one to our market definition
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: 45
+  cagr: 12
+  y0: 2029

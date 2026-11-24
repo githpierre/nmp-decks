@@ -1,0 +1,625 @@
+ed058:
+  type: pp_pains
+  title: 'Which physical AI problems
+
+    are still unsolved today?'
+  auds:
+  - Car makers
+  - Logistics firms
+  - Retail chains
+  - Electronics makers
+  - Busy households
+  pains:
+  - - They pay too much for each robot compared with human wages
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 3
+  - - They cannot work robots near people without a safety standard
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 3
+  - - They see robots fail at tasks that need fine finger control
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They spend months training robots for each new site they open
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They worry about robots falling and injuring staff nearby
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They lose hours each shift because robot batteries run out fast
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Who has built the full physical AI
+
+    stack, and who still relies on partners?'
+  companies:
+  - name: NVIDIA
+    src: ../../assets/logos/pp_live/physical-ai/s05-00.png
+  - name: Google
+    src: ../../assets/logos/pp_live/physical-ai/s05-01.png
+  - name: Pi
+    src: ../../assets/logos/pp_live/physical-ai/s05-02.png
+  - name: Tesla
+    src: ../../assets/logos/pp_live/physical-ai/s05-03.png
+  - name: Skild AI
+    src: ../../assets/logos/pp_live/physical-ai/s05-04.png
+  - name: Figure
+    src: ../../assets/logos/pp_live/physical-ai/s05-05.png
+  features:
+  - header: Open|weights
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own robot|body
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Own robot|chip
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Many robot|types
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: World|model
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Robot|simulator
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Customer|deployments
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    physical AI down?'
+  events:
+  - odds: 25
+    impact: 3
+    text: Humanoid valuations collapse and investors stop funding physical AI startups trading at 140 times revenue
+  - odds: 25
+    impact: 2
+    text: Unitree and other Chinese makers flood the market with cheap humanoids, crushing Western startup prices
+  - odds: 18
+    impact: 2
+    text: A humanoid robot seriously injures a worker before safety standards exist, and buyers pause their pilots
+  - odds: 15
+    impact: 2
+    text: NVIDIA and Google give away strong robot models and tools for free, erasing the edge of startups
+  - odds: 15
+    impact: 3
+    text: Robot foundation models stop improving and still fail most fine manipulation tasks, delaying real deployments
+  - odds: 12
+    impact: 3
+    text: A robot or robotaxi kills someone in public, triggering recalls and strict new rules for physical AI
+  - odds: 10
+    impact: 2
+    text: US-China trade tensions cut supply of motors, chips and rare earth magnets for robot makers
+  - odds: 5
+    impact: 1
+    text: Unions win EU or US labor laws that limit robots replacing workers in warehouses and factories
+  note:
+  - We listed the events that could slow physical ai down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed physical AI
+
+    forward, year after year?'
+  events:
+  - year: '2004'
+    text: DARPA challenge starts the driverless race
+    impact: 1
+  - year: '2012'
+    text: Amazon buys Kiva, proving robots pay off
+    impact: 1.5
+  - year: '2012'
+    text: Deep learning lets robots finally see objects
+    impact: 2.5
+  - year: '2014'
+    text: Nvidia Jetson puts AI chips inside robots
+    impact: 1
+  - year: '2018'
+    text: OpenAI robot hand learns skills in simulation
+    impact: 1
+  - year: '2020'
+    text: Spot sale turns robot dogs commercial
+    impact: 1
+  - year: '2020'
+    text: Waymo opens driverless rides to the public
+    impact: 1.5
+  - year: '2020'
+    text: Covid labor gaps push firms toward robots
+    impact: 1.5
+  - year: '2021'
+    text: Tesla Optimus reveal puts humanoids on map
+    impact: 1.5
+  - year: '2022'
+    text: Labor shortages make robots beat new hires
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT sparks race to give robots brains
+    impact: 2.5
+  - year: '2023'
+    text: Google RT-2 lets robots use web knowledge
+    impact: 1.5
+  - year: '2023'
+    text: Labs pool robot data in Open X-Embodiment
+    impact: 1
+  - year: '2023'
+    text: China plans mass production of humanoids
+    impact: 1.5
+  - year: '2024'
+    text: Nvidia launches GR00T humanoid robot models
+    impact: 1.5
+  - year: '2024'
+    text: Figure humanoids start work at BMW
+    impact: 1
+  - year: '2024'
+    text: Unitree sells a G1 humanoid for $16,000
+    impact: 1.5
+  - year: '2024'
+    text: Pi0 shows one model runs many robots
+    impact: 1.5
+  - year: '2024'
+    text: Waymo hits 100,000 paid rides a week
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia Cosmos makes robot training data cheap
+    impact: 2
+  - year: '2025'
+    text: Gemini Robotics brings frontier AI to robots
+    impact: 1.5
+  - year: '2025'
+    text: Beijing humanoid half marathon fuels hype
+    impact: 0.5
+  - year: '2025'
+    text: Tesla robotaxis start rides in Austin
+    impact: 1
+  - year: '2025'
+    text: Amazon reaches one million warehouse robots
+    impact: 1.5
+  - year: '2025'
+    text: Figure's $39B round funds robot scale-up
+    impact: 2
+  - year: '2025'
+    text: Waymo tops 250,000 paid rides a week
+    impact: 1
+  - year: '2025'
+    text: China puts embodied AI in national plan
+    impact: 1
+  - year: '2026'
+    text: Waymo raises $16B to spread robotaxis widely
+    impact: 2
+  - year: '2026'
+    text: Tesla starts Optimus production in Fremont
+    impact: 2.5
+  - year: '2026'
+    text: Unitree IPO lets public investors fund robots
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed physical ai forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: physical-ai
+  title: 'Where did physical AI investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of physical ai startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in physical AI today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/physical-ai/s10-00.png
+    x: 285.2
+    y: 264.9
+  - src: ../../assets/logos/pp_live/physical-ai/s10-01.png
+    x: 343.9
+    y: 269.1
+  - src: ../../assets/logos/pp_live/physical-ai/s10-02.png
+    x: 498.6
+    y: 264.9
+  - src: ../../assets/logos/pp_live/physical-ai/s10-03.png
+    x: 557.4
+    y: 269.1
+  - src: ../../assets/logos/pp_live/physical-ai/s10-04.png
+    x: 712.1
+    y: 264.9
+  - src: ../../assets/logos/pp_live/physical-ai/s10-05.png
+    x: 770.8
+    y: 269.1
+  - src: ../../assets/logos/pp_live/physical-ai/s10-06.png
+    x: 329.4
+    y: 310.1
+  - src: ../../assets/logos/pp_live/physical-ai/s10-07.png
+    x: 542.8
+    y: 310.1
+  - src: ../../assets/logos/pp_live/physical-ai/s10-08.png
+    x: 756.2
+    y: 310.1
+  - src: ../../assets/logos/pp_live/physical-ai/s10-09.png
+    x: 285.2
+    y: 369.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-10.png
+    x: 343.9
+    y: 372.9
+  - src: ../../assets/logos/pp_live/physical-ai/s10-11.png
+    x: 498.6
+    y: 369.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-12.png
+    x: 557.4
+    y: 373.1
+  - src: ../../assets/logos/pp_live/physical-ai/s10-13.png
+    x: 712.1
+    y: 369.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-14.png
+    x: 770.8
+    y: 372.9
+  - src: ../../assets/logos/pp_live/physical-ai/s10-15.png
+    x: 329.4
+    y: 414.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-16.png
+    x: 542.8
+    y: 414.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-17.png
+    x: 756.2
+    y: 414.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-18.png
+    x: 285.2
+    y: 472.7
+  - src: ../../assets/logos/pp_live/physical-ai/s10-19.png
+    x: 343.9
+    y: 477.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-20.png
+    x: 498.6
+    y: 472.7
+  - src: ../../assets/logos/pp_live/physical-ai/s10-21.png
+    x: 557.4
+    y: 477.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-22.png
+    x: 770.8
+    y: 477.0
+  - src: ../../assets/logos/pp_live/physical-ai/s10-23.png
+    x: 329.4
+    y: 517.9
+  - src: ../../assets/logos/pp_live/physical-ai/s10-24.png
+    x: 542.8
+    y: 518.1
+  - src: ../../assets/logos/pp_live/physical-ai/s10-25.png
+    x: 752.8
+    y: 518.8
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Robots
+  - Leaders
+  - Models
+  note:
+  - We left out big tech, carmakers and listed firms like Nvidia, Waymo, Tesla and Unitree
+  - We placed each one by its focus, and all our sources are listed at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these physical AI
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Investors|pulled out
+  - Product|fell short
+  - Weak|sales
+  rows:
+  - name: K-Scale Labs
+    ending: Shut down
+    start: '2024'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/physical-ai/s11-00.png
+    ini: K
+    slug: k-scale-labs
+    domain: kscale.dev
+  - name: Aldebaran
+    ending: Went bankrupt
+    start: '2005'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/physical-ai/s11-01.png
+    ini: A
+    slug: aldebaran
+    domain: aldebaran.com
+  - name: Rethink
+    ending: Shut down twice
+    start: '2008'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/physical-ai/s11-02.png
+    ini: R
+    slug: rethink-robotics
+    domain: rethinkrobotics.com
+  - name: Embodied
+    ending: Shut down
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/physical-ai/s11-03.png
+    ini: E
+    slug: embodied
+    domain: embodied.com
+  - name: Ghost Autonomy
+    ending: Shut down
+    start: '2017'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/physical-ai/s11-04.png
+    ini: G
+    slug: ghost-autonomy
+    domain: ghostautonomy.com
+  - name: Argo AI
+    ending: Shut down
+    start: '2016'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/physical-ai/s11-05.png
+    ini: A
+    slug: argo-ai
+    domain: argo.ai
+  note:
+  - We tracked the physical ai startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Skild AI lead
+
+    the robot brain race?'
+  companies:
+  - short: Skild AI
+    src: ../../assets/logos/pp_live/physical-ai/s12-00.png
+  - short: Physical Int
+    src: ../../assets/logos/pp_live/physical-ai/s12-01.png
+  - short: Field AI
+    src: ../../assets/logos/pp_live/physical-ai/s12-02.png
+  - short: Generalist
+    src: ../../assets/logos/pp_live/physical-ai/s12-03.png
+  - short: Dyna
+    src: ../../assets/logos/pp_live/physical-ai/s12-04.png
+  - short: Genesis AI
+    src: ../../assets/logos/pp_live/physical-ai/s12-05.png
+  criteria:
+  - name: Valued above $14B
+    why: Most investor backing
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Paying customers today
+    why: Revenue near $30M in 2025
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: One brain for any robot
+    why: Arms, dogs and humanoids
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Raised $1B+ in total
+    why: Cash to train bigger models
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Learns from human video
+    why: Cheap data at web scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Open model weights
+    why: Developers build on it
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the physical AI market?'
+  TL:
+    name: Siemens
+    src: ../../assets/logos/pp_live/physical-ai/s01-00.png
+    text: runs factory machines worldwide with SIMATIC controllers, but they follow programs set by engineers, not AI that decides
+  TR:
+    name: Samsara
+    src: ../../assets/logos/pp_live/physical-ai/s01-01.png
+    text: gathers trillions of data points from cameras and sensors in trucks, but it only analyzes them and never acts
+  BL:
+    name: Hugging Face
+    src: ../../assets/logos/pp_live/physical-ai/s01-10.png
+    text: is mostly a hub for AI models, but beRobot and its $299 Reachy Mini robot pull it onto the physical AI boundary
+  BR:
+    name: World Labs
+    src: ../../assets/logos/pp_live/physical-ai/s01-11.png
+    text: raised $1 billion to mode! physical space, but its first product, Marble, builds 3D worlds for creative work
+  caption:
+  - Distance to the center reflects how directly the AI perceives and acts in the physical world, rather than analyzing data
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/physical-ai/s01-02.png
+  - ../../assets/logos/pp_live/physical-ai/s01-03.png
+  - ../../assets/logos/pp_live/physical-ai/s01-04.png
+  - ../../assets/logos/pp_live/physical-ai/s01-05.png
+  - ../../assets/logos/pp_live/physical-ai/s01-06.png
+  - ../../assets/logos/pp_live/physical-ai/s01-07.png
+  - ../../assets/logos/pp_live/physical-ai/s01-08.png
+  - ../../assets/logos/pp_live/physical-ai/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/physical-ai/s01-02.png
+    x: 435.6
+    y: 287.4
+  - src: ../../assets/logos/pp_live/physical-ai/s01-03.png
+    x: 521.1
+    y: 321.2
+  - src: ../../assets/logos/pp_live/physical-ai/s01-04.png
+    x: 463.7
+    y: 356.4
+  - src: ../../assets/logos/pp_live/physical-ai/s01-05.png
+    x: 402.6
+    y: 381.6
+  - src: ../../assets/logos/pp_live/physical-ai/s01-06.png
+    x: 515.4
+    y: 391.1
+  - src: ../../assets/logos/pp_live/physical-ai/s01-07.png
+    x: 460.1
+    y: 416.4
+  - src: ../../assets/logos/pp_live/physical-ai/s01-08.png
+    x: 386.4
+    y: 440.8
+  - src: ../../assets/logos/pp_live/physical-ai/s01-09.png
+    x: 518.8
+    y: 454.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More people look up humanoid robots,
+
+    as factories and homes get them'
+  date: Lately.
+  expl: Humanoid robots stopped being just videos. Tesla, Figure, Unitree and others started taking orders and showing robots at work in factories and homes,
+    and people started looking up what they can do and when they will arrive.
+  term: physical ai
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/physical-ai/physical-ai.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  lead: 'To fill that room, '
+  condition: the market must make robots reliable enough to work full shifts, and win safety approval for humanoids, drones, and robotaxis. It must also
+    cut the cost of each robot, and gather enough real data to train AI models that work in any home or factory.
+  note:
+  - We compared forecasts from MarketsandMarkets, Grand View, Mordor and Fortune, and aligned their timelines
+  - We removed robot hardware to build a realistic range, and all the sources are included at the end of the report
+  size: 16
+  cagr: 22
+  y0: 2026

@@ -1,0 +1,37 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'What business models
+
+      work in hair care?'
+    axes:
+    - Sold in stores
+    - Sold online
+    - One-off
+    - purchase
+    - Repeat
+    - orders
+    groups:
+    - name: In stores via retailers
+      x: 0.2
+      y: 0.35
+      logos:
+      - src: ../../assets/logos/pp_live/hair-care/s06-02.png
+      - src: ../../assets/logos/pp_live/hair-care/s06-03.png
+    - name: Direct online
+      x: 0.78
+      y: 0.3
+      logos:
+      - src: ../../assets/logos/pp_live/hair-care/s06-04.png
+    - name: Subscription
+      x: 0.72
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/hair-care/s06-00.png
+      - src: ../../assets/logos/pp_live/hair-care/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

@@ -1,0 +1,51 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do foundation model
+
+      labs actually make money?'
+    axes:
+    - Closed model
+    - Open weights
+    - Flat monthly
+    - plan
+    - Pays per
+    - token used
+    groups:
+    - name: Chat app subscriptions
+      x: 0.15
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/foundation-model/s06-09.png
+      - src: ../../assets/logos/pp_live/foundation-model/s06-10.png
+    - name: API priced per token
+      x: 0.25
+      y: 0.87
+      logos:
+      - src: ../../assets/logos/pp_live/foundation-model/s06-00.png
+      - src: ../../assets/logos/pp_live/foundation-model/s06-01.png
+      - src: ../../assets/logos/pp_live/foundation-model/s06-02.png
+    - name: Bundled in big tech plans
+      x: 0.41
+      y: 0.29
+      logos:
+      - src: ../../assets/logos/pp_live/foundation-model/s06-06.png
+      - src: ../../assets/logos/pp_live/foundation-model/s06-07.png
+    - name: Private enterprise models
+      x: 0.65
+      y: 0.33
+      logos:
+      - src: ../../assets/logos/pp_live/foundation-model/s06-08.png
+    - name: Free weights, paid API
+      x: 0.8
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/foundation-model/s06-03.png
+      - src: ../../assets/logos/pp_live/foundation-model/s06-04.png
+      - src: ../../assets/logos/pp_live/foundation-model/s06-05.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

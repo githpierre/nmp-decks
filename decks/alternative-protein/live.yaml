@@ -1,0 +1,520 @@
+ed058:
+  type: pp_pains
+  title: 'Which alt protein problems
+
+    are still unsolved today?'
+  auds:
+  - Plant-based brands
+  - Flexitarian shoppers
+  - Grocery chains
+  - Fast-food chains
+  - Cultivated startups
+  pains:
+  - - They pay more for plant-based meat than for chicken or beef
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They find that many products still do not taste like real meat
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They see sales fall once the first wave of curious buyers is gone
+    - - 3
+      - 1
+      - 3
+      - 3
+      - 1
+  - - They cannot scale up production at a cost close to animal meat
+    - - 3
+      - 1
+      - 1
+      - 1
+      - 3
+  - - They face doubts about long labels full of processed ingredients
+    - - 2
+      - 3
+      - 1
+      - 1
+      - 1
+  - - They wait years for approval to sell cultivated meat in each country
+    - - 1
+      - 1
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which alt protein player has
+
+    the most complete tech today?'
+  companies:
+  - name: Redefine
+    src: ../../assets/logos/pp_live/alternative-protein/s05-00.png
+  - name: Impossible
+    src: ../../assets/logos/pp_live/alternative-protein/s05-01.png
+  - name: Planted
+    src: ../../assets/logos/pp_live/alternative-protein/s05-02.png
+  - name: Quorn
+    src: ../../assets/logos/pp_live/alternative-protein/s05-03.png
+  - name: Eat Just
+    src: ../../assets/logos/pp_live/alternative-protein/s05-04.png
+  - name: Beyond Meat
+    src: ../../assets/logos/pp_live/alternative-protein/s05-05.png
+  features:
+  - header: Fermented|protein
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Heme|molecule
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Cultivated|meat
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Whole|steaks
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: 3D|printing
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Own|factory
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Fat|tissue
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong for
+
+    alternative protein?'
+  events:
+  - odds: 45
+    impact: 3
+    text: More US states join Florida and Alabama in banning cultivated meat sales, closing large markets
+  - odds: 45
+    impact: 2
+    text: Cultivated meat startups fail to cut production costs below $10 a pound and run out of cash
+  - odds: 40
+    impact: 2
+    text: Venture funding for alternative protein stays under $1 billion a year and many startups shut down
+  - odds: 35
+    impact: 2
+    text: A health study or media campaign brands plant-based meat as ultra-processed food and shoppers turn away
+  - odds: 30
+    impact: 3
+    text: Beyond Meat files for bankruptcy as plant-based meat sales keep falling despite its 2025 debt swap
+  - odds: 30
+    impact: 2
+    text: Meat giants Tyson and JBS cut beef and chicken prices, widening the gap with plant-based products
+  - odds: 20
+    impact: 1
+    text: The EU adds burger to its 31 banned meat names for plant foods and US states follow
+  - odds: 8
+    impact: 3
+    text: A food safety recall at a precision fermentation plant hurts trust in lab-grown proteins
+  note:
+  - We listed the events that could slow alternative protein down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed alternative protein
+
+    forward, year after year?'
+  events:
+  - year: '1985'
+    text: Quorn puts fungus protein in UK stores
+    impact: 1
+  - year: '2006'
+    text: UN report blames livestock for 18% emissions
+    impact: 1.5
+  - year: '2013'
+    text: First lab-grown burger eaten in London
+    impact: 2.5
+  - year: '2013'
+    text: Bill Gates backs plant meat startups
+    impact: 1
+  - year: '2015'
+    text: Paris deal puts food emissions in focus
+    impact: 1
+  - year: '2016'
+    text: Impossible Burger bleeds like real beef
+    impact: 2
+  - year: '2016'
+    text: Beyond Burger lands in the meat aisle
+    impact: 2
+  - year: '2016'
+    text: Meat giant Tyson invests in Beyond
+    impact: 1.5
+  - year: '2018'
+    text: FDA clears Impossible's heme as safe
+    impact: 1
+  - year: '2019'
+    text: Beyond Meat IPO soars 163%, drawing money
+    impact: 2.5
+  - year: '2019'
+    text: Burger King adds the Impossible Whopper
+    impact: 2
+  - year: '2019'
+    text: EAT-Lancet diet urges far less meat
+    impact: 1
+  - year: '2020'
+    text: Covid closes meat plants, shelves go empty
+    impact: 2
+  - year: '2020'
+    text: Perfect Day makes real whey without cows
+    impact: 1.5
+  - year: '2020'
+    text: Singapore approves first lab-grown chicken
+    impact: 2.5
+  - year: '2021'
+    text: Record $5B funding builds alt protein plants
+    impact: 2
+  - year: '2021'
+    text: McDonald's tests the McPlant burger
+    impact: 1
+  - year: '2021'
+    text: China's farm plan names cultured meat
+    impact: 1
+  - year: '2021'
+    text: Oatly IPO shows plant milk sells big
+    impact: 1
+  - year: '2022'
+    text: FDA clears Upside's lab-grown chicken
+    impact: 1.5
+  - year: '2022'
+    text: Ukraine war spikes feed and meat prices
+    impact: 1.5
+  - year: '2023'
+    text: USDA lets US diners eat lab-grown chicken
+    impact: 2
+  - year: '2023'
+    text: Denmark funds a national plant-based plan
+    impact: 1
+  - year: '2024'
+    text: Israel approves first cultivated beef
+    impact: 1
+  - year: '2024'
+    text: UK approves lab-grown meat for pet food
+    impact: 1
+  - year: '2025'
+    text: Bird flu sends egg prices to records
+    impact: 1.5
+  - year: '2025'
+    text: FDA clears first lab-grown salmon
+    impact: 1
+  - year: '2025'
+    text: Australia approves Vow's cultured quail
+    impact: 1
+  - year: '2025'
+    text: UK sandbox speeds lab meat approvals
+    impact: 1
+  - year: '2026'
+    text: EU clears its first mycelium protein food
+    impact: 1
+  note:
+  - We kept the events we believe pushed alternative protein forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: alternative-protein
+  title: 'Where did alternative protein investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of alternative protein startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the alternative protein market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-00.png
+    x: 217.9
+    y: 277.1
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-01.png
+    x: 648.9
+    y: 261.0
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-02.png
+    x: 748.7
+    y: 260.1
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-03.png
+    x: 456.9
+    y: 285.0
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-04.png
+    x: 702.2
+    y: 303.9
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-05.png
+    x: 799.3
+    y: 305.6
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-06.png
+    x: 257.1
+    y: 338.4
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-07.png
+    x: 328.3
+    y: 335.6
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-08.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-09.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-10.png
+    x: 199.3
+    y: 395.6
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-11.png
+    x: 265.9
+    y: 399.4
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-12.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-13.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-14.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-15.png
+    x: 328.3
+    y: 407.4
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-16.png
+    x: 339.4
+    y: 487.7
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-17.png
+    x: 495.4
+    y: 485.6
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-18.png
+    x: 741.6
+    y: 484.9
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-19.png
+    x: 199.3
+    y: 496.5
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-20.png
+    x: 268.3
+    y: 502.3
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-21.png
+    x: 575.1
+    y: 508.3
+  - src: ../../assets/logos/pp_live/alternative-protein/s10-22.png
+    x: 666.2
+    y: 508.3
+  cols:
+  - esclilese se
+  - curiveted Mech
+  - y btcelstoritenmenteriqnss
+  rows:
+  - Early-stage
+  - Scaling growth
+  - Late-stage / unicorn
+  note:
+  - We placed meat, seafood, dairy and egg alternative startups by core technology and funding level
+  - This is not a full list or a ranking, and you will find all the sources we used at the end of the report
+ed209p:
+  title: 'Why might Impossible be
+
+    winning plant-based meat?'
+  companies:
+  - short: Impossible
+    src: ../../assets/logos/pp_live/alternative-protein/s12-00.png
+  - short: Beyond
+    src: ../../assets/logos/pp_live/alternative-protein/s12-01.png
+  - short: MorningStar
+    src: ../../assets/logos/pp_live/alternative-protein/s12-02.png
+  - short: Gardein
+    src: ../../assets/logos/pp_live/alternative-protein/s12-03.png
+  - short: Quorn
+    src: ../../assets/logos/pp_live/alternative-protein/s12-04.png
+  criteria:
+  - name: Heme for meaty flavor
+    why: Tastes closest to beef
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $2B+ raised privately
+    why: Cash to outlast rivals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Big fast food partner
+    why: Trial at huge scale
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: K-12 school menus
+    why: Wins the next generation
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Backed by a food giant
+    why: Shelf space and scale
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Soy free recipes
+    why: Fits allergy needs
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Broad frozen range
+    why: Big freezer aisle presence
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What Is in alternative protein,
+
+    and what stays outside?'
+  TL:
+    name: Roquette
+    src: ../../assets/logos/pp_live/alternative-protein/s01-00.png
+    text: supplies the pea protein found in many plant-based meats, but it is an ingredients group, not an alternative itself
+  TR:
+    name: Tyson Foods
+    src: ../../assets/logos/pp_live/alternative-protein/s01-01.png
+    text: launched its own plant- based brand, Raised & Rooted, but it remains one of the largest meat processors in the world
+  BL:
+    name: Oatly
+    src: ../../assets/logos/pp_live/alternative-protein/s01-10.png
+    text: is the best-known plant-based milk, but it is made from oats, water and enzymes, closer to food processing . than tech
+  BR:
+    name: Impossible
+    src: ../../assets/logos/pp_live/alternative-protein/s01-11.png
+    text: ered sl i eka like ely eisai) ined a uh THASIT IS ingredient, heme, is made by fermenting engineered yeast
+  caption:
+  - Distance to the center reflects how much a company invents new protein technology, rather than reformulating plants
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/alternative-protein/s01-02.png
+  - ../../assets/logos/pp_live/alternative-protein/s01-03.png
+  - ../../assets/logos/pp_live/alternative-protein/s01-04.png
+  - ../../assets/logos/pp_live/alternative-protein/s01-05.png
+  - ../../assets/logos/pp_live/alternative-protein/s01-06.png
+  - ../../assets/logos/pp_live/alternative-protein/s01-07.png
+  - ../../assets/logos/pp_live/alternative-protein/s01-08.png
+  - ../../assets/logos/pp_live/alternative-protein/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/alternative-protein/s01-02.png
+    x: 435.6
+    y: 287.4
+  - src: ../../assets/logos/pp_live/alternative-protein/s01-03.png
+    x: 521.4
+    y: 321.2
+  - src: ../../assets/logos/pp_live/alternative-protein/s01-04.png
+    x: 463.7
+    y: 356.4
+  - src: ../../assets/logos/pp_live/alternative-protein/s01-05.png
+    x: 402.6
+    y: 381.6
+  - src: ../../assets/logos/pp_live/alternative-protein/s01-06.png
+    x: 515.4
+    y: 391.1
+  - src: ../../assets/logos/pp_live/alternative-protein/s01-07.png
+    x: 460.1
+    y: 416.4
+  - src: ../../assets/logos/pp_live/alternative-protein/s01-08.png
+    x: 386.4
+    y: 440.8
+  - src: ../../assets/logos/pp_live/alternative-protein/s01-09.png
+    x: 518.8
+    y: 454.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look for pea
+
+    protein, as protein goes viral'
+  date: Lately.
+  expl: Protein is everywhere now, from coffee to cereal. Weight-loss drugs pushed people to eat more of it to keep muscle, and more and more shoppers want
+    it without dairy. Pea protein sits right in the middle, so searches climbed to a five-year high.
+  term: alternative protein
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/alternative-protein/alternative-protein.csv
+ed052p:
+  type: pp_cagr
+  title: 'How big is the market
+
+    for alternative protein?'
+  lead: ''
+  condition: SECURITY [ | {$178
+  note: []
+  size: null
+  cagr: null
+  y0: null

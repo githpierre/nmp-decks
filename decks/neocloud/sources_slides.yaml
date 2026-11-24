@@ -1,0 +1,639 @@
+- after: ed219
+  slide:
+    id: src_all_1
+    type: sources_list
+    section: Sources
+    cols:
+    - - t: Firmus IPO withdrawn
+        pub: ABC News
+        d: '2026-10-09'
+        url: https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230
+        key: false
+      - t: Inference cloud demand projection
+        pub: ABI Research
+        d: 2025-Q4
+        url: https://www.abiresearch.com/news-resources/chart-data/gpu-as-a-service-revenue-for-neoclouds
+        key: true
+      - t: Nscale 8 GW path
+        pub: AI Weekly
+        d: Sep 2026
+        url: https://aiweekly.co/alerts/nscale-files-nyse-ipo-behind-446b-anthropic-compute-deal
+        key: false
+      - t: Modal Series D
+        pub: Axios
+        d: '2026-10-14'
+        url: https://www.axios.com/pro/enterprise-software-deals/2026/10/14/modal-accel-ai-infrastructure
+        key: false
+      - t: Baseten inference volume 40x
+        pub: Baseten
+        d: '2026-06-22'
+        url: https://www.baseten.co/blog/announcing-our-series-f
+        key: true
+      - t: Baseten serves live AI customers including Abridge
+        pub: Baseten
+        d: undated
+        url: https://www.baseten.co/blog/introducing-our-new-brand
+        key: false
+      - t: Cloud inference services run customer models
+        pub: Baseten
+        d: '2026'
+        url: https://www.baseten.co/pricing
+        key: false
+      - t: Remote access
+        pub: BIS
+        d: '2026-11-16'
+        url: https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology
+        key: true
+      - t: fal $16B
+        pub: Bloomberg
+        d: '2026-11-03'
+        url: https://bloomberg.com/news/articles/2026-11-03/ai-inference-startup-fal-raises-capital-at-16-billion-valuation
+        key: false
+      - t: Fireworks Series B at $552M, then Series C at $4B
+        pub: Bloomberg Law
+        d: '2024-07-11'
+        url: https://news.bloomberglaw.com/private-equity/sequoia-nvidia-back-fireworks-ai-at-552-million-valuation
+        key: false
+      - t: Cerebras inference
+        pub: Cerebras
+        d: '2024-08-27'
+        url: https://www.cerebras.ai/press-release/cerebras-launches-the-worlds-fastest-ai-inference
+        key: false
+      - t: Cerebras launched new high-efficiency inference design
+        pub: Cerebras
+        d: '2026-11-17'
+        url: https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference
+        key: false
+      - t: Inference cloud expansion
+        pub: Cerebras
+        d: '2025-03-11'
+        url: https://www.cerebras.ai/press-release/cerebras-announces-six-new-ai-datacenters-across-north-america-and-europe-to-deliver-industry-s
+        key: false
+      - t: Blackwell availability
+        pub: CoreWeave
+        d: '2025-04-15'
+        url: https://investors.coreweave.com/news/news-details/2025/CoreWeave-Launches-NVIDIA-GB200-Grace-Blackwell-Systems-at-Scale/default.aspx
+        key: false
+      - t: CoreWeave 2024 $1.1B round
+        pub: CoreWeave
+        d: '2024-05-01'
+        url: https://investors.coreweave.com/news/news-details/2024/CoreWeave-Secures-1-1-Billion-in-Series-C-Funding-to-Drive-the-Next-Generation-of-Cloud-Computing-for-the-Future-of-AI/default.aspx
+        key: false
+      - t: CoreWeave acquired Weights & Biases
+        pub: CoreWeave
+        d: '2025-05-05'
+        url: https://investors.coreweave.com/news/news-details/2025/CoreWeave-Completes-Acquisition-of-Weights--Biases/default.aspx
+        key: false
+    - - t: CoreWeave loss and finance costs
+        pub: CoreWeave
+        d: '2026-11-10'
+        url: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx
+        key: true
+      - t: CoreWeave Q3 $3.7B revenue and $133B backlog
+        pub: CoreWeave
+        d: '2026-11-10'
+        url: https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results
+        key: false
+      - t: CoreWeave secured $2.3B against customer contracts
+        pub: CoreWeave
+        d: '2023-08-03'
+        url: https://www.coreweave.com/blog/coreweave-secures-2-3-billion-debt-financing-magnetar-capital-blackstone
+        key: false
+      - t: CoreWeave signed about $12B in OpenAI capacity
+        pub: CoreWeave
+        d: '2025-03-10'
+        url: https://www.coreweave.com/news/coreweave-announces-agreement-with-openai-to-deliver-ai-infrastructure
+        key: false
+      - t: Hardware age
+        pub: CoreWeave
+        d: '2026-03-02'
+        url: https://s205.q4cdn.com/133937190/files/doc_financials/2025/q4/CoreWeave-Inc-FY25-10-K-7.pdf
+        key: false
+      - t: Meta contracted capacity
+        pub: CoreWeave
+        d: '2026-04-09'
+        url: https://www.coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement
+        key: true
+      - t: NVIDIA invested $2B in CoreWeave
+        pub: CoreWeave
+        d: '2026-01-26'
+        url: https://coreweave.com/news/nvidia-and-coreweave-strengthen-collaboration-to-accelerate-buildout-of-ai-factories
+        key: false
+      - t: Rubin production
+        pub: CoreWeave
+        d: '2026-09-30'
+        url: https://coreweave.com/news/coreweave-delivers-nvidia-vera-rubin-nvl72-performance-at-production-scale-starting-with-cognition
+        key: false
+      - t: Rubin system validation
+        pub: CoreWeave
+        d: '2026-06-01'
+        url: https://www.coreweave.com/news/coreweave-completes-industry-first-bring-up-of-nvidia-vera-rubin-nvl72
+        key: false
+      - t: Top customer share
+        pub: CoreWeave
+        d: '2026-11-13'
+        url: https://s205.q4cdn.com/133937190/files/doc_financials/2026/q3/CoreWeave-Inc-10-Q-Q3-2026.pdf
+        key: false
+      - t: Building site
+        pub: Crusoe
+        d: '2026-03-27'
+        url: https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure
+        key: false
+      - t: Crusoe about $31B
+        pub: Crusoe
+        d: '2026-09-17'
+        url: https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding
+        key: false
+      - t: Crusoe energy-first
+        pub: Crusoe
+        d: undated
+        url: https://www.crusoe.ai/about/company
+        key: false
+      - t: GPU instance offering
+        pub: Crusoe
+        d: undated
+        url: https://www.crusoe.ai/cloud/pricing
+        key: false
+      - t: Live Abilene campus
+        pub: Crusoe
+        d: '2025-09-30'
+        url: https://www.crusoe.ai/resources/newsroom/crusoe-announces-flagship-abilene-data-center-is-live
+        key: false
+- after: src_all_1
+  slide:
+    id: src_all_2
+    type: sources_list
+    section: Sources
+    cols:
+    - - t: SF Compute resale marketplace
+        pub: eWeek
+        d: Nov 2025
+        url: https://www.eweek.com/news/sf-compute-ai-funding
+        key: false
+      - t: Fireworks $1B run rate
+        pub: Fireworks
+        d: '2026-07-15'
+        url: https://fireworks.ai/blog/fireworks-series-d-funding
+        key: true
+      - t: Fireworks about $18B
+        pub: Fireworks
+        d: '2026-07-16'
+        url: https://fireworks.ai/news/fireworks-raises-1-5-billion-series-d
+        key: false
+      - t: Inference funding
+        pub: Fireworks
+        d: '2025-10-28'
+        url: https://fireworks.ai/news/fireworks-ai-raises-250m-series-c
+        key: false
+      - t: Firmus directly markets GPU cloud
+        pub: Firmus
+        d: '2026-11-19'
+        url: https://firmus.co/ai-cloud/ai-cloud-compute
+        key: false
+      - t: Fluidstack $1.5B at $18B
+        pub: Forbes
+        d: '2026-09-03'
+        url: https://www.forbes.com.au/news/innovation/fluidstack-is-now-worth-18-billion
+        key: false
+      - t: Baseten passed $2B in September 2025
+        pub: Fortune
+        d: '2025-09-05'
+        url: https://fortune.com/2025/09/05/exclusive-baseten-ai-inference-unicorn-raises-150-million-at-2-15-billion-valuation
+        key: false
+      - t: Fortune GPUaaS 2026 about $8.7B and 44.3%
+        pub: Fortune Business Insights
+        d: '2026-11-02'
+        url: https://www.fortunebusinessinsights.com/gpu-as-a-service-market-107797
+        key: false
+      - t: Demand for sovereign AI cloud
+        pub: Gartner
+        d: '2026-06-23'
+        url: https://www.gartner.com/en/newsroom/press-releases/2026-06-23-gartner-predicts-neocloud-providers-will-capture-20-percent-of-the-267-billion-dollar-ai-cloud-market-by-2030
+        key: true
+      - t: Marketplace GPUs
+        pub: GPU Ledger
+        d: '2026-11-19'
+        url: https://gpuledger.dev/providers/vast
+        key: false
+      - t: Grand View GPUaaS 2026 $5.1B and 16%
+        pub: Grand View Research
+        d: '2026'
+        url: https://www.grandviewresearch.com/industry-analysis/gpu-as-a-service-gpuaas-market-report
+        key: false
+      - t: Groq raised $350M at a $3.5B valuation
+        pub: Groq
+        d: '2026-08-17'
+        url: https://groq.com/newsroom/groq-closes-usd350-million-series-a-building-the-world-s-leading-ai-inference-cloud
+        key: false
+      - t: Special inference
+        pub: Groq
+        d: '2026-06-22'
+        url: https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business
+        key: false
+      - t: Power and dense racks
+        pub: IEA
+        d: '2026-04-16'
+        url: https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary
+        key: false
+      - t: Power constraints
+        pub: IEA
+        d: '2026-04-16'
+        url: https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions
+        key: true
+      - t: Core Scientific merger failed
+        pub: Investing.com
+        d: '2025-10-30'
+        url: https://www.investing.com/news/stock-market-news/core-scientific-terminates-9-billion-merger-deal-with-coreweave-4320495
+        key: false
+    - - t: CoreWeave IPO price and reduction
+        pub: Investing.com
+        d: '2025-03-27'
+        url: https://www.investing.com/news/stock-market-news/nvidiabacked-coreweave-prices-downsized-us-ipo-at-40-per-share-3953489
+        key: false
+      - t: Microsoft exits Nscale UK site
+        pub: Investing.com
+        d: '2026-10-19'
+        url: https://www.investing.com/news/stock-market-news/microsoft-pulls-out-of-uk-nscale-data-centre-deal-over-power-delay-4960690
+        key: true
+      - t: Microsoft made a multiyear compute deal with CoreWeave
+        pub: Investing.com
+        d: '2023-06-01'
+        url: https://www.investing.com/news/stock-market-news/microsoft-inks-computing-infra-deal-with-coreweave--cnbc-3096521
+        key: false
+      - t: Together AI $800M
+        pub: Investing.com
+        d: '2026-07-01'
+        url: https://www.investing.com/news/stock-market-news/together-ai-raises-800-million-at-83-billion-valuation-4771027
+        key: false
+      - t: Horizon 1 live
+        pub: IREN
+        d: '2026-08-27'
+        url: https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results
+        key: false
+      - t: IREN backlog $20.3B
+        pub: IREN
+        d: '2026-11-05'
+        url: https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results
+        key: true
+      - t: IREN Microsoft $9.7B
+        pub: IREN
+        d: '2025-11-03'
+        url: https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft
+        key: true
+      - t: IREN Nvidia $3.4B
+        pub: IREN
+        d: '2026-05-07'
+        url: https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-34bn-ai-cloud-contract-nvidia
+        key: false
+      - t: Yotta 20,736 GPUs and $1B Nvidia DGX Cloud deal
+        pub: iTnews
+        d: '2026-02-18'
+        url: https://www.itnews.asia/news/yotta-to-build-us2-billion-ai-hub-in-india-with-nvidia-chips-623718
+        key: false
+      - t: Contract-backed assets
+        pub: Lambda
+        d: '2026-10-01'
+        url: https://lambda.com/blog/lambda-closes-1-billion-senior-secured-fixed-rate-financing
+        key: true
+      - t: Cost of capital
+        pub: Lambda
+        d: '2026-08-27'
+        url: https://lambda.com/blog/lambda-closes-926-million-senior-secured-term-loan-b-facility
+        key: false
+      - t: GPU instances rented by hour
+        pub: Lambda
+        d: Nov 2026
+        url: https://lambda.com/pricing
+        key: false
+      - t: Lambda $1.5B round
+        pub: Lambda
+        d: '2025-11-18'
+        url: https://lambda.com/blog/lambda-raises-over-1.5b-from-twg-global-usit-to-build-superintelligence-cloud-infrastructure
+        key: false
+      - t: Lambda sold AI infrastructure since 2017
+        pub: Lambda
+        d: '2024-02-15'
+        url: https://lambda.com/blog/lambda-raises-320m-to-build-a-gpu-cloud-for-ai
+        key: false
+      - t: Lambda was founded in 2012 as AI-only infrastructure firm
+        pub: Lambda
+        d: undated
+        url: https://lambda.com/investors
+        key: false
+- after: src_all_2
+  slide:
+    id: src_all_3
+    type: sources_list
+    section: Sources
+    cols:
+    - - t: Microsoft deals with Lambda, IREN, Nscale, Nebius
+        pub: Lambda
+        d: '2025-11-03'
+        url: https://lambda.com/blog/lambda-announces-multibillion-dollar-agreement-with-microsoft-to-deploy-ai-infrastructure-powered-by-tens-of-thousands-of-nvidia-gpus
+        key: false
+      - t: Nvidia among Lambda investors
+        pub: Lambda
+        d: '2025-02-19'
+        url: https://lambda.ai/blog/lambda-raises-480m-to-expand-ai-cloud-platform
+        key: false
+      - t: TensorWave Series B
+        pub: Magnetar
+        d: '2026-06-10'
+        url: https://www.magnetar.com/insights/tensorwave-raises-350-million-series-b-at-155b-valuation
+        key: false
+      - t: Compute orchestration
+        pub: Modal
+        d: undated
+        url: https://modal.com/products/inference
+        key: false
+      - t: Modal Series B
+        pub: Modal
+        d: '2025-09-29'
+        url: https://modal.com/blog/announcing-our-series-b
+        key: false
+      - t: Modal Series D
+        pub: Modal
+        d: '2026-10-14'
+        url: https://modal.com/blog/1-billion-annualized-run-rate-series-d
+        key: false
+      - t: Nebius Meta agreement up to $27B
+        pub: Nebius
+        d: '2026-03-16'
+        url: https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta
+        key: true
+      - t: Nebius run-rate $6.4B
+        pub: Nebius
+        d: '2026-11-12'
+        url: https://assets.nebius.com/assets/24c6bfb3-c90e-4076-9fe9-c2ab736b51ec/Nebius-SHL-2026-Q3.pdf
+        key: false
+      - t: Nebius Token Factory per token
+        pub: Nebius
+        d: '2026'
+        url: https://nebius.com/services/token-factory
+        key: false
+      - t: NVIDIA invested $2B in Nebius
+        pub: Nebius
+        d: '2026-03-11'
+        url: https://nebius.com/newsroom/nvidia-and-nebius-partner-to-scale-full-stack-ai-cloud
+        key: false
+      - t: Power delays
+        pub: Nebius
+        d: '2026-11-12'
+        url: https://assets.nebius.com/assets/721c566e-9ba5-4935-ad24-b1209116a4cc/Nebius-SHL-2026-Q3.pdf?cache-buster=2026-11-12T13%3A19%3A39.055Z
+        key: false
+      - t: Prepayments and contract demand
+        pub: Nebius
+        d: '2026-11-12'
+        url: https://assets.nebius.com/assets/24c6bfb3-c90e-4076-9fe9-c2ab736b51ec/Nebius-SHL-2026-Q3.pdf?cache-buster=2026-11-12T21%3A41%3A39.221Z
+        key: false
+      - t: Microsoft campus
+        pub: Nscale
+        d: '2025-09-16'
+        url: https://www.nscale.com/press-releases/nscale-uk-ai-infrastructure-announcement
+        key: false
+      - t: Narvik campus expansion
+        pub: Nscale
+        d: '2026-04-14'
+        url: https://www.nscale.com/press-releases/nscale-microsoft-norway
+        key: false
+      - t: Nscale contracted around 200,000 GPUs with Microsoft
+        pub: Nscale
+        d: '2025-10-15'
+        url: https://www.nscale.com/press-releases/nscale-microsoft-2025
+        key: false
+      - t: Nscale launched serverless inference
+        pub: Nscale
+        d: undated
+        url: https://www.nscale.com/newsroom?a48283e3_page=5
+        key: false
+    - - t: Nscale raised $3.4B via convertible notes
+        pub: Nscale
+        d: '2026-09-25'
+        url: https://www.nscale.com/press-releases/pre-ipo-convertible-financing
+        key: false
+      - t: Baseten pools GPUs from 10+ clouds
+        pub: Nvidia
+        d: undated
+        url: https://www.nvidia.com/en-eu/case-studies/baseten-cloud-scaling-ai-inference
+        key: false
+      - t: Prime Intellect Series A
+        pub: Prime Intellect
+        d: '2026-07-08'
+        url: https://www.primeintellect.ai/blog/series-a
+        key: false
+      - t: Nscale IPO filing
+        pub: Pulse 2.0
+        d: '2026-09-19'
+        url: https://pulse2.com/nscale-files-for-ipo
+        key: false
+      - t: TensorWave 8,192 MI325X online
+        pub: Pulse 2.0
+        d: '2026-06-10'
+        url: https://pulse2.com/tensorwave-raises-350-million-series-b-at-1-55-billion-valuation-to-expand-amd-powered-ai-infrastructure
+        key: false
+      - t: Customer model serverless GPU endpoints
+        pub: Runpod
+        d: '2026-11-02'
+        url: https://www.runpod.io/product/serverless
+        key: false
+      - t: Lambda shut its token-priced inference API
+        pub: Runpod
+        d: '2026'
+        url: https://docs.runpod.io/migrate/lambda
+        key: false
+      - t: Runpod began with founders’ GPU hardware in 2021
+        pub: Runpod
+        d: '2026-09-13'
+        url: https://www.runpod.io/blog/a-note-to-the-developers-who-built-runpod-with-us
+        key: false
+      - t: Runpod exceeded $120M annual recurring revenue
+        pub: Runpod
+        d: '2026-01-20'
+        url: https://www.runpod.io/press/runpod-ai-cloud-surpasses-120m-in-arr
+        key: false
+      - t: Runpod one million developers and $100M
+        pub: Runpod
+        d: Jun 2026
+        url: https://www.runpod.io/blog/one-million-developers
+        key: false
+      - t: Self-serve pods and serverless inference
+        pub: Runpod
+        d: '2026-11-12'
+        url: https://www.runpod.io/pricing
+        key: false
+      - t: 2020 platform
+        pub: SEC filing
+        d: Mar 2025
+        url: https://d18rn0p25nwr6d.cloudfront.net/CIK-0001769628/6aa70dc1-592c-44f2-aeae-a78d51a52fe7.pdf
+        key: false
+      - t: Cerebras withdrew first IPO
+        pub: SEC filing
+        d: '2025-10-03'
+        url: https://www.sec.gov/Archives/edgar/data/2021728/000119312525230382/d886849drw.htm
+        key: false
+      - t: CoreWeave and Meta, about $21B
+        pub: SEC filing
+        d: '2026-04-09'
+        url: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000154/ex991.htm
+        key: false
+      - t: CoreWeave launched cloud in 2020 and made $229M in 2023
+        pub: SEC filing
+        d: '2026'
+        url: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm
+        key: true
+- after: src_all_3
+  slide:
+    id: src_all_4
+    type: sources_list
+    section: Sources
+    cols:
+    - - t: CoreWeave Q3 sales up 168%
+        pub: SEC filing
+        d: '2026-11-13'
+        url: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm
+        key: true
+      - t: Customer concentration
+        pub: SEC filing
+        d: '2026-11-12'
+        url: https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm
+        key: false
+      - t: Fluidstack lease revised 2026
+        pub: SEC filing
+        d: '2026-11-12'
+        url: https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm
+        key: false
+      - t: International site strategy
+        pub: SEC filing
+        d: '2026-04-30'
+        url: https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm?output=1
+        key: false
+      - t: IREN GPU service
+        pub: SEC filing
+        d: '2026-08-27'
+        url: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm
+        key: false
+      - t: Large capital expenditure
+        pub: SEC filing
+        d: '2026-11-10'
+        url: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm
+        key: false
+      - t: Nebius AI cloud booked about $1.9B in nine months of 2026
+        pub: SEC filing
+        d: '2026-11-12'
+        url: https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm
+        key: false
+      - t: Nebius and Meta, up to $27B
+        pub: SEC filing
+        d: '2026-03-16'
+        url: https://www.sec.gov/Archives/edgar/data/1513845/000110465926027886/tm268879d1_6k.htm
+        key: false
+      - t: Nebius recognized $325M in one-time enablement revenue
+        pub: SEC filing
+        d: '2026-11-12'
+        url: https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm
+        key: true
+      - t: Nebius signed about $17B in GPU capacity with Microsoft
+        pub: SEC filing
+        d: Nov 2025
+        url: https://www.sec.gov/Archives/edgar/data/1513845/000110465925110025/tm2530771-1_424b5.htm
+        key: false
+      - t: Nscale Anthropic up to about $45B
+        pub: SEC filing
+        d: '2026-09-18'
+        url: https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm
+        key: true
+      - t: Nscale funding not secured
+        pub: SEC filing
+        d: '2026-11-12'
+        url: https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm
+        key: true
+      - t: Prince George and Mackenzie
+        pub: SEC filing
+        d: May 2026
+        url: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000028/irentranscript.htm
+        key: false
+      - t: Network and storage criteria
+        pub: SemiAnalysis
+        d: undated
+        url: https://clustermax.semianalysis.com/criteria
+        key: false
+      - t: November 2025 ranking
+        pub: SemiAnalysis
+        d: '2025-11-06'
+        url: https://clustermax.semianalysis.com/v2
+        key: true
+    - - t: SF Compute $40M at $300M
+        pub: Startup Researcher
+        d: '2025-11-28'
+        url: https://www.startupresearcher.com/news/sf-compute-raises-usd40-million-to-build-ai-compute-marketplace
+        key: false
+      - t: Synergy revenue exceeded $25B in 2025
+        pub: Synergy Research
+        d: '2026-04-02'
+        url: https://www.srgresearch.com/articles/neocloud-market-forecast-to-approach-400b-by-2031-driven-by-surging-ai-infrastructure-demand
+        key: true
+      - t: 460 MW, six years, late 2027
+        pub: TechCrunch
+        d: '2026-08-26'
+        url: https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale
+        key: false
+      - t: fal $1.3B, $16B
+        pub: TechCrunch
+        d: '2026-11-03'
+        url: https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges
+        key: false
+      - t: Lambda IPO shift
+        pub: TechCrunch
+        d: '2026-10-06'
+        url: https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo
+        key: false
+      - t: Crusoe started with stranded gas flares
+        pub: TechGist Africa
+        d: Oct 2025
+        url: https://techgistafrica.com/world-regional-news/north-america/denver%E2%80%91based-data-centre-startup-crusoe-secures-us1-38-billion-in-series-e-funding/amp
+        key: false
+      - t: Nvidia backs Nscale, spun out of a bitcoin miner
+        pub: The Energy Mag
+        d: '2026-03-09'
+        url: https://www.theenergymag.com/news/2026-03-09/nscale-ai-2-billion
+        key: false
+      - t: Nvidia in Crusoe Series E
+        pub: The Star
+        d: '2025-10-24'
+        url: https://www.thestar.com.my/tech/tech-news/2025/10/24/ai-data-centre-startup-crusoe-raising-138-billion-in-latest-funding-round
+        key: false
+      - t: fal Series C
+        pub: Tiger Brokers
+        d: '2025-07-31'
+        url: https://www.itiger.com/hans/news/2555856218
+        key: false
+      - t: Vast.ai put B300 GPUs on its marketplace
+        pub: Vast.ai
+        d: '2026-06-09'
+        url: https://vast.ai/article/june-2026-product-update
+        key: false
+      - t: Verda reported a $100M run-rate milestone
+        pub: Verda
+        d: undated
+        url: https://verda.com/newsroom
+        key: false
+      - t: Nscale not yet listed, filed for NYSE
+        pub: W.Media
+        d: '2026-09-21'
+        url: https://w.media/?p=43614
+        key: false
+      - t: CoreWeave sells inference per token
+        pub: Weights & Biases
+        d: '2025'
+        url: https://wandb.ai/wandb_fc/product-announcements-fc/reports/Introducing-W-B-Inference-powered-by-CoreWeave--VmlldzoxMzI1NjU0MQ
+        key: false
+      - t: CoreWeave reported Q3 2026 revenue of $3.7B
+        pub: Yahoo Finance
+        d: '2026-11-10'
+        url: https://finance.yahoo.com/news/coreweave-beats-quarterly-revenue-estimates-210939180.html
+        key: false
+      - t: CoreWeave 2025 revised outlook
+        pub: YouTube
+        d: '2025-11-11'
+        url: https://www.youtube.com/watch?v=dxKc8htlc-o
+        key: false

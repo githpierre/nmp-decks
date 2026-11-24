@@ -1,0 +1,531 @@
+ed058:
+  type: pp_pains
+  title: 'Which wearable problems are
+
+    still waiting to be solved?'
+  auds:
+  - Fitness fans
+  - Older adults
+  - Diabetes patients
+  - Health insurers
+  - Large employers
+  pains:
+  - - They stop wearing their device after a few months of use
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They lose trust after readings that vary with skin and motion
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They cannot see all of their health data in one single place
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They rarely get a device paid for by their health insurance
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They wait years for new health features to be cleared by the FDA
+    - - 1
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They pay monthly fees that pile up across several devices
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which wearable tech player has
+
+    the most complete tech today?'
+  companies:
+  - name: Apple
+    src: ../../assets/logos/pp_live/wearable/s05-00.png
+  - name: Samsung
+    src: ../../assets/logos/pp_live/wearable/s05-01.png
+  - name: Google
+    src: ../../assets/logos/pp_live/wearable/s05-02.png
+  - name: Garmin
+    src: ../../assets/logos/pp_live/wearable/s05-03.png
+  - name: Oura
+    src: ../../assets/logos/pp_live/wearable/s05-04.png
+  - name: Whoop
+    src: ../../assets/logos/pp_live/wearable/s05-05.png
+  features:
+  - header: ECG|app
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Blood|pressure
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Cellular|LTE
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Satellite|SOS
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Smart|ring
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Blood|tests
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Own|earbuds
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    wearables down?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Apple and Samsung keep adding free health features like blood pressure alerts, squeezing Oura and Whoop subscriptions
+  - odds: 35
+    impact: 2
+    text: More patent fights like Oura's ITC win against Ultrahuman block US sales of rings and smartwatches
+  - odds: 35
+    impact: 2
+    text: Tariffs on Chinese electronics raise wearable prices by 20% and slow sales for Fitbit, Garmin and startups
+  - odds: 30
+    impact: 2
+    text: Meta and Google ship cheap AI glasses that pull buyers away from rings, bands and pins
+  - odds: 30
+    impact: 2
+    text: Humane-style flops make investors wary, and AI wearable startups fail to raise their next round
+  - odds: 30
+    impact: 1
+    text: Users drop devices after a few months and subscription models from Oura and Whoop see churn rise
+  - odds: 20
+    impact: 3
+    text: A data breach exposes health data from millions of fitness trackers and states pass strict privacy laws
+  - odds: 10
+    impact: 2
+    text: The FDA warns Whoop and others again over blood pressure features sold without medical device clearance
+  note:
+  - We listed the events that could slow wearable down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed wearables
+
+    forward, year after year?'
+  events:
+  - year: '2006'
+    text: Nike+iPod links shoes to running data
+    impact: 1.5
+  - year: '2007'
+    text: iPhone gives wearables a pocket hub
+    impact: 1.5
+  - year: '2009'
+    text: Fitbit clips make step counting a habit
+    impact: 2
+  - year: '2010'
+    text: Bluetooth LE lets trackers run for days
+    impact: 2
+  - year: '2012'
+    text: Pebble raises $10M, proving watch demand
+    impact: 1.5
+  - year: '2014'
+    text: Google opens Android to smartwatches
+    impact: 1
+  - year: '2014'
+    text: HealthKit gives health data one home
+    impact: 1
+  - year: '2015'
+    text: Apple Watch makes smartwatches mainstream
+    impact: 3
+  - year: '2015'
+    text: Fitbit IPO shows trackers are big business
+    impact: 1.5
+  - year: '2016'
+    text: AirPods make wireless earbuds everyday
+    impact: 2
+  - year: '2017'
+    text: Apple Watch gets LTE, leaves phone home
+    impact: 1
+  - year: '2018'
+    text: FDA clears Apple Watch ECG
+    impact: 2.5
+  - year: '2018'
+    text: John Hancock prices insurance on fitness data
+    impact: 1
+  - year: '2019'
+    text: Apple Heart Study enrolls 400,000 users
+    impact: 1.5
+  - year: '2019'
+    text: Google buys Fitbit for $2.1B
+    impact: 1.5
+  - year: '2019'
+    text: Medicare pays for remote patient monitoring
+    impact: 1.5
+  - year: '2020'
+    text: Covid pandemic makes people track health
+    impact: 2.5
+  - year: '2020'
+    text: NBA uses Oura rings to spot Covid
+    impact: 1.5
+  - year: '2020'
+    text: Apple Watch adds a blood oxygen sensor
+    impact: 1
+  - year: '2022'
+    text: FDA allows hearing aids over the counter
+    impact: 1.5
+  - year: '2022'
+    text: Apple Watch adds car crash detection
+    impact: 1
+  - year: '2023'
+    text: Ray-Ban Meta glasses make smart glasses cool
+    impact: 2
+  - year: '2024'
+    text: FDA clears first OTC glucose sensor
+    impact: 1.5
+  - year: '2024'
+    text: FDA lets AirPods work as hearing aids
+    impact: 1.5
+  - year: '2024'
+    text: Samsung Galaxy Ring validates smart rings
+    impact: 1.5
+  - year: '2025'
+    text: HHS wants every American wearing a tracker
+    impact: 1.5
+  - year: '2025'
+    text: FDA clears Apple Watch blood pressure alerts
+    impact: 1.5
+  - year: '2025'
+    text: Meta adds a display to smart glasses
+    impact: 2
+  - year: '2025'
+    text: Oura hits $11B value as rings boom
+    impact: 1.5
+  - year: '2026'
+    text: FDA eases rules for health wearables
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed wearable forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: wearable
+  title: 'Where did wearable investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of wearable startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the wearable technology market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/wearable/s10-00.png
+    x: 375.9
+    y: 282.0
+  - src: ../../assets/logos/pp_live/wearable/s10-01.png
+    x: 430.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/wearable/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/wearable/s10-03.png
+    x: 662.6
+    y: 266.8
+  - src: ../../assets/logos/pp_live/wearable/s10-04.png
+    x: 189.4
+    y: 290.1
+  - src: ../../assets/logos/pp_live/wearable/s10-05.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/wearable/s10-06.png
+    x: 315.9
+    y: 294.0
+  - src: ../../assets/logos/pp_live/wearable/s10-07.png
+    x: 479.1
+    y: 309.9
+  - src: ../../assets/logos/pp_live/wearable/s10-08.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/wearable/s10-09.png
+    x: 736.7
+    y: 285.0
+  - src: ../../assets/logos/pp_live/wearable/s10-10.png
+    x: 798.2
+    y: 285.0
+  - src: ../../assets/logos/pp_live/wearable/s10-11.png
+    x: 339.4
+    y: 368.4
+  - src: ../../assets/logos/pp_live/wearable/s10-12.png
+    x: 191.6
+    y: 404.1
+  - src: ../../assets/logos/pp_live/wearable/s10-13.png
+    x: 269.4
+    y: 404.1
+  - src: ../../assets/logos/pp_live/wearable/s10-14.png
+    x: 487.3
+    y: 389.1
+  - src: ../../assets/logos/pp_live/wearable/s10-15.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/wearable/s10-16.png
+    x: 695.1
+    y: 379.1
+  - src: ../../assets/logos/pp_live/wearable/s10-17.png
+    x: 415.7
+    y: 406.9
+  - src: ../../assets/logos/pp_live/wearable/s10-18.png
+    x: 334.1
+    y: 485.6
+  - src: ../../assets/logos/pp_live/wearable/s10-19.png
+    x: 438.9
+    y: 483.0
+  - src: ../../assets/logos/pp_live/wearable/s10-20.png
+    x: 654.9
+    y: 473.1
+  - src: ../../assets/logos/pp_live/wearable/s10-21.png
+    x: 723.4
+    y: 484.9
+  - src: ../../assets/logos/pp_live/wearable/s10-22.png
+    x: 197.1
+    y: 505.3
+  - src: ../../assets/logos/pp_live/wearable/s10-23.png
+    x: 268.3
+    y: 510.6
+  - src: ../../assets/logos/pp_live/wearable/s10-24.png
+    x: 526.7
+    y: 510.6
+  - src: ../../assets/logos/pp_live/wearable/s10-25.png
+    x: 789.0
+    y: 505.3
+  cols:
+  - Mainstream consumer
+  - Prosumer / performance
+  - Enterprise / professional
+  rows:
+  - Biometric sensing &
+  - Audio/voice wearable
+  - Visual/spatial computing
+  note:
+  - We placed wearable hardware firms with funding and clear traction by their main market
+  - This is not a full list, and you will find all the sources we used at the end of the report
+ed209p:
+  title: 'Why is Oura winning
+
+    screenless wearables?'
+  companies:
+  - short: Oura
+    src: ../../assets/logos/pp_live/wearable/s12-00.png
+  - short: WHOOP
+    src: ../../assets/logos/pp_live/wearable/s12-01.png
+  - short: Ultrahuman
+    src: ../../assets/logos/pp_live/wearable/s12-02.png
+  - short: Galaxy Ring
+    src: ../../assets/logos/pp_live/wearable/s12-03.png
+  - short: Circular
+    src: ../../assets/logos/pp_live/wearable/s12-04.png
+  criteria:
+  - name: 5.5M+ rings sold
+    why: Biggest base and brand
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Valued above $10B
+    why: Funds R&D and retail
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: US patent wins at ITC
+    why: Blocks rival imports
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Blood tests in the app
+    why: Health beyond the sensor
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: iPhone and Android
+    why: Sells to every phone user
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Ring form factor
+    why: Comfy to wear day and night
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: No subscription fee
+    why: Lower total cost
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company
+
+    part of wearable tech?'
+  TL:
+    name: Meta
+    src: ../../assets/logos/pp_live/wearable/s01-00.png
+    text: sells Ray-Ban Meta smart glasses by the millions, but nearly all of its revenue still comes from ads on its social apps
+  TR:
+    name: Rolex
+    src: ../../assets/logos/pp_live/wearable/s01-02.png
+    text: makes some of the most coveted i watches in the world, but with no sensors, no app and no data they remain accessories
+  BL:
+    name: Withings
+    src: ../../assets/logos/pp_live/wearable/s01-10.png
+    text: 'makes hybrid smartwatches full of health sensors, but much of its range is scales and cuffs that are never : worn'
+  BR:
+    name: PIERCED G)MEEES SAAS ENE
+    src: ../../assets/logos/pp_live/wearable/s01-11.png
+    text: wert Ga the arm and stream data to a phone, but most are still prescribed as medical . . r ae levices
+  caption:
+  - Distance to the center reflects how much a device relies on body sensors and software, rather than on design alone
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/wearable/s01-01.png
+  - ../../assets/logos/pp_live/wearable/s01-03.png
+  - ../../assets/logos/pp_live/wearable/s01-04.png
+  - ../../assets/logos/pp_live/wearable/s01-05.png
+  - ../../assets/logos/pp_live/wearable/s01-06.png
+  - ../../assets/logos/pp_live/wearable/s01-07.png
+  - ../../assets/logos/pp_live/wearable/s01-08.png
+  - ../../assets/logos/pp_live/wearable/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/wearable/s01-01.png
+    x: 483.6
+    y: 277.9
+  - src: ../../assets/logos/pp_live/wearable/s01-03.png
+    x: 412.7
+    y: 348.2
+  - src: ../../assets/logos/pp_live/wearable/s01-04.png
+    x: 478.9
+    y: 352.5
+  - src: ../../assets/logos/pp_live/wearable/s01-05.png
+    x: 545.8
+    y: 345.6
+  - src: ../../assets/logos/pp_live/wearable/s01-06.png
+    x: 372.2
+    y: 394.5
+  - src: ../../assets/logos/pp_live/wearable/s01-07.png
+    x: 448.9
+    y: 404.8
+  - src: ../../assets/logos/pp_live/wearable/s01-08.png
+    x: 509.8
+    y: 406.3
+  - src: ../../assets/logos/pp_live/wearable/s01-09.png
+    x: 485.4
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Searches for smart rings spike
+
+    with every launch and holiday season'
+  date: ''
+  expl: ''
+  term: wearable
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/wearable/wearable.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  lead: 'To fill that room, '
+  condition: the market must turn glasses into a daily habit for hundreds of millions of people, the way earbuds did after 2016. It 7 must also prove health
+    value, so that insurers, employers, and Medicare pay for the devices and memberships people keep using.
+  note:
+  - We compared forecasts from Grand View, Fortune Business Insights, MarketsandMarkets and Market.us with IDC unit data
+  - We adjusted each one to our market definition to build a realistic range, and all our sources are listed at the end of the report
+  size: 100
+  cagr: 9
+  y0: 2026

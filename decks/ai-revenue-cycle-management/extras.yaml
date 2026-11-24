@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do AI medical billing
+
+      firms actually make money?'
+    axes:
+    - Software subscription
+    - Paid per task or result
+    - Intake and
+    - approvals
+    - Claims and
+    - denials
+    groups:
+    - name: Billing software platforms
+      x: 0.14
+      y: 0.58
+      logos:
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-04.png
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-05.png
+    - name: Prior auth and intake bots
+      x: 0.36
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-08.png
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-09.png
+    - name: Autonomous medical coding
+      x: 0.62
+      y: 0.38
+      logos:
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-06.png
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-07.png
+    - name: Denials and claims AI
+      x: 0.4
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-00.png
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-01.png
+    - name: Cut of collections
+      x: 0.86
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-02.png
+      - src: ../../assets/logos/pp_live/ai-revenue-cycle-management/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

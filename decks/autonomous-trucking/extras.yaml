@@ -1,0 +1,44 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does money really flow
+
+      in autonomous trucking?'
+    axes:
+    - Sells the tech
+    - Hauls the freight
+    - Upfront
+    - sale
+    - Per-mile
+    - revenue
+    groups:
+    - name: Autonomy system sale
+      x: 0.18
+      y: 0.22
+      logos:
+      - src: ../../assets/logos/pp_live/autonomous-trucking/s06-06.png
+      - src: ../../assets/logos/pp_live/autonomous-trucking/s06-07.png
+    - name: Freight per mile
+      x: 0.82
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/autonomous-trucking/s06-02.png
+      - src: ../../assets/logos/pp_live/autonomous-trucking/s06-03.png
+    - name: Driver as a Service
+      x: 0.45
+      y: 0.75
+      logos:
+      - src: ../../assets/logos/pp_live/autonomous-trucking/s06-05.png
+      - src: ../../assets/logos/pp_live/autonomous-trucking/s06-00.png
+    - name: Remote ops subscription
+      x: 0.3
+      y: 0.5
+      logos:
+      - src: ../../assets/logos/pp_live/autonomous-trucking/s06-04.png
+      - src: ../../assets/logos/pp_live/autonomous-trucking/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

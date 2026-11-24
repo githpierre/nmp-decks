@@ -1,0 +1,535 @@
+ed058:
+  type: pp_pains
+  title: 'What has already been fixed in AI
+
+    materials, and what is left to solve?'
+  auds:
+  - Data centers
+  - Energy majors
+  - CCS developers
+  - Water utilities
+  - Climate funds
+  pains:
+  - - They pay for costly lab experiments on every single candidate
+    - - 2
+      - 2
+      - 3
+      - 2
+      - 2
+  - - They test millions of candidates to find the one that works
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They see sorbents that work in the lab fail in real plants
+    - - 1
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They wait years for a new coolant to be qualified for use
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 2
+  - - They face PFAS bans before a safe substitute is ready to use
+    - - 3
+      - 1
+      - 1
+      - 3
+      - 1
+  - - They depend on rare metals like iridium for their catalysts
+    - - 1
+      - 3
+      - 1
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI materials player has
+
+    the most complete tech today?'
+  companies:
+  - name: Schrödinger
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s05-00.png
+  - name: Periodic
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s05-01.png
+  - name: Orbital
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s05-02.png
+  - name: CuspAI
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s05-03.png
+  - name: Citrine
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s05-04.png
+  - name: Radical AI
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s05-05.png
+  features:
+  - header: Autonomous|lab
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Sells|software
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Atom-scale|simulation
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Battery|materials
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Chip|materials
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Formulation|AI
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Own|products
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to AI materials discovery?'
+  events:
+  - odds: 30
+    impact: 3
+    text: Microsoft Discovery and Google DeepMind's robot lab take the biggest AI materials discovery customers
+  - odds: 25
+    impact: 2
+    text: Funding for AI materials startups crashes as revenue stays far below the money raised
+  - odds: 20
+    impact: 2
+    text: OpenAI and Google general models match Periodic Labs on materials work, erasing the edge of startups
+  - odds: 20
+    impact: 2
+    text: China pulls ahead as Deep Principle and DP Technology win state funding and industrial customers
+  - odds: 15
+    impact: 1
+    text: US cuts to NSF and national labs shrink the public data that AI materials startups rely on
+  - odds: 15
+    impact: 3
+    text: AI-discovered materials fail when scaled to factory production, so customers stop paying for discovery platforms
+  - odds: 15
+    impact: 2
+    text: Large chemical and battery clients keep the IP from joint projects, leaving AI materials startups little value
+  - odds: 10
+    impact: 2
+    text: A big false discovery claim like the A-Lab correction damages trust in AI materials discovery
+  note:
+  - We listed the events that could slow ai materials discovery down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept AI materials discovery
+
+    moving forward, year after year?'
+  events:
+  - year: '1965'
+    text: DFT lets computers predict material traits
+    impact: 1.5
+  - year: '1998'
+    text: Kohn's Nobel brings DFT into the mainstream
+    impact: 1
+  - year: '2011'
+    text: Materials Genome Initiative funds data push
+    impact: 2.5
+  - year: '2011'
+    text: Materials Project opens free crystal database
+    impact: 2
+  - year: '2016'
+    text: Failed lab runs teach AI new crystals
+    impact: 1
+  - year: '2016'
+    text: AI picks OLED molecules among 1.6M options
+    impact: 1
+  - year: '2017'
+    text: Toyota puts $35M into AI materials research
+    impact: 1
+  - year: '2018'
+    text: Graph neural nets learn crystal properties
+    impact: 1.5
+  - year: '2020'
+    text: Robot chemist runs 688 experiments alone
+    impact: 1.5
+  - year: '2020'
+    text: Open Catalyst Project shares catalyst data
+    impact: 1
+  - year: '2021'
+    text: AlphaFold success pulls AI into chemistry
+    impact: 1.5
+  - year: '2022'
+    text: IRA pours billions into battery tech
+    impact: 1.5
+  - year: '2022'
+    text: CHIPS Act funds new chip materials R&D
+    impact: 1
+  - year: '2023'
+    text: Microsoft sells AI chemistry in its cloud
+    impact: 1
+  - year: '2023'
+    text: GNoME finds 2.2M new crystals
+    impact: 3
+  - year: '2023'
+    text: A-Lab robot makes 41 new materials
+    impact: 2
+  - year: '2024'
+    text: Microsoft AI finds battery material in weeks
+    impact: 2
+  - year: '2024'
+    text: AI designs a rare earth free magnet
+    impact: 1
+  - year: '2024'
+    text: Meta releases OMat24 with 110M calculations
+    impact: 1.5
+  - year: '2024'
+    text: Nobels honor AI in physics and chemistry
+    impact: 1.5
+  - year: '2024'
+    text: Nvidia ALCHEMI puts material models on GPUs
+    impact: 1
+  - year: '2025'
+    text: MatterGen designs materials to order
+    impact: 2
+  - year: '2025'
+    text: Google AI co-scientist proposes lab ideas
+    impact: 1
+  - year: '2025'
+    text: China curbs rare earths, firms seek swaps
+    impact: 2
+  - year: '2025'
+    text: Microsoft Discovery platform targets R&D
+    impact: 1
+  - year: '2025'
+    text: Record $300M seed backs AI lab science
+    impact: 2
+  - year: '2025'
+    text: Lila raises over $500M for robot labs
+    impact: 1.5
+  - year: '2025'
+    text: CuspAI raises $100M for carbon materials
+    impact: 1
+  - year: '2025'
+    text: Genesis Mission puts national labs on AI
+    impact: 2.5
+  - year: '2026'
+    text: AI lab finds new green hydrogen catalysts
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai materials discovery forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-materials-discovery
+  title: 'Where did AI materials discovery
+
+    investors put their money this past year?'
+  note:
+  - We added up every equity round of ai materials discovery startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in AI materials discovery?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-00.png
+    x: 253.1
+    y: 277.3
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-01.png
+    x: 309.2
+    y: 265.7
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-02.png
+    x: 484.9
+    y: 270.9
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-03.png
+    x: 588.2
+    y: 276.6
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-04.png
+    x: 814.3
+    y: 270.4
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-05.png
+    x: 361.3
+    y: 297.0
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-06.png
+    x: 535.7
+    y: 302.6
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-07.png
+    x: 686.4
+    y: 288.0
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-08.png
+    x: 749.8
+    y: 299.1
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-09.png
+    x: 317.1
+    y: 369.9
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-10.png
+    x: 468.2
+    y: 369.2
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-11.png
+    x: 375.9
+    y: 381.9
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-12.png
+    x: 522.6
+    y: 391.3
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-13.png
+    x: 587.8
+    y: 386.4
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-14.png
+    x: 757.7
+    y: 387.9
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-15.png
+    x: 819.4
+    y: 397.3
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-16.png
+    x: 264.2
+    y: 407.6
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-17.png
+    x: 681.6
+    y: 407.6
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-18.png
+    x: 267.0
+    y: 481.7
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-19.png
+    x: 325.1
+    y: 487.3
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-20.png
+    x: 390.4
+    y: 482.1
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-21.png
+    x: 474.0
+    y: 491.1
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-22.png
+    x: 818.6
+    y: 477.0
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-23.png
+    x: 532.9
+    y: 495.4
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-24.png
+    x: 602.4
+    y: 501.9
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-25.png
+    x: 675.6
+    y: 499.3
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s10-26.png
+    x: 762.0
+    y: 496.3
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Energy
+  - Chemicals
+  - Metals
+  note:
+  - We left out Big Tech, listed software firms like Schrodinger and AI science labs like Lila Sciences
+  - We placed each pure player by its main focus, and all our sources are at the end of the report
+ed209p:
+  title: 'Why might CuspAI be winning
+
+    AI materials discovery?'
+  companies:
+  - short: CuspAI
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s12-00.png
+  - short: Periodic
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s12-01.png
+  - short: Orbital
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s12-02.png
+  - short: Radical AI
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s12-03.png
+  - short: Citrine
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s12-04.png
+  criteria:
+  - name: Raised over $400M
+    why: Funds models and lab work
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Valued above $1B
+    why: Investors back the leader
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Published partner results
+    why: Proof with real industry
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 45+ member AI foundry
+    why: Shared data and lab access
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Founders from big AI labs
+    why: Top machine learning talent
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Paying enterprise clients
+    why: Revenue before discovery
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Own autonomous lab
+    why: Tests ideas in the real world
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in AI materials discovery?'
+  TL:
+    name: Sila
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s01-00.png
+    text: makes Titan Silicon, an anode that adds 20% more energy to batteries, but it is a battery material maker, not an AI lab
+  TR:
+    name: BASF
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s01-01.png
+    text: is one of the world's leading chemical companies, but it makes chemicals at scale rather than discovering new ones
+  BL:
+    name: Citrine Informatics
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s01-10.png
+    text: sells AI software A " that helps chemical makers find new materials, but its clients make the i . discoveries
+  BR:
+    name: He) Sa1SH836
+    src: ../../assets/logos/pp_live/ai-materials-discovery/s01-11.png
+    text: is (elieting) viein IBLE ie automate all of science, so materials | field biol d clic ay hy elie wiles) (nar i (eelersy/ El chemistry
+  caption:
+  - 'Dist to th te flects h h AT leads the di f terial: ther thi t ducti'
+  - istance To je center retlects how muc jeaas je aiscovery of new materials, rather jan supporting proauction
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-materials-discovery/s01-02.png
+  - ../../assets/logos/pp_live/ai-materials-discovery/s01-03.png
+  - ../../assets/logos/pp_live/ai-materials-discovery/s01-04.png
+  - ../../assets/logos/pp_live/ai-materials-discovery/s01-05.png
+  - ../../assets/logos/pp_live/ai-materials-discovery/s01-06.png
+  - ../../assets/logos/pp_live/ai-materials-discovery/s01-07.png
+  - ../../assets/logos/pp_live/ai-materials-discovery/s01-08.png
+  - ../../assets/logos/pp_live/ai-materials-discovery/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s01-02.png
+    x: 435.6
+    y: 287.4
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s01-03.png
+    x: 521.4
+    y: 321.2
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s01-04.png
+    x: 463.7
+    y: 356.4
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s01-05.png
+    x: 402.6
+    y: 381.6
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s01-06.png
+    x: 515.4
+    y: 391.1
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s01-07.png
+    x: 460.1
+    y: 416.4
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s01-08.png
+    x: 386.4
+    y: 440.8
+  - src: ../../assets/logos/pp_live/ai-materials-discovery/s01-09.png
+    x: 518.8
+    y: 454.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'How big is the market
+
+    for regenerative agriculture?'
+  date: ''
+  expl: AIR MOBILITY REGENAG (NT MOBILE ANALYTICS DIGITAL TWIN
+  term: ai materials discovery
+  note:
+  - We compared them with tech markets of a similar size, and all our sources are at the end of the report
+  csv: assets/trends/ai-materials-discovery/ai-materials-discovery.csv
+ed052p:
+  type: pp_cagr
+  title: 'What growth can the AI materials
+
+    discovery market realistically expect?'
+  lead: ''
+  condition: To hit this growth, AI-found materials must reach real products, like Orbital’s GPU coolant in 2027, and clients must move from pilot projects
+    to yearly contracts as robot labs prove their results. It must also keep public funding flowing, with Genesis Mission grants and open data that new
+    models can train on.
+  note:
+  - We compared forecasts from SNS Insider, Market.us, Research and Markets and MarketsandMarkets to build a realistic range
+  - We added our funding tracker and allowed for slow lab testing, and all the sources we used are listed at the end of the report
+  size: null
+  cagr: 25
+  y0: 2026

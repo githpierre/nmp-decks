@@ -1,0 +1,535 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI accounting
+
+    customers actually pay to solve?'
+  auds:
+  - Small businesses
+  - Tech startups
+  - Mid-market teams
+  - Accounting firms
+  - Bookkeeping firms
+  pains:
+  - - They miscode a share of transactions that someone must find and fix
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They lose a week each month waiting for bank feeds and receipts
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They saw Bench shut down overnight and lock clients out of books
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They pay a lot each month for a bookkeeper who is often late
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 3
+  - - They get books that work for taxes but are useless for decisions
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They cannot switch ledgers without months of migration work
+    - - 1
+      - 2
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI accounting tools can already
+
+    do what finance teams ask for?'
+  companies:
+  - name: QuickBooks
+    src: ../../assets/logos/pp_live/ai-accounting/s05-00.png
+  - name: Xero
+    src: ../../assets/logos/pp_live/ai-accounting/s05-01.png
+  - name: Campfire
+    src: ../../assets/logos/pp_live/ai-accounting/s05-02.png
+  - name: Digits
+    src: ../../assets/logos/pp_live/ai-accounting/s05-03.png
+  - name: Rillet
+    src: ../../assets/logos/pp_live/ai-accounting/s05-04.png
+  - name: DualEntry
+    src: ../../assets/logos/pp_live/ai-accounting/s05-05.png
+  features:
+  - header: Mobile|app
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Own|payroll
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Business|bank
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Revenue|recognition
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Subsidiary|rollup
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Own AI|model
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Firm|console
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI accounting?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Intuit, Xero, Sage and BILL bundle AI agents into base plans, removing the edge of startups
+  - odds: 25
+    impact: 2
+    text: The CFPB open banking rule dies and banks restrict data access for AI bookkeeping startups
+  - odds: 20
+    impact: 3
+    text: Anthropic and OpenAI ship ready accounting agents that firms can use without buying startup software
+  - odds: 12
+    impact: 2
+    text: A public audit or report built with AI contains major errors and makes clients distrust AI accounting
+  - odds: 12
+    impact: 2
+    text: Funding for AI accounting startups dries up as investors doubt they can beat Intuit and Xero
+  - odds: 8
+    impact: 1
+    text: Accounting firm roll-ups backed by private equity build their own AI tools instead of buying software
+  - odds: 5
+    impact: 2
+    text: The IRS or a court holds an AI accounting vendor liable for errors in a tax return
+  - odds: 5
+    impact: 2
+    text: Deloitte, EY, PwC and KPMG build their own AI accounting tools and stop buying from startups
+  note:
+  - We listed the events that could slow ai accounting down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI accounting
+
+    forward, year after year?'
+  events:
+  - year: '2001'
+    text: QuickBooks puts small firm books online
+    impact: 1
+  - year: '2007'
+    text: Xero launches cloud books for small firms
+    impact: 1.5
+  - year: '2008'
+    text: Bank feeds end manual typing of transactions
+    impact: 2
+  - year: '2008'
+    text: Financial crisis makes small firms cut costs
+    impact: 1
+  - year: '2010'
+    text: Phone cameras turn receipts into data
+    impact: 1
+  - year: '2013'
+    text: Oxford study rates accounting 94% automatable
+    impact: 1
+  - year: '2014'
+    text: EU requires e-invoices in public tenders
+    impact: 1.5
+  - year: '2014'
+    text: Intuit goes cloud first with QuickBooks
+    impact: 2
+  - year: '2015'
+    text: EU PSD2 opens bank data to apps
+    impact: 1.5
+  - year: '2016'
+    text: Machine learning auto codes bank transactions
+    impact: 1
+  - year: '2018'
+    text: UK open banking gives apps bank access
+    impact: 1
+  - year: '2018'
+    text: Xero buys Hubdoc, making OCR capture standard
+    impact: 1.5
+  - year: '2019'
+    text: Italy forces all B2B invoices through SDI
+    impact: 2
+  - year: '2019'
+    text: UK Making Tax Digital forces VAT software
+    impact: 2
+  - year: '2019'
+    text: Bill.com IPO proves demand for AP automation
+    impact: 1
+  - year: '2020'
+    text: Covid sends finance teams remote, paperless
+    impact: 2
+  - year: '2020'
+    text: PPP loans make clean books a must
+    impact: 1
+  - year: '2021'
+    text: Great Resignation drains accounting firms
+    impact: 1.5
+  - year: '2022'
+    text: 300,000 US accountants quit in two years
+    impact: 2.5
+  - year: '2022'
+    text: ChatGPT shows AI can read finance documents
+    impact: 3
+  - year: '2023'
+    text: Fewer students pick accounting, gap widens
+    impact: 1.5
+  - year: '2023'
+    text: PwC pledges $1B to AI, rivals follow
+    impact: 1
+  - year: '2023'
+    text: Intuit Assist brings GenAI into QuickBooks
+    impact: 1.5
+  - year: '2024'
+    text: Copilot for Finance brings AI into Excel
+    impact: 1
+  - year: '2024'
+    text: Intuit halts Desktop sales, users go online
+    impact: 1.5
+  - year: '2025'
+    text: Germany makes firms accept B2B e-invoices
+    impact: 2
+  - year: '2025'
+    text: QuickBooks AI agents take on bookkeeping
+    impact: 2.5
+  - year: '2025'
+    text: Xero pays $2.5B for Melio payments
+    impact: 1
+  - year: '2026'
+    text: Poland KSeF makes e-invoices mandatory
+    impact: 1.5
+  - year: '2026'
+    text: France e-invoice mandate forces firms online
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed ai accounting forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-accounting
+  title: 'Where did AI accounting investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai accounting startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in AI accounting today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-00.png
+    x: 255.6
+    y: 276.4
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-01.png
+    x: 315.6
+    y: 268.5
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-02.png
+    x: 531.4
+    y: 277.9
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-03.png
+    x: 816.0
+    y: 270.4
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-04.png
+    x: 382.5
+    y: 293.6
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-05.png
+    x: 472.9
+    y: 294.9
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-06.png
+    x: 605.6
+    y: 302.6
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-07.png
+    x: 679.7
+    y: 303.4
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-08.png
+    x: 749.6
+    y: 297.9
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-09.png
+    x: 336.4
+    y: 371.6
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-10.png
+    x: 479.1
+    y: 372.9
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-11.png
+    x: 252.2
+    y: 386.4
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-12.png
+    x: 544.1
+    y: 377.6
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-13.png
+    x: 607.1
+    y: 385.7
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-14.png
+    x: 689.8
+    y: 377.6
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-15.png
+    x: 759.0
+    y: 396.9
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-16.png
+    x: 394.5
+    y: 409.7
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-17.png
+    x: 819.0
+    y: 408.0
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-18.png
+    x: 368.1
+    y: 487.3
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-19.png
+    x: 479.1
+    y: 486.4
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-20.png
+    x: 547.3
+    y: 484.1
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-21.png
+    x: 694.3
+    y: 489.0
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-22.png
+    x: 808.9
+    y: 478.3
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-23.png
+    x: 250.9
+    y: 505.3
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-24.png
+    x: 313.3
+    y: 513.4
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-25.png
+    x: 607.7
+    y: 505.5
+  - src: ../../assets/logos/pp_live/ai-accounting/s10-26.png
+    x: 755.8
+    y: 510.4
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Ledgers
+  - Lill a LpERE My ob
+  - ee aitedeMahaicr at sta
+  note:
+  - We left out listed companies and incumbents like Intuit, BlackLine and Avalara
+  - We placed each one by its focus, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is QuickBooks winning
+
+    the AI accounting market?'
+  companies:
+  - short: QuickBooks
+    src: ../../assets/logos/pp_live/ai-accounting/s12-00.png
+  - short: Xero
+    src: ../../assets/logos/pp_live/ai-accounting/s12-01.png
+  - short: Sage
+    src: ../../assets/logos/pp_live/ai-accounting/s12-02.png
+  - short: Zoho Books
+    src: ../../assets/logos/pp_live/ai-accounting/s12-03.png
+  - short: Wave
+    src: ../../assets/logos/pp_live/ai-accounting/s12-04.png
+  criteria:
+  - name: Largest SMB user base
+    why: Most data to train AI
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: AI agents in the product
+    why: Automates bookkeeping work
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Own payroll product
+    why: One vendor to pay staff
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Sister tax filing brand
+    why: TurboTax or H&R Block
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Mid market upgrade path
+    why: Keeps growing customers
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Leader outside the US
+    why: Wins in UK and Australia
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Free plan available
+    why: Easy start for tiny firms
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company
+
+    part of AI accounting?'
+  TL:
+    name: Intuit
+    src: ../../assets/logos/pp_live/ai-accounting/s01-00.png
+    text: is adding AI agents to QuickBooks for millions of businesses, but it remains classic accounting software with AI on top
+  TR:
+    name: YNAB
+    src: ../../assets/logos/pp_live/ai-accounting/s01-01.png
+    text: helps people plan what each dollar is for first, but personal budgeting is not accounting and has no books to close
+  BL:
+    name: Pilot
+    src: ../../assets/logos/pp_live/ai-accounting/s01-10.png
+    text: keeps startups’ books with what it €alls'50/50 people and software) so it ‘ sits between software and an accounting firm
+  BR:
+    name: Ramp
+    src: ../../assets/logos/pp_live/ai-accounting/s01-11.png
+    text: is a corporate card and spend platform first, but its AI agents now do the bookkeeping behind spend, so it is , on the edge
+  caption:
+  - Distance to the center reflects how much AI does the accounting work itself, rather than storing the books or moving the money
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-accounting/s01-02.png
+  - ../../assets/logos/pp_live/ai-accounting/s01-03.png
+  - ../../assets/logos/pp_live/ai-accounting/s01-04.png
+  - ../../assets/logos/pp_live/ai-accounting/s01-05.png
+  - ../../assets/logos/pp_live/ai-accounting/s01-06.png
+  - ../../assets/logos/pp_live/ai-accounting/s01-07.png
+  - ../../assets/logos/pp_live/ai-accounting/s01-08.png
+  - ../../assets/logos/pp_live/ai-accounting/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-accounting/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/ai-accounting/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/ai-accounting/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/ai-accounting/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/ai-accounting/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/ai-accounting/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/ai-accounting/s01-08.png
+    x: 388.5
+    y: 444.2
+  - src: ../../assets/logos/pp_live/ai-accounting/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more accountants
+
+    look for AI accounting software'
+  date: Lately.
+  expl: Bookkeeping, invoices and tax prep are the kind of work AI handles well. Accountants and small business owners started searching for software that
+    does the boring part for them.
+  term: ai accounting
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-accounting/ai-accounting.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is AI accounting
+
+    still growing fast?'
+  lead: ''
+  condition: Yes, but agents must move from drafting work to finishing it, and accuracy must rise enough that firms let them post entries and file returns.
+    Startups must also keep winning mid-market ledgers from NetSuite, while regulators keep a human responsible without banning the machine.
+  note:
+  - We compared three analyst forecasts with the growth of the listed incumbents to build a realistic range
+  - We weighted them by today's revenue mix, and all the sources we used are listed at the end of the report
+  size: 11
+  cagr: 20
+  y0: 2028

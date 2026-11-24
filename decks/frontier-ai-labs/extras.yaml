@@ -1,0 +1,44 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do frontier AI labs
+
+      actually make money?'
+    axes:
+    - Consumers pay
+    - Businesses pay
+    - Usage
+    - based
+    - Fixed
+    - price
+    groups:
+    - name: Models boost ad sales
+      x: 0.15
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/frontier-ai-labs/s06-04.png
+      - src: ../../assets/logos/pp_live/frontier-ai-labs/s06-05.png
+    - name: Chatbot subscriptions
+      x: 0.18
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/frontier-ai-labs/s06-00.png
+      - src: ../../assets/logos/pp_live/frontier-ai-labs/s06-01.png
+    - name: API billed per token
+      x: 0.84
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/frontier-ai-labs/s06-06.png
+      - src: ../../assets/logos/pp_live/frontier-ai-labs/s06-07.png
+    - name: Enterprise and private deals
+      x: 0.82
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/frontier-ai-labs/s06-02.png
+      - src: ../../assets/logos/pp_live/frontier-ai-labs/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

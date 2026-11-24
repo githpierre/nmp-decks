@@ -1,0 +1,37 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'What business models work
+
+      in AI agent observability?'
+    axes:
+    - Developers
+    - Large enterprises
+    - Per
+    - trace
+    - Flat
+    - fee
+    groups:
+    - name: Usage-based traces
+      x: 0.2
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/ai-agent-observability/s06-03.png
+      - src: ../../assets/logos/pp_live/ai-agent-observability/s06-04.png
+    - name: Seats plus usage
+      x: 0.5
+      y: 0.5
+      logos:
+      - src: ../../assets/logos/pp_live/ai-agent-observability/s06-02.png
+    - name: Enterprise contract
+      x: 0.82
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/ai-agent-observability/s06-00.png
+      - src: ../../assets/logos/pp_live/ai-agent-observability/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

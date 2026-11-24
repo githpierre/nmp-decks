@@ -1,0 +1,49 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do app security firms
+
+      actually make money?'
+    axes:
+    - Small dev teams
+    - Large enterprises
+    - Scans
+    - the code
+    - Tests the
+    - running app
+    groups:
+    - name: Price per developer
+      x: 0.31
+      y: 0.17
+      logos:
+      - src: ../../assets/logos/pp_live/application-security/s06-05.png
+      - src: ../../assets/logos/pp_live/application-security/s06-06.png
+      - src: ../../assets/logos/pp_live/application-security/s06-07.png
+    - name: Priced by lines of code
+      x: 0.66
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/application-security/s06-08.png
+    - name: Priced per app tested
+      x: 0.59
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/application-security/s06-00.png
+      - src: ../../assets/logos/pp_live/application-security/s06-01.png
+    - name: Big platform contracts
+      x: 0.88
+      y: 0.54
+      logos:
+      - src: ../../assets/logos/pp_live/application-security/s06-03.png
+      - src: ../../assets/logos/pp_live/application-security/s06-04.png
+    - name: One flat plan for the team
+      x: 0.19
+      y: 0.65
+      logos:
+      - src: ../../assets/logos/pp_live/application-security/s06-02.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

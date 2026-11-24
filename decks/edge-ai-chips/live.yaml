@@ -1,0 +1,321 @@
+ed148p:
+  title: 'What pushed the edge AI chips
+
+    market forward, year after year?'
+  events:
+  - year: '2012'
+    text: Mobile vision creates local AI demand
+    impact: 1.0
+  - year: '2014'
+    text: DSPs absorb more neural workloads
+    impact: 1.0
+  - year: '2015'
+    text: Qualcomm launches first AI Engine
+    impact: 1.5
+  - year: '2016'
+    text: On-device inference improves privacy
+    impact: 1.0
+  - year: '2017'
+    text: Apple ships first Neural Engine
+    impact: 2.5
+  - year: '2018'
+    text: Qualcomm adds tensor accelerator
+    impact: 2.0
+  - year: '2019'
+    text: Google Coral opens Edge TPU
+    impact: 1.5
+  - year: '2019'
+    text: Always-on sensing expands edge AI
+    impact: 1.5
+  - year: '2020'
+    text: TinyML reaches microcontrollers
+    impact: 1.0
+  - year: '2020'
+    text: Apple M1 brings NPU to Macs
+    impact: 2.0
+  - year: '2021'
+    text: Apple NPU performance jumps 26x
+    impact: 1.5
+  - year: '2021'
+    text: Vision AI expands smart cameras
+    impact: 1.0
+  - year: '2022'
+    text: Edge models grow beyond CNNs
+    impact: 1.5
+  - year: '2022'
+    text: Robotics adopts embedded GPU modules
+    impact: 1.5
+  - year: '2023'
+    text: Generative AI reaches client devices
+    impact: 2.0
+  - year: '2023'
+    text: Intel makes NPU standard in PCs
+    impact: 2.0
+  - year: '2023'
+    text: Qualcomm targets AI PCs
+    impact: 2.0
+  - year: '2024'
+    text: Microsoft defines 40 TOPS baseline
+    impact: 2.5
+  - year: '2024'
+    text: AMD ships 50 TOPS NPU
+    impact: 2.0
+  - year: '2024'
+    text: Arm quadruples embedded NPU performance
+    impact: 2.0
+  - year: '2024'
+    text: PC OEMs launch Copilot+ systems
+    impact: 2.0
+  - year: '2024'
+    text: Local AI gains privacy advantage
+    impact: 1.0
+  - year: '2025'
+    text: AI PCs expand beyond Qualcomm
+    impact: 1.5
+  - year: '2025'
+    text: Small models improve edge quality
+    impact: 1.5
+  - year: '2025'
+    text: Physical AI boosts robotics demand
+    impact: 2.0
+  - year: '2026'
+    text: Jetson Thor scales physical AI
+    impact: 2.5
+  - year: '2026'
+    text: Thor reaches 2070 FP4 TFLOPS
+    impact: 2.0
+  - year: '2026'
+    text: Robot makers standardize on Thor
+    impact: 2.0
+  - year: '2026'
+    text: PC NPUs climb toward 80 TOPS
+    impact: 1.5
+  - year: '2026'
+    text: On-device agents broaden chip demand
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed edge ai chips forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: edge-ai-chips
+  title: 'Where did edge AI chip investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of edge ai chips startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Which companies lead
+
+    edge AI chips right now?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-00.png
+    x: 219.0
+    y: 272.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-01.png
+    x: 443.8
+    y: 272.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-02.png
+    x: 676.9
+    y: 272.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-03.png
+    x: 315.0
+    y: 296.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-04.png
+    x: 549.0
+    y: 296.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-05.png
+    x: 772.3
+    y: 296.6
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-06.png
+    x: 219.0
+    y: 376.9
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-07.png
+    x: 315.0
+    y: 400.9
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-08.png
+    x: 444.0
+    y: 376.9
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-09.png
+    x: 549.0
+    y: 400.9
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-10.png
+    x: 676.9
+    y: 377.1
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-11.png
+    x: 772.1
+    y: 400.9
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-12.png
+    x: 219.0
+    y: 479.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-13.png
+    x: 444.0
+    y: 479.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-14.png
+    x: 724.9
+    y: 479.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-15.png
+    x: 315.0
+    y: 504.9
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s10-16.png
+    x: 549.0
+    y: 504.9
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Vision chips
+  - Industrial ===
+  - Low power
+  note:
+  - We placed private pure players by main product and stage, from funding news and the press
+  - We left out listed companies and incumbents, and all our sources are at the end of the report
+ed209p:
+  title: 'How did Mobileye take the lead
+
+    in ADAS vision chips for cars?'
+  companies:
+  - short: Mobileye
+    src: ../../assets/logos/pp_live/edge-ai-chips/s12-00.png
+  - short: NVIDIA
+    src: ../../assets/logos/pp_live/edge-ai-chips/s12-01.png
+  - short: Qualcomm
+    src: ../../assets/logos/pp_live/edge-ai-chips/s12-02.png
+  - short: Horizon
+    src: ../../assets/logos/pp_live/edge-ai-chips/s12-03.png
+  - short: Ambarella
+    src: ../../assets/logos/pp_live/edge-ai-chips/s12-04.png
+  criteria:
+  - name: Over 200 million chips shipped
+    why: Proven at mass scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Majority owned by Intel
+    why: Deep-pocketed parent
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Over 4M car chips in 2025
+    why: Current volume leadership
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Annual revenue above $10B
+    why: Funds huge R&D budgets
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Listed in Hong Kong
+    why: Access to China capital
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Security camera chip wins
+    why: Second edge AI market
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really
+
+    belong in edge AI chips?'
+  TL:
+    name: Arm
+    src: ../../assets/logos/pp_live/edge-ai-chips/s01-00.png
+    text: supplies processor IP used in edge AI chips, but it usually licenses designs rather than selling edge AI processors
+  TR:
+    name: OpenAI
+    src: ../../assets/logos/pp_live/edge-ai-chips/s01-02.png
+    text: develops AI models and software services, not processors designed for local edge inference in devices or vehicles
+  BL:
+    name: NXP Semiconductors
+    src: ../../assets/logos/pp_live/edge-ai-chips/s01-09.png
+    text: sells edge AI capable processors, but most of its business covers broader automotive and embedded semiconductors
+  BR:
+    name: Qualcomm
+    src: ../../assets/logos/pp_live/edge-ai-chips/s01-10.png
+    text: ships edge AI processors, but its portfolio also spans connectivity, mobile and other chip markets
+  caption:
+  - Distance to the center reflects how central each company is to edge AI chips
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/edge-ai-chips/s01-01.png
+  - ../../assets/logos/pp_live/edge-ai-chips/s01-03.png
+  - ../../assets/logos/pp_live/edge-ai-chips/s01-04.png
+  - ../../assets/logos/pp_live/edge-ai-chips/s01-05.png
+  - ../../assets/logos/pp_live/edge-ai-chips/s01-06.png
+  - ../../assets/logos/pp_live/edge-ai-chips/s01-07.png
+  - ../../assets/logos/pp_live/edge-ai-chips/s01-08.png
+  - ../../assets/logos/pp_live/edge-ai-chips/s01-11.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s01-01.png
+    x: 543.0
+    y: 275.6
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s01-03.png
+    x: 399.0
+    y: 339.0
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s01-04.png
+    x: 475.1
+    y: 330.9
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s01-05.png
+    x: 559.1
+    y: 355.9
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s01-06.png
+    x: 456.0
+    y: 395.6
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s01-07.png
+    x: 519.0
+    y: 407.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s01-08.png
+    x: 447.9
+    y: 452.8
+  - src: ../../assets/logos/pp_live/edge-ai-chips/s01-11.png
+    x: 520.7
+    y: 497.8
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    edge AI chips get?'
+  lead: ''
+  condition: To get that big, device makers must keep adding on device AI workloads while chip vendors improve performance per watt and software
+  note:
+  - We compared forecasts from Grand View Research, Mordor Intelligence and Meticulous Research
+  - We adjusted each one to our own definition, and all our sources are listed at the end of the report
+  size: 21
+  cagr: 21
+  y0: null

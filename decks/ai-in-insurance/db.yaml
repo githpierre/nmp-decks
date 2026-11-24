@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (NOV)
+  14: Kalepa raised a $75M Series B led by Updata. It uses insurance-specific AI to orchestrate underwriting, pricing {1|Kalepa}
+  15: 2026 (OCT)
+  16: Slingshot Insurance raised a $27M seed round led by Rally for its insurance distribution {1|Fintech}
+  17: 2026 (OCT)
+  18: Stand raised a $70M Series C led by Saga. It homeowners insurance with catastrophe risk modeling {1|Fortune}
+  19: 2026 (OCT)
+  20: Ledgebrook raised $200M led by Allianz X for its digital underwriting for specialty business insurance {1|PR Newswire}
+  21: 2026 (OCT)
+  22: Corgi raised a $30M Series B for its commercial insurance policies and underwriting technology {1|Coverager}
+  23: 2026 (SEP)
+  24: Outmarket AI raised a $34M Series B led by SignalFire for its insurance broker workflow automation agents {1|Outmarket AI}
+  note: We list the latest equity rounds of $10M or more of AI in insurance startups in our tracker, from company releases and the press.
+ed157:
+  14: 2026 (SEP)
+  15: AIUC raised a $40M Series A led by Ribbit for its AI audits, standards and insurance {1|AIUC}
+  16: 2026 (SEP)
+  17: Corgi raised a $16M Series B for its commercial insurance policies and underwriting technology {1|SEC filing}
+  18: 2026 (JUL)
+  19: Ominimo raised a $22M Series B led by EBRD for its AI-driven motor insurance underwriting {1|The Insurer}
+  20: 2026 (JUL)
+  21: Corgi raised a $41M Series B for its commercial insurance policies and underwriting technology {1|SEC filing}
+  22: 2026 (JUN)
+  23: ZeroDrift raised a $10M seed round led by a16z speedrun. It enforces compliance on AI communications {1|GlobeNewswire}
+  24: 2026 (MAY)
+  25: Corgi raised a $106M Series B led by TCV for its commercial insurance policies and underwriting technology {1|Corgi}
+  note: We list the latest equity rounds of $10M or more of AI in insurance startups in our tracker, from company releases and the press.
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 488
+    ann: Nirvana, $80M top round, in 28 rounds
+  - x: 2025 H2
+    v: 760
+    ann: CyberCube, $180M top round, in 29 rounds
+  - x: 2026 H1
+    v: 1029
+    ann: Corgi, $160M top round, in 25 rounds
+  - x: 2026 H2
+    v: 612
+    ann: Ledgebrook, $200M top round, in 23 rounds
+  note:
+  - We add up the disclosed equity rounds of AI in insurance startups in our tracker, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 798
+    ann: Akur8, $120M top round, in 44 rounds
+  - x: '2025'
+    v: 1248
+    ann: CyberCube, $180M top round, in 57 rounds
+  - x: '2026'
+    v: 1641
+    ann: Ledgebrook, $200M top round, in 48 rounds
+  note:
+  - We add up the disclosed equity rounds of AI in insurance startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 15
+    ann: Akur8, $120M top round, out of 44 rounds
+  - x: '2025'
+    v: 14
+    ann: CyberCube, $180M top round, out of 57 rounds
+  - x: 2026 (YTD)
+    v: 12
+    ann: Ledgebrook, $200M top round, out of 48 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Ledgebrook
+    amt: 200000000
+    date: Q4 2026
+    stage: Equity
+  - name: Corgi
+    amt: 160000000
+    date: Q2 2026
+    stage: Series B
+  - name: Reserv
+    amt: 125000000
+    date: Q2 2026
+    stage: Series C
+  - name: Corgi
+    amt: 108000000
+    date: Q1 2026
+    stage: Series A
+  note:
+  - We listed the biggest equity rounds raised by AI in insurance startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: Coalition
+    amt: 250000000
+    date: '2022'
+    stage: late-stage
+  - name: Shift Technology
+    amt: 220000000
+    date: '2021'
+    stage: late-stage
+  - name: Coalition
+    amt: 205000000
+    date: '2021'
+    stage: late-stage
+  - name: At-Bay
+    amt: 185000000
+    date: '2021'
+    stage: late-stage
+  note:
+  - We listed the biggest equity rounds raised by AI in insurance startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: AI-NATIVE INSURERS
+  9: '34'
+  13: $1.5B
+  17: Ledgebrook, Corgi, Nirvana Insurance, Stand, Arbol, Shepherd
+  7: AI UNDERWRITING
+  11: '30'
+  15: $740M
+  19: Akur8, Federato, Kalepa, hyperexponential, Clearspeed
+  8: INSURANCE AI AGENTS
+  12: '39'
+  16: $500M
+  20: Liberate, mea Platform, Pace, Outmarket AI, Penguin Ai, Irys
+  note: We used our tracker of 149 AI in insurance equity rounds announced since January 2024, worth about $3.7B. IPOs, debt and grants are left out
+ed169:
+  7: SEQUOIA
+  10: '3'
+  14: $98M
+  18: Pace (twice), WithCoverage
+  8: INSIGHT
+  12: '3'
+  16: $50M
+  20: CoverForce, Heron Data
+  9: MARKD
+  13: '3'
+  17: $14M
+  21: Indemn, Pinpoint Predictive
+  26: MTECH
+  28: '3'
+  30: $12M
+  32: COVR Global, Qumis
+  27: TCV
+  29: '2'
+  31: $266M
+  33: Corgi (twice)
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 149 rounds
+ed205:
+  14: 2024 (SEP)
+  15: Akur8 raised a $120M Series C led by One Peak for its insurance pricing and reserving software {1|Akur8}
+  16: 2025 (OCT)
+  17: CyberCube raised a $180M growth equity round led by Spectrum Equity for its cyber risk models {1|Cybcube}
+  18: 2026 (JAN)
+  19: Corgi raised a $108M Series A for its commercial insurance policies and underwriting technology {1|Axios}
+  20: 2026 (MAY)
+  21: Reserv raised a $125M Series C led by KKR for its technology-enabled insurance claims management services {1|The Insurer}
+  22: 2026 (MAY)
+  23: Corgi raised a $160M Series B led by TCV for its commercial insurance policies and underwriting technology {1|The Next Web}
+  24: 2026 (OCT)
+  25: Ledgebrook raised $200M led by Allianz X for its digital underwriting for specialty business insurance {1|PR Newswire}
+  note: We picked the biggest disclosed rounds of AI in insurance startups since 2024, from our tracker of rounds
+ed160:
+  6: AI-native insurers took about 41% of the capital raised since 2024, ahead of AI underwriting with about 20%
+  7: 139 of the 149 rounds since 2024 disclosed an amount, and the median disclosed round was $13M
+  8: US startups closed 112 of the 149 rounds and took $3.1B, about 85% of all the money raised
+  9: 9 rounds of $100M or more made up about 33% of all the capital raised in the market since 2024
+  10: The $200M round of Ledgebrook in 2026 is the biggest since 2024, ahead of the $180M round of CyberCube
+  11: Seed was the most common round, with 52 of the 149 rounds, ahead of Series A with 34 and Series B with 28
+  note: We drew these insights from our tracker of 149 AI in insurance equity rounds announced since January 2024, worth about $3.7B
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, AI-first insurers such as Lemonade raised money on growth promises, and most insurers only tested AI in small pilots.'
+  7: 'AFTER
+
+
+
+    Since 2024, 149 rounds raised $3.7B. AI-native insurers take the biggest share, led by Corgi and Ledgebrook, and insurers now use AI on real claims.'
+  note: We used our tracker of AI in insurance equity rounds, complete from January 2024, and company releases and the press

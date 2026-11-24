@@ -1,0 +1,598 @@
+ed058:
+  type: pp_pains
+  title: 'Which edge AI problems
+
+    are still unsolved today?'
+  auds:
+  - Phone makers
+  - PC makers
+  - Car suppliers
+  - Camera makers
+  - Robot makers
+  pains:
+  - - They must port and tune their models again for each new chip
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 3
+  - - They must shrink models to fit inside tight device power budgets
+    - - 3
+      - 3
+      - 1
+      - 3
+      - 2
+  - - They struggle to safely update thousands of devices in the field
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 2
+  - - They pay more for every device as memory prices keep rising
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They see models fail when real conditions differ from the lab
+    - - 1
+      - 1
+      - 3
+      - 2
+      - 3
+  - - They must prove each decision as safety rules get stricter
+    - - 1
+      - 1
+      - 3
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which edge AI chipmaker has
+
+    the most complete tech today?'
+  companies:
+  - name: Qualcomm
+    src: ../../assets/logos/pp_live/edge-ai/s05-00.png
+  - name: Nvidia
+    src: ../../assets/logos/pp_live/edge-ai/s05-01.png
+  - name: Intel
+    src: ../../assets/logos/pp_live/edge-ai/s05-02.png
+  - name: Hailo
+    src: ../../assets/logos/pp_live/edge-ai/s05-03.png
+  - name: Ambarella
+    src: ../../assets/logos/pp_live/edge-ai/s05-04.png
+  - name: SiMa.ai
+    src: ../../assets/logos/pp_live/edge-ai/s05-05.png
+  features:
+  - header: Data center|AI chips
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Phone|chips
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: PC|chips
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own|fab
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Car|chips
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: M.2 AI|module
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Gen AI|on device
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to edge AI?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Apple, Qualcomm and Google ship free on-device models, leaving little room for edge AI software startups
+  - odds: 35
+    impact: 3
+    text: Nvidia releases cheap Jetson chips that undercut startups like Hailo and SiMa.ai on price and software
+  - odds: 35
+    impact: 1
+    text: The EU AI Act requires costly conformity checks for cameras and devices running AI on the edge
+  - odds: 30
+    impact: 2
+    text: US export controls widen to edge AI processors and block startup chip sales to China
+  - odds: 30
+    impact: 2
+    text: Small models stay too weak for complex tasks, so customers keep sending AI work to the cloud
+  - odds: 30
+    impact: 2
+    text: Chip startups like Mythic run out of cash before reaching volume, and investors stop funding new tapeouts
+  - odds: 25
+    impact: 2
+    text: TSMC capacity goes to Nvidia and Apple first, so edge chip startups wait months for wafers
+  - odds: 12
+    impact: 3
+    text: A security flaw lets hackers pull private data from on-device models in millions of phones and cameras
+  note:
+  - We listed the events that could slow edge ai down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed edge AI
+
+    forward, year after year?'
+  events:
+  - year: '2012'
+    text: AlexNet makes deep learning the standard
+    impact: 2
+  - year: '2014'
+    text: Echo detects wake words on its chip
+    impact: 1
+  - year: '2015'
+    text: Pruning shows models can shrink 35 times
+    impact: 1.5
+  - year: '2016'
+    text: Intel buys Movidius for vision chips
+    impact: 1.5
+  - year: '2017'
+    text: iPhone X adds a neural engine chip
+    impact: 2.5
+  - year: '2017'
+    text: MobileNet shrinks vision models for phones
+    impact: 1.5
+  - year: '2017'
+    text: TensorFlow Lite runs models on phones
+    impact: 1.5
+  - year: '2017'
+    text: Federated learning trains models on devices
+    impact: 1
+  - year: '2017'
+    text: Intel's $15B Mobileye deal backs car AI
+    impact: 1.5
+  - year: '2018'
+    text: GDPR pushes data processing onto devices
+    impact: 1.5
+  - year: '2018'
+    text: Google Edge TPU puts AI in gadgets
+    impact: 1.5
+  - year: '2019'
+    text: $99 Jetson Nano makes edge AI cheap
+    impact: 1.5
+  - year: '2019'
+    text: TinyML puts AI on tiny microcontrollers
+    impact: 1
+  - year: '2019'
+    text: Tesla builds its own self-driving chip
+    impact: 1.5
+  - year: '2019'
+    text: First 5G networks link edge devices
+    impact: 1
+  - year: '2020'
+    text: Apple M1 brings neural chips to laptops
+    impact: 1.5
+  - year: '2021'
+    text: Siri moves speech recognition onto iPhone
+    impact: 1
+  - year: '2021'
+    text: Google Tensor chip powers Pixel AI
+    impact: 1
+  - year: '2023'
+    text: llama.cpp runs big models on laptops
+    impact: 2
+  - year: '2023'
+    text: Phones run Stable Diffusion offline
+    impact: 1
+  - year: '2023'
+    text: Ray-Ban Meta glasses make AI wearable
+    impact: 1.5
+  - year: '2024'
+    text: Galaxy AI puts generative AI on phones
+    impact: 1.5
+  - year: '2024'
+    text: Copilot+ PCs require a 40 TOPS NPU
+    impact: 2.5
+  - year: '2024'
+    text: Apple Intelligence makes on-device AI default
+    impact: 2.5
+  - year: '2024'
+    text: Llama 3.2 ships models sized for phones
+    impact: 1.5
+  - year: '2024'
+    text: Small open models like Phi-3 fit phones
+    impact: 1.5
+  - year: '2025'
+    text: DeepSeek shows cheap models can reason
+    impact: 2
+  - year: '2025'
+    text: Windows 10 end drives AI PC upgrades
+    impact: 1.5
+  - year: '2025'
+    text: Jetson Thor brings big AI to robots
+    impact: 1.5
+  - year: '2026'
+    text: Qualcomm Wear Elite brings AI to pins
+    impact: 1
+  note:
+  - We kept the events we believe pushed edge ai forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: edge-ai
+  title: 'Where did edge AI investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of edge ai startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the edge AI market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/edge-ai/s10-00.png
+    x: 544.3
+    y: 282.6
+  - src: ../../assets/logos/pp_live/edge-ai/s10-01.png
+    x: 680.1
+    y: 274.5
+  - src: ../../assets/logos/pp_live/edge-ai/s10-02.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/edge-ai/s10-03.png
+    x: 281.8
+    y: 285.9
+  - src: ../../assets/logos/pp_live/edge-ai/s10-04.png
+    x: 439.7
+    y: 285.0
+  - src: ../../assets/logos/pp_live/edge-ai/s10-05.png
+    x: 260.6
+    y: 337.3
+  - src: ../../assets/logos/pp_live/edge-ai/s10-06.png
+    x: 337.3
+    y: 334.5
+  - src: ../../assets/logos/pp_live/edge-ai/s10-07.png
+    x: 419.6
+    y: 374.1
+  - src: ../../assets/logos/pp_live/edge-ai/s10-08.png
+    x: 566.6
+    y: 371.6
+  - src: ../../assets/logos/pp_live/edge-ai/s10-09.png
+    x: 183.0
+    y: 389.1
+  - src: ../../assets/logos/pp_live/edge-ai/s10-10.png
+    x: 305.8
+    y: 389.1
+  - src: ../../assets/logos/pp_live/edge-ai/s10-11.png
+    x: 495.4
+    y: 404.1
+  - src: ../../assets/logos/pp_live/edge-ai/s10-12.png
+    x: 656.1
+    y: 389.1
+  - src: ../../assets/logos/pp_live/edge-ai/s10-13.png
+    x: 723.4
+    y: 404.1
+  - src: ../../assets/logos/pp_live/edge-ai/s10-14.png
+    x: 239.1
+    y: 411.2
+  - src: ../../assets/logos/pp_live/edge-ai/s10-15.png
+    x: 337.3
+    y: 441.0
+  - src: ../../assets/logos/pp_live/edge-ai/s10-16.png
+    x: 187.7
+    y: 492.9
+  - src: ../../assets/logos/pp_live/edge-ai/s10-17.png
+    x: 265.9
+    y: 486.4
+  - src: ../../assets/logos/pp_live/edge-ai/s10-18.png
+    x: 452.1
+    y: 476.1
+  - src: ../../assets/logos/pp_live/edge-ai/s10-19.png
+    x: 333.0
+    y: 510.6
+  - src: ../../assets/logos/pp_live/edge-ai/s10-20.png
+    x: 531.4
+    y: 503.4
+  - src: ../../assets/logos/pp_live/edge-ai/s10-21.png
+    x: 653.8
+    y: 510.6
+  cols:
+  - Silicon / IP
+  - Software platform
+  - Integrated solution
+  rows:
+  - End-device / ultra-low
+  - Embedded edge
+  - Edge servers & MEC
+  note: []
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these edge AI
+
+    startups, and how did they end?'
+  causes:
+  - Big chip|rivals
+  - Ran out|of cash
+  - Lost key|talent
+  - Market|shifted
+  rows:
+  - name: Untether AI
+    ending: Team sold to AMD
+    start: '2018'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/edge-ai/s11-00.png
+    ini: U
+    slug: untetherai
+    domain: untether.ai
+  - name: Rain AI
+    ending: Patents to OpenAI
+    start: '2017'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/edge-ai/s11-01.png
+    ini: R
+    slug: rain-ai
+    domain: rain.ai
+  - name: Hailo
+    ending: Sold to Microchip
+    start: '2017'
+    end: '2026'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/edge-ai/s11-02.png
+    ini: H
+    slug: hailo
+    domain: hailo.ai
+  - name: Esperanto
+    ending: Shut down
+    start: '2014'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/edge-ai/s11-03.png
+    ini: E
+    slug: esperanto
+    domain: esperanto.ai
+  - name: Perceive
+    ending: Sold for $80M
+    start: '2018'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/edge-ai/s11-04.png
+    ini: P
+    slug: perceive
+    domain: perceive.io
+  note:
+  - We tracked the edge ai startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is NVIDIA winning
+
+    the robot edge AI market?'
+  companies:
+  - short: NVIDIA
+    src: ../../assets/logos/pp_live/edge-ai/s12-00.png
+  - short: Qualcomm
+    src: ../../assets/logos/pp_live/edge-ai/s12-01.png
+  - short: Hailo
+    src: ../../assets/logos/pp_live/edge-ai/s12-02.png
+  - short: NXP
+    src: ../../assets/logos/pp_live/edge-ai/s12-03.png
+  - short: AMD
+    src: ../../assets/logos/pp_live/edge-ai/s12-04.png
+  - short: Ambarella
+    src: ../../assets/logos/pp_live/edge-ai/s12-05.png
+  criteria:
+  - name: CUDA software stack
+    why: Developers already know it
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 2,000+ TFLOPS module
+    why: Runs big models on robots
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Robot simulation tools
+    why: Train robots before building
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Dev kit under $300
+    why: Cheap entry for builders
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Gen AI on edge chips
+    why: LLMs run on the device
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Owns Arduino
+    why: Millions of maker devs
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as edge AI,
+
+    and what does not?'
+  TL:
+    name: Cerebras
+    src: ../../assets/logos/pp_live/edge-ai/s01-00.png
+    text: builds chips made for fast AI inference, but they run in big data centers, far from where the data is created
+  TR:
+    name: CoreWeave
+    src: ../../assets/logos/pp_live/edge-ai/s01-02.png
+    text: renis out GPUs for AT training and inference, but all of that compute sits in giant data centers, far from the edge
+  BL:
+    name: Apple
+    src: ../../assets/logos/pp_live/edge-ai/s01-10.png
+    text: runs Apple Intelligence models on the iPhone itself, but sends heavier requests to its Private Cloud Compute servers
+  BR:
+    name: Nvidia
+    src: ../../assets/logos/pp_live/edge-ai/s01-11.png
+    text: powers robots and cars with Jetson and Drive chips, but about 90% of its revenue comes from data center GPUs
+  caption:
+  - Distance to the center reflects how much of a company’s AI runs on devices or local nodes, rather than in cloud data centers
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/edge-ai/s01-01.png
+  - ../../assets/logos/pp_live/edge-ai/s01-03.png
+  - ../../assets/logos/pp_live/edge-ai/s01-04.png
+  - ../../assets/logos/pp_live/edge-ai/s01-05.png
+  - ../../assets/logos/pp_live/edge-ai/s01-06.png
+  - ../../assets/logos/pp_live/edge-ai/s01-07.png
+  - ../../assets/logos/pp_live/edge-ai/s01-08.png
+  - ../../assets/logos/pp_live/edge-ai/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/edge-ai/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/edge-ai/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/edge-ai/s01-04.png
+    x: 374.8
+    y: 362.6
+  - src: ../../assets/logos/pp_live/edge-ai/s01-05.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/edge-ai/s01-06.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/edge-ai/s01-07.png
+    x: 445.1
+    y: 394.9
+  - src: ../../assets/logos/pp_live/edge-ai/s01-08.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/edge-ai/s01-09.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask online
+
+    how to run AI on their own device'
+  date: Recently.
+  expl: AI started running on phones, laptops and cameras instead of the cloud. Apple, Qualcomm and Google pushed “on-device AI” in every launch, and new
+    AI PCs came with their own AI chips. People kept hearing “edge AI” and wanted to know what it meant.
+  term: edge ai
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/edge-ai/edge-ai.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger
+
+    can edge AI get?'
+  lead: ''
+  condition: To get that big, the market must turn robots, robotaxis, and AI PCs into large volumes, as each new device carries more AI chips and software.
+    It must also cut the cost of porting models to each chip, keep memory affordable, and prove that local AI pays back faster than cloud AI.
+  note:
+  - We compared forecasts from Grand View, Fortune Business Insights, Precedence and The Business Research Company
+  - We adjusted each one to our market definition to build a realistic range, and all our sources are at the end of the report
+  size: 40
+  cagr: 20
+  y0: 2026

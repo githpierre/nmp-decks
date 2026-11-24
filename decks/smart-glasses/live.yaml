@@ -1,0 +1,614 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would smart glasses
+
+    customers actually pay to solve?'
+  auds:
+  - Young adults
+  - Frequent travelers
+  - Amateur athletes
+  - Video creators
+  - Blind users
+  pains:
+  - - They need the battery to last through a full day of normal use
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 2
+  - - They compete with Ray-Ban Meta, which sells most smart glasses
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 1
+  - - They get banned from courts, cruise ships, cinemas and offices
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They sell at a few hundred dollars, so little margin is left
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  - - They face lawsuits over what the built-in camera records
+    - - 2
+      - 1
+      - 1
+      - 3
+      - 1
+  - - They see many pairs sent back after the first weeks of use
+    - - 2
+      - 1
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Who has built the full smart glasses
+
+    stack, and who still relies on partners?'
+  companies:
+  - name: Meta
+    src: ../../assets/logos/pp_live/smart-glasses/s05-00.png
+  - name: Xreal
+    src: ../../assets/logos/pp_live/smart-glasses/s05-01.png
+  - name: Rokid
+    src: ../../assets/logos/pp_live/smart-glasses/s05-02.png
+  - name: Even
+    src: ../../assets/logos/pp_live/smart-glasses/s05-03.png
+  - name: Xiaomi
+    src: ../../assets/logos/pp_live/smart-glasses/s05-04.png
+  - name: RayNeo
+    src: ../../assets/logos/pp_live/smart-glasses/s05-05.png
+  features:
+  - header: In-lens|display
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Built-in|camera
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Wrist or|ring input
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Own AI|model
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Own|chip
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Sold in|the US
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Own retail|stores
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for smart glasses?'
+  events:
+  - odds: 40
+    impact: 3
+    text: Apple, Google and Samsung launch premium glasses and take the high end from smaller brands
+  - odds: 25
+    impact: 3
+    text: Meta cuts Ray-Ban glasses prices further and absorbs losses, leaving rivals unable to compete on price
+  - odds: 20
+    impact: 2
+    text: Waveguide displays stay scarce and costly, so Meta and others delay full display glasses launches
+  - odds: 15
+    impact: 2
+    text: Buyers return AI glasses in large numbers as novelty fades, as already seen in China
+  - odds: 15
+    impact: 1
+    text: XREAL or another glasses maker has a failed IPO, scaring investors away from smart glasses
+  - odds: 10
+    impact: 2
+    text: US tariffs on Chinese-made electronics spike again and make AI glasses too costly for Americans
+  - odds: 5
+    impact: 2
+    text: The EU bans or restricts cameras in smart glasses, blocking sales of AI glasses across Europe
+  - odds: 3
+    impact: 2
+    text: A battery fire in Ray-Ban Meta or similar glasses triggers a large recall and scares buyers
+  note:
+  - We listed the events that could slow smart glasses down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed smart glasses
+
+    forward, year after year?'
+  events:
+  - year: '2011'
+    text: Epson Moverio puts video in clear lenses
+    impact: 0.5
+  - year: '2012'
+    text: Google Glass demo sparks face computer hype
+    impact: 2.5
+  - year: '2014'
+    text: Glass goes on public sale, apps follow
+    impact: 1
+  - year: '2015'
+    text: Glass backlash steers makers to work uses
+    impact: 1
+  - year: '2016'
+    text: Snap Spectacles make camera glasses fun
+    impact: 1.5
+  - year: '2017'
+    text: Glass Enterprise speeds up factory work
+    impact: 1
+  - year: '2018'
+    text: Qualcomm XR1 chip gives glasses a brain
+    impact: 1
+  - year: '2019'
+    text: Bose Frames prove audio glasses can sell
+    impact: 0.5
+  - year: '2019'
+    text: North Focals hide a screen in frames
+    impact: 1
+  - year: '2020'
+    text: Google buys North, keeping glasses alive
+    impact: 1
+  - year: '2020'
+    text: Meta and Luxottica team up on frames
+    impact: 2
+  - year: '2021'
+    text: Ray-Ban Stories put cameras in iconic frames
+    impact: 1.5
+  - year: '2022'
+    text: Xreal Air turns glasses into big screens
+    impact: 1
+  - year: '2022'
+    text: ChatGPT gives glasses a reason to talk
+    impact: 1.5
+  - year: '2023'
+    text: Qualcomm AR1 chip lets glasses run AI
+    impact: 1.5
+  - year: '2023'
+    text: Ray-Ban Meta adds AI, sales take off
+    impact: 3
+  - year: '2024'
+    text: Meta AI starts seeing what you see
+    impact: 2
+  - year: '2024'
+    text: Meta Orion proves true AR glasses work
+    impact: 1.5
+  - year: '2024'
+    text: EssilorLuxottica extends Meta pact past 2030
+    impact: 1
+  - year: '2024'
+    text: Snap Spectacles 5 give developers real AR
+    impact: 1
+  - year: '2025'
+    text: Ray-Ban Meta hits 2M sold, rivals rush
+    impact: 2
+  - year: '2025'
+    text: Google signs Warby Parker for Android XR
+    impact: 1.5
+  - year: '2025'
+    text: Oakley Meta takes AI glasses to sports
+    impact: 1
+  - year: '2025'
+    text: Xiaomi AI glasses spark China price war
+    impact: 1.5
+  - year: '2025'
+    text: Meta buys 3% of EssilorLuxottica
+    impact: 1.5
+  - year: '2025'
+    text: Ray-Ban Display adds a screen for $799
+    impact: 2.5
+  - year: '2025'
+    text: Alibaba glasses tie AI to maps, payments
+    impact: 1
+  - year: '2025'
+    text: Ray-Ban Meta Gen 2 doubles battery life
+    impact: 1.5
+  - year: '2026'
+    text: Samsung shows Android XR glasses at I/O
+    impact: 1.5
+  - year: '2026'
+    text: AI glasses shipments jump 263% in H1
+    impact: 2
+  note:
+  - We kept the events we believe pushed smart glasses forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: smart-glasses
+  title: 'Where did smart glasses investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of smart glasses startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in smart glasses today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-00.png
+    x: 374.8
+    y: 270.0
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-01.png
+    x: 490.3
+    y: 270.4
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-02.png
+    x: 597.6
+    y: 267.4
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-03.png
+    x: 744.6
+    y: 283.1
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-04.png
+    x: 256.9
+    y: 292.7
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-05.png
+    x: 314.6
+    y: 305.6
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-06.png
+    x: 544.5
+    y: 303.0
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-07.png
+    x: 676.9
+    y: 300.0
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-08.png
+    x: 801.6
+    y: 302.1
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-09.png
+    x: 523.5
+    y: 374.6
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-10.png
+    x: 257.8
+    y: 387.4
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-11.png
+    x: 325.1
+    y: 400.7
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-12.png
+    x: 387.4
+    y: 387.4
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-13.png
+    x: 463.5
+    y: 393.9
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-14.png
+    x: 597.2
+    y: 390.2
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-15.png
+    x: 691.7
+    y: 378.0
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-16.png
+    x: 764.8
+    y: 378.4
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-17.png
+    x: 822.2
+    y: 384.9
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-18.png
+    x: 277.1
+    y: 486.9
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-19.png
+    x: 340.5
+    y: 477.0
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-20.png
+    x: 524.4
+    y: 495.0
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-21.png
+    x: 607.9
+    y: 482.1
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-22.png
+    x: 811.5
+    y: 483.9
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-23.png
+    x: 392.6
+    y: 505.7
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-24.png
+    x: 463.1
+    y: 506.6
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-25.png
+    x: 708.2
+    y: 498.9
+  - src: ../../assets/logos/pp_live/smart-glasses/s10-26.png
+    x: 761.4
+    y: 506.6
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Consumer
+  - Assist
+  - Optics
+  note:
+  - We left out Big Tech, eyewear acted and listed firms like Vuzix and TCL's RayNeo
+  - We placed each one by its focus, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these smart glasses
+
+    startups, and how did they end?'
+  causes:
+  - Ran out|of cash
+  - Backer or|buyer quit
+  - Weak|demand
+  - Assets|sold off
+  rows:
+  - name: ODG
+    ending: Assets sold
+    start: '1999'
+    end: '2019'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/smart-glasses/s11-00.png
+    ini: O
+    slug: odg
+    domain: osterhoutgroup.com
+  - name: Meta Company
+    ending: Assets sold
+    start: '2012'
+    end: '2019'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/smart-glasses/s11-01.png
+    ini: M
+    slug: meta-company
+    domain: metavision.com
+  - name: Daqri
+    ending: Shut down
+    start: '2010'
+    end: '2019'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/smart-glasses/s11-02.png
+    ini: D
+    slug: daqri
+    domain: daqri.com
+  - name: North
+    ending: Sold to Google
+    start: '2012'
+    end: '2020'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/smart-glasses/s11-03.png
+    ini: N
+    slug: north
+    domain: bynorth.com
+  - name: CastAR
+    ending: Shut down
+    start: '2013'
+    end: '2017'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/smart-glasses/s11-04.png
+    ini: C
+    slug: castar
+    domain: castar.com
+  note:
+  - We tracked the smart glasses startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might RayNeo be winning
+
+    the AR display glasses market?'
+  companies:
+  - short: RayNeo
+    src: ../../assets/logos/pp_live/smart-glasses/s12-00.png
+  - short: VITURE
+    src: ../../assets/logos/pp_live/smart-glasses/s12-01.png
+  - short: XREAL
+    src: ../../assets/logos/pp_live/smart-glasses/s12-02.png
+  - short: Rokid
+    src: ../../assets/logos/pp_live/smart-glasses/s12-03.png
+  - short: Even
+    src: ../../assets/logos/pp_live/smart-glasses/s12-04.png
+  criteria:
+  - name: '#1 in display glasses'
+    why: 41% of birdbath AR glasses
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Top 3 XR vendor worldwide
+    why: Only Meta ships more
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Backed by TCL
+    why: Screens and factories in house
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Waveguide AR line too
+    why: Covers full AR lineup
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Built in AI assistant
+    why: Answers what you see
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Google Android XR partner
+    why: Early access to Android XR
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Own spatial computing chip
+    why: X1 chip cuts display lag
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as smart glasses,
+
+    and what only looks like it?'
+  TL:
+    name: Warby Parker
+    src: ../../assets/logos/pp_live/smart-glasses/s01-00.png
+    text: is launching AI glasses with Google, but almost all of its sales still come from ordinary prescription frames
+  TR:
+    name: Pico
+    src: ../../assets/logos/pp_live/smart-glasses/s01-02.png
+    text: makes VR headsets for ByteDance, but they close off the eyes completely, which makes them headsets rather than glasses
+  BL:
+    name: Xiaomi
+    src: ../../assets/logos/pp_live/smart-glasses/s01-10.png
+    text: sold 50,000 AI glasses in three days at launch, but they remain a small accessory next to its phones and electric cars
+  BR:
+    name: Google
+    src: ../../assets/logos/pp_live/smart-glasses/s01-11.png
+    text: builds the Android XR software and Gemini assistant for new glasses, but leaves the hardware to partners like Samsung
+  caption:
+  - Distance to the center reflects how much a company’s business rests on eyewear people can wear all day with digital features
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/smart-glasses/s01-01.png
+  - ../../assets/logos/pp_live/smart-glasses/s01-03.png
+  - ../../assets/logos/pp_live/smart-glasses/s01-04.png
+  - ../../assets/logos/pp_live/smart-glasses/s01-05.png
+  - ../../assets/logos/pp_live/smart-glasses/s01-06.png
+  - ../../assets/logos/pp_live/smart-glasses/s01-07.png
+  - ../../assets/logos/pp_live/smart-glasses/s01-08.png
+  - ../../assets/logos/pp_live/smart-glasses/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/smart-glasses/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/smart-glasses/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/smart-glasses/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/smart-glasses/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/smart-glasses/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/smart-glasses/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/smart-glasses/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/smart-glasses/s01-09.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up Meta
+
+    Ray-Ban, as smart glasses go mainstream'
+  date: Recently.
+  expl: Camera glasses with built-in AI went from gadget to something people actually wear. Meta’s Ray-Ban glasses led the way, and shoppers started searching
+    for them by name.
+  term: smart glasses
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/smart-glasses/smart-glasses.csv
+ed052p:
+  type: pp_cagr
+  title: 'Who is in the AI video
+
+    market, and who is not?'
+  lead: ''
+  condition: MARKET MAP
+  note:
+  - Distance to the center reflects how much a product creates new footage from prompts, rather than editing existing video
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  size: null
+  cagr: null
+  y0: 2025

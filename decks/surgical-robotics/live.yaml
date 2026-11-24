@@ -1,0 +1,528 @@
+ed058:
+  type: pp_pains
+  title: 'Which surgical robot problems
+
+    are still waiting to be solved?'
+  auds:
+  - Big hospitals
+  - Community hospitals
+  - Surgery centers
+  - General surgeons
+  - Hospital buyers
+  pains:
+  - - They pay more in tools for a gallbladder removal done by robot
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 3
+  - - They get no extra payment from Medicare for using the robot
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They lose cases when the robot sits idle without trained staff
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 2
+  - - They wait for the FDA to clear each new procedure, one by one
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - They must learn a new console when a hospital buys a second brand
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 1
+  - - They compete with thousands of da Vinci robots already in place
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which robot maker offers the
+
+    most complete tech today?'
+  companies:
+  - name: Intuitive
+    src: ../../assets/logos/pp_live/surgical-robotics/s05-00.png
+  - name: J&J MedTech
+    src: ../../assets/logos/pp_live/surgical-robotics/s05-01.png
+  - name: Medtronic
+    src: ../../assets/logos/pp_live/surgical-robotics/s05-02.png
+  - name: Stryker
+    src: ../../assets/logos/pp_live/surgical-robotics/s05-03.png
+  - name: Zimmer
+    src: ../../assets/logos/pp_live/surgical-robotics/s05-04.png
+  - name: CMR Surgical
+    src: ../../assets/logos/pp_live/surgical-robotics/s05-05.png
+  features:
+  - header: Soft-tissue|robot
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Single-port|robot
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Lung|biopsy
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Force|feedback
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Knee|robot
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Spine|robot
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: 10,000+|in use
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for surgical robots?'
+  events:
+  - odds: 25
+    impact: 3
+    text: Intuitive cuts da Vinci prices and offers leases, leaving new surgical robot rivals unable to compete
+  - odds: 25
+    impact: 2
+    text: A Chinese price war spreads abroad as MicroPort and others sell surgical robots far below Western prices
+  - odds: 15
+    impact: 2
+    text: Stryker and Medtronic buy surgical robot startups like CMR and Cornerstone at low prices
+  - odds: 12
+    impact: 2
+    text: Hospitals in the US, Europe and Japan freeze capital budgets and delay surgical robot purchases
+  - odds: 12
+    impact: 1
+    text: New US tariffs raise costs for surgical robot makers that build parts or systems abroad
+  - odds: 10
+    impact: 2
+    text: Payers cut rates for robotic surgery, so hospitals stop buying new surgical robots
+  - odds: 8
+    impact: 3
+    text: A da Vinci or rival robot fault seriously harms patients and triggers a broad FDA recall
+  - odds: 5
+    impact: 2
+    text: Hackers attack surgical robots through remote updates, forcing hospitals to take systems offline
+  note:
+  - We listed the events that could slow surgical robotics down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed surgical robots
+
+    forward, year after year?'
+  events:
+  - year: '1985'
+    text: PUMA arm guides a brain biopsy
+    impact: 1
+  - year: '1992'
+    text: Robodoc proves robots can shape hip bones
+    impact: 1
+  - year: '1994'
+    text: AESOP is first FDA cleared surgery robot
+    impact: 1
+  - year: '1995'
+    text: Army funded SRI research seeds da Vinci
+    impact: 1
+  - year: '2000'
+    text: FDA clears da Vinci for abdominal surgery
+    impact: 3
+  - year: '2001'
+    text: Transatlantic operation proves remote surgery
+    impact: 1
+  - year: '2003'
+    text: Intuitive buys rival, ending patent war
+    impact: 1.5
+  - year: '2005'
+    text: FDA clears da Vinci for hysterectomy
+    impact: 1.5
+  - year: '2009'
+    text: Robots take over most US prostate removals
+    impact: 2.5
+  - year: '2009'
+    text: Dual console da Vinci speeds surgeon training
+    impact: 0.5
+  - year: '2013'
+    text: Stryker buys Mako, betting on knee robots
+    impact: 2
+  - year: '2014'
+    text: da Vinci Xi makes colon cases easier
+    impact: 1
+  - year: '2015'
+    text: Google and J&J form Verb Surgical
+    impact: 1
+  - year: '2016'
+    text: Da Vinci patents expire, rivals gear up
+    impact: 1.5
+  - year: '2016'
+    text: Smith & Nephew buys Blue Belt robot
+    impact: 0.5
+  - year: '2017'
+    text: Mako knee robot wins over joint surgeons
+    impact: 1
+  - year: '2017'
+    text: Senhance gives da Vinci a US rival
+    impact: 1
+  - year: '2018'
+    text: da Vinci SP enables single incision surgery
+    impact: 1
+  - year: '2018'
+    text: Medtronic buys Mazor, spine goes robotic
+    impact: 1.5
+  - year: '2018'
+    text: Monarch robot reaches deep into lungs
+    impact: 0.5
+  - year: '2019'
+    text: J&J buys Auris for $3.4B, giants rush
+    impact: 2
+  - year: '2019'
+    text: Chinese surgeons operate over 5G networks
+    impact: 0.5
+  - year: '2020'
+    text: Medicare pays for outpatient knee surgery
+    impact: 1
+  - year: '2020'
+    text: Covid leaves surgery backlogs to clear
+    impact: 1
+  - year: '2021'
+    text: Medtronic Hugo enters Europe, ending monopoly
+    impact: 1
+  - year: '2024'
+    text: da Vinci 5 lets surgeons feel tissue
+    impact: 2
+  - year: '2024'
+    text: Versius cleared for US gallbladder surgery
+    impact: 1
+  - year: '2025'
+    text: Hugo cleared, US hospitals get a choice
+    impact: 2.5
+  - year: '2025'
+    text: SP robot cleared for general surgery
+    impact: 0.5
+  - year: '2026'
+    text: J&J Ottava cleared, breaking Intuitive's grip
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed surgical robotics forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: surgical-robotics
+  title: 'Where did surgical robot investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of surgical robotics startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players in
+
+    surgical robotics today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-00.png
+    x: 281.8
+    y: 273.4
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-01.png
+    x: 391.5
+    y: 284.6
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-02.png
+    x: 551.1
+    y: 274.3
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-03.png
+    x: 675.4
+    y: 268.7
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-04.png
+    x: 333.2
+    y: 301.3
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-05.png
+    x: 493.9
+    y: 292.7
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-06.png
+    x: 602.6
+    y: 303.0
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-07.png
+    x: 727.9
+    y: 293.1
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-08.png
+    x: 786.6
+    y: 297.4
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-09.png
+    x: 343.1
+    y: 373.1
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-10.png
+    x: 607.7
+    y: 372.0
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-11.png
+    x: 269.1
+    y: 404.6
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-12.png
+    x: 394.9
+    y: 404.6
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-13.png
+    x: 556.7
+    y: 399.4
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-14.png
+    x: 684.4
+    y: 403.3
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-15.png
+    x: 736.5
+    y: 376.7
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-16.png
+    x: 803.8
+    y: 380.6
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-17.png
+    x: 497.8
+    y: 408.9
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-18.png
+    x: 251.1
+    y: 494.8
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-19.png
+    x: 307.9
+    y: 483.0
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-20.png
+    x: 391.1
+    y: 479.6
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-21.png
+    x: 462.2
+    y: 486.9
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-22.png
+    x: 525.2
+    y: 486.9
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-23.png
+    x: 818.6
+    y: 473.6
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-24.png
+    x: 596.8
+    y: 498.9
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-25.png
+    x: 688.5
+    y: 512.6
+  - src: ../../assets/logos/pp_live/surgical-robotics/s10-26.png
+    x: 745.9
+    y: 495.4
+  cols:
+  - Leaders
+  - $51B %62B
+  - Newcomers
+  rows:
+  - Laparo
+  - Magnetic fusion
+  - Precision
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out Intuitive, Medtronic, Stryker, J&J and listed makers, with all the sources at the end of the report
+ed209p:
+  title: 'Why is Intuitive winning
+
+    the surgical robot market?'
+  companies:
+  - short: Intuitive
+    src: ../../assets/logos/pp_live/surgical-robotics/s12-00.png
+  - short: Medtronic
+    src: ../../assets/logos/pp_live/surgical-robotics/s12-01.png
+  - short: CMR
+    src: ../../assets/logos/pp_live/surgical-robotics/s12-02.png
+  - short: MicroPort
+    src: ../../assets/logos/pp_live/surgical-robotics/s12-03.png
+  - short: Distalmotion
+    src: ../../assets/logos/pp_live/surgical-robotics/s12-04.png
+  criteria:
+  - name: 12,000+ systems installed
+    why: Biggest base of trained users
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $3B+ quarterly revenue
+    why: Funds R&D at huge scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Lung biopsy robot
+    why: Second platform with Ion
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Single port robot
+    why: One incision for surgery
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Publicly listed
+    why: Access to public capital
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Modular arm carts
+    why: Fits any operating room
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really
+
+    belong in surgical robotics?'
+  TL:
+    name: Accuray
+    src: ../../assets/logos/pp_live/surgical-robotics/s01-00.png
+    text: mounts CyberKnife on a robotic arm that tracks moving tumors, but it treats them with radiation, with no incision
+  TR:
+    name: Olympus
+    src: ../../assets/logos/pp_live/surgical-robotics/s01-02.png
+    text: launched a 4K videoscope O) for keyhole surgery in 2026, but its scopes are tools held by the surgeon, not surgical robots
+  BL:
+    name: Brainlab
+    src: ../../assets/logos/pp_live/surgical-robotics/s01-10.png
+    text: earns over 90% of its sales in 3 - A spine, brain and radiosurgery products, but its Loop-X and Cirq robots put it on the edge
+  BR:
+    name: Sinha HESS
+    src: ../../assets/logos/pp_live/surgical-robotics/s01-11.png
+    text: '[LS MIEN Kelso Tn Guar ins thirds of US knee replacements, but it ly dri impl les i $25 Cie Clonee es Ie. billion group'
+  caption:
+  - Distance to the center reflects how much a company's business depends on robots that take part in the surgical act itself
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/surgical-robotics/s01-01.png
+  - ../../assets/logos/pp_live/surgical-robotics/s01-03.png
+  - ../../assets/logos/pp_live/surgical-robotics/s01-04.png
+  - ../../assets/logos/pp_live/surgical-robotics/s01-05.png
+  - ../../assets/logos/pp_live/surgical-robotics/s01-06.png
+  - ../../assets/logos/pp_live/surgical-robotics/s01-07.png
+  - ../../assets/logos/pp_live/surgical-robotics/s01-08.png
+  - ../../assets/logos/pp_live/surgical-robotics/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/surgical-robotics/s01-01.png
+    x: 459.2
+    y: 279.6
+  - src: ../../assets/logos/pp_live/surgical-robotics/s01-03.png
+    x: 535.1
+    y: 331.9
+  - src: ../../assets/logos/pp_live/surgical-robotics/s01-04.png
+    x: 405.6
+    y: 364.1
+  - src: ../../assets/logos/pp_live/surgical-robotics/s01-05.png
+    x: 471.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/surgical-robotics/s01-06.png
+    x: 513.6
+    y: 399.2
+  - src: ../../assets/logos/pp_live/surgical-robotics/s01-07.png
+    x: 376.5
+    y: 418.5
+  - src: ../../assets/logos/pp_live/surgical-robotics/s01-08.png
+    x: 454.1
+    y: 411.2
+  - src: ../../assets/logos/pp_live/surgical-robotics/s01-09.png
+    x: 502.7
+    y: 461.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more patients are
+
+    looking up surgical robots'
+  date: Recently.
+  expl: Robot-assisted surgery is now routine in many hospitals, and new systems from several companies are entering the market. Patients and surgeons both
+    started looking up what it means to be operated on by a robot.
+  term: surgical robotics
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/surgical-robotics/surgical-robotics.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    surgical robotics get?'
+  lead: ''
+  condition: To get that big, robots must move from big hospitals to outpatient centers and smaller countries, and win new fields like the eye, vessels,
+    and tumors treated with no incision. Makers must also cut the cost per case, as hospitals compare robots with cheaper keyhole surgery and Chinese robots
+    push prices down.
+  note:
+  - We compared forecasts from Global Market Insights, Precedence, MarketsandMarkets and Polaris
+  - We allowed for price cuts from new rivals, and all the sources are included at the end of the report
+  size: 14
+  cagr: 13
+  y0: 2026

@@ -33,6 +33,7 @@ def cagr(s):
     vals = [v0 * (1 + r) ** i for i in range(11)]; mx = vals[-1]
     def money(v):                                # size is in billions; a market under $1B shows millions (in vivo CAR-T: $285M in 2026)
         if v < 1: return f'$ {v * 1000:.0f} M'
+        if v >= 1000: return f'$ {v / 1000:.2f} T'   # MedTech, 23 Nov 2026: a market over $1,000B reads in trillions, as on the live S03
         return f'$ {v:.1f} B'.replace('.0 B', ' B') if v < 10 else f'$ {v:.0f} B'
     X0, X1, base, H = 175, 770, 496, 184; slot = (X1 - X0) / 11; bw = slot * 0.78
     s['geo'] = dict(bars=[dict(x=X0 + i * slot + (slot - bw) / 2, w=bw, h=max(6, H * v / mx), lab=money(v), year=s.get('y0', 2026) + i) for i, v in enumerate(vals)],
@@ -186,7 +187,9 @@ def winner(s):
     x0 = max(433, 181 + cw + 46); p = min(77, (835 - x0) / max(1, n - 1)); xs = [x0 + i * p for i in range(n)]   # long criteria push the columns right (11 Nov)
     m = len(s['criteria']); y0 = 305 + max(0, 6 - m) * 35.8 / 2   # fewer than 6 rows: block stays centered (11 Nov)
     pitch = 35.8 if m <= 6 else 35.8 * 6 / m                       # more than 6 rows: tighter rows, the block never climbs into the title (12 Nov)
-    s['geo'] = dict(xs=xs, dy=y0 - 305, pitch=pitch, ys=[y0 + i * pitch for i in range(m)],
+    lx = 181; dx = (960 - (xs[-1] + 33 - lx)) / 2 - lx   # the whole block (criteria + columns) is centred on the slide (Pierre, 19 Nov 2026, Neocloud slide 187: 36 px to the right)
+    lx += dx; xs = [x + dx for x in xs]
+    s['geo'] = dict(xs=xs, lx=lx, dy=y0 - 305, pitch=pitch, ys=[y0 + i * pitch for i in range(m)],
                     score=[sum(c['ticks'][j] for c in s['criteria']) for j in range(n)])
 
 
@@ -218,10 +221,13 @@ def donut_var(s):
         for side in (True, False):                 # keep labels apart on each side
             L = sorted([g for g in segs if g['right'] == side], key=lambda g: g.get('ly', g['ey']))
             y = -1e9
+            # 4 labels or more on one side (Neocloud, 19 Nov 2026: 5 small slices on the left): the column fits between the title
+            # (y 200) and 530, so the last logo row stays well clear of the note; 3 labels or fewer keep the 12 Nov layout
+            gp, cap = (min(gap, (530 - 200) / (len(L) - 1)), 530) if len(L) >= 4 else (gap, 560)
             for g in L:
-                g.setdefault('ly', g['ey']); g['ly'] = max(g['ly'], y + gap); y = g['ly']
-            if L and L[-1]['ly'] > 560:
-                d = L[-1]['ly'] - 560
+                g.setdefault('ly', g['ey']); g['ly'] = max(g['ly'], y + gp); y = g['ly']
+            if L and L[-1]['ly'] > cap:
+                d = L[-1]['ly'] - cap
                 for g in L: g['ly'] -= d
             for g in L:
                 g['lx'] = cx + (ro + 46 if side else -ro - 46); x0, y0 = P(g['mid'], ro + 4); ex = g['lx'] + (-6 if side else 6)
@@ -253,6 +259,10 @@ def _trend_rows(s):
     import csv as _c, statistics as st, glob, os
     rd = lambda f: [(r[0], float(r[1].replace('<1', '0.5'))) for r in _c.reader(open(f)) if len(r) == 2 and re.match(r'\d{4}-', r[0])]
     rows = rd(s['csv'])
+    # Pierre 22 Nov 2026: small terms are not comparable after Google's mid-2025 change (RULES « Google Trends »): `cut` stops the
+    # curve before it (no correction needed then), `ghost` keeps the weeks after it for a grey line drawn on the same scale
+    if s.get('cut'):
+        s['_after'] = [(d, v) for d, v in rows if d >= s['cut']]; rows = [(d, v) for d, v in rows if d < s['cut']]
     ctrl = [rd(f) for f in sorted(glob.glob(os.path.join(os.path.dirname(__file__), 'trends_ctrl', '*.csv')))]
     fac = {}
     if ctrl:
@@ -277,19 +287,41 @@ def trends_window(s):
     return '1y' if r1 >= 3 and r1 > r5 and pk > 26 else '5y'
 
 def trends(s):
-    """the curve stops at its last peak: the trailing fall (weeks Google has not finished counting) is never shown (Pierre, 12 Nov 2026)"""
+    """the curve stops at its last peak: the trailing fall (weeks Google has not finished counting) is never shown (Pierre, 12 Nov 2026).
+    Options, one per market as Pierre chose them (all kept so every delivered deck rebuilds the same): `cut` (+ `ghost`, AI in insurance),
+    `to_today` (Stablecoin payments), `dash_from` + `stat` (AI data center), `period` (cut CSV, MedTech). From 24 Nov 2026 the rule
+    is one look for every deck: the curve is cut before mid-2025 (RULES « Google Trends »)."""
     if not s.get('window'): s['window'] = trends_window(s)
     import statistics as st
-    v = [x for _, x in _trend_rows(s)]
-    if s.get('window') == '1y': v = v[-52:]
+    rows = _trend_rows(s); D = [d for d, _ in rows]; v = [x for _, x in rows]
+    if s.get('window') == '1y': v, D = v[-52:], D[-52:]
     # light smoothing (Pierre, 12 Nov 2026: « on lisse un peu les incohérences et on montre le mouvement »): 3-week median drops one-week spikes and dips
     if not s.get('raw'): v = [sorted(v[max(0, i - 1):i + 2])[len(v[max(0, i - 1):i + 2]) // 2] for i in range(len(v))]
-    pk = max(i for i, x in enumerate(v) if x == max(v)); v = v[:pk + 1]
+    # to_today: the curve runs to today (Pierre, 22 Nov 2026, Stablecoin payments)
+    if not (s.get('cut') and s.get('ghost')):
+        pk = max(i for i, x in enumerate(v) if x == max(v))
+        if not s.get('to_today'): v, D = v[:pk + 1], D[:pk + 1]
     m = max(v); v = [x * 100 / m for x in v]
     n = len(v); r = max(v) / max(st.median(v[:max(1, int(n * .75))]), 1)
+    ghost = None
+    if s.get('cut') and s.get('ghost'):     # grey line after the cut, on the same scale as the full series (option B of 22 Nov 2026)
+        a = [x for _, x in s['_after']]; a = [sorted(a[max(0, i - 1):i + 2])[len(a[max(0, i - 1):i + 2]) // 2] for i in range(len(a))]
+        full = v + [x * 100 / m for x in a]; M = max(full); N = len(full)
+        ghost = ' '.join(f'{136 + i / (N - 1) * 688:.1f},{500 - x / M * (500 - s.get("y_top", 410)):.1f}' for i, x in enumerate(full) if i >= n - 1)
+        v = [x * 100 / M for x in v]; n_draw = N
+    else: n_draw = n
     lab = '×20+' if r >= 20 else (f'×{int(round(r / 5) * 5)}' if r >= 10 else f'×{round(r * 2) / 2:.1f}'.replace('.0', ''))
     x0, x1, y0, y1 = 136, 824, 500, s.get('y_top', 410)   # y_top: height of the live slide's curve when a twin copies it
-    s['geo'] = dict(ratio=r, stat=lab, pts=' '.join(f'{x0 + i / (n - 1) * (x1 - x0):.1f},{y0 - x / 100 * (y0 - y1):.1f}' for i, x in enumerate(v)), base=y0 + 16)
+    P = [(x0 + i / (n_draw - 1) * (x1 - x0), y0 - x / 100 * (y0 - y1)) for i, x in enumerate(v)]
+    fmt = lambda Q: ' '.join(f'{a:.1f},{b:.1f}' for a, b in Q)
+    # dash_from (Pierre, 22 Nov 2026, AI data center, rule C): the part from that date is drawn dashed and muted, with a short legend,
+    # and the stat is the one given in `stat` (the solid part), never the ratio of the whole curve.
+    j = next((i for i, d in enumerate(D) if d >= s['dash_from']), None) if s.get('dash_from') else None
+    s['geo'] = dict(ratio=r, stat=s.get('stat') or lab, stat_text=s.get('stat_text') or 'more searches at the peak<br>than in a typical week before',
+                    pts=fmt(P if j is None else P[:j + 1]), dash=('' if j is None else fmt(P[j:])), base=y0 + 16, ghost=ghost,
+                    dash_x=(None if j is None else P[j][0]), dash_top=(None if j is None else min(b for _, b in P[j:])))
+    if s.get('dash_from') and j is None: raise SystemExit(f"TRENDS: dash_from {s['dash_from']} is after the last point of the curve")
+    if s.get('dash_from') and not s.get('stat'): raise SystemExit('TRENDS: a curve with dash_from needs its own stat (the solid part), not the ratio of the whole curve')
 PREP['trends'] = trends
 
 

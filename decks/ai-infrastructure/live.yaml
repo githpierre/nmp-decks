@@ -1,0 +1,607 @@
+ed058:
+  type: pp_pains
+  title: 'Which AI infrastructure
+
+    problems are still unsolved?'
+  auds:
+  - AI labs
+  - Cloud giants
+  - GPU clouds
+  - Large enterprises
+  - Sovereign buyers
+  pains:
+  - - They wait months to get the GPUs and memory they have ordered
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They pay high prices to a single dominant AI chip supplier
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They cannot find enough grid power for new AI data centers
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They see costly GPUs sit idle because jobs are poorly scheduled
+    - - 2
+      - 1
+      - 3
+      - 3
+      - 1
+  - - They lose time when one failed node stops a large training run
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  - - They struggle to run AI on their own data without a public cloud
+    - - 1
+      - 1
+      - 1
+      - 3
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI infrastructure firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Crusoe
+    src: ../../assets/logos/pp_live/ai-infrastructure/s05-00.png
+  - name: CoreWeave
+    src: ../../assets/logos/pp_live/ai-infrastructure/s05-01.png
+  - name: Together AI
+    src: ../../assets/logos/pp_live/ai-infrastructure/s05-02.png
+  - name: Nebius
+    src: ../../assets/logos/pp_live/ai-infrastructure/s05-03.png
+  - name: Lambda
+    src: ../../assets/logos/pp_live/ai-infrastructure/s05-04.png
+  features:
+  - header: Model|API
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: AMD|GPUs
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Agent|sandboxes
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Experiment|tracking
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Managed|RL
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Managed|Kubernetes
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Own power|generation
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI infrastructure?'
+  events:
+  - odds: 45
+    impact: 2
+    text: Grid connection waits of five years or more delay new AI data centers in Virginia and Texas
+  - odds: 40
+    impact: 2
+    text: Nvidia Blackwell and Rubin price drops cut the resale value of older H100 clusters by half
+  - odds: 35
+    impact: 2
+    text: New US export rules and tariffs on servers raise costs and close Chinese and Gulf markets
+  - odds: 35
+    impact: 1
+    text: Local opposition over water and power bills blocks data center permits in several US states
+  - odds: 30
+    impact: 2
+    text: Algorithmic gains like DeepSeek cut compute needs per task and slow demand for new clusters
+  - odds: 25
+    impact: 3
+    text: Microsoft, Meta and Alphabet cut capex plans after AI revenue lags, leaving GPU clouds with empty capacity
+  - odds: 20
+    impact: 3
+    text: CoreWeave or another neocloud struggles to refinance tens of billions in GPU backed debt
+  - odds: 20
+    impact: 3
+    text: OpenAI fails to fund its Stargate commitments and Oracle and partners pause big projects
+  note:
+  - We listed the events that could slow ai infrastructure down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI infrastructure
+
+    forward, year after year?'
+  events:
+  - year: '2006'
+    text: AWS starts renting computing by the hour
+    impact: 1.5
+  - year: '2007'
+    text: CUDA lets GPUs run any code
+    impact: 1.5
+  - year: '2012'
+    text: AlexNet wins using just two GPUs
+    impact: 2
+  - year: '2016'
+    text: Google reveals TPU, its own AI chip
+    impact: 1
+  - year: '2016'
+    text: Nvidia hands OpenAI its first DGX box
+    impact: 1
+  - year: '2017'
+    text: Transformer paper sets the design for LLMs
+    impact: 1.5
+  - year: '2019'
+    text: Microsoft puts $1B into OpenAI supercomputing
+    impact: 1.5
+  - year: '2020'
+    text: Scaling laws show bigger models do better
+    impact: 1.5
+  - year: '2020'
+    text: Nvidia buys Mellanox to own AI networking
+    impact: 1
+  - year: '2022'
+    text: ChatGPT launch sets off the compute rush
+    impact: 3
+  - year: '2023'
+    text: H100 shortage leaves GPUs sold out
+    impact: 2
+  - year: '2023'
+    text: Microsoft adds $10B for OpenAI's compute
+    impact: 1.5
+  - year: '2023'
+    text: GPU-backed loans fund new AI clouds
+    impact: 1.5
+  - year: '2024'
+    text: Big Tech capex tops $200B a year
+    impact: 2
+  - year: '2024'
+    text: xAI builds 100,000 GPU site in months
+    impact: 1.5
+  - year: '2024'
+    text: Nvidia becomes the world's top company
+    impact: 1.5
+  - year: '2024'
+    text: Blackwell racks make liquid cooling standard
+    impact: 1
+  - year: '2024'
+    text: Microsoft deal revives Three Mile Island
+    impact: 2
+  - year: '2025'
+    text: Stargate promises $500B for US AI sites
+    impact: 2.5
+  - year: '2025'
+    text: DeepSeek cuts costs, AI use spreads wider
+    impact: 1
+  - year: '2025'
+    text: CoreWeave IPO opens markets to AI clouds
+    impact: 1.5
+  - year: '2025'
+    text: US AI plan speeds data center permits
+    impact: 1.5
+  - year: '2025'
+    text: OpenAI signs $300B compute deal with Oracle
+    impact: 2
+  - year: '2025'
+    text: Nvidia pledges up to $100B for OpenAI
+    impact: 1.5
+  - year: '2025'
+    text: OpenAI books 6 GW of AMD chips
+    impact: 1.5
+  - year: '2025'
+    text: Private credit funds Meta's Hyperion campus
+    impact: 1.5
+  - year: '2025'
+    text: Anthropic books up to 1M Google TPUs
+    impact: 1
+  - year: '2025'
+    text: Nvidia hits $5 trillion in market value
+    impact: 1.5
+  - year: '2026'
+    text: Big Four target $725B capex for 2026
+    impact: 2.5
+  - year: '2026'
+    text: Rubin GPUs ship, cutting cost per token
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai infrastructure forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-infrastructure
+  title: 'Where did AI infrastructure investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai infrastructure startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the AI infrastructure market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-00.png
+    x: 296.6
+    y: 270.6
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-01.png
+    x: 680.6
+    y: 277.1
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-02.png
+    x: 193.9
+    y: 296.4
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-03.png
+    x: 243.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-04.png
+    x: 350.4
+    y: 285.0
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-05.png
+    x: 444.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-06.png
+    x: 528.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-07.png
+    x: 540.0
+    y: 373.3
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-08.png
+    x: 240.0
+    y: 381.4
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-09.png
+    x: 417.4
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-10.png
+    x: 481.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-11.png
+    x: 189.4
+    y: 412.3
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-12.png
+    x: 291.0
+    y: 406.9
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-13.png
+    x: 345.0
+    y: 411.2
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-14.png
+    x: 588.9
+    y: 416.6
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-15.png
+    x: 420.9
+    y: 468.9
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-16.png
+    x: 478.7
+    y: 483.2
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-17.png
+    x: 680.6
+    y: 468.9
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-18.png
+    x: 801.4
+    y: 480.0
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-19.png
+    x: 306.9
+    y: 504.9
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-20.png
+    x: 425.8
+    y: 518.8
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-21.png
+    x: 544.3
+    y: 504.6
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-22.png
+    x: 643.7
+    y: 518.8
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s10-23.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Challengers
+  - Newcomers
+  - Mannatir fe)
+  rows:
+  - Microsoft runs a security
+  - and
+  - Veeam is known for
+  note:
+  - Distance to the center reflects how much protecting systems, data and users from cyber threats is the product's main purpose
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these AI infrastructure
+
+    startups, and how did they end?'
+  causes:
+  - Big rivals|won
+  - Ran out|of cash
+  - Team was|acqui-hired
+  - Debt or|GPU costs
+  rows:
+  - name: Humanloop
+    ending: Shut down
+    start: '2020'
+    end: '2025'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/ai-infrastructure/s11-00.png
+    ini: H
+    slug: humanloop
+    domain: humanloop.com
+  - name: Tune AI
+    ending: Shut down
+    start: '2018'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/ai-infrastructure/s11-01.png
+    ini: T
+    slug: tune-ai
+    domain: tunehq.ai
+  - name: Banana
+    ending: Shut down
+    start: '2021'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/ai-infrastructure/s11-02.png
+    ini: B
+    slug: banana
+    domain: banana.dev
+  - name: OctoAI
+    ending: Sold to Nvidia
+    start: '2019'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/ai-infrastructure/s11-03.png
+    ini: O
+    slug: octoai
+    domain: octo.ai
+  - name: Core Scientific
+    ending: Went bankrupt
+    start: '2017'
+    end: '2022'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/ai-infrastructure/s11-04.png
+    ini: C
+    slug: core-scientific
+    domain: corescientific.com
+  note:
+  - We tracked the ai infrastructure startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is CoreWeave winning
+
+    the AI cloud market today?'
+  companies:
+  - short: CoreWeave
+    src: ../../assets/logos/pp_live/ai-infrastructure/s12-00.png
+  - short: Nebius
+    src: ../../assets/logos/pp_live/ai-infrastructure/s12-01.png
+  - short: Lambda
+    src: ../../assets/logos/pp_live/ai-infrastructure/s12-02.png
+  - short: Crusoe
+    src: ../../assets/logos/pp_live/ai-infrastructure/s12-03.png
+  - short: Nscale
+    src: ../../assets/logos/pp_live/ai-infrastructure/s12-04.png
+  - short: Together AI
+    src: ../../assets/logos/pp_live/ai-infrastructure/s12-05.png
+  criteria:
+  - name: $100B+ order backlog
+    why: Years of locked in revenue
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: $2B+ quarterly revenue
+    why: Biggest pure GPU cloud
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 1.5 GW of live capacity
+    why: Room for the largest jobs
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Publicly listed
+    why: Cheaper capital to build
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: AI lab or Big Tech deals
+    why: Anchor customers sign early
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Builds own data centers
+    why: Controls power and space
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Nvidia is an investor
+    why: Early access to new GPUs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really
+
+    belong in AI infrastructure?'
+  TL:
+    name: OpenATI
+    src: ../../assets/logos/pp_live/ai-infrastructure/s01-00.png
+    text: has secured about 10 GW of compute for its models, but it sells that capacity as ChatGPT and APIs, not as infrastructure
+  TR:
+    name: Databricks
+    src: ../../assets/logos/pp_live/ai-infrastructure/s01-01.png
+    text: passed a $5.4 billion run rate selling a data and AI platform, but it runs on compute rented from the big clouds
+  BL:
+    name: Fireworks AI
+    src: ../../assets/logos/pp_live/ai-infrastructure/s01-10.png
+    text: runs fast inference for developers, but bills most of them per token for open models, much like a model API
+  BR:
+    name: Dell
+    src: ../../assets/logos/pp_live/ai-infrastructure/s01-11.png
+    text: now expects about $74 billion of AI server sales this fiscal year, still well under half of its revenue next to PCs
+  caption:
+  - Dist to th te flects h h of a busi Ils the ct lust d st that AI, not model
+  - istance to the center reflects how much of a business sells the chips, clusters and storage that run AI, not models
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-infrastructure/s01-02.png
+  - ../../assets/logos/pp_live/ai-infrastructure/s01-03.png
+  - ../../assets/logos/pp_live/ai-infrastructure/s01-04.png
+  - ../../assets/logos/pp_live/ai-infrastructure/s01-05.png
+  - ../../assets/logos/pp_live/ai-infrastructure/s01-06.png
+  - ../../assets/logos/pp_live/ai-infrastructure/s01-07.png
+  - ../../assets/logos/pp_live/ai-infrastructure/s01-08.png
+  - ../../assets/logos/pp_live/ai-infrastructure/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s01-08.png
+    x: 388.5
+    y: 444.2
+  - src: ../../assets/logos/pp_live/ai-infrastructure/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people look up
+
+    AI infrastructure as billions pour in'
+  date: Recently.
+  expl: AI is no longer just software. OpenAlI, Microsoft and Meta announced hundreds of billions for data centers, chips and power plants, and Nvidia became
+    the most valuable company in the world. People wanted to understand the pipes and plumbing behind AT.
+  term: ai infrastructure
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-infrastructure/ai-infrastructure.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is AI infrastructure
+
+    still growing fast?'
+  lead: ''
+  condition: Yes, but the market must keep turning AI usage into paid demand, while labs and clouds keep raising money to buy new chips every year. It must
+    also find enough power, memory, and chip factories, and avoid a crash if AI revenue grows slower than the spending behind it.
+  note:
+  - We compared forecasts from IDC, Gartner, Dell'Oro and Precedence and adjusted each one to our market definition
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: null
+  cagr: 20
+  y0: 2026

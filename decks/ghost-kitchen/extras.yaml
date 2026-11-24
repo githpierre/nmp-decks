@@ -1,0 +1,40 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do ghost kitchens
+
+      actually make money?'
+    axes:
+    - Paid by restaurants
+    - Paid by diners
+    - Runs
+    - the kitchens
+    - Owns
+    - the food brands
+    groups:
+    - name: Kitchens run for restaurants
+      x: 0.15
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/ghost-kitchen/s06-03.png
+    - name: Virtual brand licensing
+      x: 0.18
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/ghost-kitchen/s06-00.png
+    - name: Food halls plus delivery
+      x: 0.72
+      y: 0.38
+      logos:
+      - src: ../../assets/logos/pp_live/ghost-kitchen/s06-02.png
+    - name: Own brands, delivery only
+      x: 0.82
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/ghost-kitchen/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

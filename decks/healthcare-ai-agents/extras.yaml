@@ -1,0 +1,48 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do healthcare AI agent
+
+      firms actually make money?'
+    axes:
+    - Priced per seat
+    - Priced per task done
+    - Back office
+    - and billing
+    - Clinical
+    - care
+    groups:
+    - name: Scribe seats per clinician
+      x: 0.2
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai-agents/s06-00.png
+      - src: ../../assets/logos/pp_live/healthcare-ai-agents/s06-01.png
+      - src: ../../assets/logos/pp_live/healthcare-ai-agents/s06-02.png
+    - name: Nurse agents paid per hour
+      x: 0.8
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai-agents/s06-03.png
+    - name: Workflow agent platforms
+      x: 0.22
+      y: 0.24
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai-agents/s06-05.png
+      - src: ../../assets/logos/pp_live/healthcare-ai-agents/s06-06.png
+    - name: Billing calls paid per task
+      x: 0.82
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai-agents/s06-07.png
+    - name: Prior auth per request
+      x: 0.5
+      y: 0.56
+      logos:
+      - src: ../../assets/logos/pp_live/healthcare-ai-agents/s06-04.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

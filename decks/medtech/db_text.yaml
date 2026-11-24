@@ -1,0 +1,21 @@
+# Sentences on base figures (ed160, ed162): every figure is a {db.key} of db_facts.yaml, so a base update re-flows them
+ed160:
+  6: Implantable devices took about {db.cat1_pct}% of the capital raised since 2024, ahead of therapeutic devices with about {db.cat2_pct}%
+  7: '{db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}'
+  8: US startups closed {db.us_n} of the {db.n} rounds and took {db.us_money}, about {db.us_money_pct}% of all the money raised since 2024
+  9: '{db.big_n} rounds of $100M or more made up about {db.big_pct}% of all the capital raised in the market since 2024'
+  10: 'The {db.big1_amt} {db.big1_stage} round of {db.big1_name} is the biggest since 2024, ahead of the {db.big2_amt} round of {db.big2_name}'
+  11: Series A was the most common round, with {db.series_a} of the {db.n} rounds, ahead of seed with {db.seed} and Series B with {db.series_b}
+  note: We drew these insights from our tracker of {db.n} MedTech equity rounds announced since January 2024, worth about {db.total}
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, most MedTech startups built one device for one hospital department, and few investors backed brain implants or medical AI.'
+  7: 'AFTER
+
+
+
+    Since 2024, {db.n} rounds raised {db.total}. Implantable devices take the biggest share, ahead of therapeutic devices and diagnostic devices.'
+  note: We used our tracker of MedTech equity rounds, complete from January 2024, and company releases and the press

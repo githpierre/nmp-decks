@@ -1,0 +1,510 @@
+ed058:
+  type: pp_pains
+  title: 'What are the unsolved pain
+
+    points in AI shopping?'
+  auds:
+  - Online retailers
+  - Fashion brands
+  - Grocery chains
+  - Marketplace sellers
+  - Online shoppers
+  pains:
+  - - They struggle to get their products picked by AI shopping agents
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They see AI assistants recommend products that are out of stock
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They lose traffic as shoppers ask chatbots instead of searching
+    - - 3
+      - 3
+      - 1
+      - 3
+      - 1
+  - - They must feed clean product data to many new AI platforms
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They get generic suggestions that ignore their size or their taste
+    - - 1
+      - 3
+      - 1
+      - 1
+      - 3
+  - - They worry an AI agent will buy the wrong thing on their behalf
+    - - 1
+      - 1
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI shopping assistant has
+
+    the most complete tech today?'
+  companies:
+  - name: Amazon
+    src: ../../assets/logos/pp_live/ai-shopping/s05-00.png
+  - name: Google
+    src: ../../assets/logos/pp_live/ai-shopping/s05-01.png
+  - name: ChatGPT
+    src: ../../assets/logos/pp_live/ai-shopping/s05-02.png
+  - name: Perplexity
+    src: ../../assets/logos/pp_live/ai-shopping/s05-03.png
+  - name: Walmart
+    src: ../../assets/logos/pp_live/ai-shopping/s05-04.png
+  - name: Copilot
+    src: ../../assets/logos/pp_live/ai-shopping/s05-05.png
+  features:
+  - header: Own|warehouses
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Buys on|other sites
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Virtual|try-on
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Own web|browser
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Smart|speaker
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Own|wallet
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Frontier|LLM
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI shopping?'
+  events:
+  - odds: 55
+    impact: 3
+    text: OpenAI, Google and Amazon build shopping agents into ChatGPT, Gemini and Rufus, leaving little room for startups
+  - odds: 35
+    impact: 2
+    text: Shoppers distrust agent purchases after wrong orders and hidden sponsored picks, so adoption stays under 10%
+  - odds: 30
+    impact: 2
+    text: Visa and Mastercard set agent payment rules and fees that favor big platforms over startups
+  - odds: 30
+    impact: 2
+    text: Fraudsters exploit agent checkout flows, and banks raise chargeback rates for AI initiated purchases
+  - odds: 30
+    impact: 1
+    text: Retailers like Walmart and Target refuse product data feeds to independent agents, limiting catalog coverage
+  - odds: 25
+    impact: 2
+    text: The FTC rules paid placement in AI shopping answers must be disclosed, cutting affiliate revenue for agents
+  - odds: 20
+    impact: 3
+    text: Amazon wins its Perplexity case at trial, so retailers can block outside AI shopping agents
+  - odds: 15
+    impact: 3
+    text: A prompt injection hidden in a product listing makes agents buy fake goods at scale
+  note:
+  - We listed the events that could slow ai shopping down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI shopping
+
+    forward, year after year?'
+  events:
+  - year: '1995'
+    text: Amazon opens, shoppers start buying online
+    impact: 1.5
+  - year: '1998'
+    text: Amazon recommendations drive more sales
+    impact: 2
+  - year: '2006'
+    text: Netflix Prize popularizes recommendations
+    impact: 1
+  - year: '2014'
+    text: Alexa lets people order by voice
+    impact: 1.5
+  - year: '2017'
+    text: Pinterest Lens searches products by photo
+    impact: 1
+  - year: '2017'
+    text: Google Lens turns cameras into search
+    impact: 1
+  - year: '2020'
+    text: Covid moves shopping online for good
+    impact: 2.5
+  - year: '2022'
+    text: ChatGPT changes how shoppers search
+    impact: 2.5
+  - year: '2023'
+    text: Instacart plugs its catalog into ChatGPT
+    impact: 1
+  - year: '2023'
+    text: Shopify Sidekick brings AI to merchants
+    impact: 1
+  - year: '2024'
+    text: Amazon launches Rufus shopping assistant
+    impact: 2
+  - year: '2024'
+    text: Google AI Overviews change product search
+    impact: 1.5
+  - year: '2024'
+    text: Perplexity lets users buy in one click
+    impact: 1.5
+  - year: '2025'
+    text: Operator lets AI fill carts and pay
+    impact: 1.5
+  - year: '2025'
+    text: Visa and Mastercard ready cards for agents
+    impact: 2
+  - year: '2025'
+    text: Amazon Buy for Me shops other sites
+    impact: 1
+  - year: '2025'
+    text: Google AI Mode adds shopping and try-on
+    impact: 1.5
+  - year: '2025'
+    text: AI traffic to US retailers jumps 4,700%
+    impact: 1.5
+  - year: '2025'
+    text: Google AP2 sets rules for agent payments
+    impact: 1.5
+  - year: '2025'
+    text: ChatGPT Instant Checkout sells Etsy goods
+    impact: 2.5
+  - year: '2025'
+    text: Stripe and OpenAI open agentic checkout
+    impact: 1.5
+  - year: '2025'
+    text: Walmart sells inside ChatGPT
+    impact: 2
+  - year: '2025'
+    text: PayPal joins ChatGPT checkout
+    impact: 1.5
+  - year: '2025'
+    text: Instacart and Target sell in ChatGPT
+    impact: 1
+  - year: '2025'
+    text: Shopify opens catalogs to AI agents
+    impact: 1.5
+  - year: '2025'
+    text: Amazon sues Perplexity over shopping agent
+    impact: 1
+  - year: '2025'
+    text: Google AI calls stores to check stock
+    impact: 1
+  - year: '2025'
+    text: Holiday AI traffic sets records
+    impact: 1
+  - year: '2026'
+    text: Google UCP links agents to any store
+    impact: 2
+  - year: '2026'
+    text: Copilot Checkout lets users buy in chat
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai shopping forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-shopping
+  title: 'Where did AI shopping investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai shopping startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the AI shopping market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-00.png
+    x: 190.7
+    y: 273.0
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-01.png
+    x: 296.6
+    y: 270.6
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-02.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-03.png
+    x: 243.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-04.png
+    x: 350.6
+    y: 285.0
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-05.png
+    x: 444.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-06.png
+    x: 528.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-07.png
+    x: 540.0
+    y: 373.3
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-08.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-09.png
+    x: 240.0
+    y: 381.4
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-10.png
+    x: 481.9
+    y: 404.1
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-11.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-12.png
+    x: 189.4
+    y: 412.3
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-13.png
+    x: 291.0
+    y: 406.9
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-14.png
+    x: 345.0
+    y: 411.2
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-15.png
+    x: 420.9
+    y: 468.9
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-16.png
+    x: 478.7
+    y: 483.2
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-17.png
+    x: 667.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-18.png
+    x: 801.4
+    y: 480.0
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-19.png
+    x: 249.0
+    y: 504.6
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-20.png
+    x: 306.9
+    y: 504.9
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-21.png
+    x: 544.3
+    y: 504.6
+  - src: ../../assets/logos/pp_live/ai-shopping/s10-22.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Text / search-led
+  - Visual-led
+  - Challengers
+  rows:
+  - Find it
+  - Match it
+  - Decide with confidence
+  note:
+  - We placed AI shopping companies with traction or funding by their main use, from funding news
+  - We left out payments, fraud, logistics and operations tools, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Amazon Rufus winning
+
+    the AI shopping market?'
+  companies:
+  - short: Rufus
+    src: ../../assets/logos/pp_live/ai-shopping/s12-00.png
+  - short: Sparky
+    src: ../../assets/logos/pp_live/ai-shopping/s12-01.png
+  - short: Google
+    src: ../../assets/logos/pp_live/ai-shopping/s12-02.png
+  - short: ChatGPT
+    src: ../../assets/logos/pp_live/ai-shopping/s12-03.png
+  - short: Perplexity
+    src: ../../assets/logos/pp_live/ai-shopping/s12-04.png
+  criteria:
+  - name: $10B+ added sales
+    why: Proven to lift revenue
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Owns store and delivery
+    why: Price, stock, fast shipping
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Auto buy at target price
+    why: Buys when the deal hits
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Checkout inside the chat
+    why: No click away to buy
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Sponsored ads in answers
+    why: Brands pay to be seen
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: 900M+ weekly users
+    why: Biggest chat audience
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the AI shopping market?'
+  TL:
+    name: Algolia
+    src: ../../assets/logos/pp_live/ai-shopping/s01-00.png
+    text: powers product search for many online shops, but it sells a general search API also used for media sites and documentation
+  TR:
+    name: Stripe
+    src: ../../assets/logos/pp_live/ai-shopping/s01-02.png
+    text: co-developed the Agentic Commerce Protocol used by ChatGPT, but it is paid to process payments, not to help shoppers choose
+  BL:
+    name: Pinterest
+    src: ../../assets/logos/pp_live/ai-shopping/s01-10.png
+    text: uses AI visual search like Lens and Shop the Look to suggest products, but nearly all of its money comes from ads
+  BR:
+    name: Perplexity
+    src: ../../assets/logos/pp_live/ai-shopping/s01-11.png
+    text: now lets users buy products in a few clicks inside its answers, but shopping is one feature of a general answer engine
+  caption:
+  - Distance to the center reflects how much a product exists to help shoppers find and choose products, not to pay or ship
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-shopping/s01-01.png
+  - ../../assets/logos/pp_live/ai-shopping/s01-03.png
+  - ../../assets/logos/pp_live/ai-shopping/s01-04.png
+  - ../../assets/logos/pp_live/ai-shopping/s01-05.png
+  - ../../assets/logos/pp_live/ai-shopping/s01-06.png
+  - ../../assets/logos/pp_live/ai-shopping/s01-07.png
+  - ../../assets/logos/pp_live/ai-shopping/s01-08.png
+  - ../../assets/logos/pp_live/ai-shopping/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-shopping/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/ai-shopping/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/ai-shopping/s01-04.png
+    x: 374.8
+    y: 362.6
+  - src: ../../assets/logos/pp_live/ai-shopping/s01-05.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/ai-shopping/s01-06.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/ai-shopping/s01-07.png
+    x: 445.1
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-shopping/s01-08.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/ai-shopping/s01-09.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask if AI can find
+
+    the best deal and check out for them'
+  date: In recent months.
+  expl: Chatbots started to shop. ChatGPT, Perplexity and Google added product search and checkout, Amazon launched an assistant that buys for you, and
+    Walmart teamed up with OpenAI. People wanted to know if AI can really find the best deal.
+  term: ai shopping
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-shopping/ai-shopping.csv
+ed052p:
+  type: pp_cagr
+  title: ''
+  lead: ''
+  condition: ''
+  note: []
+  size: 7
+  cagr: null
+  y0: null

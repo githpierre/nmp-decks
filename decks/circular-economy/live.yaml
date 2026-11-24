@@ -1,0 +1,514 @@
+ed058:
+  type: pp_pains
+  title: 'Which circular economy
+
+    problems are still unsolved?'
+  auds:
+  - Online shoppers
+  - Fashion brands
+  - Battery makers
+  - City councils
+  - Packaging brands
+  pains:
+  - - They pay more to collect and move items than the items are worth
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 2
+  - - They must adapt to rules that change by country and by material
+    - - 1
+      - 2
+      - 2
+      - 3
+      - 3
+  - - They spend a lot to test and sort used goods in mixed condition
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 1
+  - - They find that recycled materials often cost more than new ones
+    - - 1
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They lose margin whenever raw material prices drop sharply
+    - - 1
+      - 1
+      - 3
+      - 2
+      - 2
+  - - They cannot repair many products because spare parts are locked
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which circular economy firm has
+
+    the most complete tech today?'
+  companies:
+  - name: AMP
+    src: ../../assets/logos/pp_live/circular-economy/s05-00.png
+  - name: Machinex
+    src: ../../assets/logos/pp_live/circular-economy/s05-01.png
+  - name: TOMRA
+    src: ../../assets/logos/pp_live/circular-economy/s05-02.png
+  - name: Recycleye
+    src: ../../assets/logos/pp_live/circular-economy/s05-03.png
+  - name: EverestLabs
+    src: ../../assets/logos/pp_live/circular-economy/s05-04.png
+  - name: Greyparrot
+    src: ../../assets/logos/pp_live/circular-economy/s05-05.png
+  features:
+  - header: Sorting|robots
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Optical|sorters
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Waste data|platform
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Runs own|plants
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Builds full|plants
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: C&D|waste
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Pay per|ton
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to the circular economy?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Virgin plastic stays cheaper than recycled plastic, so brands drop recycled content goals
+  - odds: 40
+    impact: 2
+    text: Big brands like Coca-Cola and Unilever cut circular packaging pledges to save money
+  - odds: 35
+    impact: 3
+    text: The EU delays or weakens its packaging and ecodesign rules after industry pushback
+  - odds: 35
+    impact: 2
+    text: Chemical recycling plants like those of Brightmark fail or close after missing output targets
+  - odds: 35
+    impact: 2
+    text: Reuse and refill startups like Loop fail to cut costs and investors stop funding them
+  - odds: 30
+    impact: 1
+    text: A greenwashing lawsuit over recycling claims hurts trust in recycled and repair labels
+  - odds: 25
+    impact: 2
+    text: A Ninth Circuit appeal or NAW's Colorado suit blocks packaging EPR laws, delaying producer fees for recyclers
+  - odds: 20
+    impact: 1
+    text: China and Southeast Asia tighten waste import rules and recyclers lose export markets for scrap
+  note:
+  - We listed the events that could slow circular economy down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed circular economy
+
+    forward, year after year?'
+  events:
+  - year: '1970'
+    text: First Earth Day sparks recycling programs
+    impact: 1
+  - year: '1975'
+    text: EU waste law sets polluter pays rule
+    impact: 1
+  - year: '1987'
+    text: Mobro garbage barge stirs landfill panic
+    impact: 1
+  - year: '1988'
+    text: Resin codes help sort plastic for recycling
+    impact: 1
+  - year: '1991'
+    text: Germany makes makers pay for packaging waste
+    impact: 2
+  - year: '1994'
+    text: EU packaging directive spreads take-back
+    impact: 1
+  - year: '2002'
+    text: Cradle to Cradle recasts waste as resource
+    impact: 1.5
+  - year: '2003'
+    text: EU WEEE law makes makers recycle e-waste
+    impact: 1.5
+  - year: '2010'
+    text: MacArthur Foundation pushes circular model
+    impact: 1.5
+  - year: '2011'
+    text: Patagonia ad tells buyers to repair first
+    impact: 1
+  - year: '2013'
+    text: H&M starts in-store clothing take-back
+    impact: 1
+  - year: '2015'
+    text: EU adopts first Circular Economy Action Plan
+    impact: 2.5
+  - year: '2015'
+    text: UN goal 12 targets waste and reuse
+    impact: 1
+  - year: '2016'
+    text: Report warns plastic may outweigh fish
+    impact: 1.5
+  - year: '2017'
+    text: Blue Planet II triggers a plastic backlash
+    impact: 1.5
+  - year: '2018'
+    text: China bans waste imports, West must recycle
+    impact: 3
+  - year: '2019'
+    text: EU bans single-use plastics like straws
+    impact: 1.5
+  - year: '2019'
+    text: Loop launches reusable packs with big brands
+    impact: 1
+  - year: '2020'
+    text: EU's second action plan targets products
+    impact: 1.5
+  - year: '2021'
+    text: Apple opens self repair under legal pressure
+    impact: 1.5
+  - year: '2021'
+    text: Maine and Oregon pass packaging EPR laws
+    impact: 1.5
+  - year: '2022'
+    text: UN agrees to negotiate a plastics treaty
+    impact: 1.5
+  - year: '2022'
+    text: New York enacts device right to repair
+    impact: 1
+  - year: '2022'
+    text: France bans destroying unsold goods
+    impact: 1.5
+  - year: '2023'
+    text: EU battery law mandates recycled content
+    impact: 1.5
+  - year: '2024'
+    text: EU Ecodesign rule brings product passports
+    impact: 2.5
+  - year: '2024'
+    text: EU right to repair directive passes
+    impact: 1.5
+  - year: '2025'
+    text: EU packaging law sets reuse quotas
+    impact: 1.5
+  - year: '2025'
+    text: China rare earth curbs spur metal recycling
+    impact: 1.5
+  - year: '2026'
+    text: EU bans destroying unsold clothes
+    impact: 2
+  note:
+  - We kept the events we believe pushed circular economy forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: circular-economy
+  title: 'Where did circular economy investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of circular economy startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the circular economy?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/circular-economy/s10-00.png
+    x: 453.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/circular-economy/s10-01.png
+    x: 308.1
+    y: 297.9
+  - src: ../../assets/logos/pp_live/circular-economy/s10-02.png
+    x: 540.9
+    y: 285.0
+  - src: ../../assets/logos/pp_live/circular-economy/s10-03.png
+    x: 657.0
+    y: 285.0
+  - src: ../../assets/logos/pp_live/circular-economy/s10-04.png
+    x: 740.6
+    y: 296.8
+  - src: ../../assets/logos/pp_live/circular-economy/s10-05.png
+    x: 345.0
+    y: 363.0
+  - src: ../../assets/logos/pp_live/circular-economy/s10-06.png
+    x: 680.6
+    y: 371.8
+  - src: ../../assets/logos/pp_live/circular-economy/s10-07.png
+    x: 801.2
+    y: 366.6
+  - src: ../../assets/logos/pp_live/circular-economy/s10-08.png
+    x: 191.6
+    y: 389.6
+  - src: ../../assets/logos/pp_live/circular-economy/s10-09.png
+    x: 614.6
+    y: 389.1
+  - src: ../../assets/logos/pp_live/circular-economy/s10-10.png
+    x: 244.7
+    y: 411.2
+  - src: ../../assets/logos/pp_live/circular-economy/s10-11.png
+    x: 302.6
+    y: 411.2
+  - src: ../../assets/logos/pp_live/circular-economy/s10-12.png
+    x: 747.0
+    y: 411.2
+  - src: ../../assets/logos/pp_live/circular-economy/s10-13.png
+    x: 441.0
+    y: 478.9
+  - src: ../../assets/logos/pp_live/circular-economy/s10-14.png
+    x: 648.0
+    y: 478.3
+  - src: ../../assets/logos/pp_live/circular-economy/s10-15.png
+    x: 749.1
+    y: 486.6
+  - src: ../../assets/logos/pp_live/circular-economy/s10-16.png
+    x: 801.2
+    y: 473.1
+  - src: ../../assets/logos/pp_live/circular-economy/s10-17.png
+    x: 291.4
+    y: 505.3
+  - src: ../../assets/logos/pp_live/circular-economy/s10-18.png
+    x: 527.6
+    y: 510.6
+  - src: ../../assets/logos/pp_live/circular-economy/s10-19.png
+    x: 699.0
+    y: 513.4
+  cols:
+  - sate rics)
+  - cireular cemmelce &
+  - '" _ Recovery & a gees sesame'
+  rows:
+  - Food & agriculture loop
+  - Packaging & textiles Ic
+  - Electronics & critical
+  note:
+  - We placed venture-backed circular economy startups by the sector they serve and their main lever
+  - This is not a full list, and you will find all the sources we used at the end of the report
+ed209p:
+  title: 'Why is Vinted winning
+
+    secondhand fashion?'
+  companies:
+  - short: Vinted
+    src: ../../assets/logos/pp_live/circular-economy/s12-00.png
+  - short: Depop
+    src: ../../assets/logos/pp_live/circular-economy/s12-01.png
+  - short: Poshmark
+    src: ../../assets/logos/pp_live/circular-economy/s12-02.png
+  - short: Vestiaire
+    src: ../../assets/logos/pp_live/circular-economy/s12-03.png
+  - short: Mercari
+    src: ../../assets/logos/pp_live/circular-economy/s12-04.png
+  criteria:
+  - name: Top resale app in Europe
+    why: Biggest buyer and seller pool
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: No fees for sellers
+    why: Easy to list anything
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Own parcel lockers
+    why: Cheaper, faster shipping
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Profitable since 2023
+    why: Growth paid by its own cash
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Luxury item checks
+    why: Buyers trust pricey items
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Sells beyond fashion
+    why: More reasons to open the app
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Social Gen Z community
+    why: Shopping as entertainment
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'How fast can generative engine
+
+    optimization (GEO) really grow?'
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/circular-economy/s01-00.png
+    text: impact interfaces
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/circular-economy/s01-02.png
+    text: $30B
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/circular-economy/s01-10.png
+    text: $2.1B $2.9B 2026 2027 2028
+  BR:
+    name: 2034 2035 2036
+    src: ../../assets/logos/pp_live/circular-economy/s01-11.png
+    text: ''
+  caption:
+  - We compared forecasts from Research and Markets, Market.us and KBV Research
+  - We adjusted each one to our definition, with all the sources at the end of the report
+  inside:
+  - ../../assets/logos/pp_live/circular-economy/s01-01.png
+  - ../../assets/logos/pp_live/circular-economy/s01-03.png
+  - ../../assets/logos/pp_live/circular-economy/s01-04.png
+  - ../../assets/logos/pp_live/circular-economy/s01-05.png
+  - ../../assets/logos/pp_live/circular-economy/s01-06.png
+  - ../../assets/logos/pp_live/circular-economy/s01-07.png
+  - ../../assets/logos/pp_live/circular-economy/s01-08.png
+  - ../../assets/logos/pp_live/circular-economy/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/circular-economy/s01-01.png
+    x: 446.4
+    y: 283.1
+  - src: ../../assets/logos/pp_live/circular-economy/s01-03.png
+    x: 527.8
+    y: 325.7
+  - src: ../../assets/logos/pp_live/circular-economy/s01-04.png
+    x: 403.5
+    y: 373.5
+  - src: ../../assets/logos/pp_live/circular-economy/s01-05.png
+    x: 466.9
+    y: 354.6
+  - src: ../../assets/logos/pp_live/circular-economy/s01-06.png
+    x: 514.9
+    y: 394.9
+  - src: ../../assets/logos/pp_live/circular-economy/s01-07.png
+    x: 381.2
+    y: 430.9
+  - src: ../../assets/logos/pp_live/circular-economy/s01-08.png
+    x: 457.1
+    y: 414.2
+  - src: ../../assets/logos/pp_live/circular-economy/s01-09.png
+    x: 511.5
+    y: 457.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more shoppers search
+
+    for eco-friendly brands to check claims'
+  date: Recently.
+  expl: Shoppers want products that are good for the planet, but they no longer trust vague claims. New rules against greenwashing, viral exposés and TikTok
+    reviews pushed people to check brands themselves. So “eco-friendly brand” became a search people type before they buy.
+  term: circular economy
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/circular-economy/circular-economy.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    the circular economy get?'
+  lead: ''
+  condition: To get that big, the market must make reuse cheaper than buying new, as resale, rental, and repair win buyers from new products every year.
+    It must also make recycled materials match the price and quality of new ones, so that factories sign long contracts and new plants can stay open.
+  note:
+  - We compared forecasts from Zion Market Research, The Business Research Company, Dimension Market Research and DataM
+  - We adjusted each one to our market definition and built a realistic range, and all our sources are listed at the end of the report
+  size: 560
+  cagr: 11
+  y0: 2026

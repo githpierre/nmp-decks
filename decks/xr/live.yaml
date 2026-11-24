@@ -1,0 +1,528 @@
+ed058:
+  type: pp_pains
+  title: 'What has already been fixed in
+
+    XR, and what is left to solve?'
+  auds:
+  - VR gamers
+  - Fitness users
+  - Training teams
+  - App studios
+  - Remote workers
+  pains:
+  - - They find headsets heavy and tiring after about thirty minutes
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 3
+  - - They run out of battery after only two or three hours of use
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They see headsets gather dust because few apps are a must-have
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They struggle to prove that VR training really pays for itself
+    - - 1
+      - 1
+      - 3
+      - 2
+      - 1
+  - - They still feel motion sickness in some fast-moving games and apps
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 1
+  - - They rebuild the same app for each platform and software stack
+    - - 1
+      - 1
+      - 1
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Who has built the full XR stack,
+
+    and who still relies on partners?'
+  companies:
+  - name: Apple
+    src: ../../assets/logos/pp_live/xr/s05-00.png
+  - name: Meta
+    src: ../../assets/logos/pp_live/xr/s05-01.png
+  - name: Samsung
+    src: ../../assets/logos/pp_live/xr/s05-02.png
+  - name: HTC Vive
+    src: ../../assets/logos/pp_live/xr/s05-03.png
+  - name: Xreal
+    src: ../../assets/logos/pp_live/xr/s05-04.png
+  - name: Pico
+    src: ../../assets/logos/pp_live/xr/s05-05.png
+  features:
+  - header: Own|chip
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Eye|tracking
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Micro-OLED|screens
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Own app|store
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: AI camera|glasses
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Display|glasses
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Neural|wristband
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for the XR market?'
+  events:
+  - odds: 45
+    impact: 2
+    text: Buyers prefer AI glasses like Ray-Ban Meta over headsets, shrinking the market for full XR apps
+  - odds: 40
+    impact: 2
+    text: Venture funding for XR startups stays far below 2021 levels and many VR game studios close
+  - odds: 35
+    impact: 3
+    text: Apple stops updating Vision Pro after shifting to glasses, and developers abandon visionOS apps
+  - odds: 35
+    impact: 2
+    text: Headsets stay heavy and cause motion sickness, so users stop wearing them after a few weeks
+  - odds: 30
+    impact: 3
+    text: Meta cuts Reality Labs further after its 2026 layoffs and stops launching new Quest headsets
+  - odds: 30
+    impact: 1
+    text: Tariffs on Chinese parts raise headset prices and slow sales for Pico, Meta and startups
+  - odds: 30
+    impact: 2
+    text: Enterprise buyers end XR training pilots without results, cutting spending at companies like Strivr
+  - odds: 20
+    impact: 2
+    text: A privacy scandal over eye-tracking or camera data from headsets leads to EU and state privacy rules
+  note:
+  - We listed the events that could slow xr down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed the XR market
+
+    forward, year after year?'
+  events:
+  - year: '1968'
+    text: Sutherland's headset shows VR is possible
+    impact: 1
+  - year: '1987'
+    text: VPL sells first VR gloves and goggles
+    impact: 1
+  - year: '1990'
+    text: Boeing coins AR to guide wire assembly
+    impact: 1
+  - year: '2012'
+    text: Oculus Kickstarter revives consumer VR
+    impact: 2.5
+  - year: '2013'
+    text: Google Glass puts AR on faces
+    impact: 1.5
+  - year: '2014'
+    text: Facebook buys Oculus, betting big on VR
+    impact: 3
+  - year: '2014'
+    text: Google Cardboard makes VR cost $15
+    impact: 1.5
+  - year: '2015'
+    text: HoloLens brings mixed reality to work
+    impact: 1.5
+  - year: '2016'
+    text: Rift and Vive ship, room-scale VR arrives
+    impact: 2
+  - year: '2016'
+    text: Pokemon Go shows millions will play AR
+    impact: 2
+  - year: '2016'
+    text: PlayStation VR brings headsets to consoles
+    impact: 1.5
+  - year: '2017'
+    text: ARKit puts AR on millions of iPhones
+    impact: 2
+  - year: '2018'
+    text: Army orders HoloLens, military funds AR
+    impact: 1.5
+  - year: '2018'
+    text: Oculus Go sells standalone VR for $199
+    impact: 1
+  - year: '2019'
+    text: Oculus Quest cuts the PC cord
+    impact: 2
+  - year: '2020'
+    text: 'Half-Life: Alyx gives VR a killer game'
+    impact: 1.5
+  - year: '2020'
+    text: Quest 2 at $299 makes VR mainstream
+    impact: 2.5
+  - year: '2021'
+    text: Facebook renames to Meta, betting on XR
+    impact: 2
+  - year: '2021'
+    text: Army signs $22B HoloLens goggle deal
+    impact: 1.5
+  - year: '2021'
+    text: ByteDance buys Pico, a rival enters VR
+    impact: 1
+  - year: '2023'
+    text: Ray-Ban Meta glasses sell, AI drives demand
+    impact: 2
+  - year: '2023'
+    text: Quest 3 brings color mixed reality
+    impact: 1.5
+  - year: '2024'
+    text: Vision Pro launch validates spatial computing
+    impact: 2.5
+  - year: '2024'
+    text: Meta opens Horizon OS to other headsets
+    impact: 1
+  - year: '2024'
+    text: Orion prototype shows true AR glasses work
+    impact: 1.5
+  - year: '2025'
+    text: Anduril takes over Army mixed reality goggles
+    impact: 1
+  - year: '2025'
+    text: Ray-Ban Meta sales triple, glasses take off
+    impact: 1.5
+  - year: '2025'
+    text: Meta Ray-Ban Display puts screens in glasses
+    impact: 1.5
+  - year: '2025'
+    text: Samsung Galaxy XR debuts Android XR
+    impact: 1.5
+  - year: '2026'
+    text: AI glasses shipments up 263% in H1
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed xr forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: xr
+  title: 'Where did XR investors put
+
+    their money this past year?'
+  note:
+  - We added up every equity round of xr startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in the XR market today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/xr/s10-00.png
+    x: 342.9
+    y: 264.4
+  - src: ../../assets/logos/pp_live/xr/s10-01.png
+    x: 656.6
+    y: 270.0
+  - src: ../../assets/logos/pp_live/xr/s10-02.png
+    x: 795.4
+    y: 270.0
+  - src: ../../assets/logos/pp_live/xr/s10-03.png
+    x: 186.9
+    y: 285.0
+  - src: ../../assets/logos/pp_live/xr/s10-04.png
+    x: 240.4
+    y: 298.5
+  - src: ../../assets/logos/pp_live/xr/s10-05.png
+    x: 294.2
+    y: 300.0
+  - src: ../../assets/logos/pp_live/xr/s10-06.png
+    x: 458.6
+    y: 292.3
+  - src: ../../assets/logos/pp_live/xr/s10-07.png
+    x: 542.6
+    y: 292.3
+  - src: ../../assets/logos/pp_live/xr/s10-08.png
+    x: 718.1
+    y: 307.7
+  - src: ../../assets/logos/pp_live/xr/s10-09.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/xr/s10-10.png
+    x: 311.6
+    y: 394.5
+  - src: ../../assets/logos/pp_live/xr/s10-11.png
+    x: 421.9
+    y: 389.1
+  - src: ../../assets/logos/pp_live/xr/s10-12.png
+    x: 491.1
+    y: 389.1
+  - src: ../../assets/logos/pp_live/xr/s10-13.png
+    x: 555.9
+    y: 375.9
+  - src: ../../assets/logos/pp_live/xr/s10-14.png
+    x: 614.4
+    y: 394.5
+  - src: ../../assets/logos/pp_live/xr/s10-15.png
+    x: 689.1
+    y: 375.9
+  - src: ../../assets/logos/pp_live/xr/s10-16.png
+    x: 189.6
+    y: 407.6
+  - src: ../../assets/logos/pp_live/xr/s10-17.png
+    x: 772.3
+    y: 406.9
+  - src: ../../assets/logos/pp_live/xr/s10-18.png
+    x: 553.3
+    y: 441.0
+  - src: ../../assets/logos/pp_live/xr/s10-19.png
+    x: 412.7
+    y: 478.1
+  - src: ../../assets/logos/pp_live/xr/s10-20.png
+    x: 727.3
+    y: 471.9
+  - src: ../../assets/logos/pp_live/xr/s10-21.png
+    x: 795.4
+    y: 483.9
+  - src: ../../assets/logos/pp_live/xr/s10-22.png
+    x: 487.3
+    y: 500.1
+  - src: ../../assets/logos/pp_live/xr/s10-23.png
+    x: 569.8
+    y: 515.1
+  - src: ../../assets/logos/pp_live/xr/s10-24.png
+    x: 659.1
+    y: 513.0
+  cols:
+  - Devices
+  - Enabling tech
+  - Software & services
+  rows:
+  - Consumer & Prosumer
+  - Enterprise end-users
+  - Ecosystem builders
+  note:
+  - We left out phone-only AR, flat-screen metaverse platforms and broad component makers
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why is Meta winning
+
+    the VR headset market?'
+  companies:
+  - short: Meta
+    src: ../../assets/logos/pp_live/xr/s12-00.png
+  - short: Apple
+    src: ../../assets/logos/pp_live/xr/s12-01.png
+  - short: Samsung
+    src: ../../assets/logos/pp_live/xr/s12-02.png
+  - short: Sony
+    src: ../../assets/logos/pp_live/xr/s12-03.png
+  - short: Pico
+    src: ../../assets/logos/pp_live/xr/s12-04.png
+  - short: HTC Vive
+    src: ../../assets/logos/pp_live/xr/s12-05.png
+  criteria:
+  - name: Top VR headset share
+    why: Most headsets sold each year
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Headset under $400
+    why: Cheap entry for new users
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Standalone, no PC needed
+    why: Plays anywhere, no wires
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Own VR app store
+    why: Games keep users loyal
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Millions of AI glasses
+    why: Leads the next device wave
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Eye tracking built in
+    why: Sharper, more natural input
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'The term LLM Is more and more popular
+
+    on Google, as chatbots reach every office'
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/xr/s01-00.png
+    text: more searches at x than in a typical the
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/xr/s01-02.png
+    text: ''
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/xr/s01-10.png
+    text: ''
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/xr/s01-11.png
+    text: ''
+  caption:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  inside:
+  - ../../assets/logos/pp_live/xr/s01-01.png
+  - ../../assets/logos/pp_live/xr/s01-03.png
+  - ../../assets/logos/pp_live/xr/s01-04.png
+  - ../../assets/logos/pp_live/xr/s01-05.png
+  - ../../assets/logos/pp_live/xr/s01-06.png
+  - ../../assets/logos/pp_live/xr/s01-07.png
+  - ../../assets/logos/pp_live/xr/s01-08.png
+  - ../../assets/logos/pp_live/xr/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/xr/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/xr/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/xr/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/xr/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/xr/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/xr/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/xr/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/xr/s01-09.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'VR headset searches spike
+
+    at Christmas, then fade away'
+  date: ''
+  expl: ''
+  term: xr
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/xr/xr.csv
+ed052p:
+  type: pp_cagr
+  title: 'What growth can the XR
+
+    market realistically expect?'
+  lead: ''
+  condition: To hit this growth, the market must turn AI glasses into a daily habit and bring display glasses with prescription lenses to mainstream prices.
+    It must also make XR a standard work tool for training and remote support, and keep content spending growing on headsets.
+  note:
+  - We compared forecasts from Mordor, IDC, MarketsandMarkets and Fortune Business Insights
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 25
+  cagr: 24
+  y0: 2026

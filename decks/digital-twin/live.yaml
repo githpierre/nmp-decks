@@ -1,0 +1,529 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would digital twin
+
+    customers actually pay to solve?'
+  auds:
+  - Machine makers
+  - Fleet operators
+  - Storage operators
+  - Space firms
+  - Robot makers
+  pains:
+  - - They spend months linking digital twins to old machine data
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They cannot trust twins that are fed with patchy sensor data
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 1
+  - - They pay for a custom model for each new type of asset they run
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 3
+  - - They struggle to prove the savings that come from fewer breakdowns
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 1
+  - - They see their models drift away as real assets age and wear
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They must keep sensitive asset data safe from cyber attacks
+    - - 1
+      - 2
+      - 2
+      - 3
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which digital twin player has
+
+    the most complete tech today?'
+  companies:
+  - name: Autodesk
+    src: ../../assets/logos/pp_live/digital-twin/s05-00.png
+  - name: Siemens
+    src: ../../assets/logos/pp_live/digital-twin/s05-01.png
+  - name: Dassault
+    src: ../../assets/logos/pp_live/digital-twin/s05-02.png
+  - name: Nvidia
+    src: ../../assets/logos/pp_live/digital-twin/s05-03.png
+  - name: PTC
+    src: ../../assets/logos/pp_live/digital-twin/s05-04.png
+  - name: Bentley
+    src: ../../assets/logos/pp_live/digital-twin/s05-05.png
+  features:
+  - header: Mechanical|CAD
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Own|PLM
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Building|BIM
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Reality|capture
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Factory|simulation
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Factory|hardware
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Own AI|chips
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    digital twins down?'
+  events:
+  - odds: 20
+    impact: 3
+    text: NVIDIA, Microsoft and AWS give away digital twin tools to sell compute, undercutting paid startup products
+  - odds: 20
+    impact: 3
+    text: Siemens, Dassault and Bentley bundle digital twins into their software suites, so startups lose most big deals
+  - odds: 15
+    impact: 2
+    text: Industrial buyers stop funding digital twin projects that stall after the pilot and never reach plant scale
+  - odds: 12
+    impact: 2
+    text: AI world models from Nvidia or Google replace physics-based digital twins for many simulation tasks
+  - odds: 12
+    impact: 2
+    text: Fewer digital twin startups raise new money as investors back only a handful of large platforms
+  - odds: 10
+    impact: 1
+    text: High GPU costs make large physics simulations too expensive for most industrial digital twin customers
+  - odds: 8
+    impact: 3
+    text: Hackers use a digital twin connection to break into a power grid or factory control system
+  - odds: 4
+    impact: 2
+    text: A digital twin gives wrong guidance and causes a serious plant accident, damaging trust in the category
+  note:
+  - We listed the events that could slow digital twin down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed digital twins
+
+    forward, year after year?'
+  events:
+  - year: '1970'
+    text: Apollo 13 rescue relies on ground simulators
+    impact: 2
+  - year: '2002'
+    text: Grieves defines the digital twin concept
+    impact: 1
+  - year: '2010'
+    text: NASA roadmap names digital twins
+    impact: 1.5
+  - year: '2011'
+    text: Germany launches Industry 4.0 plan
+    impact: 1.5
+  - year: '2012'
+    text: Cheap IoT sensors stream machine data
+    impact: 1.5
+  - year: '2015'
+    text: GE Predix twins jet engines and turbines
+    impact: 2
+  - year: '2016'
+    text: Siemens buys Mentor to twin chips
+    impact: 1.5
+  - year: '2017'
+    text: Gartner names digital twins a top trend
+    impact: 1.5
+  - year: '2018'
+    text: Virtual Singapore models a whole city
+    impact: 1
+  - year: '2018'
+    text: Microsoft launches Azure Digital Twins
+    impact: 1.5
+  - year: '2019'
+    text: Notre Dame fire proves 3D scans matter
+    impact: 1
+  - year: '2020'
+    text: Covid forces remote monitoring of plants
+    impact: 2.5
+  - year: '2020'
+    text: Digital Twin Consortium sets shared standards
+    impact: 1
+  - year: '2020'
+    text: Bentley IPO shows investors want twin tools
+    impact: 1
+  - year: '2021'
+    text: Nvidia Omniverse simulates whole factories
+    impact: 2.5
+  - year: '2021'
+    text: AWS IoT TwinMaker makes twins easier
+    impact: 1
+  - year: '2021'
+    text: Chip shortage pushes supply chain twins
+    impact: 1
+  - year: '2022'
+    text: Energy shock drives grid and plant twins
+    impact: 1
+  - year: '2022'
+    text: EU Destination Earth twins the planet
+    impact: 1
+  - year: '2022'
+    text: Siemens and Nvidia team up on twins
+    impact: 1.5
+  - year: '2023'
+    text: BMW plans factories in Omniverse first
+    impact: 1.5
+  - year: '2023'
+    text: Generative AI makes twins easier to query
+    impact: 1
+  - year: '2024'
+    text: Synopsys agrees $35B Ansys deal
+    impact: 2.5
+  - year: '2024'
+    text: Nvidia Earth-2 twins the climate
+    impact: 1
+  - year: '2024'
+    text: Siemens agrees $10B Altair deal
+    impact: 2
+  - year: '2025'
+    text: Nvidia Cosmos trains robots in virtual worlds
+    impact: 2
+  - year: '2025'
+    text: Nvidia blueprint twins gigawatt AI factories
+    impact: 1.5
+  - year: '2025'
+    text: Ansys deal closes, merging chips and physics
+    impact: 1.5
+  - year: '2025'
+    text: Siemens buys Dotmatics to twin labs
+    impact: 1
+  - year: '2026'
+    text: Siemens and Nvidia pitch AI factory twins
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed digital twin forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: digital-twin
+  title: 'Where did digital twin investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of digital twin startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the digital twin market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/digital-twin/s10-00.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/digital-twin/s10-01.png
+    x: 642.2
+    y: 261.0
+  - src: ../../assets/logos/pp_live/digital-twin/s10-02.png
+    x: 706.1
+    y: 266.8
+  - src: ../../assets/logos/pp_live/digital-twin/s10-03.png
+    x: 769.9
+    y: 260.1
+  - src: ../../assets/logos/pp_live/digital-twin/s10-04.png
+    x: 261.4
+    y: 294.0
+  - src: ../../assets/logos/pp_live/digital-twin/s10-05.png
+    x: 459.4
+    y: 289.3
+  - src: ../../assets/logos/pp_live/digital-twin/s10-06.png
+    x: 807.9
+    y: 309.6
+  - src: ../../assets/logos/pp_live/digital-twin/s10-07.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/digital-twin/s10-08.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/digital-twin/s10-09.png
+    x: 195.0
+    y: 404.1
+  - src: ../../assets/logos/pp_live/digital-twin/s10-10.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/digital-twin/s10-11.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/digital-twin/s10-12.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/digital-twin/s10-13.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/digital-twin/s10-14.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/digital-twin/s10-15.png
+    x: 792.0
+    y: 408.4
+  - src: ../../assets/logos/pp_live/digital-twin/s10-16.png
+    x: 500.8
+    y: 487.3
+  - src: ../../assets/logos/pp_live/digital-twin/s10-17.png
+    x: 694.7
+    y: 484.9
+  - src: ../../assets/logos/pp_live/digital-twin/s10-18.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/digital-twin/s10-19.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/digital-twin/s10-20.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/digital-twin/s10-21.png
+    x: 569.1
+    y: 510.6
+  cols:
+  - Sync & context
+  - Physics / what-if
+  - AI optimize / control
+  rows:
+  - Descript lets you edit video
+  - Facility / Site
+  - Midjourney launched
+  note:
+  - Distance to the center reflects how much a product creates new footage from prompts, rather than editing existing video
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+ed209p:
+  title: 'What makes Siemens the
+
+    digital twin leader?'
+  companies:
+  - short: Siemens
+    src: ../../assets/logos/pp_live/digital-twin/s12-00.png
+  - short: Dassault
+    src: ../../assets/logos/pp_live/digital-twin/s12-01.png
+  - short: PTC
+    src: ../../assets/logos/pp_live/digital-twin/s12-02.png
+  - short: Bentley
+    src: ../../assets/logos/pp_live/digital-twin/s12-03.png
+  - short: Hexagon
+    src: ../../assets/logos/pp_live/digital-twin/s12-04.png
+  - short: AVEVA
+    src: ../../assets/logos/pp_live/digital-twin/s12-05.png
+  criteria:
+  - name: Makes its own PLCs
+    why: Twin wired to the real line
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Chip and PCB design tools
+    why: Twins cover electronics too
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Multiphysics CAE suite
+    why: Simulates before building
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - name: Full PLM suite
+    why: One thread from design on
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: CAD sold as SaaS
+    why: Teams design from anywhere
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Process plant twins
+    why: Wins energy and chemicals
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Laser scanning hardware
+    why: Captures sites as they are
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as a digital twin,
+
+    and what only looks like it?'
+  TL:
+    name: Dassault Systémes
+    src: ../../assets/logos/pp_live/digital-twin/s01-00.png
+    text: builds around virtual twins, but most of its revenue still comes from design software like CATIA and SOLIDWORKS
+  TR:
+    name: Unity
+    src: ../../assets/logos/pp_live/digital-twin/s01-02.png
+    text: renders real-time 3D used in some industrial twins, but about two thirds of its revenue comes from mobile game ads
+  BL:
+    name: Cognite
+    src: ../../assets/logos/pp_live/digital-twin/s01-10.png
+    text: organizes the data that industrial twins run on, which makes it a data platform that powers twins more than a twin itself nA
+  BR:
+    name: Twin Health
+    src: ../../assets/logos/pp_live/digital-twin/s01-11.png
+    text: models each patient's metabolism as a twin, but it sells a diabetes program to employers, closer oe to digital health
+  caption:
+  - Distance to the center reflects how much a product is a live copy of a real asset, kept in sync with its operating data
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/digital-twin/s01-01.png
+  - ../../assets/logos/pp_live/digital-twin/s01-03.png
+  - ../../assets/logos/pp_live/digital-twin/s01-04.png
+  - ../../assets/logos/pp_live/digital-twin/s01-05.png
+  - ../../assets/logos/pp_live/digital-twin/s01-06.png
+  - ../../assets/logos/pp_live/digital-twin/s01-07.png
+  - ../../assets/logos/pp_live/digital-twin/s01-08.png
+  - ../../assets/logos/pp_live/digital-twin/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/digital-twin/s01-01.png
+    x: 468.6
+    y: 278.4
+  - src: ../../assets/logos/pp_live/digital-twin/s01-03.png
+    x: 539.6
+    y: 337.1
+  - src: ../../assets/logos/pp_live/digital-twin/s01-04.png
+    x: 407.8
+    y: 357.9
+  - src: ../../assets/logos/pp_live/digital-twin/s01-05.png
+    x: 474.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/digital-twin/s01-06.png
+    x: 512.4
+    y: 402.0
+  - src: ../../assets/logos/pp_live/digital-twin/s01-07.png
+    x: 374.4
+    y: 409.5
+  - src: ../../assets/logos/pp_live/digital-twin/s01-08.png
+    x: 451.9
+    y: 408.9
+  - src: ../../assets/logos/pp_live/digital-twin/s01-09.png
+    x: 496.1
+    y: 462.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'People ask what a digital twin
+
+    is, after Nvidia’s big keynotes'
+  date: C Recently.
+  expl: Nvidia made digital twins a keynote star, showing virtual copies of factories, cities and even the whole planet’s weather. Carmakers and hospitals
+    followed with their own. Suddenly a term from engineering showed up in the news, and people searched what it means.
+  term: digital twin
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/digital-twin/digital-twin.csv
+ed052p:
+  type: pp_cagr
+  title: 'What growth can the digital twin
+
+    market realistically expect?'
+  lead: ''
+  condition: To hit this growth, the market must turn pilots into live twins that run every day, as grids, plants, and buildings move their daily operations
+    onto them. It must also prove its savings in hard numbers, connect old systems, and resist cheaper tools from cloud giants that do part of the job.
+  note:
+  - We compared forecasts from Mordor, Fortune Business Insights, Grand View and IMARC and adjusted each one to our market
+  - We then built a realistic range from these forecasts, and you will find all the sources we used at the end of the report
+  size: 40
+  cagr: 25
+  y0: 2026

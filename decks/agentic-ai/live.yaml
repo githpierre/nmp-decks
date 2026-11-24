@@ -1,0 +1,518 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would agentic AI
+
+    customers actually pay to solve?'
+  auds:
+  - Large enterprises
+  - Software firms
+  - Retail banks
+  - IT teams
+  - Small businesses
+  pains:
+  - - They see agents fail quietly halfway through a multi-step task
+    - - 3
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They cannot connect agents to the old systems where work happens
+    - - 3
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They struggle to predict what each agent run will cost them
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 3
+  - - They worry about agents taking actions that nobody approved
+    - - 3
+      - 1
+      - 3
+      - 2
+      - 1
+  - - They lack a clear way to test agents before they go live
+    - - 2
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They see many agent pilots stall before they reach production
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which agentic AI player has
+
+    the most complete tech today?'
+  companies:
+  - name: Microsoft
+    src: ../../assets/logos/pp_live/agentic-ai/s05-00.png
+  - name: IBM
+    src: ../../assets/logos/pp_live/agentic-ai/s05-01.png
+  - name: Salesforce
+    src: ../../assets/logos/pp_live/agentic-ai/s05-02.png
+  - name: Google
+    src: ../../assets/logos/pp_live/agentic-ai/s05-03.png
+  - name: ServiceNow
+    src: ../../assets/logos/pp_live/agentic-ai/s05-04.png
+  - name: UiPath
+    src: ../../assets/logos/pp_live/agentic-ai/s05-05.png
+  features:
+  - header: Own|cloud
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Own AI|chips
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Own|CRM
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Own|chat app
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: RPA|bots
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Process|mining
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Open|LLMs
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could slow
+
+    agentic AI down?'
+  events:
+  - odds: 55
+    impact: 3
+    text: Salesforce, Microsoft and ServiceNow ship agents inside their suites, leaving standalone agent startups few buyers
+  - odds: 45
+    impact: 3
+    text: Gartner's forecast holds and over 40% of agentic AI projects are cancelled for cost and unclear value
+  - odds: 40
+    impact: 2
+    text: Agents still fail multi step tasks often, so customers limit them to narrow, supervised workflows
+  - odds: 40
+    impact: 1
+    text: Websites like Amazon and LinkedIn block AI agents, cutting off the data and actions agents need
+  - odds: 35
+    impact: 3
+    text: A prompt injection attack makes a company's agent leak customer data or send money to criminals
+  - odds: 30
+    impact: 2
+    text: Courts hold companies liable for contracts and refunds their agents promise, as in the Air Canada case
+  - odds: 30
+    impact: 2
+    text: Model token costs for long agent runs stay high, making per task pricing unprofitable for startups
+  - odds: 10
+    impact: 1
+    text: The EU classifies autonomous agents as high risk under the AI Act, adding audit costs
+  note:
+  - We listed the events that could slow agentic ai down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed agentic AI
+
+    forward, year after year?'
+  events:
+  - year: '2016'
+    text: AlphaGo shows AI can plan many moves
+    impact: 1.5
+  - year: '2017'
+    text: Transformer paper enables large models
+    impact: 2
+  - year: '2020'
+    text: GPT-3 follows instructions in plain text
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT gets millions used to AI helpers
+    impact: 2.5
+  - year: '2022'
+    text: ReAct lets models reason and use tools
+    impact: 1.5
+  - year: '2023'
+    text: AutoGPT shows models can chain tasks
+    impact: 1.5
+  - year: '2023'
+    text: OpenAI adds function calling for tools
+    impact: 2
+  - year: '2023'
+    text: LangChain gives coders agent building blocks
+    impact: 1
+  - year: '2024'
+    text: Devin shows an AI that writes software
+    impact: 1.5
+  - year: '2024'
+    text: Klarna bot does work of 700 agents
+    impact: 1.5
+  - year: '2024'
+    text: Salesforce bets its future on Agentforce
+    impact: 2
+  - year: '2024'
+    text: Claude learns to use a computer
+    impact: 1.5
+  - year: '2024'
+    text: MCP connects agents to any tool
+    impact: 2.5
+  - year: '2024'
+    text: OpenAI o1 makes models think first
+    impact: 2
+  - year: '2025'
+    text: Operator lets ChatGPT browse and buy
+    impact: 1.5
+  - year: '2025'
+    text: DeepSeek cuts the cost of reasoning
+    impact: 1.5
+  - year: '2025'
+    text: Claude Code makes coding agents mainstream
+    impact: 2
+  - year: '2025'
+    text: Manus goes viral as a general agent
+    impact: 1
+  - year: '2025'
+    text: Google A2A lets agents talk to agents
+    impact: 1.5
+  - year: '2025'
+    text: Microsoft Build pitches an open agentic web
+    impact: 1.5
+  - year: '2025'
+    text: Gartner warns 40% of agent projects fail
+    impact: 0.5
+  - year: '2025'
+    text: Claude 4 models code for hours alone
+    impact: 1.5
+  - year: '2025'
+    text: Coinbase x402 lets agents pay online
+    impact: 1
+  - year: '2025'
+    text: ChatGPT agent does multi-step jobs
+    impact: 1.5
+  - year: '2025'
+    text: AI browsers let agents act on websites
+    impact: 1
+  - year: '2025'
+    text: Agentic AI Foundation sets open standards
+    impact: 1.5
+  - year: '2026'
+    text: OpenClaw puts personal agents on laptops
+    impact: 1.5
+  - year: '2026'
+    text: Claude Cowork brings agents to office work
+    impact: 2.5
+  - year: '2026'
+    text: SaaS stocks fall as agents replace seats
+    impact: 2
+  - year: '2026'
+    text: Opus 4.6 deepens fears for software firms
+    impact: 1
+  note:
+  - We kept the events we believe pushed agentic ai forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: agentic-ai
+  title: 'Where did agentic AI investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of agentic ai startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the agentic AI market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-00.png
+    x: 345.4
+    y: 261.0
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-01.png
+    x: 723.4
+    y: 266.1
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-02.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-03.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-04.png
+    x: 321.0
+    y: 309.4
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-05.png
+    x: 653.8
+    y: 298.5
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-06.png
+    x: 343.7
+    y: 372.9
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-07.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-08.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-09.png
+    x: 780.9
+    y: 373.3
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-10.png
+    x: 183.0
+    y: 386.1
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-11.png
+    x: 287.1
+    y: 402.6
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-12.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-13.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-14.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-15.png
+    x: 233.1
+    y: 408.0
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-16.png
+    x: 467.8
+    y: 473.1
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-17.png
+    x: 531.4
+    y: 473.1
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-18.png
+    x: 790.1
+    y: 473.1
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-19.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-20.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-21.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-22.png
+    x: 653.8
+    y: 510.6
+  - src: ../../assets/logos/pp_live/agentic-ai/s10-23.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Dev & IT
+  - Internal ops
+  - Customer & revenue
+  rows:
+  - Infrastructure & primitives
+  - Builder platforms
+  - aad]
+  note:
+  - We left out copilots and fixed-rule automation where no agent plans the work
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why is Anthropic winning
+
+    the AI agent market?'
+  companies:
+  - short: Anthropic
+    src: ../../assets/logos/pp_live/agentic-ai/s12-00.png
+  - short: OpenAI
+    src: ../../assets/logos/pp_live/agentic-ai/s12-01.png
+  - short: Google
+    src: ../../assets/logos/pp_live/agentic-ai/s12-02.png
+  - short: Mistral
+    src: ../../assets/logos/pp_live/agentic-ai/s12-03.png
+  - short: Cohere
+    src: ../../assets/logos/pp_live/agentic-ai/s12-04.png
+  criteria:
+  - name: $60B+ revenue run rate
+    why: Agents drive paid usage
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Created the MCP standard
+    why: Every tool plugs into it
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Computer use model
+    why: Agents work any software
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Terminal coding agent
+    why: Devs adopt it first
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Open agent SDK
+    why: Builders ship agents fast
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Enterprise agent platform
+    why: Sold to big companies
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as agentic AI,
+
+    and what falls outside?'
+  TL:
+    name: Salesforce
+    src: ../../assets/logos/pp_live/agentic-ai/s01-00.png
+    text: is investing heavily in Agentforce, but it remains a CRM company selling agents as an add-on to its existing seat licenses
+  TR:
+    name: Jasper
+    src: ../../assets/logos/pp_live/agentic-ai/s01-01.png
+    text: generates marketing content with AI, but a person still prompts, edits and publishes each piece, so it is not agentic
+  BL:
+    name: Glean
+    src: ../../assets/logos/pp_live/agentic-ai/s01-10.png
+    text: started as an enterprise search engine and now ships agents on top of it, which places it halfway between search and agents
+  BR:
+    name: UiPath
+    src: ../../assets/logos/pp_live/agentic-ai/s01-11.png
+    text: has repositioned around agentic automation, but most of its revenue still comes from rule-based RPA bots that follow fixed scripts
+  caption:
+  - Distance to the center reflects how autonomously a product plans and acts, rather than simply answering questions
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/agentic-ai/s01-02.png
+  - ../../assets/logos/pp_live/agentic-ai/s01-03.png
+  - ../../assets/logos/pp_live/agentic-ai/s01-04.png
+  - ../../assets/logos/pp_live/agentic-ai/s01-05.png
+  - ../../assets/logos/pp_live/agentic-ai/s01-06.png
+  - ../../assets/logos/pp_live/agentic-ai/s01-07.png
+  - ../../assets/logos/pp_live/agentic-ai/s01-08.png
+  - ../../assets/logos/pp_live/agentic-ai/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/agentic-ai/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/agentic-ai/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/agentic-ai/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/agentic-ai/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/agentic-ai/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/agentic-ai/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/agentic-ai/s01-08.png
+    x: 388.5
+    y: 444.2
+  - src: ../../assets/logos/pp_live/agentic-ai/s01-09.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people want to know
+
+    what an AI agent is, and what it can do'
+  date: Lately.
+  expl: Chatbots learned to act, not just talk. OpenAI, Google and Anthropic shipped agents that browse the web, fill in forms and write code on their own,
+    and every software company started selling its own “AI agent”. People heard the word everywhere and googled it to find out what it meant.
+  term: agentic ai
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/agentic-ai/agentic-ai.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for agentic AI to grow?'
+  lead: 'To fill that room, '
+  condition: agents must move from pilots to daily work in most large companies, and be paid for the tasks they really finish. They must also earn trust,
+    with safe permissions, clear audits, and costs that stay lower than the work they replace.
+  note:
+  - We compared forecasts from Grand View, MarketsandMarkets, Mordor and Fortune Business Insights
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 10
+  cagr: 35
+  y0: 2026

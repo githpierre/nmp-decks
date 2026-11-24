@@ -1,0 +1,521 @@
+ed058:
+  type: pp_pains
+  title: 'Which solid-state battery
+
+    problems are still unsolved?'
+  auds:
+  - Chinese carmakers
+  - Global carmakers
+  - EV buyers
+  - Two-wheeler brands
+  - Fleet operators
+  pains:
+  - - They pay far more per kWh than for liquid LFP battery cells
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 3
+  - - They must pass China’s new no fire, no explosion battery test
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 2
+  - - They wait years for carmakers to qualify a brand-new cell
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 2
+  - - They face BYD and CATL with fully solid cells as soon as 2027
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 2
+  - - They need heavy pressure frames to hold fully solid packs
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They lose the semi-solid label under China’s new 2026 rule
+    - - 3
+      - 1
+      - 2
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which battery maker has the
+
+    most complete tech today?'
+  companies:
+  - name: QuantumScape
+    src: ../../assets/logos/pp_live/solid-state-battery/s05-00.png
+  - name: Solid Power
+    src: ../../assets/logos/pp_live/solid-state-battery/s05-01.png
+  - name: Factorial
+    src: ../../assets/logos/pp_live/solid-state-battery/s05-02.png
+  - name: ProLogium
+    src: ../../assets/logos/pp_live/solid-state-battery/s05-03.png
+  - name: ION Storage
+    src: ../../assets/logos/pp_live/solid-state-battery/s05-04.png
+  features:
+  - header: Ceramic|electrolyte
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: Sulfide|electrolyte
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Anode-|free
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Vehicle|demo
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Licenses|its tech
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Own pilot|line
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: 1 million|cells
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong for
+
+    solid-state batteries?'
+  events:
+  - odds: 35
+    impact: 3
+    text: Fully solid-state cells slip to 2030 or later, and QuantumScape and Solid Power run short of cash
+  - odds: 30
+    impact: 3
+    text: BYD, CATL and Samsung SDI build solid-state cells in their own plants, leaving startups few buyers
+  - odds: 25
+    impact: 3
+    text: Cheaper LFP liquid batteries keep improving, so carmakers see no need to pay for solid-state cells
+  - odds: 20
+    impact: 2
+    text: QingTao's Hong Kong IPO and WeLion's ChiNext listing stall or flop, cutting off funding for the sector
+  - odds: 10
+    impact: 2
+    text: A car with a semi-solid battery pack catches fire, and buyers lose trust in solid-state claims
+  - odds: 10
+    impact: 2
+    text: China cuts subsidies and tax breaks for solid-state batteries, slowing QingTao, WeLion and peers
+  - odds: 5
+    impact: 1
+    text: Lithium sulfide supply stalls, so solid-state battery makers cannot get enough material for new plants
+  - odds: 5
+    impact: 2
+    text: A fire or toxic gas leak at a sulfide electrolyte plant halts solid-state battery production
+  note:
+  - We listed the events that could slow solid state battery down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept solid-state batteries
+
+    moving forward, year after year?'
+  events:
+  - year: '1834'
+    text: Faraday sees ions move through a solid
+    impact: 0.5
+  - year: '1967'
+    text: Ford's beta alumina shows solid ion paths
+    impact: 0.5
+  - year: '1992'
+    text: Oak Ridge LiPON makes thin film cells
+    impact: 1
+  - year: '2011'
+    text: LGPS solid matches liquid ion speeds
+    impact: 2
+  - year: '2015'
+    text: Dyson pays $90M for Sakti3 cell maker
+    impact: 1
+  - year: '2015'
+    text: Bosch buys Seeo, carmakers take notice
+    impact: 1
+  - year: '2017'
+    text: Toyota names solid state its EV goal
+    impact: 1
+  - year: '2017'
+    text: Goodenough glass cell claim revives interest
+    impact: 0.5
+  - year: '2018'
+    text: VW puts $100M into QuantumScape
+    impact: 2
+  - year: '2020'
+    text: QuantumScape listing brings in public money
+    impact: 2.5
+  - year: '2020'
+    text: Samsung anode design nears no dendrite cells
+    impact: 1
+  - year: '2020'
+    text: QuantumScape shows 15 minute fast charging
+    impact: 1
+  - year: '2021'
+    text: Ford and BMW back Solid Power
+    impact: 1.5
+  - year: '2021'
+    text: Nio promises 150 kWh semi solid pack
+    impact: 1
+  - year: '2021'
+    text: Toyota tests a solid state prototype car
+    impact: 0.5
+  - year: '2022'
+    text: Mercedes and Stellantis back Factorial
+    impact: 1
+  - year: '2022'
+    text: EV fires make nonflammable cells appealing
+    impact: 1
+  - year: '2022'
+    text: Solid Power starts EV cell pilot line
+    impact: 0.5
+  - year: '2023'
+    text: Toyota claims a breakthrough, targets 2027
+    impact: 2
+  - year: '2023'
+    text: Idemitsu to mass make Toyota electrolyte
+    impact: 1
+  - year: '2023'
+    text: Lab gains push range goals past 1,000km
+    impact: 0.5
+  - year: '2023'
+    text: Nio semi solid pack drives 1,000 km
+    impact: 1
+  - year: '2024'
+    text: Beijing funds solid state with state money
+    impact: 1.5
+  - year: '2024'
+    text: VW licenses QuantumScape for mass output
+    impact: 2.5
+  - year: '2024'
+    text: QuantumScape ships B samples to carmakers
+    impact: 1
+  - year: '2025'
+    text: Honda opens a solid state pilot line
+    impact: 1
+  - year: '2025'
+    text: Mercedes EQS road tests solid state cells
+    impact: 1.5
+  - year: '2025'
+    text: Faster separator process eases scale up
+    impact: 1
+  - year: '2025'
+    text: Ducati bike shows solid state on road
+    impact: 1.5
+  - year: '2026'
+    text: China standard ends fake semi solid claims
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed solid state battery forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: solid-state-battery
+  title: 'Where did solid-state battery investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of solid state battery startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in solid-state batteries?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-00.png
+    x: 247.9
+    y: 273.9
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-01.png
+    x: 318.4
+    y: 270.0
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-02.png
+    x: 384.4
+    y: 276.4
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-03.png
+    x: 466.9
+    y: 270.4
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-04.png
+    x: 572.4
+    y: 273.9
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-05.png
+    x: 690.2
+    y: 271.3
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-06.png
+    x: 808.5
+    y: 281.6
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-07.png
+    x: 521.6
+    y: 303.4
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-08.png
+    x: 746.4
+    y: 299.1
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-09.png
+    x: 682.3
+    y: 372.9
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-10.png
+    x: 303.0
+    y: 383.1
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-11.png
+    x: 393.6
+    y: 399.0
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-12.png
+    x: 609.6
+    y: 397.7
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-13.png
+    x: 749.4
+    y: 383.1
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-14.png
+    x: 812.8
+    y: 399.9
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-15.png
+    x: 250.3
+    y: 407.1
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-16.png
+    x: 462.9
+    y: 405.4
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-17.png
+    x: 524.8
+    y: 405.0
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-18.png
+    x: 318.4
+    y: 474.0
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-19.png
+    x: 514.1
+    y: 488.1
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-20.png
+    x: 760.1
+    y: 485.6
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-21.png
+    x: 819.6
+    y: 488.6
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-22.png
+    x: 267.9
+    y: 502.7
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-23.png
+    x: 368.4
+    y: 505.7
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-24.png
+    x: 461.6
+    y: 513.0
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-25.png
+    x: 585.6
+    y: 500.6
+  - src: ../../assets/logos/pp_live/solid-state-battery/s10-26.png
+    x: 691.9
+    y: 501.6
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Cars
+  - Leaders
+  - Challengers
+  note:
+  - We left out listed QuantumScape and Solid Power and giants like CATL, BYD and Toyota
+  - We placed each one by its main product, and all our sources are at the end of the report
+ed209p:
+  title: 'Why might QuantumScape be
+
+    winning solid-state batteries?'
+  companies:
+  - short: QuantumScape
+    src: ../../assets/logos/pp_live/solid-state-battery/s12-00.png
+  - short: Factorial
+    src: ../../assets/logos/pp_live/solid-state-battery/s12-01.png
+  - short: Solid Power
+    src: ../../assets/logos/pp_live/solid-state-battery/s12-02.png
+  - short: ProLogium
+    src: ../../assets/logos/pp_live/solid-state-battery/s12-03.png
+  - short: ION
+    src: ../../assets/logos/pp_live/solid-state-battery/s12-04.png
+  criteria:
+  - name: Raised $1B+
+    why: Cash to reach production
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Licensed to VW PowerCo
+    why: Partner pays to scale it
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Murata and Corning deals
+    why: Big suppliers make separators
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Paid automaker license
+    why: Royalties without own plants
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Cells shown in a vehicle
+    why: Proof outside the lab
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Several carmaker partners
+    why: Many paths to market
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Own pilot production line
+    why: Builds sample cells in house
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really belong
+
+    in solid-state batteries today?'
+  TL:
+    name: Toyota
+    src: ../../assets/logos/pp_live/solid-state-battery/s01-00.png
+    text: is working with Idemitsu to put solid-state cells in its cars from 2027 or 2028, but it is a carmaker, not a battery seller
+  TR:
+    name: Albemarle
+    src: ../../assets/logos/pp_live/solid-state-battery/s01-02.png
+    text: refines the lithium that \ solid-state cells need, but it sells the same material to every conventional battery maker
+  BL:
+    name: SES AI
+    src: ../../assets/logos/pp_live/solid-state-battery/s01-10.png
+    text: began as SolidEnergy Systems, but its lithium-metal cells use a liquid electrolyte and it now sells AI materials discovery
+  BR:
+    name: 24M
+    src: ../../assets/logos/pp_live/solid-state-battery/s01-11.png
+    text: calls its cells semi-solid, but the name refers to thick clay-like electrodes soaked in a liquid electrolyte, not a solid one
+  caption:
+  - Distance to the center reflects how fully a cell relies on a solid electrolyte, rather than a liquid or gel one
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/solid-state-battery/s01-01.png
+  - ../../assets/logos/pp_live/solid-state-battery/s01-03.png
+  - ../../assets/logos/pp_live/solid-state-battery/s01-04.png
+  - ../../assets/logos/pp_live/solid-state-battery/s01-05.png
+  - ../../assets/logos/pp_live/solid-state-battery/s01-06.png
+  - ../../assets/logos/pp_live/solid-state-battery/s01-07.png
+  - ../../assets/logos/pp_live/solid-state-battery/s01-08.png
+  - ../../assets/logos/pp_live/solid-state-battery/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/solid-state-battery/s01-01.png
+    x: 453.6
+    y: 280.9
+  - src: ../../assets/logos/pp_live/solid-state-battery/s01-03.png
+    x: 532.1
+    y: 329.1
+  - src: ../../assets/logos/pp_live/solid-state-battery/s01-04.png
+    x: 404.8
+    y: 368.1
+  - src: ../../assets/logos/pp_live/solid-state-battery/s01-05.png
+    x: 469.3
+    y: 353.8
+  - src: ../../assets/logos/pp_live/solid-state-battery/s01-06.png
+    x: 514.1
+    y: 397.5
+  - src: ../../assets/logos/pp_live/solid-state-battery/s01-07.png
+    x: 378.4
+    y: 424.1
+  - src: ../../assets/logos/pp_live/solid-state-battery/s01-08.png
+    x: 455.4
+    y: 412.5
+  - src: ../../assets/logos/pp_live/solid-state-battery/s01-09.png
+    x: 506.6
+    y: 460.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: ''
+  date: ''
+  expl: ''
+  term: solid state battery
+  note: []
+  csv: assets/trends/solid-state-battery/solid-state-battery.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the solid-state battery
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but semi-solid cells must keep winning cars and grid storage in China while their price falls toward that of liquid LFP cells. Fully solid
+    cells must also leave pilot lines on time, with BYD, CATL, Samsung SDI, and Toyota shipping in volume before 2030.
+  note:
+  - We compared forecasts from Fortune, MarketsandMarkets, Roots, Grand View and EVTank to build a realistic range
+  - We added our funding tracker and aligned their timelines, and all the sources are included at the end of the report
+  size: 1.2
+  cagr: 40
+  y0: 2026

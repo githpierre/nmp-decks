@@ -1,0 +1,536 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI TRiSM
+
+    customers actually pay to solve?'
+  auds:
+  - Financial firms
+  - Tech firms
+  - Public agencies
+  - Energy groups
+  - Retail chains
+  pains:
+  - - They cannot fully stop prompt injection, only make it harder
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 3
+  - - They see Microsoft and Palo Alto bundle the same feature for free
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 2
+  - - They watch rivals get bought and must prove they will last
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They must judge intent, not just block words, on each agent action
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - They slow each answer and get switched off if they block too much
+    - - 2
+      - 2
+      - 1
+      - 1
+      - 3
+  - - They sell to buyers whose agents are still only in pilots
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI TRiSM vendor has
+
+    the most complete tech today?'
+  companies:
+  - name: IBM
+    src: ../../assets/logos/pp_live/ai-trism/s05-00.png
+  - name: Holistic AI
+    src: ../../assets/logos/pp_live/ai-trism/s05-01.png
+  - name: Cisco
+    src: ../../assets/logos/pp_live/ai-trism/s05-02.png
+  - name: Palo Alto
+    src: ../../assets/logos/pp_live/ai-trism/s05-03.png
+  - name: HiddenLayer
+    src: ../../assets/logos/pp_live/ai-trism/s05-04.png
+  - name: Credo AI
+    src: ../../assets/logos/pp_live/ai-trism/s05-05.png
+  features:
+  - header: Runtime|guardrails
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Red|teaming
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Model|scanning
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: AI Act|mapping
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Approval|workflows
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Bias|testing
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Own|AI model
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to AI security?'
+  events:
+  - odds: 40
+    impact: 1
+    text: Palo Alto, Cisco and CrowdStrike buy most AI security startups before they reach scale
+  - odds: 35
+    impact: 3
+    text: Microsoft and AWS bundle agent controls and guardrails into their clouds, crushing AI security startups
+  - odds: 18
+    impact: 3
+    text: OpenAI and Anthropic build safety and guardrails into their models, making separate AI security tools redundant
+  - odds: 15
+    impact: 2
+    text: Funding for AI security startups dries up as buyers delay purchases, and many shut down
+  - odds: 12
+    impact: 2
+    text: AI agent pilots stall in large companies, so few buyers need AI security and governance tools yet
+  - odds: 10
+    impact: 2
+    text: Free open-source tools like NeMo Guardrails and Garak replace paid AI security products for most buyers
+  - odds: 8
+    impact: 2
+    text: The EU and US states delay or drop AI rules, so companies spend less on AI governance
+  - odds: 5
+    impact: 2
+    text: A breach at an AI security vendor exposes sensitive prompts and data from its enterprise customers
+  note:
+  - We listed the events that could slow ai trism down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI TRiSM
+
+    forward, year after year?'
+  events:
+  - year: '2016'
+    text: Microsoft Tay turns racist in one day
+    impact: 1.5
+  - year: '2016'
+    text: ProPublica finds bias in court risk scores
+    impact: 1.5
+  - year: '2018'
+    text: GDPR fines make data misuse costly
+    impact: 2.5
+  - year: '2018'
+    text: Amazon scraps its biased AI hiring tool
+    impact: 1.5
+  - year: '2018'
+    text: Uber self-driving car kills a pedestrian
+    impact: 1
+  - year: '2019'
+    text: Apple Card bias claims trigger NY probe
+    impact: 1
+  - year: '2020'
+    text: Clearview AI scandal sparks face ID bans
+    impact: 1
+  - year: '2021'
+    text: EU proposes the AI Act
+    impact: 2
+  - year: '2022'
+    text: Gartner names AI TRiSM a top trend
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT puts AI risk in every office
+    impact: 2.5
+  - year: '2023'
+    text: NIST AI framework gives firms a checklist
+    impact: 1.5
+  - year: '2023'
+    text: Samsung staff leak code into ChatGPT
+    impact: 2
+  - year: '2023'
+    text: Lawyers fined for fake AI case citations
+    impact: 1.5
+  - year: '2023'
+    text: NYC law forces AI hiring tool audits
+    impact: 1
+  - year: '2023'
+    text: Biden AI order demands safety testing
+    impact: 1.5
+  - year: '2023'
+    text: ISO 42001 lets firms certify AI controls
+    impact: 1
+  - year: '2024'
+    text: Deepfake CFO call steals $25M
+    impact: 1.5
+  - year: '2024'
+    text: Air Canada pays for chatbot's bad advice
+    impact: 1.5
+  - year: '2024'
+    text: Colorado passes first US state AI act
+    impact: 1
+  - year: '2024'
+    text: EU AI Act becomes law
+    impact: 3
+  - year: '2024'
+    text: Cisco buys an AI model security startup
+    impact: 1.5
+  - year: '2025'
+    text: EU AI Act bans its riskiest uses
+    impact: 1.5
+  - year: '2025'
+    text: Palo Alto buys Protect AI for models
+    impact: 1.5
+  - year: '2025'
+    text: Workday bias suit goes nationwide
+    impact: 1
+  - year: '2025'
+    text: Zero-click flaw leaks Copilot data
+    impact: 1.5
+  - year: '2025'
+    text: EU rules hit general AI models
+    impact: 1.5
+  - year: '2025'
+    text: Check Point buys Lakera for AI guardrails
+    impact: 2
+  - year: '2025'
+    text: California SB 53 forces AI safety reports
+    impact: 1
+  - year: '2025'
+    text: Deloitte refunds fee over AI report errors
+    impact: 1
+  - year: '2026'
+    text: Viral OpenClaw agents expose user secrets
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai trism forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-trism
+  title: 'Where did AI security investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai trism startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the leading
+
+    companies in AI TRiSM?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-trism/s10-00.png
+    x: 256.5
+    y: 274.3
+  - src: ../../assets/logos/pp_live/ai-trism/s10-01.png
+    x: 322.3
+    y: 268.5
+  - src: ../../assets/logos/pp_live/ai-trism/s10-02.png
+    x: 394.5
+    y: 276.9
+  - src: ../../assets/logos/pp_live/ai-trism/s10-03.png
+    x: 464.4
+    y: 273.9
+  - src: ../../assets/logos/pp_live/ai-trism/s10-04.png
+    x: 525.2
+    y: 279.4
+  - src: ../../assets/logos/pp_live/ai-trism/s10-05.png
+    x: 676.1
+    y: 265.7
+  - src: ../../assets/logos/pp_live/ai-trism/s10-06.png
+    x: 606.6
+    y: 305.1
+  - src: ../../assets/logos/pp_live/ai-trism/s10-07.png
+    x: 736.9
+    y: 299.6
+  - src: ../../assets/logos/pp_live/ai-trism/s10-08.png
+    x: 817.5
+    y: 288.2
+  - src: ../../assets/logos/pp_live/ai-trism/s10-09.png
+    x: 333.4
+    y: 374.1
+  - src: ../../assets/logos/pp_live/ai-trism/s10-10.png
+    x: 276.2
+    y: 381.9
+  - src: ../../assets/logos/pp_live/ai-trism/s10-11.png
+    x: 395.8
+    y: 377.6
+  - src: ../../assets/logos/pp_live/ai-trism/s10-12.png
+    x: 481.5
+    y: 390.4
+  - src: ../../assets/logos/pp_live/ai-trism/s10-13.png
+    x: 543.6
+    y: 380.8
+  - src: ../../assets/logos/pp_live/ai-trism/s10-14.png
+    x: 600.0
+    y: 403.3
+  - src: ../../assets/logos/pp_live/ai-trism/s10-15.png
+    x: 676.1
+    y: 403.7
+  - src: ../../assets/logos/pp_live/ai-trism/s10-16.png
+    x: 765.4
+    y: 393.0
+  - src: ../../assets/logos/pp_live/ai-trism/s10-17.png
+    x: 822.6
+    y: 385.7
+  - src: ../../assets/logos/pp_live/ai-trism/s10-18.png
+    x: 393.2
+    y: 492.9
+  - src: ../../assets/logos/pp_live/ai-trism/s10-19.png
+    x: 465.2
+    y: 486.9
+  - src: ../../assets/logos/pp_live/ai-trism/s10-20.png
+    x: 551.8
+    y: 492.0
+  - src: ../../assets/logos/pp_live/ai-trism/s10-21.png
+    x: 684.6
+    y: 486.9
+  - src: ../../assets/logos/pp_live/ai-trism/s10-22.png
+    x: 734.6
+    y: 480.4
+  - src: ../../assets/logos/pp_live/ai-trism/s10-23.png
+    x: 272.8
+    y: 511.7
+  - src: ../../assets/logos/pp_live/ai-trism/s10-24.png
+    x: 336.0
+    y: 499.3
+  - src: ../../assets/logos/pp_live/ai-trism/s10-25.png
+    x: 609.0
+    y: 502.3
+  - src: ../../assets/logos/pp_live/ai-trism/s10-26.png
+    x: 784.5
+    y: 505.7
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Security
+  - Testing
+  - Governance
+  note:
+  - We left out Big Tech, AI labs, security vendors and acquired startups like Arize and Lakera
+  - We placed each one by its focus, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Palo Alto be
+
+    winning AI security?'
+  companies:
+  - short: Palo Alto
+    src: ../../assets/logos/pp_live/ai-trism/s12-00.png
+  - short: Cisco
+    src: ../../assets/logos/pp_live/ai-trism/s12-01.png
+  - short: Check Point
+    src: ../../assets/logos/pp_live/ai-trism/s12-02.png
+  - short: Zscaler
+    src: ../../assets/logos/pp_live/ai-trism/s12-03.png
+  - short: CrowdStrike
+    src: ../../assets/logos/pp_live/ai-trism/s12-04.png
+  - short: SentinelOne
+    src: ../../assets/logos/pp_live/ai-trism/s12-05.png
+  criteria:
+  - name: Bought AI security startup
+    why: Ready made AI defenses
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Paid over $500M for it
+    why: Deepest AI security tech
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: No.1 security revenue
+    why: Biggest base to sell into
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Inline network inspection
+    why: Sees all AI app traffic
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Owns identity security
+    why: AI agents need access rules
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - name: Owns a SIEM platform
+    why: Sees every AI security alert
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as AI TRISM,
+
+    and what falls outside?'
+  TL:
+    name: OneTrust
+    src: ../../assets/logos/pp_live/ai-trism/s01-00.png
+    text: now sells AI governance software, but it was built for privacy and consent, which still drive most of its sales
+  TR:
+    name: Hugging Face
+    src: ../../assets/logos/pp_live/ai-trism/s01-02.png
+    text: hosts millions of AI models, but it is a place to build and share them rather than to control their risks
+  BL:
+    name: Braintrust
+    src: ../../assets/logos/pp_live/ai-trism/s01-10.png
+    text: tests model outputs, which looks like risk control, but its buyers are AI engineers improving products, not risk teams
+  BR:
+    name: Datadog
+    src: ../../assets/logos/pp_live/ai-trism/s01-11.png
+    text: tracks how AI apps behave with LLM Observability, but most of its revenue comes from classic cloud monitoring
+  caption:
+  - Distance to the center reflects how much a product exists to govern, secure or monitor AI, rather than to build it
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/ai-trism/s01-01.png
+  - ../../assets/logos/pp_live/ai-trism/s01-03.png
+  - ../../assets/logos/pp_live/ai-trism/s01-04.png
+  - ../../assets/logos/pp_live/ai-trism/s01-05.png
+  - ../../assets/logos/pp_live/ai-trism/s01-06.png
+  - ../../assets/logos/pp_live/ai-trism/s01-07.png
+  - ../../assets/logos/pp_live/ai-trism/s01-08.png
+  - ../../assets/logos/pp_live/ai-trism/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-trism/s01-01.png
+    x: 453.6
+    y: 280.9
+  - src: ../../assets/logos/pp_live/ai-trism/s01-03.png
+    x: 532.1
+    y: 329.1
+  - src: ../../assets/logos/pp_live/ai-trism/s01-04.png
+    x: 404.8
+    y: 368.1
+  - src: ../../assets/logos/pp_live/ai-trism/s01-05.png
+    x: 469.3
+    y: 353.8
+  - src: ../../assets/logos/pp_live/ai-trism/s01-06.png
+    x: 514.1
+    y: 397.5
+  - src: ../../assets/logos/pp_live/ai-trism/s01-07.png
+    x: 378.4
+    y: 424.1
+  - src: ../../assets/logos/pp_live/ai-trism/s01-08.png
+    x: 455.4
+    y: 412.5
+  - src: ../../assets/logos/pp_live/ai-trism/s01-09.png
+    x: 506.6
+    y: 460.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more companies look up
+
+    AI security, as AI-made attacks grow'
+  date: Recently.
+  expl: Companies rushed to put AI in everything, then realized chatbots and agents open new doors for attackers. Security teams went looking for ways to
+    protect AI models, data and agents.
+  term: ai trism
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-trism/ai-trism.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    the AI TRiSM market get?'
+  lead: ''
+  condition: To get that big, AI security must become a_x000B_standard line in every security budget, and agents_x000B_must move from pilots to daily work
+    in most companies. Startups must also stay independent long enough to build_x000B_platforms, and rules in the EU, the US states, and Asia_x000B_must
+    keep asking companies to prove their AI is safe.
+  note:
+  - We compared forecasts from MarketsandMarkets, Gartner, Market Intelo and Meticulous Research
+  - We allowed for slower growth as the base gets larger, with all the sources at the end of the report
+  size: 3.5
+  cagr: 30
+  y0: 2026

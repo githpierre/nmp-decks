@@ -1,0 +1,599 @@
+ed058:
+  type: pp_pains
+  title: 'Which synthetic biology
+
+    problems are still unsolved?'
+  auds:
+  - Pharma groups
+  - Chemical makers
+  - Food brands
+  - Synbio startups
+  - Research labs
+  pains:
+  - - They struggle to scale a strain from the lab to a large tank
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 1
+  - - They wait too long for each design, build and test cycle to end
+    - - 3
+      - 1
+      - 1
+      - 2
+      - 3
+  - - They lack enough large fermentation capacity they can rent nearby
+    - - 1
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They see bio-made products cost more than petroleum versions
+    - - 1
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They spend years and lots of money before a first product sells
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 1
+  - - They struggle to share data between lab tools that do not connect
+    - - 3
+      - 1
+      - 1
+      - 1
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which synthetic biology firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Ginkgo
+    src: ../../assets/logos/pp_live/synthetic-biology/s05-00.png
+  - name: Asimov
+    src: ../../assets/logos/pp_live/synthetic-biology/s05-01.png
+  - name: Codexis
+    src: ../../assets/logos/pp_live/synthetic-biology/s05-02.png
+  - name: Arzeda
+    src: ../../assets/logos/pp_live/synthetic-biology/s05-03.png
+  - name: Novonesis
+    src: ../../assets/logos/pp_live/synthetic-biology/s05-04.png
+  features:
+  - header: Sells lab|robots
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Cloud|lab
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: DNA design|software
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: CHO|cell lines
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: RNA drug|production
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Own|enzymes
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Food|ingredients
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for synthetic biology?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Biomanufacturing stays too costly to compete with petrochemicals, so chemicals and materials startups cannot scale
+  - odds: 40
+    impact: 3
+    text: More startups follow Ginkgo Bioworks and Amyris into deep cost cuts or bankruptcy as cash runs out
+  - odds: 40
+    impact: 2
+    text: NIH and NSF budget cuts shrink university research that feeds new synthetic biology startups
+  - odds: 35
+    impact: 2
+    text: The BIOSECURE Act and US-China tensions cut startups off from cheap WuXi contract manufacturing
+  - odds: 30
+    impact: 1
+    text: AI protein design tools from Google DeepMind and others become free, erasing startup moats in enzyme design
+  - odds: 30
+    impact: 2
+    text: Big buyers like Unilever and L'Oreal drop bio-based ingredient pledges when prices stay above petrochemical ones
+  - odds: 25
+    impact: 2
+    text: The EPA and FDA slow approvals for engineered microbes in farming, delaying products like Pivot Bio
+  - odds: 10
+    impact: 3
+    text: A lab leak or engineered pathogen scare leads Congress to tighten DNA synthesis and gene editing rules
+  note:
+  - We listed the events that could slow synthetic biology down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed synthetic biology
+
+    forward, year after year?'
+  events:
+  - year: '1973'
+    text: Cohen and Boyer prove DNA splicing works
+    impact: 2.5
+  - year: '1978'
+    text: Genentech makes human insulin in bacteria
+    impact: 2
+  - year: '1982'
+    text: FDA approves Humulin, first engineered drug
+    impact: 1.5
+  - year: '1983'
+    text: PCR makes copying DNA fast and cheap
+    impact: 2
+  - year: '2000'
+    text: Toggle switch paper makes cells programmable
+    impact: 1.5
+  - year: '2003'
+    text: Human genome done, sequencing costs fall
+    impact: 2
+  - year: '2004'
+    text: iGEM and BioBricks make biology modular
+    impact: 1
+  - year: '2006'
+    text: Yeast brews malaria drug artemisinin
+    impact: 1.5
+  - year: '2007'
+    text: Illumina crashes the cost of reading DNA
+    impact: 2
+  - year: '2010'
+    text: Venter boots up first synthetic cell
+    impact: 1.5
+  - year: '2012'
+    text: CRISPR makes editing genes cheap and easy
+    impact: 3
+  - year: '2012'
+    text: Biofuel bust steers synbio to pricier goods
+    impact: 1
+  - year: '2013'
+    text: Sanofi scales yeast-made malaria drug
+    impact: 1
+  - year: '2016'
+    text: Twist chips slash DNA synthesis costs
+    impact: 1.5
+  - year: '2016'
+    text: Impossible Burger proves yeast heme sells
+    impact: 1.5
+  - year: '2017'
+    text: Bayer and Ginkgo build microbe fertilizers
+    impact: 1
+  - year: '2019'
+    text: Pivot Bio sells microbe nitrogen to farms
+    impact: 1
+  - year: '2020'
+    text: mRNA vaccines prove engineered biology scales
+    impact: 3
+  - year: '2020'
+    text: Covid testing floods synbio labs with work
+    impact: 1.5
+  - year: '2021'
+    text: SPAC wave pours billions into synbio
+    impact: 2
+  - year: '2022'
+    text: US bioeconomy order backs biomanufacturing
+    impact: 2
+  - year: '2022'
+    text: AlphaFold maps 200M proteins for designers
+    impact: 2.5
+  - year: '2023'
+    text: USDA approves lab-grown chicken for sale
+    impact: 1
+  - year: '2023'
+    text: Casgevy approval proves gene edits cure
+    impact: 1.5
+  - year: '2024'
+    text: Nobel for protein design validates AI biology
+    impact: 1.5
+  - year: '2024'
+    text: Evo AI model writes genome-scale DNA
+    impact: 1.5
+  - year: '2024'
+    text: BIOSECURE bill pushes biomanufacturing home
+    impact: 1
+  - year: '2025'
+    text: US commission urges $15B for biotech race
+    impact: 1.5
+  - year: '2025'
+    text: AI designs working virus genomes from scratch
+    impact: 1.5
+  - year: '2026'
+    text: Ginkgo robot labs open to four universities
+    impact: 1
+  note:
+  - We kept the events we believe pushed synthetic biology forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: synthetic-biology
+  title: 'Where did synthetic biology investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of synthetic biology startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the synthetic biology market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-00.png
+    x: 470.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-01.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-02.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-03.png
+    x: 309.6
+    y: 301.7
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-04.png
+    x: 676.7
+    y: 285.0
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-05.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-06.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-07.png
+    x: 191.6
+    y: 389.1
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-08.png
+    x: 265.9
+    y: 404.6
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-09.png
+    x: 339.9
+    y: 392.6
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-10.png
+    x: 483.0
+    y: 389.1
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-11.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-12.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-13.png
+    x: 412.7
+    y: 473.1
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-14.png
+    x: 521.1
+    y: 468.9
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-15.png
+    x: 614.6
+    y: 469.3
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-16.png
+    x: 723.4
+    y: 475.1
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-17.png
+    x: 798.9
+    y: 484.9
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-18.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-19.png
+    x: 293.1
+    y: 500.6
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-20.png
+    x: 472.1
+    y: 517.7
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-21.png
+    x: 569.8
+    y: 510.6
+  - src: ../../assets/logos/pp_live/synthetic-biology/s10-22.png
+    x: 663.9
+    y: 516.6
+  cols:
+  - Data & AI
+  - Food & agriculture
+  - Preconception
+  rows:
+  - Therapeutics & biopharma
+  - Molecular diagnostics
+  - Life-science tools &
+  note:
+  - We left out routine healthcare services and non-biotech industrial or farm uses
+  - We placed each pure player by its main focus, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these synthetic biology
+
+    startups, and how did they end?'
+  causes:
+  - Lawsuit or|court case
+  - Ran out|of cash
+  - R&D or|trial flop
+  - Sales too|small
+  rows:
+  - name: Amyris
+    ending: Went bankrupt
+    start: '2003'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/synthetic-biology/s11-00.png
+    ini: A
+    slug: amyris
+    domain: amyris.com
+  - name: Zymergen
+    ending: Sold to Ginkgo
+    start: '2013'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/synthetic-biology/s11-01.png
+    ini: Z
+    slug: zymergen
+    domain: zymergen.com
+  - name: Synlogic
+    ending: Shut down
+    start: '2014'
+    end: '2024'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/synthetic-biology/s11-02.png
+    ini: S
+    slug: synlogic
+    domain: synlogictx.com
+  - name: Motif FoodWorks
+    ending: Shut down
+    start: '2019'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/synthetic-biology/s11-03.png
+    ini: M
+    slug: motif
+    domain: madewithmotif.com
+  - name: Benson Hill
+    ending: Went bankrupt
+    start: '2012'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/synthetic-biology/s11-04.png
+    ini: B
+    slug: bensonhill
+    domain: bensonhill.com
+  note:
+  - We tracked the synthetic biology startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Twist be winning
+
+    the synthetic DNA market?'
+  companies:
+  - short: Twist
+    src: ../../assets/logos/pp_live/synthetic-biology/s12-00.png
+  - short: IDT
+    src: ../../assets/logos/pp_live/synthetic-biology/s12-01.png
+  - short: GenScript
+    src: ../../assets/logos/pp_live/synthetic-biology/s12-02.png
+  - short: Ansa
+    src: ../../assets/logos/pp_live/synthetic-biology/s12-03.png
+  - short: DNA Script
+    src: ../../assets/logos/pp_live/synthetic-biology/s12-04.png
+  - short: Elegen
+    src: ../../assets/logos/pp_live/synthetic-biology/s12-05.png
+  criteria:
+  - name: Silicon chip DNA writing
+    why: Writes DNA at huge scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Gene synthesis service
+    why: Core order for biotech labs
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: NGS target enrichment
+    why: Second big revenue stream
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Antibody discovery work
+    why: Sells DNA plus drug research
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Sales growing near 20%
+    why: FY26 outlook raised twice
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Largest oligo maker
+    why: Fast, cheap short DNA
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Enzymatic DNA synthesis
+    why: Longer, cleaner DNA strands
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in synthetic biology?'
+  TL:
+    name: Novonesis
+    src: ../../assets/logos/pp_live/synthetic-biology/s01-00.png
+    text: makes enzymes and cultures with genetically modified microbes, but it is an industrial giant scaling proven strains
+  TR:
+    name: Danone
+    src: ../../assets/logos/pp_live/synthetic-biology/s01-02.png
+    text: has fermented yogurt with selected bacteria for a century, which is putting biology to work rather than engineering it
+  BL:
+    name: Impossible Foods
+    src: ../../assets/logos/pp_live/synthetic-biology/s01-10.png
+    text: makes its heme with engineered yeast, but it remains a plant-based burger brand first, so it sits on the line
+  BR:
+    name: Moderna
+    src: ../../assets/logos/pp_live/synthetic-biology/s01-11.png
+    text: designs synthetic mRNA code for human cells, but it sells vaccines like any pharma company, which puts it on the edge
+  caption:
+  - Distance to the center reflects how central engineered DNA and organisms are to the product, rather than biology used as is
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/synthetic-biology/s01-01.png
+  - ../../assets/logos/pp_live/synthetic-biology/s01-03.png
+  - ../../assets/logos/pp_live/synthetic-biology/s01-04.png
+  - ../../assets/logos/pp_live/synthetic-biology/s01-05.png
+  - ../../assets/logos/pp_live/synthetic-biology/s01-06.png
+  - ../../assets/logos/pp_live/synthetic-biology/s01-07.png
+  - ../../assets/logos/pp_live/synthetic-biology/s01-08.png
+  - ../../assets/logos/pp_live/synthetic-biology/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/synthetic-biology/s01-01.png
+    x: 506.4
+    y: 280.9
+  - src: ../../assets/logos/pp_live/synthetic-biology/s01-03.png
+    x: 422.4
+    y: 334.9
+  - src: ../../assets/logos/pp_live/synthetic-biology/s01-04.png
+    x: 373.1
+    y: 371.8
+  - src: ../../assets/logos/pp_live/synthetic-biology/s01-05.png
+    x: 486.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/synthetic-biology/s01-06.png
+    x: 553.1
+    y: 360.2
+  - src: ../../assets/logos/pp_live/synthetic-biology/s01-07.png
+    x: 445.9
+    y: 397.9
+  - src: ../../assets/logos/pp_live/synthetic-biology/s01-08.png
+    x: 505.1
+    y: 412.1
+  - src: ../../assets/logos/pp_live/synthetic-biology/s01-09.png
+    x: 469.1
+    y: 463.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: ''
+  date: ''
+  expl: ''
+  term: synthetic biology
+  note: []
+  csv: assets/trends/synthetic-biology/synthetic-biology.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    synthetic biology get?'
+  lead: ''
+  condition: To get that big, the market must turn AI designs into products that scale, as pharma, food, and chemical firms buy more of what engineered
+    cells make. It must also cut production costs, build enough factory capacity, keep public trust in engineered food, and avoid a biosecurity incident
+    that brings strict rules.
+  note:
+  - We compared forecasts from Precedence, Fortune Business Insights, Mordor and Grand View
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: null
+  cagr: 19
+  y0: 2026

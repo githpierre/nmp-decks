@@ -1,0 +1,296 @@
+- after: ed104
+  link: ed104 card « Supply deals with ammonia plants, refineries or bases close to the well, with no long pipeline »
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does money really
+
+      flow in natural hydrogen?'
+    axes:
+    - Before the first well
+    - Gas flowing
+    - One-off
+    - fees
+    - Paid per
+    - kilogram
+    groups:
+    - name: Exploration asset value
+      x: 0.18
+      y: 0.32
+      logos:
+      - src: ../../assets/logos/pp_live/natural-hydrogen/s06-04.png
+      - src: ../../assets/logos/pp_live/natural-hydrogen/s06-05.png
+    - name: Hydrogen production sales
+      x: 0.82
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/natural-hydrogen/s06-02.png
+      - src: ../../assets/logos/pp_live/natural-hydrogen/s06-03.png
+    - name: Geoscience services
+      x: 0.3
+      y: 0.7
+      logos:
+      - src: ../../assets/logos/pp_live/natural-hydrogen/s06-00.png
+      - src: ../../assets/logos/pp_live/natural-hydrogen/s06-01.png
+    - name: Technology licensing
+      x: 0.62
+      y: 0.22
+      logos:
+      - src: ../../assets/logos/pp_live/natural-hydrogen/s06-06.png
+      - src: ../../assets/logos/pp_live/natural-hydrogen/s06-07.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xh_mantle8
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Mantle8 raised $36M in one round,
+
+      10 times its seed round of 2025'
+    t:
+      9: $3.5M
+      10: Feb 2025
+      12: $36M
+      13: May 2026
+      15: ×10
+      16: WHY IT IS HOT
+      17: 'Investors now write much bigger checks for natural hydrogen: Mantle8, which maps hydrogen in rocks, raised €31M ($36M) in May 2026, in a round led by Sandwater.
+
+
+        Its seed round of February 2025 was €3.4M, led by Breakthrough Energy Ventures.'
+    vbars:
+    - 3.5
+    - 36.3
+    note: We compared the two rounds announced by Mantle8, its seed round of February 2025 and its Series A of May 13, 2026
+    fresh:
+      period: month
+      end: 2026-05
+  sources:
+  - claim: Mantle8 €31M ($36M) Series A
+    url: https://hydrogeneurope.eu/mantle8-raises-36-million-to-scale-natural-hydrogen-exploration-platform/
+    date: '2026-05-18'
+    quote: Mantle8 announced that it has raised €31 million (USD$36 million) in a Series A funding round
+  - claim: Mantle8 €3.4M seed led by Breakthrough Energy Ventures in 2025
+    url: https://greenbond.jamstockex.com/?p=14570
+    date: '2026-05-14'
+    quote: In 2025, the company raised a €3.4 million Seed Round led by Breakthrough Energy Ventures.
+- after: xh_mantle8
+  link: ed032, signal 2 of the list
+  slide:
+    id: xh_partners
+    type: sx_round_timeline
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Big partners signed seven deals with
+
+      natural hydrogen firms in six months'
+    legend: false
+    t0: 4.8
+    t1: 10.9
+    amax: 1
+    ticks:
+    - {t: 5, l: May}
+    - {t: 6, l: Jun}
+    - {t: 7, l: Jul}
+    - {t: 8, l: Aug}
+    - {t: 9, l: Sep}
+    - {t: 10, l: Oct}
+    pts:
+    - {t: 5.42, a: 0, cy: 146, col: '#FB0161', lab: Sandwater}
+    - {t: 5.94, a: 0, cy: 146, col: '#FB0161', lab: US Air Force}
+    - {t: 6.94, a: 0, cy: 146, col: '#FB0161', lab: MGC}
+    - {t: 7.23, a: 0, cy: 146, col: '#FB0161', lab: SAF+}
+    - {t: 7.74, a: 0, cy: 146, col: '#FB0161', lab: Manila}
+    - {t: 9.71, a: 0, cy: 146, col: '#FB0161', lab: US DOE}
+    - {t: 10.48, a: 0, cy: 146, col: '#FB0161', lab: JERA}
+    story: From May to October 2026, investors, buyers and governments signed seven deals with natural hydrogen firms, a sign of a hot market. Most amounts were not disclosed.
+    note:
+    - We counted the deals announced by the firms and their partners,
+    - from May 13 to October 15, 2026, one dot per deal, not dollars
+    fresh:
+      period: month
+      end: 2026-10
+  sources:
+  - claim: Mantle8 Series A led by Sandwater, May 13
+    url: https://mantle8.com/mantle8-raises-e31m-in-series-a-funding-to-prove-commercial-viability-of-natural-hydrogen-production
+    date: '2026-05-13'
+    quote: The round was led by Sandwater and includes Breakthrough Energy Ventures
+  - claim: Air Force initiative picks HyTerra and Helix, May 29
+    url: https://www.afcec.af.mil/News/Article-Display/Article/4504180/initial-partners-selected-in-air-force-geologic-hydrogen-energy-resilience-init/
+    date: '2026-05-29'
+    quote: were selected by Chimaera to demonstrate the complete geologic hydrogen energy process
+  - claim: Mitsubishi Gas Chemical stake in Gold Hydrogen, June 29
+    url: https://www.mgc.co.jp/eng/corporate/news/2026/260629e.html
+    date: '2026-06-29'
+    quote: MGC has made an equity investment in Gold Hydrogen.
+  - claim: Vema and SAF+ memorandum, July 7
+    url: https://www.vema.earth/news/vema-hydrogen-and-saf-international-group-partner-to-produce-synthetic-sustainable-aviation-fuel-for-canadas-aviation-industry
+    date: '2026-07-07'
+    quote: Vema Hydrogen announced a memorandum of understanding (MOU) with SAF+ International Group (SAF+IG)
+  - claim: Koloma third Philippine service contract, July 23
+    url: https://www.koloma.com/koloma-expands-natural-hydrogen-exploration-operations-in-the-philippines/
+    date: '2026-07-23'
+    quote: Together, Koloma’s three service contracts now encompass more than 1,600 square miles (4,100 square kilometers).
+  - claim: H2Au in a DOE-supported research program, September 22
+    url: https://www.h2au.co/news/h2au-kansas-hydrogen-project-selected-for-15m-us-doe-supported-research-program-with-national-laboratories
+    date: '2026-09-22'
+    quote: will leverage US$1.5 million of government funding to advance natural hydrogen technologies
+  - claim: JERA Ventures invests in Koloma, October 15
+    url: https://www.koloma.com/jera-koloma-exploration/
+    date: '2026-10-15'
+    quote: JERA Co., Inc., through its corporate venture capital arm JERA Ventures, has announced an investment in Koloma
+- after: xh_partners
+  link: ed032, signal 3 of the list
+  slide:
+    id: xh_ramsay
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Gold Hydrogen brought hydrogen up
+
+      at Ramsay 3 in November 2026'
+    items:
+    - value: 97%
+      label: Top hydrogen purity measured at Ramsay 3, confirmed by an independent lab in December 2025
+    - value: 100 kg
+      label: Hydrogen a day one future well could produce, from Gold Hydrogen's model of November 2026
+    - value: '4'
+      label: Wells drilled at Ramsay in South Australia, with hydrogen flowed and separated at Ramsay 3
+    why: This is a sign of a hot market because a well that brings hydrogen to the surface is the step every explorer races toward. The 100 kg a day is still a model, not a proven steady rate.
+    note: We used Gold Hydrogen's releases of December 2, 2025 and November 2, 2026, which say further tests must confirm steady output
+    fresh:
+      period: month
+      end: 2026-11
+  sources:
+  - claim: 97% hydrogen purity at Ramsay 3
+    url: https://investorhub.goldhydrogen.com.au/activity-updates/r6Q91e-97-hydrogen-purity-a-new-record
+    date: '2025-12-02'
+    quote: The 97% (air corrected) hydrogen purity recording confirmed by an independent third party laboratory
+  - claim: Hydrogen flowed to surface and separated at Ramsay 3
+    url: https://investorhub.goldhydrogen.com.au/announcements/Zo2Yxg-groundbreaking-natural-hydrogen-results-confirmed
+    date: '2026-11-02'
+    quote: Natural Hydrogen was flowed to surface and separated in appraisal testing conditions in Ramsay 3.
+  - claim: About 100 kg per day per future well, modeled
+    url: https://investorhub.goldhydrogen.com.au/announcements/Zo2Yxg-groundbreaking-natural-hydrogen-results-confirmed
+    date: '2026-11-02'
+    quote: Appraisal testing confirms the potential for Natural Hydrogen production of approximately 100 kg per day per well
+  - claim: Ramsay 3 and Ramsay 4 drilled after Ramsay 1 and 2
+    url: https://quartr.com/events/gold-hydrogen-limited-ghy-q2-2026_F4moGXqM
+    date: '2026-01-29'
+    quote: Successful drilling and completion of Ramsay 3 and Ramsay 4 wells
+- after: xh_ramsay
+  link: ed032, signal 4 of the list
+  slide:
+    id: xh_maxpower
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'MAX Power drilled five hydrogen wells
+
+      in 2026, after one in 2025'
+    t:
+      9: '1'
+      10: '2025'
+      12: '5'
+      13: 2026 so far
+      15: ×5
+      16: WHY IT IS HOT
+      17: 'Explorers have moved from studies to drill rigs: MAX Power drilled its Bracken well and four more Lawson wells in Saskatchewan in 2026.
+
+
+        Its first Lawson well, drilled in November 2025, was the first well in Canada aimed at natural hydrogen.'
+    vbars:
+    - 1
+    - 5
+    note: We counted the hydrogen wells MAX Power announced as drilled, from its releases of November 2025 to October 2026
+    fresh:
+      period: total
+      end: 2026-10
+  sources:
+  - claim: Lawson well drilled in November 2025
+    url: https://geoexpro.com/canadas-first-hydrogen-exploration-well/
+    date: '2026-01-01'
+    quote: The 2,278 m deep Lawson well was drilled in November 2025, near Central Butte, Saskatchewan.
+  - claim: Bracken well drilled in 2026
+    url: https://www.maxpowermining.com/max-power-advances-basin-scale-discovery-potential-with-multi-zone-natural-hydrogen-and-helium-intervals-at-bracken/
+    date: '2026-04-02'
+    quote: the successful drilling of the Bracken Well
+  - claim: Lawson 4 drilled by September 2026
+    url: https://www.metaltechnews.com/story/2026/09/09/tech-bytes/max-power-extends-lawson-hydrogen-system/2945.html
+    date: '2026-09-08'
+    quote: the major fracture zone encountered in Lawson 4
+  - claim: Lawson 5 drilled to 2,175 m in October 2026
+    url: https://www.maxpowermining.com/max-power-expands-scale-of-saskatchewan-natural-hydrogen-system-with-lawson-5-commences-follow-up-well/
+    date: '2026-10-26'
+    quote: Lawson 5 was successfully cased after being drilled to a total depth of 2,175 meters
+- after: xh_maxpower
+  link: ed032, signal 5 of the list
+  slide:
+    id: xh_vc
+    type: share_waffle
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Geologic hydrogen now draws about 15%
+
+      of venture money for making hydrogen'
+    'on': Geologic
+    'off': Other hydrogen
+    unit: points
+    years:
+    - {x: JUNE 2026, k: 15, n: 100, p: 15}
+    big: 15%
+    kicker: WHY IT IS HOT
+    story: 'Venture money for hydrogen fell overall, yet the share going to geologic hydrogen startups keeps rising, the IEA found in June 2026.
+
+      Investors are moving from hydrogen made in factories to hydrogen found or made in rocks.'
+    note:
+    - We used the IEA Global Hydrogen Review of June 2026, which measures venture capital
+    - for hydrogen production technologies, one square for each percent of the total
+    fresh:
+      period: total
+      end: 2026-06
+  sources:
+  - claim: Geologic hydrogen around 15% of VC for hydrogen production technologies
+    url: https://www.iea.org/reports/global-hydrogen-review-2026/key-questions-about-hydrogen
+    date: '2026-06-18'
+    quote: now accounts for around 15% of all VC for hydrogen production technologies.
+- after: xh_vc
+  link: ed032, signal 6 of the list
+  slide:
+    id: xh_iowa
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Iowa set rules for hydrogen drilling
+
+      as explorers leased 14,000 acres'
+    items:
+    - value: 14,000
+      label: Acres leased in Iowa by Snowfox Discovery in 2026, in Audubon and Carroll counties
+    - value: 28%
+      label: Share of Iowa's land that companies believe may sit above hydrogen, up to two miles down
+    - value: 5 years
+      label: Confidentiality the new state rules give to companies on the hydrogen they pump out
+    why: This is a sign of a hot market because a farm state wrote its first rules for hydrogen wells in 2026, while explorers raced to lease the land above the Midcontinent Rift.
+    note: We used Iowa's legislative news of May 2026 and Snowfox Discovery's releases of August and November 2026
+    fresh:
+      period: month
+      end: 2026-11
+  sources:
+  - claim: Snowfox leased over 10,000 acres in Audubon County
+    url: https://www.energy-pedia.com/news/usa/snowfox-discovery-secures-10-000-acres-in-iowa-for-natural-hydrogen-exploration-204903
+    date: '2026-08-10'
+    quote: has successfully accessed more than 10,000 acres of exploration leases in Audubon County, Iowa.
+  - claim: Snowfox added 4,000 acres in Carroll County
+    url: https://www.snowfoxdiscovery.com/latest/snowfox-discovery-secures-second-strategic-project-in-iowa-with-additional-4-000-acres-in-carroll-for-natural-hydrogen-exploration
+    date: '2026-11-04'
+    quote: today announces it has successfully accessed an additional 4,000 acres
+  - claim: Iowa rules, five years of confidentiality, 28% of land
+    url: https://www.radioiowa.com/2026/05/03/legislators-send-iowa-governor-new-regs-for-hydrogen-extraction/
+    date: '2026-05-03'
+    quote: gives companies pumping hydrogen out of the ground up to five years of confidentiality

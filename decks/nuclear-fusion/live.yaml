@@ -1,0 +1,539 @@
+ed058:
+  type: pp_pains
+  title: 'Which fusion problems
+
+    are still unsolved?'
+  auds:
+  - Power utilities
+  - Tech giants
+  - Infra investors
+  - National labs
+  - State agencies
+  pains:
+  - - They must prove net energy gain before any buyer will pay for it
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They need several billion dollars to build a first pilot plant
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 3
+  - - They see the date of their first power plant slip by several years
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They must replace reactor walls damaged by fast neutrons
+    - - 3
+      - 1
+      - 2
+      - 3
+      - 1
+  - - They must breed their own tritium because nobody can sell it
+    - - 3
+      - 2
+      - 2
+      - 2
+      - 1
+  - - They wait for HTS magnet tape made by only a few factories
+    - - 2
+      - 1
+      - 2
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which nuclear fusion firm has
+
+    the most complete tech today?'
+  companies:
+  - name: Helion
+    src: ../../assets/logos/pp_live/nuclear-fusion/s05-00.png
+  - name: CFS
+    src: ../../assets/logos/pp_live/nuclear-fusion/s05-01.png
+  - name: TAE
+    src: ../../assets/logos/pp_live/nuclear-fusion/s05-02.png
+  - name: Type One
+    src: ../../assets/logos/pp_live/nuclear-fusion/s05-03.png
+  - name: Proxima
+    src: ../../assets/logos/pp_live/nuclear-fusion/s05-04.png
+  - name: Zap Energy
+    src: ../../assets/logos/pp_live/nuclear-fusion/s05-05.png
+  features:
+  - header: HTS|magnets
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Low-neutron|fuel
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Direct|electricity
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Signed|power buyer
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Plant site|picked
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Machine|running now
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Sells tech|to others
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to fusion?'
+  events:
+  - odds: 45
+    impact: 3
+    text: Commonwealth Fusion's SPARC and Helion miss their net energy goals again, and investors lose confidence in fusion
+  - odds: 30
+    impact: 3
+    text: Fusion startups fail to raise the billions they each need, and several leaders run out of cash
+  - odds: 20
+    impact: 3
+    text: Reactor wall and magnet materials fail under neutron damage, forcing redesigns that delay fusion plants by years
+  - odds: 20
+    impact: 2
+    text: China runs its BEST fusion machine first and pulls ahead of US and UK fusion startups
+  - odds: 15
+    impact: 2
+    text: Cheaper solar, wind and batteries win utility contracts, leaving little demand for expensive fusion power
+  - odds: 15
+    impact: 2
+    text: Tritium supply studies show too little fuel for first fusion plants, and investors question D-T designs
+  - odds: 8
+    impact: 2
+    text: The NRC or UK regulators reverse course and apply strict fission-style rules to fusion power plants
+  - odds: 5
+    impact: 2
+    text: A serious accident at a fusion test facility leads regulators to tighten rules for the whole sector
+  note:
+  - We listed the events that could slow nuclear fusion down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed nuclear fusion
+
+    forward, year after year?'
+  events:
+  - year: '1968'
+    text: Soviet tokamak results spark a global race
+    impact: 1.5
+  - year: '1973'
+    text: Oil crisis boosts fusion research budgets
+    impact: 1.5
+  - year: '1983'
+    text: JET and TFTR tokamaks come online
+    impact: 1
+  - year: '1985'
+    text: Reagan and Gorbachev back a joint reactor
+    impact: 1.5
+  - year: '1997'
+    text: JET hits record 16 MW of fusion
+    impact: 1
+  - year: '2006'
+    text: Seven powers sign the ITER treaty
+    impact: 1.5
+  - year: '2015'
+    text: MIT design shows new magnets shrink reactors
+    impact: 1.5
+  - year: '2015'
+    text: Wendelstein 7-X stellarator fires up
+    impact: 1
+  - year: '2018'
+    text: MIT and CFS bet on compact tokamaks
+    impact: 1
+  - year: '2019'
+    text: UK funds STEP fusion plant program
+    impact: 1
+  - year: '2021'
+    text: CFS 20 tesla magnet proves smaller reactors
+    impact: 2.5
+  - year: '2021'
+    text: Record $2.8B flows into private fusion
+    impact: 1.5
+  - year: '2022'
+    text: JET record shows fusion keeps scaling
+    impact: 1
+  - year: '2022'
+    text: White House backs a fusion power plan
+    impact: 1
+  - year: '2022'
+    text: NIF reaches ignition, more out than in
+    impact: 3
+  - year: '2023'
+    text: Microsoft signs first fusion power deal
+    impact: 2.5
+  - year: '2023'
+    text: US regulator spares fusion fission red tape
+    impact: 1.5
+  - year: '2023'
+    text: DOE milestone program funds private plants
+    impact: 1
+  - year: '2024'
+    text: ADVANCE Act writes fusion rules into law
+    impact: 1
+  - year: '2024'
+    text: CFS picks Virginia for first power plant
+    impact: 1.5
+  - year: '2025'
+    text: CFS raises $863M as Nvidia joins in
+    impact: 2
+  - year: '2025'
+    text: China's EAST holds plasma for 17 minutes
+    impact: 1
+  - year: '2025'
+    text: Google buys 200 MW of fusion power
+    impact: 2
+  - year: '2025'
+    text: China forms a state fusion company
+    impact: 1.5
+  - year: '2025'
+    text: Helion starts building Microsoft's plant
+    impact: 1.5
+  - year: '2025'
+    text: Eni signs $1B power deal with CFS
+    impact: 1.5
+  - year: '2025'
+    text: DOE roadmap targets fusion power by 2035
+    impact: 1
+  - year: '2025'
+    text: Germany backs fusion with 2B euros
+    impact: 1
+  - year: '2025'
+    text: Trump Media deal takes TAE public
+    impact: 1.5
+  - year: '2026'
+    text: Helion runs first private D-T fusion
+    impact: 2
+  note:
+  - We kept the events we believe pushed nuclear fusion forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: nuclear-fusion
+  title: 'Where did fusion investors put
+
+    their money this past year?'
+  note:
+  - We added up every equity round of nuclear fusion startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in nuclear fusion today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-00.png
+    x: 332.1
+    y: 279.4
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-01.png
+    x: 392.8
+    y: 271.7
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-02.png
+    x: 720.9
+    y: 279.9
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-03.png
+    x: 865.3
+    y: 283.3
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-04.png
+    x: 268.9
+    y: 293.1
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-05.png
+    x: 481.1
+    y: 287.1
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-06.png
+    x: 567.6
+    y: 295.9
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-07.png
+    x: 625.7
+    y: 289.3
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-08.png
+    x: 807.2
+    y: 297.4
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-09.png
+    x: 242.8
+    y: 369.0
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-10.png
+    x: 334.1
+    y: 388.7
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-11.png
+    x: 391.5
+    y: 401.1
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-12.png
+    x: 514.3
+    y: 393.9
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-13.png
+    x: 572.4
+    y: 403.7
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-14.png
+    x: 634.1
+    y: 402.6
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-15.png
+    x: 741.6
+    y: 375.4
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-16.png
+    x: 874.1
+    y: 379.7
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-17.png
+    x: 818.6
+    y: 407.1
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-18.png
+    x: 253.1
+    y: 474.9
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-19.png
+    x: 317.4
+    y: 474.0
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-20.png
+    x: 782.4
+    y: 477.4
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-21.png
+    x: 374.4
+    y: 495.4
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-22.png
+    x: 472.9
+    y: 497.8
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-23.png
+    x: 553.3
+    y: 511.3
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-24.png
+    x: 630.6
+    y: 498.6
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-25.png
+    x: 727.1
+    y: 501.9
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s10-26.png
+    x: 848.4
+    y: 501.9
+  cols:
+  - Magnetic fusion
+  - Leaders
+  - Challengers
+  rows:
+  - Leaders
+  - Challengers
+  - Rising stars
+  note:
+  - We left out big tech, public labs, state-owned firms and listed companies like TAE
+  - We placed each one by its focus, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is CFS winning
+
+    the fusion power race?'
+  companies:
+  - short: CFS
+    src: ../../assets/logos/pp_live/nuclear-fusion/s12-00.png
+  - short: Helion
+    src: ../../assets/logos/pp_live/nuclear-fusion/s12-01.png
+  - short: TAE
+    src: ../../assets/logos/pp_live/nuclear-fusion/s12-02.png
+  - short: Tokamak
+    src: ../../assets/logos/pp_live/nuclear-fusion/s12-03.png
+  - short: Gen. Fusion
+    src: ../../assets/logos/pp_live/nuclear-fusion/s12-04.png
+  - short: Zap Energy
+    src: ../../assets/logos/pp_live/nuclear-fusion/s12-05.png
+  criteria:
+  - name: Raised about $3B
+    why: Most funded fusion startup
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Record 20 tesla magnet
+    why: Smaller cheaper reactors
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Big tech power buyer
+    why: Google buys half of Arc
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: First plant site chosen
+    why: Arc planned in Virginia
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Raised $1B+
+    why: Cash to build hardware
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: DOE milestone award
+    why: Federal backing for a pilot
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Prototype making plasma
+    why: Physics tested in hardware
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: ''
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/nuclear-fusion/s01-00.png
+    text: ''
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/nuclear-fusion/s01-02.png
+    text: ''
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/nuclear-fusion/s01-10.png
+    text: ''
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/nuclear-fusion/s01-11.png
+    text: ''
+  caption: []
+  inside:
+  - ../../assets/logos/pp_live/nuclear-fusion/s01-01.png
+  - ../../assets/logos/pp_live/nuclear-fusion/s01-03.png
+  - ../../assets/logos/pp_live/nuclear-fusion/s01-04.png
+  - ../../assets/logos/pp_live/nuclear-fusion/s01-05.png
+  - ../../assets/logos/pp_live/nuclear-fusion/s01-06.png
+  - ../../assets/logos/pp_live/nuclear-fusion/s01-07.png
+  - ../../assets/logos/pp_live/nuclear-fusion/s01-08.png
+  - ../../assets/logos/pp_live/nuclear-fusion/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s01-01.png
+    x: 453.6
+    y: 280.9
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s01-03.png
+    x: 532.1
+    y: 329.1
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s01-04.png
+    x: 404.8
+    y: 368.1
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s01-05.png
+    x: 469.3
+    y: 353.8
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s01-06.png
+    x: 514.1
+    y: 397.5
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s01-07.png
+    x: 378.4
+    y: 424.1
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s01-08.png
+    x: 455.4
+    y: 412.5
+  - src: ../../assets/logos/pp_live/nuclear-fusion/s01-09.png
+    x: 506.6
+    y: 460.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask if fusion
+
+    power is real, now Google signed a deal'
+  date: Recently.
+  expl: Fusion started to feel real. Google signed a deal to buy power from Commonwealth Fusion Systems, which then raised over $800 million to finish its
+    reactor, and AI data centers made everyone ask where tomorrow’s electricity will come from. Searches moved to a new, much higher level.
+  term: nuclear fusion
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/nuclear-fusion/nuclear-fusion.csv
+ed052p:
+  type: pp_cagr
+  title: 'Who are the top players
+
+    in surgical robotics today?'
+  lead: ''
+  condition: Leaders ; Challengers 5
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out Intuitive, Medtronic, Stryker, J&J and listed makers, with all the sources at the end of the report
+  size: 9
+  cagr: null
+  y0: null

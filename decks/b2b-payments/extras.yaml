@@ -1,0 +1,50 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do B2B payment firms
+
+      actually make money?'
+    axes:
+    - Fixed fees
+    - Share of money moved
+    - Small
+    - businesses
+    - Large companies
+    - and platforms
+    groups:
+    - name: Software subscriptions
+      x: 0.17
+      y: 0.45
+      logos:
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-04.png
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-05.png
+    - name: Fee on each payment
+      x: 0.45
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-06.png
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-07.png
+    - name: Card swipe fees
+      x: 0.83
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-08.png
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-09.png
+    - name: Margin on currency exchange
+      x: 0.8
+      y: 0.6
+      logos:
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-02.png
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-03.png
+    - name: Usage fees for payment APIs
+      x: 0.42
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-00.png
+      - src: ../../assets/logos/pp_live/b2b-payments/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

@@ -1,0 +1,128 @@
+# Spec of the research prompts for the AI in insurance deck (tools/make_market_prompts.py). Method v2.
+# Pierre 22 Nov 2026 (« ok vas-y » on all recos): pain segments = types of buyer, value segments = the 6 base categories with the
+# short names of the live S09 (+ « Cyber risk » for the 7 cyber companies of « Insurance AI risk and compliance »).
+# Base as of 14 Nov 2026. Trends term: « ai insurance », curve cut at 1 June 2025 (RULES « Google Trends », 22 Nov 2026).
+name: AI in insurance
+handle: ai-in-insurance
+uuid: 123
+date: '2026-11-22'
+today: 22 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, HALEU, drug discovery, molecule
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and filings (Corgi, Federato, Kalepa, Akur8, hyperexponential, Tractable, Shift Technology, EvolutionIQ, CCC Intelligent Solutions, Sixfold, Cytora,
+  Gradient AI, Nirvana Insurance, Counterpart, Cover Whale, At-Bay, Coalition, Cowbell, CyberCube, AIUC, Armilla AI, Reserv, Pace, Outmarket AI, Lemonade, Root), insurer and reinsurer reports
+  (Allianz, AXA, Zurich, Generali, Aviva, Travelers, Progressive, Munich Re, Swiss Re, Lloyd's), regulators (NAIC AI model bulletin, Colorado Division of Insurance, New York DFS, EIOPA, EU AI Act,
+  UK FCA), industry research with a named method (Gallagher Re Global InsurTech Report, CB Insights, Swiss Re Institute sigma, McKinsey, Deloitte, Evident AI Insurance Index), court records, and
+  reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, Insurance Journal, Carrier Management, The Insurer, Insurance Insider, Artemis, Coverager, TechCrunch).
+# where the problem is felt: types of buyer (Pierre, 22 Nov 2026)
+pain_segments:
+- Large insurers
+- Small and mid-size insurers
+- Brokers and MGAs
+- Policyholders
+# types of solution: the 6 base categories, short names of the live S09 (Pierre, 22 Nov 2026)
+#   AI-native insurers = AI-native carriers and MGAs | Insurance AI agents = Insurance AI agents and operations
+#   Claims automation = Claims intelligence and automation | AI underwriting = Underwriting and pricing AI
+#   Insurance distribution = Insurance distribution and policy intelligence | Cyber risk = Insurance AI risk and compliance
+value_segments:
+- AI-native insurers
+- Insurance AI agents
+- Claims automation
+- AI underwriting
+- Insurance distribution
+- Cyber risk
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/ai-in-insurance (same slide type as the deck twin). No radar
+# (no live S01) and no donut on the live S03 (ed047 and ed048 skipped). S11 live is the « dead startups » grid (ed201); the
+# warning-signs grid ed199p comes from the research. S04, S05 and S07 twins are written by hand from the live slides.
+live_twins:
+- ed039p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed201
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which AI tools are big insurers already using for real?
+    brief: 8 rows = 8 real AI deployments at named insurers or reinsurers, each built on a startup's product or the insurer's own AI. Rows read "tool or use" + "INSURER · STARTUP or IN HOUSE" + stage
+      (PILOT / LIVE / SCALE, 5 characters at most). Only deployments reported by the insurer, the vendor with the insurer named, a filing or the press. LIVE means used on real policies or claims; SCALE
+      means across a whole line of business or country. Not a memorandum of understanding.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals involving AI in insurance companies and large groups (acquisitions such as CCC Intelligent Solutions buying EvolutionIQ, insurer or reinsurer investments, capacity deals for
+      AI-native insurers and MGAs, IPOs, large carrier contracts), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to get AI into an insurer's daily work?
+    brief: 5 steps from a first test to AI used on every policy or claim (for example testing on past claims or policies, passing the insurer's IT security and data review, model risk and regulator
+      review under the NAIC AI bulletin or the EU AI Act, connecting to the core system such as Guidewire or Duck Creek, rolling out and measuring the loss ratio or claim time). Each step in plain words
+      with who decides and a typical duration, and where projects usually stall.
+  iv_safety:
+    title: What could go wrong for AI in insurance?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example lawsuits over AI claim denials, new state or EU rules on AI pricing, deepfake photos and
+      documents fooling claims tools, a biased pricing model fined by a regulator, core-system vendors adding the same AI for free, AI-native insurers with high loss ratios). Real filings, reports or
+      reported cases only.
+extra:
+  ed061: 'For AI in insurance: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line
+    description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed032: 'Never use Google searches as a signal: since mid-2025 Google counts rare search terms differently. Key 19 is another sourced signal, not Google.'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: funding records of AI-native insurers and MGAs (Corgi, Ledgebrook, Nirvana Insurance, Stand, Counterpart, Cover Whale) and of insurance AI software (Federato, Kalepa, Akur8, Reserv, Pace,
+  Outmarket AI, Liberate), acquisitions (CCC Intelligent Solutions and EvolutionIQ, other insurer or software buyers), insurers putting AI in production with measured results (claims time, fraud caught,
+  share of claims or quotes handled by AI, loss ratio), AI liability insurance for companies using AI (AIUC, Armilla AI, Lloyd's syndicates), regulators (NAIC AI model bulletin adoption by states,
+  Colorado rules, EU AI Act high-risk rules for life and health pricing), lawsuits over AI claim denials (UnitedHealth, Cigna, Humana), deepfake claims fraud figures, share prices and results of listed
+  AI-first insurers (Lemonade, Root). NOT Google searches, because since mid-2025 Google counts rare search terms differently, so no Google Trends signal.
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, sales for little, insurers that dropped an AI vendor, layoffs, down rounds,
+  valuations or share prices that fell, regulator fines, lawsuits over AI decisions, AI-native insurers that lost their capacity or licence. Scope: companies whose core product is AI in insurance
+  (AI-native insurers and MGAs, underwriting and pricing AI, claims AI, insurance AI agents, AI-led distribution, cyber risk models), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, lost independence, CEO left, value fell, lost carrier capacity). Each cell is two short lines
+  separated by | or empty. Give the website domain of each company.
+
+  - ed200: why AI in insurance startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: AI in insurance
+label: AI in insurance
+keep_together:
+- AI in insurance
+- AI insurance
+- insurance AI
+examples:
+  jargon_bad: Gradient-boosted GLM ensembles with SHAP-based explainability for loss-cost relativities.
+  jargon_good: AI that prices each policy from hundreds of risk signals and can explain every price to the regulator.
+  jargon_why: the reader is not an actuary
+  proof_rule: 'A pilot, a « partnership » or a claimed speed-up is not proof that AI works in insurance: say whether the insurer uses it on real policies or claims, on what share of them, the measured
+    result (loss ratio, claim time, fraud caught) and who reported it.'
+  proof_bad: Company X partnered with a top-10 insurer.
+  proof_good: Company X's AI now handles 30% of a top-10 insurer's motor claims, cutting the average claim time from 10 days to 3, according to the insurer's 2026 report.
+  proof_why: most insurer pilots never reach real policies or claims
+  fresh_bad: Company X raised $50M in 2024
+  fresh_good: Company X raised $150M in March 2026, its biggest round, a year after a $50M round
+  fresh_est: Company X should write $500M of premium in 2026, against $200M in 2025
+  fresh_method: latest company releases, insurer annual reports and filings, press reports as a cross-check
+  not_proof: a pilot or a partnership is not AI used on real policies or claims
+trends_csv: assets/trends/ai-in-insurance/ai-insurance.csv

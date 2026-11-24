@@ -53,7 +53,7 @@ behind_these_categories:
   '5':
     caps: true
     max: 30
-    wordmax: 9
+    wordmax: 10
   '7':
     max: 124
     min: 97
@@ -207,34 +207,34 @@ categories_will_use:
     wordmax: 12
 categorize_companies_market:
   '10':
-    max: 35
-    wordmax: 11
+    max: 24
+    wordmax: 10
   '11':
-    max: 107
-    min: 65
+    max: 93
+    min: 68
   '13':
     caps: true
-    max: 29
+    max: 27
     wordmax: 10
   '16':
-    max: 108
-    min: 67
+    max: 84
+    min: 71
   '18':
     caps: true
-    max: 35
+    max: 34
     wordmax: 11
   '19':
-    max: 111
-    min: 69
+    max: 86
+    min: 73
   '25':
-    max: 69
+    max: 63
     wordmax: 10
   '7':
     caps: true
-    max: 29
-    wordmax: 10
+    max: 22
+    wordmax: 9
   '8':
-    max: 108
+    max: 87
     min: 67
 companies_working_groundbreaking_tech_today:
   '11':
@@ -1490,7 +1490,7 @@ most_active_investors:
     wordmax: 9
   '26':
     caps: true
-    max: 28
+    max: 22
     wordmax: 13
   '27':
     caps: true
@@ -1525,7 +1525,7 @@ most_active_investors:
     wordmax: 13
   '9':
     caps: true
-    max: 22
+    max: 19
     wordmax: 13
 much_worth_today:
   '4':
@@ -2360,7 +2360,7 @@ rounds_were_announced_last:
     max: 14
     wordmax: 9
   '18':
-    max: 122
+    max: 125
     min: 98
   '19':
     caps: true
@@ -2375,7 +2375,7 @@ rounds_were_announced_last:
     wordmax: 9
   '22':
     max: 134
-    min: 101
+    min: 110
   '23':
     caps: true
     max: 14
@@ -2389,22 +2389,22 @@ rounds_were_announced_last_2:
     max: 14
     wordmax: 9
   '15':
-    max: 128
-    min: 100
+    max: 132
+    min: 92
   '16':
     caps: true
     max: 14
     wordmax: 9
   '17':
     max: 124
-    min: 87
+    min: 84
   '18':
     caps: true
     max: 14
     wordmax: 9
   '19':
     max: 124
-    min: 90
+    min: 83
   '20':
     caps: true
     max: 14
@@ -2417,15 +2417,15 @@ rounds_were_announced_last_2:
     max: 14
     wordmax: 9
   '23':
-    max: 132
-    min: 90
+    max: 129
+    min: 107
   '24':
     caps: true
     max: 14
     wordmax: 9
   '25':
-    max: 120
-    min: 93
+    max: 118
+    min: 88
 s_commoditized_today_market:
   '10':
     max: 73
@@ -2971,50 +2971,54 @@ some_common_myths_about:
     max: 52
     min: 37
   '10':
-    max: 126
-    min: 107
+    max: 150
+    min: 125
   '12':
-    max: 63
+    max: 52
+    min: 37
     wordmax: 15
   '13':
-    max: 127
-    min: 107
+    max: 150
+    min: 125
   '15':
-    max: 47
-    min: 39
+    max: 52
+    min: 37
   '16':
-    max: 124
-    min: 105
+    max: 150
+    min: 125
   '7':
-    max: 118
-    min: 100
+    max: 150
+    min: 125
   '9':
-    max: 56
+    max: 52
     min: 37
 some_common_myths_about_2:
   '0':
-    max: 51
-    min: 39
+    max: 52
+    min: 37
   '10':
-    max: 123
-    min: 104
+    max: 150
+    min: 125
   '12':
-    max: 63
+    max: 52
+    min: 37
     wordmax: 10
   '13':
-    max: 120
-    min: 102
+    max: 150
+    min: 125
   '15':
-    max: 54
+    max: 52
+    min: 37
     wordmax: 9
   '16':
-    max: 124
-    min: 105
+    max: 150
+    min: 125
   '7':
-    max: 126
-    min: 107
+    max: 150
+    min: 125
   '9':
-    max: 48
+    max: 52
+    min: 37
     wordmax: 10
 stands_out_funding:
   '10':
@@ -3352,19 +3356,19 @@ sx_butterfly:
     wordmax: 9
 sx_categories_n:
   categories.*.description:
-    max: 98
-    min: 56
+    max: 72
+    min: 60
   categories.*.label:
     caps: true
-    max: 33
+    max: 35
     wordmax: 14
   categorization:
-    max: 50
+    max: 57
     wordmax: 10
 sx_faceoff:
   cards.*.name:
     max: 19
-    wordmax: 9
+    wordmax: 12
   cards.*.stats.*.l:
     max: 69
     wordmax: 11
@@ -3965,11 +3969,11 @@ where_did_most_capital_go:
     max: 27
     wordmax: 9
   '19':
-    max: 56
+    max: 55
     min: 39
   '20':
-    max: 67
-    wordmax: 13
+    max: 61
+    min: 51
   '24':
     caps: true
     max: 14
@@ -3977,7 +3981,7 @@ where_did_most_capital_go:
   '6':
     caps: true
     max: 30
-    wordmax: 9
+    wordmax: 11
   '7':
     caps: true
     max: 29

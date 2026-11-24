@@ -1,0 +1,607 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would generative AI
+
+    customers actually pay to solve?'
+  auds:
+  - Large enterprises
+  - AI startups
+  - App developers
+  - Everyday users
+  - Public agencies
+  pains:
+  - - They get confident answers from AI that turn out to be wrong
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 3
+  - - They see the model behave differently after each new update
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They pay token bills that grow faster than their own revenue
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They hit rate limits and outages just when their usage peaks
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They fear being locked in to a single AI model provider
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 3
+  - - They worry about where their data is sent and how long it is kept
+    - - 3
+      - 1
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which generative AI player has
+
+    the most complete tech today?'
+  companies:
+  - name: Google
+    src: ../../assets/logos/pp_live/generative-ai/s05-00.png
+  - name: OpenAI
+    src: ../../assets/logos/pp_live/generative-ai/s05-01.png
+  - name: xAI
+    src: ../../assets/logos/pp_live/generative-ai/s05-02.png
+  - name: Meta
+    src: ../../assets/logos/pp_live/generative-ai/s05-03.png
+  - name: Anthropic
+    src: ../../assets/logos/pp_live/generative-ai/s05-04.png
+  - name: Mistral
+    src: ../../assets/logos/pp_live/generative-ai/s05-05.png
+  features:
+  - header: Open|weights
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Image|model
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Video|model
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Coding|agent
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Computer|use
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Own|devices
+    values:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Own web|browser
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for generative AI?'
+  events:
+  - odds: 55
+    impact: 3
+    text: OpenAI, Google and Microsoft bundle features that copy startup products, wiping out thin wrapper apps
+  - odds: 45
+    impact: 2
+    text: Open models from DeepSeek, Qwen and Meta push API prices down 90%, crushing model startup margins
+  - odds: 35
+    impact: 2
+    text: Power shortages and grid delays in Virginia and Texas cap new data center capacity for AI
+  - odds: 30
+    impact: 2
+    text: Enterprise pilots fail to show ROI, as MIT style studies find most generative AI projects deliver nothing
+  - odds: 25
+    impact: 1
+    text: Nvidia GPU shortages and export controls raise compute costs for startups outside big cloud deals
+  - odds: 20
+    impact: 3
+    text: Big tech cuts AI capex after weak returns, and generative AI valuations fall 40% or more
+  - odds: 15
+    impact: 3
+    text: A US court rules training on copyrighted books is not fair use, forcing costly licensing deals
+  - odds: 10
+    impact: 2
+    text: A deepfake moves an election or stock price, and Congress passes strict liability rules for AI content
+  note:
+  - We listed the events that could slow generative ai down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed generative AI
+
+    forward, year after year?'
+  events:
+  - year: '2014'
+    text: GANs let computers create realistic images
+    impact: 1.5
+  - year: '2017'
+    text: Transformer paper makes big models possible
+    impact: 3
+  - year: '2019'
+    text: GPT-2 shows text generation at scale
+    impact: 1.5
+  - year: '2019'
+    text: Microsoft puts $1B into OpenAI
+    impact: 1.5
+  - year: '2020'
+    text: GPT-3 writes text from a simple prompt
+    impact: 2
+  - year: '2021'
+    text: DALL-E turns words into pictures
+    impact: 1.5
+  - year: '2022'
+    text: Midjourney and DALL-E 2 go viral
+    impact: 1.5
+  - year: '2022'
+    text: Stable Diffusion releases open image model
+    impact: 2
+  - year: '2022'
+    text: ChatGPT hits 100M users in two months
+    impact: 3
+  - year: '2023'
+    text: Microsoft invests $10B in OpenAI
+    impact: 2
+  - year: '2023'
+    text: GPT-4 passes the bar exam
+    impact: 2.5
+  - year: '2023'
+    text: Llama 2 makes strong models free
+    impact: 1.5
+  - year: '2023'
+    text: Nvidia sales triple on AI chip demand
+    impact: 2
+  - year: '2023'
+    text: Microsoft 365 Copilot brings AI to offices
+    impact: 1.5
+  - year: '2023'
+    text: NYT sues OpenAI over training data
+    impact: 1
+  - year: '2024'
+    text: Sora makes realistic video from text
+    impact: 1.5
+  - year: '2024'
+    text: GPT-4o talks and sees in real time
+    impact: 1.5
+  - year: '2024'
+    text: Apple Intelligence brings AI to iPhones
+    impact: 1.5
+  - year: '2024'
+    text: GPT-4o mini makes strong AI dirt cheap
+    impact: 2
+  - year: '2025'
+    text: Stargate plans $500B of AI data centers
+    impact: 2
+  - year: '2025'
+    text: DeepSeek R1 shows cheap models can reason
+    impact: 2.5
+  - year: '2025'
+    text: Ghibli images bring millions to ChatGPT
+    impact: 1
+  - year: '2025'
+    text: Anthropic pays $1.5B to settle book claims
+    impact: 1
+  - year: '2025'
+    text: Sora 2 app turns AI video social
+    impact: 1
+  - year: '2025'
+    text: Nvidia hits $5 trillion on AI demand
+    impact: 1.5
+  - year: '2025'
+    text: Gemini 3 tops benchmarks, raising the bar
+    impact: 1.5
+  - year: '2025'
+    text: Disney invests $1B in OpenAI
+    impact: 1
+  - year: '2026'
+    text: Claude Cowork plugins trigger SaaS selloff
+    impact: 1.5
+  - year: '2026'
+    text: ChatGPT reaches 900 million weekly users
+    impact: 2
+  - year: '2026'
+    text: OpenAI files confidentially for its IPO
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed generative ai forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: generative-ai
+  title: 'Where did generative AI investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of generative ai startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the generative AI market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/generative-ai/s10-00.png
+    x: 349.3
+    y: 261.0
+  - src: ../../assets/logos/pp_live/generative-ai/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/generative-ai/s10-02.png
+    x: 526.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/generative-ai/s10-03.png
+    x: 199.3
+    y: 295.1
+  - src: ../../assets/logos/pp_live/generative-ai/s10-04.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/generative-ai/s10-05.png
+    x: 312.9
+    y: 309.4
+  - src: ../../assets/logos/pp_live/generative-ai/s10-06.png
+    x: 484.7
+    y: 312.0
+  - src: ../../assets/logos/pp_live/generative-ai/s10-07.png
+    x: 581.8
+    y: 305.1
+  - src: ../../assets/logos/pp_live/generative-ai/s10-08.png
+    x: 694.7
+    y: 285.0
+  - src: ../../assets/logos/pp_live/generative-ai/s10-09.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/generative-ai/s10-10.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/generative-ai/s10-11.png
+    x: 191.6
+    y: 393.0
+  - src: ../../assets/logos/pp_live/generative-ai/s10-12.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/generative-ai/s10-13.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/generative-ai/s10-14.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/generative-ai/s10-15.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/generative-ai/s10-16.png
+    x: 328.3
+    y: 407.4
+  - src: ../../assets/logos/pp_live/generative-ai/s10-17.png
+    x: 787.7
+    y: 411.2
+  - src: ../../assets/logos/pp_live/generative-ai/s10-18.png
+    x: 537.0
+    y: 473.1
+  - src: ../../assets/logos/pp_live/generative-ai/s10-19.png
+    x: 687.9
+    y: 473.1
+  - src: ../../assets/logos/pp_live/generative-ai/s10-20.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/generative-ai/s10-21.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/generative-ai/s10-22.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/generative-ai/s10-23.png
+    x: 469.3
+    y: 503.4
+  - src: ../../assets/logos/pp_live/generative-ai/s10-24.png
+    x: 651.4
+    y: 520.3
+  - src: ../../assets/logos/pp_live/generative-ai/s10-25.png
+    x: 753.0
+    y: 499.7
+  cols:
+  - ''
+  - Product-led self-serve
+  - Enterprise/vertical sales
+  rows:
+  - Hematologic
+  - Solid tumors
+  - Non-oncology
+  note:
+  - We placed developers of living-cell drugs by their lead program, from FDA approvals and trial registries
+  - We left out simple cell procedures and general equipment, and all the sources are included at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these generative AI
+
+    startups, and how did they end?'
+  causes:
+  - Fraud or|probe
+  - Big rivals|caught up
+  - Ran out|of cash
+  - Product|fell short
+  rows:
+  - name: Builder.ai
+    ending: Went bankrupt
+    start: '2016'
+    end: '2025'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/generative-ai/s11-00.png
+    ini: B
+    slug: builderai
+    domain: builder.ai
+  - name: Neeva
+    ending: Sold to Snowflake
+    start: '2019'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/generative-ai/s11-01.png
+    ini: N
+    slug: neeva
+    domain: neeva.com
+  - name: Tome
+    ending: Shut down
+    start: '2020'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/generative-ai/s11-02.png
+    ini: T
+    slug: tome
+    domain: tome.app
+  - name: CodeParrot
+    ending: Shut down
+    start: '2022'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/generative-ai/s11-03.png
+    ini: C
+    slug: codeparrot
+    domain: codeparrot.ai
+  - name: Artifact
+    ending: Shut down
+    start: '2022'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/generative-ai/s11-04.png
+    ini: A
+    slug: artifact
+    domain: artifact.news
+  note:
+  - We tracked the generative ai startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is OpenAI winning
+
+    the consumer AI market?'
+  companies:
+  - short: OpenAI
+    src: ../../assets/logos/pp_live/generative-ai/s12-00.png
+  - short: Gemini
+    src: ../../assets/logos/pp_live/generative-ai/s12-01.png
+  - short: Anthropic
+    src: ../../assets/logos/pp_live/generative-ai/s12-02.png
+  - short: xAI
+    src: ../../assets/logos/pp_live/generative-ai/s12-03.png
+  - short: Perplexity
+    src: ../../assets/logos/pp_live/generative-ai/s12-04.png
+  - short: Mistral
+    src: ../../assets/logos/pp_live/generative-ai/s12-05.png
+  criteria:
+  - name: 900M+ weekly users
+    why: Habit at global scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 50M+ paying subscribers
+    why: Steady consumer revenue
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Most AI web traffic
+    why: About 60% of top AI visits
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Own frontier model
+    why: No supplier margin
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Own image model
+    why: Images drive new signups
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Own AI web browser
+    why: Owns the daily entry point
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What counts as generative AI,
+
+    and what only looks like it?'
+  TL:
+    name: Adobe
+    src: ../../assets/logos/pp_live/generative-ai/s01-00.png
+    text: says AI influences over a third of its business, but most of its revenue still comes from Creative Cloud and Acrobat plans
+  TR:
+    name: Netflix
+    src: ../../assets/logos/pp_live/generative-ai/s01-02.png
+    text: uses generative AI in some of its shows and in search, but it makes its money from streaming subscriptions and ads
+  BL:
+    name: Hugging Face
+    src: ../../assets/logos/pp_live/generative-ai/s01-10.png
+    text: hosts over 3 million open models and sells the hosting, but it is a home for other people's models more than a maker
+  BR:
+    name: Databricks
+    src: ../../assets/logos/pp_live/generative-ai/s01-11.png
+    text: sells Agent Bricks to build AI agents, but it is a data platform at heart, with a data warehouse past a $1.5B run rate
+  caption:
+  - Distance to the center reflects how much of a company's revenue comes from products that generate text, code, images or video
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/generative-ai/s01-01.png
+  - ../../assets/logos/pp_live/generative-ai/s01-03.png
+  - ../../assets/logos/pp_live/generative-ai/s01-04.png
+  - ../../assets/logos/pp_live/generative-ai/s01-05.png
+  - ../../assets/logos/pp_live/generative-ai/s01-06.png
+  - ../../assets/logos/pp_live/generative-ai/s01-07.png
+  - ../../assets/logos/pp_live/generative-ai/s01-08.png
+  - ../../assets/logos/pp_live/generative-ai/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/generative-ai/s01-01.png
+    x: 496.9
+    y: 279.2
+  - src: ../../assets/logos/pp_live/generative-ai/s01-03.png
+    x: 418.1
+    y: 340.1
+  - src: ../../assets/logos/pp_live/generative-ai/s01-04.png
+    x: 483.0
+    y: 352.5
+  - src: ../../assets/logos/pp_live/generative-ai/s01-05.png
+    x: 550.5
+    y: 354.2
+  - src: ../../assets/logos/pp_live/generative-ai/s01-06.png
+    x: 372.0
+    y: 381.2
+  - src: ../../assets/logos/pp_live/generative-ai/s01-07.png
+    x: 447.2
+    y: 400.9
+  - src: ../../assets/logos/pp_live/generative-ai/s01-08.png
+    x: 507.2
+    y: 409.9
+  - src: ../../assets/logos/pp_live/generative-ai/s01-09.png
+    x: 475.9
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'The term LLM Is more and more popular
+
+    on Google, as chatbots reach every office'
+  date: Over the past year.
+  expl: Not long ago, almost nobody knew what an LLM was. Then ChatGPT, Claude, Gemini and DeepSeek became daily tools, every company talked about “its
+    LLM”, and the term reached schools and offices. People kept searching it to understand the tech behind the chatbots.
+  term: generative ai
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/generative-ai/generative-ai.csv
+ed052p:
+  type: pp_cagr
+  title: ''
+  lead: ''
+  condition: ''
+  note: []
+  size: 200
+  cagr: null
+  y0: null

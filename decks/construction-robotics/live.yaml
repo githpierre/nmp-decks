@@ -1,0 +1,610 @@
+ed058:
+  type: pp_pains
+  title: 'Which job site problems
+
+    are still unsolved today?'
+  auds:
+  - Civil contractors
+  - Earthwork crews
+  - Equipment renters
+  - Quarry operators
+  - Equipment makers
+  pains:
+  - - They cannot find operators, who take years to master a machine
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - They lose days when one machine breaks down or waits for parts
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 1
+  - - They must keep workers safe around very heavy moving machines
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 3
+  - - They need proof of savings before they retrofit a fleet
+    - - 3
+      - 2
+      - 3
+      - 1
+      - 2
+  - - They work on job sites that change shape every single day
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 2
+  - - They pay extra for night shifts that few operators want to work
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which robot maker offers the
+
+    most complete tech today?'
+  companies:
+  - name: Boston Dyn.
+    src: ../../assets/logos/pp_live/construction-robotics/s05-00.png
+  - name: Dusty
+    src: ../../assets/logos/pp_live/construction-robotics/s05-01.png
+  - name: Built
+    src: ../../assets/logos/pp_live/construction-robotics/s05-02.png
+  - name: Bedrock
+    src: ../../assets/logos/pp_live/construction-robotics/s05-03.png
+  - name: Hilti
+    src: ../../assets/logos/pp_live/construction-robotics/s05-04.png
+  - name: Civ Robotics
+    src: ../../assets/logos/pp_live/construction-robotics/s05-05.png
+  features:
+  - header: Legged|robot
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Works|outdoors
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Marks|layout
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+  - header: No|operator
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Heavy|machinery
+    values:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Revit|import
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: 3D|scanning
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to construction robots?'
+  events:
+  - odds: 30
+    impact: 3
+    text: Caterpillar and Komatsu close their machines to third-party autonomy kits and ship their own systems
+  - odds: 25
+    impact: 2
+    text: A US building downturn deepens as housing starts keep falling, cutting construction robot orders for years
+  - odds: 20
+    impact: 2
+    text: Bedrock Robotics and Gravis fail to scale fleets before their cash runs out
+  - odds: 15
+    impact: 2
+    text: A pause in data center and solar construction cuts demand for construction robots on large sites
+  - odds: 15
+    impact: 3
+    text: An autonomous excavator or construction robot kills a worker, and regulators halt autonomous machines
+  - odds: 12
+    impact: 1
+    text: New tariffs raise costs for construction robot makers that rely on imported parts and machines
+  - odds: 10
+    impact: 2
+    text: Cheap Chinese finishing and layout robots undercut Western construction robot startups on price
+  - odds: 5
+    impact: 1
+    text: Construction unions block robots on job sites through contracts or new state laws
+  note:
+  - We listed the events that could slow construction robotics down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept construction robots
+
+    moving forward, year after year?'
+  events:
+  - year: '1991'
+    text: Shimizu automates high rise floor building
+    impact: 1
+  - year: '2008'
+    text: Driverless mine trucks prove autonomy works
+    impact: 1.5
+  - year: '2008'
+    text: Housing crash drives builders out for good
+    impact: 2
+  - year: '2013'
+    text: GPS dozers grade sites without stakes
+    impact: 1
+  - year: '2014'
+    text: Winsun 3D prints ten houses daily
+    impact: 0.5
+  - year: '2015'
+    text: SAM bricklaying robot works real sites
+    impact: 1
+  - year: '2015'
+    text: Komatsu turns earthmoving into data
+    impact: 1
+  - year: '2016'
+    text: FAA drone rule makes site surveys cheap
+    impact: 1.5
+  - year: '2016'
+    text: UK BIM mandate gives robots digital plans
+    impact: 1
+  - year: '2016'
+    text: Japan pushes digital tools on public works
+    impact: 1
+  - year: '2017'
+    text: Retrofit kits turn old excavators autonomous
+    impact: 1
+  - year: '2018'
+    text: Japan humanoid robot installs drywall
+    impact: 0.5
+  - year: '2019'
+    text: Layout robots print floor plans on slabs
+    impact: 1
+  - year: '2020'
+    text: Hilti Jaibot drills ceilings from BIM plans
+    impact: 1.5
+  - year: '2020'
+    text: Spot robot dog goes on sale
+    impact: 1
+  - year: '2020'
+    text: Covid distancing rules thin out site crews
+    impact: 1
+  - year: '2021'
+    text: US Army orders 3D printed barracks
+    impact: 0.5
+  - year: '2021'
+    text: $1.2T infrastructure law floods sites
+    impact: 2.5
+  - year: '2021'
+    text: Hyundai buys Boston Dynamics for $1.1B
+    impact: 1
+  - year: '2022'
+    text: CHIPS and IRA spark factory building
+    impact: 2.5
+  - year: '2022'
+    text: Trade wages jump, robots pencil out sooner
+    impact: 1.5
+  - year: '2022'
+    text: NASA hires ICON to print Moon buildings
+    impact: 0.5
+  - year: '2023'
+    text: Robot pile drivers speed solar farm builds
+    impact: 1
+  - year: '2023'
+    text: Drywall robots win union crews in California
+    impact: 0.5
+  - year: '2024'
+    text: Builders short 500,000 workers, says ABC
+    impact: 1.5
+  - year: '2024'
+    text: Japan overtime cap leaves builders short
+    impact: 1
+  - year: '2025'
+    text: Immigration raids empty job sites of workers
+    impact: 2.5
+  - year: '2025'
+    text: 50% steel tariff squeezes builders
+    impact: 0.5
+  - year: '2025'
+    text: Ex-Waymo team brings autonomy to excavators
+    impact: 1
+  - year: '2026'
+    text: Alphabet and Nvidia back robot excavators
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed construction robotics forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: construction-robotics
+  title: 'Where did construction robot investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of construction robotics startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in construction robotics?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-00.png
+    x: 381.2
+    y: 269.1
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-01.png
+    x: 538.5
+    y: 269.1
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-02.png
+    x: 694.1
+    y: 279.4
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-03.png
+    x: 770.6
+    y: 276.9
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-04.png
+    x: 262.7
+    y: 288.4
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-05.png
+    x: 323.8
+    y: 298.3
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-06.png
+    x: 478.7
+    y: 300.4
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-07.png
+    x: 607.7
+    y: 293.1
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-08.png
+    x: 820.9
+    y: 305.1
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-09.png
+    x: 469.1
+    y: 371.6
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-10.png
+    x: 608.8
+    y: 374.6
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-11.png
+    x: 700.1
+    y: 372.0
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-12.png
+    x: 267.2
+    y: 385.3
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-13.png
+    x: 334.1
+    y: 389.1
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-14.png
+    x: 395.4
+    y: 376.7
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-15.png
+    x: 551.1
+    y: 383.6
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-16.png
+    x: 763.9
+    y: 393.9
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-17.png
+    x: 822.2
+    y: 403.7
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-18.png
+    x: 343.5
+    y: 473.6
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-19.png
+    x: 462.4
+    y: 486.9
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-20.png
+    x: 685.7
+    y: 479.6
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-21.png
+    x: 293.4
+    y: 506.8
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-22.png
+    x: 393.4
+    y: 501.4
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-23.png
+    x: 515.6
+    y: 511.7
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-24.png
+    x: 580.1
+    y: 497.6
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-25.png
+    x: 735.9
+    y: 510.6
+  - src: ../../assets/logos/pp_live/construction-robotics/s10-26.png
+    x: 793.1
+    y: 504.0
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Sitework
+  - Trades
+  - Printing
+  note:
+  - We compared forecasts from Mordor, Straits, Fortune Business Insights and The Business Research Company
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'Why did these robot startups
+
+    fail, and how did they end?'
+  causes:
+  - Funding|fell through
+  - Ran out|of cash
+  - COVID or|rate shock
+  - Pivot came|too late
+  rows:
+  - name: Diamond Age
+    ending: Went bankrupt
+    start: '2018'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/construction-robotics/s11-00.png
+    ini: D
+    slug: diamond-age
+    domain: diamondage3d.com
+  - name: Mighty Buildings
+    ending: Put up for sale
+    start: '2017'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/construction-robotics/s11-01.png
+    ini: M
+    slug: mighty-buildings
+    domain: mightybuildings.com
+  - name: Katerra
+    ending: Went bankrupt
+    start: '2015'
+    end: '2021'
+    causes:
+    - 1
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/construction-robotics/s11-02.png
+    ini: K
+    slug: katerra
+    domain: katerra.com
+  - name: Veev
+    ending: Shut down
+    start: '2008'
+    end: '2023'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/construction-robotics/s11-03.png
+    ini: V
+    slug: veev
+    domain: veev.com
+  - name: Black Buffalo 3D
+    ending: Went bankrupt
+    start: '2020'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/construction-robotics/s11-04.png
+    ini: B
+    slug: black-buffalo-3d
+    domain: bb3d.io
+  note:
+  - We tracked the construction robotics startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why might Dusty Robotics be
+
+    winning construction layout?'
+  companies:
+  - short: Dusty
+    src: ../../assets/logos/pp_live/construction-robotics/s12-00.png
+  - short: HP SitePrint
+    src: ../../assets/logos/pp_live/construction-robotics/s12-01.png
+  - short: TinyMobile
+    src: ../../assets/logos/pp_live/construction-robotics/s12-02.png
+  - short: Civ Robotics
+    src: ../../assets/logos/pp_live/construction-robotics/s12-03.png
+  - short: LightYX
+    src: ../../assets/logos/pp_live/construction-robotics/s12-04.png
+  criteria:
+  - name: 100M+ sq ft printed
+    why: Most field proven layouts
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Prints QR codes on slab
+    why: Links floor to digital plan
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Raised $50M+ in VC
+    why: Cash to scale fleet and team
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Prints full indoor layout
+    why: Replaces manual chalk lines
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Global brand distribution
+    why: Sold through a big network
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Outdoor site marking
+    why: Works on open earth sites
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+  - name: Works from BIM or CAD
+    why: No manual measuring
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in construction robotics?'
+  TL:
+    name: Caterpillar
+    src: ../../assets/logos/pp_live/construction-robotics/s01-00.png
+    text: runs autonomous haul trucks in mines and quarries, but its machines on building sites are still driven by operators
+  TR:
+    name: Autodesk
+    src: ../../assets/logos/pp_live/construction-robotics/s01-01.png
+    text: makes the design software most buildings start in, but it stays on the screen and never does any work on the job site
+  BL:
+    name: Trimble
+    src: ../../assets/logos/pp_live/construction-robotics/s01-09.png
+    text: guides excavators and survey crews with its machine control, yet 68% Gene eee from subscriptions and services
+  BR:
+    name: Hilti
+    src: ../../assets/logos/pp_live/construction-robotics/s01-10.png
+    text: sells Jaibot, a robot that drills as . SELLING) Moles Uikelan tin NG Gates, Lees is a power tool maker serving human crews
+  caption:
+  - Distance to the center reflects how much of the physical building work a robot does on its own, rather than a person
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/construction-robotics/s01-02.png
+  - ../../assets/logos/pp_live/construction-robotics/s01-03.png
+  - ../../assets/logos/pp_live/construction-robotics/s01-04.png
+  - ../../assets/logos/pp_live/construction-robotics/s01-05.png
+  - ../../assets/logos/pp_live/construction-robotics/s01-06.png
+  - ../../assets/logos/pp_live/construction-robotics/s01-07.png
+  - ../../assets/logos/pp_live/construction-robotics/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/construction-robotics/s01-02.png
+    x: 432.2
+    y: 288.6
+  - src: ../../assets/logos/pp_live/construction-robotics/s01-03.png
+    x: 518.8
+    y: 319.5
+  - src: ../../assets/logos/pp_live/construction-robotics/s01-04.png
+    x: 462.6
+    y: 356.8
+  - src: ../../assets/logos/pp_live/construction-robotics/s01-05.png
+    x: 402.2
+    y: 384.2
+  - src: ../../assets/logos/pp_live/construction-robotics/s01-06.png
+    x: 515.6
+    y: 390.0
+  - src: ../../assets/logos/pp_live/construction-robotics/s01-07.png
+    x: 460.9
+    y: 417.2
+  - src: ../../assets/logos/pp_live/construction-robotics/s01-08.png
+    x: 521.1
+    y: 452.8
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'How much bigger can
+
+    predictive maintenance get?'
+  date: ''
+  expl: $99B $77B
+  term: construction robotics
+  note:
+  - We compared forecasts from Grand View Research, Fortune Business Insights and Mordor Intelligence
+  - We adjusted each one to our market definition, and all the sources are included at the end of the report
+  csv: assets/trends/construction-robotics/construction-robotics.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger
+
+    can this market get?'
+  lead: ''
+  condition: To get that big, operator-free earthmoving must become normal on large civil, solar, and data center sites, and equipment makers must sell
+    or rent startup kits. Trade robots must also move from fleets of a hundred to fleets of thousands without a serious accident.
+  note:
+  - We compared forecasts from Grand View, Lucintel, Research and Markets and MRFR to build a realistic range
+  - We adjusted them to our scope and allowed for slow fleet growth, with all the sources at the end of the report
+  size: 1.77
+  cagr: 24
+  y0: 2026

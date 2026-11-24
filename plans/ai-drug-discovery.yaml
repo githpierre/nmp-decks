@@ -1,0 +1,122 @@
+# Spec of the research prompts for the AI in drug discovery deck (tools/make_market_prompts.py). Method v2.
+# Pierre 20 Nov 2026: pain segments option A (types of buyer + patients), value segments option A (6 segments: the 8 base
+# categories, Phenotypic merged into Target discovery and Lead Optimization into Molecule design). Base as of 13 Nov 2026.
+# Trends term: AI drug discovery (Pierre tried 7 terms; the « cure cancer » ones are at 0 most weeks, AlphaFold is a product
+# name, « drug discovery AI » gives the same series).
+name: AI in drug discovery
+handle: ai-drug-discovery
+uuid: 45
+date: '2026-11-20'
+today: 20 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, HALEU
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and SEC or exchange filings (Isomorphic Labs, Xaira, Insilico Medicine, Recursion, Iambic, Generate:Biomedicines, Chai Discovery, Eikon, Enveda, Pathos AI, Schrödinger,
+  Absci, XtalPi, insitro, Genesis Therapeutics, Terray), pharma partner releases (Eli Lilly, Novartis, Sanofi, AstraZeneca, Bristol Myers Squibb, Merck, Johnson & Johnson, Takeda), ClinicalTrials.gov,
+  FDA and EMA documents (FDA AI guidance, animal-testing phase-out), peer-reviewed papers (Nature, Science, Nature Biotechnology, Drug Discovery Today, the BCG and Wellcome studies of AI-discovered
+  molecules in trials), Nobel committee documents, market research firms with a named method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, STAT News, Endpoints,
+  Fierce Biotech, BioPharma Dive, TechCrunch, Nature news).
+# where the problem is felt (types of buyer, and patients for the companies that develop their own drugs): option A (Pierre, 20 Nov 2026)
+pain_segments:
+- Big pharma R&D teams
+- Mid-size pharma and biotechs
+- Early-stage biotechs
+- Patients with no good drug
+# types of solution: option A (Pierre, 20 Nov 2026), short names without « AI » (every segment is AI)
+#   Target discovery = AI Target & Causal Biology Discovery + AI Phenotypic & Functional Screening
+#   Molecule design = Generative Small-Molecule Design + AI Lead Optimization & Medicinal Chemistry
+#   Hit finding = AI Hit Discovery & Lead Generation | Protein design = AI Therapeutic Biologics / Protein Design
+#   Safety testing = Preclinical Predictive AI & Autonomous DMTA | Drug repurposing = AI Repurposing / Indication Selection
+value_segments:
+- Target discovery
+- Molecule design
+- Hit finding
+- Protein design
+- Safety testing
+- Drug repurposing
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/ai-drug-discovery (same slide type as the deck twin). No donut
+# on the live S03. S11 live is a warning-signs grid: ed199p comes from the research and is checked against it.
+live_twins:
+- ed039p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which AI-designed drugs are being tested in people today?
+    brief: 8 rows = 8 real clinical programs of AI drug discovery companies, whose molecule or target came from the company's AI platform. Rows read "drug or program" + "COMPANY · DISEASE" + stage (PHASE 1
+      / PHASE 2 / PHASE 3). Only programs listed on ClinicalTrials.gov, in a filing or in a company release. Not a preclinical program.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between AI drug discovery companies and large groups (pharma discovery partnerships with upfront and milestone amounts, licensing of AI-designed molecules, acquisitions or
+      mergers such as Recursion and Exscientia, large strategic investments, IPOs), newest first, with the upfront amount and the total "up to" amount when public.
+  iv_fda:
+    title: What does it take to turn an AI design into a drug?
+    brief: 5 steps from an AI prediction to an approved medicine (for example choosing a target, designing and making the molecule, lab and animal tests, phase 1 safety in people, phase 2 and 3 efficacy
+      and approval by the FDA or EMA). Each step in plain words with who decides and a typical duration, and where AI saves time or not.
+  iv_safety:
+    title: What could go wrong for AI drug discovery?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example AI-designed drugs that failed in phase 2, pharma partnerships ended, cash running out before
+      clinical data, open models such as AlphaFold 3 or Boltz making a platform less special, data quality and access). Real filings, reports or reported cases only.
+extra:
+  ed061: 'For AI in drug discovery: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines, one-line
+    description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: AI-designed drugs reaching phase 2 and phase 3 (Insilico rentosertib, Iambic, Recursion, Schrödinger), funding records (Isomorphic Labs, Xaira, Chai Discovery, Pathos AI, Eikon, Enveda),
+  pharma deals with upfront and milestone amounts (Eli Lilly, Novartis, Sanofi, AstraZeneca, Bristol Myers Squibb with Isomorphic, Generate, Chai, Iambic), the 2024 Nobel Prize for AlphaFold and protein
+  design, open models (AlphaFold 3, Boltz, OpenFold), Nvidia and Lilly AI supercomputers and labs, FDA moves (AI guidance, phasing out animal tests), the number of AI-discovered molecules in clinical trials
+  each year, IPOs and share prices (Insilico Hong Kong IPO, Recursion, Absci, Schrödinger), Google searches for AI drug discovery.
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, failed or stopped clinical trials, pharma partners that walked away, layoffs,
+  mergers forced by cash needs, valuations or share prices that fell, programs cut. Scope: companies whose core product is AI drug discovery (target discovery, molecule and protein design, AI screening,
+  repurposing, preclinical prediction), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2023 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}. Dates as YYYY
+  (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, lost independence, CEO left, value fell, drug or trial cut). Each cell is two short lines
+  separated by | or empty. Give the website domain of each company.
+
+  - ed200: why AI drug discovery startups fail.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: AI in drug discovery
+label: AI in drug discovery
+keep_together:
+- AI in drug discovery
+- AI drug discovery
+- drug discovery
+examples:
+  jargon_bad: Equivariant diffusion models for structure-based de novo design against cryptic allosteric pockets.
+  jargon_good: AI that draws new molecules shaped to fit a hidden pocket on a disease protein.
+  jargon_why: the reader is not a chemist
+  proof_rule: 'A partnership "worth up to" a big amount, a computer prediction or a mouse result is not proof that AI makes better drugs: say whether a molecule reached human trials, its phase and result,
+    the upfront amount actually paid, and who reported it.'
+  proof_bad: Company X signed a $3B deal with a big pharma.
+  proof_good: Company X got $45M upfront from a big pharma, with up to $3B more if drugs hit milestones, and its first molecule entered phase 1 in 2026.
+  proof_why: the « up to » amount is mostly never paid
+  fresh_bad: Company X raised $200M in 2024
+  fresh_good: Company X raised $600M in March 2026, its biggest round, two years after a $200M round
+  fresh_est: Company X should have three molecules in phase 2 by the end of 2026, against one in 2025
+  fresh_method: latest company releases, ClinicalTrials.gov and filings, press reports as a cross-check
+  not_proof: an « up to » deal value is not money paid
+trends_csv: assets/trends/ai-drug-discovery/ai-drug-discovery.csv

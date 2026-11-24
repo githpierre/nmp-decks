@@ -1,0 +1,41 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do neurotech companies
+
+      really make their money?'
+    axes:
+    - Consumers pay
+    - Insurers and clinics pay
+    - Works from
+    - outside
+    - Implanted
+    - inside
+    groups:
+    - name: Brain sensing headbands
+      x: 0.14
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/neurotech/s06-03.png
+    - name: EEG kits for researchers
+      x: 0.48
+      y: 0.3
+      logos:
+      - src: ../../assets/logos/pp_live/neurotech/s06-02.png
+    - name: TMS machines for clinics
+      x: 0.84
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/neurotech/s06-04.png
+    - name: Brain implants via insurers
+      x: 0.82
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/neurotech/s06-00.png
+      - src: ../../assets/logos/pp_live/neurotech/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

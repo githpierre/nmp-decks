@@ -1,0 +1,91 @@
+# Research import re, jsonport
+
+161 answers parsed, 0 YAML errors, 87 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed008**: no sources
+- **ed009**: no sources
+- **ed010**: no sources
+- **ed011**: length 24: 17 vs 25; length 28: 13 vs 24; no sources
+- **ed012**: status no_data: lease and colocation offers are private and change too often to group them reliably without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: lease prices per megawatt move every quarter, left for the research chapters
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: no sources
+- **ed016**: length 9: 47 vs 37; no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed032**: length 13: 51 vs 39
+- **ed047p**: status no_data: No verified 2026 revenue split exists across the seven specified company categories. Operator revenue is private or blends facility rent with GP
+- **ed047p**: dropped: no data
+- **ed048**: length 10: 28 vs 21
+- **ed054**: no sources
+- **ed055**: length 7: 101 vs 65; length 10: 93 vs 58; length 13: 98 vs 67; length 16: 101 vs 67; length 19: 106 vs 59; length 22: 88 vs 60; no sources
+- **ed056**: length 20: 32 vs 25; length 29: 30 vs 23; no sources
+- **ed057**: length 27: 34 vs 26; length 35: 33 vs 25; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 14: 10 vs 20; length 17: 14 vs 21; no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 14: 14 vs 20; length 17: 12 vs 21; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 14: 13 vs 20; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 17: 12 vs 21; no sources
+- **ed064-s4**: length 15: 48 vs 65; no sources
+- **ed065-s4**: no sources
+- **ed095**: length 30: 78 vs 60
+- **iv_pipeline**: length 8: 54 vs 73
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 12: 11 vs 20; length 15: 88 vs 63; no sources
+- **ed104**: length 9: 13 vs 22; length 7: 93 vs 63; length 10: 87 vs 52; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: length 8: 10 vs 20; no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: length 8: 10 vs 20; no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 37 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: length 8: 12 vs 20; no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 9: 28 vs 41; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: length 8: 10 vs 20; no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 8: 36 vs 26; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: length 8: 10 vs 20; no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 8: 35 vs 26; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: length 8: 10 vs 20; no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: no sources
+- **ed136**: length 13: 65 vs 45
+- **ed143**: length 22: 16 vs 22
+- **ed144**: length 14: 12 vs 21; length 10: 13 vs 20
+- **ed145**: length 31: 16 vs 22
+- **ed172**: length 7: 45 vs 61
+- **ed182**: length 20: 106 vs 80
+- **ed186**: length 12: 58 vs 81
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

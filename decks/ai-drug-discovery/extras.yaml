@@ -1,0 +1,554 @@
+- after: ed104
+  link: ed104 card « Keeping the rights to AI-made molecules instead of selling the work for a fee »
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do AI drug discovery
+
+      firms actually make money?'
+    axes:
+    - Paid upfront
+    - Paid if drugs work
+    - Sells to
+    - pharma
+    - Develops
+    - own drugs
+    groups:
+    - name: Software licenses
+      x: 0.15
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/ai-drug-discovery/s06-03.png
+      - src: ../../assets/logos/pp_live/ai-drug-discovery/s06-04.png
+    - name: Paid discovery services
+      x: 0.4
+      y: 0.55
+      logos:
+      - src: ../../assets/logos/pp_live/ai-drug-discovery/s06-02.png
+    - name: Pharma deals with milestones
+      x: 0.78
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/ai-drug-discovery/s06-05.png
+      - src: ../../assets/logos/pp_live/ai-drug-discovery/s06-06.png
+    - name: Own drugs sold or licensed
+      x: 0.84
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/ai-drug-discovery/s06-00.png
+      - src: ../../assets/logos/pp_live/ai-drug-discovery/s06-01.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xd_iso
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Isomorphic Labs raised $5B in one round,
+
+      8 times its first round of 2025'
+    t:
+      9: $600M
+      10: Mar 2025
+      12: $5B
+      13: Nov 2026
+      15: ×8.3
+      16: WHY IT IS HOT
+      17: 'Investors now write the largest checks of the field: Isomorphic Labs, the AI drug company spun out of Google DeepMind, raised $5B in November 2026.
+
+
+        Its first outside round, in March 2025, was $600M. Alphabet invested in both rounds.'
+    vbars:
+    - 0.6
+    - 5.0
+    note: We compared the two rounds announced by Isomorphic Labs, its first external round of March 31, 2025 and its Series C of November 17, 2026
+    fresh:
+      period: month
+      end: 2026-11
+  sources:
+  - claim: Isomorphic Labs $5B Series C
+    url: https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round
+    date: '2026-11-17'
+    quote: Isomorphic Labs announces it has raised $5 Billion in Series C funding.
+  - claim: Isomorphic Labs $600M first external round
+    url: https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-600m-external-investment-round
+    date: '2025-03-31'
+    quote: Isomorphic Labs announces it has raised $600 Million in its first external funding round.
+- after: xd_iso
+  link: ed032, signal 2 of the list
+  slide:
+    id: xd_insilico
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Insilico’s first-half sales grew
+
+      3.9 times in a year, to $106M'
+    t:
+      9: $27.5M
+      10: H1 2025
+      12: $106M
+      13: H1 2026
+      15: ×3.9
+      16: WHY IT IS HOT
+      17: 'Drugmakers now pay real cash for AI-made drugs: Insilico Medicine booked $106M of sales in the first half of 2026, against $27.5M a year earlier.
+
+
+        Most of it came from upfront payments on pharma deals, so it will not repeat every half-year.'
+    vbars:
+    - 27.5
+    - 106.3
+    note: We compared Insilico Medicine’s sales for the first halves of 2025 and 2026, from its investor deck of October 2026
+    fresh:
+      period: half
+      end: 2026-06
+  sources:
+  - claim: Insilico H1 2025 revenue $27.5M
+    url: https://ir.insilico.com/media/lsogxltb/ism_2026-corporate-deck_en_2026-oct-wo-appendix.pdf
+    date: '2026-10-01'
+    quote: '2025H1: 27.5 million USD'
+  - claim: Insilico H1 2026 revenue $106.3M
+    url: https://ir.insilico.com/media/lsogxltb/ism_2026-corporate-deck_en_2026-oct-wo-appendix.pdf
+    date: '2026-10-01'
+    quote: '2026H1: 106.3 million USD'
+  - claim: Growth driven by upfront payments
+    url: https://insilico.com/news/s11n46hx31-commercialization-roadmap-validated-with?amp=true
+    date: '2026-09-01'
+    quote: This was primarily driven by large-amount upfront payments from a series of key business development (BD) deals
+- after: xd_insilico
+  link: ed032, signal 3 of the list
+  slide:
+    id: xd_upfront
+    type: sx_league
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Six drugmakers agreed to pay AI firms
+
+      $367M up front in seven months'
+    big: $367M
+    h0: AI FIRM AND DRUGMAKER
+    h1: RANK
+    h2: UP FRONT
+    kicker: WHY IT IS HOT
+    rows:
+    - n: 1
+      name: Insilico + Lilly
+      src: ../../assets/logos/insilico-medicine.png
+      v: $115M
+      what: R&D deal worth up to about $2.8B, March
+    - n: 2
+      name: Genesis + Incyte
+      src: ../../assets/logos/genesis-molecular-ai--symbol.png
+      v: $80M
+      what: Wider AI design deal, plus a $40M stake, May
+    - n: 3
+      name: Earendil + Genentech
+      src: ../../assets/logos/earendil-labs.png
+      v: $55M
+      what: Two-target antibodies for cancer, September
+    - n: 4
+      name: Iambic + AbbVie
+      src: ../../assets/logos/iambic-therapeutics.png
+      v: $47M
+      what: Deal of September, cash received in October
+    - n: 5
+      name: insitro + AstraZeneca
+      src: ../../assets/logos/insitro.png
+      v: $40M
+      what: Targets for liver and heart diseases, October
+    - n: 6
+      name: Generate + Zealand
+      src: ../../assets/logos/generate-biomedicines--symbol.png
+      v: $30M
+      what: Protein drugs for metabolic diseases, October
+    story: Drugmakers now pay AI firms cash before any drug exists, a sign of a hot market. Only the fixed upfront cash is counted here, the milestones in the headlines are far larger and depend on results.
+    note:
+    - We added up six upfront cash payments announced from March to October 2026,
+    - without equity stakes and without the milestones that depend on results
+    fresh:
+      period: month
+      end: 2026-10
+  sources:
+  - claim: Lilly and Insilico $115M upfront
+    url: https://insilico.com/news/uiy12zcjg1-insilico-medicine-announces-global-rampd?amp=true
+    date: '2026-03-29'
+    quote: Insilico is eligible to receive an $115 million upfront payment
+  - claim: Incyte $80M cash, $40M separate equity
+    url: https://investor.incyte.com/news-releases/news-release-details/incyte-and-genesis-expand-molecular-ai-collaboration-accelerate
+    date: '2026-05-20'
+    quote: which includes an $80 million upfront cash payment and a $40 million purchase of equity in Genesis.
+  - claim: Genentech $55M upfront to Earendil
+    url: https://www.prnewswire.com/news-releases/earendil-labs-announces-research-collaboration-with-genentech-to-discover-and-develop-therapeutic-bispecific-antibodies-in-oncology-302888622.html
+    date: '2026-09-24'
+    quote: Earendil Labs will receive a $55 million upfront payment
+  - claim: AbbVie $47M cash received October
+    url: https://ir.iambic.ai/news-releases/news-release-details/iambic-provides-business-updates-and-third-quarter-2026
+    date: '2026-11-16'
+    quote: and $47 million of AbbVie upfront payments, both received in October 2026.
+  - claim: AstraZeneca $40M upfront to insitro
+    url: https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-for-difficult-to-treat-cardiometabolic-diseases.html
+    date: '2026-10-15'
+    quote: Under the terms of the agreement, insitro will receive an upfront payment of $40 million
+  - claim: Zealand $30M upfront to Generate
+    url: https://generatebiomedicines.com/news-releases/generate-biomedicines-and-zealand-pharma-enter-collaboration-and-license-agreement-to-develop-protein-therapeutics-engineered-with-ai-for-metabolic-diseases/
+    date: '2026-10-13'
+    quote: Generate will receive $30 million upfront and up to $35 million in early preclinical milestones
+- after: xd_upfront
+  link: ed032, signal 4 of the list
+  slide:
+    id: xd_chai
+    type: sx_round_timeline
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Chai Discovery signed six big
+
+      drugmakers in five months'
+    legend: false
+    t0: 5.8
+    t1: 11.4
+    amax: 1
+    ticks:
+    - {t: 6, l: Jun}
+    - {t: 7, l: Jul}
+    - {t: 8, l: Aug}
+    - {t: 9, l: Sep}
+    - {t: 10, l: Oct}
+    - {t: 11, l: Nov}
+    pts:
+    - {t: 6.13, a: 0, cy: 146, col: '#FB0161', lab: Pfizer}
+    - {t: 7.42, a: 0, cy: 146, col: '#FB0161', lab: Novartis}
+    - {t: 7.48, a: 0, cy: 146, col: '#FB0161', lab: argenx}
+    - {t: 8.65, a: 0, cy: 146, col: '#FB0161', lab: Bristol Myers}
+    - {t: 10.29, a: 0, cy: 146, col: '#FB0161', lab: GSK}
+    - {t: 11.16, a: 0, cy: 146, col: '#FB0161', lab: Roche}
+    story: From June to November 2026, six drugmakers signed with Chai Discovery to design antibodies with its AI. Many buyers for one tool is a sign of a hot market. Amounts were not disclosed.
+    note:
+    - We counted the first agreement of each drugmaker announced by Chai Discovery
+    - from June 4 to November 5, 2026, one dot per agreement, not a dollar amount
+    fresh:
+      period: month
+      end: 2026-11
+  sources:
+  - claim: Chai and Pfizer, June 4
+    url: https://www.businesswire.com/news/home/20260602498831/en/Chai-Discovery-Announces-License-Agreement-with-Pfizer-to-Accelerate-Drug-Discovery-with-AI
+    date: '2026-06-04'
+    quote: today announced a license agreement with leading biopharmaceutical company Pfizer.
+  - claim: Chai and Novartis, July 13
+    url: https://www.chaidiscovery.com/news/novartis-partnership
+    date: '2026-07-13'
+    quote: Novartis will gain access to Chai Discovery’s AI design models and platform
+  - claim: Chai and argenx, July 15
+    url: https://www.chaidiscovery.com/news/argenx-partnership
+    date: '2026-07-15'
+    quote: argenx get access to Chai’s AI platform and apply de novo antibody discovery
+  - claim: Chai and Bristol Myers Squibb, August 20
+    url: https://www.chaidiscovery.com/news/bms-partnership
+    date: '2026-08-20'
+    quote: Bristol Myers Squibb is the latest biopharmaceutical company to collaborate with Chai Discovery.
+  - claim: Chai and GSK, October 9
+    url: https://www.chaidiscovery.com/news/gsk-partnership
+    date: '2026-10-09'
+    quote: GSK is excited to be working with Chai Discovery
+  - claim: Chai and Roche, November 5
+    url: https://www.chaidiscovery.com/news/roche-partnership
+    date: '2026-11-05'
+    quote: We look forward to collaborating to advance drug discovery programs.
+- after: xd_chai
+  link: ed032, signal 5 of the list
+  slide:
+    id: xd_iambic
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Iambic billed $100M to its partners
+
+      in the first nine months of 2026'
+    items:
+    - value: $100M
+      label: Billed to drugmaker partners from January to September 2026, before it becomes revenue
+    - value: '8'
+      label: Partnerships signed since 2024, in technology, drug discovery and clinical development
+    - value: $11.4M
+      label: Partner revenue booked in the quarter to September 30, 2026, under US accounting rules
+    why: This is a sign of a hot market because drugmakers pay a young AI drug company for real work, not just deal headlines. Billings are cash invoiced, which turns into revenue over time.
+    note: We used Iambic’s results of November 16, 2026, where billings of $99.8M are rounded to $100M
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: Eight partnerships since 2024
+    url: https://ir.iambic.ai/news-releases/news-release-details/iambic-provides-business-updates-and-third-quarter-2026
+    date: '2026-11-16'
+    quote: Since 2024, Iambic has entered eight partnerships across technology, discovery and clinical development.
+  - claim: Nine-month billings $99.8M
+    url: https://ir.iambic.ai/news-releases/news-release-details/iambic-provides-business-updates-and-third-quarter-2026
+    date: '2026-11-16'
+    quote: Billings from collaborations | $ | 53,859 | $ | 1,654 | $ | 99,789 | $ | 18,997
+  - claim: Q3 collaboration revenue $11.4M
+    url: https://ir.iambic.ai/news-releases/news-release-details/iambic-provides-business-updates-and-third-quarter-2026
+    date: '2026-11-16'
+    quote: Collaboration revenue | $ | 11,351 | $ | 4,692 | $ | 24,105 | $ | 8,621
+- after: xd_iambic
+  link: ed032, signal 6 of the list
+  slide:
+    id: xd_race
+    type: sx_faceoff
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Generate reached Phase 3 in 89 months,
+
+      Insilico took 151 months'
+    cards:
+    - name: INSILICO
+      stats:
+      - v: '151'
+        l: months from its founding to its first Phase 3 patient
+      - v: Sep 2026
+        l: first patient dosed, founded in February 2014
+    - name: GENERATE
+      hl: true
+      stats:
+      - v: '89'
+        l: months from its founding to its first Phase 3 patient
+      - v: Jan 2026
+        l: first patient dosed, founded in August 2018
+    story: Younger AI drug companies now reach the last stage of human trials faster, a sign of a hot market. These are two different drugs, so this compares speed, not the odds that either works.
+    note:
+    - We counted whole months from each company’s founding to the first patient dosed in its
+    - first Phase 3 trial, using Generate’s IPO filings and Insilico’s own press releases
+    fresh:
+      period: month
+      end: 2026-09
+  sources:
+  - claim: Generate incorporated August 20, 2018
+    url: https://www.sec.gov/Archives/edgar/data/2100782/000119312526085780/ck0002100782-ex3_1.htm
+    date: '2026-03-02'
+    quote: original Certificate of Incorporation with the Secretary of State of the State of Delaware was August 20, 2018
+  - claim: Generate first Phase 3 dose January 26, 2026
+    url: https://www.sec.gov/Archives/edgar/data/2100782/000119312526083190/generate_bio_424b4.htm
+    date: '2026-02-27'
+    quote: The first patient was dosed in our SOLAIRIA-1 Phase 3 clinical trial on January 26, 2026.
+  - claim: Insilico established February 10, 2014
+    url: https://ir.insilico.com/media/rgwjwpqu/global-offering-en.pdf
+    date: '2025-12-30'
+    quote: a corporation established in Delaware, the United States, on February 10, 2014.
+  - claim: Insilico first Phase 3 dose September 2026
+    url: https://insilico.com/news/isn1009261-insilico-medicine-doses-first-patient-genesis-ipf-3
+    date: '2026-09-10'
+    quote: today announced that it has dosed the first patient with Rentosertib
+- after: ed132
+  link: ed132 card « Training data favor well-studied biology, so new targets can be hard to judge »
+  slide:
+    id: xd_novel
+    type: share_waffle
+    section: Market challenges
+    title: 'Only 37% of the AI-made drugs tested
+
+      in people aim at a new disease cause'
+    'on': New disease cause
+    'off': Known target
+    unit: drugs
+    years:
+    - {x: MARCH 2026, k: 48, n: 129, p: 37}
+    big: 48 of 129
+    kicker: WHAT IS GOING ON
+    story: 'AI is often sold as a way to find new causes of disease. Yet most AI-made drugs in human trials hit targets that biologists already knew.
+
+      New targets are harder to judge, because there is little data on them to train the models.'
+    note:
+    - We used a peer-reviewed count of 129 AI-made drugs from 69 companies tested in people
+    - up to March 1, 2026, which sorted each drug by whether its target was new or already known
+  sources:
+  - claim: 48 of 129 assets (37.2%) target novel biology
+    url: https://pubmed.ncbi.nlm.nih.gov/42874241/
+    date: '2026-10-08'
+    quote: Forty-eight assets (37.2%) were classified as targeting a novel biological target.
+- after: ed133
+  link: ed133 card « TODAY AI-discovered drugs have reached phase 3, but clinical benefit and repeatable discovery economics remain unproven »
+  slide:
+    id: xd_funnel
+    type: sx_split_compare
+    section: Market challenges
+    title: 'Only 5 of the 129 AI-made drugs tested
+
+      in people have reached Phase 3'
+    chart_w: 400
+    groups:
+    - name: Reached the stage
+      col: '#789096'
+    - name: Phase 3
+      col: '#FB0161'
+    - name: Not there
+      col: '#1C4A60'
+      hide: true
+    rows:
+    - name: Entered a human trial
+      total: 129 drugs
+      v: [100, 0, 0]
+    - name: Completed Phase 1
+      total: 72 drugs
+      v: [56, 0, 44]
+    - name: Completed Phase 2
+      total: 24 drugs
+      v: [19, 0, 81]
+    - name: Entered or completed Phase 3
+      total: 5 drugs
+      v: [0, 4, 96]
+    big: 5 of 129
+    kicker: WHAT IS GOING ON
+    story: 'AI helps pick and design drugs faster, but most AI-made drugs are still in early trials.
+
+      With so few late-stage results, nobody can prove yet that AI raises the odds of approval.'
+    note:
+    - We used a peer-reviewed count of 129 AI-made drugs from 69 companies, tested in
+    - people up to March 1, 2026. It shows where each drug is, not a success rate
+  sources:
+  - claim: 129 assets across 69 companies
+    url: https://pubmed.ncbi.nlm.nih.gov/42874241/
+    date: '2026-10-08'
+    quote: We identified 129 AI-enabled therapeutic assets across 69 companies.
+  - claim: Phase 1, Phase 2 and Phase 3 counts
+    url: https://pubmed.ncbi.nlm.nih.gov/42874241/
+    date: '2026-10-08'
+    quote: 72 (55.8%) had completed Phase 1 and 24 (18.9%) had completed Phase 2; only five had entered or completed Phase 3.
+- after: pp_s06
+  link: pp_s06, the two ways to make money (own drugs or paid work for drugmakers)
+  slide:
+    id: xd_multiple
+    type: sx_league
+    section: Value creation
+    title: 'Investors pay 63.5 times sales for Generate,
+
+      and 7.4 times for Schrödinger'
+    big: 8.6x
+    h0: LISTED COMPANY
+    h1: RANK
+    h2: x SALES
+    kicker: WHAT IT SHOWS
+    rows:
+    - n: 1
+      name: Generate
+      src: ../../assets/logos/generate-biomedicines--symbol.png
+      v: 63.5x
+      what: Designs protein drugs, one of them in Phase 3
+    - n: 2
+      name: Iambic
+      src: ../../assets/logos/iambic-therapeutics.png
+      v: 37x
+      what: Designs small-molecule drugs, works for pharma
+    - n: 3
+      name: Recursion
+      src: ../../assets/logos/recursion-pharmaceuticals.png
+      v: 24.9x
+      what: Maps biology with AI, own drugs and partners
+    - n: 4
+      name: Schrödinger
+      src: ../../assets/logos/schrodinger.png
+      v: 7.4x
+      what: Sells drug design software, also designs drugs
+    story: Investors pay far more for each dollar of sales when a company owns its AI-made drugs than when it sells software. They are betting on future drugs, as today’s sales are small and partly one-off payments.
+    note:
+    - We divided market value by the sales of the last twelve months, at the US market close
+    - of November 19, 2026, using Stock Analysis data from S&P Global Market Intelligence
+  sources:
+  - claim: Generate price-to-sales 63.54
+    url: https://stockanalysis.com/stocks/genb/statistics/
+    date: '2026-11-20'
+    quote: PS Ratio | 63.54
+  - claim: Iambic price-to-sales 37.04
+    url: https://stockanalysis.com/stocks/iam/statistics/
+    date: '2026-11-20'
+    quote: PS Ratio | 37.04
+  - claim: Recursion price-to-sales 24.85
+    url: https://stockanalysis.com/stocks/rxrx/statistics/
+    date: '2026-11-20'
+    quote: PS Ratio | 24.85
+  - claim: Schrödinger price-to-sales 7.35
+    url: https://stockanalysis.com/stocks/sdgr/statistics/
+    date: '2026-11-20'
+    quote: PS Ratio | 7.35
+- after: ed195
+  link: ed195 events « Recursion cut 20% of staff… » and « Recursion said it would seek outside partners… »
+  slide:
+    id: xd_fallen
+    type: x/sig_dominance
+    section: Startup killers
+    title: 'Recursion’s share price fell 93%
+
+      from its 2021 peak, to $2.72'
+    t:
+      8: $41.3
+      9: 'Peak close,
+
+        Jul 13, 2021'
+      11: $2.72
+      12: 'Close on
+
+        Nov 19, 2026'
+      15: −93%
+      16: WHAT IS GOING ON
+      17: 'Recursion was the best-known listed AI drug discovery company. Its shares closed at $41.33 in July 2021, three months after its IPO.
+
+
+        On November 19, 2026 they closed at $2.72. In 2025 it cut 20% of its staff and set drug programs aside to save cash, and in October 2026 it looked for partners to fund two of its drugs.'
+    vbars:
+    - 41.33
+    - 2.72
+    note: We compared Recursion’s highest daily close with its close of November 19, 2026, both adjusted for splits. The company is still running
+  sources:
+  - claim: Recursion highest close $41.33 on 2021-07-13
+    url: https://companiesmarketcap.com/recursion-pharmaceuticals/stock-price-history/
+    date: '2026-11-20'
+    quote: 'Highest end of day price: $41.33 USD (United States Dollar) on 2021-07-13'
+  - claim: Recursion close $2.72 on November 19, 2026
+    url: https://stockanalysis.com/stocks/rxrx/history/
+    date: '2026-11-19'
+    quote: Nov 19, 2026 | 2.86 | 2.96 | 2.66 | 2.72 | 2.72
+- after: ed200
+  link: ed200 card « They fail when research costs drain available cash » (CASH RUNWAY)
+  slide:
+    id: xd_profit
+    type: sx_faceoff
+    section: Startup killers
+    title: 'Recursion lost $6.64 for each $1 of sales,
+
+      Schrödinger lost $0.41'
+    cards:
+    - name: SCHRÖDINGER
+      stats:
+      - v: −$0.41
+        l: operating result for each $1 of sales, Q3 2026
+      - v: $64.5M
+        l: of sales in the quarter, for a $26.1M operating loss
+    - name: RECURSION
+      hl: true
+      stats:
+      - v: −$6.64
+        l: operating result for each $1 of sales, Q3 2026
+      - v: $18.6M
+        l: of sales in the quarter, for a $123M operating loss
+    story: A company that pays for its own drug trials burns cash far faster than one that also sells software. That is how cash can run out before a drug reaches patients.
+    note:
+    - We divided each company’s operating result by its sales for the quarter to September 30,
+    - 2026, from their results. Sales mix differs, so this is not a pure margin comparison
+  sources:
+  - claim: Recursion loss from operations $123.2M
+    url: https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm
+    date: '2026-11-02'
+    quote: Loss from operations | (123,176)
+  - claim: Recursion revenue $18.6M
+    url: https://ir.recursion.com/news-releases/news-release-details/recursion-reports-third-quarter-2026-financial-results-and
+    date: '2026-11-02'
+    quote: Total revenue | 18,552
+  - claim: Schrödinger loss from operations $26.1M
+    url: https://ir.schrodinger.com/press-releases/news-details/2026/Schrdinger-Reports-Third-Quarter-2026-Financial-Results/default.aspx
+    date: '2026-11-04'
+    quote: Loss from operations | (26,129)
+  - claim: Schrödinger revenue $64.5M
+    url: https://ir.schrodinger.com/press-releases/news-details/2026/Schrdinger-Reports-Third-Quarter-2026-Financial-Results/default.aspx
+    date: '2026-11-04'
+    quote: Total revenues | 64,491

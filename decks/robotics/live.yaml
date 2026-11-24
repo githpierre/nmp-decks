@@ -1,0 +1,599 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would robotics
+
+    customers actually pay to solve?'
+  auds:
+  - Car plants
+  - Warehouse operators
+  - Food factories
+  - Small factories
+  - Hospital teams
+  pains:
+  - - They cannot find enough skilled staff to program and fix robots
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 2
+  - - They spend months fitting each robot into an existing line
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They must keep robots safely apart from people working nearby
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 3
+  - - They pay high upfront costs that take years to pay back
+    - - 1
+      - 2
+      - 2
+      - 3
+      - 2
+  - - They see robots struggle with soft, shiny or messy items
+    - - 1
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They struggle to make robots from different vendors work together
+    - - 3
+      - 3
+      - 1
+      - 1
+      - 2
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which robotics maker has the
+
+    most complete tech today?'
+  companies:
+  - name: FANUC
+    src: ../../assets/logos/pp_live/robotics/s05-00.png
+  - name: ABB
+    src: ../../assets/logos/pp_live/robotics/s05-01.png
+  - name: KUKA
+    src: ../../assets/logos/pp_live/robotics/s05-02.png
+  - name: Yaskawa
+    src: ../../assets/logos/pp_live/robotics/s05-03.png
+  - name: UR
+    src: ../../assets/logos/pp_live/robotics/s05-04.png
+  features:
+  - header: Own|AMRs
+    values:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Payload|over 1 t
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Delta|robots
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Paint|robots
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: ROS 2|driver
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+  - header: Own motors|and drives
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: NVIDIA|AI stack
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to robotics?'
+  events:
+  - odds: 50
+    impact: 2
+    text: Tesla Optimus misses production targets again, and investors pull back from humanoid robot funding rounds
+  - odds: 45
+    impact: 3
+    text: Unitree and Chinese makers ship humanoids at scale for under $10,000, crushing US and European startup margins
+  - odds: 35
+    impact: 2
+    text: US tariffs on Chinese motors, sensors and rare earth magnets raise robot hardware costs by 30%
+  - odds: 30
+    impact: 2
+    text: Robot foundation models from Google DeepMind and Nvidia fail to generalize, so pilots stay stuck in demos
+  - odds: 30
+    impact: 1
+    text: More big buyers copy Amazon and build robots in house, closing large warehouse accounts to startups
+  - odds: 25
+    impact: 3
+    text: China restricts rare earth magnet exports again, halting actuator supply for Figure, Agility and Apptronik
+  - odds: 20
+    impact: 1
+    text: High interest rates keep customers leasing instead of buying, stretching robotics startups' cash runways
+  - odds: 15
+    impact: 3
+    text: A humanoid robot injures a worker in a warehouse, prompting OSHA rules that slow deployments
+  note:
+  - We listed the events that could slow robotics down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed robots
+
+    forward, year after year?'
+  events:
+  - year: '1961'
+    text: Unimate joins GM line, factories go robotic
+    impact: 2.5
+  - year: '1969'
+    text: Stanford arm shows computers can run robots
+    impact: 0.5
+  - year: '1973'
+    text: KUKA builds first electric six axis robot
+    impact: 0.5
+  - year: '1980'
+    text: Japan labor shortage sparks a robot boom
+    impact: 1.5
+  - year: '1999'
+    text: Sony Aibo puts robot pets in homes
+    impact: 1
+  - year: '2002'
+    text: Roomba brings robots into ordinary homes
+    impact: 1.5
+  - year: '2008'
+    text: First cobot lets robots work beside people
+    impact: 1.5
+  - year: '2010'
+    text: Kinect gives robots cheap 3D vision
+    impact: 1
+  - year: '2012'
+    text: Amazon buys Kiva, warehouses go robotic
+    impact: 2.5
+  - year: '2012'
+    text: Deep learning gives robots real eyesight
+    impact: 1.5
+  - year: '2013'
+    text: China becomes top factory robot buyer
+    impact: 2
+  - year: '2015'
+    text: Made in China 2025 prioritizes robots
+    impact: 1.5
+  - year: '2015'
+    text: Teradyne buys Universal Robots, cobots spread
+    impact: 1
+  - year: '2017'
+    text: SoftBank buys Boston Dynamics
+    impact: 1
+  - year: '2020'
+    text: Covid makes contactless robots a necessity
+    impact: 1.5
+  - year: '2021'
+    text: Labor shortages push firms to automate
+    impact: 2
+  - year: '2021'
+    text: Tesla unveils Optimus, humanoids get hype
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT shows AI can give robots brains
+    impact: 2
+  - year: '2023'
+    text: Google RT-2 teaches robots from web data
+    impact: 1.5
+  - year: '2023'
+    text: Amazon tests Digit humanoids in warehouses
+    impact: 1
+  - year: '2024'
+    text: BMW tests Figure humanoids in its plant
+    impact: 1
+  - year: '2024'
+    text: Unitree sells a humanoid for $16,000
+    impact: 2
+  - year: '2024'
+    text: Nvidia builds AI models for humanoids
+    impact: 1.5
+  - year: '2024'
+    text: Pi zero model runs many robot bodies
+    impact: 1
+  - year: '2025'
+    text: Beijing funds humanoids and races them
+    impact: 1.5
+  - year: '2025'
+    text: Gemini Robotics brings Google AI into robots
+    impact: 1
+  - year: '2025'
+    text: Figure's $39B value draws money to humanoids
+    impact: 1.5
+  - year: '2025'
+    text: Amazon passes one million warehouse robots
+    impact: 1.5
+  - year: '2026'
+    text: Unitree IPO approval lures robot investors
+    impact: 1.5
+  - year: '2026'
+    text: Tesla starts Optimus production in Fremont
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed robotics forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: robotics
+  title: 'Where did robotics investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of robotics startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the robotics market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/robotics/s10-00.png
+    x: 334.1
+    y: 264.4
+  - src: ../../assets/logos/pp_live/robotics/s10-01.png
+    x: 652.7
+    y: 264.6
+  - src: ../../assets/logos/pp_live/robotics/s10-02.png
+    x: 720.9
+    y: 282.6
+  - src: ../../assets/logos/pp_live/robotics/s10-03.png
+    x: 789.0
+    y: 261.0
+  - src: ../../assets/logos/pp_live/robotics/s10-04.png
+    x: 194.4
+    y: 294.0
+  - src: ../../assets/logos/pp_live/robotics/s10-05.png
+    x: 256.1
+    y: 301.7
+  - src: ../../assets/logos/pp_live/robotics/s10-06.png
+    x: 460.3
+    y: 297.9
+  - src: ../../assets/logos/pp_live/robotics/s10-07.png
+    x: 789.0
+    y: 309.9
+  - src: ../../assets/logos/pp_live/robotics/s10-08.png
+    x: 324.0
+    y: 336.0
+  - src: ../../assets/logos/pp_live/robotics/s10-09.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/robotics/s10-10.png
+    x: 191.6
+    y: 404.1
+  - src: ../../assets/logos/pp_live/robotics/s10-11.png
+    x: 250.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/robotics/s10-12.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/robotics/s10-13.png
+    x: 701.1
+    y: 382.5
+  - src: ../../assets/logos/pp_live/robotics/s10-14.png
+    x: 754.7
+    y: 398.8
+  - src: ../../assets/logos/pp_live/robotics/s10-15.png
+    x: 328.3
+    y: 407.6
+  - src: ../../assets/logos/pp_live/robotics/s10-16.png
+    x: 802.7
+    y: 414.0
+  - src: ../../assets/logos/pp_live/robotics/s10-17.png
+    x: 429.4
+    y: 470.1
+  - src: ../../assets/logos/pp_live/robotics/s10-18.png
+    x: 527.1
+    y: 474.0
+  - src: ../../assets/logos/pp_live/robotics/s10-19.png
+    x: 674.6
+    y: 484.7
+  - src: ../../assets/logos/pp_live/robotics/s10-20.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/robotics/s10-21.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/robotics/s10-22.png
+    x: 339.4
+    y: 507.9
+  - src: ../../assets/logos/pp_live/robotics/s10-23.png
+    x: 456.9
+    y: 518.8
+  - src: ../../assets/logos/pp_live/robotics/s10-24.png
+    x: 582.2
+    y: 510.6
+  cols:
+  - Indoor industrial
+  - Clinical & care
+  - Outdoor & infrastructure
+  rows:
+  - Mobile platforms
+  - ''
+  - Procedure / human-fo
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these robotics
+
+    startups, and how did they end?'
+  causes:
+  - Funding|fell through
+  - Ran out|of cash
+  - Sales|too low
+  - Pivot|failed
+  rows:
+  - name: Rethink
+    ending: Shut down twice
+    start: '2008'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/robotics/s11-00.png
+    ini: R
+    slug: rethink-robotics
+    domain: rethinkrobotics.com
+  - name: Anki
+    ending: Went bankrupt
+    start: '2010'
+    end: '2019'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/robotics/s11-01.png
+    ini: A
+    slug: anki
+    domain: anki.com
+  - name: Embodied
+    ending: Shut down
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/robotics/s11-02.png
+    ini: E
+    slug: embodied
+    domain: embodied.com
+  - name: Attabotics
+    ending: Went bankrupt
+    start: '2016'
+    end: '2025'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/robotics/s11-03.png
+    ini: A
+    slug: attabotics
+    domain: attabotics.com
+  - name: Zume
+    ending: Shut down
+    start: '2015'
+    end: '2023'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/robotics/s11-04.png
+    ini: Z
+    slug: zume
+    domain: zume.com
+  note:
+  - We tracked the robotics startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Unitree winning
+
+    the humanoid volume race?'
+  companies:
+  - short: Unitree
+    src: ../../assets/logos/pp_live/robotics/s12-00.png
+  - short: UBTech
+    src: ../../assets/logos/pp_live/robotics/s12-01.png
+  - short: Figure
+    src: ../../assets/logos/pp_live/robotics/s12-02.png
+  - short: Agility
+    src: ../../assets/logos/pp_live/robotics/s12-03.png
+  - short: Apptronik
+    src: ../../assets/logos/pp_live/robotics/s12-04.png
+  criteria:
+  - name: Humanoid under $6,000
+    why: Opens labs, schools, makers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Profitable today
+    why: Funds growth from sales
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Thousands shipped a year
+    why: Scale lowers unit cost
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Publicly listed
+    why: Capital and public trust
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Valued above $5B
+    why: Money to scale production
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: In house actuators
+    why: Controls cost and supply
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Paid factory pilots
+    why: Proves real work value
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is in the robotics
+
+    market, and what is out?'
+  TL:
+    name: Roborock
+    src: ../../assets/logos/pp_live/robotics/s01-00.png
+    text: sells robots that map rooms and avoid obstacles on their own, but they clean homes, not factories or hospitals
+  TR:
+    name: Automation Anywhere
+    src: ../../assets/logos/pp_live/robotics/s01-01.png
+    text: sells software bots that automate office work, but i they never touch the physical world, so they fall outside
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/robotics/s01-10.png
+    text: sali Fa Zipline flies its own autonomous drones for Walmart and others, but it sells deliveries rather than robots, so it sits on the line
+  BR:
+    name: FANUC
+    src: ../../assets/logos/pp_live/robotics/s01-11.png
+    text: is one of the largest robot makers, yet robots bring in only 44% of its sales, next to CNC controls and machine tools
+  caption:
+  - Distance to the center reflects how central a physical robot that senses, decides and acts at work is to the business
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/robotics/s01-02.png
+  - ../../assets/logos/pp_live/robotics/s01-03.png
+  - ../../assets/logos/pp_live/robotics/s01-04.png
+  - ../../assets/logos/pp_live/robotics/s01-05.png
+  - ../../assets/logos/pp_live/robotics/s01-06.png
+  - ../../assets/logos/pp_live/robotics/s01-07.png
+  - ../../assets/logos/pp_live/robotics/s01-08.png
+  - ../../assets/logos/pp_live/robotics/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/robotics/s01-02.png
+    x: 435.6
+    y: 287.4
+  - src: ../../assets/logos/pp_live/robotics/s01-03.png
+    x: 521.4
+    y: 321.2
+  - src: ../../assets/logos/pp_live/robotics/s01-04.png
+    x: 463.7
+    y: 356.4
+  - src: ../../assets/logos/pp_live/robotics/s01-05.png
+    x: 402.6
+    y: 381.6
+  - src: ../../assets/logos/pp_live/robotics/s01-06.png
+    x: 515.4
+    y: 391.1
+  - src: ../../assets/logos/pp_live/robotics/s01-07.png
+    x: 460.1
+    y: 416.4
+  - src: ../../assets/logos/pp_live/robotics/s01-08.png
+    x: 386.4
+    y: 440.8
+  - src: ../../assets/logos/pp_live/robotics/s01-09.png
+    x: 518.8
+    y: 454.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More people ask how much a robot
+
+    costs, now that preorders are open'
+  date: Over the past year.
+  expl: 'Robots started to look like products you can buy. Unitree showed a humanoid under $6,000, 1X opened preorders for a home robot at $20,000, and
+    Tesla kept promising Optimus. Once robots had a price, the next question was obvious: how much?'
+  term: robotics
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/robotics/robotics.csv
+ed052p:
+  type: pp_cagr
+  title: 'What makes a company part
+
+    of AI revenue cycle tools?'
+  lead: ''
+  condition: MARKET MAP
+  note:
+  - Distance to the center reflects how much of the product automates getting providers paid, rather than care or insurer work
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  size: 85
+  cagr: null
+  y0: null

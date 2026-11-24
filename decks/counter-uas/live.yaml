@@ -1,0 +1,524 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would counter-drone
+
+    customers actually pay to solve?'
+  auds:
+  - Army units
+  - Military bases
+  - Airport operators
+  - Border agencies
+  - Prison services
+  pains:
+  - - They pay a lot to cover a wide area with enough sensors
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 3
+  - - They miss small drones flying low behind trees and hills
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They face false alarms from birds, balloons and kites every day
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They struggle to share drone tracks with other units nearby
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 1
+  - - They must replace sensors as drone designs keep changing
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 1
+  - - They cannot see fiber-optic drones that send out no radio signal
+    - - 3
+      - 2
+      - 1
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which counter-drone player has
+
+    the most complete tech today?'
+  companies:
+  - name: Anduril
+    src: ../../assets/logos/pp_live/counter-uas/s05-00.png
+  - name: D-Fend
+    src: ../../assets/logos/pp_live/counter-uas/s05-01.png
+  - name: DroneShield
+    src: ../../assets/logos/pp_live/counter-uas/s05-02.png
+  - name: Dedrone
+    src: ../../assets/logos/pp_live/counter-uas/s05-03.png
+  - name: Fortem
+    src: ../../assets/logos/pp_live/counter-uas/s05-04.png
+  - name: Epirus
+    src: ../../assets/logos/pp_live/counter-uas/s05-05.png
+  features:
+  - header: RF|jammer
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Interceptor|drones
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Microwave|weapon
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: Cyber|takeover
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Own C2|software
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Own|radar
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Passive RF|sensing
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for counter-drone?'
+  events:
+  - odds: 25
+    impact: 3
+    text: Congress cuts the $75 billion drone and counter-drone request, and stopgap budgets delay payments
+  - odds: 20
+    impact: 3
+    text: RTX, Lockheed and Anduril win the biggest counter-drone programs and buy startups at low prices
+  - odds: 20
+    impact: 2
+    text: Hundreds of interceptor makers, many in Ukraine, start a price war that wipes out margins for startups
+  - odds: 15
+    impact: 1
+    text: Slow FAA and DOJ certification keeps US police and stadiums from buying counter-drone systems for years
+  - odds: 10
+    impact: 2
+    text: A repeat of the El Paso laser airspace closure leads the FAA to curb domestic counter-drone use
+  - odds: 10
+    impact: 3
+    text: Fiber-optic and fully autonomous drones defeat jammers and sensors, making many counter-drone products obsolete
+  - odds: 8
+    impact: 2
+    text: The Ukraine and Middle East wars end and urgent counter-drone orders from armies slow down sharply
+  - odds: 5
+    impact: 2
+    text: China cuts exports of magnets, batteries and chips, halting production lines at Western counter-drone makers
+  note:
+  - We listed the events that could slow counter uas down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed counter-drone
+
+    forward, year after year?'
+  events:
+  - year: '2013'
+    text: Drone lands at Merkel rally, VIPs exposed
+    impact: 0.5
+  - year: '2015'
+    text: Drone crashes on White House lawn
+    impact: 1
+  - year: '2016'
+    text: ISIS turns hobby drones into bombers
+    impact: 1.5
+  - year: '2018'
+    text: Drone attack on Maduro arms assassins
+    impact: 1
+  - year: '2018'
+    text: US law lets agencies down rogue drones
+    impact: 1.5
+  - year: '2018'
+    text: Gatwick drone sightings ground 1,000 flights
+    impact: 2
+  - year: '2019'
+    text: Drones hit Saudi Aramco, cutting oil output
+    impact: 2
+  - year: '2020'
+    text: Pentagon unifies drone defense in one office
+    impact: 1
+  - year: '2020'
+    text: Karabakh drones wreck tanks and air defenses
+    impact: 1.5
+  - year: '2021'
+    text: Drone strikes Iraqi prime minister's home
+    impact: 0.5
+  - year: '2022'
+    text: Ukraine war fills skies with cheap drones
+    impact: 3
+  - year: '2022'
+    text: Shahed swarms demand cheaper ways to kill
+    impact: 2.5
+  - year: '2023'
+    text: Hamas drones blind Israeli border towers
+    impact: 1
+  - year: '2023'
+    text: Houthi drones force $2M missile shots
+    impact: 2
+  - year: '2023'
+    text: Drone swarms circle US base for weeks
+    impact: 1
+  - year: '2024'
+    text: Drone kills three US troops in Jordan
+    impact: 2
+  - year: '2024'
+    text: Iran fires 300 drones and missiles
+    impact: 1.5
+  - year: '2024'
+    text: Fiber optic drones beat jammers
+    impact: 1
+  - year: '2024'
+    text: Pentagon aims Replicator 2 at drone defense
+    impact: 1.5
+  - year: '2024'
+    text: New Jersey drone sightings spark public alarm
+    impact: 1
+  - year: '2025'
+    text: Ukraine drones hit bombers deep in Russia
+    impact: 2
+  - year: '2025'
+    text: Trump order tells agencies to secure airspace
+    impact: 1.5
+  - year: '2025'
+    text: Pentagon task force takes over drone defense
+    impact: 1
+  - year: '2025'
+    text: Russian drones enter Poland, NATO shoots back
+    impact: 2.5
+  - year: '2025'
+    text: Drones shut Copenhagen and Munich airports
+    impact: 2
+  - year: '2025'
+    text: EU plans drone wall on eastern flank
+    impact: 2
+  - year: '2025'
+    text: Ukraine makes 950 interceptor drones a day
+    impact: 1.5
+  - year: '2025'
+    text: Iron Beam laser kills drones for cents
+    impact: 1.5
+  - year: '2026'
+    text: World Cup grants fund city drone defense
+    impact: 1.5
+  - year: '2026'
+    text: Patriot shortage sends Gulf to drone killers
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed counter uas forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: counter-uas
+  title: 'Where did counter-drone investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of counter uas startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies
+
+    in the counter-UAS market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/counter-uas/s10-00.png
+    x: 271.7
+    y: 284.6
+  - src: ../../assets/logos/pp_live/counter-uas/s10-01.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/counter-uas/s10-02.png
+    x: 794.4
+    y: 271.9
+  - src: ../../assets/logos/pp_live/counter-uas/s10-03.png
+    x: 465.6
+    y: 285.0
+  - src: ../../assets/logos/pp_live/counter-uas/s10-04.png
+    x: 268.7
+    y: 373.7
+  - src: ../../assets/logos/pp_live/counter-uas/s10-05.png
+    x: 404.6
+    y: 366.6
+  - src: ../../assets/logos/pp_live/counter-uas/s10-06.png
+    x: 503.1
+    y: 364.7
+  - src: ../../assets/logos/pp_live/counter-uas/s10-07.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/counter-uas/s10-08.png
+    x: 217.9
+    y: 404.6
+  - src: ../../assets/logos/pp_live/counter-uas/s10-09.png
+    x: 706.7
+    y: 382.5
+  - src: ../../assets/logos/pp_live/counter-uas/s10-10.png
+    x: 775.7
+    y: 389.1
+  - src: ../../assets/logos/pp_live/counter-uas/s10-11.png
+    x: 340.3
+    y: 409.7
+  - src: ../../assets/logos/pp_live/counter-uas/s10-12.png
+    x: 453.0
+    y: 409.7
+  - src: ../../assets/logos/pp_live/counter-uas/s10-13.png
+    x: 575.6
+    y: 406.9
+  - src: ../../assets/logos/pp_live/counter-uas/s10-14.png
+    x: 192.4
+    y: 494.1
+  - src: ../../assets/logos/pp_live/counter-uas/s10-15.png
+    x: 420.9
+    y: 468.9
+  - src: ../../assets/logos/pp_live/counter-uas/s10-16.png
+    x: 478.7
+    y: 483.4
+  - src: ../../assets/logos/pp_live/counter-uas/s10-17.png
+    x: 680.6
+    y: 468.0
+  - src: ../../assets/logos/pp_live/counter-uas/s10-18.png
+    x: 249.0
+    y: 504.6
+  - src: ../../assets/logos/pp_live/counter-uas/s10-19.png
+    x: 306.9
+    y: 504.9
+  - src: ../../assets/logos/pp_live/counter-uas/s10-20.png
+    x: 544.3
+    y: 504.6
+  - src: ../../assets/logos/pp_live/counter-uas/s10-21.png
+    x: 650.4
+    y: 516.6
+  - src: ../../assets/logos/pp_live/counter-uas/s10-22.png
+    x: 735.0
+    y: 498.6
+  cols:
+  - Point / Fixed-site
+  - Tactical / Mobile
+  - Wide-area / Networked
+  rows:
+  - Sensing & ID
+  - C2 / Fusion
+  - Mitigation / Effectors
+  note:
+  - We placed private pure players by their main product and their stage, from funding news and the press
+  - We left out drone makers and detection-only vendors, and all our sources are at the end of the report
+ed209p:
+  title: 'Why is Anduril winning
+
+    the counter-drone market?'
+  companies:
+  - short: Anduril
+    src: ../../assets/logos/pp_live/counter-uas/s12-00.png
+  - short: DroneShield
+    src: ../../assets/logos/pp_live/counter-uas/s12-01.png
+  - short: Epirus
+    src: ../../assets/logos/pp_live/counter-uas/s12-02.png
+  - short: Dedrone
+    src: ../../assets/logos/pp_live/counter-uas/s12-03.png
+  - short: Fortem
+    src: ../../assets/logos/pp_live/counter-uas/s12-04.png
+  criteria:
+  - name: $20B Army C-UAS deal
+    why: Lattice set as Army drone C2
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Kinetic interceptors
+    why: Physically takes drones down
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - name: Electronic attack
+    why: Jams or fries drone links
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Own sensor fusion software
+    why: One screen for all sensors
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - name: Revenue above $100M
+    why: Scale to fund new products
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Handheld drone jammer
+    why: Easy kit for foot soldiers
+    ticks:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - name: Microwave swarm defeat
+    why: Downs many drones at once
+    ticks:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What is actually included
+
+    in the counter-drone market?'
+  TL:
+    name: Echodyne
+    src: ../../assets/logos/pp_live/counter-uas/s01-00.png
+    text: builds radars that many counter-drone systems rely on, but a sensor sold on its own can spot a drone without stopping it
+  TR:
+    name: DJI
+    src: ../../assets/logos/pp_live/counter-uas/s01-01.png
+    text: made the AeroScope tracker for its own drones until 2023, but it builds and sells drones rather than defeating them
+  BL:
+    name: Axon
+    src: ../../assets/logos/pp_live/counter-uas/s01-10.png
+    text: makes Tasers and body cameras for police, but buying Dedrone in 2024 gave it a counter-drone business that is growing fast
+  BR:
+    name: Rheinmetall
+    src: ../../assets/logos/pp_live/counter-uas/s01-11.png
+    text: built its Skyranger guns to shoot down drones and other air threats, but they are one line ina broad defense business
+  caption:
+  - Dist to th te flects h -built duct is to detect and defeat Id ther th I tting tt
+  - istance to the center reflects how purpose-built a product is to detect and defeat small drones, rather than only spotting them
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/counter-uas/s01-02.png
+  - ../../assets/logos/pp_live/counter-uas/s01-03.png
+  - ../../assets/logos/pp_live/counter-uas/s01-04.png
+  - ../../assets/logos/pp_live/counter-uas/s01-05.png
+  - ../../assets/logos/pp_live/counter-uas/s01-06.png
+  - ../../assets/logos/pp_live/counter-uas/s01-07.png
+  - ../../assets/logos/pp_live/counter-uas/s01-08.png
+  - ../../assets/logos/pp_live/counter-uas/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/counter-uas/s01-02.png
+    x: 435.6
+    y: 287.4
+  - src: ../../assets/logos/pp_live/counter-uas/s01-03.png
+    x: 521.4
+    y: 321.2
+  - src: ../../assets/logos/pp_live/counter-uas/s01-04.png
+    x: 463.7
+    y: 356.4
+  - src: ../../assets/logos/pp_live/counter-uas/s01-05.png
+    x: 402.6
+    y: 381.6
+  - src: ../../assets/logos/pp_live/counter-uas/s01-06.png
+    x: 515.4
+    y: 391.1
+  - src: ../../assets/logos/pp_live/counter-uas/s01-07.png
+    x: 460.1
+    y: 416.4
+  - src: ../../assets/logos/pp_live/counter-uas/s01-08.png
+    x: 386.4
+    y: 440.8
+  - src: ../../assets/logos/pp_live/counter-uas/s01-09.png
+    x: 518.8
+    y: 454.1
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask how to stop
+
+    a drone, after drones shut down airports'
+  date: Recently.
+  expl: Mystery drones shut down airports in Copenhagen, Oslo and Munich, and Russian drones flew into Poland. Europe started talking about a “drone wall”.
+    Suddenly, anti-drone systems were not just a military topic, and people searched how to stop them.
+  term: counter uas
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/counter-uas/counter-uas.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger
+
+    can this market get?'
+  lead: ''
+  condition: To get that big, governments must turn today’s budget requests into real contracts, and buyers must protect thousands of bases, airports, and
+    plants. Startups must also build interceptors and lasers at scale, and new rules must let police and civil sites stop drones safely.
+  note:
+  - We compared forecasts from MarketsandMarkets, Mordor, Coherent and Fortune Business Insights
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 5
+  cagr: 20
+  y0: 2026

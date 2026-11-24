@@ -1,0 +1,44 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How does money really flow
+
+      in restaurant technology?'
+    axes:
+    - Sells software
+    - Takes a cut of sales
+    - Per
+    - order
+    - Monthly
+    - fee
+    groups:
+    - name: Software subscription
+      x: 0.2
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/restaurant-technology/s06-00.png
+      - src: ../../assets/logos/pp_live/restaurant-technology/s06-01.png
+    - name: Payment processing
+      x: 0.82
+      y: 0.35
+      logos:
+      - src: ../../assets/logos/pp_live/restaurant-technology/s06-04.png
+      - src: ../../assets/logos/pp_live/restaurant-technology/s06-05.png
+    - name: Per-order platform fee
+      x: 0.62
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/restaurant-technology/s06-06.png
+      - src: ../../assets/logos/pp_live/restaurant-technology/s06-07.png
+    - name: Add-on modules
+      x: 0.35
+      y: 0.62
+      logos:
+      - src: ../../assets/logos/pp_live/restaurant-technology/s06-02.png
+      - src: ../../assets/logos/pp_live/restaurant-technology/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

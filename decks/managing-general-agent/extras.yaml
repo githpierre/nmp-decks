@@ -1,0 +1,488 @@
+- after: ed104
+  link: Deals where the MGA earns more when its loss ratio stays low for years
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do managing general agent (MGA)
+
+      companies actually make money?'
+    axes:
+    - Paid on volume
+    - Paid on results
+    - Per
+    - policy
+    - Share of
+    - premium
+    groups:
+    - name: Underwriting commission
+      x: 0.2
+      y: 0.8
+      logos:
+      - src: ../../assets/logos/pp_live/managing-general-agent/s06-00.png
+      - src: ../../assets/logos/pp_live/managing-general-agent/s06-01.png
+    - name: Profit commission
+      x: 0.82
+      y: 0.82
+      logos:
+      - src: ../../assets/logos/pp_live/managing-general-agent/s06-02.png
+      - src: ../../assets/logos/pp_live/managing-general-agent/s06-03.png
+    - name: Policy fees
+      x: 0.25
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/managing-general-agent/s06-06.png
+      - src: ../../assets/logos/pp_live/managing-general-agent/s06-07.png
+    - name: Service fees
+      x: 0.55
+      y: 0.4
+      logos:
+      - src: ../../assets/logos/pp_live/managing-general-agent/s06-04.png
+      - src: ../../assets/logos/pp_live/managing-general-agent/s06-05.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed048
+  link: 'ed048, page 1/2: the three other categories of the donut ed047p'
+  slide:
+    id: ed048-2
+    type: x/behind_these_categories
+    section: Market size
+    title: What is behind these categories?
+    page: 2/2
+    t:
+      5: 'CONSUMER
+
+        AND LIFE'
+      8: 'CYBER
+
+        MGAS'
+      10: 'PARAMETRIC
+
+        AND CLIMATE'
+      11: 🧑
+      12: 🔒
+      13: 🌡️
+      4: MGAs that sell pet, travel, life and health cover straight to people, often online or through their employer
+      7: MGAs that sell cyber cover to small and mid-size firms, with security scans, alerts and help after an attack
+      9: MGAs whose policies pay a set amount once a weather, quake or cloud outage trigger is hit, with no loss check
+      14: ''
+      15: ''
+      16: ''
+      17: ''
+      18: ''
+      19: ''
+    holes_ok: true
+    note: We grouped the market's companies into six categories, the same as in the split just before. They differ by the risk they insure.
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xm_ominimo
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Ominimo’s yearly premium pace grew
+
+      11.7 times in two years, to €307M'
+    t:
+      9: €26M
+      10: '2024'
+      12: €307M
+      13: Jul 2026
+      15: ×11.7
+      16: WHY IT IS HOT
+      17: 'A new motor MGA can grow very fast without a balance sheet of its own: Ominimo’s yearly premium pace went from €26M in 2024 to about €307M in July 2026.
+
+
+        Its partner insurers, Zurich first, carry the risk while Ominimo prices and sells the policies.'
+    vbars:
+    - 26.3
+    - 306.8
+    note: We used the yearly premium pace Ominimo reported in July 2026. It is premium written for its insurers, not Ominimo’s own revenue
+    fresh:
+      period: month
+      end: 2026-07
+  sources:
+  - claim: Run-rate €26.3M in 2024, €157.8M in 2025, €306.8M now
+    url: https://dealroom.co/news/141203-ominimo-hits-1-6b-valuation-two-years-after-launch-with-20-1m-series-b/
+    date: '2026-07-27'
+    quote: from roughly €26.3 million in 2024 to €157.8 million in 2025, and now stands at about €306.8 million.
+  - claim: Partner carriers carry the risk
+    url: https://beinsure.com/news/insurtech-ominimo-reaches-1-6-bn-valuation/
+    date: '2026-07-27'
+    quote: It prices risk, manages customer relationships and handles claims, while partner carriers carry the underwriting risk.
+- after: xm_ominimo
+  link: ed032, signal 2 of the list
+  slide:
+    id: xm_neptune
+    type: x/sig_key_trend
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Neptune’s quarterly flood premium grew
+
+      71% in two years, to $133M'
+    t:
+      9: $78M
+      10: Q3 2024
+      12: $133M
+      13: Q3 2026
+      15: ×1.7
+      16: WHY IT IS HOT
+      17: 'The flood MGA Neptune keeps growing fast after its 2025 listing: it wrote $133M of premium in the third quarter of 2026, against $78M two years earlier.
+
+
+        The premium goes to its insurers. Neptune earns fees on it and carries no claims risk of its own.'
+    vbars:
+    - 77.7
+    - 132.7
+    note: We compared the third quarters of 2024 and 2026 from Neptune’s results. Written premium belongs to its insurers, not to Neptune
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: Q3 2024 $77.7M and Q3 2025 $101.6M
+    url: https://investors.neptuneflood.com/news/news-details/2025/Neptune-Insurance-Holdings-Inc--Reports-Third-Quarter-2025-Results/default.aspx
+    date: '2025-11-12'
+    quote: written premiums increased 30.7% to $101.6 million compared to $77.7 million in the third quarter of 2024.
+  - claim: Q3 2026 $132.7M
+    url: https://investors.neptuneflood.com/news/news-details/2026/Neptune-Insurance-Holdings-Inc--Reports-Third-Quarter-2026-Results/default.aspx
+    date: '2026-10-20'
+    quote: Written Premium* growth of 31% to a record $132.7 million
+- after: xm_neptune
+  link: ed032, signal 3 of the list
+  slide:
+    id: xm_deals
+    type: sx_round_timeline
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Five big MGA deals were struck
+
+      in seven months of 2026'
+    legend: false
+    t0: 3.6
+    t1: 11.4
+    amax: 1
+    ticks:
+    - t: 4
+      l: Apr
+    - t: 5
+      l: May
+    - t: 6
+      l: Jun
+    - t: 7
+      l: Jul
+    - t: 8
+      l: Aug
+    - t: 9
+      l: Sep
+    - t: 10
+      l: Oct
+    - t: 11
+      l: Nov
+    pts:
+    - t: 4.03
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: Acrisure
+    - t: 6.13
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: Arrow
+    - t: 8.42
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: Thoma Bravo
+    - t: 8.61
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: Munich Re
+    - t: 10.71
+      a: 0
+      cy: 146
+      col: '#FB0161'
+      lab: Amynta
+    story: From April to October 2026, insurers, brokers and investors bought or agreed to buy five MGAs, among them At-Bay for $575M. Buyers pay up when they expect the channel to keep growing.
+    note:
+    - We counted deals announced by buyers from April to October 2026, one dot per
+    - deal, not a full count. The Accelerant and At-Bay deals had not closed yet
+    fresh:
+      period: month
+      end: 2026-10
+  sources:
+  - claim: Acrisure completed Vave
+    url: https://www.acrisure.com/news/acrisure-completes-acquisition-of-vave-mga-from-canopius
+    date: '2026-04-01'
+    quote: today announces it has completed the acquisition of Vave, a technology-driven property MGA, from Canopius Group.
+  - claim: Arrow majority stake in Fusion
+    url: https://fusionspecialty.com/arrow-global-insurance-acquires-majority-stake-in-fusion-specialty-group/
+    date: '2026-06-04'
+    quote: has acquired a majority stake in the business
+  - claim: Thoma Bravo and Accelerant
+    url: https://www.thomabravo.com/press-releases/accelerant-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo
+    date: '2026-08-13'
+    quote: entered into a definitive agreement with Thoma Bravo to become a privately held company
+  - claim: Munich Re and At-Bay
+    url: https://www.munichre.com/hsb/en/press-and-publications/press-releases/2026/media-release-2026-08-19.html
+    date: '2026-08-19'
+    quote: The definitive agreement was concluded at an enterprise value of $575 million.
+  - claim: Amynta and Southern States
+    url: https://www.prnewswire.com/news-releases/amynta-group-completes-acquisition-of-southern-states-underwriters-302917382.html
+    date: '2026-10-22'
+    quote: has completed its acquisition of Southern States Underwriters
+- after: xm_deals
+  link: ed032, signal 4 of the list
+  slide:
+    id: xm_pinewalk
+    type: sx_stat_strip
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Pine Walk’s 18 MGAs placed $1.1B of insurance
+
+      in the first nine months of 2026'
+    headline: Pine Walk, the MGA platform of TFP, January to September 2026
+    stats:
+    - v: $1.1B
+      l: Of premium bound by its MGAs for their insurers
+    - v: $144M
+      l: Of placement commissions earned on that premium
+    - v: '18'
+      l: Specialist MGAs running on the platform in November
+    story: One MGA platform now places over a billion dollars of insurance in nine months, a sign of a hot market. The premium is the insurers’, the commissions are its revenue.
+    note:
+    - We used the IPO filing of TFP Group of November 19, 2026, for the nine months to
+    - September 30, 2026. Bound premium is not TFP’s revenue, its commissions are
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: Pine Walk bound premium $1,117.7M
+    url: https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm
+    date: '2026-11-19'
+    quote: Bound Premium originated by the Pine Walk segment was $1,117.7 million for the nine months ended September 30, 2026
+  - claim: Placement commission $144.2M
+    url: https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm
+    date: '2026-11-19'
+    quote: Placement commission in the Pine Walk segment for the nine months ended September 30, 2026 was $144.2 million
+  - claim: 18 entities
+    url: https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm
+    date: '2026-11-19'
+    quote: with 18 entities as of the date of this prospectus.
+- after: xm_pinewalk
+  link: ed032, signal 5 of the list
+  slide:
+    id: xm_lloyds
+    type: share_waffle
+    section: Market opportunity
+    pill: SIGNAL
+    title: '45% of Lloyd’s premium is now written
+
+      under delegated authority'
+    'on': Delegated
+    'off': Direct
+    unit: points
+    years:
+    - x: NOVEMBER 2026
+      k: 45
+      n: 100
+      p: 45
+    big: 45 of 100
+    kicker: WHY IT IS HOT
+    story: 'Lloyd’s, the largest specialty insurance market, now gets almost half of its premium through MGAs and other coverholders.
+
+      In May 2025, its underwriting chief still put that share just under 40%.'
+    note:
+    - We used Lloyd’s delegated authority page, with figures dated November 9, 2026.
+    - Delegated authority covers MGAs and other coverholders, not only independent ones
+    fresh:
+      period: total
+      end: 2026-11
+  sources:
+  - claim: Delegated underwriting about 45% of Lloyd’s premium income
+    url: https://www.lloyds.com/market-resources/delegated-authorities
+    date: '2026-11-09'
+    quote: Delegated underwriting is a key distribution channel for Lloyd’s, accounting for approximately 45% of the market’s premium income.
+  - claim: Just under 40% in May 2025
+    url: https://www.insurancejournal.com/news/international/2025/05/16/824065.htm
+    date: '2025-05-16'
+    quote: delegated authorities represent just under 40% of all business at Lloyd’s
+- after: xm_lloyds
+  link: ed032, signal 6 of the list
+  slide:
+    id: xm_tfp
+    type: sx_faceoff
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'TFP keeps 59 cents of each $1 of revenue,
+
+      almost twice its listed peers'
+    cards:
+    - name: LISTED PEERS
+      stats:
+      - v: 32%
+        l: median adjusted operating margin of listed insurance service firms
+    - name: TFP GROUP
+      hl: true
+      stats:
+      - v: 59%
+        l: adjusted operating margin of TFP and its MGAs, January to September
+    story: MGA platforms that earn fees and leave the risk to insurers can be very profitable, a sign of a hot market. The peer group is the one TFP chose for its IPO filing.
+    note:
+    - We used the adjusted EBITDA margins of TFP’s IPO filing of November 19, 2026, for the
+    - nine months to September 30, 2026, with the listed peer median that TFP selected
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: TFP adjusted EBITDA margin 59%
+    url: https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm
+    date: '2026-11-19'
+    quote: our Adjusted EBITDA Margin of 59%
+  - claim: Listed Insurance Services Sector median 32%
+    url: https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm
+    date: '2026-11-19'
+    quote: median Adjusted EBITDA Margin of the Listed Insurance Services Sector of 5% and 32%, respectively.
+- after: xm_tfp
+  link: ed032, signal 7 of the list
+  slide:
+    id: xm_neptune_profit
+    type: kpis
+    section: Market opportunity
+    pill: SIGNAL
+    title: 'Neptune earned $17.3M on $59.6M of revenue
+
+      in one quarter of 2026'
+    items:
+    - value: $59.6M
+      label: Revenue in the third quarter of 2026, up 34% from a year earlier, a record for Neptune
+    - value: $17.3M
+      label: Net income in the same quarter, up 50% from a year earlier, also a record
+    - value: 336,000
+      label: Flood policies in force on September 30, 2026, on the paper of its insurers
+    why: This is a sign of a hot market because a listed MGA grows fast and makes money at the same time, while its insurers carry all of the flood risk.
+    note: We used Neptune’s results of October 20, 2026 and its earnings presentation for the policy count
+    fresh:
+      period: quarter
+      end: 2026-09
+  sources:
+  - claim: Revenue $59.6M, up 34%
+    url: https://investors.neptuneflood.com/news/news-details/2026/Neptune-Insurance-Holdings-Inc--Reports-Third-Quarter-2026-Results/default.aspx
+    date: '2026-10-20'
+    quote: Revenue growth of 34% to a record $59.6 million
+  - claim: Net income $17.3M, up 50%
+    url: https://investors.neptuneflood.com/news/news-details/2026/Neptune-Insurance-Holdings-Inc--Reports-Third-Quarter-2026-Results/default.aspx
+    date: '2026-10-20'
+    quote: Net income increase of 50% to a record $17.3 million
+  - claim: 336,000 policies in force
+    url: https://www.sec.gov/Archives/edgar/data/2067129/000162828026066494/q32026-earningspresentat.htm
+    date: '2026-10-20'
+    quote: policies in force reached approximately 336,000
+- after: ed200
+  link: ed200 card « They fail when insurers stop backing policies they sell » (CAPACITY GAPS)
+  slide:
+    id: xm_onecarrier
+    type: share_waffle
+    section: Startup killers
+    title: 'One insurer backs 47% of the premium
+
+      of TFP and its MGAs'
+    'on': Pelagos
+    'off': Others
+    unit: points
+    years:
+    - x: 12 MONTHS TO SEPT 2026
+      k: 47
+      n: 100
+      p: 47
+    big: 47 of 100
+    kicker: WHAT IS GOING ON
+    story: 'Even a large MGA group with many insurers behind it can lean on one of them for half of its business.
+
+      If that insurer changes its appetite at renewal, a big part of the premium has to find a new home.'
+    note:
+    - We used TFP’s IPO filing of November 19, 2026, for the twelve months to
+    - September 2026. It is premium backed by one insurer, not TFP’s own revenue
+  sources:
+  - claim: Pelagos supported 47% of bound premium
+    url: https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm
+    date: '2026-11-19'
+    quote: net of reinsurance, supported 47% of our Bound Premium in the twelve months ended September 30, 2026.
+- after: pp_s06
+  link: 'pp_s06: profit commission against underwriting commission'
+  slide:
+    id: xm_accelerant
+    type: sx_faceoff
+    section: Value creation
+    title: 'Accelerant’s MGA arm keeps 43 cents of each $1,
+
+      its insurer arm keeps 1.4 cents'
+    cards:
+    - name: INSURER ARM
+      stats:
+      - v: 1.4%
+        l: adjusted operating margin of its risk-carrying segment, Q2 2026
+    - name: MGA ARM
+      hl: true
+      stats:
+      - v: 43%
+        l: adjusted operating margin of its MGA operations, Q2 2026
+    story: Pricing and selling policies for fees earns far more on each dollar than holding the risk on a balance sheet. That is why so much capital now backs MGAs rather than new insurers.
+    note:
+    - We divided each segment’s adjusted EBITDA by its revenue in Accelerant’s filing for the
+    - 'quarter to June 30, 2026, before group costs: $30.3M of $70.1M, and $1.9M of $133.9M'
+  sources:
+  - claim: Segment revenue and adjusted EBITDA, Q2 2026
+    url: https://www.sec.gov/Archives/edgar/data/1997350/000199735026000015/arx-20260630.htm
+    date: '2026-08-13'
+    quote: Adjusted EBITDA  | $  | 74.0
+- after: ed136
+  link: ed136 card « Recruiting seasoned underwriters and gaining trust takes time »
+  slide:
+    id: xm_funnel
+    type: sx_split_compare
+    section: Market challenges
+    title: 'Pine Walk reviewed over 850 MGA teams
+
+      and runs 18 of them today'
+    chart_w: 400
+    groups:
+    - name: Reached the stage
+      col: '#789096'
+    - name: Running today
+      col: '#FB0161'
+    - name: Not there
+      col: '#1C4A60'
+      hide: true
+    rows:
+    - name: MGA teams reviewed since 2017
+      total: 850+ teams
+      v:
+      - 100
+      - 0
+      - 0
+    - name: MGAs running on the platform
+      total: 18 MGAs
+      v:
+      - 0
+      - 2
+      - 98
+    big: 18 of 850+
+    kicker: WHAT IS GOING ON
+    story: 'Many underwriting teams want to start an MGA, but few get capacity, staff and the trust of insurers.
+
+      One of the largest MGA platforms runs about 2 of every 100 teams it has looked at.'
+    note:
+    - 'We used TFP’s IPO filing of November 19, 2026: over 850 teams reviewed since 2017'
+    - and 18 MGAs live on the platform today. It is not a formal acceptance rate
+  sources:
+  - claim: More than 850 opportunities reviewed
+    url: https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm
+    date: '2026-11-19'
+    quote: have reviewed more than 850 prospective opportunities since Pine Walk’s inception.
+  - claim: 18 entities live
+    url: https://www.sec.gov/Archives/edgar/data/2128185/000162828026075089/tfpgrouplimited-fx1a1.htm
+    date: '2026-11-19'
+    quote: with 18 entities as of the date of this prospectus.

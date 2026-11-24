@@ -1,0 +1,47 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'Where does the money come from
+
+      for climate tech companies?'
+    axes:
+    - Paid once
+    - Paid over time
+    - Sold to
+    - homes
+    - Sold to
+    - companies
+    groups:
+    - name: Solar and battery hardware
+      x: 0.15
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/climate-tech/s06-05.png
+    - name: Solar leases for homes
+      x: 0.8
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/climate-tech/s06-06.png
+    - name: Carbon removal credits
+      x: 0.28
+      y: 0.78
+      logos:
+      - src: ../../assets/logos/pp_live/climate-tech/s06-00.png
+      - src: ../../assets/logos/pp_live/climate-tech/s06-01.png
+    - name: Carbon accounting software
+      x: 0.6
+      y: 0.5
+      logos:
+      - src: ../../assets/logos/pp_live/climate-tech/s06-03.png
+      - src: ../../assets/logos/pp_live/climate-tech/s06-04.png
+    - name: Clean power contracts
+      x: 0.8
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/climate-tech/s06-02.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

@@ -1,0 +1,727 @@
+ed058:
+  type: pp_pains
+  title: 'Which stablecoin problems
+
+    are still unsolved today?'
+  auds:
+  - Cross-border businesses
+  - Fintechs and banks
+  - Migrant families
+  - Dollar savers
+  - Remote workers
+  pains:
+  - - They pay high fees and poor rates to move money abroad
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 3
+  - - They wait days when a wire or a cash-out gets stuck
+    - - 3
+      - 1
+      - 3
+      - 1
+      - 2
+  - - They struggle to turn coins into local money cheaply
+    - - 2
+      - 3
+      - 3
+      - 3
+      - 3
+  - - They lose access when a bank partner drops crypto firms
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - They cannot open a dollar account at their local bank
+    - - 2
+      - 1
+      - 2
+      - 3
+      - 3
+  - - They need a license or a partner in each new country
+    - - 1
+      - 3
+      - 1
+      - 1
+      - 1
+  note:
+  - We built this from the customer pains of our pain-points chapter, company releases and analyst reports
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  type: pp_tech
+  title: 'Which stablecoin player has
+
+    the most complete tech today?'
+  companies:
+  - name: Bridge
+    src: ../../assets/logos/bridge.png
+  - name: BVNK
+    src: ../../assets/logos/bvnk.png
+  - name: zerohash
+    src: ../../assets/logos/zerohash.png
+  - name: Mesh
+    src: ../../assets/logos/mesh-2.png
+  - name: Rain
+    src: ../../assets/logos/rain.png
+  - name: Conduit
+    src: ../../assets/logos/conduit.png
+  features:
+  - header: Merchant|checkout
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Card|issuing
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Business|payouts
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  - header: Currency|exchange
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  - header: US|based
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Bought by|a giant
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, product pages and releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong for
+
+    stablecoin payments?'
+  events:
+  - odds: 30
+    impact: 3
+    text: Stripe, Mastercard and Visa own the stablecoin rails and leave little room for payment startups
+  - odds: 20
+    impact: 2
+    text: JPMorgan and Swift bank tokens win business payments, leaving stablecoins mostly for retail and crypto
+  - odds: 20
+    impact: 2
+    text: The CLARITY Act passes with its ban on interest-like rewards, so stablecoins lose their yield edge
+  - odds: 15
+    impact: 2
+    text: Brazil, India and other countries cap stablecoin payments as foreign exchange, shrinking cross-border volumes
+  - odds: 12
+    impact: 2
+    text: JPMorgan and other banks close accounts of stablecoin payment startups, cutting their access to dollars
+  - odds: 10
+    impact: 2
+    text: A major hack drains a stablecoin payment provider like Infini, and merchants lose trust in crypto rails
+  - odds: 5
+    impact: 2
+    text: Congress or regulators weaken the GENIUS Act, leaving stablecoin payment firms without clear US rules
+  - odds: 5
+    impact: 3
+    text: USDT or USDC loses its dollar peg after a reserve scare, and businesses abandon stablecoin payments
+  note:
+  - We listed the events that could slow stablecoin payments down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What kept stablecoin payments
+
+    moving forward, year after year?'
+  events:
+  - year: '2014'
+    text: Tether pegs a token to the dollar
+    impact: 1.5
+  - year: '2015'
+    text: ERC-20 standard makes tokens easy to issue
+    impact: 1
+  - year: '2017'
+    text: Crypto boom needs a stable trading dollar
+    impact: 1
+  - year: '2018'
+    text: Circle and Coinbase launch audited USDC
+    impact: 2
+  - year: '2018'
+    text: Gemini and Paxos win NY stablecoin approval
+    impact: 1
+  - year: '2019'
+    text: Facebook Libra wakes up regulators and banks
+    impact: 2.5
+  - year: '2020'
+    text: DeFi summer makes stablecoins the base asset
+    impact: 1.5
+  - year: '2020'
+    text: OCC lets US banks hold stablecoin reserves
+    impact: 1
+  - year: '2021'
+    text: Visa settles a payment in USDC
+    impact: 2
+  - year: '2021'
+    text: Stablecoin supply jumps past $100B
+    impact: 1
+  - year: '2022'
+    text: Terra crash pushes users to backed coins
+    impact: 2
+  - year: '2022'
+    text: Argentines buy dollar coins to beat inflation
+    impact: 1.5
+  - year: '2022'
+    text: Pricey remittances push migrants to coins
+    impact: 1
+  - year: '2023'
+    text: USDC wobbles on SVB, reserves get stricter
+    impact: 1
+  - year: '2023'
+    text: PayPal launches its own dollar stablecoin
+    impact: 2
+  - year: '2023'
+    text: Visa expands USDC settlement to Solana
+    impact: 1
+  - year: '2024'
+    text: EU MiCA gives stablecoins clear rules
+    impact: 2
+  - year: '2024'
+    text: Tether earns $13B as rates lift reserves
+    impact: 1
+  - year: '2024'
+    text: Stripe buys Bridge, betting on coin payments
+    impact: 2.5
+  - year: '2024'
+    text: Stripe adds USDC checkout for merchants
+    impact: 1
+  - year: '2025'
+    text: Circle IPO soars, Wall Street buys in
+    impact: 2
+  - year: '2025'
+    text: Shopify merchants can take USDC
+    impact: 1.5
+  - year: '2025'
+    text: GENIUS Act gives US stablecoins a law
+    impact: 3
+  - year: '2025'
+    text: Hong Kong licenses fiat stablecoin issuers
+    impact: 1
+  - year: '2025'
+    text: Stripe unveils Tempo chain for payments
+    impact: 1.5
+  - year: '2025'
+    text: Western Union plans its own stablecoin
+    impact: 1.5
+  - year: '2025'
+    text: Stablecoin supply tops $300B
+    impact: 1.5
+  - year: '2025'
+    text: Visa lets US banks settle in USDC
+    impact: 1
+  - year: '2025'
+    text: OCC grants trust charters to coin issuers
+    impact: 1.5
+  - year: '2026'
+    text: OCC finalizes rulebook for coin issuers
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed stablecoin payments forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: stablecoin-payments
+  title: 'Where did stablecoin investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of stablecoin payments startups we tracked in the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Stablecoin cards
+    names:
+    - Rain
+    - RedotPay
+    v: $492M
+    pct: 29% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/rain.png
+    - src: ../../assets/logos/redotpay.png
+    - src: ../../assets/logos/kast.png
+  - name: Payment APIs
+    names:
+    - Mesh
+    - Latitude
+    v: $329M
+    pct: 19% of total
+    w: 66.8
+    logos:
+    - src: ../../assets/logos/mesh-2.png
+    - src: ../../assets/logos/fav/latitude.png
+    - src: ../../assets/logos/photonpay.png
+  - name: Treasury settlement
+    names:
+    - OpenFX
+    - Velocity
+    v: $321M
+    pct: 19% of total
+    w: 65.3
+    logos:
+    - src: ../../assets/logos/openfx.png
+    - src: ../../assets/logos/velocity-2.png
+    - src: ../../assets/logos/xfx.png
+  - name: Cross-border B2B
+    names:
+    - Parallax
+    - ARQ
+    v: $304M
+    pct: 18% of total
+    w: 61.8
+    logos:
+    - src: ../../assets/logos/fav/parallax.png
+    - src: ../../assets/logos/fav/arq.png
+    - src: ../../assets/logos/fin-com.png
+  - name: On and off ramps
+    names:
+    - Yellow Card
+    - Trace Finance
+    v: $129M
+    pct: 8% of total
+    w: 26.2
+    logos:
+    - src: ../../assets/logos/yellow-card.png
+    - src: ../../assets/logos/trace-finance.png
+    - src: ../../assets/logos/avenia.png
+  - name: Remittance apps
+    names:
+    - Félix Pago
+    - El Dorado
+    v: $113M
+    pct: 7% of total
+    w: 23.0
+    logos:
+    - src: ../../assets/logos/felix-pago.png
+    - src: ../../assets/logos/el-dorado.png
+    - src: ../../assets/logos/speed-labs.png
+ed171p:
+  title: 'Who are the top companies
+
+    in stablecoin payments?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-00.png
+    x: 331.7
+    y: 267.2
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-01.png
+    x: 606.2
+    y: 269.6
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-02.png
+    x: 761.8
+    y: 274.7
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-03.png
+    x: 819.9
+    y: 275.6
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-04.png
+    x: 280.9
+    y: 300.4
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-05.png
+    x: 382.1
+    y: 294.4
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-06.png
+    x: 497.6
+    y: 285.4
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-07.png
+    x: 555.9
+    y: 303.9
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-08.png
+    x: 688.5
+    y: 292.1
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-09.png
+    x: 812.6
+    y: 370.9
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-10.png
+    x: 250.9
+    y: 384.9
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-11.png
+    x: 310.3
+    y: 383.6
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-12.png
+    x: 376.5
+    y: 396.0
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-13.png
+    x: 461.8
+    y: 399.4
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-14.png
+    x: 537.6
+    y: 398.4
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-15.png
+    x: 594.2
+    y: 381.9
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-16.png
+    x: 688.9
+    y: 392.1
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-17.png
+    x: 749.8
+    y: 401.1
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-18.png
+    x: 396.2
+    y: 488.4
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-19.png
+    x: 475.5
+    y: 489.0
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-20.png
+    x: 534.2
+    y: 490.3
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-21.png
+    x: 592.1
+    y: 475.3
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-22.png
+    x: 697.9
+    y: 480.9
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-23.png
+    x: 759.6
+    y: 476.6
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-24.png
+    x: 249.2
+    y: 498.9
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-25.png
+    x: 329.8
+    y: 503.1
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s10-26.png
+    x: 819.2
+    y: 498.2
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Cards & apps
+  - Cross-border
+  - Rails & ramps
+  note:
+  - We left out issuers like Circle and Tether and giants like Stripe, Visa and Coinbase
+  - We placed each one by its focus, and all our sources are at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these stablecoin
+
+    startups, and how did they end?'
+  causes:
+  - Regulator|pressure
+  - Depeg or|hack
+  - Ran out|of cash
+  - Buyer|walked away
+  rows:
+  - name: Terraform Labs
+    ending: Went bankrupt
+    start: '2018'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/stablecoin-payments/s11-00.png
+    ini: T
+    slug: terraform-labs
+    domain: terra.money
+  - name: Basis
+    ending: Shut down
+    start: '2017'
+    end: '2018'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/stablecoin-payments/s11-01.png
+    ini: B
+    slug: basis-io
+    domain: basis.io
+  - name: Fei Protocol
+    ending: Shut down
+    start: '2020'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/stablecoin-payments/s11-02.png
+    ini: F
+    slug: fei-protocol
+    domain: fei.money
+  - name: Prime Trust
+    ending: Went bankrupt
+    start: '2016'
+    end: '2023'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/stablecoin-payments/s11-03.png
+    ini: P
+    slug: prime-trust
+    domain: primetrust.com
+  - name: Wyre
+    ending: Shut down
+    start: '2013'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/stablecoin-payments/s11-04.png
+    ini: W
+    slug: wyre
+    domain: sendwyre.com
+  - name: Diem
+    ending: Sold to Silvergate
+    start: '2019'
+    end: '2022'
+    causes:
+    - 1
+    - 0
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/stablecoin-payments/s11-05.png
+    ini: D
+    slug: diem
+    domain: diem.com
+  note:
+  - We tracked the stablecoin payments startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  type: pp_winner
+  title: 'Why is Bridge ahead
+
+    in stablecoin payments?'
+  companies:
+  - short: Bridge
+    src: ../../assets/logos/bridge.png
+  - short: BVNK
+    src: ../../assets/logos/bvnk.png
+  - short: Rain
+    src: ../../assets/logos/rain.png
+  - short: RedotPay
+    src: ../../assets/logos/redotpay.png
+  - short: Mesh
+    src: ../../assets/logos/mesh-2.png
+  criteria:
+  - name: Bought by a payment giant
+    why: Clients from day one
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Valued or sold at $1B+
+    why: Investors back its lead
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Stablecoin card issuing
+    why: Coins spent at any shop
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Business payouts abroad
+    why: Firms pay suppliers fast
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Currency conversion
+    why: Local money in and out
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Merchant checkout
+    why: Shops take stablecoins
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Visa cards in 18 countries
+    why: Reach across markets
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared payment-first companies on the services that matter most to their customers
+  - We used company releases and product pages, and our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'What makes a company part
+
+    of stablecoin payments?'
+  TL:
+    name: Circle
+    src: ../../assets/logos/pp_live/stablecoin-payments/s01-00.png
+    text: issues USDC, a stablecoin widely used for payments, but nearly all of its revenue is interest earned on its reserves
+  TR:
+    name: Binance
+    src: ../../assets/logos/pp_live/stablecoin-payments/s01-02.png
+    text: holds more stablecoins than any other exchange, but they are mostly used to trade crypto rather than to pay for anything
+  BL:
+    name: Ripple
+    src: ../../assets/logos/pp_live/stablecoin-payments/s01-10.png
+    text: runs a stablecoin payments network with its RLUSD coin, but much of its business and value are still tied to the XRP token
+  BR:
+    name: PayPal
+    src: ../../assets/logos/pp_live/stablecoin-payments/s01-11.png
+    text: issues its own PYUSD stablecoin for payments, but nearly all of its payment volume still runs on cards and bank accounts
+  caption:
+  - Distance to the center reflects how much a product relies on stablecoins to actually move, settle or spend money
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/stablecoin-payments/s01-01.png
+  - ../../assets/logos/pp_live/stablecoin-payments/s01-03.png
+  - ../../assets/logos/pp_live/stablecoin-payments/s01-04.png
+  - ../../assets/logos/pp_live/stablecoin-payments/s01-05.png
+  - ../../assets/logos/pp_live/stablecoin-payments/s01-06.png
+  - ../../assets/logos/pp_live/stablecoin-payments/s01-07.png
+  - ../../assets/logos/pp_live/stablecoin-payments/s01-08.png
+  - ../../assets/logos/pp_live/stablecoin-payments/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s01-04.png
+    x: 374.8
+    y: 362.6
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s01-05.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s01-06.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s01-07.png
+    x: 445.3
+    y: 394.9
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s01-08.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/stablecoin-payments/s01-09.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  signal: google-trends
+  window: 5y
+  to_today: true
+  title: 'Searches for stablecoins jumped with the
+
+    US law, then fell back in late 2026'
+  date: Since summer 2026.
+  expl: Searches jumped when the US passed its stablecoin law in July 2025 and stayed high until May 2026. They have since fallen by about 90%, below their level of early 2025.
+  term: stablecoins
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/stablecoin-payments/stablecoins.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    stablecoin payments get?'
+  lead: ''
+  condition: To get that big, real payments must keep growing about 50% a year as banks, card networks, and payroll platforms move flows on-chain, while fees fall more slowly than volume grows. It must also keep the fiat edges open, with sponsor banks, licensed ramps, and the GENIUS rules in force by January 2027.
+  note:
+  - We compared forecasts from Astute Analytica, Mordor, Bloomberg Intelligence and JPMorgan for a realistic range
+  - We added our funding tracker and allowed for falling take rates, and all the sources are at the end of the report
+  size: 5
+  cagr: 28
+  y0: 2026
+ed047p:
+  type: pp_donutv
+  variant: B
+  title: 'Which stablecoin payments
+
+    category takes the biggest share?'
+  cats:
+  - name: Cross-border B2B
+    p: 24
+    logos:
+    - ../../assets/logos/conduit.png
+    - ../../assets/logos/better-payment-network.png
+  - name: On and off ramps
+    p: 20
+    logos:
+    - ../../assets/logos/yellow-card.png
+    - ../../assets/logos/avenia.png
+  - name: Remittance apps
+    p: 20
+    logos:
+    - ../../assets/logos/felix-pago.png
+    - ../../assets/logos/el-dorado.png
+  - name: Stablecoin cards
+    p: 14
+    logos:
+    - ../../assets/logos/rain.png
+    - ../../assets/logos/redotpay.png
+  - name: Treasury settlement
+    p: 12
+    logos:
+    - ../../assets/logos/openfx.png
+    - ../../assets/logos/velocity-2.png
+  - name: Payment APIs
+    p: 10
+    logos:
+    - ../../assets/logos/bridge.png
+    - ../../assets/logos/mesh-2.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report

@@ -1,0 +1,48 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do chipmakers
+
+      actually make money?'
+    axes:
+    - Sells finished products
+    - Sells services and IP
+    - Off the
+    - shelf
+    - Built for
+    - one client
+    groups:
+    - name: GPUs sold to clouds
+      x: 0.15
+      y: 0.15
+      logos:
+      - src: ../../assets/logos/pp_live/ai-chip/s06-05.png
+      - src: ../../assets/logos/pp_live/ai-chip/s06-06.png
+    - name: Systems and chip cloud
+      x: 0.4
+      y: 0.42
+      logos:
+      - src: ../../assets/logos/pp_live/ai-chip/s06-04.png
+    - name: Custom chips for giants
+      x: 0.18
+      y: 0.85
+      logos:
+      - src: ../../assets/logos/pp_live/ai-chip/s06-00.png
+      - src: ../../assets/logos/pp_live/ai-chip/s06-01.png
+    - name: Royalties on chip designs
+      x: 0.84
+      y: 0.2
+      logos:
+      - src: ../../assets/logos/pp_live/ai-chip/s06-07.png
+    - name: Foundry paid per wafer
+      x: 0.82
+      y: 0.84
+      logos:
+      - src: ../../assets/logos/pp_live/ai-chip/s06-02.png
+      - src: ../../assets/logos/pp_live/ai-chip/s06-03.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report

@@ -1,0 +1,535 @@
+ed058:
+  type: pp_pains
+  title: 'Which problems would AI sales
+
+    customers actually pay to solve?'
+  auds:
+  - Software firms
+  - Young startups
+  - Sales agencies
+  - Enterprise teams
+  - Service firms
+  pains:
+  - - They must get emails into the inbox, not into the spam folder
+    - - 3
+      - 3
+      - 3
+      - 2
+      - 2
+  - - They see buyers ignore generic emails that read like AI wrote them
+    - - 3
+      - 2
+      - 3
+      - 2
+      - 2
+  - - They lose deals when results do not show up in the first weeks
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 1
+  - - They see buyers churn within a few months of signing up
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They must follow EU rules on disclosing that AI wrote a message
+    - - 1
+      - 1
+      - 2
+      - 3
+      - 3
+  - - They depend on contact data that they do not own or control
+    - - 2
+      - 2
+      - 3
+      - 1
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI sales tools can already
+
+    do what sales teams ask for?'
+  companies:
+  - name: HubSpot
+    src: ../../assets/logos/pp_live/ai-sales-agents/s05-00.png
+  - name: Salesforce
+    src: ../../assets/logos/pp_live/ai-sales-agents/s05-01.png
+  - name: Apollo
+    src: ../../assets/logos/pp_live/ai-sales-agents/s05-02.png
+  - name: 11x
+    src: ../../assets/logos/pp_live/ai-sales-agents/s05-03.png
+  - name: Artisan
+    src: ../../assets/logos/pp_live/ai-sales-agents/s05-04.png
+  - name: Outreach
+    src: ../../assets/logos/pp_live/ai-sales-agents/s05-05.png
+  features:
+  - header: AI voice|agent
+    values:
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Contact|database
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Own|CRM
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Built-in|dialer
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Website|visitor ID
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Call|insights
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Sales|forecasts
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for AI sales agents?'
+  events:
+  - odds: 35
+    impact: 3
+    text: Salesforce, HubSpot and Microsoft bundle sales agents in their plans, squeezing AI sales agent startups
+  - odds: 25
+    impact: 1
+    text: The best AI sales agent startups get bought early like Qualified, leaving few independent leaders
+  - odds: 15
+    impact: 2
+    text: OpenAI's ChatGPT agent researches accounts and writes outreach for free, replacing paid AI sales agents
+  - odds: 15
+    impact: 3
+    text: Buyers see no added pipeline from AI sales agents and cancel contracts after the first year
+  - odds: 12
+    impact: 2
+    text: AI email costs fall to almost nothing and buyers compare prices, so sales agent margins vanish
+  - odds: 10
+    impact: 2
+    text: Gmail and Microsoft tighten bulk sender rules, sending AI sales agent emails straight to spam
+  - odds: 8
+    impact: 3
+    text: Buyers use AI filters that block AI sales agent emails and calls before they reach a person
+  - odds: 5
+    impact: 2
+    text: Another AI sales startup like 11x is caught inflating revenue, and buyers distrust the whole category
+  note:
+  - We listed the events that could slow ai sales agents down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed AI sales agents
+
+    forward, year after year?'
+  events:
+  - year: '1999'
+    text: Salesforce puts CRM in the cloud
+    impact: 1.5
+  - year: '2003'
+    text: CAN-SPAM sets rules for cold email
+    impact: 1
+  - year: '2011'
+    text: Predictable Revenue creates the SDR role
+    impact: 1.5
+  - year: '2014'
+    text: Outreach automates sales email sequences
+    impact: 1
+  - year: '2014'
+    text: Sales Navigator lets reps mine LinkedIn
+    impact: 1
+  - year: '2015'
+    text: Gong turns sales calls into data
+    impact: 1
+  - year: '2016'
+    text: Salesforce Einstein brings AI into CRM
+    impact: 1
+  - year: '2017'
+    text: Website chatbots book demos around the clock
+    impact: 1
+  - year: '2020'
+    text: Covid kills in-person selling overnight
+    impact: 2.5
+  - year: '2020'
+    text: ZoomInfo IPO proves contact data sells
+    impact: 1
+  - year: '2021'
+    text: Gong's $7B value shows call data pays
+    impact: 1
+  - year: '2022'
+    text: Rate hikes force cuts to SDR teams
+    impact: 1.5
+  - year: '2022'
+    text: ChatGPT writes personal emails at scale
+    impact: 2.5
+  - year: '2023'
+    text: Viva Sales puts GPT into Outlook
+    impact: 1
+  - year: '2023'
+    text: Function calling lets AI update the CRM
+    impact: 1.5
+  - year: '2023'
+    text: Most buyers say they prefer skipping reps
+    impact: 1
+  - year: '2024'
+    text: Gmail spam rules punish blast emails
+    impact: 1
+  - year: '2024'
+    text: 11x pitches digital SDRs that never sleep
+    impact: 1
+  - year: '2024'
+    text: Stop Hiring Humans ads spark AI buzz
+    impact: 1
+  - year: '2024'
+    text: Salesforce bets the company on Agentforce
+    impact: 2.5
+  - year: '2024'
+    text: HubSpot adds agents for small businesses
+    impact: 1
+  - year: '2024'
+    text: Realtime voice API lets agents make calls
+    impact: 1.5
+  - year: '2024'
+    text: GPT-4o mini makes AI outreach cheap
+    impact: 1.5
+  - year: '2024'
+    text: MCP lets agents plug into sales tools
+    impact: 1
+  - year: '2025'
+    text: Microsoft 365 Copilot gets a sales agent
+    impact: 1
+  - year: '2025'
+    text: 11x scandal pushes buyers to demand results
+    impact: 1
+  - year: '2025'
+    text: Salesforce swaps 4,000 support jobs for AI
+    impact: 1.5
+  - year: '2025'
+    text: OpenAI ships agents that work the web
+    impact: 1
+  - year: '2026'
+    text: AI agent fears crush SaaS stocks
+    impact: 1.5
+  - year: '2026'
+    text: Clay hits $7.1B as sellers adopt AI
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai sales agents forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-sales-agents
+  title: 'Where did AI sales agents investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai sales agents startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in AI sales agents today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-00.png
+    x: 298.9
+    y: 280.7
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-01.png
+    x: 395.8
+    y: 270.9
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-02.png
+    x: 469.3
+    y: 267.4
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-03.png
+    x: 609.2
+    y: 282.0
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-04.png
+    x: 758.6
+    y: 274.7
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-05.png
+    x: 818.4
+    y: 276.9
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-06.png
+    x: 248.4
+    y: 305.1
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-07.png
+    x: 544.9
+    y: 302.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-08.png
+    x: 685.9
+    y: 290.1
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-09.png
+    x: 606.6
+    y: 371.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-10.png
+    x: 696.2
+    y: 374.1
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-11.png
+    x: 256.1
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-12.png
+    x: 319.7
+    y: 375.4
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-13.png
+    x: 372.9
+    y: 401.1
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-14.png
+    x: 478.3
+    y: 378.4
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-15.png
+    x: 536.1
+    y: 390.4
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-16.png
+    x: 759.0
+    y: 378.2
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-17.png
+    x: 820.3
+    y: 377.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-18.png
+    x: 248.1
+    y: 486.9
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-19.png
+    x: 367.7
+    y: 491.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-20.png
+    x: 470.6
+    y: 482.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-21.png
+    x: 606.6
+    y: 481.1
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-22.png
+    x: 677.6
+    y: 473.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-23.png
+    x: 806.1
+    y: 482.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-24.png
+    x: 306.0
+    y: 506.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-25.png
+    x: 552.6
+    y: 502.3
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s10-26.png
+    x: 729.2
+    y: 502.7
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Outbound
+  - Inbound
+  - CRM
+  note:
+  - We left out listed firms and acquired startups like Qualified and Warmly
+  - We placed each one by its focus, with all the sources at the end of the report
+ed209p:
+  title: 'Why is Gong winning
+
+    the revenue AI market?'
+  companies:
+  - short: Gong
+    src: ../../assets/logos/pp_live/ai-sales-agents/s12-00.png
+  - short: Clari
+    src: ../../assets/logos/pp_live/ai-sales-agents/s12-01.png
+  - short: Outreach
+    src: ../../assets/logos/pp_live/ai-sales-agents/s12-02.png
+  - short: ZoomInfo
+    src: ../../assets/logos/pp_live/ai-sales-agents/s12-03.png
+  - short: People.ai
+    src: ../../assets/logos/pp_live/ai-sales-agents/s12-04.png
+  criteria:
+  - name: $500M+ ARR
+    why: Largest revenue AI vendor
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 55%+ yearly growth
+    why: Speeding up at scale
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Half of Fortune 10
+    why: Wins the biggest buyers
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Gartner RAO Leader
+    why: Top analyst validation
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Built in forecasting
+    why: Owns pipeline decisions
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Sales engagement suite
+    why: Agents act, not just log
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: Own B2B contact data
+    why: Fuels prospecting
+    ticks:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'How much bigger
+
+    can dental AI get?'
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-sales-agents/s01-00.png
+    text: adopting systems,
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-sales-agents/s01-02.png
+    text: $5.5B
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-sales-agents/s01-10.png
+    text: $1.1B $0.7B $0.9B 2026 2027 2028
+  BR:
+    name: 2034 2035 2036
+    src: ../../assets/logos/pp_live/ai-sales-agents/s01-11.png
+    text: ''
+  caption:
+  - We compared forecasts from Grand View Research and Meticulous Research
+  - We adjusted each one to our definition, with all the sources at the end of the report
+  inside:
+  - ../../assets/logos/pp_live/ai-sales-agents/s01-01.png
+  - ../../assets/logos/pp_live/ai-sales-agents/s01-03.png
+  - ../../assets/logos/pp_live/ai-sales-agents/s01-04.png
+  - ../../assets/logos/pp_live/ai-sales-agents/s01-05.png
+  - ../../assets/logos/pp_live/ai-sales-agents/s01-06.png
+  - ../../assets/logos/pp_live/ai-sales-agents/s01-07.png
+  - ../../assets/logos/pp_live/ai-sales-agents/s01-08.png
+  - ../../assets/logos/pp_live/ai-sales-agents/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s01-01.png
+    x: 515.6
+    y: 283.5
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s01-03.png
+    x: 427.1
+    y: 330.2
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s01-04.png
+    x: 374.8
+    y: 362.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s01-05.png
+    x: 489.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s01-06.png
+    x: 555.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s01-07.png
+    x: 445.1
+    y: 394.9
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s01-08.png
+    x: 502.9
+    y: 414.2
+  - src: ../../assets/logos/pp_live/ai-sales-agents/s01-09.png
+    x: 462.6
+    y: 462.6
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'Sales teams are looking up AI SDRs
+
+    that book meetings on their own'
+  date: Lately.
+  expl: Sales teams discovered AI that finds leads, writes emails and books meetings on its own. Startups selling AI sales reps raised money fast, and every
+    sales leader wanted to see one.
+  term: ai sales agents
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/ai-sales-agents/ai-sales-agents.csv
+ed052p:
+  type: pp_cagr
+  title: 'Is the AI sales agents
+
+    market still growing fast?'
+  lead: ''
+  condition: Yes, but agents must move from pilots to whole sales teams, and buyers must trust them to contact prospects in their name. They must also keep
+    proving pipeline and revenue, and keep their share as CRM suites bundle agents into their plans.
+  note:
+  - We compared forecasts from MarketsandMarkets, Grand View and Salesforce with the leaders’ growth
+  - We allowed for bundling and inbox limits, and all the sources we used are listed at the end of the report
+  size: 2.3
+  cagr: 32
+  y0: 2026

@@ -1,0 +1,613 @@
+ed058:
+  type: pp_pains
+  title: 'Which self-driving problems
+
+    are still unsolved today?'
+  auds:
+  - City commuters
+  - Night riders
+  - Airport travelers
+  - Senior riders
+  - Ride-hail apps
+  pains:
+  - - They wait too long for a car because few robotaxis cover the area
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 3
+  - - They feel unsure about riding after viral crashes and incidents
+    - - 2
+      - 3
+      - 1
+      - 3
+      - 2
+  - - They cannot use the service outside a few small zones in each city
+    - - 3
+      - 1
+      - 2
+      - 1
+      - 3
+  - - They lose the service on days with bad weather or a power outage
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They pay more than for a regular ride in many US cities today
+    - - 3
+      - 2
+      - 1
+      - 2
+      - 1
+  - - They get dropped off far from the door they asked to be taken to
+    - - 2
+      - 1
+      - 3
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which self-driving firm has
+
+    the most complete tech today?'
+  companies:
+  - name: WeRide
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s05-00.png
+  - name: Pony.ai
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s05-01.png
+  - name: Apollo Go
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s05-02.png
+  - name: Waymo
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s05-03.png
+  - name: Tesla
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s05-04.png
+  - name: Zoox
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s05-05.png
+  features:
+  - header: Driverless|rides
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Driverless|abroad
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Uber or|Lyft deal
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Driver|assist
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Robot|freight
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Robo-|bus
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Uses|lidar
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+    to autonomous vehicles?'
+  events:
+  - odds: 35
+    impact: 2
+    text: Pony.ai, WeRide and other robotaxi operators keep losing money for years and investors lose patience
+  - odds: 35
+    impact: 2
+    text: Another blackout or software bug freezes hundreds of robotaxis and blocks city traffic, as in San Francisco
+  - odds: 30
+    impact: 2
+    text: Mid-size autonomous driving startups fail to raise new rounds as capital flows only to Waymo and Tesla
+  - odds: 25
+    impact: 2
+    text: Federal and state rules keep human safety drivers in Aurora and Kodiak trucks, killing the driverless savings
+  - odds: 20
+    impact: 1
+    text: Public protests and vandalism against Waymo cars spread to new cities and slow robotaxi launches across America
+  - odds: 15
+    impact: 3
+    text: Tesla scales its Cybercab fleet at a far lower cost per mile than Waymo and rival operators
+  - odds: 15
+    impact: 2
+    text: The US bans Chinese autonomous driving software and China blocks Western players, splitting the market in two
+  - odds: 10
+    impact: 3
+    text: After a fatal robotaxi crash, US regulators suspend driverless permits for Waymo, Zoox and every other operator
+  note:
+  - We listed the events that could slow autonomous vehicle down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed self-driving cars
+
+    forward, year after year?'
+  events:
+  - year: '1995'
+    text: CMU van steers itself across America
+    impact: 0.5
+  - year: '2004'
+    text: DARPA desert race sparks dozens of teams
+    impact: 1.5
+  - year: '2005'
+    text: Stanford wins DARPA race, proving it works
+    impact: 1.5
+  - year: '2007'
+    text: DARPA city race shows cars handle traffic
+    impact: 1
+  - year: '2009'
+    text: Google starts a secret self driving project
+    impact: 2.5
+  - year: '2011'
+    text: Nevada passes first law allowing robot cars
+    impact: 1
+  - year: '2012'
+    text: AlexNet makes deep learning vision work
+    impact: 1.5
+  - year: '2014'
+    text: Tesla ships Autopilot hardware in every car
+    impact: 1
+  - year: '2016'
+    text: GM buys Cruise, carmakers rush in
+    impact: 2
+  - year: '2016'
+    text: Uber buys Otto, betting on robot drivers
+    impact: 1
+  - year: '2017'
+    text: Intel pays $15 billion for Mobileye
+    impact: 1.5
+  - year: '2018'
+    text: Waymo opens paid robotaxi service in Phoenix
+    impact: 2
+  - year: '2020'
+    text: Volvo puts Luminar lidar in production cars
+    impact: 1.5
+  - year: '2020'
+    text: Waymo drops safety drivers in Phoenix
+    impact: 2
+  - year: '2020'
+    text: Nuro wins first US driverless exemption
+    impact: 1
+  - year: '2021'
+    text: Baidu starts paid robotaxi rides in Beijing
+    impact: 1
+  - year: '2022'
+    text: US drops steering wheel rule for AVs
+    impact: 1
+  - year: '2022'
+    text: Cruise starts first driverless fares in SF
+    impact: 1.5
+  - year: '2023'
+    text: California lets robotaxis charge fares 24/7
+    impact: 2.5
+  - year: '2023'
+    text: Cruise crash sidelines rival, Waymo leads
+    impact: 1
+  - year: '2024'
+    text: Tesla FSD v12 drives with neural networks
+    impact: 1.5
+  - year: '2024'
+    text: Baidu cuts robotaxi cost to $28,000
+    impact: 1.5
+  - year: '2024'
+    text: Pony and WeRide IPOs open public money
+    impact: 1
+  - year: '2025'
+    text: Tesla launches robotaxi rides in Austin
+    impact: 2
+  - year: '2025'
+    text: Aurora runs driverless trucks in Texas
+    impact: 1.5
+  - year: '2025'
+    text: US eases crash rules and exemptions
+    impact: 1
+  - year: '2025'
+    text: Zoox opens free robotaxi rides in Vegas
+    impact: 1
+  - year: '2025'
+    text: Uber plans 20,000 Lucid robotaxis with Nuro
+    impact: 1
+  - year: '2026'
+    text: Tesla drops safety monitors in Austin
+    impact: 2
+  - year: '2026'
+    text: Waymo hits 500,000 paid rides a week
+    impact: 3
+  note:
+  - We kept the events we believe pushed autonomous vehicle forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: autonomous-vehicle
+  title: 'Where did autonomous vehicle
+
+    investors put their money lately?'
+  note:
+  - We added up every equity round of autonomous vehicle startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top companies in
+
+    the autonomous vehicle market?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-00.png
+    x: 353.1
+    y: 264.4
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-01.png
+    x: 442.7
+    y: 266.8
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-02.png
+    x: 657.0
+    y: 270.0
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-03.png
+    x: 723.4
+    y: 282.6
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-04.png
+    x: 187.3
+    y: 305.1
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-05.png
+    x: 244.3
+    y: 297.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-06.png
+    x: 300.9
+    y: 294.0
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-07.png
+    x: 531.9
+    y: 297.4
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-08.png
+    x: 799.3
+    y: 298.5
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-09.png
+    x: 413.8
+    y: 373.3
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-10.png
+    x: 648.0
+    y: 366.6
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-11.png
+    x: 765.4
+    y: 372.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-12.png
+    x: 263.6
+    y: 390.6
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-13.png
+    x: 478.7
+    y: 390.6
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-14.png
+    x: 558.2
+    y: 389.1
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-15.png
+    x: 706.7
+    y: 400.3
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-16.png
+    x: 412.7
+    y: 492.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-17.png
+    x: 475.3
+    y: 468.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-18.png
+    x: 586.1
+    y: 468.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-19.png
+    x: 680.6
+    y: 469.5
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-20.png
+    x: 221.8
+    y: 513.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-21.png
+    x: 281.8
+    y: 507.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-22.png
+    x: 531.0
+    y: 507.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-23.png
+    x: 663.0
+    y: 520.3
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s10-24.png
+    x: 743.6
+    y: 509.1
+  cols:
+  - Cross-border r
+  - Rails & ramps
+  - Platform-first / pre-scale
+  rows:
+  - Passenger mobility
+  - Recently. Solar and
+  - Freight & delivery
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'What broke these self-driving
+
+    startups, and how did they end?'
+  causes:
+  - Regulator or|crash probe
+  - Backer|pulled out
+  - Ran out|of cash
+  - Product|too far off
+  rows:
+  - name: Argo AI
+    ending: Shut down
+    start: '2016'
+    end: '2022'
+    causes:
+    - 0
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s11-00.png
+    ini: A
+    slug: argo-ai
+    domain: argo.ai
+  - name: Cruise
+    ending: Shut down
+    start: '2013'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s11-01.png
+    ini: C
+    slug: cruise
+    domain: getcruise.com
+  - name: Embark Trucks
+    ending: Sold for $71M
+    start: '2016'
+    end: '2023'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s11-02.png
+    ini: E
+    slug: embark-trucks
+    domain: embarktrucks.com
+  - name: Ghost Autonomy
+    ending: Shut down
+    start: '2017'
+    end: '2024'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s11-03.png
+    ini: G
+    slug: ghost-autonomy
+    domain: ghostautonomy.com
+  - name: Starsky
+    ending: Shut down
+    start: '2016'
+    end: '2020'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s11-04.png
+    ini: S
+    slug: starsky-robotics
+    domain: starsky.io
+  note:
+  - We tracked the autonomous vehicle startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Waymo winning
+
+    the robotaxi market?'
+  companies:
+  - short: Waymo
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s12-00.png
+  - short: Tesla
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s12-01.png
+  - short: Zoox
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s12-02.png
+  - short: Apollo Go
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s12-03.png
+  - short: Pony.ai
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s12-04.png
+  - short: WeRide
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s12-05.png
+  criteria:
+  - name: Driverless in 5+ US metros
+    why: Widest US robotaxi footprint
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Paid driverless rides
+    why: Real revenue, no safety driver
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - name: Backed by a tech giant
+    why: Deep pockets for fleet growth
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Uber or Lyft partnership
+    why: Instant access to riders
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+  - name: Purpose built robotaxi
+    why: Lower cost per vehicle
+    ticks:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: First public driverless
+    why: Years ahead on rider data
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Published safety studies
+    why: Builds trust with regulators
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Which companies really belong
+
+    in autonomous driving today?'
+  TL:
+    name: Mercedes-Benz
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s01-00.png
+    text: was the first carmaker to sell certified Level 3 driving, but it has dropped Drive Pilot from its newest US models
+  TR:
+    name: Uber
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s01-02.png
+    text: offers robotaxi rides from Waymo, WeRide and others in its app, but it builds none of the self-driving technology itself
+  BL:
+    name: Mobileye
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s01-09.png
+    text: supplies the self-driving system for Volkswagen's robotaxis, but most of its sales come from driver assistance chips
+  BR:
+    name: Tesla
+    src: ../../assets/logos/pp_live/autonomous-vehicle/s01-10.png
+    text: runs driverless robotaxis in three Texas cities, but the FSD it sells to 1.3 million owners is still a supervised system
+  caption:
+  - Distance to the center reflects how fully a vehicle takes over the driving task on public roads, not just assists the driver
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/autonomous-vehicle/s01-01.png
+  - ../../assets/logos/pp_live/autonomous-vehicle/s01-03.png
+  - ../../assets/logos/pp_live/autonomous-vehicle/s01-04.png
+  - ../../assets/logos/pp_live/autonomous-vehicle/s01-05.png
+  - ../../assets/logos/pp_live/autonomous-vehicle/s01-06.png
+  - ../../assets/logos/pp_live/autonomous-vehicle/s01-07.png
+  - ../../assets/logos/pp_live/autonomous-vehicle/s01-08.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s01-01.png
+    x: 483.6
+    y: 277.9
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s01-03.png
+    x: 412.7
+    y: 348.2
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s01-04.png
+    x: 478.9
+    y: 352.5
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s01-05.png
+    x: 545.8
+    y: 345.6
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s01-06.png
+    x: 448.9
+    y: 404.8
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s01-07.png
+    x: 509.8
+    y: 406.3
+  - src: ../../assets/logos/pp_live/autonomous-vehicle/s01-08.png
+    x: 485.4
+    y: 464.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'How much bigger can
+
+    stablecoin payments get?'
+  date: ''
+  expl: $28 $ 22B $17B $13B
+  term: autonomous vehicle
+  note:
+  - We compared forecasts from Astute Analytica, Mordor, Bloomberg Intelligence and JPMorgan to build a realistic range
+  - We added our funding tracker and allowed for falling take rates, and all the sources are included at the end of the report
+  csv: assets/trends/autonomous-vehicle/autonomous-vehicle.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much room is left
+
+    for this market to grow?'
+  lead: 'To fill that room, '
+  condition: robotaxis must spread to dozens of cities in the US, China, the Gulf, and Europe, with fleets in the hundreds of thousands. Driverless trucks
+    and robovans must scale too, and vehicles must get cheap enough for each ride and each mile to make a profit.
+  note:
+  - We compared forecasts from Grand View, Precedence, MarketsandMarkets and Goldman Sachs
+  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  size: 1
+  cagr: 40
+  y0: 2026

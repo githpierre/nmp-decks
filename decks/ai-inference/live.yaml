@@ -1,0 +1,320 @@
+ed148p:
+  title: 'What pushed the AI inference
+
+    market forward, year after year?'
+  events:
+  - year: '2015'
+    text: Google deploys inference-first TPUs
+    impact: 3.0
+  - year: '2016'
+    text: Google publicly reveals TPU acceleration
+    impact: 2.0
+  - year: '2017'
+    text: Cloud TPUs open accelerator access
+    impact: 2.0
+  - year: '2018'
+    text: NVIDIA Triton standardizes model serving
+    impact: 2.5
+  - year: '2019'
+    text: Cloud inference becomes managed service
+    impact: 1.5
+  - year: '2020'
+    text: GPU serving stacks improve utilization
+    impact: 1.5
+  - year: '2021'
+    text: Serverless inference enters public preview
+    impact: 1.5
+  - year: '2022'
+    text: SageMaker serverless inference reaches GA
+    impact: 2.0
+  - year: '2022'
+    text: Generative AI multiplies token demand
+    impact: 3.0
+  - year: '2023'
+    text: TensorRT-LLM opens optimized LLM serving
+    impact: 2.0
+  - year: '2023'
+    text: Paged attention boosts serving efficiency
+    impact: 2.0
+  - year: '2023'
+    text: Cloudflare pushes inference to the edge
+    impact: 1.5
+  - year: '2023'
+    text: Bedrock normalizes model API consumption
+    impact: 2.0
+  - year: '2023'
+    text: Open models widen hosting competition
+    impact: 2.0
+  - year: '2024'
+    text: Groq proves extreme low-latency demand
+    impact: 2.0
+  - year: '2024'
+    text: Groq serves Llama within hours
+    impact: 1.5
+  - year: '2024'
+    text: Cerebras launches wafer-scale inference
+    impact: 2.0
+  - year: '2024'
+    text: Cerebras triples Llama serving speed
+    impact: 1.5
+  - year: '2024'
+    text: Azure expands serverless model APIs
+    impact: 1.5
+  - year: '2025'
+    text: Reasoning models raise inference intensity
+    impact: 2.0
+  - year: '2025'
+    text: Cerebras accelerates DeepSeek reasoning
+    impact: 1.5
+  - year: '2025'
+    text: Llama 4 gets instant inference
+    impact: 1.5
+  - year: '2025'
+    text: Inference becomes agent infrastructure
+    impact: 2.0
+  - year: '2025'
+    text: TPUs add open serving stacks
+    impact: 1.5
+  - year: '2025'
+    text: Model routing becomes cost optimization
+    impact: 1.5
+  - year: '2025'
+    text: Quantization moves into mainstream serving
+    impact: 1.5
+  - year: '2026'
+    text: TensorRT 11 spans multiple GPUs
+    impact: 2.0
+  - year: '2026'
+    text: Lovable buys dedicated fast inference
+    impact: 2.0
+  - year: '2026'
+    text: Triton keeps monthly production cadence
+    impact: 1.0
+  - year: '2026'
+    text: Specialized clouds pressure GPU economics
+    impact: 1.5
+  note:
+  - We kept the events we believe pushed ai inference forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: ai-inference
+  title: 'Where did AI inference investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of ai inference startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in AI inference today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/ai-inference/s10-00.png
+    x: 219.0
+    y: 272.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-01.png
+    x: 444.0
+    y: 272.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-02.png
+    x: 676.9
+    y: 272.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-03.png
+    x: 315.0
+    y: 296.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-04.png
+    x: 549.0
+    y: 296.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-05.png
+    x: 772.3
+    y: 296.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-06.png
+    x: 219.0
+    y: 376.9
+  - src: ../../assets/logos/pp_live/ai-inference/s10-07.png
+    x: 315.0
+    y: 400.9
+  - src: ../../assets/logos/pp_live/ai-inference/s10-08.png
+    x: 444.0
+    y: 376.9
+  - src: ../../assets/logos/pp_live/ai-inference/s10-09.png
+    x: 549.0
+    y: 400.9
+  - src: ../../assets/logos/pp_live/ai-inference/s10-10.png
+    x: 676.9
+    y: 376.9
+  - src: ../../assets/logos/pp_live/ai-inference/s10-11.png
+    x: 772.1
+    y: 400.9
+  - src: ../../assets/logos/pp_live/ai-inference/s10-12.png
+    x: 219.0
+    y: 479.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-13.png
+    x: 444.0
+    y: 479.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-14.png
+    x: 676.9
+    y: 479.8
+  - src: ../../assets/logos/pp_live/ai-inference/s10-15.png
+    x: 315.0
+    y: 504.9
+  - src: ../../assets/logos/pp_live/ai-inference/s10-16.png
+    x: 549.0
+    y: 504.9
+  - src: ../../assets/logos/pp_live/ai-inference/s10-17.png
+    x: 772.1
+    y: 504.9
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Hosted API
+  - GPU runtime (9)
+  - Custom chips
+  note:
+  - We placed private pure players by their main product and their stage, from funding news, company websites and the press
+  - We left out listed companies and incumbents like NVIDIA, AMD, and all our sources are at the end of the report
+ed209p:
+  title: 'How did Fireworks AI take
+
+    the lead in hosted inference?'
+  companies:
+  - short: Fireworks AI
+    src: ../../assets/logos/pp_live/ai-inference/s12-00.png
+  - short: Together AI
+    src: ../../assets/logos/pp_live/ai-inference/s12-01.png
+  - short: Groq
+    src: ../../assets/logos/pp_live/ai-inference/s12-02.png
+  - short: Cerebras
+    src: ../../assets/logos/pp_live/ai-inference/s12-03.png
+  - short: Baseten
+    src: ../../assets/logos/pp_live/ai-inference/s12-04.png
+  criteria:
+  - name: Fast serving
+    why: Cuts latency
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - name: Broad models
+    why: Widens use cases
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - name: Fine-tuning
+    why: Raises stickiness
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Dedicated deploy
+    why: Wins enterprise
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - name: OpenAI API
+    why: Cuts switching cost
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Scale proof
+    why: Signals reliability
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'More and more people search
+
+    for a UGC creator platform online'
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-inference/s01-00.png
+    text: more searches x a= than in a typical
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-inference/s01-02.png
+    text: ''
+  BL:
+    name: Worldwide
+    src: ../../assets/logos/pp_live/ai-inference/s01-09.png
+    text: ''
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/ai-inference/s01-10.png
+    text: years
+  caption:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  inside:
+  - ../../assets/logos/pp_live/ai-inference/s01-01.png
+  - ../../assets/logos/pp_live/ai-inference/s01-03.png
+  - ../../assets/logos/pp_live/ai-inference/s01-04.png
+  - ../../assets/logos/pp_live/ai-inference/s01-05.png
+  - ../../assets/logos/pp_live/ai-inference/s01-06.png
+  - ../../assets/logos/pp_live/ai-inference/s01-07.png
+  - ../../assets/logos/pp_live/ai-inference/s01-08.png
+  - ../../assets/logos/pp_live/ai-inference/s01-11.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/ai-inference/s01-01.png
+    x: 543.0
+    y: 275.8
+  - src: ../../assets/logos/pp_live/ai-inference/s01-03.png
+    x: 399.0
+    y: 338.8
+  - src: ../../assets/logos/pp_live/ai-inference/s01-04.png
+    x: 475.1
+    y: 330.9
+  - src: ../../assets/logos/pp_live/ai-inference/s01-05.png
+    x: 558.9
+    y: 356.1
+  - src: ../../assets/logos/pp_live/ai-inference/s01-06.png
+    x: 456.0
+    y: 395.6
+  - src: ../../assets/logos/pp_live/ai-inference/s01-07.png
+    x: 519.0
+    y: 407.6
+  - src: ../../assets/logos/pp_live/ai-inference/s01-08.png
+    x: 447.9
+    y: 453.0
+  - src: ../../assets/logos/pp_live/ai-inference/s01-11.png
+    x: 520.9
+    y: 497.8
+ed052p:
+  type: pp_cagr
+  title: ''
+  lead: ''
+  condition: ''
+  note: []
+  size: 118
+  cagr: null
+  y0: null

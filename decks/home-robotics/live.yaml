@@ -1,0 +1,628 @@
+ed058:
+  type: pp_pains
+  title: 'What has already been fixed in home
+
+    robotics, and what is left to solve?'
+  auds:
+  - US homeowners
+  - Villa owners
+  - Australian homes
+  - Pool services
+  - Premium buyers
+  pains:
+  - - They fight a price war against cheap Chinese cordless brands
+    - - 3
+      - 2
+      - 2
+      - 3
+      - 3
+  - - They need dealers who will stock and repair a brand they do not know
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They must stop the batteries from overheating underwater
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 3
+  - - They lose a year of sales when one summer season starts late
+    - - 2
+      - 3
+      - 3
+      - 2
+      - 1
+  - - They compete with Fluidra and Pentair on the dealer shelf
+    - - 2
+      - 2
+      - 1
+      - 3
+      - 2
+  - - They must clean walls and waterlines on every shape of pool
+    - - 2
+      - 1
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which robot maker offers the
+
+    most complete tech today?'
+  companies:
+  - name: Ecovacs
+    src: ../../assets/logos/pp_live/home-robotics/s05-00.png
+  - name: Roborock
+    src: ../../assets/logos/pp_live/home-robotics/s05-01.png
+  - name: Dreame
+    src: ../../assets/logos/pp_live/home-robotics/s05-02.png
+  - name: eufy
+    src: ../../assets/logos/pp_live/home-robotics/s05-03.png
+  - name: iRobot
+    src: ../../assets/logos/pp_live/home-robotics/s05-04.png
+  features:
+  - header: Robot|arm
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Robot|mower
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Window|robot
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - header: Pool|robot
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Roller|mop
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Wet-dry|vacuum
+    values:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Companion|robot
+    values:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest
+
+    threats to home robots?'
+  events:
+  - odds: 35
+    impact: 2
+    text: A price war in robot mowers and pool cleaners hits Maytronics and forces many makers to close
+  - odds: 30
+    impact: 3
+    text: Chore humanoids like NEO and Figure 03 fail to work at home, and investors abandon the category
+  - odds: 25
+    impact: 3
+    text: Ecovacs, Roborock and Dreame dominate mowers and pool robots and squeeze smaller home robot startups
+  - odds: 20
+    impact: 2
+    text: The US blocks Chinese home robots through tariffs or a ban after its robotics probe
+  - odds: 15
+    impact: 1
+    text: Two wet springs in a row cut robot mower sales at Husqvarna and smaller makers
+  - odds: 10
+    impact: 2
+    text: A large battery fire recall of robot mowers or pool cleaners hits Aiper, Wybotics or peers
+  - odds: 8
+    impact: 2
+    text: Hackers take over thousands of home robots through a shared cloud flaw, exposing cameras inside homes
+  - odds: 5
+    impact: 2
+    text: Reports reveal home robots like NEO secretly run by remote workers, and buyers fear for privacy
+  note:
+  - We listed the events that could slow home robotics down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed home robots
+
+    forward, year after year?'
+  events:
+  - year: '1996'
+    text: Electrolux Trilobite tests the robot vacuum
+    impact: 1
+  - year: '2002'
+    text: Roomba makes robot vacuums affordable
+    impact: 3
+  - year: '2005'
+    text: iRobot IPO funds home robot growth
+    impact: 1
+  - year: '2005'
+    text: Scooba robot takes on floor mopping
+    impact: 0.5
+  - year: '2010'
+    text: Neato adds laser mapping to vacuums
+    impact: 1
+  - year: '2014'
+    text: Dyson 360 Eye adds camera navigation
+    impact: 1
+  - year: '2015'
+    text: Roomba 980 maps homes via an app
+    impact: 1.5
+  - year: '2016'
+    text: Xiaomi vacuum halves robot vacuum prices
+    impact: 2
+  - year: '2018'
+    text: Roborock S5 brings lidar to mid prices
+    impact: 1
+  - year: '2018'
+    text: Self-emptying bins end daily chores
+    impact: 1
+  - year: '2020'
+    text: Lockdowns spark a home cleaning boom
+    impact: 1.5
+  - year: '2021'
+    text: Amazon Astro tests a home helper robot
+    impact: 1
+  - year: '2021'
+    text: Self-washing mop docks win buyers
+    impact: 1
+  - year: '2022'
+    text: Amazon bids $1.7B for iRobot
+    impact: 2
+  - year: '2023'
+    text: Wire-free mowers take robots outdoors
+    impact: 1
+  - year: '2023'
+    text: RT-2 lets robots act on web knowledge
+    impact: 1.5
+  - year: '2023'
+    text: RT-X pools robot data across labs
+    impact: 1
+  - year: '2024'
+    text: Stanford's $32K robot learns to cook
+    impact: 1.5
+  - year: '2024'
+    text: Amazon exits iRobot deal, China brands surge
+    impact: 1.5
+  - year: '2024'
+    text: Physical Intelligence robot folds laundry
+    impact: 2
+  - year: '2024'
+    text: Tesla shows Optimus serving drinks
+    impact: 1
+  - year: '2025'
+    text: Roborock adds an arm to its vacuum
+    impact: 1.5
+  - year: '2025'
+    text: Figure Helix lets robots tidy homes
+    impact: 1.5
+  - year: '2025'
+    text: Nvidia GR00T model opens to humanoid makers
+    impact: 1.5
+  - year: '2025'
+    text: Gemini Robotics brings Google AI to robots
+    impact: 1.5
+  - year: '2025'
+    text: 1X opens Neo preorders at $20,000
+    impact: 2.5
+  - year: '2025'
+    text: Figure 03 is built for home chores
+    impact: 1.5
+  - year: '2025'
+    text: iRobot goes bankrupt as Chinese makers win
+    impact: 1
+  - year: '2026'
+    text: LG shows a chore humanoid at CES
+    impact: 1
+  - year: '2026'
+    text: 1X ships Neo humanoids to US homes
+    impact: 2.5
+  note:
+  - We kept the events we believe pushed home robotics forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: home-robotics
+  title: 'Where did home robot investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of home robotics startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in home robotics today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/home-robotics/s10-00.png
+    x: 257.8
+    y: 271.1
+  - src: ../../assets/logos/pp_live/home-robotics/s10-01.png
+    x: 465.4
+    y: 283.7
+  - src: ../../assets/logos/pp_live/home-robotics/s10-02.png
+    x: 735.2
+    y: 269.6
+  - src: ../../assets/logos/pp_live/home-robotics/s10-03.png
+    x: 319.9
+    y: 297.4
+  - src: ../../assets/logos/pp_live/home-robotics/s10-04.png
+    x: 380.1
+    y: 295.7
+  - src: ../../assets/logos/pp_live/home-robotics/s10-05.png
+    x: 529.1
+    y: 303.9
+  - src: ../../assets/logos/pp_live/home-robotics/s10-06.png
+    x: 586.3
+    y: 295.7
+  - src: ../../assets/logos/pp_live/home-robotics/s10-07.png
+    x: 683.8
+    y: 299.8
+  - src: ../../assets/logos/pp_live/home-robotics/s10-08.png
+    x: 792.4
+    y: 300.0
+  - src: ../../assets/logos/pp_live/home-robotics/s10-09.png
+    x: 380.1
+    y: 369.9
+  - src: ../../assets/logos/pp_live/home-robotics/s10-10.png
+    x: 812.4
+    y: 372.4
+  - src: ../../assets/logos/pp_live/home-robotics/s10-11.png
+    x: 269.6
+    y: 389.4
+  - src: ../../assets/logos/pp_live/home-robotics/s10-12.png
+    x: 328.5
+    y: 404.6
+  - src: ../../assets/logos/pp_live/home-robotics/s10-13.png
+    x: 462.2
+    y: 399.0
+  - src: ../../assets/logos/pp_live/home-robotics/s10-14.png
+    x: 528.4
+    y: 387.9
+  - src: ../../assets/logos/pp_live/home-robotics/s10-15.png
+    x: 606.6
+    y: 386.6
+  - src: ../../assets/logos/pp_live/home-robotics/s10-16.png
+    x: 689.4
+    y: 402.4
+  - src: ../../assets/logos/pp_live/home-robotics/s10-17.png
+    x: 750.4
+    y: 384.4
+  - src: ../../assets/logos/pp_live/home-robotics/s10-18.png
+    x: 262.3
+    y: 486.0
+  - src: ../../assets/logos/pp_live/home-robotics/s10-19.png
+    x: 394.5
+    y: 483.4
+  - src: ../../assets/logos/pp_live/home-robotics/s10-20.png
+    x: 472.3
+    y: 494.1
+  - src: ../../assets/logos/pp_live/home-robotics/s10-21.png
+    x: 553.9
+    y: 476.1
+  - src: ../../assets/logos/pp_live/home-robotics/s10-22.png
+    x: 689.4
+    y: 483.6
+  - src: ../../assets/logos/pp_live/home-robotics/s10-23.png
+    x: 759.6
+    y: 482.6
+  - src: ../../assets/logos/pp_live/home-robotics/s10-24.png
+    x: 335.1
+    y: 512.6
+  - src: ../../assets/logos/pp_live/home-robotics/s10-25.png
+    x: 609.4
+    y: 509.1
+  - src: ../../assets/logos/pp_live/home-robotics/s10-26.png
+    x: 822.0
+    y: 511.3
+  cols:
+  - Leaders
+  - Challengers
+  - Newcomers
+  rows:
+  - Outdoor
+  - Chores
+  - Companion
+  note:
+  - We left out listed groups and giants like Husqvarna, Segway Ninebot, Ecovacs and Roborock
+  - We placed each pure player by its main product, with all the sources at the end of the report
+ed201:
+  type: pp_killers
+  mode: dead
+  title: 'Why did these robot startups
+
+    fail, and how did they end?'
+  causes:
+  - Weak|sales
+  - Ran out|of cash
+  - Owner|pulled plug
+  - Cheaper|rivals
+  rows:
+  - name: iRobot
+    ending: Went bankrupt
+    start: '1990'
+    end: '2025'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 1
+    src: ../../assets/logos/pp_live/home-robotics/s11-00.png
+    ini: i
+    slug: irobot
+    domain: irobot.com
+  - name: Anki
+    ending: Shut down
+    start: '2010'
+    end: '2019'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/home-robotics/s11-01.png
+    ini: A
+    slug: anki
+    domain: anki.com
+  - name: Jibo
+    ending: Shut down
+    start: '2012'
+    end: '2018'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/home-robotics/s11-02.png
+    ini: J
+    slug: jibo
+    domain: jibo.com
+  - name: Kuri
+    ending: Shut down
+    start: '2015'
+    end: '2018'
+    causes:
+    - 0
+    - 0
+    - 1
+    - 0
+    src: ../../assets/logos/pp_live/home-robotics/s11-03.png
+    ini: K
+    slug: mayfield-robotics
+    domain: heykuri.com
+  - name: Neato
+    ending: Shut down
+    start: '2005'
+    end: '2023'
+    causes:
+    - 1
+    - 0
+    - 1
+    - 1
+    src: ../../assets/logos/pp_live/home-robotics/s11-04.png
+    ini: N
+    slug: neato-robotics
+    domain: neatorobotics.com
+  - name: Embodied
+    ending: Shut down
+    start: '2016'
+    end: '2024'
+    causes:
+    - 1
+    - 1
+    - 0
+    - 0
+    src: ../../assets/logos/pp_live/home-robotics/s11-05.png
+    ini: E
+    slug: embodied
+    domain: embodied.com
+  note:
+  - We tracked the home robotics startups that shut down, went bankrupt or were sold for little
+  - We used court filings and the press, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Roborock winning
+
+    the robot vacuum market?'
+  companies:
+  - short: Roborock
+    src: ../../assets/logos/pp_live/home-robotics/s12-00.png
+  - short: Ecovacs
+    src: ../../assets/logos/pp_live/home-robotics/s12-01.png
+  - short: Dreame
+    src: ../../assets/logos/pp_live/home-robotics/s12-02.png
+  - short: SharkNinja
+    src: ../../assets/logos/pp_live/home-robotics/s12-03.png
+  - short: Narwal
+    src: ../../assets/logos/pp_live/home-robotics/s12-04.png
+  - short: Eufy
+    src: ../../assets/logos/pp_live/home-robotics/s12-05.png
+  criteria:
+  - name: No.1 global share (IDC)
+    why: Scale lowers unit costs
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: 45% share in Europe
+    why: Wins the richest market
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Profitable listed company
+    why: Cash to fund new models
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - name: Robot arm vacuum on sale
+    why: Premium tech sets the pace
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Stair climbing robot shown
+    why: Leads the next form factor
+    ticks:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Robot lawn mower on sale
+    why: More products per home
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - name: Wet dry floor vacuums
+    why: Broad home cleaning range
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: 'Who Is in the home robot
+
+    market, and who is not?'
+  TL:
+    name: Pudu Robotics
+    src: ../../assets/logos/pp_live/home-robotics/s01-00.png
+    text: has shipped over 130,000 cleaning and delivery robots, but for restaurants, hotels and offices, not homes
+  TR:
+    name: Thermomix
+    src: ../../assets/logos/pp_live/home-robotics/s01-02.png
+    text: chops, stirs and cooks in over 20 modes, but it is a countertop kitchen appliance, not a robot doing housework
+  BL:
+    name: 1X
+    src: ../../assets/logos/pp_live/home-robotics/s01-10.png
+    text: plans to deliver its $20,000 NEO to homes by the end of 2026, but remote f A fl F operators will help with chores it can't ae
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/home-robotics/s01-11.png
+    text: ise eli eae ie oe bara ur TnL 7 URTSKIE Caalhy steluhi Bio GATE 2024 revenue, far behind its scooters and other products
+  caption:
+  - Distance to the center reflects how central a robot doing tasks inside the home is to the business, rather than a side product
+  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
+  inside:
+  - ../../assets/logos/pp_live/home-robotics/s01-01.png
+  - ../../assets/logos/pp_live/home-robotics/s01-03.png
+  - ../../assets/logos/pp_live/home-robotics/s01-04.png
+  - ../../assets/logos/pp_live/home-robotics/s01-05.png
+  - ../../assets/logos/pp_live/home-robotics/s01-06.png
+  - ../../assets/logos/pp_live/home-robotics/s01-07.png
+  - ../../assets/logos/pp_live/home-robotics/s01-08.png
+  - ../../assets/logos/pp_live/home-robotics/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/home-robotics/s01-01.png
+    x: 506.4
+    y: 280.9
+  - src: ../../assets/logos/pp_live/home-robotics/s01-03.png
+    x: 422.4
+    y: 334.9
+  - src: ../../assets/logos/pp_live/home-robotics/s01-04.png
+    x: 373.1
+    y: 371.8
+  - src: ../../assets/logos/pp_live/home-robotics/s01-05.png
+    x: 486.0
+    y: 352.9
+  - src: ../../assets/logos/pp_live/home-robotics/s01-06.png
+    x: 553.1
+    y: 360.2
+  - src: ../../assets/logos/pp_live/home-robotics/s01-07.png
+    x: 445.9
+    y: 397.9
+  - src: ../../assets/logos/pp_live/home-robotics/s01-08.png
+    x: 505.1
+    y: 412.1
+  - src: ../../assets/logos/pp_live/home-robotics/s01-09.png
+    x: 469.1
+    y: 463.9
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask when
+
+    a home robot will fold their laundry'
+  date: Lately.
+  expl: Humanoid robot demos for the home were everywhere, and some companies opened pre-orders. People started wondering when a robot will fold their laundry,
+    and what it will cost.
+  term: home robotics
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/home-robotics/home-robotics.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger
+
+    can this market get?'
+  lead: ''
+  condition: To get that big, robot mowers must keep replacing petrol mowers in Europe and win over US lawns, while pool robots spread from 28% of pools
+    to most of them. It must also see the first chore robots reach paying homes in volume, at a price far below today’s $20,000.
+  note:
+  - We compared forecasts from CIC, Global Industry Analysts, Technavio and GMI with IDC unit forecasts
+  - We allowed for falling prices to build a realistic range, and all our sources are at the end of the report
+  size: 5.8
+  cagr: 15
+  y0: 2026

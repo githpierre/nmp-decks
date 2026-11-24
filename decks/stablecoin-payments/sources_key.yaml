@@ -1,0 +1,122 @@
+# 20 key sources (draft_sources_key.py, rewritten 22 Nov 2026)
+rows:
+- name: 'McKinsey and Artemis,
+
+    real payments study'
+  why: McKinsey's study with Artemis that separates real stablecoin payments from trading and internal transfers
+  how: We used it for the $390B of real payments in 2025 and the split by region. It also showed how small payments still are.
+  url: https://www.mckinsey.com/industries/financial-services/our-insights/stablecoins-in-payments-what-the-raw-transaction-numbers-miss
+- name: 'Circle, CPN
+
+    Managed Payments'
+  why: Circle's release on its managed payments service, where partners use stablecoin rails without holding coins
+  how: We used it for the latest tech developments. It also showed how giants hide the blockchain from their clients.
+  url: https://www.circle.com/pressroom/circle-launches-cpn-managed-payments-a-full-stack-platform-for-seamless-stablecoin-settlement
+- name: 'Bridge, product
+
+    pages'
+  why: Bridge's product page for receiving, converting, sending and cashing out stablecoins through one API
+  how: We used it for what a payment API does today. It also backed the Bridge comparison slide.
+  url: https://bridge.xyz/product/orchestration
+- name: 'BIS, competing
+
+    rails paper'
+  why: The Bank for International Settlements working paper on banks, fintechs and stablecoins in cross-border payments
+  how: We used it for the cost of cash-out and thin local liquidity. It also framed the structural limits of the market.
+  url: https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins
+- name: 'Mesh, $75M
+
+    Series C'
+  why: Mesh's release on its $75M round at a $1B value, with its wallet payment network
+  how: We used it for the $1B valuation and how Mesh links wallets to merchants. It also set Mesh's place among the leaders.
+  url: https://www.meshpay.com/blog/mesh-raises-75m-series-c-at-1b-valuation
+- name: 'Mastercard, BVNK
+
+    deal closed'
+  why: Mastercard's release on closing its purchase of BVNK in August 2026
+  how: We used it for the largest deal of the market. It also showed a card network buying stablecoin rails.
+  url: https://www.mastercard.com/global/en/news-and-trends/press/2026/august/mastercard-completes-acquisition-of-bvnk-to-advance-global-stabl.html
+- name: 'Stripe, Bridge
+
+    deal closed'
+  why: Stripe's release on closing its purchase of Bridge in February 2025
+  how: We used it for the first big deal of the market. It also dated when the market became hot.
+  url: https://stripe.com/newsroom/news/stripe-completes-bridge-acquisition
+- name: 'Visa, stablecoin
+
+    card programs'
+  why: Visa's note on financing stablecoin-linked card programs, with its live programs and settlement pace
+  how: We used it for the 160 card programs and the $20B settlement pace. It also explained the card funding problem.
+  url: https://www.visa.com/en-us/thought-leadership/innovation/financing-stablecoin-linked-card-programs
+- name: 'Visa and Bridge,
+
+    card expansion'
+  why: Visa's release on Bridge-enabled stablecoin cards live in 18 countries
+  how: We used it for how far stablecoin cards reach. It also backed the card growth drivers.
+  url: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-bridge-stablecoin-linked-card-expansion.html
+- name: 'Conduit, $36M
+
+    Series A'
+  why: Conduit's release on its $36M round and its $10B yearly payment pace
+  how: We used it for the cross-border business payment leaders. It also gave a rare company volume figure.
+  url: https://conduitpay.com/blog/conduit-raises-36m-in-series-a
+- name: 'Stripe and Shopify,
+
+    USDC checkout'
+  why: Stripe's release on USDC checkout for Shopify merchants in 34 countries
+  how: We used it for when stablecoins reached mainstream checkout. It also dated the 2025 turning point.
+  url: https://stripe.com/newsroom/news/shopify-stripe-stablecoin-payments
+- name: 'Allium, Q3 2026
+
+    payments report'
+  why: Allium's quarterly report on stablecoin payments, with trading and internal flows removed
+  how: We used it for the $482B of payments through September and the 45% growth. It also set our 2026 payment pace.
+  url: https://app.allium.so/analyze/research/state-of-stablecoins-and-payments-q3-2026
+- name: 'Mastercard, SEC
+
+    filing on BVNK'
+  why: Mastercard's filing with the price it paid for BVNK
+  how: We used it for the $1.4B cash and the $300M extra. It also checked the deal values of the top players.
+  url: https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/R9.htm
+- name: 'Rain, $250M
+
+    Series C'
+  why: Rain's release on its $250M round at a value near $2B
+  how: We used it for the biggest card round and Rain's valuation. It also placed Rain among the $1B companies.
+  url: https://www.prnewswire.com/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-entERPrises-302657084.html
+- name: 'Visa, US stablecoin
+
+    settlement'
+  why: Visa's release on US banks settling with Visa in USDC
+  how: We used it for the move of a card network onto stablecoin rails. It also gave the $3.5B settlement pace of 2025.
+  url: https://corporate.visa.com/en/sites/visa-perspectives/press-releases/visa-launches-stablecoin-settlement-in-the-united-states.html
+- name: 'PYMNTS, Rain
+
+    platform'
+  why: PYMNTS on Rain's platform for launching stablecoin cards that work wherever Visa is accepted
+  how: We used it for how card issuing platforms work. It also backed the card value chain slides.
+  url: https://www.pymnts.com/news/investment-tracker/2026/rain-raises-250-million-to-scale-platform-for-launching-stablecoin-cards
+- name: 'Allium, September
+
+    2026 report'
+  why: Allium's report splitting stablecoin volume between trading, savings and payments
+  how: We used it for the share of payments and who receives them. It also framed domestic against cross-border use.
+  url: https://www.allium.so/reports/state-of-stablecoins-and-payments-september-2026
+- name: 'TechCrunch, Stripe
+
+    and Bridge'
+  why: TechCrunch on the $1.1B Stripe paid for Bridge
+  how: We used it for the deal value. It also backed the speed of the first $1B exits.
+  url: https://techcrunch.com/2025/02/05/stripe-makes-1-1-billion-crypto-bet-as-it-closes-on-bridge-acquisition
+- name: 'Congressional
+
+    Research Service'
+  why: The Congressional Research Service note on the reserve rules of the GENIUS Act
+  how: We used it for what the US law requires from issuers. It also framed the regulation timeline.
+  url: https://www.everycrsreport.com/reports/IN12553.html
+- name: 'Visa Direct,
+
+    stablecoin payouts'
+  why: Visa's note on moving stablecoin prefunding for payouts from pilot to production
+  how: We used it for the latest live services. It also showed payouts moving onto stablecoin rails.
+  url: https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-direct-moves-stablecoin-pilots-production.html

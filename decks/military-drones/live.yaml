@@ -1,0 +1,540 @@
+ed058:
+  type: pp_pains
+  title: 'Which battlefield problems
+
+    are still unsolved today?'
+  auds:
+  - Infantry squads
+  - Artillery units
+  - Special forces
+  - Border guards
+  - Navy crews
+  pains:
+  - - They get only about 30 minutes of flight from small batteries
+    - - 3
+      - 2
+      - 3
+      - 3
+      - 2
+  - - They lose drones to jamming before they see anything useful
+    - - 3
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They lose the video link as soon as they fly a little too far
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 2
+  - - They struggle to fly at night without good thermal cameras
+    - - 2
+      - 3
+      - 3
+      - 1
+      - 1
+  - - They cannot share live drone video with other units fast enough
+    - - 2
+      - 3
+      - 2
+      - 1
+      - 2
+  - - They wait months for spare parts and for drones to be repaired
+    - - 2
+      - 1
+      - 2
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which drone maker offers the
+
+    most complete tech today?'
+  companies:
+  - name: Anduril
+    src: ../../assets/logos/pp_live/military-drones/s05-00.png
+  - name: Baykar
+    src: ../../assets/logos/pp_live/military-drones/s05-01.png
+  - name: AV
+    src: ../../assets/logos/pp_live/military-drones/s05-02.png
+  - name: Shield AI
+    src: ../../assets/logos/pp_live/military-drones/s05-03.png
+  - name: GA-ASI
+    src: ../../assets/logos/pp_live/military-drones/s05-04.png
+  - name: Skydio
+    src: ../../assets/logos/pp_live/military-drones/s05-05.png
+  features:
+  - header: Carried by|one soldier
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Loitering|munition
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Jet combat|drone
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+  - header: Vertical|takeoff
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+  - header: Software|for others
+    values:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Fires|missiles
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  - header: Flies|24h+
+    values:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What could go wrong
+
+    for military drones?'
+  events:
+  - odds: 45
+    impact: 2
+    text: Drone Dominance pushes one-way attack drone prices from $5,000 to $2,300 each, crushing margins for makers
+  - odds: 40
+    impact: 2
+    text: AeroVironment, Rheinmetall and other primes copy or buy drone startups and win most large contracts
+  - odds: 30
+    impact: 2
+    text: A lasting Ukraine ceasefire cuts urgent drone orders and removes the main battlefield testing ground
+  - odds: 25
+    impact: 3
+    text: Congress cuts the $54.6 billion DAWG drone request by half or more, delaying large drone buys
+  - odds: 25
+    impact: 3
+    text: China cuts off motors, magnets and batteries to Western drone makers, halting production for months
+  - odds: 20
+    impact: 2
+    text: Investors pull back from defense tech after a few big failures, starving military drone startups of capital
+  - odds: 10
+    impact: 2
+    text: A binding UN treaty bans autonomous weapons, forcing military drone makers to redesign their systems
+  - odds: 10
+    impact: 2
+    text: New lasers and jamming systems knock down most attack drones, cutting demand for current military drone designs
+  note:
+  - We listed the events that could slow military drones down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
+ed148p:
+  title: 'What pushed military drones
+
+    forward, year after year?'
+  events:
+  - year: '1995'
+    text: Predator over Bosnia proves drones are useful
+    impact: 1.5
+  - year: '2001'
+    text: Armed Predator strikes in Afghanistan
+    impact: 2.5
+  - year: '2003'
+    text: Iraq war drives mass buys of Ravens
+    impact: 1
+  - year: '2007'
+    text: Reaper enters service carrying far more bombs
+    impact: 1.5
+  - year: '2009'
+    text: US ramps up drone strikes in Pakistan
+    impact: 1
+  - year: '2013'
+    text: DJI Phantom makes cheap drones common
+    impact: 1.5
+  - year: '2014'
+    text: US export limits push Turkey to build
+    impact: 1
+  - year: '2016'
+    text: ISIS drops grenades from hobby drones
+    impact: 1
+  - year: '2017'
+    text: Chinese drone exports fill gaps US left
+    impact: 1
+  - year: '2018'
+    text: US eases drone export rules for allies
+    impact: 1
+  - year: '2019'
+    text: Houthi drones hit Saudi oil sites
+    impact: 1.5
+  - year: '2020'
+    text: Azerbaijan drones crush Armenian tanks
+    impact: 2
+  - year: '2021'
+    text: Drones turn the tide in Ethiopia's war
+    impact: 1
+  - year: '2022'
+    text: Russia invades Ukraine, drones turn decisive
+    impact: 3
+  - year: '2022'
+    text: Russia buys Iranian Shaheds for long strikes
+    impact: 1.5
+  - year: '2023'
+    text: FPV drones become Ukraine's main tank killer
+    impact: 2.5
+  - year: '2023'
+    text: Replicator plan targets thousands of drones
+    impact: 2
+  - year: '2023'
+    text: Ukraine's Brave1 hub speeds drone startups
+    impact: 1
+  - year: '2024'
+    text: Ukraine creates a dedicated drone force
+    impact: 1.5
+  - year: '2024'
+    text: Jamming pushes Russia to fiber optic drones
+    impact: 1
+  - year: '2024'
+    text: Switchblade 600 is first Replicator pick
+    impact: 1
+  - year: '2025'
+    text: NATO agrees 5% of GDP defense goal
+    impact: 1.5
+  - year: '2025'
+    text: Spiderweb drone raid wrecks Russian bombers
+    impact: 2
+  - year: '2025'
+    text: Hegseth memo treats small drones as ammo
+    impact: 2
+  - year: '2025'
+    text: Drones enter Poland, Europe plans drone wall
+    impact: 1.5
+  - year: '2025'
+    text: Drone Dominance plan seeks 300,000 drones
+    impact: 2
+  - year: '2026'
+    text: Pentagon orders 30,000 one-way attack drones
+    impact: 1.5
+  - year: '2026'
+    text: Ukraine targets 7 million drones in 2026
+    impact: 1.5
+  - year: '2026'
+    text: Gulf states seek Ukraine's interceptor drones
+    impact: 1.5
+  - year: '2026'
+    text: EU signs $1.1B drone deal with Ukraine
+    impact: 1
+  note:
+  - We kept the events we believe pushed military drones forward the most
+  - Ratings are our estimates, with all the sources at the end of the report
+ed168p:
+  handle: military-drones
+  title: 'Where did military drones investors
+
+    put their money this past year?'
+  note:
+  - We added up every equity round of military drones startups in our tracker over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero here
+ed171p:
+  title: 'Who are the top players
+
+    in military drones today?'
+  cells:
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  - - []
+    - []
+    - []
+  tiles:
+  - src: ../../assets/logos/pp_live/military-drones/s10-00.png
+    x: 367.5
+    y: 278.1
+  - src: ../../assets/logos/pp_live/military-drones/s10-01.png
+    x: 706.9
+    y: 276.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-02.png
+    x: 234.6
+    y: 300.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-03.png
+    x: 293.6
+    y: 291.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-04.png
+    x: 474.6
+    y: 291.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-05.png
+    x: 535.5
+    y: 305.6
+  - src: ../../assets/logos/pp_live/military-drones/s10-06.png
+    x: 595.5
+    y: 303.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-07.png
+    x: 760.1
+    y: 300.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-08.png
+    x: 836.4
+    y: 290.6
+  - src: ../../assets/logos/pp_live/military-drones/s10-09.png
+    x: 526.1
+    y: 371.1
+  - src: ../../assets/logos/pp_live/military-drones/s10-10.png
+    x: 782.8
+    y: 372.9
+  - src: ../../assets/logos/pp_live/military-drones/s10-11.png
+    x: 234.9
+    y: 402.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-12.png
+    x: 292.1
+    y: 378.9
+  - src: ../../assets/logos/pp_live/military-drones/s10-13.png
+    x: 383.4
+    y: 402.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-14.png
+    x: 472.5
+    y: 402.2
+  - src: ../../assets/logos/pp_live/military-drones/s10-15.png
+    x: 592.5
+    y: 398.6
+  - src: ../../assets/logos/pp_live/military-drones/s10-16.png
+    x: 723.2
+    y: 392.1
+  - src: ../../assets/logos/pp_live/military-drones/s10-17.png
+    x: 870.0
+    y: 406.3
+  - src: ../../assets/logos/pp_live/military-drones/s10-18.png
+    x: 238.3
+    y: 473.8
+  - src: ../../assets/logos/pp_live/military-drones/s10-19.png
+    x: 353.8
+    y: 492.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-20.png
+    x: 541.1
+    y: 475.7
+  - src: ../../assets/logos/pp_live/military-drones/s10-21.png
+    x: 772.1
+    y: 488.1
+  - src: ../../assets/logos/pp_live/military-drones/s10-22.png
+    x: 859.9
+    y: 491.4
+  - src: ../../assets/logos/pp_live/military-drones/s10-23.png
+    x: 295.9
+    y: 502.7
+  - src: ../../assets/logos/pp_live/military-drones/s10-24.png
+    x: 490.3
+    y: 509.1
+  - src: ../../assets/logos/pp_live/military-drones/s10-25.png
+    x: 594.6
+    y: 497.1
+  - src: ../../assets/logos/pp_live/military-drones/s10-26.png
+    x: 714.4
+    y: 510.4
+  cols:
+  - Early-stage
+  - Growth
+  - Leaders
+  rows:
+  - Spy drones
+  - Strike drones
+  - Autonomy
+  note:
+  - We left out defense primes like General Atomics, AeroVironment and Baykar, and Anduril
+  - We placed each one by its focus, and all the sources are included at the end of the report
+ed209p:
+  title: 'Why is Baykar winning
+
+    the combat drone market?'
+  companies:
+  - short: Baykar
+    src: ../../assets/logos/pp_live/military-drones/s12-00.png
+  - short: Gen. Atomics
+    src: ../../assets/logos/pp_live/military-drones/s12-01.png
+  - short: TAI
+    src: ../../assets/logos/pp_live/military-drones/s12-02.png
+  - short: AVIC
+    src: ../../assets/logos/pp_live/military-drones/s12-03.png
+  - short: Elbit
+    src: ../../assets/logos/pp_live/military-drones/s12-04.png
+  - short: IAI
+    src: ../../assets/logos/pp_live/military-drones/s12-05.png
+  criteria:
+  - name: Top drone exporter
+    why: $2.2B of exports in 2025
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Buyers in 35+ countries
+    why: TB2 sold to 36 nations
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Low cost per drone
+    why: TB2 a fraction of a Reaper
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - name: Jet combat drone flying
+    why: Next gen unmanned fighter
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - name: Privately owned
+    why: Fast decisions, own funding
+    ticks:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Bought Piaggio Aerospace
+    why: A base inside the EU
+    ticks:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - name: Combat proven
+    why: Battle tested in real wars
+    ticks:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We compared companies with the same business model on what matters most to customers
+  - We used company reports and public records, and all our sources are at the end of the report
+ed007p:
+  type: pp_radar
+  title: ''
+  TL:
+    name: ''
+    src: ../../assets/logos/pp_live/military-drones/s01-00.png
+    text: ''
+  TR:
+    name: ''
+    src: ../../assets/logos/pp_live/military-drones/s01-02.png
+    text: ''
+  BL:
+    name: ''
+    src: ../../assets/logos/pp_live/military-drones/s01-10.png
+    text: ''
+  BR:
+    name: ''
+    src: ../../assets/logos/pp_live/military-drones/s01-11.png
+    text: ''
+  caption: []
+  inside:
+  - ../../assets/logos/pp_live/military-drones/s01-01.png
+  - ../../assets/logos/pp_live/military-drones/s01-03.png
+  - ../../assets/logos/pp_live/military-drones/s01-04.png
+  - ../../assets/logos/pp_live/military-drones/s01-05.png
+  - ../../assets/logos/pp_live/military-drones/s01-06.png
+  - ../../assets/logos/pp_live/military-drones/s01-07.png
+  - ../../assets/logos/pp_live/military-drones/s01-08.png
+  - ../../assets/logos/pp_live/military-drones/s01-09.png
+  inside_xy:
+  - src: ../../assets/logos/pp_live/military-drones/s01-01.png
+    x: 459.2
+    y: 279.6
+  - src: ../../assets/logos/pp_live/military-drones/s01-03.png
+    x: 535.1
+    y: 331.9
+  - src: ../../assets/logos/pp_live/military-drones/s01-04.png
+    x: 405.6
+    y: 364.1
+  - src: ../../assets/logos/pp_live/military-drones/s01-05.png
+    x: 471.0
+    y: 353.4
+  - src: ../../assets/logos/pp_live/military-drones/s01-06.png
+    x: 513.6
+    y: 399.2
+  - src: ../../assets/logos/pp_live/military-drones/s01-07.png
+    x: 376.5
+    y: 418.5
+  - src: ../../assets/logos/pp_live/military-drones/s01-08.png
+    x: 454.1
+    y: 411.2
+  - src: ../../assets/logos/pp_live/military-drones/s01-09.png
+    x: 502.7
+    y: 461.4
+ed039p:
+  pill: SIGNAL
+  signal: google-trends
+  window: 5y
+  title: 'More and more people ask how cheap
+
+    drones kill and how to stop them'
+  date: Recently.
+  expl: Drones changed how wars are fought. Cheap drones now cause most losses in Ukraine, Israel and Iran used them at scale, and armies everywhere started
+    buying them by the thousands. People watching the news wanted to understand how these drones kill and how to stop them.
+  term: military drones
+  note:
+  - We tracked how often people around the world googled this term over the last five years
+  - We used Google Trends, and you will find all the sources we used at the end of the report
+  csv: assets/trends/military-drones/military-drones.csv
+ed052p:
+  type: pp_cagr
+  title: 'How much bigger can
+
+    military drones get?'
+  lead: ''
+  condition: To get that big, armies must keep buying drones in bulk after the war in Ukraine, as standard kit for every unit, not as an emergency. The
+    market must also fix its supply chains, with motors, magnets, and batteries made outside China at prices armies can afford.
+  note:
+  - We compared forecasts from Fortune Business Insights, MarketsandMarkets, Global Market Insights and Precedence
+  - We adjusted each one to our market definition and built a realistic range, with all the sources at the end of the report
+  size: 25
+  cagr: 12
+  y0: 2026

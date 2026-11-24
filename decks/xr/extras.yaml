@@ -1,0 +1,41 @@
+- after: ed104
+  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  slide:
+    id: pp_s06
+    type: pp_value
+    section: Value creation
+    title: 'How do XR companies
+
+      actually make money?'
+    axes:
+    - Consumers pay
+    - Companies pay
+    - Sells
+    - hardware
+    - Sells
+    - software
+    groups:
+    - name: Sell the device
+      x: 0.16
+      y: 0.16
+      logos:
+      - src: ../../assets/logos/pp_live/xr/s06-02.png
+      - src: ../../assets/logos/pp_live/xr/s06-03.png
+    - name: Cheap headset, store cut
+      x: 0.2
+      y: 0.62
+      logos:
+      - src: ../../assets/logos/pp_live/xr/s06-01.png
+    - name: Optics built for partners
+      x: 0.85
+      y: 0.18
+      logos:
+      - src: ../../assets/logos/pp_live/xr/s06-04.png
+    - name: Engine subscriptions
+      x: 0.55
+      y: 0.86
+      logos:
+      - src: ../../assets/logos/pp_live/xr/s06-00.png
+    note:
+    - We placed each company by how its business model works, from pricing pages and filings
+    - Positions are our reading, and you will find all the sources we used at the end of the report
