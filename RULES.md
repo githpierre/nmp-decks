@@ -336,6 +336,8 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   small whole numbers drew steps). The stat (×N) is computed before the average, so it never moves. No re-download needed for that.
 - S09 (ed168p) has 7 rows at most: a category that would make an 8th row is merged into « Other » in cat_short.yaml (Advanced
   nuclear, 24 Nov 2026: 8 rows pushed the table into the title). cat_short.yaml keeps the short names of the live S09 slide.
+- A logo found by adding a suffix to the name (« Wyre » -> wyre-ai) must belong to the same company: same domain in nmp-logos, and
+  never an « -ai » guess without a domain (Wyre showed the logo of Wyre AI, Stablecoin S11-01, 24 Nov 2026). import_research.logo checks it.
 - A market term too rare on Google (0 most weeks before the cut) gives way to its wider parent term, and the text says so
   (In vivo CAR-T follows « car-t », Pierre, 24 Nov 2026). A curve with values of only 0 to 8 before the cut draws a staircase:
   the drawing is smoothed (rule above), no new download is needed.

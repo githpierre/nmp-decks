@@ -211,6 +211,19 @@ def nmp_logo(name, domain=''):
     if not dst.exists() or dst.read_bytes() != p.read_bytes(): shutil.copy(p, dst)
     return f'../../assets/logos/{p.name}'
 
+_LOGO_DOM = None
+def _other_company(slug, domain):
+    """True when a suffixed logo id (« wyre-ai ») belongs to another company than the one named: its nmp-logos domain differs,
+    or the company's domain is unknown (a suffix guess is then too risky). LOGO SUFFIX check, 24 Nov 2026."""
+    global _LOGO_DOM
+    if _LOGO_DOM is None:
+        import csv as _csv
+        f = ROOT.parent / 'nmp-logos' / 'index.csv'
+        _LOGO_DOM = {r['id']: (r.get('domain') or '').lower() for r in _csv.DictReader(open(f, encoding='utf-8'))} if f.exists() else {}
+    d = _LOGO_DOM.get(slug, '')
+    if not domain: return slug.endswith('-ai')    # « Kelonia » -> kelonia-therapeutics is the same company; « X » -> x-ai is often another one
+    return bool(d) and d.replace('www.', '') != domain.lower().replace('www.', '')
+
 def logo(name, deck_rel=True):
     """company name -> logo path seen from deck.html: assets/logos (and pp/), else a generated initials tile (listed as missing)"""
     domain = ''
@@ -223,6 +236,7 @@ def logo(name, deck_rel=True):
     nl = nmp_logo(name, domain)                  # githpierre/nmp-logos first, the only place for logos (Pierre, 18 Nov 2026, LOGOS.md)
     if nl: return nl
     for c in cands:     # a wide wordmark left in the generated copy is refused here too (same rule as nmp_logo)
+        if c not in (base, short) and _other_company(c, domain): continue   # « Wyre » took the logo of Wyre AI (wyre-ai), 24 Nov 2026
         q = ROOT / 'assets/logos' / f'{c}.png'
         if q.exists() and not _wide(q): return f'../../assets/logos/{c}.png'
     # (no more lookups in nmp-pages / nmp-product-pages: their logo folders are frozen, 18 Nov 2026, nmp-logos/LOGOS.md)

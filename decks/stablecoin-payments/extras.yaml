@@ -433,3 +433,47 @@
     url: https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win
     date: '2026-10-16'
     quote: Circle made 7 cents of net profit from every dollar of revenue earned.
+# S11-02 of the product page (24 Nov 2026): the live slide still showed Terraform, Basis and Diem; rebuilt from the companies of ed199p
+- after: ed199p
+  link: ed199p « Which stablecoin payments companies have shown warning signs? », followed by what the survivors do instead
+  slide:
+    id: xs_survivors
+    type: pp_survivors
+    section: Startup killers
+    title: 'What sets stablecoin payments
+
+      survivors apart from failures?'
+    rows:
+    - lesson: Line up a backup buyer and cash
+      explanation: A failed sale can end a whole payment network
+      failed_company: Wyre
+      why_it_failed: Its Bolt sale fell apart and it closed in 2023
+      src: media/ini/wyre.png
+      ini: W
+    - lesson: Keep hot wallets locked down
+      explanation: One breach can drain the money of every client
+      failed_company: CoinsPaid
+      why_it_failed: Hackers took $37M from its wallets
+      src: ../../assets/logos/fav/coinspaid.png
+      ini: C
+    - lesson: Keep more than one partner bank
+      explanation: A single bank exit can stop every payout
+      failed_company: BitPay
+      why_it_failed: Its bank left and its card ended in 2023
+      src: ../../assets/logos/fav/bitpay.png
+      ini: B
+    - lesson: Keep a second card issuer ready
+      explanation: A card program lives on the issuer's goodwill
+      failed_company: Kulipa
+      why_it_failed: Its card issuer cut it off in 2026
+      src: ../../assets/logos/kulipa.png
+      ini: K
+    - lesson: Earn enough on each card to last
+      explanation: Thin card fees cannot carry a crypto downturn
+      failed_company: Offramp
+      why_it_failed: Its cards went off and it plans to exit
+      src: ../../assets/logos/fav/offramp.png
+      ini: O
+    note:
+    - We compared stablecoin payments companies that failed or hit a major setback with the ones that survived
+    - We used company statements and the press, and all the sources we used are listed at the end of the report
