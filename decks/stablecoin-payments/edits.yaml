@@ -314,3 +314,8 @@ ed032:
   19: Firms now receive most of the money paid in coins
   20: '7'
   note: We picked seven signals from company results, payment data, card networks and deals. Searches for stablecoins fell, so they are not one.
+# ROW_LINES (check added by AI data center, 23 Nov 2026): the 4 comments on the same number of lines (merge of 24 Nov 2026)
+ed042:
+  __replace__:
+    'Its 2025 measure labels payments by wallet and counterparty type, with exchange flows removed. We use it as the comparable full-year base.': 'Its 2025 measure labels payments by wallet type and removes exchange flows. We use it as our full-year base.'
+    'Their December 2025 payment pace is annualized, not the sum of that year. It separates real payments from internal wallet transfers.': 'Their December 2025 pace is annualized, not summed, and keeps real payments apart from wallet transfers.'

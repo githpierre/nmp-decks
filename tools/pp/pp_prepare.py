@@ -291,6 +291,10 @@ def trends(s):
     Options, one per market as Pierre chose them (all kept so every delivered deck rebuilds the same): `cut` (+ `ghost`, AI in insurance),
     `to_today` (Stablecoin payments), `dash_from` + `stat` (AI data center), `period` (cut CSV, MedTech). From 24 Nov 2026 the rule
     is one look for every deck: the curve is cut before mid-2025 (RULES « Google Trends »)."""
+    if not any(s.get(k) for k in ('cut', 'to_today', 'dash_from', 'period', 'raw')):   # the rule by default for every new deck (24 Nov 2026)
+        s['cut'] = '2025-07-27'; s.setdefault('caption_period', 'November 2021 to July 2025')
+    if s.get('cut') and re.search(r'last five years|over the last|Lately|recent months', ' '.join(s.get('note') or []) + ' ' + str(s.get('date') or '')):
+        print(f"TRENDS TEXT: the curve stops in July 2025, rewrite date and note (« From late 2021 to mid-2025. », see RULES « Google Trends »)")
     if not s.get('window'): s['window'] = trends_window(s)
     import statistics as st
     rows = _trend_rows(s); D = [d for d, _ in rows]; v = [x for _, x in rows]

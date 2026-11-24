@@ -52,8 +52,10 @@ def main():
     # doubtful rounds (Stablecoin payments, 22 Nov 2026: MoonPay « $100M Series B » sourced only by Forge Global, and a 2022
     # « investor participation » extension shown as a second round): listed, then left out with skip_rounds.yaml if confirmed
     SECONDARY = ('forgeglobal.com', 'equityzen.com', 'hiive.com', 'caplight.com', 'notice.co')   # secondary-market sites: their « rounds » are estimates, not announcements
+    CHECKED = yaml.safe_load((ROOT / 'checked_rounds.yaml').read_text()) or {}   # rounds already ruled on (24 Nov 2026): no warning again
     for cid in M:
         for r in g.rounds_for(b, cid, 'ranking'):
+            if r['round_id'] in CHECKED: continue
             if r.get('amount_usd') and any(s in (r.get('source_url') or '') for s in SECONDARY):
                 print(f"WEAK ROUND SOURCE: {r['round_id']} {money(float(r['amount_usd']))} only from {r['source_url']}: check, or add it to skip_rounds.yaml")
             if re.search(r'participation', r.get('round_label') or '', re.I):   # « Series A investor participation »: the same round again (an « extension » is new money, kept)

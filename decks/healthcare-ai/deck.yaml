@@ -318,7 +318,7 @@ slides:
     22: 🤥
     23: 🤥
 - id: ed016
-  type: x/some_common_myths_about_2
+  type: x/some_common_myths_about
   section: Market definition
   title: What are some common myths about healthcare AI?
   page: 2/2
@@ -691,7 +691,7 @@ slides:
     14: '5'
     15: The FDA cleared a record 335 AI devices
     16: '6'
-    19: Google searches for healthcare AI soared
+    19: Google searches for healthcare AI grew fast
     20: '7'
 - id: xa_users
   type: kpis
@@ -780,7 +780,7 @@ slides:
   - n: 3
     name: Profluent + Lilly
     src: ../../assets/logos/profluent.png
-    v: $2.2B
+    v: $2.3B
     what: April 2026
   - n: 4
     name: Iambic + Takeda
@@ -871,14 +871,17 @@ slides:
   window: 5y
   csv: assets/trends/healthcare-ai/ai-in-healthcare.csv
   term: ai in healthcare
-  title: 'Lately, searches for healthcare AI
+  title: 'Searches for healthcare AI grew
 
-    keep climbing as AI enters hospitals'
-  date: Recently.
-  expl: AI stopped being a lab demo in hospitals. Doctors started using AI scribes that write their notes during visits, big health systems signed deals with OpenAI and Microsoft, and patients began asking chatbots about their symptoms. So people went looking for what healthcare AI really is.
+    fast from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: AI stopped being a lab demo in hospitals. Doctors started using AI scribes that write their notes during visits, Microsoft brought its Dragon Copilot to clinics, and patients began asking chatbots about their symptoms.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -1137,7 +1140,7 @@ slides:
 
       clinical AI use'
 - id: ed057
-  type: x/problems_all_players_face_2
+  type: x/problems_all_players_face
   section: Pain points
   title: What problems do all players face?
   page: 2/2
@@ -1902,7 +1905,7 @@ slides:
     15: Workflow tools put AI in chart tasks, scan queues, and staff outreach.
     21: LAYERS
 - id: ed088
-  type: x/tech_infra_layers_2
+  type: x/tech_infra_layers
   section: Tech and infra
   title: What are the tech and infra layers?
   page: 2/2
@@ -2031,7 +2034,7 @@ slides:
     23: '2025'
     24: The FDA finalized guidance letting device makers plan AI model updates in advance, so tools can improve without a new review.
 - id: ed093
-  type: x/were_latest_tech_infra_developments_2
+  type: x/were_latest_tech_infra_developments
   section: Tech and infra
   title: What were the latest tech and infra developments?
   page: 2/2
@@ -2447,7 +2450,7 @@ slides:
       OUTPUTS'
     18: 💎
 - id: ed104
-  type: x/where_value_created_today_2
+  type: x/where_value_created_today
   section: Value creation
   title: Where is value created today?
   page: 2/2
@@ -2572,14 +2575,14 @@ slides:
 
       TEAMS'
     19: They are staff checking cited sources, local rules, and whether doctors retain final control.
-    21: CLINICAL AI TOOLS
+    21: CLINICAL GUIDE
 - id: ed108-s1
   type: x/maximum_customer_value_look_like
   section: Value creation
   title: What does “maximum customer value” look like in practice?
   src: 108
   t:
-    5: CLINICAL AI TOOLS
+    5: CLINICAL GUIDE
     6: The assistant misses results, invents sources, or ignores hospital policy. Staff must check answers in other systems. Visits slow down, and doctors lose trust even when the AI sounds confident.
     7: A doctor asks about a patient’s tests. The assistant reads the chart and cites trusted evidence and local hospital rules. It gives concise answers with links. The doctor checks them, makes a decision, and stays in the care workflow.
     8: 🤩
@@ -2619,7 +2622,7 @@ slides:
     13: '🔁
 
       User feedback improves responses'
-    14: CLINICAL AI TOOLS
+    14: CLINICAL GUIDE
     22: '1'
     23: '2'
     24: '3'
@@ -2664,14 +2667,14 @@ slides:
 
       TEAMS'
     19: They are care teams measuring missed findings, response times, and AI accuracy across hospitals.
-    21: DIAGNOSTIC AI SOFTWARE
+    21: SCAN TRIAGE AI
 - id: ed108-s2
   type: x/maximum_customer_value_look_like
   section: Value creation
   title: What does “maximum customer value” look like in practice?
   src: 108
   t:
-    5: DIAGNOSTIC AI SOFTWARE
+    5: SCAN TRIAGE AI
     6: The model misses a dangerous finding or floods staff with false alarms. Clinicians begin ignoring its alerts. The results never reach the team treating the patient, so the hospital pays for AI without improving care.
     7: A scan enters the hospital and AI flags a possible emergency. A radiologist checks the image and specialists receive a clear alert. Staff act quickly while the hospital tracks false alarms, review speed, and time to treatment.
     8: 🤩
@@ -2711,7 +2714,7 @@ slides:
     13: '🔁
 
       Quality reviews guide updates'
-    14: DIAGNOSTIC AI SOFTWARE
+    14: SCAN TRIAGE AI
     22: '1'
     23: '2'
     24: '3'
@@ -2756,14 +2759,14 @@ slides:
 
       TEAMS'
     19: They are staff needing good handoffs, clear summaries, and fewer repetitive post-visit tasks.
-    21: CARE WORKFLOW AI
+    21: CARE WORK AI
 - id: ed108-s3
   type: x/maximum_customer_value_look_like
   section: Value creation
   title: What does “maximum customer value” look like in practice?
   src: 108
   t:
-    5: CARE WORKFLOW AI
+    5: CARE WORK AI
     6: AI misses a symptom or adds words the patient never said. The doctor must rewrite the note, fix billing codes, and move text across tools. Staff use it less because errors take more time to correct.
     7: With consent, AI listens to a visit and drafts a structured note in the patient record. The doctor reviews each fact, fixes errors, and signs it. The hospital measures adoption and time saved, rather than just counting software licenses.
     8: 🤩
@@ -2803,7 +2806,7 @@ slides:
     13: '🔁
 
       Staff corrections guide checks'
-    14: CARE WORKFLOW AI
+    14: CARE WORK AI
     22: '1'
     23: '2'
     24: '3'
@@ -2848,14 +2851,14 @@ slides:
 
       STAFF'
     19: They are billing teams needing clear chart evidence to answer payer questions without repeated work.
-    21: REVENUE CYCLE AI
+    21: CODING REVIEW
 - id: ed108-s4
   type: x/maximum_customer_value_look_like
   section: Value creation
   title: What does “maximum customer value” look like in practice?
   src: 108
   t:
-    5: REVENUE CYCLE AI
+    5: CODING REVIEW
     6: AI chooses a code without evidence or misses a diagnosis. Staff cannot trace its reasoning. Claims are denied, coders reopen the chart, and the hospital faces rework and compliance risk rather than better collection.
     7: AI reviews the record and suggests billing codes supported by notes. It flags missing evidence and sends unclear cases to human coders. Staff review claims before billing, and the hospital tracks coding errors, denials, and payments.
     8: 🤩
@@ -2895,7 +2898,7 @@ slides:
     13: '🔁
 
       Denied claims reveal gaps to fix'
-    14: REVENUE CYCLE AI
+    14: CODING REVIEW
     22: '1'
     23: '2'
     24: '3'
@@ -2940,14 +2943,14 @@ slides:
 
       TEAMS'
     19: They are payer teams managing many requests while tracking speed, errors, and doctor feedback.
-    21: PAYER AI PLATFORMS
+    21: PRIOR AUTH AI
 - id: ed108-s5
   type: x/maximum_customer_value_look_like
   section: Value creation
   title: What does “maximum customer value” look like in practice?
   src: 108
   t:
-    5: PAYER AI PLATFORMS
+    5: PRIOR AUTH AI
     6: AI applies an old policy or lacks key patient information. It denies care without a clear reason. The clinic sends more forms, and patients wait. Reviewers must redo the decision and handle appeals.
     7: A clinic sends a coverage request with patient records attached. AI checks plan policy and approves only clear cases. Complex requests reach a trained reviewer with evidence. Patients get decisions quickly and can appeal when needed.
     8: 🤩
@@ -2987,7 +2990,7 @@ slides:
     13: '🔁
 
       Appeal data improve process'
-    14: PAYER AI PLATFORMS
+    14: PRIOR AUTH AI
     22: '1'
     23: '2'
     24: '3'
@@ -3032,14 +3035,14 @@ slides:
 
       BACKERS'
     19: They are investors checking safety, patents, partners, and trials, not assuming AI ensures success.
-    21: LIFE SCIENCE AI
+    21: DRUG DESIGN AI
 - id: ed108-s6
   type: x/maximum_customer_value_look_like
   section: Value creation
   title: What does “maximum customer value” look like in practice?
   src: 108
   t:
-    5: LIFE SCIENCE AI
+    5: DRUG DESIGN AI
     6: AI predicts a strong candidate, but lab tests cannot confirm its effect or safety. Teams repeat costly experiments with little insight. A buyer learns that a high AI score did not prove a drug would succeed in people.
     7: AI links disease data to a target and proposes drug molecules. Scientists test candidates in the lab and study safety before a human trial. A drugmaker traces results to experiments and invests more only if the evidence improves.
     8: 🤩
@@ -3079,7 +3082,7 @@ slides:
     13: '🔁
 
       Lab tests guide new models'
-    14: LIFE SCIENCE AI
+    14: DRUG DESIGN AI
     22: '1'
     23: '2'
     24: '3'
@@ -3893,7 +3896,7 @@ slides:
   t:
     6: Life science AI took about 46% of the capital raised since 2024, far ahead of care workflow AI with about 23%
     7: 828 of the 848 rounds since 2024 disclosed an amount, and the median disclosed round was only $12M
-    8: US startups closed 509 of the 848 rounds and took $20B, about 70% of the money, far ahead of the United Kingdom
+    8: US startups closed 509 of the 848 rounds and took $21B, about 70% of the money, far ahead of the United Kingdom
     9: 65 rounds of $100M or more made up about 54% of all the capital raised in the market since 2024
     10: The $2.1B Series B of Isomorphic Labs is the biggest round since 2024, ahead of the $1B raised by Xaira Therapeutics in 2024
     11: Seed was the most common round, with 326 of the 848 rounds, ahead of Series A with 240 and Series B with 103
@@ -4575,7 +4578,7 @@ slides:
     9: Abridge builds clinical documentation AI and reached a $5.3B valuation in a June 2025 funding round
     11: Hippocratic AI makes patient-facing healthcare agents and raised $126M at a $3.5B valuation in 2025
     12: HIPPOCRATIC AI
-    14: Ambience makes clinical notes and coding AI and reported a $1.2B valuation alongside its 2025 Series C
+    14: Ambience makes clinical notes and coding AI and reported a $1.3B valuation alongside its 2025 Series C
     15: AMBIENCE HEALTHCARE
     17: ABRIDGE
 - id: ed189
@@ -4622,7 +4625,7 @@ slides:
       $5.3B'
     39: 'AMBIENCE
 
-      $1.2B'
+      $1.3B'
     41: Health AI values climbed. {1|OpenEvidence rose from $1B to $15B, Abridge reached $5.3B, and Hippocratic AI hit $3.5B. These are funding prices, not sales.}
   growth:
     37:
@@ -4741,7 +4744,7 @@ slides:
     - Strategy|reset 2024
     - Delisted|Mar 2025
     - ''
-    src: ../../assets/logos/benevolentai.png
+    src: ../../assets/logos/benevolentai--symbol.png
   - name: Exscientia
     slug: exscientia
     ini: E
@@ -4752,7 +4755,7 @@ slides:
     - Lab cost|shift 2024
     - Acquired|Nov 2024
     - ''
-    src: ../../assets/logos/recursion-pharmaceuticals.png
+    src: media/ini/exscientia.png
   - name: Recursion Pharmaceuticals
     slug: recursion-pharmaceuticals
     ini: R
@@ -4785,7 +4788,7 @@ slides:
     - Team shape|changed
     - ''
     - ''
-    src: ../../assets/logos/heidi-health.png
+    src: media/ini/heidi.png
   note:
   - We selected documented negative events, not rumors or weak growth claims.
   - We left cells blank where a matching warning sign had no verified public evidence.
@@ -4933,9 +4936,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: 'Which startups
-
-    scored big recently?'
+  title: Which healthcare AI startups scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of healthcare AI startups since 2024, from our tracker of rounds
   src: 205
@@ -5563,7 +5564,7 @@ slides:
       d: '2025-07-29'
       url: https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-243-million-series-c-to-scale-its-ai-platform-for-health-systems
       key: false
-    - t: Ambience Healthcare reached a $1.2B valuation in July 2025
+    - t: Ambience Healthcare reached a $1.3B valuation in July 2025
       pub: Ambience Healthcare
       d: '2025-10-20'
       url: https://www.ambiencehealthcare.com/blog-legacy/klas-emerging-solutions-report-ambience-healthcare-ranked-1-in-improving-clinician-experience-top-3-in-both-improving-patient-experience-and-improving-outcomes

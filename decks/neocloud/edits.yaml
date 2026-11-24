@@ -176,3 +176,62 @@ ed219:
 # Google Trends cut in July 2025 (rule of 22 Nov 2026, applied to every deck on 24 Nov 2026)
 ed032:
   19: Google searches for GPU cloud tripled
+
+# OUTSIDE PLAYER (check of 22 Nov 2026): IREN sits in a corner of the S01 radar (outside), so it leaves this grid (merge of 24 Nov 2026)
+ed199p:
+  rows:
+  - name: CoreWeave
+    slug: coreweave
+    domain: coreweave.com
+    ini: C
+    status_label: NOT A STARTUP
+    cells:
+    - IPO cut|Mar 2025
+    - Merger lost|Oct 2025
+    - Partner late|Nov 2025
+    - -$709M net|Q3 2026
+    - $846M cost|Q3 interest
+  - name: Nscale
+    slug: nscale
+    domain: nscale.com
+    ini: N
+    cells:
+    - ''
+    - UK site lost|Oct 2026
+    - Grid late|to 2030s
+    - -$1.7B est|9mo 2026
+    - No binding|GPU funding
+  - name: Nebius
+    slug: nebius
+    domain: nebius.com
+    ini: N
+    cells:
+    - Stock -17%|Nov 2026
+    - ''
+    - NJ sites|into 2027
+    - -$38M net|Q3 2026
+    - 2027 spend|$40B+
+    status_label: NOT A STARTUP
+  - name: Lambda
+    slug: lambda
+    domain: lambda.com
+    ini: L
+    cells:
+    - IPO moved|to 2027
+    - ''
+    - ''
+    - ''
+    - Seeks $4B|new capital
+  - name: Firmus
+    slug: firmus
+    domain: firmus.co
+    ini: F
+    cells:
+    - IPO pulled|Oct 2026
+    - CDC parted|from plan
+    - ''
+    - ''
+    - Private funds|after IPO
+  note:
+  - We used filings and news to map setbacks, net losses and financing needs among five neocloud operators.
+  - We left cells empty without proof, and do not treat a delayed IPO, a forecast cut or a net loss as insolvency.

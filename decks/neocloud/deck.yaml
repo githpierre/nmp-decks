@@ -320,7 +320,7 @@ slides:
     22: 🤥
     23: 🤥
 - id: ed016
-  type: x/some_common_myths_about_2
+  type: x/some_common_myths_about
   section: Market definition
   title: What are some common myths about neocloud?
   page: 2/2
@@ -693,7 +693,7 @@ slides:
     14: '5'
     15: Nebius clients now pay its build costs up front
     16: '6'
-    19: Google searches for GPU cloud soared
+    19: Google searches for GPU cloud tripled
     20: '7'
 - id: xn_cw_rev
   type: x/sig_key_trend
@@ -861,16 +861,19 @@ slides:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'Now, more and more people
+  title: 'Searches for GPU cloud more than
 
-    are googling GPU cloud'
-  date: In recent months.
-  expl: Neoclouds are cloud companies that rent GPUs for AI. CoreWeave went public, Nebius and Nscale signed multibillion-dollar deals with Microsoft and Meta, and AI teams started to look for GPUs outside the big clouds. Searches for GPU cloud took off with them.
+    tripled from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Neoclouds are cloud companies that rent GPUs for AI. ChatGPT set off a race for GPUs, CoreWeave signed a $12B deal with OpenAI and went public in March 2025, and AI teams started to look for GPUs outside the big clouds.
   term: GPU cloud
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/neocloud/gpu-cloud.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -938,7 +941,7 @@ slides:
     16: We use neocloud vendor sales as the main anchor, then test other totals
     21: We size only paid AI cloud compute, not the chips or buildings
 - id: ed044
-  type: x/our_own_first_principles_bottom_2
+  type: x/our_own_first_principles_bottom
   section: Market size
   title: Our own first-principles, bottom-up calculation of the market size
   page: 2/2
@@ -1245,7 +1248,7 @@ slides:
 
       are hard to hire'
 - id: ed057
-  type: x/problems_all_players_face_2
+  type: x/problems_all_players_face
   section: Pain points
   title: What problems do all players face?
   page: 2/2
@@ -2024,7 +2027,7 @@ slides:
     15: Cloud software reserves GPUs, starts jobs and keeps customers from clashing
     21: LAYERS
 - id: ed088
-  type: x/tech_infra_layers_2
+  type: x/tech_infra_layers
   section: Tech and infra
   title: What are the tech and infra layers?
   page: 2/2
@@ -2153,7 +2156,7 @@ slides:
     23: '2025'
     24: Fireworks AI raised $250M for production inference, as hosted model execution became its own cloud product
 - id: ed093
-  type: x/were_latest_tech_infra_developments_2
+  type: x/were_latest_tech_infra_developments
   section: Tech and infra
   title: What were the latest tech and infra developments?
   page: 2/2
@@ -2521,7 +2524,7 @@ slides:
       UPTIME'
     18: 💎
 - id: ed104
-  type: x/where_value_created_today_2
+  type: x/where_value_created_today
   section: Value creation
   title: Where is value created today?
   page: 2/2
@@ -3862,9 +3865,9 @@ slides:
     19: 2026 (OCT)
     20: Modal raised a $750M late-stage round led by Accel for its serverless cloud for AI workloads {1|Modal}
     21: 2026 (OCT)
-    22: Infinigence AI raised a $320M Series C for its cloud computing infrastructure for AI {1|Technode}
+    22: Infinigence AI raised a $320M Series C for its cloud computing infrastructure for AI {1|TechNode}
     23: 2026 (OCT)
-    24: KONST raised a $30M Series B led by ADATA Technology for its GPU clouds {1|Technode}
+    24: KONST raised a $30M Series B led by ADATA Technology for its GPU clouds {1|TechNode Global}
 - id: ed157
   type: x/rounds_were_announced_last_2
   section: Investor bets
@@ -3884,7 +3887,7 @@ slides:
     20: 2026 (SEP)
     21: SiliconFlow raised a $125M Series C for its AI inference and cloud infrastructure {1|Caixin}
     22: 2026 (SEP)
-    23: Crusoe raised a $3.9B late-stage round led by Atreides for its AI cloud and data center infrastructure {1|Tpg}
+    23: Crusoe raised a $3.9B late-stage round led by Atreides for its AI cloud and data center infrastructure {1|TPG}
     24: 2026 (SEP)
     25: Gimlet Labs raised a $300M Series B led by Andreessen Horowitz for its agentic AI inference cloud {1|GlobeNewswire}
 - id: iv_deals
@@ -3915,16 +3918,16 @@ slides:
   bars:
   - x: 2025 H1
     v: 1314
-    ann: Lambda $480M, Together AI $305M, in 17 rounds
+    ann: Lambda, $480M top round, in 17 rounds
   - x: 2025 H2
     v: 7431
-    ann: Lambda $1.5B, Crusoe $1.4B, in 26 rounds
+    ann: Lambda, $1.5B top round, in 26 rounds
   - x: 2026 H1
     v: 9331
-    ann: Nscale $2B, Baseten $1.5B, in 33 rounds
+    ann: Nscale, $2B top round, in 33 rounds
   - x: 2026 H2
     v: 15066
-    ann: Crusoe $3.9B, Firmus $2B, in 22 rounds
+    ann: Crusoe, $3.9B top round, in 22 rounds
   note:
   - We add up the disclosed equity rounds of neocloud startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
@@ -3942,13 +3945,13 @@ slides:
   bars:
   - x: '2024'
     v: 3899
-    ann: CoreWeave $1.1B, Groq $640M
+    ann: CoreWeave, $1.1B top round, in 42 rounds
   - x: '2025'
     v: 8745
-    ann: Lambda $1.5B, Crusoe $1.4B
+    ann: Lambda, $1.5B top round, in 43 rounds
   - x: '2026'
     v: 24397
-    ann: Crusoe $3.9B, Nscale $2B
+    ann: Crusoe, $3.9B top round, in 55 rounds
 - id: ed160
   type: x/stands_out_funding
   section: Investor bets
@@ -3995,13 +3998,13 @@ slides:
   bars:
   - x: '2024'
     v: 28
-    ann: CoreWeave’s $1.1B, out of 42 rounds
+    ann: CoreWeave, $1.1B top round, out of 42 rounds
   - x: '2025'
     v: 17
-    ann: Lambda’s $1.5B, out of 43 rounds
+    ann: Lambda, $1.5B top round, out of 43 rounds
   - x: 2026 (YTD)
     v: 16
-    ann: Crusoe’s $3.9B, out of 55 rounds
+    ann: Crusoe, $3.9B top round, out of 55 rounds
 - id: ed165p
   type: pp_raises
   section: Investor bets
@@ -4084,7 +4087,7 @@ slides:
       RAISED ($)'
     15: $11B
     16: $8.9B
-    17: Fireworks AI, Baseten, fal, Cerebras Systems
+    17: Fireworks AI, Baseten, fal, Cerebras Systems, Groq, Modal
     18: EXAMPLES OF STARTUPS
     19: Crusoe, Lambda, CoreWeave, TensorWave, Vultr, GMI Cloud
     20: Nscale, Firmus, Fluidstack, Volta
@@ -4810,18 +4813,6 @@ slides:
     - 2027 spend|$40B+
     status_label: NOT A STARTUP
     src: ../../assets/logos/nebius--symbol.png
-  - name: IREN
-    slug: iren
-    domain: iren.com
-    ini: I
-    cells:
-    - ''
-    - ''
-    - ARR moved|to 2027
-    - -$263M net|Q3 2026
-    - $6B target|funds sought
-    status_label: NOT A STARTUP
-    src: ../../assets/logos/iren.png
   - name: Lambda
     slug: lambda
     domain: lambda.com
@@ -4845,7 +4836,7 @@ slides:
     - Private funds|after IPO
     src: ../../assets/logos/firmus--symbol.png
   note:
-  - We used filings and news to map setbacks, net losses and financing needs among six neocloud operators.
+  - We used filings and news to map setbacks, net losses and financing needs among five neocloud operators.
   - We left cells empty without proof, and do not treat a delayed IPO, a forecast cut or a net loss as insolvency.
 - id: ed200
   type: x/why_startups_fail
@@ -4934,9 +4925,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: 'Which startups
-
-    scored big recently?'
+  title: Which neocloud startups scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of neocloud startups since 2024, from our tracker of rounds
   src: 205
@@ -4952,7 +4941,7 @@ slides:
     22: 2026 (AUG)
     23: Firmus raised a $2B strategic round led by Blackstone for its AI factories and GPU cloud {1|Firmus}
     24: 2026 (SEP)
-    25: Crusoe raised a $3.9B late-stage round led by Atreides for its AI cloud and data center infrastructure {1|Tpg}
+    25: Crusoe raised a $3.9B late-stage round led by Atreides for its AI cloud and data center infrastructure {1|TPG}
 - id: ed206
   type: x/success_look_like_market
   section: Startup strategies

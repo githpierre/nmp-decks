@@ -353,7 +353,7 @@ slides:
     22: 🤥
     23: 🤥
 - id: ed016
-  type: x/some_common_myths_about_2
+  type: x/some_common_myths_about
   section: Market definition
   title: What are some common myths about humanoid robotics?
   page: 2/2
@@ -899,15 +899,18 @@ slides:
   window: 5y
   csv: assets/trends/humanoid-robotics/where-to-buy-robots.csv
   term: where to buy robots
-  title: 'More and more people look for where to
+  title: 'More people looked up where to buy
 
-    buy a robot, now that preorders are open'
-  date: Lately.
-  expl: Humanoid robots stopped sounding like science fiction. 1X opened preorders for Neo, a home robot at $20,000, Chinese makers like Unitree showed humanoids under $6,000, and robot videos went viral on every feed. For the first time, buying one felt possible, so people started looking for where.
+    a robot as prices fell to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Humanoid robots stopped sounding like science fiction. Unitree sold its G1 for $16,000 and showed the R1 at $5,900 in July 2025, Figure and Tesla showed robots at work, and robot videos went viral. Buying one started to feel possible.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   y_top: 222
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -975,7 +978,7 @@ slides:
     16: We start from 2026 shipment data because commercial volumes are now measurable
     21: We estimate platform revenue using shipments and realized market sales
 - id: ed044
-  type: x/our_own_first_principles_bottom_2
+  type: x/our_own_first_principles_bottom
   section: Market size
   title: Our own first-principles, bottom-up calculation of the market size
   page: 2/2
@@ -1281,7 +1284,7 @@ slides:
 
       still evolving'
 - id: ed057
-  type: x/problems_all_players_face_2
+  type: x/problems_all_players_face
   section: Pain points
   title: What problems do all players face?
   page: 2/2
@@ -2046,7 +2049,7 @@ slides:
     15: Dexterous hands and grippers decide how well robots grasp and handle objects
     21: LAYERS
 - id: ed088
-  type: x/tech_infra_layers_2
+  type: x/tech_infra_layers
   section: Tech and infra
   title: What are the tech and infra layers?
   page: 2/2
@@ -2175,7 +2178,7 @@ slides:
     23: '2026'
     24: Figure Helix 02 unified walking, manipulation and balance under one neural system using vision, touch and proprioception
 - id: ed093
-  type: x/were_latest_tech_infra_developments_2
+  type: x/were_latest_tech_infra_developments
   section: Tech and infra
   title: What were the latest tech and infra developments?
   page: 2/2
@@ -2591,7 +2594,7 @@ slides:
       CO-WORKING'
     18: 💎
 - id: ed104
-  type: x/where_value_created_today_2
+  type: x/where_value_created_today
   section: Value creation
   title: Where is value created today?
   page: 2/2
@@ -4827,7 +4830,7 @@ slides:
     - Yogi never|reached market
     - Could not fund|scale-up
     - Shut down|Feb 2026
-    src: ../../assets/logos/cartwheelrobotics.png
+    src: ../../assets/logos/fav/cartwheel-robotics.png
   - name: Aldebaran
     slug: aldebaran
     ini: A
@@ -4838,7 +4841,7 @@ slides:
     - ''
     - Parent stopped|funding
     - Liquidated|Jun 2025
-    src: ../../assets/logos/aldebaran-robotics.png
+    src: media/ini/aldebaran.png
   note:
   - We looked for warning signs among notable humanoid robot builders, from layoffs and leadership exits to shutdowns
   - We used company statements, filings and reputable reporting. A blank cell means we did not verify that warning sign
@@ -4986,9 +4989,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: 'Which startups
-
-    scored big recently?'
+  title: Which humanoid robotics startups scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of humanoid robotics startups since 2024, from our tracker of rounds
   src: 205

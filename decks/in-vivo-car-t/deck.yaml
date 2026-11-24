@@ -1,6 +1,6 @@
 market: In Vivo CAR-T
 label: In vivo CAR-T
-quarter: Q4 2026
+quarter: Q3 2026
 year: 2026
 slug: in-vivo-car-t
 chapters:
@@ -84,7 +84,7 @@ slides:
     1: INTRO
 - id: ed004
   type: agenda
-  section: In vivo CAR-T
+  section: In vivo CAR-T market
   current: 0
   src: 4
 - id: ed005
@@ -311,7 +311,7 @@ slides:
     22: 🤥
     23: 🤥
 - id: ed016
-  type: x/some_common_myths_about_2
+  type: x/some_common_myths_about
   section: Market definition
   title: What are some common myths about in vivo CAR-T?
   page: 2/2
@@ -362,9 +362,9 @@ slides:
     14: 🧪
     15: 🦠
     16: Companies pursuing durable CAR programs through genome integration or direct editing
-    18: 'GENE EDITING +
+    18: 'GENE EDITING
 
-      INTEGRATION'
+      + INTEGRATION'
     19: Companies programming NK, myeloid, or multiple immune-cell lineages beyond T cells
     21: ✂️
     22: 🧫
@@ -654,7 +654,7 @@ slides:
     14: '5'
     15: Big pharma now backs half of funding rounds
     16: '6'
-    19: Google searches grew more than 20 times
+    19: Google searches grew fast up to mid-2025
     20: '7'
 - id: xs_2a
   type: kpis
@@ -963,17 +963,20 @@ slides:
   type: pp_trends
   section: Market opportunity
   pill: SIGNAL
-  title: 'Searches for in vivo CAR-T soar as
+  title: 'Searches for in vivo CAR-T took off
 
-    cell therapy moves inside the body'
+    in the year to mid-2025'
   csv: assets/trends/in-vivo-car-t/in-vivo-car-t.csv
   term: in vivo car t
-  date: Lately.
-  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and big deals by AstraZeneca and AbbVie for in vivo startups drew attention.
+  date: From late 2021 to mid-2025.
+  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and AstraZeneca and AbbVie bought in vivo startups in 2025.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   signal: google-trends
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -1041,7 +1044,7 @@ slides:
     16: We begin from trial-supply revenue because no in vivo CAR-T has an approved label
     21: We explain our estimate using only market data we can reconcile
 - id: ed044
-  type: x/our_own_first_principles_bottom_2
+  type: x/our_own_first_principles_bottom
   section: Market size
   title: Our own first-principles, bottom-up calculation of the market size
   page: 2/2
@@ -1319,7 +1322,7 @@ slides:
 
       new CMC standards'
 - id: ed057
-  type: x/problems_all_players_face_2
+  type: x/problems_all_players_face
   section: Pain points
   title: What problems do all players face?
   page: 2/2
@@ -1528,7 +1531,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: BLOOD CANCERS
+    3: 'BLOOD
+
+      CANCERS'
     5: 'In vivo CAR-T for lymphoma, leukemia and myeloma,
 
       where CAR-T already has clinical proof'
@@ -1664,7 +1669,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: AUTOIMMUNE DISEASES
+    3: 'AUTOIMMUNE
+
+      DISEASES'
     5: 'In vivo CAR-T for lupus, myasthenia gravis, multiple
 
       sclerosis and other B-cell-driven diseases'
@@ -1800,7 +1807,9 @@ slides:
   type: x/divider_3
   src: 62
   t:
-    3: SOLID TUMORS
+    3: 'SOLID
+
+      TUMORS'
     5: 'In vivo CAR-T for solid cancers, where delivery must
 
       beat tumor access, diversity and immune suppression'
@@ -1954,7 +1963,7 @@ slides:
     15: CAR RNA or DNA encodes receptors that redirect immune cells to disease targets
     21: LAYERS
 - id: ed088
-  type: x/tech_infra_layers_2
+  type: x/tech_infra_layers
   section: Tech and infra
   title: What are the tech and infra layers?
   page: 2/2
@@ -2083,7 +2092,7 @@ slides:
     23: '2025'
     24: Kite agreed to buy Interius for $350 million, adding its integrating single-infusion in vivo CAR platform and INT2104
 - id: ed093
-  type: x/were_latest_tech_infra_developments_2
+  type: x/were_latest_tech_infra_developments
   section: Tech and infra
   title: What were the latest tech and infra developments?
   page: 2/2
@@ -2505,7 +2514,7 @@ slides:
       LYMPHODEPLETION'
     18: 💎
 - id: ed104
-  type: x/where_value_created_today_2
+  type: x/where_value_created_today
   section: Value creation
   title: Where is value created today?
   page: 2/2
@@ -2531,7 +2540,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: MRNA-LNP CAR-T
+    3: 'MRNA-LNP
+
+      CAR-T'
     5: RNA-loaded particles that program chosen T cells inside the body
     6: VALUE CREATION
 - id: ed107-s1
@@ -2621,7 +2632,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: LENTIVIRAL CAR-T
+    3: 'LENTIVIRAL
+
+      CAR-T'
     5: Lentiviral vectors that create CAR-T cells inside the patient after infusion
     6: VALUE CREATION
 - id: ed107-s2
@@ -2711,7 +2724,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: GENE-EDITING CAR-T
+    3: 'GENE-EDITING
+
+      CAR-T'
     5: Systems that write the CAR into immune-cell DNA for lasting activity
     6: VALUE CREATION
 - id: ed107-s3
@@ -2801,7 +2816,9 @@ slides:
   type: x/divider_3
   src: 106
   t:
-    3: BEYOND T CELLS
+    3: 'BEYOND
+
+      T CELLS'
     5: Platforms that program macrophages or several immune cell types in the body
     6: VALUE CREATION
 - id: ed107-s4
@@ -3623,7 +3640,7 @@ slides:
   src: 156
   t:
     13: 2026 (APR)
-    14: Lilly agreed to buy Kelonia for up to $7B, including $3.2B upfront, for its lentiviral in vivo CAR-T platform {1|Lilly}
+    14: Lilly agreed to buy Kelonia for up to $7B, including $3.3B upfront, for its lentiviral in vivo CAR-T platform {1|Lilly}
     15: 2026 (FEB)
     16: Lilly agreed to buy Orna for up to $2.4B in cash to add its circular-RNA and LNP-based in vivo CAR-T programs {1|Lilly}
     17: 2025 (OCT)
@@ -3664,7 +3681,7 @@ slides:
   - x: 563
     y: 274
     src: ../../assets/logos/pp_live/in-vivo-car-t/s06-563.png
-    v: $3.2B
+    v: $3.3B
     name: Kelonia
     side: r
   - x: 418
@@ -3702,7 +3719,7 @@ slides:
     9: 'Lilly for Kelonia
 
       April 2026'
-    11: $7.3B
+    11: $7.4B
     12: 'Five other buyouts
 
       combined, 2025-2026'
@@ -3945,7 +3962,7 @@ slides:
     amt: 40000000
     date: Q2 2026
     stage: Series B
-    src: ../../assets/logos/starna-therapeutics.png
+    src: media/ini/starna-therapeutics.png
   - name: Vyriad
     amt: 25000000
     date: Q4 2025
@@ -4378,7 +4395,7 @@ slides:
     20: 2026 (MAY)
     21: CREATE raised a $122M Series B in May 2026 to move its CD19 and dual CD19-BCMA in vivo CAR programs toward the clinic {1|CREATE}
     22: 2026 (APR)
-    23: Lilly agreed to buy Kelonia for up to $7B, with $3.2B upfront, after its lead in vivo CAR-T reached Phase 1 {1|Lilly}
+    23: Lilly agreed to buy Kelonia for up to $7B, with $3.3B upfront, after its lead in vivo CAR-T reached Phase 1 {1|Lilly}
 - id: ed177
   type: x/startups_news_lately_2
   section: Top players
@@ -4392,7 +4409,7 @@ slides:
     15: 2026 (MAY)
     16: Ensoma reported initial clinical safety data from the first patient treated with its in vivo HSC engineering therapy {1|Ensoma}
     17: 2026 (APR)
-    18: Lilly agreed to buy Kelonia for up to $7B, including $3.2B upfront, built around its lentiviral iGPS in vivo platform {1|Lilly}
+    18: Lilly agreed to buy Kelonia for up to $7B, including $3.3B upfront, built around its lentiviral iGPS in vivo platform {1|Lilly}
     19: 2026 (FEB)
     20: Lilly agreed to buy Orna for up to $2.4B in cash, adding circular-RNA and LNP technologies for in vivo cell engineering {1|Lilly}
     21: 2025 (OCT)
@@ -4732,9 +4749,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: 'Which startups
-
-    scored big recently?'
+  title: Which in vivo CAR-T startups scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of in vivo CAR-T startups since 2024, from our tracker of rounds
   src: 205

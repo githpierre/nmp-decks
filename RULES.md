@@ -319,9 +319,15 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   gives the period (« November 2021 to July 2025 »), the title and the ed032 line speak of the rise up to mid-2025, and the note
   says Google changed how it counts small terms in mid-2025. This replaces `to_today` (Stablecoin payments), `dash_from`
   (AI data center) and the cut in May 2025 (AI in insurance): the options stay in pp_prepare only so old states rebuild. A term
-  at 0 or « <1 » most weeks before the cut has no Google slide (MGA). CHECK: none yet, read ed039p of each deck.
+  at 0 or « <1 » most weeks before the cut has no Google slide (MGA). CHECK: pp_prepare.trends applies the cut by default
+  and prints TRENDS TEXT (blocks --png) when the date or note still speaks of « the last five years » or « lately ».
 - A doubtful round is fixed in the base by the base rules (nmp-seo RULES 131: a round sourced only by a database such as Forge
   stays counted, low confidence; a repeat of an earlier round is removed), never hidden from the slides by a deck conversation.
-  skip_rounds.yaml is empty and stays for a round the base cannot fix yet.
+  skip_rounds.yaml is empty and stays for a round the base cannot fix yet. A round already ruled on goes to checked_rounds.yaml
+  (round id + rule), so WEAK ROUND SOURCE and ROUND EXTENSION do not warn about it again.
+- « a » or « an » before an amount follows the figure as printed, after rounding (« an $11.9B » became « an $12B »,
+  Neocloud): tidy_numbers fixes the article, CHECK: tools/check_article.py (ARTICLE AMOUNT, blocks --png).
+- OUTSIDE PLAYER on a hand-made slide: the outside company leaves the slide, the note counts what is left (IREN left the
+  Neocloud setbacks grid, now five operators).
 - Companies shared by two markets are described the same way in both decks (AI in insurance and MGA, Neocloud and AI data
   center): the later deck copies the earlier one's wording for the same fact.

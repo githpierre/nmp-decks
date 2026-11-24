@@ -1,6 +1,6 @@
 # Research import re, jsonport
 
-149 answers parsed, 0 YAML errors, 83 slides with remarks.
+149 answers parsed, 0 YAML errors, 82 slides with remarks.
 
 - **ed006**: no sources
 - **ed007p**: status no_data: taken from the live product page
@@ -23,7 +23,6 @@
 - **ed023**: length 28: 78 vs 58; no sources
 - **ed024**: no sources
 - **ed025**: no sources
-- **ed032**: length 19: 49 vs 39
 - **ed047p**: status no_data: No source gives a complete, mutually exclusive revenue split for all eight discovery categories. Published stage shares overlap or omit workflow
 - **ed047p**: dropped: no data
 - **ed054**: no sources

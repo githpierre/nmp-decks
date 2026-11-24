@@ -694,7 +694,7 @@ slides:
     14: '5'
     15: Generate reached Phase 3 faster than Insilico
     16: '6'
-    19: Google searches for AI drug discovery keep rising
+    19: Google searches for AI drug discovery grew fast
     20: '7'
 - id: xd_iso
   type: x/sig_key_trend
@@ -911,16 +911,19 @@ slides:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'More and more people look up how AI
+  title: 'Searches for AI drug discovery
 
-    designs drugs, now they reach trials'
-  date: Over the past year.
-  expl: AI drug discovery started to deliver. The Nobel Prize went to AlphaFold’s creators, drugs designed by AI entered late-stage trials, and Isomorphic Labs and others raised huge rounds. The idea that AI could find cures faster moved from labs to headlines.
+    grew fast from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: AI drug discovery started to deliver. The Nobel Prize went to AlphaFold’s creators in 2024, drugs designed by AI reached human trials, and Isomorphic Labs raised $600M in March 2025. The idea that AI could find cures faster moved from labs to headlines.
   term: ai drug discovery
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/ai-drug-discovery/ai-drug-discovery.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -4871,7 +4874,7 @@ slides:
     - EXS21546|ended 2023
     - Recursion|Nov 2024
     - ''
-    src: ../../assets/logos/exscientia--symbol.png
+    src: ../../assets/logos/fav/exscientia.png
   - name: Relay Therapeutics
     slug: relay-therapeutics
     ini: R
@@ -4882,7 +4885,7 @@ slides:
     - GDC-1971|no restart
     - ''
     - 75% less|R&D budget
-    src: ../../assets/logos/relay-therapeutics--symbol.png
+    src: media/ini/relay-therapeutics.png
   - name: BioAge Labs
     slug: bioage-labs
     ini: B
@@ -5006,9 +5009,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: 'Which startups
-
-    scored big recently?'
+  title: Which AI in drug discovery startups scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of AI drug discovery startups since 2024, from our tracker of rounds
   src: 205

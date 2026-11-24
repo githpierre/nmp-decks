@@ -323,7 +323,7 @@ slides:
     22: 🤥
     23: 🤥
 - id: ed016
-  type: x/some_common_myths_about_2
+  type: x/some_common_myths_about
   section: Market definition
   title: What are some common myths about advanced nuclear?
   page: 2/2
@@ -681,7 +681,7 @@ slides:
     14: '5'
     15: X-energy's quarterly revenue more than doubled
     16: '6'
-    19: Google searches for advanced nuclear soared
+    19: Google searches for advanced nuclear climbed
     20: '7'
 - id: xa_haleu
   type: sx_faceoff
@@ -853,14 +853,17 @@ slides:
   window: 5y
   csv: assets/trends/advanced-nuclear/advanced-nuclear.csv
   term: advanced nuclear
-  title: 'Lately, searches for advanced nuclear
+  title: 'Searches for advanced nuclear climbed
 
-    climbed as AI needs more power'
-  date: Recently.
-  expl: Nuclear came back into the news. Tech giants signed deals to power their AI data centers with new reactors, the US ordered its regulator to approve designs faster, and small reactor startups listed on the stock market. So people went looking for what advanced nuclear really is.
+    from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Nuclear came back into the news. Microsoft, Google and Amazon signed deals in 2024 to power their AI data centers with nuclear, the US ordered its regulator to approve designs faster in May 2025, and Oklo listed on the stock market.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -1162,7 +1165,7 @@ slides:
 
       still unsettled'
 - id: ed057
-  type: x/problems_all_players_face_2
+  type: x/problems_all_players_face
   section: Pain points
   title: What problems do all players face?
   page: 2/2
@@ -1404,7 +1407,7 @@ slides:
     22: ⚖️
     23: 🏘️
     24: 🔌
-    27: POWER UTILITIES
+    27: UTILITIES
 - id: ed064-s1
   type: x/these_customers_strongest_pain_points
   section: Pain points
@@ -1419,7 +1422,7 @@ slides:
     10: 🤒
     11: 🤒
     12: 🤒
-    13: POWER UTILITIES
+    13: UTILITIES
     14: They fear first units that run years late and over budget
     15: They cannot afford to bet the company on one unproven design
     16: They need a firm price before regulators approve the cost
@@ -1935,7 +1938,7 @@ slides:
     15: Rods halt fission, while passive cooling removes heat without powered pumps.
     21: LAYERS
 - id: ed088
-  type: x/tech_infra_layers_2
+  type: x/tech_infra_layers
   section: Tech and infra
   title: What are the tech and infra layers?
   page: 2/2
@@ -2064,7 +2067,7 @@ slides:
     23: '2025'
     24: Canada issued a construction license for one BWRX-300 at Darlington, giving a utility permission to start an SMR build.
 - id: ed093
-  type: x/were_latest_tech_infra_developments_2
+  type: x/were_latest_tech_infra_developments
   section: Tech and infra
   title: What were the latest tech and infra developments?
   page: 2/2
@@ -2480,7 +2483,7 @@ slides:
       BUYERS'
     18: 💎
 - id: ed104
-  type: x/where_value_created_today_2
+  type: x/where_value_created_today
   section: Value creation
   title: Where is value created today?
   page: 2/2
@@ -3705,7 +3708,7 @@ slides:
   src: 156
   t:
     13: 2026 (NOV)
-    14: Project Omega raised a $80M Series A led by B Capital for its nuclear fuel {1|Project Omega}
+    14: Project Omega raised an $80M Series A led by B Capital for its nuclear fuel {1|Project Omega}
     15: 2026 (OCT)
     16: Kairos Power raised a $368M strategic round led by GV for its fluoride salt-cooled nuclear reactors {1|Bloomberg Law}
     17: 2026 (OCT)
@@ -4729,9 +4732,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: 'Which startups
-
-    scored big recently?'
+  title: Which advanced nuclear startups scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of advanced nuclear startups since 2024, from our tracker of rounds
   src: 205

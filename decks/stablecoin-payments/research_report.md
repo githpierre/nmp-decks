@@ -24,7 +24,7 @@
 - **ed023**: length 28: 76 vs 58; no sources
 - **ed024**: no sources
 - **ed025**: no sources
-- **ed032**: length 5: 56 vs 44; length 19: 55 vs 39
+- **ed032**: length 5: 56 vs 44; length 19: 55 vs 40
 - **ed050**: length 6: 6 vs 22; length 5: 13 vs 20; length 9: 14 vs 20; length 13: 12 vs 21; length 17: 12 vs 20
 - **ed054**: no sources
 - **ed055**: length 7: 114 vs 65; length 10: 101 vs 58; length 13: 107 vs 67; length 19: 98 vs 59; length 22: 79 vs 60; no sources

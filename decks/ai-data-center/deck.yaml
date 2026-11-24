@@ -872,21 +872,19 @@ slides:
   title: 'Searches for data center doubled
 
     in the three years to mid-2025'
-  date: Before mid-2025.
-  expl: Data centers left the trade press as AI labs and big clouds raced to build. OpenAI’s Stargate, Meta and xAI planned campuses as big as cities, and searches for data center doubled in three years, before Google changed how it counts small search terms.
+  date: From late 2021 to mid-2025.
+  expl: Data centers left the trade press as AI labs and big clouds raced to build. Microsoft, Meta and xAI planned campuses as big as cities, and OpenAI announced Stargate in January 2025.
   term: data center
   stat: ×2
   stat_text:
-  - more searches in early 2025
+  - more searches in mid-2025
   - than in 2022
-  dash_from: '2025-07-27'
-  dash_caption:
-  - 'Dashed: Google counts small'
-  - terms differently since mid-2025
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - Since mid-2025, small search terms move together across topics, so that part is dashed
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/ai-data-center/data-center.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
 - id: ed040
   type: agenda
   section: Market size
@@ -4954,9 +4952,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: 'Which startups
-
-    scored big recently?'
+  title: Which AI data center operators scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of AI data center startups since 2024, from our tracker of rounds
   src: 205

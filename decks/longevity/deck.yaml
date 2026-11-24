@@ -319,7 +319,7 @@ slides:
     22: 🤥
     23: 🤥
 - id: ed016
-  type: x/some_common_myths_about_2
+  type: x/some_common_myths_about
   section: Market definition
   title: What are some common myths about longevity?
   page: 2/2
@@ -692,7 +692,7 @@ slides:
     14: '5'
     15: Four longevity buyouts in five months
     16: '6'
-    19: Google searches for longevity soared
+    19: Google searches for longevity doubled
     20: '7'
 - id: xl_neko_scans
   type: x/sig_key_trend
@@ -871,14 +871,17 @@ slides:
   window: 5y
   csv: assets/trends/longevity/longevity.csv
   term: longevity
-  title: 'Now, more and more people
+  title: 'Searches for longevity doubled
 
-    are googling longevity'
-  date: Recently.
+    from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
   expl: Longevity left the lab and entered the gym. Bryan Johnson and Peter Attia turned it into a daily routine, Netflix shows and podcasts made “healthspan” a household word, and clinics started selling it. People now google longevity the way they used to google diets.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -1103,7 +1106,7 @@ slides:
 
       after a few tests'
 - id: ed057
-  type: x/problems_all_players_face_2
+  type: x/problems_all_players_face
   section: Pain points
   title: What problems do all players face?
   page: 2/2
@@ -1900,7 +1903,7 @@ slides:
     15: AI systems use aging data to pick drug targets and design cell-reset drugs.
     21: LAYERS
 - id: ed088
-  type: x/tech_infra_layers_2
+  type: x/tech_infra_layers
   section: Tech and infra
   title: What are the tech and infra layers?
   page: 2/2
@@ -2029,7 +2032,7 @@ slides:
     23: '2025'
     24: Retro registered a Phase 1 trial of RTR242, an oral drug targeting weak cell recycling, to assess safety in healthy adults
 - id: ed093
-  type: x/were_latest_tech_infra_developments_2
+  type: x/were_latest_tech_infra_developments
   section: Tech and infra
   title: What were the latest tech and infra developments?
   page: 2/2
@@ -2445,7 +2448,7 @@ slides:
       GUIDANCE'
     18: 💎
 - id: ed104
-  type: x/where_value_created_today_2
+  type: x/where_value_created_today
   section: Value creation
   title: Where is value created today?
   page: 2/2
@@ -3907,7 +3910,7 @@ slides:
     amt: 700000000
     date: Q3 2026
     stage: Series C
-    src: ../../assets/logos/fav/neko-health.png
+    src: ../../assets/logos/neko-health--symbol.png
   - name: NewLimit
     amt: 435000000
     date: Q2 2026
@@ -3917,7 +3920,7 @@ slides:
     amt: 298000000
     date: Q4 2025
     stage: Series B
-    src: ../../assets/logos/fav/function-health.png
+    src: ../../assets/logos/function-health--symbol.png
   - name: Cambrian Biopharma
     amt: 123800000
     date: Q2 2026
@@ -3942,7 +3945,7 @@ slides:
     amt: 260000000
     date: '2025'
     stage: Series B
-    src: ../../assets/logos/fav/neko-health.png
+    src: ../../assets/logos/neko-health--symbol.png
   - name: Insilico Medicine
     amt: 255000000
     date: '2021'
@@ -3952,7 +3955,7 @@ slides:
     amt: 220000000
     date: '2016'
     stage: Series B
-    src: ../../assets/logos/fav/human-longevity.png
+    src: ../../assets/logos/human-longevity--symbol.png
   note:
   - We listed the biggest equity rounds raised by longevity startups before the last twelve months
   - We used our tracker of rounds, company announcements and the press, with sources at the end
@@ -4625,7 +4628,7 @@ slides:
     - No viable|rescue deal
     - Dissolve|plan 2025
     - Sale or|deal sought
-    src: ../../assets/logos/unity-biotechnology.png
+    src: ../../assets/logos/unity.png
   - name: FOXO Technologies
     slug: foxo-technologies
     ini: F
@@ -4636,7 +4639,7 @@ slides:
     - Save cash|2023
     - ''
     - Shift to|data tools
-    src: ../../assets/logos/fav/foxo-technologies.png
+    src: ../../assets/logos/foxo--symbol.png
   - name: Modern Age
     slug: modern-age
     ini: M
@@ -4647,7 +4650,7 @@ slides:
     - Could not|raise cash
     - Shut down|Mar 2024
     - New owner|Aug 2024
-    src: ../../assets/logos/fav/modern-age.png
+    src: ../../assets/logos/modernage.png
   - name: BioAge Labs
     slug: bioage-labs
     ini: B
@@ -4658,7 +4661,7 @@ slides:
     - ''
     - ''
     - New drug|focus
-    src: ../../assets/logos/fav/bioage-labs.png
+    src: ../../assets/logos/bioage-labs--symbol.png
   - name: Eternal
     slug: eternal
     ini: E
@@ -4771,9 +4774,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: 'Which startups
-
-    scored big recently?'
+  title: Which longevity startups scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of longevity startups since 2024, from our tracker of rounds
   src: 205
@@ -5013,7 +5014,7 @@ slides:
   src: 211
   title: How Neko Health made preventive scans a repeat business
   type: contrast
-  logo_src: ../../assets/logos/fav/neko-health.png
+  logo_src: ../../assets/logos/neko-health--symbol.png
 - id: ed212
   left: A REGULAR LONGEVITY STARTUP
   logo: function-health
@@ -5042,7 +5043,7 @@ slides:
   src: 212
   title: How Function Health built a repeat testing platform
   type: contrast
-  logo_src: ../../assets/logos/fav/function-health.png
+  logo_src: ../../assets/logos/function-health--symbol.png
 - id: ed213
   left: A REGULAR LONGEVITY STARTUP
   logo: loyal

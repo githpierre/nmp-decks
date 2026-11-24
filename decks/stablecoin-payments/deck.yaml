@@ -882,17 +882,19 @@ slides:
   section: Market opportunity
   signal: google-trends
   window: 5y
-  to_today: true
-  title: 'Searches for stablecoins jumped with the
+  title: 'Searches for stablecoins fell after 2022,
 
-    US law, then fell back in late 2026'
-  date: Since summer 2026.
-  expl: Searches jumped when the US passed its stablecoin law in July 2025 and stayed high until May 2026. They have since fallen by about 90%, below their level of early 2025.
+    then climbed to the US law in 2025'
+  date: From late 2021 to mid-2025.
+  expl: Searches dropped after the Terra crash in 2022, then climbed again as PayPal launched its own stablecoin and the US moved toward a stablecoin law, signed in July 2025.
   term: stablecoins
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/stablecoin-payments/stablecoins.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -912,26 +914,26 @@ slides:
     13: ❌
     14: ⚖️
 - id: ed042
-  type: estimates
-  section: Market size
-  title: What are the market size estimates from different sources online?
-  rows:
-  - firm: Allium
-    value: $394B
-    comment: Its 2025 measure labels payments by wallet and counterparty type, with exchange flows removed. We use it as the comparable full-year base.
-  - firm: McKinsey / Artemis
-    value: $390B
-    comment: Their December 2025 payment pace is annualized, not the sum of that year. It separates real payments from internal wallet transfers.
-  - firm: Stripe
-    value: $400B
-    comment: Stripe cites roughly $400 billion of 2025 stablecoin payment volume. Its rounded figure checks our baseline, not issuer revenue.
-  - firm: BCG / Allium
-    value: $350-550B
-    comment: Their 2025 range captures observed bilateral payments, with some off-chain and card activity missing. We use it as a method check.
   note:
   - We compare payment flow estimates, not token supply, trading transfers or fees earned by service providers.
   - We treat annual totals, December run rates and ranges as distinct measures before selecting a baseline.
+  rows:
+  - comment: Its 2025 measure labels payments by wallet type and removes exchange flows. We use it as our full-year base.
+    firm: Allium
+    value: $394B
+  - comment: Their December 2025 pace is annualized, not summed, and keeps real payments apart from wallet transfers.
+    firm: McKinsey / Artemis
+    value: $390B
+  - comment: Stripe cites roughly $400 billion of 2025 stablecoin payment volume. Its rounded figure checks our baseline, not issuer revenue.
+    firm: Stripe
+    value: $400B
+  - comment: Their 2025 range captures observed bilateral payments, with some off-chain and card activity missing. We use it as a method check.
+    firm: BCG / Allium
+    value: $350-550B
+  section: Market size
   src: 42
+  title: What are the market size estimates from different sources online?
+  type: estimates
 - id: ed043
   type: x/our_own_first_principles_bottom
   section: Market size
@@ -4050,7 +4052,7 @@ slides:
     21: 2026 (OCT)
     22: Saber Money raised an undisclosed round for its stablecoin accounts and business payments {1|Saber Money}
     23: 2026 (OCT)
-    24: IMMIX raised $3.5M. It offers AI-priced stablecoin foreign-exchange conversion and liquidity execution {1|GlobeNewswire}
+    24: IMMIX raised $3.5M for its on and off ramps {1|GlobeNewswire}
 - id: ed157
   type: x/rounds_were_announced_last_2
   section: Investor bets
@@ -4106,8 +4108,8 @@ slides:
     v: 1190
     ann: Tempo, $500M top round, in 38 rounds
   - x: 2026 H1
-    v: 947
-    ann: Rain, $250M top round, in 42 rounds
+    v: 1047
+    ann: Rain, $250M top round, in 43 rounds
   - x: 2026 H2
     v: 601
     ann: Félix Pago, $87M top round, in 28 rounds
@@ -4133,23 +4135,23 @@ slides:
     v: 1683
     ann: Tempo, $500M top round, in 74 rounds
   - x: '2026'
-    v: 1548
-    ann: Rain, $250M top round, in 70 rounds
+    v: 1648
+    ann: Rain, $250M top round, in 71 rounds
 - id: ed160
   type: x/stands_out_funding
   section: Investor bets
   title: 'What stands out in
 
     stablecoin payments funding?'
-  note: We drew these insights from our tracker of 186 stablecoin payments equity rounds announced since January 2024, worth about $3.6B
+  note: We drew these insights from our tracker of 187 stablecoin payments equity rounds announced since January 2024, worth about $3.7B
   src: 160
   t:
-    6: Treasury settlement took about 29% of the capital raised since 2024, ahead of Payment APIs with about 21%
-    7: 175 of the 186 rounds since 2024 disclosed an amount, and the median disclosed round was $8.5M
-    8: US startups closed 93 of the 186 rounds and took $2.3B, about 64% of all the money raised since 2024
-    9: 4 rounds of $100M or more made up about 27% of all the capital raised in the market since 2024
+    6: Treasury settlement took about 28% of the capital raised since 2024, ahead of Payment APIs with about 21%
+    7: 176 of the 187 rounds since 2024 disclosed an amount, and the median disclosed round was $8.8M
+    8: US startups closed 94 of the 187 rounds and took $2.4B, about 65% of all the money raised since 2024
+    9: 5 rounds of $100M or more made up about 28% of all the capital raised in the market since 2024
     10: The $500M Series A round of Tempo is the biggest since 2024, ahead of the $250M round of Rain
-    11: Seed was the most common round, with 97 of the 186 rounds, ahead of Series A with 46 and Series B with 12
+    11: Seed was the most common round, with 97 of the 187 rounds, ahead of Series A with 46 and Series B with 13
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
@@ -4166,7 +4168,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 186 rounds raised $3.6B. Treasury settlement takes the biggest share, and Stripe and Mastercard bought leaders.'
+      Since 2024, 187 rounds raised $3.7B. Treasury settlement takes the biggest share, and Stripe and Mastercard bought leaders.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -4186,8 +4188,8 @@ slides:
     v: 30
     ann: Tempo, $500M top round, out of 74 rounds
   - x: 2026 (YTD)
-    v: 16
-    ann: Rain, $250M top round, out of 70 rounds
+    v: 15
+    ann: Rain, $250M top round, out of 71 rounds
 - id: ed165p
   type: pp_raises
   section: Investor bets
@@ -4206,16 +4208,16 @@ slides:
     date: Q4 2025
     stage: Series B
     src: ../../assets/logos/redotpay.png
+  - name: MoonPay
+    amt: 100000000
+    date: Q2 2026
+    stage: Series B
+    src: media/ini/moonpay.png
   - name: OpenFX
     amt: 94000000
     date: Q1 2026
     stage: Series A
     src: ../../assets/logos/openfx.png
-  - name: Félix Pago
-    amt: 87000000
-    date: Q3 2026
-    stage: Series C
-    src: ../../assets/logos/felix-pago.png
   note:
   - We listed the biggest equity rounds raised by stablecoin payments startups over the last twelve months
   - We used company announcements and the press, and all our sources are at the end of the report
@@ -4242,11 +4244,11 @@ slides:
     date: '2025'
     stage: late-stage
     src: ../../assets/logos/zerohash.png
-  - name: Mesh
-    amt: 82000000
-    date: '2025'
-    stage: Series B
-    src: ../../assets/logos/mesh-2.png
+  - name: MoonPay
+    amt: 87000000
+    date: '2022'
+    stage: Series A
+    src: media/ini/moonpay.png
   note:
   - We listed the biggest equity rounds of stablecoin payments startups before the last twelve months
   - We used our tracker of rounds, company announcements and the press, with sources at the end
@@ -4256,7 +4258,7 @@ slides:
   title: 'Where did most
 
     of the capital go?'
-  note: We used our tracker of 186 stablecoin payments equity rounds announced since January 2024, worth about $3.6B. IPOs, debt and grants are left out
+  note: We used our tracker of 187 stablecoin payments equity rounds announced since January 2024, worth about $3.7B. IPOs, debt and grants are left out
   src: 167
   t:
     6: TREASURY SETTLEMENT
@@ -4360,7 +4362,7 @@ slides:
   title: 'Who are the most
 
     active investors?'
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 186 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 187 rounds
   src: 169
   t:
     7: TETHER
@@ -4968,7 +4970,7 @@ slides:
     - Staff|laid off
     - Global|payouts ended
     - Closed|Jun 2023
-    src: media/ini/wyre.png
+    src: ../../assets/logos/wyre-ai.png
   - name: CoinsPaid
     slug: coinspaid
     ini: C
@@ -5100,8 +5102,8 @@ slides:
     21: Rain raised a $250M Series C led by ICONIQ for its stablecoin card issuing and payments infrastructure {1|PR Newswire}
     22: 2026 (MAR)
     23: OpenFX raised a $94M Series A led by Accel for its global stablecoin-powered FX settlement infrastructure {1|OpenFX}
-    24: 2026 (SEP)
-    25: Félix Pago raised a $87M Series C led by a16z crypto for its WhatsApp-based international remittances {1|A16Zcrypto}
+    24: 2026 (JUN)
+    25: MoonPay raised a $100M Series B for its cryptocurrency payments infrastructure {1|Forge Global}
 - id: ed206
   type: x/success_look_like_market
   section: Startup strategies

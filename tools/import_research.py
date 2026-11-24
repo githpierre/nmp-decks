@@ -28,6 +28,8 @@ def tidy_numbers(v):
     v = re.sub(r'\$(\d+\.\d+)(B|M|K)\b', amt, v)
     v = re.sub(r'\$(\d+)\.0(B|M|K)\b', r'$\1\2', v)   # « $1.0B » -> « $1B »
     v = re.sub(r'(?<![\d.])(\d+\.\d)\d+%', lambda m: m.group(1).rstrip('0').rstrip('.') + '%', v)
+    # the article follows the rounded figure: « an $11.9B » -> « a $12B », « a $10.5M » -> « an $11M » (ARTICLE AMOUNT, 24 Nov 2026)
+    v = re.sub(r'\b([Aa])n? \$(\d)', lambda m: m.group(1) + ('n' if re.match(r'8|1[18](?!\d)', v[m.end(2) - 1:]) else '') + ' $' + m.group(2), v)
     return v
 def tidy_all(x, k=None):
     if isinstance(x, dict): return {kk: tidy_all(vv, kk) for kk, vv in x.items()}

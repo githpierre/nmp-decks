@@ -650,7 +650,7 @@ slides:
     14: '5'
     15: Iowa set drilling rules as leases piled up
     16: '6'
-    19: Google searches for natural hydrogen keep rising
+    19: Google searches for natural hydrogen held up
     20: '7'
 - id: xh_mantle8
   type: x/sig_key_trend
@@ -839,16 +839,19 @@ slides:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'Now, more and more people
+  title: 'Searches for natural hydrogen rose in
 
-    are googling natural hydrogen'
-  date: In recent months.
-  expl: Natural hydrogen forms underground when some rocks react with water. A 2024 USGS study said huge amounts may sit below our feet, and explorers drilled their first dedicated wells in Australia and the United States. Searches rose with them.
+    2022 and stayed high to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Natural hydrogen forms underground when some rocks react with water. A 2024 USGS study said huge amounts may sit below our feet, and explorers drilled their first dedicated wells in Australia and the United States.
   term: natural hydrogen
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/natural-hydrogen/natural-hydrogen.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 - id: ed040
   type: agenda
   section: Market size
@@ -1863,7 +1866,7 @@ slides:
     10: 🤒
     11: 🤒
     12: 🤒
-    13: REMOTE AND MILITARY SITES
+    13: MILITARY AND REMOTE SITES
     14: They lose power when the regional grid goes down
     15: They pay a lot for diesel trucked in from far away
     16: They depend on fuel convoys that can be cut off
@@ -3505,7 +3508,7 @@ slides:
     15: 2026 (MAY)
     16: Mantle8 raised a $36M Series A led by Sandwater for its subsurface mapping {1|Mantle8}
     17: 2025 (DEC)
-    18: Addis Energy raised a $8.3M seed round led by At One for its stimulated hydrogen {1|Axios}
+    18: Addis Energy raised an $8.3M seed round led by At One for its stimulated hydrogen {1|Axios}
     19: 2025 (SEP)
     20: Snowfox Discovery raised a $30M Series A led by bp Ventures for its subsurface mapping {1|Snowfox}
     21: 2025 (SEP)
@@ -4380,7 +4383,7 @@ slides:
     20: 2025 (SEP)
     21: Snowfox Discovery raised a $30M Series A led by bp Ventures for its subsurface mapping {1|Snowfox}
     22: 2025 (DEC)
-    23: Addis Energy raised a $8.3M seed round led by At One for its stimulated hydrogen {1|Axios}
+    23: Addis Energy raised an $8.3M seed round led by At One for its stimulated hydrogen {1|Axios}
     24: 2026 (MAY)
     25: Mantle8 raised a $36M Series A led by Sandwater for its subsurface mapping {1|Mantle8}
 - id: ed206
