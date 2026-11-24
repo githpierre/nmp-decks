@@ -598,14 +598,17 @@ ed039p:
   window: 5y
   csv: assets/trends/advanced-nuclear/advanced-nuclear.csv
   term: advanced nuclear
-  title: 'Lately, searches for advanced nuclear
-
-    climbed as AI needs more power'
-  date: Recently.
-  expl: Nuclear came back into the news. Tech giants signed deals to power their AI data centers with new reactors, the US ordered its regulator to approve designs faster, and small reactor startups listed on the stock market. So people went looking for what advanced nuclear really is.
+  title: 'Searches for advanced nuclear climbed
+  
+    from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Nuclear came back into the news. Microsoft, Google and Amazon signed deals in 2024 to power their AI data centers with nuclear, the US ordered its regulator to approve designs faster in May 2025, and Oklo listed on the stock market.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed052p:
   type: pp_cagr
   title: 'How much room is left

@@ -5,15 +5,18 @@ ed039p:
   window: 5y
   csv: assets/trends/humanoid-robotics/where-to-buy-robots.csv
   term: where to buy robots
-  title: 'More and more people look for where to
-
-    buy a robot, now that preorders are open'
-  date: Lately.
-  expl: Humanoid robots stopped sounding like science fiction. 1X opened preorders for Neo, a home robot at $20,000, Chinese makers like Unitree showed humanoids under $6,000, and robot videos went viral on every feed. For the first time, buying one felt possible, so people started looking for where.
+  title: 'More people looked up where to buy
+  
+    a robot as prices fell to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Humanoid robots stopped sounding like science fiction. Unitree sold its G1 for $16,000 and showed the R1 at $5,900 in July 2025, Figure and Tesla showed robots at work, and robot videos went viral. Buying one started to feel possible.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
   y_top: 222
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed047p:
   type: pp_donutv
   variant: B

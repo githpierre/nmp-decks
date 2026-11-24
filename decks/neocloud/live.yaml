@@ -626,17 +626,19 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'Now, more and more people
-
-    are googling GPU cloud'
-  date: In recent months.
-  expl: Neoclouds are cloud companies that rent GPUs for AI. CoreWeave went public, Nebius and Nscale signed multibillion-dollar deals with Microsoft
-    and Meta, and AI teams started to look for GPUs outside the big clouds. Searches for GPU cloud took off with them.
+  title: 'Searches for GPU cloud more than
+  
+    tripled from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Neoclouds are cloud companies that rent GPUs for AI. ChatGPT set off a race for GPUs, CoreWeave signed an $11.9B deal with OpenAI and went public in March 2025, and AI teams started to look for GPUs outside the big clouds.
   term: GPU cloud
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/neocloud/gpu-cloud.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed052p:
   type: pp_cagr
   title: 'How much room is left

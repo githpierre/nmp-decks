@@ -528,18 +528,18 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  cut: '2025-06-01'
+  cut: '2025-07-27'
   title: 'Searches for AI insurance were tiny
-
+  
     in 2021 and grew until mid-2025'
-  date: Since 2021.
+  date: From late 2021 to mid-2025.
   expl: Searches for AI insurance were too rare to measure in 2021 and 2022, then grew from 2023 as insurers began using AI to price policies, read claims and spot fraud.
   stat_text: more searches in mid-2025<br>than in a typical week before
-  caption_period: November 2021 to May 2025
+  caption_period: November 2021 to July 2025
   term: ai insurance
   note:
-  - We tracked how often people around the world googled this term, using Google Trends
-  - Google changed how it counts rare terms in mid-2025, so the curve stops in May 2025
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/ai-in-insurance/ai-insurance.csv
 ed052p:
   type: pp_cagr

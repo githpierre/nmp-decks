@@ -661,17 +661,19 @@ ed007p:
 ed039p:
   signal: google-trends
   window: 5y
-  to_today: true
-  title: 'Searches for stablecoins jumped with the
-
-    US law, then fell back in late 2026'
-  date: Since summer 2026.
-  expl: Searches jumped when the US passed its stablecoin law in July 2025 and stayed high until May 2026. They have since fallen by about 90%, below their level of early 2025.
+  title: 'Searches for stablecoins fell after 2022,
+  
+    then climbed to the US law in 2025'
+  date: From late 2021 to mid-2025.
+  expl: Searches dropped after the Terra crash in 2022, then climbed again as PayPal launched its own stablecoin and the US moved toward a stablecoin law, signed in July 2025.
   term: stablecoins
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/stablecoin-payments/stablecoins.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed052p:
   type: pp_cagr
   title: 'How much bigger can

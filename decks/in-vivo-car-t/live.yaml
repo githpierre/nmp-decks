@@ -232,17 +232,20 @@ ed148p:
   - Ratings are our estimates, with all the sources at the end of the report
 ed039p:
   pill: SIGNAL
-  title: 'Searches for in vivo CAR-T soar as
-
-    cell therapy moves inside the body'
+  title: 'Searches for in vivo CAR-T took off
+  
+    in the year to mid-2025'
   csv: assets/trends/in-vivo-car-t/in-vivo-car-t.csv
   term: in vivo car t
-  date: Lately.
-  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and big deals by AstraZeneca and AbbVie for in vivo startups drew attention.
+  date: From late 2021 to mid-2025.
+  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and AstraZeneca and AbbVie bought in vivo startups in 2025.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources at the end of the report
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
   signal: google-trends
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed007p:
   title: 'What is actually included
 

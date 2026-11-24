@@ -323,3 +323,15 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   « last five years ».
 - Database rows: the line limit counts the joining words around the publisher (tools/make_db_slides.py, margin 10).
 - Numbers of 1,000 and more always carry a thousands comma, in templates too (share_waffle printed « 1230 of 1614 », MedTech).
+
+## Pierre, 24 Nov 2026 (merge of the 8 delegated returns), each with its check
+- Google Trends, ONE look for every deck: the curve is cut at 2025-07-27 (`cut: '2025-07-27'` in live.yaml ed039p), the caption
+  gives the period (« November 2021 to July 2025 »), the title and the ed032 line speak of the rise up to mid-2025, and the note
+  says Google changed how it counts small terms in mid-2025. This replaces `to_today` (Stablecoin payments), `dash_from`
+  (AI data center) and the cut in May 2025 (AI in insurance): the options stay in pp_prepare only so old states rebuild. A term
+  at 0 or « <1 » most weeks before the cut has no Google slide (MGA). CHECK: none yet, read ed039p of each deck.
+- A doubtful round is fixed in the base by the base rules (nmp-seo RULES 131: a round sourced only by a database such as Forge
+  stays counted, low confidence; a repeat of an earlier round is removed), never hidden from the slides by a deck conversation.
+  skip_rounds.yaml is empty and stays for a round the base cannot fix yet.
+- Companies shared by two markets are described the same way in both decks (AI in insurance and MGA, Neocloud and AI data
+  center): the later deck copies the earlier one's wording for the same fact.

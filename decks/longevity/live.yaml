@@ -656,14 +656,17 @@ ed039p:
   window: 5y
   csv: assets/trends/longevity/longevity.csv
   term: longevity
-  title: 'Now, more and more people
-
-    are googling longevity'
-  date: Recently.
+  title: 'Searches for longevity doubled
+  
+    from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
   expl: Longevity left the lab and entered the gym. Bryan Johnson and Peter Attia turned it into a daily routine, Netflix shows and podcasts made “healthspan” a household word, and clinics started selling it. People now google longevity the way they used to google diets.
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed052p:
   type: pp_cagr
   title: 'Where could the longevity

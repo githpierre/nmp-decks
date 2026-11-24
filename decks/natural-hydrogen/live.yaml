@@ -325,17 +325,19 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'Now, more and more people
-
-    are googling natural hydrogen'
-  date: In recent months.
-  expl: Natural hydrogen forms underground when some rocks react with water. A 2024 USGS study said huge amounts may sit below
-    our feet, and explorers drilled their first dedicated wells in Australia and the United States. Searches rose with them.
+  title: 'Searches for natural hydrogen rose in
+  
+    2022 and stayed high to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Natural hydrogen forms underground when some rocks react with water. A 2024 USGS study said huge amounts may sit below our feet, and explorers drilled their first dedicated wells in Australia and the United States.
   term: natural hydrogen
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/natural-hydrogen/natural-hydrogen.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed047p:
   type: pp_donutv
   variant: B

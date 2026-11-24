@@ -569,16 +569,19 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'More and more people look up how AI
-
-    designs drugs, now they reach trials'
-  date: Over the past year.
-  expl: AI drug discovery started to deliver. The Nobel Prize went to AlphaFold’s creators, drugs designed by AI entered late-stage trials, and Isomorphic Labs and others raised huge rounds. The idea that AI could find cures faster moved from labs to headlines.
+  title: 'Searches for AI drug discovery
+  
+    grew fast from 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: AI drug discovery started to deliver. The Nobel Prize went to AlphaFold’s creators in 2024, drugs designed by AI reached human trials, and Isomorphic Labs raised $600M in March 2025. The idea that AI could find cures faster moved from labs to headlines.
   term: ai drug discovery
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We tracked how often people around the world googled this term from late 2021 to July 2025
+  - Google changed how it counts small search terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/ai-drug-discovery/ai-drug-discovery.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
+  stat_text: more searches in mid-2025<br>than in a typical week before
 ed052p:
   type: pp_cagr
   title: 'Is the AI drug discovery
