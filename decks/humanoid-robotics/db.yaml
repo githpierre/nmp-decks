@@ -20,7 +20,7 @@ ed157:
   18: 2026 (OCT)
   19: CASBOT raised an undisclosed Series A for its industrial humanoid robots and dexterous hands {1|Cailian Press}
   20: 2026 (OCT)
-  21: EIR raised a $14M seed round for its AiQ and skywalker service humanoids {1|IT Home}
+  21: EIR raised a $15M seed round for its AiQ and skywalker service humanoids {1|IT Home}
   22: 2026 (OCT)
   23: Ruoyu Technology raised a $14M seed round led by Sunway Communication {1|STAR Market Daily}
   24: 2026 (OCT)
@@ -29,17 +29,17 @@ ed157:
 ed158:
   bars:
   - x: 2025 H1
-    v: 1624
+    v: 1614
     ann: Apptronik, $350M top round, in 61 rounds
   - x: 2025 H2
-    v: 2882
-    ann: Figure AI, $1B top round, in 56 rounds
+    v: 2894
+    ann: Figure AI, $1B top round, in 55 rounds
   - x: 2026 H1
-    v: 6684
-    ann: AI² Robotics, $735M top round, in 78 rounds
+    v: 6795
+    ann: AI² Robotics, $735M top round, in 77 rounds
   - x: 2026 H2
-    v: 3675
-    ann: XPENG Robotics, $900M top round, in 38 rounds
+    v: 3721
+    ann: XPENG Robotics, $900M top round, in 40 rounds
   note:
   - We add up the disclosed equity rounds of humanoid robotics startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero in this chart
@@ -48,14 +48,14 @@ ed159:
   t: null
   bars:
   - x: '2024'
-    v: 1237
+    v: 1234
     ann: Figure AI, $675M top round, in 68 rounds
   - x: '2025'
-    v: 4506
-    ann: Figure AI, $1B top round, in 117 rounds
+    v: 4508
+    ann: Figure AI, $1B top round, in 116 rounds
   - x: '2026'
-    v: 10359
-    ann: XPENG Robotics, $900M top round, in 116 rounds
+    v: 10516
+    ann: XPENG Robotics, $900M top round, in 117 rounds
   note:
   - We add up the disclosed equity rounds of humanoid robotics startups in our database, which is complete from January 2024
   - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
@@ -69,10 +69,10 @@ ed164:
     ann: Figure AI, $675M top round, out of 68 rounds
   - x: '2025'
     v: 22
-    ann: Figure AI, $1B top round, out of 117 rounds
+    ann: Figure AI, $1B top round, out of 116 rounds
   - x: 2026 (YTD)
     v: 9
-    ann: XPENG Robotics, $900M top round, out of 116 rounds
+    ann: XPENG Robotics, $900M top round, out of 117 rounds
   note:
   - We divide, for each year, the largest round by all the disclosed capital in our tracker
   - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
@@ -121,21 +121,21 @@ ed166p:
 ed167:
   6: GENERAL-PURPOSE BIPEDAL
   9: '112'
-  13: $8.3B
+  13: $8.4B
   17: Figure AI, XPENG Robotics, TARS Robotics, Galbot, Galaxea AI
   7: DEVELOPER AND RESEARCH
   11: '53'
   15: $2.6B
   19: Apptronik, Agile Robots, Walden Robotics, Wandercraft
   8: INDUSTRIAL AND FACTORY
-  12: '60'
+  12: '59'
   16: $2.3B
-  20: Spirit AI, X Square Robot, GigaAI, RoboScience, PsiBot
-  note: We used our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $16.1B. IPOs, debt and grants are left out
+  20: X Square Robot, Spirit AI, GigaAI, RoboScience, PsiBot
+  note: We used our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $16.3B. IPOs, debt and grants are left out
 ed169:
   7: IDG CAPITAL
   10: '5'
-  14: $945M
+  14: $959M
   18: Anyverse Dynamics (twice)
   8: MATRIX CHINA
   12: '4'
@@ -143,11 +143,11 @@ ed169:
   20: Zeroth, Booster Robotics
   9: ANT GROUP
   13: '4'
-  17: $100M
+  17: $104M
   21: RoboParty (twice), Astribot
   26: HONGSHAN CAPITAL
   28: '4'
-  30: $70M
+  30: $69M
   32: Galaxea AI (twice)
   27: MEITUAN
   29: '3'
@@ -170,12 +170,12 @@ ed205:
   note: We picked the biggest disclosed rounds of humanoid robotics startups since 2024, from our tracker of rounds
 ed160:
   6: General-purpose bipedal humanoids took about 53% of the capital raised since 2024, far ahead of any other type of robot
-  7: Only 156 of the 301 rounds since 2024 disclosed an amount, and the median disclosed round was $42M
+  7: Only 158 of the 301 rounds since 2024 disclosed an amount, and the median disclosed round was $42M
   8: Chinese startups closed 237 of the 301 rounds and took about 64% of the money, against $4.6B for US startups
-  9: 53 rounds of $100M or more made up about 81% of all the capital raised in the market since 2024
+  9: 54 rounds of $100M or more made up about 82% of all the capital raised in the market since 2024
   10: Figure’s $1B Series C is the biggest round since 2024, ahead of the $900M raised by XPENG Robotics in 2026
   11: Seed was the most common round, with 136 of the 301 rounds, ahead of Series A with 74 and Series B with 31
-  note: We drew these insights from our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $16.1B
+  note: We drew these insights from our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $16.3B
 ed162:
   6: 'BEFORE
 
@@ -186,5 +186,5 @@ ed162:
 
 
 
-    Since 2024, 301 rounds raised $16.1B. Chinese startups close three rounds in four, while US leaders Figure and Apptronik raise the biggest checks.'
+    Since 2024, 301 rounds raised $16.3B. Chinese startups close three rounds in four, while US leaders Figure and Apptronik raise the biggest checks.'
   note: We used our tracker of humanoid robotics equity rounds, complete from January 2024, and company releases and the press

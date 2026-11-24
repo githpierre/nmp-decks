@@ -711,7 +711,7 @@ slides:
     14: '5'
     15: UBTECH sold 921 full-size humanoids in H1
     16: '6'
-    19: 38 rounds of $100M or more in 2026
+    19: 39 rounds of $100M or more in 2026
     20: '7'
 - id: xh_unitree
   type: x/sig_key_trend
@@ -866,7 +866,7 @@ slides:
   type: sx_faceoff
   section: Market opportunity
   pill: SIGNAL
-  title: 'Humanoid startups closed 38 rounds of
+  title: 'Humanoid startups closed 39 rounds of
 
     $100M or more in 2026, against 2 in 2024'
   cards:
@@ -879,10 +879,10 @@ slides:
   - name: 2026 SO FAR
     hl: true
     stats:
-    - v: 38
+    - v: 39
       l: rounds of $100M or more
-    - v: $10B
-      l: raised in all, in 116 rounds
+    - v: $11B
+      l: raised in all, in 117 rounds
   story: Big checks are a sign of a hot market. Galbot, TARS, X Square Robot and Apptronik all raised $100M or more in 2026, and money in 2026 is already almost six times 2024.
   note:
   - We added up every equity round raised by humanoid robotics startups in our own database
@@ -895,11 +895,11 @@ slides:
   section: Market opportunity
   pill: SIGNAL
   signal: google-trends
-  csv: assets/trends/humanoid-robotics/humanoid-robotics.csv
-  term: humanoid robotics
-  title: 'Searches for humanoid robotics grew
+  csv: assets/trends/humanoid-robotics/humanoid-robot.csv
+  term: humanoid robot
+  title: 'Searches for humanoid robots tripled
 
-    fivefold from late 2021 to mid-2025'
+    from late 2021 to mid-2025'
   date: From late 2021 to mid-2025.
   note:
   - We tracked how often people worldwide googled this term from late 2021 to July 2025
@@ -3833,7 +3833,7 @@ slides:
     18: 2026 (OCT)
     19: CASBOT raised an undisclosed Series A for its industrial humanoid robots and dexterous hands {1|Cailian Press}
     20: 2026 (OCT)
-    21: EIR raised a $14M seed round for its AiQ and skywalker service humanoids {1|IT Home}
+    21: EIR raised a $15M seed round for its AiQ and skywalker service humanoids {1|IT Home}
     22: 2026 (OCT)
     23: Ruoyu Technology raised a $14M seed round led by Sunway Communication {1|STAR Market Daily}
     24: 2026 (OCT)
@@ -3865,17 +3865,17 @@ slides:
     evolved recently?'
   bars:
   - x: 2025 H1
-    v: 1624
+    v: 1614
     ann: Apptronik, $350M top round, in 61 rounds
   - x: 2025 H2
-    v: 2882
-    ann: Figure AI, $1B top round, in 56 rounds
+    v: 2894
+    ann: Figure AI, $1B top round, in 55 rounds
   - x: 2026 H1
-    v: 6684
-    ann: AI² Robotics, $735M top round, in 78 rounds
+    v: 6795
+    ann: AI² Robotics, $735M top round, in 77 rounds
   - x: 2026 H2
-    v: 3675
-    ann: XPENG Robotics, $900M top round, in 38 rounds
+    v: 3721
+    ann: XPENG Robotics, $900M top round, in 40 rounds
   note:
   - We add up the disclosed equity rounds of humanoid robotics startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero in this chart
@@ -3892,27 +3892,27 @@ slides:
   src: 159
   bars:
   - x: '2024'
-    v: 1237
+    v: 1234
     ann: Figure AI, $675M top round, in 68 rounds
   - x: '2025'
-    v: 4506
-    ann: Figure AI, $1B top round, in 117 rounds
+    v: 4508
+    ann: Figure AI, $1B top round, in 116 rounds
   - x: '2026'
-    v: 10359
-    ann: XPENG Robotics, $900M top round, in 116 rounds
+    v: 10516
+    ann: XPENG Robotics, $900M top round, in 117 rounds
 - id: ed160
   type: x/stands_out_funding
   section: Investor bets
   title: 'What stands out in
 
     humanoid robotics funding?'
-  note: We drew these insights from our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $16.1B
+  note: We drew these insights from our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $16.3B
   src: 160
   t:
     6: General-purpose bipedal humanoids took about 53% of the capital raised since 2024, far ahead of any other type of robot
-    7: Only 156 of the 301 rounds since 2024 disclosed an amount, and the median disclosed round was $42M
+    7: Only 158 of the 301 rounds since 2024 disclosed an amount, and the median disclosed round was $42M
     8: Chinese startups closed 237 of the 301 rounds and took about 64% of the money, against $4.6B for US startups
-    9: 53 rounds of $100M or more made up about 81% of all the capital raised in the market since 2024
+    9: 54 rounds of $100M or more made up about 82% of all the capital raised in the market since 2024
     10: Figure’s $1B Series C is the biggest round since 2024, ahead of the $900M raised by XPENG Robotics in 2026
     11: Seed was the most common round, with 136 of the 301 rounds, ahead of Series A with 74 and Series B with 31
 - id: ed162
@@ -3949,10 +3949,10 @@ slides:
     ann: Figure AI, $675M top round, out of 68 rounds
   - x: '2025'
     v: 22
-    ann: Figure AI, $1B top round, out of 117 rounds
+    ann: Figure AI, $1B top round, out of 116 rounds
   - x: 2026 (YTD)
     v: 9
-    ann: XPENG Robotics, $900M top round, out of 116 rounds
+    ann: XPENG Robotics, $900M top round, out of 117 rounds
 - id: ed165p
   type: pp_raises
   section: Investor bets
@@ -4019,7 +4019,7 @@ slides:
   title: 'Where did most
 
     of the capital go?'
-  note: We used our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $16.1B. IPOs, debt and grants are left out
+  note: We used our tracker of 301 humanoid robotics equity rounds announced since January 2024, worth about $16.3B. IPOs, debt and grants are left out
   src: 167
   t:
     6: GENERAL-PURPOSE BIPEDAL
@@ -4028,8 +4028,8 @@ slides:
     9: '112'
     10: DEALS
     11: '53'
-    12: '60'
-    13: $8.3B
+    12: '59'
+    13: $8.4B
     14: '
 
       RAISED ($)'
@@ -4038,7 +4038,7 @@ slides:
     17: Figure AI, XPENG Robotics, TARS Robotics, Galbot, Galaxea AI
     18: EXAMPLES OF STARTUPS
     19: Apptronik, Agile Robots, Walden Robotics, Wandercraft
-    20: Spirit AI, X Square Robot, GigaAI, RoboScience, PsiBot
+    20: X Square Robot, Spirit AI, GigaAI, RoboScience, PsiBot
     24: SINCE 2024
 - id: ed168p
   type: invbets
@@ -4143,10 +4143,10 @@ slides:
     11: DEALS
     12: '4'
     13: '4'
-    14: $945M
+    14: $959M
     15: FUNDED ($)
     16: $1.1B
-    17: $100M
+    17: $104M
     18: Anyverse Dynamics (twice)
     19: EXAMPLES OF STARTUPS
     20: Zeroth, Booster Robotics
@@ -4156,7 +4156,7 @@ slides:
     27: MEITUAN
     28: '4'
     29: '3'
-    30: $70M
+    30: $69M
     31: $612M
     32: Galaxea AI (twice)
     33: Genesis AI (twice), Reflex Robotics

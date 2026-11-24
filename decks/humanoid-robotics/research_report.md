@@ -1,6 +1,6 @@
 # Research import re, jsonport
 
-157 answers parsed, 0 YAML errors, 32 slides with remarks.
+157 answers parsed, 0 YAML errors, 31 slides with remarks.
 
 - **ed010**: length 16: 106 vs 79; length 19: 108 vs 86
 - **ed011**: length 8: 18 vs 25
@@ -11,7 +11,6 @@
 - **ed020**: length 13: 11 vs 20; length 11: 107 vs 81; length 16: 108 vs 80
 - **ed022**: length 12: 91 vs 70
 - **ed023**: length 28: 85 vs 58
-- **ed032**: length 19: 42 vs 58
 - **ed088**: length 15: 90 vs 68
 - **ed089**: length 34: 89 vs 70
 - **ed095**: length 30: 78 vs 60
