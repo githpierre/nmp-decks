@@ -10,4 +10,6 @@ for d in (sys.argv[1:] or sorted(p.name for p in R.iterdir() if (p / 'deck.yaml'
     for i, line in enumerate((R / d / 'deck.yaml').read_text().splitlines(), 1):
         for m in list(bad_an.finditer(line)) + list(bad_a.finditer(line)):
             n += 1; print(f'ARTICLE AMOUNT: {d} deck.yaml:{i} | {line[max(0,m.start()-40):m.end()+20].strip()}')
+        if ('«' in line or '»' in line) and not line.lstrip().startswith('link:'):   # slides are in US English (24 Nov 2026)
+            n += 1; print(f'ARTICLE AMOUNT: French quote marks in {d} deck.yaml:{i}, use “ ” | {line.strip()[:80]}')
 sys.exit(1 if n else 0)

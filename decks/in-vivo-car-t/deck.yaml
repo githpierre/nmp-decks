@@ -654,7 +654,7 @@ slides:
     14: '5'
     15: Big pharma now backs half of funding rounds
     16: '6'
-    19: Google searches grew fast up to mid-2025
+    19: CAR-T searches more than doubled up to mid-2025
     20: '7'
 - id: xs_2a
   type: kpis
@@ -963,20 +963,20 @@ slides:
   type: pp_trends
   section: Market opportunity
   pill: SIGNAL
-  title: 'Searches for in vivo CAR-T took off
-
-    in the year to mid-2025'
-  csv: assets/trends/in-vivo-car-t/in-vivo-car-t.csv
-  term: in vivo car t
-  date: From late 2021 to mid-2025.
-  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and AstraZeneca and AbbVie bought in vivo startups in 2025.
-  note:
-  - We tracked how often people worldwide googled this term from late 2021 to July 2025
-  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   signal: google-trends
+  csv: assets/trends/in-vivo-car-t/car-t.csv
+  term: car-t
+  title: 'Searches for CAR-T more than doubled
+
+    from late 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  note:
+  - We tracked how often people worldwide googled CAR-T from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   cut: '2025-07-27'
   caption_period: November 2021 to July 2025
   stat_text: more searches in mid-2025<br>than in a typical week before
+  expl: Classic CAR-T means taking a patient’s cells out, changing them in a lab and putting them back. New therapies do it inside the body with one injection, and AstraZeneca and AbbVie bought in vivo startups in 2025. The term “in vivo CAR-T” alone is too rare on Google, so the curve follows CAR-T.
 - id: ed040
   type: agenda
   section: Market size

@@ -1,22 +1,18 @@
 ed039p:
   pill: SIGNAL
   signal: google-trends
-  raw: true
-  window: 5y
-  csv: assets/trends/humanoid-robotics/where-to-buy-robots.csv
-  term: where to buy robots
-  title: 'More people looked up where to buy
-  
-    a robot as prices fell to mid-2025'
+  csv: assets/trends/humanoid-robotics/humanoid-robotics.csv
+  term: humanoid robotics
+  title: "Searches for humanoid robotics grew\nfivefold from late 2021 to mid-2025"
   date: From late 2021 to mid-2025.
-  expl: Humanoid robots stopped sounding like science fiction. Unitree sold its G1 for $16,000 and showed the R1 at $5,900 in July 2025, Figure and Tesla showed robots at work, and robot videos went viral. Buying one started to feel possible.
   note:
   - We tracked how often people worldwide googled this term from late 2021 to July 2025
   - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
-  y_top: 222
   cut: '2025-07-27'
   caption_period: November 2021 to July 2025
   stat_text: more searches in mid-2025<br>than in a typical week before
+  expl: Humanoid robots stopped sounding like science fiction. Unitree sold its G1 for $16,000 and showed the R1 at $5,900 in July 2025, Figure and Tesla showed robots at work, and robot videos went viral.
+
 ed047p:
   type: pp_donutv
   variant: B
