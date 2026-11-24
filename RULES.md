@@ -325,6 +325,9 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   stays counted, low confidence; a repeat of an earlier round is removed), never hidden from the slides by a deck conversation.
   skip_rounds.yaml is empty and stays for a round the base cannot fix yet. A round already ruled on goes to checked_rounds.yaml
   (round id + rule), so WEAK ROUND SOURCE and ROUND EXTENSION do not warn about it again.
+- A market term too rare on Google (0 most weeks before the cut) gives way to its wider parent term, and the text says so
+  (In vivo CAR-T follows « car-t », Pierre, 24 Nov 2026). A curve with values of only 0 to 8 before the cut draws a staircase:
+  use a CSV downloaded on November 2021 to July 2025 only, which Google rescales.
 - « a » or « an » before an amount follows the figure as printed, after rounding (« an $11.9B » became « an $12B »,
   Neocloud): tidy_numbers fixes the article, CHECK: tools/check_article.py (ARTICLE AMOUNT, blocks --png).
 - OUTSIDE PLAYER on a hand-made slide: the outside company leaves the slide, the note counts what is left (IREN left the
