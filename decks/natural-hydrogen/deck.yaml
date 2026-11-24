@@ -755,7 +755,7 @@ slides:
   - value: 97%
     label: Top hydrogen purity measured at Ramsay 3, confirmed by an independent lab in December 2025
   - value: 100 kg
-    label: Hydrogen a day one future well could produce, from Gold Hydrogen's model of November 2026
+    label: Hydrogen a day one future well could produce, per Gold Hydrogen's 2026 model
   - value: '4'
     label: Wells drilled at Ramsay in South Australia, with hydrogen flowed and separated at Ramsay 3
   why: This is a sign of a hot market because a well that brings hydrogen to the surface is the step every explorer races toward. The 100 kg a day is still a model, not a proven steady rate.
@@ -871,34 +871,34 @@ slides:
     13: ❌
     14: ⚖️
 - id: ed042
-  type: estimates
-  section: Market size
-  title: What are the market size estimates from different sources online?
-  rows:
-  - firm: 'BCC
-
-      Research'
-    value: $39M
-    comment: BCC values the white hydrogen market at $39M in 2024. It is the lowest published benchmark here, but its underlying sales data are not public.
-  - firm: 'Grand View
-
-      Research'
-    value: $4.6B
-    comment: Its 2026 estimate includes exploration, processing and end uses. Its scale is hard to square with the tiny amount of gas actually being produced.
-  - firm: 'IMARC
-
-      Group'
-    value: $4.5B
-    comment: IMARC reports a broad white hydrogen market for 2025, with extraction technology and downstream users. It is not a count of verified upstream sales.
-  - firm: 'Econ Market
-
-      Research'
-    value: $4.7B
-    comment: Its 2026 estimate is close to Grand View, but is still a market model. No public field-by-field production and revenue ledger supports it.
   note:
   - We quote each publisher's own public figure for the year it gives, without calling a forecast verified sales
   - We do not average estimates that differ by over a hundredfold without comparable reported revenue data
+  rows:
+  - comment: BCC values the white hydrogen market at $39M in 2024. It is the lowest published benchmark here, but its underlying sales data are not public.
+    firm: 'BCC
+
+      Research'
+    value: $39M
+  - comment: Its 2026 estimate includes exploration, processing and end uses. Its scale is hard to square with the tiny amount of gas actually being produced.
+    firm: 'Grand View
+
+      Research'
+    value: $4.6B
+  - comment: IMARC reports a broad white hydrogen market for 2025, with extraction technology and downstream users. It is not a count of verified upstream sales.
+    firm: 'IMARC
+
+      Group'
+    value: $4.5B
+  - comment: Its 2026 estimate is close to Grand View, but is still a market model. No public ledger of production and revenue, field by field, supports it yet.
+    firm: 'Econ Market
+
+      Research'
+    value: $4.7B
+  section: Market size
   src: 42
+  title: What are the market size estimates from different sources online?
+  type: estimates
 - id: ed043
   type: x/our_own_first_principles_bottom
   section: Market size

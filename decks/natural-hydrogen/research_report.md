@@ -54,7 +54,7 @@
 - **ed101**: no sources
 - **ed102**: no sources
 - **ed103**: length 12: 14 vs 20; length 15: 93 vs 63; no sources
-- **ed104**: length 9: 14 vs 22; length 7: 94 vs 63; length 10: 88 vs 52; length 15: 94 vs 67; no sources
+- **ed104**: length 9: 14 vs 22; length 7: 94 vs 63; length 10: 88 vs 68; length 15: 94 vs 67; no sources
 - **ed106-s1**: no sources
 - **ed107-s1**: length 8: 13 vs 20; no sources
 - **ed108-s1**: no sources

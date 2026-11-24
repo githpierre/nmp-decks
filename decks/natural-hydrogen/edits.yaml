@@ -160,3 +160,8 @@ ed219:
 # Google Trends cut in July 2025 (rule of 22 Nov 2026, applied to every deck on 24 Nov 2026)
 ed032:
   19: Google searches for natural hydrogen held up
+
+# ROW_LINES (check added after delivery, 24 Nov 2026)
+ed042:
+  __replace__:
+    "No public field-by-field production and revenue ledger supports it.": "No public ledger of production and revenue, field by field, supports it yet."
