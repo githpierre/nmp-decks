@@ -233,6 +233,8 @@ def build(slug, png=False, only=None):
     def _nw(seg):
         if '://' in seg or 'www.' in seg: return seg
         return re.sub(r'(?<![\w./@-])([A-Za-z0-9$]+(?:-[A-Za-z0-9]+)+)(?![\w@-]|\.[A-Za-z])', r'<nobr>\1</nobr>', seg)   # <nobr>, not a span: « .srcl span » and other span rules would restyle it
+    # « Series / B » and « Phase / 1 » never split either (In vivo CAR-T fundbars note, 24 Nov 2026)
+    html = re.sub(r'(?<=[\s>(])(Series|Phase) ([A-H]\b|[1-4]\b)', '\\1\u00a0\\2', html)
     _parts = re.split(r'(<(?:style|script|svg)\b.*?</(?:style|script|svg)>)', html, flags=re.S)
     html = ''.join(q if i % 2 else re.sub(r'>([^<>]+)<', lambda m: '>' + _nw(m.group(1)) + '<', q) for i, q in enumerate(_parts))
     # two sentences glued in a note ('...phases These phases...', 11 Nov): add the missing period
