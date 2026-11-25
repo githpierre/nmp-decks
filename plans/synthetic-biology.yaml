@@ -1,0 +1,132 @@
+# Spec of the research prompts for the Synthetic biology deck (tools/make_market_prompts.py). Method v2, piste A checks, piste B gate.
+# Pierre 26 Nov 2026: pain segments (types of buyer) and value segments (the 9 base categories grouped in 5) as proposed, base as of
+# 14 Nov 2026 (no update), Trends term « synthetic biology » (full download, cut at July 2025 and smoothed by pp_prepare).
+name: Synthetic biology
+handle: synthetic-biology
+uuid: 10
+date: '2026-11-26'
+today: 26 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity, patients
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and SEC or exchange filings (Ginkgo Bioworks, Twist Bioscience, Novonesis, Amyris, Zymergen, LanzaTech, Solugen, Perfect Day, Colossal Biosciences, Asimov,
+  Cradle, Profluent, EvolutionaryScale, Generate Biomedicines, Pivot Bio, Inari Agriculture, Benson Hill, Synlogic), government documents (the US National Security Commission on Emerging
+  Biotechnology report of April 2025, US executive orders on biomanufacturing, DOE and DOD biomanufacturing awards, the EU Biotech Act, China's bioeconomy plans), SynBioBeta and Schmidt
+  Futures reports, McKinsey Global Institute Bio Revolution, peer-reviewed journals (Nature, Science, Nature Biotechnology), market research firms with a named method, and reputable press
+  (Reuters, Bloomberg, Financial Times, Wall Street Journal, STAT News, Endpoints, Fierce Biotech, GEN, AgFunderNews, Green Queen).
+# where the problem is felt (types of buyer): Pierre, 26 Nov 2026
+pain_segments:
+- Pharma and biotech labs
+- Chemical and materials makers
+- Food and consumer brands
+- Seed and farming companies
+- Research labs and universities
+# types of solution: the 9 base categories in 5 groups (Pierre, 26 Nov 2026)
+#   Design tools = Synbio Design & Engineering Software + Generative Protein Design Platforms + DNA & Genome Engineering Tools
+#   Biofoundries = Biofoundry & Automation Platforms
+#   Biomanufacturing = Industrial Biomanufacturing & Enzymes + Synbio Food & Ingredients + Engineered Materials & Environmental Systems
+#   Therapeutics = Synthetic Biology Therapeutics | Agriculture = Engineered Crop & Cell Products
+value_segments:
+- Design tools
+- Biofoundries
+- Biomanufacturing
+- Therapeutics
+- Agriculture
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+# given by the live product page https://newmarketpitch.com/pages/synthetic-biology (same slide type as the deck twin).
+# S11-01 live is « what broke » (ed201, dead mode); S11-02 survivors has no twin yet: one is added in extras.yaml at step 4.
+live_twins:
+- ed007p
+- ed039p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed201
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which engineered products are closest to market?
+    brief: 8 rows = 8 real products of synthetic biology startups or young companies close to launch or just launched (an engineered enzyme, a precision-fermented ingredient, an engineered
+      microbe for farms, a cell or gene-circuit medicine, a bio-based chemical or material). Rows read "product" + "COMPANY · USE" + stage (PILOT / DEMO / FILED / SALE, 6 characters at most,
+      PILOT = pilot plant or field trial, DEMO = demonstration plant or pivotal trial, FILED = submitted to a regulator (FDA, EPA, USDA, EFSA), SALE = on sale in the last 12 months). Only products
+      named in a company release, a regulator database or reputable press. Not a lab result.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between synthetic biology startups or young companies and large groups (acquisitions, large strategic investments, offtake or supply agreements with chemical, food,
+      pharma or seed groups, government awards, IPOs), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to bring an engineered product to market?
+    brief: 5 steps from a working strain or design in the lab to a product customers buy (for example scale-up from flask to pilot fermenter, a demonstration plant, the regulator's clearance
+      such as FDA GRAS, EPA TSCA, USDA or EFSA, a supply contract with a buyer, then a commercial plant at a cost the buyer accepts). Each step in plain words with who decides and a typical
+      duration and cost.
+  iv_safety:
+    title: What could go wrong with engineered biology?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example scale-up that fails or costs far more than planned, a strain that drifts or gets
+      contaminated in big tanks, biosecurity worries about DNA synthesis, rules that block a gene-edited crop or a new food, consumers who refuse lab-made food). Real filings, regulator records,
+      reports or reported cases only.
+extra:
+  ed061: 'For synthetic biology: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals on 2 lines,
+    one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed032: 'Do not use Google searches as a signal: Google changed how it counts search terms in mid-2025, so a recent rise in searches is not real interest. Use 7 signals of money, deals, plants,
+    approvals, sales or use instead.'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: AI protein design money and results (Xaira, EvolutionaryScale, Profluent, Generate Biomedicines, Cradle, Latent Labs), DNA synthesis demand (Twist Bioscience revenue, Elegen,
+  Ansa, DNA Script), precision fermentation scale-up (Perfect Day, The EVERY Company, Onego Bio, Liberation Labs plant), bio-based chemicals and government money (Solugen DOE loan, US
+  biomanufacturing awards, the NSCEB report and its $15B ask, China's bioeconomy plans, the EU Biotech Act), de-extinction and big rounds (Colossal Biosciences valuation), engineered microbes on
+  farms (Pivot Bio acres), gene-circuit and programmable cell medicines reaching trials or approval, large acquisitions and offtake deals by chemical, food and pharma groups. Never Google
+  searches (Google changed how it counts search terms in mid-2025, so recent search curves are not real interest).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, failed scale-ups, plants closed or sold, layoffs, sales of the
+  company for little, valuations or share prices that fell, products pulled. Scope: companies whose core product engineers biology (DNA tools, design software, biofoundries, industrial and
+  food biomanufacturing, engineered materials, synthetic biology therapeutics, engineered crops), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2022 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}.
+  Dates as YYYY (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: scale-up failed, big layoffs, plant closed or sold, value fell, shut down or sold). Each cell
+  is two short lines separated by | or empty. Give the website domain of each company.
+
+  - ed200: why synthetic biology startups fail.
+
+  - survivors (for the S11-02 slide « What sets synthetic biology survivors apart from failures? »): 5 rows, each with a lesson (what survivors do, 6 words at most), a one-line explanation,
+  one company of ed199p or ed192-ed195 that missed it, and why in 8 words at most, with a source.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: Synthetic biology
+label: Synthetic biology
+keep_together:
+- synthetic biology
+- Synthetic biology
+examples:
+  jargon_bad: A chassis organism with a refactored metabolic pathway for de novo biosynthesis of a high-value terpene.
+  jargon_good: Yeast reprogrammed to brew a rare flavor molecule in big tanks, instead of extracting it from plants.
+  jargon_why: the reader is not a biologist
+  proof_rule: 'A lab result, a pilot run or a letter of intent is not proof that a product sells: say whether it is made at commercial scale, who buys it, the volume or revenue when public,
+    and who reported it.'
+  proof_bad: Company X signed a memorandum of understanding with a food giant.
+  proof_good: Company X started selling its fermented protein to a food giant in March 2026 and plans 2,000 tonnes a year.
+  proof_why: a memorandum is not a sale
+  fresh_bad: Company X raised $150M in 2024
+  fresh_good: Company X raised $250M in June 2026, its biggest round, two years after a $150M round
+  fresh_est: Company X should sell about $300M in 2026, against $180M in 2025
+  fresh_method: latest company releases, quarterly results and filings, regulator databases, press reports as a cross-check
+  not_proof: a pilot run is not commercial production
+trends_csv: assets/trends/synthetic-biology/synthetic-biology.csv
