@@ -384,3 +384,5 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   with health benefits) and Mercer 54% (employers of 500+) for IVF in 2026. Each slide names its population.
 - A row of a contrast slide stays between 70% and 90% of its box (CHECK FILL): about 50 to 58 characters.
 - Known open issue: the Australia leader line of the worldmap ends inside its text when the text is on 3 lines (ed183).
+- A lesson of the survivors slide (pp_survivors) holds on one line: 37 characters at most (39 broke onto a second line with one
+  orphan word on 4 of 5 rows of femtech, 26 Nov 2026).

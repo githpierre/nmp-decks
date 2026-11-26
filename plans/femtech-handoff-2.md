@@ -61,8 +61,8 @@ puis `tools/rebuild.sh femtech --png`.
    - mettre à jour `?v` dans `custom.v1_sections` et dans `custom.encarts`, puis le manifest et le journal.
 
 ## Points à trancher ou à signaler
-- Logos manquants : FemTec Health et Apricity Fertility. Ce sont deux entreprises fermées, aucun favicon n'existe. Une tuile d'initiales est affichée en attendant.
-- ed010 « smaller markets » n'a que 5 cases pour 6 segments : Pelvic health n'y figure pas. Longevity et Neocloud font de même, et Pierre les a validés.
+- Logos de FemTec Health et d'Apricity Fertility : faits à partir des captures de Pierre (patch 2), poussés sur nmp-logos.
+- ed010 « smaller markets » : 5 cases pour 6 segments, Pelvic health absent. Pierre a validé (26/11).
 - Sur la carte ed183, le trait de l'Australie finit dans le texte. Problème connu, ajouté à RULES.md, à corriger dans le gabarit de la carte.
 - S04 en ligne (ed058) : il garde la colonne « Health plans ». Les segments de douleur ont « Women in midlife ». La slide n'est pas contradictoire, donc la jumelle copie la slide en ligne.
 - Bizarreries de la première note, réglées :
