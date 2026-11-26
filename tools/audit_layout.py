@@ -164,6 +164,8 @@ def run(slug):
         errs = []; pg.on('console', lambda m: errs.append(m.text) if m.type == 'error' else None); pg.on('pageerror', lambda e: errs.append(str(e)))
         pg.goto((Path(__file__).resolve().parent.parent / 'decks' / slug / 'deck.html').as_uri()); pg.wait_for_timeout(1500)
         out = pg.evaluate(JS); out += pg.evaluate(JS2)
+        # no « one square = 1% » legend on a waffle: it adds nothing (Pierre, repeated, Synthetic biology 26 Nov 2026)
+        out += pg.evaluate("() => [...document.querySelectorAll('section.slide')].map((e, i) => /one square\\s*=/i.test(e.innerText) ? [i + 1, 'SQUARE_LEGEND', 'remove the one square = 1% legend'] : null).filter(Boolean)")
         # a script error means a rule silently stopped working (12 Nov 2026: the SIGNAL centring was dead, nobody saw it)
         seen = set()
         for e in errs:

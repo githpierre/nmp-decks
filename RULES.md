@@ -356,3 +356,6 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   judges it. A label measured on a build that holds on one line raises its WORDMAX in specs/overrides.yaml, never a shorter name.
 - The S03 twin (ed052p) takes the market size of the deck's own size chapter (ed045), never an older figure of the live page;
   the live image is replaced at delivery. CHECK: read ed045 and ed052p side by side at step 5.
+
+## Waffle legend (26 Nov 2026)
+- A waffle never says « one square = 1% »: the line is gone from `share_waffle.j2`, no option brings it back (Pierre said it on several decks, then again on Synthetic biology slide 33). CHECK: `SQUARE_LEGEND` in audit_layout.py.

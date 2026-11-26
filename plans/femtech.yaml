@@ -17,7 +17,7 @@ sources_hint: company releases and SEC or exchange filings (Progyny, Maven Clini
   TechCrunch, Sifted).
 pain_segments:
 - Large employers
-- Health plans
+- Women in midlife
 - IVF clinics
 - Expectant mothers
 - Ob-gyn practices
@@ -72,7 +72,7 @@ retarget:
     brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example health data shared without consent and fined by the FTC, period data and abortion
       laws, a device recall, claims not backed by trials, health plans that refuse to pay). Real filings, regulator records, reports or reported cases only.
 extra:
-  ed061: 'For synthetic biology: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed061: 'The pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
   ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals
     on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
   ed032: 'Do not use Google searches as a signal: Google changed how it counts search terms in mid-2025, so a recent rise in searches is not real interest. Use 7 signals of money, deals,

@@ -28,7 +28,11 @@ for f in sys.argv[2:]:
         P += [f'{sid} | {w}' for c, w in ((chr(8212), 'em dash'), (chr(8211), 'en dash'), ('; ', 'semicolon')) if c in flat]
         # the slides are in US English (Natural hydrogen, 21 Nov 2026: « modelled » on ed093); quotes stay as the source wrote them
         _brit = re.compile(r'\b(model|label|travel|cancel|fuel|signal|channel)l(ed|ing|er|ers)\b|\b\w*(organi|reali|recogni|speciali|prioriti|optimi|commerciali|industriali|utili|capitali|moneti|minimi|maximi|standardi|digiti|categori|summari|stabili|mobili|centrali|decentrali|normali|moderni|globali|subsidi|incentivi|scrutini|synthesi|characteri|emphasi|customi|localis|financiali)s(e|ed|es|ing|ation|ations)\b|\banalys(e|ed|es|ing)\b|\b(colour|favour|behaviour|centre|metre|litre|programme|labour|defence|licence|catalogue)s?\b')   # lower case only: a proper name keeps its spelling (« Petroleum Exploration Licence », South Australia)
-        P += [f'{sid} | British spelling, write US English | {w.group(0)}' for w in _brit.finditer(yaml.dump({k: v for k, v in d.items() if k != 'sources'}, allow_unicode=True))]
+        def _noq(x):   # quotes stay as the source wrote them, at any depth (FemTech survivors, 26 Nov 2026: a nested source quote said « cancelled »)
+            if isinstance(x, dict): return {k: _noq(v) for k, v in x.items() if k not in ('sources', 'source', 'quote')}
+            if isinstance(x, list): return [_noq(v) for v in x]
+            return x
+        P += [f'{sid} | British spelling, write US English | {w.group(0)}' for w in _brit.finditer(yaml.dump(_noq(d), allow_unicode=True))]
         # an estimates value is the amount alone: « $39M 2024 » looked ugly, the year goes in the comment (Pierre, Natural hydrogen, 21 Nov 2026)
         P += [f'{sid} | estimates value with a year, put the year in the comment | {r.get("value")}' for r in (d.get('rows') or []) if isinstance(r, dict) and re.search(r'\b(19|20)\d\d\b', str(r.get('value', '')))]
         # quotes are copied word for word from the source: $2.57B there is right (AI drug discovery, 20 Nov 2026)

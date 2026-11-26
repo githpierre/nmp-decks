@@ -3,7 +3,7 @@
 {% set n = s.years | length %}{% set sq = 19 if n == 1 else (16 if n == 2 else 11) %}{% set gp = 4 if n == 1 else 3 %}
 {% set gw = 10 * sq + 9 * gp %}{% set g2 = 15 if n >= 3 else 30 %}{% set step = gw + g2 %}{% set x0 = 478 - 44 - (n * gw + (n - 1) * g2) %}{% set x0 = [x0, 0] | max %}
 <div class="body" style="display:block"><div class="sh">
-<div class="lg" style="position:absolute;left:{{ x0 }}px;top:0"><span><i style="background:#FB0161"></i>{{ s.on }}</span><span><i style="background:#1C4A60"></i>{{ s.off }}</span>{% if s.square_note is not defined or s.square_note %}<span>one square = 1%</span>{% endif %}</div>
+<div class="lg" style="position:absolute;left:{{ x0 }}px;top:0"><span><i style="background:#FB0161"></i>{{ s.on }}</span><span><i style="background:#1C4A60"></i>{{ s.off }}</span></div>
 {% for y in s.years %}<div style="position:absolute;left:{{ x0 + loop.index0 * step }}px;top:40px;width:{{ gw }}px;text-align:center">
  <div style="display:grid;grid-template-columns:repeat(10,{{ sq }}px);gap:{{ gp }}px;width:{{ gw }}px;margin:0 auto">{% for i in range(100) %}{% set row = 9 - (i // 10) %}{% set idx = row * 10 + (i % 10) %}<div style="width:{{ sq }}px;height:{{ sq }}px;border-radius:{{ 3 if sq > 12 else 2 }}px;background:{{ '#FB0161' if idx < y.p else '#1C4A60' }}"></div>{% endfor %}</div>
  <div class="pc" style="margin-top:14px">{{ y.p }}%</div><div class="yr">{{ y.x }}</div><div class="sub">{{ "{:,}".format(y.k) if y.k is number else y.k }} of {{ "{:,}".format(y.n) if y.n is number else y.n }} {{ s.unit | default('rounds') }}</div></div>{% endfor %}
