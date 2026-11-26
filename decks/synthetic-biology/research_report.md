@@ -1,0 +1,87 @@
+# Research import re, jsonport
+
+149 answers parsed, 0 YAML errors, 83 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed008**: no sources
+- **ed009**: no sources
+- **ed010**: length 14: 13 vs 20; no sources
+- **ed011**: no sources
+- **ed012**: status no_data: products and their names change too often to group them reliably without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: prices depend on the product, volume and contract and are rarely published
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: length 7: 138 vs 109; no sources
+- **ed016**: length 12: 46 vs 35; length 13: 138 vs 109; no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed044**: length 6: 50 vs 74
+- **ed054**: no sources
+- **ed055**: length 7: 116 vs 65; length 10: 109 vs 58; length 13: 112 vs 67; length 16: 105 vs 67; length 19: 113 vs 59; length 22: 112 vs 60; no sources
+- **ed056**: length 6: 20 vs 30; length 35: 22 vs 30; no sources
+- **ed057**: length 29: 19 vs 28; length 10: 19 vs 27; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 14: 12 vs 20; length 17: 13 vs 21; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 17: 13 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 14 vs 20; length 17: 11 vs 21; no sources
+- **ed064-s4**: no sources
+- **ed065-s4**: no sources
+- **ed062-s5**: no sources
+- **ed063-s5**: length 17: 13 vs 21; no sources
+- **ed064-s5**: length 15: 47 vs 65; no sources
+- **ed065-s5**: no sources
+- **ed095**: length 5: 91 vs 71; length 30: 79 vs 60
+- **iv_pipeline**: length 34: 58 vs 44
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: no sources
+- **ed104**: length 9: 11 vs 22; length 10: 88 vs 68; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 37 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 8: 35 vs 26; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 8: 39 vs 26; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: length 8: 14 vs 20; no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 8: 34 vs 26; no sources
+- **iv_fda**: status no_data: Public evidence supports the process stages and some facility costs, but not a defensible typical duration and cost for each of the five request
+- **iv_fda**: dropped: no data
+- **ed143**: length 22: 11 vs 22; length 10: 14 vs 21
+- **ed144**: length 22: 11 vs 22; length 14: 11 vs 21; length 10: 14 vs 20
+- **ed190**: status no_data: Comparable multi-round valuation histories for four startups, including values at earlier rounds and the data needed to redraw the chart, were n
+- **ed190**: dropped: no data
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

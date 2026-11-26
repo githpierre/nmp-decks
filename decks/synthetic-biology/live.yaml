@@ -135,11 +135,11 @@ ed142p:
     impact: 2
     text: The BIOSECURE Act and US-China tensions cut startups off from cheap WuXi contract manufacturing
   - odds: 30
-    impact: 1
-    text: AI protein design tools from Google DeepMind and others become free, erasing startup moats in enzyme design
-  - odds: 30
     impact: 2
     text: Big buyers like Unilever and L'Oreal drop bio-based ingredient pledges when prices stay above petrochemical ones
+  - odds: 30
+    impact: 1
+    text: AI protein design tools from Google DeepMind and others become free, erasing startup moats in enzyme design
   - odds: 25
     impact: 2
     text: The EPA and FDA slow approvals for engineered microbes in farming, delaying products like Pivot Bio
@@ -253,8 +253,64 @@ ed168p:
 
     put their money this past year?'
   note:
-  - We added up every equity round of synthetic biology startups in our tracker over the last twelve months
+  - We added up every equity round of synthetic biology startups we track over the last twelve months
   - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Engineered medicines
+    names:
+    - Sail Biomedicines
+    - NewLimit
+    v: $1.8B
+    pct: 45% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/sail-biomedicines.png
+    - src: ../../assets/logos/newlimit.png
+    - src: ../../assets/logos/encoded-therapeutics.png
+  - name: Design tools
+    names:
+    - Chai Discovery
+    - Basecamp Research
+    v: $1.1B
+    pct: 28% of total
+    w: 62.4
+    logos:
+    - src: ../../assets/logos/chai-discovery.png
+    - src: ../../assets/logos/basecamp-research--symbol.png
+    - src: ../../assets/logos/aureka-biotechnologies.png
+  - name: Bio-manufacturing
+    names:
+    - Leadsynbio
+    - Bactolife
+    v: $611M
+    pct: 15% of total
+    w: 34.1
+    logos:
+    - src: ../../assets/logos/fav/leadsynbio.png
+    - src: ../../assets/logos/bactolife.png
+    - src: ../../assets/logos/verley.png
+  - name: Robotic biofoundries
+    names:
+    - Prolific Machines
+    - Adaptyv Biosystems
+    v: $234M
+    pct: 6% of total
+    w: 13.0
+    logos:
+    - src: ../../assets/logos/fav/prolific-machines.png
+    - src: ../../assets/logos/adaptyv-biosystems.png
+    - src: ../../assets/logos/generare.png
+  - name: Crop engineering
+    names:
+    - Tropic Biosciences
+    - bit.bio
+    v: $200M
+    pct: 5% of total
+    w: 11.2
+    logos:
+    - src: ../../assets/logos/tropic-biosciences.png
+    - src: ../../assets/logos/bit-bio.png
+    - src: ../../assets/logos/bioconsortia.png
 ed171p:
   title: 'Who are the top companies in
 
@@ -340,16 +396,16 @@ ed171p:
     x: 663.9
     y: 516.6
   cols:
-  - Data & AI
+  - R&D + nucleic-acid ecosystem
   - Food & agriculture
-  - Preconception
+  - Industrial/climate & materials
   rows:
-  - Therapeutics & biopharma
-  - Molecular diagnostics
-  - Life-science tools &
+  - Software & AI design
+  - Build, test and scale
+  - End-use synbio products
   note:
-  - We left out routine healthcare services and non-biotech industrial or farm uses
-  - We placed each pure player by its main focus, with all the sources at the end of the report
+  - We placed firms built on engineered DNA or organisms by how they mainly sell, from funding news
+  - We left out regular pharma and basic GMO firms, and all the sources are at the end of the report
 ed201:
   type: pp_killers
   mode: dead
@@ -520,17 +576,17 @@ ed007p:
 
     in synthetic biology?'
   TL:
-    name: Novonesis
-    src: ../../assets/logos/pp_live/synthetic-biology/s01-00.png
-    text: makes enzymes and cultures with genetically modified microbes, but it is an industrial giant scaling proven strains
+    name: Thermo Fisher Scientific
+    src: ../../assets/logos/thermo-fisher-scientific.png
+    text: sells lab tools, reagents and contract manufacturing to everyone, but it does not engineer organisms as its own product
   TR:
     name: Danone
     src: ../../assets/logos/pp_live/synthetic-biology/s01-02.png
     text: has fermented yogurt with selected bacteria for a century, which is putting biology to work rather than engineering it
   BL:
-    name: Impossible Foods
-    src: ../../assets/logos/pp_live/synthetic-biology/s01-10.png
-    text: makes its heme with engineered yeast, but it remains a plant-based burger brand first, so it sits on the line
+    name: Beyond Meat
+    src: ../../assets/logos/beyond-meat.png
+    text: makes plant-based burgers from pea protein, with no engineered microbe or yeast behind its main ingredients
   BR:
     name: Moderna
     src: ../../assets/logos/pp_live/synthetic-biology/s01-11.png
@@ -576,24 +632,28 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: ''
-  date: ''
-  expl: ''
+  title: 'Searches for synthetic biology grew by half
+
+    from late 2021 to mid-2025'
+  date: From late 2021 to mid-2025.
+  expl: Searches stayed flat after the 2021 funding boom, then rose in 2025 as AI protein design and the first CRISPR medicine made the news.
   term: synthetic biology
-  note: []
+  note:
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   csv: assets/trends/synthetic-biology/synthetic-biology.csv
+  cut: '2025-07-27'
+  caption_period: November 2021 to July 2025
 ed052p:
   type: pp_cagr
   title: 'How much bigger can
 
     synthetic biology get?'
   lead: ''
-  condition: To get that big, the market must turn AI designs into products that scale, as pharma, food, and chemical firms buy more of what engineered
-    cells make. It must also cut production costs, build enough factory capacity, keep public trust in engineered food, and avoid a biosecurity incident
-    that brings strict rules.
+  condition: To get that big, the market must turn AI designs into products that scale, as pharma, food, and chemical firms buy more of what engineered cells make. It must also cut production costs, build enough factory capacity, keep public trust in engineered food, and avoid a biosecurity incident that brings strict rules.
   note:
-  - We compared forecasts from Precedence, Fortune Business Insights, Mordor and Grand View
-  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
-  size: null
+  - We compared forecasts from Fortune Business Insights, Grand View, Mordor and Global Market Insights
+  - We took their median as a broad proxy for our definition, with all the sources at the end of the report
+  size: 23
   cagr: 19
   y0: 2026

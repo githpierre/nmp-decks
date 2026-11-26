@@ -347,3 +347,12 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   Neocloud setbacks grid, now five operators).
 - Companies shared by two markets are described the same way in both decks (AI in insurance and MGA, Neocloud and AI data
   center): the later deck copies the earlier one's wording for the same fact.
+
+## Synthetic biology first build (26 Nov 2026), each with its check
+- A segment name that does not fit a two-line label (one long word: « Biofoundries », « Therapeutics ») gets a second word or a
+  hyphen before the deck is built (« Robotic biofoundries », « Bio-manufacturing »), and keeps it everywhere. CHECK check_results
+  (one-word label, word longer than WORDMAX).
+- A list of company names (« EvolutionaryScale, eGenesis ») is never cut or renamed to pass WORDMAX: the layout audit (WORD_SPLIT)
+  judges it. A label measured on a build that holds on one line raises its WORDMAX in specs/overrides.yaml, never a shorter name.
+- The S03 twin (ed052p) takes the market size of the deck's own size chapter (ed045), never an older figure of the live page;
+  the live image is replaced at delivery. CHECK: read ed045 and ed052p side by side at step 5.

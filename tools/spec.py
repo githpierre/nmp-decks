@@ -62,7 +62,9 @@ def problems(slide, sid=None):
         elif e.get('min') and L < e['min']: out.append(f'{sid} {k} | too short: {L} for min {e["min"]} (add one concrete fact) | {plain(v)[:60]}')
         if e.get('caps') and plain(v) != plain(v).upper(): out.append(f'{sid} {k} | must be in capitals | {plain(v)[:40]}')
         if e.get('words') and len(plain(v).split()) != e['words']: out.append(f'{sid} {k} | must have exactly {e["words"]} words | {plain(v)[:40]}')
-        if e.get('wordmax') and max(map(len, re.split(r'[\s/-]+|\\n', plain(v)))) > e['wordmax']: out.append(f'{sid} {k} | a word longer than {e["wordmax"]} letters is cut in two: use shorter words | {plain(v)[:40]}')
+        # a list of company names (« EvolutionaryScale, eGenesis ») is never cut or renamed: the layout audit (WORD_SPLIT) judges it
+        # (Synthetic biology, 26 Nov 2026: the investor slide drew it on one line but the spec flagged it)
+        if e.get('wordmax') and ', ' not in plain(v) and max(map(len, re.split(r'[\s/-]+|\\n', plain(v)))) > e['wordmax']: out.append(f'{sid} {k} | a word longer than {e["wordmax"]} letters is cut in two: use shorter words | {plain(v)[:40]}')
     for p, v in (leaves(slide) if tpl(slide) in ICON_TPL else []):     # only where emojis are redrawn as line icons
         for m in {re.sub(r'(.)\1+', r'\1', x) for x in EMOJI.findall(v)}:
             if ICONS and m not in ICONS and m.replace('\ufe0f', '') not in ICONS and m + '\ufe0f' not in ICONS: out.append(f'{sid} | icon {m} is not drawn: use one of the ICONS list')

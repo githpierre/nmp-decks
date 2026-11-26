@@ -1,5 +1,5 @@
 - after: ed104
-  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  link: Value is increasingly created by owning lab data, designing proteins with AI and holding the clearances buyers need
   slide:
     id: pp_s06
     type: pp_value
@@ -44,3 +44,46 @@
     note:
     - We placed each company by how its business model works, from pricing pages and filings
     - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed199p
+  link: ed199p « What broke these synthetic biology startups, and how did they end? », followed by what the survivors do instead
+  slide:
+    id: xs_survivors
+    type: pp_survivors
+    section: Startup killers
+    title: 'What sets synthetic biology
+
+      survivors apart from failures?'
+    rows:
+    - lesson: Keep fermentation costs below prices
+      explanation: More production did not fix low margin contracts
+      failed_company: Amyris
+      ini: A
+      src: ../../assets/logos/amyris.png
+      why_it_failed: Contracts brought weak margins
+    - lesson: Check factory fit before launching
+      explanation: Customers failed to run Hyaline on their lines
+      failed_company: Zymergen
+      ini: Z
+      src: ../../assets/logos/zymergen.png
+      why_it_failed: Hyaline lost its expected revenue
+    - lesson: Prove the bacteria work in patients
+      explanation: Safety alone cannot make a treatment effective
+      failed_company: Synlogic
+      ini: S
+      src: ../../assets/logos/pp_live/synthetic-biology/s1102-02.png
+      why_it_failed: PKU trial looked unlikely to succeed
+    - lesson: Clear patent risks before selling
+      explanation: Food makers avoid buying disputed heme products
+      failed_company: Motif FoodWorks
+      ini: M
+      src: ../../assets/logos/pp_live/synthetic-biology/s1102-03.png
+      why_it_failed: A costly patent fight preceded closure
+    - lesson: License seed traits, skip factories
+      explanation: Partners grow and crush soy without owned plants
+      failed_company: Benson Hill
+      ini: B
+      src: ../../assets/logos/bensonhill.png
+      why_it_failed: Plant costs and debt overwhelmed revenue
+    note:
+    - We compared synthetic biology companies that failed or hit a major setback with the ones that survived
+    - We used company statements and the press, and all the sources we used are listed at the end of the report

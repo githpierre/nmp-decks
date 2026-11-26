@@ -52,3 +52,13 @@ behind_these_categories:        # STABLECOIN (Stablecoin payments) and COMMERCIA
   '10': {wordmax: 10}
 where_did_most_capital_go:      # TREASURY SETTLEMENT (Stablecoin) and SPECIALTY COMMERCIAL (MGA) 22 Nov, IMPLANTABLE DEVICES (MedTech) 23 Nov 2026: no cut word
   '6': {wordmax: 11}
+where_did_most_capital_go:      # measured on the Synthetic biology build (26 Nov 2026): BIO-MANUFACTURING holds on one line, same column for 6 to 8
+  '6': {wordmax: 13}
+  '7': {wordmax: 13}
+  '8': {wordmax: 13}
+growth_rate_estimates_from_different:   # measured on the Synthetic biology build (26 Nov 2026): « Mordor / Intelligence » holds, no split
+  '6': {wordmax: 12}
+  '10': {wordmax: 12}
+  '14': {wordmax: 12}
+estimates:                      # measured on the Synthetic biology build (26 Nov 2026): « Mordor / Intelligence » holds like « Fortune Business / Insights »
+  rows.*.firm: {wordmax: 12}

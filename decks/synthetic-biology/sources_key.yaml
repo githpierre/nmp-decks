@@ -1,0 +1,82 @@
+# 20 key sources (draft_sources_key.py, rewritten 26 Nov 2026)
+rows:
+- name: "Global Market Insights,\nmarket report"
+  why: The November 2026 market report that splits synthetic biology revenue into core, enabling and enabled products
+  how: We used it for the $20B base of 2025, the split by type of product and the high case of our market size.
+  url: https://www.gminsights.com/industry-analysis/synthetic-biology-market
+- name: "Fortune Business Insights,\nmarket report"
+  why: The 2026 market report with a forecast to 2034 and a split of revenue by region of the world
+  how: We used it for one of the four market size estimates and the share of each region in the spending.
+  url: https://www.fortunebusinessinsights.com/synthetic-biology-market-107168
+- name: "NSCEB, final\nreport"
+  why: The April 2025 report of the US National Security Commission on Emerging Biotechnology to Congress
+  how: We used it for scale-up as the main roadblock of the market. It also framed the race between the US and China.
+  url: https://www.biotech.senate.gov/final-report/chapters/chapter-2/section-3
+- name: "Vertex, third quarter\n2026 results"
+  why: Vertex's results for the third quarter of 2026, with the sales of Casgevy, the first CRISPR medicine
+  how: We used it for the sales signal of Casgevy. It also showed that a gene-edited therapy can build real revenue.
+  url: https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-third-quarter-2026-financial-results
+- name: "Twist Bioscience,\nannual report"
+  why: Twist's annual report for fiscal 2026, with its DNA writing platform on silicon chips and its sales
+  how: We used it for how synthetic DNA is made today. It also gave the revenue from AI drug discovery customers.
+  url: https://www.sec.gov/Archives/edgar/data/1581280/000158128026000061/twst-20260930.htm
+- name: "Ginkgo Bioworks,\nthird quarter 2026"
+  why: Ginkgo's earnings release for the third quarter of 2026, with its revenue and its loss from operations
+  how: We used it for the loss per dollar of revenue. It also showed how hard it is to make a foundry profitable.
+  url: https://www.sec.gov/Archives/edgar/data/1830214/000162828026071022/ex991earningspr.htm
+- name: "Profluent and Lilly,\nrecombinase deal"
+  why: Profluent's release on its partnership with Eli Lilly to design gene-editing enzymes with AI
+  how: We used it for the deals pharma signs with AI design startups, worth up to $2.3B in milestones for Profluent.
+  url: https://www.profluent.bio/media/profluent-announces-strategic-partnership-with-eli-lilly-to-develop-ai-designed-recombinases-for-genetic-medicine
+- name: "Cradle, 2025\nreview"
+  why: Cradle's review of 2025, with its projects for big pharma and its move from pilots to multiyear deals
+  how: We used it for how AI protein design is sold to pharma. It also backed the Cradle comparison slide.
+  url: https://www.cradle.bio/blog/cradle-2025
+- name: "Pivot Bio, 2025\nfield data"
+  why: Pivot Bio's release on its 2025 field trials, with the nitrogen its microbes replaced on corn farms
+  how: We used it for the farm value of engineered microbes. It also backed the Pivot Bio comparison slide.
+  url: https://www.pivotbio.com/press-releases/pivot-bio-releases-2025-field-performance-data-demonstrating-consistent-yield-gains-and-synthetic-nitrogen-displacement-while-lowering-fertilizer-costs
+- name: "Formo, FDA\nletter"
+  why: Formo's release on the first FDA no-questions letter for casein made by precision fermentation
+  how: We used it for the regulatory signals of the market. It also showed that animal-free cheese can reach US shelves.
+  url: https://formo.bio/formo-receives-first-fda-no-questions-letter-for-enhanced-casein-made-through-precision-fermentation/
+- name: "Spiber,\nbiofoundry launch"
+  why: Spiber's release on opening its gene design and fermentation tanks of over 100,000 liters to partners
+  how: We used it for the latest tech developments. It also showed how shared capacity may lower the cost of scaling.
+  url: https://spiber.inc/en/news/SPIBER-BIOFOUNDRY-Spiber-BioJapan2026-BrewedProtein
+- name: "Arzeda and MANE,\nViaLeaf Reb M"
+  why: Arzeda's release on the stevia sweetener it makes without cells, with over 500 tons a year of capacity
+  how: We used it for the products closest to market. It also showed how designed enzymes can replace plant extraction.
+  url: https://www.arzeda.com/news/arzeda-and-mane-join-forces-to-bring-a-better-stevia-at-scale
+- name: "Nature, AI protein\ndesign review"
+  why: The 2026 Nature review on the shift from random selection to computational design of proteins
+  how: We used it for the design layer of the tech chapter. It also framed what AI can and cannot do yet.
+  url: https://www.nature.com/articles/s41586-026-10328-7
+- name: "PubMed, fermentation\nscale-up review"
+  why: The 2026 review of the bottlenecks that stop lab results from reaching industrial fermentation
+  how: We used it for the bottlenecks of the tech chapter. It also backed our timeline for solving them.
+  url: https://pubmed.ncbi.nlm.nih.gov/42655176
+- name: "ScienceDirect, industrial\nbiotech study"
+  why: The 2026 study of why industrial biotech startups fail to turn science into a business
+  how: We used it for the reasons startups fail. It also framed what survivors do differently.
+  url: https://www.sciencedirect.com/science/article/pii/S1871678426001111
+- name: "SEC, Zymergen\nIPO prospectus"
+  why: Zymergen's 2021 prospectus, with its first product Hyaline and the long customer qualification ahead
+  how: We used it for what newcomers miss. It also explained why Zymergen's sales never came.
+  url: https://www.sec.gov/Archives/edgar/data/1645842/000114036121013962/nt10018776x14_424b4.htm
+- name: "FDA, GRAS notice\nfor Perfect Day"
+  why: The FDA record of its no-questions letter for Perfect Day's whey protein made by fermentation in 2020
+  how: We used it for the first US approvals of fermented food proteins. It also framed how food rules evolved.
+  url: https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=863&set=GRASNotices
+- name: "European Commission,\nnew genomic techniques"
+  why: The European Commission page on the new rules for gene-edited plants adopted in 2026
+  how: We used it for how regulation is evolving. It also gave the date the rules apply, July 2028.
+  url: https://food.ec.europa.eu/plants/new-genomic-techniques/legislation-plants_en
+- name: "Ansa Biotechnologies,\nSeries C"
+  why: Ansa's release on its $71.5M round to make more long and complex synthetic DNA
+  how: We used it for the latest deals and the falling cost of long DNA. It also backed the Ansa comparison slide.
+  url: https://ansabio.com/news-events/pr/series-c-press-release
+- name: "SynBioBeta, 2021\ninvestment report"
+  why: SynBioBeta's report on synthetic biology venture investment in 2021, the record year of the market
+  how: We used it for when the market became hot. It also gave the size of the 2021 funding boom.
+  url: https://www.synbiobeta.com/read/4q-2021-synthetic-biology-venture-investment-report

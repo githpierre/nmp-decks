@@ -622,7 +622,7 @@ estimates:
     max: 135
   rows.*.firm:
     max: 33
-    wordmax: 10
+    wordmax: 12
   rows.*.value:
     caps: true
     max: 12
@@ -845,7 +845,7 @@ growth_engines_have_run_out:
 growth_rate_estimates_from_different:
   '10':
     max: 29
-    wordmax: 10
+    wordmax: 12
   '11':
     max: 123
     min: 103
@@ -854,7 +854,7 @@ growth_rate_estimates_from_different:
     wordmax: 9
   '14':
     max: 29
-    wordmax: 10
+    wordmax: 12
   '15':
     max: 129
     min: 105
@@ -884,7 +884,7 @@ growth_rate_estimates_from_different:
     wordmax: 9
   '6':
     max: 29
-    wordmax: 10
+    wordmax: 12
   '7':
     max: 129
     min: 105
@@ -3981,7 +3981,7 @@ where_did_most_capital_go:
   '6':
     caps: true
     max: 30
-    wordmax: 11
+    wordmax: 13
   '7':
     caps: true
     max: 29
@@ -3989,7 +3989,7 @@ where_did_most_capital_go:
   '8':
     caps: true
     max: 29
-    wordmax: 10
+    wordmax: 13
   '9':
     max: 5
     wordmax: 9

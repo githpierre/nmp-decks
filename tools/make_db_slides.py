@@ -29,9 +29,9 @@ INV_TAIL = re.compile(r'(\s*,?\s+(Management(\s*&\s*Research)?(\s+Company)?|Priv
 def inv_short(x):   # « Fidelity Management & Research Company » -> « Fidelity », « Lightspeed Venture Partners » -> « Lightspeed »: the name people use (Longevity, 18 Nov 2026: names too long for the investor slide)
     if x.strip() in INV_ALIAS: return INV_ALIAS[x.strip()]
     y = INV_TAIL.sub('', x).strip(); return y if len(y) >= 3 and y.lower() not in GENERIC_INV else x
-INV_ALIAS = {'U.S. Venture Partners': 'USVP'}   # « U.S. Venture Partners » became « U.S. » (MedTech, 24 Nov 2026)
+INV_ALIAS = {'U.S. Venture Partners': 'USVP', 'RA Capital Management': 'RA Capital', 'Johnson & Johnson Innovation – JJDC': 'Johnson & Johnson Innovation'}   # « U.S. Venture Partners » became « U.S. » (MedTech, 24 Nov 2026)
 GENERIC_INV = {'u.s.', 'us', 'blockchain', 'crypto', 'digital', 'global', 'general', 'growth', 'venture', 'first', 'new', 'tech', 'future'}   # « Blockchain Capital » stays whole: « led by Blockchain » reads as a technology (Stablecoin payments, 22 Nov 2026)
-CO_TAIL = re.compile(r'\s+(Biosciences|Pharmaceuticals|Therapeutics|Technologies|Biotechnology)$', re.I)
+CO_TAIL = re.compile(r'\s+(Biosciences|Pharmaceuticals|Therapeutics|Technologies|Biotechnology|Biotechnologies)$', re.I)
 def co_short(n): return re.sub(r'\s+Biosciences$', ' Bio', n) if ' ' not in n.rsplit(' ', 1)[0] and n.endswith('Biosciences') else (CO_TAIL.sub('', n) or n)   # « Aeovian Pharmaceuticals » -> « Aeovian » on the narrow investor slide
 
 

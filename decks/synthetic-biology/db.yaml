@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (NOV)
+  14: Ansa Biotechnologies raised a $72M Series C led by Blue Water Life Science Advisors for its design tools {1|Yahoo Finance}
+  15: 2026 (NOV)
+  16: Toursynbio raised a $25M seed round led by Shanghai Science and Technology Innovation Group {1|Sina}
+  17: 2026 (NOV)
+  18: Biomatter raised an $18M Series A led by Astanor for its design tools {1|Vilnius University}
+  19: 2026 (NOV)
+  20: Neobe Therapeutics raised a $6.8M seed round led by ARC for its engineered bacteria {1|Cancer Research Horizons}
+  21: 2026 (NOV)
+  22: Cardinal Biocraft raised a $7M Series A. It engineers yarrowia yeast strains and enzymes {1|Sina}
+  23: 2026 (NOV)
+  24: SRTD biotech raised a $35M seed round led by Mérieux Equity for its engineered medicines {1|SRTD biotech}
+  note: We list the latest equity rounds of synthetic biology startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (NOV)
+  15: bit.bio raised a $25M late-stage round for its programmable human cell manufacturing {1|bit.bio}
+  16: 2026 (NOV)
+  17: Yongyuan Hesheng raised a $7.5M seed round. It builds synthetic DNA synthesis and engineering workflows {1|36Kr}
+  18: 2026 (NOV)
+  19: Specific Biologics raised a $35M Series A led by Hatteras for its engineered medicines {1|PR Newswire}
+  20: 2026 (OCT)
+  21: DMC Biotechnologies raised $18M led by Inceptional. It engineers microbes using precision fermentation {1|DMC}
+  22: 2026 (OCT)
+  23: DeliNova Therapeutics raised a $15M seed round led by Proxima for its engineered medicines {1|The Capital}
+  24: 2026 (OCT)
+  25: DropGenie raised a $5M seed round led by Skeleton Key for its design tools {1|PR Newswire}
+  note: We list the latest equity rounds of synthetic biology startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 1421
+    ann: Colossal Bio, $200M top round, in 52 rounds
+  - x: 2025 H2
+    v: 1370
+    ann: Strand, $153M top round, in 56 rounds
+  - x: 2026 H1
+    v: 1342
+    ann: NewLimit, $435M top round, in 52 rounds
+  - x: 2026 H2
+    v: 2428
+    ann: Sail, $465M top round, in 52 rounds
+  note:
+  - We add up the disclosed equity rounds of synthetic biology startups we track, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 2891
+    ann: ArsenalBio, $325M top round, in 104 rounds
+  - x: '2025'
+    v: 2791
+    ann: Colossal Bio, $200M top round, in 108 rounds
+  - x: '2026'
+    v: 3770
+    ann: Sail, $465M top round, in 104 rounds
+  note:
+  - We add up the disclosed equity rounds of synthetic biology startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 11
+    ann: ArsenalBio, $325M top round, out of 104 rounds
+  - x: '2025'
+    v: 7
+    ann: Colossal Bio, $200M top round, out of 108 rounds
+  - x: 2026 (YTD)
+    v: 12
+    ann: Sail, $465M top round, out of 104 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Sail Biomedicines
+    amt: 465000000
+    date: Q3 2026
+    stage: Strategic
+  - name: NewLimit
+    amt: 435000000
+    date: Q2 2026
+    stage: Series C
+  - name: Chai Discovery
+    amt: 400000000
+    date: Q3 2026
+    stage: Series C
+  - name: Encoded Therapeutics
+    amt: 275000000
+    date: Q3 2026
+    stage: late-stage
+  note:
+  - We listed the biggest equity rounds raised by synthetic biology startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: ElevateBio
+    amt: 525000000
+    date: '2021'
+    stage: Series C
+  - name: Impossible Foods
+    amt: 500000000
+    date: '2020'
+    stage: late-stage
+  - name: Impossible Foods
+    amt: 500000000
+    date: '2021'
+    stage: late-stage
+  - name: Sail Biomedicines
+    amt: 440000000
+    date: '2021'
+    stage: Series B
+  note:
+  - We listed the biggest equity rounds raised by synthetic biology startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: ENGINEERED MEDICINES
+  9: '64'
+  13: $4.1B
+  17: Sail Biomedicines, NewLimit, ArsenalBio, Encoded, eGenesis
+  7: DESIGN TOOLS
+  11: '51'
+  15: $2.5B
+  19: Chai Discovery, Colossal Bio, Atlas Data Storage, Ansa
+  8: BIO-MANUFACTURING
+  12: '138'
+  16: $1.8B
+  20: Readline, Leadsynbio, Spiber, Samsara Eco, Abiochem, Formo
+  note: We used our tracker of 316 synthetic biology equity rounds announced since January 2024, worth about $9.5B. IPOs, debt and grants are left out
+ed169:
+  7: RA CAPITAL
+  10: '4'
+  14: $212M
+  18: Typewriter (twice), Outpace Bio
+  8: ARCH
+  12: '3'
+  16: $304M
+  20: nChroma Bio, Arbor
+  9: SOFINNOVA
+  13: '3'
+  17: $96M
+  21: Arzeda, Latent Labs
+  26: MAIN SEQUENCE
+  28: '3'
+  30: $70M
+  32: Samsara Eco, Number 8 Bio
+  27: LUX
+  29: '2'
+  31: $333M
+  33: EvolutionaryScale, eGenesis
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 316 rounds
+ed205:
+  14: 2024 (SEP)
+  15: ArsenalBio raised a $325M Series C for its programmable engineered cell therapies {1|ArsenalBio}
+  16: 2025 (JAN)
+  17: Colossal Biosciences raised a $200M Series C led by TWG Global for its design tools {1|Colossal}
+  18: 2026 (JUN)
+  19: NewLimit raised a $435M Series C led by Founders Fund. It develops epigenetic rejuvenation medicines {1|NewLimit}
+  20: 2026 (JUL)
+  21: Chai Discovery raised a $400M Series C led by Index for its AI foundation models for molecular design {1|Chai Discovery}
+  22: 2026 (JUL)
+  23: Sail Biomedicines raised a $465M strategic round led by Johnson & Johnson Innovation {1|Johnson & Johnson}
+  24: 2026 (SEP)
+  25: Encoded Therapeutics raised a $275M late-stage round led by GV. It develops targeted genetic medicines {1|Encoded}
+  note: We picked the biggest disclosed rounds of synthetic biology startups since 2024, from our tracker of rounds
+ed160:
+  6: Engineered medicines took about 43% of the capital raised since 2024, ahead of Design tools with about 26%
+  7: 273 of the 316 rounds since 2024 disclosed an amount, and the median disclosed round was $14M
+  8: US startups closed 115 of the 316 rounds and took $6.6B, about 70% of all the money raised since 2024
+  9: 25 rounds of $100M or more made up about 48% of all the capital raised in the market since 2024
+  10: The $465M Strategic round of Sail Biomedicines is the biggest since 2024, ahead of the $435M round of NewLimit
+  11: Seed was the most common round, with 106 of the 316 rounds, ahead of Series A with 85 and Series B with 31
+  note: We drew these insights from our tracker of 316 synthetic biology equity rounds announced since January 2024, worth about $9.5B
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, money chased big foundries and factories, and Amyris and Zymergen showed the cost of scaling too early.'
+  7: 'AFTER
+
+
+
+    Since 2024, 316 rounds raised $9.5B. Engineered medicines takes the biggest share, and pharma pays for AI design.'
+  note: We used our tracker of synthetic biology equity rounds, complete from January 2024, and company releases and the press
