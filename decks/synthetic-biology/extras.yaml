@@ -87,3 +87,454 @@
     note:
     - We compared synthetic biology companies that failed or hit a major setback with the ones that survived
     - We used company statements and the press, and all the sources we used are listed at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xs_casgevy
+    type: x/sig_key_trend
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: quarter
+      end: 2026-09
+    title: 'Casgevy’s quarterly sales grew almost
+
+      sixfold in a year, to $99M'
+    t:
+      9: $17M
+      10: Q3 2025
+      12: $99M
+      13: Q3 2026
+      15: ×5.8
+      16: WHY IT IS HOT
+      17: 'The first CRISPR medicine is now a real business: Vertex sold $99M of Casgevy in the third quarter of 2026, a sign of a hot market.
+
+
+
+        A year earlier it sold $17M. Each center must learn to collect, edit and give back the cells, so growth takes time.'
+    vbars:
+    - 17
+    - 99
+    note: We used Vertex’s results for the third quarter of 2025 and 2026, worldwide Casgevy revenue rounded to the million
+  sources:
+  - claim: Q3 2026 and Q3 2025 revenue
+    url: https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-third-quarter-2026-financial-results
+    date: '2026-11-02'
+    quote: third quarter 2026 CASGEVY revenue of $99 million, representing 30% quarter-over-quarter growth, and nearly six times the $17 million
+- after: xs_casgevy
+  link: ed032, signal 2 of the list
+  slide:
+    id: xs_twist
+    type: x/sig_key_trend
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: year
+      end: 2026-09
+    title: 'Twist sold $59M to AI drug designers,
+
+      almost three times more in a year'
+    t:
+      9: $21.5M
+      10: FY 2025
+      12: $59.1M
+      13: FY 2026
+      15: ×2.7
+      16: WHY IT IS HOT
+      17: 'Companies that design molecules with AI still need real DNA and proteins to test them: Twist sold them $59.1M in fiscal 2026, a sign of a hot market.
+
+
+
+        In fiscal 2025 it was $21.5M. Twist’s fiscal year ends in September.'
+    vbars:
+    - 21.5
+    - 59.1
+    note: We used Twist’s November 2026 earnings call, where fiscal 2025 is $59.1M less the $37.6M increase it reported
+  sources:
+  - claim: FY 2026 AI drug discovery customers
+    url: https://www.marketbeat.com/earnings/reports/2026-11-12-twist-bioscience-co-stock/
+    date: '2026-11-12'
+    quote: This includes $59.1 million from AI drug discovery customers, an increase of $37.6 million, or 175% over fiscal 2025.
+- after: xs_twist
+  link: ed032, signal 3 of the list
+  slide:
+    id: xs_deals
+    type: sx_league
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-11
+    big: '4'
+    h0: PHARMA AND STARTUP
+    h1: NO.
+    h2: WHEN
+    kicker: WHY IT IS HOT
+    title: 'Four drug makers signed AI protein
+
+      deals in 2026, one worth up to $2.3B'
+    rows:
+    - n: 1
+      name: Lilly + Profluent
+      src: ../../assets/logos/profluent.png
+      v: Apr 2026
+      what: Gene editing enzymes, up to $2.3B with milestones
+    - n: 2
+      name: Astellas + AI Proteins
+      src: ../../assets/logos/ai-proteins.png
+      v: Oct 2026
+      what: Designed mini-proteins, valued at over $400M
+    - n: 3
+      name: Zealand + Generate
+      src: ../../assets/logos/generate-biomedicines--symbol.png
+      v: Oct 2026
+      what: AI-made proteins for metabolic diseases
+    - n: 4
+      name: UCB + Cradle
+      src: ../../assets/logos/cradle--symbol.png
+      v: Nov 2026
+      what: AI antibody engineering, terms not public
+    story: Big drug makers now pay startups for proteins designed by AI, with three deals in 23 days this fall, a sign of a hot market. Amounts include milestones that may never be paid.
+    note:
+    - We listed four research and license deals for AI-designed proteins, April to November 2026,
+    - with the highest value announced, milestones included, which are not money already paid
+  sources:
+  - claim: Profluent and Lilly agreement, milestones
+    url: https://www.ropesgray.com/en/news-and-events/news/2026/04/profluent-enters-strategic-partnership-with-lilly-to-develop-ai-designed-recombinases-for-genetic
+    date: '2026-04-28'
+    quote: Profluent is eligible to receive up to $2.25 billion in development and commercial milestone payments
+  - claim: AI Proteins and Astellas
+    url: https://www.aiproteins.com/media
+    date: '2026-10-21'
+    quote: AI Proteins Enters Research Collaboration and License Agreement with Astellas Pharma Valued at Over $400 Million
+  - claim: Generate and Zealand
+    url: https://generatebiomedicines.com/news-releases/generate-biomedicines-and-zealand-pharma-enter-collaboration-and-license-agreement-to-develop-protein-therapeutics-engineered-with-ai-for-metabolic-diseases/
+    date: '2026-10-13'
+    quote: Generate Biomedicines and Zealand Pharma Enter Collaboration and License Agreement
+  - claim: Cradle and UCB
+    url: https://www.ucb.com/newsroom/press-releases/article/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration-1
+    date: '2026-11-04'
+    quote: UCB advances its digital antibody engineering program with new Cradle collaboration
+- after: xs_deals
+  link: ed032, signal 4 of the list
+  slide:
+    id: xs_intellia
+    type: share_waffle
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-02
+    big: 32 of 52
+    kicker: WHY IT IS HOT
+    title: '62% of people given Intellia’s one-time
+
+      gene edit had no attacks for six months'
+    'on': No attacks
+    'off': Attacks or therapy
+    unit: people
+    years:
+    - k: 32
+      n: 52
+      p: 62
+      x: PHASE 3, 2026
+    story: 'A one-time gene edit made inside the body now works in a large randomized trial, a sign of a hot market.
+
+      Only 11% of those on placebo had no attacks. The FDA decision is due in March 2027.'
+    note:
+    - We used the Phase 3 HAELO trial of lonvo-z for a rare swelling disease, 52 people treated and 28 on placebo,
+    - over six months, with 62% of 52 rounded to 32 people. The treatment was not approved yet in November 2026
+  sources:
+  - claim: 62% attack free and therapy free
+    url: https://www.sec.gov/Archives/edgar/data/1652130/000119312526336772/ntla-ex99_1.htm
+    date: 2026-08
+    quote: 62% of patients were entirely attack free and therapy free in the lonvo-z arm
+  - claim: Trial arms
+    url: https://www.nature.com/articles/s41587-026-03154-9
+    date: '2026-05-18'
+    quote: The phase 3 HAELO trial of lonvo-z enrolled a total of 80 patients, with 52 on lonvo-z and 28 on placebo.
+- after: xs_intellia
+  link: ed032, signal 5 of the list
+  slide:
+    id: xs_every
+    type: kpis
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-06
+    title: 'EVERY secured 5.5 times its 2025 orders
+
+      in four months and quadruples capacity'
+    items:
+    - value: 5.5×
+      label: Yearly orders EVERY secured from January to April 2026, against all of its 2025 orders
+    - value: 4×
+      label: Its production capacity after the June 2026 deal with the drug and feed maker Huvepharma
+    - value: 24 mo
+      label: Shelf life of its OvoPro egg white protein, made by fermentation, not by hens
+    why: This is a sign of a hot market because food makers now order fermented egg protein in volume, not as a trial. Orders are not yet sales, and the capacity is a signed deal.
+    note: We used EVERY’s release of June 15, 2026 with Huvepharma, where the orders are those secured by April 2026
+  sources:
+  - claim: Orders secured
+    url: https://every.com/press-releases/every-and-huvepharma-announce-4x-production-capacity-expansion/
+    date: '2026-06-15'
+    quote: annual orders worth 550% of its total 2025 order volume.
+  - claim: Capacity and shelf life
+    url: https://every.com/press-releases/every-and-huvepharma-announce-4x-production-capacity-expansion/
+    date: '2026-06-15'
+    quote: it is shelf-stable for up to 24 months
+- after: xs_every
+  link: ed032, signal 6 of the list
+  slide:
+    id: xs_partners
+    type: sx_league
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-09
+    big: '5'
+    h0: PARTNER AND STARTUP
+    h1: NO.
+    h2: WHEN
+    kicker: WHY IT IS HOT
+    title: 'ADM, Novonesis and three other groups
+
+      teamed up with fermenters in 2026'
+    rows:
+    - n: 1
+      name: Sigma + Onego Bio
+      src: ../../assets/logos/onego-bio.png
+      v: Mar 2026
+      what: Egg protein for its food brands
+    - n: 2
+      name: Huvepharma + EVERY
+      src: ../../assets/logos/the-every-company.png
+      v: Jun 2026
+      what: Four times more production capacity
+    - n: 3
+      name: Novonesis + TurtleTree
+      src: ../../assets/logos/fav/turtletree.png
+      v: Jul 2026
+      what: More output and sales of a milk protein
+    - n: 4
+      name: ADM + EVERY
+      src: ../../assets/logos/the-every-company.png
+      v: Jul 2026
+      what: US commercial production of egg protein
+    - n: 5
+      name: Zen Waffles + Onego Bio
+      src: ../../assets/logos/onego-bio.png
+      v: Sep 2026
+      what: Egg protein in breakfast products
+    story: Big food and ingredient groups now lend their plants and sales teams to fermentation startups, a sign of a hot market. These are partnerships, not orders or new plants.
+    note:
+    - We listed five partnerships between food or ingredient groups and fermentation startups,
+    - March to September 2026, from company releases. They are agreements, not sales or new plants
+  sources:
+  - claim: Sigma collaboration
+    url: https://www.onego.bio/press/our-news/4yhgdeb8xhk9iajl43h4plezjv28gi
+    date: '2026-03-05'
+    quote: Onego Bio and Sigma Foods Enter Collaboration to Strengthen Egg Protein Innovation and Supply Resilience
+  - claim: EVERY expansion agreement
+    url: https://every.com/press-releases/every-and-huvepharma-announce-4x-production-capacity-expansion/
+    date: '2026-06-15'
+    quote: Huvepharma Announce 4x Production Capacity Expansion
+  - claim: TurtleTree partnership
+    url: https://www.novonesis.com/en/news/novonesis-and-turtletree-enter-partnership-support-commercialization-lactoferrin
+    date: '2026-07-08'
+    quote: Novonesis and TurtleTree enter partnership to support commercialization of lactoferrin
+  - claim: ADM agreement
+    url: https://www.adm.com/zh-Hans-CN/news/news-releases/2026/7/adm-every-company-partner-to-deliver-us-based-commercial-scale-production-of-ovopro-egg-white-protein/
+    date: '2026-07-14'
+    quote: ADM, EVERY Company Partner to Deliver US-Based Commercial Scale Production of OvoPro Egg White Protein
+  - claim: Zen Waffles partnership
+    url: https://www.onego.bio/newsroom-tabs-2/press-releases
+    date: '2026-09-09'
+    quote: Onego Bio and Zen Waffles Announce Commercial Partnership
+- after: xs_partners
+  link: ed032, signal 7 of the list
+  slide:
+    id: xs_tudriqev
+    type: kpis
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-08
+    title: 'The FDA approved an engineered virus that
+
+      shrank tumors in one in four people'
+    items:
+    - value: 1 in 4
+      label: People with resistant melanoma whose tumors shrank with Tudriqev and nivolumab
+    - value: 14 mo
+      label: Median time those responses lasted in the trial behind the approval
+    - value: '2026'
+      label: Year of the FDA accelerated approval, for melanoma that resisted other drugs
+    why: This is a sign of a hot market because a virus rewritten to attack cancer is now a sold medicine. The approval is accelerated, so a larger trial must still confirm the benefit.
+    note: We used the FDA announcement of August 6, 2026, which gives the response rate as one in four, with nivolumab
+  sources:
+  - claim: Approval and response
+    url: https://www.fda.gov/news-events/press-announcements/fda-approves-new-engineered-viral-immunotherapy-patients-treatment-resistant-advanced-melanoma
+    date: '2026-08-06'
+    quote: one in four patients responded to treatment, with responses lasting a median of nearly 14 months
+- after: ed141
+  link: ed141 « Industrial capacity takes time and capital to build »
+  slide:
+    id: xc_liberation
+    type: x/sig_announced_vs_built
+    section: Market challenges
+    title: 'Liberation Labs planned 600,000 liters
+
+      of tanks, and none run yet'
+    t:
+      8: '600'
+      9: 'thousand liters
+
+        of tanks planned'
+      11: '0'
+      12: 'liters running
+
+        in Oct 2026'
+      15: None
+      16: WHAT IS GOING ON
+      17: 'Liberation Labs designed its Indiana plant for 600,000 liters of fermentation tanks, to run by the end of 2024.
+
+
+
+        In October 2026 the work was on pause while the company looked for $25M to finish it. Zero means no tank in production, not an empty site.'
+    vbars:
+    - 600000
+    - 0
+    note: We used the company’s plant page and AgFunderNews of October 22, 2026. The site is partly built, but no tank produces yet
+  sources:
+  - claim: Design capacity
+    url: https://liberation.bio/bio3-platform/
+    date: 2026-11
+    quote: 600,000 liters of initial fermentation capacity, with room for expansion.
+  - claim: Original target and October 2026 status
+    url: https://agfundernews.com/no-acceptable-offers-for-liberation-bioindustries-as-firm-seeks-to-plug-25m-funding-gap
+    date: '2026-10-22'
+    quote: which was originally set to become operational by the end of 2024, is on pause
+- after: ed132
+  link: ed132 « A signed partnership does not mean a customer will place a repeat commercial order »
+  slide:
+    id: xc_lanzatech
+    type: sx_stat_strip
+    section: Market challenges
+    title: 'One customer now brings 41% of
+
+      LanzaTech’s quarterly revenue'
+    headline: Share of LanzaTech’s revenue from its largest customer
+    stats:
+    - v: 41%
+      l: Of revenue in the third quarter of 2026, from one customer
+    - v: 27%
+      l: From the same customer in the third quarter of 2025
+    - v: 33%
+      l: From that customer over the first nine months of 2026
+    story: A biomanufacturing supplier can live on a handful of contracts, so one late project can hit its revenue hard. LanzaTech is listed, not a startup.
+    note:
+    - We used LanzaTech’s quarterly report of November 2026, where its largest buyer is Customer A,
+    - with that buyer’s share of revenue in the quarters to September 2025 and September 2026
+  sources:
+  - claim: Customer A share
+    url: https://www.sec.gov/Archives/edgar/data/1843724/000162828026074002/lnza-20260930.htm
+    date: '2026-11-16'
+    quote: Customer A | 41 % | 27 % | 33 % | 31 %
+- after: iv_safety
+  link: iv_safety « A US executive order in May 2025 directed agencies to revise the DNA synthesis screening framework » and the risks above
+  slide:
+    id: xc_funnel
+    type: sx_split_compare
+    section: Market challenges
+    big: 11 of 2,257
+    chart_w: 400
+    kicker: WHAT IS GOING ON
+    title: '1,355 gene therapy programs are before
+
+      human tests, and only 11 near approval'
+    groups:
+    - col: '#789096'
+      name: Programs at this stage
+    - col: '#FB0161'
+      name: Near approval
+    - col: '#1C4A60'
+      hide: true
+      name: Rest
+    rows:
+    - name: Lab and animal tests
+      total: 1,355 programs
+      v:
+      - 100
+      - 0
+      - 0
+    - name: Phase 1 or 2
+      total: 829 programs
+      v:
+      - 61
+      - 0
+      - 39
+    - name: Phase 3
+      total: 62 programs
+      v:
+      - 5
+      - 0
+      - 95
+    - name: Filed for approval
+      total: 11 programs
+      v:
+      - 0
+      - 1
+      - 99
+    story: 'Programmed cell and gene medicines are booming in labs, but very few reach the last step before approval.
+
+      This is a snapshot of where 2,257 programs are today, not a success rate.'
+    note:
+    - We used the ASGCT and Citeline report of October 2026, programs by stage
+    - worldwide. Bars are shares of the preclinical count, not odds of success
+  sources:
+  - claim: Q3 2026 stage counts
+    url: https://www.asgct.org/uploads/files/general/ASGCT-Q3-2026-Landscape-Report-Final.pdf#page=18
+    date: 2026-10
+    quote: Preclinical 1,355; Phase I 437; Phase II 392; Phase III 62; Pre-registration 11; Total 2,257
+- after: ed195
+  link: ed192 « Ginkgo Bioworks began a restructuring with plans to cut at least 35% of its workforce »
+  slide:
+    id: xk_ginkgo
+    type: x/sig_dominance
+    section: Startup killers
+    title: 'Ginkgo’s share price fell 99% from
+
+      its 2021 peak, to $7.17'
+    t:
+      8: $597
+      9: 'Peak close,
+
+        Nov 8, 2021'
+      11: $7.17
+      12: 'Close on
+
+        Nov 25, 2026'
+      15: −99%
+      16: WHAT IS GOING ON
+      17: 'Ginkgo Bioworks was the flagship of synthetic biology when it listed in 2021. Its shares closed at $596.80 in November 2021, adjusted for its later reverse split.
+
+
+
+        On November 25, 2026 they closed at $7.17. It has cut more than half of its staff since 2024 and still loses more than a dollar for each dollar of revenue.'
+    vbars:
+    - 596.8
+    - 7.17
+    note: We compared Ginkgo’s highest daily close with its close of November 25, 2026, both adjusted for splits. The company is still running
+  sources:
+  - claim: Split-adjusted closing peak
+    url: https://www.macrotrends.net/stocks/charts/DNA/ginkgo-bioworks-holdings/stock-price-history
+    date: '2026-08-06'
+    quote: The all-time high Ginkgo Bioworks Holdings stock closing price was 596.80 on November 08, 2021.
+  - claim: Latest adjusted close
+    url: https://stockanalysis.com/stocks/dna/history/
+    date: '2026-11-25'
+    quote: Nov 25, 2026 | 7.20 | 7.43 | 6.66 | 7.17 | 7.17
