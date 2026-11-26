@@ -1,0 +1,123 @@
+# Spec of the research prompts for the FemTech deck (tools/make_market_prompts.py). Draft of 26 Nov 2026, segments proposed to Pierre:
+# pain segments = the buyers of the live S04 slide, value segments = the 7 base categories in 6 (fertility platforms and fertility tests together).
+name: FemTech
+handle: femtech
+uuid: 17
+date: '2026-11-26'
+today: 26 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity, synthetic biology
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and SEC or exchange filings (Progyny, Maven Clinic, Carrot Fertility, Kindbody, Flo Health, Clue, Natural Cycles, Midi Health, Elvie, Willow, Organon,
+  Hologic, Bayer, Astellas), government documents (FDA device clearances and drug approvals, the US White House Initiative on Women's Health Research, ARPA-H Sprint for Women's Health,
+  NIH, the UK Women's Health Strategy, the FTC actions on health apps), McKinsey Health Institute and World Economic Forum reports on the women's health gap, peer-reviewed journals (Nature,
+  The Lancet, NEJM, JAMA), market research firms with a named method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, STAT News, Fierce Healthcare, Axios,
+  TechCrunch, Sifted).
+pain_segments:
+- Large employers
+- Health plans
+- IVF clinics
+- Expectant mothers
+- Ob-gyn practices
+value_segments:
+- Fertility care
+- Pregnancy care
+- Hormonal health
+- Pelvic health
+- Midlife care
+- Women's cancer tests
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+live_twins:
+- ed007p
+- ed039p
+- ed047p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed199p
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which femtech products are closest to market?
+    brief: 8 rows = 8 real products of femtech startups or young companies close to launch or just launched (an at-home fertility or hormone test, a menopause treatment or care program,
+      a pelvic floor device, an endometriosis or cancer screening test, a contraceptive, a pregnancy monitor). Rows read "product" + "COMPANY · USE" + stage (TRIAL / FILED / CLEARED
+      / SALE, 7 characters at most, TRIAL = clinical study under way, FILED = submitted to a regulator (FDA, EMA, MHRA), CLEARED = cleared or approved in the last 12 months, SALE = on
+      sale in the last 12 months). Only products named in a company release, a regulator database or reputable press. Not a lab result.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals between femtech startups or young companies and large groups (acquisitions by medtech, pharma or health groups, large strategic investments, employer or health
+      plan contracts, IPOs), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to bring a femtech product to market?
+    brief: 5 steps from a working product to one that women can use and someone pays for (for example clinical evidence, FDA clearance or CE mark for a device or test, a billing code
+      or coverage by health plans, a contract with an employer or a clinic network, then scale). Each step in plain words with who decides and a typical duration and cost.
+  iv_safety:
+    title: What could go wrong with femtech?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example health data shared without consent and fined by the FTC, period data and abortion
+      laws, a device recall, claims not backed by trials, health plans that refuse to pay). Real filings, regulator records, reports or reported cases only.
+extra:
+  ed061: 'For synthetic biology: the pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").'
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals
+    on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed032: 'Do not use Google searches as a signal: Google changed how it counts search terms in mid-2025, so a recent rise in searches is not real interest. Use 7 signals of money, deals,
+    plants, approvals, sales or use instead.'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: menopause care money and demand (Midi Health, new non-hormonal menopause drugs, employers adding menopause benefits), fertility benefits (Progyny revenue and clients,
+  Carrot, Maven Clinic), period and fertility apps at scale (Flo Health users and valuation, Natural Cycles), FDA clearances and new women's health tests (endometriosis, at-home hormone
+  and fertility tests), government money for women's health research (US initiative, ARPA-H, NIH, UK), big acquisitions and contracts by medtech, pharma and health groups, large rounds
+  of femtech startups. Never Google searches (Google changed how it counts search terms in mid-2025, so recent search curves are not real interest).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, failed product launches, data privacy fines, layoffs, sales
+  of the company for little, valuations or share prices that fell, products pulled. Scope: companies whose core product serves women''s health (fertility, pregnancy, menstrual and hormonal
+  health, menopause, pelvic and sexual health, breast and gynecological tests), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2022 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}.
+  Dates as YYYY (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, data or regulatory trouble, product pulled, value fell, shut down or sold).
+  Each cell is two short lines separated by | or empty. Give the website domain of each company.
+
+  - ed200: why femtech startups fail.
+
+  - survivors (for the S11-02 slide « What sets femtech survivors apart from failures? »): 5 rows, each with a lesson (what survivors do, 6 words at most), a one-line explanation, one
+  company of ed199p or ed192-ed195 that missed it, and why in 8 words at most, with a source.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: FemTech
+label: FemTech
+keep_together:
+- femtech
+- FemTech
+- Femtech
+examples:
+  jargon_bad: A digital therapeutic leveraging LH surge detection for ovulation prediction in a D2C model.
+  jargon_good: An app that reads a home urine test to tell a woman her most fertile days, sold directly to her.
+  jargon_why: the reader is not a doctor
+  proof_rule: 'An FDA clearance, a pilot with one employer or a letter of intent is not proof that a product sells: say how many women use it, who pays (the woman, an employer, a health
+    plan), the revenue when public, and who reported it.'
+  proof_bad: Company X signed a partnership with a large employer.
+  proof_good: Company X now covers 2 million employees through 300 employers and sold $80M in 2025.
+  proof_why: a partnership is not a sale
+  fresh_bad: Company X raised $150M in 2024
+  fresh_good: Company X raised $250M in June 2026, its biggest round, two years after a $150M round
+  fresh_est: Company X should sell about $300M in 2026, against $180M in 2025
+  fresh_method: latest company releases, quarterly results and filings, regulator databases, press reports as a cross-check
+  not_proof: an FDA clearance is not sales
+trends_csv: assets/trends/femtech/femtech.csv
