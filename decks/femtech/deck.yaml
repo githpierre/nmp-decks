@@ -677,23 +677,210 @@ slides:
   type: x/signals_suggest_market_hot_right
   section: Market opportunity
   title: What signals suggest the market is hot right now?
-  note: We selected seven commercial, investment and regulatory signals from 2026. Clearance and availability do not establish actual sales.
+  note: We selected seven recent signals across employer contracts, benefits surveys, deals, screening and birth control habits.
   src: 32
   t:
-    5: Progyny sold $341M of benefits in Q3
+    5: Progyny signed a record 1.3M new covered lives
+    9: 54% of large US employers now cover IVF
+    11: Employer menopause support jumped to 27%
+    7: Maven's virtual care now reaches 28M people
+    13: Five women's health takeovers in 18 days
+    15: In Australia, women take half of HPV samples
+    19: 23% of young women on birth control track cycles
     6: '1'
-    7: Midi raised $100M and passed a $1B valuation
-    8: '4'
-    9: Pomelo raised $92M for virtual maternity care
     10: '2'
-    11: Hologic went private in a deal worth up to $18B
     12: '3'
-    13: Evvy raised $40M for vaginal health research
+    8: '4'
     14: '5'
-    15: Alife won FDA clearance for IVF embryo scoring
     16: '6'
-    19: Teal home HPV screening reached all 50 states
     20: '7'
+- id: xs_progyny
+  type: kpis
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: total
+    end: 2026-11
+  title: 'Progyny signed a record 1.3M new
+
+    covered lives for its fertility benefit'
+  items:
+  - value: 1.3M
+    label: New covered lives Progyny signed in its 2026 selling season, a record for the company
+  - value: 85+
+    label: New employer clients signed in the same season, most of them starting in 2027
+  - value: ~100%
+    label: Share of existing clients that renewed for 2027, as Progyny describes it
+  why: This is a sign of a hot market because employers keep buying fertility benefits in volume. Covered lives are people who can use the benefit, not patients treated.
+  note: We used Progyny’s third quarter results of November 4, 2026. Near 100% is the company’s own description, not an exact rate
+- id: xs_ivf
+  type: share_waffle
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: year
+    end: 2026-11
+  big: 54%
+  kicker: WHY IT IS HOT
+  title: '54% of large US employers now
+
+    cover IVF, up from 50% in 2025'
+  'on': Cover IVF
+  'off': Do not cover IVF
+  unit: large employers
+  years:
+  - k: 54
+    n: 100
+    p: 54
+    x: '2026'
+  story: 'IVF is now a standard benefit at most large US employers, which gives fertility startups a payer to sell to, a sign of a hot market.
+
+    Coverage is not use: it says nothing of how many cycles are paid.'
+  note:
+  - We used Mercer’s 2026 national survey of employer health plans, published in November 2026,
+  - where large employers have 500 employees or more. One square is one employer out of 100
+- id: xs_menopause
+  type: x/sig_key_trend
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: year
+    end: 2026-07
+  title: 'The share of employers offering menopause
+
+    support jumped from 18% to 27% in a year'
+  t:
+    9: 18%
+    10: '2025'
+    12: 27%
+    13: '2026'
+    15: ×1.5
+    16: WHY IT IS HOT
+    17: 'Employers now pay for menopause support, a new way for midlife care startups to reach women, a sign of a hot market.
+
+
+
+      The survey counts support and resources, not only clinical care or paid apps, so the paying market is smaller.'
+  vbars:
+  - 18
+  - 27
+  note: We used the SHRM Employee Benefits Study of 2025 and 2026, as reported by SHRM on July 31, 2026
+- id: xs_maven
+  type: kpis
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: total
+    end: 2026-11
+  title: 'Maven’s virtual care now reaches 28M
+
+    people, up from 15M in late 2022'
+  items:
+  - value: 28M
+    label: People who can use Maven’s care, up from 15 million in 2022
+  - value: 2,300+
+    label: Employers that pay for Maven as a benefit for their staff and families
+  - value: 175+
+    label: Countries where Maven offers care, coverage and reimbursement
+  why: This is a sign of a hot market because employers buy women’s care on one virtual platform for staff worldwide. These are eligible people, not active patients.
+  note: We used Maven’s website in November 2026 and its Series E release of November 2022 for the 15M figure
+- id: xs_deals
+  type: sx_league
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: month
+    end: 2026-11
+  big: '5'
+  h0: BUYER AND TARGET
+  h1: NO.
+  h2: WHEN
+  kicker: WHY IT IS HOT
+  title: 'Five women’s health takeovers were
+
+    announced in just 18 days this fall'
+  rows:
+  - n: 1
+    name: Hologic + Reveal Genomics
+    src: ../../assets/logos/hologic.png
+    v: Oct 19
+    what: Breast cancer test data
+  - n: 2
+    name: Labcorp + Myriad prenatal
+    src: ../../assets/logos/myriad.png
+    v: Oct 20
+    what: Prenatal testing business
+  - n: 3
+    name: Ferring + Gameto
+    src: ../../assets/logos/gameto.png
+    v: Oct 27
+    what: IVF egg maturation, up to $1.4B
+  - n: 4
+    name: Cinven + Theramex
+    src: ../../assets/logos/theramex.png
+    v: Nov 3
+    what: Women’s health medicines
+  - n: 5
+    name: Fertifa + Tuune
+    src: ../../assets/logos/tuune.png
+    v: Nov 6
+    what: Hormone health app
+  story: Big groups now compete to buy women’s health companies, from tests to IVF tools, a sign of a hot market. Four of the five deals were still to close.
+  note:
+  - We listed five takeovers announced from October 19 to November 6, 2026, from company releases,
+  - with the Gameto amount including milestones. It is not a count of every deal in the sector
+- id: xs_selftest
+  type: x/sig_key_trend
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: half
+    end: 2026-06
+  title: 'Half of Australia’s cervical screening
+
+    tests are now collected by women themselves'
+  t:
+    9: 6.6%
+    10: '2022'
+    12: 51.5%
+    13: H1 2026
+    15: ×7.8
+    16: WHY IT IS HOT
+    17: 'When a whole country lets women take their own sample, most choose it within four years, a sign of a hot market for home screening tests.
+
+
+
+      Self-collected does not always mean at home: many women take the sample at the clinic.'
+  vbars:
+  - 6.6
+  - 51.5
+  note: We used the Australian Institute of Health and Welfare report of November 2026, screening HPV tests for women aged 25 to 74
+- id: xs_fam
+  type: share_waffle
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: year
+    end: 2026-04
+  big: 23%
+  kicker: WHY IT IS HOT
+  title: '23% of US women aged 26 to 35 on birth
+
+    control now track their fertile days'
+  'on': Track fertile days
+  'off': Other methods only
+  unit: women
+  years:
+  - k: 23
+    n: 100
+    p: 23
+    x: '2026'
+  story: 'More young women want birth control without hormones, a large audience for cycle tracking apps, a sign of a hot market.
+
+    It was 13% in 2024. Some use it with another method, and not all with an app.'
+  note:
+  - We used KFF’s 2026 Women’s Health Survey, published on November 17, 2026,
+  - covering women aged 26 to 35 who use birth control. One square is one woman in 100
 - id: ed039p
   type: pp_trends
   section: Market opportunity
@@ -2631,6 +2818,24 @@ slides:
   note:
   - We placed each company by how its business model works, from pricing pages and filings
   - Positions are our reading, and you will find all the sources we used at the end of the report
+- id: xv_margins
+  type: sx_stat_strip
+  section: Value creation
+  title: 'Progyny earned 10 cents per dollar of sales
+
+    while Femasys lost $11 per dollar'
+  headline: Operating result per $1 of revenue, third quarter of 2026
+  stats:
+  - v: +$0.10
+    l: Progyny, which sells fertility benefits paid by employers
+  - v: −$11
+    l: Femasys, which builds and sells its own fertility devices
+  - v: $341M
+    l: Progyny’s revenue in the quarter, against $0.4M for Femasys
+  story: Payer contracts turn into revenue at scale, while a device maker still pays to build and sell its product. These are two firms at different stages, not averages.
+  note:
+  - We divided operating income or loss by revenue for the three months to September 30,
+  - 2026, from the quarterly results of Progyny and Femasys. Progyny is listed, not a startup
 - id: ed106-s1
   type: x/divider_3
   src: 106
@@ -3392,6 +3597,32 @@ slides:
       before use in care'
     28: 🔒
     29: 🔒
+- id: xc_backlog
+  type: x/sig_announced_vs_built
+  section: Market challenges
+  title: 'England’s gynecology waiting list is
+
+    nearly five times what it sees each month'
+  t:
+    8: '585'
+    9: 'thousand on the
+
+      waiting list'
+    11: '126'
+    12: 'thousand seen
+
+      each month'
+    15: ×4.7
+    16: WHAT IS GOING ON
+    17: 'In August 2026, 585,378 gynecology referrals were waiting in England, a list that grew for a fifth month in a row.
+
+
+
+      In 2026 the NHS saw about 125,594 referrals a month, almost five months of visits. Specialists are the bottleneck, which virtual care can ease but not remove.'
+  vbars:
+  - 585378
+  - 125594
+  note: We used the Royal College of Obstetricians and Gynaecologists update of October 16, 2026, on NHS England data
 - id: ed142p
   type: pp_risks
   section: Market challenges
