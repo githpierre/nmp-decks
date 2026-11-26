@@ -887,16 +887,16 @@ slides:
   pill: SIGNAL
   signal: google-trends
   window: 5y
-  title: 'Searches for synthetic biology grew by half
+  title: 'Searches for gene editing doubled
 
     from late 2021 to mid-2025'
   date: From late 2021 to mid-2025.
-  expl: Searches stayed flat after the 2021 funding boom, then rose in 2025 as AI protein design and the first CRISPR medicine made the news.
-  term: synthetic biology
+  expl: Interest jumped when the first CRISPR medicine was approved in late 2023, then kept rising as AI began to design new gene editors.
+  term: gene editing
   note:
   - We tracked how often people worldwide googled this term from late 2021 to July 2025
   - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
-  csv: assets/trends/synthetic-biology/synthetic-biology.csv
+  csv: assets/trends/synthetic-biology/gene-editing.csv
   cut: '2025-07-27'
   caption_period: November 2021 to July 2025
 - id: ed040
