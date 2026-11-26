@@ -142,7 +142,7 @@ slides:
   BL:
     name: Calm
     src: ../../assets/logos/calm.png
-    text: sells a meditation and sleep app that many women use, but it is built for everyone, not around women's health needs
+    text: sells a sleep and meditation app used by many women, but it is not built around women's health needs
   BR:
     name: Hims & Hers
     src: ../../assets/logos/pp_live/femtech/s01-11.png
@@ -486,7 +486,7 @@ slides:
     18: EVVY
     19: Its app was the first FDA-cleared birth control app, and it now reads Apple Watch temperature
     20: NATURAL CYCLES
-    21: It treats PCOS and other hormone conditions online, and raised $26M in early 2025
+    21: It treats PCOS and other hormone conditions online, and raised $30M in late 2026
     22: ALLARA
 - id: ed022
   type: x/rare_people_happily_pay_market
@@ -708,7 +708,7 @@ slides:
   pill: SIGNAL
   signal: google-trends
   term: femtech
-  title: 'Searches for femtech almost doubled
+  title: 'Searches for femtech more than doubled
 
     from late 2021 to mid-2025'
   window: 5y
@@ -990,10 +990,10 @@ slides:
   lead: ''
   condition: To get that big, the market must win insurance billing for more women’s conditions, and prove to employers that its care lowers their costs. It must also close research gaps, protect women’s data, and bring proven care to Europe, Asia, and the rest of the world.
   note:
-  - We compared forecasts from Precedence, Grand View, Fortune Business Insights and Global Market Insights
+  - We compared forecasts from Mordor, Grand View, Fortune Business Insights and Global Market Insights
   - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
   size: 10
-  cagr: 14
+  cagr: 15
   y0: 2026
 - id: ed053
   type: agenda
@@ -2408,7 +2408,7 @@ slides:
 
     most complete tech today?'
   companies:
-  - name: Nat. Cycles
+  - name: Natural Cycles
     src: ../../assets/logos/pp_live/femtech/s05-00.png
   - name: Flo
     src: ../../assets/logos/pp_live/femtech/s05-01.png
@@ -2488,7 +2488,7 @@ slides:
     8: Home urine tests for ovulation and pregnancy, sold cheaply in every pharmacy
     9: OVULATION TESTS
     10: Video visits with a doctor or nurse, now offered by most health systems
-    11: Video visits
+    11: VIDEO VISITS
     12: Temperature and heart rate data from rings and watches many women already own
     13: WEARABLE DATA
     14: Birth control pills sent by mail after a short online visit, from many services
@@ -2519,7 +2519,7 @@ slides:
     8: Because these paper strip tests have been sold over the counter for decades
     9: OVULATION TESTS
     10: Because the pandemic made video visits a standard part of US health care
-    11: Video visits
+    11: VIDEO VISITS
     12: Because Oura, Apple and Samsung put heat sensors in mass devices
     13: WEARABLE DATA
     14: Because many online clinics compete to prescribe the same generic pills
@@ -4072,7 +4072,7 @@ slides:
     w: 100.0
     logos:
     - src: ../../assets/logos/pomelo-care.png
-    - src: ../../assets/logos/fav/ipremom.png
+    - src: ../../assets/logos/ipremom.png
     - src: ../../assets/logos/nadia-care.png
   - name: Midlife care
     names:
@@ -4093,9 +4093,9 @@ slides:
     pct: 18% of total
     w: 70.5
     logos:
-    - src: ../../assets/logos/fav/allara-health.png
-    - src: ../../assets/logos/fav/nua.png
-    - src: ../../assets/logos/fav/clair-health.png
+    - src: ../../assets/logos/allara-health.png
+    - src: ../../assets/logos/nua.png
+    - src: ../../assets/logos/clair-health.png
   - name: Fertility care
     names:
     - ONTO Health
@@ -4260,6 +4260,7 @@ slides:
   - Preconception
   - Perinatal
   - Midlife & conditions
+  rows_above: true
   rows:
   - Software self-management
   - Care delivery & benefits platforms
@@ -4502,7 +4503,7 @@ slides:
       text: MeetYou began with cycle tracking and has grown into a broader service platform focused on women.
     au:
       name: AUSTRALIA
-      text: Adora Fertility is an example of a local fertility care network that bulk-bills eligible Medicare expenses.
+      text: Adora Fertility runs a network of fertility clinics across Australia that bulk-bills eligible Medicare costs for patients.
     eu:
       name: EUROPE
       text: Europe has produced consumer leaders such as Flo Health and Natural Cycles, alongside new home testing developers like Unravel.
@@ -4676,6 +4677,10 @@ slides:
         - 0.31
       - - 5
         - 1.0
+    41:
+      at:
+      - 280
+      - 215
 - id: ed191
   type: agenda
   section: Startup killers

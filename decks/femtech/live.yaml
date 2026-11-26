@@ -54,7 +54,7 @@ ed099p:
 
     most complete tech today?'
   companies:
-  - name: Nat. Cycles
+  - name: Natural Cycles
     src: ../../assets/logos/pp_live/femtech/s05-00.png
   - name: Flo
     src: ../../assets/logos/pp_live/femtech/s05-01.png
@@ -265,7 +265,7 @@ ed168p:
     w: 100.0
     logos:
     - src: ../../assets/logos/pomelo-care.png
-    - src: ../../assets/logos/fav/ipremom.png
+    - src: ../../assets/logos/ipremom.png
     - src: ../../assets/logos/nadia-care.png
   - name: Midlife care
     names:
@@ -286,9 +286,9 @@ ed168p:
     pct: 18% of total
     w: 70.5
     logos:
-    - src: ../../assets/logos/fav/allara-health.png
-    - src: ../../assets/logos/fav/nua.png
-    - src: ../../assets/logos/fav/clair-health.png
+    - src: ../../assets/logos/allara-health.png
+    - src: ../../assets/logos/nua.png
+    - src: ../../assets/logos/clair-health.png
   - name: Fertility care
     names:
     - ONTO Health
@@ -413,6 +413,7 @@ ed171p:
   - Preconception
   - Perinatal
   - Midlife & conditions
+  rows_above: true   # row labels above each row, as on the live S10 (a long label overflowed on the left, 26 Nov 2026)
   rows:
   - Software self-management
   - Care delivery & benefits platforms
@@ -511,7 +512,7 @@ ed007p:
   BL:
     name: Calm
     src: ../../assets/logos/calm.png
-    text: sells a meditation and sleep app that many women use, but it is built for everyone, not around women's health needs
+    text: sells a sleep and meditation app used by many women, but it is not built around women's health needs
   BR:
     name: Hims & Hers
     src: ../../assets/logos/pp_live/femtech/s01-11.png
@@ -565,7 +566,7 @@ ed039p:
   pill: SIGNAL
   signal: google-trends
   term: femtech
-  title: 'Searches for femtech almost doubled
+  title: 'Searches for femtech more than doubled
 
     from late 2021 to mid-2025'
   window: 5y
@@ -577,10 +578,10 @@ ed052p:
   lead: ''
   condition: To get that big, the market must win insurance billing for more women’s conditions, and prove to employers that its care lowers their costs. It must also close research gaps, protect women’s data, and bring proven care to Europe, Asia, and the rest of the world.
   note:
-  - We compared forecasts from Precedence, Grand View, Fortune Business Insights and Global Market Insights
+  - We compared forecasts from Mordor, Grand View, Fortune Business Insights and Global Market Insights
   - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
   size: 10
-  cagr: 14
+  cagr: 15
   y0: 2026
 ed047p:
   type: pp_donutv

@@ -359,3 +359,28 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 
 ## Waffle legend (26 Nov 2026)
 - A waffle never says « one square = 1% »: the line is gone from `share_waffle.j2`, no option brings it back (Pierre said it on several decks, then again on Synthetic biology slide 33). CHECK: `SQUARE_LEGEND` in audit_layout.py.
+
+## FemTech first build (26 Nov 2026), each with its check
+- A radar corner (S01) that the market definition includes leaves the corner (Progyny = fertility financing, inside the femtech
+  definition, named on 13 slides): replaced by a clearly outside company with a logo (Calm), the live S01 goes into the retour.
+  Same rule as Function Health (Longevity). CHECK: the import lists « radar corner X is named on » for every corner.
+- A product-page twin read by OCR carries reading noise (« 7 5 employers », « treatments to men iS »): read every twin text
+  against the live slide before the first build. CHECK: grep live.yaml for a lone digit or a two-letter word in capitals.
+- The S03 twin (ed052p) takes the CAGR of the deck's own chapter (ed051, ≈15%) as well as its size (ed045), and its note names
+  the publishers the deck really uses (the live note said Precedence, the deck uses Mordor).
+- A donut whose categories changed since the live page (5 old categories, 6 base categories) is redone on the base categories:
+  the old shares are kept where a category maps one to one, and a merged old slice is split by the money each new category
+  raised since 2024 in the base, written in the note (femtech: 13% of other women's care -> 7% pelvic, 6% cancer tests).
+- The S10 grid (pp_grid) takes `rows_above: true` when a row label is long (« Software self-management » ran off the left
+  edge): labels sit above each row, as on the live slide.
+- `tools/atelier2/icons.py` run without /home/claude/icons/node_modules writes an EMPTY icons.json (every emoji then shows
+  EMOJI_UNMAPPED and a JS_ERROR on the myths slides): install lucide-static and @phosphor-icons/core first, never commit an
+  icons.json under 100 icons.
+- `tools/build_sources.py` rewrites edits.yaml (key sources): comments and flow lists of edits.yaml are lost, so a later
+  text replacement on edits.yaml can silently miss. Edit edits.yaml through yaml load / dump after build_sources has run.
+- A Trends title names the multiple the slide prints (the ×N stat, peak against a typical week), not a ratio of half-years
+  computed elsewhere (×1.82 half-years, ×2.5 on the slide: « more than doubled »). CHECK TRENDS TEXT.
+- Two surveys on the same benefit can both be right when they measure different employers: KFF 27% (firms of 200+ workers
+  with health benefits) and Mercer 54% (employers of 500+) for IVF in 2026. Each slide names its population.
+- A row of a contrast slide stays between 70% and 90% of its box (CHECK FILL): about 50 to 58 characters.
+- Known open issue: the Australia leader line of the worldmap ends inside its text when the text is on 3 lines (ed183).
