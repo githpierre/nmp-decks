@@ -255,6 +255,73 @@ ed168p:
   note:
   - We added up every equity round of femtech startups in our tracker over the last twelve months
   - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Pregnancy care
+    names:
+    - Pomelo Care
+    - iPremom
+    v: $164M
+    pct: 26% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/pomelo-care.png
+    - src: ../../assets/logos/fav/ipremom.png
+    - src: ../../assets/logos/nadia-care.png
+  - name: Midlife care
+    names:
+    - Midi Health
+    - Osteoboost Health
+    v: $123M
+    pct: 19% of total
+    w: 75.0
+    logos:
+    - src: ../../assets/logos/midi-health.png
+    - src: ../../assets/logos/osteoboost-health--symbol.png
+    - src: ../../assets/logos/feminai.png
+  - name: Hormonal health
+    names:
+    - Allara Health
+    - Nua
+    v: $116M
+    pct: 18% of total
+    w: 70.5
+    logos:
+    - src: ../../assets/logos/fav/allara-health.png
+    - src: ../../assets/logos/fav/nua.png
+    - src: ../../assets/logos/fav/clair-health.png
+  - name: Fertility care
+    names:
+    - ONTO Health
+    - BrightHeart
+    v: $105M
+    pct: 16% of total
+    w: 64.1
+    logos:
+    - src: ../../assets/logos/onto-health.png
+    - src: ../../assets/logos/brightheart.png
+    - src: ../../assets/logos/may-health.png
+  - name: Pelvic health
+    names:
+    - Evvy
+    - Nanopath
+    v: $74M
+    pct: 12% of total
+    w: 45.0
+    logos:
+    - src: ../../assets/logos/evvy.png
+    - src: ../../assets/logos/nanopath.png
+    - src: ../../assets/logos/materna-medical.png
+  - name: Women's cancer tests
+    names:
+    - Teal Health
+    - OncoRes Medical
+    v: $56M
+    pct: 9% of total
+    w: 34.2
+    logos:
+    - src: ../../assets/logos/teal-health.png
+    - src: ../../assets/logos/oncores-medical.png
+    - src: ../../assets/logos/screenpoint-medical.png
 ed171p:
   title: 'Who are the top companies
 
@@ -442,13 +509,13 @@ ed007p:
     src: ../../assets/logos/pp_live/femtech/s01-02.png
     text: makes period underwear designed specifically for women, but beyond its absorbent fabric there is little technology in the product
   BL:
-    name: Progyny
-    src: ../../assets/logos/pp_live/femtech/s01-10.png
-    text: manages fertility benefits for 7 5 employers, which makes it closer to health insurance infrastructure than to i - a women's health product
+    name: Calm
+    src: ../../assets/logos/calm.png
+    text: sells a meditation and sleep app that many women use, but it is built for everyone, not around women's health needs
   BR:
     name: Hims & Hers
     src: ../../assets/logos/pp_live/femtech/s01-11.png
-    text: offers telehealth services for women, but it is a mass-market brand that started out selling hair loss 5 treatments to men iS
+    text: offers telehealth services for women, but it is a mass-market brand that started out selling hair loss treatments to men
   caption:
   - Distance to the center reflects how much a product is built around women's health needs, rather than simply marketed to women
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
@@ -487,30 +554,72 @@ ed007p:
     x: 462.6
     y: 462.6
 ed039p:
+  caption_period: November 2021 to July 2025
+  csv: assets/trends/femtech/femtech.csv
+  cut: '2025-07-27'
+  date: From late 2021 to mid-2025.
+  expl: Interest grew as Flo became a women's health app valued above $1B in 2024, and as employers added fertility and menopause benefits.
+  note:
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   pill: SIGNAL
   signal: google-trends
-  window: 5y
-  title: 'The word femtech is showing up
-
-    more and more in Google searches'
-  date: ''
-  expl: ''
   term: femtech
-  note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
-  csv: assets/trends/femtech/femtech.csv
+  title: 'Searches for femtech almost doubled
+
+    from late 2021 to mid-2025'
+  window: 5y
 ed052p:
   type: pp_cagr
   title: 'How much bigger can
 
     the femtech market get?'
   lead: ''
-  condition: To get that big, the market must win insurance billing for more women’s conditions, and prove to employers that its care lowers their costs.
-    It must also close research gaps, protect women’s data, and bring proven care to Europe, Asia, and the rest of the world.
+  condition: To get that big, the market must win insurance billing for more women’s conditions, and prove to employers that its care lowers their costs. It must also close research gaps, protect women’s data, and bring proven care to Europe, Asia, and the rest of the world.
   note:
   - We compared forecasts from Precedence, Grand View, Fortune Business Insights and Global Market Insights
   - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
   size: 10
   cagr: 14
   y0: 2026
+ed047p:
+  type: pp_donutv
+  variant: B
+  title: 'How is the femtech market
+
+    split between its categories?'
+  cats:
+  - name: Fertility care
+    p: 35
+    logos:
+    - ../../assets/logos/kindbody.png
+    - ../../assets/logos/carrot-fertility.png
+  - name: Pregnancy care
+    p: 22
+    logos:
+    - ../../assets/logos/maven-clinic.png
+    - ../../assets/logos/pomelo-care.png
+  - name: Hormonal health
+    p: 18
+    logos:
+    - ../../assets/logos/flo.png
+    - ../../assets/logos/natural-cycles.png
+  - name: Midlife care
+    p: 12
+    logos:
+    - ../../assets/logos/midi-health.png
+    - ../../assets/logos/alloy.png
+  - name: Pelvic health
+    p: 7
+    logos:
+    - ../../assets/logos/rejoni.png
+    - ../../assets/logos/amber-therapeutics.png
+  - name: Women's cancer tests
+    p: 6
+    logos:
+    - ../../assets/logos/teal-health.png
+    - ../../assets/logos/clairity.png
+  note:
+  - We estimated each category from the revenue we can see, from fertility benefits and Flo to other firms we track
+  - Our old 13% of other women's care is split by the money pelvic and cancer test startups raised since 2024
+  - These are orders of magnitude, not exact shares, and all our sources are listed at the end of the report

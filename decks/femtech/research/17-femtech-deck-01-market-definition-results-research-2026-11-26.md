@@ -1,10 +1,10 @@
-# FemTech, chapter 01 Market definition (evergreen, written by Claude, 26 Nov 2026)
+# femtech, chapter 01 Market definition (evergreen, written by Claude, 26 Nov 2026)
 
 ### ed006
 ```yaml
 status: ok
-title: What is the FemTech market, in simple terms?
-text: FemTech is the market for companies that build apps, tests, devices, care and drugs around women's biology, from periods and fertility to pregnancy and menopause
+title: What is the femtech market, in simple terms?
+text: Femtech is the market for companies that build apps, tests, devices, care and drugs around women's biology, from periods and fertility to pregnancy and menopause
 note: We use a conversational definition here because it makes the boundary with general health apps, which serve women without being built around their biology, easier to see.
 icon_tl: 🩺
 ```
@@ -18,20 +18,20 @@ reason: taken from the live product page
 ### ed008
 ```yaml
 status: ok
-title: What markets are often confused with FemTech?
+title: What markets are often confused with femtech?
 t:
   12: DIGITAL HEALTH
   13: FEMTECH
   14: WELLNESS APPS
-  7: FemTech differs from both because each product is built around a female condition or life stage, and must prove it works
+  7: Femtech differs from both because each product is built around a female condition or life stage, and must prove it works
   10: Digital health covers all virtual care and health software, even when the same tool serves men and women alike
-  11: Wellness apps track sleep, fitness or mood for anyone, while FemTech treats cycles, fertility, pregnancy or menopause
+  11: Wellness apps track sleep, fitness or mood for anyone, while femtech treats cycles, fertility, pregnancy or menopause
 ```
 
 ### ed009
 ```yaml
 status: ok
-title: What markets does FemTech sit between?
+title: What markets does femtech sit between?
 t:
   8: 'DIGITAL
 
@@ -42,7 +42,7 @@ t:
   10: 'EMPLOYEE
 
     BENEFITS'
-  13: 'FemTech sits between three markets: it uses the apps and virtual care of digital health, it builds tests and devices that need FDA review, and it is often paid for by employers as a staff benefit.'
+  13: 'Femtech sits between three markets: it uses the apps and virtual care of digital health, it builds tests and devices that need FDA review, and it is often paid for by employers as a staff benefit.'
 ```
 
 ### ed010
@@ -149,11 +149,11 @@ items:
 ### ed015
 ```yaml
 status: ok
-title: What are some common myths about FemTech?
+title: What are some common myths about femtech?
 page: 1/2
 note: We focused on myths that come back often in investor, founder and press debates. The counters describe what sales, approvals and failures have shown so far.
 t:
-  9: FemTech is mostly period-tracking apps
+  9: femtech is mostly period-tracking apps
   7: Progyny expects about $1.4B of revenue from fertility benefits in 2026, and Hologic sold about $1.5B of breast health products in fiscal 2025
   12: Women's health is a small niche market
   10: Blackstone and TPG bought Hologic, a women's health group, for up to $18B in April 2026, one of the largest health deals of the year
@@ -166,7 +166,7 @@ t:
 ### ed016
 ```yaml
 status: ok
-title: What are some common myths about FemTech?
+title: What are some common myths about femtech?
 page: 2/2
 note: We focused on myths that come back often in investor, founder and press debates. The counters describe what sales, approvals and failures have shown so far.
 t:
@@ -183,7 +183,7 @@ t:
 ### ed017
 ```yaml
 status: ok
-title: How mature is FemTech as a market?
+title: How mature is femtech as a market?
 score: 55
 text: The market is real because fertility benefits, wearable pumps, home tests and virtual menopause care sell today, paid by employers, insurers and women. The score stays in the middle because many products are still paid out of pocket, several well-funded startups failed or shrank, and research on women's bodies remains thin.
 note:
@@ -194,7 +194,7 @@ note:
 ### ed018
 ```yaml
 status: ok
-title: How can we categorize companies of the FemTech market?
+title: How can we categorize companies of the femtech market?
 page: 1/3
 note: We use the six solution groups of our company database, from fertility care to tests that find women's cancers early.
 t:
@@ -235,7 +235,7 @@ categories:
 ### ed019
 ```yaml
 status: ok
-title: How can we categorize companies of the FemTech market?
+title: How can we categorize companies of the femtech market?
 page: 2/3
 note: We also categorize by buyer because employers, women, clinics and doctors need very different proof, prices and ways to pay.
 t:
@@ -266,12 +266,17 @@ categories:
     PRACTICES'
   description: Practices and hospital units buying tests, devices and care software
   e: 🏥
+- label: 'HEALTH
+
+    PLANS'
+  description: Insurers paying for fertility, maternity and cancer screening care
+  e: 🛡️
 ```
 
 ### ed020
 ```yaml
 status: ok
-title: How can we categorize companies of the FemTech market?
+title: How can we categorize companies of the femtech market?
 page: 3/3
 note: A third useful lens is the business model, because a subscription, an employer contract or an insurance claim earns money very differently.
 t:
@@ -302,6 +307,11 @@ categories:
     SERVICES'
   description: Charging patients or payers for each IVF cycle or care package
   e: 🏥
+- label: 'PHARMA
+
+    PARTNERSHIPS'
+  description: Earning fees from drug makers for data, studies or patient programs
+  e: 🤝
 ```
 
 ### ed021
@@ -363,10 +373,10 @@ t:
 ### ed023
 ```yaml
 status: ok
-title: Which FemTech truths have flipped?
+title: Which femtech truths have flipped?
 note: These are market shifts we see in recent deals, failures and company releases. They are not formal industry rules, but they come back across the evidence.
 t:
-  6: FemTech used to mean free phone apps that track periods
+  6: femtech used to mean free phone apps that track periods
   8: Now most money goes to fertility benefits, menopause care and home tests
   10: Fertility care used to be paid by couples alone
   12: Now many large employers pay for IVF as a staff benefit

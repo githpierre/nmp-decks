@@ -2,7 +2,7 @@
 ```yaml
 status: ok
 section: Startup strategies
-title: Which FemTech startups scored big recently?
+title: Which femtech startups scored big recently?
 page: 1/2
 t:
   12: 2025 (JAN)

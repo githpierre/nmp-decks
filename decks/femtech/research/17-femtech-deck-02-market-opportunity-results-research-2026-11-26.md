@@ -2,11 +2,11 @@
 ```yaml
 status: ok
 section: Market opportunity
-title: When did the FemTech market become real?
+title: When did the femtech market become real?
 t:
   13: '2018'
   12: In 2018, the FDA cleared Natural Cycles for contraception, making a fertility app a regulated medical device
-  8: Before that, cycle tracking apps already existed, and Clue had given the emerging sector its FemTech name in 2016.
+  8: Before that, cycle tracking apps already existed, and Clue had given the emerging sector its femtech name in 2016.
 note: We chose 2018 as a regulatory milestone, not the founding date of women’s health technology.
 sources:
 - claim: Natural Cycles cleared for contraception in 2018

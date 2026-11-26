@@ -1,8 +1,8 @@
-# FemTech market report | ranked slide signals
+# femtech market report | ranked slide signals
 
 **Research cutoff: November 26, 2026.** 13 qualified candidates, including 7 current Market opportunity candidates. All 31 requested formats were screened. Funding-round formats were not researched. Scores are analyst judgments on a 1 to 5 scale, with a maximum total of 20; ties favor Market opportunity and then retain the research order.
 
-Market boundary: the signals concern female-specific health technology, clinical care, payer demand or unmet need. Benefit coverage, waiting lists and health outcomes are adjacent demand indicators, not FemTech revenue. Listed or acquired incumbents are included as market participants where relevant, not classified as eligible startups. Historical pain-point and economics observations are labeled with their actual measurement dates, not the publication date.
+Market boundary: the signals concern female-specific health technology, clinical care, payer demand or unmet need. Benefit coverage, waiting lists and health outcomes are adjacent demand indicators, not femtech revenue. Listed or acquired incumbents are included as market participants where relevant, not classified as eligible startups. Historical pain-point and economics observations are labeled with their actual measurement dates, not the publication date.
 
 Source quotations are short verbatim excerpts, or exact row/cell text with normalized whitespace and table separators where the original source presents numbers in a table. Some source dates are month-only when the exact day was not established; access dates for live pages are explicitly marked. No Google search-volume data is used. Money values are in US dollars.
 
@@ -253,7 +253,7 @@ data:
   - {"label": "2022", "value": 3773, "unit": "reported cases", "date": "2022-12"}
   - {"label": "2023", "value": 3878, "unit": "reported cases", "date": "2023-12"}
   - {"label": "2024 (provisional)", "value": 3941, "unit": "reported cases", "date": "2024-12"}
-note: "We use the CDC September 24, 2025 provisional STI surveillance national congenital syphilis count series for 2020 through 2024; the last year is provisional. The signal concerns maternal transmission and prenatal care, not FemTech sales, and the increase is not a count of tests performed."
+note: "We use the CDC September 24, 2025 provisional STI surveillance national congenital syphilis count series for 2020 through 2024; the last year is provisional. The signal concerns maternal transmission and prenatal care, not femtech sales, and the increase is not a count of tests performed."
 scores: {"surprise": 4, "importance": 5, "clarity": 5, "durability": 4}
 fresh: {"period": "year", "end": "2024-12"}
 sources:
@@ -318,11 +318,11 @@ The audit records why a format is retained or excluded. A rejection means that t
 | announced-vs-built | 0 | UK women’s health hubs and fertility clinic rollout announcements did not yield a verified large like-for-like shortfall against the original target. |
 | idle-capacity | 0 | Clinic closures and low patient volume do not establish that at least 30% of measured capacity is idle. |
 | promise-tracker | 0 | No female-specific product launch, approval or clinic target with three verified slips of the same milestone located. |
-| lobbying-spend | 0 | No matched federal LD-2 spending series establishing a jump or striking FemTech lobbying amount verified in this pass. |
+| lobbying-spend | 0 | No matched federal LD-2 spending series establishing a jump or striking femtech lobbying amount verified in this pass. |
 | cost-threshold | 0 | IVF drug-price and affordability announcements were considered, but no 4 to 10 comparable sourced prices crossing a defined reference were verified. |
 | penetration-curve | 0 | Self-sampling administrative data is not a survey comparison against earlier technology; contraceptive survey evidence lacks a suitable older-technology curve. |
 | adoption-race | 0 | Flo, Natural Cycles, Maven and Progyny report different definitions of users, eligible lives and clients; no verified matched time-to-milestone acceleration. This priority format is not forced. |
-| earnings-mentions | 0 | No accessible and comparable FactSet or IoT Analytics quarterly FemTech mention series showing at least 3x. |
+| earnings-mentions | 0 | No accessible and comparable FactSet or IoT Analytics quarterly femtech mention series showing at least 3x. |
 | real-world-vs-funding | 0 | The required internal quarterly funding series was not supplied. Not independently reconstructed from rounds. |
 | incumbent-crash | 0 | No verified event-aligned quarterly close series showing at least a 50% decline for an in-scope incumbent. |
 | fallen-star | 0 | Femasys has experienced a severe share-price decline, but the once-famous market-star criterion was not established; no split-adjusted qualifying case retained. |

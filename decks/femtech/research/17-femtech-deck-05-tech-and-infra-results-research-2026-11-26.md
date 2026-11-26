@@ -138,7 +138,7 @@ sources:
 ```yaml
 status: ok
 section: Tech and infra
-title: Where does 80% of FemTech value sit?
+title: Where does 80% of femtech value sit?
 t:
   9: '💰 💰 💰 💰 💰 💰 💰 💰 💰
 
@@ -204,7 +204,7 @@ t:
   8: '2024 - 2025
 
 
-    FemTech expanded into more specific care pathways. Teal won FDA authorization for at-home cervical screening in 2025.'
+    femtech expanded into more specific care pathways. Teal won FDA authorization for at-home cervical screening in 2025.'
   9: 'TODAY
 
 
@@ -590,7 +590,7 @@ sources:
 ```yaml
 status: ok
 section: Tech and infra
-title: Which bold bets could reshape FemTech?
+title: Which bold bets could reshape femtech?
 t:
   9: HOME HORMONE TESTS
   12: AI FERTILITY CARE

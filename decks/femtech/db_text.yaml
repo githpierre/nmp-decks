@@ -6,7 +6,7 @@ ed160:
   9: '{db.big_n} rounds of $100M or more made up about {db.big_pct}% of all the capital raised in the market since 2024'
   10: 'The {db.big1_amt} {db.big1_stage} round of {db.big1_name} is the biggest since 2024, ahead of the {db.big2_amt} round of {db.big2_name}'
   11: Seed was the most common round, with {db.seed} of the {db.n} rounds, ahead of Series A with {db.series_a} and Series B with {db.series_b}
-  note: We drew these insights from our tracker of {db.n} FemTech equity rounds announced since January 2024, worth about {db.total}
+  note: We drew these insights from our tracker of {db.n} femtech equity rounds announced since January 2024, worth about {db.total}
 ed162:
   6: 'BEFORE
 
@@ -17,9 +17,9 @@ ed162:
 
 
 
-    Since 2024, {db.n} rounds raised {db.total}. {db.cat1} takes the biggest share, and menopause care is rising.'
-  note: We used our tracker of FemTech equity rounds, complete from January 2024, and company releases and the press
+    Since 2024, {db.n} rounds raised {db.total}. {db.cat1} takes the biggest share, and midlife care has gained share since 2025.'
+  note: We used our tracker of femtech equity rounds, complete from January 2024, and company releases and the press
 ed158:
   note:
-  - We add up the disclosed equity rounds of FemTech startups we track, by half-year
+  - We add up the disclosed equity rounds of femtech startups we track, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero

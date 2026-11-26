@@ -2,7 +2,7 @@
 ```yaml
 status: ok
 section: Startup killers
-title: Which FemTech startups stumbled lately?
+title: Which femtech startups stumbled lately?
 page: 1/2
 t:
   12: 2022 (OCT)
@@ -49,7 +49,7 @@ sources:
 ```yaml
 status: ok
 section: Startup killers
-title: Which FemTech startups stumbled lately?
+title: Which femtech startups stumbled lately?
 page: 2/2
 t:
   13: 2025 (JAN)
@@ -104,7 +104,7 @@ sources:
 ```yaml
 status: ok
 section: Startup killers
-title: 'Which FemTech companies
+title: 'Which femtech companies
 
   have shown warning signs?'
 signs:
@@ -239,7 +239,7 @@ sources:
 ```yaml
 status: ok
 section: Startup killers
-title: Why do FemTech startups fail?
+title: Why do femtech startups fail?
 t:
   2: "CASH\nRUNWAY"
   11: "CLINIC\nCOSTS"
@@ -289,7 +289,7 @@ sources:
 ```yaml
 status: ok
 section: Startup killers
-title: What sets FemTech survivors apart from failures?
+title: What sets femtech survivors apart from failures?
 rows:
 - lesson: Prove demand before opening clinics
   explanation: Expand physical sites only when patient volume supports fixed costs.

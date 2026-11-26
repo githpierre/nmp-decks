@@ -233,7 +233,7 @@ sources:
 ### ed175
 ```yaml
 status: ok
-title: Which FemTech startups stand out?
+title: Which femtech startups stand out?
 section: Top players
 t:
   19: MIDI HEALTH
@@ -437,7 +437,7 @@ sources:
 ### ed182
 ```yaml
 status: ok
-title: Who leads each FemTech link, from tracking to treatment?
+title: Who leads each femtech link, from tracking to treatment?
 section: Top players
 t:
   11: TRACKING
@@ -699,7 +699,7 @@ sources:
 ### ed188
 ```yaml
 status: ok
-title: Which FemTech startups passed $1B?
+title: Which femtech startups passed $1B?
 section: Top players
 t:
   7: MAVEN CLINIC
@@ -796,7 +796,7 @@ sources:
 ### ed190
 ```yaml
 status: ok
-title: "How fast are FemTech\n\n    startups growing?"
+title: "How fast are femtech\n\n    startups growing?"
 section: Top players
 t:
   12: $2B

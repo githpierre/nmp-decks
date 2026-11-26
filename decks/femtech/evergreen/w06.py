@@ -1,5 +1,5 @@
 import yaml
-out=["# FemTech, chapter 06 Value creation (evergreen, written by Claude, 26 Nov 2026)\n"]
+out=["# femtech, chapter 06 Value creation (evergreen, written by Claude, 26 Nov 2026)\n"]
 def add(i,d): out.append(f"### {i}\n```yaml\n"+yaml.safe_dump(d,allow_unicode=True,sort_keys=False,width=1000)+"```\n")
 L={7:"PERIOD TRACKING",9:"OVULATION TESTS",11:"Video visits",13:"WEARABLE DATA",15:"PILLS BY MAIL",17:"HEALTH CONTENT",19:"BREAST PUMPS",21:"HORMONE TESTS"}
 add("ed101",{"status":"ok","title":"What's commoditized today in the market?",

@@ -1,4 +1,4 @@
-# FemTech, chapter 04 Pain points (evergreen, written by Claude, 26 Nov 2026)
+# femtech, chapter 04 Pain points (evergreen, written by Claude, 26 Nov 2026)
 
 ### ed054
 ```yaml
@@ -211,7 +211,7 @@ t:
     GOAL
 
 
-    Find the pains that matter most in FemTech, and who feels them.'
+    Find the pains that matter most in femtech, and who feels them.'
   7: '🏷️
 
     CATEGORIES
@@ -271,7 +271,7 @@ t:
 ### ed063-s1
 ```yaml
 status: ok
-title: Who needs FemTech?
+title: Who needs femtech?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check women's health products.
 t:
   27: LARGE EMPLOYERS
@@ -405,7 +405,7 @@ t:
 ### ed063-s2
 ```yaml
 status: ok
-title: Who needs FemTech?
+title: Who needs femtech?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check women's health products.
 t:
   27: WOMEN IN MIDLIFE
@@ -539,7 +539,7 @@ t:
 ### ed063-s3
 ```yaml
 status: ok
-title: Who needs FemTech?
+title: Who needs femtech?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check women's health products.
 t:
   27: IVF CLINICS
@@ -673,7 +673,7 @@ t:
 ### ed063-s4
 ```yaml
 status: ok
-title: Who needs FemTech?
+title: Who needs femtech?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check women's health products.
 t:
   27: EXPECTANT MOTHERS
@@ -807,7 +807,7 @@ t:
 ### ed063-s5
 ```yaml
 status: ok
-title: Who needs FemTech?
+title: Who needs femtech?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check women's health products.
 t:
   27: OB-GYN PRACTICES

@@ -1,18 +1,18 @@
 import yaml
-out=["# FemTech, chapter 01 Market definition (evergreen, written by Claude, 26 Nov 2026)\n"]
+out=["# femtech, chapter 01 Market definition (evergreen, written by Claude, 26 Nov 2026)\n"]
 def add(i,d): out.append(f"### {i}\n```yaml\n"+yaml.safe_dump(d,allow_unicode=True,sort_keys=False,width=1000)+"```\n")
-add("ed006",{"status":"ok","title":"What is the FemTech market, in simple terms?",
- "text":"FemTech is the market for companies that build apps, tests, devices, care and drugs around women's biology, from periods and fertility to pregnancy and menopause",
+add("ed006",{"status":"ok","title":"What is the femtech market, in simple terms?",
+ "text":"Femtech is the market for companies that build apps, tests, devices, care and drugs around women's biology, from periods and fertility to pregnancy and menopause",
  "note":"We use a conversational definition here because it makes the boundary with general health apps, which serve women without being built around their biology, easier to see.","icon_tl":"🩺"})
 add("ed007p",{"status":"no_data","reason":"taken from the live product page"})
-add("ed008",{"status":"ok","title":"What markets are often confused with FemTech?",
+add("ed008",{"status":"ok","title":"What markets are often confused with femtech?",
  "t":{12:"DIGITAL HEALTH",13:"FEMTECH",14:"WELLNESS APPS",
- 7:"FemTech differs from both because each product is built around a female condition or life stage, and must prove it works",
+ 7:"Femtech differs from both because each product is built around a female condition or life stage, and must prove it works",
  10:"Digital health covers all virtual care and health software, even when the same tool serves men and women alike",
- 11:"Wellness apps track sleep, fitness or mood for anyone, while FemTech treats cycles, fertility, pregnancy or menopause"}})
-add("ed009",{"status":"ok","title":"What markets does FemTech sit between?",
+ 11:"Wellness apps track sleep, fitness or mood for anyone, while femtech treats cycles, fertility, pregnancy or menopause"}})
+add("ed009",{"status":"ok","title":"What markets does femtech sit between?",
  "t":{8:"DIGITAL\nHEALTH",9:"MEDICAL\nDEVICES",10:"EMPLOYEE\nBENEFITS",
- 13:"FemTech sits between three markets: it uses the apps and virtual care of digital health, it builds tests and devices that need FDA review, and it is often paid for by employers as a staff benefit."}})
+ 13:"Femtech sits between three markets: it uses the apps and virtual care of digital health, it builds tests and devices that need FDA review, and it is often paid for by employers as a staff benefit."}})
 add("ed010",{"status":"ok","title":"And what if we break it down in smaller markets?",
  "t":{21:"FEMTECH",5:"FERTILITY\nCARE",8:"PREGNANCY\nCARE",11:"HORMONAL\nHEALTH",14:"MIDLIFE\nCARE",17:"WOMEN'S\nCANCER TESTS",
  7:"It is in the market when a benefit, clinic or test helps a person conceive a baby",
@@ -41,22 +41,22 @@ add("ed014",{"status":"ok","title":"When and where is value created in the marke
  {"e":"🩻","t":"When AI helps a radiologist find a small breast tumor on a mammogram earlier"},
  {"e":"🔬","t":"When a lab tool raises the odds that one IVF embryo leads to a healthy birth"},
  {"e":"🔒","t":"When women trust a product enough to share health data that improves their own care"}]})
-add("ed015",{"status":"ok","title":"What are some common myths about FemTech?","page":"1/2",
+add("ed015",{"status":"ok","title":"What are some common myths about femtech?","page":"1/2",
  "note":"We focused on myths that come back often in investor, founder and press debates. The counters describe what sales, approvals and failures have shown so far.",
- "t":{9:"FemTech is mostly period-tracking apps",7:"Progyny expects about $1.4B of revenue from fertility benefits in 2026, and Hologic sold about $1.5B of breast health products in fiscal 2025",
+ "t":{9:"femtech is mostly period-tracking apps",7:"Progyny expects about $1.4B of revenue from fertility benefits in 2026, and Hologic sold about $1.5B of breast health products in fiscal 2025",
  12:"Women's health is a small niche market",10:"Blackstone and TPG bought Hologic, a women's health group, for up to $18B in April 2026, one of the largest health deals of the year",
  15:"Fertility care is only for wealthy couples",13:"Employers now pay for IVF through Progyny, Carrot or Maven, and Carrot opened its benefit to 140,000 workers through one benefits plan",
  0:"Menopause care is too hard to sell well",16:"Midi Health's virtual menopause visits are now covered by insurers for over 45 million women, and new drugs for hot flashes reach pharmacies"}})
-add("ed016",{"status":"ok","title":"What are some common myths about FemTech?","page":"2/2",
+add("ed016",{"status":"ok","title":"What are some common myths about femtech?","page":"2/2",
  "note":"We focused on myths that come back often in investor, founder and press debates. The counters describe what sales, approvals and failures have shown so far.",
  "t":{9:"Big funding rounds mean a startup will win",7:"Kindbody was valued at $1.8B in 2023, sought new money at a $600M value a year later and closed or cut services at more clinics in 2026",
  12:"Health data in period apps is always safe",10:"The FTC settled with Flo in 2021 over sharing health data with Facebook and Google, and Flo agreed to settle a class action in July 2025",
  15:"Women's health devices are easy money",13:"Elvie, the maker of wearable breast pumps and pelvic trainers, entered administration and was sold to its rival Willow in March 2025",
  0:"Only small startups bet on women's health",16:"Ferring agreed in October 2026 to buy Gameto, a startup that matures eggs in the lab for IVF, for up to $1.4B including milestones"}})
-add("ed017",{"status":"ok","title":"How mature is FemTech as a market?","score":55,
+add("ed017",{"status":"ok","title":"How mature is femtech as a market?","score":55,
  "text":"The market is real because fertility benefits, wearable pumps, home tests and virtual menopause care sell today, paid by employers, insurers and women. The score stays in the middle because many products are still paid out of pocket, several well-funded startups failed or shrank, and research on women's bodies remains thin.",
  "note":["We rate market maturity with an internal score of products on sale, payer coverage, big buyers and funding.","We set 55/100 because real revenue exists, but coverage stays patchy and several flagships have failed."]})
-add("ed018",{"status":"ok","title":"How can we categorize companies of the FemTech market?","page":"1/3",
+add("ed018",{"status":"ok","title":"How can we categorize companies of the femtech market?","page":"1/3",
  "note":"We use the six solution groups of our company database, from fertility care to tests that find women's cancers early.",
  "t":{25:"Here, we categorize by type of solution"},"categories":[
  {"label":"FERTILITY\nCARE","description":"Benefits, clinics, apps and tests that help people have a baby","e":"🧬"},
@@ -65,22 +65,24 @@ add("ed018",{"status":"ok","title":"How can we categorize companies of the FemTe
  {"label":"PELVIC\nHEALTH","description":"Devices and care for the pelvic floor, endometriosis and sexual health","e":"🛡️"},
  {"label":"MIDLIFE\nCARE","description":"Virtual clinics, drugs and tools for perimenopause and menopause","e":"🌡️"},
  {"label":"WOMEN'S\nCANCER TESTS","description":"Tests and imaging that find breast and gynecological cancers early","e":"🔬"}]})
-add("ed019",{"status":"ok","title":"How can we categorize companies of the FemTech market?","page":"2/3",
+add("ed019",{"status":"ok","title":"How can we categorize companies of the femtech market?","page":"2/3",
  "note":"We also categorize by buyer because employers, women, clinics and doctors need very different proof, prices and ways to pay.",
  "t":{25:"Here, we categorize by the type of buyer"},"categories":[
  {"label":"LARGE\nEMPLOYERS","description":"Companies paying for fertility, maternity and menopause benefits","e":"💼"},
  {"label":"WOMEN IN\nMIDLIFE","description":"Women of about 40 to 60 paying for menopause care and treatments","e":"🧑"},
  {"label":"IVF\nCLINICS","description":"Fertility clinics buying lab tools, software and patient services","e":"🔬"},
  {"label":"EXPECTANT\nMOTHERS","description":"Women buying apps, monitors and care during and after pregnancy","e":"🩺"},
- {"label":"OB-GYN\nPRACTICES","description":"Practices and hospital units buying tests, devices and care software","e":"🏥"}]})
-add("ed020",{"status":"ok","title":"How can we categorize companies of the FemTech market?","page":"3/3",
+ {"label":"OB-GYN\nPRACTICES","description":"Practices and hospital units buying tests, devices and care software","e":"🏥"},
+ {"label":"HEALTH\nPLANS","description":"Insurers paying for fertility, maternity and cancer screening care","e":"🛡️"}]})
+add("ed020",{"status":"ok","title":"How can we categorize companies of the femtech market?","page":"3/3",
  "note":"A third useful lens is the business model, because a subscription, an employer contract or an insurance claim earns money very differently.",
  "t":{25:"Here, we categorize by business model"},"categories":[
  {"label":"CONSUMER\nSUBSCRIPTIONS","description":"Charging women a monthly or yearly fee for an app or a program","e":"📱"},
  {"label":"EMPLOYER\nCONTRACTS","description":"Charging companies per employee or per cycle for a staff benefit","e":"💼"},
  {"label":"INSURANCE\nBILLING","description":"Billing health plans for each visit, test or device, like a clinic","e":"🧾"},
  {"label":"PRODUCT\nSALES","description":"Selling a test, pump or device once, online or through pharmacies","e":"📦"},
- {"label":"CLINIC\nSERVICES","description":"Charging patients or payers for each IVF cycle or care package","e":"🏥"}]})
+ {"label":"CLINIC\nSERVICES","description":"Charging patients or payers for each IVF cycle or care package","e":"🏥"},
+ {"label":"PHARMA\nPARTNERSHIPS","description":"Earning fees from drug makers for data, studies or patient programs","e":"🤝"}]})
 add("ed021",{"status":"ok","title":"What do top companies do in this market?",
  "note":"Other companies could also make the top eight. We chose startups with the most users, funding, approvals or big partners to show the range of the market.",
  "t":{8:"FLO",16:"GAMETO",7:"Its cycle and health app reached 80 million monthly users in 2026, after a $200M round",
@@ -101,9 +103,9 @@ add("ed022",{"status":"ok","title":"What is rare and that people happily pay for
  11:"🧬\nFemale health data, because few studies have tracked women's bodies for years",
  12:"🔬\nSkilled IVF labs, because embryologists are scarce and lab errors cost patients",
  13:"🧾\nInsurance billing, because care billed to health plans scales faster than self-pay"}})
-add("ed023",{"status":"ok","title":"Which FemTech truths have flipped?",
+add("ed023",{"status":"ok","title":"Which femtech truths have flipped?",
  "note":"These are market shifts we see in recent deals, failures and company releases. They are not formal industry rules, but they come back across the evidence.",
- "t":{6:"FemTech used to mean free phone apps that track periods",8:"Now most money goes to fertility benefits, menopause care and home tests",
+ "t":{6:"femtech used to mean free phone apps that track periods",8:"Now most money goes to fertility benefits, menopause care and home tests",
  10:"Fertility care used to be paid by couples alone",12:"Now many large employers pay for IVF as a staff benefit",
  14:"Menopause was rarely discussed at work or by doctors",16:"Now virtual menopause clinics are covered by large US insurers",
  18:"Birth control pills used to need a doctor's prescription",20:"Now Opill is sold without a prescription in US stores and online",

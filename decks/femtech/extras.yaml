@@ -1,5 +1,5 @@
 - after: ed104
-  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  link: 'ed104 note: value comes from data, care teams and safe data, whether women or their employers pay for them'
   slide:
     id: pp_s06
     type: pp_value
@@ -48,3 +48,87 @@
     note:
     - We placed each company by how its business model works, from pricing pages and filings
     - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed048
+  link: 'ed048, page 1/2: the three other categories of the donut ed047p'
+  slide:
+    id: ed048-2
+    type: x/behind_these_categories
+    section: Market size
+    title: What is behind these categories?
+    page: 2/2
+    t:
+      5: 'MIDLIFE
+
+        CARE'
+      8: 'PELVIC
+
+        HEALTH'
+      10: 'WOMEN''S
+
+        CANCER TESTS'
+      11: 🌡️
+      4: Virtual clinics like Midi and Alloy treat perimenopause and menopause online and prescribe hormone therapy
+      12: 🛡️
+      7: Devices, drugs and virtual care treat bladder leaks, pelvic floor weakness, endometriosis and sexual health
+      13: 🔬
+      9: Home kits like Teal Health screen for cervical cancer, and AI like Clairity reads breast cancer risk on mammograms
+      14: ''
+      15: ''
+      16: ''
+      17: ''
+      18: ''
+      19: ''
+    holes_ok: true
+    note: We follow the six categories of the donut, from fertility care to tests that find women's cancers early
+- after: ed199p
+  link: ed199p « Which femtech companies have shown warning signs? », followed by what the survivors do instead
+  slide:
+    id: xs_survivors
+    type: pp_survivors
+    section: Startup killers
+    title: 'What sets femtech survivors
+
+      apart from failures?'
+    rows:
+    - failed_company: FemTec Health
+      ini: F
+      src: media/ini/femtec-health.png
+      why_it_failed: Ran out of cash and wound down in 2023
+      explanation: Debt-funded buys of other firms left unpaid bills
+      lesson: Grow by buying only with cash in hand
+    - failed_company: Kindbody
+      ini: K
+      src: ../../assets/logos/kindbody.png
+      why_it_failed: Sought money at $600M after a $1.8B price
+      explanation: Owning clinics tied up cash in rent and staff
+      lesson: Partner with clinics before owning them
+    - failed_company: Elvie
+      ini: E
+      src: ../../assets/logos/elvie.png
+      why_it_failed: Entered administration in March 2025
+      explanation: Selling pumps meant costly stock and thin margins
+      lesson: Pair devices with insurer payment early
+    - failed_company: Apricity Fertility
+      ini: A
+      src: media/ini/apricity-fertility.png
+      why_it_failed: Closed all its clinics in January 2025
+      explanation: Running its own IVF clinics proved too costly
+      lesson: Prove clinic economics before expanding
+    - failed_company: Premom
+      ini: P
+      src: ../../assets/logos/premom.png
+      why_it_failed: Paid a $100K federal privacy penalty
+      explanation: The FTC said it shared health data with ad firms
+      lesson: Never let health data reach ad networks
+    note:
+    - We compared femtech companies that failed or hit a major setback with the ones that survived
+    - We used company statements and the press, and all the sources we used are listed at the end of the report
+  sources:
+  - claim: FemTec Health wound down after running out of money
+    url: https://www.axios.com/2023/05/23/femtec-health-winds-down
+    date: '2023-05-23'
+    quote: The women's health startup FemTec Health is out of money and winding down operations
+  - claim: FemTec did not pay vendors after raising $38M
+    url: https://www.axios.com/pro/health-tech-deals/2022/10/06/femtec-health-struggles-layoffs-debt-acquisitions
+    date: '2022-10-06'
+    quote: After raising $38M, FemTec isn't paying vendors

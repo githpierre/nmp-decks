@@ -1,5 +1,5 @@
 import yaml
-out=["# FemTech, chapter 04 Pain points (evergreen, written by Claude, 26 Nov 2026)\n"]
+out=["# femtech, chapter 04 Pain points (evergreen, written by Claude, 26 Nov 2026)\n"]
 def add(i,d):
     out.append(f"### {i}\n```yaml\n"+yaml.safe_dump(d,allow_unicode=True,sort_keys=False,width=1000)+"```\n")
 add("ed054",{"status":"ok","title":"What are the pain points of yesterday vs. today?",
@@ -36,7 +36,7 @@ add("ed059",{"status":"ok","title":"Which problems are startups going after?",
 add("ed060",{"status":"ok","title":"How will we proceed?",
  "note":"We break the market down before scoring because the same product creates very different value and risk for an employer, a clinic or a woman who pays herself.",
  "t":{9:"😣\nPAIN POINTS\n\nWe list each group's main pains and score them to rank them.",
- 6:"🎯\nGOAL\n\nFind the pains that matter most in FemTech, and who feels them.",
+ 6:"🎯\nGOAL\n\nFind the pains that matter most in femtech, and who feels them.",
  7:"🏷️\nCATEGORIES\n\nWe split the market by buyer, because who pays and what they need differ.",
  8:"🧑‍🤝‍🧑\nSEGMENTS\n\nFor each buyer, we list the people who decide, pay, use and check products."}})
 SEG=[("LARGE EMPLOYERS","Large employers","LARGE\nEMPLOYERS","Companies that pay for fertility, maternity and menopause benefits for their staff","Companies that pay for fertility, maternity\nand menopause benefits for their staff"),
@@ -89,7 +89,7 @@ for k,(cap,name,_,_,intro) in enumerate(SEG,1):
     add(f"ed062-s{k}",{"status":"ok","t":{6:"PAIN POINTS",3:cap,5:intro}})
     R=ROLES[k-1]; t={27:cap}
     for (lab,ic,txt),kl,ki,kt in zip(R,[5,8,11,14,17],[20,21,22,23,24],[7,10,13,16,19]): t[kl]=lab; t[ki]=ic; t[kt]=txt
-    add(f"ed063-s{k}",{"status":"ok","title":"Who needs FemTech?","note":"We focus on the five groups inside these buyers that choose, pay for, use and check women's health products.","t":t})
+    add(f"ed063-s{k}",{"status":"ok","title":"Who needs femtech?","note":"We focus on the five groups inside these buyers that choose, pay for, use and check women's health products.","t":t})
     t={13:cap}; t.update({14+i:p for i,p in enumerate(PAINS[k-1])})
     add(f"ed064-s{k}",{"status":"ok","title":"What are these customers' strongest pain points?","note":"We prioritized problems that recur in company filings, health surveys, studies and specialist reports on women's health.","t":t})
     add(f"ed065-s{k}",{"status":"ok","title":"Which pains deserve attention first?","subtitle":name,"icons":[r[1] for r in R],

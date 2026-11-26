@@ -2,9 +2,9 @@
 ```yaml
 status: ok
 section: Market size
-title: What counts as FemTech, and what doesn’t?
+title: What counts as femtech, and what doesn’t?
 t:
-  7: We define FemTech as technology-enabled products and services addressing women’s reproductive health and other female-specific healthcare needs.
+  7: We define femtech as technology-enabled products and services addressing women’s reproductive health and other female-specific healthcare needs.
   8: We include cycle and fertility care, contraception, pregnancy and postpartum, menopause, pelvic health and female-specific diagnostics.
   9: We exclude general health and fitness apps, broad medical devices and wellness products not designed for female-specific care.
 note: We use a female-specific product and care-pathway definition rather than a general women’s consumer market.
@@ -106,7 +106,7 @@ t:
   6: We cannot audit every private company’s annual sales.
   3: We average the two narrower forecasts to get about $10B in 2026.
   2: We use this as a provisional proxy rather than an audited total.
-  0: We conclude that the narrower FemTech market is around $10B today.
+  0: We conclude that the narrower femtech market is around $10B today.
 comment: 'Unrounded midpoint: (9.78 + 10.67)/2 = 10.225 billion dollars. Public anchors refer to different years and are not used as a summed market size.'
 note: We average Mordor and Fortune, not the wider estimates. The result is a provisional commercial proxy, not a reconciled total for every female-specific condition.
 sources:
@@ -140,7 +140,7 @@ sources:
 ```yaml
 status: ok
 section: Market size
-title: How much is FemTech worth today?
+title: How much is femtech worth today?
 t:
   6: $10B
   8: We use a provisional $10B estimate for 2026, averaging Mordor and Fortune. Wider studies include general health and consumer products. The full female-specific scope is not measured separately.
@@ -212,7 +212,7 @@ sources:
 ```yaml
 status: ok
 section: Market size
-title: Where in the world is FemTech money spent?
+title: Where in the world is femtech money spent?
 regions:
   na:
     pct: 45.7
@@ -329,7 +329,7 @@ sources:
 ```yaml
 status: ok
 section: Market size
-title: What is a realistic CAGR for the FemTech market?
+title: What is a realistic CAGR for the femtech market?
 t:
   15: BEST CASE ≈ 19%
   17: '≈15%

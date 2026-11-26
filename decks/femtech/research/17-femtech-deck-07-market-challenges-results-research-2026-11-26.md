@@ -133,7 +133,7 @@ sources:
 ### ed136
 ```yaml
 status: ok
-title: What slows FemTech adoption down?
+title: What slows femtech adoption down?
 section: Market challenges
 t:
   6: "\U0001F4B3\n\n    Many employers still do not cover IVF, even with health insurance"
@@ -214,7 +214,7 @@ sources:
 ### iv_fda
 ```yaml
 status: no_data
-title: What does it take to bring a FemTech product to market?
+title: What does it take to bring a femtech product to market?
 comment: The five stages can be identified, but comparable typical costs and durations for each stage across devices, tests and care platforms are not publicly established in the reviewed sources.
 ```
 
@@ -263,7 +263,7 @@ sources:
 ### iv_safety
 ```yaml
 status: ok
-title: What could go wrong with FemTech?
+title: What could go wrong with femtech?
 section: Market challenges
 t:
   6: "DATA SHARING\n\n\n    Flo settled FTC allegations that it shared sensitive fertility data with third parties despite privacy promises."
@@ -333,7 +333,7 @@ sources:
 ### ed143
 ```yaml
 status: ok
-title: How likely is each FemTech risk?
+title: How likely is each femtech risk?
 section: Market challenges
 t:
   38: ≈15%
