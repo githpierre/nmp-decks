@@ -29,7 +29,7 @@ INV_TAIL = re.compile(r'(\s*,?\s+(Management(\s*&\s*Research)?(\s+Company)?|Priv
 def inv_short(x):   # « Fidelity Management & Research Company » -> « Fidelity », « Lightspeed Venture Partners » -> « Lightspeed »: the name people use (Longevity, 18 Nov 2026: names too long for the investor slide)
     if x.strip() in INV_ALIAS: return INV_ALIAS[x.strip()]
     y = INV_TAIL.sub('', x).strip(); return y if len(y) >= 3 and y.lower() not in GENERIC_INV else x
-INV_ALIAS = {'U.S. Venture Partners': 'USVP', 'RA Capital Management': 'RA Capital', 'Johnson & Johnson Innovation – JJDC': 'Johnson & Johnson Innovation'}   # « U.S. Venture Partners » became « U.S. » (MedTech, 24 Nov 2026)
+INV_ALIAS = {'QDNL Participations': 'QDNL', 'U.S. Venture Partners': 'USVP', 'RA Capital Management': 'RA Capital', 'Johnson & Johnson Innovation – JJDC': 'Johnson & Johnson Innovation'}   # « U.S. Venture Partners » became « U.S. » (MedTech, 24 Nov 2026)
 GENERIC_INV = {'u.s.', 'us', 'blockchain', 'crypto', 'digital', 'global', 'general', 'growth', 'venture', 'first', 'new', 'tech', 'future'}   # « Blockchain Capital » stays whole: « led by Blockchain » reads as a technology (Stablecoin payments, 22 Nov 2026)
 CO_TAIL = re.compile(r'\s+(Biosciences|Pharmaceuticals|Therapeutics|Technologies|Biotechnology|Biotechnologies)$', re.I)
 def co_short(n): return re.sub(r'\s+Biosciences$', ' Bio', n) if ' ' not in n.rsplit(' ', 1)[0] and n.endswith('Biosciences') else (CO_TAIL.sub('', n) or n)   # « Aeovian Pharmaceuticals » -> « Aeovian » on the narrow investor slide
@@ -41,7 +41,7 @@ def stage(r):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('handle'); ap.add_argument('--name'); ap.add_argument('--today', default='2026-11-12')
+    ap = argparse.ArgumentParser(); ap.add_argument('handle'); ap.add_argument('--name'); ap.add_argument('--today', default=__import__('datetime').date.today().isoformat())   # was a fixed 2026-11-12: rebuild.sh passes no date, so the « last twelve months » window went stale (Quantum sensing, 27 Nov 2026)
     a = ap.parse_args(); H, N, today = a.handle, a.name, a.today
     b = g.Base(); import startup_status as _ss   # startups only: the base keeps non-startups as history (Lanserhof on Longevity, 18 Nov 2026)
     M = {m['company_id']: m for m in b.markets[H] if _ss.table_startup_base(b, m['company_id'])[0]}
@@ -159,8 +159,9 @@ def main():
     def raises(rs, n=4):
         out = []
         for r in sorted([r for r in rs if r['amt'] > 0], key=lambda r: -r['amt'])[:n]:   # an undisclosed round is not a « biggest round »: it drew a $0M bar (Koloma, Natural hydrogen, 21 Nov 2026)
-            q = (int(r['date'][5:7]) - 1) // 3 + 1
-            out.append(dict(name=r['name'], amt=int(r['amt']), date=f"Q{q} {r['date'][:4]}", stage=stage(r) or 'Equity'))
+            # a date known only to the year (« 2022 ») shows the year alone, no quarter (Infleqtion, Quantum sensing, 27 Nov 2026)
+            d = f"Q{(int(r['date'][5:7]) - 1) // 3 + 1} {r['date'][:4]}" if len(r['date']) >= 7 else r['date'][:4]
+            out.append(dict(name=r['name'], amt=int(r['amt']), date=d, stage=stage(r) or 'Equity'))
         return out
     D['ed165p'] = dict(rounds=raises([r for r in R if r['date'] >= year_ago]), note=[f'We listed the biggest equity rounds raised by {N} startups over the last twelve months',
                        'We used company announcements and the press, and all our sources are at the end of the report'])

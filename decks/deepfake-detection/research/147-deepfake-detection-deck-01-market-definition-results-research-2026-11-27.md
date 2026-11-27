@@ -85,8 +85,8 @@ t:
   24: 'Security Operations
 
     Center'
-  17: It is the group behind Content Credentials, a signed record of where media came from
-  13: It is the detection of a fake face or mask shown to a camera during a selfie check
+  17: It is a check that a new user is who they claim to be, often a selfie and an ID
+  13: It is the group behind Content Credentials, a signed record of where media came from
   21: It is the team that watches company systems and stops attacks, often the buyer here
   11: PAD
   19: IDV
@@ -100,8 +100,8 @@ t:
   28: 'Area Under
 
     the Curve'
-  9: It is the identity check a bank must run on each new client before opening an account
-  4: It is a check that a new user is who they claim to be, often a selfie and an ID
+  9: It is the detection of a fake face or mask shown to a camera during a selfie check
+  4: It is the identity check a bank must run on a new client before opening an account
   25: It is a score from 0.5 to 1 that shows how well a detector separates real and fake media
 ```
 

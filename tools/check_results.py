@@ -44,7 +44,8 @@ for f in sys.argv[2:]:
         # YES / NO written without quotes are read as true / false by YAML 1.1 (AI market research, 27 Nov 2026: « FALSE » on the ownership grid)
         P += [f'{sid} {k} | YES or NO without quotes was read as {v}: write it in quotes' for k, v in dt.items() if isinstance(v, bool)]
         P += [f'{sid} {k} | one-word label where the model has two lines: add a second word | {v}' for k, v in dt.items()
-              if isinstance(v, str) and '\n' in str(mt.get(k, mt.get(str(k), ''))) and len(v.split()) == 1 and v.strip() and v == v.upper() and v.strip().isalpha()]
+              if not (sid.split('-')[0] in ('ed062', 'ed106') and k == 3)   # the import writes the segment name there (Quantum sensing: CHIPMAKERS)
+              and isinstance(v, str) and '\n' in str(mt.get(k, mt.get(str(k), ''))) and len(v.split()) == 1 and v.strip() and v == v.upper() and v.strip().isalpha()]
         # the reference market's name left in a text (MedTech, 23 Nov 2026: « Which bold bets could reshape in vivo CAR-T? »): the import
         # already stops it (MODEL MARKET LEFT), but it must fail here, before the import, not show as a REVIEW line
         flat_nsrc = yaml.dump({k: v for k, v in d.items() if k not in ('sources', 'comment')}, allow_unicode=True)
@@ -59,6 +60,11 @@ for f in sys.argv[2:]:
             if isinstance(v, str) and v.isupper() and mv.isupper() and isinstance(prev, str) and not prev.isupper() and (k - 1) in dt \
                     and not re.search(r'\d', v) and v.split()[0].lower() not in str(dt[k - 1]).lower():
                 R.append(f"REVIEW {sid} pair | {v} over: {dt[k - 1]}")
+        # acronyms slide: the text under an acronym is the key 2 below it (CAR 6 -> 4, LNP 11 -> 9). Deepfake detection and Quantum
+        # sensing (27 Nov 2026) put each text two keys too high and showed KYC over the IDV text: print every pair for the eye
+        if sid == 'ed011':
+            for k in (6, 11, 15, 19, 23, 27):
+                if dt.get(k): R.append(f"REVIEW ed011 pair | {dt[k]} ({str(dt.get(k + (2 if k == 6 else 1), '')).replace(chr(10), ' ')}): {dt.get(k - 2)}")
         # stronger: the source whose claim/quote shares a code or figure with the text (REC-4881, IAM1363, $40M) names a company
         # in its link; if that company is another header of the slide, the pair is swapped (AI drug discovery ed175, 20 Nov 2026)
         if d['type'] in ('x/startups_stand_out',):

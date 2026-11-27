@@ -393,3 +393,12 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 ## AI market research, first build (27 Nov 2026)
 - The deck name (`--name`, plan `name`) and the footer label are the market's short name from data/market_labels.txt (« AI market research »), never the long catalog name (« AI-Powered Market Research Industry »): the long one pushed four titles to three lines. CHECK: build.py refuses a footer label not in the list.
 - YES / NO in a research file must be quoted: YAML reads them as true / false and the slide shows « FALSE ». CHECK: check_results prints « YES or NO without quotes ».
+
+## Quantum sensing, first build (27 Nov 2026)
+- A round dated only by its year in the base (« 2022 », Infleqtion's $110M) shows the year alone on the biggest-rounds slides, never a guessed quarter: make_db_slides.py crashed on it. CHECK: make_db_slides.py handles year-only dates.
+- A value with « : » inside in a research file must be quoted, or the YAML does not parse (note of signal 5, Infleqtion backlog). CHECK: research_fix.py of the deck quotes it; the extras writer fails loudly on a block that does not parse.
+- A twin of a live slide whose live text is cut mid-sentence (S07 threats of quantum sensing: « between laboratory demos and ») is completed in the twin, and the live slide is replaced with the twin.
+- On the acronyms slide (ed011) the text under an acronym is the key 2 below it (CAR 6 -> 4, LNP 11 -> 9, LVV 15 -> 13, LD 19 -> 17, CRS 23 -> 21, MRD 27 -> 25). The deepfake and quantum sensing writers put four texts under the wrong acronym (KYC over the IDV text). CHECK: check_results prints « REVIEW ed011 pair » for each acronym, read them before the build.
+- A live twin made by live_from_specs reads the live slide by OCR: names and notes come out wrong (« Ion@Q », « quantum sensini »). Read every text of each twin against the live image before the build.
+- make_db_slides.py takes today's date by default (it was fixed at 12 Nov 2026, so the « last twelve months » window of every rebuild went stale).
+- A round amount in a research text that disagrees with the base (NVision, $55M in its release, $38M in the base) is left out of the text and signaled to Pierre, so the deck never shows two amounts for one round.

@@ -1,5 +1,5 @@
 - after: ed104
-  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  link: ed104 SAFETY APPROVALS, records that win defense orders, and how each model gets paid
   slide:
     id: pp_s06
     type: pp_value
@@ -42,3 +42,389 @@
     note:
     - We placed each company by how its business model works, from pricing pages and filings
     - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xq_qctrl
+    type: kpis
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-11
+    title: 'Q-CTRL raised $290M in November 2026,
+
+      at a value above $1B'
+    items:
+    - value: $290M
+      label: Series C led by Salesforce Ventures in November 2026, for its GPS-free navigator
+    - value: $1B+
+      label: Value of Q-CTRL after the round, the first quantum navigation unicorn
+    - value: $113M
+      label: Its previous round, a Series B of October 2024, then a record in quantum tech
+    why: This is a sign of a hot market because the round is more than 2.5 times the last one, two years later, and it funds sales of a product already on aircraft.
+    note: We used The Quantum Insider and SiliconANGLE of November 12, 2026, and Q-CTRL’s Series B release of October 2024
+  sources:
+  - claim: Q-CTRL raised a $290M Series C led by Salesforce Ventures and became a unicorn
+    url: https://thequantuminsider.com/2026/11/12/q-ctrl-secures-us290-million-series-c-funding-led-by-salesforce-ventures/
+    date: '2026-11-12'
+    quote: Q-CTRL raised US$290 million in a Series C round led by Salesforce Ventures, achieving unicorn status
+  - claim: Q-CTRL is valued at over $1B
+    url: https://siliconangle.com/2026/11/12/quantum-sensor-and-software-maker-q-ctrl-raises-290m-in-funding/
+    date: '2026-11-12'
+    quote: The Australian company is now valued at over $1 billion.
+  - claim: Q-CTRL raised a record $113M Series B in October 2024
+    url: https://thequantuminsider.com/2024/10/08/q-ctrl-sets-global-quantum-technology-fundraising-record-increasing-series-b-to-usd-113m-led-by-gp-bullhound/
+    date: '2024-10-08'
+    quote: Q-CTRL Sets Global Quantum Technology Fundraising Record, Increasing Series B to USD $113M, Led by GP Bullhound
+- after: xq_qctrl
+  link: ed032, signal 2 of the list
+  slide:
+    id: xq_deals
+    type: sx_league
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-07
+    big: '4'
+    h0: BUYER AND TARGET
+    h1: NO.
+    h2: WHEN
+    kicker: WHY IT IS HOT
+    title: 'Thales bid $4.45B for Exail as deals
+
+      in quantum sensing piled up'
+    rows:
+    - n: 1
+      name: IonQ + Vector Atomic
+      src: ../../assets/logos/vector-atomic.png
+      v: Oct 2025
+      what: Clocks and gravity sensors, stock deal
+    - n: 2
+      name: Infleqtion on the NYSE
+      src: ../../assets/logos/infleqtion.png
+      v: Feb 2026
+      what: SPAC listing, $550M raised
+    - n: 3
+      name: Quantum Design + Qnami
+      src: ../../assets/logos/qnami.png
+      v: Jun 2026
+      what: Diamond microscopes, price not disclosed
+    - n: 4
+      name: Thales + Exail
+      src: ../../assets/logos/exail-technologies.png
+      v: Jul 2026
+      what: Cold-atom gravimeters, $4.45B value
+    story: Big buyers now pay for quantum sensing assets, a sign of a hot market. Exail mostly sells drones and navigation, but Thales named quantum sensors as one reason for the deal.
+    note:
+    - We listed four deals signed or closed from October 2025 to July 2026, from releases
+    - and Reuters. The Exail value is an enterprise value of €3.9B, closing expected in 2027
+  sources:
+  - claim: IonQ completed the Vector Atomic acquisition (7 October 2025)
+    url: https://www.hpcwire.com/off-the-wire/ionq-completes-acquisition-of-vector-atomic/
+    date: '2025-10-07'
+    quote: IonQ today announced the successful completion of its acquisition of Vector Atomic
+  - claim: Infleqtion began NYSE trading on 17 February 2026
+    url: https://infleqtion.com/?p=4025
+    date: '2026-02-17'
+    quote: began trading on February 17, 2026, following a business combination with Churchill Capital Corp X
+  - claim: Listing brought over $550M of gross proceeds
+    url: https://infleqtion.com/?p=3460
+    date: '2026-02-17'
+    quote: Infleqtion receiving over $550 million of gross proceeds
+  - claim: Quantum Design acquired Qnami
+    url: https://thequantuminsider.com/2026/06/04/quantum-design-acquires-quantum-sensing-company-qnami/
+    date: '2026-06-04'
+    quote: Quantum Design has acquired quantum sensing company Qnami
+  - claim: Thales deal gives Exail an EV of EUR 3.9B ($4.45B)
+    url: https://live.euronext.com/en/financial-news/thales-expands-fast-growing-sea-drone-warfare-market-exail-deal
+    date: '2026-07-06'
+    quote: gives Exail an enterprise value of €3.9 billion ($4.45 billion).
+  - claim: Thales cites quantum sensors as a deal rationale
+    url: https://optics.org/news/exail-poised-for-thales-takeover
+    date: '2026-07-13'
+    quote: accelerate their development in the field of quantum sensors
+- after: xq_deals
+  link: ed032, signal 3 of the list
+  slide:
+    id: xq_backlog
+    type: x/sig_key_trend
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: quarter
+      end: 2026-09
+    title: 'Infleqtion’s backlog more than doubled
+
+      to $51M in a single quarter'
+    t:
+      9: '22.5'
+      10: JUN 2026
+      12: '51.2'
+      13: SEP 2026
+      15: ×2.3
+      16: WHY IT IS HOT
+      17: 'Signed orders for quantum sensors and clocks now arrive faster than sales, a sign of a hot market. About $36.1M of it is due in 2027.
+
+
+
+        The backlog counts signed contracts not yet delivered, in millions of dollars, not revenue.'
+    vbars:
+    - 22.5
+    - 51.2
+    note: We summed the four delivery buckets of Infleqtion’s 10-Q of June 2026 and used its Q3 2026 results for September
+  sources:
+  - claim: RPO buckets at 30 June 2026 summing to $22.5M
+    url: https://www.sec.gov/Archives/edgar/data/0002007825/000162828026057508/infq-20260630.htm
+    date: '2026-08-17'
+    quote: $ 8.9million , $ 12.5 million, $ 0.2million, and $ 0.9 million from remaining performance obligations
+  - claim: RPO of $51.2M at end of Q3 2026, $36.1M due next year
+    url: https://finimize.com/content/wedbush-sees-infleqtion-rebounding-after-a-q3-miss
+    date: 2026-11
+    quote: $51.2 million, with $36.1 million slated for delivery next year.
+- after: xq_backlog
+  link: ed032, signal 4 of the list
+  slide:
+    id: xq_spoof
+    type: x/sig_key_trend
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-05
+    title: 'Russian GPS spoofing antennas near
+
+      Kaliningrad grew from 3 to 36'
+    t:
+      9: '3'
+      10: EARLY 2025
+      12: '36'
+      13: MAY 2026
+      15: ×12
+      16: WHY IT IS HOT
+      17: 'Each antenna can feed fake positions to planes, ships and drones far into Europe, so buyers need GPS-free navigation now, a sign of a hot market.
+
+
+
+        The count comes from Lithuania’s telecom regulator, speaking to Reuters.'
+    vbars:
+    - 3
+    - 36
+    note: We used the count given by Lithuania’s communications regulator to Reuters on May 26, 2026, from early 2025 to May 2026
+  sources:
+  - claim: Spoofing antennas rose from 3 in early 2025 to 36 (Reuters interview with Lithuania's regulator)
+    url: https://www.thestar.com.my/news/world/2026/05/26/russia-can-falsify-gps-signals-deep-into-europe-lithuania-says
+    date: '2026-05-26'
+    quote: from three in early 2025 to 36 now.
+  - claim: The antennas sit on the border of the Kaliningrad exclave
+    url: https://theins.press/en/news/293080
+    date: 2026-05
+    quote: only three antennas on the border of the Russian exclave
+- after: xq_spoof
+  link: ed032, signal 5 of the list
+  slide:
+    id: xq_pentagon
+    type: sx_stat_strip
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-11
+    title: 'The Pentagon put up to $200M behind
+
+      quantum sensing in one program'
+    headline: US defense money and tests for quantum sensing, 2025 to 2026
+    stats:
+    - v: $24.4M
+      l: DARPA awards to Q-CTRL to harden navigation sensors, August 2025
+    - v: $200M
+      l: Most DIU’s Farseer program could invest in sensors and clocks, June 2026
+    - v: 4h23
+      l: Flight of an Embraer 170 on quantum magnetic navigation, with no GPS
+    story: Defense buyers have moved from studies to money and real flights, a sign of a hot market. Farseer funds prototypes in 3 to 9 months, then a path to use in 2 to 3 years.
+    note:
+    - We used DARPA, DIU, Honeywell and The Quantum Insider releases, August 2025 to November 2026
+    - Farseer followed a June 2026 executive order on fielding new quantum sensors by the year 2028
+  sources:
+  - claim: DARPA RoQS awards to Q-CTRL worth $24.4M
+    url: https://insidehpc.com/2025/08/darpa-selects-q-ctrl-for-quantum-sensors/
+    date: '2025-08-27'
+    quote: won two awards under DARPA’s Robust Quantum Sensors (RoQS) program valued at A$38M (US$24.4M)
+  - claim: DIU Farseer to invest up to $200M within a year
+    url: https://www.quantum.gov/?p=6944
+    date: '2026-06-23'
+    quote: expected to invest up to $200M within the next year
+  - claim: GPS-free quantum navigation flight of 4 h 23 min
+    url: https://leehamnews.com/2026/09/09/honeywell-tests-magnetic-navigation-in-gps-free-flight/
+    date: '2026-09-09'
+    quote: flew over the Pacific Ocean for 4 hours 23 minutes without GPS.
+- after: xq_pentagon
+  link: ed032, signal 6 of the list
+  slide:
+    id: xq_ciqtek
+    type: kpis
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-08
+    title: 'CIQTEK passed 45 billion yuan in value
+
+      on its first day in Shanghai'
+    items:
+    - value: ¥45B
+      label: Value of CIQTEK on its first day in Shanghai, in August 2026
+    - value: ¥666M
+      label: Revenue in 2025 of this Hefei maker of quantum measuring tools
+    - value: +33%
+      label: Growth of its revenue in 2025, from 501 million yuan in 2024
+    why: This is a sign of a hot market because public investors in China valued a quantum sensing maker at about 68 times its sales on its first trading day.
+    note: We used 36Kr reports of August 11 and 13, 2026. The 68 times is our arithmetic, 45 billion over 666 million yuan
+  sources:
+  - claim: CIQTEK market value passed 45 billion yuan on its STAR Market debut
+    url: https://eu.36kr.com/de/p/3934499685793159
+    date: '2026-08-11'
+    quote: der Marktwert überschritt 45 Milliarden Yuan
+  - claim: CIQTEK revenue of 400, 501 and 666 million yuan in 2023 to 2025
+    url: https://eu.36kr.com/en/p/3937325292174466
+    date: '2026-08-13'
+    quote: the company achieved operating revenues of 400 million yuan, 501 million yuan and 666 million yuan respectively.
+- after: xq_ciqtek
+  link: ed032, signal 7 of the list
+  slide:
+    id: xq_cerca
+    type: sx_stat_strip
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-04
+    title: 'Cerca Magnetics has sold 19 wearable
+
+      brain scanners in 12 countries'
+    headline: Sales of Cerca’s quantum brain scanner, as of April 2026
+    stats:
+    - v: '19'
+      l: Wearable brain scanners sold to neuroscience centers
+    - v: '12'
+      l: Countries, across North America, Europe, Asia and Australia
+    - v: 100%+
+      l: Yearly growth of its sales over each of the last three years
+    story: Hospitals and labs now buy quantum brain scanners, not only test them, a sign of a hot market. The figures are Cerca’s own, given with its Series A of April 2026.
+    note:
+    - We used The Quantum Insider of April 21, 2026, on Cerca’s £3.8M Series A
+    - The sales growth is the company’s own figure and was not checked by an auditor
+  sources:
+  - claim: Cerca Magnetics sold 19 systems in 12 countries with over 100% annual sales growth for three years
+    url: https://thequantuminsider.com/2026/04/21/cerca-magnetics-secures-38m-series-a-funding-scale-quantum-brain-scanner/
+    date: '2026-04-21'
+    quote: Cerca Magnetics has sold 19 systems to neuroscience centres in 12 countries with over 100 percent annual sales growth over the past three years
+- after: ed064-s1
+  link: ed064-s1, GPS jammed and spoofed near every conflict
+  slide:
+    id: xq_baltic
+    type: share_waffle
+    section: Pain points
+    title: 'GPS interference hit 27.4% of flights
+
+      over the Baltic region in one month'
+    'on': Flights hit
+    'off': Flights not hit
+    unit: flights
+    years:
+    - x: APRIL 2025
+      k: 27
+      n: 100
+      p: 27
+    big: 27.4%
+    kicker: WHAT IS GOING ON
+    story: 'More than one flight in four over the Baltic region lost reliable satellite signals in a single month, and some areas passed 40%.
+
+      For air forces and airlines there, a GPS backup is no longer a nice-to-have.'
+    note:
+    - We used the report of Sweden, Finland, Estonia, Latvia, Lithuania and Poland
+    - to ICAO, as reported in September 2025. The grid shows 27 of 100 flights
+  sources:
+  - claim: 27.4% of flights in the region affected in April 2025
+    url: https://traveltomorrow.com/russian-gps-interference-disrupts-nearly-123000-flights-in-four-months/
+    date: 2025-09
+    quote: Interference spiked in April alone, affecting 27.4% of flights in the region.
+  - claim: Some areas above 40%
+    url: https://www.gpsworld.com/?p=111647
+    date: 2025-09
+    quote: some areas experiencing rates above 40%
+- after: pp_s06
+  link: pp_s06, development contracts and instrument sales
+  slide:
+    id: xq_profit
+    type: sx_faceoff
+    section: Value creation
+    title: 'Infleqtion lost $3.79 per $1 of sales
+
+      last quarter, up from $0.92'
+    cards:
+    - name: Q3 2026
+      hl: true
+      stats:
+      - v: −$3.79
+        l: operating loss per $1 of revenue, on $9.1M of sales
+      - v: −12%
+        l: gross margin in the quarter
+    - name: Q3 2025
+      stats:
+      - v: −$0.92
+        l: operating loss per $1 of revenue, on about $7.3M
+      - v: −$1.09
+        l: per $1 over the full year 2025
+    story: Quantum sensors still cost far more to build and deliver than they earn, even at the first listed leader. New contracts add cost before they add profit.
+    note:
+    - We divided the GAAP operating loss by revenue, $34.5M on $9.1M in Q3 2026
+    - and $6.7M on about $7.3M in Q3 2025, derived from the reported 25.1% growth
+  sources:
+  - claim: Q3 2026 GAAP operating loss $34.5M vs $6.7M a year earlier
+    url: https://www.dailypolitical.com/?p=10586796
+    date: 2026-11
+    quote: operating loss of $34.5 million for the third quarter, compared with $6.7 million
+  - claim: Q3 2026 revenue $9.1M, up 25.1% year on year
+    url: https://finsee.ai/earnings/infq/2026/q3/en/
+    date: 2026-11
+    quote: Infleqtion reported $9.1 million in third-quarter sales, up 25.1% from a year ago
+- after: iv_safety
+  link: iv_safety FEW BUYERS, 60% of Infleqtion revenue from the US government
+  slide:
+    id: xq_customer
+    type: share_waffle
+    section: Market challenges
+    title: 'The US government paid for about 80%
+
+      of Infleqtion’s revenue in one quarter'
+    'on': US government
+    'off': Other buyers
+    unit: of revenue
+    years:
+    - x: '2025'
+      k: 60
+      n: 100
+      p: 60
+    - x: Q2 2026
+      k: 80
+      n: 100
+      p: 80
+    big: 80%
+    kicker: WHAT IS GOING ON
+    story: 'The first listed quantum sensing leader depends on one customer for most of its sales.
+
+      A budget delay or a lost US program would hit its revenue far harder than at a diversified sensor maker.'
+    note:
+    - We used Infleqtion’s 10-K for 2025, about 60% plus 12% from the UK
+    - government, and the share it gave with its Q2 2026 results, about 80%
+  sources:
+  - claim: US government about 60% of fiscal 2025 revenue (10-K excerpt)
+    url: https://policyrisk.com/world/company/INFQ
+    date: 2026-03
+    quote: represented approximately 60% of our revenue
+  - claim: About 80% of Q2 2026 revenue came from the US government and agencies
+    url: https://www.zacks.com/stock/news/2974198/
+    date: 2026-08
+    quote: Around 80% of revenues came from the U.S. government and agencies

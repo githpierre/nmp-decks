@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (NOV)
+  14: Q-CTRL raised a $290M Series C led by Salesforce for its quantum navigation sensors and control software {1|Q-CTRL}
+  15: 2026 (NOV)
+  16: YuanCi Intelligent Manufacturing raised a $1.5M seed round for its medical imaging {1|China Economic Information}
+  17: 2026 (NOV)
+  18: CQMTEK raised a $75M Series B led by CICC for its chip scale atomic clocks and timing {1|Sina}
+  19: 2026 (SEP)
+  20: Mesa Quantum raised $12M led by Playground Global for its quantum timing {1|Mesa Quantum}
+  21: 2026 (AUG)
+  22: Dirac Labs raised a $1.8M pre-seed round for its quantum sensing hardware {1|Chicago Quantum Exchange}
+  23: 2026 (JUL)
+  24: CQMTEK raised a $15M Series B led by Jinfu for its chip scale atomic clocks and timing {1|The Quantum Insider}
+  note: We list the latest equity rounds of quantum sensing startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (JUL)
+  15: QuantumDiamonds raised a $17M Series A led by World Fund for its diamond magnetic microscopes {1|QuantumDiamonds}
+  16: 2026 (JUL)
+  17: Shanghai Quantum Sensing Intelligence raised an undisclosed seed round led by Futeng {1|The Quantum Insider}
+  18: 2026 (JUN)
+  19: QuantX Labs raised a $5M seed round led by Serendipity for its quantum timing {1|QuantX Labs}
+  20: 2026 (JUN)
+  21: X-Magtech raised an undisclosed Series B for its magnetic sensing systems for medical imaging {1|VCBeat}
+  22: 2026 (MAY)
+  23: NVision Imaging Technologies raised a $38M Series B led by Abbott for its medical imaging {1|GlobeNewswire}
+  24: 2026 (APR)
+  25: QuBeats raised an undisclosed round led by Zoho Corporation for its magnetic sensing {1|QuBeats}
+  note: We list the latest equity rounds of quantum sensing startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 273
+    ann: SandboxAQ, $150M top round, in 9 rounds
+  - x: 2025 H2
+    v: 20
+    ann: Atomionics, $13M top round, in 4 rounds
+  - x: 2026 H1
+    v: 68
+    ann: NVision Imaging, $38M top round, in 11 rounds
+  - x: 2026 H2
+    v: 412
+    ann: Q-CTRL, $290M top round, in 8 rounds
+  note:
+  - We add up the disclosed equity rounds of quantum sensing startups we track, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 382
+    ann: SandboxAQ, $300M top round, in 7 rounds
+  - x: '2025'
+    v: 293
+    ann: SandboxAQ, $150M top round, in 13 rounds
+  - x: '2026'
+    v: 480
+    ann: Q-CTRL, $290M top round, in 19 rounds
+  note:
+  - We add up the disclosed equity rounds of quantum sensing startups in our database, complete since 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 79
+    ann: SandboxAQ, $300M top round, out of 7 rounds
+  - x: '2025'
+    v: 51
+    ann: SandboxAQ, $150M top round, out of 13 rounds
+  - x: 2026 (YTD)
+    v: 60
+    ann: Q-CTRL, $290M top round, out of 19 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Q-CTRL
+    amt: 290000000
+    date: Q4 2026
+    stage: Series C
+  - name: CQMTEK
+    amt: 74941007
+    date: Q4 2026
+    stage: Series B
+  - name: NVision Imaging Technologies
+    amt: 38000000
+    date: Q2 2026
+    stage: Series B
+  - name: QuantumDiamonds
+    amt: 17227500
+    date: Q3 2026
+    stage: Series A
+  note:
+  - We listed the biggest equity rounds raised by quantum sensing startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: SandboxAQ
+    amt: 500000000
+    date: '2023'
+    stage: Growth Equity
+  - name: SandboxAQ
+    amt: 300000000
+    date: '2024'
+    stage: late-stage
+  - name: SandboxAQ
+    amt: 150000000
+    date: '2025'
+    stage: late-stage
+  - name: Infleqtion
+    amt: 110000000
+    date: '2022'
+    stage: Series B
+  note:
+  - We listed the biggest equity rounds raised by quantum sensing startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: MAGNETIC SENSING
+  9: '7'
+  13: $475M
+  17: SandboxAQ, QuantumDiamonds, SBQuantum, DeteQt, QuBeats
+  7: QUANTUM NAVIGATION
+  11: '7'
+  15: $379M
+  19: Q-CTRL, Atomionics, Delta.g, Aquark, Zero Point Motion
+  8: QUANTUM TIMING
+  12: '10'
+  16: $210M
+  20: Infleqtion, CQMTEK, Mesa Quantum, QuantX Labs
+  note: We used our tracker of 39 quantum sensing equity rounds announced since January 2024, worth about $1.2B. IPOs, debt and grants are left out
+ed169:
+  7: CICC
+  10: '2'
+  14: $75M
+  18: CQMTEK (twice)
+  8: SERENDIPITY
+  12: '2'
+  16: $11M
+  20: Delta.g, QuantX Labs
+  9: QDNL
+  13: '2'
+  17: $2.7M
+  21: QT Sense, Diffraqtion
+  26: SALESFORCE
+  28: '1'
+  30: $290M
+  32: Q-CTRL
+  27: ZHECAI INNOVATION
+  29: '1'
+  31: $75M
+  33: CQMTEK
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 39 rounds
+ed205:
+  14: 2024 (OCT)
+  15: Q-CTRL raised a $59M Series B led by GP Bullhound for its quantum navigation sensors and control software {1|Q-CTRL}
+  16: 2024 (DEC)
+  17: SandboxAQ raised a $300M late-stage round for its quantum magnetometry navigation and biomedical sensing {1|SandboxAQ}
+  18: 2025 (APR)
+  19: SandboxAQ raised a $150M late-stage round for its quantum magnetometry navigation and biomedical sensing {1|SandboxAQ}
+  20: 2025 (JUN)
+  21: Infleqtion raised a $100M Series C for its atomic clocks sensors and neutral atom systems {1|Infleqtion}
+  22: 2026 (NOV)
+  23: CQMTEK raised a $75M Series B led by CICC for its chip scale atomic clocks and timing {1|Sina}
+  24: 2026 (NOV)
+  25: Q-CTRL raised a $290M Series C led by Salesforce for its quantum navigation sensors and control software {1|Q-CTRL}
+  note: We picked the biggest disclosed rounds of quantum sensing startups since 2024, from our tracker of rounds
+ed160:
+  6: Magnetic sensing took about 41% of the capital raised since 2024, ahead of Quantum navigation with about 33%
+  7: 29 of the 39 rounds since 2024 disclosed an amount, and the median disclosed round was $5.9M
+  8: US startups closed 7 of the 39 rounds and took $570M, about 49% of all the money raised since 2024
+  9: 4 rounds of $100M or more took 73% of the money, so a few big bets drive this market
+  10: The $300M round of SandboxAQ is the biggest since 2024, ahead of the $290M round of Q-CTRL
+  11: Seed was the most common round, with 13 of the 39 rounds, ahead of Series A with 9 and Series B with 5
+  note: We drew these insights from our tracker of 39 quantum sensing equity rounds announced since January 2024, worth about $1.2B
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, quantum sensing lived mostly on research grants and defense contracts, with a few rounds for firms like Q-CTRL.'
+  7: 'AFTER
+
+
+
+    Since 2024, 39 rounds raised $1.2B. Magnetic sensing takes the biggest share, and quantum navigation comes next, led by Q-CTRL.'
+  note: We used our tracker of quantum sensing equity rounds, complete from January 2024, and company releases and the press

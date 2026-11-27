@@ -1,0 +1,95 @@
+# Research import re, jsonport
+
+152 answers parsed, 0 YAML errors, 91 slides with remarks.
+
+- **ed006**: no sources
+- **ed008**: no sources
+- **ed009**: no sources
+- **ed010**: length 17: 10 vs 22; no sources
+- **ed011**: length 24: 34 vs 25; no sources
+- **ed012**: status no_data: products and their names change too often to group them reliably without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: prices depend on the platform, the volume and the contract and are rarely published
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: no sources
+- **ed016**: length 7: 147 vs 114; no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed039p**: status no_data: We could not pull a Google Trends series from our research tools, and the term quantum sensing is too rare to read reliably. The Google counting
+- **ed044**: length 6: 50 vs 74
+- **ed050**: length 6: 5 vs 22
+- **ed054**: no sources
+- **ed055**: length 7: 105 vs 65; length 10: 96 vs 58; length 13: 100 vs 67; length 16: 93 vs 67; length 19: 101 vs 59; length 22: 102 vs 60; no sources
+- **ed056**: length 8: 23 vs 32; length 6: 22 vs 30; length 10: 22 vs 30; length 31: 22 vs 31; no sources
+- **ed057**: length 23: 20 vs 36; length 6: 21 vs 32; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 14: 14 vs 20; length 17: 14 vs 21; no sources
+- **ed064-s1**: no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 14: 14 vs 20; length 17: 15 vs 21; no sources
+- **ed064-s2**: length 15: 47 vs 65; no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 17: 12 vs 21; no sources
+- **ed064-s3**: length 15: 48 vs 65; length 17: 43 vs 58; no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 17: 14 vs 21; no sources
+- **ed064-s4**: length 15: 47 vs 65; no sources
+- **ed065-s4**: no sources
+- **ed062-s5**: no sources
+- **ed063-s5**: length 14: 12 vs 20; length 17: 11 vs 21; no sources
+- **ed064-s5**: length 15: 48 vs 65; no sources
+- **ed065-s5**: no sources
+- **ed095**: length 30: 79 vs 60
+- **iv_pipeline**: length 34: 58 vs 44
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 7: 93 vs 72; length 12: 14 vs 20; length 15: 88 vs 63; no sources
+- **ed104**: length 9: 15 vs 22; length 7: 89 vs 63; length 10: 92 vs 68; length 15: 88 vs 67; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: length 8: 11 vs 20; no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: length 8: 35 vs 26; no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: length 8: 10 vs 20; no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 35 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: length 8: 12 vs 20; no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 8: 35 vs 26; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: length 8: 14 vs 20; no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: length 8: 38 vs 26; no sources
+- **ed132**: length 23: 55 vs 76
+- **ed144**: length 14: 13 vs 21; length 10: 13 vs 20
+- **ed145**: length 20: 47 vs 64
+- **ed149**: length 21: 47 vs 37
+- **ed172**: length 12: 64 vs 50; length 10: 60 vs 44; length 9: 63 vs 48; length 11: 64 vs 50
+- **ed182**: length 20: 102 vs 80
+- **ed186**: length 11: 80 vs 60
+- **ed190**: status no_data: Only one disclosed valuation exists for Q-CTRL and for CIQTEK, so there is no round-by-round valuation history to draw four growth lines.
+- **ed190**: dropped: no data
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

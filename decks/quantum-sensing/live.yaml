@@ -102,8 +102,61 @@ ed168p:
 
     put their money this past year?'
   note:
-  - We added up every equity round of quantum sensing startups in our tracker over the last twelve months
-  - by category of our market definition, and rounds with no public amount count as zero here
+  - We added up every equity round of quantum sensing startups in our tracker over the last year,
+  - by category of our market definition. Rounds with no public amount count as zero here
+  rows:
+  - name: Quantum navigation
+    names:
+    - Q-CTRL
+    v: $290M
+    pct: 60% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/q-ctrl.png
+  - name: Quantum timing
+    names:
+    - CQMTEK
+    - Mesa Quantum
+    v: $107M
+    pct: 22% of total
+    w: 36.7
+    logos:
+    - src: ../../assets/logos/cqmtek.png
+    - src: ../../assets/logos/mesa-quantum.png
+    - src: ../../assets/logos/quantx-labs.png
+  - name: Medical imaging
+    names:
+    - NVision Imaging Technologies
+    - Cerca Magnetics
+    v: $48M
+    pct: 10% of total
+    w: 16.6
+    logos:
+    - src: ../../assets/logos/nvision-imaging-technologies.png
+    - src: ../../assets/logos/cerca-magnetics.png
+    - src: ../../assets/logos/qt-sense.png
+  - name: Magnetic sensing
+    names:
+    - QuantumDiamonds
+    - SBQuantum
+    v: $25M
+    pct: 5% of total
+    w: 8.6
+    logos:
+    - src: ../../assets/logos/quantumdiamonds.png
+    - src: ../../assets/logos/fav/sbquantum.png
+    - src: ../../assets/logos/deteqt.png
+  - name: Optical sensing
+    names:
+    - Pixel Photonics
+    - Diffraqtion
+    v: $10M
+    pct: 2% of total
+    w: 3.6
+    logos:
+    - src: ../../assets/logos/fav/pixel-photonics.png
+    - src: ../../assets/logos/diffraqtion.png
+    - src: ../../assets/logos/fav/dirac-labs.png
 ed171p:
   title: 'Who are the top players
 
@@ -171,13 +224,13 @@ ed171p:
     x: 772.1
     y: 504.9
   cols:
-  - '- | Z'
+  - Leaders
   - Challengers
   - Newcomers
   rows:
-  - Navigation [s)
-  - Mannatir fe)
+  - Navigation
   - Magnetic
+  - Gravity & RF
   note:
   - We placed private pure players by main product and stage, from funding news and the press
   - We left out listed companies and incumbents, and all our sources are at the end of the report
@@ -254,7 +307,7 @@ ed007p:
 
     and who stays outside?'
   TL:
-    name: Ion@Q
+    name: IonQ
     src: ../../assets/logos/pp_live/quantum-sensing/s01-00.png
     text: is primarily a quantum computing company, even though acquisitions give it exposure to quantum sensing technology
   TR:
@@ -268,9 +321,9 @@ ed007p:
   BR:
     name: Advanced Navigation
     src: ../../assets/logos/pp_live/quantum-sensing/s01-10.png
-    text: develops quantum- enhanced navigation, but it also sells many classical inertial navigation products
+    text: develops quantum-enhanced navigation, but it also sells many classical inertial navigation products
   caption:
-  - Distance to the center reflects how central each company is to quantum sensini
+  - Distance to the center reflects how central each company is to quantum sensing
   - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
   inside:
   - ../../assets/logos/pp_live/quantum-sensing/s01-01.png
@@ -312,11 +365,222 @@ ed052p:
 
     quantum sensing get?'
   lead: ''
-  condition: To get that big, field deployments must prove reliability outside labs and unit costs must fall enough for navigation, timing and industrial
-    sensing volumes.
+  condition: To get that big, field deployments must prove reliability outside labs and unit costs must fall enough for navigation, timing and industrial sensing volumes.
   note:
-  - We compared forecasts from Grand View Research, Fortune Business Insights and Mordor Intelligence
+  - We compared forecasts from QED-C, Fortune Business Insights, Global Market Insights and Mordor Intelligence
   - We adjusted each one to our market definition, and all the sources are included at the end of the report
-  size: 0.8
-  cagr: 13
-  y0: null
+  size: 0.625
+  cagr: 22
+  y0: 2026
+ed047p:
+  type: pp_donutv
+  variant: B
+  title: 'How is the quantum sensing market
+
+
+
+    split between its categories?'
+  cats:
+  - name: Atomic Clocks
+    p: 35
+    logos:
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-02.png
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-03.png
+  - name: Quantum Magnetometers
+    p: 20
+    logos:
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-08.png
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-09.png
+  - name: Quantum Inertial Nav
+    p: 17
+    logos:
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-06.png
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-07.png
+  - name: NV and Components
+    p: 15
+    logos:
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-04.png
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-05.png
+  - name: Gravimeters
+    p: 13
+    logos:
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-00.png
+    - ../../assets/logos/pp_live/quantum-sensing/s03b-01.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+ed058:
+  type: pp_pains
+  title: 'Which quantum sensing
+
+
+
+    problems are still unsolved?'
+  auds:
+  - Defense labs
+  - Mining firms
+  - Nav teams
+  - Research labs
+  - Grid operators
+  pains:
+  - - Quantum sensors remain costly to deploy at scale
+    - - 3
+      - 1
+      - 3
+      - 3
+      - 1
+  - - Large laser and vacuum systems limit field use
+    - - 3
+      - 1
+      - 3
+      - 3
+      - 1
+  - - Frequent calibration adds specialist workload
+    - - 3
+      - 1
+      - 3
+      - 3
+      - 3
+  - - Ruggedization still lags harsh field demands
+    - - 3
+      - 3
+      - 3
+      - 1
+      - 3
+  - - Classical electronics can limit sensor gains
+    - - 1
+      - 1
+      - 3
+      - 3
+      - 1
+  - - Standards for validation remain immature today
+    - - 3
+      - 1
+      - 3
+      - 3
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Who has the most complete
+
+
+
+    quantum sensing tech today?'
+  companies:
+  - name: Infleqtion
+    src: ../../assets/logos/pp_live/quantum-sensing/s05-00.png
+  - name: VectorAtom
+    src: ../../assets/logos/pp_live/quantum-sensing/s05-01.png
+  - name: Qnami
+    src: ../../assets/logos/pp_live/quantum-sensing/s05-02.png
+  - name: Exail
+    src: ../../assets/logos/pp_live/quantum-sensing/s05-03.png
+  - name: SandboxAQ
+    src: ../../assets/logos/pp_live/quantum-sensing/s05-04.png
+  features:
+  - header: Atomic|clock
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Inertial|sense
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Gravity|sense
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+  - header: Magnet|sense
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: NV|diamond
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: Field|hardware
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Control|software
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+
+
+    to the quantum sensing market?'
+  events:
+  - impact: 3
+    odds: 45
+    text: Cold-atom sensors miss size, weight and power targets, keeping quantum inertial systems out of aircraft and smaller platforms
+  - impact: 1
+    odds: 45
+    text: Field trials reveal calibration drift or vibration sensitivity, forcing longer qualification cycles for quantum sensors
+  - impact: 2
+    odds: 40
+    text: Quantum hardware startups fail to raise follow-on capital, slowing product engineering between lab demos and field units
+  - impact: 2
+    odds: 40
+    text: Classical sensors improve faster than expected, reducing the performance gap that justifies expensive quantum replacements
+  - impact: 1
+    odds: 40
+    text: Standards for testing quantum sensor claims remain fragmented, making customers cautious about comparing vendor performance
+  - impact: 2
+    odds: 35
+    text: Specialized laser, vacuum or photonics shortages raise costs and extend delivery times for clocks, gravimeters and magnetometers
+  - impact: 2
+    odds: 35
+    text: Export controls on quantum technologies limit international sales and collaboration in navigation, defense and sensing
+  - impact: 3
+    odds: 30
+    text: Defense budgets shift away from quantum sensing before field systems prove value, delaying orders for navigation sensors
+  note:
+  - We listed the events that could slow quantum sensing down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+ed039p:
+  caption_period: November 2021 to July 2025
+  csv: assets/trends/quantum-sensing/quantum-sensing.csv
+  cut: '2025-07-27'
+  date: From late 2021 to mid-2025.
+  expl: Interest grew as GPS jamming spread over Europe and the Middle East, and as navies and air forces began flying quantum clocks and navigators.
+  note:
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
+  pill: SIGNAL
+  signal: google-trends
+  term: quantum sensing
+  title: 'Searches for quantum sensing soared
+
+
+
+    from late 2021 to mid-2025'
+  window: 5y

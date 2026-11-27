@@ -1,0 +1,32 @@
+ed160:
+  6: '{db.cat1} took about {db.cat1_pct}% of the capital raised since 2024, ahead of {db.cat2} with about {db.cat2_pct}%'
+  7: '{db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}'
+  8: US startups closed {db.us_n} of the {db.n} rounds and took {db.ctry1_money}, about {db.us_money_pct}% of all the money raised since 2024
+  9: '{db.big_n} rounds of $100M or more took {db.big_pct}% of the money, so a few big bets drive this market'
+  10: The {db.big1_amt} round of {db.big1_name} is the biggest since 2024, ahead of the {db.big2_amt} round of {db.big2_name}
+  11: Seed was the most common round, with {db.seed} of the {db.n} rounds, ahead of Series A with {db.series_a} and Series B with {db.series_b}
+  note: We drew these insights from our tracker of {db.n} quantum sensing equity rounds announced since January 2024, worth about {db.total}
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, quantum sensing lived mostly on research grants and defense contracts, with a few rounds for firms like Q-CTRL.'
+  7: 'AFTER
+
+
+
+    Since 2024, {db.n} rounds raised {db.total}. {db.cat1} takes the biggest share, and quantum navigation comes next, led by Q-CTRL.'
+  note: We used our tracker of quantum sensing equity rounds, complete from January 2024, and company releases and the press
+ed158:
+  note:
+  - We add up the disclosed equity rounds of quantum sensing startups we track, by half-year
+  - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
+ed159:
+  note:
+  - We add up the disclosed equity rounds of quantum sensing startups in our database, complete since 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
