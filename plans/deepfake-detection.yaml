@@ -1,0 +1,118 @@
+name: Deepfake detection
+handle: deepfake-detection
+uuid: 147
+date: '2026-11-27'
+today: 27 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity, synthetic biology, femtech, fertility, menopause
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and filings (Reality Defender, GetReal Security, Pindrop, Sensity, Hive, Clarity, Resemble AI, Intel FakeCatcher, Microsoft, Adobe Content Credentials,
+  iProov, Onfido/Entrust, Persona, Truepic, Deep Media), government documents (DARPA SemaFor and AI FORCE, NIST, US FinCEN alerts, FBI and IC3 reports, the EU AI Act, the US TAKE IT
+  DOWN Act, UK Ofcom and Online Safety Act, state deepfake laws), industry reports (Deloitte Center for Financial Services, Sumsub and Entrust identity fraud reports, Pindrop Voice Intelligence
+  report, C2PA), peer-reviewed studies, market research firms with a named method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, CNN, TechCrunch, The
+  Record, Wired).
+pain_segments:
+- Banks and fintechs
+- Contact centers
+- Governments
+- Newsrooms and platforms
+- Corporate security teams
+value_segments:
+- Media forensics
+- Voice detection
+- Meeting protection
+- Identity checks
+- Platform screening
+- Content provenance
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+live_twins:
+- ed007p
+- ed047p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+- ed199p
+retarget:
+  iv_pipeline:
+    title: Which deepfake detection products launched recently?
+    brief: 8 rows = 8 real deepfake detection products of startups or young companies launched or expanded in the last 12 months (a voice deepfake detector for call centers, a meeting
+      plug-in for Zoom or Teams, an identity check against injected video, a media forensics tool for newsrooms, a screening API for platforms, a content provenance service). Rows read
+      "product" + "COMPANY · USE" + stage (BETA / LAUNCH / SCALE, 6 characters at most, BETA = in private or public beta, LAUNCH = generally available in the last 12 months, SCALE =
+      used by a named large client or with a public usage figure). Only products named in a company release or reputable press.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals around deepfake detection companies (acquisitions by security, identity or voice groups, large strategic investments, government contracts such as DARPA or defense,
+      IPOs), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to win a big security buyer?
+    brief: 5 steps from a working detector to one that a bank, a government or a platform buys and keeps (for example independent accuracy tests, security and privacy reviews, a pilot
+      on live traffic, integration with call center, meeting or identity tools, then a yearly contract). Each step in plain words with who decides and a typical duration or cost.
+  iv_safety:
+    title: What could go wrong for deepfake detection?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example detectors that fail on new generators, false alarms that block real customers,
+      attackers testing against public detectors, AI labs and platforms adding free watermarks, laws that change who must check). Real studies, filings, reports or reported cases only.
+extra:
+  ed061: The pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals
+    on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed032: 'Do not use Google searches as a signal: Google changed how it counts search terms in mid-2025, so a recent rise in searches is not real interest. Use 7 signals of money, deals,
+    plants, approvals, sales or use instead.'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: deepfake fraud losses and attack counts (Deloitte, FBI IC3, Pindrop, Sumsub, Entrust), funding rounds of detection startups (Reality Defender, GetReal, Pindrop, Clarity,
+  Resemble AI), revenue and client figures, acquisitions by security and identity groups, government contracts and laws (TAKE IT DOWN Act, EU AI Act transparency rules, state laws),
+  banks and call centers deploying voice deepfake checks, platform and C2PA provenance adoption. Never Google searches (Google changed how it counts search terms in mid-2025, so recent
+  search curves are not real interest).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, failed product launches, data privacy fines, layoffs, sales
+  of the company for little, valuations or share prices that fell, products pulled. Scope: companies whose core product detects deepfakes or proves that media is authentic (voice, video,
+  images, live calls, identity checks, provenance), startups first.
+
+  - ed192 and ed195: 12 dated events in all, 2022 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}.
+  Dates as YYYY (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, data or regulatory trouble, product pulled, value fell, shut down or sold).
+  Each cell is two short lines separated by | or empty. Give the website domain of each company.
+
+  - ed200: why deepfake detection startups fail.
+
+  - survivors (for the S11-02 slide « What sets deepfake detection survivors apart from failures? »): 5 rows, each with a lesson (what survivors do, 6 words at most), a one-line explanation,
+  one company of ed199p or ed192-ed195 that missed it, and why in 8 words at most, with a source.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: Deepfake detection
+label: Deepfake Detection Market
+keep_together:
+- deepfake detection
+- deepfake
+examples:
+  jargon_bad: A multimodal liveness and injection-attack detection layer leveraging spectral artifacts.
+  jargon_good: A tool that listens to a phone call and warns the agent when the caller's voice is made by AI.
+  jargon_why: the reader is not a security engineer
+  proof_rule: 'A demo, a benchmark score or a pilot is not proof that a product sells: say how many clients or calls checked, who pays, the revenue when public, and who reported it.'
+  proof_bad: Company X detects deepfakes with 99% accuracy.
+  proof_good: Company X screens 10 million calls a month for 8 of the 10 largest US banks.
+  proof_why: a lab score is not a sale
+  fresh_bad: Company X raised $15M in 2024
+  fresh_good: Company X raised $33M in October 2026, its biggest round
+  fresh_est: Company X should reach about $30M of revenue in 2026, against $12M in 2025
+  fresh_method: latest company releases, filings, government and fraud reports, press reports as a cross-check
+  not_proof: a benchmark is not sales
+trends_csv: assets/trends/deepfake-detection/deepfake-detection.csv

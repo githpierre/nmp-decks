@@ -1,0 +1,122 @@
+name: AI-powered market research
+handle: ai-powered-market-research
+uuid: 121
+date: '2026-11-27'
+today: 27 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity, synthetic biology, femtech, fertility, menopause
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and filings (Qualtrics, Medallia, SurveyMonkey/Momentive, Ipsos, Kantar, NielsenIQ, Circana, YouGov, Dynata, Toluna, Zappi, Remesh, Listen Labs, Outset,
+  Conveo, Strella, Aaru, Electric Twin, Evidenza, Yabble), industry bodies (ESOMAR Global Market Research report, Insights Association, MRS, GRBN), trade press (Research Live, Quirk's,
+  GreenBook GRIT report, Marketing Week, Adweek, Ad Age), investor and analyst notes (a16z, Bessemer), market research firms with a named method, and reputable press (Reuters, Bloomberg,
+  Financial Times, Wall Street Journal, TechCrunch, Sifted, The Information).
+pain_segments:
+- Consumer brands
+- Research agencies
+- Product teams
+- Ad agencies
+- Consultancies
+value_segments:
+- AI interviews
+- AI surveys
+- Synthetic respondents
+- Insight synthesis
+- Market intelligence
+- Ad pretesting
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+live_twins:
+- ed039p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+- ed201
+retarget:
+  iv_pipeline:
+    title: Which AI research products launched or scaled recently?
+    brief: 8 rows = 8 real AI market research products of startups or young companies launched, scaled or announced in the last 12 months (an AI-moderated interview tool, an AI survey
+      builder, a synthetic respondent panel, an AI coding and reporting tool, a concept or ad pretesting tool). Rows read "product" + "COMPANY · USE" + stage (BETA / LAUNCH / SCALE,
+      6 characters at most, BETA = in private or public beta, LAUNCH = generally available in the last 12 months, SCALE = used by a named large client or with a public usage figure).
+      Only products named in a company release or reputable press.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals around AI market research companies (acquisitions by research groups such as Qualtrics, Ipsos, Kantar, NielsenIQ, Circana, Dynata or by software groups, large
+      strategic investments, big client contracts, IPOs), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to win a big research buyer?
+    brief: 5 steps from a working AI research tool to one that a large brand buys and keeps (for example proof that results match human panels, data privacy and security reviews, procurement
+      and a pilot, integration with the client's panel and tools, then a yearly contract). Each step in plain words with who decides and a typical duration or cost.
+  iv_safety:
+    title: What could go wrong with AI market research?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example synthetic respondents that fail to match real buyers, panel fraud and bots in
+      online surveys, privacy rules on recorded interviews, clients that stop trusting AI results, general AI models doing the same job for free). Real studies, filings, reports or reported
+      cases only.
+extra:
+  ed061: The pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals
+    on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed032: 'Do not use Google searches as a signal: Google changed how it counts search terms in mid-2025, so a recent rise in searches is not real interest. Use 7 signals of money, deals,
+    plants, approvals, sales or use instead.'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: funding rounds and valuations of AI interview and synthetic research startups (Listen Labs, Outset, Aaru, Conveo, Strella), revenue and client figures of AI research vendors,
+  acquisitions by research groups (Qualtrics, Ipsos, Kantar, NielsenIQ, Dynata), research spend moving from agencies to software (ESOMAR, GreenBook GRIT), large brands adopting AI interviews
+  or synthetic panels, client counts and usage figures. Never Google searches (Google changed how it counts search terms in mid-2025, so recent search curves are not real interest).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, administration, failed launches, layoffs, sales of the company
+  for little, valuations or share prices that fell. Scope: companies whose core product is market research technology (online surveys, panels, insight platforms, AI research tools),
+  startups first.
+
+
+  - ed192 and ed195: 12 dated events in all, 2022 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}.
+  Dates as YYYY (MON).
+
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, panel or data quality trouble, clients lost, value fell, shut down or sold).
+  Each cell is two short lines separated by | or empty. Give the website domain of each company.
+
+
+  - ed200: why AI market research startups fail.
+
+
+  - survivors (for the S11-02 slide « What sets AI market research survivors apart from failures? »): 5 rows, each with a lesson (what survivors do, 6 words at most), a one-line explanation,
+  one company of ed199p or ed192-ed195 that missed it, and why in 8 words at most, with a source.
+
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: AI-powered market research
+label: AI-Powered Market Research Industry
+keep_together:
+- AI market research
+- AI-powered market research
+examples:
+  jargon_bad: An agentic LLM-native qual platform leveraging synthetic personas for scalable insight generation.
+  jargon_good: A tool where an AI interviewer talks to hundreds of real buyers in a day and sums up what they said.
+  jargon_why: the reader is not a researcher
+  proof_rule: 'A pilot, a waitlist or a logo on a website is not proof that a product sells: say how many clients or interviews, who pays, the revenue or recurring revenue when public,
+    and who reported it.'
+  proof_bad: Company X works with leading Fortune 500 brands.
+  proof_good: Company X ran 1 million AI interviews for 300 paying clients in 2026 and passed $20M in recurring revenue.
+  proof_why: a logo is not a sale
+  fresh_bad: Company X raised $30M in 2024
+  fresh_good: Company X raised $69M in October 2026, three times its round of a year before
+  fresh_est: Company X should reach about $40M of recurring revenue in 2026, against $15M in 2025
+  fresh_method: latest company releases, filings, industry reports (ESOMAR, GreenBook), press reports as a cross-check
+  not_proof: a pilot is not sales
+trends_csv: assets/trends/ai-powered-market-research/ai-market-research.csv
