@@ -386,3 +386,6 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - Known open issue: the Australia leader line of the worldmap ends inside its text when the text is on 3 lines (ed183).
 - A lesson of the survivors slide (pp_survivors) holds on one line: 37 characters at most (39 broke onto a second line with one
   orphan word on 4 of 5 rows of femtech, 26 Nov 2026).
+
+## Product-page replacement (27 Nov 2026)
+- When a replaced slide changes its title, its alt changes everywhere it is used: the file alt, `custom.v1_sections` of the page AND every `custom.encarts` entry that shows it (femtech-top-investors kept the old S02 alt after the first import).
