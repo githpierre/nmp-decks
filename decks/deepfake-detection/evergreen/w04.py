@@ -65,14 +65,14 @@ ROLES=[
   ("CHILD SAFETY\nUNITS","🛡️","They need to sort real abuse images from AI-made ones, since reports of AI images are rising fast")],
  [("FACT\nCHECKERS","📰","They need to prove a viral video is fake within hours, before it spreads further than any correction"),
   ("TRUST AND\nSAFETY TEAMS","🛡️","They need to scan millions of uploads a day for fake media, at a cost that fits their budget"),
-  ("EDITORS","✍️","They need to know a photo or a clip is real before they publish it, since one mistake hurts trust"),
+  ("NEWS\nEDITORS","✍️","They need to know a photo or a clip is real before they publish it, since one mistake hurts trust"),
   ("LEGAL\nTEAMS","⚖️","They need to meet takedown rules, like the 48-hour limit for fake intimate images in the US"),
   ("PRODUCT\nTEAMS","📱","They need to label AI media and show where content came from, without slowing down users' posts")],
  [("SECURITY\nLEADERS","🛡️","They need to protect executives, meetings and payments from impersonation without adding friction"),
   ("FINANCE\nTEAMS","💰","They need to confirm that a payment request on a call or a video really comes from their CFO"),
   ("HR AND\nRECRUITERS","💼","They need to check that remote job candidates are real people and not deepfakes before hiring"),
   ("IT AND HELP\nDESKS","💻","They need to confirm that a caller asking for a password reset is really the employee they claim"),
-  ("EXECUTIVES","👔","They need to stop fake copies of their face and voice from being used to trick staff and partners")]]
+  ("TOP\nEXECUTIVES","👔","They need to stop fake copies of their face and voice from being used to trick staff and partners")]]
 PAINS=[
  ["They see deepfake attempts rise at account sign-up","They lose new clients when checks feel too slow","They face fake selfies that pass basic checks","They see fraud losses rise with each new AI tool","They must report deepfake fraud to regulators","They find it hard to prove that a tool pays back","They struggle to keep up with new attack methods"],
  ["They hear cloned voices that sound like real clients","They cannot slow down millions of calls with checks","They miss fraud rings that call again and again","They face lawsuits over recording and voice data","They find it hard to connect old phone systems","They see agents fooled by calm and urgent fakes","They lack proof of losses avoided each year"],

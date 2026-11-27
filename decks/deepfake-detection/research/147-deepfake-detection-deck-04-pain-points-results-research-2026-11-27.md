@@ -687,7 +687,9 @@ t:
     SAFETY TEAMS'
   21: 🛡️
   10: They need to scan millions of uploads a day for fake media, at a cost that fits their budget
-  11: EDITORS
+  11: 'NEWS
+
+    EDITORS'
   22: ✍️
   13: They need to know a photo or a clip is real before they publish it, since one mistake hurts trust
   14: 'LEGAL
@@ -829,7 +831,9 @@ t:
     DESKS'
   23: 💻
   16: They need to confirm that a caller asking for a password reset is really the employee they claim
-  17: EXECUTIVES
+  17: 'TOP
+
+    EXECUTIVES'
   24: 👔
   19: They need to stop fake copies of their face and voice from being used to trick staff and partners
 ```

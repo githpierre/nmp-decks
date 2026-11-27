@@ -98,13 +98,28 @@ sources:
 ```yaml
 status: ok
 title: Who owns what?
-note: "We compare five representative companies. YES means the company publicly markets the capability. NO means we found no public offer for it."
+note: We compare five representative companies. YES means the company publicly markets the capability. NO means we found no public offer for it.
 t:
-  10: "REALITY\n\nDEFENDER"
-  14: PINDROP
-  28: "GETREAL\n\nSECURITY"
-  32: HIVE
-  40: SENSITY
+  10: 'REALITY
+
+
+    DEFENDER'
+  14: 'PINDROP
+
+
+    SECURITY'
+  28: 'GETREAL
+
+
+    SECURITY'
+  32: 'HIVE
+
+
+    AI'
+  40: 'SENSITY
+
+
+    AI'
   6: VOICE DETECTION
   9: 'YES'
   13: 'YES'
@@ -141,52 +156,52 @@ t:
   49: 'YES'
   50: 'YES'
   51: 'NO'
-comment: "NO cells mean no public offer found on company pages or trade coverage, not a proven absence. GetReal call center tools are the least certain cell."
+comment: NO cells mean no public offer found on company pages or trade coverage, not a proven absence. GetReal call center tools are the least certain cell.
 sources:
-  - claim: Reality Defender covers voice, video and image
-    url: https://aijourn.com/reality-defender-is-named-a-market-shaper-in-the-gartner-emerging-market-quadrant-for-deepfake-detection-startup-vendors/
-    date: "2026-07-01"
-    quote: "Reality Defender’s deepfake detection spans voice, video, and image"
-  - claim: Reality Defender integrates with call center and conferencing platforms, New York
-    url: https://cdn.featuredcustomers.com/CustomerCaseStudy.document/reality-defender_global-bank-ol_953891.pdf
-    date: "2025-01-01"
-    quote: "Reality Defender seamlessly integrated with the bank’s call center and conferencing platforms to detect synthetic voice in real time"
-  - claim: Pindrop Pulse analyzes audio, video and location
-    url: https://marketplace.microsoft.com/product/office/WA200009518
-    date: "2026-01-01"
-    quote: "Pindrop® Pulse analyzes audio, video, and location to detect deepfakes."
-  - claim: Pindrop Pulse for Meetings in Teams
-    url: https://marketplace.microsoft.com/en-us/product/wa200009518
-    date: "2026-01-01"
-    quote: "Pindrop® Pulse for Meetings enhances the security of your Microsoft Teams meetings by detecting deepfake audio and video"
-  - claim: Pindrop is based in Atlanta and serves contact centers
-    url: https://www.nasdaq.com/press-release/pindrop-zoom-integration-embeds-real-time-deepfake-detection-and-identity
-    date: "2026-03-12"
-    quote: "ATLANTA, March 12, 2026 (GLOBE NEWSWIRE) -- Pindrop"
-  - claim: GetReal covers audio, video and still images
-    url: https://techcrunch.com/2025/03/26/has-getreal-cracked-the-code-on-ai-deepfakes-18m-and-an-impressive-client-list-says-yes
-    date: "2025-03-26"
-    quote: "help detect and halt deepfakes and impersonations in audio, video, and still images"
-  - claim: GetReal protects Teams and Webex meetings
-    url: https://www.biometricupdate.com/202509/getreal-security-broadens-its-real-time-deepfake-umbrella-to-teams-and-webex
-    date: "2025-09-01"
-    quote: "Cybersecurity firm GetReal Security has expanded its real-time deepfake protection to cover Microsoft Teams and Cisco Webex"
-  - claim: GetReal is based in Austin, Texas
-    url: https://www.tmcnet.com/usubmit/2026/05/18/10384211.htm
-    date: "2026-05-18"
-    quote: "AUSTIN, Texas, May 18, 2026 /PRNewswire/ -- GetReal Security"
-  - claim: Hive detects video, image and audio, based in San Francisco
-    url: https://www.biometricupdate.com/202412/dod-awards-contract-for-deepfake-detection-to-hive
-    date: "2024-12-06"
-    quote: "The San Francisco, California-based company will be used by the DoD’s Defense Innovation Unit (DIU)"
-  - claim: Sensity covers video, image and audio, based in Amsterdam
-    url: https://microblink.com/es/?p=38949
-    date: "2026-01-01"
-    quote: "Sensity AI stands out for combining multimodal forensic detection with court-ready reporting."
-  - claim: Sensity is headquartered in the Netherlands
-    url: https://www.iamsterdam.com/en/business/key-sectors-for-business/artificial-intelligence/stories/sensity
-    date: "2025-07-10"
-    quote: "Sensity is enjoying the international spotlight thanks to its deepfake detection tools"
+- claim: Reality Defender covers voice, video and image
+  url: https://aijourn.com/reality-defender-is-named-a-market-shaper-in-the-gartner-emerging-market-quadrant-for-deepfake-detection-startup-vendors/
+  date: '2026-07-01'
+  quote: Reality Defender’s deepfake detection spans voice, video, and image
+- claim: Reality Defender integrates with call center and conferencing platforms, New York
+  url: https://cdn.featuredcustomers.com/CustomerCaseStudy.document/reality-defender_global-bank-ol_953891.pdf
+  date: '2025-01-01'
+  quote: Reality Defender seamlessly integrated with the bank’s call center and conferencing platforms to detect synthetic voice in real time
+- claim: Pindrop Pulse analyzes audio, video and location
+  url: https://marketplace.microsoft.com/product/office/WA200009518
+  date: '2026-01-01'
+  quote: Pindrop® Pulse analyzes audio, video, and location to detect deepfakes.
+- claim: Pindrop Pulse for Meetings in Teams
+  url: https://marketplace.microsoft.com/en-us/product/wa200009518
+  date: '2026-01-01'
+  quote: Pindrop® Pulse for Meetings enhances the security of your Microsoft Teams meetings by detecting deepfake audio and video
+- claim: Pindrop is based in Atlanta and serves contact centers
+  url: https://www.nasdaq.com/press-release/pindrop-zoom-integration-embeds-real-time-deepfake-detection-and-identity
+  date: '2026-03-12'
+  quote: ATLANTA, March 12, 2026 (GLOBE NEWSWIRE) -- Pindrop
+- claim: GetReal covers audio, video and still images
+  url: https://techcrunch.com/2025/03/26/has-getreal-cracked-the-code-on-ai-deepfakes-18m-and-an-impressive-client-list-says-yes
+  date: '2025-03-26'
+  quote: help detect and halt deepfakes and impersonations in audio, video, and still images
+- claim: GetReal protects Teams and Webex meetings
+  url: https://www.biometricupdate.com/202509/getreal-security-broadens-its-real-time-deepfake-umbrella-to-teams-and-webex
+  date: '2025-09-01'
+  quote: Cybersecurity firm GetReal Security has expanded its real-time deepfake protection to cover Microsoft Teams and Cisco Webex
+- claim: GetReal is based in Austin, Texas
+  url: https://www.tmcnet.com/usubmit/2026/05/18/10384211.htm
+  date: '2026-05-18'
+  quote: AUSTIN, Texas, May 18, 2026 /PRNewswire/ -- GetReal Security
+- claim: Hive detects video, image and audio, based in San Francisco
+  url: https://www.biometricupdate.com/202412/dod-awards-contract-for-deepfake-detection-to-hive
+  date: '2024-12-06'
+  quote: The San Francisco, California-based company will be used by the DoD’s Defense Innovation Unit (DIU)
+- claim: Sensity covers video, image and audio, based in Amsterdam
+  url: https://microblink.com/es/?p=38949
+  date: '2026-01-01'
+  quote: Sensity AI stands out for combining multimodal forensic detection with court-ready reporting.
+- claim: Sensity is headquartered in the Netherlands
+  url: https://www.iamsterdam.com/en/business/key-sectors-for-business/artificial-intelligence/stories/sensity
+  date: '2025-07-10'
+  quote: Sensity is enjoying the international spotlight thanks to its deepfake detection tools
 ```
 
 ### ed174
