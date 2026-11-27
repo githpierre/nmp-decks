@@ -189,7 +189,7 @@ t:
   21: '2026'
   22: Electric Twin reported nearly 40,000 evaluations across 155 countries, using human response data to test its synthetic audiences.
   23: '2026'
-  24: quantilope launched Category Twins, synthetic consumers built on each brand's tracking data for early research and concept tests.
+  24: quantilope launched Category Twins, synthetic consumers built on each brand's tracking data for early concept tests.
 sources:
 - claim: Strella raised $14M and reported fourfold customer growth and tenfold revenue growth.
   url: https://www.prnewswire.com/news-releases/strella-raises-14m-in-series-a-led-by-bessemer-venture-partners-to-re-design-customer-research-for-the-ai-era-302586024.html
@@ -334,11 +334,11 @@ t:
   15: 'PANEL
 
     COVERAGE'
-  13: Panels may miss rare buyers, offline groups and people with little digital access.
+  13: Panels may miss rare buyers, offline groups and people with little web access.
   32: 'DATA
 
     PRIVACY'
-  30: Research data exposes personal details, so consent, access and retention rules count.
+  30: Research data holds personal facts, so consent, access and retention rules count.
   19: 'MODEL
 
     BIAS'
@@ -561,6 +561,14 @@ sources:
   url: https://www.salesforce.com/news/stories/listen-labs-acquisition/
   date: '2026-11-02'
   quote: completed its acquisition of Listen Labs
+- claim: Pogo launched an AI research platform on its consumer panel.
+  url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+  date: '2026-06-01'
+  quote: Pogo has raised $32 million to date and launched the first product in its research platform.
+- claim: Pogo launched an AI research platform on its consumer panel.
+  url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+  date: '2026-06-01'
+  quote: Pogo has raised $32 million to date and launched the first product in its research platform.
 - claim: Pogo launched an AI research platform on its consumer panel.
   url: https://www.joinpogo.com/articles/announcing-32m-in-funding
   date: '2026-06-01'

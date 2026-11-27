@@ -79,54 +79,54 @@ section: Market opportunity
 title: What happened in-between?
 note: We trace the shift through product launches, synthetic research tools and funding rounds. These milestones show how the market moved from AI-assisted analysis toward products that conduct or simulate research.
 t:
-  13: "🧠"
-  15: "🗣️"
-  16: "📊"
-  5: "2021 to 2023"
-  7: "2024"
-  9: "2025"
-  11: "2026"
-  6: "Outset entered Y Combinator in 2023 with AI interviews, while 56% of research firms already used AI somewhere in their work."
-  8: "Toluna launched HarmonAIze, a synthetic data suite for quantitative and qualitative research, with a focus on hard-to-reach audiences."
-  10: "Listen Labs launched an AI interviewer, then Outset and Strella raised capital as enterprise use of AI interviews expanded."
-  12: "Funding, launches and customer use accelerated across synthetic audiences, AI interviews and evidence-linked research software for enterprise buyers."
+  13: 🧠
+  15: 🗣️
+  16: 📊
+  5: 2021 to 2023
+  7: '2024'
+  9: '2025'
+  11: '2026'
+  6: Outset entered Y Combinator in 2023 with AI interviews, while 56% of research firms already used AI somewhere in their work.
+  8: Toluna launched HarmonAIze, a synthetic data suite for quantitative and qualitative research, with a focus on hard-to-reach audiences.
+  10: Listen Labs launched an AI interviewer, then Outset and Strella raised capital as enterprise use of AI interviews expanded.
+  12: Funding, launches and customer use accelerated across synthetic audiences, AI interviews and evidence-linked research tools for enterprises.
 sources:
-  - claim: Outset joined Y Combinator with an AI-powered user interview product.
-    url: "https://www.ycombinator.com/companies/outset"
-    date: "2023-07"
-    quote: "AI-powered user interviews"
-  - claim: 56% of research firms used AI in 2023.
-    url: "https://researchworld.com/innovations/ai-is-global-adoption-is-local"
-    date: "2026-10-09"
-    quote: "from 56% in 2023"
-  - claim: Toluna launched HarmonAIze for synthetic data in quantitative and qualitative research.
-    url: "https://tolunacorporate.com/toluna-harmonaize-launches-transforming-market-research-with-advanced-synthetic-data-solutions/"
-    date: "2024-09-19"
-    quote: "synthetic data for both quantitative and qualitative research"
-  - claim: Listen Labs launched its AI interviewer in April 2025.
-    url: "https://www.listenlabs.ai/blog/listen-labs-is-joining-salesforce"
-    date: "2026-09-29"
-    quote: "In April 2025, we launched Listen"
-  - claim: Outset and Strella raised $30M and $14M in 2025.
-    url: "https://www.mrweb.com/drno/news39184.htm"
-    date: "2025-12-11"
-    quote: "raised Series B funding totalling $30m"
-  - claim: Strella raised $14M in October 2025.
-    url: "https://www.prnewswire.com/news-releases/strella-raises-14m-in-series-a-led-by-bessemer-venture-partners-to-re-design-customer-research-for-the-ai-era-302586024.html"
-    date: "2025-10-16"
-    quote: "raised $14 million in Series A funding"
-  - claim: 2026 funding and product launches included Simile, Conveo and Hiasynth.
-    url: "https://www.conveo.ai/mediakit"
-    date: "2026-09"
-    quote: "raised a $50M Series A"
-  - claim: Hiasynth Humanity v2.1 added synthetic profiles across 43 European countries.
-    url: "https://hiasynth.com/news/humanity-v2-1"
-    date: "2026-09-24"
-    quote: "43 European countries"
-  - claim: Lumivero launched NVivo AI Cloud for source-linked qualitative analysis.
-    url: "https://lumivero.com/resources/press-releases/lumivero-launches-nvivo-ai-cloud/"
-    date: "2026-09-28"
-    quote: "launch of NVivo AI Cloud"
+- claim: Outset joined Y Combinator with an AI-powered user interview product.
+  url: https://www.ycombinator.com/companies/outset
+  date: 2023-07
+  quote: AI-powered user interviews
+- claim: 56% of research firms used AI in 2023.
+  url: https://researchworld.com/innovations/ai-is-global-adoption-is-local
+  date: '2026-10-09'
+  quote: from 56% in 2023
+- claim: Toluna launched HarmonAIze for synthetic data in quantitative and qualitative research.
+  url: https://tolunacorporate.com/toluna-harmonaize-launches-transforming-market-research-with-advanced-synthetic-data-solutions/
+  date: '2024-09-19'
+  quote: synthetic data for both quantitative and qualitative research
+- claim: Listen Labs launched its AI interviewer in April 2025.
+  url: https://www.listenlabs.ai/blog/listen-labs-is-joining-salesforce
+  date: '2026-09-29'
+  quote: In April 2025, we launched Listen
+- claim: Outset and Strella raised $30M and $14M in 2025.
+  url: https://www.mrweb.com/drno/news39184.htm
+  date: '2025-12-11'
+  quote: raised Series B funding totalling $30m
+- claim: Strella raised $14M in October 2025.
+  url: https://www.prnewswire.com/news-releases/strella-raises-14m-in-series-a-led-by-bessemer-venture-partners-to-re-design-customer-research-for-the-ai-era-302586024.html
+  date: '2025-10-16'
+  quote: raised $14 million in Series A funding
+- claim: 2026 funding and product launches included Simile, Conveo and Hiasynth.
+  url: https://www.conveo.ai/mediakit
+  date: 2026-09
+  quote: raised a $50M Series A
+- claim: Hiasynth Humanity v2.1 added synthetic profiles across 43 European countries.
+  url: https://hiasynth.com/news/humanity-v2-1
+  date: '2026-09-24'
+  quote: 43 European countries
+- claim: Lumivero launched NVivo AI Cloud for source-linked qualitative analysis.
+  url: https://lumivero.com/resources/press-releases/lumivero-launches-nvivo-ai-cloud/
+  date: '2026-09-28'
+  quote: launch of NVivo AI Cloud
 ```
 
 ### ed030
@@ -243,7 +243,7 @@ t:
   12: 50M
   13: Aaru raised more than $50M at a $1B headline valuation
   14: 50M
-  15: Listen Labs passed one million interviews in under two years
+  15: Listen Labs ran one million AI-led customer talks
   16: 1M
   19: Salesforce acquired Listen Labs to add AI research
   20: M&A
