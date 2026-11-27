@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (NOV)
+  14: Modulate raised an undisclosed strategic round. It detects synthetic speech in real-time audio streams {1|Modulate}
+  15: 2026 (OCT)
+  16: Pixel Systems raised a $3.1M seed round led by Unconventional for its media forensics {1|Pixel Systems}
+  17: 2026 (SEP)
+  18: Modulate raised $25M led by Future Ventures. It detects synthetic speech in real-time audio streams {1|Modulate}
+  19: 2026 (SEP)
+  20: Reality Defender raised an undisclosed round led by KPMG LLP. It detects synthetic audio, images, and video {1|Kpmg}
+  21: 2026 (MAY)
+  22: Voxmind raised a $0.7M pre-seed round led by Ascension for its voice detection {1|Tech.eu}
+  23: 2026 (MAR)
+  24: Neuramancer raised a $2M pre-seed round led by Vanagon for its media forensics {1|Vanagon VC}
+  note: We list the latest equity rounds of deepfake detection startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (JAN)
+  15: Sensity AI raised $2.1M led by Auriga Cyber for its forensic detection of synthetic images, video, audio {1|Sensity AI}
+  16: 2026 (JAN)
+  17: Blackbird.AI raised a $28M strategic round for its media forensics {1|Blackbird.AI}
+  18: 2025 (DEC)
+  19: Resemble AI raised $13M. It detects cloned speech and synthetic media for enterprises {1|Resemble AI}
+  20: 2025 (DEC)
+  21: imper.ai raised a $22M Series A led by Redpoint for its deepfake-proof identity verification for workforce {1|CTech}
+  22: 2025 (JUL)
+  23: IdentifAI raised a $5.7M Series A led by United for its media forensics {1|United Ventures}
+  24: 2025 (JUN)
+  25: imper.ai raised a $6.5M seed round led by Battery for its deepfake-proof identity verification for workforce {1|CTech}
+  note: We list the latest equity rounds of deepfake detection startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 34
+    ann: GetReal Security, $18M top round, in 4 rounds
+  - x: 2025 H2
+    v: 40
+    ann: imper.ai, $22M top round, in 3 rounds
+  - x: 2026 H1
+    v: 33
+    ann: Blackbird.AI, $28M top round, in 4 rounds
+  - x: 2026 H2
+    v: 28
+    ann: Modulate, $25M top round, in 4 rounds
+  note:
+  - We add up the disclosed equity rounds of deepfake detection startups we track, by half-year
+  - 2026 H2 runs to early November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 92
+    ann: Alethea, $20M top round, in 13 rounds
+  - x: '2025'
+    v: 74
+    ann: imper.ai, $22M top round, in 7 rounds
+  - x: '2026'
+    v: 61
+    ann: Blackbird.AI, $28M top round, in 8 rounds
+  note:
+  - We add up the disclosed equity rounds of deepfake detection startups in our database, complete since 2024
+  - IPOs, debt and grants are left out, 2026 runs to early November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 22
+    ann: Alethea, $20M top round, out of 13 rounds
+  - x: '2025'
+    v: 29
+    ann: imper.ai, $22M top round, out of 7 rounds
+  - x: 2026 (YTD)
+    v: 46
+    ann: Blackbird.AI, $28M top round, out of 8 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to early November for now
+ed165p:
+  rounds:
+  - name: Blackbird.AI
+    amt: 28000000
+    date: Q1 2026
+    stage: Strategic
+  - name: Modulate
+    amt: 25000000
+    date: Q3 2026
+    stage: Equity
+  - name: imper.ai
+    amt: 21500000
+    date: Q4 2025
+    stage: Series A
+  - name: Resemble AI
+    amt: 13000000
+    date: Q4 2025
+    stage: Equity
+  note:
+  - We listed the biggest equity rounds raised by deepfake detection startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: Incode
+    amt: 220000000
+    date: '2021'
+    stage: Series B
+  - name: Veriff
+    amt: 100000000
+    date: '2022'
+    stage: Series C
+  - name: Pindrop
+    amt: 90000000
+    date: '2018'
+    stage: late-stage
+  - name: Pindrop
+    amt: 75000000
+    date: '2016'
+    stage: Series C
+  note:
+  - We listed the biggest equity rounds raised by deepfake detection startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: MEDIA FORENSICS
+  9: '16'
+  13: $120M
+  17: Blackbird.AI, Alethea, Clarity
+  7: MEETING PROTECTION
+  11: '5'
+  15: $62M
+  19: imper.ai, GetReal Security, Reken
+  8: VOICE DETECTION
+  12: '5'
+  16: $39M
+  20: Modulate, Resemble AI, Voxmind
+  note: We used our tracker of 28 deepfake detection equity rounds announced since January 2024, worth about $226M. IPOs, debt and grants are left out
+ed169:
+  7: BATTERY
+  10: '2'
+  14: $28M
+  18: imper.ai (twice)
+  8: REDPOINT
+  12: '2'
+  16: $28M
+  20: imper.ai (twice)
+  9: UNITED
+  13: '2'
+  17: $8.2M
+  21: IdentifAI (twice)
+  26: FUTURE VENTURES
+  28: '1'
+  30: $25M
+  32: Modulate
+  27: GV
+  29: '1'
+  31: $20M
+  33: Alethea
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 28 rounds
+ed205:
+  14: 2024 (APR)
+  15: Alethea raised a $20M Series B led by GV for its media forensics {1|Alethea}
+  16: 2024 (OCT)
+  17: Reality Defender raised an $18M Series A led by Illuminate Financial. It detects synthetic audio {1|PR Newswire}
+  18: 2025 (MAR)
+  19: GetReal Security raised an $18M Series A led by Forgepoint for its meeting protection {1|SecurityWeek}
+  20: 2025 (DEC)
+  21: imper.ai raised a $22M Series A led by Redpoint for its deepfake-proof identity verification for workforce {1|CTech}
+  22: 2026 (JAN)
+  23: Blackbird.AI raised a $28M strategic round for its media forensics {1|Blackbird.AI}
+  24: 2026 (SEP)
+  25: Modulate raised $25M led by Future Ventures. It detects synthetic speech in real-time audio streams {1|Modulate}
+  note: We picked the biggest disclosed rounds of deepfake detection startups since 2024, from our tracker of rounds
+ed160:
+  6: Media forensics took about 53% of the capital raised since 2024, ahead of Meeting protection with about 28%
+  7: 24 of the 28 rounds since 2024 disclosed an amount, and the median disclosed round was $6.1M
+  8: US startups closed 16 of the 28 rounds and took $173M, about 76% of all the money raised since 2024
+  9: No round reached $100M since 2024, so the market still grows through seed and Series A rounds
+  10: The $28M round of Blackbird.AI is the biggest since 2024, ahead of the $25M round of Modulate
+  11: Seed was the most common round, with 11 of the 28 rounds, ahead of Series A with 6 and Series B with 1
+  note: We drew these insights from our tracker of 28 deepfake detection equity rounds announced since January 2024, worth about $226M
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, detection was mostly research funded by DARPA and big tech, with a few early startups like Sensity.'
+  7: 'AFTER
+
+
+
+    Since 2024, 28 rounds raised $226M. Media forensics takes the biggest share, and meeting protection comes next.'
+  note: We used our tracker of deepfake detection equity rounds, complete from January 2024, and company releases and the press

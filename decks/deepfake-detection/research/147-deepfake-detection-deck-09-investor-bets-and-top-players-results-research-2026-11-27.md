@@ -863,48 +863,6 @@ sources:
 
 ### ed190
 ```yaml
-status: ok
-title: "How fast are deepfake detection\nstartups growing?"
-note: "We follow valuations announced at each funding round, counted from the founding year. Persona, Socure, Veriff and Incode are identity checkers that sell deepfake defense."
-t:
-  12: $6B
-  41: "Why no pure detector yet. {1|Identity checkers already sold to banks at scale. The most valued impersonation specialist, Doppel, reached $600M in 2025.}"
-  37: "SOCURE\n\n$4.5B"
-  38: "PERSONA\n\n$2B"
-  10: $3B
-  36: "VERIFF\n\n$1.5B"
-  39: "INCODE\n\n$1.3B"
-  8: $0
-  13: Founding
-  14: Year 2
-  15: Year 4
-  16: Year 6
-  17: Year 8
-  18: Year 10
-  19: Year 12
-  20: Year 14
-  21: Year 16
-  22: YEARS SINCE FOUNDING
-comment: "Chart points: Socure $1.3B (year 9) then $4.5B (year 9), Persona $1.5B (year 3) then $2B (year 7), Veriff $1.5B (year 7), Incode $1.25 billion (year 6, shown as $1.3B)."
-sources:
-  - claim: Socure $4.5B in November 2021
-    url: https://techcrunch.com/2021/11/09/identity-verification-startup-socure-raises-450m-at-4-5b-valuation-adding-tiger-global-as-new-investor
-    date: "2021-11-09"
-    quote: "The round brings the company’s valuation to $4.5 billion"
-  - claim: Persona $2B in 2025
-    url: https://fintech.global/2025/04/30/identity-verification-firm-persona-hits-2bn-valuation-following-200m-funding-round/
-    date: "2025-04-30"
-    quote: "pushing its valuation to $2bn."
-  - claim: Veriff $1.5B
-    url: https://finance.yahoo.com/news/tiger-global-alkeon-led-funding-210245993.html
-    date: "2022-01-26"
-    quote: "valuing the identity verification startup at $1.5 billion"
-  - claim: Incode valued at $1.25 billion
-    url: https://siliconangle.com/?p=565815
-    date: "2021-12-07"
-    quote: "today said it has raised $220 million in new funding on a valuation of $1.25 billion"
-  - claim: Doppel valued above $600M
-    url: https://www.securityweek.com/doppel-raises-70-million-at-600-million-valuation/
-    date: "2025-11-19"
-    quote: "Closed only six months after the Series B funding, the new investment round boosts Doppel’s valuation to over $600 million."
+status: no_data
+reason: no comparable growth curves of startups by years since founding were found
 ```

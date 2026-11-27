@@ -268,8 +268,8 @@ t:
   11: "Shared, independent tests\nbased on real-world deepfakes"
   12: "Clear rules on who must\ncheck for deepfakes"
   13: "Fewer false alarms, so banks can block fakes without losing real customers"
-  14: "Detection built into every meeting, phone and ID tool by default, as Teams allows"
-  15: "Proof that detection cuts losses, like HealthEquity's 90% drop in voice fraud with Pindrop"
+  14: "Detection built into every meeting, phone and ID tool, as Teams now allows"
+  15: "Proof that detection cuts losses, like HealthEquity's 90% drop in voice fraud"
 sources:
   - claim: Detectors struggle on real political deepfakes
     url: https://arxiv.org/abs/2510.16556

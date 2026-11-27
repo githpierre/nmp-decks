@@ -1,5 +1,5 @@
 - after: ed104
-  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  link: Checks that run inside Zoom, Teams, call center software and identity flows buyers already use
   slide:
     id: pp_s06
     type: pp_value
@@ -42,3 +42,396 @@
     note:
     - We placed each company by how its business model works, from pricing pages and filings
     - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xs_pindrop
+    type: x/sig_key_trend
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: month
+      end: 2026-06
+    title: 'AI-driven attacks seen by Pindrop rose
+
+      1,680% from late 2024 to mid-2026'
+    t:
+      9: '100'
+      10: Q4 2024
+      12: 1,780
+      13: JUN 2026
+      15: ×17.8
+      16: WHY IT IS HOT
+      17: 'Attacks with AI voices and faces on companies grow faster than any other threat Pindrop tracks, so buyers need detection now, a sign of a hot market.
+
+
+
+        The index sets the end of 2024 at 100. It counts attacks Pindrop sees, not all attacks.'
+    vbars:
+    - 100
+    - 1780
+    note: We set Pindrop’s level of AI-driven attacks in Q4 2024 at 100 and applied the 1,680% rise it reported through June 2026
+  sources:
+  - claim: AI-driven attacks up 1
+    680% from Q4 2024 through June 2026: None
+    url: https://www.biometricupdate.com/202609/deepfakes-are-overwhelming-businesses-unprepared-to-deal-with-ai-threat-pindrop
+    date: '2026-09-28'
+    quote: AI-driven attacks increased 1,680 percent from Q4 2024 through June 2026
+  - claim: AI-driven attacks grow eight times faster than traditional ones
+    url: https://www.biometricupdate.com/202609/deepfakes-are-overwhelming-businesses-unprepared-to-deal-with-ai-threat-pindrop
+    date: '2026-09-28'
+    quote: growing eight times faster than traditional attack types.
+- after: xs_pindrop
+  link: ed032, signal 2 of the list
+  slide:
+    id: xs_gap
+    type: kpis
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-09
+    title: '93% of security leaders fear deepfakes,
+
+      but only 10% use a detection tool'
+    items:
+    - value: 93%
+      label: Security leaders who worry their company is not ready for deepfake attacks
+    - value: ~74%
+      label: Leaders who saw or suspect a deepfake attack on their company in the past year
+    - value: 10%
+      label: Leaders whose company already uses a tool built to detect deepfakes
+    why: This is a sign of a hot market because almost every leader worries and very few have bought, so most of the demand is still unserved. Pindrop sells such tools.
+    note: We used Pindrop’s Deepfake Readiness Index of September 2026. “nearly three-quarters” is read as about 74%
+  sources:
+  - claim: 93% of leaders worry they are not prepared
+    url: https://www.biometricupdate.com/202609/deepfakes-are-overwhelming-businesses-unprepared-to-deal-with-ai-threat-pindrop
+    date: '2026-09-28'
+    quote: 93 percent of leaders are concerned they aren't prepared for a deepfake attack.
+  - claim: Nearly three-quarters encountered or suspect an attack
+    url: https://helpnetsecurity.com/2026/09/29/pindrop-enterprise-deepfake-attacks-report
+    date: '2026-09-29'
+    quote: Nearly three-quarters of security leaders have encountered or suspect a deepfake attack in the past year
+  - claim: Only 10% deploy deepfake detection tools
+    url: https://www.biometricupdate.com/202609/deepfakes-are-overwhelming-businesses-unprepared-to-deal-with-ai-threat-pindrop
+    date: '2026-09-28'
+    quote: only 10 percent are deploying deepfake detection tools to catch them.
+- after: xs_gap
+  link: ed032, signal 3 of the list
+  slide:
+    id: xs_deals
+    type: sx_league
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-09
+    big: '4'
+    h0: BUYER AND TARGET
+    h1: NO.
+    h2: WHEN
+    kicker: WHY IT IS HOT
+    title: 'Identity, telecom, HR and audit groups
+
+      keep buying into deepfake detection'
+    rows:
+    - n: 1
+      name: Entrust + Onfido
+      src: ../../assets/logos/entrust.png
+      v: Apr 2024
+      what: Selfie and ID checks, $650M
+    - n: 2
+      name: Hiya + Loccus.ai
+      src: ../../assets/logos/hiya.png
+      v: Jul 2024
+      what: Voice deepfake detection
+    - n: 3
+      name: Deel + Clarity
+      src: ../../assets/logos/deel.png
+      v: Aug 2026
+      what: Fake candidates, up to $50M
+    - n: 4
+      name: KPMG + Reality Defender
+      src: ../../assets/logos/reality-defender.png
+      v: Sep 2026
+      what: Minority stake
+    story: Large groups now pay to own or back detection, from identity checks to hiring, a sign of a hot market. Prices are reported figures, and most deals were not priced.
+    note:
+    - We listed four deals announced from April 2024 to September 2026, from releases and the press
+    - The Onfido and Clarity prices are reported estimates, not official figures from the companies
+  sources:
+  - claim: Entrust bought Onfido for a reported $650M
+    url: https://techcrunch.com/2024/02/06/confirmed-entrust-is-buying-ai-based-id-verification-startup-onfido-sources-say-for-more-than-400m
+    date: '2024-02-06'
+    quote: Since we published this story, sources close to the deal have confirmed the price is $650 million.
+  - claim: Entrust completed the Onfido deal in April 2024
+    url: https://www.lse.co.uk/rns/portfolio-company-onfido-acquired-by-entrust-ji9aqq4uoobxrj1.html
+    date: '2024-04-09'
+    quote: notes the announcement by Entrust that they have completed their acquisition of Onfido
+  - claim: Hiya acquired Loccus.ai
+    url: https://www.businesswire.com/news/home/20240725061586/en
+    date: '2024-07-25'
+    quote: Hiya, the leader in global voice security services, has acquired Loccus.ai, the industry leader in deepfake detection solutions.
+  - claim: Deel acquired Clarity for an estimated $40M to $50M
+    url: https://calcalistech.com/ctechnews/article/bkeyex0sgl
+    date: '2026-08-03'
+    quote: the deal is estimated to be worth approximately $40-50 million, paid in a combination of cash and shares of the acquiring company.
+  - claim: KPMG took a minority stake in Reality Defender
+    url: https://kpmg.com/us/en/media/news/kpmg-llp-takes-minority-stake-in-deepfake-detection-leader-reality-defender.html
+    date: '2026-09-10'
+    quote: KPMG LLP Takes Minority Stake in Deepfake Detection Leader Reality Defender
+- after: xs_deals
+  link: ed032, signal 4 of the list
+  slide:
+    id: xs_laws
+    type: x/sig_key_trend
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-08
+    title: '48 US states now have laws on sexual
+
+      deepfakes, up from 29 in mid-2024'
+    t:
+      9: '29'
+      10: JUN 2024
+      12: '48'
+      13: AUG 2026
+      15: ×1.7
+      16: WHY IT IS HOT
+      17: 'New laws push platforms to find and remove fake intimate images fast, so they buy screening tools now, a sign of a hot market.
+
+
+
+        The federal TAKE IT DOWN Act adds a 48-hour removal duty, enforced by the FTC since May 2026.'
+    vbars:
+    - 29
+    - 48
+    note: We used Ballotpedia’s counts of US states with laws on sexually explicit deepfakes, from June 2024 to August 2026
+  sources:
+  - claim: 29 states in June 2024
+    url: https://news.ballotpedia.org/?p=37853
+    date: '2024-06-27'
+    quote: As of June 21, 29 states had enacted laws related to pornographic deepfakes.
+  - claim: 46 states in January 2026
+    url: https://ballotpedia.org/Deepfake_policy_in_the_United_States,_2019_-_Present
+    date: '2026-01-09'
+    quote: As of January 9, 2026, 46 states had enacted laws concerning the creation or distribution of deepfakes that depict explicit sexual acts
+  - claim: 48 states in August 2026
+    url: https://www.finanznachrichten.de/nachrichten-2026-08/69225276-ballotpedia-ballotpedia-reports-forty-eight-states-now-have-laws-addressing-sexually-explicit-deepfakes-296.htm
+    date: '2026-08-05'
+    quote: 48 states have passed laws addressing sexually explicit deepfakes, up from 46 at the beginning of 2026
+  - claim: TAKE IT DOWN Act 48-hour removal duty
+    url: https://www.yahoo.com/news/ai-generated-porn-mr-deepfakes-001406528.html
+    date: '2025-05-06'
+    quote: requires social media platforms and other websites to remove images and videos within 48 hours after a victim's request.
+- after: xs_laws
+  link: ed032, signal 5 of the list
+  slide:
+    id: xs_entrust
+    type: sx_stat_strip
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: year
+      end: 2026-09
+    title: 'Deepfake attacks on identity checks
+
+      grew 2,200% in the Americas in a year'
+    headline: Yearly growth of deepfake attacks seen by Entrust in 2026
+    stats:
+    - v: +2,200%
+      l: Americas, the largest buyer market for identity tools
+    - v: +165%
+      l: Worldwide, across the 195 countries Entrust covers
+    - v: 94%
+      l: Share of deepfakes seen that targeted finance firms
+    story: Fraudsters aim fake faces at banks first, which is why banks are the main buyers of detection, a sign of a hot market. These are Entrust’s own checks, not all attacks.
+    note:
+    - We used Entrust’s 2027 Identity Fraud Report, published in November 2026,
+    - on identity checks it processed from September 2025 to September 2026
+  sources:
+  - claim: Americas deepfake attacks up 2
+    200%: None
+    url: https://www.entrust.com/company/newsroom/2027-identity-fraud-report
+    date: '2026-11-17'
+    quote: Deepfake attacks increased 2,200%
+  - claim: Global deepfake attacks up 165%
+    url: https://www.entrust.com/company/newsroom/2027-identity-fraud-report
+    date: '2026-11-17'
+    quote: Deepfake attacks increased 165% year over year
+  - claim: Asia-Pacific deepfake activity up 116%
+    url: https://technode.global/?p=997891
+    date: '2026-11-18'
+    quote: Detected deepfake activity in Asia-Pacific increased 116 percent year over year
+  - claim: Financial services share 94%
+    url: https://www.entrust.com/company/newsroom/2027-identity-fraud-report
+    date: '2026-11-17'
+    quote: Financial services accounted for 94% of all deepfakes detected globally
+  - claim: Data period September 2025 to September 2026
+    url: https://technode.global/?p=997891
+    date: '2026-11-18'
+    quote: the report analyzed data from identity verifications processed between September 2025 and September 2026 across 195 countries.
+- after: xs_entrust
+  link: ed032, signal 6 of the list
+  slide:
+    id: xs_doppel
+    type: x/sig_announced_vs_built
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2025-11
+    title: 'Doppel’s value rose from $205M to more
+
+      than $600M in about six months'
+    t:
+      8: '205'
+      9: '$M valuation at
+
+        Series B, May 2025'
+      11: '600'
+      12: '$M+ valuation at
+
+        Series C, Nov 2025'
+      15: ×2.9
+      16: WHY IT IS HOT
+      17: 'Investors paid about three times more for Doppel, which tracks fake profiles and impersonation across channels, within six months, a sign of a hot market.
+
+
+
+        A valuation is a price paid by a few investors in one round, not revenue or a proven market value.'
+    vbars:
+    - 205
+    - 600
+    note: We used Doppel’s Series B release of May 2025 and Fortune’s report on its $70M Series C of November 2025
+  sources:
+  - claim: $35M Series B at $205M valuation led by Bessemer
+    url: https://www.businesswire.com/news/home/20250502542037/en
+    date: '2025-05-02'
+    quote: The Series B round of $35 million at $205 million valuation is led by Bessemer Venture Partners
+  - claim: Doppel raised $70M at more than $600M valuation
+    url: https://fortune.com/2025/11/19/exclusive-doppel-raises-70-million-series-c-at-more-than-600-million-valuation-to-fight-ai-powered-social-engineering-attacks
+    date: '2025-11-19'
+    quote: 'Exclusive: Doppel raises $70 million Series C at more than $600 million valuation to fight AI-powered social engineering attacks'
+- after: xs_doppel
+  link: ed032, signal 7 of the list
+  slide:
+    id: xs_modulate
+    type: kpis
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-09
+    title: 'Modulate checks more than 10M hours
+
+      of audio a month for fake voices'
+    items:
+    - value: 10M+
+      label: Hours of audio Modulate analyzes each month for fake voices
+    - value: 600M+
+      label: Hours of audio it has analyzed in total since it was founded
+    - value: $25M
+      label: New round raised in September 2026, for $60M raised in total
+    why: This is a sign of a hot market because voice checks now run at the scale of whole platforms, and investors fund more of it. Hours analyzed are not hours of fakes found.
+    note: We used SecurityWeek and ID Tech Wire reports of September 28, 2026 on Modulate’s round and the volume of audio it analyzes
+  sources:
+  - claim: Modulate analyzes 10 million hours of audio monthly
+    url: https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/
+    date: '2026-09-28'
+    quote: The firm currently analyzes more than 10 million hours of audio each month, with over 600 million hours analyzed in total.
+  - claim: Modulate raised $25M, total $60M
+    url: https://idtechwire.com/modulate-raises-25-million-to-expand-audio-ai-and-fraud-detection/
+    date: '2026-09-28'
+    quote: Future Ventures led the financing, with participation from Hyperplane and Lakestar, bringing the company’s total funding to $60 million.
+- after: pp_s06
+  link: pp_s06, the business models, and ed104 BUILT-IN PLACEMENT
+  slide:
+    id: xv_margins
+    type: sx_stat_strip
+    section: Value creation
+    title: 'authID lost $8.95 per dollar of sales
+
+      while Mitek earned 5 cents'
+    headline: Net profit or loss per $1 of revenue, full year 2025
+    stats:
+    - v: −$8.95
+      l: authID, a small listed seller of face checks with deepfake defense
+    - v: −$2.25
+      l: Cyabra, a small listed firm that tracks fake profiles and false stories
+    - v: +$0.05
+      l: Mitek, an older identity firm with $179.7M of revenue in its fiscal 2025
+    story: Small detection sellers still spend far more than they sell, while a large identity firm earns a thin margin. Scale and a place in buyers’ tools decide who survives.
+    note:
+    - We divided each company’s 2025 net result by its 2025 revenue, from filings and releases.
+    - Mitek’s fiscal year ended in September 2025. None of the three is a startup today
+  sources:
+  - claim: authID 2025 net loss $17.9M
+    url: https://www.barchart.com/story/news/1073766/authid-reports-financial-and-operating-results-for-the-fourth-quarter-2025
+    date: '2026-03-31'
+    quote: Net loss was $17.9 million, or $1.38 per share, compared to a loss of $14.3 million, or $1.40 per share a year ago.
+  - claim: authID 2025 net revenue $2M
+    url: https://www.barchart.com/story/news/1073766/authid-reports-financial-and-operating-results-for-the-fourth-quarter-2025
+    date: '2026-03-31'
+    quote: Total net revenue for the twelve months ended December 31, 2025 which reflects estimated concessions totaling $0.9 million, was $2.0 million
+  - claim: authID markets deepfake countermeasures
+    url: https://www.nasdaq.com/press-release/authid-publishes-new-whitepaper-next-generation-deepfake-detection-technology-2025-03
+    date: '2025-03-06'
+    quote: authID Publishes New Whitepaper on Next-Generation Deepfake Detection Technology
+  - claim: Cyabra 2025 revenue $5.71M
+    url: https://www.macroaxis.com/financial-statements/CYAB
+    date: '2026-11-01'
+    quote: Cyabra Common's total revenue came in at $5.71 million for the fiscal year ended December 31, 2025
+  - claim: Cyabra 2025 net loss $12.82M
+    url: https://www.macroaxis.com/financial-statements/CYAB
+    date: '2026-11-01'
+    quote: Cyabra Common reported a net loss of $12.82 million for fiscal 2025
+  - claim: Mitek fiscal 2025 revenue $179.7M
+    url: https://seekingalpha.com/pr/20337551
+    date: '2025-12-11'
+    quote: Total revenue of $179.7 million was a 4% increase year-over-year
+  - claim: Mitek fiscal 2025 GAAP net income $8.8M
+    url: https://seekingalpha.com/pr/20337551
+    date: '2025-12-11'
+    quote: GAAP net income of $8.8 million, compared to $3.3 million a year ago.
+- after: ed064-s3
+  link: ed064-s3, AI images flooding child safety reports
+  slide:
+    id: xc_ncmec
+    type: kpis
+    section: Pain points
+    title: 'AI-linked child abuse reports to NCMEC
+
+      rose from 4,700 to more than 400,000'
+    items:
+    - value: 4,700
+      label: Reports linked to generative AI received by NCMEC in all of 2023
+    - value: 67,000
+      label: Reports linked to generative AI received in 2024, 14 times more
+    - value: 400,000+
+      label: Reports in 2025 that NCMEC could act on, out of 1.5M in total
+    why: Child safety teams now face a flood of AI-made images that people cannot review one by one, the core need behind platform screening tools.
+    note: We used NCMEC’s counts for 2023 to 2025. Of the 1.5M reports of 2025, 1.1M came from Amazon AI Services with no actionable information
+  sources:
+  - claim: '4'
+    700 reports in 2023: None
+    url: https://ncmec.org/GAI
+    date: '2026-03-31'
+    quote: 4,700 CyberTipline reports of GAI from the public and ESPs
+  - claim: '67'
+    000 reports in 2024: None
+    url: https://ncmec.org/GAI
+    date: '2026-03-31'
+    quote: 67,000 CyberTipline reports of GAI from the public and ESPs
+  - claim: 1.5M in 2025
+    of which 1.1M from Amazon with no actionable information: None
+    url: https://ncmec.org/GAI
+    date: '2026-03-31'
+    quote: Of this total, 1.1 million were submitted by Amazon AI Services and contained no actionable information.
+  - claim: More than 400
+    000 actionable reports in 2025: None
+    url: https://cf.missingkids.org/theissues/generative-ai
+    date: '2026-03-31'
+    quote: More than 400,000 CyberTipline reports of GAI from the public and ESPs that can be separated into five categories

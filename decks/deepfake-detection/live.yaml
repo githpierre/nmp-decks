@@ -102,8 +102,38 @@ ed168p:
 
     put their money this past year?'
   note:
-  - We added up every equity round of deepfake detection startups in our tracker over the last twelve months
-  - by category of our market definition, and rounds with no public amount count as zero here
+  - We added up the equity rounds of deepfake detection startups over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero
+  rows:
+  - name: Voice detection
+    names:
+    - Modulate
+    - Resemble AI
+    v: $39M
+    pct: 41% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/modulate.png
+    - src: ../../assets/logos/resemble-ai.png
+  - name: Media forensics
+    names:
+    - Pixel Systems
+    - Sensity AI
+    v: $35M
+    pct: 37% of total
+    w: 90.8
+    logos:
+    - src: ../../assets/logos/fav/pixel-systems.png
+    - src: ../../assets/logos/sensity-ai.png
+    - src: ../../assets/logos/fav/neuramancer.png
+  - name: Meeting protection
+    names:
+    - imper.ai
+    v: $22M
+    pct: 23% of total
+    w: 55.5
+    logos:
+    - src: ../../assets/logos/imper-ai.png
 ed171p:
   title: 'Who are the top companies
 
@@ -169,15 +199,15 @@ ed171p:
     y: 504.9
   cols:
   - Leaders
-  - ''
-  - $16B $208
+  - Challengers
+  - Newcomers
   rows:
-  - more
-  - Lately. Law firms and
-  - OO _ SLU
+  - Multimodal
+  - Voice
+  - Provenance
   note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
+  - We placed private pure players by their main product and stage, from funding news and the press
+  - We left out listed firms and incumbents like Adobe or Microsoft, with sources at the end
 ed209p:
   title: 'Why might Reality Defender lead
 
@@ -247,7 +277,8 @@ ed209p:
   - We used company reports and public records, and all our sources are at the end of the report
 ed007p:
   type: pp_radar
-  title: 'Who Is in deepfake detection,
+  title: 'Who is in deepfake detection,
+
 
     and who stays outside?'
   TL:
@@ -309,11 +340,217 @@ ed052p:
 
     deepfake detection get?'
   lead: ''
-  condition: To get that big, deepfake detection must keep pace with new generators, work in real time and prove low false-positive rates across audio,
-    video, images and document attacks.
+  condition: To get that big, deepfake detection must keep pace with new generators, work in real time and prove low false-positive rates across audio, video, images and document attacks.
   note:
-  - We compared forecasts from Meticulous Research, Econ Market Research and Grand View Research
-  - We adjusted each one to our own definition, and all the sources are included at the end of the report
-  size: 2.6
-  cagr: 32
-  y0: null
+  - We compared forecasts from Meticulous Research, SNS Insider, Astute Analytica and Next Move
+  - We adjusted each one to our own definition, and all the sources are at the end of the report
+  size: 1.0
+  cagr: 28
+  y0: 2026
+ed047p:
+  type: pp_donutv
+  variant: B
+  title: 'How is the deepfake detection market
+
+
+    split between its categories?'
+  cats:
+  - name: Voice Detection
+    p: 28
+    logos:
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-02.png
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-03.png
+  - name: Video Detection
+    p: 22
+    logos:
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-08.png
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-09.png
+  - name: Image Forensics
+    p: 20
+    logos:
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-06.png
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-07.png
+  - name: ID Injection Defense
+    p: 18
+    logos:
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-04.png
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-05.png
+  - name: Media Provenance
+    p: 12
+    logos:
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-00.png
+    - ../../assets/logos/pp_live/deepfake-detection/s03b-01.png
+  note:
+  - We built these estimates from company revenue, company filings and industry reports on the market
+  - They give orders of magnitude, not exact shares, and all our sources are listed at the end of the report
+ed058:
+  type: pp_pains
+  title: 'Which deepfake detection
+
+
+    problems are still unsolved?'
+  auds:
+  - Large banks
+  - Call centers
+  - ID platforms
+  - Media teams
+  - Large employers
+  pains:
+  - - New generators quickly weaken detection accuracy
+    - - 3
+      - 2
+      - 2
+      - 1
+      - 2
+  - - Audio calls can hide deepfake attacks in real time
+    - - 2
+      - 3
+      - 1
+      - 2
+      - 2
+  - - Video meetings create executive impersonation risk
+    - - 2
+      - 1
+      - 3
+      - 2
+      - 1
+  - - Injection attacks bypass ordinary camera checks
+    - - 1
+      - 2
+      - 2
+      - 3
+      - 2
+  - - False positives can block genuine customers
+    - - 2
+      - 2
+      - 1
+      - 2
+      - 3
+  - - Teams lack benchmarks for detector performance
+    - - 3
+      - 1
+      - 2
+      - 2
+      - 1
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which deepfake detection players
+
+
+    can already do the most today?'
+  companies:
+  - name: RealityDef
+    src: ../../assets/logos/pp_live/deepfake-detection/s05-00.png
+  - name: GetReal
+    src: ../../assets/logos/pp_live/deepfake-detection/s05-01.png
+  - name: Pindrop
+    src: ../../assets/logos/pp_live/deepfake-detection/s05-02.png
+  - name: iProov
+    src: ../../assets/logos/pp_live/deepfake-detection/s05-03.png
+  - name: Attestiv
+    src: ../../assets/logos/pp_live/deepfake-detection/s05-04.png
+  features:
+  - header: Audio|detect
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Video|detect
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Image|detect
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+  - header: Live call|detect
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: API|access
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: Forensic|console
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  - header: ID attack|defense
+    values:
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+
+    to the deepfake detection market?'
+  events:
+  - impact: 3
+    odds: 55
+    text: AI generators learn to evade leading detectors, forcing buyers to distrust scores and delay automated deepfake blocking
+  - impact: 2
+    odds: 50
+    text: Enterprises find high false positive rates in live calls, limiting deployment of voice and meeting deepfake blockers
+  - impact: 2
+    odds: 45
+    text: C2PA provenance spreads across cameras and AI tools, reducing demand for standalone deepfake detection in some workflows
+  - impact: 3
+    odds: 45
+    text: Big cloud platforms bundle synthetic media checks for free, squeezing specialist vendors such as Reality Defender
+  - impact: 1
+    odds: 40
+    text: Deepfake laws focus on disclosure and takedowns, not detection mandates, limiting forced purchases by media companies
+  - impact: 2
+    odds: 35
+    text: EU AI Act labels prove easy to strip in social apps, weakening the business case for compliance led detection spending
+  - impact: 2
+    odds: 35
+    text: Funding cools for deepfake startups before revenue scales, causing consolidation and fewer independent detection products
+  - impact: 3
+    odds: 25
+    text: A lawsuit over a false deepfake accusation raises liability fears, making banks require human review for every alert
+  note:
+  - We listed the events that could slow deepfake detection down, from company news, regulators and analysts
+  - Odds and impact are our own estimates, and you will find all the sources we used at the end of the report
+ed039p:
+  caption_period: November 2021 to July 2025
+  csv: assets/trends/deepfake-detection/deepfake-detection.csv
+  cut: '2025-07-27'
+  date: From late 2021 to mid-2025.
+  expl: Interest grew as cheap AI tools made fake faces and voices easy, and as a fake video call cost the firm Arup about $25.6M in 2024.
+  note:
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
+  pill: SIGNAL
+  signal: google-trends
+  term: deepfake detection
+  title: 'Searches for deepfake detection soared
+
+
+    from late 2021 to mid-2025'
+  window: 5y

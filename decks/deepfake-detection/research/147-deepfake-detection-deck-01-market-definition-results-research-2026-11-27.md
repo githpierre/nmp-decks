@@ -125,7 +125,7 @@ items:
 - e: 📞
   t: When a call center flags a cloned voice before an account is taken over
 - e: 🎥
-  t: When a finance worker learns the CFO on a video call is a deepfake
+  t: When a finance worker learns that the CFO on a video call is really a deepfake
 - e: 🏦
   t: When a bank stops a fake face at sign-up before a mule account is opened
 - e: 💼
@@ -222,7 +222,7 @@ categories:
 - label: 'CONTENT
 
     PROVENANCE'
-  description: Signed records that show where a photo or a video came from
+  description: Signed records that show where a photo or a video first came from
   e: 🔒
 ```
 
@@ -253,7 +253,7 @@ categories:
 - label: 'NEWSROOMS AND
 
     PLATFORMS'
-  description: Media groups and social apps that check what people upload
+  description: Media groups and social apps that check what their users upload
   e: 📺
 - label: 'SECURITY
 
@@ -289,7 +289,7 @@ categories:
 - label: 'PER-SEAT
 
     PLANS'
-  description: Charging for each employee protected in calls and meetings
+  description: Charging for each employee protected in calls and in meetings
   e: 👥
 - label: 'GOVERNMENT
 
@@ -299,7 +299,7 @@ categories:
 - label: 'MARKETPLACE
 
     SALES'
-  description: Selling through the stores of Zoom, FICO or cloud platforms
+  description: Selling through the app stores of Zoom, FICO or cloud platforms
   e: 🛒
 - label: 'FORENSIC
 

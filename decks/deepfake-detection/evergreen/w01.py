@@ -33,7 +33,7 @@ add("ed012",{"status":"no_data","reason":"products and their names change too of
 add("ed013",{"status":"no_data","reason":"prices depend on the volume, the channel and the contract and are rarely published"})
 add("ed014",{"status":"ok","title":"When and where is value created in the market?","items":[
  {"e":"📞","t":"When a call center flags a cloned voice before an account is taken over"},
- {"e":"🎥","t":"When a finance worker learns the CFO on a video call is a deepfake"},
+ {"e":"🎥","t":"When a finance worker learns that the CFO on a video call is really a deepfake"},
  {"e":"🏦","t":"When a bank stops a fake face at sign-up before a mule account is opened"},
  {"e":"💼","t":"When a recruiter spots a fake candidate before giving access to company systems"},
  {"e":"📺","t":"When a newsroom proves a viral video is fake before it spreads further"},
@@ -63,14 +63,14 @@ add("ed018",{"status":"ok","title":"How can we categorize companies of the deepf
  {"label":"MEETING\nPROTECTION","description":"Tools that check that people in a video call are real people","e":"🎥"},
  {"label":"IDENTITY\nCHECKS","description":"Selfie and video checks that spot fake faces at sign-up or login","e":"💳"},
  {"label":"PLATFORM\nSCREENING","description":"Tools that scan uploads at scale for fake or harmful AI media","e":"📱"},
- {"label":"CONTENT\nPROVENANCE","description":"Signed records that show where a photo or a video came from","e":"🔒"}]})
+ {"label":"CONTENT\nPROVENANCE","description":"Signed records that show where a photo or a video first came from","e":"🔒"}]})
 add("ed019",{"status":"ok","title":"How can we categorize companies of the deepfake detection market?","page":"2/3",
  "note":"We also categorize by buyer because banks, call centers, governments and platforms need very different proof, prices and ways to pay.",
  "t":{25:"Here, we categorize by the type of buyer"},"categories":[
  {"label":"BANKS AND\nFINTECHS","description":"Banks and payment apps that check new clients and big transfers","e":"🏦"},
  {"label":"CONTACT\nCENTERS","description":"Call centers that verify callers before they change an account","e":"📞"},
  {"label":"GOVERNMENT\nAGENCIES","description":"Defense, police and election bodies that check media and identities","e":"🏛️"},
- {"label":"NEWSROOMS AND\nPLATFORMS","description":"Media groups and social apps that check what people upload","e":"📺"},
+ {"label":"NEWSROOMS AND\nPLATFORMS","description":"Media groups and social apps that check what their users upload","e":"📺"},
  {"label":"SECURITY\nTEAMS","description":"Company security teams that guard calls, meetings and hiring","e":"🛡️"},
  {"label":"HR AND\nRECRUITERS","description":"Hiring teams that check that remote candidates are real people","e":"💼"}]})
 add("ed020",{"status":"ok","title":"How can we categorize companies of the deepfake detection market?","page":"3/3",
@@ -78,9 +78,9 @@ add("ed020",{"status":"ok","title":"How can we categorize companies of the deepf
  "t":{25:"Here, we categorize by business model"},"categories":[
  {"label":"API\nCALLS","description":"Charging for each image, video, call or selfie that is checked","e":"🔌"},
  {"label":"ENTERPRISE\nLICENSES","description":"Charging a yearly fee for a platform used across a large firm","e":"📄"},
- {"label":"PER-SEAT\nPLANS","description":"Charging for each employee protected in calls and meetings","e":"👥"},
+ {"label":"PER-SEAT\nPLANS","description":"Charging for each employee protected in calls and in meetings","e":"👥"},
  {"label":"GOVERNMENT\nCONTRACTS","description":"Winning paid projects with defense, police and public agencies","e":"🏛️"},
- {"label":"MARKETPLACE\nSALES","description":"Selling through the stores of Zoom, FICO or cloud platforms","e":"🛒"},
+ {"label":"MARKETPLACE\nSALES","description":"Selling through the app stores of Zoom, FICO or cloud platforms","e":"🛒"},
  {"label":"FORENSIC\nSERVICES","description":"Adding experts who analyze media and write reports for a case","e":"⚖️"}]})
 add("ed021",{"status":"ok","title":"What do top companies do in this market?",
  "note":"Other companies could also make the top eight. We chose startups with the most clients, funding, contracts or big partners to show the range of the market.",

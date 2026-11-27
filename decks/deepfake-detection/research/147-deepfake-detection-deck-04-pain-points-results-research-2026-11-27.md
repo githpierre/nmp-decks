@@ -59,7 +59,7 @@ t:
   8: 'Lab scores fall
 
     in real use'
-  6: 'You need real-world
+  6: 'You need field
 
     tests'
   29: 'False alarms
@@ -370,7 +370,7 @@ rows:
   - 1
   - 2
   p: HIGH
-- pain: It is hard to prove a detection tool pays back
+- pain: It is hard to prove that a detection tool pays back
   s:
   - 2
   - 1
@@ -772,7 +772,7 @@ rows:
   - 2
   - 1
   p: CRITICAL
-- pain: Each item checked adds to a large yearly bill
+- pain: Each item that is checked adds to a large yearly bill
   s:
   - 1
   - 3
@@ -780,7 +780,7 @@ rows:
   - 1
   - 2
   p: HIGH
-- pain: False alarms flag real photos and real clips
+- pain: False alarms flag real photos and real video clips
   s:
   - 3
   - 2

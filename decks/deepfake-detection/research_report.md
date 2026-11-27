@@ -1,0 +1,91 @@
+# Research import re, jsonport
+
+163 answers parsed, 0 YAML errors, 87 slides with remarks.
+
+- **ed006**: no sources
+- **ed008**: no sources
+- **ed009**: no sources
+- **ed010**: no sources
+- **ed011**: length 8: 18 vs 25; no sources
+- **ed012**: status no_data: products and their names change too often to group them reliably without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: prices depend on the volume, the channel and the contract and are rarely published
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: length 7: 141 vs 109; no sources
+- **ed016**: no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: length 10: 46 vs 62; no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed032**: length 5: 62 vs 44; length 9: 62 vs 44; length 11: 55 vs 41; length 13: 53 vs 39
+- **ed039p**: status no_data: We could not pull a weekly Google Trends series for this term, and the chapter instructions rule out Google searches as a signal because Google 
+- **ed044**: length 15: 71 vs 56; length 6: 51 vs 74
+- **ed054**: no sources
+- **ed055**: length 7: 100 vs 65; length 10: 102 vs 58; length 13: 100 vs 67; length 16: 94 vs 67; length 19: 106 vs 59; length 22: 97 vs 60; no sources
+- **ed056**: length 23: 19 vs 30; length 6: 20 vs 30; length 29: 29 vs 23; length 27: 24 vs 34; length 12: 23 vs 31; length 10: 22 vs 30; length 31: 20 vs 31; length 35: 22 vs 30; no sources
+- **ed057**: length 23: 23 vs 36; length 6: 21 vs 32; length 14: 18 vs 28; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 14: 13 vs 20; length 17: 12 vs 21; no sources
+- **ed064-s1**: length 15: 47 vs 65; no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 14: 8 vs 20; length 17: 13 vs 21; no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: no sources
+- **ed064-s3**: length 15: 48 vs 65; no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 11 vs 20; length 17: 13 vs 21; no sources
+- **ed064-s4**: length 15: 48 vs 65; no sources
+- **ed065-s4**: no sources
+- **ed062-s5**: no sources
+- **ed063-s5**: length 17: 14 vs 21; no sources
+- **ed064-s5**: no sources
+- **ed065-s5**: no sources
+- **ed095**: length 5: 94 vs 71; length 30: 76 vs 60
+- **iv_pipeline**: length 34: 62 vs 44; length 20: 68 vs 52
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 12: 11 vs 20; length 15: 88 vs 63; no sources
+- **ed104**: length 7: 94 vs 63; length 10: 94 vs 68; length 15: 89 vs 67; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: length 8: 12 vs 20; no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: length 6: 28 vs 40; length 8: 36 vs 26; length 12: 29 vs 41; no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 9: 29 vs 41; length 7: 28 vs 39; length 6: 28 vs 40; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: length 8: 14 vs 20; no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 13: 24 vs 34; length 11: 23 vs 34; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: length 8: 12 vs 20; no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 7: 25 vs 39; length 6: 28 vs 40; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: length 8: 11 vs 20; no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 9: 30 vs 41; length 6: 25 vs 40; length 12: 29 vs 41; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: length 8: 13 vs 20; no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: length 7: 29 vs 39; length 8: 36 vs 26; length 12: 27 vs 41; no sources
+- **ed143**: length 22: 15 vs 22
+- **ed152**: length 11: 55 vs 43
+- **ed172**: length 9: 62 vs 48
+- **ed190**: status no_data: no comparable growth curves of startups by years since founding were found
+- **ed190**: dropped: no data
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

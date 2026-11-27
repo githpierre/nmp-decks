@@ -27,42 +27,42 @@ status: ok
 section: Market size
 title: What are the market size estimates from different sources online?
 rows:
-- firm: "SNS\n\nInsider"
+- firm: SNS Insider
   value: $ 1.2 B
   comment: Their 2025 base of $918.6M grows 29.5% a year, which gives about $1.2B in 2026. We treat it as the high end of our range.
-- firm: "Astute\n\nAnalytica"
+- firm: Astute Analytica
   value: $ 904 M
   comment: Their 2025 figure of $700.5M with 29.1% yearly growth gives about $904M in 2026. We use it as the low case.
-- firm: "Meticulous\n\nResearch"
+- firm: Meticulous Research
   value: $ 990 M
   comment: Their October 2026 report puts 2026 at $990M for detection platforms, APIs and services. We use it as our anchor.
-- firm: "Next Move\n\nStrategy"
+- firm: Next Move Strategy
   value: $ 1.7 B
   comment: Their detector-tool market reaches $1.7B in 2026 under a wider scope. We use it only as an upper bound.
 note:
 - We take each estimate from the firm's website and adjust it when its definition is broader or narrower than ours
 - When a firm gives only 2025, we grow it by that firm's own growth rate to get a comparable 2026 figure
 sources:
-  - claim: SNS Insider values the market at $918.6M in 2025, growing 29.5% a year to 2035
-    url: https://www.snsinsider.com/reports/deepfake-detection-market-11090
-    date: '2026'
-    quote: "The Deepfake Detection Market was valued at USD 918.6 Million in 2025"
-  - claim: SNS Insider growth rate of 29.5% from 2026 to 2035
-    url: https://www.snsinsider.com/reports/deepfake-detection-market-11090
-    date: '2026'
-    quote: "growing at a CAGR of 29.5% from 2026 to 2035"
-  - claim: Astute Analytica estimates $700.5M in 2025 with 29.1% yearly growth
-    url: https://www.astuteanalytica.com/industry-report/deepfake-detection-market
-    date: '2026-07-15'
-    quote: "The deepfake detection market is estimated at USD 700.5 million in 2025"
-  - claim: Meticulous Research estimates about $990M for 2026
-    url: https://www.meticulousresearch.com/product/deepfake-detection-market-6944
-    date: '2026-10'
-    quote: "This market is expected to reach USD 9.44 billion by 2036 from an estimated USD 0.99 billion in 2026"
-  - claim: Next Move Strategy Consulting puts the AI deepfake detector tool market at $1.7B in 2026
-    url: https://www.nextmsc.com/report/ai-deepfake-detector-tool-market-ic5131
-    date: '2026'
-    quote: "valued at USD 1.24 Billion in 2025 and is estimated at USD 1.72 Billion in 2026"
+- claim: SNS Insider values the market at $918.6M in 2025, growing 29.5% a year to 2035
+  url: https://www.snsinsider.com/reports/deepfake-detection-market-11090
+  date: '2026'
+  quote: The Deepfake Detection Market was valued at USD 918.6 Million in 2025
+- claim: SNS Insider growth rate of 29.5% from 2026 to 2035
+  url: https://www.snsinsider.com/reports/deepfake-detection-market-11090
+  date: '2026'
+  quote: growing at a CAGR of 29.5% from 2026 to 2035
+- claim: Astute Analytica estimates $700.5M in 2025 with 29.1% yearly growth
+  url: https://www.astuteanalytica.com/industry-report/deepfake-detection-market
+  date: '2026-07-15'
+  quote: The deepfake detection market is estimated at USD 700.5 million in 2025
+- claim: Meticulous Research estimates about $990M for 2026
+  url: https://www.meticulousresearch.com/product/deepfake-detection-market-6944
+  date: 2026-10
+  quote: This market is expected to reach USD 9.44 billion by 2036 from an estimated USD 0.99 billion in 2026
+- claim: Next Move Strategy Consulting puts the AI deepfake detector tool market at $1.7B in 2026
+  url: https://www.nextmsc.com/report/ai-deepfake-detector-tool-market-ic5131
+  date: '2026'
+  quote: valued at USD 1.24 Billion in 2025 and is estimated at USD 1.72 Billion in 2026
 comment: The SNS Insider and Astute Analytica 2026 values are our own calculation (2025 value x 1.295 and x 1.291). Next Move Strategy Consulting is written on two lines to fit the label.
 ```
 

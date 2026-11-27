@@ -339,11 +339,11 @@ rows:
   - They signed 16 clients within months of launching Pulse
 - - They ask buyers to trust a lab accuracy score alone
   - They offered a warranty that pays for deepfakes they miss
-- - They ask clients to install a separate new system
+- - They ask clients to install a separate new system first first
   - They plug into contact center software like NICE CXone
 - - They raise small rounds and keep running short on cash
   - They added a $100M loan from Hercules Capital in 2024
-- - They report pilots instead of recurring revenue
+- - They report pilots instead of real recurring revenue
   - They passed $100M of annual recurring revenue in 2025
 - - They cannot show how much fraud they really stopped
   - They say clients avoided $283M of fraud losses in 2025
@@ -399,7 +399,7 @@ logo_src: <logo>
 rows:
 - - They rely on one model trained on one kind of fake
   - They run a group of detection models side by side
-- - They focus on a single format such as video only
+- - They focus on a single format such as video files only
   - They check calls, video and chat for impersonation risk
 - - They chase consumers who will not pay for detection
   - They put real-time checks into tier-one bank call centers
@@ -407,12 +407,12 @@ rows:
   - They won the RSA Innovation Sandbox startup contest
 - - They raise money only from generalist venture funds
   - They raised $33M with IBM, Accenture and Booz Allen
-- - They make clients leave their usual video tools
+- - They make clients leave their usual video meeting tools
   - They scan live meetings inside Zoom and Microsoft Teams
-- - They stay small and wait for buyers to find them
+- - They stay small and wait for big buyers to find them
   - BNY and Samsung Next invested as strategic partners
 - - They never get outside proof that they lead the field
-  - Gartner named them a Market Shaper and KPMG took a stake
+  - Gartner named them a Market Shaper, KPMG invested
 note:
 - We used Reality Defender's releases, its funding coverage and the KPMG and Gartner announcements
 - We treated "a regular deepfake startup" as a fictional baseline, shown here only for the contrast
@@ -535,12 +535,12 @@ logo_src: <logo>
 rows:
 - - They see deepfakes as a one-time media problem to fix
   - They treat deepfakes like viruses that keep mutating
-- - They hire a big team before finding their market
+- - They hire a big team before they find their market
   - They raised a $16M seed round with just 13 employees
 - - They chase newsrooms that have very small budgets
   - They aimed at fake job seekers, a fast-growing threat
 - - They check files only after they have been uploaded
-  - They catch deepfakes live during job interviews
+  - They catch deepfakes live during remote job interviews
 - - They ignore the fake candidates buyers see coming
   - Gartner sees 1 in 4 job candidates being fake by 2028
 - - They keep a lab team with no fraud-fighting experience
@@ -604,13 +604,13 @@ rows:
   - They hunt fake sites, accounts and ads across the web
 - - They flag fakes but leave the cleanup to the client
   - They take down fake accounts and sites automatically
-- - They treat each fake account as a separate case
+- - They treat each fake account as a separate new case
   - They map every attacker in a real-time threat graph
-- - They train staff with slides and old phishing tests
+- - They train their staff with slides and old phishing tests
   - They train staff with realistic deepfake simulations
 - - They spend many years before raising a growth round
   - Founded in 2022, they raised a $35M Series B in 2025
-- - They grow their value slowly, round after round
+- - They grow their value slowly, one round after another
   - Their value rose from $205M to over $600M in six months
 - - They raise from small funds with no follow-on money
   - Bessemer led both their Series B and Series C rounds

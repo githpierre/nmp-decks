@@ -143,103 +143,150 @@ sources:
 ### ed199p
 ```yaml
 status: ok
-comment: The model structure for this slide was not supplied, so we used a simple grid. A cell holds two short lines split by | or stays empty. AU10TIX, Jumio and Veriff are identity checkers that market deepfake defense.
 title: Which warning signs did deepfake detection startups show?
 section: Startup killers
 signs:
-  - BIG LAYOFFS
-  - LEGAL OR DATA TROUBLE
-  - SALES FELL
-  - VALUE FELL
-  - SOLD OR SHUT
+- Big|layoffs
+- Legal or|data trouble
+- Sales|fell
+- Value|fell
+- Sold or|shut
 rows:
-  - company: Cyabra
-    domain: cyabra.com
-    cells: ['', 'Nasdaq|delisting risk', '', 'Share down|98% in 2026', '']
-  - company: authID
-    domain: authid.ai
-    cells: ['24 staff cut|in 2026', '', 'Q2 revenue|down 64%', 'Shares sold|at $1.35, not $5.60', '']
-  - company: Logically
-    domain: logically.ai
-    cells: ['About 40 jobs|Feb 2025', '', 'Lost TikTok|and Meta deals', '', 'Pre-pack sale|July 2025']
-  - company: Jumio
-    domain: jumio.com
-    cells: ['100+ jobs cut|Jan 2023', 'Biometric privacy|suits 2022, 2024', '', '', '']
-  - company: Veriff
-    domain: veriff.com
-    cells: ['12% then 20%|cut in 2023', '', '', '', '']
-  - company: AU10TIX
-    domain: au10tix.com
-    cells: ['', 'Admin logins|exposed 18 months', '', '', '']
+- domain: cyabra.com
+  cells:
+  - ''
+  - Nasdaq|delisting risk
+  - ''
+  - Share down|98% in 2026
+  - ''
+  name: Cyabra
+  slug: cyabra
+  ini: C
+- domain: authid.ai
+  cells:
+  - 24 staff cut|in 2026
+  - ''
+  - Q2 revenue|down 64%
+  - Shares sold|at $1.35, not $5.60
+  - ''
+  name: authID
+  slug: authid
+  ini: A
+- domain: logically.ai
+  cells:
+  - About 40 jobs|Feb 2025
+  - ''
+  - Lost TikTok|and Meta deals
+  - ''
+  - Pre-pack sale|July 2025
+  name: Logically
+  slug: logically
+  ini: L
+- domain: jumio.com
+  cells:
+  - 100+ jobs cut|Jan 2023
+  - Biometric privacy|suits 2022, 2024
+  - ''
+  - ''
+  - ''
+  name: Jumio
+  slug: jumio
+  ini: J
+- domain: veriff.com
+  cells:
+  - 12% then 20%|cut in 2023
+  - ''
+  - ''
+  - ''
+  - ''
+  name: Veriff
+  slug: veriff
+  ini: V
+- domain: au10tix.com
+  cells:
+  - ''
+  - Admin logins|exposed 18 months
+  - ''
+  - ''
+  - ''
+  name: AU10TIX
+  slug: au10tix
+  ini: A
 logos:
-  - {name: Cyabra, domain: cyabra.com}
-  - {name: authID, domain: authid.ai}
-  - {name: Logically, domain: logically.ai}
-  - {name: Jumio, domain: jumio.com}
-  - {name: Veriff, domain: veriff.com}
-  - {name: AU10TIX, domain: au10tix.com}
+- name: Cyabra
+  domain: cyabra.com
+- name: authID
+  domain: authid.ai
+- name: Logically
+  domain: logically.ai
+- name: Jumio
+  domain: jumio.com
+- name: Veriff
+  domain: veriff.com
+- name: AU10TIX
+  domain: au10tix.com
 note: We read company filings, court records and security press for each company. An empty cell means we found no verified sign of that kind.
 sources:
-  - claim: Cyabra share fell from a $6.20 high to $0.09 in November 2026
-    url: https://marketchameleon.com/Overview/CYAB
-    date: '2026-11-13'
-    quote: Cyabra (CYAB) closed at $0.09 on November 13, 2026, down 7.3% from the previous close
-  - claim: Cyabra all-time high of $6.20
-    url: https://www.trade-ideas.com/stock-info/CYAB/
-    date: '2026-11-01'
-    quote: The stock is 96.8% away from all-time highs of $6.2000
-  - claim: Cyabra could face delisting after Nasdaq notices
-    url: https://www.stocktitan.net/sec-filings/CYAB/8-k-cyabra-inc-reports-material-event-80c3fb5e1fd9.html
-    date: '2026-06-12'
-    quote: faces potential delisting if it cannot regain compliance by December 7, 2026.
-  - claim: authID cut 24 employees and 10 contractors in 2026
-    url: https://www.panabee.com/news/authid-earnings-q3-2026
-    date: '2026-11-12'
-    quote: cutting 24 employees and 10 contractors, which lowered general and administrative expenses by $2.5 million over the first nine months
-  - claim: authID Q2 revenue fell to $0.5M from $1.4M (down 64%)
-    url: https://quartr.com/events/authid-inc-auid-q2-2026_onSJl4wm
-    date: '2026-08-14'
-    quote: Revenue for Q2 2026 was $0.5 million, down from $1.4 million in Q2 2025.
-  - claim: authID sold shares at $1.35 in November 2025, after an offering at $5.60 in May 2025
-    url: https://www.biometricupdate.com/202511/authid-closes-3-7m-equity-fundraise-to-lay-runway-for-transition
-    date: '2025-11-01'
-    quote: at a price per share or pre-funded warrant of $1.35, or $1.71 for insiders.
-  - claim: authID May 2025 offering at $5.60 a share
-    url: https://www.biometricupdate.com/202505/authid-quarterlies-annuals-regulatory-actions
-    date: '2025-05-09'
-    quote: The 373,060 shares of authID's common stock in the offering are priced at $5.60 each.
-  - claim: Logically cut about 40 jobs in February 2025
-    url: https://bebeez.eu/?p=50232
-    date: '2025-02-17'
-    quote: announced layoffs earlier this month, resulting in around 40 employees
-  - claim: Logically lost TikTok and Meta contracts and went into a pre-pack administration
-    url: https://sifted.eu/articles/logically-ai-fact-check-misinformation-trump-tiktok-meta
-    date: '2025-07-06'
-    quote: Fact-checker Logically files for administration after losing TikTok and Meta contracts
-  - claim: Jumio cut more than 100 jobs in January 2023
-    url: https://www.biometricupdate.com/202301/jumio-downsizes-as-identity-verification-providers-respond-to-economic-climate
-    date: '2023-01-11'
-    quote: Jumio has laid off more than 100 from its workforce, a source tells Biometric Update.
-  - claim: Jumio faced a second biometric privacy (BIPA) suit in 2022
-    url: https://www.biometricupdate.com/202201/binance-biometrics-deployment-draws-pile-on-data-privacy-allegation-against-jumio
-    date: '2022-01-01'
-    quote: A second biometric data privacy lawsuit filed in Illinois names Jumio for alleged failure to alter its policies and practices
-  - claim: Jumio named in a new BIPA suit in 2024
-    url: https://www.biometricupdate.com/202403/jumio-named-in-bipa-lawsuit-over-crypto-id-verification
-    date: '2024-03-01'
-    quote: Biometric identity verification provider Jumio is in legal hot water again for alleged violations of Illinois' BIPA.
-  - claim: Veriff cut 12% in February 2023 then a fifth in August 2023
-    url: https://en.ain.ua/2023/09/01/veriff-plans-another-layoff-55-people
-    date: '2023-09-01'
-    quote: In total, Veriff is cutting its workforce numbers by 1/5.
-  - claim: Veriff February 2023 cut of 12%
-    url: https://en.ain.ua/2023/09/01/veriff-plans-another-layoff-55-people
-    date: '2023-09-01'
-    quote: In February 2023, Veriff cut its team by 12%, or 66 people, across teams around the world.
-  - claim: AU10TIX left admin credentials exposed for 18 months
-    url: https://darkreading.com/cyber-risk/authenticator-for-x-tiktok-exposes-personal-user-info-for-18-months
-    date: '2024-06-27'
-    quote: Authenticator for X, TikTok Exposes Personal User Info for 18 Months
+- claim: Cyabra share fell from a $6.20 high to $0.09 in November 2026
+  url: https://marketchameleon.com/Overview/CYAB
+  date: '2026-11-13'
+  quote: Cyabra (CYAB) closed at $0.09 on November 13, 2026, down 7.3% from the previous close
+- claim: Cyabra all-time high of $6.20
+  url: https://www.trade-ideas.com/stock-info/CYAB/
+  date: '2026-11-01'
+  quote: The stock is 96.8% away from all-time highs of $6.2000
+- claim: Cyabra could face delisting after Nasdaq notices
+  url: https://www.stocktitan.net/sec-filings/CYAB/8-k-cyabra-inc-reports-material-event-80c3fb5e1fd9.html
+  date: '2026-06-12'
+  quote: faces potential delisting if it cannot regain compliance by December 7, 2026.
+- claim: authID cut 24 employees and 10 contractors in 2026
+  url: https://www.panabee.com/news/authid-earnings-q3-2026
+  date: '2026-11-12'
+  quote: cutting 24 employees and 10 contractors, which lowered general and administrative expenses by $2.5 million over the first nine months
+- claim: authID Q2 revenue fell to $0.5M from $1.4M (down 64%)
+  url: https://quartr.com/events/authid-inc-auid-q2-2026_onSJl4wm
+  date: '2026-08-14'
+  quote: Revenue for Q2 2026 was $0.5 million, down from $1.4 million in Q2 2025.
+- claim: authID sold shares at $1.35 in November 2025, after an offering at $5.60 in May 2025
+  url: https://www.biometricupdate.com/202511/authid-closes-3-7m-equity-fundraise-to-lay-runway-for-transition
+  date: '2025-11-01'
+  quote: at a price per share or pre-funded warrant of $1.35, or $1.71 for insiders.
+- claim: authID May 2025 offering at $5.60 a share
+  url: https://www.biometricupdate.com/202505/authid-quarterlies-annuals-regulatory-actions
+  date: '2025-05-09'
+  quote: The 373,060 shares of authID's common stock in the offering are priced at $5.60 each.
+- claim: Logically cut about 40 jobs in February 2025
+  url: https://bebeez.eu/?p=50232
+  date: '2025-02-17'
+  quote: announced layoffs earlier this month, resulting in around 40 employees
+- claim: Logically lost TikTok and Meta contracts and went into a pre-pack administration
+  url: https://sifted.eu/articles/logically-ai-fact-check-misinformation-trump-tiktok-meta
+  date: '2025-07-06'
+  quote: Fact-checker Logically files for administration after losing TikTok and Meta contracts
+- claim: Jumio cut more than 100 jobs in January 2023
+  url: https://www.biometricupdate.com/202301/jumio-downsizes-as-identity-verification-providers-respond-to-economic-climate
+  date: '2023-01-11'
+  quote: Jumio has laid off more than 100 from its workforce, a source tells Biometric Update.
+- claim: Jumio faced a second biometric privacy (BIPA) suit in 2022
+  url: https://www.biometricupdate.com/202201/binance-biometrics-deployment-draws-pile-on-data-privacy-allegation-against-jumio
+  date: '2022-01-01'
+  quote: A second biometric data privacy lawsuit filed in Illinois names Jumio for alleged failure to alter its policies and practices
+- claim: Jumio named in a new BIPA suit in 2024
+  url: https://www.biometricupdate.com/202403/jumio-named-in-bipa-lawsuit-over-crypto-id-verification
+  date: '2024-03-01'
+  quote: Biometric identity verification provider Jumio is in legal hot water again for alleged violations of Illinois' BIPA.
+- claim: Veriff cut 12% in February 2023 then a fifth in August 2023
+  url: https://en.ain.ua/2023/09/01/veriff-plans-another-layoff-55-people
+  date: '2023-09-01'
+  quote: In total, Veriff is cutting its workforce numbers by 1/5.
+- claim: Veriff February 2023 cut of 12%
+  url: https://en.ain.ua/2023/09/01/veriff-plans-another-layoff-55-people
+  date: '2023-09-01'
+  quote: In February 2023, Veriff cut its team by 12%, or 66 people, across teams around the world.
+- claim: AU10TIX left admin credentials exposed for 18 months
+  url: https://darkreading.com/cyber-risk/authenticator-for-x-tiktok-exposes-personal-user-info-for-18-months
+  date: '2024-06-27'
+  quote: Authenticator for X, TikTok Exposes Personal User Info for 18 Months
 ```
 
 ### ed200
