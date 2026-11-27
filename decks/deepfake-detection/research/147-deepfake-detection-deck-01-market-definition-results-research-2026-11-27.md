@@ -245,7 +245,9 @@ categories:
     CENTERS'
   description: Call centers that verify callers before they change an account
   e: 📞
-- label: GOVERNMENTS
+- label: 'GOVERNMENT
+
+    AGENCIES'
   description: Defense, police and election bodies that check media and identities
   e: 🏛️
 - label: 'NEWSROOMS AND

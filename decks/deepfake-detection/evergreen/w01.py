@@ -69,7 +69,7 @@ add("ed019",{"status":"ok","title":"How can we categorize companies of the deepf
  "t":{25:"Here, we categorize by the type of buyer"},"categories":[
  {"label":"BANKS AND\nFINTECHS","description":"Banks and payment apps that check new clients and big transfers","e":"🏦"},
  {"label":"CONTACT\nCENTERS","description":"Call centers that verify callers before they change an account","e":"📞"},
- {"label":"GOVERNMENTS","description":"Defense, police and election bodies that check media and identities","e":"🏛️"},
+ {"label":"GOVERNMENT\nAGENCIES","description":"Defense, police and election bodies that check media and identities","e":"🏛️"},
  {"label":"NEWSROOMS AND\nPLATFORMS","description":"Media groups and social apps that check what people upload","e":"📺"},
  {"label":"SECURITY\nTEAMS","description":"Company security teams that guard calls, meetings and hiring","e":"🛡️"},
  {"label":"HR AND\nRECRUITERS","description":"Hiring teams that check that remote candidates are real people","e":"💼"}]})
