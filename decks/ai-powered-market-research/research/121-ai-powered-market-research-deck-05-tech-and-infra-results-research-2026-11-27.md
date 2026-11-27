@@ -117,7 +117,7 @@ sources:
 ```yaml
 status: no_data
 section: Tech and infra
-title: Where does 80% of AI-powered market research value sit?
+title: Where does 80% of AI market research value sit?
 comment: No public source measures what share of value or revenue is captured by data, models, workflows, research methods or reporting layers.
 ```
 
@@ -561,6 +561,14 @@ sources:
   url: https://www.salesforce.com/news/stories/listen-labs-acquisition/
   date: '2026-11-02'
   quote: completed its acquisition of Listen Labs
+- claim: Pogo launched an AI research platform on its consumer panel.
+  url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+  date: '2026-06-01'
+  quote: Pogo has raised $32 million to date and launched the first product in its research platform.
+- claim: Pogo launched an AI research platform on its consumer panel.
+  url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+  date: '2026-06-01'
+  quote: Pogo has raised $32 million to date and launched the first product in its research platform.
 - claim: Pogo launched an AI research platform on its consumer panel.
   url: https://www.joinpogo.com/articles/announcing-32m-in-funding
   date: '2026-06-01'

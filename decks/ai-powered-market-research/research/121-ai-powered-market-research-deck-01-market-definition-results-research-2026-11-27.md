@@ -1,4 +1,4 @@
-# AI-powered market research, chapter 01 Market definition (evergreen, written by Claude, 27 Nov 2026)
+# AI market research, chapter 01 Market definition (evergreen, written by Claude, 27 Nov 2026)
 
 ### ed006
 ```yaml
@@ -158,7 +158,7 @@ t:
   12: Synthetic respondents can replace people
   10: Pew found that one synthetic panel missed human survey answers by 12.4 points on average, across nearly 300 questions in three waves
   15: Only small startups bet on AI research
-  13: Salesforce bought Listen Labs in November 2026, Mintel bought Black Swan Data and NIQ paid $12.5M in cash for Gastrograph AI in a deal
+  13: Salesforce bought Listen Labs in November 2026, Mintel bought Black Swan Data and NIQ paid more than $12M in cash for Gastrograph AI
   0: Big research groups are safe from AI tools
   16: Dynata filed for Chapter 11 and Cint wrote down €193.2M tied to Lucid, as panel and fieldwork revenue came under strong pressure
 ```

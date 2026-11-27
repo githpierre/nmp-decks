@@ -1,4 +1,4 @@
-# AI-powered market research, chapter 04 Pain points (evergreen, written by Claude, 27 Nov 2026)
+# AI market research, chapter 04 Pain points (evergreen, written by Claude, 27 Nov 2026)
 
 ### ed054
 ```yaml

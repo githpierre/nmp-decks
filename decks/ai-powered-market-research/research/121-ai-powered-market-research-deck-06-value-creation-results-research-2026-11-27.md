@@ -1,4 +1,4 @@
-# AI-powered market research, chapter 06 Value creation (evergreen, written by Claude, 27 Nov 2026)
+# AI market research, chapter 06 Value creation (evergreen, written by Claude, 27 Nov 2026)
 
 ### ed101
 ```yaml

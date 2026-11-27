@@ -90,7 +90,7 @@ comment: Available disclosures do not separate research-product revenue from ser
 ```yaml
 status: no_data
 section: Market size
-title: How much is AI-powered market research worth today?
+title: How much is AI market research worth today?
 comment: No source publishes revenue for the exact independent-vendor scope, and public company disclosures do not isolate this product set.
 ```
 
@@ -98,7 +98,7 @@ comment: No source publishes revenue for the exact independent-vendor scope, and
 ```yaml
 status: no_data
 section: Market size
-title: How is the AI-powered market research market split between its categories?
+title: How is the AI market research market split between its categories?
 comment: No reliable source splits revenue across the six defined product categories, and company-level sales are not disclosed by category.
 ```
 
@@ -143,7 +143,7 @@ sources:
 ```yaml
 status: no_data
 section: Market size
-title: Where in the world is AI-powered market research money spent?
+title: Where in the world is AI market research money spent?
 comment: Published reports provide broad regional rankings or country examples, but not comparable regional revenue shares for the defined vendor scope.
 ```
 
@@ -204,7 +204,7 @@ sources:
 ```yaml
 status: ok
 section: Market size
-title: What is a realistic CAGR for the AI-powered market research market?
+title: What is a realistic CAGR for the AI market research market?
 note: We use a planning scenario between published forecasts, not a direct forecast for the narrower independent software market. The published estimates include broader research services and analytics.
 t:
   15: "BEST CASE ≈ 34%"

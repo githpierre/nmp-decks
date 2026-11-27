@@ -17,7 +17,7 @@ t:
   18: "Simile raised $200M at a $2B post-money valuation to build simulated users for product and market research {1|Simile}"
   20: "Accenture made a strategic investment in WEVO, a platform that tests concepts with synthetic personas and real users {1|Accenture}"
   22: "Mintel acquired Black Swan Data, adding AI-native social trend analysis to its consumer and category intelligence business {1|Mintel}"
-  24: "NIQ bought Gastrograph AI for $12.5M, adding AI discovery tools and a database for sensory insights {1|NIQ}"
+  24: "NIQ bought Gastrograph AI for over $12M, adding AI discovery tools and a database for sensory insights {1|NIQ}"
 sources:
   - claim: Salesforce completed its acquisition of Listen Labs on November 2, 2026. The transaction value was not disclosed.
     url: https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/
@@ -257,7 +257,7 @@ sources:
 ```yaml
 status: ok
 section: Top players
-title: Which AI-powered market research startups stand out?
+title: Which AI market research startups stand out?
 note: We selected companies with recent funding, enterprise use or a distinctive research method. This is a curated view across the market's main categories, not an objective ranking.
 t:
   19: LISTEN LABS
@@ -366,7 +366,7 @@ status: ok
 section: Top players
 title: Which startups are in the news lately?
 page: 2/2
-note: We included earlier funding and acquisition milestones that established several of the current AI-powered market research platforms.
+note: We included earlier funding and acquisition milestones that established several of the current AI market research platforms.
 t:
   13: 2026 (JAN)
   14: "Listen Labs raised $69M after 15x annualized revenue growth and more than one million customer interviews in nine months {1|Listen Labs}"
@@ -379,7 +379,7 @@ t:
   21: 2025 (JUN)
   22: "Mintel acquired Black Swan Data, adding AI-native social trend analysis to its consumer and category intelligence business {1|Mintel}"
   23: 2025 (APR)
-  24: "NIQ acquired Gastrograph AI for $12.5M, adding AI-driven sensory intelligence and product innovation tools for brands {1|NIQ}"
+  24: "NIQ acquired Gastrograph AI for over $12M, adding AI-driven sensory intelligence and product innovation tools for brands {1|NIQ}"
 sources:
   - claim: Listen Labs raised $69M in Series B funding.
     url: https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html
@@ -620,7 +620,7 @@ sources:
 status: ok
 section: Top players
 title: Any new disruptive startups emerging recently?
-note: We selected younger platforms and recent product launches that directly expand AI-powered market research. Dragonfly AI is included as an adjacent creative-pretesting specialist because its core product tests attention and creative performance before launch.
+note: We selected younger platforms and recent product launches that directly expand AI market research. Dragonfly AI is included as an adjacent creative-pretesting specialist because its core product tests attention and creative performance before launch.
 comment: Dragonfly AI is a boundary case within AI creative, concept and advertising pretesting. It is included for its research-led pretesting product, not ad buying or campaign activation.
 t:
   12: 2026 (SEP)
@@ -802,7 +802,7 @@ sources:
 ### ed188
 ```yaml
 status: no_data
-title: Which AI-powered market research startups passed $1B?
+title: Which AI market research startups passed $1B?
 comment: Only Simile has a verified $2B post-money valuation in the reviewed set. Listen Labs' acquisition price is undisclosed, and Aaru's $1B headline valuation was not its blended valuation, so four comparable cases cannot be filled.
 sources:
   - claim: Simile raised $200M at a $2B post-money valuation.

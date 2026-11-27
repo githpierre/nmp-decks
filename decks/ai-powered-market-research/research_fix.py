@@ -82,3 +82,14 @@ for f in glob.glob(R+'*.md'):
         return '### %s\n```yaml\n%s```'%(m.group(1),_y.safe_dump(d,allow_unicode=True,sort_keys=False,width=1000))
     t=re.sub(r'### (\S+)\n```yaml\n(.*?)```',yn,t,flags=re.S)
     if t!=o: open(f,'w').write(t)
+
+# --- round 3: the short market name everywhere (titles were long or three lines)
+for f in glob.glob(R+'*.md'):
+    t=open(f).read(); o=t
+    t=t.replace('AI-powered market research market','AI market research market').replace('AI-powered market research','AI market research').replace('AI-Powered Market Research','AI market research')
+    if t!=o: open(f,'w').write(t)
+# $12.5M is rounded to $13M by the money format of the build: say « over $12M » on slides
+for f in glob.glob(R+'*.md'):
+    t=open(f).read(); o=t
+    t=t.replace('NIQ bought Gastrograph AI for $12.5M','NIQ bought Gastrograph AI for over $12M').replace('NIQ acquired Gastrograph AI for $12.5M,','NIQ acquired Gastrograph AI for over $12M,')
+    if t!=o: open(f,'w').write(t)

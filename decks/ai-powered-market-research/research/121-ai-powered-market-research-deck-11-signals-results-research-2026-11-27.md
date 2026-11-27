@@ -1,4 +1,4 @@
-# AI-Powered Market Research: Signals and Data Points
+# AI market research: Signals and Data Points
 
 **Research cutoff:** 2026-11-27  
 **Candidates retained:** 16  
@@ -7,7 +7,7 @@
 
 ## Scope and method
 
-**Market definition used:** AI-powered market research comprises independent technology vendors whose principal product uses AI to collect, simulate, interpret or analyze evidence about consumers, buyers, audiences and markets so organizations can make research-led product, brand, pricing and strategic decisions.
+**Market definition used:** AI market research comprises independent technology vendors whose principal product uses AI to collect, simulate, interpret or analyze evidence about consumers, buyers, audiences and markets so organizations can make research-led product, brand, pricing and strategic decisions.
 
 Included product types: AI-moderated interviews and focus groups; AI-guided surveys and panel studies; statistically calibrated synthetic respondents and behavioral simulations; AI-first coding and synthesis of research data; consumer/category signal intelligence; and AI-assisted concept and creative pretesting when research is the core product.
 
@@ -473,7 +473,7 @@ sources:
 | Format | Result | Reason |
 |---|---|---|
 | key-trend | PASS: 7 candidates | Comparable before/after measures with at least a 1.5x change or a clear break. |
-| rules-wave | NO | No same-source annual series of laws, bills, approvals or suits specific to AI-powered market research. |
+| rules-wave | NO | No same-source annual series of laws, bills, approvals or suits specific to AI market research. |
 | funnel | NO | Available adoption tiers are mutually exclusive survey categories, not a nested sequence of counts. The 95% use, 11% embedded and 8% transformed figures are separate questions, so a funnel would imply unsupported conversion. |
 | country-gap | NO | No fresh, same-year, same-measure country series with a 2x contrast. |
 | waiting-line | NO | No credible paired waitlist/backlog and served-capacity figures for an in-scope vendor. |

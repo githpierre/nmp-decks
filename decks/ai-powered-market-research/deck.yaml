@@ -1,4 +1,4 @@
-market: AI-powered market research
+market: AI Market Research
 label: AI market research
 quarter: Q4 2026
 year: 2026
@@ -253,7 +253,7 @@ slides:
     9: AI research is just a chatbot for surveys
     10: Pew found that one synthetic panel missed human survey answers by 12.4 points on average, across nearly 300 questions in three waves
     12: Synthetic respondents can replace people
-    13: Salesforce bought Listen Labs in November 2026, Mintel bought Black Swan Data and NIQ paid $13M in cash for Gastrograph AI in a deal
+    13: Salesforce bought Listen Labs in November 2026, Mintel bought Black Swan Data and NIQ paid more than $12M in cash for Gastrograph AI
     15: Only small startups bet on AI research
     16: Dynata filed for Chapter 11 and Cint wrote down €193.2M tied to Lucid, as panel and fieldwork revenue came under strong pressure
     20: 🤥
@@ -532,7 +532,9 @@ slides:
 - id: ed027
   type: x/when_did_market_become_real
   section: Market opportunity
-  title: When did the AI-powered market research market become real?
+  title: 'When did the AI market research
+
+    market become real?'
   note: We chose 2025 because AI-moderated research moved from early product launches to substantial funding and enterprise use. We use commercial milestones rather than broad AI adoption alone.
   src: 27
   t:
@@ -555,14 +557,14 @@ slides:
   title: What happened in-between?
   src: 29
   t:
-    5: 2021 to 2023
-    6: Outset entered Y Combinator in 2023 with AI interviews, while 56% of research firms already used AI somewhere in their work.
-    7: '2024'
-    8: Toluna launched HarmonAIze, a synthetic data suite for quantitative and qualitative research, with a focus on hard-to-reach audiences.
-    9: '2025'
-    10: Listen Labs launched an AI interviewer, then Outset and Strella raised capital as enterprise use of AI interviews expanded.
-    11: '2026'
-    12: Funding, launches and customer use accelerated across synthetic audiences, AI interviews and evidence-linked research tools for enterprises.
+    5: EARLY 2025
+    6: Listen Labs launched its AI interviewer in April 2025, so teams could run customer interviews at the speed of a survey.
+    7: MID 2025
+    8: AI-moderated interviews spread across research firms, and buyers began to test synthetic users next to real panels.
+    9: LATE 2025
+    10: Strella raised $14M in October, then Outset raised $30M and Aaru more than $50M in December 2025 to build AI research tools.
+    11: EARLY 2026
+    12: Listen Labs raised $69M in January 2026 after one million AI interviews, and Simile raised $100M in February 2026 from Index.
     13: 🧠
     14: 💰
     15: 🗣️
@@ -573,14 +575,14 @@ slides:
   title: And what happened since then?
   src: 30
   t:
-    5: Early 2025
-    6: Listen Labs launched its AI interviewer in April, letting teams run customer interviews at survey speed and receive synthesized findings.
-    7: '2025'
-    8: Outset raised $30M and Strella $14M as customer counts and revenue accelerated across AI-moderated research platforms.
-    9: '2026'
-    10: Simile, Conveo and Electric Twin attracted major capital as buyers tested synthetic users and continuous interview programs.
+    5: H1 2026
+    6: Greenbook's GRIT report found that synthetic data use at the largest research suppliers rose from 26% to 44% in a single year.
+    7: Q3 2026
+    8: Simile raised $200M at a $2B valuation in July 2026 to build synthetic users for product and price tests.
+    9: Q4 2026
+    10: Salesforce completed its purchase of Listen Labs on November 2, 2026, weeks after Conveo's $50M round in September.
     11: TODAY
-    12: AI use reached 93% of research firms, but only 15% had scaled it across multiple workflows, leaving a large execution gap.
+    12: AI use reached 93% of research firms, but only 15% had scaled it across several workflows, leaving a large gap to close.
     13: 📈
     14: 🤝
     15: 🏦
@@ -903,16 +905,16 @@ slides:
 - id: ed051
   type: x/realistic_cagr_market
   section: Market size
-  title: What is a realistic CAGR for the AI-powered market research market?
+  title: What is a realistic CAGR for the AI market research market?
   note: We use a planning scenario between published forecasts, not a direct forecast for the narrower independent software market. The published estimates include broader research services and analytics.
   src: 51
   t:
     15: BEST CASE ≈ 34%
     16: WORST CASE ≈ 16%
-    17: '≈25%
+    17: '≈22%
 
       through 2035'
-    19: We use 25% as a planning case between published forecasts of 16% and 34%, but those estimates cover broader service markets than our vendor definition.
+    19: We use 22% as a planning case between published forecasts of 16% and 34%, as those estimates cover broader service markets than our vendor definition.
 - id: ed052p
   type: pp_cagr
   section: Market size
@@ -2016,23 +2018,23 @@ slides:
     6: '2023
 
 
-      Outset entered Y Combinator with AI interviews, while 56% of research firms already used AI somewhere in their work at that point.'
+      Outset joined Y Combinator with AI interviews, while 56% of research firms already used AI somewhere in their daily work.'
     7: '2024
 
 
-      Toluna launched HarmonAIze, a synthetic data suite for quantitative and qualitative research, focused on hard-to-reach audiences.'
+      Toluna launched HarmonAIze, a synthetic data suite for quantitative and qualitative research on hard-to-reach groups.'
     8: '2025
 
 
-      Listen Labs launched an AI interviewer in 2025, and Outset and Strella raised capital as enterprise use expanded quickly.'
+      Listen Labs launched an AI interviewer, and Outset and Strella raised new rounds as enterprise use grew fast.'
     9: 'TODAY
 
 
-      Products now span synthetic audiences, AI interview workflows, continuous consumer intelligence and source-linked qualitative analysis.'
+      Products now span synthetic audiences, AI interviews, continuous consumer research and source-linked analysis.'
     10: '?
 
 
-      Buyers will increasingly expect human benchmarks, traceable evidence and clear limits before synthetic outputs guide major decisions.'
+      Buyers will expect human benchmarks, traceable evidence and clear limits before synthetic answers guide big decisions.'
 - id: ed092
   type: x/were_latest_tech_infra_developments
   section: Tech and infra
@@ -3043,11 +3045,11 @@ slides:
   note: We grouped the market into broad phases using research-industry surveys, company milestones and published validation studies. The phases are judgment-based and show how the main adoption barriers have shifted.
   src: 133
   t:
-    6: '2018 - 2022
+    6: '2018 - 2021
 
 
       AI first helped with text coding and survey quality checks, while human panels and manual interviews still set the pace for most studies.'
-    7: '2021 - 2023
+    7: '2022 - 2023
 
 
       Generative AI cut costs for interview guides, text analysis and synthetic profiles, but researchers still had to verify results.'
@@ -3055,14 +3057,14 @@ slides:
 
 
       New AI interview and synthetic-audience startups appeared, while most buyers still treated the tools as pilots rather than trusted evidence systems.'
-    9: '2025 - 2026
-
-
-      AI moved from side tools into core workflows, while synthetic data became a leading research method.'
-    10: 'TODAY
+    9: 'TODAY
 
 
       AI use is rising, but validation, data quality, privacy and security still decide whether tools win repeat budgets.'
+    10: '2025 - 2026
+
+
+      AI moved from side tools into core workflows, while synthetic data became a leading research method.'
 - id: ed134
   type: x/more_recently
   section: Market challenges
@@ -3084,7 +3086,7 @@ slides:
 - id: ed136
   type: x/slows_adoption_down
   section: Market challenges
-  title: What slows AI-powered market research adoption down?
+  title: What slows AI market research adoption down?
   note: We summarized adoption barriers found in research-industry guidance, fraud reviews, buyer surveys and vendor disclosures. Faster collection only creates value when buyers can trust and use the evidence.
   src: 136
   t:
@@ -3656,7 +3658,7 @@ slides:
 - id: ed154
   type: x/drivers_feed_each_other
   section: Growth drivers
-  title: Which AI-powered market research drivers feed each other?
+  title: Which AI market research drivers feed each other?
   src: 154
   t:
     6: More human interviews improve the data used to calibrate synthetic respondents
@@ -3740,7 +3742,7 @@ slides:
     21: 2025 (JUN)
     22: Mintel acquired Black Swan Data, adding AI-native social trend analysis to its consumer and category intelligence business {1|Mintel}
     23: 2025 (APR)
-    24: NIQ bought Gastrograph AI for $13M, adding AI discovery tools and a database for sensory insights {1|NIQ}
+    24: NIQ bought Gastrograph AI for over $12M, adding AI discovery tools and a database for sensory insights {1|NIQ}
 - id: ed158
   type: fundbars
   section: Investor bets
@@ -4217,7 +4219,7 @@ slides:
 - id: ed175
   type: x/startups_stand_out
   section: Top players
-  title: Which AI-powered market research startups stand out?
+  title: Which AI market research startups stand out?
   note: We selected companies with recent funding, enterprise use or a distinctive research method. This is a curated view across the market's main categories, not an objective ranking.
   src: 175
   t:
@@ -4256,7 +4258,7 @@ slides:
   section: Top players
   title: Which startups are in the news lately?
   page: 2/2
-  note: We included earlier funding and acquisition milestones that established several of the current AI-powered market research platforms.
+  note: We included earlier funding and acquisition milestones that established several of the current AI market research platforms.
   src: 177
   t:
     13: 2026 (JAN)
@@ -4270,7 +4272,7 @@ slides:
     21: 2025 (JUN)
     22: Mintel acquired Black Swan Data, adding AI-native social trend analysis to its consumer and category intelligence business {1|Mintel}
     23: 2025 (APR)
-    24: NIQ acquired Gastrograph AI for $13M, adding AI-driven sensory intelligence and product innovation tools for brands {1|NIQ}
+    24: NIQ acquired Gastrograph AI for over $12M, adding AI-driven sensory intelligence and product innovation tools for brands {1|NIQ}
 - id: ed178
   type: x/current_market_leaders
   section: Top players
@@ -4326,7 +4328,7 @@ slides:
   type: x/any_new_disruptive_startups_emerging
   section: Top players
   title: Any new disruptive startups emerging recently?
-  note: We selected younger platforms and recent product launches that directly expand AI-powered market research. Dragonfly AI is included as an adjacent creative-pretesting specialist because its core product tests attention and creative performance before launch.
+  note: We selected younger platforms and recent product launches that directly expand AI market research. Dragonfly AI is included as an adjacent creative-pretesting specialist because its core product tests attention and creative performance before launch.
   src: 184
   t:
     12: 2026 (SEP)
@@ -4404,7 +4406,7 @@ slides:
 - id: ed192
   type: x/startups_stumbled_lately
   section: Startup killers
-  title: Which AI-powered market research startups stumbled lately?
+  title: Which AI market research startups stumbled lately?
   page: 1/2
   note: 'We included setbacks at established survey and research technology vendors as well as startups.
 
@@ -4426,7 +4428,7 @@ slides:
 - id: ed195
   type: x/startups_stumbled_lately_2
   section: Startup killers
-  title: Which AI-powered market research startups stumbled lately?
+  title: Which AI market research startups stumbled lately?
   page: 2/2
   note: 'We included documented sales warnings, debt restructuring, merger problems and staffing cuts.
 
@@ -4449,7 +4451,7 @@ slides:
   type: pp_killers
   section: Startup killers
   mode: warning
-  title: Which AI-powered market research companies have shown warning signs?
+  title: Which AI market research companies have shown warning signs?
   signs:
   - Big|layoffs
   - Failed|deal
@@ -4529,7 +4531,7 @@ slides:
 - id: ed200
   type: x/why_startups_fail
   section: Startup killers
-  title: Why do AI-powered market research startups fail?
+  title: Why do AI market research startups fail?
   note: We used research industry guidance and documented commercial setbacks. These are recurring risks, not verified causes of every startup failure.
   src: 200
   t:
@@ -4569,7 +4571,7 @@ slides:
 - id: ed204
   type: x/startups_news_lately
   section: Startup strategies
-  title: Which AI-powered market research startups scored big recently?
+  title: Which AI market research startups scored big recently?
   page: 1/2
   note: We used company releases, investor announcements and trade press. Funding rounds are not revenue, and the acquisition price was not disclosed.
   src: 204
@@ -4589,7 +4591,7 @@ slides:
 - id: ed205
   type: x/rounds_were_announced_last_2
   section: Startup strategies
-  title: Which AI-powered market research startups scored big recently?
+  title: Which AI market research startups scored big recently?
   page: 2/2
   note: We picked the biggest disclosed rounds of AI market research startups since 2024, from our tracker of rounds
   src: 205

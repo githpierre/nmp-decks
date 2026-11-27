@@ -1,7 +1,7 @@
 ### ed204
 ```yaml
 status: ok
-title: Which AI-powered market research startups scored big recently?
+title: Which AI market research startups scored big recently?
 section: Startup strategies
 page: 1/2
 note: We used company releases, investor announcements and trade press. Funding rounds are not revenue, and the acquisition price was not disclosed.

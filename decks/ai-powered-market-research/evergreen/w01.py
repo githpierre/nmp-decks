@@ -45,7 +45,7 @@ add("ed015",{"status":"ok","title":"What are some common myths about AI market r
  "note":"We focused on myths that come back often in investor, vendor and industry body debates. The counters describe what funding, studies and deals have shown so far.",
  "t":{9:"AI research is just a chatbot for surveys",7:"Listen Labs ran over one million AI interviews in nine months, and Conveo raised $50M after reaching more than 400 enterprise customers",
  12:"Synthetic respondents can replace people",10:"Pew found that one synthetic panel missed human survey answers by 12.4 points on average, across nearly 300 questions in three waves",
- 15:"Only small startups bet on AI research",13:"Salesforce bought Listen Labs in November 2026, Mintel bought Black Swan Data and NIQ paid $12.5M in cash for Gastrograph AI in a deal",
+ 15:"Only small startups bet on AI research",13:"Salesforce bought Listen Labs in November 2026, Mintel bought Black Swan Data and NIQ paid more than $12M in cash for Gastrograph AI",
  0:"Big research groups are safe from AI tools",16:"Dynata filed for Chapter 11 and Cint wrote down €193.2M tied to Lucid, as panel and fieldwork revenue came under strong pressure"}})
 add("ed016",{"status":"ok","title":"What are some common myths about AI market research?","page":"2/2",
  "note":"We focused on myths that come back often in investor, vendor and industry body debates. The counters describe what funding, studies and deals have shown so far.",

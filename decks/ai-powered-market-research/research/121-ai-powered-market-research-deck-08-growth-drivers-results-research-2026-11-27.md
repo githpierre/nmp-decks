@@ -306,7 +306,7 @@ sources:
 ```yaml
 status: ok
 section: Growth drivers
-title: Which AI-powered market research drivers feed each other?
+title: Which AI market research drivers feed each other?
 note: We mapped the main feedback loops linking evidence quality, cost, access and repeat use. These are reinforcing mechanisms, not guaranteed outcomes for every vendor or client.
 t:
   6: More human interviews improve the data used to calibrate synthetic respondents

@@ -2,7 +2,7 @@
 ```yaml
 status: ok
 section: Market opportunity
-title: When did the AI-powered market research market become real?
+title: When did the AI market research market become real?
 note: We chose 2025 because AI-moderated research moved from early product launches to substantial funding and enterprise use. We use commercial milestones rather than broad AI adoption alone.
 t:
   13: "2025"

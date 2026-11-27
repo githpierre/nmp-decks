@@ -1,7 +1,7 @@
 ### ed192
 ```yaml
 status: ok
-title: Which AI-powered market research startups stumbled lately?
+title: Which AI market research startups stumbled lately?
 section: Startup killers
 page: 1/2
 note: 'We included setbacks at established survey and research technology vendors as well as startups.
@@ -55,7 +55,7 @@ sources:
 ### ed195
 ```yaml
 status: ok
-title: Which AI-powered market research startups stumbled lately?
+title: Which AI market research startups stumbled lately?
 section: Startup killers
 page: 2/2
 note: 'We included documented sales warnings, debt restructuring, merger problems and staffing cuts.
@@ -109,7 +109,7 @@ sources:
 ### ed199p
 ```yaml
 status: ok
-title: 'Which AI-powered market research companies
+title: 'Which AI market research companies
 
   have shown warning signs?'
 section: Startup killers
@@ -247,7 +247,7 @@ sources:
 ### ed200
 ```yaml
 status: ok
-title: Why do AI-powered market research startups fail?
+title: Why do AI market research startups fail?
 section: Startup killers
 note: We used research industry guidance and documented commercial setbacks. These are recurring risks, not verified causes of every startup failure.
 t:

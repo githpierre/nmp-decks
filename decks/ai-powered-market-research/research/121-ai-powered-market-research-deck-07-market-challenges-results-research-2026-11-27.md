@@ -65,7 +65,7 @@ sources:
 status: ok
 section: Market challenges
 title: And more recently?
-note: We selected recent milestones that show enterprise adoption, funding and ownership changes across AI-powered market research. Company-reported operating metrics are identified as such in the cited releases.
+note: We selected recent milestones that show enterprise adoption, funding and ownership changes across AI market research. Company-reported operating metrics are identified as such in the cited releases.
 t:
   12: 2026 (NOV)
   13: "Salesforce completed its Listen Labs deal, adding AI customer research to its portfolio {1|Salesforce}"
@@ -110,7 +110,7 @@ sources:
 ```yaml
 status: ok
 section: Market challenges
-title: What slows AI-powered market research adoption down?
+title: What slows AI market research adoption down?
 note: We summarized adoption barriers found in research-industry guidance, fraud reviews, buyer surveys and vendor disclosures. Faster collection only creates value when buyers can trust and use the evidence.
 t:
   6: '📊
