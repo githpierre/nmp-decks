@@ -1,0 +1,123 @@
+name: Quantum sensing
+handle: quantum-sensing
+uuid: 202
+date: '2026-11-27'
+today: 27 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity, synthetic biology, femtech, fertility, menopause, deepfake, market
+  research
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and filings (Infleqtion, SandboxAQ AQNav, Q-CTRL, Qnami, QuSpin, Cerca Magnetics, Exail/iXblue, AOSense, Vector Atomic, Aquark, Atomionics, Delta g, SBQuantum,
+  Quantum Diamonds, Element Six, Bosch Quantum Sensing, Miraex, Rydberg Technologies, Single Quantum, ID Quantique), government documents (DARPA RoQS and INSPIRED, DIU Transition of
+  Quantum Sensing, US National Quantum Initiative, UK National Quantum Technologies Programme and Quantum Missions, EU Quantum Flagship, Germany QSens), industry reports (McKinsey Quantum
+  Technology Monitor, QED-C, Boston Consulting Group, The Quantum Insider), peer-reviewed studies, market research firms with a named method, and reputable press (Reuters, Bloomberg,
+  Financial Times, Wall Street Journal, Nature, Physics World, IEEE Spectrum, TechCrunch, The Quantum Insider).
+pain_segments:
+- Defense forces
+- Telecom and grid operators
+- Mining and energy firms
+- Hospitals and research labs
+- Chipmakers
+value_segments:
+- Quantum timing
+- Quantum navigation
+- Magnetic sensing
+- Medical imaging
+- RF sensing
+- Optical sensing
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+live_twins:
+- ed007p
+- ed047p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+- ed199p
+retarget:
+  iv_pipeline:
+    title: Which quantum sensing products launched recently?
+    brief: 8 rows = 8 real quantum sensing products of startups or young companies launched or expanded in the last 12 months (a portable optical clock, a quantum navigation system flown
+      or sailed without GPS, an NV-diamond or atomic magnetometer, a wearable brain scanner, a Rydberg RF receiver, a single-photon detector or quantum LiDAR, a quantum gravimeter for
+      surveys). Rows read "product" + "COMPANY · USE" + stage (BETA / LAUNCH / SCALE, 6 characters at most, BETA = field trial or prototype delivered, LAUNCH = sold in the last 12 months,
+      SCALE = ordered by a named large client or in volume). Only products named in a company release or reputable press.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals around quantum sensing companies (acquisitions by defense, photonics or instrument groups, large strategic investments, government contracts such as DARPA, DIU,
+      UK MOD or NATO DIANA, SPAC listings and IPOs), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to win a big defense buyer?
+    brief: 5 steps from a lab prototype to a quantum sensor that a navy, an air force or a grid operator buys and keeps (for example a field trial in real conditions, size, weight and
+      power targets, qualification and security reviews, a funded program such as DIU or DARPA, then a production contract). Each step in plain words with who decides and a typical duration
+      or cost.
+  iv_safety:
+    title: What could go wrong for quantum sensing?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example sensors that work in the lab but fail on a ship or a plane, size and cost that
+      stay too high, export controls on quantum tech, dependence on a few defense budgets, classical sensors and better GPS that close the gap). Real studies, filings, reports or reported
+      cases only.
+extra:
+  ed061: The pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals
+    on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed032: 'Do not use Google searches as a signal: Google changed how it counts search terms in mid-2025, so a recent rise in searches is not real interest. Use 7 signals of money, deals,
+    plants, approvals, sales or use instead.'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: funding rounds of quantum sensing startups (Infleqtion, SandboxAQ, Q-CTRL, Qnami, Aquark, Atomionics, Vector Atomic), revenue and order figures, defense and space contracts
+  (DARPA, DIU, UK MOD, NATO DIANA, ESA), flight and sea trials of quantum navigation without GPS, GPS jamming and spoofing incidents, acquisitions and SPAC listings, hospital use of
+  wearable brain scanners, national quantum programs funding sensing. Never Google searches (Google changed how it counts search terms in mid-2025, so recent search curves are not real
+  interest).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, failed product launches, export or contract losses, layoffs,
+  sales of the company for little, valuations or share prices that fell, products pulled. Scope: companies whose core product is a quantum sensor, clock or sensing instrument, startups
+  first.
+
+  - ed192 and ed195: 12 dated events in all, 2022 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}.
+  Dates as YYYY (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, lost contracts, product pulled, value fell, shut down or sold). Each cell
+  is two short lines separated by | or empty. Give the website domain of each company.
+
+  - ed200: why quantum sensing startups fail.
+
+  - survivors (for the S11-02 slide « What sets quantum sensing survivors apart from failures? »): 5 rows, each with a lesson (what survivors do, 6 words at most), a one-line explanation,
+  one company of ed199p or ed192-ed195 that missed it, and why in 8 words at most, with a source.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: Quantum sensing
+label: Quantum sensing
+keep_together:
+- quantum sensing
+- quantum sensor
+- optical clock
+- atomic clock
+examples:
+  jargon_bad: A cold-atom interferometric accelerometer with sub-micro-g bias stability.
+  jargon_good: A sensor that lets a ship know where it is for days without GPS, by measuring its own motion with atoms.
+  jargon_why: the reader is not a physicist
+  proof_rule: 'A lab record, a prototype or a trial is not proof that a product sells: say how many units were ordered, who pays, the revenue when public, and who reported it.'
+  proof_bad: Company X built the most precise quantum sensor in the world.
+  proof_good: Company X delivered 12 navigation units to the Royal Navy under a $9M contract in 2026.
+  proof_why: a lab record is not a sale
+  fresh_bad: Company X raised $15M in 2024
+  fresh_good: Company X raised $40M in October 2026, its biggest round
+  fresh_est: Company X should reach about $30M of revenue in 2026, against $12M in 2025
+  fresh_method: latest company releases, filings, defense and government contract notices, press reports as a cross-check
+  not_proof: a lab record is not sales
+trends_csv: assets/trends/quantum-sensing/quantum-sensing.csv
