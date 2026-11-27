@@ -389,3 +389,7 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 
 ## Product-page replacement (27 Nov 2026)
 - When a replaced slide changes its title, its alt changes everywhere it is used: the file alt, `custom.v1_sections` of the page AND every `custom.encarts` entry that shows it (femtech-top-investors kept the old S02 alt after the first import).
+
+## AI market research, first build (27 Nov 2026)
+- The deck name (`--name`, plan `name`) and the footer label are the market's short name from data/market_labels.txt (« AI market research »), never the long catalog name (« AI-Powered Market Research Industry »): the long one pushed four titles to three lines. CHECK: build.py refuses a footer label not in the list.
+- YES / NO in a research file must be quoted: YAML reads them as true / false and the slide shows « FALSE ». CHECK: check_results prints « YES or NO without quotes ».

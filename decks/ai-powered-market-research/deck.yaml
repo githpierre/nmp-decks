@@ -619,23 +619,191 @@ slides:
   type: x/signals_suggest_market_hot_right
   section: Market opportunity
   title: What signals suggest the market is hot right now?
-  note: We selected seven signals based on funding, customer use and strategic deals. Each signal has a named source and shows commercial activity rather than search interest.
+  note: We selected seven recent signals across company growth, industry surveys, hiring, study speed and validation tests.
   src: 32
   t:
-    5: Strella raised $14M after quadrupling its customer base
-    6: 14M
-    7: Outset raised $30M after reporting more than 8x growth
-    8: 30M
-    9: Simile raised $200M at a $2B valuation in July 2026
-    10: 2B
-    11: Conveo raised $50M to scale its AI interview platform
-    12: 50M
-    13: Aaru raised more than $50M at a $1B headline valuation
-    14: 50M
-    15: Listen Labs ran one million AI-led customer talks
-    16: 1M
-    19: Synthetic data use at large suppliers rose to 44%
-    20: 44%
+    5: Listen Labs grew revenue 15x in nine months
+    6: '1'
+    9: Strella reached $1.6M ARR in its first year
+    10: '2'
+    11: Synthetic data use at big suppliers hit 44%
+    12: '3'
+    7: AI-moderated interviews rose from 25% to 45%
+    8: '4'
+    13: Conveo grew its team from 20 to 90 people
+    14: '5'
+    15: Duolingo cut a six-week study to two days
+    16: '6'
+    19: Aaru matched real purchases in 92% of pairs
+    20: '7'
+- id: xs_listen
+  type: kpis
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: total
+    end: 2026-09
+  title: 'Listen Labs grew revenue 15x and
+
+    interviewed 1M people in nine months'
+  items:
+  - value: 15x
+    label: Growth of Listen Labs’ annualized revenue in the nine months after its launch
+  - value: 1M+
+    label: People interviewed by its AI moderator in those same nine months
+  - value: 50M+
+    label: People in the global panel its AI agents can draw on, in 120+ languages
+  why: This is a sign of a hot market because an AI interview startup reached this scale in months, then Salesforce bought it. The panel counts people who can be asked, not interviews.
+  note: We used Listen Labs’ release of January 14, 2026 and Salesforce’s release of September 29, 2026. Salesforce closed the deal on November 2, 2026
+- id: xs_strella
+  type: kpis
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: half
+    end: 2026-04
+  title: 'Strella reached $1.6M of recurring revenue
+
+    in its first year, with 150% retention'
+  items:
+  - value: $1.6M
+    label: Annual recurring revenue of Strella in its first year of selling
+  - value: 150%
+    label: Revenue kept and grown from its first clients when they renewed
+  - value: 8M
+    label: People in the global panel that Strella’s AI interviews can reach
+  why: This is a sign of a hot market because clients spent half as much again when they renewed. These are company figures reported by Bessemer, an investor in Strella.
+  note: We used Bessemer’s case study of April 21, 2026. Retention of 150% means renewing clients spent 1.5 times what they spent the year before
+- id: xs_synth
+  type: x/sig_key_trend
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: quarter
+    end: 2026-03
+  title: 'Synthetic data use at the largest research
+
+    suppliers jumped from 26% to 44% in a year'
+  t:
+    9: 26%
+    10: '2025'
+    12: 44%
+    13: '2026'
+    15: ×1.7
+    16: WHY IT IS HOT
+    17: 'The biggest research suppliers now use synthetic answers in their daily work, a market for synthetic respondent startups, a sign of a hot market.
+
+
+
+      The survey counts firms that use it, not the share of their revenue or of their studies.'
+  vbars:
+  - 26
+  - 44
+  note: We used Greenbook’s GRIT reports of 2025 and 2026 for service-led suppliers with more than 500 staff, surveyed in early 2026
+- id: xs_aiqual
+  type: x/sig_key_trend
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: quarter
+    end: 2026-03
+  title: 'AI-moderated interviews at mid-sized firms
+
+    rose from 25% to 45% in a year'
+  t:
+    9: 25%
+    10: '2025'
+    12: 45%
+    13: '2026'
+    15: ×1.8
+    16: WHY IT IS HOT
+    17: 'Nearly half of mid-sized research firms now let AI run their interviews, a sign of a hot market for AI interview startups.
+
+
+
+      The 2026 survey worded the question a little differently, so the jump is a direction, not an exact rate.'
+  vbars:
+  - 25
+  - 45
+  note: We used Greenbook’s GRIT reports of 2025 and 2026 for service-led research suppliers with 21 to 100 staff
+- id: xs_conveo
+  type: x/sig_announced_vs_built
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: total
+    end: 2026-11
+  title: 'Conveo grew its team from about 20
+
+    to 90 people during 2026'
+  t:
+    8: '20'
+    9: 'people at the
+
+      start of 2026'
+    11: '90'
+    12: 'people in
+
+      November 2026'
+    15: ×4.5
+    16: WHY IT IS HOT
+    17: 'Conveo hired fast after its $50M Series A of September 2026 to serve more than 400 enterprise teams, including Fortune 500 brands, that use its AI interviews, a sign of a hot market.
+
+
+
+      Headcount is not revenue: it shows where the company bets, not what it already sells.'
+  vbars:
+  - 20
+  - 90
+  note: We used Conveo’s profile on Y Combinator, checked on November 27, 2026. The starting figure of about 20 people is approximate
+- id: xs_speed
+  type: sx_stat_strip
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: total
+    end: 2026-07
+  title: 'AI research cut a six-week study
+
+    to two days at Duolingo'
+  headline: Time to run a study, before and after AI research tools
+  stats:
+  - v: 2 days
+    l: Duolingo’s video concept test with Strella, against 6+ weeks
+  - v: 8 weeks
+    l: A food brand’s product cycle with Aaru, against nine months before
+  - v: 3 days
+    l: Time Conveo says it needs to run 100 interviews with real buyers
+  story: Studies that took weeks now take days, so brands can ask many more questions each year, a sign of a hot market. These are single client cases reported by the vendors.
+  note:
+  - We used Bessemer’s Strella case study of April 21, 2026, an Aaru interview of July 2026
+  - published by Goldman Sachs in November 2026, and Conveo’s media kit, checked in November
+- id: xs_aaru
+  type: share_waffle
+  pill: SIGNAL
+  section: Market opportunity
+  fresh:
+    period: total
+    end: 2026-09
+  big: 92%
+  kicker: WHY IT IS HOT
+  title: 'Aaru’s synthetic buyers matched real
+
+    purchases in 92% of 340 brand pairs'
+  'on': Same order as real purchases
+  'off': Different order
+  unit: brand pairs
+  years:
+  - k: 92
+    n: 100
+    p: 92
+    x: '2026'
+  story: 'A synthetic panel ranked brands almost like real card purchases did, the kind of proof buyers ask for, a sign of a hot market.
+
+    Aaru ran the test itself, and no one has repeated it yet.'
+  note:
+  - We used Aaru’s benchmark of September 24, 2026, on 340 pairs of brands compared
+  - with a panel of real card purchases. One square is one pair out of 100, 92.4% rounded
 - id: ed039p
   type: pp_trends
   section: Market opportunity
@@ -2007,7 +2175,7 @@ slides:
     16: Live views connect consumer, category and market signals to show what is changing and why.
     18: REAL-TIME SIGNAL MAPS
     19: Audience models from real interviews and first-party data let teams ask questions over time.
-    21: PERSONAL CUSTOMER TWINS
+    21: CUSTOMER TWINS
     22: It reads video, images, words and behavior together to test concepts and creative before launch.
     24: VIDEO AND AD TESTS
     25: It adapts research models across countries, languages and local contexts.
@@ -3056,6 +3224,28 @@ slides:
 
 
       GWI found 88% use AI daily, making generic answers easy to access while paid tools must prove their evidence advantage.'
+- id: xc_check
+  type: share_waffle
+  section: Market challenges
+  big: 67%
+  kicker: WHAT IT MEANS
+  title: 'Two thirds of researchers still
+
+    double-check every AI output'
+  'on': Check every AI output
+  'off': Do not check every output
+  unit: researchers
+  years:
+  - k: 67
+    n: 100
+    p: 67
+    x: '2026'
+  story: 'Researchers do not yet trust AI enough to skip a human check, so part of the time AI saves goes back into checking it.
+
+    The survey was run by a software vendor, so read it as a direction.'
+  note:
+  - We used Displayr’s survey of researchers of March 2026, where 135 of the
+  - 203 people answered this question. One square is one researcher out of 100
 - id: ed141
   type: x/constraints_structural
   section: Market challenges
@@ -4939,7 +5129,7 @@ slides:
       url: https://www.bvp.com/atlas/strella-transforming-qualitative-research-from-a-bottleneck-into-an-ai-superpower
       key: false
     - t: Bolt Insight raised £7M for AI research expansion
-      pub: Boltinsight
+      pub: Bolt Insight
       d: '2025-12-09'
       url: https://www.boltinsight.com/articles/bolt-insight-receives-7m-in-funding
       key: false
@@ -4989,17 +5179,17 @@ slides:
       url: https://www.displayr.com/ai-market-research-adoption-is-near-universal-trust-is-not
       key: false
     - t: Dragonfly AI is a UK-based creative effectiveness and…
-      pub: Dragonflyai
+      pub: Dragonfly AI
       d: '2026'
       url: https://dragonflyai.co/company/about-us
       key: false
     - t: Dragonfly AI predicts attention to creative before launch
-      pub: Dragonflyai
+      pub: Dragonfly AI
       d: n.d.
       url: https://dragonflyai.co/platform/creative-testing
       key: false
     - t: Dragonfly AI raised £5M in new investment to expand its…
-      pub: Dragonflyai
+      pub: Dragonfly AI
       d: Jan 2026
       url: https://dragonflyai.co/resources/news/dragonfly-ai-secures-5m-new-investment-from-24haymarket-guinness-ventures-and-foresight
       key: false
@@ -5009,37 +5199,37 @@ slides:
       url: https://www.dynata.com/why-dynata/about-dynata/press/dynata-reaches-fully-consensual-agreement-with-all-stakeholders-to-recapitalize-and-significantly-deleverage-balance-sheet
       key: false
     - t: Client data and project-specific holdout validation
-      pub: Electrictwin
+      pub: Electric Twin
       d: Undated
       url: https://www.electrictwin.com/faq
       key: false
     - t: Company-reported 92% normalized distribution accuracy,…
-      pub: Electrictwin
+      pub: Electric Twin
       d: '2026-02-11'
       url: https://www.electrictwin.com/blog/how-accurate-are-synthetic-audiences
       key: false
     - t: Electric Twin builds synthetic audiences for consumer research
-      pub: Electrictwin
+      pub: Electric Twin
       d: n.d.
       url: https://www.electrictwin.com/about
       key: false
     - t: Electric Twin launched a Research Agent for audience research
-      pub: Electrictwin
+      pub: Electric Twin
       d: '2026-09-29'
       url: https://www.electrictwin.com/blog/introducing-our-research-agent
       key: false
     - t: Electric Twin reported nearly 40,000 evaluations across 155…
-      pub: Electrictwin
+      pub: Electric Twin
       d: '2026-02-11'
       url: https://www.electrictwin.com/blog/40k-evaluations-155-countries
       key: false
     - t: Electric Twin reported nearly 40,000 evaluations across 155…
-      pub: Electrictwin
+      pub: Electric Twin
       d: Feb 2026
       url: https://www.electrictwin.com/blog/electric-twin-announcing-14m-in-funding
       key: false
     - t: The Times case study and holdout validation
-      pub: Electrictwin
+      pub: Electric Twin
       d: 2026-08 (day not verified)
       url: https://www.electrictwin.com/blog/how-do-synthetic-audiences-work
       key: false
@@ -5168,22 +5358,22 @@ slides:
       url: https://www.levelpath.com/blog/how-long-should-an-enterprise-software-purchase-take
       key: false
     - t: AI study design and fielding tools
-      pub: Listenlabs
+      pub: Listen Labs
       d: Undated
       url: https://listenlabs.ai/docs
       key: false
     - t: Listen Labs launched its AI interviewer in April 2025
-      pub: Listenlabs
+      pub: Listen Labs
       d: '2026-09-29'
       url: https://www.listenlabs.ai/blog/listen-labs-is-joining-salesforce
       key: false
     - t: Listen Labs reported 15x annualized revenue growth,…
-      pub: Listenlabs
+      pub: Listen Labs
       d: Jan 2026
       url: https://listenlabs.com/blog/announcing-listen-s-series-b
       key: false
     - t: Sweetgreen case study reports four-day research turnaround
-      pub: Listenlabs
+      pub: Listen Labs
       d: Undated
       url: https://listenlabs.com/case-studies/sweetgreen
       key: false
@@ -5347,12 +5537,12 @@ slides:
       url: https://www.qualtrics.com/news/difficult-changes-to-position-qualtrics-for-the-opportunity-ahead
       key: false
     - t: Quantilope automated advanced research methods and…
-      pub: Quantilope
+      pub: quantilope
       d: Undated
       url: https://www.quantilope.com/about
       key: false
     - t: Quantilope introduced Category Twins for synthetic consumer…
-      pub: Quantilope
+      pub: quantilope
       d: '2026-03-17'
       url: https://www.quantilope.com/press-releases/quantilope-launches-category-twins
       key: false
@@ -5415,7 +5605,7 @@ slides:
       d: '2026-09-29'
       url: https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/?bc=OTH&ver=1793218564
       key: false
-    - t: Salesforce bought Listen Labs in November 2026 2026
+    - t: Salesforce bought Listen Labs in early November 2026 2026
       pub: Salesforce
       d: '2026-11-02'
       url: https://www.salesforce.com/news/stories/listen-labs-acquisition
@@ -5426,7 +5616,7 @@ slides:
       url: https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs
       key: true
     - t: 55% of startup respondents reported enterprise procurement…
-      pub: Salesforceventures
+      pub: Salesforce Ventures
       d: Jul 2024
       url: https://salesforceventures.com/wp-content/uploads/2024/07/Salesforce-Ventures_The-Startup-Enterprise-GTM-Report_2024.pdf
       key: false
@@ -5461,7 +5651,7 @@ slides:
       url: https://www.simile.com/blog/series-b
       key: true
     - t: Stratistics MRC estimates the broad AI in market research…
-      pub: Strategymrc
+      pub: Stratistics MRC
       d: 2025 report
       url: https://www.strategymrc.com/report/ai-in-market-research-market
       key: true
@@ -5511,12 +5701,12 @@ slides:
       url: https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a
       key: false
     - t: Toluna launched HarmonAIze for synthetic data in…
-      pub: Tolunacorporate
+      pub: Toluna
       d: '2024-09-19'
       url: https://tolunacorporate.com/toluna-harmonaize-launches-transforming-market-research-with-advanced-synthetic-data-solutions
       key: false
     - t: UserTesting CEO acknowledged merger-related customer…
-      pub: Usertesting
+      pub: UserTesting
       d: '2026-02-11'
       url: https://www.usertesting.com/blog/2026-note-to-customers
       key: false

@@ -41,6 +41,8 @@ for f in sys.argv[2:]:
         # a label the model writes on two lines needs two words (RULES « a one-word label gets a second word »): the build only
         # saw it as LABEL_LINES after a 4-min run (Neocloud, 19 Nov 2026: FOUNDERS, COMPANIES, NVIDIA, HYPERSCALERS…)
         mt, dt = m.get('t') or {}, d.get('t') or {}
+        # YES / NO written without quotes are read as true / false by YAML 1.1 (AI market research, 27 Nov 2026: « FALSE » on the ownership grid)
+        P += [f'{sid} {k} | YES or NO without quotes was read as {v}: write it in quotes' for k, v in dt.items() if isinstance(v, bool)]
         P += [f'{sid} {k} | one-word label where the model has two lines: add a second word | {v}' for k, v in dt.items()
               if isinstance(v, str) and '\n' in str(mt.get(k, mt.get(str(k), ''))) and len(v.split()) == 1 and v.strip() and v == v.upper() and v.strip().isalpha()]
         # the reference market's name left in a text (MedTech, 23 Nov 2026: « Which bold bets could reshape in vivo CAR-T? »): the import
