@@ -19,6 +19,10 @@ sources:
     url: https://www.strella.io/blog/series-a
     date: 2025-10-16
     quote: "10x revenue, 4x customer base"
+  - claim: Strella's Series A financing was $14M.
+    url: https://www.strella.io/blog/series-a
+    date: 2025-10-16
+    quote: "We raised $14M in Series A funding."
   - claim: Outset raised a $30M Series B after growing more than 8x.
     url: https://outset.ai/series-b
     date: 2025-12-10
@@ -41,7 +45,7 @@ title: Which growth engines have run out of steam?
 note: We paired older research limits with newer AI-led approaches that reduce time, widen access or improve evidence quality. The shift is uneven, and human research remains necessary for validation and context.
 t:
   6: Moderators ran interviews in small batches
-  8: AI moderators run hundreds of interviews at once
+  8: AI moderators run many interviews in parallel
   9: Human-only research slows each new question
   11: Always-on programs keep consumer signals fresh
   12: Survey samples rely on claimed buyer status
@@ -55,19 +59,23 @@ t:
 sources:
   - claim: Conveo says its AI moderator can run 100 interviews in three days and its platform supports continuous research.
     url: https://conveo.ai/mediakit
-    date: 2026-11-27
+    date: n.d.
     quote: "Fielding speed: 100 interviews in 3 days"
+  - claim: Pogo says its platform can launch thousands of AI-moderated video interviews simultaneously.
+    url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+    date: 2026-06-01
+    quote: "launches thousands of AI-moderated video interviews simultaneously"
   - claim: Conveo's StoryLines product turns one-off research studies into continuous consumer understanding programs.
     url: https://conveo.ai/careers
     date: 2026-07
     quote: "StoryLines launched. Always-on consumer intelligence at enterprise scale."
   - claim: Pogo uses transaction records to verify purchases rather than relying only on self-reported screening questions.
     url: https://www.joinpogo.com/about
-    date: 2026
+    date: n.d.
     quote: "Pogo verifies purchases through real transaction records, not screening questions."
   - claim: Outset automatically turns interviews into themes, quotes and structured insights.
     url: https://outset.ai/platform
-    date: 2026-11-27
+    date: n.d.
     quote: "After each session, Outset automatically transforms every interview into structured insights."
   - claim: Zappi's AI agents created more than 273 concepts and 766 concept iterations in 2025.
     url: https://www.zappi.io/web/news/zappis-2025-year-in-insights
@@ -79,7 +87,7 @@ sources:
     quote: "Fraud rates of 15 to 30 percent are common, with many platforms seeing 45 percent or more."
   - claim: Ideally says research was slow, expensive and previously gated by specialists.
     url: https://www.goideally.com/about/about-ideally
-    date: 2026-04
+    date: n.d.
     quote: "Research was slow, expensive and gated by specialists."
 ```
 
@@ -103,7 +111,11 @@ t:
   22: 2025 (DEC)
   23: "Outset raised a $30M Series B after 8x growth, extending AI-moderated research into customer experience management {1|Outset}"
 sources:
-  - claim: Conveo announced a $50M Series A on September 2, 2026, and reported more than 400 enterprise customers and 50+ Fortune 500 brands.
+  - claim: Conveo announced a $50M Series A on September 2, 2026.
+    url: https://www.balderton.com/news/conveo-raises-50m-to-help-fortune-500-brands-understand-what-consumers-want-next/
+    date: 2026-09-02
+    quote: "today announced a $50 million Series A funding round"
+  - claim: Conveo reported more than 400 enterprise customers and 50+ Fortune 500 brands.
     url: https://www.balderton.com/news/conveo-raises-50m-to-help-fortune-500-brands-understand-what-consumers-want-next/
     date: 2026-09-02
     quote: "More than 400 enterprises, including more than 50 Fortune 500 brands, use Conveo."
@@ -115,9 +127,13 @@ sources:
     url: https://www.joinpogo.com/articles/announcing-32m-in-funding
     date: 2026-06-01
     quote: "Pogo has raised $32 million to date and launched the first product in its research platform."
+  - claim: Pogo's first-party panel includes more than 3M opted-in US consumers and $470B in transaction volume.
+    url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+    date: 2026-06-01
+    quote: "3M+ opted-in users, $470B in transaction volume"
   - claim: Pogo's panel has more than 3 million opted-in US consumers.
     url: https://www.joinpogo.com/about
-    date: 2026
+    date: n.d.
     quote: "Pogo's first-party consumer app connects 3M+ opted-in US consumers to its research platform."
   - claim: Ideally raised $16M NZD, equivalent to $10M USD, in Series A funding.
     url: https://www.goideally.com/stories/news-weve-raised-16m-reinvent-research-what-comes-next
@@ -125,12 +141,24 @@ sources:
     quote: "We've raised $16M NZD ($10m USD) in Series A funding."
   - claim: Ideally says more than 300 brands and agencies use its platform.
     url: https://www.goideally.com/about/about-ideally
-    date: 2026-04
+    date: n.d.
+    quote: "more than 300+ brands and agencies around the world using Ideally"
+  - claim: Ideally says more than 300 brands and agencies use its platform.
+    url: https://www.goideally.com/about/about-ideally
+    date: n.d.
     quote: "Today, our team spans Auckland, Sydney, Melbourne and New York, with more than 300+ brands and agencies around the world using Ideally."
-  - claim: Listen Labs raised a $69M Series B and reported 15x annualized revenue growth and more than one million interviews.
+  - claim: Listen Labs raised a $69M Series B.
     url: https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html
     date: 2026-01-14
-    quote: "Since launching nine months ago, Listen has grown its annualized revenue by 15x, reaching a 8-figure revenue, interviewed over one million people."
+    quote: "Listen Labs raises $69 million Series B"
+  - claim: Listen Labs reported 15x annualized revenue growth and more than one million interviews.
+    url: https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html
+    date: 2026-01-14
+    quote: "grown its annualized revenue by 15x"
+  - claim: Listen Labs had interviewed more than one million people.
+    url: https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html
+    date: 2026-01-14
+    quote: "interviewed over one million people"
   - claim: Outset raised a $30M Series B in December 2025 after growing more than 8x.
     url: https://outset.ai/series-b
     date: 2025-12-10
@@ -157,7 +185,7 @@ sources:
     quote: "What once took six to eight weeks now happens in days."
   - claim: Pogo's first-party panel uses transaction records to identify purchase-verified buyers.
     url: https://www.joinpogo.com/about
-    date: 2026
+    date: n.d.
     quote: "Pogo verifies purchases through real transaction records, not screening questions."
   - claim: Electric Twin reported nearly 40,000 evaluations across 155 countries and a mean absolute error of 0.05 in a comparison study.
     url: https://www.electrictwin.com/blog/electric-twin-announcing-14m-in-funding
@@ -196,7 +224,7 @@ sources:
     quote: "This includes the use of synthetic data and synthetic personas."
   - claim: Pogo's panel reaches purchase-verified buyers through transaction records.
     url: https://www.joinpogo.com/about
-    date: 2026-11-27
+    date: n.d.
     quote: "Transaction records help teams reach purchase-verified audiences instead of relying only on screening questions."
   - claim: Conveo connects existing research studies and company data into a shared knowledge layer.
     url: https://conveo.ai/careers
@@ -215,47 +243,63 @@ section: Growth drivers
 title: Which drivers compound over time instead of resetting?
 note: We describe the feedback loops that can make research platforms more useful as they collect more evidence and connect more teams. These effects depend on data quality and continued validation, not volume alone.
 t:
-  6: "📊\n\nEach interview adds evidence that improves the next study and follow-up questions"
-  7: "👥\n\nEach verified purchase sharpens targeting for the next study"
-  8: "🧪\n\nEach human check shows where synthetic answers need more data"
-  9: "📈\n\nEach new client adds markets and questions to the insight base"
-  10: "⚡\n\nEach faster study lowers the cost of asking the next research question"
-  11: "🔗\n\nEach integration makes customer evidence easier to reuse across teams"
-  12: "🗂️\n\nEach saved interview creates a searchable record for future decisions"
-  13: "🤝\n\nEach renewal funds more product work and deeper panel access"
-  14: EVIDENCE
-  15: PANEL
-  16: CHECKS
-  17: CLIENTS
-  18: COST
-  19: LINKS
-  20: MEMORY
-  21: RENEWAL
+  6: '📊
+
+
+    Each interview adds evidence that improves the next study and follow-up questions'
+  7: '👥
+
+
+    Each verified purchase sharpens targeting for the next study'
+  8: '🧪
+
+
+    Each human check shows where synthetic answers need more data'
+  9: '📈
+
+
+    Each new client adds markets and questions to the insight base'
+  10: '⚡
+
+
+    Each faster study lowers the cost of asking the next research question'
+  11: '🔗
+
+
+    Each integration makes customer evidence easier to reuse across teams'
+  12: '🗂️
+
+
+    Each saved interview creates a searchable record for future decisions'
+  13: '🤝
+
+
+    Each renewal funds more product work and deeper panel access'
 sources:
-  - claim: Listen Labs says each new interview adds to a searchable archive of past customer evidence.
-    url: https://listenlabs.com/blog/announcing-listen-s-series-b
-    date: 2026-01-14
-    quote: "Over time, Listen becomes a living archive of what your customers think and feel."
-  - claim: Pogo uses transaction data to verify buyers and improve audience targeting.
-    url: https://www.joinpogo.com/about
-    date: 2026
-    quote: "Pogo builds audiences from observed purchases: brand, SKU, retailer, category, and frequency."
-  - claim: Pew's benchmark work shows why synthetic responses need comparison with real human surveys.
-    url: https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/
-    date: 2026-09-30
-    quote: "This report compares synthetic polling results with benchmark surveys administered to human respondents."
-  - claim: Conveo's platform builds a shared knowledge layer from interviews and existing data.
-    url: https://conveo.ai/careers
-    date: 2026-07
-    quote: "Conveo brings Always-On programmes, deep-dive studies, and existing data into one living knowledge layer."
-  - claim: Listen Labs reported more than one million interviews and hundreds of enterprise customers.
-    url: https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html
-    date: 2026-01-14
-    quote: "The platform has interviewed over one million people."
-  - claim: Zappi's Forrester study found 243% ROI for its composite organization.
-    url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
-    date: 2024
-    quote: "243% Return on investment (ROI)"
+- claim: Listen Labs says each new interview adds to a searchable archive of past customer evidence.
+  url: https://listenlabs.com/blog/announcing-listen-s-series-b
+  date: 2026-01-14
+  quote: Over time, Listen becomes a living archive of what your customers think and feel.
+- claim: Pogo uses transaction data to verify buyers and improve audience targeting.
+  url: https://www.joinpogo.com/about
+  date: n.d.
+  quote: 'Pogo builds audiences from observed purchases: brand, SKU, retailer, category, and frequency.'
+- claim: Pew's benchmark work shows why synthetic responses need comparison with real human surveys.
+  url: https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/
+  date: 2026-09-30
+  quote: This report compares synthetic polling results with benchmark surveys administered to human respondents.
+- claim: Conveo's platform builds a shared knowledge layer from interviews and existing data.
+  url: https://conveo.ai/careers
+  date: 2026-07
+  quote: Conveo brings Always-On programmes, deep-dive studies, and existing data into one living knowledge layer.
+- claim: Listen Labs reported more than one million interviews and hundreds of enterprise customers.
+  url: https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html
+  date: 2026-01-14
+  quote: The platform has interviewed over one million people.
+- claim: Zappi's Forrester study found 243% ROI for its composite organization.
+  url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
+  date: 2024
+  quote: 243% Return on investment (ROI)
 ```
 
 ### ed154
@@ -280,7 +324,7 @@ sources:
     quote: "This report compares synthetic polling results with benchmark surveys administered to human respondents."
   - claim: Pogo's first-party panel includes 3M+ opted-in consumers and transaction-based audience targeting.
     url: https://www.joinpogo.com/about
-    date: 2026
+    date: n.d.
     quote: "Pogo's first-party consumer app connects 3M+ opted-in US consumers to its research platform."
   - claim: Zappi's Forrester study modeled 243% ROI and payback in under six months.
     url: https://tei.forrester.com/go/zappi/consumerinsightplatform/

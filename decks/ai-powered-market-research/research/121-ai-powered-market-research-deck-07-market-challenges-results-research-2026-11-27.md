@@ -113,43 +113,59 @@ section: Market challenges
 title: What slows AI-powered market research adoption down?
 note: We summarized adoption barriers found in research-industry guidance, fraud reviews, buyer surveys and vendor disclosures. Faster collection only creates value when buyers can trust and use the evidence.
 t:
-  6: "📊\n\nSynthetic samples need human benchmarks before costly buyer decisions"
-  7: "👥\n\nAI interviews still need real people, consent and sample access"
-  8: "🔍\n\nBots can contaminate online surveys before analysis begins"
-  9: "🔒\n\nRecorded voices and video trigger privacy and retention reviews"
-  10: "🧪\n\nSynthetic audiences need proof across markets, groups and question types"
-  11: "📈\n\nBuyers need ROI proof, not only faster reports and lower research costs"
-  12: "🏢\n\nSecurity and procurement can delay large enterprise rollouts for months"
-  13: "🔗\n\nResults must fit panels, dashboards and existing research tools"
-  14: TRUST
-  15: PANEL
-  16: FRAUD
-  17: PRIVACY
-  18: PROOF
-  19: ROI
-  20: ACCESS
-  21: LINKS
+  6: '📊
+
+
+    Synthetic samples need human benchmarks before costly buyer decisions'
+  7: '👥
+
+
+    AI interviews still need real people, consent and sample access'
+  8: '🔍
+
+
+    Bots can contaminate online surveys before analysis begins'
+  9: '🔒
+
+
+    Recorded voices and video trigger privacy and retention reviews'
+  10: '🧪
+
+
+    Synthetic audiences need proof across markets, groups and question types'
+  11: '📈
+
+
+    Buyers need ROI proof, not only faster reports and lower research costs'
+  12: '🏢
+
+
+    Security and procurement can delay large enterprise rollouts for months'
+  13: '🔗
+
+
+    Results must fit panels, dashboards and existing research tools'
 sources:
-  - claim: Pew found an average 12.4 percentage-point error between synthetic and human responses across three survey waves.
-    url: https://www.pewresearch.org/chart/ai-generated-surveys-consistently-miss-results-of-human-polls/
-    date: 2026-09-30
-    quote: "Average across waves 12.4"
-  - claim: Fraud rates are estimated at 15% to 30% across the market research industry.
-    url: https://www.norc.org/content/dam/norc-org/pdf2026/cpss-research-brief-fraud-lit-review.pdf
-    date: 2026-04
-    quote: "Fraud rates of 15 to 30 percent are common, with many platforms seeing 45 percent or more."
-  - claim: Research participants must be told whether data collection is recorded and who may access recordings.
-    url: https://www.mrs.org.uk/pdf/MRS-Code-of-Conduct-2023.pdf
-    date: 2023-05-15
-    quote: "whether the data collection is to be recorded and/or observed"
-  - claim: IT security review is the leading post-selection delay for enterprise software purchases.
-    url: https://sell.g2.com/2026-buyer-behavior-report
-    date: 2026-06
-    quote: "For enterprise buyers, 50% name IT security review as their top post-selection delay."
-  - claim: Zappi's Forrester study reported 243% ROI and payback in under six months.
-    url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
-    date: 2024
-    quote: "The representative interviews and financial analysis found that a composite organization experiences benefits of $10.5 million over three years versus costs of $3.1 million."
+- claim: Pew found an average 12.4 percentage-point error between synthetic and human responses across three survey waves.
+  url: https://www.pewresearch.org/chart/ai-generated-surveys-consistently-miss-results-of-human-polls/
+  date: 2026-09-30
+  quote: Average across waves 12.4
+- claim: Fraud rates are estimated at 15% to 30% across the market research industry.
+  url: https://www.norc.org/content/dam/norc-org/pdf2026/cpss-research-brief-fraud-lit-review.pdf
+  date: 2026-04
+  quote: Fraud rates of 15 to 30 percent are common, with many platforms seeing 45 percent or more.
+- claim: Research participants must be told whether data collection is recorded and who may access recordings.
+  url: https://www.mrs.org.uk/pdf/MRS-Code-of-Conduct-2023.pdf
+  date: 2023-05-15
+  quote: whether the data collection is to be recorded and/or observed
+- claim: IT security review is the leading post-selection delay for enterprise software purchases.
+  url: https://sell.g2.com/2026-buyer-behavior-report
+  date: 2026-06
+  quote: For enterprise buyers, 50% name IT security review as their top post-selection delay.
+- claim: Zappi's Forrester study reported 243% ROI and payback in under six months.
+  url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
+  date: 2024
+  quote: The representative interviews and financial analysis found that a composite organization experiences benefits of $10.5 million over three years versus costs of $3.1 million.
 ```
 
 ### ed138
@@ -191,32 +207,47 @@ title: What does it take to win a big research buyer?
 note: We combined enterprise software buying benchmarks with a published research-platform implementation model. Pilot timing is an illustrative planning range, not a market-wide AI research average.
 comment: The five steps are a buyer journey, not a regulatory approval pathway. Timing estimates are indicative and vary with data sensitivity, integrations and contract size.
 t:
-  7: "PILOT\n\nThe insights lead runs a 2-4 week test and compares AI findings with a matched human panel before rollout."
-  8: "SECURITY\n\nIT and privacy teams review recordings, access and model training. Approval averages seven days."
-  9: "PROCUREMENT\n\nFinance, legal and procurement approve terms. Enterprise buying often takes three to five months."
-  11: "INTEGRATION\n\nResearch ops and IT link panels, single sign-on and exports. Forrester modeled a three-week rollout."
-  10: "ANNUAL DEAL\n\nThe insights VP and procurement sign an annual license. Forrester modeled $3.0M over three years."
+  7: 'PILOT
+
+
+    The insights lead runs a 2-4 week test and compares AI findings with a matched human panel before rollout.'
+  8: 'SECURITY
+
+
+    IT and privacy teams review recordings, access and model training. Approval averages seven days.'
+  9: 'PROCUREMENT
+
+
+    Finance, legal and procurement approve terms. Enterprise buying often takes three to five months.'
+  11: 'INTEGRATION
+
+
+    Research ops and IT link panels, single sign-on and exports. Forrester modeled a three-week rollout.'
+  10: 'ANNUAL DEAL
+
+
+    The insights VP and procurement sign an annual license. Forrester modeled $3M over three years.'
 sources:
-  - claim: IT and security approval averaged 7.1 days per procurement stage in Vertice's 2026 analysis.
-    url: https://www.vertice.one/insights/procurement-process-stage-completion-times
-    date: 2026-10
-    quote: "IT/Security Approval 7.1 Days to Complete"
-  - claim: 55% of startup respondents reported enterprise procurement processes of three to five months.
-    url: https://salesforceventures.com/wp-content/uploads/2024/07/Salesforce-Ventures_The-Startup-Enterprise-GTM-Report_2024.pdf
-    date: 2024-07
-    quote: "More than half of survey respondents said the procurement process with their enterprise clients averages three to five months."
-  - claim: Forrester's Zappi composite organization used one employee for a three-week implementation.
-    url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
-    date: 2024
-    quote: "The composite organization dedicates one employee to implementing Zappi over the course of three weeks."
-  - claim: Forrester modeled $3.0M in Zappi costs over three years for its composite organization.
-    url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
-    date: 2024
-    quote: "The composite organization incurs a total of $3.0 million in Zappi costs."
-  - claim: AI software purchases above $10,000 often take 11 weeks or longer.
-    url: https://www.levelpath.com/blog/how-long-should-an-enterprise-software-purchase-take
-    date: 2026-07-01
-    quote: "72% of AI purchases over $10,000 take 11 weeks or more."
+- claim: IT and security approval averaged 7.1 days per procurement stage in Vertice's 2026 analysis.
+  url: https://www.vertice.one/insights/procurement-process-stage-completion-times
+  date: 2026-10
+  quote: IT/Security Approval 7.1 Days to Complete
+- claim: 55% of startup respondents reported enterprise procurement processes of three to five months.
+  url: https://salesforceventures.com/wp-content/uploads/2024/07/Salesforce-Ventures_The-Startup-Enterprise-GTM-Report_2024.pdf
+  date: 2024-07
+  quote: More than half of survey respondents said the procurement process with their enterprise clients averages three to five months.
+- claim: Forrester's Zappi composite organization used one employee for a three-week implementation.
+  url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
+  date: 2024
+  quote: The composite organization dedicates one employee to implementing Zappi over the course of three weeks.
+- claim: Forrester modeled $3M in Zappi costs over three years for its composite organization.
+  url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
+  date: 2024
+  quote: The composite organization incurs a total of $3.0 million in Zappi costs.
+- claim: AI software purchases above $10,000 often take 11 weeks or longer.
+  url: https://www.levelpath.com/blog/how-long-should-an-enterprise-software-purchase-take
+  date: 2026-07-01
+  quote: 72% of AI purchases over $10,000 take 11 weeks or more.
 ```
 
 ### ed140
@@ -371,10 +402,18 @@ sources:
     url: https://www.gwi.com/reports/artificial-confidence
     date: 2026-11
     quote: "80% frequently come across misleading findings."
-  - claim: Salesforce acquired Listen Labs, Mintel acquired Black Swan Data and NIQ acquired Gastrograph AI.
+  - claim: Salesforce completed its acquisition of Listen Labs, a recent example of consolidation among research platforms.
     url: https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/
     date: 2026-11-02
     quote: "Salesforce completed its acquisition of Listen Labs on November 2, 2026."
+  - claim: Mintel acquired Black Swan Data to add AI-powered predictive consumer intelligence.
+    url: https://www.mintel.com/press-centre/mintel-acquires-black-swan-data-revolutionizing-predictive-intelligence-and-reshaping-the-future-of-insight/
+    date: 2025-06-03
+    quote: "Black Swan Data is an AI-native company specializing in analyzing and predicting trends from social media."
+  - claim: NIQ acquired Gastrograph AI for $12.5M in cash.
+    url: https://www.sec.gov/Archives/edgar/data/2054696/000162828026012572/niq-20251231.htm
+    date: 2026-02-26
+    quote: "On April 21, 2025, the Company completed the acquisition of Gastrograph AI for cash consideration of $12.5 million."
   - claim: NORC estimated fraud rates at 15% to 30% across the market research industry.
     url: https://www.norc.org/content/dam/norc-org/pdf2026/cpss-research-brief-fraud-lit-review.pdf
     date: 2026-04
@@ -437,10 +476,18 @@ sources:
     url: https://www.gwi.com/reports/artificial-confidence
     date: 2026-11
     quote: "80% frequently come across misleading findings."
-  - claim: Salesforce acquired Listen Labs and other research-adjacent AI and intelligence companies were acquired in 2025.
+  - claim: Salesforce completed its acquisition of Listen Labs, showing strategic interest in AI research platforms.
     url: https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/
     date: 2026-11-02
     quote: "Salesforce completed its acquisition of Listen Labs on November 2, 2026."
+  - claim: Mintel acquired Black Swan Data, an AI-native consumer trend intelligence company.
+    url: https://www.mintel.com/press-centre/mintel-acquires-black-swan-data-revolutionizing-predictive-intelligence-and-reshaping-the-future-of-insight/
+    date: 2025-06-03
+    quote: "Mintel acquires Black Swan Data, revolutionizing predictive intelligence and reshaping the future of insight."
+  - claim: NIQ acquired Gastrograph AI for $12.5M in cash.
+    url: https://www.sec.gov/Archives/edgar/data/2054696/000162828026012572/niq-20251231.htm
+    date: 2026-02-26
+    quote: "On April 21, 2025, the Company completed the acquisition of Gastrograph AI for cash consideration of $12.5 million."
   - claim: NORC documented survey fraud rates of 15% to 30% across the industry.
     url: https://www.norc.org/content/dam/norc-org/pdf2026/cpss-research-brief-fraud-lit-review.pdf
     date: 2026-04
@@ -465,9 +512,9 @@ t:
   32: CONSTRAINT
   31: WHY IT EASED
   5: "Human moderators ran each session\n\nso teams stayed small"
-  7: "AI moderators now run hundreds of interviews at once"
+  7: "AI moderators now run thousands of interviews at once"
   8: "Manual coding delayed themes\n\nfor days after fieldwork"
-  10: "AI now drafts themes, quotes and clips in minutes"
+  10: "AI now synthesizes interview themes and insights in minutes"
   11: "Recruitment once relied on calls\n\nand fixed schedules"
   13: "Async video and large panels widen reach across time zones"
   14: "Early synthetic panels lacked proof\n\against people"
@@ -479,7 +526,7 @@ t:
 sources:
   - claim: Outset says its AI moderator can conduct hundreds of interviews at once and synthesize results.
     url: https://outset.ai/platform
-    date: 2026-11-27
+    date: n.d.
     quote: "Run AI-moderated interviews, recruit participants and synthesize insights in minutes."
   - claim: Zappi's platform tested 90,000 ideas and engaged 8 million consumers in 62 countries in 2025.
     url: https://www.zappi.io/web/news/zappis-2025-year-in-insights
@@ -493,4 +540,8 @@ sources:
     url: https://www.greenbook.org/insights/artificial-intelligence-and-machine-learning/how-ai-is-changing-market-research-in-2026-what-practitioners-need-to-know
     date: 2026-10
     quote: "Synthetic data adoption increased from 26% in 2025 to 44% in 2026."
+  - claim: Pogo can launch thousands of AI-moderated video interviews simultaneously.
+    url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+    date: 2026-06-01
+    quote: "Pogo's AI instantly finds verified buyers or users of that exact product, generates a discussion guide, launches thousands of AI-moderated video interviews simultaneously."
 ```
