@@ -280,7 +280,7 @@ sources:
   url: https://www.prnewswire.com/news-releases/listen-labs-raises-69m-series-b-after-interviewing-over-one-million-people-302362224.html
   date: '2026-01-14'
   quote: interviewed over one million people
-- claim: Salesforce completed its acquisition of Listen Labs in November 2026.
+- claim: Salesforce bought Listen Labs in early November 2026 2026.
   url: https://www.salesforce.com/news/stories/listen-labs-acquisition/
   date: '2026-11-02'
   quote: completed its acquisition of Listen Labs

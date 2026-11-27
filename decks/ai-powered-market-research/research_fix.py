@@ -47,3 +47,38 @@ for f in glob.glob(R+'*.md'):
     t=re.sub(r'### (\S+)\n```yaml\n(.*?)```',fix,t,flags=re.S)
     if t!=o: open(f,'w').write(t)
 print('blocks fixed',n)
+
+# --- round 2 (first build, 27 Nov 2026): YES/NO read as booleans, layout fixes on research texts
+import yaml as _y
+LIT={
+ '200M':None,
+}
+REP=[
+ ("What counts as AI-powered market research, and what does not?","What counts as AI market research, and what does not?"),
+ ("Which bold bets could reshape AI-powered market research?","Which bold bets could reshape AI market research?"),
+ ("MIXED-MEDIA TESTING","MULTIMEDIA TESTS"),
+ ("They combine study design, fieldwork and synthesis in one tool","They combine study design, fieldwork and synthesis"),
+ ("They reported interviewing over one million people by January","They interviewed over one million people by January"),
+ ("Salesforce completed its acquisition of Listen Labs in November","Salesforce bought Listen Labs in early November 2026"),
+ ("They support research interviews natively in over 40 languages","They run interviews natively in over 40 languages"),
+ ("They support custom guides and AI-generated interview guides","They support custom and AI-generated interview guides"),
+ ("They reported tenfold revenue growth and raised a $14M round","They grew revenue tenfold and raised a $14M round"),
+ ("They compare each new wave with earlier waves to spot shifts","They compare each wave with earlier ones to spot shifts"),
+ ("They show tracked measures in live charts with video evidence","They show tracked measures in live charts with video"),
+ ("They combine language models with real consumer survey data","They combine language models with real survey data"),
+ ("They hold back evaluation questions when building the audience","They hold back test questions when building the audience"),
+ ("They compare predicted distributions with actual survey answers","They compare predicted answers with real survey answers"),
+ ("Each interview adds evidence that improves the next study and follow-up questions","Each interview adds evidence that improves the next study"),
+ ("Ideally's team spans Auckland, Sydney and Melbourne and serves more than 300 brands across global markets.","Ideally's team spans Auckland, Sydney and Melbourne and serves more than 300 brands."),
+]
+for f in glob.glob(R+'*.md'):
+    t=open(f).read(); o=t
+    for a,b in REP: t=t.replace(a,b)
+    def yn(m):
+        if m.group(1)!='ed173': return m.group(0)
+        d=_y.safe_load(m.group(2))
+        for k,v in list(d['t'].items()):
+            if isinstance(v,bool): d['t'][k]='YES' if v else 'NO'
+        return '### %s\n```yaml\n%s```'%(m.group(1),_y.safe_dump(d,allow_unicode=True,sort_keys=False,width=1000))
+    t=re.sub(r'### (\S+)\n```yaml\n(.*?)```',yn,t,flags=re.S)
+    if t!=o: open(f,'w').write(t)

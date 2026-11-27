@@ -27,7 +27,7 @@ sources:
     url: https://outset.ai/series-b
     date: 2025-12-10
     quote: "business growing more than 8x"
-  - claim: Salesforce completed its acquisition of Listen Labs in November 2026.
+  - claim: Salesforce bought Listen Labs in early November 2026 2026.
     url: https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/
     date: 2026-11-02
     quote: "Salesforce completed its acquisition of Listen Labs on November 2, 2026."
@@ -246,7 +246,7 @@ t:
   6: '📊
 
 
-    Each interview adds evidence that improves the next study and follow-up questions'
+    Each interview adds evidence that improves the next study'
   7: '👥
 
 

@@ -277,13 +277,13 @@ rows:
 - - They produce static survey answers with little context
   - They use AI to conduct in-depth research conversations
 - - They leave teams to analyze every interview manually
-  - They combine study design, fieldwork and synthesis in one tool
+  - They combine study design, fieldwork and synthesis
 - - They take weeks to answer an urgent business question
   - Sweetgreen reported getting research results in four days
 - - They rely on small trials without showing research scale
-  - They reported interviewing over one million people by January
+  - They interviewed over one million people by January
 - - They stay focused on a standalone research workflow
-  - Salesforce completed its acquisition of Listen Labs in November
+  - Salesforce bought Listen Labs in early November 2026
 logo_src: <logo>
 logos:
 - name: Listen Labs
@@ -332,13 +332,13 @@ rows:
 - - They limit research to one way of talking to people
   - They run research interviews in video, voice and text formats
 - - They depend on manual translation for global research
-  - They support research interviews natively in over 40 languages
+  - They run interviews natively in over 40 languages
 - - They only analyze what a participant says out loud
   - They can use visual cues to inform probing and synthesis
 - - They wait until fieldwork ends to spot weak answers
   - They detect low-effort responses while the interview runs
 - - They make every customer use a standard question guide
-  - They support custom guides and AI-generated interview guides
+  - They support custom and AI-generated interview guides
 - - They report usage rather than showing commercial growth
   - They reported eightfold revenue growth during the year 2025
 - - They take years to secure a follow-on financing round
@@ -401,7 +401,7 @@ rows:
 - - They add customers slowly without proving repeat demand
   - They reported growing their customer base fourfold in a year
 - - They raise new money without showing revenue growth
-  - They reported tenfold revenue growth and raised a $14M round
+  - They grew revenue tenfold and raised a $14M round
 logo_src: <logo>
 logos:
 - name: Strella
@@ -458,11 +458,11 @@ rows:
 - - They make clients find suitable participants themselves
   - They recruit participants through eight integrated panels
 - - They repeat research without connecting the findings
-  - They compare each new wave with earlier waves to spot shifts
+  - They compare each wave with earlier ones to spot shifts
 - - They present AI findings without review by researchers
   - They let researchers validate and interpret the findings
 - - They deliver snapshots that are hard to compare over time
-  - They show tracked measures in live charts with video evidence
+  - They show tracked measures in live charts with video
 - - They focus on pilots without funding their expansion
   - They raised a $50M Series A to expand their US business
 logo_src: <logo>
@@ -505,13 +505,13 @@ logo: electric-twin
 right: ELECTRIC TWIN
 rows:
 - - They generate personas from a generic language model
-  - They combine language models with real consumer survey data
+  - They combine language models with real survey data
 - - They create audience profiles with little client context
   - They can build simulations from the client’s own research data
 - - They evaluate predictions using the same source answers
-  - They hold back evaluation questions when building the audience
+  - They hold back test questions when building the audience
 - - They judge the results by how convincing the text sounds
-  - They compare predicted distributions with actual survey answers
+  - They compare predicted answers with real survey answers
 - - They rely on a single flattering accuracy measure
   - They report 92% on a stricter distribution accuracy measure
 - - They publish a single benchmark for every customer

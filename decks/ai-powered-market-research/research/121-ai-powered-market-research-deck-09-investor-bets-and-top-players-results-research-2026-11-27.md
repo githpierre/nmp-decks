@@ -137,41 +137,41 @@ t:
   32: QUANT SURVEYS
   40: AD TESTS
   6: LISTEN LABS
-  9: true
-  13: false
-  27: true
-  31: false
-  39: true
+  9: 'YES'
+  13: 'NO'
+  27: 'YES'
+  31: 'NO'
+  39: 'YES'
   7: OUTSET
-  11: true
-  15: true
-  29: true
-  33: false
-  41: true
+  11: 'YES'
+  15: 'YES'
+  29: 'YES'
+  33: 'NO'
+  41: 'YES'
   8: CONVEO
-  12: true
-  16: false
-  30: true
-  34: true
-  42: true
+  12: 'YES'
+  16: 'NO'
+  30: 'YES'
+  34: 'YES'
+  42: 'YES'
   19: SIMILE
-  21: false
-  23: true
-  35: false
-  37: true
-  43: true
+  21: 'NO'
+  23: 'YES'
+  35: 'NO'
+  37: 'YES'
+  43: 'YES'
   20: ZAPPI
-  22: true
-  24: true
-  36: false
-  38: true
-  44: true
+  22: 'YES'
+  24: 'YES'
+  36: 'NO'
+  38: 'YES'
+  44: 'YES'
   46: POGO
-  47: true
-  48: false
-  49: true
-  50: true
-  51: false
+  47: 'YES'
+  48: 'NO'
+  49: 'YES'
+  50: 'YES'
+  51: 'NO'
 sources:
 - claim: Listen Labs conducts AI-led interviews and synthesizes customer research for enterprise teams.
   url: https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/
@@ -574,7 +574,7 @@ note: We mapped company origins and visible operating hubs. Programs and custome
 regions:
   apac:
     name: APAC
-    text: "Ideally's team spans Auckland, Sydney and Melbourne and serves more than 300 brands across global markets."
+    text: "Ideally's team spans Auckland, Sydney and Melbourne and serves more than 300 brands."
   au:
     name: AUSTRALIA
     text: "Its Sydney and Melbourne teams make Australia a visible hub for rapid real-consumer concept and category testing."

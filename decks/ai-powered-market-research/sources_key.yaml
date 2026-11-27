@@ -1,0 +1,82 @@
+# 20 key sources (draft_sources_key.py, rewritten 27 Nov 2026)
+rows:
+- name: "Stratistics MRC,\nmarket report"
+  why: The market report on AI in market research, with its 2025 size and a growth forecast to 2032
+  how: We used it as the upper reference of our $4.5B market size. It also gave the highest growth rate we compared.
+  url: https://www.strategymrc.com/report/ai-in-market-research-market
+- name: "Future Market Insights,\nmarket report"
+  why: The market report on AI-based research services, with its 2025 size and a forecast to 2035
+  how: We used it as a broad service reference for market size. It also gave one of the growth rates we compared.
+  url: https://www.futuremarketinsights.com/reports/ai-based-research-services-market
+- name: "ESOMAR, research\nsoftware in 2024"
+  why: ESOMAR's review of the research software sector, with its growth in 2024 and the size of the industry
+  how: We used it for the 11.5% growth of research software. It also set the ceiling of the global insights industry.
+  url: https://researchworld.com/our-members-stories/where-does-the-research-software-sector-stand-in-2024
+- name: "ESOMAR, AI adoption\nin research firms"
+  why: ESOMAR's survey of research firms on how widely they use AI and how far they have scaled it
+  how: We used it for the jump from 56% to 93% of firms using AI. It also showed only 15% have scaled it.
+  url: https://researchworld.com/innovations/ai-is-global-adoption-is-local
+- name: "Greenbook, GRIT\nreport 2026"
+  why: The 2026 GRIT report on research practice, with the use of synthetic data and AI-moderated interviews
+  how: We used it for synthetic data use rising from 26% to 44% at large suppliers. It framed the speed of change.
+  url: https://hs-6530786.f.hubspotemail.net/hubfs/6530786/2026%20GRIT%20Insights%20Practice%20Report/2026%20GRIT%20Insights%20Practice%20Report%20-%20Unabridged.pdf
+- name: "Pew Research Center,\nsynthetic survey test"
+  why: Pew's 2026 test comparing synthetic survey answers with the answers of real people on nearly 300 questions
+  how: We used it for the 12.4-point average error of synthetic answers. It framed the main risk of the market.
+  url: https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really
+- name: "NORC, review of\nsurvey fraud"
+  why: NORC's 2026 review of studies on fraud and bots in online survey panels across market research
+  how: We used it for the 15% to 30% fraud rate in online panels. It showed why verified people are scarce.
+  url: https://www.norc.org/content/dam/norc-org/pdf2026/cpss-research-brief-fraud-lit-review.pdf
+- name: "GWI, artificial\nconfidence report"
+  why: GWI's survey of 1,883 professionals on how often AI tools gave them misleading findings at work
+  how: We used it for the 80% who often met misleading AI findings. It showed why buyers ask for proof.
+  url: https://www.gwi.com/reports/artificial-confidence
+- name: "ICC and ESOMAR,\nresearch code"
+  why: The international code of conduct for market and social research, updated for AI and synthetic data
+  how: We used it for the duty to tell clients when AI or synthetic data is used. It framed the rules of the market.
+  url: https://iccwbo.org/wp-content/uploads/sites/3/2025/09/ICC-ESOMAR-International-Code-on-Market-Opinion-and-Social-Research-and-Data-Analytics-2.pdf
+- name: "Salesforce, Listen\nLabs acquisition"
+  why: Salesforce's announcement of its deal to buy Listen Labs, an AI interview startup, completed in November 2026
+  how: We used it for the largest exit of the market so far. It showed that big software groups want AI research.
+  url: https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs
+- name: "Listen Labs,\nSeries B release"
+  why: Listen Labs' release on its $69M round, with its interview count and revenue growth since launch
+  how: We used it for one million interviews and 15x revenue growth in nine months. It showed how fast demand grew.
+  url: https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html
+- name: "Simile,\nSeries B release"
+  why: Simile's announcement of its $200M round at a $2B valuation to build synthetic users for research
+  how: We used it for the largest round of the market. It showed how much investors bet on synthetic respondents.
+  url: https://www.simile.com/blog/series-b
+- name: "Balderton, Conveo\nSeries A release"
+  why: Balderton's release on the $50M round of Conveo, with its count of enterprise customers and big brands
+  how: We used it for Conveo's 400 enterprise customers. It showed that large brands now buy AI interviews.
+  url: https://www.balderton.com/news/conveo-raises-50m-to-help-fortune-500-brands-understand-what-consumers-want-next
+- name: "Outset,\nSeries B release"
+  why: Outset's announcement of its $30M round, with the growth of its AI interview business over the year
+  how: We used it for Outset's growth of more than 8x. It also placed Outset among the leaders of AI interviews.
+  url: https://outset.ai/series-b
+- name: "Strella,\nSeries A release"
+  why: Strella's announcement of its $14M round, with its revenue and customer growth in its first year
+  how: We used it for 10x revenue growth and 4x more customers. It showed demand for AI-moderated interviews.
+  url: https://www.strella.io/blog/series-a
+- name: "TechCrunch,\nAaru funding"
+  why: TechCrunch's report on the funding of Aaru, which builds AI agents that simulate human behavior
+  how: We used it for Aaru's round of more than $50M. It also gave the $1B headline valuation we flagged.
+  url: https://techcrunch.com/2025/12/05/aaru-raises-over-50m-to-build-ai-agents-that-simulate-human-behavior/
+- name: "Pogo, funding\nannouncement"
+  why: Pogo's announcement of its $32M raised and the launch of its research platform on a consumer panel
+  how: We used it for Pogo's panel of 3M consumers with verified purchases. It showed the value of verified people.
+  url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+- name: "Mintel, Black Swan\nData acquisition"
+  why: Mintel's announcement of its purchase of Black Swan Data, which predicts consumer trends with AI
+  how: We used it for consolidation in market intelligence. It showed that research groups buy AI startups.
+  url: https://www.mintel.com/press-centre/mintel-acquires-black-swan-data-revolutionizing-predictive-intelligence-and-reshaping-the-future-of-insight
+- name: "Forrester, Zappi\nimpact study"
+  why: Forrester's study of the costs and gains of the Zappi testing platform for a model client company
+  how: We used it for the 243% return and the $3M cost over three years. It showed how buyers judge value.
+  url: https://tei.forrester.com/go/zappi/consumerinsightplatform/
+- name: "Lumivero, NVivo\nAI Cloud launch"
+  why: Lumivero's launch of NVivo AI Cloud, which codes interviews with AI and links each theme to its source
+  how: We used it for source-linked AI coding. It showed how insight synthesis answers the need for proof.
+  url: https://lumivero.com/resources/press-releases/lumivero-launches-nvivo-ai-cloud

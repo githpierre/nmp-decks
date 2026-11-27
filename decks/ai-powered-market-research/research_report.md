@@ -1,0 +1,115 @@
+# Research import re, jsonport
+
+169 answers parsed, 0 YAML errors, 111 slides with remarks.
+
+- **ed006**: no sources
+- **ed007p**: status no_data: taken from the live product page
+- **ed007p**: dropped: no data
+- **ed008**: no sources
+- **ed009**: no sources
+- **ed010**: no sources
+- **ed011**: length 8: 18 vs 25; no sources
+- **ed012**: status no_data: products and their names change too often to group them reliably without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: prices depend on the study, the panel and the contract and are rarely published
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: no sources
+- **ed016**: no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed032**: length 11: 53 vs 41; length 13: 54 vs 39
+- **ed043**: status no_data: Public vendors do not disclose revenue for the in-scope AI research product alone, so a defensible bottom-up total cannot be reconciled.
+- **ed043**: dropped: no data
+- **ed044**: status no_data: Available disclosures do not separate research-product revenue from services, broader software or acquired businesses, so the calculation cannot
+- **ed044**: dropped: no data
+- **ed045**: status no_data: No source publishes revenue for the exact independent-vendor scope, and public company disclosures do not isolate this product set.
+- **ed045**: dropped: no data
+- **ed047p**: status no_data: No reliable source splits revenue across the six defined product categories, and company-level sales are not disclosed by category.
+- **ed047p**: dropped: no data
+- **ed049**: status no_data: Published reports provide broad regional rankings or country examples, but not comparable regional revenue shares for the defined vendor scope.
+- **ed049**: dropped: no data
+- **ed050**: length 6: 15 vs 22
+- **ed054**: no sources
+- **ed055**: length 7: 99 vs 65; length 10: 100 vs 58; length 13: 102 vs 67; length 16: 103 vs 67; length 19: 100 vs 59; length 22: 102 vs 60; no sources
+- **ed056**: length 27: 21 vs 34; length 35: 22 vs 30; length 20: 34 vs 25; no sources
+- **ed057**: length 6: 22 vs 32; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 17: 13 vs 21; no sources
+- **ed064-s1**: length 15: 47 vs 65; no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: length 17: 10 vs 21; no sources
+- **ed064-s2**: length 15: 47 vs 65; no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 17: 14 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 13 vs 20; length 17: 13 vs 21; no sources
+- **ed064-s4**: length 15: 47 vs 65; no sources
+- **ed065-s4**: no sources
+- **ed062-s5**: no sources
+- **ed063-s5**: no sources
+- **ed064-s5**: length 15: 48 vs 65; no sources
+- **ed065-s5**: no sources
+- **ed090**: status no_data: No public source measures what share of value or revenue is captured by data, models, workflows, research methods or reporting layers.
+- **ed090**: dropped: no data
+- **ed095**: length 5: 98 vs 71; length 30: 80 vs 60
+- **ed096**: status no_data: No credible source forecasts when these specific research-quality bottlenecks will be solved. Assigning years to eight different problems would 
+- **ed096**: dropped: no data
+- **ed098**: length 31: 88 vs 69
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 15: 83 vs 63; no sources
+- **ed104**: length 7: 92 vs 63; length 10: 91 vs 68; length 15: 90 vs 67; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: length 8: 14 vs 20; no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: length 8: 33 vs 26; no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: length 8: 13 vs 20; no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 38 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: length 8: 13 vs 20; no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: length 8: 14 vs 20; no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 8: 34 vs 26; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 13: 23 vs 34; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: length 9: 26 vs 41; length 8: 38 vs 26; no sources
+- **ed136**: length 10: 75 vs 57; length 11: 74 vs 57; length 12: 74 vs 55; length 13: 66 vs 45
+- **ed143**: length 22: 10 vs 22; length 10: 11 vs 21
+- **ed144**: length 22: 10 vs 22; length 14: 11 vs 21; length 10: 11 vs 20
+- **ed145**: length 31: 12 vs 22
+- **ed149**: length 21: 48 vs 37
+- **ed153**: length 6: 60 vs 83
+- **ed172**: length 9: 61 vs 48
+- **ed186**: length 11: 79 vs 60
+- **ed188**: status no_data: Only Simile has a verified $2B post-money valuation in the reviewed set. Listen Labs' acquisition price is undisclosed, and Aaru's $1B headline 
+- **ed188**: dropped: no data
+- **ed189**: status no_data: Only one company in the defined market has a verified public $1B-plus valuation. Comparable founding dates and valuation milestones are not disc
+- **ed189**: dropped: no data
+- **ed190**: status no_data: Public revenue, customer and valuation metrics use different definitions and time windows. No comparable multi-company growth curve can be built
+- **ed190**: dropped: no data
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3

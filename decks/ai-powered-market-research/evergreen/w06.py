@@ -64,8 +64,8 @@ S=[("AI INTERVIEWS","AI interviews","create","AI moderators that interview real 
  [("CATEGORY\nMANAGERS","They are retail and brand managers who want to see which flavors, claims or formats are rising before rivals do"),
   ("INNOVATION\nTEAMS","They are teams that want early signals of new needs so they can build products before demand peaks"),
   ("BRAND\nSTRATEGISTS","They are strategists who want to track how a brand is seen against rivals, week by week, in each market"),
-  ("INVESTORS","They are investors who want early signs that a category or a brand is growing before it shows in sales data"),
-  ("RETAILERS","They are retailers that want to know which products to stock next season based on real demand signals")],
+  ("GROWTH\nINVESTORS","They are investors who want early signs that a category or a brand is growing before it shows in sales data"),
+  ("RETAIL\nBUYERS","They are retailers that want to know which products to stock next season based on real demand signals")],
  "The manager sees that a new flavor is rising in social posts, searches and sales data across three markets. The platform predicts it will keep growing, a quick study with real buyers confirms it, and the product reaches shelves ahead of rivals.",
  "The manager reads a trend report that is months old and already known to rivals. Signals from social media, search and sales sit in separate tools, the team argues about what they mean, and the product arrives after demand has peaked.",
  {9:"🔍\nA brand subscribes to trend data",7:"🌍\nThe platform tracks many sources",6:"📈\nAI predicts which trends will grow",8:"💳\nThe brand pays a monthly fee",13:"🔁\nNew markets are added",11:"👥\nMore teams use the alerts",10:"📊\nPredictions are checked against sales",12:"✅\nProducts launch ahead of demand"}),
@@ -82,7 +82,7 @@ for k,(cap,name,v,desc,users,good,bad,flow) in enumerate(S,1):
     add(f"ed106-s{k}",{"status":"ok","t":{6:"VALUE CREATION",3:cap,5:desc}})
     t={21:cap}
     for (lab,txt),kl,kt in zip(users,[5,8,11,14,17],[7,10,13,16,19]): t[kl]=lab; t[kt]=txt
-    add(f"ed107-s{k}",{"status":"ok","title":"Who needs it the most?","note":f"We focus on five groups where {name[0]+name[1:]} {v} the clearest value today. These are priority use cases, not a full list of clients.","t":t})
+    add(f"ed107-s{k}",{"status":"ok","title":"Who needs it the most?","note":f"We focus on five groups where {name if name.startswith("AI") else name[0].lower()+name[1:]} {v} the clearest value today. These are priority use cases, not a full list of clients.","t":t})
     add(f"ed108-s{k}",{"status":"ok","title":"What does \"maximum customer value\" look like in practice?","t":{5:cap,10:"EXCEPTIONAL CUSTOMER EXPERIENCE",7:good,12:"VS",9:"BAD CUSTOMER EXPERIENCE",6:bad}})
     add(f"ed109-s{k}",{"status":"ok","title":"How does the money flow in this case?","t":{14:cap,**flow}})
 open("/home/claude/nmp-decks/decks/ai-powered-market-research/research/121-ai-powered-market-research-deck-06-value-creation-results-research-2026-11-27.md","w").write("\n".join(out))

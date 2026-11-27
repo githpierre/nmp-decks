@@ -448,7 +448,7 @@ comment: No credible source forecasts when these specific research-quality bottl
 ```yaml
 status: ok
 section: Tech and infra
-title: Which bold bets could reshape AI-powered market research?
+title: Which bold bets could reshape AI market research?
 note: We split the bets by how close the enabling products already are to market. The longer-term ideas depend on better validation, data access and clear limits on synthetic evidence.
 t:
   9: "ALWAYS-ON INTERVIEWS"
@@ -461,7 +461,7 @@ t:
   13: "Software designs studies, recruits people, runs interviews and builds evidence-linked reports."
   16: "Live views connect consumer, category and market signals to show what is changing and why."
   21: "PERSONAL CUSTOMER TWINS"
-  24: "MIXED-MEDIA TESTING"
+  24: "MULTIMEDIA TESTS"
   27: "CROSS-MARKET MODELS"
   30: "RESEARCH CONTROL LAYER"
   34: "LONG-TERM HORIZON\n(5-10 YEARS)"
@@ -561,6 +561,10 @@ sources:
   url: https://www.salesforce.com/news/stories/listen-labs-acquisition/
   date: '2026-11-02'
   quote: completed its acquisition of Listen Labs
+- claim: Pogo launched an AI research platform on its consumer panel.
+  url: https://www.joinpogo.com/articles/announcing-32m-in-funding
+  date: '2026-06-01'
+  quote: Pogo has raised $32 million to date and launched the first product in its research platform.
 - claim: Pogo launched an AI research platform on its consumer panel.
   url: https://www.joinpogo.com/articles/announcing-32m-in-funding
   date: '2026-06-01'

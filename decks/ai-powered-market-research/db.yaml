@@ -1,0 +1,190 @@
+ed156:
+  13: 2026 (NOV)
+  14: Newton Research raised $18M for its AI research for advertising effectiveness decisions {1|SEC filing}
+  15: 2026 (NOV)
+  16: QualSights raised $5M led by Duo for its market intelligence {1|ACCESS Newswire}
+  17: 2026 (OCT)
+  18: Verso raised a $6M seed round led by Angular for its AI-led consumer interviews and evolving personas {1|MrWeb}
+  19: 2026 (OCT)
+  20: Autentic AI raised a $1.7M pre-seed round for its AI market research interviews platform {1|EU.VC}
+  21: 2026 (SEP)
+  22: Intellicia raised a $2.5M seed round led by Kakao for its synthetic consumer research {1|Seoul Economic Daily}
+  23: 2026 (SEP)
+  24: askpolly raised a $3M seed round led by Differential for its synthetic respondents {1|SiliconANGLE}
+  note: We list the latest equity rounds of AI market research startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed157:
+  14: 2026 (SEP)
+  15: Conveo raised a $50M Series A led by DST Global for its automated consumer interview and research agents {1|Balderton}
+  16: 2026 (SEP)
+  17: Hiasynth raised an undisclosed seed round led by Further Than for its queryable synthetic population {1|Hiasynth}
+  18: 2026 (AUG)
+  19: Echovane raised a $1M seed round led by Titan for its autonomous end-to-end market research agents {1|GlobeNewswire}
+  20: 2026 (JUL)
+  21: Simile raised a $200M Series B led by Greenoaks for its foundation models simulating human behavior {1|Simile}
+  22: 2026 (APR)
+  23: Ideally raised a $10M Series A led by Shearwater for its AI surveys {1|Research Live}
+  24: 2026 (FEB)
+  25: Simile raised a $100M Series A led by Index for its foundation models simulating human behavior {1|Index Ventures}
+  note: We list the latest equity rounds of AI market research startups in our tracker, from company releases and the press. Undisclosed means no amount was made public
+ed158:
+  bars:
+  - x: 2025 H1
+    v: 87
+    ann: Listen Labs, $20M top round, in 11 rounds
+  - x: 2025 H2
+    v: 177
+    ann: Aaru, $50M top round, in 14 rounds
+  - x: 2026 H1
+    v: 196
+    ann: Simile, $100M top round, in 5 rounds
+  - x: 2026 H2
+    v: 287
+    ann: Simile, $200M top round, in 10 rounds
+  note:
+  - We add up the disclosed equity rounds of AI market research startups we track, by half-year
+  - 2026 H2 runs to early November only, and rounds with no public amount count as zero
+ed159:
+  type: fundbars
+  t: null
+  bars:
+  - x: '2024'
+    v: 89
+    ann: GetWhy, $34M top round, in 11 rounds
+  - x: '2025'
+    v: 264
+    ann: Aaru, $50M top round, in 25 rounds
+  - x: '2026'
+    v: 483
+    ann: Simile, $200M top round, in 15 rounds
+  note:
+  - We add up the disclosed equity rounds of AI market research startups in our database, which is complete from January 2024
+  - IPOs, debt and grants are left out, 2026 runs to mid-November, and rounds with no public amount count as zero
+ed164:
+  type: fundbars
+  unit: pct
+  t: null
+  bars:
+  - x: '2024'
+    v: 39
+    ann: GetWhy, $34M top round, out of 11 rounds
+  - x: '2025'
+    v: 19
+    ann: Aaru, $50M top round, out of 25 rounds
+  - x: 2026 (YTD)
+    v: 41
+    ann: Simile, $200M top round, out of 15 rounds
+  note:
+  - We divide, for each year, the largest round by all the disclosed capital in our tracker
+  - IPOs, debt and grants are left out, and 2026 only runs to mid-November for now
+ed165p:
+  rounds:
+  - name: Simile
+    amt: 200000000
+    date: Q3 2026
+    stage: Series B
+  - name: Simile
+    amt: 100000000
+    date: Q1 2026
+    stage: Series A
+  - name: Listen Labs
+    amt: 69000000
+    date: Q1 2026
+    stage: Series B
+  - name: Aaru
+    amt: 50000000
+    date: Q4 2025
+    stage: Series A
+  note:
+  - We listed the biggest equity rounds raised by AI market research startups over the last twelve months
+  - We used company announcements and the press, and all our sources are at the end of the report
+ed166p:
+  rounds:
+  - name: GWI
+    amt: 180000000
+    date: '2022'
+    stage: Series B
+  - name: Dovetail
+    amt: 63000000
+    date: '2022'
+    stage: Series A
+  - name: Attest
+    amt: 60000000
+    date: '2021'
+    stage: Series B
+  - name: Suzy
+    amt: 50000000
+    date: '2021'
+    stage: late-stage
+  note:
+  - We listed the biggest equity rounds raised by AI market research startups before the last twelve months
+  - We used our tracker of rounds, company announcements and the press, with sources at the end
+ed167:
+  6: SYNTHETIC RESPONDENTS
+  9: '14'
+  13: $386M
+  17: Simile, Aaru, Electric Twin, BluePill, Fairgen, askpolly
+  7: AI INTERVIEWS
+  11: '22'
+  15: $331M
+  19: Listen Labs, Conveo, GetWhy, Outset, Knit, Strella
+  8: MARKET INTELLIGENCE
+  12: '6'
+  16: $39M
+  20: Bridgetown Research, i-Genie, QualSights, Ai Palette, Behavix
+  note: We used our tracker of 51 AI market research equity rounds announced since January 2024, worth about $836M. IPOs, debt and grants are left out
+ed169:
+  7: INDEX
+  10: '2'
+  14: $300M
+  18: Simile (twice)
+  8: PEAKSPAN
+  12: '2'
+  16: $54M
+  20: GetWhy (twice)
+  9: SEQUOIA
+  13: '2'
+  17: $27M
+  21: Listen Labs (twice)
+  26: BESSEMER
+  28: '2'
+  30: $23M
+  32: Newton Research, Strella
+  27: GREENOAKS
+  29: '1'
+  31: $200M
+  33: Simile
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 51 rounds
+ed205:
+  14: 2024 (JUN)
+  15: GetWhy raised a $34M Series A led by PeakSpan for its AI analysis of video-based consumer research {1|TechCrunch}
+  16: 2025 (DEC)
+  17: Aaru raised a $50M Series A led by Redpoint. It simulates human behavior for market research {1|TechCrunch}
+  18: 2026 (JAN)
+  19: Listen Labs raised a $69M Series B led by Ribbit for its AI-powered customer research interviews {1|PR Newswire}
+  20: 2026 (FEB)
+  21: Simile raised a $100M Series A led by Index for its foundation models simulating human behavior {1|Index Ventures}
+  22: 2026 (JUL)
+  23: Simile raised a $200M Series B led by Greenoaks for its foundation models simulating human behavior {1|Simile}
+  24: 2026 (SEP)
+  25: Conveo raised a $50M Series A led by DST Global for its automated consumer interview and research agents {1|Balderton}
+  note: We picked the biggest disclosed rounds of AI market research startups since 2024, from our tracker of rounds
+ed160:
+  6: Synthetic respondents took about 46% of the capital raised since 2024, ahead of AI interviews with about 40%
+  7: 48 of the 51 rounds since 2024 disclosed an amount, and the median disclosed round was $6.4M
+  8: US startups closed 29 of the 51 rounds and took $635M, about 76% of all the money raised since 2024
+  9: 2 rounds of $100M or more made up about 36% of all the capital raised in the market since 2024
+  10: The $200M Series B round of Simile is the biggest since 2024, ahead of its own $100M Series A
+  11: Seed was the most common round, with 18 of the 51 rounds, ahead of Series A with 16 and Series B with 4
+  note: We drew these insights from our tracker of 51 AI market research equity rounds announced since January 2024, worth about $836M
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, money went to survey software and panel firms, and Momentive sold for $1.5B.'
+  7: 'AFTER
+
+
+
+    Since 2024, 51 rounds raised $836M. Synthetic respondents take the biggest share, and AI interviews come close behind.'
+  note: We used our tracker of AI market research equity rounds, complete from January 2024, and company releases and the press

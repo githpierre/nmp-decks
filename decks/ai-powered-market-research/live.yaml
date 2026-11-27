@@ -94,16 +94,61 @@ ed148p:
     text: Pew exposes synthetic survey accuracy gaps
     impact: 2.5
   note:
-  - We kept the events we believe pushed ai powered market research forward the most
-  - Ratings are our estimates, with all the sources at the end of the report
+  - We kept the events we believe pushed AI market research the most
+  - Ratings are our estimates, with all sources at the end of the report
 ed168p:
   handle: ai-powered-market-research
   title: 'Where did AI market research investors
 
     put their money this past year?'
   note:
-  - We added up every equity round of ai powered market research startups in our tracker over the last twelve months
-  - by category of our market definition, and rounds with no public amount count as zero here
+  - We added up the equity rounds of AI market research startups over the last twelve months
+  - by category of our market definition, and rounds with no public amount count as zero
+  rows:
+  - name: Synthetic respondents
+    names:
+    - Simile
+    - Aaru
+    v: $366M
+    pct: 64% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/simile.png
+    - src: ../../assets/logos/aaru.png
+    - src: ../../assets/logos/electric-twin.png
+  - name: AI interviews
+    names:
+    - Listen Labs
+    - Conveo
+    v: $167M
+    pct: 29% of total
+    w: 45.7
+    logos:
+    - src: ../../assets/logos/listen-labs.png
+    - src: ../../assets/logos/conveo.png
+    - src: ../../assets/logos/outset.png
+  - name: Ad pretesting
+    names:
+    - Newton Research
+    v: $25M
+    pct: 4% of total
+    w: 6.8
+    logos:
+    - src: ../../assets/logos/newton-research.png
+  - name: AI surveys
+    names:
+    - Ideally
+    v: $10M
+    pct: 2% of total
+    w: 2.7
+    logos:
+    - src: ../../assets/logos/fav/ideally.png
+  - name: Market intelligence
+    names: []
+    v: $5M
+    pct: under 1% of total
+    w: 1.4
+    logos: []
 ed171p:
   title: 'Who are the top companies
 
@@ -176,11 +221,11 @@ ed171p:
   cols:
   - Leaders
   - Challengers
-  - Leaders
+  - Newcomers
   rows:
-  - Interviews
-  - Leaders
-  - Challengers
+  - AI Interviews
+  - Synthetic AI
+  - Survey Insight
   note:
   - We left out listed companies and incumbents like Qualtrics, Ipsos and NielsenIQ
   - We placed each pure player by its main focus, with all the sources at the end of the report
@@ -262,7 +307,7 @@ ed201:
     slug: discover-ai
     domain: discover.ai
   note:
-  - We tracked the ai powered market research startups that shut down, went bankrupt or were sold for little
+  - We tracked the AI market research startups that shut down, went bankrupt or were sold for little
   - We used court filings and the press, and all the sources are included at the end of the report
 ed209p:
   title: 'Why might Outset be winning
@@ -340,30 +385,179 @@ ed209p:
   - We compared companies with the same business model on what matters most to customers
   - We used company reports and public records, and all our sources are at the end of the report
 ed039p:
+  caption_period: November 2021 to July 2025
+  csv: assets/trends/ai-powered-market-research/ai-market-research.csv
+  cut: '2025-07-27'
+  date: From late 2021 to mid-2025.
+  expl: Interest took off as AI began to run interviews and read thousands of answers, and as startups like Listen Labs and Outset raised big rounds.
+  note:
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   pill: SIGNAL
   signal: google-trends
-  window: 5y
-  title: 'Which companies really belong
+  term: ai market research
+  title: 'Searches for AI market research soared
 
-    in decentralized exchange (DEX)?'
-  date: ''
-  expl: one cryptoasset for another
-  term: ai powered market research
-  note:
-  - Distance to the center reflects how central each company is to decentralized exchange (DEX)
-  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
-  csv: assets/trends/ai-powered-market-research/ai-powered-market-research.csv
+
+    from late 2021 to mid-2025'
+  window: 5y
 ed052p:
   type: pp_cagr
   title: 'How much bigger can
 
     AI market research get?'
   lead: ''
-  condition: To get that big, the market must prove that AI interviews and synthetic respondents predict real buyer behavior as well as human panels, so
-    brands shift budget from agencies and not only from pilot projects.
+  condition: To get that big, the market must prove that AI interviews and synthetic respondents predict real buyer behavior as well as human panels, so brands shift budget from agencies and not only from pilot projects.
   note:
   - We compared forecasts from Stratistics MRC, Future Market Insights, a16z and ET BrandEquity
-  - We adjusted each one to our market definition to build a realistic range, with all the sources at the end of the report
+  - We adjusted each one to our market definition, with all the sources at the end of the report
   size: 4.5
   cagr: 22
   y0: 2026
+ed058:
+  type: pp_pains
+  title: 'Which AI market research
+
+
+    problems are still unsolved?'
+  auds:
+  - Marketers
+  - Product teams
+  - Agencies
+  - Insights teams
+  - Founders
+  pains:
+  - - They wait weeks and pay a lot for a single study
+    - - 3
+      - 3
+      - 2
+      - 2
+      - 3
+  - - They doubt answers from synthetic AI respondents
+    - - 2
+      - 2
+      - 3
+      - 3
+      - 1
+  - - They get survey answers from bots and fake panelists
+    - - 3
+      - 2
+      - 3
+      - 3
+      - 2
+  - - They drown in interview notes nobody has time to read
+    - - 2
+      - 3
+      - 2
+      - 3
+      - 2
+  - - They cannot reach niche buyers like doctors or engineers
+    - - 2
+      - 2
+      - 2
+      - 3
+      - 1
+  - - They struggle to turn research into clear decisions
+    - - 3
+      - 3
+      - 1
+      - 2
+      - 3
+  note:
+  - We gathered customer complaints from reviews, forums, surveys and analyst reports on this market
+  - Bigger dots mean that group would pay more to fix it, and all our sources are at the end of the report
+ed099p:
+  title: 'Which AI market research player
+
+
+    has the most complete tech today?'
+  companies:
+  - name: Listen
+    src: ../../assets/logos/pp_live/ai-powered-market-research/s05-00.png
+  - name: Outset
+    src: ../../assets/logos/pp_live/ai-powered-market-research/s05-01.png
+  - name: Strella
+    src: ../../assets/logos/pp_live/ai-powered-market-research/s05-02.png
+  - name: Conveo
+    src: ../../assets/logos/pp_live/ai-powered-market-research/s05-03.png
+  - name: User Intuition
+    src: ../../assets/logos/pp_live/ai-powered-market-research/s05-04.png
+  features:
+  - header: Screen|sharing
+    values:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+  - header: Real-person|twins
+    values:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+  - header: Vetted|panel
+    values:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+  - header: Quant|questions
+    values:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+  - header: Human|moderation
+    values:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - header: MCP|access
+    values:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+  note:
+  - We checked each company’s website, filings and press releases, feature by feature
+  - A pink mark means the feature is there, with all the sources at the end of the report
+ed142p:
+  title: 'What are the biggest threats
+
+
+    to the AI market research market?'
+  events:
+  - impact: 3
+    odds: 45
+    text: Qualtrics, Medallia and SurveyMonkey add AI interviews and synthetic panels at no extra cost to customers
+  - impact: 2
+    odds: 40
+    text: Bots and AI agents flood online survey panels, making real respondent data too dirty to trust
+  - impact: 2
+    odds: 25
+    text: Funding falls for AI research startups after too many lookalike tools launch and prices collapse
+  - impact: 2
+    odds: 25
+    text: A recession cuts marketing budgets, and research is among the first spending lines brands remove
+  - impact: 3
+    odds: 20
+    text: A product launch based on synthetic respondents flops publicly, and brands stop trusting AI research results
+  - impact: 2
+    odds: 20
+    text: OpenAI and Google offer customer research features inside ChatGPT and Gemini for free to business users
+  - impact: 2
+    odds: 20
+    text: Ipsos, Kantar and Nielsen build their own AI tools and stop partnering with research startups
+  - impact: 2
+    odds: 12
+    text: The EU AI Act and GDPR regulators restrict recording and analyzing consumer interviews with AI
+  note:
+  - We listed the events that could slow AI market research, from company news and regulators
+  - Odds and impact are our own estimates, and all our sources are at the end of the report

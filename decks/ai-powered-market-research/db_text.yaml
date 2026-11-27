@@ -1,0 +1,25 @@
+# Sentences on base figures (ed160, ed162): every figure is a {db.key} of db_facts.yaml, so a base update re-flows them
+ed160:
+  6: '{db.cat1} took about {db.cat1_pct}% of the capital raised since 2024, ahead of {db.cat2} with about {db.cat2_pct}%'
+  7: '{db.disclosed} of the {db.n} rounds since 2024 disclosed an amount, and the median disclosed round was {db.median}'
+  8: US startups closed {db.us_n} of the {db.n} rounds and took {db.ctry1_money}, about {db.us_money_pct}% of all the money raised since 2024
+  9: '{db.big_n} rounds of $100M or more made up about {db.big_pct}% of all the capital raised in the market since 2024'
+  10: 'The {db.big1_amt} {db.big1_stage} round of {db.big1_name} is the biggest since 2024, ahead of its own {db.big2_amt} {db.big2_stage}'
+  11: Seed was the most common round, with {db.seed} of the {db.n} rounds, ahead of Series A with {db.series_a} and Series B with {db.series_b}
+  note: We drew these insights from our tracker of {db.n} AI market research equity rounds announced since January 2024, worth about {db.total}
+ed162:
+  6: 'BEFORE
+
+
+
+    Before 2024, money went to survey software and panel firms, and Momentive sold for $1.5B.'
+  7: 'AFTER
+
+
+
+    Since 2024, {db.n} rounds raised {db.total}. {db.cat1} take the biggest share, and AI interviews come close behind.'
+  note: We used our tracker of AI market research equity rounds, complete from January 2024, and company releases and the press
+ed158:
+  note:
+  - We add up the disclosed equity rounds of AI market research startups we track, by half-year
+  - 2026 H2 runs to early November only, and rounds with no public amount count as zero

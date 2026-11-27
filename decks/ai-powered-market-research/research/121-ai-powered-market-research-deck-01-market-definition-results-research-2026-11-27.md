@@ -3,7 +3,7 @@
 ### ed006
 ```yaml
 status: ok
-title: What is AI-powered market research, in simple terms?
+title: What is AI market research, in simple terms?
 text: It is the market for software that uses AI to ask buyers questions, simulate how they would answer, or read what they said, so a company can decide what to build and sell
 note: We use a plain definition here because it makes the boundary with research agencies and general AI assistants, which help with research without being research software, easier to see.
 icon_tl: 🔎
@@ -18,7 +18,7 @@ reason: taken from the live product page
 ### ed008
 ```yaml
 status: ok
-title: What markets are often confused with AI-powered market research?
+title: What markets are often confused with AI market research?
 t:
   12: AI ASSISTANTS
   13: AI MARKET RESEARCH
@@ -31,7 +31,7 @@ t:
 ### ed009
 ```yaml
 status: ok
-title: What markets does AI-powered market research sit between?
+title: What markets does AI market research sit between?
 t:
   8: 'SURVEY
 
@@ -133,7 +133,7 @@ items:
 - e: 🧠
   t: When a synthetic panel screens many ideas before money is spent on a real study
 - e: 📊
-  t: When AI codes thousands of open answers into clear themes in a few minutes
+  t: When AI codes thousands of open answers into themes in minutes
 - e: 🛡️
   t: When fraud checks remove bots and fake respondents before the results are read
 - e: 🔁
@@ -149,7 +149,7 @@ items:
 ### ed015
 ```yaml
 status: ok
-title: What are some common myths about AI-powered market research?
+title: What are some common myths about AI market research?
 page: 1/2
 note: We focused on myths that come back often in investor, vendor and industry body debates. The counters describe what funding, studies and deals have shown so far.
 t:
@@ -166,7 +166,7 @@ t:
 ### ed016
 ```yaml
 status: ok
-title: What are some common myths about AI-powered market research?
+title: What are some common myths about AI market research?
 page: 2/2
 note: We focused on myths that come back often in investor, vendor and industry body debates. The counters describe what funding, studies and deals have shown so far.
 t:
@@ -183,7 +183,7 @@ t:
 ### ed017
 ```yaml
 status: ok
-title: How mature is AI-powered market research as a market?
+title: How mature is AI market research as a market?
 score: 45
 text: The market is real because AI interviews, AI surveys and synthetic panels sell today to large brands, and leaders raised rounds of $50M to $200M. The score stays below the middle because most firms have not scaled AI beyond pilots, synthetic answers still miss human results, and buyers ask for proof of validity.
 note:
@@ -203,32 +203,32 @@ categories:
 - label: 'AI
 
     INTERVIEWS'
-  description: AI moderators that interview real buyers by voice, video or text at scale
+  description: AI moderators that interview real buyers by voice, video or text
   e: 🎙️
 - label: 'AI
 
     SURVEYS'
-  description: Survey tools where AI writes, adapts and analyzes questions sent to real people
+  description: Survey tools where AI writes and analyzes questions for real people
   e: 📋
 - label: 'SYNTHETIC
 
     RESPONDENTS'
-  description: AI personas and simulations that answer in place of real buyers and voters
+  description: AI personas and simulations that answer in place of real buyers
   e: 🧠
 - label: 'INSIGHT
 
     SYNTHESIS'
-  description: Software that codes interviews and open answers and writes the research report
+  description: Software that codes interviews and open answers into a report
   e: 📝
 - label: 'MARKET
 
     INTELLIGENCE'
-  description: Platforms that track consumer, category and brand trends from many data sources
+  description: Platforms that track consumer, category and brand trends in real time
   e: 🌍
 - label: 'AD
 
     PRETESTING'
-  description: Tools that predict how buyers will react to an ad or a concept before launch
+  description: Tools that predict how buyers will react to an ad before its launch
   e: 🎨
 ```
 
@@ -249,12 +249,12 @@ categories:
 - label: 'RESEARCH
 
     AGENCIES'
-  description: Agencies and panel firms adding AI tools to the studies they sell to clients
+  description: Agencies and panel firms adding AI to the studies they sell to clients
   e: 🔬
 - label: 'PRODUCT
 
     TEAMS'
-  description: Software and app teams interviewing users before they build a new feature
+  description: Software and app teams interviewing users before building a feature
   e: 💻
 - label: 'AD
 
@@ -264,12 +264,12 @@ categories:
 - label: 'CONSULTING
 
     FIRMS'
-  description: Strategy firms that need fast evidence on markets, buyers and competitors
+  description: Strategy firms that need fast evidence on markets, buyers and rivals
   e: 💼
 - label: 'B2B
 
     MARKETERS'
-  description: Business software and service firms studying hard-to-reach business buyers
+  description: Business software firms studying busy and hard-to-reach buyers
   e: 🏢
 ```
 
@@ -290,17 +290,17 @@ categories:
 - label: 'PER-STUDY
 
     FEES'
-  description: Charging for each study or each interview, like a classic research project
+  description: Charging for each study or interview, like a classic research project
   e: 🧾
 - label: 'PANEL
 
     ACCESS'
-  description: Charging for access to verified respondents recruited from an owned panel
+  description: Charging for verified respondents recruited from an owned panel
   e: 👥
 - label: 'USAGE
 
     CREDITS'
-  description: Selling credits used for each interview, synthetic answer or test that is run
+  description: Selling credits spent on each interview, synthetic answer or test
   e: 🪙
 - label: 'DATA
 
@@ -310,7 +310,7 @@ categories:
 - label: 'SERVICE
 
     BUNDLES'
-  description: Adding researchers who design the study and check the AI output for clients
+  description: Adding researchers who design studies and check the AI output
   e: 🤝
 ```
 

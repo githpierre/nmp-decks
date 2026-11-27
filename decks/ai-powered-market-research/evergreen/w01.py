@@ -1,16 +1,16 @@
 import yaml
 out=["# AI-powered market research, chapter 01 Market definition (evergreen, written by Claude, 27 Nov 2026)\n"]
 def add(i,d): out.append(f"### {i}\n```yaml\n"+yaml.safe_dump(d,allow_unicode=True,sort_keys=False,width=1000)+"```\n")
-add("ed006",{"status":"ok","title":"What is AI-powered market research, in simple terms?",
+add("ed006",{"status":"ok","title":"What is AI market research, in simple terms?",
  "text":"It is the market for software that uses AI to ask buyers questions, simulate how they would answer, or read what they said, so a company can decide what to build and sell",
  "note":"We use a plain definition here because it makes the boundary with research agencies and general AI assistants, which help with research without being research software, easier to see.","icon_tl":"🔎"})
 add("ed007p",{"status":"no_data","reason":"taken from the live product page"})
-add("ed008",{"status":"ok","title":"What markets are often confused with AI-powered market research?",
+add("ed008",{"status":"ok","title":"What markets are often confused with AI market research?",
  "t":{12:"AI ASSISTANTS",13:"AI MARKET RESEARCH",14:"AGENCIES",
  7:"AI market research differs from both because its software runs the study itself and sells evidence on buyers, not advice or chat",
  10:"General AI assistants answer questions from the web for anyone, but they do not recruit buyers or test a product with them",
  11:"Research agencies sell studies run by their own staff, while this market sells software that a brand can run alone"}})
-add("ed009",{"status":"ok","title":"What markets does AI-powered market research sit between?",
+add("ed009",{"status":"ok","title":"What markets does AI market research sit between?",
  "t":{8:"SURVEY\nSOFTWARE",9:"GENERATIVE\nAI",10:"MARKETING\nANALYTICS",
  13:"AI market research sits between three markets: it reuses the panels and survey tools of research software, it runs on the language models of generative AI, and it sells to the teams that buy marketing analytics."}})
 add("ed010",{"status":"ok","title":"And what if we break it down in smaller markets?",
@@ -35,54 +35,54 @@ add("ed013",{"status":"no_data","reason":"prices depend on the study, the panel 
 add("ed014",{"status":"ok","title":"When and where is value created in the market?","items":[
  {"e":"🎙️","t":"When an AI moderator interviews 100 real buyers in three days instead of six weeks"},
  {"e":"🧠","t":"When a synthetic panel screens many ideas before money is spent on a real study"},
- {"e":"📊","t":"When AI codes thousands of open answers into clear themes in a few minutes"},
+ {"e":"📊","t":"When AI codes thousands of open answers into themes in minutes"},
  {"e":"🛡️","t":"When fraud checks remove bots and fake respondents before the results are read"},
  {"e":"🔁","t":"When each new interview joins a searchable archive that later teams can reuse"},
  {"e":"🎨","t":"When an ad is tested on real or synthetic viewers before the media budget is spent"},
  {"e":"🌍","t":"When one study runs in many languages at once without a local agency in each country"},
  {"e":"🔗","t":"When findings flow straight into the tools where product and brand teams decide"}]})
-add("ed015",{"status":"ok","title":"What are some common myths about AI-powered market research?","page":"1/2",
+add("ed015",{"status":"ok","title":"What are some common myths about AI market research?","page":"1/2",
  "note":"We focused on myths that come back often in investor, vendor and industry body debates. The counters describe what funding, studies and deals have shown so far.",
  "t":{9:"AI research is just a chatbot for surveys",7:"Listen Labs ran over one million AI interviews in nine months, and Conveo raised $50M after reaching more than 400 enterprise customers",
  12:"Synthetic respondents can replace people",10:"Pew found that one synthetic panel missed human survey answers by 12.4 points on average, across nearly 300 questions in three waves",
  15:"Only small startups bet on AI research",13:"Salesforce bought Listen Labs in November 2026, Mintel bought Black Swan Data and NIQ paid $12.5M in cash for Gastrograph AI in a deal",
  0:"Big research groups are safe from AI tools",16:"Dynata filed for Chapter 11 and Cint wrote down €193.2M tied to Lucid, as panel and fieldwork revenue came under strong pressure"}})
-add("ed016",{"status":"ok","title":"What are some common myths about AI-powered market research?","page":"2/2",
+add("ed016",{"status":"ok","title":"What are some common myths about AI market research?","page":"2/2",
  "note":"We focused on myths that come back often in investor, vendor and industry body debates. The counters describe what funding, studies and deals have shown so far.",
  "t":{9:"Online survey answers are always real",7:"NORC estimated that 15% to 30% of answers across market research come from fraud or bots, and some respondents now use AI to answer",
  12:"Research teams already trust AI output",10:"GWI found that 80% of 1,883 surveyed professionals often met misleading AI findings, and 58% had made a major decision based on one",
  15:"Every research firm now runs fully on AI",13:"ESOMAR found that 93% of research firms used AI in 2026, but only 15% of their leaders said it was scaled across several workflows",
  0:"AI research tools grow slowly at first",16:"Strella reported 10x revenue growth and 4x more customers in its first year, and Outset grew more than 8x before a $30M Series B round"}})
-add("ed017",{"status":"ok","title":"How mature is AI-powered market research as a market?","score":45,
+add("ed017",{"status":"ok","title":"How mature is AI market research as a market?","score":45,
  "text":"The market is real because AI interviews, AI surveys and synthetic panels sell today to large brands, and leaders raised rounds of $50M to $200M. The score stays below the middle because most firms have not scaled AI beyond pilots, synthetic answers still miss human results, and buyers ask for proof of validity.",
  "note":["We rate market maturity with an internal score of products on sale, paying clients, big buyers and funding.","We set 45/100 because sales and funding are real, but scaled use and proof of accuracy still lag."]})
 add("ed018",{"status":"ok","title":"How can we categorize companies of the AI market research market?","page":"1/3",
  "note":"We use the six solution groups of our company database, from AI interviews with real buyers to tests that predict how an ad will perform.",
  "t":{25:"Here, we categorize by type of solution"},"categories":[
- {"label":"AI\nINTERVIEWS","description":"AI moderators that interview real buyers by voice, video or text at scale","e":"🎙️"},
- {"label":"AI\nSURVEYS","description":"Survey tools where AI writes, adapts and analyzes questions sent to real people","e":"📋"},
- {"label":"SYNTHETIC\nRESPONDENTS","description":"AI personas and simulations that answer in place of real buyers and voters","e":"🧠"},
- {"label":"INSIGHT\nSYNTHESIS","description":"Software that codes interviews and open answers and writes the research report","e":"📝"},
- {"label":"MARKET\nINTELLIGENCE","description":"Platforms that track consumer, category and brand trends from many data sources","e":"🌍"},
- {"label":"AD\nPRETESTING","description":"Tools that predict how buyers will react to an ad or a concept before launch","e":"🎨"}]})
+ {"label":"AI\nINTERVIEWS","description":"AI moderators that interview real buyers by voice, video or text","e":"🎙️"},
+ {"label":"AI\nSURVEYS","description":"Survey tools where AI writes and analyzes questions for real people","e":"📋"},
+ {"label":"SYNTHETIC\nRESPONDENTS","description":"AI personas and simulations that answer in place of real buyers","e":"🧠"},
+ {"label":"INSIGHT\nSYNTHESIS","description":"Software that codes interviews and open answers into a report","e":"📝"},
+ {"label":"MARKET\nINTELLIGENCE","description":"Platforms that track consumer, category and brand trends in real time","e":"🌍"},
+ {"label":"AD\nPRETESTING","description":"Tools that predict how buyers will react to an ad before its launch","e":"🎨"}]})
 add("ed019",{"status":"ok","title":"How can we categorize companies of the AI market research market?","page":"2/3",
  "note":"We also categorize by buyer because brands, agencies, product teams and consulting firms need very different proof, prices and ways to pay.",
  "t":{25:"Here, we categorize by the type of buyer"},"categories":[
  {"label":"CONSUMER\nBRANDS","description":"Food, drink, beauty and retail brands testing products, prices and packs","e":"🛒"},
- {"label":"RESEARCH\nAGENCIES","description":"Agencies and panel firms adding AI tools to the studies they sell to clients","e":"🔬"},
- {"label":"PRODUCT\nTEAMS","description":"Software and app teams interviewing users before they build a new feature","e":"💻"},
+ {"label":"RESEARCH\nAGENCIES","description":"Agencies and panel firms adding AI to the studies they sell to clients","e":"🔬"},
+ {"label":"PRODUCT\nTEAMS","description":"Software and app teams interviewing users before building a feature","e":"💻"},
  {"label":"AD\nAGENCIES","description":"Creative and media agencies testing ads and concepts before a campaign","e":"🎥"},
- {"label":"CONSULTING\nFIRMS","description":"Strategy firms that need fast evidence on markets, buyers and competitors","e":"💼"},
- {"label":"B2B\nMARKETERS","description":"Business software and service firms studying hard-to-reach business buyers","e":"🏢"}]})
+ {"label":"CONSULTING\nFIRMS","description":"Strategy firms that need fast evidence on markets, buyers and rivals","e":"💼"},
+ {"label":"B2B\nMARKETERS","description":"Business software firms studying busy and hard-to-reach buyers","e":"🏢"}]})
 add("ed020",{"status":"ok","title":"How can we categorize companies of the AI market research market?","page":"3/3",
  "note":"A third useful lens is the business model, because a seat license, a study fee or panel access earns money very differently.",
  "t":{25:"Here, we categorize by business model"},"categories":[
  {"label":"ANNUAL\nLICENSES","description":"Charging a yearly platform fee for unlimited or capped studies per team","e":"📄"},
- {"label":"PER-STUDY\nFEES","description":"Charging for each study or each interview, like a classic research project","e":"🧾"},
- {"label":"PANEL\nACCESS","description":"Charging for access to verified respondents recruited from an owned panel","e":"👥"},
- {"label":"USAGE\nCREDITS","description":"Selling credits used for each interview, synthetic answer or test that is run","e":"🪙"},
+ {"label":"PER-STUDY\nFEES","description":"Charging for each study or interview, like a classic research project","e":"🧾"},
+ {"label":"PANEL\nACCESS","description":"Charging for verified respondents recruited from an owned panel","e":"👥"},
+ {"label":"USAGE\nCREDITS","description":"Selling credits spent on each interview, synthetic answer or test","e":"🪙"},
  {"label":"DATA\nSUBSCRIPTIONS","description":"Charging a monthly fee for access to trend data, dashboards and alerts","e":"📈"},
- {"label":"SERVICE\nBUNDLES","description":"Adding researchers who design the study and check the AI output for clients","e":"🤝"}]})
+ {"label":"SERVICE\nBUNDLES","description":"Adding researchers who design studies and check the AI output","e":"🤝"}]})
 add("ed021",{"status":"ok","title":"What do top companies do in this market?",
  "note":"Other companies could also make the top eight. We chose startups with the most clients, funding, growth or big partners to show the range of the market.",
  "t":{8:"CONVEO",16:"SIMILE",7:"Its AI moderator interviews real consumers by video, and it raised $50M in September 2026",

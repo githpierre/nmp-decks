@@ -269,7 +269,7 @@ t:
 ```yaml
 status: ok
 title: Who needs it the most?
-note: We focus on five groups where Synthetic respondents create the clearest value today. These are priority use cases, not a full list of clients.
+note: We focus on five groups where synthetic respondents create the clearest value today. These are priority use cases, not a full list of clients.
 t:
   21: SYNTHETIC RESPONDENTS
   5: 'INNOVATION
@@ -352,7 +352,7 @@ t:
 ```yaml
 status: ok
 title: Who needs it the most?
-note: We focus on five groups where Insight synthesis creates the clearest value today. These are priority use cases, not a full list of clients.
+note: We focus on five groups where insight synthesis creates the clearest value today. These are priority use cases, not a full list of clients.
 t:
   21: INSIGHT SYNTHESIS
   5: 'RESEARCH
@@ -435,7 +435,7 @@ t:
 ```yaml
 status: ok
 title: Who needs it the most?
-note: We focus on five groups where Market intelligence creates the clearest value today. These are priority use cases, not a full list of clients.
+note: We focus on five groups where market intelligence creates the clearest value today. These are priority use cases, not a full list of clients.
 t:
   21: MARKET INTELLIGENCE
   5: 'CATEGORY
@@ -450,9 +450,13 @@ t:
 
     STRATEGISTS'
   13: They are strategists who want to track how a brand is seen against rivals, week by week, in each market
-  14: INVESTORS
+  14: 'GROWTH
+
+    INVESTORS'
   16: They are investors who want early signs that a category or a brand is growing before it shows in sales data
-  17: RETAILERS
+  17: 'RETAIL
+
+    BUYERS'
   19: They are retailers that want to know which products to stock next season based on real demand signals
 ```
 
@@ -514,7 +518,7 @@ t:
 ```yaml
 status: ok
 title: Who needs it the most?
-note: We focus on five groups where Ad pretesting creates the clearest value today. These are priority use cases, not a full list of clients.
+note: We focus on five groups where ad pretesting creates the clearest value today. These are priority use cases, not a full list of clients.
 t:
   21: AD PRETESTING
   5: 'BRAND

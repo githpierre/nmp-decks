@@ -2,7 +2,7 @@
 ```yaml
 status: ok
 section: Market size
-title: What counts as AI-powered market research, and what does not?
+title: What counts as AI market research, and what does not?
 note: We include independent technology vendors when AI performs a core research task and research or consumer insight is the main product. We exclude tools that only support generic search, content, advertising or sales.
 t:
   7: We define the market as independent vendors using AI to collect, simulate or analyze evidence about buyers and markets for business decisions.

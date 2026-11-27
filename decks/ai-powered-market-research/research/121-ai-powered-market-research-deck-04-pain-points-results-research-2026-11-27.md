@@ -271,7 +271,7 @@ t:
 ### ed063-s1
 ```yaml
 status: ok
-title: Who needs AI-powered market research?
+title: Who needs AI market research?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check research tools.
 t:
   27: CONSUMER BRANDS
@@ -354,7 +354,7 @@ rows:
   - 1
   - 2
   p: HIGH
-- pain: Fake answers and bots slip into online panels
+- pain: Fake answers and bots slip into online panels and studies
   s:
   - 3
   - 2
@@ -405,7 +405,7 @@ t:
 ### ed063-s2
 ```yaml
 status: ok
-title: Who needs AI-powered market research?
+title: Who needs AI market research?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check research tools.
 t:
   27: RESEARCH AGENCIES
@@ -512,7 +512,7 @@ rows:
   - 3
   - 3
   p: MAJOR
-- pain: Old panels lose value as AI interviews spread
+- pain: Old panels lose value as AI interviews spread fast
   s:
   - 3
   - 1
@@ -539,7 +539,7 @@ t:
 ### ed063-s3
 ```yaml
 status: ok
-title: Who needs AI-powered market research?
+title: Who needs AI market research?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check research tools.
 t:
   27: PRODUCT TEAMS
@@ -553,7 +553,9 @@ t:
     RESEARCHERS'
   21: 🎙️
   10: They need to run more interviews with the same team, while keeping depth, follow-ups and quotes
-  11: DESIGNERS
+  11: 'PRODUCT
+
+    DESIGNERS'
   22: 🎨
   13: They need quick reactions to screens and flows, so each design round gets real feedback in days
   14: 'ENGINEERING
@@ -628,7 +630,7 @@ rows:
   - 1
   - 1
   p: MAJOR
-- pain: New research tools fail strict security reviews
+- pain: New research tools fail strict enterprise security reviews
   s:
   - 2
   - 2
@@ -671,7 +673,7 @@ t:
 ### ed063-s4
 ```yaml
 status: ok
-title: Who needs AI-powered market research?
+title: Who needs AI market research?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check research tools.
 t:
   27: AD AGENCIES
@@ -770,7 +772,7 @@ rows:
   - 2
   - 3
   p: HIGH
-- pain: Test scores do not always predict real sales
+- pain: Test scores do not always predict real sales results
   s:
   - 3
   - 2
@@ -805,11 +807,13 @@ t:
 ### ed063-s5
 ```yaml
 status: ok
-title: Who needs AI-powered market research?
+title: Who needs AI market research?
 note: We focus on the five groups inside these buyers that choose, pay for, use and check research tools.
 t:
   27: CONSULTING FIRMS
-  5: PARTNERS
+  5: 'FIRM
+
+    PARTNERS'
   20: 💼
   7: They need fast evidence for a client question, so a proposal or a due diligence starts with facts
   8: 'CASE
@@ -862,7 +866,7 @@ icons:
 - 🗣️
 - 🏢
 rows:
-- pain: Client answers are due in days, not in weeks
+- pain: Client answers are due in a few days, not in weeks
   s:
   - 3
   - 3
@@ -870,7 +874,7 @@ rows:
   - 1
   - 3
   p: CRITICAL
-- pain: Recruiting experts and buyers costs high fees
+- pain: Recruiting rare experts and buyers costs high fees
   s:
   - 3
   - 2
