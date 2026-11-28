@@ -508,20 +508,23 @@ ed007p:
     x: 496.1
     y: 462.9
 ed039p:
+  caption_period: November 2021 to July 2025
+  csv: assets/trends/edtech/ai-tutor.csv
+  cut: '2025-07-27'
+  date: From late 2021 to mid-2025.
+  expl: Searches started with ChatGPT in early 2023 and kept rising as AI tutors from Khan Academy, Duolingo and many startups reached students and parents.
+  note:
+  - We tracked how often people worldwide googled this term from late 2021 to July 2025
+  - Google changed how it counts small terms in mid-2025, so the curve stops in July 2025
   pill: SIGNAL
   signal: google-trends
-  window: 5y
-  title: 'More and more people look up
+  term: ai tutor
+  title: 'Searches for AI tutors more than
 
-    how to learn online with AI tutors'
-  date: Lately.
-  expl: After the Covid rush, interest in online learning slowly faded for years. Then free AI tutors got good enough for everyday homework help, and with
-    school out, millions of parents and students went looking for new ways to learn online.
-  term: edtech
-  note:
-  - We tracked how often people around the world googled this term over the last five years
-  - We used Google Trends, and you will find all the sources we used at the end of the report
-  csv: assets/trends/edtech/edtech.csv
+
+
+    doubled from 2023 to mid-2025'
+  window: 5y
 ed052p:
   type: pp_cagr
   title: 'Who Is in the space economy,
