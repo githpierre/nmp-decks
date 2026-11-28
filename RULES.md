@@ -417,3 +417,6 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
   research_fix.py; a row name over 10 letters (INSTRUCTURE) is swapped for another sourced company.
 - Pain segment names that are a single long word (Universities, Employers) become two short words on the cards
   (College campuses, Corporate employers), so every « Which categories » label sits on 2 lines.
+- A logo sent as a wide wordmark also needs its square symbol in nmp-logos (`add_logo.py --symbol`), or deck tiles fall back to
+  initials (10 of Pierre's 28 Nov logos). find_logo now returns a symbol-only company when a symbol is asked (Relay, Exscientia
+  drew initials). After a logo batch: rebuild every deck whose logos_missing.txt names one, and check that list is empty.

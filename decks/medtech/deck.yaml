@@ -2069,7 +2069,6 @@ slides:
   'on': Medical images
   'off': Other specialties
   unit: devices
-  square_note: false
   years:
   - x: JUNE 2026
     k: 1230
@@ -3806,17 +3805,17 @@ slides:
   src: 156
   t:
     13: 2026 (NOV)
-    14: Science Corporation raised a $400M late-stage round for its neural interfaces and retinal implants {1|MassDevice}
+    14: MediInTech raised a $25M Series C led by Atinum Investment for its diagnostic devices {1|Etnews}
     15: 2026 (NOV)
-    16: Galvanize Therapeutics raised a $130M late-stage round led by HealthQuest for its therapeutic devices {1|PR Newswire}
+    16: Science Corporation raised a $400M late-stage round for its neural interfaces and retinal implants {1|MassDevice}
     17: 2026 (NOV)
-    18: Remedy Robotics raised a $62M Series B led by DCVC. It develops AI-enabled endovascular robots {1|PR Newswire}
+    18: Galvanize Therapeutics raised a $130M late-stage round led by HealthQuest for its therapeutic devices {1|PR Newswire}
     19: 2026 (NOV)
-    20: Kardi AI raised a $6M Series A led by Callisto Health. It provides AI-based ambulatory ECG monitoring {1|Tech.eu}
+    20: Remedy Robotics raised a $62M Series B led by DCVC. It develops AI-enabled endovascular robots {1|PR Newswire}
     21: 2026 (NOV)
-    22: Skribe Medical raised a $1.6M seed round led by SeaX. It develops a wearable patch {1|PR Newswire}
+    22: Kardi AI raised a $6M Series A led by Callisto Health. It provides AI-based ambulatory ECG monitoring {1|Tech.eu}
     23: 2026 (NOV)
-    24: Luminoah raised a $20M Series B led by Sandbox Clinical for its wearable enteral feeding system {1|GlobeNewswire}
+    24: Skribe Medical raised a $1.6M seed round led by SeaX. It develops a wearable patch {1|PR Newswire}
 - id: ed157
   type: x/rounds_were_announced_last_2
   section: Investor bets
@@ -3828,17 +3827,17 @@ slides:
   src: 157
   t:
     14: 2026 (NOV)
-    15: Mosaic Intelligence Labs raised a $47M seed round led by 8VC for its surgical systems {1|Business Wire}
+    15: Luminoah raised a $20M Series B led by Sandbox Clinical for its wearable enteral feeding system {1|GlobeNewswire}
     16: 2026 (NOV)
-    17: Nanopath raised a $23M Series B led by Norwest for its diagnostic devices {1|PR Newswire}
+    17: Mosaic Intelligence Labs raised a $47M seed round led by 8VC for its surgical systems {1|Business Wire}
     18: 2026 (NOV)
-    19: Laza Medical raised an undisclosed Series B led by GE HealthCare for its diagnostic devices {1|PR Newswire}
+    19: Nanopath raised a $23M Series B led by Norwest for its diagnostic devices {1|PR Newswire}
     20: 2026 (NOV)
-    21: Clinics On Cloud raised a $12M Series A. It builds diagnostic health kiosks {1|Inc42}
+    21: Laza Medical raised an undisclosed Series B led by GE HealthCare for its diagnostic devices {1|PR Newswire}
     22: 2026 (NOV)
-    23: 1nhaler raised $3M led by Archangels for its therapeutic devices {1|Scottish Enterprise Mediacentre}
+    23: Clinics On Cloud raised a $12M Series A. It builds diagnostic health kiosks {1|Inc42}
     24: 2026 (NOV)
-    25: Nanochap raised a $75M Series C led by Gaorong for its implantable devices {1|TechNode}
+    25: 1nhaler raised $3M led by Archangels for its therapeutic devices {1|Scottish Enterprise Mediacentre}
 - id: iv_deals
   type: x/rounds_were_announced_last
   section: Investor bets
@@ -3866,17 +3865,17 @@ slides:
     evolved recently?'
   bars:
   - x: 2025 H1
-    v: 4034
-    ann: Neuralink, $650M top round, in 102 rounds
+    v: 3954
+    ann: Neuralink, $650M top round, in 100 rounds
   - x: 2025 H2
-    v: 3163
-    ann: Kardium, $250M top round, in 91 rounds
+    v: 3151
+    ann: Kardium, $250M top round, in 90 rounds
   - x: 2026 H1
     v: 3310
-    ann: BrainCo, $286M top round, in 138 rounds
+    ann: BrainCo, $286M top round, in 139 rounds
   - x: 2026 H2
-    v: 3593
-    ann: Neko Health, $700M top round, in 115 rounds
+    v: 3591
+    ann: Neko Health, $700M top round, in 114 rounds
   note:
   - We add up the disclosed equity rounds of MedTech startups in our tracker, by half-year
   - 2026 H2 runs to mid-November only, and rounds with no public amount count as zero
@@ -3893,13 +3892,13 @@ slides:
   src: 159
   bars:
   - x: '2024'
-    v: 4988
-    ann: Freenome, $254M top round, in 191 rounds
+    v: 4950
+    ann: Freenome, $254M top round, in 189 rounds
   - x: '2025'
-    v: 7197
-    ann: Neuralink, $650M top round, in 193 rounds
+    v: 7105
+    ann: Neuralink, $650M top round, in 190 rounds
   - x: '2026'
-    v: 6903
+    v: 6901
     ann: Neko Health, $700M top round, in 253 rounds
 - id: ed160
   type: x/stands_out_funding
@@ -3907,15 +3906,15 @@ slides:
   title: 'What stands out in
 
     MedTech funding?'
-  note: We drew these insights from our tracker of 637 MedTech equity rounds announced since January 2024, worth about $19.1B
+  note: We drew these insights from our tracker of 632 MedTech equity rounds announced since January 2024, worth about $19B
   src: 160
   t:
     6: Implantable devices took about 34% of the capital raised since 2024, ahead of therapeutic devices with about 27%
-    7: 603 of the 637 rounds since 2024 disclosed an amount, and the median disclosed round was $13M
-    8: US startups closed 310 of the 637 rounds and took $11B, about 58% of all the money raised since 2024
+    7: 597 of the 632 rounds since 2024 disclosed an amount, and the median disclosed round was $13M
+    8: US startups closed 309 of the 632 rounds and took $11B, about 58% of all the money raised since 2024
     9: 49 rounds of $100M or more made up about 43% of all the capital raised in the market since 2024
     10: The $700M Series C round of Neko Health is the biggest since 2024, ahead of the $650M round of Neuralink
-    11: Series A was the most common round, with 150 of the 637 rounds, ahead of seed with 135 and Series B with 97
+    11: Series A was the most common round, with 150 of the 632 rounds, ahead of seed with 134 and Series B with 96
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
@@ -3932,7 +3931,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 637 rounds raised $19B. Implantable devices take the biggest share, ahead of therapeutic devices and diagnostic devices.'
+      Since 2024, 632 rounds raised $19B. Implantable devices take the biggest share, ahead of therapeutic devices and diagnostic devices.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -3947,10 +3946,10 @@ slides:
   bars:
   - x: '2024'
     v: 5
-    ann: Freenome, $254M top round, out of 191 rounds
+    ann: Freenome, $254M top round, out of 189 rounds
   - x: '2025'
     v: 9
-    ann: Neuralink, $650M top round, out of 193 rounds
+    ann: Neuralink, $650M top round, out of 190 rounds
   - x: 2026 (YTD)
     v: 10
     ann: Neko Health, $700M top round, out of 253 rounds
@@ -4000,7 +3999,7 @@ slides:
     amt: 600000000
     date: '2021'
     stage: late-stage
-    src: ../../assets/logos/cmr-surgical.png
+    src: ../../assets/logos/fav/cmr-surgical.png
   - name: Neuralink
     amt: 323241676
     date: '2023'
@@ -4020,17 +4019,17 @@ slides:
   title: 'Where did most
 
     of the capital go?'
-  note: We used our tracker of 637 MedTech equity rounds announced since January 2024, worth about $19.1B. IPOs, debt and grants are left out
+  note: We used our tracker of 632 MedTech equity rounds announced since January 2024, worth about $19B. IPOs, debt and grants are left out
   src: 167
   t:
     6: IMPLANTABLE DEVICES
     7: THERAPEUTIC DEVICES
     8: DIAGNOSTIC DEVICES
-    9: '144'
+    9: '141'
     10: DEALS
-    11: '187'
-    12: '110'
-    13: $6.5B
+    11: '186'
+    12: '109'
+    13: $6.4B
     14: '
 
       RAISED ($)'
@@ -4124,7 +4123,7 @@ slides:
   title: 'Who are the most
 
     active investors?'
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 637 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 632 rounds
   src: 169
   t:
     7: BPIFRANCE
@@ -4144,13 +4143,13 @@ slides:
     21: Motif Neurotech, AtaCor Medical
     25: SINCE 2024
     26: SUROSH
-    27: ALLY BRIDGE GROUP
+    27: ELEVAGE
     28: '6'
     29: '5'
     30: $2.9M
-    31: $479M
+    31: $426M
     32: Extremis Robotics, Kyniska Robotics
-    33: Kestra Medical, Cardiac Dimensions
+    33: Moximed, FIRE1
 - id: ed170
   type: agenda
   section: Top players
@@ -4756,7 +4755,7 @@ slides:
     - Seeking|new capital
     - ''
     - Sale options|Sep 2026
-    src: media/ini/adagio-medical.png
+    src: ../../assets/logos/adagio-medical--symbol.png
   note:
   - We looked at verified stress across medical devices and clinical software, including cash, staffing and FDA barriers
   - We used company filings, FDA notices and specialist reporting, and left cells empty when a sign lacked proof
@@ -5082,7 +5081,7 @@ slides:
   src: 211
   title: How CMR Surgical made robot surgery easier to fit
   type: contrast
-  logo_src: ../../assets/logos/cmr-surgical.png
+  logo_src: ../../assets/logos/fav/cmr-surgical.png
 - id: ed212
   left: A REGULAR MEDTECH STARTUP
   logo: heartflow

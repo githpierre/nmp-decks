@@ -4072,9 +4072,9 @@ slides:
     20: 2026 (OCT)
     21: Anyflo raised $1M. It provides stablecoin payment orchestration APIs {1|PR Newswire}
     22: 2026 (OCT)
-    23: Walapay raised a $4.6M seed round led by Generative for its cross-border accounts payments and FX {1|Business Wire}
-    24: 2026 (SEP)
-    25: HIFI raised a $37M Series A led by Left Lane for its tokenized money and stablecoin infrastructure {1|HIFI}
+    23: BlindPay raised an undisclosed round for its stablecoin payment API and gateways {1|BlindPay}
+    24: 2026 (OCT)
+    25: Walapay raised a $4.6M seed round led by Generative for its cross-border accounts payments and FX {1|Business Wire}
 - id: iv_deals
   type: x/rounds_were_announced_last
   section: Investor bets
@@ -4108,8 +4108,8 @@ slides:
     v: 1166
     ann: Tempo, $500M top round, in 37 rounds
   - x: 2026 H1
-    v: 877
-    ann: Rain, $250M top round, in 37 rounds
+    v: 871
+    ann: Rain, $250M top round, in 36 rounds
   - x: 2026 H2
     v: 561
     ann: Félix Pago, $87M top round, in 28 rounds
@@ -4135,23 +4135,23 @@ slides:
     v: 1620
     ann: Tempo, $500M top round, in 69 rounds
   - x: '2026'
-    v: 1437
-    ann: Rain, $250M top round, in 65 rounds
+    v: 1431
+    ann: Rain, $250M top round, in 64 rounds
 - id: ed160
   type: x/stands_out_funding
   section: Investor bets
   title: 'What stands out in
 
     stablecoin payments funding?'
-  note: We drew these insights from our tracker of 171 stablecoin payments equity rounds announced since January 2024, worth about $3.4B
+  note: We drew these insights from our tracker of 170 stablecoin payments equity rounds announced since January 2024, worth about $3.4B
   src: 160
   t:
     6: Treasury settlement took about 31% of the capital raised since 2024, ahead of Payment APIs with about 22%
-    7: 165 of the 171 rounds since 2024 disclosed an amount, and the median disclosed round was $8.5M
-    8: US startups closed 86 of the 171 rounds and took $2.2B, about 64% of all the money raised since 2024
+    7: 164 of the 170 rounds since 2024 disclosed an amount, and the median disclosed round was $8.5M
+    8: US startups closed 85 of the 170 rounds and took $2.2B, about 64% of all the money raised since 2024
     9: 4 rounds of $100M or more made up about 28% of all the capital raised in the market since 2024
     10: The $500M Series A round of Tempo is the biggest since 2024, ahead of the $250M round of Rain
-    11: Seed was the most common round, with 76 of the 171 rounds, ahead of Series A with 44 and Series B with 11
+    11: Seed was the most common round, with 74 of the 170 rounds, ahead of Series A with 44 and Series B with 11
 - id: ed162
   type: x/has_changed_recently
   section: Investor bets
@@ -4168,7 +4168,7 @@ slides:
     7: 'AFTER
 
 
-      Since 2024, 171 rounds raised $3.4B. Treasury settlement takes the biggest share, and Stripe and Mastercard bought leaders.'
+      Since 2024, 170 rounds raised $3.4B. Treasury settlement takes the biggest share, and Stripe and Mastercard bought leaders.'
 - id: ed164
   type: fundbars
   section: Investor bets
@@ -4189,7 +4189,7 @@ slides:
     ann: Tempo, $500M top round, out of 69 rounds
   - x: 2026 (YTD)
     v: 17
-    ann: Rain, $250M top round, out of 65 rounds
+    ann: Rain, $250M top round, out of 64 rounds
 - id: ed165p
   type: pp_raises
   section: Investor bets
@@ -4233,7 +4233,7 @@ slides:
     amt: 555000000
     date: '2021'
     stage: Series A
-    src: media/ini/moonpay.png
+    src: ../../assets/logos/moonpay.png
   - name: Tempo
     amt: 500000000
     date: '2025'
@@ -4258,7 +4258,7 @@ slides:
   title: 'Where did most
 
     of the capital go?'
-  note: We used our tracker of 171 stablecoin payments equity rounds announced since January 2024, worth about $3.4B. IPOs, debt and grants are left out
+  note: We used our tracker of 170 stablecoin payments equity rounds announced since January 2024, worth about $3.4B. IPOs, debt and grants are left out
   src: 167
   t:
     6: TREASURY SETTLEMENT
@@ -4267,13 +4267,13 @@ slides:
     9: '30'
     10: DEALS
     11: '52'
-    12: '23'
+    12: '22'
     13: $1B
     14: '
 
       RAISED ($)'
     15: $755M
-    16: $754M
+    16: $748M
     17: Tempo, OpenFX, Fasset, Pave Bank, Velocity, Codex, 1Money
     18: EXAMPLES OF STARTUPS
     19: zerohash, Mesh, BVNK, Bridge, PhotonPay, HIFI, Latitude
@@ -4362,7 +4362,7 @@ slides:
   title: 'Who are the most
 
     active investors?'
-  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 171 rounds
+  note: We count rounds each investor led or co-led in our tracker since 2024, with full round sizes, not individual checks. Leads are known for only part of the 170 rounds
   src: 169
   t:
     7: TETHER
@@ -5020,7 +5020,7 @@ slides:
     - ''
     - Card ended|Aug 2026
     - Nium deal|Jul 2026
-    src: media/ini/cypher.png
+    src: ../../assets/logos/cypher.png
   note:
   - We traced six payment companies through verified bank exits, breaches, service cuts and acquisitions.
   - We excluded unverified insolvency rumors and treated planned service closures as announced, not completed.
