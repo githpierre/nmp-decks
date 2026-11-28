@@ -1,0 +1,526 @@
+You are a senior market analyst working for NewMarketPitch, which sells market reports to founders and investors.
+We are building the EdTech market report (a deck of about 190 slides). Every slide uses a fixed design template.
+For each slide below we show you the content of the SAME slide in our in vivo CAR-T report: it is the MODEL of the structure and of the tone only.
+Your job: research the EdTech market and write the EdTech version of each slide. Today is 28 November 2026.
+
+MARKET DEFINITION (it decides what is in or out):
+EdTech is the market for purpose-built technology products and technology-enabled platforms that deliver, enable, administer, assess, personalize, or credential formal or informal education, learning, teaching, student progression, or workforce skills development.
+Included: We include learning content and courses; live tutoring, language learning, skills bootcamps, training and learning management; teacher AI and classroom tools; digital assessments and credentials; K–12/early-years/higher-education software for teaching, admissions, student engagement and campus operations; workforce skill verification and instruction; and educational hardware/immersive systems when an integrated learning experience is the core value proposition.
+Excluded: We exclude generic productivity, search, chat, video and AI infrastructure merely used by educators; telecommunications, connectivity and non-education infrastructure; pure creator payments or digital storefront software without native teaching/course features; and standalone toys, consumer devices and robots not explicitly tied to instructional content. A company may belong to EdTech and one or more adjacent markets simultaneously.
+Rule: 0. Startup eligibility first: Founded 2000 onward, originally an independent, innovation-driven venture/startup business; acquired or IPO companies remain included historically. An incumbent division or pre-2000 company is NOT A STARTUP unless independently financed as an entity.
+1. Primary customer or workflow: The website or two independent sector sources describe educational institutions, teachers, learners, students, training functions or employers actively assessing/upskilling staff as a primary user or buyer. If neither is true, OUT.
+2. Native educational product: A purpose-built course, tutoring, curriculum, training, test, learning experience, credential, skills-assessment, student-success/administration platform, or directly integrated educational hardware must exist. Generic tools simply adopted in schools fail. Otherwise OUT.
+3. Materiality/market positioning: The product must be a material offering and central to the company's thesis, not a one-off case study or marketing use case. A genuinely education-specific platform can include administrative components. If uncertain, BORDERLINE and do not remove.
+4. Star override / contradiction check: If two independently credible, recent specialist sector sources explicitly call the company a core EdTech leader and it still fails, re-evaluate the rules and product identity; do not arbitrarily force an obviously unrelated AI infrastructure vendor into the sector merely for appearing on one over-broad map.
+Categories of companies used in our database: K–12 & Early Learning Products; Higher-Education & Student Success Systems; Online Courses & Consumer Learning; Tutoring, Test Prep & Adaptive Learning; Assessment, Exams & Learning Analytics; Credentials & Employability; Workforce Training & Skills Platforms; Teaching & Classroom Creation Tools
+
+HOW TO ANSWER, FOR EVERY SLIDE
+1. Same structure as the model: same keys, same number of items, same order. Each text stays between the MIN and MAX characters given under its slide (measured on our validated slides): longer breaks the slide, shorter leaves the box half empty. The self-check script at the end counts them for you.
+   Keep the formatting marks of the model: a line break inside a text is written \n, and {1|text} marks a run in a second style (for example a bold company name followed by normal text). Keep them where the model has them. Keys that hold a single emoji are icons: give one fitting emoji.
+   The length rule is for sentences. A name (company, product, person, acronym) is written as it is, never padded or cut to reach a length.
+   Bad: "ABRIDGE AI NOTES", "Aidoc AI" (words added to a company name). Good: "ABRIDGE", "Aidoc".
+2. Content is about EdTech only, written for a smart reader who is not an expert: plain US English, short sentences, no jargon without a word of explanation, no em dash, no exclamation marks.
+   Bad: "An adaptive LXP with competency-based pathways and xAPI interoperability." Good: "An app that changes each lesson to what the student already knows, and tells the teacher who is falling behind." (the reader is not an education specialist)
+3. Every figure, date, name and claim must be true and sourced. Prefer primary sources: company releases and filings (Duolingo, Coursera, Chegg, Byju's, PhysicsWallah, Unacademy, Go1, Multiverse, Synthesis, MagicSchool, Brisk Teaching, Khanmigo by Khan Academy, Speak, Praktika, Preply, GoStudent, Kahoot!, Quizlet, Nerdy/Varsity Tutors, Instructure, PowerSchool, Ellucian, 2U, Udemy, Docebo, Handshake, Paper, Brainly, Zuoyebang, Squirrel AI, Yuanfudao), government documents (US Department of Education, UK Department for Education, OECD Education at a Glance, UNESCO GEM report, EU Digital Education Action Plan, China Double Reduction policy, India NEP 2020), industry reports (HolonIQ, Brighteye Ventures European EdTech Funding Report, Reach Capital, ISTE, EDUCAUSE, LearnPlatform by Instructure EdTech Top 40, Common Sense Media, Tyton Partners Time for Class), peer-reviewed studies, market research firms with a named method, and reputable press (Reuters, Bloomberg, Financial Times, Wall Street Journal, EdSurge, The 74, Education Week, Inside Higher Ed, TechCrunch, Rest of World). A database such as Crunchbase or PitchBook alone is never a source. Never use newmarketpitch.com. The url is the exact page that carries the quote, never a homepage (« https://www.sec.gov » proves nothing), and the quote is copied word for word from it.
+4. Recent facts first (2025-2026). Downloads, sign-ups or a pilot are not proof that a product sells: say how many paying users, schools or companies, the revenue when public, and who reported it.
+   Bad: "Company X is used by millions of students." Good: "Company X had 1.2M paying subscribers and $90M of revenue in Q3 2026, per its results." (free users are not buyers)
+5. Money is written the way people say it: $285M, $4.2B, never $0.285B. $10B or more without decimal ($56B, never $56.01B), under $10B one decimal at most ($2.1B, and $1B never $1.0B). A share keeps one decimal at most (39.7%).
+   A key marked CAPS is written in capitals. A key marked WORDS n has exactly n words (the three circles: two words, one per line, written WORD\nWORD).
+   A key marked WORDMAX n never has a word longer than n letters: a longer word is cut in two on the slide. Bad: "UTILITIES" alone in a narrow label. Good: "POWER UTILITIES" (two short words). Bad: "LICENS." (abbreviation). Good: "PERMIT".
+   Icons: only emojis of the ICONS list in the self-check (they are redrawn as line icons). Bad: 🪖 (not drawn). Good: 🛡️.
+   A note given as a list of lines: lines of about the same length, the shortest at least 82% of the longest. Bad: 87 and 108 characters. Good: 96 and 104.
+6. If you cannot find solid facts for a slide, do NOT invent: return `status: no_data` with one line explaining what is missing. A slide that cannot be filled completely is removed, so never leave half the items empty.
+7. The `note` of each slide (the small text at the bottom) says where the data comes from, starting with "We", in one or two plain sentences. Never put a date like "as of" in it. The note speaks to the reader of the report: never mention this prompt, the model slide, the segments you were given or the length limits.
+8. Where the model shows <logo> or logos_on_slide, the slide shows company logos: give the company names and their website domains in a `logos:` list, we add the logos ourselves. Company names are never shortened.
+9. Titles stay the same as the model, with the market name changed, unless the model title is a fact (then write the EdTech fact). Titles are questions people would ask, not analyst wording.
+
+OUTPUT
+Deliver ONE downloadable Markdown file named exactly: 1-edtech-deck-04-pain-points-results-research-2026-11-28.md
+(not a message in the chat). Inside, for each slide, in the order given:
+
+### <slide id>
+```yaml
+status: ok            # or no_data
+title: ...
+<same keys as the model>
+note: ...
+sources:
+  - claim: <the figure or fact>
+    url: <link>
+    date: <publication date>
+    quote: <the exact sentence that supports it, under 25 words>
+```
+
+Before delivering, check yourself, slide by slide: same number of items as the model, every number has a source with a quote, every text between 80% and 100% of its length, no semicolon (two sentences instead), contrast slides ("How X…") with exactly 8 rows, no in vivo CAR-T words left (CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity, synthetic biology, femtech, fertility, menopause, deepfake, quantum, sensor, market research), nothing outside the market definition, the same category names everywhere. Fix what fails, then deliver the file. Do not ask questions; take the most reasonable reading and say it in a `comment:` line when needed.
+
+CHAPTER: Pain points
+
+### ed054
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: What are the pain points of yesterday vs. today?
+note: 'We grouped the market into clinical phases: ex vivo proof, first in vivo dosing, early human validation, and the current translation bottlenecks. We used recent clinical reports, FDA material, and
+  peer-reviewed reviews.'
+t:
+  6: '2017 - 2023
+
+
+    CAR-T proved deep responses in blood cancers, but it still needed cell harvest, custom manufacturing and chemotherapy first'
+  7: '2024 - 2025
+
+
+    In vivo CAR-T began dosing patients directly, with no cell harvest or factory step, but precise targeting became the main risk'
+  8: '2025 - 2026
+
+
+    Early cancer and autoimmune data showed CAR cells can be made in the body, but durability and redosing stay open questions'
+  9: 'TODAY
+
+
+    CAR cells can now be made inside patients, but developers must still prove precise targeting, persistence and lasting benefit'
+  10: '?
+
+
+    Better vectors may make CAR therapy simpler and broader, but solid tumors still block cells from getting in and staying active'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 114-137, 7: 115-140, 8: 111-148, 9: 110-140, 10: 106-139
+
+### ed055
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Which old problems are now behind us?
+note: We treat these as problems the in vivo model is designed to remove from the workflow. They are not proof that current in vivo products have solved safety, durability, or access at commercial scale.
+t:
+  5: Patients needed leukapheresis before a personalized CAR-T product could be made
+  7: In vivo vectors can generate CAR cells directly after one IV dose
+  8: Patient cells had to be shipped away, expanded, tested, and returned
+  10: In vivo dosing removes the ex vivo cell-manufacturing loop
+  11: Manufacturing delays could let aggressive disease worsen while patients waited
+  13: In-body engineering can start without waiting for a custom cell lot
+  14: Each dose depended on collecting and expanding that patient’s T cells
+  16: In vivo platforms use circulating immune cells as starting material
+  17: CAR-T access depended on centers able to manage bespoke logistics
+  19: A drug-like infusion could simplify delivery and monitoring
+  20: Ex vivo production varied with each patient’s starting cell quality
+  22: In vivo platforms use standard vectors, not custom cell lots
+```
+Characters per key (MIN-MAX), measured on the slide: 5: 59-80, 7: 49-119, 8: 51-76, 10: 45-114, 11: 61-78, 13: 50-119, 14: 57-74, 16: 54-108, 17: 54-74, 19: 46-117, 20: 53-67, 22: 49-118
+
+### ed056
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: What problems do all players face?
+page: 1/2
+note: We kept the translation problems that recur across recent in vivo CAR-T reviews and human studies. We skipped generic development issues and focused on problems specific to delivering and controlling
+  CAR engineering inside the body.
+t:
+  25: 'Potency must be
+
+    batch-consistent'
+  23: 'You need clear
+
+    biodistribution'
+  8: 'Vectors can hit
+
+    off-target cells'
+  6: 'You must hit
+
+    the right T cells'
+  29: 'T-cell targets
+
+    can vary'
+  27: 'You must prove
+
+    who gets transduced'
+  12: 'RNA CAR levels
+
+    can fade quickly'
+  10: 'You need enough
+
+    CAR expression'
+  33: 'Low persistence
+
+    limits benefit'
+  31: 'You need enough
+
+    cells to expand'
+  16: 'You must control
+
+    immune activation'
+  14: 'Vectors can
+
+    integrate DNA'
+  37: 'Regulators need
+
+    new CMC standards'
+  35: 'You need long
+
+    safety follow-up'
+  20: 'CRS and ICANS
+
+    still occur'
+  18: 'Redosing can
+
+    trigger immunity'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 1-39 WORDMAX 11, 8: 1-44 WORDMAX 11, 10: 1-39 WORDMAX 10, 12: 1-43 WORDMAX 9, 14: 1-38 WORDMAX 9, 16: 1-44 WORDMAX 10, 18: 1-42 WORDMAX 13, 20: 1-39 WORDMAX 9, 23: 1-44 WORDMAX 15, 25: 1-49 WORDMAX 10, 27: 1-44 WORDMAX 10, 29: 1-37 WORDMAX 9, 31: 1-40 WORDMAX 9, 33: 1-42 WORDMAX 11, 35: 1-39 WORDMAX 9, 37: 1-43 WORDMAX 10
+
+### ed057
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: What problems do all players face?
+page: 2/2
+note: We separated platform-wide delivery problems from disease biology. The second set becomes especially important once in vivo CAR cells are successfully generated, because clinical benefit still depends
+  on target biology and disease context.
+t:
+  25: 'B-cell loss can
+
+    raise infection'
+  23: 'Autoimmune targets
+
+    differ by disease'
+  8: 'Tumors can lose
+
+    the target antigen'
+  6: 'You still need
+
+    the right antigen'
+  29: 'Endpoints are
+
+    still evolving'
+  27: 'You must tune
+
+    CAR duration'
+  12: 'Solid tumors
+
+    block trafficking'
+  10: 'T cells can
+
+    exhaust quickly'
+  33: 'Long-term benefit
+
+    stays uncertain'
+  31: 'Early cohorts
+
+    remain small'
+  16: 'Tumors can
+
+    suppress T cells'
+  14: 'Stroma can
+
+    exclude CAR cells'
+  37: 'Cost savings need
+
+    real-world proof'
+  35: 'Scale-up remains
+
+    unproven'
+  20: 'Cancer can relapse
+
+    after response'
+  18: 'Antigens vary
+
+    within one tumor'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 1-39 WORDMAX 11, 8: 1-44 WORDMAX 11, 10: 1-39 WORDMAX 10, 12: 1-43 WORDMAX 9, 14: 1-38 WORDMAX 9, 16: 1-44 WORDMAX 10, 18: 1-42 WORDMAX 13, 20: 1-39 WORDMAX 9, 23: 1-44 WORDMAX 15, 25: 1-49 WORDMAX 10, 27: 1-44 WORDMAX 10, 29: 1-37 WORDMAX 9, 31: 1-40 WORDMAX 9, 33: 1-42 WORDMAX 11, 35: 1-39 WORDMAX 9, 37: 1-43 WORDMAX 10
+
+### ed059
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Which problems are startups going after?
+t:
+  16: 'CD19
+
+    loss'
+  11: 'Wrong
+
+    cells'
+  14: 'Immune
+
+    risk'
+  21: 'Pain points change sharply by delivery platform and disease.
+
+
+    Broad statements quickly mislead.
+
+    So we split blood cancers, autoimmune disease and solid tumors before scoring priorities.'
+  13: 'CAR
+
+    persistence'
+  12: 'Off-target
+
+    risk'
+  15: 'Redose
+
+    risk'
+  18: 'Tumor
+
+    access'
+  19: 'CMC
+
+    scale-up'
+```
+Characters per key (MIN-MAX), measured on the slide: 11: 1-15 WORDMAX 9, 12: 1-20 WORDMAX 9, 13: 1-20 WORDMAX 11, 14: 1-17 WORDMAX 9, 15: 1-19 WORDMAX 9, 16: 1-15 WORDMAX 9, 18: 1-19 WORDMAX 9, 19: 1-20 WORDMAX 9, 21: 153-188
+
+### ed060
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: How will we proceed?
+note: We break the market down before scoring because the same platform can create very different clinical value and risk in blood cancers, autoimmune disease, and solid tumors.
+t:
+  9: '😣
+
+    PAIN POINTS
+
+
+    We list each group''s main pains and score them to rank them.'
+  6: '🎯
+
+    GOAL
+
+
+    Find the pain points that matter most in in vivo CAR-T, and who feels them.'
+  7: '🏷️
+
+    CATEGORIES
+
+
+    We split the market by disease, because biology and safety differ.'
+  8: '🧑‍🤝‍🧑
+
+    SEGMENTS
+
+
+    For each disease, we list the patients, doctors, centers and payers.'
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 64-86, 7: 65-90, 8: 62-91, 9: 59-76
+
+### ed061
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Which categories will we use?
+note: This categorization follows the three disease segments requested for the deck. They differ enough in target biology, safety tolerance, treatment endpoints, and current clinical maturity to warrant
+  separate pain-point scoring.
+t:
+  7: 'BLOOD
+
+    CANCERS'
+  9: 'AUTOIMMUNE
+
+    DISEASES'
+  11: 'SOLID
+
+    TUMORS'
+  10: Companies developing in vivo CAR-T for solid cancers with difficult access and heterogeneous targets
+  6: Companies developing in vivo CAR-T for lymphoma, leukemia, and multiple myeloma
+  8: Companies developing in vivo CAR-T for lupus, myasthenia gravis, MS, and related disease
+  13: ''
+  15: ''
+  17: ''
+  12: ''
+  14: ''
+  16: ''
+holes_ok: true
+```
+Characters per key (MIN-MAX), measured on the slide: 6: 62-87, 7: 1-38 WORDMAX 11, 8: 60-89, 9: 1-40 WORDMAX 12, 10: 60-100, 11: 1-28 WORDMAX 10, 12: 61-95, 13: 1-30 WORDMAX 11
+The pain points are split into 5 segments (Schools and districts; Universities; Employers; Parents and families; Adult learners). Fill the first 5 items with them and leave the others empty ("").
+
+
+REPEATED BLOCK: the next 4 slides form one block that we repeat for EACH of these 5 segments: 1. Schools and districts; 2. Universities; 3. Employers; 4. Parents and families; 5. Adult learners. Answer the whole block once per segment, with slide ids suffixed by the segment number (ed063-s1 … ed063-s5). The segment name is written exactly the same way everywhere.
+
+### ed062
+in vivo CAR-T model (structure only):
+```yaml
+t:
+  6: PAIN POINTS
+  3: 'BLOOD
+
+    CANCERS'
+  5: 'In vivo CAR-T for lymphoma, leukemia and myeloma,
+
+    where CAR-T already has clinical proof'
+```
+
+### ed063
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Who needs these in vivo CAR-T therapies?
+note: We focus on the five groups most exposed to the clinical and operational trade-offs of in vivo CAR-T in hematologic malignancies.
+t:
+  27: BLOOD CANCERS
+  5: 'RELAPSED
+
+    LYMPHOMA'
+  8: 'REFRACTORY
+
+    LEUKEMIA'
+  11: 'MULTIPLE
+
+    MYELOMA'
+  14: 'CELL-THERAPY
+
+    CENTERS'
+  17: 'PAYERS AND
+
+    REGULATORS'
+  20: 🎗️
+  21: 🩸
+  22: 🦴
+  23: 🏥
+  24: 🏛️
+  7: They need rapid treatment when standard options fail and cannot afford long personalized manufacturing delays
+  10: They need deep disease control before fast-moving leukemia progresses beyond a safe treatment window
+  13: They need durable control after several prior therapies and may relapse after BCMA-directed treatment
+  16: They need simpler logistics, predictable dosing, and safety protocols that fit existing oncology workflows
+  19: They need evidence that easier delivery preserves efficacy, controls risk, and creates durable value
+```
+Characters per key (MIN-MAX), measured on the slide: 5: 1-32 CAPS WORDMAX 10, 7: 85-114, 8: 1-30 CAPS WORDMAX 11, 10: 85-105, 11: 1-30 CAPS WORDMAX 12, 13: 78-102, 14: 1-29 CAPS WORDMAX 11, 16: 82-111, 17: 1-29 CAPS WORDMAX 10, 19: 81-104, 27: 1-40 CAPS WORDMAX 12
+
+### ed064
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: What are these customers’ strongest pain points?
+note: We prioritized problems supported by recent human in vivo data and by the known resistance and toxicity profile of CAR-T in hematologic cancers.
+t:
+  13: BLOOD CANCERS
+  14: They need enough CAR cells to grow and last after one dose
+  15: They face relapse when tumors lose or reduce the targeted antigen
+  16: They still face CRS, neurotoxicity and low blood counts
+  17: They need precise T-cell targeting with no off-target hits
+  18: They must treat fast disease before patients decline
+  19: They need durable responses, not only early tumor shrinkage
+  20: They must prove simple delivery matches ex vivo results
+```
+Characters per key (MIN-MAX), measured on the slide: 13: 1-40 CAPS WORDMAX 12, 14: 46-61, 15: 46-69, 16: 44-61, 17: 43-66, 18: 42-59, 19: 45-65, 20: 43-64
+
+### ed065
+in vivo CAR-T model (structure only):
+```yaml
+section: Pain points
+title: Which pains deserve attention first?
+subtitle: Blood cancers
+icons:
+- 🧑
+- 🩺
+- 🏥
+- 💳
+- 🧪
+rows:
+- pain: They need enough CAR cells to expand and persist after one dose
+  s:
+  - 3
+  - 3
+  - 3
+  - 2
+  - 3
+  p: CRITICAL
+- pain: Tumors can escape by losing or reducing the target antigen
+  s:
+  - 3
+  - 3
+  - 2
+  - 2
+  - 3
+  p: CRITICAL
+- pain: CRS, neurotoxicity, and hematotoxicity still require control
+  s:
+  - 3
+  - 3
+  - 3
+  - 2
+  - 3
+  p: CRITICAL
+- pain: In vivo vectors must avoid unsafe off-target transduction
+  s:
+  - 2
+  - 3
+  - 3
+  - 2
+  - 3
+  p: MAJOR
+- pain: Fast disease can worsen before treatment is delivered
+  s:
+  - 3
+  - 3
+  - 2
+  - 2
+  - 2
+  p: HIGH
+- pain: Early responses must translate into durable disease control
+  s:
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  p: CRITICAL
+- pain: Simpler delivery must match the efficacy of ex vivo CAR-T
+  s:
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  p: CRITICAL
+note:
+- Every stakeholder is different, and this table is a simplified view based on clinical studies and recent reviews
+- It gives a starting point, not a checklist, so priorities should be validated with patients, clinicians, and trial teams
+```
+Characters per key (MIN-MAX), measured on the slide: subtitle: 1-40 WORDMAX 12, rows.*.pain: 44-69, rows.*.p: 1-12 CAPS WORDMAX 9
+
+
+SELF-CHECK BEFORE YOU DELIVER (mandatory)
+Save your answer as the Markdown file, then run this Python script on it. Fix every line it prints by rewriting the text (same facts, one
+more concrete fact when too short, tighter wording when too long), run it again, and deliver only when it prints "0 problems".
+```python
+import re, json, yaml
+LIMITS = json.loads(r'''{"ed054": {"6": {"max": 137, "min": 114}, "7": {"max": 140, "min": 115}, "8": {"max": 148, "min": 111}, "9": {"max": 140, "min": 110}, "10": {"max": 139, "min": 106}}, "ed055": {"5": {"max": 80, "min": 59}, "7": {"max": 119, "min": 49}, "8": {"max": 76, "min": 51}, "10": {"max": 114, "min": 45}, "11": {"max": 78, "min": 61}, "13": {"max": 119, "min": 50}, "14": {"max": 74, "min": 57}, "16": {"max": 108, "min": 54}, "17": {"max": 74, "min": 54}, "19": {"max": 117, "min": 46}, "20": {"max": 67, "min": 53}, "22": {"max": 118, "min": 49}, "__icons__": 1}, "ed056": {"6": {"max": 39, "wordmax": 11}, "8": {"max": 44, "wordmax": 11}, "10": {"max": 39, "wordmax": 10}, "12": {"max": 43, "wordmax": 9}, "14": {"max": 38, "wordmax": 9}, "16": {"max": 44, "wordmax": 10}, "18": {"max": 42, "wordmax": 13}, "20": {"max": 39, "wordmax": 9}, "23": {"max": 44, "wordmax": 15}, "25": {"max": 49, "wordmax": 10}, "27": {"max": 44, "wordmax": 10}, "29": {"max": 37, "wordmax": 9}, "31": {"max": 40, "wordmax": 9}, "33": {"max": 42, "wordmax": 11}, "35": {"max": 39, "wordmax": 9}, "37": {"max": 43, "wordmax": 10}}, "ed057": {"6": {"max": 39, "wordmax": 11}, "8": {"max": 44, "wordmax": 11}, "10": {"max": 39, "wordmax": 10}, "12": {"max": 43, "wordmax": 9}, "14": {"max": 38, "wordmax": 9}, "16": {"max": 44, "wordmax": 10}, "18": {"max": 42, "wordmax": 13}, "20": {"max": 39, "wordmax": 9}, "23": {"max": 44, "wordmax": 15}, "25": {"max": 49, "wordmax": 10}, "27": {"max": 44, "wordmax": 10}, "29": {"max": 37, "wordmax": 9}, "31": {"max": 40, "wordmax": 9}, "33": {"max": 42, "wordmax": 11}, "35": {"max": 39, "wordmax": 9}, "37": {"max": 43, "wordmax": 10}}, "ed059": {"11": {"max": 15, "wordmax": 9}, "12": {"max": 20, "wordmax": 9}, "13": {"max": 20, "wordmax": 11}, "14": {"max": 17, "wordmax": 9}, "15": {"max": 19, "wordmax": 9}, "16": {"max": 15, "wordmax": 9}, "18": {"max": 19, "wordmax": 9}, "19": {"max": 20, "wordmax": 9}, "21": {"max": 188, "min": 153}, "__icons__": 1}, "ed060": {"6": {"max": 86, "min": 64}, "7": {"max": 90, "min": 65}, "8": {"max": 91, "min": 62}, "9": {"max": 76, "min": 59}}, "ed061": {"6": {"max": 87, "min": 62}, "7": {"max": 38, "wordmax": 11}, "8": {"max": 89, "min": 60}, "9": {"max": 40, "wordmax": 12}, "10": {"max": 100, "min": 60}, "11": {"max": 28, "wordmax": 10}, "12": {"max": 95, "min": 61}, "13": {"max": 30, "wordmax": 11}}, "ed063": {"5": {"caps": true, "max": 32, "wordmax": 10}, "7": {"max": 114, "min": 85}, "8": {"caps": true, "max": 30, "wordmax": 11}, "10": {"max": 105, "min": 85}, "11": {"caps": true, "max": 30, "wordmax": 12}, "13": {"max": 102, "min": 78}, "14": {"caps": true, "max": 29, "wordmax": 11}, "16": {"max": 111, "min": 82}, "17": {"caps": true, "max": 29, "wordmax": 10}, "19": {"max": 104, "min": 81}, "27": {"caps": true, "max": 40, "wordmax": 12}}, "ed064": {"13": {"caps": true, "max": 40, "wordmax": 12}, "14": {"max": 61, "min": 46}, "15": {"max": 69, "min": 46}, "16": {"max": 61, "min": 44}, "17": {"max": 66, "min": 43}, "18": {"max": 59, "min": 42}, "19": {"max": 65, "min": 45}, "20": {"max": 64, "min": 43}, "__icons__": 1}, "ed065": {"subtitle": {"max": 40, "wordmax": 12}, "rows.*.pain": {"max": 69, "min": 44}, "rows.*.p": {"caps": true, "max": 12, "wordmax": 9}, "note_line": {"max": 138}}}''')
+ICONS = set(json.loads(r'''["⏰", "⏱", "⏱️", "⏳", "☠️", "♨️", "♻️", "♾️", "⚖️", "⚗️", "⚙️", "⚛️", "⚠️", "⚡", "⛔", "⛽", "✂️", "✅", "✋", "✍️", "✓", "✖️", "✨", "❌", "❓", "❔", "⭐", "⭕", "🆓", "🌍", "🌎", "🌏", "🌐", "🌡️", "🌱", "🍎", "🎒", "🎓", "🎗️", "🎙", "🎙️", "🎤", "🎥", "🎨", "🎭", "🎮", "🎯", "🏃", "🏅", "🏆", "🏗️", "🏛️", "🏠", "🏢", "🏥", "🏦", "🏫", "🏭", "🏷️", "🐒", "👁️", "👐", "👔", "👥", "👩‍🏫", "👷", "💀", "💉", "💊", "💎", "💡", "💥", "💧", "💬", "💰", "💳", "💵", "💸", "💻", "💼", "📄", "📅", "📈", "📉", "📊", "📋", "📍", "📏", "📖", "📘", "📚", "📜", "📝", "📞", "📡", "📣", "📦", "📱", "📵", "📺", "🔀", "🔁", "🔄", "🔋", "🔌", "🔍", "🔎", "🔐", "🔒", "🔓", "🔗", "🔥", "🔧", "🔩", "🔬", "🕳️", "🖥️", "🗂️", "🗣️", "😖", "😣", "😤", "🙋", "🚀", "🚑", "🚗", "🚚", "🚛", "🚧", "🚶", "🛒", "🛞", "🛠️", "🛡️", "🛰️", "🟢", "🤒", "🤔", "🤖", "🤝", "🤥", "🤩", "🦉", "🦋", "🦠", "🦴", "🦾", "🦿", "🧂", "🧑", "🧑‍🏫", "🧑‍💻", "🧑‍🤝‍🧑", "🧠", "🧩", "🧪", "🧫", "🧬", "🧭", "🧮", "🧯", "🧰", "🧱", "🧲", "🧸", "🧾", "🩸", "🩺", "🩻", "🪙", "🫧"]'''))
+EMOJI = re.compile("[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF][\uFE0F\u200D\U0001F000-\U0001FAFF]*")
+md = open("1-edtech-deck-04-pain-points-results-research-2026-11-28.md", encoding="utf-8").read(); n = 0
+F = chr(96) * 3
+SKIP = {"id", "type", "section", "title", "note", "src", "logo", "url", "page", "sources", "logos", "status", "comment"}
+def leaves(x, path=""):
+    if isinstance(x, dict):
+        for k, v in x.items():
+            if k not in SKIP: yield from leaves(v, (path + "." if path else "") + str(k))
+    elif isinstance(x, list):
+        for v in x: yield from leaves(v, path + ".*")
+    elif isinstance(x, str): yield path, x
+plain = lambda v: re.sub(r"\s+", " ", re.sub(r"\{\d\|([^}]*)\}", r"\1", v)).strip()
+for sid, body in re.findall(r"### (\S+)\s+" + F + r"yaml\n(.*?)" + F, md, re.S):
+    d = yaml.safe_load(body) or {}
+    if d.get("status") != "ok": continue
+    flat = json.dumps(d, ensure_ascii=False)
+    for bad, why in ((chr(8212), "em dash"), (chr(8211), "en dash"), ("; ", "semicolon: write two sentences")):
+        if bad in flat.replace("&amp; ", ""): print(sid, "|", why); n += 1
+    for m in re.findall(r"\$\d+\.\d{2,}[BMK]|\$\d{2,}\.\d[B]|\$\d+\.0[BMK]|\d+\.\d{2,}%", flat): print(sid, "| amount format:", m, "(write $56B, $2.1B, $1B, 39.7%)"); n += 1
+    L = LIMITS.get(sid) or LIMITS.get(re.sub(r"-s\d+$", "", sid)) or {}
+    for p, v in leaves(d):
+        k = p[2:] if p.startswith("t.") else p
+        e = L.get(k)
+        if not e or re.fullmatch(r"\s*[^\w\s]{1,4}\s*", v): continue
+        t = plain(v); n0 = n
+        if len(t) > e["max"]: print(sid, k, "| too long:", len(t), "for max", e["max"], "|", t[:60]); n += 1
+        elif e.get("min") and len(t) < e["min"]: print(sid, k, "| too short:", len(t), "for min", e["min"], "(add one concrete fact) |", t[:60]); n += 1
+        if e.get("words") and len(t.split()) != e["words"]: print(sid, k, "| must have exactly", e["words"], "words |", t[:40]); n += 1
+        if e.get("wordmax") and max(map(len, re.split(r"[\s/-]+|\\n", t))) > e["wordmax"]: print(sid, k, "| a word longer than", e["wordmax"], "letters is cut in two on the slide: use shorter words |", t[:40]); n += 1
+    for p, v in (leaves(d) if L.get("__icons__") else []):
+        for m in {re.sub(r'(.)\1+', r'\1', x) for x in EMOJI.findall(v)}:
+            if m not in ICONS and m.replace(chr(0xFE0F), "") not in ICONS and m + chr(0xFE0F) not in ICONS: print(sid, "| icon", m, "is not drawn: use one from ICONS"); n += 1
+    nt = d.get("note"); nl = (L.get("note_line") or {}).get("max", 120)
+    if isinstance(nt, list) and len(nt) > 1:
+        Ls = [len(str(x)) for x in nt]
+        if max(Ls) > nl: print(sid, "note | a line has", max(Ls), "characters for max", nl); n += 1
+        if min(Ls) < 0.82 * max(Ls): print(sid, "note | lines of unequal length:", min(Ls), "and", max(Ls), "(rebalance)"); n += 1
+print(n, "problems")
+```

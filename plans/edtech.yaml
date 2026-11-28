@@ -1,0 +1,122 @@
+name: EdTech
+handle: edtech
+uuid: 1
+date: '2026-11-28'
+today: 28 November 2026
+model_deck: decks/in-vivo-car-t
+model_name: in vivo CAR-T
+model_words: CAR-T, in vivo, lentivirus, LNP, viral vectors, myeloma, T cells, nuclear, reactor, uranium, longevity, synthetic biology, femtech, fertility, menopause, deepfake, quantum,
+  sensor, market research
+definition_file: /home/claude/nmp-seo/data/startups/market_definitions.csv
+categories_file: /home/claude/nmp-seo/data/startups/market_categories.csv
+sources_hint: company releases and filings (Duolingo, Coursera, Chegg, Byju's, PhysicsWallah, Unacademy, Go1, Multiverse, Synthesis, MagicSchool, Brisk Teaching, Khanmigo by Khan Academy,
+  Speak, Praktika, Preply, GoStudent, Kahoot!, Quizlet, Nerdy/Varsity Tutors, Instructure, PowerSchool, Ellucian, 2U, Udemy, Docebo, Handshake, Paper, Brainly, Zuoyebang, Squirrel AI,
+  Yuanfudao), government documents (US Department of Education, UK Department for Education, OECD Education at a Glance, UNESCO GEM report, EU Digital Education Action Plan, China
+  Double Reduction policy, India NEP 2020), industry reports (HolonIQ, Brighteye Ventures European EdTech Funding Report, Reach Capital, ISTE, EDUCAUSE, LearnPlatform by Instructure
+  EdTech Top 40, Common Sense Media, Tyton Partners Time for Class), peer-reviewed studies, market research firms with a named method, and reputable press (Reuters, Bloomberg, Financial
+  Times, Wall Street Journal, EdSurge, The 74, Education Week, Inside Higher Ed, TechCrunch, Rest of World).
+pain_segments:
+- Schools and districts
+- Universities
+- Employers
+- Parents and families
+- Adult learners
+value_segments:
+- K-12 learning
+- Higher education
+- Online courses
+- Tutoring and test prep
+- Exams and credentials
+- Workforce training
+reask:
+- ed012
+- ed013
+- ed190
+- ed207
+- ed208
+pierre_dropped:
+- ed046
+- ed105p
+- ed220
+live_twins:
+- ed007p
+- ed039p
+- ed052p
+- ed058
+- ed099p
+- ed142p
+- ed148p
+- ed168p
+- ed171p
+- ed209p
+- pp_s06
+retarget:
+  iv_pipeline:
+    title: Which EdTech products launched recently?
+    brief: 8 rows = 8 real EdTech products of startups or young companies launched or expanded in the last 12 months (an AI tutor for homework, an AI assistant for teachers, a language
+      learning app with AI conversation, an AI grading or feedback tool, a skills platform for employers, a test prep or exam product, a campus or admissions tool, a credential or skills
+      verification product). Rows read "product" + "COMPANY · USE" + stage (BETA / LAUNCH / SCALE, 6 characters at most, BETA = pilot in a few schools or companies, LAUNCH = sold in the
+      last 12 months, SCALE = adopted by a named large district, university or employer, or by millions of users). Only products named in a company release or reputable press.
+  iv_deals:
+    title: Which corporate deals shaped the market?
+    brief: 6 dated deals around EdTech companies (acquisitions by private equity, publishers or software groups, take-privates, mergers such as Coursera and Udemy, large strategic investments,
+      IPOs and SPAC listings), newest first, with the amount when public.
+  iv_fda:
+    title: What does it take to win a school district?
+    brief: 5 steps from a free pilot to a tool a US school district (or a ministry, a university or an employer) buys and renews (for example a teacher-led pilot, a privacy review and
+      data agreement, proof of learning gains such as ESSA evidence tiers, the procurement and budget cycle, then renewal on usage). Each step in plain words with who decides and a typical
+      duration or cost.
+  iv_safety:
+    title: What could go wrong for EdTech?
+    brief: 5 risks, each "LABEL" + one sentence with a documented case or a measured figure (for example student data breaches such as PowerSchool in 2024-2025, phone and screen-time
+      bans in schools, students cheating with general AI chatbots, tools that show no learning gains, public budgets that shrink after federal relief money ends). Real studies, filings,
+      reports or reported cases only.
+extra:
+  ed061: The pain points are split into {np} segments ({pains}). Fill the first {np} items with them and leave the others empty ("").
+  ed018: 'This market uses {nv} categories of companies (types of solution): {vals}. The model has 4 slots: answer with a `categories:` list of {nv} items instead (label in capitals
+    on 2 lines, one-line description, one emoji each), keep the line "Here, we categorize by type of solution".'
+  ed032: 'Do not use Google searches as a signal: Google changed how it counts search terms in mid-2025, so a recent rise in searches is not real interest. Use 7 signals of money, deals,
+    users, contracts, sales or use instead.'
+  ed019: 'Here the second categorization is by type of buyer, with the pain-point segments: {pains}.'
+signal_angles: funding rounds of EdTech startups (AI tutors, teacher AI, language learning, workforce skills), revenue, paying users and subscriber figures of listed EdTech companies
+  (Duolingo, Coursera, Chegg, Nerdy), district and university contracts, AI adoption by teachers and students in surveys, acquisitions, take-privates and mergers, IPOs, national programs
+  funding digital learning. Never Google searches (Google changed how it counts search terms in mid-2025, so recent search curves are not real interest).
+killers_brief: 'This file fills the "Startup killers" chapter. It shows SETBACKS, not only failures: shutdowns, bankruptcies, layoffs, collapses in value or share price after the Covid
+  boom, sales of the company for little, products pulled, fines and lawsuits, users lost to general AI chatbots. Scope: companies whose core product is an EdTech product, startups first
+  (for example Byju''s, 2U, Chegg, Unacademy, Vedantu).
+
+  - ed192 and ed195: 12 dated events in all, 2022 to November 2026, oldest first in ed192, newest in ed195. Each text is one sentence of about 110 characters, ending with {1|Source name}.
+  Dates as YYYY (MON).
+
+  - ed199p: 6 companies x 5 warning signs. Pick the 5 signs that fit this market (for example: big layoffs, value fell, went bankrupt, users fell, legal fight). Each cell is two short
+  lines separated by | or empty. Give the website domain of each company.
+
+  - ed200: why EdTech startups fail.
+
+  - survivors (for the S11-02 slide « What sets EdTech survivors apart from failures? »): 5 rows, each with a lesson (what survivors do, 6 words at most), a one-line explanation, one
+  company of ed199p or ed192-ed195 that missed it, and why in 8 words at most, with a source.
+
+  If you cannot verify enough events for a slide, answer status: no_data for that slide instead of inventing.
+
+  '
+market_title: EdTech
+label: EdTech
+keep_together:
+- EdTech
+- AI tutor
+- AI tutors
+- test prep
+examples:
+  jargon_bad: An adaptive LXP with competency-based pathways and xAPI interoperability.
+  jargon_good: An app that changes each lesson to what the student already knows, and tells the teacher who is falling behind.
+  jargon_why: the reader is not an education specialist
+  proof_rule: 'Downloads, sign-ups or a pilot are not proof that a product sells: say how many paying users, schools or companies, the revenue when public, and who reported it.'
+  proof_bad: Company X is used by millions of students.
+  proof_good: Company X had 1.2M paying subscribers and $90M of revenue in Q3 2026, per its results.
+  proof_why: free users are not buyers
+  fresh_bad: Company X raised $15M in 2024
+  fresh_good: Company X raised $40M in October 2026, its biggest round
+  fresh_est: Company X should reach about $30M of revenue in 2026, against $12M in 2025
+  fresh_method: latest company releases, filings and quarterly results, district and government contract notices, press reports as a cross-check
+  not_proof: downloads are not sales
+trends_csv: assets/trends/edtech/edtech.csv
