@@ -1,5 +1,5 @@
 - after: ed104
-  link: 'TO WRITE: the phrase of ed104 that leads to how companies charge'
+  link: ed104 DAILY HABITS, products that turn free use into paid subscriptions, and how each model gets paid
   slide:
     id: pp_s06
     type: pp_value
@@ -40,3 +40,381 @@
     note:
     - We placed each company by how its business model works, from pricing pages and filings
     - Positions are our reading, and you will find all the sources we used at the end of the report
+- after: ed032
+  link: ed032, signal 1 of the list
+  slide:
+    id: xe_genai
+    type: x/sig_key_trend
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: year
+      end: 2026-09
+    title: 'GenAI course enrollments passed
+
+      45 a minute on Coursera and Udemy'
+    t:
+      9: '25'
+      10: '2025'
+      12: 45+
+      13: '2026'
+      15: ×1.8
+      16: WHY IT IS HOT
+      17: 'People sign up for AI courses almost twice as fast as a year ago, a sign of a hot market for practical skills training.
+
+
+
+        The figures count enrollments per minute, not unique learners or purchases.'
+    vbars:
+    - 25
+    - 45
+    note: We used the Coursera Global Skills Report of September 28, 2026, for Coursera and Udemy combined. The 2026 rate is a lower bound
+  sources:
+  - claim: Combined GenAI enrollment rate, 2025 and 2026
+    url: https://blog.coursera.org/global-skills-report-2026/
+    date: '2026-09-28'
+    quote: more than 45 enrollments per minute, up from 25 per minute in 2025.
+- after: xe_genai
+  link: ed032, signal 2 of the list
+  slide:
+    id: xe_dau
+    type: x/sig_key_trend
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: quarter
+      end: 2026-09
+    title: 'Duolingo reached 64.9M daily learners,
+
+      nearly three times its 2023 level'
+    t:
+      9: '24.2'
+      10: Q3 2023
+      12: '64.9'
+      13: Q3 2026
+      15: ×2.7
+      16: WHY IT IS HOT
+      17: 'A learning app now draws a daily crowd the size of a big consumer app, and it still grew 29% in the last year, a sign of a hot market.
+
+
+
+        The bars show average daily active users in millions, for the same quarter of each year.'
+    vbars:
+    - 24.2
+    - 64.9
+    note: We used Duolingo shareholder letters and its 10-Q for the third quarters of 2023 and 2026, filed with the SEC
+  sources:
+  - claim: Q3 2023 and Q3 2024 DAUs; table row
+    url: https://www.sec.gov/Archives/edgar/data/1562088/000156208824000248/q3fy24duolingo09-30x24shar.htm
+    date: 2024-11
+    quote: Daily Active Users | 24.2M | 37.2M
+  - claim: Q3 2025 and Q3 2026 DAUs
+    url: https://www.sec.gov/Archives/edgar/data/1562088/000162828026069692/duol-20260930.htm
+    date: '2026-11-04'
+    quote: we had approximately 64.9 million and 50.5 million DAUs, respectively, representing an increase of 29%
+- after: xe_dau
+  link: ed032, signal 3 of the list
+  slide:
+    id: xe_preply
+    type: kpis
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-01
+    title: 'Preply raised $150M at a $1.2B value
+
+      after it turned a profit'
+    items:
+    - value: $150M
+      label: Series D led by WestCap in January 2026, for human tutoring with AI
+    - value: $1.2B
+      label: Value of Preply after the round, which made it a new EdTech unicorn
+    - value: 100K+
+      label: Tutors on its marketplace, who teach learners in 180 different countries
+    why: This is a sign of a hot market because investors paid a unicorn price for a tutoring firm that was already EBITDA positive, far from the cash burn of 2021.
+    note: We used the Preply release of January 21, 2026, and a Techstars profile of January 23, 2026
+  sources:
+  - claim: Preply Series D and valuation
+    url: https://preply.com/en/blog/preply-raises-150-million-to-shape-the-future-of-education-through-human-led-ai-enhanced-learning/
+    date: '2026-01-21'
+    quote: Led by WestCap, the Series D Round Values the Company at $1.2 Billion
+  - claim: Preply became EBITDA positive
+    url: https://preply.com/en/blog/preply-raises-150-million-to-shape-the-future-of-education-through-human-led-ai-enhanced-learning/
+    date: '2026-01-21'
+    quote: In the last twelve months the company continued improving EBITDA and became EBITDA positive.
+  - claim: Preply tutors and countries
+    url: https://www.techstars.com/blog/startup-spotlight/preply-redefines-learning-and-becomes-a-unicorn
+    date: '2026-01-23'
+    quote: Preply's platform connects more than 100,000 tutors with learners in 180 countries
+- after: xe_preply
+  link: ed032, signal 4 of the list
+  slide:
+    id: xe_deals
+    type: sx_stat_strip
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-10
+    title: 'EdTech deals passed a ten-year record
+
+      by August 2026'
+    headline: Mergers and acquisitions in EdTech, January to October 2026
+    stats:
+    - v: '149'
+      l: EdTech deals through August 2026, above the ten-year yearly record
+    - v: $674M
+      l: Value Coursera paid for Udemy when the merger closed in May
+    - v: '4'
+      l: AI teaching tools bought by McGraw Hill, Pearson and IXL in 2 months
+    story: Big education groups now pay for AI tools and platforms, a sign of a hot market. Teachally, TeachFX, Workera and NoRedInk were all bought from September to October 2026.
+    note:
+    - We used the Corum Group report of October 2026, Coursera’s 10-Q, and the releases
+    - of McGraw Hill, Pearson and IXL. Pearson had agreed to buy Workera, not yet closed
+  sources:
+  - claim: Coursera and Udemy completion
+    url: https://investor.coursera.com/news/news-details/2026/Coursera-Completes-Combination-with-Udemy-to-Build-the-Worlds-Most-Comprehensive-Skills-Platform/
+    date: '2026-05-11'
+    quote: today announced the completion of its combination with Udemy, Inc.
+  - claim: Teachally acquisition
+    url: https://www.mheducation.com/about-us/news-insights/press-releases/mcgraw-hill-acquires-teachally-to-accelerate-k-12-curriculum-development-expand-ai-tools
+    date: '2026-09-02'
+    quote: today announced the acquisition of Teachally
+  - claim: TeachFX acquisition
+    url: https://www.mheducation.com/about-us/news-insights/press-releases/mcgraw-hill-acquires-teachfx-expanding-commitment-to-great-teaching-with-ai-coaching-tool-designed-by-educators.html
+    date: '2026-09-17'
+    quote: today announced the acquisition of TeachFX, an AI-native instructional coaching platform
+  - claim: Workera acquisition agreement
+    url: https://plc.pearson.com/en-GB/news-and-insights/news/pearson-acquires-workera-pioneer-ai-native-enterprise-assessment-and-skills
+    date: '2026-09-29'
+    quote: today announced it has agreed to acquire Workera
+  - claim: NoRedInk acquisition
+    url: https://www.prnewswire.com/news-releases/ixl-learning-acquires-noredink-302912835.html
+    date: '2026-10-19'
+    quote: Today, IXL Learning announced it has acquired NoRedInk, the popular English language arts platform.
+  - claim: Independent evidence of a broader deal wave
+    url: https://www.corumgroup.com/insights/edtech-2026-q3-report
+    date: '2026-10-07'
+    quote: M&A deal volume in the EdTech sector through August 2026 (149 deals) has already exceeded the ten year record
+- after: xe_deals
+  link: ed032, signal 5 of the list
+  slide:
+    id: xe_pw
+    type: kpis
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: half
+      end: 2026-09
+    title: 'PhysicsWallah grew far beyond
+
+      exam prep in the last six months'
+    items:
+    - value: +130%
+      label: Enrollments in school board and CUET courses, April to September 2026
+    - value: +77%
+      label: Enrollments in courses taught in Indian languages other than English
+    - value: +75%
+      label: Revenue growth of its online courses for school students, year on year
+    why: This is a sign of a hot market because India’s biggest test prep player now finds fast demand in school courses and in local languages too.
+    note: We used the PhysicsWallah earnings release of November 4, 2026, to India’s stock exchange. The three figures are not additive
+  sources:
+  - claim: Boards and CUET and vernacular enrollment growth; excerpts from same sentence
+    url: https://nsearchives.nseindia.com/corporate/NEAPSPW_04112026171920_Pressreleasesd.pdf
+    date: '2026-11-04'
+    quote: Boards and CUET enrolments rose 130% to 4.55 lakh
+  - claim: Vernacular enrollment growth
+    url: https://nsearchives.nseindia.com/corporate/NEAPSPW_04112026171920_Pressreleasesd.pdf
+    date: '2026-11-04'
+    quote: vernacular enrolments rose 77% to 1.23 lakh
+  - claim: Online K-12 revenue growth
+    url: https://nsearchives.nseindia.com/corporate/NEAPSPW_04112026171920_Pressreleasesd.pdf
+    date: '2026-11-04'
+    quote: H1 online K-12 Revenue YoY growth 75%
+- after: xe_pw
+  link: ed032, signal 6 of the list
+  slide:
+    id: xe_noredink
+    type: share_waffle
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-10
+    title: 'NoRedInk was used by 9 in 10
+
+      US school districts before IXL bought it'
+    'on': Districts reached
+    'off': Not reached
+    unit: districts
+    years:
+    - x: OCTOBER 2026
+      k: 90
+      n: 100
+      p: 90
+    big: 90%
+    kicker: WHY IT IS HOT
+    story: 'A small writing app reached almost every US school district, and a larger group bought it for that reach, a sign of a hot market.
+
+      The share counts districts that used it since its launch, not paid ones.'
+    note:
+    - We used the IXL Learning release of October 19, 2026, on its purchase of NoRedInk
+    - The figure counts districts reached since inception, not current paid subscriptions
+  sources:
+  - claim: Cumulative district penetration
+    url: https://www.prnewswire.com/news-releases/ixl-learning-acquires-noredink-302912835.html
+    date: '2026-10-19'
+    quote: Used by 9 in 10 U.S. school districts since its inception
+- after: xe_noredink
+  link: ed032, signal 7 of the list
+  slide:
+    id: xe_loora
+    type: sx_stat_strip
+    pill: SIGNAL
+    section: Market opportunity
+    fresh:
+      period: total
+      end: 2026-09
+    title: 'Loora raised $22M as its AI English
+
+      tutor passed tens of millions in sales'
+    headline: Loora, an AI English tutor, as of September 2026
+    stats:
+    - v: $22M
+      l: New funding raised in September 2026 to grow its AI tutor
+    - v: $10M+
+      l: Recurring revenue a year, reported in the tens of millions
+    - v: 100+
+      l: Companies, governments and universities using its B2B product
+    story: People and employers now pay for AI language tutors at scale, a sign of a hot market. Loora built its business product only over the last year.
+    note:
+    - We used the Loora release and the Calcalist article of September 16, 2026
+    - The $10M+ is a floor for “tens of millions of dollars” of recurring revenue
+  sources:
+  - claim: Loora raised $22M
+    url: https://www.loora.com/news/company-news/loora-raises-22m-funding
+    date: '2026-09-16'
+    quote: Loora Raises $22M to Advance AI-Powered English Learning
+  - claim: Loora recurring revenue
+    url: https://www.calcalistech.com/ctechnews/article/byr9ag00yze
+    date: '2026-09-16'
+    quote: its annual recurring revenue reached tens of millions of dollars.
+  - claim: Loora B2B users
+    url: https://www.loora.com/news/company-news/loora-raises-22m-funding
+    date: '2026-09-16'
+    quote: More than 100 corporations, governments and universities are also now using the B2B product we built over the last year.
+- after: ed136
+  link: ed136, high sign-up counts can hide low classroom engagement
+  slide:
+    id: xe_khanmigo
+    type: share_waffle
+    section: Market challenges
+    title: 'Students asked Khanmigo for help in
+
+      only 17% of sessions with a mistake'
+    'on': Asked the tutor
+    'off': Did not ask
+    unit: sessions
+    years:
+    - x: 2026 STUDY
+      k: 17
+      n: 100
+      p: 17
+    big: 17%
+    kicker: WHAT IS GOING ON
+    story: 'Even with an AI tutor one click away, students who got stuck rarely asked it for help.
+
+      A tutor that waits for questions leaves most of its value unused, so products must step in on their own.'
+    note:
+    - We used the NBER working paper of August 2026 on a two-year trial in 18 Tennessee
+    - middle schools. The share counts exercise sessions with a mistake, not students
+  sources:
+  - claim: Tutor use in sessions involving mistakes
+    url: https://www.nber.org/papers/w35620
+    date: 2026-08
+    quote: in only 17 percent of the exercise sessions in which they made a mistake.
+- after: ed200
+  link: ed200 AI RIVALS, they fail when free AI tools replace paid study help
+  slide:
+    id: xe_chegg
+    type: sx_faceoff
+    section: Startup killers
+    title: 'Chegg fell from $113.51 a share
+
+      to $0.52 as students turned to AI'
+    cards:
+    - name: Nov 2026
+      hl: true
+      stats:
+      - v: $0.52
+        l: closing price on November 27, 2026
+      - v: −99.5%
+        l: fall from its all-time closing high
+    - name: Feb 2021
+      stats:
+      - v: $113.51
+        l: all-time closing high, February 12, 2021
+      - v: Peak
+        l: at the height of pandemic homework help
+    story: Paid homework help lost almost all its value once free AI tools could answer the same questions. Chegg’s academic revenue keeps falling with its subscribers.
+    note:
+    - We compared the adjusted closing prices from Macrotrends and Stock Analysis
+    - The fall is 1 minus 0.52 divided by 113.51, which is our own arithmetic here
+  sources:
+  - claim: Adjusted peak closing price
+    url: https://www.macrotrends.net/stocks/charts/CHGG/chegg/stock-price-history
+    date: '2026-08-07'
+    quote: The all-time high Chegg stock closing price was 113.51 on February 12, 2021.
+  - claim: Latest adjusted closing price; table row
+    url: https://stockanalysis.com/stocks/chgg/history/
+    date: '2026-11-27'
+    quote: Nov 27, 2026 | 0.51 | 0.53 | 0.51 | 0.52 | 0.52
+  - claim: Chegg academic revenue fell on fewer subscribers
+    url: https://www.sec.gov/Archives/edgar/data/1364954/000143774926034534/chgg20260930c_10q.htm
+    date: 2026-11
+    quote: The decrease was primarily due to a decrease in subscription revenue, primarily related to reduced traffic which led to fewer subscribers.
+- after: pp_s06
+  link: pp_s06, monthly subscriptions and degrees, the two ends of the money map
+  slide:
+    id: xe_multiple
+    type: sx_faceoff
+    section: Value creation
+    title: 'Investors value $1 of Duolingo sales
+
+      at seven times $1 of Coursera sales'
+    cards:
+    - name: Duolingo
+      hl: true
+      stats:
+      - v: 6.1x
+        l: market value to trailing sales, November 2026
+      - v: $7.2B
+        l: market value, for about $1.2B of sales
+    - name: Coursera
+      stats:
+      - v: 0.9x
+        l: market value to trailing sales, November 2026
+      - v: $914M
+        l: market value, for about $1.1B of sales
+    story: Two firms with similar sales get very different prices. Investors pay for daily habits and paid subscriptions far more than for course catalogs that must win each learner again.
+    note:
+    - We used Stock Analysis snapshots of November 24 and 25, 2026. Coursera’s sales
+    - include Udemy only from May 2026, and the 7 times is our own arithmetic
+  sources:
+  - claim: Duolingo current market cap and P/S; table excerpt
+    url: https://stockanalysis.com/stocks/duol/financials/ratios/
+    date: '2026-11-25'
+    quote: Market Capitalization | 7,240
+  - claim: Duolingo P/S
+    url: https://stockanalysis.com/stocks/duol/financials/ratios/
+    date: '2026-11-25'
+    quote: PS Ratio | 6.12
+  - claim: Coursera market cap and P/S; table excerpts
+    url: https://stockanalysis.com/stocks/cour/financials/ratios/
+    date: '2026-11-24'
+    quote: Market Capitalization | 914
+  - claim: Coursera P/S
+    url: https://stockanalysis.com/stocks/cour/financials/ratios/
+    date: '2026-11-24'
+    quote: PS Ratio | 0.86

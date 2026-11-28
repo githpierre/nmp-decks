@@ -4,8 +4,8 @@
             'eu':{'dot':[493,359],'box':[396,177,313],'name':'EUROPE'},
             'apac':{'dot':[632,403],'box':[730,272,190],'name':'ASIA-PACIFIC'},
             'mea':{'dot':[529,396],'box':[440,500,290],'name':'MIDDLE EAST & AFRICA'},
-            'latam':{'dot':[412,444],'box':[31,459,280],'name':'LATIN AMERICA'},
-            'au':{'dot':[655,498],'box':[385,512,250],'name':'AUSTRALIA'}} %}{# au + regions without pct (leaders by region): 12 Nov 2026, the Australia text pointed at the Middle East #}
+            'latam':{'dot':[412,444],'box':[31,459,280],'name':'LATIN AMERICA','start':'corner'},
+            'au':{'dot':[655,498],'box':[385,512,250],'name':'AUSTRALIA','start':'corner'}} %}{# au + regions without pct (leaders by region): 12 Nov 2026, the Australia text pointed at the Middle East #}
 <div class="map"><img class="w" src="../../assets/img/world-map.svg">
 <svg class="lines" viewBox="0 0 960 672"><g stroke="#789096" stroke-width="1" stroke-dasharray="4 4" fill="none"></g></svg>
 {# a region renamed to a country (« INDIA » instead of « ASIA-PACIFIC ») puts its dot on that country (Pierre, 14 Nov 2026: the India dot sat on China).
@@ -16,7 +16,7 @@
              'AFRICA':[490,440],'NORTH AMERICA':[331,367],'EUROPE':[493,359],'ASIA-PACIFIC':[632,403],'MIDDLE EAST & AFRICA':[529,396],'LATIN AMERICA':[412,444],'SOUTHEAST ASIA':[610,430],'AUSTRALIA':[655,498],'NEW ZEALAND':[713,535]} %}
 {% for k,r in s.regions.items() %}{% set d = [r.pct * 0.89, 5] | max if r.pct else 14 %}{% set nm = (r.name or P[k].name) | upper %}{% set dot = r.at or PL.get(nm.split(' - ')[0]) or P[k].dot %}
 <div class="dot" data-k="{{ k }}" style="left:{{ dot[0] - d/2 }}px;top:{{ dot[1] - d/2 }}px;width:{{ d }}px;height:{{ d }}px"></div>
-<div class="reg" data-k="{{ k }}" data-start="{{ r.start or s.line_start or 'middle' }}" data-end="{{ r.end or s.line_end or 'auto' }}" data-bend="{{ r.bend or s.line_bend or 0.67 }}" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ s.widths[k] if s.widths and s.widths[k] else P[k].box[2] }}px"><h4>{{ r.name or P[k].name }}{% if r.pct %} - {{ r.pct }}%{% endif %}</h4><p>{{ r.text | md }}</p></div>{% endfor %}
+<div class="reg" data-k="{{ k }}" data-start="{{ r.start or s.line_start or P[k].start or 'middle' }}" data-end="{{ r.end or s.line_end or 'auto' }}" data-bend="{{ r.bend or s.line_bend or 0.67 }}" style="left:{{ P[k].box[0] }}px;top:{{ P[k].box[1] }}px;width:{{ s.widths[k] if s.widths and s.widths[k] else P[k].box[2] }}px"><h4>{{ r.name or P[k].name }}{% if r.pct %} - {{ r.pct }}%{% endif %}</h4><p>{{ r.text | md }}</p></div>{% endfor %}
 <script>/* Region texts: 3 lines (Pierre, 10 Nov 2026). If the text needs more than 3 lines at its default width, the box widens
    around its centre (up to +110 px, inside the 24-936 px margins) until it fits on 3 lines. Audit MAP_TEXT_LINES checks 3 lines. */
 (() => { const map = document.currentScript.parentElement; const fit = () =>
@@ -78,7 +78,7 @@
     const dx = Math.abs(ex - sx), dy = Math.abs(ey - sy), dist = Math.hypot(dx, dy);
     const l0 = k * (t0[0] ? dx : dy), l1 = k * (em === 'radial' ? dist * .5 : (t1[0] ? dx : dy));
     const path = `M${sx} ${sy} C${sx + t0[0] * l0} ${sy + t0[1] * l0} ${ex - t1[0] * l1} ${ey - t1[1] * l1} ${ex} ${ey}`;
-    const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el);
+    const el = document.createElementNS('http://www.w3.org/2000/svg', 'path'); el.setAttribute('d', path); g.appendChild(el); el.dataset.k = reg.dataset.k;
     // bounding box of text + dot, used by the workshop zoom
     const zb = [Math.min(left, cx - rad, sx) - 14, Math.min(top, cy - rad, sy) - 14, Math.max(right, cx + rad, sx) + 14, Math.max(bot, cy + rad, sy) + 14];
     reg.dataset.zoom = zb.map(Math.round).join(',');

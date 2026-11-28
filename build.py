@@ -78,6 +78,10 @@ AUDIT_JS = r"""
       if (a.bottom > b.top + 1 || fl.scrollWidth > fl.clientWidth + 1) out.push([n, 'FOOT_LABEL', Math.round(a.left) + 'px', fl.textContent]); } }
     // world map: every region text on 3 lines
     sl.querySelectorAll('.map .reg').forEach(r => { if (r.dataset.lines && r.dataset.lines !== '3') out.push([n, 'MAP_TEXT_LINES', r.dataset.lines + ' lines', r.querySelector('h4').textContent]); });
+    // world map: a leader line never runs over a region text (EdTech, 28 Nov 2026: the Australia line crossed its last line; au now starts from the corner)
+    sl.querySelectorAll('.map svg.lines path').forEach(pa => { const reg = sl.querySelector('.map .reg[data-k="' + pa.dataset.k + '"]'); if (!reg) return; const R = reg.querySelector('p').getBoundingClientRect(), L = pa.getTotalLength(), m = pa.getScreenCTM(); let hit = 0;
+      for (let i = 0; i <= 40; i++) { const q = pa.getPointAtLength(L * i / 40), x = m.a * q.x + m.c * q.y + m.e, y = m.b * q.x + m.d * q.y + m.f; if (x > R.left + 2 && x < R.right - 2 && y > R.top + 2 && y < R.bottom - 2) hit++; }
+      if (hit) out.push([n, 'MAP_LINE_ON_TEXT', hit + ' points', reg.querySelector('h4').textContent]); });
     // titles: the 2-line split must be the most balanced one (set by the script in base.html.j2); flag if a title escaped it
     { const tt = sl.querySelector('.title'); if (tt && tt.innerHTML.includes('<br') && tt.dataset.bal === undefined) out.push([n, 'TITLE_BALANCE', 'not balanced', tt.textContent.slice(0, 50)]); }
     // titles: max 2 lines

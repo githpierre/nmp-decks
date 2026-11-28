@@ -129,7 +129,7 @@ ed099p:
 ed142p:
   title: 'What are the biggest
 
-    threats to edtech?'
+    threats to EdTech?'
   events:
   - odds: 45
     impact: 3
@@ -139,7 +139,7 @@ ed142p:
     text: With ESSER money gone, federal Title cuts force US districts to drop K-12 software contracts
   - odds: 35
     impact: 2
-    text: Edtech venture funding stays under $3 billion a year and most Series A startups cannot raise again
+    text: EdTech venture funding stays under $3 billion a year and most Series A startups cannot raise again
   - odds: 30
     impact: 2
     text: AI cheating spreads so fast that universities return to paper exams and cut online course tools
@@ -156,10 +156,10 @@ ed142p:
     impact: 3
     text: A major study links AI tutors to lower test scores and districts drop AI products
   note:
-  - We listed the events that could slow edtech down, from company news, regulators and analysts
+  - We listed the events that could slow EdTech down, from company news, regulators and analysts
   - Odds and impact are our own estimates, and all the sources we used are listed at the end of the report
 ed148p:
-  title: 'What pushed edtech
+  title: 'What pushed EdTech
 
     forward, year after year?'
   events:
@@ -224,7 +224,7 @@ ed148p:
     text: US relief funds give schools $190B
     impact: 2.5
   - year: '2021'
-    text: Coursera and Duolingo IPOs prove edtech pays
+    text: Coursera and Duolingo IPOs prove EdTech pays
     impact: 1.5
   - year: '2022'
     text: ChatGPT gives every student an AI tutor
@@ -254,16 +254,80 @@ ed148p:
     text: India adds AI classes from grade 3
     impact: 1.5
   note:
-  - We kept the events we believe pushed edtech forward the most
+  - We kept the events we believe pushed EdTech forward the most
   - Ratings are our estimates, with all the sources at the end of the report
 ed168p:
   handle: edtech
-  title: 'Where did edtech investors put
+  title: 'Where did EdTech investors put
 
     their money this past year?'
   note:
-  - We added up every equity round of edtech startups in our tracker over the last twelve months
+  - We added up every equity round of EdTech startups in our tracker over the last twelve months
   - by category of our market definition, and rounds with no public amount count as zero here
+  rows:
+  - name: Tutoring and test prep
+    names:
+    - Preply
+    - LearnVector
+    v: $397M
+    pct: 46% of total
+    w: 100.0
+    logos:
+    - src: ../../assets/logos/preply.png
+    - src: ../../assets/logos/learnvector.png
+    - src: ../../assets/logos/gizmo.png
+  - name: Workforce training
+    names:
+    - Multiverse
+    - Bites
+    v: $263M
+    pct: 30% of total
+    w: 66.1
+    logos:
+    - src: ../../assets/logos/multiverse.png
+    - src: ../../assets/logos/fav/bites.png
+    - src: ../../assets/logos/yoodli.png
+  - name: K-12 learning
+    names:
+    - Subject
+    - Luca Learning Systems
+    v: $94M
+    pct: 11% of total
+    w: 23.6
+    logos:
+    - src: ../../assets/logos/subject.png
+    - src: ../../assets/logos/fav/luca-learning-systems.png
+    - src: ../../assets/logos/fav/codio.png
+  - name: Higher education
+    names:
+    - BoodleBox
+    v: $61M
+    pct: 7% of total
+    w: 15.4
+    logos:
+    - src: ../../assets/logos/boodlebox.png
+  - name: Online courses
+    names:
+    - Oboe
+    - Dorm
+    v: $33M
+    pct: 4% of total
+    w: 8.3
+    logos:
+    - src: ../../assets/logos/oboe.png
+    - src: ../../assets/logos/fav/dorm.png
+    - src: ../../assets/logos/fav/dawraty-education-group.png
+  - name: Exams and credentials
+    names:
+    - BRUM Patenti
+    - Ed.ai
+    v: $24M
+    pct: 3% of total
+    w: 6.0
+    logos:
+    - src: ../../assets/logos/brum-patenti.png
+    - src: ../../assets/logos/ed-ai.png
+    - src: ../../assets/logos/deweylearn.png
 ed171p:
   title: 'Who are the top companies
 
@@ -364,16 +428,22 @@ ed171p:
     x: 662.6
     y: 528.0
   cols:
-  - cademlcimastely
-  - ''
-  - F Scteenereaentials
+  - |-
+    Academic mastery
+    & exams
+  - |-
+    Skills
+    & enrichment
+  - |-
+    Career credentials
+    & mobility
   rows:
-  - ''
   - K-12 & early learning
   - Higher-ed & academic
+  - Adult workforce & career
   note:
-  - We placed teaching, learning, testing and diploma companies by main customer and main result
-  - This is not a full list, and some small or new players may be missing, with all the sources at the end of the report
+  - We placed teaching, testing and diploma companies by main customer and by main result
+  - This is not a full list, and some new players may be missing, all sources are at the end
 ed209p:
   title: 'Why is Duolingo winning
 
@@ -398,7 +468,7 @@ ed209p:
     - 0
     - 0
     - 0
-  - name: 12.7M paid subscribers
+  - name: 13.1M paid subscribers
     why: Strong paid conversion
     ticks:
     - 1
@@ -451,7 +521,7 @@ ed209p:
   - We used company reports and public records, and all our sources are at the end of the report
 ed007p:
   type: pp_radar
-  title: 'What is in the edtech
+  title: 'What is in the EdTech
 
     market, and what is out?'
   TL:
@@ -523,18 +593,18 @@ ed039p:
 
 
 
-    doubled from 2023 to mid-2025'
+    tripled from 2023 to mid-2025'
   window: 5y
 ed052p:
   type: pp_cagr
-  title: 'Who Is in the space economy,
+  title: 'How much bigger can
 
-    and who is not part of it?'
+    EdTech really get?'
   lead: ''
-  condition: MARKET MAP
+  condition: To get that big, AI tutors and teacher tools must become paid products, and schools and employers must keep their learning budgets while tools prove real gains.
   note:
-  - Distance to the center reflects how much revenue comes from building, launching or operating space assets and their data
-  - The companies shown are a representative sample, not an exhaustive list, chosen to show where the market's boundaries lie
-  size: 213
-  cagr: null
-  y0: null
+  - We compared forecasts from Emergen Research, Fortune Business Insights, Grand View and others
+  - We adjusted each one to our market definition, and all the sources are included at the end of the report
+  size: 190
+  cagr: 13
+  y0: 2026

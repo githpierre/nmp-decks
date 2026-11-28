@@ -404,3 +404,16 @@ the build tells you. Rules without CHECK need the eye. The process is in PROTOCO
 - A round amount in a research text that disagrees with the base (NVision, $55M in its release, $38M in the base) is left out of the text and signaled to Pierre, so the deck never shows two amounts for one round.
 - The product-page S09-02 (« Which <market> startups got the biggest checks lately? ») is rebuilt from the base with tools/pp/raises_from_base.py: one bar per startup, its biggest equity round of the last two years. The logo comes from the base company id, never from the short display name (« NVision » fetched another firm's favicon).
 - EdTech Trends term (28 Nov 2026): « ai tutor » kept (2023 average 6.6, 2025 average 14.9 up to the cut, no ambiguity). « edtech » and « education tool » stay flat up to July 2025, « ai learning » rises more but also means learning about AI. The S02 twin uses « ai tutor », and the live S02-01 (« edtech ») is replaced with it.
+
+## EdTech, first build of the new pipeline (28 Nov 2026)
+- World map: a leader line never runs over its region text. Australia and Latin America start from the text corner by default
+  (the « middle » of the facing edge sent their lines through the last line of text). CHECK MAP_LINE_ON_TEXT (build audit).
+- Live twins read by OCR: every label is checked against the live image before the build (ed171p came back as
+  « cademlcimastely » and an empty first row; the row labels sit under each band on the live slide, one row lower).
+- The market name keeps its own case everywhere, live twins included (« EdTech », never « edtech » copied from a live title).
+- One figure per fact across the deck: a live twin with an older figure takes the latest one (Duolingo 12.7M became 13.1M
+  paid subscribers, Q3 2026), and the product-page slide is replaced with it.
+- A research grid that comes back transposed (company columns, one-word headers) is rebuilt in the reference shape in
+  research_fix.py; a row name over 10 letters (INSTRUCTURE) is swapped for another sourced company.
+- Pain segment names that are a single long word (Universities, Employers) become two short words on the cards
+  (College campuses, Corporate employers), so every « Which categories » label sits on 2 lines.

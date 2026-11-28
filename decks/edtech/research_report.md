@@ -1,0 +1,90 @@
+# Research import re, jsonport
+
+152 answers parsed, 0 YAML errors, 86 slides with remarks.
+
+- **ed006**: no sources
+- **ed008**: no sources
+- **ed009**: length 10: 13 vs 20; no sources
+- **ed010**: no sources
+- **ed011**: no sources
+- **ed012**: status no_data: products and their names change too often to group them reliably without fresh research
+- **ed012**: dropped: no data
+- **ed013**: status no_data: prices depend on the buyer, the volume and the contract and are rarely published
+- **ed013**: dropped: no data
+- **ed014**: no sources
+- **ed015**: no sources
+- **ed016**: length 12: 44 vs 35; length 13: 140 vs 109; no sources
+- **ed017**: no sources
+- **ed018**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed019**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed020**: missing keys [7, 8, 10, 11, 13, 16, 18, 19]; no sources
+- **ed021**: no sources
+- **ed022**: no sources
+- **ed023**: no sources
+- **ed024**: no sources
+- **ed025**: no sources
+- **ed044**: length 6: 50 vs 74
+- **ed054**: no sources
+- **ed055**: length 7: 101 vs 65; length 10: 93 vs 58; length 13: 92 vs 67; length 16: 90 vs 67; length 19: 85 vs 59; length 22: 99 vs 60; no sources
+- **ed056**: length 6: 19 vs 30; length 29: 30 vs 23; length 31: 21 vs 31; length 16: 25 vs 34; length 35: 21 vs 30; no sources
+- **ed057**: length 23: 23 vs 36; length 6: 21 vs 32; length 33: 24 vs 33; length 37: 18 vs 34; no sources
+- **ed059**: no sources
+- **ed060**: no sources
+- **ed061**: no sources
+- **ed062-s1**: no sources
+- **ed063-s1**: length 17: 12 vs 21; no sources
+- **ed064-s1**: length 15: 46 vs 65; no sources
+- **ed065-s1**: no sources
+- **ed062-s2**: no sources
+- **ed063-s2**: no sources
+- **ed064-s2**: no sources
+- **ed065-s2**: no sources
+- **ed062-s3**: no sources
+- **ed063-s3**: length 17: 15 vs 21; no sources
+- **ed064-s3**: no sources
+- **ed065-s3**: no sources
+- **ed062-s4**: no sources
+- **ed063-s4**: length 14: 14 vs 20; length 17: 15 vs 21; no sources
+- **ed064-s4**: no sources
+- **ed065-s4**: no sources
+- **ed062-s5**: no sources
+- **ed063-s5**: length 14: 11 vs 20; length 17: 15 vs 21; no sources
+- **ed064-s5**: no sources
+- **ed065-s5**: no sources
+- **ed090**: status no_data: No defensible market-wide allocation of 80% of value across technology layers was found.
+- **ed090**: dropped: no data
+- **ed095**: length 30: 77 vs 60
+- **iv_pipeline**: status no_data: Could not verify all eight requested distinct product categories and commercial stages within the specified 12-month window.
+- **iv_pipeline**: dropped: no data
+- **ed101**: no sources
+- **ed102**: no sources
+- **ed103**: length 7: 97 vs 72; length 15: 86 vs 63; no sources
+- **ed104**: length 9: 12 vs 22; length 7: 87 vs 63; length 10: 90 vs 68; length 15: 89 vs 67; no sources
+- **ed106-s1**: no sources
+- **ed107-s1**: no sources
+- **ed108-s1**: no sources
+- **ed109-s1**: length 8: 36 vs 26; no sources
+- **ed106-s2**: no sources
+- **ed107-s2**: no sources
+- **ed108-s2**: no sources
+- **ed109-s2**: length 8: 34 vs 26; no sources
+- **ed106-s3**: no sources
+- **ed107-s3**: no sources
+- **ed108-s3**: no sources
+- **ed109-s3**: length 8: 37 vs 26; no sources
+- **ed106-s4**: no sources
+- **ed107-s4**: no sources
+- **ed108-s4**: no sources
+- **ed109-s4**: length 8: 34 vs 26; no sources
+- **ed106-s5**: no sources
+- **ed107-s5**: length 8: 11 vs 20; no sources
+- **ed108-s5**: no sources
+- **ed109-s5**: length 7: 27 vs 39; length 8: 33 vs 26; no sources
+- **ed106-s6**: no sources
+- **ed107-s6**: no sources
+- **ed108-s6**: no sources
+- **ed109-s6**: no sources
+- **ed143**: length 22: 13 vs 22; length 10: 11 vs 21
+- **ed144**: length 22: 13 vs 22; length 14: 11 vs 21; length 10: 11 vs 20
+- **ed145**: length 20: 47 vs 64
+- **ed199p**: rows: 6 items vs 5; signs: 5 items vs 3
